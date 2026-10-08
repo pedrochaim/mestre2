@@ -1,0 +1,1086 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Esgrima",
+        "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Esgrima"
+        ],
+        "id_existente": "esgrima"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "A esgrima olímpica tem três armas. Em qual delas o corpo inteiro do adversário, da cabeça aos pés, vale ponto?",
+      "resposta": "Espada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/%C3%89p%C3%A9e",
+        "https://pt.wikipedia.org/wiki/Esgrima"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Nado costas",
+        "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços.",
+        "variantes": [
+          "Costas",
+          "Backstroke"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Nado_costas",
+          "https://en.wikipedia.org/wiki/Backstroke"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os quatro estilos da natação olímpica, qual é o único em que o nadador larga de dentro da água, e não do bloco?",
+      "resposta": "Nado costas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Backstroke",
+        "https://pt.wikipedia.org/wiki/Nado_costas"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Decatlo",
+        "descricao": "Prova combinada do atletismo masculino com dez provas disputadas em dois dias.",
+        "variantes": [
+          "Decathlon"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Decatlo",
+          "https://en.wikipedia.org/wiki/Decathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das dez provas do decatlo, a corrida de maior distância fica para o fim do segundo dia. Qual é ela?",
+      "resposta": "Mil e quinhentos metros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Decathlon",
+        "https://pt.wikipedia.org/wiki/Decatlo"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 2012",
+        "descricao": "Edição dos Jogos Olímpicos realizada em Londres, em 2012.",
+        "variantes": [
+          "Londres 2012"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2012_Summer_Olympics",
+          "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2012"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Antes de Paris chegar à sua terceira edição, em 2024, que cidade se tornou a primeira a sediar os Jogos de Verão três vezes?",
+      "resposta": "Londres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2012_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1968",
+        "descricao": "Edição dos Jogos Olímpicos realizada na Cidade do México, em 1968.",
+        "variantes": [
+          "Cidade do México 1968",
+          "México 1968"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1968_Summer_Olympics",
+          "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1968"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre estas cidades que sediaram os Jogos de Verão, qual fica na maior altitude, um desafio para os fundistas?",
+      "resposta": "Cidade do México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1968_Summer_Olympics"
+      ],
+      "distratores": [
+        "Munique",
+        "Atlanta",
+        "Moscou"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Larisa Latynina",
+        "descricao": "Ginasta soviética, nove vezes campeã olímpica entre 1956 e 1964.",
+        "variantes": [
+          "Larissa Latynina",
+          "Larysa Latynina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Larisa_Latynina",
+          "https://www.britannica.com/biography/Larisa-Latynina"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Antes de Michael Phelps, quem era o maior medalhista da história olímpica, com dezoito medalhas?",
+      "resposta": "Larisa Latynina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Larisa_Latynina",
+        "https://www.britannica.com/biography/Larisa-Latynina"
+      ],
+      "distratores": [
+        "Nadia Comăneci",
+        "Paavo Nurmi",
+        "Carl Lewis"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Adhemar Ferreira da Silva",
+        "descricao": "Atleta brasileiro, bicampeão olímpico do salto triplo em 1952 e 1956.",
+        "variantes": [
+          "Adhemar da Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva"
+        ],
+        "id_existente": "adhemar_ferreira_da_silva"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que atleta se tornou, em Melbourne 1956, o primeiro brasileiro a conquistar duas medalhas de ouro olímpicas?",
+      "resposta": "Adhemar Ferreira da Silva",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva",
+        "https://en.wikipedia.org/wiki/Adhemar_da_Silva"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Maurren Maggi",
+        "descricao": "Ex-atleta brasileira, campeã olímpica do salto em distância em 2008.",
+        "variantes": [
+          "Maurren Higa Maggi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maurren_Maggi"
+        ],
+        "id_existente": "maurren_maggi"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Pequim 2008, quem se tornou a primeira mulher brasileira campeã olímpica numa prova individual?",
+      "resposta": "Maurren Maggi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maurren_Maggi",
+        "https://en.wikipedia.org/wiki/Maurren_Maggi"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Esqui alpino",
+        "descricao": "Esporte olímpico de inverno de descida de montanha em esquis, com provas como descida, slalom e supergigante.",
+        "variantes": [
+          "Alpine skiing"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Esqui_alpino",
+          "https://en.wikipedia.org/wiki/Alpine_skiing"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das provas do esqui alpino olímpico, qual é a mais veloz?",
+      "resposta": "Descida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alpine_skiing",
+        "https://en.wikipedia.org/wiki/Downhill_(ski_competition)"
+      ],
+      "distratores": [
+        "Slalom",
+        "Slalom gigante",
+        "Supergigante"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Futebol de 5",
+        "descricao": "Modalidade paralímpica de futebol para atletas cegos, jogada com bola sonora e cinco jogadores por equipe.",
+        "variantes": [
+          "Futebol de cegos",
+          "Football 5-a-side"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Football_5-a-side",
+          "https://pt.wikipedia.org/wiki/Futebol_de_5"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Nas Paralimpíadas, que seleção dominou o futebol de cegos, vencendo todos os torneios disputados de 2004 a 2020?",
+      "resposta": "Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Football_5-a-side_at_the_Summer_Paralympics"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Anéis olímpicos",
+        "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_symbols"
+        ],
+        "id_existente": "aneis_olimpicos"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na fileira de cima dos anéis olímpicos ficam o azul, o vermelho e, entre eles, um anel de que cor?",
+      "resposta": "Preto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_symbols"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Heptatlo",
+        "descricao": "Prova combinada do atletismo feminino com sete provas disputadas em dois dias.",
+        "variantes": [
+          "Heptathlon"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Heptatlo",
+          "https://en.wikipedia.org/wiki/Heptathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O heptatlo feminino tem duas provas de lançamento ou arremesso. Uma é o arremesso de peso. Qual é a outra?",
+      "resposta": "Lançamento de dardo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Heptathlon",
+        "https://pt.wikipedia.org/wiki/Heptatlo"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Pentatlo moderno",
+        "descricao": "Esporte olímpico criado por Pierre de Coubertin que combina esgrima, natação, hipismo, corrida e tiro.",
+        "variantes": [
+          "Modern pentathlon"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pentatlo_moderno",
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No pentatlo moderno, a prova final, chamada laser run, alterna trechos de corrida com paradas para quê?",
+      "resposta": "Tiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Modern_pentathlon"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Biatlo",
+        "descricao": "Esporte olímpico de inverno que combina esqui cross-country e tiro.",
+        "variantes": [
+          "Biathlon"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Biatlo",
+          "https://en.wikipedia.org/wiki/Biathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas provas olímpicas de biatlo, os esquiadores levam nas costas que equipamento, usado nas paradas ao longo do percurso?",
+      "resposta": "Uma carabina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Biathlon",
+        "https://pt.wikipedia.org/wiki/Biatlo"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Pentatlo da Grécia Antiga",
+        "descricao": "Prova combinada de cinco modalidades disputada nos Jogos de Olímpia a partir do século sete antes de Cristo.",
+        "variantes": [
+          "Pentatlo antigo",
+          "Ancient pentathlon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pentathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No pentatlo da Grécia Antiga, as provas eram corrida, salto, disco, dardo e qual esporte de combate?",
+      "resposta": "Luta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pentathlon"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Ginástica rítmica",
+        "descricao": "Modalidade olímpica de ginástica em que as atletas combinam dança e manipulação de aparelhos como arco, bola, maças e fita.",
+        "variantes": [
+          "Rhythmic gymnastics"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica",
+          "https://en.wikipedia.org/wiki/Rhythmic_gymnastics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na ginástica rítmica olímpica, além de arco, bola e fita, a ginasta usa um par de aparelhos em forma de garrafa. Como se chamam?",
+      "resposta": "Maças",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica",
+        "https://en.wikipedia.org/wiki/Rhythmic_gymnastics"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "3000 metros com obstáculos",
+        "descricao": "Prova de atletismo de três mil metros em que os corredores superam barreiras fixas e um fosso com água.",
+        "variantes": [
+          "Steeplechase",
+          "Corrida com obstáculos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Steeplechase_(athletics)",
+          "https://pt.wikipedia.org/wiki/3000_metros_com_obst%C3%A1culos"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos três mil metros com obstáculos, além das barreiras, os corredores enfrentam a cada volta um obstáculo diferente. Qual?",
+      "resposta": "Um fosso com água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Futebol de 5",
+        "descricao": "Modalidade paralímpica de futebol para atletas cegos, jogada com bola sonora e cinco jogadores por equipe.",
+        "variantes": [
+          "Futebol de cegos",
+          "Football 5-a-side"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Football_5-a-side",
+          "https://pt.wikipedia.org/wiki/Futebol_de_5"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No futebol de cinco paralímpico, disputado por atletas cegos, que jogador de cada equipe pode enxergar?",
+      "resposta": "O goleiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Football_5-a-side"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Vinicius e Tom",
+        "descricao": "Mascotes olímpico e paralímpico dos Jogos Rio 2016.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vinicius_and_Tom"
+        ],
+        "id_existente": "vinicius_e_tom"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na Rio 2016, o mascote olímpico Vinicius representava a fauna brasileira. E o mascote paralímpico Tom, representava o quê?",
+      "resposta": "A flora brasileira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vinicius_and_Tom"
+      ],
+      "distratores": [
+        "A música brasileira",
+        "Os rios brasileiros",
+        "O povo brasileiro"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Marcha atlética",
+        "descricao": "Prova de atletismo de longa distância em que o atleta caminha sem perder o contato com o solo.",
+        "variantes": [
+          "Racewalking"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Marcha_atl%C3%A9tica",
+          "https://en.wikipedia.org/wiki/Racewalking"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na marcha atlética, além de manter sempre um pé no chão, a perna da frente precisa ficar esticada. Que articulação não pode dobrar?",
+      "resposta": "O joelho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Marcha_atl%C3%A9tica",
+        "https://en.wikipedia.org/wiki/Racewalking"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Boxe nos Jogos Olímpicos",
+        "descricao": "Torneios de boxe disputados no programa dos Jogos Olímpicos de Verão.",
+        "variantes": [
+          "Boxing at the Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Boxing_at_the_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde a Rio 2016, os boxeadores homens lutam nos Jogos sem qual equipamento de proteção, antes obrigatório?",
+      "resposta": "Protetor de cabeça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Boxing_at_the_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Boxing_at_the_2016_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Medalha olímpica",
+        "descricao": "Medalha de ouro, prata ou bronze entregue aos três primeiros colocados de cada prova olímpica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympic_medal"
+        ],
+        "id_existente": "medalha_olimpica"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde Atenas 2004, as medalhas dos Jogos de Verão mostram o Estádio Panatenaico e a figura de qual deusa grega da vitória?",
+      "resposta": "Nike",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympic_medal"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Basquete nos Jogos Olímpicos de Verão de 1936",
+        "descricao": "Primeiro torneio olímpico de basquete, disputado nos Jogos de Berlim 1936 e vencido pelos Estados Unidos.",
+        "variantes": [
+          "Basketball at the 1936 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1936_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A primeira final olímpica de basquete, em Berlim 1936, foi disputada ao ar livre, debaixo de chuva, numa quadra de tênis. Que tipo de piso virou lama?",
+      "resposta": "Saibro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball_at_the_1936_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Cathy Freeman",
+        "descricao": "Velocista australiana, campeã olímpica dos 400 metros em Sydney 2000.",
+        "variantes": [
+          "Catherine Freeman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cathy_Freeman"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Cathy Freeman, que acendeu a pira de Sydney 2000 e dias depois venceu os quatrocentos metros, pertence a que povo?",
+      "resposta": "Aborígenes australianos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cathy_Freeman"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Paavo Nurmi",
+        "descricao": "Fundista finlandês, nove vezes campeão olímpico nos Jogos de 1920, 1924 e 1928.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paavo_Nurmi"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Nove vezes campeão olímpico nos anos vinte, o fundista Paavo Nurmi ficou conhecido por que apelido?",
+      "resposta": "Finlandês Voador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paavo_Nurmi"
+      ],
+      "distratores": [
+        "Locomotiva do Norte",
+        "Raio de Helsinque",
+        "Lobo da Lapônia"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Pancrácio",
+        "descricao": "Esporte de combate da Grécia Antiga que misturava luta e pugilato, disputado nos Jogos de Olímpia.",
+        "variantes": [
+          "Pankration"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pancr%C3%A1cio",
+          "https://en.wikipedia.org/wiki/Pankration"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do pancrácio, luta disputada em Olímpia na Antiguidade, junta duas palavras gregas. O que ele significa?",
+      "resposta": "Toda a força",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pankration",
+        "https://pt.wikipedia.org/wiki/Pancr%C3%A1cio"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Sam (mascote)",
+        "descricao": "Águia mascote dos Jogos Olímpicos de Los Angeles 1984.",
+        "variantes": [
+          "Sam the Olympic Eagle",
+          "Águia Sam"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O mascote dos Jogos de Los Angeles 1984 era uma águia com nome inspirado em que personagem, símbolo dos Estados Unidos?",
+      "resposta": "Tio Sam",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "3000 metros com obstáculos",
+        "descricao": "Prova de atletismo de três mil metros em que os corredores superam barreiras fixas e um fosso com água.",
+        "variantes": [
+          "Steeplechase",
+          "Corrida com obstáculos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Steeplechase_(athletics)",
+          "https://pt.wikipedia.org/wiki/3000_metros_com_obst%C3%A1culos"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os três mil metros com obstáculos, em inglês steeplechase, herdaram o nome de antigas corridas que tinham como pontos de referência o quê?",
+      "resposta": "Torres de igreja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Salto Produnova",
+        "descricao": "Salto sobre a mesa da ginástica artística com rondada e duplo mortal para a frente, batizado com o nome da russa Yelena Produnova.",
+        "variantes": [
+          "Produnova vault"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Produnova_vault"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Com um duplo mortal para a frente, o Produnova é um dos saltos mais arriscados da ginástica. Que apelido sombrio ele ganhou?",
+      "resposta": "Salto da morte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yelena_Produnova"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Jesse Owens",
+        "descricao": "Velocista americano, campeão de quatro provas nos Jogos de Berlim 1936.",
+        "variantes": [
+          "James Cleveland Owens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jesse_Owens"
+        ],
+        "id_existente": "jesse_owens"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Berlim 1936, que saltador alemão disputou o ouro do salto em distância com Jesse Owens e virou amigo dele?",
+      "resposta": "Luz Long",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luz_Long",
+        "https://en.wikipedia.org/wiki/Jesse_Owens"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Wenlock (mascote)",
+        "descricao": "Mascote olímpico dos Jogos de Londres 2012, formado por uma gota de aço, ao lado do mascote paralímpico Mandeville.",
+        "variantes": [
+          "Wenlock and Mandeville"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wenlock_and_Mandeville"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Wenlock, mascote de Londres 2012, tem o nome de uma cidadezinha inglesa cujos jogos do século dezenove inspiraram qual personagem olímpico?",
+      "resposta": "Pierre de Coubertin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wenlock_and_Mandeville",
+        "https://en.wikipedia.org/wiki/Wenlock_Olympian_Games"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Johnny Weissmuller",
+        "descricao": "Nadador americano, cinco vezes campeão olímpico em 1924 e 1928, depois ator de cinema.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Cinco vezes campeão olímpico de natação nos anos vinte, o americano Johnny Weissmuller virou astro do cinema interpretando que personagem?",
+      "resposta": "Tarzan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Estádio Olímpico de Munique",
+        "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha.",
+        "variantes": [
+          "Olympiastadion München"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)"
+        ],
+        "id_existente": "estadio_olimpico_de_munique"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Dois anos depois dos Jogos de 1972, o Estádio Olímpico de Munique recebeu a final de que competição?",
+      "resposta": "Copa do Mundo de 1974",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)",
+        "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_final"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Pentatlo moderno",
+        "descricao": "Esporte olímpico criado por Pierre de Coubertin que combina esgrima, natação, hipismo, corrida e tiro.",
+        "variantes": [
+          "Modern pentathlon"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pentatlo_moderno",
+          "https://en.wikipedia.org/wiki/Modern_pentathlon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Pierre de Coubertin criou o pentatlo moderno para simular as provações de que personagem, perdido atrás das linhas inimigas?",
+      "resposta": "Um soldado de cavalaria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Modern_pentathlon"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Dorando Pietri",
+        "descricao": "Maratonista italiano que chegou em primeiro na maratona olímpica de Londres 1908 e foi desclassificado.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dorando_Pietri"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na maratona de Londres 1908, o italiano Dorando Pietri cruzou a chegada em primeiro, mas perdeu o ouro. O que causou sua desclassificação?",
+      "resposta": "Foi amparado pelos juízes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dorando_Pietri"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Estádio Olímpico do Centenário",
+        "descricao": "Estádio principal dos Jogos Olímpicos de Atlanta 1996, nos Estados Unidos.",
+        "variantes": [
+          "Centennial Olympic Stadium",
+          "Turner Field"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Centennial_Olympic_Stadium"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Depois dos Jogos de 1996, o estádio olímpico de Atlanta foi reformado e virou a casa de um time de que esporte?",
+      "resposta": "Beisebol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Centennial_Olympic_Stadium"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Brasil nos Jogos Olímpicos de Verão de 1932",
+        "descricao": "Participação brasileira nos Jogos de Los Angeles 1932, com a delegação viajando de navio.",
+        "variantes": [
+          "Brazil at the 1932 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_at_the_1932_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1932, o navio que levou a delegação brasileira aos Jogos de Los Angeles ia carregado de café. Para quê?",
+      "resposta": "Para vender e pagar a viagem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_at_the_1932_Summer_Olympics",
+        "https://pt.wikipedia.org/wiki/Brasil_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1932"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Desfile das delegações",
+        "descricao": "Entrada das equipes nacionais na cerimônia de abertura dos Jogos Olímpicos.",
+        "variantes": [
+          "Parade of Nations",
+          "Desfile das nações"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parade_of_Nations"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Por tradição, que país abre o desfile das delegações na cerimônia de abertura dos Jogos Olímpicos?",
+      "resposta": "Grécia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parade_of_Nations"
+      ],
+      "distratores": [
+        "França",
+        "Itália",
+        "Suíça"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1900",
+        "descricao": "Edição dos Jogos Olímpicos realizada em Paris em 1900, espalhada por vários meses.",
+        "variantes": [
+          "Paris 1900"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+        ],
+        "id_existente": "jogos_olimpicos_de_verao_de_1900"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Os Jogos de Atenas 1896 foram só para homens. Em que edição as mulheres competiram pela primeira vez nos Jogos modernos?",
+      "resposta": "Paris 1900",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Verão de 1948",
+        "descricao": "Edição dos Jogos Olímpicos realizada em Londres em 1948, a primeira de verão após a Segunda Guerra Mundial.",
+        "variantes": [
+          "Londres 1948"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1948_Summer_Olympics"
+        ],
+        "id_existente": "jogos_olimpicos_de_verao_de_1948"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O estádio principal dos Jogos de Londres 1948 também foi palco da final da Copa do Mundo de 1966. Que estádio é esse?",
+      "resposta": "Estádio de Wembley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1948_Summer_Olympics",
+        "https://en.wikipedia.org/wiki/Wembley_Stadium_(1923)"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Jogos Olímpicos de Inverno de 1972",
+        "descricao": "Edição dos Jogos Olímpicos de Inverno realizada no Japão em 1972, a primeira na Ásia.",
+        "variantes": [
+          "Sapporo 1972"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1972_Winter_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1972, os Jogos Olímpicos de Inverno foram disputados pela primeira vez na Ásia. Em que cidade japonesa?",
+      "resposta": "Sapporo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1972_Winter_Olympics"
+      ],
+      "distratores": [
+        "Nagano",
+        "Tóquio",
+        "Quioto"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Remo",
+        "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas.",
+        "variantes": [
+          "Rowing"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eight_(rowing)"
+        ],
+        "id_existente": "remo"
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No remo, o maior barco olímpico, chamado oito com timoneiro, leva quantas pessoas a bordo?",
+      "resposta": "Nove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eight_(rowing)"
+      ],
+      "distratores": [
+        "Oito",
+        "Dez",
+        "Sete"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Saltos ornamentais",
+        "descricao": "Esporte aquático olímpico em que o atleta salta de um trampolim ou plataforma executando acrobacias antes de entrar na água.",
+        "variantes": [
+          "Diving"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Saltos_ornamentais",
+          "https://en.wikipedia.org/wiki/Diving_(sport)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Nos saltos ornamentais olímpicos, a plataforma fixa de onde os atletas saltam fica a quantos metros de altura da água?",
+      "resposta": "Dez metros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Diving_(sport)",
+        "https://pt.wikipedia.org/wiki/Saltos_ornamentais"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Sam (mascote)",
+        "descricao": "Águia mascote dos Jogos Olímpicos de Los Angeles 1984.",
+        "variantes": [
+          "Sam the Olympic Eagle",
+          "Águia Sam"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A águia Sam, mascote dos Jogos de Los Angeles 1984, foi desenhada por um artista de que estúdio de animação?",
+      "resposta": "Disney",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle"
+      ],
+      "distratores": [
+        "Hanna-Barbera",
+        "Warner Bros.",
+        "MGM"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Vôlei de praia nos Jogos Olímpicos de 1996",
+        "descricao": "Torneio de vôlei de praia dos Jogos de Atlanta 1996, estreia da modalidade no programa olímpico.",
+        "variantes": [
+          "Beach volleyball at the 1996 Summer Olympics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Olimpíadas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Atlanta 1996, que dupla deu ao Brasil a primeira medalha de ouro olímpica conquistada por mulheres?",
+      "resposta": "Jacqueline Silva e Sandra Pires",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics",
+        "https://pt.wikipedia.org/wiki/Jacqueline_Silva"
+      ]
+    }
+  ]
+}

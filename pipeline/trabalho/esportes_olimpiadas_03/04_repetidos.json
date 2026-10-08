@@ -1,0 +1,434 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A esgrima olímpica tem três armas. Em qual delas o corpo inteiro do adversário, da cabeça aos pés, vale ponto?",
+        "resposta": "Espada"
+      },
+      "existentes": [
+        {
+          "id": "q00516",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Esgrima"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Das dez provas do decatlo, a corrida de maior distância fica para o fim do segundo dia. Qual é ela?",
+        "resposta": "Mil e quinhentos metros"
+      },
+      "existentes": [
+        {
+          "id": "q01660",
+          "pergunta": "Depois de dois dias de competição, qual é a última das dez provas do decatlo?",
+          "resposta": "1500 metros"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que atleta se tornou, em Melbourne 1956, o primeiro brasileiro a conquistar duas medalhas de ouro olímpicas?",
+        "resposta": "Adhemar Ferreira da Silva"
+      },
+      "existentes": [
+        {
+          "id": "q00681",
+          "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva também atuou num filme vencedor da Palma de Ouro e do Oscar. Qual?",
+          "resposta": "Orfeu Negro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Pequim 2008, quem se tornou a primeira mulher brasileira campeã olímpica numa prova individual?",
+        "resposta": "Maurren Maggi"
+      },
+      "existentes": [
+        {
+          "id": "q04208",
+          "pergunta": "Quem é esta atleta brasileira?",
+          "resposta": "Maurren Maggi"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na fileira de cima dos anéis olímpicos ficam o azul, o vermelho e, entre eles, um anel de que cor?",
+        "resposta": "Preto"
+      },
+      "existentes": [
+        {
+          "id": "q00667",
+          "pergunta": "Segundo o criador dos anéis olímpicos, por que foram escolhidas aquelas cores, somadas ao fundo branco da bandeira?",
+          "resposta": "Juntas formam as cores de todas as bandeiras"
+        },
+        {
+          "id": "q00668",
+          "pergunta": "Quem criou o símbolo dos cinco anéis olímpicos entrelaçados, apresentado em 1913?",
+          "resposta": "Pierre de Coubertin"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No pentatlo moderno, a prova final, chamada laser run, alterna trechos de corrida com paradas para quê?",
+        "resposta": "Tiro"
+      },
+      "existentes": [
+        {
+          "id": "q01632",
+          "pergunta": "Segundo a tradição, ao criar o pentatlo moderno, Pierre de Coubertin se inspirou nas provações de que tipo de soldado do século dezenove?",
+          "resposta": "Soldado de cavalaria"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Nas provas olímpicas de biatlo, os esquiadores levam nas costas que equipamento, usado nas paradas ao longo do percurso?",
+        "resposta": "Uma carabina"
+      },
+      "existentes": [
+        {
+          "id": "q05720",
+          "pergunta": "O biatlo, esporte dos Jogos de Inverno, combina o esqui cross-country com qual outra modalidade?",
+          "resposta": "Tiro com carabina"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No pentatlo da Grécia Antiga, as provas eram corrida, salto, disco, dardo e qual esporte de combate?",
+        "resposta": "Luta"
+      },
+      "existentes": [
+        {
+          "id": "q03243",
+          "pergunta": "Além de corrida, salto em distância, disco e dardo, que prova completava o pentatlo das Olimpíadas antigas?",
+          "resposta": "Luta"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na ginástica rítmica olímpica, além de arco, bola e fita, a ginasta usa um par de aparelhos em forma de garrafa. Como se chamam?",
+        "resposta": "Maças"
+      },
+      "existentes": [
+        {
+          "id": "q05719",
+          "pergunta": "Na ginástica rítmica, as atletas se apresentam com aparelhos como a fita, o arco e a bola. Qual destes também é um aparelho oficial?",
+          "resposta": "Maças"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Nos três mil metros com obstáculos, além das barreiras, os corredores enfrentam a cada volta um obstáculo diferente. Qual?",
+        "resposta": "Um fosso com água"
+      },
+      "existentes": [
+        {
+          "id": "q05710",
+          "pergunta": "O steeplechase, prova de três mil metros com obstáculos, herdou o nome de corridas de cavalo antigas. Elas tinham como ponto de chegada a torre de que tipo de construção?",
+          "resposta": "Igreja"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na Rio 2016, o mascote olímpico Vinicius representava a fauna brasileira. E o mascote paralímpico Tom, representava o quê?",
+        "resposta": "A flora brasileira"
+      },
+      "existentes": [
+        {
+          "id": "q00660",
+          "pergunta": "Os mascotes olímpico e paralímpico da Rio 2016 receberam nomes em homenagem a que dupla de compositores da bossa nova?",
+          "resposta": "Vinicius de Moraes e Tom Jobim"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Na marcha atlética, além de manter sempre um pé no chão, a perna da frente precisa ficar esticada. Que articulação não pode dobrar?",
+        "resposta": "O joelho"
+      },
+      "existentes": [
+        {
+          "id": "q08557",
+          "pergunta": "Na marcha atlética, que regra sobre os pés diferencia a prova de uma corrida comum?",
+          "resposta": "Um pé sempre no chão"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Desde Atenas 2004, as medalhas dos Jogos de Verão mostram o Estádio Panatenaico e a figura de qual deusa grega da vitória?",
+        "resposta": "Nike"
+      },
+      "existentes": [
+        {
+          "id": "q00700",
+          "pergunta": "Desde 1912, as medalhas de ouro olímpicas não são maciças. Elas são feitas, em sua maior parte, de que metal?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O nome do pancrácio, luta disputada em Olímpia na Antiguidade, junta duas palavras gregas. O que ele significa?",
+        "resposta": "Toda a força"
+      },
+      "existentes": [
+        {
+          "id": "q01983",
+          "pergunta": "O pancrácio, luta dos Jogos Olímpicos da Grécia Antiga, combinava técnicas de que duas modalidades?",
+          "resposta": "Boxe e luta livre"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Os três mil metros com obstáculos, em inglês steeplechase, herdaram o nome de antigas corridas que tinham como pontos de referência o quê?",
+        "resposta": "Torres de igreja"
+      },
+      "existentes": [
+        {
+          "id": "q05710",
+          "pergunta": "O steeplechase, prova de três mil metros com obstáculos, herdou o nome de corridas de cavalo antigas. Elas tinham como ponto de chegada a torre de que tipo de construção?",
+          "resposta": "Igreja"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em Berlim 1936, que saltador alemão disputou o ouro do salto em distância com Jesse Owens e virou amigo dele?",
+        "resposta": "Luz Long"
+      },
+      "existentes": [
+        {
+          "id": "q00662",
+          "pergunta": "Jesse Owens se chamava James Cleveland. Como ele se apresentava quando uma professora entendeu errado e passou a chamá-lo de Jesse?",
+          "resposta": "J.C., suas iniciais"
+        },
+        {
+          "id": "q05700",
+          "pergunta": "Sob o olhar do regime nazista, o americano Jesse Owens ganhou quatro medalhas de ouro nos Jogos de Berlim. Em que ano?",
+          "resposta": "1936"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Cinco vezes campeão olímpico de natação nos anos vinte, o americano Johnny Weissmuller virou astro do cinema interpretando que personagem?",
+        "resposta": "Tarzan"
+      },
+      "existentes": [
+        {
+          "id": "q01642",
+          "pergunta": "O nadador americano Johnny Weissmuller, cinco vezes campeão olímpico, ficou famoso no cinema interpretando qual personagem?",
+          "resposta": "Tarzan"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Dois anos depois dos Jogos de 1972, o Estádio Olímpico de Munique recebeu a final de que competição?",
+        "resposta": "Copa do Mundo de 1974"
+      },
+      "existentes": [
+        {
+          "id": "q04459",
+          "pergunta": "Em que cidade alemã fica este estádio?",
+          "resposta": "Munique"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Pierre de Coubertin criou o pentatlo moderno para simular as provações de que personagem, perdido atrás das linhas inimigas?",
+        "resposta": "Um soldado de cavalaria"
+      },
+      "existentes": [
+        {
+          "id": "q01632",
+          "pergunta": "Segundo a tradição, ao criar o pentatlo moderno, Pierre de Coubertin se inspirou nas provações de que tipo de soldado do século dezenove?",
+          "resposta": "Soldado de cavalaria"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Os Jogos de Atenas 1896 foram só para homens. Em que edição as mulheres competiram pela primeira vez nos Jogos modernos?",
+        "resposta": "Paris 1900"
+      },
+      "existentes": [
+        {
+          "id": "q04682",
+          "pergunta": "Os Jogos de Paris 1900 se espalharam por cerca de cinco meses porque foram disputados como parte de que grande evento?",
+          "resposta": "Exposição Universal de 1900"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O estádio principal dos Jogos de Londres 1948 também foi palco da final da Copa do Mundo de 1966. Que estádio é esse?",
+        "resposta": "Estádio de Wembley"
+      },
+      "existentes": [
+        {
+          "id": "q04668",
+          "pergunta": "Os Jogos de Londres 1948, os primeiros de verão após a Segunda Guerra, sem novas construções e com comida racionada, ganharam que apelido?",
+          "resposta": "Jogos da Austeridade"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "No remo, o maior barco olímpico, chamado oito com timoneiro, leva quantas pessoas a bordo?",
+        "resposta": "Nove"
+      },
+      "existentes": [
+        {
+          "id": "q04281",
+          "pergunta": "Que modalidade olímpica aquática é esta?",
+          "resposta": "Remo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre arma específica, outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Última prova do decatlo, 1500 m, mesma resposta e fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ouro em Melbourne vs. filme Orfeu Negro."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Identificar Maurren Maggi; mesma resposta, a existente é imagem sobre a mesma pessoa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cor do anel central, fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Laser run (tiro) vs. inspiração de Coubertin."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Biatlo combina esqui e tiro com carabina; mesma resposta essencial."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: luta completa o pentatlo antigo."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: maças como aparelho da rítmica."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Fosso com água vs. origem do nome."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Representação do mascote Tom vs. origem dos nomes."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Joelho esticado vs. regra do pé no chão."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Design da medalha vs. metal do ouro."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Etimologia vs. técnicas combinadas."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: nome vem de torres de igreja."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Luz Long não coberto pelas existentes."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta, Tarzan."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Copa de 1974 vs. cidade do estádio."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: soldado de cavalaria inspirou o pentatlo."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Primeira participação feminina vs. evento de 1900."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Estádio de Wembley vs. apelido dos Jogos."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Tamanho do oito com timoneiro vs. identificar o remo."
+    }
+  ]
+}

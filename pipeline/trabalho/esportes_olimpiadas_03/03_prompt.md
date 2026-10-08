@@ -1,0 +1,1739 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Olimpíadas** (tema **Esportes**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Esgrima",
+      "descricao": "Esporte de combate com armas brancas: florete, espada e sabre."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A esgrima olímpica tem três armas. Em qual delas o corpo inteiro do adversário, da cabeça aos pés, vale ponto?",
+    "resposta": "Espada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/%C3%89p%C3%A9e",
+      "https://pt.wikipedia.org/wiki/Esgrima"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/%C3%89p%C3%A9e",
+        "situacao": "ok",
+        "texto": "The épée (, French: [epe]; lit. 'sword'), also rendered as epee in English, is the largest and heaviest of the three weapons used in the sport of fencing. The modern épée derives from the 19th-century épée de combat, a weapon which itself derives from the French small sword."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Esgrima",
+        "situacao": "ok",
+        "texto": "A esgrima (do antigo provençal esgrima do vocábulo germânico skirmjan, \"proteger\") é um desporto que evoluiu da antiga forma de combate, em que o objetivo é tocar no adversário com uma lâmina ao mesmo tempo que se evita ser tocado por ele. Existem três disciplinas de esgrima: o florete, a espada e o sabre, diferindo não só no formato da lâmina mas também nas zonas do corpo onde um toque é válido e\n[…]\nA história da esgrima em si tem uma origem de pelo menos três mil anos. Pinturas egípcias e gregas mostram guerreiros empunhando espadas. A Bíblia também se refere a muitas espadas ao longo dos dois testamentos. Um templo japonês construído em 1160 a.C., mostrava alguns guerreiros semidespidos empunhando armas pontiagudas com bicos de proteção.\n[…]\nCampeonato Mundial de Esgrima\n[…]\nEsgrima artística\n[…]\nEsgrima nos Jogos Olímpicos\n[…]\n«Federação Internacional de Esgrima» (em inglês, espanhol, e francês)\n[…]\n«Confederação Brasileira de Esgrima»\n[…]\n«Federação Portuguesa de Esgrima»\n[…]\n«Associação Internacional de Esgrima Antiga»"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Nado costas",
+      "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre os quatro estilos da natação olímpica, qual é o único em que o nadador larga de dentro da água, e não do bloco?",
+    "resposta": "Nado costas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Backstroke",
+      "https://pt.wikipedia.org/wiki/Nado_costas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Backstroke",
+        "situacao": "ok",
+        "texto": "Backstroke or back crawl is one of the four swimming styles used in competitive events regulated by FINA, and the only one of these styles swum on the back. This swimming style has the advantage of easy breathing, but the disadvantage of swimmers not being able to see where they are going. It also has a different start from the other three competition swimming styles. The swimming style is similar\n[…]\nIn individual medley backstroke is the second style swum; in the medley relay it is the first style swum.\n[…]\nThe leg movement in backstroke is similar to the flutter kick in front crawl. The kick makes a large contribution to the forward speed, while significantly stabilizing the body.\n[…]\nOn September 21, 2005, FINA modified the backstroke start rule regarding toes below the water line. The feet can now be above the water, but not above or curled over the lip of the pool gutter.\n[…]\nAfter the start, the swimmer is completely underwater. Due to increased resistance at the surface, experienced swimmers usually swim faster underwater than at the surface. Therefore, most experienced swimmers in backstroke competitions stay under water up to the limit set by FINA (15 meters after the start and after every turn). Most swimmers use a butterfly kick underwater, as this provides more forward movement than the flutter kick.\n[…]\n2020 USA Swimming Rulebook, 101.4 BACKSTROKE, Finish — Upon the finish of the race, the swimmer must touch the wall while on the back.\n[…]\nThere are three common distances swum in competitive backstroke swimming, both over either a long course (50 m pool) or a short course (25 m pool). The United States also employs short-course yards (25-yard pool).\n[…]\n50 m backstroke\n[…]\n100 m backstroke\n[…]\n200 m backstroke\n[…]\nBackstroke is also part of the medley over the following distances:\n[…]\nVictory backstroke\n[…]\nBackstroke Start Archived 2015-09-06 at the Wayback Machine: USA Swimming backstroke start"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nado_costas",
+        "situacao": "ok",
+        "texto": "Nado costas é um dos estilos que pode ser utilizado em competições desportivas de natação. Caracteriza-se pela posição do nadador de costas para o fundo da piscina, batida rápida de pernas e braçadas alternadas.\n[…]\nNão se sabe ao certo quando o homem começou a nadar de costas. Porém, em 1794, Oronzio de Bernadi descreveu um estilo com braçadas de costas. Mas somente a partir de 1912, os nadadores começaram a praticar o nado com mais velocidade.\n[…]\nO mérito dessa evolução cabe ao nadador norte americano Harry Hebner, que venceu os cem metros nos jogos de Estocolmo, na Suécia, em 1912, utilizando-se de uma nova maneira de bater os pés.O nado de costas, ao contrário do que se imagina, não é tão fácil de se aprender com correção, por falta de condições perceptivas nos movimentos que fogem do nosso controle visual, principalmente no que concerne à execução subaquática, além de uma certa insegurança quanto à direção, que se está progredindo.\n[…]\nA saída do nado de costas é realizada dentro da piscina. Por isso, o atleta precisa estar atento ao seu posicionamento junto à raia. Ao ser dada a saída, o nadador puxa o seu corpo contra o agarre e, ao mesmo tempo, empurra, com os pés, a borda de modo que o corpo se eleve e os quadris saiam da água, como se fosse uma mola comprimida. Ao ouvir o tiro, ele mergulha para trás.\n[…]\nNa natação de costas, o competidor fica de barriga para cima (decúbito dorsal) e as pernas têm muito mais importância do que no crawl. Existem várias maneiras de nadar de costas. A mais comum é o crawl de costas, em que os braços giram alternadamente como se fossem hélices.\n[…]\nEm seguida, o nadador dá impulso com os pés e prepara-se para voltar à posição original do estilo.\n[…]\nMedley (natação)"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Decatlo",
+      "descricao": "Prova combinada do atletismo masculino com dez provas disputadas em dois dias."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Das dez provas do decatlo, a corrida de maior distância fica para o fim do segundo dia. Qual é ela?",
+    "resposta": "Mil e quinhentos metros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Decathlon",
+      "https://pt.wikipedia.org/wiki/Decatlo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Decathlon",
+        "situacao": "ok",
+        "texto": "The decathlon is a combined event in athletics consisting of 10 track and field events. The word was formed in analogy to the word \"pentathlon\", from Greek δέκα (déka 'ten') and ἆθλον (áthlon 'contest, prize'). Events are held over two consecutive days and the winners are determined by the combined performance in all. Performance is judged not by the position achieved but rather on a points system\n[…]\nWomen's decathlon reversed field event order (optional)\n[…]\nThe total decathlon score for all world records in the respective events would be 12,687. The total decathlon score for all the best performances achieved during decathlons is 10,685. The Difference column shows the difference in points between the decathlon points that the individual current world record would be awarded and the points awarded to the current decathlon record for that event. The relative differences in points are much higher in throwing events than in running and jumping events.\n[…]\nDecathlon bests are only recognized when an athlete completes the ten-event competition with a score of over 7000 points.\n[…]\nThe world decathlon under-20 record is held by Hubert Trościanka, of Poland, who scored 8514 points at the European U20 Championships in Tampere, Finland, from 7-8th August 2025. This score was also the first over the 8500 point mark.\n[…]\nThe world decathlon under-20 record using senior implements is held by Torsten Voss, of East Germany, who scored 8397 points in Erfurt, East Germany, from 6–7 July 1982. This was the last record to be ratified because it is no longer a World Athletics under-20 record event.\n[…]\n(Within a completed decathlon scoring more than 7000 points)\n[…]\nIcosathlon or double decathlon\n[…]\nDecathlon world record progression\n[…]\nList of decathlon national champions (men)\n[…]\nIAAF decathlon homepage\n[…]\nIAAF list of decathlon records in XML\n[…]\nTeam Decathlon website\n[…]\nDecathlon splits of Olympic, World and European medalists"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Decatlo",
+        "situacao": "ok",
+        "texto": "Decatlo é uma competição de atletismo composta por dez provas. Nos Jogos Olímpicos, é exclusivamente praticada por homens. O equivalente feminino desta prova é o heptatlo, com sete provas. Os atletas inscritos competem num programa de dois dias, que inclui as seguintes modalidades: 100 metros rasos; salto em distância, arremesso de peso, salto em altura, 400 metros rasos (1.º dia); 110 metros com \n[…]\nA especial importância do decatlo deve-se a que o vencedor dessa modalidade é considerado \"o atleta mais completo do mundo\", por causa do conjunto de provas que a modalidade exige, ao mesmo tempo, resistência extraordinária e o desenvolvimento harmônico de diferentes aptidões físicas.\n[…]\nA palavra decatlo tem origem grega e vem de δέκα (déka, significando \"dez\") e ἄθλος (áthlos, ou ἄθλον, áthlon, que significa \"façanha\"). Ele tem a sua origem no pentatlo dos Jogos Olímpicos da Antiguidade, que incluía salto em distância, lançamento do disco, do dardo, uma corrida e uma luta. A modalidade foi introduzida nos Jogos de 708 a.C. e se tornou popular por vários séculos. No sexto século a.C. pentatlos se tornaram parte de eventos religiosos.\n[…]\nUm evento com dez modalidades chamado \"All-around\", similar ao decatlo moderno, foi disputado no Campeonato de Atletismo Amador dos Estados Unidos em 1884 e tomou uma forma consistente a partir de 1890. Várias versões de decatlo foram disputadas durante o século XIX e ele foi passou a fazer parte do programa olímpico em St. Louis 1904, como um \"All-Around Championship\". O evento foi disputado por sete atletas de duas nações e, segundo as regras da época, durava três dias.\n[…]\nO primeiro campeão olímpico da Era Moderna foi o britânico Thomas Kiely. Nesta primeira participação, o decatlo era composto por:"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Jogos Olímpicos de Verão de 2012",
+      "descricao": "Edição dos Jogos Olímpicos realizada em Londres, em 2012."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Antes de Paris chegar à sua terceira edição, em 2024, que cidade se tornou a primeira a sediar os Jogos de Verão três vezes?",
+    "resposta": "Londres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2012_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2012_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The 2012 Summer Olympics, officially the Games of the XXX Olympiad and also known as London 2012, were an international multi-sport event held from 27 July to 12 August 2012 in London, England. Some events were held at venues elsewhere in the United Kingdom. There were 10,518 athletes from 206 National Olympic Committees (NOCs) who participated in the 2012 Olympics.\n[…]\nLondon was chosen over Birmingham to represent Great Britain's bid by the British Olympic Association. By 15 July 2003—the deadline for interested cities to submit bids to the International Olympic Committee (IOC)—nine cities had submitted bids to host the 2012 Summer Olympics: Havana, Istanbul, Leipzig, London, Madrid, Moscow, New York City, Paris and Rio de Janeiro.\n[…]\nOn 6 July 2005 the final selection was announced at the 117th IOC Session in Singapore. Moscow was the first city to be eliminated, followed by New York and Madrid. The final two contenders were London and Paris. At the end of the fourth round of voting, London won the right to host the 2012 Games with 54 votes to 50. The celebrations in London were short-lived, being overshadowed by bombings on London's transport system less than 24 hours after the announcement.\n[…]\nFive years after the games, Paris would later be selected to host the 2024 Summer Olympics on 13 September 2017.\n[…]\n2012 Summer Olympics – London\n[…]\n2012 Olympic hunger summit\n[…]\nLOCOG, ed. (2013). Volume 1: Summary of the bid preparation. London 2012 Olympic Games: The Official Report. London: LOCOG.\n[…]\nLOCOG, ed. (2013). Volume 3: Summary of Olympic Games preparations. London 2012 Olympic Games: The Official Report. London: LOCOG.\n[…]\n\"London 2012\". Olympics.com. International Olympic Committee.\n[…]\nLondon 2012 at BBC Online\n[…]\n2012 Summer Olympics collected news and commentary at The Guardian\n[…]\n2012 London Olympics at NBC at the Wayback Machine (archived 3 July 2013)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2012",
+        "situacao": "ok",
+        "texto": "Jogos Olímpicos de Verão de 2012 (em inglês: 2012 Summer Olympic Games), oficialmente conhecidos como os Jogos da XXX Olimpíada, mais comumente Londres 2012 foram os Jogos Olímpicos realizados na cidade de Londres, de 27 de julho a 12 de agosto de 2012. Após estes Jogos realizaram-se, na mesma cidade, os Jogos Paralímpicos de Verão de 2012, entre 29 de agosto e 9 de setembro.\n[…]\nLondres foi a primeira cidade a sediar oficialmente os Jogos Olímpicos da Era Moderna, por três vezes – as anteriores foram em 1908 e 1948.\n[…]\nCom todos estes órgãos, o Reino Unido irá prolongar por muitos anos, os efeitos positivos que os Jogos Olímpicos de Londres 2012 têm para oferecer.\n[…]\nA cerimônia de entrega marcou o momento em que os Jogos anteriores, em Pequim 2008, entregou a bandeira olímpica para a cidade de Londres, a nova sede. O prefeito Boris Johnson recebeu a bandeira do prefeito de Pequim, Guo Jinlong, em nome de Londres.\n[…]\nPara os Jogos de Londres, a passagem também foi comemorada no Reino Unido com uma série de eventos. A transmissão da festa \"The London Visa 2012 Party\" na BBC Radio 1 e na BBC Radio 2, o show gratuito no The Mall em Londres, teve 40 mil ingressos disponíveis e vendidos. Em todo o Reino Unido havia telões com transmissão da cerimônia de encerramento ao vivo de Pequim, a cerimônia de encerramento e também celebrações locais em várias cidades.\n[…]\nO programa para Londres 2012 constou de 26 esportes num total de 39 disciplinas. Em relação a Pequim, Londres teve dois esportes a menos, pois beisebol e o softbol foram excluídos do programa dois dias antes da cidade ser escolhida como a cidade sede. O COI reforçou a sua decisão de excluir os dois esportes durante as Olimpíadas de Inverno de Turim 2006, depois de serem rejeitados na última avaliação. Na mesma votação se optou pelo não preenchimento das vagas destes esportes para Londres 2012.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Jogos Olímpicos de Verão de 1968",
+      "descricao": "Edição dos Jogos Olímpicos realizada na Cidade do México, em 1968."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estas cidades que sediaram os Jogos de Verão, qual fica na maior altitude, um desafio para os fundistas?",
+    "resposta": "Cidade do México",
+    "distratores": [
+      "Munique",
+      "Atlanta",
+      "Moscou"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1968_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1968_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The 1968 Summer Olympics (Spanish: Juegos Olímpicos de Verano de 1968), officially known as the Games of the XIX Olympiad (Spanish: Juegos de la XIX Olimpiada) and officially branded as Mexico 1968 (Spanish: México 1968), were an international multi-sport event held from 12 to 27 October 1968, in Mexico City, Mexico. These were the first Olympic Games to be staged in Latin America, the first to be\n[…]\nBaseball had been featured as a demonstration sport at the 1964 Tokyo Games, but not in 1968, despite Mexico's baseball heritage. Instead, a separate international tournament was held in Mexico City, shortly after the conclusion of the Olympic Games.\n[…]\nThese are the top ten nations that won medals at the 1968 Games. Host Mexico won nine medals in total.\n[…]\nJosé Rogelio Alvarez, MEXICO 68. Official Report of the 1968 Olympic Games. Produced by the Organizing Committee of the Games of the XIX Olympiad. Volume 1–5 (4+1 Official Souveniers[sic]), Mexico City 1969. (french/english, spanish/german) Supplement: Volume 2b – Final report, Mexico City 1969. (spanish)\n[…]\nOrganizing Committee of the Games of the XIX Olympiad, MEXICO 68: Official Report of the 1968 Olympic Games. Volume 1 – The country. Mexico City 1969. (french/english)\n[…]\nOrganizing Committee of the Games of the XIX Olympiad, MEXICO 68: Official Report of the 1968 Olympic Games. Volume 2 – The organization. Mexico City 1969. (french/english)\n[…]\nOrganizing Committee of the Games of the XIX Olympiad, MEXICO 68: Official Report of the 1968 Olympic Games. Volume 3 – The games. Mexico City 1969. (french/english)\n[…]\nOrganizing Committee of the Games of the XIX Olympiad, MEXICO 68: Official Report of the 1968 Olympic Games. Volume 4 – The cultural Olympiad. Mexico City 1969. (french/english)\n[…]\n\"Mexico City 1968\". Olympics.com. International Olympic Committee.\n[…]\nThe Politics of Hypocrisy – Mexico '68\n[…]\nThe program of the 1968 Mexico City Olympics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1968",
+        "situacao": "ok",
+        "texto": "Jogos Olímpicos de Verão de 1968 (em espanhol: Juegos Olímpicos de Verano de 1968), conhecidos oficialmente como os Jogos da XIX Olimpíada foram realizados na Cidade do México entre 12 e 27 de outubro de 1968. Pela primeira vez os Jogos foram sediados na América Latina e a altitude de 2 300m acima do nível do mar da capital federal mexicana gerou controvérsias sobre os danos que o ar mais rarefeit\n[…]\nO México também deu sua contribuição ao clima que marcava esta época, quando tropas federais do governo reprimiram com violência centenas de estudantes durante manifestações na Praça das Três Culturas, dez dias antes da cerimônia de abertura dos Jogos, no que ficou conhecido como o Massacre de Tlatelolco, manchando irremediavelmente o espírito olímpico pregado pelo COI e por seu fundador, o Barão de Coubertin, quase provocando o cancelamento do evento.\n[…]\nA Cidade do México foi escolhida como sede dos XIX Jogos Olímpicos na 60ª sessão do Comitê Olímpico Internacional, realizada em 18 de outubro de 1963 na cidade de Baden-Baden, Alemanha Ocidental, batendo as candidaturas de Detroit, Buenos Aires e Lyon, obtendo a maioria dos votos já no primeiro turno da votação.\n[…]\nAtletas de 112 Comitês Olímpicos Nacionais foram representadas nos Jogos de 1968. Onze delegações fizeram sua primeira aparição olímpica: El Salvador, Guiné, Honduras, Honduras Britânicas (atual Belize), Ilhas Virgens Americanas, Kuwait, Nicarágua, Paraguai, Serra Leoa, República Centro-Africana e República Democrática do Congo (como Congo-Kinshasa).\n[…]\nA Alemanha Oriental e a Alemanha Ocidental competiram separadamente pela primeira vez nos Jogos Olímpicos de Verão e assim permaneceriam até 1988. Barbados competiu pela primeira vez como um país independente. Também competindo pela primeira vez estava Singapura, que voltou aos Jogos como um país independente depois de competir como parte da equipe da Malásia em 1964.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Hipismo nos Jogos Olímpicos",
+      "descricao": "Conjunto das provas equestres do programa olímpico: saltos, adestramento e concurso completo."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual esporte olímpico se destaca por colocar homens e mulheres para competir entre si, nas mesmas provas e em igualdade?",
+    "resposta": "Hipismo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equestrian_at_the_Summer_Olympics",
+      "https://en.wikipedia.org/wiki/Equestrianism"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Equestrian_at_the_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Equestrian sports were first included in the Olympic Games in the Summer Olympics of 1900 in Paris. They were again included in 1912, and have been included in every subsequent edition of the Games. Currently, the Olympic equestrian disciplines are dressage, eventing, and show jumping. In each discipline, both individual and team medals are awarded. Since the XV Olympiad in Helsinki in 1952, women\n[…]\nThe international governing body for equestrian sports is the Fédération Équestre Internationale. The first Olympics held under its authority were in 1924. Since that time, Germany has established itself as the leading power in equestrian competitions.\n[…]\nUntil the 1952 Summer Olympics, only commissioned military officers and \"gentlemen\" were permitted to compete in the Olympic equestrian disciplines, which had the effect of excluding all women and all men serving in the military but not holding officers' commissions. An exception was the hacks and hunter combined event at the 1900 Olympics, in which three women competed.\n[…]\n50 riders competed in the eventing competition, but only 27 finished, mostly due to one particular fence on cross-country (see Equestrian events at the 1936 Summer Olympics).\n[…]\nWomen were allowed to ride in equestrian events in 1952. However, it was not until Helena du Pont competed for the United States at the 1964 Tokyo Olympics that eventing saw its first woman representing her country.\n[…]\nDue to a great deal of drug abuse, drug rules for horses were instituted at the 1972 Munich Olympics (although there was no testing at that Games). Currently, there are very strict rules regarding what drugs may be used on the equine athletes of equestrian competition.\n[…]\nNote: Dark gray squares represent years in which the NOC either did not exist or did not compete in the equestrian portion of the Olympic Games.\n[…]\nEquestrian events at the Summer Paralympics"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Equestrianism",
+        "situacao": "ok",
+        "texto": "Equestrianism (from Latin equester, equestr-, equus, 'horseman', 'horse'), commonly known as horse riding (Commonwealth English) or horseback riding (American English), includes the disciplines of riding, driving, and vaulting. This broad description includes the use of horses for practical working purposes, transportation, recreational activities, artistic or cultural exercises, and competitive s\n[…]\nHorses were brought back to North America by European explorers, beginning with the second voyage of Columbus in 1493. Equestrianism was introduced in the 1900 Summer Olympics as an Olympic sport with jumping events.\n[…]\nEquestrian events were first included in the modern Olympic Games in 1900. By 1912, all three Olympic disciplines were part of the games. Three forms of competition are recognized worldwide and are a part of the equestrian events at the Olympics. They are governed by the rules of the International Federation for Equestrian Sports (FEI):\n[…]\nPara-Equestrian Driving places competitors in grades based on their skill.\n[…]\nIn addition to the classical Olympic events, the following forms of competition are seen. In North America they are referred to as \"English riding\" in contrast with western riding; elsewhere in the world, if a distinction is necessary, they are usually described as \"classic riding\":\n[…]\nThere are many other forms of equestrian activity and sports seen worldwide. There are both competitive events and pleasure riding disciplines available.\n[…]\nMany organizations mandate helmet use in competition or on show grounds, and rules have continually moved in the direction of requiring helmet use. In 2011, the United States Equestrian Federation passed a rule making helmet use mandatory while mounted on competition grounds at U.S. nationally rated eventing competitions.\n[…]\nEquestrian Federation of Ireland – EFI web site\n[…]\nThe American Vaulting Association – Equestrian Vaulting"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hipismo_nos_Jogos_Ol%C3%ADmpicos",
+        "situacao": "ok",
+        "texto": "O hipismo integra o programa dos Jogos Olímpicos desde a edição de Paris 1900 (esteve ausente apenas em St. Louis 1904 e Londres 1908). No programa atual do hipismo olímpico são disputadas três modalidades com provas individuais e por equipes: adestramento, concurso completo de equitação (CCE) e saltos.\n[…]\nAté os Jogos Olímpicos de 1952, apenas competidores homens tinham permissão para competir. A partir de então tornou-se aberto para ambos os sexos. Outra mudança foi a possibilidade da participação de civis (antes apenas militares podiam competir). Os integrantes da equipe podem ser de ambos os sexos, sem limite mínimo no número de competidores de um determinado sexo, cabendo a cada federação nacional a escolha da equipe.\n[…]\nO hipismo é um dos dois únicos esportes olímpicos envolvendo animais (o outro é o pentatlo moderno).\n[…]\n«Informações do hipismo no site do COI» (em inglês)\n[…]\n«Informações do hipismo na Olympedia» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Larisa Latynina",
+      "descricao": "Ginasta soviética, nove vezes campeã olímpica entre 1956 e 1964."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Antes de Michael Phelps, quem era o maior medalhista da história olímpica, com dezoito medalhas?",
+    "resposta": "Larisa Latynina",
+    "distratores": [
+      "Nadia Comăneci",
+      "Paavo Nurmi",
+      "Carl Lewis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Larisa_Latynina",
+      "https://www.britannica.com/biography/Larisa-Latynina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Larisa_Latynina",
+        "situacao": "ok",
+        "texto": "Larisa Semyonovna Latynina (Russian: Лариса Семёновна Латынина, née Diriy, Дирий; born 27 December 1934) is a Soviet former artistic gymnast. Between 1956 and 1964 she won 14 individual Olympic medals and four team medals for the Soviet Union. She holds the record for the most Olympic gold medals by a female gymnast, with nine. Her total of 18 Olympic medals was a record for 48 years. She held the\n[…]\nShe was born as Larisa Semyonovna Diriy in Kherson, Ukrainian SSR. Her father, Semyon Andreyevich Diriy, left the family when she was 11 months old, and she was raised by her illiterate mother, who worked as a cleaner during the day, and as a watchman during the night. Her father was killed at the Battle of Stalingrad, where he served as a machine gun operator. Young Diriy-Latynina survived the occupation of Ukraine by Nazi Germany in 1940s.\n[…]\nShe was born to Pelageya Anisimovna Barabamyuk (1902–1975) and Semyon Andreevich Diriy (1906–1943), who died in the Battle of Stalingrad. Larisa was married three times. Her current husband is Yuri Izrailovich Feldman (b. 1938), a member of the Russian Academy of Electrotechnical Sciences and a former competitive cyclist. Her daughter from a former marriage, Tatyana Ivanovna Latynina (b. 1958), is a folk dancer.\n[…]\nLarisa Latynina (1975). The Balance (in Russian). Moscow: Molodaya gvardiya. Archived from the original on 27 September 2007.\n[…]\nLarisa Latynina at World Gymnastics\n[…]\nLarisa Latynina at the International Gymnastics Hall of Fame\n[…]\nLarisa Latynina at Olympics.com Larisa Latynina at Olympic.org (archived)\n[…]\nLarisa Latynina at the International Olympic Committee at the Wayback Machine (archived 12 December 2010)\n[…]\nLarisa Latynina at Olympedia\n[…]\nLarisa Latynina at databaseOlympics.com (archived)\n[…]\nLarisa Latynina's profile in the Modern Museum of Sports includes photos of her and some of her decorations (in Russian)"
+      },
+      {
+        "url": "https://www.britannica.com/biography/Larisa-Latynina",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Larisa_Latynina",
+        "situacao": "ok",
+        "texto": "Larisa Semyonovna Latynina (em russo: Лари́са Семёновна Латы́нина; Kherson, 27 de dezembro de 1934) é uma ex-ginasta soviética nascida na Ucrânia.\n[…]\nParticipou em três Jogos Olímpicos (Melbourne 56, Roma 60 e Tóquio 64) representando a antiga União Soviética, conquistando um total de dezoito medalhas – sendo nove de ouro – que a tornaram a maior medalhista olímpica de todos os tempos por décadas. Em 2012, o nadador norte-americano Michael Phelps superou sua marca.\n[…]\nLarisa iniciou sua carreira como bailarina e só em seguida, optou pela modalidade artística da ginástica. Já graduada, mudou-se para a cidade de Kiev, para estudar no Instituto Politécnico Lenin e continuar a treinar. Lá, Latynina praticava na Sociedade Esportiva Voluntária Burevestnik.\n[…]\nApós os Jogos de Tóquio, em 1964, onde ganhou suas duas últimas medalhas de ouro olímpicas, além de mais duas de bronze, Larisa retirou-se das competições em Olimpíadas e após participar do Campeonato Mundial de Ginástica Artística de 1966, tornou-se técnica da equipe nacional de ginástica da União Soviética até 1977 e organizou a competição de ginástica dos Jogos Olímpicos de Moscou, em 1980.\n[…]\nEm 15 de agosto de 2008, Larisa parabenizou o nadador Michael Phelps, que quebrou seu recorde de medalhas de ouro ganhas em Olimpíadas.\n[…]\nLarissa Latynina na Federação Internacional de Ginástica\n[…]\n«Perfil de Larisa Latynina» (em inglês). arquivado do sítio Sports-Reference.com\n[…]\n«International Gymnast's - Perfil de Latynina» (em inglês). www.intlgymnast.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Adhemar Ferreira da Silva",
+      "descricao": "Atleta brasileiro, bicampeão olímpico do salto triplo em 1952 e 1956."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Que atleta se tornou, em Melbourne 1956, o primeiro brasileiro a conquistar duas medalhas de ouro olímpicas?",
+    "resposta": "Adhemar Ferreira da Silva",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva",
+      "https://en.wikipedia.org/wiki/Adhemar_da_Silva"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva",
+        "situacao": "ok",
+        "texto": "Adhemar Ferreira da Silva (São Paulo, 29 de setembro de 1927 – São Paulo, 12 de janeiro de 2001) foi um atleta brasileiro, primeiro bicampeão olímpico do país, primeiro atleta sul-americano bicampeão olímpico em eventos individuais, recordista mundial do salto triplo cinco vezes e primeiro atleta a quebrar a barreira dos 16m no salto triplo.\n[…]\nA lista de títulos enquanto era atleta do Vasco é extensa: cinco títulos estaduais; dois do Troféu Brasil, a medalha de ouro na Olimpíada Melbourne-1956 (sua segunda seguida, tornando-se o primeiro atleta brasileiro bicampeão olímpico de fato; desde então dois ouros seguidos foram conquistados por seis jogadoras da Seleção Brasileira de Voleibol Feminino em Londres 2012, e as velejadoras Martine Grael e Kahena Kunze em Tóquio 2020, mantendo Adhemar como o único homem e o único em prova individual) e a medalha de ouro nos Jogos Pan-Americanos Chicago-1959 (sua terceira consecutiva, tornando-se tricampeão panamericano).\n[…]\nAo voltar, Adhemar encontrou o prato e um bolo com a inscrição \"16,22\".Em Melbourne, 1956, dois dias antes da prova uma intensa dor de dente ameaçou o desempenho do atleta brasileiro, mas uma providencial ida ao dentista para uma punção resolveu o problema. Depois de um duelo com o islandês Vilhjálmur Einarsson, Adhemar consagrou-se campeão, tornando-se o até então único bicampeão brasileiro olímpico, com a marca de 16,35 metros.\n[…]\nEle só seria igualado 48 anos depois pelos iatistas Robert Scheidt, Torben Grael, Marcelo Ferreira e pelos jogadores de voleibol Giovanni e Maurício, todos bicampeões olímpicos em Atenas 2004. Pela vitória na Austrália, Adhemar recebeu o apelido de Canguru Brasileiro.\n[…]\nTeve dois filhos, Adhemar Júnior (1958-1986) e Adyel.\n[…]\nLista dos campeões olímpicos de atletismo\n[…]\n«Adhemar Ferreira da Silva». na Confederação Brasileira de Atletismo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Adhemar_da_Silva",
+        "situacao": "ok",
+        "texto": "Adhemar Ferreira da Silva (September 29, 1927 – January 12, 2001) was a Brazilian triple jumper. He won two Olympic gold medals and set five world records, the last being 16.56 metres in 1955 Pan American Games. In his early career he also competed in the long jump, placing fourth at the 1951 Pan American Games. He broke world records in triple jump on five occasions during his illustrious career.\n[…]\nAdhemar backed up his jump by equalling Einarsson's best jump in the fifth round (16.26 meters) and adding a 16.21 meters in the final round. In the end, Adhemar da Silva successfully defended his Olympic title at the 1956 Olympics largely due to the Olympic record leaping 16.35 metres in fourth round and also for recording over 16 metres jumps on three occasions.\n[…]\nHowever, the Brazilian Olympic Committee and the organisers of the 2016 Summer Olympics failed to acknowledge the contributions of Adhemar da Silva during the course of the event which was later subjected to sharp criticism from fans, critics and also the family members of Adhemar.\n[…]\nIn 2019, the shoes and spikes worn by Adhemar during 1956 Olympics were displayed in the IAAF Heritage World Athletics Championships Exhibition which was held in Doha, Qatar. The spikes worn by him are currently kept as treasures in The National Sports Museum at the Melbourne Cricket Ground where the 1956 Olympics were also held.\n[…]\nMedia related to Adhemar da Silva at Wikimedia Commons\n[…]\nAdhemar Ferreira da Silva at World Athletics\n[…]\nAdhemar Ferreira da Silva at Olympics.com\n[…]\nAdhemar da Silva at Olympedia\n[…]\nAdhemar da Silva at InterSportStats\n[…]\nAdhemar Ferreira da Silva at the Comitê Olímpico do Brasil  (in Portuguese)\n[…]\nAdhemar Ferreira da Silva at Confederação Brasileira de Atletismo at the Wayback Machine (archived 8 January 2019)\n[…]\nAdhemar Ferreira da Silva at IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Maurren Maggi",
+      "descricao": "Ex-atleta brasileira, campeã olímpica do salto em distância em 2008."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Em Pequim 2008, quem se tornou a primeira mulher brasileira campeã olímpica numa prova individual?",
+    "resposta": "Maurren Maggi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Maurren_Maggi",
+      "https://en.wikipedia.org/wiki/Maurren_Maggi"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maurren_Maggi",
+        "situacao": "ok",
+        "texto": "Maurren Higa Maggi (São Carlos, 25 de junho de 1976) é uma ex-atleta, saltadora, velocista e política brasileira filiada ao Republicanos. Tornou-se o maior nome da história do atletismo feminino do Brasil ao ganhar a medalha de ouro no salto em distância dos Jogos Olímpicos de Pequim, em 2008, saltando 7,04 metros.\n[…]\nNa primeira metade de 2000, Maggi, agora na equipe União Esportiva Funilense-Vasco da Gama, estava saltando próximo aos sete metros em competições na Europa e tinha se transformado numa das favoritas para a medalha de ouro para os Jogos Olímpicos de Verão de 2000.\n[…]\nMaggi conseguiu sua vaga na final com tranquilidade, saltando 6,79 m, atrás apenas da estadunidense Reese (apenas as duas saltaram acima da marca de classificação automática de 6,75 m). Nos três dias de intervalo até a final, Maurren via-se ansiosa, querendo treinar mas sendo impedida por Moura para evitar dores, e no dia da prova ficou acordada até de madrugada jogando pôquer em seu tablet.\n[…]\nApós o salto, de todas as outras atletas na última rodada, os 7,04 m de Maurren no primeiro salto continuavam como melhor marca e apenas Lebedeva em seus últimos saltos poderia superá-la; mesmo se acontecesse, Maggi ainda teria um último salto. A russa desta vez conseguiu um salto perfeito e aterrizou na caixa de areia logo acima dos sete metros.\n[…]\nSem precisar do último salto, Maurren Higa Maggi tornava-se a primeira campeã olímpica brasileira num esporte individual, e o primeiro ouro do atletismo brasileiro desde Joaquim Cruz em Los Angeles 1984.\n[…]\n2008\n[…]\n2008\n[…]\nEm 4 de agosto de 2018, o Partido Socialista Brasileiro (PSB) oficializou a candidatura de Maurren Maggi ao Senado de São Paulo nas eleições 2018, em conjunto com os suplentes Marco Souza Dateninha e Paulo Correa. Ficou em quarto lugar, com 2 979 856 votos, 9% dos votos válidos."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Maurren_Maggi",
+        "situacao": "ok",
+        "texto": "Maurren Higa Maggi (born 25 June 1976) is a Brazilian retired track and field athlete and Olympic gold medallist om the long jump. She is the South American record holder in the 100 metres hurdles and long jump, with 12.71 seconds and 7.26 metres respectively. She also has a best of 14.53 metres in the triple jump – a former South American record. She is the first Brazilian woman to win an Olympic\n[…]\nMaurren served a two-year ban from 2003 to 2004 for an unintentional anti-doping rule violation after testing positive for clostebol. Although Brazil's Superior Sports Tribunal had cleared her of the violation, the IAAF appealed the decision, and Maurren was issued with the sanction.\n[…]\nMaggi won the gold medal in the women's long jump at the 2008 Beijing Olympics with a distance of 7.04m, becoming the first Brazilian woman to achieve an Olympic gold in an individual sport.\n[…]\nShe finished second at the 2009 Troféu Brasil Caixa de Atletismo to Keila Costa, losing the event for the first time since 1998.\n[…]\nMaurren was married to racer Antônio Pizzonia, with whom she has a daughter, Sophia.\n[…]\n2008 Summer Olympics - gold medal\n[…]\n2008 IAAF World Indoor Championships - silver medal\n[…]\nMaurren Higa Maggi at World Athletics\n[…]\nMaurren Maggi at Olympics.comMaurren Higa Maggi at Olympic.org (archived)\n[…]\nMaurren Maggi at Olympedia\n[…]\nMaurren Maggi at the Comitê Olímpico do Brasil  (in Portuguese)"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Esqui alpino",
+      "descricao": "Esporte olímpico de inverno de descida de montanha em esquis, com provas como descida, slalom e supergigante."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Das provas do esqui alpino olímpico, qual é a mais veloz?",
+    "resposta": "Descida",
+    "distratores": [
+      "Slalom",
+      "Slalom gigante",
+      "Supergigante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alpine_skiing",
+      "https://en.wikipedia.org/wiki/Downhill_(ski_competition)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alpine_skiing",
+        "situacao": "ok",
+        "texto": "Alpine skiing, or downhill skiing, is the pastime of sliding down snow-covered slopes on skis with fixed-heel bindings, unlike other types of skiing (cross-country, Telemark, or ski jumping), which use skis with free-heel bindings. Whether for recreation or for sport, it is typically practiced at ski resorts, which provide such services as ski lifts, artificial snow making, snow grooming, restaura\n[…]\nIn the 1760s, skiing was recorded as being used in military training. The Norwegian army held skill competitions involving skiing down slopes, around trees and obstacles while shooting. The birth of modern alpine skiing is often dated to the 1850s, and during the late 19th century, skiing was adapted from a method of transportation to a competitive and recreational sport.\n[…]\nOther disciplines administered by the FIS but not usually considered part of alpine are speed skiing and grass skiing.\n[…]\nThe triple crown of alpine skiing consists of winning all three World Cup titles in one season or all three Gold medals at the Winter Olympic Games in Slalom, Giant slalom, and Downhill skiing events. Only two people have ever accomplished the feat:\n[…]\nAustrian skier Toni Sailer was the first person to win the Triple Crown of Alpine Skiing at the 1956 Winter Olympics\n[…]\nIn 2014, there were more than 114,000 alpine skiing-related injuries treated in hospitals, doctor's offices, and emergency rooms.\n[…]\nIn alpine skiing, for every 1000 people skiing in a day, on average between two and four will require medical attention. Most accidents are the result of user error leading to an isolated fall. Learning how to fall correctly and safely can reduce the risk of injury.\n[…]\nAccording to a ranking published by ESPN, alpine skiing is a more difficult and demanding sport than freestyle skiing.\n[…]\nAccording to a 2004 Harvard Medical School study, alpine skiing burns between 360 and 532 calories per hour.\n[…]\nPara-alpine skiing"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Downhill_(ski_competition)",
+        "situacao": "ok",
+        "texto": "Downhill is a form of alpine skiing competition. Whereas the other alpine skiing events (slalom, giant slalom, super giant slalom, and combined) emphasize turning and technique, downhill emphasizes \"the six components of technique, courage, speed, risk, physical condition and judgement\", according to the FIS \"International Ski Competition Rules (ICR)\". Speeds of up to 130 km/h (81 mph) are common \n[…]\nThe term, \"downhill skiing\", is also used as a synonym for alpine skiing as a recreational activity.\n[…]\nThe rules for downhill skiing competitions were originally developed by Sir Arnold Lunn for the 1925 British National Ski Championships. A speed of 100 miles per hour (161 km/h) was first achieved by Johan Clarey at the 2013 Lauberhorn World Cup, beating the previous record of 98 mph (158 km/h), set by Italian Stefan Thanei in 2005.\n[…]\nEquipment for the downhill is different from the alpine events that are lower-speed. Skis are 30% longer than those used in slalom, for more stability at high speed. They usually have rounded, low-profile tips rather than pointed tips. Ski poles are bent so as to curve around the body as the racer stays in a \"tuck position\" and may have aerodynamic, cone-shaped baskets. As in other alpine disciplines, downhill racers wear skin-tight suits to minimize drag, and helmets are mandatory.\n[…]\nOn some courses, such as the Lauberhorn course in Wengen, Switzerland, and the Hahnenkamm course in Kitzbühel, Austria, speeds of up to 150 km/h (93 mph) are common. Safety netting and padding are placed where race officials anticipate potential crashes. Despite these safety precautions, the ski racing community is well aware of the inherent risks of downhill skiing, for it is possible for racers to suffer serious injury or death while practising or competing.\n[…]\nList of men's downhill races in the FIS Alpine Ski World Cup"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Esqui_alpino",
+        "situacao": "ok",
+        "texto": "O esqui alpino é um desporto de inverno  que é praticado numa pista de esqui.\n[…]\nO esqui alpino é esporte dos Jogos Olímpicos de Inverno desde os Jogos de 1936, em Garmisch-Partenkirchen.\n[…]\nOs principais desafios técnicos enfrentados pelos esquiadores são simplesmente a forma de controlar a direção e a velocidade de sua descida. O ganho de esqui alpino e esse controle através de tomada alternando direita e esquerda transforma.\n[…]\nVárias competições de Esqui Alpino foram criadas na história do Esqui. O modo competitivo de esqui é dividido em duas modalidades: corrida e freestyle. Racing envolve fazer voltas rápidas através de portas numa tentativa de alcançar o melhor tempo geral para baixo uma ou duas corridas de uma pista de corrida. Esquiadores competitivos de Elite participam na anual da Copa do Mundo da série, bem como dos quatro anos os Jogos Olímpicos e os campeonatos do mundo, bienais.\n[…]\nMais eventos tradicionais incluem gelandesprung jumping (salto de esqui alpino em distância para o equipamento), e concursos variados, sendo que entre os lançamentos mais recentes estão concursos de \"grande montanha\" ou  \"esportes radicais\", em que os atletas começam no topo de uma montanha e esquiam na descida, que envolve amplos percursos, voltas rápidas, assim como quedas pelos penhascos.\n[…]\nOs concorrentes são julgados pela dificuldade técnica das suas rotas e todos os truques que desempenham na descida do morro.\n[…]\nFederação Internacional de Esqui\n[…]\nCampeonato Mundial de Esqui Alpino\n[…]\nCopa do Mundo de Esqui Alpino\n[…]\nEsqui alpino nos Jogos Olímpicos\n[…]\nEsqui (equipamento)\n[…]\nEsqui-alpino",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Futebol de 5",
+      "descricao": "Modalidade paralímpica de futebol para atletas cegos, jogada com bola sonora e cinco jogadores por equipe."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Nas Paralimpíadas, que seleção dominou o futebol de cegos, vencendo todos os torneios disputados de 2004 a 2020?",
+    "resposta": "Brasil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Football_5-a-side_at_the_Summer_Paralympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Football_5-a-side_at_the_Summer_Paralympics",
+        "situacao": "ok",
+        "texto": "Blind football, also known as football 5-a-side, has been contested at the Summer Paralympics since 2004. The competition has consisted of a single event, men's team; women have never competed. Football 5-a-side is an adaptation of football for athletes with visual impairments including blindness. The sport, governed by the International Blind Sports Federation (IBSA), is played with modified FIFA\n[…]\nhttps://www.paralympic.org/athens-2004/results/football-5-side\n[…]\nhttps://www.paralympic.org/beijing-2008/results/football-5-side\n[…]\nhttps://www.paralympic.org/london-2012/results/football-5-side\n[…]\nhttps://www.paralympic.org/rio-2016/results/football-5-side\n[…]\nhttps://www.paralympic.org/tokyo-2020/results/football-5-side\n[…]\nFootball 7-a-side at the Summer Paralympics\n[…]\nFootball at the Summer Olympics\n[…]\n\"Football 5-a-Side History\". International Paralympic Committee. 2008. Archived from the original on 2008-12-31. Retrieved 2008-10-16.\n[…]\n\"Results by Sport - Football 5-a-Side\". International Paralympic Committee. 2008. Archived from the original on 2007-10-08. Retrieved 2008-10-16."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Futebol_de_5_nos_Jogos_Paral%C3%ADmpicos",
+        "situacao": "ok",
+        "texto": "O futebol de 5 para jogadores com deficiência visual é disputado nos Jogos Paralímpicos desde a edição de Atenas 2004.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Anéis olímpicos",
+      "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na fileira de cima dos anéis olímpicos ficam o azul, o vermelho e, entre eles, um anel de que cor?",
+    "resposta": "Preto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympic_symbols"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Olympic_symbols",
+        "situacao": "ok",
+        "texto": "The International Olympic Committee (IOC) uses icons, flags, and symbols to represent and enhance the Olympic Games. These symbols include those commonly used during Olympic competitions such as the flame, fanfare, and theme as well as those used both during and outside competition, such as the Olympic flag."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/An%C3%A9is_ol%C3%ADmpicos",
+        "situacao": "ok",
+        "texto": "Os anéis olímpicos são um símbolo dos Jogos Olímpicos composto por cinco arcos entrelaçados, com as cores azul, amarelo, preto, verde e vermelho sobre um fundo branco. Este foi originalmente concebido em 1913 pelo Barão Pierre de Coubertin, fundador dos Jogos Olímpicos modernos.\n[…]\nO emblema foi escolhido para ilustrar e representar o Congresso mundial de 1914: cinco anéis entrelaçados com cores diferentes - azul, amarelo, preto, verde e vermelho - são colocados no campo em branco do papel. Esses cinco anéis representam as cinco partes do mundo, que agora são conquistados para Olimpismo e dispostas a aceitar uma concorrência saudável.\n[…]\nAs cores utilizadas nos cinco anéis da bandeira foram escolhidas e representadas por Pierre de Coubertin devido à frequência em que aparecem nas bandeiras das diversas nações no mundo. Pelo menos uma das demais cores está presente em cada bandeira, dessa forma, integra todos os países, fornecendo um sentido universal para as Olimpíadas.\n[…]\nHá uma versão de que cada anel representaria um continente (sendo o anel azul correspondente à Europa, o anel amarelo à Ásia, o preto à África, o verde à Oceania e o vermelho à América), porém essa versão é oficialmente tida como equivocada.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Heptatlo",
+      "descricao": "Prova combinada do atletismo feminino com sete provas disputadas em dois dias."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O heptatlo feminino tem duas provas de lançamento ou arremesso. Uma é o arremesso de peso. Qual é a outra?",
+    "resposta": "Lançamento de dardo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Heptathlon",
+      "https://pt.wikipedia.org/wiki/Heptatlo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Heptathlon",
+        "situacao": "ok",
+        "texto": "A heptathlon is a track and field combined events contest made up of seven events. The name derives from the Greek ἑπτά (hepta, meaning \"seven\") and ἄθλος (áthlos, or ἄθλον, áthlon, meaning \"competition\"). A competitor in a heptathlon is referred to as a heptathlete.\n[…]\nThere is also a Tetradecathlon, which is a double heptathlon, consisting of 14 events, seven events per day.\n[…]\nThe heptathlon scoring system was devised by Dr Karl Ulbrich, a Viennese mathematician. The formulae are constructed so that, for each event, a designated benchmark performance (for example, approximately 1.82 m for the high jump) scores 1000 points. Each event also has a minimum recordable performance level (e.g. 0.75 m for the high jump), corresponding to zero points.\n[…]\nThe other heptathlon discipline is an indoor competition, normally contested by men only. It is the men's combined event in the IAAF World Indoor Championships in Athletics. The indoor heptathlon consists of the following events, with the first four contested on the first day, and remaining three on day two:\n[…]\nThe indoor heptathlon is also rarely contested by women; at the 2024 indoor X-Athletics meeting, French combined events athlete Noémi Desailly won the indoor women's heptathlon with 5761 points while Jordyn Bruce set an unofficial American record in 2nd. It was labeled the first indoor women's heptathlon.\n[…]\n(In completed heptathlons of more than 5200 points)\n[…]\nMen's heptathlon world record progression\n[…]\nWomen's heptathlon world record progression\n[…]\nIAAF list of heptathlon records in XML\n[…]\nHeptathlon all-time list\n[…]\nHeptathlon points counter (in Finnish)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Heptatlo",
+        "situacao": "ok",
+        "texto": "Heptatlo, do grego hepta (sete) e athlon (competição), é uma competição de atletismo com sete provas, tendo duas versões, uma feminina e outra masculina, esta apenas em pista coberta. A versão mais popular e a única disputada em Jogos Olímpicos e Campeonatos Mundiais ao ar livre é a feminina. Seu equivalente olímpico para os homens é o decatlo.\n[…]\nA modalidade ao ar livre foi introduzida no programa olímpico em Tóquio 1964 com o pentatlo. Este formato foi posteriormente expandido com a entrada dos 800 m e do lançamento de dardo e fez sua estreia em eventos globais em 1981, no Campeonato Asiático de Atletismo e na Universíade e depois no primeiro Campeonato Mundial de Atletismo, disputado em Helsinque, em 1983. A estreia olímpica se deu no ano seguinte, em Los Angeles 1984.\n[…]\nÉ a única modalidade olímpica disputada em estádios abertos. Consiste em dois dias de competições. No primeiro dia disputa-se, pela ordem, os 100 m com barreiras, salto em altura, arremesso de peso e 200 m rasos. No segundo ele é completado com o salto em distância, lançamento de dardo e os 800 m. A cada prova a atleta acumula um número determinado de pontos de acordo com seu aproveitamento e a vencedora é a que atinge o maior número de pontos somadas as sete modalidades ao final.\n[…]\nLançamentos – dardo e peso:\n[…]\nO heptatlo masculino é uma prova não-olímpica e realizado em pista coberta, sendo a prova combinada disputada no Campeonato Mundial de Atletismo em Pista Coberta. As primeiras quatro provas são realizadas no primeiro dia, pela ordem, 60 metros, salto em distância, arremesso de peso e salto em altura e as outras três no dia seguinte, 60 metros com barreiras, salto com vara e 1000 metros.\n[…]\nRefere-se apenas ao heptatlo feminino, a prova olímpica. As marcas abaixo são de acordo com o Comitê Olímpico Internacional – COI."
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Pentatlo moderno",
+      "descricao": "Esporte olímpico criado por Pierre de Coubertin que combina esgrima, natação, hipismo, corrida e tiro."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No pentatlo moderno, a prova final, chamada laser run, alterna trechos de corrida com paradas para quê?",
+    "resposta": "Tiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Modern_pentathlon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Modern_pentathlon",
+        "situacao": "ok",
+        "texto": "The modern pentathlon is an Olympic multisport that consists of five events: fencing (one-touch épée followed by direct elimination), freestyle swimming, obstacle course racing, laser pistol shooting, and cross country running.\n[…]\nThe laser run is organized as a pursuit race: athletes start with a handicap based on the summed points gathered in the previous disciplines; as such it determines the overall outcome of the modern pentathlon event. The rest of the field face a one-second handicap for each pentathlon point by which they trail the leader. This ensures that the first person to cross the finish line wins the Gold medal.\n[…]\nIn May 2022, the UIPM announced it would hold an obstacle racing test event alongside the 2022 Modern Pentathlon World Cup final in Ankara, citing that it had received the most support out of the over 60 disciplines proposed, was more cost-effective, would help make the event more attractive to a younger audience, and was \"compatible with the DNA of modern pentathlon\".\n[…]\nІn August 2023 during the 2023 UIPM Pentathlon and Laser Run World Championships, the UIPM signed a memorandum of understanding with World Obstacle to collaborate on the integration of obstacle racing into the modern pentathlon at the senior level; UIPM president Klaus Schormann stated that the federation was \"want[ing] to bring a different challenge to the Olympic Movement, to be more urban and provide something that young generations will love.\" The MoU was criticised by Pentathlon United, who questioned World Obstacle's finances (in particular, being funded solely by one person with no other commercial revenue).\n[…]\nModern pentathlon at the Summer Olympics\n[…]\nLasers make modern pentathlon more modern"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pentatlo_moderno",
+        "situacao": "ok",
+        "texto": "Pentatlo moderno é um desporto olímpico praticado por homens e por mulheres, individualmente ou em equipes. Compõe-se de cinco modalidades diferentes: hipismo, esgrima, natação, tiro esportivo e corrida. É proclamado vencedor aquele que obtiver o melhor desempenho geral ao somar mais pontos. Por essa variedade de esportes, o vencedor do pentatlo é considerado o atleta mais completo.\n[…]\nO pentatlo moderno é uma prova criada pelo Barão Pierre de Coubertin, fundador dos Jogos Olímpicos da era moderna, baseada na filosofia por detrás do pentatlo disputado nos Jogos Olímpicos antigos. Na Grécia Antigamente, o pentatlo era constituído por provas que pretendiam demonstrar todas as aptidões físicas. Aquando da invenção da versão moderna, Coubertin inspirou-se nos soldados da cavalaria do século XIX, que deveriam saber montar um cavalo desconhecido, disparar, esgrimir, correr e nadar.\n[…]\nO pentatlo moderno consiste em cinco provas:\n[…]\nA equitação ainda vai aparecer nos Jogos Olímpicos de Paris, em 2024, mas quatro anos depois, em Los Angeles, o pentatlo moderno já terá alguma alternativa na sua sequência.\n[…]\nLaser-Run (Evento Combinado): O evento combinado é a última prova do pentatlo moderno e consiste na junção do tiro esportivo com a corrida. O atleta parte da linha de chegada e corre cerca de 30 metros até o estande de tiro onde terá que executar 5 tiros certeiros no alvo correspondente ao \"7\" no tiro esportivo de pistola de ar a 10 metros (atualmente o tiro é praticado com pistolas laser).\n[…]\nA China e o Brasil obtiveram suas primeiras medalhas olímpicas do pentatlo moderno nas Olimpíadas de 2012, e a Austrália e o México nas Olimpíadas de 2016.\n[…]\nPentatlo moderno nos Jogos Olímpicos\n[…]\nCampeonato Mundial de Pentatlo Moderno\n[…]\n«Federação Internacional de Pentatlo Moderno»\n[…]\n«Confederação Brasileira de Pentatlo Moderno»\n[…]\n«COI Pentatlo Moderno»\n[…]\n«COI Pentatlo Moderno»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Biatlo",
+      "descricao": "Esporte olímpico de inverno que combina esqui cross-country e tiro."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nas provas olímpicas de biatlo, os esquiadores levam nas costas que equipamento, usado nas paradas ao longo do percurso?",
+    "resposta": "Uma carabina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Biathlon",
+      "https://pt.wikipedia.org/wiki/Biatlo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Biathlon",
+        "situacao": "ok",
+        "texto": "Biathlon is a winter sport that combines cross-country skiing and rifle shooting. It developed from the sport of military patrol, which began in 19th century Scandinavia and originated in ski warfare. In the Nordic languages, the sport is called \"ski-shooting\". The sport of biathlon involves many different types of races, with the commonality being contestants skiing through a cross-country trail \n[…]\nBiathlon World Cup\n[…]\nBiathlon Junior World Championships\n[…]\nBiathlon at the Winter Universiade\n[…]\nAfter all biathletes have completed their first prone bout, the race progresses like a typical mass-start, all competitors complete their remaining prone bout, and two stages of standing shooting concurrently. Put more simply:\n[…]\nThe IBU maintains biathlon records, rules, news, videos, and statistics for many years back, all of which are available at its web site.\n[…]\nBiathlon is generally considered to be a sport with a low risk of injuries or accidents, as is also the case with cross-country skiing. While some injuries from firearms accidents were more common in the past, these led to higher safety standards. Biathletes, as endurance athletes, have an elevated risk of eating disorders.\n[…]\nBiathlon World Cup\n[…]\nBiathlon World Championships\n[…]\nList of Olympic medalists in biathlon\n[…]\nParalympic biathlon\n[…]\nNordic field biathlon and moose biathlon, Nordic biathlon variants using fullbore rifles\n[…]\nBiathlon's two sports disciplines:\n[…]\nOther multi-discipline sports (otherwise unrelated to biathlon):\n[…]\nIBU Summer Biathlon\n[…]\nBiathlonworld.Com – A cooperation between IBU and EBU; with race results/statistics, TV schedules, live competition results, and so on.\n[…]\nBiathlon Federation of Belarus (in Russian)\n[…]\nRussian Biathlon Union (in Russian)\n[…]\nRussian Biathlon Union (in English)\n[…]\nCzech Biathlon Union (in Czech)\n[…]\nBiathlon Canada\n[…]\nU.S. Biathlon Association\n[…]\nBiathlon Russia\n[…]\nBiathlon Ukraine (in Ukrainian)\n[…]\nBiathlon Ukraine (in English)\n[…]\nBiathlonFrance.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Biatlo",
+        "situacao": "ok",
+        "texto": "O biatlo é uma competição individual que envolve dois desportos em simultâneo: esqui de corta-mato e tiro, com provas intercaladas durante toda a prova. A corrida de esqui possui em determinados pontos do trajeto estandes de tiro para que os concorrentes disparem com uma espingarda sobre cinco alvos estáticos, penalizando-se cada falha com a obrigatoriedade de correr 150 metros, ou adicionando um \n[…]\nChamada de patrulha militar, a combinação de esqui e tiro foi disputada nos Jogos Olímpicos de Inverno de 1924 e depois demonstrada em 1928, 1936 e 1948, período durante o qual a Noruega e a Finlândia foram fortes competidores. Em 1948, o esporte foi reorganizado sob a \"Union Internationale de Pentathlon Moderne e Biathlon\" e foi aceito como esporte olímpico em 1955, com ampla popularidade nos circuitos de esportes de inverno soviéticos e suecos.\n[…]\nHá diversas provas e modalidades dentro do biatlo: individual, sprint, perseguição, revezamentos e saída em massa,tanto para homens e mulheres.\n[…]\nÉ a prova principal do biatlo. As mulheres esquiam 15 km e os homens 20. Os participantes saem em intervalos de 30 segundos (como num contra-relógio de ciclismo). No percurso há quatro estandes de tiro, sendo que dois são em pé e dois deitados e são alternados;Para cada erro o atleta é penalizado com um minuto no tempo total.\n[…]\nProva realizada por equipes de quatro biatletas, correndo cada um dos participantes 7,5 km na categoria masculina e 6 na feminina. Cada corredor tem que realizar duas paradas para tiro, cada uma sobre cinco alvos brancos para o que dispõem de oito balas. Para cada erro no tiro o atleta deve fazer o percurso de penalização de 150 metros e depois continuar a prova.\n[…]\nEm todas as provas os biatletas devem levar a arma ao ombro e a técnica de esquiar é livre.\n[…]\nInternational Biathlon Union\n[…]\nCampeonato Mundial de Biatlo\n[…]\nCopa do Mundo de Biatlo\n[…]\nBiatlo nos Jogos Olímpicos"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Pentatlo da Grécia Antiga",
+      "descricao": "Prova combinada de cinco modalidades disputada nos Jogos de Olímpia a partir do século sete antes de Cristo."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No pentatlo da Grécia Antiga, as provas eram corrida, salto, disco, dardo e qual esporte de combate?",
+    "resposta": "Luta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pentathlon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pentathlon",
+        "situacao": "ok",
+        "texto": "A pentathlon is a contest featuring five events. The name is derived from Greek: combining the words pente (five) and -athlon (competition) (Greek: πένταθλον). The first pentathlon was documented in Ancient Greece and was part of the Ancient Olympic Games. Five events were contested over one day for the Ancient Olympic pentathlon, starting with the long jump, javelin throwing, and discus throwing,\n[…]\nThe 1912 Summer Olympics saw the introduction of two new types of the pentathlon. The first was the classic pentathlon, an athletics competition which was a variation on the Ancient Olympic pentathlon, comprising the long jump, javelin throw, 200 metres, discus throw, and a 1500 metres race. The competition featured at the 1920 and 1924 Summer Olympics but was discontinued thereafter.\n[…]\nThe second type of pentathlon introduced at the 1912 Olympics was the modern pentathlon, a sport invented by Pierre de Coubertin and modeled on the Ancient Olympic ideal of testing skills required by a soldier. Working from the template of a 19th-century soldier fighting behind enemy lines, the contest comprises épée fencing, pistol shooting, freestyle swimming, show jumping on the back of an unfamiliar horse allocated in a draw, and a cross country run.\n[…]\nThe format for the Ancient Olympic pentathlon varied in schedule and events. The stadion event was occasionally replaced by boxing or pankration. The discus throw was competed in the Greek style—the athletes would throw the discus from a raised platform. The long jump was aided by the use of halteres; stone weights which athletes would hold and swing to help propel themselves further. The stadion race was generally around 190 metres long, the length of the Stadium at Olympia.\n[…]\nUS Champions in the men's pentathlon from USATF (archived 7 December 2009)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pentatlo",
+        "situacao": "ok",
+        "texto": "O pentatlo (do grego pente (cinco) e athlon (competição)) é uma modalidade desportiva composta por cinco provas. Ao longo da história teve diversas configurações.\n[…]\nO primeiro pentatlo documentado ocorreu em 708 aC na Grécia Antiga nos Jogos Olímpicos da Antiguidade, e também foi realizado nos outros Jogos Pan-helénicos. O nome deriva das palavras gregas para \"cinco competições\". O evento provou ser popular e prestou-se a ilustrações em cerâmica grega antiga. Também apareceu na mitologia grega; o herói mítico Perseu cumpriu a profecia de um oráculo ao matar Acrísio acidentalmente com um disco enquanto competia no pentatlo.\n[…]\nNa 77ª Olimpíada, o evento atlético era geralmente classificado como triagmos (salto em distância, lançamento de dardo e lançamento de disco), seguido pela corrida a pé do estádio e luta livre como evento final. Ao contrário do atletismo moderno, os três primeiros eventos não apareceram como eventos individuais fora do formato do pentatlo. Outras variações do formato incluíam boxe ou pankration em vez da corrida de estádio.\n[…]\nluta grega\n[…]\nO disco lançado pelos atletas pesava cerca de 2,5 quilos e poderia ser feito de pedra, ferro ou bronze. O vencedor era aquele que conseguia lançar o disco o mais longe possível e o vencedor era também considerado um herói. Quanto ao dardo possuía a altura de um homem e era feito em madeira. No salto em comprimento recorria-se a dois halteres que impulsionavam o atleta na subida e que eram depois atirados quando este descia.\n[…]\nsalto em comprimento\n[…]\ncorrida de corta-mato\n[…]\nEsta versão do pentatlo está adaptada ao treinamento dos marinheiros e fuzileiros navais, tendo as seguintes provas:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Medalhas dos Jogos Olímpicos de 2008",
+      "descricao": "Medalhas de ouro, prata e bronze entregues nos Jogos Olímpicos de Pequim 2008."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "As medalhas dos Jogos de Pequim 2008 traziam, no verso, um disco de que pedra, tradicional na cultura chinesa?",
+    "resposta": "Jade",
+    "distratores": [
+      "Marfim",
+      "Porcelana",
+      "Esmeralda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2008_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2008_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The 2008 Summer Olympics (Chinese: 2008年夏季奥运会), officially the Games of the XXIX Olympiad (Chinese: 第二十九届夏季奥林匹克运动会) and officially branded as Beijing 2008 (Chinese: 北京2008), were an international multi-sport event held from 8 to 24 August 2008, in Beijing, China. A total of 10,942 athletes from 204 National Olympic Committees (NOCs) competed in 28 sports and 302 events, one event more than those s\n[…]\nThe mascots of Beijing 2008 were the five Fuwa, each of which represented both a color of the Olympic rings and a symbol of Chinese culture. In 2006, the Beijing Organizing Committee for the Olympic Games released pictograms of 35 Olympic disciplines (however, for some multidiscipline sports such as cycling, a single pictogram was released). This set of sport icons was named the beauty of seal characters, because of each pictogram's likeness to Chinese seal script.\n[…]\nThe podiums used during the 2008 Summer Olympics featured a design strongly influenced by Chinese cultural identity, incorporating the \"Lucky Cloud\" motif as their central graphical element. In Chinese mythology, lucky clouds are associated with blessings and harmony, and are traditionally depicted alongside deities.\n[…]\nA rich showcase of ancient Chinese art and culture dominated the ceremony cultural segments. It opened with the beating of Fou drums for the countdown. Subsequently, a giant scroll was unveiled and became the show's centerpiece. The official song of the 2008 Summer Olympics, titled \"You and Me\", was performed by Britain's Sarah Brightman and China's Liu Huan, on a large spinning rendition of the globe.\n[…]\nAs the 2008 Chinese milk scandal broke in September 2008, there was widespread speculation that China's desire for a perfect Games may have been a factor contributing towards the delayed recall of contaminated infant formula.\n[…]\n\"Beijing 2008\". Olympics.com. International Olympic Committee."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2008",
+        "situacao": "ok",
+        "texto": "Jogos Olímpicos de Verão de 2008 (em mandarim: 2008年夏季奥运会; romanizado: 2008 Nián Xiàjì Àoyùnhuì) oficialmente conhecidos como os Jogos da XXIX Olimpíada, foram um evento multiesportivo realizado em Pequim, na República Popular da China, de 8 (à exceção do futebol, que teve início em 6 de agosto) a 24 de agosto de 2008. Um total de 10 942 atletas competiram nos 302 eventos dos 28 esportes, totaliza\n[…]\nOs Jogos de 2008 foram consagrados a Pequim pelo Comitê Olímpico Internacional (COI) em 13 de julho de 2001. O logotipo oficial dos Jogos, intitulado Dancing Beijing, traz uma caligrafia estilizada do carácter chinês jīng (京, capital), referindo-se à cidade sede. Novos Comitês Olímpicos Nacionais foram reconhecidos pelo COI e compuseram um número recorde de nações participantes.\n[…]\nOs mascotes de Pequim 2008 foram os cinco Fuwa, cada um deles representa uma cor dos anéis olímpicos e um símbolo da cultura chinesa. Seus nomes eram Beibei, Jingjing, Huanhuan, Yingying, e Nini. Quando as primeiras sílabas de cada um dos cinco nomes são ditas juntas o resultado é a frase em chinês (Běijīng huānyíng nĭ) que significa \"Pequim recebe você\". O slogan Olímpico, Um Mundo, Um Sonho, apelava ao mundo para se unir no espírito olímpico.\n[…]\nO futebol teve dois bicampeões consecutivos em Pequim: os Estados Unidos conquistaram o ouro no feminino (o terceiro do país, também vencedor em Atlanta 1996) e a Argentina no Futebol nos Jogos Olímpicos de Verão de 2008 - Masculino. O Brasil ficou com prata e bronze, respectivamente.\n[…]\nPara ver o quadro completo, veja Quadro de medalhas dos Jogos Olímpicos de Verão de 2008\n[…]\nNos Jogos de Atenas 2004, os chineses ficaram em segundo lugar, com três ouros a menos que os Estados Unidos. Em Pequim 2008, o mundo acompanhou dia após dia o domínio chinês do quadro (a China terminou em primeiro lugar em todos os dias de competição).[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Ginástica rítmica",
+      "descricao": "Modalidade olímpica de ginástica em que as atletas combinam dança e manipulação de aparelhos como arco, bola, maças e fita."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na ginástica rítmica olímpica, além de arco, bola e fita, a ginasta usa um par de aparelhos em forma de garrafa. Como se chamam?",
+    "resposta": "Maças",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica",
+      "https://en.wikipedia.org/wiki/Rhythmic_gymnastics"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gin%C3%A1stica_r%C3%ADtmica",
+        "situacao": "ok",
+        "texto": "A ginástica rítmica, também conhecida como GR, é uma ramificação da ginástica que possui infinitas possibilidades de movimentos corporais combinados aos elementos de balé e dança teatral, realizados fluentemente em harmonia com a música e coordenados com o manejo dos aparelhos próprios desta modalidade olímpica, que são a corda, o arco, a bola, as maças e a fita. Praticada apenas por mulheres em n\n[…]\nEm paralelo ao trabalho de Duncan, na Alemanha, Heinrich Medau estudou os exercícios rítmicos daquela época e iniciou a elaboração e a introdução de aparelhos como a bola, as maças e o arco, considerado o primeiro passo para a utilização dos aparelhos nos exercícios femininos como se vê nas competições regidas pela FIG. Em 1961, foi apresentada à Federação Internacional de Ginástica.\n[…]\nIndividualmente, o ginasta já manuseia aparelhos, que se apresentam em um total de quatro: dois arcos menores (no lugar de um grande para o feminino), dois bastões longos (de uso exclusivo masculino), duas maças, como para as mulheres, e a corda. A popularidade desta variante da ginástica rítmica, já atingiu outros países dentro e fora da Ásia. Além da Malásia e da Coreia do Sul no continente, pratica-se a GR masculina na Austrália, na Rússia, nos Estados Unidos e no Canadá.\n[…]\nO moinho: no qual a atleta consegue, com a ajuda de aparelhos como as maças e as cordas, formar um círculo à sua volta com os movimentos dos braços.\n[…]\nFita - É considerado o aparelho mais plástico da ginástica rítmica e composto por duas partes: o estilete, uma vareta que segura a fita e que pode ser feito de madeira, bambu, plástico ou fibra de vidro e deve medir 0.5 cm de diâmetro e entre 50 e 60 cm de comprimento. Sua forma pode ser cilíndrica, cônica ou uma combinação das duas formas; a fita é de cetim ou outro material semelhante, desde que não engomado.\n[…]\nGinástica de trampolim\n[…]\nGinástica aeróbica\n[…]\nGinástica acrobática"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rhythmic_gymnastics",
+        "situacao": "ok",
+        "texto": "Rhythmic gymnastics is a sport in which gymnasts perform individually or in groups on a floor with an apparatus: hoop, ball, clubs, ribbon and rope. The sport combines elements of gymnastics, dance and calisthenics; gymnasts must be strong, flexible, agile, dexterous and coordinated. Rhythmic gymnastics is governed by World Gymnastics, which first recognized it as a sport in 1963. At the internati\n[…]\nThe gymnast leaving the floor area\n[…]\nSpain has a long tradition in rhythmic gymnastics.\n[…]\nParticipants in this style of men's rhythmic gymnastics face significant challenges due to gender stereotypes and cultural ideas about what sports are acceptable for men.\n[…]\nIn 2009, this category was closed to men after the FIG released a statement that they had no rules for men's competition, as rhythmic gymnastics was a sport for women only, because the Spanish federation was afraid of being sanctioned. However, the federation soon announced that there would be a separate category for men using the same rules as the open category. The first year, a dozen gymnasts competed in the men's competition. In 2020, a mixed-gender category was added for groups.\n[…]\nIn France, men have been allowed to compete in rhythmic gymnastics since 1989 and at a national level in 2008. However, they may not compete at the highest levels. In a case brought to the Conseil d'État, it was ruled that the lack of a men's category was not discriminatory. Fewer than 30 male rhythmic gymnasts were registered in 2000; in 2017, 50 were registered, and by 2022, the number had increased to 385.\n[…]\nChile also allows for men to compete, and a few (nine in 2024) have done so; in some cases, they compete in the same category as women. A small number of men in other countries such as Mexico, Bulgaria, Greece, and Italy have also trained in rhythmic gymnastics, and some have competed in unofficial competitions or the Spanish championships."
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "3000 metros com obstáculos",
+      "descricao": "Prova de atletismo de três mil metros em que os corredores superam barreiras fixas e um fosso com água."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nos três mil metros com obstáculos, além das barreiras, os corredores enfrentam a cada volta um obstáculo diferente. Qual?",
+    "resposta": "Um fosso com água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Steeplechase_(athletics)",
+        "situacao": "ok",
+        "texto": "A steeplechase is an obstacle race in athletics which derives its name from the steeplechase in horse racing. The foremost version of the event is the 3000 metres steeplechase. The 2000 metres steeplechase is the next most common distance. In youth athletics, a distance of 1000 metres is occasionally used for steeplechase races.\n[…]\nAnd the day ended with a steeplechase at Newark, where 3,000 spectators watched six young men run a mile and a half including a crossing of the River Trent, \"full 20 feet wide\".\n[…]\nIn 2005 Dorcus Inzikuru won the first World Championship in the women's event in Helsinki, becoming Uganda's first gold medallist at the World Championships, and in 2008, at the National Stadium in Beijing, Gulnara Samitova-Galkina, of Russia became both the inaugural Olympic champion in the event and with a time of 8:58.81 she became the first woman under nine minutes for the 3000 metres steeplechase.\n[…]\nA 3000 metres steeplechase is defined in the rulebook as having 28 barriers and seven water jumps. A 2000 meters steeplechase has 18 barriers and five water jumps. Since the water jump is never on the track oval, a steeplechase \"course\" is never a perfect 400 meters lap. Instead, the water jump is placed inside the turn, shortening the lap, or outside the turn, lengthening the lap. The start line moves from conventional starting areas in order to compensate for the different length of lap.\n[…]\nWhen the water jump is inside, the 3000-metre start line is on the backstretch (relative to the steeplechase finish). When the water jump is outside, the 3000-metre start line is on the home stretch. The 2000-metre start line reverses that pattern and uses ⁠5/7⁠ the amount of compensation.\n[…]\nIAAF list of steeplechase records in XML\n[…]\nWomen's Steeplechase"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Corridas_com_obst%C3%A1culos",
+        "situacao": "ok",
+        "texto": "As corridas com obstáculos são provas de atletismo que fazem parte do programa olímpico e consistem em corridas que têm no percurso barreiras que os atletas têm que saltar. As provas com obstáculos surgiram na Grécia.\n[…]\nTem como provas padrão 2000 metros com obstáculos e 3000 metros com obstáculos, sendo essa última prova olímpica masculina e feminina. Cada volta na pista terá 4 obstáculos e 1 fosso de água. No total o atleta terá que saltar 28 vezes sobre os obstáculos e 7 vezes sobre o fosso de água na prova de 3000 metros. Na prova de 2000 metros os atletas terão que saltar 18 vezes sobre os obstáculos e 5 sobre o fosso.\n[…]\nOs obstáculos possuem 91,4 cm para provas masculinas e 76,2 para provas femininas. A largura mínima dos obstáculos é de 3,94 m. O obstáculo do fosso deve ter 3,66 m de largura e deve ser fixado ao solo. As barras dos obstáculos terão que ser pintadas com faixas em branco e preto, ou em outras cores fortemente contrastantes. Cada obstáculos deverá pesar entre 80 kg e 100 kg.\n[…]\nO atleta não poderá passar por baixo dos obstáculos, ou passar pelo lado. Se isso ocorrer ele será desclassificado da prova.\n[…]\nO fosso tem 3,6 x 3,6 m de superfície e fundo inclinado, com profundidade máxima de 76 cm, que vai diminuindo gradualmente até atingir o\n[…]\nnível da pista. Para passar pela piscina, os corredores costumam se apoiar na barreira para tomar impulso, pulando o obstáculo.\n[…]\nCorrida com barreiras, modalidade de corrida de velocidade",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Futebol de 5",
+      "descricao": "Modalidade paralímpica de futebol para atletas cegos, jogada com bola sonora e cinco jogadores por equipe."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No futebol de cinco paralímpico, disputado por atletas cegos, que jogador de cada equipe pode enxergar?",
+    "resposta": "O goleiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Football_5-a-side"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Football_5-a-side",
+        "situacao": "ok",
+        "texto": "Blind football is a 5-a-side variation of football designed for visually impaired athletes. It is governed by the International Blind Sports Association (IBSA) and has participated in the Paralympic programme since the Athens 2004 Paralympic Games.\n[…]\nToday, blind football is one of the most popular Paralympic sports, with over 60 countries actively playing blind football and with 46 countries being in the men's ranking.\n[…]\nAfter the first world championships and regional championships, the game started to become more prevalent throughout the world. The sport was then added to the Summer Paralympic Games in 2004, when Brazil won gold in a final with Argentina, whilst Spain was placed third with a bronze medal. Blind football slowly became a popular sports in the Paralympic Games. Brazil has won the gold medal at every Paralympic Games, except for the Paris 2024 Paralympic Games.\n[…]\nWorld Blind Football Championships\n[…]\nBlind football at the IBSA World Games\n[…]\nIBSA Blind Football Asian Championships\n[…]\nIBSA Blind Football African Championships\n[…]\nIBSA Blind Football American Championships\n[…]\nIBSA Blind Football European Championships\n[…]\nIBSA Blind Football World Grand Prix\n[…]\nFootball 5-a-side at the Summer Paralympics\n[…]\nFootball 5-a-side at the Asian Para Games\n[…]\nFootball 5-a-side at the ASEAN Para Games\n[…]\nFootball 5-a-side at the Parapan American Games\n[…]\nFootball 5-a-side at the Summer Paralympics\n[…]\nWorld Blind Football Championships\n[…]\nFootball 5-a-side at the Asian Para Games\n[…]\nIBSA Blind Football Asian Championships\n[…]\nBlind football in Cameroon\n[…]\nBlind football in Australia\n[…]\nBlind football at the 2023 ASEAN Para Games\n[…]\nBlind football at the 2024 Summer Paralympics\n[…]\nBlind Football at the International Paralympic Committee (IPC)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Futebol_de_cinco",
+        "situacao": "ok",
+        "texto": "O futebol para deficientes visuais, também conhecido como futebol para cegos e futebol de 5, é uma adaptação do futebol para atletas com deficiências visuais. O desporto, governado pela Federação Internacional dos Desportos para Cegos (IBSA) é jogado com regras da FIFA modificadas.\n[…]\nO campo de jogo é menor e rodeado de placas. Cada equipe tem cinco jogadores, incluindo o guarda-redes. As equipes podem ainda ter um guia, que está posicionado fora do campo de jogo, para assistir os jogadores e dirigi-los.\n[…]\nB3 - Atletas com visão parcial; acuidade visual de 2/60 até 6/60 ou campos visuais de 5 a 20 graus.\n[…]\nAs equipes podem usar atletas com visão como Goleiros/Guarda-Redes e Guias; os Goleiros/ Guarda-Redes com visão não podem ter estado registrados na FIFA por, no máximo, cinco anos.\n[…]\nO Futebol de 5 na Europa desenvolveu-se na Espanha. O primeiro campeonato nacional espanhol teve lugar em solo espanhol, em 1986. Na América do Sul, há registros de um Torneio brasileiro organizado em 1980. Os Campeonatos Americano e Europeu começaram em 1997, seguidos pelo primeiro Campeonato do Mundo, em 1998. O desporto foi adicionado aos Jogos Paralímpicos de Verão em 2009\n[…]\nNo segundo caso, O futebol de 5, conhecido também como futebol de cegos, ou futsal de cegos, é uma adaptação do futsal para pessoas cegas. O esporte, organizado pela IBSA - International Blind Sports Federation, é jogado com regras modificadas da FIFA, com bandas laterais, os times tem 4 jogadores de linha cegos, e o goleiro que enxerga normalmente (ele joga numa área reduzida, de 5,82m x 2m.\n[…]\nFutebol de 5 nos Jogos Paralímpicos\n[…]\nFederação Internacional de Desportos Para Cegos - Futebol de cinco\n[…]\nComitê Paralímpico Internacional - Futebol de cinco\n[…]\nnews.bbc.co.uk - Como se joga o futebol para cegos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Pancrácio",
+      "descricao": "Esporte de combate da Grécia Antiga que misturava luta e pugilato, disputado nos Jogos de Olímpia."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No pancrácio, luta disputada em Olímpia na Antiguidade, quase tudo era permitido. Quais eram os dois golpes proibidos?",
+    "resposta": "Morder e furar os olhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pankration"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pankration",
+        "situacao": "ok",
+        "texto": "Pankration (; Ancient Greek: παγκράτιον [paŋkráti.on]) was an unarmed combat sport introduced into the Greek Olympic Games in 648 BC. The athletes used boxing and wrestling techniques but also others, such as kicking, holds, joint locks, and chokes on the ground, making it similar to modern mixed martial arts. The term comes from the Ancient Greek word παγκράτιον (pankrátion), meaning \"all of powe\n[…]\nBy the Imperial Period, the Romans had adopted the Greek combat sport (spelled in Latin as pancratium) into their Games. In 393 AD, the pankration, along with gladiatorial combat and all pagan festivals, was abolished by edict by the Christian Byzantine Emperor Theodosius I.\n[…]\nPankration uses boxing punches and other ancient boxing hand strikes.\n[…]\nFrom 2010-2025, modern pankration had a ruleset resembling amateur MMA, divided into two rulesets:\n[…]\nIn May 2025, United World Wrestling (UWW) announced a restructuring of its Grappling, Pankration, and Amateur MMA programs. Under the new structure, Pankration was designated primarily for competitors in the U15 and U17 age categories, while Amateur MMA became the discipline for U20 and senior athletes. The restructuring was accompanied by a revised rules framework, including three three-minute rounds and the adoption of the 10-point must scoring system.\n[…]\nThe change was introduced in conjunction with a revised ruleset and the creation of UWW's first Senior Amateur MMA World Championships, held in Novi Sad, Serbia, in October 2025. The 2025 Pankration World Championships in Loutraki, Greece, were consequently restricted to U15 and U17 competitors. UWW's Amateur MMA rules describe the discipline as being rooted in ancient Pankration and as an attempt to reconnect modern mixed martial arts with its ancient Olympic heritage.\n[…]\n\"Pankration\" or \"Pancration\" matches – Perseus Digital Library, Tufts University\n[…]\nInternational Federation of Pankration Athlima"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pancr%C3%A1cio",
+        "situacao": "ok",
+        "texto": "Pancrácio (em grego: Παγκράτιον; romaniz.: Pankrátion) foi uma antiga arte marcial e antigo desporto de combate sem armas, que segundo a mitologia grega teve início com os heróis Héracles e Teseu.[carece de fontes]?Uma mistura de boxe clássico e luta olímpica com golpes e técnicas de lutas que incluem socos, chutes, cotoveladas, joelhadas, cabeçadas, estrangulamentos, agarramentos, quedas, arremes\n[…]\nTudo era permitido, com excepção de enfiar os dedos nos olhos, atacar a região genital, arranhar ou morder. A vitória ocorria quando um dos atletas já não conseguia continuar a lutar, levantando um dedo para que o juiz se apercebesse.\n[…]\nNa 142.a olimpíada (212 a.C.), Capro de Élida venceu tanto o pancrácio quanto o pále (luta), assim como Héracles havia feito, e foi coroado como o segundo depois de Héracles.\n[…]\nO pancrácio para meninos, que havia sido usado apenas na 38.a olimpíada, é reintroduzido na 145.a olimpíada (200 a.C.), e seu primeiro vencedor foi Fedimo de Alexandria.\n[…]\nNa 156.a olimpíada (156 a.C.), Aristômenes de Rodes vence o pancrácio e o pále, sendo o terceiro, após Héracles, a vencer as duas competições. O quarto foi Protófanes da Magnésia no Meandro, que venceu na 172.a olimpíada (92 a.C.).\n[…]\nNa 178.a olimpíada (68 a.C.), Estratônico de Alexandria, filho de Corrago, venceu o pancrácio e o pále, o quinto depois de Héracles. Nos jogos Nemeus, ele havia vencido quatro coroas no mesmo dia, competindo nu nas competições de crianças e jovens, mas, como ele havia vencido com o favor dos seus amigos e dos reis, foi desqualificado.\n[…]\nO sexto a vencer o pancrácio e o pále, depois de Héracles, foi Marião de Alexandria, filho e Marião, na 182.a olimpíada (52 a.C.). O sétimo foi Arísteas de Estratoniceia ou Menandro, na 198.a olimpíada (13 d.C.).\n[…]\nApenas oito homens venceram tanto o pancrácio e o pále. O último foi Nicóstrato de Egas, na 204.a olimpíada (37).\n[…]\nLuta greco-romana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Salto triplo",
+      "descricao": "Prova do atletismo em que o atleta faz três saltos seguidos antes de cair na caixa de areia."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No salto triplo, depois do primeiro impulso, o atleta toca o chão com qual pé?",
+    "resposta": "O mesmo pé do impulso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triple_jump"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Triple_jump",
+        "situacao": "ok",
+        "texto": "The triple jump, sometimes referred to as the hop, step and jump or the hop, skip and jump, is a track and field event, similar to long jump. As a group, the two events are referred to as the \"horizontal jumps\". The competitor runs down the track and performs a hop, a bound and then a jump into the sand pit. The triple jump was inspired by accounts of lengthy jumps at the ancient Olympic Games and\n[…]\nother foot, from which, subsequently, the jump is performed.\"\n[…]\nIn Irish mythology the geal-ruith (triple jump) was an event contested in the ancient Irish Tailteann Games as early as 1829 BC.\n[…]\nThese are the most common boards seen at the high school and junior levels, but boards can be placed anywhere on the runway. There are three phases of the triple jump:  the \"hop\" phase, the \"bound\" or \"step\" phase, and the \"jump\" phase. They all play an important role in the jump itself. These three phases are executed in one continuous sequence. The athlete has to maintain a good speed through each phase. They should also try to stay consistent to avoid fouls.\n[…]\nWhen landing in the sand-filled pit, the jumper should aim to avoid sitting back on landing or placing either hand behind the feet. The sandpit usually begins 13m from the take-off board for male international competition or 11m from the board for international female and club-level male competition. Each phase of the triple jump should get progressively higher, and there should be a regular rhythm to the three landings.\n[…]\nThe IAAF changed the rules following outrage at the 1980 Summer Olympics in Moscow when Soviet field officials in the men's triple jump final ruled as foul eight of the twelve jumps made by two leading competitors (from Brazil and Australia) thus helping two Soviet jumpers win the gold and silver medals.\n[…]\nIAAF triple jump homepage\n[…]\nIAAF list of triple-jump records in XML"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Triplo_salto",
+        "situacao": "ok",
+        "texto": "Salto triplo(pt-BR) ou Triplo salto(pt-PT?) é uma das modalidade esportivas de salto do atletismo (junto com salto em altura, salto em distância e salto com vara)  que requer uma combinação de velocidade e técnica do atleta que o pratica. Os praticantes deste esporte são, no português do Brasil, chamados de triplistas.\n[…]\nNa mitologia irlandesa, o geal-ruith (salto triplo) era um evento disputado nos Jogos Tailteann, da Irlanda pré-cristã, desde datas tão antigas quanto 1829 a.C.\n[…]\nO salto triplo faz parte da competição olímpica desde sua primeira edição moderna em Atenas 1896. O primeiro campeão olímpico foi o americano James Connolly. Nos primeiros Jogos porém, os dois primeiros pulos do salto eram dados no mesmo pé e então o salto final. Assim como no salto em distância, no início também havia a modalidade do salto triplo sem corrida, apenas com a impulsão do corpo saindo da inércia, modalidade não mais disputada.\n[…]\nO Salto Triplo  é uma combinação de três saltos sucessivos que terminam com a queda numa caixa de areia. A prova inicia-se com uma corrida de impulso. O salto começa com o contacto da perna de impulsão tocando o solo (maior absorção de impacto); segue-se uma pequena flexão da perna de impulsão (maior tensão elástica); nesse momento a perna de impulsão sofre grande pressão (até 6 vezes o peso do atleta), sendo que quanto maior o ângulo maior a pressão.\n[…]\nA Federação Internacional de Atletismo descreve a mecânica obrigatória do salto da seguinte maneira: \"o  salto deve ser feito de tal maneira que o atleta pouse, no primeiro salto, com o mesmo pé com que ele saltou após a corrida; o segundo salto deve pousar com o pé trocado, o qual serve de impulsão para o salto final dentro da caixa de areia\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Vinicius e Tom",
+      "descricao": "Mascotes olímpico e paralímpico dos Jogos Rio 2016."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Na Rio 2016, o mascote olímpico Vinicius representava a fauna brasileira. E o mascote paralímpico Tom, representava o quê?",
+    "resposta": "A flora brasileira",
+    "distratores": [
+      "A música brasileira",
+      "Os rios brasileiros",
+      "O povo brasileiro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vinicius_and_Tom"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vinicius_and_Tom",
+        "situacao": "ok",
+        "texto": "Vinicius (Portuguese: [viˈnisjus]; Vinícius) is the official mascot of the 2016 Summer Olympics, and Tom (Portuguese: [tõw̃]) is the official mascot of the 2016 Summer Paralympics. Both events were held in Rio de Janeiro, Brazil. The mascots were created by São Paulo-based animation company Birdo, which was selected by a national tender process that began in November 2012.\n[…]\nVinicius' design represents Brazilian fauna, combining aspects of cats, monkeys, and birds, while Tom's design represents Brazilian flora.\n[…]\nOn 24 November 2014, the mascots appeared publicly in costumes for the first time at the Ginásio Experimental Olímpico Juan Antonio Samaranch, a school in Rio motivated by the 2016 Summer Olympics and established for talented young athletes. After a three-week voting period, the names \"Vinicius and Tom\" won over \"Oba and Eba\" and \"Tiba Tuque and Esquindim\" on 14 December 2014, tallying 44 percent of 323,327 votes.\n[…]\nAn employee at a Rio 2016 merchandise store commented that the mascots were \"the most popular thing by far. ... Kids and adults all love them, especially Vinicius, he is the favourite.\"\n[…]\nIn an entry about 2000 Summer Olympics' unofficial mascot Fatso the Wombat on Slate's culture blog Brow Beat, Matthew Dessem wrote that there were no glaring issues with the mascots when compared to previous Olympic mascots: \"Like the best Olympic mascots of yore, Vinicius and Tom are well-suited to plush toys and licensing deals and will be completely forgotten within a year.\" Leila Cobo, in an article published by Billboard, praised the organizers of Rio 2016 for \"celebrating music in a most joyful and profound way\" by naming the Olympic mascot after Vinicius de Moraes.\n[…]\nVinicius e Tom – Divertidos por Natureza playlist on YouTube – the animated shorts, published on the official YouTube channel of Rio 2016"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vin%C3%ADcius_e_Tom",
+        "situacao": "ok",
+        "texto": "Vinícius foi o mascote oficial dos Jogos Olímpicos, e Tom foi o mascote oficial dos Jogos Paralímpicos de Verão de 2016. Ambos os eventos foram realizados no Rio de Janeiro, Brasil. Os mascotes foram criados pela empresa de animação Birdo, com sede em São Paulo, que foi selecionada por um processo nacional de licitação iniciado em novembro de 2012. O design do Vinícius representa a vida selvagem b\n[…]\nEm agosto de 2013, foi formado um painel de juízes para selecionar os mascotes oficiais, composto por representantes dos organizadores do Rio 2016, do Comitê Olímpico Internacional, do Comitê Olímpico Brasileiro e do Comitê Paralímpico Brasileiro, juntamente com profissionais nas áreas de animação, ilustração, publicidade e pesquisa de mercado.\n[…]\nVinícius, homenageando o letrista Vinicius de Moraes, foi o mascote Olímpico. O design de Vinicius representa a fauna selvagem brasileira, combinando \"a agilidade dos gatos, o balanço dos macacos e a graça dos pássaros.\" Os braços e as pernas do personagem podem se esticar por distâncias ilimitadas. Sua missão é \"espalhar alegria em todo o mundo e celebrar a amizade que floresce entre pessoas de todo o mundo\" nos Jogos Olímpicos.\n[…]\nTom, homenageando o músico Tom Jobim, foi o mascote Paraolímpico. Seu design representa a flora brasileira. Qualquer objeto pode ser puxado das folhas da cabeça de Tom. Sua missão é \"inspirar todos a usar criatividade e determinação para sempre chegar mais longe e se divertir.\" Tom foi descrito por uma publicação oficial como: \"é uma mistura da flora brasileira - está sempre crescendo e superando obstáculos.\n[…]\nRelatando para a emissora estatal Televisão Central da China (CCTV), Lucrécia Franco comentou que a mercadoria dos mascotes, entre outras mercadorias Olímpicas, contribuiu para fortalecer as relações comerciais entre a China e o Brasil.\n[…]\nFuwa – mascotes dos Jogos Olímpicos de Verão de 2008",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Marcha atlética",
+      "descricao": "Prova de atletismo de longa distância em que o atleta caminha sem perder o contato com o solo."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na marcha atlética, além de manter sempre um pé no chão, o atleta precisa apoiar a perna da frente com que articulação esticada?",
+    "resposta": "O joelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Racewalking",
+      "https://pt.wikipedia.org/wiki/Marcha_atl%C3%A9tica"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Racewalking",
+        "situacao": "ok",
+        "texto": "Race walking, or racewalking, is a long-distance discipline within the sport of athletics. Although a foot race, it is different from running in that one foot must appear to be in contact with the ground at all times. Race judges carefully assess that this is maintained throughout the race. Races are typically held on either roads or running tracks. Common distances range from 3,000 metres (1.9 mi\n[…]\nCompared to other forms of foot racing, stride length is reduced; to achieve competitive speeds racewalkers must attain cadence rates comparable to those achieved by running.\n[…]\nUSA Track & Field offers racewalking at the Youth, Open, All-Comers, and Masters levels.\n[…]\nHigh School: Racewalking is sometimes included in high school indoor and outdoor track meets, the rules often more relaxed. The distances walked tend to be relatively short, with the 1500 m being the most commonly held event. Racing also occurs at 3 km, 5 km and 10 km, with records kept and annual rankings published.\n[…]\nDespite being one of the original disciplines of modern athletics, racewalking is sometimes derided as a contrived or \"artificial\" sport. In 1992, noted sportscaster and longtime Olympic commentator Bob Costas compared it to \"a contest to see who can whisper the loudest\".\n[…]\nIn the 1966 film Walk, Don't Run, Jim Hutton plays a racewalker competing in the Tokyo Olympics. Cary Grant and Samantha Eggar co-star.\n[…]\nIrish Olympian John Kelly appears briefly as a racewalker in the 1968 musical film Star!, starring Julie Andrews and Richard Crenna.\n[…]\nIn the 2021 film Queenpins, actress Kristen Bell plays a three-time gold medal Olympic racewalker and extreme couponer.\n[…]\nThe 2025 comedy film Racewalkers centres on a washed-up former baseball player who begins to train as a race walker.\n[…]\nRacewalk.com\n[…]\nWorld Class Racewalking\n[…]\nRace Walking Record – News, photos and reports all about racewalking"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marcha_atl%C3%A9tica",
+        "situacao": "ok",
+        "texto": "Marcha atlética é uma modalidade do atletismo onde se executa uma progressão de passos de maneira que o atleta sempre mantenha contacto com o solo com, pelo menos, um dos pés. A perna que avança tem de estar reta, (ou seja, não flexionada) desde o momento do primeiro contato com o solo até que se encontre em posição vertical.\n[…]\nAs provas de marcha atlética são disputadas na distância de 20 km, feminino, e 20 km e 50 km masculino, que se realizam normalmente em um circuito na rua de no mínimo 1 km e no máximo 2,5 km. A marcha é uma atividade em que a resistência e a técnica do atleta são fundamentais.\n[…]\nO regulamento estabelece que os juízes de marcha têm que avisar aos atletas que por sua forma de marchar correm o risco de cometer alguma falta, e para isso utilizam placas amarelas com o símbolo de uma possível infração. No julgamento de Marcha, quando um atleta comete infração é anotado no quadro de advertências um cartão vermelho correspondente a infração cometida. Quando três juízes diferentes mostram os cartões vermelhos a um atleta, o juiz chefe procede a sua desqualificação.\n[…]\nO maior nome da marcha atlética em todos os tempos é o do polonês Robert Korzeniowski, tetracampeão olímpico e tricampeão mundial, nas duas distâncias, entre 1996 e 2004.\n[…]\nCaio Bonfim é o único esportista brasileiro e também o único lusófono até os dias de hoje a obter uma medalha olímpica nesse esporte, feito obtido nas olimpíadas de Paris 2024 na modalidade de 20 km marcha .\n[…]\n20 km marcha\n[…]\n50 km marcha\n[…]\n«CBAt - Confederação Brasileira de Atletismo»\n[…]\n«Federação Portuguesa de Atletismo»\n[…]\n«Atletismo Master»\n[…]\n«MARCHADORES.COM»"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Boxe nos Jogos Olímpicos",
+      "descricao": "Torneios de boxe disputados no programa dos Jogos Olímpicos de Verão."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Desde a Rio 2016, os boxeadores homens lutam nos Jogos sem que equipamento de proteção, antes obrigatório?",
+    "resposta": "Protetor de cabeça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boxing_at_the_2016_Summer_Olympics",
+      "https://en.wikipedia.org/wiki/Boxing_at_the_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boxing_at_the_2016_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The boxing tournaments at the 2016 Summer Olympics in Rio de Janeiro took place from 6 to 21 August 2016 at the Pavilion 6 of Riocentro. However, boxing at the games was overshadowed with controversy after there were doubts raised that results in certain bouts had been manipulated. These concerns were upheld in a report published in 2021.\n[…]\n2016 AIBA Continental Olympic Qualifiers (both men and women)\n[…]\nThere were two sessions of competition on most days of the 2016 Olympics Boxing program, an afternoon session (A), starting at 11:00 BRT, and an evening session (E), starting at 17:00 BRT. Starting on August 17, days contained only one session, beginning at 14:00 BRT.\n[…]\nA report published in 2021 into the judging at the Rio Olympics found that there were systemic attempts to change the outcome of certain bouts. It also found that the methods that were employed to exploit results had begun in the Olympic qualifying rounds. The boxing at Rio Olympics had been mired in controversy since they took place in 2016, in particular two results attracted attention (both involving Russian athletes being awarded dubious victories)\n[…]\nThe AIBA removed an unspecified number of judges and referees following the controversy, stating that they \"determined that less than a handful of the decisions were not at the level expected\" and \"that the concerned referees and judges will no longer officiate at the Rio 2016 Olympic Games\"; however, the original decision would still remain. Results were manipulated using a new judging system employed at Rio.\n[…]\n\"Boxing at the 2016 Summer Olympics (Rio2016.com)\". Archived from the original on 26 August 2016. Retrieved 21 August 2016.{{cite web}}:  CS1 maint: bot: original URL status unknown (link)\n[…]\nBoxing at the 2016 Summer Olympics at SR/Olympics (archived)\n[…]\nNBC Olympics: Boxing\n[…]\nResults Book – Boxing"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Boxing_at_the_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Boxing has been contested at every Summer Olympic Games since its introduction to the program at the 1904 Summer Olympics, except for the 1912 Summer Olympics in Stockholm, because Swedish law banned the sport at the time. The 2008 Summer Olympics were the final games with boxing as a male only event. Since the 2012 Summer Olympics, women's boxing is part of the program.\n[…]\nAt the 2012 Summer Olympics, women's boxing events were added to the programme for the first time. In 2016, AIBA allowed professional boxers to compete in Olympic events, previously having been limited to amateur or state-funded boxers, for the first time.\n[…]\nOn 26 February 2025, the IOC announced that it had granted provisional recognition to World Boxing as an international federation for Olympic boxing, citing its ongoing progress on membership reach and commitments to competitive integrity. On 17 March 2025, the IOC Executive Board recommended adding boxing to the sports programme of the 2028 Summer Olympics. On 20 March 2025, during the 144th IOC session, boxing was unanimously voted to be included in the 2028 Games.\n[…]\nIn April 2025, the IOC announced that one additional women's weight class would be added to boxing for parity with the men's events, bringing the total to 14 medal events at the 2028 Summer Olympics.\n[…]\nFrom the 2016 Summer Olympics, male athletes no longer have to wear protective headgear in competition, due to a ruling by the AIBA and the IOC that it contributes to greater concussion risk. Female athletes will continue to wear the headgear, due to \"lack of data\" on the effectiveness of it on women. Also from 2016 onwards, the \"10-point must\" scoring system was used.\n[…]\nAs of the 2024 Summer Olympics, considering stripped and reallocated medals as of 31 December 2021.\n[…]\nList of Olympic medalists in boxing\n[…]\nList of Olympic venues in boxing\n[…]\nBoxing at the Youth Olympic Games"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Boxe_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_2016",
+        "situacao": "ok",
+        "texto": "As competições de boxe nos Jogos Olímpicos de Verão de 2016 foram realizadas no Pavilhão 6 do Riocentro, no Rio de Janeiro, entre 6 de agosto e 21 de agosto.\n[…]\nEm dezembro de 2016, o russo Mikhail Aloyan foi desclassificado pelo Tribunal Arbitral do Esporte e perdeu e medalha de prata no peso mosca masculino. Aloian foi flagrado no antidoping com a substância proibida tuaminoheptano. A medalha foi realocada ao venezuelano Yoel Finol e a segunda medalha de bronze na categoria ficou vago.\n[…]\n«Pagina oficial da Federação Internacional de Boxe Amador - AIBA» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Medalha olímpica",
+      "descricao": "Medalha de ouro, prata ou bronze entregue aos três primeiros colocados de cada prova olímpica."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Desde Atenas 2004, um dos lados das medalhas dos Jogos de Verão traz a figura de que deusa grega da vitória?",
+    "resposta": "Nice",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympic_medal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Olympic_medal",
+        "situacao": "ok",
+        "texto": "An Olympic medal is an honorary medal that is awarded to successful competitors at one of the Olympic Games. There are three classes of medal to be won: gold, silver, and bronze, awarded to first, second, and third place, respectively. The granting of awards is laid out in detail in the Olympic protocols.\n[…]\nMedal designs have varied considerably since the Games in 1896, particularly in the size of the medals for the Summer Olympic Games. The design selected for the 1928 Games remained until its replacement at the 2004 Games in Athens, where the use of the Roman Colosseum was replaced by the Greek Panathenaic Stadium, appropriate to represent Olympic values.\n[…]\nAfter 76 years a new style by designer Elena Votsi depicting the Panathenaic Stadium was introduced at the 2004 Summer Olympics in Athens. This new obverse design remains in use.\n[…]\nAt the 1960 Summer Olympics, competitors in the Stadio Olimpico received their medals immediately after each event for the first time; competitors at other venues came to the Stadio Olimpico the next day to receive their medals. Later Games have had a victory podium at each competition venue.\n[…]\nThe 1960 Summer Olympics in Rome, Italy were the first in which the medals were placed around the neck of the athletes. The medals hung from a chain of laurel leaves, while they are now hung from a coloured ribbon. When Athens hosted the 2004 Summer Olympics the competitors on the podium also received an olive wreath crown. In the 2016 Summer Olympics in Rio de Janeiro, each medalist received a wooden statuette of the Olympic logo."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Basquete nos Jogos Olímpicos de Verão de 1936",
+      "descricao": "Primeiro torneio olímpico de basquete, disputado nos Jogos de Berlim 1936 e vencido pelos Estados Unidos."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A primeira final olímpica de basquete, em Berlim 1936, foi disputada ao ar livre, debaixo de chuva, sobre que tipo de piso?",
+    "resposta": "Saibro de quadra de tênis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball_at_the_1936_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball_at_the_1936_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Basketball at the 1936 Summer Olympics was the first appearance of the sport of basketball as an official Olympic medal event. The tournament was played between 7 and 14 August 1936 in Berlin, Germany. 23 nations entered the competition, making basketball the largest tournament of the team sports, but Hungary and Spain withdrew, meaning 21 competed.\n[…]\nThe International Olympic Committee and International Basketball Federation, which is the governing body of international basketball, used the 1936 tournament to experiment with outdoor basketball. Lawn and dirt tennis courts were used for the competition, but this caused problems when the weather was adverse, especially during the final of the tournament.\n[…]\nThe medals were awarded by James Naismith, the inventor of basketball. The United States won its first gold medal, while Canada and Mexico won silver and bronze, their only medals in basketball, as of 2024.\n[…]\nNote: The International Olympic Committee medal database shows only these players as medalists. They all played at least one match during the tournament. The reserve players are not listed as medalists.\n[…]\nBye: Poland (Peru withdrew from the Olympic Games to protest the decision of the Olympic Committee and FIFA in the football tournament).\n[…]\nThe final was played in driving rain, turning the court into a quagmire such that it was impossible to dribble, while the conditions kept scoring to a minimum: highest scorer in the game was Joe Fortenberry of the United States, with eight points. In addition, almost all of the nearly 1,000 in attendance had to stand in the rain throughout the final, as there were virtually no seats for spectators.\n[…]\nFor the team rosters see: Basketball at the 1936 Summer Olympics – Men's team squads.\n[…]\nA total of 199(*) basketball players from 21 nations competed at the Berlin Games:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1936",
+        "situacao": "ok",
+        "texto": "O basquetebol estreou oficialmente como modalidade olímpica durante os Jogos Olímpicos de Verão de 1936 realizados em Berlim, Alemanha. O esporte já havia figurado nos Jogos de 1904 em Saint Louis, mas apenas como demonstração e sem contar para o quadro de medalhas. O torneio foi disputado entre 7 e 14 de agosto de 1936 com 23 equipes de início, a maior competição entre equipes desses Jogos, mas E\n[…]\nEntão 21 equipes jogaram a modalidade estreante na Olimpíada.\n[…]\nA Federação Internacional de Basquetebol, entidade máxima da modalidade, usou o torneio de 1936 para o experimento do basquete ao ar livre (outdoor), sendo as partidas realizadas em quadras de tênis improvisadas. A adversidade do campo causou muitos problemas as equipes, principalmente na final do torneio.\n[…]\nOs vencedores retornam a competição na segunda fase. Os perdedores se despedem definitivamente do torneio olímpico. As equipes do Canadá e Alemanha que deveriam medir-se com os perdedores dos duelos Estados Unidos-Espanha e Checoslováquia-Hungria passaram sem jogar por essa repescagem devido a desistência de espanhóis e húngaros do torneio e, consequentemente, a não realização dos seus jogos na primeira fase.\n[…]\nVencedores avançam as semi-finais e os perdedores disputam classificação entre o 5º e 8º lugar. A equipe do Peru abandonou o torneio e com isso a Polônia, que deveria enfrentar os sul-americanos nessa fase, acabou avançando direto as semi-finais.\n[…]\nA final do primeiro torneio olímpico de basquete foi disputada em condições precárias. Devido ao campo ser ao ar livre, a forte chuva que caiu com o decorrer da partida atrapalhou o desenrolar do jogo e o placar seguiu baixo durante boa parte do tempo. O cestinha da partida foi o estadunidense Joe Fortenberry com 7 pontos, porém menos de 1000 espectadores acompanharam os lances devido a chuva.\n[…]\n(em inglês) Relatório oficial dos Jogos Olímpicos de Berlim 1936",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Cathy Freeman",
+      "descricao": "Velocista australiana, campeã olímpica dos 400 metros em Sydney 2000."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Cathy Freeman, que acendeu a pira de Sydney 2000 e dias depois venceu os quatrocentos metros, pertence a que povo?",
+    "resposta": "Aborígenes australianos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cathy_Freeman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cathy_Freeman",
+        "situacao": "ok",
+        "texto": "Catherine Astrid Salome Freeman (born 16 February 1973) is an Australian former sprinter who specialised in the 400 metres event. Her personal best of 48.63 seconds currently ranks her as the 11th-fastest woman of all time, set while finishing second to Marie-José Pérec's number-six time at the 1996 Olympics. She became the Olympic champion for the women's 400 metres at the 2000 Summer Olympics, a\n[…]\nIn 1990, Freeman was chosen as a member of Australia's 4 × 100 m relay team for the 1990 Commonwealth Games in Auckland, New Zealand. The team won the gold medal, making Freeman the first-ever Aboriginal Commonwealth Games gold medallist, as well as one of the youngest, at 16 years old. She moved to Melbourne in 1990 after the Auckland Commonwealth Games.\n[…]\nFreeman won the Olympic title in a time of 49.11 seconds, becoming only the second Australian Aboriginal Olympic champion (the first was Freeman's 4 × 400 teammate Nova Peris-Kneebone who won for field hockey four years earlier in Atlanta). After the race, Freeman took a victory lap, carrying both the Aboriginal and Australian flags.\n[…]\nThis was despite unofficial flags being banned at the Olympic Games, and the Aboriginal flag, while recognised as official in Australia, not being a national flag or recognised by the International Olympic Committee. Freeman also reached the final of the 200 m, coming sixth.\n[…]\nWhite, L. (2013) \"Cathy Freeman and Australia's Indigenous Heritage: A New Beginning for an Old Nation at the Sydney 2000 Olympic Games\", International Journal of Heritage Studies, Vol. 19, Issue 2, pp 153–170 (ISSN 1352-7258).\n[…]\nWhite, L. (2008) \"One Athlete, One Nation, Two Flags: Cathy Freeman and Australia's Search for Aboriginal Reconciliation\", Sporting Traditions, Vol. 25, Issue 2, pp 1–19 (ISSN 0813-2577).\n[…]\nCathy Freeman at the Australian Olympic Committee\n[…]\nCathy Freeman at Commonwealth Games Australia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cathy_Freeman",
+        "situacao": "ok",
+        "texto": "Catherine Astrid Salome \"Cathy\" Freeman AC (Mackay, 16 de fevereiro de 1973) é uma atleta australiana especialista nos 400 metros rasos. Foi a primeira atleta aborígene a representar a Austrália nos Jogos Olímpicos (Atlanta 1996) e a vencer o Campeonato Mundial de Atletismo (Atenas 1997). Ainda é seu o recorde da Oceania nos 400m com a marca de 48 segundos e 63 centésimos conquistado em 29 de julh\n[…]\nEm 2000 teve a honra de acender a Pira Olímpica na cerimônia de abertura dos Jogos Olímpicos de Sydney.\n[…]\n«Sítio oficial da Fundação Catherine Freeman» (em inglês). www.catherinefreemanfoundation.com\n[…]\n«Federação Australiana de Atletismo - Resultados da atleta» (em inglês). www.athletics.com.au",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Paavo Nurmi",
+      "descricao": "Fundista finlandês, nove vezes campeão olímpico nos Jogos de 1920, 1924 e 1928."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Nove vezes campeão olímpico nos anos vinte, o fundista Paavo Nurmi ficou conhecido por que apelido?",
+    "resposta": "Finlandês Voador",
+    "distratores": [
+      "Locomotiva do Norte",
+      "Raio de Helsinque",
+      "Lobo da Lapônia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paavo_Nurmi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paavo_Nurmi",
+        "situacao": "ok",
+        "texto": "Paavo Johannes Nurmi (Finnish pronunciation: [ˈpɑːʋo ˈnurmi] ; 13 June 1897 – 2 October 1973) was a Finnish middle-distance and long-distance runner. He was called the \"Flying Finn\" because he dominated distance running in the 1920s. Nurmi set 22 official world records at distances between 1,500 metres and 20 kilometres, and won nine gold and three silver medals in his 12 events in the Summer Olym\n[…]\nPeter Lovesey wrote in The Kings of Distance: A Study of Five Great Runners that Nurmi \"accelerated the progress of world records; developed and actually came to personify the analytic approach to running; and he was a profound influence not only in Finland, but throughout the world of athletics.\n[…]\nBoken om Nurmi (The Book about Nurmi), released in Sweden in 1925, was the first biographical book on a Finnish sportsman. Finnish astronomer Yrjö Väisälä named the main belt asteroid 1740 Paavo Nurmi after Nurmi in 1939, while Finnair named its first DC-8 Paavo Nurmi in 1969. Nurmi's former rival Ville Ritola boarded the plane when he moved back to Finland in 1970.\n[…]\nPaavo Nurmi Marathon, held annually since 1969, is the oldest marathon in Wisconsin and the second-oldest in the American Midwest. In Finland, another marathon bearing the name has been held in Nurmi's hometown of Turku since 1992, along with the athletics competition Paavo Nurmi Games that was started in 1957. Finlandia University, an American college with Finnish roots, named their athletic center after Nurmi.\n[…]\nA ten-mark bill featuring a portrait of Nurmi was issued by the Bank of Finland in 1987. The other revised bills honored architect Alvar Aalto, composer Jean Sibelius, Enlightenment thinker Anders Chydenius and author Elias Lönnrot, respectively. The Nurmi bill was replaced by a new 20-mark note featuring Väinö Linna in 1993. In 1997, a historic stadium in Turku was renamed the Paavo Nurmi Stadium."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paavo_Nurmi",
+        "situacao": "ok",
+        "texto": "Paavo Nurmi (Turku, 13 de junho de 1897 — Helsinque, 2 de outubro de 1973) foi um corredor finlandês e um dos maiores atletas de todos os tempos. Em 2012, foi imortalizado no Hall da Fama do Atletismo, criado no mesmo ano como parte das celebrações pelo centenário da IAAF.\n[…]\nNurmi, também conhecido como Homem Relógio– por sua mania de correr com um relógio na mão controlando seu ritmo –  fez parte dos chamados Finlandeses Voadores, termo com que ele e seus compatriotas Hannes Kolehmainen, Ville Ritola e outros, eram designados nos anos 1920, pelas suas conquistas no atletismo, quando dominaram todas as provas de meio-fundo e de longa distância nos Jogos Olímpicos e torneios da época.\n[…]\nDurante este período, Paavo Nurmi foi o maior corredor de meia e longa distância do mundo, quebrando diversos recordes mundiais entre os 1500 m e os 20 quilômetros, conquistando nove medalhas de ouro em Jogos Olímpicos, o que o coloca – ao lado dos americanos Michael Phelps, Carl Lewis e Mark Spitz, do Jamaicano Usain Bolt e da russa Larissa Latynina – como um dos maiores ganhadores de medalhas de ouro da história olímpica.\n[…]\nHerói nacional da Finlândia, Nurmi causou um dos momentos mais emocionantes dos Jogos Olímpicos de Helsinque, na sua pátria, em 1952, ao entrar no estádio carregando a tocha olímpica. Quando morreu, aos 76 anos de idade,  teve um enterro com honras de Estado.\n[…]\nLista dos campeões olímpicos de atletismo\n[…]\nMaila Nurmi\n[…]\nBiografia em urheilumuseo.org:PAAVO NURMI'S HOME[ligação inativa] (inglês e finlandês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Pancrácio",
+      "descricao": "Esporte de combate da Grécia Antiga que misturava luta e pugilato, disputado nos Jogos de Olímpia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do pancrácio, luta disputada em Olímpia na Antiguidade, junta duas palavras gregas. O que ele significa?",
+    "resposta": "Toda a força",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pankration",
+      "https://pt.wikipedia.org/wiki/Pancr%C3%A1cio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pankration",
+        "situacao": "ok",
+        "texto": "Pankration (; Ancient Greek: παγκράτιον [paŋkráti.on]) was an unarmed combat sport introduced into the Greek Olympic Games in 648 BC. The athletes used boxing and wrestling techniques but also others, such as kicking, holds, joint locks, and chokes on the ground, making it similar to modern mixed martial arts. The term comes from the Ancient Greek word παγκράτιον (pankrátion), meaning \"all of powe\n[…]\nBy the Imperial Period, the Romans had adopted the Greek combat sport (spelled in Latin as pancratium) into their Games. In 393 AD, the pankration, along with gladiatorial combat and all pagan festivals, was abolished by edict by the Christian Byzantine Emperor Theodosius I.\n[…]\nPankration uses boxing punches and other ancient boxing hand strikes.\n[…]\nFrom 2010-2025, modern pankration had a ruleset resembling amateur MMA, divided into two rulesets:\n[…]\nIn May 2025, United World Wrestling (UWW) announced a restructuring of its Grappling, Pankration, and Amateur MMA programs. Under the new structure, Pankration was designated primarily for competitors in the U15 and U17 age categories, while Amateur MMA became the discipline for U20 and senior athletes. The restructuring was accompanied by a revised rules framework, including three three-minute rounds and the adoption of the 10-point must scoring system.\n[…]\nThe change was introduced in conjunction with a revised ruleset and the creation of UWW's first Senior Amateur MMA World Championships, held in Novi Sad, Serbia, in October 2025. The 2025 Pankration World Championships in Loutraki, Greece, were consequently restricted to U15 and U17 competitors. UWW's Amateur MMA rules describe the discipline as being rooted in ancient Pankration and as an attempt to reconnect modern mixed martial arts with its ancient Olympic heritage.\n[…]\n\"Pankration\" or \"Pancration\" matches – Perseus Digital Library, Tufts University\n[…]\nInternational Federation of Pankration Athlima"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pancr%C3%A1cio",
+        "situacao": "ok",
+        "texto": "Pancrácio (em grego: Παγκράτιον; romaniz.: Pankrátion) foi uma antiga arte marcial e antigo desporto de combate sem armas, que segundo a mitologia grega teve início com os heróis Héracles e Teseu.[carece de fontes]?Uma mistura de boxe clássico e luta olímpica com golpes e técnicas de lutas que incluem socos, chutes, cotoveladas, joelhadas, cabeçadas, estrangulamentos, agarramentos, quedas, arremes\n[…]\nAntenor, de Atenas ou de Mileto, foi um dos grandes vencedores do pancrácio, na 118.a olimpíada (308 a.C.).\n[…]\nNa 142.a olimpíada (212 a.C.), Capro de Élida venceu tanto o pancrácio quanto o pále (luta), assim como Héracles havia feito, e foi coroado como o segundo depois de Héracles.\n[…]\nO pancrácio para meninos, que havia sido usado apenas na 38.a olimpíada, é reintroduzido na 145.a olimpíada (200 a.C.), e seu primeiro vencedor foi Fedimo de Alexandria.\n[…]\nNa 156.a olimpíada (156 a.C.), Aristômenes de Rodes vence o pancrácio e o pále, sendo o terceiro, após Héracles, a vencer as duas competições. O quarto foi Protófanes da Magnésia no Meandro, que venceu na 172.a olimpíada (92 a.C.).\n[…]\nNa 178.a olimpíada (68 a.C.), Estratônico de Alexandria, filho de Corrago, venceu o pancrácio e o pále, o quinto depois de Héracles. Nos jogos Nemeus, ele havia vencido quatro coroas no mesmo dia, competindo nu nas competições de crianças e jovens, mas, como ele havia vencido com o favor dos seus amigos e dos reis, foi desqualificado.\n[…]\nO sexto a vencer o pancrácio e o pále, depois de Héracles, foi Marião de Alexandria, filho e Marião, na 182.a olimpíada (52 a.C.). O sétimo foi Arísteas de Estratoniceia ou Menandro, na 198.a olimpíada (13 d.C.).\n[…]\nApenas oito homens venceram tanto o pancrácio e o pále. O último foi Nicóstrato de Egas, na 204.a olimpíada (37).\n[…]\nLuta greco-romana"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Sam (mascote)",
+      "descricao": "Águia mascote dos Jogos Olímpicos de Los Angeles 1984."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O mascote dos Jogos de Los Angeles 1984 era uma águia com nome inspirado em que personagem, símbolo dos Estados Unidos?",
+    "resposta": "Tio Sam",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle",
+        "situacao": "ok",
+        "texto": "Sam the Olympic Eagle was the mascot of the 1984 Summer Olympics which were held in Los Angeles. He is a bald eagle, the national bird and national animal of the host nation, the United States. The United States originally intended to use a bear mascot to represent California, but the Soviet Union had used a bear mascot named Misha at the preceding 1980 Summer Olympics. The mascot was designed by \n[…]\nSam would go on to feature in McDonald's merchandise, as an attraction at Disneyland, and as the protagonist of a Japanese anime series titled Eagle Sam.\n[…]\nOlympic references and merchandise further identifying the origin of Sam\n[…]\nEagle Sam (anime) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sam_%28mascote%29",
+        "situacao": "ok",
+        "texto": "Sam é o mascote das Olimpíadas de Los Angeles realizadas em 1984 em Los Angeles. Ele é uma águia-de-cabeça-branca, ave símbolo nacional dos Estados Unidos, onde foram realizados os jogos.Seu nome também sugere uma afinidade com Uncle Sam, outro símbolo americano. Ele foi desenhado pela Lenda da Disney, Bob Moore.\n[…]\nSam é muitas vezes confundido pelos visitantes da Disneyland, e também nas documentações dos projetos de mascote para os Jogos Olímpicos de Verão, por um outro mascote da Disney chamado Eagle Sam, ex personagem atração da Disneyland, America Sings, projetado pelo animador Marc Davis. Ele tem o mesmo nome de Sam the Eagle do The Muppet Show, mas os personagens não tem correlação.\n[…]\nEle ainda é conhecido como águia Sam no Japão, onde uma série animada de mesmo nome foi ao ar em 1983, um ano antes dos Jogos. Mesmo após a conclusão dos Jogos, Sam the Eagle ainda é usado para promover um evento de atletismo, the Mt. SAC Relays no Mt. San Antonio College, especificamente no seu evento \"LA84 Youth Days\", promoção para os jovens interessados ​​em atletismo, gerido por um grupo de caridade fundada durante os Jogos Olímpicos.\n[…]\nOlympic references and merchandise further identifying the origin of Sam\n[…]\nEagle Sam (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "3000 metros com obstáculos",
+      "descricao": "Prova de atletismo de três mil metros em que os corredores superam barreiras fixas e um fosso com água."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os três mil metros com obstáculos, em inglês steeplechase, herdaram o nome de antigas corridas que tinham como pontos de referência o quê?",
+    "resposta": "Torres de igreja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steeplechase_(athletics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Steeplechase_(athletics)",
+        "situacao": "ok",
+        "texto": "A steeplechase is an obstacle race in athletics which derives its name from the steeplechase in horse racing. The foremost version of the event is the 3000 metres steeplechase. The 2000 metres steeplechase is the next most common distance. In youth athletics, a distance of 1000 metres is occasionally used for steeplechase races.\n[…]\nAnd the day ended with a steeplechase at Newark, where 3,000 spectators watched six young men run a mile and a half including a crossing of the River Trent, \"full 20 feet wide\".\n[…]\nIn 2005 Dorcus Inzikuru won the first World Championship in the women's event in Helsinki, becoming Uganda's first gold medallist at the World Championships, and in 2008, at the National Stadium in Beijing, Gulnara Samitova-Galkina, of Russia became both the inaugural Olympic champion in the event and with a time of 8:58.81 she became the first woman under nine minutes for the 3000 metres steeplechase.\n[…]\nA 3000 metres steeplechase is defined in the rulebook as having 28 barriers and seven water jumps. A 2000 meters steeplechase has 18 barriers and five water jumps. Since the water jump is never on the track oval, a steeplechase \"course\" is never a perfect 400 meters lap. Instead, the water jump is placed inside the turn, shortening the lap, or outside the turn, lengthening the lap. The start line moves from conventional starting areas in order to compensate for the different length of lap.\n[…]\nWhen the water jump is inside, the 3000-metre start line is on the backstretch (relative to the steeplechase finish). When the water jump is outside, the 3000-metre start line is on the home stretch. The 2000-metre start line reverses that pattern and uses ⁠5/7⁠ the amount of compensation.\n[…]\nIAAF list of steeplechase records in XML\n[…]\nWomen's Steeplechase"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Corridas_com_obst%C3%A1culos",
+        "situacao": "ok",
+        "texto": "As corridas com obstáculos são provas de atletismo que fazem parte do programa olímpico e consistem em corridas que têm no percurso barreiras que os atletas têm que saltar. As provas com obstáculos surgiram na Grécia.\n[…]\nTem como provas padrão 2000 metros com obstáculos e 3000 metros com obstáculos, sendo essa última prova olímpica masculina e feminina. Cada volta na pista terá 4 obstáculos e 1 fosso de água. No total o atleta terá que saltar 28 vezes sobre os obstáculos e 7 vezes sobre o fosso de água na prova de 3000 metros. Na prova de 2000 metros os atletas terão que saltar 18 vezes sobre os obstáculos e 5 sobre o fosso.\n[…]\nOs obstáculos possuem 91,4 cm para provas masculinas e 76,2 para provas femininas. A largura mínima dos obstáculos é de 3,94 m. O obstáculo do fosso deve ter 3,66 m de largura e deve ser fixado ao solo. As barras dos obstáculos terão que ser pintadas com faixas em branco e preto, ou em outras cores fortemente contrastantes. Cada obstáculos deverá pesar entre 80 kg e 100 kg.\n[…]\nO atleta não poderá passar por baixo dos obstáculos, ou passar pelo lado. Se isso ocorrer ele será desclassificado da prova.\n[…]\nnível da pista. Para passar pela piscina, os corredores costumam se apoiar na barreira para tomar impulso, pulando o obstáculo.\n[…]\nCorrida com barreiras, modalidade de corrida de velocidade",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Salto Produnova",
+      "descricao": "Salto sobre a mesa da ginástica artística com rondada e duplo mortal para a frente, batizado com o nome da russa Yelena Produnova."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Com um duplo mortal para a frente, o Produnova é um dos saltos mais arriscados da ginástica. Que apelido sombrio ele ganhou?",
+    "resposta": "Salto da morte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Produnova_vault"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Produnova_vault",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Jesse Owens",
+      "descricao": "Velocista americano, campeão de quatro provas nos Jogos de Berlim 1936."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em Berlim 1936, que saltador alemão disputou o ouro do salto em distância com Jesse Owens e virou amigo dele?",
+    "resposta": "Luz Long",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luz_Long",
+      "https://en.wikipedia.org/wiki/Jesse_Owens"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Luz_Long",
+        "situacao": "ok",
+        "texto": "Carl Ludwig \"Luz\" Long (27 April 1913 – 14 July 1943) was a German Olympic long jumper who won the silver medal in the event at the 1936 Summer Olympics in Berlin and had a friendship with Jesse Owens, who won the gold medal in that event.\n[…]\nLuz Long won the German long jump championship six times: in 1933, 1934, 1936, 1937, 1938, and 1939.\n[…]\nThe 21-year-old, 1.84-metre-tall (6 ft 0½ in) Long had finished third in the 1934 European Championships in Athletics with 7.25 metres (23 ft 9½ in). By the summer of 1936, Long held the European record in the long jump and was eager to compete for the first time against Jesse Owens, the American world-record holder. The long jump on 4 August was Long's first event against Owens, and Long met his expectations by setting an Olympic record during the preliminary round.\n[…]\nIn the 1966 documentary Jesse Owens Returns to Berlin, Owens relates a story that Long came over to offer advice before Owens's third jump. According to the story, Long said that Owens should jump from a few inches before the takeoff board. This would reduce the measured distance but avoid the risk of another fault; the theory was that Owens would still clear the required distance even with the handicap of jumping early.\n[…]\nLong's competition with Owens is recorded in Leni Riefenstahl's documentary Olympia – Fest der Völker.\n[…]\nAfter the war, Owens travelled to Germany to meet Luz's son, Kai-Heinrich Long (1941‍–‍2021), who was seen with Owens in the 1966 documentary Jesse Owens Returns To Berlin, where they conversed in the Berlin Olympic Stadium.\n[…]\nTranscript of letter sent by Luz Long to Jesse Owens from Sicily while he was serving in the Wehrmacht. \"Tell him about his father\"\n[…]\nLuz Long at Olympedia\n[…]\nPhoto of Long and Owens"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jesse_Owens",
+        "situacao": "ok",
+        "texto": "James Cleveland \"Jesse\" Owens (September 12, 1913 – March 31, 1980) was an American track and field athlete. He made history at the 1936 Olympic Games by winning four gold medals, setting individual Olympic records in each event, plus another as a member of the 400-meter relay. He is widely regarded as one of the greatest athletes in track and field history.\n[…]\nOwens gained national attention as a student of East Technical High School in Cleveland; he equaled the world record of 9.4 seconds in the 100-yard (91 m) dash, broke the national high school record with 20.7 seconds in the 220-yard (200 m) dash, and long-jumped 24 feet 9+1⁄2 inches (7.56 m) at the 1933 National High School Championship in Chicago. His 100-yard dash remained the national high school record until 1967, while his 200-yard dash remained the national record for 20 years.\n[…]\nAt the 1936 Big Ten Championships, Owens dominated, winning the long jump, 100-yard dash, 220-yard dash, and 100-yard low hurdles. With these victories, he concluded his Big Ten Championship career undefeated—winning nine titles in nine events.\n[…]\nAt the 1934 USA Indoor Track and Field Championships, Owens captured the long jump gold with a world-record leap of 25 ft 3+1⁄8 in (7.699 m). Two years later, at his final appearance at the Outdoor Championships in 1936, he again shattered the long jump world record with a leap of 26 feet, 8¼ inches. He also set a championship record in the 100 meters, clocking 10.4 seconds.\n[…]\n2× Long jump champion (1935, 1936)\n[…]\n3× Long jump gold medalist (1933, 1934, 1936)\n[…]\nLong jump\n[…]\n1950: At the 50th anniversary of the Big Ten Championships, Owens was unanimously named the top track athlete of the half-century and the only athlete selected for the all-star team in more than one individual event—earning spots in the 100-yard dash, 220-yard dash, 220-yard low hurdles, and long jump."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Luz_Long",
+        "situacao": "ok",
+        "texto": "Carl Ludwig \"Luz\" Long (Leipzig, 27 de abril de 1913 – San Pietro Clarenza, 14 de julho de 1943) foi um atleta alemão, especializado no salto em distância. Tornou-se parte das lendas olímpicas como vencedor da medalha de prata nesta prova em Berlim 1936, e por ter dado conselhos a seu adversário, o norte-americano Jesse Owens, que os usou para conquistar a medalha de ouro naqueles Jogos Olímpicos \n[…]\nLong ficou com a medalha de bronze saltando 7,25 m no Campeonato Europeu de Atletismo de 1934,realizado em Turim, Itália. No verão de 1936, era o recordista europeu do salto em distância, ansioso para disputá-lo contra o norte-americano Owens, então o recordista norte-americano. A prova do salto em distância, realizada em 4 de agosto, durante os Jogos Olímpicos de Berlim, foi o seu primeiro evento contra Owens. Durante as eliminatórias, ele marcou um novo recorde olímpico.\n[…]\nDe acordo com o que Owens contou ao filho de Long em 1964, o alemão então foi até ele e o aconselhou a escolher uma nova marca, saltando algumas polegadas para trás da tábua de salto, porque sabia que o americano facilmente atingiria 7,15 m mesmo assim e não arriscaria queimar seu último salto, sendo desclassificado.\n[…]\nSobre isso, Owens disse mais tarde: \"Ele foi bastante corajoso em ter essa atitude comigo na frente de Adolf Hitler... você pode derreter todas as medalhas e troféus que eu possuo e isso não seria um revestimento suficiente para a amizade de 24 quilates que eu sentia por Luz Long naquele momento\". Toda a disputa entre Long e Owens foi filmada e encontra-se no épico filme de Leni Riefenstahl sobre os Jogos de Berlim, Olympia.\n[…]\nMas Long e Owens mantiveram contato por cartas depois de Berlim e na última delas escrita pelo alemão ao americano, Long havia lhe pedido que um dia encontrasse seu filho, e contasse a ele \"como as coisas podem ser entre os homens deste mundo\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Wenlock (mascote)",
+      "descricao": "Mascote olímpico dos Jogos de Londres 2012, formado por uma gota de aço, ao lado do mascote paralímpico Mandeville."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Wenlock, mascote de Londres 2012, tem o nome de uma cidadezinha inglesa cujos jogos do século dezenove inspiraram qual personagem olímpico?",
+    "resposta": "Pierre de Coubertin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wenlock_and_Mandeville",
+      "https://en.wikipedia.org/wiki/Wenlock_Olympian_Games"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wenlock_and_Mandeville",
+        "situacao": "ok",
+        "texto": "Wenlock is the official mascot for the 2012 Summer Olympics, and Mandeville is the official mascot for the 2012 Summer Paralympics, both held in London, England, United Kingdom. Named after Much Wenlock and Stoke Mandeville, they were created by Iris, a London-based creative agency. The mascots were unveiled on 19 May 2010, marking the second time (after Vancouver's Miga, Quatchi, Sumi and Mukmuk)\n[…]\nWenlock's name is inspired by Much Wenlock in Shropshire, England, where in 1850 the Wenlock Olympian Society held its first Olympian Games, regarded as an inspiration for the modern Olympic games. The five friendship rings on his wrists correspond to the five Olympic rings, and three points on his head represent the three places on the podium. The pattern on his body symbolises the whole world coming to London, and the shape of his helmet represents the shape of the Olympic Stadium.\n[…]\nThe British children book writer Michael Morpurgo wrote the story concept to go with Wenlock and Mandeville and an animation titled “Out of a Rainbow” was produced by the London office of Beijing-based Crystal CG. This was followed by a sequel, \"Adventures on a Rainbow\", which was released on 1 March 2011. The video featured guest appearances from Olympic athletes: Phillips Idowu, Shanaze Reade and Tom Daley as well as Paralympic athletes: Ellie Simmonds and Mandip Sehmi.\n[…]\nThese were followed by \"Rainbow Rescue\" (5 December 2011) and \"Rainbow to the Games\" (28 May 2012). The music for the animated films series was scored by British composer Thomas Hewitt Jones.\n[…]\nThe mascots featured in an Olympic-themed comic strip in The Beano, starting in issue 3601. The strip, written by Ryan C. Gavan and drawn by Nigel Parkinson, ran until the Olympics began in July 2012.\n[…]\nRainbow Productions - Manufacturer of 2012 Olympic Mascots\n[…]\nMedia related to 2012 Summer Olympics mascots at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wenlock_Olympian_Games",
+        "situacao": "ok",
+        "texto": "The Wenlock Olympian Games, dating from 1850, are a forerunner of the modern Olympic Games. They are organised by the Wenlock Olympian Society (WOS), and are held each year at venues across Shropshire, England, centred on the market town of Much Wenlock. One of the two mascots for the 2012 Summer Olympics was named Wenlock in honour of the Wenlock Olympian Games.\n[…]\nThe secretary of the class and driving force behind the Olympian Games was Dr William Penny Brookes who was inspired to create these events through his work as a doctor and surgeon in the sprawling borough of Wenlock which consisted mainly of Madeley, Broseley and Much Wenlock.\n[…]\nBaron Pierre de Coubertin visited the Wenlock Olympian Society in 1890, which held a special festival in his honour. He was inspired by Dr Brookes and went on to establish the International Olympic Committee. Brookes was named as an honorary delegate at the 1894 Sorbonne Congress at which the IOC was established, although he was unable to attend due to ill health. The Wenlock Olympian Games continued intermittently after his death in 1895, with significant revivals in 1950 and 1977.\n[…]\nThe mascot for the London 2012 Summer Olympics was named  Wenlock after Much Wenlock where the Wenlock Olympian Society and its Games began. The 2012 Summer Paralympics mascot was named Mandeville in honour of Stoke Mandeville Hospital, where the Paralympian Games originated.\n[…]\nFurbank, Muriel; Cromarty, Helen; McDonald, Glyn (1996). William Penny Brookes and the Olympic Connection. Much Wenlock: Wenlock Olympian Society.\n[…]\nHaddon, Celia (2004), The First Ever English Olimpick Games, Hodder & Stoughton, ISBN 0-340-86274-2\n[…]\nMullins, Sam (1986). British Olympians: William Penny Brookes and the Wenlock Games. Birmingham Olympic Council. ISBN 978-0-901662-01-9.\n[…]\nWenlock Olympian Society"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wenlock_e_Mandeville",
+        "situacao": "ok",
+        "texto": "Wenlock e Mandeville são as mascotes oficiais dos Jogos Olímpicos de Verão de 2012, realizados em Londres, e representam duas gotas de aço.\n[…]\nForam desenvolvidas por uma agência britânica chamada Iris. De acordo com seu criador, as mascotes surgiram das duas gotas de aço que restaram da última viga de suporte do Estádio Olímpico de Londres.\n[…]\nOs nomes escolhidos fazem referência a duas cidades britânicas: Much Wenlock e Stock Mandeville.\n[…]\nO desenho de Wenlock e Mandeville agradou de modo geral. As crianças foram as mais satisfeitas com as mascotes de Londres, que têm um único olho e um sinalizador na cabeça que remete aos tradicionais táxis ingleses.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Johnny Weissmuller",
+      "descricao": "Nadador americano, cinco vezes campeão olímpico em 1924 e 1928, depois ator de cinema."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Cinco vezes campeão olímpico de natação nos anos vinte, o americano Johnny Weissmuller virou astro do cinema interpretando que personagem?",
+    "resposta": "Tarzan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Johnny_Weissmuller",
+        "situacao": "ok",
+        "texto": "Johnny Weissmuller ( WYSSE-mul-ər; born Johann Peter Weißmüller, German: [ˈjoːhan ˈpeːtɐ ˈvaɪsmʏlɐ]; June 2, 1904 – January 20, 1984) was an American Olympic swimmer, water polo player and actor. He set world records alongside winning five gold medals in the Olympics. He won the 100m freestyle and the 4 × 200 m relay team event in the 1924 Summer Olympics in Paris and the 1928 Summer Olympics in A\n[…]\nDuring the 1930s, before he acted as Tarzan, Weissmuller was a swimming instructor at the Miami Biltmore Hotel. He broke a world record at the Biltmore pool.\n[…]\nWeissmuller's first film was the non-speaking role of Adonis in the movie Glorifying the American Girl. He appeared wearing only a fig leaf while hoisting actress Mary Eaton on his shoulders. He was noticed by the writer Cyril Hume, which led to his big break playing Tarzan in Tarzan the Ape Man in 1932.\n[…]\nOn January 20, 1984, Weissmuller died of pulmonary edema at the age of 79. He was buried just outside Acapulco, Valle de La Luz, at the Valley of the Light Cemetery. As his coffin was lowered into the ground, a recording of the Tarzan yell he invented was played three times, at his request. He was honored with a 21-gun salute, befitting a head of state, which was arranged by Senator Ted Kennedy and President Ronald Reagan.\n[…]\nEdgar Rice Burroughs himself paid tribute to Weissmuller's powerful screen persona in the last Tarzan novel that he completed\n[…]\nSuddenly recognition lighted the eyes of Jerry Lucas. \"John Clayton,\" he said, \"Lord Greystoke—Tarzan of the Apes!\" Shrimp's jaw dropped. \"Is dat Johnny Weismuller? [sic]\" he demanded. Tarzan shook his head as though to clear his brain of an obsession. His thin veneer of civilization had been consumed by the fires of battle. ...\n[…]\nJohnny Weissmuller at IMDb\n[…]\n\"Serbia: Monument to Tarzan\", The New York Times, February 17, 2007. The article states that Johnny Weissmuller was born in Serbia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Johnny_Weissmuller",
+        "situacao": "ok",
+        "texto": "Johnny Weissmuller, nascido János Weißmüller (Timișoara, 2 de junho de 1904 — Acapulco, México, 20 de janeiro de 1984) foi um atleta e ator estadunidense, famoso por interpretar Tarzan, o personagem de ficção criado pelo escritor estadunidense Edgar Rice Burroughs.\n[…]\nAntes de entrar para o cinema, Weissmuller teve uma carreira excepcional como desportista, tendo conquistado cinco medalhas de ouro nos Jogos Olímpicos de 1924 e 1928. Ele estabeleceu 67 recordes mundiais de natação e ganhou 52 campeonatos nacionais, sendo considerado um dos melhores nadadores de todos os tempos.\n[…]\nEm 1934 imortalizou no cinema a famosa personagem Tarzan. O cinema transformou Tarzan, já conhecido através dos romances de Edgar Rice Burroughs, em mito universal e Weissmuller fez doze filmes como o homem macaco, celebrizando o famoso e estilizado grito da personagem.\n[…]\nDepois de Tarzan, ele interpretou com sucesso a personagem Jim das Selvas na série do mesmo nome, feita para a Columbia entre 1948 e 1955. Foram dezesseis filmes ao todo, com duração média de setenta minutos cada. Em 1955, a série transferiu-se para a TV, tendo sido feitos vinte e seis episódios de meia hora cada. Já envelhecido e obeso, Weissmuller tentava dar vida a uma personagem atlética e aventureira, calcada na legendária figura de Tarzan.\n[…]\nNo final dos anos 1950, Weissmuller mudou-se para Chicago, onde fundou uma empresa de piscinas. Seguiram-se outros empreendimentos, a maioria envolvendo Tarzan ou a natação de uma forma ou de outra, mas sem grandes resultados. Aposentou-se em 1965 e no ano seguinte juntou-se aos ex-Tarzans Jock Mahoney e James Pierce para a campanha publicitária de lançamento da série de TV Tarzan, estrelada por Ron Ely. Em 1967 sua imagem foi imortalizada na capa do LP Sgt.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Estádio Olímpico de Munique",
+      "descricao": "Estádio principal dos Jogos Olímpicos de 1972, no Olympiapark, em Munique, Alemanha."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Dois anos depois dos Jogos de 1972, o Estádio Olímpico de Munique recebeu a final de que competição?",
+    "resposta": "Copa do Mundo de 1974",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)",
+      "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_final"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)",
+        "situacao": "ok",
+        "texto": "Olympiastadion (German pronunciation: [ʔoˈlʏmpi̯aːˌʃtaːdi̯ɔn] ) is a stadium located in Munich, Germany. Situated at the heart of the Olympiapark München in northern Munich, the stadium was built as the main venue for the 1972 Summer Olympics.\n[…]\naverage audiences of 80,000 to 90,000 people were estimated daily. Also, the stadium has hosted many major football matches including the 1974 FIFA World Cup Final and the UEFA Euro 1988 Final—due to up to 5,000 additional short-term stands, the football World Cup Final in 1974 was attended by 75,200 spectators. The stadium also hosted European Cup Finals in 1979, 1993 and 1997. Its current capacity is 63,118 seated spectators.\n[…]\nPlans to cover an additional 15,000 seats in the eastern stands of the stadium - for the Olympic Games, respectively the football World Cup 1974 in West Germany - with a separate tent roof were initially developed by Behnisch and his architectural team from 1964 to 1967. But the additional roof was never completed; only the two main foundations to hold the roof were built, and they are still visible; one in each of the curves: behind, respectively under the existing roof.\n[…]\nThe stadium is property of the Olympiapark München GmbH, a society wholly owned by the City of Munich's Referat für Arbeit und Wirtschaft.\n[…]\nBorussia Dortmund won the 1997 UEFA Champions League Final at the Olympiastadion.\n[…]\nOn 10 October 2020, after more than eight years, Olympiastadion was due to host a professional football match of Türkgücü München against SV Wehen Wiesbaden.\n[…]\nThe stadium was one of the venues for the 1974 FIFA World Cup.\n[…]\nThe following games were played at the stadium during the World Cup of 1974:\n[…]\n7 July 1974 West Germany – Netherlands 2–1 (1974 World Cup Final)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup_final",
+        "situacao": "ok",
+        "texto": "The final match of the 1974 FIFA World Cup, the tenth edition of FIFA's competition for national football teams, was played at Olympiastadion in Munich, West Germany, on 7 July 1974, and was contested by the Netherlands and West Germany. The tournament comprised host West Germany, defending champions Brazil, and 14 other teams who emerged from the qualification phase, organized by the six FIFA con\n[…]\nThe 1974 FIFA World Cup was the tenth edition of the World Cup, FIFA's football competition for national teams, held in West Germany between 13 June and 7 July. West Germany and Brazil qualified automatically for the finals — West Germany as hosts and Brazil as the winners of the previous World Cup. The remaining 14 spots were decided through qualifying rounds held between November 1971 and February 1974, organized by the six FIFA confederations and involving 99 teams.\n[…]\nThe final was held at the Olympiastadion, a 80,000–capacity stadium, in Munich, West Germany, including four other matches at the 1974 World Cup. The match ball used for the tournament was the Adidas Telstar, which was specifically made for the World Cup.\n[…]\nThese two penalties were the first to be awarded in a World Cup Final. West Germany now pushed for a winner, which eventually came in the 43rd minute through Gerd Müller.\n[…]\nThe second half saw chances for both sides. Müller thought he had scored when he put the ball in the net, only to be denied by the linesman flagging for offside. In the 85th minute, Hölzenbein fell to ground in the Dutch penalty area again, but referee Taylor did not believe it was a foul. When the final whistle went, West Germany were crowned world champions for 1974, in addition to their European title from 1972.\n[…]\nJoão Havelange, FIFA President from 1974 to 1998, made an unsubstantiated claim that the 1966 and 1974 World Cups were fixed so that England and West Germany would win respectively."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Munique",
+        "situacao": "ok",
+        "texto": "O Estádio Olímpico (em alemão Olympiastadion) em Munique, desenhado pelo arquiteto alemão Günter Behnisch e seus sócios, foi construído entre 1966 e 1972 para os Jogos Olímpicos de Verão de 1972.\n[…]\nInaugurado em 26 de maio de 1972, 80 mil espectadores puderam ver o futebolista alemão Gerd Müller, \"Der Bomber\" (\"O Bombardeiro\") marcar quatro gols numa partida contra a União Soviética. Três meses depois, em 26 de agosto, ocorreu a Cerimônia de Abertura dos Jogos Olímpicos.\n[…]\nO estádio também foi importante na Copa do Mundo FIFA de 1974, sendo sede de 5 jogos, entre eles a Grande Final entre a Alemanha Ocidental e a Holanda (a \"Laranja Mecânica\"), vencida pelos alemães por 2 a 1 e a Decisão de 3º Lugar entre o Brasil e a Polônia, vencida pelos poloneses por 1 a 0.\n[…]\nOutra competição importante entre Seleções cuja decisão ocorreu no Olympiastadion foi em 1988, a Eurocopa (Torneio com as principais Seleções européias), vencida pela Holanda por 2 a 0 sobre a União Soviética, com um belo gol do atacante Marco van Basten.\n[…]\nO estádio também foi palco de três decisões da Liga dos Campeões da UEFA: em 1979 o Nottingham Forest venceu o Malmö, em 1993 o Olympique de Marseille venceu o AC Milan e em 1997 o Borussia Dortmund venceu a Juventus.\n[…]\nO estádio, que atualmente tem capacidade para 63.118 espectadores, foi casa dos Principais Clubes da Cidade, o Bayern de Munique e o TSV 1860 Munique até 2005, quando foi concluído o Allianz Arena.\n[…]\nApós 15 anos, o estádio recebeu o primeiro jogo oficial de futebol masculino onde, Türkgücü München e Wehen Wiesbaden se enfrentaram pela 3. Liga. A partida ocorreu de portões fechados, devido ao coronavírus.\n[…]\nJogos Olímpicos de Verão de 1972\n[…]\nCopa do Mundo de 1974",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Pentatlo moderno",
+      "descricao": "Esporte olímpico criado por Pierre de Coubertin que combina esgrima, natação, hipismo, corrida e tiro."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Pierre de Coubertin criou o pentatlo moderno para simular as provações de que personagem, perdido atrás das linhas inimigas?",
+    "resposta": "Um soldado de cavalaria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Modern_pentathlon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Modern_pentathlon",
+        "situacao": "ok",
+        "texto": "The modern pentathlon is an Olympic multisport that consists of five events: fencing (one-touch épée followed by direct elimination), freestyle swimming, obstacle course racing, laser pistol shooting, and cross country running.\n[…]\nMost sources state that the creator of the modern pentathlon was Baron Pierre de Coubertin, the founder of the modern Olympic Games. One alternative view is provided by researcher Sandra Heck, who concluded that Viktor Balck, the President of the Organizing Committee for the 1912 Games, made use of the long tradition of Swedish military multi-sports events to create the modern pentathlon.\n[…]\nThe laser run is organized as a pursuit race: athletes start with a handicap based on the summed points gathered in the previous disciplines; as such it determines the overall outcome of the modern pentathlon event. The rest of the field face a one-second handicap for each pentathlon point by which they trail the leader. This ensures that the first person to cross the finish line wins the Gold medal.\n[…]\nІn August 2023 during the 2023 UIPM Pentathlon and Laser Run World Championships, the UIPM signed a memorandum of understanding with World Obstacle to collaborate on the integration of obstacle racing into the modern pentathlon at the senior level; UIPM president Klaus Schormann stated that the federation was \"want[ing] to bring a different challenge to the Olympic Movement, to be more urban and provide something that young generations will love.\" The MoU was criticised by Pentathlon United, who questioned World Obstacle's finances (in particular, being funded solely by one person with no other commercial revenue).\n[…]\nModern pentathlon at the Summer Olympics\n[…]\nLasers make modern pentathlon more modern"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pentatlo_moderno",
+        "situacao": "ok",
+        "texto": "Pentatlo moderno é um desporto olímpico praticado por homens e por mulheres, individualmente ou em equipes. Compõe-se de cinco modalidades diferentes: hipismo, esgrima, natação, tiro esportivo e corrida. É proclamado vencedor aquele que obtiver o melhor desempenho geral ao somar mais pontos. Por essa variedade de esportes, o vencedor do pentatlo é considerado o atleta mais completo.\n[…]\nNo início do século XX, o Barão de Coubertin, fundador dos Jogos Olímpicos da Era Moderna,  decidiu estimular a realização do pentatlo moderno. O pentatlo estreou nas Olimpíadas de 1912, em Estocolmo, Suécia.\n[…]\nO pentatlo moderno é uma prova criada pelo Barão Pierre de Coubertin, fundador dos Jogos Olímpicos da era moderna, baseada na filosofia por detrás do pentatlo disputado nos Jogos Olímpicos antigos. Na Grécia Antigamente, o pentatlo era constituído por provas que pretendiam demonstrar todas as aptidões físicas. Aquando da invenção da versão moderna, Coubertin inspirou-se nos soldados da cavalaria do século XIX, que deveriam saber montar um cavalo desconhecido, disparar, esgrimir, correr e nadar.\n[…]\nO pentatlo moderno consiste em cinco provas:\n[…]\nEm 2012, apenas 18 países possuíam alguma medalha olímpica no pentatlo moderno. As extintas União Soviética e Checoslováquia e a Equipe Unificada também conquistaram medalhas em Olimpíadas. Estados Unidos e China, as duas maiores potências olímpicas do mundo na atualidade, ainda não obtiveram medalha de ouro, e o Brasil é o único país da América do Sul que subiu ao pódio no esporte.\n[…]\nA China e o Brasil obtiveram suas primeiras medalhas olímpicas do pentatlo moderno nas Olimpíadas de 2012, e a Austrália e o México nas Olimpíadas de 2016.\n[…]\nPentatlo moderno nos Jogos Olímpicos\n[…]\nCampeonato Mundial de Pentatlo Moderno\n[…]\n«Federação Internacional de Pentatlo Moderno»\n[…]\n«Confederação Brasileira de Pentatlo Moderno»\n[…]\n«COI Pentatlo Moderno»\n[…]\n«COI Pentatlo Moderno»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Dorando Pietri",
+      "descricao": "Maratonista italiano que chegou em primeiro na maratona olímpica de Londres 1908 e foi desclassificado."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na maratona de Londres 1908, o italiano Dorando Pietri cruzou a chegada em primeiro, mas perdeu o ouro. O que causou sua desclassificação?",
+    "resposta": "Foi amparado pelos juízes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dorando_Pietri"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dorando_Pietri",
+        "situacao": "ok",
+        "texto": "Dorando Pietri (Italian pronunciation: [doˈrando ˈpjɛːtri]; often wrongly spelt Petri; 16 October 1885  – 7 February 1942) was an Italian long-distance runner. He finished first in the marathon at the 1908 Summer Olympics in London but was subsequently disqualified.\n[…]\nDorando Pietri trained hard for the 1908 Olympics in London. In a race in Carpi he ran 40 km (25 mi) in 2 hours and 38 minutes, an extraordinary result for the times. The marathon, which was to take place on 24 July 1908, started with 56 competitors, including Pietri and fellow Italian Umberto Blasi. It began at 2:33pm. The weather was particularly hot by British summer standards. The London course measured 42.2 km (26 mi); the distance later became the official marathon length from 1921.\n[…]\nPietri suddenly became an international celebrity. Composer Irving Berlin dedicated a song to him entitled \"Dorando\" and Pietri received requests to participate in exhibition races in the United States. On 25 November 1908, in Madison Square Garden, New York a race between Hayes and Pietri was organized. Pietri won the race as well as a second similar race on 15 March 1909. Pietri won 17 of the 22 races on his tour of America.\n[…]\nIl sogno del maratoneta is an Italian book and TV movie about Pietri's run.\n[…]\nLegends of Italian sport - Walk of Fame\n[…]\nAthletics at the 1908 Summer Olympics – Men's marathon\n[…]\nDorando Pietri at World Athletics\n[…]\nDorando Pietri at Tilastopaja (registration required)\n[…]\nDorando Pietri at the Italian Athletics Federation (in Italian)\n[…]\nDorando Pietri at Olympics.com\n[…]\nDorando Pietri at Olympedia\n[…]\nControversial Finish to the 1908 Olympic Marathon on YouTube\n[…]\nScenes From the 1908 London Olympic Marathon\n[…]\nDorando Pietri at The Arthur Conan Doyle Encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dorando_Pietri",
+        "situacao": "ok",
+        "texto": "Dorando Pietri (Mandrio, 16 de outubro de 1885 – San Remo, 7 de fevereiro de 1942) foi um maratonista italiano que, nos Jogos Olímpicos de 1908 em Londres, protagonizou um dos mais dramáticos momentos da história olímpica.\n[…]\nA imagem de sua chegada, ajudado pelos fiscais, é considerada um ícone dos primórdios da fotografia e a primeira grande foto clássica dos esportes, especialmente da maratona, e que ajudou a dar uma grande carga dramática à lendária e desgastante prova. Foi o primeiro dos grandes heróis \"não-campeões\" da história olímpica que ajudariam a escrever a dramaticidade da mais longa prova do atletismo.\n[…]\nSó oitenta anos depois um italiano conquistaria a medalha de ouro na maratona para a Itália - Gelindo Bordin em Seul 88 - e a dedicaria à memória de Dorando Pietri.\n[…]\nA ele seguiram-se, mais de setenta anos depois, a maratonista suíça Gabriela Andersen-Scheiss, que emocionou o mundo ao se arrastar até a linha de chegada da primeira maratona feminina em Los Angeles 1984 e o brasileiro Vanderlei Cordeiro de Lima, derrubado e arrastado para fora da pista por um fanático religioso quando liderava a prova a menos de seis quilómetros da chegada, nos Jogos de Atenas 2004, conseguindo mesmo assim conquistar a medalha de bronze.\n[…]\nApós as Olimpíadas, Dorando e Johnny Hayes, que herdou a medalha de ouro do italiano, enfrentaram-se em duas corridas em Nova Iorque, como uma espécie de revanche. Dorando Pietri venceu as duas. Ele foi transformado numa grande celebridade internacional, tendo um canção feita com seu nome pelo compositor Irving Berlin e fez uma grande turnê de corridas nos Estados Unidos, ganhando 17 das 22 provas que disputou no país.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Estádio Olímpico do Centenário",
+      "descricao": "Estádio principal dos Jogos Olímpicos de Atlanta 1996, nos Estados Unidos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois dos Jogos de 1996, o estádio olímpico de Atlanta foi reformado e virou a casa de um time de que esporte?",
+    "resposta": "Beisebol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Centennial_Olympic_Stadium"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Centennial_Olympic_Stadium",
+        "situacao": "ok",
+        "texto": "Centennial Olympic Stadium was the 85,000-seat main stadium of the 1996 Summer Olympics and Paralympics in Atlanta, Georgia, United States. Construction of the stadium began in 1993, and it was complete and ready for the opening ceremony in July 1996, where it hosted track and field events and the closing ceremony.\n[…]\nAfter the Olympics and Paralympics, it was reconstructed into the baseball-specific Turner Field, used by the Atlanta Braves of Major League Baseball for 20 seasons (1997–2016). After the Braves departed for Truist Park, the facility was purchased by Georgia State University, which rebuilt the stadium a second time as Center Parc Stadium, designed for American football.\n[…]\nThis was considered a good agreement for both the Olympic Committee and the Braves, because there would be no use for a permanent 85,000 seat track and field stadium in Downtown Atlanta since the 71,000 seat Georgia Dome had been completed four years earlier by the state of Georgia and became the home of the National Football League's Atlanta Falcons. The Braves had already been exploring opportunities for a new venue to replace Atlanta–Fulton County Stadium.\n[…]\nReconstruction was completed in 1997, and the facility was renamed Turner Field. Afterward, Atlanta–Fulton County Stadium, the Braves' previous home and the venue for the Olympics baseball events, was imploded and the site became a parking lot for Turner Field. The Atlanta Fulton County Recreation Authority owned Turner Field, and the Atlanta Braves occupied the revised stadium until the expiration of their lease in 2016; the Braves moved to Truist Park in Cobb County in the following year.\n[…]\nAerial View of Olympic Stadium\n[…]\nReconstruction into Baseball Stadium\n[…]\n1996 Summer Games"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Centennial_Olympic_Stadium",
+        "situacao": "ok",
+        "texto": "O Centennial Olympic Stadium (em português:  Estádio Olímpico Centenário) foi um estádio especialmente construído para os Jogos Olímpicos de Verão de 1996 em Atlanta, Estados Unidos. Com capacidade para 85 000 espectadores, o estádio começou a ser construído em 1993 e ficou pronto próximo a abertura dos Jogos, em julho de 1996.\n[…]\nDurante a disputa de atletismo, os presentes no estádio viram o canadense Donovan Bailey vencer a disputa dos 100 metros rasos com o recorde mundial de 9.84 segundos; Michael Johnson triunfou nos 200 e 400 metros, sendo que seu tempo nos 200 metros persiste até os dias atuais; Marie-José Perec, da França, também venceu as duas provas no feminino, além do título de Carl Lewis no salto em distância.\n[…]\nApós a cerimônia de encerramento dos Jogos Paraolímpicos de Verão de 1996, o estádio passou por uma grande reformulação para tornar-se a nova casa da equipe de beisebol Atlanta Braves. As mudanças acarretaram na retirada da pista de atletismo e de setores da arquibancada, remodelados de acordo com o formato diamante da quadra de beisebol. Após as obras, o estádio passou a comportar apenas 45.000 pessoas.\n[…]\nO Comitê dos Jogos Olímpicos de Atlanta ofertou o estádio por 207 milhões de dólares ao Atlanta Braves, sendo o local não mais administrado pelo comitê. Com o fim da transação, o estádio foi renomeado para Turner Field, tornando-se propriedade de Ted Turner dono dos Braves.\n[…]\nGeorgia State Stadium\n[…]\nTurner Field",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Brasil nos Jogos Olímpicos de Verão de 1932",
+      "descricao": "Participação brasileira nos Jogos de Los Angeles 1932, com a delegação viajando de navio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1932, o navio que levou a delegação brasileira aos Jogos de Los Angeles ia carregado de café. Para quê?",
+    "resposta": "Para vender e pagar a viagem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_at_the_1932_Summer_Olympics",
+      "https://pt.wikipedia.org/wiki/Brasil_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1932"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazil_at_the_1932_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Brazil competed at the 1932 Summer Olympics in Los Angeles, United States. Brazil returned to the Olympic Games after missing the 1928 Summer Olympics.\n[…]\nAs the Great Depression had struck the country, the delegation of 82 athletes travelled in a ship, the Itaquicê, selling coffee along the way to fund the trip. Since the San Pedro authorities charged one dollar for each person who disembarked in the Port of Los Angeles, the organizers only let out of the ship the athletes they felt had a chance to win medals plus swimmer Maria Lenk – the first South American woman to compete in the Olympics – to spend less.\n[…]\n18 men competed. The most notable case was Adalberto Cardoso, who hitched a ride from San Francisco to Los Angeles and only arrived at the Los Angeles Memorial Coliseum ten minutes prior to the 10,000 m race he would run. Cardoso competed barefoot and finished last, but was cheered by the audience and earned a special medal.\n[…]\nSix Brazilian shooters competed.\n[…]\nBrazil made its debut at water polo, but the team was disqualified after the players assaulted officials at the end of the match with Germany.\n[…]\nBrazil vs. Germany: 3:7\n[…]\nBrazil vs. United States: 1:6\n[…]\nOfficial Olympic Reports\n[…]\n1932 Olympics Report, Brazilian Olympic Committee"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brasil_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1932",
+        "situacao": "ok",
+        "texto": "O Brasil competiu nos Jogos Olímpicos de Verão de 1932 em Los Angeles, nos Estados Unidos. O Brasil retornou aos Jogos Olímpicos após deixar de competir nos Jogos Olímpicos de Verão de 1928. Nessa edição, a delegação voltou ao país sem ter conquistado nenhuma medalha.\n[…]\nComo a Grande Depressão havia assolado o país foi necessário vender café no caminho da viagem, para custear as despesas, mesmo assim na chegada a Los Angeles, de 82 atletas que viajaram no navio Itaquicê, apenas 67 desembarcaram já que era necessário pagar uma taxa por pessoa na chegada.\n[…]\nFoi a estreia das brasileiras em olimpíadas, representadas pela nadadora Maria Lenk, que também foi a 1ª sul-americana a participar dos Jogos Olímpicos.\n[…]\nOutro destaque foi o corredor Adalberto Cardoso que desembarcou em São Francisco faltando 24h para a competição em Los Angeles. Percorreu os 600 km entre as duas cidades a pé e depois de carona, só chegando ao estádio 10 minutos antes da corrida de \"10000 metros rasos\".\n[…]\nBrasil nos Jogos Olímpicos de Verão\n[…]\nComitê Olímpico Brasileiro\n[…]\n«Relatório Olímpico Oficial» (em inglês)\n[…]\n«Banco de dados de resultados do Comitê Olímpico Internacional» (em inglês)\n[…]\n«Site oficial do Comitê Olímpico Brasileiro»"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Desfile das delegações",
+      "descricao": "Entrada das equipes nacionais na cerimônia de abertura dos Jogos Olímpicos."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Por tradição, que país abre o desfile das delegações na cerimônia de abertura dos Jogos Olímpicos?",
+    "resposta": "Grécia",
+    "distratores": [
+      "França",
+      "Itália",
+      "Suíça"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parade_of_Nations"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Parade_of_Nations",
+        "situacao": "ok",
+        "texto": "The Olympic Games ceremonies have been held at the Olympic Games since they began in the ancient Olympics, including the opening, closing, and medal ceremonies. Their purpose is to introduce and conclude the competition, award successful competitors, and often celebrate the culture and history of the host country. The ceremonies are integral to the Games and symbolize the international cooperation\n[…]\nThe Olympic Charter determines that the opening ceremony must contain a protocol segment called the \"Parade of Nations\", during which most of the participating athletes march into the stadium, one delegation at a time. It is optional for athletes to participate in this parade. Because some Games events commonly start before the opening ceremony, any athletes competing in those early events may elect not to march with their team.\n[…]\nIn addition, national and regional issues led Spain to make an exception during the 1992 Summer Olympics in Barcelona, with consideration for the Catalan independence movement and concerns about the Spanish language gaining undue prominence over the Catalan language; all official announcements during the 1992 Games were initially made in French, followed by Spanish, Catalan, and English (with the order of these three languages interspersed); the order of teams in the Parade of Nations was based on the French names of the delegations.\n[…]\n\"On behalf of a proud, determined and grateful nation\", and then the standard formula followed.\n[…]\nThis blending of athletes, known as the \"parade of athletes\", is a tradition that began during the 1956 Summer Olympics at the suggestion of Melbourne schoolboy John Ian Wing; he thought that this parade would be a way to bring the athletes of the world together as \"one nation\". Before the 1956 Summer Games, no Olympic team had ever marched in the closing ceremony of the modern or ancient Games."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cerim%C3%B4nias_dos_Jogos_Ol%C3%ADmpicos",
+        "situacao": "ok",
+        "texto": "Nos Jogos Olímpicos, as cerimônias comemoram a abertura e o encerramento de uma celebração específica dos Jogos Olímpicos, e a atribuição de medalhas. Barão Pierre de Coubertin, um dos antepassados dos Jogos Modernos, queria o modelo de revitalização dos antigos Jogos Olímpicos. A visão de Coubertin era de criar um fórum não apenas, mas também para realização atlética e de expressão artística.\n[…]\nAlguns dos vários elementos das cerimônias voltam a ecoar os Jogos da Grécia Antiga a partir do qual as Olimpíadas modernas chamam a sua ascendência. Um exemplo disso é o destaque da Grécia, em ambos a abertura e encerramento. Durante os Jogos de 2004, os vencedores da medalha recebido uma coroa de ramos de oliveira, que era uma referência direta aos Jogos antigas, nas quais o prêmio do vencedor era uma coroa de ramos de oliveira.\n[…]\nA apresentação das Cerimônias de Abertura e de Encerramento continuam a aumentar o âmbito, a dimensão e os custos com cada celebração sucessiva dos Jogos, mas eles ainda estão mergulhados na tradição.\n[…]\nOs Jogos Antigos, realizados na Grécia de cerca de 776 a.C. a cerca de 393 d.C. fornecem os primeiros exemplos de cerimônias olímpicas. A celebração da vitória, cujos elementos estão em evidência nas cerimônias modernas de medalha e encerramento, muitas vezes envolvia festas elaboradas, bebidas, cantos e recitação de poesia. Quanto mais rico o vencedor, mais extravagante é a celebração.\n[…]\nHá evidências de mudanças dramáticas no formato dos Jogos Antigos ao longo dos quase 12 séculos em que foram celebrados. Eventualmente, por volta da 77ª Olimpíada, um programa padrão de 18 eventos foi estabelecido. Para abrir um jogo na Grécia antiga, os organizadores realizariam um Festival de Inauguração. Isso foi seguido por uma cerimônia em que os atletas fizeram um juramento de espírito esportivo.\n[…]\nA cerimônia de encerramento deve ocorrer em uma noite de domingo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Jogos Olímpicos de Verão de 1900",
+      "descricao": "Edição dos Jogos Olímpicos realizada em Paris em 1900, espalhada por vários meses."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os Jogos de Atenas 1896 foram só para homens. Em que edição as mulheres competiram pela primeira vez nos Jogos modernos?",
+    "resposta": "Paris 1900",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1900_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1900_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The 1900 Summer Olympics (French: Jeux olympiques d'été de 1900), today officially known as the Games of the II Olympiad (Jeux de la IIe olympiade) and also known as Paris 1900, were an international multi-sport event that took place in Paris, France, from 14 May to 28 October 1900. No opening or closing ceremonies were held. It was the first and only Summer Olympics to take place in a common year\n[…]\nAt the Olympic Congress of 1894, which convened in the Sorbonne building, Pierre de Coubertin proposed that the Olympic Games should take place in Paris in 1900. However, the delegates to the conference were unwilling to wait six years and lobbied to hold the first games in 1896. A decision was made to hold the first Olympic Games in 1896 in Athens and have Paris host the second Games.\n[…]\nThe press reported competitions variously as \"International Championships\", \"International Games\", \"Paris Championships\", \"World Championships\" and \"Grand Prix of the Paris Exposition\".\n[…]\nWhile a document from 1912 exists, listing results from the 1900 Games, and formed the original basis of the results of the Paris games in the IOC database, the reliability and authenticity of this paper has been questioned by Olympic historians. Further complicating matters, the IOC has never determined which events were Olympic and which were not.\n[…]\nBrazil – Adolphe Klingelhoeffer was the son of a Brazilian diplomat, and although he was born and raised in Paris, he had Brazilian citizenship in 1900, and maintained this citizenship until at least the 1940s per French athletics historian Alain Bouille. As this was discovered in late 2008, his participation is usually attributed to France.\n[…]\nNations that participated in the previous games in Athens 1896 but were absent in Paris 1900 included Bulgaria and Chile.\n[…]\n1900 Summer Olympics – Paris\n[…]\n\"Paris 1900\". Olympics.com. International Olympic Committee."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1900",
+        "situacao": "ok",
+        "texto": "Os Jogos Olímpicos de 1900 (em francês: Jeux olympiques de 1900), oficialmente conhecidos como Jogos da II Olimpíada, foram os segundos Jogos Olímpicos da era moderna. Realizados em Paris, França, terra natal de seu criador, o Barão Pierre de Coubertin.\n[…]\nAté julho de 2021, o COI não determinava de maneira concreta quais dos eventos esportivos realizados em 1900 eram \"olímpicos\" e quais não eram. De fato, Pierre de Coubertin delegou toda essa determinação aos organizadores. A página do COI para os Jogos Olímpicos de Verão de 1900 confirma um total de 96 eventos de medalhas. O levantamento de peso e a luta olímpica não foram disputados como nos Jogos Olímpicos de 1896, enquanto 13 novos esportes foram adicionados.\n[…]\nEmbora exista um documento de 1912, listando os resultados dos Jogos de 1900 e formando a base original dos resultados dos Jogos de Paris no banco de dados do COI, a confiabilidade e autenticidade deste documento foram questionadas por historiadores olímpicos. Para complicar ainda mais as coisas, o COI nunca determinou quais eventos eram olímpicos e quais não eram.\n[…]\nAo contar o número de países participantes nos primeiros Jogos Olímpicos, o COI não levou em consideração países não representados cujos cidadãos competiram por outros países. Pesquisas modernas mostram que nas Olimpíadas de 1900, atletas de pelo menos quatro países não representados competiram por outros países em esportes individuais e coletivos.\n[…]\nO primeiro brasileiro a competir numa edição olímpica foi Adolphe Christiano Klingelhoeffer, nessa edição e também na Atenas 1906. De forma não oficial pelo Brasil, pois Klingelhoeffer era cidadão brasileiro nascido em Paris, filho de um diplomata brasileiro que servia na Europa.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Jogos Olímpicos de Verão de 1948",
+      "descricao": "Edição dos Jogos Olímpicos realizada em Londres em 1948, a primeira de verão após a Segunda Guerra Mundial."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O estádio principal dos Jogos de Londres 1948 também foi palco da final da Copa do Mundo de 1966. Que estádio é esse?",
+    "resposta": "Estádio de Wembley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1948_Summer_Olympics",
+      "https://en.wikipedia.org/wiki/Wembley_Stadium_(1923)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1948_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The 1948 Summer Olympics, officially the Games of the XIV Olympiad and officially branded as London 1948, were an international multi-sport event held from 29 July to 14 August 1948 in London, United Kingdom. Following a twelve-year hiatus caused by the outbreak of World War II, these were the first Summer Olympics held since the 1936 Games in Berlin. The 1940 Olympic Games had been scheduled for \n[…]\nThe 1948 Olympics came to be known as the \"Austerity Games\" due to the difficult economic climate and the rationing imposed in the aftermath of World War II. No new venues were built for the games (with events taking place mainly at Wembley Stadium, also known as Empire Stadium, and the Empire Pool at Wembley Park), and athletes were housed in existing accommodation at the Wembley area instead of an Olympic Village, as were the 1936 Games and the subsequent 1952 Games in Helsinki.\n[…]\nThe journey began with the lighting of the flame in Olympia. Due to the civil war taking place in Greece, the Greek part of the relay went directly to Corfu, where HMS Whitesand Bay picked up the flame to transport it to Bari. From there, the flame crossed Italy, Switzerland, France, Luxembourg and Belgium. After a boat trip from Calais to Dover (aboard HMS Bicester), the flame travelled to several towns in South East England until its arrival at Wembley for the opening ceremony.\n[…]\nThe Games opened on 29 July. Army bands began playing at 2 pm for the 85,000 spectators in Empire Stadium at Wembley Park. The international and national organisers arrived at 2.35 pm and King George VI and Queen Elizabeth, with Queen Mary and other members of the Royal Family, at 2.45 pm. Fifteen minutes later the competitors entered the stadium in a procession that took 50 minutes. The last team was that of the United Kingdom.\n[…]\nWembley Empire Exhibition Grounds\n[…]\n\"London 1948\". Olympics.com. International Olympic Committee."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wembley_Stadium_(1923)",
+        "situacao": "ok",
+        "texto": "The first Wembley Stadium (), originally known as the Empire Stadium, was a football stadium in Wembley, London, England. It opened in 1923 and was demolished in 2002 to make room for the new Wembley Stadium.\n[…]\nWembley hosted the FA Cup final annually, the first in 1923, which was the stadium's inaugural event, the League Cup final annually, five European Cup finals, the 1966 World Cup final, and the Euro 1996 final. Brazilian footballer Pelé once said of the stadium: \"Wembley is the cathedral of football. It is the capital of football and it is the heart of football\", in recognition of its status as the world's most famous football stadium.\n[…]\nIn 1966, it was the leading venue of the FIFA World Cup. It hosted nine matches, including the final, where tournament hosts England won 4–2 after extra time against West Germany. Seven years later, Wembley was the venue for a specially arranged friendly between teams called \"The Three\" and \"The Six\" to celebrate the United Kingdom joining the European Economic Community. The match finished 2–0 to \"The Three\".\n[…]\nWembley's owners' refusal to cancel the regular greyhound racing meant that the match between Uruguay and France in the 1966 FIFA World Cup was played at White City.\n[…]\nIn April 1970 this show jumping event was held at Wembley Stadium. This left the grass turf in poor condition for the FA Cup Final a week later.\n[…]\nThe 1948 Olympic Marathon and the 1923 Stadium feature in the South Korean war film My Way (2011), though the marathon is clearly filmed in Riga, rather than London, and the stadium standing in for Wembley has an anachronistic electronic scoreboard.\n[…]\nWembley Stadium & the 1948 Olympics – UK Parliament Living Heritage\n[…]\nWembley trivia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1948",
+        "situacao": "ok",
+        "texto": "Jogos Olímpicos de Verão de 1948 (em inglês: 1948 Summer Olympic Games), conhecidos oficialmente como Jogos da XIV Olimpíada, foram os Jogos Olímpicos realizados pela segunda vez em Londres de 29 de julho a 14 de agosto daquele ano, doze anos depois da última edição devido à Segunda Guerra Mundial.\n[…]\nDe qualquer modo, os organizadores conseguiram fazer um evento digno, restaurando o famoso Estádio de Wembley para servir como palco central dos Jogos Olímpicos, que contou com a participação de 59 nações, com a presença de 4 104 atletas, 390 deles sendo mulheres, em 19 modalidades e foram abertos pelo Rei Jorge VI em pessoa.\n[…]\nA escolha de Londres como sede dos Jogos Olímpicos de Verão de 1948 iniciou-se na 38ª sessão do COI, realizada na própria cidade de Londres em 9 de junho de 1939. Na oportunidade ficou decidido que as Olimpíadas de 1944 seriam em Londres, em uma votação que também concorreram as cidades de Roma, Detroit e Lausana. Com o advento da Segunda Guerra Mundial e a destruição de toda a infraestrutura do Reino Unido e de muitos outros países europeus, foi inevitável o cancelamento dos Jogos de 1944.\n[…]\nCom o final da Guerra, o COI decidiu, em setembro de 1946, realizar a próxima Olimpíada em 1948, mantendo a escolha de Londres, que manifestou o interesse em realizar os Jogos Olímpicos postergados.\n[…]\nAs mais dramáticas imagens dos Jogos foram novamente na maratona, quando o belga Etienne Gailly entrou no Estádio de Wembley liderando a prova de tal maneira desidratado e desorientado, que praticamente andou se arrastando toda a última volta até a linha de chegada, sendo ultrapassado por dois corredores, mas ainda conseguindo a medalha de bronze.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Jogos Olímpicos de Inverno de 1972",
+      "descricao": "Edição dos Jogos Olímpicos de Inverno realizada no Japão em 1972, a primeira na Ásia."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1972, os Jogos Olímpicos de Inverno foram disputados pela primeira vez na Ásia. Em que cidade japonesa?",
+    "resposta": "Sapporo",
+    "distratores": [
+      "Nagano",
+      "Tóquio",
+      "Quioto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1972_Winter_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1972_Winter_Olympics",
+        "situacao": "ok",
+        "texto": "The 1972 Winter Olympics, officially the XI Olympic Winter Games and commonly known as Sapporo 1972, were a winter multi-sport event held from February 3 to 13, 1972, in Sapporo, Hokkaido Prefecture, Japan. It was the first Winter Olympic Games to take place outside Europe and North America.\n[…]\nThe development of new infrastructure proved to be a huge boon for the Sapporo economy: by the time of the Games, the national government had invested some US$500 million in upgrades, including a new subway. The Games' organizers themselves turned a healthy profit in part because they arranged a record $8.47 million for broadcasting rights with American companies.\n[…]\nPrior to these games, Japan had never won a gold medal, and had won only one medal (silver by Chiharu Igaya in 1956) overall, in the Winter Olympics. The host country's fans in Sapporo were boosted when three Japanese athletes, led by Yukio Kasaya, swept the ski jumping 70 m (current K-90 normal hill) event for gold (Kasaya), silver (Akitsugu Konno), and bronze (Seiji Aochi); those would also be the only medals Japan would earn in these Olympics.\n[…]\nIn female Figure skating event, American skater Janet Lynn won not only a bronze medal, but also tremendous popularity among Japanese audiences because of her artistic free program, as to make appearance on the cover of \"Olympic Winter Games, Sapporo 1972\" photo books published in Japan, and even on Japanese TV commercials later.\n[…]\n1972 Summer Paralympics\n[…]\n1972 Summer Olympics\n[…]\n1972 Winter Olympics – Sapporo\n[…]\n\"Sapporo 1972\". Olympics.com. International Olympic Committee.\n[…]\nSapporo 72 Archived February 26, 2008, at the Wayback Machine – Official report, digitized copy online\n[…]\nThe program of the 1972 Sapporo Winter Olympics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Inverno_de_1972",
+        "situacao": "ok",
+        "texto": "Os Jogos Olímpicos de Inverno de 1972 (em japonês: 第11回オリンピック冬季競技大会, romanizado: Dai Jūichi-kai Orinpikku Tōkikyōgi Taikai), oficialmente XI Jogos Olímpicos de Inverno, foram um evento multiesportivo realizados em Sapporo, no Japão. Contou com a participação de 1006 atletas, sendo 801 homens e 205 mulheres representando 35 países. Competindo em 10 modalidades esportivas, os jogos foram disputados \n[…]\nFoi a primeira edição das Olimpíadas de Inverno realizadas fora da Europa ou América do Norte e a terceira edição, incluindo os Jogos Olímpicos de Verão, realizados fora dessas regiões (as outras foram Melbourne 1956 e Tóquio 1964).\n[…]\nUm total de 35 nações enviaram representantes para os Jogos. A República da China e as Filipinas participaram dos Jogos Olímpicos de Inverno pela primeira vez.\n[…]\nNa lista abaixo, o número entre parênteses indica o número de atletas por cada nação nos Jogos:\n[…]\nFonte: Comitê Olímpico Internacional (Quadro de medalhas - Sapporo 1972)\n[…]\nSapporo 1972 na página do COI\n[…]\nPrograma dos Jogos Olímpicos de Inverno de Sapporo 1972 Arquivado em 26 de fevereiro de  2008, no Wayback Machine.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Remo",
+      "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No remo, o maior barco olímpico, chamado oito com timoneiro, leva quantas pessoas a bordo?",
+    "resposta": "Nove",
+    "distratores": [
+      "Oito",
+      "Dez",
+      "Sete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eight_(rowing)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eight_(rowing)",
+        "situacao": "ok",
+        "texto": "An eight, abbreviated as an 8+, is a racing shell used in competitive rowing (crew). It is designed for eight rowers, who propel the boat with sweep oars, and is steered by a coxswain, or \"cox\".\n[…]\n\"Eight\" is one of the classes recognized by the International Rowing Federation and one of the events in the Olympics. The first Olympic eights race was held in 1900 and won by the United States.\n[…]\nRowing at the Summer Olympics\n[…]\nList of Olympic medalists in rowing (women)\n[…]\nList of Olympic medalists in rowing (men)\n[…]\nWorld Rowing Championships"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Saltos ornamentais",
+      "descricao": "Esporte aquático olímpico em que o atleta salta de um trampolim ou plataforma executando acrobacias antes de entrar na água."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Nos saltos ornamentais olímpicos, a plataforma fixa de onde os atletas saltam fica a quantos metros de altura da água?",
+    "resposta": "Dez metros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diving_(sport)",
+      "https://pt.wikipedia.org/wiki/Saltos_ornamentais"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Diving_(sport)",
+        "situacao": "ok",
+        "texto": "Diving is the sport of jumping or falling into water from a platform or springboard, usually while performing acrobatics. Diving is an internationally recognised sport that is part of the Olympic Games. In addition, unstructured and non-competitive diving is a recreational pastime.\n[…]\nDiving Tasmania (Tasmania)\n[…]\nA number of colleges and universities offer scholarships to men and women who have competitive diving skills. These scholarships are usually offered to divers with age-group or club diving experience.\n[…]\nDivers who continue diving past their college years can compete in Masters' Diving programs. Masters' diving programs are frequently offered by college or club programs.\n[…]\nSuch non-competitive diving can occur indoors and outdoors. Outdoor diving typically takes place from cliffs or other rock formations either into fresh or salt water. However, man-made diving platforms are sometimes constructed in popular swimming destinations. Outdoor diving requires knowledge of the water depth and currents as conditions can be dangerous.\n[…]\nA recently developing section of the sport is High Diving (e.g. see 2013 World Aquatics Championships), conducted in open air locations, usually from improvised platforms up to 89 feet (27 m) high (as compared with 33 feet (10 m) as used in Olympic and World Championship events). Entry to the water is invariably feet-first to avoid the risk of injury that would be involved in head-first entry from that height.\n[…]\nCompetitive high diving is run as the Red Bull Cliff Diving World Series.\n[…]\nCannonball (diving)\n[…]\nDiving at the Summer Olympics\n[…]\nDiving at the Asian Games\n[…]\nDøds diving\n[…]\nList of Olympic medalists in diving\n[…]\nScuba diving\n[…]\nShallow diving\n[…]\nList of 10 meter diving platforms in the United States\n[…]\nUSA Diving\n[…]\nAAU Diving\n[…]\nUSA Masters' Diving.\n[…]\nDiving mentality"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Saltos_ornamentais",
+        "situacao": "ok",
+        "texto": "Saltos ornamentais ou saltos para a água são o conjunto de habilidades que envolve saltar de uma plataforma elevada ou trampolim em direção à água, executando movimentos estéticos durante a queda. É considerado um esporte de técnica plástica e flexível. Oriundo de um movimento natural do ser humano, o ato de saltar, o esporte limita as possibilidades a uma plataforma de dez metros de altura, tendo\n[…]\nNão somente na pintura e na divertida competição figuram os saltos ornamentais. Em 1990, foi lançado o filme norte-americano Diving In, contando a história de um jovem que precisava dominar o medo de saltar da plataforma para fazer parte da equipe da escola e competir. Quase vinte anos depois, em 2008, foi rodado no Japão um outro filme, cuja base era também este esporte: Dive!! contou a história de um jovem que, fascinado por um ex-atleta, foi treinar no clube que ele abriu.\n[…]\nOs saltos ornamentais utilizam de uma torre de concreto, que possui trampolins de salto e em geral acaba na altura da plataforma de mergulho, a dez metros da base, localizada em áreas cobertas ou fechadas, geralmente ginásios de natação e parques aquáticos. Nela, existem três tipos de locais para saltos.\n[…]\nA que fica no ponto mais alto é a plataforma, que deve ter 6 m de comprimento por 2,6 m de largura, e sua prancha, onde o atleta caminha para saltar, deve ser ainda coberta com material antiderrapante; já o trampolim deve ser feito de alumínio, com 50 cm de largura e 4,8 m de comprimento, e precisa estar a 1 m ou 3 m acima do nível da piscina. Logo a frente da estrutura, está a piscina, que precisa ter um mínimo de cinco metros de profundidade, para evitar acidentes.\n[…]\nCopa do Mundo: realizadas a cada dois anos, as copas são um evento exclusivo dos saltos ornamentais, a exemplo do Grand Prix.\n[…]\na.^ : na infobox constam os campeões olímpicos e mundiais da prova mais antiga do esporte, o trampolim de três metros."
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Sam (mascote)",
+      "descricao": "Águia mascote dos Jogos Olímpicos de Los Angeles 1984."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A águia Sam, mascote dos Jogos de Los Angeles 1984, foi desenhada por um artista de que estúdio de animação?",
+    "resposta": "Disney",
+    "distratores": [
+      "Hanna-Barbera",
+      "Warner Bros.",
+      "MGM"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sam_the_Olympic_Eagle",
+        "situacao": "ok",
+        "texto": "Sam the Olympic Eagle was the mascot of the 1984 Summer Olympics which were held in Los Angeles. He is a bald eagle, the national bird and national animal of the host nation, the United States. The United States originally intended to use a bear mascot to represent California, but the Soviet Union had used a bear mascot named Misha at the preceding 1980 Summer Olympics. The mascot was designed by \n[…]\nSam would go on to feature in McDonald's merchandise, as an attraction at Disneyland, and as the protagonist of a Japanese anime series titled Eagle Sam.\n[…]\nOlympic references and merchandise further identifying the origin of Sam\n[…]\nEagle Sam (anime) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sam_%28mascote%29",
+        "situacao": "ok",
+        "texto": "Sam é o mascote das Olimpíadas de Los Angeles realizadas em 1984 em Los Angeles. Ele é uma águia-de-cabeça-branca, ave símbolo nacional dos Estados Unidos, onde foram realizados os jogos.Seu nome também sugere uma afinidade com Uncle Sam, outro símbolo americano. Ele foi desenhado pela Lenda da Disney, Bob Moore.\n[…]\nSam é muitas vezes confundido pelos visitantes da Disneyland, e também nas documentações dos projetos de mascote para os Jogos Olímpicos de Verão, por um outro mascote da Disney chamado Eagle Sam, ex personagem atração da Disneyland, America Sings, projetado pelo animador Marc Davis. Ele tem o mesmo nome de Sam the Eagle do The Muppet Show, mas os personagens não tem correlação.\n[…]\nEle ainda é conhecido como águia Sam no Japão, onde uma série animada de mesmo nome foi ao ar em 1983, um ano antes dos Jogos. Mesmo após a conclusão dos Jogos, Sam the Eagle ainda é usado para promover um evento de atletismo, the Mt. SAC Relays no Mt. San Antonio College, especificamente no seu evento \"LA84 Youth Days\", promoção para os jovens interessados ​​em atletismo, gerido por um grupo de caridade fundada durante os Jogos Olímpicos.\n[…]\nOlympic references and merchandise further identifying the origin of Sam\n[…]\nEagle Sam (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Vôlei de praia nos Jogos Olímpicos de 1996",
+      "descricao": "Torneio de vôlei de praia dos Jogos de Atlanta 1996, estreia da modalidade no programa olímpico."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em Atlanta 1996, que dupla deu ao Brasil a primeira medalha de ouro olímpica conquistada por mulheres?",
+    "resposta": "Jacqueline Silva e Sandra Pires",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics",
+      "https://pt.wikipedia.org/wiki/Jacqueline_Silva"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beach_volleyball_at_the_1996_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Volleyball at the 1996 Summer Olympics featured Men's and Women's beach volleyball for the first time as an official Olympic sport. Men's and Women's indoor volleyball tournaments also took place.\n[…]\nVolleyball Archived 2016-03-04 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jacqueline_Silva",
+        "situacao": "ok",
+        "texto": "Jaqueline Louise Cruz \"Jackie\" Silva (Rio de Janeiro, 13 de fevereiro de 1962) é uma ex-jogadora de voleibol brasileira, campeã olímpica em 1996 no vôlei de praia. Foi Atleta do Flamengo, clube pelo qual conquistou o Campeonato sul-americano de clubes em 1981.\n[…]\nDurante os anos 1980, deixou o Brasil e foi jogar na Europa e na América do Norte, onde começou a participar do vôlei de praia, ou beach volley, então um esporte que virava uma febre. Acabou tornando-se a melhor jogadora de praia dos Estados Unidos - onde virou para os fãs norte-americanos, Jackie Silva, a Rainha da Praia - ganhando inúmeros torneios e conquistando o primeiro lugar no ranking mundial.\n[…]\nFoi por duas vezes campeã do Circuito Brasileiro de Vôlei de Praia. O primeiro título veio em 1991 com Jackie formando dupla com Isabel e o segundo título é o de 1995, com Sandra Pires como sua parceira.\n[…]\nSua consagração definitiva como atleta aconteceu então nos Jogos de Atlanta em 1996, na estreia como esporte olímpico do vôlei de praia, quando ela e sua parceira Sandra Pires tornaram-se as primeiras mulheres brasileiras a conquistarem uma medalha de ouro olímpica em 100 anos de Olimpíadas. Nas Olimpíadas em questão, houve a participação de um total de 10.500 atletas, dos quais 3.700, equivalendo a um terço do total, eram do sexo feminino.\n[…]\nDentre os representantes do Brasil, houve a presença de 220 atletas, e desses, 70 eram mulheres . Foi a primeira vez, em 76 temporadas, que o Brasil levava duas medalhas de ouro em uma mesma Olimpíada, o ouro com Jacqueline Silva e Sandra Pires, e Mônica Rodrigues e Adriana Samuel com a prata.\n[…]\nVoleibol nos Jogos Olímpicos de Verão de 1996"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

@@ -1,0 +1,407 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado (na espada vale o corpo todo); enunciado preciso e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma a largada dentro da piscina no nado costas; pergunta precisa e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os 1500 m são a última prova do decatlo, no segundo dia; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma Londres como primeira a sediar três vezes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cidade do México (2300 m) é de longe a mais alta entre as opções; distratores válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Resposta não é única: tiro e vela também tiveram homens e mulheres competindo juntos; pergunta vaga.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Latynina tinha 18 medalhas, recorde superado por Phelps; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o ângulo correto é autoria (quem conquistou), não comparacao.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que atleta se tornou, em Melbourne 1956, o primeiro brasileiro a conquistar duas medalhas de ouro olímpicas?",
+        "resposta": "Adhemar Ferreira da Silva",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva",
+          "https://en.wikipedia.org/wiki/Adhemar_da_Silva"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o ângulo correto é autoria (quem venceu), não comparacao.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em Pequim 2008, quem se tornou a primeira mulher brasileira campeã olímpica numa prova individual?",
+        "resposta": "Maurren Maggi",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Maurren_Maggi",
+          "https://en.wikipedia.org/wiki/Maurren_Maggi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descida é a prova mais veloz do esqui alpino; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma ouro brasileiro em todas as edições de 2004 a 2020.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fileira de cima: azul, preto, vermelho; fato conhecido e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma peso e dardo como provas de lançamento do heptatlo.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laser run combina corrida e tiro; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Biatletas carregam a arma (carabina) durante a prova; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pentatlo antigo terminava com a luta; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não sustenta o fato e distratores (marfim, porcelana) nem são pedras.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maças são os aparelhos em forma de garrafa; fonte lista os aparelhos.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fosso com água em cada volta; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goleiro vidente confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fonte em português lista mais de dois golpes proibidos; 'os dois golpes' é impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta repete 'impulso' do enunciado e a pergunta é confusa e binária; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma que Tom representa a flora brasileira.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado confuso ('apoiar a perna ... esticada'); reformular a regra da perna esticada.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Na marcha atlética, além de manter sempre um pé no chão, a perna da frente precisa ficar esticada. Que articulação não pode dobrar?",
+        "resposta": "O joelho",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Marcha_atl%C3%A9tica",
+          "https://en.wikipedia.org/wiki/Racewalking"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Frase agramatical ('sem que equipamento'); fato confirmado pela fonte.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Desde a Rio 2016, os boxeadores homens lutam nos Jogos sem qual equipamento de proteção, antes obrigatório?",
+        "resposta": "Protetor de cabeça",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Boxing_at_the_Summer_Olympics",
+          "https://en.wikipedia.org/wiki/Boxing_at_the_2016_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Desde' sugere que a deusa é novidade e 'Nice' é grafia pouco usada; reformular com Nike e o estádio.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Desde Atenas 2004, as medalhas dos Jogos de Verão mostram o Estádio Panatenaico e a figura de qual deusa grega da vitória?",
+        "resposta": "Nike",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Olympic_medal"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa e imprecisa; simplificar para o tipo de piso (saibro).",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "A primeira final olímpica de basquete, em Berlim 1936, foi disputada ao ar livre, debaixo de chuva, numa quadra de tênis. Que tipo de piso virou lama?",
+        "resposta": "Saibro",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1936_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Freeman é aborígene australiana; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Flying Finn confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte dá o significado 'all of power' (toda a força); pergunta de nome interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português liga o nome Sam ao Tio Sam.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Steeplechase vem de corridas a cavalo que usavam torres de igreja como referência; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; apelido 'Salto da morte' é bem documentado, troca de fonte.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Com um duplo mortal para a frente, o Produnova é um dos saltos mais arriscados da ginástica. Que apelido sombrio ele ganhou?",
+        "resposta": "Salto da morte",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Yelena_Produnova"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luz Long, prata e amigo de Owens em Berlim 1936; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jogos de Much Wenlock inspiraram Coubertin; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Weissmuller, cinco ouros e Tarzan; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Final da Copa de 1974 no Olympiastadion; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coubertin inspirou-se no soldado de cavalaria atrás das linhas inimigas; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foi ajudado por fiscais a cruzar a chegada; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estádio virou Turner Field, casa do Atlanta Braves (beisebol).",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Café vendido ao longo da viagem para custear as despesas; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Grécia abre o desfile por tradição; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mulheres competiram pela primeira vez em Paris 1900; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wembley sediou os Jogos de 1948 e a final de 1966; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sapporo 1972 foi o primeiro fora da Europa e América do Norte; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oito remadores mais timoneiro são nove pessoas; distrator 'Oito' torna a pergunta interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plataforma olímpica de dez metros; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sam foi desenhado por Bob Moore, lenda da Disney; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jackie Silva e Sandra Pires: primeiro ouro olímpico feminino brasileiro; fonte confirma.",
+      "reescrita": null
+    }
+  ]
+}
