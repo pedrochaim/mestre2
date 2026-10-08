@@ -1,0 +1,201 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 5,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este presidente americano tomou posse pela primeira vez?",
+      "resposta": "1993",
+      "ancora": {
+        "nome": "Bill Clinton",
+        "descricao": "42º presidente dos Estados Unidos, de 1993 a 2001, democrata e ex-governador do Arkansas.",
+        "variantes": [
+          "William Jefferson Clinton"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A moldura traz texto em cirílico com o título e o nome (Ivan Vasilievich, de toda a Rússia), o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato oficial com a faixa presidencial; a assinatura é do fotógrafo e não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "destino": 8,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este general assumiu a presidência do Brasil?",
+      "resposta": "1969",
+      "distratores": [
+        "1964",
+        "1967",
+        "1974"
+      ],
+      "ancora": {
+        "nome": "Emílio Garrastazu Médici",
+        "descricao": "General e 28º presidente do Brasil, de 1969 a 1974, no auge do regime militar.",
+        "variantes": [
+          "Médici",
+          "Garrastazu Médici"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, nítido, sem texto; uniforme militar característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 5,
+      "tipo": "aberta",
+      "pergunta": "Que país este militar governou por mais de quatro décadas?",
+      "resposta": "Líbia",
+      "ancora": {
+        "nome": "Muammar Kadafi",
+        "descricao": "Oficial militar e ditador que governou a Líbia de 1969 até ser deposto em 2011.",
+        "variantes": [
+          "Muammar Gaddafi",
+          "Moamar Kadafi",
+          "Khadafi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura de época, sem texto; múltipla escolha porque o rosto é menos famoso.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 8,
+      "tipo": "multipla",
+      "pergunta": "Quem é este nobre holandês, retratado numa pintura do século dezessete?",
+      "resposta": "Maurício de Nassau",
+      "distratores": [
+        "Pieter Stuyvesant",
+        "Frederico Henrique",
+        "Michiel de Ruyter"
+      ],
+      "ancora": {
+        "nome": "Maurício de Nassau",
+        "descricao": "Conde e príncipe de Nassau-Siegen, governador do Brasil Holandês no século dezessete.",
+        "variantes": [
+          "João Maurício de Nassau-Siegen",
+          "Johan Maurits van Nassau-Siegen"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro, nítido, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "destino": 5,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este homem se tornou imperador dos franceses?",
+      "resposta": "1852",
+      "distratores": [
+        "1804",
+        "1848",
+        "1870"
+      ],
+      "ancora": {
+        "nome": "Napoleão III",
+        "descricao": "Sobrinho de Napoleão I, presidente da França de 1848 a 1852 e depois imperador dos franceses até 1870.",
+        "variantes": [
+          "Luís Napoleão Bonaparte",
+          "Napoleon III"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 5,
+      "tipo": "aberta",
+      "pergunta": "Que programa de televisão de competição este empresário e político apresentou por mais de dez anos?",
+      "resposta": "The Apprentice (O Aprendiz)",
+      "ancora": {
+        "nome": "Donald Trump",
+        "descricao": "Empresário e político americano, 45º e 47º presidente dos Estados Unidos.",
+        "variantes": [
+          "Donald John Trump"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto granulada, recortada de impressão, de perfil, com marca de texto no canto; o personagem não é reconhecível pela imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido com a faixa presidencial; sem texto que entregue o nome.",
+      "familia": "quando",
+      "nivel": 3,
+      "destino": 8,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este ex-militar tomou posse como presidente do Brasil?",
+      "resposta": "2019",
+      "ancora": {
+        "nome": "Jair Bolsonaro",
+        "descricao": "Político e ex-militar brasileiro, 38º presidente do Brasil, de 2019 a 2023.",
+        "variantes": [
+          "Jair Messias Bolsonaro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 8,
+      "tipo": "aberta",
+      "pergunta": "De que presidente do Brasil este político foi vice-presidente?",
+      "resposta": "Dilma Rousseff",
+      "ancora": {
+        "nome": "Michel Temer",
+        "descricao": "Político brasileiro, vice-presidente de Dilma Rousseff e 37º presidente do Brasil, de 2016 a 2019.",
+        "variantes": [
+          "Michel Miguel Elias Temer Lulia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A moldura do quadro traz a inscrição \"Richard Rex tertii\", que entrega o nome."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; figura pública.",
+      "familia": "quando",
+      "nivel": 1,
+      "destino": 5,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este político russo se tornou presidente da Rússia pela primeira vez?",
+      "resposta": "2000",
+      "ancora": {
+        "nome": "Vladimir Putin",
+        "descricao": "Político russo e ex-oficial da KGB, presidente da Rússia desde 2012, depois de um primeiro mandato de 2000 a 2008.",
+        "variantes": [
+          "Vladimir Vladimirovich Putin"
+        ]
+      }
+    }
+  ]
+}

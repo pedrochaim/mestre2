@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Posse em 1993 confirmada nos trechos; enunciado sem vazamento e resposta única para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tomou posse em 30 de outubro de 1969; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Governou a Líbia de 1969 a 2011, cerca de 42 anos, o que confirma 'mais de quatro décadas'. O enunciado sozinho não identifica a pessoa, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Nobre holandês' não é literalmente exato: ele nasceu em Dillenburg e era alemão-neerlandês, conde de Nassau-Siegen. 'Retratado numa pintura do século dezessete' não tem confirmação nos trechos. Os distratores também misturavam nobres e não nobres.",
+      "reescrita": {
+        "pergunta": "Quem é este nobre do século dezessete?",
+        "resposta": "Maurício de Nassau",
+        "distratores": [
+          "Frederico Henrique",
+          "Guilherme II de Orange",
+          "Pieter Stuyvesant"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tornou-se imperador em dezembro de 1852. O ano 1804 serve de distrator porque pertence a Napoleão I, não ao retratado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Empresário e político' mais 'programa de competição apresentado por mais de dez anos' identifica Trump só pelo texto, então a figura vira enfeite. A nova pergunta usa a cidade natal, que só se responde reconhecendo a imagem.",
+      "reescrita": {
+        "pergunta": "Em que cidade americana nasceu este presidente?",
+        "resposta": "Nova Iorque"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tomou posse em 1.º de janeiro de 2019. 'Ex-militar' não identifica a pessoa, e a pergunta exige reconhecer a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foi vice de Dilma Rousseff e assumiu após o impeachment dela. O enunciado não identifica o político sem a figura, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Presidente pela primeira vez em 2000 (posse em 7 de maio de 2000). O enunciado exige reconhecer a figura.",
+      "reescrita": null
+    }
+  ]
+}
