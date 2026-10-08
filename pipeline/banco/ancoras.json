@@ -35418,7 +35418,8 @@
     "descricao": "Sistema de classificação dos climas do mundo baseado em temperatura, chuva e vegetação",
     "variantes": [
       "Classificação de Köppen-Geiger",
-      "Köppen climate classification"
+      "Köppen climate classification",
+      "Köppen-Geiger"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Köppen_climate_classification"
@@ -90896,7 +90897,9 @@
     "descricao": "Escala que classifica a intensidade dos tornados pelos danos que causam",
     "variantes": [
       "Fujita scale",
-      "Escala F"
+      "Escala F",
+      "Escala Fujita aprimorada",
+      "Enhanced Fujita scale"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Fujita_scale"
@@ -121870,6 +121873,307 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Maratus_volans",
       "https://pt.wikipedia.org/wiki/Maratus_volans"
+    ]
+  },
+  {
+    "id": "floresta_do_congo",
+    "nome": "Floresta do Congo",
+    "descricao": "Floresta tropical úmida da bacia do Rio Congo, na África Central",
+    "variantes": [
+      "Floresta tropical do Congo",
+      "Congolian rainforests"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Congo_Basin"
+    ]
+  },
+  {
+    "id": "cumulonimbo",
+    "nome": "Cumulonimbo",
+    "descricao": "Nuvem de tempestade de grande desenvolvimento vertical, que produz raios, trovoadas e granizo",
+    "variantes": [
+      "Cumulonimbus",
+      "Cúmulo-nimbo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cumulonimbus_cloud"
+    ]
+  },
+  {
+    "id": "cabaceiras",
+    "nome": "Cabaceiras",
+    "descricao": "Município do Cariri paraibano, conhecido pela baixíssima chuva e pelas filmagens de cinema",
+    "variantes": [
+      "Roliúde Nordestina"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Cabaceiras"
+    ]
+  },
+  {
+    "id": "oasis_2",
+    "nome": "Oásis",
+    "descricao": "Área fértil e com água no meio de um deserto, alimentada por fontes ou lençóis subterrâneos",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oasis"
+    ]
+  },
+  {
+    "id": "serengeti",
+    "nome": "Serengeti",
+    "descricao": "Região de savanas no norte da Tanzânia e no sudoeste do Quênia, famosa pela migração de grandes manadas",
+    "variantes": [
+      "Serengueti"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Serengeti"
+    ]
+  },
+  {
+    "id": "brisa_maritima",
+    "nome": "Brisa marítima",
+    "descricao": "Vento local que alterna entre o mar e a terra ao longo do dia por causa da diferença de aquecimento entre eles",
+    "variantes": [
+      "Brisa terrestre",
+      "Sea breeze"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sea_breeze"
+    ]
+  },
+  {
+    "id": "deserto",
+    "nome": "Deserto",
+    "descricao": "Tipo de região, quente ou fria, onde a precipitação é muito baixa",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Deserto"
+    ]
+  },
+  {
+    "id": "varzea",
+    "nome": "Várzea",
+    "descricao": "Floresta amazônica inundada periodicamente pelas cheias de rios de água barrenta, como o Solimões",
+    "variantes": [
+      "Floresta de várzea"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/V%C3%A1rzea_forest"
+    ]
+  },
+  {
+    "id": "clima_mediterraneo",
+    "nome": "Clima mediterrâneo",
+    "descricao": "Clima de verões quentes e secos e invernos amenos e chuvosos, típico das margens do Mar Mediterrâneo",
+    "variantes": [
+      "Mediterranean climate"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mediterranean_climate"
+    ]
+  },
+  {
+    "id": "floresta_nublada",
+    "nome": "Floresta nublada",
+    "descricao": "Floresta de montanhas tropicais envolta quase sempre por nuvens e neblina",
+    "variantes": [
+      "Mata nebular",
+      "Cloud forest"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cloud_forest"
+    ]
+  },
+  {
+    "id": "ilha_de_calor",
+    "nome": "Ilha de calor",
+    "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+    "variantes": [
+      "Ilha de calor urbana",
+      "Urban heat island"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Urban_heat_island"
+    ]
+  },
+  {
+    "id": "grande_seca_de_1877",
+    "nome": "Grande Seca de 1877",
+    "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+    "variantes": [
+      "Grande Seca",
+      "Seca dos Dois Setes"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ciclo_da_borracha"
+    ]
+  },
+  {
+    "id": "minuano",
+    "nome": "Minuano",
+    "descricao": "Vento frio e seco de sudoeste que sopra no Rio Grande do Sul no inverno",
+    "variantes": [
+      "Vento minuano"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Minuano_(vento)"
+    ]
+  },
+  {
+    "id": "clima",
+    "nome": "Clima",
+    "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+    "variantes": [
+      "Climate"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Climate"
+    ]
+  },
+  {
+    "id": "tornado",
+    "nome": "Tornado",
+    "descricao": "Coluna de ar em rotação violenta que se estende de uma nuvem de tempestade até o solo",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tornado"
+    ]
+  },
+  {
+    "id": "simum",
+    "nome": "Simum",
+    "descricao": "Vento quente, seco e carregado de areia que sopra no Saara e na Península Arábica",
+    "variantes": [
+      "Simoom",
+      "Samiel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Simoom"
+    ]
+  },
+  {
+    "id": "floresta_negra",
+    "nome": "Floresta Negra",
+    "descricao": "Região montanhosa e florestada do sudoeste da Alemanha",
+    "variantes": [
+      "Schwarzwald",
+      "Black Forest"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Black_Forest"
+    ]
+  },
+  {
+    "id": "deserto_de_sonora",
+    "nome": "Deserto de Sonora",
+    "descricao": "Deserto da América do Norte no sudoeste dos Estados Unidos e no noroeste do México, famoso pelos cactos saguaro",
+    "variantes": [
+      "Sonoran Desert"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sonoran_Desert"
+    ]
+  },
+  {
+    "id": "sao_joaquim",
+    "nome": "São Joaquim",
+    "descricao": "Município da serra catarinense conhecido pelo frio, pelas geadas e pela neve ocasional",
+    "variantes": [
+      "São Joaquim (Santa Catarina)"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/S%C3%A3o_Joaquim_(Santa_Catarina)"
+    ]
+  },
+  {
+    "id": "dallol_2",
+    "nome": "Dallol",
+    "descricao": "Povoado da Depressão de Danakil, no nordeste africano, com uma das maiores temperaturas médias anuais já registradas",
+    "variantes": [
+      "Dallol, Ethiopia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dallol,_Ethiopia"
+    ]
+  },
+  {
+    "id": "geada_negra_de_1975",
+    "nome": "Geada negra de 1975",
+    "descricao": "Geada severa de julho de 1975 que destruiu os cafezais do Sul do Brasil",
+    "variantes": [
+      "Geada negra"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Geada_negra"
+    ]
+  },
+  {
+    "id": "ghibli",
+    "nome": "Ghibli",
+    "descricao": "Nome dado na Líbia ao vento quente e seco do Saara, equivalente ao siroco",
+    "variantes": [
+      "Gibli",
+      "Ghibli (vento)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sirocco"
+    ]
+  },
+  {
+    "id": "asa_branca_2",
+    "nome": "Asa-branca",
+    "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+    "variantes": [
+      "Pomba asa-branca",
+      "Patagioenas picazuro",
+      "Pombão"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Picazuro_pigeon"
+    ]
+  },
+  {
+    "id": "tempestade_perfeita_de_1991",
+    "nome": "Tempestade Perfeita de 1991",
+    "descricao": "Tempestade que atingiu o Atlântico Norte e a costa leste dos Estados Unidos em outubro e novembro de 1991",
+    "variantes": [
+      "1991 Perfect Storm",
+      "Halloween Nor'easter"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1991_Perfect_Storm"
+    ]
+  },
+  {
+    "id": "floco_de_neve",
+    "nome": "Floco de neve",
+    "descricao": "Cristal de gelo que se forma nas nuvens e cai como neve",
+    "variantes": [
+      "Snowflake"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Snowflake"
+    ]
+  },
+  {
+    "id": "inversao_termica",
+    "nome": "Inversão térmica",
+    "descricao": "Fenômeno em que uma camada de ar quente fica sobre o ar frio junto ao solo, prendendo a poluição",
+    "variantes": [
+      "Inversão de temperatura"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Invers%C3%A3o_t%C3%A9rmica"
+    ]
+  },
+  {
+    "id": "ipe_amarelo",
+    "nome": "Ipê-amarelo",
+    "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+    "variantes": [
+      "Ipê",
+      "Handroanthus"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ip%C3%AA"
     ]
   }
 ]

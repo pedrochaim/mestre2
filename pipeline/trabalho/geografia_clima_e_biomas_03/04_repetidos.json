@@ -1,0 +1,451 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Se contarmos também os desertos gelados, qual é o maior deserto do mundo?",
+        "resposta": "Antártida"
+      },
+      "existentes": [
+        {
+          "id": "q02097",
+          "pergunta": "Considerando deserto toda região onde quase não chove nem neva, qual é o maior deserto do mundo?",
+          "resposta": "Antártida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Atrás apenas da Amazônia, qual é o segundo maior bioma do Brasil em área?",
+        "resposta": "Cerrado"
+      },
+      "existentes": [
+        {
+          "id": "q02274",
+          "pergunta": "A casca grossa, parecida com cortiça, de muitas árvores do Cerrado é uma adaptação que as protege contra o quê?",
+          "resposta": "O fogo"
+        },
+        {
+          "id": "q06255",
+          "pergunta": "O bioma do Brasil central recebeu o nome de uma palavra portuguesa que descreve sua vegetação. Nesse sentido, o que significa cerrado?",
+          "resposta": "Fechado"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é o maior bioma terrestre do planeta, que cobre boa parte da Sibéria e do Canadá?",
+        "resposta": "Taiga"
+      },
+      "existentes": [
+        {
+          "id": "q02267",
+          "pergunta": "A taiga também é chamada de floresta boreal. Esse adjetivo vem do nome de que deus grego dos ventos?",
+          "resposta": "Bóreas"
+        },
+        {
+          "id": "q02268",
+          "pergunta": "Que grupo de árvores domina a paisagem da taiga, a vasta floresta do norte da Rússia e do Canadá?",
+          "resposta": "Coníferas"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Dentro do território brasileiro, qual bioma fica inteiramente num único estado?",
+        "resposta": "Pampa"
+      },
+      "existentes": [
+        {
+          "id": "q02258",
+          "pergunta": "Pampa, nome do bioma de campos do Rio Grande do Sul, vem do quíchua, uma língua indígena dos Andes. O que a palavra significa?",
+          "resposta": "Planície"
+        },
+        {
+          "id": "q02259",
+          "pergunta": "Além do Brasil e da Argentina, em que país o bioma Pampa cobre quase todo o território?",
+          "resposta": "Uruguai"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O Pantanal brasileiro se divide entre Mato Grosso e Mato Grosso do Sul. Qual dos dois estados abriga a maior parte dele?",
+        "resposta": "Mato Grosso do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q02294",
+          "pergunta": "Que grande ave branca, de pescoço preto e vermelho, é considerada o símbolo do Pantanal?",
+          "resposta": "Tuiuiú"
+        },
+        {
+          "id": "q02295",
+          "pergunta": "Qual é o menor dos biomas brasileiros em área?",
+          "resposta": "Pantanal"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na escala de Beaufort, que mede a força do vento, que nome recebe o grau máximo, o doze?",
+        "resposta": "Furacão"
+      },
+      "existentes": [
+        {
+          "id": "q02300",
+          "pergunta": "Que oficial da Marinha britânica criou, no começo do século dezenove, a escala que classifica a força dos ventos de zero a doze?",
+          "resposta": "Francis Beaufort"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na classificação climática de Köppen, cada grande grupo de clima tem uma letra. Que tipo de clima a letra B indica?",
+        "resposta": "Seco"
+      },
+      "existentes": [
+        {
+          "id": "q02299",
+          "pergunta": "Que climatologista nascido na Rússia e radicado na Alemanha criou uma das classificações de climas mais usadas no mundo?",
+          "resposta": "Wladimir Köppen"
+        },
+        {
+          "id": "q06263",
+          "pergunta": "A classificação climática de Köppen divide os climas do mundo em quantos grandes grupos, cada um indicado por uma letra maiúscula?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que árvore nativa da Mata Atlântica, de madeira avermelhada usada para tingir tecidos, acabou dando nome ao nosso país?",
+        "resposta": "Pau-brasil"
+      },
+      "existentes": [
+        {
+          "id": "q06267",
+          "pergunta": "Qual bioma brasileiro, hoje reduzido a fragmentos, abriga a maior parte da população do país?",
+          "resposta": "Mata Atlântica"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que semente da araucária, cozida ou assada, é um petisco típico do inverno no Sul do Brasil?",
+        "resposta": "Pinhão"
+      },
+      "existentes": [
+        {
+          "id": "q02690",
+          "pergunta": "Botanicamente, o pinhão, comido nas festas juninas do Sul, é que parte da araucária?",
+          "resposta": "A semente"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Que cacto da Caatinga, de grandes flores brancas, tem a florada vista pelo sertanejo como sinal de que a chuva vai chegar?",
+        "resposta": "Mandacaru"
+      },
+      "existentes": [
+        {
+          "id": "q02256",
+          "pergunta": "Caatinga, nome do bioma do sertão nordestino, vem do tupi e descreve a paisagem na seca. O que esse nome significa?",
+          "resposta": "Mata branca"
+        },
+        {
+          "id": "q02257",
+          "pergunta": "Qual bioma brasileiro existe apenas dentro do território do Brasil?",
+          "resposta": "Caatinga"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Como se chama a região central de um furacão, onde o vento é fraco e o céu costuma ficar limpo?",
+        "resposta": "Olho"
+      },
+      "existentes": [
+        {
+          "id": "q02270",
+          "pergunta": "No Atlântico, ele se chama furacão. Como se chama o mesmo tipo de tempestade quando se forma no oeste do Pacífico, perto do Japão?",
+          "resposta": "Tufão"
+        },
+        {
+          "id": "q02271",
+          "pergunta": "Que efeito, ligado à rotação da Terra, faz os furacões girarem em sentidos opostos nos hemisférios norte e sul?",
+          "resposta": "Efeito Coriolis"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que palmeira da Mata dos Cocais fornece uma cera usada em polidores de carro e no brilho de balas e chocolates?",
+        "resposta": "Carnaúba"
+      },
+      "existentes": [
+        {
+          "id": "q06247",
+          "pergunta": "A Mata dos Cocais, dominada pelas palmeiras babaçu e carnaúba, fica principalmente em que estados brasileiros?",
+          "resposta": "Maranhão e Piauí"
+        },
+        {
+          "id": "q07996",
+          "pergunta": "Na Mata dos Cocais, entre o Maranhão e o Piauí, o babaçu divide a paisagem com qual palmeira, famosa pela cera?",
+          "resposta": "Carnaúba"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "No hemisfério sul, os ventos alísios sopram rumo ao equador vindos de que direção?",
+        "resposta": "Sudeste"
+      },
+      "existentes": [
+        {
+          "id": "q02286",
+          "pergunta": "Em 1492, que navegador aproveitou os ventos alísios para atravessar o Atlântico rumo à América?",
+          "resposta": "Cristóvão Colombo"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Na Índia, a monção de verão, que traz as grandes chuvas, sopra de onde para onde?",
+        "resposta": "Do oceano para o continente"
+      },
+      "existentes": [
+        {
+          "id": "q02260",
+          "pergunta": "A monção, regime de ventos que traz chuvas torrenciais à Índia, tem nome de origem árabe. O que essa palavra árabe significa?",
+          "resposta": "Estação do ano"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Pinturas rupestres no Saara mostram girafas, hipopótamos e pescadores. Como era aquela paisagem há cerca de oito mil anos?",
+        "resposta": "Verde, com lagos e savanas"
+      },
+      "existentes": [
+        {
+          "id": "q04820",
+          "pergunta": "O Saara foi verde pela última vez, com lagos, savanas e hipopótamos. Até cerca de quando durou essa fase úmida?",
+          "resposta": "Cerca de 5 mil anos atrás"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Enquanto costuma trazer seca ao Norte e ao Nordeste, o El Niño provoca excesso de chuva em que região do Brasil?",
+        "resposta": "Sul"
+      },
+      "existentes": [
+        {
+          "id": "q02261",
+          "pergunta": "O aquecimento do Pacífico chamado El Niño ganhou esse nome de pescadores peruanos por aparecer perto do Natal. A quem o nome se refere?",
+          "resposta": "Menino Jesus"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "De onde vem a água das lagoas azuis e verdes que se formam entre as dunas dos Lençóis Maranhenses?",
+        "resposta": "Da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Muita gente pensa que é a distância até o Sol, mas o que realmente causa as estações do ano?",
+        "resposta": "A inclinação do eixo da Terra"
+      },
+      "existentes": [
+        {
+          "id": "q00575",
+          "pergunta": "As estações do ano acontecem principalmente por causa de quê?",
+          "resposta": "Inclinação do eixo terrestre"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "A escala Fujita aprimorada, usada nos Estados Unidos para classificar tornados, tem quantos níveis, contando o zero?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q06230",
+          "pergunta": "Em 1971, que meteorologista japonês, professor em Chicago, criou a escala que mede a força dos tornados pelos estragos que eles causam?",
+          "resposta": "Tetsuya Fujita"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em que mês as chuvas da monção costumam chegar ao estado de Kerala, no sul da Índia, abrindo a estação chuvosa?",
+        "resposta": "Junho"
+      },
+      "existentes": [
+        {
+          "id": "q02260",
+          "pergunta": "A monção, regime de ventos que traz chuvas torrenciais à Índia, tem nome de origem árabe. O que essa palavra árabe significa?",
+          "resposta": "Estação do ano"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que geógrafo paulista dividiu o Brasil em domínios morfoclimáticos, como o dos mares de morros e o das caatingas?",
+        "resposta": "Aziz Ab'Sáber"
+      },
+      "existentes": [
+        {
+          "id": "q04539",
+          "pergunta": "Que geógrafo dividiu o Brasil em domínios morfoclimáticos, como o mar de morros e as caatingas?",
+          "resposta": "Aziz Ab'Sáber"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: maior deserto do mundo é a Antártida.",
+      "id_existente": "q02097"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Segundo maior bioma em área é fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Maior bioma terrestre é fato diferente de nome, vegetação."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bioma em um único estado difere do significado do nome e do Uruguai."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estado com maior parte do Pantanal é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nome do grau 12 difere do criador da escala."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Significado da letra B é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Árvore que deu nome ao país difere de qual bioma abriga mais população."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Pinhão é a semente da araucária; mesmo fato em direção inversa.",
+      "id_existente": "q02690"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cacto mandacaru é fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Olho do furacão é fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesma resposta: carnaúba, palmeira da cera na Mata dos Cocais.",
+      "id_existente": "q07996"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Direção dos alísios no hemisfério sul difere de Colombo."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Direção da monção difere do significado do nome."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Aspecto da paisagem difere de até quando durou."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Efeito no Sul difere da origem do nome."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: origem da água das lagoas.",
+      "id_existente": "q02075"
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: causa das estações é a inclinação do eixo.",
+      "id_existente": "q00575"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Número de níveis difere do criador da escala."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Mês de chegada em Kerala difere do significado do nome."
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: geógrafo dos domínios morfoclimáticos.",
+      "id_existente": "q04539"
+    }
+  ]
+}

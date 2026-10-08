@@ -1,0 +1,1102 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Oceano Ártico",
+        "descricao": "Oceano que cerca o Polo Norte, entre a Europa, a Ásia e a América do Norte.",
+        "variantes": [
+          "Oceano Glacial Ártico"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oceano_Ártico",
+          "https://en.wikipedia.org/wiki/Arctic_Ocean"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Dos cinco oceanos da Terra, qual é ao mesmo tempo o menor e o mais raso?",
+      "resposta": "Oceano Ártico",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Oceano_Ártico",
+        "https://en.wikipedia.org/wiki/Arctic_Ocean"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Madagascar",
+        "descricao": "País insular africano no oceano Índico, a leste de Moçambique, conhecido pelos lêmures.",
+        "variantes": [
+          "Madagáscar"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Madagáscar",
+          "https://en.wikipedia.org/wiki/Madagascar"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "A quarta maior ilha do mundo, terra dos lêmures, forma sozinha qual país africano?",
+      "resposta": "Madagascar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madagascar",
+        "https://pt.wikipedia.org/wiki/Madagáscar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Honshu",
+        "descricao": "A maior e mais populosa ilha do arquipélago japonês, onde ficam Tóquio, Quioto e Osaka.",
+        "variantes": [
+          "Honshū",
+          "Hondo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Honshu",
+          "https://en.wikipedia.org/wiki/Honshu"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das quatro grandes ilhas do Japão, qual é a maior, onde ficam Tóquio, Quioto e Osaka?",
+      "resposta": "Honshu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Honshu",
+        "https://en.wikipedia.org/wiki/Honshu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sardenha",
+        "descricao": "Ilha italiana no mar Mediterrâneo, ao sul da Córsega, cuja capital é Cagliari.",
+        "variantes": [
+          "Sardinia",
+          "Sardegna"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sardenha",
+          "https://en.wikipedia.org/wiki/Sardinia"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Logo atrás da Sicília, qual é a segunda maior ilha do mar Mediterrâneo, também italiana?",
+      "resposta": "Sardenha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sardenha",
+        "https://en.wikipedia.org/wiki/Sardinia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mar_morto",
+        "nome": "Mar Morto",
+        "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+        "variantes": [
+          "Dead Sea"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mar_Morto"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "As margens de qual lago muito salgado, entre Israel e a Jordânia, formam o ponto mais baixo em terra firme do planeta?",
+      "resposta": "Mar Morto",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mar_Morto",
+        "https://en.wikipedia.org/wiki/Dead_Sea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maldivas",
+        "descricao": "País insular do oceano Índico, a sudoeste da Índia, formado por cadeias de atóis.",
+        "variantes": [
+          "República das Maldivas",
+          "Maldives"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maldivas",
+          "https://en.wikipedia.org/wiki/Maldives"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual país do oceano Índico, formado por atóis de coral, tem a menor altitude média entre todos os países do mundo?",
+      "resposta": "Maldivas",
+      "distratores": [
+        "Seychelles",
+        "Maurício",
+        "Sri Lanka"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maldives",
+        "https://pt.wikipedia.org/wiki/Maldivas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Baía de Fundy",
+        "descricao": "Baía da costa atlântica do Canadá, entre as províncias de Nova Brunswick e Nova Escócia.",
+        "variantes": [
+          "Bay of Fundy"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Baía_de_Fundy",
+          "https://en.wikipedia.org/wiki/Bay_of_Fundy"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em que baía da costa atlântica do Canadá ocorre a maior diferença do mundo entre a maré alta e a maré baixa?",
+      "resposta": "Baía de Fundy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bay_of_Fundy",
+        "https://pt.wikipedia.org/wiki/Baía_de_Fundy"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "borneu",
+        "nome": "Bornéu",
+        "descricao": "Grande ilha do Sudeste Asiático, a terceira maior do mundo.",
+        "variantes": [
+          "Borneo",
+          "Kalimantan"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bornéu"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é a maior ilha da Ásia, cujas florestas tropicais são um dos últimos refúgios do orangotango?",
+      "resposta": "Bornéu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bornéu",
+        "https://en.wikipedia.org/wiki/Borneo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tristão da Cunha",
+        "descricao": "Arquipélago britânico vulcânico no Atlântico Sul, entre a América do Sul e a África, com um único povoado.",
+        "variantes": [
+          "Tristan da Cunha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tristan_da_Cunha"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Batizado com o nome de um navegador português, qual arquipélago britânico do Atlântico Sul é considerado o arquipélago habitado mais isolado do mundo?",
+      "resposta": "Tristão da Cunha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tristan_da_Cunha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilhas do Canal",
+        "descricao": "Arquipélago no canal da Mancha, perto da costa da Normandia, formado por dependências da Coroa britânica como Jersey e Guernsey.",
+        "variantes": [
+          "Ilhas Anglo-Normandas",
+          "Channel Islands"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Channel_Islands"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Qual é a maior das Ilhas do Canal, no canal da Mancha, que dá nome a um tecido de malha e a uma raça de vaca leiteira?",
+      "resposta": "Jersey",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jersey",
+        "https://en.wikipedia.org/wiki/Channel_Islands"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grandes Antilhas",
+        "descricao": "Grupo das maiores ilhas do mar do Caribe, ao norte das Pequenas Antilhas.",
+        "variantes": [
+          "Greater Antilles"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Grandes_Antilhas",
+          "https://en.wikipedia.org/wiki/Greater_Antilles"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As Grandes Antilhas, no mar do Caribe, reúnem Cuba, Hispaniola, Porto Rico e qual outra grande ilha?",
+      "resposta": "Jamaica",
+      "distratores": [
+        "Trinidad",
+        "Barbados",
+        "Martinica"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Grandes_Antilhas",
+        "https://en.wikipedia.org/wiki/Greater_Antilles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "atol_das_rocas",
+        "nome": "Atol das Rocas",
+        "descricao": "Atol no oceano Atlântico, a nordeste do Brasil, protegido como reserva biológica.",
+        "variantes": [
+          "Rocas Atoll"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Atol_das_Rocas"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no litoral do Nordeste, é formado principalmente por quê?",
+      "resposta": "Algas calcárias",
+      "distratores": [
+        "Corais",
+        "Arenito",
+        "Esponjas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rocas_Atoll",
+        "https://pt.wikipedia.org/wiki/Atol_das_Rocas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Moai",
+        "descricao": "Estátuas monolíticas de figuras humanas esculpidas pelo povo rapanui na Ilha de Páscoa.",
+        "variantes": [
+          "Moais"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Moai",
+          "https://en.wikipedia.org/wiki/Moai"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A maioria dos moais da Ilha de Páscoa foi esculpida numa pedreira de cratera vulcânica. Que tipo de rocha é essa?",
+      "resposta": "Tufo vulcânico",
+      "distratores": [
+        "Granito",
+        "Mármore",
+        "Calcário"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moai",
+        "https://en.wikipedia.org/wiki/Rano_Raraku"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cabo_verde",
+        "nome": "Cabo Verde",
+        "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+        "variantes": [
+          "Cape Verde",
+          "Cabo Verde"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cabo_Verde"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em qual ilha do arquipélago de Cabo Verde fica a cidade da Praia, capital do país?",
+      "resposta": "Ilha de Santiago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Praia",
+        "https://en.wikipedia.org/wiki/Santiago,_Cape_Verde"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "acores",
+        "nome": "Açores",
+        "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+        "variantes": [
+          "Azores"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Açores"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O ponto mais alto de Portugal é uma montanha vulcânica numa das ilhas dos Açores. Que ilha é essa?",
+      "resposta": "Ilha do Pico",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Montanha_do_Pico",
+        "https://en.wikipedia.org/wiki/Mount_Pico"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Madeira",
+        "descricao": "Arquipélago português no oceano Atlântico, região autônoma cuja capital é Funchal, na ilha da Madeira.",
+        "variantes": [
+          "Arquipélago da Madeira",
+          "Região Autónoma da Madeira"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Região_Autónoma_da_Madeira",
+          "https://en.wikipedia.org/wiki/Madeira"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além da ilha da Madeira, qual outra ilha habitada do arquipélago madeirense é famosa por sua longa praia de areia dourada?",
+      "resposta": "Porto Santo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porto_Santo_Island",
+        "https://en.wikipedia.org/wiki/Madeira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilhas Canárias",
+        "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+        "variantes": [
+          "Canárias",
+          "Canary Islands",
+          "Islas Canarias"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Canárias",
+          "https://en.wikipedia.org/wiki/Canary_Islands"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O vulcão Teide, ponto mais alto da Espanha, fica em qual ilha das Canárias?",
+      "resposta": "Tenerife",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Teide",
+        "https://en.wikipedia.org/wiki/Teide"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Recife",
+        "descricao": "Capital do estado de Pernambuco, no litoral do Nordeste brasileiro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Recife",
+          "https://en.wikipedia.org/wiki/Recife"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os arrecifes que dão nome à capital pernambucana não são de coral. São formados por qual tipo de rocha?",
+      "resposta": "Arenito",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Recife",
+        "https://en.wikipedia.org/wiki/Recife"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mar Báltico",
+        "descricao": "Mar do norte da Europa cercado por países como Suécia, Finlândia, Polônia e Alemanha.",
+        "variantes": [
+          "Baltic Sea"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mar_Báltico",
+          "https://en.wikipedia.org/wiki/Baltic_Sea"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Por receber muita água de rios, como é a água do mar Báltico, no norte da Europa, quando comparada à dos oceanos?",
+      "resposta": "Salobra, bem menos salgada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Baltic_Sea",
+        "https://pt.wikipedia.org/wiki/Mar_Báltico"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mar Negro",
+        "descricao": "Mar interior entre o sudeste da Europa e a Ásia Menor, ligado ao Mediterrâneo pelo Bósforo.",
+        "variantes": [
+          "Black Sea"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mar_Negro",
+          "https://en.wikipedia.org/wiki/Black_Sea"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nas camadas mais fundas do mar Negro quase não existe qual gás, o que ajuda a preservar navios naufragados há milênios?",
+      "resposta": "Oxigênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_Sea",
+        "https://pt.wikipedia.org/wiki/Mar_Negro"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ilha_de_marajo",
+        "nome": "Ilha de Marajó",
+        "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+        "variantes": [
+          "Marajó"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ilha_de_Marajó"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na ilha de Marajó, no Pará, qual animal é criado em grandes rebanhos e chega a servir de montaria para a polícia?",
+      "resposta": "Búfalo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ilha_de_Marajó",
+        "https://en.wikipedia.org/wiki/Marajó"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Moai",
+        "descricao": "Estátuas monolíticas de figuras humanas esculpidas pelo povo rapanui na Ilha de Páscoa.",
+        "variantes": [
+          "Moais"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Moai",
+          "https://en.wikipedia.org/wiki/Moai"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Ilha de Páscoa, a maioria dos moais erguidos sobre plataformas no litoral está de costas para onde?",
+      "resposta": "Para o mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moai",
+        "https://pt.wikipedia.org/wiki/Moai"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Murano",
+        "descricao": "Conjunto de ilhas na lagoa de Veneza, na Itália, tradicional centro de produção artesanal.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Murano",
+          "https://en.wikipedia.org/wiki/Murano"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde o fim do século treze, a ilha de Murano, na lagoa de Veneza, é famosa pela fabricação artesanal de qual material?",
+      "resposta": "Vidro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Murano_glass",
+        "https://pt.wikipedia.org/wiki/Murano"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha Ellis",
+        "descricao": "Ilha na baía de Nova York, perto da Estátua da Liberdade, hoje sede de um museu.",
+        "variantes": [
+          "Ellis Island"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ellis_Island"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Entre 1892 e 1954, que serviço do governo americano funcionou na ilha Ellis, na baía de Nova York, atendendo milhões de pessoas?",
+      "resposta": "Estação de imigração",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ellis_Island"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mar_caspio",
+        "nome": "Mar Cáspio",
+        "descricao": "Grande corpo de água salgada sem saída para o oceano, entre a Europa Oriental e a Ásia Central.",
+        "variantes": [
+          "Caspian Sea"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mar_Cáspio"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O famoso caviar do mar Cáspio é feito com as ovas de qual peixe?",
+      "resposta": "Esturjão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caviar",
+        "https://en.wikipedia.org/wiki/Caspian_Sea"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "oceano_atlantico",
+        "nome": "Oceano Atlântico",
+        "descricao": "Segundo maior oceano da Terra, entre as Américas, a Europa e a África.",
+        "variantes": [
+          "Atlântico"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oceano_Atlântico"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Visto num mapa, o oceano Atlântico ocupa uma bacia alongada, cujo formato lembra qual letra do alfabeto?",
+      "resposta": "S",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atlantic_Ocean"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "fernando_de_noronha",
+        "nome": "Fernando de Noronha",
+        "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+        "variantes": [
+          "Noronha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quase todas as manhãs, uma baía de Fernando de Noronha recebe grandes grupos de qual espécie de golfinho acrobata?",
+      "resposta": "Golfinho-rotador",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Golfinho-rotador",
+        "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Corrente de Humboldt",
+        "descricao": "Corrente oceânica fria do Pacífico que corre para o norte ao longo da costa do Chile e do Peru.",
+        "variantes": [
+          "Corrente do Peru",
+          "Humboldt Current"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Corrente_de_Humboldt",
+          "https://en.wikipedia.org/wiki/Humboldt_Current"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que corrente marinha fria sobe pela costa do Chile e do Peru e torna aquelas águas muito ricas em peixes?",
+      "resposta": "Corrente de Humboldt",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Corrente_de_Humboldt",
+        "https://en.wikipedia.org/wiki/Humboldt_Current"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Estreito de Messina",
+        "descricao": "Estreito que separa a ilha da Sicília da Calábria, na ponta da península Itálica.",
+        "variantes": [
+          "Strait of Messina"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Estreito_de_Messina",
+          "https://en.wikipedia.org/wiki/Strait_of_Messina"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Na mitologia grega, os monstros Cila e Caríbdis ameaçavam navegantes. Que estreito, entre a Sicília e a Calábria, a tradição associa a eles?",
+      "resposta": "Estreito de Messina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scylla_and_Charybdis",
+        "https://en.wikipedia.org/wiki/Strait_of_Messina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arquipélago",
+        "descricao": "Conceito geográfico: grupo de ilhas próximas umas das outras.",
+        "variantes": [
+          "Archipelago"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Arquipélago",
+          "https://en.wikipedia.org/wiki/Archipelago"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Hoje usada para qualquer grupo de ilhas, a palavra arquipélago era originalmente o nome próprio de qual mar?",
+      "resposta": "Mar Egeu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Archipelago"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cabo Horn",
+        "descricao": "Promontório da ilha Hornos, no Chile, considerado o extremo sul da América do Sul.",
+        "variantes": [
+          "Cape Horn",
+          "Cabo de Hornos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cabo_Horn",
+          "https://en.wikipedia.org/wiki/Cape_Horn"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do cabo Horn, no extremo sul da América, não vem da palavra inglesa para chifre. Ele homenageia uma cidade de qual país?",
+      "resposta": "Países Baixos",
+      "distratores": [
+        "Inglaterra",
+        "Dinamarca",
+        "Bélgica"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cape_Horn",
+        "https://pt.wikipedia.org/wiki/Cabo_Horn"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha de São Luís",
+        "descricao": "Ilha do litoral do Maranhão onde fica a capital São Luís, chamada pelos tupinambás de Upaon-Açu.",
+        "variantes": [
+          "Ilha do Maranhão",
+          "Upaon-Açu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/São_Luís_Island",
+          "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os tupinambás chamavam de Upaon-Açu a ilha onde hoje fica a capital do Maranhão. O que significa esse nome?",
+      "resposta": "Ilha grande",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/São_Luís_Island",
+        "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Melanésia",
+        "descricao": "Sub-região da Oceania no sudoeste do Pacífico, que inclui Nova Guiné, Ilhas Salomão, Vanuatu e Fiji.",
+        "variantes": [
+          "Melanesia"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Melanésia",
+          "https://en.wikipedia.org/wiki/Melanesia"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Vindo do grego, o que significa o nome Melanésia, região do Pacífico que inclui Fiji e Papua-Nova Guiné?",
+      "resposta": "Ilhas negras",
+      "distratores": [
+        "Muitas ilhas",
+        "Ilhas pequenas",
+        "Ilhas verdes"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Melanesia",
+        "https://pt.wikipedia.org/wiki/Melanésia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilhas Canárias",
+        "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+        "variantes": [
+          "Canárias",
+          "Canary Islands",
+          "Islas Canarias"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Canárias",
+          "https://en.wikipedia.org/wiki/Canary_Islands"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo a explicação mais aceita, o nome das ilhas Canárias vem do latim e se refere não a um pássaro, mas a qual animal?",
+      "resposta": "Cão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Canary_Islands",
+        "https://pt.wikipedia.org/wiki/Canárias"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vitória",
+        "descricao": "Capital do estado do Espírito Santo, situada em grande parte numa ilha.",
+        "variantes": [
+          "Vitória (Espírito Santo)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vitória_(Espírito_Santo)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na geografia, o que as capitais estaduais Florianópolis, São Luís e Vitória têm em comum?",
+      "resposta": "Ficam em ilhas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vitória_(Espírito_Santo)",
+        "https://pt.wikipedia.org/wiki/Ilha_de_Santa_Catarina",
+        "https://en.wikipedia.org/wiki/São_Luís_Island"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Madeira",
+        "descricao": "Arquipélago português no oceano Atlântico, região autônoma cuja capital é Funchal, na ilha da Madeira.",
+        "variantes": [
+          "Arquipélago da Madeira",
+          "Região Autónoma da Madeira"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Região_Autónoma_da_Madeira",
+          "https://en.wikipedia.org/wiki/Madeira"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que craque do futebol nasceu na ilha da Madeira e, em 2017, passou a dar nome ao aeroporto do arquipélago?",
+      "resposta": "Cristiano Ronaldo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madeira_Airport"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilhas Pitcairn",
+        "descricao": "Pequeno território britânico de ilhas vulcânicas no Pacífico Sul, com uma única vila, Adamstown.",
+        "variantes": [
+          "Pitcairn",
+          "Pitcairn Islands"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ilhas_Pitcairn",
+          "https://en.wikipedia.org/wiki/Pitcairn_Islands"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Os habitantes das ilhas Pitcairn, no Pacífico Sul, descendem em boa parte dos amotinados de qual navio britânico do século dezoito?",
+      "resposta": "Bounty",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pitcairn_Islands",
+        "https://pt.wikipedia.org/wiki/Ilhas_Pitcairn"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mar Vermelho",
+        "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+        "variantes": [
+          "Red Sea"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mar_Vermelho",
+          "https://en.wikipedia.org/wiki/Red_Sea"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo o livro do Êxodo, que líder dos hebreus estendeu a mão para que as águas do mar Vermelho se abrissem?",
+      "resposta": "Moisés",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crossing_the_Red_Sea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Capri",
+        "descricao": "Ilha italiana do mar Tirreno, no golfo de Nápoles, famosa pela Gruta Azul.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capri",
+          "https://en.wikipedia.org/wiki/Capri"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que imperador romano passou cerca de dez anos, até morrer, governando a partir de uma luxuosa vila na ilha de Capri?",
+      "resposta": "Tibério",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Villa_Jovis",
+        "https://en.wikipedia.org/wiki/Tiberius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fiorde",
+        "descricao": "Conceito geográfico: braço de mar longo, estreito e profundo entre encostas íngremes, comum na Noruega.",
+        "variantes": [
+          "Fiorde",
+          "Fjord"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Fiorde",
+          "https://en.wikipedia.org/wiki/Fjord"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os fiordes da Noruega são vales profundos invadidos pelo mar. O que escavou esses vales?",
+      "resposta": "Geleiras",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fiorde",
+        "https://en.wikipedia.org/wiki/Fjord"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maré",
+        "descricao": "Subida e descida periódica do nível do mar ao longo do dia.",
+        "variantes": [
+          "Marés"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maré",
+          "https://en.wikipedia.org/wiki/Tide"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A atração da gravidade de qual astro é a principal responsável pela subida e descida das marés nos oceanos?",
+      "resposta": "Lua",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maré",
+        "https://en.wikipedia.org/wiki/Tide"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tsunami",
+        "descricao": "Série de ondas gigantes geradas pelo deslocamento repentino de uma grande massa de água.",
+        "variantes": [
+          "Maremoto"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tsunami",
+          "https://en.wikipedia.org/wiki/Tsunami"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Qual é a causa mais comum dos tsunamis, as ondas gigantes que invadem o litoral?",
+      "resposta": "Terremotos submarinos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tsunami",
+        "https://en.wikipedia.org/wiki/Tsunami"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mar Vermelho",
+        "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+        "variantes": [
+          "Red Sea"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mar_Vermelho",
+          "https://en.wikipedia.org/wiki/Red_Sea"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O mar Vermelho é bem mais salgado que a média dos oceanos. Que combinação de fatores explica isso?",
+      "resposta": "Muita evaporação e nenhum grande rio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_Sea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bermudas",
+        "descricao": "Território ultramarino britânico formado por um grupo de ilhas no Atlântico Norte, a leste dos Estados Unidos.",
+        "variantes": [
+          "Bermuda"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bermudas",
+          "https://en.wikipedia.org/wiki/Bermuda"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Muita gente imagina que as Bermudas ficam no Caribe, mas não ficam. Em que águas está esse território britânico?",
+      "resposta": "Oceano Atlântico Norte",
+      "distratores": [
+        "Golfo do México",
+        "Oceano Pacífico",
+        "Mar Mediterrâneo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bermuda",
+        "https://pt.wikipedia.org/wiki/Bermudas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bora Bora",
+        "descricao": "Ilha do Pacífico Sul nas ilhas da Sociedade, cercada por uma lagoa e um recife de coral.",
+        "variantes": [
+          "Bora-Bora"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bora_Bora",
+          "https://en.wikipedia.org/wiki/Bora_Bora"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A ilha de Bora Bora, famosa pelos bangalôs construídos sobre uma lagoa azul-turquesa, pertence a qual território francês do Pacífico?",
+      "resposta": "Polinésia Francesa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bora_Bora",
+        "https://pt.wikipedia.org/wiki/Bora_Bora"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Florianópolis",
+        "descricao": "Capital do estado de Santa Catarina, no Sul do Brasil, com a maior parte do território numa ilha.",
+        "variantes": [
+          "Floripa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Florianópolis",
+          "https://en.wikipedia.org/wiki/Florianópolis"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A maior parte de Florianópolis fica numa ilha ligada ao continente por pontes como a Hercílio Luz. Qual é essa ilha?",
+      "resposta": "Ilha de Santa Catarina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ilha_de_Santa_Catarina",
+        "https://pt.wikipedia.org/wiki/Florianópolis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lindisfarne",
+        "descricao": "Ilha de maré na costa nordeste da Inglaterra, sede de um mosteiro medieval, também chamada Ilha Sagrada.",
+        "variantes": [
+          "Holy Island",
+          "Ilha Sagrada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lindisfarne"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O ataque viking ao mosteiro da ilha de Lindisfarne, na costa da Inglaterra, costuma marcar o início da Era Viking. Em que século foi?",
+      "resposta": "Século oito",
+      "distratores": [
+        "Século seis",
+        "Século dez",
+        "Século doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lindisfarne",
+        "https://en.wikipedia.org/wiki/Viking_Age"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eurotúnel",
+        "descricao": "Túnel ferroviário sob o canal da Mancha que liga a Inglaterra à França.",
+        "variantes": [
+          "Túnel do Canal da Mancha",
+          "Channel Tunnel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Channel_Tunnel"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Eurotúnel, que passa por baixo do canal da Mancha e liga a Inglaterra à França por trem, foi inaugurado em qual década?",
+      "resposta": "Década de 1990",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1980",
+        "Década de 2000"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Channel_Tunnel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Iceberg",
+        "descricao": "Grande bloco de gelo de água doce que se desprende de uma geleira e flutua no mar.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iceberg",
+          "https://en.wikipedia.org/wiki/Iceberg"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A expressão ponta do iceberg vem de um fato físico. Aproximadamente que fração do volume de um iceberg fica acima da água?",
+      "resposta": "Cerca de um décimo",
+      "distratores": [
+        "Cerca de metade",
+        "Cerca de um terço",
+        "Cerca de um quarto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iceberg"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "A Ilha do Tesouro",
+        "descricao": "Romance de aventura sobre piratas e um mapa de tesouro, publicado em livro em 1883.",
+        "variantes": [
+          "Treasure Island",
+          "Ilha do Tesouro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/A_Ilha_do_Tesouro",
+          "https://en.wikipedia.org/wiki/Treasure_Island"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escritor escocês criou, num romance de 1883, a ilha onde o pirata Long John Silver procura um tesouro enterrado?",
+      "resposta": "Robert Louis Stevenson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Treasure_Island",
+        "https://pt.wikipedia.org/wiki/A_Ilha_do_Tesouro"
+      ]
+    }
+  ]
+}

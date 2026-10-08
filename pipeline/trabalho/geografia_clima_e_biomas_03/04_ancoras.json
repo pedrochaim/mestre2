@@ -1,0 +1,1441 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "cerrado",
+        "nome": "Cerrado",
+        "descricao": "Bioma de savana do Brasil central",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cerrado"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Atrás apenas da Amazônia, qual é o segundo maior bioma do Brasil em área?",
+      "resposta": "Cerrado",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cerrado"
+      ],
+      "ancora": "cerrado"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "taiga",
+        "nome": "Taiga",
+        "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+        "variantes": [
+          "Floresta boreal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taiga"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é o maior bioma terrestre do planeta, que cobre boa parte da Sibéria e do Canadá?",
+      "resposta": "Taiga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taiga"
+      ],
+      "ancora": "taiga"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "pampa",
+        "nome": "Pampa",
+        "descricao": "Bioma de campos e planícies do sul do Brasil, do Uruguai e do nordeste da Argentina",
+        "variantes": [
+          "Pampas",
+          "Campos sulinos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pampa"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Dentro do território brasileiro, qual bioma fica inteiramente num único estado?",
+      "resposta": "Pampa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pampa"
+      ],
+      "distratores": [
+        "Pantanal",
+        "Caatinga",
+        "Mata Atlântica"
+      ],
+      "ancora": "pampa"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Floresta do Congo",
+        "descricao": "Floresta tropical úmida da bacia do Rio Congo, na África Central",
+        "variantes": [
+          "Floresta tropical do Congo",
+          "Congolian rainforests"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Congo_Basin"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Depois da Amazônia, qual é a maior floresta tropical do mundo?",
+      "resposta": "Floresta do Congo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Congo_Basin"
+      ],
+      "distratores": [
+        "Floresta de Bornéu",
+        "Floresta de Sumatra",
+        "Floresta da Nova Guiné"
+      ],
+      "ancora": "floresta_do_congo"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Cumulonimbo",
+        "descricao": "Nuvem de tempestade de grande desenvolvimento vertical, que produz raios, trovoadas e granizo",
+        "variantes": [
+          "Cumulonimbus",
+          "Cúmulo-nimbo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cumulonimbus_cloud"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Que tipo de nuvem, a mais alta de todas, pode passar de dez quilômetros de altura e traz raios e trovoadas?",
+      "resposta": "Cumulonimbo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cumulonimbus_cloud"
+      ],
+      "ancora": "cumulonimbo"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "pantanal",
+        "nome": "Pantanal",
+        "descricao": "Bioma de planície alagável no Mato Grosso, no Mato Grosso do Sul, na Bolívia e no Paraguai",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pantanal"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "O Pantanal brasileiro se divide entre Mato Grosso e Mato Grosso do Sul. Qual dos dois estados abriga a maior parte dele?",
+      "resposta": "Mato Grosso do Sul",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pantanal"
+      ],
+      "ancora": "pantanal"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Cabaceiras",
+        "descricao": "Município do Cariri paraibano, conhecido pela baixíssima chuva e pelas filmagens de cinema",
+        "variantes": [
+          "Roliúde Nordestina"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cabaceiras"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Que cidade da Paraíba, cenário do filme O Auto da Compadecida, costuma ser apontada como a que menos chove no Brasil?",
+      "resposta": "Cabaceiras",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cabaceiras"
+      ],
+      "ancora": "cabaceiras"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "escala_de_beaufort",
+        "nome": "Escala de Beaufort",
+        "descricao": "Escala que classifica a força do vento a partir de seus efeitos observados no mar e em terra",
+        "variantes": [
+          "Beaufort scale"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beaufort_scale"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na escala de Beaufort, que mede a força do vento, que nome recebe o grau máximo, o doze?",
+      "resposta": "Furacão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beaufort_scale"
+      ],
+      "ancora": "escala_de_beaufort"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "classificacao_climatica_de_koppen",
+        "nome": "Classificação climática de Köppen",
+        "descricao": "Sistema de classificação dos climas do mundo baseado em temperatura, chuva e vegetação",
+        "variantes": [
+          "Köppen-Geiger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na classificação climática de Köppen, cada grande grupo de clima tem uma letra. Que tipo de clima a letra B indica?",
+      "resposta": "Seco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification"
+      ],
+      "distratores": [
+        "Tropical",
+        "Temperado",
+        "Polar"
+      ],
+      "ancora": "classificacao_climatica_de_koppen"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "mata_atlantica",
+        "nome": "Mata Atlântica",
+        "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mata_Atl%C3%A2ntica"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que árvore nativa da Mata Atlântica, de madeira avermelhada usada para tingir tecidos, acabou dando nome ao nosso país?",
+      "resposta": "Pau-brasil",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pau-brasil"
+      ],
+      "ancora": "mata_atlantica"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "caatinga",
+        "nome": "Caatinga",
+        "descricao": "Bioma semiárido do sertão nordestino brasileiro",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Caatinga"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que cacto da Caatinga, de grandes flores brancas, tem a florada vista pelo sertanejo como sinal de que a chuva vai chegar?",
+      "resposta": "Mandacaru",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mandacaru"
+      ],
+      "ancora": "caatinga"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Oásis",
+        "descricao": "Área fértil e com água no meio de um deserto, alimentada por fontes ou lençóis subterrâneos",
+        "variantes": [
+          "Oasis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oasis"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que palmeira, cujos frutos doces alimentavam as caravanas, é a árvore mais típica dos oásis do Saara?",
+      "resposta": "Tamareira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oasis"
+      ],
+      "ancora": "oasis_2"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Cumulonimbo",
+        "descricao": "Nuvem de tempestade de grande desenvolvimento vertical, que produz raios, trovoadas e granizo",
+        "variantes": [
+          "Cumulonimbus",
+          "Cúmulo-nimbo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cumulonimbus_cloud"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O topo achatado de um cumulonimbo, a nuvem das tempestades, tem a forma e o nome de que ferramenta de ferreiro?",
+      "resposta": "Bigorna",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cumulonimbus_incus",
+        "https://en.wikipedia.org/wiki/Cumulonimbus_cloud"
+      ],
+      "ancora": "cumulonimbo"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "ciclone_tropical",
+        "nome": "Ciclone tropical",
+        "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+        "variantes": [
+          "Furacão",
+          "Tufão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tropical_cyclone"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Como se chama a região central de um furacão, onde o vento é fraco e o céu costuma ficar limpo?",
+      "resposta": "Olho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eye_(cyclone)"
+      ],
+      "ancora": "ciclone_tropical"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Serengeti",
+        "descricao": "Região de savanas no norte da Tanzânia e no sudoeste do Quênia, famosa pela migração de grandes manadas",
+        "variantes": [
+          "Serengueti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Serengeti"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que animal, em manadas de mais de um milhão de cabeças, protagoniza a grande migração anual pelas savanas do Serengeti?",
+      "resposta": "Gnu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Serengeti"
+      ],
+      "ancora": "serengeti"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "ventos_alisios",
+        "nome": "Ventos alísios",
+        "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador",
+        "variantes": [
+          "Alísios",
+          "Trade winds"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trade_winds"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No hemisfério sul, os ventos alísios sopram rumo ao equador vindos de que direção?",
+      "resposta": "Sudeste",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trade_winds"
+      ],
+      "ancora": "ventos_alisios"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Brisa marítima",
+        "descricao": "Vento local que alterna entre o mar e a terra ao longo do dia por causa da diferença de aquecimento entre eles",
+        "variantes": [
+          "Brisa terrestre",
+          "Sea breeze"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sea_breeze"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Numa praia, durante o dia, a brisa sopra do mar para a terra. E à noite, para que lado ela costuma soprar?",
+      "resposta": "Da terra para o mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sea_breeze"
+      ],
+      "ancora": "brisa_maritima"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Deserto",
+        "descricao": "Tipo de região, quente ou fria, onde a precipitação é muito baixa",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Deserto"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Há desertos escaldantes e desertos gelados. Afinal, que característica define um deserto?",
+      "resposta": "Pouca chuva",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Deserto"
+      ],
+      "ancora": "deserto"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Várzea",
+        "descricao": "Floresta amazônica inundada periodicamente pelas cheias de rios de água barrenta, como o Solimões",
+        "variantes": [
+          "Floresta de várzea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/V%C3%A1rzea_forest"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O igapó margeia rios de água preta. Já a várzea amazônica é inundada por rios de água de que tipo, como o Solimões?",
+      "resposta": "Água branca, barrenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/V%C3%A1rzea_forest"
+      ],
+      "ancora": "varzea"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "moncao",
+        "nome": "Monção",
+        "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+        "variantes": [
+          "Monções"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monsoon_of_South_Asia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Índia, a monção de verão, que traz as grandes chuvas, sopra de onde para onde?",
+      "resposta": "Do oceano para o continente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monsoon_of_South_Asia"
+      ],
+      "ancora": "moncao"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Período Úmido Africano",
+        "descricao": "Época pré-histórica em que o Saara foi coberto por savanas, rios e lagos, terminada há cerca de cinco mil anos",
+        "variantes": [
+          "Saara Verde",
+          "African humid period"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/African_humid_period"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Pinturas rupestres no Saara mostram girafas, hipopótamos e pescadores. Como era aquela paisagem há cerca de oito mil anos?",
+      "resposta": "Verde, com lagos e savanas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/African_humid_period"
+      ],
+      "ancora": "periodo_umido_africano"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Clima mediterrâneo",
+        "descricao": "Clima de verões quentes e secos e invernos amenos e chuvosos, típico das margens do Mar Mediterrâneo",
+        "variantes": [
+          "Mediterranean climate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mediterranean_climate"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao contrário do que acontece em boa parte do Brasil, em que estação do ano se concentram as chuvas no clima mediterrâneo?",
+      "resposta": "Inverno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mediterranean_climate"
+      ],
+      "ancora": "clima_mediterraneo"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Floresta nublada",
+        "descricao": "Floresta de montanhas tropicais envolta quase sempre por nuvens e neblina",
+        "variantes": [
+          "Mata nebular",
+          "Cloud forest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cloud_forest"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nas florestas nubladas das montanhas tropicais, as árvores captam boa parte da água que recebem diretamente de onde?",
+      "resposta": "Da neblina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cloud_forest"
+      ],
+      "ancora": "floresta_nublada"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "el_nino",
+        "nome": "El Niño",
+        "descricao": "Fenômeno de aquecimento anormal das águas do Oceano Pacífico equatorial",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/El_Ni%C3%B1o"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Enquanto costuma trazer seca ao Norte e ao Nordeste, o El Niño provoca excesso de chuva em que região do Brasil?",
+      "resposta": "Sul",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/El_Ni%C3%B1o"
+      ],
+      "ancora": "el_nino"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Ilha de calor",
+        "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+        "variantes": [
+          "Ilha de calor urbana",
+          "Urban heat island"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Urban_heat_island"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que materiais, que absorvem e guardam o calor do sol, ajudam a deixar o centro das grandes cidades mais quente que o campo ao redor?",
+      "resposta": "Asfalto e concreto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Urban_heat_island"
+      ],
+      "ancora": "ilha_de_calor"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Grande Seca de 1877",
+        "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+        "variantes": [
+          "Grande Seca",
+          "Seca dos Dois Setes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ciclo_da_borracha"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Fugindo da Grande Seca de 1877, milhares de cearenses migraram para que região do Brasil, atraídos pela extração da borracha?",
+      "resposta": "Amazônia",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ciclo_da_borracha"
+      ],
+      "ancora": "grande_seca_de_1877"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Minuano",
+        "descricao": "Vento frio e seco de sudoeste que sopra no Rio Grande do Sul no inverno",
+        "variantes": [
+          "Vento minuano"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Minuano_(vento)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O minuano, vento frio e seco que sopra no Rio Grande do Sul no inverno, tem o nome de quê?",
+      "resposta": "De um povo indígena",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Minuano_(vento)"
+      ],
+      "distratores": [
+        "De um santo",
+        "De um rio",
+        "De uma serra"
+      ],
+      "ancora": "minuano"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Clima",
+        "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+        "variantes": [
+          "Climate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Climate"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra clima vem de um termo grego antigo. O que esse termo significava?",
+      "resposta": "Inclinação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Climate"
+      ],
+      "distratores": [
+        "Temperatura",
+        "Estação",
+        "Céu"
+      ],
+      "ancora": "clima"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Tornado",
+        "descricao": "Coluna de ar em rotação violenta que se estende de uma nuvem de tempestade até o solo",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tornado"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra tornado vem do espanhol tronada, influenciada pelo verbo tornar. O que significa tronada?",
+      "resposta": "Trovoada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tornado"
+      ],
+      "ancora": "tornado"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Simum",
+        "descricao": "Vento quente, seco e carregado de areia que sopra no Saara e na Península Arábica",
+        "variantes": [
+          "Simoom",
+          "Samiel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Simoom"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O simum, vento quente e seco que varre o Saara e a Arábia, tem um nome árabe que significa o quê?",
+      "resposta": "Veneno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Simoom"
+      ],
+      "distratores": [
+        "Fogo",
+        "Sede",
+        "Areia"
+      ],
+      "ancora": "simum"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Floresta Negra",
+        "descricao": "Região montanhosa e florestada do sudoeste da Alemanha",
+        "variantes": [
+          "Schwarzwald",
+          "Black Forest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_Forest"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A Floresta Negra, no sudoeste da Alemanha, deve seu nome a quê?",
+      "resposta": "À mata densa e escura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_Forest"
+      ],
+      "ancora": "floresta_negra"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Deserto de Sonora",
+        "descricao": "Deserto da América do Norte no sudoeste dos Estados Unidos e no noroeste do México, famoso pelos cactos saguaro",
+        "variantes": [
+          "Sonoran Desert"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sonoran_Desert"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Terra do gigantesco cacto saguaro, o Deserto de Sonora se divide entre os Estados Unidos e que país vizinho?",
+      "resposta": "México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sonoran_Desert"
+      ],
+      "ancora": "deserto_de_sonora"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "São Joaquim",
+        "descricao": "Município da serra catarinense conhecido pelo frio, pelas geadas e pela neve ocasional",
+        "variantes": [
+          "São Joaquim (Santa Catarina)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/S%C3%A3o_Joaquim_(Santa_Catarina)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "São Joaquim e Urupema, cidades serranas onde a neve aparece em alguns invernos, ficam em que estado brasileiro?",
+      "resposta": "Santa Catarina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Joaquim_(Santa_Catarina)"
+      ],
+      "ancora": "sao_joaquim"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Dallol",
+        "descricao": "Povoado da Depressão de Danakil, no nordeste africano, com uma das maiores temperaturas médias anuais já registradas",
+        "variantes": [
+          "Dallol, Ethiopia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dallol,_Ethiopia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O povoado de Dallol, na Depressão de Danakil, tem uma das temperaturas médias anuais mais altas já medidas. Em que país africano ele fica?",
+      "resposta": "Etiópia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dallol,_Ethiopia"
+      ],
+      "distratores": [
+        "Eritreia",
+        "Sudão",
+        "Somália"
+      ],
+      "ancora": "dallol_2"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Geada negra de 1975",
+        "descricao": "Geada severa de julho de 1975 que destruiu os cafezais do Sul do Brasil",
+        "variantes": [
+          "Geada negra"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Geada_negra"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em julho de 1975, uma geada negra arrasou os cafezais de que estado, então o maior produtor de café do Brasil?",
+      "resposta": "Paraná",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Geada_negra"
+      ],
+      "ancora": "geada_negra_de_1975"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Ghibli",
+        "descricao": "Nome dado na Líbia ao vento quente e seco do Saara, equivalente ao siroco",
+        "variantes": [
+          "Gibli",
+          "Ghibli (vento)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sirocco"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que estúdio japonês de animação, de A Viagem de Chihiro, tem o nome de um vento quente que sopra no deserto da Líbia?",
+      "resposta": "Studio Ghibli",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Studio_Ghibli"
+      ],
+      "ancora": "ghibli"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Asa-branca",
+        "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+        "variantes": [
+          "Pomba asa-branca",
+          "Patagioenas picazuro",
+          "Pombão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Picazuro_pigeon"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que cantor pernambucano eternizou a canção sobre a pomba asa-branca, que bate asas do sertão quando chega a seca?",
+      "resposta": "Luiz Gonzaga",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Luiz_Gonzaga"
+      ],
+      "ancora": "asa_branca_2"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Tempestade Perfeita de 1991",
+        "descricao": "Tempestade que atingiu o Atlântico Norte e a costa leste dos Estados Unidos em outubro e novembro de 1991",
+        "variantes": [
+          "1991 Perfect Storm",
+          "Halloween Nor'easter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1991_Perfect_Storm"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que filme de 2000, com George Clooney, conta a história de um barco pesqueiro perdido numa gigantesca tempestade de 1991 no Atlântico Norte?",
+      "resposta": "Mar em Fúria (The Perfect Storm)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Perfect_Storm_(film)",
+        "https://en.wikipedia.org/wiki/1991_Perfect_Storm"
+      ],
+      "ancora": "tempestade_perfeita_de_1991"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Floco de neve",
+        "descricao": "Cristal de gelo que se forma nas nuvens e cai como neve",
+        "variantes": [
+          "Snowflake"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snowflake"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Por causa da forma como as moléculas de água se arrumam no gelo, quantas pontas costuma ter um floco de neve?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Snowflake"
+      ],
+      "ancora": "floco_de_neve"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "id_existente": "escala_fujita",
+        "nome": "Escala Fujita",
+        "descricao": "Escala que classifica a intensidade dos tornados pelos danos que causam",
+        "variantes": [
+          "Escala Fujita aprimorada",
+          "Enhanced Fujita scale"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Enhanced_Fujita_scale"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A escala Fujita aprimorada, usada nos Estados Unidos para classificar tornados, tem quantos níveis, contando o zero?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Enhanced_Fujita_scale"
+      ],
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Oito"
+      ],
+      "ancora": "escala_fujita"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Inversão térmica",
+        "descricao": "Fenômeno em que uma camada de ar quente fica sobre o ar frio junto ao solo, prendendo a poluição",
+        "variantes": [
+          "Inversão de temperatura"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Invers%C3%A3o_t%C3%A9rmica"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que estação do ano a inversão térmica, que prende a poluição sobre cidades como São Paulo, é mais frequente?",
+      "resposta": "Inverno",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Invers%C3%A3o_t%C3%A9rmica"
+      ],
+      "ancora": "inversao_termica"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "id_existente": "moncao",
+        "nome": "Monção",
+        "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+        "variantes": [
+          "Monções"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monsoon_of_South_Asia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que mês as chuvas da monção costumam chegar ao estado de Kerala, no sul da Índia, abrindo a estação chuvosa?",
+      "resposta": "Junho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monsoon_of_South_Asia"
+      ],
+      "ancora": "moncao"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Ipê-amarelo",
+        "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+        "variantes": [
+          "Ipê",
+          "Handroanthus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ip%C3%AA"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Clima e Biomas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que estação do ano, durante a seca do Cerrado, o ipê-amarelo perde as folhas e se cobre de flores?",
+      "resposta": "Inverno",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Handroanthus"
+      ],
+      "ancora": "ipe_amarelo"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "floresta_do_congo",
+      "nome": "Floresta do Congo",
+      "descricao": "Floresta tropical úmida da bacia do Rio Congo, na África Central",
+      "variantes": [
+        "Floresta tropical do Congo",
+        "Congolian rainforests"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Congo_Basin"
+      ]
+    },
+    {
+      "id": "cumulonimbo",
+      "nome": "Cumulonimbo",
+      "descricao": "Nuvem de tempestade de grande desenvolvimento vertical, que produz raios, trovoadas e granizo",
+      "variantes": [
+        "Cumulonimbus",
+        "Cúmulo-nimbo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Cumulonimbus_cloud"
+      ]
+    },
+    {
+      "id": "cabaceiras",
+      "nome": "Cabaceiras",
+      "descricao": "Município do Cariri paraibano, conhecido pela baixíssima chuva e pelas filmagens de cinema",
+      "variantes": [
+        "Roliúde Nordestina"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Cabaceiras"
+      ]
+    },
+    {
+      "id": "oasis_2",
+      "nome": "Oásis",
+      "descricao": "Área fértil e com água no meio de um deserto, alimentada por fontes ou lençóis subterrâneos",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Oasis"
+      ]
+    },
+    {
+      "id": "serengeti",
+      "nome": "Serengeti",
+      "descricao": "Região de savanas no norte da Tanzânia e no sudoeste do Quênia, famosa pela migração de grandes manadas",
+      "variantes": [
+        "Serengueti"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Serengeti"
+      ]
+    },
+    {
+      "id": "brisa_maritima",
+      "nome": "Brisa marítima",
+      "descricao": "Vento local que alterna entre o mar e a terra ao longo do dia por causa da diferença de aquecimento entre eles",
+      "variantes": [
+        "Brisa terrestre",
+        "Sea breeze"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sea_breeze"
+      ]
+    },
+    {
+      "id": "deserto",
+      "nome": "Deserto",
+      "descricao": "Tipo de região, quente ou fria, onde a precipitação é muito baixa",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Deserto"
+      ]
+    },
+    {
+      "id": "varzea",
+      "nome": "Várzea",
+      "descricao": "Floresta amazônica inundada periodicamente pelas cheias de rios de água barrenta, como o Solimões",
+      "variantes": [
+        "Floresta de várzea"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/V%C3%A1rzea_forest"
+      ]
+    },
+    {
+      "id": "clima_mediterraneo",
+      "nome": "Clima mediterrâneo",
+      "descricao": "Clima de verões quentes e secos e invernos amenos e chuvosos, típico das margens do Mar Mediterrâneo",
+      "variantes": [
+        "Mediterranean climate"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mediterranean_climate"
+      ]
+    },
+    {
+      "id": "floresta_nublada",
+      "nome": "Floresta nublada",
+      "descricao": "Floresta de montanhas tropicais envolta quase sempre por nuvens e neblina",
+      "variantes": [
+        "Mata nebular",
+        "Cloud forest"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Cloud_forest"
+      ]
+    },
+    {
+      "id": "ilha_de_calor",
+      "nome": "Ilha de calor",
+      "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+      "variantes": [
+        "Ilha de calor urbana",
+        "Urban heat island"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Urban_heat_island"
+      ]
+    },
+    {
+      "id": "grande_seca_de_1877",
+      "nome": "Grande Seca de 1877",
+      "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+      "variantes": [
+        "Grande Seca",
+        "Seca dos Dois Setes"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ciclo_da_borracha"
+      ]
+    },
+    {
+      "id": "minuano",
+      "nome": "Minuano",
+      "descricao": "Vento frio e seco de sudoeste que sopra no Rio Grande do Sul no inverno",
+      "variantes": [
+        "Vento minuano"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Minuano_(vento)"
+      ]
+    },
+    {
+      "id": "clima",
+      "nome": "Clima",
+      "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+      "variantes": [
+        "Climate"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Climate"
+      ]
+    },
+    {
+      "id": "tornado",
+      "nome": "Tornado",
+      "descricao": "Coluna de ar em rotação violenta que se estende de uma nuvem de tempestade até o solo",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tornado"
+      ]
+    },
+    {
+      "id": "simum",
+      "nome": "Simum",
+      "descricao": "Vento quente, seco e carregado de areia que sopra no Saara e na Península Arábica",
+      "variantes": [
+        "Simoom",
+        "Samiel"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Simoom"
+      ]
+    },
+    {
+      "id": "floresta_negra",
+      "nome": "Floresta Negra",
+      "descricao": "Região montanhosa e florestada do sudoeste da Alemanha",
+      "variantes": [
+        "Schwarzwald",
+        "Black Forest"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Black_Forest"
+      ]
+    },
+    {
+      "id": "deserto_de_sonora",
+      "nome": "Deserto de Sonora",
+      "descricao": "Deserto da América do Norte no sudoeste dos Estados Unidos e no noroeste do México, famoso pelos cactos saguaro",
+      "variantes": [
+        "Sonoran Desert"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sonoran_Desert"
+      ]
+    },
+    {
+      "id": "sao_joaquim",
+      "nome": "São Joaquim",
+      "descricao": "Município da serra catarinense conhecido pelo frio, pelas geadas e pela neve ocasional",
+      "variantes": [
+        "São Joaquim (Santa Catarina)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Joaquim_(Santa_Catarina)"
+      ]
+    },
+    {
+      "id": "dallol_2",
+      "nome": "Dallol",
+      "descricao": "Povoado da Depressão de Danakil, no nordeste africano, com uma das maiores temperaturas médias anuais já registradas",
+      "variantes": [
+        "Dallol, Ethiopia"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dallol,_Ethiopia"
+      ]
+    },
+    {
+      "id": "geada_negra_de_1975",
+      "nome": "Geada negra de 1975",
+      "descricao": "Geada severa de julho de 1975 que destruiu os cafezais do Sul do Brasil",
+      "variantes": [
+        "Geada negra"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Geada_negra"
+      ]
+    },
+    {
+      "id": "ghibli",
+      "nome": "Ghibli",
+      "descricao": "Nome dado na Líbia ao vento quente e seco do Saara, equivalente ao siroco",
+      "variantes": [
+        "Gibli",
+        "Ghibli (vento)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sirocco"
+      ]
+    },
+    {
+      "id": "asa_branca_2",
+      "nome": "Asa-branca",
+      "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+      "variantes": [
+        "Pomba asa-branca",
+        "Patagioenas picazuro",
+        "Pombão"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Picazuro_pigeon"
+      ]
+    },
+    {
+      "id": "tempestade_perfeita_de_1991",
+      "nome": "Tempestade Perfeita de 1991",
+      "descricao": "Tempestade que atingiu o Atlântico Norte e a costa leste dos Estados Unidos em outubro e novembro de 1991",
+      "variantes": [
+        "1991 Perfect Storm",
+        "Halloween Nor'easter"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/1991_Perfect_Storm"
+      ]
+    },
+    {
+      "id": "floco_de_neve",
+      "nome": "Floco de neve",
+      "descricao": "Cristal de gelo que se forma nas nuvens e cai como neve",
+      "variantes": [
+        "Snowflake"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Snowflake"
+      ]
+    },
+    {
+      "id": "inversao_termica",
+      "nome": "Inversão térmica",
+      "descricao": "Fenômeno em que uma camada de ar quente fica sobre o ar frio junto ao solo, prendendo a poluição",
+      "variantes": [
+        "Inversão de temperatura"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Invers%C3%A3o_t%C3%A9rmica"
+      ]
+    },
+    {
+      "id": "ipe_amarelo",
+      "nome": "Ipê-amarelo",
+      "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+      "variantes": [
+        "Ipê",
+        "Handroanthus"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ip%C3%AA"
+      ]
+    }
+  ],
+  "variantes": {
+    "cerrado": [
+      "Cerrado"
+    ],
+    "taiga": [
+      "Taiga",
+      "Floresta boreal"
+    ],
+    "pampa": [
+      "Pampa",
+      "Pampas",
+      "Campos sulinos"
+    ],
+    "pantanal": [
+      "Pantanal"
+    ],
+    "escala_de_beaufort": [
+      "Escala de Beaufort",
+      "Beaufort scale"
+    ],
+    "classificacao_climatica_de_koppen": [
+      "Classificação climática de Köppen",
+      "Köppen-Geiger"
+    ],
+    "mata_atlantica": [
+      "Mata Atlântica"
+    ],
+    "caatinga": [
+      "Caatinga"
+    ],
+    "ciclone_tropical": [
+      "Ciclone tropical",
+      "Furacão",
+      "Tufão"
+    ],
+    "mata_dos_cocais": [
+      "Mata dos Cocais"
+    ],
+    "ventos_alisios": [
+      "Ventos alísios",
+      "Alísios",
+      "Trade winds"
+    ],
+    "moncao": [
+      "Monção",
+      "Monções"
+    ],
+    "el_nino": [
+      "El Niño"
+    ],
+    "escala_fujita": [
+      "Escala Fujita",
+      "Escala Fujita aprimorada",
+      "Enhanced Fujita scale"
+    ],
+    "antartida": [
+      "Antártida",
+      "Antártica",
+      "Antarctica"
+    ],
+    "araucaria": [
+      "Araucária",
+      "Pinheiro-do-paraná",
+      "Araucaria angustifolia",
+      "Pinheiro-brasileiro"
+    ],
+    "periodo_umido_africano": [
+      "Período Úmido Africano",
+      "Saara Verde",
+      "African humid period"
+    ],
+    "lencois_maranhenses": [
+      "Lençóis Maranhenses",
+      "Parque Nacional dos Lençóis Maranhenses"
+    ],
+    "estacoes_do_ano": [
+      "Estações do ano",
+      "Estação do ano"
+    ],
+    "dominios_morfoclimaticos_brasileiros": [
+      "Domínios morfoclimáticos brasileiros",
+      "Domínios morfoclimáticos do Brasil"
+    ]
+  }
+}
