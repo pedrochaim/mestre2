@@ -1,0 +1,1033 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Mauna Kea",
+        "descricao": "Vulcão adormecido da ilha do Havaí, cujo cume abriga grandes observatórios astronômicos.",
+        "variantes": [
+          "Mauna Kea, Havaí"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mauna_Kea"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Medido da base, no fundo do mar, até o topo, qual vulcão havaiano é considerado a montanha mais alta do mundo?",
+      "resposta": "Mauna Kea",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mauna_Kea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ojos del Salado",
+        "descricao": "Vulcão dos Andes na fronteira entre Argentina e Chile, com cerca de 6 900 metros de altitude.",
+        "variantes": [
+          "Nevado Ojos del Salado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ojos_del_Salado"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na fronteira entre o Chile e a Argentina, qual é o vulcão mais alto do planeta, com quase sete mil metros?",
+      "resposta": "Ojos del Salado",
+      "distratores": [
+        "Llullaillaco",
+        "Aconcágua",
+        "Licancabur"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ojos_del_Salado"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chimborazo",
+        "descricao": "Vulcão extinto coberto de gelo nos Andes do Equador, o pico mais alto do país.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chimborazo"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Por causa do achatamento da Terra nos polos, qual montanha equatoriana tem o cume mais distante do centro do planeta?",
+      "resposta": "Chimborazo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chimborazo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Placa do Pacífico",
+        "descricao": "Placa tectônica oceânica sob a maior parte do oceano Pacífico.",
+        "variantes": [
+          "Placa Pacífica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pacific_Plate"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual é a maior placa tectônica da Terra, quase toda coberta por oceano?",
+      "resposta": "Placa do Pacífico",
+      "distratores": [
+        "Placa Africana",
+        "Placa Antártica",
+        "Placa Norte-Americana"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pacific_Plate"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "era_paleozoica",
+        "nome": "Era Paleozoica",
+        "descricao": "Era geológica entre cerca de 539 e 252 milhões de anos atrás, do Cambriano ao Permiano.",
+        "variantes": [
+          "Paleozoico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paleozoic"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre as eras Paleozoica, Mesozoica e Cenozoica, qual durou mais tempo?",
+      "resposta": "Paleozoica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paleozoic",
+        "https://en.wikipedia.org/wiki/Mesozoic"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cordilheira dos Andes",
+        "descricao": "Cadeia de montanhas que percorre o oeste da América do Sul, da Venezuela à Patagônia.",
+        "variantes": [
+          "Andes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Andes"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Com cerca de sete mil quilômetros, qual é a cordilheira mais longa do mundo fora dos oceanos?",
+      "resposta": "Cordilheira dos Andes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Andes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rocha sedimentar",
+        "descricao": "Tipo de rocha formado pelo acúmulo e compactação de sedimentos, como o arenito e o calcário.",
+        "variantes": [
+          "Rochas sedimentares"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sedimentary_rock"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Apesar de serem só uma fina camada da crosta, que tipo de rocha cobre cerca de três quartos da superfície dos continentes?",
+      "resposta": "Rochas sedimentares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sedimentary_rock"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Corindo",
+        "descricao": "Mineral de óxido de alumínio, de dureza nove na escala de Mohs, cujas variedades incluem o rubi e a safira.",
+        "variantes": [
+          "Coríndon",
+          "Córindon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Corundum"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na escala de Mohs, que vai de um a dez, qual mineral fica logo abaixo do diamante, com dureza nove?",
+      "resposta": "Corindo",
+      "distratores": [
+        "Topázio",
+        "Quartzo",
+        "Berilo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mohs_scale",
+        "https://en.wikipedia.org/wiki/Corundum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Feldspato",
+        "descricao": "Grupo de minerais silicatados de alumínio, presentes no granito e em muitas outras rochas.",
+        "variantes": [
+          "Feldspatos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Feldspar"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Mais comum até que o quartzo, qual grupo de minerais é o mais abundante na crosta da Terra?",
+      "resposta": "Feldspatos",
+      "distratores": [
+        "Micas",
+        "Calcita",
+        "Argilas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Feldspar",
+        "https://www.britannica.com/science/feldspar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manto terrestre",
+        "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+        "variantes": [
+          "Manto da Terra",
+          "Manto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mantle_(geology)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual camada da Terra é a mais volumosa, ocupando mais de oitenta por cento do volume do planeta?",
+      "resposta": "Manto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mantle_(geology)",
+        "https://en.wikipedia.org/wiki/Earth%27s_mantle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jade",
+        "descricao": "Nome dado a pedras ornamentais verdes muito valorizadas na China, formadas por dois minerais distintos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jade"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O nome jade é dado a dois minerais diferentes, usados há milênios na China. Um deles é a jadeíta. Qual é o outro?",
+      "resposta": "Nefrita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jade",
+        "https://en.wikipedia.org/wiki/Nephrite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mármore",
+        "descricao": "Rocha metamórfica formada pela recristalização de calcário sob calor e pressão.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marble"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O mármore é um calcário transformado pelo calor e pela pressão. Qual mineral forma a maior parte dele?",
+      "resposta": "Calcita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marble"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rubi",
+        "descricao": "Gema vermelha, variedade do mineral corindo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ruby"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Traços de qual elemento químico dão ao rubi a sua cor vermelha?",
+      "resposta": "Cromo",
+      "distratores": [
+        "Ferro",
+        "Cobre",
+        "Manganês"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ruby"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ardósia",
+        "descricao": "Rocha metamórfica de grão fino que se parte em placas, usada em pisos, telhados e antigas lousas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Slate"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A ardósia, usada em pisos e nas antigas lousas escolares, é uma rocha metamórfica formada a partir de qual outra rocha?",
+      "resposta": "Folhelho",
+      "distratores": [
+        "Granito",
+        "Calcário",
+        "Arenito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Slate"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manto terrestre",
+        "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+        "variantes": [
+          "Manto da Terra",
+          "Manto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mantle_(geology)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O manto superior da Terra é formado principalmente por qual mineral verde, que nas joias recebe o nome de peridoto?",
+      "resposta": "Olivina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olivine",
+        "https://en.wikipedia.org/wiki/Peridot"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bauxita",
+        "descricao": "Rocha sedimentar rica em óxidos de alumínio, principal minério desse metal.",
+        "variantes": [
+          "Bauxite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bauxite",
+          "https://pt.wikipedia.org/wiki/Bauxita"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A bauxita, rocha extraída em grandes minas no Pará, é a principal fonte de qual metal?",
+      "resposta": "Alumínio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bauxite",
+        "https://pt.wikipedia.org/wiki/Bauxita"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cinza vulcânica",
+        "descricao": "Material fino lançado por erupções vulcânicas explosivas, formado por fragmentos de rocha, cristais e vidro.",
+        "variantes": [
+          "Cinzas vulcânicas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volcanic_ash"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Ao contrário da cinza de uma fogueira, a cinza lançada por um vulcão é formada por quê?",
+      "resposta": "Fragmentos de rocha e vidro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volcanic_ash"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Opala",
+        "descricao": "Mineraloide de sílica hidratada, famoso pelo jogo de cores, com jazidas em Pedro II, no Piauí.",
+        "variantes": [
+          "Opal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Opal"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A opala, gema famosa pelos reflexos coloridos, guarda dentro da sua estrutura uma pequena quantidade de qual substância?",
+      "resposta": "Água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Opal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monte Everest",
+        "descricao": "Montanha do Himalaia, na fronteira entre o Nepal e a China, com o ponto mais alto acima do nível do mar.",
+        "variantes": [
+          "Everest",
+          "Chomolungma",
+          "Sagarmatha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mount_Everest"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Perto do cume do Everest, a mais de oito mil metros de altitude, o calcário guarda fósseis de que tipo de seres?",
+      "resposta": "Animais marinhos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mount_Everest"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Limite Cretáceo-Paleogeno",
+        "descricao": "Fina camada de rocha que marca a extinção em massa de cerca de 66 milhões de anos atrás, que eliminou os grandes dinossauros.",
+        "variantes": [
+          "Limite K-Pg",
+          "Limite K-T",
+          "Limite Cretáceo-Terciário"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_boundary"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que metal raro, comum em asteroides, foi achado em excesso na camada de rocha que marca a extinção dos dinossauros?",
+      "resposta": "Irídio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_boundary",
+        "https://en.wikipedia.org/wiki/Alvarez_hypothesis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Espato da Islândia",
+        "descricao": "Variedade transparente de calcita, famosa por produzir imagens duplicadas.",
+        "variantes": [
+          "Espato-da-islândia",
+          "Iceland spar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iceland_spar"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao olhar um texto através de um cristal transparente de calcita, o chamado espato da Islândia, o que se vê de curioso?",
+      "resposta": "A imagem duplicada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iceland_spar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monte Roraima",
+        "descricao": "Montanha de arenito na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+        "variantes": [
+          "Roraima-tepui"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mount_Roraima"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O Monte Roraima, na fronteira do Brasil com a Venezuela e a Guiana, é um tepui. Qual é o formato típico desse tipo de montanha?",
+      "resposta": "Topo plano, como uma mesa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mount_Roraima",
+        "https://en.wikipedia.org/wiki/Tepui"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Onda S",
+        "descricao": "Tipo de onda sísmica de cisalhamento, mais lenta que a onda P, que se propaga apenas em sólidos.",
+        "variantes": [
+          "Onda secundária",
+          "Onda de cisalhamento"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/S_wave"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos terremotos, as chamadas ondas S, ou secundárias, não conseguem atravessar que tipo de material?",
+      "resposta": "Líquidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/S_wave"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tsunami",
+        "nome": "Tsunami",
+        "descricao": "Série de ondas oceânicas gigantes provocadas por deslocamento súbito de água, em geral por terremotos submarinos.",
+        "variantes": [
+          "Maremoto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tsunami"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em mar aberto, onde quase não se nota, um tsunami pode viajar tão rápido quanto qual meio de transporte?",
+      "resposta": "Um avião a jato",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tsunami"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dorsal_mesoatlantica",
+        "nome": "Dorsal Mesoatlântica",
+        "descricao": "Cadeia de montanhas submarinas no meio do oceano Atlântico, onde placas tectônicas se afastam.",
+        "variantes": [
+          "Cordilheira Mesoatlântica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na dorsal mesoatlântica, as placas se afastam alguns centímetros por ano, mais ou menos no ritmo em que cresce qual parte do nosso corpo?",
+      "resposta": "As unhas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge",
+        "https://en.wikipedia.org/wiki/Plate_tectonics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Areias monazíticas de Guarapari",
+        "descricao": "Areias escuras de praias de Guarapari, no Espírito Santo, ricas no mineral monazita.",
+        "variantes": [
+          "Areia preta de Guarapari"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Guarapari"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "As areias escuras de algumas praias de Guarapari, no Espírito Santo, ficaram famosas por qual propriedade incomum?",
+      "resposta": "Radioatividade natural",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Guarapari",
+        "https://en.wikipedia.org/wiki/Monazite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Amianto",
+        "descricao": "Grupo de minerais fibrosos, também chamado asbesto, usado em telhas e isolantes e associado ao câncer.",
+        "variantes": [
+          "Asbesto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Asbestos"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde a Antiguidade, os panos tecidos com amianto, um mineral fibroso, impressionavam por qual propriedade?",
+      "resposta": "Não pegavam fogo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Asbestos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grafite",
+        "descricao": "Mineral macio e escuro formado por carbono em camadas, usado na ponta dos lápis.",
+        "variantes": [
+          "Grafita"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Graphite"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o mineral grafite, macio e escuro, e o diamante, duríssimo e transparente, têm em comum?",
+      "resposta": "São formados só de carbono",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Graphite",
+        "https://en.wikipedia.org/wiki/Diamond"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Período Devoniano",
+        "descricao": "Período da Era Paleozoica, entre cerca de 419 e 359 milhões de anos atrás, conhecido como a idade dos peixes.",
+        "variantes": [
+          "Devoniano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Devonian"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os nomes dos períodos geológicos Devoniano e Jurássico têm em comum?",
+      "resposta": "Vêm de lugares da Europa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Devonian",
+        "https://en.wikipedia.org/wiki/Jurassic"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mar Morto",
+        "descricao": "Lago salgado entre Israel, Cisjordânia e Jordânia, cuja margem é o ponto mais baixo em terra firme.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dead_Sea"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o Mar Morto e o lago Tanganica, na África, têm em comum quanto à origem geológica?",
+      "resposta": "Ficam em vales de rifte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dead_Sea",
+        "https://en.wikipedia.org/wiki/Lake_Tanganyika"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cataratas do Iguaçu",
+        "descricao": "Conjunto de quedas-d'água do rio Iguaçu, na fronteira entre o Brasil e a Argentina.",
+        "variantes": [
+          "Foz do Iguaçu",
+          "Cataratas del Iguazú"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iguazu_Falls"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que as Cataratas do Iguaçu e a terra roxa dos cafezais têm em comum quanto à rocha?",
+      "resposta": "O basalto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iguazu_Falls",
+        "https://pt.wikipedia.org/wiki/Terra_roxa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Citrino",
+        "descricao": "Gema amarela a alaranjada, variedade do quartzo.",
+        "variantes": [
+          "Citrine"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Citrino"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que a ametista roxa e o citrino amarelo têm em comum?",
+      "resposta": "São variedades de quartzo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Citrino",
+        "https://en.wikipedia.org/wiki/Quartz"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hematita",
+        "descricao": "Mineral de óxido de ferro, principal minério de ferro, de traço avermelhado.",
+        "variantes": [
+          "Hematite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hematite"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Por causa do seu pó avermelhado, a hematita, minério de ferro, tem nome derivado da palavra grega para quê?",
+      "resposta": "Sangue",
+      "distratores": [
+        "Fogo",
+        "Ferrugem",
+        "Vinho"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hematite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Geysir",
+        "descricao": "Fonte termal com erupções de água quente no sudoeste da Islândia, que deu nome a todos os gêiseres.",
+        "variantes": [
+          "Grande Geysir",
+          "Stóri Geysir"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Geysir"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra gêiser, usada no mundo todo, vem do nome de uma fonte de água quente de qual país?",
+      "resposta": "Islândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Geysir",
+        "https://en.wikipedia.org/wiki/Geyser"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vulcano (ilha)",
+        "descricao": "Ilha vulcânica do arquipélago das Eólias, ao norte da Sicília, na Itália.",
+        "variantes": [
+          "Vulcano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vulcano_(island)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que deus romano do fogo e da forja deu nome a uma ilha italiana e, por meio dela, a todas as montanhas que expelem lava?",
+      "resposta": "Vulcano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vulcano_(island)",
+        "https://en.wikipedia.org/wiki/Volcano"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cristal de rocha",
+        "descricao": "Quartzo incolor e transparente, conhecido desde a Antiguidade.",
+        "variantes": [
+          "Quartzo hialino",
+          "Rock crystal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crystal"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os gregos antigos achavam que o quartzo transparente era uma forma de qual substância, e daí veio a palavra cristal?",
+      "resposta": "Gelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crystal",
+        "https://en.wikipedia.org/wiki/Quartz"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ametista",
+        "descricao": "Variedade roxa do quartzo, muito extraída no Rio Grande do Sul.",
+        "variantes": [
+          "Amethyst"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amethyst"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome ametista vem de uma palavra grega ligada a uma crença antiga sobre essa pedra roxa. O que essa palavra significa?",
+      "resposta": "Não embriagado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amethyst"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Himalaia",
+        "descricao": "Cordilheira da Ásia que separa o subcontinente indiano do planalto do Tibete.",
+        "variantes": [
+          "Himalaias",
+          "Cordilheira do Himalaia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Himalayas"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Himalaia continua subindo por causa do choque da placa da Eurásia com qual outra placa tectônica?",
+      "resposta": "Placa Indiana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Himalayas",
+        "https://en.wikipedia.org/wiki/Indian_Plate"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Formação Botucatu",
+        "descricao": "Camada de arenito do sul da América do Sul que armazena grande parte da água do Aquífero Guarani.",
+        "variantes": [
+          "Arenito Botucatu"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_Botucatu"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O arenito Botucatu, que guarda boa parte da água do Aquífero Guarani, se formou a partir de quê?",
+      "resposta": "Dunas de um deserto antigo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_Botucatu",
+        "https://pt.wikipedia.org/wiki/Aqu%C3%ADfero_Guarani"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Uluru",
+        "descricao": "Grande monólito de arenito no centro da Austrália, sagrado para os aborígenes.",
+        "variantes": [
+          "Ayers Rock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uluru"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O que dá ao Uluru, o grande monólito no centro da Austrália, a sua cor avermelhada?",
+      "resposta": "Óxido de ferro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uluru"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fulgurito",
+        "descricao": "Tubo de vidro natural formado na areia ou no solo.",
+        "variantes": [
+          "Fulguritos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fulgurite"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os fulguritos são tubos ocos de vidro natural achados na areia. O que os forma?",
+      "resposta": "Raios",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fulgurite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Terremoto de Valdivia de 1960",
+        "descricao": "Terremoto de magnitude 9,5 que atingiu o sul do Chile em 22 de maio de 1960.",
+        "variantes": [
+          "Grande terremoto do Chile de 1960"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1960, o terremoto de Valdivia, no Chile, gerou um tsunami que, quase um dia depois, matou mais de cem pessoas em qual país asiático?",
+      "resposta": "Japão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Paricutín",
+        "descricao": "Vulcão do estado de Michoacán, no México, que surgiu em 1943 e ficou ativo até 1952.",
+        "variantes": [
+          "Parícutin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1943, no México, o vulcão Paricutín começou a nascer do chão diante de um camponês, no meio de quê?",
+      "resposta": "Uma plantação de milho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Par%C3%ADcutin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Topázio imperial",
+        "descricao": "Variedade de topázio de cor alaranjada a rosada, típica de Minas Gerais.",
+        "variantes": [
+          "Imperial topaz"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Topaz"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O topázio imperial, gema de cor alaranjada a rosada, tem suas jazidas mais famosas nos arredores de qual cidade histórica mineira?",
+      "resposta": "Ouro Preto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Topaz",
+        "https://pt.wikipedia.org/wiki/Top%C3%A1zio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Opala",
+        "descricao": "Mineraloide de sílica hidratada, famoso pelo jogo de cores, com jazidas em Pedro II, no Piauí.",
+        "variantes": [
+          "Opal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Opal"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Qual estado do Nordeste tem, na cidade de Pedro Segundo, as jazidas de opala mais famosas do Brasil?",
+      "resposta": "Piauí",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pedro_II_(Piau%C3%AD)",
+        "https://en.wikipedia.org/wiki/Opal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Terremoto do Haiti de 2010",
+        "descricao": "Terremoto de 12 de janeiro de 2010 que devastou Porto Príncipe e arredores, no Haiti.",
+        "variantes": [
+          "Sismo do Haiti de 2010"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2010_Haiti_earthquake"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em janeiro de qual ano um terremoto destruiu boa parte de Porto Príncipe, no Haiti, matando também a médica brasileira Zilda Arns?",
+      "resposta": "2010",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2010_Haiti_earthquake",
+        "https://pt.wikipedia.org/wiki/Zilda_Arns"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pleistoceno",
+        "descricao": "Época geológica de cerca de 2,6 milhões a 11 700 anos atrás, marcada por repetidas glaciações.",
+        "variantes": [
+          "Plistoceno"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pleistocene"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os mamutes e as grandes glaciações marcaram qual época geológica, a que veio imediatamente antes do Holoceno?",
+      "resposta": "Pleistoceno",
+      "distratores": [
+        "Plioceno",
+        "Mioceno",
+        "Eoceno"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pleistocene"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Anel de Fogo do Pacífico",
+        "descricao": "Faixa em torno do oceano Pacífico com grande concentração de vulcões e terremotos.",
+        "variantes": [
+          "Círculo de Fogo do Pacífico",
+          "Cinturão de Fogo do Pacífico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ring_of_Fire"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Aproximadamente que parcela dos terremotos do mundo acontece ao longo do Anel de Fogo do Pacífico?",
+      "resposta": "Cerca de noventa por cento",
+      "distratores": [
+        "Cerca de dez por cento",
+        "Cerca de um terço",
+        "Cerca de metade"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ring_of_Fire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lava",
+        "descricao": "Rocha derretida expelida por um vulcão durante uma erupção.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lava"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Ao sair de um vulcão, a lava basáltica costuma ter qual temperatura aproximada?",
+      "resposta": "Mil e cem graus",
+      "distratores": [
+        "Trezentos graus",
+        "Três mil graus",
+        "Seis mil graus"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lava"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "calcada_dos_gigantes",
+        "nome": "Calçada dos Gigantes",
+        "descricao": "Formação de milhares de colunas de basalto no litoral do condado de Antrim, na Irlanda do Norte.",
+        "variantes": [
+          "Giant's Causeway"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giant%27s_Causeway"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A maioria das colunas de basalto da Calçada dos Gigantes, na Irlanda do Norte, tem quantos lados?",
+      "resposta": "Seis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giant%27s_Causeway"
+      ]
+    }
+  ]
+}

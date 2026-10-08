@@ -31632,7 +31632,8 @@
     "variantes": [
       "Himalaias",
       "Himalayas",
-      "Himalaya"
+      "Himalaya",
+      "Cordilheira do Himalaia"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Himalaia",
@@ -31671,7 +31672,8 @@
     "variantes": [
       "Iguaçu",
       "Cataratas del Iguazú",
-      "Iguazu Falls"
+      "Iguazu Falls",
+      "Foz do Iguaçu"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Cataratas_do_Igua%C3%A7u",
@@ -32034,7 +32036,8 @@
     "variantes": [
       "Roraima",
       "Mount Roraima",
-      "Tepui Roraima"
+      "Tepui Roraima",
+      "Roraima-tepui"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Monte_Roraima",
@@ -32215,7 +32218,10 @@
       "wikidata": "Q131230",
       "pt": 483,
       "en": 32693
-    }
+    },
+    "variantes": [
+      "Mauna Kea, Havaí"
+    ]
   },
   {
     "id": "oito_mil",
@@ -32299,7 +32305,8 @@
       "Anel de Fogo",
       "Cinturão de Fogo",
       "Ring of Fire",
-      "Cinturão de Fogo do Pacífico"
+      "Cinturão de Fogo do Pacífico",
+      "Anel de Fogo do Pacífico"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/C%C3%ADrculo_de_Fogo_do_Pac%C3%ADfico",
@@ -43533,7 +43540,8 @@
       "Grande Geysir",
       "Gêiser",
       "Great Geysir",
-      "Gêiser de Haukadalur"
+      "Gêiser de Haukadalur",
+      "Stóri Geysir"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Geysir",
@@ -103884,7 +103892,8 @@
     "nome": "Opala",
     "descricao": "Mineraloide de sílica hidratada amorfa, aqui opala boulder com jogo de cores.",
     "variantes": [
-      "Opala preciosa"
+      "Opala preciosa",
+      "Opal"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Opal",
@@ -123090,6 +123099,275 @@
     "fontes": [
       "https://disney.fandom.com/wiki/Phantom_Blot",
       "https://en.wikipedia.org/wiki/Phantom_Blot"
+    ]
+  },
+  {
+    "id": "ojos_del_salado",
+    "nome": "Ojos del Salado",
+    "descricao": "Vulcão dos Andes na fronteira entre Argentina e Chile, com cerca de 6 900 metros de altitude.",
+    "variantes": [
+      "Nevado Ojos del Salado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ojos_del_Salado"
+    ]
+  },
+  {
+    "id": "placa_do_pacifico",
+    "nome": "Placa do Pacífico",
+    "descricao": "Placa tectônica oceânica sob a maior parte do oceano Pacífico.",
+    "variantes": [
+      "Placa Pacífica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pacific_Plate"
+    ]
+  },
+  {
+    "id": "rocha_sedimentar",
+    "nome": "Rocha sedimentar",
+    "descricao": "Tipo de rocha formado pelo acúmulo e compactação de sedimentos, como o arenito e o calcário.",
+    "variantes": [
+      "Rochas sedimentares"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sedimentary_rock"
+    ]
+  },
+  {
+    "id": "feldspato",
+    "nome": "Feldspato",
+    "descricao": "Grupo de minerais silicatados de alumínio, presentes no granito e em muitas outras rochas.",
+    "variantes": [
+      "Feldspatos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Feldspar"
+    ]
+  },
+  {
+    "id": "manto_terrestre",
+    "nome": "Manto terrestre",
+    "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+    "variantes": [
+      "Manto da Terra",
+      "Manto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mantle_(geology)"
+    ]
+  },
+  {
+    "id": "jade",
+    "nome": "Jade",
+    "descricao": "Nome dado a pedras ornamentais verdes muito valorizadas na China, formadas por dois minerais distintos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jade"
+    ]
+  },
+  {
+    "id": "marmore",
+    "nome": "Mármore",
+    "descricao": "Rocha metamórfica formada pela recristalização de calcário sob calor e pressão.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Marble"
+    ]
+  },
+  {
+    "id": "ardosia",
+    "nome": "Ardósia",
+    "descricao": "Rocha metamórfica de grão fino que se parte em placas, usada em pisos, telhados e antigas lousas.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Slate"
+    ]
+  },
+  {
+    "id": "bauxita",
+    "nome": "Bauxita",
+    "descricao": "Rocha sedimentar rica em óxidos de alumínio, principal minério desse metal.",
+    "variantes": [
+      "Bauxite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bauxite",
+      "https://pt.wikipedia.org/wiki/Bauxita"
+    ]
+  },
+  {
+    "id": "cinza_vulcanica",
+    "nome": "Cinza vulcânica",
+    "descricao": "Material fino lançado por erupções vulcânicas explosivas, formado por fragmentos de rocha, cristais e vidro.",
+    "variantes": [
+      "Cinzas vulcânicas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Volcanic_ash"
+    ]
+  },
+  {
+    "id": "limite_cretaceo_paleogeno",
+    "nome": "Limite Cretáceo-Paleogeno",
+    "descricao": "Fina camada de rocha que marca a extinção em massa de cerca de 66 milhões de anos atrás, que eliminou os grandes dinossauros.",
+    "variantes": [
+      "Limite K-Pg",
+      "Limite K-T",
+      "Limite Cretáceo-Terciário"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_boundary"
+    ]
+  },
+  {
+    "id": "espato_da_islandia",
+    "nome": "Espato da Islândia",
+    "descricao": "Variedade transparente de calcita, famosa por produzir imagens duplicadas.",
+    "variantes": [
+      "Iceland spar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Iceland_spar"
+    ]
+  },
+  {
+    "id": "onda_s",
+    "nome": "Onda S",
+    "descricao": "Tipo de onda sísmica de cisalhamento, mais lenta que a onda P, que se propaga apenas em sólidos.",
+    "variantes": [
+      "Onda secundária",
+      "Onda de cisalhamento"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/S_wave"
+    ]
+  },
+  {
+    "id": "areias_monaziticas_de_guarapari",
+    "nome": "Areias monazíticas de Guarapari",
+    "descricao": "Areias escuras de praias de Guarapari, no Espírito Santo, ricas no mineral monazita.",
+    "variantes": [
+      "Areia preta de Guarapari"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Guarapari"
+    ]
+  },
+  {
+    "id": "amianto",
+    "nome": "Amianto",
+    "descricao": "Grupo de minerais fibrosos, também chamado asbesto, usado em telhas e isolantes e associado ao câncer.",
+    "variantes": [
+      "Asbesto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Asbestos"
+    ]
+  },
+  {
+    "id": "periodo_devoniano",
+    "nome": "Período Devoniano",
+    "descricao": "Período da Era Paleozoica, entre cerca de 419 e 359 milhões de anos atrás, conhecido como a idade dos peixes.",
+    "variantes": [
+      "Devoniano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Devonian"
+    ]
+  },
+  {
+    "id": "citrino",
+    "nome": "Citrino",
+    "descricao": "Gema amarela a alaranjada, variedade do quartzo.",
+    "variantes": [
+      "Citrine"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Citrino"
+    ]
+  },
+  {
+    "id": "cristal_de_rocha",
+    "nome": "Cristal de rocha",
+    "descricao": "Quartzo incolor e transparente, conhecido desde a Antiguidade.",
+    "variantes": [
+      "Quartzo hialino",
+      "Rock crystal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Crystal"
+    ]
+  },
+  {
+    "id": "formacao_botucatu",
+    "nome": "Formação Botucatu",
+    "descricao": "Camada de arenito do sul da América do Sul que armazena grande parte da água do Aquífero Guarani.",
+    "variantes": [
+      "Arenito Botucatu"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_Botucatu"
+    ]
+  },
+  {
+    "id": "fulgurito",
+    "nome": "Fulgurito",
+    "descricao": "Tubo de vidro natural formado na areia ou no solo.",
+    "variantes": [
+      "Fulguritos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fulgurite"
+    ]
+  },
+  {
+    "id": "terremoto_de_valdivia_de_1960",
+    "nome": "Terremoto de Valdivia de 1960",
+    "descricao": "Terremoto de magnitude 9,5 que atingiu o sul do Chile em 22 de maio de 1960.",
+    "variantes": [
+      "Grande terremoto do Chile de 1960"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+    ]
+  },
+  {
+    "id": "topazio_imperial",
+    "nome": "Topázio imperial",
+    "descricao": "Variedade de topázio de cor alaranjada a rosada, típica de Minas Gerais.",
+    "variantes": [
+      "Imperial topaz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Topaz"
+    ]
+  },
+  {
+    "id": "terremoto_do_haiti_de_2010",
+    "nome": "Terremoto do Haiti de 2010",
+    "descricao": "Terremoto de 12 de janeiro de 2010 que devastou Porto Príncipe e arredores, no Haiti.",
+    "variantes": [
+      "Sismo do Haiti de 2010"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/2010_Haiti_earthquake"
+    ]
+  },
+  {
+    "id": "pleistoceno",
+    "nome": "Pleistoceno",
+    "descricao": "Época geológica de cerca de 2,6 milhões a 11 700 anos atrás, marcada por repetidas glaciações.",
+    "variantes": [
+      "Plistoceno"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pleistocene"
+    ]
+  },
+  {
+    "id": "lava",
+    "nome": "Lava",
+    "descricao": "Rocha derretida expelida por um vulcão durante uma erupção.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lava"
     ]
   }
 ]
