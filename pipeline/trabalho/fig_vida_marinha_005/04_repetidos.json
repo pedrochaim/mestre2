@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Neste peixe, quem carrega os ovos até o nascimento dos filhotes: o macho ou a fêmea?",
+        "resposta": "O macho"
+      },
+      "existentes": [
+        {
+          "id": "q02549",
+          "pergunta": "Uma estrutura do cérebro humano, essencial para a memória, tem o mesmo nome científico do cavalo-marinho, por causa do formato. Qual é ela?",
+          "resposta": "Hipocampo"
+        },
+        {
+          "id": "q02550",
+          "pergunta": "Nos cavalos-marinhos, quem carrega os ovos numa bolsa até os filhotes nascerem?",
+          "resposta": "O macho"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Polvo-de-anéis-azuis"
+      },
+      "existentes": [
+        {
+          "id": "q05672",
+          "pergunta": "O pequeno polvo-de-anéis-azuis e o baiacu, peixe do prato japonês fugu, carregam o mesmo veneno potente. Que veneno é esse?",
+          "resposta": "Tetrodotoxina"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que mamífero marinho do Ártico é este?",
+        "resposta": "Morsa"
+      },
+      "existentes": [
+        {
+          "id": "q00277",
+          "pergunta": "O nome científico da morsa, Odobenus, vem do grego e significa aquele que caminha com o quê?",
+          "resposta": "Dentes"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Como se chamam as manchas ásperas na cabeça desta baleia?",
+        "resposta": "Calosidades"
+      },
+      "existentes": [
+        {
+          "id": "q05647",
+          "pergunta": "Todo inverno, a baleia-franca-austral vem ao litoral brasileiro para ter filhotes. Em que estado fica a área de proteção ambiental criada para ela?",
+          "resposta": "Santa Catarina"
+        },
+        {
+          "id": "q05671",
+          "pergunta": "Em inglês, a baleia-franca é a right whale, a baleia certa para caçar. Entre as vantagens para os baleeiros, o corpo dela fazia o quê depois de morta?",
+          "resposta": "Boiava"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02550",
+      "motivo": "Ambas perguntam que o macho carrega os ovos no cavalo-marinho."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal; a existente pergunta sobre o veneno."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação da morsa; a existente trata do significado do nome científico."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Calosidades na cabeça são um fato diferente de proteção ambiental ou boiar depois de morta."
+    }
+  ]
+}

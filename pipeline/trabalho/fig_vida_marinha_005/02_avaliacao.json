@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tubarão-tigre nítido, de perfil, com as listras do flanco visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que animal terrestre dá nome a este tubarão?",
+      "resposta": "Tigre",
+      "distratores": [
+        "Leopardo",
+        "Leão",
+        "Onça-pintada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-tigre",
+        "descricao": "Grande tubarão predador da espécie Galeocerdo cuvier, de listras escuras no corpo.",
+        "variantes": [
+          "Galeocerdo cuvier"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto escura e processada; não dá para distinguir o marlim-azul de outros marlins ou do espadarte, então a espécie não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A placa do museu aparece na imagem com o nome em alemão (Bandfisch oder Heringskönig), e o exemplar é empalhado, numa imagem muito larga e pouco legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Leão-marinho de perfil, com orelha externa e nadadeiras visíveis, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mamífero marinho é este?",
+      "resposta": "Leão-marinho",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Leão-marinho",
+        "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+        "variantes": [
+          "Leão-marinho-da-Califórnia",
+          "Otariidae"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mero de frente, com padrão de manchas e boca característicos; múltipla com outros peixes de recife parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe gigante de recifes é este?",
+      "resposta": "Mero",
+      "distratores": [
+        "Garoupa",
+        "Cherne",
+        "Badejo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mero",
+        "descricao": "Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara.",
+        "variantes": [
+          "Mero-preto",
+          "Itajara",
+          "Epinephelus itajara"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Dragão-marinho-folhado nítido, com os apêndices em forma de folha inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe é este?",
+      "resposta": "Dragão-marinho-folhado",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dragão-marinho-folhado",
+        "descricao": "Peixe australiano da família dos cavalos-marinhos, Phycodurus eques, com apêndices em forma de folhas.",
+        "variantes": [
+          "Phycodurus eques",
+          "Dragão-marinho-de-Glauert"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cavalo-marinho nítido, com cauda preênsil enrolada num ramo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Neste peixe, quem carrega os ovos até o nascimento dos filhotes: o macho ou a fêmea?",
+      "resposta": "O macho",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cavalo-marinho",
+        "descricao": "Pequeno peixe ósseo do gênero Hippocampus, de cabeça de cavalo e cauda preênsil.",
+        "variantes": [
+          "Hippocampus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Elefantes-marinhos em colônia, com macho de focinho caído e boca aberta; reconhecível por quem conhece focas.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de foca gigante é esta?",
+      "resposta": "Elefante-marinho",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elefante-marinho",
+        "descricao": "Maior foca verdadeira, do gênero Mirounga, cujos machos têm uma grande tromba.",
+        "variantes": [
+          "Elefante-marinho-do-norte",
+          "Mirounga"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Polvo de anéis azuis nítido e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal marinho é este?",
+      "resposta": "Polvo-de-anéis-azuis",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Polvo-de-anéis-azuis",
+        "descricao": "Pequeno polvo extremamente venenoso do gênero Hapalochlaena, de anéis azuis iridescentes.",
+        "variantes": [
+          "Hapalochlaena lunulata",
+          "Polvo-de-anéis-azuis-maior"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Morsa de frente, com presas e bigodes bem visíveis.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero marinho do Ártico é este?",
+      "resposta": "Morsa",
+      "distratores": [
+        "Elefante-marinho",
+        "Leão-marinho",
+        "Foca-de-Weddell"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Morsa",
+        "descricao": "Grande mamífero marinho do Ártico, Odobenus rosmarus, de presas longas e bigodes.",
+        "variantes": [
+          "Odobenus rosmarus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cabeça de baleia-franca com calosidades brancas e boca arqueada visíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Como se chamam as manchas ásperas na cabeça desta baleia?",
+      "resposta": "Calosidades",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baleia-franca-austral",
+        "descricao": "Grande baleia de barbatanas do hemisfério sul, Eubalaena australis, com calosidades na cabeça.",
+        "variantes": [
+          "Baleia-franca",
+          "Eubalaena australis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Camarões listrados com longas antenas, claros e reconhecíveis como camarão.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de crustáceo é este?",
+      "resposta": "Camarão",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Camarão",
+        "descricao": "Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas.",
+        "variantes": [
+          "Camarões"
+        ]
+      }
+    }
+  ]
+}

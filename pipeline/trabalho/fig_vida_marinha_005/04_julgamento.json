@@ -1,0 +1,642 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tubarão-tigre",
+        "descricao": "Grande tubarão predador da espécie Galeocerdo cuvier, de listras escuras no corpo.",
+        "variantes": [
+          "Galeocerdo cuvier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_romance",
+          "nome": "Tubarão (romance)",
+          "descricao": "Romance americano de 1974 sobre um tubarão-branco que ataca um balneário, base do filme de Steven Spielberg.",
+          "variantes": [
+            "Jaws"
+          ]
+        },
+        {
+          "id": "tubarao",
+          "nome": "Tubarão",
+          "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas.",
+          "variantes": [
+            "Jaws"
+          ]
+        },
+        {
+          "id": "tubarao_2",
+          "nome": "Tubarão",
+          "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha.",
+          "variantes": [
+            "Tubarões",
+            "Selachimorpha",
+            "Shark"
+          ]
+        },
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Leão-marinho",
+        "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+        "variantes": [
+          "Leão-marinho-da-Califórnia",
+          "Otariidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "formiga_2",
+          "nome": "Formiga",
+          "descricao": "Inseto social da família Formicidae, da ordem dos himenópteros.",
+          "variantes": [
+            "Formicidae"
+          ]
+        },
+        {
+          "id": "ilha_do_maranhao",
+          "nome": "Ilha do Maranhão",
+          "descricao": "Ilha da costa do Maranhão onde fica a cidade de São Luís, também chamada Upaon-Açu.",
+          "variantes": [
+            "Ilha de São Luís",
+            "Upaon-Açu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mero",
+        "descricao": "Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara.",
+        "variantes": [
+          "Mero-preto",
+          "Itajara",
+          "Epinephelus itajara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "tapejara",
+          "nome": "Tapejara",
+          "descricao": "Gênero de pterossauro do Cretáceo Inferior da Chapada do Araripe, no Ceará, com crista na cabeça.",
+          "variantes": [
+            "Tapejara wellnhoferi"
+          ]
+        },
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Dragão-marinho-folhado",
+        "descricao": "Peixe australiano da família dos cavalos-marinhos, Phycodurus eques, com apêndices em forma de folhas.",
+        "variantes": [
+          "Phycodurus eques",
+          "Dragão-marinho-de-Glauert"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        },
+        {
+          "id": "vaca_marinha_de_steller",
+          "nome": "Vaca-marinha-de-steller",
+          "descricao": "Grande sirênio extinto (Hydrodamalis gigas) do mar de Bering, caçado até a extinção no século dezoito.",
+          "variantes": [
+            "Hydrodamalis gigas",
+            "Steller's sea cow",
+            "Dugongo-de-steller"
+          ]
+        },
+        {
+          "id": "agua_marinha",
+          "nome": "Água-marinha",
+          "descricao": "Gema azul-esverdeada, variedade do mineral berilo, com grandes jazidas no Brasil.",
+          "variantes": [
+            "Aquamarine"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        },
+        {
+          "id": "voltaire",
+          "nome": "Voltaire",
+          "descricao": "Escritor e filósofo iluminista francês (1694–1778), autor de Cândido.",
+          "variantes": [
+            "François-Marie Arouet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cavalo-marinho",
+        "descricao": "Pequeno peixe ósseo do gênero Hippocampus, de cabeça de cavalo e cauda preênsil.",
+        "variantes": [
+          "Hippocampus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hipocampo",
+          "nome": "Hipocampo",
+          "descricao": "Estrutura do cérebro ligada à formação de memórias.",
+          "variantes": [
+            "Hippocampus"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        },
+        {
+          "id": "hipopotamo",
+          "nome": "Hipopótamo",
+          "descricao": "Grande mamífero semiaquático africano, espécie Hippopotamus amphibius.",
+          "variantes": [
+            "Hippopotamus amphibius",
+            "Hippopotamus",
+            "Hipopótamo-comum"
+          ]
+        },
+        {
+          "id": "hipocrates",
+          "nome": "Hipócrates",
+          "descricao": "Médico grego da Antiguidade (c. 460–370 a.C.), considerado o pai da medicina.",
+          "variantes": [
+            "Hipócrates de Cós",
+            "Hippocrates"
+          ]
+        },
+        {
+          "id": "o_cavaleiro_sorridente",
+          "nome": "O Cavaleiro Sorridente",
+          "descricao": "Retrato de 1624 pintado por Frans Hals, guardado na Wallace Collection, em Londres.",
+          "variantes": [
+            "The Laughing Cavalier",
+            "O Cavaleiro Risonho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Elefante-marinho",
+        "descricao": "Maior foca verdadeira, do gênero Mirounga, cujos machos têm uma grande tromba.",
+        "variantes": [
+          "Elefante-marinho-do-norte",
+          "Mirounga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elefante_africano",
+          "nome": "Elefante-africano",
+          "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+          "variantes": [
+            "Loxodonta",
+            "African elephant"
+          ]
+        },
+        {
+          "id": "elefante_branco",
+          "nome": "Elefante branco",
+          "descricao": "Expressão para um bem caro de manter e de pouca utilidade",
+          "variantes": [
+            "White elephant"
+          ]
+        },
+        {
+          "id": "elefante_asiatico",
+          "nome": "Elefante-asiático",
+          "descricao": "Elefante da espécie Elephas maximus, nativo do sul e sudeste da Ásia.",
+          "variantes": [
+            "Elefante-indiano",
+            "Elephas maximus"
+          ]
+        },
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        },
+        {
+          "id": "ironman",
+          "nome": "Ironman",
+          "descricao": "Triatlo de longa distância criado no Havaí em 1978, com natação, ciclismo e corrida.",
+          "variantes": [
+            "Ironman Triathlon",
+            "Ironman World Championship"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Polvo-de-anéis-azuis",
+        "descricao": "Pequeno polvo extremamente venenoso do gênero Hapalochlaena, de anéis azuis iridescentes.",
+        "variantes": [
+          "Hapalochlaena lunulata",
+          "Polvo-de-anéis-azuis-maior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polvo_de_aneis_azuis",
+          "nome": "Polvo-de-anéis-azuis",
+          "descricao": "Pequeno polvo do gênero Hapalochlaena, do Indo-Pacífico, com anéis azuis brilhantes e veneno mortal.",
+          "variantes": [
+            "Hapalochlaena",
+            "Blue-ringed octopus"
+          ]
+        },
+        {
+          "id": "atoba_de_pes_azuis",
+          "nome": "Atobá-de-pés-azuis",
+          "descricao": "Sula nebouxii, ave marinha do Pacífico oriental de pés azul-claros, comum nas Galápagos.",
+          "variantes": [
+            "Blue-footed booby",
+            "Patola-de-pés-azuis",
+            "Sula nebouxii"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis",
+            "Bolo de Reis francês"
+          ]
+        },
+        {
+          "id": "haroldo_dente_azul",
+          "nome": "Haroldo Dente-Azul",
+          "descricao": "Rei da Dinamarca no século dez, que cristianizou os dinamarqueses e é lembrado nas pedras rúnicas de Jelling.",
+          "variantes": [
+            "Haroldo I da Dinamarca",
+            "Harald Bluetooth",
+            "Harald Blåtand"
+          ]
+        },
+        {
+          "id": "danubio_azul",
+          "nome": "Danúbio Azul",
+          "descricao": "Valsa de Johann Strauss Filho, de 1867, cujo título original é An der schönen blauen Donau.",
+          "variantes": [
+            "O Belo Danúbio Azul",
+            "An der schönen blauen Donau",
+            "The Blue Danube"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Morsa",
+        "descricao": "Grande mamífero marinho do Ártico, Odobenus rosmarus, de presas longas e bigodes.",
+        "variantes": [
+          "Odobenus rosmarus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "mosca_domestica",
+          "nome": "Mosca-doméstica",
+          "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+          "variantes": [
+            "Musca domestica",
+            "Mosca"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        },
+        {
+          "id": "moreia",
+          "nome": "Moreia",
+          "descricao": "Peixe alongado da família Muraenidae, sem nadadeiras peitorais, que vive em tocas nos recifes.",
+          "variantes": [
+            "Muraenidae",
+            "Moray eel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Baleia-franca-austral",
+        "descricao": "Grande baleia de barbatanas do hemisfério sul, Eubalaena australis, com calosidades na cabeça.",
+        "variantes": [
+          "Baleia-franca",
+          "Eubalaena australis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baleia_franca_austral",
+          "nome": "Baleia-franca-austral",
+          "descricao": "Grande baleia de barbatanas (Eubalaena australis) do Hemisfério Sul, de cabeça com calosidades, que se reproduz no litoral sul do Brasil.",
+          "variantes": [
+            "Eubalaena australis",
+            "Baleia-franca",
+            "Southern right whale"
+          ]
+        },
+        {
+          "id": "beluga",
+          "nome": "Beluga",
+          "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+          "variantes": [
+            "Baleia-branca",
+            "Delphinapterus leucas",
+            "Beluga whale"
+          ]
+        },
+        {
+          "id": "diamante_hope",
+          "nome": "Diamante Hope",
+          "descricao": "Diamante azul de 45,52 quilates, vindo da Índia, hoje no Smithsonian.",
+          "variantes": [
+            "Hope Diamond",
+            "Azul da França"
+          ]
+        },
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Camarão",
+        "descricao": "Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas.",
+        "variantes": [
+          "Camarões"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "camaleao",
+          "nome": "Camaleão",
+          "descricao": "Lagarto da família Chamaeleonidae, de olhos independentes, língua projétil e capacidade de mudar de cor.",
+          "variantes": [
+            "Chamaeleonidae",
+            "Camaleões",
+            "Chameleon"
+          ]
+        },
+        {
+          "id": "camaleao_do_iemen",
+          "nome": "Camaleão-do-iêmen",
+          "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+          "variantes": [
+            "Camaleão",
+            "Camaleão-velado",
+            "Chamaeleo calyptratus"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tubarão-tigre (Galeocerdo cuvier) é espécie distinta das candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Leão-marinho (Otariidae) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mero (peixe) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Dragão-marinho-folhado é espécie diferente do cavalo-marinho."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "cavalo_marinho",
+      "motivo": "Mesmo peixe do gênero Hippocampus."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Elefante-marinho (Mirounga) é distinto das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "polvo_de_aneis_azuis",
+      "motivo": "Mesmo polvo-de-anéis-azuis do gênero Hapalochlaena."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "morsa",
+      "motivo": "Mesma espécie Odobenus rosmarus."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "baleia_franca_austral",
+      "motivo": "Mesma espécie Eubalaena australis."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Camarão crustáceo é diferente do país Camarões e de sua bandeira."
+    }
+  ]
+}

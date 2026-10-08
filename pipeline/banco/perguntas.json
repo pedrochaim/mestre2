@@ -155822,5 +155822,200 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q09108",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_tigre",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que animal terrestre dá nome a este tubarão?",
+    "resposta": "Tigre",
+    "distratores": [
+      "Leopardo",
+      "Leão",
+      "Lobo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiger_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-tigre"
+    ],
+    "imagem": {
+      "arquivo": "q09108.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tiger_shark.jpg",
+      "autor": "Albert kok",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q09109",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "leao_marinho",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que mamífero marinho é este?",
+    "resposta": "Leão-marinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sea_lion",
+      "https://pt.wikipedia.org/wiki/Le%C3%A3o-marinho"
+    ],
+    "imagem": {
+      "arquivo": "q09109.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:California_sea_lion_in_La_Jolla_(70568).jpg",
+      "autor": "Rhododendrites",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q09110",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "mero",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peixe gigante de recifes é este?",
+    "resposta": "Mero",
+    "distratores": [
+      "Cherne",
+      "Badejo",
+      "Peixe-napoleão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atlantic_goliath_grouper",
+      "https://pt.wikipedia.org/wiki/Mero-preto"
+    ],
+    "imagem": {
+      "arquivo": "q09110.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Itajara.JPG",
+      "autor": "Albert kok",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q09111",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "dragao_marinho_folhado",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe é este?",
+    "resposta": "Dragão-marinho-folhado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leafy_seadragon",
+      "https://pt.wikipedia.org/wiki/Drag%C3%A3o-marinho-folhado"
+    ],
+    "imagem": {
+      "arquivo": "q09111.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Leafy_Seadragon_Phycodurus_eques_2500px_PLW_edit.jpg",
+      "autor": "Photo by and (C)2007 Derek Ramsey (Ram-Man); derivative edit by Papa Lima Whiskey",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q09112",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "elefante_marinho",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de foca gigante é esta?",
+    "resposta": "Elefante-marinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elephant_seal",
+      "https://pt.wikipedia.org/wiki/Elefante-marinho"
+    ],
+    "imagem": {
+      "arquivo": "q09112.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:See_elefanten_edit.jpg",
+      "autor": "original image by Jan Roletto, uploaded 18:58, Feb 26, 2004 - de:Wikipedia by de:User:Baldhur, edited by Matthew Field",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q09113",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "polvo_de_aneis_azuis",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal marinho é este?",
+    "resposta": "Polvo-de-anéis-azuis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greater_blue-ringed_octopus",
+      "https://pt.wikipedia.org/wiki/Hapalochlaena_lunulata"
+    ],
+    "imagem": {
+      "arquivo": "q09113.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hapalochlaena_lunulata2.JPG",
+      "autor": "Jens Petersen",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q09114",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "morsa",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que mamífero marinho do Ártico é este?",
+    "resposta": "Morsa",
+    "distratores": [
+      "Elefante-marinho",
+      "Leão-marinho",
+      "Foca-de-Weddell"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walrus",
+      "https://pt.wikipedia.org/wiki/Morsa"
+    ],
+    "imagem": {
+      "arquivo": "q09114.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Walrus_in_the_Russian_Arctic_National_Park,_Novaya_Zemlya_2015-2.jpg",
+      "autor": "Nixette",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q09115",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "baleia_franca_austral",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Como se chamam as manchas ásperas na cabeça desta baleia?",
+    "resposta": "Calosidades",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Southern_right_whale",
+      "https://pt.wikipedia.org/wiki/Baleia-franca-austral"
+    ],
+    "imagem": {
+      "arquivo": "q09115.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Southern_right_whale6.jpg",
+      "autor": "Michaël CATANZARITI",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q09116",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "camarao",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de crustáceo é este?",
+    "resposta": "Camarão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shrimp",
+      "https://pt.wikipedia.org/wiki/Camar%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q09116.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palaemon_serratus_Croazia.jpg",
+      "autor": "Etrusko25",
+      "licenca": "Public domain"
+    }
   }
 ]
