@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Formiga nítida, de cima, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que inseto social é este?",
+      "resposta": "Formiga",
+      "distratores": [],
+      "ancora": {
+        "nome": "Formiga",
+        "descricao": "Inseto social da família Formicidae, da ordem dos himenópteros.",
+        "variantes": [
+          "Formicidae"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Close do rosto com olhos frontais grandes, típico de salticídeo.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que tipo de aranha é esta?",
+      "resposta": "Aranha-saltadora",
+      "distratores": [],
+      "ancora": {
+        "nome": "Aranha-saltadora",
+        "descricao": "Aranha da família Salticidae, de grandes olhos frontais e visão aguçada.",
+        "variantes": [
+          "Salticídeo",
+          "Jumping spider"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vespa azul-escura de asas alaranjadas, bem visível e característica.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Esta vespa paralisa com o ferrão um grande aracnídeo para alimentar a sua larva. Que animal é a presa?",
+      "resposta": "Tarântula",
+      "distratores": [],
+      "ancora": {
+        "nome": "Marimbondo-cavalo",
+        "descricao": "Vespa da família Pompilidae, dos gêneros Pepsis e Hemipepsis, que caça tarântulas.",
+        "variantes": [
+          "Tarantula hawk",
+          "Vespa-caçadora-de-tarântulas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois ouriços-do-mar claros no recife, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que animal marinho de espinhos é este?",
+      "resposta": "Ouriço-do-mar",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ouriço-do-mar",
+        "descricao": "Equinoderma da classe Echinoidea, de corpo globular coberto de espinhos.",
+        "variantes": [
+          "Ouriço",
+          "Equinoide"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Drosophila de olho vermelho, nítida.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que mosca é esta?",
+      "resposta": "Mosca-das-frutas",
+      "distratores": [
+        "Mosca-doméstica",
+        "Mosca-varejeira",
+        "Mutuca"
+      ],
+      "ancora": {
+        "nome": "Mosca-das-frutas",
+        "descricao": "Drosophila melanogaster, pequena mosca de olhos vermelhos usada em pesquisas de genética.",
+        "variantes": [
+          "Drosophila melanogaster",
+          "Mosca-do-vinagre"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto desfocada e pequena; abelhas sem ferrão parecidas impedem resposta única pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Polvo nítido, de corpo inteiro.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que molusco marinho é este?",
+      "resposta": "Polvo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Polvo",
+        "descricao": "Molusco cefalópode da ordem Octopoda, de oito braços.",
+        "variantes": [
+          "Octopus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tesourinha nítida, com as pinças bem visíveis.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que inseto é este?",
+      "resposta": "Tesourinha",
+      "distratores": [
+        "Barata",
+        "Besouro-estafilinídeo",
+        "Louva-a-deus"
+      ],
+      "ancora": {
+        "nome": "Tesourinha",
+        "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+        "variantes": [
+          "Lacrainha",
+          "Dermáptero",
+          "Earwig"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Opilião nítido sobre folha, corpo único e pernas longas.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que aracnídeo de pernas longas é este?",
+      "resposta": "Opilião",
+      "distratores": [],
+      "ancora": {
+        "nome": "Opilião",
+        "descricao": "Aracnídeo da ordem Opiliones, de corpo compacto e pernas muito longas, que não é uma aranha.",
+        "variantes": [
+          "Opiliones",
+          "Harvestman"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga com dois animais; lulas podem ser fotografadas."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Aranha preta com manchas vermelhas na teia, característica de Latrodectus.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que aranha é esta?",
+      "resposta": "Viúva-negra",
+      "distratores": [
+        "Aranha-armadeira",
+        "Aranha-marrom",
+        "Aranha-de-teia-em-funil"
+      ],
+      "ancora": {
+        "nome": "Viúva-negra",
+        "descricao": "Aranha do gênero Latrodectus, de abdômen preto com manchas vermelhas.",
+        "variantes": [
+          "Latrodectus",
+          "Black widow"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macho de Maratus exibindo o abdômen colorido, bem nítido.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que aranha colorida é esta?",
+      "resposta": "Aranha-pavão",
+      "distratores": [
+        "Aranha-lobo",
+        "Aranha-caranguejo",
+        "Aranha-armadeira"
+      ],
+      "ancora": {
+        "nome": "Aranha-pavão",
+        "descricao": "Aranha australiana do gênero Maratus, cujo macho exibe o abdômen colorido no cortejo.",
+        "variantes": [
+          "Maratus volans",
+          "Peacock spider"
+        ]
+      }
+    }
+  ]
+}

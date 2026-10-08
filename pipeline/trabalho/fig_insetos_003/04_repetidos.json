@@ -1,0 +1,98 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Ouriço-do-mar"
+      },
+      "existentes": [
+        {
+          "id": "q02536",
+          "pergunta": "O aparelho mastigador do ouriço-do-mar, com cinco dentes, é conhecido como lanterna de que filósofo grego?",
+          "resposta": "Aristóteles"
+        },
+        {
+          "id": "q07424",
+          "pergunta": "Que animal marinho é este, parente da estrela-do-mar?",
+          "resposta": "Ouriço-do-mar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mosca é esta?",
+        "resposta": "Mosca-das-frutas"
+      },
+      "existentes": [
+        {
+          "id": "q03829",
+          "pergunta": "O nome da mosca dos laboratórios de genética, Drosophila melanogaster, significa amante do orvalho de barriga de que cor?",
+          "resposta": "Preta"
+        },
+        {
+          "id": "q05012",
+          "pergunta": "Que geneticista americano, Nobel de Medicina de 1933, usou moscas-da-fruta para mostrar que os genes ficam nos cromossomos?",
+          "resposta": "Thomas Hunt Morgan"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que molusco marinho é este?",
+        "resposta": "Polvo"
+      },
+      "existentes": [
+        {
+          "id": "q02529",
+          "pergunta": "Octopus, o nome do gênero do polvo, vem do grego e descreve o animal pela sua anatomia. O que essa palavra quer dizer?",
+          "resposta": "Oito pés"
+        },
+        {
+          "id": "q02530",
+          "pergunta": "O polvo tem um sistema circulatório bem diferente do nosso. Quantos corações ele tem?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que aranha é esta?",
+        "resposta": "Viúva-negra"
+      },
+      "existentes": [
+        {
+          "id": "q02587",
+          "pergunta": "Às vezes, logo depois do acasalamento, a fêmea da viúva-negra faz algo com o parceiro que explica o nome da aranha. O quê?",
+          "resposta": "Devora o macho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q07424",
+      "motivo": "Mesma pergunta de identificação por imagem, com resposta Ouriço-do-mar."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a mosca-das-frutas pela imagem é diferente do significado do nome ou do geneticista."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o polvo pela imagem é diferente do significado do nome do gênero ou do número de corações."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar a aranha pela imagem é diferente do comportamento que explica o nome."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento; 'inseto social' não entrega a resposta e os trechos confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta: vespa que paralisa um grande aracnídeo para a larva é a caçadora de tarântulas, então a figura virou enfeite. Troquei por um fato do trecho que exige reconhecer a vespa: o inseto oficial do Novo México, escolhido em 1989.",
+      "reescrita": {
+        "pergunta": "Em 1989, um estado americano escolheu uma espécie desta vespa como seu inseto oficial. Que estado?",
+        "resposta": "Novo México",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Animal marinho de espinhos' é quase uma definição do ouriço-do-mar e entrega a resposta pelo teste da imagem coberta. Tirei a pista dos espinhos.",
+      "reescrita": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Ouriço-do-mar",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores do mesmo tipo, curtos e incorretos; o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'molusco marinho' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento; distratores críveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Pernas longas' ajuda sem entregar, pois aranhas e outros aracnídeos também têm pernas longas; a figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento; distratores do mesmo tipo, nenhum correto, todos dentro do limite de palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Colorida' não entrega o nome; distratores são aranhas de outros grupos, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}
