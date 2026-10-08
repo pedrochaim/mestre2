@@ -1,0 +1,58 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; Hulk é o nome conhecido do atacante.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento. Os distratores são jogadoras de vôlei de praia críveis, e nenhuma é a da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Beckham começou a carreira profissional no Manchester United, o que é amplamente documentado e os trechos sustentam (clube que o revelou). O enunciado não entrega o nome, e a figura é necessária para saber de quem se trata.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Campeão dos leves' também vale para Islam Makhachev, um dos distratores, então há duas respostas defensáveis. Tirei a pista e usei um critério que não inclui nenhum distrator como resposta correta.",
+      "reescrita": {
+        "pergunta": "Que lutador russo de artes marciais mistas é este?",
+        "resposta": "Khabib Nurmagomedov",
+        "distratores": [
+          "Islam Makhachev",
+          "Umar Nurmagomedov",
+          "Zabit Magomedsharipov"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o reconhecimento do tenista. A pista da grama não entrega a resposta, e os distratores são tenistas que não são o da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Quinto a completar' a manobra é impreciso. Ele foi o quinto a completar um 900 qualquer, mas o primeiro a completar o fakie 900, em 2010. Reescrevi com o fato literalmente correto.",
+      "reescrita": {
+        "pergunta": "Este skatista brasileiro foi o primeiro a completar, em dois mil e dez, qual manobra de giro, conhecida por um número de graus?",
+        "resposta": "Fakie 900 (nove zero zero)",
+        "distratores": []
+      }
+    }
+  ]
+}

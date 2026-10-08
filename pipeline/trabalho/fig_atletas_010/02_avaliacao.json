@@ -1,0 +1,162 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de baixa qualidade (captura de webcam), com boné e sem contexto; o piloto não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Beatriz' está bordado no quimono, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o logotipo do Zenit não diz o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que jogador brasileiro de futebol é este?",
+      "resposta": "Hulk",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hulk",
+        "descricao": "Givanildo Vieira de Sousa, atacante brasileiro de futebol conhecido como Hulk, ex-Porto, Zenit e Atlético Mineiro.",
+        "variantes": [
+          "Givanildo Vieira de Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O número de peito mostra 'KIPCHOGE', que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de atleta pública, sem nome visível (só patrocinador e emissora). Múltipla escolha com jogadoras de vôlei de praia para dar justiça.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogadora brasileira de vôlei de praia é esta?",
+      "resposta": "Larissa França",
+      "distratores": [
+        "Ágatha Bednarczuk",
+        "Juliana Felisberta",
+        "Talita Antunes"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Larissa França",
+        "descricao": "Jogadora brasileira de vôlei de praia, maior campeã de títulos da história do circuito mundial da FIVB.",
+        "variantes": [
+          "Larissa França Maestrini"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública mundialmente conhecida; sem texto que revele o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este ex-jogador inglês começou a carreira profissional em que clube?",
+      "resposta": "Manchester United",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "David Beckham",
+        "descricao": "Ex-futebolista inglês, meio-campista conhecido pelas bolas paradas, de Manchester United, Real Madrid e LA Galaxy.",
+        "variantes": [
+          "Beckham",
+          "David Robert Joseph Beckham"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o fundo traz só 'UFC Hall of Fame', sem o nome. Múltipla com lutadores de aparência parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lutador de artes marciais mistas, campeão dos leves, é este?",
+      "resposta": "Khabib Nurmagomedov",
+      "distratores": [
+        "Islam Makhachev",
+        "Umar Nurmagomedov",
+        "Zabit Magomedsharipov"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Khabib Nurmagomedov",
+        "descricao": "Lutador russo do Daguestão de MMA, campeão peso-leve do UFC, aposentado invicto.",
+        "variantes": [
+          "Khabib",
+          "Habib Nurmagomedov"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto informal de um homem de óculos sem nenhum traço que permita reconhecer o nadador; não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida, em quadra de grama, de figura pública muito conhecida; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tenista é este, em quadra de grama?",
+      "resposta": "Roger Federer",
+      "distratores": [
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Andy Murray"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Roger Federer",
+        "descricao": "Tenista suíço, vencedor de vinte títulos de Grand Slam e recordista de títulos em Wimbledon.",
+        "variantes": [
+          "Federer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de skatista conhecido, sem texto que revele o nome (a placa ao fundo é de patrocinador). Pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este skatista brasileiro foi o quinto da história a completar qual manobra de giro, conhecida por um número de graus?",
+      "resposta": "Fakie 900 (nove zero zero)",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Bob Burnquist",
+        "descricao": "Skatista profissional brasileiro-americano, conhecido pelo estilo switch e pelo 'fakie 900'.",
+        "variantes": [
+          "Robert Dean Silva Burnquist"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Jogadora com uniforme da seleção brasileira, sem traços que a distingam de outras atletas; a resposta não é única nem reconhecível pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto pode ser de Rogério Minotouro, irmão gêmeo, o que torna a resposta ambígua; a placa 'MMA' também dá contexto."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tenista é este, em quadra de grama?",
+        "resposta": "Roger Federer"
+      },
+      "existentes": [
+        {
+          "id": "q07577",
+          "pergunta": "Roger Federer foi gandula no torneio de quadra coberta da sua cidade natal, onde depois foi campeão várias vezes. Que cidade suíça é essa?",
+          "resposta": "Basileia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do tenista numa imagem; a existente pergunta a cidade natal (Basileia). Fatos diferentes."
+    }
+  ]
+}
