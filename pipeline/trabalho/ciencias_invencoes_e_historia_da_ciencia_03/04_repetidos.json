@@ -1,0 +1,559 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O que é maior: a distância do primeiro voo dos irmãos Wright, em 1903, ou a medida de ponta a ponta das asas de um Boeing 747?",
+        "resposta": "As asas do Boeing 747"
+      },
+      "existentes": [
+        {
+          "id": "q03617",
+          "pergunta": "Em 17 de dezembro de 1903, o primeiro voo do Flyer, avião dos irmãos Wright, durou cerca de quantos segundos?",
+          "resposta": "Doze segundos"
+        },
+        {
+          "id": "q06751",
+          "pergunta": "Que aeronave pioneira, de 1903, é esta?",
+          "resposta": "Wright Flyer"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Entre os cientistas que ganharam dois prêmios Nobel, quem recebeu os dois sem dividir com ninguém?",
+        "resposta": "Linus Pauling"
+      },
+      "existentes": [
+        {
+          "id": "q05907",
+          "pergunta": "Que químico americano ganhou dois Prêmios Nobel sem dividi-los com ninguém, um de Química e outro da Paz?",
+          "resposta": "Linus Pauling"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Criado em 1907, qual destes materiais é considerado o primeiro plástico feito só de componentes sintéticos?",
+        "resposta": "Baquelite"
+      },
+      "existentes": [
+        {
+          "id": "q05893",
+          "pergunta": "A baquelite, plástico usado em telefones e rádios antigos, recebeu o nome em homenagem a quem?",
+          "resposta": "Seu inventor, Leo Baekeland"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destas invenções do fim do século dezenove foi apresentada ao público primeiro?",
+        "resposta": "Telefone"
+      },
+      "existentes": [
+        {
+          "id": "q06735",
+          "pergunta": "Que aparelho é este?",
+          "resposta": "Telefone"
+        },
+        {
+          "id": "q07631",
+          "pergunta": "Que peça de um aparelho antigo é esta?",
+          "resposta": "Disco de telefone"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Entre estes instrumentos de escrita, qual foi o último a ser inventado?",
+        "resposta": "Caneta esferográfica"
+      },
+      "existentes": [
+        {
+          "id": "q00899",
+          "pergunta": "Que jornalista húngaro, que depois se mudou para a Argentina, patenteou em 1938 a caneta esferográfica moderna?",
+          "resposta": "László Bíró"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na década de 1940, o húngaro László Bíró começou a fabricar sua caneta esferográfica em que país sul-americano?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q00899",
+          "pergunta": "Que jornalista húngaro, que depois se mudou para a Argentina, patenteou em 1938 a caneta esferográfica moderna?",
+          "resposta": "László Bíró"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O miolo do lápis não tem chumbo: ele é feito de grafite misturado com qual material?",
+        "resposta": "Argila"
+      },
+      "existentes": [
+        {
+          "id": "q05069",
+          "pergunta": "Que material forma o miolo deste objeto?",
+          "resposta": "Grafite"
+        },
+        {
+          "id": "q07342",
+          "pergunta": "No fim do século dezenove, muitos lápis passaram a ser pintados de amarelo, cor da realeza de um país de onde vinha grafite de qualidade. Que país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Por volta de 1880, Thomas Edison fez suas lâmpadas durarem muito mais com um filamento feito de que planta carbonizada?",
+        "resposta": "Bambu"
+      },
+      "existentes": [
+        {
+          "id": "q03730",
+          "pergunta": "Que tipo de lâmpada é esta?",
+          "resposta": "Incandescente"
+        },
+        {
+          "id": "q07319",
+          "pergunta": "Nas lâmpadas incandescentes comuns, o filamento que brilha ao esquentar é feito de qual metal, de altíssimo ponto de fusão?",
+          "resposta": "Tungstênio"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1714, o físico Daniel Fahrenheit construiu um termômetro muito mais confiável usando que metal líquido?",
+        "resposta": "Mercúrio"
+      },
+      "existentes": [
+        {
+          "id": "q04508",
+          "pergunta": "Em 1714, que físico construiu um termômetro de mercúrio confiável e, anos depois, deu seu nome a uma escala de temperatura?",
+          "resposta": "Daniel Fahrenheit"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Para tornar a nitroglicerina segura, Alfred Nobel a misturou com uma terra porosa formada por restos de algas microscópicas. Que terra?",
+        "resposta": "Terra de diatomáceas"
+      },
+      "existentes": [
+        {
+          "id": "q03136",
+          "pergunta": "Que tragédia familiar, em 1864, levou Alfred Nobel a buscar um jeito mais seguro de manusear a nitroglicerina, até chegar à dinamite?",
+          "resposta": "A morte do irmão numa explosão"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Inaugurado em 1863, o metrô de Londres, o primeiro do mundo, tinha trens puxados por que tipo de locomotiva?",
+        "resposta": "A vapor"
+      },
+      "existentes": [
+        {
+          "id": "q01009",
+          "pergunta": "O metrô de Londres é o mais antigo do mundo. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05629",
+          "pergunta": "A palavra metrô abrevia um adjetivo que já estava no nome da primeira linha subterrânea de Londres, aberta em 1863. Que adjetivo?",
+          "resposta": "Metropolitano"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em vez de patentear o Demoiselle, seu pequeno avião, o que Santos-Dumont fez com os planos dele?",
+        "resposta": "Divulgou-os de graça ao público"
+      },
+      "existentes": [
+        {
+          "id": "q05641",
+          "pergunta": "Santos Dumont não patenteou seu pequeno monoplano e liberou os planos para quem quisesse construí-lo. Como esse avião ficou conhecido?",
+          "resposta": "Demoiselle"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Na França revolucionária, o metro foi definido como a décima milionésima parte da distância entre o polo norte e o quê?",
+        "resposta": "A linha do Equador"
+      },
+      "existentes": [
+        {
+          "id": "q07264",
+          "pergunta": "O metro, unidade de comprimento usada no Brasil, foi criado na França durante que grande acontecimento político?",
+          "resposta": "Revolução Francesa"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Antes de desenvolver o telégrafo elétrico e o código que leva seu nome, o americano Samuel Morse era conhecido em que profissão?",
+        "resposta": "Pintor"
+      },
+      "existentes": [
+        {
+          "id": "q03469",
+          "pergunta": "Antes de se dedicar ao telégrafo e ao código que leva seu nome, o americano Samuel Morse era conhecido em qual profissão?",
+          "resposta": "Pintor"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Que atividade sustentou o alemão William Herschel na Inglaterra antes de ele descobrir o planeta Urano, em 1781?",
+        "resposta": "Músico"
+      },
+      "existentes": [
+        {
+          "id": "q07186",
+          "pergunta": "Que planeta este astrônomo germano-britânico descobriu?",
+          "resposta": "Urano"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em 1968, o químico Spencer Silver tentava criar uma cola superforte, mas obteve a do futuro post-it. Que característica ela tinha?",
+        "resposta": "Colava fraco e descolava fácil"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        },
+        {
+          "id": "q07048",
+          "pergunta": "Que empresa americana de Minnesota, também conhecida pelas fitas adesivas, lançou os bloquinhos Post-it?",
+          "resposta": "3M"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Nos anos quarenta, o suíço George de Mestral teve a ideia do velcro ao examinar o que vivia grudando no pelo do seu cachorro?",
+        "resposta": "Carrapichos"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        },
+        {
+          "id": "q00933",
+          "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+          "resposta": "Crochet"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Em 1902, o engenheiro Willis Carrier criou o ar-condicionado moderno para controlar a umidade de que tipo de empresa, no Brooklyn?",
+        "resposta": "Gráfica"
+      },
+      "existentes": [
+        {
+          "id": "q00885",
+          "pergunta": "Em 1902, Willis Carrier criou o ar-condicionado moderno para controlar a umidade que estragava o papel em que tipo de empresa?",
+          "resposta": "Uma gráfica"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em 1942, o químico americano Harry Coover obteve por acaso a supercola enquanto tentava fazer miras de plástico transparente para quê?",
+        "resposta": "Armas de fogo"
+      },
+      "existentes": [
+        {
+          "id": "q07345",
+          "pergunta": "Durante a Segunda Guerra, o químico Harry Coover descobriu a supercola, mas a descartou porque grudava em tudo. O que ele tentava fabricar?",
+          "resposta": "Miras de plástico transparente"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "A palavra robô nasceu numa peça de teatro tcheca de 1920, a partir de um termo que significa o quê?",
+        "resposta": "Trabalho forçado"
+      },
+      "existentes": [
+        {
+          "id": "q03427",
+          "pergunta": "A palavra robô, popularizada por uma peça de teatro tcheca de 1920, deriva de um termo eslavo que significa o quê?",
+          "resposta": "Trabalho forçado"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que unidade de medida de potência, estampada em lâmpadas e chuveiros, homenageia o engenheiro escocês que aperfeiçoou a máquina a vapor?",
+        "resposta": "Watt"
+      },
+      "existentes": [
+        {
+          "id": "q03772",
+          "pergunta": "Em que universidade escocesa este engenheiro trabalhava como fabricante de instrumentos quando passou a estudar as máquinas a vapor?",
+          "resposta": "Universidade de Glasgow"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Os grandes dirigíveis de estrutura rígida do início do século vinte ganharam um nome que homenageia que conde alemão?",
+        "resposta": "Ferdinand von Zeppelin"
+      },
+      "existentes": [
+        {
+          "id": "q05627",
+          "pergunta": "Que conde alemão, pioneiro dos dirigíveis rígidos, emprestou o próprio sobrenome a esse tipo de aeronave?",
+          "resposta": "Ferdinand von Zeppelin"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "O primeiro selo postal adesivo do mundo foi lançado em 1840. Em que país?",
+        "resposta": "Reino Unido"
+      },
+      "existentes": [
+        {
+          "id": "q02327",
+          "pergunta": "Em que ano foi emitido este selo britânico?",
+          "resposta": "1840"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Em 1965, que química americana da DuPont criou o kevlar, fibra usada em coletes à prova de balas?",
+        "resposta": "Stephanie Kwolek"
+      },
+      "existentes": [
+        {
+          "id": "q03152",
+          "pergunta": "Que química americana da DuPont criou o Kevlar, fibra usada em coletes à prova de bala?",
+          "resposta": "Stephanie Kwolek"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Por volta de 1904, que joalheiro francês fez um relógio de pulso para Santos-Dumont ver as horas sem tirar as mãos dos comandos?",
+        "resposta": "Louis Cartier"
+      },
+      "existentes": [
+        {
+          "id": "q00895",
+          "pergunta": "Em 1904, o joalheiro Louis Cartier criou um relógio de pulso para um amigo brasileiro ver as horas sem largar os comandos da aeronave. Quem era?",
+          "resposta": "Santos-Dumont"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "O automóvel patenteado por Karl Benz em 1886, considerado o primeiro carro prático, tinha quantas rodas?",
+        "resposta": "Três"
+      },
+      "existentes": [
+        {
+          "id": "q01018",
+          "pergunta": "Quantas rodas tinha o automóvel patenteado por Karl Benz em 1886, considerado o primeiro carro moderno?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "nova": {
+        "pergunta": "Além de dar nome a um famoso prêmio, o inventor da dinamite também é homenageado por que elemento químico da tabela periódica?",
+        "resposta": "Nobélio"
+      },
+      "existentes": [
+        {
+          "id": "q03594",
+          "pergunta": "Segundo uma história famosa, que erro de um jornal francês, em 1888, teria levado Alfred Nobel a repensar o próprio legado?",
+          "resposta": "Publicar o obituário dele por engano"
+        },
+        {
+          "id": "q03780",
+          "pergunta": "Em que cidade sueca nasceu este químico e engenheiro do século dezenove?",
+          "resposta": "Estocolmo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Compara distância do voo e envergadura; fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Pauling, dois Nobel sem dividir."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Primeiro plástico sintético vs. origem do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Comparação de datas de invenções; outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Comparação de invenções, não o inventor Bíró."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "País onde começou a fabricar vs. inventor/patente; fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Material misturado ao grafite (argila) é fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Filamento de bambu de Edison é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Existente já traz termômetro de mercúrio de Fahrenheit em 1714; responder uma dá a outra."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Terra de diatomáceas vs. tragédia familiar."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Tipo de locomotiva é fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Ambas tratam de não patentear e liberar os planos do Demoiselle."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Definição do metro vs. contexto de criação."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre profissão de Morse."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Profissão de Herschel vs. planeta descoberto."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Característica da cola de Silver é fato diferente."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: carrapichos no pelo do cachorro."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: gráfica."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: miras de plástico para armas."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: etimologia de robô."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Unidade watt vs. universidade."
+    },
+    {
+      "caso": 22,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Zeppelin dá nome aos dirigíveis."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "País do selo vs. ano de selo britânico; fatos distintos."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre Kwolek e Kevlar."
+    },
+    {
+      "caso": 25,
+      "decisao": "repete",
+      "motivo": "Mesmo fato em direção inversa: Cartier e Santos-Dumont."
+    },
+    {
+      "caso": 26,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: três rodas."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Nobélio é fato diferente."
+    }
+  ]
+}
