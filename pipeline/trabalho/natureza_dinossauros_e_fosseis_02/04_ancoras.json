@@ -1,0 +1,1621 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Peirópolis",
+        "descricao": "Bairro rural de Uberaba, em Minas Gerais, famoso por fósseis de titanossauros e pelo Museu dos Dinossauros.",
+        "variantes": [
+          "Peirópolis (Uberaba)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Peirópolis"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O distrito rural de Peirópolis, com um museu de dinossauros e muitos fósseis de titanossauros, pertence a que município mineiro?",
+      "resposta": "Uberaba",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Peirópolis"
+      ],
+      "ancora": "peiropolis"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Chapada do Araripe",
+        "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+        "variantes": [
+          "Araripe",
+          "Bacia do Araripe"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chapada_do_Araripe"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Chapada do Araripe, famosa por fósseis de peixes e pterossauros, fica na divisa do Ceará com que dois estados?",
+      "resposta": "Pernambuco e Piauí",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chapada_do_Araripe"
+      ],
+      "ancora": "chapada_do_araripe"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Oxalaia",
+        "descricao": "Gênero de dinossauro espinossaurídeo do Cretáceo do Maranhão, descrito em 2011 e batizado em homenagem ao orixá Oxalá.",
+        "variantes": [
+          "Oxalaia quilombensis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oxalaia"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Batizado em homenagem a um orixá, o dinossauro Oxalaia foi descrito em 2011 a partir de fósseis achados em que estado brasileiro?",
+      "resposta": "Maranhão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oxalaia",
+        "https://pt.wikipedia.org/wiki/Oxalaia"
+      ],
+      "ancora": "oxalaia"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Sue",
+        "descricao": "Esqueleto fóssil de tiranossauro encontrado em 1990 em Dakota do Sul e exposto no Field Museum, em Chicago.",
+        "variantes": [
+          "Sue (dinossauro)",
+          "FMNH PR 2081"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sue_(dinosaur)"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Sue, um dos esqueletos de tiranossauro mais completos já encontrados, está exposto num museu de que cidade americana?",
+      "resposta": "Chicago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sue_(dinosaur)"
+      ],
+      "distratores": [
+        "Nova York",
+        "Washington",
+        "Los Angeles"
+      ],
+      "ancora": "sue"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Sue",
+        "descricao": "Esqueleto fóssil de tiranossauro encontrado em 1990 em Dakota do Sul e exposto no Field Museum, em Chicago.",
+        "variantes": [
+          "Sue (dinossauro)",
+          "FMNH PR 2081"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sue_(dinosaur)"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1992, agentes do FBI apreenderam o fóssil do tiranossauro Sue, que estava com a equipe que o escavou. Por quê?",
+      "resposta": "Disputa pela posse do fóssil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sue_(dinosaur)"
+      ],
+      "ancora": "sue"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Parque Provincial Ischigualasto",
+        "descricao": "Área protegida na província de San Juan, na Argentina, apelidada de Vale da Lua e rica em fósseis de dinossauros do Triássico.",
+        "variantes": [
+          "Ischigualasto",
+          "Valle de la Luna",
+          "Vale da Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ischigualasto_Provincial_Park"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O parque de Ischigualasto, apelidado de Vale da Lua e famoso por alguns dos dinossauros mais antigos conhecidos, fica em que país?",
+      "resposta": "Argentina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ischigualasto_Provincial_Park"
+      ],
+      "ancora": "parque_provincial_ischigualasto"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Giganotossauro",
+        "descricao": "Gênero de grande dinossauro terópode carnívoro do Cretáceo da Patagônia argentina, descoberto em 1993.",
+        "variantes": [
+          "Giganotosaurus",
+          "Giganotosaurus carolinii"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giganotosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Descoberto em 1993 por um caçador de fósseis amador, o carnívoro gigante Giganotossauro foi achado em que região do sul da Argentina?",
+      "resposta": "Patagônia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Giganotosaurus"
+      ],
+      "ancora": "giganotossauro"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Lyuba",
+        "descricao": "Filhote de mamute-lanoso encontrado quase intacto em 2007 na península de Iamal, na Rússia.",
+        "variantes": [
+          "Liuba"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lyuba"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Lyuba, filhote de mamute achado quase intacto em 2007 por um pastor de renas, foi encontrada em que grande região da Rússia?",
+      "resposta": "Sibéria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lyuba_(mammoth)"
+      ],
+      "ancora": "lyuba"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Cal Orck'o",
+        "descricao": "Paredão de calcário perto de Sucre, na Bolívia, com milhares de pegadas de dinossauros do Cretáceo.",
+        "variantes": [
+          "Cal Orcko",
+          "Parque Cretácico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cal_Orck%27o"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O paredão de Cal Orcko, uma parede de calcário com milhares de pegadas de dinossauros, fica perto de que cidade boliviana?",
+      "resposta": "Sucre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cal_Orck%27o"
+      ],
+      "distratores": [
+        "La Paz",
+        "Potosí",
+        "Cochabamba"
+      ],
+      "ancora": "cal_orck_o"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Biota de Ediacara",
+        "descricao": "Conjunto de organismos multicelulares de corpo mole do período Ediacarano, anteriores ao Cambriano, batizado com o nome das colinas de Ediacara.",
+        "variantes": [
+          "Fauna de Ediacara",
+          "Biota ediacarana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ediacaran_biota"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As colinas de Ediacara, que deram nome a alguns dos seres multicelulares mais antigos conhecidos, ficam em que país?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ediacaran_biota",
+        "https://en.wikipedia.org/wiki/Ediacara_Hills"
+      ],
+      "distratores": [
+        "Canadá",
+        "China",
+        "Namíbia"
+      ],
+      "ancora": "biota_de_ediacara"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "espinossauro",
+        "nome": "Espinossauro",
+        "descricao": "Gênero de grande dinossauro terópode semiaquático do Cretáceo do norte da África, com uma vela nas costas.",
+        "variantes": [
+          "Spinosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spinosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os fósseis usados para descrever o espinossauro, em 1915, foram achados num oásis do deserto de que país africano?",
+      "resposta": "Egito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spinosaurus"
+      ],
+      "ancora": "espinossauro"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Borealopelta",
+        "descricao": "Gênero de dinossauro nodossaurídeo do Cretáceo encontrado em 2011 numa mina de Alberta, no Canadá, com a armadura e a pele preservadas.",
+        "variantes": [
+          "Borealopelta markmitchelli"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Borealopelta"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2011, um operador de máquinas achou um nodossauro tão bem preservado que parece uma estátua, numa mina de areias betuminosas de que país?",
+      "resposta": "Canadá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Borealopelta"
+      ],
+      "ancora": "borealopelta"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Dippy",
+        "descricao": "Réplica de esqueleto de diplodoco doada ao Museu de História Natural de Londres e exposta lá a partir de 1905.",
+        "variantes": [
+          "Dippy, o diplodoco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dippy"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que magnata americano do aço deu ao Museu de História Natural de Londres a famosa réplica de diplodoco apelidada de Dippy?",
+      "resposta": "Andrew Carnegie",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dippy"
+      ],
+      "ancora": "dippy"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Dinossauros do Palácio de Cristal",
+        "descricao": "Esculturas de dinossauros e outros animais extintos em tamanho real, inauguradas em 1854 no parque do Palácio de Cristal, em Londres.",
+        "variantes": [
+          "Crystal Palace Dinosaurs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escultor inglês criou as estátuas de dinossauros em tamanho real inauguradas em 1854 no parque do Palácio de Cristal, em Londres?",
+      "resposta": "Benjamin Waterhouse Hawkins",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs"
+      ],
+      "ancora": "dinossauros_do_palacio_de_cristal"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Dinossauros do Palácio de Cristal",
+        "descricao": "Esculturas de dinossauros e outros animais extintos em tamanho real, inauguradas em 1854 no parque do Palácio de Cristal, em Londres.",
+        "variantes": [
+          "Crystal Palace Dinosaurs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na véspera do Ano-Novo de 1853, cientistas jantaram dentro do molde de uma das estátuas do Palácio de Cristal. Que dinossauro era?",
+      "resposta": "Iguanodonte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs"
+      ],
+      "ancora": "dinossauros_do_palacio_de_cristal"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Penhascos Flamejantes",
+        "descricao": "Sítio paleontológico de rochas avermelhadas no deserto de Gobi, na Mongólia, famoso por ninhos e ovos de dinossauro.",
+        "variantes": [
+          "Flaming Cliffs",
+          "Bayanzag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flaming_Cliffs"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1920, os Penhascos Flamejantes, na Mongólia, revelaram ninhos de dinossauro a expedições lideradas por que explorador americano?",
+      "resposta": "Roy Chapman Andrews",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flaming_Cliffs",
+        "https://en.wikipedia.org/wiki/Roy_Chapman_Andrews"
+      ],
+      "ancora": "penhascos_flamejantes"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Jurassic Park (romance)",
+        "descricao": "Romance de ficção científica publicado em 1990 sobre um parque de dinossauros recriados a partir de DNA, que deu origem ao filme de 1993.",
+        "variantes": [
+          "Parque dos Dinossauros",
+          "Jurassic Park"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Antes de virar filme de Steven Spielberg, Jurassic Park foi um romance publicado em 1990. Que escritor americano o escreveu?",
+      "resposta": "Michael Crichton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+      ],
+      "ancora": "jurassic_park_romance"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Princípio da sucessão faunística",
+        "descricao": "Princípio da geologia segundo o qual as camadas de rocha contêm conjuntos de fósseis próprios, numa ordem reconhecível.",
+        "variantes": [
+          "Lei da sucessão faunística",
+          "Sucessão de fósseis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Principle_of_faunal_succession"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No início do século dezenove, que agrimensor inglês percebeu que cada camada de rocha guarda fósseis próprios e usou isso num célebre mapa geológico?",
+      "resposta": "William Smith",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Principle_of_faunal_succession",
+        "https://en.wikipedia.org/wiki/William_Smith_(geologist)"
+      ],
+      "ancora": "principio_da_sucessao_faunistica"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Pedras-língua",
+        "descricao": "Objetos de pedra em forma de língua, antes tidos como mágicos, que Nicolau Steno identificou no século dezessete como dentes fossilizados de tubarão.",
+        "variantes": [
+          "Glossopetrae",
+          "Glossopetras"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nicolas_Steno"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século dezessete, ao dissecar a cabeça de um tubarão, que cientista dinamarquês concluiu que as misteriosas pedras-língua eram dentes fossilizados?",
+      "resposta": "Nicolau Steno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nicolas_Steno"
+      ],
+      "ancora": "pedras_lingua"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Pterodáctilo",
+        "descricao": "Gênero de pterossauro do Jurássico Superior da Alemanha, o primeiro réptil voador reconhecido pela ciência.",
+        "variantes": [
+          "Pterodactylus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pterodactylus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No início do século dezenove, que naturalista francês concluiu que o pterodáctilo era um réptil voador, e não um morcego nem uma ave?",
+      "resposta": "Georges Cuvier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pterodactylus",
+        "https://pt.wikipedia.org/wiki/Pterod%C3%A1ctilo"
+      ],
+      "ancora": "pterodactilo"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Tricerátops",
+        "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do fim do Cretáceo da América do Norte, com três chifres e colar ósseo.",
+        "variantes": [
+          "Triceratops"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triceratops"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que paleontólogo americano batizou o tricerátops em 1889, dois anos depois de confundir chifres do animal com os de um bisão gigante?",
+      "resposta": "Othniel Marsh",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triceratops"
+      ],
+      "ancora": "triceratops"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "folhelho_de_burgess",
+        "nome": "Folhelho de Burgess",
+        "descricao": "Formação rochosa nas Montanhas Rochosas do Canadá, famosa por fósseis de animais de corpo mole.",
+        "variantes": [
+          "Burgess Shale",
+          "Xisto de Burgess"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Burgess_Shale"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1909, que paleontólogo americano, então chefe do Instituto Smithsonian, descobriu os fósseis do folhelho de Burgess, no Canadá?",
+      "resposta": "Charles Walcott",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Burgess_Shale",
+        "https://en.wikipedia.org/wiki/Charles_Doolittle_Walcott"
+      ],
+      "ancora": "folhelho_de_burgess"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "toxodonte",
+        "nome": "Toxodonte",
+        "descricao": "Gênero extinto de grande ungulado notoungulado da América do Sul, do Plioceno ao Pleistoceno.",
+        "variantes": [
+          "Toxodon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toxodon"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1833, que jovem naturalista inglês comprou de um fazendeiro no Uruguai, por poucas moedas, o crânio que revelou o toxodonte à ciência?",
+      "resposta": "Charles Darwin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toxodon"
+      ],
+      "ancora": "toxodonte"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Staurikosaurus",
+        "descricao": "Gênero de dinossauro primitivo do Triássico do Rio Grande do Sul, descrito em 1970.",
+        "variantes": [
+          "Estauricossauro",
+          "Staurikosaurus pricei"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Staurikosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O Staurikosaurus, um dos dinossauros mais antigos conhecidos, achado no Rio Grande do Sul, tem nome inspirado em que constelação?",
+      "resposta": "Cruzeiro do Sul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Staurikosaurus"
+      ],
+      "distratores": [
+        "Órion",
+        "Escorpião",
+        "Ursa Maior"
+      ],
+      "ancora": "staurikosaurus"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Tapejara",
+        "descricao": "Gênero de pterossauro do Cretáceo Inferior da Chapada do Araripe, no Ceará, com crista na cabeça.",
+        "variantes": [
+          "Tapejara wellnhoferi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tapejara"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O pterossauro Tapejara, da Chapada do Araripe, tem nome tirado do tupi. O que significa esse nome?",
+      "resposta": "Ser antigo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tapejara_(pterossauro)"
+      ],
+      "distratores": [
+        "Senhor dos ventos",
+        "Asa de fogo",
+        "Pássaro gigante"
+      ],
+      "ancora": "tapejara"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Eoraptor",
+        "descricao": "Gênero de pequeno dinossauro primitivo do Triássico de Ischigualasto, na Argentina.",
+        "variantes": [
+          "Eoraptor lunensis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eoraptor"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do Eoraptor, um dos primeiros dinossauros, achado no noroeste da Argentina, significa ladrão de que momento do dia?",
+      "resposta": "Alvorada (aurora)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eoraptor"
+      ],
+      "ancora": "eoraptor"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Megaloceros",
+        "descricao": "Gênero extinto de cervo gigante da Eurásia no Pleistoceno, de galhadas enormes, conhecido em inglês como Irish elk.",
+        "variantes": [
+          "Alce-irlandês",
+          "Cervo-gigante",
+          "Megaloceros giganteus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Irish_elk"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Megaloceros, cervo gigante extinto de galhadas enormes, ganhou em inglês o apelido de alce de que país, onde muitos fósseis surgiram em turfeiras?",
+      "resposta": "Irlanda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Irish_elk"
+      ],
+      "ancora": "megaloceros"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Quetzalcoatlus",
+        "descricao": "Gênero de pterossauro gigante do fim do Cretáceo da América do Norte.",
+        "variantes": [
+          "Quetzalcoatlo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quetzalcoatlus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo seu descritor, o nome do pterossauro gigante Quetzalcoatlus vem de uma serpente emplumada divina de que povo mexicano?",
+      "resposta": "Astecas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quetzalcoatlus"
+      ],
+      "ancora": "quetzalcoatlus"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Mastodonte",
+        "descricao": "Gênero extinto de proboscídeo parente dos elefantes, que viveu na América do Norte até o fim da última era do gelo.",
+        "variantes": [
+          "Mammut",
+          "Mastodon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mastodon"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome mastodonte vem do formato das saliências de seus dentes, que lembravam que parte do corpo humano?",
+      "resposta": "Mamilos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mastodon"
+      ],
+      "ancora": "mastodonte"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Maiassauro",
+        "descricao": "Gênero de dinossauro hadrossaurídeo do Cretáceo Superior de Montana, encontrado junto a ninhos com filhotes.",
+        "variantes": [
+          "Maiasaura",
+          "Maiasaura peeblesorum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maiasaura"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Achado nos anos setenta junto a ninhos com filhotes, o maiassauro recebeu um nome que o descreve como um lagarto de que tipo?",
+      "resposta": "Boa mãe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maiasaura"
+      ],
+      "ancora": "maiassauro"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Período Triássico",
+        "descricao": "Primeiro período da Era Mesozoica, de cerca de 252 a 201 milhões de anos atrás, quando surgiram os dinossauros.",
+        "variantes": [
+          "Triássico",
+          "Triásico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Triassic"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do período Triássico vem do número três. Esse três se refere a quê?",
+      "resposta": "Três camadas de rocha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Triassic"
+      ],
+      "ancora": "periodo_triassico"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Extinção do Permiano-Triássico",
+        "descricao": "Extinção em massa ocorrida há cerca de 252 milhões de anos, no fim do Permiano, a mais severa conhecida.",
+        "variantes": [
+          "Grande Morte",
+          "Extinção do fim do Permiano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A extinção em massa do fim do Permiano, a mais devastadora já registrada, ganhou que apelido sombrio?",
+      "resposta": "A Grande Morte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event"
+      ],
+      "ancora": "extincao_do_permiano_triassico"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Período Jurássico",
+        "descricao": "Período do meio da Era Mesozoica, de cerca de 201 a 145 milhões de anos atrás.",
+        "variantes": [
+          "Jurássico",
+          "Jurásico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jurassic"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O período Jurássico tem nome de uma cadeia de montanhas que fica na fronteira entre que dois países?",
+      "resposta": "França e Suíça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jurassic",
+        "https://en.wikipedia.org/wiki/Jura_Mountains"
+      ],
+      "ancora": "periodo_jurassico"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "dodo",
+        "nome": "Dodô",
+        "descricao": "Ave não voadora extinta (Raphus cucullatus), endêmica da ilha Maurício, no Oceano Índico.",
+        "variantes": [
+          "Dodo",
+          "Raphus cucullatus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dodo"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Menos de um século depois de ser descrito por marinheiros holandeses, o dodô já tinha desaparecido. Em que século ele foi extinto?",
+      "resposta": "Século dezessete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dodo"
+      ],
+      "ancora": "dodo"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "velociraptor",
+        "nome": "Velociraptor",
+        "descricao": "Gênero de pequeno dinossauro terópode dromeossaurídeo do Cretáceo Superior da Mongólia.",
+        "variantes": [
+          "Velocirraptor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Velociraptor"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Apesar da fama em Jurassic Park, o velociraptor nunca viveu no Jurássico. Em que período ele viveu?",
+      "resposta": "Cretáceo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Velociraptor"
+      ],
+      "ancora": "velociraptor"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "ubirajara_jubatus",
+        "nome": "Ubirajara jubatus",
+        "descricao": "Pequeno dinossauro terópode com estruturas semelhantes a penas, do Cretáceo do Ceará, cujo fóssil foi levado à Alemanha e devolvido ao Brasil.",
+        "variantes": [
+          "Ubirajara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ubirajara_jubatus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de uma campanha de cientistas brasileiros, em que ano o fóssil do dinossauro Ubirajara foi devolvido pela Alemanha ao Ceará?",
+      "resposta": "2023",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ubirajara_jubatus"
+      ],
+      "ancora": "ubirajara_jubatus"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "id_existente": "megalossauro",
+        "nome": "Megalossauro",
+        "descricao": "Gênero de dinossauro terópode do Jurássico Médio da Inglaterra, descrito por William Buckland em 1824.",
+        "variantes": [
+          "Megalosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Megalosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O megalossauro foi o primeiro dinossauro a receber um nome científico válido. Em que década do século dezenove isso aconteceu?",
+      "resposta": "Década de 1820",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Megalosaurus"
+      ],
+      "ancora": "megalossauro"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Dunkleosteus",
+        "descricao": "Gênero extinto de grande peixe placodermo, com placas ósseas na cabeça e mandíbulas cortantes, do Devoniano Superior.",
+        "variantes": [
+          "Dunkleósteo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dunkleosteus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Dunkleosteus, peixe gigante com a cabeça blindada por placas de osso, viveu no período apelidado de era dos peixes. Qual?",
+      "resposta": "Devoniano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dunkleosteus"
+      ],
+      "ancora": "dunkleosteus"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "pterossauro",
+        "nome": "Pterossauro",
+        "descricao": "Grupo extinto de répteis voadores da Era Mesozoica, parentes próximos mas distintos dos dinossauros.",
+        "variantes": [
+          "Pterosauria",
+          "Pterossáurios"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pterosaur"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Os pterossauros, primeiros vertebrados a voar batendo asas, surgiram em que período, praticamente junto com os dinossauros?",
+      "resposta": "Triássico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pterosaur"
+      ],
+      "ancora": "pterossauro"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Dinossauros Lutadores",
+        "descricao": "Fóssil achado na Mongólia em 1971 que preserva um velociraptor e um protocerátops atracados em combate.",
+        "variantes": [
+          "Fighting Dinosaurs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fighting_Dinosaurs"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O famoso fóssil dos Dinossauros Lutadores, achado na Mongólia, mostra um velociraptor atracado com que herbívoro?",
+      "resposta": "Protocerátops",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fighting_Dinosaurs"
+      ],
+      "distratores": [
+        "Tricerátops",
+        "Anquilossauro",
+        "Paquicefalossauro"
+      ],
+      "ancora": "dinossauros_lutadores"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Elasmossauro",
+        "descricao": "Gênero de plesiossauro de pescoço extremamente longo do Cretáceo Superior da América do Norte, descrito por Edward Cope em 1868.",
+        "variantes": [
+          "Elasmosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elasmosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Ao reconstruir o elasmossauro no século dezenove, Edward Cope cometeu um erro célebre: pôs a cabeça na ponta de que parte do corpo?",
+      "resposta": "Cauda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elasmosaurus"
+      ],
+      "ancora": "elasmossauro"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Era Mesozoica",
+        "descricao": "Era geológica de cerca de 252 a 66 milhões de anos atrás, dividida em Triássico, Jurássico e Cretáceo, conhecida como era dos dinossauros.",
+        "variantes": [
+          "Mesozoico",
+          "Era dos Répteis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mesozoic"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A Era Mesozoica, a era dos dinossauros, é dividida em três períodos. Qual deles fica no meio?",
+      "resposta": "Jurássico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mesozoic"
+      ],
+      "distratores": [
+        "Triássico",
+        "Cretáceo",
+        "Permiano"
+      ],
+      "ancora": "era_mesozoica"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Glossopteris",
+        "descricao": "Gênero extinto de plantas com sementes do Permiano, cujos fósseis aparecem em todos os continentes que formavam Gondwana.",
+        "variantes": [
+          "Glossópteris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Glossopteris"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1912, fósseis da planta Glossopteris foram achados junto aos corpos de que explorador britânico, morto na volta do Polo Sul?",
+      "resposta": "Robert Falcon Scott",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Glossopteris",
+        "https://en.wikipedia.org/wiki/Terra_Nova_Expedition"
+      ],
+      "ancora": "glossopteris"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Aves-do-terror",
+        "descricao": "Família extinta de grandes aves predadoras que não voavam, principalmente da América do Sul, os forusracídeos.",
+        "variantes": [
+          "Phorusrhacidae",
+          "Forusracídeos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Phorusrhacidae"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "As extintas aves-do-terror, grandes predadoras que não voavam, têm como parentes vivos mais próximos que aves sul-americanas?",
+      "resposta": "Seriemas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Phorusrhacidae"
+      ],
+      "distratores": [
+        "Emas",
+        "Carcarás",
+        "Gaviões-reais"
+      ],
+      "ancora": "aves_do_terror"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Microraptor",
+        "descricao": "Gênero de pequeno dinossauro dromeossaurídeo do Cretáceo Inferior da China, com penas de voo nos braços e nas pernas.",
+        "variantes": [
+          "Microraptor gui"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microraptor"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O Microraptor, pequeno dinossauro achado na China, tinha penas longas de voo em quantos membros do corpo?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microraptor"
+      ],
+      "ancora": "microraptor"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Anquilossauro",
+        "descricao": "Gênero de dinossauro herbívoro encouraçado do fim do Cretáceo da América do Norte.",
+        "variantes": [
+          "Ankylosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ankylosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O anquilossauro, herbívoro coberto de placas ósseas, tinha na ponta da cauda que arma de defesa?",
+      "resposta": "Clava óssea",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ankylosaurus"
+      ],
+      "ancora": "anquilossauro"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "id_existente": "brontossauro",
+        "nome": "Brontossauro",
+        "descricao": "Gênero de dinossauro saurópode de pescoço longo do Jurássico Superior da América do Norte, batizado em 1879.",
+        "variantes": [
+          "Brontosaurus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brontosaurus"
+        ]
+      },
+      "tema": "Natureza",
+      "subtema": "Dinossauros e Fósseis",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Durante mais de um século, muitos cientistas consideraram inválido o nome brontossauro. Por quê?",
+      "resposta": "Era sinônimo de apatossauro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brontosaurus"
+      ],
+      "ancora": "brontossauro"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "peiropolis",
+      "nome": "Peirópolis",
+      "descricao": "Bairro rural de Uberaba, em Minas Gerais, famoso por fósseis de titanossauros e pelo Museu dos Dinossauros.",
+      "variantes": [
+        "Peirópolis (Uberaba)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Peirópolis"
+      ]
+    },
+    {
+      "id": "chapada_do_araripe",
+      "nome": "Chapada do Araripe",
+      "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+      "variantes": [
+        "Araripe",
+        "Bacia do Araripe"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Chapada_do_Araripe"
+      ]
+    },
+    {
+      "id": "oxalaia",
+      "nome": "Oxalaia",
+      "descricao": "Gênero de dinossauro espinossaurídeo do Cretáceo do Maranhão, descrito em 2011 e batizado em homenagem ao orixá Oxalá.",
+      "variantes": [
+        "Oxalaia quilombensis"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Oxalaia"
+      ]
+    },
+    {
+      "id": "sue",
+      "nome": "Sue",
+      "descricao": "Esqueleto fóssil de tiranossauro encontrado em 1990 em Dakota do Sul e exposto no Field Museum, em Chicago.",
+      "variantes": [
+        "Sue (dinossauro)",
+        "FMNH PR 2081"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sue_(dinosaur)"
+      ]
+    },
+    {
+      "id": "parque_provincial_ischigualasto",
+      "nome": "Parque Provincial Ischigualasto",
+      "descricao": "Área protegida na província de San Juan, na Argentina, apelidada de Vale da Lua e rica em fósseis de dinossauros do Triássico.",
+      "variantes": [
+        "Ischigualasto",
+        "Valle de la Luna",
+        "Vale da Lua"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ischigualasto_Provincial_Park"
+      ]
+    },
+    {
+      "id": "giganotossauro",
+      "nome": "Giganotossauro",
+      "descricao": "Gênero de grande dinossauro terópode carnívoro do Cretáceo da Patagônia argentina, descoberto em 1993.",
+      "variantes": [
+        "Giganotosaurus",
+        "Giganotosaurus carolinii"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Giganotosaurus"
+      ]
+    },
+    {
+      "id": "lyuba",
+      "nome": "Lyuba",
+      "descricao": "Filhote de mamute-lanoso encontrado quase intacto em 2007 na península de Iamal, na Rússia.",
+      "variantes": [
+        "Liuba"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lyuba"
+      ]
+    },
+    {
+      "id": "cal_orck_o",
+      "nome": "Cal Orck'o",
+      "descricao": "Paredão de calcário perto de Sucre, na Bolívia, com milhares de pegadas de dinossauros do Cretáceo.",
+      "variantes": [
+        "Cal Orcko",
+        "Parque Cretácico"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Cal_Orck%27o"
+      ]
+    },
+    {
+      "id": "biota_de_ediacara",
+      "nome": "Biota de Ediacara",
+      "descricao": "Conjunto de organismos multicelulares de corpo mole do período Ediacarano, anteriores ao Cambriano, batizado com o nome das colinas de Ediacara.",
+      "variantes": [
+        "Fauna de Ediacara",
+        "Biota ediacarana"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ediacaran_biota"
+      ]
+    },
+    {
+      "id": "borealopelta",
+      "nome": "Borealopelta",
+      "descricao": "Gênero de dinossauro nodossaurídeo do Cretáceo encontrado em 2011 numa mina de Alberta, no Canadá, com a armadura e a pele preservadas.",
+      "variantes": [
+        "Borealopelta markmitchelli"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Borealopelta"
+      ]
+    },
+    {
+      "id": "dippy",
+      "nome": "Dippy",
+      "descricao": "Réplica de esqueleto de diplodoco doada ao Museu de História Natural de Londres e exposta lá a partir de 1905.",
+      "variantes": [
+        "Dippy, o diplodoco"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dippy"
+      ]
+    },
+    {
+      "id": "dinossauros_do_palacio_de_cristal",
+      "nome": "Dinossauros do Palácio de Cristal",
+      "descricao": "Esculturas de dinossauros e outros animais extintos em tamanho real, inauguradas em 1854 no parque do Palácio de Cristal, em Londres.",
+      "variantes": [
+        "Crystal Palace Dinosaurs"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs"
+      ]
+    },
+    {
+      "id": "penhascos_flamejantes",
+      "nome": "Penhascos Flamejantes",
+      "descricao": "Sítio paleontológico de rochas avermelhadas no deserto de Gobi, na Mongólia, famoso por ninhos e ovos de dinossauro.",
+      "variantes": [
+        "Flaming Cliffs",
+        "Bayanzag"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Flaming_Cliffs"
+      ]
+    },
+    {
+      "id": "jurassic_park_romance",
+      "nome": "Jurassic Park (romance)",
+      "descricao": "Romance de ficção científica publicado em 1990 sobre um parque de dinossauros recriados a partir de DNA, que deu origem ao filme de 1993.",
+      "variantes": [
+        "Parque dos Dinossauros",
+        "Jurassic Park"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+      ]
+    },
+    {
+      "id": "principio_da_sucessao_faunistica",
+      "nome": "Princípio da sucessão faunística",
+      "descricao": "Princípio da geologia segundo o qual as camadas de rocha contêm conjuntos de fósseis próprios, numa ordem reconhecível.",
+      "variantes": [
+        "Lei da sucessão faunística",
+        "Sucessão de fósseis"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Principle_of_faunal_succession"
+      ]
+    },
+    {
+      "id": "pedras_lingua",
+      "nome": "Pedras-língua",
+      "descricao": "Objetos de pedra em forma de língua, antes tidos como mágicos, que Nicolau Steno identificou no século dezessete como dentes fossilizados de tubarão.",
+      "variantes": [
+        "Glossopetrae",
+        "Glossopetras"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nicolas_Steno"
+      ]
+    },
+    {
+      "id": "pterodactilo",
+      "nome": "Pterodáctilo",
+      "descricao": "Gênero de pterossauro do Jurássico Superior da Alemanha, o primeiro réptil voador reconhecido pela ciência.",
+      "variantes": [
+        "Pterodactylus"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pterodactylus"
+      ]
+    },
+    {
+      "id": "triceratops",
+      "nome": "Tricerátops",
+      "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do fim do Cretáceo da América do Norte, com três chifres e colar ósseo.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Triceratops"
+      ]
+    },
+    {
+      "id": "staurikosaurus",
+      "nome": "Staurikosaurus",
+      "descricao": "Gênero de dinossauro primitivo do Triássico do Rio Grande do Sul, descrito em 1970.",
+      "variantes": [
+        "Estauricossauro",
+        "Staurikosaurus pricei"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Staurikosaurus"
+      ]
+    },
+    {
+      "id": "tapejara",
+      "nome": "Tapejara",
+      "descricao": "Gênero de pterossauro do Cretáceo Inferior da Chapada do Araripe, no Ceará, com crista na cabeça.",
+      "variantes": [
+        "Tapejara wellnhoferi"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tapejara"
+      ]
+    },
+    {
+      "id": "eoraptor",
+      "nome": "Eoraptor",
+      "descricao": "Gênero de pequeno dinossauro primitivo do Triássico de Ischigualasto, na Argentina.",
+      "variantes": [
+        "Eoraptor lunensis"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Eoraptor"
+      ]
+    },
+    {
+      "id": "megaloceros",
+      "nome": "Megaloceros",
+      "descricao": "Gênero extinto de cervo gigante da Eurásia no Pleistoceno, de galhadas enormes, conhecido em inglês como Irish elk.",
+      "variantes": [
+        "Alce-irlandês",
+        "Cervo-gigante",
+        "Megaloceros giganteus"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Irish_elk"
+      ]
+    },
+    {
+      "id": "quetzalcoatlus",
+      "nome": "Quetzalcoatlus",
+      "descricao": "Gênero de pterossauro gigante do fim do Cretáceo da América do Norte.",
+      "variantes": [
+        "Quetzalcoatlo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Quetzalcoatlus"
+      ]
+    },
+    {
+      "id": "mastodonte",
+      "nome": "Mastodonte",
+      "descricao": "Gênero extinto de proboscídeo parente dos elefantes, que viveu na América do Norte até o fim da última era do gelo.",
+      "variantes": [
+        "Mammut",
+        "Mastodon"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mastodon"
+      ]
+    },
+    {
+      "id": "maiassauro",
+      "nome": "Maiassauro",
+      "descricao": "Gênero de dinossauro hadrossaurídeo do Cretáceo Superior de Montana, encontrado junto a ninhos com filhotes.",
+      "variantes": [
+        "Maiasaura",
+        "Maiasaura peeblesorum"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Maiasaura"
+      ]
+    },
+    {
+      "id": "periodo_triassico",
+      "nome": "Período Triássico",
+      "descricao": "Primeiro período da Era Mesozoica, de cerca de 252 a 201 milhões de anos atrás, quando surgiram os dinossauros.",
+      "variantes": [
+        "Triássico",
+        "Triásico"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Triassic"
+      ]
+    },
+    {
+      "id": "periodo_jurassico",
+      "nome": "Período Jurássico",
+      "descricao": "Período do meio da Era Mesozoica, de cerca de 201 a 145 milhões de anos atrás.",
+      "variantes": [
+        "Jurássico",
+        "Jurásico"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Jurassic"
+      ]
+    },
+    {
+      "id": "dunkleosteus",
+      "nome": "Dunkleosteus",
+      "descricao": "Gênero extinto de grande peixe placodermo, com placas ósseas na cabeça e mandíbulas cortantes, do Devoniano Superior.",
+      "variantes": [
+        "Dunkleósteo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dunkleosteus"
+      ]
+    },
+    {
+      "id": "dinossauros_lutadores",
+      "nome": "Dinossauros Lutadores",
+      "descricao": "Fóssil achado na Mongólia em 1971 que preserva um velociraptor e um protocerátops atracados em combate.",
+      "variantes": [
+        "Fighting Dinosaurs"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fighting_Dinosaurs"
+      ]
+    },
+    {
+      "id": "elasmossauro",
+      "nome": "Elasmossauro",
+      "descricao": "Gênero de plesiossauro de pescoço extremamente longo do Cretáceo Superior da América do Norte, descrito por Edward Cope em 1868.",
+      "variantes": [
+        "Elasmosaurus"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Elasmosaurus"
+      ]
+    },
+    {
+      "id": "glossopteris",
+      "nome": "Glossopteris",
+      "descricao": "Gênero extinto de plantas com sementes do Permiano, cujos fósseis aparecem em todos os continentes que formavam Gondwana.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Glossopteris"
+      ]
+    },
+    {
+      "id": "aves_do_terror",
+      "nome": "Aves-do-terror",
+      "descricao": "Família extinta de grandes aves predadoras que não voavam, principalmente da América do Sul, os forusracídeos.",
+      "variantes": [
+        "Phorusrhacidae",
+        "Forusracídeos"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Phorusrhacidae"
+      ]
+    },
+    {
+      "id": "microraptor",
+      "nome": "Microraptor",
+      "descricao": "Gênero de pequeno dinossauro dromeossaurídeo do Cretáceo Inferior da China, com penas de voo nos braços e nas pernas.",
+      "variantes": [
+        "Microraptor gui"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Microraptor"
+      ]
+    },
+    {
+      "id": "anquilossauro",
+      "nome": "Anquilossauro",
+      "descricao": "Gênero de dinossauro herbívoro encouraçado do fim do Cretáceo da América do Norte.",
+      "variantes": [
+        "Ankylosaurus"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ankylosaurus"
+      ]
+    }
+  ],
+  "variantes": {
+    "espinossauro": [
+      "Espinossauro",
+      "Spinosaurus"
+    ],
+    "folhelho_de_burgess": [
+      "Folhelho de Burgess",
+      "Burgess Shale",
+      "Xisto de Burgess"
+    ],
+    "toxodonte": [
+      "Toxodonte",
+      "Toxodon"
+    ],
+    "dodo": [
+      "Dodô",
+      "Dodo",
+      "Raphus cucullatus"
+    ],
+    "velociraptor": [
+      "Velociraptor",
+      "Velocirraptor"
+    ],
+    "ubirajara_jubatus": [
+      "Ubirajara jubatus",
+      "Ubirajara"
+    ],
+    "megalossauro": [
+      "Megalossauro",
+      "Megalosaurus"
+    ],
+    "pterossauro": [
+      "Pterossauro",
+      "Pterosauria",
+      "Pterossáurios"
+    ],
+    "brontossauro": [
+      "Brontossauro",
+      "Brontosaurus"
+    ],
+    "familia_dinossauros": [
+      "Família Dinossauro",
+      "Dinosaurs",
+      "A Família Dinossauro"
+    ],
+    "gondwana": [
+      "Gondwana",
+      "Gonduana",
+      "Gondwanalândia"
+    ],
+    "extincao_do_permiano_triassico": [
+      "Extinção do Permiano-Triássico",
+      "Grande Morte",
+      "Extinção do fim do Permiano"
+    ],
+    "meganeura": [
+      "Meganeura",
+      "Meganeura monyi"
+    ],
+    "era_mesozoica": [
+      "Era Mesozoica",
+      "Mesozoico",
+      "Era dos Répteis"
+    ]
+  }
+}

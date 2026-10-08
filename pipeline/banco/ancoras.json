@@ -16997,7 +16997,9 @@
     "nome": "Família Dinossauros",
     "descricao": "Sitcom americana de 1991 a 1994 sobre uma família de dinossauros, feita com bonecos animatrônicos.",
     "variantes": [
-      "Dinosaurs"
+      "Dinosaurs",
+      "Família Dinossauro",
+      "A Família Dinossauro"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Dinosaurs_(TV_series)"
@@ -42193,7 +42195,8 @@
     "descricao": "Grupo extinto de répteis voadores da Era Mesozoica, parentes próximos mas distintos dos dinossauros.",
     "variantes": [
       "Pterosauria",
-      "Pterossauros"
+      "Pterossauros",
+      "Pterossáurios"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pterosaur"
@@ -63960,7 +63963,9 @@
     "descricao": "Antigo supercontinente do hemisfério sul que reunia América do Sul, África, Antártida, Austrália e Índia.",
     "variantes": [
       "Gondvana",
-      "Gondwanaland"
+      "Gondwanaland",
+      "Gonduana",
+      "Gondwanalândia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gondwana"
@@ -76874,7 +76879,8 @@
     "descricao": "Era geológica entre cerca de 252 e 66 milhões de anos atrás, dividida em Triássico, Jurássico e Cretáceo, conhecida como a era dos dinossauros.",
     "variantes": [
       "Mesozoico",
-      "Mesozoic"
+      "Mesozoic",
+      "Era dos Répteis"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mesozoic"
@@ -100494,7 +100500,10 @@
       "wikidata": "Q283596",
       "pt": 486,
       "en": 8414
-    }
+    },
+    "variantes": [
+      "Meganeura monyi"
+    ]
   },
   {
     "id": "gafanhoto_das_montanhas_rochosas",
@@ -117354,6 +117363,393 @@
     ],
     "fontes": [
       "https://bulbapedia.bulbagarden.net/wiki/Chatot_(Pok%C3%A9mon)"
+    ]
+  },
+  {
+    "id": "peiropolis",
+    "nome": "Peirópolis",
+    "descricao": "Bairro rural de Uberaba, em Minas Gerais, famoso por fósseis de titanossauros e pelo Museu dos Dinossauros.",
+    "variantes": [
+      "Peirópolis (Uberaba)"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Peirópolis"
+    ]
+  },
+  {
+    "id": "chapada_do_araripe",
+    "nome": "Chapada do Araripe",
+    "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+    "variantes": [
+      "Araripe",
+      "Bacia do Araripe"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Chapada_do_Araripe"
+    ]
+  },
+  {
+    "id": "oxalaia",
+    "nome": "Oxalaia",
+    "descricao": "Gênero de dinossauro espinossaurídeo do Cretáceo do Maranhão, descrito em 2011 e batizado em homenagem ao orixá Oxalá.",
+    "variantes": [
+      "Oxalaia quilombensis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oxalaia"
+    ]
+  },
+  {
+    "id": "sue",
+    "nome": "Sue",
+    "descricao": "Esqueleto fóssil de tiranossauro encontrado em 1990 em Dakota do Sul e exposto no Field Museum, em Chicago.",
+    "variantes": [
+      "Sue (dinossauro)",
+      "FMNH PR 2081"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sue_(dinosaur)"
+    ]
+  },
+  {
+    "id": "parque_provincial_ischigualasto",
+    "nome": "Parque Provincial Ischigualasto",
+    "descricao": "Área protegida na província de San Juan, na Argentina, apelidada de Vale da Lua e rica em fósseis de dinossauros do Triássico.",
+    "variantes": [
+      "Ischigualasto",
+      "Valle de la Luna",
+      "Vale da Lua"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ischigualasto_Provincial_Park"
+    ]
+  },
+  {
+    "id": "giganotossauro",
+    "nome": "Giganotossauro",
+    "descricao": "Gênero de grande dinossauro terópode carnívoro do Cretáceo da Patagônia argentina, descoberto em 1993.",
+    "variantes": [
+      "Giganotosaurus",
+      "Giganotosaurus carolinii"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Giganotosaurus"
+    ]
+  },
+  {
+    "id": "lyuba",
+    "nome": "Lyuba",
+    "descricao": "Filhote de mamute-lanoso encontrado quase intacto em 2007 na península de Iamal, na Rússia.",
+    "variantes": [
+      "Liuba"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lyuba"
+    ]
+  },
+  {
+    "id": "cal_orck_o",
+    "nome": "Cal Orck'o",
+    "descricao": "Paredão de calcário perto de Sucre, na Bolívia, com milhares de pegadas de dinossauros do Cretáceo.",
+    "variantes": [
+      "Cal Orcko",
+      "Parque Cretácico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cal_Orck%27o"
+    ]
+  },
+  {
+    "id": "biota_de_ediacara",
+    "nome": "Biota de Ediacara",
+    "descricao": "Conjunto de organismos multicelulares de corpo mole do período Ediacarano, anteriores ao Cambriano, batizado com o nome das colinas de Ediacara.",
+    "variantes": [
+      "Fauna de Ediacara",
+      "Biota ediacarana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ediacaran_biota"
+    ]
+  },
+  {
+    "id": "borealopelta",
+    "nome": "Borealopelta",
+    "descricao": "Gênero de dinossauro nodossaurídeo do Cretáceo encontrado em 2011 numa mina de Alberta, no Canadá, com a armadura e a pele preservadas.",
+    "variantes": [
+      "Borealopelta markmitchelli"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Borealopelta"
+    ]
+  },
+  {
+    "id": "dippy",
+    "nome": "Dippy",
+    "descricao": "Réplica de esqueleto de diplodoco doada ao Museu de História Natural de Londres e exposta lá a partir de 1905.",
+    "variantes": [
+      "Dippy, o diplodoco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dippy"
+    ]
+  },
+  {
+    "id": "dinossauros_do_palacio_de_cristal",
+    "nome": "Dinossauros do Palácio de Cristal",
+    "descricao": "Esculturas de dinossauros e outros animais extintos em tamanho real, inauguradas em 1854 no parque do Palácio de Cristal, em Londres.",
+    "variantes": [
+      "Crystal Palace Dinosaurs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Crystal_Palace_Dinosaurs"
+    ]
+  },
+  {
+    "id": "penhascos_flamejantes",
+    "nome": "Penhascos Flamejantes",
+    "descricao": "Sítio paleontológico de rochas avermelhadas no deserto de Gobi, na Mongólia, famoso por ninhos e ovos de dinossauro.",
+    "variantes": [
+      "Flaming Cliffs",
+      "Bayanzag"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flaming_Cliffs"
+    ]
+  },
+  {
+    "id": "jurassic_park_romance",
+    "nome": "Jurassic Park (romance)",
+    "descricao": "Romance de ficção científica publicado em 1990 sobre um parque de dinossauros recriados a partir de DNA, que deu origem ao filme de 1993.",
+    "variantes": [
+      "Parque dos Dinossauros",
+      "Jurassic Park"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jurassic_Park_(novel)"
+    ]
+  },
+  {
+    "id": "principio_da_sucessao_faunistica",
+    "nome": "Princípio da sucessão faunística",
+    "descricao": "Princípio da geologia segundo o qual as camadas de rocha contêm conjuntos de fósseis próprios, numa ordem reconhecível.",
+    "variantes": [
+      "Lei da sucessão faunística",
+      "Sucessão de fósseis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Principle_of_faunal_succession"
+    ]
+  },
+  {
+    "id": "pedras_lingua",
+    "nome": "Pedras-língua",
+    "descricao": "Objetos de pedra em forma de língua, antes tidos como mágicos, que Nicolau Steno identificou no século dezessete como dentes fossilizados de tubarão.",
+    "variantes": [
+      "Glossopetrae",
+      "Glossopetras"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nicolas_Steno"
+    ]
+  },
+  {
+    "id": "pterodactilo",
+    "nome": "Pterodáctilo",
+    "descricao": "Gênero de pterossauro do Jurássico Superior da Alemanha, o primeiro réptil voador reconhecido pela ciência.",
+    "variantes": [
+      "Pterodactylus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pterodactylus"
+    ]
+  },
+  {
+    "id": "triceratops",
+    "nome": "Tricerátops",
+    "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do fim do Cretáceo da América do Norte, com três chifres e colar ósseo.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Triceratops"
+    ]
+  },
+  {
+    "id": "staurikosaurus",
+    "nome": "Staurikosaurus",
+    "descricao": "Gênero de dinossauro primitivo do Triássico do Rio Grande do Sul, descrito em 1970.",
+    "variantes": [
+      "Estauricossauro",
+      "Staurikosaurus pricei"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Staurikosaurus"
+    ]
+  },
+  {
+    "id": "tapejara",
+    "nome": "Tapejara",
+    "descricao": "Gênero de pterossauro do Cretáceo Inferior da Chapada do Araripe, no Ceará, com crista na cabeça.",
+    "variantes": [
+      "Tapejara wellnhoferi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tapejara"
+    ]
+  },
+  {
+    "id": "eoraptor",
+    "nome": "Eoraptor",
+    "descricao": "Gênero de pequeno dinossauro primitivo do Triássico de Ischigualasto, na Argentina.",
+    "variantes": [
+      "Eoraptor lunensis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eoraptor"
+    ]
+  },
+  {
+    "id": "megaloceros",
+    "nome": "Megaloceros",
+    "descricao": "Gênero extinto de cervo gigante da Eurásia no Pleistoceno, de galhadas enormes, conhecido em inglês como Irish elk.",
+    "variantes": [
+      "Alce-irlandês",
+      "Cervo-gigante",
+      "Megaloceros giganteus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Irish_elk"
+    ]
+  },
+  {
+    "id": "quetzalcoatlus",
+    "nome": "Quetzalcoatlus",
+    "descricao": "Gênero de pterossauro gigante do fim do Cretáceo da América do Norte.",
+    "variantes": [
+      "Quetzalcoatlo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Quetzalcoatlus"
+    ]
+  },
+  {
+    "id": "mastodonte",
+    "nome": "Mastodonte",
+    "descricao": "Gênero extinto de proboscídeo parente dos elefantes, que viveu na América do Norte até o fim da última era do gelo.",
+    "variantes": [
+      "Mammut",
+      "Mastodon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mastodon"
+    ]
+  },
+  {
+    "id": "maiassauro",
+    "nome": "Maiassauro",
+    "descricao": "Gênero de dinossauro hadrossaurídeo do Cretáceo Superior de Montana, encontrado junto a ninhos com filhotes.",
+    "variantes": [
+      "Maiasaura",
+      "Maiasaura peeblesorum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maiasaura"
+    ]
+  },
+  {
+    "id": "periodo_triassico",
+    "nome": "Período Triássico",
+    "descricao": "Primeiro período da Era Mesozoica, de cerca de 252 a 201 milhões de anos atrás, quando surgiram os dinossauros.",
+    "variantes": [
+      "Triássico",
+      "Triásico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Triassic"
+    ]
+  },
+  {
+    "id": "periodo_jurassico",
+    "nome": "Período Jurássico",
+    "descricao": "Período do meio da Era Mesozoica, de cerca de 201 a 145 milhões de anos atrás.",
+    "variantes": [
+      "Jurássico",
+      "Jurásico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jurassic"
+    ]
+  },
+  {
+    "id": "dunkleosteus",
+    "nome": "Dunkleosteus",
+    "descricao": "Gênero extinto de grande peixe placodermo, com placas ósseas na cabeça e mandíbulas cortantes, do Devoniano Superior.",
+    "variantes": [
+      "Dunkleósteo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dunkleosteus"
+    ]
+  },
+  {
+    "id": "dinossauros_lutadores",
+    "nome": "Dinossauros Lutadores",
+    "descricao": "Fóssil achado na Mongólia em 1971 que preserva um velociraptor e um protocerátops atracados em combate.",
+    "variantes": [
+      "Fighting Dinosaurs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fighting_Dinosaurs"
+    ]
+  },
+  {
+    "id": "elasmossauro",
+    "nome": "Elasmossauro",
+    "descricao": "Gênero de plesiossauro de pescoço extremamente longo do Cretáceo Superior da América do Norte, descrito por Edward Cope em 1868.",
+    "variantes": [
+      "Elasmosaurus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elasmosaurus"
+    ]
+  },
+  {
+    "id": "glossopteris",
+    "nome": "Glossopteris",
+    "descricao": "Gênero extinto de plantas com sementes do Permiano, cujos fósseis aparecem em todos os continentes que formavam Gondwana.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Glossopteris"
+    ]
+  },
+  {
+    "id": "aves_do_terror",
+    "nome": "Aves-do-terror",
+    "descricao": "Família extinta de grandes aves predadoras que não voavam, principalmente da América do Sul, os forusracídeos.",
+    "variantes": [
+      "Phorusrhacidae",
+      "Forusracídeos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Phorusrhacidae"
+    ]
+  },
+  {
+    "id": "microraptor",
+    "nome": "Microraptor",
+    "descricao": "Gênero de pequeno dinossauro dromeossaurídeo do Cretáceo Inferior da China, com penas de voo nos braços e nas pernas.",
+    "variantes": [
+      "Microraptor gui"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Microraptor"
+    ]
+  },
+  {
+    "id": "anquilossauro",
+    "nome": "Anquilossauro",
+    "descricao": "Gênero de dinossauro herbívoro encouraçado do fim do Cretáceo da América do Norte.",
+    "variantes": [
+      "Ankylosaurus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ankylosaurus"
     ]
   }
 ]
