@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto do espaço' não é confirmado para esta foto, 'avermelhadas' é pista que não distingue (Retba e Hillier também são rosados) e Magadi fica ao lado do Natron, no mesmo Rifte, e é defensável. Simplifiquei o enunciado e troquei os distratores.",
+      "reescrita": {
+        "pergunta": "Que lago salino africano é este?",
+        "resposta": "Lago Natron",
+        "distratores": [
+          "Lago Retba",
+          "Lago Assal",
+          "Lago Bogoria"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pico é o ponto mais alto do município de São Paulo. O enunciado não vaza a resposta e os distratores são capitais plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado não vaza a resposta e os hoodoos tornam a imagem reconhecível.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A mais alta da América do Norte' permite responder Alasca com a imagem coberta, então a figura vira enfeite. Removi a pista.",
+      "reescrita": {
+        "pergunta": "Em que estado americano fica esta montanha?",
+        "resposta": "Alasca",
+        "distratores": [
+          "Colorado",
+          "Wyoming",
+          "Washington"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Comum no sul do México' é impreciso, já que Yucatán fica no sudeste/leste da península. Reformulei sem localização imprecisa e sem pista que entregue.",
+      "reescrita": {
+        "pergunta": "Como se chama, no México, este tipo de formação natural?",
+        "resposta": "Cenote",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Arco Delicado fica em Utah e tem 16 metros, de arenito. O enunciado não vaza a resposta e os distratores são estados plausíveis, nenhum correto para esta imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Em 'país', o Reino Unido também é resposta defensável. Especifiquei o país constituinte.",
+      "reescrita": {
+        "pergunta": "Em que país do Reino Unido fica este arco natural à beira-mar?",
+        "resposta": "Inglaterra",
+        "distratores": []
+      }
+    }
+  ]
+}

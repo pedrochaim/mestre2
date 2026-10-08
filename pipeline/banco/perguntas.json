@@ -142799,5 +142799,139 @@
       "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q08365",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_natron",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que lago salino africano é este?",
+    "resposta": "Lago Natron",
+    "distratores": [
+      "Lago Retba",
+      "Lago Assal",
+      "Lago Bogoria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Natron",
+      "https://pt.wikipedia.org/wiki/Lago_Natron"
+    ],
+    "imagem": {
+      "arquivo": "q08365.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lake_Natron_(Tanzania)_–_2017-03-06_(very_early_in_rainy_season)_–_satellite_image_(cropped).jpg",
+      "autor": "Joshua Stevens/NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08366",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "pico_do_jaragua",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que capital brasileira fica este pico?",
+    "resposta": "São Paulo",
+    "distratores": [
+      "Belo Horizonte",
+      "Rio de Janeiro",
+      "Curitiba"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_do_Jaragu%C3%A1",
+      "https://en.wikipedia.org/wiki/Pico_do_Jaragu%C3%A1"
+    ],
+    "imagem": {
+      "arquivo": "q08366.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pico_do_Jaraguá_-_1135_m,_ponto_mais_alto_da_metrópole_de_São_Paulo,_SP,_visto_da_Rodovia_dos_Bandeirantes_-_panoramio.jpg",
+      "autor": "Ivano Gutz",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08367",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "bryce_canyon",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que parque nacional dos Estados Unidos é este?",
+    "resposta": "Bryce Canyon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park",
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Bryce_Canyon"
+    ],
+    "imagem": {
+      "arquivo": "q08367.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg",
+      "autor": "Luca Galuzzi (Lucag)",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q08368",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "denali",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado americano fica esta montanha?",
+    "resposta": "Alasca",
+    "distratores": [
+      "Colorado",
+      "Wyoming",
+      "Washington"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Denali",
+      "https://pt.wikipedia.org/wiki/Monte_Denali"
+    ],
+    "imagem": {
+      "arquivo": "q08368.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wonder_Lake_and_Denali.jpg",
+      "autor": "Denali National Park and Preserve",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08369",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "cenote_ik_kil",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Como se chama, no México, este tipo de formação natural?",
+    "resposta": "Cenote",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ik_Kil"
+    ],
+    "imagem": {
+      "arquivo": "q08369.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cenote-ik-kil.png",
+      "autor": "Dmadeo",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q08370",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "durdle_door",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país do Reino Unido fica este arco natural à beira-mar?",
+    "resposta": "Inglaterra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Durdle_Door",
+      "https://pt.wikipedia.org/wiki/Durdle_Door"
+    ],
+    "imagem": {
+      "arquivo": "q08370.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Durdle_Door_-_geograph.org.uk_-_779451.jpg",
+      "autor": "jacob",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

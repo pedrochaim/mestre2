@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que lago salino africano é este?",
+        "resposta": "Lago Natron"
+      },
+      "existentes": [
+        {
+          "id": "q02863",
+          "pergunta": "O lago Natron, na Tanzânia, tem o nome de um mineral que os antigos egípcios usavam em que prática funerária?",
+          "resposta": "Mumificação"
+        },
+        {
+          "id": "q07177",
+          "pergunta": "De águas muito alcalinas e avermelhadas, o lago Natron, na Tanzânia, é o principal local de reprodução de qual ave?",
+          "resposta": "Flamingo-pequeno"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que estado dos Estados Unidos fica este arco natural de arenito?",
+        "resposta": "Utah"
+      },
+      "existentes": [
+        {
+          "id": "q06697",
+          "pergunta": "O Delicate Arch, arco de arenito que já estampou as placas de carro do seu estado, fica em que estado americano?",
+          "resposta": "Utah"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do lago (imagem); as existentes perguntam sobre mineral/mumificação e flamingos, fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em que estado americano fica o Delicate Arch, com resposta Utah."
+    }
+  ]
+}

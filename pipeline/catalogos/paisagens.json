@@ -215,7 +215,7 @@
       "titulo": "en:Lake Natron",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Socotra",
@@ -341,7 +341,7 @@
       "titulo": "en:Mont Blanc",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lago Paranoá",
@@ -404,14 +404,14 @@
       "titulo": "en:Bryce Canyon National Park",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Arco Delicado",
       "titulo": "en:Delicate Arch",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ilhas Phi Phi",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "Pedra Furada (Jericoacoara)",
+      "titulo": "pt:Pedra Furada (Jericoacoara)",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cascata do Caracol",
+      "titulo": "pt:Cascata do Caracol",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra do Telégrafo",
+      "titulo": "pt:Pedra do Telégrafo",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia do Sancho",
+      "titulo": "pt:Praia do Sancho",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Morro de São Paulo",
+      "titulo": "pt:Morro de São Paulo",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion do Xingó",
+      "titulo": "pt:Cânion do Xingó",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Kilauea",
+      "titulo": "en:Kīlauea",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vale da Morte",
+      "titulo": "en:Death Valley",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Olimpo",
+      "titulo": "en:Mount Olympus",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Sinai",
+      "titulo": "en:Mount Sinai",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Grande Buraco Azul",
+      "titulo": "en:Great Blue Hole",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pico do Jaraguá",
+      "titulo": "pt:Pico do Jaraguá",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Lagoa do Abaeté",
+      "titulo": "pt:Lagoa do Abaeté",
+      "camada": 1,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Monte Rainier",
+      "titulo": "en:Mount Rainier",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Denali",
+      "titulo": "en:Denali",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Popocatépetl",
+      "titulo": "en:Popocatépetl",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de Darvaza",
+      "titulo": "en:Darvaza gas crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna Son Doong",
+      "titulo": "en:Sơn Đoòng cave",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Milford Sound",
+      "titulo": "en:Milford Sound",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Bromo",
+      "titulo": "en:Mount Bromo",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Itaparica",
+      "titulo": "pt:Ilha de Itaparica",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanhas Amarelas (Huangshan)",
+      "titulo": "en:Huangshan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha de Skye",
+      "titulo": "en:Isle of Skye",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Gruta Azul de Capri",
+      "titulo": "en:Blue Grotto (Capri)",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Falésias de Étretat",
+      "titulo": "en:Étretat",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seljalandsfoss",
+      "titulo": "en:Seljalandsfoss",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Trolltunga",
+      "titulo": "en:Trolltunga",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Preikestolen",
+      "titulo": "en:Preikestolen",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Cook (Aoraki)",
+      "titulo": "en:Aoraki / Mount Cook",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tre Cime di Lavaredo",
+      "titulo": "en:Tre Cime di Lavaredo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eiger",
+      "titulo": "en:Eiger",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra do Baú",
+      "titulo": "pt:Pedra do Baú",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachoeira do Tabuleiro",
+      "titulo": "pt:Cachoeira do Tabuleiro",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Poço Encantado",
+      "titulo": "pt:Poço Encantado",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion Guartelá",
+      "titulo": "pt:Cânion Guartelá",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cenote Ik Kil",
+      "titulo": "en:Ik Kil",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Durdle Door",
+      "titulo": "en:Durdle Door",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gêiseres El Tatio",
+      "titulo": "en:El Tatio",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Erebus",
+      "titulo": "en:Mount Erebus",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lago Retba (Lago Rosa)",
+      "titulo": "en:Lake Retba",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Lagoa genérica com dunas e banhistas ao fundo; não é reconhecível pela imagem e há pessoas comuns."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Boca de caverna escura com pessoas; pode ser outra caverna ou dolina, resposta não única nem reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista de satélite com águas vermelhas, distintiva; múltipla com lagos de cor parecida.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lago de águas avermelhadas é este, visto do espaço?",
+      "resposta": "Lago Natron",
+      "distratores": [
+        "Lago Retba",
+        "Lago Hillier",
+        "Lago Magadi"
+      ],
+      "ancora": {
+        "nome": "Lago Natron",
+        "descricao": "Lago salino e altamente alcalino no norte da Tanzânia, perto da fronteira com o Quênia.",
+        "variantes": [
+          "Lake Natron"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cume com antenas reconhecível como o Pico do Jaraguá; múltipla para ser justa.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que capital brasileira fica este pico?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Belo Horizonte",
+        "Rio de Janeiro",
+        "Curitiba"
+      ],
+      "ancora": {
+        "nome": "Pico do Jaraguá",
+        "descricao": "Ponto mais alto do município de São Paulo, com antenas de TV no topo.",
+        "variantes": [
+          "Jaraguá"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Hoodoos alaranjados muito característicos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parque nacional dos Estados Unidos é este?",
+      "resposta": "Bryce Canyon",
+      "ancora": {
+        "nome": "Bryce Canyon",
+        "descricao": "Parque nacional de Utah, EUA, conhecido pelos anfiteatros naturais cheios de colunas de rocha chamadas hoodoos.",
+        "variantes": [
+          "Parque Nacional de Bryce Canyon",
+          "Bryce Canyon National Park"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Montanha nevada sem traços distintivos; poderia ser qualquer vulcão ou monte coberto de gelo."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montanha rochosa sem traços reconhecíveis, com caminhante ao primeiro plano; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista clássica do Denali refletido no lago, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado americano fica esta montanha, a mais alta da América do Norte?",
+      "resposta": "Alasca",
+      "distratores": [
+        "Colorado",
+        "Wyoming",
+        "Washington"
+      ],
+      "ancora": {
+        "nome": "Denali",
+        "descricao": "Montanha mais alta da América do Norte, na Cordilheira do Alasca.",
+        "variantes": [
+          "Monte McKinley",
+          "Mount McKinley"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Poço natural com cipós e água azul, típico de cenote.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de formação natural, comum no sul do México, é esta?",
+      "resposta": "Cenote",
+      "ancora": {
+        "nome": "Cenote Ik Kil",
+        "descricao": "Cenote aberto ao público perto de Chichén Itzá, em Yucatán, México.",
+        "variantes": [
+          "Ik Kil"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Encosta nevada em panorama, sem silhueta característica; não identificável com segurança."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arco de arenito muito reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado dos Estados Unidos fica este arco natural de arenito?",
+      "resposta": "Utah",
+      "distratores": [
+        "Arizona",
+        "Nevada",
+        "Colorado"
+      ],
+      "ancora": {
+        "nome": "Arco Delicado",
+        "descricao": "Arco natural de arenito de 16 metros no Parque Nacional dos Arcos, em Utah.",
+        "variantes": [
+          "Delicate Arch"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arco rochoso sobre praia e mar, característico.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este arco natural à beira-mar?",
+      "resposta": "Inglaterra",
+      "ancora": {
+        "nome": "Durdle Door",
+        "descricao": "Arco natural de calcário na Costa Jurássica, perto de Lulworth, em Dorset, Inglaterra.",
+        "variantes": [
+          "Durdle Dor"
+        ]
+      }
+    }
+  ]
+}
