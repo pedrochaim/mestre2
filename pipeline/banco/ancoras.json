@@ -57301,7 +57301,10 @@
     "nome": "Tetra Pak",
     "descricao": "Empresa e tipo de embalagem cartonada para alimentos líquidos, como o leite longa vida, criada por Ruben Rausing.",
     "variantes": [
-      "Tetra Pack"
+      "Tetra Pack",
+      "Embalagem longa vida",
+      "Caixinha longa vida",
+      "Embalagem cartonada"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tetra_Pak"
@@ -124917,6 +124920,392 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Coffee_ceremony"
+    ]
+  },
+  {
+    "id": "gas_natural",
+    "nome": "Gás natural",
+    "descricao": "Combustível fóssil gasoso formado sobretudo por metano, usado em usinas, indústrias, veículos e residências.",
+    "variantes": [
+      "GNV",
+      "Gás natural encanado"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Gás_natural",
+      "https://en.wikipedia.org/wiki/Natural_gas"
+    ]
+  },
+  {
+    "id": "enriquecimento_de_uranio",
+    "nome": "Enriquecimento de urânio",
+    "descricao": "Processo que aumenta a proporção do isótopo físsil urânio-235 no urânio, para uso como combustível nuclear.",
+    "variantes": [
+      "Urânio enriquecido"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Enriched_uranium"
+    ]
+  },
+  {
+    "id": "radiacao_ultravioleta",
+    "nome": "Radiação ultravioleta",
+    "descricao": "Radiação eletromagnética de comprimento de onda menor que o da luz violeta, emitida pelo Sol e dividida nas faixas A, B e C.",
+    "variantes": [
+      "Raios ultravioleta",
+      "UV"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ultraviolet"
+    ]
+  },
+  {
+    "id": "destilacao_fracionada_do_petroleo",
+    "nome": "Destilação fracionada do petróleo",
+    "descricao": "Processo das refinarias que separa o petróleo em frações, como gás, gasolina, querosene, diesel e resíduos pesados, numa torre de destilação.",
+    "variantes": [
+      "Refino do petróleo",
+      "Torre de destilação"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fractional_distillation",
+      "https://en.wikipedia.org/wiki/Oil_refinery"
+    ]
+  },
+  {
+    "id": "antracito",
+    "nome": "Antracito",
+    "descricao": "Tipo de carvão mineral duro e brilhante, o de maior teor de carbono.",
+    "variantes": [
+      "Antracite"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Antracito",
+      "https://en.wikipedia.org/wiki/Anthracite"
+    ]
+  },
+  {
+    "id": "energia_solar_fotovoltaica",
+    "nome": "Energia solar fotovoltaica",
+    "descricao": "Geração de eletricidade pela conversão direta da luz solar em células fotovoltaicas.",
+    "variantes": [
+      "Energia fotovoltaica"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Energia_solar_fotovoltaica",
+      "https://en.wikipedia.org/wiki/Photovoltaics"
+    ]
+  },
+  {
+    "id": "tres_erres",
+    "nome": "Três erres",
+    "descricao": "Princípio de gestão de resíduos que ordena as ações reduzir, reutilizar e reciclar.",
+    "variantes": [
+      "3Rs",
+      "Reduzir, reutilizar e reciclar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Waste_hierarchy"
+    ]
+  },
+  {
+    "id": "agua_doce",
+    "nome": "Água doce",
+    "descricao": "Água com baixa concentração de sais, presente em geleiras, aquíferos, rios e lagos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fresh_water",
+      "https://pt.wikipedia.org/wiki/Água_doce"
+    ]
+  },
+  {
+    "id": "albedo",
+    "nome": "Albedo",
+    "descricao": "Fração da luz solar que uma superfície reflete, importante para o equilíbrio de temperatura da Terra.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Albedo",
+      "https://pt.wikipedia.org/wiki/Albedo"
+    ]
+  },
+  {
+    "id": "lampada_fluorescente",
+    "nome": "Lâmpada fluorescente",
+    "descricao": "Lâmpada de descarga em gás que produz luz pela excitação de vapor de mercúrio e de um revestimento fluorescente.",
+    "variantes": [
+      "Lâmpada fluorescente compacta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fluorescent_lamp"
+    ]
+  },
+  {
+    "id": "biodiesel",
+    "nome": "Biodiesel",
+    "descricao": "Combustível renovável feito de óleos vegetais ou gorduras animais, misturado ao diesel de petróleo.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Biodiesel",
+      "https://en.wikipedia.org/wiki/Biodiesel"
+    ]
+  },
+  {
+    "id": "etanol_combustivel_nos_estados_unidos",
+    "nome": "Etanol combustível nos Estados Unidos",
+    "descricao": "Produção e uso de etanol como combustível automotivo nos Estados Unidos, misturado à gasolina.",
+    "variantes": [
+      "Etanol de milho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ethanol_fuel_in_the_United_States"
+    ]
+  },
+  {
+    "id": "celulose_para_papel_no_brasil",
+    "nome": "Celulose para papel no Brasil",
+    "descricao": "Polpa de fibras vegetais produzida no Brasil a partir de plantações florestais, matéria-prima do papel.",
+    "variantes": [
+      "Celulose"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Eucalipto",
+      "https://en.wikipedia.org/wiki/Eucalyptus"
+    ]
+  },
+  {
+    "id": "bateria_de_chumbo_acido",
+    "nome": "Bateria de chumbo-ácido",
+    "descricao": "Bateria recarregável com placas de chumbo em ácido sulfúrico, usada para dar a partida em automóveis.",
+    "variantes": [
+      "Bateria automotiva",
+      "Acumulador de chumbo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lead%E2%80%93acid_battery"
+    ]
+  },
+  {
+    "id": "reator_rbmk",
+    "nome": "Reator RBMK",
+    "descricao": "Modelo soviético de reator nuclear moderado a grafite e refrigerado a água, o tipo usado em Chernobyl.",
+    "variantes": [
+      "RBMK"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/RBMK"
+    ]
+  },
+  {
+    "id": "capitao_planeta_e_os_planetarios",
+    "nome": "Capitão Planeta e os Planetários",
+    "descricao": "Desenho animado ambientalista americano dos anos 1990, em que cinco jovens com anéis mágicos invocam o herói Capitão Planeta.",
+    "variantes": [
+      "Captain Planet and the Planeteers",
+      "Capitão Planeta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Captain_Planet_and_the_Planeteers"
+    ]
+  },
+  {
+    "id": "bandeiras_tarifarias",
+    "nome": "Bandeiras tarifárias",
+    "descricao": "Sistema brasileiro da Aneel que sinaliza, por cores, acréscimos na conta de luz conforme o custo de geração de energia.",
+    "variantes": [
+      "Bandeira tarifária"
+    ],
+    "fontes": [
+      "https://www.gov.br/aneel/pt-br/assuntos/tarifas/bandeiras-tarifarias"
+    ]
+  },
+  {
+    "id": "aquecedor_solar_de_agua",
+    "nome": "Aquecedor solar de água",
+    "descricao": "Sistema de placas coletoras, geralmente instaladas em telhados, que aquece água com a energia do Sol.",
+    "variantes": [
+      "Coletor solar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Solar_water_heating"
+    ]
+  },
+  {
+    "id": "quilowatt_hora",
+    "nome": "Quilowatt-hora",
+    "descricao": "Unidade usada para medir o consumo de eletricidade nas contas de luz, igual à energia de mil watts durante uma hora.",
+    "variantes": [
+      "kWh"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kilowatt-hour"
+    ]
+  },
+  {
+    "id": "frenagem_regenerativa",
+    "nome": "Frenagem regenerativa",
+    "descricao": "Sistema de carros elétricos e híbridos que recupera a energia do movimento durante a frenagem.",
+    "variantes": [
+      "Freio regenerativo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Regenerative_braking"
+    ]
+  },
+  {
+    "id": "novo_confinamento_seguro_de_chernobyl",
+    "nome": "Novo Confinamento Seguro de Chernobyl",
+    "descricao": "Estrutura gigante concluída em 2016 para cobrir o reator 4 destruído da usina de Chernobyl e o antigo sarcófago.",
+    "variantes": [
+      "New Safe Confinement",
+      "Novo sarcófago de Chernobyl"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chernobyl_New_Safe_Confinement"
+    ]
+  },
+  {
+    "id": "usina_hidreletrica_reversivel",
+    "nome": "Usina hidrelétrica reversível",
+    "descricao": "Usina com dois reservatórios em alturas diferentes que armazena energia bombeando água para cima e a gera deixando-a descer.",
+    "variantes": [
+      "Hidrelétrica de bombeamento",
+      "Pumped storage"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity"
+    ]
+  },
+  {
+    "id": "angra_1",
+    "nome": "Angra 1",
+    "descricao": "Primeira usina nuclear brasileira, unidade da central de Angra dos Reis, construída com tecnologia americana.",
+    "variantes": [
+      "Usina Nuclear Angra 1"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Angra_Nuclear_Power_Plant"
+    ]
+  },
+  {
+    "id": "diesel_s10",
+    "nome": "Diesel S10",
+    "descricao": "Óleo diesel de baixo teor de enxofre, com no máximo dez partes por milhão, vendido no Brasil.",
+    "variantes": [
+      "Óleo diesel S10"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ultra-low-sulfur_diesel",
+      "https://pt.wikipedia.org/wiki/Óleo_diesel"
+    ]
+  },
+  {
+    "id": "painel_intergovernamental_sobre_mudancas_climaticas",
+    "nome": "Painel Intergovernamental sobre Mudanças Climáticas",
+    "descricao": "Órgão científico da ONU, criado em 1988, que avalia o conhecimento sobre as mudanças climáticas.",
+    "variantes": [
+      "IPCC",
+      "Painel do clima da ONU"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+    ]
+  },
+  {
+    "id": "edmond_becquerel",
+    "nome": "Edmond Becquerel",
+    "descricao": "Físico francês do século dezenove que descobriu o efeito fotovoltaico em 1839, pai de Henri Becquerel.",
+    "variantes": [
+      "Alexandre-Edmond Becquerel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Edmond_Becquerel"
+    ]
+  },
+  {
+    "id": "cesio_137",
+    "nome": "Césio-137",
+    "descricao": "Isótopo radioativo do césio, produzido na fissão nuclear, com meia-vida de cerca de trinta anos.",
+    "variantes": [
+      "Cs-137"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Caesium-137"
+    ]
+  },
+  {
+    "id": "lagoa_azul",
+    "nome": "Lagoa Azul",
+    "descricao": "Spa geotérmico de águas quentes e leitosas na península de Reykjanes, na Islândia.",
+    "variantes": [
+      "Blue Lagoon",
+      "Bláa lónið"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa)"
+    ]
+  },
+  {
+    "id": "camada_de_ozonio",
+    "nome": "Camada de ozônio",
+    "descricao": "Região da atmosfera com alta concentração de ozônio, que absorve grande parte da radiação ultravioleta do Sol.",
+    "variantes": [
+      "Ozonosfera"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ozone_layer"
+    ]
+  },
+  {
+    "id": "banco_mundial_de_sementes_de_svalbard",
+    "nome": "Banco Mundial de Sementes de Svalbard",
+    "descricao": "Cofre escavado numa montanha do arquipélago de Svalbard que guarda cópias de sementes de plantas do mundo inteiro.",
+    "variantes": [
+      "Svalbard Global Seed Vault",
+      "Cofre do Juízo Final"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault"
+    ]
+  },
+  {
+    "id": "angra_2",
+    "nome": "Angra 2",
+    "descricao": "Segunda usina nuclear brasileira, unidade da central de Angra dos Reis, em operação desde 2000.",
+    "variantes": [
+      "Usina Nuclear Angra 2"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Angra_Nuclear_Power_Plant"
+    ]
+  },
+  {
+    "id": "crise_do_apagao",
+    "nome": "Crise do apagão",
+    "descricao": "Crise de abastecimento de energia elétrica no Brasil, que levou a um racionamento obrigatório no governo Fernando Henrique Cardoso.",
+    "variantes": [
+      "Apagão de 2001",
+      "Racionamento de energia de 2001"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Crise_do_apagão"
+    ]
+  },
+  {
+    "id": "parque_de_diversoes_de_pripyat",
+    "nome": "Parque de diversões de Pripyat",
+    "descricao": "Parque de diversões da cidade de Pripyat, abandonado após o acidente de Chernobyl, famoso por sua roda-gigante.",
+    "variantes": [
+      "Roda-gigante de Pripyat"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pripyat_amusement_park"
+    ]
+  },
+  {
+    "id": "lei_de_betz",
+    "nome": "Lei de Betz",
+    "descricao": "Princípio formulado por Albert Betz em 1919 que fixa o máximo de energia que uma turbina pode extrair do vento.",
+    "variantes": [
+      "Limite de Betz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Betz%27s_law"
     ]
   }
 ]

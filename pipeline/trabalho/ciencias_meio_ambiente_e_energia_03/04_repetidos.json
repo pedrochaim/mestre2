@@ -1,0 +1,209 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "As caixinhas de leite longa vida são feitas de camadas de papel, plástico e que metal?",
+        "resposta": "Alumínio"
+      },
+      "existentes": [
+        {
+          "id": "q03815",
+          "pergunta": "A embalagem de papelão Tetra Pak, muito usada para leite longa vida, foi criada em qual país?",
+          "resposta": "Suécia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Protetor lá no alto da atmosfera, que gás é um dos principais poluentes da névoa fotoquímica das cidades em dias quentes e ensolarados?",
+        "resposta": "Ozônio"
+      },
+      "existentes": [
+        {
+          "id": "q04120",
+          "pergunta": "A palavra inglesa smog, usada para a névoa de poluição sobre as cidades, junta fumaça e que outra palavra?",
+          "resposta": "Neblina (fog)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O isopor parece um material sólido, mas mais de noventa por cento do seu volume é feito de quê?",
+        "resposta": "Ar"
+      },
+      "existentes": [
+        {
+          "id": "q07318",
+          "pergunta": "Leve e bom isolante térmico, o isopor é formado quase todo, cerca de noventa e oito por cento, por qual componente?",
+          "resposta": "Ar"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No filme Wall-E, da Pixar, o robozinho passa os dias na Terra abandonada fazendo o quê?",
+        "resposta": "Compactando lixo em cubos"
+      },
+      "existentes": [
+        {
+          "id": "q06873",
+          "pergunta": "O nome do robozinho WALL-E, da Pixar, é uma sigla em inglês que indica sua função. Ele foi feito para recolher o quê?",
+          "resposta": "Lixo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome da hipótese Gaia, do cientista britânico James Lovelock, foi sugerido por que escritor, autor de O Senhor das Moscas?",
+        "resposta": "William Golding"
+      },
+      "existentes": [
+        {
+          "id": "q04799",
+          "pergunta": "Que cientista britânico criou a hipótese Gaia, segundo a qual a vida mantém as condições da Terra favoráveis a ela mesma?",
+          "resposta": "James Lovelock"
+        },
+        {
+          "id": "q04800",
+          "pergunta": "O nome da hipótese Gaia, que vê a Terra como um sistema que se autorregula, foi sugerido por que escritor, autor de O Senhor das Moscas?",
+          "resposta": "William Golding"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Os acidentes nucleares de Chernobyl e de Fukushima receberam a mesma classificação, a máxima da escala internacional de eventos nucleares. Que nível é esse?",
+        "resposta": "Nível sete"
+      },
+      "existentes": [
+        {
+          "id": "q05477",
+          "pergunta": "Em 2011, a usina nuclear de Fukushima, no Japão, perdeu o resfriamento dos reatores depois de um terremoto seguido de quê?",
+          "resposta": "Um tsunami"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O amianto, comum em telhas e caixas-d'água, foi proibido no Brasil porque suas fibras, quando inaladas, causam doenças em que órgão?",
+        "resposta": "Pulmões"
+      },
+      "existentes": [
+        {
+          "id": "q08826",
+          "pergunta": "Desde a Antiguidade, os panos tecidos com amianto, um mineral fibroso, impressionavam por qual propriedade?",
+          "resposta": "Não pegavam fogo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Lançado pelo governo brasileiro em 1975, o programa Proálcool foi uma resposta a que crise mundial?",
+        "resposta": "Crise do petróleo de 1973"
+      },
+      "existentes": [
+        {
+          "id": "q00991",
+          "pergunta": "Em 1975, o Brasil criou o Proálcool para trocar gasolina por álcool nos carros. Que crise mundial motivou o programa?",
+          "resposta": "Crise do petróleo de 1973"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A usina hidrelétrica de Belo Monte, no Pará, foi construída em que rio amazônico?",
+        "resposta": "Xingu"
+      },
+      "existentes": [
+        {
+          "id": "q02163",
+          "pergunta": "A polêmica usina hidrelétrica de Belo Monte, no Pará, foi construída em qual rio?",
+          "resposta": "Rio Xingu"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1872, que presidente americano assinou a lei que criou Yellowstone, considerado o primeiro parque nacional do mundo?",
+        "resposta": "Ulysses S. Grant"
+      },
+      "existentes": [
+        {
+          "id": "q04818",
+          "pergunta": "Com seus gêiseres e fontes termais, Yellowstone é considerado o primeiro parque nacional do mundo. Em que década ele foi criado?",
+          "resposta": "Década de 1870"
+        },
+        {
+          "id": "q06701",
+          "pergunta": "O Parque Nacional de Yellowstone, nos Estados Unidos, costuma ser considerado o primeiro parque nacional do mundo. Em que século ele foi criado?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Metal das camadas vs país de criação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gás poluente vs origem da palavra smog."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que o isopor é feito majoritariamente de ar."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Atividade no filme (compactar lixo em cubos) vs significado da sigla; embora relacionados, fatos distintos."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Golding sugeriu o nome Gaia.",
+      "id_existente": "q04800"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nível INES vs causa do acidente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Órgão afetado vs propriedade resistente ao fogo."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: crise motivadora do Proálcool.",
+      "id_existente": "q00991"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: rio de Belo Monte.",
+      "id_existente": "q02163"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Presidente que assinou é fato diferente de década/século."
+    }
+  ]
+}

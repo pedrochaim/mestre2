@@ -1,0 +1,363 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte mostra gás natural com 25–45% menos CO2 que petróleo e carvão.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Metano é mais leve que o ar e o GLP mais pesado; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "U-238 tem cerca de 99,27% do urânio natural.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português diz que quase nenhum UVC chega à superfície.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Asfalto é resíduo da destilação a vácuo; 'mais pesado no fundo da torre' é impreciso.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Que derivado do petróleo, resíduo pesado da destilação, é usado para pavimentar ruas e estradas?",
+        "resposta": "Asfalto",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Asfalto",
+          "https://en.wikipedia.org/wiki/Oil_refinery"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Antracito tem o maior teor de carbono entre os carvões.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fotovoltaica converte luz direto em eletricidade; as outras três usam turbinas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reduzir é o primeiro dos três erres e topo da hierarquia de resíduos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gelos e geleiras guardam 77,39% da água doce.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Neve recente tem albedo até 0,9, bem acima das demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fluorescentes usam vapor de mercúrio e têm logística reversa no Brasil.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Soja é a principal matéria-prima do biodiesel brasileiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etanol americano vem principalmente do milho.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Celulose brasileira vem sobretudo de eucalipto.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Embalagem asséptica tem camadas de papel, plástico e alumínio.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bateria chumbo-ácido tem placas de chumbo em ácido sulfúrico.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "RBMK é moderado a blocos de grafite, que queimaram em Chernobyl.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ozônio troposférico é o principal componente do smog fotoquímico.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "EPS tem até 98% de ar.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os cinco poderes incluem coração; Ma-Ti é o brasileiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bandeira verde não tem acréscimo.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Absorvedores de coletores solares são escuros, pretos, para absorver calor.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "kWh é unidade de energia.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "WALL-E é robô compactador de lixo; os cubos aparecem na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Energia da frenagem vira eletricidade armazenada na bateria.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estrutura de 2016 é o arco de Chernobyl, deslizado até a posição.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reversíveis bombeiam água ao reservatório superior em baixa demanda.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Angra 1 ficou conhecida como vaga-lume pelos desligamentos frequentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Apelido não sustentado pelas fontes e quase vazado pela descrição 'sem dar sinais'.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "S10 indica no máximo 10 mg/kg de enxofre.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itaipu significa 'pedra que canta' em tupi.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Golding sugeriu o nome Gaia.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta 'Urano' é quase igual a 'urânio' do enunciado: vazamento por derivação.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "INES vai até 7 e Chernobyl e Fukushima estão nele.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Arquiteto e cabine telefônica fogem do subtema Meio Ambiente e Energia.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "IPCC e Al Gore dividiram o Nobel da Paz de 2007.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Henri Becquerel descobriu a radioatividade.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Césio-137 foi liberado em Chernobyl, em 1986.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Lagoa Azul é abastecida pela usina geotérmica de Svartsengi.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fibras de amianto inaladas causam doenças pulmonares.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Proálcool nasceu da crise do petróleo dos anos 1970.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corais expulsam as zooxantelas, algas simbiontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belo Monte fica no rio Xingu.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A camada de ozônio fica na estratosfera.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cofre fica em Svalbard, na Noruega.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angra 2 usou tecnologia alemã pelo acordo de 1975.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grant assinou a lei de Yellowstone em 1872.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O racionamento do apagão começou em 2001.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A abertura estava marcada para 1º de maio de 1986.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O limite de Betz é cerca de 59%, próximo de sessenta por cento.",
+      "reescrita": null
+    }
+  ]
+}

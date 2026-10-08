@@ -152978,5 +152978,596 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Coffee_ceremony"
     ]
+  },
+  {
+    "id": "q08948",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "gas_natural",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre os combustíveis fósseis, qual libera menos dióxido de carbono para gerar a mesma quantidade de energia?",
+    "resposta": "Gás natural",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Natural_gas",
+      "https://pt.wikipedia.org/wiki/Gás_natural"
+    ]
+  },
+  {
+    "id": "q08949",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "gas_natural",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Num vazamento, o gás de botijão se acumula junto ao chão. E o gás natural encanado, para onde ele tende a ir?",
+    "resposta": "Para cima, junto ao teto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Natural_gas",
+      "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+    ]
+  },
+  {
+    "id": "q08950",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "enriquecimento_de_uranio",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "O urânio natural precisa ser enriquecido para virar combustível de usina. Que isótopo forma mais de noventa e nove por cento dele?",
+    "resposta": "Urânio-238",
+    "distratores": [
+      "Urânio-235",
+      "Urânio-234",
+      "Urânio-233"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enriched_uranium",
+      "https://en.wikipedia.org/wiki/Uranium-238"
+    ]
+  },
+  {
+    "id": "q08951",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "radiacao_ultravioleta",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A radiação ultravioleta do Sol tem três faixas, chamadas A, B e C. Qual delas é quase totalmente absorvida pela atmosfera antes de chegar ao solo?",
+    "resposta": "Ultravioleta C",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ultraviolet"
+    ]
+  },
+  {
+    "id": "q08952",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "destilacao_fracionada_do_petroleo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que derivado do petróleo, resíduo pesado da destilação, é usado para pavimentar ruas e estradas?",
+    "resposta": "Asfalto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Asfalto",
+      "https://en.wikipedia.org/wiki/Oil_refinery"
+    ]
+  },
+  {
+    "id": "q08953",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "antracito",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes tipos de carvão mineral é o mais rico em carbono?",
+    "resposta": "Antracito",
+    "distratores": [
+      "Turfa",
+      "Linhito",
+      "Hulha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anthracite"
+    ]
+  },
+  {
+    "id": "q08954",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "energia_solar_fotovoltaica",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes tipos de usina gera eletricidade sem nenhuma peça girando?",
+    "resposta": "Solar fotovoltaica",
+    "distratores": [
+      "Hidrelétrica",
+      "Eólica",
+      "Nuclear"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Photovoltaics",
+      "https://en.wikipedia.org/wiki/Photovoltaic_system"
+    ]
+  },
+  {
+    "id": "q08955",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "tres_erres",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na regra dos três erres contra o desperdício, que ação vem em primeiro lugar, antes de reutilizar e reciclar?",
+    "resposta": "Reduzir",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waste_hierarchy"
+    ]
+  },
+  {
+    "id": "q08956",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "agua_doce",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Rios e lagos guardam só uma pequena parte da água doce do planeta. Onde está a maior parte dela?",
+    "resposta": "Nas geleiras e calotas polares",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fresh_water"
+    ]
+  },
+  {
+    "id": "q08957",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "albedo",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas superfícies reflete a maior parte da luz do Sol que recebe?",
+    "resposta": "Neve fresca",
+    "distratores": [
+      "Oceano",
+      "Floresta tropical",
+      "Asfalto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Albedo"
+    ]
+  },
+  {
+    "id": "q08958",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "lampada_fluorescente",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Lâmpadas fluorescentes devem ir para pontos de coleta especiais porque contêm vapor de que metal tóxico?",
+    "resposta": "Mercúrio",
+    "distratores": [
+      "Chumbo",
+      "Cádmio",
+      "Níquel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fluorescent_lamp"
+    ]
+  },
+  {
+    "id": "q08959",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "biodiesel",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No Brasil, a maior parte do biodiesel misturado ao diesel é feita a partir do óleo de que planta?",
+    "resposta": "Soja",
+    "distratores": [
+      "Mamona",
+      "Dendê",
+      "Girassol"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Biodiesel"
+    ]
+  },
+  {
+    "id": "q08960",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "etanol_combustivel_nos_estados_unidos",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, o etanol combustível sai da cana-de-açúcar. Nos Estados Unidos, ele é feito principalmente de que grão?",
+    "resposta": "Milho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ethanol_fuel_in_the_United_States"
+    ]
+  },
+  {
+    "id": "q08961",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "celulose_para_papel_no_brasil",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, a maior parte da celulose usada para fabricar papel vem de plantações de que árvore?",
+    "resposta": "Eucalipto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Eucalipto",
+      "https://en.wikipedia.org/wiki/Eucalyptus"
+    ]
+  },
+  {
+    "id": "q08962",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "tetra_pak",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As caixinhas de leite longa vida são feitas de camadas de papel, plástico e que metal?",
+    "resposta": "Alumínio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetra_Pak"
+    ]
+  },
+  {
+    "id": "q08963",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "bateria_de_chumbo_acido",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A bateria comum dos carros, que dá a partida no motor, tem placas de que metal pesado mergulhadas em ácido?",
+    "resposta": "Chumbo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lead%E2%80%93acid_battery"
+    ]
+  },
+  {
+    "id": "q08964",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "reator_rbmk",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O reator de Chernobyl usava blocos de que material, o mesmo da ponta do lápis, que pegaram fogo após a explosão?",
+    "resposta": "Grafite",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/RBMK",
+      "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    ]
+  },
+  {
+    "id": "q08965",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "smog",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Protetor lá no alto da atmosfera, que gás é um dos principais poluentes da névoa fotoquímica das cidades em dias quentes e ensolarados?",
+    "resposta": "Ozônio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Smog",
+      "https://en.wikipedia.org/wiki/Tropospheric_ozone"
+    ]
+  },
+  {
+    "id": "q08966",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "capitao_planeta_e_os_planetarios",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No desenho Capitão Planeta, os anéis dos Planetários controlam terra, fogo, vento, água e que quinto poder, que ficou com o brasileiro Ma-Ti?",
+    "resposta": "Coração",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Captain_Planet_and_the_Planeteers"
+    ]
+  },
+  {
+    "id": "q08967",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "bandeiras_tarifarias",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No sistema de bandeiras tarifárias da conta de luz brasileira, que cor indica que não há nenhuma cobrança extra?",
+    "resposta": "Verde",
+    "fonte": [
+      "https://www.gov.br/aneel/pt-br/assuntos/tarifas/bandeiras-tarifarias"
+    ]
+  },
+  {
+    "id": "q08968",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "aquecedor_solar_de_agua",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nos telhados, as placas dos aquecedores solares de água são pintadas de que cor, para absorver mais calor?",
+    "resposta": "Preto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_water_heating",
+      "https://en.wikipedia.org/wiki/Solar_thermal_collector"
+    ]
+  },
+  {
+    "id": "q08969",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "quilowatt_hora",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Na conta de luz, o consumo é cobrado em quilowatt-hora. Essa é uma unidade de quê?",
+    "resposta": "Energia",
+    "distratores": [
+      "Potência",
+      "Tensão elétrica",
+      "Corrente elétrica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kilowatt-hour"
+    ]
+  },
+  {
+    "id": "q08970",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "wall_e",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No filme Wall-E, da Pixar, o robozinho passa os dias na Terra abandonada fazendo o quê?",
+    "resposta": "Compactando lixo em cubos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/WALL-E"
+    ]
+  },
+  {
+    "id": "q08971",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "frenagem_regenerativa",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em carros elétricos e híbridos, a chamada frenagem regenerativa aproveita a energia da freada para fazer o quê?",
+    "resposta": "Recarregar a bateria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Regenerative_braking"
+    ]
+  },
+  {
+    "id": "q08972",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "novo_confinamento_seguro_de_chernobyl",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 2016, uma estrutura gigante foi deslizada sobre trilhos para cobrir o reator destruído de Chernobyl. Que formato ela tem?",
+    "resposta": "Arco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chernobyl_New_Safe_Confinement"
+    ]
+  },
+  {
+    "id": "q08973",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "usina_hidreletrica_reversivel",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "As hidrelétricas reversíveis funcionam como baterias gigantes. Quando sobra energia na rede, o que elas fazem com a água?",
+    "resposta": "Bombeiam para o reservatório de cima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity"
+    ]
+  },
+  {
+    "id": "q08974",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "angra_1",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por desligar com muita frequência nos seus primeiros anos, a usina nuclear Angra 1 ganhou que apelido de inseto?",
+    "resposta": "Vaga-lume",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angra_Nuclear_Power_Plant"
+    ]
+  },
+  {
+    "id": "q08975",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "diesel_s10",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No diesel S10, vendido nos postos brasileiros, a letra S indica o baixo teor de que elemento poluente?",
+    "resposta": "Enxofre",
+    "distratores": [
+      "Sódio",
+      "Silício",
+      "Selênio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ultra-low-sulfur_diesel",
+      "https://pt.wikipedia.org/wiki/Óleo_diesel"
+    ]
+  },
+  {
+    "id": "q08976",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "acidente_nuclear_de_fukushima",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os acidentes nucleares de Chernobyl e de Fukushima receberam a mesma classificação, a máxima da escala internacional de eventos nucleares. Que nível é esse?",
+    "resposta": "Nível sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/International_Nuclear_Event_Scale"
+    ]
+  },
+  {
+    "id": "q08977",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "painel_intergovernamental_sobre_mudancas_climaticas",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 2007, o que o painel de cientistas do clima da ONU e o ex-vice-presidente americano Al Gore ganharam juntos?",
+    "resposta": "O Nobel da Paz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change",
+      "https://www.nobelprize.org/prizes/peace/2007/summary/"
+    ]
+  },
+  {
+    "id": "q08978",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "edmond_becquerel",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Edmond Becquerel descobriu o efeito que faz funcionar os painéis solares. Seu filho Henri ficou famoso por descobrir que fenômeno?",
+    "resposta": "Radioatividade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edmond_Becquerel",
+      "https://en.wikipedia.org/wiki/Henri_Becquerel"
+    ]
+  },
+  {
+    "id": "q08979",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "cesio_137",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O césio-137, que contaminou Goiânia em 1987, também foi um dos principais materiais radioativos espalhados por que acidente, um ano antes?",
+    "resposta": "Acidente de Chernobyl",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caesium-137"
+    ]
+  },
+  {
+    "id": "q08980",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "lagoa_azul",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Lagoa Azul, famosa piscina de águas quentes da Islândia, é formada pela água que sai de que tipo de usina vizinha?",
+    "resposta": "Usina geotérmica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa)"
+    ]
+  },
+  {
+    "id": "q08981",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "amianto",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O amianto, comum em telhas e caixas-d'água, foi proibido no Brasil porque suas fibras, quando inaladas, causam doenças em que órgão?",
+    "resposta": "Pulmões",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Amianto",
+      "https://en.wikipedia.org/wiki/Asbestos"
+    ]
+  },
+  {
+    "id": "q08982",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "camada_de_ozonio",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A camada de ozônio, que filtra boa parte dos raios ultravioleta do Sol, fica em que camada da atmosfera?",
+    "resposta": "Estratosfera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ozone_layer"
+    ]
+  },
+  {
+    "id": "q08983",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "banco_mundial_de_sementes_de_svalbard",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Banco Mundial de Sementes de Svalbard, cofre escavado numa montanha gelada para guardar sementes do planeta, fica em que país?",
+    "resposta": "Noruega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault"
+    ]
+  },
+  {
+    "id": "q08984",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "angra_2",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Fruto de um acordo nuclear assinado em 1975, a usina Angra 2 foi construída com tecnologia de que país europeu?",
+    "resposta": "Alemanha (Ocidental)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angra_Nuclear_Power_Plant"
+    ]
+  },
+  {
+    "id": "q08985",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "parque_nacional_de_yellowstone",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1872, que presidente americano assinou a lei que criou Yellowstone, considerado o primeiro parque nacional do mundo?",
+    "resposta": "Ulysses S. Grant",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yellowstone_National_Park"
+    ]
+  },
+  {
+    "id": "q08986",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "crise_do_apagao",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano o Brasil começou o racionamento de eletricidade conhecido como crise do apagão, com metas de economia para cada casa?",
+    "resposta": "2001",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Crise_do_apagão"
+    ]
+  },
+  {
+    "id": "q08987",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "parque_de_diversoes_de_pripyat",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A roda-gigante de Pripyat, símbolo do abandono após Chernobyl, seria inaugurada poucos dias depois do acidente, em que data festiva?",
+    "resposta": "Primeiro de maio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pripyat_amusement_park"
+    ]
+  },
+  {
+    "id": "q08988",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "lei_de_betz",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Pela lei de Betz, uma turbina eólica ideal consegue aproveitar no máximo cerca de quanto da energia do vento?",
+    "resposta": "Sessenta por cento",
+    "distratores": [
+      "Trinta por cento",
+      "Oitenta por cento",
+      "Noventa por cento"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Betz%27s_law"
+    ]
   }
 ]
