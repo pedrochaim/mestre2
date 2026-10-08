@@ -1,0 +1,559 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pato de Pequim",
+        "descricao": "Prato chinês de pato laqueado e assado, de pele crocante, servido com panquecas finas.",
+        "variantes": [
+          "Pato laqueado de Pequim",
+          "Peking duck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_pequim",
+          "nome": "Ópera de Pequim",
+          "descricao": "Forma tradicional de teatro musical chinês, que combina canto, mímica, acrobacia e maquiagem facial simbólica.",
+          "variantes": [
+            "Peking opera",
+            "Jingju",
+            "Ópera de Beijing"
+          ]
+        },
+        {
+          "id": "salto_de_esqui",
+          "nome": "Salto de esqui",
+          "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+          "variantes": [
+            "Ski jumping"
+          ]
+        },
+        {
+          "id": "homem_de_pequim",
+          "nome": "Homem de Pequim",
+          "descricao": "Fósseis de Homo erectus encontrados em Zhoukoudian, perto de Pequim, na China, nas décadas de 1920 e 1930.",
+          "variantes": [
+            "Peking Man",
+            "Sinanthropus pekinensis",
+            "Homo erectus pekinensis"
+          ]
+        },
+        {
+          "id": "pao_de_queijo",
+          "nome": "Pão de queijo",
+          "descricao": "Quitute brasileiro assado feito de polvilho, ovos, leite e queijo, típico de Minas Gerais",
+          "variantes": []
+        },
+        {
+          "id": "atoba_de_pes_azuis",
+          "nome": "Atobá-de-pés-azuis",
+          "descricao": "Sula nebouxii, ave marinha do Pacífico oriental de pés azul-claros, comum nas Galápagos.",
+          "variantes": [
+            "Blue-footed booby",
+            "Patola-de-pés-azuis",
+            "Sula nebouxii"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Batata frita",
+        "descricao": "Batatas cortadas em palitos e fritas, servidas como acompanhamento ou petisco.",
+        "variantes": [
+          "Fritas",
+          "Batata frita palito",
+          "French fries"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "titas",
+          "nome": "Titãs",
+          "descricao": "Banda de rock paulistana formada em 1982, autora de Sonífera Ilha e Comida.",
+          "variantes": [
+            "Titãs do Iê-Iê"
+          ]
+        },
+        {
+          "id": "fluorita",
+          "nome": "Fluorita",
+          "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+          "variantes": [
+            "Fluorspar",
+            "Espatoflúor",
+            "Fluorite",
+            "Espato-flúor"
+          ]
+        },
+        {
+          "id": "fractal",
+          "nome": "Fractal",
+          "descricao": "Figura geométrica cujas partes repetem a forma do todo em escalas cada vez menores.",
+          "variantes": [
+            "Fractais"
+          ]
+        },
+        {
+          "id": "trompa",
+          "nome": "Trompa",
+          "descricao": "Instrumento de metal de tubo enrolado em espiral, com grande campânula e válvulas rotativas.",
+          "variantes": [
+            "Trompa francesa",
+            "French horn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Strudel de maçã",
+        "descricao": "Doce vienense de massa folhada fina enrolada, recheada com maçã, passas e canela.",
+        "variantes": [
+          "Apfelstrudel",
+          "Strudel",
+          "Apple strudel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "kristang",
+          "nome": "Kristang",
+          "descricao": "Língua crioula de base portuguesa da comunidade luso-descendente da Malásia",
+          "variantes": [
+            "Papiá kristang",
+            "Crioulo de Malaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bouillabaisse",
+        "descricao": "Sopa de peixes e frutos do mar tradicional da Provença, originária de Marselha.",
+        "variantes": [
+          "Bullabesa",
+          "Bouillabaisse de Marselha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chicago_bulls",
+          "nome": "Chicago Bulls",
+          "descricao": "Franquia da NBA sediada em Chicago, fundada em 1966.",
+          "variantes": [
+            "Bulls"
+          ]
+        },
+        {
+          "id": "bulbasaur",
+          "nome": "Bulbasaur",
+          "descricao": "Pokémon dos tipos Planta e Veneno, número 1 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "babosa",
+          "nome": "Babosa",
+          "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+          "variantes": [
+            "Aloe vera",
+            "Aloé",
+            "Aloe barbadensis"
+          ]
+        },
+        {
+          "id": "bill_gates",
+          "nome": "Bill Gates",
+          "descricao": "Empresário e filantropo americano, cofundador da Microsoft.",
+          "variantes": [
+            "William Henry Gates III"
+          ]
+        },
+        {
+          "id": "bule",
+          "nome": "Bule",
+          "descricao": "Recipiente com tampa, alça e bico para preparar e servir chá.",
+          "variantes": [
+            "Bule de chá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cerveja",
+        "descricao": "Bebida alcoólica produzida pela fermentação de cereais maltados, em geral cevada, com lúpulo.",
+        "variantes": [
+          "Chope",
+          "Beer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cereja",
+          "nome": "Cereja",
+          "descricao": "Fruta vermelha do gênero Prunus, uma drupe de caroço, como a Prunus avium.",
+          "variantes": [
+            "Cereja-doce",
+            "Prunus avium"
+          ]
+        },
+        {
+          "id": "chopine",
+          "nome": "Chopine",
+          "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+          "variantes": [
+            "Chopines",
+            "Chapins"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        },
+        {
+          "id": "bequer",
+          "nome": "Béquer",
+          "descricao": "Recipiente cilíndrico de laboratório, de fundo plano e pequeno bico para despejar líquidos.",
+          "variantes": [
+            "Becker",
+            "Copo de Becker"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bolo Floresta Negra",
+        "descricao": "Bolo alemão em camadas de massa de chocolate, creme chantili e cerejas, com raspas de chocolate.",
+        "variantes": [
+          "Floresta Negra",
+          "Schwarzwälder Kirschtorte",
+          "Black Forest gateau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        },
+        {
+          "id": "polvora",
+          "nome": "Pólvora",
+          "descricao": "Mistura explosiva de salitre, enxofre e carvão, a mais antiga conhecida.",
+          "variantes": [
+            "Pólvora negra",
+            "Gunpowder"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "porta_nigra",
+          "nome": "Porta Nigra",
+          "descricao": "Grande portão de cidade romano em Trier, na Alemanha.",
+          "variantes": [
+            "Porta Negra de Trier"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Quibe",
+        "descricao": "Bolinho oval frito de carne moída e trigo para quibe, prato típico do Levante.",
+        "variantes": [
+          "Kibe",
+          "Kibbeh",
+          "Kubba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kobe_bryant",
+          "nome": "Kobe Bryant",
+          "descricao": "Ala-armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, de 1996 a 2016.",
+          "variantes": [
+            "Kobe Bean Bryant",
+            "Black Mamba",
+            "Kobe"
+          ]
+        },
+        {
+          "id": "quibla",
+          "nome": "Quibla",
+          "descricao": "Direção para a qual os muçulmanos se voltam ao rezar",
+          "variantes": [
+            "Qibla",
+            "Alquibla"
+          ]
+        },
+        {
+          "id": "quiabo",
+          "nome": "Quiabo",
+          "descricao": "Abelmoschus esculentus, planta da família das malváceas cujo fruto verde é comido como hortaliça.",
+          "variantes": [
+            "Okra",
+            "Abelmoschus esculentus"
+          ]
+        },
+        {
+          "id": "cidade_de_quebec",
+          "nome": "Cidade de Quebec",
+          "descricao": "Cidade do Canadá às margens do rio São Lourenço, fundada em 1608 como capital da Nova França.",
+          "variantes": [
+            "Quebec",
+            "Québec",
+            "Quebec City"
+          ]
+        },
+        {
+          "id": "kublai_khan",
+          "nome": "Kublai Khan",
+          "descricao": "Neto de Gengis Khan e fundador da dinastia Yuan da China.",
+          "variantes": [
+            "Kublai Cã",
+            "Kublai",
+            "Qubilai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bagel",
+        "descricao": "Pão em formato de anel, de massa densa, cozido em água e depois assado, originário das comunidades judaicas da Polônia.",
+        "variantes": [
+          "Beigel",
+          "Beygl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bagel_tenis",
+          "nome": "Bagel (tênis)",
+          "descricao": "Gíria do tênis em inglês para um set vencido por seis games a zero.",
+          "variantes": [
+            "Bagel"
+          ]
+        },
+        {
+          "id": "hms_beagle",
+          "nome": "HMS Beagle",
+          "descricao": "Navio da Marinha Real britânica em que Charles Darwin viajou ao redor do mundo entre 1831 e 1836.",
+          "variantes": [
+            "Beagle"
+          ]
+        },
+        {
+          "id": "georg_wilhelm_friedrich_hegel",
+          "nome": "Georg Wilhelm Friedrich Hegel",
+          "descricao": "Filósofo idealista alemão (1770–1831), autor da Fenomenologia do Espírito.",
+          "variantes": [
+            "Hegel"
+          ]
+        },
+        {
+          "id": "beisebol",
+          "nome": "Beisebol",
+          "descricao": "Esporte coletivo de taco e bola entre duas equipes de nove jogadores.",
+          "variantes": [
+            "Basebol"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bánh mì",
+        "descricao": "Sanduíche vietnamita em baguete curta, com carne, legumes em conserva e ervas.",
+        "variantes": [
+          "Bánh mỳ",
+          "Sanduíche vietnamita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brian_may",
+          "nome": "Brian May",
+          "descricao": "Guitarrista britânico, integrante fundador do Queen",
+          "variantes": []
+        },
+        {
+          "id": "band_aid",
+          "nome": "Band-Aid",
+          "descricao": "Curativo adesivo lançado pela Johnson & Johnson a partir da ideia de Earle Dickson, em 1920.",
+          "variantes": [
+            "Curativo adesivo"
+          ]
+        },
+        {
+          "id": "bahia",
+          "nome": "Bahia",
+          "descricao": "Estado da Região Nordeste do Brasil, com capital em Salvador.",
+          "variantes": []
+        },
+        {
+          "id": "hanami",
+          "nome": "Hanami",
+          "descricao": "Costume japonês de reunir-se ao ar livre para contemplar as cerejeiras floridas na primavera.",
+          "variantes": []
+        },
+        {
+          "id": "mahatma_gandhi",
+          "nome": "Mahatma Gandhi",
+          "descricao": "Mohandas Karamchand Gandhi, líder da luta não violenta pela independência da Índia, assassinado em 1948.",
+          "variantes": [
+            "Gandhi",
+            "Mohandas Gandhi"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Prato culinário; nenhuma candidata é o pato de Pequim."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é batata frita."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Strudel de maçã é diferente de pastel de nata e demais candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bouillabaisse."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é cerveja."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bolo diferente de todas as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é quibe."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Bagel (pão) difere de Bagel (tênis), que é gíria esportiva."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é bánh mì."
+    }
+  ]
+}

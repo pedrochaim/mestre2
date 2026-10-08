@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Creme marrom em pote de vidro, sem contexto: pode ser doce de leite, caramelo, creme de baunilha ou outra pasta. Resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pato laqueado com panquecas, cebolinha e molho: prato claro, sem texto.",
+      "tipo": "aberta",
+      "pergunta": "Que prato chinês é este?",
+      "resposta": "Pato de Pequim",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Pato de Pequim",
+        "descricao": "Prato chinês de pato laqueado e assado, de pele crocante, servido com panquecas finas.",
+        "variantes": [
+          "Pato laqueado de Pequim",
+          "Peking duck"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de perto de um corte com recheio e queijo, em que a buchada não é reconhecível. Pode ser confundida com outros pratos recheados."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Batata frita em palitos grossos num prato, clara. O rótulo ao fundo (molho de pimenta) não entrega a resposta.",
+      "tipo": "aberta",
+      "pergunta": "Que alimento é este?",
+      "resposta": "Batata frita",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Batata frita",
+        "descricao": "Batatas cortadas em palitos e fritas, servidas como acompanhamento ou petisco.",
+        "variantes": [
+          "Fritas",
+          "Batata frita palito",
+          "French fries"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Close de massa folhada fina com maçã e passas, açúcar de confeiteiro. Reconhecível para o nível 1, com dica de região.",
+      "tipo": "aberta",
+      "pergunta": "Que doce típico da Europa Central é este?",
+      "resposta": "Strudel de maçã",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Strudel de maçã",
+        "descricao": "Doce vienense de massa folhada fina enrolada, recheada com maçã, passas e canela.",
+        "variantes": [
+          "Apfelstrudel",
+          "Strudel",
+          "Apple strudel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Sopa alaranjada com torradas de rouille, peixes e crustáceos ao lado: composição característica da bouillabaisse. Sem texto.",
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Bouillabaisse",
+      "distratores": [
+        "Cacciucco",
+        "Caldeirada portuguesa",
+        "Zarzuela de peixe"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Bouillabaisse",
+        "descricao": "Sopa de peixes e frutos do mar tradicional da Provença, originária de Marselha.",
+        "variantes": [
+          "Bullabesa",
+          "Bouillabaisse de Marselha"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Caneca de cerveja loira com espuma sobre fundo preto, nítida e sem texto.",
+      "tipo": "aberta",
+      "pergunta": "Que cereal maltado é a base principal desta bebida?",
+      "resposta": "Cevada",
+      "familia": "que_parte",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cerveja",
+        "descricao": "Bebida alcoólica produzida pela fermentação de cereais maltados, em geral cevada, com lúpulo.",
+        "variantes": [
+          "Chope",
+          "Beer"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bolo em camadas de chocolate, chantili, cerejas e raspas de chocolate: Floresta Negra típico.",
+      "tipo": "aberta",
+      "pergunta": "De que país é típico este bolo?",
+      "resposta": "Alemanha",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Bolo Floresta Negra",
+        "descricao": "Bolo alemão em camadas de massa de chocolate, creme chantili e cerejas, com raspas de chocolate.",
+        "variantes": [
+          "Floresta Negra",
+          "Schwarzwälder Kirschtorte",
+          "Black Forest gateau"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Discos de massa na chapa, sem recheio visível: podem ser confundidos com tortilla, gordita, panqueca ou muffin inglês. Resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Quibes fritos ovais com folhas de hortelã: reconhecíveis e sem texto.",
+      "tipo": "aberta",
+      "pergunta": "De que região do mundo vem este salgado?",
+      "resposta": "Oriente Médio",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Quibe",
+        "descricao": "Bolinho oval frito de carne moída e trigo para quibe, prato típico do Levante.",
+        "variantes": [
+          "Kibe",
+          "Kibbeh",
+          "Kubba"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bagel liso sobre fundo branco, forma de anel clara e sem texto.",
+      "tipo": "multipla",
+      "pergunta": "Que pão é este?",
+      "resposta": "Bagel",
+      "distratores": [
+        "Pretzel",
+        "Rosquinha de leite",
+        "Pão de batata"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Bagel",
+        "descricao": "Pão em formato de anel, de massa densa, cozido em água e depois assado, originário das comunidades judaicas da Polônia.",
+        "variantes": [
+          "Beigel",
+          "Beygl"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Sanduíche em baguete curta com carne, cenoura e daikon em conserva e coentro: reconhecível como bánh mì. Sem texto.",
+      "tipo": "aberta",
+      "pergunta": "De que país é típico este sanduíche?",
+      "resposta": "Vietnã",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Bánh mì",
+        "descricao": "Sanduíche vietnamita em baguete curta, com carne, legumes em conserva e ervas.",
+        "variantes": [
+          "Banh mi",
+          "Bánh mỳ",
+          "Sanduíche vietnamita"
+        ]
+      }
+    }
+  ]
+}
