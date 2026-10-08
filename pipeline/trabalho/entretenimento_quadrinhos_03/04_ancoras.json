@@ -1,0 +1,1424 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Irmãos Dalton",
+        "descricao": "Quarteto de irmãos bandidos, Joe, William, Jack e Averell, inimigos do caubói Lucky Luke nos quadrinhos franco-belgas",
+        "variantes": [
+          "Os Dalton",
+          "The Daltons",
+          "Les Dalton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucky_Luke"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Os quatro irmãos Dalton, bandidos que vivem fugindo de Lucky Luke, têm alturas bem diferentes. Qual deles é o mais baixinho e esquentado?",
+      "resposta": "Joe Dalton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucky_Luke"
+      ],
+      "distratores": [
+        "Averell Dalton",
+        "William Dalton",
+        "Jack Dalton"
+      ],
+      "ancora": "irmaos_dalton"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Robin",
+        "descricao": "Identidade de parceiro mirim do Batman, usada por vários jovens ao longo das décadas nos quadrinhos da DC",
+        "variantes": [
+          "Menino Prodígio",
+          "Boy Wonder"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robin_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Bem antes de Jason Todd, quem foi o primeiro garoto a vestir o uniforme de Robin, parceiro do Batman, estreando em 1940?",
+      "resposta": "Dick Grayson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Robin_(character)",
+        "https://en.wikipedia.org/wiki/Dick_Grayson"
+      ],
+      "ancora": "robin"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Homem de Gelo",
+        "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+        "variantes": [
+          "Iceman",
+          "Bobby Drake"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iceman_(Marvel_Comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Dos cinco alunos que formaram a equipe original dos X-Men, qual era o mais jovem do grupo?",
+      "resposta": "Homem de Gelo (Bobby Drake)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iceman_(Marvel_Comics)"
+      ],
+      "ancora": "homem_de_gelo"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Garfield",
+        "descricao": "Gato laranja, preguiçoso e comilão, protagonista da tira de jornal criada pelo americano Jim Davis em 1978",
+        "variantes": [
+          "Garfield (personagem)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Garfield",
+          "https://en.wikipedia.org/wiki/Garfield_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Preguiçoso e comilão, o gato Garfield detesta muita coisa. Qual é o dia da semana que ele odeia mais que todos?",
+      "resposta": "Segunda-feira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Garfield",
+        "https://en.wikipedia.org/wiki/Garfield_(character)"
+      ],
+      "ancora": "garfield"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Gastão",
+        "descricao": "Primo do Pato Donald nos quadrinhos da Disney, famoso por sua sorte absurda",
+        "variantes": [
+          "Gladstone Gander",
+          "Gastão (Disney)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gladstone_Gander"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Nos quadrinhos da Disney, qual primo do Pato Donald é conhecido como o pato mais sortudo do mundo?",
+      "resposta": "Gastão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gladstone_Gander"
+      ],
+      "ancora": "gastao"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "magali",
+        "nome": "Magali",
+        "descricao": "Personagem comilona da Turma da Mônica, de Mauricio de Sousa",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Magali_(personagem)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Entre todas as comidas que a Magali devora na Turma da Mônica, qual é a sua fruta preferida?",
+      "resposta": "Melancia",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Magali_(personagem)"
+      ],
+      "ancora": "magali"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "superman",
+        "nome": "Superman",
+        "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster",
+        "variantes": [
+          "Super-Homem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Superman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na famosa abertura dos programas de rádio e TV, o Superman é mais rápido que uma bala e mais poderoso que o quê?",
+      "resposta": "Uma locomotiva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Adventures_of_Superman_(radio_series)",
+        "https://en.wikipedia.org/wiki/Superman"
+      ],
+      "ancora": "superman"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "sandman",
+        "nome": "Sandman",
+        "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+        "variantes": [
+          "The Sandman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na série Sandman, de Neil Gaiman, Sonho tem seis irmãos, os Perpétuos. Qual deles é o primogênito da família?",
+      "resposta": "Destino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+      ],
+      "distratores": [
+        "Morte",
+        "Desejo",
+        "Delírio"
+      ],
+      "ancora": "sandman"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Liga da Justiça",
+        "descricao": "Equipe de super-heróis da DC Comics criada em 1960, com Superman, Batman e Mulher-Maravilha",
+        "variantes": [
+          "Justice League",
+          "Liga da Justiça da América"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Justice_League"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Qual membro fundador da Liga da Justiça, de 1960, é um alienígena de pele verde capaz de mudar de forma e ler mentes?",
+      "resposta": "Caçador de Marte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Justice_League",
+        "https://en.wikipedia.org/wiki/Martian_Manhunter"
+      ],
+      "ancora": "liga_da_justica"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "X-Men",
+        "descricao": "Equipe de mutantes da Marvel criada por Stan Lee e Jack Kirby, liderada pelo Professor Xavier",
+        "variantes": [
+          "Os X-Men"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/X-Men"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na formação original dos X-Men havia só uma mulher. Que codinome ela usava?",
+      "resposta": "Garota Marvel (Jean Grey)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/X-Men",
+        "https://en.wikipedia.org/wiki/Jean_Grey"
+      ],
+      "ancora": "x_men"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "A Liga Extraordinária",
+        "descricao": "Série em quadrinhos de Alan Moore e Kevin O'Neill que reúne personagens da literatura vitoriana",
+        "variantes": [
+          "The League of Extraordinary Gentlemen",
+          "Liga Extraordinária"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na Liga Extraordinária, de Alan Moore, qual comandante de submarino criado por Júlio Verne faz parte do grupo?",
+      "resposta": "Capitão Nemo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen"
+      ],
+      "ancora": "a_liga_extraordinaria"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Mjolnir",
+        "descricao": "Martelo mágico do deus Thor nos quadrinhos da Marvel",
+        "variantes": [
+          "Mjölnir",
+          "Martelo do Thor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mjolnir_(comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Nos quadrinhos da Marvel, o martelo Mjolnir, do deus Thor, foi forjado com qual metal fictício?",
+      "resposta": "Uru",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mjolnir_(comics)"
+      ],
+      "distratores": [
+        "Vibranium",
+        "Adamantium",
+        "Carbonádio"
+      ],
+      "ancora": "mjolnir"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "watchmen",
+        "nome": "Watchmen",
+        "descricao": "Série em quadrinhos de Alan Moore e Dave Gibbons, publicada pela DC entre 1986 e 1987",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Watchmen"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Watchmen, qual personagem tem a pele azul e poderes quase divinos, ganhos num acidente em laboratório de física nuclear?",
+      "resposta": "Doutor Manhattan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Doctor_Manhattan",
+        "https://en.wikipedia.org/wiki/Watchmen"
+      ],
+      "ancora": "watchmen"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "sandman",
+        "nome": "Sandman",
+        "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+        "variantes": [
+          "The Sandman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na série Sandman, qual irmã de Sonho aparece como uma jovem gótica, simpática e animada, com um ankh de prata pendurado no pescoço?",
+      "resposta": "Morte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Death_(DC_Comics)"
+      ],
+      "ancora": "sandman"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "asterix",
+        "nome": "Asterix",
+        "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+        "variantes": [
+          "Astérix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Asterix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na aldeia de Asterix, qual bardo costuma terminar amarrado e amordaçado no banquete final, porque ninguém suporta sua cantoria?",
+      "resposta": "Chatotorix",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cacofonix"
+      ],
+      "ancora": "asterix"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Poção mágica (Asterix)",
+        "descricao": "Bebida preparada pelo druida Panoramix que dá força sobre-humana aos gauleses nas histórias de Asterix",
+        "variantes": [
+          "Poção mágica de Panoramix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Getafix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que planta, colhida pelo druida Panoramix com uma foice de ouro, é ingrediente essencial da poção mágica dos gauleses?",
+      "resposta": "Visco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Getafix"
+      ],
+      "ancora": "pocao_magica_asterix"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Sexteto Sinistro",
+        "descricao": "Grupo de seis vilões reunidos para enfrentar o Homem-Aranha, criado pela Marvel em 1964",
+        "variantes": [
+          "Sinister Six"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sinister_Six"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1964, qual vilão de braços mecânicos reuniu inimigos do Homem-Aranha para formar o Sexteto Sinistro?",
+      "resposta": "Doutor Octopus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sinister_Six"
+      ],
+      "ancora": "sexteto_sinistro"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Lanterna Verde",
+        "descricao": "Super-herói da DC Comics que usa um anel de poder; na versão clássica, o piloto Hal Jordan",
+        "variantes": [
+          "Green Lantern",
+          "Hal Jordan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Green_Lantern"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos quadrinhos clássicos, o anel do Lanterna Verde Hal Jordan não tinha efeito sobre objetos de qual cor?",
+      "resposta": "Amarelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Green_Lantern",
+        "https://en.wikipedia.org/wiki/Hal_Jordan"
+      ],
+      "ancora": "lanterna_verde"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Duas-Caras",
+        "descricao": "Harvey Dent, ex-promotor de Gotham com metade do rosto desfigurado, vilão do Batman",
+        "variantes": [
+          "Two-Face",
+          "Harvey Dent"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Two-Face"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que objeto o vilão Duas-Caras, inimigo do Batman, joga para o alto para decidir o destino de suas vítimas?",
+      "resposta": "Uma moeda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Two-Face"
+      ],
+      "ancora": "duas_caras"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Abracurcix",
+        "descricao": "Chefe da aldeia gaulesa de Asterix, carregado num escudo por seus guerreiros",
+        "variantes": [
+          "Vitalstatistix",
+          "Abraracourcix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vitalstatistix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O chefe gaulês Abracurcix, da aldeia de Asterix, diz que só teme uma coisa no mundo. O que é?",
+      "resposta": "Que o céu caia na sua cabeça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vitalstatistix"
+      ],
+      "ancora": "abracurcix"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Floquinho",
+        "descricao": "Cachorro verde e peludo do Cebolinha, na Turma da Mônica",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Floquinho"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Floquinho, o cachorro verde e peludo do Cebolinha, tem uma característica curiosa. O que é impossível distinguir nele?",
+      "resposta": "Cabeça e rabo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Floquinho"
+      ],
+      "ancora": "floquinho"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Bianca Castafiore",
+        "descricao": "Cantora lírica italiana das Aventuras de Tintim, de Hergé, conhecida como o Rouxinol de Milão",
+        "variantes": [
+          "Castafiore"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bianca_Castafiore"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que ária de ópera a cantora Bianca Castafiore, das aventuras de Tintim, vive cantando a plenos pulmões?",
+      "resposta": "Ária das Joias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bianca_Castafiore"
+      ],
+      "distratores": [
+        "Nessun Dorma",
+        "Habanera",
+        "Casta Diva"
+      ],
+      "ancora": "bianca_castafiore"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Turma da Mônica Jovem",
+        "descricao": "Revista de Mauricio de Sousa lançada em 2008 com versões adolescentes dos personagens da Turma da Mônica",
+        "variantes": [
+          "TMJ"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica_Jovem"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em 2008, Mônica e seus amigos ganharam versões adolescentes desenhadas no estilo dos quadrinhos de qual país?",
+      "resposta": "Japão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica_Jovem"
+      ],
+      "distratores": [
+        "Estados Unidos",
+        "França",
+        "Coreia do Sul"
+      ],
+      "ancora": "turma_da_monica_jovem"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Vibranium",
+        "descricao": "Metal fictício dos quadrinhos da Marvel, encontrado sobretudo no país africano de Wakanda",
+        "variantes": [
+          "Vibrânio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vibranium"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Nos quadrinhos da Marvel, o que o escudo do Capitão América e o país do Pantera Negra têm em comum?",
+      "resposta": "O metal vibranium",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vibranium",
+        "https://en.wikipedia.org/wiki/Captain_America%27s_shield"
+      ],
+      "ancora": "vibranium"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Clarim Diário",
+        "descricao": "Jornal fictício de Nova York nos quadrinhos da Marvel, onde Peter Parker trabalha como fotógrafo",
+        "variantes": [
+          "Daily Bugle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Daily_Bugle"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Fora do uniforme, Peter Parker e Clark Kent trabalham no mesmo tipo de empresa. Qual?",
+      "resposta": "Um jornal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Daily_Bugle",
+        "https://en.wikipedia.org/wiki/Daily_Planet"
+      ],
+      "ancora": "clarim_diario"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Krypton (planeta)",
+        "descricao": "Planeta natal fictício do Superman, destruído logo após seu nascimento",
+        "variantes": [
+          "Krypton",
+          "Kripton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Krypton_(comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O planeta natal do Superman tem o mesmo nome, em inglês, de qual gás nobre da tabela periódica?",
+      "resposta": "Criptônio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Krypton_(comics)",
+        "https://en.wikipedia.org/wiki/Krypton"
+      ],
+      "distratores": [
+        "Xenônio",
+        "Neônio",
+        "Argônio"
+      ],
+      "ancora": "krypton_planeta"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Apollo 10",
+        "descricao": "Missão tripulada da NASA de 1969, ensaio geral para o primeiro pouso na Lua",
+        "variantes": [
+          "Apolo 10"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apollo_10"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1969, os dois módulos da missão Apollo 10, ensaio para o pouso na Lua, ganharam nomes de personagens de qual tira de jornal?",
+      "resposta": "Peanuts (Charlie Brown e Snoopy)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apollo_10"
+      ],
+      "ancora": "apollo_10"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Ziraldo",
+        "descricao": "Cartunista e escritor mineiro, criador do Menino Maluquinho e da Turma do Pererê",
+        "variantes": [
+          "Ziraldo Alves Pinto"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ziraldo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do cartunista Ziraldo, criador do Menino Maluquinho, é uma junção dos nomes de quem?",
+      "resposta": "Dos pais, Zizinha e Geraldo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ziraldo"
+      ],
+      "ancora": "ziraldo"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Garfield",
+        "descricao": "Gato laranja, preguiçoso e comilão, protagonista da tira de jornal criada pelo americano Jim Davis em 1978",
+        "variantes": [
+          "Garfield (personagem)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Garfield_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Jim Davis deu ao gato Garfield o nome de qual parente seu?",
+      "resposta": "Seu avô",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Garfield"
+      ],
+      "ancora": "garfield"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Rorschach",
+        "descricao": "Vigilante mascarado e implacável da série Watchmen, de Alan Moore e Dave Gibbons",
+        "variantes": [
+          "Walter Kovacs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rorschach_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O vigilante Rorschach, de Watchmen, tem o nome de um teste psicológico em que o paciente interpreta o quê?",
+      "resposta": "Manchas de tinta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rorschach_(character)",
+        "https://en.wikipedia.org/wiki/Rorschach_test"
+      ],
+      "ancora": "rorschach"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Tartarugas Ninja",
+        "descricao": "Quatro tartarugas mutantes treinadas em artes marciais, criadas em quadrinhos por Kevin Eastman e Peter Laird em 1984",
+        "variantes": [
+          "Teenage Mutant Ninja Turtles",
+          "As Tartarugas Ninja"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "As Tartarugas Ninja, criadas em quadrinhos em 1984, têm nomes de artistas de qual período da história da arte?",
+      "resposta": "Renascimento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+      ],
+      "distratores": [
+        "Barroco",
+        "Impressionismo",
+        "Romantismo"
+      ],
+      "ancora": "tartarugas_ninja"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Popeye",
+        "descricao": "Marinheiro forte que come espinafre, criado por E. C. Segar numa tira de jornal americana em 1929",
+        "variantes": [
+          "Popeye, o Marinheiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Popeye"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do marinheiro Popeye, criado em 1929 numa tira de jornal, faz referência a qual parte do corpo dele?",
+      "resposta": "O olho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Popeye"
+      ],
+      "distratores": [
+        "O braço",
+        "O queixo",
+        "O nariz"
+      ],
+      "ancora": "popeye"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Lex Luthor",
+        "descricao": "Gênio do crime careca e principal inimigo do Superman nos quadrinhos da DC",
+        "variantes": [
+          "Lex Luthor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lex_Luthor"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Numa história de 1960, por que o jovem cientista Lex Luthor passou a odiar o Superboy?",
+      "resposta": "Culpou-o por ficar careca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lex_Luthor"
+      ],
+      "ancora": "lex_luthor"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Justiceiro",
+        "descricao": "Frank Castle, anti-herói da Marvel que combate o crime com armas e usa uma caveira no peito",
+        "variantes": [
+          "The Punisher",
+          "Frank Castle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Punisher"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que tragédia transformou o ex-fuzileiro Frank Castle no Justiceiro, o anti-herói da caveira no peito?",
+      "resposta": "O assassinato da família pela máfia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Punisher"
+      ],
+      "ancora": "justiceiro"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "id_existente": "chico_bento",
+        "nome": "Chico Bento",
+        "descricao": "Menino caipira de chapéu de palha da Turma da Mônica, morador da Vila Abobrinha.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chico_Bento"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na Vila Abobrinha, por que o Nhô Lau vive correndo atrás do Chico Bento?",
+      "resposta": "Ele rouba as goiabas do pomar",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chico_Bento"
+      ],
+      "ancora": "chico_bento"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Lucy van Pelt",
+        "descricao": "Menina mandona da tira Peanuts, de Charles Schulz, irmã mais velha de Linus",
+        "variantes": [
+          "Lucy",
+          "Lucy Van Pelt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucy_van_Pelt"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na tira Peanuts, a mandona Lucy dá conselhos psiquiátricos numa barraquinha. Quanto ela cobra por consulta?",
+      "resposta": "Cinco centavos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucy_van_Pelt"
+      ],
+      "distratores": [
+        "Um centavo",
+        "Dez centavos",
+        "Vinte e cinco centavos"
+      ],
+      "ancora": "lucy_van_pelt"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "capitao_haddock",
+        "nome": "Capitão Haddock",
+        "descricao": "Capitão do mar beberrão e esbravejante, melhor amigo de Tintim",
+        "variantes": [
+          "Haddock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Captain_Haddock"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nas aventuras de Tintim, como se chama o castelo, construído por um antepassado do Capitão Haddock, onde ele passa a morar?",
+      "resposta": "Moulinsart",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marlinspike_Hall"
+      ],
+      "ancora": "capitao_haddock"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Noturno",
+        "descricao": "Kurt Wagner, mutante azul de cauda pontuda dos X-Men, capaz de se teletransportar",
+        "variantes": [
+          "Nightcrawler",
+          "Kurt Wagner"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nightcrawler_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Noturno, o mutante azul de cauda pontuda que se teletransporta nos X-Men, nasceu em qual país europeu?",
+      "resposta": "Alemanha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nightcrawler_(character)"
+      ],
+      "ancora": "noturno"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Aquaman",
+        "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+        "variantes": [
+          "Arthur Curry"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aquaman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Aquaman, o herói da DC que conversa com os peixes, é rei de qual reino submerso?",
+      "resposta": "Atlântida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aquaman"
+      ],
+      "ancora": "aquaman"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "X-Men",
+        "descricao": "Equipe de mutantes da Marvel criada por Stan Lee e Jack Kirby, liderada pelo Professor Xavier",
+        "variantes": [
+          "Os X-Men"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/X-Men"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A primeira revista dos X-Men tem na capa a mesma data de setembro que a primeira dos Vingadores. De que ano?",
+      "resposta": "1963",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/X-Men",
+        "https://en.wikipedia.org/wiki/Avengers_(comics)"
+      ],
+      "ancora": "x_men"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Ed Mort",
+        "descricao": "Detetive particular azarado e falido, personagem de Luis Fernando Verissimo levado aos quadrinhos com desenhos de Miguel Paiva",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ed_Mort"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escritor gaúcho criou Ed Mort, o detetive particular falido que ganhou quadrinhos desenhados por Miguel Paiva?",
+      "resposta": "Luis Fernando Verissimo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ed_Mort",
+        "https://pt.wikipedia.org/wiki/Luis_Fernando_Verissimo"
+      ],
+      "ancora": "ed_mort"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Um Contrato com Deus",
+        "descricao": "Livro em quadrinhos de 1978 sobre a vida num cortiço do Bronx, marco na popularização do termo graphic novel",
+        "variantes": [
+          "A Contract with God"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/A_Contract_with_God"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que quadrinista americano ajudou a popularizar o termo graphic novel com o livro Um Contrato com Deus, de 1978?",
+      "resposta": "Will Eisner",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/A_Contract_with_God"
+      ],
+      "ancora": "um_contrato_com_deus"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "irmaos_dalton",
+      "nome": "Irmãos Dalton",
+      "descricao": "Quarteto de irmãos bandidos, Joe, William, Jack e Averell, inimigos do caubói Lucky Luke nos quadrinhos franco-belgas",
+      "variantes": [
+        "Os Dalton",
+        "The Daltons",
+        "Les Dalton"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lucky_Luke"
+      ]
+    },
+    {
+      "id": "robin",
+      "nome": "Robin",
+      "descricao": "Identidade de parceiro mirim do Batman, usada por vários jovens ao longo das décadas nos quadrinhos da DC",
+      "variantes": [
+        "Menino Prodígio",
+        "Boy Wonder"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Robin_(character)"
+      ]
+    },
+    {
+      "id": "homem_de_gelo",
+      "nome": "Homem de Gelo",
+      "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+      "variantes": [
+        "Iceman",
+        "Bobby Drake"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Iceman_(Marvel_Comics)"
+      ]
+    },
+    {
+      "id": "garfield",
+      "nome": "Garfield",
+      "descricao": "Gato laranja, preguiçoso e comilão, protagonista da tira de jornal criada pelo americano Jim Davis em 1978",
+      "variantes": [
+        "Garfield (personagem)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Garfield",
+        "https://en.wikipedia.org/wiki/Garfield_(character)"
+      ]
+    },
+    {
+      "id": "gastao",
+      "nome": "Gastão",
+      "descricao": "Primo do Pato Donald nos quadrinhos da Disney, famoso por sua sorte absurda",
+      "variantes": [
+        "Gladstone Gander",
+        "Gastão (Disney)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gladstone_Gander"
+      ]
+    },
+    {
+      "id": "liga_da_justica",
+      "nome": "Liga da Justiça",
+      "descricao": "Equipe de super-heróis da DC Comics criada em 1960, com Superman, Batman e Mulher-Maravilha",
+      "variantes": [
+        "Justice League",
+        "Liga da Justiça da América"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Justice_League"
+      ]
+    },
+    {
+      "id": "x_men",
+      "nome": "X-Men",
+      "descricao": "Equipe de mutantes da Marvel criada por Stan Lee e Jack Kirby, liderada pelo Professor Xavier",
+      "variantes": [
+        "Os X-Men"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/X-Men"
+      ]
+    },
+    {
+      "id": "a_liga_extraordinaria",
+      "nome": "A Liga Extraordinária",
+      "descricao": "Série em quadrinhos de Alan Moore e Kevin O'Neill que reúne personagens da literatura vitoriana",
+      "variantes": [
+        "The League of Extraordinary Gentlemen",
+        "Liga Extraordinária"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_League_of_Extraordinary_Gentlemen"
+      ]
+    },
+    {
+      "id": "mjolnir",
+      "nome": "Mjolnir",
+      "descricao": "Martelo mágico do deus Thor nos quadrinhos da Marvel",
+      "variantes": [
+        "Martelo do Thor"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mjolnir_(comics)"
+      ]
+    },
+    {
+      "id": "pocao_magica_asterix",
+      "nome": "Poção mágica (Asterix)",
+      "descricao": "Bebida preparada pelo druida Panoramix que dá força sobre-humana aos gauleses nas histórias de Asterix",
+      "variantes": [
+        "Poção mágica de Panoramix"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Getafix"
+      ]
+    },
+    {
+      "id": "sexteto_sinistro",
+      "nome": "Sexteto Sinistro",
+      "descricao": "Grupo de seis vilões reunidos para enfrentar o Homem-Aranha, criado pela Marvel em 1964",
+      "variantes": [
+        "Sinister Six"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sinister_Six"
+      ]
+    },
+    {
+      "id": "lanterna_verde",
+      "nome": "Lanterna Verde",
+      "descricao": "Super-herói da DC Comics que usa um anel de poder; na versão clássica, o piloto Hal Jordan",
+      "variantes": [
+        "Green Lantern",
+        "Hal Jordan"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Green_Lantern"
+      ]
+    },
+    {
+      "id": "duas_caras",
+      "nome": "Duas-Caras",
+      "descricao": "Harvey Dent, ex-promotor de Gotham com metade do rosto desfigurado, vilão do Batman",
+      "variantes": [
+        "Two-Face",
+        "Harvey Dent"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Two-Face"
+      ]
+    },
+    {
+      "id": "abracurcix",
+      "nome": "Abracurcix",
+      "descricao": "Chefe da aldeia gaulesa de Asterix, carregado num escudo por seus guerreiros",
+      "variantes": [
+        "Vitalstatistix",
+        "Abraracourcix"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Vitalstatistix"
+      ]
+    },
+    {
+      "id": "floquinho",
+      "nome": "Floquinho",
+      "descricao": "Cachorro verde e peludo do Cebolinha, na Turma da Mônica",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Floquinho"
+      ]
+    },
+    {
+      "id": "bianca_castafiore",
+      "nome": "Bianca Castafiore",
+      "descricao": "Cantora lírica italiana das Aventuras de Tintim, de Hergé, conhecida como o Rouxinol de Milão",
+      "variantes": [
+        "Castafiore"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bianca_Castafiore"
+      ]
+    },
+    {
+      "id": "vibranium",
+      "nome": "Vibranium",
+      "descricao": "Metal fictício dos quadrinhos da Marvel, encontrado sobretudo no país africano de Wakanda",
+      "variantes": [
+        "Vibrânio"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Vibranium"
+      ]
+    },
+    {
+      "id": "clarim_diario",
+      "nome": "Clarim Diário",
+      "descricao": "Jornal fictício de Nova York nos quadrinhos da Marvel, onde Peter Parker trabalha como fotógrafo",
+      "variantes": [
+        "Daily Bugle"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Daily_Bugle"
+      ]
+    },
+    {
+      "id": "krypton_planeta",
+      "nome": "Krypton (planeta)",
+      "descricao": "Planeta natal fictício do Superman, destruído logo após seu nascimento",
+      "variantes": [
+        "Krypton",
+        "Kripton"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Krypton_(comics)"
+      ]
+    },
+    {
+      "id": "apollo_10",
+      "nome": "Apollo 10",
+      "descricao": "Missão tripulada da NASA de 1969, ensaio geral para o primeiro pouso na Lua",
+      "variantes": [
+        "Apolo 10"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Apollo_10"
+      ]
+    },
+    {
+      "id": "rorschach",
+      "nome": "Rorschach",
+      "descricao": "Vigilante mascarado e implacável da série Watchmen, de Alan Moore e Dave Gibbons",
+      "variantes": [
+        "Walter Kovacs"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Rorschach_(character)"
+      ]
+    },
+    {
+      "id": "tartarugas_ninja",
+      "nome": "Tartarugas Ninja",
+      "descricao": "Quatro tartarugas mutantes treinadas em artes marciais, criadas em quadrinhos por Kevin Eastman e Peter Laird em 1984",
+      "variantes": [
+        "Teenage Mutant Ninja Turtles",
+        "As Tartarugas Ninja"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles"
+      ]
+    },
+    {
+      "id": "popeye",
+      "nome": "Popeye",
+      "descricao": "Marinheiro forte que come espinafre, criado por E. C. Segar numa tira de jornal americana em 1929",
+      "variantes": [
+        "Popeye, o Marinheiro"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Popeye"
+      ]
+    },
+    {
+      "id": "lex_luthor",
+      "nome": "Lex Luthor",
+      "descricao": "Gênio do crime careca e principal inimigo do Superman nos quadrinhos da DC",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lex_Luthor"
+      ]
+    },
+    {
+      "id": "justiceiro",
+      "nome": "Justiceiro",
+      "descricao": "Frank Castle, anti-herói da Marvel que combate o crime com armas e usa uma caveira no peito",
+      "variantes": [
+        "The Punisher",
+        "Frank Castle"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Punisher"
+      ]
+    },
+    {
+      "id": "lucy_van_pelt",
+      "nome": "Lucy van Pelt",
+      "descricao": "Menina mandona da tira Peanuts, de Charles Schulz, irmã mais velha de Linus",
+      "variantes": [
+        "Lucy"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lucy_van_Pelt"
+      ]
+    },
+    {
+      "id": "noturno",
+      "nome": "Noturno",
+      "descricao": "Kurt Wagner, mutante azul de cauda pontuda dos X-Men, capaz de se teletransportar",
+      "variantes": [
+        "Nightcrawler",
+        "Kurt Wagner"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nightcrawler_(character)"
+      ]
+    },
+    {
+      "id": "aquaman",
+      "nome": "Aquaman",
+      "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+      "variantes": [
+        "Arthur Curry"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Aquaman"
+      ]
+    },
+    {
+      "id": "ed_mort",
+      "nome": "Ed Mort",
+      "descricao": "Detetive particular azarado e falido, personagem de Luis Fernando Verissimo levado aos quadrinhos com desenhos de Miguel Paiva",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ed_Mort"
+      ]
+    },
+    {
+      "id": "um_contrato_com_deus",
+      "nome": "Um Contrato com Deus",
+      "descricao": "Livro em quadrinhos de 1978 sobre a vida num cortiço do Bronx, marco na popularização do termo graphic novel",
+      "variantes": [
+        "A Contract with God"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/A_Contract_with_God"
+      ]
+    }
+  ],
+  "variantes": {
+    "magali": [
+      "Magali"
+    ],
+    "superman": [
+      "Superman",
+      "Super-Homem"
+    ],
+    "sandman": [
+      "Sandman",
+      "The Sandman"
+    ],
+    "watchmen": [
+      "Watchmen"
+    ],
+    "asterix": [
+      "Asterix",
+      "Astérix"
+    ],
+    "mafalda": [
+      "Mafalda"
+    ],
+    "chico_bento": [
+      "Chico Bento"
+    ],
+    "capitao_haddock": [
+      "Capitão Haddock",
+      "Haddock"
+    ],
+    "turma_da_monica_jovem": [
+      "Turma da Mônica Jovem",
+      "TMJ"
+    ],
+    "ziraldo": [
+      "Ziraldo",
+      "Ziraldo Alves Pinto"
+    ],
+    "ze_carioca": [
+      "Zé Carioca",
+      "José Carioca",
+      "Joe Carioca"
+    ]
+  }
+}

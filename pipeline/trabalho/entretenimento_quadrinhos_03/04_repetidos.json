@@ -1,0 +1,221 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre todas as comidas que a Magali devora na Turma da Mônica, qual é a sua fruta preferida?",
+        "resposta": "Melancia"
+      },
+      "existentes": [
+        {
+          "id": "q01443",
+          "pergunta": "Além de amigas nos quadrinhos, o que Mônica e Magali têm em comum na vida real de Mauricio de Sousa?",
+          "resposta": "Foram inspiradas em filhas dele"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na famosa abertura dos programas de rádio e TV, o Superman é mais rápido que uma bala e mais poderoso que o quê?",
+        "resposta": "Uma locomotiva"
+      },
+      "existentes": [
+        {
+          "id": "q04411",
+          "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
+          "resposta": "1938"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na série Sandman, de Neil Gaiman, Sonho tem seis irmãos, os Perpétuos. Qual deles é o primogênito da família?",
+        "resposta": "Destino"
+      },
+      "existentes": [
+        {
+          "id": "q04432",
+          "pergunta": "Que escritor inglês, autor do livro Coraline, criou no fim dos anos 1980 a série em quadrinhos Sandman?",
+          "resposta": "Neil Gaiman"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Watchmen, qual personagem tem a pele azul e poderes quase divinos, ganhos num acidente em laboratório de física nuclear?",
+        "resposta": "Doutor Manhattan"
+      },
+      "existentes": [
+        {
+          "id": "q01436",
+          "pergunta": "O título Watchmen vem da pergunta quem vigia os vigilantes, escrita por qual poeta da Roma Antiga?",
+          "resposta": "Juvenal"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na série Sandman, qual irmã de Sonho aparece como uma jovem gótica, simpática e animada, com um ankh de prata pendurado no pescoço?",
+        "resposta": "Morte"
+      },
+      "existentes": [
+        {
+          "id": "q04432",
+          "pergunta": "Que escritor inglês, autor do livro Coraline, criou no fim dos anos 1980 a série em quadrinhos Sandman?",
+          "resposta": "Neil Gaiman"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na aldeia de Asterix, qual bardo costuma terminar amarrado e amordaçado no banquete final, porque ninguém suporta sua cantoria?",
+        "resposta": "Chatotorix"
+      },
+      "existentes": [
+        {
+          "id": "q01438",
+          "pergunta": "O nome do gaulês Asterix é uma brincadeira com qual sinal tipográfico?",
+          "resposta": "Asterisco"
+        },
+        {
+          "id": "q04423",
+          "pergunta": "No ano cinquenta antes de Cristo, a aldeia de Asterix resiste aos romanos em qual região da atual França?",
+          "resposta": "Bretanha (Armórica)"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 2008, Mônica e seus amigos ganharam versões adolescentes desenhadas no estilo dos quadrinhos de qual país?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q01412",
+          "pergunta": "Lançada em 2008 por Mauricio de Sousa, que revista mostra seus personagens clássicos como adolescentes, em estilo mangá?",
+          "resposta": "Turma da Mônica Jovem"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O nome do cartunista Ziraldo, criador do Menino Maluquinho, é uma junção dos nomes de quem?",
+        "resposta": "Dos pais, Zizinha e Geraldo"
+      },
+      "existentes": [
+        {
+          "id": "q07700",
+          "pergunta": "Quem é este escritor e cartunista brasileiro?",
+          "resposta": "Ziraldo"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Zé Carioca surgiu depois de uma viagem de Walt Disney à América do Sul, em 1941. Essa viagem fazia parte de qual política do governo americano?",
+        "resposta": "Política da Boa Vizinhança"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na Vila Abobrinha, por que o Nhô Lau vive correndo atrás do Chico Bento?",
+        "resposta": "Ele rouba as goiabas do pomar"
+      },
+      "existentes": [
+        {
+          "id": "q02248",
+          "pergunta": "Quem criou este personagem?",
+          "resposta": "Mauricio de Sousa"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Nas aventuras de Tintim, como se chama o castelo, construído por um antepassado do Capitão Haddock, onde ele passa a morar?",
+        "resposta": "Moulinsart"
+      },
+      "existentes": [
+        {
+          "id": "q04444",
+          "pergunta": "O sobrenome do capitão Haddock, amigo de Tintim, é em inglês o nome de qual peixe, parente do bacalhau?",
+          "resposta": "Eglefino (hadoque)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fruta preferida da Magali é fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Slogan vs. ano da revista."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Primogênito dos Perpétuos vs. criador da série."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Doutor Manhattan vs. origem do título."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Morte vs. criador da série."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bardo Chatotorix é fato distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "País do estilo (Japão) é diferente de nome da revista, embora relacionado; fato perguntado distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs. identificação do escritor."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q00131",
+      "motivo": "Mesma resposta: Política da Boa Vizinhança para o surgimento do Zé Carioca."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nhô Lau perseguindo Chico Bento vs. criador."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Castelo Moulinsart vs. significado do sobrenome."
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português dá a ordem crescente de altura, com Joe o menor; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dick Grayson é o primeiro Robin, estreia em 1940 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bobby Drake é o mais jovem dos cinco originais; o trecho só confirma na continuidade Ultimate, mas o fato é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Garfield odeia segundas-feiras, confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português descreve Gastão como o pato mais sortudo do mundo.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O nome Geriatrix varia entre edições, e não há certeza de qual é o usado no Brasil; a pergunta ouvida pode não casar com o nome que o jogador conhece.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não mostram o apelido, vários personagens usam a identidade Flash e a pergunta é genérica e fácil demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas uma fonte é inexistente; mantém só a fonte em português e usa ângulo atributo.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Entre todas as comidas que a Magali devora na Turma da Mônica, qual é a sua fruta preferida?",
+        "resposta": "Melancia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Magali_(personagem)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A abertura clássica diz mais poderoso que uma locomotiva, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Destino é o primogênito dos Perpétuos, mas a fonte é inexistente e precisa ser trocada.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Na série Sandman, de Neil Gaiman, Sonho tem seis irmãos, os Perpétuos. Qual deles é o primogênito da família?",
+        "resposta": "Destino",
+        "distratores": [
+          "Morte",
+          "Desejo",
+          "Delírio"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caçador de Marte é um dos sete fundadores; descrição precisa e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jean Grey era a única mulher entre os cinco originais, como Garota Marvel.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capitão Nemo integra a Liga, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mjolnir é feito de uru, confirmado; distratores são metais da Marvel.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doutor Manhattan: acidente de laboratório com físico atômico, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A Morte não usa cartola e o trecho não a menciona; removida a cartola e mantidos traços sustentados (ankh de prata, simpática, animada).",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Na série Sandman, qual irmã de Sonho aparece como uma jovem gótica, simpática e animada, com um ankh de prata pendurado no pescoço?",
+        "resposta": "Morte",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Death_(DC_Comics)"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma Chatotorix amarrado nas festas finais.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Visco colhido com foice de ouro é ingrediente conhecido da poção.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Manolito, filho do dono do armazém, só pensa em lucro.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doutor Octopus organizou o Sexteto Sinistro, estreia em 1964.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma a fraqueza do anel à cor amarela.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duas-Caras decide tudo pela moeda, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Onça também é felino, então 'apesar do nome' ser gato é enganoso e a pergunta fica ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português: só teme que o céu caia sobre sua cabeça.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas uma fonte (Cebolinha) é a página da planta; resposta reformulada para ficar clara.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Floquinho, o cachorro verde e peludo do Cebolinha, tem uma característica curiosa. O que é impossível distinguir nele?",
+        "resposta": "Cabeça e rabo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Floquinho"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A ária das Joias, de Faust, é a marca de Castafiore.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma traço de mangá japonês em 2008.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte é a página da planta, e 'virar o dono da rua' não é fiel: os planos visam pegar o Sansão da Mônica.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vibranium liga o escudo do Capitão América a Wakanda, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas uma fonte é inexistente; troca de fontes e especifica mãe adotiva de Clark.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Como lembrou o filme Batman vs Superman, de 2016, o que a mãe de Bruce Wayne e a mãe adotiva de Clark Kent têm em comum?",
+        "resposta": "O nome Martha",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Jonathan_and_Martha_Kent",
+          "https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Daily Bugle e Daily Planet são jornais onde trabalham Peter e Clark.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Krypton foi nomeado a partir do elemento criptônio, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Charlie Brown e Snoopy nomearam os módulos da Apollo 10.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ziraldo vem de Zizinha e Geraldo, nomes dos pais; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte citada não traz o fato (está no artigo Garfield) e 'ao próprio avô' é confuso; reformulado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Jim Davis deu ao gato Garfield o nome de qual parente seu?",
+        "resposta": "Seu avô",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Garfield"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'Calvin' e a resposta é João Calvino, vazamento por palavra derivada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teste de Rorschach usa manchas de tinta, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tartarugas têm nomes de artistas do Renascimento, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Popeye é o marinheiro caolho, nome refere-se ao olho.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Em Adventure Comics 271, Lex culpa o Superboy pela perda do cabelo; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Família assassinada por mafiosos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zé Carioca nasceu da Política da Boa Vizinhança, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chico rouba as goiabas do Nhô Lau, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lucy cobra cinco centavos pela consulta psiquiátrica, fato clássico de Peanuts.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o castelo foi construído por um antepassado; 'herança' não é sustentado literalmente.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Nas aventuras de Tintim, como se chama o castelo, construído por um antepassado do Capitão Haddock, onde ele passa a morar?",
+        "resposta": "Moulinsart",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Marlinspike_Hall"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kurt Wagner nasceu na Baviera, Alemanha.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aquaman reina em Atlântida, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "1963 é a data de capa, não de chegada às bancas; enunciado ajustado para ser literal.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "A primeira revista dos X-Men tem na capa a mesma data de setembro que a primeira dos Vingadores. De que ano?",
+        "resposta": "1963",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/X-Men",
+          "https://en.wikipedia.org/wiki/Avengers_(comics)"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Verissimo criou Ed Mort; tiras desenhadas por Miguel Paiva.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Will Eisner popularizou o termo graphic novel com Um Contrato com Deus.",
+      "reescrita": null
+    }
+  ]
+}
