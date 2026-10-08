@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, única, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "O país desta bandeira fica totalmente dentro de qual cidade?",
+      "resposta": "Roma",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Vaticano",
+        "descricao": "Bandeira da Cidade do Vaticano, com as chaves de São Pedro e a tiara papal sobre faixa branca ao lado de faixa amarela.",
+        "variantes": [
+          "Bandeira da Cidade do Vaticano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, reconhecível pelo ornamento bordado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Minsk",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Bielorrússia",
+        "descricao": "Bandeira da Bielorrússia, vermelha e verde com ornamento bordado vermelho e branco junto à haste.",
+        "variantes": [
+          "Bandeira de Belarus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, azul-clara com Union Jack e brasão, única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Suva",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Fiji",
+        "descricao": "Bandeira de Fiji, azul-clara com a Union Jack no canto e o brasão nacional.",
+        "variantes": [
+          "Bandeira das Ilhas Fiji"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, estrela de sete pontas a distingue de similares.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Jordânia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Jordânia",
+        "descricao": "Bandeira da Jordânia, faixas preta, branca e verde com triângulo vermelho e estrela branca de sete pontas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; triângulo verde a distingue de outras pan-árabes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Cartum",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Sudão",
+        "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sol com tunduk, única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país da Ásia Central é esta bandeira?",
+      "resposta": "Quirguistão",
+      "distratores": [
+        "Cazaquistão",
+        "Uzbequistão",
+        "Tajiquistão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Quirguistão",
+        "descricao": "Bandeira do Quirguistão, vermelha com sol amarelo de quarenta raios e o tunduk de uma iurta no centro.",
+        "variantes": [
+          "Bandeira do Quirguizistão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, tricolor vertical com estrela central.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que apelido tem a seleção de futebol do país desta bandeira?",
+      "resposta": "Leões Indomáveis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Camarões",
+        "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+        "variantes": [
+          "Bandeira dos Camarões"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Emirados Árabes Unidos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira dos Emirados Árabes Unidos",
+        "descricao": "Bandeira dos Emirados Árabes Unidos, com faixa vertical vermelha e faixas horizontais verde, branca e preta.",
+        "variantes": [
+          "Bandeira dos EAU"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "O país desta bandeira foi colônia de qual país europeu?",
+      "resposta": "França",
+      "distratores": [
+        "Itália",
+        "Reino Unido",
+        "Portugal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Djibuti",
+        "descricao": "Bandeira do Djibuti, faixas azul-clara e verde com triângulo branco e estrela vermelha.",
+        "variantes": [
+          "Bandeira de Djibouti"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, brasão com cruz dupla a distingue da Eslovênia e da Rússia.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Eslováquia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Eslováquia",
+        "descricao": "Bandeira da Eslováquia, tricolor branco, azul e vermelho com brasão de cruz dupla sobre três montes.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tricolor simples mas reconhecível e única na resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mar banha o país desta bandeira?",
+      "resposta": "Mar Negro",
+      "distratores": [
+        "Mar Adriático",
+        "Mar Egeu",
+        "Mar Cáspio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Bulgária",
+        "descricao": "Bandeira da Bulgária, tricolor horizontal branco, verde e vermelho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, tapetes e crescente a tornam única.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que mar banha o oeste do país desta bandeira?",
+      "resposta": "Mar Cáspio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Turcomenistão",
+        "descricao": "Bandeira do Turcomenistão, verde com faixa vertical de motivos de tapetes, crescente branco e cinco estrelas.",
+        "variantes": [
+          "Bandeira do Turquemenistão"
+        ]
+      }
+    }
+  ]
+}
