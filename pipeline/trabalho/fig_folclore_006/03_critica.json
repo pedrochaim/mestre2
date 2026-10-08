@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o brinquedo (solta ao vento, preso a uma linha) e entrega a resposta sem a figura. Além disso, há vários nomes regionais, então vale registrar o sinônimo.",
+      "reescrita": {
+        "pergunta": "Que brinquedo de criança, muito popular no Brasil, é este?",
+        "resposta": "Pipa (também chamada papagaio ou pandorga)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sapo, pedra e lendas amazônicas formam uma definição que dá a resposta sem a imagem. É preciso tirar a descrição.",
+      "reescrita": {
+        "pergunta": "Como se chama este objeto de origem indígena amazônica?",
+        "resposta": "Muiraquitã",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A função (lançar pedrinhas) descreve o objeto e a figura vira enfeite. Também há vários nomes aceitos no Brasil.",
+      "reescrita": {
+        "pergunta": "Como se chama este objeto, comum em brincadeiras de criança no Brasil?",
+        "resposta": "Estilingue (também chamado atiradeira ou baladeira)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os fusos de madeira são os próprios bilros, e a pista entrega a resposta. Basta pedir a técnica a partir da figura.",
+      "reescrita": {
+        "pergunta": "Que tipo de renda artesanal é feita desta maneira?",
+        "resposta": "Renda de bilros",
+        "distratores": [
+          "Renda renascença",
+          "Renda de filé",
+          "Renda irlandesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Esferas coloridas de vidro\" define o objeto e entrega a resposta sem a figura. Existem outros nomes para o brinquedo.",
+      "reescrita": {
+        "pergunta": "Que brinquedo de criança, usado em jogos de rua, é este?",
+        "resposta": "Bolinha de gude (ou bola de gude)",
+        "distratores": []
+      }
+    }
+  ]
+}

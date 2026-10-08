@@ -1,0 +1,143 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem é uma pintura (Courbet) com uma mulher dormindo; a rede é só parte da cena, e não uma foto do objeto."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra uma igreja de cidade; não tem relação reconhecível com a entidade (a criatura Ipupiara ou o município), e a resposta não sai da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pipa clara e legível; mãos sem rosto, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que brinquedo, que se solta ao vento preso a uma linha, é este?",
+      "resposta": "Pipa",
+      "ancora": {
+        "nome": "Pipa",
+        "descricao": "Brinquedo de papel ou tecido que voa preso a uma linha, também chamado de papagaio ou pandorga.",
+        "variantes": [
+          "Papagaio",
+          "Pandorga",
+          "Raia",
+          "Quadrado"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Ilustração de mulher coberta de cabelos, que poderia ser Caipora, Iara ou outra figura; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Sapo de pedra verde, nítido, sem texto; reconhecível como o amuleto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Como se chama este amuleto de pedra em forma de sapo, ligado a lendas amazônicas?",
+      "resposta": "Muiraquitã",
+      "ancora": {
+        "nome": "Muiraquitã",
+        "descricao": "Amuleto de pedra, geralmente em forma de sapo, de origem indígena amazônica e ligado a lendas.",
+        "variantes": [
+          "Muiraquitan",
+          "Muyrakytã"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estilingue nítido em fundo branco, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Como se chama este objeto, usado para lançar pedrinhas?",
+      "resposta": "Estilingue",
+      "ancora": {
+        "nome": "Estilingue",
+        "descricao": "Arma ou brinquedo em forma de Y com elástico que lança projéteis pequenos.",
+        "variantes": [
+          "Atiradeira",
+          "Bodoque",
+          "Baladeira"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Almofada com bilros, alfinetes e pique: técnica bem visível; mão é de manequim.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que tipo de renda artesanal é feita com esta almofada, linhas e fusos de madeira?",
+      "resposta": "Renda de bilro",
+      "distratores": [
+        "Renda renascença",
+        "Renda de filé",
+        "Renda irlandesa"
+      ],
+      "ancora": {
+        "nome": "Renda de bilro",
+        "descricao": "Renda artesanal feita entrelaçando fios com fusos de madeira sobre almofada e pique.",
+        "variantes": [
+          "Renda de bilros"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O instrumento polido, de corpo em forma de pera e tampo com aberturas, não parece uma viola de cocho (tronco escavado, rústico); não é reconhecível com segurança."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Dois homens comuns em primeiro plano, fora de festa pública; a roupa aparece em contexto cotidiano e há texto em uma garrafa térmica."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Sino de metal preto segurado por uma mão; poderia ser agogô, cowbell ou outro instrumento, então não é reconhecível como gonguê."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Monte de bolinhas de gude coloridas, nítido, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que brinquedo de criança são estas esferas coloridas de vidro?",
+      "resposta": "Bolinha de gude",
+      "ancora": {
+        "nome": "Bolinha de gude",
+        "descricao": "Pequena esfera de vidro usada em jogos infantis.",
+        "variantes": [
+          "Bola de gude",
+          "Berlinde",
+          "Bolita",
+          "Búlica"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Um tronco liso de madeira sem traço distintivo; não é reconhecível como pau de chuva e pode ser confundido com qualquer tubo ou graveto."
+    }
+  ]
+}

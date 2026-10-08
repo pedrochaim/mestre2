@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que brinquedo de criança, muito popular no Brasil, é este?",
+        "resposta": "Pipa (também chamada papagaio ou pandorga)"
+      },
+      "existentes": [
+        {
+          "id": "q04496",
+          "pergunta": "Chamada de papagaio, arraia ou pandorga conforme a região do Brasil, a pipa foi inventada há mais de dois mil anos em qual país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q08395",
+          "pergunta": "Nos estados do Sul do Brasil, sobretudo no Rio Grande do Sul, a pipa costuma ser chamada por qual outro nome?",
+          "resposta": "Pandorga"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Como se chama este objeto de origem indígena amazônica?",
+        "resposta": "Muiraquitã"
+      },
+      "existentes": [
+        {
+          "id": "q03508",
+          "pergunta": "Que herói de Mário de Andrade passa o romance tentando recuperar seu muiraquitã, amuleto amazônico de pedra verde?",
+          "resposta": "Macunaíma"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que tipo de renda artesanal é feita desta maneira?",
+        "resposta": "Renda de bilros"
+      },
+      "existentes": [
+        {
+          "id": "q07726",
+          "pergunta": "Na renda de bilro, tradicional no litoral brasileiro, as rendeiras trançam as linhas usando bilros. O que são os bilros?",
+          "resposta": "Pequenos fusos de madeira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar a pipa a partir da imagem. As existentes perguntam a origem (China) e o nome regional (Pandorga). Fatos diferentes, embora a resposta da nova cite 'pandorga'."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do objeto, muiraquitã. A existente pede o herói de Macunaíma que busca o amuleto. O fato é outro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome do tipo de renda a partir da imagem. A existente pede o que são os bilros. Fatos diferentes."
+    }
+  ]
+}
