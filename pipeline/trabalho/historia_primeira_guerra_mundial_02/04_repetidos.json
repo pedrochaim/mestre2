@@ -1,0 +1,188 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em setembro de 1916, os tanques britânicos entraram em combate pela primeira vez durante que grande batalha?",
+        "resposta": "Batalha do Somme"
+      },
+      "existentes": [
+        {
+          "id": "q04359",
+          "pergunta": "Para manter o segredo, os britânicos deram aos seus primeiros blindados o nome em código tank, fingindo que eram o quê?",
+          "resposta": "Reservatórios de água"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O Tratado de Versalhes foi assinado em 28 de junho de 1919. Que acontecimento completava exatamente cinco anos naquele dia?",
+        "resposta": "O atentado de Sarajevo"
+      },
+      "existentes": [
+        {
+          "id": "q04370",
+          "pergunta": "Pelo Tratado de Versalhes, a Alemanha teve de devolver à França que região, que havia tomado dela em 1871?",
+          "resposta": "Alsácia-Lorena"
+        },
+        {
+          "id": "q04396",
+          "pergunta": "O Tratado de Versalhes limitou o exército alemão a, no máximo, quantos soldados?",
+          "resposta": "Cem mil"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1916, que chefe do estado-maior alemão planejou a grande ofensiva contra a cidade francesa de Verdun?",
+        "resposta": "Erich von Falkenhayn"
+      },
+      "existentes": [
+        {
+          "id": "q04384",
+          "pergunta": "Que militar francês, celebrado como herói de Verdun, chefiou décadas depois o governo colaboracionista de Vichy?",
+          "resposta": "Philippe Pétain"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Sarajevo, depois de escapar de uma bomba, o carro do arquiduque parou por acaso diante do atirador Gavrilo Princip. Por que o carro parou ali?",
+        "resposta": "O motorista errou o caminho"
+      },
+      "existentes": [
+        {
+          "id": "q04392",
+          "pergunta": "O atentado que matou o herdeiro austro-húngaro em 1914 ocorreu numa cidade que hoje é capital de que país?",
+          "resposta": "Bósnia e Herzegovina"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1926, o Brasil deixou a Liga das Nações, da qual era membro fundador. Por que tomou essa decisão?",
+        "resposta": "Não obteve assento permanente no Conselho"
+      },
+      "existentes": [
+        {
+          "id": "q04388",
+          "pergunta": "Que presidente americano foi o principal idealizador da Liga das Nações, criada após a guerra?",
+          "resposta": "Woodrow Wilson"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Eleito em 1918 para um segundo mandato, que ex-presidente brasileiro morreu em 1919, de gripe espanhola segundo a versão tradicional, sem tomar posse?",
+        "resposta": "Rodrigues Alves"
+      },
+      "existentes": [
+        {
+          "id": "q04360",
+          "pergunta": "Por que a pandemia de 1918 ficou conhecida como gripe espanhola?",
+          "resposta": "A imprensa espanhola noticiava sem censura"
+        },
+        {
+          "id": "q06315",
+          "pergunta": "A gripe espanhola, uma das pandemias mais mortais da história, espalhou-se pelo mundo no final de qual guerra?",
+          "resposta": "Primeira Guerra Mundial"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os alemães batizaram sua vitória de 1914 sobre os russos de Tannenberg para vingar uma derrota sofrida na região, em 1410, por quem?",
+        "resposta": "Cavaleiros Teutônicos"
+      },
+      "existentes": [
+        {
+          "id": "q04386",
+          "pergunta": "Em 1914, que dupla de generais alemães comandou a grande vitória sobre os russos em Tannenberg?",
+          "resposta": "Hindenburg e Ludendorff"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Os grandes dirigíveis alemães que bombardearam Londres na guerra levavam o nome de que conde, seu criador?",
+        "resposta": "Ferdinand von Zeppelin"
+      },
+      "existentes": [
+        {
+          "id": "q05627",
+          "pergunta": "Que conde alemão, pioneiro dos dirigíveis rígidos, emprestou o próprio sobrenome a esse tipo de aeronave?",
+          "resposta": "Ferdinand von Zeppelin"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que futuro presidente americano, que autorizaria o uso das bombas atômicas, comandou uma bateria de artilharia na França na Primeira Guerra?",
+        "resposta": "Harry Truman"
+      },
+      "existentes": [
+        {
+          "id": "q06225",
+          "pergunta": "Que presidente americano é este?",
+          "resposta": "Harry Truman"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Primeiro combate dos tanques (Somme) é fato diferente do codinome 'tank'."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Coincidência com o aniversário do atentado de Sarajevo é fato distinto de Alsácia-Lorena ou limite do exército."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Planejador alemão da ofensiva é diferente do herói francês Pétain."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Motivo de o carro parar é diferente da cidade do atentado."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Saída do Brasil da Liga é diferente do idealizador da Liga."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Rodrigues Alves e sua morte são diferentes do nome da gripe espanhola ou da guerra associada."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A derrota de 1410 é diferente dos generais vencedores em 1914."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q05627",
+      "motivo": "Ambas perguntam o conde Zeppelin, criador dos dirigíveis, com a mesma resposta."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A existente parece ser identificação por imagem; o fato sobre Truman na artilharia é diferente. Na dúvida, nova."
+    }
+  ]
+}
