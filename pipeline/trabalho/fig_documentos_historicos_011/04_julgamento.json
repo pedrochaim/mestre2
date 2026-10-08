@@ -1,0 +1,483 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cota de malha",
+        "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+        "variantes": [
+          "Malha",
+          "Chain mail",
+          "Loriga de malha",
+          "Hauberk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "mantilha",
+          "nome": "Mantilha",
+          "descricao": "Véu ou xale de renda usado sobre a cabeça e os ombros, tradicional na Espanha.",
+          "variantes": [
+            "Mantilla"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "abelha",
+          "nome": "Abelha",
+          "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+          "variantes": [
+            "Abelha-europeia",
+            "Apis mellifera",
+            "abelha-melífera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Fonógrafo",
+        "descricao": "Aparelho de gravação e reprodução mecânica de som, inventado por Thomas Edison em 1877.",
+        "variantes": [
+          "Phonograph",
+          "Fonógrafo de Edison"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fonografo",
+          "nome": "Fonógrafo",
+          "descricao": "Aparelho de cilindro que grava e reproduz sons mecanicamente, inventado em 1877.",
+          "variantes": [
+            "Phonograph",
+            "Fonógrafo de Edison"
+          ]
+        },
+        {
+          "id": "portao_de_menin",
+          "nome": "Portão de Menin",
+          "descricao": "Memorial de guerra na cidade belga de Ypres dedicado aos soldados britânicos e da Comunidade Britânica desaparecidos na Primeira Guerra Mundial.",
+          "variantes": [
+            "Menin Gate",
+            "Menenpoort"
+          ]
+        },
+        {
+          "id": "foto_51",
+          "nome": "Foto 51",
+          "descricao": "Imagem de difração de raios X do DNA obtida em 1952 no King's College de Londres.",
+          "variantes": [
+            "Photo 51",
+            "Fotografia 51"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pacto Molotov-Ribbentrop",
+        "descricao": "Pacto de não agressão entre a Alemanha nazista e a União Soviética, assinado em Moscou em agosto de 1939.",
+        "variantes": [
+          "Pacto Germano-Soviético",
+          "Pacto de Não Agressão Germano-Soviético",
+          "Molotov–Ribbentrop Pact"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sambo",
+          "nome": "Sambo",
+          "descricao": "Arte marcial e esporte de combate criado na União Soviética nos anos 1920 e 1930.",
+          "variantes": [
+            "Sambo soviético"
+          ]
+        },
+        {
+          "id": "bandeira_da_uniao_sovietica",
+          "nome": "Bandeira da União Soviética",
+          "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+          "variantes": [
+            "Bandeira da URSS",
+            "Bandeira Vermelha soviética",
+            "Flag of the Soviet Union"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira do Império Alemão",
+        "descricao": "Bandeira tricolor horizontal preta, branca e vermelha, adotada oficialmente em 1892 pelo Império Alemão.",
+        "variantes": [
+          "Bandeira preta, branca e vermelha",
+          "Kaiserflagge",
+          "Reichsflagge",
+          "Schwarz-Weiß-Rot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_imperio_otomano",
+          "nome": "Bandeira do Império Otomano",
+          "descricao": "Bandeira vermelha com crescente e estrela brancos de cinco pontas, adotada oficialmente pelo Império Otomano em 1844.",
+          "variantes": [
+            "Bandeira otomana"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_do_brasil",
+          "nome": "Bandeira do Império do Brasil",
+          "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+          "variantes": [
+            "Bandeira imperial do Brasil"
+          ]
+        },
+        {
+          "id": "bandeira_do_espirito_santo",
+          "nome": "Bandeira do Espírito Santo",
+          "descricao": "Bandeira do estado do Espírito Santo, com faixas azul, branca e rosa e um lema no centro.",
+          "variantes": [
+            "Bandeira capixaba"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "proclamacao_do_imperio_alemao",
+          "nome": "Proclamação do Império Alemão",
+          "descricao": "Cerimônia de 18 de janeiro de 1871 em Versalhes na qual o rei Guilherme I da Prússia foi proclamado imperador alemão.",
+          "variantes": [
+            "Proclamation of the German Empire",
+            "Unificação alemã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Retrato da Armada de Elizabeth I",
+        "descricao": "Pintura alegórica inglesa do fim do século dezesseis que retrata Elizabeth I com cenas da derrota da Armada Espanhola ao fundo.",
+        "variantes": [
+          "Armada Portrait",
+          "Retrato da Armada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_de_madame_x",
+          "nome": "Retrato de Madame X",
+          "descricao": "Retrato de 1884 de Virginie Gautreau, pintado por John Singer Sargent.",
+          "variantes": [
+            "Madame X",
+            "Portrait of Madame X"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        },
+        {
+          "id": "concreto_armado",
+          "nome": "Concreto armado",
+          "descricao": "Concreto reforçado com barras ou telas de metal, patenteado pelo francês Joseph Monier em 1867.",
+          "variantes": [
+            "Betão armado"
+          ]
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "ra_da_madeira",
+          "nome": "Rã-da-madeira",
+          "descricao": "Rã norte-americana, Lithobates sylvaticus, capaz de sobreviver congelada no inverno.",
+          "variantes": [
+            "Lithobates sylvaticus",
+            "Rana sylvatica",
+            "Wood frog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estrela amarela",
+        "descricao": "Distintivo em forma de estrela de seis pontas que os judeus eram obrigados a usar na Alemanha nazista e na Europa ocupada.",
+        "variantes": [
+          "Estrela de Davi amarela",
+          "Judenstern",
+          "Distintivo judaico",
+          "Yellow badge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "febre_amarela",
+          "nome": "Febre amarela",
+          "descricao": "Doença viral transmitida por mosquitos, que causa icterícia e hemorragias.",
+          "variantes": [
+            "Yellow fever"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        },
+        {
+          "id": "jornalismo_amarelo",
+          "nome": "Jornalismo amarelo",
+          "descricao": "Termo americano para a imprensa sensacionalista do fim do século dezenove, equivalente à imprensa marrom",
+          "variantes": [
+            "Yellow journalism",
+            "Imprensa amarela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pickelhaube",
+        "descricao": "Capacete de couro ou metal com um espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
+        "variantes": [
+          "Pickelhelm",
+          "Capacete prussiano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esfigmomanometro",
+          "nome": "Esfigmomanômetro",
+          "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+          "variantes": [
+            "Aparelho de pressão",
+            "Medidor de pressão arterial",
+            "Tensiômetro"
+          ]
+        },
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "ilhabela",
+          "nome": "Ilhabela",
+          "descricao": "Município arquipélago do litoral norte de São Paulo, em frente à cidade de São Sebastião.",
+          "variantes": []
+        },
+        {
+          "id": "panela_de_pressao",
+          "nome": "Panela de pressão",
+          "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+          "variantes": [
+            "Pressure cooker"
+          ]
+        },
+        {
+          "id": "pichu",
+          "nome": "Pichu",
+          "descricao": "Pokémon do tipo Elétrico, número 172 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Locomotiva Rocket de Stephenson",
+        "descricao": "Locomotiva a vapor construída por Robert Stephenson em 1829, vencedora dos Rainhill Trials.",
+        "variantes": [
+          "Rocket",
+          "Stephenson's Rocket",
+          "Rocket de Stephenson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "locomotiva_rocket",
+          "nome": "Locomotiva Rocket",
+          "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+          "variantes": [
+            "Rocket",
+            "Stephenson's Rocket",
+            "Rocket de Stephenson"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "rocky_um_lutador",
+          "nome": "Rocky, um Lutador",
+          "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+          "variantes": [
+            "Rocky",
+            "Rocky Balboa",
+            "Rocky (1976)"
+          ]
+        },
+        {
+          "id": "arte_rupestre",
+          "nome": "Arte rupestre",
+          "descricao": "Pinturas e gravuras pré-históricas feitas em paredes de cavernas e rochas.",
+          "variantes": [
+            "Pintura rupestre",
+            "Rock art"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é armadura de malha."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "fonografo",
+      "motivo": "Mesmo aparelho de Edison de 1877, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pacto diferente de bandeira ou arte marcial soviética."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bandeira do Império Alemão não consta; a proclamação é outro evento."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Elizabeth I."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Distintivo nazista não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o capacete Pickelhaube."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "locomotiva_rocket",
+      "motivo": "Mesma locomotiva Rocket de Stephenson, vencedora dos Rainhill Trials de 1829."
+    }
+  ]
+}

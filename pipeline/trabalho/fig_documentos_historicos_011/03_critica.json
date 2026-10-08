@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro (cota de malha comum na Idade Média), não entrega a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato (1877, Edison) está nos trechos. Mas \"sobre a mesa\" é um detalhe da foto que não dá para confirmar a partir de `mostra`. Tirei esse detalhe.",
+      "reescrita": {
+        "pergunta": "Em que ano foi inventado o aparelho de gravação de som mostrado nesta foto?",
+        "resposta": "1877"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A assinatura foi em 23 de agosto de 1939. A Alemanha invadiu a Polônia em 1.º de setembro e a URSS em 17 de setembro, então \"poucas semanas\" é literalmente verdadeiro. A resposta é única e o enunciado não nomeia o pacto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira preta, branca e vermelha foi usada pelo Império Alemão até 1918, então \"por volta de 1900\" está correto. Os distratores são impérios ou reinos europeus da época, com bandeiras diferentes, e têm menos de 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O retrato representa a derrota da Armada Espanhola em 1588, mostrada nas cenas ao fundo. O enunciado não nomeia o evento e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem pista no enunciado. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O capacete com espigão era alemão e prussiano. Os distratores são capacetes de outros tipos, curtos e críveis, e nenhum deles descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Rocket foi construída em 1829. O enunciado não nomeia a locomotiva e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

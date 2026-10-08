@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma cota de malha, sem texto; reconhecível pela malha de anéis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de armadura, usada por guerreiros da Idade Média, é esta?",
+      "resposta": "Cota de malha",
+      "destino": 3,
+      "ancora": {
+        "nome": "Cota de malha",
+        "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+        "variantes": [
+          "Malha",
+          "Chain mail",
+          "Loriga de malha",
+          "Hauberk"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto histórica granulada de soldados em trincheira; nada a torna reconhecível como a Revolução de 1932, resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A capa traz texto visível que entrega a resposta: 'Estado Novo' e 'Constituição de 10 de novembro de 1937'."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida do fonógrafo de Edison sobre a mesa; sem texto. A pergunta aponta o aparelho, não o homem.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi inventado o aparelho que está sobre a mesa nesta foto?",
+      "resposta": "1877",
+      "destino": 1,
+      "ancora": {
+        "nome": "Fonógrafo",
+        "descricao": "Aparelho de gravação e reprodução mecânica de som, inventado por Thomas Edison em 1877.",
+        "variantes": [
+          "Phonograph",
+          "Fonógrafo de Edison"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto famosa da assinatura do pacto, com Molotov, Ribbentrop e Stalin, figuras públicas; sem texto legível. Pergunta de nível 3 sobre a consequência imediata.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país foi invadido por alemães e soviéticos poucas semanas depois da assinatura do acordo registrada nesta foto?",
+      "resposta": "Polônia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Pacto Molotov-Ribbentrop",
+        "descricao": "Pacto de não agressão entre a Alemanha nazista e a União Soviética, assinado em Moscou em agosto de 1939.",
+        "variantes": [
+          "Pacto Germano-Soviético",
+          "Pacto de Não Agressão Germano-Soviético",
+          "Molotov–Ribbentrop Pact"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra várias tapeçarias numa sala de museu, com visitantes comuns em primeiro plano; assunto não isolado e pessoas comuns em destaque."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Arma desmontada, em peças, que parece um fuzil de caça de sílex; não é claramente um mosquete, resposta ambígua (fuzil, espingarda, arcabuz)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tricolor preto-branco-vermelho nítido, sem texto, em domínio público; múltipla escolha com distratores de outras bandeiras da época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bandeira é esta, usada na Europa por volta de 1900?",
+      "resposta": "Império Alemão",
+      "distratores": [
+        "Império Russo",
+        "Áustria-Hungria",
+        "Reino da Itália"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Império Alemão",
+        "descricao": "Bandeira tricolor horizontal preta, branca e vermelha, adotada oficialmente em 1892 pelo Império Alemão.",
+        "variantes": [
+          "Bandeira preta, branca e vermelha",
+          "Kaiserflagge",
+          "Reichsflagge",
+          "Schwarz-Weiß-Rot"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura famosa em domínio público, sem texto; os navios ao fundo apontam o acontecimento retratado. O enunciado não nomeia o assunto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano ocorreu o acontecimento naval que este retrato da rainha celebra, mostrado nas cenas ao fundo?",
+      "resposta": "1588",
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato da Armada de Elizabeth I",
+        "descricao": "Pintura alegórica inglesa do fim do século dezesseis que retrata Elizabeth I com cenas da derrota da Armada Espanhola ao fundo.",
+        "variantes": [
+          "Armada Portrait",
+          "Retrato da Armada"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem nítida do distintivo; a palavra 'Jude' faz parte do objeto e não entrega o nome 'estrela amarela'. Pergunta direta sem pistas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que distintivo é este?",
+      "resposta": "Estrela amarela",
+      "destino": 1,
+      "ancora": {
+        "nome": "Estrela amarela",
+        "descricao": "Distintivo em forma de estrela de seis pontas que os judeus eram obrigados a usar na Alemanha nazista e na Europa ocupada.",
+        "variantes": [
+          "Estrela de Davi amarela",
+          "Judenstern",
+          "Distintivo judaico",
+          "Yellow badge"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de capacete com a ponta característica, sem texto identificador em português; reconhecível pelo espigão.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que capacete militar alemão é este?",
+      "resposta": "Pickelhaube",
+      "distratores": [
+        "Stahlhelm",
+        "Capacete Adrian",
+        "Shako"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pickelhaube",
+        "descricao": "Capacete de couro ou metal com um espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
+        "variantes": [
+          "Pickelhelm",
+          "Capacete prussiano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura em preto e branco, nítida e sem texto, da locomotiva com tender e barril; silhueta característica.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi construída esta locomotiva a vapor?",
+      "resposta": "1829",
+      "destino": 1,
+      "ancora": {
+        "nome": "Locomotiva Rocket de Stephenson",
+        "descricao": "Locomotiva a vapor construída por Robert Stephenson em 1829, vencedora dos Rainhill Trials.",
+        "variantes": [
+          "Rocket",
+          "Stephenson's Rocket",
+          "Rocket de Stephenson"
+        ]
+      }
+    }
+  ]
+}

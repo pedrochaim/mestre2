@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi inventado o aparelho de gravação de som mostrado nesta foto?",
+        "resposta": "1877"
+      },
+      "existentes": [
+        {
+          "id": "q05738",
+          "pergunta": "Quem inventou este aparelho, em 1877?",
+          "resposta": "Thomas Edison"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano foi construída esta locomotiva a vapor?",
+        "resposta": "1829"
+      },
+      "existentes": [
+        {
+          "id": "q08652",
+          "pergunta": "Em que ano foi construída esta locomotiva a vapor?",
+          "resposta": "1829"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "A existente afirma que o aparelho foi inventado em 1877 (por Edison); quem souber o ano ou o inventor provavelmente conhece o mesmo fato, mas a pergunta existente já dá o ano 1877 no enunciado, então o fato perguntado (inventor) é diferente do ano.",
+      "id_existente": "q05738"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica com a mesma resposta.",
+      "id_existente": "q08652"
+    }
+  ]
+}
