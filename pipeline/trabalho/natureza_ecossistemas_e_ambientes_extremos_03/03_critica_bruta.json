@@ -1,0 +1,409 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte portuguesa e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta é uma lista de três fatores, sem resposta única e difícil de julgar.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Antártida como maior deserto é fato amplamente documentado e o enunciado é preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dois verões por ano e mais luz do dia estão na fonte; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caatinga é o único bioma exclusivamente brasileiro, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia 'mata branca' sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maior salar do mundo e efeito espelho na estação chuvosa confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taiga é o maior bioma terrestre; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte em português é inexistente; mantida só a fonte em inglês.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Que espécie de pinguim vive mais ao norte de todas, chegando a ultrapassar a linha do equador?",
+        "resposta": "Pinguim-de-galápagos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_penguin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vertebrado de vida mais longa conhecido; 'mais de dois séculos e meio' é compatível com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Albatroz-errante tem a maior envergadura entre aves vivas, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corcova armazena gordura, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espinhos são folhas modificadas, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rainha é a única reprodutora da colônia.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zooxantelas dão cor e alimento aos corais.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Permafrost é o solo permanentemente congelado da tundra.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Polo Norte fica no Oceano Ártico, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calcita/carbonato de cálcio, distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Neve marinha é detrito orgânico.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator 'Mármore' é defensável pela fonte em português; trocado por um claramente errado.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Os terraços brancos de Pamukkale, na Turquia, parecem neve, mas foram formados por fontes termais. De que rocha eles são feitos?",
+        "resposta": "Travertino",
+        "distratores": [
+          "Basalto",
+          "Gipsita",
+          "Sal-gema"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pamukkale",
+          "https://pt.wikipedia.org/wiki/Pamukkale"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pamukkale significa castelo de algodão.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Líquens são pioneiros, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pele preta confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macho choca o ovo sobre os pés por cerca de dois meses.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Besouro coleta gotas de neblina inclinando o corpo contra a brisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dieta quase exclusiva de krill.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pica-bois comem carrapatos.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Glicoproteínas anticongelantes impedem congelamento dos fluidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fonte diz que a água vem do metabolismo e que a ideia de nunca beber é falsa; resposta imprecisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A água entra pela boca; a pele a capta e canaliza. Enunciado reformulado para ficar literalmente correto.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "O diabo-espinhoso, lagarto dos desertos australianos, bebe canalizando a umidade por sulcos entre os espinhos até a boca. Que parte do corpo capta essa umidade?",
+        "resposta": "A pele",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Diabo-espinhoso",
+          "https://en.wikipedia.org/wiki/Thorny_devil"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Folhas servem de substrato para cultivar fungo.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chuva de cerca de 1200 mm anuais impede a classificação como deserto.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casca grossa suberosa resiste ao fogo.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta genérica; deve nomear a alga específica.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "O lago Retba, no Senegal, tem água cor-de-rosa. Que alga dá essa cor ao lago?",
+        "resposta": "Dunaliella salina",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lake_Retba"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cor vem de carotenoides da dieta.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Formigas recebem melada dos pulgões.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gás natural queima na cratera.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte principal inexistente e a letra não é verificável nos trechos; na dúvida, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Âncora e subtema não combinam: o fato é sobre o Manguebeat, um movimento musical.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ligação com The Last of Us confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte em português inexistente e 'dezenas de quilômetros' é impreciso; simplificado.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Que documentário francês vencedor do Oscar acompanha aves antárticas caminhando pelo gelo até o local onde se reproduzem?",
+        "resposta": "A Marcha dos Pinguins",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/March_of_the_Penguins"
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em português é página de desambiguação; mantida só a fonte em inglês.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que animação de 2011, dirigida pelo brasileiro Carlos Saldanha, tem como protagonista uma ararinha-azul criada nos Estados Unidos?",
+        "resposta": "Rio",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Rio_(2011_film)"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia grega mýkes e rhíza confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Proteu descrito como filhote de dragão por Valvasor, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Osedax significa devorador de ossos.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aves dispersam as sementes, daí o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 90% submerso, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regra dos dez por cento confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caranguejo-vermelho é endêmico da Ilha Christmas.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ijen fica em Java Oriental, Indonésia.",
+      "reescrita": null
+    }
+  ]
+}
