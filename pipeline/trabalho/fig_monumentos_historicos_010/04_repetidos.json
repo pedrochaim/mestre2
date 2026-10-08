@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+        "resposta": "Verona"
+      },
+      "existentes": [
+        {
+          "id": "q06054",
+          "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+          "resposta": "Verona"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mesquita famosa de Istambul é esta?",
+        "resposta": "Mesquita Azul"
+      },
+      "existentes": [
+        {
+          "id": "q05585",
+          "pergunta": "A Mesquita Azul de Istambul, construída no século dezessete, chama atenção por ter quantos minaretes?",
+          "resposta": "Seis"
+        },
+        {
+          "id": "q07522",
+          "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+          "resposta": "Azulejos de Iznik"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas à q06054.",
+      "id_existente": "q06054"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a mesquita como Mesquita Azul é um fato diferente do número de minaretes ou do revestimento interno; as existentes já revelam o nome no enunciado, mas não perguntam essa identificação."
+    }
+  ]
+}

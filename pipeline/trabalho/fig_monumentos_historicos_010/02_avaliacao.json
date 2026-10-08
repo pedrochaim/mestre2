@@ -1,0 +1,240 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Edifício pouco reconhecível pela imagem, com faixas de exposição ('Calder no Brasil') e pessoas em primeiro plano; a resposta não é única nem justa diante da foto."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rocha de Sigiriya inconfundível, sem texto; boa pergunta de lugar.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este sítio arqueológico, uma antiga fortaleza sobre uma rocha gigante?",
+      "resposta": "Sri Lanka",
+      "destino": 4,
+      "ancora": {
+        "nome": "Sigiriya",
+        "descricao": "Antiga fortaleza real sobre uma rocha de granito no distrito de Matale, no Sri Lanka, do rei Kashyapa, século cinco.",
+        "variantes": [
+          "Sinhagiri",
+          "Rocha do Leão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Anfiteatro romano bem visível; pessoas pequenas e incidentais, placas sem entregar o nome.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+      "resposta": "Verona",
+      "destino": 3,
+      "ancora": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano muito bem preservado no centro histórico de Verona, na Itália, que hoje recebe temporadas de ópera.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Terraços incas característicos; sítio de aficionado, por isso múltipla escolha com sítios parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sítio arqueológico inca, no Vale Sagrado, é este?",
+      "resposta": "Ollantaytambo",
+      "distratores": [
+        "Pisac",
+        "Sacsayhuamán",
+        "Machu Picchu"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Ollantaytambo",
+        "descricao": "Cidade e sítio arqueológico inca no Vale Sagrado, no sul do Peru, antiga propriedade real do imperador Pachacútec.",
+        "variantes": [
+          "Ollantaytambo",
+          "Ullantaytampu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Domo dourado inconfundível, sem texto legível; pergunta de época sem nomear o monumento.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi construído este santuário?",
+      "resposta": "Século sete (691–692)",
+      "destino": 6,
+      "ancora": {
+        "nome": "Domo da Rocha",
+        "descricao": "Santuário islâmico octogonal de cúpula dourada na Esplanada das Mesquitas, na Cidade Velha de Jerusalém, erguido pelos omíadas.",
+        "variantes": [
+          "Cúpula da Rocha",
+          "Dome of the Rock"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Minarete inconfundível, sem texto; pessoas pequenas e incidentais.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sultão de Délhi iniciou a construção desta torre de vitória?",
+      "resposta": "Qutb-ud-din Aibak",
+      "destino": 6,
+      "ancora": {
+        "nome": "Qutb Minar",
+        "descricao": "Minarete e torre da vitória de tijolos vermelhos do sultanato de Délhi, em Mehrauli, no sul de Délhi, na Índia.",
+        "variantes": [
+          "Qutub Minar",
+          "Qutab Minar"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Zigurate reconhecível, imagem pequena mas legível; a pergunta de país tem resposta única e não óbvia.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este zigurate, um dos poucos fora da Mesopotâmia?",
+      "resposta": "Irã",
+      "destino": 4,
+      "ancora": {
+        "nome": "Chogha Zanbil",
+        "descricao": "Complexo elamita da província de Khuzestão, no Irã, com um zigurate muito bem preservado do século treze antes de Cristo.",
+        "variantes": [
+          "Tchogha Zanbil",
+          "Choga Zanbil"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Castelo muito característico, sem texto; múltipla com castelos espanhóis parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que castelo espanhol, sobre um penhasco, é este?",
+      "resposta": "Alcázar de Segóvia",
+      "distratores": [
+        "Castelo de Coca",
+        "Alcázar de Toledo",
+        "Castelo de Peñafiel"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Alcázar de Segóvia",
+        "descricao": "Castelo medieval e palácio real sobre um penhasco na cidade de Segóvia, em Castela e Leão, na Espanha.",
+        "variantes": [
+          "Alcázar of Segovia",
+          "Alcázar de Segovia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Orquestra de mármore e arquibancadas características, sem texto; pessoa só parcialmente visível num canto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este teatro da Grécia Antiga?",
+      "resposta": "Atenas",
+      "destino": 2,
+      "ancora": {
+        "nome": "Teatro de Dionísio",
+        "descricao": "Antigo teatro grego na encosta sul da Acrópole de Atenas, onde se realizavam as Dionísias da cidade.",
+        "variantes": [
+          "Teatro de Dioniso",
+          "Theatre of Dionysus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mesquita com cúpulas e minaretes inconfundível, sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mesquita famosa de Istambul é esta?",
+      "resposta": "Mesquita Azul",
+      "destino": 7,
+      "ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita imperial otomana de Istambul, construída entre 1609 e 1617 para o sultão Ahmed I.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultanahmet Camii",
+          "Blue Mosque"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea com o complexo e a catedral de São Vito no centro; múltipla com cidades vizinhas ajuda.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade europeia fica o castelo no centro desta vista aérea?",
+      "resposta": "Praga",
+      "distratores": [
+        "Viena",
+        "Budapeste",
+        "Cracóvia"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Castelo de Praga",
+        "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+        "variantes": [
+          "Pražský hrad",
+          "Prague Castle"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Templo de pedra com andaimes e turistas pequenos; reconhecível para aficionado, então múltipla com templos indianos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo hindu da Índia, dedicado ao deus Sol, é este?",
+      "resposta": "Templo do Sol de Konark",
+      "distratores": [
+        "Templo de Jagannath",
+        "Templo Lingaraja",
+        "Templo de Khajuraho"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Templo do Sol de Konark",
+        "descricao": "Templo hindu do século treze em Konark, em Odisha, na Índia, dedicado ao deus Sol Surya e com forma de carruagem.",
+        "variantes": [
+          "Templo do Sol em Konarak",
+          "Konark Sun Temple",
+          "Surya Devalaya"
+        ]
+      }
+    }
+  ]
+}

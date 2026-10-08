@@ -1,0 +1,93 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sigiriya fica no Sri Lanka; o enunciado não dá o país.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Arena fica em Verona. O enunciado não nomeia a cidade, e a figura decide qual anfiteatro é.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ollantaytambo fica no Vale Sagrado. Diante da imagem, os distratores são do mesmo tipo e estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído em 691–692, ou seja, no século sete. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Aibak começou a obra em 1199, antes de ser sultão (a partir de 1206), então 'sultão' é impreciso. Datar a obra evita o problema.",
+      "reescrita": {
+        "pergunta": "Em 1199, em Délhi, quem iniciou a construção desta torre de vitória?",
+        "resposta": "Qutb-ud-din Aibak",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chogha Zanbil fica no Irã e é um dos poucos zigurates fora da Mesopotâmia. A pista ajuda sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Alcázar fica sobre um penhasco rochoso. Os distratores são castelos espanhóis críveis e, diante da imagem, estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O teatro fica na encosta sul da Acrópole de Atenas. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. 'Mesquita do Sultão Ahmed' também serve como nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Castelo de Praga fica em Praga. Os distratores são capitais da região e estão errados diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dedicado ao deus Sol' quase entrega a resposta, que contém 'Sol'. Outros templos do Sol também existem, como Modhera. Troque a pista pela época e a região.",
+      "reescrita": {
+        "pergunta": "Que templo hindu do século treze, no leste da Índia, é este?",
+        "resposta": "Templo do Sol de Konark",
+        "distratores": [
+          "Templo de Jagannath",
+          "Templo Lingaraja",
+          "Templo de Khajuraho"
+        ]
+      }
+    }
+  ]
+}
