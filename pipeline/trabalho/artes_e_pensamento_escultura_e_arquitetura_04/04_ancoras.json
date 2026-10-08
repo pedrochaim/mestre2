@@ -1,0 +1,856 @@
+{
+  "itens": [
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Alhambra",
+        "descricao": "Complexo de palácios e fortaleza mouros da dinastia nacérida, na cidade de Granada, na Espanha.",
+        "variantes": [
+          "Alambra",
+          "Alhambra de Granada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alhambra",
+          "https://pt.wikipedia.org/wiki/Alhambra"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "No famoso Pátio dos Leões, na Alhambra de Granada, a fonte central é sustentada por quantos leões de mármore?",
+      "resposta": "Doze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Court_of_the_Lions"
+      ],
+      "distratores": [
+        "Quatro",
+        "Oito",
+        "Dezesseis"
+      ],
+      "ancora": "alhambra"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "kremlin_de_moscou",
+        "nome": "Kremlin de Moscou",
+        "descricao": "Complexo fortificado no centro de Moscou, sede do governo da Rússia.",
+        "variantes": [
+          "Kremlin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moscow_Kremlin"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "As muralhas de tijolos vermelhos do Kremlin, em Moscou, são pontuadas por quantas torres?",
+      "resposta": "Vinte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moscow_Kremlin_Wall"
+      ],
+      "distratores": [
+        "Sete",
+        "Doze",
+        "Trinta e duas"
+      ],
+      "ancora": "kremlin_de_moscou"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "pieta_michelangelo",
+        "nome": "Pietà (Michelangelo)",
+        "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+        "variantes": [
+          "Pietà do Vaticano",
+          "Pietà"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Piet%C3%A0_(Michelangelo)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Pietà, nome da escultura de Michelangelo em que Maria segura o corpo de Jesus, significa o que em italiano?",
+      "resposta": "Piedade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Piet%C3%A0",
+        "https://en.wikipedia.org/wiki/Piet%C3%A0_(Michelangelo)"
+      ],
+      "ancora": "pieta_michelangelo"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "bauhaus",
+        "nome": "Bauhaus",
+        "descricao": "Escola alemã de arte, design e arquitetura fundada por Walter Gropius em Weimar, em 1919.",
+        "variantes": [
+          "Staatliches Bauhaus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bauhaus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em alemão, o que significa Bauhaus, nome da escola de arte, design e arquitetura fundada em Weimar em 1919?",
+      "resposta": "Casa de construção",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bauhaus"
+      ],
+      "ancora": "bauhaus"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "30 St Mary Axe",
+        "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+        "variantes": [
+          "The Gherkin",
+          "O Pepino",
+          "Swiss Re Building"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/30_St_Mary_Axe"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Londres, o arranha-céu arredondado de vidro que Norman Foster projetou na rua St Mary Axe ganhou, pela forma, o apelido de que legume?",
+      "resposta": "Pepino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/30_St_Mary_Axe"
+      ],
+      "ancora": "30_st_mary_axe"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Estádio Nacional de Pequim",
+        "descricao": "Estádio de Pequim, na China, construído para os Jogos Olímpicos de 2008, com fachada de vigas de aço entrelaçadas.",
+        "variantes": [
+          "Ninho de Pássaro",
+          "Bird's Nest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beijing_National_Stadium"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa do emaranhado de vigas de aço da fachada, o Estádio Nacional de Pequim, palco dos Jogos Olímpicos de 2008, ganhou que apelido?",
+      "resposta": "Ninho de Pássaro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beijing_National_Stadium"
+      ],
+      "ancora": "estadio_nacional_de_pequim"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Palácio Itamaraty",
+        "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+        "variantes": [
+          "Palácio dos Arcos",
+          "Itamaraty"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Itamaraty_Palace"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Brasília, o Palácio Itamaraty, projetado por Niemeyer e cercado por um espelho d'água, também é conhecido por que outro nome?",
+      "resposta": "Palácio dos Arcos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Itamaraty_Palace"
+      ],
+      "ancora": "palacio_itamaraty"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Manneken Pis",
+        "descricao": "Pequena estátua de bronze de um menino urinando numa fonte, no centro de Bruxelas, na Bélgica.",
+        "variantes": [
+          "Menino Mijão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Manneken_Pis"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Bruxelas, a pequena estátua de bronze chamada Manneken Pis tem um nome que, no dialeto local, significa o quê?",
+      "resposta": "Menininho fazendo xixi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manneken_Pis"
+      ],
+      "ancora": "manneken_pis"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Gustave Eiffel",
+        "descricao": "Engenheiro francês, 1832-1923, cuja empresa construiu a torre de ferro do Campo de Marte, em Paris.",
+        "variantes": [
+          "Alexandre Gustave Eiffel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro francês construiu a estrutura de ferro interna da Estátua da Liberdade e, poucos anos depois, ergueu uma torre de ferro em Paris?",
+      "resposta": "Gustave Eiffel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gustave_Eiffel",
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+      ],
+      "ancora": "gustave_eiffel"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Novas Sete Maravilhas do Mundo",
+        "descricao": "Lista de sete monumentos escolhidos por votação popular internacional, anunciada em Lisboa em 2007.",
+        "variantes": [
+          "Sete Maravilhas do Mundo Moderno",
+          "New 7 Wonders"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o Cristo Redentor, o Coliseu, Machu Picchu e a cidade jordaniana de Petra têm em comum desde 2007?",
+      "resposta": "Novas Sete Maravilhas do Mundo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World"
+      ],
+      "ancora": "novas_sete_maravilhas_do_mundo"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Arco de Tito",
+        "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+        "variantes": [
+          "Arch of Titus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arch_of_Titus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que arco da Roma antiga, que comemora a tomada de Jerusalém, serviu de inspiração para o Arco do Triunfo de Paris?",
+      "resposta": "Arco de Tito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+        "https://en.wikipedia.org/wiki/Arch_of_Titus"
+      ],
+      "ancora": "arco_de_tito"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "conjunto_moderno_da_pampulha",
+        "nome": "Conjunto Moderno da Pampulha",
+        "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+        "variantes": [
+          "Pampulha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de levar Niemeyer para construir Brasília, que político encomendou a ele o conjunto da Pampulha, quando era prefeito de Belo Horizonte?",
+      "resposta": "Juscelino Kubitschek",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble",
+        "https://en.wikipedia.org/wiki/Juscelino_Kubitschek"
+      ],
+      "ancora": "conjunto_moderno_da_pampulha"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Leão de Belfort",
+        "descricao": "Grande escultura de um leão em arenito vermelho, aos pés da cidadela de Belfort, na França, obra de Frédéric Auguste Bartholdi.",
+        "variantes": [
+          "Lion de Belfort",
+          "Lion of Belfort"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lion_of_Belfort"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que escultor francês assina tanto o gigantesco Leão de Belfort, de arenito vermelho, quanto a Estátua da Liberdade, em Nova York?",
+      "resposta": "Frédéric Auguste Bartholdi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lion_of_Belfort",
+        "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Auguste_Bartholdi"
+      ],
+      "ancora": "leao_de_belfort"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Colosso de Rodes",
+        "descricao": "Estátua gigante de bronze do deus Hélio, erguida na ilha de Rodes no século três antes de Cristo, uma das sete maravilhas do mundo antigo.",
+        "variantes": [
+          "Colossus of Rhodes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colossus_of_Rhodes"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O soneto de Emma Lazarus, gravado numa placa no pedestal da Estátua da Liberdade, compara a estátua a que gigante de bronze da Antiguidade grega?",
+      "resposta": "Colosso de Rodes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_New_Colossus",
+        "https://en.wikipedia.org/wiki/Colossus_of_Rhodes"
+      ],
+      "ancora": "colosso_de_rodes"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "memorial_de_lincoln",
+        "nome": "Memorial de Lincoln",
+        "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+        "variantes": [
+          "Lincoln Memorial"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lincoln_Memorial"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que templo da Acrópole de Atenas serviu de modelo para o memorial de Washington em cujos degraus Martin Luther King fez o discurso Eu tenho um sonho?",
+      "resposta": "Partenon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lincoln_Memorial"
+      ],
+      "ancora": "memorial_de_lincoln"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Museu do Amanhã",
+        "descricao": "Museu de ciências na Praça Mauá, no Rio de Janeiro, inaugurado em 2015.",
+        "variantes": [
+          "Museum of Tomorrow"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Museum_of_Tomorrow"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Inaugurado em 2015 na Praça Mauá, à beira da baía de Guanabara, o Museu do Amanhã foi projetado por que arquiteto espanhol?",
+      "resposta": "Santiago Calatrava",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Museum_of_Tomorrow"
+      ],
+      "ancora": "museu_do_amanha"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Escadaria Selarón",
+        "descricao": "Escadaria entre os bairros da Lapa e de Santa Teresa, no Rio de Janeiro, coberta de azulejos coloridos.",
+        "variantes": [
+          "Escadaria do Convento de Santa Teresa",
+          "Selarón Steps"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A escadaria que liga a Lapa a Santa Teresa, no Rio, coberta de azulejos coloridos de dezenas de países, é obra de que artista chileno?",
+      "resposta": "Jorge Selarón",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n"
+      ],
+      "ancora": "escadaria_selaron"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "os_doze_profetas_aleijadinho",
+        "nome": "Os Doze Profetas (Aleijadinho)",
+        "descricao": "Conjunto de doze estátuas de pedra-sabão de Aleijadinho no adro do Santuário do Bom Jesus de Matosinhos, em Minas Gerais.",
+        "variantes": [
+          "Profetas de Congonhas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Congonhas"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Já idoso e doente, Aleijadinho esculpiu os Doze Profetas do adro de Congonhas nos primeiros anos de que século?",
+      "resposta": "Século dezenove",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos",
+        "https://en.wikipedia.org/wiki/Aleijadinho"
+      ],
+      "ancora": "os_doze_profetas_aleijadinho"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Torre Branca (Torre de Londres)",
+        "descricao": "Torre de menagem de pedra no centro da Torre de Londres, mandada erguer por Guilherme, o Conquistador.",
+        "variantes": [
+          "White Tower",
+          "Torre de Londres"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/White_Tower_(Tower_of_London)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A Torre Branca, núcleo da Torre de Londres, começou a ser erguida logo após a conquista normanda da Inglaterra. Em que século?",
+      "resposta": "Século onze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/White_Tower_(Tower_of_London)",
+        "https://en.wikipedia.org/wiki/Tower_of_London"
+      ],
+      "distratores": [
+        "Século nove",
+        "Século treze",
+        "Século quinze"
+      ],
+      "ancora": "torre_branca_torre_de_londres"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Art déco",
+        "descricao": "Estilo de arquitetura e design das décadas de 1920 e 1930, de formas geométricas e ornamentos estilizados.",
+        "variantes": [
+          "Art Deco",
+          "Arte decorativa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Art_Deco"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O nome do estilo art déco vem de uma grande exposição internacional de artes decorativas realizada em 1925. Em que cidade?",
+      "resposta": "Paris",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Art_Deco"
+      ],
+      "ancora": "art_deco"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Templo de Ártemis",
+        "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+        "variantes": [
+          "Artemísion",
+          "Templo de Diana em Éfeso"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Temple_of_Artemis"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As ruínas do Templo de Ártemis, na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo, ficam em que país atual?",
+      "resposta": "Turquia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Temple_of_Artemis"
+      ],
+      "distratores": [
+        "Grécia",
+        "Itália",
+        "Egito"
+      ],
+      "ancora": "templo_de_artemis"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Palácio de Cristal",
+        "descricao": "Enorme pavilhão de ferro fundido e vidro projetado por Joseph Paxton e erguido no Hyde Park, em Londres, em 1851.",
+        "variantes": [
+          "Crystal Palace",
+          "The Crystal Palace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Crystal_Palace"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Palácio de Cristal, enorme pavilhão de ferro e vidro erguido no Hyde Park, em Londres, em 1851, foi construído para abrigar que evento?",
+      "resposta": "A Grande Exposição",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Crystal_Palace"
+      ],
+      "ancora": "palacio_de_cristal"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "piramides_de_gize",
+        "nome": "Pirâmides de Gizé",
+        "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+        "variantes": [
+          "Pirâmides de Giza"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Escultura e Arquitetura",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Hoje com os blocos à mostra, a Grande Pirâmide de Gizé era originalmente revestida por placas polidas de que pedra clara?",
+      "resposta": "Calcário",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+      ],
+      "ancora": "piramides_de_gize"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "30_st_mary_axe",
+      "nome": "30 St Mary Axe",
+      "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+      "variantes": [
+        "The Gherkin",
+        "O Pepino",
+        "Swiss Re Building"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/30_St_Mary_Axe"
+      ]
+    },
+    {
+      "id": "palacio_itamaraty",
+      "nome": "Palácio Itamaraty",
+      "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+      "variantes": [
+        "Palácio dos Arcos",
+        "Itamaraty"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Itamaraty_Palace"
+      ]
+    },
+    {
+      "id": "gustave_eiffel",
+      "nome": "Gustave Eiffel",
+      "descricao": "Engenheiro francês, 1832-1923, cuja empresa construiu a torre de ferro do Campo de Marte, em Paris.",
+      "variantes": [
+        "Alexandre Gustave Eiffel"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+      ]
+    },
+    {
+      "id": "novas_sete_maravilhas_do_mundo",
+      "nome": "Novas Sete Maravilhas do Mundo",
+      "descricao": "Lista de sete monumentos escolhidos por votação popular internacional, anunciada em Lisboa em 2007.",
+      "variantes": [
+        "Sete Maravilhas do Mundo Moderno",
+        "New 7 Wonders"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World"
+      ]
+    },
+    {
+      "id": "arco_de_tito",
+      "nome": "Arco de Tito",
+      "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+      "variantes": [
+        "Arch of Titus"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Arch_of_Titus"
+      ]
+    },
+    {
+      "id": "leao_de_belfort",
+      "nome": "Leão de Belfort",
+      "descricao": "Grande escultura de um leão em arenito vermelho, aos pés da cidadela de Belfort, na França, obra de Frédéric Auguste Bartholdi.",
+      "variantes": [
+        "Lion de Belfort",
+        "Lion of Belfort"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lion_of_Belfort"
+      ]
+    },
+    {
+      "id": "escadaria_selaron",
+      "nome": "Escadaria Selarón",
+      "descricao": "Escadaria entre os bairros da Lapa e de Santa Teresa, no Rio de Janeiro, coberta de azulejos coloridos.",
+      "variantes": [
+        "Escadaria do Convento de Santa Teresa",
+        "Selarón Steps"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n"
+      ]
+    },
+    {
+      "id": "torre_branca_torre_de_londres",
+      "nome": "Torre Branca (Torre de Londres)",
+      "descricao": "Torre de menagem de pedra no centro da Torre de Londres, mandada erguer por Guilherme, o Conquistador.",
+      "variantes": [
+        "White Tower",
+        "Torre de Londres"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/White_Tower_(Tower_of_London)"
+      ]
+    },
+    {
+      "id": "art_deco",
+      "nome": "Art déco",
+      "descricao": "Estilo de arquitetura e design das décadas de 1920 e 1930, de formas geométricas e ornamentos estilizados.",
+      "variantes": [
+        "Arte decorativa"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Art_Deco"
+      ]
+    },
+    {
+      "id": "templo_de_artemis",
+      "nome": "Templo de Ártemis",
+      "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+      "variantes": [
+        "Artemísion",
+        "Templo de Diana em Éfeso"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Temple_of_Artemis"
+      ]
+    }
+  ],
+  "variantes": {
+    "estatua_da_liberdade": [
+      "Estátua da Liberdade",
+      "A Liberdade Iluminando o Mundo",
+      "Statue of Liberty"
+    ],
+    "torre_de_pisa": [
+      "Torre de Pisa",
+      "Torre Inclinada de Pisa"
+    ],
+    "sagrada_familia": [
+      "Sagrada Família",
+      "Templo Expiatório da Sagrada Família"
+    ],
+    "mesquita_azul": [
+      "Mesquita Azul",
+      "Mesquita do Sultão Ahmed",
+      "Sultanahmet Camii"
+    ],
+    "arcos_da_lapa": [
+      "Arcos da Lapa",
+      "Aqueduto da Carioca"
+    ],
+    "kremlin_de_moscou": [
+      "Kremlin de Moscou",
+      "Kremlin"
+    ],
+    "abu_simbel": [
+      "Abu Simbel",
+      "Templos de Abu Simbel"
+    ],
+    "piramide_de_kukulcan": [
+      "Pirâmide de Kukulcán",
+      "El Castillo",
+      "Templo de Kukulcán"
+    ],
+    "pieta_michelangelo": [
+      "Pietà (Michelangelo)",
+      "Pietà do Vaticano",
+      "Pietà"
+    ],
+    "coliseu": [
+      "Coliseu",
+      "Anfiteatro Flávio",
+      "Colosseum"
+    ],
+    "bauhaus": [
+      "Bauhaus",
+      "Staatliches Bauhaus"
+    ],
+    "conjunto_moderno_da_pampulha": [
+      "Conjunto Moderno da Pampulha",
+      "Pampulha"
+    ],
+    "fontana_di_trevi": [
+      "Fontana di Trevi",
+      "Fonte de Trevi",
+      "Trevi Fountain"
+    ],
+    "memorial_de_lincoln": [
+      "Memorial de Lincoln",
+      "Lincoln Memorial"
+    ],
+    "cristo_redentor": [
+      "Cristo Redentor",
+      "Cristo do Corcovado"
+    ],
+    "os_doze_profetas_aleijadinho": [
+      "Os Doze Profetas (Aleijadinho)",
+      "Profetas de Congonhas"
+    ],
+    "partenon": [
+      "Partenon",
+      "Pártenon",
+      "Parthenon"
+    ],
+    "muralha_da_china": [
+      "Muralha da China",
+      "Grande Muralha da China"
+    ],
+    "piramides_de_gize": [
+      "Pirâmides de Gizé",
+      "Pirâmides de Giza"
+    ],
+    "arco_do_triunfo_de_paris": [
+      "Arco do Triunfo de Paris",
+      "Arc de Triomphe de l'Étoile"
+    ],
+    "alhambra": [
+      "Alhambra",
+      "Alambra",
+      "Alhambra de Granada"
+    ],
+    "barroco": [
+      "Barroco",
+      "Arte barroca",
+      "Estilo barroco"
+    ],
+    "obelisco": [
+      "Obelisco",
+      "Obelisk"
+    ],
+    "estadio_nacional_de_pequim": [
+      "Estádio Nacional de Pequim",
+      "Ninho de Pássaro",
+      "Bird's Nest"
+    ],
+    "manneken_pis": [
+      "Manneken Pis",
+      "Menino Mijão"
+    ],
+    "colosso_de_rodes": [
+      "Colosso de Rodes",
+      "Colossus of Rhodes"
+    ],
+    "pedra_sabao": [
+      "Pedra-sabão",
+      "Esteatita",
+      "Soapstone"
+    ],
+    "piramide_do_louvre": [
+      "Pirâmide do Louvre",
+      "Louvre Pyramid",
+      "Pyramide du Louvre"
+    ],
+    "opera_de_sydney": [
+      "Ópera de Sydney",
+      "Sydney Opera House"
+    ],
+    "museu_do_amanha": [
+      "Museu do Amanhã",
+      "Museum of Tomorrow"
+    ],
+    "machu_picchu": [
+      "Machu Picchu",
+      "Machu Pichu"
+    ],
+    "atomium": [
+      "Atomium"
+    ],
+    "opera_de_arame": [
+      "Ópera de Arame",
+      "Teatro Ópera de Arame"
+    ],
+    "taj_mahal": [
+      "Taj Mahal",
+      "Tadj Mahal"
+    ],
+    "palacio_de_cristal": [
+      "Palácio de Cristal",
+      "Crystal Palace",
+      "The Crystal Palace"
+    ]
+  }
+}

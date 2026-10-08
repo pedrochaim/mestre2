@@ -7495,7 +7495,8 @@
       "en": 9388
     },
     "variantes": [
-      "Ninho de Pássaro"
+      "Ninho de Pássaro",
+      "Bird's Nest"
     ]
   },
   {
@@ -31080,7 +31081,8 @@
     "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
     "variantes": [
       "Arc de Triomphe",
-      "Arco do Triunfo"
+      "Arco do Triunfo",
+      "Arc de Triomphe de l'Étoile"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Arc_de_Triomphe"
@@ -31222,7 +31224,8 @@
     "nome": "Ópera de Arame",
     "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
     "variantes": [
-      "Wire Opera House"
+      "Wire Opera House",
+      "Teatro Ópera de Arame"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/%C3%93pera_de_Arame"
@@ -38874,7 +38877,8 @@
     "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
     "variantes": [
       "Pietà do Vaticano",
-      "La Pietà"
+      "La Pietà",
+      "Pietà"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Piet%C3%A0_%28Michelangelo%29",
@@ -48248,7 +48252,8 @@
     "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
     "variantes": [
       "Complexo de Gizé",
-      "Giza pyramid complex"
+      "Giza pyramid complex",
+      "Pirâmides de Giza"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
@@ -97163,7 +97168,10 @@
       "wikidata": "Q10333874",
       "pt": 1757,
       "en": 1805
-    }
+    },
+    "variantes": [
+      "Museum of Tomorrow"
+    ]
   },
   {
     "id": "marina_bay_sands",
@@ -127495,6 +127503,124 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Shrimp",
       "https://pt.wikipedia.org/wiki/Camar%C3%A3o"
+    ]
+  },
+  {
+    "id": "30_st_mary_axe",
+    "nome": "30 St Mary Axe",
+    "descricao": "Arranha-céu de vidro em forma de projétil, projetado por Norman Foster na City de Londres e concluído em 2003.",
+    "variantes": [
+      "The Gherkin",
+      "O Pepino",
+      "Swiss Re Building"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/30_St_Mary_Axe"
+    ]
+  },
+  {
+    "id": "palacio_itamaraty",
+    "nome": "Palácio Itamaraty",
+    "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+    "variantes": [
+      "Palácio dos Arcos",
+      "Itamaraty"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Itamaraty_Palace"
+    ]
+  },
+  {
+    "id": "gustave_eiffel",
+    "nome": "Gustave Eiffel",
+    "descricao": "Engenheiro francês, 1832-1923, cuja empresa construiu a torre de ferro do Campo de Marte, em Paris.",
+    "variantes": [
+      "Alexandre Gustave Eiffel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+    ]
+  },
+  {
+    "id": "novas_sete_maravilhas_do_mundo",
+    "nome": "Novas Sete Maravilhas do Mundo",
+    "descricao": "Lista de sete monumentos escolhidos por votação popular internacional, anunciada em Lisboa em 2007.",
+    "variantes": [
+      "Sete Maravilhas do Mundo Moderno",
+      "New 7 Wonders"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/New_7_Wonders_of_the_World"
+    ]
+  },
+  {
+    "id": "arco_de_tito",
+    "nome": "Arco de Tito",
+    "descricao": "Arco triunfal romano do século primeiro, no Fórum Romano, que celebra a tomada de Jerusalém pelo imperador Tito.",
+    "variantes": [
+      "Arch of Titus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Arch_of_Titus"
+    ]
+  },
+  {
+    "id": "leao_de_belfort",
+    "nome": "Leão de Belfort",
+    "descricao": "Grande escultura de um leão em arenito vermelho, aos pés da cidadela de Belfort, na França, obra de Frédéric Auguste Bartholdi.",
+    "variantes": [
+      "Lion de Belfort",
+      "Lion of Belfort"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lion_of_Belfort"
+    ]
+  },
+  {
+    "id": "escadaria_selaron",
+    "nome": "Escadaria Selarón",
+    "descricao": "Escadaria entre os bairros da Lapa e de Santa Teresa, no Rio de Janeiro, coberta de azulejos coloridos.",
+    "variantes": [
+      "Escadaria do Convento de Santa Teresa",
+      "Selarón Steps"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n"
+    ]
+  },
+  {
+    "id": "torre_branca_torre_de_londres",
+    "nome": "Torre Branca (Torre de Londres)",
+    "descricao": "Torre de menagem de pedra no centro da Torre de Londres, mandada erguer por Guilherme, o Conquistador.",
+    "variantes": [
+      "White Tower",
+      "Torre de Londres"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/White_Tower_(Tower_of_London)"
+    ]
+  },
+  {
+    "id": "art_deco",
+    "nome": "Art déco",
+    "descricao": "Estilo de arquitetura e design das décadas de 1920 e 1930, de formas geométricas e ornamentos estilizados.",
+    "variantes": [
+      "Arte decorativa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Art_Deco"
+    ]
+  },
+  {
+    "id": "templo_de_artemis",
+    "nome": "Templo de Ártemis",
+    "descricao": "Grande templo grego dedicado à deusa Ártemis na antiga cidade de Éfeso, uma das sete maravilhas do mundo antigo.",
+    "variantes": [
+      "Artemísion",
+      "Templo de Diana em Éfeso"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Temple_of_Artemis"
     ]
   }
 ]

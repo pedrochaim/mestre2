@@ -1,0 +1,408 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A coroa tem sete raios, fato amplamente documentado; pergunta clara e curta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta, pois a escala musical tem sete notas; basta perguntar o número de sinos.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "Quantos sinos guarda o campanário da catedral de Pisa, a famosa torre inclinada?",
+        "resposta": "Sete",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+          "https://pt.wikipedia.org/wiki/Torre_de_Pisa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma as dezoito torres e a divisão; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis minaretes confirmados; a lenda vem com ressalva ('conta a tradição').",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte confirma 42 arcos em dois níveis e construção no século dezoito.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte da fonte do Pátio dos Leões tem doze leões de mármore, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A muralha do Kremlin tem vinte torres, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "São 80 arcos no térreo, mas só 76 numerados para o público; a resposta é ambígua e os trechos não a sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro colossos sentados de Ramsés II confirmados na fachada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "4 x 91 mais a plataforma dá 365, com a ressalva 'explicação mais difundida'.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Al-Hamra significa 'a vermelha'; bom ângulo de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia 'pérola irregular' confirmada, com ressalva adequada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obeliskos vem de 'espeto'; curioso e correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pietà significa piedade em italiano, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem do nome pela estátua de Nero está confirmada, com ressalva.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bauhaus significa 'casa de construção'; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Gherkin (pepino) confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ninho de Pássaro confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palácio dos Arcos confirmado como nome alternativo.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome significa 'menino/homenzinho fazendo xixi', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'famosa torre de Paris' nomeia a resposta quase literalmente, e Eiffel construiu a estrutura com Koechlin.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que engenheiro francês construiu a estrutura de ferro interna da Estátua da Liberdade e, poucos anos depois, ergueu uma torre de ferro em Paris?",
+        "resposta": "Gustave Eiffel",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gustave_Eiffel",
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os quatro monumentos estão entre as Novas Sete Maravilhas de 2007.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte confirma que o Arco de Tito inspirou o Arco do Triunfo.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma a encomenda feita por Juscelino como prefeito.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado: Anita Ekberg na fonte em A Doce Vida, 1960.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bartholdi esculpiu o Leão de Belfort e a Estátua da Liberdade, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relato de Viviani sobre Galileu confirmado, com ressalva adequada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O soneto The New Colossus evoca o Colosso de Rodes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mosaico do Cristo e profetas são de pedra-sabão; boa conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Memorial de Lincoln foi inspirado no Partenon, fato bem documentado; discurso no local confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Landowski esculpiu o Cristo, com Silva Costa projetando, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "I. M. Pei, arquiteto sino-americano, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dinamarquês' no enunciado elimina distratores não dinamarqueses; melhor tirar a nacionalidade e usar distratores nórdicos/modernistas.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "A Ópera de Sydney, com suas coberturas em forma de velas no porto australiano, foi projetada por qual arquiteto?",
+        "resposta": "Jørn Utzon",
+        "distratores": [
+          "Arne Jacobsen",
+          "Alvar Aalto",
+          "Eero Saarinen"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calatrava projetou o museu, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jorge Selarón, chileno, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os profetas foram feitos de 1800 a 1805, mas as fontes listadas não mostram a data; troca de fonte para a que sustenta.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Já idoso e doente, Aleijadinho esculpiu os Doze Profetas do adro de Congonhas nos primeiros anos de que século?",
+        "resposta": "Século dezenove",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos",
+          "https://en.wikipedia.org/wiki/Aleijadinho"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Século quinze confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Início por volta de 1078, século onze, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A ampliação é de 165 milhões de vezes, não 'bilhões'; remover o número.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Construído para a Exposição Universal de 1958, em Bruxelas, o Atomium representa, em escala gigante, a estrutura cristalina de que metal?",
+        "resposta": "Ferro",
+        "distratores": [
+          "Cobre",
+          "Alumínio",
+          "Ouro"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Atomium",
+          "https://pt.wikipedia.org/wiki/Atomium"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Exposição de 1925 em Paris confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Éfeso fica na Turquia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Apelido não sustentado pelo trecho, e várias igrejas barrocas de São Francisco no Nordeste tornam a resposta ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ópera de Arame fica em Curitiba, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paiol de pólvora atingido por canhão veneziano em 1687, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shah Jahan construiu o Taj Mahal para Mumtaz Mahal, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Remoção por causa da Barragem de Assuã e do Lago Nasser, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído para a Grande Exposição de 1851, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Argamassa de arroz glutinoso confirmada por testes químicos.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Revestimento de calcário branco polido confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Chama eterna acesa em 1923 sobre o Túmulo do Soldado Desconhecido, fato bem documentado.",
+      "reescrita": null
+    }
+  ]
+}

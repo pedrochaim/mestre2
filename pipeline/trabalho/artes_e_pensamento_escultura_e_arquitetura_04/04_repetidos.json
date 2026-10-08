@@ -1,0 +1,428 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No famoso Pátio dos Leões, na Alhambra de Granada, a fonte central é sustentada por quantos leões de mármore?",
+        "resposta": "Doze"
+      },
+      "existentes": [
+        {
+          "id": "q00386",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Alhambra"
+        },
+        {
+          "id": "q02033",
+          "pergunta": "O conjunto de palácios mouros da Alhambra, último grande reduto muçulmano da Espanha, fica em qual cidade?",
+          "resposta": "Granada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "As muralhas de tijolos vermelhos do Kremlin, em Moscou, são pontuadas por quantas torres?",
+        "resposta": "Vinte"
+      },
+      "existentes": [
+        {
+          "id": "q02001",
+          "pergunta": "Em russo, o que significa a palavra kremlin, que batiza a sede do governo em Moscou?",
+          "resposta": "Fortaleza"
+        },
+        {
+          "id": "q06921",
+          "pergunta": "Em que cidade fica este conjunto de muralhas, torres e palácios?",
+          "resposta": "Moscou"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Segundo a etimologia mais citada, o nome do estilo barroco vem de uma palavra portuguesa que designava que tipo de joia imperfeita?",
+        "resposta": "Pérola irregular"
+      },
+      "existentes": [
+        {
+          "id": "q03653",
+          "pergunta": "O nome do estilo barroco vem de uma palavra portuguesa que designava o quê?",
+          "resposta": "Pérola irregular"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A palavra obelisco, dada aos altos monumentos de pedra do Egito, vem de um termo grego que designava que utensílio de cozinha?",
+        "resposta": "Espeto"
+      },
+      "existentes": [
+        {
+          "id": "q00064",
+          "pergunta": "A palavra obelisco vem de um diminutivo grego, dado por causa do formato alto e pontudo do monumento. Que objeto de cozinha ela designava?",
+          "resposta": "Espeto"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Pietà, nome da escultura de Michelangelo em que Maria segura o corpo de Jesus, significa o que em italiano?",
+        "resposta": "Piedade"
+      },
+      "existentes": [
+        {
+          "id": "q02523",
+          "pergunta": "Em que basílica fica esta escultura de mármore?",
+          "resposta": "Basílica de São Pedro"
+        },
+        {
+          "id": "q03175",
+          "pergunta": "Segundo o biógrafo Vasari, por que Michelangelo gravou seu nome na faixa que cruza o peito de Maria, na Pietà?",
+          "resposta": "Ouviu atribuírem a obra a outro"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em alemão, o que significa Bauhaus, nome da escola de arte, design e arquitetura fundada em Weimar em 1919?",
+        "resposta": "Casa de construção"
+      },
+      "existentes": [
+        {
+          "id": "q03177",
+          "pergunta": "Em 1933, a escola Bauhaus, berço do design moderno, fechou as portas sob pressão de que regime?",
+          "resposta": "Nazismo"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Por causa do emaranhado de vigas de aço da fachada, o Estádio Nacional de Pequim, palco dos Jogos Olímpicos de 2008, ganhou que apelido?",
+        "resposta": "Ninho de Pássaro"
+      },
+      "existentes": [
+        {
+          "id": "q00531",
+          "pergunta": "Que estádio olímpico é este?",
+          "resposta": "Ninho de Pássaro (Pequim)"
+        },
+        {
+          "id": "q00691",
+          "pergunta": "Que artista chinês foi consultor artístico no projeto do Ninho de Pássaro, estádio de Pequim 2008 desenhado por arquitetos suíços?",
+          "resposta": "Ai Weiwei"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em Bruxelas, a pequena estátua de bronze chamada Manneken Pis tem um nome que, no dialeto local, significa o quê?",
+        "resposta": "Menininho fazendo xixi"
+      },
+      "existentes": [
+        {
+          "id": "q02032",
+          "pergunta": "A pequena estátua de bronze de um menino fazendo xixi numa fonte, o Manneken Pis, é símbolo de qual cidade europeia?",
+          "resposta": "Bruxelas"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Antes de levar Niemeyer para construir Brasília, que político encomendou a ele o conjunto da Pampulha, quando era prefeito de Belo Horizonte?",
+        "resposta": "Juscelino Kubitschek"
+      },
+      "existentes": [
+        {
+          "id": "q03957",
+          "pergunta": "O Conjunto Moderno da Pampulha, com a igreja ondulada que Niemeyer projetou nos anos quarenta, fica em que capital brasileira?",
+          "resposta": "Belo Horizonte"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O soneto de Emma Lazarus, gravado numa placa no pedestal da Estátua da Liberdade, compara a estátua a que gigante de bronze da Antiguidade grega?",
+        "resposta": "Colosso de Rodes"
+      },
+      "existentes": [
+        {
+          "id": "q03221",
+          "pergunta": "Erguido no início do século três antes de Cristo, o Colosso de Rodes ficou de pé por pouco mais de cinquenta anos. O que o derrubou?",
+          "resposta": "Um terremoto"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O que o mosaico que reveste o Cristo Redentor, no Rio, e os Doze Profetas de Aleijadinho, em Congonhas, têm em comum?",
+        "resposta": "Pedra-sabão"
+      },
+      "existentes": [
+        {
+          "id": "q04297",
+          "pergunta": "Por ser macia e ter toque escorregadio, a rocha chamada esteatita ganhou qual nome popular em português?",
+          "resposta": "Pedra-sabão"
+        },
+        {
+          "id": "q04313",
+          "pergunta": "Que rocha reveste o Cristo Redentor e foi usada por Aleijadinho para esculpir os profetas de Congonhas?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que templo da Acrópole de Atenas serviu de modelo para o memorial de Washington em cujos degraus Martin Luther King fez o discurso Eu tenho um sonho?",
+        "resposta": "Partenon"
+      },
+      "existentes": [
+        {
+          "id": "q05977",
+          "pergunta": "Que estilo arquitetônico tem este edifício?",
+          "resposta": "Neoclássico"
+        },
+        {
+          "id": "q08462",
+          "pergunta": "Numa das paredes do Memorial a Lincoln, em Washington, está gravado qual discurso do presidente, feito num cemitério militar em 1863?",
+          "resposta": "Discurso de Gettysburg"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Inaugurada em 1989 no pátio do Museu do Louvre, em Paris, a pirâmide de vidro foi projetada por que arquiteto sino-americano?",
+        "resposta": "I. M. Pei"
+      },
+      "existentes": [
+        {
+          "id": "q02029",
+          "pergunta": "Qual arquiteto sino-americano projetou a pirâmide de vidro que serve de entrada ao Museu do Louvre?",
+          "resposta": "I. M. Pei"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "A Ópera de Sydney, com suas coberturas em forma de velas no porto australiano, foi projetada por qual arquiteto?",
+        "resposta": "Jørn Utzon"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Inaugurado em 2015 na Praça Mauá, à beira da baía de Guanabara, o Museu do Amanhã foi projetado por que arquiteto espanhol?",
+        "resposta": "Santiago Calatrava"
+      },
+      "existentes": [
+        {
+          "id": "q06688",
+          "pergunta": "Que museu é este?",
+          "resposta": "Museu do Amanhã"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Já idoso e doente, Aleijadinho esculpiu os Doze Profetas do adro de Congonhas nos primeiros anos de que século?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q03189",
+          "pergunta": "Em que cidade mineira ficam os Doze Profetas de pedra-sabão esculpidos por Aleijadinho?",
+          "resposta": "Congonhas"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Construído para a Exposição Universal de 1958, em Bruxelas, o Atomium representa, em escala gigante, a estrutura cristalina de que metal?",
+        "resposta": "Ferro"
+      },
+      "existentes": [
+        {
+          "id": "q02040",
+          "pergunta": "As nove esferas do Atomium, em Bruxelas, representam a estrutura ampliada de um cristal de qual metal?",
+          "resposta": "Ferro"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O teatro Ópera de Arame, de tubos de aço e cobertura transparente, erguido numa antiga pedreira cercada por um lago, fica em que capital?",
+        "resposta": "Curitiba"
+      },
+      "existentes": [
+        {
+          "id": "q02035",
+          "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+          "resposta": "Curitiba"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O Palácio de Cristal, enorme pavilhão de ferro e vidro erguido no Hyde Park, em Londres, em 1851, foi construído para abrigar que evento?",
+        "resposta": "A Grande Exposição"
+      },
+      "existentes": [
+        {
+          "id": "q05421",
+          "pergunta": "Para a Grande Exposição de Londres de 1851, qual jardineiro inglês, especialista em estufas, projetou o gigantesco Palácio de Cristal?",
+          "resposta": "Joseph Paxton"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Hoje com os blocos à mostra, a Grande Pirâmide de Gizé era originalmente revestida por placas polidas de que pedra clara?",
+        "resposta": "Calcário"
+      },
+      "existentes": [
+        {
+          "id": "q03200",
+          "pergunta": "Das três grandes pirâmides de Gizé, a maior foi construída para que faraó?",
+          "resposta": "Quéops"
+        },
+        {
+          "id": "q06683",
+          "pergunta": "Em que país ficam estas pirâmides?",
+          "resposta": "Egito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de leões é fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Número de torres difere de significado e cidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma etimologia e mesma resposta.",
+      "id_existente": "q03653"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma etimologia de obelisco: espeto.",
+      "id_existente": "q00064"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Significado do nome difere de localização e anedota."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Significado do nome difere do fechamento em 1933."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Apelido difere de consultor artístico; 'Que estádio é este' tem a imagem como pista, mas a resposta é o próprio apelido e pode ser considerada repetição... na dúvida, nova."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Significado do nome difere da cidade."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Quem encomendou difere da cidade."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Comparação do soneto difere da queda do Colosso."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesma rocha que reveste o Cristo e foi usada por Aleijadinho.",
+      "id_existente": "q04313"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Modelo do memorial difere dos fatos existentes."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo arquiteto da pirâmide do Louvre.",
+      "id_existente": "q02029"
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo arquiteto da Ópera de Sydney.",
+      "id_existente": "q02028"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Arquiteto difere da identificação do museu."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Século da obra difere da cidade."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo metal do Atomium.",
+      "id_existente": "q02040"
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "motivo": "Mesma cidade da Ópera de Arame.",
+      "id_existente": "q02035"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Evento difere do projetista."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Revestimento difere de faraó e país."
+    }
+  ]
+}
