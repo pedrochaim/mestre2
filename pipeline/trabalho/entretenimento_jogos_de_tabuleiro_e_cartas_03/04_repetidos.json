@@ -1,0 +1,505 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No primeiro lance de uma partida de xadrez, além dos peões, qual é a única peça que já pode se mover?",
+        "resposta": "Cavalo"
+      },
+      "existentes": [
+        {
+          "id": "q06803",
+          "pergunta": "Que peça de xadrez é esta?",
+          "resposta": "Cavalo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No Scrabble em inglês, duas letras valem dez pontos, o máximo do jogo. Uma delas é o Q. Qual é a outra?",
+        "resposta": "Z"
+      },
+      "existentes": [
+        {
+          "id": "q01514",
+          "pergunta": "Para decidir quantas peças de cada letra o Scrabble teria, o inventor Alfred Butts contou as letras de qual jornal?",
+          "resposta": "The New York Times"
+        },
+        {
+          "id": "q06459",
+          "pergunta": "O arquiteto Alfred Butts criou o jogo que virou o Scrabble quando estava desempregado, durante qual crise econômica?",
+          "resposta": "A Grande Depressão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No truco mineiro, a carta mais forte é o zap, o quatro de paus. Qual é a segunda carta mais forte do jogo?",
+        "resposta": "Sete de copas"
+      },
+      "existentes": [
+        {
+          "id": "q01492",
+          "pergunta": "No truco mineiro, a carta mais forte do jogo, o quatro de paus, é conhecida por qual apelido?",
+          "resposta": "Zap"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Ao fim de uma rodada de Uno, as cartas que sobram na mão dos adversários viram pontos para o vencedor. Quais cartas valem mais?",
+        "resposta": "Os curingas"
+      },
+      "existentes": [
+        {
+          "id": "q01519",
+          "pergunta": "O Uno foi criado em 1971, no estado americano de Ohio, por Merle Robbins. Qual era a profissão dele?",
+          "resposta": "Barbeiro"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A roleta americana tem uma casa a mais que a roleta europeia. Que número aparece nessa casa extra?",
+        "resposta": "Duplo zero"
+      },
+      "existentes": [
+        {
+          "id": "q06801",
+          "pergunta": "Que jogo de azar é este?",
+          "resposta": "Roleta"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No Cluedo britânico original, que no Brasil virou o Detetive, quem é a vítima do assassinato investigado pelos jogadores?",
+        "resposta": "Doutor Black"
+      },
+      "existentes": [
+        {
+          "id": "q01496",
+          "pergunta": "O nome Cluedo, do jogo que no Brasil se chama Detetive, junta a palavra inglesa clue, pista, com o nome de qual outro jogo?",
+          "resposta": "Ludo"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No jogo de cartas Magic, a mana tem cinco cores: branco, azul, preto, vermelho e qual outra?",
+        "resposta": "Verde"
+      },
+      "existentes": [
+        {
+          "id": "q01521",
+          "pergunta": "O jogo de cartas colecionáveis Magic, lançado em 1993, foi criado por qual matemático americano?",
+          "resposta": "Richard Garfield"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No Risk, jogo que inspirou o War, as cartas de território mostram três tipos de tropa: infantaria, cavalaria e qual outro?",
+        "resposta": "Artilharia"
+      },
+      "existentes": [
+        {
+          "id": "q01518",
+          "pergunta": "Que cineasta francês, diretor do curta O Balão Vermelho, inventou o jogo de estratégia que deu origem ao War?",
+          "resposta": "Albert Lamorisse"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O tangram tem sete peças: cinco triângulos, um quadrado e qual outra figura geométrica?",
+        "resposta": "Paralelogramo"
+      },
+      "existentes": [
+        {
+          "id": "q06443",
+          "pergunta": "O tangram, quebra-cabeça de sete peças geométricas que formam figuras de bichos e pessoas, surgiu em qual país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No xadrez chinês, o que corta o tabuleiro ao meio, separando os territórios dos dois exércitos?",
+        "resposta": "Um rio"
+      },
+      "existentes": [
+        {
+          "id": "q04170",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Xadrez chinês (Xiangqi)"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na cartela do bingo americano, com cinco colunas e cinco linhas, o que ocupa a casa bem do centro?",
+        "resposta": "Um espaço livre"
+      },
+      "existentes": [
+        {
+          "id": "q06450",
+          "pergunta": "O bingo descende de uma loteria criada na Itália. Em que século essa loteria surgiu?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No Banco Imobiliário, ao cair em certas casas, o jogador tira uma carta que pode trazer prêmio ou castigo. Como essas cartas são chamadas?",
+        "resposta": "Sorte ou Revés"
+      },
+      "existentes": [
+        {
+          "id": "q01528",
+          "pergunta": "A Estrela lançou o Banco Imobiliário no Brasil enquanto o mundo ainda vivia qual grande conflito?",
+          "resposta": "Segunda Guerra Mundial"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "No blackjack, o vinte e um dos cassinos, qual carta pode valer um ou onze pontos, conforme for melhor para a mão?",
+        "resposta": "Ás"
+      },
+      "existentes": [
+        {
+          "id": "q06448",
+          "pergunta": "O nome blackjack, do jogo de cartas vinte e um, vem de um antigo bônus pago a quem tinha um valete preto e qual outra carta?",
+          "resposta": "Ás de espadas"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Nas damas como se jogam no Brasil, quando há mais de um jeito de capturar, qual jogada o jogador é obrigado a escolher?",
+        "resposta": "A que captura mais peças"
+      },
+      "existentes": [
+        {
+          "id": "q01532",
+          "pergunta": "No início de uma partida de damas como se joga no Brasil, quantas peças cada jogador tem no tabuleiro?",
+          "resposta": "Doze"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Além dos dados comuns, o gamão usa um cubo marcado com os números de dois a sessenta e quatro. Para que ele serve?",
+        "resposta": "Para dobrar a aposta"
+      },
+      "existentes": [
+        {
+          "id": "q04169",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Gamão"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Na canastra, além dos curingas, qual carta numerada do baralho também pode substituir qualquer outra?",
+        "resposta": "O dois"
+      },
+      "existentes": [
+        {
+          "id": "q01524",
+          "pergunta": "A canastra, jogo de cartas muito popular nas famílias brasileiras, foi inventada em 1939 em qual país vizinho do Brasil?",
+          "resposta": "Uruguai"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "No xadrez, vale a regra dama na cor: a dama branca começa numa casa clara. Em que cor de casa começa a dama preta?",
+        "resposta": "Escura"
+      },
+      "existentes": [
+        {
+          "id": "q06423",
+          "pergunta": "A dama do xadrez já foi uma peça fraca, que andava uma só casa na diagonal. Em que século ela ganhou os poderes de hoje?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Nos estados do Sul do Brasil, sobretudo no Rio Grande do Sul, a pipa costuma ser chamada por qual outro nome?",
+        "resposta": "Pandorga"
+      },
+      "existentes": [
+        {
+          "id": "q04496",
+          "pergunta": "Chamada de papagaio, arraia ou pandorga conforme a região do Brasil, a pipa foi inventada há mais de dois mil anos em qual país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O nome original da canastra, canasta, é uma palavra espanhola. Que objeto ela designa?",
+        "resposta": "Cesto"
+      },
+      "existentes": [
+        {
+          "id": "q01524",
+          "pergunta": "A canastra, jogo de cartas muito popular nas famílias brasileiras, foi inventada em 1939 em qual país vizinho do Brasil?",
+          "resposta": "Uruguai"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "As peças de xadrez de Lewis, esculpidas no século doze, serviram de modelo para o xadrez gigante de qual filme de 2001?",
+        "resposta": "Harry Potter e a Pedra Filosofal"
+      },
+      "existentes": [
+        {
+          "id": "q01535",
+          "pergunta": "As peças de xadrez de Lewis, do século doze, achadas numa ilha da Escócia, foram esculpidas principalmente em que material?",
+          "resposta": "Marfim de morsa"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Por que as figuras do baralho, como reis e damas, são desenhadas espelhadas, com duas metades iguais de cabeça para baixo?",
+        "resposta": "Para ficarem certas de qualquer lado"
+      },
+      "existentes": [
+        {
+          "id": "q01527",
+          "pergunta": "Onde surgiram as mais antigas cartas de baralho conhecidas, por volta do século nove?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Bobby Fischer propôs sortear a posição inicial das peças, no xadrez 960, para reduzir a vantagem de quem fazia o quê?",
+        "resposta": "Decorava aberturas"
+      },
+      "existentes": [
+        {
+          "id": "q06434",
+          "pergunta": "Que campeão mundial americano propôs o xadrez 960, variante em que a posição inicial das peças da última fileira é sorteada?",
+          "resposta": "Bobby Fischer"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "No xadrez ocidental, as brancas começam. No xadrez chinês, de que cor são as peças que fazem o primeiro lance?",
+        "resposta": "Vermelhas"
+      },
+      "existentes": [
+        {
+          "id": "q04170",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Xadrez chinês (Xiangqi)"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "Quantos blocos de madeira formam uma torre de Jenga completa, pronta para começar o jogo?",
+        "resposta": "Cinquenta e quatro"
+      },
+      "existentes": [
+        {
+          "id": "q01499",
+          "pergunta": "Que verbo da língua suaíli deu nome ao Jenga, o jogo de tirar blocos de uma torre de madeira?",
+          "resposta": "Construir"
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "nova": {
+        "pergunta": "Na versão clássica do Cara a Cara, quantos personagens aparecem no tabuleiro de cada jogador?",
+        "resposta": "Vinte e quatro"
+      },
+      "existentes": [
+        {
+          "id": "q06457",
+          "pergunta": "Theo Coster, nascido em Amsterdã e um dos criadores do jogo Cara a Cara, foi colega de classe de qual menina, famosa por um diário?",
+          "resposta": "Anne Frank"
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "nova": {
+        "pergunta": "Na Paciência do Windows, quantas colunas de cartas são montadas na mesa no começo de cada partida?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q01513",
+          "pergunta": "Em 1990, a Microsoft incluiu o jogo Paciência no Windows com um objetivo prático, além de divertir. Qual era?",
+          "resposta": "Ensinar a usar o mouse"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta de imagem genérica versus regra do primeiro lance."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente (letra de dez pontos)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Segunda carta mais forte, não o apelido do zap."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pontuação versus criador."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Casa extra versus pergunta de imagem."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Vítima versus origem do nome."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cores de mana versus criador."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tipos de tropa versus criador do jogo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Peças versus país de origem."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Rio no tabuleiro versus imagem."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Casa central versus século da loteria."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nome das cartas versus conflito."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Valor do ás versus origem do nome."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Regra de captura versus número de peças."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Dado de dobra versus imagem."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Regra do dois versus país de invenção."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Cor da casa versus história da dama."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Nome regional versus país de origem."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Significado da palavra versus país de invenção."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Filme inspirado versus material."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Desenho espelhado versus origem."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Motivo da proposta versus quem propôs."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Cor que começa versus imagem."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Número de blocos versus origem do nome."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Personagens versus colega de Coster."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Colunas versus objetivo da inclusão."
+    }
+  ]
+}

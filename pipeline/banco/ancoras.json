@@ -66947,7 +66947,8 @@
       "Papagaio",
       "Pandorga",
       "Arraia",
-      "Pipa (brinquedo)"
+      "Pipa (brinquedo)",
+      "Raia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Kite"
@@ -93259,7 +93260,8 @@
     "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
     "variantes": [
       "Rainha (xadrez)",
-      "Queen"
+      "Queen",
+      "Rainha"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Queen_(chess)"
@@ -117922,6 +117924,163 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Durdle_Door",
       "https://pt.wikipedia.org/wiki/Durdle_Door"
+    ]
+  },
+  {
+    "id": "poquer",
+    "nome": "Pôquer",
+    "descricao": "Jogo de cartas de apostas e blefe em que vence a melhor combinação de cinco cartas.",
+    "variantes": [
+      "Poker"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/P%C3%B4quer",
+      "https://en.wikipedia.org/wiki/Poker"
+    ]
+  },
+  {
+    "id": "peao_xadrez",
+    "nome": "Peão (xadrez)",
+    "descricao": "Peça mais numerosa do xadrez, oito para cada lado, que avança para a frente e captura na diagonal.",
+    "variantes": [
+      "Peão"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pe%C3%A3o_(xadrez)",
+      "https://en.wikipedia.org/wiki/Pawn_(chess)"
+    ]
+  },
+  {
+    "id": "texas_hold_em",
+    "nome": "Texas Hold'em",
+    "descricao": "Modalidade de pôquer em que cada jogador recebe duas cartas fechadas e divide com os outros cinco cartas comunitárias.",
+    "variantes": [
+      "Texas Hold'em Poker"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Texas_hold_%27em"
+    ]
+  },
+  {
+    "id": "mahjong",
+    "nome": "Mahjong",
+    "descricao": "Jogo chinês para quatro jogadores, jogado com peças ilustradas de naipes, ventos e dragões.",
+    "variantes": [
+      "Mah-jong",
+      "Majongue"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Mahjong",
+      "https://en.wikipedia.org/wiki/Mahjong"
+    ]
+  },
+  {
+    "id": "amarelinha",
+    "nome": "Amarelinha",
+    "descricao": "Brincadeira infantil de pular num pé só por casas numeradas riscadas no chão, conhecida em Portugal como jogo da macaca.",
+    "variantes": [
+      "Jogo da macaca",
+      "Sapata"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Amarelinha",
+      "https://en.wikipedia.org/wiki/Hopscotch"
+    ]
+  },
+  {
+    "id": "jogo_da_onca",
+    "nome": "Jogo da onça",
+    "descricao": "Jogo de tabuleiro de origem indígena brasileira em que uma onça enfrenta um grupo de cachorros que tenta encurralá-la.",
+    "variantes": [
+      "Adugo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Jogo_da_on%C3%A7a"
+    ]
+  },
+  {
+    "id": "combate_jogo",
+    "nome": "Combate (jogo)",
+    "descricao": "Jogo de tabuleiro de estratégia militar com peças de patente escondida, versão brasileira do Stratego lançada pela Estrela.",
+    "variantes": [
+      "Combate",
+      "Stratego"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Stratego",
+      "https://en.wikipedia.org/wiki/Stratego"
+    ]
+  },
+  {
+    "id": "valete_carta_de_baralho",
+    "nome": "Valete (carta de baralho)",
+    "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+    "variantes": [
+      "Valete",
+      "Jack",
+      "Conde"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jack_(playing_card)"
+    ]
+  },
+  {
+    "id": "rainha_de_copas_alice",
+    "nome": "Rainha de Copas (Alice)",
+    "descricao": "Personagem tirana de Alice no País das Maravilhas, de Lewis Carroll, que vive mandando cortar cabeças.",
+    "variantes": [
+      "Rainha de Copas",
+      "Queen of Hearts"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Queen_of_Hearts_(Alice%27s_Adventures_in_Wonderland)"
+    ]
+  },
+  {
+    "id": "battleship_a_batalha_dos_mares",
+    "nome": "Battleship: A Batalha dos Mares",
+    "descricao": "Filme americano de ação e ficção científica de 2012, dirigido por Peter Berg, sobre uma batalha naval contra alienígenas.",
+    "variantes": [
+      "Battleship"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Battleship_(film)"
+    ]
+  },
+  {
+    "id": "baralho_frances",
+    "nome": "Baralho francês",
+    "descricao": "Baralho de cinquenta e duas cartas com os naipes copas, espadas, paus e ouros, o mais usado no Brasil e no mundo.",
+    "variantes": [
+      "Baralho comum",
+      "Baralho de 52 cartas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Standard_52-card_deck",
+      "https://en.wikipedia.org/wiki/French-suited_playing_cards"
+    ]
+  },
+  {
+    "id": "bobby_fischer",
+    "nome": "Bobby Fischer",
+    "descricao": "Enxadrista americano, campeão mundial de xadrez em 1972 após vencer o soviético Boris Spassky.",
+    "variantes": [
+      "Robert James Fischer"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bobby_Fischer",
+      "https://en.wikipedia.org/wiki/Bobby_Fischer"
+    ]
+  },
+  {
+    "id": "turochamp",
+    "nome": "Turochamp",
+    "descricao": "Programa de xadrez escrito em 1948 por Alan Turing e David Champernowne, antes de existir computador capaz de executá-lo.",
+    "variantes": [
+      "Turbochamp"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Turochamp"
     ]
   }
 ]

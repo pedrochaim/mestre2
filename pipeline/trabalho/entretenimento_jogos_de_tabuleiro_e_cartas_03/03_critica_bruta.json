@@ -1,0 +1,422 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto: só os cavalos e os peões têm lance no começo; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Full house supera flush, sequência e trinca, como mostram os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Q e Z valem dez pontos no Scrabble em inglês; distratores valem menos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "No truco mineiro a ordem das manilhas é zap, sete de copas, espadilha e sete de ouros.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (Ásia dá mais bônus), mas a fonte em português não existe e a do Risk não traz os valores.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "No War, jogo de conquista de territórios, que continente dá mais exércitos de bônus a quem o domina por inteiro?",
+        "resposta": "Ásia",
+        "distratores": [
+          "América do Norte",
+          "Europa",
+          "África"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/War_(jogo_de_tabuleiro)",
+          "https://en.wikipedia.org/wiki/Risk_(game)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os curingas valem 50 pontos, mais que as demais cartas, segundo a versão em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato fraco e ambíguo, porque o d100 também existe nos conjuntos de RPG.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A roleta americana tem o duplo zero, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O peão é a única peça que só avança para a frente.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flop é o termo correto para as três primeiras cartas comunitárias.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A vítima na edição britânica é o Dr. Black.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As honras do mahjong são dragões e ventos; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As cinco cores são branco, azul, preto, vermelho e verde.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A carta do Old Maid varia entre rainha, curinga e carta removida, então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As cartas mostram infantaria, cavalaria e artilharia.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O tangram tem 5 triângulos, 1 quadrado e 1 paralelogramo.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O rio divide o tabuleiro do xiangqi.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A casa central da cartela americana é um espaço livre.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As cartas do Banco Imobiliário são de Sorte ou Revés.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A casa final da amarelinha é o Céu.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "São 14 cachorros contra a onça.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O ás vale 1 ou 11 no blackjack.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A regra brasileira obriga a captura do maior número de peças.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O dado de apostas serve para dobrar a aposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A resposta 'Os dois' é ambígua em voz alta; deve ser 'o dois' (a carta 2).",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Na canastra, além dos curingas, qual carta numerada do baralho também pode substituir qualquer outra?",
+        "resposta": "O dois",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Baralho",
+          "https://en.wikipedia.org/wiki/Canasta"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a fonte em português não existe; mantém só a fonte em inglês.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No jogo Combate, o espião é a peça mais fraca, mas pode derrotar qual peça, a de patente mais alta, quando é ele quem ataca?",
+        "resposta": "O marechal",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Stratego"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A regra é detalhe arbitrário, varia entre edições e não está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Preta' vaza no enunciado ('dama preta'); troca-se para a cor da casa, escura.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No xadrez, vale a regra dama na cor: a dama branca começa numa casa clara. Em que cor de casa começa a dama preta?",
+        "resposta": "Escura",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Dama_(xadrez)"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Raia e arraia são nomes reais da pipa e quase duplicam; troco por distratores claramente de outras regiões.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Nos estados do Sul do Brasil, sobretudo no Rio Grande do Sul, a pipa costuma ser chamada por qual outro nome?",
+        "resposta": "Pandorga",
+        "distratores": [
+          "Cafifa",
+          "Papagaio",
+          "Pepeta"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pipa_(brinquedo)"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Valet designa empregado doméstico, ou seja, criado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (peão vem do latim pedo, soldado a pé), mas 'Como era?' é vago.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome da peça peão, do xadrez, vem de uma palavra latina para o soldado que ia à batalha de que modo?",
+        "resposta": "A pé",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pe%C3%A3o_(xadrez)"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O nome mahjong equivale a 'pardal' (麻雀) em chinês; curiosidade boa.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chaturanga significa quatro divisões do exército.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canasta significa cesto em espanhol.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os súditos da Rainha de Copas são cartas de baralho.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As peças de Lewis inspiraram o xadrez de bruxo de Harry Potter e a Pedra Filosofal (2001).",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Battleship (2012) estreou Rihanna e é baseado na Batalha Naval.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "52 cartas, 52 semanas; curiosidade conhecida e correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a fonte em português não existe e a em inglês não cita o Combate.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O Combate, jogo de estratégia militar com peças de patente escondida lançado pela Estrela, é a versão brasileira de qual jogo europeu?",
+        "resposta": "Stratego",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Stratego"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As figuras são espelhadas para ficarem na posição certa de qualquer lado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A resposta destaca a cor, mas o ponto real é a orientação das peças; ambíguo e não sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fischer queria reduzir o peso da preparação de aberturas.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "No xiangqi, as vermelhas movem primeiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os naipes franceses surgiram por volta de 1480, no século quinze.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fischer recebeu cidadania islandesa e foi enterrado na Islândia.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os barcos de jogo no Mississippi difundiram o pôquer.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A torre de Jenga tem 54 blocos.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O tabuleiro clássico tem 24 personagens (19 homens e 5 mulheres).",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Klondike do Windows monta sete colunas.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Turing e Champernowne escreveram o Turochamp em 1948.",
+      "reescrita": null
+    }
+  ]
+}

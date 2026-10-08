@@ -142933,5 +142933,629 @@
       "autor": "jacob",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q08371",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "cavalo_xadrez",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "No primeiro lance de uma partida de xadrez, além dos peões, qual é a única peça que já pode se mover?",
+    "resposta": "Cavalo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cavalo_(xadrez)",
+      "https://en.wikipedia.org/wiki/Knight_(chess)"
+    ]
+  },
+  {
+    "id": "q08372",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "poquer",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "No pôquer, qual destas mãos é a mais forte?",
+    "resposta": "Full house",
+    "distratores": [
+      "Flush",
+      "Sequência",
+      "Trinca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_poker_hands"
+    ]
+  },
+  {
+    "id": "q08373",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "scrabble",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "No Scrabble em inglês, duas letras valem dez pontos, o máximo do jogo. Uma delas é o Q. Qual é a outra?",
+    "resposta": "Z",
+    "distratores": [
+      "X",
+      "J",
+      "K"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scrabble_letter_distributions"
+    ]
+  },
+  {
+    "id": "q08374",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "truco",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "No truco mineiro, a carta mais forte é o zap, o quatro de paus. Qual é a segunda carta mais forte do jogo?",
+    "resposta": "Sete de copas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Truco"
+    ]
+  },
+  {
+    "id": "q08375",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "uno",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Ao fim de uma rodada de Uno, as cartas que sobram na mão dos adversários viram pontos para o vencedor. Quais cartas valem mais?",
+    "resposta": "Os curingas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uno_(card_game)"
+    ]
+  },
+  {
+    "id": "q08376",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "roleta",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A roleta americana tem uma casa a mais que a roleta europeia. Que número aparece nessa casa extra?",
+    "resposta": "Duplo zero",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roulette",
+      "https://pt.wikipedia.org/wiki/Roleta"
+    ]
+  },
+  {
+    "id": "q08377",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "peao_xadrez",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Rei, dama, torre, bispo, cavalo e peão: qual dessas peças do xadrez só pode se mover para a frente?",
+    "resposta": "Peão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pawn_(chess)"
+    ]
+  },
+  {
+    "id": "q08378",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "texas_hold_em",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No pôquer Texas Hold'em, como se chamam as três primeiras cartas comunitárias, abertas juntas no meio da mesa?",
+    "resposta": "Flop",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Texas_hold_%27em"
+    ]
+  },
+  {
+    "id": "q08379",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "cluedo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Cluedo britânico original, que no Brasil virou o Detetive, quem é a vítima do assassinato investigado pelos jogadores?",
+    "resposta": "Doutor Black",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cluedo"
+    ]
+  },
+  {
+    "id": "q08380",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "mahjong",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No mahjong, jogo chinês de peças, além dos naipes de círculos, bambus e caracteres, há peças de honra com dragões e com o quê?",
+    "resposta": "Ventos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mahjong_tiles"
+    ]
+  },
+  {
+    "id": "q08381",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "magic_the_gathering",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No jogo de cartas Magic, a mana tem cinco cores: branco, azul, preto, vermelho e qual outra?",
+    "resposta": "Verde",
+    "distratores": [
+      "Amarelo",
+      "Roxo",
+      "Laranja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magic:_The_Gathering"
+    ]
+  },
+  {
+    "id": "q08382",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "risk",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No Risk, jogo que inspirou o War, as cartas de território mostram três tipos de tropa: infantaria, cavalaria e qual outro?",
+    "resposta": "Artilharia",
+    "distratores": [
+      "Marinha",
+      "Aviação",
+      "Engenharia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Risk_(game)"
+    ]
+  },
+  {
+    "id": "q08383",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "tangram",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O tangram tem sete peças: cinco triângulos, um quadrado e qual outra figura geométrica?",
+    "resposta": "Paralelogramo",
+    "distratores": [
+      "Trapézio",
+      "Losango",
+      "Retângulo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tangram",
+      "https://en.wikipedia.org/wiki/Tangram"
+    ]
+  },
+  {
+    "id": "q08384",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xadrez_chines",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No xadrez chinês, o que corta o tabuleiro ao meio, separando os territórios dos dois exércitos?",
+    "resposta": "Um rio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xiangqi"
+    ]
+  },
+  {
+    "id": "q08385",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "bingo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na cartela do bingo americano, com cinco colunas e cinco linhas, o que ocupa a casa bem do centro?",
+    "resposta": "Um espaço livre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bingo_(American_version)"
+    ]
+  },
+  {
+    "id": "q08386",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "banco_imobiliario",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Banco Imobiliário, ao cair em certas casas, o jogador tira uma carta que pode trazer prêmio ou castigo. Como essas cartas são chamadas?",
+    "resposta": "Sorte ou Revés",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Banco_Imobili%C3%A1rio"
+    ]
+  },
+  {
+    "id": "q08387",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "amarelinha",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na amarelinha, brincadeira de pular casas riscadas no chão, como se chama a casa do topo, aonde se chega no fim do percurso?",
+    "resposta": "Céu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Amarelinha"
+    ]
+  },
+  {
+    "id": "q08388",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "jogo_da_onca",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No jogo da onça, de origem indígena, um jogador move a onça. O que representam as catorze peças do adversário?",
+    "resposta": "Cachorros",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jogo_da_on%C3%A7a"
+    ]
+  },
+  {
+    "id": "q08389",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "blackjack",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No blackjack, o vinte e um dos cassinos, qual carta pode valer um ou onze pontos, conforme for melhor para a mão?",
+    "resposta": "Ás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blackjack"
+    ]
+  },
+  {
+    "id": "q08390",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "damas_brasileiras",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nas damas como se jogam no Brasil, quando há mais de um jeito de capturar, qual jogada o jogador é obrigado a escolher?",
+    "resposta": "A que captura mais peças",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_draughts",
+      "https://pt.wikipedia.org/wiki/Damas"
+    ]
+  },
+  {
+    "id": "q08391",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "gamao",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Além dos dados comuns, o gamão usa um cubo marcado com os números de dois a sessenta e quatro. Para que ele serve?",
+    "resposta": "Para dobrar a aposta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Doubling_cube",
+      "https://en.wikipedia.org/wiki/Backgammon"
+    ]
+  },
+  {
+    "id": "q08392",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "canastra",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na canastra, além dos curingas, qual carta numerada do baralho também pode substituir qualquer outra?",
+    "resposta": "O dois",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baralho",
+      "https://en.wikipedia.org/wiki/Canasta"
+    ]
+  },
+  {
+    "id": "q08393",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "combate_jogo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No jogo Combate, o espião é a peça mais fraca, mas pode derrotar qual peça, a de patente mais alta, quando é ele quem ataca?",
+    "resposta": "O marechal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stratego"
+    ]
+  },
+  {
+    "id": "q08394",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "dama_xadrez",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No xadrez, vale a regra dama na cor: a dama branca começa numa casa clara. Em que cor de casa começa a dama preta?",
+    "resposta": "Escura",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dama_(xadrez)"
+    ]
+  },
+  {
+    "id": "q08395",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "pipa",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Nos estados do Sul do Brasil, sobretudo no Rio Grande do Sul, a pipa costuma ser chamada por qual outro nome?",
+    "resposta": "Pandorga",
+    "distratores": [
+      "Cafifa",
+      "Papagaio",
+      "Pepeta"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pipa_(brinquedo)"
+    ]
+  },
+  {
+    "id": "q08396",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "valete_carta_de_baralho",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O valete do baralho tem nome de origem francesa. O que significa a palavra valet nessa língua?",
+    "resposta": "Criado",
+    "distratores": [
+      "Cavaleiro",
+      "Bobo",
+      "Soldado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jack_(playing_card)"
+    ]
+  },
+  {
+    "id": "q08397",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "peao_xadrez",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da peça peão, do xadrez, vem de uma palavra latina para o soldado que ia à batalha de que modo?",
+    "resposta": "A pé",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pe%C3%A3o_(xadrez)"
+    ]
+  },
+  {
+    "id": "q08398",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "mahjong",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em alguns dialetos chineses, o nome do mahjong, jogo de peças ilustradas, é o mesmo de qual pássaro?",
+    "resposta": "Pardal",
+    "distratores": [
+      "Grou",
+      "Pavão",
+      "Garça"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mahjong"
+    ]
+  },
+  {
+    "id": "q08399",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "canastra",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome original da canastra, canasta, é uma palavra espanhola. Que objeto ela designa?",
+    "resposta": "Cesto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Canasta"
+    ]
+  },
+  {
+    "id": "q08400",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "rainha_de_copas_alice",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em Alice no País das Maravilhas, a rainha que manda cortar cabeças tem soldados e jardineiros que, na verdade, são o quê?",
+    "resposta": "Cartas de baralho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Queen_of_Hearts_(Alice%27s_Adventures_in_Wonderland)"
+    ]
+  },
+  {
+    "id": "q08401",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "pecas_de_xadrez_de_lewis",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As peças de xadrez de Lewis, esculpidas no século doze, serviram de modelo para o xadrez gigante de qual filme de 2001?",
+    "resposta": "Harry Potter e a Pedra Filosofal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lewis_chessmen"
+    ]
+  },
+  {
+    "id": "q08402",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "battleship_a_batalha_dos_mares",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 2012, a cantora Rihanna estreou no cinema num filme de ação com alienígenas inspirado em qual jogo de tabuleiro?",
+    "resposta": "Batalha naval",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battleship_(film)"
+    ]
+  },
+  {
+    "id": "q08403",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "baralho_frances",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O baralho comum, sem os curingas, tem o mesmo número de cartas que um ano tem de quê?",
+    "resposta": "Semanas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Standard_52-card_deck"
+    ]
+  },
+  {
+    "id": "q08404",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "combate_jogo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Combate, jogo de estratégia militar com peças de patente escondida lançado pela Estrela, é a versão brasileira de qual jogo europeu?",
+    "resposta": "Stratego",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stratego"
+    ]
+  },
+  {
+    "id": "q08405",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "carta_de_baralho",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que as figuras do baralho, como reis e damas, são desenhadas espelhadas, com duas metades iguais de cabeça para baixo?",
+    "resposta": "Para ficarem certas de qualquer lado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Playing_card"
+    ]
+  },
+  {
+    "id": "q08406",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xadrez_960",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Bobby Fischer propôs sortear a posição inicial das peças, no xadrez 960, para reduzir a vantagem de quem fazia o quê?",
+    "resposta": "Decorava aberturas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chess960"
+    ]
+  },
+  {
+    "id": "q08407",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xadrez_chines",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No xadrez ocidental, as brancas começam. No xadrez chinês, de que cor são as peças que fazem o primeiro lance?",
+    "resposta": "Vermelhas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xiangqi"
+    ]
+  },
+  {
+    "id": "q08408",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "baralho_frances",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os naipes do baralho comum, com corações, espadas, trevos e losangos, surgiram na França por volta de que século?",
+    "resposta": "Século quinze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French-suited_playing_cards"
+    ]
+  },
+  {
+    "id": "q08409",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "bobby_fischer",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Bobby Fischer, campeão mundial de xadrez em 1972, recebeu cidadania no fim da vida e está enterrado em qual país?",
+    "resposta": "Islândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bobby_Fischer"
+    ]
+  },
+  {
+    "id": "q08410",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "poquer",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, o pôquer se espalhou pelos Estados Unidos a bordo de barcos a vapor que navegavam por qual rio?",
+    "resposta": "Mississippi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poker"
+    ]
+  },
+  {
+    "id": "q08411",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "jenga",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantos blocos de madeira formam uma torre de Jenga completa, pronta para começar o jogo?",
+    "resposta": "Cinquenta e quatro",
+    "distratores": [
+      "Quarenta e oito",
+      "Sessenta",
+      "Trinta e seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jenga"
+    ]
+  },
+  {
+    "id": "q08412",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "cara_a_cara",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na versão clássica do Cara a Cara, quantos personagens aparecem no tabuleiro de cada jogador?",
+    "resposta": "Vinte e quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guess_Who%3F"
+    ]
+  },
+  {
+    "id": "q08413",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "paciencia_do_windows",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na Paciência do Windows, quantas colunas de cartas são montadas na mesa no começo de cada partida?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Klondike_(solitaire)",
+      "https://en.wikipedia.org/wiki/Microsoft_Solitaire"
+    ]
+  },
+  {
+    "id": "q08414",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "turochamp",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1948, antes de existir computador capaz de rodá-lo, que matemático britânico escreveu com um colega um dos primeiros programas de xadrez?",
+    "resposta": "Alan Turing",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turochamp"
+    ]
   }
 ]
