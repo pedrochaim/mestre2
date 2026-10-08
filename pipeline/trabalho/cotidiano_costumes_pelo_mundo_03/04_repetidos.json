@@ -1,0 +1,185 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Segundo a lenda da Grande Corrida, que definiu a ordem do zodíaco chinês, qual animal chegou em primeiro, pulando das costas do boi?",
+        "resposta": "Rato"
+      },
+      "existentes": [
+        {
+          "id": "q07699",
+          "pergunta": "Na lenda da Grande Corrida, que animal chegou na frente de todos e por isso abre o ciclo do zodíaco chinês?",
+          "resposta": "Rato"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Num conjunto de matrioskas, as bonecas russas que se encaixam umas nas outras, qual delas costuma ser maciça e não se abre?",
+        "resposta": "A menor"
+      },
+      "existentes": [
+        {
+          "id": "q00828",
+          "pergunta": "A matrioska, boneca russa que guarda outras menores dentro de si, teria sido inspirada num brinquedo de qual país?",
+          "resposta": "Japão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No Hinamatsuri, as bonecas da antiga corte japonesa ficam expostas numa escada de degraus. Quem ocupa o degrau mais alto?",
+        "resposta": "O imperador e a imperatriz"
+      },
+      "existentes": [
+        {
+          "id": "q06604",
+          "pergunta": "No Japão, o Dia das Meninas, ou Hinamatsuri, é festejado com bonecas da corte expostas em degraus. Em que data?",
+          "resposta": "Três de março"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na Irlanda e na Escócia, antes de as abóboras americanas virarem moda no Halloween, as lanternas com caras assustadoras eram esculpidas em quê?",
+        "resposta": "Nabos"
+      },
+      "existentes": [
+        {
+          "id": "q00911",
+          "pergunta": "Antes de usar abóboras, irlandeses e escoceses esculpiam as lanternas de Halloween em qual vegetal?",
+          "resposta": "Nabo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na França, a torta do Dia de Reis, a galette des rois, esconde um brinde chamado fève. O que essa palavra significa?",
+        "resposta": "Fava"
+      },
+      "existentes": [
+        {
+          "id": "q06110",
+          "pergunta": "Na França, a galette des rois, torta folhada com uma pequena figura escondida na massa, é comida em qual festa do calendário cristão?",
+          "resposta": "Dia de Reis (Epifania)"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A palavra japonesa karaokê, que dá nome à diversão de cantar sobre música gravada, significa literalmente o quê?",
+        "resposta": "Orquestra vazia"
+      },
+      "existentes": [
+        {
+          "id": "q07896",
+          "pergunta": "A palavra japonesa karaokê junta kara com a palavra para orquestra. O que significa kara?",
+          "resposta": "Vazio"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os moradores de Munique chamam a Oktoberfest pelo apelido de Wiesn. Esse apelido vem de que tipo de lugar onde a festa acontece?",
+        "resposta": "Um prado, a Theresienwiese"
+      },
+      "existentes": [
+        {
+          "id": "q00811",
+          "pergunta": "A primeira Oktoberfest, em Munique, aconteceu em 1810 para celebrar qual acontecimento na família real da Baviera?",
+          "resposta": "O casamento do príncipe Luís"
+        },
+        {
+          "id": "q06114",
+          "pergunta": "Apesar do nome, a Oktoberfest de Munique, a famosa festa da cerveja, começa tradicionalmente em qual mês?",
+          "resposta": "Setembro"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Uma lenda italiana conta que a Befana recusou o convite para acompanhar certos viajantes e depois se arrependeu. Quem eram eles?",
+        "resposta": "Os Reis Magos"
+      },
+      "existentes": [
+        {
+          "id": "q00834",
+          "pergunta": "Na Itália, a velha Befana voa numa vassoura para deixar doces às crianças. Em qual noite do ano ela faz isso?",
+          "resposta": "Véspera do Dia de Reis"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A Maslenitsa, festa russa de panquecas e fogueiras, acontece na semana anterior à Quaresma. A que festa ela corresponde no calendário católico?",
+        "resposta": "Carnaval"
+      },
+      "existentes": [
+        {
+          "id": "q06627",
+          "pergunta": "Na Maslenitsa, festa russa de despedida do inverno, come-se em grande quantidade que panqueca fina, redonda como o sol?",
+          "resposta": "Blini"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o rato chegou primeiro na Grande Corrida.",
+      "id_existente": "q07699"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato sobre a boneca menor ser maciça, diferente da origem japonesa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quem ocupa o degrau mais alto difere da data da festa."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: lanternas eram esculpidas em nabos.",
+      "id_existente": "q00911"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Significado de fève difere da festa em que se come a galette."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Significado de karaokê e de kara: saber um implica o outro (orquestra vazia/vazio).",
+      "id_existente": "q07896"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Origem do apelido Wiesn é fato distinto de fundação e mês."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Lenda dos Reis Magos difere da noite em que ela entrega doces."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Equivalência com o Carnaval difere do prato típico blini."
+    }
+  ]
+}
