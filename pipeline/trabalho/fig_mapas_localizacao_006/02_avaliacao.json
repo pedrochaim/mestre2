@@ -1,0 +1,270 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro, país único e reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Kinshasa",
+      "distratores": [
+        "Brazzaville",
+        "Luanda",
+        "Lusaka"
+      ],
+      "ancora": {
+        "nome": "República Democrática do Congo",
+        "descricao": "País da África Central, antigo Zaire, cuja capital é Kinshasa.",
+        "variantes": [
+          "RD Congo",
+          "Congo-Kinshasa",
+          "Zaire"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mapa claro da Noruega, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Oslo",
+      "distratores": [
+        "Estocolmo",
+        "Helsinque",
+        "Copenhague"
+      ],
+      "ancora": {
+        "nome": "Noruega",
+        "descricao": "País nórdico no oeste da Península Escandinava, cuja capital é Oslo.",
+        "variantes": [
+          "Reino da Noruega"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "País pequeno, mas visível e localizável no Chifre da África.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estreito separa o país destacado neste mapa do Iêmen?",
+      "resposta": "Bab-el-Mandeb",
+      "distratores": [
+        "Estreito de Ormuz",
+        "Canal de Suez",
+        "Estreito de Málaca"
+      ],
+      "ancora": {
+        "nome": "Djibuti",
+        "descricao": "Pequeno país do Chifre da África, às margens do Mar Vermelho e do Golfo de Áden.",
+        "variantes": [
+          "República do Djibuti",
+          "Jibuti"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mapa claro, país reconhecível no norte da América do Sul.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Venezuela",
+      "distratores": [],
+      "ancora": {
+        "nome": "Venezuela",
+        "descricao": "País no litoral norte da América do Sul, cuja capital é Caracas.",
+        "variantes": [
+          "República Bolivariana da Venezuela"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o estado destacado, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "João Pessoa",
+      "distratores": [
+        "Natal",
+        "Recife",
+        "Maceió"
+      ],
+      "ancora": {
+        "nome": "Paraíba",
+        "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+        "variantes": [
+          "Estado da Paraíba"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Globo com país em vermelho na Ásia Central, reconhecível junto ao Mar Cáspio; múltipla escolha com vizinhos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Turcomenistão",
+      "distratores": [
+        "Uzbequistão",
+        "Cazaquistão",
+        "Afeganistão"
+      ],
+      "ancora": {
+        "nome": "Turcomenistão",
+        "descricao": "País sem litoral oceânico da Ásia Central, à margem do Mar Cáspio, com capital em Asgabate.",
+        "variantes": [
+          "Turquemenistão",
+          "Turcomênia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com estado destacado, formato inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Campinas",
+        "Santos",
+        "Rio de Janeiro"
+      ],
+      "ancora": {
+        "nome": "São Paulo (estado)",
+        "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+        "variantes": [
+          "Estado de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mapa claro do Irã, reconhecível pelo contorno.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que mar banha o norte do país destacado neste mapa?",
+      "resposta": "Mar Cáspio",
+      "distratores": [],
+      "ancora": {
+        "nome": "Irã",
+        "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+        "variantes": [
+          "Pérsia",
+          "República Islâmica do Irã"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com estado destacado, formato característico.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que estado está destacado neste mapa?",
+      "resposta": "Tocantins",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tocantins",
+        "descricao": "Estado mais novo do Brasil, criado em 1988 a partir de Goiás, com capital em Palmas.",
+        "variantes": [
+          "Estado do Tocantins"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mapa claro do Iraque no Oriente Médio.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Iraque",
+      "distratores": [
+        "Síria",
+        "Arábia Saudita",
+        "Jordânia"
+      ],
+      "ancora": {
+        "nome": "Iraque",
+        "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+        "variantes": [
+          "República do Iraque"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mapa claro, país em verde mais escuro no centro da Europa, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Qual é a capital do país destacado em verde mais escuro neste mapa?",
+      "resposta": "Praga",
+      "distratores": [],
+      "ancora": {
+        "nome": "República Tcheca",
+        "descricao": "País sem litoral da Europa Central, antiga Boêmia, com capital em Praga.",
+        "variantes": [
+          "Tchéquia",
+          "Chéquia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "País estreito, mas visível e reconhecível na posição ao norte da Índia.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Nepal",
+      "distratores": [
+        "Butão",
+        "Bangladesh",
+        "Sri Lanka"
+      ],
+      "ancora": {
+        "nome": "Nepal",
+        "descricao": "País do Himalaia, no sul da Ásia, entre a Índia e o Tibete, com capital em Katmandu.",
+        "variantes": [
+          "República Democrática Federal do Nepal"
+        ]
+      }
+    }
+  ]
+}

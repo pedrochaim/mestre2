@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mar banha o norte do país destacado neste mapa?",
+        "resposta": "Mar Cáspio"
+      },
+      "existentes": [
+        {
+          "id": "q05281",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Irã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estado está destacado neste mapa?",
+        "resposta": "Tocantins"
+      },
+      "existentes": [
+        {
+          "id": "q02425",
+          "pergunta": "O Tocantins, criado pela Constituição de 1988, foi desmembrado do norte de qual estado?",
+          "resposta": "Goiás"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Nepal"
+      },
+      "existentes": [
+        {
+          "id": "q00655",
+          "pergunta": "Em que cordilheira fica a maior parte do país desta bandeira?",
+          "resposta": "Himalaia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Mar que banha o norte do Irã é fato diferente de identificar o país pela bandeira."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o estado no mapa difere de saber de qual estado foi desmembrado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o Nepal no mapa é diferente de saber a cordilheira onde fica."
+    }
+  ]
+}

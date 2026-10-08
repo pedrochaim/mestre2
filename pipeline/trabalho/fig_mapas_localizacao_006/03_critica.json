@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kinshasa é a capital, confirmada nos trechos. Distratores plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oslo é a capital, confirmada nos trechos. Sem vazamento, distratores nórdicos corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Bab-el-Mandeb separa o Djibuti do Iêmen. Os trechos situam o país no estreito e dão fronteira marítima com o Iêmen. Distratores são estreitos ou canais que não o separam.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "João Pessoa é a capital da Paraíba. Distratores são capitais vizinhas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de país; distratores são vizinhos da Ásia Central, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A capital é São Paulo. O enunciado não nomeia o estado, e os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Mar Cáspio banha o norte do Irã, como dizem os trechos. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do estado, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de país com distratores vizinhos corretos como tipo e errados como resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A cor 'verde mais escuro' não consta em `mostra` e não dá para verificá-la na imagem. Basta remover o detalhe de cor. Praga é a capital, segundo os trechos.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Praga"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de país asiático; distratores do sul da Ásia, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}
