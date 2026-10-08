@@ -1,0 +1,131 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre os países que têm o português como língua oficial, qual é o menor em área?",
+        "resposta": "São Tomé e Príncipe"
+      },
+      "existentes": [
+        {
+          "id": "q05279",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "São Tomé e Príncipe"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Entre todos os países que têm o português como língua oficial, qual fica mais a leste no globo?",
+        "resposta": "Timor-Leste"
+      },
+      "existentes": [
+        {
+          "id": "q00794",
+          "pergunta": "Além do português, qual é a outra língua oficial do Timor-Leste?",
+          "resposta": "Tétum"
+        },
+        {
+          "id": "q04007",
+          "pergunta": "Depois de séculos sob Portugal e anos de ocupação indonésia, o Timor-Leste teve sua independência reconhecida em que ano?",
+          "resposta": "2002"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que letra do português nunca começa uma palavra e nunca aparece antes de e ou i?",
+        "resposta": "Cê-cedilha"
+      },
+      "existentes": [
+        {
+          "id": "q00758",
+          "pergunta": "O nome cedilha vem do espanhol antigo e significa pequena versão de qual letra?",
+          "resposta": "Z"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Assim como o inglês é a língua de Shakespeare, o português é apelidado de língua de qual poeta do século dezesseis?",
+        "resposta": "Luís de Camões"
+      },
+      "existentes": [
+        {
+          "id": "q00795",
+          "pergunta": "Qual é a língua materna mais falada do Hemisfério Sul?",
+          "resposta": "Português"
+        },
+        {
+          "id": "q04767",
+          "pergunta": "No fim do século treze, que rei poeta, também chamado de Lavrador, adotou o português como língua dos documentos oficiais de Portugal?",
+          "resposta": "Dom Dinis"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A palavra ônibus vem do latim omnibus. O que ela significa?",
+        "resposta": "Para todos"
+      },
+      "existentes": [
+        {
+          "id": "q00975",
+          "pergunta": "A palavra ônibus vem do latim omnibus. O que ela quer dizer?",
+          "resposta": "Para todos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Segundo a tradição que deu nome ao pomo de Adão, o que teria ficado entalado na garganta de Adão?",
+        "resposta": "Pedaço do fruto proibido"
+      },
+      "existentes": [
+        {
+          "id": "q06306",
+          "pergunta": "A saliência no pescoço chamada pomo de adão fica em qual órgão, o mesmo que abriga as cordas vocais?",
+          "resposta": "Laringe"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Menor país lusófono em área vs. bandeira; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Localização mais a leste difere de língua oficial e independência."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Regras de uso do ç diferem da etimologia do nome cedilha."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Apelido de língua de Camões é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre significado de omnibus.",
+      "id_existente": "q00975"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Origem da lenda do pomo de Adão difere da localização anatômica."
+    }
+  ]
+}

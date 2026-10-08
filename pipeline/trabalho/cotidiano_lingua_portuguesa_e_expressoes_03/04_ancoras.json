@@ -1,0 +1,1204 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "São Tomé e Príncipe",
+        "descricao": "País insular do Golfo da Guiné, antiga colônia portuguesa",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/São_Tomé_e_Príncipe"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre os países que têm o português como língua oficial, qual é o menor em área?",
+      "resposta": "São Tomé e Príncipe",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/São_Tomé_e_Príncipe",
+        "https://pt.wikipedia.org/wiki/Cabo_Verde"
+      ],
+      "distratores": [
+        "Cabo Verde",
+        "Timor-Leste",
+        "Guiné-Bissau"
+      ],
+      "ancora": "sao_tome_e_principe"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "timor_leste",
+        "nome": "Timor-Leste",
+        "descricao": "País do Sudeste Asiático, antiga colônia portuguesa, independente desde 2002",
+        "variantes": [
+          "Timor Leste"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Timor-Leste"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre todos os países que têm o português como língua oficial, qual fica mais a leste no globo?",
+      "resposta": "Timor-Leste",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Timor-Leste"
+      ],
+      "ancora": "timor_leste"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Língua espanhola",
+        "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+        "variantes": [
+          "Espanhol",
+          "Castelhano"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Língua_espanhola"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre as línguas que nasceram do latim, qual tem mais falantes nativos no mundo?",
+      "resposta": "Espanhol",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Línguas_românicas",
+        "https://pt.wikipedia.org/wiki/Língua_espanhola"
+      ],
+      "ancora": "lingua_espanhola"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Fidalgo",
+        "descricao": "Título da pequena nobreza portuguesa, dado a quem era nobre de nascimento",
+        "variantes": [
+          "Fidalguia"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Fidalgo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A palavra fidalgo, para um nobre de nascimento, surgiu da contração de qual expressão de três palavras?",
+      "resposta": "Filho de algo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fidalgo"
+      ],
+      "ancora": "fidalgo"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Embora",
+        "descricao": "Advérbio e conjunção do português, usado em expressões como ir embora",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wiktionary.org/wiki/embora"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Quem diz vou-me embora usa uma palavra que é a contração de qual antiga expressão de votos de boa sorte?",
+      "resposta": "Em boa hora",
+      "fonte": [
+        "https://pt.wiktionary.org/wiki/embora"
+      ],
+      "ancora": "embora"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Alfabeto",
+        "descricao": "Conjunto ordenado das letras usadas para escrever uma língua",
+        "variantes": [
+          "Abecedário"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Alfabeto"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A palavra alfabeto junta os nomes das duas primeiras letras de qual alfabeto antigo?",
+      "resposta": "Grego",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Alfabeto"
+      ],
+      "ancora": "alfabeto"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Tupinismos",
+        "descricao": "Palavras do português herdadas da língua tupi, sobretudo no Brasil",
+        "variantes": [
+          "Palavras de origem tupi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Língua_tupi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Qual destas palavras do português brasileiro vem do tupi?",
+      "resposta": "Pipoca",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pipoca",
+        "https://pt.wikipedia.org/wiki/Língua_tupi"
+      ],
+      "distratores": [
+        "Moleque",
+        "Alface",
+        "Garçom"
+      ],
+      "ancora": "tupinismos"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "E comercial",
+        "descricao": "Símbolo tipográfico que representa a conjunção e, muito usado em nomes de empresas",
+        "variantes": [
+          "Ampersand"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/E_comercial"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O símbolo chamado e comercial, usado em nomes de empresas, surgiu da fusão de quais duas letras da palavra latina para e?",
+      "resposta": "E e T",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/E_comercial",
+        "https://en.wikipedia.org/wiki/Ampersand"
+      ],
+      "ancora": "e_comercial"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Sobrenomes patronímicos portugueses",
+        "descricao": "Sobrenomes formados a partir do nome do pai, como Fernandes, Rodrigues e Gonçalves",
+        "variantes": [
+          "Patronímico"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Patronímico"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em sobrenomes como Fernandes, Rodrigues e Gonçalves, o que a terminação es indicava originalmente?",
+      "resposta": "Filho de",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Patronímico"
+      ],
+      "ancora": "sobrenomes_patronimicos_portugueses"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Topônimos de origem tupi",
+        "descricao": "Nomes de lugares do Brasil formados com palavras da língua tupi",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Língua_tupi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em nomes de origem tupi como Itaipu, Itaquera e Itatiaia, o que significa o pedaço ita?",
+      "resposta": "Pedra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Usina_Hidrelétrica_de_Itaipu",
+        "https://pt.wikipedia.org/wiki/Itatiaia"
+      ],
+      "ancora": "toponimos_de_origem_tupi"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Dias da semana em português",
+        "descricao": "Os nomes dos dias da semana na língua portuguesa, numerados como feiras em vez de dedicados a deuses",
+        "variantes": [
+          "Feiras"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Além do domingo, qual dia da semana em português não leva a palavra feira no nome?",
+      "resposta": "Sábado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+      ],
+      "ancora": "dias_da_semana_em_portugues"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Dias da semana em português",
+        "descricao": "Os nomes dos dias da semana na língua portuguesa, numerados como feiras em vez de dedicados a deuses",
+        "variantes": [
+          "Feiras"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em vez de homenagear deuses pagãos, os dias da semana em português são numerados. Que bispo de Braga, do século seis, é associado a essa mudança?",
+      "resposta": "São Martinho de Dume",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week",
+        "https://pt.wikipedia.org/wiki/Martinho_de_Dume"
+      ],
+      "ancora": "dias_da_semana_em_portugues"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Cidadão (palavra)",
+        "descricao": "Substantivo do português terminado em ão, de plural frequentemente errado",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wiktionary.org/wiki/cidadão"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Pão vira pães e alemão vira alemães. E qual é o plural correto de cidadão?",
+      "resposta": "Cidadãos",
+      "fonte": [
+        "https://pt.wiktionary.org/wiki/cidadão"
+      ],
+      "ancora": "cidadao_palavra"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Dialeto mineiro",
+        "descricao": "Falar típico de Minas Gerais, conhecido popularmente como mineirês",
+        "variantes": [
+          "Mineirês"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dialeto_mineiro"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No falar de Minas Gerais, a palavra trem não se refere só ao transporte. O que ela costuma designar?",
+      "resposta": "Qualquer coisa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dialeto_mineiro"
+      ],
+      "ancora": "dialeto_mineiro"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Til",
+        "descricao": "Sinal gráfico ondulado usado sobre as vogais a e o no português",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Til"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em palavras como mãe, pão e limões, que característica do som da vogal o til indica?",
+      "resposta": "Nasalização",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Til"
+      ],
+      "ancora": "til"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Palíndromo",
+        "descricao": "Palavra ou frase que se lê igual de trás para frente",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Palíndromo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Como se chama a frase que pode ser lida igualmente de trás para frente, como socorram-me, subi no ônibus em Marrocos?",
+      "resposta": "Palíndromo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Palíndromo"
+      ],
+      "ancora": "palindromo"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "cedilha",
+        "nome": "Cedilha",
+        "descricao": "Sinal gráfico colocado sob a letra c, formando o ç",
+        "variantes": [
+          "Ç"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cedilha"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que letra do português nunca começa uma palavra e nunca aparece antes de e ou i?",
+      "resposta": "Cê-cedilha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cedilha"
+      ],
+      "ancora": "cedilha"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "lingua_portuguesa",
+        "nome": "Língua portuguesa",
+        "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+        "variantes": [
+          "Português"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Língua_portuguesa"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Assim como o inglês é a língua de Shakespeare, o português é apelidado de língua de qual poeta do século dezesseis?",
+      "resposta": "Luís de Camões",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Língua_portuguesa"
+      ],
+      "ancora": "lingua_portuguesa"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Guri",
+        "descricao": "Palavra usada sobretudo no Rio Grande do Sul para criança do sexo masculino",
+        "variantes": [
+          "Guria"
+        ],
+        "fontes": [
+          "https://pt.wiktionary.org/wiki/guri"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No falar gaúcho, quem é chamado de guri?",
+      "resposta": "Menino",
+      "fonte": [
+        "https://pt.wiktionary.org/wiki/guri"
+      ],
+      "ancora": "guri"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Sanduíche",
+        "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+        "variantes": [
+          "Sanduba",
+          "Sandes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sanduíche"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a história mais conhecida, o conde de Sandwich pedia carne entre fatias de pão para não interromper qual atividade?",
+      "resposta": "Jogo de cartas",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sanduíche"
+      ],
+      "ancora": "sanduiche"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Bancarrota",
+        "descricao": "Palavra do português para falência, vinda do italiano banca rotta",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bankruptcy"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra bancarrota, sinônimo de falência, vem do italiano. O que ela significava ao pé da letra?",
+      "resposta": "Banco quebrado",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fal%C3%AAncia"
+      ],
+      "ancora": "bancarrota"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Candidato",
+        "descricao": "Quem disputa um cargo ou vaga, palavra vinda do latim candidatus",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toga"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Roma antiga, quem disputava um cargo vestia uma toga de que cor, dando origem à palavra candidato?",
+      "resposta": "Branca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toga"
+      ],
+      "ancora": "candidato"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Fiasco",
+        "descricao": "Palavra para um fracasso vexaminoso, vinda do italiano",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fiasco_(bottle)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra fiasco, usada para um fracasso vergonhoso, vem do italiano. Qual era o sentido original de fiasco nessa língua?",
+      "resposta": "Garrafa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fiasco_(bottle)"
+      ],
+      "distratores": [
+        "Fogueira",
+        "Tropeço",
+        "Mentira"
+      ],
+      "ancora": "fiasco"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Cafona",
+        "descricao": "Adjetivo brasileiro para algo de mau gosto ou brega, vindo do italiano cafone",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wiktionary.org/wiki/cafona"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra cafona, para algo de mau gosto, vem do italiano cafone. Quem era chamado assim na Itália?",
+      "resposta": "Camponês",
+      "fonte": [
+        "https://pt.wiktionary.org/wiki/cafona"
+      ],
+      "distratores": [
+        "Marinheiro",
+        "Mendigo",
+        "Palhaço"
+      ],
+      "ancora": "cafona"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Dígrafos lh e nh",
+        "descricao": "Pares de letras usados no português para os sons de palha e banho",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Portuguese_orthography"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Os dígrafos lh e nh, de palavras como palha e banho, foram copiados na Idade Média da escrita de qual língua?",
+      "resposta": "Occitano (provençal)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Portuguese_orthography"
+      ],
+      "distratores": [
+        "Catalão",
+        "Italiano",
+        "Castelhano"
+      ],
+      "ancora": "digrafos_lh_e_nh"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Galicismos",
+        "descricao": "Palavras e expressões do português tomadas do francês",
+        "variantes": [
+          "Francesismos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Galicismo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Abajur, garçom e chofer são adaptações de palavras de qual língua estrangeira?",
+      "resposta": "Francês",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Galicismo"
+      ],
+      "ancora": "galicismos"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Língua guarani",
+        "descricao": "Língua indígena da família tupi-guarani, oficial no Paraguai ao lado do espanhol",
+        "variantes": [
+          "Guarani"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Língua_guarani"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O tupi, que deu tantas palavras ao português do Brasil, é parente próximo de qual língua oficial do Paraguai?",
+      "resposta": "Guarani",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Língua_guarani"
+      ],
+      "ancora": "lingua_guarani"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Latim vulgar",
+        "descricao": "Latim falado pelo povo e pelos soldados do Império Romano, origem das línguas românicas",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Latim_vulgar"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O português não nasceu do latim literário de Cícero, mas de qual variedade do latim, falada pelo povo?",
+      "resposta": "Latim vulgar",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Latim_vulgar"
+      ],
+      "ancora": "latim_vulgar"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Português uruguaio",
+        "descricao": "Conjunto de dialetos de base portuguesa falados no norte do Uruguai, junto à fronteira com o Brasil",
+        "variantes": [
+          "Portunhol riverense",
+          "Dialetos portugueses do Uruguai"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uruguayan_Portuguese"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que país vizinho do Rio Grande do Sul se fala um dialeto de base portuguesa conhecido como portunhol riverense?",
+      "resposta": "Uruguai",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uruguayan_Portuguese"
+      ],
+      "ancora": "portugues_uruguaio"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Canja",
+        "descricao": "Caldo de arroz com galinha, cujo nome chegou ao português vindo da Ásia",
+        "variantes": [
+          "Canja de galinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Canja_de_galinha"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A canja, o caldo de galinha com arroz, tem nome vindo de uma palavra que os portugueses aprenderam em qual país asiático?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Canja_de_galinha",
+        "https://en.wikipedia.org/wiki/Congee"
+      ],
+      "ancora": "canja"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Talian",
+        "descricao": "Língua de base vêneta falada por descendentes de imigrantes italianos no Sul do Brasil",
+        "variantes": [
+          "Vêneto brasileiro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Talian"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O talian, língua trazida por imigrantes do norte da Itália, é falado sobretudo na serra de qual estado brasileiro?",
+      "resposta": "Rio Grande do Sul",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Talian"
+      ],
+      "ancora": "talian"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Setembro",
+        "descricao": "Nono mês do calendário gregoriano, cujo nome vem do latim septem",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Setembro"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Setembro vem do latim septem, que significa sete, mas é o nono mês do ano. Por que essa diferença?",
+      "resposta": "O ano romano começava em março",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Setembro"
+      ],
+      "ancora": "setembro"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Pomo de Adão",
+        "descricao": "Nome popular da saliência da cartilagem tireoide no pescoço",
+        "variantes": [
+          "Gogó"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adam%27s_apple"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição que deu nome ao pomo de Adão, o que teria ficado entalado na garganta de Adão?",
+      "resposta": "Pedaço do fruto proibido",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pomo_de_ad%C3%A3o"
+      ],
+      "ancora": "pomo_de_adao"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Testamento de Afonso II",
+        "descricao": "Testamento do rei Afonso II de Portugal, um dos mais antigos documentos escritos em português",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Afonso_II_de_Portugal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O testamento do rei Afonso II, um dos documentos mais antigos escritos em português, é de qual século?",
+      "resposta": "Século treze",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Afonso_II_de_Portugal"
+      ],
+      "ancora": "testamento_de_afonso_ii"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Hispânia",
+        "descricao": "Nome romano da Península Ibérica, onde o latim chegou com a conquista romana",
+        "variantes": [
+          "Hispania"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Hispânia"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Os romanos, que levaram o latim à Península Ibérica, desembarcaram ali durante a guerra contra Cartago. Em que século antes de Cristo?",
+      "resposta": "Século terceiro antes de Cristo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Hispânia"
+      ],
+      "ancora": "hispania"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Gramática da Linguagem Portuguesa",
+        "descricao": "Primeira gramática da língua portuguesa, publicada em 1536 por Fernão de Oliveira",
+        "variantes": [
+          "Grammatica da lingoagem portuguesa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Fernão_de_Oliveira"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Publicada em 1536, a primeira gramática da língua portuguesa foi escrita por qual frade e construtor naval?",
+      "resposta": "Fernão de Oliveira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Fernão_de_Oliveira"
+      ],
+      "distratores": [
+        "João de Barros",
+        "Duarte Nunes de Leão",
+        "Pero de Magalhães Gândavo"
+      ],
+      "ancora": "gramatica_da_linguagem_portuguesa"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Soneto",
+        "descricao": "Forma poética fixa usada por Camões, Bocage e Bilac",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Soneto"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Língua Portuguesa e Expressões",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O soneto, forma poética consagrada por Camões e Bilac, tem quantos versos?",
+      "resposta": "Catorze",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Soneto"
+      ],
+      "ancora": "soneto"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "lingua_espanhola",
+      "nome": "Língua espanhola",
+      "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+      "variantes": [
+        "Espanhol",
+        "Castelhano"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Língua_espanhola"
+      ]
+    },
+    {
+      "id": "fidalgo",
+      "nome": "Fidalgo",
+      "descricao": "Título da pequena nobreza portuguesa, dado a quem era nobre de nascimento",
+      "variantes": [
+        "Fidalguia"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Fidalgo"
+      ]
+    },
+    {
+      "id": "embora",
+      "nome": "Embora",
+      "descricao": "Advérbio e conjunção do português, usado em expressões como ir embora",
+      "fontes": [
+        "https://pt.wiktionary.org/wiki/embora"
+      ]
+    },
+    {
+      "id": "alfabeto",
+      "nome": "Alfabeto",
+      "descricao": "Conjunto ordenado das letras usadas para escrever uma língua",
+      "variantes": [
+        "Abecedário"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Alfabeto"
+      ]
+    },
+    {
+      "id": "tupinismos",
+      "nome": "Tupinismos",
+      "descricao": "Palavras do português herdadas da língua tupi, sobretudo no Brasil",
+      "variantes": [
+        "Palavras de origem tupi"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Língua_tupi"
+      ]
+    },
+    {
+      "id": "e_comercial",
+      "nome": "E comercial",
+      "descricao": "Símbolo tipográfico que representa a conjunção e, muito usado em nomes de empresas",
+      "variantes": [
+        "Ampersand"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/E_comercial"
+      ]
+    },
+    {
+      "id": "sobrenomes_patronimicos_portugueses",
+      "nome": "Sobrenomes patronímicos portugueses",
+      "descricao": "Sobrenomes formados a partir do nome do pai, como Fernandes, Rodrigues e Gonçalves",
+      "variantes": [
+        "Patronímico"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Patronímico"
+      ]
+    },
+    {
+      "id": "toponimos_de_origem_tupi",
+      "nome": "Topônimos de origem tupi",
+      "descricao": "Nomes de lugares do Brasil formados com palavras da língua tupi",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Língua_tupi"
+      ]
+    },
+    {
+      "id": "dias_da_semana_em_portugues",
+      "nome": "Dias da semana em português",
+      "descricao": "Os nomes dos dias da semana na língua portuguesa, numerados como feiras em vez de dedicados a deuses",
+      "variantes": [
+        "Feiras"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Names_of_the_days_of_the_week"
+      ]
+    },
+    {
+      "id": "cidadao_palavra",
+      "nome": "Cidadão (palavra)",
+      "descricao": "Substantivo do português terminado em ão, de plural frequentemente errado",
+      "fontes": [
+        "https://pt.wiktionary.org/wiki/cidadão"
+      ]
+    },
+    {
+      "id": "dialeto_mineiro",
+      "nome": "Dialeto mineiro",
+      "descricao": "Falar típico de Minas Gerais, conhecido popularmente como mineirês",
+      "variantes": [
+        "Mineirês"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Dialeto_mineiro"
+      ]
+    },
+    {
+      "id": "til",
+      "nome": "Til",
+      "descricao": "Sinal gráfico ondulado usado sobre as vogais a e o no português",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Til"
+      ]
+    },
+    {
+      "id": "palindromo",
+      "nome": "Palíndromo",
+      "descricao": "Palavra ou frase que se lê igual de trás para frente",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Palíndromo"
+      ]
+    },
+    {
+      "id": "guri",
+      "nome": "Guri",
+      "descricao": "Palavra usada sobretudo no Rio Grande do Sul para criança do sexo masculino",
+      "variantes": [
+        "Guria"
+      ],
+      "fontes": [
+        "https://pt.wiktionary.org/wiki/guri"
+      ]
+    },
+    {
+      "id": "sanduiche",
+      "nome": "Sanduíche",
+      "descricao": "Alimento feito com recheio entre duas fatias de pão, nome tirado de um título nobre inglês",
+      "variantes": [
+        "Sanduba",
+        "Sandes"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Sanduíche"
+      ]
+    },
+    {
+      "id": "bancarrota",
+      "nome": "Bancarrota",
+      "descricao": "Palavra do português para falência, vinda do italiano banca rotta",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bankruptcy"
+      ]
+    },
+    {
+      "id": "candidato",
+      "nome": "Candidato",
+      "descricao": "Quem disputa um cargo ou vaga, palavra vinda do latim candidatus",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Toga"
+      ]
+    },
+    {
+      "id": "fiasco",
+      "nome": "Fiasco",
+      "descricao": "Palavra para um fracasso vexaminoso, vinda do italiano",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fiasco_(bottle)"
+      ]
+    },
+    {
+      "id": "cafona",
+      "nome": "Cafona",
+      "descricao": "Adjetivo brasileiro para algo de mau gosto ou brega, vindo do italiano cafone",
+      "fontes": [
+        "https://pt.wiktionary.org/wiki/cafona"
+      ]
+    },
+    {
+      "id": "digrafos_lh_e_nh",
+      "nome": "Dígrafos lh e nh",
+      "descricao": "Pares de letras usados no português para os sons de palha e banho",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Portuguese_orthography"
+      ]
+    },
+    {
+      "id": "galicismos",
+      "nome": "Galicismos",
+      "descricao": "Palavras e expressões do português tomadas do francês",
+      "variantes": [
+        "Francesismos"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Galicismo"
+      ]
+    },
+    {
+      "id": "lingua_guarani",
+      "nome": "Língua guarani",
+      "descricao": "Língua indígena da família tupi-guarani, oficial no Paraguai ao lado do espanhol",
+      "variantes": [
+        "Guarani"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Língua_guarani"
+      ]
+    },
+    {
+      "id": "latim_vulgar",
+      "nome": "Latim vulgar",
+      "descricao": "Latim falado pelo povo e pelos soldados do Império Romano, origem das línguas românicas",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Latim_vulgar"
+      ]
+    },
+    {
+      "id": "portugues_uruguaio",
+      "nome": "Português uruguaio",
+      "descricao": "Conjunto de dialetos de base portuguesa falados no norte do Uruguai, junto à fronteira com o Brasil",
+      "variantes": [
+        "Portunhol riverense",
+        "Dialetos portugueses do Uruguai"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Uruguayan_Portuguese"
+      ]
+    },
+    {
+      "id": "canja",
+      "nome": "Canja",
+      "descricao": "Caldo de arroz com galinha, cujo nome chegou ao português vindo da Ásia",
+      "variantes": [
+        "Canja de galinha"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Canja_de_galinha"
+      ]
+    },
+    {
+      "id": "talian",
+      "nome": "Talian",
+      "descricao": "Língua de base vêneta falada por descendentes de imigrantes italianos no Sul do Brasil",
+      "variantes": [
+        "Vêneto brasileiro"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Talian"
+      ]
+    },
+    {
+      "id": "setembro",
+      "nome": "Setembro",
+      "descricao": "Nono mês do calendário gregoriano, cujo nome vem do latim septem",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Setembro"
+      ]
+    },
+    {
+      "id": "testamento_de_afonso_ii",
+      "nome": "Testamento de Afonso II",
+      "descricao": "Testamento do rei Afonso II de Portugal, um dos mais antigos documentos escritos em português",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Afonso_II_de_Portugal"
+      ]
+    },
+    {
+      "id": "hispania",
+      "nome": "Hispânia",
+      "descricao": "Nome romano da Península Ibérica, onde o latim chegou com a conquista romana",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Hispânia"
+      ]
+    },
+    {
+      "id": "gramatica_da_linguagem_portuguesa",
+      "nome": "Gramática da Linguagem Portuguesa",
+      "descricao": "Primeira gramática da língua portuguesa, publicada em 1536 por Fernão de Oliveira",
+      "variantes": [
+        "Grammatica da lingoagem portuguesa"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Fernão_de_Oliveira"
+      ]
+    },
+    {
+      "id": "soneto",
+      "nome": "Soneto",
+      "descricao": "Forma poética fixa usada por Camões, Bocage e Bilac",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Soneto"
+      ]
+    }
+  ],
+  "variantes": {
+    "timor_leste": [
+      "Timor-Leste",
+      "Timor Leste"
+    ],
+    "cedilha": [
+      "Cedilha",
+      "Ç"
+    ],
+    "lingua_portuguesa": [
+      "Língua portuguesa",
+      "Português"
+    ],
+    "acordo_ortografico_de_1990": [
+      "Acordo Ortográfico de 1990"
+    ],
+    "angola": [
+      "Angola",
+      "República de Angola"
+    ],
+    "sao_tome_e_principe": [
+      "São Tomé e Príncipe"
+    ],
+    "cabo_verde": [
+      "Cabo Verde"
+    ],
+    "onibus": [
+      "Ônibus",
+      "Autocarro"
+    ],
+    "pomo_de_adao": [
+      "Pomo de Adão",
+      "Gogó"
+    ]
+  }
+}
