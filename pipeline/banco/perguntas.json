@@ -147412,5 +147412,190 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Mesoamerican_ballgame"
     ]
+  },
+  {
+    "id": "q08630",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sol",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em que classe se enquadra esta estrela, segundo o seu tamanho e a sua cor?",
+    "resposta": "Anã amarela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Star",
+      "https://pt.wikipedia.org/wiki/Estrela"
+    ],
+    "imagem": {
+      "arquivo": "q08630.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA's_Solar_Dynamics_Observatory_-_20100819.jpg",
+      "autor": "NASA/SDO (AIA)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08631",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "starship",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que empresa desenvolve este foguete?",
+    "resposta": "SpaceX",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SpaceX_Starship",
+      "https://pt.wikipedia.org/wiki/SpaceX_Starship"
+    ],
+    "imagem": {
+      "arquivo": "q08631.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Starship_full_stack.jpg",
+      "autor": "Hotel Pika",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q08632",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sojourner",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que veículo explorador de Marte é este?",
+    "resposta": "Sojourner",
+    "distratores": [
+      "Spirit",
+      "Opportunity",
+      "Curiosity"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sojourner_%28rover%29",
+      "https://pt.wikipedia.org/wiki/Sojourner"
+    ],
+    "imagem": {
+      "arquivo": "q08632.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sojourner_on_Mars_PIA01122.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08633",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "desastre_do_onibus_espacial_challenger",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ônibus espacial foi perdido no acidente registrado nesta foto?",
+    "resposta": "Challenger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster",
+      "https://pt.wikipedia.org/wiki/Acidente_do_%C3%B4nibus_espacial_Challenger"
+    ],
+    "imagem": {
+      "arquivo": "q08633.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Challenger_explosion.jpg",
+      "autor": "Kennedy Space Center",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08634",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "edwin_hubble",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que telescópio espacial leva o nome do astrônomo retratado nesta foto?",
+    "resposta": "Telescópio Espacial Hubble",
+    "distratores": [
+      "Spitzer",
+      "Kepler",
+      "Chandra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edwin_Hubble",
+      "https://pt.wikipedia.org/wiki/Edwin_Powell_Hubble"
+    ],
+    "imagem": {
+      "arquivo": "q08634.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG",
+      "autor": "Johan Hagemeyer",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08635",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "japeto",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em torno de que planeta orbita esta lua, de dois tons bem distintos?",
+    "resposta": "Saturno",
+    "distratores": [
+      "Júpiter",
+      "Urano",
+      "Netuno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iapetus_%28moon%29",
+      "https://pt.wikipedia.org/wiki/J%C3%A1peto_%28sat%C3%A9lite%29"
+    ],
+    "imagem": {
+      "arquivo": "q08635.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Iapetus_as_seen_by_the_Cassini_probe_-_20071008.jpg",
+      "autor": "NASA / JPL / Space Science Institute",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q08636",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "starlink",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que rede de satélites é esta, ainda empilhada no foguete, pouco antes de ser liberada em órbita?",
+    "resposta": "Starlink",
+    "distratores": [
+      "OneWeb",
+      "Iridium",
+      "Kuiper"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Starlink",
+      "https://pt.wikipedia.org/wiki/Starlink"
+    ],
+    "imagem": {
+      "arquivo": "q08636.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Starlink_Mission_(47926144123).jpg",
+      "autor": "Official SpaceX Photos",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q08637",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "vesta",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que asteroide é este?",
+    "resposta": "Vesta",
+    "distratores": [
+      "Palas",
+      "Hígia",
+      "Juno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/4_Vesta",
+      "https://pt.wikipedia.org/wiki/4_Vesta"
+    ],
+    "imagem": {
+      "arquivo": "q08637.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dawn-image-070911.jpg",
+      "autor": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "licenca": "Public domain"
+    }
   }
 ]

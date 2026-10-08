@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que corpo celeste do cinturão de asteroides é este?",
+        "resposta": "Ceres"
+      },
+      "existentes": [
+        {
+          "id": "q05813",
+          "pergunta": "Que corpo celeste do cinturão de asteroides é este?",
+          "resposta": "Ceres"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que classe se enquadra esta estrela, segundo o seu tamanho e a sua cor?",
+        "resposta": "Anã amarela"
+      },
+      "existentes": [
+        {
+          "id": "q01219",
+          "pergunta": "Que astro é este, que ilumina e aquece a Terra durante o dia?",
+          "resposta": "Sol"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que ônibus espacial foi perdido no acidente registrado nesta foto?",
+        "resposta": "Challenger"
+      },
+      "existentes": [
+        {
+          "id": "q03001",
+          "pergunta": "Na investigação do desastre do ônibus espacial Challenger, Richard Feynman mostrou na TV que os anéis de vedação de borracha falharam por efeito de quê?",
+          "resposta": "Do frio"
+        },
+        {
+          "id": "q08262",
+          "pergunta": "O ônibus espacial Challenger explodiu pouco mais de um minuto após decolar, numa tragédia transmitida ao vivo. Isso aconteceu em que ano?",
+          "resposta": "1986"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que telescópio espacial leva o nome do astrônomo retratado nesta foto?",
+        "resposta": "Telescópio Espacial Hubble"
+      },
+      "existentes": [
+        {
+          "id": "q05298",
+          "pergunta": "Que astrônomo americano é este?",
+          "resposta": "Edwin Hubble"
+        },
+        {
+          "id": "q08267",
+          "pergunta": "Em que década Edwin Hubble mostrou que a nebulosa de Andrômeda era, na verdade, outra galáxia, muito além da Via Láctea?",
+          "resposta": "Anos 1920"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Pergunta e resposta idênticas à q05813.",
+      "id_existente": "q05813"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Classificação da estrela (anã amarela) é um fato diferente de identificar o Sol como astro."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o ônibus espacial perdido é diferente da causa da falha ou do ano da explosão."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o telescópio que leva o nome dele; as existentes perguntam o nome do astrônomo e a década da descoberta de Andrômeda."
+    }
+  ]
+}

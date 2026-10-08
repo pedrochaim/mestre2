@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mapa estelar com legendas em polonês (Skorpion, Antares, Waga etc.), cheio de texto que entrega a resposta; não é uma figura limpa."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de Ceres com as manchas brilhantes características; múltipla com corpos de aspecto parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que corpo celeste do cinturão de asteroides é este?",
+      "resposta": "Ceres",
+      "distratores": [
+        "Vesta",
+        "Palas",
+        "Hígia"
+      ],
+      "ancora": {
+        "nome": "Ceres",
+        "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, descoberto em 1801 por Giuseppe Piazzi.",
+        "variantes": [
+          "1 Ceres",
+          "Ceres (planeta anão)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem tem polígono e seta de orientação sobrepostos, com cores atípicas e a trifurcação da nebulosa pouco evidente; não é reconhecível com segurança como a Trífida."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara do Sol; a pergunta vai além do nome, sem entregar a resposta.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que classe se enquadra esta estrela, segundo o seu tamanho e a sua cor?",
+      "resposta": "Anã amarela",
+      "distratores": [],
+      "ancora": {
+        "nome": "Sol",
+        "descricao": "A estrela no centro do Sistema Solar, em torno da qual a Terra orbita.",
+        "variantes": [
+          "Sol (estrela)",
+          "Estrela-mãe do Sistema Solar"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara do foguete Starship ao lado da torre de lançamento, silhueta inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que empresa desenvolve este foguete?",
+      "resposta": "SpaceX",
+      "distratores": [],
+      "ancora": {
+        "nome": "Starship",
+        "descricao": "Veículo de lançamento de dois estágios, totalmente reutilizável, em desenvolvimento pela SpaceX.",
+        "variantes": [
+          "SpaceX Starship",
+          "Super Heavy",
+          "Starship e Super Heavy"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida do pequeno rover de seis rodas com painel solar na superfície de Marte, forma bem característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que veículo explorador de Marte é este?",
+      "resposta": "Sojourner",
+      "distratores": [
+        "Spirit",
+        "Opportunity",
+        "Curiosity"
+      ],
+      "ancora": {
+        "nome": "Sojourner",
+        "descricao": "Pequeno rover da missão Mars Pathfinder, o primeiro veículo com rodas a operar em Marte, em 1997.",
+        "variantes": [
+          "Rover Sojourner",
+          "Mars Pathfinder Sojourner"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica muito conhecida da nuvem de fumaça após a desintegração do ônibus espacial, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ônibus espacial foi perdido no acidente registrado nesta foto?",
+      "resposta": "Challenger",
+      "distratores": [],
+      "ancora": {
+        "nome": "Desastre do Challenger",
+        "descricao": "Acidente de 28 de janeiro de 1986 em que o ônibus espacial Challenger se desintegrou 73 segundos após o lançamento, matando os sete tripulantes.",
+        "variantes": [
+          "Acidente do Challenger",
+          "STS-51-L"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública (astrônomo) sem texto; a pergunta liga-o ao telescópio sem nomeá-lo, em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que telescópio espacial leva o nome do astrônomo retratado nesta foto?",
+      "resposta": "Telescópio Espacial Hubble",
+      "distratores": [
+        "Spitzer",
+        "Kepler",
+        "Chandra"
+      ],
+      "ancora": {
+        "nome": "Edwin Hubble",
+        "descricao": "Astrônomo americano que provou a existência de outras galáxias e confirmou a expansão do universo.",
+        "variantes": [
+          "Edwin Powell Hubble"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem nítida de Jápeto mostrando o contraste entre o hemisfério escuro e o claro; característica distintiva.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em torno de que planeta orbita esta lua, de dois tons bem distintos?",
+      "resposta": "Saturno",
+      "distratores": [
+        "Júpiter",
+        "Urano",
+        "Netuno"
+      ],
+      "ancora": {
+        "nome": "Jápeto",
+        "descricao": "Lua externa de Saturno, com um hemisfério escuro e outro claro, descoberta por Cassini em 1671.",
+        "variantes": [
+          "Iapetus",
+          "Jápeto (satélite)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação sem texto dos satélites empilhados no foguete sobre a Terra; múltipla escolha com redes de satélites.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que rede de satélites é esta, ainda empilhada no foguete, pouco antes de ser liberada em órbita?",
+      "resposta": "Starlink",
+      "distratores": [
+        "OneWeb",
+        "Iridium",
+        "Kuiper"
+      ],
+      "ancora": {
+        "nome": "Starlink",
+        "descricao": "Constelação de satélites de internet em órbita baixa operada pela SpaceX.",
+        "variantes": [
+          "Satélites Starlink"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem em preto e branco, baixa resolução mas legível, com a forma e as ranhuras características de Vesta; múltipla escolha com asteroides.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que asteroide é este?",
+      "resposta": "Vesta",
+      "distratores": [
+        "Palas",
+        "Hígia",
+        "Juno"
+      ],
+      "ancora": {
+        "nome": "Vesta",
+        "descricao": "Segundo maior asteroide do cinturão principal, descoberto por Olbers em 1807, conhecido como 4 Vesta.",
+        "variantes": [
+          "4 Vesta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem traz a legenda 'Ursa Major' escrita, o que entrega a resposta."
+    }
+  ]
+}

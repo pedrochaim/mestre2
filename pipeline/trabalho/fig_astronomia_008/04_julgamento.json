@@ -1,0 +1,542 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ceres",
+        "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, descoberto em 1801 por Giuseppe Piazzi.",
+        "variantes": [
+          "1 Ceres",
+          "Ceres (planeta anão)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "programa_cbers",
+          "nome": "Programa CBERS",
+          "descricao": "Programa de satélites de observação da Terra desenvolvidos em conjunto por Brasil e China, com o primeiro lançado em 1999.",
+          "variantes": [
+            "CBERS",
+            "Satélite Sino-Brasileiro de Recursos Terrestres"
+          ]
+        },
+        {
+          "id": "hermes",
+          "nome": "Hermès",
+          "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès",
+          "variantes": [
+            "Hermès International"
+          ]
+        },
+        {
+          "id": "acores",
+          "nome": "Açores",
+          "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+          "variantes": [
+            "Arquipélago dos Açores",
+            "Ilhas dos Açores"
+          ]
+        },
+        {
+          "id": "cereja",
+          "nome": "Cereja",
+          "descricao": "Fruta vermelha do gênero Prunus, uma drupe de caroço, como a Prunus avium.",
+          "variantes": [
+            "Cereja-doce",
+            "Prunus avium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sol",
+        "descricao": "A estrela no centro do Sistema Solar, em torno da qual a Terra orbita.",
+        "variantes": [
+          "Estrela",
+          "Sol (estrela)",
+          "Estrela-mãe do Sistema Solar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "sagui_de_tufos_brancos",
+          "nome": "Sagui-de-tufos-brancos",
+          "descricao": "Primata do Novo Mundo, Callithrix jacchus, de tufos brancos nas orelhas, nativo do litoral do Nordeste brasileiro.",
+          "variantes": [
+            "Callithrix jacchus",
+            "Sagui-comum",
+            "Sagui-de-tufo-branco",
+            "Mico-estrela"
+          ]
+        },
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        },
+        {
+          "id": "absol",
+          "nome": "Absol",
+          "descricao": "Pokémon do tipo Sombrio, número 359 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Starship",
+        "descricao": "Veículo de lançamento de dois estágios, totalmente reutilizável, em desenvolvimento pela SpaceX.",
+        "variantes": [
+          "SpaceX Starship",
+          "Super Heavy",
+          "Starship e Super Heavy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "clark_kent",
+          "nome": "Clark Kent",
+          "descricao": "Identidade secreta do Superman, repórter do Planeta Diário",
+          "variantes": [
+            "Kal-El",
+            "Superman",
+            "Super-Homem"
+          ]
+        },
+        {
+          "id": "superman",
+          "nome": "Superman",
+          "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster",
+          "variantes": [
+            "Super-Homem"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "super_saiyajin",
+          "nome": "Super Saiyajin",
+          "descricao": "Transformação dos saiyajins em Dragon Ball, marcada pelo cabelo loiro e espetado.",
+          "variantes": [
+            "Super Saiyan",
+            "Super Sayajin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sojourner",
+        "descricao": "Pequeno rover da missão Mars Pathfinder, o primeiro veículo com rodas a operar em Marte, em 1997.",
+        "variantes": [
+          "Rover Sojourner",
+          "Mars Pathfinder Sojourner"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escanteio",
+          "nome": "Escanteio",
+          "descricao": "Cobrança de bola parada a partir do canto do campo, após a bola sair pela linha de fundo tocada por um defensor.",
+          "variantes": [
+            "Tiro de canto",
+            "Corner"
+          ]
+        },
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "shonen",
+          "nome": "Shōnen",
+          "descricao": "Categoria de mangá e anime voltada ao público masculino jovem, como Dragon Ball e Naruto.",
+          "variantes": [
+            "Shounen",
+            "少年"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Desastre do Challenger",
+        "descricao": "Acidente de 28 de janeiro de 1986 em que o ônibus espacial Challenger se desintegrou 73 segundos após o lançamento, matando os sete tripulantes.",
+        "variantes": [
+          "Acidente do Challenger",
+          "STS-51-L"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "desastre_do_onibus_espacial_challenger",
+          "nome": "Desastre do ônibus espacial Challenger",
+          "descricao": "Explosão do ônibus espacial Challenger logo após o lançamento, em janeiro de 1986, nos Estados Unidos.",
+          "variantes": [
+            "Space Shuttle Challenger disaster",
+            "Acidente do Challenger",
+            "Desastre do Challenger"
+          ]
+        },
+        {
+          "id": "mrs_ples",
+          "nome": "Mrs. Ples",
+          "descricao": "Crânio fóssil de Australopithecus africanus achado em 1947 nas cavernas de Sterkfontein, na África do Sul.",
+          "variantes": [
+            "Senhora Ples",
+            "STS 5"
+          ]
+        },
+        {
+          "id": "abismo_challenger",
+          "nome": "Abismo Challenger",
+          "descricao": "Ponto mais profundo conhecido do oceano, no extremo sul da Fossa das Marianas.",
+          "variantes": [
+            "Challenger Deep",
+            "Depressão Challenger"
+          ]
+        },
+        {
+          "id": "deepsea_challenger",
+          "nome": "Deepsea Challenger",
+          "descricao": "Submersível que levou um único tripulante ao fundo da Fossa das Marianas em 2012.",
+          "variantes": [
+            "DCV 1"
+          ]
+        },
+        {
+          "id": "hindenburg",
+          "nome": "Hindenburg",
+          "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+          "variantes": [
+            "LZ 129 Hindenburg",
+            "Desastre do Hindenburg",
+            "Dirigível Hindenburg"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Edwin Hubble",
+        "descricao": "Astrônomo americano que provou a existência de outras galáxias e confirmou a expansão do universo.",
+        "variantes": [
+          "Edwin Powell Hubble"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edwin_hubble",
+          "nome": "Edwin Hubble",
+          "descricao": "Astrônomo americano que demonstrou a existência de galáxias além da Via Láctea e a expansão do universo.",
+          "variantes": [
+            "Edwin Powell Hubble"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jápeto",
+        "descricao": "Lua externa de Saturno, com um hemisfério escuro e outro claro, descoberta por Cassini em 1671.",
+        "variantes": [
+          "Iapetus",
+          "Jápeto (satélite)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pesto",
+          "nome": "Pesto",
+          "descricao": "Molho italiano cru de manjericão, alho, pinoli, queijo e azeite, originário da Ligúria",
+          "variantes": [
+            "Pesto genovês",
+            "Pesto alla genovese"
+          ]
+        },
+        {
+          "id": "japao",
+          "nome": "Japão",
+          "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+          "variantes": [
+            "Nippon",
+            "Nihon",
+            "Japan"
+          ]
+        },
+        {
+          "id": "nado_peito",
+          "nome": "Nado peito",
+          "descricao": "Estilo da natação competitiva em que o nadador fica de bruços e move braços e pernas ao mesmo tempo, com pernada de sapo.",
+          "variantes": [
+            "Peito",
+            "Breaststroke"
+          ]
+        },
+        {
+          "id": "timeu",
+          "nome": "Timeu",
+          "descricao": "Diálogo de Platão sobre a origem do universo, que associa os elementos a sólidos geométricos.",
+          "variantes": [
+            "Timaeus"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Starlink",
+        "descricao": "Constelação de satélites de internet em órbita baixa operada pela SpaceX.",
+        "variantes": [
+          "Satélites Starlink"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "luas_galileanas",
+          "nome": "Luas galileanas",
+          "descricao": "As quatro maiores luas de Júpiter: Io, Europa, Ganimedes e Calisto.",
+          "variantes": [
+            "Satélites galileanos",
+            "Galilean moons"
+          ]
+        },
+        {
+          "id": "mola_maluca",
+          "nome": "Mola maluca",
+          "descricao": "Brinquedo em forma de mola helicoidal que desce escadas, lançado nos Estados Unidos como Slinky em 1945.",
+          "variantes": [
+            "Slinky"
+          ]
+        },
+        {
+          "id": "talian",
+          "nome": "Talian",
+          "descricao": "Língua de base vêneta falada por descendentes de imigrantes italianos no Sul do Brasil",
+          "variantes": [
+            "Vêneto brasileiro"
+          ]
+        },
+        {
+          "id": "luas_de_urano",
+          "nome": "Luas de Urano",
+          "descricao": "Satélites naturais do planeta Urano, batizados com nomes de personagens literários.",
+          "variantes": [
+            "Satélites de Urano",
+            "Moons of Uranus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Vesta",
+        "descricao": "Segundo maior asteroide do cinturão principal, descoberto por Olbers em 1807, conhecido como 4 Vesta.",
+        "variantes": [
+          "4 Vesta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "sesta",
+          "nome": "Sesta",
+          "descricao": "Cochilo tradicional depois do almoço, típico da Espanha e de outros países de clima quente.",
+          "variantes": [
+            "Siesta"
+          ]
+        },
+        {
+          "id": "vespa",
+          "nome": "Vespa",
+          "descricao": "Marca italiana de scooters fabricados pela Piaggio, criada em 1946.",
+          "variantes": [
+            "Vespa Piaggio"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        },
+        {
+          "id": "vegeta",
+          "nome": "Vegeta",
+          "descricao": "Príncipe dos saiyajins de cabelo preto espetado e armadura azul, rival de Goku em Dragon Ball.",
+          "variantes": [
+            "Príncipe Vegeta",
+            "Vegeta IV"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ceres",
+      "motivo": "Mesmo planeta anão Ceres."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "sol",
+      "motivo": "Mesma estrela do Sistema Solar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o veículo Starship da SpaceX."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o rover Sojourner."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "desastre_do_onibus_espacial_challenger",
+      "motivo": "Mesmo acidente do Challenger em 1986."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "edwin_hubble",
+      "motivo": "Mesmo astrônomo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a lua Jápeto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a constelação Starlink."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o asteroide Vesta."
+    }
+  ]
+}
