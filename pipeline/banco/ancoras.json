@@ -52851,7 +52851,8 @@
     "variantes": [
       "Caminho Inca",
       "Inca road system",
-      "Capac Ñan"
+      "Capac Ñan",
+      "Estradas incas"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Inca_road_system"
@@ -52940,7 +52941,8 @@
     "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
     "variantes": [
       "Semente de cacau",
-      "Cocoa bean"
+      "Cocoa bean",
+      "Theobroma cacao"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Cocoa_bean"
@@ -59092,7 +59094,9 @@
     "nome": "Cusco",
     "descricao": "Cidade do sudeste do Peru, antiga capital do Império Inca, nos Andes.",
     "variantes": [
-      "Cuzco"
+      "Cuzco",
+      "Qosqo",
+      "Qusqu"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Cusco",
@@ -62280,7 +62284,8 @@
     "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
     "variantes": [
       "Zea mays",
-      "Maize"
+      "Maize",
+      "Maís"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Maize",
@@ -120748,6 +120753,363 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Hermes_and_the_Infant_Dionysus",
       "https://pt.wikipedia.org/wiki/Hermes_com_o_infante_Dion%C3%ADsio"
+    ]
+  },
+  {
+    "id": "templo_mayor",
+    "nome": "Templo Mayor",
+    "descricao": "Principal templo dos mexicas em Tenochtitlan, cujas ruínas ficam no centro da Cidade do México.",
+    "variantes": [
+      "Huey Teocalli",
+      "Grande Templo de Tenochtitlan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Templo_Mayor",
+      "https://pt.wikipedia.org/wiki/Templo_Mayor"
+    ]
+  },
+  {
+    "id": "triplice_alianca_asteca",
+    "nome": "Tríplice Aliança asteca",
+    "descricao": "Aliança entre as cidades de Tenochtitlan, Texcoco e Tlacopan que formou a base do Império Asteca.",
+    "variantes": [
+      "Tríplice Aliança",
+      "Excan Tlatoloyan",
+      "Império Asteca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aztec_Triple_Alliance"
+    ]
+  },
+  {
+    "id": "moctezuma_ii",
+    "nome": "Moctezuma II",
+    "descricao": "Imperador mexica que governava Tenochtitlan quando Hernán Cortés chegou, em 1519.",
+    "variantes": [
+      "Montezuma",
+      "Moctezuma Xocoyotzin",
+      "Motecuhzoma"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Moctezuma_II",
+      "https://pt.wikipedia.org/wiki/Montezuma_II"
+    ]
+  },
+  {
+    "id": "pakal",
+    "nome": "Pakal",
+    "descricao": "Rei maia de Palenque no século sete, sepultado no Templo das Inscrições.",
+    "variantes": [
+      "Pakal, o Grande",
+      "K'inich Janaab' Pakal",
+      "Pacal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pakal",
+      "https://en.wikipedia.org/wiki/Temple_of_the_Inscriptions"
+    ]
+  },
+  {
+    "id": "penacho_de_moctezuma",
+    "nome": "Penacho de Moctezuma",
+    "descricao": "Cocar asteca de plumas de quetzal e ouro, tradicionalmente atribuído a Moctezuma II, guardado num museu europeu.",
+    "variantes": [
+      "Penacho de Montezuma",
+      "Moctezuma's headdress"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Moctezuma%27s_headdress"
+    ]
+  },
+  {
+    "id": "cultura_marajoara",
+    "nome": "Cultura marajoara",
+    "descricao": "Sociedade indígena que viveu na ilha de Marajó, no Pará, entre cerca de 400 e 1400, famosa por sua cerâmica pintada.",
+    "variantes": [
+      "Cerâmica marajoara",
+      "Marajoara"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Marajoara_culture",
+      "https://pt.wikipedia.org/wiki/Cer%C3%A2mica_marajoara"
+    ]
+  },
+  {
+    "id": "chinampa",
+    "nome": "Chinampa",
+    "descricao": "Canteiro agrícola artificial construído pelos astecas sobre as águas rasas dos lagos do vale do México.",
+    "variantes": [
+      "Chinampas",
+      "Jardins flutuantes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chinampa"
+    ]
+  },
+  {
+    "id": "copan",
+    "nome": "Copán",
+    "descricao": "Antiga cidade maia do período clássico, famosa por sua escadaria hieroglífica, perto da fronteira com a Guatemala.",
+    "variantes": [
+      "Copán Ruinas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cop%C3%A1n",
+      "https://pt.wikipedia.org/wiki/Cop%C3%A1n"
+    ]
+  },
+  {
+    "id": "mesa_verde",
+    "nome": "Mesa Verde",
+    "descricao": "Conjunto de moradias de pedra construídas sob penhascos pelos antigos povos pueblo, hoje parque nacional nos Estados Unidos.",
+    "variantes": [
+      "Mesa Verde National Park",
+      "Parque Nacional de Mesa Verde"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mesa_Verde_National_Park"
+    ]
+  },
+  {
+    "id": "cidade_perdida_de_z",
+    "nome": "Cidade Perdida de Z",
+    "descricao": "Cidade lendária que o explorador britânico Percy Fawcett acreditava existir na selva brasileira e procurou até desaparecer, em 1925.",
+    "variantes": [
+      "Cidade de Z",
+      "Lost City of Z"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lost_City_of_Z",
+      "https://en.wikipedia.org/wiki/Percy_Fawcett"
+    ]
+  },
+  {
+    "id": "balsa_muisca",
+    "nome": "Balsa Muísca",
+    "descricao": "Peça de ouro dos muíscas que representa uma jangada com um chefe e acompanhantes, ligada ao ritual que originou a lenda do Eldorado.",
+    "variantes": [
+      "Balsa de El Dorado",
+      "Muisca raft"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Muisca_raft"
+    ]
+  },
+  {
+    "id": "chan_chan",
+    "nome": "Chan Chan",
+    "descricao": "Grande cidade de adobe no litoral norte do Peru, perto de Trujillo, antiga capital do reino Chimu.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chan_Chan",
+      "https://pt.wikipedia.org/wiki/Chan_Chan"
+    ]
+  },
+  {
+    "id": "atlantes_de_tula",
+    "nome": "Atlantes de Tula",
+    "descricao": "Colunas de pedra em forma de guerreiros no alto de uma pirâmide de Tula, antiga capital tolteca no estado mexicano de Hidalgo.",
+    "variantes": [
+      "Atlantes",
+      "Atlantes de Tula de Allende"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tula_(Mesoamerican_site)"
+    ]
+  },
+  {
+    "id": "auto_de_fe_de_mani",
+    "nome": "Auto de fé de Maní",
+    "descricao": "Queima de livros e objetos sagrados maias ordenada pelos espanhóis em Maní, no Iucatã, em 1562.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Diego_de_Landa"
+    ]
+  },
+  {
+    "id": "kuelap",
+    "nome": "Kuélap",
+    "descricao": "Fortaleza de pedra com muralhas altas no alto de uma montanha da região amazônica do norte do Peru.",
+    "variantes": [
+      "Cuélap"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ku%C3%A9lap"
+    ]
+  },
+  {
+    "id": "codice_florentino",
+    "nome": "Códice Florentino",
+    "descricao": "Obra em doze livros sobre a cultura e a história dos astecas, escrita em náuatle e espanhol no século dezesseis.",
+    "variantes": [
+      "Historia general de las cosas de la Nueva España",
+      "Florentine Codex"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Florentine_Codex"
+    ]
+  },
+  {
+    "id": "comentarios_reais_dos_incas",
+    "nome": "Comentários Reais dos Incas",
+    "descricao": "Livro de 1609 sobre a história e a cultura do Império Inca, escrito por um autor mestiço nascido em Cusco.",
+    "variantes": [
+      "Comentarios Reales de los Incas",
+      "Comentários Reais"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Comentarios_Reales_de_los_Incas"
+    ]
+  },
+  {
+    "id": "tainos",
+    "nome": "Taínos",
+    "descricao": "Povo indígena das Grandes Antilhas, como Cuba, Hispaniola e Porto Rico, encontrado por Colombo em 1492.",
+    "variantes": [
+      "Taíno"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ta%C3%ADno"
+    ]
+  },
+  {
+    "id": "cuauhtemoc",
+    "nome": "Cuauhtémoc",
+    "descricao": "Último imperador mexica, que comandou a defesa de Tenochtitlan contra os espanhóis em 1521.",
+    "variantes": [
+      "Guatimozín"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cuauht%C3%A9moc"
+    ]
+  },
+  {
+    "id": "noite_triste",
+    "nome": "Noite Triste",
+    "descricao": "Fuga desastrosa dos espanhóis de Hernán Cortés e seus aliados de Tenochtitlan, em 1520.",
+    "variantes": [
+      "La Noche Triste"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/La_Noche_Triste"
+    ]
+  },
+  {
+    "id": "resgate_de_atahualpa",
+    "nome": "Resgate de Atahualpa",
+    "descricao": "Grande quantidade de ouro e prata reunida pelos incas em Cajamarca, em 1532 e 1533, para libertar Atahualpa, preso por Pizarro.",
+    "variantes": [
+      "Quarto do Resgate",
+      "Cuarto del Rescate"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Atahualpa"
+    ]
+  },
+  {
+    "id": "colapso_maia_classico",
+    "nome": "Colapso maia clássico",
+    "descricao": "Declínio e abandono de muitas cidades maias das terras baixas do sul entre os séculos oito e dez.",
+    "variantes": [
+      "Colapso maia",
+      "Classic Maya collapse"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Classic_Maya_collapse"
+    ]
+  },
+  {
+    "id": "mama_quilla",
+    "nome": "Mama Quilla",
+    "descricao": "Deusa inca da Lua, esposa e irmã do deus Sol, Inti.",
+    "variantes": [
+      "Mama Killa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mama_Killa"
+    ]
+  },
+  {
+    "id": "viracocha",
+    "nome": "Viracocha",
+    "descricao": "Grande deus criador da religião inca e de outros povos andinos.",
+    "variantes": [
+      "Wiracocha",
+      "Huiracocha",
+      "Kon-Tiki Viracocha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Viracocha"
+    ]
+  },
+  {
+    "id": "azul_maia",
+    "nome": "Azul maia",
+    "descricao": "Pigmento azul muito resistente usado pelos maias e outros povos mesoamericanos em murais, cerâmicas e esculturas.",
+    "variantes": [
+      "Maya blue"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maya_blue"
+    ]
+  },
+  {
+    "id": "pontes_de_corda_incas",
+    "nome": "Pontes de corda incas",
+    "descricao": "Pontes suspensas de fibras vegetais trançadas usadas na rede de estradas incas, como a de Q'eswachaka, ainda refeita todo ano no Peru.",
+    "variantes": [
+      "Q'eswachaka",
+      "Queshuachaca",
+      "Inca rope bridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Inca_rope_bridge"
+    ]
+  },
+  {
+    "id": "tzolkin",
+    "nome": "Tzolkin",
+    "descricao": "Calendário sagrado maia, usado em rituais e adivinhação, que combinava vinte nomes de dias com treze números.",
+    "variantes": [
+      "Tzolk'in",
+      "Calendário sagrado maia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maya_calendar"
+    ]
+  },
+  {
+    "id": "haab",
+    "nome": "Haab",
+    "descricao": "Calendário solar maia de 365 dias, com dezoito meses de vinte dias e um período final de dias considerados de azar.",
+    "variantes": [
+      "Calendário solar maia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maya_calendar"
+    ]
+  },
+  {
+    "id": "grande_piramide_de_cholula",
+    "nome": "Grande Pirâmide de Cholula",
+    "descricao": "Enorme pirâmide pré-colombiana no estado mexicano de Puebla, hoje coberta de terra e com uma igreja no topo.",
+    "variantes": [
+      "Pirâmide de Cholula",
+      "Tlachihualtépetl"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Great_Pyramid_of_Cholula"
+    ]
+  },
+  {
+    "id": "jogo_de_bola_mesoamericano",
+    "nome": "Jogo de bola mesoamericano",
+    "descricao": "Esporte ritual praticado por maias, astecas e outros povos da Mesoamérica, com uma pesada bola de borracha.",
+    "variantes": [
+      "Ullamaliztli",
+      "Pok-ta-pok",
+      "Ōllamalīztli"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mesoamerican_ballgame"
     ]
   }
 ]
