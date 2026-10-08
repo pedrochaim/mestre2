@@ -1,0 +1,242 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de helicóptero; o texto LAPD e a matrícula não entregam a resposta. Quem_fez não rende (vários pioneiros), então pergunta de reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de aeronave é esta?",
+      "resposta": "Helicóptero",
+      "destino": 0,
+      "ancora": {
+        "nome": "Helicóptero",
+        "descricao": "Aeronave de asas rotativas que decola e pousa na vertical e paira no ar.",
+        "variantes": [
+          "Helicopter"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de microscópio de um chip, forma característica; o texto Philips não entrega a resposta. Quem_fez seria ambíguo (Kilby e Noyce), então o_que_e em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente eletrônico é este, fotografado ao microscópio?",
+      "resposta": "Circuito integrado",
+      "distratores": [
+        "Placa de circuito impresso",
+        "Válvula eletrônica",
+        "Célula solar"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Circuito integrado",
+        "descricao": "Conjunto de circuitos eletrônicos miniaturizados formado sobre uma pastilha de semicondutor, o chip.",
+        "variantes": [
+          "Chip",
+          "Microchip",
+          "CI"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Três micrômetros do mesmo tipo, nítidos; o texto da fabricante não entrega a resposta. Distratores são instrumentos de medição parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de precisão é este, de parafuso calibrado?",
+      "resposta": "Micrômetro",
+      "distratores": [
+        "Paquímetro",
+        "Goniômetro",
+        "Dinamômetro"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Micrômetro",
+        "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+        "variantes": [
+          "Micrômetro de parafuso",
+          "Palmer"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Disco sem rótulo nem detalhes: pode ser CD, DVD ou outro disco óptico; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Diagrama limpo, sem texto, de um parafuso helicoidal dentro de cilindro. Quando teria resposta incerta (origem desconhecida), então reconhecimento em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que máquina de elevar água é esta?",
+      "resposta": "Parafuso de Arquimedes",
+      "distratores": [
+        "Roda d'água",
+        "Nora",
+        "Bomba de êmbolo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Parafuso de Arquimedes",
+        "descricao": "Máquina hidráulica formada por um cilindro com uma hélice interna, usada para elevar água.",
+        "variantes": [
+          "Parafuso de Arquimedes",
+          "Parafuso hidráulico",
+          "Archimedes' screw"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de museu, sem texto que entregue a resposta; item de aficionado, adequado para múltipla com instrumentos de cálculo da mesma época.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quem criou este instrumento de cálculo do século dezessete, que reduz a multiplicação a somas?",
+      "resposta": "John Napier",
+      "distratores": [
+        "Blaise Pascal",
+        "Wilhelm Schickard",
+        "Gottfried Leibniz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ossos de Napier",
+        "descricao": "Instrumento manual de cálculo com bastões numerados, criado por John Napier para multiplicar e dividir.",
+        "variantes": [
+          "Bastões de Napier",
+          "Napier's bones",
+          "Barras de Napier"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ferro de passar claramente visível pela base; a marca não é a resposta. Quando não rende pergunta precisa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho doméstico é este, visto por baixo?",
+      "resposta": "Ferro de passar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ferro de passar",
+        "descricao": "Aparelho doméstico aquecido usado para alisar roupas.",
+        "variantes": [
+          "Ferro de engomar",
+          "Ferro elétrico",
+          "Ferro a vapor"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Metrônomo piramidal de madeira reconhecível; o nome Wittner pequeno não entrega a resposta. Patente de 1815 sustentada pelo trecho.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em 1815, quem patenteou a versão mecânica, de dar corda, deste aparelho?",
+      "resposta": "Johann Maelzel",
+      "distratores": [
+        "Christiaan Huygens",
+        "Galileu Galilei",
+        "Robert Hooke"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Metrônomo",
+        "descricao": "Aparelho que emite cliques em intervalos regulares ajustáveis para marcar o andamento musical.",
+        "variantes": [
+          "Metronome"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Gravura antiga nítida da locomotiva Rocket, sem texto. Ano de construção sustentado pelo trecho; múltipla com anos de outras locomotivas pioneiras.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi construída esta locomotiva a vapor?",
+      "resposta": "1829",
+      "distratores": [
+        "1804",
+        "1814",
+        "1840"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Locomotiva Rocket",
+        "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+        "variantes": [
+          "Rocket",
+          "Stephenson's Rocket",
+          "Rocket de Stephenson"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Aparelho digital de pressão arterial com braçadeira, claro; os textos mmHg e SYS/DIA não dão o nome. Quem_fez ambíguo (Basch, Riva-Rocci), então o_que_e em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho é este?",
+      "resposta": "Esfigmomanômetro",
+      "distratores": [
+        "Estetoscópio",
+        "Oxímetro de pulso",
+        "Glicosímetro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfigmomanômetro",
+        "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+        "variantes": [
+          "Aparelho de pressão",
+          "Medidor de pressão arterial",
+          "Tensiômetro"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto com placa explicativa ao fundo, em inglês e com o nome do objeto, parcialmente legível; o disco sozinho é pouco reconhecível e a placa pode entregar a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Monjolo em funcionamento, com a água caindo na calha e o pilão; sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que engenho rústico movido a água, tradicional no interior do Brasil, é este?",
+      "resposta": "Monjolo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Monjolo",
+        "descricao": "Máquina hidráulica rústica de pilão movido por uma gangorra com concha de água.",
+        "variantes": [
+          "Monjolo hidráulico"
+        ]
+      }
+    }
+  ]
+}

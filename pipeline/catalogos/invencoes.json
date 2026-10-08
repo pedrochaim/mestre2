@@ -341,7 +341,7 @@
       "titulo": "en:Sputnik 1",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Telescópio Espacial Hubble",
@@ -635,7 +635,7 @@
       "titulo": "en:Compact disc",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Balão de ar quente",
@@ -719,7 +719,7 @@
       "titulo": "en:Integrated circuit",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Disco rígido",
@@ -831,11 +831,291 @@
       "titulo": "en:Stephenson's Rocket",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cíclotron",
       "titulo": "en:Cyclotron",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferro de passar",
+      "titulo": "en:Clothes iron",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ventilador",
+      "titulo": "en:Mechanical fan",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Liquidificador",
+      "titulo": "en:Blender",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Aspirador de pó",
+      "titulo": "en:Vacuum cleaner",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Elevador",
+      "titulo": "en:Elevator",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Controle remoto",
+      "titulo": "en:Remote control",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada fluorescente",
+      "titulo": "en:Fluorescent lamp",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de lavar roupa",
+      "titulo": "en:Washing machine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Helicóptero",
+      "titulo": "en:Helicopter",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Submarino",
+      "titulo": "en:Submarine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lanterna",
+      "titulo": "en:Flashlight",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seringa",
+      "titulo": "en:Syringe",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Drone",
+      "titulo": "en:Unmanned aerial vehicle",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Relógio de pulso",
+      "titulo": "en:Watch",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Joystick",
+      "titulo": "en:Joystick",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Impressora 3D",
+      "titulo": "en:3D printing",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mimeógrafo",
+      "titulo": "en:Mimeograph",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parafuso de Arquimedes",
+      "titulo": "en:Archimedes' screw",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Trabuco",
+      "titulo": "en:Trebuchet",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pluviômetro",
+      "titulo": "en:Rain gauge",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Multímetro",
+      "titulo": "en:Multimeter",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Giroscópio",
+      "titulo": "en:Gyroscope",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Metrônomo",
+      "titulo": "en:Metronome",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Diapasão",
+      "titulo": "en:Tuning fork",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Roda de fiar",
+      "titulo": "en:Spinning wheel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monjolo",
+      "titulo": "pt:Monjolo",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Esfigmomanômetro",
+      "titulo": "en:Sphygmomanometer",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Balança de Roberval",
+      "titulo": "en:Roberval balance",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora Curta",
+      "titulo": "en:Curta",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teletipo",
+      "titulo": "en:Teleprinter",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Higrômetro",
+      "titulo": "en:Hygrometer",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Quadrante",
+      "titulo": "en:Quadrant (instrument)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Micrômetro",
+      "titulo": "en:Micrometer (device)",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Câmara de bolhas",
+      "titulo": "en:Bubble chamber",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Praxinoscópio",
+      "titulo": "en:Praxinoscope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fenacistoscópio",
+      "titulo": "en:Phenakistiscope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Taumatrópio",
+      "titulo": "en:Thaumatrope",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Máquina de Atwood",
+      "titulo": "en:Atwood machine",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ossos de Napier",
+      "titulo": "en:Napier's bones",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tubo de Pitot",
+      "titulo": "en:Pitot tube",
       "camada": 3,
       "destino": 2,
       "status": "nova"

@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de aeronave é esta?",
+        "resposta": "Helicóptero"
+      },
+      "existentes": [
+        {
+          "id": "q03989",
+          "pergunta": "Que tipo de aeronave é esta?",
+          "resposta": "Helicóptero"
+        },
+        {
+          "id": "q05608",
+          "pergunta": "Que engenheiro nascido em Kiev e radicado nos Estados Unidos fez voar, em 1939, o protótipo que definiu o helicóptero moderno, com um rotor principal e outro na cauda?",
+          "resposta": "Igor Sikorsky"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que componente eletrônico é este, fotografado ao microscópio?",
+        "resposta": "Circuito integrado"
+      },
+      "existentes": [
+        {
+          "id": "q06761",
+          "pergunta": "Em 1958, na Texas Instruments, que engenheiro americano demonstrou o primeiro circuito integrado, feito que lhe rendeu o Nobel de Física?",
+          "resposta": "Jack Kilby"
+        },
+        {
+          "id": "q06797",
+          "pergunta": "Os chips de computador são feitos principalmente de qual elemento químico, que dá nome a um famoso vale da Califórnia?",
+          "resposta": "Silício"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que aparelho doméstico é este, visto por baixo?",
+        "resposta": "Ferro de passar"
+      },
+      "existentes": [
+        {
+          "id": "q01153",
+          "pergunta": "Que tarefa doméstica se faz com este aparelho?",
+          "resposta": "Passar roupa"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1815, quem patenteou a versão mecânica, de dar corda, deste aparelho?",
+        "resposta": "Johann Maelzel"
+      },
+      "existentes": [
+        {
+          "id": "q06003",
+          "pergunta": "Em que unidade se ajusta a velocidade deste aparelho?",
+          "resposta": "Batidas por minuto"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta idênticas (identificar a aeronave como helicóptero).",
+      "id_existente": "q03989"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o componente em imagem é diferente de saber quem demonstrou o primeiro circuito integrado ou do silício."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do aparelho; a outra, a tarefa feita com ele. Fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Inventor do metrônomo mecânico versus unidade de velocidade: fatos diferentes."
+    }
+  ]
+}

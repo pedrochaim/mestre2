@@ -1,0 +1,649 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Helicóptero",
+        "descricao": "Aeronave de asas rotativas que decola e pousa na vertical e paira no ar.",
+        "variantes": [
+          "Helicopter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "helicoptero",
+          "nome": "Helicóptero",
+          "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+          "variantes": []
+        },
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "flamingo",
+          "nome": "Flamingo",
+          "descricao": "Ave pernalta rosada da família Phoenicopteridae, que se alimenta filtrando a água com o bico curvo.",
+          "variantes": [
+            "Phoenicopteridae",
+            "Flamingos"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Circuito integrado",
+        "descricao": "Conjunto de circuitos eletrônicos miniaturizados formado sobre uma pastilha de semicondutor, o chip.",
+        "variantes": [
+          "Chip",
+          "Microchip",
+          "CI"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_integrado",
+          "nome": "Circuito integrado",
+          "descricao": "Conjunto de componentes eletrônicos miniaturizados num único pedaço de material semicondutor, o chip.",
+          "variantes": [
+            "Chip",
+            "Microchip"
+          ]
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        },
+        {
+          "id": "comite_olimpico_internacional",
+          "nome": "Comitê Olímpico Internacional",
+          "descricao": "Organização que comanda o movimento olímpico e escolhe as sedes dos Jogos Olímpicos.",
+          "variantes": [
+            "COI",
+            "International Olympic Committee",
+            "IOC"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Micrômetro",
+        "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+        "variantes": [
+          "Micrômetro de parafuso",
+          "Palmer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "ambar",
+          "nome": "Âmbar",
+          "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+          "variantes": [
+            "Amber"
+          ]
+        },
+        {
+          "id": "papel",
+          "nome": "Papel",
+          "descricao": "Material de escrita feito de fibras vegetais, desenvolvido na China da dinastia Han.",
+          "variantes": [
+            "Paper",
+            "Papel de fibra vegetal"
+          ]
+        },
+        {
+          "id": "taler",
+          "nome": "Táler",
+          "descricao": "Grande moeda de prata cunhada na Europa a partir do século dezesseis, originalmente com prata das minas de Joachimsthal, na Boêmia.",
+          "variantes": [
+            "Thaler",
+            "Joachimsthaler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Parafuso de Arquimedes",
+        "descricao": "Máquina hidráulica formada por um cilindro com uma hélice interna, usada para elevar água.",
+        "variantes": [
+          "Parafuso hidráulico",
+          "Archimedes' screw"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "papiro_rhind",
+          "nome": "Papiro Rhind",
+          "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
+          "variantes": [
+            "Papiro de Ahmes",
+            "Rhind Mathematical Papyrus"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ossos de Napier",
+        "descricao": "Instrumento manual de cálculo com bastões numerados, criado por John Napier para multiplicar e dividir.",
+        "variantes": [
+          "Bastões de Napier",
+          "Napier's bones",
+          "Barras de Napier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "numero_e",
+          "nome": "Número e",
+          "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+          "variantes": [
+            "Número de Euler",
+            "Constante de Napier",
+            "e"
+          ]
+        },
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos",
+            "Relógio Cartier Santos",
+            "Santos de Cartier"
+          ]
+        },
+        {
+          "id": "sima_de_los_huesos",
+          "nome": "Sima de los Huesos",
+          "descricao": "Caverna da serra de Atapuerca, na Espanha, com fósseis de cerca de trinta hominídeos de uns 430 mil anos.",
+          "variantes": [
+            "Poço dos Ossos",
+            "Pit of Bones"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "fasil_ghebbi",
+          "nome": "Fasil Ghebbi",
+          "descricao": "Cidadela real em Gondar, Etiópia, fundada no século dezessete e residência de imperadores etíopes.",
+          "variantes": [
+            "Cidade-fortaleza de Fasil Ghebbi",
+            "Castelos de Gondar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ferro de passar",
+        "descricao": "Aparelho doméstico aquecido usado para alisar roupas.",
+        "variantes": [
+          "Ferro de engomar",
+          "Ferro elétrico",
+          "Ferro a vapor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "e_mail",
+          "nome": "E-mail",
+          "descricao": "Sistema de troca de mensagens eletrônicas entre usuários de computadores em rede.",
+          "variantes": [
+            "Correio eletrônico",
+            "Email"
+          ]
+        },
+        {
+          "id": "bonde",
+          "nome": "Bonde",
+          "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+          "variantes": [
+            "Elétrico",
+            "Tram",
+            "Carril"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Metrônomo",
+        "descricao": "Aparelho que emite cliques em intervalos regulares ajustáveis para marcar o andamento musical.",
+        "variantes": [
+          "Metronome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metronomo",
+          "nome": "Metrônomo",
+          "descricao": "Aparelho que marca o andamento da música com cliques regulares, aqui o modelo mecânico de pêndulo em pirâmide.",
+          "variantes": [
+            "Metronome"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "estrogonofe",
+          "nome": "Estrogonofe",
+          "descricao": "Prato de tiras de carne refogadas em molho cremoso, de origem russa, muito popular no Brasil.",
+          "variantes": [
+            "Strogonoff",
+            "Stroganoff",
+            "Beef Stroganoff"
+          ]
+        },
+        {
+          "id": "half_dome",
+          "nome": "Half Dome",
+          "descricao": "Domo de granito na extremidade leste do Vale de Yosemite, na Califórnia.",
+          "variantes": [
+            "Meio Domo"
+          ]
+        },
+        {
+          "id": "dimetrodonte",
+          "nome": "Dimetrodonte",
+          "descricao": "Gênero extinto de sinapsídeo do Permiano, com grande vela dorsal, não é dinossauro.",
+          "variantes": [
+            "Dimetrodon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Locomotiva Rocket",
+        "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+        "variantes": [
+          "Rocket",
+          "Stephenson's Rocket",
+          "Rocket de Stephenson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "rocky_um_lutador",
+          "nome": "Rocky, um Lutador",
+          "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+          "variantes": [
+            "Rocky",
+            "Rocky Balboa",
+            "Rocky (1976)"
+          ]
+        },
+        {
+          "id": "arte_rupestre",
+          "nome": "Arte rupestre",
+          "descricao": "Pinturas e gravuras pré-históricas feitas em paredes de cavernas e rochas.",
+          "variantes": [
+            "Pintura rupestre",
+            "Rock art"
+          ]
+        },
+        {
+          "id": "locomotiva_a_vapor",
+          "nome": "Locomotiva a vapor",
+          "descricao": "Locomotiva que se move pela expansão do vapor produzido ao queimar combustível para aquecer água numa caldeira.",
+          "variantes": [
+            "Maria-fumaça",
+            "Steam locomotive",
+            "Cavalo de ferro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Esfigmomanômetro",
+        "descricao": "Aparelho com braçadeira inflável usado para medir a pressão arterial.",
+        "variantes": [
+          "Aparelho de pressão",
+          "Medidor de pressão arterial",
+          "Tensiômetro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panela_de_pressao",
+          "nome": "Panela de pressão",
+          "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+          "variantes": [
+            "Pressure cooker"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "alicate",
+          "nome": "Alicate",
+          "descricao": "Ferramenta manual de duas alavancas com mandíbulas, usada para segurar e dobrar objetos.",
+          "variantes": [
+            "Alicate de pressão"
+          ]
+        },
+        {
+          "id": "halo",
+          "nome": "Halo",
+          "descricao": "Arco de proteção de titânio instalado sobre o cockpit dos carros de Fórmula 1 para proteger a cabeça do piloto.",
+          "variantes": [
+            "Halo de proteção"
+          ]
+        },
+        {
+          "id": "relogio_de_arremesso",
+          "nome": "Relógio de arremesso",
+          "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+          "variantes": [
+            "Shot clock",
+            "Relógio de 24 segundos",
+            "Regra dos 24 segundos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Monjolo",
+        "descricao": "Máquina hidráulica rústica de pilão movido por uma gangorra com concha de água.",
+        "variantes": [
+          "Monjolo hidráulico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monoculo",
+          "nome": "Monóculo",
+          "descricao": "Lente circular corretiva usada em um só olho, presa pela órbita e por um cordão.",
+          "variantes": [
+            "Monocle"
+          ]
+        },
+        {
+          "id": "monopoly",
+          "nome": "Monopoly",
+          "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+          "variantes": [
+            "Monopólio"
+          ]
+        },
+        {
+          "id": "moncao",
+          "nome": "Monção",
+          "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+          "variantes": [
+            "Monções",
+            "Monsoon"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "helicoptero",
+      "motivo": "Mesma aeronave de asas rotativas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "circuito_integrado",
+      "motivo": "Mesmo conceito, o chip."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Micrômetro não consta entre as candidatas; nenhuma é o mesmo instrumento."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Máquina hidráulica distinta de Arquimedes (pessoa) e da roda d'água."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Instrumento de cálculo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "ferro_de_passar",
+      "motivo": "Mesmo aparelho doméstico."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "metronomo",
+      "motivo": "Mesmo aparelho, o metrônomo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Locomotiva específica Rocket, diferente da categoria geral de locomotiva a vapor."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o esfigmomanômetro."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Monjolo não consta entre as candidatas; apenas nomes parecidos."
+    }
+  ]
+}

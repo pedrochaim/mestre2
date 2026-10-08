@@ -1,0 +1,93 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta; distratores do mesmo tipo e errados, com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De parafuso calibrado' é a própria definição do micrômetro nos trechos e entrega a resposta sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Que instrumento de medição, usado em oficinas mecânicas, é este?",
+        "resposta": "Micrômetro",
+        "distratores": [
+          "Paquímetro",
+          "Goniômetro",
+          "Dinamômetro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A função descrita não identifica sozinha a máquina (nora e bomba também elevam água); distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Reduz a multiplicação a somas' lembra os logaritmos de Napier e entrega o nome sem a figura. Troquei pela época, que ajuda sem entregar (publicado em 1617).",
+      "reescrita": {
+        "pergunta": "Quem criou este instrumento manual de cálculo, publicado no início do século dezessete?",
+        "resposta": "John Napier",
+        "distratores": [
+          "Blaise Pascal",
+          "Wilhelm Schickard",
+          "Gottfried Leibniz"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês confirma a patente de Maelzel em 1815 do metrônomo mecânico de dar corda. O enunciado não nomeia o aparelho.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Rocket foi construída em 1829. Distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista; resposta e distratores de aparelhos médicos distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Engenho movido a água' descreve o monjolo e ajuda a responder sem a figura. Tirei a pista de funcionamento e mantive o contexto brasileiro.",
+      "reescrita": {
+        "pergunta": "Que máquina rústica, tradicional no interior do Brasil, é esta?",
+        "resposta": "Monjolo"
+      }
+    }
+  ]
+}
