@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Prancha botânica antiga de uma só planta (árvore, flor, fruto, semente), só com números, sem nomes.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que região da América foi domesticada pela primeira vez esta planta frutífera?",
+      "resposta": "Mesoamérica",
+      "ancora": {
+        "nome": "Mamão",
+        "descricao": "Carica papaya, planta frutífera tropical da família Caricaceae, de fruto alaranjado com sementes escuras.",
+        "variantes": [
+          "Papaia",
+          "Carica papaya",
+          "Papaya"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Árvore em flor vermelha inconfundível; as placas ao fundo não entregam a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que ilha africana é originária esta árvore de flores vermelho-alaranjadas?",
+      "resposta": "Madagascar",
+      "ancora": {
+        "nome": "Flamboyant",
+        "descricao": "Delonix regia, árvore ornamental da família Fabaceae, de flores vermelho-alaranjadas, nativa de Madagascar.",
+        "variantes": [
+          "Flamboyan",
+          "Delonix regia",
+          "Árvore-de-fogo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Planta com folhas em fita e cones no solo desértico, forma característica; espécie de aficionado, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que deserto africano cresce esta planta de longevidade extrema?",
+      "resposta": "Deserto do Namibe (Namib)",
+      "ancora": {
+        "nome": "Welwitschia",
+        "descricao": "Welwitschia mirabilis, planta do deserto do Namibe com duas folhas em fita que crescem a vida inteira.",
+        "variantes": [
+          "Welwitschia mirabilis",
+          "Tumbo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cacho de uvas escuras nítido, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que bebida alcoólica é produzida pela fermentação do suco deste fruto?",
+      "resposta": "Vinho",
+      "ancora": {
+        "nome": "Uva",
+        "descricao": "Fruto da videira (gênero Vitis), baga que cresce em cachos.",
+        "variantes": [
+          "Uva-de-vinho",
+          "Vitis vinifera"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flores vermelhas com espádice, bem nítidas e inconfundíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que planta ornamental de flores vermelhas brilhantes, com uma espiga clara no centro, é esta?",
+      "resposta": "Antúrio",
+      "ancora": {
+        "nome": "Antúrio",
+        "descricao": "Planta ornamental do gênero Anthurium (família Araceae), com espata vermelha brilhante e espádice central.",
+        "variantes": [
+          "Anthurium",
+          "Flor-de-flamingo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida do fungo em forma de rede vermelha, inconfundível; múltipla com parentes vermelhos como distratores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fungo é este?",
+      "resposta": "Cogumelo-gaiola",
+      "distratores": [
+        "Mão-do-diabo",
+        "Amanita-muscária",
+        "Língua-de-boi"
+      ],
+      "ancora": {
+        "nome": "Cogumelo-gaiola",
+        "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+        "variantes": [
+          "Clathrus ruber",
+          "Cesto-vermelho"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Samambaia nítida, sem texto; a pergunta sobre as folhas é verdadeira para a foto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chamam as folhas desta planta, que se desenrolam a partir de uma espiral?",
+      "resposta": "Frondes",
+      "ancora": {
+        "nome": "Samambaia",
+        "descricao": "Planta vascular sem flores nem sementes, que se reproduz por esporos, do grupo dos fetos (Polypodiopsida).",
+        "variantes": [
+          "Feto",
+          "Polypodiopsida"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Azeitonas em bandejas de mercado, claramente reconhecíveis; só etiquetas de preço, sem entregar resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que árvore nasce este fruto, vendido em conserva?",
+      "resposta": "Oliveira",
+      "ancora": {
+        "nome": "Azeitona",
+        "descricao": "Fruto da oliveira (Olea europaea), uma drupe usada em conserva e para extrair azeite.",
+        "variantes": [
+          "Oliva",
+          "Olive"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A foto pode ser da falsa cauda-de-peru (Stereum ostrea), de cores laranja e esverdeada, o que torna a resposta ambígua."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A inflorescência esférica branca não permite distinguir a cebola de alho-poró, cebolinha ou outros Allium; resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Hortênsia nítida, sem texto; mostra as sépalas coloridas e os botões.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Nesta flor, as peças grandes e coloridas que parecem pétalas são, na verdade, o quê?",
+      "resposta": "Sépalas",
+      "ancora": {
+        "nome": "Hortênsia",
+        "descricao": "Hydrangea macrophylla, arbusto ornamental de inflorescências em cacho, com sépalas grandes e coloridas.",
+        "variantes": [
+          "Hydrangea",
+          "Hortência"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Inflorescência pendente de helicônia, nítida e sem texto; múltipla com plantas tropicais de aspecto parecido.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta tropical é esta?",
+      "resposta": "Helicônia",
+      "distratores": [
+        "Estrelícia",
+        "Bastão-do-imperador",
+        "Alpínia"
+      ],
+      "ancora": {
+        "nome": "Helicônia",
+        "descricao": "Planta tropical do gênero Heliconia, de brácteas coloridas e pontiagudas dispostas em fileira.",
+        "variantes": [
+          "Heliconia",
+          "Bananeira-do-mato",
+          "Falsa-ave-do-paraíso"
+        ]
+      }
+    }
+  ]
+}

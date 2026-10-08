@@ -1,0 +1,80 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho da Wikipédia confirma domesticação na Mesoamérica; enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que é nativa de Madagascar; enunciado não nomeia a árvore e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam o deserto do Namibe (Namib); pista de longevidade não entrega a planta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho diz que do suco da uva se produz o vinho; o enunciado não nomeia o fruto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 de reconhecimento; descrição visual não entrega o nome e é compatível com o antúrio.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento; distratores são fungos de mesma categoria, críveis e curtos, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo teste da imagem coberta, a descrição das folhas que se desenrolam em espiral já leva às frondes das samambaias. A figura vira enfeite e o nível 1 deveria ser de reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que planta, sem flores nem sementes, comum em jardins e matas úmidas, é esta?",
+        "resposta": "Samambaia"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'fruto vendido em conserva' leva à azeitona e, daí, à oliveira, sem olhar a figura. A pista deve ajudar sem entregar.",
+      "reescrita": {
+        "pergunta": "De que árvore, típica da região do Mediterrâneo, vem este fruto?",
+        "resposta": "Oliveira"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "O trecho em português descreve as peças coloridas como brácteas modificadas, e a resposta 'sépalas' não está nos trechos. Um respondente poderia defender brácteas, então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento em múltipla escolha; distratores (estrelícia, bastão-do-imperador, alpínia) são plantas tropicais visualmente parecidas, nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

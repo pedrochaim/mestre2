@@ -1,0 +1,574 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mamão",
+        "descricao": "Carica papaya, planta frutífera tropical da família Caricaceae, de fruto alaranjado com sementes escuras.",
+        "variantes": [
+          "Papaia",
+          "Carica papaya",
+          "Papaya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        },
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "gamao",
+          "nome": "Gamão",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com dados e quinze peças cada, que andam por vinte e quatro casas triangulares.",
+          "variantes": [
+            "Backgammon"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Flamboyant",
+        "descricao": "Delonix regia, árvore ornamental da família Fabaceae, de flores vermelho-alaranjadas, nativa de Madagascar.",
+        "variantes": [
+          "Flamboyan",
+          "Delonix regia",
+          "Árvore-de-fogo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "elis_regina",
+          "nome": "Elis Regina",
+          "descricao": "Cantora gaúcha, uma das maiores intérpretes da MPB, morta em 1982.",
+          "variantes": [
+            "Elis Regina Carvalho Costa"
+          ]
+        },
+        {
+          "id": "formiga_lava_pes",
+          "nome": "Formiga-lava-pés",
+          "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes.",
+          "variantes": [
+            "Solenopsis invicta",
+            "formiga-de-fogo",
+            "red imported fire ant"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        },
+        {
+          "id": "delorean_dmc_12",
+          "nome": "DeLorean DMC-12",
+          "descricao": "Carro esportivo de carroceria de aço inoxidável e portas que abrem para cima, fabricado de 1981 a 1983 e famoso como máquina do tempo no cinema.",
+          "variantes": [
+            "DeLorean"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Welwitschia",
+        "descricao": "Welwitschia mirabilis, planta do deserto do Namibe com duas folhas em fita que crescem a vida inteira.",
+        "variantes": [
+          "Welwitschia mirabilis",
+          "Tumbo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "welwitschia",
+          "nome": "Welwitschia",
+          "descricao": "Planta do deserto do Namibe, Welwitschia mirabilis, que vive séculos com apenas duas folhas de crescimento contínuo.",
+          "variantes": [
+            "Welwitschia mirabilis",
+            "Tumbo"
+          ]
+        },
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "surdo",
+          "nome": "Surdo",
+          "descricao": "Grande tambor grave usado no samba e na percussão brasileira, tocado com baqueta.",
+          "variantes": [
+            "Bumbo"
+          ]
+        },
+        {
+          "id": "zabumba",
+          "nome": "Zabumba",
+          "descricao": "Tambor grave de duas peles, tocado com maceta e vareta, base do trio de forró pé de serra.",
+          "variantes": [
+            "Bumbo"
+          ]
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Uva",
+        "descricao": "Fruto da videira (gênero Vitis), baga que cresce em cachos.",
+        "variantes": [
+          "Uva-de-vinho",
+          "Vitis vinifera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        },
+        {
+          "id": "luva",
+          "nome": "Luva",
+          "descricao": "Peça de vestuário que cobre a mão, com compartimentos separados para cada dedo.",
+          "variantes": [
+            "Luvas"
+          ]
+        },
+        {
+          "id": "radiacao_ultravioleta",
+          "nome": "Radiação ultravioleta",
+          "descricao": "Radiação eletromagnética de comprimento de onda menor que o da luz violeta, emitida pelo Sol e dividida nas faixas A, B e C.",
+          "variantes": [
+            "Raios ultravioleta",
+            "UV"
+          ]
+        },
+        {
+          "id": "sauva",
+          "nome": "Saúva",
+          "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+          "variantes": [
+            "Atta",
+            "formiga-cortadeira",
+            "leafcutter ant"
+          ]
+        },
+        {
+          "id": "saca_rolhas",
+          "nome": "Saca-rolhas",
+          "descricao": "Utensílio com espiral metálica para tirar rolhas de garrafas, aqui no modelo de alavancas.",
+          "variantes": [
+            "Abridor de vinho",
+            "Corkscrew"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Antúrio",
+        "descricao": "Planta ornamental do gênero Anthurium (família Araceae), com espata vermelha brilhante e espádice central.",
+        "variantes": [
+          "Anthurium",
+          "Flor-de-flamingo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        },
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        },
+        {
+          "id": "antracito",
+          "nome": "Antracito",
+          "descricao": "Tipo de carvão mineral duro e brilhante, o de maior teor de carbono.",
+          "variantes": [
+            "Antracite"
+          ]
+        },
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        },
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cogumelo-gaiola",
+        "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+        "variantes": [
+          "Clathrus ruber",
+          "Cesto-vermelho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "esquilo_vermelho",
+          "nome": "Esquilo-vermelho",
+          "descricao": "Esquilo arborícola da espécie Sciurus vulgaris, de pelagem ruiva, comum na Eurásia.",
+          "variantes": [
+            "Esquilo-vermelho-eurasiático",
+            "Sciurus vulgaris"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Samambaia",
+        "descricao": "Planta vascular sem flores nem sementes, que se reproduz por esporos, do grupo dos fetos (Polypodiopsida).",
+        "variantes": [
+          "Feto",
+          "Polypodiopsida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "veto",
+          "nome": "Veto",
+          "descricao": "Poder de barrar uma decisão, cuja palavra vem do latim e era usada pelos tribunos da plebe romana.",
+          "variantes": []
+        },
+        {
+          "id": "fetiche",
+          "nome": "Fetiche",
+          "descricao": "Palavra que várias línguas europeias tomaram do português feitiço",
+          "variantes": [
+            "Fetish",
+            "Feitiço"
+          ]
+        },
+        {
+          "id": "sabia_laranjeira",
+          "nome": "Sabiá-laranjeira",
+          "descricao": "Ave canora (Turdus rufiventris), ave nacional do Brasil, de ventre alaranjado.",
+          "variantes": [
+            "Sabiá",
+            "Turdus rufiventris"
+          ]
+        },
+        {
+          "id": "sambaqui",
+          "nome": "Sambaqui",
+          "descricao": "Monte artificial pré-histórico de conchas e restos, comum no litoral brasileiro.",
+          "variantes": [
+            "Sambaquis",
+            "Concheiro"
+          ]
+        },
+        {
+          "id": "saramandaia_telenovela_de_1976",
+          "nome": "Saramandaia (telenovela de 1976)",
+          "descricao": "Telenovela da Rede Globo de 1976, escrita por Dias Gomes, marcada pelo realismo fantástico, com personagens como um homem que cria asas.",
+          "variantes": [
+            "Saramandaia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Azeitona",
+        "descricao": "Fruto da oliveira (Olea europaea), uma drupe usada em conserva e para extrair azeite.",
+        "variantes": [
+          "Oliveira",
+          "Oliva",
+          "Olive"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolivia",
+          "nome": "Bolívia",
+          "descricao": "País sem litoral da América do Sul, com capital constitucional em Sucre e sede de governo em La Paz.",
+          "variantes": [
+            "Estado Plurinacional da Bolívia"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "ollie",
+          "nome": "Ollie",
+          "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+          "variantes": [
+            "Ollie (skate)"
+          ]
+        },
+        {
+          "id": "bicho_preguica",
+          "nome": "Bicho-preguiça",
+          "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+          "variantes": [
+            "Preguiça",
+            "Sloth",
+            "Folivora"
+          ]
+        },
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Helicônia",
+        "descricao": "Planta tropical do gênero Heliconia, de brácteas coloridas e pontiagudas dispostas em fileira.",
+        "variantes": [
+          "Bananeira-do-mato",
+          "Falsa-ave-do-paraíso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ave_do_paraiso",
+          "nome": "Ave-do-paraíso",
+          "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+          "variantes": [
+            "Estrelítzia",
+            "Strelitzia reginae",
+            "Flor-da-rainha"
+          ]
+        },
+        {
+          "id": "aves_do_paraiso",
+          "nome": "Aves-do-paraíso",
+          "descricao": "Família de aves (Paradisaeidae) de plumagens exuberantes e danças de corte, sobretudo da Nova Guiné.",
+          "variantes": [
+            "Paradisaeidae",
+            "Ave-do-paraíso",
+            "Birds-of-paradise"
+          ]
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        },
+        {
+          "id": "bandeira_do_vaticano",
+          "nome": "Bandeira do Vaticano",
+          "descricao": "Bandeira da Cidade do Vaticano, com as chaves de São Pedro e a tiara papal sobre faixa branca ao lado de faixa amarela.",
+          "variantes": [
+            "Vaticano",
+            "Bandeira da Cidade do Vaticano"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "mamao",
+      "motivo": "Mesma fruta Carica papaya."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a árvore Delonix regia."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "welwitschia",
+      "motivo": "Mesma planta Welwitschia mirabilis."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "uva",
+      "motivo": "Mesmo fruto da videira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o antúrio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o fungo Clathrus ruber."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a samambaia."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a azeitona."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Helicônia é um gênero distinto de Strelitzia e das aves; nenhuma candidata corresponde."
+    }
+  ]
+}

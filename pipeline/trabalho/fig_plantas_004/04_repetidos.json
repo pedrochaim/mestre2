@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que região da América foi domesticada pela primeira vez esta planta frutífera?",
+        "resposta": "Mesoamérica"
+      },
+      "existentes": [
+        {
+          "id": "q07301",
+          "pergunta": "Que fruta tropical é esta?",
+          "resposta": "Mamão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que deserto africano cresce esta planta de longevidade extrema?",
+        "resposta": "Deserto do Namibe (Namib)"
+      },
+      "existentes": [
+        {
+          "id": "q04801",
+          "pergunta": "A welwitschia, planta que vive séculos com apenas duas folhas que nunca param de crescer, é nativa de que deserto africano?",
+          "resposta": "Deserto do Namibe"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que bebida alcoólica é produzida pela fermentação do suco deste fruto?",
+        "resposta": "Vinho"
+      },
+      "existentes": [
+        {
+          "id": "q01856",
+          "pergunta": "Que bebida fermentada é feita com esta fruta?",
+          "resposta": "Vinho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Região de domesticação é fato diferente da identificação da fruta (mamão)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: deserto nativo da welwitschia (Namibe)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a bebida fermentada feita com a fruta, resposta vinho."
+    }
+  ]
+}
