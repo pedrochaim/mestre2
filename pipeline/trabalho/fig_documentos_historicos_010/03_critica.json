@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro voo em 2 de março de 1969, confirmado nos trechos. Enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são manuscritos insulares ou afins, têm até 4 palavras e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Evento de 15 de novembro de 1889 confirmado. O enunciado só aponta para o quadro e não nomeia o evento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O edifício fica numa ilha, não 'à beira' da baía. A combinação 'neogótico' e 'baía de Guanabara' quase entrega a resposta sem olhar a figura. Reescrita com pista mais fraca, só época e cidade.",
+      "reescrita": {
+        "pergunta": "Que edifício carioca da época do Império é este?",
+        "resposta": "Palácio da Ilha Fiscal",
+        "distratores": [
+          "Palácio Guanabara",
+          "Paço Imperial",
+          "Palácio Itamaraty"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O manuscrito Nowell Codex contém Beowulf, em inglês antigo. O enunciado não nomeia a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As pedras são do século X, e a resposta é única. Os distratores são séculos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintura de 1533 de Holbein, o Jovem, confirmada. Citar o autor ajuda sem entregar o título.",
+      "reescrita": null
+    }
+  ]
+}

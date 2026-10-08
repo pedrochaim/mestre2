@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano foi o primeiro voo deste avião?",
+        "resposta": "1969"
+      },
+      "existentes": [
+        {
+          "id": "q00985",
+          "pergunta": "Depois de quase trinta anos levando passageiros entre Europa e Estados Unidos, em que ano o Concorde fez seus últimos voos comerciais?",
+          "resposta": "2003"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que edifício carioca da época do Império é este?",
+        "resposta": "Palácio da Ilha Fiscal"
+      },
+      "existentes": [
+        {
+          "id": "q02224",
+          "pergunta": "O Baile da Ilha Fiscal, na baía de Guanabara, foi a última grande festa do Império. Ele aconteceu poucos dias antes de qual acontecimento?",
+          "resposta": "Proclamação da República"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que quadro de Hans Holbein, o Jovem, é este?",
+        "resposta": "Os Embaixadores"
+      },
+      "existentes": [
+        {
+          "id": "q00431",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Hans Holbein, o Jovem"
+        },
+        {
+          "id": "q03069",
+          "pergunta": "Que objeto, pintado de forma distorcida e só reconhecível quando visto de lado, aparece no chão do quadro Os Embaixadores, de Holbein?",
+          "resposta": "Uma caveira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Primeiro voo (1969) é um fato diferente do último voo comercial (2003)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o edifício pela imagem é diferente de perguntar o que ocorreu depois do baile."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Título do quadro é diferente do autor e do objeto distorcido (caveira)."
+    }
+  ]
+}

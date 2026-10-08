@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do Concorde; o texto British Airways não entrega o nome nem o ano.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi o primeiro voo deste avião?",
+      "resposta": "1969",
+      "destino": 1,
+      "ancora": {
+        "nome": "Concorde",
+        "descricao": "Avião de passageiros supersônico anglo-francês aposentado em 2003, desenvolvido pela Sud Aviation e pela BAC.",
+        "variantes": [
+          "Aérospatiale-BAC Concorde"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A folha de rosto traz o título e o nome de Newton, que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A capa traz escrito Constituição da República dos Estados Unidos do Brazil, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O frontispício traz escrito Constituição política da monarquia espanhola, promulgada em Cádis, 1812, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A folha de rosto traz o título e o nome de Maquiavel, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "A página de abertura do Evangelho de Mateus é característica e o texto em latim não nomeia a obra. Em múltipla escolha, com manuscritos insulares parecidos, a pergunta fica justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que manuscrito iluminado medieval é este?",
+      "resposta": "Evangelhos de Lindisfarne",
+      "distratores": [
+        "Livro de Kells",
+        "Livro de Durrow",
+        "Codex Amiatinus"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Evangelhos de Lindisfarne",
+        "descricao": "Manuscrito iluminado em latim de arte insular, produzido por volta de 715 a 720 no mosteiro de Lindisfarne, hoje na Biblioteca Britânica.",
+        "variantes": [
+          "Lindisfarne Gospels",
+          "Livro de Lindisfarne"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura clara de Benedito Calixto, sem texto relevante, que retrata um acontecimento famoso.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+      "resposta": "Proclamação da República",
+      "destino": 2,
+      "ancora": {
+        "nome": "Proclamação da República",
+        "descricao": "Golpe político-militar de 15 de novembro de 1889 que pôs fim ao Império do Brasil e instaurou a república.",
+        "variantes": [
+          "Proclamação da República do Brasil",
+          "15 de Novembro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto do palácio neogótico da Ilha Fiscal, inconfundível na baía de Guanabara.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício neogótico à beira da baía de Guanabara é este?",
+      "resposta": "Palácio da Ilha Fiscal",
+      "distratores": [
+        "Palácio Guanabara",
+        "Paço Imperial",
+        "Palácio Itamaraty"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Ilha Fiscal",
+        "descricao": "Ilha da baía de Guanabara, no Rio de Janeiro, com um palácio neogótico construído no reinado de Pedro II para a alfândega.",
+        "variantes": [
+          "Palácio da Ilha Fiscal",
+          "Ilha dos Ratos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Página do manuscrito Nowell Codex em inglês antigo; o texto ilegível para leigos não nomeia a obra.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que obra da literatura em inglês antigo tem esta página de manuscrito?",
+      "resposta": "Beowulf",
+      "destino": 3,
+      "ancora": {
+        "nome": "Manuscrito de Beowulf",
+        "descricao": "Manuscrito Nowell Codex, de cerca do ano mil, que contém o poema épico em inglês antigo Beowulf.",
+        "variantes": [
+          "Nowell Codex",
+          "Cotton Vitellius A.xv"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto das duas pedras de Jelling, sem texto legível; reconhecível por aficionados, por isso múltipla escolha.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foram erguidas estas pedras rúnicas?",
+      "resposta": "Século dez",
+      "distratores": [
+        "Século oito",
+        "Século doze",
+        "Século catorze"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Pedras de Jelling",
+        "descricao": "Duas grandes pedras rúnicas do século dez em Jelling, na Dinamarca, erguidas pelo rei Gorm e por seu filho Harald Dente Azul.",
+        "variantes": [
+          "Jelling stones",
+          "Pedras rúnicas de Jelling"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem traz a legenda Victory Portsmouth e o nome VICTORY na popa, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pintura de Holbein em domínio público, sem texto, com a caveira anamórfica e os instrumentos científicos reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que quadro de Hans Holbein, o Jovem, é este?",
+      "resposta": "Os Embaixadores",
+      "destino": 0,
+      "ancora": {
+        "nome": "Os Embaixadores",
+        "descricao": "Pintura de 1533 de Hans Holbein, o Jovem, com o duplo retrato de Jean de Dinteville e Georges de Selve e uma caveira em anamorfose.",
+        "variantes": [
+          "The Ambassadors",
+          "Os Embaixadores Franceses"
+        ]
+      }
+    }
+  ]
+}
