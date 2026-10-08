@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que jogo de tabuleiro antigo é este?",
+        "resposta": "Senet"
+      },
+      "existentes": [
+        {
+          "id": "q06439",
+          "pergunta": "O senet era um jogo de tabuleiro do Egito Antigo. Que faraó, famoso pela tumba quase intacta, foi enterrado com vários tabuleiros dele?",
+          "resposta": "Tutancâmon"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que jogo de peças, nascido na China, é este?",
+        "resposta": "Mahjong"
+      },
+      "existentes": [
+        {
+          "id": "q08380",
+          "pergunta": "No mahjong, jogo chinês de peças, além dos naipes de círculos, bambus e caracteres, há peças de honra com dragões e com o quê?",
+          "resposta": "Ventos"
+        },
+        {
+          "id": "q08398",
+          "pergunta": "Em alguns dialetos chineses, o nome do mahjong, jogo de peças ilustradas, é o mesmo de qual pássaro?",
+          "resposta": "Pardal"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do jogo (Senet); a existente já dá o nome e pergunta sobre o faraó enterrado com tabuleiros. Os fatos são diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do jogo (Mahjong) a partir da origem. As existentes tratam das peças de honra e do homônimo do pássaro, que são fatos diferentes."
+    }
+  ]
+}

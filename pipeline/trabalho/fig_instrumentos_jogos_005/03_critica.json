@@ -1,0 +1,88 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falar em ameaça de captura descreve o xeque; dá para responder sem a figura. Troco por um fato que exige reconhecer a peça.",
+      "reescrita": {
+        "pergunta": "Em um lance comum, quantas casas esta peça pode andar?",
+        "resposta": "Uma casa"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Amplificador é palpite natural para qualquer instrumento e caixa de som também seria defensável. A figura não é necessária. Reescrevo como reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cordas é este?",
+        "resposta": "Guitarra elétrica"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O menino' e 'neste quadro' não constam em mostra e não dá para confirmar. Removo o que não está verificado.",
+      "reescrita": {
+        "pergunta": "Que instrumento de sopro é este?",
+        "resposta": "Pífano",
+        "distratores": [
+          "Flauta doce",
+          "Clarinete",
+          "Ocarina"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento. Distratores são metais parecidos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Distratores são jogos antigos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Country também nasceu no sul dos Estados Unidos e a gaita é associada a ele, então a resposta não é única. Uso gaitistas citados nos trechos como blues.",
+      "reescrita": {
+        "pergunta": "Com este instrumento, Little Walter e Sonny Boy Williamson marcaram qual gênero musical?",
+        "resposta": "Blues"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mostrado aqui em vários tamanhos' não consta em mostra e sugere uma montagem. Removo isso.",
+      "reescrita": {
+        "pergunta": "Que instrumento de sopro da família das madeiras é este?",
+        "resposta": "Clarinete"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O dominó também é um jogo de peças de origem chinesa, então o distrator se encaixa no enunciado. Troco por outro.",
+      "reescrita": {
+        "pergunta": "Que jogo de peças, nascido na China, é este?",
+        "resposta": "Mahjong",
+        "distratores": [
+          "Gamão",
+          "Rummikub",
+          "Shogi"
+        ]
+      }
+    }
+  ]
+}

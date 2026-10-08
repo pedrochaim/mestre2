@@ -1,0 +1,506 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rei (xadrez)",
+        "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+        "variantes": [
+          "Rei",
+          "King"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "torre_xadrez",
+          "nome": "Torre (xadrez)",
+          "descricao": "Peça do xadrez que se move em linha reta, na horizontal ou na vertical, chamada rukh no xadrez persa.",
+          "variantes": [
+            "Rook"
+          ]
+        },
+        {
+          "id": "roque",
+          "nome": "Roque",
+          "descricao": "Lance especial do xadrez em que o rei e uma torre se movem ao mesmo tempo.",
+          "variantes": [
+            "Castling",
+            "Roque (xadrez)"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "peao_xadrez",
+          "nome": "Peão (xadrez)",
+          "descricao": "Peça mais numerosa do xadrez, oito para cada lado, que avança para a frente e captura na diagonal.",
+          "variantes": [
+            "Peão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Guitarra elétrica",
+        "descricao": "Instrumento de cordas de corpo sólido que usa captadores e precisa de amplificação externa.",
+        "variantes": [
+          "Guitarra",
+          "Electric guitar",
+          "Stratocaster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "urna_eletronica_brasileira",
+          "nome": "Urna eletrônica brasileira",
+          "descricao": "Equipamento eletrônico de votação usado nas eleições do Brasil.",
+          "variantes": [
+            "Urna eletrônica"
+          ]
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pífano",
+        "descricao": "Pequena flauta transversal aguda, de timbre estridente, usada em bandas militares e em bandas de pífanos.",
+        "variantes": [
+          "Pífaro",
+          "Pife",
+          "Fife"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        },
+        {
+          "id": "o_pifaro_manet",
+          "nome": "O Pífaro (Manet)",
+          "descricao": "Pintura de 1866 de Édouard Manet que mostra um jovem tocador de pífaro uniformizado, no Museu d'Orsay.",
+          "variantes": [
+            "O Pífaro",
+            "The Fifer",
+            "O Jovem Flautista"
+          ]
+        },
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        },
+        {
+          "id": "francisco_pizarro",
+          "nome": "Francisco Pizarro",
+          "descricao": "Conquistador espanhol que liderou a conquista do Império Inca na década de 1530.",
+          "variantes": [
+            "Pizarro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Trompete",
+        "descricao": "Instrumento de sopro da família dos metais, com três válvulas e som agudo e brilhante.",
+        "variantes": [
+          "Trumpet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "trompa",
+          "nome": "Trompa",
+          "descricao": "Instrumento de metal de tubo enrolado em espiral, com grande campânula e válvulas rotativas.",
+          "variantes": [
+            "Trompa francesa",
+            "French horn"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "tatu_bola",
+          "nome": "Tatu-bola",
+          "descricao": "Tatu sul-americano que se enrola em bola, gênero Tolypeutes.",
+          "variantes": [
+            "Tolypeutes"
+          ]
+        },
+        {
+          "id": "hat_trick",
+          "nome": "Hat-trick",
+          "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida.",
+          "variantes": [
+            "Tripleta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Senet",
+        "descricao": "Jogo de tabuleiro do Egito Antigo, com peões e tabuleiro de 30 casas.",
+        "variantes": [
+          "Senat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "senet",
+          "nome": "Senet",
+          "descricao": "Jogo de tabuleiro do Egito Antigo, de trinta casas, um dos jogos de tabuleiro mais antigos conhecidos.",
+          "variantes": [
+            "Senat"
+          ]
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "sensei",
+          "nome": "Sensei",
+          "descricao": "Termo japonês de tratamento usado para professores e mestres, inclusive nas artes marciais.",
+          "variantes": [
+            "Sensē"
+          ]
+        },
+        {
+          "id": "siena",
+          "nome": "Siena",
+          "descricao": "Cidade da Toscana, na Itália, famosa pela Piazza del Campo e pela Torre del Mangia.",
+          "variantes": [
+            "Sienna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gaita",
+        "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+        "variantes": [
+          "Gaita de boca",
+          "Harmônica",
+          "Harmonica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "armonica_de_vidro",
+          "nome": "Armônica de vidro",
+          "descricao": "Instrumento de tigelas de vidro giratórias, tocado com os dedos molhados, criado no século dezoito.",
+          "variantes": [
+            "Harmônica de vidro",
+            "Glass harmonica",
+            "Armonica"
+          ]
+        },
+        {
+          "id": "bhagavad_gita",
+          "nome": "Bhagavad Gita",
+          "descricao": "Texto sagrado hindu em forma de diálogo entre Krishna e Arjuna, parte do Mahabharata.",
+          "variantes": [
+            "Gita"
+          ]
+        },
+        {
+          "id": "grafite",
+          "nome": "Grafite",
+          "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+          "variantes": [
+            "Grafita",
+            "Graphite"
+          ]
+        },
+        {
+          "id": "amonia",
+          "nome": "Amônia",
+          "descricao": "Composto de nitrogênio e hidrogênio, gás de cheiro forte usado em fertilizantes e produtos de limpeza.",
+          "variantes": [
+            "Amoníaco",
+            "Ammonia"
+          ]
+        },
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Clarinete",
+        "descricao": "Instrumento de sopro de palheta simples, da família das madeiras, com tubo quase cilíndrico.",
+        "variantes": [
+          "Clarinet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        },
+        {
+          "id": "eta_carinae",
+          "nome": "Eta Carinae",
+          "descricao": "Sistema estelar massivo na constelação da Carena, cercado pela Nebulosa do Homúnculo, formada na Grande Erupção do século dezenove.",
+          "variantes": [
+            "η Carinae",
+            "Eta Argus"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mahjong",
+        "descricao": "Jogo chinês de peças para quatro jogadores, jogado com 144 peças.",
+        "variantes": [
+          "Mah-jongg",
+          "Majong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mahjong",
+          "nome": "Mahjong",
+          "descricao": "Jogo chinês para quatro jogadores, jogado com peças ilustradas de naipes, ventos e dragões.",
+          "variantes": [
+            "Mah-jong",
+            "Majongue"
+          ]
+        },
+        {
+          "id": "cajon",
+          "nome": "Cajón",
+          "descricao": "Instrumento de percussão em forma de caixa de madeira, sobre o qual o músico se senta",
+          "variantes": []
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "speed_racer",
+          "nome": "Speed Racer",
+          "descricao": "Anime japonês de corridas de 1967, chamado Mach GoGoGo no original.",
+          "variantes": [
+            "Mach GoGoGo"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Rei do xadrez é distinto do rei de baralho e das demais peças."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é guitarra elétrica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pífano é o instrumento; a pintura de Manet é obra diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Trompete não está entre as candidatas; trompa é outro instrumento."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "senet",
+      "motivo": "Mesmo jogo de tabuleiro egípcio de 30 casas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gaita de boca difere da armônica de vidro."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o clarinete."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "mahjong",
+      "motivo": "Mesmo jogo chinês de quatro jogadores com peças."
+    }
+  ]
+}

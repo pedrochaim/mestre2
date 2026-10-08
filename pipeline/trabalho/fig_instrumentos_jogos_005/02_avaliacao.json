@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Rei de xadrez branco, nítido, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Quando esta peça está sob ameaça de captura, como se chama essa situação?",
+      "resposta": "Xeque",
+      "ancora": {
+        "nome": "Rei (xadrez)",
+        "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+        "variantes": [
+          "Rei",
+          "King"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O console mostra 'Nintendo Entertainment System' escrito na tampa, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem de baixíssima resolução (300x225), com partitura ao fundo; não fica legível no celular e o oboé pode ser confundido com um clarinete."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Guitarra tipo Stratocaster sobre fundo branco, nítida e sem texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que aparelho é indispensável para ouvir este instrumento em volume de show?",
+      "resposta": "Amplificador",
+      "ancora": {
+        "nome": "Guitarra elétrica",
+        "descricao": "Instrumento de cordas de corpo sólido que usa captadores e precisa de amplificação externa.",
+        "variantes": [
+          "Guitarra",
+          "Electric guitar",
+          "Stratocaster"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "As fichas trazem 'Casino de Isthmus City' e valores escritos; o texto aponta para a resposta e a imagem é um conjunto de fichas com texto."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pintura 'O Pífano', de Manet (domínio público), nítida; o instrumento tocado aparece com clareza e não há texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que instrumento de sopro o menino toca neste quadro?",
+      "resposta": "Pífano",
+      "distratores": [
+        "Flauta doce",
+        "Clarinete",
+        "Ocarina"
+      ],
+      "ancora": {
+        "nome": "Pífano",
+        "descricao": "Pequena flauta transversal aguda, de timbre estridente, usada em bandas militares e em bandas de pífanos.",
+        "variantes": [
+          "Pífaro",
+          "Pife",
+          "Fife"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Trompete dourado, nítido, de perfil e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que instrumento de metal é este?",
+      "resposta": "Trompete",
+      "distratores": [
+        "Corneta",
+        "Fliscorne",
+        "Trombone"
+      ],
+      "ancora": {
+        "nome": "Trompete",
+        "descricao": "Instrumento de sopro da família dos metais, com três válvulas e som agudo e brilhante.",
+        "variantes": [
+          "Trumpet"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O console e o controle trazem 'Wii' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tabuleiro de senet em marfim, com peões, da coleção egípcia; sem texto legível (só hieróglifos); reconhecível e nítido.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que jogo de tabuleiro antigo é este?",
+      "resposta": "Senet",
+      "distratores": [
+        "Mehen",
+        "Jogo Real de Ur",
+        "Mancala"
+      ],
+      "ancora": {
+        "nome": "Senet",
+        "descricao": "Jogo de tabuleiro do Egito Antigo, com peões e tabuleiro de 30 casas.",
+        "variantes": [
+          "Senat"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Duas gaitas (cromática e diatônica), nítidas; o texto 'Chromonica' é só a marca e não entrega o que se pergunta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Este instrumento é muito associado a que gênero musical, nascido no sul dos Estados Unidos?",
+      "resposta": "Blues",
+      "ancora": {
+        "nome": "Gaita",
+        "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+        "variantes": [
+          "Gaita de boca",
+          "Harmônica",
+          "Harmonica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Família de clarinetes em vários tamanhos, nítida, sem texto; um único assunto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento de sopro, mostrado aqui em vários tamanhos, é este?",
+      "resposta": "Clarinete",
+      "ancora": {
+        "nome": "Clarinete",
+        "descricao": "Instrumento de sopro de palheta simples, da família das madeiras, com tubo quase cilíndrico.",
+        "variantes": [
+          "Clarinet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Partida de mahjong com peças e mesa verde reconhecíveis; mãos desfocadas, sem rostos; os caracteres nas peças não entregam o nome.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que jogo de peças, nascido na China, é este?",
+      "resposta": "Mahjong",
+      "distratores": [
+        "Dominó",
+        "Rummikub",
+        "Shogi"
+      ],
+      "ancora": {
+        "nome": "Mahjong",
+        "descricao": "Jogo chinês de peças para quatro jogadores, jogado com 144 peças.",
+        "variantes": [
+          "Mah-jongg",
+          "Majong"
+        ]
+      }
+    }
+  ]
+}
