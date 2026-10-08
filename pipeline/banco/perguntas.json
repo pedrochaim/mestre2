@@ -160498,5 +160498,515 @@
       "autor": "Europeana staff photographer",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q09368",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "santa_maria_nau_de_colombo",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Em 1492, Cristóvão Colombo cruzou o Atlântico com três embarcações: Santa Maria, Pinta e Niña. Qual delas era a maior?",
+    "resposta": "Santa Maria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_(ship)"
+    ]
+  },
+  {
+    "id": "q09369",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rms_olympic",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Olympic, Titanic e Britannic eram navios irmãos da White Star Line. Qual dos três passou mais anos em serviço?",
+    "resposta": "Olympic",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/RMS_Olympic"
+    ]
+  },
+  {
+    "id": "q09370",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "tupolev_tu_144",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "O Concorde teve um rival soviético, o Tupolev Tu-144. Qual desses dois aviões supersônicos de passageiros voou primeiro?",
+    "resposta": "Tupolev Tu-144",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tupolev_Tu-144",
+      "https://en.wikipedia.org/wiki/Concorde"
+    ]
+  },
+  {
+    "id": "q09371",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "canal_do_panama",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Por causa da curva do istmo, qual ponta do Canal do Panamá fica mais a leste: a do Atlântico ou a do Pacífico?",
+    "resposta": "A do Pacífico",
+    "fonte": [
+      "https://www.britannica.com/topic/Panama-Canal",
+      "https://en.wikipedia.org/wiki/Panama_Canal"
+    ]
+  },
+  {
+    "id": "q09372",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "canal_de_suez",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes canais artificiais que ligam mares ou oceanos é o mais longo?",
+    "resposta": "Canal de Suez",
+    "distratores": [
+      "Canal do Panamá",
+      "Canal de Kiel",
+      "Canal de Corinto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suez_Canal",
+      "https://en.wikipedia.org/wiki/Panama_Canal",
+      "https://en.wikipedia.org/wiki/Kiel_Canal",
+      "https://en.wikipedia.org/wiki/Corinth_Canal"
+    ]
+  },
+  {
+    "id": "q09373",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "de_havilland_comet",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes aviões foi o primeiro jato comercial de passageiros a entrar em serviço?",
+    "resposta": "de Havilland Comet",
+    "distratores": [
+      "Boeing 707",
+      "Douglas DC-8",
+      "Sud Aviation Caravelle"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+    ]
+  },
+  {
+    "id": "q09374",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "mallard_locomotiva",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas locomotivas a vapor britânicas foi a mais veloz, chegando a duzentos e três quilômetros por hora em 1938?",
+    "resposta": "Mallard",
+    "distratores": [
+      "Flying Scotsman",
+      "Rocket",
+      "City of Truro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/LNER_Class_A4_4468_Mallard"
+    ]
+  },
+  {
+    "id": "q09375",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "klm",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas companhias aéreas é a mais antiga ainda em operação com o mesmo nome com que foi fundada?",
+    "resposta": "KLM",
+    "distratores": [
+      "Qantas",
+      "Lufthansa",
+      "Air France"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/KLM"
+    ]
+  },
+  {
+    "id": "q09376",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "onibus_espacial_columbia",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes ônibus espaciais da NASA foi o primeiro a ir ao espaço, em 1981?",
+    "resposta": "Columbia",
+    "distratores": [
+      "Challenger",
+      "Discovery",
+      "Atlantis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+    ]
+  },
+  {
+    "id": "q09377",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "ford_modelo_a_1903",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "O Modelo T não foi o primeiro carro da Ford. Como se chamava o primeiro modelo vendido pela empresa, em 1903?",
+    "resposta": "Modelo A",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ford_Model_A_(1903%E2%80%931904)"
+    ]
+  },
+  {
+    "id": "q09378",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "penny_farthing",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No antigo biciclo de roda dianteira gigante, que não tinha corrente, onde ficavam presos os pedais?",
+    "resposta": "No eixo da roda dianteira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Penny-farthing"
+    ]
+  },
+  {
+    "id": "q09379",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "locomotiva_a_vapor",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nas locomotivas a vapor, como se chama o vagão engatado logo atrás da máquina, que carrega o carvão e a água?",
+    "resposta": "Tênder",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tender_(rail)"
+    ]
+  },
+  {
+    "id": "q09380",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "bicicleta_de_seguranca",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1885, a inglesa Rover lançou uma bicicleta com rodas de tamanho igual, base da bicicleta moderna. Que peça levava a força dos pedais à roda traseira?",
+    "resposta": "Corrente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Safety_bicycle"
+    ]
+  },
+  {
+    "id": "q09381",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "airbag",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Numa batida, os airbags dos carros se enchem em fração de segundo com que gás?",
+    "resposta": "Nitrogênio",
+    "distratores": [
+      "Hélio",
+      "Oxigênio",
+      "Hidrogênio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Airbag"
+    ]
+  },
+  {
+    "id": "q09382",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "pneu_pneumatico",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Os primeiros pneus eram claros. Que pó, misturado à borracha para deixá-la mais resistente, tornou os pneus pretos?",
+    "resposta": "Negro de fumo",
+    "distratores": [
+      "Grafite",
+      "Piche",
+      "Carvão vegetal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carbon_black",
+      "https://en.wikipedia.org/wiki/Tire"
+    ]
+  },
+  {
+    "id": "q09383",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "concorde",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na decolagem e no pouso, que parte do Concorde se inclinava para baixo, para os pilotos conseguirem enxergar a pista?",
+    "resposta": "O nariz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Concorde"
+    ]
+  },
+  {
+    "id": "q09384",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "rolls_royce_automoveis",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a estatueta de uma mulher com os braços abertos como asas que enfeita o capô dos carros Rolls-Royce?",
+    "resposta": "Spirit of Ecstasy",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirit_of_Ecstasy"
+    ]
+  },
+  {
+    "id": "q09385",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "alfa_romeo",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O emblema da Alfa Romeo junta a cruz vermelha de Milão a que animal, símbolo da antiga família Visconti?",
+    "resposta": "Serpente",
+    "distratores": [
+      "Águia",
+      "Leão",
+      "Cavalo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Biscione",
+      "https://en.wikipedia.org/wiki/Alfa_Romeo"
+    ]
+  },
+  {
+    "id": "q09386",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "luzes_de_navegacao",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "À noite, navios e aviões acendem uma luz verde do lado direito. Que cor tem a luz do lado esquerdo?",
+    "resposta": "Vermelha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Navigation_light"
+    ]
+  },
+  {
+    "id": "q09387",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "ford_modelo_t",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma frase famosa atribuída a Henry Ford, o cliente podia ter o Modelo T em qualquer cor, desde que fosse qual?",
+    "resposta": "Preto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ford_Model_T"
+    ]
+  },
+  {
+    "id": "q09388",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "gondola_veneziana",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O gondoleiro de Veneza rema em pé, com um só remo e sempre do mesmo lado. Que característica do casco impede a gôndola de andar em círculos?",
+    "resposta": "O casco é assimétrico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gondola"
+    ]
+  },
+  {
+    "id": "q09389",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "metro_de_moscou",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Durante a Segunda Guerra Mundial, além de levar passageiros, para que serviram as estações profundas do metrô de Moscou?",
+    "resposta": "Abrigo antiaéreo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moscow_Metro"
+    ]
+  },
+  {
+    "id": "q09390",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "la_jamais_contente",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1899, o primeiro carro a passar de cem quilômetros por hora tinha formato de torpedo. Que tipo de energia o movia?",
+    "resposta": "Eletricidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Jamais_Contente"
+    ]
+  },
+  {
+    "id": "q09391",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "drakkar",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra drakkar, usada para os navios vikings, vem de que criatura, cuja cabeça esculpida às vezes enfeitava a proa?",
+    "resposta": "Dragão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Drakkar",
+      "https://en.wikipedia.org/wiki/Longship"
+    ]
+  },
+  {
+    "id": "q09392",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "fiat",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A sigla Fiat inclui o nome da cidade italiana onde a fábrica foi fundada, em 1899. Que cidade é essa?",
+    "resposta": "Turim",
+    "distratores": [
+      "Milão",
+      "Gênova",
+      "Roma"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fiat"
+    ]
+  },
+  {
+    "id": "q09393",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "linha_de_plimsoll",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A marca pintada no casco que mostra o limite de carga de um navio leva o nome de um deputado britânico do século dezenove. Qual era o sobrenome dele?",
+    "resposta": "Plimsoll",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samuel_Plimsoll"
+    ]
+  },
+  {
+    "id": "q09394",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "piaggio_ape",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Vespa e Ape são veículos da mesma fábrica italiana, a Piaggio. Que tipo de animal dá nome aos dois?",
+    "resposta": "Insetos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piaggio_Ape",
+      "https://en.wikipedia.org/wiki/Vespa"
+    ]
+  },
+  {
+    "id": "q09395",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "toyota",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes dos automóveis, a família japonesa que criou a Toyota prosperou fabricando outra máquina, inventada por Sakichi Toyoda. Que máquina era essa?",
+    "resposta": "Tear automático",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sakichi_Toyoda",
+      "https://en.wikipedia.org/wiki/Toyota_Industries"
+    ]
+  },
+  {
+    "id": "q09396",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "supermarine_spitfire",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O motor Merlin, que equipava o caça britânico Spitfire na Segunda Guerra, era fabricado por que empresa, famosa também por carros de luxo?",
+    "resposta": "Rolls-Royce",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rolls-Royce_Merlin"
+    ]
+  },
+  {
+    "id": "q09397",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "porsche_911",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Fusca e as primeiras gerações do esportivo Porsche 911 tinham em comum o tipo de motor. Que característica era essa?",
+    "resposta": "Traseiro e refrigerado a ar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porsche_911"
+    ]
+  },
+  {
+    "id": "q09398",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "helicoptero",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a maioria dos helicópteros tem um pequeno rotor na cauda, além do rotor principal?",
+    "resposta": "Para a cabine não girar em torno de si",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tail_rotor"
+    ]
+  },
+  {
+    "id": "q09399",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "carro_de_boi",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O carro de boi é famoso pelo canto, um chiado alto que se ouve de longe nas estradas de terra. O que produz esse som?",
+    "resposta": "O atrito do eixo de madeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carro_de_boi"
+    ]
+  },
+  {
+    "id": "q09400",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "volta_ao_mundo_de_nellie_bly",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em 1889, a jornalista americana Nellie Bly tentou superar a ficção de Júlio Verne dando a volta ao mundo. Em quantos dias ela completou a viagem?",
+    "resposta": "Setenta e dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nellie_Bly"
+    ]
+  },
+  {
+    "id": "q09401",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "caixa_preta",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que parte do avião costumam ficar as caixas-pretas, por ser a que mais tende a resistir a um acidente?",
+    "resposta": "Na cauda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flight_recorder"
+    ]
+  },
+  {
+    "id": "q09402",
+    "tema": "Cotidiano",
+    "subtema": "Transportes",
+    "ancora": "louis_chevrolet",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O mecânico Louis Chevrolet, que deu nome à marca de carros americana, nasceu em que país europeu?",
+    "resposta": "Suíça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louis_Chevrolet"
+    ]
   }
 ]

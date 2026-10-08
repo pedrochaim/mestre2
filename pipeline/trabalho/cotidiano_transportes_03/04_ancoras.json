@@ -1,0 +1,1251 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Santa Maria (nau de Colombo)",
+        "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+        "variantes": [
+          "Santa María",
+          "La Gallega"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_(ship)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em 1492, Cristóvão Colombo cruzou o Atlântico com três embarcações: Santa Maria, Pinta e Niña. Qual delas era a maior?",
+      "resposta": "Santa Maria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_(ship)"
+      ],
+      "ancora": "santa_maria_nau_de_colombo"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "RMS Olympic",
+        "descricao": "Transatlântico britânico da White Star Line, irmão mais velho do Titanic, em serviço de 1911 a 1935.",
+        "variantes": [
+          "Olympic",
+          "Old Reliable"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/RMS_Olympic"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Olympic, Titanic e Britannic eram navios irmãos da White Star Line. Qual dos três passou mais anos em serviço?",
+      "resposta": "Olympic",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/RMS_Olympic"
+      ],
+      "ancora": "rms_olympic"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Tupolev Tu-144",
+        "descricao": "Avião soviético supersônico de passageiros, rival do Concorde, que fez o primeiro voo em dezembro de 1968.",
+        "variantes": [
+          "Tu-144",
+          "Concordski"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tupolev_Tu-144"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "O Concorde teve um rival soviético, o Tupolev Tu-144. Qual desses dois aviões supersônicos de passageiros voou primeiro?",
+      "resposta": "Tupolev Tu-144",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tupolev_Tu-144",
+        "https://en.wikipedia.org/wiki/Concorde"
+      ],
+      "ancora": "tupolev_tu_144"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Canal do Panamá",
+        "descricao": "Canal artificial com eclusas que atravessa o istmo do Panamá, ligando o Oceano Atlântico ao Pacífico, inaugurado em 1914.",
+        "variantes": [
+          "Panama Canal",
+          "Canal de Panamá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama_Canal",
+          "https://www.britannica.com/topic/Panama-Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Por causa da curva do istmo, qual ponta do Canal do Panamá fica mais a leste: a do Atlântico ou a do Pacífico?",
+      "resposta": "A do Pacífico",
+      "fonte": [
+        "https://www.britannica.com/topic/Panama-Canal",
+        "https://en.wikipedia.org/wiki/Panama_Canal"
+      ],
+      "ancora": "canal_do_panama"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "canal_de_suez",
+        "nome": "Canal de Suez",
+        "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho.",
+        "variantes": [
+          "Suez Canal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suez_Canal"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes canais artificiais que ligam mares ou oceanos é o mais longo?",
+      "resposta": "Canal de Suez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Suez_Canal",
+        "https://en.wikipedia.org/wiki/Panama_Canal",
+        "https://en.wikipedia.org/wiki/Kiel_Canal",
+        "https://en.wikipedia.org/wiki/Corinth_Canal"
+      ],
+      "distratores": [
+        "Canal do Panamá",
+        "Canal de Kiel",
+        "Canal de Corinto"
+      ],
+      "ancora": "canal_de_suez"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "de Havilland Comet",
+        "descricao": "Avião britânico da de Havilland, primeiro jato comercial de passageiros a entrar em serviço, em 1952.",
+        "variantes": [
+          "DH.106 Comet",
+          "Comet"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes aviões foi o primeiro jato comercial de passageiros a entrar em serviço?",
+      "resposta": "de Havilland Comet",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+      ],
+      "distratores": [
+        "Boeing 707",
+        "Douglas DC-8",
+        "Sud Aviation Caravelle"
+      ],
+      "ancora": "de_havilland_comet"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Mallard (locomotiva)",
+        "descricao": "Locomotiva a vapor britânica da classe A4 da LNER que, em 1938, atingiu 203 quilômetros por hora, recorde de velocidade para locomotivas a vapor.",
+        "variantes": [
+          "LNER 4468 Mallard",
+          "Mallard"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/LNER_Class_A4_4468_Mallard"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas locomotivas a vapor britânicas foi a mais veloz, chegando a duzentos e três quilômetros por hora em 1938?",
+      "resposta": "Mallard",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/LNER_Class_A4_4468_Mallard"
+      ],
+      "distratores": [
+        "Flying Scotsman",
+        "Rocket",
+        "City of Truro"
+      ],
+      "ancora": "mallard_locomotiva"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "KLM",
+        "descricao": "Companhia aérea holandesa fundada em 1919, a mais antiga do mundo ainda em operação com o nome original.",
+        "variantes": [
+          "KLM Royal Dutch Airlines",
+          "Koninklijke Luchtvaart Maatschappij"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/KLM"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas companhias aéreas é a mais antiga ainda em operação com o mesmo nome com que foi fundada?",
+      "resposta": "KLM",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/KLM"
+      ],
+      "distratores": [
+        "Qantas",
+        "Lufthansa",
+        "Air France"
+      ],
+      "ancora": "klm"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Ônibus espacial Columbia",
+        "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+        "variantes": [
+          "Space Shuttle Columbia",
+          "Columbia",
+          "OV-102"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes ônibus espaciais da NASA foi o primeiro a ir ao espaço, em 1981?",
+      "resposta": "Columbia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+      ],
+      "distratores": [
+        "Challenger",
+        "Discovery",
+        "Atlantis"
+      ],
+      "ancora": "onibus_espacial_columbia"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Ford Modelo A (1903)",
+        "descricao": "Primeiro automóvel produzido e vendido pela Ford Motor Company, lançado em 1903.",
+        "variantes": [
+          "Ford Model A (1903–1904)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ford_Model_A_(1903%E2%80%931904)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "O Modelo T não foi o primeiro carro da Ford. Como se chamava o primeiro modelo vendido pela empresa, em 1903?",
+      "resposta": "Modelo A",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ford_Model_A_(1903%E2%80%931904)"
+      ],
+      "ancora": "ford_modelo_a_1903"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "penny_farthing",
+        "nome": "Penny-farthing",
+        "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+        "variantes": [
+          "Biciclo",
+          "High wheeler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penny-farthing"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No antigo biciclo de roda dianteira gigante, que não tinha corrente, onde ficavam presos os pedais?",
+      "resposta": "No eixo da roda dianteira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penny-farthing"
+      ],
+      "ancora": "penny_farthing"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Locomotiva a vapor",
+        "descricao": "Locomotiva movida por uma máquina a vapor, que queima carvão ou lenha para ferver água numa caldeira.",
+        "variantes": [
+          "Maria-fumaça",
+          "Steam locomotive"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Steam_locomotive"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas locomotivas a vapor, como se chama o vagão engatado logo atrás da máquina, que carrega o carvão e a água?",
+      "resposta": "Tênder",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tender_(rail)"
+      ],
+      "ancora": "locomotiva_a_vapor"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Bicicleta de segurança",
+        "descricao": "Modelo de bicicleta com duas rodas do mesmo tamanho e transmissão por corrente, popularizado pela inglesa Rover em 1885, base da bicicleta moderna.",
+        "variantes": [
+          "Safety bicycle",
+          "Rover Safety Bicycle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Safety_bicycle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1885, a inglesa Rover lançou uma bicicleta com rodas de tamanho igual, base da bicicleta moderna. Que peça levava a força dos pedais à roda traseira?",
+      "resposta": "Corrente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Safety_bicycle"
+      ],
+      "ancora": "bicicleta_de_seguranca"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Airbag",
+        "descricao": "Bolsa de segurança dos automóveis que se infla em milésimos de segundo numa colisão para amortecer o impacto dos ocupantes.",
+        "variantes": [
+          "Bolsa de ar",
+          "Air bag"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Airbag"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Numa batida, os airbags dos carros se enchem em fração de segundo com que gás?",
+      "resposta": "Nitrogênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Airbag"
+      ],
+      "distratores": [
+        "Hélio",
+        "Oxigênio",
+        "Hidrogênio"
+      ],
+      "ancora": "airbag"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "pneu_pneumatico",
+        "nome": "Pneu pneumático",
+        "descricao": "Pneu cheio de ar que reveste a roda de veículos, desenvolvido de forma prática no fim do século dezenove.",
+        "variantes": [
+          "Pneu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tire"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Os primeiros pneus eram claros. Que pó, misturado à borracha para deixá-la mais resistente, tornou os pneus pretos?",
+      "resposta": "Negro de fumo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carbon_black",
+        "https://en.wikipedia.org/wiki/Tire"
+      ],
+      "distratores": [
+        "Grafite",
+        "Piche",
+        "Carvão vegetal"
+      ],
+      "ancora": "pneu_pneumatico"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "concorde",
+        "nome": "Concorde",
+        "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Concorde"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na decolagem e no pouso, que parte do Concorde se inclinava para baixo, para os pilotos conseguirem enxergar a pista?",
+      "resposta": "O nariz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Concorde"
+      ],
+      "ancora": "concorde"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Rolls-Royce (automóveis)",
+        "descricao": "Marca britânica de automóveis de luxo, fundada por Charles Rolls e Henry Royce em 1906.",
+        "variantes": [
+          "Rolls-Royce Motor Cars",
+          "Rolls-Royce"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Como se chama a estatueta de uma mulher com os braços abertos como asas que enfeita o capô dos carros Rolls-Royce?",
+      "resposta": "Spirit of Ecstasy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spirit_of_Ecstasy"
+      ],
+      "ancora": "rolls_royce_automoveis"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Alfa Romeo",
+        "descricao": "Fabricante italiana de automóveis fundada em Milão em 1910.",
+        "variantes": [
+          "A.L.F.A."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alfa_Romeo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O emblema da Alfa Romeo junta a cruz vermelha de Milão a que animal, símbolo da antiga família Visconti?",
+      "resposta": "Serpente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Biscione",
+        "https://en.wikipedia.org/wiki/Alfa_Romeo"
+      ],
+      "distratores": [
+        "Águia",
+        "Leão",
+        "Cavalo"
+      ],
+      "ancora": "alfa_romeo"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Luzes de navegação",
+        "descricao": "Luzes coloridas obrigatórias em navios e aviões que indicam à noite a posição e o rumo da embarcação ou aeronave.",
+        "variantes": [
+          "Luzes de bordo",
+          "Navigation lights"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Navigation_light"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "À noite, navios e aviões acendem uma luz verde do lado direito. Que cor tem a luz do lado esquerdo?",
+      "resposta": "Vermelha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Navigation_light"
+      ],
+      "ancora": "luzes_de_navegacao"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "ford_modelo_t",
+        "nome": "Ford Modelo T",
+        "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+        "variantes": [
+          "Model T",
+          "Ford Bigode"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ford_Model_T"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma frase famosa atribuída a Henry Ford, o cliente podia ter o Modelo T em qualquer cor, desde que fosse qual?",
+      "resposta": "Preto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ford_Model_T"
+      ],
+      "ancora": "ford_modelo_t"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Gôndola veneziana",
+        "descricao": "Barco a remo tradicional de Veneza, longo e de fundo chato, conduzido por um gondoleiro em pé com um único remo.",
+        "variantes": [
+          "Gôndola",
+          "Gondola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gondola"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O gondoleiro de Veneza rema em pé, com um só remo e sempre do mesmo lado. Que característica do casco impede a gôndola de andar em círculos?",
+      "resposta": "O casco é assimétrico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gondola"
+      ],
+      "ancora": "gondola_veneziana"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Metrô de Moscou",
+        "descricao": "Sistema de metrô da capital russa, inaugurado em 1935 e famoso pelas estações decoradas como palácios.",
+        "variantes": [
+          "Moscow Metro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moscow_Metro"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Durante a Segunda Guerra Mundial, além de levar passageiros, para que serviram as estações profundas do metrô de Moscou?",
+      "resposta": "Abrigo antiaéreo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moscow_Metro"
+      ],
+      "ancora": "metro_de_moscou"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "La Jamais Contente",
+        "descricao": "Carro em forma de torpedo pilotado pelo belga Camille Jenatzy, primeiro veículo terrestre a passar de cem quilômetros por hora, em 1899.",
+        "variantes": [
+          "Jamais Contente"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/La_Jamais_Contente"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 1899, o primeiro carro a passar de cem quilômetros por hora tinha formato de torpedo. Que tipo de energia o movia?",
+      "resposta": "Eletricidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/La_Jamais_Contente"
+      ],
+      "ancora": "la_jamais_contente"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "drakkar",
+        "nome": "Drakkar",
+        "descricao": "Navio longo de guerra a remo e vela usado pelos povos nórdicos na Era Viking.",
+        "variantes": [
+          "Dracar",
+          "Longship"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Drakkar",
+          "https://en.wikipedia.org/wiki/Longship"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra drakkar, usada para os navios vikings, vem de que criatura, cuja cabeça esculpida às vezes enfeitava a proa?",
+      "resposta": "Dragão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Drakkar",
+        "https://en.wikipedia.org/wiki/Longship"
+      ],
+      "ancora": "drakkar"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Fiat",
+        "descricao": "Fabricante italiana de automóveis fundada em 1899, cujo nome é uma sigla.",
+        "variantes": [
+          "Fabbrica Italiana Automobili Torino"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fiat"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A sigla Fiat inclui o nome da cidade italiana onde a fábrica foi fundada, em 1899. Que cidade é essa?",
+      "resposta": "Turim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fiat"
+      ],
+      "distratores": [
+        "Milão",
+        "Gênova",
+        "Roma"
+      ],
+      "ancora": "fiat"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Linha de Plimsoll",
+        "descricao": "Marca pintada no casco dos navios que indica até onde eles podem afundar na água com carga, com segurança.",
+        "variantes": [
+          "Plimsoll line",
+          "Linha de carga",
+          "Disco de Plimsoll"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samuel_Plimsoll"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A marca pintada no casco que mostra o limite de carga de um navio leva o nome de um deputado britânico do século dezenove. Qual era o sobrenome dele?",
+      "resposta": "Plimsoll",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samuel_Plimsoll"
+      ],
+      "ancora": "linha_de_plimsoll"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "id_existente": "piaggio_ape",
+        "nome": "Piaggio Ape",
+        "descricao": "Veículo comercial leve de três rodas fabricado pela Piaggio a partir da Vespa, desde 1948.",
+        "variantes": [
+          "Ape"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Piaggio_Ape"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Vespa e Ape são veículos da mesma fábrica italiana, a Piaggio. Que tipo de animal dá nome aos dois?",
+      "resposta": "Insetos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Piaggio_Ape",
+        "https://en.wikipedia.org/wiki/Vespa"
+      ],
+      "ancora": "piaggio_ape"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "id_existente": "toyota",
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada por Kiichiro Toyoda em 1937.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toyota"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes dos automóveis, a família japonesa que criou a Toyota prosperou fabricando outra máquina, inventada por Sakichi Toyoda. Que máquina era essa?",
+      "resposta": "Tear automático",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sakichi_Toyoda",
+        "https://en.wikipedia.org/wiki/Toyota_Industries"
+      ],
+      "ancora": "toyota"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "id_existente": "supermarine_spitfire",
+        "nome": "Supermarine Spitfire",
+        "descricao": "Caça monoposto britânico da Royal Air Force, usado antes, durante e depois da Segunda Guerra Mundial.",
+        "variantes": [
+          "Spitfire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Supermarine_Spitfire"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O motor Merlin, que equipava o caça britânico Spitfire na Segunda Guerra, era fabricado por que empresa, famosa também por carros de luxo?",
+      "resposta": "Rolls-Royce",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rolls-Royce_Merlin"
+      ],
+      "ancora": "supermarine_spitfire"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Porsche 911",
+        "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+        "variantes": [
+          "Nove-onze"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Porsche_911"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Fusca e as primeiras gerações do esportivo Porsche 911 tinham em comum o tipo de motor. Que característica era essa?",
+      "resposta": "Traseiro e refrigerado a ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porsche_911"
+      ],
+      "ancora": "porsche_911"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "helicoptero",
+        "nome": "Helicóptero",
+        "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helicopter"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a maioria dos helicópteros tem um pequeno rotor na cauda, além do rotor principal?",
+      "resposta": "Para a cabine não girar em torno de si",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tail_rotor"
+      ],
+      "ancora": "helicoptero"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Carro de boi",
+        "descricao": "Veículo rural de madeira com duas rodas, puxado por juntas de bois, tradicional no interior do Brasil.",
+        "variantes": [
+          "Carreta de boi"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Carro_de_boi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O carro de boi é famoso pelo canto, um chiado alto que se ouve de longe nas estradas de terra. O que produz esse som?",
+      "resposta": "O atrito do eixo de madeira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carro_de_boi"
+      ],
+      "ancora": "carro_de_boi"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Volta ao mundo de Nellie Bly",
+        "descricao": "Viagem ao redor do mundo feita pela jornalista americana Nellie Bly em 1889 e 1890, inspirada no romance A Volta ao Mundo em Oitenta Dias.",
+        "variantes": [
+          "Nellie Bly"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nellie_Bly"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 1889, a jornalista americana Nellie Bly tentou superar a ficção de Júlio Verne dando a volta ao mundo. Em quantos dias ela completou a viagem?",
+      "resposta": "Setenta e dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nellie_Bly"
+      ],
+      "ancora": "volta_ao_mundo_de_nellie_bly"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "id_existente": "caixa_preta",
+        "nome": "Caixa-preta",
+        "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+        "variantes": [
+          "Flight recorder"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flight_recorder"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que parte do avião costumam ficar as caixas-pretas, por ser a que mais tende a resistir a um acidente?",
+      "resposta": "Na cauda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flight_recorder"
+      ],
+      "ancora": "caixa_preta"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Louis Chevrolet",
+        "descricao": "Piloto e mecânico que fundou a Chevrolet com William Durant em 1911 e deu nome à marca.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Chevrolet"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Transportes",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O mecânico Louis Chevrolet, que deu nome à marca de carros americana, nasceu em que país europeu?",
+      "resposta": "Suíça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Chevrolet"
+      ],
+      "ancora": "louis_chevrolet"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "santa_maria_nau_de_colombo",
+      "nome": "Santa Maria (nau de Colombo)",
+      "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+      "variantes": [
+        "Santa María",
+        "La Gallega"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_(ship)"
+      ]
+    },
+    {
+      "id": "rms_olympic",
+      "nome": "RMS Olympic",
+      "descricao": "Transatlântico britânico da White Star Line, irmão mais velho do Titanic, em serviço de 1911 a 1935.",
+      "variantes": [
+        "Olympic",
+        "Old Reliable"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/RMS_Olympic"
+      ]
+    },
+    {
+      "id": "tupolev_tu_144",
+      "nome": "Tupolev Tu-144",
+      "descricao": "Avião soviético supersônico de passageiros, rival do Concorde, que fez o primeiro voo em dezembro de 1968.",
+      "variantes": [
+        "Tu-144",
+        "Concordski"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tupolev_Tu-144"
+      ]
+    },
+    {
+      "id": "de_havilland_comet",
+      "nome": "de Havilland Comet",
+      "descricao": "Avião britânico da de Havilland, primeiro jato comercial de passageiros a entrar em serviço, em 1952.",
+      "variantes": [
+        "DH.106 Comet",
+        "Comet"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+      ]
+    },
+    {
+      "id": "mallard_locomotiva",
+      "nome": "Mallard (locomotiva)",
+      "descricao": "Locomotiva a vapor britânica da classe A4 da LNER que, em 1938, atingiu 203 quilômetros por hora, recorde de velocidade para locomotivas a vapor.",
+      "variantes": [
+        "LNER 4468 Mallard",
+        "Mallard"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/LNER_Class_A4_4468_Mallard"
+      ]
+    },
+    {
+      "id": "klm",
+      "nome": "KLM",
+      "descricao": "Companhia aérea holandesa fundada em 1919, a mais antiga do mundo ainda em operação com o nome original.",
+      "variantes": [
+        "KLM Royal Dutch Airlines",
+        "Koninklijke Luchtvaart Maatschappij"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/KLM"
+      ]
+    },
+    {
+      "id": "onibus_espacial_columbia",
+      "nome": "Ônibus espacial Columbia",
+      "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+      "variantes": [
+        "Space Shuttle Columbia",
+        "Columbia",
+        "OV-102"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+      ]
+    },
+    {
+      "id": "ford_modelo_a_1903",
+      "nome": "Ford Modelo A (1903)",
+      "descricao": "Primeiro automóvel produzido e vendido pela Ford Motor Company, lançado em 1903.",
+      "variantes": [
+        "Ford Model A (1903–1904)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ford_Model_A_(1903%E2%80%931904)"
+      ]
+    },
+    {
+      "id": "bicicleta_de_seguranca",
+      "nome": "Bicicleta de segurança",
+      "descricao": "Modelo de bicicleta com duas rodas do mesmo tamanho e transmissão por corrente, popularizado pela inglesa Rover em 1885, base da bicicleta moderna.",
+      "variantes": [
+        "Safety bicycle",
+        "Rover Safety Bicycle"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Safety_bicycle"
+      ]
+    },
+    {
+      "id": "airbag",
+      "nome": "Airbag",
+      "descricao": "Bolsa de segurança dos automóveis que se infla em milésimos de segundo numa colisão para amortecer o impacto dos ocupantes.",
+      "variantes": [
+        "Bolsa de ar",
+        "Air bag"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Airbag"
+      ]
+    },
+    {
+      "id": "rolls_royce_automoveis",
+      "nome": "Rolls-Royce (automóveis)",
+      "descricao": "Marca britânica de automóveis de luxo, fundada por Charles Rolls e Henry Royce em 1906.",
+      "variantes": [
+        "Rolls-Royce Motor Cars",
+        "Rolls-Royce"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"
+      ]
+    },
+    {
+      "id": "alfa_romeo",
+      "nome": "Alfa Romeo",
+      "descricao": "Fabricante italiana de automóveis fundada em Milão em 1910.",
+      "variantes": [
+        "A.L.F.A."
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Alfa_Romeo"
+      ]
+    },
+    {
+      "id": "luzes_de_navegacao",
+      "nome": "Luzes de navegação",
+      "descricao": "Luzes coloridas obrigatórias em navios e aviões que indicam à noite a posição e o rumo da embarcação ou aeronave.",
+      "variantes": [
+        "Luzes de bordo",
+        "Navigation lights"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Navigation_light"
+      ]
+    },
+    {
+      "id": "gondola_veneziana",
+      "nome": "Gôndola veneziana",
+      "descricao": "Barco a remo tradicional de Veneza, longo e de fundo chato, conduzido por um gondoleiro em pé com um único remo.",
+      "variantes": [
+        "Gôndola",
+        "Gondola"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gondola"
+      ]
+    },
+    {
+      "id": "metro_de_moscou",
+      "nome": "Metrô de Moscou",
+      "descricao": "Sistema de metrô da capital russa, inaugurado em 1935 e famoso pelas estações decoradas como palácios.",
+      "variantes": [
+        "Moscow Metro"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Moscow_Metro"
+      ]
+    },
+    {
+      "id": "la_jamais_contente",
+      "nome": "La Jamais Contente",
+      "descricao": "Carro em forma de torpedo pilotado pelo belga Camille Jenatzy, primeiro veículo terrestre a passar de cem quilômetros por hora, em 1899.",
+      "variantes": [
+        "Jamais Contente"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/La_Jamais_Contente"
+      ]
+    },
+    {
+      "id": "fiat",
+      "nome": "Fiat",
+      "descricao": "Fabricante italiana de automóveis fundada em 1899, cujo nome é uma sigla.",
+      "variantes": [
+        "Fabbrica Italiana Automobili Torino"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fiat"
+      ]
+    },
+    {
+      "id": "linha_de_plimsoll",
+      "nome": "Linha de Plimsoll",
+      "descricao": "Marca pintada no casco dos navios que indica até onde eles podem afundar na água com carga, com segurança.",
+      "variantes": [
+        "Plimsoll line",
+        "Linha de carga",
+        "Disco de Plimsoll"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Samuel_Plimsoll"
+      ]
+    },
+    {
+      "id": "porsche_911",
+      "nome": "Porsche 911",
+      "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+      "variantes": [
+        "Nove-onze"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Porsche_911"
+      ]
+    },
+    {
+      "id": "carro_de_boi",
+      "nome": "Carro de boi",
+      "descricao": "Veículo rural de madeira com duas rodas, puxado por juntas de bois, tradicional no interior do Brasil.",
+      "variantes": [
+        "Carreta de boi"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Carro_de_boi"
+      ]
+    },
+    {
+      "id": "volta_ao_mundo_de_nellie_bly",
+      "nome": "Volta ao mundo de Nellie Bly",
+      "descricao": "Viagem ao redor do mundo feita pela jornalista americana Nellie Bly em 1889 e 1890, inspirada no romance A Volta ao Mundo em Oitenta Dias.",
+      "variantes": [
+        "Nellie Bly"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nellie_Bly"
+      ]
+    },
+    {
+      "id": "louis_chevrolet",
+      "nome": "Louis Chevrolet",
+      "descricao": "Piloto e mecânico que fundou a Chevrolet com William Durant em 1911 e deu nome à marca.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Louis_Chevrolet"
+      ]
+    }
+  ],
+  "variantes": {
+    "canal_de_suez": [
+      "Canal de Suez",
+      "Suez Canal"
+    ],
+    "penny_farthing": [
+      "Penny-farthing",
+      "Biciclo",
+      "High wheeler"
+    ],
+    "rms_titanic": [
+      "RMS Titanic",
+      "Titanic"
+    ],
+    "pneu_pneumatico": [
+      "Pneu pneumático",
+      "Pneu"
+    ],
+    "concorde": [
+      "Concorde"
+    ],
+    "ford_modelo_t": [
+      "Ford Modelo T",
+      "Model T",
+      "Ford Bigode"
+    ],
+    "metro_de_londres": [
+      "Metrô de Londres",
+      "London Underground",
+      "The Tube"
+    ],
+    "drakkar": [
+      "Drakkar",
+      "Dracar",
+      "Longship"
+    ],
+    "piaggio_ape": [
+      "Piaggio Ape",
+      "Ape"
+    ],
+    "toyota": [
+      "Toyota",
+      "Toyota Motor Corporation"
+    ],
+    "supermarine_spitfire": [
+      "Supermarine Spitfire",
+      "Spitfire"
+    ],
+    "helicoptero": [
+      "Helicóptero"
+    ],
+    "caixa_preta": [
+      "Caixa-preta",
+      "Flight recorder"
+    ],
+    "canal_do_panama": [
+      "Canal do Panamá",
+      "Panama Canal",
+      "Canal de Panamá"
+    ],
+    "locomotiva_a_vapor": [
+      "Locomotiva a vapor",
+      "Maria-fumaça",
+      "Steam locomotive"
+    ],
+    "bibendum": [
+      "Bibendum",
+      "Michelin Man",
+      "Boneco da Michelin"
+    ],
+    "elevador_lacerda": [
+      "Elevador Lacerda",
+      "Elevador Hidráulico da Conceição"
+    ],
+    "audi": [
+      "Audi"
+    ],
+    "subaru": [
+      "Subaru"
+    ],
+    "mercedes_benz": [
+      "Mercedes-Benz",
+      "Mercedes"
+    ],
+    "wright_flyer": [
+      "Wright Flyer",
+      "Flyer",
+      "Flyer I"
+    ],
+    "expedicao_de_magalhaes_elcano": [
+      "Expedição de Fernão de Magalhães",
+      "Expedição Magalhães-Elcano",
+      "Magellan expedition"
+    ],
+    "ponte_rio_niteroi": [
+      "Ponte Rio-Niterói",
+      "Ponte Presidente Costa e Silva"
+    ],
+    "limpador_de_para_brisa": [
+      "Limpador de para-brisa",
+      "Limpador",
+      "Windscreen wiper"
+    ]
+  }
+}

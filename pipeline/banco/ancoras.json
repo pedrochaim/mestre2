@@ -14732,7 +14732,8 @@
     "variantes": [
       "Ford Model T",
       "Ford Bigode",
-      "Tin Lizzie"
+      "Tin Lizzie",
+      "Model T"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Ford_Modelo_T",
@@ -55099,7 +55100,8 @@
     "variantes": [
       "Expedição de Fernão de Magalhães",
       "Magellan expedition",
-      "Primeira circum-navegação"
+      "Primeira circum-navegação",
+      "Expedição Magalhães-Elcano"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Magellan_expedition"
@@ -68578,7 +68580,8 @@
     "descricao": "Dispositivo com palhetas que remove chuva e neve do para-brisa dos veículos.",
     "variantes": [
       "Limpador de vidro",
-      "Windscreen wiper"
+      "Windscreen wiper",
+      "Limpador"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Windscreen_wiper"
@@ -81278,7 +81281,8 @@
       "Drakkar (barco viking)",
       "Barco viking",
       "Longship",
-      "Langskip"
+      "Langskip",
+      "Dracar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Longship",
@@ -82590,7 +82594,8 @@
     "descricao": "Pneu cheio de ar que reveste a roda de veículos, desenvolvido de forma prática no fim do século dezenove.",
     "variantes": [
       "Pneu de ar",
-      "Pneumático"
+      "Pneumático",
+      "Pneu"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tire"
@@ -130807,6 +130812,260 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Pickelhaube",
       "https://pt.wikipedia.org/wiki/Pickelhaube"
+    ]
+  },
+  {
+    "id": "santa_maria_nau_de_colombo",
+    "nome": "Santa Maria (nau de Colombo)",
+    "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+    "variantes": [
+      "Santa María",
+      "La Gallega"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_(ship)"
+    ]
+  },
+  {
+    "id": "rms_olympic",
+    "nome": "RMS Olympic",
+    "descricao": "Transatlântico britânico da White Star Line, irmão mais velho do Titanic, em serviço de 1911 a 1935.",
+    "variantes": [
+      "Olympic",
+      "Old Reliable"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/RMS_Olympic"
+    ]
+  },
+  {
+    "id": "tupolev_tu_144",
+    "nome": "Tupolev Tu-144",
+    "descricao": "Avião soviético supersônico de passageiros, rival do Concorde, que fez o primeiro voo em dezembro de 1968.",
+    "variantes": [
+      "Tu-144",
+      "Concordski"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tupolev_Tu-144"
+    ]
+  },
+  {
+    "id": "de_havilland_comet",
+    "nome": "de Havilland Comet",
+    "descricao": "Avião britânico da de Havilland, primeiro jato comercial de passageiros a entrar em serviço, em 1952.",
+    "variantes": [
+      "DH.106 Comet",
+      "Comet"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/De_Havilland_Comet"
+    ]
+  },
+  {
+    "id": "mallard_locomotiva",
+    "nome": "Mallard (locomotiva)",
+    "descricao": "Locomotiva a vapor britânica da classe A4 da LNER que, em 1938, atingiu 203 quilômetros por hora, recorde de velocidade para locomotivas a vapor.",
+    "variantes": [
+      "LNER 4468 Mallard",
+      "Mallard"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/LNER_Class_A4_4468_Mallard"
+    ]
+  },
+  {
+    "id": "klm",
+    "nome": "KLM",
+    "descricao": "Companhia aérea holandesa fundada em 1919, a mais antiga do mundo ainda em operação com o nome original.",
+    "variantes": [
+      "KLM Royal Dutch Airlines",
+      "Koninklijke Luchtvaart Maatschappij"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/KLM"
+    ]
+  },
+  {
+    "id": "onibus_espacial_columbia",
+    "nome": "Ônibus espacial Columbia",
+    "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+    "variantes": [
+      "Space Shuttle Columbia",
+      "Columbia",
+      "OV-102"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia"
+    ]
+  },
+  {
+    "id": "ford_modelo_a_1903",
+    "nome": "Ford Modelo A (1903)",
+    "descricao": "Primeiro automóvel produzido e vendido pela Ford Motor Company, lançado em 1903.",
+    "variantes": [
+      "Ford Model A (1903–1904)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ford_Model_A_(1903%E2%80%931904)"
+    ]
+  },
+  {
+    "id": "bicicleta_de_seguranca",
+    "nome": "Bicicleta de segurança",
+    "descricao": "Modelo de bicicleta com duas rodas do mesmo tamanho e transmissão por corrente, popularizado pela inglesa Rover em 1885, base da bicicleta moderna.",
+    "variantes": [
+      "Safety bicycle",
+      "Rover Safety Bicycle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Safety_bicycle"
+    ]
+  },
+  {
+    "id": "airbag",
+    "nome": "Airbag",
+    "descricao": "Bolsa de segurança dos automóveis que se infla em milésimos de segundo numa colisão para amortecer o impacto dos ocupantes.",
+    "variantes": [
+      "Bolsa de ar",
+      "Air bag"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Airbag"
+    ]
+  },
+  {
+    "id": "rolls_royce_automoveis",
+    "nome": "Rolls-Royce (automóveis)",
+    "descricao": "Marca britânica de automóveis de luxo, fundada por Charles Rolls e Henry Royce em 1906.",
+    "variantes": [
+      "Rolls-Royce Motor Cars",
+      "Rolls-Royce"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rolls-Royce_Motor_Cars"
+    ]
+  },
+  {
+    "id": "alfa_romeo",
+    "nome": "Alfa Romeo",
+    "descricao": "Fabricante italiana de automóveis fundada em Milão em 1910.",
+    "variantes": [
+      "A.L.F.A."
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alfa_Romeo"
+    ]
+  },
+  {
+    "id": "luzes_de_navegacao",
+    "nome": "Luzes de navegação",
+    "descricao": "Luzes coloridas obrigatórias em navios e aviões que indicam à noite a posição e o rumo da embarcação ou aeronave.",
+    "variantes": [
+      "Luzes de bordo",
+      "Navigation lights"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Navigation_light"
+    ]
+  },
+  {
+    "id": "gondola_veneziana",
+    "nome": "Gôndola veneziana",
+    "descricao": "Barco a remo tradicional de Veneza, longo e de fundo chato, conduzido por um gondoleiro em pé com um único remo.",
+    "variantes": [
+      "Gôndola",
+      "Gondola"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gondola"
+    ]
+  },
+  {
+    "id": "metro_de_moscou",
+    "nome": "Metrô de Moscou",
+    "descricao": "Sistema de metrô da capital russa, inaugurado em 1935 e famoso pelas estações decoradas como palácios.",
+    "variantes": [
+      "Moscow Metro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Moscow_Metro"
+    ]
+  },
+  {
+    "id": "la_jamais_contente",
+    "nome": "La Jamais Contente",
+    "descricao": "Carro em forma de torpedo pilotado pelo belga Camille Jenatzy, primeiro veículo terrestre a passar de cem quilômetros por hora, em 1899.",
+    "variantes": [
+      "Jamais Contente"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/La_Jamais_Contente"
+    ]
+  },
+  {
+    "id": "fiat",
+    "nome": "Fiat",
+    "descricao": "Fabricante italiana de automóveis fundada em 1899, cujo nome é uma sigla.",
+    "variantes": [
+      "Fabbrica Italiana Automobili Torino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fiat"
+    ]
+  },
+  {
+    "id": "linha_de_plimsoll",
+    "nome": "Linha de Plimsoll",
+    "descricao": "Marca pintada no casco dos navios que indica até onde eles podem afundar na água com carga, com segurança.",
+    "variantes": [
+      "Plimsoll line",
+      "Linha de carga",
+      "Disco de Plimsoll"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Samuel_Plimsoll"
+    ]
+  },
+  {
+    "id": "porsche_911",
+    "nome": "Porsche 911",
+    "descricao": "Carro esportivo da fabricante alemã Porsche, produzido desde 1964, com motor traseiro.",
+    "variantes": [
+      "Nove-onze"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Porsche_911"
+    ]
+  },
+  {
+    "id": "carro_de_boi",
+    "nome": "Carro de boi",
+    "descricao": "Veículo rural de madeira com duas rodas, puxado por juntas de bois, tradicional no interior do Brasil.",
+    "variantes": [
+      "Carreta de boi"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Carro_de_boi"
+    ]
+  },
+  {
+    "id": "volta_ao_mundo_de_nellie_bly",
+    "nome": "Volta ao mundo de Nellie Bly",
+    "descricao": "Viagem ao redor do mundo feita pela jornalista americana Nellie Bly em 1889 e 1890, inspirada no romance A Volta ao Mundo em Oitenta Dias.",
+    "variantes": [
+      "Nellie Bly"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nellie_Bly"
+    ]
+  },
+  {
+    "id": "louis_chevrolet",
+    "nome": "Louis Chevrolet",
+    "descricao": "Piloto e mecânico que fundou a Chevrolet com William Durant em 1911 e deu nome à marca.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Louis_Chevrolet"
     ]
   }
 ]
