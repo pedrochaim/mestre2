@@ -1,0 +1,102 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos; enunciado não nomeia a entidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Igreja anglicana em Londres, correta; distratores são igrejas inglesas críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores são esculturas antigas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de Paul Abadie confirmado nos trechos; distratores são arquitetos franceses que não projetaram a basílica.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'budista' e 'bronze' vazam parte da resposta (Buda), e 'estátua budista gigante de bronze' também descreve outros budas (Tōdai-ji, Ushiku), então a resposta não é única. Falta uma pista que distinga sem entregar.",
+      "reescrita": {
+        "pergunta": "Que estátua monumental japonesa do século treze, ao ar livre, é esta?",
+        "resposta": "Grande Buda de Kamakura"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Como o bonde passa sobre a estrutura, 'ponte' ou 'viaduto' são respostas defensáveis pela imagem, então a resposta não é única. É mais seguro perguntar o lugar.",
+      "reescrita": {
+        "pergunta": "Em que cidade brasileira fica esta obra colonial do século dezoito?",
+        "resposta": "Rio de Janeiro"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Medina confirmada nos trechos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hermes carregando o infante Dioniso confirmado; a pista descreve a imagem e não entrega a resposta; distratores são deuses gregos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio de Janeiro confirmado; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Palácio de Verão não é templo, então destoa dos outros distratores e do enunciado 'templo chinês'. Troquei por outro templo de Pequim.",
+      "reescrita": {
+        "pergunta": "Que templo chinês é este?",
+        "resposta": "Templo do Céu",
+        "distratores": [
+          "Templo do Lama",
+          "Templo de Confúcio",
+          "Templo da Terra"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Templo dórico confirmado no trecho em inglês; o enunciado não entrega a resposta e os distratores não são corretos.",
+      "reescrita": null
+    }
+  ]
+}

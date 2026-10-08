@@ -1,0 +1,154 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este arranha-céu duplo?",
+        "resposta": "Kuala Lumpur"
+      },
+      "existentes": [
+        {
+          "id": "q05428",
+          "pergunta": "Em qual capital asiática se erguem as Torres Petronas, arranha-céus gêmeos de aço e vidro ligados por uma passarela?",
+          "resposta": "Kuala Lumpur"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que igreja inglesa é esta?",
+        "resposta": "Abadia de Westminster"
+      },
+      "existentes": [
+        {
+          "id": "q06292",
+          "pergunta": "Em que ano o primeiro rei normando da Inglaterra foi coroado nesta igreja de Londres?",
+          "resposta": "1066"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta basílica?",
+        "resposta": "Paul Abadie"
+      },
+      "existentes": [
+        {
+          "id": "q05426",
+          "pergunta": "Com suas cúpulas brancas, a Basílica de Sacré-Cœur domina a paisagem de Paris do alto de qual colina?",
+          "resposta": "Montmartre"
+        },
+        {
+          "id": "q08475",
+          "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+          "resposta": "Calcita"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta obra colonial do século dezoito?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q03479",
+          "pergunta": "Em que século foi construída esta obra?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q05448",
+          "pergunta": "Hoje o bonde de Santa Teresa passa por cima dos Arcos da Lapa, no Rio. Para que eles foram construídos, no século dezoito?",
+          "resposta": "Levar água à cidade"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade fica esta estátua?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q02025",
+          "pergunta": "Qual escultor francês criou a estátua do Cristo Redentor, no alto do Corcovado?",
+          "resposta": "Paul Landowski"
+        },
+        {
+          "id": "q02026",
+          "pergunta": "O concreto do Cristo Redentor é revestido por milhares de pequenos triângulos de qual pedra?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que templo chinês é este?",
+        "resposta": "Templo do Céu"
+      },
+      "existentes": [
+        {
+          "id": "q05285",
+          "pergunta": "Em que século foi construído este templo imperial?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que ordem arquitetônica grega têm as colunas deste templo?",
+        "resposta": "Dórica"
+      },
+      "existentes": [
+        {
+          "id": "q03877",
+          "pergunta": "Que templo dórico da Grécia antiga é este, na cidade de Atenas?",
+          "resposta": "Templo de Hefesto"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade das Torres Petronas (Kuala Lumpur)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a abadia é diferente de saber o ano da coroação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O arquiteto é um fato distinto da colina ou da calcita."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A cidade é um fato diferente do século ou da finalidade dos arcos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A cidade da estátua é fato diferente do escultor ou do revestimento."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nome do templo é diferente do século de construção."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A ordem das colunas é fato diferente do nome do templo."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida das torres gêmeas com a ponte; reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este arranha-céu duplo?",
+      "resposta": "Kuala Lumpur",
+      "destino": 0,
+      "ancora": {
+        "nome": "Torres Petronas",
+        "descricao": "Par de arranha-céus interligados de 88 andares em Kuala Lumpur, Malásia.",
+        "variantes": [
+          "Petronas Towers",
+          "Petronas Twin Towers",
+          "Torres Gêmeas Petronas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada ocidental gótica bem visível; placas de rua pequenas não entregam.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que igreja inglesa é esta?",
+      "resposta": "Abadia de Westminster",
+      "distratores": [
+        "Catedral de Canterbury",
+        "Catedral de York",
+        "Catedral de Salisbury"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja anglicana gótica em Westminster, Londres, local de coroações dos monarcas britânicos.",
+        "variantes": [
+          "Westminster Abbey"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura nítida e característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escultura antiga é esta?",
+      "resposta": "Fauno Barberini",
+      "distratores": [
+        "Gálata Moribundo",
+        "Laocoonte e seus filhos",
+        "Hermafrodita Adormecido"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fauno Barberini",
+        "descricao": "Estátua de mármore antiga, muito restaurada, de um sátiro adormecido, hoje na Gliptoteca de Munique.",
+        "variantes": [
+          "Barberini Faun",
+          "Sátiro Ébrio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada clara e inconfundível, sem texto; pessoas pequenas ao fundo.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou esta basílica?",
+      "resposta": "Paul Abadie",
+      "distratores": [
+        "Gustave Eiffel",
+        "Charles Garnier",
+        "Viollet-le-Duc"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica no alto da colina de Montmartre, em Paris, dedicada ao Sagrado Coração de Jesus.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estátua de bronze nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estátua budista gigante de bronze é esta?",
+      "resposta": "Grande Buda de Kamakura",
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Buda de Kamakura",
+        "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+        "variantes": [
+          "Kamakura Daibutsu",
+          "Daibutsu de Kamakura"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Escultura inteira e nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escultura antiga é esta?",
+      "resposta": "Gálata Moribundo",
+      "distratores": [
+        "Fauno Barberini",
+        "Laocoonte e seus filhos",
+        "Discóbolo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gálata Moribundo",
+        "descricao": "Cópia romana em mármore de uma escultura helenística de um guerreiro gaulês ferido, nos Museus Capitolinos.",
+        "variantes": [
+          "Gaulês Moribundo",
+          "Dying Gaul",
+          "Gladiador Moribundo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arcos brancos reconhecíveis com a cúpula da catedral ao fundo, embora com árvores e reflexo de vidro; aceitável.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de obra de engenharia, do século dezoito, é esta?",
+      "resposta": "Aqueduto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arcos da Lapa",
+        "descricao": "Aqueduto colonial do século XVIII no bairro da Lapa, Rio de Janeiro, hoje usado pelo bonde de Santa Teresa.",
+        "variantes": [
+          "Aqueduto da Carioca"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mesquita com cúpula verde e minaretes bem visíveis; peregrinos pequenos, sem destaque.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta mesquita?",
+      "resposta": "Medina",
+      "destino": 1,
+      "ancora": {
+        "nome": "Mesquita do Profeta",
+        "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+        "variantes": [
+          "Al-Masjid an-Nabawi",
+          "Mesquita de Medina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escultura nítida de um homem carregando um bebê, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus grego esta escultura representa, carregando uma criança?",
+      "resposta": "Hermes",
+      "distratores": [
+        "Apolo",
+        "Ares",
+        "Poseidon"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Hermes de Praxíteles",
+        "descricao": "Escultura grega de Hermes com o bebê Dioniso, achada em Olímpia e atribuída a Praxíteles.",
+        "variantes": [
+          "Hermes e o Menino Dioniso",
+          "Hermes de Olímpia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Estátua inconfundível e nítida; multidão pequena na base.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta estátua?",
+      "resposta": "Rio de Janeiro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua art déco de Jesus no alto do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+        "variantes": [
+          "Christ the Redeemer"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Salão de Oração pela Boa Colheita nítido; placa em chinês é pouco legível para o público e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo chinês é este?",
+      "resposta": "Templo do Céu",
+      "distratores": [
+        "Templo do Lama",
+        "Templo de Confúcio",
+        "Palácio de Verão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Templo do Céu",
+        "descricao": "Complexo imperial de templos em Pequim, onde os imperadores rezavam pela boa colheita.",
+        "variantes": [
+          "Temple of Heaven",
+          "Tiantan"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Templo dórico bem visível, sem texto; reconhecível pela forma.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que ordem arquitetônica grega têm as colunas deste templo?",
+      "resposta": "Dórica",
+      "distratores": [
+        "Jônica",
+        "Coríntia",
+        "Toscana"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Templo de Hefesto",
+        "descricao": "Templo grego dórico muito bem conservado na Ágora de Atenas, dedicado a Hefesto.",
+        "variantes": [
+          "Hefesteion",
+          "Teseion",
+          "Temple of Hephaestus"
+        ]
+      }
+    }
+  ]
+}

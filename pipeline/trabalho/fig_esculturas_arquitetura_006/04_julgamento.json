@@ -1,0 +1,774 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Torres Petronas",
+        "descricao": "Par de arranha-céus interligados de 88 andares em Kuala Lumpur, Malásia.",
+        "variantes": [
+          "Petronas Towers",
+          "Petronas Twin Towers",
+          "Torres Gêmeas Petronas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torres_petronas",
+          "nome": "Torres Petronas",
+          "descricao": "Par de arranha-céus gêmeos de aço e vidro, ligados por uma passarela, inaugurados em 1998 na Malásia.",
+          "variantes": [
+            "Petronas Towers",
+            "Torres Gêmeas Petronas"
+          ]
+        },
+        {
+          "id": "castells",
+          "nome": "Castells",
+          "descricao": "Torres humanas tradicionais, formadas por várias camadas de pessoas em pé sobre os ombros umas das outras.",
+          "variantes": [
+            "Castell",
+            "Torres humanas"
+          ]
+        },
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "torre_de_londres",
+          "nome": "Torre de Londres",
+          "descricao": "Fortaleza medieval à beira do Tâmisa, em Londres, que já foi palácio real e prisão e guarda as Joias da Coroa.",
+          "variantes": [
+            "Tower of London"
+          ]
+        },
+        {
+          "id": "os_jetsons",
+          "nome": "Os Jetsons",
+          "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+          "variantes": [
+            "The Jetsons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja anglicana gótica em Westminster, Londres, local de coroações dos monarcas britânicos.",
+        "variantes": [
+          "Westminster Abbey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abadia_de_westminster",
+          "nome": "Abadia de Westminster",
+          "descricao": "Igreja anglicana gótica em Westminster, Londres, local das coroações dos monarcas ingleses.",
+          "variantes": [
+            "Westminster Abbey"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Fauno Barberini",
+        "descricao": "Estátua de mármore antiga, muito restaurada, de um sátiro adormecido, hoje na Gliptoteca de Munique.",
+        "variantes": [
+          "Barberini Faun",
+          "Sátiro Ébrio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estilo_imperio",
+          "nome": "Estilo império",
+          "descricao": "Silhueta de vestido de cintura alta, logo abaixo do busto, com saia reta e fluida",
+          "variantes": [
+            "Empire silhouette",
+            "Cintura império"
+          ]
+        },
+        {
+          "id": "tiro_esportivo",
+          "nome": "Tiro esportivo",
+          "descricao": "Modalidade de precisão com armas de fogo ou de ar comprimido, aqui pistolas em competição olímpica.",
+          "variantes": [
+            "Tiro",
+            "Tiro com pistola"
+          ]
+        },
+        {
+          "id": "astro_boy",
+          "nome": "Astro Boy",
+          "descricao": "Menino robô criado por Osamu Tezuka, protagonista do mangá Tetsuwan Atom.",
+          "variantes": [
+            "Tetsuwan Atom",
+            "Mighty Atom"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico"
+          ]
+        },
+        {
+          "id": "sudario_de_turim",
+          "nome": "Sudário de Turim",
+          "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+          "variantes": [
+            "Santo Sudário",
+            "Sindone di Torino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica católica no alto da colina de Montmartre, em Paris, dedicada ao Sagrado Coração de Jesus.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração de Montmartre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sacre_c_ur",
+          "nome": "Basílica de Sacré-Cœur",
+          "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+          "variantes": [
+            "Sacré-Cœur",
+            "Basílica do Sagrado Coração de Montmartre",
+            "Basílica do Sagrado Coração"
+          ]
+        },
+        {
+          "id": "arquibasilica_de_sao_joao_de_latrao",
+          "nome": "Arquibasílica de São João de Latrão",
+          "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+          "variantes": [
+            "São João de Latrão",
+            "Basílica de Latrão",
+            "Archbasilica of Saint John Lateran"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "marie_curie",
+          "nome": "Marie Curie",
+          "descricao": "Física e química polonesa naturalizada francesa, duas vezes Nobel, descobridora do rádio e do polônio.",
+          "variantes": [
+            "Maria Skłodowska Curie",
+            "Madame Curie"
+          ]
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grande Buda de Kamakura",
+        "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+        "variantes": [
+          "Kamakura Daibutsu",
+          "Daibutsu de Kamakura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "a_grande_onda_de_kanagawa",
+          "nome": "A Grande Onda de Kanagawa",
+          "descricao": "Xilogravura de Katsushika Hokusai, de cerca de 1831.",
+          "variantes": [
+            "The Great Wave off Kanagawa"
+          ]
+        },
+        {
+          "id": "grande_buraco_de_kimberley",
+          "nome": "Grande Buraco de Kimberley",
+          "descricao": "Antiga mina de diamantes a céu aberto, escavada em grande parte à mão no século dezenove na cidade de Kimberley.",
+          "variantes": [
+            "Big Hole",
+            "Kimberley Mine"
+          ]
+        },
+        {
+          "id": "zigurate_de_ur",
+          "nome": "Zigurate de Ur",
+          "descricao": "Grande zigurate sumério do século vinte e um antes de Cristo, construído por Ur-Nammu na antiga cidade de Ur, no sul do Iraque.",
+          "variantes": [
+            "Grande Zigurate de Ur",
+            "Etemenniguru"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gálata Moribundo",
+        "descricao": "Cópia romana em mármore de uma escultura helenística de um guerreiro gaulês ferido, nos Museus Capitolinos.",
+        "variantes": [
+          "Gaulês Moribundo",
+          "Dying Gaul",
+          "Gladiador Moribundo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "valles_marineris",
+          "nome": "Valles Marineris",
+          "descricao": "Sistema de cânions de mais de 4 mil km no equador de Marte, o maior do Sistema Solar.",
+          "variantes": [
+            "Vales Mariner",
+            "Mariner Valleys"
+          ]
+        },
+        {
+          "id": "dia_dos_namorados_no_brasil",
+          "nome": "Dia dos Namorados no Brasil",
+          "descricao": "Data comemorativa brasileira dos casais, celebrada em 12 de junho.",
+          "variantes": [
+            "Dia dos Namorados"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        },
+        {
+          "id": "marechal_rondon",
+          "nome": "Marechal Rondon",
+          "descricao": "Militar e sertanista brasileiro, explorador do Mato Grosso e da Amazônia e defensor dos povos indígenas.",
+          "variantes": [
+            "Cândido Rondon",
+            "Cândido Mariano da Silva Rondon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Arcos da Lapa",
+        "descricao": "Aqueduto colonial do século XVIII no bairro da Lapa, Rio de Janeiro, hoje usado pelo bonde de Santa Teresa.",
+        "variantes": [
+          "Aqueduto da Carioca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arcos_da_lapa",
+          "nome": "Arcos da Lapa",
+          "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+          "variantes": [
+            "Aqueduto da Carioca"
+          ]
+        },
+        {
+          "id": "vasco_da_gama",
+          "nome": "Vasco da Gama",
+          "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+          "variantes": [
+            "Club de Regatas Vasco da Gama",
+            "Vasco",
+            "CR Vasco da Gama"
+          ]
+        },
+        {
+          "id": "vasco_da_gama_2",
+          "nome": "Vasco da Gama",
+          "descricao": "Navegador português que abriu a rota marítima da Europa à Índia contornando a África.",
+          "variantes": [
+            "Vasco de Gama"
+          ]
+        },
+        {
+          "id": "theatro_da_paz",
+          "nome": "Theatro da Paz",
+          "descricao": "Teatro histórico de Belém, no Pará, inaugurado em 1878 durante o ciclo da borracha.",
+          "variantes": [
+            "Teatro da Paz"
+          ]
+        },
+        {
+          "id": "paisagem_com_a_queda_de_icaro",
+          "nome": "Paisagem com a Queda de Ícaro",
+          "descricao": "Pintura flamenga do século dezesseis, atribuída a Bruegel ou a cópia de sua composição, em Bruxelas, com um lavrador, um navio e as pernas de Ícaro caindo no mar.",
+          "variantes": [
+            "Landscape with the Fall of Icarus",
+            "A Queda de Ícaro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mesquita do Profeta",
+        "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+        "variantes": [
+          "Al-Masjid an-Nabawi",
+          "Mesquita de Medina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "mesquita_de_djinguereber",
+          "nome": "Mesquita de Djinguereber",
+          "descricao": "Mesquita de barro em Tombuctu, no Mali, construída no século quatorze.",
+          "variantes": [
+            "Djinguereber Mosque",
+            "Djingareyber"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hermes de Praxíteles",
+        "descricao": "Escultura grega de Hermes com o bebê Dioniso, achada em Olímpia e atribuída a Praxíteles.",
+        "variantes": [
+          "Hermes e o Menino Dioniso",
+          "Hermes de Olímpia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_de_zeus_em_olimpia",
+          "nome": "Estátua de Zeus em Olímpia",
+          "descricao": "Estátua colossal de ouro e marfim de Zeus, feita por Fídias, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Statue of Zeus at Olympia",
+            "Zeus de Olímpia"
+          ]
+        },
+        {
+          "id": "verme_de_pompeia",
+          "nome": "Verme-de-pompeia",
+          "descricao": "Verme poliqueta das fontes hidrotermais do Pacífico, Alvinella pompejana, que vive em tubos sobre chaminés muito quentes.",
+          "variantes": [
+            "Alvinella pompejana",
+            "Pompeii worm"
+          ]
+        },
+        {
+          "id": "phryges",
+          "nome": "Phryges",
+          "descricao": "Mascotes olímpico e paralímpico dos Jogos de Paris 2024, em forma de gorro vermelho.",
+          "variantes": [
+            "Phryge olímpica",
+            "Phryge paralímpica"
+          ]
+        },
+        {
+          "id": "medalha_olimpica",
+          "nome": "Medalha olímpica",
+          "descricao": "Medalha de ouro, prata ou bronze entregue aos três primeiros colocados de cada prova olímpica.",
+          "variantes": [
+            "Olympic medal"
+          ]
+        },
+        {
+          "id": "otzi",
+          "nome": "Ötzi",
+          "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+          "variantes": [
+            "Homem do gelo",
+            "Iceman",
+            "Homem de Similaun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua art déco de Jesus no alto do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+        "variantes": [
+          "Christ the Redeemer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "princesa_isabel",
+          "nome": "Princesa Isabel",
+          "descricao": "Princesa Imperial do Brasil, filha de Pedro Segundo, que assinou a Lei Áurea em 1888.",
+          "variantes": [
+            "Isabel de Bragança",
+            "A Redentora"
+          ]
+        },
+        {
+          "id": "arvore_de_natal",
+          "nome": "Árvore de Natal",
+          "descricao": "Pinheiro, natural ou artificial, enfeitado com luzes e ornamentos durante as festas de fim de ano.",
+          "variantes": [
+            "Pinheirinho de Natal",
+            "Christmas tree"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Templo do Céu",
+        "descricao": "Complexo imperial de templos em Pequim, onde os imperadores rezavam pela boa colheita.",
+        "variantes": [
+          "Temple of Heaven",
+          "Tiantan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "tita",
+          "nome": "Titã",
+          "descricao": "Maior lua de Saturno, com densa atmosfera alaranjada.",
+          "variantes": [
+            "Titan"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "instituto_butantan",
+          "nome": "Instituto Butantan",
+          "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas.",
+          "variantes": [
+            "Butantan"
+          ]
+        },
+        {
+          "id": "tintim",
+          "nome": "Tintim",
+          "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+          "variantes": [
+            "Tintin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Templo de Hefesto",
+        "descricao": "Templo grego dórico muito bem conservado na Ágora de Atenas, dedicado a Hefesto.",
+        "variantes": [
+          "Hefesteion",
+          "Teseion",
+          "Temple of Hephaestus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "templo_de_edfu",
+          "nome": "Templo de Edfu",
+          "descricao": "Templo dedicado ao deus Hórus na cidade de Edfu, no sul do Egito, um dos mais bem conservados do país",
+          "variantes": [
+            "Templo de Hórus em Edfu",
+            "Temple of Edfu"
+          ]
+        },
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "templo_de_hatshepsut",
+          "nome": "Templo de Hatshepsut",
+          "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+          "variantes": [
+            "Templo mortuário de Hatshepsut",
+            "Deir el-Bahari",
+            "Djeser-Djeseru",
+            "Mortuary Temple of Hatshepsut"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "torres_petronas",
+      "motivo": "Mesmo par de arranha-céus em Kuala Lumpur."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "abadia_de_westminster",
+      "motivo": "Mesma igreja em Londres."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Fauno Barberini."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_sacre_c_ur",
+      "motivo": "Mesma basílica de Montmartre."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O Buda de Leshan é outra estátua; Kamakura não está nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura Gálata Moribundo."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "arcos_da_lapa",
+      "motivo": "Mesmo aqueduto no Rio de Janeiro."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Mesquita do Profeta em Medina."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A escultura Hermes de Praxíteles não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "cristo_redentor",
+      "motivo": "Mesma estátua no Corcovado."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "templo_do_ceu",
+      "motivo": "Mesmo complexo de templos em Pequim."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "templo_de_hefesto",
+      "motivo": "Mesmo templo na Ágora de Atenas."
+    }
+  ]
+}
