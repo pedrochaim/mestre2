@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que torneio de Grand Slam esta tenista russa conquistou seu primeiro título?",
+        "resposta": "Wimbledon"
+      },
+      "existentes": [
+        {
+          "id": "q07575",
+          "pergunta": "Ainda criança, em 1994, a russa Maria Sharapova se mudou com o pai para treinar tênis em qual estado americano?",
+          "resposta": "Flórida"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o torneio do primeiro título de Grand Slam; a existente é sobre o estado americano para onde ela se mudou na infância. São fatos diferentes."
+    }
+  ]
+}

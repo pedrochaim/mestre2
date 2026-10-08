@@ -1,0 +1,486 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cláudio Taffarel",
+        "descricao": "Ex-goleiro brasileiro, campeão mundial em 1994 e preparador de goleiros da seleção brasileira.",
+        "variantes": [
+          "Taffarel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galeno",
+          "nome": "Galeno",
+          "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos.",
+          "variantes": [
+            "Cláudio Galeno",
+            "Galen",
+            "Galeno de Pérgamo"
+          ]
+        },
+        {
+          "id": "ptolomeu",
+          "nome": "Ptolomeu",
+          "descricao": "Astrônomo, geógrafo e astrólogo greco-romano do século dois, autor do Almagesto.",
+          "variantes": [
+            "Cláudio Ptolomeu",
+            "Claudius Ptolemy",
+            "Ptolemy"
+          ]
+        },
+        {
+          "id": "tartufo",
+          "nome": "Tartufo",
+          "descricao": "Comédia de Molière, de 1664, sobre um falso devoto que engana a família de Orgon.",
+          "variantes": [
+            "Tartuffe",
+            "Tartufo ou O Impostor"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Felipe Nasr",
+        "descricao": "Piloto brasileiro que correu na Fórmula 1 pela Sauber e é campeão da IMSA.",
+        "variantes": [
+          "Luiz Felipe Nasr"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "felipe_massa",
+          "nome": "Felipe Massa",
+          "descricao": "Piloto brasileiro de Fórmula 1, vice-campeão mundial em 2008 pela Ferrari.",
+          "variantes": []
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        },
+        {
+          "id": "filipinas",
+          "nome": "Filipinas",
+          "descricao": "País arquipélago do Sudeste Asiático, no Pacífico ocidental, cuja capital é Manila.",
+          "variantes": [
+            "República das Filipinas",
+            "Philippines"
+          ]
+        },
+        {
+          "id": "eclipse_solar",
+          "nome": "Eclipse solar",
+          "descricao": "Fenômeno em que a Lua passa entre a Terra e o Sol e encobre o Sol total ou parcialmente.",
+          "variantes": [
+            "Eclipse do Sol"
+          ]
+        },
+        {
+          "id": "jipe_lunar",
+          "nome": "Jipe lunar",
+          "descricao": "Veículo elétrico de quatro rodas usado pelos astronautas das missões Apollo 15, 16 e 17.",
+          "variantes": [
+            "Jipe lunar (Lunar Roving Vehicle)",
+            "Lunar Roving Vehicle",
+            "LRV",
+            "Moon buggy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tom Brady",
+        "descricao": "Quarterback americano de futebol americano, campeão da NFL com os Patriots e os Buccaneers.",
+        "variantes": [
+          "Thomas Brady"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "thomas_more",
+          "nome": "Thomas More",
+          "descricao": "Humanista, estadista e santo inglês (1478–1535), autor de Utopia, executado por ordem de Henrique oitavo.",
+          "variantes": [
+            "Tomás Morus",
+            "São Tomás More",
+            "Sir Thomas More"
+          ]
+        },
+        {
+          "id": "thomas_sankara",
+          "nome": "Thomas Sankara",
+          "descricao": "Militar e presidente revolucionário de Burkina Faso de 1983 a 1987, assassinado num golpe.",
+          "variantes": [
+            "Thomas Isidore Noël Sankara"
+          ]
+        },
+        {
+          "id": "thomas_edison",
+          "nome": "Thomas Edison",
+          "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+          "variantes": [
+            "Thomas Alva Edison"
+          ]
+        },
+        {
+          "id": "thomas_henry_huxley",
+          "nome": "Thomas Henry Huxley",
+          "descricao": "Biólogo inglês do século dezenove, grande defensor público da teoria da evolução de Darwin.",
+          "variantes": [
+            "Thomas Huxley",
+            "T. H. Huxley"
+          ]
+        },
+        {
+          "id": "thomas_hobbes",
+          "nome": "Thomas Hobbes",
+          "descricao": "Filósofo político inglês (1588–1679), autor de Leviatã.",
+          "variantes": [
+            "Hobbes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Filipe Toledo",
+        "descricao": "Surfista profissional brasileiro de Ubatuba, bicampeão mundial da WSL em 2022 e 2023.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "vista_de_toledo",
+          "nome": "Vista de Toledo",
+          "descricao": "Paisagem de El Greco de cerca de 1600.",
+          "variantes": []
+        },
+        {
+          "id": "liev_tolstoi",
+          "nome": "Liev Tolstói",
+          "descricao": "Escritor russo (1828–1910), autor de Guerra e Paz e Anna Kariênina.",
+          "variantes": [
+            "Leo Tolstoy",
+            "Lev Tolstói",
+            "Leon Tolstói"
+          ]
+        },
+        {
+          "id": "toledo",
+          "nome": "Toledo",
+          "descricao": "Cidade histórica da Espanha, capital de Castela-La Mancha, numa curva do rio Tejo.",
+          "variantes": [
+            "Toledo (Espanha)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Caio Bonfim",
+        "descricao": "Marchador brasileiro, prata nos Jogos Olímpicos de 2024 e campeão mundial dos 20 km em 2025.",
+        "variantes": [
+          "Caio Oliveira de Sena Bonfim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lavagem_do_bonfim",
+          "nome": "Lavagem do Bonfim",
+          "descricao": "Festa popular de Salvador em que baianas lavam as escadarias da Igreja do Senhor do Bonfim com água perfumada.",
+          "variantes": [
+            "Lavagem das escadarias do Bonfim",
+            "Festa do Bonfim"
+          ]
+        },
+        {
+          "id": "fita_do_senhor_do_bonfim",
+          "nome": "Fita do Senhor do Bonfim",
+          "descricao": "Fitinha colorida de lembrança da Igreja do Senhor do Bonfim, em Salvador, amarrada no pulso com nós de pedidos.",
+          "variantes": [
+            "Fitinha do Bonfim",
+            "Medida do Bonfim"
+          ]
+        },
+        {
+          "id": "caso_bosman",
+          "nome": "Caso Bosman",
+          "descricao": "Decisão de 1995 do Tribunal de Justiça europeu, a partir da ação do jogador belga Jean-Marc Bosman, que mudou as regras de transferência no futebol.",
+          "variantes": [
+            "Lei Bosman",
+            "Bosman ruling"
+          ]
+        },
+        {
+          "id": "mario_sonic",
+          "nome": "Mario & Sonic",
+          "descricao": "Série de jogos esportivos que reúne os personagens da Nintendo e da Sega, iniciada em 2007.",
+          "variantes": [
+            "Mario & Sonic at the Olympic Games",
+            "Mario e Sonic nos Jogos Olímpicos"
+          ]
+        },
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Franz Beckenbauer",
+        "descricao": "Zagueiro e técnico alemão, campeão do mundo como jogador em 1974 e como técnico em 1990.",
+        "variantes": [
+          "Kaiser"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser"
+          ]
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        },
+        {
+          "id": "kasutera",
+          "nome": "Kasutera",
+          "descricao": "Bolo esponjoso japonês de Nagasaki, derivado do pão de ló levado pelos portugueses.",
+          "variantes": [
+            "Castella"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur"
+          ]
+        },
+        {
+          "id": "o_beijo_rodin",
+          "nome": "O Beijo (Rodin)",
+          "descricao": "Escultura de um casal nu abraçado, feita por Auguste Rodin em 1882.",
+          "variantes": [
+            "Le Baiser",
+            "The Kiss"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Maria Sharapova",
+        "descricao": "Ex-tenista russa, número 1 do mundo e campeã de cinco Grand Slams.",
+        "variantes": [
+          "Maria Yuryevna Sharapova"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maria_sharapova",
+          "nome": "Maria Sharapova",
+          "descricao": "Tenista russa nascida em 1987, ex-número 1 do mundo e campeã dos quatro torneios de Grand Slam.",
+          "variantes": [
+            "Mariya Sharapova"
+          ]
+        },
+        {
+          "id": "martina_navratilova",
+          "nome": "Martina Navratilova",
+          "descricao": "Tenista nascida em 1956 em Praga e naturalizada americana, campeã de 18 Grand Slams em simples.",
+          "variantes": []
+        },
+        {
+          "id": "flavia_saraiva",
+          "nome": "Flávia Saraiva",
+          "descricao": "Ginasta artística brasileira, medalhista de bronze por equipes nas Olimpíadas de Paris 2024.",
+          "variantes": [
+            "Flávia Lopes Saraiva"
+          ]
+        },
+        {
+          "id": "mariposa_das_betulas",
+          "nome": "Mariposa-das-bétulas",
+          "descricao": "Mariposa europeia Biston betularia, exemplo clássico de seleção natural durante a Revolução Industrial.",
+          "variantes": [
+            "Biston betularia",
+            "Peppered moth",
+            "Mariposa-sarapintada"
+          ]
+        },
+        {
+          "id": "andrei_sakharov",
+          "nome": "Andrei Sakharov",
+          "descricao": "Físico nuclear soviético (1921–1989), um dos criadores da bomba de hidrogênio soviética e Nobel da Paz de 1975.",
+          "variantes": [
+            "Andrei Dmitrievich Sakharov"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ítalo Ferreira",
+        "descricao": "Surfista brasileiro de Baía Formosa (RN), campeão mundial da WSL e campeão olímpico em 2020.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bibi_ferreira",
+          "nome": "Bibi Ferreira",
+          "descricao": "Atriz, cantora e diretora brasileira (1922–2019), filha do ator Procópio Ferreira.",
+          "variantes": [
+            "Abigail Izquierdo Ferreira"
+          ]
+        },
+        {
+          "id": "paulo_freire",
+          "nome": "Paulo Freire",
+          "descricao": "Educador e filósofo brasileiro (1921–1997), autor de Pedagogia do Oprimido.",
+          "variantes": [
+            "Paulo Reglus Neves Freire"
+          ]
+        },
+        {
+          "id": "natalia_pereira",
+          "nome": "Natália Pereira",
+          "descricao": "Jogadora brasileira de vôlei, campeã olímpica em Londres 2012, nascida Natália Zilio Pereira.",
+          "variantes": [
+            "Natália Zilio Pereira",
+            "Natália"
+          ]
+        },
+        {
+          "id": "eritreia_italiana",
+          "nome": "Eritreia italiana",
+          "descricao": "Colônia da Itália no litoral do mar Vermelho, de 1890 a 1941.",
+          "variantes": [
+            "Italian Eritrea",
+            "Colônia Eritreia"
+          ]
+        },
+        {
+          "id": "matinta_perera",
+          "nome": "Matinta Perera",
+          "descricao": "Figura do folclore amazônico, velha bruxa que se transforma em pássaro e assobia à noite.",
+          "variantes": [
+            "Matinta Pereira",
+            "Matita Perê"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Goleiro brasileiro; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Felipe Nasr é diferente de Felipe Massa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhum Thomas candidato é Tom Brady."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Surfista; candidatas não correspondem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Marchador; candidatas não relacionadas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Beckenbauer."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "maria_sharapova",
+      "motivo": "Mesma tenista russa, ex-número 1; descrição difere em detalhes, mas é a mesma pessoa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Surfista Ítalo Ferreira não consta entre as candidatas."
+    }
+  ]
+}

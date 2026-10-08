@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, camisa da seleção sem nome. Pergunta de conexão sobre o título mundial.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que Copa do Mundo este goleiro foi campeão com a seleção brasileira?",
+      "resposta": "1994",
+      "ancora": {
+        "nome": "Cláudio Taffarel",
+        "descricao": "Ex-goleiro brasileiro, campeão mundial em 1994 e preparador de goleiros da seleção brasileira.",
+        "variantes": [
+          "Taffarel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Três jogadoras na imagem e não fica claro qual é Janeth. Resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto. Pergunta sobre a equipe de Fórmula 1.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 4,
+      "pergunta": "Por qual equipe este piloto brasileiro disputou a Fórmula 1?",
+      "resposta": "Sauber",
+      "ancora": {
+        "nome": "Felipe Nasr",
+        "descricao": "Piloto brasileiro que correu na Fórmula 1 pela Sauber e é campeão da IMSA.",
+        "variantes": [
+          "Luiz Felipe Nasr"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. Pergunta de nível 3 sobre o time.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 7,
+      "pergunta": "Que time de futebol americano este quarterback defendeu por vinte temporadas?",
+      "resposta": "New England Patriots",
+      "ancora": {
+        "nome": "Tom Brady",
+        "descricao": "Quarterback americano de futebol americano, campeão da NFL com os Patriots e os Buccaneers.",
+        "variantes": [
+          "Thomas Brady"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro. O boné traz só a marca Hurley, que não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 7,
+      "pergunta": "Em que cidade da Califórnia este surfista brasileiro foi morar com a família?",
+      "resposta": "San Clemente",
+      "ancora": {
+        "nome": "Filipe Toledo",
+        "descricao": "Surfista profissional brasileiro de Ubatuba, bicampeão mundial da WSL em 2022 e 2023.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto. Múltipla escolha com atletas brasileiros do atletismo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 5,
+      "pergunta": "Quem é este atleta brasileiro do atletismo?",
+      "resposta": "Caio Bonfim",
+      "distratores": [
+        "Thiago Braz",
+        "Alison dos Santos",
+        "Darlan Romani"
+      ],
+      "ancora": {
+        "nome": "Caio Bonfim",
+        "descricao": "Marchador brasileiro, prata nos Jogos Olímpicos de 2024 e campeão mundial dos 20 km em 2025.",
+        "variantes": [
+          "Caio Oliveira de Sena Bonfim"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato histórico, camisa da Alemanha sem texto com nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que Copa do Mundo este zagueiro alemão foi campeão como jogador?",
+      "resposta": "1974",
+      "ancora": {
+        "nome": "Franz Beckenbauer",
+        "descricao": "Zagueiro e técnico alemão, campeão do mundo como jogador em 1974 e como técnico em 1990.",
+        "variantes": [
+          "Kaiser"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Os banners do UFC trazem 'dos Santos vs Carwin', o que entrega o nome."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Em que torneio de Grand Slam esta tenista russa conquistou seu primeiro título?",
+      "resposta": "Wimbledon",
+      "ancora": {
+        "nome": "Maria Sharapova",
+        "descricao": "Ex-tenista russa, número 1 do mundo e campeã de cinco Grand Slams.",
+        "variantes": [
+          "Maria Yuryevna Sharapova"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem nome visível. A marca Billabong não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 7,
+      "pergunta": "Quem é este surfista brasileiro?",
+      "resposta": "Ítalo Ferreira",
+      "ancora": {
+        "nome": "Ítalo Ferreira",
+        "descricao": "Surfista brasileiro de Baía Formosa (RN), campeão mundial da WSL e campeão olímpico em 2020.",
+        "variantes": [
+          "Italo Ferreira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O número de peito mostra 'SANTOS', parte do nome do atleta, o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido. O escudo da Juventus não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é este goleiro italiano?",
+      "resposta": "Gianluigi Buffon",
+      "ancora": {
+        "nome": "Gianluigi Buffon",
+        "descricao": "Ex-goleiro italiano, ídolo da Juventus e recordista de jogos na Serie A.",
+        "variantes": [
+          "Gigi Buffon"
+        ]
+      }
+    }
+  ]
+}
