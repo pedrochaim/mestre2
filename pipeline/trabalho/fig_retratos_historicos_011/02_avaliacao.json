@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro de Luís XVI em trajes reais, sem texto, legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rei da França é retratado neste quadro?",
+      "resposta": "Luís XVI",
+      "destino": 4,
+      "ancora": {
+        "nome": "Luís XVI",
+        "descricao": "Último rei da França antes da queda da monarquia na Revolução Francesa, casado com Maria Antonieta.",
+        "variantes": [
+          "Luís XVI de França",
+          "Louis XVI"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fotografia nítida e sem texto de Theodore Roosevelt, com pincenê e bigode característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que presidente dos Estados Unidos é este?",
+      "resposta": "Theodore Roosevelt",
+      "distratores": [
+        "William Howard Taft",
+        "William McKinley",
+        "Woodrow Wilson"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Theodore Roosevelt",
+        "descricao": "26º presidente dos Estados Unidos, de 1901 a 1909.",
+        "variantes": [
+          "Teddy Roosevelt",
+          "Teodoro Roosevelt"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto, de Julius Nyerere; reconhecimento de aficionado, adequado à múltipla escolha. Troquei para 'o que é' porque a pergunta de data seria ambígua (Tanganica e Tanzânia).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que líder africano, presidente do seu país na segunda metade do século vinte, é este?",
+      "resposta": "Julius Nyerere",
+      "distratores": [
+        "Kenneth Kaunda",
+        "Jomo Kenyatta",
+        "Kwame Nkrumah"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Julius Nyerere",
+        "descricao": "Líder anticolonial e primeiro presidente da Tanzânia, idealizador do socialismo africano chamado Ujamaa.",
+        "variantes": [
+          "Mwalimu Nyerere"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto antiga, pequena mas legível e sem texto, de Oswaldo Cruz; uso em múltipla escolha com cientistas brasileiros da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que médico sanitarista brasileiro é este?",
+      "resposta": "Oswaldo Cruz",
+      "distratores": [
+        "Carlos Chagas",
+        "Vital Brazil",
+        "Adolfo Lutz"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Oswaldo Cruz",
+        "descricao": "Médico e bacteriologista brasileiro, fundador do Instituto Oswaldo Cruz e combatente da febre amarela no Rio de Janeiro.",
+        "variantes": [
+          "Oswaldo Gonçalves Cruz"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura em retrato oval; a assinatura do pintor é ilegível e não entrega a resposta. O título de barão é fato do trecho.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este empresário brasileiro do Império recebeu o título de barão?",
+      "resposta": "1854",
+      "distratores": [
+        "1834",
+        "1864",
+        "1874"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Barão de Mauá",
+        "descricao": "Irineu Evangelista de Sousa, empresário, banqueiro e industrial brasileiro do Império, barão e depois visconde de Mauá.",
+        "variantes": [
+          "Visconde de Mauá",
+          "Irineu Evangelista de Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto antiga de rosto, sem texto, de Eva Perón; reconhecível para figura emblemática.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que figura política argentina é esta?",
+      "resposta": "Eva Perón",
+      "destino": 5,
+      "ancora": {
+        "nome": "Eva Perón",
+        "descricao": "Atriz e política argentina, primeira-dama de 1946 a 1952 e esposa do presidente Juan Perón.",
+        "variantes": [
+          "Evita",
+          "María Eva Duarte de Perón"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fotografia histórica sem texto de Cetshwayo, figura pública; resposta única.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano os britânicos entraram em guerra contra este rei zulu?",
+      "resposta": "1879",
+      "distratores": [
+        "1869",
+        "1889",
+        "1899"
+      ],
+      "destino": 9,
+      "ancora": {
+        "nome": "Cetshwayo",
+        "descricao": "Rei do Reino Zulu de 1873 a 1884, comandante zulu na guerra anglo-zulu de 1879.",
+        "variantes": [
+          "Cetshwayo kaMpande",
+          "Cetewayo",
+          "Cetywayo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Detalhe do mosaico de Justiniano em Ravena, sem texto, imagem emblemática e clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que imperador bizantino é retratado neste mosaico?",
+      "resposta": "Justiniano I",
+      "destino": 3,
+      "ancora": {
+        "nome": "Justiniano I",
+        "descricao": "Imperador romano do Oriente (bizantino) de 527 a 565, retratado no mosaico da basílica de San Vitale, em Ravena.",
+        "variantes": [
+          "Justiniano, o Grande",
+          "Justiniano"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato pintado sem texto de Bento Gonçalves, com uniforme de oficial; identificação por múltipla escolha de datas.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano começou a revolta liderada por este militar gaúcho, que durou uma década?",
+      "resposta": "1835",
+      "distratores": [
+        "1817",
+        "1825",
+        "1842"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Bento Gonçalves",
+        "descricao": "Militar e político do Rio Grande do Sul, líder da Revolução Farroupilha e primeiro presidente da República Rio-Grandense.",
+        "variantes": [
+          "Bento Gonçalves da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato pintado de Catarina II, sem texto, reconhecível e claro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta imperatriz russa chegou ao poder derrubando que marido?",
+      "resposta": "Pedro III",
+      "destino": 4,
+      "ancora": {
+        "nome": "Catarina, a Grande",
+        "descricao": "Imperatriz da Rússia de 1762 a 1796, nascida princesa alemã, que depôs o marido Pedro III.",
+        "variantes": [
+          "Catarina II da Rússia",
+          "Catherine the Great"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato pintado de Nelson com chapéu e condecorações, sem texto, claro.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu este almirante britânico?",
+      "resposta": "1805",
+      "distratores": [
+        "1798",
+        "1812",
+        "1815"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Horatio Nelson",
+        "descricao": "Almirante da Marinha Real Britânica, vencedor de batalhas navais nas Guerras Napoleônicas, morto em Trafalgar.",
+        "variantes": [
+          "Almirante Nelson",
+          "Lorde Nelson"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O busto atribuído a Aníbal tem identificação incerta (apenas provável) e não é reconhecível pela imagem; resposta não é única diante dela."
+    }
+  ]
+}

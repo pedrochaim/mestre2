@@ -1,0 +1,659 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Luís XVI",
+        "descricao": "Último rei da França antes da queda da monarquia na Revolução Francesa, casado com Maria Antonieta.",
+        "variantes": [
+          "Luís XVI de França",
+          "Louis XVI"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luis_xiv",
+          "nome": "Luís XIV",
+          "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes.",
+          "variantes": [
+            "Rei Sol",
+            "Louis XIV"
+          ]
+        },
+        {
+          "id": "louis_vuitton",
+          "nome": "Louis Vuitton",
+          "descricao": "Fabricante francês de malas (1821–1892), fundador da grife que leva seu nome",
+          "variantes": [
+            "Louis Vuitton (estilista)"
+          ]
+        },
+        {
+          "id": "luas_de_urano",
+          "nome": "Luas de Urano",
+          "descricao": "Satélites naturais do planeta Urano, batizados com nomes de personagens literários.",
+          "variantes": [
+            "Satélites de Urano",
+            "Moons of Uranus"
+          ]
+        },
+        {
+          "id": "louis_braille",
+          "nome": "Louis Braille",
+          "descricao": "Educador francês (1809–1852), cego desde a infância, criador do sistema de leitura e escrita com pontos em relevo.",
+          "variantes": []
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Theodore Roosevelt",
+        "descricao": "26º presidente dos Estados Unidos, de 1901 a 1909.",
+        "variantes": [
+          "Teddy Roosevelt",
+          "Teodoro Roosevelt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_roosevelt",
+          "nome": "Rio Roosevelt",
+          "descricao": "Afluente do rio Aripuanã, na Amazônia brasileira, antes chamado rio da Dúvida.",
+          "variantes": [
+            "Rio da Dúvida",
+            "Roosevelt River"
+          ]
+        },
+        {
+          "id": "franklin_d_roosevelt",
+          "nome": "Franklin D. Roosevelt",
+          "descricao": "32º presidente dos Estados Unidos, de 1933 a 1945, durante a Grande Depressão e a Segunda Guerra Mundial.",
+          "variantes": [
+            "FDR",
+            "Franklin Delano Roosevelt"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Julius Nyerere",
+        "descricao": "Líder anticolonial e primeiro presidente da Tanzânia, idealizador do socialismo africano chamado Ujamaa.",
+        "variantes": [
+          "Mwalimu Nyerere"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "julio_cesar",
+          "nome": "Júlio César",
+          "descricao": "General, político e ditador romano assassinado em 44 a.C., conquistador da Gália.",
+          "variantes": [
+            "Caio Júlio César",
+            "Julius Caesar"
+          ]
+        },
+        {
+          "id": "julio_verne",
+          "nome": "Júlio Verne",
+          "descricao": "Romancista francês do século dezenove, autor de Viagem ao Centro da Terra e A Volta ao Mundo em 80 Dias.",
+          "variantes": [
+            "Jules Verne"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Oswaldo Cruz",
+        "descricao": "Médico e bacteriologista brasileiro, fundador do Instituto Oswaldo Cruz e combatente da febre amarela no Rio de Janeiro.",
+        "variantes": [
+          "Oswaldo Gonçalves Cruz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oswaldo_cruz",
+          "nome": "Oswaldo Cruz",
+          "descricao": "Médico sanitarista e bacteriologista brasileiro, fundador do Instituto Oswaldo Cruz.",
+          "variantes": [
+            "Oswaldo Gonçalves Cruz"
+          ]
+        },
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "salinidade_da_agua_do_mar",
+          "nome": "Salinidade da água do mar",
+          "descricao": "Quantidade de sais dissolvidos na água dos mares e oceanos.",
+          "variantes": [
+            "Sal do mar",
+            "Salinidade oceânica"
+          ]
+        },
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Barão de Mauá",
+        "descricao": "Irineu Evangelista de Sousa, empresário, banqueiro e industrial brasileiro do Império, barão e depois visconde de Mauá.",
+        "variantes": [
+          "Visconde de Mauá",
+          "Irineu Evangelista de Sousa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "visconde_de_sabugosa",
+          "nome": "Visconde de Sabugosa",
+          "descricao": "Personagem sábio do Sítio do Picapau Amarelo, de Monteiro Lobato.",
+          "variantes": [
+            "Visconde"
+          ]
+        },
+        {
+          "id": "duque_de_caxias",
+          "nome": "Duque de Caxias",
+          "descricao": "Luís Alves de Lima e Silva, militar do Império do Brasil, o Pacificador, patrono do Exército.",
+          "variantes": [
+            "Luís Alves de Lima e Silva",
+            "Barão de Caxias",
+            "Marquês de Caxias"
+          ]
+        },
+        {
+          "id": "represa_de_assua",
+          "nome": "Represa de Assuã",
+          "descricao": "Grande barragem no rio Nilo, no sul do Egito, construída nos anos 1960, que formou o lago Nasser.",
+          "variantes": [
+            "Represa Alta de Assuã",
+            "Barragem de Assuã",
+            "Aswan High Dam"
+          ]
+        },
+        {
+          "id": "boi_de_mamao",
+          "nome": "Boi de mamão",
+          "descricao": "Folguedo popular do litoral do Sul do Brasil, com personagens como o boi, a bernúncia e a Maricota.",
+          "variantes": []
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Eva Perón",
+        "descricao": "Atriz e política argentina, primeira-dama de 1946 a 1952 e esposa do presidente Juan Perón.",
+        "variantes": [
+          "Evita",
+          "María Eva Duarte de Perón"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leviata",
+          "nome": "Leviatã",
+          "descricao": "Obra de filosofia política publicada em 1651, que defende um soberano forte para evitar a guerra de todos contra todos.",
+          "variantes": [
+            "Leviathan"
+          ]
+        },
+        {
+          "id": "banda_eva",
+          "nome": "Banda Eva",
+          "descricao": "Banda baiana de axé music surgida do bloco de carnaval Eva, em Salvador.",
+          "variantes": [
+            "Eva"
+          ]
+        },
+        {
+          "id": "vietna",
+          "nome": "Vietnã",
+          "descricao": "País do Sudeste Asiático com litoral no Mar da China Meridional, capital Hanói.",
+          "variantes": [
+            "Vietnam",
+            "Viet Nam"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "o_cao_goya",
+          "nome": "O Cão (Goya)",
+          "descricao": "Pintura negra de Francisco de Goya, no Museu do Prado, com a cabeça de um cão olhando para cima.",
+          "variantes": [
+            "El Perro",
+            "The Dog",
+            "Cão semi-submerso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cetshwayo",
+        "descricao": "Rei do Reino Zulu de 1873 a 1884, comandante zulu na guerra anglo-zulu de 1879.",
+        "variantes": [
+          "Cetshwayo kaMpande",
+          "Cetewayo",
+          "Cetywayo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cetaceos",
+          "nome": "Cetáceos",
+          "descricao": "Infraordem de mamíferos marinhos que reúne baleias, golfinhos e botos.",
+          "variantes": [
+            "Cetacea",
+            "Cetáceo"
+          ]
+        },
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "et_cetera",
+          "nome": "Et cetera",
+          "descricao": "Expressão latina usada no fim de enumerações, abreviada como etc.",
+          "variantes": [
+            "Etc.",
+            "Etcétera"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Justiniano I",
+        "descricao": "Imperador romano do Oriente (bizantino) de 527 a 565, retratado no mosaico da basílica de San Vitale, em Ravena.",
+        "variantes": [
+          "Justiniano, o Grande",
+          "Justiniano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "constantino",
+          "nome": "Constantino",
+          "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+          "variantes": [
+            "Constantino I",
+            "Constantino, o Grande",
+            "Constantine the Great"
+          ]
+        },
+        {
+          "id": "sininho",
+          "nome": "Sininho",
+          "descricao": "Fada ajudante de Peter Pan no filme da Disney de 1953.",
+          "variantes": [
+            "Tinker Bell",
+            "Tink"
+          ]
+        },
+        {
+          "id": "mini_mark_i",
+          "nome": "Mini Mark I",
+          "descricao": "Primeira versão do carro compacto Mini da British Motor Corporation, produzida a partir de 1959.",
+          "variantes": [
+            "Mini",
+            "Austin Mini",
+            "Morris Mini",
+            "Mini Mk I"
+          ]
+        },
+        {
+          "id": "ciro_o_grande",
+          "nome": "Ciro, o Grande",
+          "descricao": "Rei persa do século seis antes de Cristo, fundador do Império Aquemênida.",
+          "variantes": [
+            "Ciro II",
+            "Cyrus the Great",
+            "Kourosh"
+          ]
+        },
+        {
+          "id": "catarina_a_grande",
+          "nome": "Catarina, a Grande",
+          "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst.",
+          "variantes": [
+            "Catarina II da Rússia",
+            "Catherine the Great"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bento Gonçalves",
+        "descricao": "Militar e político do Rio Grande do Sul, líder da Revolução Farroupilha e primeiro presidente da República Rio-Grandense.",
+        "variantes": [
+          "Bento Gonçalves da Silva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "goncalves_dias",
+          "nome": "Gonçalves Dias",
+          "descricao": "Poeta romântico maranhense (1823–1864), autor da Canção do Exílio.",
+          "variantes": [
+            "Antônio Gonçalves Dias"
+          ]
+        },
+        {
+          "id": "daniel_alves",
+          "nome": "Daniel Alves",
+          "descricao": "Lateral-direito brasileiro, um dos jogadores mais premiados da história do futebol.",
+          "variantes": [
+            "Dani Alves",
+            "Daniel Alves da Silva"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        },
+        {
+          "id": "roberto_carlos_2",
+          "nome": "Roberto Carlos",
+          "descricao": "Ex-lateral esquerdo brasileiro, pentacampeão mundial em 2002 e ídolo do Real Madrid.",
+          "variantes": [
+            "Roberto Carlos da Silva Rocha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Catarina, a Grande",
+        "descricao": "Imperatriz da Rússia de 1762 a 1796, nascida princesa alemã, que depôs o marido Pedro III.",
+        "variantes": [
+          "Catarina II da Rússia",
+          "Catherine the Great"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catarina_a_grande",
+          "nome": "Catarina, a Grande",
+          "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst.",
+          "variantes": [
+            "Catarina II da Rússia",
+            "Catherine the Great"
+          ]
+        },
+        {
+          "id": "constantino",
+          "nome": "Constantino",
+          "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+          "variantes": [
+            "Constantino I",
+            "Constantino, o Grande",
+            "Constantine the Great"
+          ]
+        },
+        {
+          "id": "pedro_o_grande",
+          "nome": "Pedro, o Grande",
+          "descricao": "Tsar da Rússia a partir de 1682 e primeiro imperador russo, de 1721 a 1725.",
+          "variantes": [
+            "Pedro I da Rússia",
+            "Peter the Great"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        },
+        {
+          "id": "arara_azul_grande",
+          "nome": "Arara-azul-grande",
+          "descricao": "Maior arara e maior papagaio voador (Anodorhynchus hyacinthinus), de plumagem azul-cobalto com detalhes amarelos no rosto.",
+          "variantes": [
+            "Arara-azul",
+            "Hyacinth macaw",
+            "Anodorhynchus hyacinthinus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Horatio Nelson",
+        "descricao": "Almirante da Marinha Real Britânica, vencedor de batalhas navais nas Guerras Napoleônicas, morto em Trafalgar.",
+        "variantes": [
+          "Almirante Nelson",
+          "Lorde Nelson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "william_thomson_lorde_kelvin",
+          "nome": "William Thomson (Lorde Kelvin)",
+          "descricao": "Físico britânico do século dezenove, nascido em Belfast e professor em Glasgow, que dá nome à escala Kelvin.",
+          "variantes": [
+            "Lord Kelvin",
+            "Lorde Kelvin",
+            "William Thomson"
+          ]
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        },
+        {
+          "id": "sistema_de_classificacao_elo",
+          "nome": "Sistema de classificação Elo",
+          "descricao": "Método estatístico de pontuação de jogadores de xadrez criado pelo físico húngaro-americano Arpad Elo.",
+          "variantes": [
+            "Rating Elo",
+            "Elo rating system"
+          ]
+        },
+        {
+          "id": "tarzan",
+          "nome": "Tarzan",
+          "descricao": "Personagem criado por Edgar Rice Burroughs em 1912, menino inglês criado por macacos na África.",
+          "variantes": [
+            "Tarzã",
+            "Lorde Greystoke"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Luís XVI não está entre as candidatas; Luís XIV é outro rei."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Theodore Roosevelt é diferente de Franklin D. Roosevelt e do rio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Julius Nyerere."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "oswaldo_cruz",
+      "motivo": "Mesmo médico sanitarista brasileiro, fundador do Instituto Oswaldo Cruz."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Barão de Mauá não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Eva Perón não consta entre as candidatas; Banda Eva é outra entidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Cetshwayo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Justiniano I não está entre as candidatas; Constantino é outro imperador."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Bento Gonçalves não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "catarina_a_grande",
+      "motivo": "Mesma imperatriz Catarina II da Rússia (1762–1796)."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Horatio Nelson não está entre as candidatas."
+    }
+  ]
+}

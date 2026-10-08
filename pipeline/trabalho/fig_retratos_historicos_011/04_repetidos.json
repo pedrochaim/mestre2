@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que médico sanitarista brasileiro é este?",
+        "resposta": "Oswaldo Cruz"
+      },
+      "existentes": [
+        {
+          "id": "q01428",
+          "pergunta": "Que fundação de pesquisa em saúde, com sede no Rio de Janeiro, leva o nome do médico desta foto?",
+          "resposta": "Fiocruz (Fundação Oswaldo Cruz)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que imperatriz russa do século dezoito é esta?",
+        "resposta": "Catarina, a Grande"
+      },
+      "existentes": [
+        {
+          "id": "q03691",
+          "pergunta": "Catarina, a Grande, imperatriz da Rússia no século dezoito, nasceu princesa em outro país. Qual era sua língua materna?",
+          "resposta": "Alemão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade do médico na foto; a existente pede o nome da fundação que leva o nome dele. São fatos diferentes, e a resposta de uma não leva à da outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade da imperatriz; a existente pede a língua materna dela. São fatos diferentes."
+    }
+  ]
+}

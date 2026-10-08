@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista que entregue; Luís XVI é o último rei antes da queda da monarquia, confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única diante da imagem, distratores presidentes da mesma época e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro (presidente de 1962 a 1985) e sem entregar o nome; distratores são líderes africanos do mesmo período, mas a figura decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Sanitarista brasileiro' ajuda sem entregar; distratores são médicos brasileiros da mesma época e nenhum é o retratado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Barão em 1854 confirmado nos trechos; o enunciado não identifica sozinho o empresário e os distratores são críveis (1874 foi o título de visconde).",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem pista que entregue; Eva Perón é política argentina conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'britânicos em guerra contra rei zulu' já remete à Guerra Anglo-Zulu de 1879, então a figura vira enfeite. Passa a pedir o reconhecimento do rei.",
+      "reescrita": {
+        "pergunta": "Que rei zulu do século dezenove é este?",
+        "resposta": "Cetshwayo",
+        "distratores": [
+          "Shaka",
+          "Dingane",
+          "Mpande"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam os mosaicos de Justiniano em San Vitale; o enunciado não nomeia o imperador.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: 'revolta gaúcha que durou uma década' é a Farroupilha, e o ano 1835 sai sem olhar a figura. Passa a pedir o reconhecimento do militar.",
+      "reescrita": {
+        "pergunta": "Que militar gaúcho do século dezenove é este?",
+        "resposta": "Bento Gonçalves",
+        "distratores": [
+          "Davi Canabarro",
+          "Duque de Caxias",
+          "Manuel Luís Osório"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Falha no teste da imagem coberta: 'imperatriz russa que derrubou o marido' é um feito único que entrega Catarina e Pedro III sem a figura. Passa a pedir o reconhecimento da imperatriz.",
+      "reescrita": {
+        "pergunta": "Que imperatriz russa do século dezoito é esta?",
+        "resposta": "Catarina, a Grande",
+        "distratores": [
+          "Isabel Petrovna",
+          "Ana Ivanovna",
+          "Catarina I"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nelson morreu em 1805, em Trafalgar, conforme os trechos; o enunciado não identifica o almirante sem a figura e os distratores são datas plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
