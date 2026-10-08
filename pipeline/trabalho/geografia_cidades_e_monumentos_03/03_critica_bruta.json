@@ -1,0 +1,414 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte; 'única que continua de pé' é fiel ao texto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pont Neuf é a ponte mais antiga sobre o Sena; enunciado correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rialto é a mais antiga sobre o Grande Canal; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não sustenta o fato e a diferença de latitude para Buenos Aires é mínima, o que torna a pergunta arbitrária.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Queens é o maior distrito em área, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Pirâmide do Sol é a maior construção de Teotihuacan; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em 1532 por Martim Afonso e título de primeira vila sustentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português afirma que a catedral do bispo de Roma está acima de todas as igrejas, inclusive São Pedro.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'arena' no enunciado é cognato de 'areia' e vaza a resposta; reformular sem o termo.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O piso de madeira do Coliseu, onde lutavam os gladiadores, era coberto por qual material, que absorvia o sangue?",
+        "resposta": "Areia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Coliseu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome Coliseu na estátua colossal de Nero, sustentada; 'viria' preserva a incerteza.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte Oculus é página de desambiguação; trocar por fontes específicas.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Que nome tem a grande abertura circular no alto da cúpula do Panteão de Roma, por onde entram a luz e a chuva?",
+        "resposta": "Óculo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+          "https://pt.wikipedia.org/wiki/Pante%C3%A3o_(Roma)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cariátides do pórtico do Erecteion, bem sustentado e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua de Oceano no nicho central, sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Discurso de Gettysburg gravado em parede do memorial, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tabula ansata com JULY IV MDCCLXXVI, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O tratado que encerrou a Primeira Guerra' é impreciso; o Tratado de Versalhes encerrou a guerra com a Alemanha.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Em 1919, o tratado de paz com a Alemanha, que pôs fim à Primeira Guerra Mundial, foi assinado em qual salão do Palácio de Versalhes?",
+        "resposta": "Salão dos Espelhos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hall_of_Mirrors",
+          "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A chama é eterna, não 'acesa todas as noites'; corrigir a descrição.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Sob o Arco do Triunfo, em Paris, uma chama eterna arde junto a um túmulo. Quem está enterrado ali?",
+        "resposta": "O Soldado Desconhecido",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+          "https://pt.wikipedia.org/wiki/Arco_do_Triunfo_%28Fran%C3%A7a%29"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gárgulas como escoadouros de água, bem documentado e específico.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Incêndio de 2019 derrubou a agulha, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Formato de vela de barco (dhow) sustentado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta não é única: desde 1066 também há sepultamentos reais na abadia; o enunciado ainda é vago e quase vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estandarte Real sinaliza a presença do monarca em Buckingham.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palácio do Catete abriga o Museu da República; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O prédio foi construído como estação ferroviária, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Residência de inverno dos Dalai-lamas desde 1649, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas uma das fontes é inexistente; manter só a fonte em português.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No centro histórico de Salvador, a Igreja de São Francisco é famosa pelo interior de talhas de madeira revestidas de quê?",
+        "resposta": "Ouro",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palatino deu origem a 'palácio'; sem vazamento e bem sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mausoléu vem de Mausolo; enunciado não vaza a palavra.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Krasnaya significava 'bela' em russo antigo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem dos azulejos azuis do interior, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis minaretes, confirmado; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Fred e Ginger confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelourinho designa coluna de castigo público, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sleeping Beauty Castle baseado em Neuschwanstein, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luís II construiu Neuschwanstein; ângulo diferente da outra pergunta da âncora.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto inspirado na Ópera de Garnier, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda do lago subterrâneo inspirou Leroux; enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Reproduz' é impreciso: o calçadão se inspira nas ondas do Rossio, em escala ampliada.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O desenho de ondas do calçadão de Copacabana se inspira no piso de pedras portuguesas de qual praça de Lisboa?",
+        "resposta": "Praça do Rossio",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Portuguese_pavement",
+          "https://en.wikipedia.org/wiki/Rossio"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seyrig foi sócio de Eiffel, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cúpula de Brunelleschi, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bernini projetou a praça e colunatas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Justiniano mandou erguer Santa Sofia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explosão do paiol de pólvora em 1687, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato bom, mas a resposta é longa demais; encurtar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+        "resposta": "Calcita",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro de Minas tornou o porto do Rio mais útil, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aberta em 24 de maio de 1883, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dezoito torres no projeto de Gaudí, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dezesseis colunas de concreto, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedras azuis vieram de Gales, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Igreja fica em São Petersburgo, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

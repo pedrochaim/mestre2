@@ -144605,5 +144605,312 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q08457",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "pont_neuf",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Inaugurada em 1607, a ponte de nome contraditório que é a mais antiga ainda de pé sobre o Sena, em Paris, se chama como?",
+    "resposta": "Pont Neuf",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pont_Neuf"
+    ]
+  },
+  {
+    "id": "q08458",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_de_rialto",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre as pontes que atravessam o Grande Canal de Veneza, qual é a mais antiga?",
+    "resposta": "Ponte de Rialto",
+    "distratores": [
+      "Ponte da Academia",
+      "Ponte dos Descalços",
+      "Ponte da Constituição"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge"
+    ]
+  },
+  {
+    "id": "q08459",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "queens",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre os cinco distritos que formam a cidade de Nova York, qual ocupa a maior área?",
+    "resposta": "Queens",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Queens"
+    ]
+  },
+  {
+    "id": "q08460",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "sao_vicente",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Fundada em 1532 por Martim Afonso de Sousa, qual cidade do litoral paulista é considerada a primeira vila do Brasil?",
+    "resposta": "São Vicente",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)",
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_S%C3%A3o_Paulo"
+    ]
+  },
+  {
+    "id": "q08461",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "arquibasilica_de_sao_joao_de_latrao",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual basílica de Roma, catedral do papa, ocupa a posição mais alta da Igreja Católica, acima até da Basílica de São Pedro?",
+    "resposta": "São João de Latrão",
+    "distratores": [
+      "Santa Maria Maior",
+      "São Paulo Extramuros",
+      "Santa Maria em Trastevere"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+    ]
+  },
+  {
+    "id": "q08462",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "memorial_de_lincoln",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Numa das paredes do Memorial a Lincoln, em Washington, está gravado qual discurso do presidente, feito num cemitério militar em 1863?",
+    "resposta": "Discurso de Gettysburg",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+      "https://en.wikipedia.org/wiki/Gettysburg_Address"
+    ]
+  },
+  {
+    "id": "q08463",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "burj_al_arab",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Erguido numa ilha artificial na costa de Dubai, o hotel Burj Al Arab tem o formato de quê?",
+    "resposta": "Vela de um barco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+    ]
+  },
+  {
+    "id": "q08464",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "palacio_de_buckingham",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Quando o monarca britânico está no Palácio de Buckingham, que bandeira é hasteada no alto do prédio?",
+    "resposta": "Estandarte Real",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Royal_Standard_of_the_United_Kingdom",
+      "https://en.wikipedia.org/wiki/Buckingham_Palace"
+    ]
+  },
+  {
+    "id": "q08465",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "palacio_do_catete",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Sede da Presidência até 1960 e palco da morte de Getúlio Vargas, o Palácio do Catete, no Rio, foi transformado em qual museu?",
+    "resposta": "Museu da República",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+      "https://en.wikipedia.org/wiki/Catete_Palace"
+    ]
+  },
+  {
+    "id": "q08466",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "museu_de_orsay",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de abrigar um famoso acervo impressionista, o prédio do Museu de Orsay, em Paris, foi construído para ser o quê?",
+    "resposta": "Uma estação ferroviária",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+    ]
+  },
+  {
+    "id": "q08467",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "palacio_de_potala",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em Lhasa, no Tibete, o Palácio de Potala foi por séculos a residência de inverno de qual líder religioso?",
+    "resposta": "O Dalai-lama",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Potala_Palace"
+    ]
+  },
+  {
+    "id": "q08468",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "igreja_de_sao_francisco_de_salvador",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No centro histórico de Salvador, a Igreja de São Francisco é famosa pelo interior de talhas de madeira revestidas de quê?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)"
+    ]
+  },
+  {
+    "id": "q08469",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "praca_vermelha",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em russo antigo, a palavra que dá nome à Praça Vermelha, em Moscou, também tinha qual outro significado?",
+    "resposta": "Bonita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_Square"
+    ]
+  },
+  {
+    "id": "q08470",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "casa_dancante",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Praga, o prédio de linhas tortas chamado Casa Dançante ganhou o apelido de qual dupla de dançarinos do cinema americano?",
+    "resposta": "Fred e Ginger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dancing_House"
+    ]
+  },
+  {
+    "id": "q08471",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "pelourinho",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Pelourinho, centro histórico de Salvador, tem o nome de algo que ficava em sua praça no período colonial. O quê?",
+    "resposta": "Coluna de castigo público",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+      "https://pt.wikipedia.org/wiki/Pelourinho"
+    ]
+  },
+  {
+    "id": "q08472",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "opera_garnier",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O reservatório de água sob o Palais Garnier, em Paris, inspirou o esconderijo de qual personagem do romance de Gaston Leroux?",
+    "resposta": "O Fantasma da Ópera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Palais_Garnier"
+    ]
+  },
+  {
+    "id": "q08473",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_luis_i",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Inaugurada em 1886 sobre o Douro, a Ponte Luís I, no Porto, foi projetada por um ex-sócio de qual famoso engenheiro francês?",
+    "resposta": "Gustave Eiffel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+    ]
+  },
+  {
+    "id": "q08474",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "praca_de_sao_pedro",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No Vaticano, a colunata que parece abraçar a Praça de São Pedro foi projetada por qual artista barroco italiano?",
+    "resposta": "Gian Lorenzo Bernini",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+    ]
+  },
+  {
+    "id": "q08475",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "basilica_de_sacre_c_ur",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+    "resposta": "Calcita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+    ]
+  },
+  {
+    "id": "q08476",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "rio_de_janeiro",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1763, a capital do Brasil colonial passou de Salvador para o Rio de Janeiro. Que riqueza, escoada pelo porto carioca, motivou a mudança?",
+    "resposta": "O ouro de Minas Gerais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/History_of_Rio_de_Janeiro",
+      "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
+    ]
+  },
+  {
+    "id": "q08477",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_do_brooklyn",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Ligando Manhattan ao Brooklyn sobre o East River, a Ponte do Brooklyn foi aberta ao público em qual ano?",
+    "resposta": "1883",
+    "distratores": [
+      "1863",
+      "1903",
+      "1923"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+    ]
+  },
+  {
+    "id": "q08478",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "igreja_do_salvador_sobre_o_sangue_derramado",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De cúpulas coloridas e muitas vezes confundida com a Catedral de São Basílio, a Igreja do Salvador sobre o Sangue Derramado fica em qual cidade russa?",
+    "resposta": "São Petersburgo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+    ]
   }
 ]

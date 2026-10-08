@@ -1,0 +1,1084 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das três pirâmides do planalto de Gizé, no Egito, construída como túmulo do faraó Quéops.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Pirâmide de Khufu",
+          "Great Pyramid of Giza"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+          "https://pt.wikipedia.org/wiki/Grande_Pir%C3%A2mide_de_Giz%C3%A9"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das Sete Maravilhas do Mundo Antigo, qual é a única que continua de pé até hoje?",
+      "resposta": "Grande Pirâmide de Gizé",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pont Neuf",
+        "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+        "variantes": [
+          "Ponte Nova"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pont_Neuf",
+          "https://pt.wikipedia.org/wiki/Pont_Neuf"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Inaugurada em 1607, a ponte de nome contraditório que é a mais antiga ainda de pé sobre o Sena, em Paris, se chama como?",
+      "resposta": "Pont Neuf",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pont_Neuf"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ponte de Rialto",
+        "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+        "variantes": [
+          "Ponte di Rialto",
+          "Rialto Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rialto_Bridge"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre as pontes que atravessam o Grande Canal de Veneza, qual é a mais antiga?",
+      "resposta": "Ponte de Rialto",
+      "distratores": [
+        "Ponte da Academia",
+        "Ponte dos Descalços",
+        "Ponte da Constituição"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "montevideu",
+        "nome": "Montevidéu",
+        "descricao": "Capital e maior cidade do Uruguai, na margem do Rio da Prata.",
+        "variantes": [
+          "Montevideo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Montevideo"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual capital de país da América do Sul fica mais ao sul do continente?",
+      "resposta": "Montevidéu",
+      "distratores": [
+        "Buenos Aires",
+        "Santiago",
+        "Assunção"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Montevideo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Queens",
+        "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+        "variantes": [
+          "Borough of Queens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queens"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os cinco distritos que formam a cidade de Nova York, qual ocupa a maior área?",
+      "resposta": "Queens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Queens"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Grande pirâmide da antiga cidade de Teotihuacan, perto da Cidade do México.",
+        "variantes": [
+          "Pyramid of the Sun",
+          "Pirámide del Sol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Nas ruínas de Teotihuacan, perto da Cidade do México, qual é a maior de todas as construções?",
+      "resposta": "Pirâmide do Sol",
+      "distratores": [
+        "Pirâmide da Lua",
+        "Templo da Serpente Emplumada",
+        "Pirâmide de Kukulcán"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "São Vicente",
+        "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+        "variantes": [
+          "São Vicente (São Paulo)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Fundada em 1532 por Martim Afonso de Sousa, qual cidade do litoral paulista é considerada a primeira vila do Brasil?",
+      "resposta": "São Vicente",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_S%C3%A3o_Paulo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arquibasílica de São João de Latrão",
+        "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+        "variantes": [
+          "São João de Latrão",
+          "Basílica de Latrão",
+          "Archbasilica of Saint John Lateran"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual basílica de Roma, catedral do papa, ocupa a posição mais alta da Igreja Católica, acima até da Basílica de São Pedro?",
+      "resposta": "São João de Latrão",
+      "distratores": [
+        "Santa Maria Maior",
+        "São Paulo Extramuros",
+        "Santa Maria em Trastevere"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro Flávio, grande anfiteatro de pedra da Roma Antiga, no centro de Roma, palco de combates de gladiadores.",
+        "variantes": [
+          "Anfiteatro Flávio",
+          "Colosseum",
+          "Colosseo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colosseum",
+          "https://pt.wikipedia.org/wiki/Coliseu_de_Roma"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos combates de gladiadores do Coliseu, o piso de madeira era coberto por algo que, em latim, se chamava arena. O quê?",
+      "resposta": "Areia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colosseum",
+        "https://en.wikipedia.org/wiki/Arena"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro Flávio, grande anfiteatro de pedra da Roma Antiga, no centro de Roma, palco de combates de gladiadores.",
+        "variantes": [
+          "Anfiteatro Flávio",
+          "Colosseum",
+          "Colosseo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colosseum",
+          "https://pt.wikipedia.org/wiki/Coliseu_de_Roma"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O apelido Coliseu, dado ao Anfiteatro Flávio, em Roma, viria de uma estátua colossal que ficava ao lado. Ela retratava qual imperador?",
+      "resposta": "Nero",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colosseum",
+        "https://en.wikipedia.org/wiki/Colossus_of_Nero"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano de cúpula de concreto, em Roma, reconstruído no reinado de Adriano e hoje igreja.",
+        "variantes": [
+          "Panteão",
+          "Pantheon",
+          "Pantheon, Rome"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que nome tem a grande abertura circular no alto da cúpula do Panteão de Roma, por onde entram a luz e a chuva?",
+      "resposta": "Óculo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "https://en.wikipedia.org/wiki/Oculus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Erecteion",
+        "descricao": "Templo grego da Acrópole de Atenas, do século cinco antes de Cristo, famoso pelo pórtico das cariátides.",
+        "variantes": [
+          "Erechtheion",
+          "Erecteu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Erechtheion"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na Acrópole de Atenas, um pórtico do templo Erecteion é sustentado por estátuas de mulheres no lugar de colunas. Como se chamam essas figuras?",
+      "resposta": "Cariátides",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Erechtheion",
+        "https://en.wikipedia.org/wiki/Caryatid"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca monumental no bairro de Trevi, em Roma, concluída em 1762.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trevi_Fountain"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Num carro em forma de concha puxado por cavalos-marinhos, qual divindade ocupa o nicho central da Fontana di Trevi, em Roma?",
+      "resposta": "Oceano",
+      "distratores": [
+        "Netuno",
+        "Tritão",
+        "Nereu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trevi_Fountain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Memorial a Lincoln",
+        "descricao": "Monumento em forma de templo grego no National Mall, em Washington, com a estátua sentada de Abraham Lincoln.",
+        "variantes": [
+          "Lincoln Memorial"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lincoln_Memorial"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Numa das paredes do Memorial a Lincoln, em Washington, está gravado qual discurso do presidente, feito num cemitério militar em 1863?",
+      "resposta": "Discurso de Gettysburg",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+        "https://en.wikipedia.org/wiki/Gettysburg_Address"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "estatua_da_liberdade",
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+        "variantes": [
+          "Statue of Liberty",
+          "A Liberdade Iluminando o Mundo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na tábua que a Estátua da Liberdade segura no braço esquerdo, está gravada em algarismos romanos qual data?",
+      "resposta": "Quatro de julho de 1776",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "palacio_de_versalhes",
+        "nome": "Palácio de Versalhes",
+        "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+        "variantes": [
+          "Versalhes",
+          "Château de Versailles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Palace_of_Versailles"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1919, o tratado que encerrou a Primeira Guerra Mundial foi assinado em qual salão do Palácio de Versalhes?",
+      "resposta": "Salão dos Espelhos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hall_of_Mirrors",
+        "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "arco_do_triunfo_de_paris",
+        "nome": "Arco do Triunfo de Paris",
+        "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+        "variantes": [
+          "Arc de Triomphe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arc_de_Triomphe"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Sob o Arco do Triunfo de Paris, uma chama acesa todas as noites homenageia quem está enterrado ali. Quem?",
+      "resposta": "O Soldado Desconhecido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arc_de_Triomphe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica na Île de la Cité, em Paris, iniciada no século doze.",
+        "variantes": [
+          "Notre-Dame de Paris",
+          "Notre-Dame"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na Catedral de Notre-Dame de Paris, como se chamam as figuras de pedra, de boca aberta, que escoam a água da chuva dos telhados?",
+      "resposta": "Gárgulas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+        "https://en.wikipedia.org/wiki/Gargoyle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica na Île de la Cité, em Paris, iniciada no século doze.",
+        "variantes": [
+          "Notre-Dame de Paris",
+          "Notre-Dame"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano um grande incêndio derrubou a agulha da Catedral de Notre-Dame de Paris?",
+      "resposta": "2019",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris_fire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Burj Al Arab",
+        "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+        "variantes": [
+          "Burj al-Arab",
+          "Torre dos Árabes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Erguido numa ilha artificial na costa de Dubai, o hotel Burj Al Arab tem o formato de quê?",
+      "resposta": "Vela de um barco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Abadia de Westminster",
+        "descricao": "Igreja gótica em Londres, ao lado do Palácio de Westminster, local de casamentos e sepultamentos reais.",
+        "variantes": [
+          "Westminster Abbey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Westminster_Abbey"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Desde 1066, qual cerimônia da monarquia inglesa, e depois britânica, é realizada na Abadia de Westminster, em Londres?",
+      "resposta": "A coroação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Westminster_Abbey"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial do monarca britânico em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Buckingham_Palace"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quando o monarca britânico está no Palácio de Buckingham, que bandeira é hasteada no alto do prédio?",
+      "resposta": "Estandarte Real",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Royal_Standard_of_the_United_Kingdom",
+        "https://en.wikipedia.org/wiki/Buckingham_Palace"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Palácio do Catete",
+        "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+        "variantes": [
+          "Catete Palace"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+          "https://en.wikipedia.org/wiki/Catete_Palace"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sede da Presidência até 1960 e palco da morte de Getúlio Vargas, o Palácio do Catete, no Rio, foi transformado em qual museu?",
+      "resposta": "Museu da República",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+        "https://en.wikipedia.org/wiki/Catete_Palace"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Museu de Orsay",
+        "descricao": "Museu de arte em Paris, à margem esquerda do Sena, famoso pelo acervo impressionista, inaugurado em 1986.",
+        "variantes": [
+          "Musée d'Orsay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de abrigar um famoso acervo impressionista, o prédio do Museu de Orsay, em Paris, foi construído para ser o quê?",
+      "resposta": "Uma estação ferroviária",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Palácio de Potala",
+        "descricao": "Grande palácio-fortaleza sobre uma colina em Lhasa, no Tibete, construído no século dezessete.",
+        "variantes": [
+          "Potala",
+          "Potala Palace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Potala_Palace"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Lhasa, no Tibete, o Palácio de Potala foi por séculos a residência de inverno de qual líder religioso?",
+      "resposta": "O Dalai-lama",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Potala_Palace"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Igreja de São Francisco de Salvador",
+        "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+        "variantes": [
+          "Igreja e Convento de São Francisco",
+          "Church and Convent of São Francisco"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)",
+          "https://en.wikipedia.org/wiki/Church_and_Convent_of_S%C3%A3o_Francisco"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No centro histórico de Salvador, a Igreja de São Francisco é famosa pelo interior de talhas de madeira revestidas de quê?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Church_and_Convent_of_S%C3%A3o_Francisco",
+        "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monte Palatino",
+        "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+        "variantes": [
+          "Palatino",
+          "Palatine Hill"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Palatine_Hill"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Qual colina de Roma, onde moravam os imperadores, deu origem à palavra que, em várias línguas, designa a grande residência de um rei?",
+      "resposta": "Monte Palatino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Palatine_Hill"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mausoléu de Halicarnasso",
+        "descricao": "Túmulo monumental do governante Mausolo, em Halicarnasso, atual Bodrum, uma das Sete Maravilhas do Mundo Antigo.",
+        "variantes": [
+          "Mausoleum at Halicarnassus",
+          "Túmulo de Mausolo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que palavra, usada para túmulos monumentais, nasceu do nome de um governante sepultado em Halicarnasso, numa das Sete Maravilhas antigas?",
+      "resposta": "Mausoléu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Praça Vermelha",
+        "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+        "variantes": [
+          "Krasnaya Ploshchad",
+          "Red Square"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_Square"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em russo antigo, a palavra que dá nome à Praça Vermelha, em Moscou, também tinha qual outro significado?",
+      "resposta": "Bonita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_Square"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita do Sultão Ahmed, em Istambul, na Turquia, concluída no século dezessete.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultan Ahmed Mosque",
+          "Blue Mosque"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A Mesquita do Sultão Ahmed, em Istambul, é chamada de Mesquita Azul por causa de quê?",
+      "resposta": "Os azulejos do interior",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita do Sultão Ahmed, em Istambul, na Turquia, concluída no século dezessete.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultan Ahmed Mosque",
+          "Blue Mosque"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos minaretes cercam a Mesquita Azul, em Istambul?",
+      "resposta": "Seis",
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Casa Dançante",
+        "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+        "variantes": [
+          "Dancing House",
+          "Tančící dům",
+          "Fred e Ginger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dancing_House"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Praga, o prédio de linhas tortas chamado Casa Dançante ganhou o apelido de qual dupla de dançarinos do cinema americano?",
+      "resposta": "Fred e Ginger",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dancing_House"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pelourinho",
+        "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+        "variantes": [
+          "Pelourinho (Salvador)",
+          "Pelô"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+          "https://en.wikipedia.org/wiki/Pelourinho"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Pelourinho, centro histórico de Salvador, tem o nome de algo que ficava em sua praça no período colonial. O quê?",
+      "resposta": "Coluna de castigo público",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+        "https://pt.wikipedia.org/wiki/Pelourinho"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, na Alemanha.",
+        "variantes": [
+          "Neuschwanstein",
+          "Schloss Neuschwanstein"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na Disneylândia da Califórnia, o castelo inspirado no alemão Neuschwanstein leva o nome de qual princesa?",
+      "resposta": "A Bela Adormecida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+        "https://en.wikipedia.org/wiki/Sleeping_Beauty_Castle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, na Alemanha.",
+        "variantes": [
+          "Neuschwanstein",
+          "Schloss Neuschwanstein"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, qual rei da Baviera mandou construir o Castelo de Neuschwanstein, nos Alpes alemães?",
+      "resposta": "Luís II da Baviera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Theatro Municipal do Rio de Janeiro",
+        "descricao": "Teatro de ópera na Cinelândia, centro do Rio de Janeiro, inaugurado em 1909.",
+        "variantes": [
+          "Theatro Municipal",
+          "Teatro Municipal do Rio de Janeiro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro",
+          "https://en.wikipedia.org/wiki/Theatro_Municipal_(Rio_de_Janeiro)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Inaugurado em 1909, o Theatro Municipal do Rio de Janeiro teve como modelo qual casa de ópera de Paris?",
+      "resposta": "Ópera Garnier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theatro_Municipal_(Rio_de_Janeiro)",
+        "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de Paris projetada por Charles Garnier, inaugurada em 1875.",
+        "variantes": [
+          "Palais Garnier",
+          "Ópera de Paris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Palais_Garnier"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O reservatório de água sob o Palais Garnier, em Paris, inspirou o esconderijo de qual personagem do romance de Gaston Leroux?",
+      "resposta": "O Fantasma da Ópera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Palais_Garnier"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Calçadão de Copacabana",
+        "descricao": "Calçada de pedras portuguesas em preto e branco ao longo da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Calçadão da Avenida Atlântica"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cal%C3%A7ad%C3%A3o_de_Copacabana",
+          "https://en.wikipedia.org/wiki/Portuguese_pavement"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O desenho de ondas do calçadão de Copacabana reproduz o piso de pedras portuguesas de qual praça de Lisboa?",
+      "resposta": "Praça do Rossio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Portuguese_pavement",
+        "https://en.wikipedia.org/wiki/Rossio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ponte Luís I",
+        "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+        "variantes": [
+          "Ponte Dom Luís I",
+          "Dom Luís I Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Inaugurada em 1886 sobre o Douro, a Ponte Luís I, no Porto, foi projetada por um ex-sócio de qual famoso engenheiro francês?",
+      "resposta": "Gustave Eiffel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, na Itália, com grande cúpula do século quinze.",
+        "variantes": [
+          "Santa Maria del Fiore",
+          "Duomo de Florença",
+          "Florence Cathedral"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Florence_Cathedral"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Erguida no século quinze, a enorme cúpula da Catedral de Florença foi projetada por qual arquiteto renascentista?",
+      "resposta": "Filippo Brunelleschi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Florence_Cathedral",
+        "https://en.wikipedia.org/wiki/Brunelleschi%27s_Dome"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Praça de São Pedro",
+        "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+        "variantes": [
+          "Piazza San Pietro",
+          "St. Peter's Square"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No Vaticano, a colunata que parece abraçar a Praça de São Pedro foi projetada por qual artista barroco italiano?",
+      "resposta": "Gian Lorenzo Bernini",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Santa Sofia",
+        "descricao": "Grande templo de cúpula em Istambul, construído no século seis como catedral bizantina e depois convertido em mesquita.",
+        "variantes": [
+          "Hagia Sophia",
+          "Ayasofya",
+          "Basílica de Santa Sofia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hagia_Sophia"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século seis, qual imperador bizantino mandou erguer a Santa Sofia, em Constantinopla?",
+      "resposta": "Justiniano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hagia_Sophia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Partenon",
+        "descricao": "Templo dórico dedicado à deusa Atena, no alto da Acrópole de Atenas, do século cinco antes de Cristo.",
+        "variantes": [
+          "Parthenon",
+          "Pártenon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parthenon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1687, durante um cerco veneziano a Atenas, grande parte do Partenon foi destruída. O que causou o estrago?",
+      "resposta": "Explosão da pólvora guardada nele",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parthenon"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "basilica_de_sacre_c_ur",
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos?",
+      "resposta": "A pedra libera calcita com a chuva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "rio_de_janeiro",
+        "nome": "Rio de Janeiro",
+        "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+        "variantes": [
+          "Rio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "https://en.wikipedia.org/wiki/History_of_Rio_de_Janeiro"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1763, a capital do Brasil colonial passou de Salvador para o Rio de Janeiro. Que riqueza, escoada pelo porto carioca, motivou a mudança?",
+      "resposta": "O ouro de Minas Gerais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/History_of_Rio_de_Janeiro",
+        "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ponte do Brooklyn",
+        "descricao": "Ponte pênsil sobre o East River, em Nova York, ligando Manhattan ao Brooklyn.",
+        "variantes": [
+          "Brooklyn Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Ligando Manhattan ao Brooklyn sobre o East River, a Ponte do Brooklyn foi aberta ao público em qual ano?",
+      "resposta": "1883",
+      "distratores": [
+        "1863",
+        "1903",
+        "1923"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sagrada_familia",
+        "nome": "Sagrada Família",
+        "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+        "variantes": [
+          "Basílica da Sagrada Família",
+          "Sagrada Família de Barcelona"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo o projeto de Gaudí, quantas torres terá a Sagrada Família, em Barcelona, quando estiver concluída?",
+      "resposta": "Dezoito",
+      "distratores": [
+        "Doze",
+        "Quinze",
+        "Vinte e quatro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral Metropolitana de Brasília, projetada por Oscar Niemeyer, com estrutura de pilares curvos de concreto.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
+          "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Bras%C3%ADlia"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Catedral de Brasília, projetada por Oscar Niemeyer, é formada por quantos pilares curvos de concreto?",
+      "resposta": "Dezesseis",
+      "distratores": [
+        "Oito",
+        "Doze",
+        "Vinte e quatro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
+        "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Bras%C3%ADlia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento pré-histórico de grandes pedras dispostas em círculo na planície de Salisbury, na Inglaterra.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stonehenge"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Há milhares de anos, as pedras azuis menores de Stonehenge, na Inglaterra, foram trazidas de longe. De qual região britânica elas vieram?",
+      "resposta": "País de Gales",
+      "distratores": [
+        "Cornualha",
+        "Irlanda do Norte",
+        "Ilha de Man"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stonehenge"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Igreja do Salvador sobre o Sangue Derramado",
+        "descricao": "Igreja ortodoxa de cúpulas coloridas erguida no local do assassinato do czar Alexandre II, à beira de um canal na Rússia.",
+        "variantes": [
+          "Church of the Savior on Blood",
+          "Igreja do Sangue Derramado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "De cúpulas coloridas e muitas vezes confundida com a Catedral de São Basílio, a Igreja do Salvador sobre o Sangue Derramado fica em qual cidade russa?",
+      "resposta": "São Petersburgo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,887 @@
+{
+  "itens": [
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Pont Neuf",
+        "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+        "variantes": [
+          "Ponte Nova"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pont_Neuf",
+          "https://pt.wikipedia.org/wiki/Pont_Neuf"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Inaugurada em 1607, a ponte de nome contraditório que é a mais antiga ainda de pé sobre o Sena, em Paris, se chama como?",
+      "resposta": "Pont Neuf",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pont_Neuf"
+      ],
+      "ancora": "pont_neuf"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Ponte de Rialto",
+        "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+        "variantes": [
+          "Ponte di Rialto",
+          "Rialto Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rialto_Bridge"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre as pontes que atravessam o Grande Canal de Veneza, qual é a mais antiga?",
+      "resposta": "Ponte de Rialto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      ],
+      "distratores": [
+        "Ponte da Academia",
+        "Ponte dos Descalços",
+        "Ponte da Constituição"
+      ],
+      "ancora": "ponte_de_rialto"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Queens",
+        "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+        "variantes": [
+          "Borough of Queens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Queens"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os cinco distritos que formam a cidade de Nova York, qual ocupa a maior área?",
+      "resposta": "Queens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Queens"
+      ],
+      "ancora": "queens"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "São Vicente",
+        "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+        "variantes": [
+          "São Vicente (São Paulo)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Fundada em 1532 por Martim Afonso de Sousa, qual cidade do litoral paulista é considerada a primeira vila do Brasil?",
+      "resposta": "São Vicente",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_S%C3%A3o_Paulo"
+      ],
+      "ancora": "sao_vicente"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Arquibasílica de São João de Latrão",
+        "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+        "variantes": [
+          "São João de Latrão",
+          "Basílica de Latrão",
+          "Archbasilica of Saint John Lateran"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual basílica de Roma, catedral do papa, ocupa a posição mais alta da Igreja Católica, acima até da Basílica de São Pedro?",
+      "resposta": "São João de Latrão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+      ],
+      "distratores": [
+        "Santa Maria Maior",
+        "São Paulo Extramuros",
+        "Santa Maria em Trastevere"
+      ],
+      "ancora": "arquibasilica_de_sao_joao_de_latrao"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Memorial a Lincoln",
+        "descricao": "Monumento em forma de templo grego no National Mall, em Washington, com a estátua sentada de Abraham Lincoln.",
+        "variantes": [
+          "Lincoln Memorial"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lincoln_Memorial"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Numa das paredes do Memorial a Lincoln, em Washington, está gravado qual discurso do presidente, feito num cemitério militar em 1863?",
+      "resposta": "Discurso de Gettysburg",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+        "https://en.wikipedia.org/wiki/Gettysburg_Address"
+      ],
+      "ancora": "memorial_de_lincoln"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Burj Al Arab",
+        "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+        "variantes": [
+          "Burj al-Arab",
+          "Torre dos Árabes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Erguido numa ilha artificial na costa de Dubai, o hotel Burj Al Arab tem o formato de quê?",
+      "resposta": "Vela de um barco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+      ],
+      "ancora": "burj_al_arab"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial do monarca britânico em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Buckingham_Palace"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quando o monarca britânico está no Palácio de Buckingham, que bandeira é hasteada no alto do prédio?",
+      "resposta": "Estandarte Real",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Royal_Standard_of_the_United_Kingdom",
+        "https://en.wikipedia.org/wiki/Buckingham_Palace"
+      ],
+      "ancora": "palacio_de_buckingham"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Palácio do Catete",
+        "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+        "variantes": [
+          "Catete Palace"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+          "https://en.wikipedia.org/wiki/Catete_Palace"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sede da Presidência até 1960 e palco da morte de Getúlio Vargas, o Palácio do Catete, no Rio, foi transformado em qual museu?",
+      "resposta": "Museu da República",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+        "https://en.wikipedia.org/wiki/Catete_Palace"
+      ],
+      "ancora": "palacio_do_catete"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Museu de Orsay",
+        "descricao": "Museu de arte em Paris, à margem esquerda do Sena, famoso pelo acervo impressionista, inaugurado em 1986.",
+        "variantes": [
+          "Musée d'Orsay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de abrigar um famoso acervo impressionista, o prédio do Museu de Orsay, em Paris, foi construído para ser o quê?",
+      "resposta": "Uma estação ferroviária",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+      ],
+      "ancora": "museu_de_orsay"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Palácio de Potala",
+        "descricao": "Grande palácio-fortaleza sobre uma colina em Lhasa, no Tibete, construído no século dezessete.",
+        "variantes": [
+          "Potala",
+          "Potala Palace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Potala_Palace"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Lhasa, no Tibete, o Palácio de Potala foi por séculos a residência de inverno de qual líder religioso?",
+      "resposta": "O Dalai-lama",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Potala_Palace"
+      ],
+      "ancora": "palacio_de_potala"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Igreja de São Francisco de Salvador",
+        "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+        "variantes": [
+          "Igreja e Convento de São Francisco",
+          "Church and Convent of São Francisco"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)",
+          "https://en.wikipedia.org/wiki/Church_and_Convent_of_S%C3%A3o_Francisco"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No centro histórico de Salvador, a Igreja de São Francisco é famosa pelo interior de talhas de madeira revestidas de quê?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)"
+      ],
+      "ancora": "igreja_de_sao_francisco_de_salvador"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Praça Vermelha",
+        "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+        "variantes": [
+          "Krasnaya Ploshchad",
+          "Red Square"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_Square"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em russo antigo, a palavra que dá nome à Praça Vermelha, em Moscou, também tinha qual outro significado?",
+      "resposta": "Bonita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_Square"
+      ],
+      "ancora": "praca_vermelha"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Casa Dançante",
+        "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+        "variantes": [
+          "Dancing House",
+          "Tančící dům",
+          "Fred e Ginger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dancing_House"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Praga, o prédio de linhas tortas chamado Casa Dançante ganhou o apelido de qual dupla de dançarinos do cinema americano?",
+      "resposta": "Fred e Ginger",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dancing_House"
+      ],
+      "ancora": "casa_dancante"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Pelourinho",
+        "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+        "variantes": [
+          "Pelourinho (Salvador)",
+          "Pelô"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+          "https://en.wikipedia.org/wiki/Pelourinho"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Pelourinho, centro histórico de Salvador, tem o nome de algo que ficava em sua praça no período colonial. O quê?",
+      "resposta": "Coluna de castigo público",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+        "https://pt.wikipedia.org/wiki/Pelourinho"
+      ],
+      "ancora": "pelourinho"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de Paris projetada por Charles Garnier, inaugurada em 1875.",
+        "variantes": [
+          "Palais Garnier",
+          "Ópera de Paris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Palais_Garnier"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O reservatório de água sob o Palais Garnier, em Paris, inspirou o esconderijo de qual personagem do romance de Gaston Leroux?",
+      "resposta": "O Fantasma da Ópera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Palais_Garnier"
+      ],
+      "ancora": "opera_garnier"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Ponte Luís I",
+        "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+        "variantes": [
+          "Ponte Dom Luís I",
+          "Dom Luís I Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Inaugurada em 1886 sobre o Douro, a Ponte Luís I, no Porto, foi projetada por um ex-sócio de qual famoso engenheiro francês?",
+      "resposta": "Gustave Eiffel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+      ],
+      "ancora": "ponte_luis_i"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Praça de São Pedro",
+        "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+        "variantes": [
+          "Piazza San Pietro",
+          "St. Peter's Square"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No Vaticano, a colunata que parece abraçar a Praça de São Pedro foi projetada por qual artista barroco italiano?",
+      "resposta": "Gian Lorenzo Bernini",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+      ],
+      "ancora": "praca_de_sao_pedro"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "id_existente": "basilica_de_sacre_c_ur",
+        "nome": "Basílica de Sacré-Cœur",
+        "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
+        "variantes": [
+          "Sacré-Cœur",
+          "Basílica do Sagrado Coração"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+      "resposta": "Calcita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"
+      ],
+      "ancora": "basilica_de_sacre_c_ur"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "rio_de_janeiro",
+        "nome": "Rio de Janeiro",
+        "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+        "variantes": [
+          "Rio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+          "https://en.wikipedia.org/wiki/History_of_Rio_de_Janeiro"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1763, a capital do Brasil colonial passou de Salvador para o Rio de Janeiro. Que riqueza, escoada pelo porto carioca, motivou a mudança?",
+      "resposta": "O ouro de Minas Gerais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/History_of_Rio_de_Janeiro",
+        "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
+      ],
+      "ancora": "rio_de_janeiro"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Ponte do Brooklyn",
+        "descricao": "Ponte pênsil sobre o East River, em Nova York, ligando Manhattan ao Brooklyn.",
+        "variantes": [
+          "Brooklyn Bridge"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Ligando Manhattan ao Brooklyn sobre o East River, a Ponte do Brooklyn foi aberta ao público em qual ano?",
+      "resposta": "1883",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      ],
+      "distratores": [
+        "1863",
+        "1903",
+        "1923"
+      ],
+      "ancora": "ponte_do_brooklyn"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Igreja do Salvador sobre o Sangue Derramado",
+        "descricao": "Igreja ortodoxa de cúpulas coloridas erguida no local do assassinato do czar Alexandre II, à beira de um canal na Rússia.",
+        "variantes": [
+          "Church of the Savior on Blood",
+          "Igreja do Sangue Derramado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Cidades e Monumentos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "De cúpulas coloridas e muitas vezes confundida com a Catedral de São Basílio, a Igreja do Salvador sobre o Sangue Derramado fica em qual cidade russa?",
+      "resposta": "São Petersburgo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+      ],
+      "ancora": "igreja_do_salvador_sobre_o_sangue_derramado"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "pont_neuf",
+      "nome": "Pont Neuf",
+      "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+      "variantes": [
+        "Ponte Nova"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pont_Neuf",
+        "https://pt.wikipedia.org/wiki/Pont_Neuf"
+      ]
+    },
+    {
+      "id": "ponte_de_rialto",
+      "nome": "Ponte de Rialto",
+      "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+      "variantes": [
+        "Ponte di Rialto",
+        "Rialto Bridge"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Rialto_Bridge"
+      ]
+    },
+    {
+      "id": "queens",
+      "nome": "Queens",
+      "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+      "variantes": [
+        "Borough of Queens"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Queens"
+      ]
+    },
+    {
+      "id": "sao_vicente",
+      "nome": "São Vicente",
+      "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+      "variantes": [
+        "São Vicente (São Paulo)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)"
+      ]
+    },
+    {
+      "id": "arquibasilica_de_sao_joao_de_latrao",
+      "nome": "Arquibasílica de São João de Latrão",
+      "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+      "variantes": [
+        "São João de Latrão",
+        "Basílica de Latrão",
+        "Archbasilica of Saint John Lateran"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+      ]
+    },
+    {
+      "id": "burj_al_arab",
+      "nome": "Burj Al Arab",
+      "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+      "variantes": [
+        "Torre dos Árabes"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+      ]
+    },
+    {
+      "id": "palacio_do_catete",
+      "nome": "Palácio do Catete",
+      "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+      "variantes": [
+        "Catete Palace"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+        "https://en.wikipedia.org/wiki/Catete_Palace"
+      ]
+    },
+    {
+      "id": "museu_de_orsay",
+      "nome": "Museu de Orsay",
+      "descricao": "Museu de arte em Paris, à margem esquerda do Sena, famoso pelo acervo impressionista, inaugurado em 1986.",
+      "variantes": [
+        "Musée d'Orsay"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+      ]
+    },
+    {
+      "id": "igreja_de_sao_francisco_de_salvador",
+      "nome": "Igreja de São Francisco de Salvador",
+      "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+      "variantes": [
+        "Igreja e Convento de São Francisco",
+        "Church and Convent of São Francisco"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)",
+        "https://en.wikipedia.org/wiki/Church_and_Convent_of_S%C3%A3o_Francisco"
+      ]
+    },
+    {
+      "id": "praca_vermelha",
+      "nome": "Praça Vermelha",
+      "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+      "variantes": [
+        "Krasnaya Ploshchad",
+        "Red Square"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Red_Square"
+      ]
+    },
+    {
+      "id": "casa_dancante",
+      "nome": "Casa Dançante",
+      "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+      "variantes": [
+        "Dancing House",
+        "Tančící dům",
+        "Fred e Ginger"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dancing_House"
+      ]
+    },
+    {
+      "id": "pelourinho",
+      "nome": "Pelourinho",
+      "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+      "variantes": [
+        "Pelourinho (Salvador)",
+        "Pelô"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+        "https://en.wikipedia.org/wiki/Pelourinho"
+      ]
+    },
+    {
+      "id": "ponte_luis_i",
+      "nome": "Ponte Luís I",
+      "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+      "variantes": [
+        "Ponte Dom Luís I",
+        "Dom Luís I Bridge"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+      ]
+    },
+    {
+      "id": "praca_de_sao_pedro",
+      "nome": "Praça de São Pedro",
+      "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+      "variantes": [
+        "Piazza San Pietro",
+        "St. Peter's Square"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+      ]
+    },
+    {
+      "id": "ponte_do_brooklyn",
+      "nome": "Ponte do Brooklyn",
+      "descricao": "Ponte pênsil sobre o East River, em Nova York, ligando Manhattan ao Brooklyn.",
+      "variantes": [
+        "Brooklyn Bridge"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+      ]
+    },
+    {
+      "id": "igreja_do_salvador_sobre_o_sangue_derramado",
+      "nome": "Igreja do Salvador sobre o Sangue Derramado",
+      "descricao": "Igreja ortodoxa de cúpulas coloridas erguida no local do assassinato do czar Alexandre II, à beira de um canal na Rússia.",
+      "variantes": [
+        "Church of the Savior on Blood",
+        "Igreja do Sangue Derramado"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+      ]
+    }
+  ],
+  "variantes": {
+    "estatua_da_liberdade": [
+      "Estátua da Liberdade",
+      "Statue of Liberty",
+      "A Liberdade Iluminando o Mundo"
+    ],
+    "palacio_de_versalhes": [
+      "Palácio de Versalhes",
+      "Versalhes",
+      "Château de Versailles"
+    ],
+    "arco_do_triunfo_de_paris": [
+      "Arco do Triunfo de Paris",
+      "Arc de Triomphe"
+    ],
+    "basilica_de_sacre_c_ur": [
+      "Basílica de Sacré-Cœur",
+      "Sacré-Cœur",
+      "Basílica do Sagrado Coração"
+    ],
+    "rio_de_janeiro": [
+      "Rio de Janeiro",
+      "Rio"
+    ],
+    "sagrada_familia": [
+      "Sagrada Família",
+      "Basílica da Sagrada Família",
+      "Sagrada Família de Barcelona"
+    ],
+    "grande_piramide_de_gize": [
+      "Grande Pirâmide de Gizé",
+      "Pirâmide de Quéops",
+      "Pirâmide de Khufu",
+      "Great Pyramid of Giza"
+    ],
+    "piramide_do_sol_teotihuacan": [
+      "Pirâmide do Sol",
+      "Pyramid of the Sun",
+      "Pirámide del Sol"
+    ],
+    "coliseu": [
+      "Coliseu",
+      "Anfiteatro Flávio",
+      "Colosseum",
+      "Colosseo"
+    ],
+    "panteao_de_roma": [
+      "Panteão de Roma",
+      "Panteão",
+      "Pantheon",
+      "Pantheon, Rome"
+    ],
+    "erecteion": [
+      "Erecteion",
+      "Erechtheion",
+      "Erecteu"
+    ],
+    "fontana_di_trevi": [
+      "Fontana di Trevi",
+      "Fonte de Trevi",
+      "Trevi Fountain"
+    ],
+    "memorial_de_lincoln": [
+      "Memorial a Lincoln",
+      "Lincoln Memorial"
+    ],
+    "catedral_de_notre_dame_de_paris": [
+      "Catedral de Notre-Dame de Paris",
+      "Notre-Dame de Paris",
+      "Notre-Dame"
+    ],
+    "palacio_de_buckingham": [
+      "Palácio de Buckingham",
+      "Buckingham Palace"
+    ],
+    "palacio_de_potala": [
+      "Palácio de Potala",
+      "Potala",
+      "Potala Palace"
+    ],
+    "monte_palatino": [
+      "Monte Palatino",
+      "Palatino",
+      "Palatine Hill"
+    ],
+    "mausoleu_de_halicarnasso": [
+      "Mausoléu de Halicarnasso",
+      "Mausoleum at Halicarnassus",
+      "Túmulo de Mausolo"
+    ],
+    "mesquita_azul": [
+      "Mesquita Azul",
+      "Mesquita do Sultão Ahmed",
+      "Sultan Ahmed Mosque",
+      "Blue Mosque"
+    ],
+    "castelo_de_neuschwanstein": [
+      "Castelo de Neuschwanstein",
+      "Neuschwanstein",
+      "Schloss Neuschwanstein"
+    ],
+    "theatro_municipal_do_rio_de_janeiro": [
+      "Theatro Municipal do Rio de Janeiro",
+      "Theatro Municipal",
+      "Teatro Municipal do Rio de Janeiro"
+    ],
+    "opera_garnier": [
+      "Ópera Garnier",
+      "Palais Garnier",
+      "Ópera de Paris"
+    ],
+    "calcadao_de_copacabana": [
+      "Calçadão de Copacabana",
+      "Calçadão da Avenida Atlântica"
+    ],
+    "catedral_de_florenca": [
+      "Catedral de Florença",
+      "Santa Maria del Fiore",
+      "Duomo de Florença",
+      "Florence Cathedral"
+    ],
+    "hagia_sophia": [
+      "Santa Sofia",
+      "Hagia Sophia",
+      "Ayasofya",
+      "Basílica de Santa Sofia"
+    ],
+    "partenon": [
+      "Partenon",
+      "Parthenon",
+      "Pártenon"
+    ],
+    "catedral_de_brasilia": [
+      "Catedral de Brasília",
+      "Catedral Metropolitana de Brasília",
+      "Catedral Metropolitana Nossa Senhora Aparecida"
+    ],
+    "stonehenge": [
+      "Stonehenge"
+    ]
+  }
+}

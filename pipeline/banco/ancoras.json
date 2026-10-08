@@ -29495,7 +29495,8 @@
     "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
     "variantes": [
       "Pirâmide do Sol",
-      "Pyramid of the Sun"
+      "Pyramid of the Sun",
+      "Pirámide del Sol"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun",
@@ -31243,7 +31244,9 @@
     "nome": "Sagrada Família",
     "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
     "variantes": [
-      "Templo Expiatório da Sagrada Família"
+      "Templo Expiatório da Sagrada Família",
+      "Basílica da Sagrada Família",
+      "Sagrada Família de Barcelona"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
@@ -37772,7 +37775,8 @@
     "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
     "variantes": [
       "Pirâmide de Quéops",
-      "Pirâmide de Khufu"
+      "Pirâmide de Khufu",
+      "Great Pyramid of Giza"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
@@ -38809,7 +38813,8 @@
     "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
     "variantes": [
       "Panteão",
-      "Pantheon"
+      "Pantheon",
+      "Pantheon, Rome"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
@@ -47906,7 +47911,8 @@
     "nome": "Mausoléu de Halicarnasso",
     "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
     "variantes": [
-      "Mausoleum at Halicarnassus"
+      "Mausoleum at Halicarnassus",
+      "Túmulo de Mausolo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
@@ -47996,7 +48002,8 @@
     "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
     "variantes": [
       "Teatro Municipal do Rio de Janeiro",
-      "Theatro Municipal (Rio de Janeiro)"
+      "Theatro Municipal (Rio de Janeiro)",
+      "Theatro Municipal"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro"
@@ -48070,7 +48077,10 @@
       "wikidata": "Q616484",
       "pt": 1169,
       "en": 1991
-    }
+    },
+    "variantes": [
+      "Calçadão da Avenida Atlântica"
+    ]
   },
   {
     "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
@@ -48109,7 +48119,8 @@
     "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
     "variantes": [
       "Santa Maria del Fiore",
-      "Duomo de Florença"
+      "Duomo de Florença",
+      "Florence Cathedral"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Florence_Cathedral"
@@ -79952,7 +79963,8 @@
     "descricao": "Basílica de cúpulas brancas em Paris, dedicada ao Sagrado Coração, concluída no início do século vinte.",
     "variantes": [
       "Sacré-Cœur",
-      "Basílica do Sagrado Coração de Montmartre"
+      "Basílica do Sagrado Coração de Montmartre",
+      "Basílica do Sagrado Coração"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris"
@@ -81809,7 +81821,8 @@
     "nome": "Palácio de Potala",
     "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
     "variantes": [
-      "Potala"
+      "Potala",
+      "Potala Palace"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Palácio_de_Potala",
@@ -87452,7 +87465,8 @@
     "nome": "Memorial de Lincoln",
     "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
     "variantes": [
-      "Lincoln Memorial"
+      "Lincoln Memorial",
+      "Memorial a Lincoln"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Lincoln_Memorial",
@@ -119153,5 +119167,196 @@
       "pt": 271,
       "en": 39412
     }
+  },
+  {
+    "id": "pont_neuf",
+    "nome": "Pont Neuf",
+    "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+    "variantes": [
+      "Ponte Nova"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pont_Neuf",
+      "https://pt.wikipedia.org/wiki/Pont_Neuf"
+    ]
+  },
+  {
+    "id": "ponte_de_rialto",
+    "nome": "Ponte de Rialto",
+    "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+    "variantes": [
+      "Ponte di Rialto",
+      "Rialto Bridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rialto_Bridge"
+    ]
+  },
+  {
+    "id": "queens",
+    "nome": "Queens",
+    "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+    "variantes": [
+      "Borough of Queens"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Queens"
+    ]
+  },
+  {
+    "id": "sao_vicente",
+    "nome": "São Vicente",
+    "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+    "variantes": [
+      "São Vicente (São Paulo)"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_(S%C3%A3o_Paulo)"
+    ]
+  },
+  {
+    "id": "arquibasilica_de_sao_joao_de_latrao",
+    "nome": "Arquibasílica de São João de Latrão",
+    "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+    "variantes": [
+      "São João de Latrão",
+      "Basílica de Latrão",
+      "Archbasilica of Saint John Lateran"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran"
+    ]
+  },
+  {
+    "id": "burj_al_arab",
+    "nome": "Burj Al Arab",
+    "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+    "variantes": [
+      "Torre dos Árabes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Burj_Al_Arab"
+    ]
+  },
+  {
+    "id": "palacio_do_catete",
+    "nome": "Palácio do Catete",
+    "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+    "variantes": [
+      "Catete Palace"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Catete",
+      "https://en.wikipedia.org/wiki/Catete_Palace"
+    ]
+  },
+  {
+    "id": "museu_de_orsay",
+    "nome": "Museu de Orsay",
+    "descricao": "Museu de arte em Paris, à margem esquerda do Sena, famoso pelo acervo impressionista, inaugurado em 1986.",
+    "variantes": [
+      "Musée d'Orsay"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay"
+    ]
+  },
+  {
+    "id": "igreja_de_sao_francisco_de_salvador",
+    "nome": "Igreja de São Francisco de Salvador",
+    "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+    "variantes": [
+      "Igreja e Convento de São Francisco",
+      "Church and Convent of São Francisco"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Igreja_e_Convento_de_S%C3%A3o_Francisco_(Salvador)",
+      "https://en.wikipedia.org/wiki/Church_and_Convent_of_S%C3%A3o_Francisco"
+    ]
+  },
+  {
+    "id": "praca_vermelha",
+    "nome": "Praça Vermelha",
+    "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+    "variantes": [
+      "Krasnaya Ploshchad",
+      "Red Square"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Red_Square"
+    ]
+  },
+  {
+    "id": "casa_dancante",
+    "nome": "Casa Dançante",
+    "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+    "variantes": [
+      "Dancing House",
+      "Tančící dům",
+      "Fred e Ginger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dancing_House"
+    ]
+  },
+  {
+    "id": "pelourinho",
+    "nome": "Pelourinho",
+    "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+    "variantes": [
+      "Pelourinho (Salvador)",
+      "Pelô"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pelourinho_(Salvador)",
+      "https://en.wikipedia.org/wiki/Pelourinho"
+    ]
+  },
+  {
+    "id": "ponte_luis_i",
+    "nome": "Ponte Luís I",
+    "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+    "variantes": [
+      "Ponte Dom Luís I",
+      "Dom Luís I Bridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+    ]
+  },
+  {
+    "id": "praca_de_sao_pedro",
+    "nome": "Praça de São Pedro",
+    "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+    "variantes": [
+      "Piazza San Pietro",
+      "St. Peter's Square"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+    ]
+  },
+  {
+    "id": "ponte_do_brooklyn",
+    "nome": "Ponte do Brooklyn",
+    "descricao": "Ponte pênsil sobre o East River, em Nova York, ligando Manhattan ao Brooklyn.",
+    "variantes": [
+      "Brooklyn Bridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+    ]
+  },
+  {
+    "id": "igreja_do_salvador_sobre_o_sangue_derramado",
+    "nome": "Igreja do Salvador sobre o Sangue Derramado",
+    "descricao": "Igreja ortodoxa de cúpulas coloridas erguida no local do assassinato do czar Alexandre II, à beira de um canal na Rússia.",
+    "variantes": [
+      "Church of the Savior on Blood",
+      "Igreja do Sangue Derramado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood"
+    ]
   }
 ]

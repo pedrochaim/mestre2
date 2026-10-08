@@ -1,0 +1,2344 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das três pirâmides do planalto de Gizé, no Egito, construída como túmulo do faraó Quéops.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Pirâmide de Khufu",
+          "Great Pyramid of Giza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "piramide_de_quefren",
+          "nome": "Pirâmide de Quéfren",
+          "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Khafre",
+            "Pyramid of Khafre",
+            "Pirâmide de Chefren"
+          ]
+        },
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "piramide_de_kukulcan",
+          "nome": "Pirâmide de Kukulcán",
+          "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+          "variantes": [
+            "El Castillo",
+            "Templo de Kukulcán"
+          ]
+        },
+        {
+          "id": "piramides_de_gize",
+          "nome": "Pirâmides de Gizé",
+          "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+          "variantes": [
+            "Complexo de Gizé",
+            "Giza pyramid complex"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pont Neuf",
+        "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+        "variantes": [
+          "Ponte Nova"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        },
+        {
+          "id": "ponto_nemo",
+          "nome": "Ponto Nemo",
+          "descricao": "Polo de inacessibilidade oceânica, o ponto do oceano mais distante de qualquer terra, no Pacífico Sul.",
+          "variantes": [
+            "Point Nemo",
+            "Polo oceânico de inacessibilidade"
+          ]
+        },
+        {
+          "id": "monte_etna",
+          "nome": "Monte Etna",
+          "descricao": "Vulcão ativo da costa leste da Sicília, na Itália.",
+          "variantes": [
+            "Etna",
+            "Mount Etna",
+            "Mongibello"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "proteu",
+          "nome": "Proteu",
+          "descricao": "Salamandra aquática cavernícola e cega dos Alpes Dináricos, Proteus anguinus.",
+          "variantes": [
+            "Proteus anguinus",
+            "Olm",
+            "Salamandra-cega"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ponte de Rialto",
+        "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+        "variantes": [
+          "Ponte di Rialto",
+          "Rialto Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "sistema_de_pontuacao_por_rali",
+          "nome": "Sistema de pontuação por rali",
+          "descricao": "Regra do vôlei em que todo rali vale ponto, independentemente de quem sacou, adotada pela FIVB em 1999.",
+          "variantes": [
+            "Rally point",
+            "Rally scoring",
+            "Ponto direto"
+          ]
+        },
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Queens",
+        "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+        "variantes": [
+          "Borough of Queens"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "liquen",
+          "nome": "Líquen",
+          "descricao": "Organismo composto formado pela associação simbiótica entre um fungo e um parceiro fotossintetizante.",
+          "variantes": [
+            "Líquenes",
+            "Lichen",
+            "Liquens"
+          ]
+        },
+        {
+          "id": "saque_tenis",
+          "nome": "Saque (tênis)",
+          "descricao": "Golpe que inicia cada ponto no tênis, executado lançando a bola ao ar e golpeando-a com a raquete.",
+          "variantes": [
+            "Serviço",
+            "Serve"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "cidade_de_quebec",
+          "nome": "Cidade de Quebec",
+          "descricao": "Cidade do Canadá às margens do rio São Lourenço, fundada em 1608 como capital da Nova França.",
+          "variantes": [
+            "Quebec",
+            "Québec",
+            "Quebec City"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pirâmide do Sol",
+        "descricao": "Grande pirâmide da antiga cidade de Teotihuacan, perto da Cidade do México.",
+        "variantes": [
+          "Pyramid of the Sun",
+          "Pirámide del Sol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "piramide_de_cestio",
+          "nome": "Pirâmide de Céstio",
+          "descricao": "Pirâmide romana funerária de Caio Céstio, junto à Porta San Paolo, em Roma.",
+          "variantes": [
+            "Pirâmide de Caio Céstio",
+            "Piramide Cestia"
+          ]
+        },
+        {
+          "id": "pedra_do_sol_asteca",
+          "nome": "Pedra do Sol asteca",
+          "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+          "variantes": [
+            "Calendário Asteca",
+            "Piedra del Sol",
+            "Pedra do Sol"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "piramide_do_louvre",
+          "nome": "Pirâmide do Louvre",
+          "descricao": "Pirâmide de vidro e metal no pátio do Museu do Louvre, em Paris, inaugurada em 1989.",
+          "variantes": [
+            "Louvre Pyramid",
+            "Pyramide du Louvre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "São Vicente",
+        "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+        "variantes": [
+          "São Vicente (São Paulo)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "avicena",
+          "nome": "Avicena",
+          "descricao": "Filósofo e médico persa (c. 980–1037), autor do Cânone da Medicina, nascido perto de Bucara.",
+          "variantes": [
+            "Ibn Sina",
+            "Avicenna"
+          ]
+        },
+        {
+          "id": "sorvete",
+          "nome": "Sorvete",
+          "descricao": "Sobremesa congelada feita de leite ou creme com açúcar e sabores.",
+          "variantes": [
+            "Sorvete de massa",
+            "Ice cream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Arquibasílica de São João de Latrão",
+        "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+        "variantes": [
+          "São João de Latrão",
+          "Basílica de Latrão",
+          "Archbasilica of Saint John Lateran"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "ilha_de_alcatraz",
+          "nome": "Ilha de Alcatraz",
+          "descricao": "Ilha na baía de São Francisco, na Califórnia, que abrigou uma prisão federal de segurança máxima.",
+          "variantes": [
+            "Alcatraz",
+            "Alcatraz Island"
+          ]
+        },
+        {
+          "id": "cadeado",
+          "nome": "Cadeado",
+          "descricao": "Fechadura portátil com argola que passa por uma abertura para impedir o uso ou o roubo.",
+          "variantes": [
+            "Cadeado de latão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro Flávio, grande anfiteatro de pedra da Roma Antiga, no centro de Roma, palco de combates de gladiadores.",
+        "variantes": [
+          "Anfiteatro Flávio",
+          "Colosseum",
+          "Colosseo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "olodum",
+          "nome": "Olodum",
+          "descricao": "Bloco afro e grupo percussivo de Salvador, criado em 1979.",
+          "variantes": []
+        },
+        {
+          "id": "ollie",
+          "nome": "Ollie",
+          "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+          "variantes": [
+            "Ollie (skate)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano de cúpula de concreto, em Roma, reconstruído no reinado de Adriano e hoje igreja.",
+        "variantes": [
+          "Panteão",
+          "Pantheon",
+          "Pantheon, Rome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        },
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "pantera_cor_de_rosa",
+          "nome": "Pantera Cor-de-Rosa",
+          "descricao": "Personagem animado de felino rosa, surgido na abertura do filme A Pantera Cor-de-Rosa, de 1963, e depois estrela de desenhos na TV.",
+          "variantes": [
+            "Pink Panther"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "pangeia",
+          "nome": "Pangeia",
+          "descricao": "Supercontinente que reuniu quase todas as terras emersas no fim da Era Paleozoica e no início da Mesozoica.",
+          "variantes": [
+            "Pangea",
+            "Pangaea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Erecteion",
+        "descricao": "Templo grego da Acrópole de Atenas, do século cinco antes de Cristo, famoso pelo pórtico das cariátides.",
+        "variantes": [
+          "Erechtheion",
+          "Erecteu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "erecteion",
+          "nome": "Erecteion",
+          "descricao": "Templo jônico da Acrópole de Atenas, famoso pelo pórtico das cariátides.",
+          "variantes": [
+            "Erechtheion",
+            "Erecteu"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "refracao",
+          "nome": "Refração",
+          "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água.",
+          "variantes": [
+            "Refração da luz",
+            "Refraction"
+          ]
+        },
+        {
+          "id": "doenca_do_chapeleiro_louco",
+          "nome": "Doença do chapeleiro louco",
+          "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
+          "variantes": [
+            "Eretismo",
+            "Mad hatter disease",
+            "Eretismo mercurial"
+          ]
+        },
+        {
+          "id": "eletron",
+          "nome": "Elétron",
+          "descricao": "Partícula subatômica de carga elétrica negativa, descoberta por J. J. Thomson em 1897.",
+          "variantes": [
+            "Electrão",
+            "Electron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca monumental no bairro de Trevi, em Roma, concluída em 1762.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "montanha_da_mesa",
+          "nome": "Montanha da Mesa",
+          "descricao": "Montanha de topo plano que domina a paisagem da Cidade do Cabo, na África do Sul.",
+          "variantes": [
+            "Table Mountain",
+            "Tafelberg"
+          ]
+        },
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "fonte_dos_quatro_rios",
+          "nome": "Fonte dos Quatro Rios",
+          "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651.",
+          "variantes": [
+            "Fontana dei Quattro Fiumi"
+          ]
+        },
+        {
+          "id": "just_fontaine",
+          "nome": "Just Fontaine",
+          "descricao": "Atacante francês nascido no Marrocos, artilheiro da Copa do Mundo de 1958.",
+          "variantes": [
+            "Justo Fontaine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Memorial a Lincoln",
+        "descricao": "Monumento em forma de templo grego no National Mall, em Washington, com a estátua sentada de Abraham Lincoln.",
+        "variantes": [
+          "Lincoln Memorial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "memorial_de_lincoln",
+          "nome": "Memorial de Lincoln",
+          "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+          "variantes": [
+            "Lincoln Memorial"
+          ]
+        },
+        {
+          "id": "vertebras_cervicais",
+          "nome": "Vértebras cervicais",
+          "descricao": "Vértebras que formam a coluna do pescoço.",
+          "variantes": [
+            "Cervical vertebrae",
+            "Coluna cervical"
+          ]
+        },
+        {
+          "id": "abraham_lincoln",
+          "nome": "Abraham Lincoln",
+          "descricao": "16º presidente dos Estados Unidos, que governou durante a Guerra Civil Americana e foi assassinado em 1865.",
+          "variantes": [
+            "Lincoln"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica na Île de la Cité, em Paris, iniciada no século doze.",
+        "variantes": [
+          "Notre-Dame de Paris",
+          "Notre-Dame"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "incendio_da_catedral_de_notre_dame_de_paris",
+          "nome": "Incêndio da Catedral de Notre-Dame de Paris",
+          "descricao": "Incêndio que destruiu o telhado e a agulha da catedral de Notre-Dame, em Paris.",
+          "variantes": [
+            "Notre-Dame de Paris fire"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Burj Al Arab",
+        "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+        "variantes": [
+          "Burj al-Arab",
+          "Torre dos Árabes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis"
+          ]
+        },
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "torre_de_londres",
+          "nome": "Torre de Londres",
+          "descricao": "Fortaleza medieval à beira do Tâmisa, em Londres, que já foi palácio real e prisão e guarda as Joias da Coroa.",
+          "variantes": [
+            "Tower of London"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Palácio de Buckingham",
+        "descricao": "Residência oficial do monarca britânico em Londres.",
+        "variantes": [
+          "Buckingham Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_buckingham",
+          "nome": "Palácio de Buckingham",
+          "descricao": "Residência oficial e sede administrativa do monarca do Reino Unido, em Londres.",
+          "variantes": [
+            "Buckingham Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Palácio do Catete",
+        "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+        "variantes": [
+          "Catete Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "piratas_do_tiete",
+          "nome": "Piratas do Tietê",
+          "descricao": "Série de quadrinhos de humor do cartunista Laerte sobre um bando de piratas em São Paulo",
+          "variantes": []
+        },
+        {
+          "id": "lago_crater",
+          "nome": "Lago Crater",
+          "descricao": "Lago vulcânico numa caldeira no Oregon, EUA, o mais profundo do país, com a Ilha do Mago.",
+          "variantes": [
+            "Crater Lake"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Museu de Orsay",
+        "descricao": "Museu de arte em Paris, à margem esquerda do Sena, famoso pelo acervo impressionista, inaugurado em 1986.",
+        "variantes": [
+          "Musée d'Orsay"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_oscar_niemeyer",
+          "nome": "Museu Oscar Niemeyer",
+          "descricao": "Museu de artes visuais, arquitetura e design em Curitiba, conhecido como Museu do Olho.",
+          "variantes": [
+            "Museu do Olho",
+            "MON"
+          ]
+        },
+        {
+          "id": "museu_do_ipiranga",
+          "nome": "Museu do Ipiranga",
+          "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+          "variantes": [
+            "Museu Paulista",
+            "Museu Paulista da USP"
+          ]
+        },
+        {
+          "id": "esfagno",
+          "nome": "Esfagno",
+          "descricao": "Gênero de musgos Sphagnum que formam as turfeiras.",
+          "variantes": [
+            "Sphagnum",
+            "Musgo-de-turfa"
+          ]
+        },
+        {
+          "id": "sede_da_otan",
+          "nome": "Sede da OTAN",
+          "descricao": "Quartel-general político da Organização do Tratado do Atlântico Norte, em Bruxelas desde 1967.",
+          "variantes": [
+            "NATO headquarters",
+            "Quartel-general da OTAN"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Palácio de Potala",
+        "descricao": "Grande palácio-fortaleza sobre uma colina em Lhasa, no Tibete, construído no século dezessete.",
+        "variantes": [
+          "Potala",
+          "Potala Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala"
+          ]
+        },
+        {
+          "id": "cartao_postal",
+          "nome": "Cartão-postal",
+          "descricao": "Cartão para correspondência enviado pelo correio sem envelope, geralmente com uma ilustração ou foto de um lado.",
+          "variantes": [
+            "Postal",
+            "Postcard"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "ottawa",
+          "nome": "Ottawa",
+          "descricao": "Capital do Canadá, na província de Ontário.",
+          "variantes": [
+            "Otava"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Igreja de São Francisco de Salvador",
+        "descricao": "Igreja barroca do convento franciscano no centro histórico de Salvador, na Bahia, do século dezoito.",
+        "variantes": [
+          "Igreja e Convento de São Francisco",
+          "Church and Convent of São Francisco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+          "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+          "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+          "variantes": []
+        },
+        {
+          "id": "igreja_de_sao_jorge_de_lalibela",
+          "nome": "Igreja de São Jorge de Lalibela",
+          "descricao": "Igreja monolítica cruciforme escavada na rocha em Lalibela, Etiópia, do tempo da dinastia Zagwe.",
+          "variantes": [
+            "Bete Giyorgis",
+            "Bet Giyorgis"
+          ]
+        },
+        {
+          "id": "terremoto_de_sao_francisco_de_1906",
+          "nome": "Terremoto de São Francisco de 1906",
+          "descricao": "Terremoto de abril de 1906 que, junto com os incêndios que provocou, destruiu grande parte de São Francisco, na Califórnia.",
+          "variantes": [
+            "1906 San Francisco earthquake"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "guanahani",
+          "nome": "Guanahani",
+          "descricao": "Ilha onde Cristóvão Colombo desembarcou pela primeira vez na América, em outubro de 1492, e que ele chamou de San Salvador.",
+          "variantes": [
+            "San Salvador",
+            "Ilha de San Salvador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Monte Palatino",
+        "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+        "variantes": [
+          "Palatino",
+          "Palatine Hill"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "monte_alban",
+          "nome": "Monte Albán",
+          "descricao": "Sítio arqueológico zapoteca no vale de Oaxaca, México.",
+          "variantes": []
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Mausoléu de Halicarnasso",
+        "descricao": "Túmulo monumental do governante Mausolo, em Halicarnasso, atual Bodrum, uma das Sete Maravilhas do Mundo Antigo.",
+        "variantes": [
+          "Mausoleum at Halicarnassus",
+          "Túmulo de Mausolo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mausoleu_de_halicarnasso",
+          "nome": "Mausoléu de Halicarnasso",
+          "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Mausoleum at Halicarnassus"
+          ]
+        },
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "tesouro_de_atreu",
+          "nome": "Tesouro de Atreu",
+          "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+          "variantes": [
+            "Túmulo de Agamêmnon",
+            "Treasury of Atreus"
+          ]
+        },
+        {
+          "id": "templo_de_zeus_olimpico",
+          "nome": "Templo de Zeus Olímpico",
+          "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+          "variantes": [
+            "Olimpeion",
+            "Olympieion"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Praça Vermelha",
+        "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+        "variantes": [
+          "Krasnaya Ploshchad",
+          "Red Square"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "faixa_vermelha_do_jiu_jitsu",
+          "nome": "Faixa vermelha do jiu-jítsu",
+          "descricao": "Faixa mais alta do sistema de graduação do jiu-jítsu brasileiro, reservada aos grandes mestres.",
+          "variantes": [
+            "Faixa vermelha"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "bandeira_do_pais_de_gales",
+          "nome": "Bandeira do País de Gales",
+          "descricao": "Bandeira do País de Gales, com um dragão vermelho sobre faixas branca e verde.",
+          "variantes": [
+            "Y Ddraig Goch",
+            "Dragão Vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Mesquita Azul",
+        "descricao": "Mesquita do Sultão Ahmed, em Istambul, na Turquia, concluída no século dezessete.",
+        "variantes": [
+          "Mesquita do Sultão Ahmed",
+          "Sultan Ahmed Mosque",
+          "Blue Mosque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "cor_azul_do_ceu",
+          "nome": "Cor azul do céu",
+          "descricao": "Fenômeno pelo qual o céu diurno aparece azul, explicado pelo espalhamento da luz solar na atmosfera.",
+          "variantes": [
+            "Céu azul",
+            "Radiação difusa do céu"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "a_grande_odalisca",
+          "nome": "A Grande Odalisca",
+          "descricao": "Pintura a óleo de Ingres, de 1814, de uma odalisca reclinada de costas, com leque de penas de pavão, no Louvre.",
+          "variantes": [
+            "Grande Odalisque",
+            "La Grande Odalisque",
+            "Une Odalisque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Casa Dançante",
+        "descricao": "Prédio de escritórios de linhas tortas à beira do rio Moldava, em Praga, inaugurado em 1996.",
+        "variantes": [
+          "Dancing House",
+          "Tančící dům",
+          "Fred e Ginger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "geirangerfjord",
+          "nome": "Geirangerfjord",
+          "descricao": "Fiorde no condado de Møre og Romsdal, na Noruega, ramo do Sunnylvsfjord.",
+          "variantes": [
+            "Fiorde de Geiranger",
+            "Geirangerfjorden"
+          ]
+        },
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "red_red_wine",
+          "nome": "Red Red Wine",
+          "descricao": "Canção lançada em 1967 e transformada em sucesso de reggae pelo UB40 em 1983",
+          "variantes": []
+        },
+        {
+          "id": "casa_da_cascata",
+          "nome": "Casa da Cascata",
+          "descricao": "Residência construída nos anos 1930 sobre uma queda d'água na Pensilvânia, Estados Unidos.",
+          "variantes": [
+            "Fallingwater",
+            "Casa Kaufmann"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Pelourinho",
+        "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+        "variantes": [
+          "Pelourinho (Salvador)",
+          "Pelô"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pele",
+          "nome": "Pelé",
+          "descricao": "Edson Arantes do Nascimento, tricampeão mundial pela seleção brasileira.",
+          "variantes": []
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "pele_2",
+          "nome": "Pele",
+          "descricao": "Órgão que recobre todo o corpo humano e o protege do ambiente.",
+          "variantes": [
+            "Skin",
+            "Cútis"
+          ]
+        },
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Castelo de Neuschwanstein",
+        "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, na Alemanha.",
+        "variantes": [
+          "Neuschwanstein",
+          "Schloss Neuschwanstein"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_neuschwanstein",
+          "nome": "Castelo de Neuschwanstein",
+          "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, mandado erguer pelo rei Luís II.",
+          "variantes": [
+            "Neuschwanstein",
+            "Schloss Neuschwanstein"
+          ]
+        },
+        {
+          "id": "escanteio",
+          "nome": "Escanteio",
+          "descricao": "Cobrança de bola parada a partir do canto do campo, após a bola sair pela linha de fundo tocada por um defensor.",
+          "variantes": [
+            "Tiro de canto",
+            "Corner"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "castelo_de_santo_angelo",
+          "nome": "Castelo de Santo Ângelo",
+          "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+          "variantes": [
+            "Mausoléu de Adriano",
+            "Castel Sant'Angelo",
+            "Castelo do Santo Anjo"
+          ]
+        },
+        {
+          "id": "liechtenstein",
+          "nome": "Liechtenstein",
+          "descricao": "Pequeno principado sem litoral nos Alpes, com capital em Vaduz.",
+          "variantes": [
+            "Principado de Liechtenstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Theatro Municipal do Rio de Janeiro",
+        "descricao": "Teatro de ópera na Cinelândia, centro do Rio de Janeiro, inaugurado em 1909.",
+        "variantes": [
+          "Theatro Municipal",
+          "Teatro Municipal do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "theatro_municipal_do_rio_de_janeiro",
+          "nome": "Theatro Municipal do Rio de Janeiro",
+          "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+          "variantes": [
+            "Teatro Municipal do Rio de Janeiro",
+            "Theatro Municipal (Rio de Janeiro)"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "theatro_municipal_de_sao_paulo",
+          "nome": "Theatro Municipal de São Paulo",
+          "descricao": "Teatro de ópera e concertos no centro de São Paulo, projetado pelo escritório de Ramos de Azevedo e inaugurado em 1911.",
+          "variantes": [
+            "Teatro Municipal de São Paulo"
+          ]
+        },
+        {
+          "id": "passeio_publico_do_rio_de_janeiro",
+          "nome": "Passeio Público do Rio de Janeiro",
+          "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+          "variantes": [
+            "Passeio Público"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Ópera Garnier",
+        "descricao": "Casa de ópera de Paris projetada por Charles Garnier, inaugurada em 1875.",
+        "variantes": [
+          "Palais Garnier",
+          "Ópera de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        },
+        {
+          "id": "opera_de_pequim",
+          "nome": "Ópera de Pequim",
+          "descricao": "Forma tradicional de teatro musical chinês, que combina canto, mímica, acrobacia e maquiagem facial simbólica.",
+          "variantes": [
+            "Peking opera",
+            "Jingju",
+            "Ópera de Beijing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Calçadão de Copacabana",
+        "descricao": "Calçada de pedras portuguesas em preto e branco ao longo da praia de Copacabana, no Rio de Janeiro.",
+        "variantes": [
+          "Calçadão da Avenida Atlântica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": []
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        },
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)",
+            "Copacabana (bairro)"
+          ]
+        },
+        {
+          "id": "castelo_de_himeji",
+          "nome": "Castelo de Himeji",
+          "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+          "variantes": [
+            "Himeji-jō",
+            "Castelo da Garça Branca",
+            "Shirasagi-jō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Ponte Luís I",
+        "descricao": "Ponte metálica em arco sobre o rio Douro, ligando o Porto a Vila Nova de Gaia, inaugurada em 1886.",
+        "variantes": [
+          "Ponte Dom Luís I",
+          "Dom Luís I Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_dos_suspiros",
+          "nome": "Ponte dos Suspiros",
+          "descricao": "Ponte de pedra coberta em Veneza que liga o Palácio Ducal às antigas prisões.",
+          "variantes": [
+            "Ponte dei Sospiri",
+            "Bridge of Sighs"
+          ]
+        },
+        {
+          "id": "jorge_luis_borges",
+          "nome": "Jorge Luis Borges",
+          "descricao": "Escritor argentino (1899–1986), autor de Ficções e O Aleph.",
+          "variantes": [
+            "Borges"
+          ]
+        },
+        {
+          "id": "ponta_do_seixas",
+          "nome": "Ponta do Seixas",
+          "descricao": "Cabo no litoral de João Pessoa, na Paraíba, ponto mais oriental das Américas continentais.",
+          "variantes": []
+        },
+        {
+          "id": "monte_fuji",
+          "nome": "Monte Fuji",
+          "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+          "variantes": [
+            "Fuji",
+            "Fujisan",
+            "Fuji-san",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Catedral de Florença",
+        "descricao": "Catedral de Santa Maria del Fiore, em Florença, na Itália, com grande cúpula do século quinze.",
+        "variantes": [
+          "Santa Maria del Fiore",
+          "Duomo de Florença",
+          "Florence Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença"
+          ]
+        },
+        {
+          "id": "cupula_da_catedral_de_florenca",
+          "nome": "Cúpula da Catedral de Florença",
+          "descricao": "Grande cúpula de alvenaria da Catedral de Santa Maria del Fiore, em Florença, concluída em 1436.",
+          "variantes": [
+            "Cúpula de Brunelleschi",
+            "Duomo de Florença",
+            "Santa Maria del Fiore"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Praça de São Pedro",
+        "descricao": "Grande praça diante da Basílica de São Pedro, no Vaticano, cercada por uma colunata em semicírculo.",
+        "variantes": [
+          "Piazza San Pietro",
+          "St. Peter's Square"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "coroa_de_santo_eduardo",
+          "nome": "Coroa de Santo Eduardo",
+          "descricao": "Coroa de coroação das joias da Coroa britânica, feita em 1661 para Carlos II.",
+          "variantes": [
+            "St Edward's Crown"
+          ]
+        },
+        {
+          "id": "times_square",
+          "nome": "Times Square",
+          "descricao": "Praça e cruzamento comercial de Manhattan, em Nova York, famosa pelos painéis luminosos.",
+          "variantes": [
+            "Praça Times"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_brasil",
+          "nome": "Coroa Imperial do Brasil",
+          "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+          "variantes": [
+            "Coroa de Dom Pedro II",
+            "Coroa Diamantina"
+          ]
+        },
+        {
+          "id": "sao_petersburgo",
+          "nome": "São Petersburgo",
+          "descricao": "Cidade russa às margens do rio Neva, fundada em 1703 e capital do Império Russo por cerca de dois séculos.",
+          "variantes": [
+            "Saint Petersburg",
+            "Petrogrado",
+            "Leningrado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Santa Sofia",
+        "descricao": "Grande templo de cúpula em Istambul, construído no século seis como catedral bizantina e depois convertido em mesquita.",
+        "variantes": [
+          "Hagia Sophia",
+          "Ayasofya",
+          "Basílica de Santa Sofia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "igreja_do_santo_sepulcro",
+          "nome": "Igreja do Santo Sepulcro",
+          "descricao": "Igreja de Jerusalém erguida sobre os locais tradicionais da crucificação e do túmulo de Jesus",
+          "variantes": [
+            "Basílica do Santo Sepulcro"
+          ]
+        },
+        {
+          "id": "os_cavaleiros_do_zodiaco",
+          "nome": "Os Cavaleiros do Zodíaco",
+          "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão.",
+          "variantes": [
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano",
+            "São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "sacarina",
+          "nome": "Sacarina",
+          "descricao": "Adoçante artificial descoberto em 1879 pelo químico Constantin Fahlberg, na Universidade Johns Hopkins.",
+          "variantes": [
+            "Saccharin",
+            "Sacarina sódica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Partenon",
+        "descricao": "Templo dórico dedicado à deusa Atena, no alto da Acrópole de Atenas, do século cinco antes de Cristo.",
+        "variantes": [
+          "Parthenon",
+          "Pártenon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "george_s_patton",
+          "nome": "George S. Patton",
+          "descricao": "General do Exército dos Estados Unidos que comandou o Sétimo e o Terceiro Exércitos na Segunda Guerra Mundial.",
+          "variantes": [
+            "George Smith Patton Jr.",
+            "Patton"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Ponte do Brooklyn",
+        "descricao": "Ponte pênsil sobre o East River, em Nova York, ligando Manhattan ao Brooklyn.",
+        "variantes": [
+          "Brooklyn Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "ponte_dos_suspiros",
+          "nome": "Ponte dos Suspiros",
+          "descricao": "Ponte de pedra coberta em Veneza que liga o Palácio Ducal às antigas prisões.",
+          "variantes": [
+            "Ponte dei Sospiri",
+            "Bridge of Sighs"
+          ]
+        },
+        {
+          "id": "conde_dookan",
+          "nome": "Conde Dookan",
+          "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith.",
+          "variantes": [
+            "Count Dooku",
+            "Darth Tyranus"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Catedral de Brasília",
+        "descricao": "Catedral Metropolitana de Brasília, projetada por Oscar Niemeyer, com estrutura de pilares curvos de concreto.",
+        "variantes": [
+          "Catedral Metropolitana de Brasília",
+          "Catedral Metropolitana Nossa Senhora Aparecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "Stonehenge",
+        "descricao": "Monumento pré-histórico de grandes pedras dispostas em círculo na planície de Salisbury, na Inglaterra.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "stonehenge",
+          "nome": "Stonehenge",
+          "descricao": "Monumento pré-histórico de grandes pedras em círculo, na Inglaterra.",
+          "variantes": []
+        },
+        {
+          "id": "shonen",
+          "nome": "Shōnen",
+          "descricao": "Categoria de mangá e anime voltada ao público masculino jovem, como Dragon Ball e Naruto.",
+          "variantes": [
+            "Shounen",
+            "少年"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "proposta": {
+        "nome": "Igreja do Salvador sobre o Sangue Derramado",
+        "descricao": "Igreja ortodoxa de cúpulas coloridas erguida no local do assassinato do czar Alexandre II, à beira de um canal na Rússia.",
+        "variantes": [
+          "Church of the Savior on Blood",
+          "Igreja do Sangue Derramado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arvore_sangue_de_dragao",
+          "nome": "Árvore-sangue-de-dragão",
+          "descricao": "Árvore Dracaena cinnabari, de copa em forma de guarda-chuva e seiva vermelha, endêmica do arquipélago de Socotorá.",
+          "variantes": [
+            "Dracaena cinnabari",
+            "Dragoeiro-de-socotorá"
+          ]
+        },
+        {
+          "id": "igreja_anglicana",
+          "nome": "Igreja Anglicana",
+          "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+          "variantes": [
+            "Igreja da Inglaterra",
+            "Church of England"
+          ]
+        },
+        {
+          "id": "igreja_do_santo_sepulcro",
+          "nome": "Igreja do Santo Sepulcro",
+          "descricao": "Igreja de Jerusalém erguida sobre os locais tradicionais da crucificação e do túmulo de Jesus",
+          "variantes": [
+            "Basílica do Santo Sepulcro"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_jorge_de_lalibela",
+          "nome": "Igreja de São Jorge de Lalibela",
+          "descricao": "Igreja monolítica cruciforme escavada na rocha em Lalibela, Etiópia, do tempo da dinastia Zagwe.",
+          "variantes": [
+            "Bete Giyorgis",
+            "Bet Giyorgis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "grande_piramide_de_gize",
+      "motivo": "Mesma pirâmide de Quéops."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pont Neuf de Paris não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ponte de Rialto não consta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Distrito de Nova York; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "piramide_do_sol_teotihuacan",
+      "motivo": "Mesma pirâmide de Teotihuacan."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade de São Vicente (SP) não consta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Basílica de Latrão não consta."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "coliseu",
+      "motivo": "Mesmo Anfiteatro Flávio."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "panteao_de_roma",
+      "motivo": "Mesmo Panteão de Roma."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "erecteion",
+      "motivo": "Mesmo templo da Acrópole."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "fontana_di_trevi",
+      "motivo": "Mesma fonte."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "memorial_de_lincoln",
+      "motivo": "Mesmo Lincoln Memorial."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_notre_dame_de_paris",
+      "motivo": "Mesma catedral."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Burj Al Arab não consta."
+    },
+    {
+      "caso": 15,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_buckingham",
+      "motivo": "Mesmo palácio."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Palácio do Catete não consta."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Museu de Orsay não consta."
+    },
+    {
+      "caso": 18,
+      "decisao": "mesma",
+      "id_existente": "palacio_de_potala",
+      "motivo": "Mesmo palácio de Lhasa."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Igreja de Salvador distinta da de Ouro Preto."
+    },
+    {
+      "caso": 20,
+      "decisao": "mesma",
+      "id_existente": "monte_palatino",
+      "motivo": "Mesma colina."
+    },
+    {
+      "caso": 21,
+      "decisao": "mesma",
+      "id_existente": "mausoleu_de_halicarnasso",
+      "motivo": "Mesmo mausoléu."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Praça Vermelha não consta."
+    },
+    {
+      "caso": 23,
+      "decisao": "mesma",
+      "id_existente": "mesquita_azul",
+      "motivo": "Mesma mesquita."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Casa Dançante não consta."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Pelourinho é bairro de Salvador, distinto das candidatas."
+    },
+    {
+      "caso": 26,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_neuschwanstein",
+      "motivo": "Mesmo castelo."
+    },
+    {
+      "caso": 27,
+      "decisao": "mesma",
+      "id_existente": "theatro_municipal_do_rio_de_janeiro",
+      "motivo": "Mesmo teatro."
+    },
+    {
+      "caso": 28,
+      "decisao": "mesma",
+      "id_existente": "opera_garnier",
+      "motivo": "Mesma casa de ópera."
+    },
+    {
+      "caso": 29,
+      "decisao": "mesma",
+      "id_existente": "calcadao_de_copacabana",
+      "motivo": "Mesmo calçadão."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Ponte Luís I não consta."
+    },
+    {
+      "caso": 31,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_florenca",
+      "motivo": "Mesma catedral; a cúpula é parte distinta."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "A praça difere da basílica."
+    },
+    {
+      "caso": 33,
+      "decisao": "mesma",
+      "id_existente": "hagia_sophia",
+      "motivo": "Santa Sofia é Hagia Sophia."
+    },
+    {
+      "caso": 34,
+      "decisao": "mesma",
+      "id_existente": "partenon",
+      "motivo": "Mesmo templo."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Ponte do Brooklyn não consta."
+    },
+    {
+      "caso": 36,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_brasilia",
+      "motivo": "Mesma catedral."
+    },
+    {
+      "caso": 37,
+      "decisao": "mesma",
+      "id_existente": "stonehenge",
+      "motivo": "Mesmo monumento."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Igreja não consta."
+    }
+  ]
+}

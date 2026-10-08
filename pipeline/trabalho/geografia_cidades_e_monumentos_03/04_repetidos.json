@@ -1,0 +1,335 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Nas ruínas de Teotihuacan, perto da Cidade do México, qual é a maior de todas as construções?",
+        "resposta": "Pirâmide do Sol"
+      },
+      "existentes": [
+        {
+          "id": "q01921",
+          "pergunta": "Que pirâmide mesoamericana é esta?",
+          "resposta": "Pirâmide do Sol"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na Acrópole de Atenas, um pórtico do templo Erecteion é sustentado por estátuas de mulheres no lugar de colunas. Como se chamam essas figuras?",
+        "resposta": "Cariátides"
+      },
+      "existentes": [
+        {
+          "id": "q02450",
+          "pergunta": "Em que século antes de Cristo foi construído este templo grego?",
+          "resposta": "Quinto século a.C."
+        },
+        {
+          "id": "q03197",
+          "pergunta": "No templo Erecteion, na Acrópole de Atenas, estátuas de mulheres fazem o papel de colunas. Como elas se chamam?",
+          "resposta": "Cariátides"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Numa das paredes do Memorial a Lincoln, em Washington, está gravado qual discurso do presidente, feito num cemitério militar em 1863?",
+        "resposta": "Discurso de Gettysburg"
+      },
+      "existentes": [
+        {
+          "id": "q05977",
+          "pergunta": "Que estilo arquitetônico tem este edifício?",
+          "resposta": "Neoclássico"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quando o monarca britânico está no Palácio de Buckingham, que bandeira é hasteada no alto do prédio?",
+        "resposta": "Estandarte Real"
+      },
+      "existentes": [
+        {
+          "id": "q05980",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Palácio de Buckingham"
+        },
+        {
+          "id": "q08030",
+          "pergunta": "A casa que deu origem a este palácio foi construída em que século?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Lhasa, no Tibete, o Palácio de Potala foi por séculos a residência de inverno de qual líder religioso?",
+        "resposta": "O Dalai-lama"
+      },
+      "existentes": [
+        {
+          "id": "q05553",
+          "pergunta": "Construído no alto de uma colina, o Palácio de Potala, antiga residência dos dalai-lamas, fica em que cidade?",
+          "resposta": "Lhasa"
+        },
+        {
+          "id": "q07194",
+          "pergunta": "Em que século começou a construção do atual edifício deste palácio?",
+          "resposta": "Século dezessete"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual colina de Roma, onde moravam os imperadores, deu origem à palavra que, em várias línguas, designa a grande residência de um rei?",
+        "resposta": "Monte Palatino"
+      },
+      "existentes": [
+        {
+          "id": "q00076",
+          "pergunta": "Os imperadores romanos moravam numa das sete colinas de Roma, cujo nome deu origem à palavra portuguesa para a residência de reis. Que colina é essa?",
+          "resposta": "Monte Palatino"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que palavra, usada para túmulos monumentais, nasceu do nome de um governante sepultado em Halicarnasso, numa das Sete Maravilhas antigas?",
+        "resposta": "Mausoléu"
+      },
+      "existentes": [
+        {
+          "id": "q03169",
+          "pergunta": "O túmulo monumental de um governante em Halicarnasso, uma das sete maravilhas antigas, deu origem a que palavra usada até hoje para grandes túmulos?",
+          "resposta": "Mausoléu"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A Mesquita do Sultão Ahmed, em Istambul, é chamada de Mesquita Azul por causa de quê?",
+        "resposta": "Os azulejos do interior"
+      },
+      "existentes": [
+        {
+          "id": "q05585",
+          "pergunta": "A Mesquita Azul de Istambul, construída no século dezessete, chama atenção por ter quantos minaretes?",
+          "resposta": "Seis"
+        },
+        {
+          "id": "q07522",
+          "pergunta": "Em Istambul, a Mesquita do Sultão Ahmed é chamada de Mesquita Azul por causa de que revestimento do seu interior?",
+          "resposta": "Azulejos de Iznik"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na Disneylândia da Califórnia, o castelo inspirado no alemão Neuschwanstein leva o nome de qual princesa?",
+        "resposta": "A Bela Adormecida"
+      },
+      "existentes": [
+        {
+          "id": "q03982",
+          "pergunta": "O castelo de Neuschwanstein, mandado erguer pelo rei Luís Segundo da Baviera, inspirou o castelo de que princesa na Disneylândia?",
+          "resposta": "Bela Adormecida"
+        },
+        {
+          "id": "q05290",
+          "pergunta": "Que rei da Baviera mandou construir este castelo no século dezenove?",
+          "resposta": "Luís II da Baviera"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Inaugurado em 1909, o Theatro Municipal do Rio de Janeiro teve como modelo qual casa de ópera de Paris?",
+        "resposta": "Ópera Garnier"
+      },
+      "existentes": [
+        {
+          "id": "q03180",
+          "pergunta": "O Theatro Municipal do Rio de Janeiro, inaugurado em 1909, teve como modelo que casa de ópera de Paris?",
+          "resposta": "Ópera Garnier"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O reservatório de água sob o Palais Garnier, em Paris, inspirou o esconderijo de qual personagem do romance de Gaston Leroux?",
+        "resposta": "O Fantasma da Ópera"
+      },
+      "existentes": [
+        {
+          "id": "q04256",
+          "pergunta": "Em que ano foi inaugurada a Ópera Garnier, de Paris, cenário do romance O Fantasma da Ópera?",
+          "resposta": "1875"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O desenho de ondas do calçadão de Copacabana se inspira no piso de pedras portuguesas de qual praça de Lisboa?",
+        "resposta": "Praça do Rossio"
+      },
+      "existentes": [
+        {
+          "id": "q03185",
+          "pergunta": "O desenho de ondas do calçadão de Copacabana, em pedra portuguesa, é inspirado no piso de que praça de Lisboa?",
+          "resposta": "Praça do Rossio"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Erguida no século quinze, a enorme cúpula da Catedral de Florença foi projetada por qual arquiteto renascentista?",
+        "resposta": "Filippo Brunelleschi"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        },
+        {
+          "id": "q07189",
+          "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Por que a Basílica de Sacré-Cœur, em Paris, continua branca mesmo com a poluição e o passar dos anos? Que substância a pedra libera?",
+        "resposta": "Calcita"
+      },
+      "existentes": [
+        {
+          "id": "q05426",
+          "pergunta": "Com suas cúpulas brancas, a Basílica de Sacré-Cœur domina a paisagem de Paris do alto de qual colina?",
+          "resposta": "Montmartre"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em 1763, a capital do Brasil colonial passou de Salvador para o Rio de Janeiro. Que riqueza, escoada pelo porto carioca, motivou a mudança?",
+        "resposta": "O ouro de Minas Gerais"
+      },
+      "existentes": [
+        {
+          "id": "q00178",
+          "pergunta": "Em 1565, durante a luta contra os franceses na Baía de Guanabara, quem fundou a cidade do Rio de Janeiro?",
+          "resposta": "Estácio de Sá"
+        },
+        {
+          "id": "q02002",
+          "pergunta": "Em janeiro de 1502, navegadores portugueses chamaram de rio algo que, na verdade, era o quê?",
+          "resposta": "A Baía de Guanabara"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "A existente (imagem) pergunta qual pirâmide, resposta Pirâmide do Sol; mesmo fato de identificar a Pirâmide do Sol.",
+      "id_existente": "q01921"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: cariátides no Erecteion.",
+      "id_existente": "q03197"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Discurso gravado é fato diferente do estilo arquitetônico."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Bandeira hasteada é fato distinto."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Líder religioso é diferente de cidade ou século."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre Monte Palatino e origem da palavra palácio.",
+      "id_existente": "q00076"
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: palavra mausoléu do túmulo de Halicarnasso.",
+      "id_existente": "q03169"
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: por que se chama Mesquita Azul (azulejos).",
+      "id_existente": "q07522"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: castelo da Bela Adormecida inspirado em Neuschwanstein.",
+      "id_existente": "q03982"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Perguntas idênticas.",
+      "id_existente": "q03180"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Reservatório e esconderijo do Fantasma é fato diferente do ano de inauguração."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Perguntas idênticas.",
+      "id_existente": "q03185"
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Brunelleschi projetou a cúpula.",
+      "id_existente": "q03188"
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Por que continua branca é fato diferente da colina."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Mudança da capital em 1763 e o ouro são fatos distintos da fundação e do nome do rio."
+    }
+  ]
+}
