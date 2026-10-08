@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza o nome; descrição confere com os trechos; distratores plausíveis e errados para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Químico americano com dois Nobel' praticamente só descreve Pauling; a pista entrega a resposta sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Quem é este químico americano do século vinte?",
+        "resposta": "Linus Pauling"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem vazamento; fato confirmado nos trechos; distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega o nome; descrição confirmada; distratores brasileiros da área médica.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; descrição confirmada; a imagem distingue de Brin e dos demais distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Médico húngaro do século dezenove não identifica sozinho; confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Nobel de Física de 1909 e engenheiro italiano entregam Marconi sem a figura; além disso o Nobel foi dividido com Braun e por telegrafia sem fio, e 'telefone' (Meucci, italiano) fica ambíguo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Química inglesa com Nobel confirmada nos trechos; a pista não entrega sozinha; distratores sem o mesmo perfil exato.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Comanda' é afirmação temporal que pode deixar de ser verdadeira; reformular no passado com fato estável.",
+      "reescrita": {
+        "pergunta": "Este empresário nascido na África do Sul assumiu, em dois mil e oito, o comando de qual destas fabricantes de carros elétricos?",
+        "resposta": "Tesla",
+        "distratores": [
+          "Rivian",
+          "Lucid Motors",
+          "Nio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição confirmada; não vaza o nome; distratores do mesmo campo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Químico inglês do século dezoito confirmado; sem vazamento; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pioneiro da produção de automóveis em massa' entrega Ford sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Quem é este industrial americano do início do século vinte?",
+        "resposta": "Henry Ford",
+        "distratores": [
+          "Andrew Carnegie",
+          "John D. Rockefeller",
+          "J. P. Morgan"
+        ]
+      }
+    }
+  ]
+}

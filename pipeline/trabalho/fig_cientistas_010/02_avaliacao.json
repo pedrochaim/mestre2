@@ -1,0 +1,269 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública reconhecível. Pergunta de reconhecimento em múltipla escolha, porque qualquer pista de feito entregaria a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este empresário e programador americano?",
+      "resposta": "Mark Zuckerberg",
+      "distratores": [
+        "Jack Dorsey",
+        "Sergey Brin",
+        "Jeff Bezos"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Mark Zuckerberg",
+        "descricao": "Empresário e programador americano, cofundador do Facebook e presidente da Meta Platforms.",
+        "variantes": [
+          "Mark Elliot Zuckerberg"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco nítido, sem texto, de figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este químico americano, ganhador de dois prêmios Nobel?",
+      "resposta": "Linus Pauling",
+      "destino": 1,
+      "ancora": {
+        "nome": "Linus Pauling",
+        "descricao": "Químico americano, ganhador do Nobel de Química em 1954 e do Nobel da Paz em 1962.",
+        "variantes": [
+          "Linus Carl Pauling"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto. Figura menos conhecida, por isso múltipla escolha com distratores do mesmo campo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este cientista da computação americano?",
+      "resposta": "Dennis Ritchie",
+      "distratores": [
+        "Ken Thompson",
+        "Brian Kernighan",
+        "Bjarne Stroustrup"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Dennis Ritchie",
+        "descricao": "Cientista da computação americano, criador da linguagem C e coautor do sistema Unix.",
+        "variantes": [
+          "Dennis MacAlistair Ritchie"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de figura pública, sem texto legível. A resolução é baixa, mas o rosto aparece com clareza e é conhecido do público brasileiro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este médico e escritor brasileiro?",
+      "resposta": "Drauzio Varella",
+      "distratores": [
+        "Miguel Nicolelis",
+        "Roberto Kalil Filho",
+        "Ivo Pitanguy"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Drauzio Varella",
+        "descricao": "Médico, escritor e divulgador científico brasileiro, autor de Estação Carandiru.",
+        "variantes": [
+          "Antônio Drauzio Varella"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de corpo inteiro, nítida. Há uma plaquinha parcialmente visível ao fundo, mas ela não entrega a resposta. Figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este empresário e cientista da computação americano?",
+      "resposta": "Larry Page",
+      "distratores": [
+        "Sergey Brin",
+        "Eric Schmidt",
+        "Jeff Bezos"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Larry Page",
+        "descricao": "Cientista da computação e empresário americano, cofundador do Google com Sergey Brin.",
+        "variantes": [
+          "Lawrence Edward Page"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fotografia histórica em sépia, sem texto, de figura histórica. Reconhecível pelo bigode e pelo traje húngaro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este médico húngaro do século dezenove?",
+      "resposta": "Ignaz Semmelweis",
+      "destino": 3,
+      "ancora": {
+        "nome": "Ignaz Semmelweis",
+        "descricao": "Médico húngaro do século dezenove, pioneiro da antissepsia e da lavagem das mãos na prevenção da febre puerperal.",
+        "variantes": [
+          "Semmelweis Ignác Fülöp",
+          "Ignác Semmelweis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato clássico, nítido, sem texto. A pergunta liga o rosto à invenção.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que invenção, que lhe rendeu o Nobel de Física de 1909, é ligada a este engenheiro italiano?",
+      "resposta": "Rádio",
+      "distratores": [
+        "Telefone",
+        "Televisão",
+        "Fonógrafo"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Guglielmo Marconi",
+        "descricao": "Engenheiro e inventor italiano, pioneiro do telégrafo sem fio e do rádio, Nobel de Física em 1909.",
+        "variantes": [
+          "Guglielmo Giovanni Maria Marconi",
+          "Marconi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco, sem texto, de mulher com beca acadêmica. É uma figura pouco conhecida, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta química inglesa, ganhadora do Nobel?",
+      "resposta": "Dorothy Hodgkin",
+      "distratores": [
+        "Rosalind Franklin",
+        "Lise Meitner",
+        "Irène Joliot-Curie"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Dorothy Hodgkin",
+        "descricao": "Química inglesa que usou cristalografia de raios X para determinar a estrutura de biomoléculas, Nobel de Química em 1964.",
+        "variantes": [
+          "Dorothy Crowfoot Hodgkin",
+          "Dorothy Mary Crowfoot"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública. Pergunta por uma empresa ligada a ele, depois de reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas fabricantes de carros elétricos este empresário comanda?",
+      "resposta": "Tesla",
+      "distratores": [
+        "Rivian",
+        "Lucid Motors",
+        "Nio"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Elon Musk",
+        "descricao": "Empresário nascido na África do Sul, CEO da Tesla e da SpaceX.",
+        "variantes": [
+          "Elon Reeve Musk"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, nítida, sem texto. Pistas diretas sobre os feitos entregariam a resposta, então a pergunta é de reconhecimento em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este físico alemão, pioneiro da mecânica quântica?",
+      "resposta": "Werner Heisenberg",
+      "distratores": [
+        "Erwin Schrödinger",
+        "Wolfgang Pauli",
+        "Max Born"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Werner Heisenberg",
+        "descricao": "Físico teórico alemão, pioneiro da mecânica quântica e autor do princípio da incerteza.",
+        "variantes": [
+          "Werner Karl Heisenberg"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato pintado a pastel, nítido, sem texto. Figura histórica; múltipla escolha com distratores da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este químico inglês do século dezoito?",
+      "resposta": "Joseph Priestley",
+      "distratores": [
+        "Henry Cavendish",
+        "Antoine Lavoisier",
+        "John Dalton"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Joseph Priestley",
+        "descricao": "Químico e filósofo natural inglês do século dezoito, creditado pela descoberta independente do oxigênio.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto, de figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este industrial americano, pioneiro da produção de automóveis em massa?",
+      "resposta": "Henry Ford",
+      "distratores": [
+        "Andrew Carnegie",
+        "John D. Rockefeller",
+        "J. P. Morgan"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Henry Ford",
+        "descricao": "Industrial americano, fundador da Ford Motor Company e pioneiro da produção em massa de automóveis.",
+        "variantes": []
+      }
+    }
+  ]
+}

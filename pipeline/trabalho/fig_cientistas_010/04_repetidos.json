@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é este químico americano do século vinte?",
+        "resposta": "Linus Pauling"
+      },
+      "existentes": [
+        {
+          "id": "q05907",
+          "pergunta": "Que químico americano ganhou dois Prêmios Nobel sem dividi-los com ninguém, um de Química e outro da Paz?",
+          "resposta": "Linus Pauling"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é este físico alemão, pioneiro da mecânica quântica?",
+        "resposta": "Werner Heisenberg"
+      },
+      "existentes": [
+        {
+          "id": "q03007",
+          "pergunta": "Na série Breaking Bad, o professor de química Walter White adota como apelido o nome de que físico alemão?",
+          "resposta": "Werner Heisenberg"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "A nova pergunta é de identificação (imagem) de Linus Pauling; a existente pergunta quem é o químico com dois Nobel não compartilhados. Quem soubesse uma identificaria o mesmo homem, mas a nova depende da imagem e o fato exigido é a identidade da pessoa. Considerado o mesmo fato: identidade de Linus Pauling como químico americano.",
+      "id_existente": "q05907"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente trata do apelido de Walter White em Breaking Bad; a nova pede a identidade do físico pela imagem/descrição de pioneiro da mecânica quântica. Fatos diferentes."
+    }
+  ]
+}

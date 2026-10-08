@@ -1,0 +1,372 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Linus Pauling",
+        "descricao": "Químico americano, ganhador do Nobel de Química em 1954 e do Nobel da Paz em 1962.",
+        "variantes": [
+          "Linus Carl Pauling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "linus_pauling",
+          "nome": "Linus Pauling",
+          "descricao": "Químico americano (1901–1994), pioneiro no estudo das ligações químicas, Nobel de Química em 1954 e da Paz em 1962.",
+          "variantes": [
+            "Linus Carl Pauling"
+          ]
+        },
+        {
+          "id": "insulina",
+          "nome": "Insulina",
+          "descricao": "Hormônio que regula o nível de açúcar no sangue, isolado em 1921 e usado no tratamento do diabetes.",
+          "variantes": [
+            "Insulin"
+          ]
+        },
+        {
+          "id": "lapis_lazuli",
+          "nome": "Lápis-lazúli",
+          "descricao": "Rocha metamórfica azul-escura composta sobretudo de lazurita, usada como pedra semipreciosa.",
+          "variantes": [
+            "Lazurita"
+          ]
+        },
+        {
+          "id": "lang_ping",
+          "nome": "Lang Ping",
+          "descricao": "Ex-jogadora e técnica chinesa de vôlei, campeã olímpica como atleta em 1984 e como treinadora em 2016.",
+          "variantes": [
+            "Jenny Lang Ping"
+          ]
+        },
+        {
+          "id": "photinus_carolinus",
+          "nome": "Photinus carolinus",
+          "descricao": "Espécie de vaga-lume norte-americano cujos machos piscam em sincronia no início do verão.",
+          "variantes": [
+            "Vaga-lume sincronizado",
+            "Synchronous firefly"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dennis Ritchie",
+        "descricao": "Cientista da computação americano, criador da linguagem C e coautor do sistema Unix.",
+        "variantes": [
+          "Dennis MacAlistair Ritchie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escala_richter",
+          "nome": "Escala Richter",
+          "descricao": "Escala logarítmica de magnitude de terremotos, apresentada em 1935.",
+          "variantes": [
+            "Escala de Richter",
+            "Richter scale"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Drauzio Varella",
+        "descricao": "Médico, escritor e divulgador científico brasileiro, autor de Estação Carandiru.",
+        "variantes": [
+          "Antônio Drauzio Varella"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "antonio_stradivari",
+          "nome": "Antonio Stradivari",
+          "descricao": "Luthier italiano (c. 1644–1737), fabricante dos violinos conhecidos como Stradivarius.",
+          "variantes": [
+            "Stradivarius",
+            "Antonius Stradivarius"
+          ]
+        },
+        {
+          "id": "antonio_vivaldi",
+          "nome": "Antonio Vivaldi",
+          "descricao": "Compositor e violinista barroco italiano de Veneza (1678–1741), autor de As Quatro Estações.",
+          "variantes": [
+            "Vivaldi",
+            "Antonio Lucio Vivaldi"
+          ]
+        },
+        {
+          "id": "emblema_da_cruz_vermelha",
+          "nome": "Emblema da Cruz Vermelha",
+          "descricao": "Emblema humanitário formado por uma cruz vermelha sobre fundo branco, usado pelo movimento da Cruz Vermelha.",
+          "variantes": [
+            "Cruz Vermelha",
+            "Red Cross emblem"
+          ]
+        },
+        {
+          "id": "cruz_vermelha",
+          "nome": "Cruz Vermelha",
+          "descricao": "Movimento humanitário internacional criado em 1863 em Genebra para socorrer feridos de guerra.",
+          "variantes": [
+            "Comitê Internacional da Cruz Vermelha",
+            "Red Cross"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Larry Page",
+        "descricao": "Cientista da computação e empresário americano, cofundador do Google com Sergey Brin.",
+        "variantes": [
+          "Lawrence Edward Page"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "larry_bird",
+          "nome": "Larry Bird",
+          "descricao": "Ala americano do Boston Celtics, três vezes campeão da NBA nos anos 1980.",
+          "variantes": [
+            "Larry Legend",
+            "Larry Joe Bird"
+          ]
+        },
+        {
+          "id": "william_lawrence_bragg",
+          "nome": "William Lawrence Bragg",
+          "descricao": "Físico australiano-britânico (1890–1971) que dividiu o Nobel de Física de 1915 pela análise de cristais com raios X.",
+          "variantes": [
+            "Lawrence Bragg",
+            "W. L. Bragg"
+          ]
+        },
+        {
+          "id": "t_e_lawrence",
+          "nome": "T. E. Lawrence",
+          "descricao": "Oficial e escritor britânico que atuou junto às forças árabes na revolta contra o Império Otomano durante a Primeira Guerra Mundial.",
+          "variantes": [
+            "Lawrence da Arábia",
+            "Thomas Edward Lawrence"
+          ]
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "alvo_de_tiro_com_arco",
+          "nome": "Alvo de tiro com arco",
+          "descricao": "Alvo oficial do tiro com arco, com dez anéis concêntricos em cinco cores.",
+          "variantes": [
+            "Archery target",
+            "Alvo FITA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Elon Musk",
+        "descricao": "Empresário nascido na África do Sul, CEO da Tesla e da SpaceX.",
+        "variantes": [
+          "Elon Reeve Musk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "keanu_reeves",
+          "nome": "Keanu Reeves",
+          "descricao": "Ator e músico canadense, conhecido por Matrix e John Wick.",
+          "variantes": [
+            "Keanu Charles Reeves"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Werner Heisenberg",
+        "descricao": "Físico teórico alemão, pioneiro da mecânica quântica e autor do princípio da incerteza.",
+        "variantes": [
+          "Werner Karl Heisenberg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "werner_heisenberg",
+          "nome": "Werner Heisenberg",
+          "descricao": "Físico teórico alemão (1901–1976), autor do princípio da incerteza e Nobel de Física de 1932.",
+          "variantes": [
+            "Heisenberg"
+          ]
+        },
+        {
+          "id": "homo_heidelbergensis",
+          "nome": "Homo heidelbergensis",
+          "descricao": "Espécie humana extinta descrita a partir de uma mandíbula achada em 1907 em Mauer, na Alemanha.",
+          "variantes": [
+            "Homem de Heidelberg"
+          ]
+        },
+        {
+          "id": "ernest_hemingway",
+          "nome": "Ernest Hemingway",
+          "descricao": "Romancista americano, Nobel de Literatura em 1954, autor de O Velho e o Mar.",
+          "variantes": [
+            "Ernest Miller Hemingway"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Joseph Priestley",
+        "descricao": "Químico e filósofo natural inglês do século dezoito, creditado pela descoberta independente do oxigênio.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "elvis_presley",
+          "nome": "Elvis Presley",
+          "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+          "variantes": [
+            "Elvis Aaron Presley",
+            "Elvis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Henry Ford",
+        "descricao": "Industrial americano, fundador da Ford Motor Company e pioneiro da produção em massa de automóveis.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "henrique_v_peca",
+          "nome": "Henrique V (peça)",
+          "descricao": "Peça histórica de William Shakespeare sobre o rei inglês Henrique V e a batalha de Agincourt.",
+          "variantes": [
+            "Henry V"
+          ]
+        },
+        {
+          "id": "chupim",
+          "nome": "Chupim",
+          "descricao": "Ave preta de brilho violáceo (Molothrus bonariensis) que bota os ovos em ninhos de outras aves.",
+          "variantes": [
+            "Molothrus bonariensis",
+            "Vira-bosta",
+            "Gaudério",
+            "Shiny cowbird"
+          ]
+        },
+        {
+          "id": "henrique_viii",
+          "nome": "Henrique VIII",
+          "descricao": "Rei da Inglaterra de 1509 a 1547, da dinastia Tudor, que rompeu com a Igreja Católica.",
+          "variantes": [
+            "Henry VIII"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "linus_pauling",
+      "motivo": "Mesmo químico, Nobel 1954 e 1962."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidata é a escala Richter, entidade diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Drauzio Varella."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Larry Page não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Elon Musk."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "werner_heisenberg",
+      "motivo": "Mesmo físico, autor do princípio da incerteza."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Priestley."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Henry Ford."
+    }
+  ]
+}
