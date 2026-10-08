@@ -76113,7 +76113,8 @@
     "nome": "Réquiem de Mozart",
     "descricao": "Missa de réquiem em ré menor deixada inacabada por Wolfgang Amadeus Mozart ao morrer, em 1791.",
     "variantes": [
-      "Requiem em ré menor, K. 626"
+      "Requiem em ré menor, K. 626",
+      "Requiem K. 626"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Requiem_(Mozart)"
@@ -84466,7 +84467,8 @@
     "nome": "Tuba",
     "descricao": "Grande instrumento de sopro de metal, de registro grave, com válvulas e pavilhão voltado para cima.",
     "variantes": [
-      "Tuba contrabaixo"
+      "Tuba contrabaixo",
+      "Tuba orquestral"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tuba",
@@ -111365,7 +111367,8 @@
     "nome": "Contralto",
     "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
     "variantes": [
-      "Contralto (voz)"
+      "Contralto (voz)",
+      "Alto"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Contralto",
@@ -111455,7 +111458,8 @@
     "variantes": [
       "Orfeo",
       "Orfeu (Monteverdi)",
-      "L'Orfeo, favola in musica"
+      "L'Orfeo, favola in musica",
+      "L'Orfeo de Monteverdi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/L%27Orfeo"
@@ -122626,5 +122630,314 @@
       "pt": 99,
       "en": 3354
     }
+  },
+  {
+    "id": "flautim",
+    "nome": "Flautim",
+    "descricao": "Pequena flauta transversal que soa uma oitava acima da flauta comum, usada na orquestra e em bandas.",
+    "variantes": [
+      "Piccolo",
+      "Flauta piccolo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Piccolo",
+      "https://pt.wikipedia.org/wiki/Flautim"
+    ]
+  },
+  {
+    "id": "viola",
+    "nome": "Viola",
+    "descricao": "Instrumento de cordas friccionadas com arco, um pouco maior e mais grave que o violino, tocado apoiado no ombro.",
+    "variantes": [
+      "Viola de arco",
+      "Viola d'arco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Viola"
+    ]
+  },
+  {
+    "id": "orquestra_sinfonica",
+    "nome": "Orquestra sinfônica",
+    "descricao": "Grande conjunto instrumental de música erudita, organizado em famílias de cordas, madeiras, metais e percussão.",
+    "variantes": [
+      "Orquestra filarmônica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Orchestra"
+    ]
+  },
+  {
+    "id": "sinfonia_fantastica",
+    "nome": "Sinfonia Fantástica",
+    "descricao": "Sinfonia programática do compositor francês Hector Berlioz, de 1830, sobre os delírios de um artista apaixonado.",
+    "variantes": [
+      "Symphonie fantastique"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Symphonie_fantastique"
+    ]
+  },
+  {
+    "id": "arco_instrumento_musical",
+    "nome": "Arco (instrumento musical)",
+    "descricao": "Vara de madeira com fios esticados usada para friccionar as cordas do violino, da viola, do violoncelo e do contrabaixo.",
+    "variantes": [
+      "Arco de violino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bow_(music)"
+    ]
+  },
+  {
+    "id": "bachianas_brasileiras_no_5",
+    "nome": "Bachianas Brasileiras nº 5",
+    "descricao": "Quinta suíte do ciclo Bachianas Brasileiras, de Heitor Villa-Lobos, famosa pela Ária para voz de soprano.",
+    "variantes": [
+      "Bachianas Brasileiras número 5",
+      "Bachianas nº 5"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bachianas_Brasileiras"
+    ]
+  },
+  {
+    "id": "quadros_de_uma_exposicao",
+    "nome": "Quadros de uma Exposição",
+    "descricao": "Suíte para piano de Modest Mussorgsky, de 1874, inspirada em obras do artista Viktor Hartmann.",
+    "variantes": [
+      "Pictures at an Exhibition",
+      "Quadros de uma Exibição"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition"
+    ]
+  },
+  {
+    "id": "quinteto_a_truta",
+    "nome": "Quinteto A Truta",
+    "descricao": "Quinteto com piano em lá maior de Franz Schubert, de 1819, cujo quarto movimento varia sua canção A Truta.",
+    "variantes": [
+      "Trout Quintet",
+      "Forellenquintett"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trout_Quintet"
+    ]
+  },
+  {
+    "id": "preludio_a_tarde_de_um_fauno",
+    "nome": "Prelúdio à Tarde de um Fauno",
+    "descricao": "Poema sinfônico de Claude Debussy, de 1894, inspirado num poema de Stéphane Mallarmé.",
+    "variantes": [
+      "Prélude à l'après-midi d'un faune"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Prélude_à_l'après-midi_d'un_faune"
+    ]
+  },
+  {
+    "id": "tocata_e_fuga_em_re_menor",
+    "nome": "Tocata e Fuga em ré menor",
+    "descricao": "Obra catalogada como BWV 565, atribuída a Johann Sebastian Bach, muito associada a filmes de terror.",
+    "variantes": [
+      "Toccata e Fuga em ré menor",
+      "BWV 565"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Toccata_and_Fugue_in_D_minor,_BWV_565"
+    ]
+  },
+  {
+    "id": "cravo_2",
+    "nome": "Cravo",
+    "descricao": "Instrumento de teclado de cordas pinçadas, muito usado no período barroco, antecessor do piano.",
+    "variantes": [
+      "Clavicêmbalo",
+      "Harpsichord"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Harpsichord"
+    ]
+  },
+  {
+    "id": "canto_gregoriano",
+    "nome": "Canto gregoriano",
+    "descricao": "Canto litúrgico monofônico da Igreja Católica, desenvolvido na Idade Média.",
+    "variantes": [
+      "Cantochão gregoriano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gregorian_chant",
+      "https://pt.wikipedia.org/wiki/Canto_gregoriano"
+    ]
+  },
+  {
+    "id": "marcha_turca",
+    "nome": "Marcha Turca",
+    "descricao": "Rondó alla Turca, terceiro movimento da Sonata para piano número onze, de Wolfgang Amadeus Mozart.",
+    "variantes": [
+      "Rondo alla Turca",
+      "Rondó alla Turca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Piano_Sonata_No._11_(Mozart)"
+    ]
+  },
+  {
+    "id": "orgao_de_tubos",
+    "nome": "Órgão de tubos",
+    "descricao": "Instrumento de teclado em que o som é produzido pela passagem de ar por tubos, tradicional em igrejas.",
+    "variantes": [
+      "Órgão"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pipe_organ",
+      "https://en.wikipedia.org/wiki/Organ_(music)"
+    ]
+  },
+  {
+    "id": "allegro",
+    "nome": "Allegro",
+    "descricao": "Indicação italiana de andamento usada nas partituras para pedir um tempo rápido e animado.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tempo"
+    ]
+  },
+  {
+    "id": "oitava_sinfonia_de_mahler",
+    "nome": "Oitava Sinfonia de Mahler",
+    "descricao": "Sinfonia número oito de Gustav Mahler, para orquestra, coros e solistas, estreada em Munique em 1910.",
+    "variantes": [
+      "Sinfonia número 8 de Mahler"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Symphony_No._8_(Mahler)"
+    ]
+  },
+  {
+    "id": "o_barbeiro_de_sevilha",
+    "nome": "O Barbeiro de Sevilha",
+    "descricao": "Ópera cômica de Gioachino Rossini, estreada em Roma em 1816.",
+    "variantes": [
+      "Il barbiere di Siviglia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Barber_of_Seville"
+    ]
+  },
+  {
+    "id": "o_lago_dos_cisnes",
+    "nome": "O Lago dos Cisnes",
+    "descricao": "Balé de Piotr Ilitch Tchaikovsky, estreado em Moscou em 1877.",
+    "variantes": [
+      "Swan Lake"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Swan_Lake"
+    ]
+  },
+  {
+    "id": "dancas_hungaras",
+    "nome": "Danças Húngaras",
+    "descricao": "Conjunto de vinte e uma danças de Johannes Brahms baseadas em temas húngaros, publicadas a partir de 1869.",
+    "variantes": [
+      "Hungarian Dances",
+      "Ungarische Tänze"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hungarian_Dances_(Brahms)"
+    ]
+  },
+  {
+    "id": "niccolo_paganini",
+    "nome": "Niccolò Paganini",
+    "descricao": "Violinista virtuose e compositor italiano (1782–1840), autor dos 24 Caprichos para violino solo.",
+    "variantes": [
+      "Paganini"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini"
+    ]
+  },
+  {
+    "id": "dieterich_buxtehude",
+    "nome": "Dieterich Buxtehude",
+    "descricao": "Organista e compositor barroco dano-alemão (c. 1637–1707), organista da Igreja de Santa Maria de Lübeck.",
+    "variantes": [
+      "Buxtehude"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dieterich_Buxtehude"
+    ]
+  },
+  {
+    "id": "guido_d_arezzo",
+    "nome": "Guido d'Arezzo",
+    "descricao": "Monge e teórico musical italiano da Idade Média, criador de um sistema de notação e da solmização a partir do hino Ut queant laxis.",
+    "variantes": [
+      "Guido de Arezzo",
+      "Guido Aretino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guido_of_Arezzo"
+    ]
+  },
+  {
+    "id": "fidelio",
+    "nome": "Fidelio",
+    "descricao": "Ópera de Ludwig van Beethoven sobre uma mulher que se disfarça de homem para libertar o marido preso, em versão final de 1814.",
+    "variantes": [
+      "Leonore"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fidelio"
+    ]
+  },
+  {
+    "id": "catalogo_kochel",
+    "nome": "Catálogo Köchel",
+    "descricao": "Catálogo cronológico das obras de Mozart, publicado por Ludwig von Köchel em 1862, que numera as peças com a letra K.",
+    "variantes": [
+      "Köchel-Verzeichnis",
+      "KV"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/K%C3%B6chel_catalogue"
+    ]
+  },
+  {
+    "id": "musica_aquatica",
+    "nome": "Música Aquática",
+    "descricao": "Coleção de suítes orquestrais de Georg Friedrich Händel, estreada em 1717 num passeio de barco do rei Jorge I.",
+    "variantes": [
+      "Water Music"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Water_Music"
+    ]
+  },
+  {
+    "id": "danca_do_sabre",
+    "nome": "Dança do Sabre",
+    "descricao": "Movimento do balé Gayane, de 1942, famoso pelo ritmo frenético.",
+    "variantes": [
+      "Sabre Dance",
+      "Dança dos Sabres"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sabre_Dance"
+    ]
+  },
+  {
+    "id": "gymnopedies",
+    "nome": "Gymnopédies",
+    "descricao": "Três peças lentas para piano publicadas em 1888 pelo compositor francês Erik Satie.",
+    "variantes": [
+      "Gimnopédias"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gymnop%C3%A9dies"
+    ]
   }
 ]

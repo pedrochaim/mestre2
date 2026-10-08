@@ -149734,5 +149734,605 @@
       "https://en.wikipedia.org/wiki/Nobelium"
     ],
     "dificuldade": 3
+  },
+  {
+    "id": "q08750",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "tuba",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre os instrumentos de metal da orquestra, qual tem o som mais grave?",
+    "resposta": "Tuba",
+    "distratores": [
+      "Trombone",
+      "Trompa",
+      "Trompete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tuba"
+    ]
+  },
+  {
+    "id": "q08751",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "flautim",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na família das madeiras da orquestra, qual instrumento alcança as notas mais agudas?",
+    "resposta": "Flautim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piccolo"
+    ]
+  },
+  {
+    "id": "q08752",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "viola",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Também apoiado no ombro do músico, qual instrumento de cordas da orquestra é um pouco maior que o violino e soa mais grave?",
+    "resposta": "Viola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Viola"
+    ]
+  },
+  {
+    "id": "q08753",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "franz_schubert",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Todos estes compositores morreram antes dos quarenta anos. Qual deles morreu mais jovem?",
+    "resposta": "Franz Schubert",
+    "distratores": [
+      "Wolfgang Amadeus Mozart",
+      "Felix Mendelssohn",
+      "Frédéric Chopin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Franz_Schubert",
+      "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+      "https://en.wikipedia.org/wiki/Felix_Mendelssohn",
+      "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
+    ]
+  },
+  {
+    "id": "q08754",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "georg_friedrich_handel",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estes grandes compositores do Barroco, qual foi o último a morrer?",
+    "resposta": "Georg Friedrich Händel",
+    "distratores": [
+      "Johann Sebastian Bach",
+      "Antonio Vivaldi",
+      "Arcangelo Corelli"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Frideric_Handel",
+      "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
+      "https://en.wikipedia.org/wiki/Antonio_Vivaldi",
+      "https://en.wikipedia.org/wiki/Arcangelo_Corelli"
+    ]
+  },
+  {
+    "id": "q08755",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "violino",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "O violino tem quatro cordas afinadas em intervalos de quinta. Qual delas tem o som mais agudo?",
+    "resposta": "A corda mi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Violin"
+    ]
+  },
+  {
+    "id": "q08756",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "orquestra_sinfonica",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Numa orquestra sinfônica, qual família de instrumentos costuma reunir o maior número de músicos?",
+    "resposta": "Cordas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/String_section",
+      "https://en.wikipedia.org/wiki/Orchestra"
+    ]
+  },
+  {
+    "id": "q08757",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "sinfonia_pastoral",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Das nove sinfonias de Beethoven, qual se diferencia por ter cinco movimentos, e não quatro?",
+    "resposta": "A Sexta, Pastoral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Symphony_No._6_(Beethoven)"
+    ]
+  },
+  {
+    "id": "q08758",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "sinfonia_fantastica",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No último movimento da Sinfonia Fantástica, de Berlioz, um sabá de bruxas cita qual melodia gregoriana sobre o Juízo Final?",
+    "resposta": "Dies irae",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Symphonie_fantastique"
+    ]
+  },
+  {
+    "id": "q08759",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "orquestra_sinfonica",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As orquestras costumam agrupar seus instrumentos em quatro famílias: cordas, madeiras, percussão e qual outra?",
+    "resposta": "Metais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orchestra"
+    ]
+  },
+  {
+    "id": "q08760",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "violino",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Dentro do violino, uma pequena vareta de madeira entre o tampo e o fundo transmite a vibração. Que nome poético ela recebe em português?",
+    "resposta": "Alma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sound_post",
+      "https://pt.wikipedia.org/wiki/Violino"
+    ]
+  },
+  {
+    "id": "q08761",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "arco_instrumento_musical",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O arco usado para tocar violino e violoncelo tem, tradicionalmente, fios de qual material de origem animal?",
+    "resposta": "Crina de cavalo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bow_(music)"
+    ]
+  },
+  {
+    "id": "q08762",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "bachianas_brasileiras_no_5",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A Bachianas Brasileiras número cinco, de Villa-Lobos, com sua célebre Ária, foi escrita para soprano e um conjunto de qual instrumento?",
+    "resposta": "Violoncelos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bachianas_Brasileiras"
+    ]
+  },
+  {
+    "id": "q08763",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "quadros_de_uma_exposicao",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O último movimento de Quadros de uma Exposição, de Mussorgsky, retrata um projeto de Viktor Hartmann para os portões de qual cidade?",
+    "resposta": "Kiev",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition"
+    ]
+  },
+  {
+    "id": "q08764",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "quinteto_a_truta",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Quinteto A Truta, de Schubert, o piano se junta a violino, viola, violoncelo e qual instrumento pouco comum nesse tipo de formação?",
+    "resposta": "Contrabaixo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trout_Quintet"
+    ]
+  },
+  {
+    "id": "q08765",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "o_carnaval_dos_animais",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em O Carnaval dos Animais, de Saint-Saëns, entre leões, cangurus e tartarugas, um movimento zomba de que tipo de músico?",
+    "resposta": "Pianistas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Carnival_of_the_Animals"
+    ]
+  },
+  {
+    "id": "q08766",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "lo_schiavo",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na ópera Lo Schiavo, de Carlos Gomes, o escravo protagonista é um indígena. Qual é o nome dele?",
+    "resposta": "Iberê",
+    "distratores": [
+      "Peri",
+      "Ubirajara",
+      "Poti"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lo_schiavo",
+      "https://pt.wikipedia.org/wiki/Lo_Schiavo"
+    ]
+  },
+  {
+    "id": "q08767",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "preludio_a_tarde_de_um_fauno",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Prelúdio à Tarde de um Fauno, de Debussy, começa com um solo sinuoso de qual instrumento de sopro?",
+    "resposta": "Flauta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prélude_à_l'après-midi_d'un_faune"
+    ]
+  },
+  {
+    "id": "q08768",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "tocata_e_fuga_em_re_menor",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A Tocata e Fuga em ré menor, atribuída a Bach e associada a filmes de terror, foi escrita para qual instrumento?",
+    "resposta": "Órgão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toccata_and_Fugue_in_D_minor,_BWV_565"
+    ]
+  },
+  {
+    "id": "q08769",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "cravo_2",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No cravo, instrumento de teclado do Barroco, as cordas não são golpeadas por martelos como no piano. O que acontece com elas?",
+    "resposta": "São beliscadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harpsichord"
+    ]
+  },
+  {
+    "id": "q08770",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "trompa",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Ao tocar trompa na orquestra, onde o músico costuma apoiar a mão direita?",
+    "resposta": "Dentro da campana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_horn"
+    ]
+  },
+  {
+    "id": "q08771",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "canto_gregoriano",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Tradicional da liturgia católica desde a Idade Média, o canto gregoriano é cantado em qual língua?",
+    "resposta": "Latim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregorian_chant"
+    ]
+  },
+  {
+    "id": "q08772",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "marcha_turca",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O Rondó alla Turca, a famosa Marcha Turca de Mozart, imita o som de quê?",
+    "resposta": "Bandas militares otomanas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piano_Sonata_No._11_(Mozart)"
+    ]
+  },
+  {
+    "id": "q08773",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "orgao_de_tubos",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Numa carta de 1777, Mozart deu ao órgão de tubos um título de nobreza que pegou como apelido. Qual?",
+    "resposta": "Rei dos instrumentos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Organ_(music)",
+      "https://en.wikipedia.org/wiki/Pipe_organ"
+    ]
+  },
+  {
+    "id": "q08774",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "allegro",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nas partituras, a indicação italiana allegro pede um andamento rápido. O que essa palavra significa literalmente?",
+    "resposta": "Alegre",
+    "fonte": [
+      "https://en.wiktionary.org/wiki/allegro",
+      "https://en.wikipedia.org/wiki/Tempo"
+    ]
+  },
+  {
+    "id": "q08775",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "oitava_sinfonia_de_mahler",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa do elenco gigantesco reunido na estreia, em 1910, qual apelido ganhou a Oitava Sinfonia de Mahler?",
+    "resposta": "Sinfonia dos Mil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Symphony_No._8_(Mahler)"
+    ]
+  },
+  {
+    "id": "q08776",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "canto_gregoriano",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Pela tradição, o canto litúrgico medieval chamado gregoriano deve seu nome a qual personagem histórico?",
+    "resposta": "Papa Gregório Magno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregorian_chant"
+    ]
+  },
+  {
+    "id": "q08777",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "o_barbeiro_de_sevilha",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A ópera O Barbeiro de Sevilha, de Rossini, e As Bodas de Fígaro, de Mozart, adaptam peças do mesmo dramaturgo francês. Quem?",
+    "resposta": "Beaumarchais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Barber_of_Seville",
+      "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro"
+    ]
+  },
+  {
+    "id": "q08778",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "o_voo_do_besouro",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que herói mascarado da TV, com Bruce Lee no papel do ajudante Kato, tinha como tema um arranjo de uma peça de Rimsky-Korsakov?",
+    "resposta": "Besouro Verde",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flight_of_the_Bumblebee"
+    ]
+  },
+  {
+    "id": "q08779",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "o_lago_dos_cisnes",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Natalie Portman ganhou o Oscar como uma bailarina que ensaia o papel duplo de Odette e Odile. Que balé de Tchaikovsky é esse?",
+    "resposta": "O Lago dos Cisnes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Swan_(film)",
+      "https://en.wikipedia.org/wiki/Swan_Lake"
+    ]
+  },
+  {
+    "id": "q08780",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "dancas_hungaras",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No filme O Grande Ditador, de 1940, Chaplin faz a barba de um cliente no ritmo de qual peça de Brahms?",
+    "resposta": "Dança Húngara número cinco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hungarian_Dances_(Brahms)"
+    ]
+  },
+  {
+    "id": "q08781",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "niccolo_paganini",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O virtuosismo assombroso do violinista italiano Niccolò Paganini alimentou, em sua época, qual boato sobre ele?",
+    "resposta": "Que fez pacto com o diabo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini"
+    ]
+  },
+  {
+    "id": "q08782",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "requiem_de_mozart",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O conde que encomendou anonimamente o Réquiem de Mozart, em memória da esposa, tinha um plano para a obra. Qual?",
+    "resposta": "Apresentá-la como sua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Requiem_(Mozart)"
+    ]
+  },
+  {
+    "id": "q08783",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "dieterich_buxtehude",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1705, o jovem Bach caminhou cerca de quatrocentos quilômetros até a cidade de Lübeck. Qual era o motivo da viagem?",
+    "resposta": "Ouvir o organista Buxtehude",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dieterich_Buxtehude"
+    ]
+  },
+  {
+    "id": "q08784",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "guido_d_arezzo",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O monge italiano Guido d'Arezzo usou um hino a São João para ensinar as notas musicais. Em que século ele ensinou cantores na catedral de Arezzo?",
+    "resposta": "Século onze",
+    "distratores": [
+      "Século nove",
+      "Século treze",
+      "Século quinze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guido_of_Arezzo"
+    ]
+  },
+  {
+    "id": "q08785",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "fidelio",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Beethoven compôs nove sinfonias e trinta e duas sonatas para piano. E quantas óperas ele completou?",
+    "resposta": "Apenas uma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fidelio"
+    ]
+  },
+  {
+    "id": "q08786",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "catalogo_kochel",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No catálogo Köchel, que organiza as obras de Mozart, que número identifica o Réquiem, deixado inacabado quando ele morreu?",
+    "resposta": "626",
+    "distratores": [
+      "525",
+      "551",
+      "492"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/K%C3%B6chel_catalogue",
+      "https://en.wikipedia.org/wiki/Requiem_(Mozart)"
+    ]
+  },
+  {
+    "id": "q08787",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "aida",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A ópera Aida, de Verdi, conta o amor entre um general e uma princesa etíope escravizada. Em que país antigo se passa a história?",
+    "resposta": "Egito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aida"
+    ]
+  },
+  {
+    "id": "q08788",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "musica_aquatica",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Música Aquática, de Händel, estreou em 1717, tocada numa barcaça que acompanhava o rei Jorge I por qual rio?",
+    "resposta": "Tâmisa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Water_Music"
+    ]
+  },
+  {
+    "id": "q08789",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "quadros_de_uma_exposicao",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quadros de uma Exposição foi escrito para piano pelo russo Mussorgsky. Que compositor francês fez, em 1922, sua orquestração mais famosa?",
+    "resposta": "Maurice Ravel",
+    "distratores": [
+      "Claude Debussy",
+      "Camille Saint-Saëns",
+      "Paul Dukas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition"
+    ]
+  },
+  {
+    "id": "q08790",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "danca_do_sabre",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A frenética Dança do Sabre, do balé Gayane, foi composta por qual compositor soviético de origem armênia?",
+    "resposta": "Aram Khachaturian",
+    "distratores": [
+      "Sergei Prokofiev",
+      "Dmitri Shostakovich",
+      "Dmitri Kabalevsky"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sabre_Dance"
+    ]
+  },
+  {
+    "id": "q08791",
+    "tema": "Artes e Pensamento",
+    "subtema": "Música Clássica",
+    "ancora": "gymnopedies",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "As três Gymnopédies, peças lentas e hipnóticas para piano completadas em 1888, são de qual compositor francês?",
+    "resposta": "Erik Satie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gymnop%C3%A9dies"
+    ]
   }
 ]

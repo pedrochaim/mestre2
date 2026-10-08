@@ -1,0 +1,413 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (tuba é o metal mais grave) e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flautim é o som mais agudo da orquestra, confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição literalmente correta e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Contratenor é voz masculina e fraco como distrator de voz feminina; melhor como aberta.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "No canto lírico, qual é o tipo de voz feminina de registro mais grave?",
+        "resposta": "Contralto",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Contralto"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta está entre os três nomes citados no enunciado; fato fraco e quase chute.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schubert morreu aos 31, Mozart 35, Mendelssohn 38, Chopin 39; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Händel morreu em 1759, depois de Bach, Vivaldi e Corelli.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A corda mi é a mais aguda do violino, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cordas são o grupo mais numeroso da orquestra padrão.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Pastoral é a única das nove com cinco movimentos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dies irae no último movimento, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro famílias confirmadas; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A alma do violino confirmada na fonte em português; pergunta interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crina de cavalo sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Soprano e oito violoncelos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Grande Porta de Kiev foi só um projeto de Hartmann, nunca um monumento existente; enunciado impreciso.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O último movimento de Quadros de uma Exposição, de Mussorgsky, retrata um projeto de Viktor Hartmann para os portões de qual cidade?",
+        "resposta": "Kiev",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Piano, violino, viola, violoncelo e contrabaixo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Movimento Pianistas satiriza alunos de piano; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Iberê é o escravo indígena da ópera; distratores indígenas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Solo de flauta abre a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Termo 'pistos' é coloquial e confuso para voz; usar 'pistões'.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Qual instrumento de metal da orquestra muda as notas deslizando uma vara, em vez de apertar pistões?",
+        "resposta": "Trombone",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Trombone"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obra para órgão, com ressalva de autoria já no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cordas do cravo são pinçadas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mão direita dentro da campana, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canto gregoriano é em latim; fato básico mas correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Imita bandas janízaras otomanas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Borodin foi químico de destaque; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mozart chamou o órgão de rei dos instrumentos em carta de 1777; fonte confirma o epíteto.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Allegro significa alegre; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que Rellstab escreveu em 1824 sem citar Lucerna, acréscimo de Lenz; enunciado impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sinfonia dos Mil confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome deriva de Gregório Magno; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apocalypse Now, 1979, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambas baseadas em peças de Beaumarchais.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Besouro Verde usava arranjo de Voo do Besouro, com Bruce Lee como Kato; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cisne Negro baseado em O Lago dos Cisnes; Portman ganhou o Oscar.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cena do barbeiro em O Grande Ditador usa a Dança Húngara nº 5, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda do pacto com o diabo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Walsegg queria apresentar o Réquiem como seu.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bach caminhou até Lübeck para ouvir Buxtehude, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia em 1607, século dezessete.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Guido nasceu por volta de 991, então 'viveu em que século' é ambíguo; fixar na atividade em Arezzo.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "O monge italiano Guido d'Arezzo usou um hino a São João para ensinar as notas musicais. Em que século ele ensinou cantores na catedral de Arezzo?",
+        "resposta": "Século onze",
+        "distratores": [
+          "Século nove",
+          "Século treze",
+          "Século quinze"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Guido_of_Arezzo"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ciclo de quatro óperas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fidelio é a única ópera de Beethoven.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Edições posteriores têm números acima de 626, então 'última obra da lista' é impreciso.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "No catálogo Köchel, que organiza as obras de Mozart, que número identifica o Réquiem, deixado inacabado quando ele morreu?",
+        "resposta": "626",
+        "distratores": [
+          "525",
+          "551",
+          "492"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/K%C3%B6chel_catalogue",
+          "https://en.wikipedia.org/wiki/Requiem_(Mozart)"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aida se passa no Egito, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia no Tâmisa em 1717, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ravel, 1922, orquestração mais famosa; distratores franceses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Khachaturian compôs Gayane em 1942, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Só a primeira e a terceira saíram em 1888; a segunda foi publicada em 1895. Usar 'completadas'.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "As três Gymnopédies, peças lentas e hipnóticas para piano completadas em 1888, são de qual compositor francês?",
+        "resposta": "Erik Satie",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Gymnop%C3%A9dies"
+        ]
+      }
+    }
+  ]
+}
