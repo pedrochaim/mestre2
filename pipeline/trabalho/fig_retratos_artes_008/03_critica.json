@@ -1,0 +1,97 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento; os trechos confirmam que é cantor de ópera (tenor).",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Compositor russo, considerado um dos mais importantes do século XX; enunciado verdadeiro e sem entregar o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'João Cabral de Melo Neto' tem cinco palavras, acima do limite de quatro. Troquei por outro poeta brasileiro.",
+      "reescrita": {
+        "pergunta": "Que poeta brasileiro é este?",
+        "resposta": "Carlos Drummond de Andrade",
+        "distratores": [
+          "Manuel Bandeira",
+          "Vinicius de Moraes",
+          "Mário Quintana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dramaturgo alemão, confirmado pelos trechos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico e verdadeiro; distratores plausíveis, do mesmo tipo e com até quatro palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Alquimista é o romance mais famoso e mais vendido do autor, segundo os trechos. O enunciado não nomeia o escritor nem a obra.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Cortiço é de Aluísio Azevedo. Os distratores são de Machado de Assis, Raul Pompeia e Graciliano Ramos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filósofo alemão do idealismo; reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'João Cabral de Melo Neto' tem cinco palavras, acima do limite de quatro. Troquei por outro escritor brasileiro.",
+      "reescrita": {
+        "pergunta": "Que escritor brasileiro é este?",
+        "resposta": "Ariano Suassuna",
+        "distratores": [
+          "Jorge Amado",
+          "Graciliano Ramos",
+          "Ferreira Gullar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dramaturgo irlandês, confirmado pelos trechos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escritora brasileira confirmada pelos trechos. Distratores do mesmo tipo e dentro do limite de palavras.",
+      "reescrita": null
+    }
+  ]
+}

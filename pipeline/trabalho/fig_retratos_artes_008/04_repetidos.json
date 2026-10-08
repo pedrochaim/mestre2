@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que poeta brasileiro é este?",
+        "resposta": "Carlos Drummond de Andrade"
+      },
+      "existentes": [
+        {
+          "id": "q06020",
+          "pergunta": "Em que cidade mineira nasceu Carlos Drummond de Andrade, que num poema disse que sua terra natal era apenas uma fotografia na parede?",
+          "resposta": "Itabira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é o romance mais famoso deste escritor brasileiro?",
+        "resposta": "O Alquimista"
+      },
+      "existentes": [
+        {
+          "id": "q01192",
+          "pergunta": "Antes da fama como escritor, Paulo Coelho foi parceiro de qual roqueiro baiano em canções como Gita?",
+          "resposta": "Raul Seixas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que filósofo alemão é este?",
+        "resposta": "Hegel"
+      },
+      "existentes": [
+        {
+          "id": "q04740",
+          "pergunta": "Em 1806, na cidade alemã de Jena, Hegel viu passar a cavalo um líder militar que ele chamou de alma do mundo. Quem era?",
+          "resposta": "Napoleão Bonaparte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o poeta pela imagem é outro fato que a cidade natal (Itabira)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Romance mais famoso é diferente do parceiro musical Raul Seixas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o filósofo é outro fato que o líder militar visto em Jena."
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Luciano Pavarotti",
+        "descricao": "Tenor lírico italiano (1935–2007), um dos Três Tenores.",
+        "variantes": [
+          "Pavarotti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "goku",
+          "nome": "Goku",
+          "descricao": "Protagonista de Dragon Ball, criado por Akira Toriyama.",
+          "variantes": [
+            "Son Goku",
+            "Kakarotto",
+            "Kakaroto"
+          ]
+        },
+        {
+          "id": "paraty",
+          "nome": "Paraty",
+          "descricao": "Município histórico do litoral sul do estado do Rio de Janeiro, visto da baía com a igreja de Santa Rita.",
+          "variantes": [
+            "Parati"
+          ]
+        },
+        {
+          "id": "pelicano_pardo",
+          "nome": "Pelicano-pardo",
+          "descricao": "Pelicano marinho das Américas (Pelecanus occidentalis) que mergulha para pescar.",
+          "variantes": [
+            "Pelicano-marrom",
+            "Pelecanus occidentalis"
+          ]
+        },
+        {
+          "id": "protista",
+          "nome": "Protista",
+          "descricao": "Grupo de seres eucariontes, em geral unicelulares, que não são plantas, animais nem fungos.",
+          "variantes": [
+            "Protistas",
+            "Reino Protista",
+            "Protist"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Igor Stravinsky",
+        "descricao": "Compositor e maestro russo (1882–1971), autor de A Sagração da Primavera.",
+        "variantes": [
+          "Igor Stravinski",
+          "Ígor Stravínski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_fedor",
+          "nome": "Grande Fedor",
+          "descricao": "Episódio do verão de 1858 em que o mau cheiro do rio Tâmisa, poluído por esgoto, tomou conta de Londres.",
+          "variantes": [
+            "Great Stink",
+            "Grande Mau Cheiro"
+          ]
+        },
+        {
+          "id": "fiodor_dostoievski",
+          "nome": "Fiódor Dostoiévski",
+          "descricao": "Escritor russo (1821–1881), autor de Crime e Castigo e Os Irmãos Karamázov.",
+          "variantes": [
+            "Fyodor Dostoevsky",
+            "Dostoievski"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Carlos Drummond de Andrade",
+        "descricao": "Poeta mineiro (1902–1987), autor de 'No meio do caminho' e 'A rosa do povo'.",
+        "variantes": [
+          "Drummond"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_drummond_de_andrade",
+          "nome": "Carlos Drummond de Andrade",
+          "descricao": "Poeta modernista mineiro (1902–1987), autor de A Rosa do Povo e Sentimento do Mundo.",
+          "variantes": [
+            "Drummond"
+          ]
+        },
+        {
+          "id": "mario_de_andrade",
+          "nome": "Mário de Andrade",
+          "descricao": "Escritor e musicólogo paulista (1893–1945), líder do Modernismo e autor de Macunaíma.",
+          "variantes": [
+            "Mário Raul de Morais Andrade"
+          ]
+        },
+        {
+          "id": "diamante",
+          "nome": "Diamante",
+          "descricao": "Mineral formado por carbono puro cristalizado, o mais duro da natureza, usado como gema.",
+          "variantes": [
+            "Diamond"
+          ]
+        },
+        {
+          "id": "orlando_drummond",
+          "nome": "Orlando Drummond",
+          "descricao": "Ator e dublador brasileiro, voz do Scooby-Doo no Brasil por décadas e intérprete do Seu Peru na Escolinha do Professor Raimundo.",
+          "variantes": []
+        },
+        {
+          "id": "doraemon",
+          "nome": "Doraemon",
+          "descricao": "Gato-robô vindo do futuro, protagonista do mangá e anime de Fujiko F. Fujio.",
+          "variantes": [
+            "Doraemon (personagem)",
+            "ドラえもん"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bertolt Brecht",
+        "descricao": "Dramaturgo, poeta e encenador alemão (1898–1956), teórico do teatro épico.",
+        "variantes": [
+          "Bert Brecht",
+          "Eugen Berthold Friedrich Brecht"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "robert_koch",
+          "nome": "Robert Koch",
+          "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+          "variantes": [
+            "Heinrich Hermann Robert Koch"
+          ]
+        },
+        {
+          "id": "crescente_fertil",
+          "nome": "Crescente Fértil",
+          "descricao": "Região em arco do Oriente Médio onde surgiu a agricultura no Neolítico.",
+          "variantes": [
+            "Fertile Crescent"
+          ]
+        },
+        {
+          "id": "karl_benz",
+          "nome": "Karl Benz",
+          "descricao": "Engenheiro alemão, construtor do Benz Patent-Motorwagen, considerado o primeiro automóvel prático.",
+          "variantes": [
+            "Carl Benz",
+            "Carl Friedrich Benz",
+            "Karl Friedrich Benz"
+          ]
+        },
+        {
+          "id": "open_britanico",
+          "nome": "Open Britânico",
+          "descricao": "The Open Championship, torneio de golfe disputado no Reino Unido desde 1860, um dos quatro principais do golfe masculino.",
+          "variantes": [
+            "The Open Championship",
+            "The Open",
+            "British Open",
+            "Aberto Britânico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Konstantin Stanislavski",
+        "descricao": "Ator e diretor de teatro russo (1863–1938), criador do 'sistema' de preparação de atores e cofundador do Teatro de Arte de Moscou.",
+        "variantes": [
+          "Constantin Stanislavski",
+          "Stanislávski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "constantino",
+          "nome": "Constantino",
+          "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+          "variantes": [
+            "Constantino I",
+            "Constantino, o Grande",
+            "Constantine the Great"
+          ]
+        },
+        {
+          "id": "istambul",
+          "nome": "Istambul",
+          "descricao": "Maior cidade da Turquia, às margens do Bósforo.",
+          "variantes": [
+            "Istanbul",
+            "Constantinopla"
+          ]
+        },
+        {
+          "id": "fiodor_dostoievski",
+          "nome": "Fiódor Dostoiévski",
+          "descricao": "Escritor russo (1821–1881), autor de Crime e Castigo e Os Irmãos Karamázov.",
+          "variantes": [
+            "Fyodor Dostoevsky",
+            "Dostoievski"
+          ]
+        },
+        {
+          "id": "castanholas",
+          "nome": "Castanholas",
+          "descricao": "Instrumento de percussão formado por um par de conchas côncavas de madeira unidas por um cordão, usado na dança espanhola.",
+          "variantes": [
+            "Castanhola",
+            "Castanets",
+            "Palillos"
+          ]
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Paulo Coelho",
+        "descricao": "Escritor brasileiro (nascido em 1947), membro da Academia Brasileira de Letras e autor de O Alquimista.",
+        "variantes": [
+          "Paulo Coelho de Souza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paulo_coelho",
+          "nome": "Paulo Coelho",
+          "descricao": "Escritor carioca, autor de O Alquimista, que antes foi letrista de música.",
+          "variantes": []
+        },
+        {
+          "id": "polvo_paul",
+          "nome": "Polvo Paul",
+          "descricao": "Polvo de um aquário alemão que ficou famoso por acertar palpites de jogos da Copa do Mundo de 2010.",
+          "variantes": [
+            "Paul the Octopus",
+            "Paul, o polvo"
+          ]
+        },
+        {
+          "id": "plinio_o_velho",
+          "nome": "Plínio, o Velho",
+          "descricao": "Naturalista e comandante naval romano, autor da História Natural, morto no ano 79.",
+          "variantes": [
+            "Caio Plínio Segundo",
+            "Pliny the Elder"
+          ]
+        },
+        {
+          "id": "coelho",
+          "nome": "Coelho",
+          "descricao": "Coelho-europeu, Oryctolagus cuniculus, pequeno lagomorfo que cava tocas.",
+          "variantes": [
+            "Coelho-europeu",
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "id": "paulo_machado_de_carvalho",
+          "nome": "Paulo Machado de Carvalho",
+          "descricao": "Empresário e dirigente brasileiro, chefe da delegação da seleção nas Copas de 1958 e 1962, que dá nome oficial ao Pacaembu.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Aluísio Azevedo",
+        "descricao": "Romancista maranhense (1857–1913), introdutor do Naturalismo no Brasil e autor de O Cortiço.",
+        "variantes": [
+          "Aluísio Tancredo Gonçalves de Azevedo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alvares_de_azevedo",
+          "nome": "Álvares de Azevedo",
+          "descricao": "Poeta ultrarromântico paulista (1831–1852), autor de Lira dos Vinte Anos e Noite na Taverna.",
+          "variantes": [
+            "Manuel Antônio Álvares de Azevedo"
+          ]
+        },
+        {
+          "id": "francisco_joao_de_azevedo",
+          "nome": "Francisco João de Azevedo",
+          "descricao": "Padre e inventor paraibano (1814–1880) que construiu uma máquina de escrever apresentada no Recife em 1861.",
+          "variantes": [
+            "Padre Azevedo"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "basilisco_verde",
+          "nome": "Basilisco-verde",
+          "descricao": "Lagarto Basiliscus plumifrons, verde e de crista na cabeça, nativo da América Central.",
+          "variantes": [
+            "Basilisco-de-penacho",
+            "Lagarto-Jesus-Cristo",
+            "Basiliscus plumifrons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Georg Wilhelm Friedrich Hegel",
+        "descricao": "Filósofo alemão (1770–1831), grande nome do idealismo alemão.",
+        "variantes": [
+          "Hegel",
+          "G. W. F. Hegel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "georg_wilhelm_friedrich_hegel",
+          "nome": "Georg Wilhelm Friedrich Hegel",
+          "descricao": "Filósofo idealista alemão (1770–1831), autor da Fenomenologia do Espírito.",
+          "variantes": [
+            "Hegel"
+          ]
+        },
+        {
+          "id": "herge",
+          "nome": "Hergé",
+          "descricao": "Quadrinista belga, criador de Tintim",
+          "variantes": [
+            "Georges Remi"
+          ]
+        },
+        {
+          "id": "georg_friedrich_handel",
+          "nome": "Georg Friedrich Händel",
+          "descricao": "Compositor barroco alemão naturalizado inglês (1685–1759), autor do Messias.",
+          "variantes": [
+            "Handel",
+            "Händel",
+            "George Frideric Handel"
+          ]
+        },
+        {
+          "id": "friedrich_engels",
+          "nome": "Friedrich Engels",
+          "descricao": "Filósofo e teórico político alemão (1820–1895), parceiro de Karl Marx no Manifesto Comunista.",
+          "variantes": [
+            "Engels"
+          ]
+        },
+        {
+          "id": "bagel",
+          "nome": "Bagel",
+          "descricao": "Pão em formato de anel, de massa densa, cozido em água e depois assado, originário das comunidades judaicas da Polônia.",
+          "variantes": [
+            "Beigel",
+            "Beygl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ariano Suassuna",
+        "descricao": "Escritor e dramaturgo paraibano (1927–2014), autor de Auto da Compadecida e criador do Movimento Armorial.",
+        "variantes": [
+          "Ariano Vilar Suassuna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "super_campeoes",
+          "nome": "Super Campeões",
+          "descricao": "Mangá e anime de futebol de Yoichi Takahashi, protagonizado por Tsubasa Ozora.",
+          "variantes": [
+            "Captain Tsubasa",
+            "Capitão Tsubasa"
+          ]
+        },
+        {
+          "id": "mario_vargas_llosa",
+          "nome": "Mario Vargas Llosa",
+          "descricao": "Romancista peruano (1936–2025), Nobel de Literatura de 2010.",
+          "variantes": [
+            "Jorge Mario Pedro Vargas Llosa"
+          ]
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        },
+        {
+          "id": "arara_caninde",
+          "nome": "Arara-canindé",
+          "descricao": "Grande arara (Ara ararauna) de dorso azul, barriga amarelo-alaranjada, garganta preta e face branca listrada.",
+          "variantes": [
+            "Arara-azul-e-amarela",
+            "Arara-de-barriga-amarela",
+            "Blue-and-yellow macaw",
+            "Ara ararauna"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Samuel Beckett",
+        "descricao": "Dramaturgo, romancista e poeta irlandês (1906–1989), autor de Esperando Godot e Nobel de Literatura de 1969.",
+        "variantes": [
+          "Samuel Barclay Beckett"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samuel_wilberforce",
+          "nome": "Samuel Wilberforce",
+          "descricao": "Bispo anglicano de Oxford no século dezenove, opositor da teoria da evolução no debate de 1860.",
+          "variantes": [
+            "Soapy Sam"
+          ]
+        },
+        {
+          "id": "mark_twain",
+          "nome": "Mark Twain",
+          "descricao": "Escritor americano (1835–1910), autor de As Aventuras de Tom Sawyer e Huckleberry Finn.",
+          "variantes": [
+            "Samuel Langhorne Clemens",
+            "Samuel Clemens"
+          ]
+        },
+        {
+          "id": "samuel_morse",
+          "nome": "Samuel Morse",
+          "descricao": "Inventor americano (1791–1872) do telégrafo elétrico e coautor do código Morse.",
+          "variantes": [
+            "Samuel F. B. Morse"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Hilda Hilst",
+        "descricao": "Poeta, romancista e dramaturga paulista (1930–2004), autora de Com meus olhos de cão e fundadora da Casa do Sol.",
+        "variantes": [
+          "Hilda de Almeida Prado Hilst"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caranguejo_yeti",
+          "nome": "Caranguejo-yeti",
+          "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+          "variantes": [
+            "Kiwa hirsuta",
+            "Yeti crab"
+          ]
+        },
+        {
+          "id": "praia",
+          "nome": "Praia",
+          "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+          "variantes": [
+            "Cidade da Praia"
+          ]
+        },
+        {
+          "id": "himalaia",
+          "nome": "Himalaia",
+          "descricao": "Cordilheira da Ásia que separa o subcontinente indiano do planalto do Tibete e reúne as montanhas mais altas do mundo.",
+          "variantes": [
+            "Himalaias",
+            "Himalayas",
+            "Himalaya"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pavarotti."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Stravinsky não está entre as candidatas; Dostoiévski é outra pessoa."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "carlos_drummond_de_andrade",
+      "motivo": "Mesmo poeta mineiro (1902–1987), mesmas obras e variante."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Brecht não consta; as candidatas são outras entidades."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Stanislavski não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "paulo_coelho",
+      "motivo": "Mesmo escritor, autor de O Alquimista."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Aluísio Azevedo é diferente de Álvares de Azevedo e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "georg_wilhelm_friedrich_hegel",
+      "motivo": "Mesmo filósofo alemão (1770–1831)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ariano Suassuna não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Samuel Beckett é diferente das candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Hilda Hilst não está entre as candidatas."
+    }
+  ]
+}

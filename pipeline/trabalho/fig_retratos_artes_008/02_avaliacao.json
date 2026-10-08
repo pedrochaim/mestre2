@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, rosto muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantor de ópera é este?",
+      "resposta": "Luciano Pavarotti",
+      "destino": 4,
+      "ancora": {
+        "nome": "Luciano Pavarotti",
+        "descricao": "Tenor lírico italiano (1935–2007), um dos Três Tenores.",
+        "variantes": [
+          "Pavarotti"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto legível; partitura sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor russo do século vinte é este?",
+      "resposta": "Igor Stravinsky",
+      "destino": 2,
+      "ancora": {
+        "nome": "Igor Stravinsky",
+        "descricao": "Compositor e maestro russo (1882–1971), autor de A Sagração da Primavera.",
+        "variantes": [
+          "Igor Stravinski",
+          "Ígor Stravínski"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido em preto e branco; assinatura ilegível no rodapé não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que poeta brasileiro é este?",
+      "resposta": "Carlos Drummond de Andrade",
+      "distratores": [
+        "Manuel Bandeira",
+        "João Cabral de Melo Neto",
+        "Vinicius de Moraes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carlos Drummond de Andrade",
+        "descricao": "Poeta mineiro (1902–1987), autor de 'No meio do caminho' e 'A rosa do povo'.",
+        "variantes": [
+          "Drummond"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dramaturgo alemão é este?",
+      "resposta": "Bertolt Brecht",
+      "destino": 4,
+      "ancora": {
+        "nome": "Bertolt Brecht",
+        "descricao": "Dramaturgo, poeta e encenador alemão (1898–1956), teórico do teatro épico.",
+        "variantes": [
+          "Bert Brecht",
+          "Eugen Berthold Friedrich Brecht"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato histórico nítido, sem texto; reconhecimento moderado, por isso múltipla com distratores do mesmo meio.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que homem de teatro russo é este?",
+      "resposta": "Konstantin Stanislavski",
+      "distratores": [
+        "Vsevolod Meyerhold",
+        "Nemirovich-Danchenko",
+        "Michael Chekhov"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Konstantin Stanislavski",
+        "descricao": "Ator e diretor de teatro russo (1863–1938), criador do 'sistema' de preparação de atores e cofundador do Teatro de Arte de Moscou.",
+        "variantes": [
+          "Constantin Stanislavski",
+          "Stanislávski"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; pessoa ao lado só aparece como sliver na borda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é o romance mais famoso deste escritor brasileiro?",
+      "resposta": "O Alquimista",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paulo Coelho",
+        "descricao": "Escritor brasileiro (nascido em 1947), membro da Academia Brasileira de Letras e autor de O Alquimista.",
+        "variantes": [
+          "Paulo Coelho de Souza"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e granulada (cerca de 185x165 px); não fica legível nem reconhecível num celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato antigo nítido, sem texto; reconhecimento difícil, então múltipla com obras de outros autores brasileiros.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito pelo autor deste retrato?",
+      "resposta": "O Cortiço",
+      "distratores": [
+        "Dom Casmurro",
+        "O Ateneu",
+        "Vidas Secas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Aluísio Azevedo",
+        "descricao": "Romancista maranhense (1857–1913), introdutor do Naturalismo no Brasil e autor de O Cortiço.",
+        "variantes": [
+          "Aluísio Tancredo Gonçalves de Azevedo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido, sem texto, muito reproduzido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que filósofo alemão é este?",
+      "resposta": "Hegel",
+      "destino": 3,
+      "ancora": {
+        "nome": "Georg Wilhelm Friedrich Hegel",
+        "descricao": "Filósofo alemão (1770–1831), grande nome do idealismo alemão.",
+        "variantes": [
+          "Hegel",
+          "G. W. F. Hegel"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto; figura pública. Pessoa ao fundo está em segundo plano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor brasileiro é este?",
+      "resposta": "Ariano Suassuna",
+      "distratores": [
+        "Jorge Amado",
+        "João Cabral de Melo Neto",
+        "Ferreira Gullar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ariano Suassuna",
+        "descricao": "Escritor e dramaturgo paraibano (1927–2014), autor de Auto da Compadecida e criador do Movimento Armorial.",
+        "variantes": [
+          "Ariano Vilar Suassuna"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato colorido nítido, sem texto, rosto marcante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dramaturgo irlandês é este?",
+      "resposta": "Samuel Beckett",
+      "destino": 4,
+      "ancora": {
+        "nome": "Samuel Beckett",
+        "descricao": "Dramaturgo, romancista e poeta irlandês (1906–1989), autor de Esperando Godot e Nobel de Literatura de 1969.",
+        "variantes": [
+          "Samuel Barclay Beckett"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido da escritora jovem, sem texto; reconhecimento difícil, por isso múltipla com escritoras brasileiras.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritora brasileira é esta?",
+      "resposta": "Hilda Hilst",
+      "distratores": [
+        "Clarice Lispector",
+        "Lygia Fagundes Telles",
+        "Cecília Meireles"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hilda Hilst",
+        "descricao": "Poeta, romancista e dramaturga paulista (1930–2004), autora de Com meus olhos de cão e fundadora da Casa do Sol.",
+        "variantes": [
+          "Hilda de Almeida Prado Hilst"
+        ]
+      }
+    }
+  ]
+}
