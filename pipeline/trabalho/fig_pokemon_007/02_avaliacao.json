@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta peluda com orelha e cauda erguida, reconhecível o bastante para a evolução do Eevee.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que pedra faz o Eevee evoluir para este pokémon?",
+      "resposta": "Fire Stone (Pedra do Fogo)",
+      "ancora": {
+        "nome": "Flareon",
+        "descricao": "Pokémon do tipo fogo, número 136 da Pokédex Nacional, evolução do Eevee.",
+        "variantes": [
+          "Flareon (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta nítida, com folhas nos braços e na cauda.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Grovyle",
+      "ancora": {
+        "nome": "Grovyle",
+        "descricao": "Pokémon do tipo planta, número 253 da Pokédex Nacional, evolução do Treecko.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta em forma de sino com espinhos, característica.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Toxapex",
+      "ancora": {
+        "nome": "Mareanie",
+        "descricao": "Pokémon venenoso e aquático de estrela-do-mar com espinhos, número 747 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta com o bulbo de folhas nas costas, forma intermediária reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Ivysaur",
+      "ancora": {
+        "nome": "Ivysaur",
+        "descricao": "Pokémon planta e veneno, número 2 da Pokédex Nacional, evolução do Bulbasaur.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com a colher e o bigode, inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kadabra",
+      "ancora": {
+        "nome": "Kadabra",
+        "descricao": "Pokémon psíquico, número 64 da Pokédex Nacional, evolução do Abra.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de pião com braços longos, característica; boa para múltipla com silhuetas parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Baltoy",
+      "distratores": [
+        "Claydol",
+        "Bronzor",
+        "Elgyem"
+      ],
+      "ancora": {
+        "nome": "Baltoy",
+        "descricao": "Pokémon de terra e psíquico em forma de boneco de argila giratório, número 343 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de pinguim roliço, reconhecível pela cabeça redonda e pelas nadadeiras.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Prinplup",
+      "ancora": {
+        "nome": "Piplup",
+        "descricao": "Pokémon pinguim do tipo água, número 393 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de macaco com chama na cauda e na cabeça, clara.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Monferno",
+      "ancora": {
+        "nome": "Monferno",
+        "descricao": "Pokémon macaco de fogo e lutador, número 391 da Pokédex Nacional, evolução do Chimchar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta com orelhas longas e corpo de saco de lixo, distinguível; múltipla com distratores do mesmo tema.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Trubbish",
+      "distratores": [
+        "Garbodor",
+        "Grimer",
+        "Swalot"
+      ],
+      "ancora": {
+        "nome": "Trubbish",
+        "descricao": "Pokémon venenoso em forma de saco de lixo, número 568 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de cobra enrolada com chocalho na cauda, característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Ekans",
+      "ancora": {
+        "nome": "Ekans",
+        "descricao": "Pokémon cobra do tipo veneno, número 23 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de crocodilo bípede com espinhos nas costas; múltipla com pré e pós-evolução.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Croconaw",
+      "distratores": [
+        "Totodile",
+        "Feraligatr",
+        "Sandile"
+      ],
+      "ancora": {
+        "nome": "Croconaw",
+        "descricao": "Pokémon crocodilo do tipo água, número 159 da Pokédex Nacional, evolução do Totodile.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de passarinho redondo com cauda e pés palmados, característica.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Xatu",
+      "ancora": {
+        "nome": "Natu",
+        "descricao": "Pokémon pássaro psíquico e voador, número 177 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}

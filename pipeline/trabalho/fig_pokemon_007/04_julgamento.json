@@ -1,0 +1,705 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Flareon",
+        "descricao": "Pokémon do tipo fogo, número 136 da Pokédex Nacional, evolução do Eevee.",
+        "variantes": [
+          "Flareon (Pokémon)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clorofluorcarboneto",
+          "nome": "Clorofluorcarboneto",
+          "descricao": "Classe de gases sintéticos com cloro, flúor e carbono, usados em geladeiras e aerossóis e depois banidos por destruírem o ozônio.",
+          "variantes": [
+            "CFC",
+            "Freon"
+          ]
+        },
+        {
+          "id": "charmeleon",
+          "nome": "Charmeleon",
+          "descricao": "Pokémon de fogo, forma intermediária de Charmander, número 5 da Pokédex Nacional.",
+          "variantes": [
+            "Charmeleon (Pokémon)"
+          ]
+        },
+        {
+          "id": "pudim",
+          "nome": "Pudim",
+          "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+          "variantes": [
+            "Pudim de leite",
+            "Flan",
+            "Crème caramel"
+          ]
+        },
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        },
+        {
+          "id": "mclaren",
+          "nome": "McLaren",
+          "descricao": "Equipe britânica de Fórmula 1 fundada em 1963, pela qual Ayrton Senna conquistou seus três títulos mundiais.",
+          "variantes": [
+            "McLaren Racing",
+            "Bruce McLaren Motor Racing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Grovyle",
+        "descricao": "Pokémon do tipo planta, número 253 da Pokédex Nacional, evolução do Treecko.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        },
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        },
+        {
+          "id": "rolex",
+          "nome": "Rolex",
+          "descricao": "Fabricante de relógios de luxo fundada em 1905 por Hans Wilsdorf e Alfred Davis, hoje sediada em Genebra.",
+          "variantes": [
+            "Wilsdorf and Davis"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "rowlet",
+          "nome": "Rowlet",
+          "descricao": "Pokémon dos tipos Planta e Voador, número 722 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mareanie",
+        "descricao": "Pokémon venenoso e aquático de estrela-do-mar com espinhos, número 747 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "arcanine",
+          "nome": "Arcanine",
+          "descricao": "Pokémon do tipo Fogo, número 59 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "giorgio_armani",
+          "nome": "Giorgio Armani",
+          "descricao": "Estilista italiano nascido em 1934, fundador da grife Armani em Milão",
+          "variantes": [
+            "Armani"
+          ]
+        },
+        {
+          "id": "arpanet",
+          "nome": "Arpanet",
+          "descricao": "Rede de computadores criada nos Estados Unidos em 1969, precursora da internet.",
+          "variantes": []
+        },
+        {
+          "id": "metano",
+          "nome": "Metano",
+          "descricao": "Gás inflamável formado por um carbono e quatro hidrogênios, principal componente do gás natural.",
+          "variantes": [
+            "Methane",
+            "CH4"
+          ]
+        },
+        {
+          "id": "maria_antonieta",
+          "nome": "Maria Antonieta",
+          "descricao": "Rainha da França, esposa de Luís XVI, guilhotinada durante a Revolução Francesa.",
+          "variantes": [
+            "Marie Antoinette"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ivysaur",
+        "descricao": "Pokémon planta e veneno, número 2 da Pokédex Nacional, evolução do Bulbasaur.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "venusaur",
+          "nome": "Venusaur",
+          "descricao": "Pokémon dos tipos Planta e Veneno, número 3 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ictiossauro",
+          "nome": "Ictiossauro",
+          "descricao": "Grupo extinto de répteis marinhos da Era Mesozoica, com corpo hidrodinâmico semelhante ao de golfinhos.",
+          "variantes": [
+            "Ichthyosauria",
+            "Ictiossauros",
+            "Ichthyosaur"
+          ]
+        },
+        {
+          "id": "ishtar",
+          "nome": "Ishtar",
+          "descricao": "Deusa mesopotâmica do amor, da fertilidade e da guerra, equivalente acádia da suméria Inanna.",
+          "variantes": [
+            "Inanna",
+            "Istar"
+          ]
+        },
+        {
+          "id": "familia_dinossauros",
+          "nome": "Família Dinossauros",
+          "descricao": "Sitcom americana de 1991 a 1994 sobre uma família de dinossauros, feita com bonecos animatrônicos.",
+          "variantes": [
+            "Dinosaurs",
+            "Família Dinossauro",
+            "A Família Dinossauro"
+          ]
+        },
+        {
+          "id": "maiassauro",
+          "nome": "Maiassauro",
+          "descricao": "Gênero de dinossauro hadrossaurídeo do Cretáceo Superior de Montana, encontrado junto a ninhos com filhotes.",
+          "variantes": [
+            "Maiasaura",
+            "Maiasaura peeblesorum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kadabra",
+        "descricao": "Pokémon psíquico, número 64 da Pokédex Nacional, evolução do Abra.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "caaba",
+          "nome": "Caaba",
+          "descricao": "Santuário em forma de cubo no centro da Grande Mesquita de Meca",
+          "variantes": [
+            "Kaaba",
+            "Kaba"
+          ]
+        },
+        {
+          "id": "abra",
+          "nome": "Abra",
+          "descricao": "Pokémon psíquico da primeira geração, número 63 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        },
+        {
+          "id": "skara_brae",
+          "nome": "Skara Brae",
+          "descricao": "Aldeia neolítica de pedra nas ilhas Órcadas, na Escócia.",
+          "variantes": []
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Baltoy",
+        "descricao": "Pokémon de terra e psíquico em forma de boneco de argila giratório, número 343 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        },
+        {
+          "id": "cobalto",
+          "nome": "Cobalto",
+          "descricao": "Elemento químico metálico de número atômico 27, usado em pigmentos azuis e em ligas.",
+          "variantes": [
+            "Cobalt"
+          ]
+        },
+        {
+          "id": "basalto",
+          "nome": "Basalto",
+          "descricao": "Rocha vulcânica escura e de grão fino, formada pelo resfriamento rápido de lava pobre em sílica.",
+          "variantes": [
+            "Basalt"
+          ]
+        },
+        {
+          "id": "lago_balaton",
+          "nome": "Lago Balaton",
+          "descricao": "Grande lago de água doce no oeste da Hungria, o maior da Europa Central.",
+          "variantes": [
+            "Balaton",
+            "Lake Balaton"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Piplup",
+        "descricao": "Pokémon pinguim do tipo água, número 393 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "piplup",
+          "nome": "Piplup",
+          "descricao": "Pokémon do tipo Água, número 393 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "poilu",
+          "nome": "Poilu",
+          "descricao": "Apelido informal dado ao soldado de infantaria francês da Primeira Guerra Mundial.",
+          "variantes": [
+            "Poilus"
+          ]
+        },
+        {
+          "id": "pica_pau",
+          "nome": "Pica-Pau",
+          "descricao": "Pássaro de desenho animado, de risada característica, que estreou nos cinemas em 1940 e fez sucesso na TV.",
+          "variantes": [
+            "Woody Woodpecker",
+            "Picapau"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "milu",
+          "nome": "Milu",
+          "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+          "variantes": [
+            "Milou",
+            "Snowy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Monferno",
+        "descricao": "Pokémon macaco de fogo e lutador, número 391 da Pokédex Nacional, evolução do Chimchar.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "mont_blanc",
+          "nome": "Mont Blanc",
+          "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália.",
+          "variantes": [
+            "Monte Branco",
+            "Monte Bianco"
+          ]
+        },
+        {
+          "id": "nero",
+          "nome": "Nero",
+          "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+          "variantes": [
+            "Nero Cláudio César",
+            "Nero Claudius Caesar"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "baoba",
+          "nome": "Baobá",
+          "descricao": "Árvore do gênero Adansonia, de tronco muito largo, típica da África e de Madagascar",
+          "variantes": [
+            "Adansonia",
+            "embondeiro",
+            "baobab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Trubbish",
+        "descricao": "Pokémon venenoso em forma de saco de lixo, número 568 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rush",
+          "nome": "Rush",
+          "descricao": "Filme de 2013 sobre a rivalidade entre Niki Lauda e James Hunt na temporada de 1976 da Fórmula 1.",
+          "variantes": [
+            "Rush: No Limite da Emoção"
+          ]
+        },
+        {
+          "id": "rubens_barrichello",
+          "nome": "Rubens Barrichello",
+          "descricao": "Piloto brasileiro de Fórmula 1, que correu de 1993 a 2011 e foi companheiro de Michael Schumacher na Ferrari.",
+          "variantes": [
+            "Rubinho"
+          ]
+        },
+        {
+          "id": "rubi",
+          "nome": "Rubi",
+          "descricao": "Pedra preciosa vermelha, variedade do mineral coríndon",
+          "variantes": [
+            "Ruby"
+          ]
+        },
+        {
+          "id": "peixe_bolha",
+          "nome": "Peixe-bolha",
+          "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+          "variantes": [
+            "Psychrolutes marcidus",
+            "Blobfish"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ekans",
+        "descricao": "Pokémon cobra do tipo veneno, número 23 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "jeans",
+          "nome": "Jeans",
+          "descricao": "Calça de tecido de algodão resistente, geralmente azul, popularizada pela Levi Strauss & Co.",
+          "variantes": [
+            "Calça jeans",
+            "Blue jeans"
+          ]
+        },
+        {
+          "id": "genkan",
+          "nome": "Genkan",
+          "descricao": "Vestíbulo rebaixado na entrada das casas japonesas, onde se deixam os sapatos.",
+          "variantes": []
+        },
+        {
+          "id": "peanuts",
+          "nome": "Peanuts",
+          "descricao": "Tira de jornal do americano Charles Schulz, com Charlie Brown e Snoopy",
+          "variantes": [
+            "Minduim"
+          ]
+        },
+        {
+          "id": "immanuel_kant",
+          "nome": "Immanuel Kant",
+          "descricao": "Filósofo alemão (1724–1804), nascido em Königsberg, autor da Crítica da Razão Pura.",
+          "variantes": [
+            "Kant"
+          ]
+        },
+        {
+          "id": "tetano",
+          "nome": "Tétano",
+          "descricao": "Doença causada pela toxina da bactéria Clostridium tetani, que provoca espasmos musculares.",
+          "variantes": [
+            "Tetanus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Croconaw",
+        "descricao": "Pokémon crocodilo do tipo água, número 159 da Pokédex Nacional, evolução do Totodile.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "crocodilo",
+          "nome": "Crocodilo",
+          "descricao": "Grande réptil aquático da ordem dos crocodilianos, que inclui crocodilos, jacarés e gaviais.",
+          "variantes": [
+            "Crocodilianos",
+            "Crocodilia"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        },
+        {
+          "id": "cite_de_carcassonne",
+          "nome": "Cité de Carcassonne",
+          "descricao": "Cidadela medieval fortificada de Carcassona, no sul da França, restaurada por Viollet-le-Duc no século dezenove.",
+          "variantes": [
+            "Carcassonne",
+            "Carcassona"
+          ]
+        },
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Natu",
+        "descricao": "Pokémon pássaro psíquico e voador, número 177 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "atum",
+          "nome": "Atum",
+          "descricao": "Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação.",
+          "variantes": [
+            "Thunnus",
+            "Tuna"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "sodio",
+          "nome": "Sódio",
+          "descricao": "Elemento químico de número atômico 11, metal alcalino macio que reage violentamente com a água.",
+          "variantes": [
+            "Na",
+            "Natrium"
+          ]
+        },
+        {
+          "id": "natal",
+          "nome": "Natal",
+          "descricao": "Capital do Rio Grande do Norte, que abrigou uma grande base aérea aliada na Segunda Guerra Mundial.",
+          "variantes": [
+            "Natal (Rio Grande do Norte)"
+          ]
+        },
+        {
+          "id": "nheengatu",
+          "nome": "Nheengatu",
+          "descricao": "Língua geral de base tupi, ainda falada na Amazônia brasileira",
+          "variantes": [
+            "Língua geral amazônica",
+            "Nhengatu",
+            "Tupi moderno"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Flareon não está entre as candidatas; Charmeleon é outro Pokémon."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Grovyle é distinto de Rowlet e das demais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mareanie é distinto de Arcanine e das demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ivysaur (nº 2) é distinto de Venusaur (nº 3)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Kadabra (nº 64) é distinto de Abra (nº 63)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Baltoy não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "piplup",
+      "motivo": "Mesmo Pokémon, nº 393 da Pokédex Nacional."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Monferno não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Trubbish não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ekans não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Croconaw é um Pokémon, distinto do crocodilo em geral."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Natu não corresponde a nenhuma candidata."
+    }
+  ]
+}
