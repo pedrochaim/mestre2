@@ -1,0 +1,239 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Chaleira de ferro antiga, clara e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Chaleira",
+      "ancora": {
+        "nome": "Chaleira",
+        "descricao": "Utensílio com tampa, bico e alça usado para ferver água.",
+        "variantes": [
+          "Chaleira de ferro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Pena com bico metálico em foto nítida; a escrita ao fundo é ilegível e não entrega nada.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de escrita é este?",
+      "resposta": "Caneta-tinteiro",
+      "distratores": [
+        "Caneta esferográfica",
+        "Pena de escrever",
+        "Lapiseira"
+      ],
+      "ancora": {
+        "nome": "Caneta-tinteiro",
+        "descricao": "Instrumento de escrita com ponta metálica e reservatório interno de tinta.",
+        "variantes": [
+          "Caneta tinteiro",
+          "Pena-tinteiro"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tabi brancos com dedão separado, bem visíveis e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta meia tradicional?",
+      "resposta": "Japão",
+      "distratores": [
+        "Coreia do Sul",
+        "China",
+        "Mongólia"
+      ],
+      "ancora": {
+        "nome": "Tabi",
+        "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+        "variantes": [
+          "Tabi japonês"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Escova de cabelo de cerdas de pino, clara e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de uso diário é este?",
+      "resposta": "Escova de cabelo",
+      "ancora": {
+        "nome": "Escova de cabelo",
+        "descricao": "Escova com cerdas usada para pentear e desembaraçar os cabelos.",
+        "variantes": [
+          "Escova de cabelos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Dois modelos de cortador de unha, o alicate e o de alavanca, ambos do mesmo objeto; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de cuidado pessoal são estes dois?",
+      "resposta": "Cortador de unha (ou alicate de unha)",
+      "ancora": {
+        "nome": "Cortador de unha",
+        "descricao": "Ferramenta manual usada para aparar unhas.",
+        "variantes": [
+          "Alicate de unha",
+          "Corta-unhas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, não uma foto, de um objeto que pode ser fotografado, e as camadas de babados ficam ambíguas (poderiam ser saia, gola ou babado qualquer)."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Regador de plástico laranja, claro, com fundo branco e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que utensílio de jardim é este?",
+      "resposta": "Regador",
+      "ancora": {
+        "nome": "Regador",
+        "descricao": "Recipiente portátil com alça e bico usado para regar plantas.",
+        "variantes": [
+          "Regadora"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bolsa de cintura preta com cinta e fivela, reconhecível, sem texto; use múltipla por ser um pouco menos óbvia.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acessório de vestuário é este?",
+      "resposta": "Pochete",
+      "distratores": [
+        "Bolsa carteiro",
+        "Cartucheira",
+        "Mochila"
+      ],
+      "ancora": {
+        "nome": "Pochete",
+        "descricao": "Pequena bolsa de tecido ou couro presa à cintura por uma tira com fivela.",
+        "variantes": [
+          "Pochete de cintura",
+          "Riñonera"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Veste de brocado azul com faixa dourada e chapéu em manequim de exposição, sem texto legível; reconhecível como deel.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo da Ásia usa tradicionalmente esta veste?",
+      "resposta": "Mongóis",
+      "distratores": [
+        "Manchus",
+        "Tibetanos",
+        "Uigures"
+      ],
+      "ancora": {
+        "nome": "Deel",
+        "descricao": "Veste tradicional longa e cruzada dos mongóis, usada por homens e mulheres.",
+        "variantes": [
+          "Del",
+          "Deel mongol"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A imagem mostra um relógio de bolso com corrente, não um relógio de pulso; a âncora foi corrigida. A marca no mostrador não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de relógio é este?",
+      "resposta": "Relógio de bolso",
+      "ancora": {
+        "nome": "Relógio de bolso",
+        "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+        "variantes": [
+          "Relógio de algibeira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gorro andino com abas e desenho de lhamas, nítido e sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que gorro tradicional é este?",
+      "resposta": "Chullo",
+      "distratores": [
+        "Ushanka",
+        "Gorro sherpa",
+        "Balaclava"
+      ],
+      "ancora": {
+        "nome": "Chullo",
+        "descricao": "Gorro andino de lã com abas para as orelhas, feito de alpaca, lhama ou ovelha.",
+        "variantes": [
+          "Ch'ullu",
+          "Gorro andino"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Lampião vermelho com chaminé de vidro, reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto antigo de iluminação é este?",
+      "resposta": "Lampião a querosene",
+      "ancora": {
+        "nome": "Lampião a querosene",
+        "descricao": "Lâmpada com pavio e chaminé de vidro que queima querosene para iluminar sem eletricidade.",
+        "variantes": [
+          "Lamparina a querosene",
+          "Lanterna a querosene",
+          "Lampião"
+        ]
+      }
+    }
+  ]
+}

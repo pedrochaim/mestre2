@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1, sem vazamento; a resposta é sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta, e os distratores são do mesmo tipo, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a tabi é japonesa. 'Meia tradicional' não entrega o país, e os distratores são válidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem vazamento. O trecho sustenta a função da escova.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estes dois' afirma que a figura mostra dois objetos, o que `mostra` não confirma. A resposta traz parênteses com 'alicate de unha', que é outro tipo de corta-unhas e contraria a regra de resposta sem variantes.",
+      "reescrita": {
+        "pergunta": "Que objeto de cuidado pessoal é este?",
+        "resposta": "Cortador de unha",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta simples de nível 1, sem vazamento, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento. Os distratores são acessórios portáveis plausíveis e nenhum deles descreve a pochete.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o deel é vestimenta tradicional dos mongóis. Os distratores são povos asiáticos com roupas próprias, e nenhum usa o deel.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. 'Tipo de relógio' não entrega 'de bolso'.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho sustenta que o chullo é um gorro andino. O enunciado não vaza, e os distratores são gorros de outras regiões.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos sustentam o fato. 'Objeto antigo de iluminação' não entrega a resposta, e 'lampião a querosene' é o nome usado no Brasil.",
+      "reescrita": null
+    }
+  ]
+}

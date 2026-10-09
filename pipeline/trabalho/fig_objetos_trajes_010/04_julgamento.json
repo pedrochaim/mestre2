@@ -1,0 +1,684 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chaleira",
+        "descricao": "Utensílio com tampa, bico e alça usado para ferver água.",
+        "variantes": [
+          "Chaleira de ferro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otto_von_bismarck",
+          "nome": "Otto von Bismarck",
+          "descricao": "Estadista prussiano que unificou a Alemanha e foi seu primeiro chanceler, de 1871 a 1890.",
+          "variantes": [
+            "Bismarck",
+            "Chanceler de Ferro"
+          ]
+        },
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "calcadeira",
+          "nome": "Calçadeira",
+          "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+          "variantes": [
+            "Calçador",
+            "Shoehorn"
+          ]
+        },
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Caneta-tinteiro",
+        "descricao": "Instrumento de escrita com ponta metálica e reservatório interno de tinta.",
+        "variantes": [
+          "Pena-tinteiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "patinete",
+          "nome": "Patinete",
+          "descricao": "Veículo impulsionado pela perna de quem o usa, com guidão, plataforma e rodas.",
+          "variantes": [
+            "Scooter de impulso",
+            "Kick scooter"
+          ]
+        },
+        {
+          "id": "dialeto_mineiro",
+          "nome": "Dialeto mineiro",
+          "descricao": "Falar típico de Minas Gerais, conhecido popularmente como mineirês",
+          "variantes": [
+            "Mineirês"
+          ]
+        },
+        {
+          "id": "penalti",
+          "nome": "Pênalti",
+          "descricao": "Tiro livre direto cobrado da marca penal, só contra o goleiro, por falta cometida na própria área no futebol.",
+          "variantes": [
+            "Penalidade máxima",
+            "Pênalti no futebol"
+          ]
+        },
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome",
+            "Caneta Bic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tabi",
+        "descricao": "Meia tradicional japonesa com o dedão separado dos outros dedos, usada com calçados de tiras.",
+        "variantes": [
+          "Tabi japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iene",
+          "nome": "Iene",
+          "descricao": "Moeda oficial do Japão.",
+          "variantes": [
+            "Yen",
+            "Iene japonês"
+          ]
+        },
+        {
+          "id": "taxi",
+          "nome": "Táxi",
+          "descricao": "Automóvel de aluguel com motorista que leva passageiros e cobra pela corrida.",
+          "variantes": [
+            "Carro de praça"
+          ]
+        },
+        {
+          "id": "gabigol",
+          "nome": "Gabigol",
+          "descricao": "Gabriel Barbosa Almeida, atacante brasileiro de futebol, ídolo do Flamengo.",
+          "variantes": [
+            "Gabriel Barbosa",
+            "Gabi"
+          ]
+        },
+        {
+          "id": "kanzashi",
+          "nome": "Kanzashi",
+          "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+          "variantes": [
+            "Kanzashi japonês"
+          ]
+        },
+        {
+          "id": "haori",
+          "nome": "Haori",
+          "descricao": "Casaco tradicional japonês, curto e aberto na frente, usado sobre o quimono.",
+          "variantes": [
+            "Jaqueta japonesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Escova de cabelo",
+        "descricao": "Escova com cerdas usada para pentear e desembaraçar os cabelos.",
+        "variantes": [
+          "Escova de cabelos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "escova_de_dentes",
+          "nome": "Escova de dentes",
+          "descricao": "Utensílio de higiene bucal com cerdas presas a um cabo, produzido em massa desde o século dezoito.",
+          "variantes": [
+            "Toothbrush"
+          ]
+        },
+        {
+          "id": "escola_de_samba",
+          "nome": "Escola de samba",
+          "descricao": "Agremiação carnavalesca brasileira que desfila com enredo, alas, bateria, mestre-sala e porta-bandeira.",
+          "variantes": []
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cortador de unha",
+        "descricao": "Ferramenta manual usada para aparar unhas.",
+        "variantes": [
+          "Alicate de unha",
+          "Corta-unhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "martelo",
+          "nome": "Martelo",
+          "descricao": "Ferramenta de mão com cabeça pesada presa a um cabo, usada para bater, como o martelo de unha.",
+          "variantes": [
+            "Martelo de unha"
+          ]
+        },
+        {
+          "id": "alicate",
+          "nome": "Alicate",
+          "descricao": "Ferramenta manual de duas alavancas com mandíbulas, usada para segurar e dobrar objetos.",
+          "variantes": [
+            "Alicate de pressão"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "cota_de_malha",
+          "nome": "Cota de malha",
+          "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+          "variantes": [
+            "Malha",
+            "Chain mail",
+            "Loriga de malha",
+            "Hauberk"
+          ]
+        },
+        {
+          "id": "carta_de_pero_vaz_de_caminha",
+          "nome": "Carta de Pero Vaz de Caminha",
+          "descricao": "Carta enviada ao rei Dom Manuel I em 1500, relatando a chegada da frota de Cabral ao Brasil.",
+          "variantes": [
+            "Carta do Achamento do Brasil",
+            "Carta de Caminha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Regador",
+        "descricao": "Recipiente portátil com alça e bico usado para regar plantas.",
+        "variantes": [
+          "Regadora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "prendedor_de_roupa",
+          "nome": "Prendedor de roupa",
+          "descricao": "Pinça de madeira ou plástico, com mola, usada para prender roupas no varal.",
+          "variantes": [
+            "Pregador",
+            "Pregador de roupa",
+            "Pregador de varal"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        },
+        {
+          "id": "fedora",
+          "nome": "Fedora",
+          "descricao": "Chapéu de feltro macio com aba e copa vincada no centro",
+          "variantes": [
+            "Chapéu fedora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pochete",
+        "descricao": "Pequena bolsa de tecido ou couro presa à cintura por uma tira com fivela.",
+        "variantes": [
+          "Pochete de cintura",
+          "Riñonera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pschent",
+          "nome": "Pschent",
+          "descricao": "Coroa dupla dos faraós, que unia as coroas do Alto e do Baixo Egito como símbolo do país unificado",
+          "variantes": [
+            "Coroa dupla",
+            "Sekhemti"
+          ]
+        },
+        {
+          "id": "jannik_sinner",
+          "nome": "Jannik Sinner",
+          "descricao": "Tenista italiano nascido em 2001 no Tirol do Sul, número 1 do mundo e campeão de Grand Slams.",
+          "variantes": [
+            "Sinner"
+          ]
+        },
+        {
+          "id": "trirreme",
+          "nome": "Trirreme",
+          "descricao": "Navio de guerra grego movido a remos dispostos em três níveis, base do poder naval de Atenas no século cinco a.C.",
+          "variantes": [
+            "Trireme",
+            "Triera"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "crinolina",
+          "nome": "Crinolina",
+          "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+          "variantes": [
+            "Crinoline",
+            "Saia-balão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Deel",
+        "descricao": "Veste tradicional longa e cruzada dos mongóis, usada por homens e mulheres.",
+        "variantes": [
+          "Del",
+          "Deel mongol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "adele",
+          "nome": "Adele",
+          "descricao": "Cantora e compositora britânica, autora dos álbuns 19, 21 e 25.",
+          "variantes": [
+            "Adele Laurie Blue Adkins"
+          ]
+        },
+        {
+          "id": "decibel",
+          "nome": "Decibel",
+          "descricao": "Unidade logarítmica usada para medir o nível de intensidade sonora, décima parte do bel.",
+          "variantes": [
+            "dB",
+            "Decibel (unidade)"
+          ]
+        },
+        {
+          "id": "bandeira_da_mongolia",
+          "nome": "Bandeira da Mongólia",
+          "descricao": "Bandeira nacional atual da Mongólia, com três faixas verticais vermelha, azul e vermelha e o símbolo soyombo amarelo.",
+          "variantes": [
+            "Mongólia",
+            "Bandeira mongol"
+          ]
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel"
+          ]
+        },
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Relógio de bolso",
+        "descricao": "Relógio portátil com corrente, carregado no bolso em vez de usado no pulso.",
+        "variantes": [
+          "Relógio de pulso",
+          "Relógio de algibeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_pendulo",
+          "nome": "Relógio de pêndulo",
+          "descricao": "Relógio que usa as oscilações regulares de um pêndulo para marcar o tempo, criado em 1656.",
+          "variantes": [
+            "Pendulum clock"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "relogio_de_flores",
+          "nome": "Relógio de flores",
+          "descricao": "Jardim proposto por Lineu em que cada espécie de flor se abriria ou fecharia numa hora diferente do dia",
+          "variantes": [
+            "Horologium florae",
+            "Relógio floral de Lineu"
+          ]
+        },
+        {
+          "id": "relogio_de_arremesso",
+          "nome": "Relógio de arremesso",
+          "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+          "variantes": [
+            "Shot clock",
+            "Relógio de 24 segundos",
+            "Regra dos 24 segundos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Chullo",
+        "descricao": "Gorro andino de lã com abas para as orelhas, feito de alpaca, lhama ou ovelha.",
+        "variantes": [
+          "Ch'ullu",
+          "Gorro andino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "violoncelo",
+          "nome": "Violoncelo",
+          "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+          "variantes": [
+            "Cello"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "jigoro_kano",
+          "nome": "Jigoro Kano",
+          "descricao": "Educador japonês que fundou o judô em 1882.",
+          "variantes": [
+            "Kanō Jigorō"
+          ]
+        },
+        {
+          "id": "joao_candido",
+          "nome": "João Cândido",
+          "descricao": "Marinheiro gaúcho que liderou a Revolta da Chibata no Rio de Janeiro em 1910.",
+          "variantes": [
+            "João Cândido Felisberto"
+          ]
+        },
+        {
+          "id": "soro_antiofidico",
+          "nome": "Soro antiofídico",
+          "descricao": "Soro usado para neutralizar o veneno de picadas de cobra.",
+          "variantes": [
+            "Antiveneno",
+            "Soro antiveneno",
+            "Antivenom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Lampião a querosene",
+        "descricao": "Lâmpada com pavio e chaminé de vidro que queima querosene para iluminar sem eletricidade.",
+        "variantes": [
+          "Lamparina a querosene",
+          "Lanterna a querosene",
+          "Lampião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        },
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        },
+        {
+          "id": "jalapao",
+          "nome": "Jalapão",
+          "descricao": "Região de cerrado no leste do Tocantins, conhecida por dunas, cachoeiras e fervedouros.",
+          "variantes": [
+            "Parque Estadual do Jalapão"
+          ]
+        },
+        {
+          "id": "olimpia_sitio_arqueologico",
+          "nome": "Olímpia (sítio arqueológico)",
+          "descricao": "Santuário de Zeus no Peloponeso, na Grécia, onde eram disputados os Jogos Olímpicos da Antiguidade.",
+          "variantes": [
+            "Olympia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Chaleira não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Caneta-tinteiro é distinta da esferográfica e da BIC Cristal."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tabi não consta entre as candidatas; são outras peças e coisas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Escova de cabelo é diferente de escova de dentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cortador de unha é diferente de alicate genérico e martelo de unha."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Regador não aparece entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pochete não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Deel é uma veste; a bandeira da Mongólia é outra entidade."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Relógio de bolso é diferente dos outros tipos de relógio."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Chullo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Lampião a querosene é um objeto; a candidata Lampião é o cangaceiro."
+    }
+  ]
+}
