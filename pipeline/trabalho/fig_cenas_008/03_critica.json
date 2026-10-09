@@ -1,0 +1,108 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento; título confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não é possível saber qual personagem aparece na cena (Lecter ou Clarice), então a resposta pode ser Jodie Foster. Passa a perguntar o diretor, que vale para o filme todo.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu este thriller americano de 1991?",
+        "resposta": "Jonathan Demme",
+        "distratores": [
+          "David Fincher",
+          "Brian De Palma",
+          "Michael Mann"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diretor confirmado nos trechos; os distratores são cineastas brasileiros da época e nenhum dirigiu o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As estátuas gigantes do rio Anduin são o Argonath, fato amplamente documentado. Os distratores são locais de Tolkien que não são colossos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Não há garantia de que o menino apareça na cena, só de que a figura é do filme. O enunciado afirmaria algo não verificado sobre a imagem. Passa a perguntar o diretor.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu este filme de terror de 1980, passado num hotel isolado?",
+        "resposta": "Stanley Kubrick"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (estreia em 1969 na BBC). Os parênteses na resposta são desnecessários.",
+      "reescrita": {
+        "pergunta": "Em que década estreou, na TV britânica, a série deste grupo de humoristas?",
+        "resposta": "Anos 1960"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estúdio confirmado nos trechos; os distratores são estúdios de animação críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição da pessoa (cabelo loiro e cacheado, ao centro) não pode ser confirmada pela descrição da imagem. Reescrita sem depender da foto.",
+      "reescrita": {
+        "pergunta": "Em que cidade americana se passa esta série sobre quatro amigas?",
+        "resposta": "Nova York"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filme de 1968, confirmado. A resposta é única e o enunciado não vaza nada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A novela teve remake em 2025, com outra atriz como Odete Roitman, então a resposta fica ambígua. É preciso fixar a versão de 1988. O trecho da Wikipédia estava inexistente, mas o fato é amplamente documentado.",
+      "reescrita": {
+        "pergunta": "Na versão original de 1988 desta novela, que atriz interpretou a personagem que aparece nesta cena?",
+        "resposta": "Beatriz Segall"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Direção dos irmãos Coen confirmada; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Donald Glover criou e estrela a série, confirmado. Os distratores são artistas negros conhecidos que não a criaram.",
+      "reescrita": null
+    }
+  ]
+}

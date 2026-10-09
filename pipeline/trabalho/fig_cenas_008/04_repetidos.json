@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem dirigiu este filme brasileiro do Cinema Marginal?",
+        "resposta": "Rogério Sganzerla"
+      },
+      "existentes": [
+        {
+          "id": "q06862",
+          "pergunta": "Quem dirigiu O Bandido da Luz Vermelha, filme de 1968 inspirado num criminoso real que assustou São Paulo?",
+          "resposta": "Rogério Sganzerla"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem dirigiu este filme de terror de 1980, passado num hotel isolado?",
+        "resposta": "Stanley Kubrick"
+      },
+      "existentes": [
+        {
+          "id": "q06866",
+          "pergunta": "O Iluminado, de Stanley Kubrick, com Jack Nicholson enlouquecendo num hotel isolado, adapta o livro de qual escritor de terror?",
+          "resposta": "Stephen King"
+        },
+        {
+          "id": "q09259",
+          "pergunta": "No livro O Iluminado, o quarto assombrado do hotel é o duzentos e dezessete. No filme de Kubrick, que número ele ganhou?",
+          "resposta": "237"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na versão original de 1988 desta novela, que atriz interpretou a personagem que aparece nesta cena?",
+        "resposta": "Beatriz Segall"
+      },
+      "existentes": [
+        {
+          "id": "q01129",
+          "pergunta": "Na versão original de 1988 da novela Vale Tudo, que personagem matou a vilã Odete Roitman?",
+          "resposta": "Leila"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem dirigiu O Bandido da Luz Vermelha; resposta igual, mesmo fato.",
+      "id_existente": "q06862"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Diretor do Iluminado é fato diferente do autor do livro ou do número do quarto no filme."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Atriz que fez Odete Roitman é fato diferente de quem matou a personagem."
+    }
+  ]
+}

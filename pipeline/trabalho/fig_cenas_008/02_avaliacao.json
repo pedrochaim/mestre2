@@ -1,0 +1,247 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de elenco de uma única obra, sem texto, legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de TV é esta família?",
+      "resposta": "Eu, a Patroa e as Crianças",
+      "ancora": {
+        "nome": "Eu, a Patroa e as Crianças",
+        "descricao": "Série de comédia americana de TV exibida a partir de 2001, sobre a família Kyle.",
+        "variantes": [
+          "My Wife and Kids"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena icônica da cela, sem texto, reconhecível; sem spoiler.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o personagem que aparece nesta cena do filme?",
+      "resposta": "Anthony Hopkins",
+      "distratores": [
+        "Anthony Perkins",
+        "Gary Oldman",
+        "Ben Kingsley"
+      ],
+      "ancora": {
+        "nome": "O Silêncio dos Inocentes",
+        "descricao": "Thriller de 1991 dirigido por Jonathan Demme, com Hannibal Lecter e Clarice Starling.",
+        "variantes": [
+          "The Silence of the Lambs"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena em preto e branco sem texto que entregue a resposta (manchetes de jornal não citam a obra); filme de aficionado, melhor em múltipla escolha.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme brasileiro do Cinema Marginal?",
+      "resposta": "Rogério Sganzerla",
+      "distratores": [
+        "Glauber Rocha",
+        "Júlio Bressane",
+        "Joaquim Pedro de Andrade"
+      ],
+      "ancora": {
+        "nome": "O Bandido da Luz Vermelha",
+        "descricao": "Filme brasileiro de 1968 do Cinema Marginal, sobre o criminoso João Acácio Pereira da Costa.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena das estátuas gigantes com barcos, sem texto, inconfundível para quem viu o filme.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chamam os colossos de pedra que os barcos atravessam nesta cena?",
+      "resposta": "Argonath",
+      "distratores": [
+        "Orthanc",
+        "Minas Morgul",
+        "Cirith Ungol"
+      ],
+      "ancora": {
+        "nome": "Argonath",
+        "descricao": "Par de estátuas gigantes de reis às margens do rio Anduin em O Senhor dos Anéis: A Sociedade do Anel.",
+        "variantes": [
+          "Pilares dos Reis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cena icônica do tapete e do menino, sem texto, sem spoiler.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpreta o pai do menino que aparece nesta cena do filme?",
+      "resposta": "Jack Nicholson",
+      "ancora": {
+        "nome": "O Iluminado",
+        "descricao": "Filme de terror de 1980 dirigido por Stanley Kubrick, passado em um hotel isolado no Colorado.",
+        "variantes": [
+          "The Shining"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto do grupo, sem texto, figuras públicas, uma única obra.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década estreou, na TV britânica, a série deste grupo de humoristas?",
+      "resposta": "Anos 1960 (estreou em 1969)",
+      "ancora": {
+        "nome": "Monty Python",
+        "descricao": "Grupo de humoristas britânicos autor da série Monty Python's Flying Circus.",
+        "variantes": [
+          "Monty Python's Flying Circus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte do desenho animado, personagens claros, sem texto.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio de animação criou este desenho?",
+      "resposta": "Hanna-Barbera",
+      "distratores": [
+        "Walt Disney Animation",
+        "Fleischer Studios",
+        "Filmation"
+      ],
+      "ancora": {
+        "nome": "Os Flintstones",
+        "descricao": "Desenho animado americano de 1960 sobre uma família da Idade da Pedra.",
+        "variantes": [
+          "The Flintstones"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de elenco de uma única série, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que atriz interpreta a protagonista, de cabelo loiro e cacheado, ao centro desta foto da série?",
+      "resposta": "Sarah Jessica Parker",
+      "ancora": {
+        "nome": "Sex and the City",
+        "descricao": "Série americana de TV de 1998 sobre quatro amigas em Nova York.",
+        "variantes": [
+          "Sexo e a Cidade"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena de abertura do faroeste, sem texto, sem spoiler; reconhecível por cinéfilos, com múltipla escolha.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi lançado o faroeste desta cena?",
+      "resposta": "Anos 1960",
+      "distratores": [
+        "Anos 1950",
+        "Anos 1970",
+        "Anos 1980"
+      ],
+      "ancora": {
+        "nome": "Era Uma Vez no Oeste",
+        "descricao": "Faroeste italiano de 1968 dirigido por Sergio Leone.",
+        "variantes": [
+          "Once Upon a Time in the West",
+          "C'era una volta il West"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato de cena da atriz como a personagem, sem texto; figura pública.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que atriz interpretou a personagem que aparece nesta cena da novela?",
+      "resposta": "Beatriz Segall",
+      "ancora": {
+        "nome": "Odete Roitman",
+        "descricao": "Personagem da novela Vale Tudo (1988), da Rede Globo.",
+        "variantes": [
+          "Vale Tudo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena de lanchonete sem texto que entregue a resposta (apenas 'breakfast' ao fundo).",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Joel e Ethan Coen",
+      "ancora": {
+        "nome": "O Grande Lebowski",
+        "descricao": "Comédia de 1998 dos irmãos Coen sobre o 'Cara', fã de boliche em Los Angeles.",
+        "variantes": [
+          "The Big Lebowski"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação da série, sem texto, quatro protagonistas; resposta única.",
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator e músico criou e estrela esta série?",
+      "resposta": "Donald Glover",
+      "distratores": [
+        "Kendrick Lamar",
+        "Jordan Peele",
+        "Issa Rae"
+      ],
+      "ancora": {
+        "nome": "Atlanta",
+        "descricao": "Série americana de TV de 2016 sobre um aspirante a empresário de rap na cidade de Atlanta.",
+        "variantes": []
+      }
+    }
+  ]
+}
