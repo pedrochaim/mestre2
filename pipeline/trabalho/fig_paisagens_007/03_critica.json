@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos (Anhui, China). Granito, pinheiros e nuvens ajudam sem entregar o país.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eiger fica nos Alpes Berneses, como diz o trecho. O enunciado não vaza. Os distratores são montanhas alpinas críveis, curtas, e nenhuma delas é o Eiger.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que é a cachoeira mais alta de Minas Gerais. O enunciado não vaza o estado e não dá para responder sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mar de areia' é o nome da planície do Bromo, e junto com o templo hindu quase identifica o vulcão sem a imagem. Tirei essas pistas e deixei uma região mais ampla.",
+      "reescrita": {
+        "pergunta": "Em que país do Sudeste Asiático fica este vulcão ativo?",
+        "resposta": "Indonésia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vale desértico famoso pelo calor extremo' nos Estados Unidos identifica o Vale da Morte sem a figura. Tirei a pista do calor para a figura fazer o trabalho.",
+      "reescrita": {
+        "pergunta": "Em que estado americano fica este vale desértico?",
+        "resposta": "Califórnia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os visitantes podem caminhar atrás da queda e que a cachoeira fica na Islândia. A pista é comum a várias cachoeiras e não entrega o país.",
+      "reescrita": null
+    }
+  ]
+}

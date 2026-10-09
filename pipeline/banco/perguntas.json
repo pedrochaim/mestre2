@@ -162737,5 +162737,109 @@
       "autor": "Giovanni Mari",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q09512",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "montanhas_amarelas_huangshan",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país ficam estas montanhas de picos de granito e pinheiros entre as nuvens?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Huangshan",
+      "https://pt.wikipedia.org/wiki/Montanhas_Huangshan"
+    ],
+    "imagem": {
+      "arquivo": "q09512.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Huangshan_fengjing.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q09513",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "eiger",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que montanha dos Alpes é esta?",
+    "resposta": "Eiger",
+    "distratores": [
+      "Matterhorn",
+      "Jungfrau",
+      "Monte Branco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eiger",
+      "https://pt.wikipedia.org/wiki/Eiger"
+    ],
+    "imagem": {
+      "arquivo": "q09513.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Eiger_Nordwand_-_panoramio_(1).jpg",
+      "autor": "qwesy qwesy",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q09514",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "cachoeira_do_tabuleiro",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Esta cachoeira de queda livre altíssima é a mais alta de qual estado brasileiro?",
+    "resposta": "Minas Gerais",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cachoeira_do_Tabuleiro"
+    ],
+    "imagem": {
+      "arquivo": "q09514.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mirante_tabuleiro.jpg",
+      "autor": "Rafael dos Reis Pereira",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q09515",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "monte_bromo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país do Sudeste Asiático fica este vulcão ativo?",
+    "resposta": "Indonésia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Bromo",
+      "https://pt.wikipedia.org/wiki/Monte_Bromo"
+    ],
+    "imagem": {
+      "arquivo": "q09515.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mount_Bromo_closeup_on_sunrise_2.jpg",
+      "autor": "Hugo van den Bos",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q09516",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "seljalandsfoss",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país fica esta cachoeira, onde os visitantes podem caminhar por trás da queda?",
+    "resposta": "Islândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Seljalandsfoss",
+      "https://pt.wikipedia.org/wiki/Seljalandsfoss"
+    ],
+    "imagem": {
+      "arquivo": "q09516.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Seljalandsfoss_-_panoramio_(7).jpg",
+      "autor": "Zoran Kurelić Rabko",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

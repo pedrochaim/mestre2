@@ -1,0 +1,147 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Vista aérea distante, sem forma característica; o Olimpo não é reconhecível pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Picos de granito entre névoa e pinheiros, típicos de Huangshan; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país ficam estas montanhas de picos de granito e pinheiros entre as nuvens?",
+      "resposta": "China",
+      "destino": 0,
+      "ancora": {
+        "nome": "Montanhas Amarelas (Huangshan)",
+        "descricao": "Cordilheira de picos de granito no sul da província de Anhui, na China, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Huangshan",
+          "Montanha Amarela"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Face norte do Eiger, silhueta característica, sem texto; múltipla para distinguir de outros picos alpinos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanha dos Alpes é esta?",
+      "resposta": "Eiger",
+      "distratores": [
+        "Matterhorn",
+        "Jungfrau",
+        "Monte Branco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Eiger",
+        "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+        "variantes": [
+          "Monte Eiger"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Imagem de satélite em falsas cores, sem forma reconhecível do vulcão."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Vista de um povoado com igreja a partir da água; nada permite reconhecer a ilha de Itaparica."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Queda alta e estreita num paredão, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta cachoeira de queda livre altíssima é a mais alta de qual estado brasileiro?",
+      "resposta": "Minas Gerais",
+      "destino": 3,
+      "ancora": {
+        "nome": "Cachoeira do Tabuleiro",
+        "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro, Minas Gerais.",
+        "variantes": [
+          "Tabuleiro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Praia com farol e casas genéricas; sem elemento que permita reconhecer Morro de São Paulo com resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cratera fumegante com templo na base, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este vulcão ativo, cercado por um mar de areia, com um templo hindu aos pés?",
+      "resposta": "Indonésia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Monte Bromo",
+        "descricao": "Vulcão ativo da montanhas Tengger, em Java Oriental, Indonésia.",
+        "variantes": [
+          "Bromo",
+          "Gunung Bromo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem lembra dunas com lagoas (tipo Lençóis Maranhenses); não identifica o delta do Parnaíba de forma única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Planície de sal com montanhas, cenário clássico de Badwater; pessoa minúscula, de costas e irreconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que estado americano fica este vale desértico, famoso pelo calor extremo?",
+      "resposta": "Califórnia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vale da Morte",
+        "descricao": "Vale desértico no leste da Califórnia, nos Estados Unidos, no norte do deserto de Mojave.",
+        "variantes": [
+          "Death Valley"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cachoeira reconhecível com paredão e caverna; turistas pequenos e distantes, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta cachoeira, onde os visitantes podem caminhar por trás da queda?",
+      "resposta": "Islândia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Seljalandsfoss",
+        "descricao": "Cachoeira de 60 metros no sul da Islândia, formada pelo rio Seljalands.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Os gêiseres aparecem como fiapos de vapor minúsculos e distantes; pouco legível no celular e pouco reconhecível."
+    }
+  ]
+}

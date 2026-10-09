@@ -1,0 +1,332 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Montanhas Amarelas (Huangshan)",
+        "descricao": "Cordilheira de picos de granito no sul da província de Anhui, na China, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Huangshan",
+          "Montanha Amarela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mar_amarelo",
+          "nome": "Mar Amarelo",
+          "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+          "variantes": [
+            "Huang Hai"
+          ]
+        },
+        {
+          "id": "montanha_da_mesa",
+          "nome": "Montanha da Mesa",
+          "descricao": "Montanha de topo plano que domina a paisagem da Cidade do Cabo, na África do Sul.",
+          "variantes": [
+            "Table Mountain",
+            "Tafelberg"
+          ]
+        },
+        {
+          "id": "monte_athos",
+          "nome": "Monte Athos",
+          "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+          "variantes": [
+            "Monte Atos",
+            "Mount Athos",
+            "Montanha Sagrada"
+          ]
+        },
+        {
+          "id": "chang_an",
+          "nome": "Chang'an",
+          "descricao": "Antiga capital chinesa das dinastias Han e Tang, extremo oriental da Rota da Seda, onde hoje fica Xian.",
+          "variantes": [
+            "Changan"
+          ]
+        },
+        {
+          "id": "rio_amarelo",
+          "nome": "Rio Amarelo",
+          "descricao": "Segundo rio mais longo da China, que corre pelo norte do país até o mar de Bohai.",
+          "variantes": [
+            "Huang He",
+            "Hwang Ho",
+            "Yellow River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Eiger",
+        "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+        "variantes": [
+          "Monte Eiger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "montenegro",
+          "nome": "Montenegro",
+          "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
+          "variantes": [
+            "Montenegro (país)",
+            "Crna Gora"
+          ]
+        },
+        {
+          "id": "monte_everest",
+          "nome": "Monte Everest",
+          "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+          "variantes": [
+            "Everest",
+            "Chomolungma",
+            "Sagarmatha",
+            "Mount Everest"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur",
+            "Stóri Geysir"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cachoeira do Tabuleiro",
+        "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro, Minas Gerais.",
+        "variantes": [
+          "Tabuleiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cachoeira_de_sangue",
+          "nome": "Cachoeira de Sangue",
+          "descricao": "Afloramento de água salgada avermelhada na geleira Taylor, nos Vales Secos de McMurdo, na Antártida.",
+          "variantes": [
+            "Blood Falls"
+          ]
+        },
+        {
+          "id": "taler",
+          "nome": "Táler",
+          "descricao": "Grande moeda de prata cunhada na Europa a partir do século dezesseis, originalmente com prata das minas de Joachimsthal, na Boêmia.",
+          "variantes": [
+            "Thaler",
+            "Joachimsthaler"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Monte Bromo",
+        "descricao": "Vulcão ativo da montanhas Tengger, em Java Oriental, Indonésia.",
+        "variantes": [
+          "Bromo",
+          "Gunung Bromo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        },
+        {
+          "id": "monte_olimpo",
+          "nome": "Monte Olimpo",
+          "descricao": "Enorme vulcão-escudo marciano, um dos maiores vulcões conhecidos do Sistema Solar.",
+          "variantes": [
+            "Olympus Mons"
+          ]
+        },
+        {
+          "id": "mont_blanc",
+          "nome": "Mont Blanc",
+          "descricao": "Montanha mais alta dos Alpes, no maciço do Mont Blanc, na fronteira entre França e Itália.",
+          "variantes": [
+            "Monte Branco",
+            "Monte Bianco"
+          ]
+        },
+        {
+          "id": "stromboli",
+          "nome": "Stromboli",
+          "descricao": "Ilha vulcânica das Ilhas Eólias, no Mar Tirreno, ao norte da Sicília.",
+          "variantes": [
+            "Ilha de Stromboli",
+            "Monte Stromboli",
+            "Vulcão Stromboli"
+          ]
+        },
+        {
+          "id": "monte_roraima",
+          "nome": "Monte Roraima",
+          "descricao": "Tepui de topo plano na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+          "variantes": [
+            "Roraima",
+            "Mount Roraima",
+            "Tepui Roraima",
+            "Roraima-tepui"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vale da Morte",
+        "descricao": "Vale desértico no leste da Califórnia, nos Estados Unidos, no norte do deserto de Mojave.",
+        "variantes": [
+          "Death Valley"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vale_da_morte",
+          "nome": "Vale da Morte",
+          "descricao": "Vale desértico do oeste dos Estados Unidos, conhecido pelo calor extremo",
+          "variantes": [
+            "Death Valley"
+          ]
+        },
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "lei_de_moore",
+          "nome": "Lei de Moore",
+          "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+          "variantes": [
+            "Moore's law"
+          ]
+        },
+        {
+          "id": "grande_vale_do_rift",
+          "nome": "Grande Vale do Rift",
+          "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+          "variantes": [
+            "Vale do Rift",
+            "Rift do Leste Africano",
+            "Great Rift Valley",
+            "Rifte da África Oriental",
+            "East African Rift"
+          ]
+        },
+        {
+          "id": "ed_mort",
+          "nome": "Ed Mort",
+          "descricao": "Detetive particular azarado e falido, personagem de Luis Fernando Verissimo levado aos quadrinhos com desenhos de Miguel Paiva",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Huangshan é uma cordilheira em Anhui; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Eiger não aparece entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A cachoeira de Minas Gerais não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O vulcão Bromo é diferente do elemento químico bromo e das outras candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "vale_da_morte",
+      "motivo": "Mesmo nome e mesma entidade: vale desértico no oeste dos EUA, com a variante Death Valley."
+    }
+  ]
+}
