@@ -1,0 +1,229 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No rótulo do champanhe, qual destas classificações indica a bebida mais doce?",
+        "resposta": "Doux"
+      },
+      "existentes": [
+        {
+          "id": "q00225",
+          "pergunta": "No método tradicional usado para fazer champanhe, que processo dentro da própria garrafa cria as bolhas?",
+          "resposta": "Uma segunda fermentação"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No Peru, como se chama o caldo cítrico e picante que sobra da marinada do ceviche, servido até em copinhos?",
+        "resposta": "Leche de tigre"
+      },
+      "existentes": [
+        {
+          "id": "q04463",
+          "pergunta": "Que prato é este?",
+          "resposta": "Ceviche"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Na botânica, o que são os pontinhos amarelados espalhados pela superfície do morango, que parecem sementes?",
+        "resposta": "Os frutos verdadeiros"
+      },
+      "existentes": [
+        {
+          "id": "q02688",
+          "pergunta": "Botanicamente, o que são os pontinhos na superfície do morango que parecem sementes?",
+          "resposta": "Os frutos verdadeiros, chamados aquênios"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em lembrança da pressa na fuga do Egito, que característica tem a matsá, o pão comido na Páscoa judaica?",
+        "resposta": "É feita sem fermento"
+      },
+      "existentes": [
+        {
+          "id": "q08939",
+          "pergunta": "Durante o Pessach, os judeus comem um pão sem fermento, a matzá. Segundo a tradição, ele lembra que os hebreus saíram do Egito de que jeito?",
+          "resposta": "Às pressas"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A trufa cresce escondida debaixo da terra. Além de cães treinados, qual animal é tradicionalmente usado para farejá-la?",
+        "resposta": "Porco"
+      },
+      "existentes": [
+        {
+          "id": "q02673",
+          "pergunta": "Tradicionalmente, porcas farejam trufas debaixo da terra. As trufas têm um composto parecido com o feromônio sexual de qual animal?",
+          "resposta": "Javali"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Traduzido do espanhol, o que significa o nome do coquetel caribenho piña colada?",
+        "resposta": "Abacaxi coado"
+      },
+      "existentes": [
+        {
+          "id": "q06103",
+          "pergunta": "Feita com rum, creme de coco e abacaxi, a piña colada foi declarada a bebida oficial de qual ilha caribenha?",
+          "resposta": "Porto Rico"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A fruta kiwi, nativa da China, tem o nome de uma ave que é símbolo de qual país?",
+        "resposta": "Nova Zelândia"
+      },
+      "existentes": [
+        {
+          "id": "q02655",
+          "pergunta": "Antes de receber o nome de uma ave da Nova Zelândia, a fruta kiwi era vendida como groselha de qual país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q02764",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Kiwi"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Na botânica, o que o abacate e a canela têm em comum?",
+        "resposta": "Família das lauráceas"
+      },
+      "existentes": [
+        {
+          "id": "q02767",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Abacate"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O que faz o grão de milho de pipoca estourar quando vai ao fogo?",
+        "resposta": "A água de dentro vira vapor"
+      },
+      "existentes": [
+        {
+          "id": "q00189",
+          "pergunta": "O nome pipoca vem do tupi e descreve o que acontece com o grão de milho no fogo. O que ele significa?",
+          "resposta": "Pele estourada"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Segundo a tradição, o conde inglês que deu nome ao sanduíche pedia carne entre fatias de pão para não precisar sair de onde?",
+        "resposta": "Da mesa de jogo"
+      },
+      "existentes": [
+        {
+          "id": "q08514",
+          "pergunta": "Segundo a história mais conhecida, o conde de Sandwich pedia carne entre fatias de pão para não interromper qual atividade?",
+          "resposta": "Jogo de cartas"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No século dezenove, que cientista francês criou o método de aquecer bebidas para matar micróbios, usado hoje no leite?",
+        "resposta": "Louis Pasteur"
+      },
+      "existentes": [
+        {
+          "id": "q00652",
+          "pergunta": "O processo que aquece o leite para matar micróbios e a primeira vacina contra a raiva aplicada num ser humano têm em comum qual cientista francês?",
+          "resposta": "Louis Pasteur"
+        },
+        {
+          "id": "q04617",
+          "pergunta": "Nos anos 1860, Louis Pasteur desenvolveu o aquecimento que leva seu nome para impedir que qual bebida estragasse?",
+          "resposta": "Vinho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Classificação de doçura do rótulo vs. segunda fermentação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Leche de tigre é fato diferente do prato ceviche (imagem)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: pontinhos do morango são os frutos verdadeiros.",
+      "id_existente": "q02688"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a razão/lembrança da matzá: saída apressada, sem fermento.",
+      "id_existente": "q08939"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Animal que fareja trufas (porco) vs. animal do feromônio (javali); fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. ilha onde é bebida oficial."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas giram em torno do kiwi ser nome da ave da Nova Zelândia; a existente menciona isso na pergunta, mas pergunta a China. Fato diferente.",
+      "id_existente": "q02655"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Família botânica do abacate é fato distinto da imagem da fruta."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Mecanismo do estouro vs. etimologia do nome."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: conde pedia carne no pão para não parar de jogar.",
+      "id_existente": "q08514"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Quem criou a pasteurização é distinto de vinho, mas a q00652 tem resposta Pasteur ligada ao leite; dúvida, nova."
+    }
+  ]
+}

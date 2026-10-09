@@ -1,0 +1,1555 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Café robusta",
+        "descricao": "Espécie de cafeeiro Coffea canephora, cultivada no Brasil sobretudo na variedade conilon, de grão mais amargo e rico em cafeína.",
+        "variantes": [
+          "Conilon",
+          "Coffea canephora",
+          "Robusta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coffea_canephora"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas espécies e variedades de café tem o maior teor de cafeína no grão?",
+      "resposta": "Robusta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coffea_canephora"
+      ],
+      "distratores": [
+        "Arábica",
+        "Libérica",
+        "Bourbon"
+      ],
+      "ancora": "cafe_robusta"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Chá preto",
+        "descricao": "Tipo de chá feito das folhas da Camellia sinensis submetidas a oxidação completa antes da secagem.",
+        "variantes": [
+          "Black tea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_tea"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Todos os chás verdadeiros vêm da Camellia sinensis. Qual tipo tem as folhas totalmente oxidadas antes da secagem, ao contrário do verde e do branco?",
+      "resposta": "Chá preto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_tea"
+      ],
+      "ancora": "cha_preto"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Filé-mignon",
+        "descricao": "Corte bovino retirado do lombo, ao longo da coluna do animal, conhecido pela maciez.",
+        "variantes": [
+          "Filé mignon",
+          "Lombo de boi",
+          "Tenderloin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Beef_tenderloin"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Por vir de um músculo que quase não trabalha, qual corte bovino é considerado o mais macio do boi?",
+      "resposta": "Filé-mignon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Beef_tenderloin"
+      ],
+      "ancora": "file_mignon"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Açúcar mascavo",
+        "descricao": "Açúcar de cana não refinado, escuro e úmido, que conserva o melaço da cana.",
+        "variantes": [
+          "Mascavo",
+          "Muscovado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/A%C3%A7%C3%BAcar_mascavo",
+          "https://en.wikipedia.org/wiki/Muscovado"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre os tipos de açúcar de cana vendidos no Brasil, qual é o menos refinado, conservando o melaço?",
+      "resposta": "Mascavo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muscovado",
+        "https://pt.wikipedia.org/wiki/A%C3%A7%C3%BAcar_mascavo"
+      ],
+      "distratores": [
+        "Demerara",
+        "Cristal",
+        "Refinado"
+      ],
+      "ancora": "acucar_mascavo"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Acerola",
+        "descricao": "Fruta pequena e vermelha da Malpighia emarginata, muito cultivada no Nordeste brasileiro.",
+        "variantes": [
+          "Cereja-das-antilhas",
+          "Malpighia emarginata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Malpighia_emarginata",
+          "https://pt.wikipedia.org/wiki/Acerola"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas frutas tem, de longe, a maior concentração de vitamina C?",
+      "resposta": "Acerola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Malpighia_emarginata"
+      ],
+      "distratores": [
+        "Laranja",
+        "Limão",
+        "Kiwi"
+      ],
+      "ancora": "acerola"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Azeite extravirgem",
+        "descricao": "Categoria mais alta do azeite de oliva, extraída só por meios mecânicos e com acidez muito baixa.",
+        "variantes": [
+          "Azeite de oliva extravirgem",
+          "Extra virgin olive oil"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olive_oil"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na classificação do azeite de oliva, qual categoria exige a menor acidez e é considerada a de melhor qualidade?",
+      "resposta": "Extravirgem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olive_oil"
+      ],
+      "ancora": "azeite_extravirgem"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "champanhe",
+        "nome": "Champanhe",
+        "descricao": "Vinho espumante produzido na região de Champagne, na França",
+        "variantes": [
+          "Champagne"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Champagne"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "No rótulo do champanhe, qual destas classificações indica a bebida mais doce?",
+      "resposta": "Doux",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sweetness_of_wine",
+        "https://en.wikipedia.org/wiki/Champagne"
+      ],
+      "distratores": [
+        "Brut",
+        "Extra brut",
+        "Demi-sec"
+      ],
+      "ancora": "champanhe"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Pomelo",
+        "descricao": "Fruta cítrica Citrus maxima, nativa do Sudeste Asiático, de casca grossa e polpa doce.",
+        "variantes": [
+          "Citrus maxima",
+          "Toranja-pomelo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pomelo"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual fruta do Sudeste Asiático, que pode passar de um quilo, é a maior de todas as frutas cítricas?",
+      "resposta": "Pomelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pomelo"
+      ],
+      "ancora": "pomelo"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Lager",
+        "descricao": "Família de cervejas de baixa fermentação, feitas com leveduras que trabalham a frio no fundo do tanque.",
+        "variantes": [
+          "Cerveja lager"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lager"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes tipos de cerveja fermenta em temperaturas mais baixas, com leveduras que trabalham no fundo do tanque?",
+      "resposta": "Lager",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lager"
+      ],
+      "distratores": [
+        "Ale",
+        "Stout",
+        "IPA"
+      ],
+      "ancora": "lager"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Tahine",
+        "descricao": "Pasta de sementes de gergelim moídas, usada no homus e em molhos do Oriente Médio.",
+        "variantes": [
+          "Tahini",
+          "Tahina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tahini"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Ingrediente essencial do homus, a pasta árabe chamada tahine é feita de qual semente moída?",
+      "resposta": "Gergelim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tahini"
+      ],
+      "ancora": "tahine"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Marzipã",
+        "descricao": "Massa doce de açúcar e amêndoas moídas, usada para modelar frutinhas e figuras de confeitaria.",
+        "variantes": [
+          "Maçapão",
+          "Marzipan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marzipan"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Usado para modelar frutinhas e bichinhos de doce, o marzipã é feito de açúcar e qual fruto seco moído?",
+      "resposta": "Amêndoa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marzipan"
+      ],
+      "ancora": "marzipa"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Cuscuz marroquino",
+        "descricao": "Prato do Magrebe de pequenos grãos de sêmola cozidos no vapor, servido com carnes e legumes.",
+        "variantes": [
+          "Couscous",
+          "Cuscuz magrebino"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Couscous"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Bem diferente do cuscuz nordestino, feito de milho, o cuscuz marroquino é preparado com sêmola de qual cereal?",
+      "resposta": "Trigo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Couscous"
+      ],
+      "ancora": "cuscuz_marroquino"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Água tônica",
+        "descricao": "Refrigerante gaseificado e amargo, usado como mistura no gim-tônica.",
+        "variantes": [
+          "Tônica",
+          "Tonic water"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tonic_water"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que substância amarga, extraída da casca da quina e usada contra a malária, dá o sabor característico da água tônica?",
+      "resposta": "Quinino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tonic_water"
+      ],
+      "ancora": "agua_tonica"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Bellini",
+        "descricao": "Coquetel italiano de prosecco com purê de pêssego, criado no Harry's Bar, em Veneza.",
+        "variantes": [
+          "Bellini (coquetel)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bellini_(cocktail)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Criado num famoso bar de Veneza, o coquetel Bellini mistura espumante prosecco com purê de qual fruta?",
+      "resposta": "Pêssego",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bellini_(cocktail)"
+      ],
+      "ancora": "bellini"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Bellini",
+        "descricao": "Coquetel italiano de prosecco com purê de pêssego, criado no Harry's Bar, em Veneza.",
+        "variantes": [
+          "Bellini (coquetel)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bellini_(cocktail)"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Nascidos no mesmo bar de Veneza, o coquetel Bellini e o prato carpaccio receberam nomes em homenagem a quem?",
+      "resposta": "Pintores renascentistas venezianos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bellini_(cocktail)",
+        "https://en.wikipedia.org/wiki/Carpaccio"
+      ],
+      "ancora": "bellini"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "ceviche",
+        "nome": "Ceviche",
+        "descricao": "Prato frio de peixe ou frutos do mar crus marinados em suco cítrico, prato nacional do Peru.",
+        "variantes": [
+          "Cebiche",
+          "Seviche"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ceviche"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No Peru, como se chama o caldo cítrico e picante que sobra da marinada do ceviche, servido até em copinhos?",
+      "resposta": "Leche de tigre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Leche_de_tigre",
+        "https://en.wikipedia.org/wiki/Ceviche"
+      ],
+      "ancora": "ceviche"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Wasabi",
+        "descricao": "Condimento japonês verde e picante feito do rizoma da planta Eutrema japonicum, servido com sushi.",
+        "variantes": [
+          "Raiz-forte japonesa",
+          "Eutrema japonicum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wasabi"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Fora do Japão, a pasta verde servida como wasabi junto com o sushi costuma ser feita, na verdade, de qual raiz?",
+      "resposta": "Raiz-forte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wasabi"
+      ],
+      "ancora": "wasabi"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Bourbon",
+        "descricao": "Uísque americano, tradicional do Kentucky, envelhecido em barris novos de carvalho tostado.",
+        "variantes": [
+          "Bourbon whiskey",
+          "Uísque bourbon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bourbon_whiskey"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Pela lei americana, o uísque bourbon precisa ser feito com mais da metade de qual cereal?",
+      "resposta": "Milho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bourbon_whiskey"
+      ],
+      "distratores": [
+        "Centeio",
+        "Cevada",
+        "Trigo"
+      ],
+      "ancora": "bourbon"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Chocolate branco",
+        "descricao": "Doce de cor marfim feito de açúcar, leite e manteiga de cacau, sem os sólidos escuros do cacau.",
+        "variantes": [
+          "White chocolate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/White_chocolate"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Sem a massa escura do chocolate comum, o chocolate branco é feito com açúcar, leite e qual ingrediente gorduroso?",
+      "resposta": "Manteiga de cacau",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/White_chocolate"
+      ],
+      "ancora": "chocolate_branco"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Arroz de carreteiro",
+        "descricao": "Prato gaúcho de arroz cozido com carne-seca picada, criado pelos condutores de carretas do pampa.",
+        "variantes": [
+          "Arroz carreteiro"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Arroz_de_carreteiro"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Comida dos carreteiros que cruzavam o pampa gaúcho, o arroz de carreteiro é feito com qual carne salgada e seca ao sol?",
+      "resposta": "Charque",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Arroz_de_carreteiro"
+      ],
+      "ancora": "arroz_de_carreteiro"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Croque-madame",
+        "descricao": "Sanduíche francês quente de presunto e queijo gratinado, coberto com um ovo.",
+        "variantes": [
+          "Croque madame"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Croque_monsieur"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O que o sanduíche francês croque-madame tem a mais que o seu parente croque-monsieur?",
+      "resposta": "Um ovo por cima",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Croque_monsieur"
+      ],
+      "ancora": "croque_madame"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Molho inglês",
+        "descricao": "Molho escuro e agridoce fermentado, originário de Worcester, na Inglaterra, usado em carnes e coquetéis.",
+        "variantes": [
+          "Molho Worcestershire",
+          "Worcestershire sauce"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Worcestershire_sauce"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Usado no bife e no coquetel Bloody Mary, o molho inglês leva na receita qual peixe pequeno fermentado?",
+      "resposta": "Anchova",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Worcestershire_sauce"
+      ],
+      "ancora": "molho_ingles"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Gaspacho",
+        "descricao": "Sopa andaluza de tomate, pepino, pimentão, alho e azeite batidos crus.",
+        "variantes": [
+          "Gazpacho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gazpacho"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Diferente da maioria das sopas, como é tradicionalmente servido o gaspacho, sopa andaluza de tomate, pepino e pimentão?",
+      "resposta": "Frio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gazpacho"
+      ],
+      "ancora": "gaspacho"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Castanha-do-pará",
+        "descricao": "Semente da castanheira amazônica Bertholletia excelsa, vendida como fruto seco.",
+        "variantes": [
+          "Castanha-do-brasil",
+          "Brazil nut",
+          "Bertholletia excelsa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_nut"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que mineral a castanha-do-pará tem em tanta quantidade que poucas castanhas por dia já cobrem a necessidade do corpo?",
+      "resposta": "Selênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_nut"
+      ],
+      "distratores": [
+        "Ferro",
+        "Cálcio",
+        "Potássio"
+      ],
+      "ancora": "castanha_do_para"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Trufa",
+        "descricao": "Fungo subterrâneo do gênero Tuber, de aroma intenso, uma das iguarias mais caras da culinária.",
+        "variantes": [
+          "Trufa (fungo)",
+          "Tuber"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Truffle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A trufa cresce escondida debaixo da terra. Além de cães treinados, qual animal é tradicionalmente usado para farejá-la?",
+      "resposta": "Porco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Trufa"
+      ],
+      "ancora": "trufa"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Kopi luwak",
+        "descricao": "Café da Indonésia feito com grãos parcialmente digeridos pela civeta-das-palmeiras.",
+        "variantes": [
+          "Café de civeta",
+          "Civet coffee"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kopi_luwak"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O caríssimo café indonésio kopi luwak é feito com grãos recolhidos de onde?",
+      "resposta": "Das fezes da civeta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kopi_luwak"
+      ],
+      "ancora": "kopi_luwak"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Brunch",
+        "descricao": "Refeição farta servida no fim da manhã, combinando pratos de café da manhã e de almoço.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brunch"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra inglesa brunch, refeição farta servida no fim da manhã, junta os nomes de quais duas refeições?",
+      "resposta": "Café da manhã e almoço",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brunch"
+      ],
+      "ancora": "brunch"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "pina_colada",
+        "nome": "Piña colada",
+        "descricao": "Coquetel caribenho de rum, creme de coco e suco de abacaxi.",
+        "variantes": [
+          "Pina colada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Traduzido do espanhol, o que significa o nome do coquetel caribenho piña colada?",
+      "resposta": "Abacaxi coado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada"
+      ],
+      "ancora": "pina_colada"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Molho bechamel",
+        "descricao": "Molho branco francês de leite engrossado com manteiga e farinha, base de lasanhas e gratinados.",
+        "variantes": [
+          "Bechamel",
+          "Béchamel",
+          "Molho branco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Acredita-se que o molho bechamel tenha o nome de Louis de Béchameil, mordomo-chefe de qual rei francês do século dezessete?",
+      "resposta": "Luís Quatorze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce"
+      ],
+      "ancora": "molho_bechamel"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Absinto",
+        "descricao": "Bebida destilada de alto teor alcoólico, aromatizada com losna e anis, famosa na Paris do século dezenove.",
+        "variantes": [
+          "Absinthe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Absinthe",
+          "https://pt.wikipedia.org/wiki/Absinto"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por sua cor e pela fama de inspirar artistas, que apelido o absinto ganhou na França do século dezenove?",
+      "resposta": "A fada verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Absinthe"
+      ],
+      "ancora": "absinto"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Raclette",
+        "descricao": "Prato suíço de queijo derretido raspado sobre batatas cozidas, picles e frios.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Raclette"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome do prato suíço raclette, de queijo derretido servido com batatas, vem de um verbo francês que significa o quê?",
+      "resposta": "Raspar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raclette"
+      ],
+      "distratores": [
+        "Derreter",
+        "Assar",
+        "Esquentar"
+      ],
+      "ancora": "raclette"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Vinho verde",
+        "descricao": "Vinho português da região do Minho, leve e jovem, produzido em versões branca, rosé e tinta.",
+        "variantes": [
+          "Vinho Verde"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vinho_Verde"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Produzido no norte de Portugal, o vinho verde pode ser branco, rosé ou tinto. A que se refere o verde do nome?",
+      "resposta": "Ao fato de ser um vinho jovem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vinho_Verde"
+      ],
+      "ancora": "vinho_verde"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Cúrcuma",
+        "descricao": "Raiz alaranjada da planta Curcuma longa, usada como tempero e corante, também chamada açafrão-da-terra.",
+        "variantes": [
+          "Açafrão-da-terra",
+          "Curcuma longa",
+          "Turmeric"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Turmeric"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Chamada de açafrão-da-terra, a cúrcuma não tem parentesco com o açafrão. De qual destes temperos ela é parente próxima?",
+      "resposta": "Gengibre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Turmeric"
+      ],
+      "distratores": [
+        "Pimenta-do-reino",
+        "Canela",
+        "Cravo"
+      ],
+      "ancora": "curcuma"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "id_existente": "abacate",
+        "nome": "Abacate",
+        "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+        "variantes": [
+          "Persea americana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avocado"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na botânica, o que o abacate e a canela têm em comum?",
+      "resposta": "Família das lauráceas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lauraceae"
+      ],
+      "ancora": "abacate"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "pipoca",
+        "nome": "Pipoca",
+        "descricao": "Grãos de milho que estouram quando aquecidos, petisco comum no cinema e nas festas juninas",
+        "variantes": [
+          "Popcorn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Popcorn"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O que faz o grão de milho de pipoca estourar quando vai ao fogo?",
+      "resposta": "A água de dentro vira vapor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Popcorn"
+      ],
+      "ancora": "pipoca"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Fugu",
+        "descricao": "Prato japonês de baiacu, peixe que contém uma toxina mortal e exige preparo especializado.",
+        "variantes": [
+          "Baiacu japonês"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fugu"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que, no Japão, só cozinheiros com licença especial podem preparar o peixe fugu?",
+      "resposta": "O peixe tem veneno mortal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fugu"
+      ],
+      "ancora": "fugu"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Emmental",
+        "descricao": "Queijo suíço de massa amarela e firme, famoso pelos grandes buracos redondos.",
+        "variantes": [
+          "Emmentaler",
+          "Queijo suíço"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emmental_cheese"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Durante a maturação do emmental, bactérias produzem um gás que forma os famosos buracos. Que gás é esse?",
+      "resposta": "Gás carbônico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emmental_cheese",
+        "https://pt.wikipedia.org/wiki/Emmentaler_%28queijo%29"
+      ],
+      "ancora": "emmental"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Daiquiri",
+        "descricao": "Coquetel cubano de rum branco, suco de limão e açúcar.",
+        "variantes": [
+          "Daiquirí"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Daiquiri"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O coquetel daiquiri, de rum, limão e açúcar, leva o nome de uma praia e de uma mina de ferro de qual país?",
+      "resposta": "Cuba",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Daiquiri"
+      ],
+      "ancora": "daiquiri"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Torta holandesa",
+        "descricao": "Torta gelada de creme com base e borda de biscoitos e cobertura de chocolate, popular nas confeitarias brasileiras.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Torta_holandesa"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Apesar do nome, a torta holandesa, de creme com borda de biscoitos e cobertura de chocolate, foi criada em qual país?",
+      "resposta": "Brasil",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Torta_holandesa"
+      ],
+      "ancora": "torta_holandesa"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Biscoito da sorte",
+        "descricao": "Biscoito crocante dobrado que esconde um papelzinho com uma mensagem, servido em restaurantes chineses.",
+        "variantes": [
+          "Fortune cookie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fortune_cookie"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Servidos em restaurantes chineses mundo afora, os biscoitos da sorte foram popularizados no início do século vinte em qual país?",
+      "resposta": "Estados Unidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fortune_cookie"
+      ],
+      "ancora": "biscoito_da_sorte"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Pasteurização",
+        "descricao": "Processo de aquecer alimentos e bebidas a temperaturas moderadas para eliminar micróbios, usado no leite.",
+        "variantes": [
+          "Pasteurização do leite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pasteurization"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, que cientista francês criou o método de aquecer bebidas para matar micróbios, usado hoje no leite?",
+      "resposta": "Louis Pasteur",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pasteurization"
+      ],
+      "ancora": "pasteurizacao"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Peru assado",
+        "descricao": "Peru inteiro assado no forno, prato tradicional de festas nos Estados Unidos e no Brasil.",
+        "variantes": [
+          "Peru de Natal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Turkey_as_food"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Nos Estados Unidos, o peru assado com molho de oxicoco é o prato central de qual feriado de novembro?",
+      "resposta": "Dia de Ação de Graças",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Turkey_as_food",
+        "https://en.wikipedia.org/wiki/Thanksgiving_dinner"
+      ],
+      "ancora": "peru_assado"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Dúzia de padeiro",
+        "descricao": "Expressão inglesa para um conjunto de treze unidades, ligada ao costume dos padeiros de dar uma peça extra.",
+        "variantes": [
+          "Baker's dozen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dozen"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Pelo antigo costume dos padeiros ingleses de dar uma peça extra, quantas unidades tem a chamada dúzia de padeiro?",
+      "resposta": "Treze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dozen"
+      ],
+      "ancora": "duzia_de_padeiro"
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Garrafa de vinho",
+        "descricao": "Recipiente de vidro padronizado em que o vinho é engarrafado e vendido.",
+        "variantes": [
+          "Wine bottle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wine_bottle"
+        ]
+      },
+      "tema": "Cotidiano",
+      "subtema": "Culinária e Bebidas",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quantos mililitros cabem na garrafa de vinho de tamanho padrão?",
+      "resposta": "Setecentos e cinquenta mililitros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wine_bottle"
+      ],
+      "ancora": "garrafa_de_vinho"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "cafe_robusta",
+      "nome": "Café robusta",
+      "descricao": "Espécie de cafeeiro Coffea canephora, cultivada no Brasil sobretudo na variedade conilon, de grão mais amargo e rico em cafeína.",
+      "variantes": [
+        "Conilon",
+        "Coffea canephora",
+        "Robusta"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Coffea_canephora"
+      ]
+    },
+    {
+      "id": "cha_preto",
+      "nome": "Chá preto",
+      "descricao": "Tipo de chá feito das folhas da Camellia sinensis submetidas a oxidação completa antes da secagem.",
+      "variantes": [
+        "Black tea"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Black_tea"
+      ]
+    },
+    {
+      "id": "file_mignon",
+      "nome": "Filé-mignon",
+      "descricao": "Corte bovino retirado do lombo, ao longo da coluna do animal, conhecido pela maciez.",
+      "variantes": [
+        "Lombo de boi",
+        "Tenderloin"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Beef_tenderloin"
+      ]
+    },
+    {
+      "id": "acucar_mascavo",
+      "nome": "Açúcar mascavo",
+      "descricao": "Açúcar de cana não refinado, escuro e úmido, que conserva o melaço da cana.",
+      "variantes": [
+        "Mascavo",
+        "Muscovado"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/A%C3%A7%C3%BAcar_mascavo",
+        "https://en.wikipedia.org/wiki/Muscovado"
+      ]
+    },
+    {
+      "id": "acerola",
+      "nome": "Acerola",
+      "descricao": "Fruta pequena e vermelha da Malpighia emarginata, muito cultivada no Nordeste brasileiro.",
+      "variantes": [
+        "Cereja-das-antilhas",
+        "Malpighia emarginata"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Malpighia_emarginata",
+        "https://pt.wikipedia.org/wiki/Acerola"
+      ]
+    },
+    {
+      "id": "azeite_extravirgem",
+      "nome": "Azeite extravirgem",
+      "descricao": "Categoria mais alta do azeite de oliva, extraída só por meios mecânicos e com acidez muito baixa.",
+      "variantes": [
+        "Azeite de oliva extravirgem",
+        "Extra virgin olive oil"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Olive_oil"
+      ]
+    },
+    {
+      "id": "pomelo",
+      "nome": "Pomelo",
+      "descricao": "Fruta cítrica Citrus maxima, nativa do Sudeste Asiático, de casca grossa e polpa doce.",
+      "variantes": [
+        "Citrus maxima",
+        "Toranja-pomelo"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pomelo"
+      ]
+    },
+    {
+      "id": "lager",
+      "nome": "Lager",
+      "descricao": "Família de cervejas de baixa fermentação, feitas com leveduras que trabalham a frio no fundo do tanque.",
+      "variantes": [
+        "Cerveja lager"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lager"
+      ]
+    },
+    {
+      "id": "tahine",
+      "nome": "Tahine",
+      "descricao": "Pasta de sementes de gergelim moídas, usada no homus e em molhos do Oriente Médio.",
+      "variantes": [
+        "Tahini",
+        "Tahina"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tahini"
+      ]
+    },
+    {
+      "id": "marzipa",
+      "nome": "Marzipã",
+      "descricao": "Massa doce de açúcar e amêndoas moídas, usada para modelar frutinhas e figuras de confeitaria.",
+      "variantes": [
+        "Maçapão",
+        "Marzipan"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Marzipan"
+      ]
+    },
+    {
+      "id": "cuscuz_marroquino",
+      "nome": "Cuscuz marroquino",
+      "descricao": "Prato do Magrebe de pequenos grãos de sêmola cozidos no vapor, servido com carnes e legumes.",
+      "variantes": [
+        "Couscous",
+        "Cuscuz magrebino"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Couscous"
+      ]
+    },
+    {
+      "id": "agua_tonica",
+      "nome": "Água tônica",
+      "descricao": "Refrigerante gaseificado e amargo, usado como mistura no gim-tônica.",
+      "variantes": [
+        "Tônica",
+        "Tonic water"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Tonic_water"
+      ]
+    },
+    {
+      "id": "bellini",
+      "nome": "Bellini",
+      "descricao": "Coquetel italiano de prosecco com purê de pêssego, criado no Harry's Bar, em Veneza.",
+      "variantes": [
+        "Bellini (coquetel)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bellini_(cocktail)"
+      ]
+    },
+    {
+      "id": "wasabi",
+      "nome": "Wasabi",
+      "descricao": "Condimento japonês verde e picante feito do rizoma da planta Eutrema japonicum, servido com sushi.",
+      "variantes": [
+        "Raiz-forte japonesa",
+        "Eutrema japonicum"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Wasabi"
+      ]
+    },
+    {
+      "id": "bourbon",
+      "nome": "Bourbon",
+      "descricao": "Uísque americano, tradicional do Kentucky, envelhecido em barris novos de carvalho tostado.",
+      "variantes": [
+        "Bourbon whiskey",
+        "Uísque bourbon"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bourbon_whiskey"
+      ]
+    },
+    {
+      "id": "chocolate_branco",
+      "nome": "Chocolate branco",
+      "descricao": "Doce de cor marfim feito de açúcar, leite e manteiga de cacau, sem os sólidos escuros do cacau.",
+      "variantes": [
+        "White chocolate"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/White_chocolate"
+      ]
+    },
+    {
+      "id": "arroz_de_carreteiro",
+      "nome": "Arroz de carreteiro",
+      "descricao": "Prato gaúcho de arroz cozido com carne-seca picada, criado pelos condutores de carretas do pampa.",
+      "variantes": [
+        "Arroz carreteiro"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Arroz_de_carreteiro"
+      ]
+    },
+    {
+      "id": "croque_madame",
+      "nome": "Croque-madame",
+      "descricao": "Sanduíche francês quente de presunto e queijo gratinado, coberto com um ovo.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Croque_monsieur"
+      ]
+    },
+    {
+      "id": "molho_ingles",
+      "nome": "Molho inglês",
+      "descricao": "Molho escuro e agridoce fermentado, originário de Worcester, na Inglaterra, usado em carnes e coquetéis.",
+      "variantes": [
+        "Molho Worcestershire",
+        "Worcestershire sauce"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Worcestershire_sauce"
+      ]
+    },
+    {
+      "id": "gaspacho",
+      "nome": "Gaspacho",
+      "descricao": "Sopa andaluza de tomate, pepino, pimentão, alho e azeite batidos crus.",
+      "variantes": [
+        "Gazpacho"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gazpacho"
+      ]
+    },
+    {
+      "id": "castanha_do_para",
+      "nome": "Castanha-do-pará",
+      "descricao": "Semente da castanheira amazônica Bertholletia excelsa, vendida como fruto seco.",
+      "variantes": [
+        "Castanha-do-brasil",
+        "Brazil nut",
+        "Bertholletia excelsa"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Brazil_nut"
+      ]
+    },
+    {
+      "id": "kopi_luwak",
+      "nome": "Kopi luwak",
+      "descricao": "Café da Indonésia feito com grãos parcialmente digeridos pela civeta-das-palmeiras.",
+      "variantes": [
+        "Café de civeta",
+        "Civet coffee"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Kopi_luwak"
+      ]
+    },
+    {
+      "id": "brunch",
+      "nome": "Brunch",
+      "descricao": "Refeição farta servida no fim da manhã, combinando pratos de café da manhã e de almoço.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Brunch"
+      ]
+    },
+    {
+      "id": "molho_bechamel",
+      "nome": "Molho bechamel",
+      "descricao": "Molho branco francês de leite engrossado com manteiga e farinha, base de lasanhas e gratinados.",
+      "variantes": [
+        "Bechamel",
+        "Béchamel",
+        "Molho branco"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce"
+      ]
+    },
+    {
+      "id": "absinto",
+      "nome": "Absinto",
+      "descricao": "Bebida destilada de alto teor alcoólico, aromatizada com losna e anis, famosa na Paris do século dezenove.",
+      "variantes": [
+        "Absinthe"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Absinthe",
+        "https://pt.wikipedia.org/wiki/Absinto"
+      ]
+    },
+    {
+      "id": "raclette",
+      "nome": "Raclette",
+      "descricao": "Prato suíço de queijo derretido raspado sobre batatas cozidas, picles e frios.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Raclette"
+      ]
+    },
+    {
+      "id": "vinho_verde",
+      "nome": "Vinho verde",
+      "descricao": "Vinho português da região do Minho, leve e jovem, produzido em versões branca, rosé e tinta.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Vinho_Verde"
+      ]
+    },
+    {
+      "id": "curcuma",
+      "nome": "Cúrcuma",
+      "descricao": "Raiz alaranjada da planta Curcuma longa, usada como tempero e corante, também chamada açafrão-da-terra.",
+      "variantes": [
+        "Açafrão-da-terra",
+        "Curcuma longa",
+        "Turmeric"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Turmeric"
+      ]
+    },
+    {
+      "id": "fugu",
+      "nome": "Fugu",
+      "descricao": "Prato japonês de baiacu, peixe que contém uma toxina mortal e exige preparo especializado.",
+      "variantes": [
+        "Baiacu japonês"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fugu"
+      ]
+    },
+    {
+      "id": "emmental",
+      "nome": "Emmental",
+      "descricao": "Queijo suíço de massa amarela e firme, famoso pelos grandes buracos redondos.",
+      "variantes": [
+        "Emmentaler",
+        "Queijo suíço"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Emmental_cheese"
+      ]
+    },
+    {
+      "id": "daiquiri",
+      "nome": "Daiquiri",
+      "descricao": "Coquetel cubano de rum branco, suco de limão e açúcar.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Daiquiri"
+      ]
+    },
+    {
+      "id": "torta_holandesa",
+      "nome": "Torta holandesa",
+      "descricao": "Torta gelada de creme com base e borda de biscoitos e cobertura de chocolate, popular nas confeitarias brasileiras.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Torta_holandesa"
+      ]
+    },
+    {
+      "id": "biscoito_da_sorte",
+      "nome": "Biscoito da sorte",
+      "descricao": "Biscoito crocante dobrado que esconde um papelzinho com uma mensagem, servido em restaurantes chineses.",
+      "variantes": [
+        "Fortune cookie"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fortune_cookie"
+      ]
+    },
+    {
+      "id": "peru_assado",
+      "nome": "Peru assado",
+      "descricao": "Peru inteiro assado no forno, prato tradicional de festas nos Estados Unidos e no Brasil.",
+      "variantes": [
+        "Peru de Natal"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Turkey_as_food"
+      ]
+    },
+    {
+      "id": "duzia_de_padeiro",
+      "nome": "Dúzia de padeiro",
+      "descricao": "Expressão inglesa para um conjunto de treze unidades, ligada ao costume dos padeiros de dar uma peça extra.",
+      "variantes": [
+        "Baker's dozen"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dozen"
+      ]
+    },
+    {
+      "id": "garrafa_de_vinho",
+      "nome": "Garrafa de vinho",
+      "descricao": "Recipiente de vidro padronizado em que o vinho é engarrafado e vendido.",
+      "variantes": [
+        "Wine bottle"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Wine_bottle"
+      ]
+    }
+  ],
+  "variantes": {
+    "champanhe": [
+      "Champanhe",
+      "Champagne"
+    ],
+    "ceviche": [
+      "Ceviche",
+      "Cebiche",
+      "Seviche"
+    ],
+    "pina_colada": [
+      "Piña colada",
+      "Pina colada"
+    ],
+    "kiwi_2": [
+      "Kiwi",
+      "Kiwifruit",
+      "Groselha-chinesa"
+    ],
+    "abacate": [
+      "Abacate",
+      "Persea americana"
+    ],
+    "abacaxi": [
+      "Abacaxi",
+      "Ananás"
+    ],
+    "pipoca": [
+      "Pipoca",
+      "Popcorn"
+    ],
+    "morango": [
+      "Morango",
+      "Fragaria × ananassa"
+    ],
+    "matza": [
+      "Matsá",
+      "Matzá",
+      "Matzah",
+      "Pão ázimo"
+    ],
+    "trufa": [
+      "Trufa",
+      "Trufa (fungo)",
+      "Tuber"
+    ],
+    "sanduiche": [
+      "Sanduíche",
+      "Sandwich",
+      "Sanduche"
+    ],
+    "pasteurizacao": [
+      "Pasteurização",
+      "Pasteurização do leite"
+    ]
+  }
+}

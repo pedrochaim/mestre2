@@ -166168,5 +166168,628 @@
       "autor": "Marinha do Brasil",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q09695",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cafe_robusta",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas espécies e variedades de café tem o maior teor de cafeína no grão?",
+    "resposta": "Robusta",
+    "distratores": [
+      "Arábica",
+      "Libérica",
+      "Bourbon"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coffea_canephora"
+    ]
+  },
+  {
+    "id": "q09696",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cha_preto",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Todos os chás verdadeiros vêm da Camellia sinensis. Qual tipo tem as folhas totalmente oxidadas antes da secagem, ao contrário do verde e do branco?",
+    "resposta": "Chá preto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_tea"
+    ]
+  },
+  {
+    "id": "q09697",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "file_mignon",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Por vir de um músculo que quase não trabalha, qual corte bovino é considerado o mais macio do boi?",
+    "resposta": "Filé-mignon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beef_tenderloin"
+    ]
+  },
+  {
+    "id": "q09698",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "acucar_mascavo",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre os tipos de açúcar de cana vendidos no Brasil, qual é o menos refinado, conservando o melaço?",
+    "resposta": "Mascavo",
+    "distratores": [
+      "Demerara",
+      "Cristal",
+      "Refinado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Muscovado",
+      "https://pt.wikipedia.org/wiki/A%C3%A7%C3%BAcar_mascavo"
+    ]
+  },
+  {
+    "id": "q09699",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "acerola",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas frutas tem, de longe, a maior concentração de vitamina C?",
+    "resposta": "Acerola",
+    "distratores": [
+      "Laranja",
+      "Limão",
+      "Kiwi"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Malpighia_emarginata"
+    ]
+  },
+  {
+    "id": "q09700",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "azeite_extravirgem",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na classificação do azeite de oliva, qual categoria exige a menor acidez e é considerada a de melhor qualidade?",
+    "resposta": "Extravirgem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olive_oil"
+    ]
+  },
+  {
+    "id": "q09701",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "champanhe",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "No rótulo do champanhe, qual destas classificações indica a bebida mais doce?",
+    "resposta": "Doux",
+    "distratores": [
+      "Brut",
+      "Extra brut",
+      "Demi-sec"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sweetness_of_wine",
+      "https://en.wikipedia.org/wiki/Champagne"
+    ]
+  },
+  {
+    "id": "q09702",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pomelo",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual fruta do Sudeste Asiático, que pode passar de um quilo, é a maior de todas as frutas cítricas?",
+    "resposta": "Pomelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pomelo"
+    ]
+  },
+  {
+    "id": "q09703",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "lager",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes tipos de cerveja fermenta em temperaturas mais baixas, com leveduras que trabalham no fundo do tanque?",
+    "resposta": "Lager",
+    "distratores": [
+      "Ale",
+      "Stout",
+      "IPA"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lager"
+    ]
+  },
+  {
+    "id": "q09704",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tahine",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Ingrediente essencial do homus, a pasta árabe chamada tahine é feita de qual semente moída?",
+    "resposta": "Gergelim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tahini"
+    ]
+  },
+  {
+    "id": "q09705",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "marzipa",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Usado para modelar frutinhas e bichinhos de doce, o marzipã é feito de açúcar e qual fruto seco moído?",
+    "resposta": "Amêndoa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marzipan"
+    ]
+  },
+  {
+    "id": "q09706",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cuscuz_marroquino",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Bem diferente do cuscuz nordestino, feito de milho, o cuscuz marroquino é preparado com sêmola de qual cereal?",
+    "resposta": "Trigo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Couscous"
+    ]
+  },
+  {
+    "id": "q09707",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "agua_tonica",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que substância amarga, extraída da casca da quina e usada contra a malária, dá o sabor característico da água tônica?",
+    "resposta": "Quinino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tonic_water"
+    ]
+  },
+  {
+    "id": "q09708",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bellini",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Criado num famoso bar de Veneza, o coquetel Bellini mistura espumante prosecco com purê de qual fruta?",
+    "resposta": "Pêssego",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bellini_(cocktail)"
+    ]
+  },
+  {
+    "id": "q09709",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bellini",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Nascidos no mesmo bar de Veneza, o coquetel Bellini e o prato carpaccio receberam nomes em homenagem a quem?",
+    "resposta": "Pintores renascentistas venezianos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bellini_(cocktail)",
+      "https://en.wikipedia.org/wiki/Carpaccio"
+    ]
+  },
+  {
+    "id": "q09710",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "ceviche",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Peru, como se chama o caldo cítrico e picante que sobra da marinada do ceviche, servido até em copinhos?",
+    "resposta": "Leche de tigre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leche_de_tigre",
+      "https://en.wikipedia.org/wiki/Ceviche"
+    ]
+  },
+  {
+    "id": "q09711",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "wasabi",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Fora do Japão, a pasta verde servida como wasabi junto com o sushi costuma ser feita, na verdade, de qual raiz?",
+    "resposta": "Raiz-forte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wasabi"
+    ]
+  },
+  {
+    "id": "q09712",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bourbon",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Pela lei americana, o uísque bourbon precisa ser feito com mais da metade de qual cereal?",
+    "resposta": "Milho",
+    "distratores": [
+      "Centeio",
+      "Cevada",
+      "Trigo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bourbon_whiskey"
+    ]
+  },
+  {
+    "id": "q09713",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "chocolate_branco",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Sem a massa escura do chocolate comum, o chocolate branco é feito com açúcar, leite e qual ingrediente gorduroso?",
+    "resposta": "Manteiga de cacau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_chocolate"
+    ]
+  },
+  {
+    "id": "q09714",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "arroz_de_carreteiro",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Comida dos carreteiros que cruzavam o pampa gaúcho, o arroz de carreteiro é feito com qual carne salgada e seca ao sol?",
+    "resposta": "Charque",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arroz_de_carreteiro"
+    ]
+  },
+  {
+    "id": "q09715",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "croque_madame",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O que o sanduíche francês croque-madame tem a mais que o seu parente croque-monsieur?",
+    "resposta": "Um ovo por cima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Croque_monsieur"
+    ]
+  },
+  {
+    "id": "q09716",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "molho_ingles",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Usado no bife e no coquetel Bloody Mary, o molho inglês leva na receita qual peixe pequeno fermentado?",
+    "resposta": "Anchova",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Worcestershire_sauce"
+    ]
+  },
+  {
+    "id": "q09717",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "gaspacho",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Diferente da maioria das sopas, como é tradicionalmente servido o gaspacho, sopa andaluza de tomate, pepino e pimentão?",
+    "resposta": "Frio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gazpacho"
+    ]
+  },
+  {
+    "id": "q09718",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "castanha_do_para",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que mineral a castanha-do-pará tem em tanta quantidade que poucas castanhas por dia já cobrem a necessidade do corpo?",
+    "resposta": "Selênio",
+    "distratores": [
+      "Ferro",
+      "Cálcio",
+      "Potássio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_nut"
+    ]
+  },
+  {
+    "id": "q09719",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "trufa",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A trufa cresce escondida debaixo da terra. Além de cães treinados, qual animal é tradicionalmente usado para farejá-la?",
+    "resposta": "Porco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Trufa"
+    ]
+  },
+  {
+    "id": "q09720",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "kopi_luwak",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O caríssimo café indonésio kopi luwak é feito com grãos recolhidos de onde?",
+    "resposta": "Das fezes da civeta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kopi_luwak"
+    ]
+  },
+  {
+    "id": "q09721",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "brunch",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra inglesa brunch, refeição farta servida no fim da manhã, junta os nomes de quais duas refeições?",
+    "resposta": "Café da manhã e almoço",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brunch"
+    ]
+  },
+  {
+    "id": "q09722",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pina_colada",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Traduzido do espanhol, o que significa o nome do coquetel caribenho piña colada?",
+    "resposta": "Abacaxi coado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pi%C3%B1a_colada"
+    ]
+  },
+  {
+    "id": "q09723",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "molho_bechamel",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Acredita-se que o molho bechamel tenha o nome de Louis de Béchameil, mordomo-chefe de qual rei francês do século dezessete?",
+    "resposta": "Luís Quatorze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce"
+    ]
+  },
+  {
+    "id": "q09724",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "absinto",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por sua cor e pela fama de inspirar artistas, que apelido o absinto ganhou na França do século dezenove?",
+    "resposta": "A fada verde",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Absinthe"
+    ]
+  },
+  {
+    "id": "q09725",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "raclette",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do prato suíço raclette, de queijo derretido servido com batatas, vem de um verbo francês que significa o quê?",
+    "resposta": "Raspar",
+    "distratores": [
+      "Derreter",
+      "Assar",
+      "Esquentar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Raclette"
+    ]
+  },
+  {
+    "id": "q09726",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vinho_verde",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Produzido no norte de Portugal, o vinho verde pode ser branco, rosé ou tinto. A que se refere o verde do nome?",
+    "resposta": "Ao fato de ser um vinho jovem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vinho_Verde"
+    ]
+  },
+  {
+    "id": "q09727",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "curcuma",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Chamada de açafrão-da-terra, a cúrcuma não tem parentesco com o açafrão. De qual destes temperos ela é parente próxima?",
+    "resposta": "Gengibre",
+    "distratores": [
+      "Pimenta-do-reino",
+      "Canela",
+      "Cravo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turmeric"
+    ]
+  },
+  {
+    "id": "q09728",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "abacate",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na botânica, o que o abacate e a canela têm em comum?",
+    "resposta": "Família das lauráceas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lauraceae"
+    ]
+  },
+  {
+    "id": "q09729",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pipoca",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O que faz o grão de milho de pipoca estourar quando vai ao fogo?",
+    "resposta": "A água de dentro vira vapor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Popcorn"
+    ]
+  },
+  {
+    "id": "q09730",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "fugu",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que, no Japão, só cozinheiros com licença especial podem preparar o peixe fugu?",
+    "resposta": "O peixe tem veneno mortal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fugu"
+    ]
+  },
+  {
+    "id": "q09731",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "emmental",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Durante a maturação do emmental, bactérias produzem um gás que forma os famosos buracos. Que gás é esse?",
+    "resposta": "Gás carbônico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emmental_cheese",
+      "https://pt.wikipedia.org/wiki/Emmentaler_%28queijo%29"
+    ]
+  },
+  {
+    "id": "q09732",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "daiquiri",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O coquetel daiquiri, de rum, limão e açúcar, leva o nome de uma praia e de uma mina de ferro de qual país?",
+    "resposta": "Cuba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Daiquiri"
+    ]
+  },
+  {
+    "id": "q09733",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "torta_holandesa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, a torta holandesa, de creme com borda de biscoitos e cobertura de chocolate, foi criada em qual país?",
+    "resposta": "Brasil",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Torta_holandesa"
+    ]
+  },
+  {
+    "id": "q09734",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "biscoito_da_sorte",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Servidos em restaurantes chineses mundo afora, os biscoitos da sorte foram popularizados no início do século vinte em qual país?",
+    "resposta": "Estados Unidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fortune_cookie"
+    ]
+  },
+  {
+    "id": "q09735",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pasteurizacao",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, que cientista francês criou o método de aquecer bebidas para matar micróbios, usado hoje no leite?",
+    "resposta": "Louis Pasteur",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pasteurization"
+    ]
+  },
+  {
+    "id": "q09736",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "peru_assado",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Nos Estados Unidos, o peru assado com molho de oxicoco é o prato central de qual feriado de novembro?",
+    "resposta": "Dia de Ação de Graças",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turkey_as_food",
+      "https://en.wikipedia.org/wiki/Thanksgiving_dinner"
+    ]
+  },
+  {
+    "id": "q09737",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "duzia_de_padeiro",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Pelo antigo costume dos padeiros ingleses de dar uma peça extra, quantas unidades tem a chamada dúzia de padeiro?",
+    "resposta": "Treze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dozen"
+    ]
+  },
+  {
+    "id": "q09738",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "garrafa_de_vinho",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantos mililitros cabem na garrafa de vinho de tamanho padrão?",
+    "resposta": "Setecentos e cinquenta mililitros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wine_bottle"
+    ]
   }
 ]
