@@ -1,0 +1,284 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Lebre de perfil, nítida; distratores parecidos tornam a resposta única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal de orelhas longas é este?",
+      "resposta": "Lebre-europeia",
+      "distratores": [
+        "Coelho-europeu",
+        "Lebre-do-ártico",
+        "Lebre-ibérica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lebre-europeia",
+        "descricao": "Espécie de lebre (Lepus europaeus) nativa da Europa e partes da Ásia, também chamada lebre-comum.",
+        "variantes": [
+          "Lebre-comum",
+          "Lepus europaeus",
+          "European hare",
+          "Brown hare"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Jaguarundi de cor avermelhada, nítido, corpo alongado e orelhas pequenas; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino americano é este?",
+      "resposta": "Gato-mourisco",
+      "distratores": [
+        "Puma",
+        "Jaguatirica",
+        "Gato-palheiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gato-mourisco",
+        "descricao": "Pequeno felino selvagem americano de corpo alongado e pelagem uniforme (Herpailurus yagouaroundi).",
+        "variantes": [
+          "Jaguarundi",
+          "Jaguarundi",
+          "Herpailurus yagouaroundi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Anta de padrão preto e branco inconfundível, foto nítida, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que anta é esta?",
+      "resposta": "Anta-malaia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Anta-malaia",
+        "descricao": "Anta asiática de corpo preto e branco (Tapirus indicus), a única do grupo fora das Américas.",
+        "variantes": [
+          "Anta-asiática",
+          "Tapirus indicus",
+          "Malayan tapir"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois búfalos da mesma espécie bebendo água, nítidos, chifres curvos característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bovino é este?",
+      "resposta": "Búfalo-asiático",
+      "distratores": [
+        "Bisão-americano",
+        "Iaque",
+        "Gaur"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Búfalo",
+        "descricao": "Grande bovino de origem sul e sudeste asiática (Bubalus bubalis), criado em vários continentes.",
+        "variantes": [
+          "Búfalo-asiático",
+          "Búfalo-d'água",
+          "Bubalus bubalis",
+          "Water buffalo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cateto de perfil, em boa luz, reconhecível apesar da resolução baixa; distratores parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal parecido com um porco é este?",
+      "resposta": "Cateto",
+      "distratores": [
+        "Queixada",
+        "Javali",
+        "Capivara"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cateto",
+        "descricao": "Pecari de colar das Américas (Dicotyles tajacu), mamífero da família Tayassuidae.",
+        "variantes": [
+          "Caititu",
+          "Javelina",
+          "Pecari-de-colar",
+          "Dicotyles tajacu"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bilby em primeiro plano, orelhas grandes bem visíveis; o pequeno roedor ao fundo é secundário.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que marsupial australiano de orelhas grandes é este?",
+      "resposta": "Bilby",
+      "distratores": [
+        "Quokka",
+        "Numbat",
+        "Bandicoot-listrado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bilby",
+        "descricao": "Marsupial australiano noturno de orelhas longas (Macrotis lagotis), que vive em tocas.",
+        "variantes": [
+          "Bilby-grande",
+          "Coelho-bandicoot",
+          "Macrotis lagotis",
+          "Greater bilby"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cavalos em pasto de montanha, nítidos, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal é este?",
+      "resposta": "Cavalo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cavalo",
+        "descricao": "Mamífero doméstico de um só dedo e casco (Equus ferus caballus).",
+        "variantes": [
+          "Equus caballus",
+          "Horse"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Coiote de frente, nítido, fundo de neve limpo; distratores canídeos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que canídeo norte-americano é este?",
+      "resposta": "Coiote",
+      "distratores": [
+        "Lobo-cinzento",
+        "Raposa-vermelha",
+        "Chacal-dourado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coiote",
+        "descricao": "Canídeo da América do Norte (Canis latrans), menor que o lobo-cinzento.",
+        "variantes": [
+          "Canis latrans"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rosto e pelagem com manchas nebulosas muito nítidas; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que felino do sudeste asiático é este?",
+      "resposta": "Leopardo-nebuloso",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Leopardo-nebuloso",
+        "descricao": "Felino selvagem asiático (Neofelis nebulosa) de manchas escuras em forma de nuvens.",
+        "variantes": [
+          "Pantera-nebulosa",
+          "Neofelis nebulosa",
+          "Clouded leopard"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gato doméstico laranja e branco, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal doméstico é este?",
+      "resposta": "Gato",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gato",
+        "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+        "variantes": [
+          "Gato-doméstico",
+          "Felis catus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Padrão dorso claro e corpo escuro típico; resolução baixa mas legível e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mustelídeo é este?",
+      "resposta": "Texugo-do-mel",
+      "distratores": [
+        "Texugo-europeu",
+        "Glutão",
+        "Cangambá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Texugo-do-mel",
+        "descricao": "Mustelídeo de dorso claro e corpo escuro (Mellivora capensis) da África e Ásia.",
+        "variantes": [
+          "Ratel",
+          "Mellivora capensis",
+          "Honey badger"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mãe e filhote da mesma espécie, rosto azulado e pelagem dourada inconfundíveis; marca d'água discreta não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que macaco chinês é este?",
+      "resposta": "Macaco-dourado-de-nariz-arrebitado",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-dourado-de-nariz-arrebitado",
+        "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+        "variantes": [
+          "Macaco-dourado",
+          "Rhinopithecus roxellana",
+          "Golden snub-nosed monkey"
+        ]
+      }
+    }
+  ]
+}

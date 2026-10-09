@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que bovino é este?",
+        "resposta": "Búfalo-asiático"
+      },
+      "existentes": [
+        {
+          "id": "q07912",
+          "pergunta": "No Pará, uma ilha famosa pelos enormes rebanhos de búfalos tem até policiais que patrulham montados nesses animais. Que ilha é essa?",
+          "resposta": "Ilha de Marajó"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que animal é este?",
+        "resposta": "Cavalo"
+      },
+      "existentes": [
+        {
+          "id": "q07920",
+          "pergunta": "A linhagem dos cavalos evoluiu por milhões de anos em qual continente, onde depois se extinguiu, voltando só com os colonizadores europeus?",
+          "resposta": "América do Norte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o bovino na imagem (búfalo-asiático) é um fato diferente de qual ilha tem rebanhos de búfalos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o animal como cavalo é diferente de saber em qual continente a linhagem evoluiu."
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lebre-europeia",
+        "descricao": "Espécie de lebre (Lepus europaeus) nativa da Europa e partes da Ásia, também chamada lebre-comum.",
+        "variantes": [
+          "Lebre-comum",
+          "Lepus europaeus",
+          "European hare",
+          "Brown hare"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alpes",
+          "nome": "Alpes",
+          "descricao": "Cadeia de montanhas da Europa Central e Ocidental, de Nice a Viena, com picos como o Mont Blanc.",
+          "variantes": [
+            "Alpes europeus"
+          ]
+        },
+        {
+          "id": "enguia_europeia",
+          "nome": "Enguia-europeia",
+          "descricao": "Peixe serpentiforme (Anguilla anguilla) que vive em rios europeus e migra ao oceano para desovar.",
+          "variantes": [
+            "Anguilla anguilla",
+            "European eel",
+            "Enguia"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "bandeira_da_europa",
+          "nome": "Bandeira da Europa",
+          "descricao": "Bandeira do Conselho da Europa e da União Europeia, azul com um círculo de doze estrelas douradas.",
+          "variantes": [
+            "Bandeira da União Europeia",
+            "Bandeira europeia"
+          ]
+        },
+        {
+          "id": "brownie",
+          "nome": "Brownie",
+          "descricao": "Doce de chocolate assado em barra, criado nos Estados Unidos no fim do século dezenove.",
+          "variantes": [
+            "Chocolate brownie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gato-mourisco",
+        "descricao": "Pequeno felino selvagem americano de corpo alongado e pelagem uniforme (Herpailurus yagouaroundi).",
+        "variantes": [
+          "Jaguarundi",
+          "Herpailurus yagouaroundi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "idolo_mourisco",
+          "nome": "Ídolo-mourisco",
+          "descricao": "Peixe de recife indo-pacífico (Zanclus cornutus) de faixas pretas e amarelas e barbatana dorsal em filamento.",
+          "variantes": [
+            "Zanclus cornutus",
+            "Peixe-ídolo"
+          ]
+        },
+        {
+          "id": "lingua_guarani",
+          "nome": "Língua guarani",
+          "descricao": "Língua indígena da família tupi-guarani, oficial no Paraguai ao lado do espanhol",
+          "variantes": [
+            "Guarani"
+          ]
+        },
+        {
+          "id": "gato_tricolor",
+          "nome": "Gato tricolor",
+          "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+          "variantes": [
+            "Gato cálico",
+            "Calico cat"
+          ]
+        },
+        {
+          "id": "jabulani",
+          "nome": "Jabulani",
+          "descricao": "Bola oficial da Copa do Mundo de 2010, na África do Sul, fabricada pela Adidas.",
+          "variantes": [
+            "Adidas Jabulani"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Anta-malaia",
+        "descricao": "Anta asiática de corpo preto e branco (Tapirus indicus), a única do grupo fora das Américas.",
+        "variantes": [
+          "Anta-asiática",
+          "Tapirus indicus",
+          "Malayan tapir"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santa_maria_nau_de_colombo",
+          "nome": "Santa Maria (nau de Colombo)",
+          "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+          "variantes": [
+            "Santa María",
+            "La Gallega"
+          ]
+        },
+        {
+          "id": "anita_malfatti",
+          "nome": "Anita Malfatti",
+          "descricao": "Pintora modernista brasileira, que viveu de 1889 a 1964 e fez uma polêmica exposição em São Paulo em 1917.",
+          "variantes": [
+            "Anita Catarina Malfatti"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "ra_da_madeira",
+          "nome": "Rã-da-madeira",
+          "descricao": "Rã norte-americana, Lithobates sylvaticus, capaz de sobreviver congelada no inverno.",
+          "variantes": [
+            "Lithobates sylvaticus",
+            "Rana sylvatica",
+            "Wood frog"
+          ]
+        },
+        {
+          "id": "mata_atlantica",
+          "nome": "Mata Atlântica",
+          "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+          "variantes": [
+            "Atlantic Forest",
+            "Floresta Atlântica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Búfalo",
+        "descricao": "Grande bovino de origem sul e sudeste asiática (Bubalus bubalis), criado em vários continentes.",
+        "variantes": [
+          "Búfalo-asiático",
+          "Búfalo-d'água",
+          "Bubalus bubalis",
+          "Water buffalo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bufalo_asiatico",
+          "nome": "Búfalo-asiático",
+          "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará.",
+          "variantes": [
+            "Búfalo-d'água",
+            "Búfalo-doméstico",
+            "Bubalus bubalis"
+          ]
+        },
+        {
+          "id": "bucefalo",
+          "nome": "Bucéfalo",
+          "descricao": "Cavalo de guerra de Alexandre, o Grande.",
+          "variantes": [
+            "Bucephalus",
+            "Boukephalas"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cateto",
+        "descricao": "Pecari de colar das Américas (Dicotyles tajacu), mamífero da família Tayassuidae.",
+        "variantes": [
+          "Caititu",
+          "Javelina",
+          "Pecari-de-colar",
+          "Dicotyles tajacu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "mauveina",
+          "nome": "Mauveína",
+          "descricao": "Corante roxo sintético obtido por acaso pelo químico inglês William Perkin em 1856.",
+          "variantes": [
+            "Malva de Perkin",
+            "Mauveine",
+            "Mauve"
+          ]
+        },
+        {
+          "id": "ave_lira_soberba",
+          "nome": "Ave-lira-soberba",
+          "descricao": "Menura novaehollandiae, ave canora australiana famosa pela cauda elaborada e pela imitação de sons.",
+          "variantes": [
+            "Ave-lira",
+            "Superb lyrebird",
+            "Menura novaehollandiae"
+          ]
+        },
+        {
+          "id": "rapazes_do_natal",
+          "nome": "Rapazes do Natal",
+          "descricao": "Duendes travessos do folclore islandês que visitam as crianças, um por noite, antes do Natal.",
+          "variantes": [
+            "Yule Lads",
+            "Jólasveinar"
+          ]
+        },
+        {
+          "id": "cacto",
+          "nome": "Cacto",
+          "descricao": "Planta da família Cactaceae, típica das Américas, de caule suculento que armazena água.",
+          "variantes": [
+            "Cactaceae",
+            "Cactáceas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bilby",
+        "descricao": "Marsupial australiano noturno de orelhas longas (Macrotis lagotis), que vive em tocas.",
+        "variantes": [
+          "Bilby-grande",
+          "Coelho-bandicoot",
+          "Macrotis lagotis",
+          "Greater bilby"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_grande",
+          "nome": "Ilha Grande",
+          "descricao": "Ilha do município de Angra dos Reis, no litoral sul do estado do Rio de Janeiro.",
+          "variantes": [
+            "Ilha Grande de Angra dos Reis"
+          ]
+        },
+        {
+          "id": "crash_bandicoot",
+          "nome": "Crash Bandicoot",
+          "descricao": "Série de jogos de plataforma iniciada em 1996 no primeiro PlayStation, estrelada por um marsupial laranja.",
+          "variantes": []
+        },
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cavalo",
+        "descricao": "Mamífero doméstico de um só dedo e casco (Equus ferus caballus).",
+        "variantes": [
+          "Equus caballus",
+          "Horse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalo_xadrez",
+          "nome": "Cavalo (xadrez)",
+          "descricao": "Peça de xadrez com cabeça de cavalo, que se move em L e salta sobre as outras peças.",
+          "variantes": [
+            "Cavalo",
+            "Knight"
+          ]
+        },
+        {
+          "id": "cavalo",
+          "nome": "Cavalo",
+          "descricao": "Equídeo domesticado da espécie Equus caballus, usado para montaria, tração e esporte.",
+          "variantes": [
+            "Equus caballus",
+            "Equus ferus caballus"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "corsega",
+          "nome": "Córsega",
+          "descricao": "Ilha montanhosa do mar Mediterrâneo, ao norte da Sardenha, terra natal de Napoleão Bonaparte.",
+          "variantes": [
+            "Corse",
+            "Corsica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Coiote",
+        "descricao": "Canídeo da América do Norte (Canis latrans), menor que o lobo-cinzento.",
+        "variantes": [
+          "Canis latrans"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        },
+        {
+          "id": "boicote",
+          "nome": "Boicote",
+          "descricao": "Recusa organizada de comprar, usar ou negociar com alguém, como forma de protesto",
+          "variantes": [
+            "Boycott"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Leopardo-nebuloso",
+        "descricao": "Felino selvagem asiático (Neofelis nebulosa) de manchas escuras em forma de nuvens.",
+        "variantes": [
+          "Pantera-nebulosa",
+          "Neofelis nebulosa",
+          "Clouded leopard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "floresta_nublada",
+          "nome": "Floresta nublada",
+          "descricao": "Floresta de montanhas tropicais envolta quase sempre por nuvens e neblina",
+          "variantes": [
+            "Mata nebular",
+            "Cloud forest"
+          ]
+        },
+        {
+          "id": "para_elisa",
+          "nome": "Para Elisa",
+          "descricao": "Peça para piano de Ludwig van Beethoven, a Bagatela em lá menor, publicada postumamente em 1867.",
+          "variantes": [
+            "Für Elise",
+            "Bagatela em lá menor"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Gato",
+        "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+        "variantes": [
+          "Gato-doméstico",
+          "Felis catus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "furao",
+          "nome": "Furão",
+          "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+          "variantes": [
+            "Mustela furo",
+            "Furão doméstico"
+          ]
+        },
+        {
+          "id": "bufalo_asiatico",
+          "nome": "Búfalo-asiático",
+          "descricao": "Bovino domesticado de origem asiática (Bubalus bubalis), criado em grandes rebanhos na Ilha de Marajó, no Pará.",
+          "variantes": [
+            "Búfalo-d'água",
+            "Búfalo-doméstico",
+            "Bubalus bubalis"
+          ]
+        },
+        {
+          "id": "gastao",
+          "nome": "Gastão",
+          "descricao": "Primo do Pato Donald nos quadrinhos da Disney, famoso por sua sorte absurda",
+          "variantes": [
+            "Gladstone Gander",
+            "Gastão (Disney)"
+          ]
+        },
+        {
+          "id": "porquinho_da_india",
+          "nome": "Porquinho-da-índia",
+          "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+          "variantes": [
+            "Cobaia",
+            "Cavia porcellus",
+            "Preá doméstico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Texugo-do-mel",
+        "descricao": "Mustelídeo de dorso claro e corpo escuro (Mellivora capensis) da África e Ásia.",
+        "variantes": [
+          "Ratel",
+          "Mellivora capensis",
+          "Honey badger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "carate",
+          "nome": "Caratê",
+          "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+          "variantes": [
+            "Karatê",
+            "Karate"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Macaco-dourado-de-nariz-arrebitado",
+        "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+        "variantes": [
+          "Macaco-dourado",
+          "Rhinopithecus roxellana",
+          "Golden snub-nosed monkey"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "macaco_louco",
+          "nome": "Macaco Louco",
+          "descricao": "Macaco de cérebro grande, capa roxa e fala redundante, principal vilão de As Meninas Superpoderosas.",
+          "variantes": [
+            "Mojo Jojo"
+          ]
+        },
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a lebre-europeia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Jaguarundi não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Anta-malaia não consta nas candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "bufalo_asiatico",
+      "motivo": "Mesma espécie Bubalus bubalis, búfalo-d'água."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cateto/pecari não está nas candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bilby não está nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "cavalo",
+      "motivo": "Mesmo animal doméstico Equus caballus; a peça de xadrez é diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Coiote é espécie diferente do lobo-cinzento."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Leopardo-nebuloso é espécie distinta das candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Gato doméstico não consta nas candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Texugo-do-mel não está nas candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Macaco-dourado-de-nariz-arrebitado não está nas candidatas."
+    }
+  ]
+}
