@@ -41956,7 +41956,8 @@
     "descricao": "Grupo extinto de répteis marinhos da Era Mesozoica, com corpo hidrodinâmico semelhante ao de golfinhos.",
     "variantes": [
       "Ichthyosauria",
-      "Ictiossauros"
+      "Ictiossauros",
+      "Ichthyosaur"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ichthyosauria"
@@ -83436,7 +83437,9 @@
     "variantes": [
       "Tursiops truncatus",
       "Boto-da-tainha",
-      "Bottlenose dolphin"
+      "Bottlenose dolphin",
+      "Roaz",
+      "Tursiops"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin"
@@ -133353,6 +133356,346 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Athenian_democracy"
+    ]
+  },
+  {
+    "id": "tubarao_peregrino",
+    "nome": "Tubarão-peregrino",
+    "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo.",
+    "variantes": [
+      "Tubarão-frade",
+      "Cetorhinus maximus",
+      "Basking shark"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Basking_shark"
+    ]
+  },
+  {
+    "id": "lula_colossal",
+    "nome": "Lula-colossal",
+    "descricao": "Cefalópode das águas antárticas (Mesonychoteuthis hamiltoni), o invertebrado mais pesado conhecido.",
+    "variantes": [
+      "Mesonychoteuthis hamiltoni",
+      "Colossal squid"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Colossal_squid"
+    ]
+  },
+  {
+    "id": "caranguejo_aranha_japones",
+    "nome": "Caranguejo-aranha-japonês",
+    "descricao": "Caranguejo marinho das águas do Japão (Macrocheira kaempferi), de patas longas e finas.",
+    "variantes": [
+      "Caranguejo-aranha-gigante",
+      "Macrocheira kaempferi",
+      "Japanese spider crab"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Japanese_spider_crab"
+    ]
+  },
+  {
+    "id": "tridacna_gigante",
+    "nome": "Tridacna-gigante",
+    "descricao": "Molusco bivalve gigante (Tridacna gigas) dos recifes de coral do Indo-Pacífico, o maior bivalve vivo.",
+    "variantes": [
+      "Marisco-gigante",
+      "Tridacna gigas",
+      "Giant clam"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Giant_clam"
+    ]
+  },
+  {
+    "id": "regaleco",
+    "nome": "Regaleco",
+    "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo.",
+    "variantes": [
+      "Peixe-remo",
+      "Regalecus glesne",
+      "Giant oarfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Giant_oarfish"
+    ]
+  },
+  {
+    "id": "vaquita",
+    "nome": "Vaquita",
+    "descricao": "Pequeno boto (Phocoena sinus) que vive só no norte do Golfo da Califórnia, o menor cetáceo do mundo.",
+    "variantes": [
+      "Phocoena sinus",
+      "Toninha-do-golfo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vaquita"
+    ]
+  },
+  {
+    "id": "baleia_comum",
+    "nome": "Baleia-comum",
+    "descricao": "Baleia de barbatanas esguia e veloz (Balaenoptera physalus), o segundo maior animal vivo.",
+    "variantes": [
+      "Baleia-fin",
+      "Rorqual-comum",
+      "Balaenoptera physalus",
+      "Fin whale"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fin_whale"
+    ]
+  },
+  {
+    "id": "peixe_pedra",
+    "nome": "Peixe-pedra",
+    "descricao": "Peixe de recife do Indo-Pacífico do gênero Synanceia, camuflado como rocha, com espinhos dorsais muito venenosos.",
+    "variantes": [
+      "Synanceia",
+      "Stonefish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stonefish"
+    ]
+  },
+  {
+    "id": "recife_de_coral",
+    "nome": "Recife de coral",
+    "descricao": "Estrutura submarina formada pelo acúmulo dos esqueletos calcários de corais ao longo de séculos.",
+    "variantes": [
+      "Recife coralino",
+      "Coral reef"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coral_reef"
+    ]
+  },
+  {
+    "id": "barbas_de_baleia",
+    "nome": "Barbas de baleia",
+    "descricao": "Placas filtradoras presas à mandíbula superior das baleias misticetas, usadas para reter krill e pequenos peixes.",
+    "variantes": [
+      "Barbatanas",
+      "Baleen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baleen"
+    ]
+  },
+  {
+    "id": "tinta_de_cefalopode",
+    "nome": "Tinta de cefalópode",
+    "descricao": "Líquido escuro que polvos, lulas e chocos soltam na água para despistar predadores.",
+    "variantes": [
+      "Tinta de lula",
+      "Cephalopod ink"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cephalopod_ink"
+    ]
+  },
+  {
+    "id": "agar_agar",
+    "nome": "Ágar-ágar",
+    "descricao": "Substância gelatinosa extraída de algas vermelhas, usada em culinária e como meio de cultura em laboratórios.",
+    "variantes": [
+      "Ágar",
+      "Agar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Agar"
+    ]
+  },
+  {
+    "id": "sopro_das_baleias",
+    "nome": "Sopro das baleias",
+    "descricao": "Jato visível que os cetáceos soltam pelo espiráculo ao expirar na superfície.",
+    "variantes": [
+      "Borrifo",
+      "Spout"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blowhole_(anatomy)"
+    ]
+  },
+  {
+    "id": "linguado",
+    "nome": "Linguado",
+    "descricao": "Peixe chato marinho que vive deitado no fundo, com os dois olhos do mesmo lado da cabeça.",
+    "variantes": [
+      "Peixe chato",
+      "Flatfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flatfish"
+    ]
+  },
+  {
+    "id": "peixe_papagaio",
+    "nome": "Peixe-papagaio",
+    "descricao": "Peixe de recife tropical, de cores vivas e dentes fundidos em forma de bico, que se alimenta raspando corais e algas.",
+    "variantes": [
+      "Budião",
+      "Parrotfish",
+      "Scaridae"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Parrotfish"
+    ]
+  },
+  {
+    "id": "cromatoforo",
+    "nome": "Cromatóforo",
+    "descricao": "Célula da pele cheia de pigmento que permite a polvos, lulas e chocos mudar de cor rapidamente.",
+    "variantes": [
+      "Chromatophore"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chromatophore"
+    ]
+  },
+  {
+    "id": "vespa_do_mar",
+    "nome": "Vespa-do-mar",
+    "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo.",
+    "variantes": [
+      "Chironex fleckeri",
+      "Sea wasp"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chironex_fleckeri"
+    ]
+  },
+  {
+    "id": "plancton",
+    "nome": "Plâncton",
+    "descricao": "Conjunto de organismos aquáticos, em geral minúsculos, que vivem à deriva levados pelas correntes.",
+    "variantes": [
+      "Plankton"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Plankton"
+    ]
+  },
+  {
+    "id": "peixe_serra",
+    "nome": "Peixe-serra",
+    "descricao": "Raia de corpo alongado da família Pristidae, com um longo focinho achatado cheio de dentes nas laterais.",
+    "variantes": [
+      "Pristidae",
+      "Sawfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sawfish"
+    ]
+  },
+  {
+    "id": "bioluminescencia",
+    "nome": "Bioluminescência",
+    "descricao": "Produção de luz por seres vivos, como vaga-lumes e muitos animais marinhos, por meio de uma reação química.",
+    "variantes": [
+      "Bioluminescence"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bioluminescence"
+    ]
+  },
+  {
+    "id": "bico_de_cefalopode",
+    "nome": "Bico de cefalópode",
+    "descricao": "Estrutura dura em forma de bico na boca de polvos, lulas e chocos, usada para cortar o alimento.",
+    "variantes": [
+      "Cephalopod beak"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cephalopod_beak"
+    ]
+  },
+  {
+    "id": "lagosta",
+    "nome": "Lagosta",
+    "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária.",
+    "variantes": [
+      "Lobster"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lobster"
+    ]
+  },
+  {
+    "id": "coral_sol",
+    "nome": "Coral-sol",
+    "descricao": "Coral invasor do gênero Tubastraea, nativo do Indo-Pacífico, que se espalhou pelo litoral brasileiro.",
+    "variantes": [
+      "Tubastraea coccinea",
+      "Sun coral"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tubastraea_coccinea"
+    ]
+  },
+  {
+    "id": "recife_da_amazonia",
+    "nome": "Recife da Amazônia",
+    "descricao": "Extenso sistema de recifes de corais, esponjas e algas calcárias sob as águas barrentas da foz do rio Amazonas, anunciado em 2016.",
+    "variantes": [
+      "Grande Recife da Amazônia",
+      "Amazon Reef"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amazon_Reef"
+    ]
+  },
+  {
+    "id": "bacalhau_do_atlantico",
+    "nome": "Bacalhau-do-atlântico",
+    "descricao": "Peixe marinho do Atlântico Norte (Gadus morhua), base do bacalhau salgado da culinária portuguesa e brasileira.",
+    "variantes": [
+      "Bacalhau",
+      "Gadus morhua",
+      "Atlantic cod"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Atlantic_cod"
+    ]
+  },
+  {
+    "id": "tartarugas_marinhas",
+    "nome": "Tartarugas-marinhas",
+    "descricao": "Grupo de répteis marinhos da superfamília Chelonioidea, com sete espécies vivas.",
+    "variantes": [
+      "Chelonioidea",
+      "Sea turtles"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sea_turtle"
+    ]
+  },
+  {
+    "id": "misticetos",
+    "nome": "Misticetos",
+    "descricao": "Subordem das baleias de barbatanas, como a jubarte e a baleia-franca, que filtram o alimento.",
+    "variantes": [
+      "Mysticeti",
+      "Baleias de barbatanas",
+      "Baleen whales"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baleen_whale"
+    ]
+  },
+  {
+    "id": "fish_house_do_zoologico_de_londres",
+    "nome": "Fish House do Zoológico de Londres",
+    "descricao": "Primeiro aquário público do mundo, aberto em 1853 no Zoológico de Londres.",
+    "variantes": [
+      "Casa dos Peixes",
+      "Fish House"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Public_aquarium"
     ]
   }
 ]

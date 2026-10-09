@@ -1,0 +1,1742 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Vida Marinha** (tema **Natureza**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Tubarão-peregrino",
+      "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Também filtrador de plâncton, que tubarão gigante dos mares temperados é o segundo maior peixe vivo, atrás apenas do tubarão-baleia?",
+    "resposta": "Tubarão-peregrino",
+    "distratores": [
+      "Tubarão-branco",
+      "Tubarão-tigre",
+      "Tubarão-da-groenlândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basking_shark"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basking_shark",
+        "situacao": "ok",
+        "texto": "The basking shark (Cetorhinus maximus) is the second-largest living shark and fish, after the whale shark. It is one of three plankton-eating shark species, along with the whale shark and megamouth shark. Typically, basking sharks reach 7.9 m (26 ft) in length, but large individuals have been known to grow more than 10 m (33 ft) long. It is usually greyish-brown, with mottled skin, with the inside\n[…]\nThe basking shark is a cosmopolitan migratory species found in all the world's temperate oceans. A slow-moving filter feeder, its common name derives from its habit of feeding at the surface, appearing to be basking in the warmer water there. It has anatomical adaptations for filter-feeding, such as a greatly enlarged mouth and highly developed gill rakers. Its snout is conical, and the gill slits extend around the top and bottom of its head.\n[…]\nThe basking shark is the only extant member of the family Cetorhinidae, part of the mackerel shark order Lamniformes. Johan Ernst Gunnerus first described the species as Cetorhinus maximus from a specimen found in Norway. The genus name Cetorhinus was published without an etymology, but is presumed to be from the Geek ketos, meaning \"marine monster\" or \"whale\", and rhine, an ancient obscure Greek word meaning \"shark\". The species name maximus is from Latin and means \"greatest\".\n[…]\nThe basking shark is a coastal-pelagic shark found worldwide in boreal to warm-temperate waters. It lives around the continental shelf and occasionally enters brackish waters. It is found from the surface down to at least 910 m (2,990 ft). It prefers temperatures of 8 to 14.5 °C (46.4 to 58.1 °F) but has been confirmed to cross the much warmer waters at the equator. It is often seen close to land, including in bays with narrow openings.\n[…]\nBasking shark, Cetorhinus maximus at marinebio.org\n[…]\nARKive entry on the Basking Shark\n[…]\nPhotos of Basking shark in the Sealife Collection"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-peregrino",
+        "situacao": "ok",
+        "texto": "O tubarão-peregrino ou tubarão-frade (nome científico: Cetorhinus maximus) é uma espécie de tubarões lamniformes, única representante do género Cetorhinus e da família monotípica dos cetorrinídeos (Cetorhinidae). Com até 12 metros de comprimento, este tubarão planctívoro é o segundo maior peixe conhecido, apenas menor que o tubarão-baleia.\n[…]\nSeu peso foi estimado em 16 toneladas (16 toneladas longas; 18 toneladas curtas). Um estudo que analisa o crescimento e a longevidade do tubarão-peregrino sugeriu que indivíduos maiores que ~ 10 metros (33 pés) são improváveis. Esta é a segunda maior espécie de peixe existente, depois do tubarão-baleia.\n[…]\nOs olhos, localizados um pouco atrás da origem da boca, são pequenos, sem membrana nictitante ou pregas suboculares. As fendas branquiais do tubarão-peregrino são muito grandes, estendendo-se da parte superior da cabeça até o nível da garganta. O primeiro é o mais longo, o quinto o mais curto. Os rastros branquiais cobrem a face interna dos arcos branquiais. Por seu número e sua forma de barbatana, constituem uma peneira eficaz que filtra o plâncton na água engolida.\n[…]\nA alimentação do tubarão-peregrino é passiva, com o animal ingerindo grandes quantidades de água ao se movimentar com a boca aberta. É um animal filtrador quase exclusivamente planctívoro (alimenta-se de zooplâncton), como mostra o exame do conteúdo estomacal de animais ativos na superfície do mar. Casualmente também se alimenta de invertebrados (como camarão) da zona afótica e peixes muito pequenos (como Mallotus villosus, cavalinha, Sardina pilchardus e arenque-comum).\n[…]\nAo contrário do tubarão-boca-grande e do tubarão-baleia, o tubarão-peregrino depende apenas da água que empurra através de suas guelras nadando; o tubarão-boca-grande e o tubarão-baleia podem sugar ou bombear água através de suas guelras.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Lula-colossal",
+      "descricao": "Cefalópode das águas antárticas (Mesonychoteuthis hamiltoni), o invertebrado mais pesado conhecido."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Nas águas geladas da Antártida vive uma lula mais pesada que a lula-gigante, o invertebrado mais pesado que se conhece. Que lula é essa?",
+    "resposta": "Lula-colossal",
+    "distratores": [
+      "Lula-de-humboldt",
+      "Lula-vampira",
+      "Lula-vaga-lume"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colossal_squid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Colossal_squid",
+        "situacao": "ok",
+        "texto": "The colossal squid (Mesonychoteuthis hamiltoni) is a species of very large squid belonging to the family Cranchiidae, that of the cockatoo squids, or glass squids. It is sometimes called the Antarctic cranch squid or giant squid (not to be confused with the giant squid in genus Architeuthis) and is believed to be the largest squid species in terms of mass. It is the only recognized member of the g\n[…]\nUnlike most squid species, the colossal squid exhibits abyssal gigantism, as it is the heaviest living invertebrate species, reaching weights up to 495 kg (1,091 lb). For comparison, squids typically have a mantle length of about 30 cm (12 in) and weigh about 100–200 g (3+1⁄2–7 oz).\n[…]\nThe colossal squid, species Mesonychoteuthis hamiltoni, was discovered in 1925. This species belongs to the class Cephalopoda and family Cranchiidae.\n[…]\nOn 9 March 2025, for the first time, a confirmed colossal squid was filmed in its natural environment during an expedition near the South Sandwich Islands in the South Atlantic Ocean. The squid, a juvenile measuring around 30 cm (12 in) long, was captured on video at a depth of 600 m (2,000 ft) by the Schmidt Ocean Institute's remotely operated vehicle (ROV) SuBastian.\n[…]\nThe colossal squid has been assessed as a species of \"least concern\" on the IUCN Red List. Colossal squid are not targeted by fishers; rather, they are only caught when they attempt to feed on fish caught on hooks. Additionally, due to their habitat, interactions between humans and colossal squid are considered rare.\n[…]\n\"CephBase: Colossal squid\". Archived from the original on 17 August 2005.\n[…]\nMuseum of New Zealand Te Papa Tongarewa(Te Papa) Colossal Squid Specimen Information\n[…]\nMuseum of New Zealand Te Papa Tongarewa(Te Papa) Colossal Squid Images and Video\n[…]\nTonmo.com: Giant Squid and Colossal Squid Fact Sheet\n[…]\nUSA Today: Colossal Squid Caught in Antarctic Waters\n[…]\nMarineBio: Mesonychoteuthis hamiltoni"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lula-colossal",
+        "situacao": "ok",
+        "texto": "A lula-colossal (Mesonychoteuthis hamiltoni) é provavelmente a maior espécie de lula existente, e o único membro do gênero Mesonychoteuthis. A lula-colossal é considerada o maior invertebrado em termos de massa do planeta de que se tem conhecimento, podendo ultrapassar os 15 metros de comprimento.\n[…]\nO Mesonychoteuthis hamiltoni possui a maior cabeça de todos os tipos de lulas, excedendo até o do Architeuthis no tamanho e na robustez. A lula-colossal também possui os maiores olhos no reino animal. Dispõe de um grande bico, formado de duas afiadas calcificações ligadas à sua rádula, e garras giratórias em forma de ganchos, profundamente fixados em seus braços. Habita as águas do Oceano Antártico, sobretudo em profundidades abaixo de 1000m.\n[…]\nRecentemente, pescadores da Nova Zelândia encontraram em águas antárticas uma lula-colossal com mais de 14 metros de comprimento. O molusco que pesava 495 quilos tinha olhos do diâmetro de pratos de comida. O animal foi fisgado por acidente, trazido a bordo e conservado no gelo, sendo enviado para estudo na Universidade de Tecnologia de Auckland, Nova Zelândia. Esse é o segundo maior exemplar da lula-colossal já encontrado e está exposto no Museu da Nova Zelândia Te Papa Tongar.\n[…]\nDiferentemente da Lula Gigante, que possui braços e tentáculos alinhados com pequenos dentes, os membros da lula colossal possuem também ganchos afiados. Seu corpo é robusto e mais largo, e consequentemente mais pesado do que o corpo da lula gigante.\n[…]\n1970 - Uma traineira russa, no mar de Ross, ao largo da costa da Antártida, capturou uma grande lula com um comprimento total de 4 metros, que foi identificado mais tarde como uma fêmea imatura do Mesonychoteuthis hamiltoni.\n[…]\nLula-gigante\n[…]\nTonmo.com: Giant Squid and Colossal Squid Fact Sheet",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Caranguejo-aranha-japonês",
+      "descricao": "Caranguejo marinho das águas do Japão (Macrocheira kaempferi), de patas longas e finas."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Com patas finas que podem medir quase quatro metros de ponta a ponta, que caranguejo das águas do Japão tem a maior envergadura entre os artrópodes?",
+    "resposta": "Caranguejo-aranha-japonês",
+    "distratores": [
+      "Caranguejo-dos-coqueiros",
+      "Caranguejo-real-do-alasca",
+      "Siri-azul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Japanese_spider_crab"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Japanese_spider_crab",
+        "situacao": "ok",
+        "texto": "The Japanese giant spider crab (Macrocheira kaempferi) is a species of marine crab and is the largest crab found in the waters around Japan. At around 3.75 metres (12.3 ft), it has the largest leg-span of any arthropod. The Japanese name for this species is taka-ashi-gani, (Japanese: 高脚蟹; タカアシガニ), literally translating to \"tall-legged crab\". It goes through three main larval stages along with a pr\n[…]\nThe Japanese giant spider crab is the sole living member of the genus Macrocheira. Three fossil species of this genus are known: M. ginzanensis and M. yabei from the Miocene of Japan, and M. teglandi from the Oligocene. They are sought by crab fisheries, and are considered a delicacy in Japan. To prevent overexploitation from harming the species, conservation efforts have been put in place to protect them and their population from overfishing.\n[…]\nThe Japanese spider crab is an omnivore, consuming both plant-matter and animals. It also sometimes acts as a scavenger, consuming dead/decaying fish. Some have been known to scrape the ocean floor for living plants and algae (such as kelp), while others pry open the shells of mollusks and small marine invertebrates.\n[…]\nThe Japanese spider crab was originally described by Western science in 1836 by Coenraad Jacob Temminck under the name Maja kaempferi, based on material from Philipp Franz von Siebold collected near the artificial island Dejima. The specific epithet commemorates Engelbert Kaempfer, a German naturalist who lived in Japan from 1690 to 1692 and wrote about the country's natural history. It was moved to the genus Inachus by Wilhem de Haan in 1839, but placed in a new subgenus, Macrocheira.\n[…]\nThe spider crab's scientific name, Macrocheira kaempferi, inspired the Macra, a race of giant crab-like aliens from the Doctor Who stories The Macra Terror and \"Gridlock\".\n[…]\nKing crab\n[…]\nRed king crab\n[…]\nData related to Macrocheira kaempferi at Wikispecies"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Macrocheira_kaempferi",
+        "situacao": "ok",
+        "texto": "Macrocheira kaempferi (Temminck, 1836), conhecido pelos nomes comuns de caranguejo-gigante-japonês takaashigani (高脚蟹; lit. \"caranguejo-de-pernas-longas\") e caranguejo-aranha-gigante, é uma espécie de caranguejo, considerada o maior artrópode extante conhecido, que chega a atingir uma envergadura, medida com as patas esticadas, de 3,8 metros e um peso de 19 kg.\n[…]\nA espécie M. kaempferi é um grande caranguejo, de coloração corporal alaranjada e manchas brancas ao longo de cada pernas,. que apresente a maior envergadura entre os artrópodes conhecidos, atingindo 3,8 m cada perna, de quela a quela. A largura da carapaça pode atingir os 40 cm, com uma massa corporal de 19 kg. Os machos têm quelípodos mais alongados do que as fêmeas, cujos quelípodos, além de muito mais curtos, não ultrapassam o comprimento do par de pernas imediato.\n[…]\nPara além do seu tamanho notável, M. kaempferi difere dos restantes caranguejos em muitos aspectos, entre os quais por os primeiros pleópodes dos machos são invulgarmente torcidos e as suas larvas terem aparência primitiva.\n[…]\nApesar de estar no presente incluído na família Inachidae, M. kaempferi não se integra perfeitamente no grupo, pelo que poderá ser necessário erigir uma nova família para acomodar o género Macrocheira. Para além da única espécie extante, M. kaempferi, são conhecidas quatro espécies fósseis pertencentes ao género Macrocheira.\n[…]\nCoenraad Jacob Temminck, na sua descrição original da espécie, anota que aquele caranguejo era conhecido dos japoneses pelos sérios ferimentos que pode infligir com as suas poderosas pinças.\n[…]\nAs capturas estão proibidas durante a primavera, período em que os caranguejos se movem para águas menos profundas para se reproduzirem.\n[…]\n(em inglês) Animal Diversity Web : Macrocheira kaempferi",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Tridacna-gigante",
+      "descricao": "Molusco bivalve gigante (Tridacna gigas) dos recifes de coral do Indo-Pacífico, o maior bivalve vivo."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Nos recifes do Indo-Pacífico vive o maior molusco de duas conchas do mundo, capaz de passar de duzentos quilos. Que molusco é esse?",
+    "resposta": "Tridacna-gigante",
+    "distratores": [
+      "Ostra-perlífera",
+      "Vieira-gigante",
+      "Nacra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_clam"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_clam",
+        "situacao": "ok",
+        "texto": "Tridacna gigas, the giant clam, is the best-known species of the giant clam genus Tridacna. Giant clams are the largest living bivalve molluscs. Several other species of \"giant clam\" in the genus Tridacna are often misidentified as Tridacna gigas.\n[…]\nThe giant clam lives on flat coral sand or broken coral and may be found at depths of as great as 20 m (66 ft). Its range covers the Indo-Pacific, but populations are diminishing quickly and the giant clam has become extinct in many areas where it was once common.\n[…]\nYoung T. gigas are difficult to distinguish from other species of Tridacninae. Adult T. gigas are the only giant clams unable to close their shells completely, allowing part of the brownish-yellow mantle to remain visible. Tridacna gigas has four or five vertical folds in its shell, which serves as the main characteristic differentiating it from the similar T. derasa that has six or seven vertical folds.\n[…]\nTridacna gigas reproduce sexually and are hermaphrodites (producing both eggs and sperm by one clam). While self-fertilization is not possible, having both characteristics does allow them to reproduce with any other member of the species as well as hermaphrodically. As with all other forms of sexual reproduction, hermaphroditism ensures that new gene combinations be passed to further generations.\n[…]\nThe giant clam is considered a delicacy in Japan (known as himejako), France, Southeast Asia, and many Pacific Islands. Some Asian foods include the meat from the muscles of clams. Large amounts of money are paid for the adductor muscle, which is believed to have aphrodisiac powers in some Chinese regions.\n[…]\nARKive – images and movies of the giant clam (Tridacna gigas)\n[…]\nTridacna gigas entry on Animal Diversity Web"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ostra-gigante",
+        "situacao": "ok",
+        "texto": "As ostras-gigantes (nome científico: Tridacna gigas) são os maiores moluscos bivalves existentes do mundo, podendo chegar a ter 1,2 metro de comprimento e pesar mais de 200 quilogramas. São encontradas nas águas quentes dos Oceanos Índico e Pacífico (zona sul), como por exemplo no Grande Barreira de Corais na Austrália. Conseguem viver mais de 100 anos, e todas as ostras possuem colorações únicas \n[…]\nEsta espécie tinha em tempos uma reputação de conseguir alimentar-se de pessoas, sendo um terrível predador. Hoje em dia sabe-se que a espécie não é perigosa, nem agressiva; e que apenas fecha a sua concha numa ação defensiva, se bem que é capaz de se agarrar e prender alguma coisa. Aliás, as ostras-gigantes, as de maiores dimensões, nunca conseguem fechar a sua concha totalmente. Os músculos responsáveis pelo fecho da concha movem-se também demasiado devagar para apanhar um nadador de surpresa.\n[…]\nEstes músculos são considerados uma iguaria no mundo da culinária. Mas a captura excessiva desta espécie em ordem de obter alimento, conchas e exemplares para aquários tornou-a “vulnerável” à extinção.\n[…]\nAs ostras-gigantes alimentam-se dos açúcares e proteínas produzidas pelos biliões de algas celulares que habitam os seus tecidos. Esta simbiose é benéfica para estas algas, pois encontram-se protegidas e com acesso a luz solar, durante o dia, quando as ostras abrem as suas conchas para as algas conseguirem realizar a sua fotossíntese.\n[…]\nEstas larvas passam o período inicial das suas vidas a formar a sua concha e à procura de um locar onde se possa agarrar e ficar lá para o resto da sua vida (assim a ostra-gigante é apenas móvel na sua fase larvar e quando forma uma concha completa e torna-se juvenil, com cerca de 20 cm de diâmetro, acaba por tornar-se imóvel, ficando no habitat onde decidiu instalar-se).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Orca",
+      "descricao": "Cetáceo dentado preto e branco (Orcinus orca), a maior espécie da família dos golfinhos."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A família dos golfinhos tem dezenas de espécies. Qual é a maior delas, que muita gente chama de baleia?",
+    "resposta": "Orca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orca",
+      "https://pt.wikipedia.org/wiki/Orca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Orca",
+        "situacao": "ok",
+        "texto": "The orca (Orcinus orca), or killer whale, is a toothed whale and the largest member of the oceanic dolphin family. The only extant species in the genus Orcinus, it is recognizable by its distinct pigmentation; being mostly black on top, white on the bottom and having recognizable white eye patches. A cosmopolitan species, it inhabits a wide range of marine environments, from Arctic to Antarctic re\n[…]\nOrcas are often referred to as \"killer whales\" because ancient sailors saw them hunt larger whales. Centuries ago, Basque sailors called them \"asesina ballena\" (meaning \"whale killer\"). The words were reversed to \"killer whale\" in English. Since the 1960s, the term \"orca\" has increasingly replaced \"killer whale\" in common usage.\n[…]\nThe orca is one of 35 species in the oceanic dolphin family, which first appeared about 11 million years ago. The orca lineage probably branched off shortly thereafter. Although it has morphological similarities with the false killer whale, the pygmy killer whale, and the pilot whales, a study of cytochrome b gene sequences indicates that its closest extant relatives are the snubfin dolphins of the genus Orcaella.\n[…]\n\"The complex and stable vocal and behavioural cultures of sympatric groups of killer whales (Orcinus orca) appear to have no parallel outside humans and represent an independent evolution of cultural faculties.\"\n[…]\nFord, John K. B.; Ellis, Graeme M. (2006). \"Selective foraging by fish-eating killer whales Orcinus orca in British Columbia\". Marine Ecology Progress Series. 316: 185–199. Bibcode:2006MEPS..316..185F. doi:10.3354/meps316185.\n[…]\nNMFS (2005). \"Conservation Plan for Southern Resident Killer Whales (Orcinus orca)\" (PDF). Seattle, US: National Marine Fisheries Service (NMFS) Northwest Regional Office. Archived from the original (PDF) on June 26, 2008. Retrieved January 2, 2009.\n[…]\nVoices in the Sea – Sounds of the Orca (Killer Whale)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orca",
+        "situacao": "ok",
+        "texto": "A orca (Orcinus orca), também conhecida como baleia-assassina, é um cetáceo odontoceto (baleia com dentes) e o maior membro da família dos golfinhos oceânicos. É a única espécie existente do gênero Orcinus e é facilmente reconhecida pela sua coloração característica em preto e branco. Trata-se de uma espécie cosmopolita, que habita uma grande variedade de ambientes marinhos, desde regiões do Ártic\n[…]\nA orca é a única espécie do género Orcinus e foi originalmente descrita por Lineu em 1758 no Systema Naturae. É uma das trinta e cinco espécies da família dos golfinhos. Tal como o género Physeter, também com apenas uma espécie (o cachalote), o género Orcinus caracteriza-se por uma população abundante sem parentes imediatos do ponto de vista da cladística.\n[…]\nOs paleontólogos acreditam que a orca pode ter tido, provavelmente, um passado evolucionário anagenético; isto é, uma evolução de ancestral para descendente sem se verificar qualquer ramificação da linha genética (formação de espécies aparentadas, coexistindo no tempo). Se assim fosse, a orca passaria a ser uma das mais antigas espécies de golfinhos, ainda que seja pouco provável que seja tão antiga quanto a própria família, cujo início é datado em cerca de cinco milhões de anos.\n[…]\nA orca sendo da família dos golfinhos é o único cetáceo que caça regularmente outros cetáceos. Há registos de vinte e duas espécies de cetáceos caçadas por orcas, seja pelo exame do conteúdo do estômago, seja pela observação das cicatrizes no corpo de outros cetáceos ou, simplesmente, pela observação do seu comportamento alimentar. Grupos de orcas chegaram mesmo a atacar baleias comuns, baleias-de-minke, baleias-cinzentas ou, mesmo, jovens baleias-azuis.\n[…]\nTribos aborígenes do Noroeste do Pacífico da América do Norte, como a Tlingit, Haida, e Tsimshian destacam com frequência a orca na sua religião e artesanato.\n[…]\nOrcinus citoniensis\n[…]\nOrcinus meyeri"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Regaleco",
+      "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Prateado e achatado como uma fita, provável origem de lendas de serpentes marinhas, qual é o peixe ósseo mais comprido do mundo?",
+    "resposta": "Regaleco",
+    "distratores": [
+      "Peixe-espada",
+      "Moreia-gigante",
+      "Barracuda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_oarfish",
+      "https://en.wikipedia.org/wiki/Oarfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_oarfish",
+        "situacao": "ok",
+        "texto": "The giant oarfish (Regalecus glesne) is a species of oarfish of the family Regalecidae. It is an oceanodromous species with a worldwide distribution, excluding polar regions. Other common names include Pacific oarfish, king of herrings, and ribbonfish.\n[…]\nR. glesne was first described by Peter Ascanius in 1772. The genus name, Regalecus (from Latin 'regalis' meaning royal), signifies \"belonging to a king\"; the specific epithet glesne is from \"Glesnaes\", the name of a farm at Glesvær (not far from Norway's second largest city of Bergen), where the type specimen was found.\n[…]\nThere is little known about the feeding habits of Regalecus. Most accounts report the stomach and gut as empty, or with colored liquid inside. There is one account of R. glesne with a gut content of thousands of krill. Another report of the stomach contents of two adult R. glesne consisted of 43 heads and 7 individuals of Mediterranean krill.\n[…]\nThere are few noted parasitoids of Regalecidae. An adult female R. glesne was found to be host to at least 63 plerocercoids (the infective larvae of tapeworms) consistent with the characteristics of the larvae of the genus Clistobothrium.\n[…]\nThere is one recorded instance of a pod of pilot whales attacking an oarfish, but they did not eat it.\n[…]\nThe only known fossil of Regalecus glesne comes from a Late Pliocene deposit near Macerata, Marche, Italy (found at 43°14'36''N, 13°25'32''E). Specifically, the fossil in question, identified as R. glesne, consists of the 355 mm (14.0 in)-long posterior portion of the body and what have been identified as the single-rayed pelvic fins of the same specimen.\n[…]\nRecent Examinations of the Oarfish, Regalecus glesne, from the North Sea. Yorkshire Coast Sealife, Fisheries & Maritime Archive & Museum"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oarfish",
+        "situacao": "ok",
+        "texto": "Oarfish are the three species of large and extremely long pelagic lampriform fish belonging to the small family Regalecidae. Found in areas spanning from temperate ocean zones to tropical ones, yet rarely seen by humans, the oarfish family contains three species in two genera: Regalecus glesne (giant oarfish), Regalecus russelii (Russell's oarfish), and Agrostichthys parkeri (streamer fish).\n[…]\nThe giant oarfish is by far the largest member of the family, at a length of 8 m (26 ft) The streamer fish reaches 3 m (10 ft) in length, while the largest recorded specimen of Regalecus russelii was 5.4 m (18 ft).\n[…]\nThrough the analysis of the mitochondrial genome of Regalecus glesne, the phylogenetic placement of the giant oarfish was further verified. Oarfish are Lampriformes, so placed due to their morphology. Analysis of the mitochondrial genome of an R. glesne specimen clusters the species with Trachipterus trachypterus and Zu cristatus, two other Lampriformes.\n[…]\nGiant Oarfish (Regalecus glesne)\n[…]\nRussell's Oarfish (Regalecus russelii)\n[…]\nIn July 2008, scientists for the first time captured footage of an oarfish swimming in its natural habitat in the mesopelagic zone in the Gulf of Mexico. The fish was estimated to be between five and ten metres (16 and 33 ft) in length. Five observations of apparently healthy oarfish Regalecus glesne by remotely operated vehicles were reported from the northern Gulf of Mexico between 2008 and 2011 at depths within the epipelagic and mesopelagic zones.\n[…]\nThe oceanodromous Regalecus glesne is recorded as spawning off Mexico from July to December; all species are presumed to not guard their eggs, and release brightly coloured, buoyant eggs, up to six millimetres (0.24 in) across, which are incorporated into the zooplankton. Based on their reproductive morphology, oarfish are thought to batch spawn.\n[…]\nDeepsea footage of a live oarfish, BBC, 2010"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Regaleco",
+        "situacao": "ok",
+        "texto": "Regalecus glesne, conhecido popularmente como peixe-remo, regaleco, relangueiro ou rei-dos-arenques, é um peixe da família Regalecidae, classe Actinopterygii. Habita as profundezas marinhas de 200 a 1.000 m de profundidade.\n[…]\nMede aproximadamente 11 m de comprimento e se alimenta de pequenos peixes. Seu principal predador é o tubarão.\n[…]\nO peixe-remo sempre foi um mistério para a ciência, por ser uma criatura tão estranha. Acreditava-se de que ele era uma espécie de monstro-marinho. Ele possui um tipo de \"topete\" vermelho em cima da cabeça.\n[…]\nEm maio de 2010, foi encontrado na Suécia um peixe-remo de 3,65 metros. Foi a primeira vez que se encontrou um peixe-remo no país em 130 anos. Em outubro de 2013, uma instrutora de ciência marinha levou um susto ao avistar no mar em Los Angeles, na Califórnia (EUA) um Regaleco com mais de 5,4 m de comprimento.\n[…]\nCom menos de uma semana, outro peixe-remo foi encontrado morto nas areias da praia de Oceanside na California, desta vez com 4,27 metros.\n[…]\nO peixe-remo é conhecido no folclore japonês como o Mensageiro do Palácio do Deus do Mar (Ryugu no tsukai), cuja aparição é presságio de tsunamis/terremotos.\n[…]\nSegundo o especialista em sismologia Kiyoshi Wadatsumi, em virtude de habitarem as profundezas do oceano, estes animais são mais sensíveis a movimentações sísmicas do que em comparação aos animais que habitam a superfície, razão pela qual é feita a associação entre estes desastres naturais e a presença de regalecos nas praias.\n[…]\nApós o terremoto e tsunami de Fukushima em 2011, os quais mataram mais de 20 mil pessoas, muitos apontaram que inúmeros regalecos encontrados em 2009-2010 reforçariam o mito.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Vaquita",
+      "descricao": "Pequeno boto (Phocoena sinus) que vive só no norte do Golfo da Califórnia, o menor cetáceo do mundo."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Encontrado apenas no norte do Golfo da Califórnia, no México, que pequeno boto é o menor cetáceo do mundo?",
+    "resposta": "Vaquita",
+    "distratores": [
+      "Toninha",
+      "Boto-cinza",
+      "Boto-cor-de-rosa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vaquita"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vaquita",
+        "situacao": "ok",
+        "texto": "The vaquita ( və-KEE-tə; Phocoena sinus) is a species of porpoise endemic to the northern end of the Gulf of California in Baja California, Mexico. Reaching a maximum body length of 150 cm (4.9 ft) (females) or 140 cm (4.6 ft) (males), it is the smallest of all living cetaceans. The species is currently on the brink of extinction, and is listed as Critically Endangered by the IUCN Red List; the st\n[…]\n\"Vaquita\" is Spanish for \"little cow\".\n[…]\nVaquita habitat is restricted to a small portion of the upper Gulf of California (also called the Sea of Cortez), making this the smallest range of any cetacean species. They live in shallow, turbid waters of less than 150 m (490 ft) depth.\n[…]\nThe vaquita is found only in the upper Gulf of California, Mexico area. Anthropogenic effects of a rise in commercial fishing such as accidental by-catch, illegal fishing, and entanglement have been linked to the cause of their decline. Shrimp fishing and gillnets create entanglement issues for the vaquita. Aspects of illegal fishing including open access fisheries and absent fisheries management have correlated towards poaching of the main prey source of the vaquita.\n[…]\nRoughly 80% of shrimp caught in the northern end of the Gulf of California, which has a high aquatic mammal bycatch rate, is consumed in the United States. As such, U.S. consumers of this shrimp are likely contributing to the vaquita extinction crisis. The Marine Mammal Protection Act of 1972, which forbids foreign fishers from exporting seafood with high levels of marine mammal bycatch, may allow for better efforts to preserve endangered vaquitas.\n[…]\nVaquita fact sheet from NOAA Fisheries\n[…]\nVaquitaMarina.org Archived 12 August 2014 at the Wayback Machine, a Baja California Sur-based vaquita conservation group\n[…]\nOperation Milagro III Archived 3 February 2017 at the Wayback Machine, Sea Shepherd Conservation Society's operation to protect the vaquita"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vaquita",
+        "situacao": "ok",
+        "texto": "A vaquita-marinha (nome científico: Phocoena sinus) é uma espécie raríssima de toninha endêmica do norte do Golfo da Califórnia. É também conhecida como marsuíno-do-golfo-da-califórnia, toninha-do-golfo, boto-do-pacífico e cochito. Como o baiji (Lipotes vexillifer) foi extinto em 2006, a vaquita assumiu o título de cetáceo mais ameaçado do mundo. Está listado como Criticamente em Perigo (CR) desde\n[…]\nA vaquita é a menor e mais ameaçada espécie de cetáceo e é endêmica do extremo norte do Golfo da Califórnia. A espécie é distinguível pelos anéis escuros ao redor de seus olhos, manchas em seus lábios e uma linha que se estende desde suas barbatanas dorsais até sua boca. Suas costas possuem um cinza escuro que se desvanece na parte inferior branca. Conforme as vaquitas amadurecem, os tons de cinza ficam mais claros.\n[…]\nTodas as 17 espécies de peixes encontradas em estômagos de vaquita podem ser classificadas como espécies demersais  ou bentônicas que habitam águas relativamente rasas no Golfo da Califórnia. São predadores de crustáceos, peixes pequenos, polvos e lulas. Algumas das presas mais comuns são os teleósteos. Como outros cetáceos, vaquitas podem usar a ecolocalização para localizar presas.\n[…]\nO desaparecimento da vaquita terá um impacto ecológico significativo no norte do Golfo da Califórnia. O Golfo da Califórnia é considerado um grande ecossistema marinho, devido à sua alta diversidade de espécies e ao grande tamanho do habitat.\n[…]\nComo as vaquitas são endêmicas do Golfo da Califórnia, o México lidera os esforços de conservação com a criação do Comitê Internacional para a Recuperação da Vaquita (CIRVA), que tentou evitar a morte acidental de vaquitas, proibindo o uso de redes de pesca no habitat da vaquita. O CIRVA concluiu em 2000 que entre 39 e 84 indivíduos são mortos a cada ano por essas redes de emalhar.\n[…]\nVIVA Vaquita",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Raia-manta",
+      "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Com até sete metros de uma ponta à outra das nadadeiras, que raia oceânica, também chamada de jamanta, é a maior do mundo?",
+    "resposta": "Raia-manta-gigante",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray",
+        "situacao": "ok",
+        "texto": "The giant oceanic manta ray, giant manta ray, oceanic manta ray, or pelagic manta ray (Mobula birostris) is a species of ray in the family Mobulidae and the largest type of ray in the world. It is circumglobal and is typically found in tropical and subtropical waters but can also be found in temperate waters. Until 2017, the species was classified in the genus Manta, along with the smaller reef ma\n[…]\nFor this reason and others, gill rakers are sold at relatively high prices – up to $400 per kilogram – and are sold under the trade name pengyusai. In June 2018, the New Zealand Department of Conservation classified the giant oceanic manta ray as \"data deficient\" with the qualifier \"threatened overseas\" under the New Zealand Threat Classification System.\n[…]\nThe threat of microplastics also exists in the diets of oceanic manta rays. A 2019 study in Indonesia's Coral Triangle was performed to determine if the filter-feeding megafauna of the area were accidentally ingesting microplastics, which can be eaten by filter-feeders either directly (by ingesting layers of plastic polymers that float on the surface of the water in feeding areas) or indirectly (by eating plankton that previously ate microplastics).\n[…]\nThe results of the study provided ample evidence that filter feeders, such as oceanic manta rays, that lived in the area were regularly consuming microplastics. Though it was also proven via stool samples that some of the plastic simply passed through the digestive systems of manta rays, the discovery is a concern because microplastics create sinks for persistent organic pollutants such as dichloro-diphenyl-trichloroethanes (DDTs) and polycyclic aromatic hydrocarbons.\n[…]\nA few public aquariums have giant manta rays in captivity. Since 2009, captive manta rays have been classified as Ꮇ. alfredi.\n[…]\nPhotos of Giant oceanic manta ray in the Sealife Collection"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jamanta",
+        "situacao": "ok",
+        "texto": "A jamanta (\"Mobula birostris\", previamente \"Manta birostris\" antes da reclassificação em 2017), também conhecida como manta, maroma (nos Açores), morcego-do-mar, peixe-diabo, raia-diabo ou juneco, é uma espécie de peixes cartilagíneos (Chondrichthyes) pelágicos, oceânicos da família Myliobathidae e a maior espécie actual de raias. Encontra-se nas regiões tropicais e subtropicais de todos os oceano\n[…]\nA diferença também pode ser feita por sua coloração ventral, a raia de recife tem uma barriga branca com muitas vezes manchas entre as fendas branquiais branquiais e outras manchas espalhadas pela borda posterior das nadadeiras peitorais e região abdominal. A jamanta oceânica também tem uma coloração ventral branca com manchas agrupadas em torno da região inferior de seu abdômen. Suas barbatanas cefálicas, dentro de sua boca e suas fendas branquiais são geralmente pretas.\n[…]\nDevido ao seu grande tamanho e velocidade em caso de perigo (24 km/h), a raia manta oceânica tem muito poucos predadores naturais que podem ser fatais para ela. Apenas os grandes tubarões e golfinhos, como o tubarão-tigre (Galeocerdo cuvier), o grande tubarão-martelo (Sphyrna mokarran), o tubarão-touro (Carcharhinus leucas), a falsa orca (Pseudorca crassidens) e a orca (Orcinus orca), são capazes de predar a arraia.\n[…]\nPor esse e outros motivos, as brânquias são vendidos a preços relativamente altos – até US$ 400 o quilo – e são vendidos sob o nome comercial de pengyusai . Em junho de 2018, o Departamento de Conservação da Nova Zelândia classificou a arraia manta oceânica gigante como \"Deficiente de Dados\" com o qualificador \"Ameaçado no Exterior\" sob o Sistema de Classificação de Ameaças da Nova Zelândia .\n[…]\nOs resultados do estudo forneceram ampla evidência de que os filtradores, como as jamanta oceânicas, que viviam na área, consumiam microplásticos regularmente.\n[…]\nJamanta: sinônimo\n[…]\nJamanta é um sinônimo também.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Baleia-comum",
+      "descricao": "Baleia de barbatanas esguia e veloz (Balaenoptera physalus), o segundo maior animal vivo."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Depois da baleia-azul, qual é o segundo maior animal vivo do planeta, uma baleia de barbatanas esguia e muito veloz?",
+    "resposta": "Baleia-comum (baleia-fin)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fin_whale"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fin_whale",
+        "situacao": "ok",
+        "texto": "The fin whale (Balaenoptera physalus), also known as the finback whale or common rorqual, is a species of baleen whale and the second-longest cetacean after the blue whale. The biggest individual reportedly measured 26–27.3 m (85–90 ft) in length, with a maximum recorded weight of 65.5 to 120 t (64.5 to 118.1 long tons; 72.2 to 132.3 short tons). The fin whale's body is long, slender, and brownish\n[…]\nThe fin whale was first described by Friderich Martens in 1675 and by Paul Dudley in 1725. The former description was used as the primary basis for the species Balaena physalus by Carl Linnaeus in 1758. In 1804, Bernard Germain de Lacépède reclassified the species as Balaenoptera rorqual, based on a specimen that had stranded on Île Sainte-Marguerite (Cannes, France) in 1798.\n[…]\nFin whales are rorquals, members of the family Balaenopteridae, which includes the humpback whale, blue whale, Bryde's whale, sei whale, and minke whale. The family diverged from the other baleen whales in the suborder Mysticeti in the middle Miocene.\n[…]\nFin whales are more gregarious than other rorquals and often live in groups of 6–10, although feeding groups may reach up to 100–250 animals.\n[…]\nThe fin whale is listed as a vulnerable species on the IUCN Red List. They are also included in the Endangered Species Act of 1973. The fin whale is listed on both Appendix I and Appendix II of the Convention on the Conservation of Migratory Species of Wild Animals (CMS), and on Appendix I of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).\n[…]\nBalaenoptera bertae\n[…]\nARKive – images and videos of the fin whale (Balaenoptera physalus)\n[…]\nFinback whale sounds\n[…]\nPhotograph of a fin whale underwater\n[…]\nPhotographs of a fin whale breaching\n[…]\nWorld Wide Fund for Nature (WWF) – species profile for the fin whale\n[…]\nVoices in the Sea – Sounds of the Fin Whale Archived 25 July 2014 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baleia-comum",
+        "situacao": "ok",
+        "texto": "A baleia-comum (Balaenoptera physalus), também chamada de baleia-fin e rorqual-comum, é um mamífero marinho que pertence à família dos balenopterídeos, da ordem dos cetáceos.\n[…]\nA baleia-comum é conhecida há muito tempo por taxonomistas. Ela foi primeiramente descrita por Frederik Martens em 1675 e, logo após, por Paul Dudley, em 1725. Essas descrições foram usadas como base para a Balaena physalus de Carlos Lineu (1758). O Conde de Lacépède a reclassificou como Balaenoptera physalus no começo do século XIX. O nome científico vem do grego physa, que significa soprar.[carece de fontes]?\n[…]\nA maturidade física completa se atinge entre 25 e 30 anos, embora se saiba que essas baleias costumam viver até os 94 anos de idade. Uma baleia-comum recém-nascida mede aproximadamente 6,5 metros de comprimento e pesa aproximadamente 1 800 quilogramas. O grande tamanho ajuda na identificação do animal, que geralmente é confundido apenas com a baleia-azul, a baleia-sei ou, em águas quentes, com a baleia-de-bryde.[carece de fontes]?\n[…]\nComo muitos dos grandes rorquais, a baleia-comum é uma espécie cosmopolita. É encontrada em todos os principais oceanos, e em águas que variam de polares a tropicais. A espécie está ausente somente nas águas próximas aos blocos de gelo dos pólos norte e sul e áreas relativamente pequenas de águas afastadas dos grandes oceanos, como o Mar Vermelho, o Golfo Pérsico, o leste do Mar Mediterrâneo e o Mar Báltico. A maior densidade populacional ocorre em águas temperadas e frias.\n[…]\n«Vocalizações da baleia-comum» (em inglês)\n[…]\n«Fotografias subaquáticas da baleia-comum» (em inglês)\n[…]\n«Fotografias de uma baleia-comum saltando fora d'água» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Peixe-pedra",
+      "descricao": "Peixe de recife do Indo-Pacífico do gênero Synanceia, camuflado como rocha, com espinhos dorsais muito venenosos."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Quase invisível entre as rochas dos recifes do Indo-Pacífico, que peixe é considerado o mais venenoso do mundo, com espinhos que ferem quem pisa nele?",
+    "resposta": "Peixe-pedra",
+    "distratores": [
+      "Peixe-leão",
+      "Peixe-cirurgião",
+      "Moreia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stonefish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stonefish",
+        "situacao": "ok",
+        "texto": "Synanceia is a genus of ray-finned fish belonging to the subfamily Synanceiinae, commonly known as the stonefish, which is classified within the family Scorpaenidae, the scorpionfish and close relatives. Stonefish are the most venomous fish known; stings can be fatal to humans. They are found in the coastal regions of the Indo-Pacific. They are sometimes confused with the freshwater lionfish.\n[…]\nDespite this, other authorities regard Synanceiidae as a valid family and the Synanceiini as the subfamily Synanceiinae. The genus name Synanceia is made up of syn 'with' and angeíon 'cavity', an allusion to the large, cavernous heads of the species considered to be in the genus.\n[…]\nSynanceia are primarily marine, and although some species are known to live in rivers, most live in coral reefs near the tropical Pacific and Indian oceans. The species has potent neurotoxins secreted from glands at the base of their needle-like dorsal fin spines which stick up when disturbed or threatened. The vernacular name of the species, the stonefish, derives from its grey and mottled camouflage similar to the color of a stone.\n[…]\nStonefish antivenom is the second-most administered in Australia.\n[…]\nSynanceia are edible to humans if properly prepared. The protein-based venom breaks down quickly when heated, and raw stonefish served as part of sashimi is rendered harmless simply by removing the dorsal fins, which are the main source of venom. The fish are considered a delicacy in many parts of Asia, including south Japan, south Fujian, Guangdong in China, Hong Kong and some parts of Vietnam. In the Hokkien-speaking area, they are considered delicacies and good for health.\n[…]\nEschmeyer, William N.; Fricke, Ron & van der Laan, Richard (eds.). \"Synanceia Bloch & Schneider 1801\". Catalog of Fishes. California Academy of Sciences. Retrieved 29 December 2008.\n[…]\nReef Stonefish, Synanceia verrucosa Australian museum"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Recife de coral",
+      "descricao": "Estrutura submarina formada pelo acúmulo dos esqueletos calcários de corais ao longo de séculos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os recifes de coral crescem com o acúmulo dos esqueletos dos corais. De que substância mineral, a mesma do calcário, esses esqueletos são feitos?",
+    "resposta": "Carbonato de cálcio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coral_reef"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coral_reef",
+        "situacao": "ok",
+        "texto": "A coral reef is an underwater ecosystem characterized by reef-building corals. Reefs are formed of colonies of coral polyps held together by calcium carbonate. Most coral reefs are built from stony corals, whose polyps cluster in groups.\n[…]\nThe times of maximum reef development were in the Middle Cambrian (513–501 Ma), Devonian (416–359 Ma) and Carboniferous (359–299 Ma), owing to extinct order Rugosa corals, and Late Cretaceous (100–66 Ma) and Neogene (23 Ma–present), owing to order Scleractinia corals.\n[…]\nReefs grow as polyps and other organisms deposit calcium carbonate, the basis of coral, as a skeletal structure beneath and around themselves, pushing the coral head's top upwards and outwards. Waves, grazing fish (such as parrotfish), sea urchins, sponges and other forces and organisms act as bioeroders, breaking down coral skeletons into fragments that settle into spaces in the reef structure or form sandy bottoms in associated reef lagoons.\n[…]\nIn Australia, the Great Barrier Reef is protected by the Great Barrier Reef Marine Park Authority, and is the subject of much legislation, including a biodiversity action plan. Australia compiled a Coral Reef Resilience Action Plan. This plan consists of adaptive management strategies, including reducing carbon footprint. A public awareness plan provides education on the \"rainforests of the sea\" and how people can reduce carbon emissions.\n[…]\nBiorock is a substrate produced by a patented process that runs low-voltage electrical currents through seawater to cause dissolved minerals to precipitate onto steel structures. The resultant white carbonate (aragonite) is the same mineral that makes up natural coral reefs. Corals rapidly colonize and grow on these coated structures."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Recife_de_coral",
+        "situacao": "ok",
+        "texto": "Recife de coral é um ambiente formado pela acumulação de animais marinhos e de certas algas. Com o tempo, em condições favoráveis, um recife de coral pode transformar-se numa ilha ou, pelo menos, em um atol.\n[…]\nOs blocos construídos nos recifes de corais são os \"esqueletos\" de várias gerações de algas, corais e outros organismos construtoras de recifes, que são compostos por carbonato de cálcio.\n[…]\nPor exemplo, como um recife de coral cresce, ele estabelece uma estrutura esquelética encaixando cada novo pólipo. Ondas, peixes de pastejo (como peixe-papagaio), ouriços do mar, esponjas e outras forças e organismos quebram os esqueletos de corais em fragmentos que assentam em espaços na estrutura do recife. Muitos outros organismos que vivem na comunidade do recife contribuem para o esqueleto de carbonato de cálcio do recife do mesmo modo.\n[…]\nUm certo número de invertebrados, coletivamente denominados criptofauna, habitam o substrato pedra coral, cada um furando a superfície do calcário ou vivendo em preexistentes vácuos e fendas. Esses animais que ficam dentro da rocha incluem esponjas, moluscos bivalves, e Sipunculas. O recife inclui muitas outras espécies, especialmente crustáceos e poliquetos (Nybakken, 1997).\n[…]\nEm algumas áreas da Flórida e do Caribe, a cobertura de corais diminuiu de 50 a 80% nas últimas três décadas. O Programa de Monitoramento e Avaliação de Recifes de Coral de Mote mantém um viveiro subaquático que cresce corais Acropora cervicornis, uma espécie ameaçada de coral que cresce relativamente rápido. O Centro Internacional de Pesquisa e Restauração de Recifes de Coral Elizabeth Moore plantou mais de 43 000 corais em recifes empobrecidos em Florida Keys.\n[…]\n«Reef Management»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Coral",
+      "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que algas microscópicas vivem dentro dos tecidos dos corais, dando a eles cor e boa parte do alimento?",
+    "resposta": "Zooxantelas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zooxanthellae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zooxanthellae",
+        "situacao": "ok",
+        "texto": "Zooxanthellae (; sing. zooxanthella) is a colloquial term for photosynthetic single-celled organisms capable of symbiosis with diverse marine invertebrates such as corals, jellyfish, demosponges, and nudibranchs. Most known zooxanthellae are in the dinoflagellate genus Symbiodinium, but some are known from the genus Amphidinium, and other taxa, as yet unidentified, may have similar endosymbiont af\n[…]\nSuch indirect acquisition can result in the new host being infected by a species of zooxanthella different from that present in its parent.\n[…]\nThis in turn strips the coral of its color, in this phenomenon known as coral bleaching, where the now-transparent tissues of the coral reveal its white internal skeletal structure. Variations in salinity, light intensity, temperature, pollution, sedimentation, and disease can all impact the photosynthetic efficiency of zooxanthellae or result in expulsion from their mutualistic relationships.\n[…]\nCoral is not the only aquatic organism to be affected by bleaching and the expulsion of zooxanthellae; clams have also been found to undergo a similar process when temperatures become too high. However, clams discard zooxanthellae that are still alive and have been observed being able to recover them. This not only has positive indications for the clams themselves, but also the surrounding ecosystem. For many organisms, clams are a vital part of the food chain.\n[…]\nThe relationship between jellyfish and zooxanthellae is affected a little differently than coral in terms of climate change despite both of them being a part of the cnidaria family. One study suggested that certain species of jellyfish and their symbiotic zooxanthellae may have some type of resistance to decreasing pH caused by climate change to a certain point. Although, jellyfish bleaching events have been documented during extreme heat events."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zooxantela",
+        "situacao": "ok",
+        "texto": "Zooxantela, por vezes simplesmente xantela ou zoox, é a designação dada ao conjunto de organismos unicelulares fotossintéticos de coloração amarelada ou acastanhada (quando verdes são geralmente referidos por zooclorelas), pertencentes a diversos taxa, que vivem em endossimbiose com os corais, nudibrânquios e outros animais e protistas heterotróficos marinhos.\n[…]\nAs zooxantelas vivem no interior do corpo do hospedeiro, imersas no protoplasma celular ou ocupando o espaço intercelular, e través da fotossíntese alimentam o hospedeiro com açúcares, aminoácidos e outros produtos orgânicos e recebendo dele dióxido de carbono e nutrientes. Esta relação simbiótica favorece ambos os organismos, permitindo manter o crescimento num meio pobre em nutrientes dissolvidos e em suspensão e por isso com baixa produtividade primária planctónica.\n[…]\nTodos os corais envolvidos na construção dos recifes de coral tropicais têm zooxantelas como endossimbiontes, devendo à sua presença a coloração que ostentam.\n[…]\nNos foraminíferos a simbiose é opcional, sendo que, em princípio, ambas as espécies podem viver isoladas, mas no caso dos corais hermatípicos (os corais que criam os recifes de coral tropicais) a simbiose é obrigatória, já que a perda das zooxantelas leva à descoloração dos corais (o branqueamento dos corais) e à sua morte. Essa dependência resulta das zooxantelas absorverem o dióxido de carbono libertado pelos corais e fornecerem diversos nutrientes de volta.\n[…]\nOs aminoácidos produzidos pelos pólipos estimulam a produção de glicerol, composto directamente relacionada com a respiração do coral. A redução da vitalidade ou o desaparecimento das zooxantelas está na origem do colapso de alguns ecossistemas coralinos dos trópicos e subtrópicos.\n[…]\nWhat are Zooxanthellae?\n[…]\nH. G. Smith, \"The Significance of the relationship between actinians and zooxanthellae\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Barbas de baleia",
+      "descricao": "Placas filtradoras presas à mandíbula superior das baleias misticetas, usadas para reter krill e pequenos peixes."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "As barbas que baleias como a jubarte usam para filtrar o alimento não são ossos. De que material elas são feitas?",
+    "resposta": "Queratina",
+    "distratores": [
+      "Cartilagem",
+      "Colágeno",
+      "Quitina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baleen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baleen",
+        "situacao": "ok",
+        "texto": "Baleens or baleen plates are triangular sheets of keratin that make up a filter-feeding system (the \"Baleen rack\") inside the mouth of baleen whales. The feeding process starts as the animal opens its mouth to take in water. The whale then pushes the water out through a rack of baleen plates, so as to retain (filter) what will serve as food for the whale. A baleen is similar to a bristle and consi\n[…]\nAs a material for various human uses, baleen is usually called whalebone, which is a misnomer.\n[…]\nThe word \"baleen\" derives from the Latin bālaena, related to the Greek phalaina – both of which mean \"whale\".\n[…]\nWhale baleen is the mostly mineralized keratin-based bio-material consisting of parallel plates suspended down the mouth of the whale. Baleen's mechanical properties of being strong and flexible made it a popular material for numerous applications requiring such a property (see Human uses section).\n[…]\nSynthetic materials are now usually used for similar purposes, especially plastic and fiberglass. Baleen was also used by Dutch cabinetmakers for the production of pressed reliefs.\n[…]\nSt. Aubin, D. J.; Stinson, R. H.; Geraci, J. R. (1984). \"Aspects of the structure and composition of baleen, and some effects of exposure to petroleum hydrocarbons\" (PDF). Canadian Journal of Zoology. 62 (2): 193–8. doi:10.1139/z84-032.\n[…]\nMeredith, Robert W.; Gatesy, John; Cheng, Joyce; Springer, Mark S. (2010). \"Pseudogenization of the tooth gene enamelysin (MMP20) in the common ancestor of extant baleen whales\". Proceedings of the Royal Society B: Biological Sciences. 278 (1708): 993–1002. doi:10.1098/rspb.2010.1280. PMC 3049022. PMID 20861053.\n[…]\n\"How baleen whales lost a gene and their teeth\". Thoughtomics. Archived from the original on 2011-03-22."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Barbas_de_baleia",
+        "situacao": "ok",
+        "texto": "As barbas, também conhecidas como barbatanas, são longas placas flexíveis de queratina (o mesmo material de que são feitas as unhas e o cabelo) organizadas em duas filas na maxila superior da boca das baleias da sub-ordem Mysticeti — os cetáceos sem dentes — que servem como aparelho de alimentação por filtragem.\n[…]\nEstas placas são uma modificação da epiderme e, além da queratina, contêm ainda pequenas quantidades de um mineral próprio dos ossos, a hidroxiapatite, assim como de manganésio, cobre, boro, ferro e cálcio.\n[…]\nSt. Aubin, D.J, R.H. Stinson and J.R. Geraci 1984. \"Aspects of the structure and function of baleen, and some effects of exposure to petroleum hydrocarbons\". Canadian Journal of Zoology 62: 193-198",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Ouriço-do-mar",
+      "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No sushi, o uni é a parte comestível e alaranjada do ouriço-do-mar. Que órgãos do animal são esses?",
+    "resposta": "As gônadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sea_urchin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sea_urchin",
+        "situacao": "ok",
+        "texto": "Sea urchins or urchins () are the class Echinoidea within the echinoderms. Approximately 950 species live on the seabed, inhabiting all oceans and depths from the intertidal zone to the deep sea. They typically have a globular body covered by spiny protective tests (hard shells), typically from 3 to 10 cm (1 to 4 in) across. Sea urchins move slowly, crawling with their tube feet, and sometimes pus\n[…]\nThe gonads are lined with muscles underneath the peritoneum, and these allow the animal to squeeze its gametes through the duct and into the surrounding sea water, where fertilization takes place.\n[…]\nSea urchins are preyed upon by a number of marine animals, including lobsters, crabs, triggerfish, California sheephead, sea otters. Wolf eels are considered specialist predators of sea urchins. These predators have evolved adaptations - such as specialized teeth, pincers, or claws, along with sufficient physical strength that allows them to overcome the sea urchin's protective spines and shell.\n[…]\nEchinoids are deuterostome animals, like the chordates. A 2014 analysis of 219 genes from all classes of echinoderms gives the following phylogenetic tree. Approximate dates of branching of major clades are shown in millions of years ago (mya).\n[…]\nSea urchin injuries are puncture wounds inflicted by the animal's brittle, fragile spines.\n[…]\nThe gonads of both male and female sea urchins, sometimes euphemized as sea urchin \"roe\" or \"corals\", are culinary delicacies in many parts of the world, especially Japan. In Japan, sea urchin is known as uni (うに), and its gonads (the only meaty, edible parts of the animal) can retail for as much as ¥40,000 ($360) per kilogram; they are served raw as sashimi or in sushi, with soy sauce and wasabi. Japan imports large quantities from the United States, South Korea, and other producers."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Echinoidea",
+        "situacao": "ok",
+        "texto": "Echinoidea Leske, 1778 (do grego: ἐχῖνος echinos = ouriço) é uma classe de organismos pertencentes ao filo Echinodermata que agrupa invertebrados marinhos dioicos de corpo globoso ou disciforme, geralmente espinhosos, com 3-10 cm de diâmetro, revestidos por um tegumento coriáceo. A coloração mais comum é o negro, mas são frequentes tons relativamente discretos de verde, castanho, púrpura, azul e v\n[…]\nÉ importante ressaltar que os ambulacros e fileiras de pés com seus respectivos canais internos se estendem pelas laterais do animal (formando uma espécie de globo) em direcção à parte superior aboral (o animal fica orientado para o substrato com a parte oral).\n[…]\nOs ouriços-do-mar possuem cinco gónadas com os respectivos gonóporos estão localizados nas cinco placas genitais interambulacrárias. Os ouriços cordiformes e as bolachas-da-praia possuem apenas quatro gónadas (às vezes menos), uma tendo sido perdida com a migração do ânus. A gametogénese nesses animais é regulada por fotoperíodo, garantindo uma desova sincronizada entre os membros da população.\n[…]\nQuando a larva está perto de entrar em metamorfose, ela nada até um substrato e se fixa. Seus lados esquerdo e direito se transformam, respectivamente, nas superfícies oral e aboral. O grande número de gâmetas liberado por esses animais, juntamente com a facilidade de mantê-los em laboratório, tornou a classe, especialmente os ouriços-do-mar, um modelo de estudo em biologia do desenvolvimento. Muitas das informações existentes acerca do assunto vêm de trabalhos realizados com equinóides.\n[…]\nA espécie Strongylocentrotus droebachiensis pode ser um especialista facultativo de bivalves. A maior parte das bolachas-da-praia e ouriços cordiformes não possui lanterna; eles cavam em sedimentos moles e se alimentam de partículas orgânicas. Ouriços-do-mar geralmente se alimentam à noite para evitar predadores",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Choco",
+      "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O osso de siba, pendurado nas gaiolas de passarinhos, não é um osso de verdade. Que parte do choco ele é?",
+    "resposta": "A concha interna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cuttlebone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cuttlebone",
+        "situacao": "ok",
+        "texto": "Cuttlebone, also known as cuttlefish bone, is a hard, brittle internal structure (an internal shell) found in all members of the family Sepiidae, commonly known as cuttlefish, within the cephalopods. In other cephalopod families it is called a gladius."
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Tinta de cefalópode",
+      "descricao": "Líquido escuro que polvos, lulas e chocos soltam na água para despistar predadores."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A tinta escura que polvos, lulas e chocos soltam para escapar dos predadores deve a cor a que pigmento, também presente na pele humana?",
+    "resposta": "Melanina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cephalopod_ink"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cephalopod_ink",
+        "situacao": "ok",
+        "texto": "Cephalopod ink is a dark-coloured or luminous ink released into water by most species of cephalopod, usually as an escape mechanism. All cephalopods, with the exception of the Nautilidae and the Cirrina (deep-sea octopuses), are able to release ink to confuse predators.\n[…]\nThe ink is released from the ink sacs (located between the gills) and is dispersed more widely when its release is accompanied by a jet of water from the siphon. Its dark colour is caused by its main constituent, melanin. Each species of cephalopod produces slightly differently coloured inks; generally, octopuses produce black ink, squid ink is blue-black, and cuttlefish ink is a shade of brown.\n[…]\nCephalopod ink contains a number of chemicals in a variety of different concentrations, depending on the species. However, its main constituents are melanin and mucus. It can also contain, among others, tyrosinase, dopamine, and L-DOPA, as well as small amounts of free amino acids, including taurine, aspartic acid, glutamic acid, alanine, and lysine.\n[…]\nCephalopod ink is nonetheless generally thought to be more sophisticated than a simple \"smoke screen\"; the ink of a number of squid and cuttlefish has been shown to function as a conspecific chemical alarm. Computer simulations have suggested the melanin deployed by cuttlefish may be particularly effective against the scent receptors of sharks, overwhelming the fishes' narrow but extremely intense scent range to deter them from predation.\n[…]\nHeteroteuthis dispar is a cephalopod species known for releasing luminous ink. The light comes from a substance produced by a dedicated organ before being transferred into the ink sac.\n[…]\nWhile it is not commonly used in China, cephalopod ink is sometimes used to dye the dough of dumplings."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Ágar-ágar",
+      "descricao": "Substância gelatinosa extraída de algas vermelhas, usada em culinária e como meio de cultura em laboratórios."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O ágar-ágar, gelatina vegetal usada em doces e em laboratórios, é extraído de que tipo de ser marinho?",
+    "resposta": "Algas vermelhas",
+    "distratores": [
+      "Algas pardas",
+      "Esponjas-do-mar",
+      "Águas-vivas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Agar",
+        "situacao": "ok",
+        "texto": "Agar ( or ), or agar-agar, is a jelly-like substance consisting of polysaccharides obtained from the cell walls of some species of red algae (phylum Rhodophyta) primarily from the Gracilaria genus (Irish moss, ogonori) and the Gelidiaceae family (tengusa). These algae are known as agarophytes.\n[…]\nBeginning in the late 19th century, agar began to be used as a solid medium for growing various microbes. Agar was first described for use in microbiology in 1882 by the German microbiologist Walther Hesse, an assistant working in Robert Koch's laboratory, on the suggestion of his wife Fanny Hesse. Agar quickly supplanted gelatin as the base of microbiological media, due to its higher melting temperature, allowing microbes to be grown at higher temperatures without the media liquefying.\n[…]\nSince many scientific applications require incubation at temperatures close to human body temperature (37 °C), agar is more appropriate than other solidifying agents that melt at this temperature, such as gelatin.\n[…]\nAgar-agar is a natural vegetable gelatin counterpart. It is white and semi-translucent when sold in packages as washed and dried strips or in powdered form. It can be used to make jellies, puddings, and custards. When making jelly, it is boiled in water until the solids dissolve.\n[…]\nAn agar plate or Petri dish is used to provide a growth medium using a mix of agar and other nutrients in which microorganisms, including bacteria and fungi, can be cultured and observed under the microscope. Agar is indigestible for many organisms so that microbial growth does not affect the gel used and it remains stable. Agar is typically sold commercially as a powder that can be mixed with water and prepared similarly to gelatin before use as a growth medium.\n[…]\nThe dictionary definition of agar at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81gar-%C3%A1gar",
+        "situacao": "ok",
+        "texto": "O ágar-ágar, também conhecido simplesmente como ágar, agarose ou gelose, é um hidrocolóide fortemente gelatinoso extraído de diversos gêneros e espécies de algas marinhas vermelhas que consiste em uma mistura heterogênea de dois polissacarídeos, agarose e agaropectina. Essas substâncias ocorrem como carboidrato estrutural na parede das células. Tais algas que contém o ágar-ágar são denominadas aga\n[…]\nO indicador deste polímero provém da palavra malaia agar-agar. Os principais gêneros de algas agarófitas são a Gelidium, Gracilaria, Gelidiela e Pterocladia. Os primeiros registos conhecidos da extração da agarose datam de finais da década de 1650 ou princípios da década de 1660 sendo atribuída a descoberta do método de extracção a Mino Tarōzaemon (美濃 太郎左衛門), no Japão, onde o produto foi designado por kanten, nome que mantém em diversas dietas e preparados.\n[…]\nA agarose é um polímero composto de subunidades de galactose. É um componente da parede celular em algas. Quando dissolvida em água quente e seguidamente arrefecida, a agarose toma uma consistência gelatinosa. Esta propriedade é usada em investigação laboratorial, medicina, culinária e indústria.\n[…]\nO ágar é normalmente vendido sob a forma de pó ou como tiras de algas secas. Tem um aspecto esbranquiçado e semi-translúcido. Para o fabrico de gelatina, é fervido em água a concentrações de 0,7 a 1% (p/v) até dissolução do sólido; após esta operação, são adicionados, por exemplo, agentes adoçantes, corantes, aromas e pedaços de fruta. A mistura ainda líquida pode ser vertida para dentro de formas onde arrefece tomando a forma desejada.\n[…]\nO ágar, numa forma pura para análise e suplementado com uma mistura de nutrientes, é usado em biologia vegetal para auxiliar a germinação de plantas em placas de Petri, sob condições estéreis. Estas misturas são bem controladas e mais ou menos constantes para cada tipo de planta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Camarão",
+      "descricao": "Crustáceo decápode de corpo alongado e nadador, com longas antenas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A casca que tiramos do camarão antes de comê-lo é feita principalmente de que substância, a mesma do esqueleto externo dos insetos?",
+    "resposta": "Quitina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chitin",
+      "https://pt.wikipedia.org/wiki/Quitina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chitin",
+        "situacao": "ok",
+        "texto": "Chitin (C8H13O5N)n ( KY-tin) is a long-chain polymer of N-acetylglucosamine, an amide derivative of glucose. Chitin is the second most abundant polysaccharide in nature (behind only cellulose); an estimated 1 billion tons of chitin are produced each year in the biosphere."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quitina",
+        "situacao": "ok",
+        "texto": "A quitina é um polissacarídeo constituído por um polímero de cadeia longa de N-acetilglicosamina. Insolúvel em água e córneo, é o precursor direto da quitosana. Ocorre naturalmente em diversos organismos, sendo o principal componente da parede celular dos fungos e do exoesqueleto dos artrópodes. Está presente também na rádula dos moluscos, no bico dos cefalópodes e na concha dos foraminíferos.\n[…]\nFoi descoberta em cogumelos pelo professor francês Henri Braconnot, em 1811, recebendo então a denominação inicial de fungina. O nome quitina foi dado por Odier, em 1823, quando esta foi isolada de insetos. Somente em 1843, Payen descobriu que a quitina continha nitrogênio em sua estrutura, a qual é semelhante à fibra vegetal denominada celulose.\n[…]\nA diferença estrutural entre as duas fibras se deve aos grupos hidroxila localizados na posição 2, que na quitina foram substituídos por grupos acetamino. É a mais abundante fibra de ocorrência natural depois da celulose.\n[…]\nA quitina poderá substituir futuramente os produtos que empregam plásticos, pois os plásticos tem uma meia-vida muito longa (acima de 300 anos), ao contrário da quitina que é biodegradável, além de apresentar a possibilidade de ser empregado na construção civil como material de extrema resistência à pressão. Até ao momento não foi possível a síntese industrial (in vitro) somente a síntese em laboratório (in vivo)."
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Narval",
+      "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A longa presa em espiral do narval, que pode passar de dois metros, é na verdade que parte do corpo dele?",
+    "resposta": "Um dente canino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Narwhal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Narwhal",
+        "situacao": "ok",
+        "texto": "The narwhal (Monodon monoceros) is a species of toothed whale native to the Arctic. It is the only member of the genus Monodon and one of two living representatives of the family Monodontidae. The narwhal is a stocky cetacean with a relatively blunt snout, a large melon, and a shallow ridge in place of a dorsal fin."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Narval",
+        "situacao": "ok",
+        "texto": "O narval ou unicórnio-do-mar é um cetáceo odontoceto de tamanho médio e o animal com os maiores caninos. Vive durante todo o ano no Ártico. É uma das duas espécies vivas de baleias da família Monodontidae, juntamente com a beluga e o Golfinho-do-irauádi. Os narvais machos são distinguidos por uma presa helicoidal longa e reta que, na verdade, é um canino superior esquerdo alongado. Vale ressaltar \n[…]\nO nome científico do narval, Monodon monoceros deriva grego: \"um-dente / um-chifre\" ou \"unicórnio dentado\".\n[…]\nA característica mais notável do narval macho é sua única presa extremamente longa, um dente canino que se projeta a partir do lado esquerdo da mandíbula superior, por meio do lábio e forma uma hélice com a pata esquerda. A presa cresce ao longo da vida atingindo comprimentos de 1,5 a 3,1 m. Apesar de sua aparência formidável, a presa é oca e pesa apenas cerca de 10 kg.\n[…]\nContudo, alguns biólogos alegam que, se esse fosse o caso, provavelmente um número maior de fêmeas também teriam esse canino desenvolvido.\n[…]\nAtualmente, a hipótese mais aceita é que os narvais utilizam esses caninos para golpear suas presas e assim incapacitá-las. Essa hipótese ganhou força em 2017, depois que cientistas canadenses filmaram com drones um grupo de narvais em Nunavet atordoando Bacalhaus do Ártico com batidas na água, e posteriormente, os devorando.\n[…]\nAlguns têm um segundo pequeno dente, na boca, mas são essencialmente desdentados. A presa é um órgão sensorial altamente inervado, o que foi asseverado por cientistas nos princípios do século XXI, depois de muitos séculos de mito e ficção, em que se lhe eram atribuídos os mais variados papéis, que alternavam de varinha mágica a armamento.\n[…]\nExiste pelo menos um exemplo conhecido do uso da presa contra outra espécie: a ponta quebrada da presa de um narval foi encontrada enterrada no melão de uma beluga, indicando que houve um encontro agressivo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Sopro das baleias",
+      "descricao": "Jato visível que os cetáceos soltam pelo espiráculo ao expirar na superfície."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O jato que a baleia solta ao subir à superfície não é água que ela engoliu. Do que ele é feito, principalmente?",
+    "resposta": "Ar úmido da respiração",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blowhole_(anatomy)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Blowhole_(anatomy)",
+        "situacao": "ok",
+        "texto": "In cetology, the study of whales and other cetaceans, a blowhole is the hole (or spiracle) at the top of the head through which the animal breathes air. In baleen whales, these are in pairs. It is homologous with the nostril of other mammals, and evolved via gradual movement of the nostrils to the top of the head. The posterior placement of blowholes on cetacean heads is believed to minimize the e\n[…]\nAs whales reach the water surface to breathe, they forcefully expel air through the blowhole. The exhalation is released into the comparably lower-pressure, colder atmosphere, and any water vapor condenses. This spout, known as the blow, is often visible from far away as a white splash, which can also be caused by water resting on top of the blowhole. Spout shapes differ among species, which facilitates identification. This is followed by inhaling fresh air into the lungs.\n[…]\nWhale spout features in Australian myths of creation and in European descriptions of monsters, such as the Procopius' Porphyrios and the Spouter in Olaus Magnus' Historia de Gentibus Septentrionalibus. A spouting whale is a major attraction in the Japanese Nagasaki Kunchi festival, which has been taking place since the early 17th century. It has been depicted in Western painting by Wenceslaus Hollar (1620s–30s), William James Linton (1830s), and William Morris Hunt (c. 1870)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Espir%C3%A1culo",
+        "situacao": "ok",
+        "texto": "Espiráculo é a denominação de um orifício respiratório que certos animais marinhos possuem, responsável pelo contato do ar ou da água com seu sistema respiratório interno.\n[…]\nNo caso dos mamíferos marinhos, o espiráculo conduz o ar que respiram até os pulmões. O orifício é controlado pelo animal, podendo abrir e fechar para conter a respiração quando submergido. Pode também ser utilizado para produzir ou modular sons, como em algumas espécies de baleias.\n[…]\nOutras criaturas marinhas têm o espiráculo para conduzir a água até suas brânquias (para depois ser \"exalado\") e, geralmente, o tem aberto sempre. O fechamento do espiráculo evita a perda de água, e este só abre quando há uma quantidade significativa de gás carbônico estiver próximo a ele, dentro da traqueia. Quando aberto, há perda de água.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Estrela-do-mar",
+      "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Para comer um mexilhão, a estrela-do-mar força a concha a abrir uma fresta. O que ela faz então com o próprio estômago?",
+    "resposta": "Põe para fora do corpo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Starfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Starfish",
+        "situacao": "ok",
+        "texto": "Starfish or sea stars are a class of echinoderms generally shaped like a star polygon. (In common usage, these names are also often applied to ophiuroids, which are correctly referred to as brittle stars or basket stars.) Starfish are also known as asteroids because they form the taxonomic class Asteroidea (). About 1,900 species of starfish live on the seabed, and are found in all the world's oce"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrela-do-mar",
+        "situacao": "ok",
+        "texto": "A estrela-do-mar é um animal equinoderme em forma de estrela pertencente à classe Asteroidea e ao subfilo Asterozoa. Existem cerca de 1.900 espécies de estrela-do-mar em todos os oceanos do mundo, dos trópicos até as gélidas águas polares. Elas são encontradas desde a zona intermareal, descendo para as profundezas abissais, 6.000m (20.000 pés) abaixo da superfície.\n[…]\nEles removem os detritos da superfície do corpo e agitam em hastes flexíveis em resposta a estímulos físicos ou químicos, enquanto continuamente fazem movimentos de mordida. Eles, muitas vezes, formam aglomerados em torno de espinhos. Paxillae são guarda-chuvas- como estruturas encontradas em estrelas-do-mar que vivem enterrados no sedimentos e são importantes para elas.\n[…]\nAs estrelas-do-mar dos fundos arenosos (p. ex.,Astropecten) podem escavar rapidamente utilizando os pés tubulares para mover a areia de baixo para cima do corpo do animal.\n[…]\nO acompanhamento da ação de um único pé tubular durante o movimento do animal revela as origens das forças locomotoras. No final da fase de recuperação, o pé tubular estende-se na direção do movimento e fixa-se ao substrato. A ventosa se mantém fixada durante a fase de força, quando os músculos longitudinais da parede do pé tubular contraem, encurtando-o e puxando o corpo para a frente. No final da fase de ação, o pé tubular desprende-se e oscila novamente para a frente.\n[…]\nO grande número de pés tubulares e a flexibilidade geral do corpo permitem que a estrela-do-mar se movimente facilmente, mesmo sobre as superfícies mais irregulares.\n[…]\nEntão ocorre uma metamorfose. A extremidade anterior da larva se degenera-se e forma somente uma haste de ligação, e o corpo adulto se desenvolve. O lado esquerdo se torna a superfície oral a e o lado direito a superfície aboral. Os braços surgem como extensão do corpo.\n[…]\nSíndrome consumptiva da estrela-do-mar",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Linguado",
+      "descricao": "Peixe chato marinho que vive deitado no fundo, com os dois olhos do mesmo lado da cabeça."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O linguado nasce com um olho de cada lado da cabeça, como os outros peixes. O que acontece com um desses olhos quando ele cresce?",
+    "resposta": "Migra para o outro lado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flatfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flatfish",
+        "situacao": "ok",
+        "texto": "Flatfish are a group of ray-finned fish belonging to the suborder Pleuronectoidei of the order Carangiformes. Their collective common name is due to their habit of lying on one side of their laterally-compressed body (flattened side-to-side) upon the seafloor; in this position, both eyes lie on the side of the head facing upwards, while the other side of the head and body (the \"blind side\") lies o\n[…]\nHowever, threadfins (Polynemidae) aren't universally found to be nested within the group of flatfish, as recovered by a study of ultraconserved elements from the threadfin family in Girard et al. 2022, or as represented in the World Register of Marine Species, where Pleuronectiformes is retained as a name for the flatfish group. Numerous scientists continue to argue for a monophyletic group of all flatfish, though the debate continues.\n[…]\nThe taxonomy of some groups is in need of a review. The last monograph covering the entire order was John Roxborough Norman's Monograph of the Flatfishes published in 1934. In particular, Tephrinectes sinensis may represent a family-level lineage and requires further evaluation e.g. New species are described with some regularity and undescribed species likely remain.\n[…]\nFlatfish are commonly fished using bottom trawls. Large species such as the halibuts are specifically targeted by fisheries, resulting in heavy fishing pressures and bycatch. Some species are aquacultured, such as the tonguefish Cynoglossus semilaevis.\n[…]\nFlatfish is considered a whitefish because of the high concentration of oils within its liver. Its lean flesh makes for a unique flavor that differs from species to species. Methods of cooking include grilling, pan-frying, baking and deep-frying.\n[…]\nGibson, Robin N (Ed) (2008) Flatfishes: biology and exploitation. Wiley.\n[…]\nMunroe, Thomas A  (2005) \"Distributions and biogeography.\" Flatfishes: Biology and Exploitation: 42–67."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pleuronectoidei",
+        "situacao": "ok",
+        "texto": "Pleuronectoidei é uma subordem de peixes teleósteos acantopterígios da ordem Pleuronectiformes que inclui as espécies geralmente conhecidas pelo nome comum de linguado. A subordem inclui mais de 670 espécies, entre as quais numerosas espécies de interesse pesqueiro.\n[…]\nOs membros da subordem Pleuronectoidei caracterizam-se pela ausência de estruturas radiais endurecidas nas barbatanas não pareadas (barbatanas dorsal e anal). A barbatana dorsal prolonga-se até à cabeça, estendendo-se em muitas espécies até à região sobre os olhos. O palato é desdentado e o paraglosso, um elemento ósseo localizado entre os prolongamentos basais da língua, é desprovido de placa dentária. O esfenóide está ausente ou é rudimentar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Tubarão",
+      "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Os dentes de um tubarão ficam enfileirados e caem com frequência ao longo da vida. O que acontece quando ele perde um dente?",
+    "resposta": "Outro da fileira de trás o substitui",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shark"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shark",
+        "situacao": "ok",
+        "texto": "Sharks are a group of elasmobranch cartilaginous fishes characterized by a ribless endoskeleton, dermal denticles, five to seven gill slits on each side, and pectoral fins that are not fused to the head. Modern sharks are classified within the division Selachii and are the sister group to the Batomorphi (rays and skates). Some sources extend the term \"shark\" as an informal category including extin\n[…]\nThe shark can sense frequencies in the range of 25 to 50 Hz.\n[…]\nNational Park Service, \"Villagers from nearby Vaitogi continue to reenact an important aspect of the legend at Turtle and Shark by performing a ritual song intended to summon the legendary animals to the ocean surface, and visitors are frequently amazed to see one or both of these creatures emerge from the sea in apparent response to this call.\"\n[…]\nSharks generally reach sexual maturity only after many years and produce few offspring in comparison to other harvested fish. Harvesting sharks before they reproduce severely impacts future populations. Capture induced premature birth and abortion (collectively called capture-induced parturition) occurs frequently in sharks/rays when fished."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tubar%C3%A3o",
+        "situacao": "ok",
+        "texto": "Tubarão ou cação é um tipo de peixe de esqueleto cartilaginoso e um corpo hidrodinâmico (com exceção dos Squatiniformes, Hexanchiformes e Orectolobiformes) pertencente à superordem Selachimorpha. Os primeiros tubarões conhecidos viveram há aproximadamente 400 milhões de anos.\n[…]\nGeralmente não vivem em água doce, com algumas exceções, como o tubarão-cabeça-chata e o tubarão de água doce, que podem viver tanto em água salgada como água doce. Respiram através de cinco ou sete fendas branquiais e possuem uma cobertura de escamas placoides, que protegem sua pele dos danos e dos parasitas, e melhoram a sua hidrodinâmica, permitindo que o tubarão se mova mais rápido. Eles também possuem vários conjuntos de dentes substituíveis.\n[…]\nDentes de tubarão são incorporados nas gengivas e não diretamente no maxilar, e são constantemente substituídos ao longo da vida. Diversas linhas de dentes substitutos crescem em um sulco na parte interna da mandíbula e progressivamente avançam como em uma \"escada rolante\"; os tubarões perdem em média 6 000 dentes por ano e chegam a perder 30 000 durante toda sua vida. A taxa de substituição de dentes varia de uma vez a cada oito ou dez dias a vários meses.\n[…]\nSeus dentes tinham vários cúspides pontudos, que perdera com o uso repetido. Pelo pequeno número de dentes encontrados juntos, é mais provável que o Cladoselache não substituísse seus dentes tão regularmente quanto os tubarões modernos. Suas barbatanas caudais tinham uma forma semelhante a do tubarão-branco e do tubarão-mako. A presença de peixe inteiros dispostos em seu estômago sugere que os Cladoselache foram rápidos nadadores e com grande agilidade.\n[…]\nTubarão, um senhor dos mares ameaçado (Naturlink)\n[…]\nDiferença entre Tubarão e Cação\n[…]\nTubarão no Web Ciencia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Baleia-jubarte",
+      "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Entre as baleias-jubarte, os longos e complexos cantos ouvidos na temporada de reprodução são produzidos por quem?",
+    "resposta": "Pelos machos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Whale_song",
+      "https://en.wikipedia.org/wiki/Humpback_whale"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Whale_song",
+        "situacao": "ok",
+        "texto": "Whales use a variety of sounds for communication and sensation. The mechanisms used to produce sound vary from one family of cetaceans to another. Marine mammals, including whales, dolphins, and porpoises, are much more dependent on sound than land mammals due to the limited effectiveness of other senses in water. Sight is less effective for marine mammals because of the way particulates in the oc\n[…]\nThe humpback whale produces a series of repetitious sounds at varying frequencies known as whale song. Marine biologist Philip Clapham describes the song as \"probably the most complex in the animal kingdom.\"\n[…]\nThis \"Russian doll\" hierarchy of sounds suggests a syntactic structure that is more human-like in its complexity than other forms of animal communication like bird songs, which have only linear structure.\n[…]\nMost other whales and dolphins produce sounds of varying degrees of complexity. Of particular interest are beluga whales, commonly called \"sea canaries\", which produce an immense variety of whistles, clicks and pulses.\n[…]\nFrom there, the air may be recycled back into the lower part of the nasal complex, ready to be used for sound creation again, or passed out through the blowhole.\n[…]\nThe French name for phonic lips, museau de singe, translates literally as \"monkey's muzzle\", which the phonic lip structure is supposed to resemble in sperm whales. New cranial analysis using computed axial and single photon emission computed tomography scans in 2004 showed, at least in the case of bottlenose dolphins, that air might be supplied to the nasal complex from the lungs, enabling the sound creation process to continue for as long as the dolphin can add air from the lungs."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Humpback_whale",
+        "situacao": "ok",
+        "texto": "The humpback whale (Megaptera novaeangliae) is a species of baleen whale. It is a rorqual (a member of the family Balaenopteridae) and is the only species in the genus Megaptera. Adults range in length from 14–17 m (46–56 ft) and weigh up to 40 metric tons (44 short tons). The humpback has a distinctive body shape, with long pectoral fins and tubercles on its head. It is known for breaching and ot\n[…]\nMales produce a complex song that typically lasts from 4 to 33 minutes.\n[…]\nThe humpback was first identified as baleine de la Nouvelle Angleterre by Mathurin Jacques Brisson in his Regnum Animale of 1756. In 1781, Georg Heinrich Borowski described the species, converting Brisson's name to its Latin equivalent, Balaena novaeangliae. In 1804, Bernard Germain de Lacépède renamed it B. jubartes.\n[…]\nIn 1846, John Edward Gray created the genus Megaptera, classifying the humpback as Megaptera longipinna, but in 1932, Remington Kellogg reverted the species name to use Borowski's novaeangliae. The common name is derived from the curving of the whales' backs when diving. The genus name, Megaptera, from the Ancient Greek mega- μεγα (\"giant\") and ptera πτερα (\"wing\"), refer to their large front flippers.\n[…]\nIn one study, a humpback whale brain measured 22.4 cm (8.8 in) long and 18 cm (7.1 in) wide at the tips of the temporal lobes, and weighed around 4.6 kg (10 lb). The humpback's brain has a complexity similar to that of the brains of smaller whales and dolphins. Studies on the brains of humpback whales revealed spindle cells, which, in humans, control theory of mind.\n[…]\nARKive – images and movies of the humpback whale (Megaptera novaeangliae).\n[…]\nArticle from PHYSORG.com on the complex syntax of whalesong phrases"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canto_das_baleias",
+        "situacao": "ok",
+        "texto": "O canto das baleias é o som produzido por elas para se comunicarem. A palavra \"canção\" é usada particularmente para descrever o padrão de sons habituais e predizíveis produzidos por algumas espécies de baleias (particularmente a jubarte) de maneira muito semelhante às regras rítmicas em composições musicais feitas por humanos.\n[…]\nDois grupos de baleias, as jubarte e as subespécies da baleia-azul encontradas no Oceano Índico, são conhecidos por produzir sons repetidos a freqüências variáveis, conhecidos como o canto da baleia. O biólogo marinho Philip Clapham descreve a canção como \"provavelmente a coisa mais complexa no reino animal\".\n[…]\nApenas os machos da baleia-jubarte cantam, realizando suas vocalizações predominantemente durante a temporada de acasalamento e ao longo das rotas de migração. Suspeita-se que a finalidade das canções é a de auxiliar na seleção sexual.\n[…]\nMas, se as canções descrevem um comportamento de competição entre os machos à procura da mesma companheira, o modo como se comportam na demarcação de território ou nos rituais de corte do macho para com a fêmea ainda não é conhecido, sendo tema de pesquisas em andamento. Tem-se observado o canto do macho enquanto este simultaneamente age como \"acompanhante\", próximo à fêmea. O canto também tem sido gravado em disputados grupos de baleias compostos de uma fêmea e múltiplos machos.\n[…]\nA maioria das outras baleias e golfinhos produz sons de uma variedade de graus e complexidade. De particular interesse é a beluga (o \"canário do mar\"), que produz uma imensa diversidade de assovios, estalidos e vibrações.\n[…]\nMais do que prover informações sobre produção de canto, os dados permitiram aos pesquisadores traçar a rota migratória de baleias durante a temporada de \"cantoria\" (acasalamento).\n[…]\nLista de cantos de baleias",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Peixe-papagaio",
+      "descricao": "Peixe de recife tropical, de cores vivas e dentes fundidos em forma de bico, que se alimenta raspando corais e algas."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "À noite, muitos peixes-papagaio dormem envoltos em algo que eles mesmos produzem e que os protege de parasitas. O que é?",
+    "resposta": "Um casulo de muco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parrotfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Parrotfish",
+        "situacao": "ok",
+        "texto": "Parrotfish (named because their mouths resemble a parrot's beak) are a clade of fish placed in the subfamily Scarinae of the wrasse family (Labridae). Historically considered as the family Scaridae, genetic studies found them to be deeply nested within the wrasses, and they are now treated as a subfamily. With roughly 95 species, the group's largest species richness is in the Indo-Pacific.\n[…]\nTraditionally, the parrotfishes have been considered to be a family level taxon, Scaridae. Although phylogenetic and evolutionary analyses of parrotfish are ongoing, they are now widely accepted to form a clade (a fundamental grouping in evolutionary biology consisting of a single common ancestor and all of its descendants) of wrasses closely related to the tribe Cheilini, and are now commonly referred to as \"scarine labrids\" (of the subfamily Scarinae/tribe Scarini, family Labridae).\n[…]\nParrotfish have 10 dorsal soft rays, 9 dorsal spines, 9 anal soft rays, and 3 anal spines.\n[…]\nHoey and Bonaldo. The Biology of Parrotfishes\n[…]\nSmith, J.L.B. (1959). \"The identity of Scarus gibbus Ruppell, 1828 and of other parrotfishes of the family Callyodontidae from the Red Sea and the Western Indian Ocean\". Ichthyological Bulletin, Department of Ichthyology, Rhodes University. 16. hdl:10962/d1018777.\n[…]\nBullock, A.E. and T. Monod, 1997. \"Myologie céphalique de deux poissons perroquets (Teleostei: Scaridae)\". Cybium 21(2):173–199.\n[…]\nRandall, John E.; Bruce, Robin W. (1983). \"The parrotfishes of the subfamily Scarinae of the Western Indian Ocean with descriptions of three new species\". Ichthyological Bulletin. 47. J. L. B. Smith Institute of Ichthyology, Rhodes University. hdl:10962/d1019747.\n[…]\n\"parrotfish factsheet\". Waitt Institute. Archived from the original on 27 January 2019. Retrieved 8 June 2015.\n[…]\nParrot Fish Profile from National Geographic\n[…]\nParrot Fish Care\n[…]\nParrotfish info on Fishbase"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escar%C3%ADdeos",
+        "situacao": "ok",
+        "texto": "Os Scaridae ou Escarídeos são uma família de peixes perciformes, que inclui as espécies conhecidas pelo nome comum de peixes-papagaio, muito abundante em zonas de recifes coralinos do Mar Vermelho, Oceano Atlântico e Indo-Pacífico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Pepino-do-mar",
+      "descricao": "Equinoderma da classe Holothuroidea, de corpo alongado e pele coriácea, que vive no fundo do mar."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Para se defender, o pepino-do-mar pode lançar para fora do corpo algo que depois volta a crescer. O que ele expulsa?",
+    "resposta": "Os órgãos internos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sea_cucumber"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sea_cucumber",
+        "situacao": "ok",
+        "texto": "Sea cucumbers are echinoderms from the class Holothuroidea ( HOL-ə-thyuu-ROY-dee-ə, HOH-lə-). They are benthic marine animals found on the sea floor worldwide, and the number of known holothuroid species worldwide is about 1,786, with the greatest number being in the Asia–Pacific region. Sea cucumbers serve a useful role in the marine ecosystem as detritivores who help recycle nutrients, breaking \n[…]\nThe body wall consists of an epidermis and a dermis and contains smaller calcareous ossicles, the types of which are characteristics which help to identify different species. Inside the body wall is the coelom which is divided by three longitudinal mesenteries which surround and support the internal organs.\n[…]\nAt least 30 species, including the red-chested sea cucumber (Pseudocnella insolens), fertilize their eggs internally and then pick up the fertilized zygote with one of their feeding tentacles. The egg is then inserted into a pouch on the adult's body, where it develops and eventually hatches from the pouch as a juvenile sea cucumber. A few species are known to brood their young inside the body cavity, giving birth through a small rupture in the body wall close to the anus.\n[…]\nWhile echinoderms are invertebrates, meaning they do not have a spine, they do all have an endoskeleton that is secreted by the mesenchyme. This endoskeleton is composed of plates called ossicles. They are always internal but may only be covered by a thin epidermal layer like in sea urchin's spines. In the sea cucumber, the ossicles are only found in the dermis, making them a very supple organism. For most echinoderms, their ossicles are found in units making up a three dimensional structure.\n[…]\nVarious pharmaceutical companies emphasize gamat, the Malay traditional medicinal usage of this animal. Extracts are prepared and made into oil, cream or cosmetics. Some products are intended to be taken internally."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pepino-do-mar",
+        "situacao": "ok",
+        "texto": "Holothuroidea (do grego holothourion, pepino-do-mar + eidos, forma + ea, caracterizado por) é a classe de equinodermos que inclui os animais conhecidos como pepinos-do-mar ou holotúrias. Em oposição aos outros equinodermes, possuem corpo delgado, alongado em um eixo oral-aboral.\n[…]\nUma epiderme simples recobre o esqueleto e possuem endoesqueleto (esqueleto interno) de placas calcárias articuladas macroscópicas, distribuídas pelo corpo. O sistema digestivo é completo. Não possuem coração nem mesmo sistema circulatório típico. Existe, porém, um reduzido sistema de canais (canais pseudo-hemais), com disposição radial, onde circula um líquido incolor contendo amebócitos.\n[…]\nNão possuem gânglios, mas sim um anel nervoso próximo à região oral (boca), de onde saem nervos radiais. Na superfície do corpo existem células táteis.\n[…]\nSão animais sexuados, e de fecundação externa. Os órgãos sexuais são simples, existindo, geralmente, apenas gônadas sem ductos genitais. O desenvolvimento é indireto, aparecendo uma larva auriculária de simetria bilateral que passa a radial nos animais adultos. Mas há reprodução assexuada, que aparece em algumas larvas que se autodividem e possuem a capacidade de regenerar partes do seu corpo que foram perdidas.\n[…]\nQuando se sentem ameaçados por algum predador em potencial, eles expelem parte de suas vísceras, de maneira a afugentá-los, e após isso os órgãos eliminados são regenerados.\n[…]\nA perda de sulfato de condroitina é associada com a artrite, e o uso de extracto de pepino-do-mar pode ajudar a reduzir a dor articular associada com esta condição. O pepino-do-mar supostamente também contém compostos anti-inflamatórios.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Golfinho-nariz-de-garrafa",
+      "descricao": "Golfinho oceânico do gênero Tursiops, de focinho curto e grosso, muito comum em águas costeiras."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Cada golfinho-nariz-de-garrafa tem um assobio exclusivo, que os outros imitam para chamá-lo. A que os cientistas costumam comparar esse assobio?",
+    "resposta": "A um nome próprio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bottlenose_dolphin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bottlenose_dolphin",
+        "situacao": "ok",
+        "texto": "The bottlenose dolphin is a toothed whale in the genus Tursiops. They are common, cosmopolitan members of the family Delphinidae, the family of oceanic dolphins. Molecular studies show the genus contains three species: the common bottlenose dolphin (Tursiops truncatus), the Indo-Pacific bottlenose dolphin (Tursiops aduncus), and Tamanend's bottlenose dolphin (Tursiops erebennus).\n[…]\nThey can store almost twice as much oxygen in proportion to their body weight as a human can: the dolphin can store 36 milliliters (ml) of oxygen per kg of body weight, compared with 20 ml per kg for humans. This is an adaptation to diving. The bottlenose dolphin typically rises to the surface to breathe through its blowhole two to three times per minute, although it can remain submerged for up to 20 minutes.\n[…]\nGroup size was unrelated to water depth or female reproductive success, but reproductive success was predicted by water depth. Shallow water may allow mothers and calves to detect and avoid predatory sharks. Alternatively, or additionally, prey density may be higher in shallow water compared to deep water.\n[…]\nBerrow, S.D. (2009). \"Winter distribution of Bottle-nosed Dolphins (Tursiops truncatus (Montagu)) in the inner Shannon Estuary\" (PDF). Irish Naturalists' Journal. 30 (1): 35–39. Archived from the original (PDF) on July 21, 2011.\n[…]\nHale, P.T.; Barreto, A.S.; Ross, G.J.B (2000). \"Comparative morphology and distribution of the aduncus and truncatus forms of bottlenose dolphin Tursiops in the Indian and Western Pacific Oceans\" (PDF). Aquatic Mammals. 26 (2): 101–110. Archived from the original (PDF) on August 11, 2011. Retrieved October 4, 2010. — Discusses distinguishing features between Bottlenose Dolphin species"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tursiops",
+        "situacao": "ok",
+        "texto": "Tursiops é um gênero de golfinhos cosmopolita, havendo nove espécies identificadas neste gênero altamente polimórfico.\n[…]\nTursiops aduncus Ehrenberg, 1832\n[…]\n†Tursiops astensis Sacco, 1891\n[…]\nTursiops australis Charlton-Robb et al., 2011\n[…]\n†Tursiops brochii Balsamo-Crivelli, 1842\n[…]\nTursiops erebennus Cope, 1865\n[…]\nTursiops gephyreus Lahille, 1908\n[…]\n†Tursiops miocaenus Portis, 1885\n[…]\n†Tursiops osennae Simonelli, 1911\n[…]\nTursiops truncatus Gray, 1866\n[…]\nCharlton-Robb K, Gershwin L-a, Thompson R, Austin J, Owen K,;  et al. (2011). «A New Dolphin Species, the Burrunan Dolphin Tursiops australis sp. nov., Endemic to Southern Australian Coastal Waters». PLoS ONE. 6 (9): e24047. doi:10.1371/journal.pone.0024047  !CS1 manut: Nomes múltiplos: lista de autores (link)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Tubarão-baleia",
+      "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Pesquisadores reconhecem cada tubarão-baleia pelo desenho das manchas claras atrás das guelras, exclusivo de cada um. A que marca humana esse desenho é comparado?",
+    "resposta": "Impressão digital",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Whale_shark"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Whale_shark",
+        "situacao": "ok",
+        "texto": "The whale shark (Rhincodon typus) is a slow-moving, filter-feeding carpet shark and the largest known extant fish species. An individual with a length of 18.8 m (61.7 ft) has been considered the largest reliably recorded. The whale shark holds many records for size in the animal kingdom, most notably being by far the largest living non-cetacean animal.\n[…]\nLarge whale sharks are difficult to measure accurately, both on the land and in the water. When on land, the total length measurement can be affected by how the tail is positioned, either angled as it would be in life or stretched as far as possible. Historically, techniques such as comparisons to objects of known size and knotted ropes have been used for in-water measurements, but these techniques may be inaccurate.\n[…]\nVertebral growth bands have been used to estimate the age, growth, and longevity of whale sharks. However, there was uncertainty as to whether vertebrae growth bands are formed annually or biannually. A 2020 study compared the ratio of Carbon-14 isotopes found in growth bands of whale shark vertebrae to nuclear testing events in the 1950–60s, finding that growth bands are laid down annually. The study found an age of 50 years for a 10 m (33 ft) female and 35 years for a 9.9 m (32 ft) male.\n[…]\nOutside Asia, the first and so far only place to keep whale sharks is Georgia Aquarium in Atlanta, United States. This is unusual because of the comparatively long transport time and complex logistics required to bring the sharks to the aquarium, ranging between 28 and 36 hours. As of August 2025, Georgia keeps one whale shark, a male named Yushan, who arrived in 2007. Two earlier males at Georgia Aquarium, Ralph and Norton, both died in 2007. Trixie died in 2020. Alice died in 2021.\n[…]\nWhale shark, Rhincodon typus at marinebio.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-baleia",
+        "situacao": "ok",
+        "texto": "O tubarão-baleia (nome científico: Rhincodon typus) é uma espécie de tubarão filtrador da ordem dos orectolobiformes e a maior espécie de peixe existente conhecida. O maior indivíduo confirmado tinha um comprimento de 20 metros (61,7 pés). O tubarão-baleia detém muitos recordes de tamanho no reino animal, sendo de longe o maior vertebrado não mamífero vivo.\n[…]\nOs espiráculos estão localizados logo atrás dos olhos. Os tubarões-baleia têm cinco grandes pares de guelras. Sua pele é cinza escuro com uma barriga branca marcada com manchas e listras cinza-claras ou brancas que são únicas para cada indivíduo. Sua pele pode ter até 15 centímetros de espessura e é muito dura e áspera ao toque. Tem três cristas proeminentes ao longo de seus lados, que começam acima e atrás da cabeça e terminam no pedúnculo caudal.\n[…]\nUm estudo de 2020 comparou a proporção de isótopos de carbono-14 encontrados em bandas de crescimento de vértebras de tubarão-baleia com eventos de testes nucleares nas décadas de 1950-60 e descobriu que as bandas de crescimento são estabelecidas anualmente. O estudo encontrou uma idade de 50 anos para uma fêmea de 10 metros (33 pés) e 35 anos para um macho de 9,9 metros.\n[…]\nO recorde de um tubarão-baleia em cativeiro é um indivíduo que, a partir de 2021, viveu por mais de 26 anos em Oquinaua. Após Oquinaua, o Aquário de Osaca começou a manter tubarões-baleia e a maior parte da pesquisa básica sobre a manutenção da espécie foi feita nessas duas instituições.\n[…]\nO tubarão-baleia mantido no Atlantis de Dubai foi resgatado de águas rasas em 2008 com extensas escoriações nas barbatanas e após a reabilitação foi solto em 2010, tendo vivido 19 meses em cativeiro. O Marine Life Park em Singapura planejava manter tubarões-baleia, mas descartou essa ideia em 2009.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Cromatóforo",
+      "descricao": "Célula da pele cheia de pigmento que permite a polvos, lulas e chocos mudar de cor rapidamente."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Polvos, lulas e chocos mudam de cor em frações de segundo graças a células da pele cheias de pigmento. Como se chamam essas células?",
+    "resposta": "Cromatóforos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chromatophore"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chromatophore",
+        "situacao": "ok",
+        "texto": "Chromatophores are cells that produce color, of which many types are pigment-containing cells, or groups of cells, found in a wide range of animals including amphibians, fish, reptiles, crustaceans and cephalopods. Mammals and birds, in contrast, have a class of cells called melanocytes for coloration.\n[…]\nWhile most chromatophores contain pigments that absorb specific wavelengths of light, the color of leucophores and iridophores is produced by their respective scattering and optical interference properties.\n[…]\nLeaving the neural crest in waves, chromatophores take either a dorsolateral route through the dermis, entering the ectoderm through small holes in the basal lamina, or a ventromedial route between the somites and the neural tube. The exception to this is the melanophores of the retinal pigmented epithelium of the eye. These are not derived from the neural crest. Instead, an outpouching of the neural tube generates the optic cup, which, in turn, forms the retina.\n[…]\nChromatophores are also used as a biomarker of blindness in cold-blooded species, as animals with certain visual defects fail to background adapt to light environments. Human homologues of receptors that mediate pigment translocation in melanophores are thought to be involved in processes such as appetite suppression and tanning, making them attractive targets for drugs.\n[…]\nColeoid cephalopods (including octopuses, squids and cuttlefish) have complex multicellular organs that they use to change colour rapidly, producing a wide variety of bright colours and patterns. Each chromatophore unit is composed of a single chromatophore cell and numerous muscle, nerve, glial, and sheath cells. Inside the chromatophore cell, pigment granules are enclosed in an elastic sac, called the cytoelastic sacculus."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cromat%C3%B3foro",
+        "situacao": "ok",
+        "texto": "Os cromatóforos ou cromatócitos são células tegumentares especializadas, com muitas projeções citoplasmáticas, que lhe conferem aspecto dendrítico e são responsáveis por sintetizar e armazenar pigmentos. São células (ou grupos de células nalguns táxons) que contêm pigmentos no seu interior que reflectem a luz, conferindo-lhes cor. Podem ser encontradas numa ampla variedade de seres vivos como os p\n[…]\nPortanto, a distinção entre estes dois tipos de cromatóforos nem sempre é clara.\n[…]\nOs seres humanos possuem somente uma classe de células pigmentárias, que é o equivalente nos mamíferos aos melanóforos, responsável por gerar a cor da pele, pêlos e olhos, denominada melanócito. Por esta razão e por causa do grande número de cores diferentes que apresentam, fazendo com que geralmente sejam fáceis de visualizar, estes são de longe os cromatóforos mais amplamente estudados. Não obstante isso, existem diferenças entre a biologia dos melanóforos e a dos melanócitos.\n[…]\nEstes dois tipos de melanóforos são importantes no processo de alteração da cor fisiológica. Os melanóforos dérmicos planos normalmente cobrem outros cromatóforos, pelo que quando os pigmento se dispersam através da célula, a pele adquire uma aparência fosca. Do contrário, quando os pigmentos estão concentrados no centro da célula, os pigmentos dos cromatóforos que se encontram nas camadas inferiores estão expostos à luz, o que faz com que a pele adquira outras tonalidades.\n[…]\nOs cefalópodes da subclasse dos Coleoidea (entre os quais se incluem os polvos, lulas e chocos) apresentam complexos órgãos multicelulares que utilizam para alterar a cor rapidamente, produzindo uma ampla variedade de cores brilhantes e padrões. Cada unidade cromatófora está composta por uma única célula cromatófora e numerosos músculos, nervos, células da glia, e células da bainha.\n[…]\nPigmento biológico\n[…]\nVídeo sobre o padrão de cromatóforos das lulas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Vespa-do-mar",
+      "descricao": "Água-viva-de-caixa (Chironex fleckeri) do norte da Austrália e do Indo-Pacífico, de veneno potentíssimo."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que água-viva-de-caixa do norte da Austrália tem um veneno capaz de matar uma pessoa em poucos minutos?",
+    "resposta": "Vespa-do-mar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chironex_fleckeri"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chironex_fleckeri",
+        "situacao": "ok",
+        "texto": "Chironex fleckeri, commonly known as the Australian box jelly and nicknamed the sea wasp, is a species of extremely venomous box jellyfish found in coastal waters from northern Australia and Papua New Guinea to Indonesia, East Timor, Cambodia, Malaysia, Singapore, the Philippines and Vietnam. It has been described as \"the most lethal jellyfish in the world\", with at least 64 known deaths in Austra\n[…]\nChironex fleckeri and other jellyfish, including the Irukandji (Carukia barnesi), are abundant in the waters of northern Australia during the warmer months of the year. They are believed to drift into estuaries to breed. Signs like the one pictured are erected along the coast of North Queensland to warn people of such, and few people swim during this period. At popular swimming spots, net enclosures are placed in the water to allow people to swim while preventing jellyfish from entering.\n[…]\nChironex fleckeri is capable of both sexual and asexual reproduction and are oviparous.\n[…]\nA fully grown and sexually mature Chironex fleckeri medusa will begin trying to find a mate in the spring season. Usually, the jellies will move from their usual habitat to a freshwater river for this hunt. If a mate is located, sperm and eggs are expelled into the water by the male and female respectively to result in fertilization. The gametes produced by the spawning process will go on to become planulae and eventually small sea wasp polyps.\n[…]\nBeadnell CE, Rider TA, Williamson JA, Fenner PJ (May 1992). \"Management of a major box jellyfish (Chironex fleckeri) sting. Lessons from the first minutes and hours\". The Medical Journal of Australia. 156 (9): 655–8. doi:10.5694/j.1326-5377.1992.tb121467.x. PMID 1352619. S2CID 36741049.\n[…]\nBarry Tobin (16 March 2010). \"Dangerous Marine Animals of Northern Australia: Sea Wasp\". AIMS Data Centre. Australian Institute of Marine Science. Retrieved 22 September 2010."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chironex_fleckeri",
+        "situacao": "ok",
+        "texto": "Chironex fleckeri é a maior das Cubozoa, uma classe pouco estudada dos cnidários. Os cubozoários são chamados popularmente de vespas-marinhas. C. fleckeri é encontrada nas águas dos Oceanos Pacífico e Índico, confinada à área de distribuição de suas presas, principalmente na costa norte da Austrália e sudeste asiático, em clima tropical e sub-tropical. C. fleckeri , como outras Cubozoa, é uma das \n[…]\nConsiderada como a água-viva mais letal do mundo, a quantidade de veneno em um espécime adulto é suficiente para matar 60 humanos adultos. A notória vespa-marinha C. fleckeri tem tentáculos de até 3 metros de comprimento cobertos com milhões de nematocitos, organelas urticantes que ao serem tocadas liberam dardos microscópicos que inoculam um veneno extremamente poderoso. Embora a maior parte dos incidentes com C.\n[…]\nflickeri não exigirem a hospitalização, dependendo da área afetada (número de picadas), podem resultar em dores excruciantes, sensação de pânico, bradi e taquicardia e até em morte em poucos minutos. São encontradas em seu tamanho adulto principalmente no oceano, mas também habitam as águas salinas rasas e turvas e são encontrados no interior, em rios de água doce e canais de mangue.\n[…]\nO nome da espécie Chironex fleckeri foi dado em homenagem ao toxicologista e radiologista de North Queensland, Dr. Hugo Flecker — Em 20 de janeiro de 1955, quando um menino de 5 anos morreu após ser picado em águas rasas em Cardwell, North Queensland, Flecker encontrou três tipos de águas-vivas. Uma era uma água-viva não identificada em forma de cubo com grupos de tentáculos. Flecker enviou-a para o Dr. Ronald Southcott, em Adelaide.\n[…]\nOs tentáculos estão cobertos com milhões de nematocitos (organelas urticantes), que liberam ganchos microscópicos que transportam o veneno para suas presas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Orca",
+      "descricao": "Cetáceo dentado preto e branco (Orcinus orca), a maior espécie da família dos golfinhos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Killer whale, o nome da orca em inglês, vem de como antigos marinheiros espanhóis a chamavam. O que significava esse nome espanhol?",
+    "resposta": "Assassina de baleias",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Orca",
+        "situacao": "ok",
+        "texto": "The orca (Orcinus orca), or killer whale, is a toothed whale and the largest member of the oceanic dolphin family. The only extant species in the genus Orcinus, it is recognizable by its distinct pigmentation; being mostly black on top, white on the bottom and having recognizable white eye patches. A cosmopolitan species, it inhabits a wide range of marine environments, from Arctic to Antarctic re\n[…]\nOrcas are often referred to as \"killer whales\" because ancient sailors saw them hunt larger whales. Centuries ago, Basque sailors called them \"asesina ballena\" (meaning \"whale killer\"). The words were reversed to \"killer whale\" in English. Since the 1960s, the term \"orca\" has increasingly replaced \"killer whale\" in common usage.\n[…]\nThe orca is one of 35 species in the oceanic dolphin family, which first appeared about 11 million years ago. The orca lineage probably branched off shortly thereafter. Although it has morphological similarities with the false killer whale, the pygmy killer whale, and the pilot whales, a study of cytochrome b gene sequences indicates that its closest extant relatives are the snubfin dolphins of the genus Orcaella.\n[…]\n\"The complex and stable vocal and behavioural cultures of sympatric groups of killer whales (Orcinus orca) appear to have no parallel outside humans and represent an independent evolution of cultural faculties.\"\n[…]\nFord, John K. B.; Ellis, Graeme M. (2006). \"Selective foraging by fish-eating killer whales Orcinus orca in British Columbia\". Marine Ecology Progress Series. 316: 185–199. Bibcode:2006MEPS..316..185F. doi:10.3354/meps316185.\n[…]\nNMFS (2005). \"Conservation Plan for Southern Resident Killer Whales (Orcinus orca)\" (PDF). Seattle, US: National Marine Fisheries Service (NMFS) Northwest Regional Office. Archived from the original (PDF) on June 26, 2008. Retrieved January 2, 2009.\n[…]\nVoices in the Sea – Sounds of the Orca (Killer Whale)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orca",
+        "situacao": "ok",
+        "texto": "A orca (Orcinus orca), também conhecida como baleia-assassina, é um cetáceo odontoceto (baleia com dentes) e o maior membro da família dos golfinhos oceânicos. É a única espécie existente do gênero Orcinus e é facilmente reconhecida pela sua coloração característica em preto e branco. Trata-se de uma espécie cosmopolita, que habita uma grande variedade de ambientes marinhos, desde regiões do Ártic\n[…]\nO nome orca foi dado a estes animais pelos antigos romanos do nome \"Orcus\", que significa inferno ou deus da morte, e o nome do seu género biológico - \"Orcinus\" - significa \"do reino da morte\" (ver Orco). A partir da década de 1960, quando ganharam popularidade entre os espectadores de oceanários, o termo neutro \"orca\" foi mais utilizado do que \"baleia assassina\", o qual conota um comportamento incompatível com objetivo desses parques.\n[…]\nNa costa da Califórnia, as orcas se reúnem em grupos onde atacam baleias-cinzentas, visando caçar seus filhotes e predam elefantes-marinhos-do-norte\n[…]\nO Tipo A é uma orca \"típica\", que vive em águas abertas e caça principalmente a baleia-minke-antártica. Ao longo da costa da Argentina, as orcas caçam individualmente com uma técnica de encalhe intencional: elas se aproximam da praia e se lançam sobre a areia para abocanhar leões-marinhos. Um fenômeno específico e incrível é que essas orcas se dirigem até a praia onde atacam  filhotes de leões e lobos-marinhos que estão aprendendo a nadar.\n[…]\nAo assistir à matança pública de uma orca encalhada no porto de Roma, Plínio escreveu: \"As orcas (cuja aparência não há imagem que consiga expressar, não era mais que uma enorme massa de carne selvagem com dentes) são inimigas das baleias… Atacam-nas e rasgam-lhes a carne como navios de guerra em golpes bélicos.\"\n[…]\nOrcinus citoniensis\n[…]\nOrcinus meyeri\n[…]\nFotos da Monterey Bay Whale Watch: Orcas atacando baleias cinzentas",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Baleia-jubarte",
+      "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Megaptera, o nome científico da jubarte, quer dizer asa grande em grego. Que parte do corpo da baleia inspirou esse nome?",
+    "resposta": "As nadadeiras peitorais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humpback_whale"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Humpback_whale",
+        "situacao": "ok",
+        "texto": "The humpback whale (Megaptera novaeangliae) is a species of baleen whale. It is a rorqual (a member of the family Balaenopteridae) and is the only species in the genus Megaptera. Adults range in length from 14–17 m (46–56 ft) and weigh up to 40 metric tons (44 short tons). The humpback has a distinctive body shape, with long pectoral fins and tubercles on its head. It is known for breaching and ot\n[…]\nThe humpback was first identified as baleine de la Nouvelle Angleterre by Mathurin Jacques Brisson in his Regnum Animale of 1756. In 1781, Georg Heinrich Borowski described the species, converting Brisson's name to its Latin equivalent, Balaena novaeangliae. In 1804, Bernard Germain de Lacépède renamed it B. jubartes.\n[…]\nIn 1846, John Edward Gray created the genus Megaptera, classifying the humpback as Megaptera longipinna, but in 1932, Remington Kellogg reverted the species name to use Borowski's novaeangliae. The common name is derived from the curving of the whales' backs when diving. The genus name, Megaptera, from the Ancient Greek mega- μεγα (\"giant\") and ptera πτερα (\"wing\"), refer to their large front flippers.\n[…]\nModern humpback whale populations originated in the southern hemisphere around 880,000 years ago and colonized the northern hemisphere 200,000 to 50,000 years ago. A 2014 genetic study suggested that the separate populations in the North Atlantic, North Pacific, and Southern Oceans have had limited gene flow and are distinct enough to be subspecies, with the scientific names of M. n. novaeangliae, M. n. kuzira, and M. n. australis, respectively.\n[…]\nARKive – images and movies of the humpback whale (Megaptera novaeangliae)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baleia-jubarte",
+        "situacao": "ok",
+        "texto": "A jubarte ou baleia-jubarte (nome científico: Megaptera novaeangliae), também conhecida como baleia-corcunda, baleia-cantora, baleia-corcova, baleia-de-corcova, baleia-de-bossas, baleia-preta ou baleia-xibarte é um mamífero marinho presente na maioria dos oceanos. Ela é da ordem dos cetartiodáctilos (Cetartiodactyla), subordem dos cetáceos e infraordem dos misticetos (Mysticeti). É uma das maiores\n[…]\nQuando salta, elevando seu corpo quase completamente para fora d’água, suas longas nadadeiras peitorais, que chegam a medir até 1/3 de seu comprimento total, poderiam ser comparadas às asas de um pássaro. Esta é a origem do nome Megaptera, que em grego antigo significa \"grandes asas\", enquanto novaeangliae fala do primeiro local onde foi registrada a espécie, Nova Inglaterra.\n[…]\nO nome do gênero Megaptera significa asas grandes, do grego mega-/μεγα- (grande) e pteron/πτερα (asa), referência às suas nadadeiras peitorais que se assemelham a asas. Já seu nome específico novaeangliae vem do latim novus (nova) e angliae (Inglaterra) e é uma referência geográfica de onde o espécime tipo foi descrito pela primeira vez pelo naturalista alemão Georg Heinrich Borowski em 1781. Então, seu nome científico significa \"grandes asas da Nova Inglaterra\".\n[…]\nNa região torácica, há duas longas nadadeiras peitorais, que numa jubarte adulta podem medir mais de 5 m de comprimento, as maiores dentre os cetáceos. A borda anterior da nadadeira peitoral é bastante ondulada, sua face ventral é branca enquanto a face dorsal em geral possui uma mistura de padrões de preto e branco. As nadadeiras peitorais em geral servem para ajudar a direcionar o movimento das baleias e dos golfinhos quando nadam, auxiliando na manutenção do equilíbrio.\n[…]\nEssas são áreas essenciais para a recuperação das populações de jubartes.\n[…]\n(em inglês) Baleias-jubarte de Hervey Bay, Queensland, Austrália",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Cetáceos",
+      "descricao": "Infraordem de mamíferos marinhos que reúne baleias, golfinhos e botos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra cetáceo, usada para baleias e golfinhos, vem do termo grego kétos. O que esse termo designava?",
+    "resposta": "Monstro marinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cetacea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cetacea",
+        "situacao": "ok",
+        "texto": "Cetaceans are marine mammals belonging to the infraorder Cetacea (), a secondarily aquatic clade under the order Artiodactyla that include whales, dolphins, porpoises and extinct groups such as Basilosaurus. Most cetaceans live in marine environments, particularly the pelagic zone, but some reside solely in brackish or fresh water. Having a cosmopolitan distribution, they can be found in some rive\n[…]\nThe scientific name Cetacea comes from Latin  cetus, meaning \"whale\"; which in turn comes from Ancient Greek  κῆτος (kêtos), meaning \"huge fish\" or \"sea monster\"\n[…]\nCetacea are known to teach, learn, cooperate, scheme and grieve.\n[…]\nAs of 2006, 30 belugas lived in Canada and 28 in the United States. 42 deaths in captivity had been reported. A single specimen can reportedly fetch up to US$100,000 (£64,160). The beluga's popularity is due to its unique color and its facial expressions. The latter is possible because while most cetacean \"smiles\" are fixed, the extra movement afforded by the beluga's unfused cervical vertebrae allows a greater range of apparent expression.\n[…]\nAggression among captive orcas is common. They attack each other and their trainers as well. In 2013, SeaWorld's treatment of orcas in captivity was the basis of the movie Blackfish, which documents the history of Tilikum, an orca at SeaWorld Orlando, who had been involved in the deaths of three people. The film led to proposals by some lawmakers to ban captivity of cetaceans, and led SeaWorld to announce in 2016 that it would phase out its orca program.\n[…]\nCetacea at Wikibooks\n[…]\n\"Cetacea\" . Encyclopædia Britannica. Vol. 5 (11th ed.). 1911.\n[…]\n\"Cetaceans\". Encyclopedia of Earth.\n[…]\nScottish Cetacean Research & Rescue – see page on Taxonomy\n[…]\nFutuyma, Douglas J. (1998). \"Cetacea Evolution\". Archived from the original on 2008-05-29. Retrieved 2007-03-23.\n[…]\nEIA Cetacean campaign: Reports and latest info."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cet%C3%A1ceos",
+        "situacao": "ok",
+        "texto": "Os cetáceos (latim científico: Cetacea) constituem uma infraordem de animais predominantemente marinhos e pertencentes à classe dos mamíferos. O nome da ordem deriva do grego ketos que significa monstro marinho.\n[…]\nOs cetáceos estão divididos em duas parvordens:\n[…]\nO nome Cetacea foi usado pela primeira vez em 1762 por Mathurin Jacques Brisson em seu livro \"Regnum animale in classes IX. distributum, sive, Synopsis methodica\", para classificar animais marinhos descritos como tendo corpo alongado e sem pelos, com nadadeiras carnosas e cauda horizontalmente achatada, que respiram por meio de pulmões, que apresentam um coração dividido em dois ventrículos e cujas fêmeas vivíparas alimentam seus filhotes com leite.\n[…]\nRecentemente foram encontrados no Paquistão fósseis de animais terrestres adaptados à vida aquática, e os cientistas acreditam que eles são realmente os ancestrais dos atuais Cetáceos, pois o crânio destes animais só encontra similaridades com os crânios de baleias e golfinhos. Mesmo as baleias desdentadas descendem de animais terrestres.\n[…]\nA maioria das espécies de grandes cetáceos está em perigo de extinção, como resultado da caça à baleia. No entanto, as espécies mais afetadas são as dos golfinhos de rio, por causa de alterações nos rios em que vivem.\n[…]\nO escritor e viajante árabe Amade ibne Fadlane durante uma viagem marítima em território nórdico no século X fica amedrontado após ser alertado e ver, até então, monstros marinhos próximos a frota em que viajava. Os tripulantes viquingues faziam um ritual com barulho para acalmar os seres, mas não era garantia de que um barco fosse eventualmente destruído por eles.\n[…]\nCetacea\n[…]\n«Uma baleia consegue viver em água doce?». no ComoTudoFunciona.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Nudibrânquio",
+      "descricao": "Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nudibrânquio, nome das lesmas-do-mar coloridas e sem concha, junta uma palavra latina e outra grega. O que ele quer dizer?",
+    "resposta": "Brânquias nuas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nudibranch"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nudibranch",
+        "situacao": "ok",
+        "texto": "Nudibranchs () are a group of soft-bodied marine gastropod molluscs, belonging to the order Nudibranchia, that shed their shells after their larval stage. They are noted for their often extraordinary colours and striking forms, and they have been given colourful nicknames to match, such as \"clown\", \"marigold\", \"splendid\", \"dancer\", \"dragon\", and \"sea rabbit\". About 3,000 species of nudibranchs are\n[…]\nOrder Nudibranchia:\n[…]\nOrder Nudibranchia Cuvier in Blainville, 1814\n[…]\nMcDonald, Gary R. (7 July 2021). Institute of Marine Sciences. Nudibranch Systematic Index, 3rd online Edition. An index of names given to nudibranchs and their subsequent use, referenced to Bibliographia Nudibranchia.\n[…]\nMcDonald, Gary R. & Nybakken, J. W. (November 5, 2014). List of the Worldwide Food Habits of Nudibranchs\n[…]\nColeman, Neville (2008). Nudibranchs Encyclopedia: Catalogue of Asia/Indo-Pacific Sea Slugs. Neville Coleman's Underwater Geographic. ISBN 0-947325-41-7\n[…]\nNudibranchs of the British Isles\n[…]\nImages, information and identification of Nudibranchs\n[…]\nNudibranch Photos by Mick Tait\n[…]\nNudibranchs in their natural environment, Scuba Diving – Narooma NSW offline? 26 Nov 2014\n[…]\nNudi Pixel: Online resource for nudibranchs and sea slugs identification using photographs Archived 2011-05-27 at the Wayback Machine\n[…]\nVarious nudibranch species from Indonesia, Philippines and Thailand\n[…]\nNudibranch gallery – Sergey Parinov – offline? 26 Nov 2014\n[…]\nOpisthobranch Newsletter – Bibliography and portal to opisthobranch, nudibranch & sea-slug information\n[…]\nScottish Nudibranchs: Online resource for identification of species found in Scottish waters\n[…]\nNational Geographic Nudibranch Photo Gallery\n[…]\nThe Lynx Nudibranch: HD clip of Phidiana lynceus carefully consuming a hydroid Myrionema amboinense.\n[…]\nSlug City – Molluscs. Brain & Behavior: many videos of nudibranchs from the University of Illinois at Urbana-Champaign"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nudibranchia",
+        "situacao": "ok",
+        "texto": "Os nudibrânquios constituem uma subordem de moluscos gastrópodes marinhos pertencente à ordem dos opistobrânquios, na qual se encontram, por exemplo, as lesmas-do-mar.\n[…]\nO seu nome advém do latim nudus 'nu' e do grego βράγχια (bránkhia) 'brânquia' por possuirem brânquias desprotegidas. Sua variedade é enorme e chega a atingir 3000 espécies diferentes. Uma característica destes animais é a riqueza da paleta de cores que cobre o seu corpo e que lhes permite uma camuflagem eficaz nos recifes de coral que constituem o seu habitat.\n[…]\nOs nudibrânquios são moluscos marinhos do grupo dos gastrópodes que se destacam por sua grande diversidade de formas, cores vibrantes e adaptações ecológicas. Uma de suas principais características é a perda da concha externa, comum a outros moluscos, o que os levou a desenvolver uma variedade de mecanismos alternativos de defesa, como o sequestro de toxinas das presas e colorações de advertência (aposematismo).\n[…]\nBerghia rissodominguezi, registrada em Santa Catarina, é uma espécie que se alimenta de anêmonas-do-mar. Um aspecto comportamental notável é o registro de predação social, em que indivíduos se agrupam para consumir a mesma presa, o que é incomum entre moluscos e nudibrânquios, e representa um comportamento colaborativo raro nesse grupo.\n[…]\nSkaphandrus.com Nudibrânquios[ligação inativa]\n[…]\nImagens e informações de nudibrânquios australianos (em inglês)\n[…]\nNudibrânquios e seu habitat, Scuba Diving - Narooma NSW (em inglês)\n[…]\nNudibrânquios portugueses no Naturdata (em português)\n[…]\nNudibrânquios portugueses no Nudipixel (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Plâncton",
+      "descricao": "Conjunto de organismos aquáticos, em geral minúsculos, que vivem à deriva levados pelas correntes."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os seres que flutuam à deriva no mar, sem conseguir vencer as correntes, foram batizados de plâncton a partir de um termo grego. O que ele significa?",
+    "resposta": "Errante",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plankton"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Plankton",
+        "situacao": "ok",
+        "texto": "Plankton (from the Greek planktos, meaning \"drifter\" or \"wanderer\") are organisms that drift in water (or air) but are unable to actively propel themselves against currents (or wind). Marine plankton include drifting organisms that inhabit the saltwater of oceans and the brackish waters of estuaries. Freshwater plankton are similar to marine plankton, but are found in lakes and rivers. An individu\n[…]\nThe larval stages of benthic invertebrates make up a significant proportion of planktonic communities. The planktonic larval stage is particularly crucial to many benthic invertebrates in order to disperse their young. Depending on the particular species and the environmental conditions, larval or juvenile-stage meroplankton may remain in the pelagic zone for durations ranging from hours to months.\n[…]\nIt has been shown that plankton can be patchy in marine environments where there aren't significant fish populations and additionally, where fish are abundant, zooplankton dynamics are influenced by the fish predation rate in their environment. Depending on the predation rate, they could express regular or chaotic behavior.\n[…]\nParadox of the plankton\n[…]\nPlankton Chronicles Archived 2020-07-28 at the Wayback Machine – Short documentary films and photos\n[…]\nCOPEPOD: The Global Plankton Database – Global coverage database of zooplankton biomass and abundance data\n[…]\nPlankton*Net Archived 2006-08-21 at the Wayback Machine – Taxonomic database of images of plankton species\n[…]\nSir Alister Hardy Foundation for Ocean Science – Continuous Plankton Recorder Survey\n[…]\nAustralian Continuous Plankton Recorder Project – Integrated Marine Observing System\n[…]\nAquaparadox: the diversity of planktonic microorganisms – Images of planktonic microorganisms\n[…]\nPlankton, planktic, planktonic – Essays on nomenclature\n[…]\nJournal of Plankton Research – Scientific periodical devoted to plankton"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pl%C3%A2ncton",
+        "situacao": "ok",
+        "texto": "Chama-se plâncton (do grego πλαγκτός , transl. plagktós, ‘errantes’) ao conjunto de organismos que não têm movimentos suficientes para contrariar as correntes, apesar de muitos terem movimentos, principalmente verticais pela coluna de água. O plâncton distingue-se do nécton, termo que designa todos os nadadores ativos, e do nêuston, organismos que vivem na interface ou no limite com o ar, isto é, \n[…]\nEm biologia marinha e limnologia, chama-se cretácios (da palavra grega cretaci, que significa ser pequeno) ao conjunto dos organismos que têm pouco poder de locomoção e vivem livremente na coluna de água (pelágicos), sendo muitas vezes arrastados pelas correntes oceânicas.\n[…]\nNo final do século XIV, o biólogo alemão Johannes Müller, em uma expedição oceanográfica, resolveu passar uma rede fina de seda pela superfície do mar, para capturar as substâncias em suspensão. Ele encontrou uma comunidade totalmente desconhecida, composta de inúmeros organismos vegetais e animais. Entretanto, quem primeiramente empregou o termo plâncton foi o biólogo também alemão Victor Hensen, em 1887.\n[…]\nO plâncton é geralmente subdividido em:\n[…]\nMeroplâncton - É o plâncton composto por animais que passam apenas uma fase (geralmente a larval) de sua vida ao sabor das correntes. As larvas podem vir a fazer parte do nécton (no caso das larvas de peixes) ou do bentos (como a maioria das larvas meroplanctônicas).\n[…]\nO Fitoplâncton ocorre desde a superfície até à camada de compensação, nas águas oceânicas limpidas esta pode chegar a mais de 10 metros de profundidade. A camada de compensação é aquela em que o vegetal consegue fazer fotossíntese somente o suficiente para se manter vivo, para a manutenção de seus processos metabólicos. A partir desta camada o vegetal consome mais energia do que produz e acaba morrendo por inanição.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Ictiossauro",
+      "descricao": "Réptil marinho extinto da era dos dinossauros, de corpo hidrodinâmico parecido com o de um golfinho."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Réptil marinho da era dos dinossauros, o ictiossauro tinha corpo, nadadeiras e focinho muito parecidos com os de que mamífero marinho atual?",
+    "resposta": "Golfinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ichthyosaur"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ichthyosaur",
+        "situacao": "desambiguacao",
+        "texto": "Ichthyosaurs are extinct marine reptiles. This term can be used as a common name for the members of the following groups:\n\nIchthyosauria\nIchthyosaurus, an extinct genus of ichthyosaurs\nIchthyopterygia, which contains Ichthyosauria\nIchthyosauriformes, which contains Ichthyopterygia"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Peixe-serra",
+      "descricao": "Raia de corpo alongado da família Pristidae, com um longo focinho achatado cheio de dentes nas laterais."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O peixe-serra, de focinho longo com dentes nas laterais, tem cara de tubarão, mas pertence a outro grupo de peixes cartilaginosos. Qual?",
+    "resposta": "Raias",
+    "distratores": [
+      "Quimeras",
+      "Lampreias",
+      "Esturjões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sawfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sawfish",
+        "situacao": "ok",
+        "texto": "Sawfish are a family of very large rays characterized by a long, narrow, flattened rostrum, or nose extension, lined with sharp transverse teeth, arranged in a way that resembles a saw. They are among the largest fish, with some species reaching lengths around 7–7.6 m (23–25 ft). They are found worldwide in tropical and subtropical regions in coastal marine and brackish estuarine waters, as well a\n[…]\nSawfish were occasionally mentioned in antiquity, in works such as Pliny's Natural History (77–79 AD). Pristis, the scientific name formalised for sawfish by Linnaeus in 1758, was also in use as a name even before his publication. For example, sawfish or \"priste\" were included in Libri de piscibus marinis in quibus verae piscium effigies expressae sunt by Guillaume Rondelet in 1554, and \"pristi\" were included in De piscibus libri V, et De cetis lib. vnus by Ulisse Aldrovandi in 1613.\n[…]\nAmong the five sawfish species, only the four Pristis species are known to be kept in public aquariums. The most common is the largetooth sawfish, with studbooks including 16 individuals in North America in 2014, 5 individuals in Europe in 2013 and 13 individuals in Australia in 2017; this was followed by the green sawfish, with 13 individuals in North America, and 6 in Europe. Both of these species are also kept at public aquariums in Asia, and the only captive dwarf sawfish are in Japan.\n[…]\nThe only remaining stronghold of the four species in the Indo-Pacific region (narrow, dwarf, largetooth and green sawfish) is in Northern Australia, but they have also experienced a decline there. Pristis sawfish are protected in Australia and only Indigenous Australians can legally catch them. Violations can result in a fine of up to AU$121,900. The narrow sawfish does not receive the same level of protection as the Pristis sawfish.\n[…]\nReport your sawfish sighting to Sharks and Rays Australia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pristidae",
+        "situacao": "ok",
+        "texto": "Pristidae é a única família da ordem Pristiformes e compreende espécies vulgarmente conhecidas como peixes-serra. A sua característica principal é a maxila muito alongada, com dentes iguais colocados regularmente nos bordos exteriores. Esta característica é semelhante à dos tubarões-serra, da ordem Pristiophoriformes, mas os peixes-serra, como todos os batoides, têm a cabeça achatada dorsiventralm\n[…]\nEles estão entre os maiores peixes com algumas espécies atingindo comprimentos de cerca de 7–7,6 m.\n[…]\nOs peixes-serra são encontrados em áreas costeiras tropicais e sub-tropicais de todos os oceanos. São encontrados também nas baías e nos estuários. São demersais e alimentam-se de pequenos peixes e crustáceos.\n[…]\nOs nomes \"serra\" e \"peixe-serra\" são também usados vulgarmente para espécies do género Scomberomorus, da família dos atuns. Tubarão-serra é o nome vulgar duma outra ordem de peixes cartilagíneos, os Pristiophoriformes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Bioluminescência",
+      "descricao": "Produção de luz por seres vivos, como vaga-lumes e muitos animais marinhos, por meio de uma reação química."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A luz dos vaga-lumes e a de muitos animais das profundezas do mar vêm do mesmo tipo de reação química. Como se chama a substância que gera a luz?",
+    "resposta": "Luciferina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bioluminescence",
+      "https://en.wikipedia.org/wiki/Luciferin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bioluminescence",
+        "situacao": "ok",
+        "texto": "Bioluminescence is the production of light by an organism as the result of a chemiluminescence reaction. It occurs in a wide variety of organisms, including marine vertebrates and invertebrates, terrestrial arthropods such as fireflies, some fungi, and microorganisms such as some bacteria and dinoflagellates. In some animals, the light is bacteriogenic, produced by symbiotic bacteria such as those\n[…]\nAll bioluminescent organisms have in common that the reaction of a \"luciferin\" and oxygen is catalyzed by a luciferase to produce light. McElroy and Seliger proposed in 1962 that the bioluminescent reaction evolved to detoxify oxygen, in parallel with photosynthesis.\n[…]\nLuciferin + O2\n[…]\nLuciferase\n[…]\nAn iGEM team from Cambridge (England) has started to address the problem that luciferin is consumed in the light-producing reaction by developing a genetic biotechnology part that codes for a luciferin regenerating enzyme from the North American firefly. In 2016, Glowee, a French company started selling bioluminescent lights for shop fronts and street signs, for use between 1 and 7 in the morning when the law forbids use of electricity for this purpose.\n[…]\nThey used the bioluminescent bacterium Aliivibrio fischeri, but the maximum lifetime of their product was three days. In April 2020, plants were genetically engineered to glow more brightly using genes from the bioluminescent mushroom Neonothopanus nambi to convert caffeic acid into luciferin.\n[…]\nATP bioluminescence is the process in which ATP is used to generate luminescence in an organism, in conjunction with other compounds such as luciferin. It proves to be a very good biosensor to test for the presence of living microbes in water. Different types of microbial populations are determined through different sets of ATP assays using other substrates and reagents. Renilla- and Gaussia-based cell viability assays use the substrate coelenterazine."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Luciferin",
+        "situacao": "ok",
+        "texto": "Luciferin (from Latin  lucifer 'light-bearer') is a generic term for the light-emitting compound found in organisms that generate bioluminescence. Luciferins typically undergo an enzyme-catalyzed reaction with molecular oxygen. The resulting transformation, which usually involves breaking off a molecular fragment, produces an excited state intermediate that emits light upon decaying to its ground \n[…]\nIn the early 18th century, René Réaumur noted that powder made from dried and ground bioluminescent creatures glowed when water was added. The first experimental studies of luciferin–luciferase systems were performed by the French scientist Raphael Dubois. Utilizing glow-worms and fireflies in 1885, he discovered that a substance is consumed during the light-producing reaction.\n[…]\nBacterial luciferin is two-component system consisting of flavin mononucleotide and a fatty aldehyde found in bioluminescent bacteria.\n[…]\nFoxfire is the bioluminescence created by some species of fungi present in decaying wood. While there may be multiple different luciferins within the kingdom of fungi, 3-hydroxy hispidin was determined to be the luciferin in the fruiting bodies of several species of fungi, including Neonothopanus nambi, Omphalotus olearius, Omphalotus nidiformis, and Panellus stipticus.\n[…]\nLuciferin is widely used in science and medicine as a method of in vivo imaging, using living organisms to non-invasively detect images and in molecular imaging. The reaction between luciferin substrate paired with the receptor enzyme luciferase produces a catalytic reaction, generating bioluminescence. This reaction and the luminescence produced is useful for imaging—examples include detecting cancerous tumors, or measuring gene expression.\n[…]\n\"Major luciferin types\". The Bioluminescence Web Page. University of California, Santa Barbara. 2009-01-09. Retrieved 2009-03-06."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bioluminesc%C3%AAncia",
+        "situacao": "ok",
+        "texto": "Bioluminescência é a produção de luz por um organismo como resultado de uma reação de quimioluminescência. Ela ocorre em muitos tipos de organismos, entre eles vertebrados e invertebrados marinhos, artrópodes terrestres como vaga-lumes, alguns fungos e microrganismos como certas bactérias e dinoflagelados. Em alguns animais, a luz é bacteriogênica, produzida por bactérias simbióticas como as do gê\n[…]\nNa maioria dos casos, a principal reação química da bioluminescência envolve um substrato chamado luciferina e uma enzima chamada luciferase. Como esses nomes são genéricos, luciferinas e luciferases costumam ser diferenciadas pela espécie ou pelo grupo, como na luciferina de vaga-lume ou na luciferina de Cypridina. Em todos os casos caracterizados, a enzima catalisa a oxidação da luciferina, produzindo oxiluciferina em estado excitado, que emite a luz da reação.\n[…]\nMuitas vezes há liberação simultânea de dióxido de carbono (CO2). Por exemplo, a reação entre luciferina e luciferase dos vaga-lumes exige magnésio e ATP e produz CO2, adenosina monofosfato (AMP) e pirofosfato (PP) como resíduos. Outros cofatores podem ser necessários, como cálcio (Ca2+) para a fotoproteína aequorina, ou íons de magnésio (Mg2+) e ATP para a luciferase de vaga-lume. A produção das moléculas em estado excitado envolve sempre a decomposição de peróxidos orgânicos.\n[…]\nLuciferina + O2\n[…]\nLuciferase\n[…]\nUma equipe da iGEM de Cambridge, na Inglaterra, começou a enfrentar o problema do consumo da luciferina durante a reação luminosa desenvolvendo um componente biotecnológico genético que codifica uma enzima regeneradora de luciferina do vaga-lume norte-americano. Em 2016, a empresa francesa Glowee começou a vender luzes bioluminescentes para vitrines de lojas e placas de rua, para uso entre 1 e 7 horas da manhã, período em que a legislação proibia o uso de eletricidade para essa finalidade.\n[…]\nMBARI: Gonyaulax Bioluminescence",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Bico de cefalópode",
+      "descricao": "Estrutura dura em forma de bico na boca de polvos, lulas e chocos, usada para cortar o alimento."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No centro dos braços de polvos e lulas fica um bico duro, usado para cortar as presas. Ele tem formato muito parecido com o bico de que ave?",
+    "resposta": "Papagaio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cephalopod_beak"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cephalopod_beak",
+        "situacao": "ok",
+        "texto": "All extant cephalopods have a two-part beak, or rostrum, situated in the buccal mass (mouthparts) and surrounded by the muscular head appendages. The dorsal (upper) mandible fits into the ventral (lower) mandible and together they function in a scissor-like fashion. The beak may also be referred to as the mandibles, jaws or \"octopuss\".\n[…]\nFossilised remains of beaks are known from a number of cephalopod groups, both extant and extinct, including squids, octopuses, belemnites, and vampyromorphs. Aptychi - paired plate-like structures found in ammonites - may also have been jaw elements.\n[…]\nComposed primarily of chitin and cross-linked proteins, beaks are more or less indigestible and are often the only identifiable cephalopod remains found in the stomachs of predatory species such as sperm whales. Cephalopod beaks gradually become less stiff as one moves from the tip to the base, a gradient that results from differing chemical composition. In hydrated beaks of the Humboldt squid (Dosidicus gigas) this stiffness gradient spans two orders of magnitude.\n[…]\nThe abbreviations LRL and URL are commonly used in teuthology to refer to lower rostral length and upper rostral length, respectively. These are the standard measures of beak-size in Decapodiformes; hood length is preferred for Octopodiformes. They can be used to estimate the mantle length and total body weight of the original animal as well as the total ingested biomass of the species."
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Lula",
+      "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os olhos das lulas e dos polvos funcionam como uma câmera, iguais aos de que grande grupo de animais, embora tenham evoluído de forma independente?",
+    "resposta": "Vertebrados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cephalopod_eye"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cephalopod_eye",
+        "situacao": "ok",
+        "texto": "Cephalopods, as active marine predators, possess sensory organs specialized for use in aquatic conditions. They have a camera-type eye which consists of an iris, a circular lens, vitreous cavity (eye gel), pigment cells, and photoreceptor cells that translate light from the light-sensitive retina into nerve signals which travel along the optic nerve to the brain.\n[…]\nFor the past 140 years, the camera-type cephalopod eye has been compared with the vertebrate eye as an example of convergent evolution, where both types of organisms have independently evolved the camera-eye trait and both share similar functionality. Contention exists on whether this is truly convergent evolution or parallel evolution.\n[…]\nDisagreement on whether the evolution of the camera eye within cephalopods and within vertebrates is a parallel evolution or a convergent evolution still exists, although is mostly resolved. The current standing is that of a convergent evolution for their analogous camera-type eye.\n[…]\nThose supporting a convergent evolution state that this common ancestor would have preceded both cephalopods and vertebrates by a significant margin. The common ancestor with the expression for camera-type eye would have existed approximately 270 million years before the evolution of camera-type eye in cephalopods and approximately 110 to 260 million years before the evolution of camera-type eye in vertebrates.\n[…]\nAnother source of evidence for this is the differences of expression due to independent variants of Pax6 arising in both cephalopods and vertebrates. Cephalopods contain five variants of Pax6 in their genomes which independently arose and are not shared by vertebrates, although they allow for a similar gene expression when compared to the Pax6 of vertebrates."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Olho_cefal%C3%B3pode",
+        "situacao": "ok",
+        "texto": "Cefalópodes, como ativos predadores marinhos, possuem órgãos sensoriais visuais especializados para uso em condições aquáticas Os olhos do cefalópodes tem uma câmara, que consiste de uma íris, uma lente circular, a cavidade do vítreo (gel ocular), células pigmentares e células fotorreceptoras que traduzem luz da retina sensível à luz em sinais nervosos que viajam ao longo do nervo óptico para o cé\n[…]\nFoi documentado que vários tipos de cefalópodes, principalmente lulas e polvos, e, potencialmente, choco, têm olhos que podem distinguir a orientação de luz polarizada.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Lagosta",
+      "descricao": "Crustáceo decápode marinho de corpo alongado e cauda musculosa, muito apreciado na culinária."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Viva, a lagosta costuma ser escura, azulada ou esverdeada. Por que ela fica vermelha quando é cozida?",
+    "resposta": "O calor libera o pigmento astaxantina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Astaxanthin",
+      "https://en.wikipedia.org/wiki/Lobster"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Astaxanthin",
+        "situacao": "ok",
+        "texto": "Astaxanthin  is a keto-carotenoid within a group of chemical compounds known as carotenoids, a subclass of the broad group of phytochemicals known as terpenes. Astaxanthin is a metabolite of zeaxanthin and canthaxanthin, containing both hydroxyl and ketone functional groups.\n[…]\nAnimals who feed on the algae, such as salmon, red trout, red sea bream, flamingos, and crustaceans (shrimp, krill, crab, lobster, and crayfish), subsequently reflect the red-orange astaxanthin pigmentation.\n[…]\nIn shellfish, astaxanthin is almost exclusively concentrated in the shells, with only low amounts in the flesh itself, and most of it only becomes visible during cooking as the pigment separates from the denatured proteins that otherwise bind it. Astaxanthin is extracted from Euphausia superba (Antarctic krill) and from shrimp processing waste.\n[…]\nThe primary use of synthetic astaxanthin today is as an animal feed additive to impart coloration, including farm-raised salmon and chicken egg yolks. Synthetic carotenoid pigments colored yellow, red or orange represent about 15–25% of the cost of production of commercial salmon feed. In the 21st century, most commercial astaxanthin for aquaculture is produced synthetically.\n[…]\nAstaxanthin is a pigment that moves from algae to consumers, giving pink and red colors to animals like salmon, shrimp, and flamingos. Lobsters, shrimp, and some crabs turn red when cooked because the astaxanthin, which was bound to the protein in the shell, becomes free as the protein denatures and unwinds. The freed pigment is thus available to absorb light and produce the red color.\n[…]\nIn each case, these applications have been simplified or substantial equivalence applications, because astaxanthin is recognised as a food component in the EU diet."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lobster",
+        "situacao": "ok",
+        "texto": "Lobsters are malacostracan decapod crustaceans of the family Nephropidae or its synonym Homaridae. They have long bodies with muscular tails and live in crevices or burrows on the sea floor. Three of their five pairs of legs have claws, including the first pair, which are usually much larger than the others. Highly prized as seafood, lobsters are economically important and are often one of the mos\n[…]\nCooks primarily boil or steam live lobsters. When a lobster is cooked, its shell's color changes from brown to orange because the heat from cooking breaks down a protein called crustacyanin, which suppresses the orange hue of the chemical astaxanthin, which is also found in the shell.\n[…]\nThe fossil record of clawed lobsters extends back at least to the Valanginian age of the Cretaceous (140 million years ago). This list contains all 54 extant species in the family Nephropidae:\n[…]\nGérard de Nerval, a French writer who kept a lobster as a pet\n[…]\nLobster War, an early-1960s diplomatic conflict between Brazil and France over spiny lobster fishing territories\n[…]\nLobstering, an innate escape mechanism in marine and freshwater crustaceans\n[…]\nLobster emoji, a character in Unicode depicting a lobster\n[…]\nCorson, Trevor (2005). The Secret Life of Lobsters: How Fishermen and Scientists Are Unraveling the Mysteries of Our Favorite Crustacean. New York: HarperCollins. ISBN 978-0-06-055559-7.\n[…]\nPhillips, Bruce F., ed. (2006). Lobsters: Biology, Management, Aquaculture and Fisheries. Wiley. doi:10.1002/9780470995969. ISBN 978-1-4051-2657-1.\n[…]\nTownsend, Elisabeth (2011). Lobster: A Global History. London, England, UK: Reaktion Books. ISBN 978-1-86189-794-7.\n[…]\nHolthuis, Lipke (1991). Marine Lobsters of the World. Food and Agriculture Organization. Archived from the original on September 13, 2007. Retrieved June 27, 2006.\n[…]\nAtlantic Veterinary College Lobster Science Centre Archived December 6, 2010, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Astaxantina",
+        "situacao": "ok",
+        "texto": "A Astaxantina é um ceto-carotenóide, dentro de um grupo de compostos químicos conhecidos como carotenonas ou terpenos.\n[…]\nAo contrário de outros carotenóides, não se converte em Vitamina A no corpo humano. O excesso de Vitamina A pode ser tóxico ao corpo humano, mas a Astaxantina não. Para além da função antioxidante, cerca de 10 vezes mais eficaz que outros carotenóides, apresenta propriedades anti-inflamatórias e proteção contra raios ultra-violeta.\n[…]\nComparada com outras formas de vitamina A, a astaxantina é um forte antioxidante, capaz de chegar “ao interior do olho”, onde pode exercer diretamente a sua ação.\n[…]\nSendo um componente nutricional natural, a astaxantina pode também ser encontrado em suplementos alimentares. Como complemento, poderá ser usado para consumo humano e animal, sendo utilizado na aquacultura. A produção de astaxantina para suplementos alimentares poderá ser tanto de fonte natural, como sintética.\n[…]\nAs seguintes fontes são utilizadas na produção de astaxantina para fins comerciais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Peixe-papagaio",
+      "descricao": "Peixe de recife tropical, de cores vivas e dentes fundidos em forma de bico, que se alimenta raspando corais e algas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos recifes tropicais, o peixe-papagaio rói corais e algas com seu bico duro. O que ele produz em grande quantidade ao digerir esse material?",
+    "resposta": "Areia branca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Parrotfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Parrotfish",
+        "situacao": "ok",
+        "texto": "Parrotfish (named because their mouths resemble a parrot's beak) are a clade of fish placed in the subfamily Scarinae of the wrasse family (Labridae). Historically considered as the family Scaridae, genetic studies found them to be deeply nested within the wrasses, and they are now treated as a subfamily. With roughly 95 species, the group's largest species richness is in the Indo-Pacific.\n[…]\nTraditionally, the parrotfishes have been considered to be a family level taxon, Scaridae. Although phylogenetic and evolutionary analyses of parrotfish are ongoing, they are now widely accepted to form a clade (a fundamental grouping in evolutionary biology consisting of a single common ancestor and all of its descendants) of wrasses closely related to the tribe Cheilini, and are now commonly referred to as \"scarine labrids\" (of the subfamily Scarinae/tribe Scarini, family Labridae).\n[…]\nMost tropical species form large schools when feeding and these are often grouped by size. Harems are typical of most species, with the males vigorously defending their group of females and position from any challenge. As pelagic spawners, parrotfish release many tiny, buoyant eggs into the water, which become part of the plankton. The eggs float freely, settling into the coral until hatching.\n[…]\nIn most species, the initial phase is dull red, brown, or grey, while the terminal phase is vividly green or blue with bright pink, orange or yellow patches. In a smaller number of species the phases are similar, and in the Mediterranean parrotfish the adult female is brightly colored, while the adult male is gray. In most species, juveniles have a different color pattern from adults. Juveniles of some tropical species can alter their color temporarily to mimic other species.\n[…]\nHoey and Bonaldo. The Biology of Parrotfishes\n[…]\nParrot Fish Profile from National Geographic\n[…]\nParrot Fish Care\n[…]\nParrotfish info on Fishbase"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escar%C3%ADdeos",
+        "situacao": "ok",
+        "texto": "Os Scaridae ou Escarídeos são uma família de peixes perciformes, que inclui as espécies conhecidas pelo nome comum de peixes-papagaio, muito abundante em zonas de recifes coralinos do Mar Vermelho, Oceano Atlântico e Indo-Pacífico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Coral-sol",
+      "descricao": "Coral invasor do gênero Tubastraea, nativo do Indo-Pacífico, que se espalhou pelo litoral brasileiro."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O coral-sol, espécie do Indo-Pacífico que virou praga invasora no litoral brasileiro, chegou aqui provavelmente preso a quê?",
+    "resposta": "Plataformas de petróleo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tubastraea_coccinea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tubastraea_coccinea",
+        "situacao": "ok",
+        "texto": "Orange cup coral (Tubastraea coccinea) is a species of large-polyp stony corals. This non-reef building coral extends translucent tentacles at night. Tubastraea coccinea is heterotrophic and does not contain zooxanthellae in its tissues as many tropical corals do, allowing it to grow in complete darkness as long as it can capture enough food. T. coccinea is an invasive coral known for its vibrant \n[…]\nOrange Cup Coral, Tubastraea coccinea, can reproduce both sexually and asexually. The ability to reproduce in multiple ways may assist this species in invading and adapting to new environments. This coral has both male and female gonads within a single polyp. During reproduction, the coral releases sperm into the water column. Within this water column is where the eggs are kept within the gastrovascular cavity of the polyp.\n[…]\nIt is this blend of asexual and sexual reproduction and long-distance larval dispersal potential that has allowed Tubastraea coccinea to spread beyond its indigenous Indo-Pacific range and colonize new areas such as the Gulf of Mexico.\n[…]\nOrange cup coral (Tubastraea coccinea), an ahermatypic coral, is found in various habitats, natural and man-made. Because it is an azooxanthellate coral with no symbiotic algae, it can exist in low-light conditions. Tubastraea coccinea inhabits shaded vertical surfaces and caverns down to huge depths. T. coccinea are also found in very cold water throughout the world. In its native habitat in the Indo-Pacific, T.\n[…]\nTubastraea coccinea is native to the Indo-Pacific region, it has been recorded at Sonadia Island, Cox's Bazar, Bangladesh in 2013, by Marinelife Alliance, research organization. However, it has been introduced to the Atlantic, Brazilian Exclusive Economic Zone, the Caribbean Sea, the Gulf of Mexico, New Zealand Exclusive Economic Zone, and the West African region and Mediterranean Sea (Malta) as well."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coral-sol",
+        "situacao": "ok",
+        "texto": "O coral-sol é uma espécie de coral que pertence ao gênero Tubastraea, que pode ser encontrado nas águas de Timor-Leste . Espalha-se por profundidades que vão de 50 centímetros a 15 metros. No Brasil, tais corais constituem uma ameaça, pois eles são agressivos a espécies nativas de corais, como o coral-cérebro (Mussismilia hispida), uma espécie que só existe no Brasil.\n[…]\nO coral-sol se tornou uma verdadeira praga na Baía de Ilha Grande, Rio de Janeiro, de onde está se espalhando pela costa brasileira. Poucas ilhas conseguiam deter seu avanço por meio de operações rotineiras de retirada manual promovidas pela Estação Ecológica de Tamoios (operações eclipse), no entanto, as ações de manejo foram interrompidas em junho de 2022, com a paralisação do Projeto Eclipse.\n[…]\nEssa espécie é muito agressiva e eficiente na reprodução, o que acaba eliminando, através da competição, as espécies nativas, causando um grande desequilíbrio.\n[…]\nO coral-sol foi levado a Baía de Ilha Grande na década de 1980 aderida a plataformas de petróleo. Nesse ambiente encontrou um lugar perfeito para sua reprodução, pois não havia predadores para essa espécie exótica.\n[…]\n«Belo e assassino, coral-sol invade costões em Ilhabela»\n[…]\nCoral-sol na BTS (baia de Todos os Santos)[[1]]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Peixe-bolha",
+      "descricao": "Peixe de águas profundas da Austrália (Psychrolutes marcidus), famoso pela aparência gelatinosa fora da água."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Eleito em 2013 o animal mais feio do mundo, o peixe-bolha só aparece com aquela cara flácida e gelatinosa por quê?",
+    "resposta": "Pela descompressão ao sair do fundo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blobfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Blobfish",
+        "situacao": "desambiguacao",
+        "texto": "Blobfish may refer to:\n\nPsychrolutidae, a fish family commonly known as blobfishes\nPsychrolutes microporos, commonly known as a blobfish or fathead\nMr Blobby (fish), an individual specimen of Psychrolutes microporos and the subject of a well-known photograph\nPsychrolutes marcidus, commonly known as a smooth-head blobfish or simply a blobfish\nPsychrolutes occidentalis, Western blobfish or Western A"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Recife da Amazônia",
+      "descricao": "Extenso sistema de recifes de corais, esponjas e algas calcárias sob as águas barrentas da foz do rio Amazonas, anunciado em 2016."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2016, cientistas anunciaram um extenso recife de corais e esponjas escondido sob águas barrentas, perto da foz de que rio?",
+    "resposta": "Amazonas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amazon_Reef"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amazon_Reef",
+        "situacao": "ok",
+        "texto": "The Amazon Reef, or Amazonian Reef, is an extensive coral and sponge reef system, located in the Atlantic Ocean off the coast of French Guiana and northern Brazil. It is one of the largest known reef systems in the world, with scientists estimating its length at over 1,000 kilometres (600 miles), and its area as over 9,300 km2 (3,600 mi2). Publication of its discovery was released in April 2016, f\n[…]\nEvidence of a large structure near the delta of the Amazon River dated from as early as the 1950s.\n[…]\nInitial evidence for a coral and sponge reef system in the Amazon Delta region first surfaced in the late 1950s, when a U.S. survey ship collected sponges from the floor of the Amazon Delta. Further evidence also appeared in 1977, when reef fish were first sighted in the area, and in 1999, when Caribbean-native coral species were found in isolated regions near the Amazon Delta.\n[…]\nHowever, no major study into the existence of a reef system occurred until 2012, when an international research team of over 30 oceanographers, led by Rodrigo Moura of the Federal University of Rio de Janeiro, and including patrons from the University of Georgia, conducted a survey of the area aboard the RV Atlantis. The survey was mostly based on findings from the 1970s, including a crude map of the area marked with potential locations of reefs along the Amazonian coast.\n[…]\nSome of the waters in the Amazon Reef are considered to be some of the murkiest and muddiest waters around the world due to the Amazonian plume. Scientists have stated that the reef's biology is dependent on the location of the Amazonian plume.\n[…]\nThey also found that as the southernmost part of the reef receives the most sun, it is also the area that the sea life uses to make their food.\n[…]\nThe Amazon Reef is at risk of coral bleaching, an issue prevalent with other reefs such as the Great Barrier Reef located off the coast of Australia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Recife_Amazonas",
+        "situacao": "ok",
+        "texto": "O Recife Amazonas é um extenso coral de algas calcárias e sistema esponjoso de recife localizado próximo à costa norte do Brasil e da Guiana Francesa. Trata-se de um dos maiores sistema de recifes do mundo, com uma extensão aproximada de quase 1000 quilômetros e uma área de 9.300 km2, com possibilidade de ocupar uma área muito maior, em torno de 56.000 km2.\n[…]\nA existência do recife é incomum, uma vez que recifes de corais não existem próximos à foz de grandes rio como o Amazonas, devido à baixa salinidade e alta acidez e em adição à contínua deposição de sedimentos. Antes da descoberta do recife, acreditava-se que o Amazonas, com sua rica pluma de sedimento representasse uma brecha na distribuição de recifes do Atlântico Ocidental. Mais de 60 espécies de peixes e pelo menos 73 de esponjas foram identificadas habitando as águas próximas ao recife.\n[…]\nAs evidências iniciais da existência de recifes de corais na região datam da década de 1950, quando um navio dos Estados Unidos coletou esponjas do fundo do mar na foz do Amazonas. Mais evidências voltaram a aparecer em 1977, quando um peixe habitante de recifes fora avistado no local e em 1999 quando espécies nativas do Caribe foram encontradas em regiões isoladas na foz do Rio Amazonas.\n[…]\nOutro fator que denota a importância desse recém descoberto bioma, é que devido a sua localização em águas profundas, os cientistas acreditam que os recifes de coral da Amazônia podem estar imunes aos efeitos do aquecimento global, e assim podem ajudar a preservar formas de vida que correm risco de desaparecer. Esse é o caso da grande barreira de corais da Austrália, que corre sério risco de morrer devido aos efeitos do aumento da temperatura do planeta, e consequentemente da água do mar.\n[…]\n«Imagens dos recifes» , Folha de S.Paulo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Bacalhau-do-atlântico",
+      "descricao": "Peixe marinho do Atlântico Norte (Gadus morhua), base do bacalhau salgado da culinária portuguesa e brasileira."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Por séculos, pescadores portugueses cruzaram o Atlântico para pescar bacalhau nos Grandes Bancos da Terra Nova, junto à costa de que atual país?",
+    "resposta": "Canadá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grand_Banks_of_Newfoundland",
+      "https://en.wikipedia.org/wiki/Atlantic_cod"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grand_Banks_of_Newfoundland",
+        "situacao": "ok",
+        "texto": "The Grand Banks of Newfoundland are a series of underwater plateaus south-east of the island of Newfoundland on the North American continental shelf. The Grand Banks are one of the world's richest fishing grounds, supporting swordfish, haddock and capelin, as well as shellfish, seabirds and sea mammals. Overfishing in the late 20th century caused the collapse of several species, particularly Atlan\n[…]\nThe fish stocks became important for the early European-settler economies of eastern Canada and New England.\n[…]\nCanada's EEZ currently covers the majority of the Grand Banks except for the lucrative \"nose\" (eastern extremity, near the Flemish Cap) and \"tail\" (southern extremity) of the fishing bank. The 1783 Treaty of Paris gave the United States shared rights to fish in these waters, but that section of the Treaty is no longer in force.\n[…]\nCanada is performing the hydrographic and geological surveys necessary for claiming the entire continental shelf off eastern Canada, as allowed by the terms of the latest United Nations Convention on the Law of the Sea (UNCLOS).\n[…]\nPetroleum reserves have also been discovered and a number of oil fields are under development in this region, most notably the Hibernia, Terra Nova, and White Rose projects. However, the harsh environment on the Grand Banks also led to the Ocean Ranger disaster.\n[…]\nThe Northwest Atlantic Ocean is undergoing long-term warming from climate change. The surface water temperatures of the Newfoundland Shelf have increased by 0.13 °C per decade from 1950 to 2016. Depth-averaged ocean temperatures (0–175 m) have not shown a warming trend during that same period.\n[…]\nCollapse of the Atlantic northwest cod fishery"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Atlantic_cod",
+        "situacao": "ok",
+        "texto": "The Atlantic cod (pl.: cod; Gadus morhua) is a fish of the family Gadidae, widely consumed by humans. It is also commercially known as cod or codling.\n[…]\nThe Atlantic cod is one of three cod species in the genus Gadus along with Pacific cod and Alaska pollock. A variety of fish species are colloquially known as cod, but they are not all classified within the Gadus, though some are in the Atlantic cod family, Gadidae.\n[…]\nParasites of Atlantic cod include copepods, digeneans, monogeneans, acanthocephalans, cestodes, nematodes, myxozoans, and protozoans.\n[…]\nThe landings in the eastern Atlantic frequently exceed 1 million tonnes annually from across 16 populations/management units with landings from the Northeast Atlantic cod population and Iceland accounting for the majority of the landings, Since 1992, when the cod moratorium took effect in Canada, landings in the western Atlantic have been considerably lower than in the eastern Atlantic, generally being less than 50,000 tonnes annually.\n[…]\nThe Northwest Atlantic cod has been regarded as heavily overfished throughout its range, resulting in a crash in the fishery in the United States and Canada during the early 1990s.\n[…]\nThe history of the northern cod fishery in Canada\n[…]\nAtlantic cod-Gadus morhua fishery profiles Status of Atlantic cod fisheries, summarised in FisheriesWiki\n[…]\n\"Atlantic cod\". The Encyclopedia of Life.\n[…]\nView the Atlantic cod genome in Ensembl\n[…]\nGovernment of Canada Seafisheries Landings\n[…]\nPhotos of Atlantic cod in the Sealife Collection\n[…]\nPauly, Daniel, and Ashley McCrea Stru. \"Atlantic Cod: Past and Present.\" Sea Around Us, 21 May 2015, www.seaaroundus.org/atlantic-cod-past-and-present/."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grandes_Bancos_da_Terra_Nova",
+        "situacao": "ok",
+        "texto": "Os Grandes Bancos são um grupo de planaltos submersos sitos a sueste da Terra Nova sobre a plataforma continental norte-americana. Naquelas zonas as águas têm apenas 25 a 100 m de profundidade. A presença da corrente fria do Labrador e a proximidade da corrente do Golfo levam à existência de boas condições de mistura nas águas, o que coloca em suspensão nutrientes que permitem uma grande produtivi\n[…]\nActualmente a zona sofre de sobrepesca, com algumas das espécies com maior interesse económico, nomeadamente o bacalhau em grande declínio, o que levou à aplicação de medidas fortemente restritivas à pesca.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Tartarugas-marinhas",
+      "descricao": "Grupo de répteis marinhos da superfamília Chelonioidea, com sete espécies vivas."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Das sete espécies de tartarugas-marinhas que existem no mundo, quantas ocorrem no litoral brasileiro?",
+    "resposta": "Cinco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Projeto_Tamar",
+      "https://en.wikipedia.org/wiki/Sea_turtle"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Projeto_Tamar",
+        "situacao": "ok",
+        "texto": "A Fundação Projeto Tamar é um projeto conservacionista brasileiro que atua na preservação das tartarugas-marinhas ameaçadas de extinção. É uma entidade de direito privado, sem fins lucrativos e fica sediado na Praia do Forte, no município de Mata de São João, no interior do estado da Bahia.\n[…]\nO Tamar surgiu com um objetivo de proteger tartarugas-marinhas que estão ameaçadas de extinção no litoral brasileiro. Com o tempo, porém, percebeu-se que os trabalhos não poderiam ficar restritos às tartarugas, pois uma das chaves para o sucesso desta missão seria o apoio ao desenvolvimento das comunidades costeiras, de forma a oferecer alternativas econômicas que amenizassem a questão social, diminuindo assim a caça das tartarugas-marinhas para a sua sobrevivência.\n[…]\nO Tamar também protege tubarões e outras espécies de vida marinha.\n[…]\nO número de ninhos para todas as espécies de tartarugas marinhas no país continua aumentando. Na 35ª temporada reprodutiva monitorada pelo TAMAR (2015-16), foram protegidos 26 mil ninhos, gerando 2,5 milhões de filhotes que chegaram ao mar em segurança.\n[…]\nApós 35 anos de trabalho, o TAMAR devolveu ao mar mais de 25 milhões de filhotes de tartarugas marinhas.\n[…]\nO litoral de Sergipe possui a maior concentração de desovas da tartaruga-oliva (Lepidochelys olivacea) no país. Também são registradas, em menores proporções, desovas das  tartarugas-cabeçudas (Caretta caretta),  tartarugas-de-pente (Eretmochelys imbricata) e  tartarugas-verdes (Chelonia mydas).\n[…]\nAs bases de Pirambu, Abaís e Ponta dos Mangues protegem, juntas, cento e vinte e cinco dos cento e sessenta e três quilômetros de praias sergipanas e protegem mais de duas mil e quinhentas desovas/ano e cerca de cento e trinta e cinco mil filhotes.\n[…]\nPreservação ambiental no Brasil"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sea_turtle",
+        "situacao": "ok",
+        "texto": "Sea turtles (superfamily Chelonioidea), sometimes called marine turtles, are reptiles of the order Testudines and of the suborder Cryptodira. The seven existing species of sea turtles are the flatback, green, hawksbill, leatherback, loggerhead, Kemp's ridley, and olive ridley. Five of the seven species are listed as threatened with extinction globally on the IUCN Red List of Threatened Species.\n[…]\nSea turtles can be categorized as hard-shelled (cheloniid) or leathery-shelled (dermochelyid). The only dermochelyid species of sea turtle is the leatherback.\n[…]\nThe phylogenetic relationships of living and extinct sea turtles in the Chelonioidea are based on Evers et al. (2019):\n[…]\nAnother major threat to sea turtles is the black-market trade in eggs and meat. This is a problem throughout the world, but especially a concern in China, the Philippines, India, Indonesia and the coastal nations of Latin America. Estimates reach as high as 35,000 sea turtles killed a year in Mexico and the same number in Nicaragua. Conservationists in Mexico and the United States have launched \"Don't Eat Sea Turtle\" campaigns in order to reduce this trade in sea turtle products.\n[…]\nAnother danger to sea turtles comes from marine debris, especially plastics, such as in the Great Pacific Garbage Patch, which may be mistaken for jellyfish, and abandoned fishing nets in which they can become entangled.\n[…]\nThe larval stage chooses where to settle and ultimately the habitat for its full adult life, which is typically between 5 and 10 years. However, estimates of age for a common sea turtle barnacle species, Chelonibia testudinaria, suggest that this species lives for at least 21 months, with individuals older than this uncommon. Chelonibia barnacles have also been used to distinguish between the foraging areas of sea turtle hosts.\n[…]\nThreats to sea turtles\n[…]\nUse of sea turtles in West African traditional medicine"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Misticetos",
+      "descricao": "Subordem das baleias de barbatanas, como a jubarte e a baleia-franca, que filtram o alimento."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Baleias de barbatanas, como a jubarte e a baleia-franca, respiram por quantos orifícios no alto da cabeça?",
+    "resposta": "Dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baleen_whale",
+      "https://en.wikipedia.org/wiki/Blowhole_(anatomy)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baleen_whale",
+        "situacao": "ok",
+        "texto": "Baleen whales (), also known as whalebone whales, are marine mammals of the parvorder Mysticeti in the infraorder Cetacea (whales, dolphins and porpoises), which use baleen plates (or \"whalebone\") in their mouths to sieve plankton from the water. Mysticeti comprises the families Balaenidae (right and bowhead whales), Balaenopteridae (rorquals), Eschrichtiidae (the gray whale) and Cetotheriidae (th\n[…]\nWhile, unlike a modern baleen whale, Janjucetus lacked baleen in its jaw, the anatomy shows sufficient similarity to baleen whales. It appears to have had very limited apparent biosonar capabilities. Its jaw contained teeth, with incisors and canines built for stabbing and molars and premolars built for tearing. These early mysticetes were exceedingly small compared to modern baleen whales, with species like Mammalodon measuring no greater than 3 meters (10 ft).\n[…]\nLung volume is relatively low compared to terrestrial mammals because of the inability of the respiratory tract to hold gas while diving. Doing so may cause serious complications such as embolism. Unlike other mammals, the lungs of baleen whales lack lobes and are more sacculated. Like in humans, the left lung is smaller than the right to make room for the heart.\n[…]\nThe eyeballs are protected by a thick outer layer to prevent abrasions and an oily fluid (instead of tears) on the surface of the eye. Baleen whales appear to have limited color vision, as they lack S-cones.\n[…]\nThe mysticete ear is adapted for hearing underwater, where it can hear sound frequencies as low as 7 Hz and as high as 22 kHz, distinct from odontocetes whose hearing is optimized for ultrasonic frequencies. It is largely unknown how sound is received by baleen whales. Unlike in toothed whales, sound does not pass through the lower jaw. The auditory meatus is blocked by connective tissue and an ear plug, which connects to the eardrum."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Blowhole_(anatomy)",
+        "situacao": "ok",
+        "texto": "In cetology, the study of whales and other cetaceans, a blowhole is the hole (or spiracle) at the top of the head through which the animal breathes air. In baleen whales, these are in pairs. It is homologous with the nostril of other mammals, and evolved via gradual movement of the nostrils to the top of the head. The posterior placement of blowholes on cetacean heads is believed to minimize the e\n[…]\nAs whales reach the water surface to breathe, they forcefully expel air through the blowhole. The exhalation is released into the comparably lower-pressure, colder atmosphere, and any water vapor condenses. This spout, known as the blow, is often visible from far away as a white splash, which can also be caused by water resting on top of the blowhole. Spout shapes differ among species, which facilitates identification. This is followed by inhaling fresh air into the lungs.\n[…]\nBaleen whales have two blowholes positioned in a V-shape, while toothed whales have only one blowhole. The blowhole of a sperm whale, a toothed whale, is located left of centre in the frontal area of the snout, and is actually its left nostril, while the right nostril lacks an opening to the surface and its nasal passage is otherwise well developed.\n[…]\nThe spouting of whales has been observed and used in whale hunting throughout the world since ancient times. This has been depicted in rock carvings at Alta (northern Norway), which mostly date to 5000–4000 BC and 2000–1000 BC. Such carvings have also been found in South Korea (Bangudae Petroglyphs), British Columbia, and possibly New Zealand (Weka Pass shelter).\n[…]\n\"Whales don't spray water out of their blowholes\", Gizmodo, Emily Upton, October 15, 2013.\n[…]\nWhales of the World"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Misticetos",
+        "situacao": "ok",
+        "texto": "Os Misticetos (Mysticeti), baleias-de-barbas ou baleias-de-barbatana são um grupo monofilético que pertence à ordem Cetacea,[carece de fontes]? a qual compreende animais terrestres que, ao longo da evolução, retornaram ao ambiente aquático, tendo esse retorno sido marcado pela mudança gradual da posição das narinas.\n[…]\nO registro fóssil aponta que misticetos com barbatanas e sem barbatanas coexistiram e que a transição para filtração foi acompanhada por um aumento no tamanho corpóreo, especialmente da cabeça, associado a uma  maior capacidade de filtração.\n[…]\nAtualmente, os misticetos com barbatanas são classificados em 5 famílias, 4 das quais têm representantes existentes: os Balaenopteridae, representados por rorquais e baleias-jubarte; os Balaenidae conhecidos como baleias-francas; os Eschrichtiidae ou baleia-cinza; os Neobalaenidae conhecidos como baleias-francas-pigmeias. A 5ª família é a única família exclusivamente fóssil de misticetos de barbatanas, os \"Cetotheriidae\".\n[…]\nÉ a maior família, com oito espécies e dois gêneros, tem como representante mais famoso a baleia jubarte (Megaptera novaeangliae) e a baleia azul (Balaenoptera musculus). São baleias que podem chegar a mais de vinte metros de comprimento, como a baleia-fin (Balaenoptera physalus) ou menos de quinze metros, como a baleia de Bryde (Balaenoptera edeni).\n[…]\nEm específico as do gênero Eubalaena, possuem pedaços de pele mais grossa na região da cabeça chamadas de calosidades, que podem ter uma cor branca e amarelada por habitarem pequenos crustáceos conhecidos como “cyamus”. O esguicho em forma de “V” é resultante do ar expelido rapidamente através de dois orifícios respiratórios. Encontradas geralmente em águas de regiões temperadas e polares, são vistas em regiões costeiras em época de reprodução.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Água-viva",
+      "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A água-viva nada, caça e reage ao ambiente graças a uma rede de nervos espalhada pelo corpo. Quantos cérebros ela tem?",
+    "resposta": "Nenhum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jellyfish"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jellyfish",
+        "situacao": "ok",
+        "texto": "Jellyfish, also known as sea jellies or simply jellies, are the medusa-phase of certain gelatinous members of the subphylum Medusozoa, which is a major part of the phylum Cnidaria. Jellyfish are mainly free-swimming marine animals, although a few are anchored to the seabed by stalks rather than being motile. They are made of an umbrella-shaped main body made of mesoglea, known as the bell, and a c\n[…]\nIn a process known as strobilation, the polyp's tentacles are reabsorbed and the body starts to narrow, forming transverse constrictions, in several places near the upper extremity of the polyp. These deepen as the constriction sites migrate down the body, and separate segments known as ephyra detach. These are free-swimming precursors of the adult medusa stage, which is the life stage that is typically identified as a jellyfish.\n[…]\nThe ephyrae, usually only a millimeter or two across initially, swim away from the polyp and grow. Limnomedusae polyps can asexually produce a creeping frustule larval form, which crawls away before developing into another polyp. A few species can produce new medusae by budding directly from the medusan stage. Some hydromedusae reproduce by fission.\n[…]\nLittle is known of the life histories of many jellyfish as the places on the seabed where the benthic forms of those species live have not been found. However, an asexually reproducing strobila form can sometimes live for several years, producing new medusae (ephyra larvae) each year.\n[…]\nAn unusual species, Turritopsis dohrnii, formerly classified as Turritopsis nutricula, might be effectively immortal because of its ability under certain circumstances to transform from medusa back to the polyp stage, thereby escaping the death that typically awaits medusae after reproduction if they have not otherwise been eaten by some other organism. So far this reversal has been observed only in the laboratory."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81gua-viva_%28animal%29",
+        "situacao": "ok",
+        "texto": "As águas-vivas, também conhecidas como medusas ou mães d'água, são a fase de medusa de certos membros gelatinosos do subfilo Medusozoa, que é uma parte importante do filo Cnidaria. As águas-vivas são principalmente animais marinhos de natação livre, embora algumas sejam ancoradas ao fundo do mar por pedúnculos, em vez de serem móveis.\n[…]\nO termo água-viva corresponde amplamente às medusas, ou seja, uma fase do ciclo de vida do grupo Medusozoa. A bióloga evolucionista americana Paulyn Cartwright oferece a seguinte definição geral:\n[…]\nDado que água-viva é um nome comum, seu mapeamento para grupos biológicos é inexato. Algumas autoridades chamaram os ctenóforos e certas salpas de águas-vivas, embora outras autoridades afirmem que nenhuma dessas são águas-vivas, que deveriam ser limitadas a certos grupos dentro dos medusozoários.\n[…]\nEmbora tradicionalmente se pense que as águas-vivas não possuem um sistema nervoso central, a concentração de redes nervosas e estruturas semelhantes a gânglios poderia ser considerada como tal em muitas espécies. Uma água-viva detecta estímulos e transmite impulsos tanto através da rede nervosa quanto ao redor de um anel nervoso circular, para outras células nervosas. Os gânglios ropaliais contêm neurônios marca-passos que controlam a taxa e a direção da natação.\n[…]\nAs cubomedusas possuem \"olhos verdadeiros\" (semelhantes aos de vertebrados) que lhes permitem habitar ambientes que medusas menos derivadas não conseguem. De fato, elas são consideradas a única classe no clado Medusozoa que possui comportamentos que necessitam de resolução espacial e visão genuína. No entanto, as lentes em seus olhos são mais funcionalmente semelhantes a olhos em forma de taça exibidos em organismos de baixa resolução e têm pouca ou nenhuma capacidade de foco.\n[…]\n\"Não existe tal coisa como uma água-viva\"  YouTube",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Fish House do Zoológico de Londres",
+      "descricao": "Primeiro aquário público do mundo, aberto em 1853 no Zoológico de Londres."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O primeiro aquário aberto ao público no mundo, a Casa dos Peixes do Zoológico de Londres, foi inaugurado em que século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Public_aquarium",
+      "https://en.wikipedia.org/wiki/London_Zoo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Public_aquarium",
+        "situacao": "ok",
+        "texto": "A public aquarium (pl. aquaria; or public water zoo) is the aquatic equivalent of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks.\n[…]\nThe first public aquarium was opened in London Zoo in May 1853; the Fish House, as it came to be known, was constructed much like a greenhouse. P.T. Barnum quickly followed in 1856 with the first American aquarium as part of his established Barnum's American Museum, which was located on Broadway in New York City before it burned down. In 1859, the Aquarial Gardens were founded in Boston.\n[…]\nThe first Japanese public aquarium, a small freshwater aquarium called \"Uonozoki\" (now Tokyo Sea Life Park), was opened at the Ueno Zoo in 1882.\n[…]\nAccording to Samantha Muka, creating new public aquariums is an expensive process, that can become so expensive as to render the project economically unsustainable, due to the logistical demands of creating environments in which aquatic animals can survive.\n[…]\nHe survived in captivity for just under three months, and the aquarium put him on display to the public for a day, but gave greater emphasis to groundbreaking scientific research. The aquarium also captured other orcas, belugas, narwhals and dolphins. The Monterey Bay Aquarium was the first public aquarium to display a great white shark. Beginning in September 2004, the Outer Bay exhibit (now the Open Sea galleries) was the home to the first in a series of great white sharks.\n[…]\nNorfolk, Howard. My Visit to the Freshwater Public Aquarium in Havana, Cuba, Aquarticles.com, January 2004, retrieved on: 22 June 2007\n[…]\nPublic aquariums in the United States\n[…]\nA map of public aquaria around the world"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/London_Zoo",
+        "situacao": "ok",
+        "texto": "London Zoo, previously known as ZSL London Zoo or London Zoological Gardens and sometimes called Regent's Park Zoo, is the world's oldest scientific zoo. It was opened in London on 27 April 1828 and was originally intended to be used as a collection for scientific study. In 1831, the Tower of London menagerie animals were transferred to the zoo's collection. It was opened to the public in 1847. At\n[…]\nAs well as being the first scientific zoo, London Zoo also opened the first reptile house (1849), the first public aquarium (1853), the first insect house (1881) and the first children's zoo (1938).\n[…]\nThere was an aquarium at the zoo from 1853 until 2019. The zoo's first aquarium was also the world's first public aquarium, and was created and stocked by Philip Henry Gosse who coined the word \"aquarium\", as a portmanteau of aquatic vivarium. In 1853 opened a building known as Fish House, while the most recent aquarium was built in 1921 next to and beneath the Mappin Terraces and was officially opened by King George V and his wife Queen Mary in April 1924.\n[…]\nIn December 2012, a refurbished amphibian section was opened to the public, displaying amphibians such as  Chinese giant salamanders, axolotls, African bullfrogs, Lake Oku clawed frogs, White's tree frogs and various types of poison dart frog. A new Reptile House, titled \"The Secret Life of Reptiles and Amphibians\", opened in Easter 2024.\n[…]\nIt also features a large coral reef aquarium with corals and over 200 reef fish. The Millennium Conservation Centre aims to be environmentally friendly, constructed from materials requiring little energy to produce, and generating its heating from the body heat of both the animals and visitors. In May 2015, an exhibit called \"In With the Spiders\" opened in the exhibit as Europe's first and only spider walkthrough exhibit. It houses Golden silk orb weavers and Madagascar orb weavers."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aqu%C3%A1rio_p%C3%BAblico",
+        "situacao": "ok",
+        "texto": "Os aquários públicos são instalações abertas ao público para ver espécies aquáticas em aquário. A maior parte dos aquários públicos apresenta uma determinada quantidade de tanques menores , assim como um ou mais depósitos maiores. Os depósitos maiores têm capacidade de comportar milhões de litros de água e espécies grandes, incluindo golfinhos, tubarões ou baleias. Os animais aquáticos e semi-aquá\n[…]\nO primeiro aquário público foi aberto no Zoológico de Londres em maio de 1853; o Fish House, como veio a ser conhecido, foi construído como uma estufa. P.T. Barnum rapidamente seguiu em 1856 com o primeiro aquário estadunidense como parte de seu famoso Barnum's American Museum, localizado na Broadway, em Nova York, até ser incendiado. Em 1859, os Aquarial Gardens foram fundados em Boston.\n[…]\nInúmeros aquários foram abertos na Europa, como o Jardin d’acclimatation em Paris e o Aquarium Salon em Viena (ambos fundados em 1860), o Marine Aquarium Temple como parte do Jardim Zoológico de Hamburgo (1864), bem como como aquários em Berlim (1869) e Brighton (1872).\n[…]\nO antigo Aquário de Berlim foi inaugurado em 1869. O local da construção seria Unter den Linden (ao longo de uma avenida principal), no centro da cidade, não no Zoológico de Berlim. O primeiro diretor do aquário, Alfred Brehm, ex-diretor do zoológico de Hamburgo de 1863 a 1866, serviu até 1874. Com ênfase em educação, o aquário público foi projetado como uma gruta, parte de rocha natural. O Geologische Grotte representava \"os estratos da crosta terrestre\".\n[…]\nO aquário Artis no Zoológico de Amsterdã, nos Países Baixos, foi construído dentro de um edifício vitoriano em 1882 e foi renovado em 1997. No final do século XIX, o aquário Artis era considerado uma obra-prima.\n[…]\nCase Studies in Aquarium History",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

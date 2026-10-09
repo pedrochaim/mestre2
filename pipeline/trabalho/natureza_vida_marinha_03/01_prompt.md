@@ -1,0 +1,817 @@
+Você é o gerador de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta. Siga-as à risca.
+
+# Encomenda
+
+- **Tema:** Natureza
+- **Subtema:** Vida Marinha
+- **Quantidade:** gere exatamente 50 perguntas.
+- **Tipos:** 10 do tipo `multipla` (com exatamente 3 `distratores`) e as demais do tipo `aberta` (sem o campo `distratores`).
+- **Ângulos a priorizar:** comparacao, composicao, atributo
+- **Observações:** Peixes, tubarões, cetáceos, moluscos, corais e a vida no fundo do mar. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara. Este é o lote 3 do subtema: o banco já tem perguntas sobre ele (veja as listas abaixo). Aprofunde: procure âncoras e ângulos ainda não usados, sem cair em detalhes obscuros.
+
+# Regras de variedade deste lote
+
+- No máximo 25% das perguntas num mesmo ângulo, e pelo menos 6 ângulos diferentes.
+- `identidade` + `atributo` somam no máximo 30%.
+- No máximo 2 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
+- Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
+- Prefira âncoras que ainda **não** aparecem na lista abaixo. Profundidade vem de ângulos novos sobre âncoras conhecidas, e não de âncoras obscuras.
+
+# Âncoras já cadastradas neste subtema
+
+Formato: `id` | nome | descrição | ângulos já usados.
+Se uma pergunta for sobre uma destas âncoras, preencha `ancora.id_existente` com o `id` e **evite repetir um ângulo já usado** para ela (o banco aceita no máximo 2 perguntas com o mesmo ângulo por âncora). Para âncoras novas, omita `id_existente`.
+
+- `aequorea_victoria` | Aequorea victoria | Água-viva bioluminescente do Pacífico Norte, de onde foi isolada a proteína verde fluorescente. | ângulos: composicao
+- `agua_viva` | Água-viva | Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos. | ângulos: identidade, nome
+- `ambar_gris` | Âmbar-gris | Substância cerosa e rara, usada na perfumaria, formada no sistema digestivo do cachalote. | ângulos: autoria
+- `ampolas_de_lorenzini` | Ampolas de Lorenzini | Órgãos sensoriais de tubarões e raias que detectam campos elétricos. | ângulos: autoria
+- `aqualung` | Aqualung | Equipamento de mergulho autônomo com regulador de ar, criado por Jacques Cousteau e Émile Gagnan. | ângulos: tempo
+- `arquipelago_de_abrolhos` | Arquipélago de Abrolhos | Arquipélago no litoral sul da Bahia, sede do primeiro parque nacional marinho do Brasil. | ângulos: lugar
+- `atum` | Atum | Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação. | ângulos: conexao
+- `baiacu` | Baiacu | Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar. | ângulos: causa, identidade
+- `baleia_cinzenta` | Baleia-cinzenta | Baleia de barbatanas (Eschrichtius robustus) do Pacífico Norte, conhecida por longas migrações entre o Ártico e o México. | ângulos: lugar
+- `baleia_franca_austral` | Baleia-franca-austral | Grande baleia de barbatanas (Eubalaena australis) do Hemisfério Sul, de cabeça com calosidades, que se reproduz no litoral sul do Brasil. | ângulos: conexao, lugar, nome
+- `baleia_jubarte` | Baleia-jubarte | Grande baleia migratória da espécie Megaptera novaeangliae. | ângulos: identidade
+- `barracuda` | Barracuda | Peixe predador alongado de mandíbula grande, do gênero Sphyraena, de mares tropicais. | ângulos: identidade
+- `batisfera` | Batisfera | Esfera de aço para mergulho profundo, usada por William Beebe e Otis Barton nos anos 1930 nas Bermudas. | ângulos: autoria
+- `beluga` | Beluga | Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa. | ângulos: conexao
+- `boto_cinza` | Boto-cinza | Golfinho costeiro e de estuário Sotalia guianensis, de dorso cinza, encontrado no litoral da América do Sul e Central. | ângulos: identidade
+- `branqueamento_de_corais` | Branqueamento de corais | Fenômeno em que os corais perdem a cor ao expulsar as algas que vivem em seus tecidos. | ângulos: causa
+- `cachalote` | Cachalote | Maior baleia de dentes (Physeter macrocephalus), de cabeça grande e quadrada. | ângulos: conexao, identidade, nome
+- `camarao` | Camarão | Crustáceo decápode de corpo alongado e nadador, como os da imagem, listrados e com longas antenas. | ângulos: atributo
+- `caranguejo` | Caranguejo | Crustáceo decápode da infraordem Brachyura, de carapaça larga e cauda curta dobrada sob o corpo. | ângulos: numero
+- `caranguejo_fantasma` | Caranguejo-fantasma | Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia. | ângulos: atributo
+- `caravela_portuguesa` | Caravela-portuguesa | Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes. | ângulos: atributo
+- `cavalo_marinho` | Cavalo-marinho | Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo. | ângulos: atributo, conexao
+- `celacanto` | Celacanto | Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis. | ângulos: identidade, lugar, tempo
+- `cetaceos` | Cetáceos | Infraordem de mamíferos marinhos que reúne baleias, golfinhos e botos. | ângulos: autoria, conexao
+- `choco` | Choco | Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura. | ângulos: conexao
+- `coral` | Coral | Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes. | ângulos: conexao
+- `corrida_da_sardinha` | Corrida da Sardinha | Migração anual de enormes cardumes de sardinhas ao longo da costa leste sul-africana, que atrai muitos predadores. | ângulos: lugar
+- `deepsea_challenger` | Deepsea Challenger | Submersível que levou um único tripulante ao fundo da Fossa das Marianas em 2012. | ângulos: autoria
+- `dragao_azul` | Dragão-azul | Lesma-do-mar pelágica Glaucus atlanticus, azul e prateada, que flutua de cabeça para baixo na superfície. | ângulos: atributo
+- `dragao_marinho_folhado` | Dragão-marinho-folhado | Peixe australiano da família dos cavalos-marinhos, Phycodurus eques, com apêndices em forma de folhas. | ângulos: identidade
+- `elefante_marinho` | Elefante-marinho | Maior foca verdadeira, do gênero Mirounga, cujos machos têm uma grande tromba. | ângulos: atributo
+- `enguia_europeia` | Enguia-europeia | Peixe serpentiforme (Anguilla anguilla) que vive em rios europeus e migra ao oceano para desovar. | ângulos: lugar
+- `equinodermos` | Equinodermos | Filo de animais marinhos de simetria pentarradial que reúne estrelas-do-mar, ouriços-do-mar e pepinos-do-mar. | ângulos: numero
+- `estrela_do_mar` | Estrela-do-mar | Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central. | ângulos: identidade
+- `expedicao_challenger` | Expedição Challenger | Expedição científica britânica a bordo do HMS Challenger, de 1872 a 1876, que fundou a oceanografia moderna. | ângulos: tempo
+- `foca` | Foca | Mamífero marinho pinípede da família Phocidae, sem orelhas externas; na imagem, um filhote de pelagem branca. | ângulos: identidade
+- `fonte_hidrotermal` | Fonte hidrotermal | Fissura no fundo do mar por onde sai água aquecida pela atividade vulcânica, base de ecossistemas sem luz solar. | ângulos: tempo
+- `formas_artisticas_da_natureza` | Formas Artísticas da Natureza | Livro de ilustrações de organismos, como radiolários e medusas, publicado por Ernst Haeckel entre 1899 e 1904. | ângulos: autoria
+- `golfinho_nariz_de_garrafa` | Golfinho-nariz-de-garrafa | Golfinho oceânico do gênero Tursiops, de focinho curto e grosso, muito comum em águas costeiras. | ângulos: conexao
+- `golfinho_rotador` | Golfinho-rotador | Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar. | ângulos: lugar
+- `grande_barreira_de_coral` | Grande Barreira de Coral | Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália. | ângulos: lugar
+- `guerra_da_lagosta` | Guerra da Lagosta | Crise diplomática e naval entre Brasil e França, de 1961 a 1963, sobre a pesca de lagosta no litoral nordestino. | ângulos: causa
+- `hemocianina` | Hemocianina | Proteína que transporta oxigênio no sangue de moluscos e artrópodes, dando-lhe cor azulada. | ângulos: composicao
+- `idolo_mourisco` | Ídolo-mourisco | Peixe de recife indo-pacífico (Zanclus cornutus) de faixas pretas e amarelas e barbatana dorsal em filamento. | ângulos: identidade
+- `iguana_marinha` | Iguana-marinha | Lagarto de Galápagos (Amblyrhynchus cristatus) que mergulha no mar para comer algas. | ângulos: lugar
+- `keiko` | Keiko | Orca macho que estrelou o filme Free Willy, de 1993, e depois foi reintroduzida no mar. | ângulos: lugar
+- `krill` | Krill | Pequenos crustáceos marinhos da ordem Euphausiacea, base da alimentação de baleias e muitos outros animais. | ângulos: nome
+- `lago_das_aguas_vivas` | Lago das Águas-Vivas | Lago marinho numa ilha de Palau, famoso por milhões de águas-vivas douradas de ferroada fraca. | ângulos: lugar
+- `leao_marinho` | Leão-marinho | Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia. | ângulos: identidade
+- `limulo` | Límulo | Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul. | ângulos: identidade
+- `lontra_marinha` | Lontra-marinha | Mamífero marinho do Pacífico Norte, espécie Enhydra lutris. | ângulos: causa
+- `lula` | Lula | Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos. | ângulos: numero
+- `lula_gigante` | Lula-gigante | Grande cefalópode de águas profundas do gênero Architeuthis. | ângulos: conexao, lugar
+- `lula_vampira` | Lula-vampira | Cefalópode de águas profundas, Vampyroteuthis infernalis, que vive em zonas pobres em oxigênio. | ângulos: conexao
+- `megalodonte` | Megalodonte | Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno. | ângulos: nome
+- `mero` | Mero | Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara. | ângulos: identidade
+- `mexilhao` | Mexilhão | Molusco bivalve marinho da família Mytilidae, de concha alongada escura, fixo ao substrato por filamentos do bisso. | ângulos: identidade
+- `moratoria_da_caca_comercial_de_baleias` | Moratória da caça comercial de baleias | Suspensão da caça comercial de baleias aprovada pela Comissão Baleeira Internacional e em vigor desde 1986. | ângulos: tempo
+- `moreia` | Moreia | Peixe alongado da família Muraenidae, sem nadadeiras peitorais, que vive em tocas nos recifes. | ângulos: atributo, composicao
+- `morsa` | Morsa | Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus. | ângulos: atributo
+- `mosassauro` | Mosassauro | Gênero de grande réptil marinho do fim do Cretáceo, cujo primeiro fóssil foi achado perto de Maastricht, na Holanda. | ângulos: tempo
+- `narval` | Narval | Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros. | ângulos: conexao, nome
+- `nautilo` | Náutilo | Cefalópode de concha externa espiralada e dividida em câmaras (Nautilus pompilius). | ângulos: atributo, conexao
+- `noctiluca_scintillans` | Noctiluca scintillans | Dinoflagelado marinho bioluminescente que faz as ondas brilharem em azul à noite. | ângulos: causa
+- `nudibranquio` | Nudibrânquio | Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas. | ângulos: atributo
+- `o_mar_que_nos_cerca` | O Mar que nos Cerca | Livro de divulgação científica sobre os oceanos, publicado em 1951 pela bióloga americana Rachel Carson. | ângulos: autoria
+- `o_mundo_do_silencio` | O Mundo do Silêncio | Documentário francês de 1956 sobre o fundo do mar, dirigido por Jacques Cousteau e Louis Malle. | ângulos: autoria
+- `ostra` | Ostra | Molusco bivalve marinho de concha calcificada e irregular, comestível, da superfamília Ostreoidea. | ângulos: identidade
+- `ourico_do_mar` | Ouriço-do-mar | Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea. | ângulos: identidade, nome
+- `para_darwin` | Para Darwin | Livro de 1864 de Fritz Müller que defendeu a teoria da evolução com estudos de crustáceos de Santa Catarina. | ângulos: autoria
+- `peixe_boi_marinho` | Peixe-boi-marinho | Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas. | ângulos: atributo, conexao, nome
+- `peixe_diabo_negro` | Peixe-diabo-negro | Peixe-pescador abissal Melanocetus johnsonii, de boca enorme com dentes longos e isca luminosa na cabeça. | ângulos: identidade
+- `peixe_leao` | Peixe-leão | Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos. | ângulos: identidade, lugar
+- `peixe_lua` | Peixe-lua | Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados. | ângulos: identidade, nome
+- `peixe_palhaco` | Peixe-palhaço | Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar. | ângulos: atributo, causa, conexao
+- `peixe_pescador_abissal` | Peixe-pescador abissal | Peixe das profundezas da subordem Ceratioidei, cuja fêmea tem uma isca luminosa na cabeça. | ângulos: atributo
+- `peixe_voador` | Peixe-voador | Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas. | ângulos: conexao
+- `pepino_do_mar` | Pepino-do-mar | Equinoderma da classe Holothuroidea, de corpo alongado e pele coriácea, que vive no fundo do mar. | ângulos: identidade
+- `perola` | Pérola | Gema orgânica formada dentro de ostras e outros moluscos. | ângulos: composicao
+- `polvo` | Polvo | Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins. | ângulos: nome, numero
+- `polvo_de_aneis_azuis` | Polvo-de-anéis-azuis | Pequeno polvo do gênero Hapalochlaena, do Indo-Pacífico, com anéis azuis brilhantes e veneno mortal. | ângulos: conexao, identidade
+- `polvo_dumbo` | Polvo-dumbo | Polvo de águas profundas do gênero Grimpoteuthis, com duas nadadeiras em forma de orelha. | ângulos: atributo
+- `polvo_mimetico` | Polvo-mimético | Polvo do Indo-Pacífico, Thaumoctopus mimicus, capaz de imitar outros animais marinhos. | ângulos: identidade
+- `polvo_paul` | Polvo Paul | Polvo de um aquário alemão que ficou famoso por acertar palpites de jogos da Copa do Mundo de 2010. | ângulos: lugar
+- `projeto_tamar` | Projeto Tamar | Programa brasileiro de conservação das tartarugas marinhas, criado em 1980. | ângulos: tempo
+- `raia_eletrica` | Raia-elétrica | Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas. | ângulos: conexao
+- `raia_manta` | Raia-manta | Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton. | ângulos: identidade
+- `remora` | Rêmora | Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça. | ângulos: atributo
+- `salmao` | Salmão | Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar. | ângulos: causa
+- `songs_of_the_humpback_whale` | Songs of the Humpback Whale | Álbum de 1970 com gravações do canto de baleias-jubarte, produzido pelo biólogo Roger Payne. | ângulos: autoria
+- `sono_uni_hemisferico` | Sono uni-hemisférico | Forma de sono em que só uma metade do cérebro dorme de cada vez, observada em golfinhos e algumas aves. | ângulos: causa
+- `tartaruga_cabecuda` | Tartaruga-cabeçuda | Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro. | ângulos: causa
+- `tartaruga_de_couro` | Tartaruga-de-couro | Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras. | ângulos: comparacao
+- `tartaruga_verde` | Tartaruga-verde | Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom. | ângulos: identidade, nome
+- `trieste` | Trieste | Batiscafo que levou Jacques Piccard e Don Walsh ao fundo da Fossa das Marianas em 1960. | ângulos: tempo
+- `tubarao_2` | Tubarão | Peixe cartilaginoso predador da superordem Selachimorpha. | ângulos: causa, composicao
+- `tubarao_baleia` | Tubarão-baleia | Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton. | ângulos: comparacao
+- `tubarao_branco` | Tubarão-branco | Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco. | ângulos: identidade
+- `tubarao_cobra` | Tubarão-cobra | Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas. | ângulos: identidade
+- `tubarao_da_groenlandia` | Tubarão-da-groenlândia | Tubarão lento de águas frias do Atlântico Norte e do Ártico (Somniosus microcephalus), famoso pela longevidade. | ângulos: composicao
+- `tubarao_duende` | Tubarão-duende | Raro tubarão de águas profundas, Mitsukurina owstoni, de focinho longo e achatado e mandíbulas protráteis. | ângulos: identidade
+- `tubarao_romance` | Tubarão (romance) | Romance americano de 1974 sobre um tubarão-branco que ataca um balneário, base do filme de Steven Spielberg. | ângulos: autoria
+- `tubarao_tigre` | Tubarão-tigre | Grande tubarão predador da espécie Galeocerdo cuvier, de listras escuras no corpo. | ângulos: conexao
+- `turritopsis_dohrnii` | Turritopsis dohrnii | Pequeno hidrozoário marinho conhecido como água-viva imortal por conseguir rejuvenescer. | ângulos: causa
+- `vaca_marinha_de_steller` | Vaca-marinha-de-steller | Grande sirênio extinto (Hydrodamalis gigas) do mar de Bering, caçado até a extinção no século dezoito. | ângulos: numero
+- `vieira` | Vieira | Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto. | ângulos: atributo
+
+# Perguntas já existentes neste subtema
+
+Não repita estes fatos, nem com outras palavras:
+
+- Que baleia é esta? → Baleia-jubarte
+- Que baleia é esta? → Cachalote
+- Este animal parece uma água-viva, mas não é. Que tipo de hidrozoário colonial ele é? → Sifonóforo
+- Que espécie de tartaruga-marinha é esta? → Tartaruga-verde
+- Que peixe é este? → Baiacu
+- Que tubarão de águas profundas é este? → Tubarão-cobra
+- A que classe de moluscos pertence este animal? → Cefalópodes
+- Que peixe de recife é este? → Ídolo-mourisco
+- Que tubarão é este? → Tubarão-branco
+- Que mamífero aquático é este? → Peixe-boi-marinho
+- Em 1820, um cachalote afundou o navio baleeiro Essex no Oceano Pacífico. Que romance americano foi inspirado nesse naufrágio? → Moby Dick
+- A fase nadadora das águas-vivas leva o nome de uma górgona da mitologia grega, que tinha serpentes no lugar dos cabelos. Que nome é esse? → Medusa
+- Octopus, o nome do gênero do polvo, vem do grego e descreve o animal pela sua anatomia. O que essa palavra quer dizer? → Oito pés
+- O polvo tem um sistema circulatório bem diferente do nosso. Quantos corações ele tem? → Três
+- O sangue do polvo é azulado porque a proteína que transporta oxigênio nele usa que metal no lugar do ferro? → Cobre
+- O nome narval vem do nórdico antigo e alude à pele acinzentada e manchada do animal. Com o que esse nome o compara? → Cadáver
+- A ordem que reúne peixes-bois e dugongos tem o nome de que seres mitológicos, ligados a esses animais por relatos de antigos marinheiros? → Sereias
+- Apesar do nome, o peixe-boi não é parente do boi. Que grandes mamíferos terrestres estão entre os seus parentes vivos mais próximos? → Elefantes
+- Redondo, achatado e cinzento, o peixe-lua recebeu o nome científico Mola, palavra latina para que objeto? → Pedra de moinho
+- O aparelho mastigador do ouriço-do-mar, com cinco dentes, é conhecido como lanterna de que filósofo grego? → Aristóteles
+- Em que década foi criado o Projeto Tamar, que protege as tartarugas-marinhas no Brasil? → Anos 1980
+- A tartaruga-verde tem a carapaça oliva ou marrom. De onde vem, então, o verde do seu nome? → Da cor da sua gordura
+- Quando ficam brancos, os corais expulsaram as algas que viviam em seus tecidos. Qual é a principal causa desse branqueamento? → Aquecimento da água do mar
+- Por que o peixe-palhaço consegue viver entre os tentáculos urticantes da anêmona sem ser queimado? → Tem uma camada de muco protetor
+- Nos peixes-palhaço, quando a fêmea dominante de um grupo morre, o que acontece com o macho reprodutor? → Vira fêmea
+- Por que muitos tubarões afundam quando param de nadar, ao contrário da maioria dos peixes ósseos? → Não têm bexiga natatória
+- A pele dos tubarões é áspera como uma lixa porque é coberta de minúsculas escamas com estrutura parecida com a de quê? → Dentes
+- A carne do salmão selvagem é alaranjada por causa de pigmentos que ele obtém comendo que tipo de animal? → Crustáceos, como o krill
+- O baiacu não fabrica sozinho o veneno que torna perigoso o prato japonês fugu. Que seres produzem essa toxina? → Bactérias
+- Por que a pequena água-viva Turritopsis dohrnii pode, em tese, escapar da morte por velhice? → Consegue voltar à fase de pólipo
+- No Pacífico Norte, a caça quase acabou com as lontras-marinhas, e os ouriços se multiplicaram. Que ambiente submarino foi devastado em consequência? → Florestas de kelp
+- Nas tartarugas-cabeçudas, como em outras tartarugas-marinhas, o que define se o filhote será macho ou fêmea? → A temperatura da areia
+- Uma estrutura do cérebro humano, essencial para a memória, tem o mesmo nome científico do cavalo-marinho, por causa do formato. Qual é ela? → Hipocampo
+- Nos cavalos-marinhos, quem carrega os ovos numa bolsa até os filhotes nascerem? → O macho
+- Que monstro marinho das lendas escandinavas, capaz de afundar navios, pode ter sido inspirado em avistamentos da lula-gigante? → Kraken
+- A arma naval chamada torpedo herdou o nome de um animal marinho que paralisa as presas com descargas. Que animal é esse? → Raia-elétrica
+- A cor sépia, típica de fotografias antigas, tem o nome do gênero de um molusco cuja tinta servia de pigmento. Que molusco é esse? → Choco
+- O míssil francês Exocet, que ficou famoso na Guerra das Malvinas, tem o nome de que animal marinho? → Peixe-voador
+- Corais, anêmonas-do-mar e águas-vivas pertencem ao mesmo grande grupo de animais com células urticantes. Que filo é esse? → Cnidários
+- Estudos de DNA mostraram que baleias e golfinhos têm como parente vivo mais próximo que mamífero terrestre? → Hipopótamo
+- O submarino do Capitão Nemo, em Vinte Mil Léguas Submarinas, de Júlio Verne, tem o mesmo nome de que molusco de concha espiralada? → Náutilo
+- A Baía dos Golfinhos, onde grupos de golfinhos-rotadores descansam quase todas as manhãs, fica em que arquipélago brasileiro? → Fernando de Noronha
+- O âmbar-gris, substância rara e valiosa na perfumaria, se forma no sistema digestivo de que animal marinho? → Cachalote
+- Em 1938, um celacanto, peixe que se julgava extinto havia milhões de anos, foi pescado na costa de que país? → África do Sul
+- Antes de ser encontrado vivo, o celacanto era conhecido só por fósseis. Os cientistas achavam que ele tinha sumido na mesma época que quais animais famosos? → Dinossauros
+- A enguia-europeia passa a vida em rios da Europa, mas atravessa o Atlântico para se reproduzir em que mar? → Mar dos Sargaços
+- Quando um corpo estranho entra numa ostra, ela o envolve em camadas de que substância brilhante, formando uma pérola? → Nácar
+- Além dos oito braços, a lula tem tentáculos mais longos, que usa para agarrar as presas. Quantos são esses tentáculos? → Dois
+- Em 1679, um médico italiano descreveu em detalhe os órgãos com que tubarões e raias sentem campos elétricos, e hoje eles levam o nome dele. Quem foi? → Stefano Lorenzini
+- Em 2012, que cineasta, diretor de Titanic e Avatar, desceu sozinho ao fundo da Fossa das Marianas num submersível? → James Cameron
+- Qual é o maior peixe vivo do mundo, um gigante manso que se alimenta de plâncton? → Tubarão-baleia
+- Qual é a maior de todas as tartarugas-marinhas, que pode passar de meia tonelada? → Tartaruga-de-couro
+- Em certas espécies de peixes-pescadores das profundezas, o que o macho minúsculo faz quando encontra uma fêmea? → Funde-se ao corpo dela
+- Que animal marinho é este? → Estrela-do-mar
+- Que peixe é este? → Peixe-leão
+- Que animação da Pixar, lançada em dois mil e três, tem como protagonista este peixe? → Procurando Nemo
+- Que peixe ósseo oceânico, um dos maiores do mundo, é este? → Peixe-lua
+- Que peixe raro de águas profundas é este? → Celacanto
+- Que animal marinho é este? → Água-viva
+- Que outro cetáceo do Ártico forma, com o animal desta foto, uma família de apenas duas espécies? → Narval
+- Que raia gigante é esta? → Raia-manta
+- Que tubarão de águas profundas é este? → Tubarão-duende
+- Que animal marinho do fundo do mar é este? → Pepino-do-mar
+- Que molusco marinho colorido é este? → Nudibrânquio (lesma-do-mar)
+- Que polvo do Indo-Pacífico é este? → Polvo-mimético
+- Que caranguejo da areia das praias é este? → Caranguejo-fantasma
+- Que polvo é este? → Polvo-dumbo
+- Que peixe é este, escondido entre os corais? → Moreia
+- Este molusco das profundezas foi descrito, em 1903, como que tipo de animal? → Polvo
+- Que molusco de duas conchas é este? → Vieira
+- Que peixe de corpo alongado é este? → Rêmora
+- A Grande Barreira de Coral, o maior sistema de recifes do mundo, se estende ao longo da costa de que estado australiano? → Queensland
+- Berçário de baleias-jubarte e protegido por um parque nacional marinho, o arquipélago de Abrolhos pertence a que estado brasileiro? → Bahia
+- A iguana-marinha, um lagarto que mergulha no mar para comer algas, só existe naturalmente em que arquipélago? → Ilhas Galápagos
+- Em certos invernos, bilhões de sardinhas migram junto à costa e atraem golfinhos, tubarões e aves. Em que país acontece essa Corrida da Sardinha? → África do Sul
+- Todo inverno, a baleia-franca-austral vem ao litoral brasileiro para ter filhotes. Em que estado fica a área de proteção ambiental criada para ela? → Santa Catarina
+- Depois de migrar milhares de quilômetros desde as águas do Ártico, a baleia-cinzenta tem filhotes nas lagoas de que península mexicana? → Baixa Califórnia
+- O Lago das Águas-Vivas, onde mergulhadores nadam entre milhões de medusas de ferroada fraca, fica em que país da Oceania? → Palau
+- Em 2004, uma equipe de cientistas fez as primeiras fotos de uma lula-gigante viva em seu ambiente natural. Em águas de que país? → Japão
+- O polvo Paul, que ficou famoso ao acertar palpites dos jogos da Copa do Mundo de 2010, vivia num aquário de que país? → Alemanha
+- A orca Keiko, estrela do filme Free Willy, passou anos se apresentando num parque de diversões de que capital latino-americana? → Cidade do México
+- O peixe-leão virou uma praga nos recifes do Caribe, onde foi introduzido. De que região oceânica ele é nativo? → Indo-Pacífico
+- A expedição do navio britânico Challenger, que descobriu milhares de espécies marinhas e é tida como o marco inicial da oceanografia, aconteceu em que século? → Século dezenove
+- A Comissão Baleeira Internacional aprovou uma moratória que suspendeu a caça comercial de baleias. Desde que década ela está em vigor? → Anos 1980
+- O batiscafo Trieste foi o primeiro a levar seres humanos ao ponto mais fundo dos oceanos, na Fossa das Marianas. Em que ano isso aconteceu? → 1960
+- Em que ano cientistas num submersível encontraram, perto das Galápagos, as primeiras fontes hidrotermais cercadas de vida, com vermes gigantes e mariscos? → 1977
+- O aqualung, equipamento de mergulho autônomo criado por Jacques Cousteau e pelo engenheiro Émile Gagnan, foi inventado durante que conflito? → Segunda Guerra Mundial
+- O mosassauro, réptil marinho gigante que aparece na franquia Jurassic World, viveu em que período geológico? → Cretáceo
+- O documentário submarino O Mundo do Silêncio, vencedor da Palma de Ouro em Cannes em 1956, foi dirigido por Jacques Cousteau e por que jovem cineasta francês? → Louis Malle
+- O livro Formas de Arte da Natureza, com ilustrações deslumbrantes de águas-vivas, radiolários e outros seres marinhos, é obra de que biólogo alemão? → Ernst Haeckel
+- Em 1934, a batisfera desceu a quase mil metros de profundidade perto das Bermudas, levando o inventor Otis Barton e que naturalista? → William Beebe
+- Em 1758, que naturalista sueco, pai dos nomes científicos modernos, classificou baleias e golfinhos entre os mamíferos, e não entre os peixes? → Lineu (Carl Linnaeus)
+- Antes de alertar o mundo contra o inseticida DDT, que bióloga americana virou best-seller com o livro O Mar que nos Cerca, de 1951? → Rachel Carson
+- O livro Para Darwin, de 1864, que defendeu a evolução com estudos de crustáceos do litoral catarinense, foi escrito por que naturalista europeu radicado no Brasil? → Fritz Müller
+- O romance Tubarão, de 1974, que deu origem ao filme de Spielberg, foi escrito por que autor americano, que mais tarde virou defensor dos tubarões? → Peter Benchley
+- O disco Songs of the Humpback Whale, de 1970, que revelou ao grande público o canto das baleias-jubarte, foi produzido por que biólogo? → Roger Payne
+- O megalodonte, tubarão gigante extinto, tem um nome de origem grega que destaca uma parte do seu corpo. O que esse nome significa? → Dente grande
+- Krill, o nome dos pequenos crustáceos que alimentam as grandes baleias, é uma palavra norueguesa. O que ela significa? → Filhotes de peixe
+- Em inglês, o cachalote se chama sperm whale porque os baleeiros confundiam com esperma uma substância cerosa encontrada em que parte do corpo dele? → Na cabeça
+- Em inglês, a baleia-franca é a right whale, a baleia certa para caçar. Entre as vantagens para os baleeiros, o corpo dela fazia o quê depois de morta? → Boiava
+- O pequeno polvo-de-anéis-azuis e o baiacu, peixe do prato japonês fugu, carregam o mesmo veneno potente. Que veneno é esse? → Tetrodotoxina
+- Na Europa medieval, as presas em espiral do narval eram muito procuradas por se acreditar que fossem chifres de que animal lendário? → Unicórnio
+- O golfinho-nariz-de-garrafa emite cliques e escuta o eco para localizar presas. Que mamíferos voadores usam essa mesma técnica? → Morcegos
+- Ao contrário da maioria dos peixes, o atum e o tubarão-branco têm uma habilidade em comum ligada à temperatura do corpo. Qual é ela? → Ficar mais quentes que a água
+- No início dos anos 1960, Brasil e França viveram uma crise diplomática, com navios de guerra mobilizados, por causa da pesca de que crustáceo? → Lagosta
+- Nos golfinhos, a respiração não é automática como a nossa, e eles precisam subir à tona para respirar. Por causa disso, como eles dormem? → Metade do cérebro por vez
+- Em algumas praias, as ondas brilham em azul quando quebram à noite. Que tipo de microrganismo do plâncton costuma causar esse brilho? → Dinoflagelados
+- A vaca-marinha-de-steller, parente gigante do peixe-boi, foi descrita por cientistas em 1741. Quantos anos depois ela foi extinta pela caça? → Vinte e sete anos
+- Contando também as duas pinças, quantas patas tem um caranguejo? → Dez
+- Estrelas-do-mar e ouriços-do-mar adultos têm o corpo dividido em quantas partes iguais em volta de um eixo central? → Cinco
+- Para estimar que o tubarão-da-groenlândia pode viver vários séculos, cientistas dataram com carbono radioativo que parte do corpo dele? → O cristalino dos olhos
+- Além das mandíbulas da boca, a moreia tem um segundo par escondido, que avança para agarrar a presa e puxá-la para dentro. Onde ele fica? → Na garganta
+- Que proteína, extraída da água-viva Aequorea victoria, virou ferramenta essencial dos laboratórios e rendeu o Nobel de Química de 2008? → Proteína verde fluorescente
+- Que molusco bivalve, preso às rochas da costa, é este? → Mexilhão
+- Que peixe predador é este? → Barracuda
+- Que artrópode marinho é este, mais aparentado das aranhas que dos caranguejos? → Límulo (caranguejo-ferradura)
+- De que mamífero marinho é este filhote? → Foca
+- Que peixe de águas profundas é este? → Peixe-diabo-negro
+- Que golfinho costeiro da América do Sul é este? → Boto-cinza
+- Que tipo de animal é este, que flutua na superfície do mar? → Lesma-do-mar
+- Que molusco bivalve comestível é este? → Ostra
+- Que animal marinho é este, parente da estrela-do-mar? → Ouriço-do-mar
+- Que animal terrestre dá nome a este tubarão? → Tigre
+- Que mamífero marinho é este? → Leão-marinho
+- Que peixe gigante de recifes é este? → Mero
+- Que peixe é este? → Dragão-marinho-folhado
+- Que tipo de foca gigante é esta? → Elefante-marinho
+- Que animal marinho é este? → Polvo-de-anéis-azuis
+- Que mamífero marinho do Ártico é este? → Morsa
+- Como se chamam as manchas ásperas na cabeça desta baleia? → Calosidades
+- Que tipo de crustáceo é este? → Camarão
+
+# Âncoras já muito usadas em outros subtemas deste tema
+
+Estas entidades já têm várias perguntas no banco, em outros subtemas (o número entre parênteses). **Não as use como âncora**: o banco aceita no máximo 3 perguntas por âncora, somando todos os temas. Procure outras entidades.
+
+- Âmbar (3)
+- Uluru (3)
+- Ubirajara jubatus (3)
+- Trilobita (3)
+- Toumaï (3)
+- Tomate (3)
+- Thermus aquaticus (3)
+- Tardígrado (3)
+- Surtsey (3)
+- Salar de Uyuni (3)
+- Rena (3)
+- Primavera Silenciosa (3)
+- Pinguim-imperador (3)
+- Pedra-sabão (3)
+- Parque Nacional de Yellowstone (3)
+- Panda-gigante (3)
+- Opala (3)
+- Onça-pintada (3)
+- Obsidiana (3)
+- Mosquito (3)
+- Monte Roraima (3)
+- Milho (3)
+- Mico-leão-dourado (3)
+- Mar Morto (3)
+- Mandioca (3)
+- Luzia (3)
+- Lucy (3)
+- Lago Vostok (3)
+- Lago Natron (3)
+- Homem de Piltdown (3)
+- Homem de Neandertal (3)
+- Hipopótamo (3)
+- Grilo (3)
+- Drosophila melanogaster (3)
+- Dodô (3)
+- Chimpanzé (3)
+- Charles Darwin (3)
+- Capivara (3)
+- Calçada dos Gigantes (3)
+- Cafeeiro (3)
+- Borboleta-monarca (3)
+- Ararinha-azul (3)
+- Aranha-armadeira (3)
+- Ano Sem Verão (3)
+- Alfred Russel Wallace (3)
+- Abismo Challenger (3)
+- Abacaxi (3)
+- A Origem das Espécies (3)
+- Árvore-sangue-de-dragão (2)
+- Águia-careca (2)
+- Zona de exclusão de Chernobyl (2)
+- Zangão (2)
+- Viúva-negra (2)
+- Vitória-régia (2)
+- Vila Velha (Paraná) (2)
+- Velociraptor (2)
+- Urso-polar (2)
+- Tulipomania (2)
+- Tucano-toco (2)
+- Tuatara (2)
+- Tsunami (2)
+- Toxodonte (2)
+- Tocandira (2)
+- Tiranossauro (2)
+- Tigre-da-tasmânia (2)
+- Thomas Henry Huxley (2)
+- Terremoto e tsunami do oceano Índico de 2004 (2)
+- Tatuzinho-de-jardim (2)
+- Tatu-galinha (2)
+- Tatu-bola (2)
+- Tamanduá-bandeira (2)
+- Sue (2)
+- Sima de los Huesos (2)
+- Serra Pelada (2)
+- Seringueira (2)
+- Segunda viagem do HMS Beagle (2)
+- Sapo-cururu (2)
+- Salamandra-de-fogo (2)
+- Sabiá-laranjeira (2)
+- Rubi (2)
+- Rinoceronte (2)
+- Rato-toupeira-pelado (2)
+- Quokka (2)
+- Quartzo (2)
+- Pterossauro (2)
+- Pré-sal (2)
+- Proteu (2)
+- Pragas do Egito (2)
+- Polo Sul (2)
+- Plesiossauro (2)
+- Pitanga (2)
+- Pirita (2)
+- Piolho-de-cobra (2)
+- Pinguim-de-magalhães (2)
+- Petróleo (2)
+- Petalita (2)
+- Período Úmido Africano (2)
+- Período Cretáceo (2)
+- Penicillium (2)
+- Pegadas de Laetoli (2)
+- Pavão (2)
+- Pau-brasil (2)
+- Paranthropus boisei (2)
+- Panda-vermelho (2)
+- Pamukkale (2)
+- Ouriço-cacheiro (2)
+- Ornitorrinco (2)
+- Old Faithful (2)
+- O Voo do Besouro (2)
+- Núcleo da Terra (2)
+- Morcego-vampiro (2)
+- Morcego (2)
+- Monte Verde (2)
+- Minhoca (2)
+- Mesossauro (2)
+- Menino de Turkana (2)
+- Megalossauro (2)
+- Mariposa-caveira (2)
+- Maracujá (2)
+- Manto terrestre (2)
+- Manga (2)
+- Mamão (2)
+- Mamona (2)
+- Macaco-prego (2)
+- Lêmure (2)
+- Louva-a-deus (2)
+- Lobo-guará (2)
+- Lençóis Maranhenses (2)
+- Lago Retba (2)
+- Lagartixa (2)
+- Lacraia (2)
+- Kiwi (2)
+- Kakapo (2)
+- Julgamento de Scopes (2)
+- João-de-barro (2)
+- Joaninha (2)
+- Jararaca (2)
+- Inhotim (2)
+- Iguanodonte (2)
+- Idade da Terra (2)
+- Homo sapiens (2)
+- Homo naledi (2)
+- Homo floresiensis (2)
+- Homem de Pequim (2)
+- Homem de Java (2)
+- Hipótese Gaia (2)
+- Hematita (2)
+- Guaraná (2)
+- Grutas de Waitomo (2)
+- Gruta do Lago Azul (2)
+- Grande Vale do Rift (2)
+- Gorila (2)
+- Golfinho (2)
+- Girassol (2)
+- Ginkgo (2)
+- Gavião-real (2)
+- Galo gaulês (2)
+- Gafanhoto (2)
+- Folhelho de Burgess (2)
+- Flamingo (2)
+- Falésias brancas de Dover (2)
+- Extinção do Permiano-Triássico (2)
+- Estegossauro (2)
+- Espinossauro (2)
+- Escorpião-amarelo (2)
+- Escala de Mohs (2)
+- Era Paleozoica (2)
+- Era Mesozoica (2)
+- Elefante-africano (2)
+- Ecologia (2)
+- Dioneia (2)
+- Dinossauros do Palácio de Cristal (2)
+- Dinossauro (2)
+- Diabo-espinhoso (2)
+- Denisovanos (2)
+- Deinococcus radiodurans (2)
+- Datação por radiocarbono (2)
+- Círculo de Fogo do Pacífico (2)
+- Cão doméstico (2)
+- Cupim (2)
+- Crocodilo (2)
+- Criança de Taung (2)
+- Coríndon (2)
+- Cordilheira dos Andes (2)
+- Coala (2)
+- Cigarra-periódica (2)
+- Cigarra (2)
+- Cigana (2)
+- Cervo-do-pantanal (2)
+- Caverna dos Cristais (2)
+- Cavalo (2)
+- Cascavel (2)
+- Carmim (2)
+- Carcará (2)
+- Caracol-de-jardim (2)
+- Camaleão (2)
+- Cajueiro de Pirangi (2)
+- Caju (2)
+- Búfalo-asiático (2)
+- Bugio (2)
+- Brontossauro (2)
+- Boto-cor-de-rosa (2)
+- Bonobo (2)
+- Bicho-preguiça (2)
+- Bicho-de-pé (2)
+- Bicho-da-seda (2)
+- Beríngia (2)
+- Baunilha (2)
+- Batata (2)
+- Barbeiro (2)
+- Baobá (2)
+- Banana (2)
+- Bambu (2)
+- Baleia-azul (2)
+- Avestruz (2)
+- Arqueias (2)
+- Ariranha (2)
+- Ardi (2)
+- Archaeopteryx (2)
+- Arara-azul-de-lear (2)
+- Araponga (2)
+- Anta (2)
+- Amianto (2)
+- Amendoim (2)
+- Alho (2)
+- Aedes aegypti (2)
+- Abelha-africanizada (2)
+- Abelha (2)
+- A Descendência do Homem (2)
+
+# Formato de cada pergunta
+
+- `ancora`: a entidade sobre a qual está o fato perguntado (MANIFESTO §4). Informe `nome` (forma preferida em português), `descricao` (uma frase que identifica a entidade sem ambiguidade), `variantes` (outras grafias e nomes; pode ser lista vazia) e `fontes` (URLs sobre a entidade).
+- `angulo`: complete "a resposta é ___ da âncora" (MANIFESTO §5). Quando mais de um ângulo servir, use o mais específico.
+- `pergunta`, `resposta` e `distratores`: siga o MANIFESTO §6 e §7.
+- `fonte`: URLs que sustentam **o fato perguntado**.
+
+**Sobre as URLs:** você não tem acesso à internet nesta etapa. Cite apenas páginas que você tem alta confiança de que existem, de preferência artigos da Wikipédia em português ou em inglês, ou da Britannica. Um verificador vai abrir cada URL depois, e perguntas com fontes inválidas serão descartadas.
+
+Não inclua `id`, `tema` nem `subtema`: o sistema preenche esses campos.
+
+Antes de responder, revise cada pergunta contra os critérios de qualidade do MANIFESTO §8 e descarte ou reescreva as que falharem.
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

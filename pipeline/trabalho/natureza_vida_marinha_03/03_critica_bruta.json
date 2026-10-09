@@ -1,0 +1,407 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado é contraditório: diz que a lula-colossal é mais pesada que a lula-gigante, que seria o invertebrado mais pesado.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Nas águas geladas da Antártida vive uma lula que pode passar de quatrocentos quilos e é considerada o invertebrado mais pesado que se conhece. Que lula é essa?",
+        "resposta": "Lula-colossal",
+        "distratores": [
+          "Lula-de-humboldt",
+          "Lula-vampira",
+          "Lula-vaga-lume"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Colossal_squid"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Envergadura de cerca de 3,75 m confirmada; pergunta precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maior bivalve, mais de 200 kg, Indo-Pacífico, tudo sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Orca é o maior membro da família dos golfinhos; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Regaleco é o peixe ósseo mais comprido, fato amplamente documentado; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Jamanta' no enunciado vaza parte da resposta (manta); tirar o apelido.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Com até sete metros de uma ponta à outra das nadadeiras, que raia oceânica, filtradora de plâncton, é a maior do mundo?",
+        "resposta": "Raia-manta-gigante (jamanta)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Baleia-comum é o segundo maior animal vivo; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peixe-pedra é o mais venenoso conhecido; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carbonato de cálcio confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zooxantelas confirmadas como simbiontes dos corais, que lhes dão cor e alimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Barbas são de queratina; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O uni são as gônadas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Osso de siba é a concha interna do choco.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melanina confirmada como constituinte da tinta.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ágar vem de algas vermelhas; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quitina é o componente do exoesqueleto de crustáceos e insetos.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Presa do narval é um dente canino alongado, de 1,5 a 3,1 m.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O sopro é ar expirado cujo vapor condensa.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estrela-do-mar everte o estômago sobre a presa, fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Migração do olho no linguado é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dentes de reposição em fileiras confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Só os machos de jubarte cantam, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Casulo de muco noturno do peixe-papagaio é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Expulsão e regeneração de vísceras confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Assobio-assinatura comparado a um nome é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Manchas únicas por indivíduo, comparadas a impressões digitais.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cromatóforos confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chironex fleckeri, vespa-do-mar, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Diz marinheiros espanhóis quando a fonte diz bascos, e 'killer whale' no enunciado entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Megaptera é o gênero, não o nome científico completo da jubarte.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Megaptera, o gênero da baleia-jubarte, quer dizer grandes asas em grego. Que parte do corpo da baleia inspirou esse nome?",
+        "resposta": "As nadadeiras peitorais",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Humpback_whale"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem de cetáceo em kêtos confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O próprio termo nudibrânquio já entrega o significado (nu + brânquia).",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plâncton vem de planktos, errante.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte é página de desambiguação; fato bem conhecido, trocar a URL.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Réptil marinho da era dos dinossauros, o ictiossauro tinha corpo, nadadeiras e focinho muito parecidos com os de que mamífero marinho atual?",
+        "resposta": "Golfinho",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ichthyosauria"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peixe-serra é uma raia; fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luciferina confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bico de cefalópode parecido com o de papagaio, fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Iguais' é impreciso: os olhos são semelhantes por evolução convergente, não idênticos.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Os olhos das lulas e dos polvos funcionam como uma câmera, parecidos com os de que grande grupo de animais, embora tenham evoluído de forma independente?",
+        "resposta": "Vertebrados",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cephalopod_eye"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Astaxantina liberada pelo calor confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Peixe-papagaio produz areia ao digerir coral, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chegada em plataformas de petróleo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte é desambiguação; trocar pela página da espécie.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Eleito em 2013 o animal mais feio do mundo, o peixe-bolha só aparece com aquela cara flácida e gelatinosa por quê?",
+        "resposta": "Pela descompressão ao sair do fundo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Psychrolutes_marcidus"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Recife da foz do Amazonas, anunciado em 2016, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Grandes Bancos ficam na costa do Canadá; pesca portuguesa bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cinco espécies ocorrem no Brasil, segundo o Projeto Tamar.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baleias de barbatanas têm dois orifícios respiratórios.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Águas-vivas têm rede nervosa e nenhum cérebro.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro aquário público aberto em 1853, século dezenove.",
+      "reescrita": null
+    }
+  ]
+}
