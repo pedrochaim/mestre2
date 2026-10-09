@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que físico teórico americano do século vinte é este?",
+        "resposta": "Richard Feynman"
+      },
+      "existentes": [
+        {
+          "id": "q03012",
+          "pergunta": "Numa temporada no Rio de Janeiro, nos anos cinquenta, o físico Richard Feynman tocou que instrumento de percussão com sambistas?",
+          "resposta": "Frigideira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cientista inglesa do século vinte é esta?",
+        "resposta": "Rosalind Franklin"
+      },
+      "existentes": [
+        {
+          "id": "q05041",
+          "pergunta": "Por que Rosalind Franklin não dividiu com Watson, Crick e Wilkins o Nobel de 1962 pela estrutura do DNA?",
+          "resposta": "Já tinha morrido, em 1958"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação da pessoa (Feynman); a existente pergunta qual instrumento ele tocou. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação de Rosalind Franklin; a existente pergunta por que ela não recebeu o Nobel. Fatos diferentes."
+    }
+  ]
+}

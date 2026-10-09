@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara e sem texto de Feynman, figura pública bem reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico americano, ganhador do Nobel em 1965, é este?",
+      "resposta": "Richard Feynman",
+      "distratores": [],
+      "ancora": {
+        "nome": "Richard Feynman",
+        "descricao": "Físico teórico americano, Nobel de Física de 1965 por trabalhos em eletrodinâmica quântica.",
+        "variantes": [
+          "Richard Phillips Feynman"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto desfocada, com outra pessoa parcialmente em primeiro plano (mão e cabeça); Nise da Silveira não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de Perelman; pergunta de nível 3 sobre a conjectura que ele provou, sem nomear o assunto.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este matemático russo apresentou, em 2002 e 2003, a prova de uma célebre conjectura da topologia. Que conjectura é essa?",
+      "resposta": "Conjectura de Poincaré",
+      "distratores": [],
+      "ancora": {
+        "nome": "Grigori Perelman",
+        "descricao": "Matemático russo que provou a conjectura de Poincaré e recusou prêmios e a vida acadêmica.",
+        "variantes": [
+          "Grigory Perelman",
+          "Grigori Yakovlevich Perelman"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato em pastel nítido e sem texto; reconhecimento exige distinguir entre cientistas holandeses da época, bom para múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista holandês do século dezessete é este?",
+      "resposta": "Christiaan Huygens",
+      "distratores": [
+        "Antonie van Leeuwenhoek",
+        "Willebrord Snell",
+        "Jan Swammerdam"
+      ],
+      "ancora": {
+        "nome": "Christiaan Huygens",
+        "descricao": "Matemático, físico e astrônomo holandês do século dezessete que inventou o relógio de pêndulo e descobriu Titã.",
+        "variantes": [
+          "Christian Huygens"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto de Vera Rubin com instrumento; pergunta de nível 3 sobre o observatório que leva seu nome, sem entregar pelo enunciado.",
+      "destino": 7,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Um observatório no Chile leva o nome desta astrônoma americana. Qual é o nome desse observatório?",
+      "resposta": "Observatório Vera C. Rubin",
+      "distratores": [],
+      "ancora": {
+        "nome": "Vera Rubin",
+        "descricao": "Astrônoma americana pioneira no estudo da rotação das galáxias e de evidências da matéria escura.",
+        "variantes": [
+          "Vera Florence Cooper Rubin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato antigo de um homem de óculos sem traços marcantes; Adolfo Lutz não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O quadro traz o nome 'Linné' escrito no canto superior direito, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto icônica e sem texto de Rosalind Franklin ao microscópio, reconhecível.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cientista inglesa, de cujo trabalho dependeu a descoberta da estrutura do DNA, aparece ao microscópio nesta foto?",
+      "resposta": "Rosalind Franklin",
+      "distratores": [],
+      "ancora": {
+        "nome": "Rosalind Franklin",
+        "descricao": "Química e cristalógrafa inglesa de raios X, central para a compreensão da estrutura do DNA.",
+        "variantes": [
+          "Rosalind Elsie Franklin"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Gravura genérica de um homem do século dezenove, sem traços que permitam reconhecer Goodyear; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato a óleo nítido, sem texto, tradicionalmente associado a Fermat; pergunta de nível 3 sobre sua atuação como advogado, sem entregar.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este matemático francês do século dezessete trabalhou como advogado no parlamento de que cidade?",
+      "resposta": "Toulouse",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pierre de Fermat",
+        "descricao": "Matemático e magistrado francês do século dezessete, autor do Último Teorema de Fermat.",
+        "variantes": [
+          "Fermat"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura colorida nítida; as inscrições são apenas dos artistas (Boilly e Geille), não entregam a resposta. Múltipla com matemáticos franceses da mesma época.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que matemático e físico francês é este?",
+      "resposta": "Joseph Fourier",
+      "distratores": [
+        "Pierre-Simon Laplace",
+        "Joseph-Louis Lagrange",
+        "Siméon Poisson"
+      ],
+      "ancora": {
+        "nome": "Joseph Fourier",
+        "descricao": "Matemático e físico francês criador das séries de Fourier e da análise de condução do calor.",
+        "variantes": [
+          "Jean-Baptiste Joseph Fourier"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto de Tereshkova na Duma; a bandeira russa só indica o país. Múltipla com outras cosmonautas.",
+      "destino": 7,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cosmonauta soviética é esta?",
+      "resposta": "Valentina Tereshkova",
+      "distratores": [
+        "Svetlana Savitskaya",
+        "Yelena Kondakova",
+        "Yelena Serova"
+      ],
+      "ancora": {
+        "nome": "Valentina Tereshkova",
+        "descricao": "Cosmonauta soviética, primeira mulher no espaço, na missão Vostok 6 em 1963.",
+        "variantes": [
+          "Valentina Vladimirovna Tereshkova"
+        ]
+      }
+    }
+  ]
+}
