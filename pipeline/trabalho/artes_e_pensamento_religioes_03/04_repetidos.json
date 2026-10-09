@@ -1,0 +1,184 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Segundo o livro do Gênesis, qual personagem bíblico teve a vida mais longa?",
+        "resposta": "Matusalém"
+      },
+      "existentes": [
+        {
+          "id": "q04791",
+          "pergunta": "Segundo o livro do Gênesis, quantos anos viveu Matusalém, cujo nome virou sinônimo de pessoa muito velha?",
+          "resposta": "969 anos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Durante o Pessach, os judeus comem um pão sem fermento que lembra a pressa da saída do Egito. Como se chama esse pão?",
+        "resposta": "Matzá"
+      },
+      "existentes": [
+        {
+          "id": "q03530",
+          "pergunta": "A Páscoa cristã herdou o nome da festa judaica de Pessach. Que ideia esse nome hebraico expressa?",
+          "resposta": "Passagem"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Segundo o Êxodo, na primeira das dez pragas do Egito, a água do rio Nilo se transformou em quê?",
+        "resposta": "Sangue"
+      },
+      "existentes": [
+        {
+          "id": "q06975",
+          "pergunta": "Na Bíblia, a nuvem de gafanhotos que devora as plantações do Egito é qual das dez pragas, pela ordem?",
+          "resposta": "Oitava"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Segundo a tradição budista, Siddhartha Gautama alcançou a iluminação meditando sob que tipo de árvore?",
+        "resposta": "Uma figueira"
+      },
+      "existentes": [
+        {
+          "id": "q07666",
+          "pergunta": "A árvore sob a qual Sidarta Gautama teria alcançado a iluminação ficava em que localidade da Índia, hoje grande centro de peregrinação budista?",
+          "resposta": "Bodh Gaya"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Nas pinturas e estátuas da arte hindu, de que cor costuma ser a pele do deus Krishna?",
+        "resposta": "Azul"
+      },
+      "existentes": [
+        {
+          "id": "q03552",
+          "pergunta": "Krishna, o deus venerado pelo movimento Hare Krishna, é considerado avatar de que divindade hindu?",
+          "resposta": "Vixnu"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em sânscrito, qual é o sentido do título Buda, dado a Siddhartha Gautama?",
+        "resposta": "O Desperto"
+      },
+      "existentes": [
+        {
+          "id": "q03348",
+          "pergunta": "O título Buda, dado a Sidarta Gautama, significa o quê em sânscrito?",
+          "resposta": "O Desperto"
+        },
+        {
+          "id": "q03349",
+          "pergunta": "Sidarta Gautama, o Buda, nasceu em Lumbini. Em que país atual fica esse lugar?",
+          "resposta": "Nepal"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No norte da Índia, o Diwali, a festa das luzes, celebra a volta de que herói à cidade de Ayodhya após catorze anos de exílio?",
+        "resposta": "Rama"
+      },
+      "existentes": [
+        {
+          "id": "q00805",
+          "pergunta": "Diwali, a grande festa hindu celebrada com lamparinas acesas, tem um nome de origem sânscrita. Qual é o seu significado?",
+          "resposta": "Fileira de luzes"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Festejado em junho e chamado de Santo Antônio de Pádua, o frade franciscano nasceu em que cidade?",
+        "resposta": "Lisboa"
+      },
+      "existentes": [
+        {
+          "id": "q08175",
+          "pergunta": "Que santo é conhecido popularmente como casamenteiro, alvo das simpatias das moças para arranjar marido?",
+          "resposta": "Santo Antônio"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Por tradição, os prédios do Grande Santuário de Ise, dedicado à deusa Amaterasu, são reconstruídos do zero a cada quantos anos?",
+        "resposta": "Vinte"
+      },
+      "existentes": [
+        {
+          "id": "q03383",
+          "pergunta": "Pela tradição xintoísta, o grande santuário de Ise, no Japão, é demolido e reconstruído a cada quantos anos?",
+          "resposta": "Vinte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta quem viveu mais; a existente pergunta quantos anos, com Matusalém já dado no enunciado. Embora relacionados, fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pão sem fermento (matzá) vs significado do nome Pessach."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Primeira praga (sangue) vs oitava praga (gafanhotos)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tipo de árvore vs localidade da árvore."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Cor da pele de Krishna vs de qual divindade é avatar."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: significado de Buda em sânscrito.",
+      "id_existente": "q03348"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Herói celebrado vs significado do nome Diwali."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Local de nascimento de Santo Antônio vs fama de casamenteiro."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: reconstrução do santuário de Ise a cada vinte anos.",
+      "id_existente": "q03383"
+    }
+  ]
+}

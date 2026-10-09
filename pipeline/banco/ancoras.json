@@ -50440,7 +50440,8 @@
       "Siddhartha Gautama",
       "Buddha",
       "Gautama Buda",
-      "Buda Gautama"
+      "Buda Gautama",
+      "Buda Shakyamuni"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Buddha",
@@ -71167,7 +71168,8 @@
     "nome": "Matusalém",
     "descricao": "Patriarca bíblico do Gênesis, avô de Noé, símbolo de longevidade",
     "variantes": [
-      "Metusalém"
+      "Metusalém",
+      "Methuselah"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Matusal%C3%A9m"
@@ -100806,7 +100808,8 @@
     "descricao": "As dez calamidades que, segundo o livro bíblico do Êxodo, Deus enviou ao Egito para libertar os hebreus.",
     "variantes": [
       "Dez pragas do Egito",
-      "Plagues of Egypt"
+      "Plagues of Egypt",
+      "Dez pragas"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Pragas_do_Egito"
@@ -109647,7 +109650,9 @@
     "descricao": "Figueira sagrada sob a qual, segundo a tradição budista, Sidarta Gautama alcançou a iluminação.",
     "variantes": [
       "Bodhi Tree",
-      "Árvore da Iluminação"
+      "Árvore da Iluminação",
+      "Árvore de Bodhi",
+      "Figueira sagrada"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Bodhi_Tree"
@@ -116147,7 +116152,8 @@
     "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
     "variantes": [
       "Santo Antônio de Pádua",
-      "Santo Antônio de Lisboa"
+      "Santo Antônio de Lisboa",
+      "Antônio de Lisboa"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Anthony_of_Padua"
@@ -131430,6 +131436,524 @@
     "fontes": [
       "https://pt.wikipedia.org/wiki/Quilate",
       "https://en.wikipedia.org/wiki/Fineness"
+    ]
+  },
+  {
+    "id": "livro_dos_salmos",
+    "nome": "Livro dos Salmos",
+    "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+    "variantes": [
+      "Salmos",
+      "Saltério"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Salmos",
+      "https://en.wikipedia.org/wiki/Psalms"
+    ]
+  },
+  {
+    "id": "al_baqara",
+    "nome": "Al-Baqara",
+    "descricao": "Segunda sura do Alcorão, cujo nome significa A Vaca",
+    "variantes": [
+      "Al-Baqarah",
+      "Surata da Vaca",
+      "A Vaca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Al-Baqarah"
+    ]
+  },
+  {
+    "id": "evangelho_de_joao",
+    "nome": "Evangelho de João",
+    "descricao": "Quarto evangelho do Novo Testamento, atribuído pela tradição ao apóstolo João",
+    "variantes": [
+      "Evangelho segundo João"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Evangelho_de_Jo%C3%A3o",
+      "https://en.wikipedia.org/wiki/Gospel_of_John"
+    ]
+  },
+  {
+    "id": "mesquita_de_al_aqsa",
+    "nome": "Mesquita de Al-Aqsa",
+    "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+    "variantes": [
+      "Al-Aqsa",
+      "Mesquita Al-Aqsa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Al-Aqsa_Mosque",
+      "https://pt.wikipedia.org/wiki/Mesquita_de_Al-Aqsa"
+    ]
+  },
+  {
+    "id": "yom_kippur",
+    "nome": "Yom Kippur",
+    "descricao": "Dia da Expiação, data judaica de jejum e arrependimento celebrada dez dias depois do Rosh Hashaná",
+    "variantes": [
+      "Yom Kipur",
+      "Dia do Perdão",
+      "Dia da Expiação"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yom_Kippur",
+      "https://www.britannica.com/topic/Yom-Kippur"
+    ]
+  },
+  {
+    "id": "rigveda",
+    "nome": "Rigveda",
+    "descricao": "Coleção de hinos em sânscrito védico, o primeiro dos quatro Vedas do hinduísmo",
+    "variantes": [
+      "Rig Veda",
+      "Rigveda Samhita"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Rigveda",
+      "https://en.wikipedia.org/wiki/Rigveda"
+    ]
+  },
+  {
+    "id": "serafim",
+    "nome": "Serafim",
+    "descricao": "Tipo de anjo que, na hierarquia angélica cristã tradicional, ocupa o coro mais elevado",
+    "variantes": [
+      "Serafins"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Serafim",
+      "https://en.wikipedia.org/wiki/Seraph"
+    ]
+  },
+  {
+    "id": "sunismo",
+    "nome": "Sunismo",
+    "descricao": "Ramo majoritário do islã, ao lado do xiismo",
+    "variantes": [
+      "Islã sunita",
+      "Sunitas"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Sunismo",
+      "https://en.wikipedia.org/wiki/Sunni_Islam"
+    ]
+  },
+  {
+    "id": "tres_joias",
+    "nome": "Três Joias",
+    "descricao": "Os três refúgios do budismo: o Buda, o Dharma e a Sangha",
+    "variantes": [
+      "Três Refúgios",
+      "Triratna",
+      "Três Tesouros"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Refuge_(Buddhism)"
+    ]
+  },
+  {
+    "id": "cinco_ks",
+    "nome": "Cinco Ks",
+    "descricao": "Os cinco artigos de fé usados pelos sikhs iniciados, cujos nomes começam com a letra K em punjabi",
+    "variantes": [
+      "Cinco K",
+      "Panj Kakar",
+      "Five Ks"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Five_Ks"
+    ]
+  },
+  {
+    "id": "santo_crisma",
+    "nome": "Santo crisma",
+    "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+    "variantes": [
+      "Crisma (óleo)",
+      "Óleo do crisma",
+      "Chrism",
+      "Mirão"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chrism"
+    ]
+  },
+  {
+    "id": "arca_da_alianca",
+    "nome": "Arca da Aliança",
+    "descricao": "Baú sagrado descrito na Bíblia hebraica, levado pelos israelitas no deserto e depois guardado no Templo de Jerusalém",
+    "variantes": [
+      "Arca do Testemunho",
+      "Arca da Lei"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Arca_da_Alian%C3%A7a",
+      "https://en.wikipedia.org/wiki/Ark_of_the_Covenant"
+    ]
+  },
+  {
+    "id": "rosario",
+    "nome": "Rosário",
+    "descricao": "Devoção católica de orações contadas num cordão de contas, cuja forma reduzida é o terço",
+    "variantes": [
+      "Terço",
+      "Santo Rosário"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rosary"
+    ]
+  },
+  {
+    "id": "hajj",
+    "nome": "Hajj",
+    "descricao": "Peregrinação anual a Meca, um dos pilares do islã",
+    "variantes": [
+      "Haje",
+      "Hajj a Meca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hajj",
+      "https://pt.wikipedia.org/wiki/Hajj"
+    ]
+  },
+  {
+    "id": "mezuza",
+    "nome": "Mezuzá",
+    "descricao": "Estojo com um pergaminho de versículos da Torá, fixado no batente das portas de casas judaicas",
+    "variantes": [
+      "Mezuzah"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mezuzah"
+    ]
+  },
+  {
+    "id": "quarta_feira_de_cinzas",
+    "nome": "Quarta-feira de Cinzas",
+    "descricao": "Primeiro dia da Quaresma no calendário cristão ocidental, quando os fiéis recebem cinzas na testa",
+    "variantes": [
+      "Dia de Cinzas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ash_Wednesday",
+      "https://pt.wikipedia.org/wiki/Quarta-feira_de_Cinzas"
+    ]
+  },
+  {
+    "id": "shiva",
+    "nome": "Shiva",
+    "descricao": "Divindade hindu, o destruidor e transformador da Trimúrti",
+    "variantes": [
+      "Xiva",
+      "Siva"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shiva",
+      "https://pt.wikipedia.org/wiki/Shiva"
+    ]
+  },
+  {
+    "id": "hanuman",
+    "nome": "Hanuman",
+    "descricao": "Divindade hindu, devoto e aliado de Rama no épico Ramayana",
+    "variantes": [
+      "Hanumã"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hanuman",
+      "https://pt.wikipedia.org/wiki/Hanuman"
+    ]
+  },
+  {
+    "id": "amish",
+    "nome": "Amish",
+    "descricao": "Grupo cristão anabatista tradicionalista que vive em comunidades rurais dos Estados Unidos e do Canadá",
+    "variantes": [
+      "Amishes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amish",
+      "https://pt.wikipedia.org/wiki/Amish"
+    ]
+  },
+  {
+    "id": "xango",
+    "nome": "Xangô",
+    "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+    "variantes": [
+      "Shango",
+      "Changó",
+      "Sàngó"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Xang%C3%B4",
+      "https://en.wikipedia.org/wiki/Shango"
+    ]
+  },
+  {
+    "id": "mihrab",
+    "nome": "Mihrab",
+    "descricao": "Nicho na parede de uma mesquita voltado para Meca",
+    "variantes": [
+      "Mirabe",
+      "Mihrabe"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mihrab",
+      "https://pt.wikipedia.org/wiki/Mihrab"
+    ]
+  },
+  {
+    "id": "lakshmi",
+    "nome": "Lakshmi",
+    "descricao": "Deusa hindu, esposa de Vixnu",
+    "variantes": [
+      "Laxmi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lakshmi",
+      "https://pt.wikipedia.org/wiki/Lakshmi"
+    ]
+  },
+  {
+    "id": "cashrut",
+    "nome": "Cashrut",
+    "descricao": "Conjunto das leis alimentares judaicas, que definem o que é comida kasher",
+    "variantes": [
+      "Kashrut",
+      "Kosher",
+      "Kasher"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kashrut"
+    ]
+  },
+  {
+    "id": "nirvana",
+    "nome": "Nirvana",
+    "descricao": "Estado de libertação final do sofrimento e do ciclo de renascimentos, meta do budismo",
+    "variantes": [
+      "Nibbana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nirvana_(Buddhism)",
+      "https://pt.wikipedia.org/wiki/Nirvana"
+    ]
+  },
+  {
+    "id": "avatar",
+    "nome": "Avatar",
+    "descricao": "No hinduísmo, a encarnação ou manifestação de uma divindade na Terra",
+    "variantes": [
+      "Avatara"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Avatar"
+    ]
+  },
+  {
+    "id": "evangelho",
+    "nome": "Evangelho",
+    "descricao": "Cada um dos relatos da vida e dos ensinamentos de Jesus, e a mensagem cristã em geral",
+    "variantes": [
+      "Evangelhos",
+      "Boa-nova"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Evangelho",
+      "https://en.wikipedia.org/wiki/Gospel"
+    ]
+  },
+  {
+    "id": "igreja_catolica",
+    "nome": "Igreja Católica",
+    "descricao": "Igreja cristã em comunhão com o bispo de Roma, o papa",
+    "variantes": [
+      "Igreja Católica Apostólica Romana",
+      "Catolicismo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Igreja_Cat%C3%B3lica",
+      "https://en.wikipedia.org/wiki/Catholic_Church"
+    ]
+  },
+  {
+    "id": "oxossi",
+    "nome": "Oxóssi",
+    "descricao": "Orixá caçador, ligado às matas e à fartura, cultuado no candomblé e na umbanda",
+    "variantes": [
+      "Ochosi",
+      "Ọ̀ṣọ́ọ̀sì"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ox%C3%B3ssi",
+      "https://en.wikipedia.org/wiki/Oshosi"
+    ]
+  },
+  {
+    "id": "biblos",
+    "nome": "Biblos",
+    "descricao": "Antiga cidade fenícia no litoral do atual Líbano, importante centro do comércio de papiro",
+    "variantes": [
+      "Byblos",
+      "Jbeil",
+      "Gebal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Byblos",
+      "https://pt.wikipedia.org/wiki/Biblos"
+    ]
+  },
+  {
+    "id": "amaterasu",
+    "nome": "Amaterasu",
+    "descricao": "Deusa do Sol na mitologia e no xintoísmo japoneses",
+    "variantes": [
+      "Amaterasu Ōmikami",
+      "Amaterasu-Omikami"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amaterasu",
+      "https://pt.wikipedia.org/wiki/Amaterasu"
+    ]
+  },
+  {
+    "id": "atos_dos_apostolos",
+    "nome": "Atos dos Apóstolos",
+    "descricao": "Livro do Novo Testamento que narra os primeiros anos da Igreja cristã depois da morte de Jesus",
+    "variantes": [
+      "Atos",
+      "Actos dos Apóstolos"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Atos_dos_Ap%C3%B3stolos",
+      "https://en.wikipedia.org/wiki/Acts_of_the_Apostles"
+    ]
+  },
+  {
+    "id": "conversao_de_paulo",
+    "nome": "Conversão de Paulo",
+    "descricao": "Episódio em que Saulo de Tarso se converteu ao cristianismo no caminho de Damasco, celebrado em 25 de janeiro",
+    "variantes": [
+      "Conversão de São Paulo",
+      "Conversão de Paulo de Tarso"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Conversion_of_Paul_the_Apostle"
+    ]
+  },
+  {
+    "id": "jainismo",
+    "nome": "Jainismo",
+    "descricao": "Religião indiana antiga baseada na não violência radical, cujo principal mestre foi Mahavira",
+    "variantes": [
+      "Jainism"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jainism",
+      "https://pt.wikipedia.org/wiki/Jainismo"
+    ]
+  },
+  {
+    "id": "eid_al_adha",
+    "nome": "Eid al-Adha",
+    "descricao": "Festa islâmica do sacrifício, celebrada no período da peregrinação a Meca",
+    "variantes": [
+      "Festa do Sacrifício",
+      "Bayram"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eid_al-Adha"
+    ]
+  },
+  {
+    "id": "cardeal_2",
+    "nome": "Cardeal",
+    "descricao": "Membro do Colégio dos Cardeais da Igreja Católica, responsável por eleger o papa",
+    "variantes": [
+      "Cardeais"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cardinal_(Catholic_Church)",
+      "https://pt.wikipedia.org/wiki/Cardeal"
+    ]
+  },
+  {
+    "id": "centro_mundial_baha_i",
+    "nome": "Centro Mundial Bahá'í",
+    "descricao": "Conjunto de edifícios e jardins em terraços no Monte Carmelo que serve de sede da Fé Bahá'í",
+    "variantes": [
+      "Jardins Bahá'ís",
+      "Terraços Bahá'ís",
+      "Bahá'í World Centre"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Haifa",
+      "https://www.britannica.com/topic/Bahai-faith"
+    ]
+  },
+  {
+    "id": "meteora",
+    "nome": "Meteora",
+    "descricao": "Conjunto de mosteiros ortodoxos construídos no alto de pilares de rocha, na Tessália",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Meteora",
+      "https://en.wikipedia.org/wiki/Meteora"
+    ]
+  },
+  {
+    "id": "epifania",
+    "nome": "Epifania",
+    "descricao": "Festa cristã que celebra a manifestação de Jesus, associada no Ocidente à visita dos Reis Magos",
+    "variantes": [
+      "Dia de Reis",
+      "Festa dos Reis Magos"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Epifania",
+      "https://en.wikipedia.org/wiki/Epiphany_(holiday)"
+    ]
+  },
+  {
+    "id": "cisma_do_oriente",
+    "nome": "Cisma do Oriente",
+    "descricao": "Ruptura entre a Igreja de Roma e as igrejas cristãs orientais, que originou a separação entre católicos e ortodoxos",
+    "variantes": [
+      "Grande Cisma do Oriente",
+      "Cisma de 1054",
+      "Grande Cisma"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Grande_Cisma_do_Oriente",
+      "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
+    ]
+  },
+  {
+    "id": "livro_de_mormon",
+    "nome": "Livro de Mórmon",
+    "descricao": "Texto sagrado da Igreja de Jesus Cristo dos Santos dos Últimos Dias, publicado em 1830",
+    "variantes": [
+      "Book of Mormon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Book_of_Mormon",
+      "https://pt.wikipedia.org/wiki/Livro_de_M%C3%B3rmon"
+    ]
+  },
+  {
+    "id": "guarda_suica",
+    "nome": "Guarda Suíça",
+    "descricao": "Corpo militar que protege o papa e o Vaticano, formado por soldados suíços",
+    "variantes": [
+      "Guarda Suíça Pontifícia",
+      "Pontifical Swiss Guard"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Guarda_Su%C3%AD%C3%A7a",
+      "https://en.wikipedia.org/wiki/Pontifical_Swiss_Guard"
     ]
   }
 ]

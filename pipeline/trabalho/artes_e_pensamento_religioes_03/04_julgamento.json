@@ -1,0 +1,3080 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Livro dos Salmos",
+        "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+        "variantes": [
+          "Salmos",
+          "Saltério"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salmao",
+          "nome": "Salmão",
+          "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+          "variantes": [
+            "Salmon"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "livro_dos_mortos",
+          "nome": "Livro dos Mortos",
+          "descricao": "Coletânea egípcia de fórmulas mágicas escritas em papiro e postas nas tumbas para guiar o morto no além",
+          "variantes": [
+            "Book of the Dead",
+            "Livro egípcio dos mortos"
+          ]
+        },
+        {
+          "id": "salto_sobre_a_mesa",
+          "nome": "Salto sobre a mesa",
+          "descricao": "Prova da ginástica artística em que o ginasta salta apoiando as mãos na mesa de salto.",
+          "variantes": [
+            "Salto",
+            "Mesa de salto"
+          ]
+        },
+        {
+          "id": "liber_abaci",
+          "nome": "Liber Abaci",
+          "descricao": "Livro de aritmética escrito por Fibonacci, publicado em 1202.",
+          "variantes": [
+            "Livro do Ábaco",
+            "Liber Abbaci"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Al-Baqara",
+        "descricao": "Segunda sura do Alcorão, cujo nome significa A Vaca",
+        "variantes": [
+          "Al-Baqarah",
+          "Surata da Vaca",
+          "A Vaca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_danca",
+          "nome": "A Dança",
+          "descricao": "Grande painel decorativo de Henri Matisse de 1910, com cinco figuras vermelhas dançando em roda sobre fundo azul e verde, no Museu Hermitage.",
+          "variantes": [
+            "A Dança (Matisse)",
+            "La Danse",
+            "Dance",
+            "A Dança de Matisse"
+          ]
+        },
+        {
+          "id": "revolta_da_vacina",
+          "nome": "Revolta da Vacina",
+          "descricao": "Motim popular ocorrido no Rio de Janeiro em novembro de 1904 contra a vacinação obrigatória.",
+          "variantes": [
+            "Vaccine Revolt"
+          ]
+        },
+        {
+          "id": "vacina",
+          "nome": "Vacina",
+          "descricao": "Preparação que estimula o sistema imunológico a proteger contra uma doença.",
+          "variantes": [
+            "Vaccine",
+            "Imunizante"
+          ]
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "savana",
+          "nome": "Savana",
+          "descricao": "Bioma de vegetação rasteira com árvores esparsas, típico de regiões tropicais com estação seca",
+          "variantes": [
+            "Savanna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Evangelho de João",
+        "descricao": "Quarto evangelho do Novo Testamento, atribuído pela tradição ao apóstolo João",
+        "variantes": [
+          "Evangelho segundo João"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "evangelho_de_marcos",
+          "nome": "Evangelho de Marcos",
+          "descricao": "Um dos quatro evangelhos do Novo Testamento",
+          "variantes": [
+            "Evangelho segundo Marcos"
+          ]
+        },
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire",
+            "Cinturão de Fogo do Pacífico",
+            "Anel de Fogo do Pacífico"
+          ]
+        },
+        {
+          "id": "evangelhos_de_lindisfarne",
+          "nome": "Evangelhos de Lindisfarne",
+          "descricao": "Manuscrito iluminado em latim de arte insular, produzido por volta de 715 a 720 no mosteiro de Lindisfarne, hoje na Biblioteca Britânica.",
+          "variantes": [
+            "Lindisfarne Gospels",
+            "Livro de Lindisfarne"
+          ]
+        },
+        {
+          "id": "levante_de_soweto",
+          "nome": "Levante de Soweto",
+          "descricao": "Protestos de estudantes negros em Soweto, na África do Sul, iniciados em 16 de junho de 1976 e reprimidos pela polícia.",
+          "variantes": [
+            "Revolta de Soweto",
+            "Soweto uprising"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mesquita de Al-Aqsa",
+        "descricao": "Mesquita na Esplanada das Mesquitas, em Jerusalém, um dos lugares mais sagrados do islã",
+        "variantes": [
+          "Al-Aqsa",
+          "Mesquita Al-Aqsa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_azul",
+          "nome": "Mesquita Azul",
+          "descricao": "Mesquita do Sultão Ahmed, em Istambul, construída no início do século dezessete",
+          "variantes": [
+            "Mesquita do Sultão Ahmed",
+            "Sultanahmet Camii",
+            "Sultan Ahmed Mosque",
+            "Blue Mosque"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "atlas_vertebra",
+          "nome": "Atlas (vértebra)",
+          "descricao": "Primeira vértebra cervical, que sustenta o crânio.",
+          "variantes": [
+            "Atlas",
+            "C1",
+            "Atlas (anatomy)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Yom Kippur",
+        "descricao": "Dia da Expiação, data judaica de jejum e arrependimento celebrada dez dias depois do Rosh Hashaná",
+        "variantes": [
+          "Yom Kipur",
+          "Dia do Perdão",
+          "Dia da Expiação"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "juneteenth",
+          "nome": "Juneteenth",
+          "descricao": "Feriado dos Estados Unidos que comemora a emancipação dos afro-americanos escravizados.",
+          "variantes": [
+            "Dia da Emancipação",
+            "Juneteenth National Independence Day"
+          ]
+        },
+        {
+          "id": "dia_do_elba",
+          "nome": "Dia do Elba",
+          "descricao": "Encontro de tropas americanas e soviéticas em Torgau, na Alemanha, em 25 de abril de 1945, no fim da Segunda Guerra Mundial.",
+          "variantes": [
+            "Elbe Day",
+            "Encontro no Elba"
+          ]
+        },
+        {
+          "id": "dia_do_pi",
+          "nome": "Dia do Pi",
+          "descricao": "Data comemorativa da constante pi, celebrada em catorze de março.",
+          "variantes": [
+            "Pi Day"
+          ]
+        },
+        {
+          "id": "dia_da_terra",
+          "nome": "Dia da Terra",
+          "descricao": "Data anual de mobilização ambiental criada nos Estados Unidos em 1970.",
+          "variantes": [
+            "Earth Day"
+          ]
+        },
+        {
+          "id": "dia_do_rei",
+          "nome": "Dia do Rei",
+          "descricao": "Feriado nacional dos Países Baixos em homenagem ao aniversário do monarca.",
+          "variantes": [
+            "Koningsdag",
+            "King's Day"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rigveda",
+        "descricao": "Coleção de hinos em sânscrito védico, o primeiro dos quatro Vedas do hinduísmo",
+        "variantes": [
+          "Rig Veda",
+          "Rigveda Samhita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vedas",
+          "nome": "Vedas",
+          "descricao": "Coleções de hinos e textos em sânscrito, as escrituras mais antigas do hinduísmo.",
+          "variantes": [
+            "Veda",
+            "Vedas hindus"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "tragedia",
+          "nome": "Tragédia",
+          "descricao": "Gênero teatral nascido na Grécia Antiga, centrado no sofrimento e na queda de um herói.",
+          "variantes": [
+            "Tragédia grega",
+            "Tragedy"
+          ]
+        },
+        {
+          "id": "nebulosa_do_anel",
+          "nome": "Nebulosa do Anel",
+          "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+          "variantes": [
+            "Messier 57",
+            "M57",
+            "NGC 6720",
+            "Ring Nebula"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Matusalém",
+        "descricao": "Patriarca bíblico do livro do Gênesis, avô de Noé, famoso pela longevidade",
+        "variantes": [
+          "Methuselah"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "matusalem",
+          "nome": "Matusalém",
+          "descricao": "Pinheiro da espécie Pinus longaeva nas Montanhas Brancas da Califórnia, uma das árvores mais antigas conhecidas",
+          "variantes": [
+            "Methuselah",
+            "Methuselah tree"
+          ]
+        },
+        {
+          "id": "matusalem_2",
+          "nome": "Matusalém",
+          "descricao": "Patriarca bíblico do Gênesis, avô de Noé, símbolo de longevidade",
+          "variantes": [
+            "Metusalém"
+          ]
+        },
+        {
+          "id": "matza",
+          "nome": "Matzá",
+          "descricao": "Pão ázimo, sem fermento, comido pelos judeus durante a festa do Pessach.",
+          "variantes": [
+            "Matzah",
+            "Matsá"
+          ]
+        },
+        {
+          "id": "musculo",
+          "nome": "Músculo",
+          "descricao": "Tecido do corpo capaz de se contrair e produzir movimento.",
+          "variantes": [
+            "Muscle",
+            "Musculus"
+          ]
+        },
+        {
+          "id": "jerusalem",
+          "nome": "Jerusalém",
+          "descricao": "Cidade sagrada para judeus, cristãos e muçulmanos, no Levante, com a Cúpula da Rocha.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Serafim",
+        "descricao": "Tipo de anjo que, na hierarquia angélica cristã tradicional, ocupa o coro mais elevado",
+        "variantes": [
+          "Serafins"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "embrafilme",
+          "nome": "Embrafilme",
+          "descricao": "Empresa estatal brasileira de produção e distribuição de filmes, criada em 1969 e extinta em 1990.",
+          "variantes": [
+            "Empresa Brasileira de Filmes"
+          ]
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "selam",
+          "nome": "Selam",
+          "descricao": "Esqueleto fóssil de uma criança de Australopithecus afarensis, com cerca de 3,3 milhões de anos, achado em Dikika, na Etiópia.",
+          "variantes": [
+            "Criança de Dikika",
+            "DIK-1-1"
+          ]
+        },
+        {
+          "id": "inseto_folha",
+          "nome": "Inseto-folha",
+          "descricao": "Inseto da família Phylliidae, que imita folhas verdes como camuflagem.",
+          "variantes": [
+            "Filiídeo",
+            "Phylliidae",
+            "Leaf insect",
+            "Folha-ambulante"
+          ]
+        },
+        {
+          "id": "festa_de_sao_firmino",
+          "nome": "Festa de São Firmino",
+          "descricao": "Festa de julho em Pamplona, na Espanha, famosa pelos encierros, em que as pessoas correm à frente de touros pelas ruas.",
+          "variantes": [
+            "San Fermín",
+            "Sanfermines",
+            "Festas de São Firmino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sunismo",
+        "descricao": "Ramo majoritário do islã, ao lado do xiismo",
+        "variantes": [
+          "Islã sunita",
+          "Sunitas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sikhismo",
+          "nome": "Sikhismo",
+          "descricao": "Religião monoteísta fundada por Guru Nanak no Punjab, no século quinze",
+          "variantes": [
+            "Siquismo",
+            "Sikhism"
+          ]
+        },
+        {
+          "id": "companhia_de_jesus",
+          "nome": "Companhia de Jesus",
+          "descricao": "Ordem religiosa católica dos jesuítas, aprovada pelo papa em 1540",
+          "variantes": [
+            "Jesuítas",
+            "Society of Jesus"
+          ]
+        },
+        {
+          "id": "tesla_unidade",
+          "nome": "Tesla (unidade)",
+          "descricao": "Unidade de densidade de fluxo magnético do Sistema Internacional, nomeada em honra a Nikola Tesla.",
+          "variantes": [
+            "Tesla (unit)",
+            "T"
+          ]
+        },
+        {
+          "id": "xiismo",
+          "nome": "Xiismo",
+          "descricao": "Um dos dois grandes ramos do islã, ao lado do sunismo",
+          "variantes": [
+            "Islã xiita",
+            "Xiitas"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Três Joias",
+        "descricao": "Os três refúgios do budismo: o Buda, o Dharma e a Sangha",
+        "variantes": [
+          "Três Refúgios",
+          "Triratna",
+          "Três Tesouros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "primavera_buganvilia",
+          "nome": "Primavera (buganvília)",
+          "descricao": "Planta trepadeira ornamental do gênero Bougainvillea, com brácteas coloridas que envolvem pequenas flores brancas.",
+          "variantes": [
+            "Buganvília",
+            "Bougainvillea",
+            "Três-marias"
+          ]
+        },
+        {
+          "id": "ariranha",
+          "nome": "Ariranha",
+          "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+          "variantes": [
+            "Pteronura brasiliensis",
+            "Giant otter",
+            "Lontra-gigante"
+          ]
+        },
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Cinco Ks",
+        "descricao": "Os cinco artigos de fé usados pelos sikhs iniciados, cujos nomes começam com a letra K em punjabi",
+        "variantes": [
+          "Cinco K",
+          "Panj Kakar",
+          "Five Ks"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cinismo_escola_filosofica",
+          "nome": "Cinismo (escola filosófica)",
+          "descricao": "Escola filosófica grega de Antístenes e Diógenes de Sinope, que pregava viver com o mínimo e contra as convenções.",
+          "variantes": [
+            "Cínicos",
+            "Cynicism",
+            "Cinismo",
+            "Escola cínica",
+            "Cinismo (filosofia)"
+          ]
+        },
+        {
+          "id": "aneis_olimpicos",
+          "nome": "Anéis olímpicos",
+          "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
+          "variantes": [
+            "Cinco anéis",
+            "Olympic rings",
+            "Bandeira olímpica"
+          ]
+        },
+        {
+          "id": "chinook",
+          "nome": "Chinook",
+          "descricao": "Vento quente e seco que desce as encostas leste das Montanhas Rochosas, na América do Norte",
+          "variantes": [
+            "Vento chinook",
+            "Chinook wind"
+          ]
+        },
+        {
+          "id": "confederacao_iroquesa",
+          "nome": "Confederação Iroquesa",
+          "descricao": "Aliança de nações indígenas do nordeste da América do Norte, também chamada Haudenosaunee.",
+          "variantes": [
+            "Haudenosaunee",
+            "Liga Iroquesa",
+            "Cinco Nações"
+          ]
+        },
+        {
+          "id": "rali_dakar",
+          "nome": "Rali Dakar",
+          "descricao": "Rali de longa distância criado em 1978, que nasceu ligando Paris a Dakar, no Senegal.",
+          "variantes": [
+            "Paris-Dakar",
+            "Dakar Rally",
+            "Dakar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Santo crisma",
+        "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+        "variantes": [
+          "Crisma (óleo)",
+          "Óleo do crisma",
+          "Chrism",
+          "Mirão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Arca da Aliança",
+        "descricao": "Baú sagrado descrito na Bíblia hebraica, levado pelos israelitas no deserto e depois guardado no Templo de Jerusalém",
+        "variantes": [
+          "Arca do Testemunho",
+          "Arca da Lei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        },
+        {
+          "id": "quadra_de_volei",
+          "nome": "Quadra de vôlei",
+          "descricao": "Superfície retangular onde se joga o vôlei de quadra, dividida ao meio pela rede.",
+          "variantes": [
+            "Volleyball court"
+          ]
+        },
+        {
+          "id": "marcha_atletica",
+          "nome": "Marcha atlética",
+          "descricao": "Prova de pedestrianismo do atletismo em que os atletas andam o mais rápido possível, sem correr.",
+          "variantes": [
+            "Racewalking",
+            "Marcha"
+          ]
+        },
+        {
+          "id": "alberto_santos_dumont",
+          "nome": "Alberto Santos-Dumont",
+          "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis.",
+          "variantes": [
+            "Santos Dumont",
+            "Pai da Aviação"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Rosário",
+        "descricao": "Devoção católica de orações contadas num cordão de contas, cuja forma reduzida é o terço",
+        "variantes": [
+          "Terço",
+          "Santo Rosário"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quero_quero",
+          "nome": "Quero-quero",
+          "descricao": "Vanellus chilensis, ave pernalta comum na América do Sul, de olhos vermelhos e pernas vermelhas.",
+          "variantes": [
+            "Southern lapwing",
+            "Tero",
+            "Vanellus chilensis"
+          ]
+        },
+        {
+          "id": "romario",
+          "nome": "Romário",
+          "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+          "variantes": [
+            "Romário de Souza Faria"
+          ]
+        },
+        {
+          "id": "sudario_de_turim",
+          "nome": "Sudário de Turim",
+          "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+          "variantes": [
+            "Santo Sudário",
+            "Sindone di Torino"
+          ]
+        },
+        {
+          "id": "oscarito",
+          "nome": "Oscarito",
+          "descricao": "Comediante e ator, astro das chanchadas da Atlântida Cinematográfica nas décadas de 1940 e 1950.",
+          "variantes": [
+            "Oscar Lorenzo Jacinto de la Imaculada Concepción Teresa Dias"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Hajj",
+        "descricao": "Peregrinação anual a Meca, um dos pilares do islã",
+        "variantes": [
+          "Haje",
+          "Hajj a Meca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bacteriofago",
+          "nome": "Bacteriófago",
+          "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+          "variantes": [
+            "Fago",
+            "Phage",
+            "Bacteriophage"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "america_s_cup",
+          "nome": "America's Cup",
+          "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+          "variantes": [
+            "Copa América de vela",
+            "Taça América"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Mezuzá",
+        "descricao": "Estojo com um pergaminho de versículos da Torá, fixado no batente das portas de casas judaicas",
+        "variantes": [
+          "Mezuzah",
+          "Mezuza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "agua_viva",
+          "nome": "Água-viva",
+          "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos.",
+          "variantes": [
+            "Medusa",
+            "Alforreca",
+            "Jellyfish"
+          ]
+        },
+        {
+          "id": "cazuza",
+          "nome": "Cazuza",
+          "descricao": "Agenor de Miranda Araújo Neto, cantor e compositor carioca, ex-vocalista do Barão Vermelho, morto em 1990.",
+          "variantes": [
+            "Agenor de Miranda Araújo Neto"
+          ]
+        },
+        {
+          "id": "moctezuma_ii",
+          "nome": "Moctezuma II",
+          "descricao": "Imperador mexica que governava Tenochtitlan quando Hernán Cortés chegou, em 1519.",
+          "variantes": [
+            "Montezuma",
+            "Moctezuma Xocoyotzin",
+            "Motecuhzoma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Dez Pragas do Egito",
+        "descricao": "Calamidades que, segundo o livro do Êxodo, Deus enviou ao Egito para que o faraó libertasse os hebreus",
+        "variantes": [
+          "Pragas do Egito",
+          "Dez pragas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pragas_do_egito",
+          "nome": "Pragas do Egito",
+          "descricao": "As dez calamidades que, segundo o livro bíblico do Êxodo, Deus enviou ao Egito para libertar os hebreus.",
+          "variantes": [
+            "Dez pragas do Egito",
+            "Plagues of Egypt"
+          ]
+        },
+        {
+          "id": "piratas_do_tiete",
+          "nome": "Piratas do Tietê",
+          "descricao": "Série de quadrinhos de humor do cartunista Laerte sobre um bando de piratas em São Paulo",
+          "variantes": []
+        },
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        },
+        {
+          "id": "professor_agasa",
+          "nome": "Professor Agasa",
+          "descricao": "Hiroshi Agasa, inventor vizinho e aliado do protagonista no mangá Detetive Conan.",
+          "variantes": [
+            "Hiroshi Agasa",
+            "Dr. Agasa"
+          ]
+        },
+        {
+          "id": "patio_do_colegio",
+          "nome": "Pátio do Colégio",
+          "descricao": "Local no centro de São Paulo onde os jesuítas fundaram o colégio que deu origem à cidade.",
+          "variantes": [
+            "Colégio de São Paulo de Piratininga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Quarta-feira de Cinzas",
+        "descricao": "Primeiro dia da Quaresma no calendário cristão ocidental, quando os fiéis recebem cinzas na testa",
+        "variantes": [
+          "Dia de Cinzas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_de_portugal",
+          "nome": "Dia de Portugal",
+          "descricao": "Feriado nacional português, também chamado Dia de Camões e das Comunidades Portuguesas",
+          "variantes": [
+            "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+            "Dia de Camões"
+          ]
+        },
+        {
+          "id": "canicula",
+          "nome": "Canícula",
+          "descricao": "Período mais quente do verão no hemisfério norte, tradicionalmente associado à estrela Sírius",
+          "variantes": [
+            "Dias de cão",
+            "Dog days"
+          ]
+        },
+        {
+          "id": "anzac_day",
+          "nome": "Anzac Day",
+          "descricao": "Feriado de vinte e cinco de abril na Austrália e na Nova Zelândia em memória dos soldados mortos em guerras.",
+          "variantes": [
+            "Dia do Anzac"
+          ]
+        },
+        {
+          "id": "hinamatsuri",
+          "nome": "Hinamatsuri",
+          "descricao": "Festa japonesa do Dia das Meninas, em que se expõem bonecas da corte imperial em degraus.",
+          "variantes": [
+            "Dia das Meninas",
+            "Festival das Bonecas",
+            "Hina Matsuri",
+            "Festa das Bonecas"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Shiva",
+        "descricao": "Divindade hindu, o destruidor e transformador da Trimúrti",
+        "variantes": [
+          "Xiva",
+          "Siva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "hiv",
+          "nome": "HIV",
+          "descricao": "Vírus da imunodeficiência humana, causador da aids, identificado em 1983.",
+          "variantes": [
+            "Vírus da imunodeficiência humana",
+            "Vírus da aids"
+          ]
+        },
+        {
+          "id": "tailandia",
+          "nome": "Tailândia",
+          "descricao": "País do Sudeste Asiático com capital em Bangkok, antes chamado Sião.",
+          "variantes": [
+            "Reino da Tailândia",
+            "Sião"
+          ]
+        },
+        {
+          "id": "shinai",
+          "nome": "Shinai",
+          "descricao": "Espada de treino e competição usada no kendô, a esgrima japonesa.",
+          "variantes": [
+            "Espada de bambu do kendô"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Hanuman",
+        "descricao": "Divindade hindu, devoto e aliado de Rama no épico Ramayana",
+        "variantes": [
+          "Hanumã"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human"
+          ]
+        },
+        {
+          "id": "carlos_arthur_nuzman",
+          "nome": "Carlos Arthur Nuzman",
+          "descricao": "Ex-jogador brasileiro de vôlei e dirigente esportivo, presidente da Confederação Brasileira de Voleibol e do Comitê Olímpico Brasileiro.",
+          "variantes": [
+            "Nuzman"
+          ]
+        },
+        {
+          "id": "zygmunt_bauman",
+          "nome": "Zygmunt Bauman",
+          "descricao": "Sociólogo e filósofo polonês-britânico, autor do conceito de modernidade líquida (1925–2017).",
+          "variantes": [
+            "Bauman"
+          ]
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Árvore Bodhi",
+        "descricao": "Figueira sob a qual, segundo a tradição budista, Siddhartha Gautama alcançou a iluminação, em Bodh Gaya, na Índia",
+        "variantes": [
+          "Árvore de Bodhi",
+          "Bodhi Tree",
+          "Figueira sagrada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "figueira_dos_pagodes",
+          "nome": "Figueira-dos-pagodes",
+          "descricao": "Árvore Ficus religiosa, nativa do subcontinente indiano, sagrada no budismo e no hinduísmo",
+          "variantes": [
+            "Ficus religiosa",
+            "Árvore Bodhi",
+            "Figueira-sagrada"
+          ]
+        },
+        {
+          "id": "arvore_bodhi",
+          "nome": "Árvore Bodhi",
+          "descricao": "Figueira sagrada sob a qual, segundo a tradição budista, Sidarta Gautama alcançou a iluminação.",
+          "variantes": [
+            "Bodhi Tree",
+            "Árvore da Iluminação"
+          ]
+        },
+        {
+          "id": "flamboyant",
+          "nome": "Flamboyant",
+          "descricao": "Delonix regia, árvore ornamental da família Fabaceae, de flores vermelho-alaranjadas, nativa de Madagascar.",
+          "variantes": [
+            "Flamboyan",
+            "Delonix regia",
+            "Árvore-de-fogo"
+          ]
+        },
+        {
+          "id": "carro_de_boi",
+          "nome": "Carro de boi",
+          "descricao": "Veículo rural de madeira com duas rodas, puxado por juntas de bois, tradicional no interior do Brasil.",
+          "variantes": [
+            "Carreta de boi"
+          ]
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Amish",
+        "descricao": "Grupo cristão anabatista tradicionalista que vive em comunidades rurais dos Estados Unidos e do Canadá",
+        "variantes": [
+          "Amishes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        },
+        {
+          "id": "rio_tamisa",
+          "nome": "Rio Tâmisa",
+          "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+          "variantes": [
+            "Tâmisa",
+            "River Thames",
+            "Thames"
+          ]
+        },
+        {
+          "id": "programa_artemis",
+          "nome": "Programa Artemis",
+          "descricao": "Programa espacial da Nasa para levar astronautas de volta à Lua, sucessor do programa Apollo.",
+          "variantes": [
+            "Artemis",
+            "Artemis program"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "moises_michelangelo",
+          "nome": "Moisés (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, na Basílica de San Pietro in Vincoli, em Roma, feita para o túmulo do papa Júlio II.",
+          "variantes": [
+            "Moisés de Michelangelo",
+            "Moses"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Xangô",
+        "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+        "variantes": [
+          "Shango",
+          "Changó",
+          "Sàngó"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tango",
+          "nome": "Tango",
+          "descricao": "Gênero musical e dança surgidos na região do Rio da Prata, entre Buenos Aires e Montevidéu",
+          "variantes": [
+            "Tango argentino"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "el_santo",
+          "nome": "El Santo",
+          "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+          "variantes": [
+            "Santo",
+            "Rodolfo Guzmán Huerta"
+          ]
+        },
+        {
+          "id": "zen",
+          "nome": "Zen",
+          "descricao": "Escola do budismo maaiana surgida na China com o nome de Chan e difundida no Japão.",
+          "variantes": [
+            "Zen-budismo",
+            "Chan",
+            "Budismo zen"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Mihrab",
+        "descricao": "Nicho na parede de uma mesquita voltado para Meca",
+        "variantes": [
+          "Mirabe",
+          "Mihrabe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "miragem",
+          "nome": "Miragem",
+          "descricao": "Fenômeno óptico em que o ar aquecido desvia a luz e cria imagens deslocadas, como falsas poças no asfalto.",
+          "variantes": [
+            "Mirage"
+          ]
+        },
+        {
+          "id": "mirandes",
+          "nome": "Mirandês",
+          "descricao": "Língua asturo-leonesa falada no nordeste de Portugal, reconhecida oficialmente em 1999",
+          "variantes": [
+            "Língua mirandesa"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        },
+        {
+          "id": "rebeca",
+          "nome": "Rebeca",
+          "descricao": "Instrumento medieval de cordas friccionadas, de corpo em forma de pera ou barco, antepassado do violino.",
+          "variantes": [
+            "Rabeca",
+            "Rebec"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Lakshmi",
+        "descricao": "Deusa hindu, esposa de Vixnu",
+        "variantes": [
+          "Laxmi",
+          "Lakshmī"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wlamir_marques",
+          "nome": "Wlamir Marques",
+          "descricao": "Ala brasileiro de basquete, bicampeão mundial com a seleção em 1959 e 1963.",
+          "variantes": [
+            "Wlamir"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "axum",
+          "nome": "Axum",
+          "descricao": "Cidade no norte da Etiópia, antiga capital do Reino de Axum.",
+          "variantes": [
+            "Aksum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Cashrut",
+        "descricao": "Conjunto das leis alimentares judaicas, que definem o que é comida kasher",
+        "variantes": [
+          "Kashrut",
+          "Kosher",
+          "Kasher"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "franz_beckenbauer",
+          "nome": "Franz Beckenbauer",
+          "descricao": "Zagueiro e técnico alemão, campeão do mundo como jogador em 1974 e como técnico em 1990.",
+          "variantes": [
+            "Kaiser"
+          ]
+        },
+        {
+          "id": "le_chahut_seurat",
+          "nome": "Le Chahut (Seurat)",
+          "descricao": "Pintura neoimpressionista de Georges Seurat, de 1889-90, que retrata uma dança de cancã num cabaré parisiense.",
+          "variantes": [
+            "Le Chahut",
+            "O Cancã",
+            "Chahut"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "laser",
+          "nome": "Laser",
+          "descricao": "Dispositivo que emite um feixe de luz concentrado e coerente por emissão estimulada de radiação.",
+          "variantes": [
+            "Raio laser"
+          ]
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Buda",
+        "descricao": "Título de Siddhartha Gautama, mestre indiano que fundou o budismo",
+        "variantes": [
+          "Sidarta Gautama",
+          "Siddhartha Gautama",
+          "Buda Shakyamuni"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buda",
+          "nome": "Buda",
+          "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo.",
+          "variantes": [
+            "Sidarta Gautama",
+            "Siddhartha Gautama",
+            "Buddha",
+            "Gautama Buda",
+            "Buda Gautama"
+          ]
+        },
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "duda_lisboa",
+          "nome": "Duda Lisboa",
+          "descricao": "Jogadora brasileira de vôlei de praia, campeã olímpica com Ana Patrícia em Paris 2024.",
+          "variantes": [
+            "Eduarda Santos Lisboa",
+            "Duda"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cafe_etiope",
+          "nome": "Cerimônia do café etíope",
+          "descricao": "Ritual de hospitalidade da Etiópia e da Eritreia em que o café é torrado, moído e servido diante dos convidados.",
+          "variantes": [
+            "Coffee ceremony",
+            "Buna"
+          ]
+        },
+        {
+          "id": "nippon_budokan",
+          "nome": "Nippon Budokan",
+          "descricao": "Ginásio de Tóquio construído para o judô dos Jogos Olímpicos de 1964, também famoso por shows de música.",
+          "variantes": [
+            "Budokan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Nirvana",
+        "descricao": "Estado de libertação final do sofrimento e do ciclo de renascimentos, meta do budismo",
+        "variantes": [
+          "Nibbana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "miranda",
+          "nome": "Miranda",
+          "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+          "variantes": [
+            "Miranda (satélite)",
+            "Uranus V"
+          ]
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga",
+            "Córrego do Ipiranga"
+          ]
+        },
+        {
+          "id": "ariranha",
+          "nome": "Ariranha",
+          "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+          "variantes": [
+            "Pteronura brasiliensis",
+            "Giant otter",
+            "Lontra-gigante"
+          ]
+        },
+        {
+          "id": "gondwana",
+          "nome": "Gondwana",
+          "descricao": "Antigo supercontinente do hemisfério sul que reunia América do Sul, África, Antártida, Austrália e Índia.",
+          "variantes": [
+            "Gondvana",
+            "Gondwanaland",
+            "Gonduana",
+            "Gondwanalândia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Avatar",
+        "descricao": "No hinduísmo, a encarnação ou manifestação de uma divindade na Terra",
+        "variantes": [
+          "Avatara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        },
+        {
+          "id": "bromelia",
+          "nome": "Bromélia",
+          "descricao": "Planta da família Bromeliaceae, muitas vezes epífita, cujas folhas em roseta acumulam água.",
+          "variantes": [
+            "Bromeliaceae",
+            "Gravatá"
+          ]
+        },
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        },
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        },
+        {
+          "id": "catar",
+          "nome": "Catar",
+          "descricao": "País da península Arábica com capital em Doha, único limite terrestre com a Arábia Saudita.",
+          "variantes": [
+            "Qatar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Evangelho",
+        "descricao": "Cada um dos relatos da vida e dos ensinamentos de Jesus, e a mensagem cristã em geral",
+        "variantes": [
+          "Evangelhos",
+          "Boa-nova"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "neon_genesis_evangelion",
+          "nome": "Neon Genesis Evangelion",
+          "descricao": "Anime japonês de 1995, dirigido por Hideaki Anno, sobre adolescentes que pilotam robôs gigantes contra criaturas chamadas Anjos.",
+          "variantes": [
+            "Evangelion",
+            "Shin Seiki Evangelion"
+          ]
+        },
+        {
+          "id": "friedrich_engels",
+          "nome": "Friedrich Engels",
+          "descricao": "Filósofo e teórico político alemão (1820–1895), parceiro de Karl Marx no Manifesto Comunista.",
+          "variantes": [
+            "Engels"
+          ]
+        },
+        {
+          "id": "boa_vista",
+          "nome": "Boa Vista",
+          "descricao": "Capital do estado de Roraima, às margens do rio Branco, inteiramente no Hemisfério Norte.",
+          "variantes": [
+            "Boa Vista (Roraima)"
+          ]
+        },
+        {
+          "id": "o_angelus_millet",
+          "nome": "O Ângelus (Millet)",
+          "descricao": "Pintura a óleo de Jean-François Millet, de 1857 a 1859, que mostra dois camponeses rezando num campo ao fim do dia.",
+          "variantes": [
+            "O Angelus",
+            "L'Angélus",
+            "The Angelus",
+            "Angelus"
+          ]
+        },
+        {
+          "id": "evangelho_de_marcos",
+          "nome": "Evangelho de Marcos",
+          "descricao": "Um dos quatro evangelhos do Novo Testamento",
+          "variantes": [
+            "Evangelho segundo Marcos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Igreja Católica",
+        "descricao": "Igreja cristã em comunhão com o bispo de Roma, o papa",
+        "variantes": [
+          "Igreja Católica Apostólica Romana",
+          "Catolicismo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estoicismo",
+          "nome": "Estoicismo",
+          "descricao": "Escola filosófica fundada por Zenão de Cítio em Atenas, por volta de 300 a.C.",
+          "variantes": [
+            "Escola estoica",
+            "Stoicism",
+            "Stoicismo"
+          ]
+        },
+        {
+          "id": "igreja_anglicana",
+          "nome": "Igreja Anglicana",
+          "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+          "variantes": [
+            "Igreja da Inglaterra",
+            "Church of England"
+          ]
+        },
+        {
+          "id": "igreja_ortodoxa",
+          "nome": "Igreja Ortodoxa",
+          "descricao": "Comunhão de igrejas cristãs orientais separadas de Roma desde o Cisma de 1054",
+          "variantes": [
+            "Igreja Católica Ortodoxa",
+            "Eastern Orthodox Church"
+          ]
+        },
+        {
+          "id": "galicismos",
+          "nome": "Galicismos",
+          "descricao": "Palavras e expressões do português tomadas do francês",
+          "variantes": [
+            "Francesismos"
+          ]
+        },
+        {
+          "id": "ciclismo_de_estrada",
+          "nome": "Ciclismo de estrada",
+          "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+          "variantes": [
+            "Ciclismo",
+            "Ciclismo de rua",
+            "Road bicycle racing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Oxóssi",
+        "descricao": "Orixá caçador, ligado às matas e à fartura, cultuado no candomblé e na umbanda",
+        "variantes": [
+          "Oxossi",
+          "Ochosi",
+          "Ọ̀ṣọ́ọ̀sì"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nachos",
+          "nome": "Nachos",
+          "descricao": "Petisco mexicano de triângulos de tortilha frita cobertos com queijo derretido e pimenta jalapeño",
+          "variantes": []
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "orquidea",
+          "nome": "Orquídea",
+          "descricao": "Planta da família Orchidaceae, uma das maiores famílias de plantas com flores",
+          "variantes": [
+            "Orchidaceae",
+            "orquidácea",
+            "orchid"
+          ]
+        },
+        {
+          "id": "fossil",
+          "nome": "Fóssil",
+          "descricao": "Resto ou vestígio preservado de um ser vivo de épocas geológicas passadas.",
+          "variantes": [
+            "Fósseis"
+          ]
+        },
+        {
+          "id": "frederic_chopin",
+          "nome": "Frédéric Chopin",
+          "descricao": "Compositor e pianista polonês do romantismo (1810–1849), que viveu e morreu em Paris.",
+          "variantes": [
+            "Chopin",
+            "Fryderyk Chopin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Biblos",
+        "descricao": "Antiga cidade fenícia no litoral do atual Líbano, importante centro do comércio de papiro",
+        "variantes": [
+          "Byblos",
+          "Jbeil",
+          "Gebal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bagel",
+          "nome": "Bagel",
+          "descricao": "Pão em formato de anel, de massa densa, cozido em água e depois assado, originário das comunidades judaicas da Polônia.",
+          "variantes": [
+            "Beigel",
+            "Beygl"
+          ]
+        },
+        {
+          "id": "gim",
+          "nome": "Gim",
+          "descricao": "Bebida destilada aromatizada com botânicos, base de coquetéis como o gim-tônica",
+          "variantes": [
+            "Gin",
+            "Genebra"
+          ]
+        },
+        {
+          "id": "joel",
+          "nome": "Joel",
+          "descricao": "Protagonista do jogo The Last of Us, da Naughty Dog, e da série de TV baseada nele.",
+          "variantes": [
+            "Joel Miller"
+          ]
+        },
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Amaterasu",
+        "descricao": "Deusa do Sol na mitologia e no xintoísmo japoneses",
+        "variantes": [
+          "Amaterasu Ōmikami",
+          "Amaterasu-Omikami"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "amargassauro",
+          "nome": "Amargassauro",
+          "descricao": "Gênero de dinossauro saurópode do Cretáceo Inferior da Argentina, com duas fileiras de longos espinhos no pescoço e dorso.",
+          "variantes": [
+            "Amargasaurus"
+          ]
+        },
+        {
+          "id": "atenas",
+          "nome": "Atenas",
+          "descricao": "Capital da Grécia, vista com a Acrópole e o Partenon.",
+          "variantes": [
+            "Athens",
+            "Atenas, Grécia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Atos dos Apóstolos",
+        "descricao": "Livro do Novo Testamento que narra os primeiros anos da Igreja cristã depois da morte de Jesus",
+        "variantes": [
+          "Atos",
+          "Actos dos Apóstolos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "agitos",
+          "nome": "Agitos",
+          "descricao": "Símbolo dos Jogos Paralímpicos, formado por três meias-luas em vermelho, azul e verde.",
+          "variantes": [
+            "Símbolo paralímpico"
+          ]
+        },
+        {
+          "id": "patmos",
+          "nome": "Patmos",
+          "descricao": "Pequena ilha grega do arquipélago do Dodecaneso, no mar Egeu.",
+          "variantes": []
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Conversão de Paulo",
+        "descricao": "Episódio em que Saulo de Tarso se converteu ao cristianismo no caminho de Damasco, celebrado em 25 de janeiro",
+        "variantes": [
+          "Conversão de São Paulo",
+          "Conversão de Paulo de Tarso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        },
+        {
+          "id": "grande_premio_do_brasil",
+          "nome": "Grande Prêmio do Brasil",
+          "descricao": "Corrida de Fórmula 1 disputada no Brasil, em Interlagos e em Jacarepaguá, válida pelo Mundial desde 1973.",
+          "variantes": [
+            "GP do Brasil",
+            "Grande Prêmio de São Paulo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "Jainismo",
+        "descricao": "Religião indiana antiga baseada na não violência radical, cujo principal mestre foi Mahavira",
+        "variantes": [
+          "Jainism"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cinismo_escola_filosofica",
+          "nome": "Cinismo (escola filosófica)",
+          "descricao": "Escola filosófica grega de Antístenes e Diógenes de Sinope, que pregava viver com o mínimo e contra as convenções.",
+          "variantes": [
+            "Cínicos",
+            "Cynicism",
+            "Cinismo",
+            "Escola cínica",
+            "Cinismo (filosofia)"
+          ]
+        },
+        {
+          "id": "xiismo",
+          "nome": "Xiismo",
+          "descricao": "Um dos dois grandes ramos do islã, ao lado do sunismo",
+          "variantes": [
+            "Islã xiita",
+            "Xiitas"
+          ]
+        },
+        {
+          "id": "xintoismo",
+          "nome": "Xintoísmo",
+          "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+          "variantes": [
+            "Xintô",
+            "Shinto",
+            "Shintoísmo"
+          ]
+        },
+        {
+          "id": "mandioca",
+          "nome": "Mandioca",
+          "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+          "variantes": [
+            "Aipim",
+            "Macaxeira",
+            "Manihot esculenta",
+            "cassava",
+            "mandioca-brava"
+          ]
+        },
+        {
+          "id": "daltonismo",
+          "nome": "Daltonismo",
+          "descricao": "Deficiência na percepção de cores, em geral hereditária.",
+          "variantes": [
+            "Discromatopsia",
+            "Color blindness",
+            "Cegueira para cores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "proposta": {
+        "nome": "Eid al-Adha",
+        "descricao": "Festa islâmica do sacrifício, celebrada no período da peregrinação a Meca",
+        "variantes": [
+          "Festa do Sacrifício",
+          "Eid al-Adha",
+          "Bayram"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "bahrein",
+          "nome": "Bahrein",
+          "descricao": "País insular do Golfo Pérsico, com capital em Manama.",
+          "variantes": [
+            "Barém",
+            "Bahrain",
+            "Barein"
+          ]
+        },
+        {
+          "id": "festa_de_sao_firmino",
+          "nome": "Festa de São Firmino",
+          "descricao": "Festa de julho em Pamplona, na Espanha, famosa pelos encierros, em que as pessoas correm à frente de touros pelas ruas.",
+          "variantes": [
+            "San Fermín",
+            "Sanfermines",
+            "Festas de São Firmino"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "festa_do_divino",
+          "nome": "Festa do Divino",
+          "descricao": "Festa católica popular em honra do Espírito Santo, trazida de Portugal, com coroação de imperador e folias.",
+          "variantes": [
+            "Festa do Divino Espírito Santo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "proposta": {
+        "nome": "Cardeal",
+        "descricao": "Membro do Colégio dos Cardeais da Igreja Católica, responsável por eleger o papa",
+        "variantes": [
+          "Cardeais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cardeal",
+          "nome": "Cardeal",
+          "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+          "variantes": [
+            "Cardeal-de-topete-vermelho",
+            "Paroaria coronata",
+            "Red-crested cardinal"
+          ]
+        },
+        {
+          "id": "caral",
+          "nome": "Caral",
+          "descricao": "Sítio arqueológico com pirâmides e praças no vale do Supe, no Peru, centro da civilização Norte Chico.",
+          "variantes": [
+            "Caral-Supe"
+          ]
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel"
+          ]
+        },
+        {
+          "id": "pardal",
+          "nome": "Pardal",
+          "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+          "variantes": [
+            "Pardal-comum",
+            "Passer domesticus"
+          ]
+        },
+        {
+          "id": "caribes",
+          "nome": "Caribes",
+          "descricao": "Povo indígena das Pequenas Antilhas, também chamado kalinago, que deu nome ao mar do Caribe.",
+          "variantes": [
+            "Kalinago",
+            "Caraíbas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "proposta": {
+        "nome": "Diwali",
+        "descricao": "Festa das luzes do hinduísmo, também celebrada por sikhs e jainistas",
+        "variantes": [
+          "Deepavali",
+          "Divali"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diwali",
+          "nome": "Diwali",
+          "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
+          "variantes": [
+            "Deepavali",
+            "Dipavali",
+            "Divali"
+          ]
+        },
+        {
+          "id": "dili",
+          "nome": "Díli",
+          "descricao": "Capital e maior cidade do Timor-Leste.",
+          "variantes": []
+        },
+        {
+          "id": "antonio_vivaldi",
+          "nome": "Antonio Vivaldi",
+          "descricao": "Compositor e violinista barroco italiano de Veneza (1678–1741), autor de As Quatro Estações.",
+          "variantes": [
+            "Vivaldi",
+            "Antonio Lucio Vivaldi"
+          ]
+        },
+        {
+          "id": "waldi",
+          "nome": "Waldi",
+          "descricao": "Mascote dos Jogos Olímpicos de Munique 1972, o primeiro mascote olímpico oficial.",
+          "variantes": []
+        },
+        {
+          "id": "javali",
+          "nome": "Javali",
+          "descricao": "Suíno selvagem (Sus scrofa) nativo da Eurásia e do norte da África, ancestral do porco doméstico.",
+          "variantes": [
+            "Javali-europeu",
+            "Sus scrofa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "proposta": {
+        "nome": "Centro Mundial Bahá'í",
+        "descricao": "Conjunto de edifícios e jardins em terraços no Monte Carmelo que serve de sede da Fé Bahá'í",
+        "variantes": [
+          "Jardins Bahá'ís",
+          "Terraços Bahá'ís",
+          "Bahá'í World Centre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "temporada_de_formula_1_de_1950",
+          "nome": "Temporada de Fórmula 1 de 1950",
+          "descricao": "Primeira temporada do Campeonato Mundial de Fórmula 1, dominada pela Alfa Romeo.",
+          "variantes": [
+            "Campeonato Mundial de 1950"
+          ]
+        },
+        {
+          "id": "adis_abeba",
+          "nome": "Adis Abeba",
+          "descricao": "Capital e maior cidade da Etiópia.",
+          "variantes": [
+            "Addis Ababa"
+          ]
+        },
+        {
+          "id": "terraco_do_cafe_a_noite",
+          "nome": "Terraço do Café à Noite",
+          "descricao": "Pintura a óleo de Vincent van Gogh, de 1888, que mostra um terraço de café iluminado numa praça de Arles, na França.",
+          "variantes": [
+            "Café Terrace at Night",
+            "O Terraço do Café na Place du Forum",
+            "Terraço de Café à Noite"
+          ]
+        },
+        {
+          "id": "formula_e",
+          "nome": "Fórmula E",
+          "descricao": "Campeonato mundial de monopostos elétricos organizado pela FIA, disputado desde 2014.",
+          "variantes": [
+            "Campeonato Mundial de Fórmula E"
+          ]
+        },
+        {
+          "id": "chinampa",
+          "nome": "Chinampa",
+          "descricao": "Canteiro agrícola artificial construído pelos astecas sobre as águas rasas dos lagos do vale do México.",
+          "variantes": [
+            "Chinampas",
+            "Jardins flutuantes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 42,
+      "proposta": {
+        "nome": "Meteora",
+        "descricao": "Conjunto de mosteiros ortodoxos construídos no alto de pilares de rocha, na Tessália",
+        "variantes": [
+          "Metéora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        },
+        {
+          "id": "gol_baliza",
+          "nome": "Gol (baliza)",
+          "descricao": "Armação formada por duas traves e um travessão onde a bola deve entrar para valer um gol no futebol.",
+          "variantes": [
+            "Baliza",
+            "Meta",
+            "Goal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 43,
+      "proposta": {
+        "nome": "Santo Antônio",
+        "descricao": "Frade franciscano do século treze, conhecido como Santo Antônio de Pádua, festejado em 13 de junho",
+        "variantes": [
+          "Santo Antônio de Pádua",
+          "Santo António de Lisboa",
+          "Antônio de Lisboa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santo_antonio",
+          "nome": "Santo Antônio",
+          "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
+          "variantes": [
+            "Santo Antônio de Pádua",
+            "Santo Antônio de Lisboa"
+          ]
+        },
+        {
+          "id": "marco_antonio",
+          "nome": "Marco Antônio",
+          "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+          "variantes": [
+            "Marcus Antonius",
+            "Mark Antony"
+          ]
+        },
+        {
+          "id": "baixa_pombalina",
+          "nome": "Baixa Pombalina",
+          "descricao": "Centro histórico de Lisboa, reconstruído em traçado regular sob o Marquês de Pombal.",
+          "variantes": [
+            "Pombaline Lower Town",
+            "Baixa de Lisboa"
+          ]
+        },
+        {
+          "id": "aleijadinho",
+          "nome": "Aleijadinho",
+          "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito.",
+          "variantes": [
+            "Antônio Francisco Lisboa"
+          ]
+        },
+        {
+          "id": "frei_galvao",
+          "nome": "Frei Galvão",
+          "descricao": "Frade franciscano paulista do século dezoito, primeiro santo nascido no Brasil",
+          "variantes": [
+            "Santo Antônio de Sant'Anna Galvão",
+            "Santo Antônio de Santana Galvão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 44,
+      "proposta": {
+        "nome": "Epifania",
+        "descricao": "Festa cristã que celebra a manifestação de Jesus, associada no Ocidente à visita dos Reis Magos",
+        "variantes": [
+          "Dia de Reis",
+          "Festa dos Reis Magos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_do_rei",
+          "nome": "Dia do Rei",
+          "descricao": "Feriado nacional dos Países Baixos em homenagem ao aniversário do monarca.",
+          "variantes": [
+            "Koningsdag",
+            "King's Day"
+          ]
+        },
+        {
+          "id": "forte_dos_reis_magos",
+          "nome": "Forte dos Reis Magos",
+          "descricao": "Fortaleza colonial em forma de estrela na foz do rio Potengi, em Natal, Rio Grande do Norte.",
+          "variantes": [
+            "Fortaleza dos Reis Magos"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "dia_de_portugal",
+          "nome": "Dia de Portugal",
+          "descricao": "Feriado nacional português, também chamado Dia de Camões e das Comunidades Portuguesas",
+          "variantes": [
+            "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+            "Dia de Camões"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 45,
+      "proposta": {
+        "nome": "Cisma do Oriente",
+        "descricao": "Ruptura entre a Igreja de Roma e as igrejas cristãs orientais, que originou a separação entre católicos e ortodoxos",
+        "variantes": [
+          "Grande Cisma do Oriente",
+          "Cisma de 1054",
+          "Grande Cisma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_irmao",
+          "nome": "Grande Irmão",
+          "descricao": "Líder onipresente e vigilante do regime totalitário no romance 1984, de George Orwell.",
+          "variantes": [
+            "Big Brother (1984)"
+          ]
+        },
+        {
+          "id": "grande_seca_de_1877",
+          "nome": "Grande Seca de 1877",
+          "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+          "variantes": [
+            "Grande Seca",
+            "Seca dos Dois Setes"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        },
+        {
+          "id": "grande_zimbabue",
+          "nome": "Grande Zimbábue",
+          "descricao": "Ruínas de uma cidade medieval de pedra no sudeste do atual Zimbábue, capital de um reino entre os séculos onze e quinze.",
+          "variantes": [
+            "Great Zimbabwe",
+            "Grande Zimbabwe"
+          ]
+        },
+        {
+          "id": "a_grande_ilusao",
+          "nome": "A Grande Ilusão",
+          "descricao": "Filme francês de 1937, dirigido por Jean Renoir, sobre oficiais franceses prisioneiros dos alemães na Primeira Guerra Mundial.",
+          "variantes": [
+            "La Grande Illusion",
+            "Grand Illusion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 46,
+      "proposta": {
+        "nome": "Livro de Mórmon",
+        "descricao": "Texto sagrado da Igreja de Jesus Cristo dos Santos dos Últimos Dias, publicado em 1830",
+        "variantes": [
+          "Book of Mormon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "livro_dos_mortos",
+          "nome": "Livro dos Mortos",
+          "descricao": "Coletânea egípcia de fórmulas mágicas escritas em papiro e postas nas tumbas para guiar o morto no além",
+          "variantes": [
+            "Book of the Dead",
+            "Livro egípcio dos mortos"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "lei_de_moore",
+          "nome": "Lei de Moore",
+          "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+          "variantes": [
+            "Moore's law"
+          ]
+        },
+        {
+          "id": "urso_de_ouro",
+          "nome": "Urso de Ouro",
+          "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+          "variantes": [
+            "Golden Bear",
+            "Goldener Bär"
+          ]
+        },
+        {
+          "id": "colossos_de_memnon",
+          "nome": "Colossos de Mêmnon",
+          "descricao": "Par de estátuas colossais de Amenhotep III diante do seu templo funerário, em Luxor, no Egito.",
+          "variantes": [
+            "Colossi of Memnon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 47,
+      "proposta": {
+        "nome": "Guarda Suíça",
+        "descricao": "Corpo militar que protege o papa e o Vaticano, formado por soldados suíços",
+        "variantes": [
+          "Guarda Suíça Pontifícia",
+          "Pontifical Swiss Guard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guarda_chuva",
+          "nome": "Guarda-chuva",
+          "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+          "variantes": [
+            "Sombrinha",
+            "Umbrella",
+            "Parasol"
+          ]
+        },
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        },
+        {
+          "id": "martim_pescador",
+          "nome": "Martim-pescador",
+          "descricao": "Martim-pescador-comum (Alcedo atthis), pequena ave de bico longo e pontudo que mergulha para pescar.",
+          "variantes": [
+            "Guarda-rios",
+            "Alcedo atthis"
+          ]
+        },
+        {
+          "id": "liga_da_justica",
+          "nome": "Liga da Justiça",
+          "descricao": "Equipe de super-heróis da DC Comics criada em 1960, com Superman, Batman e Mulher-Maravilha",
+          "variantes": [
+            "Justice League",
+            "Liga da Justiça da América"
+          ]
+        },
+        {
+          "id": "guarana_jesus",
+          "nome": "Guaraná Jesus",
+          "descricao": "Refrigerante de guaraná cor-de-rosa criado em 1920 pelo farmacêutico Jesus Norberto Gomes, em São Luís.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 48,
+      "proposta": {
+        "nome": "Grande Santuário de Ise",
+        "descricao": "Complexo de santuários xintoístas em Ise, no Japão, dedicado à deusa Amaterasu",
+        "variantes": [
+          "Ise Jingu",
+          "Santuário de Ise",
+          "Ise Grand Shrine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos"
+          ]
+        },
+        {
+          "id": "santuario_de_itsukushima",
+          "nome": "Santuário de Itsukushima",
+          "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo grande portal torii erguido sobre o mar.",
+          "variantes": [
+            "Itsukushima-jinja",
+            "Miyajima"
+          ]
+        },
+        {
+          "id": "santuario_do_bom_jesus_de_congonhas",
+          "nome": "Santuário do Bom Jesus de Congonhas",
+          "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os profetas esculpidos por Aleijadinho.",
+          "variantes": [
+            "Santuário do Bom Jesus de Matosinhos",
+            "Basílica do Bom Jesus de Matosinhos",
+            "Santuário de Congonhas"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o livro dos Salmos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Evangelho de Marcos é outro livro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mesquita diferente das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Rigveda é parte dos Vedas, não a mesma entidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "matusalem_2",
+      "motivo": "Patriarca bíblico, avô de Noé."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Xiismo é outro ramo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 17,
+      "decisao": "mesma",
+      "id_existente": "pragas_do_egito",
+      "motivo": "Mesmas dez pragas do Êxodo."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 21,
+      "decisao": "mesma",
+      "id_existente": "arvore_bodhi",
+      "motivo": "Mesma árvore da iluminação; a figueira-dos-pagodes é a espécie."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 27,
+      "decisao": "mesma",
+      "id_existente": "buda",
+      "motivo": "Sidarta Gautama, fundador do budismo."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Conceito geral, distinto de Evangelho de Marcos."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "A candidata Cardeal é a ave; a proposta é o título eclesiástico."
+    },
+    {
+      "caso": 40,
+      "decisao": "mesma",
+      "id_existente": "diwali",
+      "motivo": "Mesma festa hindu das luzes."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 42,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 43,
+      "decisao": "mesma",
+      "id_existente": "santo_antonio",
+      "motivo": "Mesmo santo franciscano celebrado em 13 de junho."
+    },
+    {
+      "caso": 44,
+      "decisao": "nova",
+      "motivo": "Folia de Reis é outra manifestação."
+    },
+    {
+      "caso": 45,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 46,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 47,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 48,
+      "decisao": "mesma",
+      "id_existente": "santuario_de_ise",
+      "motivo": "Mesmo complexo xintoísta de Ise, com variante idêntica."
+    }
+  ]
+}
