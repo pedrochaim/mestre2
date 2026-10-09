@@ -43901,7 +43901,8 @@
     "variantes": [
       "Hang Sơn Đoòng",
       "Son Doong",
-      "Hang Son Doong"
+      "Hang Son Doong",
+      "Son Doong Cave"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng"
@@ -58129,7 +58130,8 @@
     "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros.",
     "variantes": [
       "Cervino",
-      "Monte Cervino"
+      "Monte Cervino",
+      "Cervin"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Matterhorn",
@@ -91287,7 +91289,8 @@
     "descricao": "Imenso deserto de areia do sul da Península Arábica",
     "variantes": [
       "Empty Quarter",
-      "Quarteirão Vazio"
+      "Quarteirão Vazio",
+      "Quarto Vazio"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Rub%27_al_Khali"
@@ -102970,7 +102973,8 @@
     "nome": "Alpes",
     "descricao": "Cadeia de montanhas da Europa Central e Ocidental, de Nice a Viena, com picos como o Mont Blanc.",
     "variantes": [
-      "Alpes europeus"
+      "Alpes europeus",
+      "Alps"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Alps",
@@ -123621,7 +123625,8 @@
     "nome": "Areias monazíticas de Guarapari",
     "descricao": "Areias escuras de praias de Guarapari, no Espírito Santo, ricas no mineral monazita.",
     "variantes": [
-      "Areia preta de Guarapari"
+      "Areia preta de Guarapari",
+      "Areia monazítica"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Guarapari"
@@ -133696,6 +133701,196 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Public_aquarium"
+    ]
+  },
+  {
+    "id": "monte_elbrus",
+    "nome": "Monte Elbrus",
+    "descricao": "Vulcão adormecido de dois cumes na cordilheira do Cáucaso, no sul da Rússia.",
+    "variantes": [
+      "Elbrus",
+      "Elbrús"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mount_Elbrus"
+    ]
+  },
+  {
+    "id": "pico_parana",
+    "nome": "Pico Paraná",
+    "descricao": "Montanha da Serra do Mar, no estado do Paraná, ponto culminante da Região Sul do Brasil.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pico_Paraná"
+    ]
+  },
+  {
+    "id": "ben_nevis",
+    "nome": "Ben Nevis",
+    "descricao": "Montanha das Terras Altas da Escócia, perto de Fort William, o ponto mais alto do Reino Unido.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ben_Nevis"
+    ]
+  },
+  {
+    "id": "teide",
+    "nome": "Teide",
+    "descricao": "Vulcão da ilha de Tenerife, nas Canárias, o ponto mais alto da Espanha.",
+    "variantes": [
+      "Pico del Teide",
+      "Monte Teide"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Teide"
+    ]
+  },
+  {
+    "id": "montanha_do_pico",
+    "nome": "Montanha do Pico",
+    "descricao": "Estratovulcão da ilha do Pico, no arquipélago dos Açores, o ponto mais alto de Portugal.",
+    "variantes": [
+      "Monte Pico",
+      "Pico"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Montanha_do_Pico"
+    ]
+  },
+  {
+    "id": "mauna_loa",
+    "nome": "Mauna Loa",
+    "descricao": "Vulcão em escudo ativo na ilha do Havaí, nos Estados Unidos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mauna_Loa"
+    ]
+  },
+  {
+    "id": "white_sands",
+    "nome": "White Sands",
+    "descricao": "Parque nacional no Novo México, Estados Unidos, com um enorme campo de dunas brancas.",
+    "variantes": [
+      "White Sands National Park",
+      "Parque Nacional de White Sands"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/White_Sands_National_Park"
+    ]
+  },
+  {
+    "id": "sete_cumes",
+    "nome": "Sete Cumes",
+    "descricao": "Conjunto formado pela montanha mais alta de cada continente, desafio clássico do montanhismo.",
+    "variantes": [
+      "Seven Summits"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Seven_Summits"
+    ]
+  },
+  {
+    "id": "monte_erebus",
+    "nome": "Monte Erebus",
+    "descricao": "Vulcão ativo na Ilha de Ross, na Antártida.",
+    "variantes": [
+      "Erebus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mount_Erebus"
+    ]
+  },
+  {
+    "id": "monte_kosciuszko",
+    "nome": "Monte Kosciuszko",
+    "descricao": "Montanha dos Alpes Australianos, em Nova Gales do Sul, o ponto mais alto da Austrália continental.",
+    "variantes": [
+      "Mount Kosciuszko"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mount_Kosciuszko"
+    ]
+  },
+  {
+    "id": "planalto_tibetano",
+    "nome": "Planalto Tibetano",
+    "descricao": "Vasto planalto de grande altitude na Ásia Central, ao norte do Himalaia, que ocupa o Tibete e regiões vizinhas.",
+    "variantes": [
+      "Planalto do Tibete",
+      "Tibetan Plateau"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tibetan_Plateau"
+    ]
+  },
+  {
+    "id": "sossusvlei",
+    "nome": "Sossusvlei",
+    "descricao": "Depressão de argila e sal cercada por altas dunas vermelhas no deserto do Namibe, na Namíbia.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sossusvlei"
+    ]
+  },
+  {
+    "id": "poco_encantado",
+    "nome": "Poço Encantado",
+    "descricao": "Caverna com lago de águas transparentes no município de Itaetê, na Chapada Diamantina, Bahia.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Poço_Encantado"
+    ]
+  },
+  {
+    "id": "cascata_do_caracol",
+    "nome": "Cascata do Caracol",
+    "descricao": "Queda d'água de cerca de 130 metros no Parque Estadual do Caracol, na serra gaúcha.",
+    "variantes": [
+      "Cachoeira do Caracol"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Cascata_do_Caracol"
+    ]
+  },
+  {
+    "id": "parque_nacional_de_sete_cidades",
+    "nome": "Parque Nacional de Sete Cidades",
+    "descricao": "Parque nacional no Nordeste do Brasil com formações de arenito que lembram ruínas, castelos e animais.",
+    "variantes": [
+      "Sete Cidades"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_de_Sete_Cidades"
+    ]
+  },
+  {
+    "id": "ilha_do_havai",
+    "nome": "Ilha do Havaí",
+    "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+    "variantes": [
+      "Big Island",
+      "Hawaii Island"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hawaii_(island)"
+    ]
+  },
+  {
+    "id": "horsetail_fall",
+    "nome": "Horsetail Fall",
+    "descricao": "Cachoeira sazonal que desce pela face leste do El Capitan, no Vale de Yosemite, na Califórnia.",
+    "variantes": [
+      "Cachoeira Horsetail",
+      "Firefall"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Horsetail_Fall_(Yosemite)"
+    ]
+  },
+  {
+    "id": "gruta_de_fingal",
+    "nome": "Gruta de Fingal",
+    "descricao": "Caverna marinha de colunas de basalto na ilha desabitada de Staffa, nas Hébridas Interiores, na Escócia.",
+    "variantes": [
+      "Fingal's Cave"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fingal%27s_Cave"
     ]
   }
 ]
