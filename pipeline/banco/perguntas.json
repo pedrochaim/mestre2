@@ -161203,5 +161203,567 @@
       "autor": "Пресс-служба Президента России",
       "licenca": "CC BY 4.0"
     }
+  },
+  {
+    "id": "q09412",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "mercurio",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Usado nos termômetros antigos, que metal é o único que permanece líquido em temperatura ambiente?",
+    "resposta": "Mercúrio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury_(element)"
+    ]
+  },
+  {
+    "id": "q09413",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "mercurio",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O símbolo químico do mercúrio, Hg, vem de uma palavra de origem grega, hidrargírio. O que ela significa?",
+    "resposta": "Prata líquida",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(elemento_qu%C3%ADmico)"
+    ]
+  },
+  {
+    "id": "q09414",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "helio",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Usado para resfriar os ímãs dos aparelhos de ressonância magnética, que elemento químico tem o ponto de ebulição mais baixo de todos?",
+    "resposta": "Hélio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Helium"
+    ]
+  },
+  {
+    "id": "q09415",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "tungstenio",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre todos os metais, qual é o que suporta as temperaturas mais altas antes de derreter?",
+    "resposta": "Tungstênio",
+    "distratores": [
+      "Titânio",
+      "Platina",
+      "Ferro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tungsten"
+    ]
+  },
+  {
+    "id": "q09416",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "oxigenio",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Presente em rochas, areia e argila, que elemento químico é o mais abundante na crosta terrestre?",
+    "resposta": "Oxigênio",
+    "distratores": [
+      "Silício",
+      "Alumínio",
+      "Ferro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
+    ]
+  },
+  {
+    "id": "q09417",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "hidrogenio",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Combustível das estrelas, que elemento químico é o mais abundante do universo, com cerca de três quartos da matéria comum?",
+    "resposta": "Hidrogênio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hydrogen"
+    ]
+  },
+  {
+    "id": "q09418",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "litio",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Tão leve que consegue boiar até em óleo, qual é o metal de menor densidade?",
+    "resposta": "Lítio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lithium"
+    ]
+  },
+  {
+    "id": "q09419",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "ouro",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Batido em folhas finíssimas para revestir altares de igrejas barrocas, qual é o metal mais maleável que existe?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gold"
+    ]
+  },
+  {
+    "id": "q09420",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "fluor",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Que elemento químico, presente em compostos das pastas de dente, é considerado o mais reativo de todos?",
+    "resposta": "Flúor",
+    "distratores": [
+      "Cloro",
+      "Oxigênio",
+      "Sódio"
+    ],
+    "fonte": [
+      "https://www.britannica.com/science/fluorine",
+      "https://en.wikipedia.org/wiki/Fluorine"
+    ]
+  },
+  {
+    "id": "q09421",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "latao",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Usado em trompetes, trombones e saxofones, o latão é uma liga de cobre com que metal?",
+    "resposta": "Zinco",
+    "distratores": [
+      "Estanho",
+      "Níquel",
+      "Chumbo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brass"
+    ]
+  },
+  {
+    "id": "q09422",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "aco",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Mais resistente que o ferro puro, o aço nasce da mistura do ferro com uma pequena porção de que elemento?",
+    "resposta": "Carbono",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steel"
+    ]
+  },
+  {
+    "id": "q09423",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "vinagre",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Formado pela fermentação do vinho e de outras bebidas, que ácido dá ao vinagre seu sabor azedo?",
+    "resposta": "Ácido acético",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vinegar"
+    ]
+  },
+  {
+    "id": "q09424",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "porcelana",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que argila branca e fina é a principal matéria-prima da porcelana?",
+    "resposta": "Caulim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porcelain",
+      "https://pt.wikipedia.org/wiki/Caulim"
+    ]
+  },
+  {
+    "id": "q09425",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "porcelana",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país surgiu a porcelana, tão ligada a ele que em inglês a louça fina leva o nome do país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porcelain"
+    ]
+  },
+  {
+    "id": "q09426",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "gesso",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Usado em forros, moldes e para imobilizar ossos quebrados, o gesso é obtido aquecendo que mineral?",
+    "resposta": "Gipsita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gypsum",
+      "https://pt.wikipedia.org/wiki/Gipsita"
+    ]
+  },
+  {
+    "id": "q09427",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "gas_liquefeito_de_petroleo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O gás do botijão de cozinha é uma mistura de dois gases derivados do petróleo. Quais são eles?",
+    "resposta": "Propano e butano",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo",
+      "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+    ]
+  },
+  {
+    "id": "q09428",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "pedra_sabao",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A pedra-sabão, em que Aleijadinho esculpiu os profetas de Congonhas, é macia por ser rica em que mineral?",
+    "resposta": "Talco",
+    "distratores": [
+      "Quartzo",
+      "Mica",
+      "Calcita"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Soapstone"
+    ]
+  },
+  {
+    "id": "q09429",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "clorofila",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No centro da molécula de clorofila, o pigmento verde das plantas, fica um átomo de que metal?",
+    "resposta": "Magnésio",
+    "distratores": [
+      "Ferro",
+      "Cobre",
+      "Zinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chlorophyll"
+    ]
+  },
+  {
+    "id": "q09430",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "agua",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário da maioria das substâncias, o que acontece com o volume da água quando ela congela?",
+    "resposta": "Aumenta, ela se expande",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Properties_of_water"
+    ]
+  },
+  {
+    "id": "q09431",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "tornassol",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Feito com um corante extraído de líquens, o papel de tornassol fica de que cor ao entrar em contato com um ácido?",
+    "resposta": "Vermelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Litmus"
+    ]
+  },
+  {
+    "id": "q09432",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "silicio",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Base dos chips eletrônicos, o silício é um material de que tipo, nem bom condutor de eletricidade nem isolante?",
+    "resposta": "Semicondutor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silicon"
+    ]
+  },
+  {
+    "id": "q09433",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "vidro_de_uranio",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Sob luz ultravioleta, as peças antigas de vidro de urânio brilham em que cor?",
+    "resposta": "Verde",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uranium_glass"
+    ]
+  },
+  {
+    "id": "q09434",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "cloreto_de_sodio",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Vistos de perto com uma lupa, os grãos do sal de cozinha têm que forma geométrica?",
+    "resposta": "Cubo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sodium_chloride"
+    ]
+  },
+  {
+    "id": "q09435",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "acido_fluoridrico",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Por que o ácido fluorídrico é guardado em frascos de plástico, e não em frascos de vidro?",
+    "resposta": "Porque corrói o vidro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hydrofluoric_acid"
+    ]
+  },
+  {
+    "id": "q09436",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "grafite",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário do diamante, também feito de carbono, o grafite tem que propriedade elétrica?",
+    "resposta": "Conduz eletricidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Graphite"
+    ]
+  },
+  {
+    "id": "q09437",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "nitroglicerina",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Além de explosivo poderoso, a nitroglicerina também é um remédio. Que tipo de dor ela é usada para aliviar?",
+    "resposta": "Dor no peito, a angina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nitroglycerin_(medication)"
+    ]
+  },
+  {
+    "id": "q09438",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "oxido_nitroso",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Apelidado de gás hilariante pela euforia que provoca, que gás é usado por dentistas como anestésico leve?",
+    "resposta": "Óxido nitroso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nitrous_oxide"
+    ]
+  },
+  {
+    "id": "q09439",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "ozonio",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Batizado em 1839 pelo químico Christian Schönbein, o ozônio tem nome derivado de um verbo grego que significa o quê?",
+    "resposta": "Cheirar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ozone"
+    ]
+  },
+  {
+    "id": "q09440",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "xenonio",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Usado em faróis de carro, o gás nobre xenônio recebeu um nome grego que o descreve como o quê?",
+    "resposta": "Estrangeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xenon"
+    ]
+  },
+  {
+    "id": "q09441",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "iodo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Ao ser aquecido, o iodo solta um vapor colorido que lhe valeu o nome, tirado do grego. Que cor é essa?",
+    "resposta": "Violeta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iodine"
+    ]
+  },
+  {
+    "id": "q09442",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "galio",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Descoberto em 1875 por Lecoq de Boisbaudran, o gálio recebeu o nome latino de que país, terra natal do descobridor?",
+    "resposta": "França",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gallium"
+    ]
+  },
+  {
+    "id": "q09443",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "sodio",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o símbolo químico do sódio tem a ver com as múmias do antigo Egito?",
+    "resposta": "Vem do natrão, usado na mumificação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sodium",
+      "https://en.wikipedia.org/wiki/Natron"
+    ]
+  },
+  {
+    "id": "q09444",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "einstenio",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o elemento einstênio tem a ver com a primeira bomba de hidrogênio, testada pelos americanos em 1952?",
+    "resposta": "Foi descoberto nos resíduos dela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Einsteinium",
+      "https://en.wikipedia.org/wiki/Ivy_Mike"
+    ]
+  },
+  {
+    "id": "q09445",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "rubidio",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o nome do elemento químico rubídio tem em comum com o nome da pedra preciosa rubi?",
+    "resposta": "Vêm do latim para vermelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rubidium",
+      "https://en.wikipedia.org/wiki/Ruby"
+    ]
+  },
+  {
+    "id": "q09446",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "escurecimento_enzimatico",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que uma maçã cortada fica escura depois de alguns minutos exposta?",
+    "resposta": "Reage com o oxigênio do ar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Food_browning"
+    ]
+  },
+  {
+    "id": "q09447",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "explosao_no_porto_de_beirute",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2020, uma explosão gigantesca devastou o porto de Beirute, no Líbano. Que substância, armazenada ali por anos, explodiu?",
+    "resposta": "Nitrato de amônio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2020_Beirut_explosion"
+    ]
+  },
+  {
+    "id": "q09448",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "a_tabela_periodica",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritor italiano, químico e sobrevivente de Auschwitz, escreveu um livro de contos em que cada capítulo leva o nome de um elemento?",
+    "resposta": "Primo Levi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Periodic_Table_(short_story_collection)"
+    ]
+  },
+  {
+    "id": "q09449",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "datacao_por_radiocarbono",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que químico americano criou, no fim dos anos 1940, a datação por carbono catorze, que lhe rendeu o Nobel de Química de 1960?",
+    "resposta": "Willard Libby",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Radiocarbon_dating"
+    ]
+  },
+  {
+    "id": "q09450",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "tecnecio",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O tecnécio, primeiro elemento químico obtido artificialmente, foi produzido em laboratório em que década?",
+    "resposta": "Década de 1930",
+    "distratores": [
+      "Década de 1900",
+      "Década de 1960",
+      "Década de 1880"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Technetium"
+    ]
+  },
+  {
+    "id": "q09451",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "quilate_pureza_do_ouro",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na joalheria, o ouro puro, sem mistura de outros metais, corresponde a quantos quilates?",
+    "resposta": "Vinte e quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fineness"
+    ]
   }
 ]

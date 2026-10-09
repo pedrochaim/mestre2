@@ -1,0 +1,431 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Usado para resfriar os ímãs dos aparelhos de ressonância magnética, que elemento químico tem o ponto de ebulição mais baixo de todos?",
+        "resposta": "Hélio"
+      },
+      "existentes": [
+        {
+          "id": "q03122",
+          "pergunta": "O nome do hélio vem da palavra grega helios. Que astro essa palavra designa?",
+          "resposta": "Sol"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Entre todos os metais, qual é o que suporta as temperaturas mais altas antes de derreter?",
+        "resposta": "Tungstênio"
+      },
+      "existentes": [
+        {
+          "id": "q03126",
+          "pergunta": "O símbolo químico do tungstênio é a letra W, que vem de outro nome do mesmo metal. Que nome é esse?",
+          "resposta": "Volfrâmio"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Combustível das estrelas, que elemento químico é o mais abundante do universo, com cerca de três quartos da matéria comum?",
+        "resposta": "Hidrogênio"
+      },
+      "existentes": [
+        {
+          "id": "q03125",
+          "pergunta": "Batizado por Lavoisier, o nome do hidrogênio significa, em grego, gerador de quê?",
+          "resposta": "Água"
+        },
+        {
+          "id": "q05868",
+          "pergunta": "Em 1766, que cientista inglês identificou o hidrogênio como uma substância própria, que ele chamava de ar inflamável?",
+          "resposta": "Henry Cavendish"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os fios elétricos costumam ser de cobre, mas que metal conduz eletricidade melhor do que qualquer outro?",
+        "resposta": "Prata"
+      },
+      "existentes": [
+        {
+          "id": "q05901",
+          "pergunta": "Na alquimia, cada um dos sete metais da Antiguidade era ligado a um astro, e o ouro era o Sol. Que metal correspondia à Lua?",
+          "resposta": "Prata"
+        },
+        {
+          "id": "q07287",
+          "pergunta": "Qual destes metais é o melhor condutor de eletricidade?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Tão leve que consegue boiar até em óleo, qual é o metal de menor densidade?",
+        "resposta": "Lítio"
+      },
+      "existentes": [
+        {
+          "id": "q05898",
+          "pergunta": "Por ter sido encontrado num mineral, e não em cinzas de plantas ou no sangue de animais, o lítio ganhou um nome grego que significa o quê?",
+          "resposta": "Pedra"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Batido em folhas finíssimas para revestir altares de igrejas barrocas, qual é o metal mais maleável que existe?",
+        "resposta": "Ouro"
+      },
+      "existentes": [
+        {
+          "id": "q04109",
+          "pergunta": "Que metal, em forma de cristais, é este?",
+          "resposta": "Ouro"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A liga que deu nome a uma era da Pré-História é feita de cobre com que outro metal?",
+        "resposta": "Estanho"
+      },
+      "existentes": [
+        {
+          "id": "q03093",
+          "pergunta": "O bronze, liga que deu nome a toda uma era da Antiguidade, é feito de cobre com qual outro metal?",
+          "resposta": "Estanho"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O gás do botijão de cozinha é uma mistura de dois gases derivados do petróleo. Quais são eles?",
+        "resposta": "Propano e butano"
+      },
+      "existentes": [
+        {
+          "id": "q05485",
+          "pergunta": "Puro, o gás de cozinha não tem cheiro. Que substância de odor forte é adicionada a ele para denunciar vazamentos?",
+          "resposta": "Mercaptana"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Os gases do botijão de cozinha não têm cheiro natural. Por que, então, sentimos um cheiro forte quando ele vaza?",
+        "resposta": "Recebe um odorizante, a mercaptana"
+      },
+      "existentes": [
+        {
+          "id": "q05485",
+          "pergunta": "Puro, o gás de cozinha não tem cheiro. Que substância de odor forte é adicionada a ele para denunciar vazamentos?",
+          "resposta": "Mercaptana"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A pedra-sabão, em que Aleijadinho esculpiu os profetas de Congonhas, é macia por ser rica em que mineral?",
+        "resposta": "Talco"
+      },
+      "existentes": [
+        {
+          "id": "q04297",
+          "pergunta": "Por ser macia e ter toque escorregadio, a rocha chamada esteatita ganhou qual nome popular em português?",
+          "resposta": "Pedra-sabão"
+        },
+        {
+          "id": "q04313",
+          "pergunta": "Que rocha reveste o Cristo Redentor e foi usada por Aleijadinho para esculpir os profetas de Congonhas?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No centro da molécula de clorofila, o pigmento verde das plantas, fica um átomo de que metal?",
+        "resposta": "Magnésio"
+      },
+      "existentes": [
+        {
+          "id": "q03836",
+          "pergunta": "A clorofila capta luz para a fotossíntese. Por que, então, as folhas que a contêm parecem verdes?",
+          "resposta": "Ela absorve pouco a luz verde"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Ao contrário da maioria das substâncias, o que acontece com o volume da água quando ela congela?",
+        "resposta": "Aumenta, ela se expande"
+      },
+      "existentes": [
+        {
+          "id": "q05885",
+          "pergunta": "Vista por séculos como um dos quatro elementos, a água teve sua composição de hidrogênio e oxigênio demonstrada em que século?",
+          "resposta": "Século dezoito"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Vistos de perto com uma lupa, os grãos do sal de cozinha têm que forma geométrica?",
+        "resposta": "Cubo"
+      },
+      "existentes": [
+        {
+          "id": "q03143",
+          "pergunta": "O que um metal que reage violentamente com a água e um gás tóxico usado como arma na Primeira Guerra têm a ver com o sal de cozinha?",
+          "resposta": "Juntos, formam o sal"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Ao contrário do diamante, também feito de carbono, o grafite tem que propriedade elétrica?",
+        "resposta": "Conduz eletricidade"
+      },
+      "existentes": [
+        {
+          "id": "q03142",
+          "pergunta": "O que o diamante e o grafite, mineral usado na ponta do lápis, têm em comum na composição?",
+          "resposta": "São formas de carbono"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Além de explosivo poderoso, a nitroglicerina também é um remédio. Que tipo de dor ela é usada para aliviar?",
+        "resposta": "Dor no peito, a angina"
+      },
+      "existentes": [
+        {
+          "id": "q05871",
+          "pergunta": "Que químico italiano, aluno de Pelouze em Turim, sintetizou a nitroglicerina e advertiu contra seu uso como explosivo?",
+          "resposta": "Ascanio Sobrero"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "A camada de ozônio, que protege a vida dos raios ultravioleta do Sol, fica em que camada da atmosfera?",
+        "resposta": "Estratosfera"
+      },
+      "existentes": [
+        {
+          "id": "q08982",
+          "pergunta": "A camada de ozônio, que filtra boa parte dos raios ultravioleta do Sol, fica em que camada da atmosfera?",
+          "resposta": "Estratosfera"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Descoberto em 1875 por Lecoq de Boisbaudran, o gálio recebeu o nome latino de que país, terra natal do descobridor?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q03166",
+          "pergunta": "Que metal prateado, usado em truques de colheres que derretem na xícara de chá, funde a cerca de trinta graus?",
+          "resposta": "Gálio"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O que o símbolo químico do sódio tem a ver com as múmias do antigo Egito?",
+        "resposta": "Vem do natrão, usado na mumificação"
+      },
+      "existentes": [
+        {
+          "id": "q05870",
+          "pergunta": "Em 1807, usando a eletricidade de uma grande pilha, que químico inglês isolou pela primeira vez o sódio e o potássio?",
+          "resposta": "Humphry Davy"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O que o gelo seco e as bolhas do refrigerante têm em comum?",
+        "resposta": "São gás carbônico"
+      },
+      "existentes": [
+        {
+          "id": "q03578",
+          "pergunta": "Que substância é esta, em forma de pelotas?",
+          "resposta": "Gelo seco"
+        },
+        {
+          "id": "q04142",
+          "pergunta": "O gelo-seco, que solta fumaça em festas, é a forma sólida do mesmo gás que é o principal gás do efeito estufa emitido pelo homem. Que gás é esse?",
+          "resposta": "Gás carbônico (dióxido de carbono)"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em 1855, que químico alemão, um dos descobridores do césio, desenvolveu o queimador a gás comum nos laboratórios?",
+        "resposta": "Robert Bunsen"
+      },
+      "existentes": [
+        {
+          "id": "q04492",
+          "pergunta": "Que aparelho de laboratório é este?",
+          "resposta": "Bico de Bunsen"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que químico americano criou, no fim dos anos 1940, a datação por carbono catorze, que lhe rendeu o Nobel de Química de 1960?",
+        "resposta": "Willard Libby"
+      },
+      "existentes": [
+        {
+          "id": "q02733",
+          "pergunta": "Por que o método do carbono quatorze não serve para datar ossos de dinossauro?",
+          "resposta": "São antigos demais"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ponto de ebulição vs etimologia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ponto de fusão vs símbolo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Abundância vs etimologia/descoberta."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato do q07287: melhor condutor elétrico é a prata.",
+      "id_existente": "q07287"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Densidade vs etimologia."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Maleabilidade vs identificação por imagem de cristais."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Bronze é cobre com estanho.",
+      "id_existente": "q03093"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Composição vs odorizante."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: mercaptana adicionada ao gás.",
+      "id_existente": "q05485"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Mineral talco é fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Metal central vs cor verde."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Expansão no congelamento é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Forma do cristal vs composição."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Condutividade vs composição."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Uso medicinal vs sintetizador."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Pergunta praticamente idêntica.",
+      "id_existente": "q08982"
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome vs propriedade do gálio."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Origem do símbolo vs isolamento."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Gelo seco é gás carbônico, mesmo fato de q04142.",
+      "id_existente": "q04142"
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "motivo": "Bunsen e o bico de Bunsen: o mesmo fato de associação.",
+      "id_existente": "q04492"
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Criador do método vs limitação do método."
+    }
+  ]
+}

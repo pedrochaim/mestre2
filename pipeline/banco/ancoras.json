@@ -41827,7 +41827,8 @@
     "descricao": "Método de datação de material orgânico baseado no decaimento do isótopo carbono-14.",
     "variantes": [
       "Carbono-14",
-      "Datação por carbono-14"
+      "Datação por carbono-14",
+      "Datação por carbono catorze"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Radiocarbon_dating"
@@ -64064,7 +64065,8 @@
     "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas.",
     "variantes": [
       "Esteatita",
-      "Soapstone"
+      "Soapstone",
+      "Esteatito"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
@@ -66934,7 +66936,8 @@
     "descricao": "Queimador a gás de laboratório, de chama aberta única, usado para aquecer, esterilizar e fazer combustão.",
     "variantes": [
       "Bunsen burner",
-      "Bico de gás"
+      "Bico de gás",
+      "Queimador de Bunsen"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Bunsen_burner",
@@ -86054,7 +86057,8 @@
     "nome": "Sódio",
     "descricao": "Elemento químico de número atômico 11, metal alcalino macio que reage violentamente com a água.",
     "variantes": [
-      "Na"
+      "Na",
+      "Natrium"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sodium",
@@ -131179,6 +131183,253 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Vladimir_Putin",
       "https://pt.wikipedia.org/wiki/Vladimir_Putin"
+    ]
+  },
+  {
+    "id": "mercurio",
+    "nome": "Mercúrio",
+    "descricao": "Elemento químico de número atômico 80, metal prateado que é líquido em temperatura ambiente.",
+    "variantes": [
+      "Mercúrio (elemento químico)",
+      "Hidrargírio"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(elemento_qu%C3%ADmico)",
+      "https://en.wikipedia.org/wiki/Mercury_(element)"
+    ]
+  },
+  {
+    "id": "oxigenio",
+    "nome": "Oxigênio",
+    "descricao": "Elemento químico de número atômico 8, gás essencial à respiração e à combustão.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Oxig%C3%AAnio",
+      "https://en.wikipedia.org/wiki/Oxygen"
+    ]
+  },
+  {
+    "id": "fluor",
+    "nome": "Flúor",
+    "descricao": "Elemento químico de número atômico 9, halogênio gasoso amarelo-claro, extremamente reativo.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fluorine",
+      "https://www.britannica.com/science/fluorine"
+    ]
+  },
+  {
+    "id": "latao",
+    "nome": "Latão",
+    "descricao": "Liga metálica amarelada de cobre e zinco, usada em instrumentos de sopro, fechaduras e torneiras.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Lat%C3%A3o",
+      "https://en.wikipedia.org/wiki/Brass"
+    ]
+  },
+  {
+    "id": "aco",
+    "nome": "Aço",
+    "descricao": "Liga de ferro com pequena quantidade de carbono, o material metálico mais usado na construção e na indústria.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/A%C3%A7o",
+      "https://en.wikipedia.org/wiki/Steel"
+    ]
+  },
+  {
+    "id": "vinagre",
+    "nome": "Vinagre",
+    "descricao": "Condimento ácido obtido pela fermentação acética do vinho ou de outras bebidas alcoólicas.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Vinagre",
+      "https://en.wikipedia.org/wiki/Vinegar"
+    ]
+  },
+  {
+    "id": "porcelana",
+    "nome": "Porcelana",
+    "descricao": "Cerâmica branca, fina e translúcida, feita de caulim queimado em alta temperatura, criada na China.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Porcelana",
+      "https://en.wikipedia.org/wiki/Porcelain"
+    ]
+  },
+  {
+    "id": "gesso",
+    "nome": "Gesso",
+    "descricao": "Pó branco obtido pelo aquecimento da gipsita, usado em construção, moldes e imobilização de fraturas.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Gesso",
+      "https://en.wikipedia.org/wiki/Gypsum"
+    ]
+  },
+  {
+    "id": "tornassol",
+    "nome": "Tornassol",
+    "descricao": "Corante extraído de líquens, usado em papel indicador que muda de cor conforme a acidez.",
+    "variantes": [
+      "Papel de tornassol",
+      "Litmus"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Tornassol",
+      "https://en.wikipedia.org/wiki/Litmus"
+    ]
+  },
+  {
+    "id": "silicio",
+    "nome": "Silício",
+    "descricao": "Elemento químico de número atômico 14, semimetal presente na areia e base dos chips eletrônicos.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Sil%C3%ADcio",
+      "https://en.wikipedia.org/wiki/Silicon"
+    ]
+  },
+  {
+    "id": "vidro_de_uranio",
+    "nome": "Vidro de urânio",
+    "descricao": "Vidro colorido com pequena quantidade de urânio, comum em louças e objetos decorativos antigos.",
+    "variantes": [
+      "Vaseline glass"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Uranium_glass"
+    ]
+  },
+  {
+    "id": "acido_fluoridrico",
+    "nome": "Ácido fluorídrico",
+    "descricao": "Solução de fluoreto de hidrogênio em água, ácido perigoso usado para gravar vidro.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/%C3%81cido_fluor%C3%ADdrico",
+      "https://en.wikipedia.org/wiki/Hydrofluoric_acid"
+    ]
+  },
+  {
+    "id": "oxido_nitroso",
+    "nome": "Óxido nitroso",
+    "descricao": "Gás formado por nitrogênio e oxigênio, conhecido como gás hilariante e usado como anestésico.",
+    "variantes": [
+      "Gás hilariante",
+      "Protóxido de azoto"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/%C3%93xido_nitroso",
+      "https://en.wikipedia.org/wiki/Nitrous_oxide"
+    ]
+  },
+  {
+    "id": "ozonio",
+    "nome": "Ozônio",
+    "descricao": "Gás formado por três átomos de oxigênio, de cheiro forte, que na estratosfera filtra a radiação ultravioleta.",
+    "variantes": [
+      "Ozono"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Oz%C3%B4nio",
+      "https://en.wikipedia.org/wiki/Ozone"
+    ]
+  },
+  {
+    "id": "xenonio",
+    "nome": "Xenônio",
+    "descricao": "Elemento químico de número atômico 54, gás nobre raro usado em faróis de carro e lâmpadas de flash.",
+    "variantes": [
+      "Xénon",
+      "Xenon"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Xen%C3%B4nio",
+      "https://en.wikipedia.org/wiki/Xenon"
+    ]
+  },
+  {
+    "id": "iodo",
+    "nome": "Iodo",
+    "descricao": "Elemento químico de número atômico 53, halogênio sólido escuro que solta vapor violeta, adicionado ao sal de cozinha.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Iodo",
+      "https://en.wikipedia.org/wiki/Iodine"
+    ]
+  },
+  {
+    "id": "einstenio",
+    "nome": "Einstênio",
+    "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+    "variantes": [
+      "Einsteinium",
+      "Einstênio (elemento químico)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Einsteinium"
+    ]
+  },
+  {
+    "id": "rubidio",
+    "nome": "Rubídio",
+    "descricao": "Elemento químico de número atômico 37, metal alcalino descoberto em 1861 por espectroscopia.",
+    "variantes": [
+      "Rubidium"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rubidium"
+    ]
+  },
+  {
+    "id": "escurecimento_enzimatico",
+    "nome": "Escurecimento enzimático",
+    "descricao": "Reação química em que frutas e legumes cortados, como maçã e banana, escurecem em contato com o ar.",
+    "variantes": [
+      "Escurecimento de alimentos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Food_browning"
+    ]
+  },
+  {
+    "id": "explosao_no_porto_de_beirute",
+    "nome": "Explosão no porto de Beirute",
+    "descricao": "Explosão de um grande estoque químico armazenado no porto de Beirute, no Líbano, em 4 de agosto de 2020.",
+    "variantes": [
+      "Explosão de Beirute de 2020"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/2020_Beirut_explosion"
+    ]
+  },
+  {
+    "id": "a_tabela_periodica",
+    "nome": "A Tabela Periódica",
+    "descricao": "Livro de contos de 1975 do escritor e químico italiano Primo Levi, com capítulos nomeados por elementos químicos.",
+    "variantes": [
+      "Il sistema periodico",
+      "The Periodic Table"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Periodic_Table_(short_story_collection)"
+    ]
+  },
+  {
+    "id": "tecnecio",
+    "nome": "Tecnécio",
+    "descricao": "Elemento químico de número atômico 43, o mais leve sem isótopos estáveis, produzido artificialmente em 1937.",
+    "variantes": [
+      "Tecnécio (elemento químico)"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Tecn%C3%A9cio",
+      "https://en.wikipedia.org/wiki/Technetium"
+    ]
+  },
+  {
+    "id": "quilate_pureza_do_ouro",
+    "nome": "Quilate (pureza do ouro)",
+    "descricao": "Unidade que indica a proporção de ouro puro numa liga, em partes de vinte e quatro.",
+    "variantes": [
+      "Quilate",
+      "Karat"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Quilate",
+      "https://en.wikipedia.org/wiki/Fineness"
     ]
   }
 ]

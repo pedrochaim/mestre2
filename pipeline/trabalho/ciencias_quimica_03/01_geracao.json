@@ -1,0 +1,1028 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Mercúrio",
+        "descricao": "Elemento químico de número atômico 80, metal prateado que é líquido em temperatura ambiente.",
+        "variantes": [
+          "Mercúrio (elemento químico)",
+          "Hidrargírio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(elemento_qu%C3%ADmico)",
+          "https://en.wikipedia.org/wiki/Mercury_(element)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Usado nos termômetros antigos, que metal é o único que permanece líquido em temperatura ambiente?",
+      "resposta": "Mercúrio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercury_(element)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mercúrio",
+        "descricao": "Elemento químico de número atômico 80, metal prateado que é líquido em temperatura ambiente.",
+        "variantes": [
+          "Mercúrio (elemento químico)",
+          "Hidrargírio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Merc%C3%BArio_(elemento_qu%C3%ADmico)",
+          "https://en.wikipedia.org/wiki/Mercury_(element)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O símbolo químico do mercúrio vem do latim hidrargirum, palavra de origem grega. O que ela significa?",
+      "resposta": "Água-prata, ou prata líquida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mercury_(element)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "helio",
+        "nome": "Hélio",
+        "descricao": "Elemento químico gasoso de número atômico 2, o gás nobre mais leve, usado para encher balões.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helium"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Usado para resfriar os ímãs dos aparelhos de ressonância magnética, que elemento químico tem o ponto de ebulição mais baixo de todos?",
+      "resposta": "Hélio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helium"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tungstenio",
+        "nome": "Tungstênio",
+        "descricao": "Elemento químico metálico de número atômico 74, conhecido pelo altíssimo ponto de fusão e usado em filamentos de lâmpadas.",
+        "variantes": [
+          "Volfrâmio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tungsten"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Entre todos os metais, qual é o que suporta as temperaturas mais altas antes de derreter?",
+      "resposta": "Tungstênio",
+      "distratores": [
+        "Titânio",
+        "Platina",
+        "Ferro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tungsten"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oxigênio",
+        "descricao": "Elemento químico de número atômico 8, gás essencial à respiração e à combustão.",
+        "variantes": [
+          "Oxigénio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oxig%C3%AAnio",
+          "https://en.wikipedia.org/wiki/Oxygen"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Presente em rochas, areia e argila, que elemento químico é o mais abundante na crosta terrestre?",
+      "resposta": "Oxigênio",
+      "distratores": [
+        "Silício",
+        "Alumínio",
+        "Ferro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hidrogenio",
+        "nome": "Hidrogênio",
+        "descricao": "Elemento químico de número atômico 1, o mais leve de todos, que forma água ao se combinar com o oxigênio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hydrogen"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Combustível das estrelas, que elemento químico é o mais abundante do universo, com cerca de três quartos da matéria comum?",
+      "resposta": "Hidrogênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hydrogen"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "prata",
+        "nome": "Prata",
+        "descricao": "Elemento químico de símbolo Ag e número atômico 47, metal branco e brilhante, um dos metais conhecidos desde a Antiguidade.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Silver"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Os fios elétricos costumam ser de cobre, mas que metal conduz eletricidade melhor do que qualquer outro?",
+      "resposta": "Prata",
+      "distratores": [
+        "Ouro",
+        "Alumínio",
+        "Platina"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Silver"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "litio",
+        "nome": "Lítio",
+        "descricao": "Elemento químico de número atômico 3, o metal mais leve, usado em baterias recarregáveis.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lithium"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Tão leve que consegue boiar até em óleo, qual é o metal de menor densidade?",
+      "resposta": "Lítio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lithium"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ouro",
+        "nome": "Ouro",
+        "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gold"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Batido em folhas finíssimas para revestir altares de igrejas barrocas, qual é o metal mais maleável que existe?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gold"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Flúor",
+        "descricao": "Elemento químico de número atômico 9, halogênio gasoso amarelo-claro, extremamente reativo.",
+        "variantes": [
+          "Fluor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fluorine",
+          "https://www.britannica.com/science/fluorine"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Que elemento químico, presente em compostos das pastas de dente, é considerado o mais reativo de todos?",
+      "resposta": "Flúor",
+      "distratores": [
+        "Cloro",
+        "Oxigênio",
+        "Sódio"
+      ],
+      "fonte": [
+        "https://www.britannica.com/science/fluorine",
+        "https://en.wikipedia.org/wiki/Fluorine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ósmio",
+        "descricao": "Elemento químico de número atômico 76, metal do grupo da platina, duro e azulado.",
+        "variantes": [
+          "Osmio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%93smio",
+          "https://en.wikipedia.org/wiki/Osmium"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Com quase o dobro da densidade do chumbo, qual é o elemento químico mais denso encontrado na natureza?",
+      "resposta": "Ósmio",
+      "distratores": [
+        "Ouro",
+        "Platina",
+        "Urânio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Osmium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bronze",
+        "descricao": "Liga metálica de cobre e estanho, que deu nome à Idade do Bronze.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bronze",
+          "https://en.wikipedia.org/wiki/Bronze"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O metal que deu nome a uma era da Pré-História é uma liga de cobre com que outro metal?",
+      "resposta": "Estanho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bronze"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Latão",
+        "descricao": "Liga metálica amarelada de cobre e zinco, usada em instrumentos de sopro, fechaduras e torneiras.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lat%C3%A3o",
+          "https://en.wikipedia.org/wiki/Brass"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Usado em trompetes, trombones e saxofones, o latão é uma liga de cobre com que metal?",
+      "resposta": "Zinco",
+      "distratores": [
+        "Estanho",
+        "Níquel",
+        "Chumbo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brass"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aço",
+        "descricao": "Liga de ferro com pequena quantidade de carbono, o material metálico mais usado na construção e na indústria.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/A%C3%A7o",
+          "https://en.wikipedia.org/wiki/Steel"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Mais resistente que o ferro puro, o aço nasce da mistura do ferro com uma pequena porção de que elemento?",
+      "resposta": "Carbono",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vinagre",
+        "descricao": "Condimento ácido obtido pela fermentação acética do vinho ou de outras bebidas alcoólicas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vinagre",
+          "https://en.wikipedia.org/wiki/Vinegar"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Formado pela fermentação do vinho e de outras bebidas, que ácido dá ao vinagre seu sabor azedo?",
+      "resposta": "Ácido acético",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vinegar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rubi",
+        "descricao": "Pedra preciosa vermelha, variedade do mineral coríndon colorida por traços de cromo.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rubi",
+          "https://en.wikipedia.org/wiki/Ruby"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O rubi é feito de coríndon, mineral que puro é incolor. Traços de que metal lhe dão a cor vermelha?",
+      "resposta": "Cromo",
+      "distratores": [
+        "Ferro",
+        "Cobre",
+        "Cobalto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ruby"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Porcelana",
+        "descricao": "Cerâmica branca, fina e translúcida, feita de caulim queimado em alta temperatura, criada na China.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Porcelana",
+          "https://en.wikipedia.org/wiki/Porcelain"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que argila branca e fina é a principal matéria-prima da porcelana?",
+      "resposta": "Caulim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porcelain",
+        "https://pt.wikipedia.org/wiki/Caulim"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Porcelana",
+        "descricao": "Cerâmica branca, fina e translúcida, feita de caulim queimado em alta temperatura, criada na China.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Porcelana",
+          "https://en.wikipedia.org/wiki/Porcelain"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que país surgiu a porcelana, tão ligada a ele que em inglês a louça fina leva o nome do país?",
+      "resposta": "China",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Porcelain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gesso",
+        "descricao": "Pó branco obtido pelo aquecimento da gipsita, usado em construção, moldes e imobilização de fraturas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gesso",
+          "https://en.wikipedia.org/wiki/Gypsum"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Usado em forros, moldes e para imobilizar ossos quebrados, o gesso é obtido aquecendo que mineral?",
+      "resposta": "Gipsita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gypsum",
+        "https://pt.wikipedia.org/wiki/Gipsita"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gás liquefeito de petróleo",
+        "descricao": "Mistura de gases derivados do petróleo, vendida em botijões como gás de cozinha.",
+        "variantes": [
+          "GLP",
+          "Gás de cozinha",
+          "Gás de botijão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo",
+          "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O gás do botijão de cozinha é uma mistura de dois gases derivados do petróleo. Quais são eles?",
+      "resposta": "Propano e butano",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo",
+        "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gás liquefeito de petróleo",
+        "descricao": "Mistura de gases derivados do petróleo, vendida em botijões como gás de cozinha.",
+        "variantes": [
+          "GLP",
+          "Gás de cozinha",
+          "Gás de botijão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/G%C3%A1s_liquefeito_de_petr%C3%B3leo",
+          "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os gases do botijão de cozinha não têm cheiro natural. Por que, então, sentimos um cheiro forte quando ele vaza?",
+      "resposta": "Recebe um odorizante, a mercaptana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pedra-sabão",
+        "descricao": "Rocha macia rica em talco, usada em panelas e esculturas, como as do Aleijadinho em Minas Gerais.",
+        "variantes": [
+          "Esteatito",
+          "Esteatita"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pedra-sab%C3%A3o",
+          "https://en.wikipedia.org/wiki/Soapstone"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A pedra-sabão, em que Aleijadinho esculpiu os profetas de Congonhas, é macia por ser rica em que mineral?",
+      "resposta": "Talco",
+      "distratores": [
+        "Quartzo",
+        "Mica",
+        "Calcita"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Soapstone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Clorofila",
+        "descricao": "Pigmento verde das plantas e algas que capta a luz na fotossíntese.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Clorofila",
+          "https://en.wikipedia.org/wiki/Chlorophyll"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No centro da molécula de clorofila, o pigmento verde das plantas, fica um átomo de que metal?",
+      "resposta": "Magnésio",
+      "distratores": [
+        "Ferro",
+        "Cobre",
+        "Zinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chlorophyll"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "agua",
+        "nome": "Água",
+        "descricao": "Substância formada por hidrogênio e oxigênio, essencial à vida, considerada um dos quatro elementos pelos antigos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Properties_of_water"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao contrário da maioria das substâncias, o que acontece com o volume da água quando ela congela?",
+      "resposta": "Aumenta, ela se expande",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Properties_of_water"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tornassol",
+        "descricao": "Corante extraído de líquens, usado em papel indicador que muda de cor conforme a acidez.",
+        "variantes": [
+          "Papel de tornassol",
+          "Litmus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tornassol",
+          "https://en.wikipedia.org/wiki/Litmus"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Feito com um corante extraído de líquens, o papel de tornassol fica de que cor ao entrar em contato com um ácido?",
+      "resposta": "Vermelho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Litmus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Silício",
+        "descricao": "Elemento químico de número atômico 14, semimetal presente na areia e base dos chips eletrônicos.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sil%C3%ADcio",
+          "https://en.wikipedia.org/wiki/Silicon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Base dos chips eletrônicos, o silício é um material de que tipo, nem bom condutor de eletricidade nem isolante?",
+      "resposta": "Semicondutor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Silicon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vidro de urânio",
+        "descricao": "Vidro colorido com pequena quantidade de urânio, comum em louças e objetos decorativos antigos.",
+        "variantes": [
+          "Vaseline glass"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uranium_glass"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sob luz ultravioleta, as peças antigas de vidro de urânio brilham em que cor?",
+      "resposta": "Verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uranium_glass"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cloreto_de_sodio",
+        "nome": "Cloreto de sódio",
+        "descricao": "Composto formado por sódio e cloro, principal componente do sal de cozinha.",
+        "variantes": [
+          "Sal de cozinha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sodium_chloride"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Vistos de perto com uma lupa, os grãos do sal de cozinha têm que forma geométrica?",
+      "resposta": "Cubo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sodium_chloride"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ácido fluorídrico",
+        "descricao": "Solução de fluoreto de hidrogênio em água, ácido perigoso usado para gravar vidro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%81cido_fluor%C3%ADdrico",
+          "https://en.wikipedia.org/wiki/Hydrofluoric_acid"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Por que o ácido fluorídrico é guardado em frascos de plástico, e não em frascos de vidro?",
+      "resposta": "Porque corrói o vidro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hydrofluoric_acid"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "grafite",
+        "nome": "Grafite",
+        "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+        "variantes": [
+          "Grafita"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Graphite"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao contrário do diamante, também feito de carbono, o grafite tem que propriedade elétrica?",
+      "resposta": "Conduz eletricidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Graphite"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nitroglicerina",
+        "nome": "Nitroglicerina",
+        "descricao": "Composto explosivo líquido e instável, criado em 1847, base da dinamite.",
+        "variantes": [
+          "Trinitrato de glicerina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nitroglycerin"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Além de explosivo poderoso, a nitroglicerina também é um remédio. Que tipo de dor ela é usada para aliviar?",
+      "resposta": "Dor no peito, a angina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nitroglycerin_(medication)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Óxido nitroso",
+        "descricao": "Gás formado por nitrogênio e oxigênio, conhecido como gás hilariante e usado como anestésico.",
+        "variantes": [
+          "Gás hilariante",
+          "Protóxido de azoto"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%93xido_nitroso",
+          "https://en.wikipedia.org/wiki/Nitrous_oxide"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Apelidado de gás hilariante pela euforia que provoca, que gás é usado por dentistas como anestésico leve?",
+      "resposta": "Óxido nitroso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nitrous_oxide"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ozônio",
+        "descricao": "Gás formado por três átomos de oxigênio, de cheiro forte, que na estratosfera filtra a radiação ultravioleta.",
+        "variantes": [
+          "Ozono"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oz%C3%B4nio",
+          "https://en.wikipedia.org/wiki/Ozone"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Batizado em 1840 pelo químico Christian Schönbein, o ozônio tem nome derivado de um verbo grego que significa o quê?",
+      "resposta": "Cheirar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ozone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ozônio",
+        "descricao": "Gás formado por três átomos de oxigênio, de cheiro forte, que na estratosfera filtra a radiação ultravioleta.",
+        "variantes": [
+          "Ozono"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Oz%C3%B4nio",
+          "https://en.wikipedia.org/wiki/Ozone"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o ozônio, que filtra os raios ultravioleta, e o gás essencial à nossa respiração têm em comum?",
+      "resposta": "São formas do elemento oxigênio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ozone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Camada de ozônio",
+        "descricao": "Região da atmosfera terrestre com alta concentração de ozônio, que absorve boa parte da radiação ultravioleta do Sol.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Camada_de_oz%C3%B4nio",
+          "https://en.wikipedia.org/wiki/Ozone_layer"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A camada de ozônio, que protege a vida dos raios ultravioleta do Sol, fica em que camada da atmosfera?",
+      "resposta": "Estratosfera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ozone_layer"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Xenônio",
+        "descricao": "Elemento químico de número atômico 54, gás nobre raro usado em faróis de carro e lâmpadas de flash.",
+        "variantes": [
+          "Xénon",
+          "Xenon"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Xen%C3%B4nio",
+          "https://en.wikipedia.org/wiki/Xenon"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Usado em faróis de carro, o gás nobre xenônio recebeu um nome grego que o descreve como o quê?",
+      "resposta": "Estrangeiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Xenon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Iodo",
+        "descricao": "Elemento químico de número atômico 53, halogênio sólido escuro que solta vapor violeta, adicionado ao sal de cozinha.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iodo",
+          "https://en.wikipedia.org/wiki/Iodine"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ao ser aquecido, o iodo solta um vapor colorido que lhe valeu o nome, tirado do grego. Que cor é essa?",
+      "resposta": "Violeta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iodine"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "galio",
+        "nome": "Gálio",
+        "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gallium"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Descoberto em 1875 por Lecoq de Boisbaudran, o gálio recebeu o nome latino de que país, terra natal do descobridor?",
+      "resposta": "França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gallium"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "sodio",
+        "nome": "Sódio",
+        "descricao": "Elemento químico de número atômico 11, metal alcalino macio que reage violentamente com a água.",
+        "variantes": [
+          "Natrium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sodium"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o símbolo químico do sódio tem a ver com as múmias do antigo Egito?",
+      "resposta": "Vem do natrão, usado na mumificação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sodium",
+        "https://en.wikipedia.org/wiki/Natron"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Einstênio",
+        "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+        "variantes": [
+          "Einsteinium",
+          "Einstênio (elemento químico)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Einsteinium"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o elemento einstênio tem a ver com a primeira bomba de hidrogênio, testada pelos americanos em 1952?",
+      "resposta": "Foi descoberto nos resíduos dela",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Einsteinium",
+        "https://en.wikipedia.org/wiki/Ivy_Mike"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gelo_seco",
+        "nome": "Gelo seco",
+        "descricao": "Dióxido de carbono em estado sólido, que sublima direto para gás e é usado como refrigerante.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dry_ice"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o gelo seco e as bolhas do refrigerante têm em comum?",
+      "resposta": "São gás carbônico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dry_ice",
+        "https://en.wikipedia.org/wiki/Carbonated_water"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rubídio",
+        "descricao": "Elemento químico de número atômico 37, metal alcalino descoberto em 1861 por espectroscopia.",
+        "variantes": [
+          "Rubidium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rubidium"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o nome do elemento químico rubídio tem em comum com o nome da pedra preciosa rubi?",
+      "resposta": "Vêm do latim para vermelho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rubidium",
+        "https://en.wikipedia.org/wiki/Ruby"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Estátua colossal de cobre na entrada do porto de Nova York, presente da França aos Estados Unidos, inaugurada em 1886.",
+        "variantes": [
+          "Liberdade Iluminando o Mundo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade",
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Inaugurada com a cor avermelhada do cobre, por que a Estátua da Liberdade ficou esverdeada com o tempo?",
+      "resposta": "O cobre oxidou, formando pátina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escurecimento enzimático",
+        "descricao": "Reação química em que frutas e legumes cortados, como maçã e banana, escurecem em contato com o ar.",
+        "variantes": [
+          "Escurecimento de alimentos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Food_browning"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que uma maçã cortada fica escura depois de alguns minutos exposta?",
+      "resposta": "Reage com o oxigênio do ar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Food_browning"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Explosão no porto de Beirute",
+        "descricao": "Explosão de um grande estoque químico armazenado no porto de Beirute, no Líbano, em 4 de agosto de 2020.",
+        "variantes": [
+          "Explosão de Beirute de 2020"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2020_Beirut_explosion"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2020, uma explosão gigantesca devastou o porto de Beirute, no Líbano. Que substância, armazenada ali por anos, explodiu?",
+      "resposta": "Nitrato de amônio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2020_Beirut_explosion"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bico de Bunsen",
+        "descricao": "Queimador a gás usado em laboratórios para aquecer, esterilizar e fazer combustões.",
+        "variantes": [
+          "Queimador de Bunsen"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bico_de_Bunsen",
+          "https://en.wikipedia.org/wiki/Bunsen_burner"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1855, que químico alemão, um dos descobridores do césio, desenvolveu o queimador a gás comum nos laboratórios?",
+      "resposta": "Robert Bunsen",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bunsen_burner"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "A Tabela Periódica",
+        "descricao": "Livro de contos de 1975 do escritor e químico italiano Primo Levi, com capítulos nomeados por elementos químicos.",
+        "variantes": [
+          "Il sistema periodico",
+          "The Periodic Table"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Periodic_Table_(short_story_collection)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escritor italiano, químico e sobrevivente de Auschwitz, escreveu um livro de contos em que cada capítulo leva o nome de um elemento?",
+      "resposta": "Primo Levi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Periodic_Table_(short_story_collection)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Datação por radiocarbono",
+        "descricao": "Método que estima a idade de materiais orgânicos pela quantidade de carbono-14 que ainda contêm.",
+        "variantes": [
+          "Datação por carbono-14",
+          "Datação por carbono catorze"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Data%C3%A7%C3%A3o_por_radiocarbono",
+          "https://en.wikipedia.org/wiki/Radiocarbon_dating"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que químico americano criou, no fim dos anos 1940, a datação por carbono catorze, que lhe rendeu o Nobel de Química de 1960?",
+      "resposta": "Willard Libby",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Radiocarbon_dating"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tecnécio",
+        "descricao": "Elemento químico de número atômico 43, o mais leve sem isótopos estáveis, produzido artificialmente em 1937.",
+        "variantes": [
+          "Tecnécio (elemento químico)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tecn%C3%A9cio",
+          "https://en.wikipedia.org/wiki/Technetium"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O tecnécio, primeiro elemento químico obtido artificialmente, foi produzido em laboratório em que década?",
+      "resposta": "Década de 1930",
+      "distratores": [
+        "Década de 1900",
+        "Década de 1960",
+        "Década de 1880"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Technetium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quilate (pureza do ouro)",
+        "descricao": "Unidade que indica a proporção de ouro puro numa liga, em partes de vinte e quatro.",
+        "variantes": [
+          "Quilate",
+          "Karat"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Quilate",
+          "https://en.wikipedia.org/wiki/Fineness"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na joalheria, o ouro puro, sem mistura de outros metais, corresponde a quantos quilates?",
+      "resposta": "Vinte e quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fineness"
+      ]
+    }
+  ]
+}
