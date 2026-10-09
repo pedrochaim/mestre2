@@ -1,0 +1,1826 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Grécia Antiga** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Estátua de Zeus em Olímpia",
+      "descricao": "Estátua colossal de ouro e marfim de Zeus sentado, feita no século cinco a.C. para o templo de Olímpia, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que escultor ateniense do século cinco antes de Cristo fez a estátua de Zeus em ouro e marfim de Olímpia, uma das sete maravilhas do mundo antigo?",
+    "resposta": "Fídias",
+    "distratores": [
+      "Míron",
+      "Praxíteles",
+      "Policleto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+      "https://en.wikipedia.org/wiki/Phidias"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+        "situacao": "ok",
+        "texto": "The Statue of Zeus at Olympia was a giant seated figure, about 12.4 m (41 ft) tall, made by the Greek sculptor Phidias around 435 BC at the sanctuary of Olympia, Greece, and erected in the Temple of Zeus there. Zeus is the sky and thunder god in ancient Greek religion, who rules as king of the gods on Mount Olympus.\n[…]\nThe statue of Zeus was commissioned by the Eleans, custodians of the Olympic Games, in the latter half of the fifth century BC for their newly constructed Temple of Zeus. Seeking to outdo their Athenian rivals, the Eleans employed sculptor Phidias, who had previously made the massive statue of Athena Parthenos in the Parthenon.\n[…]\nThe sculptor also was reputed to have immortalized Pantarkes, the winner of the boys' wrestling event at the eighty-sixth Olympiad who was said to have been his \"beloved\" (eromenos), by carving Pantarkes kalos (\"Pantarkes is beautiful\") into Zeus's little finger, and by placing a relief of the boy crowning himself at the feet of the statue.\n[…]\nOlympic Oration or On Man's First Conception of God\n[…]\nGeorge Washington, 1840 statue\n[…]\nGreat Buddha of Kyoto Lost giant statue of Japan, like Zeus at Olympia\n[…]\nMcWilliam, Janette (2011). \"The statue of Zeus at Olympia in Western imagination via the Internet\". In McWilliam, Janette; Puttock, Sonia; Stevenson, Tom (eds.). The Statue of Zeus at Olympia: New Approaches. Cambridge Scholars Publishing. pp. 209–222. ISBN 978-1-4438-3032-4.\n[…]\nWorld History Encyclopedia – Statue of Zeus at Olympia\n[…]\nColin Delaney, \"A Wonder to Behold: The Statue of Olympian Zeus\"\n[…]\nArchaeopaedia: Statue of Zeus With bibliography\n[…]\n(Ellen Papakyriakou) Olympia: Art: the chryselephantine statue of Zeus\n[…]\nMichael Lahanas, \"The colossal Zeus statue of Pheidias\" Archived 2013-04-03 at the Wayback Machine\n[…]\nDavid Fenzl \"Recreating Olympic Statuary\"[link removed]"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Phidias",
+        "situacao": "ok",
+        "texto": "Phidias or Pheidias (; Ancient Greek: Φειδίας, Pheidias; c. 480 – c. 430 BC) was an Ancient Greek sculptor, painter, and architect, active in the 5th century BC. His Statue of Zeus at Olympia was one of the Seven Wonders of the Ancient World.\n[…]\nPhidias supposedly weighed the gold robe of the Athena Parthenos to prove his innocence, but was then accused of impiously portraying himself and Pericles on the shield of the statue, which was apparently true.\n[…]\nAccording to Philochorus, as quoted by a scholiast on Aristophanes, Phidias was put to death by the Eleans after he completed the Statue of Zeus at Olympia for them.\n[…]\nFrom the late 5th century BC, small copies of the statue of Zeus were found on coins from Elis, which give a general notion of the pose and the character of the head. The god was seated on a throne, every part of which was used for sculptural decoration. His body was of ivory, his robe of gold. His head was of a somewhat archaic type; the bust of Zeus found at Otricoli, which used to be regarded as a copy of the head of the Olympian statue, is certainly more than a century later in style.\n[…]\nA significant advancement in the knowledge of Phidias's working methodology came during 1954–1958 with the excavation of the workshop at Olympia where he created the Statue of Zeus. Tools, terracotta molds and pottery were found, just where Pausanias said the statue was constructed. An important find was a cup inscribed on the bottom \"Φειδίου εἰμί\" (Pheidíou eimí) – \"I belong to Phidias\"; literally: \"of Phidias I am\", although the inscription's authenticity is disputed.\n[…]\nThe discovery has enabled archaeologists to re-create the techniques used to make the statue."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Est%C3%A1tua_de_Zeus_em_Ol%C3%ADmpia",
+        "situacao": "ok",
+        "texto": "Estátua de Zeus em Olímpia era uma figura sentada gigante, com cerca de 13 metros de altura, feita pelo escultor grego Fídias por volta de 435 a.C. no santuário de Olímpia, Grécia, e erguida no Templo de Zeus. A escultura tinha placas de marfim e painéis de ouro sobre uma estrutura de madeira, que representava o deus Zeus sentado em um trono de madeira de cedro ornamentado com ébano, marfim, ouro \n[…]\nUma das Sete Maravilhas do Mundo Antigo, ela foi perdida e destruída durante o século V sem nenhuma cópia, sendo que seus detalhes e forma são conhecidos apenas através de antigas descrições e representações gregas em moedas.\n[…]\nA estátua media de 12 a 15 metros de altura — o equivalente a um prédio de cinco andares —  era toda de marfim e ébano. Seus olhos eram pedras preciosas. Fídias esculpiu Zeus sentado num trono. Ele esculpiu a estátua com material de joalheiro. Na mão direita levava a estatueta de Nice, deusa da Vitória; na esquerda, uma esfera sob a qual se debruçava uma águia. Supõe-se que, como em representações de outros artistas, o Zeus de Fídias também mostrasse o cenho franzido.\n[…]\nA lenda dizia que quando Zeus franzia a fronte o Olimpo todo tremia. Quando a estátua foi construída, a rivalidade entre Atenas e Esparta pela hegemonia no Mediterrâneo e na Grécia continental mergulhou os gregos numa sucessão de guerras. Os combates, no entanto, não prejudicaram as realizações culturais e artísticas da época. Ao contrário, o século V a.C. ficou conhecido como o século de ouro na história grega devido ao extraordinário florescimento da arquitetura, escultura e outras artes.\n[…]\nFrancis popozan M.A.. 1950. super zeus (New Haven: Yale University Press)\n[…]\nNate Whirt 1965. zeus, a estátua (Princeton: D. Van Nostrand Company)\n[…]\nMedia relacionados com Estátua de Zeus em Olímpia no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Molon labe",
+      "descricao": "Frase grega, venham pegá-las, que segundo Plutarco foi a resposta espartana à exigência persa de entregar as armas nas Termópilas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo Plutarco, quando Xerxes exigiu que os gregos entregassem as armas, que rei espartano respondeu: venham pegá-las?",
+    "resposta": "Leônidas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Molon_labe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Molon_labe",
+        "situacao": "ok",
+        "texto": "Molṑn labé (Greek: μολὼν λαβέ, transl. \"come and take [them]\") is a Greek phrase attributed to Leonidas I of Sparta during his written correspondence with Xerxes I of Persia on the eve of the Battle of Thermopylae in 480 BC.\n[…]\nA classical expression of defiance, it is among the Laconic phrases reported by the Greek historian Plutarch, and is said to have been Leonidas's response to Xerxes's demand that the Spartan army lay down their weapons and surrender to the Persian army during the second Persian invasion of Greece.\n[…]\nThe phrase \"molṑn labé\" is in the Classical Greek of Plutarch, and does not necessarily reflect the Doric dialect that Leonidas would have used. The form ἔμολον is recorded in Doric as the aorist for εἷρπον, \"to go, come\".\n[…]\nThe second word, λαβέ, is the second person singular aorist imperative of λαμβάνω \"take; grasp, seize\". The entire phrase is thus in the singular, i.e. Leonidas is depicted as addressing Xerxes personally, not the Persian army as a group.\n[…]\nPlutarch cites the phrase in his Apophthegmata Laconica (\"Sayings of Spartans\"). The exchange between Leonidas and Xerxes occurs in writing, on the eve of the Battle of Thermopylae (480 BC):\n[…]\nThe exchange is cited in a collection of sayings by Leonidas before the Battle of Thermopylae (51.2–15).\n[…]\nDuring the Cyprus Emergency, EOKA commander Grigoris Afxentiou was surrounded by British Army troops in his secret hideout near the Machairas Monastery on 3 March 1957. The British demanded he surrender his weapons, and Afxentiou shouted molon labe in reply. After he killed a corporal of the Duke of Wellington's Regiment with his submachine gun, the Royal Engineers poured petrol into his hideout and set it on fire, killing Afxentiou."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Molon_labe",
+        "situacao": "ok",
+        "texto": "Molon labe (em grego clássico: μολὼν λαβέ molṑn labé, literalmente \"vem e toma\" [de mim]) é uma expressão lacônica de desafio que teria sido dita pelo rei Leônidas I em resposta à exigência do exército do Império Aquemênida para que os espartanos entregassem suas armas na Batalha de Termópilas.\n[…]\nA expressão aparece na obra de Plutarco, Apophthegmata Laconica. Esta obra de Plutarco está incluída na Moralia, uma coleção de obras atribuídas a ele, mas fora da coleção de suas obras mais famosa, Vidas paralelas.\n[…]\nA frase teria sido a resposta desafiadora do rei Leônidas I de Esparta para Xerxes I da Pérsia quando este exigiu que os gregos depusessem as armas e se rendessem logo no início da Batalha das Termópilas (480 a.C). Em vez disso, os espartanos permaneceram nas Termópilas por três dias.\n[…]\nAté o contingente espartano ser finalmente destruído, eles infligiram graves danos ao exército persa e principalmente atrasou o progresso dos persas até Atenas e conferindo tempo suficiente para a evacuação da cidade para a ilha de Salamina.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Palácio de Cnossos",
+      "descricao": "Grande palácio da civilização minoica da Idade do Bronze, perto de Heraclião, na ilha de Creta."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No início do século vinte, que arqueólogo britânico escavou o palácio de Cnossos, em Creta, e deu o nome de minoica àquela civilização?",
+    "resposta": "Arthur Evans",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Knossos",
+      "https://en.wikipedia.org/wiki/Arthur_Evans"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Knossos",
+        "situacao": "ok",
+        "texto": "Knossos (; Ancient Greek: Κνωσσός, romanized: Knōssós; Greek: Κνωσός, romanized: Knōsós; Linear B: 𐀒𐀜𐀰 Ko-no-so) is an archaeological site and ancient urban centre in Crete, Greece. It is located within the southern periphery of Heraklion, about 5 km (3.1 mi) south of the city's historic centre. The site was occupied from the Neolithic period into the first millennium AD and became the largest and\n[…]\nIn 1900, Arthur Evans began large-scale excavations at Knossos. Working with archaeologists and architects including Duncan Mackenzie, David George Hogarth, Theodore Fyfe and Christian Doll, Evans uncovered most of the palace and many parts of the surrounding settlement.\n[…]\nEvans established \"Minoan\" as the archaeological designation for the Bronze Age civilisation of Crete, drawing on the myth of King Minos. His work made Knossos central to the study of Aegean prehistory. Finds from the excavations included fresco fragments, pottery, sealings, figurines, stone vessels, metal objects and thousands of Linear B tablets.\n[…]\nConservation at Knossos is complex because of the age of the remains, the high number of visitors and the early twentieth-century reconstructions carried out by Evans. These reconstructions are now part of the history of the site, but they also require continued monitoring and maintenance.\n[…]\nEvans, Arthur (1921–1935). The Palace of Minos: A Comparative Account of the Successive Stages of the Early Cretan Civilization as Illustrated by the Discoveries at Knossos. London: Macmillan.\n[…]\nMacdonald, Colin F. (2005). Knossos. Lost Cities of the Ancient World. London: The Folio Society.\n[…]\nMacGillivray, J. A. (2000). Minotaur: Sir Arthur Evans and the Archaeology of the Minoan Myth. New York: Hill and Wang. ISBN 978-0-8090-3035-4.\n[…]\nMunicipality of Heraklion: Knossos\n[…]\nHellenic Ministry of Culture: Knossos\n[…]\nBritish School at Athens: Knossos Research Centre\n[…]\nKnossos Urban Landscape Project"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Arthur_Evans",
+        "situacao": "ok",
+        "texto": "Sir Arthur John Evans (8 July 1851 – 11 July 1941) was a British archaeologist and pioneer in the study of Aegean civilization in the Bronze Age.\n[…]\nIn 1840 John Evans started work in the mill owned by his maternal uncle, John Dickinson. He married his first cousin, Harriet, in 1850, and in 1851 became a junior partner in the family business. Profits from the mill would help fund Arthur Evans's excavations, restorations at Knossos, and resulting publications. For the time being they were an unpretentious and affectionate family.\n[…]\nHe and Lewis hunted for stone-age artefacts in the gravel quarries, Arthur Evans remarking that he was glad the Prussians were not interested in flint artefacts.\n[…]\nBrown, Ann Cynthia (1993). Before Knossos: Arthur Evans's Travels in the Balkans and Crete (Illustrated ed.). Ashmolean Museum. ISBN 9781854440297.\n[…]\nMacGillivray, Joseph Alexander (2000). Minotaur: Sir Arthur Evans and the Archaeology of the Minoan Myth. New York: Hill and Wang (Farrar, Straus and Giroux). ISBN 9780809030354.\n[…]\nMedia related to Arthur Evans at Wikimedia Commons\n[…]\nWorks related to Arthur Evans at Wikisource\n[…]\nWorks by Arthur Evans at Project Gutenberg\n[…]\nWorks by or about Arthur Evans at Internet Archive\n[…]\nEvans (Arthur) Collection at University College London\n[…]\n\"Arthur Evans, Archaeologist\". Brasenose College.\n[…]\n\"Sir Arthur Evans\". Encyclopædia Britannica Online. Retrieved 28 March 2012.\n[…]\n\"Evans, Arthur John, Sir\". Dictionary of Art Historians. Archived from the original on 15 May 2021. Retrieved 28 March 2012.\n[…]\n\"Sir Arthur John Evans\". Heraklion Crete org online. Retrieved 28 March 2012."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cnossos",
+        "situacao": "ok",
+        "texto": "Cnossos (em grego: Κνωσός; romaniz.: Knossós; AFI: [kno̞ˈso̞s]) é o maior sítio arqueológico da Idade do Bronze da ilha grega de Creta, provável centro cerimonial e político-cultural da Civilização Minoica. Situado próximo da cidade moderna de Heraclião, atualmente Cnossos é visitado por muitos turistas, que visitam a \"reconstrução\" imaginativa feita a partir das ruínas que existiam no local.\n[…]\nAs ruínas de Cnossos foram descobertas em 1878 por Minos Kalokairinos, um comerciante e antiquário cretense, que liderou as primeiras escavações do Monte Cefala, durante as quais foram escavados os armazéns da ala oeste e partes da fachada ocidental. Depois de Kalokairinos diversas pessoas tentaram continuar os trabalhos no sítio, porém apenas em 16 de março de 1900 o arqueólogo inglês sir Arthur Evans podia comprar todo o sítio e realizar um trabalho ali em grande escala.\n[…]\nA escavação e o restauro de Cnossos, e a descoberta da cultura que ele chamou de minoica, é inseparável de sua história pessoal. Auxiliado por Duncan Mackenzie, que já se havia destacado por suas escavações na ilha de Melos, e pelo senhor Fyfe, arquiteto da Escola Britânica em Atenas, Evans contratou uma enorme equipe de trabalhadores locais, e em poucos meses havia desenterrado uma parte substancial de um edifício, que ele chamou de Palácio de Minos.\n[…]\nA sala do trono foi repintada por uma equipe de artistas formadas por pai e filho, ambos chamados Émile Gilléron, sob ordens de Evans. Embora este afirmasse ter baseado suas recriações a partir das evidências arqueológicas, muitos dos afrescos mais conhecidos da sala do trono são criações inteiramente próprias dos Gilléron.\n[…]\nO próprio Evans sustentava essa hipótese.\n[…]\nSegundo Evans o palácio também era um templo, onde o seu soberano detinha o poder político, econômico, mas também religioso. E isso se reflete na própria arquitetura e disposição das salas e etc.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Batalha de Leuctra",
+      "descricao": "Batalha de 371 a.C. em que os tebanos, comandados por Epaminondas, derrotaram o exército de Esparta."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 371 antes de Cristo, na Batalha de Leuctra, que cidade grega, comandada por Epaminondas, derrotou o exército de Esparta?",
+    "resposta": "Tebas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Leuctra"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Leuctra",
+        "situacao": "ok",
+        "texto": "The Battle of Leuctra (Ancient Greek: Λεῦκτρα, Ancient Greek: [lêu̯k.tra]) was fought on 6 July 371 BC between the Boeotians led by the Thebans, and the Spartans along with their allies. The battle occurred in the context of the King's Peace, or Peace of Antalcidas, which had ended the Corinthian War in 386 BC.\n[…]\nThe Peace was formally renewed in 375 BC, but a disagreement between the Spartans and the Thebans over the protocol for renewing the Peace again in 371 led directly to the battle, which took place in the vicinity of Leuctra, a village in Boeotia in the territory of Thespiae. The mainly Theban victory shattered Sparta's immense influence over the Greek peninsula, and the wider Aegean Greek world, which Sparta had gained with its victory in the Peloponnesian War a generation earlier.\n[…]\nPelopidas and the Sacred Band played a significant role in the Theban victory at Leuctra. According to the first century-BC Roman biographer Cornelius Nepos, at says that \"in the battle of Leuctra, although Epaminondas was commander-in-chief, Pelopidas was the leader of the select corps that was first to break the Lacedaemonian phalanx.\"  Plutarch, the only other source for this, describes Pelopidas and the Sacred Band as crucially catching the Spartans in disorder.\n[…]\nThe battle is of great significance in Greek history.\n[…]\nDahm, Murray (2021), Leuctra 371 BC: The Destruction of Spartan Dominance (Campaign, 363), Bloomsbury Publishing (Kindle Edition), 2021. ISBN 9781472843487 (eBook), ISBN 978-1472843517 (pbk.).\n[…]\nHansen, Victor (1988), \"Epameinondas, the Battle of Leuktra (371 B.C.), and the 'Revolution' in Greek Battle Tactics\", in Classical Antiquity, Oct., 1988, Vol. 7, No. 2 (Oct., 1988), pp. 190-207. JSTOR 25010887.\n[…]\nBattle of Leuctra from Encyclopædia Britannica\n[…]\nHistory of the Leuctra Victory Monument"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Leuctra",
+        "situacao": "ok",
+        "texto": "A Batalha de Leuctra (em grego clássico: Λεῦκτρα, grc) foi travada em 6 de julho de 371 a.C. entre os boeócios liderados pelos tebanos e os espartanos juntamente com seus aliados. A batalha ocorreu no contexto da Paz do Rei, ou Paz de Antálcidas, que havia encerrado a Guerra de Corinto em 386 a.C.\n[…]\nCom Tebas agora isolada, Esparta viu uma oportunidade de reafirmar sua supremacia na Grécia central, e os espartanos imediatamente enviaram o rei Cleômbrotus I marchando, de sua posição na Fócida na Grécia central, para a Boeócia. Em vez de tomar a rota esperada e mais fácil para a Boeócia ao longo do lado norte do Monte Hélicon, os espartanos marcharam sobre as colinas ao sul do Hélicon, e então prosseguiram para Leuctra, onde foram confrontados por um exército boeócio reposicionado às pressas.\n[…]\nInicialmente, a infantaria espartana foi colocada em desordem quando sua cavalaria em retirada atrapalhou desesperadamente a tentativa de Cleômbrotus de flanquear a coluna esquerda tebana. Neste ponto, a ala esquerda tebana atingiu a ala direita espartana com o Batalhão Sagrado de Tebas, um tropa composta por todos os amantes masculinos, liderado por Pelópidas, à sua frente. O engajamento decisivo foi então travado entre a infantaria tebana e a espartana.\n[…]\nO uso dessas táticas por Epaminondas foi, talvez, um resultado direto do uso de algumas manobras semelhantes por Pagondas, seu compatriota, durante a Batalha de Délio. Além disso, Filipe II da Macedônia, que estudou e viveu em Tebas, foi sem dúvida muito influenciado pela batalha para desenvolver sua própria abordagem altamente eficaz para táticas e armamento. Por sua vez, seu filho, Alexandre, desenvolveria as teorias de seu pai para um nível totalmente novo.\n[…]\nBatalha de Leuctra da Encyclopædia Britannica",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Anábase",
+      "descricao": "Obra de Xenofonte que narra a expedição e a retirada dos Dez Mil mercenários gregos pelo Império Persa, por volta de 400 a.C."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que ateniense, discípulo de Sócrates, escreveu a Anábase, relato da retirada de dez mil mercenários gregos pelo Império Persa?",
+    "resposta": "Xenofonte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)",
+      "https://en.wikipedia.org/wiki/Xenophon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Anabasis_(Xenophon)",
+        "situacao": "ok",
+        "texto": "Anabasis ( ə-NAB-ə-sis; Ancient Greek: Ἀνάβασις [anábasis]; lit. 'An Ascent') is the most famous work of the Ancient Greek professional soldier and writer Xenophon. It gives an account of the expedition of the Ten Thousand, an army of Greek mercenaries hired by Cyrus the Younger to help him seize the throne of Persia from his brother, Artaxerxes II, in 401 BC.\n[…]\nThe Greek term anabasis referred to an expedition from a coastline into the interior of a country. While the journey of Cyrus is an anabasis from Ionia on the eastern coast of the Aegean Sea, to the interior of Asia Minor and Mesopotamia, most of Xenophon's narrative is taken up with the return march of Xenophon and the Ten Thousand, from the interior of Babylon to the coast of the Black Sea. Socrates makes a cameo appearance, when Xenophon asks whether he ought to accompany the expedition.\n[…]\nXenophon's account of the exploit resounded through Greece, where, two generations later, some surmise, it may have inspired Philip of Macedon to believe that a lean and disciplined Hellene army might be relied upon to defeat a Persian army many times its size. Besides military history, the Anabasis has found use as a tool for the teaching of classical philosophy; the principles of statesmanship and politics exhibited by the army can be seen as exemplifying Socratic philosophy.\n[…]\nNon-fiction books inspired by Anabasis include:\n[…]\nBuzzetti, E. Xenophon: The Socratic Prince: The Argument of the Anabasis of Cyrus. Recovering Political Philosophy . New York:   Palgrave Macmillan, 2014.\n[…]\nNussbaum, G. B. The Ten Thousand: A Study in Social Organization and Action in Xenophon's Anabasis. Leiden: E. J. Brill, 1967.\n[…]\nAnabasis at Perseus Digital Library\n[…]\nAnabasis at Project Gutenberg\n[…]\nAnabasis public domain audiobook at LibriVox\n[…]\nA downloadable textbook using an adaptation of Anabasis Book 1 as the main reading"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Xenophon",
+        "situacao": "ok",
+        "texto": "Xenophon of Athens (; Ancient Greek: Ξενοφῶν; c. 430 – 355/354 BC) was a Greek military leader, philosopher, economist, and historian. At the age of 30, he was elected as one of the leaders of the retreating Greek mercenaries, the Ten Thousand, who had been part of Cyrus the Younger's attempt to seize control of the Achaemenid Empire. As the military historian Theodore Ayrault Dodge wrote, \"the ce\n[…]\nPersonally invited by Proxenus of Beotia (Anabasis 3.1.9), one of the captains in Cyrus's mercenary army, Xenophon, sailed to Ephesus to meet Cyrus the Younger and participate in Cyrus's military campaign against Tissaphernes, the Persian satrap of Ionia. Xenophon describes his life in 401 BC and 400 BC in the memoir Anabasis.\n[…]\nWritten years after the events it recounts, Xenophon's book Anabasis (Greek: ἀνάβασις, literally \"going up\") is his record of the expedition of Cyrus and the Greek mercenaries' journey to home. Xenophon writes that he asked Socrates for advice on whether to go with Cyrus and that Socrates referred him to the Pythia.\n[…]\nXenophon's query to the oracle, however, was not whether or not to accept Cyrus' invitation, but \"to which of the gods he must pray and do sacrifice, so that he might best accomplish his intended journey and return in safety, with good fortune\". The oracle answered his question and told him which gods to pray and sacrifice to. When Xenophon returned to Athens and told Socrates of the oracle's advice, Socrates chastised him for asking so disingenuous a question (Anabasis 3.1.5–7).\n[…]\nApology: Xenophon's defence of Socrates in court.\n[…]\nBrennan, Shane. Xenophon's Anabasis: A Socratic History. Edinburgh: Edinburgh University Press, 2022 (ISBN 978-1474489881)\n[…]\nBuzzetti, Eric. Xenophon the Socratic Prince: The Argument of the Anabasis of Cyrus. New York: Palgrave Macmillan, 2014 (hardcover, ISBN 978-1137333308)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/An%C3%A1base",
+        "situacao": "ok",
+        "texto": "Anábase (em grego:  Ἀνάβασις, transliterado Anábasis, literalmente \"subida\", \"ascenso\") é a obra mais famosa do historiador e soldado profissional grego antigo Xenofonte. É a história da jornada de um grupo de soldados gregos que, em 401 a.C, marcharam desde a costa até o interior do império persa, governado pelo rei Artaxerxes II.\n[…]\nO livro Anábase retrata a saga do Exército dos Dez Mil, um grupo de soldados mercenários contratados por Ciro, o Jovem, príncipe persa, que desejava tomar o trono do Império que estava em posse de seu irmão, Artaxerxes II. O desenrolar dos sete livros compostos por Xenofonte contam os fatos que levaram, construíram e desdobraram a Batalha de Cunaxa onde o enfrentamento entre os irmãos se concretiza.\n[…]\nA obra narra fatos históricos e os episódios de um pós-guerra do Peloponeso, com Xenofonte entre os mercenários, pois tinha gosto pela aventura e pela guerra e que mesmo derrotado consegue voltar a pátria pela Ásia Menor. A obra Anábase evidencia também as intrigas dentro família real persa, sendo que a própria batalha é o resultado de uma conspiração para que Ciro torne-se rei, em vez da submissão ao reinado de seu irmão Artaxerxes II.\n[…]\nOs Dez Mil Mercenários: Os Dez Mil são um grupo de mercenários, em sua maioria gregos, que foram contratados por Ciro, O Jovem para a tomada do poder da Pérsia de seu irmão, Artaxerxes II. Os Dez Mil ganharam a batalha de Cunaxa, porém a vida de Ciro não foi poupada. Entre os Dez Mil estão figuras como Xenofonte e Clearco.\n[…]\nXENOFONTE. Anábase. Rio de Janeiro: Nova Fronteira, 1979.\n[…]\nXENOFONTE. Anábase: a expedição dos dez mil. Tradução, introdução e notas de Rui Valente. Évora: Sementes de Mudança, 2008, ISBN 978-989-95648-3-1\n[…]\nXENOFONTE. A Retirada dos dez mil. Tradução de Aquilino Ribeiro. Lisboa: Bertrand Editora, 2014. ISBN 978-972-25289-7-9.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Édipo Rei",
+      "descricao": "Tragédia grega do século cinco a.C. sobre o rei de Tebas que, sem saber, mata o pai e se casa com a mãe."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que dramaturgo ateniense escreveu Édipo Rei, a tragédia do homem que mata o pai e se casa com a mãe sem saber?",
+    "resposta": "Sófocles",
+    "distratores": [
+      "Ésquilo",
+      "Eurípides",
+      "Aristófanes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oedipus_Rex"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+        "situacao": "ok",
+        "texto": "Oedipus Rex, also known by its Greek title, Oedipus Tyrannus (Ancient Greek: Οἰδίπους Τύραννος, pronounced [oidípuːs týrannos]), or Oedipus the King, is an Athenian tragedy written by Sophocles. The play is thought to have been first performed c. 429 BC, although this is highly uncertain.\n[…]\nFate is a motif that often occurs in Greek writing, tragedies in particular. Likewise, where the attempt to avoid an oracle is the very thing that enables it to happen is common to many Greek myths. For example, similarities to Oedipus can be seen in the myth of Perseus's birth.\n[…]\nSophocles uses dramatic irony to present the downfall of Oedipus. At the beginning of the story, Oedipus is portrayed as \"self-confident, intelligent and strong willed.\" By the end, it is within these traits that he finds his demise.\n[…]\nOne of the most significant instances of irony in this tragedy is when Tiresias hints to Oedipus what he has done; that he has slain his own father and married his own mother (lines 457–60):\n[…]\nThe composer Igor Stravinsky wrote the opera-oratorio Oedipus Rex, which premiered in 1927 at the Théâtre Sarah Bernhardt, Paris. It is scored for orchestra, speaker, soloists, and male chorus. The libretto, based on Sophocles's tragedy, was written by Jean Cocteau in French and then translated by Abbé Jean Daniélou into Latin. The narration, however, is performed in the language of the audience.\n[…]\nIn 1968, Argentinean comedy-musical group Les Luthiers composed a parody of the play titled \"Epopeya de Edipo de Tebas\" (Oedipus of Thebes' Epos).\n[…]\nOedipus\n[…]\nOedipus complex\n[…]\nCairns, D. L. 2013. \"Divine and Human Action in the Oedipus Tyrannus\". In Tragedy and Archaic Greek Thought. Edited by D. L. Cairns, 119–171. Swansea, UK: Classical Press of Wales.\n[…]\nOedipus Rex public domain audiobook at LibriVox"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%89dipo_Rei",
+        "situacao": "ok",
+        "texto": "Édipo Rei (em grego clássico: Οἰδίπους Τύραννος; romaniz.: Oidípous Týrannos – trad.: “Édipo Tirano”) é uma peça do teatro grego antigo, escrita por Sófocles, por volta de 427 a.C.. Aristóteles, na sua Poética, considerou-a como o mais perfeito exemplo de tragédia grega.\n[…]\nFreud elevou o mito de Édipo a um dos pilares da psicanálise clássica. A definição do complexo de Édipo remonta a uma carta enviada por Freud a seu amigo Fliess, em que discute relações de poder e saber num drama encenado tipicamente por pai, mãe e filho. Em A verdade e as formas jurídicas, Michel Foucault fez uma análise das práticas judiciárias da Grécia antiga através da história de Édipo contada por Sófocles.\n[…]\nTudo se revela: Édipo matara seu verdadeiro pai (Laio) e desposara sua mãe (Jocasta).\n[…]\nSÓFOCLES. Édipo rei. Trad. Ordep Serra. São Paulo: Martin Claret, 2004, 2015.\n[…]\nSÓFOCLES. Édipo rei. Trad. Trajano Vieira. São Paulo: Perspectiva, 2005.\n[…]\nSÓFOCLES. Rei Édipo. Trad. Flávo Ribeiro de Oliveira. São Paulo: Odysseus, 2012.\n[…]\nSÓFOCLES. Édipo Rei. Trad. Márcio Mauá Chaves. São Paulo: Hedra, 2018.\n[…]\nSÓFOCLES. Édipo rei. Trad. Donaldo Schüler. Rio de Janeiro: Lamparina, 2004\n[…]\nSÓFOCLES. Édipo rei. Trad. Domingos Paschoal Cegalla. Rio de Janeiro: DIFEL, 2001\n[…]\nSÓFOCLES. Édipo Tirano. Trad. Leonardo Antunes. Todavia, 2018.\n[…]\nSÓFOCLES. A trilogia tebana. Trad. Mário da Gama Kury. Rio de Janeiro: Jorge Zahar Editor, 1989.\n[…]\nSÓFOCLES. Édipo rei. In: Teatro Grego. Trad. J. B. Mello e Souza. São Paulo, Rio de Janeiro, Porto Alegre: W. M. Jackson, 1950.\n[…]\nSÓFOCLES. Édipo rei. In: Teatro Grego. Trad. Jaime Bruna. São Paulo: Cultrix, 1964.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Atomismo",
+      "descricao": "Doutrina filosófica grega segundo a qual tudo é formado por partículas indivisíveis, os átomos, e pelo vazio."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que filósofo grego, junto com seu mestre Leucipo, defendeu que tudo é feito de partículas indivisíveis chamadas átomos?",
+    "resposta": "Demócrito",
+    "distratores": [
+      "Heráclito",
+      "Parmênides",
+      "Empédocles"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atomism",
+      "https://en.wikipedia.org/wiki/Democritus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Atomism",
+        "situacao": "ok",
+        "texto": "Atomism (from Ancient Greek  ἄτομον (atomon) 'uncuttable, indivisible') is a natural philosophy proposing that the physical universe is composed of fundamental indivisible components known as atoms.\n[…]\nThe concept of atomism appeared in both ancient Greek and  ancient Indian  philosophical traditions. Atomism in multiple different forms originated in ancient Greece. The word atom is derived from the term atomos (\"uncuttable\") used by the Greek philosophers Leucippus and his pupil Democritus, who developed this idea in the 5th century BC. Leucippus, Democritus, and other ancient Greek atomists argued that nature consists of two fundamental principles: atoms and void.\n[…]\nIn the 5th century BC, Leucippus and his pupil Democritus proposed that all matter was composed of small indivisible particles which they called \"atoms\". Nothing whatsoever is known about Leucippus except that he was the teacher of Democritus. Democritus, by contrast, wrote prolifically, producing over eighty known treatises, none of which have survived to the present day complete. However, a massive number of fragments and quotations of his writings have survived.\n[…]\nAristotle theorized minima naturalia as the smallest parts into which a homogeneous natural substance (e.g., flesh, bone, or wood) could be divided and still retain its essential character. Unlike the atomism of Democritus, these Aristotelian \"natural minima\" were not conceptualized as physically indivisible.\n[…]\nSeveral of these doctrines of atomism are, in some respects, \"suggestively similar\" to that of Democritus. McEvilley (2002) assumes that such similarities are due to extensive cultural contact and diffusion, probably in both directions."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Democritus",
+        "situacao": "ok",
+        "texto": "Democritus ( dih-MOK-rih-təs; Greek: Δημόκριτος, Dēmókritos; c. 460 – c. 370 BC) was a pre-Socratic Greek philosopher from Abdera, primarily remembered today for his formulation of an atomic theory of the universe. Democritus wrote extensively on a wide variety of topics.\n[…]\nDemocritus wrote on ethics as well as physics. Democritus was a student of Leucippus. Early sources such as Aristotle and Theophrastus credit Leucippus with creating atomism and sharing its ideas with Democritus, but later sources credit only Democritus, making it hard to distinguish their individual contributions.\n[…]\nIt was Democritus who, in his numerous writings, carried out Leucippus's theory of atoms, and especially in his observations on nature. These atomists undertook the task of proving that the quantitative relations of matter were its original characteristics, and that its qualitative relations were something secondary and derivative, and of thus doing away with the distinction between matter and mind or power.\n[…]\nQuantum-mechanical atoms are similar in that their motion can be described by mechanics in addition to their electric, magnetic and quantum interactions. They are different in that they can be split into protons, neutrons, and electrons. The elementary particles are similar to Democritean atoms in that they are indivisible but their collisions are governed purely by quantum physics.\n[…]\nFermions observe the Pauli exclusion principle, which is similar to the Democritean principle that atoms exclude other bodies from their volume. However, bosons do not, with the prime example being the elementary particle photon.\n[…]\nThe assertion of Democritus having a particular association with laughter existed by the time of Hippolytus of Rome.\n[…]\nWorks by or about Democritus at Wikisource"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atomismo",
+        "situacao": "ok",
+        "texto": "Atomismo (em grego clássico: ἄτομον atomon o que não pode ser cortado, indivisível) é uma filosofia natural que se desenvolveu em várias tradições antigas. Os atomistas teorizaram que a natureza consiste em dois princípios fundamentais: átomo e vazio.\n[…]\nReferências ao conceito de atomismo e seus átomos são encontrados na  Índia antiga e Grécia Antiga. Na Índia as escolas atomistas Jainistas, Ajivika e Carvaka remontam ao século VI a.C.. As escolas Nyaya e Vaisheshika desenvolveram teorias sobre como os átomos se combinavam para formar objetos mais complexos. No Ocidente, o atomismo surgiu no século V a.C., com Leucipo e Demócrito.\n[…]\nA teoria atomista se desenvolve em algum após a metade do século V a. c., por obra de Leucipo e Demócrito, cujas elaborações filosóficas são dificilmente separáveis nos registros transmitidos e preservados. Sua formação conceitual guarda similaridades com as elaborações precedentes de Anaxagoras e Empédocles acerca da pluralidade de entidades irredutiveis, cujo movimento de composição e decomposição explica o movimento testemunhado no mundo dos fenômenos.\n[…]\nEntretanto, outros fragmentos indicam que Demócrito verdadeiramente considerava o vácuo como existente (hupostasis) e dotado de uma natureza própria (phusis), e afirmava que um corpo não 'seria mais' que o vácuo.\n[…]\nO epicurismo (cujos representantes principais foram Epicuro e Lucrécio), que teve uma ampla difusão na antiguidade, foi influenciado pelo atomismo de Demócrito, mas com grandes mudanças. A principal diferença foi o abandono da ideia de turbilhão de átomos e a afirmação de que os átomos possuem peso e que, por isso, os átomos percorrem linhas retilíneas paralelas, tal como objetos em queda livre.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Atlântida",
+      "descricao": "Ilha lendária e poderosa que teria sido engolida pelo mar, descrita nos diálogos Timeu e Crítias."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A história da Atlântida, ilha poderosa engolida pelo mar, vem de dois diálogos antigos, o Timeu e o Crítias. Quem os escreveu?",
+    "resposta": "Platão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atlantis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Atlantis",
+        "situacao": "ok",
+        "texto": "Atlantis (Ancient Greek: Ἀτλαντὶς νῆσος, romanized: Atlantìs nêsos, lit. 'island of Atlas') is a fictional island mentioned in Plato's works Timaeus and Critias as part of an allegory on the hubris of nations. By describing Atlantis as a naval empire from the west that had conquered most of Europe and Libya, Plato purposely created a literary contrast with the Achaemenid Empire, the great land-bas\n[…]\nThe Timaeus begins with an introduction, followed by an account of the creations and structure of the universe and ancient civilizations. In the introduction, Socrates muses about the perfect society, described in Plato's Republic (c. 380 BC), and wonders if he and his guests might recollect a story which exemplifies such a society. Critias mentions a tale he considered to be historical, that would make the perfect example, and he then follows by describing Atlantis as is recorded in the Critias.\n[…]\nIn order to give his account of Atlantis verisimilitude, Plato mentions that the story was heard by Solon in Egypt, and transmitted orally over several generations through the family of Dropides, until it reached Critias, a dialogue speaker in Timaeus and Critias. Solon had supposedly tried to adapt the Atlantis oral tradition into a poem (that if published, was to be greater than the works of Hesiod and Homer). While it was never completed, Solon passed on the story to Dropides.\n[…]\nIn the new era, the third century AD Neoplatonist Zoticus wrote an epic poem based on Plato's account of Atlantis. Plato's work may already have inspired parodic imitation, however. Writing only a few decades after the Timaeus and Critias, the historian Theopompus of Chios wrote of a land beyond the ocean known as Meropis. This description was included in Book 8 of his Philippica, which contains a dialogue between Silenus and King Midas.\n[…]\nThe dictionary definition of atlantis at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atl%C3%A2ntida",
+        "situacao": "ok",
+        "texto": "Atlântida (em grego clássico: Ἀτλαντὶς νῆσος – trad.: “ilha de Atlas”) é uma ilha fictícia mencionada nas obras Timeu e Crítias do filósofo grego Platão como parte de uma alegoria sobre a arrogância das nações. Na história, Atlântida é descrita como um império naval que governava todas as partes ocidentais do chamado mundo conhecido, tornando-a a contra-imagem literária do Império Aquemênida.\n[…]\nAs únicas fontes primárias sobre Atlântida são os diálogos Timeu e Crítias do filósofo grego Platão; todas as outras menções à ilha são baseadas nestas referências. Os diálogos afirmam citar Sólon, que teria visitado o Egito entre 590 e 580 a.C. onde teria traduzido registros egípcios sobre Atlântida. Platão introduziu Atlântida no Timeu, escrito em 360 a.C.:\n[…]\nAlguns escritores antigos viam Atlântida como um mito fictício ou metafórico; outros acreditavam que era real. Aristóteles acreditava que Platão, seu professor, havia inventado a ilha para ensinar filosofia.\n[…]\nPara dar verossimilhança ao seu relato de Atlântida, Platão menciona que a história foi ouvida por Sólon no Egito, que teria sido transmitida oralmente ao longo de várias gerações através da família de Dropides, até chegar a Crítias, um orador de diálogo nas obras Timeu e Crítias. Sólon supostamente tentou adaptar a tradição oral da Atlântida em um poema (que, se publicado, seria maior que as obras de Hesíodo e Homero).\n[…]\nNa nova era, o neoplatônico Zótico, do século III, escreveu um poema épico baseado no relato de Platão. Contudo, a obra de Platão já pode ter inspirado paródias. Escrevendo apenas algumas décadas após Timeu e Crítias, o historiador Teopompo de Quios escreveu sobre uma terra além do oceano conhecida como Meropis. Esta descrição foi incluída no Livro 8 de sua Filípicas, que contém um diálogo entre Sileno e o rei Midas.\n[…]\n«A Atlântida ressurge»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Safo",
+      "descricao": "Poetisa grega da ilha de Lesbos, que viveu por volta de 600 a.C., famosa por seus poemas líricos de amor."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A poetisa Safo, que escreveu versos de amor por volta de 600 antes de Cristo, vivia em que ilha grega do mar Egeu?",
+    "resposta": "Lesbos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sappho"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sappho",
+        "situacao": "ok",
+        "texto": "Sappho (Ancient Greek: Σαπφώ Sapphṓ [sap.pʰɔ̌ː]; Aeolic Greek Ψάπφω Psápphō; c. 630 – c. 570 BC) was an ancient Greek poet from Eresos or Mytilene on the island of Lesbos. She is known for her lyric poetry, written to be sung while accompanied by music. In ancient times, she was widely regarded as one of the greatest lyric poets and was given names such as the \"Tenth Muse\" and \"The Poetess\".\n[…]\nOne tradition said that Sappho was exiled from Lesbos around 600 BC. The only ancient source for this story is the Parian Chronicle, which records her going into exile in Sicily some time between 604 and 595. This may have been as a result of her family's involvement with the conflicts between political elites on Lesbos in this period.\n[…]\nThe Alexandrian edition of Sappho's poetry may have been based on an Athenian text of her poems, or one from her native Lesbos, and was divided into at least eight books, though the exact number is uncertain. Many modern scholars have followed Denys Page, who conjectured a ninth book in the standard edition; Dimitrios Yatromanolakis doubts this, noting that though ancient sources refer to an eighth book of her poetry, none mention a ninth.\n[…]\nSappho worked within a well-developed tradition of poetry from Lesbos, which had evolved its own poetic diction, metres, and conventions. Prior to Sappho and her contemporary Alcaeus, Lesbos was associated with poetry and music through the mythical Orpheus and Arion, and through the seventh-century BC poet Terpander.\n[…]\nThe word lesbian is an allusion to Sappho, originating from the name of the island of Lesbos, where she was born. However, though in modern culture Sappho is seen as a lesbian, she has not always been considered so.\n[…]\nPoetry of Sappho\n[…]\nAncient Greek literature recitations, hosted by the Society for the Oral Reading of Greek and Latin Literature. Including a recording of Sappho 1 by Stephen Daitz."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Safo",
+        "situacao": "ok",
+        "texto": "Safo (em grego antigo: Σαπφώ, transl.: Sapphō) foi uma célebre poetisa grega da ilha de Lesbos, contemporânea de Pítaco e Alceus. É conhecida por sua poesia composta para ser cantada ao som da lira.\n[…]\nA sexualidade de Safo de Lesbos e sua influência na linguagem e na cultura ocidental são temas que continuam a instigar debates e reflexões. A poetisa, que viveu no século VI a.C., é frequentemente associada ao amor entre mulheres, tanto por suas obras quanto pela origem dos termos \"lésbica\" e \"sáfico\".\n[…]\nVejam, Safo de Lesbos é a décima.”\n[…]\nSeja como for, Camaleão também representa Anacreonte e Safo como contemporâneos e amantes, e cita um poema escrito por Anacreonte para a poetisa Safo; no poema, o poeta Anacreonte fala sobre uma Safo que ri de sua cabeleira branca, mas logo em seguida com a sua boca aberta se volta para a outra cabeleira dele, ou seja a cabeleira pubiana, fazendo uma clara alusão a prática do lesbiazein, pelo qual as mulheres de Lesbos eram conhecidas naquela época.\n[…]\nEssa versão é descrita na Suda, primeira enciclopédia do mundo:Safo era uma poeta de Mitilene, na ilha de Lesbos, e se atirou da ilha de Lêucade por causa de seu amor por Faonte.Outra versão afirma que a poeta na verdade teria tido uma vida tranquila e morrido de causas naturais em uma idade avançada.\n[…]\nA atuação de Safo esteve intimamente ligada aos ideais educacionais da paideia grega, especialmente no contexto da formação de jovens mulheres da aristocracia de Lesbos. Sua poesia lírica, marcada por temas afetivos, sensíveis e filosóficos, integrava um ambiente educativo no qual o canto, a dança, o domínio da linguagem e a sensibilidade estética compunham a formação intelectual e emocional das moças.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Mausoléu de Halicarnasso",
+      "descricao": "Tumba monumental de Mausolo, governante da Cária, construída no século quatro a.C. em Halicarnasso, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Mausoléu de Halicarnasso, uma das sete maravilhas, ficava numa cidade que hoje é um balneário turco. Como ela se chama?",
+    "resposta": "Bodrum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+        "situacao": "ok",
+        "texto": "The Mausoleum at Halicarnassus or Tomb of Mausolus was a tomb built between 353 and 351 BC in Halicarnassus (present Bodrum, Turkey) for Mausolus, an Anatolian from Caria and a satrap in the Achaemenid Persian Empire, and his sister-wife Artemisia II. The structure was designed by the Greek architects Satyros of Paros and Pythius of Priene. Its elevated tomb structure is derived from the tombs of \n[…]\nThe Knights of St John of Rhodes invaded the region and built Bodrum Castle (Castle of Saint Peter). When they decided to fortify it in 1494, they used the stones of the Mausoleum. This is also about when \"imaginative reconstructions\" of the Mausoleum began to appear. In 1522, rumours of a Turkish invasion caused the Crusaders to strengthen the castle at Halicarnassus (which was by then known as Bodrum) and much of the remaining portions of the tomb were broken up and used in the castle walls.\n[…]\nIn the 19th century, a British consul obtained several of the statues from Bodrum Castle; these now reside in the British Museum. In 1852, the British Museum sent the archaeologist Charles Thomas Newton to search for more remains of the Mausoleum. He had a difficult job. He did not know the exact location of the tomb, and the cost of buying up all the small parcels of land in the area to look for it would have been astronomical.\n[…]\nToday, the massive castle of the Knights Hospitaller (Knights of St. John) still stands in Bodrum, and the polished stone and marble blocks of the Mausoleum can be spotted built into the walls of the structure. At the site of the Mausoleum, only the foundation remains, and a small museum. Some of the surviving sculptures at the British Museum include fragments of statues and many slabs of the frieze showing the battle between the Greeks and the Amazons.\n[…]\nLivius.org: Mausoleum of Halicarnassus Archived 3 May 2015 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mausol%C3%A9u_de_Halicarnasso",
+        "situacao": "ok",
+        "texto": "O mausoléu de Halicarnasso ou mausoléu de Mausolo (em grego clássico: Μαυσωλεῖον τῆς Ἁλικαρνασσοῦ; em turco: Halikarnas Mozolesi) foi uma tumba construída entre 353 e 350 a.C. em Halicarnasso (atual Bodrum, Turquia) para Mausolo (em grego clássico: Μαύσωλος), um sátrapa do Império Aquemênida, e Artemísia II de Cária, sua irmã e esposa. A estrutura foi desenhada pelos arquitetos gregos Sátiro e Pít\n[…]\nEm 353 a.C. Mausolo morreu, deixando Artemísia de coração partido. Como um tributo a ele, ela decidiu construir-lhe a mais esplêndida tumba do mundo então conhecido. Ela tornou-se uma estrutura tão famosa que o nome de Mausolo é hoje associado com todas as tumbas suntuosas através de nosso termo moderno mausoléu. A construção era também tão bela e única que tornou-se uma das sete maravilhas do mundo antigo.\n[…]\nApós a construção da tumba, Artemísia encontrou-se numa crise. Rodes, uma ilha no mar Egeu entre a Grécia e a Anatólia, fora conquistada por Mausolo. Quando os ródios ouviram sobre a sua morte eles rebelaram-se e mandaram uma frota de navios para capturar a cidade de Halicarnasso. Sabendo que a frota ródia estava a caminho, Artemísia escondeu seus próprios navios numa localização secreta na extremidade leste do porto da cidade.\n[…]\nO mausoléu tinha uma vista panorâmica da cidade de Halicarnasso por vários séculos. Ele estava intacto quando a cidade caiu sob Alexandre em 334 a.C. e ainda não danificado após ataques de piratas em 62 e 58 a.C. Permaneceu acima das ruínas da cidade por cerca de 16 séculos. Então uma série de sismos destruiu as colunas e derrubou a biga de pedra. Em 1404 apenas a base natural do mausoléu ainda era reconhecível. No século XV, os hospitalários invadiram a região e construíram um maciço castelo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Mausoléu de Halicarnasso",
+      "descricao": "Tumba monumental de Mausolo, governante da Cária, construída no século quatro a.C. em Halicarnasso, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra usada para grandes túmulos monumentais vem da tumba de um governante da Cária, no século quatro antes de Cristo. Qual era o nome dele?",
+    "resposta": "Mausolo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+      "https://en.wikipedia.org/wiki/Mausolus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+        "situacao": "ok",
+        "texto": "The Mausoleum at Halicarnassus or Tomb of Mausolus was a tomb built between 353 and 351 BC in Halicarnassus (present Bodrum, Turkey) for Mausolus, an Anatolian from Caria and a satrap in the Achaemenid Persian Empire, and his sister-wife Artemisia II. The structure was designed by the Greek architects Satyros of Paros and Pythius of Priene. Its elevated tomb structure is derived from the tombs of \n[…]\nArtemisia and Mausolus ruled from Halicarnassus over the surrounding territory for 24 years. Mausolus, although descended from local people, spoke Greek and admired the Greek way of life and government. He founded many cities of Greek design along the coast and encouraged Greek democratic traditions.\n[…]\nThis monument was ranked the seventh wonder of the world by the ancients, not because of its size or strength but because of the beauty of its design and how it was decorated with sculpture or ornaments. The mausoleum was Halicarnassus's principal architectural monument, standing in a dominant position on rising ground above the harbor.\n[…]\nIn Milas (also the site of the tomb of Hecatomnus, who was the father of Mausolus) is also the site of the Gümüşkesen, a small-scale Roman-era (2nd century BC) copy of the Mausoleum at Halicarnassus:\n[…]\nNereid Monument\n[…]\nFergusson, James (1862). \"The Mausoleum at Halicarnassus restored in conformity with the recently discovered remains.\" J. Murray, London\n[…]\nKraege, Desmond Bryan (ed), Martin, Felix (ed), 2026, The Afterlife of the Mausoleum of Halicarnassus, Re-conceiving an Ancient Wonder in Early Modern Europe, Cambridge University Press\n[…]\nCook, B. F., Bernard Ashmole, and Donald Emrys Strong. 2005. Relief Sculpture of the Mausoleum At Halicarnassus. Oxford: Oxford University Press.\n[…]\nThe Tomb of Mausolus (W.R. Lethaby's reconstruction of the Mausoleum, 1908)\n[…]\nLivius.org: Mausoleum of Halicarnassus Archived 3 May 2015 at the Wayback Machine"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mausolus",
+        "situacao": "ok",
+        "texto": "Mausolus (Ancient Greek: Μαύσωλος or Μαύσσωλλος, Carian: [𐊪𐊠]𐊲𐊸𐊫𐊦 Mauśoλ) was a ruler of Caria (377–353 BCE) and a satrap of the Achaemenid Empire. He enjoyed the status of king or dynast by virtue of the powerful position created by his father Hecatomnus (Carian: 𐊴𐊭𐊪𐊳𐊫 K̂tmño), who was the first satrap of Caria from the hereditary Hecatomnid dynasty. Alongside Caria, Mausolus also ruled Lycia and\n[…]\nHe is best known for his monumental tomb and one of the Seven Wonders of the Ancient World, the Mausoleum at Halicarnassus, the construction of which has traditionally been ascribed to his wife and sister Artemisia.\n[…]\nMausolus also invaded parts of Ionia and controlled other\n[…]\nAll the original construction at Halicarnassus was distinctive of the so-called Ionian Renaissance, which the Hecatomnids sponsored throughout their territories, and which continued in the early Hellenistic Period at sites such as Priene. Many cities and religious centres in and around Caria bear features of the Ionian Renaissance following direct sponsorship by Mausolus and his family.\n[…]\nMausolus is best known by his monumental tomb: the Mausoleum at Halicarnassus. Tradition maintains that it was erected and named for him by order of his wife and sister Artemisia after his death. The tomb was only finished after her death. It is likely that construction began while Mausolus was still alive, and that he oversaw it alongside Artemisia.\n[…]\nThe Mausoleum at Halicarnassus was emblematic of the Ionian Renaissance, combining Greek architectural styles with those of Anatolian structures such as the Nereid Monument at Xanthos in Lycia. The leading craftsmen who designed and built the Mausoleum included famous Greeks : the architects Satyrus and Pythis, and the sculptors Scopas of Paros, Leochares, Bryaxis and Timotheus.\n[…]\nSimon Hornblower: Mausolus, Clarendon Press, Oxford 1982\n[…]\nLivius, Mausolus by Jona Lendering"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mausol%C3%A9u_de_Halicarnasso",
+        "situacao": "ok",
+        "texto": "O mausoléu de Halicarnasso ou mausoléu de Mausolo (em grego clássico: Μαυσωλεῖον τῆς Ἁλικαρνασσοῦ; em turco: Halikarnas Mozolesi) foi uma tumba construída entre 353 e 350 a.C. em Halicarnasso (atual Bodrum, Turquia) para Mausolo (em grego clássico: Μαύσωλος), um sátrapa do Império Aquemênida, e Artemísia II de Cária, sua irmã e esposa. A estrutura foi desenhada pelos arquitetos gregos Sátiro e Pít\n[…]\nTinha aproximadamente 45 metros de altura, e cada um de seus quatro lados foi adornado com relevos criados por cada um dos quatro escultores gregos — Briáxis, Escopas de Paros, Leocarés e Timóteo. A estrutura finalizada foi considerada como sendo um triunfo estético por Antípatro de Sídon, que a identificou como uma de suas sete maravilhas do mundo. O termo mausoléu veio a ser usado genericamente para qualquer grande tumba, embora \"Mausol-eion\" originalmente significasse \"associado com Mausolo\".\n[…]\nMausolo estendeu seu território até a costa sudoeste da Anatólia, e com Artemísia — era costume na Cária sátrapas desposarem suas irmãs, preservando o poder e riqueza da família — governou o território ao redor de Halicarnasso por 24 anos. Mausolo, embora descendendo do povo local, falava grego e admirava a maneira grega de vida e governo: fundou muitas cidades de projeto grego junto à costa e encorajou tradições democráticas gregas.\n[…]\nNa ocasião, um grupo de cavaleiros entrou na base do monumento e descobriu a sala contendo um grande caixão. Decidindo que era tarde demais para abri-la, voltou na manhã seguinte encontrando a tumba e qualquer tesouro que ela pudesse conter roubada. Os corpos de Mausolo e Artemísia estavam perdidos também. Os cavaleiros disseram que aldeões muçulmanos seriam os ladrões, mas é igualmente provável que alguns dos próprios cruzados o fossem.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Batalha de Gaugamela",
+      "descricao": "Batalha de 331 a.C. em que Alexandre, o Grande, derrotou o rei persa Dario III."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 331 antes de Cristo, Alexandre derrotou o rei persa Dario III na Batalha de Gaugamela. Em que país atual fica esse campo de batalha?",
+    "resposta": "Iraque",
+    "distratores": [
+      "Irã",
+      "Síria",
+      "Turquia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Gaugamela"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Gaugamela",
+        "situacao": "ok",
+        "texto": "The Battle of Gaugamela ( GAW-gə-MEE-lə; Ancient Greek: Γαυγάμηλα, romanized: Gaugámēla, lit. 'the Camel's House'), also called the Battle of Arbela (Ἄρβηλα, Árbēla), took place in 331 BC between the forces of the Army of Macedon under Alexander the Great and the Persian Army under King Darius III. It was the second and final battle between the two kings, and is considered to be the final blow to \n[…]\nAfter the Macedonian army had crossed the Tigris, a near-total lunar eclipse occurred on 20–21 September 331 BC. Four days later, Alexander's army spotted members of Mazaeus' cavalry and captured one or two, who gave information about the location of Darius' army at Gaugamela, some eight miles away.\n[…]\nIn light of the ground-flattening efforts taking place at Gaugamela, Alexander determined that Darius did not intend to change locations, and allowed his troops four days to rest before engaging Darius' army in battle. Following the calculations, the date of the Battle of Gaugamela must have been 1 October in 331 BC.\n[…]\nDarius most likely decided to prevent Alexander from crossing the Tigris. This plan failed because Alexander probably took a river crossing that was closer to Thapsacus than Babylon. He would have improvised and chosen Gaugamela as his most favourable site for a battle. Historian Jona Lendering, by contrast, argues that Darius intentionally led the Macedonians to Gaugamela, the Persians' preferred battlefield.\n[…]\nThere they were to conduct a holding action while Alexander launched the decisive blow from the right.\n[…]\nMilitary tactics of Alexander the Great\n[…]\nMarciak, Michal; Sobiech, Marcin; Pirowski, Tomasz (2020). \"Alexander the Great's Route to Gaugamela and Arbela\". Klio. 102 (2): 536–559. doi:10.1515/klio-2020-1005. S2CID 226279004.\n[…]\nVideo : Animated reconstruction of Battle of Gaugamela on YouTube History Channel\n[…]\nWelman, Nick. \"Major Battles – Gaugamela\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Gaugamela",
+        "situacao": "ok",
+        "texto": "A Batalha de Gaugamela (ou Batalha de Gaugamelos; em grego:  Γαυγάμηλα), também conhecida como Batalha de Arbela (Ἄρβηλα, Árbēla), ocorreu em 331 a.C. entre as forças do Exército da Macedônia, sob o comando de Alexandre, o Grande, e o Exército Persa, sob o rei Dario III. Foi a segunda e última batalha entre os dois reis e é considerada o golpe final para o Império Aquemênida persa, resultando em s\n[…]\nO combate ocorreu em Gaugamela, uma vila às margens do rio Bumodus, ao norte de Arbela (atual Erbil, no Curdistão iraquiano). Apesar de estar em grande desvantagem numérica, o Exército da Macedônia saiu vitorioso devido ao emprego de táticas superiores e ao uso inteligente de forças de infantaria ligeira. Foi uma vitória decisiva para a Liga de Corinto e levou à queda do Império Persa e de Dario III.\n[…]\nEnquanto os carros com lâminas faziam seu ataque, Dario ordenou um avanço geral e, ao mesmo tempo, enviou alguns cavalarianos persas para apoiar os bactrianos e citas derrotados. Alexandre ordenou que a última unidade de sua guarda de flanco, os 600 lanceiros, atacassem a cavalaria persa no ponto em que ela saía da linha principal.\n[…]\nAlexandre e os acompanhantes encabeçaram a perseguição, seguidos pelas tropas de Parmênio. O objetivo era derrubar o moral da cavalaria inimiga. Ao escurecer, Alexandre acampou até a meia-noite. Nesse meio tempo, Parmênio capturava o acampamento persa. Em seguida, Alexandre prosseguiu com a perseguição até Arbela, onde capturou o tesouro e as posses de Dario.\n[…]\nEle próprio proclamou seu triunfo em uma oferenda para a Atena Lindia, de Rodes, com suas próprias palavras: \"O rei Alexandre, tendo dominado Dario em batalha e tornando-se o senhor da Ásia, fez sacrifício a Atena de Lindus de acordo com um oráculo\". Ele via a derrota da Pérsia como uma preliminar para a conquista de toda a Ásia.\n[…]\nBattle of Gaugamela animated battle map por Jonathan Webb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Erecteion",
+      "descricao": "Templo jônico da Acrópole de Atenas, famoso pelo pórtico das cariátides."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Das seis cariátides originais do Erecteion, cinco estão num museu de Atenas. Em que museu de Londres está a sexta?",
+    "resposta": "Museu Britânico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Erechtheion",
+      "https://en.wikipedia.org/wiki/Caryatid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Erechtheion",
+        "situacao": "ok",
+        "texto": "The Erechtheion (, latinized as Erechtheum ; Ancient Greek: Ἐρέχθειον, Modern Greek: Ερέχθειο) or Temple of Athena Polias is an ancient Greek Ionic temple, on the north side of the Acropolis, Athens, that was primarily dedicated to the goddess Athena.\n[…]\nFor many years, the accepted scholarly opinion has been that the Erechtheion fulfilled a triplicate purpose in its interior design: to \"replace the Old Temple [of Athena], to house the old image, and to unite in an organized building several shrines and places of religious significance.\"\n[…]\nTheir use of ancient sources in the identification of ancient buildings rather than local folklore, as had been the case before, was innovative and presaged the beginning of scholarship with regard to the Erechtheion.\n[…]\nIn this same spirit came the work of Richard Pococke, who published the first reconstruction of the temple in 1745 and who was the first to conjecture the existence of a larger, symmetrical building. Later, Stuart and Revett published the first accurate measured drawings of the Erechtheion in the second volume of their Antiquities of Athens in 1787.\n[…]\nThis book, perhaps more than any other, was influential in disseminating the Ionic style and the form of the Erechtheion amongst architects and an appreciative public in the 18th and 19th centuries.\n[…]\nFor the Erechtheion this meant the remnants of the Frankish North Addition, the Venetian vault in the North Porch, the Ottoman masonry structure in the angle of the westward projection of the North Porch and the West Façade, and the Frankish and Ottoman alterations of the interior were removed. The first attempted reconstruction of the damaged building was Pittakis's in 1839–1840. The second anastylosis was Nikolaos Balanos's in 1902–1909."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Caryatid",
+        "situacao": "ok",
+        "texto": "A caryatid ( KAIR-ee-AT-id, KARR-; Ancient Greek: Καρυᾶτις, romanized: Karuâtis; pl. Καρυάτιδες, Karuátides) is a sculpted female figure serving as an architectural support taking the place of a column or a pillar supporting an entablature on her head. The Greek term karyatides literally means \"maidens of Karyai\", an ancient town on the Peloponnese.\n[…]\nThe ancient Caryae supposedly was one of the six adjacent villages that united to form the original township of Sparta, and the hometown of Menelaos' queen, Helen of Troy. Girls from Caryae were considered especially beautiful, strong, and capable of giving birth to strong children.\n[…]\nThe best-known and most-copied examples are the six figures of the Caryatid porch of the Erechtheion on the Acropolis in Athens. One of these original six figures was removed by Lord Elgin in the early 19th century, an action that caused significant damage to the temple. The figure is currently held in the British Museum in London.\n[…]\nThe five originals that are in Athens are now being exhibited in the new Acropolis Museum, on a special balcony that allows visitors to view them from all sides. The pedestal for the caryatid removed to London remains empty, awaiting its return. From 2011 to 2015, they were cleaned by a specially constructed laser beam, which removed accumulated soot and grime without harming the marble's patina.\n[…]\nThe Romans also copied the Erechtheion caryatids, installing copies in the Forum of Augustus and the Pantheon in Rome, and at Hadrian's Villa at Tivoli. Another Roman example, found on the Via Appia, is the Townley Caryatid.\n[…]\n1984 Les Dites Cariatides\n[…]\n2005 Les Dites Cariatides Bis\n[…]\nCariatides room of the Louvre on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erecteion",
+        "situacao": "ok",
+        "texto": "O Erecteion, também conhecido como Erectêion ou Erectéion (em grego Έρέχθειον, transl. Eréchtheion) é um templo grego consagrado a Atena e a Posídon. Foi construído entre 421 a 406 a.C., por Mnesicles.\n[…]\nPossui duas celas individuais, e irregulares, devido à diferença de terreno e três pórticos desiguais. O pórtico Norte distingue-se pela altura das suas colunas e delicadeza dos capitéis; o pórtico Sul é o mais famoso por ter seis cariátides, ou korai, fazendo as vezes de colunas. Em redor de todo o templo havia um friso, da qual restam alguns fragmentos conservados no Museu da Acrópole de Atenas.\n[…]\nJá na Ilíada, embora em passo considerado do século VI a.C., fala-se de um templo dedicado a Erecteu.\n[…]\nAcrópole de Atenas\n[…]\nErecteu\n[…]\nMedia relacionados com Erecteion no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Bronzes de Riace",
+      "descricao": "Par de estátuas gregas de guerreiros em bronze, do século cinco a.C., encontradas em 1972 no mar perto de Riace, na Calábria."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1972, um mergulhador achou no mar duas grandes estátuas gregas de guerreiros em bronze, do século cinco antes de Cristo. Em que país?",
+    "resposta": "Itália",
+    "distratores": [
+      "Grécia",
+      "Turquia",
+      "Chipre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Riace_bronzes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Riace_bronzes",
+        "situacao": "ok",
+        "texto": "The Riace bronzes (Italian: Bronzi di Riace, [ˈbrondzi di riˈaːtʃe]), also called the Riace Warriors, are two full-size Greek bronze statues conventionally designated Statue A (the \"Young\") and Statue B (the \"Old\"). They depict two nude, bearded men standing slightly over life size; they originally carried weapons and wore headgear that is now lost. They were cast by the lost-wax process and inclu\n[…]\nOn 12 December 2023 the Italian Ministry of Enterprises and Made in Italy issued an ordinary postage stamp in the series Il Patrimonio artistico e culturale italiano dedicated to the Riace bronzes. Its design reproduces the two statues and bears the inscription \"Bronzi di Riace 50° anniversario scoperta\"; 250,020 copies were printed in sheets of 45 stamps.\n[…]\nAntonella Huber (August 2020). \"16 agosto 1972: Il ritrovamento dei bronzi di Riace\". Rivista il Mulino (in Italian).\n[…]\nRobert Ross Holloway (1988). \"Gli Eroi di Riace sono siciliani?\". Sicilia Archeologica (in Italian) (66–68): 23–29.\n[…]\nMaurizio Paoletti; Salvatore Settis, eds. (2015). Sul buono e sul cattivo uso dei Bronzi di Riace (in Italian). Rome: Donzelli. ISBN 9788868432225.\n[…]\nCarlo Odo Pavese (1982). \"Interpretazione dei Bronzi di Riace\". Studi Classici e Orientali (in Italian). 32: 13–58.\n[…]\nSandro Stucchi (1986). \"Le due statue di bronzo dal mare di Riace. Una revisione\". Rendiconti dell'Accademia Nazionale dei Lincei. Classe di scienze morali, storiche e filologiche (in Italian). 41: 111–135.\n[…]\nSandro Stucchi (1988). \"Nuove osservazioni sulle statue bronzee di Riace\". Rendiconti dell'Accademia Nazionale dei Lincei. Classe di scienze morali, storiche e filologiche (in Italian). 43: 99–102.\n[…]\nLicia Vlad Borrelli; Paola Pelagatti, eds. (1984). Due Bronzi da Riace. Rinvenimento, restauro, analisi ed ipotesi di interpretazione. Bollettino d'Arte, serie speciale 3 (in Italian). Vol. I–II. Rome: Istituto Poligrafico e Zecca dello Stato."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bronzes_de_Riace",
+        "situacao": "ok",
+        "texto": "Os Bronzes de Riace (em italiano: Bronzi di Riace) são duas estátuas de bronze encontradas no mar Jônico a cerca de 6 a 8 metros de profundidade, por Stefano Mariottini durante as suas férias em 16 de agosto de 1972. Atualmente podem ser vistas no Museu Nacional da Magna Grécia (Museo Nazionale della Magna Grecia), na cidade de Reggio Calabria, no extremo sul da Itália.\n[…]\nSão duas magníficas obras de arte, datadas por volta do século V a.C., exemplos de antiga escultura grega, pertencentes ao período transitório entre a escultura grega arcaica e o antigo estilo clássico, dadas sua geometria idealizada e anatomia impossível, apesar de seu aparente \"realismo\"; uma delas é atribuída a Fídias, considerado o maior escultor da Grécia Antiga.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Epicuro",
+      "descricao": "Filósofo grego (341–270 a.C.) que fundou em Atenas a escola epicurista, voltada à busca do prazer moderado e da tranquilidade."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em Atenas, Epicuro reunia seus discípulos num terreno junto de sua casa, que acabou virando o apelido da escola. Que lugar era esse?",
+    "resposta": "O Jardim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Epicurus",
+      "https://en.wikipedia.org/wiki/Epicureanism"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Epicurus",
+        "situacao": "ok",
+        "texto": "Epicurus (, EH-pih-KURE-əs; Ancient Greek: Ἐπίκουρος Epikouros; 341–270 BC) was an ancient Greek philosopher who founded the philosophical school of Epicureanism, which teaches that management of one's desires, removal of unnecessary fears, friendship, and virtuous living lead to a pleasant life and constant happiness, the highest good.\n[…]\nOther disciples of Epicurus whose doctrines are known include Colotes, whose work On the Impossibility of Living According to the Doctrines of Other Philosophers was disputed in two extant works by Plutarch, and Carneiscus, whose work criticizing the peripatetic conception of friendship survives in a fragmentary state. Other students include Idomeneus, Pythocles, and Epicurus's three brothers: Neocles, Chaeridemus, and Aristobulus.\n[…]\nThere were also several divisions within the school early on; even in Epicurus's lifetime, Timocrates of Lampsacus, the brother of his closest disciple Metrodorus, had left the school and published several tracts critical of Epicureanism. During the 2nd and 1st centuries BC, dissident sects of Epicureans established themselves in Cos and Rhodes who broke with the scholarchs of the Garden.\n[…]\nJones, Howard (1989). The Epicurean Tradition. London: Routledge. ISBN 978-0-415-02069-5.\n[…]\nWarren, James (2002). Epicurus and Democritean Ethics: An Archaeology of Ataraxia. New York, NY: University of Cambridge.\n[…]\nWarren, James (2009). The Cambridge Companion to Epicureanism. New York: Cambridge University Press. ISBN 978-05218-7347-5.\n[…]\nWorks by or about Epicurus at the Internet Archive\n[…]\nWorks by Epicurus at LibriVox (public domain audiobooks) .\n[…]\nEpicurus on PhilPapers\n[…]\nO'Keefe, Tim. \"Epicurus\". In Fieser, James; Dowden, Bradley (eds.). Internet Encyclopedia of Philosophy. ISSN 2161-0002. OCLC 37741658.\n[…]\nGreek testimonies for Epicurus at Eulogikon"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Epicureanism",
+        "situacao": "ok",
+        "texto": "Epicureanism, less commonly Epicurism, is a school of philosophy founded in 307 BCE and based upon the teachings of Epicurus, an ancient Greek philosopher. Epicurus was an atomist and materialist, following in the steps of Democritus. His materialism led him to religious skepticism and a general attack on superstition and divine intervention. Epicureanism was originally a challenge to Platonism, a\n[…]\nThere are also independent attestations of his ideas from both early opponents such as Clement of Alexandria, Plutarch, and Cicero, and later disciples who defended his views such as a speech of Lucius Manlius Torquatus defending Epicurean ethics and Gaius Velleius's speech defending the Epicurean conception of the gods in the works of Cicero, along with Colotes, who Plutarch responds to in his writings.\n[…]\nEpicurean philosophy employs an empirical epistemology, one based on the senses.\n[…]\nFrancis Bacon wrote an apothegm related to Epicureanism:\n[…]\nLaërtius, Diogenes. \"Epicurus\" . Lives of the Eminent Philosophers. Vol. 2:10. Translated by Hicks, Robert Drew (Two volume ed.). Loeb Classical Library.\n[…]\nMartin Ferguson Smith (ed.), Diogenes of Oinoanda. The Epicurean inscription, edited with introduction, translation, and notes, Naples: Bibliopolis, 1993.\n[…]\nSchild, Detlev The Birth of the Natural Sciences. Atticus, Göttingen, 2025. An almost verbatim translation of and a free translation with comments on Epicurus’ letter to Herodotus (Laërtius, Diogenes. \"Epicurus\" . Lives of the Eminent Philosophers).\n[…]\nO'Keefe, Tim (2010). Epicureanism. University of California Press.\n[…]\nWilson, Catherine (2015). Epicureanism: a very short introduction. Oxford, United Kingdom: Oxford University Press. ISBN 9780199688326. OCLC 917374685.\n[…]\nEpicureans on PhilPapers\n[…]\nComplete text of Hermann Usener's Epicurea (1887) (Greek and Latin) at Internet Archive\n[…]\nEnglish version of the Fragments in Usener's Epicurea at attalus.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Epicuro_de_Samos",
+        "situacao": "ok",
+        "texto": "Epicuro de Samos (em grego clássico: Ἐπίκουρος, Epikouros, \"aliado, camarada\"; 341 a.C., Samos — 271 ou 270 a.C., Atenas) foi um filósofo grego do período helenístico. Seu pensamento foi muito difundido em numerosos centros epicuristas que se desenvolveram na Jônia, no Egito e, a partir do século I, em Roma, onde Lucrécio foi seu maior divulgador.\n[…]\nEpicuro ouviu o filósofo acadêmico Pânfilo em Samos, que não lhe foi de muito agrado. Por isso foi mandado para Téos pelo seu pai. Com Nausífanes de Téos, discípulo de Demócrito de Abdera, Epicuro teria entrado em contato com a teoria atomista — da qual reformulou alguns pontos. Epicuro ensinou filosofia em Lâmpsaco, Mitilene e Cólofon até que em 306 a.C. fundou sua própria escola filosófica, chamada O Jardim, onde residia com alguns amigos, na cidade de Atenas.\n[…]\nLecionou em sua escola até a morte, em 270 a.C., cercado de amigos e discípulos e tendo sua vida marcada pelo ascetismo, serenidade e doçura.\n[…]\nO único prazer é o prazer do corpo e o que se chama de prazer do espírito é apenas lembrança dos prazeres do corpo. O mais alto prazer reside no que chamamos de saúde. Entre os prazeres, Epicuro elege a amizade. Por isso, o convívio entre os estudiosos de sua doutrina era tão importante a ponto de viverem em uma comunidade, o \"Jardim\". Ali, os amigos poderiam se dedicar à filosofia, cuja função principal é libertar o homem para uma vida melhor.\n[…]\nNa Divina Comédia, de Dante Alighieri, Epicuro é colocado no Inferno como um Herege. Ele está na 6º Prisão, junto com seus seguidores, na cidade de Dite. A pena dos hereges é serem enterrados em túmulos ardentes e abertos, tendo os membros queimados pela areia quente.\n[…]\nVirou personagem em quadrinhos na série \"Epicuro, o Sábio\", de William Messner-Loebs.\n[…]\nEpicurismo\n[…]\nParadoxo de Epicuro\n[…]\nEpicuro: o filósofo do prazer.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Longos Muros de Atenas",
+      "descricao": "Muralhas do século cinco a.C. que ligavam a cidade de Atenas aos seus portos, garantindo o abastecimento pelo mar."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No século cinco antes de Cristo, Atenas construiu longas muralhas para se ligar ao seu porto principal e receber suprimentos pelo mar. Que porto era esse?",
+    "resposta": "Pireu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Long_Walls"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Long_Walls",
+        "situacao": "ok",
+        "texto": "The Long Walls (Ancient Greek: Μακρὰ Τείχη [makra tei̯kʰɛː]) was a structure that connected Athens' main city to its ports at Piraeus and Phaleron.\n[…]\nThe Long Walls were a key element of Athenian military strategy, since they provided the city with a constant link to the sea and thwarted sieges conducted by land alone.\n[…]\nThe first Long Walls began construction sometime in 462–458 BC during the First Peloponnesian War. These were a wall from Athens to the old port at Phalerum, and another wall from Athens to the newer port at Piraeus. The walls were completed soon after the Athenian defeat at the Battle of Tanagra in 457 BC. The walls enclosed, and secured the transport routes, between Athens and the ports.\n[…]\nThe third Long Wall, called the \"Middle Wall\" or \"Southern Wall\", was constructed in the 440s BC. The third wall ran from Athens to Piraeus, south of and parallel to the first Athens–Piraeus wall; the two walls created a narrow protected corridor. By this time, Piraeus had superseded Phalerum as the primary port, which likely drove a re-evaluation of the fortification system. The new wall addressed the vulnerability created by the unprotected shoreline between the ports and original walls.\n[…]\nAfterwards, the fleet moved to Athens where it provided protection and manpower for the reconstruction of the Long Walls; Pharnabazus II contributed money for the construction. According to Conon, an Athenian commander employed by the Persians, construction was in the final stages by 391 BC.\n[…]\nConwell, David H. Connecting a City to the Sea: The History of the Athenian Long Walls. Brill NV, 2008. ISBN 978-90-04-16232-7\n[…]\nLivius.org: Long Walls"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Longas_Muralhas",
+        "situacao": "ok",
+        "texto": "Longas Muralhas (em grego:  Μακρά Τείχη, transl. Makrá Teíkhē), também conhecidas como Longos Muros, na Grécia Antiga, é como eram conhecidas as muralhas construídas de uma cidade até o seu porto, garantindo assim aos habitantes desta cidade um acesso seguro ao mar, mesmo durante longos períodos de sítio.\n[…]\nEmbora muralhas longas tenham sido construídos em diversos locais da Grécia, como Corinto e Mégara, o termo costuma ser usado, com iniciais maiúsculas, como o nome que designa especificamente as muralhas que ligavam Atenas aos portos do Pireu e Faleros.\n[…]\nEstas muralhas foram construídas no meio do século V a.C.,  destruídas pelos espartanos em 404 a.C., ao fim da Guerra do Peloponeso, reconstruídas novamente com o auxílio dos persas durante a Guerra Coríntia e finalmente destruídas quando Lúcio Cornélio Sula tomou o Pireu. Eram um elemento chave da estratégia ateniense, já que possibilitava uma ligação marítima constante, e evitava que a cidade fosse totalmente cercada.\n[…]\nNo início da década de 450 a.C. tiveram início os confrontos militares entre Atenas e os diversos aliados peloponésios de Esparta, especialmente Corinto e Égina. No meio deste combate, Atenas iniciou a construção de outras duas muralhas, entre 462 a 458 a.C., uma que ia da cidade até o antigo porto de Faleros, enquanto o outro ia até o ponto mais novo, Pireu. Em 457 a.C.\n[…]\num exército espartano derrotou os atenienses que defendiam a construção do muro em Tânagra, porém as obras continuaram, e eventualmente foram concluídas pouco tempo depois desta batalha. Estas novas fortificações, as chamadas Longas Muralhas, fizeram com que Atenas nunca perdesse o fornecimento de mantimentos, na medida em que controlava o mar.\n[…]\nLongas Muralhas - Livius.org (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Altar de Pérgamo",
+      "descricao": "Monumental altar grego do século dois a.C., da cidade helenística de Pérgamo, remontado num museu de Berlim."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Altar de Pérgamo, monumento grego do século dois antes de Cristo, foi levado da atual Turquia e remontado num museu de que cidade europeia?",
+    "resposta": "Berlim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pergamon_Altar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pergamon_Altar",
+        "situacao": "ok",
+        "texto": "The Pergamon Altar (Ancient Greek: Βωμός τῆς Περγάμου) was a monumental construction built during the reign of the Ancient Greek King Eumenes II of the Pergamon Empire in the first half of the 2nd century BC on one of the terraces of the acropolis of Pergamon in Asia Minor (modern-day Turkey). It was described as one of the Seven Wonders of the Ancient World by three known classical lists.\n[…]\nThe shape of the altar was almost a square. In this respect it followed Ionic models, which specified a wall enclosing the actual sacrificial altar on three sides. On the open side the altar could be accessed via a stairway. For cultic reasons such altars were usually oriented toward the east so that those bringing sacrifices entered the altar from the west. The Pergamene altar follows this tradition, but to a truly monumental extent.\n[…]\nPanels 49 and 50 – An altar is erected\n[…]\nFour rare examples of golden-section proportions were identified through this research in a tower, a tomb, a grave stele and in the Great Altar of Pergamon. On the two frontal parts of the frieze facing the observer standing in front of the monument, the height to length ratio is 2.29 m to 5.17 m, that is 1:2.25, the ratio of the Parthenon.\n[…]\nIn Nazi Germany, this type of architecture later served as a model worthy of emulation. Wilhelm Kreis chose for his Soldiers' Hall at the Army High Command headquarters in Berlin (1937/38) and for a never-realized warriors' monument at the foot of Mount Olympus in Greece a building shape which was very similar to the Pergamon Altar. But for the Soldiers' Hall the frieze was limited to the front face of the risalit. The friezes by the sculptor Arno Breker were, however, never executed.\n[…]\nDreyfus, Renée, and Ellen Schraudolph. 1996. Pergamon: The Telephos Frieze From the Great Altar. San Francisco: Fine Arts Museums of San Francisco."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Altar_de_P%C3%A9rgamo",
+        "situacao": "ok",
+        "texto": "O Altar de Pérgamo é uma magnífica estrutura dedicada a Zeus, originalmente construída no século II a.C. na cidade grega de Pérgamo (atual Bergama, na Turquia).\n[…]\nA construção, que sofrera muito com o tempo e estava destruída, foi escavada, no final do século XIX, em seu sítio original, e suas partes enviadas para a Alemanha por uma expedição arqueológica liderada por Carl Humann. O altar foi então abrigado no Museu de Pérgamo em Berlim, onde pode ser visto junto a outras estruturas monumentais como o Portão do Mercado de Mileto e a Porta de Istar da Babilônia.\n[…]\nO grande altar provavelmente foi construído a mando de Eumenes II, da dinastia Atálida, após suas vitórias militares no Mar Mediterrâneo que lhe deram o domínio sobre a Ásia Menor. Pérgamo desejava cultivar sua imagem dentro da supremacia cultural e política perdidas por Atenas no mundo grego. Tinha vários projetos, inclusive o patrocínio de monumentos na Acrópole ateniense.\n[…]\nNa época em que foram levados para a Alemanha, o império germânico reagrupado procurava aumentar sua influência cultural, e aproveitou sua aliança com o Império Otomano para concorrer com seus rivais ingleses e franceses, num jogo cultural e geopolítico que acabou na I Grande Guerra. O magnífico saque incluiu o altar, relíquias da Babilônia, Troia e obras muçulmanas.\n[…]\nH. Kähler, Der grosse Fries von Pergamon: Untersuchungen zur Kunstgeschichte und Geschichte Pergamons, Berlin, Gebr. Mann, 1948\n[…]\nL'Autel de Pergame: images et pouvoir en Grèce d'Asie , Picard, coll. « Antiqua », 2005 - ISBN 2-7084-0734-1\n[…]\n«Ministério da Cultura da Turquia»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Massália",
+      "descricao": "Colônia grega fundada por colonos da Foceia por volta de 600 a.C. no sul da Gália, origem da cidade de Marselha."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 600 antes de Cristo, gregos vindos da Foceia fundaram uma colônia no sul da Gália. Que grande cidade francesa ela se tornou?",
+    "resposta": "Marselha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Massalia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Massalia",
+        "situacao": "ok",
+        "texto": "Massalia (Greek: Μασσαλία, romanized: Massalía; Latin: Massilia) was an ancient Greek colony (apoikia) on the Mediterranean coast, east of the Rhône. Settled by Ionians from Phocaea c. 600 BC, this apoikia grew up rapidly, and became the center of ancient Greek trade in western Mediterranean, branching out and creating many outposts on the coasts of what is now Spain, the south of France (includin\n[…]\nMassalia persisted as an independent colony until the Roman campaign in Gaul in the 1st century BC. The ruins of Massalia still exist in the contemporary city of Marseille, which is considered the oldest city of France and one of Europe's oldest continuously inhabited settlements.\n[…]\nMassalia was established c. 600 BC by Ionian Greek settlers from Phocaea, in Ionia, in coastal Western Anatolia. After the capture of Phocaea by the Persians in 545 BC, a new wave of settlers fled towards the colony. A creation myth telling the meeting between the Greeks and the local population is given by Aristotle and Pompeius Trogus (see founding myth of Marseille).\n[…]\nAfter the middle of the 6th century BC, Massalia became an important trading post of the western Mediterranean area. It grew into creating colonies of its own on the sea coast of Gallia Narbonensis during the 4th and 3rd centuries BC, including Agathe (late 5th–early 4th c. BC), Olbia (c. 325), Tauroentium (early 3rd c.), Antipolis and Nikaia (c. mid-3rd c.).\n[…]\nMassalia was ruled as an oligarchic republic by a closed aristocracy initially descending from the original settlers. An assembly of 600 timouchoi, whose membership was conditioned to the involvement in trading activities, elected 15 magistrates, 3 of them with executive power.\n[…]\nBizot, Bruno (2007). Marseille antique. Guides archéologiques de la France. Éd. du Patrimoine. ISBN 978-2-85822-931-4."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mass%C3%A1lia_%28Gr%C3%A9cia_Antiga%29",
+        "situacao": "ok",
+        "texto": "Massália (grego: Μασσαλία, romanizado: Massalía; latim: Massilia) foi uma antiga colônia grega (apoikia) na costa do Mediterrâneo, a leste do Ródano. Estabelecida pelos jônios de Foceia em 600 a.C., essa apoikia cresceu rapidamente, e sua população estabeleceu muitos postos avançados para comércio na atual Espanha, Córsega e Ligúria. Massália persistiu como uma colônia independente até a campanha \n[…]\nAs ruínas de Massália ainda existem na atual cidade de Marselha, que é considerada a cidade mais antiga da França e um dos mais antigos assentamentos continuamente habitados da Europa.\n[…]\nMassália foi fundada por volta de 600 a.C. por colonos gregos jônicos de Foceia, na Anatólia Ocidental. Após a captura de Foceia pelos persas em 545 a.C., uma nova onda de colonos fugiu para a colônia. Aristóteles e Pompeu Trogo apresentam um mito de criação que conta o encontro entre os gregos e a população local (consulte o mito de fundação de Marselha).\n[…]\nDepois de meados do século VI a.C., Massália se tornou um importante entreposto comercial da região oeste do Mediterrâneo. Ela cresceu e criou suas próprias colônias na costa marítima da Gália Narbonense durante os séculos IV e III a.C., incluindo Agathe (final do século V e início do século IV a.C.), Olbia (aprox. 325), Tauroentium (início do século III), Antipolis e Nikaia (aprox. meados do século III).\n[…]\nDurante os períodos romano e da Antiguidade Tardia, a cidade, então conhecida como Massilia em latim, continuou sendo um importante centro de comércio marítimo. Ela se tornou uma civitas dentro do Império Romano, no máximo até cerca de 300 d.C.\n[…]\nMassália era governada como uma república oligárquica por uma aristocracia fechada que descendia inicialmente dos colonos originais. Uma assembleia de 600 timouchoi, cuja participação estava condicionada ao envolvimento em atividades comerciais, elegeu 15 magistrados, três deles com poder executivo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Batalha de Salamina",
+      "descricao": "Batalha naval de 480 a.C. em que a frota grega, liderada por Temístocles, derrotou a frota persa de Xerxes."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A batalha naval de Salamina, em que a frota grega derrotou a persa, aconteceu no mesmo ano de que famosa resistência espartana?",
+    "resposta": "Batalha das Termópilas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+      "https://en.wikipedia.org/wiki/Battle_of_Thermopylae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Salamis",
+        "situacao": "ok",
+        "texto": "The Battle of Salamis ( SAL-ə-miss) was a naval battle fought in 480 BC, between an alliance of Greek city-states under Themistocles, and the Achaemenid Empire under King Xerxes. It resulted in a victory for the outnumbered Greeks.\n[…]\nThe battle was fought in the straits between the mainland and Salamis, an island in the Saronic Gulf near Athens, and marked the high point of the second Persian invasion of Greece. It was arguably the largest naval battle of the ancient world, and marked a turning point in the invasion.\n[…]\nClearly though, at some point after capturing Athens, Xerxes held a council of war with the Persian fleet; Herodotus says this occurred at Phalerum. Artemisia, queen of Halicarnassus and commander of its naval squadron in Xerxes's fleet, tried to convince him to wait for the Allies to surrender believing that battle in the straits of Salamis was an unnecessary risk. Nevertheless, Xerxes and his chief advisor Mardonius pressed for an attack.\n[…]\nThe Persian fleet was still large enough to both bottle up the Allied navy in the straits of Salamis, and send ships to land troops in the Peloponnese. However, in the final reckoning, both sides were prepared to stake everything on a naval battle, in the hope of decisively altering the course of the war.\n[…]\nBattle of Myeongnyang\n[…]\nBlakesley, J. W. (1853) \"On the Position and Tactics of the Contending Fleets in the Battle of Salamis (With a Map.)\" in the Proceedings of the Philological Society.\n[…]\nStrauss, Barry (2004). The Battle of Salamis: The Naval Encounter That Saved Greece—and Western Civilization. New York: Simon and Schuster (hardcover, ISBN 0-7432-4450-8; paperback, ISBN 0-7432-4451-6).\n[…]\nSalamis at the Ancient History Encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Thermopylae",
+        "situacao": "ok",
+        "texto": "The Battle of Thermopylae () was fought in 480 BC at Thermopylae between the Achaemenid Persian Empire under Xerxes and an alliance of Greek city-states led by Sparta under Leonidas I. Lasting over the course of three days, it was one of the most prominent battles of both the second Persian invasion of Greece and the wider Greco-Persian Wars.\n[…]\nWith Thermopylae now opened to the Persian army, the continuation of the blockade at Artemisium by the Greek fleet became irrelevant. The simultaneous naval Battle of Artemisium had been a tactical stalemate, and the Greek navy was able to retreat in good order to the Saronic Gulf, where it helped to ferry the remaining Athenian citizens to the island of Salamis.\n[…]\nLuring the Persian navy into the Straits of Salamis, the Greek fleet was able to destroy much of the Persian fleet in the Battle of Salamis, which essentially ended the threat to the Peloponnese.\n[…]\nAlternatively, the argument is sometimes advanced that the last stand at Thermopylae was a successful delaying action that gave the Greek navy time to prepare for the Battle of Salamis. However, compared to the probable time (about one month) between Thermopylae and Salamis, the time bought was negligible. Furthermore, this idea also neglects the fact that a Greek navy was fighting at Artemisium during the Battle of Thermopylae, incurring losses in the process.\n[…]\nGeorge Cawkwell suggests that the gap between Thermopylae and Salamis was caused by Xerxes's systematically reducing Greek opposition in Phocis and Boeotia, and not as a result of the Battle of Thermopylae; thus, as a delaying action, Thermopylae was insignificant compared to Xerxes's own procrastination.\n[…]\nThe Five Great Battles of Antiquity by David L. Smith, Symposion Lectures Archived 4 May 2009 at the Wayback Machine, 30 June 2006."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Salamina",
+        "situacao": "ok",
+        "texto": "A Batalha de Salamina foi o combate entre a frota persa, liderada por Xerxes I, e a grega, comandada por Temístocles. O acontecimento deu-se no estreito que separa Salamina da Ática, possivelmente no dia 29 de setembro de 480 a.C. e terminou com a vitória grega.\n[…]\nApós as vitórias persas na Tessália e em Termópilas, a devastação da Beócia e da Ática, o rei persa Xerxes entrou em Atenas, destruindo inclusive os monumentos da Acrópole, desenvolvendo aquela que ficou conhecida como Segunda Guerra Médica.\n[…]\nEnquanto os coríntios e os espartanos defendiam uma aglomeração militar no Istmo de Corinto, Temístocles concentrou a frota de 200 embarcações (trirremes) na baía de Salamina, enfrentando a frota persa, que, por causa de seu grande número de navios, tinha dificuldades evidentes de maneabilidade no espaço exíguo do estreito, pelo que foi completamente derrotada pelos gregos.\n[…]\nXerxes foi obrigado a regressar à Ásia, deixando o comando das tropas restantes ao seu lugar-tenente, o general Mardónio, que seria derrotado em 479 a.C. nas batalhas de Plateias e Micala, nas costas da Ásia Menor.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Jogos Olímpicos da Antiguidade",
+      "descricao": "Festival esportivo e religioso realizado no santuário de Olímpia, na Grécia Antiga."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição grega, a primeira edição dos Jogos de Olímpia aconteceu em que século antes de Cristo?",
+    "resposta": "Século oito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+        "situacao": "ok",
+        "texto": "The ancient Olympic Games (Ancient Greek: τὰ Ὀλύμπια, ta Olympia), or the ancient Olympics, were a series of athletic competitions among representatives of city-states and one of the Panhellenic Games of ancient Greece. They were held at the Panhellenic religious sanctuary of Olympia, in honor of Zeus, and the Greeks gave them a mythological origin. The originating Olympic Games are traditionally \n[…]\nA loincloth known as the perizoma was initially worn by athletes at the ancient Olympic Games. Archaeological evidence from late sixth-century BC reveals athletes sporting this garment during competitions. For most of its history, Olympic events were performed in the nude, a habit which the Greeks felt distinguished them from non-Greeks.\n[…]\nThe pankration was one of the most popular sports in the ancient Olympic Games. The pankration was introduced in the 33rd Olympiad (648 BC). Boys' pankration became an Olympic event in 200 BC, in the 145th Olympiad.\n[…]\nVarastades (boxing, Prince and future King of Armenia, last known ancient Olympic victor (boxing) during the 291st Olympic Games in the 4th century)\n[…]\nLee, Hugh M. 2001. The Program and Schedule of the Ancient Olympic Games. Nikephoros Beihefte 6. Hildesheim, Germany: Weidmann.\n[…]\nValavanis, Panos. 2004. Games and Sanctuaries in Ancient Greece: Olympia, Delphi, Isthmia, Nemea, Athens. Los Angeles: J. Paul Getty Museum.\n[…]\nSwaddling, Judith. 1984. The Ancient Olympic Games. Austin: University of Texas.\n[…]\nThe Ancient Olympic Games virtual museum (requires registration)\n[…]\nThe Ancient Olympics: A special exhibit\n[…]\nThe story of the Ancient Olympic Games Archived 1 May 2008 at the Wayback Machine\n[…]\nWebquest The ancient and modern Olympic Games\n[…]\nAncient Olympic Games: Ancient Events Archived 12 May 2021 at the Wayback Machine\n[…]\nThe Games Odyssey podcast: The OG Olympic Games, Pt. 1: Ancient Origins\n[…]\nThe Games Odyssey podcast: The OG Olympic Games, Pt. 2: Eternal Glory"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_da_Antiguidade",
+        "situacao": "ok",
+        "texto": "Os Jogos Olímpicos da Antiguidade eram um festival religioso e atlético da Grécia Antiga, que se realizava de quatro em quatro anos no santuário de Olímpia, em honra de Zeus. A data tradicional atribuída à primeira edição dos Jogos Olímpicos é 776 a.C..\n[…]\nSegundo algumas versões, Zeus derrotou Cronos em Olímpia, mas outras versões dizem que ele celebrou lá jogos para comemorar sua vitória. O campeão de vitórias entre os deuses foi Apolo, que venceu Hermes na corrida e Ares no pugilismo; por este motivo, a flauta é tocada quando os competidores do pentatlo estão na prova de salto, pois a flauta é sagrada a Apolo.\n[…]\nNão poderiam participar nos jogos os estrangeiros (os \"bárbaros\" segundo a mitologia grega), os escravos e as mulheres - sugere-se que somente a sacerdotisa de Deméter poderia estar presente no altar em homenagem à deusa. As mulheres que violassem a regra seriam atiradas do alto do Monte Tipéon. Havia uma competição exclusivamente feminina, a Heraea, nome dado em homenagem à Hera, mulher de Zeus.\n[…]\nEste tipo de prova incluía as corridas de bigas ou de cavalo de sela. Nas primeiras poderiam usar-se dois cavalos (bigas) ou quatro cavalos (quadrigas). As quadrigas teriam sido introduzidas nos Jogos Olímpicos pela primeira vez em 680 a.C. e as corridas de cavalo de sela em 648 a.C.. Uma corrida de carros consistia em doze voltas ao hipódromo, tendo cada volta entre 823 e 914 metros; a corrida de cavalo era uma volta do hipódromo.\n[…]\nCerimonias no santuário de Pélops, identificado pela tradição como o primeiro vencedor dos jogos. Reconstituição das suas cerimônias fúnebres.\n[…]\nSwaddling, Judith (2000). The Ancient Olympic Games. Texas: University of Texas Press. ISBN 0292777515\n[…]\n«A verdadeira história dos Jogos Olímpicos» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Período helenístico",
+      "descricao": "Período da história grega entre a morte de Alexandre, o Grande, em 323 a.C., e a conquista romana do Egito ptolomaico, em 30 a.C."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O período helenístico começa com a morte de Alexandre e costuma terminar em 30 antes de Cristo, com a morte de que rainha?",
+    "resposta": "Cleópatra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hellenistic_period"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hellenistic_period",
+        "situacao": "ok",
+        "texto": "In classical antiquity, the Hellenistic period covers the time in Greek, Eastern Mediterranean and Middle Eastern history following Classical Greece, between the death of Alexander the Great in 323 BC and the death of Cleopatra VII in 30 BC, in which all these regions were under the influence of Greek leadership, culture, and language as a result of Alexander's conquests.\n[…]\nThe first of the Diadochi wars broke out when Perdiccas planned to marry Alexander's sister Cleopatra and began to question Antigonus I Monophthalmus' leadership in Asia Minor. Antigonus fled for Greece, and then, together with Antipater and Craterus (the satrap of Cilicia who had been in Greece fighting the Lamian war) invaded Anatolia. The rebels were supported by Lysimachus, the satrap of Thrace and Ptolemy, the satrap of Egypt.\n[…]\nPtolemy's family ruled Egypt until the Roman conquest of 30 BC. All the male rulers of the dynasty took the name Ptolemy. Ptolemaic queens, some of whom were the sisters of their husbands, were usually called Cleopatra, Arsinoe, or Berenice. The most famous member of the line was the last queen, Cleopatra VII, known for her role in the Roman political battles between Julius Caesar and Pompey, and later between Octavian and Mark Antony.\n[…]\nAfter the defeat of Anthony and his lover, the last Ptolemaic monarch, Cleopatra VII, at the Battle of Actium, Augustus invaded Egypt and took it as his own personal fiefdom. He thereby completed the destruction of the Hellenistic kingdoms and transformed the Roman Republic into a monarchy, ending (in hindsight) the Hellenistic era.\n[…]\nIt was not until Cleopatra VII that a Ptolemaic ruler bothered to learn the Egyptian language of their subjects.\n[…]\nWaterloo Institute for Hellenistic Studies\n[…]\nArt of the Hellenistic Age and the Hellenistic Tradition at the MET\n[…]\nAlexandria Center for Hellenistic Studies"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Per%C3%ADodo_helen%C3%ADstico",
+        "situacao": "ok",
+        "texto": "O período helenístico  refere-se ao período da história da Grécia e de parte do Oriente Médio compreendido entre a morte de Alexandre o Grande em 323 a.C. e a anexação da península grega e ilhas por Roma em 146 a.C., o nascimento formal do Império Romano com a morte de Cleópatra e a anexação do último reino helenístico, o Reino Ptolemaico do Egito, em 30 a.C., com Otaviano vitorioso em Áccio em 31\n[…]\nCaracterizou-se pela difusão da civilização grega numa vasta área que se estendia do mar Mediterrâneo oriental à Ásia Central. De modo geral, o helenismo foi a concretização de um ideal de Alexandre: o de levar e difundir a cultura grega aos territórios que conquistava. Foi neste período que as ciências particulares tiveram seu primeiro e grande desenvolvimento. Foi o tempo de Euclides e Arquimedes. O helenismo marcou um período de transição para o domínio e apogeu de Roma.\n[…]\nDurante o período helenista, foram fundadas várias cidades de cultura grega, entre elas Alexandria e Antioquia, capitais do Egito ptolemaico e do Império Selêucida, respectivamente.\n[…]\nPor ter começado a partir do nascimento dos Impérios de Alexandre, é também chamada de era Alexandrina.\n[…]\nAlexandre associou as antigas classes indigentes do Império Aquemênida à estrutura de governo do seu império. Pretendia assim criar um grande estado multiétnico, onde a herança grega e macedônia coexistiria com a herança persa e asiática. A morte prematura do rei, aos trinta e três anos, deu por terminado este original projeto, na época criticado por macedônios e gregos.\n[…]\nPara a filosofia, contudo, o helenismo marcou o surgimento de um novo período: a filosofia helenística (cujo início é, tradicionalmente, associado à morte de Alexandre, em 323 a.C., prolongando-se até o surgimento de Plotino, no século III da nossa era).\n[…]\nParte considerável da literatura do período helenístico perdeu-se, restando poucos fragmentos de obras.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Julgamento de Sócrates",
+      "descricao": "Processo de 399 a.C. em que o filósofo Sócrates foi condenado à morte em Atenas por impiedade e por corromper a juventude."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Sócrates foi julgado e condenado em 399 antes de Cristo, poucos anos depois do fim de que guerra, que deixou Atenas derrotada?",
+    "resposta": "Guerra do Peloponeso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trial_of_Socrates"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trial_of_Socrates",
+        "situacao": "ok",
+        "texto": "The Trial of Socrates (399 BC) was held to determine the philosopher's guilt of two charges against the city of Athens: asebeia (impiety) and corruption of the youth. The accusers cited two impious acts: \"failing to acknowledge the gods of the city\" and \"introducing new deities\".\n[…]\nAlcibiades was an Athenian general who had been the main proponent of the disastrous Sicilian Expedition during the Peloponnesian Wars, where virtually the entire Athenian invading force of more than 50,000 soldiers and non-combatants (e.g., the rowers of the Triremes) was killed or captured and enslaved. He was a student and close friend of Socrates, and his messmate during the siege of Potidaea (433–429 BC).\n[…]\nIn the time of the trial of Socrates, the year 399 BC, the city-state of Athens recently had endured the trials and tribulations of Spartan hegemony and the 13-month régime of the Thirty Tyrants, which had been imposed consequently to the Athenian defeat in the Peloponnesian War (431–404 BC).\n[…]\nBrickhouse, Thomas C.; Smith, Nicholas D. (2004). Routledge Philosophy Guidebook to Plato and the Trial of Socrates. New York: Routledge.\n[…]\nIrvine, Andrew David (2008). Socrates on Trial: A play based on Aristophanes' Clouds and Plato's Apology, Crito, and Phaedo, adapted for modern performance. Toronto: University of Toronto Press. ISBN 978-0-8020-9783-5.\n[…]\nNails, Debra (2009). \"The Trial and Death of Socrates\". In Ahbel-Rappe, Sara; Kamtekar, Rachana (eds.). A Companion to Socrates. Wiley. pp. 5–20. ISBN 978-1-4051-5458-1.\n[…]\nStone, I.F. (1988). The Trial of Socrates. New York: Little, Brown. ISBN 978-0-316-81758-5. OCLC 16579619.\n[…]\nThe University of Missouri–Kansas City (UMKC) School of Law, The Trial of Socrates (alternate link)\n[…]\nWelcome to Socrates On Trial · What if Socrates Returned?"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Tales de Mileto",
+      "descricao": "Filósofo grego de Mileto, dos séculos sete e seis a.C., considerado desde a Antiguidade o primeiro filósofo."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Qual destes filósofos gregos viveu primeiro?",
+    "resposta": "Tales de Mileto",
+    "distratores": [
+      "Sócrates",
+      "Platão",
+      "Aristóteles"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thales_of_Miletus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thales_of_Miletus",
+        "situacao": "ok",
+        "texto": "Thales of Miletus ( THAY-leez; Ancient Greek: Θαλῆς; c. 626/623  – c. 548/545 BC) was a pre-Socratic Greek philosopher from Miletus in Ionia, Asia Minor. Thales was one of the Seven Sages, founding figures of Ancient Greece.\n[…]\nNicholas Molinari has recently argued that Thales was influenced by the archaic water deity Acheloios, who was equated with water and worshipped in Miletus during Thales's life. For evidence, he points to the fact that hydor meant specifically \"fresh water\", and also that Acheloios was seen as a shape-shifter in myth and art, so able to become anything.\n[…]\nThe first three philosophers in the Western tradition were all cosmologists from Miletus, and Thales was the very first, followed by Anaximander, who was followed in turn by Anaximenes. They have been dubbed the Milesian school. According to the Suda, Thales had been the \"teacher and kinsman\" of Anaximander.\n[…]\nAllman, George Johnston (1911). \"Thales of Miletus\" . In Chisholm, Hugh (ed.). Encyclopædia Britannica. Vol. 26 (11th ed.). Cambridge University Press. p. 721.\n[…]\nO'Grady, Patricia F. (2002). Thales of Miletus: The Beginnings of Western Science and Philosophy. Western Philosophy Series. Vol. 58. Ashgate. ISBN 978-0754605331.\n[…]\nMazzeo, Pietro (2010). Talete, il primo filosofo. Bari: Editrice Tipografica.\n[…]\nWorks related to Thales of Miletus at Wikisource\n[…]\nThales of Miletus from The Internet Encyclopedia of Philosophy\n[…]\nThales of Miletus MacTutor History of Mathematics\n[…]\nThales' Theorem – Math Open Reference (with interactive animation)\n[…]\nThales biography by Charlene Douglass (with extensive bibliography)\n[…]\nThales of Miletus Life, Work and Testimonies by Giannis Stamatellos\n[…]\nThales Fragments Archived 24 April 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tales_de_Mileto",
+        "situacao": "ok",
+        "texto": "Tales de Mileto (em grego: Θαλῆς ὁ Μιλήσιος; Mileto, c. 624 a.C. — Mileto, c. 546 a.C.) foi um filósofo pré-socrático, astrônomo, matemático, engenheiro e comerciante da Grécia Antiga, fundador da  Escola Jônica.[carece de fontes]? Considerado, por alguns, o primeiro filósofo ocidental, é apontado como um dos sete sábios da Grécia Antiga,[carece de fontes]?\n[…]\nEntre os principais discípulos de Tales de Mileto merecem destaque: Anaximandro de Mileto, para quem os mundos eram infinitos em sua perpétua inter-relação; e Anaxímenes de Mileto que afirmava que o \"ar\" era a substância primária.\n[…]\nSegundo o historiador grego Heródoto, Tales teria previsto um eclipse solar em 585 a.C. e, possívelmente seria o primeiro a explicar o eclipse solar, quando verificou que a Lua é iluminada por esse astro. Os astrônomos modernos calculam que esse fenômeno ocorrera em 28 de maio do ano mencionado por Heródoto. Para Aristóteles, esse evento marca o início da filosofia.\n[…]\nTales é de ascendência fenícia, filho dos nobres Esamio e Cleobulina, nascido aproximadamente na metade do século VII a.C. possívelmente em Mileto, antiga colônia grega, situada na Ásia Menor (atual Turquia).\n[…]\nTales foi um dos primeiros pensadores a alterar esses conceitos observando mais atentamente os fenômenos da natureza, a Physis (φύσις).\n[…]\nDos escritos de Tales, nenhum deles sobreviveu até nossos dias. Suas ideias filosóficas são conhecidas graças aos trabalhos de doxógrafos como Diógenes Laércio e Simplício da Cilícia e de filósofos, principalmente Aristóteles.\n[…]\nEmbora suas conclusões cosmológicas estivessem erradas podemos dizer que a Filosofia começou então com Tales, que ao estabelecer a proposição de que a água é o absoluto, provoca como consequência o primeiro distanciamento entre o pensamento racional e as percepções sensíveis.\n[…]\n6001 Thales, um asteroide",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Drácon",
+      "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Drácon, cujas leis severas viraram sinônimo de rigor, deu a Atenas seu primeiro código escrito em que século antes de Cristo?",
+    "resposta": "Século sete",
+    "distratores": [
+      "Século nove",
+      "Século cinco",
+      "Século quatro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Draco_(lawgiver)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Draco_(lawgiver)",
+        "situacao": "ok",
+        "texto": "Draco was the first legislator of Athens in Ancient Greece according to Athenian tradition and was active about 625 to 600 BC. He replaced the system of oral law and blood feud by the Draconian constitution, a written code to be enforced only by a court of law. His laws were supposed to have been very harsh, establishing the death penalty for most offenses. Tradition held that all of his laws were\n[…]\nAccording to some scholars, Draco may have been a fictional figure, entirely or in part. Biographical information about him is almost entirely lacking; he was held to have established his legal code in the year 621/620 BC. Since the 18th century, the adjective draconian (δρακόντειος, drakónteios) refers to similarly unforgiving rules or laws.\n[…]\nBecause of his infamous legal code, Draco is the eponym of the adjective draconian (often capitalized), which describes not only excessively severe or cruel legislation, but also any such punishment or rule. With reference to legislation, the word has been used in this sense in English since 1777.\n[…]\nCarawan, Edwin (1998). Rhetoric and the Law of Draco. Oxford: Clarendon Press; New York City: Oxford University Press. ISBN 978-0-19-815086-2.\n[…]\nMaine, Sir Henry Sumner (2008). \"Ancient Law – Its Connection with the Early History of Society and Its Relativid\". Avengers of Blood: Homicide in Athenian Law and Custom from Draco to Demosthenes. Stuttgart: Steiner. ISBN 978-3-515-09123-7.\n[…]\nSchmitz, Winfried (2023). Leges Draconis et Solonis (LegDrSol). Eine neue Edition der Gesetze Drakons und Solons mit Übersetzung und historischer Einordnung. Stuttgart: Franz Steiner. ISBN 978-3-515-13361-6.\n[…]\nDecree to republish Draco's law on homicide—Translation of original inscription\n[…]\nMitchell, John Malcolm (1911). \"Draco (statesman)\" . In Chisholm, Hugh (ed.). Encyclopædia Britannica. Vol. 8 (11th ed.). Cambridge University Press. p. 464."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dr%C3%A1con",
+        "situacao": "ok",
+        "texto": "Drácon ou Draconte (em grego: Δράκων, transl. Drákōn) foi um legislador ateniense (século VII a.C.).\n[…]\nArconte, de origem aristocrática, Drácon recebeu em 621 a.C. poderes extraordinários para pôr fim ao conflito social provocado pelo golpe de estado de Cilón e o exílio de Mégacles. Incumbido pelos atenienses de preparar um código de leis escritas (até então eram orais), Drácon elaborou um rígido código de leis baseadas nas normas tradicionais arbitradas pelos juízes. Ele foi considerado o primeiro a fazer leis para os atenienses.\n[…]\nAs leis draconianas têm um importante papel na história do Direito, mas não são o primeiro código de leis escrita, como havia sido proposto antes. O primeiro código de leis grego foi o de Zaleuco de Locros.\n[…]\nAfirmava, essencialmente, a supremacia dos poderes públicos. Consagrava o direito de jurisdição do pai sobre o filho, mas suprimiu a vingança particular. Para os crimes graves, aqueles submetidos ao Areópago, as penas eram a morte ou o exílio. O código escrito por Drácon, contudo, não era uma constituição pois não contemplava os problemas econômicos e sociais. Estes, somente seriam resolvidos por Sólon de Atenas.\n[…]\nNo código de Drácon, a punição para qualquer forma de roubo era a morte. Tanto o furto como o assassinato recebiam a mesma punição: a morte. Dêmades, político ateniense do século IV a.C., disse que \"as leis de Drácon tinham sido escritas com sangue e não com tinta\". As leis eram tão severas que os atenienses as aboliram, não por algum decreto, mas apenas deixando de cumpri-las.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Batalha de Maratona",
+      "descricao": "Batalha de 490 a.C. em que os atenienses venceram a invasão persa na planície de Maratona."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Qual destas batalhas das guerras entre gregos e persas aconteceu primeiro?",
+    "resposta": "Maratona",
+    "distratores": [
+      "Termópilas",
+      "Salamina",
+      "Plateias"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greco-Persian_Wars",
+      "https://en.wikipedia.org/wiki/Battle_of_Marathon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars",
+        "situacao": "ok",
+        "texto": "The Greco-Persian Wars, also called the Persian Wars, were a series of armed conflicts involving various Greek city-states and the Achaemenid Empire from 499 BC to 449 BC. The precipitating collision between the fractious political world of ancient Greece and the enormous empire of ancient Persia had begun when the Persian king Cyrus the Great conquered the Greek-inhabited region of Ionia in 547 B\n[…]\nBefore they could reach Athens itself, however, the Persians were defeated by the Athenians and the Plataeans in the Battle of Marathon.\n[…]\nThe Battle of Marathon was a watershed in the Greco-Persian wars, showing the Greeks that the Persians could be beaten. It also highlighted the superiority of the more heavily armoured Greek hoplites, and showed their potential when used wisely.\n[…]\nAfter the Battle of Salamis-in-Cyprus, Thucydides makes no further mention of conflict with the Persians, saying that the Greeks simply returned home. Diodorus, on the other hand, claims that in the aftermath of Salamis, a proper peace treaty (the \"Peace of Callias\") was agreed with the Persians.\n[…]\nRepeatedly defeated in battle by the Greeks, and plagued by internal rebellions that hindered their ability to fight the Greeks, after 449 BC, Artaxerxes I and his successors instead adopted a policy of divide-and-rule. Avoiding fighting the Greeks themselves, the Persians instead attempted to set Athens against Sparta, regularly bribing politicians to achieve their aims.\n[…]\n^ iii: Although historically inaccurate, the legend of a Greek messenger running to Athens with news of the victory and then promptly expiring, became the inspiration for this athletics event, introduced at the 1896 Athens Olympics, and originally run between Marathon and Athens.\n[…]\nHolland, Tom (2006). Persian Fire: The First World Empire and the Battle for the West. London: Abacus. ISBN 978-0-349-11717-1."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+        "situacao": "ok",
+        "texto": "The Battle of Marathon took place in 490 BCE during the first Persian invasion of Greece. It was fought between the citizens of Athens, aided by Plataea, against a Persian force commanded by Datis and Artaphernes. The battle was the culmination of the first attempt by Persia under King Darius I to subjugate Greece. The Greek army inflicted a crushing defeat on the more numerous Persians, marking a\n[…]\nThe most famous legend associated with Marathon is that of the runner Pheidippides (or Philippides) bringing news to Athens of the battle, which is described below.\n[…]\nLater, in popular imagination, these two events were conflated, leading to a legendary but inaccurate version of events. This myth has Pheidippides running from Marathon to Athens after the battle, to announce the Greek victory with the word \"nenikēkamen!\" (Attic: νενικήκαμεν; we've won!), whereupon he promptly died of exhaustion.\n[…]\nNike of Marathon\n[…]\nFink, Dennis L. The Battle of Marathon in Scholarship: Research, Theories and Controversies since 1850 (McFarland, 2014). 240 pp. online review\n[…]\nThe Importance of the Battle of Marathon (Archived 2016-10-19 at the Wayback Machine) on The History Notes website.\n[…]\nCreasy, Edward Shepherd (June 1851). \"I. The Battle of Marathon\". The Fifteen Decisive Battles of the World: From Marathon to Waterloo.\n[…]\nBattle of Marathon (in Greek) by e-marathon.gr.\n[…]\nThe Battle of Marathon September 490 BC (in Greek). Archived 2016-10-19 at the Wayback Machine .\n[…]\nThe Battle of Marathon September 490 BC, by Major General Dimitris Gedeon, HEAR.\n[…]\nLieutenant Colonel Siegfried, Edward J. (March 2010). Analytical Study of Battle Strategies Used At Marathon (490 BCE) (Strategy Research Project). U.S. Army. Archived from the original on 8 April 2013. Retrieved 14 March 2013.\n[…]\nDigital representation of the Battle of Marathon 490 BC.\n[…]\nDoenges, N. A. \"The Campaign and Battle of Marathon\". Historia, vol. 47 (1998): 1–17."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerras_M%C3%A9dicas",
+        "situacao": "ok",
+        "texto": "Guerras Médicas, Guerras Greco-Persas, Guerras Persas ou Guerras Medas são designações dadas aos conflitos bélicos entre os antigos gregos e o Império Aquemênida durante o século V a.C., de 499 até 449 a.C. A colisão entre o mundo político fragmentado dos gregos (aqueus, jônios, dórios e eólios) e o enorme império dos persas começara pela disputa sobre a Jónia na Ásia Menor, quando as colónias gre\n[…]\nO teatro grego inclui certas “peças temáticas” que comentam acontecimentos atuais e, portanto, particularmente instrutivas para o estudo das mentalidades da época. A Queda de Mileto de Frínico, encenada em 493, levou os atenienses às lágrimas e exacerbou as paixões em favor da guerra. Ésquilo lutou em Maratona e Salamina; a sua peça Os Persas, escrita em 472 que celebra a vitória ateniense, foi apresentada em todo o mundo grego, da Sicília à Ásia Menor.\n[…]\nEstas guerras são chamadas de \"Médicas\" porque os gregos confundiram os persas e os medos, dois povos unificados por Ciro, o Grande, no século VI a.C.\n[…]\nA vitória na Maratona tornou-se simbólica para os gregos e deu grande prestígio a Atenas. Foi utilizada durante a Segunda Guerra Persa: a partir de então, as cidades sabiam que poderiam vencer os persas no campo de batalha e, sem esses dados morais, é provável que a resistência à invasão de Xerxes dez anos depois teria sido muito menor.\n[…]\nO vitorioso Milcíades quis aproveitar o momento de glória para expandir o poder de Atenas no mar Egeu, e logo depois da batalha em Maratona enviou uma parte da frota contra as Cíclades, submetidas pelos persas.\n[…]\nPosteriormente, as Guerras Persas permanecem importantes na memória e na identidade de Atenas. Os políticos e estudiosos da cidade reconstruíram gradualmente as grandes vitórias das guerras persas, sobretudo a de Maratona, que foi considerada uma batalha verdadeiramente lendária. Nas lutas políticas do século IV, é uma referência essencial.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Templo de Ártemis em Éfeso",
+      "descricao": "Grande templo grego dedicado a Ártemis na cidade de Éfeso, na atual Turquia, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Segundo Plutarco, o Templo de Ártemis em Éfeso pegou fogo na mesma noite em que nasceu que futuro conquistador?",
+    "resposta": "Alexandre, o Grande",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Temple_of_Artemis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Artemis",
+        "situacao": "ok",
+        "texto": "The Temple of Artemis or Artemision, also known as the Temple of Diana, was a Greek temple dedicated to a localised form of the goddess Artemis (equated with the Roman goddess Diana). It was located in Ephesus, near modern-day Selçuk in Turkey and is considered one of the Seven Wonders of the Ancient World.\n[…]\nFor this outrage, the Ephesians sentenced the perpetrator to death and forbade anyone from mentioning his name, although Theopompus later noted it. Aristotle describes the temple's conflagration, but not its cause. In Greek and Roman historical tradition, the temple's destruction coincided with the birth of Alexander the Great (around 20–21 July 356 BC). Plutarch remarks that Artemis was too preoccupied with Alexander's delivery to save her burning temple.\n[…]\nThere are signs that it may have been of use after 268, since Christian authors refers to its closure in the 5th-century. Ammonius of Alexandria comments on its closure, perhaps as early as 407 CE, or no later than the mid-5th century. After the city had been made Christian and the temple had been closed, the name of Artemis appears to have been erased from inscriptions throughout Ephesus.\n[…]\nThe main primary sources for the Temple of Artemis at Ephesus are Pliny the Elder's Natural History,, writings by Pomponius Mela,and Plutarch's Life of Alexander.\n[…]\nOn the whole, the Persians dealt fairly with Ephesus, but removed some religious artifacts from Artemis' Temple to Sardis and brought Persian priests into her Ephesian cult; this was not forgiven. When Alexander conquered the Persians, his offer to finance the temple's second rebuilding was politely but firmly refused.\n[…]\nList of Ancient Greek temples\n[…]\nTemple of Artemis (Ephesos) objects at the British Museum website\n[…]\nJames Grout: Temple of Artemis, part of the Encyclopædia Romana"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Templo_de_%C3%81rtemis",
+        "situacao": "ok",
+        "texto": "O Templo de Ártemis ou Templo de Diana foi uma das sete maravilhas do Mundo Antigo, localizado em Éfeso, perto da atual Selçuk, na Turquia. Era o maior templo do mundo antigo, e durante muito tempo o mais significativo feito da civilização grega e do helenismo, construído para a deusa grega Ártemis, da caça e dos animais selvagens. Foi construído no século VI a.C. no porto mais rico da Ásia Menor \n[…]\nEm 356 a.C., o templo foi destruído em um famoso incêndio criado por Heróstrato, que ateou fogo às vigas de madeira do telhado, buscando fama a qualquer custo; assim surgiu o termo fama herostática. Por este ultraje, os efésios condenaram o autor à morte e proibiram alguém de mencionar seu nome; mas o historiador Teopompo o registrou mais tarde. Na tradição histórica grega e romana, a destruição do templo coincidiu com o nascimento de Alexandre, o Grande (cerca de 20/21 de julho de 356 a.C.).\n[…]\nPlutarco observou que Ártemis estava muito preocupada com o nascimento de Alexandre para salvar seu templo das chamas.\n[…]\nAlexandre, o Grande se ofereceu para pagar a reconstrução do templo; os efésios recusaram a oferta e reconstruíram o templo depois de sua morte, com seus próprios recursos. O trabalho começou em 323 a.C. e continuou por muitos anos. O terceiro templo era maior do que o segundo; 137 metros de comprimento por 69 m de largura e 18 m de altura, com mais de 127 colunas. Atenágoras de Atenas nomeia Endeu, um aluno de Dédalo, como escultor da principal imagem de culto de Ártemis.\n[…]\nEm geral, os persas trataram justamente a cidade de Éfeso, mas removeram alguns artefatos religiosos do Templo de Ártemis para Sárdis e trouxeram sacerdotes persas para seu culto de Éfeso; isto não foi perdoado. Quando Alexandre conquistou os persas, sua oferta de financiar a segunda reconstrução do Templo foi recusada educadamente, mas firmemente.\n[…]\nTemplo de Diana (Roma)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Templo de Ártemis em Éfeso",
+      "descricao": "Grande templo grego dedicado a Ártemis na cidade de Éfeso, na atual Turquia, uma das sete maravilhas do mundo antigo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 356 antes de Cristo, um homem chamado Heróstrato incendiou o Templo de Ártemis em Éfeso. Que motivo ele teria tido?",
+    "resposta": "Ficar famoso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herostratus",
+      "https://en.wikipedia.org/wiki/Temple_of_Artemis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Herostratus",
+        "situacao": "ok",
+        "texto": "Herostratus, or Eratostratus (fl. 356 BCE), was an arsonist who destroyed the Temple of Artemis in an attempt to achieve infamy. His name has become an eponym for someone who commits a crime solely to become famous.\n[…]\nAn obscure character, Herostratus burned down the Temple of Artemis at Ephesus, one of the Seven Wonders of the Ancient World, in 356 BCE. He was swiftly arrested and tortured, during which he confessed his intentions: to gain everlasting fame, shortly before being executed. The arson prompted a damnatio memoriae law barring mention of his name, although many ancient writers, even one contemporary of the arson, documented him.\n[…]\nOn the day Alexander the Great was born in 356 BCE, a man burned the temple down; some historians claim he set its large wooden roof ablaze. The crime was attributed to an unknown man named Herostratus. Promptly arrested, he was tortured on the rack, where he confessed to having committed the arson to secure everlasting fame or notoriety. He was then executed. To thwart his ambition and harden his punishment, Ephesus passed a damnatio memoriae law forbidding anyone from mentioning his name.\n[…]\nEnlightenment writer Alessandro Verri published the first book-length fiction on Herostratus in 1815, La Vita di Erostrato (The Life of Herostratus). It tells the tale of a man seeking glory who, after constantly having his dreams shattered in failure, grows frustrated and burns the Temple of Artemis. On the other hand, Romantic and exoticist poetry tends to focus on Herostratus' supposed \"joy in destruction or self-destruction\" over his hunger for fame.\n[…]\nThe dictionary definition of herostratic fame at Wiktionary"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Temple_of_Artemis",
+        "situacao": "ok",
+        "texto": "The Temple of Artemis or Artemision, also known as the Temple of Diana, was a Greek temple dedicated to a localised form of the goddess Artemis (equated with the Roman goddess Diana). It was located in Ephesus, near modern-day Selçuk in Turkey and is considered one of the Seven Wonders of the Ancient World.\n[…]\nThe beginning of the history of the temple is unclear. It is known, however, that the earliest version of the temple was destroyed by a flood in the 7th century BC. A more elaborate reconstruction of the temple began around 550 BC under the leadership of the Greek architect from Crete Chersiphron, funded by Croesus of Lydia. This version of the temple lasted until 356 BC, when it was burned down by an arsonist, popularly identified as Herostratus.\n[…]\nIn 356 BC, the temple burned down. Various sources describe this as an act of arson by Herostratus, who set fire to the wooden roof-beams, seeking fame at any cost – thus the term herostratic fame.\n[…]\nFor this outrage, the Ephesians sentenced the perpetrator to death and forbade anyone from mentioning his name, although Theopompus later noted it. Aristotle describes the temple's conflagration, but not its cause. In Greek and Roman historical tradition, the temple's destruction coincided with the birth of Alexander the Great (around 20–21 July 356 BC). Plutarch remarks that Artemis was too preoccupied with Alexander's delivery to save her burning temple.\n[…]\nThe main primary sources for the Temple of Artemis at Ephesus are Pliny the Elder's Natural History,, writings by Pomponius Mela,and Plutarch's Life of Alexander.\n[…]\nList of Ancient Greek temples\n[…]\nWorld History Encyclopedia - Temple of Artemis at Ephesus\n[…]\nTemple of Artemis (Ephesos) objects at the British Museum website\n[…]\nJames Grout: Temple of Artemis, part of the Encyclopædia Romana"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Her%C3%B3strato",
+        "situacao": "ok",
+        "texto": "Heróstrato (em grego  Ἡρόστρατος) foi um incendiário grego, responsável pela destruição do templo de Ártemis em Éfeso, na atual Turquia, considerado uma das Sete Maravilhas da Antiguidade, na noite de 21 de julho do ano 356 a.C. com objetivo de ser lembrado pela posteridade.\n[…]\nDe acordo com a história, o único desejo de Heróstrato era conseguir fama a qualquer preço. Disse Valério Máximo: \"Descobriu-se que um homem havia planejado incendiar o templo de Ártemis em Éfeso, de maneira que pela destruição do mais belo dos monumentos, seu nome seria conhecido no mundo inteiro\". Longe de tentar furtar-se à responsabilidade de seu ato enlouquecido, Heróstrato alegou com orgulho o seu feito, para imortalizar seu nome na história.\n[…]\nPara que futuros aventureiros fossem desencorajados, as autoridades não apenas executaram Heróstrato como também o condenaram a uma posteridade obscura, mediante a proibição da menção ao seu nome pelas gerações futuras sob a ameaça da execução. Isso, porém, não impediu que Heróstrato atingisse sua meta, pois o historiador Teopompo veio a registrar o acontecimento, com o quê perpetuou o incendiário nos anais da história.\n[…]\nSíndrome de Heróstrato é um termo usado para descrever terroristas que perpetraram atos hediondos com o objetivo de ser lembrados. Alguns psicólogos identificam o desejo por grande infâmia como importante motivação nos discursos terroristas, como massacres nas escolas e jihads, e defendem a necessidade de dar menos visibilidade na mídia aos autores de genocídios para evitar novos casos.\n[…]\nBorowitz, Albert. Terrorism for Self-glorification: The Herostratos Syndrome. Ohio: Kent State University Press, 2005.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Escola peripatética",
+      "descricao": "Escola filosófica fundada por Aristóteles no Liceu de Atenas, cujos membros eram chamados peripatéticos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os seguidores de Aristóteles eram chamados de peripatéticos. Segundo uma tradição antiga, que costume do mestre ao dar aulas explicaria esse nome?",
+    "resposta": "Ensinar caminhando",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peripatetic_school"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peripatetic_school",
+        "situacao": "ok",
+        "texto": "The Peripatetic school (Ancient Greek: Περίπατος lit. 'walkway') was a philosophical school founded in 335 BC by Aristotle in the Lyceum in ancient Athens. It was an informal institution whose members conducted philosophical and scientific inquiries. The school fell into decline after the middle of the 3rd century BC, but had a revival in the Roman Empire.\n[…]\nThere are some uncertainties in this list. It is not certain whether Aristo of Ceos was the head of the school, but since he was a close pupil of Lyco and the most important Peripatetic philosopher in the time when he lived, it is generally assumed that he was. It is not known if Critolaus directly succeeded Aristo, or if there were any leaders between them. Erymneus is known only from a passing reference by Athenaeus.\n[…]\nSulla brought the writings of Aristotle and Theophrastus back to Rome, where they became the basis of a new collection of Aristotle's writings compiled by Andronicus of Rhodes which forms the basis of the Corpus Aristotelicum which exists today. Later Neoplatonist writers describe Andronicus, who lived around 50 BC, as the eleventh scholarch of the Peripatetic school, which would imply that he had two unnamed predecessors.\n[…]\nWhereas the earlier Peripatetics had sought to extend and develop Aristotle's works, from the time of Andronicus the school concentrated on preserving and defending his work. The most important figure in the Roman era is Alexander of Aphrodisias (c. 200 AD) who wrote commentaries on Aristotle's writings.\n[…]\nPeripatetic axiom\n[…]\nFurley, David (1970), \"Peripatetic School\", in Hammond, N. G. L.; Scullard, H. H. (eds.), The Oxford Classical Dictionary (2nd ed.), Oxford University Press.\n[…]\nSharples, Robert W. (2003), \"The Peripatetic school\", in Furley, David (ed.), From Aristotle to Augustine: Routledge History of Philosophy, Routledge, ISBN 0-415-30874-7."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escola_peripat%C3%A9tica",
+        "situacao": "ok",
+        "texto": "A escola peripatética (em grego clássico: Περίπατος lit. \"passeio\") foi uma escola filosófica fundada em 335 a.C. por Aristóteles no Liceu na antiga Atenas. Era uma instituição informal cujos membros conduziam investigações filosóficas e científicas. A escola entrou em declínio após meados do século III a.C., mas teve um renascimento no Império Romano.\n[…]\nO termo peripatético é uma transliteração da palavra grega antiga peripatētikós, que significa 'de caminhar' ou 'dado a caminhar'. A escola peripatética, fundada por Aristóteles, era na verdade conhecida simplesmente como Peripatos. A escola de Aristóteles recebeu esse nome por causa dos peripatoi ('passeios', alguns cobertos ou com colunatas) do Liceu onde os membros se reuniam.\n[…]\nA lenda de que o nome veio do suposto hábito de Aristóteles de caminhar enquanto ensinava pode ter começado com Hermipo de Esmirna.\n[…]\nOriginalmente, pelo menos, as reuniões peripatéticas provavelmente eram conduzidas de forma menos formal do que o termo \"escola\" sugere: provavelmente não havia um currículo fixo ou requisitos para os alunos, nem mesmo taxas de adesão. Aristóteles ensinava e ministrava palestras lá, mas também havia pesquisas filosóficas e científicas feitas em parceria com outros membros da escola.\n[…]\nNa tradição da filosofia islâmica, alguns dos maiores filósofos peripatéticos foram Al-Kindi (Alkindus), Al-Farabi (Alpharabius), Avicena (Ibn Sina) e Averróis (Ibn Rushd). No século XII, as obras de Aristóteles começaram a ser traduzidas para o latim (ver Traduções latinas do século XII), e a filosofia escolástica desenvolveu-se gradualmente sob nomes como Tomás de Aquino, tomando seu tom e complexidade dos escritos de Aristóteles, dos comentários de Averróis e do Livro da Cura de Avicena.\n[…]\nAxioma peripatético\n[…]\nRoss, David; Ackrill, John L. (1995), Aristotle, ISBN 0-415-12068-3, Routledge .",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Teoria dos quatro humores",
+      "descricao": "Doutrina da medicina grega, associada a Hipócrates, segundo a qual a saúde depende do equilíbrio entre sangue, fleuma, bile amarela e bile negra."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra melancolia vem da medicina grega, que atribuía a tristeza ao excesso de um dos quatro humores do corpo. O que ela significa literalmente?",
+    "resposta": "Bile negra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humorism",
+      "https://en.wikipedia.org/wiki/Melancholia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Humorism",
+        "situacao": "ok",
+        "texto": "Humorism, the humoral theory, or humoralism, was a system of medicine detailing a supposed makeup and workings of the human body, adopted by Ancient Greek and Roman physicians and philosophers.\n[…]\nBlack bile was associated with a melancholy nature, the word melancholy itself deriving from the Greek for 'black bile', μέλαινα χολή (melaina kholé). Depression was attributed to excess or unnatural black bile secreted by the spleen.\n[…]\nCancer was also attributed to an excess of black bile concentrated in a specific area. The seasonal association of black bile was to autumn as the cold and dry characteristics of the season reflect the nature of man. Black bile was generally seen as the most detrimental of the humors and within Galenic-Hippocratic humoral theory it was opposed to blood, the most natural and beneficial of the humors.\n[…]\n16th-century Swiss physician Paracelsus further developed the idea that beneficial medical substances could be found in herbs, minerals and various alchemical combinations thereof. These beliefs were the foundation of mainstream Western medicine well into the 17th century. Specific minerals or herbs were used to treat ailments simple to complex, from an uncomplicated upper respiratory infection to the plague. For example, chamomile was used to decrease heat, and lower excessive bile humor.\n[…]\nModern medicine refers to humoral immunity or humoral regulation when describing substances such as hormones and antibodies, but this is not a remnant of the humor theory. It is merely a literal use of humoral, i.e. pertaining to bodily fluids (such as blood and lymph)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Melancholia",
+        "situacao": "ok",
+        "texto": "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and premodern medicine in Europe that describes a condition characterized by markedly depressed mood, bodily complaints, and sometimes hallucinations and delusions.\n[…]\nMelancholy (or more precisely the 'black bile', from which melancholy derives its name) was regarded as one of the four temperaments matching the four humours. Until the 18th century, doctors and other scholars classified melancholic conditions as such by their perceived common cause – an excess of a notional fluid known as \"black bile\", which was commonly linked to the spleen.\n[…]\nAccording to Hippocrates and subsequent tradition, melancholia was caused by an excess of black bile, hence the name, which means \"black bile\", from Ancient Greek μέλας (melas), \"dark, black\", and χολή (kholé), \"bile\"; a person whose constitution tended to have a preponderance of black bile had a melancholic disposition.\n[…]\nThe Hippocratic clinical description of melancholia shows significant overlaps with contemporary nosography of depressive syndromes (6 symptoms out of the 9 included in DSM  diagnostic criteria for a Major Depressive).\n[…]\nIn ancient Rome, Galen added \"fixed delusions\" to the set of symptoms listed by Hippocrates. Galen also believed that melancholia caused cancer. Aretaeus of Cappadocia, in turn, believed that melancholia involved both a state of anguish, and a delusion. In the 10th century Persian physician Al-Akhawayni Bokhari described melancholia as a chronic illness caused by the impact of black bile on the brain.\n[…]\nDuring the later 16th and early 17th centuries, a curious cultural and literary cult of melancholia arose in England.\n[…]\nGuilt that is excessive\n[…]\nAt the Roots of Melancholy"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Humorismo",
+        "situacao": "ok",
+        "texto": "Humorismo, ou humoralismo, foi uma teoria sobre a constituição e funcionamento do corpo humano adotada pelos antigos médicos e filósofos gregos e romanos. Dos avanços de Hipócrates, a teoria dos humores foi a concepção mais comum do corpo humano mantida entre os médicos europeus até o advento das pesquisas médicas modernas do século XIX.\n[…]\nEssencialmente, essa teoria afirmava que o corpo humano era preenchido com quatro substâncias básicas, chamadas de os quatro humores, ou humores, o quais estão balanceados quando a pessoa está saudável. Todas as doenças e inaptidões resultavam do excesso ou da deficiência de um desses quatro humores. Os quatro humores eram identificados como bílis negra, bílis amarela, fleuma e sangue.\n[…]\nOs gregos e os romanos, e os estabelecimentos médicos posteriores da Europa Ocidental que adotavam e adaptavam a filosofia médica clássica, acreditavam que cada um desses humores poderia aumentar e diminuir no corpo, dependendo da dieta e da atividade.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Eclésia",
+      "descricao": "Assembleia dos cidadãos da Atenas democrática, que se reunia para votar leis, guerras e o ostracismo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A eclésia era a assembleia dos cidadãos de Atenas. Que palavra portuguesa, que designa o templo cristão, vem desse termo grego?",
+    "resposta": "Igreja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ecclesia_(ancient_Athens)",
+      "https://en.wiktionary.org/wiki/igreja"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ecclesia_(ancient_Athens)",
+        "situacao": "ok",
+        "texto": "The ecclesia or ekklesia (Greek: ἐκκλησία) was the assembly of the citizens in city-states of ancient Greece.\n[…]\nThe ecclesia of ancient Athens is particularly well-known. It was the popular assembly, open to all male citizens as soon as they qualified for citizenship. In 594 BC, Solon allowed all Athenian citizens to participate, regardless of class. The assembly was responsible for declaring war, military strategy and electing the strategoi and other officials. It was responsible for nominating and electing magistrates (árchontes), thus indirectly electing the members of the Areopagus.\n[…]\nA quorum of 6,000 members was required sometimes to do business. The ecclesia elected the Boule annually by lot. Some of their power under Solon was delegated to the Court by Pericles in his reforms.\n[…]\nIn ancient Greece, an ekklesiasterion or ecclesiasterion was a building specifically built for the purpose of holding the supreme meetings of the ecclesia. Like many other cities, Athens did not have an ekklesiasterion. Instead, the regular meetings of the assembly were held on the Pnyx and two annual meetings took place in the Theatre of Dionysus. Around 300 BC, the meetings of the ecclesia were moved to the theatre.\n[…]\nThe meetings of the assembly could attract large audiences: 6,000 citizens might have attended in Athens during the fifth century BC.\n[…]\nEcclesia (Sparta)\n[…]\nMitchell, John Malcolm (1911). \"Ecclesia\" . Encyclopædia Britannica. Vol. 8 (11th ed.). pp. 847–849."
+      },
+      {
+        "url": "https://en.wiktionary.org/wiki/igreja",
+        "situacao": "ok",
+        "texto": "IPA ( key ) : ( standard ) /iˈɡɾeʃa/ [iˈɣ̞ɾe.ʃɐ]\n[…]\nPortuguese: igreja , igreija ( misspelling ) , egreja ( pre-standardization spelling ) , eigreja , igleja ( obsolete ) Angolar: ngeedha\n[…]\nFerreiro, Manuel (2014– 2026 ), “ igreja ”, in Universo Cantigas: edición crítica da poesía medieval galego-portuguesa [ Universo Cantigas: critical edition of Galician-Portuguese medieval poetry ] (in Galician), A Coruña: University of A Coruña , →ISSN\n[…]\nPortuguese Wikipedia has an article on: igreja\n[…]\nInherited from Old Galician-Portuguese igreja , from Latin ecclēsia ( “ church ” ) , from Ancient Greek ἐκκλησία ( ekklēsía , “ congregation ” ) . Cognate with Galician igrexa , Spanish iglesia Catalan església , Occitan glèisa , French église , and Italian chiesa . Doublet of eclésia , a borrowing.\n[…]\n“ igreja ” in Dicionário Aberto based on Novo Diccionário da Língua Portuguesa de Cândido de Figueiredo , 1913\n[…]\n“ igreja ”, in Dicionário da Língua Portuguesa (in Portuguese), Lisboa: Academia das Ciências de Lisboa, 2001– 2026\n[…]\n“ igreja ”, in Dicionário Infopédia da Língua Portuguesa (in Portuguese), Porto: Porto Editora, 2003– 2026\n[…]\n“ igreja ”, in Dicionário Aulete Digital (in Portuguese), Rio de Janeiro: Lexikon Editora Digital, 2008– 2026\n[…]\n“ igreja ”, in Michaelis Dicionário Brasileiro da Língua Portuguesa (in Portuguese), São Paulo: Editora Melhoramentos, 2015– 2026 , →ISBN\n[…]\n“ igreja ”, in Dicionário Priberam da Língua Portuguesa (in Portuguese), Lisbon: Priberam, 2008– 2026\n[…]\nRetrieved from \" https://en.wiktionary.org/w/index.php?title=igreja&oldid=89978203 \""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ecl%C3%A9sia",
+        "situacao": "ok",
+        "texto": "A Eclésia (em grego: Εκκλησία; romaniz.: ekklesia) era a principal assembleia da democracia ateniense na Grécia Antiga. Era uma assembleia popular, aberta a todos os cidadãos do sexo masculino, com mais de vinte e um anos que tivessem prestado pelo menos dois anos de serviço militar e que fossem filhos de pai e mãe natural da pólis.\n[…]\nNeste século era eleito um prítane para chefiar cada reunião, denominando-se este cargo de epístata. A tribuna a partir da qual se faziam os discursos denominava-se \"bema\", e nestas assembleias os prítane (cinquenta membros de cada tribo que pertenciam à Bulé) detinham o poder máximo.\n[…]\nAntônio Houaiss, no seu dicionário, diz da palavra \"Igreja\", no sentido mais espiritual que material:\n[…]\ngr. ekklésía,as \"assembleia por convocação, assembleia do povo ou dos guerreiros, assembleia dos anfictiões, assembleia de fiéis, lugar de reunião ou de uma assembleia, igreja\", pelo lat. ecclésìa,ae \"assembleia, reunião, ajuntamento dos primeiros cristãos, a comunhão cristã, igreja, templo\", desde cedo com \"i\" - inicial, embora sofra influência eclesiástica semierudita.\n[…]\nNa mudança do -cl- intervocálico pelo -gr-; cumpre ter em conta a posição antetônica e inicial da vogal -i-, que, em toda a cognação, nunca foi ou é tônica (cf. idade e cog.); lembre-se que a grafia egreja, no séc. XVIII, decorre de tendência, às vezes equivocada, de imitar o latim em todas as palavras grafadas com \"e\" pronunciado \"i\"; ver eclesi(o); filologia histórica: séc. XIII igreja, séc. XIII egreja, séc. XIII ygreja, séc. XVIII egreja.\n[…]\nO conjunto dos cristãos que se reúnem regularmente em uma igreja também é chamado de igreja, assim como o total dos cristãos de uma mesma comunidade. Em algumas denominações cristãs, ecclesia substitui e significava \"igreja\", de modo casual, como é o caso do Cristadelfianismo e do Autenticismo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Filípicas",
+      "descricao": "Discursos do orador ateniense Demóstenes contra o rei Filipe II da Macedônia, no século quatro a.C."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os discursos de Demóstenes contra o rei da Macedônia, pai de Alexandre, deram origem a que palavra para um ataque verbal violento?",
+    "resposta": "Filípica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Philippics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Philippics",
+        "situacao": "ok",
+        "texto": "A philippic (/fɪˈlɪpɪk/) is a fiery, damning speech, or tirade, delivered to condemn a particular political actor. The term is most famously associated with two noted orators of the ancient world: Demosthenes of ancient Athens and Cicero of ancient Rome. The term itself is derived from Demosthenes's speeches in 351 BC denouncing the imperialist ambitions of Philip of Macedon, which later came to b\n[…]\nThe original \"philippics\" were delivered by Demosthenes, an Athenian statesman and orator in Classical Greece, who delivered several attacks on Philip II of Macedon in the 4th century BC.\n[…]\nA First, Second, and Third Philippic have been ascribed to Demosthenes. A Fourth Philippic is also extant, but is of disputed authorship.\n[…]\nCicero consciously modeled his own condemnations of Mark Antony on Demosthenes's speeches, and if the correspondence between Marcus Junius Brutus the Younger and Cicero is genuine [ad Brut. ii 3.4, ii 4.2], at least the fifth and seventh speeches were referred to as the Philippicae in Cicero's time. They were also called the Antonian Orations by Latin author and grammarian Aulus Gellius.\n[…]\nAfter the death of Caesar, Cicero privately expressed his regret that the murderers of Caesar had not included Antony in their plot, and he bent his efforts to the discrediting of Antony. Cicero even promoted illegal action, such as legitimatizing the private army of Gaius Octavius, or Octavian. In all, Cicero delivered fourteen Philippics in less than two years.\n[…]\nAccording to Roman historian Tacitus, the Philippicae, together with the Pro Milone, In Catilinam, and In Verrem, made Cicero famous, and much of his political career sprang from the effect of these works. Others would have it that the Pro Ligario, in which Cicero defends Ligarius before Caesar, was the vehicle of his renown."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fil%C3%ADpicas",
+        "situacao": "ok",
+        "texto": "Filípicas são um ardente discurso condenável, para condenar uma figura política particular. O termo é mais conhecido como associado a dois oradores famosos do mundo antigo: Cícero da Roma Antiga e Demóstenes da Antiga Atenas. O próprio termo é derivado dos discursos de Demóstenes em 351 a.C. denunciando as ambições imperialistas de Filipe II da Macedônia, que mais tarde veio a ser conhecido como F\n[…]\nOs \"filípicos\" originais foram proferidos por Demóstenes, um estadista ateniense e orador na Grécia clássica que fez vários ataques a Filipe II da Macedônia no século IV a.C.\n[…]\nUm primeiro, segundo e terceiro filípicos foram atribuídos a Demóstenes. Uma Quarta Filipica também existe, mas é de autoria disputada.\n[…]\nCícero conscientemente modelou suas próprias condenações de Marco Antônio nos discursos de Demóstenes, e se a correspondência entre Marco Junius Brutus, o Jovem, e Cícero é genuína [ad Brut. ii 3.4, ii 4.2].\n[…]\nApós a morte de César, Cícero expressou em particular seu pesar de que os assassinos de César não tivessem incluído Antônio em sua trama e direcionou seus esforços para desacreditá-lo. Cícero até promoveu ações ilegais, como legitimar o exército particular de Gaius Octavius, ou Otaviano. Ao todo, Cícero entregou quatorze Filípicas em menos de dois anos. O foco de Cícero em Antônio, no entanto, contribuiu para sua queda, pois ele falhou em reconhecer a ameaça de Otaviano ao seu ideal republicano.\n[…]\nOs ataques de Cícero a Antônio não foram perdoados nem esquecidos, com o resultado de que Cícero foi proscrito e morto em 43 a.C. Sua cabeça e mãos foram exibidas publicamente no Fórum Romano para desencorajar qualquer um que se opusesse ao novo Triunvirato de Otaviano, Marco Antônio e Lépido.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Hipócrita (ator grego)",
+      "descricao": "Termo grego hypokrités, que designava o ator do teatro antigo e deu origem à palavra hipócrita."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No teatro grego, a palavra usada para o ator, que falava por trás de uma máscara, deu origem a que adjetivo português para quem finge?",
+    "resposta": "Hipócrita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hypocrisy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hypocrisy",
+        "situacao": "ok",
+        "texto": "Hypocrisy is the practice of feigning what one is not or professing what one does not believe. The word \"hypocrisy\" entered the English language c. 1200 with the meaning \"the sin of pretending to virtue or goodness\". Today, \"hypocrisy\" often refers to advocating behaviors that one does not practice. However, the term can also refer to other forms of pretense, such as engaging in pious or moral beh\n[…]\nThe word hypocrisy comes from the Greek ὑπόκρισις (hypokrisis), which means \"jealous\", \"play-acting\", \"acting out\", \"coward\" or \"dissembling\". The word hypocrite is from the Greek word ὑποκριτής (hypokritēs), the agentive noun associated with ὑποκρίνομαι (hypokrinomai κρίση, \"judgment\" »κριτική (kritikē), \"critics\") presumably because the performance of a dramatic text by an actor was to involve a degree of interpretation, or assessment.\n[…]\nWhereas hypokrisis applied to any sort of public performance (including the art of rhetoric), hypokrites was a technical term for a stage actor and was not considered an appropriate role for a public figure. In Athens during the 4th century BC, for example, the great orator Demosthenes ridiculed his rival Aeschines, who had been a successful actor before taking up politics, as a hypocrites whose skill at impersonating characters on stage made him an untrustworthy politician.\n[…]\nThis negative view of the hypokrites, perhaps combined with the Roman disdain for actors, later shaded into the originally neutral hypokrisis. It is this later sense of hypokrisis as \"play-acting\", i.e., the assumption of a counterfeit persona, that gives the modern word hypocrisy its negative connotation."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hipocrisia",
+        "situacao": "ok",
+        "texto": "Hipocrisia é o ato de fingir ter crenças, virtudes, ideias e sentimentos que a pessoa na verdade não possui, frequentemente exigindo que os outros se comportem dentro de certos parâmetros de conduta moral que a própria pessoa extrapola ou deixa de adotar. A palavra deriva do latim hypocrisis e do grego hupokrisis — ambos significando a representação de um ator, atuação, fingimento (no sentido artí\n[…]\nFrançois duc de la Rochefoucauld revelou de maneira mordaz a essência do comportamento hipócrita: \"A hipocrisia é a homenagem que o vício presta à virtude\". Ou seja, todo hipócrita finge emular comportamentos corretos, virtuosos, socialmente aceitos.\n[…]\nHipocrisia é pretensão ou fingimento de ser o que não é. Hipócrita é uma transcrição do vocábulo grego \"ypokritís\" (υποκριτής). Os atores gregos usavam máscaras de acordo com o papel que representavam numa peça teatral.\n[…]\nÉ daí que o termo hipócrita designa alguém que oculta a realidade atrás de uma máscara de aparência.\n[…]\nO Novo Testamento da Bíblia refere-se especificamente aos hipócritas em vários lugares, em especial quando representando de maneira especial a seita dos fariseus, como por exemplo, o Evangelho de Mateus capítulo 23, versículos 13 a 15:\n[…]\nA palavra hipocrisia vem do grego antigo ὑπόκρισις (hupókrisis), que significa \"encenar\", \"interpretar\". O adjetivo hipócrita vem do grego ὑποκριτής (hupokritḗs), que significa \"ator\".\n[…]\nNas origens do termo, enquanto hupókrisis (hipocrisia) era utilizado para qualquer tipo de performance pública, incluindo a arte da retórica, hupokritḗs (hipócrita) era um termo técnico para um ator de palco e não era considerado um papel adequado para figuras públicas. Em Atenas, durante o século IV a.C., por exemplo, o grande orador Demóstenes ridicularizou o seu rival Ésquines, quem havia sido um bem-sucedido ator (hupokritḗs) antes de ingressar na política.\n[…]\nCitações sobre o tema Hipocrisia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Ginásio (Grécia Antiga)",
+      "descricao": "Local de treino de atletas e de educação dos jovens nas cidades gregas antigas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra ginásio vem do grego gymnós, que descrevia como os atletas gregos treinavam e competiam. O que esse termo significa?",
+    "resposta": "Nu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)",
+        "situacao": "ok",
+        "texto": "The gymnasium (Ancient Greek: γυμνάσιον, romanized: gymnásion) in Ancient Greece functioned as a training facility for competitors in public games. It was also a place for socializing and engaging in intellectual pursuits. The name comes from the Ancient Greek term gymnós, meaning \"naked\" or \"nude\".\n[…]\nAthletes competed nude, a practice which was said to encourage aesthetic appreciation of the male body, and to be a tribute to the gods. Gymnasia and palaestrae (wrestling schools) were under the protection and patronage of Heracles, Hermes and, in Athens, Theseus.\n[…]\nThe athletic contests for which the gymnasium supplied the means of training and competition formed part of the social and spiritual life of the Greeks from very early on. The contests took place in honour of heroes and gods, sometimes forming part of a periodic festival or the funeral rites of a deceased chief.\n[…]\nActive training in the gymnasiums was chiefly restricted to boys and young men. In some places, including at the Heraean Games at Olympia, footraces between unmarried girls were held, but girls were usually excluded from other activities such as wrestling, and they did not compete against boys and men when racing. While male participants were always fully nude, this was not necessarily the case for girls. At Sparta and in Attica, they raced either naked or wearing only a short skirt or trunks.\n[…]\nIn Athens ten gymnasiarchs were appointed annually, one from each tribe. These officials rotated through a series of jobs, each with unique duties. They were responsible for looking after and compensating persons training for public contests, conducting the games at the great Athenian festivals, exercising general supervision over competitor morale, and decorating and maintaining the gymnasium.\n[…]\nGymnasium at Delphi"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gin%C3%A1sio_%28Gr%C3%A9cia_Antiga%29",
+        "situacao": "ok",
+        "texto": "A história do ginásio (em latim gymnasium) data da Grécia Antiga onde o significado da palavra era \"escola para exercícios nus\". Era um local utilizado não apenas para o treinamento de atletas, mas também para socialização e perseguição de objetivos intelectuais.\n[…]\nA palavra gymnasium é a versão latina do nome grego γυμνάσιον (gymnasion), \"escola ginástica\". Por sua vez \"escola\" é derivado do adjetivo γυμνός (gymnos) do grego comum e significa \"nu\", por relação com o verbo γυμνάζω (gymnazo), cujo significado é \"treinar nu\", \"treinar em exercicios de ginástica\", geralmente \"treinar, exercitar\". O verbo tinha este significado porque era hábito despirem-se para fazer exercícios físicos.\n[…]\nHistóricamente, o gymnasium era usado para exercício físico, área de banho comum e atividades escolares e filosóficas.\n[…]\nOriginariamente os ginásios eram instituições públicas, onde apenas atletas masculinos na idade de 18 anos recebiam treinamento para as competições em jogos públicos onde se opunham à palestra, instituição privada onde as escolas recebiam treinamento físico. Os ginásios gregos também realizavam palestras e discussões sobre filosofia, literatura e música, sendo que as bibliotecas públicas encontravam-se frequentemente nas proximidades do local.\n[…]\nA supervisão dos ginásios era conferidas aos pedotribais que eram os supervisores responsáveis pela conduta do esporte e jogos nos festivais públicos. Quem direcionava as escolas e supervisionava os competidores eram os gymnastai que desempenhavam a função de professores, técnicos e treinadores de atletas. Gradualmente os ginásios se transformaram em instituições de aprendizagem e escolas de cultura intelectual.\n[…]\nRUBIO, K. Atleta contemporâneo e o mito do herói. São Paulo: Casa do Psicólogo, 2001.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Guerras Médicas",
+      "descricao": "Série de conflitos entre as cidades gregas e o Império Persa no século cinco a.C., com batalhas como Maratona e Salamina."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As guerras entre gregos e persas são chamadas de Guerras Médicas. Esse nome vem de que povo?",
+    "resposta": "Os medos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Greco-Persian_Wars",
+        "situacao": "ok",
+        "texto": "The Greco-Persian Wars, also called the Persian Wars, were a series of armed conflicts involving various Greek city-states and the Achaemenid Empire from 499 BC to 449 BC. The precipitating collision between the fractious political world of ancient Greece and the enormous empire of ancient Persia had begun when the Persian king Cyrus the Great conquered the Greek-inhabited region of Ionia in 547 B\n[…]\nLightly armed skirmishers, the psiloi also comprised a part of Greek armies growing in importance during the conflict; at the Battle of Plataea, for instance, they may have formed over half the Greek army. Use of cavalry in Greek armies is not reported in the battles of the Greco-Persian Wars.\n[…]\nThe Ionian Revolt constituted the first major conflict between Greece and the Achaemenid Empire and represents the first phase of the Greco-Persian Wars. Asia Minor had been brought back into the Persian fold, but Darius had vowed to punish Athens and Eretria for their support for the revolt. Moreover, seeing that the political situation in Greece posed a continued threat to the stability of his Empire, he decided to embark on the conquest of all Greece.\n[…]\nThe Battle of Marathon was a watershed in the Greco-Persian wars, showing the Greeks that the Persians could be beaten. It also highlighted the superiority of the more heavily armoured Greek hoplites, and showed their potential when used wisely.\n[…]\nThis campaign marked the end of hostilities between the Delian League and Persia, and therefore the end of the Greco-Persian Wars.\n[…]\nList of wars extended by diplomatic irregularity\n[…]\n^ i: The exact period covered by the term \"Greco-Persian Wars\" is open to interpretation, and usage varies between academics; the Ionian Revolt and Wars of the Delian League are sometimes excluded. This article covers the maximum extent of the wars."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerras_M%C3%A9dicas",
+        "situacao": "ok",
+        "texto": "Guerras Médicas, Guerras Greco-Persas, Guerras Persas ou Guerras Medas são designações dadas aos conflitos bélicos entre os antigos gregos e o Império Aquemênida durante o século V a.C., de 499 até 449 a.C. A colisão entre o mundo político fragmentado dos gregos (aqueus, jônios, dórios e eólios) e o enorme império dos persas começara pela disputa sobre a Jónia na Ásia Menor, quando as colónias gre\n[…]\nEstas guerras são chamadas de \"Médicas\" porque os gregos confundiram os persas e os medos, dois povos unificados por Ciro, o Grande, no século VI a.C.\n[…]\nOs ódios ancestrais entre certas cidades e os interesses imediatos empurraram muitos gregos para Xerxes. Para Heródoto, a maioria não queria a guerra e até “demonstrou muita consideração pelos medos”. Os persas aliaram-se assim a certos povos ou a certas cidades da própria Grécia continental, para não mencionar os jónicos que se tinham tornado mais uma vez vassalos do império desde o esmagamento da sua revolta 15 anos antes.\n[…]\nEm 449, a Paz de Callias foi concluída com a Liga de Delos. Durante mais de um século, através da diplomacia, do ouro e da recepção de exilados políticos, intervieram com sucesso nos assuntos gregos. O estilo de vida e a cultura persas foram amplamente imitados pelos gregos nos anos que se seguiram às guerras médicas, o início de uma cultura comum dedicada a uma posteridade brilhante.\n[…]\nPara Tucídides, foi a unidade dos gregos que lhes permitiu derrotar os bárbaros. Esta é a mesma ideia que Isócrates desenvolveu um século mais tarde, ao chamar os gregos ao pan-helenismo, a única forma de aniquilar os persas. No século xx  , o historiador norte-americano Peter Green deu grande ênfase a este parâmetro na sua obra \"As Guerras Médicas\".\n[…]\nNa verdade, as companhias de Filipe II da Macedónia e depois de Alexandre, o Grande contra a Pérsia são repetidamente apresentadas como vingança pelas guerras persas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Nápoles",
+      "descricao": "Cidade do sul da Itália fundada por colonos gregos com o nome de Neápolis."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que cidade do sul da Itália, fundada por colonos gregos, tem um nome que significa cidade nova?",
+    "resposta": "Nápoles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Naples"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Naples",
+        "situacao": "ok",
+        "texto": "Naples ( NAY-pəlz; Italian: Napoli [ˈnaːpoli] ; Neapolitan: Napule [ˈnɑːpələ]) is the regional capital of Campania, southern Italy. With a population of 905,050 within the city's administrative limits as of 2026, it is the largest city in southern Italy and the third-largest city in Italy after Rome and Milan, while its province-level municipality is the third most populous metropolitan city in It\n[…]\nThe city has long been a global point of reference for classical music and opera through the Neapolitan School, contributing to the development of opera buffa and the modern conservatory system. Naples has also fostered a distinctive theatrical tradition and a renowned musical heritage, including the Neapolitan song (Canzone napoletana), which achieved worldwide popularity.\n[…]\nThe term \"Neapolitan language\" is often used to describe the language of all of Campania (except Cilento), and is sometimes applied to the entire south Italian language; Ethnologue refers to the latter as Napoletano–Calabrese. This linguistic group is spoken throughout most of southern continental Italy, including the Gaeta and Sora district of southern Lazio, the southern part of Marche and Abruzzo, Molise, Basilicata, northern Calabria, and northern and central Apulia.\n[…]\nA notable element of popular Neapolitan music is the Canzone Napoletana style, essentially the traditional music of the city, with a repertoire of hundreds of folk songs, some of which can be traced back to the 13th century. The genre became a formal institution in 1835, after the introduction of the annual Festival of Piedigrotta songwriting competition. Some of the best-known recording artists in this field include Roberto Murolo, Sergio Bruni and Renato Carosone.\n[…]\nAngela Luce (1937/38–2026), actress and singer of canzone napoletana\n[…]\nSalvatore Papaccio (1890–1977), operatic tenor and an exponent of Canzone napoletana\n[…]\nNaples is twinned with:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/N%C3%A1poles",
+        "situacao": "ok",
+        "texto": "Nápoles (em italiano: Napoli; em napolitano: Napule) é uma comuna do sul de Itália, capital da região da Campânia e da província de Nápoles, com cerca de 900 000 habitantes (cens. 2021) e com cerca de 4 400 000 habitantes na região metropolitana (que compreende áreas na província de Caserta, Avellino e Salerno). Nápoles é a terceira cidade mais populosa da Itália após Roma e Milão e tem a segunda \n[…]\nA etimologia do nome \"Napoli\" deriva do termo grego Neapolis (Νεάπολις) que significa «cidade nova».\n[…]\nNápoles foi construída a poucos metros de uma outra cidade já existente, Partênope, que passou a ser chamada de Paleópolis (\"cidade velha\"). Foi conquistada pelos romanos em 327 a.C. durante a Segunda Guerra Samnita. No século VI d.C., passou para domínio bizantino e, no século VIII, constituiu-se em ducado independente. Em 1139, passou a pertencer ao Reino da Sicília. A universidade foi fundada em 5 de Junho de 1224. Passou a ser, no final do século XVIII, a capital do reino.\n[…]\nEm 1282, passou para a coroa de Aragão, sendo denominado reino de Nápoles. No século XIX, passou a ser independente, sendo anexada ao Reino da Sardenha em 1860 e ao Reino de Itália em 1861.\n[…]\nA Região Metropolitana, Área Metropolitana de Nápoles segundo a estima do OCSE alcançaria aproximadamente 3,1 milhões habitantes, atrás de Milão e de Roma. Em outras fontes aparece ser a segunda área metropolitana da Itália por população após Milão, somente para citar algumas: o U.S.\n[…]\nNápoles tem um clima tipicamente mediterrânico, com invernos moderados e chuvosos e verões quentes e secos, porém sempre refrescados pela brisa marítima que raramente falta no seu golfo. O sol esplende mediamente por 300 dias por ano. A classificação climática das comunas italianas insere a cidade na zona climática C.\n[…]\nSite oficial da comuna de Nápoles",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Sólon",
+      "descricao": "Legislador e poeta ateniense do início do século seis a.C., autor de reformas que aboliram a escravidão por dívidas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No início do século seis antes de Cristo, o legislador Sólon proibiu que atenienses fossem escravizados por um motivo comum na época. Qual?",
+    "resposta": "Dívidas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Solon",
+        "situacao": "ok",
+        "texto": "Solon (; Ancient Greek: Σόλων; c. 639 – c. 559 BC) was an archaic Athenian statesman, lawmaker, political philosopher (philosopher in an etymological sense), and poet. He was one of the Seven Sages of Greece and is credited with laying the foundations for Athenian democracy. Solon's efforts to legislate against political, economic and moral decline resulted in his constitutional reform reforming m\n[…]\nMoreover, the language of his laws was archaic even by the standards of the fifth century and this caused interpretation problems for ancient commentators. Modern scholars doubt the reliability of these sources and our knowledge of Solon's legislation is therefore actually very limited in its details.\n[…]\nAccording to the Athenian Constitution, Solon legislated for all citizens to be admitted into the Ekklesia and for a court (the Heliaia) to be formed from all the citizens. The Heliaia appears to have been the Ekklesia, or some representative portion of it, sitting as a jury. By giving common people the power not only to elect officials but also to call them to account, Solon appears to have established the foundations of a true republic.\n[…]\nBesides the alleged legislative aspect of Solon's involvement with pederasty, there were also suggestions of personal involvement. Ancient readers concluded, based on his own erotic poetry, that Solon himself had a preference for boys. According to some ancient authors Solon had taken the future tyrant Pisistratus as his eromenos.\n[…]\nHere translated by the English poet John Dryden, Solon's words define a 'moral high ground' where differences between rich and poor can be reconciled or maybe just ignored. His poetry indicates that he attempted to use his extraordinary legislative powers to establish a peaceful settlement between the country's rival factions:\n[…]\nWorks about Solon at Perseus Digital Library\n[…]\nPlutarch, Parallel Lives, Solon"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%B3lon",
+        "situacao": "ok",
+        "texto": "Sólon (grego Σόλων, translit. Sólōn; (Atenas, 638 a.C. – 558 a.C.) foi um estadista, legislador e poeta grego antigo. Foi considerado pelos gregos como um dos sete sábios da Grécia antiga e, como poeta, compôs elegias morais-filosóficas. Em 594 a.C., iniciou uma reforma das estruturas social, política e econômica da pólis ateniense.\n[…]\nSeisachteia, abolição da escravidão por dívidas;\n[…]\nProfundo conhecedor das leis, foi convocado como legislador pela aristocracia em meio a um contexto de tensão social na pólis, quando os demais grupos sociais viam as reformas de Drácon (ocorridas por volta de 621 a.C.) como algo insuficiente. Na sua reforma, Sólon proibiu a hipoteca da terra e a escravidão por endividamento através da chamada lei Seisachtheia; dividiu a sociedade pelo critério censitário (pela renda anual) e criou um tribunal de justiça, a helieia.\n[…]\nDe acordo com a Constituição ateniense, Sólon legislou para todos os cidadãos serem admitidos na Eclésia e criou um tribunal helieia formado a partir de todos os cidadãos. A helieia parece ter sido a Eclésia, ou alguma parte representativa da mesma, sentada como júri, dando às pessoas comuns não só o poder de eleger funcionários, mas também chamá-los a prestar contas.\n[…]\nSólon em Histórias de Heródoto é descrito como um cidadão Ateniense desembarcando em Sardes de uma viagem para a qual se licenciara de seus compromissos com a polis de Atenas por dez anos alegando desejar ver novas terras. Ele havia antes de sair de Atenas escrito Leis que, segundo Heródoto justificariam o real motivo dele se ausentar de Atenas para não ser obrigado a revogá-las. Sólon chegara de uma passagem pelo Egito, onde tinha sido hospedado pelo rei Amásis, faraó do Egito.\n[…]\nCARDOSO, G.C. Sólon. In: Plutarco - Vidas Paralelas, v. 1. São Paulo: Paumape, p. 170-206, 1991.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Demóstenes",
+      "descricao": "Orador e político ateniense do século quatro a.C., famoso por seus discursos contra Filipe II da Macedônia."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo Plutarco, por que o orador ateniense Demóstenes treinava seus discursos com pedrinhas na boca?",
+    "resposta": "Para corrigir um defeito na fala",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Demosthenes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Demosthenes",
+        "situacao": "ok",
+        "texto": "Demosthenes (; Greek: Δημοσθένης, romanized: Dēmosthénēs; Attic Greek: [dɛːmostʰénɛːs]; 384 – 12 October 322 BC) was a Greek statesman and orator in ancient Athens. His orations constitute a significant expression of contemporary Athenian intellectual prowess and provide insight into the politics and culture of ancient Greece during the 4th century BC. Demosthenes learned rhetoric by studying the \n[…]\nAccording to a story repeated by Plutarch, when Demosthenes was an adolescent, his curiosity was noticed by the orator Callistratus, who was then at the height of his reputation, having just won a case of considerable importance.\n[…]\nDemosthenes escaped to a sanctuary on the island of Kalaureia (modern-day Poros), where he was later discovered by Archias, a confidant of Antipater. He died by suicide before his capture by taking poison out of a reed, pretending he wanted to write a letter to his family. According to Plutarch, when Demosthenes felt that the poison was working on his body, he said to Archias: \"Now, as soon as you please you may commence the part of Creon in the tragedy, and cast out this body of mine unburied.\n[…]\nPlutarch lauds Demosthenes for not being of a fickle disposition. Rebutting historian Theopompus, the biographer insists that for \"the same party and post in politics which he held from the beginning, to these he kept constant to the end; and was so far from leaving them while he lived, that he chose rather to forsake his life than his purpose\". On the other hand, Polybius, a Greek historian of the Mediterranean world, was highly critical of Demosthenes's policies.\n[…]\nAccording to Professor of Classics Cecil Wooten, Cicero ended his career by trying to imitate Demosthenes's political role. Plutarch drew attention in his Life of Demosthenes to the strong similarities between the personalities and careers of Demosthenes and Marcus Tullius Cicero:\n[…]\nPseudo-Demosthenes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dem%C3%B3stenes",
+        "situacao": "ok",
+        "texto": "Demóstenes (em grego, Δημοσθένης, Dēmosthénēs; 384 a.C. – 322 a.C.) foi um preeminente orador e político grego de Atenas. Sua oratória constitui uma importante expressão da capacidade intelectual da Atenas antiga e providencia um olhar sobre a política e a cultura da Grécia antiga durante o século IV a.C. Demóstenes aprendeu retórica estudando os discursos dos grandes oradores antigos.\n[…]\nTanto era o ódio de Filipe por Démostenes que, segundo Diodoro Sículo, o Rei após sua vitória zombou das desgraças do estadista ateniense. No entanto, diz-se que o orador e estadista ateniense Demades comentou: \"Ó Rei, quando a Fortuna lhe lançou no papel de Agamemnon, você não tem vergonha de representar o papel de Tersites [um soldado obsceno do exército grego durante a Guerra de Troia]?\" Ferido por essas palavras, Filipe imediatamente alterou seu comportamento.\n[…]\nAlexandre reagiu imediatamente e arrasou Tebas. Ele não atacou Atenas, mas exigiu o exílio de todos os políticos antimacedônios, primeiro Démostenes. Segundo Plutarco, uma embaixada especial ateniense liderada por Fócion, um oponente da facção antimacedônia, conseguiu persuadir Alexandre a ceder.\n[…]\nApesar dos empreendimentos mal sucedidos contra Filipe e Alexandre, a maioria dos atenienses ainda respeitava Démostenes, porque compartilhavam seus sentimentos e desejavam restaurar sua independência. Em 336 a.C., o orador Ctésifon propôs que Atenas homenageasse Démostenes por seus serviços à cidade, presenteando-o, segundo o costume, com uma coroa de ouro. Esta proposta tornou-se uma questão política e, em 330 a.C., Ésquines processou Ctésifon por irregularidades legais.\n[…]\nPara Thomas Wilson, que publicou a primeira tradução de seus discursos para o inglês, Démostenes não era apenas um orador eloquente, mas, principalmente, um estadista autoritário, \"uma fonte de sabedoria\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Xerxes I",
+      "descricao": "Rei persa da dinastia aquemênida que invadiu a Grécia em 480 a.C."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo Heródoto, o rei persa Xerxes mandou chicotear as águas do estreito do Helesponto. O que o deixou tão furioso?",
+    "resposta": "Uma tempestade destruiu suas pontes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xerxes_I",
+      "https://en.wikipedia.org/wiki/Xerxes%27_Pontoon_Bridges"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Xerxes_I",
+        "situacao": "ok",
+        "texto": "Xerxes I ( ZURK-seez; from Old Iranian Xšayār̥šā, commonly known as Xerxes the Great; c. 518 BC – 465 BC) was a Persian ruler who reigned as the fourth King of Kings of the Achaemenid Empire, reigning from 486 BC until his assassination in 465 BC. He was the son of Darius the Great and Atossa.\n[…]\nAfter Thermopylae, Athens was captured. Most of the Athenians had abandoned the city and fled to the island of Salamis before Xerxes arrived. A small group attempted to defend the Athenian Acropolis, but they were defeated. Xerxes ordered the Destruction of Athens and burnt the city, leaving an archaeologically attested destruction layer, known as the Perserschutt. The Persians thus gained control of all of mainland Greece to the north of the Isthmus of Corinth.\n[…]\nHerodotus's Histories, written later in the fifth century BC, centre on the Persian Wars, with Xerxes as a major figure. Some of Herodotus's information is spurious. Pierre Briant has accused him of presenting a stereotyped and biased portrayal of the Persians. Richard Stoneman regards his portrayal of Xerxes as nuanced and tragic, compared to the vilification that he suffered at the hands of the Macedonian king Alexander the Great (r. 336–323 BC).\n[…]\nThe historical novel Xerxes of de Hoogmoed (1919) by Dutch writer Louis Couperus describes the Persian wars from the perspective of Xerxes. Though the account is fictionalised, Couperus nevertheless based himself on an extensive study of Herodotus. The English translation Arrogance: The Conquests of Xerxes by Frederick H. Martens appeared in 1930.\n[…]\nThe Sixth Book, Entitled Erato in History of Herodotus.\n[…]\nThe Seventh Book, Entitled Polymnia in History of Herodotus.\n[…]\nMedia related to Xerxes I at Wikimedia Commons\n[…]\n\"Xerxes\" . Encyclopædia Britannica (11th ed.). 1911."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Xerxes%27_Pontoon_Bridges",
+        "situacao": "ok",
+        "texto": "Xerxes's pontoon bridges were constructed in 480 BC during the second Persian invasion of Greece (part of the Greco-Persian Wars) upon the order of Xerxes I of Persia for the purpose of Xerxes's army to traverse the Hellespont (the present-day Dardanelles) from Asia into Thrace, then also controlled by Persia (in the European part of modern Turkey).\n[…]\nHerodotus relates in his Histories that the Second Persian invasion of Greece already intended by Darius I was carefully prepared by his son Xerxes I. A canal crossing the Athos peninsula was constructed. Among many other things he also ordered ships of war to be furnished and ropes of papyrus and of white flax to be prepared for the bridges.\n[…]\nAfter Herodotus hardly indicated the location of the pontoon bridge across the Bosphorus built some 30 years earlier by Xerxes's father Darius I, but did not provide any specific information about that bridge, the wealth of details given for the bridges across the Hellespont is astonishing and, upon cursory reading, seems to provide a clear picture. However, upon closer examination, almost every detail of the bridges is the subject of discussions, doubts and questions.\n[…]\nHerodotus's narrative should, perhaps, not be taken as a bridge engineer's sober technical report but rather as a vivid illustration of the grandeur of the Persian king which would make the Greek victories appear even more outstanding.\n[…]\nAeschylus was an Athenian playwright who had fought in the battle of Salamis, and witnessed there the destruction of the Persian fleet.\n[…]\nThis may lead to the assumption that the bridges told to have been destroyed by a storm were used by Herodotus only as a pretext for his vivid description in all details of an outburst of rage of the great king Xerxes and even to quote his furious speech in full.\n[…]\nXerxes Canal"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Xerxes_I",
+        "situacao": "ok",
+        "texto": "Xerxes I (em persa: خشایارشا, pronunciado \"Kshaiarsha\"; 519 a.C. – 465 a.C.) foi um xá aquemênida que governou de 486 a.C. até a data do seu assassinato em 465 a.C. Era filho de Dario I e neto de Histaspes e de Ciro, o Grande. Seu nome, Xerxes, é uma transliteração para o grego de seu nome persa depois de sua ascensão, Jshāyār Shah, que significa \"governante de heróis\".\n[…]\nXerxes herdou o trono por designação do pai, sendo coroado apesar de não ser o primogênito. Continuou a guerra contra os gregos, conhecida como Guerras Médicas, como forma de vingança, pois seu pai havia perdido a Batalha de Maratona em 490 a.C.\n[…]\nXerxes mandou construir um canal que atravessava a península de Atos, o que facilitou a passagem da frota. Após derrotar o exército de Leônidas I, vencendo a Batalha das Termópilas, que teve como palco o desfiladeiro de mesmo nome, Xerxes saqueou a Ática e, ao tomar Atenas, arrasou os santuários da Acrópole.\n[…]\nSua frota foi destruída na Salamina por Temístocles, em consequência dos graves erros táticos que cometeu, retornando à Pérsia. Ele nunca chegou a se recuperar dessa derrota e em seguida abandonou as ambições militares. Mais tarde morreria assassinado por seu ministro Artabano, em 465 a.C.\n[…]\nNos últimos anos de reinado, Xerxes dedicou-se à construção de palácios e monumentos que contribuíram para o embelezamento de Persépolis.\n[…]\nArtapano e o eunuco Aspamitres, conselheiros de Xerxes, o assassinaram, e convenceram Artaxerxes I de que Dario, seu irmão, havia assassinado o próprio pai; Dario foi levado ao palácio de Artaxerxes e, mesmo negando o crime, foi executado.\n[…]\nNa paródia Meet the Spartans, Ken Davitian é Xerxes.\n[…]\nEm Uma noite com o Rei, de 2006, Xerxes é vivido pelo ator Luke Goss.\n[…]\nXerxes foi interpretado por Carlo Porto na série A Rainha da Pérsia, da RecordTV.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Cinisca",
+      "descricao": "Princesa espartana do século quatro a.C. que venceu a corrida de carros dos Jogos de Olímpia como dona dos cavalos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Mulheres não podiam competir em Olímpia, mas a espartana Cinisca foi coroada vencedora no século quatro antes de Cristo. Como isso foi possível?",
+    "resposta": "Era dona dos cavalos vencedores",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cynisca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cynisca",
+        "situacao": "ok",
+        "texto": "Cynisca (; or Kyniska, Greek: Κυνίσκα; born c. 440 BC) was a wealthy Spartan princess. She is famous for being the first woman to win at the Olympic Games. Cynisca first entered the Olympics in 396 BC, where she won first prize competing with a team of horses she had trained herself. In 392 BC, Cynisca entered her horses in the Olympics for a second time and was awarded another victory in the same\n[…]\nIn terms of competing in the Olympic games, women were only allowed to enter the equestrian events, not by participating themselves, but rather by owning and training the horses.\n[…]\nHowever, while it was rare for women to compete against men in athletic games, as Cynisca did, there is evidence to suggest that separate athletic competitions existed for women in the Greek world. The existence of these competitions is supported by Pausanias' mention of a number of bronze statues dedicated by victorious female runners (mostly Spartan) at the temple of Hera at Elis, as well as several stone inscriptions that have been uncovered.\n[…]\nregistered women's professional cycling team named after the Spartan princess. Kyniska Advocacy is a UK organization fostering a safe environment for women in sports. Kyniska Hoops is an AAU girls' basketball club, also playing in the girls' U.S. Junior National basketball tournament.\n[…]\nKyle, Donald (2003). \"The Only Woman in All Greece\": Kyniska, Agesilaus, Alcibiades and Olympia\". Journal of Sport History. 30. University of Illinois Press: 183–203.\n[…]\nCynisca inscription exhibit Archived 2021-04-01 at the Wayback Machine at the Museum of the History of the Olympic Games of Antiquity (Olympus, Greece)\n[…]\nGreek inscriptions mentioning Cynisca, online via The Packard Humanities Institute\n[…]\nEntry for Cynisca at the Brooklyn Museum Heritage Floor\n[…]\nGreek texts and translations of all ancient sources on Cynisca at Cynisca: Documenting Women in Ancient Greek Agonistics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cinisca",
+        "situacao": "ok",
+        "texto": "Cinisca (em grego:  Κυνίσκα; ca. 440 a.C. — ?) foi uma princesa espartana.\n[…]\nEra filha do rei Arquídamo II, tendo sido a primeira mulher a inscrever um carro de corrida nas Olimpíadas, ganhando dois jogos seguidos.\n[…]\nOlímpia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Batalhão Sagrado de Tebas",
+      "descricao": "Tropa de elite tebana de trezentos soldados, ativa no século quatro a.C. e destruída em Queroneia em 338 a.C."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Batalhão Sagrado de Tebas, tropa de elite de trezentos soldados no século quatro antes de Cristo, era formado de um jeito incomum. Como?",
+    "resposta": "Por pares de amantes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sacred_Band_of_Thebes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sacred_Band_of_Thebes",
+        "situacao": "ok",
+        "texto": "The Sacred Band of Thebes (Ancient Greek: Ἱερὸς Λόχος τῶν Θηβῶν, Hieròs Lóchos tôn Thēbôn) was an elite heavy infantry of select soldiers consisting of 150 pairs of male couples, 300 men total, organised by age that formed the elite force of the Theban army in the 4th century BC. It was first organised under commander Gorgidas in 378 BC and later Pelopidas, and played a crucial role in the Battle \n[…]\nAside from Polyaenus, none of these accounts mention the Sacred Band by name, but given that they were under the command of Gorgidas, they are likely to have been part of Theban forces involved.\n[…]\nNot long afterwards, Agesilaus mounted a second expedition against Thebes. After a series of skirmishes which he won with some difficulty, he was forced again to withdraw when the Theban army came out full force as he approached the city. Diodorus observes at this point that the Thebans thereafter faced the Spartans with confidence. Gorgidas disappears from history between 377 and 375, during which the command of the Sacred Band was apparently transferred to Pelopidas.\n[…]\nThe Thebans didn't pursue the fleeing survivors, mindful of the remaining Spartan mora stationed in Orchomenus less than 5 km (3.1 mi) away. They stripped the dead and set up a tropaion (τρόπαιον, a commemorative trophy left at the site of a battle victory) before continuing on to Thebes. Having proven their worth, Pelopidas kept the Sacred Band as a separate tactical unit in all subsequent battles.\n[…]\nThis sentiment changed in 339 BC, when Thebes abruptly severed its alliance with Philip II (after being convinced by a speech from Demosthenes) and joined the Athenian-led Pan-Hellenic alliance against Macedonia, with the result being the annihilation of the Sacred Band in Chaeronea and the destruction of the city of Thebes itself in 335 BC by the Macedonians.\n[…]\nMedia related to Sacred Band of Thebes at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalh%C3%A3o_Sagrado_de_Tebas",
+        "situacao": "ok",
+        "texto": "O Batalhão Sagrado de Tebas (em grego clássico: Ἱερὸς Λόχος τῶν Θηβῶν, Hieròs Lóchos tôn Thēbôn) foi uma infantaria pesada de elite composta por soldados selecionados, incluindo 150 casais masculinos, totalizando trezentos homens, organizada por idade, que formava a força de elite do exército tebano no século IV a.C. Foi organizada pela primeira vez sob o comando de Górgidas em 378 a.C. e posterio\n[…]\nFoi aniquilada por Filipe II da Macedônia e o jovem Alexandre, o Grande, na Batalha de Queroneia em 338 a.C.\n[…]\nA data exata da criação do Batalhão Sagrado, e se ele foi criado antes ou depois do Simpósio de Platão (c. 424–347 a.C.) e do Simpósio de título semelhante de seu rival Xenofonte (c. 430–354 a.C.), também tem sido debatida há muito tempo. A data geralmente aceita para a criação do Batalhão Sagrado situa-se entre 379 e 378 a.C. Antes disso, havia referências a forças de elite tebanas também com trezentos homens. Heródoto (c. 484–425 a.C.) e Tucídides (c.\n[…]\nNo antigo debate em torno das obras de Xenofonte e Platão, o Batalhão Sagrado figurou de forma proeminente como uma possível maneira de datar qual dos dois escreveu primeiro sua versão do Banquete. O Sócrates de Xenofonte, em seu Banquete, menciona com desaprovação a prática de colocar amantes lado a lado em batalha nas cidades-estado de Tebas e Élis, argumentando que, embora a prática fosse aceitável para eles, era vergonhosa para os atenienses. Tanto Platão quanto Xenofonte eram atenienses.\n[…]\nNo entanto, é o discurso do personagem Fedro no Simpósio de Platão, referindo-se a um \"exército de amantes\", que é mais famosamente associado ao Batalhão Sagrado; embora tecnicamente não se refira ao Batalhão Sagrado, uma vez que o exército mencionado é hipotético. Dover argumenta que Platão escreveu seu Simpósio primeiro, pois o Fedro de Platão usa uma linguagem que implica que a organização ainda não existe.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Vitória de Samotrácia",
+      "descricao": "Estátua helenística de mármore da deusa alada da vitória, encontrada na ilha de Samotrácia e exposta no Louvre."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A Vitória de Samotrácia, estátua alada exposta no Louvre, foi esculpida pousando sobre que tipo de base?",
+    "resposta": "A proa de um navio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+        "situacao": "ok",
+        "texto": "The Winged Victory of Samothrace, or the Nike of Samothrace, is a votive monument originally discovered on the island of Samothrace in the northeastern Aegean Sea. It is a masterpiece of Greek sculpture from the Hellenistic era, dating from the beginning of the 2nd century BC (190 BC). It is composed of a statue representing the goddess Nike (Victory), whose head and arms are missing, and a base i\n[…]\nHe recognised this as the goddess Nike, Victory, traditionally represented in Greek antiquity as a winged woman. In the same place was a jumble of about fifteen large grey marble blocks whose form or function was unclear: he concluded it was a funerary monument. He decided to send the statue and fragments to the Louvre Museum, and to leave the large blocks of grey marble on site.\n[…]\nChampoiseau, informed of this research, undertook a second mission to Samothrace from August 15 to 29, 1879, for the sole purpose of sending the blocks of the base and the slabs of the Victory base to the Louvre. He abandoned on the island the largest block of the base, unsculpted. Two months later, the blocks reached the Louvre Museum, where in December an assembly test was carried out in a courtyard.\n[…]\nThe Greek government considers the Winged Victory, like the Elgin Marbles, illegally plundered and wants it repatriated to Greece. \"If the French and the Louvre have a problem, we are ready to preserve and accentuate the Victory of Samothrace, if they return it to us\", Deputy Minister of Foreign Affairs Akis Gerondopoulos said in 2013.\n[…]\nHe was convinced that the fragment belongs to the ship-shaped base: he therefore made this sculptor the author of the Victory of Samothrace. According to him, the monument was commissioned by the Rhodians, allies in the kingdom of Pergamos against Antiochus III, after their victory at the naval battles of Side and Myonnesos, on the Ionian coast, in 190 BC.\n[…]\nNike of Paionios"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_de_Samotr%C3%A1cia",
+        "situacao": "ok",
+        "texto": "A Vitória de Samotrácia, também conhecida como Nice de Samotrácia, é uma escultura que representa a deusa grega Nice (em grego Νίκη, Níkē ou Niké – \"Vitória\"), cujos pedaços foram descobertos em 1863 nas ruínas do Santuário dos grandes deuses de Samotrácia. Em grego, o seu nome é Níkē tes Samothrakes (Νίκη της Σαμοθράκη).\n[…]\nFazia parte de uma fonte, com a forma de proa de embarcação, em pedra calcária, doada ao santuário provavelmente pela cidade de Rodes. Ocupa lugar de destaque numa escadaria do Museu do Louvre, em Paris.\n[…]\nA Vitória foi descoberta pelo consul e arqueologista amador francês Charles Champoiseau em abril de 1863, que a enviou para Paris no mesmo ano. Em novas escavações, alguns anos depois, descobriu a proa da embarcação que hoje sustenta a estátua na Escadaria Darú. Em 1948 foi descoberta a mão elevada em saudação, que encaixou em um outro fragmento de dedo existente em Viena, estabeleceu a moderna reconstrução, que repousa no Louvre.\n[…]\nÉ considerado um dos grandes tesouros do Louvre.\n[…]\nÉ também um ícone cultural, explorado por outros artistas em vários contextos. Em seu icônico Manifesto Futurista (1908), por exemplo, Marinetti escreve: \"Nós afirmamos que a magnificência do mundo se enriqueceu com uma nova beleza, a beleza da velocidade. Um carro de corrida com seu capô decorado com grossos tubos parecidos a serpentes de hálito explosivo… um automóvel rugidor, que parece correr sobre a metralha, é mais belo que a Vitória de Samotrácia.\"\n[…]\nA Vitória de Samotrácia no sítio do Louvre",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Agogê",
+      "descricao": "Sistema de educação e treinamento militar obrigatório dos meninos de Esparta."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Com que idade os meninos de Esparta deixavam a família para começar o duro treinamento militar chamado agogê?",
+    "resposta": "Sete anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agoge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Agoge",
+        "situacao": "ok",
+        "texto": "In ancient Sparta, the agoge (Ancient Greek: ἀγωγή, romanized: agōgḗ in Attic Greek, or ἀγωγά, agōgá in Doric Greek) was the training program prerequisite for Spartiate (citizen) status. Spartiate-class boys entered it at age seven, and would stop being a student of the agoge at age 21. It was considered violent by the standards of the day, and was sometimes fatal. Those who survived to the final \n[…]\nThe agōgē was divided into three age groups, paides, paidiskoi, and hēbōntes, roughly corresponding to young boys (7–12), adolescents (12–20), and young men (20–30). The agōgē deliberately deprived boys of food, sleep, and shelter. It involved cultivating loyalty to Sparta through military training (e.g., pain tolerance), hunting, dancing, singing, and rhetoric. There seems to have been ritual beating.\n[…]\nThe agōgē kept Spartan boys away from their families for much of their childhood, which Stephen Hodkinson believes taught them to favour the needs of the entire populace over that of an individual. Since a Spartan man's formative years were spent entirely in a perpetual competition of merit (both physical and social) they were encouraged to conform to the Spartan laws and social norms.\n[…]\nIn science fiction, Red Rising contains a training program based on Greek institutions like the agōgē in the form of a state-sponsored military education system which utilizes Greek names and symbols; the program emphasizes Spartan discipline against Athenian Democracy.\n[…]\nIn the Sony Santa Monica Studio Playstation game God of War Ragnarok, the protagonist Kratos talks about his upbringing alongside his brother in the agōgē, noting the cruel and violent methods used to train children and how he looked to avoid doing so with his second child, Atreus.\n[…]\nHodkinson, Stephen (1996). \"Agoge\". In Hornblower, Simon (ed.). Oxford Classical Dictionary. Oxford University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Agog%C3%AA",
+        "situacao": "ok",
+        "texto": "Agōgē (em grego clássico: ἀγωγή) era o rigoroso regime obrigatório de educação e treinamento imposto a todos os cidadãos espartanos do sexo masculino, exceto aos filhos primogênitos das casas então reinantes, Euripôntida e Ágida. O treinamento envolvia aprender a discrição, cultivar lealdade ao grupo, o treinamento militar (por exemplo, a tolerância à dor), a caça, dança, canto e o preparo social \n[…]\nA palavra \"agogê\" significava \"dependência\" em grego antigo, mas no contexto em questão sua acepção podia remeter à ideia de \"liderança\", \"orientação\" ou \"treinamento\".\n[…]\nDe acordo com o folclore, o agogê foi introduzido pelo legislador espartano semi-mítico Licurgo, mas suas origens remetem aos séculos  VII e VI a.C., quando o Estado treinava cidadãos do sexo masculino entre as idades de 7-21.\n[…]\nCom a idade de sete anos, os meninos eram matriculados no agogê sob a autoridade dos paidonómos (παιδονόμος), ou \"pastor de meninos\", um magistrado encarregado de supervisionar a educação. Assim começava então a primeira das três etapas do agogê: os paides (com idades entre 7-17), o paidískoi (idades 17-19), e os hēbōntes (20-29). Algumas fontes clássicas, no entanto, indicam que havia mais subdivisões por ano dentro dessas classes.\n[…]\nRemovidos de suas casas, os meninos ficavam sob o controle do Estado e sujeitos ao treinamento militar rigoroso até os vinte anos. Durante este período, os jovens se alistavam ao mesmo tempo em dois grupos: um contendo meninos da mesma idade e outro formado por jovens de idades diferentes. O primeiro grupo era chamado de \"rebanhos de bois\" ou buai; o segundo \"tropas\" ilae. Os jovens que comandavam e controlavam o bua eram chamados de buagor e o capitão das tropas de ila ou \"ilarca\".\n[…]\nExército espartano",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Trirreme",
+      "descricao": "Navio de guerra grego movido a remos dispostos em três níveis, base do poder naval de Atenas no século cinco a.C."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O trirreme, navio de guerra que deu a Atenas o domínio dos mares, levava cerca de quantos remadores?",
+    "resposta": "Cerca de 170",
+    "distratores": [
+      "Cerca de 50",
+      "Cerca de 300",
+      "Cerca de 600"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trireme"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trireme",
+        "situacao": "ok",
+        "texto": "A trireme ( TRY-reem; from Latin  trirēmis 'with three banks of oars'; cf. Ancient Greek: τριήρης, romanized: triḗrēs, lit. 'three-rower') was an ancient vessel and a type of galley that was used by the ancient maritime civilizations of the Mediterranean Sea, especially the Phoenicians, ancient Greeks and Romans.\n[…]\nThe total complement (plērōma) of the ship was about 200. These were divided into the 170 rowers (eretai), who provided the ship's motive power, the deck crew headed by the trierarch and a marine detachment. The trierarch would be situated in the rear of the ship, and relay orders to the rest of the crew via the rowmaster. For the crew of Athenian triremes, the ships were an extension of their democratic beliefs. Rich and poor rowed alongside each other.\n[…]\nAt the Battle of Arginusae for example, 263 ships were involved, making for a total of 55,000 men, and at the Battle of Aegospotami more than 300 ships and 60,000 seamen were involved. In Battle of Aegospotami, the city-state of Athens lost what was left of its navy: the once 'invincible' thalassocracy lost 170 ships (costing some 400 talents), and the majority of the crews were either killed, captured or lost.\n[…]\nCrewed by 170 volunteer oarsmen, Olympias in 1988 achieved 9 knots (17 km/h; 10 mph). These results, achieved with inexperienced crew, suggest that the ancient writers were not exaggerating about straight-line performance. In addition, Olympias was able to execute a 180 degree turn in one minute and in an arc no wider than two and one half (2.5) ship-lengths. Additional sea trials took place in 1987, 1990, 1992 and 1994.\n[…]\nHistory and archeology of the ship – lecture notes – 26. Triremes, from the Centre for Maritime Archaeology of the University of Southampton\n[…]\nThe Trireme Trust"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trirreme",
+        "situacao": "ok",
+        "texto": "A trirreme (trieres, em grego, trireme em latim) era uma antiga embarcação grega da Antiguidade impelida por remos. A origem desse navio de guerra é incerta, a despeito de autores como Tucídides apontarem seu uso desde o século VIII a.C.\n[…]\nOs antigos projetistas de barcos tentaram vários métodos para aumentar a potência dos navios de guerra, inclusive colocar mais homens em cada remo. O projeto mais bem-sucedido era a trirreme: três pavimentos de remadores em cada lado. A trirreme padrão tinha cerca de 36 metros de comprimento por não mais que 5 metros de boca e tripulação de mais de 150 remadores. Tinha velocidade e maneabilidade razoáveis.\n[…]\nNuma península coalhada por cerca de 3 mil ilhas, o uso de trirremes era intenso e decisivo. Eles eram a maior parte das marinhas do Mediterrâneo a partir de 500 a.C. Esse navio de escravos a remo impulsionou as cidades-estado gregas clássicas e, em particular, Atenas como forças navais. Durante as guerras com a Pérsia, Atenas comandava sozinha mais de 200 desses navios. Foi com trirremes que os gregos obtiveram sua vitória decisiva contra os persas, na Batalha de Salamina.\n[…]\nContudo, em grego existe outra forma de referir às Trirremes, através do termo \"Kontoros\", precedido pelo número de remadores; assim as Trirremes são \"Triakontoros\" (30 remos).\n[…]\nO Olímpia (Ολυμπιάς) é uma reconstrução moderna de uma trirreme grega, construída na década de 1980 para estudar a engenharia e as capacidades navais das antigas embarcações de guerra gregas. Projetada com base em evidências arqueológicas e descrições históricas, a embarcação possui cerca de 37 metros de comprimento e 5,5 metros de largura, sendo movida por aproximadamente 170 remadores dispostos em três fileiras de remos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Olimpíada (unidade de tempo)",
+      "descricao": "Intervalo entre duas edições dos Jogos de Olímpia, usado pelos gregos antigos para contar os anos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Os gregos antigos usavam a olimpíada como unidade para contar o tempo. Quantos anos durava uma olimpíada?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympiad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Olympiad",
+        "situacao": "ok",
+        "texto": "An olympiad (Greek: Ὀλυμπιάς, Olympiás) is a period of four years, particularly those associated with the ancient and modern Olympic Games.\n[…]\nThe English term is still often used popularly to indicate the games themselves, a usage that is uncommon in ancient Greek (as an Olympiad is most often the time period between and including sets of games). It is also used to indicate international competitions other than physical sports.\n[…]\nThis includes international science olympiads, such as the International Geography Olympiad, International Mathematical Olympiad, International Forensics Olympiad, and the International Linguistics Olympiad and their associated national qualifying tests (e.g., the United States of America Mathematical Olympiad, the USA Forensics Olympiad or the United Kingdom Linguistics Olympiad), and also events in mind-sports, such as the Science Olympiad, Mindsport Olympiad, Chess Olympiad, International History Olympiad and Computer Olympiad.\n[…]\nIn these cases Olympiad is used to indicate a regular event of international competition for top achieving participants; it does not necessarily indicate a four-year period.\n[…]\nIn some languages, like Czech and Slovak, Olympiad (Czech: olympiáda) is the correct term for the games.\n[…]\nThe Olympiad (L'Olimpiade) is also the name of some 60 operas set in Ancient Greece.\n[…]\n\"Olympiad\" . Encyclopædia Britannica. Vol. 20 (11th ed.). 1911.\n[…]\nChris Bennett, The Olympiad System, on tyndalehouse.com\n[…]\nValerie Vaughan, The Origin of the Olympics: Ancient Calendars and the Race Against Time (2002) on OneReed.com, an astrologically-oriented site."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Olimp%C3%ADada",
+        "situacao": "ok",
+        "texto": "Olimpíada (do latim Olympĭas), conforme Carta Olímpica grega de 1896, é o período de quatro anos civis entre a realização de dois Jogos Olímpicos consecutivos, ou Jogos da Olimpíada. Cada Olimpíada ou Período Olímpico inicia no primeiro dia de janeiro (01/01) do primeiro ano de realização dos Jogos e segue até o trigésimo primeiro dia de dezembro do quarto ano (31/12), véspera do próximo evento.\n[…]\nPor exemplo, de 1° de janeiro de 2016 até 31 de dezembro de 2019 o mundo viveu a XXXI Olimpíada (Rio 2016). Já os Jogos Olímpicos do Rio, realizados em agosto de 2016, foram os Jogos da XXXI Olimpíada.\n[…]\nO plural - Olimpíadas - é considerado como a soma de todas as edições de Jogos Olímpicos, tanto de verão quanto de inverno, realizadas até hoje.\n[…]\nOs Jogos Olímpicos da Antiguidade tiveram início na cidade de Olímpia na Grécia antiga, os homens participavam dos jogos em honra a Zeus e as mulheres tinham seus próprios jogos em honra à Hera. O vencedor recebia uma coroa de louro ou de folhas de oliveira. Modalidades praticadas: arremesso de dardo, salto em altura, lançamento de disco, corridas, lutas e muitas outras.\n[…]\nNo ano de 776 a.C, uma aliança entre reis de diferentes regiões da Grécia foi selada no santuário de Olímpia. Eram tempos de muitas guerras, e este acordo estabeleceu a Paz Olímpica enquanto durassem as competições. A partir de então, os gregos acertaram que durante os meses do verão na Grécia (julho a agosto), os jogos aconteceriam durante o período de trégua.\n[…]\nA este período de quatro anos sem jogos, ou melhor, entre uma edição e outra, foi dado o nome de \"Olimpíada\". E aos jogos em si, de \"Jogos Olímpicos\".\n[…]\nChisholm, Hugh, ed. (1911). «Olympiad». Encyclopædia Britannica (em inglês) 11.ª ed. Encyclopædia Britannica, Inc. (atualmente em domínio público)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Ésquilo",
+      "descricao": "Dramaturgo ateniense do século cinco a.C., considerado o pai da tragédia grega."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O epitáfio de Ésquilo, pai da tragédia, não menciona nenhuma de suas peças. Em vez disso, lembra que ele lutou em que batalha?",
+    "resposta": "Batalha de Maratona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aeschylus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aeschylus",
+        "situacao": "ok",
+        "texto": "Aeschylus (UK: , US: ; Ancient Greek: Αἰσχύλος Aischýlos; c. 525/524 – c. 456/455 BC) was an ancient Greek tragedian, often described as the father of tragedy. Academic knowledge of the genre begins with his work, and understanding of earlier Greek tragedy is largely based on inferences made from reading his surviving plays. According to Aristotle, he expanded the number of characters in the theat\n[…]\nWith the exception of this last play – the success of which is uncertain – all of Aeschylus's extant tragedies are known to have won first prize at the City Dionysia.\n[…]\nThe Persians (Persai) is the earliest of Aeschylus's extant plays. It was performed in 472 BC. It was based on Aeschylus's own experiences, specifically the Battle of Salamis. It is unique among surviving Greek tragedies in that it describes a recent historical event. The Persians focuses on the popular Greek theme of hubris and blames Persia's loss on the pride of its king.\n[…]\nEugene O'Neill's Mourning Becomes Electra (1931), a trilogy of three plays set in America after the Civil War, is modeled after the Oresteia. Before writing his acclaimed trilogy, O'Neill had been developing a play about Aeschylus, and he noted that Aeschylus \"so changed the system of the tragic stage that he has more claim than anyone else to be regarded as the founder (Father) of Tragedy.\"\n[…]\nSaïd, Suzanne (2006). \"Aeschylean Tragedy\". A Companion to Greek Tragedy. Blackwell Publishing.\n[…]\nSommerstein, Alan H. (2010). Aeschylean Tragedy (2nd ed.). London: Duckworth. ISBN 978-0-7156-3824-8.\n[…]\nCairns, D., V. Liapis, Dionysalexandros: Essays on Aeschylus and His Fellow Tragedians in Honour of Alexander F. Garvie (Swansea: The Classical Press of Wales, 2006)\n[…]\nMurray, Gilbert (1978). Aeschylus: The Creator of Tragedy. Oxford: Clarendon Press.\n[…]\nPodlecki, Anthony J. (1966). The Political Background of Aeschylean Tragedy. Ann Arbor: University of Michigan Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%89squilo",
+        "situacao": "ok",
+        "texto": "Ésquilo (em grego: Αἰσχύλος; romaniz.: Aiskhýlos; Elêusis, c. 525/524 a.C. – Gela, 456/455 a.C.) foi um dramaturgo da Grécia Antiga. É reconhecido frequentemente como o pai da tragédia, e é o mais antigo dos três trágicos gregos cujas peças ainda existem (os outros são Sófocles e Eurípedes). De acordo com Aristóteles, Ésquilo aumentou o número de personagens usados nas peças para permitir conflito\n[…]\nPelo menos uma das obras de Ésquilo foi influenciada pela invasão persa da Grécia, ocorrida durante sua vida. Sua peça Os Persas continua sendo uma grande fonte de informação sobre este período da história grega. A guerra teve tamanha importância para os gregos e para o próprio Ésquilo que, na ocasião de sua morte, por volta de 456 a.C., seu epitáfio celebrava sua participação na vitória grega em Maratona, e não seu sucesso como dramaturgo.\n[…]\nAs Guerras Persas tiveram um papel fundamental na vida e na carreira do dramaturgo. Em 490 a.C. Ésquilo e seu irmão, Cinegiro, lutaram defendendo Atenas do exército persa de Dario I, na Batalha de Maratona. Os atenienses, embora em número inferior, conseguiram cercar e dizimar as forças persas; esta derrota crucial pôs um fim à primeira invasão persa da Grécia, e foi celebrada por todas as cidades-Estado gregas. Embora Atenas tenha saído vitoriosa, Cinegiro morreu durante o combate. Em 480 a.C.\n[…]\nA peça mais antiga do autor a ter sobrevivido até os dias de hoje é Os Persas (Persai), encenada pela primeira vez em 472 a.C., e baseada nas experiências do próprio Ésquilo no exército, mais especificamente na Batalha de Salamina. É única entre as tragédias gregas por tratar de um evento histórico recente, no lugar de um mito heróico ou divino. Os Persas aborda o tema, popular entre os gregos, da húbris, ao colocar a culpa da derrota persa no orgulho sobrepujante de seu rei.\n[…]\n«Ésquilo». no Portal Graecia Antiqua\n[…]\nObras de Ésquilo no Project Gutenberg USA",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Tetradracma ateniense",
+      "descricao": "Moeda de prata de Atenas, da época clássica, com a cabeça de Atena de um lado e uma coruja do outro."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ave, símbolo das antigas moedas de prata de Atenas, aparece hoje na moeda grega de um euro?",
+    "resposta": "Coruja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetradrachm",
+      "https://en.wikipedia.org/wiki/Greek_euro_coins"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tetradrachm",
+        "situacao": "ok",
+        "texto": "The tetradrachm /ˈtetrəˌdræm/ (Ancient Greek: τετράδραχμον, romanized: tetrádrachmon, literally \"four-drachm piece\") was a large silver coin that originated in Ancient Greece. It was nominally equivalent to four drachmae. Over time the tetradrachm effectively became the standard trade coin of Classical Antiquity, spreading well beyond the borders of the Hellenic world. It was minted in many weight\n[…]\nTetradrachms continue to be collected in modern times, and rare or well-preserved pieces can reach considerable prices.\n[…]\nIn particular the Athenian owl dominated the international trade before it was gradually overshadowed and replaced by tetradrachms of Alexander the Great.\n[…]\nThe conquests of Alexander the Great also marked a profound shift in ancient financial markets. The vast treasures captured from the Achaemenid Empire allowed the minting of enough tetradrachms to pay the massive Macedonian army. Alexander introduced his own distinctive tetradrachm, minted on a broader and thinner flan. The obverse depicted the head of the young Heracles in a lion skin, from whom the Argead dynasty claimed descent, an already traditional motif of Macedonian coinage.\n[…]\nMinted in high-grade silver at mints throughout that empire and retaining the Attic standard of about 17.2 g, these coins displaced the Athenian owl.\n[…]\nAlexander placed a strong emphasis on uniformity and gradually phased out other large silver denominations across his realm, further reinforcing the status of the tetradrachm as the standard large coin. Production continued long after Alexander's death in 323 BC. His successors initially continued to use his types before substituting their own, and independent cities struck \"posthumous Alexanders\" for roughly two centuries, some into the first century BC.\n[…]\nTetradrachms from Sicily, Syracuse - The Demareteion Tetradrachm Archived 2021-02-01 at the Wayback Machine"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Greek_euro_coins",
+        "situacao": "ok",
+        "texto": "Greek euro coins feature a unique design for each of the eight coins. They were all designed by Georgios Stamatopoulos with the minor coins depicting Greek ships, the middle ones portraying famous Greeks and the two large denominations showing images of Greek history and mythology. All designs feature the 12 stars of the EU, the year of imprint and a tiny symbol of the Bank of Greece.\n[…]\nGreece did not enter the Eurozone until 2001 and was not able to start minting coins as early as the other eleven member states, so a number of coins circulated in 2002 were not minted in Athens but in Finland (€1 and €2 – mint mark S), France (1c, 2c, 5c, 10c and 50c – mint mark F) and Spain (20c – mint mark E). The coins minted in Athens for the euro introduction in 2002, as well as all the subsequent Greek euro coins, carry only the Greek mint mark.\n[…]\nFor images of the common side and a detailed description of the coins, see euro coins.\n[…]\nThe following table shows the mintage quantity for all Greek euro coins, per denomination, per year.\n[…]\nIn 2001, the Bank of Greece issued starter kits for the introduction of the Euro.\n[…]\nGreece has a good collection of euro commemorative coins, mainly in silver although a few coins have also been minted in gold. Their face value range from €10 to €200. This is mainly done as a legacy of an old national practice of minting gold and silver coins. These coins are not really intended to be used as means of payment, so generally they do not circulate. Here you can find some samples:\n[…]\nAdoption of the euro in Greece"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tetradracma",
+        "situacao": "ok",
+        "texto": "Um tetradracma (em grego:  τετράδραχμον, tetrádrakhmon) foi uma moeda de prata grega equivalente à quatro dracmas. Em Atenas, esteve em circulação entre 510 e 38 a.C.\n[…]\nTrinta moedas de prata",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Milo de Crotona",
+      "descricao": "Lutador grego do século seis a.C., natural de Crotona, várias vezes campeão nos Jogos de Olímpia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O lutador Milo de Crotona, várias vezes campeão em Olímpia, é apontado pelas fontes antigas como seguidor de que filósofo e matemático?",
+    "resposta": "Pitágoras",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Milo_of_Croton"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Milo_of_Croton",
+        "situacao": "ok",
+        "texto": "Milo or Milon of Croton (fl. 540 – 511 BC) was a famous ancient Greek athlete from Croton, which is today in the Magna Graecia region of southern Italy.\n[…]\nDiodorus Siculus wrote in his history that Milo was a follower of Pythagoras who commanded the Crotonian army which defeated the Sybarites in 511 BC, while wearing his Olympic wreaths and dressed like Heracles in a lion's skin and carrying a club:\n[…]\nAncient sources and legends report that Milo took great pleasure in showing off his strength.\n[…]\nThe statue of Milo the son of Diotimus was made by Dameas, also a native of Crotona. Milo won six victories for wrestling at Olympia, one of them among the boys; at Pytho he won six among the men and one among the boys. He came to Olympia to wrestle for the seventh time, but did not succeed in mastering Timasitheus, a fellow-citizen who was also a young man, and who refused, moreover, to come to close quarters with him. It is further stated that Milo carried his own statue into the Altis.\n[…]\nThe story has it that he came across in the land of Crotona a tree-trunk that was drying up; wedges were inserted to keep the trunk apart. Milo in his pride thrust his hands into the trunk, the wedges slipped, and Milo was held fast by the trunk until the wolves—a beast that roves in vast packs in the land of Crotona—made him their prey. Such was the fate that overtook Milo.\n[…]\nAbdo, John (2020). Wolves of Croton: The Untold Story of Milo. Marina del Rey, CA: Ja Publishing, Inc. ISBN 978-1-7356-8471-0.\n[…]\nWeb Gallery of Art Depictions of Milo of Croton by Vittoria, Puget, Falconet, and Suvée"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%ADlon_de_Crotona",
+        "situacao": "ok",
+        "texto": "Mílon (em grego: Μίλων; Crotona, 510 a.C.)[carece de fontes]?, filho de Diotimus, foi um célebre atleta grego que destacou-se na luta e que nos jogos antigos teria ganho 12 competições: seis vezes nos Jogos Olímpicos (uma delas na categoria de crianças) e seis vezes nos Jogos Píticos (uma delas como criança). Na sétima vez que competiu nos jogos olímpicos, ele perdeu para Timasitheus, um jovem de \n[…]\nComo testemunho de sua enorme força muscular se cita o caso de que assistindo a uma lição de Pitágoras com vários discípulos do filósofo, o teto desabava e Milon o sustentou com uma mão até que todos tivessem saído do recinto. Ele também carregava a própria estátua.\n[…]\nSobre o lendário episódio do boi sobre suas costas, é relatado que colocou o animal desde pequeno, seguida e metodicamente, repetindo os movimentos que faria, e a medida que o animal crescia, contava que suas força crescesse proporcionalmente.\n[…]\nÉ uma das descrições mais antigas de um treinamento com cargas crescentes, ou (princípio da sobrecarga), a base do treinamento com pesos na (musculação), no (fisiculturismo) e do (halterofilismo), meios nos quais sua figura tornou-se, ainda que lendária e simbólica, exemplo de princípios, método e persistência.\n[…]\nSua estátua em Olímpia, feita por \"Dameas\" de Crotona, ainda existia na época de (Pausânias). Além de diversas representações na pintura e na escultura, Milon é citado por François Rabelais quando faz comparações da força de seu personagem (Gargântua) e por William Shakespeare no 2° ato de (Tróilo e Créssida).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Democracia ateniense",
+      "descricao": "Sistema de governo direto dos cidadãos de Atenas, entre o fim do século seis e o século quatro a.C."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na democracia de Atenas, a maioria dos magistrados e os jurados dos tribunais não eram eleitos. Como eram escolhidos?",
+    "resposta": "Por sorteio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Athenian_democracy",
+      "https://en.wikipedia.org/wiki/Sortition"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Athenian_democracy",
+        "situacao": "ok",
+        "texto": "Athenian democracy developed around the 6th century BC in the Greek city-state (known as a polis) of Athens, comprising the city of Athens and the surrounding territory of Attica, and focusing on supporting liberty, equality, and security.\n[…]\nThe longest-lasting democratic leader was Pericles. After his death, Athenian democracy was twice briefly interrupted by oligarchic revolutions in 411 and 404 BC, towards the end of the Peloponnesian War.\n[…]\nOne might expect, by analogy, that the term \"demarchy\" would have been adopted for the new form of government introduced by Athenian democrats. However, the word \"demarchy\" (δημαρχία) had already been taken and meant \"mayoralty\", the office or rank of a high municipal magistrate. (In present-day use, the term \"demarchy\" has acquired a new meaning.)\n[…]\nIn opposition, thinkers such as Samuel Johnson were worried about the ignorance of democratic decision-making bodies, but \"Macaulay and John Stuart Mill and George Grote saw the great strength of the Athenian democracy in the high level of cultivation that citizens enjoyed, and called for improvements in the educational system of Britain that would make possible a shared civic consciousness parallel to that achieved by the ancient Athenians\".\n[…]\nGeorge Grote claimed in his History of Greece (1846–1856) that \"Athenian democracy was neither the tyranny of the poor, nor the rule of the mob\". He argued that only by giving every citizen the vote would people ensure that the state would be run in the general interest.\n[…]\nGreek democracy\n[…]\nHansen, M.H. (1987). The Athenian Democracy in the age of Demosthenes. Oxford. ISBN 978-0-8061-3143-6.\n[…]\nRhodes, P.J. (2004). Athenian democracy. Edinburgh.\n[…]\nAthenian Democracy in World History Encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sortition",
+        "situacao": "ok",
+        "texto": "In governance, sortition is the selection of public officials or jurors at random, i.e., by lottery, in order to obtain a representative sample.\n[…]\nIn ancient Athenian democracy, sortition was the traditional and primary method for appointing political officials, and its use was regarded as a principal characteristic of democracy. Sortition is often classified as a method for both direct democracy and deliberative democracy.\n[…]\nAthenian democracy developed in the 6th century BC out of what was then called isonomia (equality of law and political rights). Sortition was then the principal way of achieving this fairness. It was utilized to pick most of the magistrates for their governing committees, and for their juries (typically of 501 men).\n[…]\nIn Athenian democracy, to be eligible to be chosen by lot, citizens self-selected into the available pool, then onto lotteries in the kleroteria machines. The magistracies assigned by lot generally had terms of service of one year. A citizen could not hold any particular magistracy more than once in his lifetime, but could hold other magistracies. All male citizens over 30 years of age, who were not disenfranchised by atimia, were eligible.\n[…]\nHowever, David Van Reybrouck disagrees with Manin's theories on the lack of consideration of sortition. He suggests that the relatively limited knowledge about Athenian democracy played a major role, with the first thorough examination coming only in 1891 with Election by Lot at Athens.\n[…]\nDemocracy Through Multi-Body Sortition: Athenian Lessons for the Modern Day (2013) by Terrill G. Bouricius"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Democracia_ateniense",
+        "situacao": "ok",
+        "texto": "A democracia ateniense (no grego: δημοκρατία) foi uma forma de governo que surgiu na Grécia em meados do século VI a.C. A experiência democrática ateniense dava-se de forma direta, contudo, envolvia pequena parcela da população. Podiam participar somente os cidadãos livres e com direitos políticos (pois eles poderiam ser perdidos), nascidos em Atenas, maiores de 30 anos e filhos de pai ateniense, \n[…]\nO sistema de funcionamento do governo democrático ateniense pode ser dividido em seis partes principais: Eclésia, Bulé, Arcontes, Estrategos e dois tribunais, o Areópago e Helieia. O processo de escolha da maioria dessas magistraturas ocorria através do sorteio, pois assim todos os cidadãos teriam chances iguais de participar destas instituições. O sorteio acontecia para os buleutas, areopagitas, heliastas e arcontes.\n[…]\nApenas em casos onde se exigia um conhecimento específico é que se procedia através da eleição, como, por exemplo, as magistraturas militares, o arquiteto da cidade, o superintendente do abastecimento de águas e o conselho de arquitetos navais, entre outras. A maioria dos funcionários era selecionada pela forma democrática do sorteio, pois assim até os atenienses mais pobres poderiam exercer um cargo.\n[…]\nLíderes supremos do exército, os estrategos, em número de dez, um para cada uma das dez tribos territoriais, eram escolhidos através de uma eleição na Eclésia, e não por sorteio. Eleitos por todo o povo constituiriam uma magistratura de poder imenso dentro da democracia ateniense. Quando surgiram, em 501 a.C, eram basicamente chefes militares, sob o comando do polemarco, mas passariam a exercer um lugar cada vez mais notório na democracia ateniense a medida que a influência do arcontado diminuía.\n[…]\nDemocracia\n[…]\nDemocracia directa\n[…]\nSTARR, Chester G. O nascimento da democracia ateniense: a assembleia no século V a.C.. São Paulo: Odysseus, 2005.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Pancrácio",
+      "descricao": "Modalidade de combate dos Jogos Olímpicos da Antiguidade que combinava boxe e luta, com pouquíssimas regras."
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade das Olimpíadas antigas misturava boxe e luta, e só proibia morder e enfiar o dedo nos olhos do adversário?",
+    "resposta": "Pancrácio",
+    "distratores": [
+      "Pugilato",
+      "Pentatlo",
+      "Hoplitódromo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pankration"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pankration",
+        "situacao": "ok",
+        "texto": "Pankration (; Ancient Greek: παγκράτιον [paŋkráti.on]) was an unarmed combat sport introduced into the Greek Olympic Games in 648 BC. The athletes used boxing and wrestling techniques but also others, such as kicking, holds, joint locks, and chokes on the ground, making it similar to modern mixed martial arts. The term comes from the Ancient Greek word παγκράτιον (pankrátion), meaning \"all of powe\n[…]\nBy the Imperial Period, the Romans had adopted the Greek combat sport (spelled in Latin as pancratium) into their Games. In 393 AD, the pankration, along with gladiatorial combat and all pagan festivals, was abolished by edict by the Christian Byzantine Emperor Theodosius I.\n[…]\nPankration uses boxing punches and other ancient boxing hand strikes.\n[…]\nFrom 2010-2025, modern pankration had a ruleset resembling amateur MMA, divided into two rulesets:\n[…]\nIn May 2025, United World Wrestling (UWW) announced a restructuring of its Grappling, Pankration, and Amateur MMA programs. Under the new structure, Pankration was designated primarily for competitors in the U15 and U17 age categories, while Amateur MMA became the discipline for U20 and senior athletes. The restructuring was accompanied by a revised rules framework, including three three-minute rounds and the adoption of the 10-point must scoring system.\n[…]\nThe change was introduced in conjunction with a revised ruleset and the creation of UWW's first Senior Amateur MMA World Championships, held in Novi Sad, Serbia, in October 2025. The 2025 Pankration World Championships in Loutraki, Greece, were consequently restricted to U15 and U17 competitors. UWW's Amateur MMA rules describe the discipline as being rooted in ancient Pankration and as an attempt to reconnect modern mixed martial arts with its ancient Olympic heritage.\n[…]\n\"Pankration\" or \"Pancration\" matches – Perseus Digital Library, Tufts University\n[…]\nInternational Federation of Pankration Athlima"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pancr%C3%A1cio",
+        "situacao": "ok",
+        "texto": "Pancrácio (em grego: Παγκράτιον; romaniz.: Pankrátion) foi uma antiga arte marcial e antigo desporto de combate sem armas, que segundo a mitologia grega teve início com os heróis Héracles e Teseu.[carece de fontes]?Uma mistura de boxe clássico e luta olímpica com golpes e técnicas de lutas que incluem socos, chutes, cotoveladas, joelhadas, cabeçadas, estrangulamentos, agarramentos, quedas, arremes\n[…]\nA origem do pancrácio o credencia como o “tataravô do MMA”. Suas regras foram desenvolvidas a partir do wrestling (luta livre) e do pugilato (antecedente do boxe), acrescidas de outras ferramentas que lhe deram um tom mais agressivo e menos elegante que suas artes de origem.\n[…]\nAntenor, de Atenas ou de Mileto, foi um dos grandes vencedores do pancrácio, na 118.a olimpíada (308 a.C.).\n[…]\nNa 142.a olimpíada (212 a.C.), Capro de Élida venceu tanto o pancrácio quanto o pále (luta), assim como Héracles havia feito, e foi coroado como o segundo depois de Héracles.\n[…]\nNa 156.a olimpíada (156 a.C.), Aristômenes de Rodes vence o pancrácio e o pále, sendo o terceiro, após Héracles, a vencer as duas competições. O quarto foi Protófanes da Magnésia no Meandro, que venceu na 172.a olimpíada (92 a.C.).\n[…]\nNa 178.a olimpíada (68 a.C.), Estratônico de Alexandria, filho de Corrago, venceu o pancrácio e o pále, o quinto depois de Héracles. Nos jogos Nemeus, ele havia vencido quatro coroas no mesmo dia, competindo nu nas competições de crianças e jovens, mas, como ele havia vencido com o favor dos seus amigos e dos reis, foi desqualificado.\n[…]\nO sexto a vencer o pancrácio e o pále, depois de Héracles, foi Marião de Alexandria, filho e Marião, na 182.a olimpíada (52 a.C.). O sétimo foi Arísteas de Estratoniceia ou Menandro, na 198.a olimpíada (13 d.C.).\n[…]\nApenas oito homens venceram tanto o pancrácio e o pále. O último foi Nicóstrato de Egas, na 204.a olimpíada (37).\n[…]\nLuta greco-romana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Pitágoras",
+      "descricao": "Filósofo e matemático grego do século seis a.C., nascido em Samos, fundador da escola pitagórica."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Entre as regras atribuídas a Pitágoras e seus seguidores, havia a proibição de comer um alimento comum. Qual?",
+    "resposta": "Favas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pythagoras",
+      "https://en.wikipedia.org/wiki/Pythagoreanism"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pythagoras",
+        "situacao": "ok",
+        "texto": "Pythagoras of Samos (Ancient Greek: Πυθαγόρας; c. 570 – c. 495 BC) was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. His political and religious teachings were well known in Magna Graecia and influenced the philosophies of Plato, Aristotle, and, through them, Western philosophy.\n[…]\nThe poet Heraclitus of Ephesus (fl. c. 500 BC), who was born a few miles across the sea from Samos and may have lived within Pythagoras's lifetime, mocked Pythagoras as a clever charlatan, remarking that \"Pythagoras, son of Mnesarchus, practiced inquiry more than any other man, and selecting from these writings he manufactured a wisdom for himself—much learning, artful knavery.\" Alcmaeon of Croton (fl. c.\n[…]\nThe oldest known building designed according to Pythagorean teachings is the Porta Maggiore Basilica, a subterranean basilica which was built during the reign of the Roman emperor Nero as a secret place of worship for Pythagoreans. The basilica was built underground because of the Pythagorean emphasis on secrecy and also because of the legend that Pythagoras had sequestered himself in a cave on Samos. The basilica's apse is in the east and its atrium in the west out of respect for the rising sun.\n[…]\nIn his preface to his book On the Revolution of the Heavenly Spheres (1543), Nicolaus Copernicus cites various Pythagoreans as the most important influences on the development of his heliocentric model of the universe, deliberately omitting mention of Aristarchus of Samos, a non-Pythagorean astronomer who had developed a fully heliocentric model in the fourth century BC, in effort to portray his model as fundamentally Pythagorean. Johannes Kepler considered himself to be a Pythagorean.\n[…]\nPythagoras on In Our Time at the BBC\n[…]\nWorks by Pythagoras at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pythagoreanism",
+        "situacao": "ok",
+        "texto": "Pythagoreanism originated in the 6th century BC, based on and around the teachings and beliefs held by Pythagoras and his followers, the Pythagoreans. Pythagoras established the first Pythagorean community in the ancient Greek colony of Croton, in modern Calabria (Italy) circa 530 BC. Early Pythagorean communities spread throughout Magna Graecia.\n[…]\nPythagoras had been born on the island of Samos at around 570 BC and left his homeland at around 530 BC in opposition to the policies of Polycrates. Before settling in Croton, Pythagoras had traveled throughout Egypt and Babylonia. In Croton, Pythagoras established the first Pythagorean community, described as a secret society, and attained political influence. In the early 5th century BC Croton acquired great military and economic importance.\n[…]\nIn the preface of De revolutionibus, Copernicus cites three pythagorean philosophers as precursors of the Heliocentric Theory: Hicetas, Philolaus and Ecphantus.\n[…]\nHeraclides of Pontus and Ecphantus the Pythagorean make the earth move, not in a progressive motion, but like a wheel in a rotation from west to east about its own center.\"\n[…]\nThe Pythagorean belief that all bodies are composed of numbers and that all properties and causes could be expressed in numbers, served as the basis for a mathematization of science. This mathematization of the physical reality climaxed in the 20th century.\n[…]\nThe pioneer of physics Werner Heisenberg argued that \"this mode of observing nature, which led in part to a true dominion over natural forces and thus contributes decisively to the development of humanity, in an unforeseen manner vindicated the Pythagorean faith\".\n[…]\nMedia related to Pythagoreanism at Wikimedia Commons\n[…]\nCarl Huffman. \"Pythagoreanism/\". In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy. ISSN 1095-5054. OCLC 429049174."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pit%C3%A1goras",
+        "situacao": "ok",
+        "texto": "Pitágoras de Samos (em grego:  Πυθαγόρας ὁ Σάμιος, ou apenas Πυθαγόρας; Πυθαγόρης em grego jônico; Samos, c. 570 – Metaponto, c. 495 a.C.) foi um filósofo e matemático grego jônico creditado como fundador do movimento chamado Pitagorismo. Na sua maioria, as informações sobre Pitágoras foram escritas séculos depois da sua morte, de modo que há pouca informação confiável sobre ele. Nasceu na ilha de\n[…]\nPitágoras conseguiu escapar, mas estava tão desanimado com a morte de seus amados alunos que ele teria cometido suicídio. Uma lenda diferente relatada por Diógenes Laércio e Jâmblico afirma que Pitágoras quase conseguiu escapar, mas que ele chegou a um campo de favas e se recusou a percorrê-lo, pois isso violaria seus ensinamentos, ele parou então e foi morto. Esta história parece ter se originado do escritor Neantes, que falou sobre os pitagóricos posteriores, não sobre o próprio Pitágoras.\n[…]\nO edifício mais antigo conhecido, projetado de acordo com os ensinamentos de Pitágoras, é a Basílica Porta Maggiore, uma basílica subterrânea que foi construída durante o reinado do imperador romano Nero como um local de culto secreto para os pitagóricos. A basílica foi construída no subsolo por causa da ênfase pitagórica no segredo e também por causa da lenda de que Pitágoras havia se isolado em uma caverna em Samos.\n[…]\nEm seu prefácio ao livro A revolução das esferas celestiais (1543), Nicolau Copérnico cita vários pitagóricos como as influências mais importantes no desenvolvimento de seu modelo heliocêntrico do universo, omitindo deliberadamente a menção de Aristarco de Samos, um astrônomo não pitagórico que havia desenvolvido um modelo totalmente heliocêntrico no século IV a.C., em um esforço para retratar seu modelo como fundamentalmente pitagórico. Johannes Kepler considerava-se um pitagórico.\n[…]\nTripla pitagórica\n[…]\nPitágoras de Samos (escultor)\n[…]\nHoward Williams, \"The Ethics of Diet\":PYTHAGORAS",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
