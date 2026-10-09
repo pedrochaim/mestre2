@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível do hotel, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que companhia ferroviária construiu este hotel histórico?",
+      "resposta": "Canadian Pacific Railway",
+      "distratores": [
+        "Grand Trunk Railway",
+        "Canadian National Railway",
+        "Union Pacific Railroad"
+      ],
+      "ancora": {
+        "nome": "Château Frontenac",
+        "descricao": "Hotel histórico em estilo châteauesque na Cidade de Quebec, Canadá, inaugurado em 1893.",
+        "variantes": [
+          "Fairmont Le Château Frontenac"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida e característica, com as palmeiras; sem texto; pessoas pequenas ao fundo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira fica esta catedral neogótica?",
+      "resposta": "São Paulo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Catedral da Sé"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Vista distante de uma cidadezinha entre morros, sem elemento que permita reconhecer Goiás; resposta não única e dificilmente legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Lago cercado de árvores com prédios ao fundo: não há elemento que permita reconhecer o Central Park; poderia ser qualquer parque urbano."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada da madrassa Sher-Dor, na Praça Registan, com mosaicos e leões, inconfundível; sem texto; pessoas pequenas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país fica esta madrassa?",
+      "resposta": "Uzbequistão",
+      "distratores": [
+        "Irã",
+        "Turcomenistão",
+        "Cazaquistão"
+      ],
+      "ancora": {
+        "nome": "Madrassa Sher-Dor",
+        "descricao": "Madrassa do século dezessete na Praça Registan, em Samarcanda, Uzbequistão, decorada com leões e sóis em mosaico.",
+        "variantes": [
+          "Sher-Dor",
+          "Praça Registan",
+          "Registan"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Há texto visível (Museu da Cidade, Fundação Casa de Jorge Amado) e pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Edifício e torre do relógio reconhecíveis; a placa fala do museu, não do que se pergunta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que nacionalidade era o arquiteto que projetou esta estação ferroviária?",
+      "resposta": "Britânico",
+      "distratores": [
+        "Francês",
+        "Alemão",
+        "Italiano"
+      ],
+      "ancora": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária inaugurada em 1901 no bairro da Luz, em São Paulo, projetada por Charles Henry Driver.",
+        "variantes": [
+          "Estação Luz"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do palácio e da cúpula dourada; marca d'água 500px não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que arquiteto italiano iniciou a construção deste edifício em 1904?",
+      "resposta": "Adamo Boari",
+      "distratores": [],
+      "ancora": {
+        "nome": "Palácio de Belas Artes",
+        "descricao": "Centro cultural de mármore com cúpula colorida, no centro histórico da Cidade do México.",
+        "variantes": [
+          "Palacio de Bellas Artes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Skyline do centro com montanhas nevadas ao fundo, sem texto, reconhecível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que cidade americana é esta?",
+      "resposta": "Los Angeles",
+      "distratores": [],
+      "ancora": {
+        "nome": "Los Angeles",
+        "descricao": "Cidade mais populosa da Califórnia, nos Estados Unidos; a foto mostra o centro e as montanhas de San Gabriel.",
+        "variantes": [
+          "LA",
+          "L.A."
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada frontal inconfundível, vista do Danúbio, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade fica este edifício neogótico?",
+      "resposta": "Budapeste",
+      "distratores": [
+        "Viena",
+        "Praga",
+        "Londres"
+      ],
+      "ancora": {
+        "nome": "Parlamento Húngaro",
+        "descricao": "Sede da Assembleia Nacional da Hungria, edifício neogótico às margens do Danúbio, em Budapeste.",
+        "variantes": [
+          "Parlamento de Budapeste",
+          "Országház"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Escadaria com mosaicos e a sala de colunas, características do parque; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que arquiteto projetou este parque?",
+      "resposta": "Antoni Gaudí",
+      "distratores": [],
+      "ancora": {
+        "nome": "Parque Güell",
+        "descricao": "Parque com elementos arquitetônicos e mosaicos em Barcelona, projetado por Gaudí a pedido de Eusebi Güell.",
+        "variantes": [
+          "Park Güell",
+          "Parc Güell"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea da orla e dos arranha-céus, característica da cidade; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cidade do litoral catarinense é esta?",
+      "resposta": "Balneário Camboriú",
+      "distratores": [
+        "Itapema",
+        "Itajaí",
+        "Florianópolis"
+      ],
+      "ancora": {
+        "nome": "Balneário Camboriú",
+        "descricao": "Cidade litorânea de Santa Catarina, conhecida por sua orla de arranha-céus na Avenida Atlântica.",
+        "variantes": [
+          "BC"
+        ]
+      }
+    }
+  ]
+}

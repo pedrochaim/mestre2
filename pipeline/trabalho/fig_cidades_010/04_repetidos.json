@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que nacionalidade era o arquiteto que projetou esta estação ferroviária?",
+        "resposta": "Britânico"
+      },
+      "existentes": [
+        {
+          "id": "q09299",
+          "pergunta": "Que arquiteto britânico projetou esta estação ferroviária paulistana, construída entre 1895 e 1901?",
+          "resposta": "Charles Henry Driver"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente já informa que o arquiteto é britânico no enunciado e pede o nome; a nova pede a nacionalidade. Quem soubesse o nome não necessariamente saberia a nacionalidade, e a nacionalidade está dada na existente. Fatos diferentes, na dúvida nova."
+    }
+  ]
+}

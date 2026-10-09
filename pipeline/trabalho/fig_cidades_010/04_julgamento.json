@@ -1,0 +1,544 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Château Frontenac",
+        "descricao": "Hotel histórico em estilo châteauesque na Cidade de Quebec, Canadá, inaugurado em 1893.",
+        "variantes": [
+          "Fairmont Le Château Frontenac"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fedora",
+          "nome": "Fedora",
+          "descricao": "Chapéu de feltro macio com aba e copa vincada no centro",
+          "variantes": [
+            "Chapéu fedora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Catedral da Sé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Madrassa Sher-Dor",
+        "descricao": "Madrassa do século dezessete na Praça Registan, em Samarcanda, Uzbequistão, decorada com leões e sóis em mosaico.",
+        "variantes": [
+          "Samarcanda",
+          "Sher-Dor",
+          "Praça Registan",
+          "Registan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "sagarana",
+          "nome": "Sagarana",
+          "descricao": "Livro de contos de estreia de Guimarães Rosa, publicado em 1946.",
+          "variantes": []
+        },
+        {
+          "id": "kristang",
+          "nome": "Kristang",
+          "descricao": "Língua crioula de base portuguesa da comunidade luso-descendente da Malásia",
+          "variantes": [
+            "Papiá kristang",
+            "Crioulo de Malaca"
+          ]
+        },
+        {
+          "id": "jacaranda_mimoso",
+          "nome": "Jacarandá-mimoso",
+          "descricao": "Árvore subtropical Jacaranda mimosifolia, nativa do sul da América do Sul, de flores violeta.",
+          "variantes": [
+            "Jacarandá",
+            "Jacaranda mimosifolia",
+            "Jacarandá azul"
+          ]
+        },
+        {
+          "id": "miranda",
+          "nome": "Miranda",
+          "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+          "variantes": [
+            "Miranda (satélite)",
+            "Uranus V"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estação da Luz",
+        "descricao": "Estação ferroviária inaugurada em 1901 no bairro da Luz, em São Paulo, projetada por Charles Henry Driver.",
+        "variantes": [
+          "Estação Luz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_da_luz",
+          "nome": "Estação da Luz",
+          "descricao": "Estação ferroviária no bairro da Luz, em São Paulo, construída entre 1895 e 1901 para a São Paulo Railway.",
+          "variantes": [
+            "Luz Station",
+            "Estação Luz"
+          ]
+        },
+        {
+          "id": "refracao",
+          "nome": "Refração",
+          "descricao": "Mudança de direção da luz ao passar de um meio para outro, como do ar para a água.",
+          "variantes": [
+            "Refração da luz",
+            "Refraction"
+          ]
+        },
+        {
+          "id": "via_sacra",
+          "nome": "Via-Sacra",
+          "descricao": "Devoção cristã que percorre as etapas do caminho de Jesus até a crucificação",
+          "variantes": [
+            "Via Crucis",
+            "Estações da Cruz"
+          ]
+        },
+        {
+          "id": "hanukkah",
+          "nome": "Hanukkah",
+          "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+          "variantes": [
+            "Chanucá",
+            "Hanucá",
+            "Chanukah",
+            "Festa das Luzes"
+          ]
+        },
+        {
+          "id": "estacao_espacial_mir",
+          "nome": "Estação Espacial Mir",
+          "descricao": "Estação espacial modular soviética e depois russa, operada em órbita baixa de 1986 a 2001.",
+          "variantes": [
+            "Mir",
+            "Estação Mir"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palácio de Belas Artes",
+        "descricao": "Centro cultural de mármore com cúpula colorida, no centro histórico da Cidade do México.",
+        "variantes": [
+          "Palacio de Bellas Artes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "academia_imperial_de_belas_artes",
+          "nome": "Academia Imperial de Belas Artes",
+          "descricao": "Escola oficial de arte do Rio de Janeiro, criada a partir da Missão Artística Francesa e inaugurada em 1826.",
+          "variantes": [
+            "Imperial Academia de Belas Artes",
+            "Imperial Academy of Fine Arts"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        },
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Los Angeles",
+        "descricao": "Cidade mais populosa da Califórnia, nos Estados Unidos; a foto mostra o centro e as montanhas de San Gabriel.",
+        "variantes": [
+          "LA",
+          "L.A."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "centro_de_lancamento_de_alcantara",
+          "nome": "Centro de Lançamento de Alcântara",
+          "descricao": "Base brasileira de lançamento de foguetes, próxima à linha do Equador.",
+          "variantes": [
+            "CLA",
+            "Base de Alcântara"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "lua_linguagem_de_programacao",
+          "nome": "Lua (linguagem de programação)",
+          "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+          "variantes": [
+            "Lua"
+          ]
+        },
+        {
+          "id": "o_angelus_millet",
+          "nome": "O Ângelus (Millet)",
+          "descricao": "Pintura a óleo de Jean-François Millet, de 1857 a 1859, que mostra dois camponeses rezando num campo ao fim do dia.",
+          "variantes": [
+            "O Angelus",
+            "L'Angélus",
+            "The Angelus",
+            "Angelus"
+          ]
+        },
+        {
+          "id": "los_angeles_lakers",
+          "nome": "Los Angeles Lakers",
+          "descricao": "Franquia da NBA sediada em Los Angeles, fundada em Minneapolis em 1947.",
+          "variantes": [
+            "Lakers",
+            "Minneapolis Lakers"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Parlamento Húngaro",
+        "descricao": "Sede da Assembleia Nacional da Hungria, edifício neogótico às margens do Danúbio, em Budapeste.",
+        "variantes": [
+          "Parlamento de Budapeste",
+          "Országház"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        },
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        },
+        {
+          "id": "experimento_de_oersted",
+          "nome": "Experimento de Oersted",
+          "descricao": "Experimento de 1820 em que Hans Christian Ørsted mostrou que uma corrente elétrica produz efeitos magnéticos.",
+          "variantes": [
+            "Experiência de Ørsted",
+            "Experimento de Ørsted"
+          ]
+        },
+        {
+          "id": "ladrilhos_de_penrose",
+          "nome": "Ladrilhos de Penrose",
+          "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+          "variantes": [
+            "Penrose tiling",
+            "Pavimentação de Penrose"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Parque Güell",
+        "descricao": "Parque com elementos arquitetônicos e mosaicos em Barcelona, projetado por Gaudí a pedido de Eusebi Güell.",
+        "variantes": [
+          "Park Güell",
+          "Parc Güell"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranios_de_paracas",
+          "nome": "Crânios de Paracas",
+          "descricao": "Crânios alongados encontrados nos sítios da cultura Paracas, no litoral sul do Peru.",
+          "variantes": [
+            "Paracas skulls"
+          ]
+        },
+        {
+          "id": "supercell",
+          "nome": "Supercell",
+          "descricao": "Estúdio de jogos para celular com sede em Helsinque, criador de Clash of Clans.",
+          "variantes": [
+            "Supercell Oy"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Balneário Camboriú",
+        "descricao": "Cidade litorânea de Santa Catarina, conhecida por sua orla de arranha-céus na Avenida Atlântica.",
+        "variantes": [
+          "BC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vacina_bcg",
+          "nome": "Vacina BCG",
+          "descricao": "Vacina contra a tuberculose desenvolvida por Albert Calmette e Camille Guérin no início do século vinte.",
+          "variantes": [
+            "BCG",
+            "Bacilo de Calmette-Guérin"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "cedilha",
+          "nome": "Cedilha",
+          "descricao": "Sinal gráfico colocado sob a letra c, formando o ç",
+          "variantes": [
+            "Cedilla",
+            "Zedilla",
+            "Ç"
+          ]
+        },
+        {
+          "id": "velocidade_da_luz",
+          "nome": "Velocidade da luz",
+          "descricao": "Velocidade de propagação da luz no vácuo, cerca de trezentos mil quilômetros por segundo.",
+          "variantes": [
+            "Speed of light",
+            "c"
+          ]
+        },
+        {
+          "id": "johann_sebastian_bach",
+          "nome": "Johann Sebastian Bach",
+          "descricao": "Compositor e organista alemão do barroco (1685–1750).",
+          "variantes": [
+            "Bach",
+            "J. S. Bach"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Hotel em Quebec; candidata é um chapéu."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Catedral da Sé de SP não consta entre as candidatas; outras são entidades diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Madrassa em Samarcanda; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "estacao_da_luz",
+      "motivo": "Mesma estação ferroviária da Luz em São Paulo, inaugurada em 1901."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Centro cultural da Cidade do México; nenhuma candidata é a mesma."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A cidade de Los Angeles é diferente do time Lakers e das demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Parlamento húngaro é diferente do Parlamento de Londres (pinturas de Monet)."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Parque Güell não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cidade catarinense; nenhuma candidata corresponde."
+    }
+  ]
+}
