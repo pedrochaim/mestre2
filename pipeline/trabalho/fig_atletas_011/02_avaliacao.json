@@ -1,0 +1,243 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Iniesta com a taça; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este meio-campista espanhol?",
+      "resposta": "Andrés Iniesta",
+      "distratores": [
+        "Xavi Hernández",
+        "Sergio Busquets",
+        "David Silva"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Andrés Iniesta",
+        "descricao": "Ex-meio-campista espanhol do Barcelona, campeão mundial em 2010.",
+        "variantes": [
+          "Iniesta",
+          "Andrés Iniesta Luján"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto desfocada, com outras pessoas ao fundo e trecho de texto na camiseta (WAN...) que sugere o nome."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida do jogador; a camisa mostra só o time e o número, sem o nome dele.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este armador brasileiro de basquete?",
+      "resposta": "Marcelinho Huertas",
+      "distratores": [
+        "Leandrinho Barbosa",
+        "Raulzinho Neto",
+        "Nenê Hilário"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Marcelinho Huertas",
+        "descricao": "Armador brasileiro de basquete, ex-Los Angeles Lakers e capitão do Tenerife.",
+        "variantes": [
+          "Marcelo Huertas",
+          "Marcelo Tieppo Huertas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro de Iverson, com tranças e faixa vermelha; a tatuagem não traz o nome. A pergunta pelo apelido não se responde sem a imagem.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que apelido tinha este astro do basquete americano?",
+      "resposta": "A Resposta (The Answer)",
+      "destino": 2,
+      "ancora": {
+        "nome": "Allen Iverson",
+        "descricao": "Ex-armador e ala-armador americano da NBA, MVP em 2001 pelo Philadelphia 76ers.",
+        "variantes": [
+          "Iverson",
+          "A.I."
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido com a camisa do Cosmos; sem nome visível. Múltipla escolha, porque o jogador é menos reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este lateral-direito brasileiro, campeão do mundo?",
+      "resposta": "Carlos Alberto Torres",
+      "distratores": [
+        "Djalma Santos",
+        "Cafu",
+        "Leandro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carlos Alberto Torres",
+        "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+        "variantes": [
+          "Carlos Alberto",
+          "Capita",
+          "Capitão do Tri"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto clara do rosto de GSP; a camiseta diz Black Angels, que não entrega o nome. A resolução é modesta, mas o rosto é legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este lutador canadense de MMA?",
+      "resposta": "Georges St-Pierre",
+      "distratores": [
+        "Randy Couture",
+        "Matt Hughes",
+        "BJ Penn"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Georges St-Pierre",
+        "descricao": "Lutador canadense de MMA, ex-campeão meio-médio e médio do UFC.",
+        "variantes": [
+          "GSP",
+          "Georges St. Pierre"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Casemiro de camisa da seleção; o número 5 não traz o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que meio-campista brasileiro é este?",
+      "resposta": "Casemiro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Casemiro",
+        "descricao": "Volante brasileiro, ex-Real Madrid, que joga na seleção brasileira.",
+        "variantes": [
+          "Carlos Henrique Casimiro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Jairzinho com o cabelão e a camisa da CBD; sem nome visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este campeão do mundo de 1970 pela seleção brasileira?",
+      "resposta": "Jairzinho",
+      "distratores": [
+        "Tostão",
+        "Rivellino",
+        "Gérson"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jairzinho",
+        "descricao": "Ponta-direita brasileiro, o Furacão da Copa de 1970.",
+        "variantes": [
+          "Jair Ventura Filho",
+          "Furacão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de um homem de terno num plenário, sem nada que remeta ao judô; o atleta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto frontal clara do rosto, sem texto. Múltipla escolha, porque a resolução é baixa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este atacante brasileiro?",
+      "resposta": "Richarlison",
+      "distratores": [
+        "Gabriel Jesus",
+        "Vinícius Júnior",
+        "Matheus Cunha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Richarlison",
+        "descricao": "Atacante brasileiro, ex-Everton e atual Tottenham.",
+        "variantes": [
+          "Richarlison de Andrade"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de Flo-Jo; a jaqueta USA só indica a nacionalidade.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta velocista norte-americana?",
+      "resposta": "Florence Griffith-Joyner",
+      "distratores": [
+        "Marion Jones",
+        "Gail Devers",
+        "Evelyn Ashford"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Florence Griffith-Joyner",
+        "descricao": "Velocista americana, detentora dos recordes mundiais dos 100 e 200 metros, de 1988.",
+        "variantes": [
+          "Flo-Jo",
+          "Florence Griffith Joyner"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida da boxeadora com a medalha; o texto visível (Santiago 2023, Brasil) não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta boxeadora brasileira, medalhista olímpica?",
+      "resposta": "Bia Ferreira (Beatriz Ferreira)",
+      "distratores": [
+        "Adriana Araújo",
+        "Jucielen Romeu",
+        "Tatiana Chagas"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Bia Ferreira",
+        "descricao": "Boxeadora brasileira, prata em Tóquio 2020 e bronze em Paris 2024 nos 60 kg.",
+        "variantes": [
+          "Beatriz Ferreira",
+          "Beatriz Iasmin Soares Ferreira"
+        ]
+      }
+    }
+  ]
+}
