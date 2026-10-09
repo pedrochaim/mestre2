@@ -427,9 +427,10 @@
     "fig_astronomia_009",
     "esportes_futebol_04",
     "fig_documentos_historicos_011",
-    "cotidiano_transportes_03"
+    "cotidiano_transportes_03",
+    "fig_retratos_historicos_012"
   ],
-  "maior_id": 9402,
+  "maior_id": 9411,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -510,16 +511,16 @@
     },
     "retratos_historicos": {
       "familias": {
-        "o_que_e": 35,
-        "quando": 34,
-        "com_o_que_se_liga": 35
+        "o_que_e": 36,
+        "quando": 39,
+        "com_o_que_se_liga": 38
       },
       "niveis": {
-        "1": 41,
-        "2": 42,
-        "3": 21
+        "1": 45,
+        "2": 45,
+        "3": 23
       },
-      "registradas": 104
+      "registradas": 113
     },
     "astronomia": {
       "familias": {
@@ -1167,9 +1168,5 @@
     "texto:Idade Média",
     "texto:Oceanos, Mares e Ilhas",
     "texto:Bandeiras e Símbolos"
-  ],
-  "lote_figura_em_andamento": {
-    "id": "fig_retratos_historicos_012",
-    "catalogo": "retratos_historicos"
-  }
+  ]
 }
