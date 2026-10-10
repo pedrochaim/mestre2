@@ -107,8 +107,13 @@
     #mesa-pergunta .mp-papel strong { font-size: 1.15em; }
     #mesa-pergunta .mp-papel.responde strong { color: var(--acento); }
     #mesa-pergunta .mp-tentaram { color: var(--suave); font-size: .75em; }
+    #mesa-pergunta .mp-seguinte { margin-top: .8em; }
+    #mesa-pergunta .mp-rotulo { color: var(--suave); font-size: .7em; }
+    #mesa-pergunta .mp-espera { color: var(--suave); margin-top: 1em; }
+    #mesa-pergunta .mp-proxima { color: var(--suave); font-size: .7em; border-bottom: 1px solid var(--linha);
+                                 padding: 0 3em .4em 0; margin-bottom: .5em; }
     #mesa-pergunta .mp-tentaram s { text-decoration-color: var(--errado); }
-    #mesa-pergunta img { display: block; max-width: 100%; max-height: 45vh; margin: .6em 0; border-radius: 12px; }
+    #mesa-pergunta img { display: block; max-width: 100%; max-height: 36vh; margin: .5em 0; border-radius: 12px; }
     #mesa-pergunta .mp-texto { font-weight: 600; font-size: 1.3em; margin: .5em 0; }
     #mesa-pergunta ol { padding-left: 1.5em; margin: .4em 0; }
     #mesa-pergunta li { margin: .25em 0; }
@@ -934,7 +939,7 @@
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
     if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(1) });
     const base = jogadores.find(j => j.id === atual.base);
-    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? {} : { atual: null }),
+    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }),
                                                 ...(base ? { vez: (proximoM(base) || base).id } : {}) });
     try {
       await batch.commit();
@@ -1242,17 +1247,29 @@
   function desenharMesa() {
     const a = partida.atual;
     const p = a && perguntas.find(x => x.id === a.pergunta);
-    $("mesa").classList.toggle("com-pergunta", Boolean(p));
-    $("mesa-pergunta").hidden = !p;
-    if (!p) return $("mesa-pergunta").replaceChildren();
-    const papeis = el("div", { className: "mp-papeis" });
-    for (const [rotulo, id, classe] of [["Pergunta", a.leitor, "le"], ["Responde", a.respondente, "responde"]]) {
-      if (!id) continue;
-      const d = el("div", { className: "mp-papel " + classe });
-      d.append(el("span", { textContent: rotulo }), el("strong", { textContent: nomeDe(id) }));
-      papeis.append(d);
+    const papeis = (le, responde) => {
+      const caixa = el("div", { className: "mp-papeis" });
+      for (const [rotulo, id, classe] of [["Pergunta", le, "le"], ["Responde", responde, "responde"]]) {
+        if (!id) continue;
+        const d = el("div", { className: "mp-papel " + classe });
+        d.append(el("span", { textContent: rotulo }), el("strong", { textContent: nomeDe(id) }));
+        caixa.append(d);
+      }
+      return caixa;
+    };
+    // Sem pergunta em jogo (ou com a rodada já encerrada), a vez seguinte: quem vai ler e quem vai responder.
+    const v = ehTrilha() ? (mapa ? vezAtual() : null) : vezM();
+    const le = v && (ehTrilha() ? proximo(v) : proximoM(v) || v);
+    const seguinte = v && el("div", { className: "mp-seguinte" });
+    if (seguinte) {
+      const t = ehTrilha() ? undefined : temaAtual(v);
+      seguinte.append(el("div", { className: "mp-rotulo", textContent: "Próxima pergunta" }),
+                      papeis(le.id, v.id), ...(t ? [etiqueta(t)] : []));
     }
-    const partes = [etiqueta(p.tema), papeis];
+    $("mesa").classList.toggle("com-pergunta", Boolean(p || v));
+    $("mesa-pergunta").hidden = !(p || v);
+    if (!p) return $("mesa-pergunta").replaceChildren(...(seguinte ? [seguinte, el("p", { className: "mp-espera", textContent: "Aguardando o sorteio…" })] : []));
+    const partes = [etiqueta(p.tema), papeis(a.leitor, a.respondente)];
     if (a.tentaram?.length) {
       const t = el("div", { className: "mp-tentaram", textContent: "Já tentaram: " });
       a.tentaram.forEach((id, i) => t.append(i ? ", " : "", el("s", { textContent: nomeDe(id) })));
@@ -1271,6 +1288,9 @@
       r.append(el("span", { textContent: "Resposta" }), p.resposta);
       partes.push(r);
     }
+    // Rodada encerrada com a resposta à vista: uma linha curta no alto avisa quem joga em seguida.
+    if (a.fim && v) partes.unshift(el("div", { className: "mp-proxima",
+      textContent: `A seguir: ${le.id === v.id ? `${v.nome} joga sozinho` : `${le.nome} pergunta, ${v.nome} responde`}` }));
     $("mesa-pergunta").replaceChildren(...partes);
   }
 
@@ -1561,7 +1581,7 @@
     } else t.evento = "";
     t.descartar = Math.max(t.descartar || 0, excesso(t));
     batch.update(refJ(jv.id), { trilha: t });
-    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? {} : { atual: null }),
+    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }),
                                                 ...(passa ? { vez: proximo({ ...jv, trilha: t }).id } : {}) });
     try {
       await batch.commit();
