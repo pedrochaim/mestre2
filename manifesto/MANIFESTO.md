@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.49 — 2026-10-10**
+> **Versão preliminar 0.50 — 2026-10-10**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -721,13 +721,22 @@ Ao criar a partida, escolhe-se **Nova partida · Master** ou **Nova partida · T
 - **Turno** (a aba Sorteio vira **Turno**): o app mostra de quem é a vez e quem lê, e um **recorte do mapa** em volta do peão (ou o mapa inteiro, num botão), com as casas possíveis em anel azul e a escolhida em dourado; tocar numa casa a escolhe. Assim dá para **jogar sozinho**, sem trocar de aba: com um jogador só, o cabeçalho diz "jogando sozinho". O jogador escolhe a próxima casa entre as ligadas e, se quiser, usa uma carta. A pergunta sai do tipo da casa e da carta. Acertou, o peão sobe; errou, fica; a vez passa. Antes de jogar, o app pede para resolver o que estiver pendente: descartar cartas acima do limite ou usar avanços livres.
 - **Automático:** casas em Branco (compra), Destino (6 eventos), Férias, o Desafio cooperativo (os dois ganham um avanço livre se o alvo acertar; o líder não pode ser alvo) e as personalidades Criativo, Competitivo, Observador e Colecionador. **De viva voz:** Metódico, Curioso, Aventureiro e Persistente, e o fim da rodada depois da chegada.
 
+### Sons
+
+- **Experimental** (2026-10-10): os sons ainda estão em teste e ficam desligados. Só tocam num aparelho em que o botão **Modo experimental**, na aba Tabuleiro, esteja ligado. A escolha fica guardada no próprio aparelho, e o crédito dos sons só aparece na aba Informações com o modo ligado.
+- Os sons tocam **só na tela grande** (modo mesa). Os outros aparelhos ficam em silêncio. O botão 🔊, no alto da tela grande, liga e desliga o som naquele aparelho.
+- **Eventos:** pergunta sorteada, pergunta final, acerto, erro (inclusive quando a pergunta passa adiante), resposta mostrada para todos, cada um dos últimos 5 segundos do cronômetro, tempo esgotado e vitória.
+- **Arquivos:** `app/public/sons/<evento>_<número>.mp3`. Quando um evento tem mais de um arquivo, um deles é sorteado a cada vez. Os créditos (origem, autor, licença) ficam em `app/public/sons/creditos.json`, escrito à mão, e aparecem na aba Informações. O `app/listar_sons.py`, que o `exportar_perguntas.py` também roda, gera `sons.json` a partir dos arquivos da pasta e avisa se faltar crédito. Os originais e uma página para ouvir as alternativas ficam em `app/sons_originais/`, fora do site. Instruções em `app/sons_originais/LEIAME.md`.
+- **Licença:** só sons livres. Os iniciais são do Kenney (kenney.nl), CC0.
+- **Como chega à tela grande:** quem lê grava o evento no campo `som` da partida, e a tela grande toca quando ele muda. O navegador só libera o som depois de um toque na página, que é o toque em **Modo mesa**.
+
 ### Dados
 
 As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` copia `pipeline/banco/perguntas.json` para `app/public/perguntas.json`, só com os campos que o app usa: `id`, `tema`, `subtema`, `tipo`, `pergunta`, `resposta`, `distratores`, `imagem`, `angulo`, `fonte`, `autor` e `dificuldade`. A `ancora` sai já resolvida no cadastro, como nome e descrição. Se a âncora tiver sido fundida em outra, vale a entrada que a absorveu. Ele também copia as figuras de `pipeline/banco/imagens/` para `app/public/img/` e grava `app/public/temas.json`, que junta a lista canônica de temas e subtemas (§3) às descrições para os jogadores, escritas à mão em `app/descricoes.json`. Um subtema novo precisa de descrição nesse arquivo; sem ela, o script avisa. O Firestore guarda apenas o estado das partidas:
 
 | Caminho | Campos | Função |
 |---|---|---|
-| `partidas/{codigo}` | `criada_em`, `vez`, `atual`; na Trilha da Vida e no Linear, também `modo`; na Trilha, `semente` | A partida. O código é o id do documento. `modo` é `master`, `trilha` ou `linear` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. `atual` é a pergunta em jogo, para o modo mesa: `sorteio`, `pergunta` (o id), `opcoes` (as alternativas na ordem da tela de quem lê), `respondente`, `leitor`, `tentaram`, `revelada` (a resposta foi mostrada a todos; o texto dela não vai para o Firestore), `tempo` (o cronômetro: `s`, os segundos, e `n`, que distingue um toque do outro) e `fim` (a rodada acabou, mas a pergunta continua na tela grande com a resposta). Volta a `null` quando a rodada acaba. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
+| `partidas/{codigo}` | `criada_em`, `vez`, `atual`; na Trilha da Vida e no Linear, também `modo`; na Trilha, `semente` | A partida. O código é o id do documento. `modo` é `master`, `trilha` ou `linear` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. `atual` é a pergunta em jogo, para o modo mesa: `sorteio`, `pergunta` (o id), `opcoes` (as alternativas na ordem da tela de quem lê), `respondente`, `leitor`, `tentaram`, `revelada` (a resposta foi mostrada a todos; o texto dela não vai para o Firestore), `tempo` (o cronômetro: `s`, os segundos, e `n`, que distingue um toque do outro) e `fim` (a rodada acabou, mas a pergunta continua na tela grande com a resposta). `som` é o último evento de som (`e`, o evento; `n`, que distingue um do outro). Volta a `null` quando a rodada acaba. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
 | `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em`; na Trilha, `trilha` | Um documento por jogador. Master: `pontos` é a casa do peão; `tema` é o tema do estágio 1. Trilha: o mapa `trilha` guarda posição, opções sorteadas, profissão, personalidade, mão, avanços livres, férias, descartes pendentes e o último evento |
 | `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `respondente`, `acertou`, `tentativas` | Um registro por sorteio. A mesma pergunta pode ter vários. Quando a pergunta passa adiante, `tentativas` lista cada `{respondente, acertou}`, e `respondente` e `acertou` são os da última |
 | `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
@@ -744,7 +753,7 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
   - o nome do jogador tem até 30 caracteres, e o jogador começa com 0 ponto;
   - o tema do jogador tem até 40 caracteres;
   - num jogador, só a casa (`pontos`), o tema e o estado da Trilha (`trilha`, um mapa de no máximo 12 campos) podem mudar;
-  - a partida pode ter `modo` (`master`, `trilha` ou `linear`) e `semente` (inteiro) na criação, e depois só mudam `vez` (texto de até 40 caracteres) e `atual` (`null` ou um mapa de até 12 campos);
+  - a partida pode ter `modo` (`master`, `trilha` ou `linear`) e `semente` (inteiro) na criação, e depois só mudam `vez` (texto de até 40 caracteres), `atual` (`null` ou um mapa de até 12 campos) e `som` (um mapa de até 2 campos);
   - um sorteio é criado só com `pergunta` e `em`, e depois só o resultado (`respondente`, `acertou` e `tentativas`, uma lista de até 30) pode ser acrescentado. `usadas` segue a mesma regra, para não quebrar um aparelho que ainda esteja com a versão antiga aberta.
 - Qualquer outra coleção é negada.
 
@@ -898,6 +907,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.50 | 2026-10-10 | Sons no modo mesa, **experimentais** (só com o botão Modo experimental ligado no aparelho): oito eventos, arquivos por evento com sorteio entre variações, créditos em `creditos.json`, lista gerada pelo `listar_sons.py`; sons iniciais do Kenney (CC0); campo `som` na partida (§16) |
 | 0.49 | 2026-10-10 | Pergunta final de qualquer tema no centro do tabuleiro do Master: quem acerta vence, quem erra fica no centro (14 acertos ao todo); quem venceu continua lendo para os outros (§14, §15) |
 | 0.48 | 2026-10-10 | Estágio 1 do Master com 5 casas (13 acertos até a chegada) e casas um pouco mais largas; peões maiores; cronômetro de 30 s ou 1 min, tocado por quem lê e mostrado só no modo mesa, sem efeito no jogo quando acaba (§14, §15, §16) |
 | 0.47 | 2026-10-10 | Modo mesa sem pergunta em jogo mostra a próxima vez (quem pergunta, quem responde e o tema); depois da resposta para todos, uma linha "A seguir"; campo `fim` em `atual` (§15, §16) |

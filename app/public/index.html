@@ -86,6 +86,7 @@
     #mesa { position: fixed; inset: 0; background: #000; z-index: 20; display: flex; align-items: center; justify-content: center; }
     #mesa .tabuleiro { width: min(100vw, 100vh); }
     #mesa-fechar { position: absolute; top: 10px; right: 10px; background: #000a; color: #fff; border-color: #555; z-index: 1; }
+    #mesa-som { position: absolute; top: 10px; right: 64px; background: #000a; color: #fff; border-color: #555; z-index: 1; }
     /* Modo mesa com pergunta: o tabuleiro de um lado e a pergunta do outro (empilhados com a tela em pé),
        com letras grandes para serem lidas de longe, como numa projeção. A resposta nunca aparece aqui. */
     #mesa-pergunta { flex: 1; min-width: 0; max-height: 100vh; overflow: auto; padding: 3vmin 4vmin;
@@ -327,6 +328,9 @@
         <p id="vencedor-tab" class="vencedor" hidden></p>
         <div id="tabuleiro" class="tabuleiro"></div>
         <button id="modo-mesa" style="width:100%;margin-top:.6rem">Modo mesa: tabuleiro em tela cheia</button>
+        <!-- Recursos em teste, ligados aparelho por aparelho: por enquanto, os sons do modo mesa -->
+        <button id="experimental" aria-pressed="false" style="width:100%;margin-top:.5rem"></button>
+        <p id="experimental-nota" class="suave" style="margin:.3rem 0 0" hidden>Em teste neste aparelho: sons na tela grande do modo mesa.</p>
         <details id="regras-trilha" class="regras" hidden>
           <summary>Como se joga</summary>
           <p class="suave">Vence quem chega primeiro ao topo do mapa. Na sua vez, escolha a próxima casa entre as ligadas
@@ -385,6 +389,7 @@
 <div id="mesa" hidden>
   <div id="mesa-tab" class="tabuleiro"></div>
   <div id="mesa-pergunta" hidden></div>
+  <button id="mesa-som" title="Ligar ou desligar o som" hidden>🔊</button>
   <button id="mesa-fechar" title="Sair do modo mesa">×</button>
 </div>
 
@@ -566,8 +571,13 @@
     await carregando;
 
     const base = doc(db, "partidas", c);
+    ultimoSom = undefined;
     desligar.push(onSnapshot(base, snap => {
       partida = snap.data() || {};
+      // Toca o evento de som novo; o primeiro retrato da partida só marca onde ela está.
+      const n = partida.som?.n ?? null;
+      if (ultimoSom !== undefined && n && n !== ultimoSom) tocar(partida.som.e);
+      ultimoSom = n;
       if (ehTrilha() && (!mapa || mapa.semente !== partida.semente)) mapa = { ...T.gerarMapa(partida.semente), semente: partida.semente };
       aplicarModo();
       desenharPlacar();
@@ -629,6 +639,8 @@
 
   // Temas e subtemas na ordem canônica, com as descrições (gerado pelo exportar_perguntas.py).
   const carregandoTemas = fetch("temas.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []);
+  // Sons do modo mesa (seção sons), também creditados aqui.
+  const carregandoSons = fetch("sons/sons.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({}));
 
   function contar(lista) {
     const multipla = lista.filter(p => p.tipo === "multipla").length;
@@ -697,6 +709,9 @@
                    el("a", { href: "https://www.themoviedb.org/", target: "_blank", rel: "noopener", textContent: "TMDB",
                              style: "color:var(--acento)" }),
                    ", mas não é endossado nem certificado pelo TMDB.");
+    const sons = Object.values(await carregandoSons).flat();
+    const autores = [...new Set(sons.map(s => [s.autor, s.licenca].filter(Boolean).join(", ")).filter(Boolean))];
+    if (autores.length && experimental) credito.append(el("br"), `Efeitos sonoros: ${autores.join("; ")}.`);
     caixa.replaceChildren(topo, ...blocos, credito);
   }
 
@@ -773,7 +788,8 @@
         desenharRespondentes();
         updateDoc(doc(db, "partidas", codigo), { vez: base.id }).catch(() => {});
       }
-      publicarAtual();
+      const final = !ehLinear() && base && casaDe(base) === CENTRO;
+      publicarAtual(final ? "pergunta_final" : "nova_pergunta");
     } catch (e) {
       $("msg-sorteio").textContent = "Erro: " + e.message;
     } finally {
@@ -953,7 +969,7 @@
     $("atual-passou").hidden = false;
     desenharRespondentes();
     desenharPlacar();
-    publicarAtual();
+    publicarAtual("erro");
   }
 
   // Fecha a rodada: grava as tentativas, avança o peão de quem acertou e passa a vez ao seguinte do da vez.
@@ -963,7 +979,9 @@
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
     if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(1) });
     const base = jogadores.find(j => j.id === atual.base);
-    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }),
+    const quem = jogadores.find(j => j.id === ultima.respondente);
+    const som = !ultima.acertou ? "erro" : quem && casaDe(quem) + 1 >= chegadaDoModo() ? "vitoria" : "acerto";
+    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }), som: evento(som),
                                                 ...(base ? { vez: (proximoM(base) || base).id } : {}) });
     try {
       await batch.commit();
@@ -975,12 +993,13 @@
 
   // A pergunta em jogo fica no documento da partida, para o modo mesa mostrá-la em qualquer aparelho.
   // Vai sem a resposta: só o id, as alternativas na ordem desta tela, quem responde, quem lê e quem já tentou.
-  function publicarAtual() {
+  // "som" é o evento que a tela grande toca junto com a mudança (ver tocar).
+  function publicarAtual(som) {
     if (!codigo) return;
     const dados = atual ? { sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
                             leitor: atual.leitor || null, tentaram: atual.tentativas.map(t => t.respondente),
                             revelada: atual.publica, tempo: atual.tempo || null } : null;
-    updateDoc(doc(db, "partidas", codigo), { atual: dados }).catch(() => {});
+    updateDoc(doc(db, "partidas", codigo), { atual: dados, ...(som ? { som: evento(som) } : {}) }).catch(() => {});
   }
 
   function fecharPergunta() {
@@ -1013,7 +1032,7 @@
   $("revelar-todos").onclick = () => {
     atual.publica = !atual.publica;
     $("revelar-todos").textContent = atual.publica ? "Esconder resposta de todos" : "Mostrar resposta para todos";
-    publicarAtual();
+    publicarAtual(atual.publica ? "resposta" : null);
   };
 
   // Pular descarta a pergunta e a vez fica; se ela já tinha passado adiante, os erros contam e a vez passa.
@@ -1352,6 +1371,11 @@
     const caixa = $("mesa-pergunta").querySelector(".mp-relogio");
     if (!relogio || !caixa) return;
     const falta = Math.ceil((relogio.fim - Date.now()) / 1000);
+    if (falta !== relogio.ultimo && relogio.ultimo !== undefined) {
+      if (falta > 0 && falta <= 5) tocar("tempo_acabando");
+      else if (falta <= 0 && relogio.ultimo > 0) tocar("tempo_esgotado");
+    }
+    relogio.ultimo = falta;
     caixa.textContent = falta > 0 ? `${Math.floor(falta / 60)}:${String(falta % 60).padStart(2, "0")}` : "Tempo esgotado";
     caixa.classList.toggle("acabando", falta > 0 && falta <= 5);
     caixa.classList.toggle("esgotado", falta <= 0);
@@ -1371,9 +1395,69 @@
   }
   addEventListener("resize", ajustarMesa);
 
+  // ---------------------------------------------------------------- sons
+
+  // Os sons tocam só no modo mesa, a tela grande. Quem lê grava o evento em partida.som ({e, n}); a tela
+  // grande toca quando "n" muda. A lista de arquivos vem de sons/sons.json, montada pelo listar_sons.py:
+  // cada evento tem um ou mais arquivos, e um deles é sorteado a cada vez.
+  const evento = e => ({ e, n: Date.now() });
+  let ultimoSom;               // "n" do último evento visto; undefined antes do primeiro retrato da partida
+  let audio = null;            // AudioContext, criado no toque que abre o modo mesa
+  const buffers = {};          // evento → Promise de [AudioBuffer]
+  let somLigado = true;
+  try { somLigado = localStorage.getItem("mestre2.som") !== "desligado"; } catch {}
+  // Modo experimental: os sons ainda estão em teste e só tocam com ele ligado, neste aparelho.
+  let experimental = false;
+  try { experimental = localStorage.getItem("mestre2.experimental") === "ligado"; } catch {}
+  function marcarExperimental() {
+    $("experimental").textContent = `Modo experimental: ${experimental ? "ligado" : "desligado"}`;
+    $("experimental").setAttribute("aria-pressed", String(experimental));
+    $("experimental-nota").hidden = !experimental;
+    $("mesa-som").hidden = !experimental;
+  }
+  marcarExperimental();
+  $("experimental").onclick = () => {
+    experimental = !experimental;
+    try { localStorage.setItem("mestre2.experimental", experimental ? "ligado" : "desligado"); } catch {}
+    marcarExperimental();
+  };
+
+  // Os navegadores só tocam som depois de um toque na página: o áudio nasce no toque em "Modo mesa".
+  async function prepararSom() {
+    if (!experimental) return;
+    try {
+      audio ||= new (window.AudioContext || window.webkitAudioContext)();
+      await audio.resume();
+    } catch { return; }
+    const lista = await carregandoSons;
+    for (const [ev, arquivos] of Object.entries(lista))
+      buffers[ev] ||= Promise.all(arquivos.map(a => fetch("sons/" + a.arquivo).then(r => r.arrayBuffer())
+        .then(b => audio.decodeAudioData(b)).catch(() => null)));
+  }
+
+  async function tocar(ev) {
+    if (!experimental || !somLigado || !audio || $("mesa").hidden || !buffers[ev]) return;
+    const opcoes = (await buffers[ev]).filter(Boolean);
+    if (!opcoes.length) return;
+    const fonte = audio.createBufferSource();
+    fonte.buffer = opcoes[Math.floor(Math.random() * opcoes.length)];
+    fonte.connect(audio.destination);
+    fonte.start();
+  }
+
+  function marcarSom() { $("mesa-som").textContent = somLigado ? "🔊" : "🔇"; }
+  marcarSom();
+  $("mesa-som").onclick = () => {
+    somLigado = !somLigado;
+    try { localStorage.setItem("mestre2.som", somLigado ? "ligado" : "desligado"); } catch {}
+    marcarSom();
+    if (somLigado) prepararSom();
+  };
+
   let mesaAcesa = null;  // trava que impede a tela de apagar no modo mesa
   $("modo-mesa").onclick = async () => {
     $("mesa").hidden = false;
+    prepararSom();
     ajustarMesa();
     try { await $("mesa").requestFullscreen?.(); } catch {}
     try { mesaAcesa = await navigator.wakeLock?.request("screen"); } catch {}
@@ -1615,7 +1699,7 @@
       atual.leitor = proximo(jv).id;
       respondente = quem;
       desenharRespondentes();
-      publicarAtual();
+      publicarAtual("nova_pergunta");
       if (aviso) $("msg-sorteio").textContent = aviso;
     } catch (e) {
       $("msg-sorteio").textContent = "Erro: " + e.message;
@@ -1659,6 +1743,7 @@
     t.descartar = Math.max(t.descartar || 0, excesso(t));
     batch.update(refJ(jv.id), { trilha: t });
     batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }),
+                                                som: evento(acertou ? "acerto" : "erro"),
                                                 ...(passa ? { vez: proximo({ ...jv, trilha: t }).id } : {}) });
     try {
       await batch.commit();

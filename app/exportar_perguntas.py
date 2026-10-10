@@ -62,3 +62,7 @@ if sem_ancora:
     print("Aviso: âncora não encontrada no cadastro:", ", ".join(sem_ancora))
 if sem_descricao:
     print("Aviso: sem descrição em descricoes.json:", ", ".join(sem_descricao))
+
+# Lista de sons do modo mesa (public/sons/sons.json), montada a partir dos arquivos da pasta.
+import listar_sons
+listar_sons.listar()

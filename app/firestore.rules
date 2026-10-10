@@ -12,7 +12,10 @@ service cloud.firestore {
                     && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha', 'linear'])
                     && (!('semente' in request.resource.data) || request.resource.data.semente is int);
       // "vez" é o id do jogador da vez. "atual" é a pergunta em jogo, para o modo mesa (sem a resposta), ou null.
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual'])
+      // "som" é o último evento de som ({e, n}), que a tela grande toca.
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som'])
+                    && (!('som' in request.resource.data)
+                        || (request.resource.data.som is map && request.resource.data.som.size() <= 2))
                     && (!('vez' in request.resource.data)
                         || (request.resource.data.vez is string && request.resource.data.vez.size() <= 40))
                     && (!('atual' in request.resource.data) || request.resource.data.atual == null
