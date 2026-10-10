@@ -102,7 +102,7 @@ export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao) {
   for (const j of jogadores) { const c = casaDe(j); grupos.set(c, [...(grupos.get(c) || []), j]); }
   for (const [c, js] of grupos) {
     const idx = IDX[c];
-    const duas = js.length > 1, raio = js.length > 4 ? 15 : duas ? 19 : 24;
+    const duas = js.length > 1, raio = js.length > 4 ? 19 : duas ? 25 : 32;
     js.forEach((j, h) => {
       const porLinha = Math.ceil(js.length / (duas ? 2 : 1));
       const linha = Math.floor(h / porLinha), k = h % porLinha;

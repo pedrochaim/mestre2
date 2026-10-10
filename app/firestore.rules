@@ -16,7 +16,7 @@ service cloud.firestore {
                     && (!('vez' in request.resource.data)
                         || (request.resource.data.vez is string && request.resource.data.vez.size() <= 40))
                     && (!('atual' in request.resource.data) || request.resource.data.atual == null
-                        || (request.resource.data.atual is map && request.resource.data.atual.size() <= 8));
+                        || (request.resource.data.atual is map && request.resource.data.atual.size() <= 12));
 
       // Master: "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
       // Trilha da Vida: o estado do jogador fica no mapa "trilha" (posição, profissão, personalidade, mão…).

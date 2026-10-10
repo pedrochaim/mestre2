@@ -118,11 +118,19 @@
     #mesa-pergunta ol { padding-left: 1.5em; margin: .4em 0; }
     #mesa-pergunta li { margin: .25em 0; }
     #mesa-pergunta li.correta { color: var(--certo); font-weight: 700; }
+    #mesa-pergunta ol.duas { display: grid; grid-template-columns: 1fr 1fr; column-gap: 2.2em; }
+    #mesa-pergunta.com-opcoes img { max-height: 28vh; }
     #mesa-pergunta .mp-resposta { margin: .6em 0; padding: .4em .7em; border-left: 6px solid var(--certo);
                                   background: #0d1f15; border-radius: 8px; font-size: 1.2em; font-weight: 700; color: var(--certo); }
     #mesa-pergunta .mp-resposta span { display: block; font-size: .5em; font-weight: 400; color: var(--suave);
                                        text-transform: uppercase; letter-spacing: .05em; }
     .vez-linha { margin: 0 0 .4rem; }
+    .cronometro { margin: 0 0 .8rem; }
+    .cronometro button[aria-pressed="true"] { border-color: var(--acento); color: var(--acento); }
+    #mesa-pergunta .mp-relogio { margin-left: auto; align-self: center; font-size: 1.6em; font-weight: 800;
+                                 font-variant-numeric: tabular-nums; }
+    #mesa-pergunta .mp-relogio.acabando, #mesa-pergunta .mp-relogio.esgotado { color: var(--errado); }
+    #mesa-pergunta .mp-relogio.esgotado { font-size: 1em; }
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
@@ -292,6 +300,11 @@
         <p id="atual-passou" class="suave" hidden></p>
         <div id="atual-pergunta" class="pergunta"></div>
         <ol id="atual-opcoes" class="opcoes" type="A" hidden></ol>
+        <!-- Cronômetro: a contagem aparece só no modo mesa; quando acaba, nada muda no jogo -->
+        <div id="cronometro" class="acoes cronometro">
+          <button data-segundos="30">⏱ 30 s</button>
+          <button data-segundos="60">⏱ 1 min</button>
+        </div>
         <div id="revelado" hidden>
           <div id="atual-resposta" class="resposta"></div>
           <!-- Quem responde já foi escolhido antes do sorteio: mostra o nome, e a lista só se for trocar -->
@@ -335,7 +348,7 @@
         <details id="regras-master" class="regras">
           <summary>Como se joga</summary>
           <p class="suave">Cada jogador começa na casa grande com o nome do seu tema e percorre o braço dessa cor
-            (estágio 1: a casa grande e mais 7). Depois vem o anel central (estágio 2), onde a cor da casa do peão é o
+            (estágio 1: a casa grande e mais 4). Depois vem o anel central (estágio 2), onde a cor da casa do peão é o
             tema da próxima pergunta; a volta termina no tema do próprio jogador. O centro é a chegada.
             Cada acerto avança uma casa; errar não move o peão.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
@@ -444,7 +457,7 @@
 
   // Tabuleiro: casas 0 a CASAS_E1-1 são o estágio 1 (tema próprio do jogador); as CASAS_E2 seguintes têm
   // cada uma um tema; a casa CHEGADA é o fim. A posição do peão é o campo "pontos" do jogador.
-  const CASAS_E1 = 8;
+  const CASAS_E1 = 5;
   const CASAS_E2 = 8;
   const CHEGADA = CASAS_E1 + CASAS_E2;
 
@@ -775,7 +788,8 @@
   // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído.
   function mostrar(p, sorteio, antes) {
     atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null,
-              tentativas: [], publica: false };
+              tentativas: [], publica: false, tempo: null };
+    marcarCronometro();
     $("atual-passou").hidden = true;
     $("revelar-todos").textContent = "Mostrar resposta para todos";
     $("atual-repetida").hidden = !antes;
@@ -922,6 +936,8 @@
       && proximoM(quem, [atual.leitor, ...tentativas.map(t => t.respondente)]);
     if (!seguinte) return encerrar(tentativas);
     atual.tentativas = tentativas;
+    atual.tempo = null;
+    marcarCronometro();
     respondente = seguinte.id;
     if (!$("revelado").hidden) $("revelar").onclick();  // esconde a resposta de novo
     $("atual-passou").textContent = `${tentativas.map(t => nomeDe(t.respondente)).join(", ")} `
@@ -955,7 +971,7 @@
     if (!codigo) return;
     const dados = atual ? { sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
                             leitor: atual.leitor || null, tentaram: atual.tentativas.map(t => t.respondente),
-                            revelada: atual.publica } : null;
+                            revelada: atual.publica, tempo: atual.tempo || null } : null;
     updateDoc(doc(db, "partidas", codigo), { atual: dados }).catch(() => {});
   }
 
@@ -973,6 +989,18 @@
 
   $("acertou").onclick = () => registrar(true);
   $("errou").onclick = () => registrar(false);
+  // Cronômetro: quem lê toca em 30 s ou 1 min, e a contagem aparece no modo mesa. "n" distingue um toque
+  // do outro; cada tela de mesa conta pelo próprio relógio a partir de quando recebe o toque.
+  for (const b of document.querySelectorAll("#cronometro button")) b.onclick = () => {
+    atual.tempo = { s: +b.dataset.segundos, n: Date.now() };
+    marcarCronometro();
+    publicarAtual();
+  };
+  function marcarCronometro() {
+    for (const b of document.querySelectorAll("#cronometro button"))
+      b.setAttribute("aria-pressed", String(atual?.tempo?.s === +b.dataset.segundos));
+  }
+
   // A resposta vai para o modo mesa, abaixo da pergunta; depois disso, um erro não passa mais a pergunta.
   $("revelar-todos").onclick = () => {
     atual.publica = !atual.publica;
@@ -1020,7 +1048,7 @@
   function svgTabuleiro() {
     const bracos = temasDoJogo();
     const W = 2 * Math.PI / bracos.length;
-    const S = 72, ENTRADA = 5;
+    const S = 80, ENTRADA = 5;
     const c = S / W, Rst = 490 - S / 2;
     const rm = fi => Rst - c * fi;                        // raio do meio do braço
     // Ângulo φ em que o braço atinge o comprimento pedido (integração numérica do comprimento da espiral).
@@ -1144,15 +1172,15 @@
         if (onde === "braco") {
           const [f1, f2] = +y === 0 ? [fiDe((ENTRADA - 1) * S), fiCasa(0)] : [fiCasa(+y - 1), fiCasa(+y)];
           const fi = f1 + (f2 - f1) * u;
-          const raio = Math.min(.3, .32 / js.length) * S;
+          const raio = Math.min(.42, .44 / js.length) * S;
           partes.push(peao(pt(+x, fi, .5), raio, inicio(+x) + fi, j));
         } else if (onde === "anel") {
           const a = angAnel(+x) + V * u;
-          const raio = Math.min(.17 * (rAnel - rCentro), .5 * rMeioAnel * V / js.length);
-          partes.push(peao(polar(rCentro + .25 * (rAnel - rCentro), a), raio, a, j));
+          const raio = Math.min(.2 * (rAnel - rCentro), .5 * rMeioAnel * V / js.length);
+          partes.push(peao(polar(rCentro + .27 * (rAnel - rCentro), a), raio, a, j));
         } else {
           const a = Math.PI * (2 * h / js.length + .25);
-          partes.push(peao(polar(.52 * rCentro, a), .16 * rCentro, a, j));
+          partes.push(peao(polar(.52 * rCentro, a), .21 * rCentro, a, j));
         }
       });
     }
@@ -1175,7 +1203,7 @@
   function desenharTabuleiros() {
     if (arrasto) return;
     $("tabuleiro").innerHTML = $("mesa-tab").innerHTML =
-      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id), { vez: vezAtual()?.id }) :
+      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id), { vez: vezAtual()?.id, peao: 1.3 }) :
       ehLinear() ? L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peaoLinear) : svgTabuleiro();
   }
   const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
@@ -1268,22 +1296,30 @@
     }
     $("mesa").classList.toggle("com-pergunta", Boolean(p || v));
     $("mesa-pergunta").hidden = !(p || v);
+    if (!p) relogio = null;
     if (!p) return $("mesa-pergunta").replaceChildren(...(seguinte ? [seguinte, el("p", { className: "mp-espera", textContent: "Aguardando o sorteio…" })] : []));
-    const partes = [etiqueta(p.tema), papeis(a.leitor, a.respondente)];
+    const caixaPapeis = papeis(a.leitor, a.respondente);
+    const tm = !a.fim && a.tempo;
+    if (!tm) relogio = null;
+    else if (relogio?.n !== tm.n) relogio = { n: tm.n, fim: Date.now() + tm.s * 1000 };
+    if (relogio) caixaPapeis.append(el("div", { className: "mp-relogio" }));
+    const partes = [etiqueta(p.tema), caixaPapeis];
     if (a.tentaram?.length) {
       const t = el("div", { className: "mp-tentaram", textContent: "Já tentaram: " });
       a.tentaram.forEach((id, i) => t.append(i ? ", " : "", el("s", { textContent: nomeDe(id) })));
       partes.push(t);
     }
+    $("mesa-pergunta").classList.toggle("com-opcoes", Boolean(a.opcoes?.length));
     if (p.imagem) partes.push(el("img", { alt: "Figura da pergunta",
       src: "img/" + (a.revelada && p.imagem.revelacao ? p.imagem.revelacao : p.imagem.arquivo) }));
     partes.push(el("div", { className: "mp-texto", textContent: p.pergunta }));
     if (a.opcoes?.length) {
-      const ol = el("ol", { type: "A" });
+      const ol = el("ol", { type: "A", className: p.imagem ? "duas" : "" });  // com figura, em duas colunas para caber
       ol.append(...a.opcoes.map(o => el("li", { textContent: o, className: a.revelada && o === p.resposta ? "correta" : "" })));
       partes.push(ol);
     }
-    if (a.revelada) {
+    // Na múltipla escolha, a alternativa certa em verde já é a resposta; o quadro fica só para a aberta.
+    if (a.revelada && !a.opcoes?.length) {
       const r = el("div", { className: "mp-resposta" });
       r.append(el("span", { textContent: "Resposta" }), p.resposta);
       partes.push(r);
@@ -1292,11 +1328,39 @@
     if (a.fim && v) partes.unshift(el("div", { className: "mp-proxima",
       textContent: `A seguir: ${le.id === v.id ? `${v.nome} joga sozinho` : `${le.nome} pergunta, ${v.nome} responde`}` }));
     $("mesa-pergunta").replaceChildren(...partes);
+    contarRelogio();
+    ajustarMesa();
+    $("mesa-pergunta").querySelector("img")?.addEventListener("load", ajustarMesa);
   }
+
+  let relogio = null;  // {n, fim}: contagem em andamento no modo mesa
+  function contarRelogio() {
+    const caixa = $("mesa-pergunta").querySelector(".mp-relogio");
+    if (!relogio || !caixa) return;
+    const falta = Math.ceil((relogio.fim - Date.now()) / 1000);
+    caixa.textContent = falta > 0 ? `${Math.floor(falta / 60)}:${String(falta % 60).padStart(2, "0")}` : "Tempo esgotado";
+    caixa.classList.toggle("acabando", falta > 0 && falta <= 5);
+    caixa.classList.toggle("esgotado", falta <= 0);
+  }
+  setInterval(contarRelogio, 250);
+
+  // Projetor não rola a tela: se a pergunta não couber na altura, a letra diminui até caber.
+  function ajustarMesa() {
+    const caixa = $("mesa-pergunta");
+    caixa.style.fontSize = "";
+    if ($("mesa").hidden || caixa.hidden) return;
+    let tamanho = parseFloat(getComputedStyle(caixa).fontSize);
+    while (caixa.scrollHeight > caixa.clientHeight + 1 && tamanho > 14) {
+      tamanho *= .92;
+      caixa.style.fontSize = tamanho + "px";
+    }
+  }
+  addEventListener("resize", ajustarMesa);
 
   let mesaAcesa = null;  // trava que impede a tela de apagar no modo mesa
   $("modo-mesa").onclick = async () => {
     $("mesa").hidden = false;
+    ajustarMesa();
     try { await $("mesa").requestFullscreen?.(); } catch {}
     try { mesaAcesa = await navigator.wakeLock?.request("screen"); } catch {}
   };
