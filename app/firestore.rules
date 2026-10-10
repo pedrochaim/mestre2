@@ -11,10 +11,12 @@ service cloud.firestore {
                     && request.resource.data.criada_em == request.time
                     && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha', 'linear'])
                     && (!('semente' in request.resource.data) || request.resource.data.semente is int);
-      // Na Trilha da Vida, "vez" é o id do jogador da vez.
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez'])
-                    && request.resource.data.vez is string
-                    && request.resource.data.vez.size() <= 40;
+      // "vez" é o id do jogador da vez. "atual" é a pergunta em jogo, para o modo mesa (sem a resposta), ou null.
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual'])
+                    && (!('vez' in request.resource.data)
+                        || (request.resource.data.vez is string && request.resource.data.vez.size() <= 40))
+                    && (!('atual' in request.resource.data) || request.resource.data.atual == null
+                        || (request.resource.data.atual is map && request.resource.data.atual.size() <= 8));
 
       // Master: "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
       // Trilha da Vida: o estado do jogador fica no mapa "trilha" (posição, profissão, personalidade, mão…).
@@ -42,9 +44,12 @@ service cloud.firestore {
                       && request.resource.data.pergunta is string
                       && request.resource.data.pergunta.size() <= 20
                       && request.resource.data.em == request.time;
-        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['respondente', 'acertou'])
+        // "tentativas": a pergunta aberta passa adiante a cada erro; respondente e acertou são os da última.
+        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['respondente', 'acertou', 'tentativas'])
                       && request.resource.data.respondente is string
-                      && request.resource.data.acertou is bool;
+                      && request.resource.data.acertou is bool
+                      && (!('tentativas' in request.resource.data)
+                          || (request.resource.data.tentativas is list && request.resource.data.tentativas.size() <= 30));
       }
 
       // Formato antigo (até a v0.16): uma entrada por pergunta, com o id da pergunta. O app atual só lê

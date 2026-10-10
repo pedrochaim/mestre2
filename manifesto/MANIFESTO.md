@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.44 — 2026-10-02**
+> **Versão preliminar 0.45 — 2026-10-09**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -591,7 +591,7 @@ Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o 
 - [x] **Saturação por âncora no banco inteiro** (§17): feito em 2026-10-01.
 - [x] **Proporção de perguntas com figura:** definida em 25% do banco (§17).
 - [ ] **Tamanho do tabuleiro** (§15): 8 casas no estágio 1 (a casa grande do início e mais 7) e 8 no estágio 2 (uma por tema), ou seja, 16 acertos até a chegada. Ajustar depois de jogar, se preciso.
-- [ ] **Como a vez passa** (§15): quem é o próximo questionador e o próximo respondente. Hoje o grupo combina de viva voz.
+- [x] **Como a vez passa** (§15): decidido em 2026-10-09. A vez gira na ordem do placar, lê o seguinte da fila, e a pergunta aberta passa adiante a cada erro.
 - [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
 - [x] **Arte oficial num site público** (§6): decidido em 2026-10-01 que a arte oficial é aceita enquanto o jogo não tiver fins comerciais. Rever se isso mudar.
 - [ ] **Repositório dentro do Dropbox:** o autopiloto faz um commit a cada lote, e o Dropbox sincroniza a pasta `.git` ao mesmo tempo. Se outra máquina abrir o projeto, há risco de conflito no repositório. Considerar mover o repositório para fora do Dropbox.
@@ -650,7 +650,7 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 - **Casa grande:** a primeira casa de cada braço é mais comprida que as outras e traz o **nome do tema** em letras grandes, ao longo da espiral, no maior tamanho que cabe inteiro. O trecho junto à casa seguinte fica livre para os peões. As casas do anel trazem a sigla do tema (G, N, AP, CO, CI, EN, E, H).
 - **Peões:** cada peão tem a **cor do tema designado**, as iniciais do jogador e anéis branco e preto que o destacam de qualquer casa, inclusive das casas do seu próprio braço. A mesma cor aparece como borda no cartão do jogador, na aba Sorteio e na lista do Tabuleiro.
 - **Leitura de qualquer lado:** os textos giram para a borda mais próxima, e "MESTRE2" aparece duas vezes no centro, uma de cabeça para baixo.
-- **Modo mesa:** o tabuleiro pode ocupar a tela inteira de um aparelho deixado no meio da mesa, visível para todos. A tela não apaga enquanto o modo estiver ligado.
+- **Modo mesa:** o tabuleiro pode ocupar a tela inteira de um aparelho deixado no meio da mesa ou ligado a um projetor, visível para todos. A tela não apaga enquanto o modo estiver ligado. Com uma pergunta em jogo, a tela mostra, ao lado do tabuleiro, o tema, quem responde, quem lê, quem já tentou, a figura, o enunciado e as alternativas. **A resposta nunca aparece nela**, nem a figura de revelação. É uma **exceção ao princípio 2**, só no modo mesa: ali todos leem a pergunta, inclusive quem responde. Nos outros aparelhos nada muda.
 
 ### Modo Linear
 
@@ -671,7 +671,9 @@ Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que nã
 - **Avanço:** o tabuleiro tem duas formas de mover o peão, e as duas convivem.
   - **Pelo sorteio:** depois de revelar a resposta, o questionador escolhe quem respondeu e marca se acertou.
   - **À mão:** botões + e − no tabuleiro, para corrigir erros ou aplicar regras que o app ainda não conhece.
-- A ordem da vez continua em aberto (§14).
+- **Vez** (Master e Linear, decidido em 2026-10-09): os jogadores jogam na **ordem do placar**, pulando quem já chegou. **Quem lê é o seguinte da fila** de quem está na vez. A vez passa a cada pergunta, com acerto ou erro, como na Trilha da Vida. O jogador da vez já vem escolhido no Sorteio, mas dá para escolher outro à mão; a fila segue a partir de quem foi escolhido.
+- **A pergunta aberta passa adiante:** se quem está na vez erra uma pergunta **aberta**, a mesma pergunta vai para o seguinte da fila, pulando quem lê e quem já tentou, até alguém acertar ou não sobrar ninguém. Quem acerta avança o próprio peão. A pergunta de **múltipla escolha não passa**: o erro encerra a rodada. Depois, a vez vai para o seguinte de quem estava na vez, e não de quem acertou.
+- **Pular** descarta a pergunta, e a vez fica com o mesmo jogador. Se a pergunta já tinha passado adiante, os erros contam e a vez passa.
 
 ---
 
@@ -691,12 +693,13 @@ Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que nã
    - O tabuleiro em espiral (§15) mostra os peões. O botão **Modo mesa** o põe em tela cheia.
    - Abaixo fica a lista de jogadores: tema atual, posição, acertos (✓) e erros (✗), os botões − e + e, no estágio 1, a troca de tema.
 3. Na aba **Sorteio**, o questionador escolhe quem responde e sorteia a pergunta.
+   - No Master e no Linear, uma linha diz de quem é a vez e quem lê ("Vez de Ana · lê Bruno"), e o jogador da vez já vem escolhido, com o tema dele (§15).
    - O alto da tela mostra os jogadores, com o tema atual e a posição de cada um. Tocar num jogador o escolhe como respondente e seleciona o tema dele. Ainda dá para escolher outro tema à mão, numa grade com os temas que têm perguntas; os outros aparecem numa linha de "Em breve".
    - Os botões de tema têm a cor do tema, herdada do app antigo, e mostram quantas perguntas ainda não saíram na partida. "Qualquer tema" tem faixas com todas as cores.
    - Um segundo filtro escolhe **com ou sem figura**, **só com figura** ou **só sem figura**.
    - Depois ele toca em **Sortear**, na barra fixa do rodapé. A barra sempre mostra a ação do momento: **Sortear**, **Mostrar resposta** ou **Acertou** e **Errou**.
 4. A pergunta ocupa a tela, e a escolha de jogador e de tema some até a rodada acabar. Ele lê a pergunta em voz alta. Se houver figura, toca nela para abri-la em **tela cheia**, só a imagem, e mostra o aparelho ao respondente. Outro toque fecha a tela cheia.
-5. Ele toca em **Mostrar resposta**. Se a figura tiver revelação, como as silhuetas de Pokémon, ela troca para a arte colorida, e volta à silhueta ao esconder. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
+5. Ele toca em **Mostrar resposta**. Se a figura tiver revelação, como as silhuetas de Pokémon, ela troca para a arte colorida, e volta à silhueta ao esconder. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa. No erro de uma pergunta aberta, a resposta se esconde de novo, a tela diz quem errou e quem responde agora, e a pergunta passa ao seguinte da fila (§15).
 6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, fonte da figura (autor, licença e link), autor e id. Antes da resposta o botão não aparece, para não vazar nada. O crédito da figura só aparece nessa ficha, e nunca junto da foto: numa pergunta de pintura, o autor da imagem é a própria resposta.
 
 7. A aba **Informações** mostra o que há no banco: o total de perguntas, quantas são de múltipla escolha, quantas são abertas e quantas têm figura. Abaixo vem um bloco por tema, na cor dele, com o total. Tocar no bloco abre a descrição do tema e a lista de subtemas, cada um com descrição e contagens. Subtemas ainda sem perguntas aparecem como "em breve". A mesma página abre na tela inicial, pelo botão **Informações sobre as perguntas**, para consulta fora de uma partida.
@@ -722,9 +725,9 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
 
 | Caminho | Campos | Função |
 |---|---|---|
-| `partidas/{codigo}` | `criada_em`; na Trilha da Vida, também `modo`, `semente` e `vez` | A partida. O código é o id do documento. `modo` é `master`, `trilha` ou `linear` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
+| `partidas/{codigo}` | `criada_em`, `vez`, `atual`; na Trilha da Vida e no Linear, também `modo`; na Trilha, `semente` | A partida. O código é o id do documento. `modo` é `master`, `trilha` ou `linear` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. `atual` é a pergunta em jogo, para o modo mesa: `sorteio`, `pergunta` (o id), `opcoes` (as alternativas na ordem da tela de quem lê), `respondente`, `leitor` e `tentaram`; nunca a resposta. Volta a `null` quando a rodada acaba. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
 | `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em`; na Trilha, `trilha` | Um documento por jogador. Master: `pontos` é a casa do peão; `tema` é o tema do estágio 1. Trilha: o mapa `trilha` guarda posição, opções sorteadas, profissão, personalidade, mão, avanços livres, férias, descartes pendentes e o último evento |
-| `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `respondente`, `acertou` | Um registro por sorteio. A mesma pergunta pode ter vários |
+| `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `respondente`, `acertou`, `tentativas` | Um registro por sorteio. A mesma pergunta pode ter vários. Quando a pergunta passa adiante, `tentativas` lista cada `{respondente, acertou}`, e `respondente` e `acertou` são os da última |
 | `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
 
 - Cada sorteio cria um registro novo em `sorteios`. O resultado (`respondente` e `acertou`) é acrescentado quando o questionador marca acerto ou erro.
@@ -739,8 +742,8 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
   - o nome do jogador tem até 30 caracteres, e o jogador começa com 0 ponto;
   - o tema do jogador tem até 40 caracteres;
   - num jogador, só a casa (`pontos`), o tema e o estado da Trilha (`trilha`, um mapa de no máximo 12 campos) podem mudar;
-  - a partida pode ter `modo` (`master` ou `trilha`) e `semente` (inteiro) na criação, e só `vez` muda depois;
-  - um sorteio é criado só com `pergunta` e `em`, e depois só o resultado (`respondente` e `acertou`) pode ser acrescentado. `usadas` segue a mesma regra, para não quebrar um aparelho que ainda esteja com a versão antiga aberta.
+  - a partida pode ter `modo` (`master`, `trilha` ou `linear`) e `semente` (inteiro) na criação, e depois só mudam `vez` (texto de até 40 caracteres) e `atual` (`null` ou um mapa de até 8 campos);
+  - um sorteio é criado só com `pergunta` e `em`, e depois só o resultado (`respondente`, `acertou` e `tentativas`, uma lista de até 30) pode ser acrescentado. `usadas` segue a mesma regra, para não quebrar um aparelho que ainda esteja com a versão antiga aberta.
 - Qualquer outra coleção é negada.
 
 ### Instruções
@@ -893,6 +896,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.45 | 2026-10-09 | Vez no Master e no Linear: ordem do placar, lê o seguinte da fila, a pergunta aberta passa adiante a cada erro, a de múltipla escolha não. Modo mesa mostra a pergunta em jogo, sem a resposta, como numa projeção: exceção ao princípio 2. QR code com o link do site e da partida. Firestore: `atual` na partida, `tentativas` no sorteio (§14, §15, §16) |
 | 0.44 | 2026-10-02 | Autopiloto usa no máximo 95% da sessão de 5 horas e espera a renovação (§17) |
 | 0.43 | 2026-10-02 | Terceiro modo de jogo, **Linear** (protótipo): trilha única de 60 casas em faixa ondulada de 4 fileiras, 50 casas de tema em ciclo e 8 casas especiais com ações a definir; no app, como terceira opção de nova partida |
 | 0.42 | 2026-10-02 | Perguntas com figura: a pista do enunciado ajuda a distinguir, mas não identifica sozinha; teste "cubra a imagem", com exemplos da recrítica (§6) |

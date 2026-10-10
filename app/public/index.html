@@ -85,7 +85,30 @@
     .tabuleiro .peao.arrastando { cursor: grabbing; filter: drop-shadow(0 0 12px #fff); }
     #mesa { position: fixed; inset: 0; background: #000; z-index: 20; display: flex; align-items: center; justify-content: center; }
     #mesa .tabuleiro { width: min(100vw, 100vh); }
-    #mesa-fechar { position: absolute; top: 10px; right: 10px; background: #000a; color: #fff; border-color: #555; }
+    #mesa-fechar { position: absolute; top: 10px; right: 10px; background: #000a; color: #fff; border-color: #555; z-index: 1; }
+    /* Modo mesa com pergunta: o tabuleiro de um lado e a pergunta do outro (empilhados com a tela em pé),
+       com letras grandes para serem lidas de longe, como numa projeção. A resposta nunca aparece aqui. */
+    #mesa-pergunta { flex: 1; min-width: 0; max-height: 100vh; overflow: auto; padding: 3vmin 4vmin;
+                     font-size: clamp(18px, 4vmin, 56px); line-height: 1.3; }
+    #mesa.com-pergunta { gap: 2vmin; }
+    #mesa.com-pergunta .tabuleiro { width: min(55vw, 100vh); flex: none; }
+    #mesa.com-pergunta.trilha .tabuleiro { width: auto; }
+    #mesa.com-pergunta.linear { flex-direction: column; }
+    #mesa.com-pergunta.linear .tabuleiro { width: min(100vw, calc(55vh * 1600 / 880)); }
+    @media (orientation: portrait) {
+      #mesa.com-pergunta { flex-direction: column; }
+      #mesa.com-pergunta .tabuleiro { width: min(100vw, 55vh); }
+      #mesa.com-pergunta.trilha .tabuleiro svg { height: 55vh; }
+    }
+    #mesa-pergunta .etiqueta { font-size: .7em; }
+    #mesa-pergunta .mp-quem { margin: .5em 0 .2em; font-size: 1.15em; }
+    #mesa-pergunta .mp-le, #mesa-pergunta .mp-tentaram { color: var(--suave); font-size: .75em; }
+    #mesa-pergunta .mp-tentaram s { text-decoration-color: var(--errado); }
+    #mesa-pergunta img { display: block; max-width: 100%; max-height: 45vh; margin: .6em 0; border-radius: 12px; }
+    #mesa-pergunta .mp-texto { font-weight: 600; font-size: 1.3em; margin: .5em 0; }
+    #mesa-pergunta ol { padding-left: 1.5em; margin: .4em 0; }
+    #mesa-pergunta li { margin: .25em 0; }
+    .vez-linha { margin: 0 0 .4rem; }
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
@@ -229,6 +252,7 @@
       <!-- Jogadores: tema, posição, acertos e erros; tocar escolhe quem responde -->
       <div id="mini" class="cartao" hidden>
         <p id="vencedor-mini" class="vencedor" hidden></p>
+        <p id="vez-linha" class="vez-linha" hidden></p>
         <div class="suave">Quem responde? Toque no jogador para sortear no tema dele.</div>
         <div id="mini-placar" class="mini"></div>
       </div>
@@ -251,6 +275,7 @@
         <div id="atual-figura" class="figura" hidden>
           <img id="atual-img" alt="Figura da pergunta" title="Toque para mostrar em tela cheia">
         </div>
+        <p id="atual-passou" class="suave" hidden></p>
         <div id="atual-pergunta" class="pergunta"></div>
         <ol id="atual-opcoes" class="opcoes" type="A" hidden></ol>
         <div id="revelado" hidden>
@@ -288,6 +313,9 @@
             xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
             qualquer tema. Cada acerto avança uma casa; errar não move o peão. As ações das casas ★ ainda serão
             definidas: por enquanto, o grupo as aplica à mão, com − e + ou arrastando o peão.</p>
+          <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
+            na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
+            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos, sem a resposta.</p>
         </details>
         <details id="regras-master" class="regras">
           <summary>Como se joga</summary>
@@ -295,6 +323,9 @@
             (estágio 1: a casa grande e mais 7). Depois vem o anel central (estágio 2), onde a cor da casa do peão é o
             tema da próxima pergunta; a volta termina no tema do próprio jogador. O centro é a chegada.
             Cada acerto avança uma casa; errar não move o peão.</p>
+          <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
+            na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
+            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos, sem a resposta.</p>
         </details>
         <div class="editar-linha"><button id="editar" aria-pressed="false">Editar jogadores</button></div>
         <ul id="placar" class="placar"></ul>
@@ -323,6 +354,7 @@
 <!-- Modo mesa: o tabuleiro em tela cheia, para deixar um aparelho no meio da mesa -->
 <div id="mesa" hidden>
   <div id="mesa-tab" class="tabuleiro"></div>
+  <div id="mesa-pergunta" hidden></div>
   <button id="mesa-fechar" title="Sair do modo mesa">×</button>
 </div>
 
@@ -504,12 +536,14 @@
       aplicarModo();
       desenharPlacar();
       desenharTurno();
+      desenharMesa();
     }));
     desligar.push(onSnapshot(query(collection(base, "jogadores"), orderBy("criado_em")), snap => {
       jogadores = snap.docs.map(d => ({ id: d.id, ...d.data() }));
       desenharPlacar();
       desenharRespondentes();
       desenharTurno();
+      desenharMesa();
     }));
     desligar.push(onSnapshot(collection(base, "sorteios"), snap => {
       sorteios = snap.docs.map(d => d.data());
@@ -525,7 +559,9 @@
     const todos = [...legado, ...sorteios];
     vezes = new Map();
     for (const r of todos) vezes.set(r.pergunta, (vezes.get(r.pergunta) || 0) + 1);
-    resultados = todos.filter(r => r.respondente);
+    // Uma pergunta aberta passa adiante a cada erro: as tentativas ficam em "tentativas"; os registros sem
+    // ela têm uma só, em respondente e acertou.
+    resultados = todos.flatMap(r => r.tentativas || (r.respondente ? [r] : []));
     desenharTemas();
     desenharPlacar();
   }
@@ -534,7 +570,7 @@
     desligar.forEach(f => f());
     desligar = [];
     codigo = null; atual = null; respondente = null; jogadores = []; sorteios = []; legado = []; vezes = new Map(); resultados = [];
-    partida = {}; mapa = null; limparTurno(); aplicarModo();
+    partida = {}; mapa = null; limparTurno(); aplicarModo(); desenharMesa();
     history.replaceState(null, "", location.pathname);
     $("atual").hidden = true;
     $("revelado").hidden = true;
@@ -693,6 +729,15 @@
     try {
       const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"), { pergunta: p.id, em: serverTimestamp() });
       mostrar(p, ref.id, menos);  // "menos" foi lido antes de gravar: o registro novo já entrou em "vezes"
+      // Quem responde fica sendo o da vez (escolhido à mão ou não), e quem lê é o seguinte na fila.
+      const base = jogadores.find(j => j.id === respondente) || vezM();
+      if (base) {
+        respondente = base.id;
+        Object.assign(atual, { base: base.id, leitor: (proximoM(base) || base).id });
+        desenharRespondentes();
+        updateDoc(doc(db, "partidas", codigo), { vez: base.id }).catch(() => {});
+      }
+      publicarAtual();
     } catch (e) {
       $("msg-sorteio").textContent = "Erro: " + e.message;
     } finally {
@@ -714,7 +759,9 @@
 
   // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído.
   function mostrar(p, sorteio, antes) {
-    atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null };
+    atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null,
+              tentativas: [] };
+    $("atual-passou").hidden = true;
     $("atual-repetida").hidden = !antes;
     $("atual-repetida").textContent = `Repetida · já saiu ${antes === 1 ? "1 vez" : `${antes} vezes`} nesta partida`;
     $("atual-tema").textContent = `${p.tema} › ${p.subtema}`;
@@ -840,6 +887,7 @@
   // Escolhe quem responde. Antes do sorteio, também seleciona o tema dele.
   function escolher(id) {
     respondente = id;
+    if (atual) publicarAtual();
     const t = temaAtual(jogadores.find(j => j.id === id));
     if (!atual && t) temaEscolhido = t;
     $("msg-sorteio").textContent = t && !temPerguntas(t) ? `Ainda não há perguntas de ${t}. Escolha outro tema ou "Qualquer tema".` : "";
@@ -848,11 +896,34 @@
     desenharPlacar();
   }
 
+  // Master e Linear: num erro, a pergunta aberta passa para o seguinte na fila, pulando quem lê e quem já
+  // tentou, até alguém acertar ou não sobrar ninguém. A de múltipla escolha não passa.
   async function registrar(acertou) {
     if (ehTrilha()) return registrarTrilha(acertou);
+    const tentativas = [...atual.tentativas, { respondente, acertou }];
+    const quem = jogadores.find(j => j.id === respondente);
+    const seguinte = !acertou && atual.tipo !== "multipla" && quem
+      && proximoM(quem, [atual.leitor, ...tentativas.map(t => t.respondente)]);
+    if (!seguinte) return encerrar(tentativas);
+    atual.tentativas = tentativas;
+    respondente = seguinte.id;
+    if (!$("revelado").hidden) $("revelar").onclick();  // esconde a resposta de novo
+    $("atual-passou").textContent = `${tentativas.map(t => nomeDe(t.respondente)).join(", ")} `
+      + `${tentativas.length > 1 ? "erraram" : "errou"}. Agora responde ${seguinte.nome}.`;
+    $("atual-passou").hidden = false;
+    desenharRespondentes();
+    desenharPlacar();
+    publicarAtual();
+  }
+
+  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou e passa a vez ao seguinte do da vez.
+  async function encerrar(tentativas) {
+    const ultima = tentativas[tentativas.length - 1];
     const batch = writeBatch(db);
-    batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { respondente, acertou });
-    if (acertou) batch.update(doc(db, "partidas", codigo, "jogadores", respondente), { pontos: increment(1) });
+    batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
+    if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(1) });
+    const base = jogadores.find(j => j.id === atual.base);
+    batch.update(doc(db, "partidas", codigo), { atual: null, ...(base ? { vez: (proximoM(base) || base).id } : {}) });
     try {
       await batch.commit();
       fecharPergunta();
@@ -861,9 +932,19 @@
     }
   }
 
+  // A pergunta em jogo fica no documento da partida, para o modo mesa mostrá-la em qualquer aparelho.
+  // Vai sem a resposta: só o id, as alternativas na ordem desta tela, quem responde, quem lê e quem já tentou.
+  function publicarAtual() {
+    if (!codigo) return;
+    const dados = atual ? { sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
+                            leitor: atual.leitor || null, tentaram: atual.tentativas.map(t => t.respondente) } : null;
+    updateDoc(doc(db, "partidas", codigo), { atual: dados }).catch(() => {});
+  }
+
   function fecharPergunta() {
     atual = null;
     respondente = null;
+    $("atual-passou").hidden = true;
     $("atual").hidden = true;
     $("revelado").hidden = true;
     $("tela-cheia").hidden = true;
@@ -874,7 +955,12 @@
 
   $("acertou").onclick = () => registrar(true);
   $("errou").onclick = () => registrar(false);
-  $("pular").onclick = fecharPergunta;
+  // Pular descarta a pergunta e a vez fica; se ela já tinha passado adiante, os erros contam e a vez passa.
+  $("pular").onclick = () => {
+    if (!ehTrilha() && atual?.tentativas.length) return encerrar(atual.tentativas);
+    fecharPergunta();
+    publicarAtual();
+  };
 
   // ---------------------------------------------------------------- tabuleiro
 
@@ -1117,6 +1203,48 @@
     caixa.addEventListener("pointercancel", () => { arrasto = null; desenharTabuleiros(); });
   }
 
+  // Master e Linear: a vez gira na ordem do placar, pulando quem já chegou; quem lê é o seguinte da fila.
+  // "pular" são ids que a fila também salta (quem lê e quem já tentou a pergunta).
+  const chegouM = j => casaDe(j) >= chegadaDoModo();
+  const vezM = () => jogadores.find(j => j.id === partida.vez && !chegouM(j)) || jogadores.find(j => !chegouM(j)) || null;
+  function proximoM(j, pular = []) {
+    const i = jogadores.findIndex(x => x.id === j.id);
+    for (let k = 1; k < jogadores.length; k++) {
+      const x = jogadores[(i + k) % jogadores.length];
+      if (!chegouM(x) && !pular.includes(x.id)) return x;
+    }
+    return null;
+  }
+  const nomeDe = id => jogadores.find(j => j.id === id)?.nome || "?";
+
+  // Modo mesa: com uma pergunta em jogo, mostra o tema, quem responde, quem lê, a figura, o enunciado e as
+  // alternativas. Nunca a resposta, nem a figura de revelação.
+  function desenharMesa() {
+    const a = partida.atual;
+    const p = a && perguntas.find(x => x.id === a.pergunta);
+    $("mesa").classList.toggle("com-pergunta", Boolean(p));
+    $("mesa-pergunta").hidden = !p;
+    if (!p) return $("mesa-pergunta").replaceChildren();
+    const quem = jogadores.find(j => j.id === a.respondente);
+    const linhaQuem = el("div", { className: "mp-quem" });
+    if (quem) linhaQuem.append("Responde: ", el("strong", { textContent: quem.nome }));
+    const partes = [etiqueta(p.tema), linhaQuem];
+    if (a.leitor && a.leitor !== a.respondente) partes.push(el("div", { className: "mp-le", textContent: `Lê: ${nomeDe(a.leitor)}` }));
+    if (a.tentaram?.length) {
+      const t = el("div", { className: "mp-tentaram", textContent: "Já tentaram: " });
+      a.tentaram.forEach((id, i) => t.append(i ? ", " : "", el("s", { textContent: nomeDe(id) })));
+      partes.push(t);
+    }
+    if (p.imagem) partes.push(el("img", { src: "img/" + p.imagem.arquivo, alt: "Figura da pergunta" }));
+    partes.push(el("div", { className: "mp-texto", textContent: p.pergunta }));
+    if (a.opcoes?.length) {
+      const ol = el("ol", { type: "A" });
+      ol.append(...a.opcoes.map(o => el("li", { textContent: o })));
+      partes.push(ol);
+    }
+    $("mesa-pergunta").replaceChildren(...partes);
+  }
+
   let mesaAcesa = null;  // trava que impede a tela de apagar no modo mesa
   $("modo-mesa").onclick = async () => {
     $("mesa").hidden = false;
@@ -1136,6 +1264,20 @@
     for (const id of ["vencedor-mini", "vencedor-tab"]) {
       $(id).hidden = !chegaram.length;
       $(id).textContent = `🏆 ${chegaram.join(", ")} ${chegaram.length > 1 ? "chegaram" : "chegou"} ao fim!`;
+    }
+
+    // Sem pergunta na tela e sem escolha feita, o jogador da vez já vem escolhido.
+    const v = vezM();
+    if (!atual && !respondente && v) {
+      respondente = v.id;
+      const t = temaAtual(v);
+      if (t && temPerguntas(t)) { temaEscolhido = t; desenharTemas(); }
+      desenharRespondentes();
+    }
+    $("vez-linha").hidden = !v;
+    if (v) {
+      const le = proximoM(v);
+      $("vez-linha").replaceChildren("Vez de ", el("strong", { textContent: v.nome }), le ? ` · lê ${le.nome}` : " · jogando sozinho");
     }
 
     // Sorteio: um botão por jogador, que o escolhe como respondente.
@@ -1344,8 +1486,10 @@
       const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"), { pergunta: p.id, em: serverTimestamp() });
       mostrar(p, ref.id, menos);
       atual.trilha = info;
+      atual.leitor = proximo(jv).id;
       respondente = quem;
       desenharRespondentes();
+      publicarAtual();
       if (aviso) $("msg-sorteio").textContent = aviso;
     } catch (e) {
       $("msg-sorteio").textContent = "Erro: " + e.message;
@@ -1388,7 +1532,7 @@
     } else t.evento = "";
     t.descartar = Math.max(t.descartar || 0, excesso(t));
     batch.update(refJ(jv.id), { trilha: t });
-    if (passa) batch.update(doc(db, "partidas", codigo), { vez: proximo({ ...jv, trilha: t }).id });
+    batch.update(doc(db, "partidas", codigo), { atual: null, ...(passa ? { vez: proximo({ ...jv, trilha: t }).id } : {}) });
     try {
       await batch.commit();
       limparTurno();
