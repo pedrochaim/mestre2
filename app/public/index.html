@@ -101,13 +101,22 @@
       #mesa.com-pergunta.trilha .tabuleiro svg { height: 55vh; }
     }
     #mesa-pergunta .etiqueta { font-size: .7em; }
-    #mesa-pergunta .mp-quem { margin: .5em 0 .2em; font-size: 1.15em; }
-    #mesa-pergunta .mp-le, #mesa-pergunta .mp-tentaram { color: var(--suave); font-size: .75em; }
+    #mesa-pergunta .mp-papeis { display: flex; gap: 1.2em; flex-wrap: wrap; margin: .5em 0 .2em; }
+    #mesa-pergunta .mp-papel { display: flex; flex-direction: column; }
+    #mesa-pergunta .mp-papel span { color: var(--suave); font-size: .6em; text-transform: uppercase; letter-spacing: .05em; }
+    #mesa-pergunta .mp-papel strong { font-size: 1.15em; }
+    #mesa-pergunta .mp-papel.responde strong { color: var(--acento); }
+    #mesa-pergunta .mp-tentaram { color: var(--suave); font-size: .75em; }
     #mesa-pergunta .mp-tentaram s { text-decoration-color: var(--errado); }
     #mesa-pergunta img { display: block; max-width: 100%; max-height: 45vh; margin: .6em 0; border-radius: 12px; }
     #mesa-pergunta .mp-texto { font-weight: 600; font-size: 1.3em; margin: .5em 0; }
     #mesa-pergunta ol { padding-left: 1.5em; margin: .4em 0; }
     #mesa-pergunta li { margin: .25em 0; }
+    #mesa-pergunta li.correta { color: var(--certo); font-weight: 700; }
+    #mesa-pergunta .mp-resposta { margin: .6em 0; padding: .4em .7em; border-left: 6px solid var(--certo);
+                                  background: #0d1f15; border-radius: 8px; font-size: 1.2em; font-weight: 700; color: var(--certo); }
+    #mesa-pergunta .mp-resposta span { display: block; font-size: .5em; font-weight: 400; color: var(--suave);
+                                       text-transform: uppercase; letter-spacing: .05em; }
     .vez-linha { margin: 0 0 .4rem; }
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
@@ -284,7 +293,8 @@
           <div id="quem" class="quem"></div>
           <div id="quem-rotulo" class="suave">Quem respondeu?</div>
           <div id="respondentes" class="chips"></div>
-          <div class="acoes"><button id="pular">Pular sem pontuar</button></div>
+          <div class="acoes"><button id="revelar-todos">Mostrar resposta para todos</button>
+            <button id="pular">Pular sem pontuar</button></div>
           <!-- Só aparece depois da resposta, para não vazar nada antes dela -->
           <button id="sobre" class="sobre-botao" aria-expanded="false">Sobre a pergunta</button>
           <dl id="sobre-painel" class="sobre" hidden></dl>
@@ -315,7 +325,7 @@
             definidas: por enquanto, o grupo as aplica à mão, com − e + ou arrastando o peão.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
             na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
-            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos, sem a resposta.</p>
+            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, só quando quem pergunta a mostra.</p>
         </details>
         <details id="regras-master" class="regras">
           <summary>Como se joga</summary>
@@ -325,7 +335,7 @@
             Cada acerto avança uma casa; errar não move o peão.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
             na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
-            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos, sem a resposta.</p>
+            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, só quando quem pergunta a mostra.</p>
         </details>
         <div class="editar-linha"><button id="editar" aria-pressed="false">Editar jogadores</button></div>
         <ul id="placar" class="placar"></ul>
@@ -760,8 +770,9 @@
   // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído.
   function mostrar(p, sorteio, antes) {
     atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null,
-              tentativas: [] };
+              tentativas: [], publica: false };
     $("atual-passou").hidden = true;
+    $("revelar-todos").textContent = "Mostrar resposta para todos";
     $("atual-repetida").hidden = !antes;
     $("atual-repetida").textContent = `Repetida · já saiu ${antes === 1 ? "1 vez" : `${antes} vezes`} nesta partida`;
     $("atual-tema").textContent = `${p.tema} › ${p.subtema}`;
@@ -902,7 +913,7 @@
     if (ehTrilha()) return registrarTrilha(acertou);
     const tentativas = [...atual.tentativas, { respondente, acertou }];
     const quem = jogadores.find(j => j.id === respondente);
-    const seguinte = !acertou && atual.tipo !== "multipla" && quem
+    const seguinte = !acertou && atual.tipo !== "multipla" && !atual.publica && quem
       && proximoM(quem, [atual.leitor, ...tentativas.map(t => t.respondente)]);
     if (!seguinte) return encerrar(tentativas);
     atual.tentativas = tentativas;
@@ -923,7 +934,8 @@
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
     if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(1) });
     const base = jogadores.find(j => j.id === atual.base);
-    batch.update(doc(db, "partidas", codigo), { atual: null, ...(base ? { vez: (proximoM(base) || base).id } : {}) });
+    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? {} : { atual: null }),
+                                                ...(base ? { vez: (proximoM(base) || base).id } : {}) });
     try {
       await batch.commit();
       fecharPergunta();
@@ -937,7 +949,8 @@
   function publicarAtual() {
     if (!codigo) return;
     const dados = atual ? { sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
-                            leitor: atual.leitor || null, tentaram: atual.tentativas.map(t => t.respondente) } : null;
+                            leitor: atual.leitor || null, tentaram: atual.tentativas.map(t => t.respondente),
+                            revelada: atual.publica } : null;
     updateDoc(doc(db, "partidas", codigo), { atual: dados }).catch(() => {});
   }
 
@@ -955,6 +968,13 @@
 
   $("acertou").onclick = () => registrar(true);
   $("errou").onclick = () => registrar(false);
+  // A resposta vai para o modo mesa, abaixo da pergunta; depois disso, um erro não passa mais a pergunta.
+  $("revelar-todos").onclick = () => {
+    atual.publica = !atual.publica;
+    $("revelar-todos").textContent = atual.publica ? "Esconder resposta de todos" : "Mostrar resposta para todos";
+    publicarAtual();
+  };
+
   // Pular descarta a pergunta e a vez fica; se ela já tinha passado adiante, os erros contam e a vez passa.
   $("pular").onclick = () => {
     if (!ehTrilha() && atual?.tentativas.length) return encerrar(atual.tentativas);
@@ -1217,30 +1237,39 @@
   }
   const nomeDe = id => jogadores.find(j => j.id === id)?.nome || "?";
 
-  // Modo mesa: com uma pergunta em jogo, mostra o tema, quem responde, quem lê, a figura, o enunciado e as
-  // alternativas. Nunca a resposta, nem a figura de revelação.
+  // Modo mesa: com uma pergunta em jogo, mostra o tema, quem pergunta e quem responde, a figura, o enunciado e
+  // as alternativas. A resposta (e a figura de revelação) só aparece quando quem lê a mostra para todos.
   function desenharMesa() {
     const a = partida.atual;
     const p = a && perguntas.find(x => x.id === a.pergunta);
     $("mesa").classList.toggle("com-pergunta", Boolean(p));
     $("mesa-pergunta").hidden = !p;
     if (!p) return $("mesa-pergunta").replaceChildren();
-    const quem = jogadores.find(j => j.id === a.respondente);
-    const linhaQuem = el("div", { className: "mp-quem" });
-    if (quem) linhaQuem.append("Responde: ", el("strong", { textContent: quem.nome }));
-    const partes = [etiqueta(p.tema), linhaQuem];
-    if (a.leitor && a.leitor !== a.respondente) partes.push(el("div", { className: "mp-le", textContent: `Lê: ${nomeDe(a.leitor)}` }));
+    const papeis = el("div", { className: "mp-papeis" });
+    for (const [rotulo, id, classe] of [["Pergunta", a.leitor, "le"], ["Responde", a.respondente, "responde"]]) {
+      if (!id) continue;
+      const d = el("div", { className: "mp-papel " + classe });
+      d.append(el("span", { textContent: rotulo }), el("strong", { textContent: nomeDe(id) }));
+      papeis.append(d);
+    }
+    const partes = [etiqueta(p.tema), papeis];
     if (a.tentaram?.length) {
       const t = el("div", { className: "mp-tentaram", textContent: "Já tentaram: " });
       a.tentaram.forEach((id, i) => t.append(i ? ", " : "", el("s", { textContent: nomeDe(id) })));
       partes.push(t);
     }
-    if (p.imagem) partes.push(el("img", { src: "img/" + p.imagem.arquivo, alt: "Figura da pergunta" }));
+    if (p.imagem) partes.push(el("img", { alt: "Figura da pergunta",
+      src: "img/" + (a.revelada && p.imagem.revelacao ? p.imagem.revelacao : p.imagem.arquivo) }));
     partes.push(el("div", { className: "mp-texto", textContent: p.pergunta }));
     if (a.opcoes?.length) {
       const ol = el("ol", { type: "A" });
-      ol.append(...a.opcoes.map(o => el("li", { textContent: o })));
+      ol.append(...a.opcoes.map(o => el("li", { textContent: o, className: a.revelada && o === p.resposta ? "correta" : "" })));
       partes.push(ol);
+    }
+    if (a.revelada) {
+      const r = el("div", { className: "mp-resposta" });
+      r.append(el("span", { textContent: "Resposta" }), p.resposta);
+      partes.push(r);
     }
     $("mesa-pergunta").replaceChildren(...partes);
   }
@@ -1532,7 +1561,8 @@
     } else t.evento = "";
     t.descartar = Math.max(t.descartar || 0, excesso(t));
     batch.update(refJ(jv.id), { trilha: t });
-    batch.update(doc(db, "partidas", codigo), { atual: null, ...(passa ? { vez: proximo({ ...jv, trilha: t }).id } : {}) });
+    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? {} : { atual: null }),
+                                                ...(passa ? { vez: proximo({ ...jv, trilha: t }).id } : {}) });
     try {
       await batch.commit();
       limparTurno();
