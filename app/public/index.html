@@ -89,6 +89,12 @@
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    /* QR code: fundo branco, que os leitores de QR exigem, mesmo no app sempre escuro. */
+    #qr { position: fixed; inset: 0; background: #000; z-index: 30; display: flex; flex-direction: column;
+          align-items: center; justify-content: center; gap: 1rem; padding: 16px; cursor: zoom-out; text-align: center; }
+    #qr-img { background: #fff; padding: 12px; border-radius: 14px; width: min(86vw, 70vh, 420px); }
+    #qr-img svg { display: block; width: 100%; height: auto; }
+    #qr-url { color: var(--suave); word-break: break-all; }
     /* Barra fixa no rodapé com a ação do momento (Sortear, Mostrar resposta, Acertou/Errou), ao alcance do polegar. */
     #jogo { padding-bottom: 5.5rem; }
     .convite { display: flex; align-items: center; gap: .6rem; margin: .2rem 0 .8rem; }
@@ -190,7 +196,10 @@
       </form>
     </div>
     <p id="erro-entrada" class="erro"></p>
-    <button id="info-entrada-botao" aria-expanded="false">Informações sobre as perguntas</button>
+    <div class="linha">
+      <button id="info-entrada-botao" aria-expanded="false" style="flex:1">Informações sobre as perguntas</button>
+      <button id="qr-entrada" style="flex:none">QR code</button>
+    </div>
     <div id="info-entrada" hidden></div>
   </section>
 
@@ -203,6 +212,7 @@
     <div class="convite">
       <span id="convite-msg" class="suave">Os outros entram com este código.</span>
       <button id="convidar">Convidar</button>
+      <button id="qr-partida" style="flex:none">QR code</button>
     </div>
     <div class="abas" role="tablist">
       <button role="tab" data-aba="sorteio" aria-selected="true">Sorteio</button>
@@ -318,6 +328,16 @@
 
 <!-- Só a figura, para mostrar ao respondente sem revelar texto nem resposta -->
 <div id="tela-cheia" hidden><img id="tela-cheia-img" alt="Figura da pergunta"></div>
+
+<!-- QR code com o link do site (ou da partida), para os outros abrirem pela câmera -->
+<div id="qr" hidden>
+  <div id="qr-titulo"></div>
+  <div id="qr-img" role="img" aria-label="QR code"></div>
+  <div id="qr-url"></div>
+  <div class="suave">Toque para fechar</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
 
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
@@ -1185,6 +1205,20 @@
       if (e.name !== "AbortError") $("convite-msg").textContent = `Link: ${url}`;
     }
   };
+
+  // QR code: na entrada, o site; na partida, o link que já entra nela.
+  function mostrarQr(url, titulo) {
+    const qr = qrcode(0, "M");
+    qr.addData(url);
+    qr.make();
+    $("qr-img").innerHTML = qr.createSvgTag({ cellSize: 8, margin: 2, scalable: true });
+    $("qr-titulo").textContent = titulo;
+    $("qr-url").textContent = url;
+    $("qr").hidden = false;
+  }
+  $("qr-entrada").onclick = () => mostrarQr(`${location.origin}${location.pathname}`, "Mestre2");
+  $("qr-partida").onclick = () => mostrarQr(`${location.origin}${location.pathname}#${codigo}`, `Partida ${codigo}`);
+  $("qr").onclick = () => { $("qr").hidden = true; };
 
   $("form-jogador").onsubmit = async e => {
     e.preventDefault();
