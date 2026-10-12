@@ -65,6 +65,13 @@ def main():
     print(f"{len(avaliacoes)} avaliações gravadas em pipeline/banco/avaliacoes.json.")
     if not avaliacoes:
         return
+    # Avaliação sem nada marcado (quem lê desmarcou tudo) não diz nada e fica fora do relatório.
+    vazias = [a for a in avaliacoes if not (a.get("dificuldade") or a.get("otima") or a.get("problemas") or a.get("comentario"))]
+    avaliacoes = [a for a in avaliacoes if a not in vazias]
+    if vazias:
+        print(f"{len(vazias)} sem nada marcado, fora do relatório.")
+    if not avaliacoes:
+        return
     perguntas = {p["id"]: p for p in ler_json(BANCO_DIR / "perguntas.json", [])}
     por_pergunta = defaultdict(list)
     for a in avaliacoes:
