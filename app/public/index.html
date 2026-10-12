@@ -395,7 +395,7 @@
             definidas: por enquanto, o grupo as aplica à mão, com − e + ou arrastando o peão.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
             na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
-            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, só quando quem pergunta a mostra.</p>
+            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, quando quem pergunta a mostra ou quando a rodada acaba.</p>
         </details>
         <details id="regras-master" class="regras">
           <summary>Como se joga</summary>
@@ -406,7 +406,7 @@
             Cada acerto avança uma casa; errar não move o peão.</p>
           <p class="suave">A vez segue a ordem da lista de jogadores, e quem lê é o seguinte da fila. Se quem está
             na vez erra uma pergunta aberta, ela passa ao seguinte, pulando quem lê, até alguém acertar ou todos
-            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, só quando quem pergunta a mostra.</p>
+            tentarem; a de múltipla escolha não passa. No modo mesa, a pergunta aparece para todos; a resposta, quando quem pergunta a mostra ou quando a rodada acaba.</p>
         </details>
         <div class="editar-linha"><button id="editar" aria-pressed="false">Editar jogadores</button></div>
         <ul id="placar" class="placar"></ul>
@@ -1034,7 +1034,7 @@
     const base = jogadores.find(j => j.id === atual.base);
     const quem = jogadores.find(j => j.id === ultima.respondente);
     const som = !ultima.acertou ? "erro" : quem && casaDe(quem) + 1 >= chegadaDoModo() ? "vitoria" : "acerto";
-    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }), som: evento(som),
+    batch.update(doc(db, "partidas", codigo), { atual: atualEncerrada(tentativas), som: evento(som),
                                                 ...(base ? { vez: (proximoM(base) || base).id } : {}) });
     try {
       await batch.commit();
@@ -1047,13 +1047,17 @@
   // A pergunta em jogo fica no documento da partida, para o modo mesa mostrá-la em qualquer aparelho.
   // Vai sem a resposta: só o id, as alternativas na ordem desta tela, quem responde, quem lê e quem já tentou.
   // "som" é o evento que a tela grande toca junto com a mudança (ver tocar).
+  const dadosAtual = (tentativas = atual.tentativas) => ({
+    sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
+    leitor: atual.leitor || null, tentaram: tentativas.map(t => t.respondente), revelada: atual.publica, tempo: atual.tempo || null });
   function publicarAtual(som) {
     if (!codigo) return;
-    const dados = atual ? { sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
-                            leitor: atual.leitor || null, tentaram: atual.tentativas.map(t => t.respondente),
-                            revelada: atual.publica, tempo: atual.tempo || null } : null;
-    updateDoc(doc(db, "partidas", codigo), { atual: dados, ...(som ? { som: evento(som) } : {}) }).catch(() => {});
+    updateDoc(doc(db, "partidas", codigo), { atual: atual ? dadosAtual() : null, ...(som ? { som: evento(som) } : {}) }).catch(() => {});
   }
+  // Fim da rodada (alguém acertou ou todos erraram): a pergunta fica no modo mesa com a resposta à vista para
+  // todos, até o próximo sorteio. "respondente" é quem respondeu por último; "tentaram", só quem errou.
+  const atualEncerrada = tentativas => ({ ...dadosAtual(tentativas.filter(t => !t.acertou)),
+    respondente: tentativas.at(-1)?.respondente || respondente || null, revelada: true, tempo: null, fim: true });
 
   function fecharPergunta() {
     atual = null;
@@ -1862,7 +1866,7 @@
     } else t.evento = "";
     t.descartar = Math.max(t.descartar || 0, excesso(t));
     batch.update(refJ(jv.id), { trilha: t });
-    batch.update(doc(db, "partidas", codigo), { ...(atual.publica ? { "atual.fim": true } : { atual: null }),
+    batch.update(doc(db, "partidas", codigo), { atual: atualEncerrada([...atual.tentativas, { respondente, acertou }]),
                                                 som: evento(acertou ? "acerto" : "erro"),
                                                 ...(passa ? { vez: proximo({ ...jv, trilha: t }).id } : {}) });
     try {
