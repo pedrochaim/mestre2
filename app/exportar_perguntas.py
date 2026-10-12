@@ -1,4 +1,4 @@
-"""Copia o banco do pipeline para o app, só com os campos que o app usa, e as imagens.
+"""Copia o banco do pipeline para o app, só com os campos que o app usa, as imagens e os áudios.
 
 A âncora sai já resolvida no cadastro (nome e descrição), para o painel "Sobre a pergunta"; se ela foi
 fundida em outra, vale a entrada que a absorveu.
@@ -12,7 +12,7 @@ from pathlib import Path
 AQUI = Path(__file__).parent
 BANCO = AQUI.parent / "pipeline" / "banco"
 PUBLICO = AQUI / "public"
-CAMPOS = ["id", "tema", "subtema", "tipo", "pergunta", "resposta", "distratores", "imagem",
+CAMPOS = ["id", "tema", "subtema", "tipo", "pergunta", "resposta", "distratores", "imagem", "audio",
           "angulo", "fonte", "autor", "dificuldade"]
 
 perguntas = json.loads((BANCO / "perguntas.json").read_text(encoding="utf-8"))
@@ -46,6 +46,17 @@ orfas = [f for f in img.iterdir() if f.is_file() and f.name not in em_uso]
 for f in orfas:
     f.unlink()
 
+# Áudios das perguntas (tocam na tela grande do modo mesa); os de perguntas apagadas saem do site.
+pasta_audio = PUBLICO / "audio"
+pasta_audio.mkdir(exist_ok=True)
+com_audio = [p for p in saida if "audio" in p]
+audios_em_uso = {p["audio"]["arquivo"] for p in com_audio}
+for arquivo in audios_em_uso:
+    shutil.copy2(BANCO / "audios" / arquivo, pasta_audio / arquivo)
+for f in pasta_audio.iterdir():
+    if f.is_file() and f.name not in audios_em_uso:
+        f.unlink()
+
 # Temas e subtemas na ordem canônica, com as descrições para os jogadores (aba Informações).
 canonicos = json.loads((AQUI.parent / "manifesto" / "temas_subtemas.json").read_text(encoding="utf-8"))
 descricoes = json.loads((AQUI / "descricoes.json").read_text(encoding="utf-8"))
@@ -57,7 +68,7 @@ sem_descricao = [t["tema"] for t in temas if not t["descricao"]] + \
                 [s["subtema"] for t in temas for s in t["subtemas"] if not s["descricao"]]
 
 sem_ancora = [p["id"] for p in saida if "ancora" not in p]
-print(f"{len(saida)} perguntas exportadas ({len(com_imagem)} com figura)")
+print(f"{len(saida)} perguntas exportadas ({len(com_imagem)} com figura, {len(com_audio)} com áudio)")
 if sem_ancora:
     print("Aviso: âncora não encontrada no cadastro:", ", ".join(sem_ancora))
 if sem_descricao:

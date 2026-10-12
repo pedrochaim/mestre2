@@ -217,6 +217,23 @@
     #mesa-zoom li.correta { color: var(--certo); font-weight: 700; border-color: var(--certo); background: #0d1f15; }
     #mesa-zoom li.correta::before { background: var(--certo); color: #000; }
     #mesa-zoom .mz-dica { position: absolute; top: 1vmin; right: 1.5vmin; color: var(--suave); font-size: clamp(11px, 1.6vmin, 20px); }
+    /* Pergunta com áudio: no celular de quem lê, os botões que tocam o som na tela grande; na tela grande, o aviso. */
+    .audio-pergunta { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: .3rem 0 .8rem;
+                      padding: .6rem .8rem; border: 1px solid var(--acento); border-radius: 10px; }
+    .audio-pergunta > span { flex: 1 1 100%; color: var(--suave); font-size: .9rem; }
+    .audio-pergunta button { flex: 1; }
+    .audio-pergunta button[aria-pressed="true"] { background: var(--acento); border-color: var(--acento); color: var(--sobre-cor); }
+    #mesa-pergunta .mp-audio { display: flex; align-items: center; gap: .6em; margin: .55em 0 .2em; padding: .4em .7em;
+                               border: 2px solid var(--acento); border-radius: .5em; }
+    #mesa-pergunta .mp-audio button { flex: none; width: 2.4em; height: 2.4em; padding: 0; border-radius: 50%; font-size: 1em;
+                                      background: var(--acento); border-color: var(--acento); color: var(--sobre-cor); }
+    #mesa-pergunta .mp-audio div { display: flex; flex-direction: column; line-height: 1.2; }
+    #mesa-pergunta .mp-audio strong { font-size: 1.05em; }
+    #mesa-pergunta .mp-audio small { color: var(--suave); font-size: .6em; }
+    #mesa-pergunta .mp-audio.tocando { border-color: var(--certo); }
+    #mesa-pergunta .mp-audio.tocando button { background: var(--certo); border-color: var(--certo); }
+    .filtros { display: flex; gap: .5rem; }
+    .filtros select { flex: 1; min-width: 0; }
     /* Tela grande revendo a rodada anterior. */
     #mesa-pergunta .mp-revendo { color: #f5c542; font-weight: 800; font-size: .72em; text-transform: uppercase;
                                  letter-spacing: .06em; margin-bottom: .4em; }
@@ -261,8 +278,16 @@
     .barra button { padding: .85rem 1rem; font-size: 1.05rem; }
     .barra .duas { display: flex; gap: .5rem; margin-top: .5rem; }
     .barra .duas button { flex: 1; }
-    .quem { display: flex; align-items: center; gap: .5rem; margin: .6rem 0 .2rem; }
-    .quem button { padding: .2rem .7rem; font-size: .85rem; color: var(--suave); }
+    /* Quem pergunta → quem responde, no cartão da pergunta: o mesmo desenho da tela grande. */
+    #atual-papeis .mp-papeis { display: flex; gap: .4rem 1rem; flex-wrap: wrap; align-items: center; margin: .7rem 0 .6rem; }
+    #atual-papeis .mp-papel { display: flex; align-items: center; gap: .5rem; }
+    #atual-papeis .mp-papel > div { display: flex; flex-direction: column; line-height: 1.15; }
+    #atual-papeis .mp-papel > div > span { color: var(--suave); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; }
+    #atual-papeis .mp-papel strong { font-size: 1.1rem; }
+    #atual-papeis .mp-papel.responde strong { color: var(--acento); }
+    #atual-papeis .mp-seta { color: var(--suave); }
+    #atual-papeis .mp-peao { font-size: 1rem; }
+    #atual-papeis .mp-papeis button { margin-left: auto; padding: .2rem .7rem; font-size: .85rem; color: var(--suave); }
     /* Informações: totais do banco e, por tema, a descrição e as contagens de cada subtema. */
     .totais { display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem; }
     .totais div { border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .7rem; }
@@ -395,11 +420,19 @@
       <div id="cartao-temas" class="cartao">
         <div id="temas" class="temas"></div>
         <p id="em-breve" class="suave em-breve" hidden></p>
-        <select id="figura">
-          <option value="todas">Com ou sem figura</option>
-          <option value="com">Só com figura</option>
-          <option value="sem">Só sem figura</option>
-        </select>
+        <div class="filtros">
+          <select id="figura">
+            <option value="todas">Com ou sem figura</option>
+            <option value="com">Só com figura</option>
+            <option value="sem">Só sem figura</option>
+          </select>
+          <!-- O áudio só toca na tela grande (modo mesa): sem ela, convém deixar as perguntas com áudio de fora -->
+          <select id="filtro-audio" hidden>
+            <option value="todas">Com ou sem áudio</option>
+            <option value="com">Só com áudio</option>
+            <option value="sem">Sem áudio</option>
+          </select>
+        </div>
       </div>
       </div>
       <p id="msg-sorteio" class="suave"></p>
@@ -413,10 +446,18 @@
       <div id="atual" class="cartao" hidden>
         <div id="atual-tema" class="etiqueta"></div>
         <span id="atual-repetida" class="repetida" hidden></span>
+        <!-- Quem pergunta (à esquerda) e quem responde (à direita), como na tela grande -->
+        <div id="atual-papeis"></div>
         <div id="atual-figura" class="figura" hidden>
           <img id="atual-img" alt="Figura da pergunta" title="Toque para mostrar em tela cheia">
         </div>
         <p id="atual-passou" class="suave" hidden></p>
+        <!-- Pergunta com áudio: o som toca na tela grande; daqui só se manda tocar ou parar -->
+        <div id="atual-audio" class="audio-pergunta" hidden>
+          <span>🔊 Pergunta com áudio: o som toca na tela grande (modo mesa).</span>
+          <button id="audio-tocar">▶ Tocar na tela grande</button>
+          <button id="audio-parar">⏹ Parar</button>
+        </div>
         <div id="atual-pergunta" class="pergunta"></div>
         <ol id="atual-opcoes" class="opcoes" type="A" hidden></ol>
         <!-- Cronômetro: a contagem aparece só no modo mesa; quando acaba, nada muda no jogo -->
@@ -426,8 +467,7 @@
         </div>
         <div id="revelado" hidden>
           <div id="atual-resposta" class="resposta"></div>
-          <!-- Quem responde já foi escolhido antes do sorteio: mostra o nome, e a lista só se for trocar -->
-          <div id="quem" class="quem"></div>
+          <!-- Quem responde já foi escolhido antes do sorteio e aparece no alto do cartão; a lista, só se for trocar -->
           <div id="quem-rotulo" class="suave">Quem respondeu?</div>
           <div id="respondentes" class="chips"></div>
           <div class="acoes"><button id="revelar-todos">Mostrar resposta para todos</button>
@@ -567,6 +607,9 @@
 
   let codigo = null;
   let perguntas = [];
+  // Perguntas com áudio fora do jogo até segunda ordem (MANIFESTO §16): nem chegam à lista, e o filtro de áudio
+  // fica escondido. Para liberá-las, basta trocar para true.
+  const AUDIO_NO_JOGO = false;
   let jogadores = [];        // [{id, nome, pontos, tema}]; "pontos" é a casa do peão
   // Cada sorteio da partida é um registro {pergunta, respondente, acertou}. Partidas antigas guardavam um
   // registro por pergunta, em "usadas"; elas continuam sendo lidas e contam junto.
@@ -664,7 +707,7 @@
     return s;
   }
 
-  const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { perguntas = d; });
+  const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { perguntas = AUDIO_NO_JOGO ? d : d.filter(p => !p.audio); });
 
   // ---------------------------------------------------------------- entrada
 
@@ -712,10 +755,12 @@
 
     const base = doc(db, "partidas", c);
     ultimoSom = undefined;
+    ultimoAudioN = undefined;
     desligar.push(onSnapshot(base, snap => {
       const antes = JSON.stringify(partida.atual ?? null);
       partida = snap.data() || {};
       if (JSON.stringify(partida.atual ?? null) !== antes) revendo = false;
+      audioDaPartida();
       // Toca o evento de som novo; o primeiro retrato da partida só marca onde ela está.
       const n = partida.som?.n ?? null;
       if (ultimoSom !== undefined && n && n !== ultimoSom) tocar(partida.som.e);
@@ -786,11 +831,13 @@
 
   function contar(lista) {
     const multipla = lista.filter(p => p.tipo === "multipla").length;
-    return { total: lista.length, multipla, aberta: lista.length - multipla, figura: lista.filter(p => p.imagem).length };
+    return { total: lista.length, multipla, aberta: lista.length - multipla, figura: lista.filter(p => p.imagem).length,
+             audio: lista.filter(p => p.audio).length };
   }
   const pct = (n, total) => total ? ` (${Math.round(100 * n / total)}%)` : "";
   const numero = n => n.toLocaleString("pt-BR");
-  const resumo = c => `${numero(c.multipla)} múltipla escolha · ${numero(c.aberta)} ${c.aberta === 1 ? "aberta" : "abertas"} · ${numero(c.figura)} com figura`;
+  const resumo = c => `${numero(c.multipla)} múltipla escolha · ${numero(c.aberta)} ${c.aberta === 1 ? "aberta" : "abertas"} · ${numero(c.figura)} com figura`
+    + (c.audio ? ` · ${numero(c.audio)} com áudio` : "");
 
   // Monta a página de informações dentro da caixa: totais do banco e um bloco por tema, que abre com a
   // descrição e os subtemas. Temas e subtemas ainda sem perguntas também aparecem, como "em breve".
@@ -817,7 +864,7 @@
     }
     const topo = el("div", { className: "cartao" });
     topo.append(totais, el("p", { className: "suave", style: "margin:.7rem 0 0",
-      textContent: `${lista.length} temas e ${lista.reduce((s, t) => s + t.subtemas.length, 0)} subtemas. Toque num tema para ver a descrição e os subtemas.` }));
+      textContent: `${geral.audio ? `${numero(geral.audio)} perguntas com áudio, que toca na tela grande. ` : ""}${lista.length} temas e ${lista.reduce((s, t) => s + t.subtemas.length, 0)} subtemas. Toque num tema para ver a descrição e os subtemas.` }));
 
     const blocos = lista.map(t => {
       const doTema = perguntas.filter(p => p.tema === t.tema);
@@ -874,15 +921,17 @@
 
   // ---------------------------------------------------------------- sorteio
 
-  // Perguntas do tema com o filtro de figura; "restantes" são as que ainda não saíram na partida.
+  // Perguntas do tema com os filtros de figura e de áudio; "restantes" são as que ainda não saíram na partida.
   function doFiltro(tema) {
-    const figura = $("figura").value;
+    const figura = $("figura").value, audio = $("filtro-audio").value;
     return perguntas.filter(p => (tema === "*" || p.tema === tema)
-      && (figura === "todas" || (figura === "com") === Boolean(p.imagem)));
+      && (figura === "todas" || (figura === "com") === Boolean(p.imagem))
+      && (audio === "todas" || (audio === "com") === Boolean(p.audio)));
   }
   const restantes = tema => doFiltro(tema).filter(p => !vezes.has(p.id));
 
-  $("figura").onchange = desenharTemas;
+  $("figura").onchange = $("filtro-audio").onchange = desenharTemas;
+  $("filtro-audio").hidden = !AUDIO_NO_JOGO;
 
   function desenharTemas() {
     const temas = temasDoJogo();
@@ -976,6 +1025,8 @@
       // Silhuetas de Pokémon: a arte colorida já é baixada agora, para aparecer na hora em "Mostrar resposta".
       if (p.imagem.revelacao) new Image().src = "img/" + p.imagem.revelacao;
     }
+    $("atual-audio").hidden = !p.audio;
+    $("audio-tocar").setAttribute("aria-pressed", "false");
     $("atual-pergunta").textContent = p.pergunta;
     $("atual-opcoes").hidden = !atual.opcoes;
     $("atual-opcoes").replaceChildren(...(atual.opcoes || []).map(texto => {
@@ -1000,12 +1051,20 @@
   }
 
   $("atual-img").onclick = () => { $("tela-cheia").hidden = false; };
+  // Áudio da pergunta: quem lê manda a tela grande tocar (do começo) ou parar; "n" distingue um toque do outro.
+  for (const [botao, acao] of [["audio-tocar", "tocar"], ["audio-parar", "parar"]]) $(botao).onclick = () => {
+    if (!atual) return;
+    atual.audio = { acao, n: Date.now() };
+    $("audio-tocar").setAttribute("aria-pressed", String(acao === "tocar"));
+    publicarAtual();
+  };
   $("tela-cheia").onclick = () => { $("tela-cheia").hidden = true; };
 
   $("revelar").onclick = () => {
     const mostrar = $("revelado").hidden;
     $("revelado").hidden = !mostrar;
     atualizarBarra();
+    desenharRespondentes();
     [...$("atual-opcoes").children].forEach(li => li.classList.toggle("correta", mostrar && li.textContent === atual.resposta));
     // A figura com revelação (silhueta → arte colorida) troca junto com a resposta, e volta ao esconder.
     if (atual.imagem?.revelacao)
@@ -1138,6 +1197,7 @@
       const credito = el("span", { textContent: `${p.imagem.autor}, ${p.imagem.licenca} · ` });
       item("Fonte da figura", credito, /^https?:\/\//.test(p.imagem.origem) ? link(p.imagem.origem) : "");
     }
+    if (p.audio) item("Fonte do áudio", el("span", { textContent: `${p.audio.autor}, ${p.audio.licenca} · ` }), link(p.audio.origem));
     if (p.autor) item("Autor", p.autor);
     item("Id", el("span", { className: "id", textContent: p.id }));
     $("sobre-painel").replaceChildren(...itens);
@@ -1157,13 +1217,15 @@
     if (!respondente || !jogadores.some(j => j.id === respondente)) respondente = null;
     const quem = jogadores.find(j => j.id === respondente);
     const lista = !quem || trocando;
-    $("quem").hidden = lista;
-    if (quem) {
+    const linha = atual ? papeisDe(atual.leitor, respondente) : null;
+    // Depois da resposta, "trocar" ao lado de quem responde abre a lista. Na Trilha, quem responde é o jogador da
+    // vez (ou o alvo do Desafio): não se troca.
+    if (linha && quem && !lista && !ehTrilha() && !$("revelado").hidden) {
       const trocar = el("button", { textContent: "trocar" });
       trocar.onclick = () => { trocando = true; desenharRespondentes(); };
-      // Na Trilha, quem responde é o jogador da vez (ou o alvo do Desafio): não se troca.
-      $("quem").replaceChildren("Responde: ", el("strong", { textContent: quem.nome }), ...(ehTrilha() ? [] : [trocar]));
+      linha.append(trocar);
     }
+    $("atual-papeis").replaceChildren(...(linha ? [linha] : []));
     $("quem-rotulo").hidden = $("respondentes").hidden = !lista;
     $("respondentes").replaceChildren(...jogadores.map(j => {
       const b = document.createElement("button");
@@ -1233,7 +1295,8 @@
   // "som" é o evento que a tela grande toca junto com a mudança (ver tocar).
   const dadosAtual = (tentativas = atual.tentativas) => ({
     sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
-    leitor: atual.leitor || null, tentaram: tentativas.map(t => t.respondente), revelada: atual.publica, tempo: atual.tempo || null });
+    leitor: atual.leitor || null, tentaram: tentativas.map(t => t.respondente), revelada: atual.publica, tempo: atual.tempo || null,
+    audio: atual.audio || null });
   // Quando sai uma pergunta nova depois de uma rodada encerrada, essa rodada vira "anterior", que a tela grande
   // pode mostrar de novo (botão Rodada anterior).
   function publicarAtual(som) {
@@ -1558,25 +1621,27 @@
     pintar(s, temaDoPeao(j));
     return s;
   }
+  // Quem pergunta → quem responde, cada um com a ficha da cor do peão: na tela grande e no cartão do Sorteio.
+  function papeisDe(le, responde) {
+    const caixa = el("div", { className: "mp-papeis" });
+    for (const [rotulo, id, classe] of [["Pergunta", le, "le"], ["Responde", responde, "responde"]]) {
+      const j = id && jogadores.find(x => x.id === id);
+      if (!j) continue;
+      if (caixa.childElementCount) caixa.append(el("span", { className: "mp-seta", textContent: "→" }));
+      const d = el("div", { className: "mp-papel " + classe }), nomes = el("div");
+      nomes.append(el("span", { textContent: rotulo }), el("strong", { textContent: j.nome }));
+      d.append(fichaPeao(j), nomes);
+      caixa.append(d);
+    }
+    return caixa;
+  }
   function desenharMesa() {
     if (revendo && !partida.anterior) revendo = false;
     const a = revendo ? partida.anterior : partida.atual;
     $("mesa-rever").hidden = !partida.anterior;
     $("mesa-rever").textContent = revendo ? "Voltar ao jogo" : "↩ Rodada anterior";
     const p = a && perguntas.find(x => x.id === a.pergunta);
-    const papeis = (le, responde) => {
-      const caixa = el("div", { className: "mp-papeis" });
-      for (const [rotulo, id, classe] of [["Pergunta", le, "le"], ["Responde", responde, "responde"]]) {
-        const j = id && jogadores.find(x => x.id === id);
-        if (!j) continue;
-        if (caixa.childElementCount) caixa.append(el("span", { className: "mp-seta", textContent: "→" }));
-        const d = el("div", { className: "mp-papel " + classe }), nomes = el("div");
-        nomes.append(el("span", { textContent: rotulo }), el("strong", { textContent: j.nome }));
-        d.append(fichaPeao(j), nomes);
-        caixa.append(d);
-      }
-      return caixa;
-    };
+    const papeis = papeisDe;
     // Sem pergunta em jogo (ou com a rodada já encerrada), a vez seguinte: quem vai ler e quem vai responder.
     const v = ehTrilha() ? (mapa ? vezAtual() : null) : vezM();
     const le = v && (ehTrilha() ? proximo(v) : leitorDe(v));
@@ -1627,6 +1692,7 @@
     cartao.classList.toggle("com-opcoes", Boolean(a.opcoes?.length));
     if (p.imagem) partes.push(el("img", { alt: "Figura da pergunta",
       src: "img/" + (a.revelada && p.imagem.revelacao ? p.imagem.revelacao : p.imagem.arquivo) }));
+    if (p.audio) partes.push(blocoAudioMesa(p));
     partes.push(el("div", { className: "mp-texto", textContent: p.pergunta }));
     if (a.opcoes?.length) {
       // Com figura, em duas colunas para caber.
@@ -1700,6 +1766,48 @@
       li.append(fichaPeao(j), textos);
       return li;
     }));
+  }
+
+  // Áudio das perguntas: toca só na tela grande, mesmo sem o Modo experimental. Quem lê manda tocar ou parar
+  // (partida.atual.audio, {acao, n}); a tela grande obedece quando "n" muda. O botão do próprio aviso também toca.
+  const somPergunta = new Audio();
+  somPergunta.preload = "auto";
+  let somDe = null;            // id da pergunta cujo áudio está carregado
+  let ultimoAudioN;            // "n" do último comando visto; undefined antes do primeiro retrato da partida
+  function tocarAudio(p) {
+    if (somDe !== p.id) { somPergunta.src = "audio/" + p.audio.arquivo; somDe = p.id; }
+    somPergunta.currentTime = 0;
+    somPergunta.play().catch(() => {});
+  }
+  function pararAudio() { somPergunta.pause(); }
+  function blocoAudioMesa(p) {
+    const tocando = somDe === p.id && !somPergunta.paused;
+    const caixa = el("div", { className: "mp-audio" + (tocando ? " tocando" : "") });
+    const botao = el("button", { textContent: tocando ? "⏹" : "▶", title: "Tocar ou parar o áudio" });
+    botao.onclick = () => (somDe === p.id && !somPergunta.paused ? pararAudio() : tocarAudio(p));
+    const textos = el("div");
+    textos.append(el("strong", { textContent: tocando ? "Tocando…" : "Ouça o áudio" }),
+                  el("small", { textContent: "Pergunta com áudio" }));
+    caixa.append(botao, textos);
+    return caixa;
+  }
+  // O aviso acompanha o som (tocando ou parado) sem redesenhar a tela inteira.
+  for (const ev of ["play", "pause", "ended"]) somPergunta.addEventListener(ev, () => {
+    const caixa = $("mesa-pergunta").querySelector(".mp-audio");
+    if (!caixa) return;
+    const tocando = !somPergunta.paused && !somPergunta.ended;
+    caixa.classList.toggle("tocando", tocando);
+    caixa.querySelector("button").textContent = tocando ? "⏹" : "▶";
+    caixa.querySelector("strong").textContent = tocando ? "Tocando…" : "Ouça o áudio";
+  });
+  // Chamado a cada retrato da partida: pergunta nova (ou nenhuma) para o som; um comando novo de quem lê é obedecido.
+  function audioDaPartida() {
+    const a = partida.atual, p = a && perguntas.find(x => x.id === a.pergunta);
+    if (!p || somDe !== p.id) pararAudio();
+    const n = a?.audio?.n ?? null;
+    if (ultimoAudioN !== undefined && n && n !== ultimoAudioN && p?.audio && !$("mesa").hidden)
+      a.audio.acao === "tocar" ? tocarAudio(p) : pararAudio();
+    ultimoAudioN = n;
   }
 
   let relogio = null;  // {n, fim}: contagem em andamento no modo mesa
@@ -1811,6 +1919,7 @@
   addEventListener("keydown", e => { if (e.key === "Escape" && !$("mesa-zoom").hidden) { e.preventDefault(); fecharZoom(); } });
   $("mesa-fechar").onclick = () => {
     fecharZoom();
+    pararAudio();
     $("mesa").hidden = true;
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
     mesaAcesa?.release().catch(() => {});

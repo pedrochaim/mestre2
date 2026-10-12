@@ -137,6 +137,49 @@
           "description": "Opcional. Imagem mostrada só depois da resposta, também em pipeline/banco/imagens/ (MANIFESTO §6). Usada nas silhuetas de Pokémon: a figura da pergunta é a silhueta preta, e a revelação é a arte colorida."
         }
       }
+    },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "arquivo",
+        "origem",
+        "autor",
+        "licenca"
+      ],
+      "description": "Opcional. Trecho de áudio que toca na tela grande do modo mesa (MANIFESTO §6, 'Perguntas com áudio'). O enunciado continua sendo lido em voz alta.",
+      "properties": {
+        "arquivo": {
+          "type": "string",
+          "pattern": "^q[0-9]{5}\\.mp3$",
+          "description": "Nome do arquivo em pipeline/banco/audios/: o id da pergunta, para o nome não entregar a resposta."
+        },
+        "origem": {
+          "type": "string",
+          "pattern": "^https://commons\\.wikimedia\\.org/wiki/File:",
+          "description": "Página do arquivo original no Wikimedia Commons."
+        },
+        "autor": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Autor ou intérprete da gravação, como exige a licença."
+        },
+        "licenca": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Licença livre, ex.: 'Domínio público', 'CC BY-SA 4.0'."
+        },
+        "inicio": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Segundo da gravação original em que o trecho começa."
+        },
+        "duracao": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Duração do trecho, em segundos."
+        }
+      }
     }
   },
   "if": {
