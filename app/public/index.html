@@ -170,7 +170,8 @@
     #mesa-jogadores small { color: var(--suave); font-size: .75em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     #mesa-jogadores small b { color: var(--texto); }
     #mesa-jogadores li.destaque small b { color: var(--acento); }
-    .vez-linha { margin: 0 0 .4rem; }
+    .vez-linha .mp-papeis { margin: 0 0 .7rem; }
+    .vez .papeis .mp-papeis { margin: 0 0 .5rem; }
     .cronometro { margin: 0 0 .8rem; }
     .cronometro button[aria-pressed="true"] { border-color: var(--acento); color: var(--acento); }
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
@@ -278,16 +279,16 @@
     .barra button { padding: .85rem 1rem; font-size: 1.05rem; }
     .barra .duas { display: flex; gap: .5rem; margin-top: .5rem; }
     .barra .duas button { flex: 1; }
-    /* Quem pergunta → quem responde, no cartão da pergunta: o mesmo desenho da tela grande. */
-    #atual-papeis .mp-papeis { display: flex; gap: .4rem 1rem; flex-wrap: wrap; align-items: center; margin: .7rem 0 .6rem; }
-    #atual-papeis .mp-papel { display: flex; align-items: center; gap: .5rem; }
-    #atual-papeis .mp-papel > div { display: flex; flex-direction: column; line-height: 1.15; }
-    #atual-papeis .mp-papel > div > span { color: var(--suave); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; }
-    #atual-papeis .mp-papel strong { font-size: 1.1rem; }
-    #atual-papeis .mp-papel.responde strong { color: var(--acento); }
-    #atual-papeis .mp-seta { color: var(--suave); }
-    #atual-papeis .mp-peao { font-size: 1rem; }
-    #atual-papeis .mp-papeis button { margin-left: auto; padding: .2rem .7rem; font-size: .85rem; color: var(--suave); }
+    /* Quem pergunta → quem responde, no cartão da pergunta e na vez: o mesmo desenho da tela grande. */
+    .papeis .mp-papeis { display: flex; gap: .4rem 1rem; flex-wrap: wrap; align-items: center; margin: .7rem 0 .6rem; }
+    .papeis .mp-papel { display: flex; align-items: center; gap: .5rem; }
+    .papeis .mp-papel > div { display: flex; flex-direction: column; line-height: 1.15; }
+    .papeis .mp-papel > div > span { color: var(--suave); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; }
+    .papeis .mp-papel strong { font-size: 1.1rem; }
+    .papeis .mp-papel.responde strong { color: var(--acento); }
+    .papeis .mp-seta { color: var(--suave); }
+    .papeis .mp-peao { font-size: 1rem; }
+    .papeis .mp-papeis button { margin-left: auto; padding: .2rem .7rem; font-size: .85rem; color: var(--suave); }
     /* Informações: totais do banco e, por tema, a descrição e as contagens de cada subtema. */
     .totais { display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem; }
     .totais div { border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .7rem; }
@@ -314,7 +315,6 @@
     .atalhos button[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }
     /* Trilha da Vida: turno, casas, mão e modo mesa com o mapa vertical. */
     .vez { border-left: 8px solid var(--c, var(--linha)); }
-    .vez .quem-joga { font-size: 1.2rem; }
     .chip { display: inline-block; border-radius: 999px; padding: .05rem .6rem; font-size: .8rem; font-weight: 700;
             background: var(--c); color: var(--ct); margin: .15rem .3rem .15rem 0; }
     .evento { border: 1px solid #c9a7ff; border-radius: 10px; padding: .5rem .7rem; margin-top: .6rem; font-size: .92rem; }
@@ -412,7 +412,8 @@
       <!-- Jogadores: tema, posição, acertos e erros; tocar escolhe quem responde -->
       <div id="mini" class="cartao" hidden>
         <p id="vencedor-mini" class="vencedor" hidden></p>
-        <p id="vez-linha" class="vez-linha" hidden></p>
+        <!-- A vez: quem pergunta (à esquerda) e quem responde (à direita), como na tela grande -->
+        <div id="vez-linha" class="vez-linha papeis" hidden></div>
         <div class="suave">Quem responde? Toque no jogador para sortear no tema dele.</div>
         <div id="mini-placar" class="mini"></div>
       </div>
@@ -447,7 +448,7 @@
         <div id="atual-tema" class="etiqueta"></div>
         <span id="atual-repetida" class="repetida" hidden></span>
         <!-- Quem pergunta (à esquerda) e quem responde (à direita), como na tela grande -->
-        <div id="atual-papeis"></div>
+        <div id="atual-papeis" class="papeis"></div>
         <div id="atual-figura" class="figura" hidden>
           <img id="atual-img" alt="Figura da pergunta" title="Toque para mostrar em tela cheia">
         </div>
@@ -1635,6 +1636,12 @@
     }
     return caixa;
   }
+  // A vez, antes do sorteio: quem vai perguntar e quem vai responder; jogando sozinho, só quem responde.
+  function linhaDaVez(le, responde) {
+    const linha = papeisDe(le !== responde ? le?.id : null, responde.id);
+    if (le === responde) linha.append(el("span", { className: "suave", textContent: "jogando sozinho" }));
+    return linha;
+  }
   function desenharMesa() {
     if (revendo && !partida.anterior) revendo = false;
     const a = revendo ? partida.anterior : partida.atual;
@@ -1944,7 +1951,7 @@
     $("vez-linha").hidden = !v;
     if (v) {
       const le = leitorDe(v);
-      $("vez-linha").replaceChildren("Vez de ", el("strong", { textContent: v.nome }), le !== v ? ` · lê ${le.nome}` : " · jogando sozinho");
+      $("vez-linha").replaceChildren(linhaDaVez(le, v));
     }
 
     // Sorteio: um botão por jogador, que o escolhe como respondente.
@@ -2347,9 +2354,8 @@
     // Quem joga, quem lê, profissão, personalidade, posição
     const cab = el("div", { className: "cartao vez" });
     pintar(cab, prof.temas[0]);
-    const linha1 = el("div", { className: "quem-joga" });
-    linha1.append("Vez de ", el("strong", { textContent: jv.nome }));
-    linha1.append(el("span", { className: "suave", textContent: o.length > 1 ? ` · lê ${proximo(jv).nome}` : " · jogando sozinho" }));
+    const linha1 = el("div", { className: "papeis" });
+    linha1.append(linhaDaVez(o.length > 1 ? proximo(jv) : jv, jv));
     const linha2 = el("div");
     linha2.append(`${prof.nome} `, ...prof.temas.map(chipTema));
     const linha3 = el("div", { className: "suave", textContent:
