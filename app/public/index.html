@@ -116,13 +116,13 @@
     }
     :is(#mesa-pergunta, #mesa-seguinte) .mp-topo { display: flex; align-items: center; gap: .6em; flex-wrap: wrap; }
     :is(#mesa-pergunta, #mesa-seguinte) .etiqueta { font-size: .72em; padding: .15em .8em; }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-papeis { display: flex; gap: .4em 1.4em; flex-wrap: wrap; align-items: center; margin: .55em 0 .2em; }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-papel { display: flex; align-items: center; gap: .45em; }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-papel > div { display: flex; flex-direction: column; line-height: 1.15; }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-papel > div > span { color: var(--suave); font-size: .55em; text-transform: uppercase; letter-spacing: .06em; }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-papel strong { font-size: 1.1em; }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-papel.responde strong { color: var(--acento); }
-    :is(#mesa-pergunta, #mesa-seguinte) .mp-seta { color: var(--suave); font-size: .9em; }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-papeis { display: flex; gap: .4em 1.4em; flex-wrap: wrap; align-items: center; margin: .55em 0 .2em; }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-papel { display: flex; align-items: center; gap: .45em; }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-papel > div { display: flex; flex-direction: column; line-height: 1.15; }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-papel > div > span { color: var(--suave); font-size: .55em; text-transform: uppercase; letter-spacing: .06em; }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-papel strong { font-size: 1.1em; }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-papel.responde strong { color: var(--acento); }
+    :is(#mesa-pergunta, #mesa-seguinte, #mesa-zoom) .mp-seta { color: var(--suave); font-size: .9em; }
     /* Ficha do jogador: o mesmo círculo colorido, com as iniciais, do peão no tabuleiro. */
     .mp-peao { display: inline-flex; align-items: center; justify-content: center; flex: none; width: 1.9em; height: 1.9em;
                border-radius: 50%; background: var(--c); color: var(--ct); border: .12em solid #fff;
@@ -192,11 +192,19 @@
     #anterior .resumo .resposta { font-size: 1rem; margin: .2rem 0 0; }
     /* Figura ampliada na tela grande: por cima de tudo, dentro do modo mesa (fora dele, não apareceria em tela cheia). */
     #mesa-pergunta img { cursor: zoom-in; }
-    #mesa-zoom { position: absolute; inset: 0; z-index: 2; background: #000; display: flex; align-items: center;
-                 justify-content: center; cursor: zoom-out; }
-    #mesa-zoom img { max-width: 100%; max-height: 100%; object-fit: contain; }
-    #mesa-zoom span { position: absolute; bottom: 1.5vmin; left: 0; right: 0; text-align: center; color: var(--suave);
-                      font-size: clamp(12px, 1.8vmin, 22px); }
+    #mesa-zoom { position: absolute; inset: 0; z-index: 2; background: #000; display: flex; flex-direction: column;
+                 cursor: zoom-out; padding: 2vmin 3vmin; gap: 1.5vmin; }
+    #mesa-zoom > img { flex: 1; min-height: 0; width: 100%; object-fit: contain; }
+    /* Faixa da figura ampliada: quem pergunta e quem responde, a pergunta e, mostrada para todos, a resposta. */
+    #mesa-zoom .mz-legenda { flex: none; display: flex; align-items: center; gap: 1em 2em; flex-wrap: wrap;
+                             font-size: clamp(16px, 3.2vmin, 48px); line-height: 1.25; }
+    #mesa-zoom .mp-papeis { margin: 0; flex: none; }
+    #mesa-zoom .mz-texto { flex: 1 1 20em; font-weight: 650; font-size: 1.15em; }
+    #mesa-zoom .mz-resposta { flex: none; padding: .3em .7em; border-left: .3em solid var(--certo); background: #0d1f15;
+                              border-radius: .35em; color: var(--certo); font-weight: 800; font-size: 1.25em; }
+    #mesa-zoom .mz-resposta span { display: block; font-size: .42em; font-weight: 400; color: var(--suave);
+                                   text-transform: uppercase; letter-spacing: .06em; }
+    #mesa-zoom .mz-dica { position: absolute; top: 1vmin; right: 1.5vmin; color: var(--suave); font-size: clamp(11px, 1.6vmin, 20px); }
     /* Tela grande revendo a rodada anterior. */
     #mesa-pergunta .mp-revendo { color: #f5c542; font-weight: 800; font-size: .72em; text-transform: uppercase;
                                  letter-spacing: .06em; margin-bottom: .4em; }
@@ -493,7 +501,7 @@
     <div id="mesa-seguinte" hidden></div>
     <ul id="mesa-jogadores"></ul>
   </div>
-  <div id="mesa-zoom" hidden><img alt="Figura da pergunta ampliada"><span>Toque para voltar</span></div>
+  <div id="mesa-zoom" hidden><img alt="Figura da pergunta ampliada"><div class="mz-legenda"></div><span class="mz-dica">Toque para voltar</span></div>
   <div id="mesa-botoes">
     <button id="mesa-fechar" title="Sair do modo mesa">×</button>
     <button id="mesa-rever" title="Mostrar de novo a rodada anterior" hidden>↩ Rodada anterior</button>
@@ -1621,9 +1629,17 @@
       partes.push(r);
     }
     cartao.replaceChildren(...partes);
-    // Com a figura ampliada, ela acompanha a pergunta (a revelação troca a silhueta pela arte colorida); sem figura, fecha.
-    const fig = cartao.querySelector("img");
-    if (!$("mesa-zoom").hidden) fig ? ($("mesa-zoom").querySelector("img").src = fig.src) : fecharZoom();
+    // Figura ampliada: acompanha a pergunta (a revelação troca a silhueta pela arte colorida) e traz, embaixo, quem
+    // pergunta e quem responde agora, o enunciado e, mostrada para todos, a resposta. Sem figura, fecha.
+    const fig = cartao.querySelector("img"), zoom = $("mesa-zoom");
+    if (!zoom.hidden && !fig) fecharZoom();
+    if (!zoom.hidden && fig) {
+      zoom.querySelector("img").src = fig.src;
+      const resposta = a.revelada && el("div", { className: "mz-resposta" });
+      if (resposta) resposta.append(el("span", { textContent: "Resposta" }), p.resposta);
+      zoom.querySelector(".mz-legenda").replaceChildren(papeis(a.leitor, a.respondente),
+        el("div", { className: "mz-texto", textContent: p.pergunta }), ...(resposta ? [resposta] : []));
+    }
     contarRelogio();
     ajustarMesa();
     cartao.querySelector("img")?.addEventListener("load", ajustarMesa);
@@ -1772,8 +1788,8 @@
   // Tocar na figura da tela grande a amplia ocupando a tela toda, sem sair da tela cheia; outro toque (ou Esc) volta.
   $("mesa-pergunta").addEventListener("click", e => {
     if (e.target.tagName !== "IMG") return;
-    $("mesa-zoom").querySelector("img").src = e.target.src;
     $("mesa-zoom").hidden = false;
+    desenharMesa();  // preenche a figura e a faixa com a pergunta em jogo
   });
   function fecharZoom() { $("mesa-zoom").hidden = true; }
   $("mesa-zoom").onclick = fecharZoom;
