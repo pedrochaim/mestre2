@@ -241,7 +241,8 @@
     ul.subtemas .sub-topo strong { flex: 1; }
     ul.subtemas .desc { font-size: .92rem; margin: .15rem 0; }
     ul.subtemas li.vazio .sub-topo strong { color: var(--suave); }
-    #info-entrada-botao { width: 100%; }
+    .atalhos { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+    .atalhos button[aria-expanded="true"] { border-color: var(--acento); color: var(--acento); }
     /* Trilha da Vida: turno, casas, mão e modo mesa com o mapa vertical. */
     .vez { border-left: 8px solid var(--c, var(--linha)); }
     .vez .quem-joga { font-size: 1.2rem; }
@@ -291,8 +292,6 @@
     <p class="lema">Quiz de conhecimentos gerais para jogar em grupo, com as perguntas lidas em voz alta.</p>
     <div class="cartao">
       <button id="criar" class="principal" style="width:100%">Nova partida · Master</button>
-      <button id="criar-trilha" style="width:100%;margin-top:.5rem">Nova partida · Trilha da Vida</button>
-      <button id="criar-linear" style="width:100%;margin-top:.5rem">Nova partida · Linear (protótipo)</button>
     </div>
     <div class="cartao">
       <form id="form-entrar" class="linha">
@@ -302,10 +301,18 @@
       </form>
     </div>
     <p id="erro-entrada" class="erro"></p>
-    <div class="linha">
-      <button id="info-entrada-botao" aria-expanded="false" style="flex:1">Informações sobre as perguntas</button>
-      <button id="qr-entrada" style="flex:none">QR code</button>
-      <button id="sons-entrada" style="flex:none">Sons</button>
+    <!-- Atalhos: os outros modos de jogo, as informações sobre as perguntas, o QR code e os sons -->
+    <div class="atalhos">
+      <button id="outros-modos-botao" aria-expanded="false">Outros modos</button>
+      <button id="info-entrada-botao" aria-expanded="false">Informações</button>
+      <button id="qr-entrada">QR code</button>
+      <button id="sons-entrada">Sons</button>
+    </div>
+    <div id="outros-modos" class="cartao" hidden>
+      <button id="criar-trilha" style="width:100%">Nova partida · Trilha da Vida</button>
+      <p class="suave" style="margin:.3rem 0 .8rem">Corrida num mapa vertical, com profissão, personalidade e cartas.</p>
+      <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
+      <p class="suave" style="margin:.3rem 0 0">Todos na mesma trilha de 60 casas, até a chegada.</p>
     </div>
     <div id="info-entrada" hidden></div>
   </section>
@@ -793,11 +800,17 @@
   }
 
   desenharInfo($("aba-info"));
+  // Outros modos (Trilha da Vida e Linear) ficam guardados, para a tela inicial mostrar só o Master.
+  $("outros-modos-botao").onclick = () => {
+    const abrir = $("outros-modos").hidden;
+    $("outros-modos").hidden = !abrir;
+    $("outros-modos-botao").setAttribute("aria-expanded", String(abrir));
+  };
   $("info-entrada-botao").onclick = () => {
     const abrir = $("info-entrada").hidden;
     $("info-entrada").hidden = !abrir;
     $("info-entrada-botao").setAttribute("aria-expanded", String(abrir));
-    $("info-entrada-botao").textContent = abrir ? "Fechar informações" : "Informações sobre as perguntas";
+    $("info-entrada-botao").textContent = abrir ? "Fechar informações" : "Informações";
     if (abrir && !$("info-entrada").childElementCount) desenharInfo($("info-entrada"));
   };
 
