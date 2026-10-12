@@ -176,6 +176,23 @@
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    /* Avaliação da pergunta por quem lê: dificuldade em 5 níveis, ótima pergunta, problemas e comentário. */
+    .avaliar { margin: .6rem 0 0; padding: .7rem .9rem; border: 1px solid var(--linha); border-radius: 10px; }
+    .avaliar h3 { font-size: .78rem; font-weight: 400; color: var(--suave); text-transform: uppercase; letter-spacing: .05em;
+                  margin: .7rem 0 .3rem; }
+    .avaliar h3:first-child { margin-top: 0; }
+    .avaliar .chips { margin: 0; }
+    .avaliar .chips button { padding: .35rem .7rem; font-size: .9rem; }
+    .avaliar .niveis { display: grid; grid-template-columns: repeat(5, 1fr); gap: .3rem; }
+    .avaliar .niveis button { padding: .45rem .1rem; font-size: .78rem; line-height: 1.2; }
+    .avaliar textarea { width: 100%; min-height: 3.2rem; resize: vertical; background: var(--cartao); color: inherit;
+                        border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .7rem; font: inherit; font-size: .92rem; }
+    .avaliar .estado { color: var(--suave); font-size: .8rem; margin: .4rem 0 0; min-height: 1.1em; }
+    #anterior .resumo { margin: .5rem 0 0; }
+    #anterior .resumo .resposta { font-size: 1rem; margin: .2rem 0 0; }
+    /* Tela grande revendo a rodada anterior. */
+    #mesa-pergunta .mp-revendo { color: #f5c542; font-weight: 800; font-size: .72em; text-transform: uppercase;
+                                 letter-spacing: .06em; margin-bottom: .4em; }
     /* Página Sons: por cima de tudo, com um bloco por ação e um botão ▶ por som. */
     #sons-pagina { position: fixed; inset: 0; background: var(--fundo); z-index: 30; overflow: auto; }
     #sons-pagina .topo { position: sticky; top: 0; background: var(--fundo); padding: .4rem 0; z-index: 1; }
@@ -195,7 +212,7 @@
     #qr-img svg { display: block; width: 100%; height: auto; }
     #qr-url { color: var(--suave); word-break: break-all; }
     /* Barra fixa no rodapé com a ação do momento (Sortear, Mostrar resposta, Acertou/Errou), ao alcance do polegar. */
-    #jogo { padding-bottom: 5.5rem; }
+    #jogo { padding-bottom: 9.5rem; }  /* espaço para a barra fixa, que tem duas linhas com a resposta à vista */
     .convite { display: flex; align-items: center; gap: .6rem; margin: .2rem 0 .8rem; }
     .convite .suave { flex: 1; }
     .regras summary { cursor: pointer; color: var(--suave); margin: .7rem 0 .3rem; }
@@ -360,6 +377,12 @@
       </div>
       <p id="msg-sorteio" class="suave"></p>
 
+      <!-- Depois da rodada, quem leu ainda pode avaliar a pergunta, até sortear outra -->
+      <div id="anterior" class="cartao" hidden>
+        <button id="anterior-botao" class="sobre-botao" style="margin:0" aria-expanded="false">Avaliar a pergunta anterior</button>
+        <div id="anterior-corpo" hidden></div>
+      </div>
+
       <div id="atual" class="cartao" hidden>
         <div id="atual-tema" class="etiqueta"></div>
         <span id="atual-repetida" class="repetida" hidden></span>
@@ -385,6 +408,8 @@
           <!-- Só aparece depois da resposta, para não vazar nada antes dela -->
           <button id="sobre" class="sobre-botao" aria-expanded="false">Sobre a pergunta</button>
           <dl id="sobre-painel" class="sobre" hidden></dl>
+          <button id="avaliar" class="sobre-botao" style="margin-top:.4rem" aria-expanded="false">Avaliar a pergunta</button>
+          <div id="avaliar-painel" hidden></div>
         </div>
       </div>
     </div>
@@ -463,6 +488,7 @@
   </div>
   <div id="mesa-botoes">
     <button id="mesa-fechar" title="Sair do modo mesa">×</button>
+    <button id="mesa-rever" title="Mostrar de novo a rodada anterior" hidden>↩ Rodada anterior</button>
     <button id="mesa-som" title="Ligar ou desligar o som" hidden>🔊</button>
   </div>
 </div>
@@ -522,6 +548,8 @@
   let temaEscolhido = "*";   // "*" = qualquer tema
   let temaDaVez = null;      // tema da casa do jogador da vez, para o tema escolhido acompanhar a casa
   let atual = null;         // pergunta na tela deste aparelho
+  let ultimaLida = null;     // {p, sorteio}: a última pergunta lida neste aparelho, que ainda pode ser avaliada
+  let revendo = false;       // a tela grande está mostrando de novo a rodada anterior (só neste aparelho)
   let respondente = null;    // id do jogador escolhido
   let trocando = false;      // a lista de jogadores está aberta para trocar quem respondeu
   let desligar = [];         // cancela os listeners ao sair
@@ -657,7 +685,9 @@
     const base = doc(db, "partidas", c);
     ultimoSom = undefined;
     desligar.push(onSnapshot(base, snap => {
+      const antes = JSON.stringify(partida.atual ?? null);
       partida = snap.data() || {};
+      if (JSON.stringify(partida.atual ?? null) !== antes) revendo = false;
       // Toca o evento de som novo; o primeiro retrato da partida só marca onde ela está.
       const n = partida.som?.n ?? null;
       if (ultimoSom !== undefined && n && n !== ultimoSom) tocar(partida.som.e);
@@ -700,7 +730,7 @@
     desligar.forEach(f => f());
     desligar = [];
     codigo = null; atual = null; respondente = null; jogadores = []; sorteios = []; legado = []; vezes = new Map(); resultados = [];
-    partida = {}; mapa = null; limparTurno(); aplicarModo(); desenharMesa();
+    partida = {}; mapa = null; ultimaLida = null; limparTurno(); aplicarModo(); desenharMesa(); desenharAnterior();
     history.replaceState(null, "", location.pathname);
     $("atual").hidden = true;
     $("revelado").hidden = true;
@@ -892,6 +922,7 @@
   function atualizarBarra() {
     const revelado = Boolean(atual) && !$("revelado").hidden;
     $("preparo").hidden = Boolean(atual);
+    $("anterior").hidden = Boolean(atual) || !ultimaLida;
     $("sortear").hidden = Boolean(atual);
     $("revelar").hidden = !atual;
     $("revelar").textContent = revelado ? "Esconder resposta" : "Mostrar resposta";
@@ -929,6 +960,11 @@
     $("revelado").hidden = true;
     $("atual").hidden = false;
     $("msg-sorteio").textContent = "";  // avisos da preparação não valem mais
+    $("avaliar-painel").replaceChildren(painelAvaliacao(p, sorteio));
+    $("avaliar-painel").hidden = true;
+    $("avaliar").setAttribute("aria-expanded", "false");
+    ultimaLida = null;  // a pergunta anterior só pode ser avaliada até o próximo sorteio
+    desenharAnterior();
     trocando = false;
     atualizarBarra();
     desenharRespondentes();
@@ -946,6 +982,90 @@
     // A figura com revelação (silhueta → arte colorida) troca junto com a resposta, e volta ao esconder.
     if (atual.imagem?.revelacao)
       $("atual-img").src = $("tela-cheia-img").src = "img/" + (mostrar ? atual.imagem.revelacao : atual.imagem.arquivo);
+  };
+
+  // ---------------------------------------------------------------- avaliação
+
+  // Quem lê avalia a pergunta: dificuldade percebida (5 níveis), ótima pergunta, problemas e um comentário. Cada
+  // toque grava na hora, num documento por sorteio em "avaliacoes"; tocar de novo desfaz. Só é registrada: por
+  // enquanto não muda a dificuldade nem orienta a criação de perguntas (MANIFESTO §4).
+  const NIVEIS = ["Muito fácil", "Fácil", "Média", "Difícil", "Muito difícil"];
+  const PROBLEMAS = { fora_do_tema: "Fora do tema ou subtema", resposta_errada: "Resposta errada ou discutível",
+                      mais_de_uma_resposta: "Mais de uma resposta", enunciado_confuso: "Enunciado confuso",
+                      entrega_resposta: "Entrega a resposta", figura_ruim: "Figura ruim", repetida: "Repetida",
+                      desatualizada: "Desatualizada" };
+  const avaliacoes = new Map();  // sorteio → {dificuldade, otima, problemas, comentario}, o que este aparelho já marcou
+
+  function painelAvaliacao(p, sorteio) {
+    const dados = avaliacoes.get(sorteio) || { dificuldade: null, otima: false, problemas: [], comentario: "" };
+    avaliacoes.set(sorteio, dados);
+    const caixa = el("div", { className: "avaliar" });
+    const estado = el("p", { className: "estado" });
+    const salvar = () => {
+      estado.textContent = "Salvando…";
+      setDoc(doc(db, "avaliacoes", sorteio), { pergunta: p.id, partida: codigo, ...dados, em: serverTimestamp() })
+        .then(() => { estado.textContent = "Avaliação salva ✓"; })
+        .catch(e => { estado.textContent = "Não salvou: " + e.message; });
+    };
+    const chip = (texto, ligado, aoTocar) => {
+      const b = el("button", { textContent: texto });
+      b.setAttribute("aria-pressed", String(ligado));
+      b.onclick = () => { aoTocar(b); salvar(); };
+      return b;
+    };
+    const niveis = el("div", { className: "chips niveis" });
+    niveis.append(...NIVEIS.map((n, i) => chip(n, dados.dificuldade === i + 1, () => {
+      dados.dificuldade = dados.dificuldade === i + 1 ? null : i + 1;
+      [...niveis.children].forEach((b, k) => b.setAttribute("aria-pressed", String(dados.dificuldade === k + 1)));
+    })));
+    const otima = el("div", { className: "chips" });
+    otima.append(chip("⭐ Ótima pergunta", dados.otima, b => {
+      dados.otima = !dados.otima;
+      b.setAttribute("aria-pressed", String(dados.otima));
+    }));
+    const problemas = el("div", { className: "chips" });
+    problemas.append(...Object.entries(PROBLEMAS).filter(([c]) => c !== "figura_ruim" || p.imagem).map(([c, texto]) =>
+      chip(texto, dados.problemas.includes(c), b => {
+        dados.problemas = dados.problemas.includes(c) ? dados.problemas.filter(x => x !== c) : [...dados.problemas, c];
+        b.setAttribute("aria-pressed", String(dados.problemas.includes(c)));
+      })));
+    const comentario = el("textarea", { maxLength: 500, placeholder: "Comentário (opcional): por exemplo, qual seria a resposta certa", value: dados.comentario });
+    let espera = null;
+    comentario.oninput = () => {
+      dados.comentario = comentario.value;
+      clearTimeout(espera);
+      espera = setTimeout(salvar, 1200);
+    };
+    caixa.append(el("h3", { textContent: "Dificuldade" }), niveis, el("h3", { textContent: "Gostou?" }), otima,
+                 el("h3", { textContent: "Problema" }), problemas, el("h3", { textContent: "Comentário" }), comentario, estado);
+    return caixa;
+  }
+
+  $("avaliar").onclick = () => {
+    const abrir = $("avaliar-painel").hidden;
+    $("avaliar-painel").hidden = !abrir;
+    $("avaliar").setAttribute("aria-expanded", String(abrir));
+    $("avaliar").textContent = abrir ? "Fechar avaliação" : "Avaliar a pergunta";
+  };
+
+  // "Avaliar a pergunta anterior": a pergunta, a resposta e o mesmo painel, até este aparelho sortear outra.
+  function desenharAnterior() {
+    $("anterior").hidden = !ultimaLida || Boolean(atual);
+    $("anterior-corpo").hidden = true;
+    $("anterior-botao").setAttribute("aria-expanded", "false");
+    $("anterior-botao").textContent = "Avaliar a pergunta anterior";
+    if (!ultimaLida) return $("anterior-corpo").replaceChildren();
+    const { p, sorteio } = ultimaLida;
+    const resumo = el("div", { className: "resumo" });
+    resumo.append(etiqueta(p.tema), el("div", { textContent: p.pergunta, style: "margin-top:.4rem" }),
+                  el("div", { className: "resposta", textContent: p.resposta }));
+    $("anterior-corpo").replaceChildren(resumo, painelAvaliacao(p, sorteio));
+  }
+  $("anterior-botao").onclick = () => {
+    const abrir = $("anterior-corpo").hidden;
+    $("anterior-corpo").hidden = !abrir;
+    $("anterior-botao").setAttribute("aria-expanded", String(abrir));
+    $("anterior-botao").textContent = abrir ? "Fechar avaliação" : "Avaliar a pergunta anterior";
   };
 
   // ---------------------------------------------------------------- sobre a pergunta
@@ -1052,8 +1172,7 @@
     atual.tentativas = tentativas;
     atual.tempo = null;
     marcarCronometro();
-    respondente = seguinte.id;
-    if (!$("revelado").hidden) $("revelar").onclick();  // esconde a resposta de novo
+    respondente = seguinte.id;  // a resposta continua à vista para quem lê, que não precisa tocar de novo
     $("atual-passou").textContent = `${tentativas.map(t => nomeDe(t.respondente)).join(", ")} `
       + `${tentativas.length > 1 ? "erraram" : "errou"}. Agora responde ${seguinte.nome}.`;
     $("atual-passou").hidden = false;
@@ -1087,9 +1206,13 @@
   const dadosAtual = (tentativas = atual.tentativas) => ({
     sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
     leitor: atual.leitor || null, tentaram: tentativas.map(t => t.respondente), revelada: atual.publica, tempo: atual.tempo || null });
+  // Quando sai uma pergunta nova depois de uma rodada encerrada, essa rodada vira "anterior", que a tela grande
+  // pode mostrar de novo (botão Rodada anterior).
   function publicarAtual(som) {
     if (!codigo) return;
-    updateDoc(doc(db, "partidas", codigo), { atual: atual ? dadosAtual() : null, ...(som ? { som: evento(som) } : {}) }).catch(() => {});
+    const virou = partida.atual?.fim && atual && partida.atual.sorteio !== atual.sorteio;
+    updateDoc(doc(db, "partidas", codigo), { atual: atual ? dadosAtual() : null, ...(virou ? { anterior: partida.atual } : {}),
+                                             ...(som ? { som: evento(som) } : {}) }).catch(() => {});
   }
   // Fim da rodada (alguém acertou ou todos erraram): a pergunta fica no modo mesa com a resposta à vista para
   // todos, até o próximo sorteio. "respondente" é quem respondeu por último; "tentaram", só quem errou.
@@ -1097,6 +1220,8 @@
     respondente: tentativas.at(-1)?.respondente || respondente || null, revelada: true, tempo: null, fim: true });
 
   function fecharPergunta() {
+    if (atual) ultimaLida = { p: perguntas.find(x => x.id === atual.id) || atual, sorteio: atual.sorteio };
+    desenharAnterior();
     atual = null;
     respondente = null;
     $("atual-passou").hidden = true;
@@ -1406,7 +1531,10 @@
     return s;
   }
   function desenharMesa() {
-    const a = partida.atual;
+    if (revendo && !partida.anterior) revendo = false;
+    const a = revendo ? partida.anterior : partida.atual;
+    $("mesa-rever").hidden = !partida.anterior;
+    $("mesa-rever").textContent = revendo ? "Voltar ao jogo" : "↩ Rodada anterior";
     const p = a && perguntas.find(x => x.id === a.pergunta);
     const papeis = (le, responde) => {
       const caixa = el("div", { className: "mp-papeis" });
@@ -1430,7 +1558,7 @@
     desenharFilaMesa(p && !a.fim ? a : null, v, le);
     // Rodada encerrada com a resposta à vista: o cartão "A seguir", em letra grande, diz quem joga em seguida.
     const seg = $("mesa-seguinte");
-    seg.hidden = !(p && a.fim && v);
+    seg.hidden = !(p && a.fim && v) || revendo;
     if (!seg.hidden) {
       const t = ehTrilha() ? undefined : temaAtual(v), topo = el("div", { className: "mp-topo" });
       if (t === undefined) seg.style.removeProperty("--c"); else pintar(seg, t);
@@ -1452,12 +1580,16 @@
     pintar(cartao, p.tema);
     const topo = el("div", { className: "mp-topo" });
     topo.append(etiqueta(p.tema));
-    const tm = !a.fim && a.tempo;
-    if (!tm) relogio = null;
-    else if (relogio?.n !== tm.n) relogio = { n: tm.n, fim: Date.now() + tm.s * 1000 };
-    if (relogio) topo.append(el("div", { className: "mp-relogio" }));
-    const final = !ehTrilha() && !ehLinear() && jogadores.find(j => j.id === a.respondente && casaDe(j) === CENTRO);
-    const partes = [...(final ? [el("div", { className: "mp-final", textContent: "🏁 Pergunta final" })] : []), topo, papeis(a.leitor, a.respondente)];
+    // Revendo a rodada anterior, o cronômetro da pergunta em jogo continua contando por trás, sem aparecer.
+    if (!revendo) {
+      const tm = !a.fim && a.tempo;
+      if (!tm) relogio = null;
+      else if (relogio?.n !== tm.n) relogio = { n: tm.n, fim: Date.now() + tm.s * 1000 };
+      if (relogio) topo.append(el("div", { className: "mp-relogio" }));
+    }
+    const final = !revendo && !ehTrilha() && !ehLinear() && jogadores.find(j => j.id === a.respondente && casaDe(j) === CENTRO);
+    const partes = [...(revendo ? [el("div", { className: "mp-revendo", textContent: "↩ Rodada anterior" })] : []),
+                    ...(final ? [el("div", { className: "mp-final", textContent: "🏁 Pergunta final" })] : []), topo, papeis(a.leitor, a.respondente)];
     if (a.tentaram?.length) {
       const t = el("div", { className: "mp-tentaram", textContent: "Já tentaram: " });
       a.tentaram.forEach((id, i) => t.append(i ? ", " : "", el("s", { textContent: nomeDe(id) })));
@@ -1624,6 +1756,7 @@
     try { await $("mesa").requestFullscreen?.(); } catch {}
     try { mesaAcesa = await navigator.wakeLock?.request("screen"); } catch {}
   };
+  $("mesa-rever").onclick = () => { revendo = !revendo; desenharMesa(); };
   $("mesa-fechar").onclick = () => {
     $("mesa").hidden = true;
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});

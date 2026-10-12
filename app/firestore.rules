@@ -12,14 +12,17 @@ service cloud.firestore {
                     && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha', 'linear'])
                     && (!('semente' in request.resource.data) || request.resource.data.semente is int);
       // "vez" é o id do jogador da vez. "atual" é a pergunta em jogo, para o modo mesa (sem a resposta), ou null.
-      // "som" é o último evento de som ({e, n}), que a tela grande toca.
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som'])
+      // "som" é o último evento de som ({e, n}), que a tela grande toca. "anterior" é a rodada encerrada antes da
+      // atual (o mesmo formato de "atual"), que a tela grande pode mostrar de novo.
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez', 'atual', 'som', 'anterior'])
                     && (!('som' in request.resource.data)
                         || (request.resource.data.som is map && request.resource.data.som.size() <= 2))
                     && (!('vez' in request.resource.data)
                         || (request.resource.data.vez is string && request.resource.data.vez.size() <= 40))
                     && (!('atual' in request.resource.data) || request.resource.data.atual == null
-                        || (request.resource.data.atual is map && request.resource.data.atual.size() <= 12));
+                        || (request.resource.data.atual is map && request.resource.data.atual.size() <= 12))
+                    && (!('anterior' in request.resource.data) || request.resource.data.anterior == null
+                        || (request.resource.data.anterior is map && request.resource.data.anterior.size() <= 12));
 
       // Master: "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
       // Trilha da Vida: o estado do jogador fica no mapa "trilha" (posição, profissão, personalidade, mão…).
@@ -65,6 +68,26 @@ service cloud.firestore {
                       && request.resource.data.respondente is string
                       && request.resource.data.acertou is bool;
       }
+    }
+
+    // Avaliação de uma pergunta por quem a leu: um documento por sorteio (o id é o do sorteio), que quem lê
+    // pode refazer enquanto quiser, mas sempre sobre a mesma pergunta. Ninguém apaga.
+    // "dificuldade": 1 (muito fácil) a 5 (muito difícil), ou null; "problemas": códigos fixos.
+    match /avaliacoes/{sorteio} {
+      allow read: if true;
+      allow create, update: if request.resource.data.keys().hasOnly(['pergunta', 'partida', 'dificuldade', 'otima', 'problemas', 'comentario', 'em'])
+                    && request.resource.data.pergunta is string && request.resource.data.pergunta.size() <= 20
+                    && request.resource.data.partida is string && request.resource.data.partida.size() <= 8
+                    && (request.resource.data.dificuldade == null
+                        || (request.resource.data.dificuldade is int && request.resource.data.dificuldade >= 1
+                            && request.resource.data.dificuldade <= 5))
+                    && request.resource.data.otima is bool
+                    && request.resource.data.problemas is list
+                    && request.resource.data.problemas.hasOnly(['fora_do_tema', 'resposta_errada', 'mais_de_uma_resposta',
+                         'enunciado_confuso', 'entrega_resposta', 'figura_ruim', 'repetida', 'desatualizada'])
+                    && request.resource.data.comentario is string && request.resource.data.comentario.size() <= 500
+                    && request.resource.data.em == request.time
+                    && (resource == null || resource.data.pergunta == request.resource.data.pergunta);
     }
 
     function temaValido(dados) {
