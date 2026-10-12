@@ -204,6 +204,18 @@
                               border-radius: .35em; color: var(--certo); font-weight: 800; font-size: 1.25em; }
     #mesa-zoom .mz-resposta span { display: block; font-size: .42em; font-weight: 400; color: var(--suave);
                                    text-transform: uppercase; letter-spacing: .06em; }
+    /* Alternativas da múltipla escolha na faixa: uma linha de quatro (duas com a tela em pé). */
+    #mesa-zoom ol { flex: 1 1 100%; list-style: none; margin: 0; padding: 0; display: grid; gap: .4em;
+                    grid-template-columns: repeat(4, 1fr); counter-reset: alt; }
+    @media (orientation: portrait) { #mesa-zoom ol { grid-template-columns: 1fr 1fr; } }
+    #mesa-zoom li { counter-increment: alt; display: flex; align-items: center; gap: .45em; padding: .25em .5em;
+                    background: #1a1a18; border: 1px solid var(--linha); border-radius: .4em; }
+    #mesa-zoom li::before { content: counter(alt, upper-alpha); flex: none; display: inline-flex; align-items: center;
+                            justify-content: center; width: 1.4em; height: 1.4em; border-radius: 50%; background: #2c2c29;
+                            font-weight: 800; font-size: .85em; }
+    #mesa-zoom ol.revelada li:not(.correta) { opacity: .4; }
+    #mesa-zoom li.correta { color: var(--certo); font-weight: 700; border-color: var(--certo); background: #0d1f15; }
+    #mesa-zoom li.correta::before { background: var(--certo); color: #000; }
     #mesa-zoom .mz-dica { position: absolute; top: 1vmin; right: 1.5vmin; color: var(--suave); font-size: clamp(11px, 1.6vmin, 20px); }
     /* Tela grande revendo a rodada anterior. */
     #mesa-pergunta .mp-revendo { color: #f5c542; font-weight: 800; font-size: .72em; text-transform: uppercase;
@@ -1635,10 +1647,13 @@
     if (!zoom.hidden && !fig) fecharZoom();
     if (!zoom.hidden && fig) {
       zoom.querySelector("img").src = fig.src;
-      const resposta = a.revelada && el("div", { className: "mz-resposta" });
+      // Na múltipla escolha, as alternativas; mostrada para todos, a certa fica verde e faz as vezes do quadro Resposta.
+      const opcoes = a.opcoes?.length && el("ol", { className: a.revelada ? "revelada" : "" });
+      if (opcoes) opcoes.append(...a.opcoes.map(o => el("li", { textContent: o, className: a.revelada && o === p.resposta ? "correta" : "" })));
+      const resposta = a.revelada && !opcoes && el("div", { className: "mz-resposta" });
       if (resposta) resposta.append(el("span", { textContent: "Resposta" }), p.resposta);
       zoom.querySelector(".mz-legenda").replaceChildren(papeis(a.leitor, a.respondente),
-        el("div", { className: "mz-texto", textContent: p.pergunta }), ...(resposta ? [resposta] : []));
+        el("div", { className: "mz-texto", textContent: p.pergunta }), ...[opcoes, resposta].filter(Boolean));
     }
     contarRelogio();
     ajustarMesa();
