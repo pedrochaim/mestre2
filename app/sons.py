@@ -4,8 +4,9 @@ Cada ação tem uma pasta, app/sons/<ação>/, com os arquivos de som (qualquer 
 e um creditos.json. Para cada arquivo, o script:
   - converte para .mp3, corta o silêncio do começo e do fim e iguala o volume ao dos outros sons;
   - grava o resultado em app/public/sons/<ação>/<nome>.mp3, que é o que vai para o site;
-e no fim escreve app/public/sons/sons.json (a lista que o app lê, com os créditos) e app/sons/ouvir.html (uma página
-para ouvir todos os sons, por ação, e os candidatos). Pastas que começam com "_" (_candidatos, _desativados) não vão
+e no fim escreve app/public/sons/sons.json (a lista que o app lê, com os créditos), app/public/sons/acoes.json (as
+ações e quando tocam, para a página Sons do app) e app/sons/ouvir.html (uma página para ouvir todos os sons, por ação,
+e também os candidatos). Pastas que começam com "_" (_candidatos, _desativados) não vão
 para o site.
 
 Avisa quando falta crédito, quando uma pasta não está em acoes.json, quando uma ação não tem som e quando uma ação
@@ -124,6 +125,8 @@ def montar(tudo=False):
             vazia.rmdir()
     SAIDA.mkdir(parents=True, exist_ok=True)
     (SAIDA / "sons.json").write_text(json.dumps(sons, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # As ações e quando tocam, para a página Sons do app.
+    (SAIDA / "acoes.json").write_text(json.dumps(acoes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     for acao in acoes:
         if acao not in sons:

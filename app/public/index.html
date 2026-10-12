@@ -176,6 +176,18 @@
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    /* Página Sons: por cima de tudo, com um bloco por ação e um botão ▶ por som. */
+    #sons-pagina { position: fixed; inset: 0; background: var(--fundo); z-index: 30; overflow: auto; }
+    #sons-pagina .topo { position: sticky; top: 0; background: var(--fundo); padding: .4rem 0; z-index: 1; }
+    .acao-som { border-left: 8px solid var(--acento); }
+    .acao-som h2 { font-size: 1.05rem; margin: 0; }
+    .acao-som > p { margin: .15rem 0 .5rem; }
+    .acao-som ul { list-style: none; padding: 0; margin: 0; }
+    .acao-som li { display: flex; align-items: center; gap: .7rem; padding: .45rem 0; border-top: 1px solid var(--linha); }
+    .acao-som li button { flex: none; width: 3rem; height: 3rem; padding: 0; border-radius: 50%; font-size: 1.1rem; }
+    .acao-som li button[aria-pressed="true"] { background: var(--acento); border-color: var(--acento); color: var(--sobre-cor); }
+    .acao-som li div { min-width: 0; overflow-wrap: anywhere; }
+    .acao-som li small { display: block; color: var(--suave); font-size: .8rem; }
     /* QR code: fundo branco, que os leitores de QR exigem, mesmo no app sempre escuro. */
     #qr { position: fixed; inset: 0; background: #000; z-index: 30; display: flex; flex-direction: column;
           align-items: center; justify-content: center; gap: 1rem; padding: 16px; cursor: zoom-out; text-align: center; }
@@ -293,6 +305,7 @@
     <div class="linha">
       <button id="info-entrada-botao" aria-expanded="false" style="flex:1">Informações sobre as perguntas</button>
       <button id="qr-entrada" style="flex:none">QR code</button>
+      <button id="sons-entrada" style="flex:none">Sons</button>
     </div>
     <div id="info-entrada" hidden></div>
   </section>
@@ -378,6 +391,7 @@
         <!-- Recursos em teste, ligados aparelho por aparelho: por enquanto, os sons do modo mesa -->
         <button id="experimental" aria-pressed="false" style="width:100%;margin-top:.5rem"></button>
         <p id="experimental-nota" class="suave" style="margin:.3rem 0 0" hidden>Em teste neste aparelho: sons na tela grande do modo mesa.</p>
+        <button id="sons-tabuleiro" style="width:100%;margin-top:.5rem">Ouvir os sons</button>
         <details id="regras-trilha" class="regras" hidden>
           <summary>Como se joga</summary>
           <p class="suave">Vence quem chega primeiro ao topo do mapa. Na sua vez, escolha a próxima casa entre as ligadas
@@ -448,6 +462,16 @@
 
 <!-- Só a figura, para mostrar ao respondente sem revelar texto nem resposta -->
 <div id="tela-cheia" hidden><img id="tela-cheia-img" alt="Figura da pergunta"></div>
+
+<!-- Sons: ouvir os sons de cada ação do modo mesa -->
+<div id="sons-pagina" hidden>
+  <main>
+    <div class="topo"><h1 style="margin:0">Sons</h1><button id="sons-fechar">Fechar</button></div>
+    <p class="suave">Os sons que tocam na tela grande do modo mesa (por enquanto só com o Modo experimental ligado). Quando
+      uma ação tem mais de um som, o app sorteia um a cada vez. Toque ▶ para ouvir.</p>
+    <div id="sons-lista"></div>
+  </main>
+</div>
 
 <!-- QR code com o link do site (ou da partida), para os outros abrirem pela câmera -->
 <div id="qr" hidden>
@@ -1696,6 +1720,53 @@
   $("qr-entrada").onclick = () => mostrarQr(`${location.origin}${location.pathname}`, "Mestre2");
   $("qr-partida").onclick = () => mostrarQr(`${location.origin}${location.pathname}#${codigo}`, `Partida ${codigo}`);
   $("qr").onclick = () => { $("qr").hidden = true; };
+
+  // Página Sons: cada ação (na ordem de sons/acoes.json, com quando ela toca) e os sons dela, com o crédito.
+  // Toca pelo elemento de áudio do navegador, fora do modo mesa e do Modo experimental; um som por vez.
+  let tocando = null;  // {audio, botao}
+  function pararSom() {
+    if (!tocando) return;
+    tocando.audio.pause();
+    tocando.botao.setAttribute("aria-pressed", "false");
+    tocando.botao.textContent = "▶";
+    tocando = null;
+  }
+  async function abrirSons() {
+    $("sons-pagina").hidden = false;
+    const [lista, acoes] = await Promise.all([carregandoSons,
+      fetch("sons/acoes.json", { cache: "no-cache" }).then(r => r.json()).catch(() => ({}))]);
+    const nomes = [...Object.keys(acoes), ...Object.keys(lista).filter(a => !(a in acoes))];
+    const rotulo = a => a.charAt(0).toUpperCase() + a.slice(1).replaceAll("_", " ");
+    $("sons-lista").replaceChildren(...nomes.map(a => {
+      const bloco = el("div", { className: "cartao acao-som" });
+      bloco.append(el("h2", { textContent: rotulo(a) }), el("p", { className: "suave", textContent: acoes[a] || "" }));
+      const ul = el("ul");
+      ul.append(...(lista[a] || []).map(s => {
+        const li = el("li"), botao = el("button", { textContent: "▶", title: "Ouvir" }), texto = el("div");
+        botao.setAttribute("aria-pressed", "false");
+        botao.onclick = () => {
+          const era = tocando?.botao === botao;
+          pararSom();
+          if (era) return;
+          const audio = new Audio("sons/" + s.arquivo);
+          tocando = { audio, botao };
+          botao.setAttribute("aria-pressed", "true");
+          botao.textContent = "■";
+          audio.onended = () => { if (tocando?.audio === audio) pararSom(); };
+          audio.play().catch(pararSom);
+        };
+        texto.append(s.arquivo.split("/").pop().replace(/\.mp3$/, ""),
+                     el("small", { textContent: [s.autor, s.licenca].filter(Boolean).join(" · ") }));
+        li.append(botao, texto);
+        return li;
+      }));
+      if (!ul.childElementCount) ul.append(el("li", { className: "suave", textContent: "Ainda sem som." }));
+      bloco.append(ul);
+      return bloco;
+    }));
+  }
+  $("sons-entrada").onclick = $("sons-tabuleiro").onclick = abrirSons;
+  $("sons-fechar").onclick = () => { pararSom(); $("sons-pagina").hidden = true; };
 
   $("form-jogador").onsubmit = async e => {
     e.preventDefault();

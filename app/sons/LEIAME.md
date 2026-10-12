@@ -52,7 +52,7 @@ A lista oficial é o `acoes.json`. Quando uma ação tem mais de um som, o app s
 
    `ganho` (opcional, em dB) corrige o volume de um som que, mesmo ajustado, ficou alto ou baixo demais.
 3. **Rode** `python app/sons.py` na raiz do projeto. Ele converte para `.mp3`, corta o silêncio do começo e do fim, iguala o volume ao dos outros e refaz `app/public/sons/sons.json` e `ouvir.html`. O `exportar_perguntas.py` também roda o script.
-4. **Ouça** em `app/sons/ouvir.html` e publique (deploy).
+4. **Ouça** em `app/sons/ouvir.html` e publique (deploy). Depois de publicado, o som também aparece na página **Sons** do app (botão Sons na tela inicial, ou Ouvir os sons na aba Tabuleiro).
 
 ## Tirar ou trocar um som
 
