@@ -388,9 +388,14 @@
     "subtema": "Países e Capitais",
     "ancora": "sudao_do_sul",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o Sudão do Sul se separou do Sudão e se tornou um país independente?",
     "resposta": "2011",
+    "distratores": [
+      "2006",
+      "2009",
+      "2013"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/South_Sudan"
     ],
@@ -1349,9 +1354,14 @@
     "subtema": "Roma Antiga",
     "ancora": "fundacao_de_roma",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Segundo a data tradicional, em que ano antes de Cristo Rômulo fundou Roma?",
     "resposta": "753 antes de Cristo",
+    "distratores": [
+      "800 a.C.",
+      "768 a.C.",
+      "717 a.C."
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Founding_of_Rome"
     ],
@@ -1681,9 +1691,14 @@
     "subtema": "Idade Média",
     "ancora": "carlos_magno",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Num dia de Natal, em Roma, o papa Leão Terceiro coroou Carlos Magno imperador. Em que ano isso aconteceu?",
     "resposta": "800",
+    "distratores": [
+      "756",
+      "774",
+      "786"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Charlemagne",
       "https://pt.wikipedia.org/wiki/Carlos_Magno"
@@ -2101,9 +2116,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "hiroo_onoda",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Sem acreditar que a guerra tinha acabado, o oficial japonês Hiroo Onoda ficou escondido na selva das Filipinas. Em que ano ele finalmente se rendeu?",
     "resposta": "1974",
+    "distratores": [
+      "1959",
+      "1966",
+      "1972"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Hiroo_Onoda",
       "https://pt.wikipedia.org/wiki/Hiroo_Onoda"
@@ -4955,9 +4975,14 @@
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "folia_de_reis",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Os grupos da folia de reis começam a visitar as casas no Natal. Em que dia do ano eles encerram a jornada?",
     "resposta": "6 de janeiro",
+    "distratores": [
+      "31 de dezembro",
+      "1º de janeiro",
+      "12 de janeiro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Folia_de_Reis"
     ],
@@ -4988,9 +5013,14 @@
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "iemanja",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em Salvador, o bairro do Rio Vermelho faz uma grande festa com barcos de oferendas para Iemanjá. Em que dia do ano?",
     "resposta": "2 de fevereiro",
+    "distratores": [
+      "8 de dezembro",
+      "31 de dezembro",
+      "15 de agosto"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Iemanjá"
     ],
@@ -8718,9 +8748,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "apollo_11",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a missão Apollo 11 levou o primeiro ser humano a pisar na Lua?",
     "resposta": "1969",
+    "distratores": [
+      "1961",
+      "1964",
+      "1967"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Apollo_11"
     ],
@@ -8732,9 +8767,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "sputnik_1",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a União Soviética lançou o Sputnik, o primeiro satélite artificial, dando início à corrida espacial?",
     "resposta": "1957",
+    "distratores": [
+      "1951",
+      "1954",
+      "1960"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sputnik_1"
     ],
@@ -10324,9 +10364,14 @@
     "subtema": "Olimpíadas",
     "ancora": "jogos_olimpicos_da_antiguidade",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Segundo a data tradicional, em que ano antes de Cristo foram disputados os primeiros Jogos em Olímpia, na Grécia?",
     "resposta": "776 antes de Cristo",
+    "distratores": [
+      "840 a.C.",
+      "736 a.C.",
+      "708 a.C."
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
     ],
@@ -10645,9 +10690,14 @@
     "subtema": "Futebol",
     "ancora": "kaka",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Kaká, então jogador do Milan, recebeu a Bola de Ouro de melhor jogador do mundo em qual ano?",
     "resposta": "2007",
+    "distratores": [
+      "2002",
+      "2005",
+      "2009"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2007_Ballon_d%27Or",
       "https://en.wikipedia.org/wiki/Kak%C3%A1"
@@ -11702,9 +11752,14 @@
     "subtema": "Língua Portuguesa e Expressões",
     "ancora": "museu_da_lingua_portuguesa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Museu da Língua Portuguesa, em São Paulo, só reabriu em 2021 depois de ser atingido por um incêndio. Em que ano foi esse incêndio?",
     "resposta": "2015",
+    "distratores": [
+      "2010",
+      "2013",
+      "2018"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Museu_da_L%C3%ADngua_Portuguesa"
     ],
@@ -12442,9 +12497,14 @@
     "subtema": "Costumes pelo Mundo",
     "ancora": "white_day",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No Japão, as mulheres dão chocolate aos homens no Dia dos Namorados. Em que dia e mês eles retribuem o presente?",
     "resposta": "Catorze de março",
+    "distratores": [
+      "Três de março",
+      "Catorze de abril",
+      "Vinte de março"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/White_Day"
     ],
@@ -13662,9 +13722,14 @@
     "subtema": "Objetos do Dia a Dia",
     "ancora": "urna_eletronica_brasileira",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Os brasileiros trocaram a cédula de papel pela urna eletrônica aos poucos. Em que ano ela estreou nas eleições do país?",
     "resposta": "1996",
+    "distratores": [
+      "1989",
+      "1994",
+      "1998"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Electronic_voting_in_Brazil"
     ],
@@ -13676,9 +13741,14 @@
     "subtema": "Objetos do Dia a Dia",
     "ancora": "cubo_magico",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
     "resposta": "1974",
+    "distratores": [
+      "1978",
+      "1981",
+      "1985"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
     ],
@@ -15074,9 +15144,14 @@
     "subtema": "Transportes",
     "ancora": "concorde",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de quase trinta anos levando passageiros entre Europa e Estados Unidos, em que ano o Concorde fez seus últimos voos comerciais?",
     "resposta": "2003",
+    "distratores": [
+      "2005",
+      "2008",
+      "2011"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Concorde"
     ],
@@ -15472,9 +15547,14 @@
     "subtema": "Transportes",
     "ancora": "estrada_de_ferro_maua",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi inaugurada a primeira ferrovia do Brasil, construída pelo empresário que se tornaria o Barão de Mauá?",
     "resposta": "1854",
+    "distratores": [
+      "1835",
+      "1842",
+      "1848"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Mauá"
     ],
@@ -16685,9 +16765,14 @@
     "subtema": "Cinema",
     "ancora": "oscar",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Num hotel de Hollywood, a primeira cerimônia de entrega do Oscar foi realizada em que ano?",
     "resposta": "1929",
+    "distratores": [
+      "1931",
+      "1934",
+      "1938"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1st_Academy_Awards"
     ],
@@ -16699,9 +16784,14 @@
     "subtema": "Cinema",
     "ancora": "e_o_vento_levou",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "E o Vento Levou estreou no mesmo ano que O Mágico de Oz, e os dois têm o mesmo diretor creditado. Que ano foi esse?",
     "resposta": "1939",
+    "distratores": [
+      "1935",
+      "1943",
+      "1947"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
       "https://en.wikipedia.org/wiki/Victor_Fleming"
@@ -17653,9 +17743,14 @@
     "subtema": "Séries e TV",
     "ancora": "tv_tupi",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Com a TV Tupi, de Assis Chateaubriand, a televisão chegou ao Brasil, em São Paulo. Em que ano?",
     "resposta": "1950",
+    "distratores": [
+      "1953",
+      "1956",
+      "1962"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Rede_Tupi",
       "https://en.wikipedia.org/wiki/Rede_Tupi"
@@ -17668,9 +17763,14 @@
     "subtema": "Séries e TV",
     "ancora": "jornal_nacional",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Jornal Nacional, da Rede Globo, foi ao ar pela primeira vez em que ano?",
     "resposta": "1969",
+    "distratores": [
+      "1963",
+      "1966",
+      "1972"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Jornal_Nacional"
     ],
@@ -18842,9 +18942,14 @@
     "subtema": "Música Brasileira",
     "ancora": "chega_de_saudade",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano João Gilberto lançou o disco de setenta e oito rotações com Chega de Saudade, marco da bossa nova?",
     "resposta": "1958",
+    "distratores": [
+      "1960",
+      "1963",
+      "1967"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Chega_de_Saudade",
       "https://en.wikipedia.org/wiki/Bossa_nova"
@@ -18857,9 +18962,14 @@
     "subtema": "Música Brasileira",
     "ancora": "rock_in_rio",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Com Queen e Iron Maiden entre as atrações, em que ano aconteceu a primeira edição do Rock in Rio?",
     "resposta": "1985",
+    "distratores": [
+      "1979",
+      "1983",
+      "1989"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Rock_in_Rio_1985",
       "https://en.wikipedia.org/wiki/Rock_in_Rio"
@@ -18872,9 +18982,14 @@
     "subtema": "Música Brasileira",
     "ancora": "o_abre_alas",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Chiquinha Gonzaga compôs a marcha Ó Abre Alas, para o cordão carnavalesco Rosa de Ouro?",
     "resposta": "1899",
+    "distratores": [
+      "1892",
+      "1904",
+      "1911"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Ó_Abre_Alas",
       "https://pt.wikipedia.org/wiki/Chiquinha_Gonzaga"
@@ -20658,9 +20773,14 @@
     "subtema": "Jogos Eletrônicos",
     "ancora": "pokemon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Os jogos Pokémon Red e Green, que deram início à franquia, chegaram às lojas japonesas em que ano?",
     "resposta": "1996",
+    "distratores": [
+      "1990",
+      "1993",
+      "1999"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue",
       "https://en.wikipedia.org/wiki/Pok%C3%A9mon"
@@ -21207,9 +21327,14 @@
     "subtema": "Jogos Eletrônicos",
     "ancora": "super_mario_bros",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Super Mario Bros., clássico do Nintendinho, foi lançado no Japão em que ano?",
     "resposta": "1985",
+    "distratores": [
+      "1988",
+      "1991",
+      "1995"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Super_Mario_Bros."
     ],
@@ -21482,9 +21607,14 @@
     "subtema": "Idade Moderna",
     "ancora": "luis_xiv",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este rei da França subiu ao trono?",
     "resposta": "1643",
+    "distratores": [
+      "1624",
+      "1668",
+      "1685"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Louis_XIV",
       "https://pt.wikipedia.org/wiki/Lu%C3%ADs_XIV_de_Fran%C3%A7a"
@@ -21503,9 +21633,14 @@
     "subtema": "História do Brasil",
     "ancora": "princesa_isabel",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano esta princesa, que governou o Brasil como regente, assinou a lei mais famosa de seu governo?",
     "resposta": "1888",
+    "distratores": [
+      "1865",
+      "1893",
+      "1900"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Isabel%2C_Princess_Imperial_of_Brazil",
       "https://pt.wikipedia.org/wiki/Isabel%2C_Princesa_Imperial_do_Brasil"
@@ -22172,9 +22307,14 @@
     "subtema": "Anime e Mangá",
     "ancora": "astro_boy",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No mangá de Osamu Tezuka, lançado nos anos cinquenta, em que ano futuro o robô Astro Boy é criado?",
     "resposta": "2003",
+    "distratores": [
+      "1997",
+      "2000",
+      "2008"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Astro_Boy_(character)",
       "https://en.wikipedia.org/wiki/Astro_Boy"
@@ -23319,9 +23459,14 @@
     "subtema": "Quadrinhos",
     "ancora": "calvin_e_haroldo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de dez anos nos jornais, em que ano Bill Watterson publicou a última tira de Calvin e Haroldo?",
     "resposta": "1995",
+    "distratores": [
+      "1988",
+      "1991",
+      "1993"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Calvin_and_Hobbes"
     ],
@@ -24827,9 +24972,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "arquiduque_francisco_ferdinando",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este herdeiro do trono austro-húngaro foi assassinado em Sarajevo?",
     "resposta": "1914",
+    "distratores": [
+      "1916",
+      "1919",
+      "1923"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
       "https://pt.wikipedia.org/wiki/Francisco_Fernando_da_%C3%81ustria-Hungria"
@@ -24895,9 +25045,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "guilherme_ii",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este imperador alemão abdicou?",
     "resposta": "1918",
+    "distratores": [
+      "1908",
+      "1912",
+      "1915"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Wilhelm_II",
       "https://pt.wikipedia.org/wiki/Guilherme_II_da_Alemanha"
@@ -25608,9 +25763,14 @@
     "subtema": "Automobilismo",
     "ancora": "rivalidade_senna_e_prost",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em quais dois anos seguidos Senna e Prost decidiram o título mundial com batidas entre os dois em Suzuka?",
     "resposta": "1989 e 1990",
+    "distratores": [
+      "1987 e 1988",
+      "1991 e 1992",
+      "1986 e 1987"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Prost%E2%80%93Senna_rivalry"
     ],
@@ -25622,9 +25782,14 @@
     "subtema": "Automobilismo",
     "ancora": "silverstone",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Silverstone recebeu a primeira corrida da história do Campeonato Mundial de Fórmula 1?",
     "resposta": "1950",
+    "distratores": [
+      "1946",
+      "1953",
+      "1957"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1950_British_Grand_Prix",
       "https://en.wikipedia.org/wiki/Silverstone_Circuit"
@@ -26520,9 +26685,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "tour_de_france",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi disputada a primeira edição do Tour de France?",
     "resposta": "1903",
+    "distratores": [
+      "1906",
+      "1910",
+      "1914"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1903_Tour_de_France",
       "https://en.wikipedia.org/wiki/Tour_de_France"
@@ -26535,9 +26705,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "roger_bannister",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o britânico Roger Bannister se tornou o primeiro a correr uma milha em menos de quatro minutos?",
     "resposta": "1954",
+    "distratores": [
+      "1948",
+      "1951",
+      "1958"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Roger_Bannister",
       "https://en.wikipedia.org/wiki/Four-minute_mile"
@@ -26772,9 +26947,14 @@
     "subtema": "Tênis",
     "ancora": "novak_djokovic",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este tenista sérvio chegou pela primeira vez ao número um do ranking mundial da ATP?",
     "resposta": "2011",
+    "distratores": [
+      "2013",
+      "2015",
+      "2018"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Novak_Djokovic",
       "https://pt.wikipedia.org/wiki/Novak_Djokovic"
@@ -31018,9 +31198,14 @@
     "subtema": "Tênis",
     "ancora": "tie_break",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O tie-break estreou num torneio de Grand Slam no US Open de qual ano?",
     "resposta": "1970",
+    "distratores": [
+      "1960",
+      "1963",
+      "1967"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Tennis_scoring_system"
     ],
@@ -32341,9 +32526,14 @@
     "subtema": "Lutas e Artes Marciais",
     "ancora": "capoeira",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A capoeira virou crime no Código Penal criado logo após a Proclamação da República. De que ano é esse código?",
     "resposta": "1890",
+    "distratores": [
+      "1882",
+      "1886",
+      "1894"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Capoeira",
       "https://en.wikipedia.org/wiki/Capoeira"
@@ -32444,9 +32634,14 @@
     "subtema": "Lutas e Artes Marciais",
     "ancora": "robson_conceicao",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O baiano Robson Conceição deu ao Brasil o primeiro ouro olímpico do boxe em que ano?",
     "resposta": "2016",
+    "distratores": [
+      "2018",
+      "2021",
+      "2024"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Robson_Concei%C3%A7%C3%A3o",
       "https://en.wikipedia.org/wiki/Robson_Concei%C3%A7%C3%A3o"
@@ -34693,9 +34888,14 @@
     "subtema": "Transportes",
     "ancora": "vespa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a Piaggio lançou o primeiro scooter desta marca?",
     "resposta": "1946",
+    "distratores": [
+      "1938",
+      "1942",
+      "1950"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Vespa",
       "https://pt.wikipedia.org/wiki/Vespa_%28motocicleta%29"
@@ -34990,9 +35190,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "tear_de_jacquard",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi patenteado o mecanismo instalado no alto deste tear?",
     "resposta": "1804",
+    "distratores": [
+      "1771",
+      "1785",
+      "1795"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Jacquard_machine"
     ],
@@ -38626,9 +38831,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "penny_black",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi emitido este selo britânico?",
     "resposta": "1840",
+    "distratores": [
+      "1829",
+      "1835",
+      "1846"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Penny_Black",
       "https://pt.wikipedia.org/wiki/One_Penny_Black"
@@ -38735,9 +38945,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "bandeira_da_uniao_sovietica",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano deixou de existir o país que usava esta bandeira?",
     "resposta": "1991",
+    "distratores": [
+      "1985",
+      "1994",
+      "1999"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Flag_of_the_Soviet_Union",
       "https://pt.wikipedia.org/wiki/Bandeira_da_Uni%C3%A3o_Sovi%C3%A9tica"
@@ -39120,9 +39335,14 @@
     "subtema": "Transportes",
     "ancora": "volkswagen_gol",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano começou a ser fabricada no Brasil a primeira geração deste modelo da Volkswagen?",
     "resposta": "1980",
+    "distratores": [
+      "1974",
+      "1984",
+      "1989"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Volkswagen_Gol",
       "https://pt.wikipedia.org/wiki/Volkswagen_Gol"
@@ -40194,9 +40414,14 @@
     "subtema": "Geografia do Brasil",
     "ancora": "baia_de_todos_os_santos",
     "angulo": "nome",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Baía de Todos os Santos ganhou esse nome por ter sido alcançada por navegadores portugueses em que dia de 1501?",
     "resposta": "Primeiro de novembro",
+    "distratores": [
+      "Primeiro de outubro",
+      "Oito de novembro",
+      "Primeiro de dezembro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
       "https://en.wikipedia.org/wiki/All_Saints_Bay"
@@ -40628,9 +40853,14 @@
     "subtema": "Geografia do Brasil",
     "ancora": "mato_grosso_do_sul",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi assinada a lei que dividiu Mato Grosso em dois, criando o Mato Grosso do Sul?",
     "resposta": "1977",
+    "distratores": [
+      "1981",
+      "1984",
+      "1988"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul"
     ],
@@ -40656,9 +40886,14 @@
     "subtema": "Geografia do Brasil",
     "ancora": "sao_paulo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que dia e mês se comemora o aniversário da cidade de São Paulo, data da fundação do colégio jesuíta?",
     "resposta": "25 de janeiro",
+    "distratores": [
+      "15 de janeiro",
+      "25 de fevereiro",
+      "25 de abril"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/São_Paulo"
     ],
@@ -44988,9 +45223,14 @@
     "subtema": "Plantas e Fungos",
     "ancora": "jardim_botanico_do_rio_de_janeiro",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o príncipe regente Dom João criou o Jardim Botânico do Rio de Janeiro?",
     "resposta": "1808",
+    "distratores": [
+      "1801",
+      "1805",
+      "1812"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Jardim_Bot%C3%A2nico_do_Rio_de_Janeiro"
     ],
@@ -47217,9 +47457,14 @@
     "subtema": "Evolução Humana",
     "ancora": "homem_de_piltdown",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A fraude do Homem de Piltdown foi desmascarada no mesmo ano em que Watson e Crick descreveram a dupla hélice do DNA. Que ano foi esse?",
     "resposta": "1953",
+    "distratores": [
+      "1955",
+      "1959",
+      "1962"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Piltdown_Man",
       "https://en.wikipedia.org/wiki/DNA"
@@ -48497,9 +48742,14 @@
     "subtema": "Literatura Brasileira",
     "ancora": "memorias_postumas_de_bras_cubas",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O romance de Machado de Assis narrado por um defunto, considerado marco inicial do Realismo no Brasil, foi lançado em livro em que ano?",
     "resposta": "1881",
+    "distratores": [
+      "1869",
+      "1873",
+      "1878"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
     ],
@@ -49644,9 +49894,14 @@
     "subtema": "Literatura Mundial",
     "ancora": "ulisses",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O romance Ulisses, de James Joyce, se passa num único dia de 1904, hoje festejado em Dublin como Bloomsday. Que dia é esse?",
     "resposta": "Dezesseis de junho",
+    "distratores": [
+      "Dez de junho",
+      "Vinte de junho",
+      "Dezesseis de maio"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Bloomsday"
     ],
@@ -49800,9 +50055,14 @@
     "subtema": "Física",
     "ancora": "boson_de_higgs",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o laboratório europeu CERN anunciou a descoberta do bóson de Higgs?",
     "resposta": "2012",
+    "distratores": [
+      "2008",
+      "2010",
+      "2014"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Higgs_boson",
       "https://pt.wikipedia.org/wiki/B%C3%B3son_de_Higgs"
@@ -50346,9 +50606,14 @@
     "subtema": "Física",
     "ancora": "ondas_gravitacionais",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Previstas por Einstein, as ondas gravitacionais foram captadas diretamente pela primeira vez pelos detectores do LIGO em setembro de que ano?",
     "resposta": "2015",
+    "distratores": [
+      "2008",
+      "2011",
+      "2013"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
     ],
@@ -51050,9 +51315,14 @@
     "subtema": "Pintura",
     "ancora": "primeira_exposicao_impressionista",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Monet, Degas, Renoir e colegas fizeram sua primeira exposição em grupo, no antigo estúdio do fotógrafo Nadar, em Paris?",
     "resposta": "1874",
+    "distratores": [
+      "1877",
+      "1880",
+      "1883"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Impressionism",
       "https://pt.wikipedia.org/wiki/Impressionismo"
@@ -51084,9 +51354,14 @@
     "subtema": "Pintura",
     "ancora": "les_demoiselles_d_avignon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Picasso pintou As Senhoritas de Avignon, quadro considerado o ponto de partida do cubismo?",
     "resposta": "1907",
+    "distratores": [
+      "1898",
+      "1901",
+      "1904"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon"
     ],
@@ -53082,9 +53357,14 @@
     "subtema": "Escultura e Arquitetura",
     "ancora": "incendio_da_catedral_de_notre_dame_de_paris",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano um incêndio derrubou a agulha da Catedral de Notre-Dame de Paris?",
     "resposta": "2019",
+    "distratores": [
+      "2015",
+      "2017",
+      "2021"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris_fire"
     ],
@@ -54527,9 +54807,14 @@
     "subtema": "Música Clássica",
     "ancora": "georg_friedrich_handel",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Handel e Bach nasceram na Alemanha com cerca de um mês de diferença. Em que ano?",
     "resposta": "1685",
+    "distratores": [
+      "1671",
+      "1676",
+      "1680"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/George_Frideric_Handel",
       "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
@@ -55160,9 +55445,14 @@
     "subtema": "Matemática",
     "ancora": "malba_tahan",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Dia Nacional da Matemática, no Brasil, celebra o nascimento de Malba Tahan, autor de O Homem que Calculava. Em que data é comemorado?",
     "resposta": "Seis de maio",
+    "distratores": [
+      "Seis de junho",
+      "Onze de maio",
+      "Vinte de maio"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Malba_Tahan"
     ],
@@ -57098,9 +57388,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "fax",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o escocês Alexander Bain patenteou seu telégrafo impressor, precursor do fax, capaz de transmitir imagens por fio?",
     "resposta": "1843",
+    "distratores": [
+      "1835",
+      "1839",
+      "1849"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Fax",
       "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)"
@@ -57371,9 +57666,14 @@
     "subtema": "Roma Antiga",
     "ancora": "pompeia",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano um desastre natural pôs fim a esta cidade romana?",
     "resposta": "79 d.C.",
+    "distratores": [
+      "69 d.C.",
+      "83 d.C.",
+      "91 d.C."
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Pompeii",
       "https://pt.wikipedia.org/wiki/Pompeia"
@@ -58821,9 +59121,14 @@
     "subtema": "Religiões",
     "ancora": "festa_de_iemanja",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que dia do ano acontece a tradicional festa de Iemanjá no bairro do Rio Vermelho, em Salvador?",
     "resposta": "2 de fevereiro",
+    "distratores": [
+      "2 de março",
+      "12 de fevereiro",
+      "1º de janeiro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Iemanjá",
       "https://en.wikipedia.org/wiki/Yemoja"
@@ -59809,9 +60114,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "rms_titanic",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano naufragou este navio de passageiros?",
     "resposta": "1912",
+    "distratores": [
+      "1908",
+      "1915",
+      "1919"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Titanic",
       "https://pt.wikipedia.org/wiki/RMS_Titanic"
@@ -59898,9 +60208,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "bandeira_da_alemanha_nazista",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano esta bandeira passou a ser a única bandeira nacional da Alemanha?",
     "resposta": "1935",
+    "distratores": [
+      "1934",
+      "1938",
+      "1941"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Flag_of_Nazi_Germany",
       "https://pt.wikipedia.org/wiki/Bandeira_da_Alemanha_nazista"
@@ -60211,9 +60526,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "woodrow_wilson",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este presidente americano assumiu o cargo?",
     "resposta": "1913",
+    "distratores": [
+      "1915",
+      "1916",
+      "1919"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Woodrow_Wilson",
       "https://pt.wikipedia.org/wiki/Woodrow_Wilson"
@@ -60331,9 +60651,14 @@
     "subtema": "História do Brasil",
     "ancora": "dom_joao_vi",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano morreu este rei português do início do século dezenove?",
     "resposta": "1826",
+    "distratores": [
+      "1821",
+      "1824",
+      "1829"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/John_VI_of_Portugal",
       "https://pt.wikipedia.org/wiki/Jo%C3%A3o_VI_de_Portugal"
@@ -60378,9 +60703,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "isoroku_yamamoto",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano morreu este almirante japonês da Segunda Guerra Mundial?",
     "resposta": "1943",
+    "distratores": [
+      "1941",
+      "1944",
+      "1947"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Isoroku_Yamamoto",
       "https://pt.wikipedia.org/wiki/Isoroku_Yamamoto"
@@ -60519,9 +60849,14 @@
     "subtema": "Transportes",
     "ancora": "jipe_lunar",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este veículo foi usado pela primeira vez na Lua?",
     "resposta": "1971",
+    "distratores": [
+      "1973",
+      "1976",
+      "1980"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Lunar_Roving_Vehicle",
       "https://pt.wikipedia.org/wiki/Lunar_Roving_Vehicle"
@@ -61045,9 +61380,14 @@
     "subtema": "Idade Moderna",
     "ancora": "mayflower",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o navio Mayflower levou os peregrinos ingleses até a costa de Massachusetts?",
     "resposta": "1620",
+    "distratores": [
+      "1625",
+      "1630",
+      "1636"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Mayflower"
     ],
@@ -62599,9 +62939,14 @@
     "subtema": "Filosofia",
     "ancora": "manifesto_comunista",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Manifesto Comunista, de Marx e Engels, foi publicado em que ano, marcado por revoluções em vários países da Europa?",
     "resposta": "1848",
+    "distratores": [
+      "1843",
+      "1852",
+      "1857"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/The_Communist_Manifesto"
     ],
@@ -63481,9 +63826,14 @@
     "subtema": "Marcas e Produtos",
     "ancora": "aspirina",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a empresa alemã Bayer registrou a marca Aspirina?",
     "resposta": "1899",
+    "distratores": [
+      "1894",
+      "1903",
+      "1908"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Aspirin"
     ],
@@ -64073,9 +64423,14 @@
     "subtema": "Biologia e Genética",
     "ancora": "projeto_genoma_humano",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Lançado em 1990, em que ano o Projeto Genoma Humano foi declarado concluído?",
     "resposta": "2003",
+    "distratores": [
+      "1996",
+      "1998",
+      "2001"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Human_Genome_Project"
     ],
@@ -64087,9 +64442,14 @@
     "subtema": "Biologia e Genética",
     "ancora": "a_origem_das_especies",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Charles Darwin publicou A Origem das Espécies?",
     "resposta": "1859",
+    "distratores": [
+      "1862",
+      "1865",
+      "1871"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
     ],
@@ -65303,9 +65663,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "guilhotina",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Símbolo da Revolução Francesa, a guilhotina foi usada pela última vez numa execução na França em que ano?",
     "resposta": "1977",
+    "distratores": [
+      "1974",
+      "1980",
+      "1984"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Hamida_Djandoubi",
       "https://en.wikipedia.org/wiki/Guillotine"
@@ -65318,9 +65683,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "primavera_dos_povos",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A onda de revoluções que varreu a Europa e ficou conhecida como Primavera dos Povos aconteceu em que ano?",
     "resposta": "1848",
+    "distratores": [
+      "1845",
+      "1851",
+      "1854"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Revolutions_of_1848"
     ],
@@ -65332,9 +65702,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "independencia_da_india",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Junto com a criação do Paquistão, em que ano a Índia se tornou independente do Reino Unido?",
     "resposta": "1947",
+    "distratores": [
+      "1939",
+      "1943",
+      "1945"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Indian_Independence_Act_1947",
       "https://en.wikipedia.org/wiki/Partition_of_India"
@@ -65347,9 +65722,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "queda_de_saigon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A queda de Saigon, que marcou o fim da Guerra do Vietnã, aconteceu em que ano?",
     "resposta": "1975",
+    "distratores": [
+      "1966",
+      "1969",
+      "1972"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Fall_of_Saigon"
     ],
@@ -66770,9 +67150,14 @@
     "subtema": "Países e Capitais",
     "ancora": "dissolucao_da_tchecoslovaquia",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Após o chamado Divórcio de Veludo, a República Tcheca e a Eslováquia passaram a existir como países separados em que ano?",
     "resposta": "1993",
+    "distratores": [
+      "1990",
+      "1996",
+      "1999"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia"
     ],
@@ -66784,9 +67169,14 @@
     "subtema": "Países e Capitais",
     "ancora": "panama",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No início do século vinte, o Panamá deixou de fazer parte da Colômbia. Em que ano isso aconteceu?",
     "resposta": "1903",
+    "distratores": [
+      "1905",
+      "1909",
+      "1914"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Separation_of_Panama_from_Colombia"
     ],
@@ -66798,9 +67188,14 @@
     "subtema": "Países e Capitais",
     "ancora": "essuatini",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O rei Mswati Terceiro trocou o nome oficial da Suazilândia para Essuatíni em que ano?",
     "resposta": "2018",
+    "distratores": [
+      "2019",
+      "2021",
+      "2023"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Eswatini"
     ],
@@ -66812,9 +67207,14 @@
     "subtema": "Países e Capitais",
     "ancora": "timor_leste",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de séculos sob Portugal e anos de ocupação indonésia, o Timor-Leste teve sua independência reconhecida em que ano?",
     "resposta": "2002",
+    "distratores": [
+      "1998",
+      "2000",
+      "2005"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/East_Timor"
     ],
@@ -66826,9 +67226,14 @@
     "subtema": "Países e Capitais",
     "ancora": "montenegro",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de um referendo, o Montenegro se separou da Sérvia e virou um país independente em que ano?",
     "resposta": "2006",
+    "distratores": [
+      "2004",
+      "2009",
+      "2012"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Montenegro"
     ],
@@ -66840,9 +67245,14 @@
     "subtema": "Países e Capitais",
     "ancora": "haiti",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Após uma revolução liderada por escravizados, o Haiti proclamou sua independência da França em que ano?",
     "resposta": "1804",
+    "distratores": [
+      "1802",
+      "1808",
+      "1815"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Haitian_Revolution"
     ],
@@ -66854,9 +67264,14 @@
     "subtema": "Países e Capitais",
     "ancora": "bangladesh",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Antes chamado Paquistão Oriental, Bangladesh conquistou a independência numa guerra em que ano?",
     "resposta": "1971",
+    "distratores": [
+      "1973",
+      "1976",
+      "1980"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Bangladesh_Liberation_War"
     ],
@@ -67804,9 +68219,14 @@
     "subtema": "Cinema",
     "ancora": "parasita",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi lançado este filme sul-coreano?",
     "resposta": "2019",
+    "distratores": [
+      "2012",
+      "2015",
+      "2017"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Parasite_%282019_film%29",
       "https://www.themoviedb.org/movie/496243"
@@ -67978,9 +68398,14 @@
     "subtema": "Moda e Vestuário",
     "ancora": "bolsa_chanel_2_55",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A bolsa Chanel 2.55, de alça de corrente, tem esse nome por causa do mês e do ano de lançamento. Quais?",
     "resposta": "Fevereiro de 1955",
+    "distratores": [
+      "Fevereiro de 1957",
+      "Março de 1955",
+      "Novembro de 1954"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Chanel",
       "https://en.wikipedia.org/wiki/Coco_Chanel"
@@ -69418,9 +69843,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "dia_da_terra",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Criado nos Estados Unidos em 1970, o Dia da Terra é comemorado no mesmo dia em que Cabral chegou ao Brasil. Que data é essa?",
     "resposta": "22 de abril",
+    "distratores": [
+      "21 de abril",
+      "25 de abril",
+      "22 de março"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Earth_Day"
     ],
@@ -71080,9 +71510,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "maria_antonieta",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano morreu esta rainha consorte da França?",
     "resposta": "1793",
+    "distratores": [
+      "1794",
+      "1797",
+      "1801"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Marie_Antoinette",
       "https://pt.wikipedia.org/wiki/Maria_Antonieta"
@@ -71463,9 +71898,14 @@
     "subtema": "Teatro e Ópera",
     "ancora": "teatro_alla_scala",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi inaugurado o Teatro alla Scala, a casa de ópera de Milão?",
     "resposta": "1778",
+    "distratores": [
+      "1769",
+      "1774",
+      "1783"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/La_Scala"
     ],
@@ -71543,9 +71983,14 @@
     "subtema": "Teatro e Ópera",
     "ancora": "opera_garnier",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi inaugurada a Ópera Garnier, de Paris, cenário do romance O Fantasma da Ópera?",
     "resposta": "1875",
+    "distratores": [
+      "1862",
+      "1867",
+      "1871"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Palais_Garnier"
     ],
@@ -73968,9 +74413,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "jogos_olimpicos_de_verao_de_1916",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Berlim deveria sediar os Jogos Olímpicos de 1916, cancelados pela guerra. Em que ano a cidade finalmente recebeu as Olimpíadas?",
     "resposta": "1936",
+    "distratores": [
+      "1929",
+      "1932",
+      "1940"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1916_Summer_Olympics"
     ],
@@ -74293,9 +74743,14 @@
     "subtema": "Quadrinhos",
     "ancora": "superman",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
     "resposta": "1938",
+    "distratores": [
+      "1934",
+      "1936",
+      "1941"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Superman",
       "https://en.wikipedia.org/wiki/Action_Comics_1"
@@ -74308,9 +74763,14 @@
     "subtema": "Quadrinhos",
     "ancora": "peanuts",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Charles Schulz desenhou a tira Peanuts, de Charlie Brown e Snoopy, por quase cinquenta anos. Em que ano ela estreou nos jornais?",
     "resposta": "1950",
+    "distratores": [
+      "1945",
+      "1948",
+      "1953"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Peanuts"
     ],
@@ -74322,9 +74782,14 @@
     "subtema": "Quadrinhos",
     "ancora": "monica",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Mônica surgiu em 1963 como coadjuvante nas tiras do Cebolinha. Em que ano ela ganhou sua própria revista em quadrinhos?",
     "resposta": "1970",
+    "distratores": [
+      "1967",
+      "1973",
+      "1978"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Turma_da_Mônica",
       "https://en.wikipedia.org/wiki/Monica_and_Friends"
@@ -74356,9 +74821,14 @@
     "subtema": "Quadrinhos",
     "ancora": "turma_do_perere",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Ziraldo lançou a revista da Turma do Pererê, estrelada por um saci da mata brasileira?",
     "resposta": "1960",
+    "distratores": [
+      "1962",
+      "1967",
+      "1972"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Turma_do_Pererê",
       "https://pt.wikipedia.org/wiki/Ziraldo"
@@ -75653,9 +76123,14 @@
     "subtema": "Futebol",
     "ancora": "zagallo",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este brasileiro foi campeão mundial como técnico da seleção?",
     "resposta": "1970",
+    "distratores": [
+      "1966",
+      "1978",
+      "1982"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/M%C3%A1rio_Zagallo",
       "https://pt.wikipedia.org/wiki/Zagallo"
@@ -75987,9 +76462,14 @@
     "subtema": "Objetos do Dia a Dia",
     "ancora": "walkman",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Muita gente associa o Walkman aos anos oitenta, mas a Sony lançou o tocador de fitas portátil antes. Em que ano?",
     "resposta": "1979",
+    "distratores": [
+      "1972",
+      "1975",
+      "1977"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Walkman"
     ],
@@ -76754,9 +77234,14 @@
     "subtema": "Geografia do Brasil",
     "ancora": "roraima",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Roraima e Amapá deixaram de ser territórios federais e viraram estados com a Constituição promulgada em que ano?",
     "resposta": "1988",
+    "distratores": [
+      "1990",
+      "1993",
+      "1998"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Roraima",
       "https://en.wikipedia.org/wiki/Roraima"
@@ -78077,9 +78562,14 @@
     "subtema": "Invenções e História da Ciência",
     "ancora": "vacina_contra_a_variola",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o médico inglês Edward Jenner testou num menino de oito anos sua vacina contra a varíola?",
     "resposta": "1796",
+    "distratores": [
+      "1789",
+      "1792",
+      "1801"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Edward_Jenner",
       "https://en.wikipedia.org/wiki/Smallpox_vaccine"
@@ -78107,9 +78597,14 @@
     "subtema": "Invenções e História da Ciência",
     "ancora": "das_revolucoes_das_esferas_celestes",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi publicado o livro de Copérnico que pôs o Sol no centro do seu modelo do universo, no mesmo ano da morte do autor?",
     "resposta": "1543",
+    "distratores": [
+      "1519",
+      "1530",
+      "1537"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
     ],
@@ -78990,9 +79485,14 @@
     "subtema": "Olimpíadas",
     "ancora": "comite_olimpico_internacional",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Comitê Olímpico Internacional foi criado num congresso convocado por Pierre de Coubertin na Universidade Sorbonne, em Paris. Em que ano?",
     "resposta": "1894",
+    "distratores": [
+      "1888",
+      "1891",
+      "1898"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/International_Olympic_Committee"
     ],
@@ -80150,9 +80650,14 @@
     "subtema": "Filosofia",
     "ancora": "jean_paul_sartre",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Jean-Paul Sartre recusou o Prêmio Nobel de Literatura no mesmo ano em que houve o golpe militar no Brasil. Que ano foi esse?",
     "resposta": "1964",
+    "distratores": [
+      "1958",
+      "1961",
+      "1969"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
     ],
@@ -80178,9 +80683,14 @@
     "subtema": "Filosofia",
     "ancora": "voltaire",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Voltaire e Rousseau, grandes rivais do Iluminismo, morreram com pouco mais de um mês de diferença. Em que ano?",
     "resposta": "1778",
+    "distratores": [
+      "1781",
+      "1785",
+      "1790"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Voltaire",
       "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau"
@@ -80600,9 +81110,14 @@
     "subtema": "Língua Portuguesa e Expressões",
     "ancora": "acordo_ortografico_de_1990",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O novo acordo ortográfico começou a valer no Brasil em 2009, com um período de transição. Em que ano ele se tornou obrigatório?",
     "resposta": "2016",
+    "distratores": [
+      "2018",
+      "2020",
+      "2023"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Acordo_Ortogr%C3%A1fico_de_1990"
     ],
@@ -80614,9 +81129,14 @@
     "subtema": "Língua Portuguesa e Expressões",
     "ancora": "comunidade_dos_paises_de_lingua_portuguesa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi criada, numa cúpula em Lisboa, a Comunidade dos Países de Língua Portuguesa?",
     "resposta": "1996",
+    "distratores": [
+      "1986",
+      "1989",
+      "1992"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Comunidade_dos_Pa%C3%ADses_de_L%C3%ADngua_Portuguesa"
     ],
@@ -80628,9 +81148,14 @@
     "subtema": "Língua Portuguesa e Expressões",
     "ancora": "goa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Goa, na costa da Índia, ficou mais de quatro séculos sob domínio português. Em que ano a Índia tomou o território?",
     "resposta": "1961",
+    "distratores": [
+      "1963",
+      "1967",
+      "1972"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Annexation_of_Goa"
     ],
@@ -80642,9 +81167,14 @@
     "subtema": "Língua Portuguesa e Expressões",
     "ancora": "libras",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
     "resposta": "2002",
+    "distratores": [
+      "1991",
+      "1995",
+      "1998"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
     ],
@@ -80684,9 +81214,14 @@
     "subtema": "Língua Portuguesa e Expressões",
     "ancora": "dia_de_portugal",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Portugal comemora seu dia nacional na data da morte de Luís de Camões, o poeta de Os Lusíadas. Que data é essa?",
     "resposta": "10 de junho",
+    "distratores": [
+      "10 de julho",
+      "10 de maio",
+      "20 de junho"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Portugal_Day",
       "https://pt.wikipedia.org/wiki/Dia_de_Portugal,_de_Cam%C3%B5es_e_das_Comunidades_Portuguesas"
@@ -81440,9 +81975,14 @@
     "subtema": "Ecossistemas e Ambientes Extremos",
     "ancora": "abismo_challenger",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Jacques Piccard e Don Walsh, a bordo do batiscafo Trieste, chegaram pela primeira vez ao fundo do Abismo Challenger?",
     "resposta": "1960",
+    "distratores": [
+      "1963",
+      "1966",
+      "1971"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Trieste_(bathyscaphe)",
       "https://en.wikipedia.org/wiki/Challenger_Deep"
@@ -82013,9 +82553,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "mikhail_gorbachev",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este político chegou ao comando do Partido Comunista da União Soviética?",
     "resposta": "1985",
+    "distratores": [
+      "1987",
+      "1990",
+      "1992"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
       "https://pt.wikipedia.org/wiki/Mikhail_Gorbatchov"
@@ -82459,9 +83004,14 @@
     "subtema": "Séries e TV",
     "ancora": "tv_globo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A TV Globo foi inaugurada no mesmo ano em que a cidade do Rio de Janeiro completou quatrocentos anos. Que ano foi esse?",
     "resposta": "1965",
+    "distratores": [
+      "1960",
+      "1968",
+      "1972"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/TV_Globo",
       "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
@@ -82474,9 +83024,14 @@
     "subtema": "Séries e TV",
     "ancora": "fantastico",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Fantástico, a revista eletrônica dos domingos da Globo, foi ao ar pela primeira vez em que ano?",
     "resposta": "1973",
+    "distratores": [
+      "1964",
+      "1968",
+      "1970"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Fant%C3%A1stico"
     ],
@@ -82488,9 +83043,14 @@
     "subtema": "Séries e TV",
     "ancora": "xou_da_xuxa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Com a nave espacial e as Paquitas, o Xou da Xuxa estreou nas manhãs da Globo em que ano?",
     "resposta": "1986",
+    "distratores": [
+      "1983",
+      "1988",
+      "1991"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Xou_da_Xuxa"
     ],
@@ -82502,9 +83062,14 @@
     "subtema": "Séries e TV",
     "ancora": "sua_vida_me_pertence",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Considerada a primeira telenovela brasileira, Sua Vida Me Pertence foi exibida pela TV Tupi em que ano?",
     "resposta": "1951",
+    "distratores": [
+      "1950",
+      "1953",
+      "1957"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Sua_Vida_Me_Pertence"
     ],
@@ -82516,9 +83081,14 @@
     "subtema": "Séries e TV",
     "ancora": "escrava_isaura_telenovela_de_1976",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Sucesso exportado para dezenas de países, a novela Escrava Isaura, com Lucélia Santos, estreou na Globo em que ano?",
     "resposta": "1976",
+    "distratores": [
+      "1968",
+      "1971",
+      "1973"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Escrava_Isaura_(telenovela_de_1976)",
       "https://pt.wikipedia.org/wiki/A_Escrava_Isaura"
@@ -82531,9 +83101,14 @@
     "subtema": "Séries e TV",
     "ancora": "vila_sesamo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Conhecido no Brasil como Vila Sésamo, o programa Sesame Street estreou nos Estados Unidos no mesmo ano da chegada do homem à Lua. Que ano?",
     "resposta": "1969",
+    "distratores": [
+      "1965",
+      "1972",
+      "1976"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sesame_Street"
     ],
@@ -83596,9 +84171,14 @@
     "subtema": "História da África",
     "ancora": "ano_da_africa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Que ano ficou conhecido como Ano da África, porque dezessete países do continente se tornaram independentes?",
     "resposta": "1960",
+    "distratores": [
+      "1957",
+      "1963",
+      "1966"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Year_of_Africa"
     ],
@@ -83624,9 +84204,14 @@
     "subtema": "História da África",
     "ancora": "escravidao_na_mauritania",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Mauritânia foi o último país do mundo a abolir oficialmente a escravidão. Em que ano isso aconteceu?",
     "resposta": "1981",
+    "distratores": [
+      "1984",
+      "1988",
+      "1994"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Slavery_in_Mauritania"
     ],
@@ -83638,9 +84223,14 @@
     "subtema": "História da África",
     "ancora": "guerra_da_argelia",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de cerca de oito anos de guerra, em que ano a Argélia conquistou a independência da França?",
     "resposta": "1962",
+    "distratores": [
+      "1958",
+      "1965",
+      "1969"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Algerian_War"
     ],
@@ -83906,9 +84496,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "bandeira_de_pernambuco",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A bandeira de Pernambuco se inspira na dos revolucionários que se rebelaram contra a Coroa portuguesa em que ano?",
     "resposta": "1817",
+    "distratores": [
+      "1807",
+      "1812",
+      "1821"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Bandeira_de_Pernambuco"
     ],
@@ -83920,9 +84515,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "bandeira_do_canada",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o Canadá adotou a bandeira com a folha de bordo vermelha, abandonando a que trazia o Union Jack?",
     "resposta": "1965",
+    "distratores": [
+      "1957",
+      "1960",
+      "1962"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Flag_of_Canada"
     ],
@@ -83948,9 +84548,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "euro",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O euro existe desde 1999, mas suas cédulas e moedas só começaram a circular em que ano?",
     "resposta": "2002",
+    "distratores": [
+      "1999",
+      "2000",
+      "2001"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Euro",
       "https://pt.wikipedia.org/wiki/Euro"
@@ -83963,9 +84568,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "bandeira_do_reino_unido",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A cruz vermelha em X de São Patrício entrou na bandeira britânica com a união com a Irlanda. Em que ano?",
     "resposta": "1801",
+    "distratores": [
+      "1795",
+      "1807",
+      "1815"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Union_Jack"
     ],
@@ -83977,9 +84587,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "bandeira_do_japao",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Usado há séculos, o disco vermelho sobre fundo branco só foi oficializado por lei como bandeira nacional do Japão em que ano?",
     "resposta": "1999",
+    "distratores": [
+      "1989",
+      "1994",
+      "2003"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Flag_of_Japan"
     ],
@@ -83991,9 +84606,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "bandeira_da_africa_do_sul",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Hasteada pela primeira vez nas eleições que marcaram o fim do apartheid, a bandeira sul-africana de seis cores foi adotada em que ano?",
     "resposta": "1994",
+    "distratores": [
+      "1995",
+      "1997",
+      "2000"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Flag_of_South_Africa"
     ],
@@ -84005,9 +84625,14 @@
     "subtema": "Bandeiras e Símbolos",
     "ancora": "the_star_spangled_banner",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Escrito em 1814, o poema The Star-Spangled Banner só se tornou oficialmente o hino dos Estados Unidos em que ano?",
     "resposta": "1931",
+    "distratores": [
+      "1918",
+      "1925",
+      "1936"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner"
     ],
@@ -84737,9 +85362,14 @@
     "subtema": "Biologia e Genética",
     "ancora": "ovelha_dolly",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano nasceu a ovelha Dolly, o primeiro mamífero clonado a partir de uma célula adulta?",
     "resposta": "1996",
+    "distratores": [
+      "1998",
+      "2000",
+      "2001"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Dolly_(sheep)"
     ],
@@ -85478,9 +86108,14 @@
     "subtema": "Pintura",
     "ancora": "washington_cruzando_o_delaware",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano aconteceu a travessia de rio, na Guerra de Independência dos Estados Unidos, retratada neste quadro?",
     "resposta": "1776",
+    "distratores": [
+      "1779",
+      "1781",
+      "1783"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Washington_Crossing_the_Delaware_%281851_paintings%29",
       "https://pt.wikipedia.org/wiki/Washington_Crossing_the_Delaware"
@@ -85499,9 +86134,14 @@
     "subtema": "Pintura",
     "ancora": "homem_vitruviano",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Este desenho renascentista de proporções do corpo humano costuma ser datado de cerca de que ano?",
     "resposta": "Cerca de 1490",
+    "distratores": [
+      "Cerca de 1465",
+      "Cerca de 1472",
+      "Cerca de 1478"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Vitruvian_Man",
       "https://pt.wikipedia.org/wiki/Homem_Vitruviano_%28desenho_de_Leonardo_da_Vinci%29"
@@ -86196,9 +86836,14 @@
     "subtema": "Futebol",
     "ancora": "copa_do_mundo_fifa_de_1970",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano, numa Copa disputada no México, os cartões amarelo e vermelho foram usados pela primeira vez?",
     "resposta": "1970",
+    "distratores": [
+      "1974",
+      "1978",
+      "1982"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1970"
     ],
@@ -86826,9 +87471,14 @@
     "subtema": "Futebol",
     "ancora": "premier_league",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Premier League, que substituiu a antiga primeira divisão do futebol inglês, foi criada em qual ano?",
     "resposta": "1992",
+    "distratores": [
+      "1983",
+      "1986",
+      "1989"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Premier_League"
     ],
@@ -87825,9 +88475,14 @@
     "subtema": "Geologia e História da Terra",
     "ancora": "terremoto_de_sao_francisco_de_1906",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No início do século vinte, um terremoto seguido de incêndios destruiu boa parte de São Francisco, na Califórnia. Em que ano?",
     "resposta": "1906",
+    "distratores": [
+      "1894",
+      "1898",
+      "1902"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake"
     ],
@@ -87839,9 +88494,14 @@
     "subtema": "Geologia e História da Terra",
     "ancora": "erupcao_do_monte_santa_helena_de_1980",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em maio de qual ano o Monte Santa Helena, nos Estados Unidos, explodiu de lado e perdeu cerca de quatrocentos metros de altura?",
     "resposta": "1980",
+    "distratores": [
+      "1983",
+      "1986",
+      "1991"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens"
     ],
@@ -88411,9 +89071,14 @@
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "dia_do_saci",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Criado para fazer frente ao Halloween e valorizar o folclore nacional, o Dia do Saci é comemorado em que data?",
     "resposta": "31 de outubro",
+    "distratores": [
+      "12 de outubro",
+      "22 de agosto",
+      "1º de novembro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Dia_do_Saci"
     ],
@@ -88439,9 +89104,14 @@
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "cosme_e_damiao",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que dia de setembro muitas famílias brasileiras distribuem saquinhos de doces às crianças em homenagem a Cosme e Damião?",
     "resposta": "27 de setembro",
+    "distratores": [
+      "23 de setembro",
+      "29 de setembro",
+      "13 de setembro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Cosme_e_Dami%C3%A3o"
     ],
@@ -88453,9 +89123,14 @@
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "semana_farroupilha",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Semana Farroupilha, com desfiles de gaúchos pilchados, termina na data que marca o início da Revolução Farroupilha. Que data é essa?",
     "resposta": "20 de setembro",
+    "distratores": [
+      "15 de setembro",
+      "20 de agosto",
+      "24 de setembro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Semana_Farroupilha"
     ],
@@ -90359,9 +91034,14 @@
     "subtema": "Roma Antiga",
     "ancora": "augusto",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano antes de Cristo Otaviano recebeu do Senado o título de Augusto, data tradicional do início do Império Romano?",
     "resposta": "27 antes de Cristo",
+    "distratores": [
+      "44 antes de Cristo",
+      "38 antes de Cristo",
+      "33 antes de Cristo"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Augustus",
       "https://pt.wikipedia.org/wiki/Augusto"
@@ -90374,9 +91054,14 @@
     "subtema": "Roma Antiga",
     "ancora": "divisao_do_imperio_romano_em_395",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a morte do imperador Teodósio deixou o Império Romano dividido de vez entre seus dois filhos, um no Ocidente e outro no Oriente?",
     "resposta": "395",
+    "distratores": [
+      "378",
+      "410",
+      "455"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Theodosius_I",
       "https://en.wikipedia.org/wiki/Western_Roman_Empire"
@@ -90419,9 +91104,14 @@
     "subtema": "Roma Antiga",
     "ancora": "cerco_de_jerusalem_de_70",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano as tropas do futuro imperador Tito tomaram Jerusalém e destruíram o Segundo Templo?",
     "resposta": "70 depois de Cristo",
+    "distratores": [
+      "66 depois de Cristo",
+      "79 depois de Cristo",
+      "96 depois de Cristo"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(70_CE)",
       "https://en.wikipedia.org/wiki/Second_Temple"
@@ -91212,9 +91902,14 @@
     "subtema": "Música Brasileira",
     "ancora": "jovem_guarda",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano estreou na TV Record o programa Jovem Guarda, comandado por Roberto Carlos, Erasmo Carlos e Wanderléa?",
     "resposta": "1965",
+    "distratores": [
+      "1959",
+      "1961",
+      "1963"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Jovem_Guarda"
     ],
@@ -91246,9 +91941,14 @@
     "subtema": "Música Brasileira",
     "ancora": "raul_seixas",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Raul Seixas morreu poucos dias depois de lançar A Panela do Diabo, disco gravado com Marcelo Nova. Em que ano?",
     "resposta": "1989",
+    "distratores": [
+      "1983",
+      "1986",
+      "1992"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Raul_Seixas",
       "https://en.wikipedia.org/wiki/Raul_Seixas"
@@ -91281,9 +91981,14 @@
     "subtema": "Música Brasileira",
     "ancora": "chico_science",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Aos trinta anos, Chico Science, líder da Nação Zumbi, morreu num acidente de carro. Em que ano?",
     "resposta": "1997",
+    "distratores": [
+      "1999",
+      "2001",
+      "2004"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Chico_Science",
       "https://en.wikipedia.org/wiki/Chico_Science"
@@ -91296,9 +92001,14 @@
     "subtema": "Música Brasileira",
     "ancora": "deixa_falar",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano sambistas do Estácio, como Ismael Silva, fundaram a Deixa Falar, tida como a primeira escola de samba?",
     "resposta": "1928",
+    "distratores": [
+      "1919",
+      "1922",
+      "1925"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Deixa_Falar"
     ],
@@ -91310,9 +92020,14 @@
     "subtema": "Música Brasileira",
     "ancora": "gilberto_gil",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Gilberto Gil trocou por um tempo os palcos pela política e virou ministro da Cultura. Em que ano tomou posse?",
     "resposta": "2003",
+    "distratores": [
+      "2005",
+      "2007",
+      "2010"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Gilberto_Gil",
       "https://en.wikipedia.org/wiki/Gilberto_Gil"
@@ -92067,9 +92782,14 @@
     "subtema": "Cidades e Monumentos",
     "ancora": "muro_de_berlim",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Dividindo a cidade alemã por quase três décadas, o Muro de Berlim começou a ser erguido em qual ano?",
     "resposta": "1961",
+    "distratores": [
+      "1963",
+      "1966",
+      "1971"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Muro_de_Berlim"
     ],
@@ -92184,9 +92904,14 @@
     "subtema": "Cidades e Monumentos",
     "ancora": "forte_dos_reis_magos",
     "angulo": "nome",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Na foz do rio Potengi, em Natal, o Forte dos Reis Magos deve o nome à data festiva em que sua construção começou. Que data?",
     "resposta": "Seis de janeiro",
+    "distratores": [
+      "Vinte e quatro de dezembro",
+      "Primeiro de janeiro",
+      "Dois de fevereiro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Forte_dos_Reis_Magos"
     ],
@@ -92627,9 +93352,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "protocolo_de_quioto",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi adotado, na cidade japonesa de Quioto, o protocolo que fixou metas para reduzir gases do efeito estufa?",
     "resposta": "1997",
+    "distratores": [
+      "1999",
+      "2001",
+      "2003"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Protocolo_de_Quioto",
       "https://en.wikipedia.org/wiki/Kyoto_Protocol"
@@ -92642,9 +93372,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "gasolina_com_chumbo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Argélia foi o último país do mundo a deixar de vender gasolina com chumbo para carros. Em que ano isso aconteceu?",
     "resposta": "2021",
+    "distratores": [
+      "2013",
+      "2017",
+      "2019"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Tetraethyllead"
     ],
@@ -92689,9 +93424,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "carro_flex",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Os carros flex, que aceitam álcool, gasolina ou qualquer mistura dos dois, começaram a ser vendidos no Brasil em que ano?",
     "resposta": "2003",
+    "distratores": [
+      "1998",
+      "2001",
+      "2006"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Flexible-fuel_vehicles_in_Brazil",
       "https://en.wikipedia.org/wiki/Flexible-fuel_vehicle"
@@ -92704,9 +93444,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "rompimento_da_barragem_de_brumadinho",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O rompimento da barragem de rejeitos da mina Córrego do Feijão, em Brumadinho, Minas Gerais, aconteceu em que ano?",
     "resposta": "2019",
+    "distratores": [
+      "2012",
+      "2014",
+      "2017"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Brumadinho_dam_disaster",
       "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Brumadinho"
@@ -93533,9 +94278,14 @@
     "subtema": "Transportes",
     "ancora": "mini_mark_i",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano começou a ser produzido este carro britânico?",
     "resposta": "1959",
+    "distratores": [
+      "1952",
+      "1955",
+      "1957"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Mini_%28Mark_I%29"
     ],
@@ -95452,9 +96202,14 @@
     "subtema": "Transportes",
     "ancora": "boeing_747",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Boeing 747 e o Concorde fizeram seus primeiros voos no mesmo ano em que o homem pisou na Lua. Que ano foi esse?",
     "resposta": "1969",
+    "distratores": [
+      "1971",
+      "1974",
+      "1978"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Boeing_747",
       "https://en.wikipedia.org/wiki/Concorde"
@@ -95467,9 +96222,14 @@
     "subtema": "Transportes",
     "ancora": "tunel_do_canal_da_mancha",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi inaugurado o túnel ferroviário sob o Canal da Mancha, que liga a Inglaterra à França?",
     "resposta": "1994",
+    "distratores": [
+      "1996",
+      "1998",
+      "2001"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Channel_Tunnel"
     ],
@@ -95974,9 +96734,14 @@
     "subtema": "Vida Marinha",
     "ancora": "fonte_hidrotermal",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano cientistas num submersível encontraram, perto das Galápagos, as primeiras fontes hidrotermais cercadas de vida, com vermes gigantes e mariscos?",
     "resposta": "1977",
+    "distratores": [
+      "1968",
+      "1971",
+      "1974"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Hydrothermal_vent"
     ],
@@ -96567,9 +97332,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "tiger_woods",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Tiger Woods tinha vinte e um anos quando venceu o Masters de golfe pela primeira vez. Em que ano foi isso?",
     "resposta": "1997",
+    "distratores": [
+      "1994",
+      "1995",
+      "1999"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1997_Masters_Tournament",
       "https://en.wikipedia.org/wiki/Tiger_Woods"
@@ -96582,9 +97352,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "daiane_dos_santos",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Daiane dos Santos se tornou a primeira ginasta brasileira campeã mundial, na prova de solo?",
     "resposta": "2003",
+    "distratores": [
+      "1999",
+      "2001",
+      "2006"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Daiane_dos_Santos",
       "https://en.wikipedia.org/wiki/Daiane_dos_Santos"
@@ -96646,9 +97421,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "jesse_owens",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Sob o olhar do regime nazista, o americano Jesse Owens ganhou quatro medalhas de ouro nos Jogos de Berlim. Em que ano?",
     "resposta": "1936",
+    "distratores": [
+      "1928",
+      "1932",
+      "1940"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Jesse_Owens",
       "https://pt.wikipedia.org/wiki/Jesse_Owens"
@@ -97197,9 +97977,14 @@
     "subtema": "Idade Moderna",
     "ancora": "frederico_o_grande",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este monarca prussiano subiu ao trono?",
     "resposta": "1740",
+    "distratores": [
+      "1728",
+      "1735",
+      "1745"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Frederick_the_Great",
       "https://pt.wikipedia.org/wiki/Frederico_II_da_Pr%C3%BAssia"
@@ -97307,9 +98092,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "regency_tr_1",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi lançado o primeiro rádio comercial deste tipo?",
     "resposta": "1954",
+    "distratores": [
+      "1946",
+      "1949",
+      "1952"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Transistor_radio",
       "https://pt.wikipedia.org/wiki/R%C3%A1dio_transistorizado"
@@ -97915,9 +98705,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "campo_de_concentracao_de_auschwitz",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Dia Internacional em Memória das Vítimas do Holocausto lembra a data em que os soviéticos libertaram Auschwitz, em 1945. Que dia é esse?",
     "resposta": "27 de janeiro",
+    "distratores": [
+      "20 de janeiro",
+      "27 de abril",
+      "9 de maio"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/International_Holocaust_Remembrance_Day",
       "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
@@ -98109,9 +98904,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "invasao_da_polonia",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Segunda Guerra Mundial começou com a invasão alemã da Polônia. Em que dia e mês de 1939?",
     "resposta": "1º de setembro",
+    "distratores": [
+      "28 de agosto",
+      "1º de agosto",
+      "10 de setembro"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Invasion_of_Poland"
     ],
@@ -98123,9 +98923,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "libertacao_de_paris",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de quatro anos de ocupação alemã, Paris foi libertada pelos Aliados e pela Resistência em que mês e ano?",
     "resposta": "Agosto de 1944",
+    "distratores": [
+      "Junho de 1944",
+      "Setembro de 1944",
+      "Novembro de 1944"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Liberation_of_Paris"
     ],
@@ -98156,9 +98961,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "batalha_da_inglaterra",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Força Aérea Real britânica resistiu aos ataques da aviação alemã na chamada Batalha da Inglaterra. Em que ano ela foi travada?",
     "resposta": "1940",
+    "distratores": [
+      "1939",
+      "1942",
+      "1945"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Battle_of_Britain"
     ],
@@ -98170,9 +98980,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "anschluss",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Pouco antes da guerra, a Alemanha nazista anexou a Áustria no episódio conhecido como Anschluss. Em que ano?",
     "resposta": "1938",
+    "distratores": [
+      "1934",
+      "1936",
+      "1939"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Anschluss"
     ],
@@ -98184,9 +98999,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "batalha_de_stalingrado",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Cercado pelos soviéticos, o Sexto Exército alemão se rendeu em Stalingrado, entre o fim de janeiro e o começo de fevereiro de qual ano?",
     "resposta": "1943",
+    "distratores": [
+      "1939",
+      "1941",
+      "1942"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
     ],
@@ -98198,9 +99018,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "ataque_a_pearl_harbor",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O ataque japonês a Pearl Harbor, que levou os Estados Unidos a entrar na guerra, aconteceu em dezembro de qual ano?",
     "resposta": "1941",
+    "distratores": [
+      "1938",
+      "1939",
+      "1943"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
     ],
@@ -98212,9 +99037,14 @@
     "subtema": "Segunda Guerra Mundial",
     "ancora": "brasil_na_segunda_guerra_mundial",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Brasil declarou guerra à Alemanha e à Itália em 1942. Em que ano declarou guerra também ao Japão?",
     "resposta": "1945",
+    "distratores": [
+      "1942",
+      "1943",
+      "1944"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Brazil_in_World_War_II",
       "https://pt.wikipedia.org/wiki/Brasil_na_Segunda_Guerra_Mundial"
@@ -99206,9 +100036,14 @@
     "subtema": "Oceanos, Mares e Ilhas",
     "ancora": "terremoto_e_tsunami_do_oceano_indico_de_2004",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No dia seguinte ao Natal, um terremoto perto de Sumatra provocou um tsunami que devastou as costas do oceano Índico. Em que ano?",
     "resposta": "2004",
+    "distratores": [
+      "2001",
+      "2006",
+      "2009"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
     ],
@@ -102514,9 +103349,14 @@
     "subtema": "Literatura Brasileira",
     "ancora": "memorias_do_carcere",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Graciliano Ramos passou onze meses preso sem julgamento a partir de 1936. Em que ano foi publicado seu relato, Memórias do Cárcere?",
     "resposta": "1953",
+    "distratores": [
+      "1945",
+      "1948",
+      "1951"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Graciliano_Ramos"
     ],
@@ -104645,9 +105485,14 @@
     "subtema": "Automobilismo",
     "ancora": "jose_carlos_pace",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano José Carlos Pace venceu sua única corrida de Fórmula 1, o Grande Prêmio do Brasil, com Emerson Fittipaldi em segundo lugar?",
     "resposta": "1975",
+    "distratores": [
+      "1971",
+      "1973",
+      "1974"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1975_Brazilian_Grand_Prix",
       "https://en.wikipedia.org/wiki/Carlos_Pace"
@@ -104674,9 +105519,14 @@
     "subtema": "Automobilismo",
     "ancora": "halo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a Fórmula 1 tornou obrigatório o halo, o arco de titânio que protege a cabeça do piloto?",
     "resposta": "2018",
+    "distratores": [
+      "2015",
+      "2017",
+      "2019"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Halo_(safety_device)"
     ],
@@ -105203,9 +106053,14 @@
     "subtema": "História do Brasil",
     "ancora": "juscelino_kubitschek",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este presidente brasileiro tomou posse?",
     "resposta": "1956",
+    "distratores": [
+      "1946",
+      "1951",
+      "1954"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Juscelino_Kubitschek",
       "https://pt.wikipedia.org/wiki/Juscelino_Kubitschek"
@@ -105250,9 +106105,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "coroa_imperial_do_estado_britanica",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi feita a versão atual desta coroa, usada pelo monarca britânico?",
     "resposta": "1937",
+    "distratores": [
+      "1939",
+      "1945",
+      "1953"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Imperial_State_Crown",
       "https://pt.wikipedia.org/wiki/Coroa_Imperial_do_Estado"
@@ -105888,9 +106748,14 @@
     "subtema": "História do Brasil",
     "ancora": "olga_benario",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano esta militante comunista foi deportada do Brasil para a Alemanha nazista?",
     "resposta": "1936",
+    "distratores": [
+      "1930",
+      "1933",
+      "1935"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Olga_Ben%C3%A1rio_Prestes",
       "https://pt.wikipedia.org/wiki/Olga_Ben%C3%A1rio_Prestes"
@@ -106115,9 +106980,14 @@
     "subtema": "Clima e Biomas",
     "ancora": "furacao_katrina",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o furacão Katrina deixou boa parte de Nova Orleans debaixo d'água?",
     "resposta": "2005",
+    "distratores": [
+      "2007",
+      "2010",
+      "2012"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Hurricane_Katrina"
     ],
@@ -106144,9 +107014,14 @@
     "subtema": "Clima e Biomas",
     "ancora": "furacao_de_galveston_de_1900",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano um furacão arrasou Galveston, no Texas, no desastre natural mais mortal da história dos Estados Unidos?",
     "resposta": "1900",
+    "distratores": [
+      "1903",
+      "1908",
+      "1915"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1900_Galveston_hurricane"
     ],
@@ -106177,9 +107052,14 @@
     "subtema": "Clima e Biomas",
     "ancora": "neve_de_1975_em_curitiba",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em julho de que ano Curitiba amanheceu coberta de neve, num episódio que ficou na memória dos paranaenses?",
     "resposta": "1975",
+    "distratores": [
+      "1978",
+      "1984",
+      "1989"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Neve_no_Brasil",
       "https://pt.wikipedia.org/wiki/Curitiba"
@@ -106211,9 +107091,14 @@
     "subtema": "Clima e Biomas",
     "ancora": "onda_de_calor_de_2003_na_europa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano uma onda de calor em agosto matou dezenas de milhares de pessoas na Europa, cerca de quinze mil delas só na França?",
     "resposta": "2003",
+    "distratores": [
+      "2005",
+      "2009",
+      "2012"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2003_European_heat_wave"
     ],
@@ -107142,9 +108027,14 @@
     "subtema": "Idade Média",
     "ancora": "abadia_de_westminster",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o primeiro rei normando da Inglaterra foi coroado nesta igreja de Londres?",
     "resposta": "1066",
+    "distratores": [
+      "1016",
+      "1042",
+      "1054"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Westminster_Abbey",
       "https://pt.wikipedia.org/wiki/Abadia_de_Westminster"
@@ -107464,9 +108354,14 @@
     "subtema": "Corpo Humano e Medicina",
     "ancora": "sistema_unico_de_saude",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Sistema Único de Saúde, o SUS, foi criado pela Constituição brasileira promulgada em que ano?",
     "resposta": "1988",
+    "distratores": [
+      "1967",
+      "1976",
+      "1985"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Sistema_%C3%9Anico_de_Sa%C3%BAde"
     ],
@@ -107512,9 +108407,14 @@
     "subtema": "Corpo Humano e Medicina",
     "ancora": "santa_casa_de_misericordia_de_santos",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Fundada por Brás Cubas na vila de Santos, hoje é a mais antiga instituição hospitalar ainda em funcionamento no Brasil. Em que ano foi fundada?",
     "resposta": "1543",
+    "distratores": [
+      "1512",
+      "1527",
+      "1534"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Santa_Casa_de_Miseric%C3%B3rdia_de_Santos"
     ],
@@ -110600,9 +111500,14 @@
     "subtema": "Olimpíadas",
     "ancora": "snowboard",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este esporte entrou nos Jogos Olímpicos de Inverno?",
     "resposta": "1998",
+    "distratores": [
+      "2002",
+      "2006",
+      "2014"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Snowboarding",
       "https://pt.wikipedia.org/wiki/Snowboard"
@@ -111085,9 +111990,14 @@
     "subtema": "Aves, Répteis e Anfíbios",
     "ancora": "solitario_george",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Solitário George, último jabuti gigante conhecido da ilha Pinta, em Galápagos, morreu em que ano?",
     "resposta": "2012",
+    "distratores": [
+      "2004",
+      "2008",
+      "2010"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Lonesome_George"
     ],
@@ -111588,9 +112498,14 @@
     "subtema": "Automobilismo",
     "ancora": "lucas_di_grassi",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este piloto brasileiro disputou sua única temporada na Fórmula 1?",
     "resposta": "2010",
+    "distratores": [
+      "2008",
+      "2011",
+      "2013"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Lucas_di_Grassi",
       "https://pt.wikipedia.org/wiki/Lucas_Di_Grassi"
@@ -111885,9 +112800,14 @@
     "subtema": "Pintura",
     "ancora": "teto_da_capela_sistina",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Michelangelo começou a pintar o teto da Capela Sistina em 1508. Em que ano terminou o trabalho?",
     "resposta": "1512",
+    "distratores": [
+      "1514",
+      "1517",
+      "1521"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
     ],
@@ -111937,9 +112857,14 @@
     "subtema": "Pintura",
     "ancora": "bienal_de_sao_paulo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano aconteceu a primeira Bienal de São Paulo, organizada pelo Museu de Arte Moderna da cidade?",
     "resposta": "1951",
+    "distratores": [
+      "1943",
+      "1946",
+      "1948"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/São_Paulo_Art_Biennial",
       "https://pt.wikipedia.org/wiki/Bienal_Internacional_de_Arte_de_São_Paulo"
@@ -111966,9 +112891,14 @@
     "subtema": "Pintura",
     "ancora": "armory_show",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o Armory Show, em Nova York, chocou o público americano ao exibir o Nu Descendo uma Escada, de Duchamp?",
     "resposta": "1913",
+    "distratores": [
+      "1905",
+      "1908",
+      "1910"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Armory_Show"
     ],
@@ -112563,9 +113493,14 @@
     "subtema": "Costumes pelo Mundo",
     "ancora": "hinamatsuri",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No Japão, o Dia das Meninas, ou Hinamatsuri, é festejado com bonecas da corte expostas em degraus. Em que data?",
     "resposta": "Três de março",
+    "distratores": [
+      "Cinco de maio",
+      "Sete de julho",
+      "Quatorze de fevereiro"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Hinamatsuri"
     ],
@@ -112577,9 +113512,14 @@
     "subtema": "Costumes pelo Mundo",
     "ancora": "dia_dos_santos_inocentes",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Na Espanha e na América hispânica, o dia das pegadinhas, parecido com o nosso primeiro de abril, cai em que data?",
     "resposta": "Vinte e oito de dezembro",
+    "distratores": [
+      "Primeiro de janeiro",
+      "Vinte e seis de dezembro",
+      "Seis de janeiro"
+    ],
     "fonte": [
       "https://es.wikipedia.org/wiki/D%C3%ADa_de_los_Santos_Inocentes",
       "https://en.wikipedia.org/wiki/April_Fools%27_Day"
@@ -112619,9 +113559,14 @@
     "subtema": "Costumes pelo Mundo",
     "ancora": "juneteenth",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Juneteenth, feriado americano que celebra o fim da escravidão, tem um nome que junta um mês e um dia. Que data é essa?",
     "resposta": "Dezenove de junho",
+    "distratores": [
+      "Quatro de julho",
+      "Primeiro de janeiro",
+      "Dezoito de dezembro"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Juneteenth"
     ],
@@ -113241,9 +114186,14 @@
     "subtema": "Lutas e Artes Marciais",
     "ancora": "roda_de_capoeira",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a UNESCO declarou a roda de capoeira patrimônio cultural imaterial da humanidade?",
     "resposta": "2014",
+    "distratores": [
+      "2010",
+      "2012",
+      "2016"
+    ],
     "fonte": [
       "https://ich.unesco.org/en/RL/capoeira-circle-00892",
       "https://en.wikipedia.org/wiki/Capoeira"
@@ -113318,9 +114268,14 @@
     "subtema": "Lutas e Artes Marciais",
     "ancora": "ufc_157",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o UFC promoveu sua primeira luta feminina, vencida por Ronda Rousey contra Liz Carmouche?",
     "resposta": "2013",
+    "distratores": [
+      "2010",
+      "2015",
+      "2016"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/UFC_157"
     ],
@@ -114117,9 +115072,14 @@
     "subtema": "Relevo e Maravilhas Naturais",
     "ancora": "erupcao_do_eyjafjallajokull_em_2010",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano as cinzas de um vulcão da Islândia fecharam o espaço aéreo de boa parte da Europa por vários dias?",
     "resposta": "2010",
+    "distratores": [
+      "2002",
+      "2005",
+      "2007"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2010_eruptions_of_Eyjafjallaj%C3%B6kull",
       "https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption"
@@ -114132,9 +115092,14 @@
     "subtema": "Relevo e Maravilhas Naturais",
     "ancora": "uluru",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Por respeito ao povo Anangu, para quem a rocha é sagrada, a escalada do Uluru foi proibida em que ano?",
     "resposta": "2019",
+    "distratores": [
+      "2015",
+      "2021",
+      "2023"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Uluru"
     ],
@@ -114160,9 +115125,14 @@
     "subtema": "Relevo e Maravilhas Naturais",
     "ancora": "nevado_del_ruiz",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A tragédia de Armero, cidade colombiana soterrada pelas avalanches de lama do vulcão Nevado del Ruiz, aconteceu em que ano?",
     "resposta": "1985",
+    "distratores": [
+      "1981",
+      "1988",
+      "1993"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Armero_tragedy",
       "https://en.wikipedia.org/wiki/Nevado_del_Ruiz"
@@ -114189,9 +115159,14 @@
     "subtema": "Relevo e Maravilhas Naturais",
     "ancora": "paricutin",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O vulcão Paricutín nasceu num milharal mexicano em 1943 e passou anos expelindo lava. Em que ano a erupção terminou?",
     "resposta": "1952",
+    "distratores": [
+      "1945",
+      "1948",
+      "1950"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Par%C3%ADcutin",
       "https://pt.wikipedia.org/wiki/Paricut%C3%ADn"
@@ -115374,9 +116349,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "orkut",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A rede social Orkut, que foi febre entre os brasileiros nos anos dois mil, foi desativada pelo Google em que ano?",
     "resposta": "2014",
+    "distratores": [
+      "2008",
+      "2011",
+      "2012"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Orkut",
       "https://pt.wikipedia.org/wiki/Orkut"
@@ -115389,9 +116369,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "internet_no_brasil",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o governo liberou a exploração comercial da internet no Brasil, antes restrita a universidades e centros de pesquisa?",
     "resposta": "1995",
+    "distratores": [
+      "1990",
+      "1992",
+      "1998"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Internet_no_Brasil"
     ],
@@ -115403,9 +116388,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "codigo_de_barras",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A primeira compra com leitura de código de barras num caixa de supermercado americano foi um pacote de chiclete, em Ohio. Em que ano?",
     "resposta": "1974",
+    "distratores": [
+      "1976",
+      "1979",
+      "1983"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Universal_Product_Code"
     ],
@@ -115417,9 +116407,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "maquina_diferencial",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o Museu de Ciência de Londres concluiu a parte calculadora da máquina diferencial número dois, projetada por Charles Babbage?",
     "resposta": "1991",
+    "distratores": [
+      "1987",
+      "1996",
+      "2000"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Difference_engine"
     ],
@@ -115431,9 +116426,14 @@
     "subtema": "Tecnologia e Computação",
     "ancora": "tempo_unix",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Muitos sistemas de computador medem o tempo contando os segundos a partir de qual data, chamada de época Unix?",
     "resposta": "Primeiro de janeiro de 1970",
+    "distratores": [
+      "Primeiro de janeiro de 1968",
+      "Primeiro de janeiro de 1972",
+      "Primeiro de janeiro de 1975"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Unix_time"
     ],
@@ -116073,9 +117073,14 @@
     "subtema": "Idade Moderna",
     "ancora": "carlos_i_da_inglaterra",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o rei Carlos Primeiro da Inglaterra foi decapitado, depois de perder a guerra civil para o Parlamento?",
     "resposta": "1649",
+    "distratores": [
+      "1652",
+      "1655",
+      "1660"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Execution_of_Charles_I",
       "https://en.wikipedia.org/wiki/Charles_I_of_England"
@@ -116088,9 +117093,14 @@
     "subtema": "Idade Moderna",
     "ancora": "companhia_de_jesus",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o papa Paulo Terceiro aprovou oficialmente a Companhia de Jesus, ordem fundada por Inácio de Loyola?",
     "resposta": "1540",
+    "distratores": [
+      "1536",
+      "1545",
+      "1550"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Jesuits"
     ],
@@ -116102,9 +117112,14 @@
     "subtema": "Idade Moderna",
     "ancora": "principia",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano Isaac Newton publicou os Principia, obra que apresentou a lei da gravitação universal?",
     "resposta": "1687",
+    "distratores": [
+      "1678",
+      "1683",
+      "1692"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
     ],
@@ -116116,9 +117131,14 @@
     "subtema": "Idade Moderna",
     "ancora": "revolucao_gloriosa",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a chamada Revolução Gloriosa tirou do trono inglês o rei católico Jaime Segundo?",
     "resposta": "1688",
+    "distratores": [
+      "1682",
+      "1686",
+      "1694"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Glorious_Revolution"
     ],
@@ -116637,9 +117657,14 @@
     "subtema": "Cinema",
     "ancora": "branca_de_neve_e_os_sete_anoes_filme",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Branca de Neve e os Sete Anões, o primeiro longa-metragem de animação da Disney, estreou em que ano?",
     "resposta": "1937",
+    "distratores": [
+      "1930",
+      "1934",
+      "1941"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
     ],
@@ -116651,9 +117676,14 @@
     "subtema": "Cinema",
     "ancora": "star_wars_uma_nova_esperanca",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O primeiro filme de Star Wars, que depois ganhou o subtítulo Uma Nova Esperança, chegou aos cinemas em que ano?",
     "resposta": "1977",
+    "distratores": [
+      "1971",
+      "1974",
+      "1979"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Star_Wars_(film)"
     ],
@@ -116665,9 +117695,14 @@
     "subtema": "Cinema",
     "ancora": "de_volta_para_o_futuro",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em De Volta para o Futuro, Marty McFly sai de 1985 num DeLorean e vai parar em qual ano do passado?",
     "resposta": "1955",
+    "distratores": [
+      "1942",
+      "1948",
+      "1952"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Back_to_the_Future"
     ],
@@ -116679,9 +117714,14 @@
     "subtema": "Cinema",
     "ancora": "o_grande_ditador",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Charlie Chaplin ridicularizou Hitler no filme O Grande Ditador, lançado em que ano?",
     "resposta": "1940",
+    "distratores": [
+      "1936",
+      "1943",
+      "1947"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/The_Great_Dictator"
     ],
@@ -116712,9 +117752,14 @@
     "subtema": "Cinema",
     "ancora": "forrest_gump",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Forrest Gump, Pulp Fiction e O Rei Leão chegaram aos cinemas no mesmo ano. Qual?",
     "resposta": "1994",
+    "distratores": [
+      "1989",
+      "1992",
+      "1997"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Forrest_Gump",
       "https://en.wikipedia.org/wiki/Pulp_Fiction",
@@ -116728,9 +117773,14 @@
     "subtema": "Cinema",
     "ancora": "toy_story",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Toy Story, primeiro longa-metragem feito inteiramente em computação gráfica, estreou em que ano?",
     "resposta": "1995",
+    "distratores": [
+      "1998",
+      "2000",
+      "2003"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Toy_Story"
     ],
@@ -118638,9 +119688,14 @@
     "subtema": "Insetos e Invertebrados",
     "ancora": "cigarra_periodica",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Uma grande população de cigarras-periódicas, a chamada Ninhada Dez, saiu da terra em massa no leste dos Estados Unidos em 2021. Em que ano deve voltar?",
     "resposta": "2038",
+    "distratores": [
+      "2031",
+      "2034",
+      "2036"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Brood_X"
     ],
@@ -119373,9 +120428,14 @@
     "subtema": "Literatura Mundial",
     "ancora": "dom_quixote",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi publicada a primeira parte de Dom Quixote, de Cervantes?",
     "resposta": "1605",
+    "distratores": [
+      "1609",
+      "1612",
+      "1620"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Dom_Quixote",
       "https://en.wikipedia.org/wiki/Don_Quixote"
@@ -119388,9 +120448,14 @@
     "subtema": "Literatura Mundial",
     "ancora": "jose_saramago",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano José Saramago se tornou o primeiro escritor de língua portuguesa a receber o Nobel de Literatura?",
     "resposta": "1998",
+    "distratores": [
+      "2001",
+      "2004",
+      "2008"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Saramago",
       "https://pt.wikipedia.org/wiki/Jos%C3%A9_Saramago"
@@ -119845,9 +120910,14 @@
     "subtema": "Olimpíadas",
     "ancora": "estadio_olimpico_universitario_cidade_do_mexico",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este estádio foi o palco principal dos Jogos Olímpicos de Verão?",
     "resposta": "1968",
+    "distratores": [
+      "1960",
+      "1964",
+      "1972"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario",
       "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_Universit%C3%A1rio"
@@ -120382,9 +121452,14 @@
     "subtema": "Marcas e Produtos",
     "ancora": "guarana_antarctica",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a Companhia Antarctica Paulista lançou o seu refrigerante de guaraná?",
     "resposta": "1921",
+    "distratores": [
+      "1924",
+      "1927",
+      "1932"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Guaran%C3%A1_Antarctica"
     ],
@@ -120396,9 +121471,14 @@
     "subtema": "Marcas e Produtos",
     "ancora": "lego_2",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O tijolinho de plástico da Lego, com o sistema de encaixe usado até hoje, foi patenteado em que ano?",
     "resposta": "1958",
+    "distratores": [
+      "1947",
+      "1951",
+      "1954"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Lego"
     ],
@@ -120936,9 +122016,14 @@
     "subtema": "Vôlei",
     "ancora": "volei_sentado",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de uma demonstração em 1976, em que ano o vôlei sentado masculino passou a dar medalhas nos Jogos Paralímpicos?",
     "resposta": "1980",
+    "distratores": [
+      "1978",
+      "1979",
+      "1984"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sitting_volleyball"
     ],
@@ -120980,9 +122065,14 @@
     "subtema": "Vôlei",
     "ancora": "liga_mundial_de_voleibol",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Liga Mundial, torneio anual de seleções masculinas de vôlei que marcou época na TV brasileira, teve sua primeira edição em que ano?",
     "resposta": "1990",
+    "distratores": [
+      "1984",
+      "1987",
+      "1993"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/FIVB_Volleyball_World_League"
     ],
@@ -121608,9 +122698,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "saddam_hussein",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este líder foi derrubado do poder?",
     "resposta": "2003",
+    "distratores": [
+      "1991",
+      "1995",
+      "1998"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Saddam_Hussein",
       "https://pt.wikipedia.org/wiki/Saddam_Hussein"
@@ -121819,9 +122914,14 @@
     "subtema": "Rios e Lagos",
     "ancora": "travessia_do_rio_delaware",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Na noite de Natal de que ano George Washington atravessou com suas tropas o rio Delaware, cheio de gelo, para um ataque surpresa?",
     "resposta": "1776",
+    "distratores": [
+      "1768",
+      "1773",
+      "1775"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/George_Washington%27s_crossing_of_the_Delaware_River"
     ],
@@ -121866,9 +122966,14 @@
     "subtema": "Rios e Lagos",
     "ancora": "enchentes_no_rio_grande_do_sul_em_2024",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "As enchentes que inundaram o centro de Porto Alegre e superaram a histórica cheia do Guaíba de 1941 aconteceram em que ano?",
     "resposta": "2024",
+    "distratores": [
+      "2011",
+      "2017",
+      "2020"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024",
       "https://en.wikipedia.org/wiki/2024_Rio_Grande_do_Sul_floods"
@@ -121901,9 +123006,14 @@
     "subtema": "Rios e Lagos",
     "ancora": "rio_sena",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de cerca de um século de proibição de nadar no rio Sena, Paris usou suas águas para provas olímpicas de triatlo. Em que ano?",
     "resposta": "2024",
+    "distratores": [
+      "2008",
+      "2012",
+      "2016"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Triathlon_at_the_2024_Summer_Olympics",
       "https://en.wikipedia.org/wiki/Seine"
@@ -122774,9 +123884,14 @@
     "subtema": "Séries e TV",
     "ancora": "round_6",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano estreou a primeira temporada da série desta imagem?",
     "resposta": "2021",
+    "distratores": [
+      "2019",
+      "2022",
+      "2024"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Round_6",
       "https://www.themoviedb.org/tv/93405"
@@ -122863,9 +123978,14 @@
     "subtema": "Séries e TV",
     "ancora": "succession",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano estreou a primeira temporada da série desta imagem?",
     "resposta": "2018",
+    "distratores": [
+      "2019",
+      "2021",
+      "2022"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Succession",
       "https://www.themoviedb.org/tv/76331"
@@ -123211,9 +124331,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "revolucao_cubana",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Revolução Cubana triunfou com a fuga do ditador Fulgencio Batista. Em que dia e mês de 1959 isso aconteceu?",
     "resposta": "1º de janeiro",
+    "distratores": [
+      "3 de janeiro",
+      "9 de janeiro",
+      "2 de fevereiro"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Cubana",
       "https://en.wikipedia.org/wiki/Cuban_Revolution"
@@ -123226,9 +124351,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "primavera_de_praga",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Primavera de Praga, período de reformas na Tchecoslováquia esmagado pelos tanques do Pacto de Varsóvia, aconteceu em que ano?",
     "resposta": "1968",
+    "distratores": [
+      "1965",
+      "1971",
+      "1976"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Primavera_de_Praga"
     ],
@@ -123240,9 +124370,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "francisco_franco",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O general Francisco Franco governou a Espanha desde o fim da guerra civil até a sua morte. Em que ano ele morreu?",
     "resposta": "1975",
+    "distratores": [
+      "1978",
+      "1981",
+      "1985"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Francisco_Franco",
       "https://en.wikipedia.org/wiki/Francisco_Franco"
@@ -123255,9 +124390,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "guerra_das_malvinas",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A ditadura militar argentina invadiu as Ilhas Malvinas e provocou uma guerra com o Reino Unido. Em que ano isso aconteceu?",
     "resposta": "1982",
+    "distratores": [
+      "1974",
+      "1979",
+      "1986"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Guerra_das_Malvinas"
     ],
@@ -123903,9 +125043,14 @@
     "subtema": "Física",
     "ancora": "caso_galileu",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o papa João Paulo Segundo reconheceu publicamente que teólogos da Igreja erraram ao condenar Galileu?",
     "resposta": "1992",
+    "distratores": [
+      "1981",
+      "1986",
+      "1989"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Galileo_affair"
     ],
@@ -123917,9 +125062,14 @@
     "subtema": "Física",
     "ancora": "telescopio",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano um fabricante de lentes holandês fez o pedido de patente mais antigo que se conhece de um telescópio?",
     "resposta": "1608",
+    "distratores": [
+      "1594",
+      "1600",
+      "1604"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Telescope",
       "https://en.wikipedia.org/wiki/Hans_Lipperhey"
@@ -123973,9 +125123,14 @@
     "subtema": "Física",
     "ancora": "uma_breve_historia_do_tempo",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi lançado o best-seller Uma Breve História do Tempo, de Stephen Hawking?",
     "resposta": "1988",
+    "distratores": [
+      "1981",
+      "1985",
+      "1992"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/A_Brief_History_of_Time"
     ],
@@ -125555,9 +126710,14 @@
     "subtema": "Dinossauros e Fósseis",
     "ancora": "tigre_da_tasmania",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano morreu o último indivíduo conhecido desta espécie?",
     "resposta": "1936",
+    "distratores": [
+      "1921",
+      "1926",
+      "1931"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Thylacine",
       "https://pt.wikipedia.org/wiki/Lobo-da-tasm%C3%A2nia"
@@ -126103,9 +127263,14 @@
     "subtema": "Jogos Eletrônicos",
     "ancora": "sonic",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O ouriço azul Sonic estreou em seu primeiro jogo, no Mega Drive, em que ano?",
     "resposta": "1991",
+    "distratores": [
+      "1986",
+      "1988",
+      "1989"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)"
     ],
@@ -126117,9 +127282,14 @@
     "subtema": "Jogos Eletrônicos",
     "ancora": "the_legend_of_zelda_jogo_de_1986",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A primeira aventura de Link, The Legend of Zelda, chegou aos consoles japoneses em qual ano da década de oitenta?",
     "resposta": "1986",
+    "distratores": [
+      "1983",
+      "1985",
+      "1988"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)"
     ],
@@ -126131,9 +127301,14 @@
     "subtema": "Jogos Eletrônicos",
     "ancora": "pokemon_go",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o lançamento de Pokémon Go levou multidões às ruas para caçar pokémon com o celular?",
     "resposta": "2016",
+    "distratores": [
+      "2014",
+      "2018",
+      "2019"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
     ],
@@ -126145,9 +127320,14 @@
     "subtema": "Jogos Eletrônicos",
     "ancora": "xbox",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Microsoft entrou no mercado de consoles com o primeiro Xbox, lançado nos Estados Unidos em que ano?",
     "resposta": "2001",
+    "distratores": [
+      "1999",
+      "2003",
+      "2005"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Xbox_(console)"
     ],
@@ -127077,9 +128257,14 @@
     "subtema": "Cidades e Monumentos",
     "ancora": "empire_state_building",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi concluído este arranha-céu?",
     "resposta": "1931",
+    "distratores": [
+      "1927",
+      "1929",
+      "1934"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Empire_State_Building",
       "https://pt.wikipedia.org/wiki/Empire_State_Building"
@@ -128283,9 +129468,14 @@
     "subtema": "Escultura e Arquitetura",
     "ancora": "estatua_da_liberdade",
     "angulo": "composicao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Na mão esquerda, a Estátua da Liberdade segura uma tábua com uma data gravada em algarismos romanos. Que data é essa?",
     "resposta": "4 de julho de 1776",
+    "distratores": [
+      "2 de julho de 1776",
+      "4 de julho de 1789",
+      "19 de abril de 1775"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Statue_of_Liberty"
     ],
@@ -129143,9 +130333,14 @@
     "subtema": "Países e Capitais",
     "ancora": "mocambique",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Moçambique e Angola conquistaram a independência de Portugal no mesmo ano. Que ano foi esse?",
     "resposta": "1975",
+    "distratores": [
+      "1973",
+      "1978",
+      "1980"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Mozambique",
       "https://en.wikipedia.org/wiki/Angola"
@@ -129158,9 +130353,14 @@
     "subtema": "Países e Capitais",
     "ancora": "macau",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de mais de quatro séculos de presença portuguesa, Macau passou à soberania da China em que ano?",
     "resposta": "1999",
+    "distratores": [
+      "2000",
+      "2002",
+      "2005"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Transfer_of_sovereignty_over_Macau",
       "https://en.wikipedia.org/wiki/Macau"
@@ -129372,9 +130572,14 @@
     "subtema": "Tênis",
     "ancora": "maria_esther_bueno",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano a paulistana Maria Esther Bueno venceu Wimbledon em simples pela primeira vez?",
     "resposta": "1959",
+    "distratores": [
+      "1957",
+      "1962",
+      "1966"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Maria_Esther_Bueno",
       "https://en.wikipedia.org/wiki/Maria_Bueno"
@@ -129387,9 +130592,14 @@
     "subtema": "Tênis",
     "ancora": "aberto_da_australia",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Aberto da Austrália deixou a grama e passou para a quadra dura em qual ano, ao se mudar para Melbourne Park?",
     "resposta": "1988",
+    "distratores": [
+      "1990",
+      "1993",
+      "1997"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Australian_Open"
     ],
@@ -129401,9 +130611,14 @@
     "subtema": "Tênis",
     "ancora": "quadra_central_de_wimbledon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Quadra Central de Wimbledon ganhou um teto retrátil, que permite jogar mesmo com chuva, em qual ano?",
     "resposta": "2009",
+    "distratores": [
+      "2010",
+      "2014",
+      "2018"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Centre_Court"
     ],
@@ -129453,9 +130668,14 @@
     "subtema": "Tênis",
     "ancora": "lacoste",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o tenista René Lacoste e o empresário André Gillier fundaram a marca de camisas com o crocodilo bordado no peito?",
     "resposta": "1933",
+    "distratores": [
+      "1935",
+      "1938",
+      "1944"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Lacoste"
     ],
@@ -129467,9 +130687,14 @@
     "subtema": "Tênis",
     "ancora": "torneio_de_roland_garros",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Criado em 1891 e restrito a sócios de clubes franceses, o campeonato que deu origem a Roland Garros se abriu a amadores de todo o mundo em qual ano?",
     "resposta": "1925",
+    "distratores": [
+      "1928",
+      "1931",
+      "1936"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/French_Open"
     ],
@@ -130515,9 +131740,14 @@
     "subtema": "Transportes",
     "ancora": "ferrari_f40",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano começou a ser produzido este esportivo?",
     "resposta": "1987",
+    "distratores": [
+      "1984",
+      "1989",
+      "1991"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Ferrari_F40",
       "https://pt.wikipedia.org/wiki/Ferrari_F40"
@@ -132621,9 +133851,14 @@
     "subtema": "Matemática",
     "ancora": "problemas_de_hilbert",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Num congresso em Paris, o alemão David Hilbert apresentou uma lista de problemas que guiou a matemática do século vinte. Em que ano?",
     "resposta": "1900",
+    "distratores": [
+      "1893",
+      "1897",
+      "1905"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Problemas_de_Hilbert",
       "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
@@ -134492,9 +135727,14 @@
     "subtema": "Música Internacional",
     "ancora": "john_lennon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "John Lennon foi assassinado na porta do edifício Dakota, onde morava, em Nova York. Em que ano?",
     "resposta": "1980",
+    "distratores": [
+      "1983",
+      "1986",
+      "1990"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Murder_of_John_Lennon"
     ],
@@ -134544,9 +135784,14 @@
     "subtema": "Música Internacional",
     "ancora": "kurt_cobain",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Três anos depois do sucesso de Nevermind, o líder do Nirvana, Kurt Cobain, foi encontrado morto em sua casa em Seattle. Em que ano?",
     "resposta": "1994",
+    "distratores": [
+      "1995",
+      "1997",
+      "2001"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Kurt_Cobain"
     ],
@@ -134587,9 +135832,14 @@
     "subtema": "Música Internacional",
     "ancora": "the_dark_side_of_the_moon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O álbum The Dark Side of the Moon, do Pink Floyd, com o famoso prisma na capa, foi lançado em que ano?",
     "resposta": "1973",
+    "distratores": [
+      "1970",
+      "1975",
+      "1978"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon"
     ],
@@ -134601,9 +135851,14 @@
     "subtema": "Música Internacional",
     "ancora": "amy_winehouse",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A britânica Amy Winehouse, do álbum Back to Black, foi encontrada morta em sua casa em Londres em julho de que ano?",
     "resposta": "2011",
+    "distratores": [
+      "2007",
+      "2009",
+      "2010"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Amy_Winehouse"
     ],
@@ -134615,9 +135870,14 @@
     "subtema": "Música Internacional",
     "ancora": "michael_jackson",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Michael Jackson morreu semanas antes de estrear em Londres a série de shows This Is It. Em que ano?",
     "resposta": "2009",
+    "distratores": [
+      "2007",
+      "2011",
+      "2014"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson"
     ],
@@ -135213,9 +136473,14 @@
     "subtema": "Mamíferos",
     "ancora": "sudan_rinoceronte",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Numa reserva do Quênia, morreu Sudan, o último macho de rinoceronte-branco-do-norte. Em que ano?",
     "resposta": "2018",
+    "distratores": [
+      "2014",
+      "2016",
+      "2020"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sudan_(rhinoceros)",
       "https://en.wikipedia.org/wiki/Northern_white_rhinoceros"
@@ -137492,9 +138757,14 @@
     "subtema": "Basquete",
     "ancora": "national_basketball_association",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A principal liga americana de basquete passou a se chamar NBA depois da fusão de duas ligas rivais. Em que ano?",
     "resposta": "1949",
+    "distratores": [
+      "1952",
+      "1955",
+      "1960"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/National_Basketball_Association",
       "https://en.wikipedia.org/wiki/Basketball_Association_of_America"
@@ -137536,9 +138806,14 @@
     "subtema": "Basquete",
     "ancora": "cesta_de_tres_pontos",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de surgir nas ligas americanas, a cesta de três pontos foi adotada pela FIBA, nas competições internacionais, em que ano?",
     "resposta": "1984",
+    "distratores": [
+      "1987",
+      "1990",
+      "1994"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Three-point_field_goal"
     ],
@@ -137550,9 +138825,14 @@
     "subtema": "Basquete",
     "ancora": "lebron_james",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano LeBron James ultrapassou Kareem Abdul-Jabbar e se tornou o maior cestinha da história da NBA?",
     "resposta": "2023",
+    "distratores": [
+      "2018",
+      "2020",
+      "2022"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/LeBron_James"
     ],
@@ -138412,9 +139692,14 @@
     "subtema": "História da África",
     "ancora": "haile_selassie",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano militares do Derg depuseram o imperador etíope Hailé Selassié?",
     "resposta": "1974",
+    "distratores": [
+      "1969",
+      "1971",
+      "1977"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Haile_Selassie",
       "https://pt.wikipedia.org/wiki/Hail%C3%A9_Selassi%C3%A9"
@@ -138427,9 +139712,14 @@
     "subtema": "História da África",
     "ancora": "apartheid",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O Partido Nacional venceu as eleições sul-africanas e transformou o apartheid em política oficial em que ano?",
     "resposta": "1948",
+    "distratores": [
+      "1941",
+      "1944",
+      "1953"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Apartheid",
       "https://pt.wikipedia.org/wiki/Apartheid"
@@ -138934,9 +140224,14 @@
     "subtema": "Biologia e Genética",
     "ancora": "camillo_golgi",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Este médico italiano recebeu o prêmio Nobel de Medicina. Em que ano?",
     "resposta": "1906",
+    "distratores": [
+      "1902",
+      "1909",
+      "1912"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Camillo_Golgi",
       "https://pt.wikipedia.org/wiki/Camillo_Golgi"
@@ -141152,9 +142447,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "desastre_do_onibus_espacial_challenger",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O ônibus espacial Challenger explodiu pouco mais de um minuto após decolar, numa tragédia transmitida ao vivo. Isso aconteceu em que ano?",
     "resposta": "1986",
+    "distratores": [
+      "1988",
+      "1990",
+      "1993"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster"
     ],
@@ -141200,9 +142500,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "scd_1",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O SCD-1, primeiro satélite desenvolvido no Brasil, foi lançado por um foguete americano em fevereiro de que ano?",
     "resposta": "1993",
+    "distratores": [
+      "1989",
+      "1991",
+      "1996"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/SCD-1"
     ],
@@ -141214,9 +142519,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "acidente_de_alcantara",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Vinte e um técnicos morreram na explosão de um foguete brasileiro na base de Alcântara, dias antes do lançamento. Em que ano foi a tragédia?",
     "resposta": "2003",
+    "distratores": [
+      "1998",
+      "2000",
+      "2006"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2003_Alc%C3%A2ntara_VLS_accident"
     ],
@@ -141243,9 +142553,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "apollo_17",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Apollo 17, última missão do programa Apollo a pousar astronautas na Lua, voou em dezembro de qual ano?",
     "resposta": "1972",
+    "distratores": [
+      "1967",
+      "1969",
+      "1970"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Apollo_17"
     ],
@@ -141257,9 +142572,14 @@
     "subtema": "Astronomia e Espaço",
     "ancora": "estacao_espacial_internacional",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Estação Espacial Internacional recebeu sua primeira tripulação de longa duração em novembro de que ano?",
     "resposta": "2000",
+    "distratores": [
+      "1998",
+      "2002",
+      "2004"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Expedition_1"
     ],
@@ -142474,9 +143794,14 @@
     "subtema": "Dinossauros e Fósseis",
     "ancora": "ubirajara_jubatus",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de uma campanha de cientistas brasileiros, em que ano o fóssil do dinossauro Ubirajara foi devolvido pela Alemanha ao Ceará?",
     "resposta": "2023",
+    "distratores": [
+      "2020",
+      "2021",
+      "2022"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Ubirajara_jubatus"
     ],
@@ -144057,9 +145382,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "concorde",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano foi o primeiro voo deste avião?",
     "resposta": "1969",
+    "distratores": [
+      "1962",
+      "1965",
+      "1967"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Concorde",
       "https://pt.wikipedia.org/wiki/Concorde"
@@ -144219,9 +145549,14 @@
     "subtema": "Futebol",
     "ancora": "claudio_taffarel",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que Copa do Mundo este goleiro foi campeão com a seleção brasileira?",
     "resposta": "1994",
+    "distratores": [
+      "1990",
+      "1998",
+      "2002"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Cl%C3%A1udio_Taffarel",
       "https://pt.wikipedia.org/wiki/Taffarel"
@@ -144261,9 +145596,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "tom_brady",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este quarterback foi escolhido no draft da NFL?",
     "resposta": "2000",
+    "distratores": [
+      "1997",
+      "1998",
+      "2002"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Tom_Brady",
       "https://pt.wikipedia.org/wiki/Tom_Brady"
@@ -144329,9 +145669,14 @@
     "subtema": "Futebol",
     "ancora": "franz_beckenbauer",
     "angulo": "conexao",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que Copa do Mundo este zagueiro alemão foi campeão como jogador?",
     "resposta": "1974",
+    "distratores": [
+      "1958",
+      "1966",
+      "1970"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
       "https://pt.wikipedia.org/wiki/Franz_Beckenbauer"
@@ -146477,9 +147822,14 @@
     "subtema": "Outras Modalidades",
     "ancora": "bob_beamon",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Na altitude da Cidade do México, o americano Bob Beamon saltou oito metros e noventa no salto em distância. Em que ano?",
     "resposta": "1968",
+    "distratores": [
+      "1960",
+      "1964",
+      "1972"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Bob_Beamon"
     ],
@@ -146883,9 +148233,14 @@
     "subtema": "Américas Pré-Colombianas",
     "ancora": "moctezuma_ii",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o imperador asteca Moctezuma segundo recebeu Hernán Cortés e seus soldados na entrada de Tenochtitlan?",
     "resposta": "1519",
+    "distratores": [
+      "1512",
+      "1516",
+      "1521"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Moctezuma_II"
     ],
@@ -151194,9 +152549,14 @@
     "subtema": "Geologia e História da Terra",
     "ancora": "terremoto_do_haiti_de_2010",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em janeiro de qual ano um terremoto destruiu boa parte de Porto Príncipe, no Haiti, matando também a médica brasileira Zilda Arns?",
     "resposta": "2010",
+    "distratores": [
+      "2004",
+      "2006",
+      "2008"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2010_Haiti_earthquake",
       "https://pt.wikipedia.org/wiki/Zilda_Arns"
@@ -152029,9 +153389,14 @@
     "subtema": "Quadrinhos",
     "ancora": "x_men",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A primeira revista dos X-Men tem na capa a mesma data de setembro que a primeira dos Vingadores. De que ano?",
     "resposta": "1963",
+    "distratores": [
+      "1964",
+      "1966",
+      "1969"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/X-Men",
       "https://en.wikipedia.org/wiki/Avengers_(comics)"
@@ -153625,9 +154990,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "crise_do_apagao",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano o Brasil começou o racionamento de eletricidade conhecido como crise do apagão, com metas de economia para cada casa?",
     "resposta": "2001",
+    "distratores": [
+      "1999",
+      "2003",
+      "2005"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Crise_do_apagão"
     ],
@@ -153639,9 +155009,14 @@
     "subtema": "Meio Ambiente e Energia",
     "ancora": "parque_de_diversoes_de_pripyat",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A roda-gigante de Pripyat, símbolo do abandono após Chernobyl, seria inaugurada poucos dias depois do acidente, em que data festiva?",
     "resposta": "Primeiro de maio",
+    "distratores": [
+      "Nove de maio",
+      "Sete de maio",
+      "Trinta de abril"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Pripyat_amusement_park"
     ],
@@ -154259,9 +155634,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "crise_de_julho",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em 1914, a Áustria-Hungria declarou guerra à Sérvia exatamente um mês depois do atentado de Sarajevo. Em que data?",
     "resposta": "28 de julho de 1914",
+    "distratores": [
+      "24 de julho de 1914",
+      "30 de julho de 1914",
+      "2 de agosto de 1914"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/July_Crisis"
     ],
@@ -154302,9 +155682,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "entrada_dos_estados_unidos_na_primeira_guerra_mundial",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Depois de quase três anos de neutralidade, os Estados Unidos declararam guerra à Alemanha em que ano?",
     "resposta": "1917",
+    "distratores": [
+      "1913",
+      "1915",
+      "1916"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/American_entry_into_World_War_I"
     ],
@@ -154331,9 +155716,14 @@
     "subtema": "Primeira Guerra Mundial",
     "ancora": "segunda_batalha_de_ypres",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "O primeiro grande ataque com gás cloro da guerra, lançado pelos alemães perto da cidade belga de Ypres, aconteceu em que ano?",
     "resposta": "1915",
+    "distratores": [
+      "1913",
+      "1914",
+      "1916"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Second_Battle_of_Ypres"
     ],
@@ -156915,9 +158305,14 @@
     "subtema": "Rios e Lagos",
     "ancora": "enchente_do_arno_de_1966",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano uma grande cheia do rio Arno inundou Florença e danificou milhares de obras de arte e livros raros?",
     "resposta": "1966",
+    "distratores": [
+      "1954",
+      "1959",
+      "1963"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/1966_flood_of_the_Arno"
     ],
@@ -160198,9 +161593,14 @@
     "subtema": "Futebol",
     "ancora": "campeonato_mundial_de_clubes_da_fifa_de_2000",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "No Maracanã, o Corinthians venceu o Vasco nos pênaltis e conquistou o primeiro Mundial de Clubes organizado pela FIFA. Em que ano?",
     "resposta": "2000",
+    "distratores": [
+      "1996",
+      "1998",
+      "1999"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/2000_FIFA_Club_World_Championship"
     ],
@@ -160226,9 +161626,14 @@
     "subtema": "Futebol",
     "ancora": "brasil_x_exeter_city_de_1914",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A seleção brasileira entrou em campo pela primeira vez contra o clube inglês Exeter City, no Rio de Janeiro. Em que ano?",
     "resposta": "1914",
+    "distratores": [
+      "1908",
+      "1910",
+      "1912"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Brazil_national_football_team",
       "https://en.wikipedia.org/wiki/Exeter_City_F.C."
@@ -160241,9 +161646,14 @@
     "subtema": "Futebol",
     "ancora": "bola_de_ouro",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "A Bola de Ouro, criada em 1956, passou a aceitar jogadores não europeus que atuavam em clubes da Europa a partir de qual ano?",
     "resposta": "1995",
+    "distratores": [
+      "1997",
+      "2000",
+      "2004"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Ballon_d%27Or"
     ],
@@ -160443,9 +161853,14 @@
     "subtema": "Idade Moderna",
     "ancora": "retrato_da_armada_de_elizabeth_i",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano ocorreu o acontecimento naval que este retrato da rainha celebra, mostrado nas cenas ao fundo?",
     "resposta": "1588",
+    "distratores": [
+      "1575",
+      "1582",
+      "1596"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Armada_Portrait",
       "https://pt.wikipedia.org/wiki/Retrato_da_Armada"
@@ -161056,9 +162471,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "bill_clinton",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este presidente americano tomou posse pela primeira vez?",
     "resposta": "1993",
+    "distratores": [
+      "1989",
+      "1995",
+      "1999"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Bill_Clinton",
       "https://pt.wikipedia.org/wiki/Bill_Clinton"
@@ -161197,9 +162617,14 @@
     "subtema": "História do Brasil",
     "ancora": "jair_bolsonaro",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este ex-militar tomou posse como presidente do Brasil?",
     "resposta": "2019",
+    "distratores": [
+      "2015",
+      "2021",
+      "2023"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Jair_Bolsonaro",
       "https://pt.wikipedia.org/wiki/Jair_Bolsonaro"
@@ -161239,9 +162664,14 @@
     "subtema": "Idade Contemporânea",
     "ancora": "vladimir_putin",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que ano este político russo se tornou presidente da Rússia pela primeira vez?",
     "resposta": "2000",
+    "distratores": [
+      "1993",
+      "1996",
+      "1998"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Vladimir_Putin",
       "https://pt.wikipedia.org/wiki/Vladimir_Putin"
@@ -162544,9 +163974,14 @@
     "subtema": "Religiões",
     "ancora": "epifania",
     "angulo": "tempo",
-    "tipo": "aberta",
+    "tipo": "multipla",
     "pergunta": "Em que data o calendário cristão celebra tradicionalmente a Epifania, a visita dos Reis Magos ao menino Jesus?",
     "resposta": "6 de janeiro",
+    "distratores": [
+      "25 de dezembro",
+      "2 de fevereiro",
+      "13 de janeiro"
+    ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Epiphany_(holiday)",
       "https://pt.wikipedia.org/wiki/Epifania"

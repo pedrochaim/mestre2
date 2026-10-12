@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["itens"],
+  "properties": {
+    "itens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["indice", "converter", "motivo", "distratores"],
+        "properties": {
+          "indice": { "type": "integer" },
+          "converter": { "type": "boolean", "description": "true se a resposta é o ano ou a data de algo" },
+          "motivo": { "type": "string" },
+          "distratores": { "type": "array", "items": { "type": "string" }, "description": "3 quando converter = true; vazio quando false" }
+        }
+      }
+    }
+  }
+}

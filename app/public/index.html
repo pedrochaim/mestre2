@@ -1522,8 +1522,9 @@
   // ---------------------------------------------------------------- sons
 
   // Os sons tocam só no modo mesa, a tela grande. Quem lê grava o evento em partida.som ({e, n}); a tela
-  // grande toca quando "n" muda. A lista de arquivos vem de sons/sons.json, montada pelo listar_sons.py:
-  // cada evento tem um ou mais arquivos, e um deles é sorteado a cada vez.
+  // grande toca quando "n" muda. A lista de arquivos vem de sons/sons.json, montada pelo app/sons.py a partir
+  // da biblioteca app/sons/<evento>/: cada evento tem um ou mais arquivos, e um deles é sorteado a cada vez.
+  // Um evento novo precisa do seu nome aqui no código (em tocar ou evento) e de uma pasta com o mesmo nome.
   const evento = e => ({ e, n: Date.now() });
   let ultimoSom;               // "n" do último evento visto; undefined antes do primeiro retrato da partida
   let audio = null;            // AudioContext, criado no toque que abre o modo mesa

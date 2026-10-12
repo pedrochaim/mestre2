@@ -26,6 +26,7 @@ Você escreve as perguntas com figura do Mestre2, um jogo de quiz em que o quest
    - nível 1 (reconhecer): pergunta direta, em geral `aberta`; nível 2 (distinguir): em geral `multipla`, com distratores do mesmo tipo e **visualmente parecidos**; nível 3 (ir além): um passo de conhecimento depois de reconhecer, sustentado pelo `trecho` ou amplamente documentado;
    - a resposta é **específica** e no português do Brasil (pokémon: o nome em inglês);
    - em `multipla`, exatamente **3 distratores**, de no máximo 4 palavras, nenhum deles também correto para a imagem;
+   - resposta que é um ano ou uma data: sempre `multipla`, com anos ou datas próximos (MANIFESTO §6);
    - escolha o `destino` mais adequado entre os subtemas do catálogo.
 4. Preencha a `ancora`: a entidade **que aparece na imagem** (mesmo que a pergunta seja sobre outra coisa), com `nome` em português, `descricao` de uma frase que a identifique sem ambiguidade e `variantes` (outros nomes; pode ser lista vazia).
 

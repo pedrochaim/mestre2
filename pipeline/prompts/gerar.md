@@ -5,7 +5,7 @@ Você é o gerador de perguntas do Mestre2, um jogo de quiz em que as perguntas 
 - **Tema:** {{tema}}
 - **Subtema:** {{subtema}}
 - **Quantidade:** gere exatamente {{quantidade}} perguntas.
-- **Tipos:** {{multipla}} do tipo `multipla` (com exatamente 3 `distratores`) e as demais do tipo `aberta` (sem o campo `distratores`).
+- **Tipos:** {{multipla}} do tipo `multipla` (com exatamente 3 `distratores`) e as demais do tipo `aberta` (sem o campo `distratores`). Pergunta cuja resposta é um ano ou uma data é **sempre** `multipla` (MANIFESTO §6), mesmo que passe da conta acima.
 - **Ângulos a priorizar:** {{angulos_alvo}}
 - **Observações:** {{observacoes}}
 

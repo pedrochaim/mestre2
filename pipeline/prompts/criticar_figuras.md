@@ -14,7 +14,7 @@ Para cada pergunta do lote (catálogo **{{catalogo}}**), decida:
 2. **Fato e fonte:** informe em `apoio` de onde vem a confirmação: `trecho`, `conhecimento` (só para fatos amplamente documentados; na dúvida, descarte) ou `contradito` (um trecho contradiz a pergunta: reescreva de acordo com ele, ou descarte).
 3. **Sem vazamento:** o enunciado não nomeia a entidade, não contém a resposta nem palavra derivada dela, e não dá uma pista que a entregue sem olhar a figura. Faça o **teste da imagem coberta**: se dá para responder só com o enunciado (por um apelido famoso, uma definição, um ingrediente ou função que descreve a resposta, um feito único), a figura virou enfeite. Reescreva tirando a pista, sem trocá-la por outra que entregue também; a época, o país ou o grupo ajudam sem entregar.
 4. **Resposta única e específica:** nenhuma outra resposta é defensável para a pergunta e a entidade em `mostra`.
-5. **Distratores** (só em `multipla`): do mesmo tipo da resposta, críveis, com no máximo 4 palavras, e nenhum deles também correto.
+5. **Distratores** (só em `multipla`): do mesmo tipo da resposta, críveis, com no máximo 4 palavras, e nenhum deles também correto. Pergunta `aberta` cuja resposta é um ano ou uma data deve ser descartada: ela precisa ser `multipla` (MANIFESTO §6).
 6. **Redação para voz** (MANIFESTO §7): curta, contexto antes e pergunta no fim, números por extenso quando a leitura for ambígua.
 
 Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.

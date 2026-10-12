@@ -63,6 +63,6 @@ if sem_ancora:
 if sem_descricao:
     print("Aviso: sem descrição em descricoes.json:", ", ".join(sem_descricao))
 
-# Lista de sons do modo mesa (public/sons/sons.json), montada a partir dos arquivos da pasta.
-import listar_sons
-listar_sons.listar()
+# Sons do modo mesa: converte o que mudou na biblioteca app/sons/ e refaz public/sons/sons.json.
+import sons
+sons.montar()

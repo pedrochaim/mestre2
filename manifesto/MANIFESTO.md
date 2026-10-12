@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.51 — 2026-10-12**
+> **Versão preliminar 0.53 — 2026-10-12**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -151,6 +151,7 @@ O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação
 
 - Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
 - **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
 
 ### Distratores
 
@@ -726,8 +727,16 @@ Ao criar a partida, escolhe-se **Nova partida · Master** ou **Nova partida · T
 - **Experimental** (2026-10-10): os sons ainda estão em teste e ficam desligados. Só tocam num aparelho em que o botão **Modo experimental**, na aba Tabuleiro, esteja ligado. A escolha fica guardada no próprio aparelho, e o crédito dos sons só aparece na aba Informações com o modo ligado.
 - Os sons tocam **só na tela grande** (modo mesa). Os outros aparelhos ficam em silêncio. O botão 🔊, no alto da tela grande, liga e desliga o som naquele aparelho.
 - **Eventos:** pergunta sorteada, pergunta final, acerto, erro (inclusive quando a pergunta passa adiante), resposta mostrada para todos, cada um dos últimos 5 segundos do cronômetro, tempo esgotado e vitória.
-- **Arquivos:** `app/public/sons/<evento>_<número>.mp3`. Quando um evento tem mais de um arquivo, um deles é sorteado a cada vez. Os créditos (origem, autor, licença) ficam em `app/public/sons/creditos.json`, escrito à mão, e aparecem na aba Informações. O `app/listar_sons.py`, que o `exportar_perguntas.py` também roda, gera `sons.json` a partir dos arquivos da pasta e avisa se faltar crédito. Os originais e uma página para ouvir as alternativas ficam em `app/sons_originais/`, fora do site. Instruções em `app/sons_originais/LEIAME.md`.
-- **Licença:** só sons livres. Os iniciais são do Kenney (kenney.nl), CC0.
+- **Biblioteca** (2026-10-12): `app/sons/`, fora do site, com **uma pasta por ação** (`app/sons/acerto/`, `app/sons/erro/`…). As ações e quando cada uma toca ficam em `app/sons/acoes.json`. Os arquivos podem ter qualquer nome e formato (de preferência o nome original, para saber de onde vieram). Cada pasta tem um `creditos.json` com origem, autor e licença de cada arquivo; a entrada `"*"` vale para a pasta inteira, e `ganho` (em dB) corrige o volume de um som. `_candidatos/` guarda sons para ouvir e talvez usar, e `_desativados/` guarda sons tirados de uso; pastas com `_` não vão para o site. Quando uma ação tem mais de um som, um deles é sorteado a cada vez.
+- **Montagem:** `python app/sons.py`, que o `exportar_perguntas.py` também roda, converte cada som para `.mp3`, corta o silêncio do começo e do fim, iguala o volume (média de -14 dB, pico de no máximo -1 dB) e grava em `app/public/sons/<ação>/`, que é o que vai para o site e nunca é editado à mão. Gera também `sons.json` (a lista que o app lê, com os créditos, que aparecem na aba Informações) e `app/sons/ouvir.html`, uma página para ouvir todos os sons por ação e os candidatos. Avisa quando falta crédito, quando uma pasta não está em `acoes.json`, quando uma ação não tem som e quando uma ação não tem gatilho no app. Usa o ffmpeg (`pip install imageio-ffmpeg`).
+- **Incluir sons:**
+  - **Numa ação que já existe:** pôr o arquivo na pasta da ação, registrar o crédito no `creditos.json` dela, rodar `app/sons.py`, ouvir em `ouvir.html` e publicar. Não é preciso renomear, converter nem ajustar o volume.
+  - **Tirar ou trocar:** mover o arquivo para `_desativados/` (ou apagá-lo) e rodar o script; o som sai do site.
+  - **Ação nova:** criar a pasta e acrescentar a ação ao `acoes.json`, com quando ela toca. O app precisa de um **gatilho** no código para tocar no momento certo, feito pelo Claude; até lá, o script avisa.
+  - **Quem faz o quê:** qualquer um põe sons nas pastas e roda o script. Quando o Claude busca sons, deixa as opções em `_candidatos/`, com o crédito, até alguém escolher.
+  - **Formato:** curtos (menos de 2 segundos; a vitória e a pergunta final podem ser um pouco mais longas, e o `tempo_acabando`, que toca a cada segundo, bem curto).
+  - Instruções passo a passo em `app/sons/LEIAME.md`.
+- **Licença:** só sons livres: CC0 ou CC-BY com crédito. Sem licença clara, não entra. Os iniciais são do Kenney (kenney.nl), CC0.
 - **Como chega à tela grande:** quem lê grava o evento no campo `som` da partida, e a tela grande toca quando ele muda. O navegador só libera o som depois de um toque na página, que é o toque em **Modo mesa**.
 
 ### Dados
@@ -907,6 +916,8 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.53 | 2026-10-12 | Biblioteca de sons reorganizada: uma pasta por ação em `app/sons/`, com qualquer nome de arquivo, créditos por pasta, `acoes.json`, `_candidatos/` e `_desativados/`; `app/sons.py` converte, corta o silêncio, iguala o volume, gera `sons.json` e a página `ouvir.html`; instruções para incluir sons (§16) |
+| 0.52 | 2026-10-12 | Pergunta cuja resposta é um ano ou uma data é sempre de múltipla escolha, com distratores de anos ou datas próximos; século, década e edições de Olimpíada ou Copa podem continuar abertas; as abertas do banco com ano ou data foram convertidas (§6) |
 | 0.51 | 2026-10-12 | Modo mesa: a resposta aparece para todos automaticamente quando a rodada acaba; novo layout, com a fila de jogadores na ordem da rodada (quem pergunta, depois quem responde, 1º, 2º…) e o cartão **A seguir** em letra maior (§15, §16) |
 | 0.50 | 2026-10-10 | Sons no modo mesa, **experimentais** (só com o botão Modo experimental ligado no aparelho): oito eventos, arquivos por evento com sorteio entre variações, créditos em `creditos.json`, lista gerada pelo `listar_sons.py`; sons iniciais do Kenney (CC0); campo `som` na partida (§16) |
 | 0.49 | 2026-10-10 | Pergunta final de qualquer tema no centro do tabuleiro do Master: quem acerta vence, quem erra fica no centro (14 acertos ao todo); quem venceu continua lendo para os outros (§14, §15) |
