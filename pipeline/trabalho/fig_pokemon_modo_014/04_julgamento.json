@@ -1,0 +1,626 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Starmie",
+        "descricao": "Pokémon de água e psíquico, número 121 da Pokédex Nacional, evolução de Staryu.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "simum",
+          "nome": "Simum",
+          "descricao": "Vento quente, seco e carregado de areia que sopra no Saara e na Península Arábica",
+          "variantes": [
+            "Simoom",
+            "Samiel"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gloom",
+        "descricao": "Pokémon de planta e veneno, número 44 da Pokédex Nacional, evolução de Oddish.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tv_globo",
+          "nome": "TV Globo",
+          "descricao": "Emissora de televisão brasileira fundada por Roberto Marinho, inaugurada no Rio de Janeiro e cabeça da Rede Globo.",
+          "variantes": [
+            "Rede Globo",
+            "Globo"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "pomo_de_adao",
+          "nome": "Pomo de adão",
+          "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe.",
+          "variantes": [
+            "Gogó",
+            "Proeminência laríngea",
+            "Adam's apple"
+          ]
+        },
+        {
+          "id": "logo_linguagem_de_programacao",
+          "nome": "Logo (linguagem de programação)",
+          "descricao": "Linguagem de programação educacional criada em 1967, usada para ensinar programação a crianças.",
+          "variantes": [
+            "Logo"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sceptile",
+        "descricao": "Pokémon de planta da terceira geração, número 254 da Pokédex Nacional, evolução final de Treecko.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "helioptile",
+          "nome": "Helioptile",
+          "descricao": "Pokémon do tipo Elétrico/Normal da sexta geração, número 694 da Pokédex Nacional, inspirado no lagarto-de-gola.",
+          "variantes": []
+        },
+        {
+          "id": "caterpie",
+          "nome": "Caterpie",
+          "descricao": "Pokémon lagarta do tipo Inseto, número 10 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Thwackey",
+        "descricao": "Pokémon de planta da oitava geração, número 811 da Pokédex Nacional, evolução de Grookey.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "hawk_eye",
+          "nome": "Hawk-Eye",
+          "descricao": "Sistema eletrônico de rastreamento da bola usado para revisar marcações de linha no tênis e em outros esportes.",
+          "variantes": [
+            "Olho de Falcão"
+          ]
+        },
+        {
+          "id": "duas_caras",
+          "nome": "Duas-Caras",
+          "descricao": "Harvey Dent, ex-promotor de Gotham com metade do rosto desfigurado, vilão do Batman",
+          "variantes": [
+            "Two-Face",
+            "Harvey Dent"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tarountula",
+        "descricao": "Pokémon aranha de tipo inseto da nona geração, número 917 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "marimbondo_cavalo",
+          "nome": "Marimbondo-cavalo",
+          "descricao": "Vespa da família Pompilidae, dos gêneros Pepsis e Hemipepsis, que caça tarântulas.",
+          "variantes": [
+            "Tarantula hawk",
+            "Vespa-caçadora-de-tarântulas"
+          ]
+        },
+        {
+          "id": "tatu_bola",
+          "nome": "Tatu-bola",
+          "descricao": "Tatu sul-americano que se enrola em bola, gênero Tolypeutes.",
+          "variantes": [
+            "Tolypeutes"
+          ]
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Golduck",
+        "descricao": "Pokémon de água, número 55 da Pokédex Nacional, evolução de Psyduck.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        },
+        {
+          "id": "pato_donald",
+          "nome": "Pato Donald",
+          "descricao": "Personagem de desenho animado da Disney, um pato de roupa de marinheiro e voz ininteligível, criado por Walt Disney.",
+          "variantes": [
+            "Donald Duck",
+            "Donald"
+          ]
+        },
+        {
+          "id": "soluco",
+          "nome": "Soluço",
+          "descricao": "Contração involuntária e repetida que produz um som característico na garganta.",
+          "variantes": [
+            "Hiccup",
+            "Singulto"
+          ]
+        },
+        {
+          "id": "olodum",
+          "nome": "Olodum",
+          "descricao": "Bloco afro e grupo percussivo de Salvador, criado em 1979.",
+          "variantes": []
+        },
+        {
+          "id": "gollum",
+          "nome": "Gollum",
+          "descricao": "Criatura obcecada pelo Um Anel, antes um hobbit chamado Sméagol, em O Senhor dos Anéis.",
+          "variantes": [
+            "Sméagol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Fletchling",
+        "descricao": "Pokémon passarinho de tipo normal e voador da sexta geração, número 661 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "chingling",
+          "nome": "Chingling",
+          "descricao": "Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "luta_livre_profissional",
+          "nome": "Luta livre profissional",
+          "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+          "variantes": [
+            "Wrestling",
+            "Pro wrestling",
+            "Luta profissional"
+          ]
+        },
+        {
+          "id": "lev_yashin",
+          "nome": "Lev Yashin",
+          "descricao": "Goleiro soviético do Dínamo de Moscou, Bola de Ouro de 1963.",
+          "variantes": [
+            "Lev Iachin",
+            "Lev Ivanovich Yashin",
+            "Lev Jashin"
+          ]
+        },
+        {
+          "id": "estilingue",
+          "nome": "Estilingue",
+          "descricao": "Arma ou brinquedo em forma de Y com elástico que lança projéteis pequenos.",
+          "variantes": [
+            "Atiradeira",
+            "Bodoque",
+            "Baladeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cacnea",
+        "descricao": "Pokémon cacto de tipo planta da terceira geração, número 331 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "canela",
+          "nome": "Canela",
+          "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+          "variantes": [
+            "Canela-do-ceilão",
+            "Cinnamomum"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "cetaceos",
+          "nome": "Cetáceos",
+          "descricao": "Infraordem de mamíferos marinhos que reúne baleias, golfinhos e botos.",
+          "variantes": [
+            "Cetacea",
+            "Cetáceo"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "cacau_2",
+          "nome": "Cacau",
+          "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+          "variantes": [
+            "Semente de cacau",
+            "Cocoa bean",
+            "Theobroma cacao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Espeon",
+        "descricao": "Pokémon de tipo psíquico da segunda geração, número 196 da Pokédex Nacional, evolução de Eevee.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "espelho",
+          "nome": "Espelho",
+          "descricao": "Superfície de vidro com fundo metálico que reflete imagens, usada no dia a dia para ver o próprio reflexo.",
+          "variantes": [
+            "Espelho de vidro"
+          ]
+        },
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "cafe_expresso",
+          "nome": "Café expresso",
+          "descricao": "Café concentrado preparado forçando água quente sob alta pressão através do pó fino, de origem italiana.",
+          "variantes": [
+            "Espresso",
+            "Expresso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Kingler",
+        "descricao": "Pokémon caranguejo de tipo água, número 99 da Pokédex Nacional, evolução de Krabby.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rei_lear",
+          "nome": "Rei Lear",
+          "descricao": "Tragédia de William Shakespeare sobre um velho rei britânico que divide o reino entre as filhas.",
+          "variantes": [
+            "King Lear",
+            "O Rei Lear"
+          ]
+        },
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        },
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "eiger",
+          "nome": "Eiger",
+          "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+          "variantes": [
+            "Monte Eiger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Dreepy",
+        "descricao": "Pokémon fantasma e dragão da oitava geração, número 885 da Pokédex Nacional, primeira forma da linha de Dragapult.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dreidel",
+          "nome": "Dreidel",
+          "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+          "variantes": [
+            "Dreydl",
+            "Sevivon",
+            "Pião de Hanucá"
+          ]
+        },
+        {
+          "id": "mareep",
+          "nome": "Mareep",
+          "descricao": "Pokémon ovelha do tipo Elétrico, número 179 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        },
+        {
+          "id": "lorelei",
+          "nome": "Lorelei",
+          "descricao": "Rochedo à margem do rio Reno, na Alemanha, ligado à lenda de uma moça que atraía barqueiros para o naufrágio.",
+          "variantes": [
+            "Loreley"
+          ]
+        },
+        {
+          "id": "cratera_de_darvaza",
+          "nome": "Cratera de Darvaza",
+          "descricao": "Cratera de gás em chamas no deserto de Caracum, no Turcomenistão, apelidada de Porta do Inferno.",
+          "variantes": [
+            "Porta do Inferno",
+            "Darvaza gas crater",
+            "Darweze"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Starmie é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gloom é um Pokémon; candidatas são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sceptile é distinto de Helioptile e Caterpie."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Thwackey é um Pokémon sem correspondente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tarountula é um Pokémon, não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Golduck é um Pokémon distinto das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Fletchling é diferente de Chingling e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cacnea é um Pokémon, não o cacau nem outras."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "espeon",
+      "motivo": "Mesmo Pokémon Espeon, número 196, psíquico."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Kingler é um Pokémon; candidatas são entidades diferentes."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Dreepy é um Pokémon distinto das candidatas."
+    }
+  ]
+}

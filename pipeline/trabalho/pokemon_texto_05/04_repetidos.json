@@ -1,0 +1,215 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O que Combee, que pode virar Vespiquen, e Salandit, que pode virar Salazzle, têm em comum na hora de evoluir?",
+        "resposta": "Só as fêmeas evoluem"
+      },
+      "existentes": [
+        {
+          "id": "q09944",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Salandit"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Sword e Shield, a forma de Galar do guaxinim Zigzagoon ganhou uma evolução final inédita, de visual roqueiro. Que pokémon é esse?",
+        "resposta": "Obstagoon"
+      },
+      "existentes": [
+        {
+          "id": "q09879",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Zigzagoon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Para a serpente de pedra Onix evoluir para Steelix, ela precisa ser trocada segurando qual item?",
+        "resposta": "Metal Coat"
+      },
+      "existentes": [
+        {
+          "id": "q02578",
+          "pergunta": "Este pokémon evolui em qual?",
+          "resposta": "Steelix"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A partir de 2003, as cartas de Kadabra sumiram do card game Pokémon por quase vinte anos. Por quê?",
+        "resposta": "O ilusionista Uri Geller processou a Nintendo"
+      },
+      "existentes": [
+        {
+          "id": "q09659",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Kadabra"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Quando Nincada evolui para Ninjask, havendo espaço na equipe e uma Poké Ball na mochila, surge do nada um segundo pokémon, uma casca fantasma. Que pokémon é esse?",
+        "resposta": "Shedinja"
+      },
+      "existentes": [
+        {
+          "id": "q09883",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Nincada"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Scarlet e Violet, o Tauros de Paldea tem três raças, todas do tipo Lutador. Uma é só Lutador; as outras duas combinam Lutador com que dois tipos?",
+        "resposta": "Fogo e Água"
+      },
+      "existentes": [
+        {
+          "id": "q09953",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Tauros"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em Gold e Silver, o lendário Lugia descansa no fundo de uma caverna, num arquipélago de Johto cercado de correntezas. Que arquipélago é esse?",
+        "resposta": "Ilhas Redemoinho (Whirl Islands)"
+      },
+      "existentes": [
+        {
+          "id": "q01745",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Lugia"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O nome Sudowoodo, do pokémon de pedra que se finge de árvore, junta wood, madeira em inglês, com qual palavra que indica falsidade?",
+        "resposta": "Pseudo"
+      },
+      "existentes": [
+        {
+          "id": "q09774",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Sudowoodo"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Lutador da primeira geração que usa luvas de boxe, Hitmonchan tem o nome inspirado em qual astro do cinema de ação?",
+        "resposta": "Jackie Chan"
+      },
+      "existentes": [
+        {
+          "id": "q09792",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Hitmonchan"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O pokémon Vulpix, de seis caudas, tem o nome derivado de vulpes, palavra latina para qual animal?",
+        "resposta": "Raposa"
+      },
+      "existentes": [
+        {
+          "id": "q02582",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Vulpix"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Ao megaevoluir, Ampharos ganha uma longa crina branca e um segundo tipo, além de Elétrico. Que tipo é esse?",
+        "resposta": "Dragão"
+      },
+      "existentes": [
+        {
+          "id": "q09865",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Ampharos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato sobre evolução só de fêmeas, diferente de identificar Salandit."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a evolução de Galar, não identifica Zigzagoon."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o item de troca (Metal Coat), não a evolução em si."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Fato sobre sumiço das cartas, diferente de identificar Kadabra."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta Shedinja, outro fato que identificar Nincada."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tipos das raças de Paldea, fato distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Local onde Lugia vive, fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Origem do nome, fato distinto."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Inspiração do nome, fato distinto."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome, fato distinto."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Tipo da mega evolução, fato distinto."
+    }
+  ]
+}

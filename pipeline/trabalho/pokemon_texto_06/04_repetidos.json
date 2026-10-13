@@ -1,0 +1,116 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Japão, Bulbasaur se chama Fushigidane, nome que junta fushigi, mistério, com tane, palavra japonesa que significa o quê?",
+        "resposta": "Semente"
+      },
+      "existentes": [
+        {
+          "id": "q01746",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Bulbasaur"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em dezembro de 1997, um episódio com o pokémon Porygon e muitas luzes piscando provocou convulsões em crianças japonesas. Por quanto tempo o anime ficou fora do ar?",
+        "resposta": "Quatro meses"
+      },
+      "existentes": [
+        {
+          "id": "q05948",
+          "pergunta": "Em 1997, um episódio do anime Pokémon mandou centenas de crianças japonesas ao hospital por causa de quê?",
+          "resposta": "Luzes piscantes que causaram convulsões"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Dois anos depois do sucesso no Japão, os jogos Pokémon Red e Blue chegaram às lojas dos Estados Unidos em que ano?",
+        "resposta": "1998"
+      },
+      "existentes": [
+        {
+          "id": "q07412",
+          "pergunta": "Em Pokémon Red e Blue, o jogador escolhe seu primeiro pokémon entre Bulbasaur, Charmander e qual outro?",
+          "resposta": "Squirtle"
+        },
+        {
+          "id": "q09825",
+          "pergunta": "Que compositor da Game Freak criou as músicas dos primeiros jogos Pokémon e depois se tornou um dos produtores da série?",
+          "resposta": "Junichi Masuda"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome japonês de Snorlax, Kabigon, vem de um apelido dado a um designer da Game Freak que comia muito e dormia em seguida. Que personagem da Nintendo inspirou esse apelido?",
+        "resposta": "Kirby"
+      },
+      "existentes": [
+        {
+          "id": "q09749",
+          "pergunta": "Este pokémon evolui de qual outro pokémon?",
+          "resposta": "Munchlax"
+        },
+        {
+          "id": "q09844",
+          "pergunta": "Em Red e Blue, um Snorlax adormecido bloqueia a estrada. Que objeto o jogador precisa usar para acordá-lo?",
+          "resposta": "Poké Flute (Poké Flauta)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O mítico Mew foi escondido no código de Red e Green nas últimas semanas do desenvolvimento, quase como uma brincadeira. Que programador da Game Freak fez isso?",
+        "resposta": "Shigeki Morimoto"
+      },
+      "existentes": [
+        {
+          "id": "q01741",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Mew"
+        },
+        {
+          "id": "q09807",
+          "pergunta": "Nos jogos e no anime, o pokémon mais poderoso já criado pela ciência foi feito a partir do material genético de qual pokémon mítico?",
+          "resposta": "Mew"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre etimologia do nome japonês; a existente só pede identificar o pokémon."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre duração do hiato do anime, fato diferente da causa do episódio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento nos EUA é fato distinto das existentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Origem do nome Kabigon/Kirby é fato diferente de evolução ou Poké Flute."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Programador que escondeu Mew é fato diferente de identificar Mew ou a origem de Mewtwo."
+    }
+  ]
+}

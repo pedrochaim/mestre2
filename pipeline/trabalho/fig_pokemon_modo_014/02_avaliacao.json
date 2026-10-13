@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de estrela de pontas múltiplas, reconhecível e característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Starmie",
+      "ancora": {
+        "nome": "Starmie",
+        "descricao": "Pokémon de água e psíquico, número 121 da Pokédex Nacional, evolução de Staryu.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com corpo redondo, folhas curvas e pés pequenos, característica de Gloom e distinguível de Oddish e Vileplume.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gloom",
+      "distratores": [
+        "Oddish",
+        "Vileplume",
+        "Bellossom"
+      ],
+      "ancora": {
+        "nome": "Gloom",
+        "descricao": "Pokémon de planta e veneno, número 44 da Pokédex Nacional, evolução de Oddish.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A silhueta é uma massa angulosa sem traços característicos e pode ser confundida com Avalugg ou outros pokémon de gelo ou rocha.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta nítida: folhas nos braços, cauda de folhas e crista na cabeça.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sceptile",
+      "distratores": [
+        "Grovyle",
+        "Decidueye",
+        "Leavanny"
+      ],
+      "ancora": {
+        "nome": "Sceptile",
+        "descricao": "Pokémon de planta da terceira geração, número 254 da Pokédex Nacional, evolução final de Treecko.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com o pokémon segurando o bastão atrás da cabeça, distinguível dos vizinhos de linha evolutiva por porte e pose.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Thwackey",
+      "distratores": [
+        "Grookey",
+        "Rillaboom",
+        "Chimchar"
+      ],
+      "ancora": {
+        "nome": "Thwackey",
+        "descricao": "Pokémon de planta da oitava geração, número 811 da Pokédex Nacional, evolução de Grookey.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de corpo esférico com cacho no topo e pernas finas, característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Tarountula",
+      "ancora": {
+        "nome": "Tarountula",
+        "descricao": "Pokémon aranha de tipo inseto da nona geração, número 917 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta com bico, crista pontuda, garras e cauda longa, bem característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Golduck",
+      "distratores": [
+        "Psyduck",
+        "Feraligatr",
+        "Croconaw"
+      ],
+      "ancora": {
+        "nome": "Golduck",
+        "descricao": "Pokémon de água, número 55 da Pokédex Nacional, evolução de Psyduck.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de passarinho redondo com cauda longa e pés de passada, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Fletchling",
+      "ancora": {
+        "nome": "Fletchling",
+        "descricao": "Pokémon passarinho de tipo normal e voador da sexta geração, número 661 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de corpo redondo com espinhos e braços com pontas espinhosas, característica de Cacnea.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Cacnea",
+      "distratores": [
+        "Cacturne",
+        "Maractus",
+        "Ferroseed"
+      ],
+      "ancora": {
+        "nome": "Cacnea",
+        "descricao": "Pokémon cacto de tipo planta da terceira geração, número 331 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta nítida de felino sentado, com orelhas pontudas e cauda bifurcada.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui de qual outro?",
+      "resposta": "Eevee",
+      "ancora": {
+        "nome": "Espeon",
+        "descricao": "Pokémon de tipo psíquico da segunda geração, número 196 da Pokédex Nacional, evolução de Eevee.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de caranguejo com garra gigante e carapaça espinhosa; múltipla com Krabby para garantir resposta única.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kingler",
+      "distratores": [
+        "Krabby",
+        "Crawdaunt",
+        "Corphish"
+      ],
+      "ancora": {
+        "nome": "Kingler",
+        "descricao": "Pokémon caranguejo de tipo água, número 99 da Pokédex Nacional, evolução de Krabby.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta alongada com cabeça achatada e nadadeiras, distinta e característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dreepy",
+      "distratores": [
+        "Drakloak",
+        "Dragapult",
+        "Dratini"
+      ],
+      "ancora": {
+        "nome": "Dreepy",
+        "descricao": "Pokémon fantasma e dragão da oitava geração, número 885 da Pokédex Nacional, primeira forma da linha de Dragapult.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    }
+  ]
+}

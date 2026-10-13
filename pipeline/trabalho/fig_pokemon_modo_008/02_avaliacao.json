@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de Machop reconhecível (crista, punho fechado, postura de luta); aberta, nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Machop",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Machop",
+        "descricao": "Pokémon do tipo Lutador, número 66 da Pokédex Nacional, da primeira geração.",
+        "variantes": [
+          "Wanriky"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de Litten (de costas, cauda com tufo, espinhos na cabeça) reconhecível para quem jogou a sétima geração; múltipla com felinos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Litten",
+      "distratores": [
+        "Torracat",
+        "Purrloin",
+        "Glameow"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Litten",
+        "descricao": "Pokémon gatinho do tipo Fogo, inicial de Alola, número 725 da Pokédex Nacional.",
+        "variantes": [
+          "Nyabby"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de escorpião com garras e cauda com ferrão, característica de Skorupi; múltipla com artrópodes parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Skorupi",
+      "distratores": [
+        "Drapion",
+        "Kingler",
+        "Dwebble"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Skorupi",
+        "descricao": "Pokémon escorpião do tipo Veneno/Inseto, número 451 da Pokédex Nacional, da quarta geração.",
+        "variantes": [
+          "Scorpi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A silhueta é um círculo quase perfeito, sem traço característico; indistinguível de Electrode e de outras esferas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com asas de algodão e duas antenas, característica de Swablu; múltipla com voadores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Swablu",
+      "distratores": [
+        "Altaria",
+        "Ducklett",
+        "Butterfree"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Swablu",
+        "descricao": "Pokémon passarinho de asas de algodão do tipo Normal/Voador, número 333 da Pokédex Nacional, da terceira geração.",
+        "variantes": [
+          "Tylton"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de crustáceo com pinças e espinhos na cabeça, compatível com Corphish; múltipla com crustáceos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Corphish",
+      "distratores": [
+        "Crawdaunt",
+        "Krabby",
+        "Binacle"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Corphish",
+        "descricao": "Pokémon lagostim do tipo Água, número 341 da Pokédex Nacional, da terceira geração.",
+        "variantes": [
+          "Heigani"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta redonda com orelhas pontudas e pés ovais, reconhecível como Jigglypuff; aberta, nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Jigglypuff",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Jigglypuff",
+        "descricao": "Pokémon balão do tipo Normal/Fada que canta para adormecer, número 39 da Pokédex Nacional.",
+        "variantes": [
+          "Purin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta nítida de filhote de leão com orelhas grandes e cauda em estrela, característica de Shinx; múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Shinx",
+      "distratores": [
+        "Luxio",
+        "Pachirisu",
+        "Plusle"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Shinx",
+        "descricao": "Pokémon filhote de leão do tipo Elétrico, número 403 da Pokédex Nacional, da quarta geração.",
+        "variantes": [
+          "Kolink"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A silhueta é uma forma arredondada de pé, sem contorno característico de Fomantis; pode ser confundida com vários pokémon pequenos."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A silhueta é um corpo redondo com cauda, sem a espiral característica; pode ser confundida com Tympole, Wooper e outros girinos/anfíbios."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de Sneasel reconhecível (orelhas, garras, cauda). Evitada a pergunta de evolução porque a forma de Hisui evolui para outro pokémon; múltipla de reconhecimento.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sneasel",
+      "distratores": [
+        "Weavile",
+        "Absol",
+        "Scraggy"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sneasel",
+        "descricao": "Pokémon de garras afiadas do tipo Sombrio/Gelo, número 215 da Pokédex Nacional, da segunda geração.",
+        "variantes": [
+          "Nyula"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta com pinças, orelhas pontudas e cauda de escorpião com ferrão, característica de Gligar; múltipla com insetos/voadores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gligar",
+      "distratores": [
+        "Gliscor",
+        "Pinsir",
+        "Scizor"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Gligar",
+        "descricao": "Pokémon escorpião voador do tipo Terra/Voador, número 207 da Pokédex Nacional, da segunda geração.",
+        "variantes": [
+          "Gliger"
+        ]
+      }
+    }
+  ]
+}

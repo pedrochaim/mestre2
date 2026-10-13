@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No anime, o Meowth da Equipe Rocket aprendeu sozinho a andar em pé e a falar como gente. Por que ele se esforçou tanto?",
+        "resposta": "Para conquistar uma Meowth fêmea"
+      },
+      "existentes": [
+        {
+          "id": "q09757",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Persian"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quando Ash conhece seu Charmander, o pokémon espera sozinho numa pedra, debaixo de chuva. Por que ele estava ali?",
+        "resposta": "Foi abandonado pelo treinador"
+      },
+      "existentes": [
+        {
+          "id": "q01749",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Charmander"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No fim da saga de Sinnoh, Brock se despede de Ash e para de viajar com ele. Que novo sonho o levou a essa decisão?",
+        "resposta": "Tornar-se médico pokémon"
+      },
+      "existentes": [
+        {
+          "id": "q09834",
+          "pergunta": "Antes de viajar com Ash no anime, Brock comandava um ginásio do tipo Pedra. Em que cidade de Kanto fica esse ginásio?",
+          "resposta": "Pewter"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome em inglês de Brock, líder do ginásio de Pewter, esconde uma palavra ligada ao tipo dos seus pokémon. Que palavra é essa?",
+        "resposta": "Rock, pedra"
+      },
+      "existentes": [
+        {
+          "id": "q09834",
+          "pergunta": "Antes de viajar com Ash no anime, Brock comandava um ginásio do tipo Pedra. Em que cidade de Kanto fica esse ginásio?",
+          "resposta": "Pewter"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Johto, Ash deixa seu Charizard num vale habitado por Charizard selvagens. Por que ele toma essa decisão?",
+        "resposta": "Para Charizard treinar e ficar mais forte"
+      },
+      "existentes": [
+        {
+          "id": "q01743",
+          "pergunta": "Que pokémon evolui diretamente para este?",
+          "resposta": "Charmeleon"
+        },
+        {
+          "id": "q09848",
+          "pergunta": "Charizard tem o nome formado por char, chamuscar em inglês, e por qual animal, também em inglês?",
+          "resposta": "Lizard, lagarto"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No Japão, Misty, a companheira de Ash especialista em pokémon de água, se chama Kasumi. O que significa esse nome?",
+        "resposta": "Névoa"
+      },
+      "existentes": [
+        {
+          "id": "q09814",
+          "pergunta": "Logo no começo do anime, por que Misty passa a seguir Ash em sua jornada?",
+          "resposta": "Para cobrar a bicicleta destruída"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O sobrenome Ketchum, do protagonista Ash, é um trocadilho em inglês com qual expressão do lema da franquia Pokémon?",
+        "resposta": "Catch 'em"
+      },
+      "existentes": [
+        {
+          "id": "q01316",
+          "pergunta": "No Japão, o protagonista do anime Pokémon, Ash Ketchum, tem o mesmo prenome do criador da franquia. Que nome é esse?",
+          "resposta": "Satoshi"
+        },
+        {
+          "id": "q09813",
+          "pergunta": "No primeiro episódio do anime, por que Ash fica com um Pikachu, e não com Bulbasaur, Charmander ou Squirtle?",
+          "resposta": "Acordou tarde e chegou atrasado"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No filme Detetive Pikachu, de 2019, em que cidade fictícia humanos e pokémon vivem lado a lado, sem batalhas?",
+        "resposta": "Ryme City"
+      },
+      "existentes": [
+        {
+          "id": "q07410",
+          "pergunta": "Que ator, astro dos filmes de Deadpool, deu voz e expressões ao Pikachu no filme Detetive Pikachu, de 2019?",
+          "resposta": "Ryan Reynolds"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1999, o anime Pokémon estreou na TV aberta brasileira por qual emissora?",
+        "resposta": "Record"
+      },
+      "existentes": [
+        {
+          "id": "q09823",
+          "pergunta": "A série animada de Pokémon, com Ash e Pikachu, estreou na televisão japonesa em que ano?",
+          "resposta": "1997"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Nos cinemas, o primeiro filme Pokémon, o do clone Mewtwo, era exibido junto com qual curta-metragem estrelado pelo Pikachu?",
+        "resposta": "As Férias do Pikachu"
+      },
+      "existentes": [
+        {
+          "id": "q09855",
+          "pergunta": "Pokémon: O Filme, em que Ash enfrenta o clone Mewtwo, estreou nos cinemas japoneses em que ano?",
+          "resposta": "1998"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre motivo de Meowth aprender a falar, não sobre evolução."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Motivo de Charmander estar na pedra, fato diferente de identificar o pokémon."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sonho de Brock ao deixar Ash, diferente da cidade do ginásio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado do nome Brock, não a cidade do ginásio."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Motivo de Ash deixar Charizard no vale, fato distinto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Significado do nome japonês de Misty, não o motivo de seguir Ash."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Trocadilho do sobrenome Ketchum, distinto do prenome japonês e do Pikachu."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cidade fictícia do filme, não o dublador."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Emissora brasileira, não o ano de estreia japonesa."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Curta-metragem exibido junto, não o ano de estreia."
+    }
+  ]
+}

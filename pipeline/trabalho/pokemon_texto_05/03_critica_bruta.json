@@ -1,0 +1,315 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a tradução 'Rocha do Rei' não é confiável; usar só o nome do item.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Poliwhirl vira Politoed, e Slowpoke vira Slowking, quando são trocados segurando o mesmo item, uma espécie de coroa. Que item é esse?",
+        "resposta": "King's Rock",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Politoed_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/King%27s_Rock"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Só fêmeas de Combee e Salandit evoluem; conexão memorável e correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Obstagoon é a evolução final inédita da forma de Galar de Zigzagoon; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Tocam orbes' é impreciso: na mecânica, os pokémon seguram a orbe.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Em Omega Ruby e Alpha Sapphire, Groudon e Kyogre, segurando orbes antigas, passam pela mesma transformação, que os devolve à forma ancestral. Como ela se chama?",
+        "resposta": "Reversão Primal",
+        "distratores": [
+          "Megaevolução",
+          "Dynamax",
+          "Terastalização"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Primal_Reversion",
+          "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a tradução 'Pedra da Alvorada' é incerta; usar só o nome do item.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que pedra evolutiva, estreante em Diamond e Pearl, transforma a fêmea de Snorunt em Froslass e o macho de Kirlia em Gallade?",
+        "resposta": "Dawn Stone",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dawn_Stone",
+          "https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Feebas evolui quando Beleza passa de um valor (170), não quando chega ao máximo.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em Ruby e Sapphire, o feio peixe Feebas só evolui para Milotic quando uma de suas condições de concurso passa de determinado valor. Que condição é essa?",
+        "resposta": "Beleza",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a tradução do item é incerta; usar só o nome em inglês.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Para a serpente de pedra Onix evoluir para Steelix, ela precisa ser trocada segurando qual item?",
+        "resposta": "Metal Coat",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/Metal_Coat"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Inkay evolui com o 3DS de cabeça para baixo; fato curioso e correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma o processo de Geller e a ausência de cartas de Kadabra até o acordo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex de Shield diz que uma mudança climática repentina extinguiu a Corsola antiga.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Shedinja também exige uma Poké Ball na mochila; enunciado incompleto.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Quando Nincada evolui para Ninjask, havendo espaço na equipe e uma Poké Ball na mochila, surge do nada um segundo pokémon, uma casca fantasma. Que pokémon é esse?",
+        "resposta": "Shedinja",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nincada_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Milcery evolui segurando um doce enquanto o personagem gira; correto e curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado cita Shelmet, que vaza a resposta 'concha de Shelmet'.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O cavaleiro Escavalier, de Black e White, evolui de Karrablast. Segundo a Pokédex, de qual outro pokémon vem a armadura que ele usa?",
+        "resposta": "Shelmet",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Escavalier_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/Karrablast_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Chamar Gholdengo de 'surfista' não tem respaldo; retirar.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Segundo a Pokédex de Scarlet, o corpo do pokémon dourado Gholdengo é formado por quê?",
+        "resposta": "Mil moedas",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gholdengo_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Televisão é distrator defensável, pois Rotom é associado a TVs; trocar por distrator claramente errado.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "O fantasma elétrico Rotom entra em aparelhos e muda de forma: micro-ondas, máquina de lavar, geladeira, ventilador e qual outro?",
+        "resposta": "Cortador de grama",
+        "distratores": [
+          "Ar-condicionado",
+          "Aspirador de pó",
+          "Liquidificador"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Exclamação e interrogação completam as formas de Unown desde a terceira geração; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a frase 'Além da só Lutador' é confusa em voz alta.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Em Scarlet e Violet, o Tauros de Paldea tem três raças, todas do tipo Lutador. Uma é só Lutador; as outras duas combinam Lutador com que dois tipos?",
+        "resposta": "Fogo e Água",
+        "distratores": [
+          "Gelo e Pedra",
+          "Terra e Elétrico",
+          "Planta e Sombrio"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que a máscara era seu rosto quando humano; boa curiosidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Em Diamond e Pearl, Magneton evolui no Monte Coronet; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mundo Distorcido é a dimensão de Giratina em Platinum; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lugia fica nas Ilhas Redemoinho em Johto; correto e específico.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nosepass se inspira nas estátuas moai da Ilha de Páscoa; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sudowoodo vem de pseudo + wood; boa pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Darmanitan é inspirado no daruma; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hitmonchan tem o nome ligado a Jackie Chan (Hitmonlee é Bruce Lee); resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Deoxys vem de DNA/ácido desoxirribonucleico e nasceu de um vírus espacial mutado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Vulpix vem de vulpes, raposa em latim; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta 'passado' é palpite binário (passado ou futuro) e vaga; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex de Pearl diz que Spiritomb é formado por 108 espíritos.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mega Ampharos é Elétrico/Dragão com crina branca; correto.",
+      "reescrita": null
+    }
+  ]
+}

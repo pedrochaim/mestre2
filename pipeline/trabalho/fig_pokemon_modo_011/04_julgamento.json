@@ -1,0 +1,631 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Golbat",
+        "descricao": "Pokémon morcego dos tipos Venenoso e Voador, número 42 da Pokédex Nacional, evolução de Zubat.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "volbeat",
+          "nome": "Volbeat",
+          "descricao": "Pokémon do tipo Inseto da terceira geração, número 313 da Pokédex Nacional, um vagalume que se comunica com a luz do abdome.",
+          "variantes": []
+        },
+        {
+          "id": "goalball",
+          "nome": "Goalball",
+          "descricao": "Esporte paralímpico coletivo para atletas com deficiência visual, jogado com uma bola sonora.",
+          "variantes": []
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "vombate",
+          "nome": "Vombate",
+          "descricao": "Marsupial escavador australiano da família Vombatidae.",
+          "variantes": [
+            "Wombat",
+            "Vombatidae"
+          ]
+        },
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Turtwig",
+        "descricao": "Pokémon tartaruga do tipo Planta, inicial de Sinnoh, número 387 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "turtwig",
+          "nome": "Turtwig",
+          "descricao": "Pokémon do tipo Planta, número 387 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "trimurti",
+          "nome": "Trimúrti",
+          "descricao": "Tríade de deuses principais do hinduísmo, ligados à criação, à preservação e à destruição",
+          "variantes": [
+            "Trindade hindu"
+          ]
+        },
+        {
+          "id": "trigo",
+          "nome": "Trigo",
+          "descricao": "Cereal do gênero Triticum, domesticado no Crescente Fértil e base do pão",
+          "variantes": [
+            "Triticum"
+          ]
+        },
+        {
+          "id": "remo",
+          "nome": "Remo",
+          "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas.",
+          "variantes": [
+            "Rowing"
+          ]
+        },
+        {
+          "id": "twiggy",
+          "nome": "Twiggy",
+          "descricao": "Modelo britânica Lesley Hornby, ícone da moda londrina dos anos sessenta",
+          "variantes": [
+            "Lesley Hornby",
+            "Lesley Lawson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bronzor",
+        "descricao": "Pokémon em forma de disco de bronze dos tipos Aço e Psíquico, número 436 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bronze",
+          "nome": "Bronze",
+          "descricao": "Liga metálica que deu nome à Idade do Bronze.",
+          "variantes": []
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "bromo",
+          "nome": "Bromo",
+          "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+          "variantes": [
+            "Bromine"
+          ]
+        },
+        {
+          "id": "bongo",
+          "nome": "Bongo",
+          "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+          "variantes": [
+            "Tragelaphus eurycerus"
+          ]
+        },
+        {
+          "id": "lord_byron",
+          "nome": "Lord Byron",
+          "descricao": "Poeta romântico inglês (1788–1824), autor de Don Juan e A Peregrinação de Childe Harold.",
+          "variantes": [
+            "George Gordon Byron",
+            "Byron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Scyther",
+        "descricao": "Pokémon mantis dos tipos Inseto e Voador, número 123 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        },
+        {
+          "id": "franz_schubert",
+          "nome": "Franz Schubert",
+          "descricao": "Compositor austríaco do Classicismo tardio e início do Romantismo, famoso por seus Lieder.",
+          "variantes": [
+            "Schubert"
+          ]
+        },
+        {
+          "id": "taler",
+          "nome": "Táler",
+          "descricao": "Grande moeda de prata cunhada na Europa a partir do século dezesseis, originalmente com prata das minas de Joachimsthal, na Boêmia.",
+          "variantes": [
+            "Thaler",
+            "Joachimsthaler"
+          ]
+        },
+        {
+          "id": "colher",
+          "nome": "Colher",
+          "descricao": "Utensílio com concha oval na ponta de um cabo, usado para levar alimento à boca.",
+          "variantes": [
+            "Colher de mesa",
+            "Colherzinha"
+          ]
+        },
+        {
+          "id": "cashrut",
+          "nome": "Cashrut",
+          "descricao": "Conjunto das leis alimentares judaicas, que definem o que é comida kasher",
+          "variantes": [
+            "Kashrut",
+            "Kosher",
+            "Kasher"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Misdreavus",
+        "descricao": "Pokémon fantasma do tipo Fantasma da segunda geração, número 200 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "senbazuru",
+          "nome": "Senbazuru",
+          "descricao": "Conjunto de mil tsurus de origami unidos por fios, tradição japonesa ligada a desejos e à paz.",
+          "variantes": [
+            "Mil tsurus",
+            "Mil grous de papel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Combee",
+        "descricao": "Pokémon abelha dos tipos Inseto e Voador, formado por três favos, número 415 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "combate_jogo",
+          "nome": "Combate (jogo)",
+          "descricao": "Jogo de tabuleiro de estratégia militar com peças de patente escondida, versão brasileira do Stratego lançada pela Estrela.",
+          "variantes": [
+            "Combate",
+            "Stratego"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        },
+        {
+          "id": "de_havilland_comet",
+          "nome": "de Havilland Comet",
+          "descricao": "Avião britânico da de Havilland, primeiro jato comercial de passageiros a entrar em serviço, em 1952.",
+          "variantes": [
+            "DH.106 Comet",
+            "Comet"
+          ]
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Caterpie",
+        "descricao": "Pokémon lagarta do tipo Inseto, número 10 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "asteroide",
+          "nome": "Asteroide",
+          "descricao": "Pequeno corpo rochoso ou metálico que orbita o Sol, concentrado sobretudo no cinturão entre Marte e Júpiter.",
+          "variantes": []
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mareep",
+        "descricao": "Pokémon ovelha do tipo Elétrico, número 179 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "mareanie",
+          "nome": "Mareanie",
+          "descricao": "Pokémon venenoso e aquático de estrela-do-mar com espinhos, número 747 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "marvel_comics",
+          "nome": "Marvel Comics",
+          "descricao": "Editora americana de quadrinhos, casa do Homem-Aranha, dos X-Men e do Capitão América",
+          "variantes": [
+            "Marvel"
+          ]
+        },
+        {
+          "id": "a_marselhesa",
+          "nome": "A Marselhesa",
+          "descricao": "Hino nacional da França, composto por Rouget de Lisle em 1792.",
+          "variantes": [
+            "La Marseillaise",
+            "Marselhesa"
+          ]
+        },
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mudbray",
+        "descricao": "Pokémon burro do tipo Terrestre da sétima geração, número 749 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "muiraquita",
+          "nome": "Muiraquitã",
+          "descricao": "Amuleto de pedra verde, em geral em forma de sapo, produzido por povos antigos da Amazônia.",
+          "variantes": [
+            "Muyrakytã"
+          ]
+        },
+        {
+          "id": "tom_brady",
+          "nome": "Tom Brady",
+          "descricao": "Quarterback americano de futebol americano, campeão da NFL com os Patriots e os Buccaneers.",
+          "variantes": [
+            "Thomas Brady"
+          ]
+        },
+        {
+          "id": "nelson_mandela",
+          "nome": "Nelson Mandela",
+          "descricao": "Líder antiapartheid e primeiro presidente negro da África do Sul, de 1994 a 1999.",
+          "variantes": [
+            "Nelson Rolihlahla Mandela",
+            "Madiba",
+            "Rolihlahla Mandela"
+          ]
+        },
+        {
+          "id": "masahiko_kimura",
+          "nome": "Masahiko Kimura",
+          "descricao": "Judoca japonês dos anos 1950 que dá nome à chave de ombro conhecida como kimura.",
+          "variantes": [
+            "Kimura"
+          ]
+        },
+        {
+          "id": "tundra",
+          "nome": "Tundra",
+          "descricao": "Bioma sem árvores das regiões polares e de altas montanhas, de verão curto e frio",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Electabuzz",
+        "descricao": "Pokémon elétrico de listras e antenas, número 125 da Pokédex Nacional, evolução de Elekid.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "eletron",
+          "nome": "Elétron",
+          "descricao": "Partícula subatômica de carga elétrica negativa, descoberta por J. J. Thomson em 1897.",
+          "variantes": [
+            "Electrão",
+            "Electron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Gible",
+        "descricao": "Pokémon tubarão terrestre dos tipos Dragão e Terrestre, número 443 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ghibli",
+          "nome": "Ghibli",
+          "descricao": "Nome dado na Líbia ao vento quente e seco do Saara, equivalente ao siroco",
+          "variantes": [
+            "Gibli",
+            "Ghibli (vento)"
+          ]
+        },
+        {
+          "id": "gilberto_gil",
+          "nome": "Gilberto Gil",
+          "descricao": "Cantor e compositor baiano, um dos líderes da Tropicália, que também foi ministro da Cultura.",
+          "variantes": [
+            "Gil"
+          ]
+        },
+        {
+          "id": "gisele_bundchen",
+          "nome": "Gisele Bündchen",
+          "descricao": "Supermodelo brasileira nascida em 1980 em Horizontina",
+          "variantes": [
+            "Gisele"
+          ]
+        },
+        {
+          "id": "galileu_galilei",
+          "nome": "Galileu Galilei",
+          "descricao": "Astrônomo, físico e engenheiro italiano (1564–1642), pai da astronomia observacional.",
+          "variantes": [
+            "Galileo Galilei",
+            "Galileu"
+          ]
+        },
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Binacle",
+        "descricao": "Pokémon craca em uma rocha dos tipos Pedra e Água, número 688 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "renda_de_bilro",
+          "nome": "Renda de bilro",
+          "descricao": "Renda artesanal feita trançando fios presos a pequenos fusos sobre uma almofada, tradicional no litoral brasileiro",
+          "variantes": [
+            "Renda de bilros",
+            "Bobbin lace"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "bicicleta",
+          "nome": "Bicicleta",
+          "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+          "variantes": [
+            "Bike"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Golbat não está entre as candidatas; nomes parecidos são entidades distintas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "turtwig",
+      "motivo": "Mesmo Pokémon Turtwig, número 387 da Pokédex Nacional."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bronzor é um Pokémon; bronze é a liga metálica, entidade diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Scyther não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Única candidata é um conceito não relacionado."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Combee é um Pokémon, nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Caterpie não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Mareep é distinto de Mareanie e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Mudbray não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Electabuzz é um Pokémon, diferente de elétron."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Gible não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Binacle não corresponde a nenhuma candidata."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A silhueta é uma mancha irregular sem forma característica; não dá para reconhecer o Gastly pelo contorno."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de porquinho com rabo enrolado e focinho, reconhecível e distinta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Lechonk",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lechonk",
+        "descricao": "Pokémon do tipo Normal da nona geração, um porquinho, número 915 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta nítida: cabeça grande e arredondada, cauda com bola na ponta e garras, característica do Jangmo-o.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Jangmo-o",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jangmo-o",
+        "descricao": "Pokémon do tipo Dragão da sétima geração, número 782 da Pokédex Nacional, que evolui para Hakamo-o.",
+        "variantes": [
+          "Jangmo-o"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A silhueta é um corpo redondo e volumoso sem a língua nem traços marcantes; pode ser confundida com outros pokémon rotundos."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de cãozinho com orelhas grandes e cauda em raio, bem característica.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Yamper",
+      "distratores": [],
+      "ancora": {
+        "nome": "Yamper",
+        "descricao": "Pokémon do tipo Elétrico da oitava geração, um cãozinho corgi com cauda em forma de raio, número 835 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A silhueta lembra uma cúpula ou tartaruga; o contorno não permite reconhecer o Shroodle e pode ser confundido com outros pokémon."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de pônei com crina e cauda em chamas, reconhecível; a pergunta de evolução exige reconhecer antes.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Rapidash",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ponyta",
+        "descricao": "Pokémon do tipo Fogo da primeira geração, um pônei de crina e cauda em chamas, número 77 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A silhueta é fragmentada e ambígua, parecida com outros pokémon coelhos como Lopunny; reconhecimento incerto."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A silhueta é uma mancha arredondada sem forma característica; não é reconhecível pelo contorno."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta clara: orelhas grandes e pontudas, cabeça redonda e cauda em raio, típica do Pichu.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Pikachu",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pichu",
+        "descricao": "Pokémon do tipo Elétrico da segunda geração, a forma bebê de Pikachu, número 172 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta reconhecível: orelhas, membros longos e cauda pontuda do Riolu, sem espinhos do Lucario.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "usar_silhueta": true,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Riolu",
+      "distratores": [],
+      "ancora": {
+        "nome": "Riolu",
+        "descricao": "Pokémon do tipo Lutador da quarta geração, forma anterior de Lucario, número 447 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A silhueta é uma massa arredondada quase sem detalhes; não é reconhecível como Shelgon."
+    }
+  ]
+}

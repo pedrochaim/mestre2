@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta oval com tufos laterais e cauda, reconhecível; Blissey é parecido, então vai em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Chansey",
+      "distratores": [
+        "Blissey",
+        "Happiny",
+        "Clefairy"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Chansey",
+        "descricao": "Pokémon do tipo Normal, número 113 da Pokédex Nacional, de corpo rosa em forma de ovo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A silhueta é uma bola com dois pezinhos, sem forma característica; pode ser confundida com vários outros pokémon redondos.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta com as abas da cabeça e corpo de lagarto, característica; múltipla para um pokémon de aficionado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Helioptile",
+      "distratores": [
+        "Heliolisk",
+        "Dedenne",
+        "Pachirisu"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Helioptile",
+        "descricao": "Pokémon do tipo Elétrico/Normal da sexta geração, número 694 da Pokédex Nacional, inspirado no lagarto-de-gola.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ave com crista pontiaguda, asas abertas e cauda longa, reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Articuno",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Articuno",
+        "descricao": "Pokémon lendário do tipo Gelo/Voador, número 144 da Pokédex Nacional, uma das três aves lendárias de Kanto.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Filhote de cão com faixas nas patas e orelhas pontudas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Houndour",
+      "distratores": [
+        "Poochyena",
+        "Growlithe",
+        "Electrike"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Houndour",
+        "descricao": "Pokémon do tipo Sombrio/Fogo da segunda geração, número 228 da Pokédex Nacional, parecido com um cão.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cabeça oval grande sobre corpo pequeno com braços curtos; distinguível de Beheeyem pelos braços curtos. Múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Elgyem",
+      "distratores": [
+        "Beheeyem",
+        "Solosis",
+        "Baltoy"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Elgyem",
+        "descricao": "Pokémon do tipo Psíquico da quinta geração, número 605 da Pokédex Nacional, de cabeça grande inspirada em alienígenas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Esfera com ímãs laterais e parafuso no topo, silhueta bem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Magnemite",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Magnemite",
+        "descricao": "Pokémon do tipo Elétrico/Aço, número 81 da Pokédex Nacional, uma esfera com ímãs e parafusos.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Corpo de doninha em pose de salto com duas caudas, característico de Buizel; múltipla com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Buizel",
+      "distratores": [
+        "Floatzel",
+        "Pachirisu",
+        "Zangoose"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Buizel",
+        "descricao": "Pokémon do tipo Água da quarta geração, número 418 da Pokédex Nacional, uma doninha marinha de duas caudas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de lula com capuz largo e braços caídos, reconhecível; múltipla por ser aficionado.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Inkay",
+      "distratores": [
+        "Malamar",
+        "Octillery",
+        "Tynamo"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Inkay",
+        "descricao": "Pokémon do tipo Sombrio/Psíquico da sexta geração, número 686 da Pokédex Nacional, inspirado em uma lula.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cúpula saindo de um monte de terra, forma característica de Diglett; múltipla com Dugtrio e outros parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Diglett",
+      "distratores": [
+        "Dugtrio",
+        "Sandygast",
+        "Bonsly"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Diglett",
+        "descricao": "Pokémon do tipo Terra, número 50 da Pokédex Nacional, que vive enterrado e mostra só a cabeça.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pescoço longo, orelhas e cauda com esfera na ponta, silhueta inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Ampharos",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Ampharos",
+        "descricao": "Pokémon do tipo Elétrico da segunda geração, número 181 da Pokédex Nacional, de pescoço longo e esfera na cauda.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A silhueta é uma pedra poligonal sem traços característicos; pode ser confundida com Roggenrola, Carkol, Geodude e outros pokémon de pedra.",
+      "usar_silhueta": false
+    }
+  ]
+}

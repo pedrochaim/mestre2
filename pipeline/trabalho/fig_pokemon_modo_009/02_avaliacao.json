@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta com chamas na cabeça e na cauda, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Magmar",
+      "ancora": {
+        "nome": "Magmar",
+        "descricao": "Pokémon do tipo Fogo, número 126 da Pokédex Nacional.",
+        "variantes": [
+          "Boober"
+        ]
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de cão com orelhas caídas e colar de pelos; reconhecível, com distratores caninos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Rockruff",
+      "distratores": [
+        "Yamper",
+        "Lillipup",
+        "Lycanroc"
+      ],
+      "ancora": {
+        "nome": "Rockruff",
+        "descricao": "Pokémon do tipo Pedra da sétima geração, número 744 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de crocodiliano baixo e achatado com cauda curvada, característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sandile",
+      "distratores": [
+        "Krokorok",
+        "Totodile",
+        "Croconaw"
+      ],
+      "ancora": {
+        "nome": "Sandile",
+        "descricao": "Pokémon do tipo Terra/Sombrio da quinta geração, número 551 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta nítida de pterossauro com asas abertas e cauda pontuda.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Aerodactyl",
+      "ancora": {
+        "nome": "Aerodactyl",
+        "descricao": "Pokémon fóssil do tipo Pedra/Voador, número 142 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de guaxinim eriçado com cauda e pelos em zigue-zague; reconhecível, com distratores de aparência parecida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Zigzagoon",
+      "distratores": [
+        "Linoone",
+        "Obstagoon",
+        "Sentret"
+      ],
+      "ancora": {
+        "nome": "Zigzagoon",
+        "descricao": "Pokémon do tipo Normal da terceira geração, número 263 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta com a característica cabeça de barbatana em forma de chapéu e as nadadeiras dorsais.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gabite",
+      "distratores": [
+        "Gible",
+        "Garchomp",
+        "Flygon"
+      ],
+      "ancora": {
+        "nome": "Gabite",
+        "descricao": "Pokémon do tipo Dragão/Terra da quarta geração, número 444 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta arredondada com orelhas pontudas, barriga redonda e cauda; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sandshrew",
+      "ancora": {
+        "nome": "Sandshrew",
+        "descricao": "Pokémon do tipo Terra da primeira geração, número 27 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de capacete de aço com ponta e patinhas; é uma massa arredondada, por isso múltipla escolha com distratores de silhueta compacta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Aron",
+      "distratores": [
+        "Shieldon",
+        "Lairon",
+        "Shelmet"
+      ],
+      "ancora": {
+        "nome": "Aron",
+        "descricao": "Pokémon do tipo Aço/Pedra da terceira geração, número 304 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de inseto de cabeça grande com garra e antena; reconhecível para quem conhece a terceira geração, em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Nincada",
+      "distratores": [
+        "Dwebble",
+        "Kabuto",
+        "Corphish"
+      ],
+      "ancora": {
+        "nome": "Nincada",
+        "descricao": "Pokémon do tipo Inseto/Terra da terceira geração, número 290 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de cabeça em forma de cúpula com dois tentáculos longos, característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Tentacool",
+      "ancora": {
+        "nome": "Tentacool",
+        "descricao": "Pokémon do tipo Água/Veneno da primeira geração, número 72 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de jacaré rechonchudo com chama em forma de topete, reconhecível; pergunta sobre a evolução.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Crocalor",
+      "ancora": {
+        "nome": "Fuecoco",
+        "descricao": "Pokémon inicial do tipo Fogo da nona geração, número 909 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de coelho saltando, com orelhas longas e tufo de pelos, reconhecível; múltipla com a linha evolutiva e outro coelho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Raboot",
+      "distratores": [
+        "Scorbunny",
+        "Cinderace",
+        "Lopunny"
+      ],
+      "ancora": {
+        "nome": "Raboot",
+        "descricao": "Pokémon do tipo Fogo da oitava geração, número 814 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    }
+  ]
+}

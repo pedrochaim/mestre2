@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de morcego com asas largas e pernas finas, reconhecível.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Golbat",
+      "ancora": {
+        "nome": "Golbat",
+        "descricao": "Pokémon morcego dos tipos Venenoso e Voador, número 42 da Pokédex Nacional, evolução de Zubat.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com folhas no topo e casco, claramente Turtwig.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Turtwig",
+      "ancora": {
+        "nome": "Turtwig",
+        "descricao": "Pokémon tartaruga do tipo Planta, inicial de Sinnoh, número 387 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Disco com seis esferas ao redor, contorno característico e único entre os pokémon.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Bronzong",
+      "ancora": {
+        "nome": "Bronzor",
+        "descricao": "Pokémon em forma de disco de bronze dos tipos Aço e Psíquico, número 436 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta nítida de mantis com foices e asas.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Scyther",
+      "ancora": {
+        "nome": "Scyther",
+        "descricao": "Pokémon mantis dos tipos Inseto e Voador, número 123 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Massa com mechas curvas características no topo e laterais, reconhecível por fãs; resposta única.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Mismagius",
+      "ancora": {
+        "nome": "Misdreavus",
+        "descricao": "Pokémon fantasma do tipo Fantasma da segunda geração, número 200 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta com antenas e duas asas laterais, reconhecível; distratores de abelhas e insetos voadores deixam a pergunta justa.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Combee",
+      "distratores": [
+        "Vespiquen",
+        "Cutiefly",
+        "Ribombee"
+      ],
+      "ancora": {
+        "nome": "Combee",
+        "descricao": "Pokémon abelha dos tipos Inseto e Voador, formado por três favos, número 415 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de lagarta com antena e cauda, reconhecível.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Caterpie",
+      "ancora": {
+        "nome": "Caterpie",
+        "descricao": "Pokémon lagarta do tipo Inseto, número 10 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de ovelha com cauda terminada em esfera, característica.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Flaaffy",
+      "ancora": {
+        "nome": "Mareep",
+        "descricao": "Pokémon ovelha do tipo Elétrico, número 179 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de burro com orelhas e cascos peludos, reconhecível; múltipla escolha com silhuetas de quadrúpedes parecidos.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Mudbray",
+      "distratores": [
+        "Mudsdale",
+        "Skiddo",
+        "Blitzle"
+      ],
+      "ancora": {
+        "nome": "Mudbray",
+        "descricao": "Pokémon burro do tipo Terrestre da sétima geração, número 749 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta com antenas, braços em pose de soco e cauda, reconhecível; evolução única por troca com Electirizer.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Electivire",
+      "ancora": {
+        "nome": "Electabuzz",
+        "descricao": "Pokémon elétrico de listras e antenas, número 125 da Pokédex Nacional, evolução de Elekid.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta com cabeça de tubarão e nadadeira dorsal, característica de Gible.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gible",
+      "ancora": {
+        "nome": "Gible",
+        "descricao": "Pokémon tubarão terrestre dos tipos Dragão e Terrestre, número 443 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de rocha com duas garras em forma de mãos, reconhecível; distratores de crustáceos de pedra.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Binacle",
+      "distratores": [
+        "Barbaracle",
+        "Dwebble",
+        "Clauncher"
+      ],
+      "ancora": {
+        "nome": "Binacle",
+        "descricao": "Pokémon craca em uma rocha dos tipos Pedra e Água, número 688 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}

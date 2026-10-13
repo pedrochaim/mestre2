@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta clara: cabeça pontuda, bigodes e colheres, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Alakazam",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Alakazam",
+        "descricao": "Pokémon psíquico da primeira geração, número 65 da Pokédex Nacional, evolução final de Abra.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com chifres em pinça e braços erguidos, bem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pinsir",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Pinsir",
+        "descricao": "Pokémon inseto da primeira geração, parecido com um besouro de pinças grandes, número 127 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta redonda com espinhos e cauda, reconhecível; o fato escolhido refere-se à forma de Hisui para ser verdadeiro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon evolui a forma de Hisui deste?",
+      "resposta": "Overqwil",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Qwilfish",
+        "descricao": "Pokémon baiacu de água e veneno da segunda geração, número 211 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta de casulo curvo, característica o bastante para a camada 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Metapod",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Metapod",
+        "descricao": "Pokémon casulo verde da primeira geração, evolução de Caterpie, número 11 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com juba, cauda grande e postura de cão, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Growlithe",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Arcanine",
+        "descricao": "Pokémon de fogo da primeira geração, parecido com um cão de juba e cauda volumosa, número 59 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de lagarto com cauda levantada e focinho largo, distinta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Salandit",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Salandit",
+        "descricao": "Pokémon lagarto de veneno e fogo da sétima geração, número 757 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de ave em voo com asas flamejantes, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Moltres",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Moltres",
+        "descricao": "Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de canino reconhecível, mas parecida com Poochyena e outros; múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Mightyena",
+      "distratores": [
+        "Poochyena",
+        "Houndoom",
+        "Manectric"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Mightyena",
+        "descricao": "Pokémon lobo de tipo sombrio da terceira geração, evolução de Poochyena, número 262 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de lesma com antenas, característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Sliggoo",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Goomy",
+        "descricao": "Pokémon dragão lesma da sexta geração, número 704 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de massa com boca e braço, reconhecível mas parecida com Grimer; múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Muk",
+      "distratores": [
+        "Grimer",
+        "Garbodor",
+        "Swalot"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Muk",
+        "descricao": "Pokémon de lodo venenoso da primeira geração, evolução de Grimer, número 89 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de porco com orelhas longas e braços erguidos, distinguível de Tepig e Emboar em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pignite",
+      "distratores": [
+        "Tepig",
+        "Emboar",
+        "Buneary"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Pignite",
+        "descricao": "Pokémon porco de fogo e lutador da quinta geração, evolução de Tepig, número 499 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de tucano com bico enorme, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Toucannon",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Toucannon",
+        "descricao": "Pokémon tucano de normal e voador da sétima geração, evolução de Trumbeak, número 733 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Duas esferas unidas com nuvens de gás ao redor: silhueta característica de Weezing, sem confusão com Koffing (uma esfera só).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Weezing",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Weezing",
+        "descricao": "Pokémon de tipo Veneno, número 110 da Pokédex Nacional, evolução de Koffing, formado por duas esferas de gás.",
+        "variantes": [
+          "Matadora"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com orelhas pontudas, gola de pelos e pêndulo na mão, reconhecível como Hypno.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Hypno",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Hypno",
+        "descricao": "Pokémon de tipo Psíquico, número 97 da Pokédex Nacional, que carrega um pêndulo e evolui de Drowzee.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Silhueta é praticamente uma bola com espinhos uniformes, sem forma característica; pode ser confundida com Pineco e outros pokémon espinhosos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pássaro com haste na asa, de contorno característico e único.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que vegetal este pokémon carrega?",
+      "resposta": "Alho-poró",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Farfetch’d",
+        "descricao": "Pokémon de tipo Normal/Voador, número 83 da Pokédex Nacional, um pato selvagem que carrega um talo de alho-poró.",
+        "variantes": [
+          "Farfetch'd",
+          "Pato Selvagem"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de pinguim com nadadeira estendida e crista pontuda, distinta de Piplup e Empoleon.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Prinplup",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Prinplup",
+        "descricao": "Pokémon de tipo Água, número 394 da Pokédex Nacional, forma intermediária entre Piplup e Empoleon.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Filhote quadrúpede com espinho na cabeça e cauda curva, contorno característico de Toxel.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Toxtricity",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Toxel",
+        "descricao": "Pokémon bebê de tipo Elétrico/Veneno, número 848 da Pokédex Nacional, da oitava geração.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Felino esguio com cauda enrolada e bigodes, silhueta reconhecível de Persian.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Persian",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Persian",
+        "descricao": "Pokémon felino de tipo Normal, número 53 da Pokédex Nacional, evolução de Meowth.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cabeça com grande crista curva e corpo pequeno, característico de Axew; boa para múltipla com dragões parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Axew",
+      "distratores": [
+        "Fraxure",
+        "Gible",
+        "Larvitar"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Axew",
+        "descricao": "Pokémon de tipo Dragão, número 610 da Pokédex Nacional, da quinta geração, que evolui para Fraxure.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Quadrúpede com grande cauda espetada sobre o dorso, contorno característico de Skuntank.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Skuntank",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Skuntank",
+        "descricao": "Pokémon gambá de tipo Veneno/Sombrio, número 435 da Pokédex Nacional, evolução de Stunky.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Corpo serpentino com asas na cabeça e cauda com esferas, silhueta clara de Dragonair; distratores serpentinos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dragonair",
+      "distratores": [
+        "Dratini",
+        "Milotic",
+        "Seviper"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Dragonair",
+        "descricao": "Pokémon serpentino de tipo Dragão, número 148 da Pokédex Nacional, forma intermediária entre Dratini e Dragonite.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Corpo arredondado com crista de espinhos, garras abertas e cauda pontuda; razoavelmente característico de Quilladin.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Chesnaught",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Quilladin",
+        "descricao": "Pokémon de tipo Planta, número 651 da Pokédex Nacional, forma intermediária entre Chespin e Chesnaught.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Inseto em pé com antenas longas, punhos redondos e asas, silhueta distinta de Ledian.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Ledian",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Ledian",
+        "descricao": "Pokémon joaninha de tipo Inseto/Voador, número 166 da Pokédex Nacional, evolução de Ledyba.",
+        "variantes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado do anime (Meowth aprendeu a falar para conquistar uma Meowth), enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Episódio conhecido: o Charmander foi deixado na pedra pelo treinador anterior.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza dos detalhes do episódio (onde foi deixado, com qual missão) e a fonte não pôde ser conferida.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Brock deixa Ash no fim de Sinnoh para se tornar médico pokémon; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Brock contém 'rock'; fato conhecido, pergunta curta e clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Entei ilusório nasce do desejo de Molly de ter o pai de volta; coerente com o trecho sobre os Unown realizarem o desejo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (prêmio de concurso de ilustração da CoroCoro), mas a fonte é inexistente; troca por URL válida.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A carta Pikachu Ilustrador é uma das mais caras do card game Pokémon. Por que existem tão poucas cópias dela?",
+        "resposta": "Foi prêmio de um concurso de desenho",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ash deixa o Charizard no Vale Charicific para treinar e ficar mais forte; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Kasumi significa névoa/bruma; distratores críveis da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Musashi e Kojirō como os samurais Miyamoto Musashi e Sasaki Kojirō.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza da origem do nome Clemont (o nome japonês vem de 'citron') e a fonte não pôde ser conferida.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas a resposta mistura inglês e português; simplificar para a expressão.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O sobrenome Ketchum, do protagonista Ash, é um trocadilho em inglês com qual expressão do lema da franquia Pokémon?",
+        "resposta": "Catch 'em",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ash_Ketchum"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fábio Lucindo dubla Ash (até a 18ª temporada) e Kuririn, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado 'o que têm em comum' entrega a resposta e é vago; reformular perguntando a dubladora.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Que dubladora japonesa dá voz ao Pikachu em praticamente todas as versões dubladas do anime, inclusive a brasileira?",
+        "resposta": "Ikue Ōtani",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ikue_%C5%8Ctani",
+          "https://en.wikipedia.org/wiki/Pikachu"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Brock, Misty, Cilan e Clemont são líderes de ginásio; conexão correta e resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "May e Max são filhos de Norman; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas a formulação 'que ligação' é vaga e a resposta fica confusa; perguntar diretamente a pessoa.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que dubladora e cantora japonesa dá voz a Ash e também canta a abertura Mezase Pokémon Master?",
+        "resposta": "Rica Matsumoto",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Rica_Matsumoto"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Alto Mare é inspirada em Veneza; distratores italianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ryme City é a cidade do filme onde humanos e pokémon convivem; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Serena e Ash se conheceram no acampamento de verão do Professor Carvalho; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a estreia no Brasil em 1999 pela Record.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O curta As Férias do Pikachu acompanhou o primeiro filme nos cinemas; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Liko e Roy como protagonistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreou em 14 de abril de 2023; distratores anuais próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançado nos cinemas japoneses em 17 de julho de 1999; pegadinha do título é interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Jirachi acorda sete dias a cada mil anos; distratores da mesma escala.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Detalhe obscuro e incerto (número de Tauros e a exibição nos EUA), sem fonte conferível.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Atsuko Nishida como criadora do Pikachu.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Iris é campeã da Liga de Unova em Black 2 e White 2; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O grande objetivo de Goh em Jornadas Pokémon é capturar Mew; fato conhecido.",
+      "reescrita": null
+    }
+  ]
+}

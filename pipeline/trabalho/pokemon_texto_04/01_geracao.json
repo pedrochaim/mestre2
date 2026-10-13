@@ -1,0 +1,634 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Pokémon Snap",
+        "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+        "variantes": [
+          "Pokemon Snap"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Snap, para Nintendo 64, o jogador percorre uma ilha num carrinho. Em vez de capturar os pokémon, o que ele faz com eles?",
+      "resposta": "Tira fotografias deles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Ranger",
+        "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+        "variantes": [
+          "Pokemon Ranger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ranger"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Ranger, para Nintendo DS, o herói não usa Poké Bolas. Como ele captura os pokémon, usando a caneta na tela?",
+      "resposta": "Desenhando círculos ao redor deles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ranger"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon X e Y",
+        "descricao": "Par de jogos Pokémon da sexta geração, lançado em 2013 para o Nintendo 3DS e ambientado na região de Kalos.",
+        "variantes": [
+          "Pokémon X and Y",
+          "Pokemon X e Y"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+        ],
+        "id_existente": "pokemon_x_e_y"
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Pokémon X e Y, de 2013, estrearam uma transformação temporária em batalha, ativada por uma pedra especial que o pokémon segura. Como ela se chama?",
+      "resposta": "Megaevolução",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Sword e Shield",
+        "descricao": "Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar.",
+        "variantes": [
+          "Pokémon Sword and Shield"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ],
+        "id_existente": "pokemon_sword_e_shield"
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos estádios de Galar, em Sword e Shield, que fenômeno faz os pokémon crescerem até ficar gigantes durante a batalha?",
+      "resposta": "Dynamax",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Gold e Silver",
+        "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+        "variantes": [
+          "Pokémon Gold and Silver",
+          "Pokémon Ouro e Prata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Gold e Silver, depois de vencer a Liga de Johto, o jogador pode viajar para qual outra região, cenário dos primeiros jogos?",
+      "resposta": "Kanto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Gold e Silver",
+        "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+        "variantes": [
+          "Pokémon Gold and Silver",
+          "Pokémon Ouro e Prata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A história de Pokémon Gold e Silver se passa quanto tempo depois dos acontecimentos de Red e Blue?",
+      "resposta": "Três anos depois",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Gold_and_Silver_Versions",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tenente Surge",
+        "descricao": "Líder do ginásio do tipo Elétrico da cidade de Vermilion, na região de Kanto, nos jogos Pokémon.",
+        "variantes": [
+          "Lt. Surge",
+          "Lieutenant Surge",
+          "Major Surge"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Tenente Surge, líder do ginásio elétrico de Vermilion em Red e Blue, é um ex-militar que diz ter sobrevivido à guerra. De que país ele é?",
+      "resposta": "Estados Unidos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zona Safári de Kanto",
+        "descricao": "Área de captura dos jogos Pokémon Red e Blue em que o jogador atira iscas e pedras nos pokémon em vez de batalhar.",
+        "variantes": [
+          "Safari Zone",
+          "Zona Safari"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kanto_Safari_Zone"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, há um parque onde o jogador captura pokémon raros atirando iscas e pedras, sem batalhar. Em que cidade fica essa Zona Safári?",
+      "resposta": "Fuchsia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kanto_Safari_Zone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mewtwo",
+        "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mewtwo"
+        ],
+        "id_existente": "mewtwo"
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, depois de vencer a Liga, o jogador encontra o lendário Mewtwo escondido numa caverna ao lado de qual cidade?",
+      "resposta": "Cerulean",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cerulean_Cave"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Colosseum",
+        "descricao": "Jogo de RPG Pokémon para GameCube, desenvolvido pela Genius Sonority e ambientado na região desértica de Orre.",
+        "variantes": [
+          "Pokemon Colosseum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Colosseum"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Colosseum, para GameCube, se passa em Orre, uma região desértica inspirada em qual estado americano?",
+      "resposta": "Arizona",
+      "distratores": [
+        "Nevada",
+        "Texas",
+        "Novo México"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Orre",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Colosseum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Legends: Z-A",
+        "descricao": "Jogo Pokémon de 2025, para Nintendo Switch e Switch 2, ambientado na cidade de Lumiose, na região de Kalos.",
+        "variantes": [
+          "Pokémon Legends Z-A"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Z-A"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Legends Z-A, de 2025, se passa quase inteiramente numa única cidade de Kalos, inspirada em Paris. Que cidade é essa?",
+      "resposta": "Lumiose",
+      "distratores": [
+        "Santalune",
+        "Shalour",
+        "Laverre"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Z-A"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Ruby e Sapphire",
+        "descricao": "Par de jogos Pokémon da terceira geração, para Game Boy Advance, ambientado na região de Hoenn.",
+        "variantes": [
+          "Pokémon Ruby and Sapphire",
+          "Pokémon Rubi e Safira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Ruby e Sapphire, os primeiros jogos principais da série para o Game Boy Advance, saíram no Japão em que ano?",
+      "resposta": "2002",
+      "distratores": [
+        "2000",
+        "2001",
+        "2003"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Diamond e Pearl",
+        "descricao": "Par de jogos Pokémon da quarta geração, para Nintendo DS, ambientado na região de Sinnoh.",
+        "variantes": [
+          "Pokémon Diamond and Pearl",
+          "Pokémon Diamante e Pérola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Diamond e Pearl, que levaram a série principal ao Nintendo DS e à região de Sinnoh, chegaram às lojas japonesas em que ano?",
+      "resposta": "2006",
+      "distratores": [
+        "2004",
+        "2005",
+        "2007"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Sun e Moon",
+        "descricao": "Par de jogos Pokémon da sétima geração, para Nintendo 3DS, ambientado na região tropical de Alola.",
+        "variantes": [
+          "Pokémon Sun and Moon",
+          "Pokémon Sol e Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Sun e Moon, que apresentaram a região tropical de Alola, chegaram ao Nintendo 3DS em que ano?",
+      "resposta": "2016",
+      "distratores": [
+        "2014",
+        "2015",
+        "2017"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Mystery Dungeon",
+        "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+        "variantes": [
+          "Pokemon Mystery Dungeon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No começo dos primeiros jogos Pokémon Mystery Dungeon, o jogador responde a um questionário de personalidade. O que as respostas decidem?",
+      "resposta": "Em que pokémon ele se transforma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Go",
+        "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+        "variantes": [
+          "Pokémon GO",
+          "Pokemon Go"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+        ],
+        "id_existente": "pokemon_go"
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Pokémon Go nasceu de uma brincadeira de primeiro de abril de 2014, em que era possível caçar pokémon dentro de qual serviço do Google?",
+      "resposta": "Google Maps",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cyrus",
+        "descricao": "Chefe da Equipe Galáctica, vilão dos jogos Pokémon Diamond, Pearl e Platinum, da região de Sinnoh.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Diamond e Pearl, por que Cyrus, o chefe da Equipe Galáctica, quer controlar os lendários Dialga e Palkia?",
+      "resposta": "Para criar um novo universo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cyrus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Stadium",
+        "descricao": "Jogo de batalhas Pokémon em 3D para Nintendo 64, que permitia usar pokémon dos jogos de Game Boy.",
+        "variantes": [
+          "Pokemon Stadium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Stadium"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No Ocidente, Pokémon Stadium vinha com um acessório que, encaixado no controle do Nintendo 64, lia os cartuchos de Game Boy. Como ele se chamava?",
+      "resposta": "Transfer Pak",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Stadium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Sleep",
+        "descricao": "Aplicativo da franquia Pokémon, lançado em 2023, que mede o sono do jogador e o transforma em jogo.",
+        "variantes": [
+          "Pokemon Sleep"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sleep"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Sleep, o aplicativo mede o sono do jogador, e cada ilha gira em torno de um pokémon gigante e dorminhoco. Que pokémon é esse?",
+      "resposta": "Snorlax",
+      "distratores": [
+        "Slowpoke",
+        "Munchlax",
+        "Komala"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sleep"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cynthia",
+        "descricao": "Campeã da Liga Pokémon de Sinnoh nos jogos Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Shirona"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Cynthia, campeã da Liga de Sinnoh, é lembrada como uma das batalhas mais difíceis da série. Que dragão é o pokémon principal do time dela?",
+      "resposta": "Garchomp",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cynthia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Yellow",
+        "descricao": "Versão especial de Pokémon Red e Blue, para Game Boy, inspirada no anime, em que o inicial é um Pikachu que segue o jogador.",
+        "variantes": [
+          "Pokémon Amarelo",
+          "Pokémon Yellow Version"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Yellow"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Yellow, inspirado no anime, o jogador começa a jornada com um Pikachu. Com qual pokémon começa o rival?",
+      "resposta": "Eevee",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Yellow"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Silver (rival)",
+        "descricao": "Rival ruivo do protagonista nos jogos Pokémon Gold, Silver e Crystal, que rouba um pokémon inicial do laboratório.",
+        "variantes": [
+          "Silver",
+          "Rival de Gold e Silver"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Nos jogos de Johto, o rival ruivo que rouba um pokémon do laboratório do Professor Elm tem que parentesco com Giovanni, da Equipe Rocket?",
+      "resposta": "É filho dele",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Steven Stone",
+        "descricao": "Campeão da Liga Pokémon de Hoenn nos jogos Ruby e Sapphire, colecionador de pedras raras.",
+        "variantes": [
+          "Steven",
+          "Daigo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Steven_Stone"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Steven Stone, campeão de Hoenn em Ruby e Sapphire e apaixonado por pedras raras, é filho do presidente de qual empresa?",
+      "resposta": "Corporação Devon",
+      "distratores": [
+        "Silph Co.",
+        "Macro Cosmos",
+        "Fundação Aether"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Steven_Stone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Blue (rival)",
+        "descricao": "Rival do protagonista e neto do Professor Carvalho nos jogos Pokémon Red, Green e Blue, chamado Green no Japão.",
+        "variantes": [
+          "Blue",
+          "Green",
+          "Azul"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Japão, o rival do primeiro jogo Pokémon, neto do professor, se chama Green. No Ocidente, ele ganhou o nome de qual outra cor?",
+      "resposta": "Blue (azul)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alola",
+        "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alola"
+        ],
+        "id_existente": "alola"
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da região de Alola, dos jogos Sun e Moon, é uma variação de qual saudação havaiana?",
+      "resposta": "Aloha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alola"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokédex",
+        "descricao": "Enciclopédia eletrônica dos jogos e do anime Pokémon, que registra os dados dos pokémon vistos e capturados.",
+        "variantes": [
+          "Pokedex"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Pokédex, a enciclopédia eletrônica que o treinador carrega, junta a palavra Pokémon com qual palavra em inglês?",
+      "resposta": "Index (índice)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Scarlet e Violet",
+        "descricao": "Par de jogos Pokémon da nona geração, lançado em 2022 para o Nintendo Switch e ambientado na região de Paldea.",
+        "variantes": [
+          "Pokémon Scarlet and Violet",
+          "Pokémon Escarlate e Violeta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em qual par de jogos, lançado em 2022, a série principal de Pokémon ganhou pela primeira vez um mundo totalmente aberto?",
+      "resposta": "Pokémon Scarlet e Violet",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Unite",
+        "descricao": "Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group.",
+        "variantes": [
+          "Pokemon Unite"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Unite"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Pokémon Unite, jogo de batalhas de cinco contra cinco, foi desenvolvido pelo estúdio TiMi, que pertence a qual gigante chinesa da tecnologia?",
+      "resposta": "Tencent",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Unite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokkén Tournament",
+        "descricao": "Jogo de luta da franquia Pokémon, lançado em 2015, que mistura Pokémon com a jogabilidade de Tekken.",
+        "variantes": [
+          "Pokken Tournament",
+          "Pokkén Tournament DX"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pokk%C3%A9n_Tournament"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Pokkén Tournament, o jogo de luta com pokémon, foi feito pela empresa da série Tekken. Que empresa é essa?",
+      "resposta": "Bandai Namco",
+      "distratores": [
+        "Capcom",
+        "Sega",
+        "Koei Tecmo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pokk%C3%A9n_Tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Professora Juniper",
+        "descricao": "Professora pokémon da região de Unova, que entrega o inicial ao jogador em Pokémon Black e White.",
+        "variantes": [
+          "Juniper",
+          "Professora Araragi",
+          "Aurea Juniper"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Juniper"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, quem entrega o pokémon inicial é a primeira mulher a ocupar o papel de professora pokémon nos jogos principais. Qual é o nome dela?",
+      "resposta": "Professora Juniper",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Juniper"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de Kyogre nadando, com nadadeiras largas e franjadas, reconhecível.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kyogre",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kyogre",
+        "descricao": "Pokémon lendário do tipo Água da terceira geração, número 382 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de Milotic, serpente com cauda em leque e antenas, inconfundível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Feebas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Milotic",
+        "descricao": "Pokémon do tipo Água da terceira geração, evolução de Feebas, número 350 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Silhueta é só uma bola com um apêndice; pode ser confundida com outros girinos ou formas redondas (Poliwag, Tympole)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta de Tauros com três caudas e chifres, clara; distratores bovinos parecidos.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Tauros",
+      "distratores": [
+        "Miltank",
+        "Bouffalant",
+        "Gogoat"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tauros",
+        "descricao": "Pokémon touro do tipo Normal da primeira geração, número 128 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Silhueta é uma mancha enorme e sem forma característica; não dá para reconhecer Phanpy."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Silhueta é um aglomerado de manchas sem contorno claro; Falinks não é reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de Typhlosion com chamas espetadas na nuca e costas, reconhecível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Quilava",
+      "destino": 0,
+      "ancora": {
+        "nome": "Typhlosion",
+        "descricao": "Pokémon do tipo Fogo da segunda geração, evolução final de Cyndaquil, número 157 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Silhueta é uma massa preta sem contorno característico; Tangela não é reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de maçã com duas orelhas-folha e a larva ao lado, característica; distratores de forma parecida.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Applin",
+      "distratores": [
+        "Flapple",
+        "Appletun",
+        "Bunnelby"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Applin",
+        "descricao": "Pokémon do tipo Planta e Dragão da oitava geração, uma larva dentro de uma maçã, número 840 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de Infernape em pose agachada com chamas na cabeça e cauda, clara.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Infernape",
+      "destino": 0,
+      "ancora": {
+        "nome": "Infernape",
+        "descricao": "Pokémon macaco do tipo Fogo e Lutador da quarta geração, número 392 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de baleia gigante alongada com nadadeiras, reconhecível como Wailord; distratores de forma de baleia.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Wailord",
+      "distratores": [
+        "Wailmer",
+        "Walrein",
+        "Lapras"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Wailord",
+        "descricao": "Pokémon baleia do tipo Água da terceira geração, evolução de Wailmer, número 321 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de ave com bico longo e asa aberta, característica de Bombirdier.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que região dos jogos estreou este pokémon?",
+      "resposta": "Paldea",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bombirdier",
+        "descricao": "Pokémon ave do tipo Voador e Sombrio da nona geração, número 962 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}

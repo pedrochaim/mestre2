@@ -1,0 +1,626 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Weezing",
+        "descricao": "Pokémon de tipo Veneno, número 110 da Pokédex Nacional, evolução de Koffing, formado por duas esferas de gás.",
+        "variantes": [
+          "Matadora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diego_maradona",
+          "nome": "Diego Maradona",
+          "descricao": "Craque argentino (1960-2020), campeão mundial em 1986 e ídolo do Napoli, conhecido como El Pibe de Oro.",
+          "variantes": [
+            "Diego Armando Maradona",
+            "Maradona",
+            "El Pibe de Oro"
+          ]
+        },
+        {
+          "id": "serrilha_das_moedas",
+          "nome": "Serrilha das moedas",
+          "descricao": "Ranhuras na borda das moedas, adotadas para proteger moedas de metal precioso.",
+          "variantes": [
+            "Reeding"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "apontador",
+          "nome": "Apontador",
+          "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+          "variantes": [
+            "Apontador de lápis",
+            "Apara-lápis"
+          ]
+        },
+        {
+          "id": "gerrideo",
+          "nome": "Gerrídeo",
+          "descricao": "Percevejos aquáticos da família Gerridae, de pernas longas e finas, que andam sobre a superfície da água.",
+          "variantes": [
+            "Gerridae",
+            "Alfaiate",
+            "Patinador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hypno",
+        "descricao": "Pokémon de tipo Psíquico, número 97 da Pokédex Nacional, que carrega um pêndulo e evolui de Drowzee.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "hiperion",
+          "nome": "Hipérion",
+          "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+          "variantes": [
+            "Hyperion",
+            "Saturno VII"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "hyoga",
+          "nome": "Hyoga",
+          "descricao": "Cavaleiro de bronze russo de Os Cavaleiros do Zodíaco, mestre dos golpes de gelo.",
+          "variantes": [
+            "Cygnus Hyoga",
+            "Hyoga de Cisne"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "piano",
+          "nome": "Piano",
+          "descricao": "Instrumento de teclado em que martelos percutem cordas, inventado na Itália por volta de 1700.",
+          "variantes": [
+            "Pianoforte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Farfetch’d",
+        "descricao": "Pokémon de tipo Normal/Voador, número 83 da Pokédex Nacional, um pato selvagem que carrega um talo de alho-poró.",
+        "variantes": [
+          "Pato Selvagem"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "faustao",
+          "nome": "Faustão",
+          "descricao": "Fausto Silva, apresentador brasileiro do Domingão do Faustão na Globo.",
+          "variantes": [
+            "Fausto Silva",
+            "Fausto Corrêa Silva"
+          ]
+        },
+        {
+          "id": "dia_da_terra",
+          "nome": "Dia da Terra",
+          "descricao": "Data anual de mobilização ambiental criada nos Estados Unidos em 1970.",
+          "variantes": [
+            "Earth Day"
+          ]
+        },
+        {
+          "id": "ptolomeu",
+          "nome": "Ptolomeu",
+          "descricao": "Astrônomo, geógrafo e astrólogo greco-romano do século dois, autor do Almagesto.",
+          "variantes": [
+            "Cláudio Ptolomeu",
+            "Claudius Ptolemy",
+            "Ptolemy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Prinplup",
+        "descricao": "Pokémon de tipo Água, número 394 da Pokédex Nacional, forma intermediária entre Piplup e Empoleon.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "piplup",
+          "nome": "Piplup",
+          "descricao": "Pokémon do tipo Água, número 393 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "anubis",
+          "nome": "Anúbis",
+          "descricao": "Deus egípcio da mumificação e protetor dos mortos e das necrópoles",
+          "variantes": [
+            "Inpu"
+          ]
+        },
+        {
+          "id": "poilu",
+          "nome": "Poilu",
+          "descricao": "Apelido informal dado ao soldado de infantaria francês da Primeira Guerra Mundial.",
+          "variantes": [
+            "Poilus"
+          ]
+        },
+        {
+          "id": "toyota_prius",
+          "nome": "Toyota Prius",
+          "descricao": "Automóvel híbrido da Toyota lançado no Japão em 1997.",
+          "variantes": [
+            "Prius"
+          ]
+        },
+        {
+          "id": "riolu",
+          "nome": "Riolu",
+          "descricao": "Pokémon do tipo Lutador da quarta geração, forma anterior de Lucario, número 447 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Toxel",
+        "descricao": "Pokémon bebê de tipo Elétrico/Veneno, número 848 da Pokédex Nacional, da oitava geração.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "joel",
+          "nome": "Joel",
+          "descricao": "Protagonista do jogo The Last of Us, da Naughty Dog, e da série de TV baseada nele.",
+          "variantes": [
+            "Joel Miller"
+          ]
+        },
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "boxe",
+          "nome": "Boxe",
+          "descricao": "Esporte de combate em que dois oponentes trocam socos usando luvas.",
+          "variantes": [
+            "Boxe olímpico",
+            "Pugilismo"
+          ]
+        },
+        {
+          "id": "axel",
+          "nome": "Axel",
+          "descricao": "Salto da patinação artística batizado em homenagem ao norueguês Axel Paulsen.",
+          "variantes": [
+            "Axel jump",
+            "Axel Paulsen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Persian",
+        "descricao": "Pokémon felino de tipo Normal, número 53 da Pokédex Nacional, evolução de Meowth.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "e_comercial",
+          "nome": "E comercial",
+          "descricao": "Símbolo tipográfico que representa a conjunção e, muito usado em nomes de empresas",
+          "variantes": [
+            "Ampersand"
+          ]
+        },
+        {
+          "id": "super_saiyajin",
+          "nome": "Super Saiyajin",
+          "descricao": "Transformação dos saiyajins em Dragon Ball, marcada pelo cabelo loiro e espetado.",
+          "variantes": [
+            "Super Saiyan",
+            "Super Sayajin"
+          ]
+        },
+        {
+          "id": "gas_mostarda",
+          "nome": "Gás mostarda",
+          "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial.",
+          "variantes": [
+            "Iperita",
+            "Yperite",
+            "Mustard gas"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Axew",
+        "descricao": "Pokémon de tipo Dragão, número 610 da Pokédex Nacional, da quinta geração, que evolui para Fraxure.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "axe_music",
+          "nome": "Axé music",
+          "descricao": "Gênero musical surgido em Salvador nos anos 1980, ligado ao carnaval baiano.",
+          "variantes": [
+            "Axé"
+          ]
+        },
+        {
+          "id": "axel",
+          "nome": "Axel",
+          "descricao": "Salto da patinação artística batizado em homenagem ao norueguês Axel Paulsen.",
+          "variantes": [
+            "Axel jump",
+            "Axel Paulsen"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "xequere",
+          "nome": "Xequerê",
+          "descricao": "Instrumento de percussão feito de cabaça coberta por uma rede de contas ou búzios.",
+          "variantes": [
+            "Shekere",
+            "Axatse",
+            "Agbê"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Skuntank",
+        "descricao": "Pokémon gambá de tipo Veneno/Sombrio, número 435 da Pokédex Nacional, evolução de Stunky.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "sunismo",
+          "nome": "Sunismo",
+          "descricao": "Ramo majoritário do islã, ao lado do xiismo",
+          "variantes": [
+            "Islã sunita",
+            "Sunitas"
+          ]
+        },
+        {
+          "id": "kunta_kinte",
+          "nome": "Kunta Kinte",
+          "descricao": "Africano escravizado retratado por Alex Haley no livro Raízes, de 1976, como seu antepassado.",
+          "variantes": [
+            "Kunta Kinteh"
+          ]
+        },
+        {
+          "id": "instituto_butantan",
+          "nome": "Instituto Butantan",
+          "descricao": "Centro de pesquisa biomédica de São Paulo, criado em 1901, conhecido pela produção de soros e vacinas.",
+          "variantes": [
+            "Butantan"
+          ]
+        },
+        {
+          "id": "starlink",
+          "nome": "Starlink",
+          "descricao": "Constelação de satélites de internet em órbita baixa operada pela SpaceX.",
+          "variantes": [
+            "Satélites Starlink"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Dragonair",
+        "descricao": "Pokémon serpentino de tipo Dragão, número 148 da Pokédex Nacional, forma intermediária entre Dratini e Dragonite.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dragon_quest",
+          "nome": "Dragon Quest",
+          "descricao": "Série japonesa de videogames de RPG criada por Yuji Horii, com personagens desenhados por Akira Toriyama.",
+          "variantes": [
+            "Dragon Warrior"
+          ]
+        },
+        {
+          "id": "dragonite",
+          "nome": "Dragonite",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 149 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "dragon_ball",
+          "nome": "Dragon Ball",
+          "descricao": "Mangá de Akira Toriyama sobre Goku e a busca pelas esferas do dragão, que deu origem a vários animes.",
+          "variantes": [
+            "ドラゴンボール"
+          ]
+        },
+        {
+          "id": "esferas_do_dragao",
+          "nome": "Esferas do Dragão",
+          "descricao": "Esferas mágicas de Dragon Ball que, reunidas, invocam um dragão que realiza desejos.",
+          "variantes": [
+            "Dragon Balls"
+          ]
+        },
+        {
+          "id": "dracon",
+          "nome": "Drácon",
+          "descricao": "Legislador ateniense do século sete a.C., autor do primeiro código escrito de leis de Atenas.",
+          "variantes": [
+            "Draco",
+            "Drakon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Quilladin",
+        "descricao": "Pokémon de tipo Planta, número 651 da Pokédex Nacional, forma intermediária entre Chespin e Chesnaught.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "kublai_khan",
+          "nome": "Kublai Khan",
+          "descricao": "Neto de Gengis Khan e fundador da dinastia Yuan da China.",
+          "variantes": [
+            "Kublai Cã",
+            "Kublai",
+            "Qubilai"
+          ]
+        },
+        {
+          "id": "aguia_legionaria",
+          "nome": "Águia legionária",
+          "descricao": "Estandarte de cada legião romana, encimado por uma águia, cuja perda era considerada grande desonra.",
+          "variantes": [
+            "Aquila"
+          ]
+        },
+        {
+          "id": "quibla",
+          "nome": "Quibla",
+          "descricao": "Direção para a qual os muçulmanos se voltam ao rezar",
+          "variantes": [
+            "Qibla",
+            "Alquibla"
+          ]
+        },
+        {
+          "id": "kilwa_kisiwani",
+          "nome": "Kilwa Kisiwani",
+          "descricao": "Ilha e ruínas de uma cidade-estado suaíli medieval na costa da África Oriental, Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Kilwa",
+            "Quíloa"
+          ]
+        },
+        {
+          "id": "guilhotina",
+          "nome": "Guilhotina",
+          "descricao": "Aparelho de execução por decapitação, com lâmina suspensa numa estrutura vertical, famoso pelo uso na Revolução Francesa.",
+          "variantes": [
+            "Guillotine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Ledian",
+        "descricao": "Pokémon joaninha de tipo Inseto/Voador, número 166 da Pokédex Nacional, evolução de Ledyba.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lenin",
+          "nome": "Lênin",
+          "descricao": "Vladimir Ilitch Ulianov, revolucionário russo e primeiro chefe de governo da Rússia soviética e da União Soviética.",
+          "variantes": [
+            "Vladimir Lenin",
+            "Vladimir Ilitch Ulianov",
+            "Vladimir Ilyich Ulyanov"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "duriao",
+          "nome": "Durião",
+          "descricao": "Fruta do sudeste asiático, de casca espinhosa e cheiro forte, do gênero Durio, chamada de rei das frutas.",
+          "variantes": [
+            "Durian"
+          ]
+        },
+        {
+          "id": "leviata",
+          "nome": "Leviatã",
+          "descricao": "Obra de filosofia política publicada em 1651, que defende um soberano forte para evitar a guerra de todos contra todos.",
+          "variantes": [
+            "Leviathan"
+          ]
+        },
+        {
+          "id": "talian",
+          "nome": "Talian",
+          "descricao": "Língua de base vêneta falada por descendentes de imigrantes italianos no Sul do Brasil",
+          "variantes": [
+            "Vêneto brasileiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Weezing é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Hypno é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Farfetch'd é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Prinplup é diferente de Piplup (número 393); entidades distintas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Toxel é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Persian é um Pokémon, não o Irã/Pérsia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Axew é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Skuntank é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Dragonair é distinto de Dragonite (149); nenhuma candidata corresponde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Quilladin é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Ledian é um Pokémon; nenhuma candidata corresponde."
+    }
+  ]
+}

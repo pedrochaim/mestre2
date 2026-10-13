@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta reconhecível: corpo serpentino com barbatanas laterais e chifre.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dratini",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Dratini",
+        "descricao": "Pokémon do tipo Dragão, número 147 da Pokédex Nacional, de corpo serpentino azul.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com chifre alto na cabeça, corpo arredondado e cauda; característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Larvitar",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Larvitar",
+        "descricao": "Pokémon do tipo Pedra e Terra, número 246 da Pokédex Nacional, forma inicial da linha de Tyranitar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de xícara com alça, forma única e inconfundível (a chaleira é Polteageist).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sinistea",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sinistea",
+        "descricao": "Pokémon fantasma em forma de xícara de chá, número 854 da Pokédex Nacional, da oitava geração.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta clara de mãe canguru com punhos erguidos e cauda; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kangaskhan",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Kangaskhan",
+        "descricao": "Pokémon do tipo Normal, número 115 da Pokédex Nacional, que lembra uma canguru.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de esquilo com cauda grande e eriçada; característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pachirisu",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Pachirisu",
+        "descricao": "Pokémon esquilo do tipo Elétrico, número 417 da Pokédex Nacional, da quarta geração.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de espada com borla longa, forma distintiva.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Honedge",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Honedge",
+        "descricao": "Pokémon espada do tipo Aço e Fantasma, número 679 da Pokédex Nacional, da sexta geração.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de ave em voo com crista longa e asas abertas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pidgeot",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Pidgeot",
+        "descricao": "Pokémon ave do tipo Normal e Voador, número 18 da Pokédex Nacional, evolução final de Pidgey.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta com cabeça oval, brânquias externas e cauda achatada; característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Wooper",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Wooper",
+        "descricao": "Pokémon anfíbio do tipo Água e Terra, número 194 da Pokédex Nacional, da segunda geração.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta bípede de gato com buquê de flores na mão; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Floragato",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Floragato",
+        "descricao": "Pokémon gato do tipo Planta, número 907 da Pokédex Nacional, evolução de Sprigatito.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta clara de vespa com ferrões nos braços e asas; permite uma pergunta de evolução.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que pokémon evolui para este?",
+      "resposta": "Kakuna",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Beedrill",
+        "descricao": "Pokémon vespa do tipo Inseto e Veneno, número 15 da Pokédex Nacional, evolução final de Weedle.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de cabeça redonda com pontas e corpo em forma de vestido; característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Ralts",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Ralts",
+        "descricao": "Pokémon do tipo Psíquico e Fada, número 280 da Pokédex Nacional, da terceira geração.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de centopeia fina e ondulada com patas; reconhecível o suficiente, e permite pergunta de evolução.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Centiskorch",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sizzlipede",
+        "descricao": "Pokémon centopeia do tipo Fogo e Inseto, número 850 da Pokédex Nacional, da oitava geração.",
+        "variantes": []
+      }
+    }
+  ]
+}

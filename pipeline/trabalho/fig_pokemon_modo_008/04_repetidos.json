@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Jigglypuff"
+      },
+      "existentes": [
+        {
+          "id": "q04338",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Wigglytuff"
+        },
+        {
+          "id": "q09817",
+          "pergunta": "No anime, por que Jigglypuff rabisca com sua caneta o rosto de quem ouve sua canção?",
+          "resposta": "Fica irritado porque todos dormem"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do pokémon (Jigglypuff); as existentes tratam da evolução (Wigglytuff) e de um fato do anime, que são outros fatos."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Pokémon X e Y, de 2013, estrearam uma transformação temporária em batalha, ativada por uma pedra especial que o pokémon segura. Como ela se chama?",
+        "resposta": "Megaevolução"
+      },
+      "existentes": [
+        {
+          "id": "q09840",
+          "pergunta": "Em Pokémon X e Y, o jogador escolhe o inicial entre Chespin, de planta, Froakie, de água, e qual pokémon de fogo?",
+          "resposta": "Fennekin"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nos estádios de Galar, em Sword e Shield, que fenômeno faz os pokémon crescerem até ficar gigantes durante a batalha?",
+        "resposta": "Dynamax"
+      },
+      "existentes": [
+        {
+          "id": "q07374",
+          "pergunta": "A região de Galar, cenário de Pokémon Sword e Shield, de 2019, é inspirada em qual país europeu?",
+          "resposta": "Reino Unido"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Red e Blue, depois de vencer a Liga, o jogador encontra o lendário Mewtwo escondido numa caverna ao lado de qual cidade?",
+        "resposta": "Cerulean"
+      },
+      "existentes": [
+        {
+          "id": "q09755",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Mewtwo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Pokémon Go nasceu de uma brincadeira de primeiro de abril de 2014, em que era possível caçar pokémon dentro de qual serviço do Google?",
+        "resposta": "Google Maps"
+      },
+      "existentes": [
+        {
+          "id": "q07393",
+          "pergunta": "Em que ano o lançamento de Pokémon Go levou multidões às ruas para caçar pokémon com o celular?",
+          "resposta": "2016"
+        },
+        {
+          "id": "q09824",
+          "pergunta": "Que empresa americana, nascida como um projeto dentro do Google, desenvolveu o Pokémon Go?",
+          "resposta": "Niantic"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome da região de Alola, dos jogos Sun e Moon, é uma variação de qual saudação havaiana?",
+        "resposta": "Aloha"
+      },
+      "existentes": [
+        {
+          "id": "q09818",
+          "pergunta": "A região de Alola, cenário de Pokémon Sun e Moon, é inspirada em qual arquipélago americano?",
+          "resposta": "Havaí"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre Megaevolução, não sobre o inicial de fogo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Dynamax é fato distinto da inspiração geográfica de Galar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Localização de Mewtwo é outro fato; existente apenas pede identificar o pokémon."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Origem em Google Maps difere de ano de lançamento e desenvolvedora."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome (Aloha) difere da inspiração no Havaí."
+    }
+  ]
+}
