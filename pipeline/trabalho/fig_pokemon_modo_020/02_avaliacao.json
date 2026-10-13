@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta nítida, com chifres curvos e cauda em ponta de flecha; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Houndoom",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Houndoom",
+        "descricao": "Pokémon dos tipos Sombrio e Fogo da segunda geração, número 229 da Pokédex Nacional.",
+        "variantes": [
+          "Houndoom (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A silhueta de Naclstack é uma mancha de blocos sem contorno característico; não é reconhecível pela forma.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de tubarão com barbatana dorsal e boca aberta, reconhecível e distinta.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Carvanha",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sharpedo",
+        "descricao": "Pokémon tubarão dos tipos Água e Sombrio da terceira geração, número 319 da Pokédex Nacional.",
+        "variantes": [
+          "Sharpedo (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta com três chifres ondulados e corpo peludo de larva, razoavelmente característica.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Larvesta",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Larvesta",
+        "descricao": "Pokémon larva dos tipos Inseto e Fogo da quinta geração, número 636 da Pokédex Nacional.",
+        "variantes": [
+          "Larvesta (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com duas folhas em orelhas e base de folhas; reconhecível por quem conhece a quinta geração, melhor em múltipla escolha com distratores parecidos.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Swadloon",
+      "distratores": [
+        "Sewaddle",
+        "Burmy",
+        "Cascoon"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Swadloon",
+        "descricao": "Pokémon crisálida dos tipos Inseto e Planta da quinta geração, número 541 da Pokédex Nacional.",
+        "variantes": [
+          "Swadloon (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de ouriço com folhagem nas costas (Shaymin na forma Terrestre); característica o bastante em múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Shaymin",
+      "distratores": [
+        "Sandshrew",
+        "Chespin",
+        "Swinub"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Shaymin",
+        "descricao": "Pokémon lendário do tipo Planta da quarta geração, número 492 da Pokédex Nacional, na forma Terrestre.",
+        "variantes": [
+          "Shaymin (Pokémon)",
+          "Shaymin Land Forme"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta com orelhas grandes e cauda volumosa, característica de Meowstic.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Espurr",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Meowstic",
+        "descricao": "Pokémon gato do tipo Psíquico da sexta geração, número 678 da Pokédex Nacional.",
+        "variantes": [
+          "Meowstic (Pokémon)",
+          "Meowstic macho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A silhueta de Minior é uma bola rochosa irregular, sem forma característica; poderia ser qualquer rocha.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de dragão alado com focinho em ponta e asas grandes, bem reconhecível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Salamence",
+      "distratores": [
+        "Flygon",
+        "Garchomp",
+        "Dragonite"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Salamence",
+        "descricao": "Pokémon dragão dos tipos Dragão e Voador da terceira geração, número 373 da Pokédex Nacional.",
+        "variantes": [
+          "Salamence (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta humanoide de braços longos, cabelo espetado e espinhos; distinta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Toxtricity",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Toxtricity",
+        "descricao": "Pokémon dos tipos Elétrico e Venenoso da oitava geração, número 849 da Pokédex Nacional.",
+        "variantes": [
+          "Toxtricity (Pokémon)",
+          "Toxtricity Amped"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de sorvete com chumaço de neve flutuante; característica, com múltipla escolha para separar de parecidos.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Vanillite",
+      "distratores": [
+        "Vanilluxe",
+        "Swirlix",
+        "Cryogonal"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Vanillite",
+        "descricao": "Pokémon sorvete do tipo Gelo da quinta geração, número 582 da Pokédex Nacional.",
+        "variantes": [
+          "Vanillite (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A arte de revelação mostra Metang (rosto em X e dois braços erguidos), não Metagross; a imagem não corresponde ao nome do item.",
+      "usar_silhueta": false
+    }
+  ]
+}

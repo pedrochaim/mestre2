@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Seel evolui apenas em Dewgong; fato amplamente documentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Litleo evolui apenas em Pyroar; fato documentado, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Dracovish é pouco emblemático e sua silhueta pode se confundir com os outros pokémon fósseis de Galar (Arctovish, Dracozolt, Arctozolt). Melhor em múltipla escolha com distratores parecidos, conforme o manifesto.",
+      "reescrita": {
+        "pergunta": "Qual é este pokémon fóssil?",
+        "resposta": "Dracovish",
+        "distratores": [
+          "Arctovish",
+          "Dracozolt",
+          "Arctozolt"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Chimchar evolui em Monferno; fato documentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento de Bagon com distratores do tipo Dragão, curtos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Swampert evolui diretamente de Marshtomp; fato documentado, enunciado não nomeia a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gulpin evolui em Swalot; fato documentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são iniciais de Água de outras gerações, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Drilbur evolui em Excadrill; fato documentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dhelmise identificável pela forma; distratores plausíveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Slowbro evolui de Slowpoke; fato documentado, resposta única e enunciado sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}

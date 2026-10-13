@@ -16,6 +16,8 @@ O modo Pokémon é o **Linear só com perguntas de pokémon**. A trilha de 60 ca
 - **Tabuleiro:** escolhido entre três prévias (Rota, Tipos e Pokébola), ficou a **Rota**, descrita abaixo.
 - **Tipo e atributos base** (aprovado a partir de 5 amostras): uma família de pergunta própria do modo, descrita abaixo, com as siglas dos atributos em inglês.
 - **Variedade:** as regras de variedade das perguntas valem com menos rigor no modo Pokémon que no jogo original.
+- **Perguntas feitas de dados** (aprovadas a partir de amostras): além do cartão, **tipo**, **região** e **evolução**, descritas abaixo. A **versão brilhante** e o **sprite antigo** (Yellow e Crystal) foram testados e recusados, porque ficavam fáceis demais.
+- **1000 perguntas novas**, em 4 lotes de cerca de 250, com todos os estilos: texto, silhueta e as perguntas feitas de dados.
 
 ## Tabuleiro
 
@@ -55,13 +57,25 @@ O modo Pokémon é o **Linear só com perguntas de pokémon**. A trilha de 60 ca
 - a **silhueta preta** sobre raios azuis e amarelos, com a arte colorida só na resposta;
 - a variedade: todas as gerações, formas básicas e intermediárias, pokémon menos conhecidos, e no máximo 1 emblemático (Pikachu, iniciais, lendários famosos) em cada 5 entidades.
 
-### Tipo e atributos base
+### Perguntas feitas de dados
 
-A figura é um **cartão** com o tipo (nomes oficiais no Brasil, nas cores dos tipos) e os seis atributos base, com as siglas em inglês (**HP, Atk, Def, SpA, SpD, Spe**), as barras e o **Total**, sem o nome. A pergunta é "De quem são estes tipos e atributos base? Quem é esse pokémon?", sempre de **múltipla escolha**, e a revelação é a arte oficial sobre os raios azuis e amarelos, como nas silhuetas.
+Quatro famílias saem só de dados, sem LLM, pelo `pipeline/pokemon_dados.py`. Todas são de **múltipla escolha**.
+
+**Tipo e atributos base.** A figura é um **cartão** com o tipo (nomes oficiais no Brasil, nas cores dos tipos) e os seis atributos base, com as siglas em inglês (**HP, Atk, Def, SpA, SpD, Spe**), as barras e o **Total**, sem o nome. A pergunta é "De quem são estes tipos e atributos base? Quem é esse pokémon?", sempre de **múltipla escolha**, e a revelação é a arte oficial sobre os raios azuis e amarelos, como nas silhuetas.
+
+**Tipo, região e evolução.** A figura é a arte oficial sobre os raios azuis e amarelos, e a pergunta vai um passo além do reconhecimento:
+
+| Família | Pergunta | Resposta e distratores |
+|---|---|---|
+| Tipo | "De que tipo é este pokémon?" | O tipo, ou os dois tipos ("Planta e Venenoso"); os distratores são combinações que existem em algum pokémon, parecidas com a resposta |
+| Região | "Em que região este pokémon apareceu pela primeira vez?" | A região da geração em que estreou (Kanto a Paldea); os distratores são outras regiões, de preferência das gerações vizinhas. Ficam de fora os que estrearam fora da região da geração: Meltan e Melmetal, os de Hisui e os de Kitakami e da Academia Mirtilo |
+| Evolução | "Em que pokémon este evolui?" (só quem tem uma evolução) ou "De que pokémon este evolui?" | O pokémon da evolução; os distratores dividem um tipo com ele e são de outra linha evolutiva |
+
+Regras comuns:
 
 - **Dados, não LLM:** os números e os tipos vêm das tabelas do PokéAPI, os mesmos da Bulbapedia, que é a fonte citada. A Bulbapedia bloqueia acesso automatizado. Valem os atributos atuais, que mudaram em algumas gerações.
-- **Distratores:** escolhidos por código, entre pokémon que dividem ao menos um tipo com a resposta. A preferência vai para os de tipos iguais e os da mesma linha evolutiva. Os seis atributos de duas alternativas quaisquer diferem, somados, em pelo menos 40 pontos, para a pergunta ter uma só resposta.
-- **Quais pokémon:** cotas por geração; espécies que trocam de forma (Deoxys, Rotom, Urshifu e afins) ficam de fora, porque o tipo e os atributos dependem da forma. A âncora é o pokémon, com a saturação geral, e uma âncora recebe no máximo uma pergunta desta família. Primeiro entram os pokémon que ainda não têm figura (silhueta), para a mesma resposta não aparecer duas vezes em figura.
+- **Distratores do cartão:** escolhidos por código, entre pokémon que dividem ao menos um tipo com a resposta. A preferência vai para os de tipos iguais e os da mesma linha evolutiva. Os seis atributos de duas alternativas quaisquer diferem, somados, em pelo menos 40 pontos, para a pergunta ter uma só resposta.
+- **Quais pokémon:** cotas por geração; espécies que trocam de forma (Deoxys, Rotom, Urshifu e afins) ficam de fora, porque o tipo e os atributos dependem da forma. A âncora é o pokémon, com a saturação geral, e uma âncora recebe no máximo uma pergunta de cada família. Um pokémon que já tem pergunta sobre o mesmo assunto, inclusive as do LLM ("Em que pokémon este evolui?"), não recebe outra. Cada pokémon tem no máximo **uma figura que pergunta o nome** (silhueta ou cartão), para a mesma resposta não aparecer duas vezes em figura. Primeiro entram os pokémon que ainda não têm figura.
 
 ### Outras famílias de figura
 
@@ -83,22 +97,22 @@ As exclusivas são feitas à mão, fora do autopiloto (que não as conta nem rod
 python pipeline/colecao.py status pokemon                       # quantas perguntas a coleção tem, por forma
 python pipeline/colecao.py figuras pokemon_modo --lotes N       # lotes de figura do catálogo exclusivo
 python pipeline/rodar.py executar --encomenda pokemon_texto_NN  # um lote de texto
-python pipeline/pokemon_status.py executar --quantidade 100   # um lote de "tipo e atributos base"
+python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 --evolucao 40   # perguntas feitas de dados
 ```
 
 - **Figura:** o catálogo `pokemon_modo` do `plano.json` (com `colecao` e `exclusiva`), com a mesma silhueta do catálogo `pokemon` do jogo original.
 - **Texto:** uma encomenda em `pipeline/encomendas.json` com `colecao: "pokemon"` e `exclusiva: true`, de Entretenimento › Jogos Eletrônicos. As observações repetem as diretrizes acima e dizem a frente do lote.
-- **Tipo e atributos base:** `pipeline/pokemon_status.py`, sem LLM. Monta os cartões, a revelação e as alternativas, e registra as perguntas (lotes `pokemon_status_NNN`).
+- **Feitas de dados:** `pipeline/pokemon_dados.py`, sem LLM. Escolhe os pokémon, monta as figuras, a revelação e as alternativas, e registra as perguntas (lotes `pokemon_dados_NNN`; o primeiro, só de cartões, chamou-se `pokemon_status_001`). `amostras --pasta <pasta>` faz uma figura de cada família, sem gravar no banco.
 - O pipeline grava os dois campos em todas as perguntas do lote. Depois, `python app/exportar_perguntas.py` leva as perguntas ao app.
 
-**Situação em 2026-10-13:** a coleção tem 515 perguntas.
+**Situação em 2026-10-13:** a coleção tem 1515 perguntas.
 
 | | Exclusivas | Também no jogo original |
 |---|---|---|
-| Com figura | 264 (100 de tipo e atributos base) | 75 |
-| Sem figura | 165 | 11 |
+| Com figura | 1062 (cerca de 890 feitas de dados: cartão, tipo, região e evolução; o resto, silhuetas) | 75 |
+| Sem figura | 367 | 11 |
 
-Lotes rodados: figura de `fig_pokemon_modo_001` a `016`; texto de `pokemon_texto_01` a `06`; tipo e atributos base, `pokemon_status_001` (100 pokémon, das 9 gerações).
+Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_texto_01` a `14`; feitas de dados, `pokemon_status_001` (100 cartões) e `pokemon_dados_002` a `006` (4 lotes de 185 e um de 15). As 1000 perguntas novas pedidas em 2026-10-13 vieram de `pokemon_texto_07` a `14` (202), dos lotes de silhueta 017 a 021 (43) e de `pokemon_dados_002` a `006` (755).
 
 ## Em aberto
 

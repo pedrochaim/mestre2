@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Além de chefiar a Equipe Rocket, Giovanni comanda o último ginásio de Kanto em Red e Blue. Em que tipo de pokémon ele é especialista?",
+        "resposta": "Terrestre"
+      },
+      "existentes": [
+        {
+          "id": "q09821",
+          "pergunta": "Em Pokémon Red e Blue, Giovanni, o chefe da Equipe Rocket, é também o líder de ginásio de qual cidade de Kanto?",
+          "resposta": "Viridian"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o tipo de pokémon de Giovanni (Terrestre); a existente pede a cidade do ginásio (Viridian). Fatos diferentes."
+    }
+  ]
+}

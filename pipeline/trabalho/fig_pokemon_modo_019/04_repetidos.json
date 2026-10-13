@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que pokémon evolui para este?",
+        "resposta": "Stufful"
+      },
+      "existentes": [
+        {
+          "id": "q10321",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Stufful"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q10321",
+      "motivo": "Mesmo fato em direção inversa: este pokémon evolui de Stufful / Stufful evolui para este; resposta idêntica."
+    }
+  ]
+}

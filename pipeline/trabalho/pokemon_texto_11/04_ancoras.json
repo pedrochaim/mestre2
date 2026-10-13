@@ -1,0 +1,843 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Master Ball",
+        "descricao": "Poké Bola roxa marcada com a letra M, a mais poderosa dos jogos Pokémon, fabricada pela Silph.",
+        "variantes": [
+          "Bola Mestra"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Master_Ball"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A Master Ball, a Poké Bola roxa marcada com a letra M, tem que vantagem sobre todas as outras?",
+      "resposta": "Nunca falha na captura",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Master_Ball"
+      ],
+      "ancora": "master_ball"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Pedra da Água",
+        "descricao": "Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee.",
+        "variantes": [
+          "Water Stone"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Water_Stone"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O que a estrela-do-mar Staryu e a concha Shellder precisam receber do treinador para evoluir?",
+      "resposta": "Pedra da Água",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Water_Stone"
+      ],
+      "distratores": [
+        "Pedra da Lua",
+        "Pedra do Trovão",
+        "Pedra do Gelo"
+      ],
+      "ancora": "pedra_da_agua"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "eevee",
+        "nome": "Eevee",
+        "descricao": "Pokémon do tipo Normal, número 133 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, Eevee muito apegado ao treinador pode evoluir para Espeon ou para Umbreon. O que decide qual dos dois surge?",
+      "resposta": "Ser dia ou noite",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)"
+      ],
+      "ancora": "eevee"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "pokemon_brilhante",
+        "nome": "Pokémon brilhante",
+        "descricao": "Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores.",
+        "variantes": [
+          "Shiny"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shiny_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Gold e Silver, o jogador encontra um brilhante garantido, um Gyarados vermelho. Em que lugar de Johto ele aparece?",
+      "resposta": "Lago da Fúria",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Red_Gyarados",
+        "https://bulbapedia.bulbagarden.net/wiki/Lake_of_Rage"
+      ],
+      "distratores": [
+        "Ilhas Redemoinho",
+        "Floresta Ilex",
+        "Monte Prata"
+      ],
+      "ancora": "pokemon_brilhante"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Método Masuda",
+        "descricao": "Técnica de criação dos jogos Pokémon, desde Diamond e Pearl, em que cruzar pokémon de jogos de idiomas diferentes aumenta a chance de filhotes brilhantes.",
+        "variantes": [
+          "Masuda method"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Masuda_method"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Cruzar dois pokémon vindos de jogos de idiomas diferentes aumenta a chance de um filhote brilhante. Esse truque leva o nome de qual figura da Game Freak?",
+      "resposta": "Junichi Masuda",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Masuda_method"
+      ],
+      "distratores": [
+        "Satoshi Tajiri",
+        "Ken Sugimori",
+        "Shigeki Morimoto"
+      ],
+      "ancora": "metodo_masuda"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Megaevolução",
+        "descricao": "Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra.",
+        "variantes": [
+          "Mega Evolution",
+          "Mega Evolução"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Para megaevoluir, o pokémon segura uma Mega Pedra. Que outra pedra o treinador precisa carregar, em geral presa num bracelete?",
+      "resposta": "Pedra-Chave (Key Stone)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Key_Stone",
+        "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution"
+      ],
+      "ancora": "megaevolucao"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Megaevolução",
+        "descricao": "Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra.",
+        "variantes": [
+          "Mega Evolution",
+          "Mega Evolução"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon X e Y, quantos pokémon de um mesmo treinador podem megaevoluir numa única batalha?",
+      "resposta": "Apenas um",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution"
+      ],
+      "ancora": "megaevolucao"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Movimento Z",
+        "descricao": "Golpe superpoderoso dos jogos Pokémon Sun e Moon, usado uma vez por batalha com a ajuda de um Cristal Z.",
+        "variantes": [
+          "Z-Move",
+          "Golpe Z"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Z-Move"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, antes de o pokémon liberar um movimento Z, o treinador faz algo diferente para cada tipo de golpe. O quê?",
+      "resposta": "Uma pose específica (Z-Pose)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Z-Move"
+      ],
+      "ancora": "movimento_z"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "dynamax",
+        "nome": "Dynamax",
+        "descricao": "Fenômeno dos jogos Pokémon Sword e Shield que faz os pokémon crescerem até ficar gigantes durante as batalhas na região de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dynamax"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Sword e Shield, depois de ativar o Dynamax numa batalha, por quantos turnos o pokémon permanece gigante?",
+      "resposta": "Três turnos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dynamax"
+      ],
+      "distratores": [
+        "Um turno",
+        "Dois turnos",
+        "Cinco turnos"
+      ],
+      "ancora": "dynamax"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Terastal",
+        "descricao": "Fenômeno dos jogos Pokémon Scarlet e Violet que faz o pokémon brilhar como cristal durante a batalha.",
+        "variantes": [
+          "Terastalização",
+          "Terastallization",
+          "Fenômeno Terastal"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, ao terastalizar, o pokémon brilha como uma joia e pode mudar uma característica decisiva para a batalha. Qual?",
+      "resposta": "O próprio tipo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon"
+      ],
+      "ancora": "terastal"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Pecha Berry",
+        "descricao": "Fruta rosada dos jogos Pokémon que cura o envenenamento do pokémon que a come.",
+        "variantes": [
+          "Fruta Pecha"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pecha_Berry"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A Pecha Berry, frutinha rosada que cura o envenenamento, tem o nome derivado do nome inglês de qual fruta?",
+      "resposta": "Pêssego (peach)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pecha_Berry"
+      ],
+      "distratores": [
+        "Cereja",
+        "Ameixa",
+        "Pera"
+      ],
+      "ancora": "pecha_berry"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Pokéblock",
+        "descricao": "Doce dos jogos Pokémon Ruby, Sapphire e Emerald dado aos pokémon para melhorar suas condições nos concursos.",
+        "variantes": [
+          "Pokébloco"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9block"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, os Pokéblocks, docinhos que preparam os pokémon para os concursos, são feitos batendo o quê numa espécie de liquidificador?",
+      "resposta": "Berries (frutas)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9block",
+        "https://bulbapedia.bulbagarden.net/wiki/Berry_Blender"
+      ],
+      "ancora": "pokeblock"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Creche Pokémon",
+        "descricao": "Estabelecimento dos jogos Pokémon onde um casal de idosos cuida dos pokémon do jogador e onde surgem os ovos.",
+        "variantes": [
+          "Pokémon Day Care",
+          "Day Care"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Day_Care"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Gold e Silver, onde estreou a criação de ovos, a creche pokémon fica na rota logo ao sul de qual cidade de Johto?",
+      "resposta": "Goldenrod",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Day_Care",
+        "https://bulbapedia.bulbagarden.net/wiki/Johto_Route_34"
+      ],
+      "distratores": [
+        "Cherrygrove",
+        "Violet",
+        "Ecruteak"
+      ],
+      "ancora": "creche_pokemon"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Igglybuff",
+        "descricao": "Pokémon bebê dos tipos Normal e Fada da segunda geração, forma anterior de Jigglypuff.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na estreia, em Gold e Silver, os bebês Pichu, Cleffa e Igglybuff não apareciam na natureza. Como o jogador conseguia esses pokémon?",
+      "resposta": "Chocando ovos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Baby_Pok%C3%A9mon",
+        "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)"
+      ],
+      "ancora": "igglybuff"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Volt Tackle",
+        "descricao": "Golpe elétrico exclusivo da linha evolutiva de Pikachu, introduzido na terceira geração e famoso no anime com o Pikachu de Ash.",
+        "variantes": [
+          "Investida Trovão"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volt_Tackle_(move)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Nos jogos, o filhote Pichu só nasce sabendo Volt Tackle, golpe famoso do Pikachu de Ash, se um dos pais segurar qual item?",
+      "resposta": "Light Ball (Bola de Luz)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Volt_Tackle_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Light_Ball"
+      ],
+      "distratores": [
+        "Pedra do Trovão",
+        "Everstone",
+        "Ímã"
+      ],
+      "ancora": "volt_tackle"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "magikarp",
+        "nome": "Magikarp",
+        "descricao": "Pokémon do tipo Água, número 129 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O golpe Splash, em que o peixe Magikarp fica pulando sem parar, tem que efeito na batalha?",
+      "resposta": "Nenhum",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Splash_(move)"
+      ],
+      "ancora": "magikarp"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "smeargle",
+        "nome": "Smeargle",
+        "descricao": "Pokémon do tipo Normal, número 235 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sketch, o golpe exclusivo do pokémon pintor Smeargle, permite que ele faça o quê?",
+      "resposta": "Copiar para sempre um golpe do adversário",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sketch_(move)"
+      ],
+      "ancora": "smeargle"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "smeargle",
+        "nome": "Smeargle",
+        "descricao": "Pokémon do tipo Normal, número 235 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do cão pintor Smeargle junta smear, que em inglês significa borrar, com o nome de qual raça de cachorro?",
+      "resposta": "Beagle",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)"
+      ],
+      "ancora": "smeargle"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Struggle",
+        "descricao": "Golpe dos jogos Pokémon usado automaticamente quando o pokémon não tem mais pontos de poder em nenhum golpe, e que fere o próprio usuário.",
+        "variantes": [
+          "Debater-se"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Struggle_(move)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Quando um pokémon esgota os pontos de poder de todos os seus golpes, passa a usar um golpe de emergência que também o fere. Qual?",
+      "resposta": "Struggle",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Struggle_(move)"
+      ],
+      "ancora": "struggle"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Premier Ball",
+        "descricao": "Poké Bola toda branca com faixa vermelha, dada de brinde nas lojas dos jogos Pokémon desde a terceira geração.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Premier_Ball"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em muitos jogos Pokémon, a Premier Ball, Poké Bola toda branca, é um brinde da loja. O que o jogador precisa fazer para ganhá-la?",
+      "resposta": "Comprar dez Poké Bolas de uma vez",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Premier_Ball"
+      ],
+      "ancora": "premier_ball"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Pedra evolutiva",
+        "descricao": "Categoria de itens dos jogos Pokémon, como as pedras do Fogo, da Água e do Trovão, que fazem certos pokémon evoluir na hora.",
+        "variantes": [
+          "Evolution stone",
+          "Pedra de evolução"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Evolution_stone"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, as pedras do Fogo, da Água, do Trovão e da Folha podem ser compradas em que lugar de Kanto?",
+      "resposta": "Loja de Departamentos de Celadon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Celadon_Department_Store",
+        "https://bulbapedia.bulbagarden.net/wiki/Evolution_stone"
+      ],
+      "ancora": "pedra_evolutiva"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Everstone",
+        "descricao": "Item dos jogos Pokémon que, segurado por um pokémon, impede sua evolução.",
+        "variantes": [
+          "Pedra Eterna"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Everstone"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Nos jogos Pokémon, que item, quando segurado por um pokémon, impede que ele evolua ao subir de nível?",
+      "resposta": "Pedra Eterna (Everstone)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Everstone"
+      ],
+      "ancora": "everstone"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Nanab Berry",
+        "descricao": "Fruta dos jogos Pokémon, também presente em Pokémon Go, onde acalma o pokémon selvagem durante a captura.",
+        "variantes": [
+          "Fruta Nanab"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nanab_Berry"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A Nanab Berry, que acalma os pokémon agitados em Pokémon Go, tem nome tirado de qual fruta, lida de trás para frente?",
+      "resposta": "Banana",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nanab_Berry"
+      ],
+      "ancora": "nanab_berry"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Sistema de Armazenamento Pokémon",
+        "descricao": "Sistema de computador dos jogos Pokémon que guarda os pokémon que não cabem na equipe, criado por Bill nos primeiros jogos.",
+        "variantes": [
+          "PC de Bill",
+          "Pokémon Storage System"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Storage_System"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, os computadores que guardam os pokémon que não cabem na equipe usam um sistema criado por qual personagem de Kanto?",
+      "resposta": "Bill",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Storage_System",
+        "https://bulbapedia.bulbagarden.net/wiki/Bill"
+      ],
+      "distratores": [
+        "Senhor Fuji",
+        "Professor Carvalho",
+        "Presidente da Silph"
+      ],
+      "ancora": "sistema_de_armazenamento_pokemon"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Poké Ball Plus",
+        "descricao": "Controle da Nintendo em forma de Poké Bola, lançado em 2018 para o Nintendo Switch, que pode guardar um pokémon.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ball_Plus"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Poké Ball Plus, controle em forma de Poké Bola que acende e vibra na mão, foi lançado junto de quais jogos para Nintendo Switch?",
+      "resposta": "Let's Go, Pikachu! e Let's Go, Eevee!",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ball_Plus",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee!"
+      ],
+      "ancora": "poke_ball_plus"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "master_ball",
+      "nome": "Master Ball",
+      "descricao": "Poké Bola roxa marcada com a letra M, a mais poderosa dos jogos Pokémon, fabricada pela Silph.",
+      "variantes": [
+        "Bola Mestra"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Master_Ball"
+      ]
+    },
+    {
+      "id": "pedra_da_agua",
+      "nome": "Pedra da Água",
+      "descricao": "Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee.",
+      "variantes": [
+        "Water Stone"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Water_Stone"
+      ]
+    },
+    {
+      "id": "metodo_masuda",
+      "nome": "Método Masuda",
+      "descricao": "Técnica de criação dos jogos Pokémon, desde Diamond e Pearl, em que cruzar pokémon de jogos de idiomas diferentes aumenta a chance de filhotes brilhantes.",
+      "variantes": [
+        "Masuda method"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Masuda_method"
+      ]
+    },
+    {
+      "id": "megaevolucao",
+      "nome": "Megaevolução",
+      "descricao": "Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra.",
+      "variantes": [
+        "Mega Evolution",
+        "Mega Evolução"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution"
+      ]
+    },
+    {
+      "id": "movimento_z",
+      "nome": "Movimento Z",
+      "descricao": "Golpe superpoderoso dos jogos Pokémon Sun e Moon, usado uma vez por batalha com a ajuda de um Cristal Z.",
+      "variantes": [
+        "Z-Move",
+        "Golpe Z"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Z-Move"
+      ]
+    },
+    {
+      "id": "terastal",
+      "nome": "Terastal",
+      "descricao": "Fenômeno dos jogos Pokémon Scarlet e Violet que faz o pokémon brilhar como cristal durante a batalha.",
+      "variantes": [
+        "Terastalização",
+        "Terastallization",
+        "Fenômeno Terastal"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon"
+      ]
+    },
+    {
+      "id": "pecha_berry",
+      "nome": "Pecha Berry",
+      "descricao": "Fruta rosada dos jogos Pokémon que cura o envenenamento do pokémon que a come.",
+      "variantes": [
+        "Fruta Pecha"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pecha_Berry"
+      ]
+    },
+    {
+      "id": "pokeblock",
+      "nome": "Pokéblock",
+      "descricao": "Doce dos jogos Pokémon Ruby, Sapphire e Emerald dado aos pokémon para melhorar suas condições nos concursos.",
+      "variantes": [
+        "Pokébloco"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9block"
+      ]
+    },
+    {
+      "id": "creche_pokemon",
+      "nome": "Creche Pokémon",
+      "descricao": "Estabelecimento dos jogos Pokémon onde um casal de idosos cuida dos pokémon do jogador e onde surgem os ovos.",
+      "variantes": [
+        "Pokémon Day Care",
+        "Day Care"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Day_Care"
+      ]
+    },
+    {
+      "id": "igglybuff",
+      "nome": "Igglybuff",
+      "descricao": "Pokémon bebê dos tipos Normal e Fada da segunda geração, forma anterior de Jigglypuff.",
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "id": "volt_tackle",
+      "nome": "Volt Tackle",
+      "descricao": "Golpe elétrico exclusivo da linha evolutiva de Pikachu, introduzido na terceira geração e famoso no anime com o Pikachu de Ash.",
+      "variantes": [
+        "Investida Trovão"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Volt_Tackle_(move)"
+      ]
+    },
+    {
+      "id": "struggle",
+      "nome": "Struggle",
+      "descricao": "Golpe dos jogos Pokémon usado automaticamente quando o pokémon não tem mais pontos de poder em nenhum golpe, e que fere o próprio usuário.",
+      "variantes": [
+        "Debater-se"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Struggle_(move)"
+      ]
+    },
+    {
+      "id": "premier_ball",
+      "nome": "Premier Ball",
+      "descricao": "Poké Bola toda branca com faixa vermelha, dada de brinde nas lojas dos jogos Pokémon desde a terceira geração.",
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Premier_Ball"
+      ]
+    },
+    {
+      "id": "pedra_evolutiva",
+      "nome": "Pedra evolutiva",
+      "descricao": "Categoria de itens dos jogos Pokémon, como as pedras do Fogo, da Água e do Trovão, que fazem certos pokémon evoluir na hora.",
+      "variantes": [
+        "Evolution stone",
+        "Pedra de evolução"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Evolution_stone"
+      ]
+    },
+    {
+      "id": "everstone",
+      "nome": "Everstone",
+      "descricao": "Item dos jogos Pokémon que, segurado por um pokémon, impede sua evolução.",
+      "variantes": [
+        "Pedra Eterna"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Everstone"
+      ]
+    },
+    {
+      "id": "nanab_berry",
+      "nome": "Nanab Berry",
+      "descricao": "Fruta dos jogos Pokémon, também presente em Pokémon Go, onde acalma o pokémon selvagem durante a captura.",
+      "variantes": [
+        "Fruta Nanab"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nanab_Berry"
+      ]
+    },
+    {
+      "id": "sistema_de_armazenamento_pokemon",
+      "nome": "Sistema de Armazenamento Pokémon",
+      "descricao": "Sistema de computador dos jogos Pokémon que guarda os pokémon que não cabem na equipe, criado por Bill nos primeiros jogos.",
+      "variantes": [
+        "PC de Bill",
+        "Pokémon Storage System"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Storage_System"
+      ]
+    },
+    {
+      "id": "poke_ball_plus",
+      "nome": "Poké Ball Plus",
+      "descricao": "Controle da Nintendo em forma de Poké Bola, lançado em 2018 para o Nintendo Switch, que pode guardar um pokémon.",
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ball_Plus"
+      ]
+    }
+  ],
+  "variantes": {
+    "eevee": [
+      "Eevee"
+    ],
+    "pokemon_brilhante": [
+      "Pokémon brilhante",
+      "Shiny"
+    ],
+    "dynamax": [
+      "Dynamax"
+    ],
+    "magikarp": [
+      "Magikarp"
+    ],
+    "smeargle": [
+      "Smeargle"
+    ]
+  }
+}

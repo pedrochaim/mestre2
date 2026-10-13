@@ -1,0 +1,629 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "charmander",
+        "nome": "Charmander",
+        "descricao": "Pokémon inicial do tipo Fogo da primeira geração, um lagartinho com uma chama na ponta da cauda.",
+        "variantes": [
+          "Hitokage"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)",
+          "https://en.wikipedia.org/wiki/Charmander"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Japão, Charmander se chama Hitokage. Hi quer dizer fogo. E tokage, a outra metade do nome, designa qual animal?",
+      "resposta": "Lagarto",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gardevoir",
+        "nome": "Gardevoir",
+        "descricao": "Pokémon dos tipos Psíquico e Fada da terceira geração, evolução final de Ralts, conhecido por proteger o treinador.",
+        "variantes": [
+          "Sirnight"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pokémon)",
+          "https://en.wikipedia.org/wiki/Gardevoir"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome de Gardevoir, a pokémon psíquica que protege o treinador com a própria vida, vem de duas palavras de qual idioma?",
+      "resposta": "Francês",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sprigatito",
+        "descricao": "Pokémon inicial do tipo Planta da nona geração, um gatinho verde da região de Paldea.",
+        "variantes": [
+          "Nyahoja"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sprigatito_(Pokémon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Japão, Sprigatito, o gatinho de planta de Paldea, se chama Nyahoja: o miado nya mais hoja, palavra espanhola para quê?",
+      "resposta": "Folha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sprigatito_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nacli",
+        "descricao": "Pokémon do tipo Pedra da nona geração, um pequeno bloco de sal de Paldea que evolui para Naclstack e Garganacl.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nacli_(Pokémon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Nacli, do pequeno pokémon de pedra de Paldea, vem da fórmula química de qual substância do dia a dia?",
+      "resposta": "Sal de cozinha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nacli_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jigglypuff",
+        "nome": "Jigglypuff",
+        "descricao": "Pokémon rosado e redondo dos tipos Normal e Fada da primeira geração, que canta para fazer os outros dormirem.",
+        "variantes": [
+          "Purin"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pokémon)",
+          "https://en.wikipedia.org/wiki/Jigglypuff"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No Japão, a cantora Jigglypuff se chama Purin, que também é a palavra japonesa para qual sobremesa?",
+      "resposta": "Pudim",
+      "distratores": [
+        "Mochi",
+        "Marshmallow",
+        "Bolo"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "wobbuffet",
+        "nome": "Wobbuffet",
+        "descricao": "Pokémon azul do tipo Psíquico da segunda geração, que contra-ataca em vez de atacar, famoso no anime com Jessie, da Equipe Rocket.",
+        "variantes": [
+          "Sonans",
+          "Sōnansu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pokémon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No Japão, Wobbuffet se chama Sonans, nome tirado de uma expressão japonesa coloquial. O que ela quer dizer?",
+      "resposta": "É isso mesmo",
+      "distratores": [
+        "Me desculpe",
+        "Até logo",
+        "Não pode ser"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chandelure",
+        "descricao": "Pokémon dos tipos Fantasma e Fogo da quinta geração, evolução final de Litwick, com braços de chamas roxas.",
+        "variantes": [
+          "Shandera"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Chandelure_(Pokémon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Chandelure, do fantasma de Unova que queima almas com suas chamas, junta lure, atrair, com qual objeto pendurado no teto?",
+      "resposta": "Lustre (chandelier)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Chandelure_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sirfetch'd",
+        "descricao": "Pokémon do tipo Lutador da oitava geração, evolução do Farfetch'd de Galar, um pato cavaleiro.",
+        "variantes": [
+          "Negganit"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pokémon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Galar, Farfetch'd evolui para Sirfetch'd, um cavaleiro que usa o alho-poró como lança. O que ele usa como escudo?",
+      "resposta": "Uma folha",
+      "distratores": [
+        "Uma concha",
+        "Uma tampa de panela",
+        "Uma casca de árvore"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aegislash",
+        "descricao": "Pokémon dos tipos Aço e Fantasma da sexta geração, uma espada com escudo, evolução final de Honedge.",
+        "variantes": [
+          "Gilgard"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pokémon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Aegislash, a espada fantasma de Kalos, alterna durante a batalha entre a Forma Lâmina e qual outra forma?",
+      "resposta": "Forma Escudo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dhelmise",
+        "descricao": "Pokémon dos tipos Fantasma e Planta da sétima geração, formado por algas marinhas presas a uma peça de navio.",
+        "variantes": [
+          "Dadarin"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dhelmise_(Pokémon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, o verdadeiro corpo do fantasma Dhelmise, de Alola, são algas marinhas, que manobram qual peça de navio?",
+      "resposta": "Uma âncora",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dhelmise_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eiscue",
+        "descricao": "Pokémon pinguim do tipo Gelo da oitava geração, da região de Galar, com a habilidade Ice Face.",
+        "variantes": [
+          "Koorippo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pokémon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Eiscue, o pinguim de Galar, protege a cabeça dentro de algo que se quebra quando ele leva um golpe físico. O que é?",
+      "resposta": "Um cubo de gelo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dragapult",
+        "descricao": "Pokémon dos tipos Dragão e Fantasma da oitava geração, evolução final da linha de Dreepy, em forma de avião furtivo.",
+        "variantes": [
+          "Doragapult"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dragapult_(Pokémon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Dragapult, de Galar, leva pequenos fantasmas dentro dos chifres e os dispara a toda velocidade, como mísseis. Que pokémon são esses?",
+      "resposta": "Dreepy",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dragapult_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "kartana",
+        "nome": "Kartana",
+        "descricao": "Ultracriatura dos tipos Planta e Aço da sétima geração, de corpo fino e cortante como uma lâmina.",
+        "variantes": [
+          "Kamitsurugi"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kartana_(Pokémon)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Kartana, a Ultracriatura afiada como lâmina, tem o corpo inspirado em qual arte tradicional japonesa?",
+      "resposta": "Origami",
+      "distratores": [
+        "Ikebana",
+        "Bonsai",
+        "Caligrafia"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kartana_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jynx",
+        "nome": "Jynx",
+        "descricao": "Pokémon humanoide dos tipos Gelo e Psíquico da primeira geração, de cabelos loiros e lábios grossos.",
+        "variantes": [
+          "Rougela"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jynx_(Pokémon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos primeiros jogos e no anime, Jynx tinha o rosto preto. Depois, a cor passou a ser roxa. Por que houve essa mudança?",
+      "resposta": "Acusações de racismo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Jynx_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mimikyu",
+        "nome": "Mimikyu",
+        "descricao": "Pokémon dos tipos Fantasma e Fada da sétima geração, que vive escondido debaixo de um pano.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pokémon)",
+          "https://en.wikipedia.org/wiki/Mimikyu"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, por que o solitário Mimikyu se esconde debaixo de um pano velho que imita Pikachu?",
+      "resposta": "Para se aproximar das pessoas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Yungoos",
+        "descricao": "Pokémon mangusto do tipo Normal da sétima geração, comum nas rotas da região de Alola, que evolui para Gumshoos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Yungoos_(Pokémon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, conta-se que o mangusto Yungoos foi levado de propósito às ilhas de Alola. Com que objetivo?",
+      "resposta": "Controlar a praga de Rattata",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Yungoos_(Pokémon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "weezing",
+        "nome": "Weezing",
+        "descricao": "Pokémon do tipo Veneno da primeira geração, evolução de Koffing, que tem uma forma regional em Galar com chaminés.",
+        "variantes": [
+          "Matadogas"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pokémon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de Sword, o Weezing de Galar, com chaminés na cabeça, ganhou essa forma numa época marcada pelo quê?",
+      "resposta": "Poluição das fábricas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gyarados",
+        "nome": "Gyarados",
+        "descricao": "Pokémon serpente marinha dos tipos Água e Voador da primeira geração, evolução de Magikarp.",
+        "variantes": [
+          "Gyaradosu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokémon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O frágil Magikarp evolui no dragão Gyarados por inspiração numa lenda chinesa. Nela, a carpa vira dragão depois de fazer o quê?",
+      "resposta": "Subir uma cachoeira",
+      "distratores": [
+        "Atravessar o oceano",
+        "Engolir uma pérola",
+        "Nadar até a lua"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokémon)",
+        "https://en.wikipedia.org/wiki/Dragon_gate"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mudkip",
+        "nome": "Mudkip",
+        "descricao": "Pokémon inicial do tipo Água da terceira geração, da região de Hoenn, com uma barbatana na cabeça.",
+        "variantes": [
+          "Mizugorou"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pokémon)",
+          "https://en.wikipedia.org/wiki/Mudkip"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes pokémon iniciais de água tem o design inspirado no axolote, um anfíbio mexicano?",
+      "resposta": "Mudkip",
+      "distratores": [
+        "Totodile",
+        "Froakie",
+        "Piplup"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Raikou",
+        "descricao": "Pokémon lendário do tipo Elétrico da segunda geração, uma das três feras lendárias de Johto.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pokémon)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das três feras lendárias de Johto, que Ho-Oh trouxe de volta à vida, qual tem a aparência inspirada num tigre?",
+      "resposta": "Raikou",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "moltres",
+        "nome": "Moltres",
+        "descricao": "Pokémon lendário dos tipos Fogo e Voador da primeira geração, uma das três aves lendárias de Kanto.",
+        "variantes": [
+          "Fire"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pokémon)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "A fênix, ave mitológica que renasce das próprias cinzas, inspirou qual das três aves lendárias de Kanto?",
+      "resposta": "Moltres",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Popplio",
+        "descricao": "Pokémon inicial do tipo Água da sétima geração, da região de Alola, que faz balões de água com o focinho.",
+        "variantes": [
+          "Ashimari"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Popplio_(Pokémon)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os três iniciais de Alola, qual equilibra bolhas no focinho como um leão-marinho de circo?",
+      "resposta": "Popplio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Popplio_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Foongus",
+        "descricao": "Pokémon cogumelo dos tipos Planta e Veneno da quinta geração, que evolui para Amoonguss.",
+        "variantes": [
+          "Tamagetake"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pokémon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o cogumelo Foongus, de Unova, e a esfera elétrica Voltorb, de Kanto, têm em comum na aparência?",
+      "resposta": "Parecem Poké Bolas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pokémon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Farigiraf",
+        "descricao": "Pokémon girafa dos tipos Normal e Psíquico da nona geração, evolução de Girafarig.",
+        "variantes": [
+          "Rikikirin"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Farigiraf_(Pokémon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que têm em comum os nomes da girafa Girafarig, de Johto, e da sua evolução Farigiraf, de Paldea?",
+      "resposta": "São palíndromos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Farigiraf_(Pokémon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "infernape",
+        "nome": "Infernape",
+        "descricao": "Pokémon macaco dos tipos Fogo e Lutador da quarta geração, evolução final de Chimchar.",
+        "variantes": [
+          "Goukazaru"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pokémon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Com coroa de fogo e golpes acrobáticos, Infernape lembra qual macaco guerreiro do romance chinês Jornada ao Oeste?",
+      "resposta": "Sun Wukong (o Rei Macaco)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Três Leais",
+        "descricao": "Trio de pokémon venenosos da expansão The Teal Mask, de Scarlet e Violet, formado por Okidogi, Munkidori e Fezandipiti.",
+        "variantes": [
+          "Loyal Three"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Loyal_Three"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Okidogi, Munkidori e Fezandipiti, os Três Leais de Kitakami, são um cão, um macaco e um faisão. Que herói do folclore japonês tinha esses três companheiros?",
+      "resposta": "Momotarō",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Loyal_Three"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lapras",
+        "nome": "Lapras",
+        "descricao": "Pokémon dos tipos Água e Gelo da primeira geração, de pescoço longo e casco nas costas, que transporta pessoas pelo mar.",
+        "variantes": [
+          "Laplace"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pokémon)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Lapras, o pokémon de pescoço longo que leva pessoas nas costas pelo mar, lembra o famoso monstro de qual lago escocês?",
+      "resposta": "Lago Ness",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hawlucha",
+        "descricao": "Pokémon dos tipos Lutador e Voador da sexta geração, uma ave com aparência de lutador mascarado.",
+        "variantes": [
+          "Luchabull"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pokémon)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Hawlucha, o pokémon de Kalos que é metade falcão e metade lutador mascarado, se inspira na luta livre de qual país?",
+      "resposta": "México",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Deerling",
+        "descricao": "Pokémon cervo dos tipos Normal e Planta da quinta geração, que evolui para Sawsbuck e tem formas sazonais.",
+        "variantes": [
+          "Shikijika"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pokémon)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Black e White, o filhote de cervo Deerling muda a cor do pelo de acordo com o quê?",
+      "resposta": "A estação do ano",
+      "distratores": [
+        "A hora do dia",
+        "O clima do momento",
+        "O humor do treinador"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pokémon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Wiglett",
+        "descricao": "Pokémon do tipo Água da nona geração, uma enguia-de-jardim de Paldea, parecida com Diglett, que evolui para Wugtrio.",
+        "variantes": [
+          "Umidigda"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wiglett_(Pokémon)"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que pokémon marinho de Paldea, uma enguia-de-jardim, é quase idêntico a Diglett, mas sem nenhum parentesco com ele?",
+      "resposta": "Wiglett",
+      "distratores": [
+        "Toedscool",
+        "Finizen",
+        "Tatsugiri"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wiglett_(Pokémon)"
+      ]
+    }
+  ]
+}

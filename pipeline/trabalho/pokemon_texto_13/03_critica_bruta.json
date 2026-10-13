@@ -1,0 +1,268 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hitokage = hi (fogo) + tokage (lagarto), fato bem documentado; pergunta clara e curta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gardevoir vem do francês garde + voir, segundo a Bulbapedia; resposta única e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O nome japonês de Sprigatito é Nyaoha, e não Nyahoja; a origem espanhola está no nome inglês (sprig + gatito).",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Sprigatito, do gatinho inicial de Paldea, junta a palavra inglesa sprig, ramo, com gatito, palavra espanhola para quê?",
+        "resposta": "Gatinho",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sprigatito_(Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nacli vem de NaCl, o sal de cozinha; fato sólido e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Purin é o nome japonês de Jigglypuff e significa pudim; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sonans vem de 'sō nanse', 'é isso mesmo'; boa pergunta de nome com distratores coerentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a resposta traz parênteses desnecessários.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Chandelure, do fantasma de Unova que queima almas com suas chamas, junta lure, atrair, com qual objeto pendurado no teto?",
+        "resposta": "Lustre",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Chandelure_(Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato fraco e resposta vaga ('uma folha'), com distratores pouco críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Formas Lâmina e Escudo de Aegislash são fato central e verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Manobram' é ambíguo (âncora ou timão) e a Pokédex tem entradas divergentes; resposta não é única com segurança.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O Ice Face é um bloco de gelo na cabeça; 'cubo' é impreciso.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Eiscue, o pinguim de Galar, protege a cabeça dentro de algo que se quebra quando ele leva um golpe físico. O que é?",
+        "resposta": "Um bloco de gelo",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dragapult leva Dreepy nos chifres e os dispara; fato conhecido e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Kartana é inspirado em origami; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A cor de Jynx foi mudada para roxa após acusações de racismo; fato documentado e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A resposta é vaga; a Pokédex diz que ele quer fazer amizade com as pessoas.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo a Pokédex, por que o solitário Mimikyu se esconde debaixo de um pano velho que imita Pikachu?",
+        "resposta": "Para fazer amizade com as pessoas",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex de Sun e Moon diz que Yungoos foi trazido a Alola para controlar Rattata.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex fala em poluição do ar, e 'das fábricas' é detalhe não garantido.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo a Pokédex de Sword, o Weezing de Galar, com chaminés na cabeça, ganhou essa forma numa época marcada pelo quê?",
+        "resposta": "Poluição do ar",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (carpa que sobe a cachoeira), mas a fonte da Wikipédia é uma página de desambiguação.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "O frágil Magikarp evolui no dragão Gyarados por inspiração numa lenda chinesa. Nela, a carpa vira dragão depois de fazer o quê?",
+        "resposta": "Subir uma cachoeira",
+        "distratores": [
+          "Atravessar o oceano",
+          "Engolir uma pérola",
+          "Nadar até a lua"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pokémon)",
+          "https://en.wikipedia.org/wiki/Dragon_Gate_(mythology)"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mudkip é o inicial inspirado no axolote; os distratores são iniciais de água de outros animais.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Raikou é o tigre das feras de Johto; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Moltres é a ave inspirada na fênix; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Popplio é o leão-marinho que faz balões; os outros iniciais são coruja e gato.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Foongus e Voltorb imitam Poké Bolas; conexão memorável e verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Girafarig e Farigiraf são palíndromos; conexão curiosa e literalmente verdadeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Infernape é inspirado em Sun Wukong, de Jornada ao Oeste.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os Três Leais (cão, macaco, faisão) remetem a Momotarō; conexão boa e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lapras é inspirado no monstro do Lago Ness (plesiossauro); fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hawlucha se inspira na lucha libre mexicana; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Deerling muda de cor conforme a estação do ano; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Wiglett se parece com Diglett, mas é um pokémon de água sem parentesco; distratores da mesma região.",
+      "reescrita": null
+    }
+  ]
+}

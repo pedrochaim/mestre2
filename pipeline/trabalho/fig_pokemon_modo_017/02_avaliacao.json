@@ -1,0 +1,222 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta com punhos grandes e corpo redondo, reconhecível como Poliwrath.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Poliwrath",
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Poliwrath",
+        "descricao": "Pokémon de água e lutador da primeira geração, evolução final de Poliwag, número 62 da Pokédex Nacional.",
+        "variantes": [
+          "Poliwrath (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de ave de asas abertas com tufo na cabeça, bem característica de Hawlucha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Hawlucha",
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Hawlucha",
+        "descricao": "Pokémon lutador e voador da sexta geração, inspirado na luta livre mexicana, número 701 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Contorno denteado de cristal de gelo é característico, mas pode lembrar engrenagens; melhor em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Cryogonal",
+      "distratores": [
+        "Klink",
+        "Klang",
+        "Klinklang"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Cryogonal",
+        "descricao": "Pokémon de gelo da quinta geração, em forma de cristal de neve, número 615 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta com cauda de lâminas, espinhos e garras grandes, reconhecível como Groudon; múltipla com bichos grandes parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Groudon",
+      "distratores": [
+        "Tyranitar",
+        "Rhyperior",
+        "Garchomp"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Groudon",
+        "descricao": "Pokémon lendário de terra da terceira geração, símbolo da versão Ruby, número 383 da Pokédex Nacional.",
+        "variantes": [
+          "Groudon (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de lutador musculoso com mãos na cintura, reconhecível como Machoke.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Machoke",
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Machoke",
+        "descricao": "Pokémon lutador da primeira geração, evolução intermediária de Machop, número 67 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de pescoço em S e perna dobrada, bem característica de Flamigo; múltipla com aves pernaltas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Flamigo",
+      "distratores": [
+        "Swanna",
+        "Farfetch'd",
+        "Dodrio"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Flamigo",
+        "descricao": "Pokémon voador e lutador da nona geração, inspirado em um flamingo, número 973 da Pokédex Nacional.",
+        "variantes": [
+          "Flamigo (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A arte de revelação é o Golem de Alola, e a silhueta redonda também serve ao Golem original; a resposta 'Golem' não é única diante da imagem.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta oval com tentáculos e ponta enrolada é razoavelmente característica; múltipla com fósseis e moluscos parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Omanyte",
+      "distratores": [
+        "Kabuto",
+        "Shellder",
+        "Tentacool"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Omanyte",
+        "descricao": "Pokémon fóssil de rocha e água da primeira geração, com concha espiral, número 138 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A silhueta é uma mancha arredondada sem contorno característico; poderia ser confundida com outros pokémon de orelhas redondas.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta com foices nos braços e cabeça pontuda, inconfundível como Kabutops.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kabutops",
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Kabutops",
+        "descricao": "Pokémon fóssil de rocha e água da primeira geração, evolução final de Kabuto, número 141 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de peixe com nadadeira dorsal alta e cauda em franjas é característica; múltipla com outros peixes.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Feebas",
+      "distratores": [
+        "Magikarp",
+        "Goldeen",
+        "Luvdisc"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Feebas",
+        "descricao": "Pokémon de água da terceira geração, peixe pouco vistoso que evolui em Milotic, número 349 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de tamanduá com chama na ponta do focinho e cauda de chaminé é distintiva; múltipla por ser pokémon de aficionado.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Heatmor",
+      "distratores": [
+        "Durant",
+        "Torkoal",
+        "Magcargo"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Heatmor",
+        "descricao": "Pokémon de fogo da quinta geração, inspirado em um tamanduá, número 631 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}

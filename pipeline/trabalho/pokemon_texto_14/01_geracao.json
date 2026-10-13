@@ -1,0 +1,626 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "equipe_rocket",
+        "nome": "Equipe Rocket",
+        "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+        "variantes": [
+          "Team Rocket"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Rocket"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, a Equipe Rocket invade a Torre de Rádio de Goldenrod para fazer uma transmissão. O que o grupo pretende com ela?",
+      "resposta": "Chamar Giovanni de volta",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Rocket",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "giovanni",
+        "nome": "Giovanni",
+        "descricao": "Chefe da Equipe Rocket nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Sakaki"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Giovanni"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Além de chefiar a Equipe Rocket, Giovanni comanda o último ginásio de Kanto em Red e Blue. Em que tipo de pokémon ele é especialista?",
+      "resposta": "Terrestre",
+      "distratores": [
+        "Psíquico",
+        "Venenoso",
+        "Lutador"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Giovanni"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Rainbow Rocket",
+        "descricao": "Organização vilã de Pokémon Ultra Sun e Ultra Moon, em que Giovanni reúne os chefes de outras equipes vilãs vindos de mundos paralelos.",
+        "variantes": [
+          "Team Rainbow Rocket"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Rainbow_Rocket"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Ultra Sun e Ultra Moon, Giovanni reúne Maxie, Archie, Cyrus, Lysandre e Ghetsis, vindos de outros mundos. Que nome tem esse grupo?",
+      "resposta": "Equipe Rainbow Rocket",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Rainbow_Rocket"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Magma",
+        "descricao": "Organização vilã de Pokémon Ruby, Sapphire e Emerald, liderada por Maxie, que quer despertar Groudon.",
+        "variantes": [
+          "Team Magma"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Magma"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, a Equipe Magma tenta despertar o lendário Groudon. O que o grupo quer fazer com o poder dele?",
+      "resposta": "Expandir os continentes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Magma",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Aqua",
+        "descricao": "Organização vilã de Pokémon Ruby, Sapphire e Emerald que quer despertar Kyogre para expandir os mares.",
+        "variantes": [
+          "Team Aqua"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Aqua"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby e Sapphire, que líder comanda a Equipe Aqua, grupo que sonha em expandir os mares com o poder de Kyogre?",
+      "resposta": "Archie",
+      "distratores": [
+        "Maxie",
+        "Cyrus",
+        "Guzma"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Aqua",
+        "https://bulbapedia.bulbagarden.net/wiki/Archie"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Galáctica",
+        "descricao": "Organização vilã de Pokémon Diamond, Pearl e Platinum, liderada por Cyrus, que quer usar Dialga e Palkia para criar um novo mundo.",
+        "variantes": [
+          "Team Galactic"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, os comandantes da Equipe Galáctica se chamam Mars, Jupiter e Saturn. De onde vêm esses nomes?",
+      "resposta": "Dos planetas do Sistema Solar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Galáctica",
+        "descricao": "Organização vilã de Pokémon Diamond, Pearl e Platinum, liderada por Cyrus, que quer usar Dialga e Palkia para criar um novo mundo.",
+        "variantes": [
+          "Team Galactic"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Qual destas equipes vilãs apareceu primeiro nos jogos principais de Pokémon?",
+      "resposta": "Equipe Galáctica",
+      "distratores": [
+        "Equipe Plasma",
+        "Equipe Flare",
+        "Equipe Skull"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Plasma",
+        "descricao": "Organização vilã de Pokémon Black e White, da região de Unova, que tem N como rei e Ghetsis como verdadeiro líder.",
+        "variantes": [
+          "Team Plasma"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Plasma"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, o jovem N é chamado de rei da Equipe Plasma. Mas quem de fato comanda o grupo por trás dele?",
+      "resposta": "Ghetsis",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ghetsis",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Plasma",
+        "descricao": "Organização vilã de Pokémon Black e White, da região de Unova, que tem N como rei e Ghetsis como verdadeiro líder.",
+        "variantes": [
+          "Team Plasma"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Plasma"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em seus discursos pelas cidades de Unova, a Equipe Plasma pede que os treinadores façam o quê com seus pokémon?",
+      "resposta": "Libertá-los",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Plasma",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "N",
+        "descricao": "Rei da Equipe Plasma em Pokémon Black e White, jovem criado entre pokémon e manipulado por Ghetsis.",
+        "variantes": [
+          "Natural Harmonia Gropius"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/N"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "N, o misterioso rei da Equipe Plasma, cresceu cercado de pokémon e tem um dom raro. Qual é?",
+      "resposta": "Ouvir a voz dos pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/N"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "N",
+        "descricao": "Rei da Equipe Plasma em Pokémon Black e White, jovem criado entre pokémon e manipulado por Ghetsis.",
+        "variantes": [
+          "Natural Harmonia Gropius"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/N"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do rei da Equipe Plasma é só uma letra, N. Essa letra é a inicial de qual primeiro nome?",
+      "resposta": "Natural",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/N"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Flare",
+        "descricao": "Organização vilã de Pokémon X e Y, da região de Kalos, de uniformes vermelhos, liderada por Lysandre.",
+        "variantes": [
+          "Team Flare"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Flare"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, que homem de cabeleira ruiva, dono de um café em Lumiose, comanda em segredo a Equipe Flare?",
+      "resposta": "Lysandre",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lysandre",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Flare",
+        "descricao": "Organização vilã de Pokémon X e Y, da região de Kalos, de uniformes vermelhos, liderada por Lysandre.",
+        "variantes": [
+          "Team Flare"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Flare"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Para entrar na Equipe Flare, em Kalos, um recruta precisa pagar uma taxa altíssima. De quanto?",
+      "resposta": "Cinco milhões de pokédollars",
+      "distratores": [
+        "Um milhão de pokédollars",
+        "Cinquenta mil pokédollars",
+        "Cem milhões de pokédollars"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Flare"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "AZ",
+        "descricao": "Gigante de Pokémon X e Y, antigo rei de Kalos que há três mil anos construiu a arma suprema.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/AZ"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Há três mil anos, o rei AZ, de Kalos, construiu uma máquina para trazer de volta à vida qual pokémon querido?",
+      "resposta": "Seu Floette",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/AZ"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Skull",
+        "descricao": "Gangue de Pokémon Sun e Moon, da região de Alola, formada por jovens rebeldes que se vestem de preto e branco.",
+        "variantes": [
+          "Team Skull"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Skull"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, que treinador de cabelo branco, especialista em pokémon inseto, é o chefe da Equipe Skull?",
+      "resposta": "Guzma",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Skull",
+        "descricao": "Gangue de Pokémon Sun e Moon, da região de Alola, formada por jovens rebeldes que se vestem de preto e branco.",
+        "variantes": [
+          "Team Skull"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Skull"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, a Equipe Skull transforma em base uma cidade murada e sempre chuvosa. Que cidade é essa?",
+      "resposta": "Po Town",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Po_Town",
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Skull"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lusamine",
+        "descricao": "Presidente da Fundação Aether nos jogos Pokémon Sun e Moon, obcecada pelas Ultracriaturas.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lusamine"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Lusamine, presidente da Fundação Aether, em Alola, é mãe de Gladion e de qual menina, que esconde o Cosmog Nebby numa bolsa?",
+      "resposta": "Lillie",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lusamine",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Yell",
+        "descricao": "Grupo de torcedores barulhentos de Pokémon Sword e Shield, da região de Galar, que atrapalha o jogador.",
+        "variantes": [
+          "Team Yell"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Yell"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, a barulhenta Equipe Yell vive atrapalhando o jogador. Ela é o fã-clube de qual treinadora rival?",
+      "resposta": "Marnie",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Yell"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rose (Pokémon)",
+        "descricao": "Presidente da Liga Pokémon de Galar e da empresa Macro Cosmos, antagonista de Pokémon Sword e Shield.",
+        "variantes": [
+          "Chairman Rose",
+          "Presidente Rose"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rose"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, o presidente Rose desperta Eternatus, mesmo pondo Galar em perigo. O que ele quer evitar?",
+      "resposta": "Uma futura crise de energia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rose",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Star",
+        "descricao": "Grupo de alunos rebeldes da Academia de Paldea, em Pokémon Scarlet e Violet, dividido em esquadrões com bases próprias.",
+        "variantes": [
+          "Team Star"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Star"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, que aluna tímida, fã de Eevee, se revela a chefe suprema da Equipe Star?",
+      "resposta": "Penny",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Penny",
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Star"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Star",
+        "descricao": "Grupo de alunos rebeldes da Academia de Paldea, em Pokémon Scarlet e Violet, dividido em esquadrões com bases próprias.",
+        "variantes": [
+          "Team Star"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Star"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os esquadrões da Equipe Star, de Paldea, têm nomes de estrelas, como Schedar e Caph. Essas estrelas pertencem a qual constelação?",
+      "resposta": "Cassiopeia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Star"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Professor Elm",
+        "descricao": "Professor pokémon da região de Johto, que entrega o inicial ao jogador em Pokémon Gold e Silver.",
+        "variantes": [
+          "Professor Utsugi"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Elm"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que têm em comum os nomes dos professores Carvalho, Elm, Birch, Rowan e Juniper?",
+      "resposta": "São nomes de árvores",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Elm",
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Juniper"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Professor Sycamore",
+        "descricao": "Professor pokémon da região de Kalos, que entrega o inicial ao jogador em Pokémon X e Y.",
+        "variantes": [
+          "Professor Platane"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Sycamore"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon X e Y, o Professor Sycamore, de Kalos, dedica suas pesquisas a qual fenômeno?",
+      "resposta": "Megaevolução",
+      "distratores": [
+        "Dynamax",
+        "Terastal",
+        "Movimento Z"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Sycamore",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sada e Turo",
+        "descricao": "Professores pokémon de Paldea: Sada aparece em Pokémon Scarlet e Turo em Pokémon Violet.",
+        "variantes": [
+          "Professora Sada",
+          "Professor Turo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Sada",
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Turo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Paldea, a professora de Scarlet se chama Sada, e o de Violet, Turo. De quais palavras espanholas vêm esses nomes?",
+      "resposta": "Pasado e futuro",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Sada",
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Turo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sonia",
+        "descricao": "Pesquisadora de Pokémon Sword e Shield, amiga de infância de Leon, que se torna professora da região de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sonia"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, Sonia, amiga de infância do campeão Leon, é neta de qual pesquisadora de Galar?",
+      "resposta": "Professora Magnolia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sonia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Barry",
+        "descricao": "Rival impaciente do jogador em Pokémon Diamond, Pearl e Platinum, vizinho do protagonista em Twinleaf.",
+        "variantes": [
+          "Jun"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Barry"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Barry, o rival apressado de Diamond e Pearl, vive ameaçando o jogador com uma multa. De quanto?",
+      "resposta": "Dez milhões de pokédollars",
+      "distratores": [
+        "Um milhão de pokédollars",
+        "Cem mil pokédollars",
+        "Cem milhões de pokédollars"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Barry"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hop",
+        "descricao": "Rival e amigo do jogador em Pokémon Sword e Shield, da região de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hop"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Hop, o rival animado de Sword e Shield, é irmão mais novo de qual treinador famoso?",
+      "resposta": "Leon",
+      "distratores": [
+        "Raihan",
+        "Piers",
+        "Kabu"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hop",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hau",
+        "descricao": "Rival e amigo do jogador em Pokémon Sun e Moon, neto do kahuna Hala.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hau"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Hau, neto do kahuna Hala e rival do jogador em Sun e Moon, é louco por qual doce frito típico de Alola?",
+      "resposta": "Malasada",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hau"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arven",
+        "descricao": "Aluno da academia de Paldea em Pokémon Scarlet e Violet, cozinheiro e filho do professor da região.",
+        "variantes": [
+          "Pepper"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Arven"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, Arven busca as raras Ervas Místicas de Paldea para tentar curar quem?",
+      "resposta": "Seu Mabosstiff",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Arven"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Diantha",
+        "descricao": "Campeã da Liga Pokémon de Kalos nos jogos Pokémon X e Y, dona de um Gardevoir.",
+        "variantes": [
+          "Carnet"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Diantha"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Diantha, Campeã da Liga de Kalos em Pokémon X e Y, também é famosa por qual outra profissão?",
+      "resposta": "Atriz",
+      "distratores": [
+        "Cantora",
+        "Estilista",
+        "Modelo"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Diantha"
+      ]
+    }
+  ]
+}

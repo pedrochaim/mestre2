@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Pokémon Crystal, que item é preciso para encontrar este pokémon?",
+        "resposta": "GS Ball"
+      },
+      "existentes": [
+        {
+          "id": "q10208",
+          "pergunta": "Em Pokémon Crystal, levar a misteriosa GS Ball a um pequeno santuário faz surgir o mítico Celebi. Em que floresta de Johto fica esse santuário?",
+          "resposta": "Floresta Ilex"
+        },
+        {
+          "id": "q10665",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Celebi"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Varoom"
+      },
+      "existentes": [
+        {
+          "id": "q11024",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Revavroom"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este pokémon evolui quando é trocado entre jogadores. Em que pokémon ele se transforma?",
+        "resposta": "Golem"
+      },
+      "existentes": [
+        {
+          "id": "q10547",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Pedra e Terrestre"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Orbeetle"
+      },
+      "existentes": [
+        {
+          "id": "q10673",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Dottler"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o item necessário (GS Ball); a existente pede a floresta do santuário. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o pokémon (Varoom) é diferente de perguntar sua evolução (Revavroom)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Evolução por troca para Golem é diferente do tipo do pokémon."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o pokémon (Orbeetle) é diferente de perguntar de qual pokémon ele evolui."
+    }
+  ]
+}

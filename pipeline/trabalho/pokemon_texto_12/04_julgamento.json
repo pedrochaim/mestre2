@@ -1,0 +1,346 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness",
+        "descricao": "Par de jogos da série Pokémon Mystery Dungeon lançado em 2007 para Nintendo DS, em que o herói entra numa guilda de exploradores.",
+        "variantes": [
+          "Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness",
+          "Pokémon Mystery Dungeon: Explorers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_mystery_dungeon",
+          "nome": "Pokémon Mystery Dungeon",
+          "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "New Pokémon Snap",
+        "descricao": "Jogo de fotografia de pokémon para Nintendo Switch, continuação de Pokémon Snap, desenvolvido pela Bandai Namco Studios.",
+        "variantes": [
+          "Shin Pokémon Snap"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_snap",
+          "nome": "Pokémon Snap",
+          "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_sleep",
+          "nome": "Pokémon Sleep",
+          "descricao": "Aplicativo da franquia Pokémon, lançado em 2023, que mede o sono do jogador e o transforma em jogo.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_brilhante",
+          "nome": "Pokémon brilhante",
+          "descricao": "Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores.",
+          "variantes": [
+            "Shiny",
+            "Pokémon shiny",
+            "Pokémon Cromático"
+          ]
+        },
+        {
+          "id": "dia_do_pokemon",
+          "nome": "Dia do Pokémon",
+          "descricao": "Data comemorativa anual da franquia Pokémon, aniversário do lançamento dos primeiros jogos no Japão, usada para grandes anúncios.",
+          "variantes": [
+            "Pokémon Day"
+          ]
+        },
+        {
+          "id": "pokemon_stadium",
+          "nome": "Pokémon Stadium",
+          "descricao": "Jogo de batalhas Pokémon em 3D para Nintendo 64, que permitia usar pokémon dos jogos de Game Boy.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Detetive Pikachu (jogo)",
+        "descricao": "Jogo de aventura e investigação para Nintendo 3DS, lançado no Japão em 2016 e no Ocidente em 2018, que inspirou o filme de 2019.",
+        "variantes": [
+          "Detective Pikachu",
+          "Meitantei Pikachu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "detetive_pikachu_filme",
+          "nome": "Detetive Pikachu (filme)",
+          "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério.",
+          "variantes": [
+            "Pokémon: Detetive Pikachu",
+            "Detective Pikachu"
+          ]
+        },
+        {
+          "id": "conan_edogawa",
+          "nome": "Conan Edogawa",
+          "descricao": "Protagonista do mangá Detetive Conan, de Gosho Aoyama, um detetive que voltou a ter corpo de criança.",
+          "variantes": [
+            "Detetive Conan",
+            "Case Closed",
+            "Shinichi Kudo"
+          ]
+        },
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        },
+        {
+          "id": "delicate_arch",
+          "nome": "Delicate Arch",
+          "descricao": "Arco natural de arenito isolado no Parque Nacional dos Arcos, perto de Moab, nos Estados Unidos.",
+          "variantes": [
+            "Arco Delicado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pokémon Adventures",
+        "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+        "variantes": [
+          "Pocket Monsters Special",
+          "Pokémon Special"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "escola_pokemon_de_alola",
+          "nome": "Escola Pokémon de Alola",
+          "descricao": "Escola do anime Pokémon Sol e Lua onde Ash estuda com Lillie, Kiawe, Lana, Mallow e Sophocles, sob o Professor Kukui.",
+          "variantes": [
+            "Pokémon School"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias"
+          ]
+        },
+        {
+          "id": "pokemon_snap",
+          "nome": "Pokémon Snap",
+          "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hey You, Pikachu!",
+        "descricao": "Jogo de 1998 para Nintendo 64 em que o jogador convive com um Pikachu e conversa com ele por comandos de voz.",
+        "variantes": [
+          "Pikachū Genki Dechū"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pikachu",
+          "nome": "Pikachu",
+          "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "machu_picchu",
+          "nome": "Machu Picchu",
+          "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+          "variantes": [
+            "Machu Pichu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pokémon Masters",
+        "descricao": "Jogo para celular da DeNA, lançado em 2019, em que treinadores famosos da franquia batalham ao lado de seus pokémon.",
+        "variantes": [
+          "Pokémon Masters EX"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias"
+          ]
+        },
+        {
+          "id": "pokemon_ranger",
+          "nome": "Pokémon Ranger",
+          "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pokémon Conquest",
+        "descricao": "Jogo de estratégia de 2012 para Nintendo DS, que leva os pokémon ao Japão feudal dos senhores da guerra.",
+        "variantes": [
+          "Pokémon + Nobunaga no Yabō"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "conquista_normanda_da_inglaterra",
+          "nome": "Conquista normanda da Inglaterra",
+          "descricao": "Invasão e conquista da Inglaterra por Guilherme, duque da Normandia, a partir da Batalha de Hastings em 1066.",
+          "variantes": [
+            "Conquista Normanda",
+            "Norman Conquest"
+          ]
+        },
+        {
+          "id": "pokemon_jet",
+          "nome": "Pokémon Jet",
+          "descricao": "Aviões de passageiros pintados com pokémon, operados por uma companhia aérea japonesa desde 1998.",
+          "variantes": [
+            "ANA Pokémon Jet",
+            "Pikachu Jumbo"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias"
+          ]
+        },
+        {
+          "id": "the_pokemon_company",
+          "nome": "The Pokémon Company",
+          "descricao": "Empresa japonesa criada em 1998 para administrar a marca Pokémon, com participação da Nintendo, da Game Freak e da Creatures.",
+          "variantes": [
+            "Pokémon Company",
+            "Kabushiki Gaisha Pokémon"
+          ]
+        },
+        {
+          "id": "pokemon_crystal",
+          "nome": "Pokémon Crystal",
+          "descricao": "Versão especial de Pokémon Gold e Silver, lançada em 2000 para Game Boy Color, com o lendário Suicune em destaque.",
+          "variantes": [
+            "Pokémon Cristal"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Par de jogos específico, diferente da série Pokémon Mystery Dungeon."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "New Pokémon Snap (Switch) é continuação, distinta do Pokémon Snap de 1999."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Jogo de 3DS é diferente do filme de 2019."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mangá distinto da franquia, anime e demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Jogo de N64 distinto do Pokémon Pikachu."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Jogo para celular distinto das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Jogo de estratégia para DS, nenhuma candidata corresponde."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que pokémon este evolui?",
+        "resposta": "Dewgong"
+      },
+      "existentes": [
+        {
+          "id": "q10379",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Água"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que pokémon este evolui?",
+        "resposta": "Pyroar"
+      },
+      "existentes": [
+        {
+          "id": "q10503",
+          "pergunta": "Em que região este pokémon apareceu pela primeira vez?",
+          "resposta": "Kalos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é este pokémon fóssil?",
+        "resposta": "Dracovish"
+      },
+      "existentes": [
+        {
+          "id": "q10737",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Água e Dragão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que pokémon este evolui?",
+        "resposta": "Monferno"
+      },
+      "existentes": [
+        {
+          "id": "q10787",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Fogo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Bagon"
+      },
+      "existentes": [
+        {
+          "id": "q10540",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Shelgon"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que pokémon este evolui?",
+        "resposta": "Swalot"
+      },
+      "existentes": [
+        {
+          "id": "q11008",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Gulpin"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Dhelmise"
+      },
+      "existentes": [
+        {
+          "id": "q10669",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Dhelmise"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Evolução vs tipo: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Evolução vs região de estreia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar pokémon fóssil vs tipo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Evolução vs tipo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar o pokémon (Bagon) vs evolução (Shelgon): fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Evolução (Swalot) vs identidade (Gulpin)."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q10669",
+      "motivo": "Ambas pedem a identidade do mesmo pokémon, Dhelmise."
+    }
+  ]
+}

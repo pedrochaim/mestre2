@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Gold e Silver, o rival dos primeiros jogos, neto do Professor Carvalho, reaparece como líder de ginásio. Em que cidade de Kanto?",
+        "resposta": "Viridian"
+      },
+      "existentes": [
+        {
+          "id": "q10006",
+          "pergunta": "No Japão, o rival do primeiro jogo Pokémon, neto do professor, se chama Green. No Ocidente, ele ganhou o nome de qual outra cor?",
+          "resposta": "Blue (azul)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Cynthia, a campeã de Sinnoh, tem família numa pequena cidade de ruínas antigas, onde mora sua avó. Que cidade é essa?",
+        "resposta": "Celestic"
+      },
+      "existentes": [
+        {
+          "id": "q10002",
+          "pergunta": "Cynthia, campeã da Liga de Sinnoh, é lembrada como uma das batalhas mais difíceis da série. Que dragão é o pokémon principal do time dela?",
+          "resposta": "Garchomp"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O Tenente Surge, líder do ginásio elétrico de Vermilion, tem um nome inglês que, na eletricidade, designa o quê?",
+        "resposta": "Um pico de tensão"
+      },
+      "existentes": [
+        {
+          "id": "q10062",
+          "pergunta": "O Tenente Surge, líder do ginásio elétrico de Vermilion, é um veterano de guerra estrangeiro. Ele é de qual país?",
+          "resposta": "Estados Unidos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a cidade do ginásio do rival; a existente pergunta o nome ocidental do rival."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade da família vs. pokémon principal; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Significado do nome 'Surge' vs. país de origem; fatos diferentes."
+    }
+  ]
+}

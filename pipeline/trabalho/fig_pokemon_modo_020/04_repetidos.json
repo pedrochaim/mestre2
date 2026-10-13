@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Vanillite"
+      },
+      "existentes": [
+        {
+          "id": "q10894",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Gelo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identidade do pokémon (Vanillite); a existente pede o tipo (Gelo). São fatos diferentes."
+    }
+  ]
+}

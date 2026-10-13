@@ -1,0 +1,233 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A silhueta de Clamperl é uma mancha arredondada sem contorno característico; não é reconhecível pela forma."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de foca com cauda em duas nadadeiras e nadadeiras dianteiras abertas, reconhecível.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Dewgong",
+      "ancora": {
+        "nome": "Seel",
+        "descricao": "Pokémon do tipo Água, foca de pelagem branca e chifre na testa, número 86 da Pokédex Nacional.",
+        "variantes": [
+          "Seel (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de filhote de leão com orelhas redondas, topete e cauda com chumaço, distinta.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Pyroar",
+      "ancora": {
+        "nome": "Litleo",
+        "descricao": "Pokémon filhote de leão dos tipos Fogo e Normal, da sexta geração, número 667 da Pokédex Nacional.",
+        "variantes": [
+          "Litleo (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta peculiar de peixe pré-histórico com cabeça enorme de mandíbula aberta e corpo curvado, reconhecível por quem conhece a oitava geração.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dracovish",
+      "ancora": {
+        "nome": "Dracovish",
+        "descricao": "Pokémon fóssil dos tipos Água e Dragão, da oitava geração, número 882 da Pokédex Nacional.",
+        "variantes": [
+          "Dracovish (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta clara do macaco com chama na cabeça e na traseira.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Monferno",
+      "ancora": {
+        "nome": "Chimchar",
+        "descricao": "Pokémon inicial do tipo Fogo da região de Sinnoh, um macaquinho com chama na traseira, número 390 da Pokédex Nacional.",
+        "variantes": [
+          "Chimchar (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de dinossauro bípede de cabeça arredondada tipo capacete, reconhecível; boa para múltipla com silhuetas de dragões pequenos parecidos.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Bagon",
+      "distratores": [
+        "Gible",
+        "Axew",
+        "Tyrunt"
+      ],
+      "ancora": {
+        "nome": "Bagon",
+        "descricao": "Pokémon do tipo Dragão da terceira geração, pequeno bípede azul com capacete rochoso na cabeça, número 371 da Pokédex Nacional.",
+        "variantes": [
+          "Bagon (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta nítida com barbatana na cabeça, bigodes laterais e braços grandes, característica.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este é a evolução direta?",
+      "resposta": "Marshtomp",
+      "ancora": {
+        "nome": "Swampert",
+        "descricao": "Pokémon inicial final dos tipos Água e Terra da região de Hoenn, evolução de Marshtomp, número 260 da Pokédex Nacional.",
+        "variantes": [
+          "Swampert (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de corpo em gota com folha em forma de cauda, razoavelmente característica.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Swalot",
+      "ancora": {
+        "nome": "Gulpin",
+        "descricao": "Pokémon do tipo Veneno da terceira geração, um estômago verde com folha amarela, número 316 da Pokédex Nacional.",
+        "variantes": [
+          "Gulpin (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de lontra em pé com a vieira na barriga e cauda achatada, reconhecível; distratores de iniciais aquáticos parecidos.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Oshawott",
+      "distratores": [
+        "Piplup",
+        "Totodile",
+        "Popplio"
+      ],
+      "ancora": {
+        "nome": "Oshawott",
+        "descricao": "Pokémon inicial do tipo Água da região de Unova, uma lontra com vieira na barriga, número 501 da Pokédex Nacional.",
+        "variantes": [
+          "Oshawott (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta com garras enormes erguidas e corpo pequeno e redondo, característica da toupeira.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Excadrill",
+      "ancora": {
+        "nome": "Drilbur",
+        "descricao": "Pokémon do tipo Terra da quinta geração, uma toupeira com grandes garras, número 529 da Pokédex Nacional.",
+        "variantes": [
+          "Drilbur (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível de âncora com leme e algas penduradas.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dhelmise",
+      "distratores": [
+        "Cursola",
+        "Bronzong",
+        "Trevenant"
+      ],
+      "ancora": {
+        "nome": "Dhelmise",
+        "descricao": "Pokémon dos tipos Fantasma e Planta da sétima geração, uma âncora com leme e algas, número 781 da Pokédex Nacional.",
+        "variantes": [
+          "Dhelmise (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de pokémon rechonchudo de orelhas redondas com Shellder espinhoso preso na cauda, reconhecível.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Slowpoke",
+      "ancora": {
+        "nome": "Slowbro",
+        "descricao": "Pokémon dos tipos Água e Psíquico da primeira geração, um Slowpoke com um Shellder mordendo a cauda, número 80 da Pokédex Nacional.",
+        "variantes": [
+          "Slowbro (Pokémon)"
+        ]
+      }
+    }
+  ]
+}

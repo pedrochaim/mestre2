@@ -1,0 +1,154 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Logo depois de evoluir, o Pidgeot de Ash fica numa floresta de Kanto, e Ash promete voltar para buscá-lo. Por que ele o deixa ali?",
+        "resposta": "Para proteger um bando de Pidgey"
+      },
+      "existentes": [
+        {
+          "id": "q09893",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Pidgeot"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No fim da série XY, o Greninja de Ash fica em Kalos, ao lado do lendário Zygarde. Por que ele se separa do treinador?",
+        "resposta": "Para destruir as raízes gigantes restantes"
+      },
+      "existentes": [
+        {
+          "id": "q09753",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Greninja"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No anime, depois de perder para o Raichu do Tenente Surge, Pikachu recusa uma oferta de Ash. Que oferta é essa?",
+        "resposta": "Evoluir com a Pedra do Trovão"
+      },
+      "existentes": [
+        {
+          "id": "q10062",
+          "pergunta": "O Tenente Surge, líder do ginásio elétrico de Vermilion, é um veterano de guerra estrangeiro. Ele é de qual país?",
+          "resposta": "Estados Unidos"
+        },
+        {
+          "id": "q10192",
+          "pergunta": "O Tenente Surge, líder do ginásio elétrico de Vermilion, tem um nome inglês que, na eletricidade, designa o quê?",
+          "resposta": "Um pico de tensão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Cilan, companheiro de Ash em Unova, e seus irmãos trigêmeos, Chili e Cress, têm nomes inspirados em quê?",
+        "resposta": "Ervas e temperos de cozinha"
+      },
+      "existentes": [
+        {
+          "id": "q09970",
+          "pergunta": "Brock, Misty, Cilan e Clemont viajaram com Ash em regiões diferentes. Que cargo os quatro ocupam em suas cidades?",
+          "resposta": "Líder de ginásio"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Jornadas Pokémon, Ash vence Leon e se torna campeão mundial. Esse episódio foi exibido no Japão em que ano?",
+        "resposta": "2022"
+      },
+      "existentes": [
+        {
+          "id": "q10059",
+          "pergunta": "Leon, campeão da Liga de Galar em Sword e Shield, tem como ás do time qual pokémon de fogo?",
+          "resposta": "Charizard"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Quem dirigiu o primeiro filme Pokémon e comandou o anime como diretor-geral desde a estreia, em 1997?",
+        "resposta": "Kunihiko Yuyama"
+      },
+      "existentes": [
+        {
+          "id": "q09823",
+          "pergunta": "A série animada de Pokémon, com Ash e Pikachu, estreou na televisão japonesa em que ano?",
+          "resposta": "1997"
+        },
+        {
+          "id": "q09976",
+          "pergunta": "Em 1999, o anime Pokémon estreou na TV aberta brasileira por qual emissora?",
+          "resposta": "Record"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No anime, Ash visita a Zona Safári de Kanto e captura de uma vez uma manada inteira de Tauros. Quantos Tauros ele ganhou nessa visita?",
+        "resposta": "30"
+      },
+      "existentes": [
+        {
+          "id": "q09953",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Tauros"
+        },
+        {
+          "id": "q10028",
+          "pergunta": "Em Scarlet e Violet, o Tauros de Paldea tem três raças, todas do tipo Lutador. Uma é só Lutador; as outras duas combinam Lutador com que dois tipos?",
+          "resposta": "Fogo e Água"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre motivo de Ash deixar Pidgeot; a existente só pede identificar o pokémon."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Motivo da separação do Greninja é outro fato; a existente é identificação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Oferta de evolução recusada é fato diferente de país ou significado do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Inspiração dos nomes dos irmãos difere do cargo de líder de ginásio."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ano do episódio é diferente do pokémon ás de Leon nos jogos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Diretor é fato diferente do ano de estreia ou emissora brasileira."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Número de Tauros capturados no anime é distinto das existentes."
+    }
+  ]
+}

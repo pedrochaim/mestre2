@@ -1,0 +1,174 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Poliwrath"
+      },
+      "existentes": [
+        {
+          "id": "q10115",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Poliwrath"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Hawlucha"
+      },
+      "existentes": [
+        {
+          "id": "q10551",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Hawlucha"
+        },
+        {
+          "id": "q11081",
+          "pergunta": "Hawlucha, o pokémon de Kalos que é metade falcão e metade lutador mascarado, se inspira na luta livre de qual país?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Cryogonal"
+      },
+      "existentes": [
+        {
+          "id": "q10320",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Gelo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Groudon"
+      },
+      "existentes": [
+        {
+          "id": "q10015",
+          "pergunta": "Em Omega Ruby e Alpha Sapphire, Groudon e Kyogre, segurando orbes antigas, passam pela mesma transformação, que os devolve à forma ancestral. Como ela se chama?",
+          "resposta": "Reversão Primal"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Flamigo"
+      },
+      "existentes": [
+        {
+          "id": "q11028",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Flamigo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Omanyte"
+      },
+      "existentes": [
+        {
+          "id": "q10529",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Omanyte"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Feebas"
+      },
+      "existentes": [
+        {
+          "id": "q10017",
+          "pergunta": "Em Ruby e Sapphire, o feio peixe Feebas só evolui para Milotic quando uma de suas condições de concurso passa de determinado valor. Que condição é essa?",
+          "resposta": "Beleza"
+        },
+        {
+          "id": "q10768",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Feebas"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Quem é esse pokémon?",
+        "resposta": "Heatmor"
+      },
+      "existentes": [
+        {
+          "id": "q10155",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Heatmor"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificar o pokémon, mesma resposta Poliwrath.",
+      "id_existente": "q10115"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Identificar Hawlucha; mesma resposta que q10551.",
+      "id_existente": "q10551"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o tipo (Gelo); nova pede o nome do pokémon, fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o nome da transformação; nova pede identificar Groudon."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Identificar Flamigo; mesma resposta.",
+      "id_existente": "q11028"
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Identificar Omanyte; mesma resposta.",
+      "id_existente": "q10529"
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Identificar Feebas; mesma resposta que q10768.",
+      "id_existente": "q10768"
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Identificar Heatmor; mesma resposta.",
+      "id_existente": "q10155"
+    }
+  ]
+}

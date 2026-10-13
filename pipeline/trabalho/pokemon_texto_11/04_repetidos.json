@@ -1,0 +1,125 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Gold e Silver, Eevee muito apegado ao treinador pode evoluir para Espeon ou para Umbreon. O que decide qual dos dois surge?",
+        "resposta": "Ser dia ou noite"
+      },
+      "existentes": [
+        {
+          "id": "q09741",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Eevee"
+        },
+        {
+          "id": "q09847",
+          "pergunta": "O nome Eevee imita a pronúncia, em inglês, das duas primeiras letras de qual palavra, que resume a grande marca desse pokémon?",
+          "resposta": "Evolution, evolução"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Gold e Silver, o jogador encontra um brilhante garantido, um Gyarados vermelho. Em que lugar de Johto ele aparece?",
+        "resposta": "Lago da Fúria"
+      },
+      "existentes": [
+        {
+          "id": "q10049",
+          "pergunta": "De Gold e Silver até Black e White, a chance de um pokémon selvagem aparecer brilhante, com cor rara, era de uma em quantas?",
+          "resposta": "8192"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Sword e Shield, depois de ativar o Dynamax numa batalha, por quantos turnos o pokémon permanece gigante?",
+        "resposta": "Três turnos"
+      },
+      "existentes": [
+        {
+          "id": "q10198",
+          "pergunta": "Em Sword e Shield, a energia que faz os pokémon de Galar ficarem gigantes nas batalhas vem de qual lendário, caído do céu há milênios?",
+          "resposta": "Eternatus"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O golpe Splash, em que o peixe Magikarp fica pulando sem parar, tem que efeito na batalha?",
+        "resposta": "Nenhum"
+      },
+      "existentes": [
+        {
+          "id": "q09793",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Magikarp"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Sketch, o golpe exclusivo do pokémon pintor Smeargle, permite que ele faça o quê?",
+        "resposta": "Copiar para sempre um golpe do adversário"
+      },
+      "existentes": [
+        {
+          "id": "q10080",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Smeargle"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O nome do cão pintor Smeargle junta smear, que em inglês significa borrar, com o nome de qual raça de cachorro?",
+        "resposta": "Beagle"
+      },
+      "existentes": [
+        {
+          "id": "q10080",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Smeargle"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato sobre o que decide a evolução, diferente de identificar Eevee ou etimologia do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local do Gyarados vermelho, diferente da chance de brilhante."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Duração do Dynamax, diferente da origem da energia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Efeito do golpe Splash, não identificação do Magikarp."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Efeito do golpe Sketch, diferente da identificação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome, diferente da identificação."
+    }
+  ]
+}

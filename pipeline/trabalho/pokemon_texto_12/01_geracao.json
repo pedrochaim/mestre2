@@ -1,0 +1,637 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "pokemon_mystery_dungeon",
+        "nome": "Pokémon Mystery Dungeon",
+        "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+        "variantes": [
+          "Pokémon Fushigi no Dungeon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A série Pokémon Mystery Dungeon, de masmorras que mudam a cada visita, foi desenvolvida por qual estúdio japonês, criador do jogo Shiren the Wanderer?",
+      "resposta": "Chunsoft (hoje Spike Chunsoft)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon",
+        "https://en.wikipedia.org/wiki/Spike_Chunsoft"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_mystery_dungeon",
+        "nome": "Pokémon Mystery Dungeon",
+        "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+        "variantes": [
+          "Pokémon Fushigi no Dungeon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os primeiros jogos da série Pokémon Mystery Dungeon, Red Rescue Team e Blue Rescue Team, chegaram às lojas japonesas em que ano?",
+      "resposta": "2005",
+      "distratores": [
+        "2003",
+        "2004",
+        "2007"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness",
+        "descricao": "Par de jogos da série Pokémon Mystery Dungeon lançado em 2007 para Nintendo DS, em que o herói entra numa guilda de exploradores.",
+        "variantes": [
+          "Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness",
+          "Pokémon Mystery Dungeon: Explorers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Mystery Dungeon: Explorers of Time e Darkness, o herói treina numa guilda de exploradores. Que pokémon rosado, de jeito distraído, é o mestre dessa guilda?",
+      "resposta": "Wigglytuff",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokken_tournament",
+        "nome": "Pokkén Tournament",
+        "descricao": "Jogo de luta da franquia Pokémon, lançado em 2015, que mistura Pokémon com a jogabilidade de Tekken.",
+        "variantes": [
+          "Pokkén Tournament DX"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pokk%C3%A9n_Tournament"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No modo história de Pokkén Tournament, o grande vilão é uma versão sombria e corrompida de qual pokémon lendário?",
+      "resposta": "Mewtwo (Shadow Mewtwo)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pokk%C3%A9n_Tournament"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_snap",
+        "nome": "Pokémon Snap",
+        "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nos Estados Unidos, quem jogava Pokémon Snap podia imprimir as próprias fotos como adesivos em quiosques espalhados por qual rede de locadoras de vídeo?",
+      "resposta": "Blockbuster",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_snap",
+        "nome": "Pokémon Snap",
+        "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O Pokémon Snap original, de Nintendo 64, foi desenvolvido com a participação de qual estúdio japonês, o mesmo que criou o personagem Kirby?",
+      "resposta": "HAL Laboratory",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "New Pokémon Snap",
+        "descricao": "Jogo de fotografia de pokémon para Nintendo Switch, continuação de Pokémon Snap, desenvolvido pela Bandai Namco Studios.",
+        "variantes": [
+          "Shin Pokémon Snap"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/New_Pok%C3%A9mon_Snap"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "New Pokémon Snap, a continuação do jogo de fotografar pokémon, se passa em qual região de ilhas, estudada pelo Professor Mirror?",
+      "resposta": "Lental",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/New_Pok%C3%A9mon_Snap"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "New Pokémon Snap",
+        "descricao": "Jogo de fotografia de pokémon para Nintendo Switch, continuação de Pokémon Snap, desenvolvido pela Bandai Namco Studios.",
+        "variantes": [
+          "Shin Pokémon Snap"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/New_Pok%C3%A9mon_Snap"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Mais de vinte anos depois do original de Nintendo 64, New Pokémon Snap chegou ao Nintendo Switch em que ano?",
+      "resposta": "2021",
+      "distratores": [
+        "2019",
+        "2020",
+        "2022"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/New_Pok%C3%A9mon_Snap"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_stadium",
+        "nome": "Pokémon Stadium",
+        "descricao": "Jogo de batalhas Pokémon em 3D para Nintendo 64, que permitia usar pokémon dos jogos de Game Boy.",
+        "variantes": [
+          "Pocket Monsters Stadium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Stadium"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O primeiro Pokémon Stadium, lançado só no Japão em 1998, não tinha todos os 151 pokémon. Quantos deles podiam ser usados nas batalhas?",
+      "resposta": "42",
+      "distratores": [
+        "25",
+        "64",
+        "100"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Stadium",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Stadium_(Japanese)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_legends_arceus",
+        "nome": "Pokémon Legends: Arceus",
+        "descricao": "Jogo Pokémon de 2022 para o Nintendo Switch, ambientado na antiga região de Hisui.",
+        "variantes": [
+          "Legends: Arceus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Legends: Arceus, que levou o jogador à antiga região de Hisui, chegou ao Nintendo Switch em que ano?",
+      "resposta": "2022",
+      "distratores": [
+        "2020",
+        "2021",
+        "2023"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_legends_arceus",
+        "nome": "Pokémon Legends: Arceus",
+        "descricao": "Jogo Pokémon de 2022 para o Nintendo Switch, ambientado na antiga região de Hisui.",
+        "variantes": [
+          "Legends: Arceus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, o jogador escolhe o inicial entre Cyndaquil, de Johto, Oshawott, de Unova, e qual pokémon coruja de Alola?",
+      "resposta": "Rowlet",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "scyther",
+        "nome": "Scyther",
+        "descricao": "Pokémon mantis dos tipos Inseto e Voador, número 123 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em Legends: Arceus, o louva-a-deus Scyther ganhou uma nova evolução, com machados de pedra no lugar das lâminas. Que pokémon é esse?",
+      "resposta": "Kleavor",
+      "distratores": [
+        "Sneasler",
+        "Wyrdeer",
+        "Ursaluna"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kleavor_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_legends_z_a",
+        "nome": "Pokémon Legends: Z-A",
+        "descricao": "Jogo Pokémon de 2025, para Nintendo Switch e Switch 2, ambientado na cidade de Lumiose, na região de Kalos.",
+        "variantes": [
+          "Legends Z-A"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Z-A"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Legends Z-A, que se passa inteiramente na cidade de Lumiose, chegou ao Nintendo Switch e ao Switch 2 em que ano?",
+      "resposta": "2025",
+      "distratores": [
+        "2023",
+        "2024",
+        "2026"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Z-A"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_legends_z_a",
+        "nome": "Pokémon Legends: Z-A",
+        "descricao": "Jogo Pokémon de 2025, para Nintendo Switch e Switch 2, ambientado na cidade de Lumiose, na região de Kalos.",
+        "variantes": [
+          "Legends Z-A"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Z-A"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Legends Z-A, as batalhas abandonam o tradicional sistema de turnos da série. Como elas passam a acontecer?",
+      "resposta": "Em tempo real",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Z-A"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "detetive_pikachu_filme",
+        "nome": "Detetive Pikachu (filme)",
+        "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério.",
+        "variantes": [
+          "Pokémon: Detetive Pikachu",
+          "Pokémon Detective Pikachu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Detective_Pikachu"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na versão original do filme Detetive Pikachu, de 2019, qual ator canadense dá voz ao Pikachu falante de boné?",
+      "resposta": "Ryan Reynolds",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Detective_Pikachu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Detetive Pikachu (jogo)",
+        "descricao": "Jogo de aventura e investigação para Nintendo 3DS, lançado no Japão em 2016 e no Ocidente em 2018, que inspirou o filme de 2019.",
+        "variantes": [
+          "Detective Pikachu",
+          "Meitantei Pikachu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Detective_Pikachu_(video_game)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O jogo Detetive Pikachu, para Nintendo 3DS, que inspirou o filme, foi desenvolvido por qual empresa, uma das três sócias da The Pokémon Company?",
+      "resposta": "Creatures",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Detective_Pikachu_(video_game)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_estampas_ilustradas",
+        "nome": "Pokémon Estampas Ilustradas",
+        "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+        "variantes": [
+          "Pokémon Trading Card Game",
+          "Pokémon TCG"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "De 1999 a 2003, o card game Pokémon foi publicado nos Estados Unidos por qual empresa, a mesma de Magic: The Gathering?",
+      "resposta": "Wizards of the Coast",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_estampas_ilustradas",
+        "nome": "Pokémon Estampas Ilustradas",
+        "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+        "variantes": [
+          "Pokémon Trading Card Game",
+          "Pokémon TCG"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Numa partida comum do card game Pokémon, cada jogador separa cartas de prêmio, e quem pega todas as suas vence. Quantas são essas cartas?",
+      "resposta": "Seis",
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "base_set",
+        "nome": "Base Set",
+        "descricao": "Primeira coleção do card game Pokémon, lançada no Japão em 1996 e em inglês em 1999, famosa pelo Charizard holográfico.",
+        "variantes": [
+          "Coleção Básica"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Base_Set_(TCG)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que ilustrador japonês desenhou o Charizard holográfico do Base Set, a carta mais cobiçada da primeira coleção do card game Pokémon?",
+      "resposta": "Mitsuhiro Arita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mitsuhiro_Arita",
+        "https://bulbapedia.bulbagarden.net/wiki/Base_Set_(TCG)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Adventures",
+        "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+        "variantes": [
+          "Pocket Monsters Special",
+          "Pokémon Special"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Adventures"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Quem escreve o mangá Pokémon Adventures, publicado desde 1997 e famoso por seguir de perto a história dos jogos?",
+      "resposta": "Hidenori Kusaka",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Adventures"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Adventures",
+        "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+        "variantes": [
+          "Pocket Monsters Special",
+          "Pokémon Special"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Adventures"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Japão, o mangá Pokémon Adventures tem um título formado por Pocket Monsters e mais uma palavra em inglês. Que palavra é essa?",
+      "resposta": "Special",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Adventures"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Red (Pokémon Adventures)",
+        "descricao": "Protagonista do primeiro arco do mangá Pokémon Adventures, treinador de Pallet inspirado no herói dos jogos Red e Blue.",
+        "variantes": [
+          "Red (mangá)"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Red_(Adventures)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No mangá Pokémon Adventures, o primeiro parceiro do protagonista Red não é um inicial dos jogos, mas um girino de barriga em espiral. Que pokémon é esse?",
+      "resposta": "Poliwag",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Red_(Adventures)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "meltan",
+        "nome": "Meltan",
+        "descricao": "Pokémon do tipo Aço, número 808 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O mítico Meltan, um pequeno pokémon de metal líquido, apareceu pela primeira vez em 2018 em qual jogo, antes de chegar à série principal?",
+      "resposta": "Pokémon Go",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "meltan",
+        "nome": "Meltan",
+        "descricao": "Pokémon do tipo Aço, número 808 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do mítico Meltan junta melt, derreter em inglês, com qual palavra inglesa, que nomeia a peça de metal que forma a cabeça dele?",
+      "resposta": "Nut (porca)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Professor Willow",
+        "descricao": "Professor pokémon de Pokémon Go, que orienta o jogador e recebe os pokémon transferidos em troca de doces.",
+        "variantes": [
+          "Professor Salgueiro"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Willow"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Como os professores dos jogos principais, o Professor Willow, de Pokémon Go, tem nome de árvore. Que árvore é essa?",
+      "resposta": "Salgueiro",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Willow"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "equipes_de_pokemon_go",
+        "nome": "Equipes de Pokémon Go",
+        "descricao": "As três equipes, Mystic, Valor e Instinct, entre as quais os jogadores de Pokémon Go se dividem para disputar ginásios.",
+        "variantes": [
+          "Team Mystic",
+          "Team Valor",
+          "Team Instinct"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Go, cada equipe tem uma ave lendária como símbolo. Qual ave representa a equipe Mystic, a azul?",
+      "resposta": "Articuno",
+      "distratores": [
+        "Zapdos",
+        "Moltres",
+        "Lugia"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Mystic",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ditto",
+        "nome": "Ditto",
+        "descricao": "Pokémon do tipo Normal, número 132 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Go, por que o jogador só descobre que encontrou um Ditto depois de capturá-lo?",
+      "resposta": "Ele aparece disfarçado de outro pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hey You, Pikachu!",
+        "descricao": "Jogo de 1998 para Nintendo 64 em que o jogador convive com um Pikachu e conversa com ele por comandos de voz.",
+        "variantes": [
+          "Pikachū Genki Dechū"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hey_You,_Pikachu!"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No jogo Hey You, Pikachu!, de Nintendo 64, o jogador dá ordens e conversa com o Pikachu. Que acessório vinha com o jogo para isso?",
+      "resposta": "Um microfone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hey_You,_Pikachu!"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Masters",
+        "descricao": "Jogo para celular da DeNA, lançado em 2019, em que treinadores famosos da franquia batalham ao lado de seus pokémon.",
+        "variantes": [
+          "Pokémon Masters EX"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Masters_EX"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Masters, treinadores famosos de todas as regiões se reúnem para um grande torneio numa ilha artificial. Como ela se chama?",
+      "resposta": "Pasio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Masters_EX"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Conquest",
+        "descricao": "Jogo de estratégia de 2012 para Nintendo DS, que leva os pokémon ao Japão feudal dos senhores da guerra.",
+        "variantes": [
+          "Pokémon + Nobunaga no Yabō"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Conquest"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Pokémon Conquest, de 2012, para Nintendo DS, mistura os pokémon com qual série de estratégia da Koei, ambientada no Japão feudal?",
+      "resposta": "Nobunaga's Ambition",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Conquest"
+      ]
+    }
+  ]
+}

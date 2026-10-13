@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de serpente com leque de espinhos, característica da forma 50% de Zygarde.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Zygarde",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Zygarde",
+        "descricao": "Pokémon lendário do tipo Dragão/Terra da sexta geração, número 718 da Pokédex Nacional.",
+        "variantes": [
+          "Zygarde 50%"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com garras erguidas e tufos, razoavelmente característica; múltipla com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Abomasnow",
+      "distratores": [
+        "Crabominable",
+        "Beartic",
+        "Avalugg"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Abomasnow",
+        "descricao": "Pokémon do tipo Planta/Gelo da quarta geração, número 460 da Pokédex Nacional, evolução de Snover.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta com cabelo em cachos e pingentes e saia, reconhecível; múltipla por causa da linha Gothita.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gothorita",
+      "distratores": [
+        "Gothita",
+        "Gothitelle",
+        "Duosion"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Gothorita",
+        "descricao": "Pokémon do tipo Psíquico da quinta geração, número 575 da Pokédex Nacional, evolução intermediária de Gothita.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A silhueta é uma massa sem cabeça ou membros definidos; pode ser confundida com outros pokémon blindados e quadrúpedes."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta com mandíbula grande e vela dorsal reconhecível; múltipla com a linha evolutiva.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Arctibax",
+      "distratores": [
+        "Frigibax",
+        "Baxcalibur",
+        "Gible"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Arctibax",
+        "descricao": "Pokémon do tipo Dragão/Gelo da nona geração, número 997 da Pokédex Nacional, evolução intermediária de Frigibax.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta com orelhas longas caídas e pés finos, bem característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Lopunny",
+      "distratores": [
+        "Buneary",
+        "Diggersby",
+        "Cinccino"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Lopunny",
+        "descricao": "Pokémon coelho do tipo Normal da quarta geração, número 428 da Pokédex Nacional, evolução de Buneary.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de urso com braços erguidos e tufo na cabeça, reconhecível; pergunta sobre a pré-evolução.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que pokémon evolui para este?",
+      "resposta": "Stufful",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Bewear",
+        "descricao": "Pokémon urso do tipo Normal/Lutador da sétima geração, número 760 da Pokédex Nacional, evolução de Stufful.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Corpo redondo com tufo curvo e cauda, bem característico da forma normal de Castform.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Castform",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Castform",
+        "descricao": "Pokémon do clima, tipo Normal na forma normal, da terceira geração, número 351 da Pokédex Nacional.",
+        "variantes": [
+          "Castform normal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta com placa de chifres na cabeça, garras e cauda, característica; distratores de silhueta robusta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Aggron",
+      "distratores": [
+        "Rhyperior",
+        "Tyranitar",
+        "Golem"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Aggron",
+        "descricao": "Pokémon do tipo Aço/Pedra da terceira geração, número 306 da Pokédex Nacional, evolução final de Aron.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de ave de penas em pompom com asa erguida e perna fina, bem peculiar.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Oricorio",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Oricorio",
+        "descricao": "Pokémon ave dançarina da sétima geração, número 741 da Pokédex Nacional, com quatro estilos de dança.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta com lâminas nos braços, cabeça de chapéu e quadris largos, bem característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Gallade",
+      "distratores": [
+        "Gardevoir",
+        "Kirlia",
+        "Mienshao"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Gallade",
+        "descricao": "Pokémon do tipo Psíquico/Lutador da quarta geração, número 475 da Pokédex Nacional, evolução de Kirlia.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de filhote com juba de espinhos, orelhas grandes e patas peludas, reconhecível; pergunta sobre a evolução.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Herdier",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Lillipup",
+        "descricao": "Pokémon filhote de cão do tipo Normal da quinta geração, número 506 da Pokédex Nacional, que evolui para Herdier.",
+        "variantes": []
+      }
+    }
+  ]
+}

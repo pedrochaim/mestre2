@@ -1,0 +1,696 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Galar",
+        "descricao": "Região fictícia dos jogos Pokémon Sword e Shield, da oitava geração, inspirada na Grã-Bretanha.",
+        "variantes": [
+          "Região de Galar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Galar"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Trens a vapor, castelos, chá e estádios lotados: a região de Galar, de Pokémon Sword e Shield, foi desenhada a partir de qual país?",
+      "resposta": "Reino Unido",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Galar",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Wyndon",
+        "descricao": "Metrópole do sul da região de Galar, nos jogos Pokémon Sword e Shield, onde acontece a final do torneio da Liga.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wyndon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Sword e Shield, a final do torneio de Galar acontece em Wyndon, a grande metrópole do sul da região. Ela se inspira em qual cidade?",
+      "resposta": "Londres",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wyndon"
+      ],
+      "distratores": [
+        "Edimburgo",
+        "Manchester",
+        "Liverpool"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Palácio Parfum",
+        "descricao": "Palácio luxuoso com grandes jardins na região de Kalos, nos jogos Pokémon X e Y.",
+        "variantes": [
+          "Parfum Palace"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Parfum_Palace"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em X e Y, o Palácio Parfum, de Kalos, com jardins enormes e salões dourados, se inspira em qual palácio francês?",
+      "resposta": "Versalhes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Parfum_Palace"
+      ],
+      "distratores": [
+        "Fontainebleau",
+        "Louvre",
+        "Chambord"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "equipe_rocket",
+        "nome": "Equipe Rocket",
+        "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+        "variantes": [
+          "Team Rocket"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Rocket"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, o esconderijo secreto da Equipe Rocket fica escondido debaixo de um salão de jogos. Em que cidade de Kanto?",
+      "resposta": "Celadon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rocket_Hideout"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "pokemon_o_filme",
+        "nome": "Pokémon: O Filme",
+        "descricao": "Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa.",
+        "variantes": [
+          "Mewtwo Strikes Back",
+          "Pokémon: The First Movie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon: O Filme, Mewtwo convida os melhores treinadores para o castelo dele, numa ilha cercada por uma tempestade. Que ilha é essa?",
+      "resposta": "New Island",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Academia Blueberry",
+        "descricao": "Escola de intercâmbio da expansão The Indigo Disk, de Pokémon Scarlet e Violet, famosa pelo Terário subaquático.",
+        "variantes": [
+          "Blueberry Academy"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Blueberry_Academy"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Na expansão The Indigo Disk, de Scarlet e Violet, o jogador faz intercâmbio na Academia Blueberry. Em que região ela fica?",
+      "resposta": "Unova",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Blueberry_Academy",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "distratores": [
+        "Kalos",
+        "Galar",
+        "Kanto"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Ilhas Seafoam",
+        "descricao": "Arquipélago de cavernas geladas ao sul de Kanto, nos jogos Pokémon Red e Blue.",
+        "variantes": [
+          "Seafoam Islands"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Seafoam_Islands"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, qual ave lendária espera o jogador no fundo das cavernas geladas das Ilhas Seafoam?",
+      "resposta": "Articuno",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Seafoam_Islands"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Ruínas de Alph",
+        "descricao": "Ruínas antigas da região de Johto, nos jogos Pokémon Gold e Silver, com câmaras de painéis de pedra e inscrições misteriosas.",
+        "variantes": [
+          "Ruins of Alph"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ruins_of_Alph"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, que pokémon psíquico, com corpo em forma de símbolos, habita as câmaras das Ruínas de Alph, em Johto?",
+      "resposta": "Unown",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ruins_of_Alph"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Grande Cratera de Paldea",
+        "descricao": "Enorme cratera no centro da região de Paldea, nos jogos Pokémon Scarlet e Violet.",
+        "variantes": [
+          "Great Crater of Paldea"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Area_Zero",
+          "https://bulbapedia.bulbagarden.net/wiki/Paldea"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, no fundo da Grande Cratera de Paldea, fica um lugar proibido onde vivem os pokémon paradoxo. Como ele se chama?",
+      "resposta": "Área Zero",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Area_Zero"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Mt. Moon",
+        "descricao": "Montanha com cavernas entre Pewter e Cerulean, em Kanto, nos jogos Pokémon Red e Blue, famosa pelos Clefairy e pelos fósseis.",
+        "variantes": [
+          "Monte Lua",
+          "Mount Moon"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mt._Moon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, no fim do Mt. Moon, o jogador fica com um de dois fósseis. Que pokémon podem renascer deles?",
+      "resposta": "Kabuto e Omanyte",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mt._Moon"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Sootopolis",
+        "descricao": "Cidade da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, cercada de paredões de rocha e acessível por mergulho ou voo.",
+        "variantes": [
+          "Sootopolis City"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sootopolis_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, a cidade de Sootopolis, onde fica o ginásio de Wallace, foi construída dentro de quê?",
+      "resposta": "Uma cratera",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sootopolis_City"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Silph",
+        "descricao": "Empresa da cidade de Saffron, em Kanto, fabricante de Poké Bolas e outros itens nos jogos Pokémon.",
+        "variantes": [
+          "Silph Co.",
+          "Silph S.A."
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Silph_Co."
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, a Equipe Rocket toma o prédio da Silph, em Saffron. Que invenção da empresa os vilões querem roubar?",
+      "resposta": "A Master Ball",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Silph_Co."
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "slowpoke",
+        "nome": "Slowpoke",
+        "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, por que a Equipe Rocket invade o poço dos Slowpoke, na cidade de Azalea, em Johto?",
+      "resposta": "Para cortar e vender as caudas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_Well"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Lago da Fúria",
+        "descricao": "Lago da região de Johto, nos jogos Pokémon Gold e Silver, onde aparece um Gyarados vermelho.",
+        "variantes": [
+          "Lake of Rage"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lake_of_Rage"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, os Magikarp do Lago da Fúria são forçados a evoluir em Gyarados furiosos. O que provoca isso?",
+      "resposta": "Um sinal de rádio da Equipe Rocket",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lake_of_Rage"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Vermilion",
+        "descricao": "Cidade portuária da região de Kanto, nos jogos Pokémon Red e Blue, onde fica o ginásio elétrico do Tenente Surge.",
+        "variantes": [
+          "Vermilion City"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Vermilion_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Viridian, Cerulean, Vermilion, Lavender, Celadon e Fuchsia são cidades de Kanto. O que esses nomes têm em comum?",
+      "resposta": "São nomes de cores",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vermilion_City",
+        "https://bulbapedia.bulbagarden.net/wiki/Kanto"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Oficial Jenny",
+        "descricao": "Policial do anime Pokémon que aparece em quase todas as cidades, sempre com a mesma aparência.",
+        "variantes": [
+          "Officer Jenny",
+          "Junsar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Officer_Jenny"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No anime, o que a Enfermeira Joy, do Centro Pokémon, e a Oficial Jenny, da polícia, têm em comum?",
+      "resposta": "Há uma idêntica em cada cidade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Officer_Jenny",
+        "https://bulbapedia.bulbagarden.net/wiki/Nurse_Joy"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Monte Pyre",
+        "descricao": "Montanha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, que serve de cemitério de pokémon e guarda as orbes de Groudon e Kyogre.",
+        "variantes": [
+          "Mt. Pyre"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mt._Pyre"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que a Torre Pokémon, de Kanto, e o Monte Pyre, de Hoenn, têm em comum?",
+      "resposta": "São cemitérios de pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mt._Pyre",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Tower"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "red_treinador",
+        "nome": "Red (treinador)",
+        "descricao": "Protagonista silencioso dos jogos Pokémon Red, Green e Blue, que reaparece como desafio final na segunda geração.",
+        "variantes": [
+          "Red"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Red_(game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Red, o protagonista dos primeiros jogos, e Ash, do anime, partem em jornada da mesma pequena cidade de Kanto. Que cidade é essa?",
+      "resposta": "Pallet",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pallet_Town",
+        "https://bulbapedia.bulbagarden.net/wiki/Red_(game)"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Professor Birch",
+        "descricao": "Professor pokémon da região de Hoenn, que entrega o inicial ao jogador nos jogos Pokémon Ruby e Sapphire.",
+        "variantes": [
+          "Professor Bétula"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Birch"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os nomes dos professores pokémon Elm, de Johto, Birch, de Hoenn, Rowan, de Sinnoh, e Sycamore, de Kalos, têm em comum?",
+      "resposta": "São nomes de árvores",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Birch",
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Elm"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "kalos",
+        "nome": "Kalos",
+        "descricao": "Região fictícia dos jogos Pokémon X e Y, da sexta geração, cuja capital é a cidade de Lumiose.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kalos"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da região de Kalos, de Pokémon X e Y, vem de uma palavra grega. O que ela significa?",
+      "resposta": "Belo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kalos"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Hisui",
+        "descricao": "Antiga região do jogo Pokémon Legends: Arceus, que corresponde a Sinnoh muitos anos antes dos jogos Diamond e Pearl.",
+        "variantes": [
+          "Região de Hisui"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hisui"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Hisui, a antiga região de Pokémon Legends: Arceus, tem um nome japonês que designa qual pedra verde?",
+      "resposta": "Jade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hisui"
+      ],
+      "distratores": [
+        "Esmeralda",
+        "Malaquita",
+        "Turmalina"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Academia Naranja e Uva",
+        "descricao": "Escola de Paldea onde estuda o protagonista de Pokémon Scarlet e Violet, com nome diferente em cada versão.",
+        "variantes": [
+          "Naranja Academy",
+          "Uva Academy",
+          "Academia Laranja",
+          "Academia Uva"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Naranja_Academy"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em Scarlet, a escola de Paldea se chama Academia Naranja; em Violet, Academia Uva. De que idioma vêm esses nomes?",
+      "resposta": "Espanhol",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Naranja_Academy"
+      ],
+      "distratores": [
+        "Italiano",
+        "Catalão",
+        "Português"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Ilhas Laranja",
+        "descricao": "Arquipélago exclusivo do anime Pokémon, visitado por Ash depois de Kanto, onde ele vence a Liga Laranja.",
+        "variantes": [
+          "Orange Islands",
+          "Arquipélago Laranja",
+          "Orange Archipelago"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Orange_Archipelago"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No anime, Ash visita ilhas chamadas Valencia, Tangelo, Kumquat e Pummelo. De onde vêm esses nomes?",
+      "resposta": "De frutas cítricas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Orange_Archipelago"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Torre Sprout",
+        "descricao": "Torre de madeira da cidade de Violet, em Johto, onde monges treinam, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Sprout Tower"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sprout_Tower"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na cidade de Violet, em Johto, monges treinam numa torre de madeira cujo pilar central balança sem parar. Que pokémon dá nome a essa torre?",
+      "resposta": "Bellsprout",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sprout_Tower"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Lumiose",
+        "descricao": "Grande cidade no centro da região de Kalos, nos jogos Pokémon X e Y, inspirada em Paris e marcada pela Torre Prisma.",
+        "variantes": [
+          "Lumiose City"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lumiose_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome de Lumiose, a grande cidade de Kalos inspirada em Paris, vem de uma palavra francesa. O que ela significa?",
+      "resposta": "Luz",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lumiose_City"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Pokémon FireRed e LeafGreen",
+        "descricao": "Recriações de Pokémon Red e Green para o Game Boy Advance, ambientadas na região de Kanto.",
+        "variantes": [
+          "Pokémon FireRed",
+          "Pokémon LeafGreen",
+          "FireRed e LeafGreen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "FireRed e LeafGreen, que recriaram os primeiros jogos e levaram Kanto ao Game Boy Advance, saíram no Japão em que ano?",
+      "resposta": "2004",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen"
+      ],
+      "distratores": [
+        "2002",
+        "2003",
+        "2006"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "alola",
+        "nome": "Alola",
+        "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alola"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Sem contar a ilha artificial da Fundação Aether, quantas ilhas principais formam a região de Alola?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alola"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "alola",
+        "nome": "Alola",
+        "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alola"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Nos jogos Pokémon, qual destas regiões troca os tradicionais ginásios por provas comandadas por jovens capitães?",
+      "resposta": "Alola",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alola",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "distratores": [
+        "Kanto",
+        "Hoenn",
+        "Galar"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Bolas de Apricorn",
+        "descricao": "Poké Bolas especiais feitas à mão a partir de frutos chamados Apricorn, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Apricorn Balls",
+          "Bolas Apricorn"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Apricorn"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, um velho artesão da cidade de Azalea transforma frutos Apricorn em Poké Bolas especiais. Como ele se chama?",
+      "resposta": "Kurt",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kurt",
+        "https://bulbapedia.bulbagarden.net/wiki/Apricorn"
+      ]
+    }
+  ]
+}

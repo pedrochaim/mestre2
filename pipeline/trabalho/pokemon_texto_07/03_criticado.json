@@ -1,0 +1,584 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Sabrina",
+        "descricao": "Líder do ginásio de tipo Psíquico de Saffron, em Kanto, nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Natsume"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sabrina"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, Sabrina, a líder de ginásio que domina pokémon psíquicos, comanda o ginásio de qual cidade de Kanto?",
+      "resposta": "Saffron",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sabrina"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Sabrina",
+        "descricao": "Líder do ginásio de tipo Psíquico de Saffron, em Kanto, nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Natsume"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sabrina"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No anime, Ash só conquista a insígnia da temida Sabrina porque um pokémon fantasma a faz cair na gargalhada. Que pokémon é esse?",
+      "resposta": "Haunter",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/EP024"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Erika",
+        "descricao": "Líder do ginásio de tipo Planta de Celadon, em Kanto, nos jogos Pokémon.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Erika"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Erika, a líder do ginásio de plantas de Celadon, tem o nome de um gênero de arbustos floridos. Que planta é essa?",
+      "resposta": "Urze",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Erika"
+      ],
+      "distratores": [
+        "Lavanda",
+        "Camélia",
+        "Hortênsia"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Blaine",
+        "descricao": "Líder do ginásio de tipo Fogo da ilha Cinnabar, em Kanto, nos jogos Pokémon, famoso pelos enigmas.",
+        "variantes": [
+          "Katsura"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Blaine"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, Blaine, o líder de fogo de Kanto, perdeu o ginásio da ilha Cinnabar e passou a lutar numa caverna. O que destruiu seu ginásio?",
+      "resposta": "A erupção do vulcão da ilha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Blaine"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "blue_rival",
+        "nome": "Blue (rival)",
+        "descricao": "Rival do protagonista e neto do Professor Carvalho nos jogos Pokémon Red, Green e Blue, chamado Green no Japão.",
+        "variantes": [
+          "Green"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, o rival dos primeiros jogos, neto do Professor Carvalho, reaparece como líder de ginásio. Em que cidade de Kanto?",
+      "resposta": "Viridian",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Janine",
+        "descricao": "Líder do ginásio de tipo Venenoso de Fuchsia nos jogos Pokémon Gold, Silver e Crystal, ninja como o pai.",
+        "variantes": [
+          "Anzu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Janine"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, o ginásio venenoso de Fuchsia passa para Janine, enquanto o antigo líder ninja entra na Elite dos Quatro. Que laço ela tem com ele?",
+      "resposta": "É filha de Koga",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Janine"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Agatha",
+        "descricao": "Treinadora idosa especialista em pokémon fantasmas, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue.",
+        "variantes": [
+          "Kikuko"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Agatha"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Agatha, a idosa da Elite dos Quatro de Kanto especialista em fantasmas, foi rival na juventude de qual personagem famoso dos jogos?",
+      "resposta": "Professor Carvalho",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Agatha"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Lorelei",
+        "descricao": "Treinadora especialista em pokémon de gelo, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue.",
+        "variantes": [
+          "Kanna"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lorelei"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome de Lorelei, da Elite dos Quatro de Kanto, vem de um rochedo lendário onde uma sereia atraía marinheiros. Esse rochedo fica em qual rio?",
+      "resposta": "Reno",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lorelei",
+        "https://en.wikipedia.org/wiki/Lorelei"
+      ],
+      "distratores": [
+        "Danúbio",
+        "Elba",
+        "Sena"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Morty",
+        "descricao": "Líder do ginásio de tipo Fantasma de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Matsuba"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Morty"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Morty, o líder de fantasmas que treina na esperança de ver o lendário Ho-Oh, comanda o ginásio de qual cidade de Johto?",
+      "resposta": "Ecruteak",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Morty"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Jasmine",
+        "descricao": "Líder do ginásio de tipo Aço de Olivine, em Johto, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Mikan"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Jasmine"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, Jasmine, a líder de aço de Olivine, não está no ginásio quando o jogador chega. Por que ela fica no farol da cidade?",
+      "resposta": "Para cuidar de um Ampharos doente",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Jasmine"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Clair",
+        "descricao": "Líder do ginásio de tipo Dragão de Blackthorn, em Johto, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Ibuki"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Clair"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Clair, a orgulhosa líder de dragões de Blackthorn, em Johto, tem que parentesco com Lance, o mestre dos dragões?",
+      "resposta": "É prima dele",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Clair"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Flannery",
+        "descricao": "Líder do ginásio de tipo Fogo de Lavaridge, em Hoenn, nos jogos Pokémon Ruby e Sapphire.",
+        "variantes": [
+          "Asuna"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flannery"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, a líder de fogo Flannery comanda o ginásio de qual cidade de Hoenn, famosa pelas águas termais?",
+      "resposta": "Lavaridge",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Flannery"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Tate e Liza",
+        "descricao": "Gêmeos que lideram juntos o ginásio de tipo Psíquico de Mossdeep, em Hoenn, nos jogos Pokémon Ruby e Sapphire.",
+        "variantes": [
+          "Fu e Ran"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tate_and_Liza"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, o ginásio psíquico de Mossdeep é comandado por um par de gêmeos, numa batalha em dupla. Tate é o menino. Qual é o nome da menina?",
+      "resposta": "Liza",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tate_and_Liza"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Wallace",
+        "descricao": "Líder do ginásio de tipo Água de Sootopolis em Ruby e Sapphire e campeão da Liga de Hoenn em Pokémon Emerald.",
+        "variantes": [
+          "Mikuri"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wallace"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Emerald, Wallace deixa o ginásio de Sootopolis para ser o campeão de Hoenn. Que pokémon de água, famoso pela beleza, é o ás do seu time?",
+      "resposta": "Milotic",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wallace"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Roark",
+        "descricao": "Líder do ginásio de tipo Pedra de Oreburgh, primeiro ginásio de Sinnoh nos jogos Pokémon Diamond e Pearl.",
+        "variantes": [
+          "Hyouta"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roark"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sinnoh, Roark, o líder de pedra de Oreburgh, e Byron, o líder de aço de Canalave, têm que laço entre si?",
+      "resposta": "São filho e pai",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Roark",
+        "https://bulbapedia.bulbagarden.net/wiki/Byron"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Flint",
+        "descricao": "Membro da Elite dos Quatro de Sinnoh especialista em pokémon de fogo, nos jogos Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Ōba"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Flint_(Elite_Four)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sinnoh, Flint, o especialista em fogo da Elite dos Quatro, é grande amigo de qual líder de ginásio, o do tipo Elétrico de Sunyshore?",
+      "resposta": "Volkner",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Flint_(Elite_Four)",
+        "https://bulbapedia.bulbagarden.net/wiki/Volkner"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "cynthia",
+        "nome": "Cynthia",
+        "descricao": "Campeã da Liga Pokémon de Sinnoh nos jogos Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Shirona"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cynthia"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Cynthia, a campeã de Sinnoh, tem família numa pequena cidade de ruínas antigas, onde mora sua avó. Que cidade é essa?",
+      "resposta": "Celestic",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cynthia"
+      ],
+      "distratores": [
+        "Eterna",
+        "Hearthome",
+        "Snowpoint"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Alder",
+        "descricao": "Campeão da Liga Pokémon de Unova nos jogos Pokémon Black e White, treinador andarilho de cabelo ruivo.",
+        "variantes": [
+          "Adeku"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alder"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, quando o jogador vence a Elite dos Quatro de Unova, o campeão Alder já tinha sido derrotado. Quem o venceu?",
+      "resposta": "N",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alder"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Korrina",
+        "descricao": "Líder do ginásio de tipo Lutador de Shalour, em Kalos, nos jogos Pokémon X e Y, que anda de patins.",
+        "variantes": [
+          "Corni"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Korrina"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em X e Y, Korrina, a líder de lutadores de Shalour, enfrenta o jogador na Torre da Maestria com a megaevolução de qual pokémon?",
+      "resposta": "Lucario",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Korrina"
+      ],
+      "distratores": [
+        "Medicham",
+        "Blaziken",
+        "Heracross"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Hala",
+        "descricao": "Kahuna da ilha Melemele, em Alola, especialista em pokémon lutadores nos jogos Pokémon Sun e Moon.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hala"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, Hala, o chefe lutador da ilha Melemele, tem que parentesco com Hau, o amigo e rival do jogador?",
+      "resposta": "É avô dele",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hala"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Kahuna (Pokémon)",
+        "descricao": "Título dos chefes e treinadores mais fortes de cada ilha da região de Alola, nos jogos Pokémon Sun e Moon.",
+        "variantes": [
+          "Island Kahuna",
+          "Kahuna da ilha"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Island_kahuna"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Alola, cada ilha tem um chefe que é também seu treinador mais forte, com um título havaiano dado a sacerdotes e sábios. Que título é esse?",
+      "resposta": "Kahuna",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Island_kahuna",
+        "https://en.wikipedia.org/wiki/Kahuna"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Liga Pokémon de Alola",
+        "descricao": "Liga Pokémon criada na região de Alola durante a história de Pokémon Sun e Moon, no topo do Monte Lanakila.",
+        "variantes": [
+          "Alola League"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, Alola ganha sua primeira Liga Pokémon, e o jogador se torna o primeiro campeão da região. Que professor fundou essa liga?",
+      "resposta": "Professor Kukui",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Piers",
+        "descricao": "Líder do ginásio de tipo Sombrio de Spikemuth, em Galar, cantor de rock, nos jogos Pokémon Sword e Shield.",
+        "variantes": [
+          "Nezu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Piers"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Piers, o roqueiro que lidera o ginásio sombrio de Spikemuth, em Sword e Shield, é irmão mais velho de qual rival do jogador?",
+      "resposta": "Marnie",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Piers"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Larry",
+        "descricao": "Líder do ginásio de tipo Normal de Medali e membro da Elite dos Quatro de Paldea, nos jogos Pokémon Scarlet e Violet.",
+        "variantes": [
+          "Aoki"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Larry"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Scarlet e Violet, Larry lidera o ginásio de tipo Normal de Medali e também integra a Elite dos Quatro. Lá, ele usa pokémon de qual tipo?",
+      "resposta": "Voador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Larry"
+      ],
+      "distratores": [
+        "Sombrio",
+        "Terrestre",
+        "Aço"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "lt_surge",
+        "nome": "Lt. Surge",
+        "descricao": "Líder do ginásio do tipo Elétrico da cidade de Vermilion, em Kanto, nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Tenente Surge",
+          "Matis"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Tenente Surge, líder do ginásio elétrico de Vermilion, tem um nome inglês que, na eletricidade, designa o quê?",
+      "resposta": "Um pico de tensão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge"
+      ]
+    }
+  ]
+}

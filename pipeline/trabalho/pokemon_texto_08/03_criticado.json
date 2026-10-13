@@ -1,0 +1,610 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Torre Queimada",
+        "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+        "variantes": [
+          "Burned Tower",
+          "Torre de Bronze",
+          "Brass Tower"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Burned_Tower"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda de Ecruteak, em Johto, um incêndio destruiu a antiga Torre de Bronze e matou três pokémon. O que provocou esse incêndio?",
+      "resposta": "Um raio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Burned_Tower"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "kyogre",
+        "nome": "Kyogre",
+        "descricao": "Pokémon lendário do tipo Água da terceira geração, mascote de Pokémon Sapphire.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Sapphire, a Equipe Aqua desperta o lendário Kyogre. O que esses vilões pretendem fazer com o poder dele?",
+      "resposta": "Expandir os mares",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Aqua",
+        "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "giratina",
+        "nome": "Giratina",
+        "descricao": "Pokémon lendário dos tipos Fantasma e Dragão da quarta geração, mascote de Pokémon Platinum.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a mitologia de Sinnoh, Giratina foi banido para um mundo paralelo pelo próprio Arceus. Por que ele recebeu esse castigo?",
+      "resposta": "Por ser violento",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Uxie",
+        "descricao": "Pokémon lendário do tipo Psíquico da quarta geração, o ser do conhecimento, que vive no Lago Acuity, em Sinnoh.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda de Sinnoh, o que acontece com quem encara os olhos do lendário Uxie, o pokémon do conhecimento?",
+      "resposta": "Perde a memória",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Reshiram",
+        "descricao": "Pokémon lendário dos tipos Dragão e Fogo da quinta geração, mascote de Pokémon Black, símbolo da verdade.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Reshiram_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na lenda de Unova, um único dragão se dividiu em dois, Reshiram e Zekrom. O que provocou essa divisão?",
+      "resposta": "A briga de dois irmãos gêmeos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Reshiram_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Dynamax",
+        "descricao": "Fenômeno dos jogos Pokémon Sword e Shield que faz os pokémon crescerem até ficar gigantes durante as batalhas na região de Galar.",
+        "variantes": [
+          "Dinamax",
+          "Gigantamax"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dynamax"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, a energia que faz os pokémon de Galar ficarem gigantes nas batalhas vem de qual lendário, caído do céu há milênios?",
+      "resposta": "Eternatus",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Dynamax"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "pokemon_2000",
+        "nome": "Pokémon 2000",
+        "descricao": "Segundo filme da franquia Pokémon, em que Ash ajuda o lendário Lugia a salvar o mundo.",
+        "variantes": [
+          "Pokémon 2000: O Poder de Um",
+          "Pokémon: The Movie 2000"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Movie_2000"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No filme Pokémon 2000, o clima do planeta enlouquece e o mar ameaça o mundo. Que ação de um colecionador desencadeia esse caos?",
+      "resposta": "Capturar as aves lendárias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Movie_2000",
+        "https://bulbapedia.bulbagarden.net/wiki/M02"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Lunala",
+        "descricao": "Pokémon lendário dos tipos Psíquico e Fantasma da sétima geração, mascote de Pokémon Moon.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Solgaleo e Lunala, os lendários das capas de Sun e Moon, têm algo raro entre os lendários. O que os dois têm em comum?",
+      "resposta": "Evoluem de Cosmog",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Cosmog_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Manaphy",
+        "descricao": "Pokémon mítico do tipo Água da quarta geração, o príncipe do mar, estrela do nono filme da franquia.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Quando o mítico Manaphy é cruzado com um Ditto, o ovo choca qual outro pokémon, que nunca evolui para Manaphy?",
+      "resposta": "Phione",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Phione_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Keldeo",
+        "descricao": "Pokémon mítico dos tipos Água e Lutador da quinta geração, o jovem que se junta aos Espadachins da Justiça.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Cobalion, Terrakion e Virizion lembram os três mosqueteiros. Keldeo, o jovem que se junta a eles, corresponde a qual personagem do romance?",
+      "resposta": "D'Artagnan",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Swords_of_Justice"
+      ],
+      "distratores": [
+        "Athos",
+        "Porthos",
+        "Aramis"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Diancie",
+        "descricao": "Pokémon mítico dos tipos Pedra e Fada da sexta geração, a princesa das joias, estrela do filme Diancie e o Casulo da Destruição.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Diancie, a mítica princesa das joias, seria uma mutação súbita de qual pokémon de pedra, que vive no subterrâneo?",
+      "resposta": "Carbink",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Sableye",
+        "Nosepass",
+        "Minior"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "aves_lendarias_de_kanto",
+        "nome": "Aves lendárias de Kanto",
+        "descricao": "Trio de pokémon lendários da primeira geração formado por Articuno, Zapdos e Moltres.",
+        "variantes": [
+          "Legendary birds"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Legendary_birds"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Os nomes de Articuno, Zapdos e Moltres terminam com os números um, dois e três em qual idioma?",
+      "resposta": "Espanhol",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Italiano",
+        "Português",
+        "Latim"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Cosmog",
+        "descricao": "Pokémon lendário do tipo Psíquico da sétima geração, uma pequena nuvem cósmica que evolui até Solgaleo ou Lunala.",
+        "variantes": [
+          "Nebby"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cosmog_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, Lillie esconde na bolsa um pequeno Cosmog, que ela chama por um apelido carinhoso. Qual?",
+      "resposta": "Nebby",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nebby"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Xerneas",
+        "descricao": "Pokémon lendário do tipo Fada da sexta geração, um cervo de chifres coloridos, mascote de Pokémon X.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O cervo lendário Xerneas, de Pokémon X, tem o nome inspirado em Cernunnos, o deus chifrudo de qual mitologia?",
+      "resposta": "Celta",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Cernunnos"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "ho_oh",
+        "nome": "Ho-Oh",
+        "descricao": "Pokémon lendário dos tipos Fogo e Voador da segunda geração, mascote de Pokémon Gold.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Ho-Oh só estreou nos jogos em Gold e Silver, mas Ash já o tinha visto voando junto a um arco-íris. Em que episódio do anime?",
+      "resposta": "No primeiro episódio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/EP001",
+        "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Celebi",
+        "descricao": "Pokémon mítico dos tipos Psíquico e Planta da segunda geração, que viaja no tempo e protege as florestas.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Crystal, levar a misteriosa GS Ball a um pequeno santuário faz surgir o mítico Celebi. Em que floresta de Johto fica esse santuário?",
+      "resposta": "Floresta Ilex",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/GS_Ball",
+        "https://bulbapedia.bulbagarden.net/wiki/Ilex_Forest"
+      ],
+      "distratores": [
+        "Floresta Viridian",
+        "Floresta Eterna",
+        "Bosque Petalburg"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "zapdos",
+        "nome": "Zapdos",
+        "descricao": "Pokémon lendário ave dos tipos Elétrico e Voador da primeira geração.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, o lendário Zapdos espera o jogador dentro de qual construção abandonada de Kanto?",
+      "resposta": "Usina Elétrica",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Power_Plant",
+        "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Torre Pokémon",
+        "Mansão Pokémon",
+        "Silph Co."
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "rayquaza",
+        "nome": "Rayquaza",
+        "descricao": "Pokémon lendário dos tipos Dragão e Voador da terceira geração, mascote de Pokémon Emerald.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Emerald, o jogador sobe uma torre antiga, numa ilha de Hoenn, para despertar Rayquaza lá no alto. Que torre é essa?",
+      "resposta": "Pilar Celeste (Sky Pillar)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sky_Pillar",
+        "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Arceus",
+        "descricao": "Pokémon mítico do tipo Normal da quarta geração, que segundo a mitologia de Sinnoh criou o universo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sinnoh, a Flauta Azul criaria uma escada até o lugar onde Arceus espera. Como esse lugar se chama?",
+      "resposta": "Salão da Origem (Hall of Origin)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hall_of_Origin",
+        "https://bulbapedia.bulbagarden.net/wiki/Azure_Flute"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Lucario e o Mistério de Mew",
+        "descricao": "Oitavo filme da franquia Pokémon, de 2005, em que Ash conhece um Lucario ligado ao antigo cavaleiro Aaron.",
+        "variantes": [
+          "Lucario and the Mystery of Mew",
+          "Pokémon: Lucario and the Mystery of Mew"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No filme Lucario e o Mistério de Mew, Lucario desperta depois de passar séculos selado dentro de qual objeto do seu mestre, Aaron?",
+      "resposta": "O cajado de Aaron",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew",
+        "https://bulbapedia.bulbagarden.net/wiki/M08"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "deoxys",
+        "nome": "Deoxys",
+        "descricao": "Pokémon mítico do tipo Psíquico da terceira geração, um alienígena que muda de forma.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O alienígena Deoxys tem quatro formas: a Normal, a de Ataque, a de Defesa e qual outra?",
+      "resposta": "Velocidade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Especial",
+        "Psíquica",
+        "Resistência"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Genesect",
+        "descricao": "Pokémon mítico dos tipos Inseto e Aço da quinta geração, um inseto pré-histórico modificado pela Equipe Plasma.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Genesect é um inseto pré-histórico revivido pela Equipe Plasma, que o modificou. Que arma os vilões acrescentaram às suas costas?",
+      "resposta": "Um canhão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "calyrex",
+        "nome": "Calyrex",
+        "descricao": "Pokémon lendário dos tipos Psíquico e Planta da oitava geração, antigo rei de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Calyrex, o antigo rei de Galar, cavalga um de dois corcéis: Glastrier, de gelo, ou qual outro?",
+      "resposta": "Spectrier",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Spectrier_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Rapidash",
+        "Mudsdale",
+        "Zebstrika"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "palkia",
+        "nome": "Palkia",
+        "descricao": "Pokémon lendário dos tipos Água e Dragão da quarta geração, mascote de Pokémon Pearl.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na mitologia de Sinnoh, Dialga é o senhor do tempo. E Palkia, o lendário da capa de Pearl, domina o quê?",
+      "resposta": "O espaço",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "regirock",
+        "nome": "Regirock",
+        "descricao": "Pokémon lendário do tipo Pedra da terceira geração, membro do trio de golens lendários de Hoenn.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Regirock_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, as pistas para encontrar Regirock, Regice e Registeel estão gravadas nas paredes de cavernas em qual sistema de escrita?",
+      "resposta": "Braile",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Legendary_titans",
+        "https://bulbapedia.bulbagarden.net/wiki/Regirock_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Magearna",
+        "descricao": "Pokémon mítico dos tipos Aço e Fada da sétima geração, um pokémon artificial construído por humanos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, o pokémon artificial Magearna foi construído por humanos há cerca de quantos anos?",
+      "resposta": "500 anos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "50 anos",
+        "2000 anos",
+        "10 mil anos"
+      ]
+    }
+  ]
+}

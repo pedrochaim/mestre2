@@ -155,7 +155,7 @@ Perguntas com `colecao` saem no modo de jogo da coleção; com `exclusiva`, só 
 python pipeline/colecao.py status pokemon                        # quantas perguntas a coleção tem
 python pipeline/colecao.py figuras pokemon_modo --lotes 3        # lotes de figura do catálogo exclusivo
 python pipeline/rodar.py executar --encomenda pokemon_texto_01   # lote de texto (encomenda com colecao e exclusiva)
-python pipeline/pokemon_status.py executar --quantidade 100      # "tipo e atributos base": cartões do PokéAPI, sem LLM
+python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 --evolucao 40   # feitas de dados do PokéAPI, sem LLM
 ```
 
 ## Saturação por âncora

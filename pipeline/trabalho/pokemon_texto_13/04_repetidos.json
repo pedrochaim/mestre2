@@ -1,0 +1,388 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Japão, Charmander se chama Hitokage. Hi quer dizer fogo. E tokage, a outra metade do nome, designa qual animal?",
+        "resposta": "Lagarto"
+      },
+      "existentes": [
+        {
+          "id": "q01749",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Charmander"
+        },
+        {
+          "id": "q09960",
+          "pergunta": "Quando Ash conhece seu Charmander, o pokémon espera sozinho numa pedra, debaixo de chuva. Por que ele estava ali?",
+          "resposta": "Foi abandonado pelo treinador"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome de Gardevoir, a pokémon psíquica que protege o treinador com a própria vida, vem de duas palavras de qual idioma?",
+        "resposta": "Francês"
+      },
+      "existentes": [
+        {
+          "id": "q09779",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Kirlia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O nome Chandelure, do fantasma de Unova que queima almas com suas chamas, junta lure, atrair, com qual objeto pendurado no teto?",
+        "resposta": "Lustre"
+      },
+      "existentes": [
+        {
+          "id": "q10849",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Chandelure"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Dragapult, de Galar, leva pequenos fantasmas dentro dos chifres e os dispara a toda velocidade, como mísseis. Que pokémon são esses?",
+        "resposta": "Dreepy"
+      },
+      "existentes": [
+        {
+          "id": "q10500",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Drakloak"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Kartana, a Ultracriatura afiada como lâmina, tem o corpo inspirado em qual arte tradicional japonesa?",
+        "resposta": "Origami"
+      },
+      "existentes": [
+        {
+          "id": "q10071",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Kartana"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Nos primeiros jogos e no anime, Jynx tinha o rosto preto. Depois, a cor passou a ser roxa. Por que houve essa mudança?",
+        "resposta": "Acusações de racismo"
+      },
+      "existentes": [
+        {
+          "id": "q09798",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Jynx"
+        },
+        {
+          "id": "q10780",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Gelo e Psíquico"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo a Pokédex, por que o solitário Mimikyu se esconde debaixo de um pano velho que imita Pikachu?",
+        "resposta": "Para fazer amizade com as pessoas"
+      },
+      "existentes": [
+        {
+          "id": "q01742",
+          "pergunta": "Este pokémon se disfarça de qual outro pokémon?",
+          "resposta": "Pikachu"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em Sun e Moon, conta-se que o mangusto Yungoos foi levado de propósito às ilhas de Alola. Com que objetivo?",
+        "resposta": "Controlar a praga de Rattata"
+      },
+      "existentes": [
+        {
+          "id": "q10954",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Yungoos"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Segundo a Pokédex de Sword, o Weezing de Galar, com chaminés na cabeça, ganhou essa forma numa época marcada pelo quê?",
+        "resposta": "Poluição do ar"
+      },
+      "existentes": [
+        {
+          "id": "q09917",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Weezing"
+        },
+        {
+          "id": "q10782",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Venenoso"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O frágil Magikarp evolui no dragão Gyarados por inspiração numa lenda chinesa. Nela, a carpa vira dragão depois de fazer o quê?",
+        "resposta": "Subir uma cachoeira"
+      },
+      "existentes": [
+        {
+          "id": "q01747",
+          "pergunta": "Que pokémon evolui para este?",
+          "resposta": "Magikarp"
+        },
+        {
+          "id": "q09842",
+          "pergunta": "Em Gold e Silver, no Lago da Fúria, o jogador encontra um Gyarados brilhante, de cor diferente do normal. Que cor é essa?",
+          "resposta": "Vermelho"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Qual destes pokémon iniciais de água tem o design inspirado no axolote, um anfíbio mexicano?",
+        "resposta": "Mudkip"
+      },
+      "existentes": [
+        {
+          "id": "q06345",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Mudkip"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Das três feras lendárias de Johto, que Ho-Oh trouxe de volta à vida, qual tem a aparência inspirada num tigre?",
+        "resposta": "Raikou"
+      },
+      "existentes": [
+        {
+          "id": "q10463",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Elétrico"
+        },
+        {
+          "id": "q11018",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Raikou"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A fênix, ave mitológica que renasce das próprias cinzas, inspirou qual das três aves lendárias de Kanto?",
+        "resposta": "Moltres"
+      },
+      "existentes": [
+        {
+          "id": "q09945",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Moltres"
+        },
+        {
+          "id": "q10748",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Fogo e Voador"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Entre os três iniciais de Alola, qual equilibra bolhas no focinho como um leão-marinho de circo?",
+        "resposta": "Popplio"
+      },
+      "existentes": [
+        {
+          "id": "q10881",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Popplio"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O que têm em comum os nomes da girafa Girafarig, de Johto, e da sua evolução Farigiraf, de Paldea?",
+        "resposta": "São palíndromos"
+      },
+      "existentes": [
+        {
+          "id": "q10865",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Girafarig"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Com coroa de fogo e golpes acrobáticos, Infernape lembra qual macaco guerreiro do romance chinês Jornada ao Oeste?",
+        "resposta": "Sun Wukong (o Rei Macaco)"
+      },
+      "existentes": [
+        {
+          "id": "q09956",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Infernape"
+        },
+        {
+          "id": "q10931",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Fogo e Lutador"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Lapras, o pokémon de pescoço longo que leva pessoas nas costas pelo mar, lembra o famoso monstro de qual lago escocês?",
+        "resposta": "Lago Ness"
+      },
+      "existentes": [
+        {
+          "id": "q09756",
+          "pergunta": "Em que prédio de Kanto, nos jogos Red e Blue, um funcionário dá este pokémon de presente?",
+          "resposta": "Silph Co."
+        },
+        {
+          "id": "q10681",
+          "pergunta": "De que tipo é este pokémon?",
+          "resposta": "Água e Gelo"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Hawlucha, o pokémon de Kalos que é metade falcão e metade lutador mascarado, se inspira na luta livre de qual país?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q10551",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Hawlucha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome japonês; fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Origem do nome, não a pré-evolução."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome, não identificação."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre Dreepy nos chifres, não pré-evolução Drakloak."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Inspiração do design, não identificação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Motivo da mudança de cor, fato distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Motivo do disfarce, não qual pokémon imita."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Objetivo da introdução em Alola, fato distinto."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Origem da forma de Galar, fato distinto."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Lenda chinesa, não a evolução nem cor brilhante."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Inspiração em axolote, diferente de identificar pela imagem."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Inspiração em tigre, fato distinto."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Inspiração na fênix, fato distinto de tipo/identificação."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Inspiração/descrição, fato distinto."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Palíndromos, fato distinto da pré-evolução."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Inspiração em Sun Wukong, fato distinto."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Inspiração no monstro do Lago Ness, fato distinto."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Inspiração na luta livre mexicana, fato distinto."
+    }
+  ]
+}

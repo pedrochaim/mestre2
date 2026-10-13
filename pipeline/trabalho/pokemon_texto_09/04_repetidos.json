@@ -1,0 +1,140 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Red e Blue, o esconderijo secreto da Equipe Rocket fica escondido debaixo de um salão de jogos. Em que cidade de Kanto?",
+        "resposta": "Celadon"
+      },
+      "existentes": [
+        {
+          "id": "q09805",
+          "pergunta": "No anime, a dupla de vilões da Equipe Rocket tem nomes que, juntos, homenageiam qual fora da lei do Velho Oeste americano?",
+          "resposta": "Jesse James"
+        },
+        {
+          "id": "q09836",
+          "pergunta": "No anime, o trio da Equipe Rocket que persegue o Pikachu de Ash é formado por Jessie, James e qual pokémon que fala?",
+          "resposta": "Meowth"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Pokémon: O Filme, Mewtwo convida os melhores treinadores para o castelo dele, numa ilha cercada por uma tempestade. Que ilha é essa?",
+        "resposta": "New Island"
+      },
+      "existentes": [
+        {
+          "id": "q09855",
+          "pergunta": "Pokémon: O Filme, em que Ash enfrenta o clone Mewtwo, estreou nos cinemas japoneses em que ano?",
+          "resposta": "1998"
+        },
+        {
+          "id": "q09977",
+          "pergunta": "Nos cinemas, o primeiro filme Pokémon, o do clone Mewtwo, era exibido junto com qual curta-metragem estrelado pelo Pikachu?",
+          "resposta": "As Férias do Pikachu"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Gold e Silver, por que a Equipe Rocket invade o poço dos Slowpoke, na cidade de Azalea, em Johto?",
+        "resposta": "Para cortar e vender as caudas"
+      },
+      "existentes": [
+        {
+          "id": "q09739",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Slowpoke"
+        },
+        {
+          "id": "q09808",
+          "pergunta": "O preguiçoso Slowpoke evolui para Slowbro quando qual pokémon, uma concha, morde a ponta da sua cauda?",
+          "resposta": "Shellder"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Red, o protagonista dos primeiros jogos, e Ash, do anime, partem em jornada da mesma pequena cidade de Kanto. Que cidade é essa?",
+        "resposta": "Pallet"
+      },
+      "existentes": [
+        {
+          "id": "q09833",
+          "pergunta": "Na segunda geração de jogos, ambientada em Johto, o protagonista de Red e Blue reaparece como desafio final no topo de qual montanha?",
+          "resposta": "Mt. Silver"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome da região de Kalos, de Pokémon X e Y, vem de uma palavra grega. O que ela significa?",
+        "resposta": "Belo"
+      },
+      "existentes": [
+        {
+          "id": "q09819",
+          "pergunta": "Com castelos, palácios e uma grande capital cheia de cafés, a região de Kalos, de Pokémon X e Y, é inspirada em qual país?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Sem contar a ilha artificial da Fundação Aether, quantas ilhas principais formam a região de Alola?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q09818",
+          "pergunta": "A região de Alola, cenário de Pokémon Sun e Moon, é inspirada em qual arquipélago americano?",
+          "resposta": "Havaí"
+        },
+        {
+          "id": "q10007",
+          "pergunta": "O nome da região de Alola, dos jogos Sun e Moon, é uma variação de qual saudação havaiana?",
+          "resposta": "Aloha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Localização do esconderijo nos jogos, fato diferente dos nomes do trio no anime."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nome da ilha do castelo não é ano nem curta-metragem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Motivo da invasão da Equipe Rocket é fato distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade natal de Red e Ash é fato diferente do desafio final em Mt. Silver."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome é diferente da inspiração em França."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Número de ilhas é fato diferente de inspiração havaiana ou origem do nome."
+    }
+  ]
+}

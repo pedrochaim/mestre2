@@ -1,0 +1,220 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Pokémon Sapphire, a Equipe Aqua desperta o lendário Kyogre. O que esses vilões pretendem fazer com o poder dele?",
+        "resposta": "Expandir os mares"
+      },
+      "existentes": [
+        {
+          "id": "q09951",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Kyogre"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Segundo a mitologia de Sinnoh, Giratina foi banido para um mundo paralelo pelo próprio Arceus. Por que ele recebeu esse castigo?",
+        "resposta": "Por ser violento"
+      },
+      "existentes": [
+        {
+          "id": "q10031",
+          "pergunta": "Em Pokémon Platinum, o jogador persegue o lendário Giratina até sua dimensão paralela, onde a gravidade não segue as regras. Como se chama esse lugar?",
+          "resposta": "Mundo Distorcido (Distortion World)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No filme Pokémon 2000, o clima do planeta enlouquece e o mar ameaça o mundo. Que ação de um colecionador desencadeia esse caos?",
+        "resposta": "Capturar as aves lendárias"
+      },
+      "existentes": [
+        {
+          "id": "q09980",
+          "pergunta": "Apesar do título, o filme Pokémon 2000, aquele do lendário Lugia, estreou nos cinemas japoneses em que ano?",
+          "resposta": "1999"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os nomes de Articuno, Zapdos e Moltres terminam com os números um, dois e três em qual idioma?",
+        "resposta": "Espanhol"
+      },
+      "existentes": [
+        {
+          "id": "q09827",
+          "pergunta": "As três aves lendárias de Kanto são Articuno, de gelo, Zapdos, elétrica, e qual outra, de fogo?",
+          "resposta": "Moltres"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Ho-Oh só estreou nos jogos em Gold e Silver, mas Ash já o tinha visto voando junto a um arco-íris. Em que episódio do anime?",
+        "resposta": "No primeiro episódio"
+      },
+      "existentes": [
+        {
+          "id": "q01748",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Ho-Oh"
+        },
+        {
+          "id": "q09812",
+          "pergunta": "Os lendários Ho-Oh e Lugia estampam as capas de qual par de jogos da segunda geração?",
+          "resposta": "Pokémon Gold e Silver"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Red e Blue, o lendário Zapdos espera o jogador dentro de qual construção abandonada de Kanto?",
+        "resposta": "Usina Elétrica"
+      },
+      "existentes": [
+        {
+          "id": "q09796",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Zapdos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em Pokémon Emerald, o jogador sobe uma torre antiga, numa ilha de Hoenn, para despertar Rayquaza lá no alto. Que torre é essa?",
+        "resposta": "Pilar Celeste (Sky Pillar)"
+      },
+      "existentes": [
+        {
+          "id": "q09745",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Rayquaza"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O alienígena Deoxys tem quatro formas: a Normal, a de Ataque, a de Defesa e qual outra?",
+        "resposta": "Velocidade"
+      },
+      "existentes": [
+        {
+          "id": "q10037",
+          "pergunta": "O nome do pokémon alienígena Deoxys, que nasceu da mutação de um vírus vindo do espaço, vem de qual molécula da genética?",
+          "resposta": "DNA (ácido desoxirribonucleico)"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Calyrex, o antigo rei de Galar, cavalga um de dois corcéis: Glastrier, de gelo, ou qual outro?",
+        "resposta": "Spectrier"
+      },
+      "existentes": [
+        {
+          "id": "q10160",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Calyrex"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Na mitologia de Sinnoh, Dialga é o senhor do tempo. E Palkia, o lendário da capa de Pearl, domina o quê?",
+        "resposta": "O espaço"
+      },
+      "existentes": [
+        {
+          "id": "q10113",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Palkia"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em Ruby e Sapphire, as pistas para encontrar Regirock, Regice e Registeel estão gravadas nas paredes de cavernas em qual sistema de escrita?",
+        "resposta": "Braile"
+      },
+      "existentes": [
+        {
+          "id": "q10133",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Regirock"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Objetivo da Equipe Aqua é fato diferente da identidade do pokémon."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Motivo do banimento difere do nome do lugar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ação do colecionador difere do ano de estreia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Idioma dos nomes difere da ave de fogo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Episódio do anime difere de capas de jogos e identidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Local de Zapdos é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Local do Rayquaza é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Formas de Deoxys difere da origem do nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Corcel de Calyrex é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Domínio de Palkia é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Sistema de escrita das pistas é outro fato."
+    }
+  ]
+}

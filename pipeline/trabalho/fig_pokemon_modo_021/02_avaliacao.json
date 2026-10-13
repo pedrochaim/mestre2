@@ -1,0 +1,235 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de lobo agachado com juba pontuda e cauda volumosa, reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Lycanroc",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lycanroc",
+        "descricao": "Pokémon do tipo Pedra, número 745 da Pokédex Nacional, evolução de Rockruff, em forma de lobo.",
+        "variantes": [
+          "Lycanroc Midday",
+          "Lycanroc Forma Diurna"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com cabeça de crista pontuda e braços em lâmina, característica e distinta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pawniard",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pawniard",
+        "descricao": "Pokémon do tipo Sombrio e Aço, número 624 da Pokédex Nacional, que evolui para Bisharp.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Corpo esférico com dois chifres listrados à esquerda e espinhos, razoavelmente distinto; múltipla escolha com redondos espinhosos torna a pergunta justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Whirlipede",
+      "distratores": [
+        "Forretress",
+        "Pineco",
+        "Cloyster"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Whirlipede",
+        "descricao": "Pokémon do tipo Inseto e Venenoso, número 544 da Pokédex Nacional, forma intermediária entre Venipede e Scolipede.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta de Celebi com cabeça em folha e antena curva, bem reconhecível; pergunta de nível 3 sobre o item do jogo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "No Pokémon Crystal, que item é preciso para encontrar este pokémon?",
+      "resposta": "GS Ball",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Celebi",
+        "descricao": "Pokémon lendário do tipo Psíquico e Planta, número 251 da Pokédex Nacional, que viaja no tempo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de gato sentado com orelhas largas e cauda enrolada; múltipla escolha com gatos parecidos para ser justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Purrloin",
+      "distratores": [
+        "Glameow",
+        "Espurr",
+        "Skitty"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Purrloin",
+        "descricao": "Pokémon do tipo Sombrio, número 509 da Pokédex Nacional, gato travesso que evolui para Liepard.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta única de motor com cilindro e pedras, sem outro pokémon parecido; múltipla escolha por ser pouco conhecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Varoom",
+      "distratores": [
+        "Revavroom",
+        "Klang",
+        "Garbodor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Varoom",
+        "descricao": "Pokémon do tipo Aço e Venenoso, número 965 da Pokédex Nacional, em forma de motor, que evolui para Revavroom.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de jato com asas em delta e cauda longa, característica; distratores de silhueta parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Latios",
+      "distratores": [
+        "Latias",
+        "Flygon",
+        "Salamence"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Latios",
+        "descricao": "Pokémon lendário do tipo Dragão e Psíquico, número 381 da Pokédex Nacional, irmão de Latias.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta rochosa com braços longos e pés, reconhecível; a pista da troca separa de Geodude.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon? Digo, em que pokémon este evolui quando é trocado?",
+      "resposta": "Golem",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Graveler",
+        "descricao": "Pokémon do tipo Pedra e Terra, número 75 da Pokédex Nacional, evolução de Geodude e pré-evolução de Golem.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de cão de pelagem volumosa com cauda e patas peludas, típica do Furfrou na forma natural.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Furfrou",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Furfrou",
+        "descricao": "Pokémon do tipo Normal, número 676 da Pokédex Nacional, cão de pelagem de poodle que pode ser aparado em vários estilos.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta com pescoço erguido e cauda longa, distinguível de Latios; distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Latias",
+      "distratores": [
+        "Latios",
+        "Altaria",
+        "Salamence"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Latias",
+        "descricao": "Pokémon lendário do tipo Dragão e Psíquico, número 380 da Pokédex Nacional, irmã de Latios.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de cabeça larga com dois chifres laterais pontudos, distinta o bastante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Glalie",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Glalie",
+        "descricao": "Pokémon do tipo Gelo, número 362 da Pokédex Nacional, de cabeça de gelo com chifres, evolução de Snorunt.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de besouro com grande cúpula e garras; múltipla escolha com insetos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Orbeetle",
+      "distratores": [
+        "Dottler",
+        "Shuckle",
+        "Vikavolt"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Orbeetle",
+        "descricao": "Pokémon do tipo Inseto e Psíquico, número 826 da Pokédex Nacional, evolução de Dottler.",
+        "variantes": []
+      }
+    }
+  ]
+}
