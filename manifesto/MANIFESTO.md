@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.65 — 2026-10-13**
+> **Versão preliminar 0.66 — 2026-10-13**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -249,6 +249,7 @@ Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um mo
 
 - A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
 - **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
 - As perguntas da coleção seguem todas as regras desta Parte I: tema e subtema, âncora, saturação e fontes. Podem ser com ou sem figura.
 - As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
 
@@ -363,6 +364,7 @@ Toda pergunta precisa passar em **todos** os critérios abaixo:
 | `dificuldade` | — | 1 (fácil) a 5 (difícil), **calculada** pela popularidade da âncora (§4). Gravada pelo pipeline, nunca escrita pelo LLM. **Apenas ilustrativa**: não entra em nenhuma decisão |
 | `colecao` | — | Coleção da pergunta (§6, "Coleções"): `pokemon` ([`modo_pokemon.md`](modo_pokemon.md)). O modo da coleção sorteia só as perguntas dela |
 | `exclusiva` | — | `true`: a pergunta da coleção sai só no modo dela, nunca no jogo original |
+| `subtema_colecao` | — | Subtema da pergunta dentro do modo da coleção, da lista própria dela (§6, "Coleções") |
 | `audio` | — | Trecho de áudio que toca na tela grande (§6, "Perguntas com áudio"): `arquivo` (id da pergunta + `.mp3`, em `pipeline/banco/audios/`), `origem` (página no Commons), `autor` e `licenca`; `inicio` e `duracao` registram o trecho da gravação original |
 | `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons ou, para Pokémon, no Bulbagarden Archives), `autor` e `licenca`. Opcional: `revelacao`, a imagem mostrada só depois da resposta (id + `_revelacao` + extensão), usada nas silhuetas de Pokémon |
 
@@ -962,6 +964,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.66 | 2026-10-13 | Subtemas próprios de uma coleção (campo `subtema_colecao`, §6, §10). Modo Pokémon: cinco subtemas, entre eles um só dos jogos da série principal, com sobreposição um pouco mais tolerada e equilíbrio (o menor subtema tem pelo menos 30% do maior, conferido pelo pipeline); as 1515 perguntas classificadas; detalhes em `modo_pokemon.md` |
 | 0.65 | 2026-10-13 | Modo Pokémon: perguntas feitas de dados também de tipo, região e evolução (`pipeline/pokemon_dados.py`, que substitui o `pokemon_status.py`) e 1000 perguntas novas em 4 lotes; detalhes em `modo_pokemon.md` |
 | 0.64 | 2026-10-13 | Modo Pokémon: família "Tipo e atributos base" (cartão com tipo e atributos, múltipla escolha, feita por `pipeline/pokemon_status.py` sem LLM) e variedade menos rígida; detalhes em `modo_pokemon.md` |
 | 0.63 | 2026-10-13 | As instruções do modo Pokémon (regras, tabuleiro, coleção, diretrizes de conteúdo, produção e pendências) saem do MANIFESTO para `modo_pokemon.md`; o MANIFESTO guarda só o que vale para qualquer coleção e aponta para o documento (§6, §10, §15, §16, §17) |

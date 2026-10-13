@@ -63,6 +63,9 @@ FORA_DA_REGIAO = {808, 809, *range(899, 906), *range(1011, 1026)}
 PESO_GERACAO = {1: 16, 2: 11, 3: 12, 4: 12, 5: 12, 6: 9, 7: 10, 8: 9, 9: 9}
 DISTANCIA_MINIMA = 40   # atributos: soma das diferenças dos seis atributos entre duas alternativas
 FAMILIAS = ["atributos", "tipo", "regiao", "evolucao"]
+# Subtema de cada família no modo Pokémon (modo_pokemon.md, "Subtemas do modo").
+SUBTEMA_COLECAO = {"atributos": "Quem é esse pokémon?", "tipo": "Tipos e Evoluções", "regiao": "Regiões e Treinadores",
+                   "evolucao": "Tipos e Evoluções"}
 NOME = {"atributos"}   # famílias que perguntam o nome do pokémon
 
 
@@ -353,6 +356,14 @@ def executar(lote_id, cotas):
     banco, canon = bc.Banco(), carregar_canon()
     if lote_id in banco.estado["concluidas"]:
         sys.exit(f"O lote {lote_id} já foi registrado.")
+    if not sum(cotas.values()):
+        sys.exit("Nenhuma pergunta pedida: dê a cota de ao menos uma família (--atributos, --tipo, --regiao, --evolucao).")
+    acrescimos = Counter()
+    for familia, n in cotas.items():
+        acrescimos[SUBTEMA_COLECAO[familia]] += n
+    bloqueio = bc.bloqueio_equilibrio(banco.perguntas, "pokemon", acrescimos)
+    if bloqueio:
+        sys.exit(bloqueio)
     pasta = TRABALHO_DIR / lote_id
     pasta.mkdir(parents=True, exist_ok=True)
     todos = carregar_pokemon(pasta)
@@ -390,7 +401,7 @@ def executar(lote_id, cotas):
              "pergunta": it["pergunta"], "resposta": it["resposta"], "distratores": it["distratores"],
              "fonte": [_fonte(p)], "imagem": {"arquivo": qid + ".jpg", "origem": it["origem"], "autor": AUTOR,
                                               "licenca": LICENCA},
-             "colecao": "pokemon", "exclusiva": True}
+             "colecao": "pokemon", "exclusiva": True, "subtema_colecao": SUBTEMA_COLECAO[it["familia"]]}
         if it["familia"] in NOME:
             q["imagem"]["revelacao"] = qid + "_revelacao.jpg"
         erros = bc.erros_pergunta(q, canon)

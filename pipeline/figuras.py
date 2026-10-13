@@ -754,8 +754,13 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
             p["distratores"] = av.get("distratores", [])
         p["fonte"] = it["fonte"]
         p["imagem"] = {"arquivo": "q00000.jpg", "origem": it["origem"], "autor": it["autor"], "licenca": it["licenca"]}
-        # Coleção temática (MANIFESTO §6): o catálogo marca as suas perguntas; "exclusiva" as tira do jogo original.
+        # Coleção temática (MANIFESTO §6): o catálogo marca as suas perguntas; "exclusiva" as tira do jogo original,
+        # e "subtema_colecao" dá o subtema delas no modo da coleção (um só, ou um por família).
         p.update({k: cat[k] for k in ("colecao", "exclusiva") if cat.get(k)})
+        sub_col = cat.get("subtema_colecao")
+        sub_col = sub_col.get(av["familia"]) if isinstance(sub_col, dict) else sub_col
+        if sub_col:
+            p["subtema_colecao"] = sub_col
         erros = bc.erros_pergunta(p, canon)
         if erros:
             recusar("descartada", "; ".join(erros))

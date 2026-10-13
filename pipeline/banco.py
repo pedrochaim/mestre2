@@ -125,6 +125,10 @@ def erros_pergunta(pergunta, canon):
         erros.append(f"tema fora da lista canônica: {tema!r}")
     elif subtema not in canon[tema]:
         erros.append(f"subtema fora da lista canônica: {subtema!r}")
+    if pergunta.get("subtema_colecao") and not pergunta.get("colecao"):
+        erros.append("subtema_colecao sem colecao")
+    elif pergunta.get("subtema_colecao") and pergunta["subtema_colecao"] not in SUBTEMAS_COLECAO.get(pergunta["colecao"], []):
+        erros.append(f"subtema_colecao fora da lista da coleção: {pergunta['subtema_colecao']!r}")
     distratores = pergunta.get("distratores") or []
     resposta = normalizar(pergunta.get("resposta", ""))
     if any(normalizar(d) == resposta for d in distratores):
@@ -132,6 +136,44 @@ def erros_pergunta(pergunta, canon):
     if len({normalizar(d) for d in distratores}) < len(distratores):
         erros.append("distratores repetidos")
     return erros
+
+
+# Subtemas próprios de cada coleção (campo subtema_colecao; para pokemon, modo_pokemon.md) e o piso do equilíbrio:
+# o subtema com menos perguntas tem pelo menos esta fração das perguntas do subtema com mais.
+SUBTEMAS_COLECAO = {"pokemon": ["Quem é esse pokémon?", "Tipos e Evoluções", "Jogos da Série Principal",
+                                "Regiões e Treinadores", "Anime, Filmes e Franquia"]}
+PISO_SUBTEMA_COLECAO = {"pokemon": 0.30}
+
+
+def subtemas_da_colecao(perguntas, colecao):
+    """{subtema_colecao: nº de perguntas}, com zero nos subtemas ainda vazios."""
+    c = Counter({s: 0 for s in SUBTEMAS_COLECAO.get(colecao, [])})
+    c.update(p["subtema_colecao"] for p in perguntas if p.get("colecao") == colecao and p.get("subtema_colecao"))
+    return c
+
+
+def limite_do_subtema(contagem, colecao, subtema):
+    """Até quantas perguntas o subtema pode ter sem passar do teto que o piso de equilíbrio impõe."""
+    outros = [n for s, n in contagem.items() if s != subtema]
+    return int(min(outros) / PISO_SUBTEMA_COLECAO[colecao]) if outros else None
+
+
+def bloqueio_equilibrio(perguntas, colecao, acrescimos):
+    """Mensagem de recusa se acrescentar {subtema_colecao: n} levar algum subtema acima do teto, senão None.
+    Lotes que só aumentam os subtemas pequenos passam sempre, mesmo com a coleção ainda desequilibrada."""
+    if colecao not in PISO_SUBTEMA_COLECAO:
+        return None
+    contagem = subtemas_da_colecao(perguntas, colecao)
+    excessos = []
+    for subtema, n in acrescimos.items():
+        teto = limite_do_subtema(contagem, colecao, subtema)
+        if n > 0 and teto is not None and contagem[subtema] + n > teto:
+            excessos.append(f"{subtema}: tem {contagem[subtema]}, o teto é {teto}, o lote traria até {n}")
+    if not excessos:
+        return None
+    piso = round(PISO_SUBTEMA_COLECAO[colecao] * 100)
+    return (f"Equilíbrio da coleção {colecao} (o menor subtema tem de ter {piso}% do maior): " + "; ".join(excessos)
+            + ". Aumente antes os subtemas pequenos.")
 
 
 def avisos_pergunta(pergunta):

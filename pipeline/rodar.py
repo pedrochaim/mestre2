@@ -111,6 +111,11 @@ def executar_encomenda(enc, banco, canon, ultima=None):
     """Roda as etapas de uma encomenda, pulando as já feitas, e devolve as perguntas registradas.
     Levanta ErroClaude se o Claude falhar (por exemplo, cota esgotada): chamar de novo retoma da mesma etapa."""
     ultima = len(ORDEM) - 1 if ultima is None else ultima
+    # Coleção com subtemas próprios: o lote não pode desequilibrá-los (banco.bloqueio_equilibrio).
+    if enc.get("colecao") and enc["id"] not in banco.estado["concluidas"]:
+        bloqueio = bc.bloqueio_equilibrio(banco.perguntas, enc["colecao"], {enc.get("subtema_colecao"): enc["quantidade"]})
+        if bloqueio:
+            raise SystemExit(bloqueio)
     pasta = TRABALHO_DIR / enc["id"]
     pasta.mkdir(parents=True, exist_ok=True)
     print(f"\n[{enc['id']}] {enc['tema']} › {enc['subtema']} ({enc['quantidade']} perguntas)", flush=True)

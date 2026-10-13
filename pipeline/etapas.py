@@ -445,8 +445,9 @@ def registrar(enc, banco, canon, pasta):
     for it in dados["itens"]:
         ancora = renomear.get(it["ancora"], it["ancora"])
         final = forma_final(it, f"q{numero:05d}", ancora)
-        # Coleção temática (MANIFESTO §6): a encomenda marca todas as suas perguntas; "exclusiva" as tira do jogo original.
-        final.update({c: enc[c] for c in ("colecao", "exclusiva") if enc.get(c)})
+        # Coleção temática (MANIFESTO §6): a encomenda marca todas as suas perguntas; "exclusiva" as tira do jogo original,
+        # e "subtema_colecao" dá o subtema delas no modo da coleção.
+        final.update({c: enc[c] for c in ("colecao", "exclusiva", "subtema_colecao") if enc.get(c)})
         erros = bc.erros_pergunta(final, canon)
         if erros or banco.resolver(ancora) is None:
             registrar_log(enc["id"], "registrar", "descartada", "; ".join(erros) or "âncora inexistente", _resumo(it))

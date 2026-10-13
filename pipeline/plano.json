@@ -817,7 +817,11 @@
       ],
       "enunciado": "Quem é esse pokémon?",
       "colecao": "pokemon",
-      "exclusiva": true
+      "exclusiva": true,
+      "subtema_colecao": {
+        "o_que_e": "Quem é esse pokémon?",
+        "com_o_que_se_liga": "Tipos e Evoluções"
+      }
     },
     {
       "id": "personagens",

@@ -29,6 +29,16 @@ def status(colecao):
     print(f"Coleção {colecao}: {len(ps)} perguntas.")
     for (forma, onde), n in sorted(c.items()):
         print(f"  {forma}, {onde}: {n}")
+    fig = Counter(p.get("subtema_colecao") for p in ps if "imagem" in p)
+    contagem = bc.subtemas_da_colecao(ps, colecao)
+    piso = bc.PISO_SUBTEMA_COLECAO.get(colecao)
+    if contagem and piso:
+        print("Por subtema da coleção (total, com figura, teto do equilíbrio):")
+        for s, n in contagem.most_common():
+            print(f"  {s}: {n} ({fig[s]}), teto {bc.limite_do_subtema(contagem, colecao, s)}")
+        menor, maior = min(contagem.values()), max(contagem.values())
+        print(f"  Equilíbrio: o menor tem {menor / maior:.0%} do maior (piso {piso:.0%})"
+              + (f"; faltam perguntas nos subtemas abaixo de {piso * maior:.0f}." if menor < piso * maior else "."))
 
 
 def lotes_de_figura(cat_id, n):
@@ -38,8 +48,15 @@ def lotes_de_figura(cat_id, n):
     if cat is None:
         sys.exit(f"Catálogo {cat_id!r} não está no plano.json.")
     total = 0
+    sub_col = cat.get("subtema_colecao")
+    destinos = set(sub_col.values()) if isinstance(sub_col, dict) else {sub_col} if sub_col else set()
     for _ in range(n):
         banco = bc.Banco()
+        quantidade = plano["lote_figura"]["quantidade"]
+        bloqueio = cat.get("colecao") and bc.bloqueio_equilibrio(banco.perguntas, cat["colecao"],
+                                                                 {s: quantidade for s in destinos})
+        if bloqueio:
+            sys.exit(bloqueio)
         total += len(figuras.executar_lote(cat, banco, canon, rodar.CONFIG, plano["lote_figura"]["quantidade"]))
     print(f"\n{total} perguntas registradas em {n} lote(s).")
     popularidade.atualizar()

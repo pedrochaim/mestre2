@@ -149,12 +149,12 @@ O `figuras.py` faz as perguntas com figura de reconhecimento (MANIFESTO §6), a 
 
 ## Coleções (modo Pokémon)
 
-Perguntas com `colecao` saem no modo de jogo da coleção; com `exclusiva`, só nele (MANIFESTO §6, "Coleções"). As diretrizes do modo Pokémon (frentes de conteúdo, público, figuras) estão em [`../manifesto/modo_pokemon.md`](../manifesto/modo_pokemon.md). O autopiloto não conta as exclusivas nas metas e não roda os catálogos delas. Os lotes são feitos à mão:
+Perguntas com `colecao` saem no modo de jogo da coleção; com `exclusiva`, só nele; `subtema_colecao` é o subtema dentro do modo (MANIFESTO §6, "Coleções"). As diretrizes do modo Pokémon (subtemas do modo, público, figuras) estão em [`../manifesto/modo_pokemon.md`](../manifesto/modo_pokemon.md). O autopiloto não conta as exclusivas nas metas e não roda os catálogos delas. Os lotes são feitos à mão:
 
 ```
-python pipeline/colecao.py status pokemon                        # quantas perguntas a coleção tem
+python pipeline/colecao.py status pokemon                        # quantas perguntas a coleção tem, por forma e por subtema
 python pipeline/colecao.py figuras pokemon_modo --lotes 3        # lotes de figura do catálogo exclusivo
-python pipeline/rodar.py executar --encomenda pokemon_texto_01   # lote de texto (encomenda com colecao e exclusiva)
+python pipeline/rodar.py executar --encomenda pokemon_texto_01   # lote de texto (encomenda com colecao, exclusiva e subtema_colecao)
 python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 --evolucao 40   # feitas de dados do PokéAPI, sem LLM
 ```
 
