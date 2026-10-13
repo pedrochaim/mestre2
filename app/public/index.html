@@ -506,7 +506,8 @@
         <details id="regras-linear" class="regras" hidden>
           <summary>Como se joga</summary>
           <p id="regras-pokemon" class="suave" hidden><strong>Modo Pokémon:</strong> a trilha e as regras são as do
-            Linear, mas todas as perguntas são de pokémon, em qualquer casa; a cor da casa não conta.</p>
+            Linear, mas todas as perguntas são de pokémon, em qualquer casa. O tabuleiro é a mesma trilha, desenhada
+            como um caminho na grama, com as casas numeradas e uma pokébola nas especiais.</p>
           <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
             xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
             qualquer tema. Cada acerto avança uma casa; errar não move o peão. As ações das casas ★ ainda serão
@@ -1556,9 +1557,14 @@
 
   function desenharTabuleiros() {
     if (arrasto) return;
-    $("tabuleiro").innerHTML = $("mesa-tab").innerHTML =
+    // As duas cópias (aba Tabuleiro e tela grande) não podem repetir os ids dos padrões (xadrez, grama, listras):
+    // com a aba escondida, o navegador não pinta o padrão que a outra cópia aponta.
+    const svg =
       ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id), { vez: vezAtual()?.id, peao: 1.3 }) :
+      ehPokemon() ? L.svgPokemon(jogadores, casaDe, peaoLinear) :
       ehLinear() ? L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peaoLinear) : svgTabuleiro();
+    $("tabuleiro").innerHTML = svg;
+    $("mesa-tab").innerHTML = svg.replaceAll('<pattern id="', '<pattern id="mesa-').replaceAll("url(#", "url(#mesa-");
   }
   const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
     .matrixTransform(svg.getScreenCTM().inverse());

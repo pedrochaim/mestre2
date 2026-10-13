@@ -1,4 +1,5 @@
 // Modo Linear (MANIFESTO §15): uma trilha única de 60 casas, numa faixa ondulada de 4 fileiras que vai e volta.
+// O modo Pokémon usa a mesma trilha, com outro desenho (svgPokemon): um caminho de terra na grama.
 // Só dados e desenho: a ligação com a tela e o Firestore fica no index.html. A posição do peão é o campo "pontos",
 // como no Master: 0 é o Início e CHEGADA é a última casa.
 
@@ -71,34 +72,21 @@ export function casaMaisProxima(x, y) {
 // ---------------------------------------------------------------- desenho
 
 const f = n => n.toFixed(1);
+const XADREZ = `<pattern id="xadrez" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#fff"/>
+       <rect width="10" height="10" fill="#111"/><rect x="10" y="10" width="10" height="10" fill="#111"/></pattern>`;
+const caminho = cor =>
+  `<path d="M${PTS.map(([x, y]) => `${f(x)} ${f(y)}`).join("L")}" fill="none" stroke="${cor}" stroke-width="${FAIXA + 16}" stroke-linejoin="round"/>`;
+const contornoDaCasa = c => {
+  const idx = IDX[c], borda = [...idx.map(i => ponto(i, 1)), ...[...idx].reverse().map(i => ponto(i, -1))];
+  return "M" + borda.map(([x, y]) => `${f(x)} ${f(y)}`).join("L") + "Z";
+};
+const texto = ([x, y], conteudo, tam, cor, contorno) =>
+  `<text x="${f(x)}" y="${f(y)}" font-size="${tam}" fill="${cor}" font-weight="800" text-anchor="middle" dominant-baseline="central"${
+    contorno ? ` stroke="${contorno}" stroke-width="5" paint-order="stroke"` : ""}>${conteudo}</text>`;
 
-// cores: {tema: [fundo, texto]}; abrev: nome do tema → sigla; peao(x, y, raio, j): o SVG do peão, o mesmo do Master.
-export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao) {
-  const partes = [
-    `<defs><pattern id="xadrez" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#fff"/>
-       <rect width="10" height="10" fill="#111"/><rect x="10" y="10" width="10" height="10" fill="#111"/></pattern></defs>`,
-    `<rect width="${LARGURA}" height="${ALTURA}" rx="26" fill="#161615"/>`,
-    `<path d="M${PTS.map(([x, y]) => `${f(x)} ${f(y)}`).join("L")}" fill="none" stroke="#333" stroke-width="${FAIXA + 16}" stroke-linejoin="round"/>`,
-  ];
-  const texto = ([x, y], conteudo, tam, cor) =>
-    `<text x="${f(x)}" y="${f(y)}" font-size="${tam}" fill="${cor}" font-weight="800" text-anchor="middle" dominant-baseline="central">${conteudo}</text>`;
-  IDX.forEach((idx, c) => {
-    const borda = [...idx.map(i => ponto(i, 1)), ...[...idx].reverse().map(i => ponto(i, -1))];
-    const d = "M" + borda.map(([x, y]) => `${f(x)} ${f(y)}`).join("L") + "Z";
-    const tipo = TIPOS[c];
-    const [fundo, cor, rotulo, tam, dica] =
-      tipo === "inicio" ? ["#f2f2f2", "#111", "INÍCIO", 19, "Início · qualquer tema"] :
-      tipo === "chegada" ? ["url(#xadrez)", "#111", "", 20, "Chegada"] :
-      tipo === "especial" ? ["#2a2a2a", "#ffd23f", "★", 34, "Casa especial · qualquer tema (ação ainda a definir)"] :
-      [...(cores[tipo] || ["#6b6b66", "#fff"]), esc(abrev(tipo)), 26, esc(tipo)];
-    partes.push(`<path d="${d}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
-    if (rotulo) partes.push(texto(CENTROS[c], rotulo, tam, cor));
-  });
-  const [ex, ey] = PTS.at(-1);
-  partes.push(texto([X0 + 50, LINHAS[0] - 92], "▼ PARTIDA", 22, "#fff"), texto([ex + 50, ey + 92], "CHEGADA ▲", 22, "#fff"));
-
-  // Peões: sozinho, no meio da casa; dois ou mais, em duas linhas ao longo dela.
-  const grupos = new Map();
+// Peões: sozinho, no meio da casa; dois ou mais, em duas linhas ao longo dela.
+function peoes(jogadores, casaDe, peao) {
+  const partes = [], grupos = new Map();
   for (const j of jogadores) { const c = casaDe(j); grupos.set(c, [...(grupos.get(c) || []), j]); }
   for (const [c, js] of grupos) {
     const idx = IDX[c];
@@ -112,5 +100,69 @@ export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao) {
       partes.push(peao(x, y, raio, j));
     });
   }
+  return partes;
+}
+
+// cores: {tema: [fundo, texto]}; abrev: nome do tema → sigla; peao(x, y, raio, j): o SVG do peão, o mesmo do Master.
+export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao) {
+  const partes = [
+    `<defs>${XADREZ}</defs>`,
+    `<rect width="${LARGURA}" height="${ALTURA}" rx="26" fill="#161615"/>`,
+    caminho("#333"),
+  ];
+  IDX.forEach((_, c) => {
+    const d = contornoDaCasa(c);
+    const tipo = TIPOS[c];
+    const [fundo, cor, rotulo, tam, dica] =
+      tipo === "inicio" ? ["#f2f2f2", "#111", "INÍCIO", 19, "Início · qualquer tema"] :
+      tipo === "chegada" ? ["url(#xadrez)", "#111", "", 20, "Chegada"] :
+      tipo === "especial" ? ["#2a2a2a", "#ffd23f", "★", 34, "Casa especial · qualquer tema (ação ainda a definir)"] :
+      [...(cores[tipo] || ["#6b6b66", "#fff"]), esc(abrev(tipo)), 26, esc(tipo)];
+    partes.push(`<path d="${d}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
+    if (rotulo) partes.push(texto(CENTROS[c], rotulo, tam, cor));
+  });
+  const [ex, ey] = PTS.at(-1);
+  partes.push(texto([X0 + 50, LINHAS[0] - 92], "▼ PARTIDA", 22, "#fff"), texto([ex + 50, ey + 92], "CHEGADA ▲", 22, "#fff"));
+  partes.push(...peoes(jogadores, casaDe, peao));
   return `<svg viewBox="0 0 ${LARGURA} ${ALTURA}" role="img" aria-label="Tabuleiro linear">${partes.join("")}</svg>`;
+}
+
+// Pokébola de raio r centrada em (x, y): marca as casas especiais do modo Pokémon.
+function pokebola([x, y], r) {
+  const [a, b, w] = [f(x - r), f(x + r), f(r * .14)];
+  return `<circle cx="${f(x)}" cy="${f(y)}" r="${f(r)}" fill="#fff"/>
+    <path d="M${a} ${f(y)}A${f(r)} ${f(r)} 0 0 1 ${b} ${f(y)}Z" fill="#e3350d"/>
+    <circle cx="${f(x)}" cy="${f(y)}" r="${f(r)}" fill="none" stroke="#111" stroke-width="${w}"/>
+    <path d="M${a} ${f(y)}H${b}" stroke="#111" stroke-width="${f(r * .16)}"/>
+    <circle cx="${f(x)}" cy="${f(y)}" r="${f(r * .34)}" fill="#fff" stroke="#111" stroke-width="${w}"/>`;
+}
+
+// Modo Pokémon: a mesma trilha, como um caminho de terra na grama. As casas não têm tema (toda pergunta é de
+// pokémon): são numeradas, em dois tons de areia, e as especiais levam uma pokébola.
+export function svgPokemon(jogadores, casaDe, peao) {
+  const TERRA = "#7a5a2e";
+  const partes = [
+    `<defs>${XADREZ}<pattern id="grama" width="60" height="52" patternUnits="userSpaceOnUse"><rect width="60" height="52" fill="#4f9d47"/>
+       <path d="M10 20l3-9 3 9M13 20v-4M40 46l3-9 3 9M43 46v-4" stroke="#3d8237" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+       <circle cx="32" cy="14" r="2.2" fill="#3d8237"/><circle cx="52" cy="30" r="2.2" fill="#3d8237"/></pattern></defs>`,
+    `<rect width="${LARGURA}" height="${ALTURA}" rx="26" fill="url(#grama)"/>`,
+    caminho(TERRA),
+  ];
+  IDX.forEach((_, c) => {
+    const tipo = TIPOS[c];
+    const [fundo, dica] =
+      tipo === "inicio" ? ["#f2f2f2", "Início"] :
+      tipo === "chegada" ? ["url(#xadrez)", "Chegada"] :
+      tipo === "especial" ? ["#2a2a2a", "Casa especial (ação ainda a definir)"] :
+      [c % 2 ? "#ead9a8" : "#dcc48b", "Pokémon"];
+    partes.push(`<path d="${contornoDaCasa(c)}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
+    if (tipo === "inicio") partes.push(texto(CENTROS[c], "INÍCIO", 19, "#111"));
+    else if (tipo === "especial") partes.push(`<g pointer-events="none">${pokebola(CENTROS[c], 30)}</g>`);
+    else if (tipo !== "chegada") partes.push(texto(CENTROS[c], c, 26, TERRA));
+  });
+  const [ex, ey] = PTS.at(-1);
+  partes.push(texto([X0 + 50, LINHAS[0] - 92], "▼ PARTIDA", 22, "#fff", "#2f6b2a"),
+              texto([ex + 50, ey + 92], "CHEGADA ▲", 22, "#fff", "#2f6b2a"));
+  partes.push(...peoes(jogadores, casaDe, peao));
+  return `<svg viewBox="0 0 ${LARGURA} ${ALTURA}" role="img" aria-label="Tabuleiro do modo Pokémon">${partes.join("")}</svg>`;
 }

@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.61 — 2026-10-13**
+> **Versão preliminar 0.62 — 2026-10-13**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -694,7 +694,7 @@ Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que nã
 
 ### Modo Pokémon
 
-Decidido em 2026-10-13. É o **Linear só com perguntas de pokémon**: a mesma trilha de 60 casas e as mesmas regras (vez, quem lê, movimento, chegada), mas todas as perguntas saem da coleção de pokémon (§6, "Coleções"), em qualquer casa; a cor da casa não conta. Entram as perguntas de pokémon do jogo original e as exclusivas do modo.
+Decidido em 2026-10-13. É o **Linear só com perguntas de pokémon**: a mesma trilha de 60 casas e as mesmas regras (vez, quem lê, movimento, chegada), mas todas as perguntas saem da coleção de pokémon (§6, "Coleções"), em qualquer casa. O tabuleiro é a mesma trilha com outro desenho: um caminho de terra na grama, com as casas numeradas e sem tema, e uma pokébola nas casas especiais. Entram as perguntas de pokémon do jogo original e as exclusivas do modo.
 
 ### Definições
 
@@ -746,7 +746,7 @@ Ao criar a partida, há também **Nova partida · Linear (protótipo)**, guardad
 
 ### Modo Pokémon
 
-Em **Outros modos**, **Nova partida · Pokémon** grava `modo: "pokemon"` e mostra quantas perguntas de pokémon há. O app trata a partida como Linear (tabuleiro, Sorteio, modo mesa), com duas diferenças: as perguntas em jogo são só as da coleção `pokemon`, e o tema de toda casa é **Pokémon**, em amarelo e azul no lugar do arco-íris de "Qualquer tema". No Sorteio há um botão só, **Pokémon**. Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
+Em **Outros modos**, **Nova partida · Pokémon** grava `modo: "pokemon"` e mostra quantas perguntas de pokémon há. O app trata a partida como Linear (tabuleiro, Sorteio, modo mesa), com duas diferenças: as perguntas em jogo são só as da coleção `pokemon`, e o tema de toda casa é **Pokémon**, em amarelo e azul no lugar do arco-íris de "Qualquer tema". O tabuleiro é desenhado por `svgPokemon` (em `linear.js`), com a geometria do Linear: grama ao fundo, caminho de terra, casas numeradas em dois tons de areia e pokébolas nas especiais. No Sorteio há um botão só, **Pokémon**. Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
 
 ### Modo Trilha da Vida
 
@@ -961,6 +961,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.62 | 2026-10-13 | Tabuleiro próprio do modo Pokémon: a trilha do Linear como um caminho de terra na grama, casas numeradas, pokébola nas especiais (§15, §16) |
 | 0.61 | 2026-10-13 | Coleções de perguntas (campos `colecao` e `exclusiva`) e o modo Pokémon: o Linear só com perguntas de pokémon; as novas perguntas de pokémon são exclusivas dele, e as antigas continuam também no jogo original; `pipeline/colecao.py` (§6, §15, §16, §17) |
 | 0.60 | 2026-10-12 | Perguntas com áudio: regras (reconhecimento, só áudio livre, o LLM não ouve e uma pessoa confere o trecho, saturação), campo `audio`, `pipeline/audios.py` com catálogo, página para ouvir e registro; no app, o som toca só na tela grande, comandado por quem lê; filtro de áudio no sorteio; piloto de 39 perguntas, ainda não registrado; até segunda ordem, as perguntas com áudio ficam fora do jogo; no Sorteio e no Turno, quem pergunta e quem responde aparecem como na tela grande, no cartão da pergunta e na linha da vez (§6, §15, §16, §17) |
 | 0.59 | 2026-10-12 | Alternativas da múltipla escolha na faixa da figura ampliada (§15) |
