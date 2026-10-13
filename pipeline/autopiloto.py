@@ -90,7 +90,8 @@ def metas_texto(plano, canon):
 
 def progresso(banco, plano, canon):
     texto, figura = {}, {}
-    for p in banco.perguntas:
+    # As perguntas exclusivas de uma coleção (modo Pokémon) não contam para as metas do jogo original.
+    for p in (p for p in banco.perguntas if not p.get("exclusiva")):
         alvo = figura if "imagem" in p else texto
         alvo[(p["tema"], p["subtema"])] = alvo.get((p["tema"], p["subtema"]), 0) + 1
     metas = metas_texto(plano, canon)
@@ -99,7 +100,7 @@ def progresso(banco, plano, canon):
         "texto": {k: (texto.get(k, 0), m) for k, m in metas.items()},
         "figura_tema": {t: (sum(n for (tt, _), n in figura.items() if tt == t), v["figura"]) for t, v in plano["temas"].items()},
         "catalogos": {c["id"]: (est_fig.get(c["id"], {}).get("registradas", 0), c["meta"]) for c in plano["catalogos"]},
-        "total": len(banco.perguntas),
+        "total": sum(texto.values()) + sum(figura.values()),
         "total_figura": sum(figura.values()),
     }
 
@@ -127,7 +128,8 @@ def escolher(banco, plano, canon, so=None):
     def_texto = {k: m - n for k, (n, m) in prog["texto"].items() if m - n > 0 and f"texto:{k[1]}" not in pausados}
 
     def trabalho_figura(tema):
-        cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados]
+        cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados
+                and not c.get("exclusiva")]   # os catálogos de coleções exclusivas rodam à mão
         cats = [c for c in cats if prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0] > 0]
         if not cats:
             return None

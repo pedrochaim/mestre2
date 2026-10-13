@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A silhueta é uma massa compacta, sem contorno característico; pode ser confundida com Vulpix, Ninetales de Alola ou outras raposas."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta nítida: chifre bifurcado, antenas e garras largas. Reconhecível pela forma.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Heracross",
+      "distratores": [],
+      "ancora": {
+        "nome": "Heracross",
+        "descricao": "Pokémon inseto/lutador da segunda geração, número 214 da Pokédex Nacional, com um grande chifre na cabeça.",
+        "variantes": [
+          "Herakurosu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Orelhas pontudas, rabo com ponta em tufo e bolinhas nas laterais: silhueta característica. Pergunta de evolução, nível 3.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui, com uma Pedra da Lua?",
+      "resposta": "Skitty",
+      "distratores": [],
+      "ancora": {
+        "nome": "Delcatty",
+        "descricao": "Pokémon normal da terceira geração, número 301 da Pokédex Nacional, evolução do Skitty.",
+        "variantes": [
+          "Eneko"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A silhueta é um blob arredondado sem detalhes; confundível com Jigglypuff, Clefable, Wigglytuff e outros pokémon redondos."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lã na cabeça e no pescoço, cauda com bola na ponta: reconhecível, embora parecida com Mareep; múltipla com distratores parecidos.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Flaaffy",
+      "distratores": [
+        "Mareep",
+        "Ampharos",
+        "Wooloo"
+      ],
+      "ancora": {
+        "nome": "Flaaffy",
+        "descricao": "Pokémon elétrico da segunda geração, número 180 da Pokédex Nacional, forma intermediária entre Mareep e Ampharos.",
+        "variantes": [
+          "Mokoko"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Antenas longas com bolas, braços em forma de arco e asas arredondadas: contorno característico.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Kricketot",
+      "distratores": [],
+      "ancora": {
+        "nome": "Kricketune",
+        "descricao": "Pokémon inseto da quarta geração, número 402 da Pokédex Nacional, evolução do Kricketot, com aparência de grilo maestro.",
+        "variantes": [
+          "Mushaaku"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pose inconfundível de chute alto com perna esticada; silhueta bem característica.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Tyrogue",
+      "distratores": [],
+      "ancora": {
+        "nome": "Hitmonlee",
+        "descricao": "Pokémon lutador da primeira geração, número 106 da Pokédex Nacional, conhecido pelos chutes, evolução do Tyrogue.",
+        "variantes": [
+          "Sawamura"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Sapo agachado com o cachecol de bolhas e chapéu pontudo; reconhecível, mas próximo de Froakie e Greninja, por isso múltipla.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Frogadier",
+      "distratores": [
+        "Froakie",
+        "Greninja",
+        "Croagunk"
+      ],
+      "ancora": {
+        "nome": "Frogadier",
+        "descricao": "Pokémon água da sexta geração, número 657 da Pokédex Nacional, forma intermediária entre Froakie e Greninja.",
+        "variantes": [
+          "Gekogashira"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Chifre curvo, cauda em lâmina e corpo de quadrúpede: silhueta nítida. Absol não tem evolução, então a pergunta é de distinção.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Absol",
+      "distratores": [
+        "Houndoom",
+        "Umbreon",
+        "Mightyena"
+      ],
+      "ancora": {
+        "nome": "Absol",
+        "descricao": "Pokémon do tipo sombrio da terceira geração, número 359 da Pokédex Nacional, com um chifre curvo na cabeça.",
+        "variantes": [
+          "Abusoru"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cabeça em forma de sino, duas folhas e raízes finas: silhueta clara. Pergunta de evolução.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Weepinbell",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bellsprout",
+        "descricao": "Pokémon planta/veneno da primeira geração, número 69 da Pokédex Nacional, que evolui para Weepinbell.",
+        "variantes": [
+          "Madatsubomi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Orelhas grandes e peludas, galho na cauda e silhueta de raposa bípede: reconhecível. Pergunta de evolução.",
+      "usar_silhueta": true,
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Delphox",
+      "distratores": [],
+      "ancora": {
+        "nome": "Braixen",
+        "descricao": "Pokémon fogo da sexta geração, número 654 da Pokédex Nacional, forma intermediária entre Fennekin e Delphox, que carrega um galho na cauda.",
+        "variantes": [
+          "Tairenar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A silhueta não reproduz com clareza a forma característica de Carnivine; a figura com braços em foice e cauda trançada fica ambígua e pode ser confundida com outros pokémon."
+    }
+  ]
+}

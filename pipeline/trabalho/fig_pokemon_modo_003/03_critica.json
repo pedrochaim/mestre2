@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Growlithe evolui apenas para Arcanine (Pedra de Fogo); fato amplamente documentado. Enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto de Drifloon, resposta única; nível 1 aberto adequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são outras evoluções de Eevee, críveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto de Oddish, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Luxio evolui para Luxray (nível 30); fato documentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto de Sigilyph, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Haunter evolui para Gengar por troca; distratores do mesmo tipo e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores críveis (Bibarel, Wooloo, Snorlax), nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Garchomp evolui de Gabite; distratores são estágios intermediários de outras linhas dragão.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento de Squirtle, emblemático, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a pista da Pedra da Água, com esses distratores, permite acertar sem a figura (só Ludicolo evolui assim entre as opções). Distratores trocados por outros pokémon que evoluem com Pedra da Água.",
+      "reescrita": {
+        "pergunta": "Em que pokémon este evolui quando exposto a uma Pedra da Água?",
+        "resposta": "Ludicolo",
+        "distratores": [
+          "Cloyster",
+          "Starmie",
+          "Vaporeon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores dragões da mesma região/estilo, críveis e incorretos.",
+      "reescrita": null
+    }
+  ]
+}

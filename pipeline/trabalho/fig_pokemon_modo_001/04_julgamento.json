@@ -1,0 +1,596 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Slowpoke",
+        "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+        "variantes": [
+          "Yadon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dna",
+          "nome": "DNA",
+          "descricao": "Molécula que carrega as informações genéticas dos seres vivos.",
+          "variantes": [
+            "ADN",
+            "Ácido desoxirribonucleico"
+          ]
+        },
+        {
+          "id": "yao_ming",
+          "nome": "Yao Ming",
+          "descricao": "Pivô chinês de dois metros e vinte e nove que jogou na NBA pelo Houston Rockets de 2002 a 2011.",
+          "variantes": [
+            "Yao"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Machamp",
+        "descricao": "Pokémon do tipo Lutador de primeira geração, número 68 da Pokédex Nacional, com quatro braços.",
+        "variantes": [
+          "Kairiky"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "machamp",
+          "nome": "Machamp",
+          "descricao": "Pokémon do tipo Lutador, número 68 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "macapa",
+          "nome": "Macapá",
+          "descricao": "Capital do estado do Amapá, às margens do rio Amazonas.",
+          "variantes": []
+        },
+        {
+          "id": "marcha_atletica",
+          "nome": "Marcha atlética",
+          "descricao": "Prova de pedestrianismo do atletismo em que os atletas andam o mais rápido possível, sem correr.",
+          "variantes": [
+            "Racewalking",
+            "Marcha"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "marcel_duchamp",
+          "nome": "Marcel Duchamp",
+          "descricao": "Artista francês do século vinte, ligado ao dadaísmo e criador dos ready-mades, que também foi enxadrista.",
+          "variantes": [
+            "Duchamp"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Eevee",
+        "descricao": "Pokémon do tipo Normal de primeira geração, número 133 da Pokédex Nacional, conhecido por suas várias evoluções.",
+        "variantes": [
+          "Eievui"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eevee",
+          "nome": "Eevee",
+          "descricao": "Pokémon do tipo Normal, número 133 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "monte_everest",
+          "nome": "Monte Everest",
+          "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+          "variantes": [
+            "Everest",
+            "Chomolungma",
+            "Sagarmatha",
+            "Mount Everest"
+          ]
+        },
+        {
+          "id": "o_sonho_henri_rousseau",
+          "nome": "O Sonho (Henri Rousseau)",
+          "descricao": "Pintura a óleo de Henri Rousseau, de 1910, com uma mulher nua num divã em meio a uma selva exuberante com leões e um flautista.",
+          "variantes": [
+            "Le Rêve",
+            "The Dream",
+            "O Sonho"
+          ]
+        },
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        },
+        {
+          "id": "teiu",
+          "nome": "Teiú",
+          "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+          "variantes": [
+            "Teiú-comum",
+            "Tegu",
+            "Salvator merianae",
+            "Teju"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Wooloo",
+        "descricao": "Pokémon ovelha do tipo Normal da oitava geração, número 831 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "monjolo",
+          "nome": "Monjolo",
+          "descricao": "Máquina hidráulica rústica de pilão movido por uma gangorra com concha de água.",
+          "variantes": [
+            "Monjolo hidráulico"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "roronoa_zoro",
+          "nome": "Roronoa Zoro",
+          "descricao": "Espadachim da tripulação de Luffy no mangá e anime One Piece.",
+          "variantes": [
+            "Zoro",
+            "Zolo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vaporeon",
+        "descricao": "Evolução do Eevee do tipo Água, de primeira geração, número 134 da Pokédex Nacional.",
+        "variantes": [
+          "Showers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "eva_peron",
+          "nome": "Eva Perón",
+          "descricao": "Atriz e política argentina, primeira-dama de 1946 a 1952 e esposa do presidente Juan Perón.",
+          "variantes": [
+            "Evita",
+            "María Eva Duarte de Perón"
+          ]
+        },
+        {
+          "id": "chuvas_de_manga",
+          "nome": "Chuvas de manga",
+          "descricao": "Chuvas que antecedem a monção no sul da Índia e ajudam a amadurecer as mangas",
+          "variantes": [
+            "Mango showers"
+          ]
+        },
+        {
+          "id": "porygon",
+          "nome": "Porygon",
+          "descricao": "Pokémon do tipo Normal, número 137 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Blastoise",
+        "descricao": "Pokémon do tipo Água de primeira geração, número 9 da Pokédex Nacional, uma tartaruga com canhões nas costas.",
+        "variantes": [
+          "Kamex"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "blastoise",
+          "nome": "Blastoise",
+          "descricao": "Pokémon do tipo Água, número 9 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "wartortle",
+          "nome": "Wartortle",
+          "descricao": "Pokémon tartaruga de água da primeira geração, evolução de Squirtle, número 8 da Pokédex Nacional.",
+          "variantes": [
+            "Kameil"
+          ]
+        },
+        {
+          "id": "atol",
+          "nome": "Atol",
+          "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
+          "variantes": [
+            "Atoll",
+            "Atóis"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "lassie",
+          "nome": "Lassie",
+          "descricao": "Cadela collie fictícia, heroína de filmes e de uma longa série de TV americana iniciada em 1954.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Rayquaza",
+        "descricao": "Pokémon lendário dragão do tipo Dragão/Voador da terceira geração, número 384 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rayquaza",
+          "nome": "Rayquaza",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 384 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "aquaman",
+          "nome": "Aquaman",
+          "descricao": "Super-herói da DC Comics que vive no mar e se comunica com as criaturas marinhas",
+          "variantes": [
+            "Arthur Curry"
+          ]
+        },
+        {
+          "id": "ramayana",
+          "nome": "Ramayana",
+          "descricao": "Poema épico da Índia antiga, em sânscrito, sobre o príncipe Rama e o resgate de sua esposa Sita.",
+          "variantes": [
+            "Ramaiana"
+          ]
+        },
+        {
+          "id": "ratazana",
+          "nome": "Ratazana",
+          "descricao": "Roedor da espécie Rattus norvegicus, também chamado rato-marrom, comum em áreas urbanas do mundo todo.",
+          "variantes": [
+            "Rato-marrom",
+            "Rattus norvegicus",
+            "Rato-de-esgoto"
+          ]
+        },
+        {
+          "id": "penhascos_flamejantes",
+          "nome": "Penhascos Flamejantes",
+          "descricao": "Sítio paleontológico de rochas avermelhadas no deserto de Gobi, na Mongólia, famoso por ninhos e ovos de dinossauro.",
+          "variantes": [
+            "Flaming Cliffs",
+            "Bayanzag"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Torchic",
+        "descricao": "Pokémon pintinho do tipo Fogo da terceira geração, número 255 da Pokédex Nacional.",
+        "variantes": [
+          "Achamo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torchic",
+          "nome": "Torchic",
+          "descricao": "Pokémon do tipo Fogo, número 255 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "machamp",
+          "nome": "Machamp",
+          "descricao": "Pokémon do tipo Lutador, número 68 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "orquidea",
+          "nome": "Orquídea",
+          "descricao": "Planta da família Orchidaceae, uma das maiores famílias de plantas com flores",
+          "variantes": [
+            "Orchidaceae",
+            "orquidácea",
+            "orchid"
+          ]
+        },
+        {
+          "id": "louis_armstrong",
+          "nome": "Louis Armstrong",
+          "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+          "variantes": [
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Dewott",
+        "descricao": "Pokémon do tipo Água da quinta geração, número 502 da Pokédex Nacional, evolução de Oshawott.",
+        "variantes": [
+          "Futachimaru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pidgeotto",
+          "nome": "Pidgeotto",
+          "descricao": "Pokémon ave do tipo Normal/Voador da primeira geração, número 17 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "futurama",
+          "nome": "Futurama",
+          "descricao": "Série animada americana estreada em 1999, sobre Fry, um entregador de pizza que acorda mil anos no futuro.",
+          "variantes": []
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "projeto_tamar",
+          "nome": "Projeto Tamar",
+          "descricao": "Programa brasileiro de conservação das tartarugas marinhas, criado em 1980.",
+          "variantes": [
+            "Tamar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Tyranitar",
+        "descricao": "Pokémon do tipo Pedra/Sombrio da segunda geração, número 248 da Pokédex Nacional, parecido com um dinossauro.",
+        "variantes": [
+          "Bangiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tyranitar",
+          "nome": "Tyranitar",
+          "descricao": "Pokémon dos tipos Pedra e Sombrio, número 248 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "transistor",
+          "nome": "Transistor",
+          "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+          "variantes": []
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "la_angora",
+          "nome": "Lã angorá",
+          "descricao": "Fibra felpuda e macia tirada do pelo do coelho angorá",
+          "variantes": [
+            "Angorá",
+            "Angora wool"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Slowpoke."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "machamp",
+      "motivo": "Pokémon Machamp, número 68."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "eevee",
+      "motivo": "Pokémon Eevee, número 133."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Wooloo não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vaporeon é distinto de Porygon e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "blastoise",
+      "motivo": "Pokémon Blastoise, número 9."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "rayquaza",
+      "motivo": "Pokémon Rayquaza, número 384."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "torchic",
+      "motivo": "Pokémon Torchic, número 255."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Dewott não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "tyranitar",
+      "motivo": "Pokémon Tyranitar, número 248."
+    }
+  ]
+}

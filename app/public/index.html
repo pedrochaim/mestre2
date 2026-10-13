@@ -381,7 +381,9 @@
       <button id="criar-trilha" style="width:100%">Nova partida · Trilha da Vida</button>
       <p class="suave" style="margin:.3rem 0 .8rem">Corrida num mapa vertical, com profissão, personalidade e cartas.</p>
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
-      <p class="suave" style="margin:.3rem 0 0">Todos na mesma trilha de 60 casas, até a chegada.</p>
+      <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 60 casas, até a chegada.</p>
+      <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
+      <p id="pokemon-desc" class="suave" style="margin:.3rem 0 0">A trilha do Linear, só com perguntas de pokémon.</p>
     </div>
     <div id="info-entrada" hidden></div>
   </section>
@@ -503,6 +505,8 @@
         </details>
         <details id="regras-linear" class="regras" hidden>
           <summary>Como se joga</summary>
+          <p id="regras-pokemon" class="suave" hidden><strong>Modo Pokémon:</strong> a trilha e as regras são as do
+            Linear, mas todas as perguntas são de pokémon, em qualquer casa; a cor da casa não conta.</p>
           <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
             xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
             qualquer tema. Cada acerto avança uma casa; errar não move o peão. As ações das casas ★ ainda serão
@@ -607,7 +611,9 @@
   const LETRAS = "ABCDEFGHJKLMNPQRSTUVWXYZ"; // sem I e O, que se confundem com 1 e 0
 
   let codigo = null;
-  let perguntas = [];
+  let perguntas = [];        // as perguntas do modo da partida (veja perguntasDoModo)
+  let banco = [];            // todas as perguntas carregadas
+  let perguntasPokemon;      // as perguntas em uso são as do modo Pokémon? (undefined antes de carregar)
   // Perguntas com áudio fora do jogo até segunda ordem (MANIFESTO §16): nem chegam à lista, e o filtro de áudio
   // fica escondido. Para liberá-las, basta trocar para true.
   const AUDIO_NO_JOGO = false;
@@ -642,7 +648,7 @@
     `${c} ${i * 100 / a.length}%, ${c} ${(i + 1) * 100 / a.length}%`).join(", ")})`;
 
   function pintar(el, tema) {
-    const [c, ct] = tema === "*" ? [ARCO, "#fff"] : CORES[tema] || ["#6b6b66", "#fff"];
+    const [c, ct] = tema === "*" ? (ehPokemon() ? ["#ffcb05", "#2a3a8c"] : [ARCO, "#fff"]) : CORES[tema] || ["#6b6b66", "#fff"];
     el.style.setProperty("--c", c);
     el.style.setProperty("--ct", ct);
   }
@@ -676,6 +682,7 @@
   // Tema da próxima pergunta do jogador; "*" (qualquer tema) na pergunta final; null se ele já chegou.
   function temaAtual(j) {
     const p = casaDe(j);
+    if (ehPokemon()) return p >= L.CHEGADA ? null : "*";
     if (ehLinear()) return L.temaDaCasa(p);
     if (p >= CHEGADA) return null;
     if (p === CENTRO) return "*";
@@ -703,12 +710,20 @@
 
   function etiqueta(tema) {
     const s = Object.assign(document.createElement("span"), { className: "etiqueta" });
-    s.textContent = tema === null ? "🏁 chegada" : tema === "*" ? "Qualquer tema" : tema || "sem tema";
+    s.textContent = tema === null ? "🏁 chegada" : tema === "*" ? (ehPokemon() ? "Pokémon" : "Qualquer tema") : tema || "sem tema";
     pintar(s, tema);
     return s;
   }
 
-  const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { perguntas = AUDIO_NO_JOGO ? d : d.filter(p => !p.audio); });
+  const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { banco = AUDIO_NO_JOGO ? d : d.filter(p => !p.audio); perguntasDoModo(); });
+  // O modo Pokémon sorteia só as perguntas da coleção "pokemon"; os outros modos, todas menos as exclusivas de
+  // uma coleção (MANIFESTO §6, "Coleções").
+  const pokemonDoBanco = () => banco.filter(p => p.colecao === "pokemon");
+  function perguntasDoModo() {
+    perguntasPokemon = ehPokemon();
+    perguntas = perguntasPokemon ? pokemonDoBanco() : banco.filter(p => !p.exclusiva);
+    $("pokemon-desc").textContent = `A trilha do Linear, só com perguntas de pokémon (${numero(pokemonDoBanco().length)}).`;
+  }
 
   // ---------------------------------------------------------------- entrada
 
@@ -723,7 +738,7 @@
       const c = novoCodigo();
       const dados = { criada_em: serverTimestamp() };
       if (modo === "trilha") Object.assign(dados, { modo, semente: Math.floor(Math.random() * 2e9) });
-      if (modo === "linear") dados.modo = modo;
+      if (modo === "linear" || modo === "pokemon") dados.modo = modo;
       try {
         // Se o código já existir, a regra recusa (seria uma atualização), e tentamos outro.
         await setDoc(doc(db, "partidas", c), dados);
@@ -737,6 +752,7 @@
   $("criar").onclick = () => criar("master");
   $("criar-trilha").onclick = () => criar("trilha");
   $("criar-linear").onclick = () => criar("linear");
+  $("criar-pokemon").onclick = () => criar("pokemon");
 
   $("form-entrar").onsubmit = async e => {
     e.preventDefault();
@@ -938,13 +954,13 @@
     const temas = temasDoJogo();
     if (!temas.includes(temaEscolhido)) temaEscolhido = "*";
     // Só os temas com perguntas viram botões; os outros ficam listados numa linha de "em breve".
-    const vazios = temas.filter(t => !temPerguntas(t));
+    const vazios = ehPokemon() ? [] : temas.filter(t => !temPerguntas(t));
     $("em-breve").hidden = !vazios.length;
     $("em-breve").textContent = `Em breve: ${vazios.join(", ")}.`;
-    $("temas").replaceChildren(...["*", ...temas.filter(temPerguntas)].map(t => {
+    $("temas").replaceChildren(...["*", ...(ehPokemon() ? [] : temas.filter(temPerguntas))].map(t => {
       const b = document.createElement("button");
       const novas = restantes(t).length;
-      b.textContent = `${t === "*" ? "Qualquer tema" : t} ${novas || !doFiltro(t).length ? `(${novas})` : "(só repetidas)"}`;
+      b.textContent = `${t === "*" ? (ehPokemon() ? "Pokémon" : "Qualquer tema") : t} ${novas || !doFiltro(t).length ? `(${novas})` : "(só repetidas)"}`;
       b.classList.toggle("qualquer", t === "*");
       b.setAttribute("aria-pressed", t === temaEscolhido);
       pintar(b, t);
@@ -2105,7 +2121,9 @@
   const limparTurno = () => { turno = { destino: null, carta: null, temaLivre: "*", desafio: null, mapaInteiro: turno?.mapaInteiro || false }; };
   limparTurno();
   const ehTrilha = () => partida.modo === "trilha";
-  const ehLinear = () => partida.modo === "linear";
+  // O modo Pokémon usa a trilha e as regras do Linear; muda só o conjunto de perguntas.
+  const ehPokemon = () => partida.modo === "pokemon";
+  const ehLinear = () => partida.modo === "linear" || ehPokemon();
   const refJ = id => doc(db, "partidas", codigo, "jogadores", id);
   const subtemaParaTema = {};
   carregandoTemas.then(ts => { for (const t of ts) for (const s of t.subtemas) subtemaParaTema[s.subtema] = t.tema; });
@@ -2134,6 +2152,11 @@
     $("regras-trilha").hidden = !tr;
     $("regras-master").hidden = tr || ehLinear();
     $("regras-linear").hidden = !ehLinear();
+    $("regras-pokemon").hidden = !ehPokemon();
+    if (perguntasPokemon !== undefined && perguntasPokemon !== ehPokemon()) {
+      perguntasDoModo();
+      desenharTemas();
+    }
     $("mesa").classList.toggle("trilha", tr);
     $("mesa").classList.toggle("linear", ehLinear());
     document.querySelector('[data-aba="sorteio"]').textContent = tr ? "Turno" : "Sorteio";

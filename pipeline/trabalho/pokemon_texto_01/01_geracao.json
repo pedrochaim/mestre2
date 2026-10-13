@@ -1,0 +1,630 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "hitmonlee",
+        "nome": "Hitmonlee",
+        "descricao": "Pokémon lutador da primeira geração, número 106 da Pokédex Nacional, conhecido pelos chutes, evolução do Tyrogue.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hitmonlee_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Hitmonlee, o pokémon lutador famoso pelos chutes, tem o nome inspirado em qual astro dos filmes de artes marciais?",
+      "resposta": "Bruce Lee",
+      "distratores": [
+        "Jackie Chan",
+        "Jet Li",
+        "Chuck Norris"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hitmonlee_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ditto",
+        "descricao": "Pokémon do tipo Normal da primeira geração, uma massa roxa capaz de se transformar em qualquer outro pokémon.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ditto, o pokémon que se transforma em qualquer outro, tem um nome que é uma palavra inglesa. O que ela significa?",
+      "resposta": "O mesmo (idem)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Ditto_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gengar",
+        "nome": "Gengar",
+        "descricao": "Pokémon dos tipos Fantasma e Veneno, número 94 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do fantasma Gengar vem de uma palavra alemã que designa o duplo sombrio de uma pessoa. Que palavra é essa?",
+      "resposta": "Doppelgänger",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Gengar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kanto",
+        "descricao": "Região fictícia dos primeiros jogos Pokémon, Red, Green e Blue, onde começa a jornada de Ash no anime.",
+        "variantes": [
+          "Região de Kanto"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kanto"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Kanto, as cidades chamadas em inglês Pallet, Viridian, Cerulean e Vermilion seguem um padrão nos nomes. Elas se referem a quê?",
+      "resposta": "Cores",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kanto",
+        "https://bulbapedia.bulbagarden.net/wiki/Pallet_Town"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Professor Carvalho",
+        "descricao": "Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime.",
+        "variantes": [
+          "Professor Oak",
+          "Samuel Oak"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Oak"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No original em inglês, os professores pokémon se chamam Oak, Elm, Birch e Rowan. De onde vêm esses nomes?",
+      "resposta": "De árvores",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Professor",
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Oak"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Equipe Rocket",
+        "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+        "variantes": [
+          "Team Rocket"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Team_Rocket"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No anime, a dupla de vilões da Equipe Rocket tem nomes que, juntos, homenageiam qual fora da lei do Velho Oeste americano?",
+      "resposta": "Jesse James",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Jessie",
+        "https://en.wikipedia.org/wiki/Team_Rocket"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ekans",
+        "nome": "Ekans",
+        "descricao": "Pokémon cobra do tipo veneno, número 23 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ekans e sua evolução, Arbok, têm nomes que são palavras inglesas lidas de trás para frente. Que palavras são essas?",
+      "resposta": "Snake e Kobra",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mew",
+        "nome": "Mew",
+        "descricao": "Pokémon do tipo Psíquico, número 151 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Nos jogos e no anime, o pokémon mais poderoso já criado pela ciência foi feito a partir do material genético de qual pokémon mítico?",
+      "resposta": "Mew",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Mewtwo"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "slowpoke",
+        "nome": "Slowpoke",
+        "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O preguiçoso Slowpoke evolui para Slowbro quando qual pokémon, uma concha, morde a ponta da sua cauda?",
+      "resposta": "Shellder",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "umbreon",
+        "nome": "Umbreon",
+        "descricao": "Pokémon do tipo Sombrio, número 197 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Com muita amizade, Eevee evolui para Espeon durante o dia. Nas mesmas condições, mas à noite, ele vira qual pokémon?",
+      "resposta": "Umbreon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Estampas Ilustradas",
+        "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+        "variantes": [
+          "Pokémon Trading Card Game",
+          "Pokémon TCG",
+          "Card game Pokémon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Até 2003, o card game Pokémon foi publicado no Ocidente pela mesma empresa que criou Magic. Que empresa é essa?",
+      "resposta": "Wizards of the Coast",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Legends: Arceus",
+        "descricao": "Jogo Pokémon de 2022 para o Nintendo Switch, ambientado na antiga região de Hisui.",
+        "variantes": [
+          "Legends Arceus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Pokémon Legends: Arceus, de 2022, se passa na antiga região de Hisui, que séculos depois se tornará qual região dos jogos?",
+      "resposta": "Sinnoh",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ho_oh",
+        "nome": "Ho-Oh",
+        "descricao": "Pokémon dos tipos Fogo e Voador, número 250 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Os lendários Ho-Oh e Lugia estampam as capas de qual par de jogos da segunda geração?",
+      "resposta": "Pokémon Gold e Silver",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "ash_ketchum",
+        "nome": "Ash Ketchum",
+        "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+        "variantes": [
+          "Satoshi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ash_Ketchum"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No primeiro episódio do anime, por que Ash fica com um Pikachu, e não com Bulbasaur, Charmander ou Squirtle?",
+      "resposta": "Acordou tarde e chegou atrasado",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/EP001",
+        "https://en.wikipedia.org/wiki/Ash_Ketchum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Misty",
+        "descricao": "Líder de ginásio do tipo Água de Cerulean, nos jogos, e companheira de viagem de Ash no início do anime Pokémon.",
+        "variantes": [
+          "Kasumi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Misty_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Logo no começo do anime, por que Misty passa a seguir Ash em sua jornada?",
+      "resposta": "Para cobrar a bicicleta destruída",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Misty",
+        "https://en.wikipedia.org/wiki/Misty_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "psyduck",
+        "nome": "Psyduck",
+        "descricao": "Pokémon do tipo Água, número 54 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O pato amarelo Psyduck sofre de dores de cabeça constantes. Segundo os jogos, o que acontece quando a dor fica forte demais?",
+      "resposta": "Ele libera poderes psíquicos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Psyduck"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tipo Fada",
+        "descricao": "Tipo elemental de pokémon e golpes introduzido na sexta geração, em Pokémon X e Y.",
+        "variantes": [
+          "Fairy type"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fairy_(type)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O tipo Fada surgiu em Pokémon X e Y para equilibrar as batalhas. Que tipo, até então poderoso demais, ele veio conter?",
+      "resposta": "Dragão",
+      "distratores": [
+        "Psíquico",
+        "Elétrico",
+        "Água"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fairy_(type)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Enfermeira Joy",
+        "descricao": "Personagem do anime Pokémon que cuida dos Centros Pokémon, com uma versão quase idêntica em cada cidade.",
+        "variantes": [
+          "Nurse Joy"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nurse_Joy"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No anime, por que as Enfermeiras Joy dos Centros Pokémon de cada cidade são praticamente idênticas?",
+      "resposta": "São todas parentes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nurse_Joy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jigglypuff",
+        "descricao": "Pokémon balão cor-de-rosa da primeira geração, cuja canção faz todos dormirem.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jigglypuff"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No anime, por que Jigglypuff rabisca com sua caneta o rosto de quem ouve sua canção?",
+      "resposta": "Fica irritado porque todos dormem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jigglypuff",
+        "https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(anime)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alola",
+        "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+        "variantes": [
+          "Região de Alola"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alola"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A região de Alola, cenário de Pokémon Sun e Moon, é inspirada em qual arquipélago americano?",
+      "resposta": "Havaí",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon",
+        "https://bulbapedia.bulbagarden.net/wiki/Alola"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kalos",
+        "descricao": "Região fictícia dos jogos Pokémon X e Y, da sexta geração, cuja capital é a cidade de Lumiose.",
+        "variantes": [
+          "Região de Kalos"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kalos"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Com castelos, palácios e uma grande capital cheia de cafés, a região de Kalos, de Pokémon X e Y, é inspirada em qual país?",
+      "resposta": "França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y",
+        "https://bulbapedia.bulbagarden.net/wiki/Kalos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Unova",
+        "descricao": "Região fictícia dos jogos Pokémon Black e White, da quinta geração.",
+        "variantes": [
+          "Região de Unova",
+          "Isshu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Unova"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Black e White, a região de Unova e sua metrópole de arranha-céus, Castelia, se inspiram em qual cidade americana?",
+      "resposta": "Nova York",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White",
+        "https://bulbapedia.bulbagarden.net/wiki/Unova"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Giovanni",
+        "descricao": "Chefe da Equipe Rocket nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Sakaki"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Giovanni"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Red e Blue, Giovanni, o chefe da Equipe Rocket, é também o líder de ginásio de qual cidade de Kanto?",
+      "resposta": "Viridian",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Giovanni"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon Estampas Ilustradas",
+        "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+        "variantes": [
+          "Pokémon Trading Card Game",
+          "Pokémon TCG",
+          "Card game Pokémon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O card game de Pokémon, com suas cartas colecionáveis, chegou às lojas do Japão em que ano?",
+      "resposta": "1996",
+      "distratores": [
+        "1995",
+        "1997",
+        "1998"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon (anime)",
+        "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+        "variantes": [
+          "Pokémon: a série",
+          "Pocket Monsters (anime)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_(TV_series)"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A série animada de Pokémon, com Ash e Pikachu, estreou na televisão japonesa em que ano?",
+      "resposta": "1997",
+      "distratores": [
+        "1996",
+        "1998",
+        "1999"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_(TV_series)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_go",
+        "nome": "Pokémon Go",
+        "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+        "variantes": [
+          "Pokémon GO"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que empresa americana, nascida como um projeto dentro do Google, desenvolveu o Pokémon Go?",
+      "resposta": "Niantic",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+        "https://en.wikipedia.org/wiki/Niantic,_Inc."
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_red_e_blue",
+        "nome": "Pokémon Red e Blue",
+        "descricao": "Primeiros jogos Pokémon lançados no Ocidente, para o Game Boy, versões internacionais de Red e Green.",
+        "variantes": [
+          "Pokémon Red e Green",
+          "Pokémon Vermelho e Azul"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que compositor da Game Freak criou as músicas dos primeiros jogos Pokémon e depois se tornou um dos produtores da série?",
+      "resposta": "Junichi Masuda",
+      "distratores": [
+        "Ken Sugimori",
+        "Satoshi Tajiri",
+        "Koji Kondo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Junichi_Masuda",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rhydon",
+        "descricao": "Pokémon dos tipos Terra e Pedra da primeira geração, com um chifre em forma de broca, evolução de Rhyhorn.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Durante a criação de Pokémon Red e Green, qual foi o primeiro pokémon a ser desenhado pela Game Freak?",
+      "resposta": "Rhydon",
+      "distratores": [
+        "Bulbasaur",
+        "Clefairy",
+        "Pikachu"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aves lendárias de Kanto",
+        "descricao": "Trio de pokémon lendários da primeira geração formado por Articuno, Zapdos e Moltres.",
+        "variantes": [
+          "Pássaros lendários",
+          "Legendary birds"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Legendary_birds"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "As três aves lendárias de Kanto são Articuno, de gelo, Zapdos, elétrica, e qual outra, de fogo?",
+      "resposta": "Moltres",
+      "distratores": [
+        "Ho-Oh",
+        "Entei",
+        "Talonflame"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Legendary_birds",
+        "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Game Freak",
+        "descricao": "Estúdio japonês fundado por Satoshi Tajiri, responsável pelos jogos principais da série Pokémon.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Game_Freak"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes de se tornar o estúdio que criou Pokémon, a Game Freak, de Satoshi Tajiri, era o quê?",
+      "resposta": "Uma revista sobre videogames",
+      "distratores": [
+        "Uma loja de fliperamas",
+        "Um estúdio de animação",
+        "Uma fábrica de brinquedos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Game_Freak"
+      ]
+    }
+  ]
+}

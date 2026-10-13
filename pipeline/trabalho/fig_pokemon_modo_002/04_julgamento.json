@@ -1,0 +1,637 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Snorlax",
+        "descricao": "Pokémon do tipo Normal número 143 da Pokédex Nacional, gigante e dorminhoco.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "snorlax",
+          "nome": "Snorlax",
+          "descricao": "Pokémon do tipo Normal, número 143 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "hispaniola",
+          "nome": "Hispaniola",
+          "descricao": "Ilha das Grandes Antilhas, no mar do Caribe, entre Cuba e Porto Rico.",
+          "variantes": [
+            "La Española",
+            "Ilha de São Domingos",
+            "Española"
+          ]
+        },
+        {
+          "id": "cherrapunji",
+          "nome": "Cherrapunji",
+          "descricao": "Cidade do nordeste da Índia, no estado de Meghalaya, famosa por estar entre os lugares mais chuvosos do mundo",
+          "variantes": [
+            "Sohra",
+            "Cherrapunjee"
+          ]
+        },
+        {
+          "id": "floco_de_neve",
+          "nome": "Floco de neve",
+          "descricao": "Cristal de gelo que se forma nas nuvens e cai como neve",
+          "variantes": [
+            "Snowflake"
+          ]
+        },
+        {
+          "id": "coral_sol",
+          "nome": "Coral-sol",
+          "descricao": "Coral invasor do gênero Tubastraea, nativo do Indo-Pacífico, que se espalhou pelo litoral brasileiro.",
+          "variantes": [
+            "Tubastraea coccinea",
+            "Sun coral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bayleef",
+        "descricao": "Pokémon do tipo Planta número 153 da Pokédex Nacional, evolução de Chikorita.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "folha_de_louro",
+          "nome": "Folha de louro",
+          "descricao": "Folha aromática do loureiro (Laurus nobilis), usada como tempero em cozidos.",
+          "variantes": [
+            "Louro",
+            "Folha de loureiro",
+            "Bay leaf"
+          ]
+        },
+        {
+          "id": "barbas_de_baleia",
+          "nome": "Barbas de baleia",
+          "descricao": "Placas filtradoras presas à mandíbula superior das baleias misticetas, usadas para reter krill e pequenos peixes.",
+          "variantes": [
+            "Barbatanas",
+            "Baleen"
+          ]
+        },
+        {
+          "id": "ilhas_baleares",
+          "nome": "Ilhas Baleares",
+          "descricao": "Arquipélago espanhol no oeste do mar Mediterrâneo, formado por Maiorca, Menorca, Ibiza e Formentera.",
+          "variantes": [
+            "Baleares"
+          ]
+        },
+        {
+          "id": "hms_beagle",
+          "nome": "HMS Beagle",
+          "descricao": "Navio da Marinha Real britânica em que Charles Darwin viajou ao redor do mundo entre 1831 e 1836.",
+          "variantes": [
+            "Beagle"
+          ]
+        },
+        {
+          "id": "braille",
+          "nome": "Braille",
+          "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
+          "variantes": [
+            "Sistema braille",
+            "Braile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Steelix",
+        "descricao": "Pokémon do tipo Aço e Terra número 208 da Pokédex Nacional, evolução de Onix.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "shtreimel",
+          "nome": "Shtreimel",
+          "descricao": "Chapéu redondo de pele usado por homens judeus hassídicos no Shabat e em festas.",
+          "variantes": [
+            "Streimel"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "obelix",
+          "nome": "Obelix",
+          "descricao": "Gaulês gigante, carregador de menires e melhor amigo de Asterix",
+          "variantes": []
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cubone",
+        "descricao": "Pokémon do tipo Terra número 104 da Pokédex Nacional, que usa o crânio da mãe.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cubone",
+          "nome": "Cubone",
+          "descricao": "Pokémon do tipo Terra, número 104 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bone",
+          "nome": "Boné",
+          "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+          "variantes": [
+            "Boné de beisebol",
+            "Baseball cap"
+          ]
+        },
+        {
+          "id": "bonde",
+          "nome": "Bonde",
+          "descricao": "Veículo elétrico ou de tração animal que corre sobre trilhos nas ruas das cidades, nome usado no Brasil para o tram ou elétrico.",
+          "variantes": [
+            "Elétrico",
+            "Tram",
+            "Carril"
+          ]
+        },
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        },
+        {
+          "id": "rio_rubicao",
+          "nome": "Rio Rubicão",
+          "descricao": "Pequeno rio do norte da Itália que marcava o limite da Itália romana e foi cruzado por Júlio César em 49 antes de Cristo.",
+          "variantes": [
+            "Rubicão",
+            "Rubicon",
+            "Rubicone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Greninja",
+        "descricao": "Pokémon do tipo Água e Sombrio número 658 da Pokédex Nacional, evolução final de Froakie.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "greninja",
+          "nome": "Greninja",
+          "descricao": "Pokémon dos tipos Água e Sombrio, número 658 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sylveon",
+        "descricao": "Pokémon do tipo Fada número 700 da Pokédex Nacional, evolução de Eevee.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sylveon",
+          "nome": "Sylveon",
+          "descricao": "Pokémon do tipo Fada, número 700 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "silverstone",
+          "nome": "Silverstone",
+          "descricao": "Circuito na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1.",
+          "variantes": [
+            "Circuito de Silverstone",
+            "Silverstone Circuit"
+          ]
+        },
+        {
+          "id": "nailon",
+          "nome": "Náilon",
+          "descricao": "Fibra sintética criada na empresa DuPont nos anos 1930, usada em meias, tecidos e cordas.",
+          "variantes": [
+            "Nylon"
+          ]
+        },
+        {
+          "id": "skeleton",
+          "nome": "Skeleton",
+          "descricao": "Esporte olímpico de inverno em que um atleta desce uma pista de gelo de bruços e de cabeça num pequeno trenó.",
+          "variantes": [
+            "Skeleton (esporte)"
+          ]
+        },
+        {
+          "id": "eslovenia",
+          "nome": "Eslovênia",
+          "descricao": "País da Europa Central com capital em Liubliana e uma pequena costa no Adriático.",
+          "variantes": [
+            "Slovenia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mewtwo",
+        "descricao": "Pokémon lendário do tipo Psíquico número 150 da Pokédex Nacional, criado a partir de Mew.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mewtwo",
+          "nome": "Mewtwo",
+          "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "meowth",
+          "nome": "Meowth",
+          "descricao": "Pokémon do tipo Normal, número 52 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mew",
+          "nome": "Mew",
+          "descricao": "Pokémon do tipo Psíquico, número 151 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "isaac_newton",
+          "nome": "Isaac Newton",
+          "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+          "variantes": [
+            "Sir Isaac Newton",
+            "Newton"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Lapras",
+        "descricao": "Pokémon do tipo Água e Gelo número 131 da Pokédex Nacional, com pescoço longo e casco.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lapras",
+          "nome": "Lapras",
+          "descricao": "Pokémon dos tipos Água e Gelo, número 131 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lapis",
+          "nome": "Lápis",
+          "descricao": "Instrumento de escrita e desenho com miolo sólido de grafite em um revestimento, aqui um lápis preto HB.",
+          "variantes": [
+            "Lápis grafite"
+          ]
+        },
+        {
+          "id": "hanseniase",
+          "nome": "Hanseníase",
+          "descricao": "Doença infecciosa crônica causada pela bactéria Mycobacterium leprae, antes chamada de lepra.",
+          "variantes": [
+            "Lepra",
+            "Mal de Hansen",
+            "Leprosy"
+          ]
+        },
+        {
+          "id": "los_angeles_lakers",
+          "nome": "Los Angeles Lakers",
+          "descricao": "Franquia da NBA sediada em Los Angeles, fundada em Minneapolis em 1947.",
+          "variantes": [
+            "Lakers",
+            "Minneapolis Lakers"
+          ]
+        },
+        {
+          "id": "ilhas_galapagos",
+          "nome": "Ilhas Galápagos",
+          "descricao": "Arquipélago vulcânico do Equador, no oceano Pacífico, famoso por sua fauna única.",
+          "variantes": [
+            "Galápagos",
+            "Arquipélago de Colón",
+            "Galapagos Islands"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Meowth",
+        "descricao": "Pokémon do tipo Normal número 52 da Pokédex Nacional, o pokémon gato da Equipe Rocket.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "meowth",
+          "nome": "Meowth",
+          "descricao": "Pokémon do tipo Normal, número 52 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mewtwo",
+          "nome": "Mewtwo",
+          "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mew",
+          "nome": "Mew",
+          "descricao": "Pokémon do tipo Psíquico, número 151 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "omega_speedmaster",
+          "nome": "Omega Speedmaster",
+          "descricao": "Modelo de relógio cronógrafo da marca suíça Omega, certificado pela NASA para as missões espaciais.",
+          "variantes": [
+            "Speedmaster",
+            "Moonwatch"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Venusaur",
+        "descricao": "Pokémon do tipo Planta e Venenoso número 3 da Pokédex Nacional, evolução final de Bulbasaur.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "venusaur",
+          "nome": "Venusaur",
+          "descricao": "Pokémon dos tipos Planta e Veneno, número 3 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "ivysaur",
+          "nome": "Ivysaur",
+          "descricao": "Pokémon planta e veneno, número 2 da Pokédex Nacional, evolução do Bulbasaur.",
+          "variantes": []
+        },
+        {
+          "id": "venus_e_marte_botticelli",
+          "nome": "Vênus e Marte (Botticelli)",
+          "descricao": "Pintura em painel de Sandro Botticelli, por volta de 1485, com Vênus e Marte reclinados entre pequenos sátiros.",
+          "variantes": [
+            "Marte e Vênus",
+            "Venus and Mars"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Spinda",
+        "descricao": "Pokémon do tipo Normal número 327 da Pokédex Nacional, panda de olhos em espiral.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "snorlax",
+      "motivo": "Mesmo Pokémon #143."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bayleef não consta entre as candidatas; folha de louro é outra coisa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Steelix não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "cubone",
+      "motivo": "Mesmo Pokémon #104."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "greninja",
+      "motivo": "Mesmo Pokémon #658."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "sylveon",
+      "motivo": "Mesmo Pokémon #700."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mewtwo",
+      "motivo": "Mesmo Pokémon #150."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "lapras",
+      "motivo": "Mesmo Pokémon #131."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "meowth",
+      "motivo": "Mesmo Pokémon #52."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "venusaur",
+      "motivo": "Mesmo Pokémon #3."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Spinda não consta entre as candidatas."
+    }
+  ]
+}

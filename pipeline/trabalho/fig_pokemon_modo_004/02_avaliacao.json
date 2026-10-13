@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A silhueta do Ditto é uma mancha arredondada sem forma característica; pode ser confundida com outras massas amorfas (Grimer, Muk, Goomy)."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta nítida: bico curvo, crista de lâminas e asas longas, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Skarmory",
+      "ancora": {
+        "nome": "Skarmory",
+        "descricao": "Pokémon do tipo Aço/Voador da segunda geração, número 227 da Pokédex Nacional, uma ave com asas de lâminas metálicas.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de peixe alongado com cauda em forma de leque, característica o bastante; a pergunta de evolução vai além do nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Barraskewda",
+      "ancora": {
+        "nome": "Arrokuda",
+        "descricao": "Pokémon do tipo Água da oitava geração, número 846 da Pokédex Nacional, um peixe-agulha que evolui para Barraskewda.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível de tronco com braços de folhas e topo em forma de osso.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sudowoodo",
+      "ancora": {
+        "nome": "Sudowoodo",
+        "descricao": "Pokémon do tipo Pedra da segunda geração, número 185 da Pokédex Nacional, que imita uma árvore.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de ave encorpada com crista pontuda e peitoral de armadura, reconhecível; múltipla com aves parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Corviknight",
+      "distratores": [
+        "Skarmory",
+        "Staraptor",
+        "Braviary"
+      ],
+      "ancora": {
+        "nome": "Corviknight",
+        "descricao": "Pokémon do tipo Voador/Aço da oitava geração, número 823 da Pokédex Nacional, um corvo gigante de armadura.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta com duas antenas enroladas e corpo redondo de inseto, característica; múltipla com insetos parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Volbeat",
+      "distratores": [
+        "Ledyba",
+        "Combee",
+        "Cutiefly"
+      ],
+      "ancora": {
+        "nome": "Volbeat",
+        "descricao": "Pokémon do tipo Inseto da terceira geração, número 313 da Pokédex Nacional, um vagalume que se comunica com a luz do abdome.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta distinta, com mãos de dedos abertos, sapatos curvos e cabelo pontudo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Mr. Mime",
+      "ancora": {
+        "nome": "Mr. Mime",
+        "descricao": "Pokémon do tipo Psíquico/Fada da primeira geração, número 122 da Pokédex Nacional, um mímico que cria paredes invisíveis.",
+        "variantes": [
+          "Mr. Mime de Kanto"
+        ]
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível: cabeça pequena e mandíbula enorme de fera nas costas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Mawile",
+      "ancora": {
+        "nome": "Mawile",
+        "descricao": "Pokémon do tipo Aço/Fada da terceira geração, número 303 da Pokédex Nacional, com uma grande mandíbula na cabeça.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de cabeça redonda e vestido esvoaçante, reconhecível; a pergunta pede a pré-evolução com distratores da mesma linha.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Kirlia",
+      "distratores": [
+        "Ralts",
+        "Gothorita",
+        "Meditite"
+      ],
+      "ancora": {
+        "nome": "Gardevoir",
+        "descricao": "Pokémon do tipo Psíquico/Fada da terceira geração, número 282 da Pokédex Nacional, evolução final de Ralts.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de corpo redondo com luvas, olhos protuberantes e pés grandes, reconhecível; a pergunta pede a pré-evolução, resposta única.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Poliwag",
+      "ancora": {
+        "nome": "Poliwhirl",
+        "descricao": "Pokémon do tipo Água da primeira geração, número 61 da Pokédex Nacional, forma intermediária entre Poliwag e Poliwrath ou Politoed.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de coruja alta com tufos na cabeça e cauda em leque, distinta de Rowlet e Decidueye.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dartrix",
+      "distratores": [
+        "Rowlet",
+        "Decidueye",
+        "Hoothoot"
+      ],
+      "ancora": {
+        "nome": "Dartrix",
+        "descricao": "Pokémon do tipo Planta/Voador da sétima geração, número 723 da Pokédex Nacional, uma coruja que evolui de Rowlet.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de bola de galhos emaranhados, forma bem característica; múltipla com pokémon de silhueta redonda.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Bramblin",
+      "distratores": [
+        "Pumpkaboo",
+        "Phantump",
+        "Sandygast"
+      ],
+      "ancora": {
+        "nome": "Bramblin",
+        "descricao": "Pokémon do tipo Planta/Fantasma da nona geração, número 946 da Pokédex Nacional, um arbusto seco que rola como erva-de-bola.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    }
+  ]
+}

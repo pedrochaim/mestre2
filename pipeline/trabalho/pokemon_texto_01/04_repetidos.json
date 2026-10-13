@@ -1,0 +1,234 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Hitmonlee, o pokémon lutador famoso pelos chutes, tem o nome inspirado em qual astro dos filmes de artes marciais?",
+        "resposta": "Bruce Lee"
+      },
+      "existentes": [
+        {
+          "id": "q09787",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Tyrogue"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome do fantasma Gengar vem de uma palavra alemã que designa o duplo sombrio de uma pessoa. Que palavra é essa?",
+        "resposta": "Doppelgänger"
+      },
+      "existentes": [
+        {
+          "id": "q09766",
+          "pergunta": "Que pokémon evolui para este quando é trocado?",
+          "resposta": "Haunter"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Lido de trás para frente, o nome Ekans forma qual palavra inglesa, que nomeia o bicho em que o pokémon se inspira?",
+        "resposta": "Snake"
+      },
+      "existentes": [
+        {
+          "id": "q09664",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Ekans"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Nos jogos e no anime, o pokémon mais poderoso já criado pela ciência foi feito a partir do material genético de qual pokémon mítico?",
+        "resposta": "Mew"
+      },
+      "existentes": [
+        {
+          "id": "q01741",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Mew"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O preguiçoso Slowpoke evolui para Slowbro quando qual pokémon, uma concha, morde a ponta da sua cauda?",
+        "resposta": "Shellder"
+      },
+      "existentes": [
+        {
+          "id": "q09739",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Slowpoke"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Com muita amizade, Eevee evolui para Espeon durante o dia. Nas mesmas condições, mas à noite, ele vira qual pokémon?",
+        "resposta": "Umbreon"
+      },
+      "existentes": [
+        {
+          "id": "q09762",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Umbreon"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os lendários Ho-Oh e Lugia estampam as capas de qual par de jogos da segunda geração?",
+        "resposta": "Pokémon Gold e Silver"
+      },
+      "existentes": [
+        {
+          "id": "q01748",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Ho-Oh"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No primeiro episódio do anime, por que Ash fica com um Pikachu, e não com Bulbasaur, Charmander ou Squirtle?",
+        "resposta": "Acordou tarde e chegou atrasado"
+      },
+      "existentes": [
+        {
+          "id": "q01316",
+          "pergunta": "No Japão, o protagonista do anime Pokémon, Ash Ketchum, tem o mesmo prenome do criador da franquia. Que nome é esse?",
+          "resposta": "Satoshi"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O pato amarelo Psyduck sofre de dores de cabeça constantes. Segundo os jogos, o que acontece quando a dor fica forte demais?",
+        "resposta": "Ele libera poderes psíquicos"
+      },
+      "existentes": [
+        {
+          "id": "q08303",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Psyduck"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No anime, por que Jigglypuff rabisca com sua caneta o rosto de quem ouve sua canção?",
+        "resposta": "Fica irritado porque todos dormem"
+      },
+      "existentes": [
+        {
+          "id": "q04338",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Wigglytuff"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Que empresa americana, nascida como um projeto dentro do Google, desenvolveu o Pokémon Go?",
+        "resposta": "Niantic"
+      },
+      "existentes": [
+        {
+          "id": "q07393",
+          "pergunta": "Em que ano o lançamento de Pokémon Go levou multidões às ruas para caçar pokémon com o celular?",
+          "resposta": "2016"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que compositor da Game Freak criou as músicas dos primeiros jogos Pokémon e depois se tornou um dos produtores da série?",
+        "resposta": "Junichi Masuda"
+      },
+      "existentes": [
+        {
+          "id": "q07412",
+          "pergunta": "Em Pokémon Red e Blue, o jogador escolhe seu primeiro pokémon entre Bulbasaur, Charmander e qual outro?",
+          "resposta": "Squirtle"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs. pré-evolução; fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome vs. pré-evolução; fatos distintos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o nome invertido, não identificação do pokémon pela imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Origem do Mewtwo (clonado de Mew) vs. identificar Mew; fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Condição de evolução vs. identificar Slowpoke."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Resposta Umbreon coincide, mas a existente é identificação por imagem; a nova pergunta sobre evolução do Eevee. Fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Capas dos jogos vs. identificar Ho-Oh."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Fato diferente: por que Ash fica com Pikachu vs. nome japonês de Ash."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Característica do Psyduck vs. identificação."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Comportamento no anime vs. evolução."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Desenvolvedora vs. ano de lançamento."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Compositor vs. iniciais de Red e Blue."
+    }
+  ]
+}

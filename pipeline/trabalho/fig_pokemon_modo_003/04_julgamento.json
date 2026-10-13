@@ -1,0 +1,595 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Growlithe",
+        "descricao": "Pokémon do tipo Fogo, número 58 da Pokédex Nacional, o Pokémon Cachorrinho.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rowlet",
+          "nome": "Rowlet",
+          "descricao": "Pokémon dos tipos Planta e Voador, número 722 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "coprolito",
+          "nome": "Coprólito",
+          "descricao": "Fezes fossilizadas de animais, usadas para estudar a dieta de espécies extintas.",
+          "variantes": [
+            "Coprolite",
+            "Coprólitos"
+          ]
+        },
+        {
+          "id": "johann_wolfgang_von_goethe",
+          "nome": "Johann Wolfgang von Goethe",
+          "descricao": "Escritor, cientista e estadista alemão, autor de Fausto, retratado em pintura de Joseph Karl Stieler.",
+          "variantes": [
+            "Goethe"
+          ]
+        },
+        {
+          "id": "grafite",
+          "nome": "Grafite",
+          "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+          "variantes": [
+            "Grafita",
+            "Graphite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Drifloon",
+        "descricao": "Pokémon fantasma e voador em forma de balão, número 425 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator",
+            "Tigre-dente-de-sabre"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "zangao",
+          "nome": "Zangão",
+          "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+          "variantes": [
+            "drone",
+            "abelha macho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Umbreon",
+        "descricao": "Pokémon do tipo Sombrio, evolução de Eevee, número 197 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "umbreon",
+          "nome": "Umbreon",
+          "descricao": "Pokémon do tipo Sombrio, número 197 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "guarda_chuva",
+          "nome": "Guarda-chuva",
+          "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+          "variantes": [
+            "Sombrinha",
+            "Umbrella",
+            "Parasol"
+          ]
+        },
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "marrom_mumia",
+          "nome": "Marrom múmia",
+          "descricao": "Pigmento castanho usado na pintura europeia entre os séculos dezesseis e vinte, fabricado a partir de restos de múmias egípcias.",
+          "variantes": [
+            "Mummy brown",
+            "Castanho múmia",
+            "Caput mortuum egípcio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Oddish",
+        "descricao": "Pokémon do tipo Planta e Veneno com folhas na cabeça, número 43 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "serpentes",
+          "nome": "Serpentes",
+          "descricao": "Subordem de répteis escamados sem patas (Serpentes), que inclui todas as cobras.",
+          "variantes": [
+            "Cobras",
+            "Ofídios",
+            "Snakes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Luxio",
+        "descricao": "Pokémon do tipo Elétrico, forma intermediária de Shinx, número 404 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "lucario",
+          "nome": "Lucario",
+          "descricao": "Pokémon dos tipos Lutador e Aço, número 448 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ludo",
+          "nome": "Ludo",
+          "descricao": "Jogo de tabuleiro de corrida com dados e peões coloridos, derivado do pachisi indiano.",
+          "variantes": [
+            "Ludo (jogo)"
+          ]
+        },
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        },
+        {
+          "id": "luxo_jr",
+          "nome": "Luxo Jr.",
+          "descricao": "Luminária animada da Pixar, protagonista de um curta de 1986 e mascote do logotipo do estúdio.",
+          "variantes": [
+            "Luxo Junior"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sigilyph",
+        "descricao": "Pokémon Psíquico e Voador inspirado em hieróglifos, número 561 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sigiriya",
+          "nome": "Sigiriya",
+          "descricao": "Antiga fortaleza real sobre uma rocha de granito no distrito de Matale, no Sri Lanka, do rei Kashyapa, século cinco.",
+          "variantes": [
+            "Sinhagiri",
+            "Rocha do Leão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Gengar",
+        "descricao": "Pokémon Fantasma e Veneno, evolução final de Gastly, número 94 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "gengar",
+          "nome": "Gengar",
+          "descricao": "Pokémon dos tipos Fantasma e Veneno, número 94 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "jenga",
+          "nome": "Jenga",
+          "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+          "variantes": []
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "maquina_enigma",
+          "nome": "Máquina Enigma",
+          "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+          "variantes": [
+            "Enigma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bidoof",
+        "descricao": "Pokémon Normal da quarta geração, parecido com um castor, número 399 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ubisoft",
+          "nome": "Ubisoft",
+          "descricao": "Empresa francesa de jogos eletrônicos fundada em 1986 pelos irmãos Guillemot, criadora de Assassin's Creed e Rayman.",
+          "variantes": [
+            "Ubi Soft"
+          ]
+        },
+        {
+          "id": "rubidio",
+          "nome": "Rubídio",
+          "descricao": "Elemento químico de número atômico 37, metal alcalino descoberto em 1861 por espectroscopia.",
+          "variantes": [
+            "Rubidium"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "dodo",
+          "nome": "Dodô",
+          "descricao": "Ave não voadora extinta (Raphus cucullatus), endêmica da ilha Maurício, no Oceano Índico.",
+          "variantes": [
+            "Raphus cucullatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Garchomp",
+        "descricao": "Pokémon Dragão e Terra, evolução final de Gible, número 445 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "garchomp",
+          "nome": "Garchomp",
+          "descricao": "Pokémon dos tipos Dragão e Terra, número 445 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "gaucho",
+          "nome": "Gaúcho",
+          "descricao": "Cavaleiro e peão de gado tradicional dos pampas do Brasil, da Argentina e do Uruguai, símbolo folclórico regional.",
+          "variantes": []
+        },
+        {
+          "id": "marshtomp",
+          "nome": "Marshtomp",
+          "descricao": "Pokémon anfíbio de água e terra da terceira geração, forma intermediária entre Mudkip e Swampert, número 259 da Pokédex Nacional.",
+          "variantes": [
+            "Numacraw"
+          ]
+        },
+        {
+          "id": "machamp",
+          "nome": "Machamp",
+          "descricao": "Pokémon do tipo Lutador, número 68 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "cartucho",
+          "nome": "Cartucho",
+          "descricao": "Contorno oval que envolve os nomes reais nos hieróglifos egípcios",
+          "variantes": [
+            "Cartouche",
+            "Shenu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Squirtle",
+        "descricao": "Pokémon inicial do tipo Água da primeira geração, número 7 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "squirtle",
+          "nome": "Squirtle",
+          "descricao": "Pokémon do tipo Água, número 7 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "skate",
+          "nome": "Skate",
+          "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+          "variantes": [
+            "Skateboarding",
+            "Esqueite"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "canal_casiquiare",
+          "nome": "Canal Casiquiare",
+          "descricao": "Canal natural no sul da Venezuela que liga o rio Orinoco ao rio Negro, da bacia amazônica.",
+          "variantes": [
+            "Casiquiare",
+            "Casiquiare canal",
+            "Brazo Casiquiare",
+            "Cassiquiare"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Lombre",
+        "descricao": "Pokémon Água e Planta da terceira geração, evolução de Lotad, número 271 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        },
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "lemure",
+          "nome": "Lêmure",
+          "descricao": "Primatas da infraordem Lemuriformes, nativos de Madagascar.",
+          "variantes": [
+            "Lemur",
+            "Lemuriformes"
+          ]
+        },
+        {
+          "id": "vombate",
+          "nome": "Vombate",
+          "descricao": "Marsupial escavador australiano da família Vombatidae.",
+          "variantes": [
+            "Wombat",
+            "Vombatidae"
+          ]
+        },
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Druddigon",
+        "descricao": "Pokémon do tipo Dragão da quinta geração, número 621 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rio_rubicao",
+          "nome": "Rio Rubicão",
+          "descricao": "Pequeno rio do norte da Itália que marcava o limite da Itália romana e foi cruzado por Júlio César em 49 antes de Cristo.",
+          "variantes": [
+            "Rubicão",
+            "Rubicon",
+            "Rubicone"
+          ]
+        },
+        {
+          "id": "rubidio",
+          "nome": "Rubídio",
+          "descricao": "Elemento químico de número atômico 37, metal alcalino descoberto em 1861 por espectroscopia.",
+          "variantes": [
+            "Rubidium"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Growlithe não consta entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Drifloon não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "umbreon",
+      "motivo": "Mesmo Pokémon, número 197, tipo Sombrio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Oddish é diferente de serpentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Luxio não consta; Lucario é outro Pokémon."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sigilyph é diferente de Sigiriya."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "gengar",
+      "motivo": "Mesmo Pokémon, número 94, Fantasma e Veneno."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Bidoof não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "garchomp",
+      "motivo": "Mesmo Pokémon, número 445, Dragão e Terra."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "squirtle",
+      "motivo": "Mesmo Pokémon, número 7, tipo Água."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Lombre não consta entre as candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Druddigon não consta entre as candidatas."
+    }
+  ]
+}

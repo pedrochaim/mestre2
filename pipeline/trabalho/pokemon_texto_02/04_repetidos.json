@@ -1,0 +1,177 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No anime, o trio da Equipe Rocket que persegue o Pikachu de Ash é formado por Jessie, James e qual pokémon que fala?",
+        "resposta": "Meowth"
+      },
+      "existentes": [
+        {
+          "id": "q09805",
+          "pergunta": "No anime, a dupla de vilões da Equipe Rocket tem nomes que, juntos, homenageiam qual fora da lei do Velho Oeste americano?",
+          "resposta": "Jesse James"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Gold e Silver, no Lago da Fúria, o jogador encontra um Gyarados brilhante, de cor diferente do normal. Que cor é essa?",
+        "resposta": "Vermelho"
+      },
+      "existentes": [
+        {
+          "id": "q01747",
+          "pergunta": "Que pokémon evolui para este?",
+          "resposta": "Magikarp"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Red e Blue, um Snorlax adormecido bloqueia a estrada. Que objeto o jogador precisa usar para acordá-lo?",
+        "resposta": "Poké Flute (Poké Flauta)"
+      },
+      "existentes": [
+        {
+          "id": "q09749",
+          "pergunta": "Este pokémon evolui de qual outro pokémon?",
+          "resposta": "Munchlax"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome Raichu troca o pika de Pikachu por rai, palavra japonesa que significa o quê?",
+        "resposta": "Trovão"
+      },
+      "existentes": [
+        {
+          "id": "q05302",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Raichu"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O nome Eevee imita a pronúncia, em inglês, das duas primeiras letras de qual palavra, que resume a grande marca desse pokémon?",
+        "resposta": "Evolution, evolução"
+      },
+      "existentes": [
+        {
+          "id": "q09741",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Eevee"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Charizard tem o nome formado por char, chamuscar em inglês, e por qual animal, também em inglês?",
+        "resposta": "Lizard, lagarto"
+      },
+      "existentes": [
+        {
+          "id": "q01743",
+          "pergunta": "Que pokémon evolui diretamente para este?",
+          "resposta": "Charmeleon"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo a Pokédex, por que o pequeno Cubone vive com um crânio cobrindo a cabeça?",
+        "resposta": "É o crânio da mãe morta"
+      },
+      "existentes": [
+        {
+          "id": "q09752",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Marowak"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Num episódio famoso do anime, por que Ash se despede do seu Butterfree, um dos primeiros pokémon que capturou?",
+        "resposta": "Para partir com uma parceira"
+      },
+      "existentes": [
+        {
+          "id": "q04227",
+          "pergunta": "De que pokémon este evolui?",
+          "resposta": "Metapod"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "No anime, o que o desastrado Wobbuffet e a cobra Arbok têm em comum?",
+        "resposta": "Pertencem à Jessie, da Equipe Rocket"
+      },
+      "existentes": [
+        {
+          "id": "q06346",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Wobbuffet"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o terceiro membro (Meowth), fato diferente da homenagem a Jesse James."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cor brilhante do Gyarados, não sua pré-evolução."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Objeto para acordar Snorlax, diferente de sua pré-evolução."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome, não identificação do pokémon."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome Eevee, não identificação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome, não a pré-evolução."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Motivo do crânio, não a evolução."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Episódio do anime, fato diferente da pré-evolução."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fato sobre pertencerem à Jessie, não identificação."
+    }
+  ]
+}

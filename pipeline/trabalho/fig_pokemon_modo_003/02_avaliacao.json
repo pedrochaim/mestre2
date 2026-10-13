@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de cão com juba e cauda felpuda, reconhecível pela forma.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Arcanine",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Growlithe",
+        "descricao": "Pokémon do tipo Fogo, número 58 da Pokédex Nacional, o Pokémon Cachorrinho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de balão com duas fitas, muito característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Drifloon",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Drifloon",
+        "descricao": "Pokémon fantasma e voador em forma de balão, número 425 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta de evolução de Eevee com orelhas longas e cauda única; parecida com as irmãs, então múltipla escolha com elas como distratores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Umbreon",
+      "distratores": [
+        "Espeon",
+        "Leafeon",
+        "Glaceon"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Umbreon",
+        "descricao": "Pokémon do tipo Sombrio, evolução de Eevee, número 197 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta de corpo redondo, folhas no topo e dois pezinhos, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Oddish",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Oddish",
+        "descricao": "Pokémon do tipo Planta e Veneno com folhas na cabeça, número 43 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de leãozinho com cauda em estrela e espinhos nas costas, distinguível de Shinx.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Luxray",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Luxio",
+        "descricao": "Pokémon do tipo Elétrico, forma intermediária de Shinx, número 404 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta de ave com asas em penas e cauda em quatro pontas, bem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sigilyph",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sigilyph",
+        "descricao": "Pokémon Psíquico e Voador inspirado em hieróglifos, número 561 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta larga com espinhos na cabeça e nas costas, reconhecível como Gengar.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pokémon evolui para este quando é trocado?",
+      "resposta": "Haunter",
+      "distratores": [
+        "Gastly",
+        "Duskull",
+        "Banette"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Gengar",
+        "descricao": "Pokémon Fantasma e Veneno, evolução final de Gastly, número 94 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de roedor gorducho com tufos arredondados e patinhas; algo blobby, então múltipla com distratores redondos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Bidoof",
+      "distratores": [
+        "Bibarel",
+        "Wooloo",
+        "Snorlax"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Bidoof",
+        "descricao": "Pokémon Normal da quarta geração, parecido com um castor, número 399 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de dragão-tubarão com cabeça de martelo e nadadeiras, inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Gabite",
+      "distratores": [
+        "Shelgon",
+        "Fraxure",
+        "Vibrava"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Garchomp",
+        "descricao": "Pokémon Dragão e Terra, evolução final de Gible, número 445 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta clássica de tartaruguinha com cauda enrolada e casco, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Squirtle",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Squirtle",
+        "descricao": "Pokémon inicial do tipo Água da primeira geração, número 7 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta com chapéu largo e braços longos, característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui quando exposto a uma Pedra da Água?",
+      "resposta": "Ludicolo",
+      "distratores": [
+        "Shiftry",
+        "Swampert",
+        "Vileplume"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Lombre",
+        "descricao": "Pokémon Água e Planta da terceira geração, evolução de Lotad, número 271 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta de dragão com cabeça cheia de pontas, asa e cauda espinhosa; sem evolução, então a família de conexão não rende e usa-se identidade em múltipla com dragões parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Druddigon",
+      "distratores": [
+        "Haxorus",
+        "Hydreigon",
+        "Salamence"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Druddigon",
+        "descricao": "Pokémon do tipo Dragão da quinta geração, número 621 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}

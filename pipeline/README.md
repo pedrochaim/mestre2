@@ -147,6 +147,16 @@ O `figuras.py` faz as perguntas com figura de reconhecimento (MANIFESTO §6), a 
 | 3. crítica | O Python baixa os trechos das fontes (`fontes.py`). O Claude (Sonnet, esforço médio), sem a imagem, mas sabendo o que ela mostra, confere o fato, o vazamento, a resposta única e os distratores, e aprova, reescreve ou descarta | `03_fontes.json`, `03_critica.json` |
 | 4. registro | Liga à âncora (nomes iguais ou parecidos vão ao juiz, como no texto), respeita a saturação (no máximo 3 perguntas por âncora e 2 com figura), descarta o que repete um fato já perguntado sobre a mesma âncora, copia a imagem e grava | `04_julgamento.json`, `04_repetidos.json` |
 
+## Coleções (modo Pokémon)
+
+Perguntas com `colecao` saem no modo de jogo da coleção; com `exclusiva`, só nele (MANIFESTO §6, "Coleções"). O autopiloto não conta as exclusivas nas metas e não roda os catálogos delas. Os lotes são feitos à mão:
+
+```
+python pipeline/colecao.py status pokemon                        # quantas perguntas a coleção tem
+python pipeline/colecao.py figuras pokemon_modo --lotes 3        # lotes de figura do catálogo exclusivo
+python pipeline/rodar.py executar --encomenda pokemon_texto_01   # lote de texto (encomenda com colecao e exclusiva)
+```
+
 ## Saturação por âncora
 
 O assunto de uma pergunta é a sua âncora. Desde a programação de 10 000 perguntas:

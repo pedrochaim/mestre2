@@ -442,9 +442,17 @@
     "fig_objetos_trajes_010",
     "fig_cientistas_011",
     "fig_atletas_011",
-    "cotidiano_culinaria_e_bebidas_03"
+    "cotidiano_culinaria_e_bebidas_03",
+    "fig_pokemon_modo_001",
+    "fig_pokemon_modo_002",
+    "fig_pokemon_modo_003",
+    "fig_pokemon_modo_004",
+    "fig_pokemon_modo_005",
+    "fig_pokemon_modo_006",
+    "pokemon_texto_01",
+    "pokemon_texto_02"
   ],
-  "maior_id": 9738,
+  "maior_id": 9855,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -886,6 +894,18 @@
         "1": 6
       },
       "registradas": 20
+    },
+    "pokemon_modo": {
+      "familias": {
+        "o_que_e": 38,
+        "com_o_que_se_liga": 23
+      },
+      "niveis": {
+        "1": 19,
+        "2": 27,
+        "3": 15
+      },
+      "registradas": 61
     }
   },
   "rendimento": {

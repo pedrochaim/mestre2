@@ -1,0 +1,998 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ditto",
+        "descricao": "Pokémon do tipo Normal da primeira geração, uma massa roxa capaz de se transformar em qualquer outro pokémon.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ditto",
+          "nome": "Ditto",
+          "descricao": "Pokémon do tipo Normal, número 132 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "algarismo",
+          "nome": "Algarismo",
+          "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+          "variantes": [
+            "Dígito",
+            "Algarismos"
+          ]
+        },
+        {
+          "id": "risoto",
+          "nome": "Risoto",
+          "descricao": "Prato italiano de arroz cozido lentamente em caldo até ficar cremoso.",
+          "variantes": [
+            "Risotto"
+          ]
+        },
+        {
+          "id": "meditacoes_marco_aurelio",
+          "nome": "Meditações (Marco Aurélio)",
+          "descricao": "Série de anotações pessoais de filosofia estoica escritas pelo imperador Marco Aurélio.",
+          "variantes": [
+            "Meditações",
+            "Meditations",
+            "Ta eis heauton",
+            "Meditações de Marco Aurélio"
+          ]
+        },
+        {
+          "id": "libreto",
+          "nome": "Libreto",
+          "descricao": "Texto de uma ópera ou outra obra musical dramática, com falas e versos cantados.",
+          "variantes": [
+            "Libretto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kanto",
+        "descricao": "Região fictícia dos primeiros jogos Pokémon, Red, Green e Blue, onde começa a jornada de Ash no anime.",
+        "variantes": [
+          "Região de Kanto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "immanuel_kant",
+          "nome": "Immanuel Kant",
+          "descricao": "Filósofo alemão (1724–1804), nascido em Königsberg, autor da Crítica da Razão Pura.",
+          "variantes": [
+            "Kant"
+          ]
+        },
+        {
+          "id": "el_santo",
+          "nome": "El Santo",
+          "descricao": "Lutador mexicano de lucha libre e astro de cinema, famoso pela máscara prateada.",
+          "variantes": [
+            "Santo",
+            "Rodolfo Guzmán Huerta"
+          ]
+        },
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        },
+        {
+          "id": "teatro_de_revista",
+          "nome": "Teatro de revista",
+          "descricao": "Gênero teatral de música, dança e humor satírico, muito popular no Rio de Janeiro do fim do século dezenove a meados do século vinte.",
+          "variantes": [
+            "Revista (teatro)",
+            "Revista de ano"
+          ]
+        },
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Professor Carvalho",
+        "descricao": "Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime.",
+        "variantes": [
+          "Professor Oak",
+          "Samuel Oak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "professor_agasa",
+          "nome": "Professor Agasa",
+          "descricao": "Hiroshi Agasa, inventor vizinho e aliado do protagonista no mangá Detetive Conan.",
+          "variantes": [
+            "Hiroshi Agasa",
+            "Dr. Agasa"
+          ]
+        },
+        {
+          "id": "alain_prost",
+          "nome": "Alain Prost",
+          "descricao": "Ex-piloto francês de Fórmula 1, tetracampeão mundial.",
+          "variantes": [
+            "Alain Marie Pascal Prost",
+            "O Professor"
+          ]
+        },
+        {
+          "id": "samuel_morse",
+          "nome": "Samuel Morse",
+          "descricao": "Inventor americano (1791–1872) do telégrafo elétrico e coautor do código Morse.",
+          "variantes": [
+            "Samuel F. B. Morse"
+          ]
+        },
+        {
+          "id": "professor_girassol",
+          "nome": "Professor Girassol",
+          "descricao": "Cientista distraído e meio surdo das Aventuras de Tintim, de Hergé",
+          "variantes": [
+            "Trifólio Girassol",
+            "Professor Calculus",
+            "Professeur Tournesol"
+          ]
+        },
+        {
+          "id": "professor_girafales",
+          "nome": "Professor Girafales",
+          "descricao": "Personagem do seriado Chaves, professor da escola da vila, interpretado por Ruben Aguirre.",
+          "variantes": [
+            "Inocêncio Girafales",
+            "Profesor Jirafales"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Equipe Rocket",
+        "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+        "variantes": [
+          "Team Rocket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "locomotiva_rocket",
+          "nome": "Locomotiva Rocket",
+          "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+          "variantes": [
+            "Rocket",
+            "Stephenson's Rocket",
+            "Rocket de Stephenson"
+          ]
+        },
+        {
+          "id": "lotus",
+          "nome": "Lotus",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994.",
+          "variantes": [
+            "Team Lotus"
+          ]
+        },
+        {
+          "id": "terra_preta_de_indio",
+          "nome": "Terra preta de índio",
+          "descricao": "Solo escuro e muito fértil encontrado em vários pontos da Amazônia, formado por ocupações indígenas antigas.",
+          "variantes": [
+            "Terra preta",
+            "Terra preta arqueológica"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "bolso_relojoeiro",
+          "nome": "Bolso relojoeiro",
+          "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+          "variantes": [
+            "Watch pocket",
+            "Bolsinho do jeans"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pokémon Estampas Ilustradas",
+        "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+        "variantes": [
+          "Pokémon Trading Card Game",
+          "Pokémon TCG",
+          "Card game Pokémon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_go",
+          "nome": "Pokémon Go",
+          "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "charmeleon",
+          "nome": "Charmeleon",
+          "descricao": "Pokémon de fogo, forma intermediária de Charmander, número 5 da Pokédex Nacional.",
+          "variantes": [
+            "Charmeleon (Pokémon)"
+          ]
+        },
+        {
+          "id": "cardamomo",
+          "nome": "Cardamomo",
+          "descricao": "Especiaria feita das sementes de plantas dos gêneros Elettaria e Amomum, da família do gengibre.",
+          "variantes": [
+            "Cardamomo-verde",
+            "Cardamona"
+          ]
+        },
+        {
+          "id": "flareon",
+          "nome": "Flareon",
+          "descricao": "Pokémon do tipo fogo, número 136 da Pokédex Nacional, evolução do Eevee.",
+          "variantes": [
+            "Flareon (Pokémon)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pokémon Legends: Arceus",
+        "descricao": "Jogo Pokémon de 2022 para o Nintendo Switch, ambientado na antiga região de Hisui.",
+        "variantes": [
+          "Legends Arceus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "galeria_dos_espelhos",
+          "nome": "Galeria dos Espelhos",
+          "descricao": "Grande salão do Palácio de Versalhes, onde foi proclamado o Império Alemão em 1871 e assinado o Tratado de Versalhes em 1919.",
+          "variantes": [
+            "Salão dos Espelhos",
+            "Hall of Mirrors",
+            "Galerie des Glaces"
+          ]
+        },
+        {
+          "id": "liga_das_nacoes",
+          "nome": "Liga das Nações",
+          "descricao": "Organização internacional criada após a Primeira Guerra Mundial para preservar a paz, antecessora da ONU.",
+          "variantes": [
+            "Sociedade das Nações",
+            "League of Nations"
+          ]
+        },
+        {
+          "id": "pokemon_red_e_blue",
+          "nome": "Pokémon Red e Blue",
+          "descricao": "Primeiros jogos Pokémon lançados no Ocidente, para o Game Boy, versões internacionais de Red e Green.",
+          "variantes": [
+            "Pokémon Red and Blue",
+            "Pokémon Vermelho e Azul"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Misty",
+        "descricao": "Líder de ginásio do tipo Água de Cerulean, nos jogos, e companheira de viagem de Ash no início do anime Pokémon.",
+        "variantes": [
+          "Kasumi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "axum",
+          "nome": "Axum",
+          "descricao": "Cidade no norte da Etiópia, antiga capital do Reino de Axum.",
+          "variantes": [
+            "Aksum"
+          ]
+        },
+        {
+          "id": "misty_may_treanor",
+          "nome": "Misty May-Treanor",
+          "descricao": "Jogadora americana de vôlei de praia, campeã olímpica com Kerri Walsh em 2004, 2008 e 2012.",
+          "variantes": [
+            "Misty May"
+          ]
+        },
+        {
+          "id": "michael_schumacher",
+          "nome": "Michael Schumacher",
+          "descricao": "Piloto alemão heptacampeão mundial de Fórmula 1.",
+          "variantes": [
+            "Schumi"
+          ]
+        },
+        {
+          "id": "mistral",
+          "nome": "Mistral",
+          "descricao": "Vento frio e forte que sopra do norte pelo vale do Ródano até o Mediterrâneo, no sul da França",
+          "variantes": [
+            "Mistral (vento)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tipo Fada",
+        "descricao": "Tipo elemental de pokémon e golpes introduzido na sexta geração, em Pokémon X e Y.",
+        "variantes": [
+          "Fairy type"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tonfa",
+          "nome": "Tonfa",
+          "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+          "variantes": [
+            "Tunkua",
+            "Tui-fa",
+            "Senkon"
+          ]
+        },
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "jaguar_e_type",
+          "nome": "Jaguar E-Type",
+          "descricao": "Esportivo britânico de motor dianteiro fabricado pela Jaguar de 1961 a 1974, vendido nos EUA como XK-E.",
+          "variantes": [
+            "Jaguar XK-E",
+            "E-Type"
+          ]
+        },
+        {
+          "id": "las_posadas",
+          "nome": "Las Posadas",
+          "descricao": "Festa natalina mexicana que encena a procura de Maria e José por abrigo em Belém.",
+          "variantes": [
+            "Posadas"
+          ]
+        },
+        {
+          "id": "rio_madeira",
+          "nome": "Rio Madeira",
+          "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+          "variantes": [
+            "Madeira",
+            "Madeira River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Jigglypuff",
+        "descricao": "Pokémon balão cor-de-rosa da primeira geração, cuja canção faz todos dormirem.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "jigglypuff",
+          "nome": "Jigglypuff",
+          "descricao": "Pokémon dos tipos Normal e Fada, número 39 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Alola",
+        "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+        "variantes": [
+          "Região de Alola"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copo_de_leite",
+          "nome": "Copo-de-leite",
+          "descricao": "Zantedeschia aethiopica, planta de origem sul-africana com espata branca em forma de funil.",
+          "variantes": [
+            "Zantedeschia aethiopica",
+            "Lírio-de-calla",
+            "Calla"
+          ]
+        },
+        {
+          "id": "relogio_de_sol",
+          "nome": "Relógio de sol",
+          "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+          "variantes": [
+            "Quadrante solar"
+          ]
+        },
+        {
+          "id": "lagarto_de_gola",
+          "nome": "Lagarto-de-gola",
+          "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+          "variantes": [
+            "Lagarto-de-colar",
+            "Dragão-de-gola",
+            "Chlamydosaurus kingii"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Kalos",
+        "descricao": "Região fictícia dos jogos Pokémon X e Y, da sexta geração, cuja capital é a cidade de Lumiose.",
+        "variantes": [
+          "Região de Kalos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gregorio_de_matos",
+          "nome": "Gregório de Matos",
+          "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+          "variantes": [
+            "Gregório de Matos e Guerra",
+            "Boca do Inferno"
+          ]
+        },
+        {
+          "id": "relogio_de_flores",
+          "nome": "Relógio de flores",
+          "descricao": "Jardim proposto por Lineu em que cada espécie de flor se abriria ou fecharia numa hora diferente do dia",
+          "variantes": [
+            "Horologium florae",
+            "Relógio floral de Lineu"
+          ]
+        },
+        {
+          "id": "evariste_galois",
+          "nome": "Évariste Galois",
+          "descricao": "Matemático francês do século dezenove, cujas ideias deram origem à teoria de Galois.",
+          "variantes": [
+            "Galois"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "livro_dos_salmos",
+          "nome": "Livro dos Salmos",
+          "descricao": "Livro da Bíblia formado por uma coleção de cânticos e orações, tradicionalmente associado ao rei Davi",
+          "variantes": [
+            "Salmos",
+            "Saltério"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Unova",
+        "descricao": "Região fictícia dos jogos Pokémon Black e White, da quinta geração.",
+        "variantes": [
+          "Região de Unova",
+          "Isshu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "uno",
+          "nome": "Uno",
+          "descricao": "Jogo de cartas americano de descarte por cor e número, criado em 1971.",
+          "variantes": []
+        },
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        },
+        {
+          "id": "fiat_uno",
+          "nome": "Fiat Uno",
+          "descricao": "Carro compacto hatchback da Fiat, lançado em 1983 e produzido no Brasil até 2014.",
+          "variantes": [
+            "Uno"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Giovanni",
+        "descricao": "Chefe da Equipe Rocket nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Sakaki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "don_giovanni",
+          "nome": "Don Giovanni",
+          "descricao": "Ópera de Mozart, de 1787, sobre o sedutor Don Juan e seu criado Leporello.",
+          "variantes": [
+            "Dom Giovanni",
+            "Don Juan"
+          ]
+        },
+        {
+          "id": "caqui",
+          "nome": "Cáqui",
+          "descricao": "Cor bege-amarronzada adotada em uniformes militares a partir do exército britânico na Índia",
+          "variantes": [
+            "Khaki"
+          ]
+        },
+        {
+          "id": "shaka",
+          "nome": "Shaka",
+          "descricao": "Rei zulu do início do século dezenove, que transformou os zulus num poderoso reino militar no sul da África.",
+          "variantes": [
+            "Shaka Zulu",
+            "Chaka"
+          ]
+        },
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "kabuki",
+          "nome": "Kabuki",
+          "descricao": "Forma tradicional de teatro japonês que combina canto, dança e atuação estilizada, surgida no início do século dezessete.",
+          "variantes": [
+            "Teatro kabuki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Pokémon (anime)",
+        "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+        "variantes": [
+          "Pokémon: a série",
+          "Pocket Monsters (anime)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_go",
+          "nome": "Pokémon Go",
+          "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_sword_e_shield",
+          "nome": "Pokémon Sword e Shield",
+          "descricao": "Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar.",
+          "variantes": [
+            "Pokémon Sword and Shield",
+            "Pokémon Espada e Escudo"
+          ]
+        },
+        {
+          "id": "pokemon_red_e_blue",
+          "nome": "Pokémon Red e Blue",
+          "descricao": "Primeiros jogos Pokémon lançados no Ocidente, para o Game Boy, versões internacionais de Red e Green.",
+          "variantes": [
+            "Pokémon Red and Blue",
+            "Pokémon Vermelho e Azul"
+          ]
+        },
+        {
+          "id": "pomo_da_discordia",
+          "nome": "Pomo da discórdia",
+          "descricao": "Expressão para o motivo de uma briga, vinda da maçã de ouro do mito grego",
+          "variantes": [
+            "Maçã da discórdia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Rhydon",
+        "descricao": "Pokémon dos tipos Terra e Pedra da primeira geração, com um chifre em forma de broca, evolução de Rhyhorn.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "joseph_haydn",
+          "nome": "Joseph Haydn",
+          "descricao": "Compositor austríaco do período clássico (1732–1809), chamado de pai da sinfonia.",
+          "variantes": [
+            "Haydn",
+            "Franz Joseph Haydn"
+          ]
+        },
+        {
+          "id": "slowpoke",
+          "nome": "Slowpoke",
+          "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+          "variantes": [
+            "Yadon"
+          ]
+        },
+        {
+          "id": "hidrogenio",
+          "nome": "Hidrogênio",
+          "descricao": "Elemento químico de número atômico 1, o mais leve de todos, que forma água ao se combinar com o oxigênio.",
+          "variantes": [
+            "Hydrogen"
+          ]
+        },
+        {
+          "id": "rum",
+          "nome": "Rum",
+          "descricao": "Bebida destilada de origem caribenha feita do melaço ou do caldo da cana-de-açúcar.",
+          "variantes": [
+            "Ron"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Aves lendárias de Kanto",
+        "descricao": "Trio de pokémon lendários da primeira geração formado por Articuno, Zapdos e Moltres.",
+        "variantes": [
+          "Pássaros lendários",
+          "Legendary birds"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "larry_bird",
+          "nome": "Larry Bird",
+          "descricao": "Ala americano do Boston Celtics, três vezes campeão da NBA nos anos 1980.",
+          "variantes": [
+            "Larry Legend",
+            "Larry Joe Bird"
+          ]
+        },
+        {
+          "id": "les_demoiselles_d_avignon",
+          "nome": "Les Demoiselles d'Avignon",
+          "descricao": "Quadro de Pablo Picasso com cinco mulheres nuas de formas angulosas, considerado precursor do cubismo; está no MoMA, em Nova York.",
+          "variantes": [
+            "As Senhoritas de Avignon",
+            "As Moças de Avignon"
+          ]
+        },
+        {
+          "id": "passaro_bebedor",
+          "nome": "Pássaro bebedor",
+          "descricao": "Brinquedo que é um motor térmico e imita um pássaro mergulhando o bico em um copo de água.",
+          "variantes": [
+            "Pássaro mergulhador",
+            "Drinking bird",
+            "Dunking bird"
+          ]
+        },
+        {
+          "id": "ave_maria_de_gounod",
+          "nome": "Ave Maria de Gounod",
+          "descricao": "Ave Maria de Charles Gounod, de 1853, cuja melodia foi sobreposta ao primeiro prelúdio do Cravo Bem Temperado, de Bach.",
+          "variantes": [
+            "Ave Maria (Bach/Gounod)",
+            "Ave Maria de Bach-Gounod"
+          ]
+        },
+        {
+          "id": "ensaios_montaigne",
+          "nome": "Ensaios (Montaigne)",
+          "descricao": "Coletânea de textos de Michel de Montaigne publicada a partir de 1580, que deu nome ao gênero ensaio.",
+          "variantes": [
+            "Essais",
+            "Os Ensaios"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Game Freak",
+        "descricao": "Estúdio japonês fundado por Satoshi Tajiri, responsável pelos jogos principais da série Pokémon.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "anne_frank",
+          "nome": "Anne Frank",
+          "descricao": "Adolescente judia alemã que escreveu um diário enquanto se escondia dos nazistas em Amsterdã e morreu num campo de concentração em 1945.",
+          "variantes": [
+            "Annelies Marie Frank"
+          ]
+        },
+        {
+          "id": "jogo_da_morte",
+          "nome": "Jogo da Morte",
+          "descricao": "Filme de artes marciais de 1978, estrelado por Bruce Lee e concluído após a morte do ator.",
+          "variantes": [
+            "O Jogo da Morte",
+            "Game of Death"
+          ]
+        },
+        {
+          "id": "game_of_thrones",
+          "nome": "Game of Thrones",
+          "descricao": "Série de fantasia da HBO, exibida de 2011 a 2019, sobre a disputa pelo Trono de Ferro em Westeros.",
+          "variantes": [
+            "A Guerra dos Tronos"
+          ]
+        },
+        {
+          "id": "jogo_da_vida_2",
+          "nome": "Jogo da Vida",
+          "descricao": "Autômato celular criado em 1970, em que células de uma grade vivem ou morrem segundo regras simples.",
+          "variantes": [
+            "Conway's Game of Life",
+            "Game of Life"
+          ]
+        },
+        {
+          "id": "tie_break",
+          "nome": "Tie-break",
+          "descricao": "Game de desempate usado no tênis para decidir um set empatado em seis games a seis.",
+          "variantes": [
+            "Tiebreak",
+            "Tie-breaker"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "ditto",
+      "motivo": "Mesmo Pokémon Ditto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a região Kanto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Professor Oak."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Equipe Rocket."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O card game é distinto da franquia e dos outros jogos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pokémon Legends: Arceus."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Misty personagem Pokémon difere de Misty May-Treanor."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tipo Fada."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "jigglypuff",
+      "motivo": "Mesmo Pokémon Jigglypuff."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a região Alola."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a região Kalos."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a região Unova."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o personagem Giovanni."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "O anime é distinto da franquia."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Rhydon."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o trio de aves lendárias."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Game Freak."
+    }
+  ]
+}

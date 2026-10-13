@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão da vinheta; Skarmory é reconhecível pela silhueta de ave com asas de lâmina. Enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Arrokuda evolui apenas para Barraskewda; fato amplamente documentado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de reconhecimento; Sudowoodo tem silhueta característica de árvore.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são pokémon de aves/Aço ou Voador, críveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são pokémon de inseto críveis, curtos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de reconhecimento de um pokémon emblemático e de silhueta distinta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mawile é reconhecível pela mandíbula na cabeça; enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Gardevoir evolui diretamente de Kirlia, mas o distrator Ralts é também um estágio anterior da linha e pode ser defendido como resposta. Troco-o por um pokémon psíquico sem relação.",
+      "reescrita": {
+        "pergunta": "De que pokémon este evolui?",
+        "resposta": "Kirlia",
+        "distratores": [
+          "Gothorita",
+          "Meditite",
+          "Kadabra"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Poliwhirl evolui diretamente de Poliwag; resposta única e fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores críveis (aves/corujas, mesma linha ou tipo) e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Distratores são pokémon do tipo Fantasma/Planta ou similares, críveis e nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

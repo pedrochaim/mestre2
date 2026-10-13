@@ -89,6 +89,16 @@
       "uniqueItems": true,
       "description": "Exatamente 3 alternativas erradas, críveis e da mesma categoria da resposta. Obrigatório quando tipo = multipla; proibido quando tipo = aberta. O app embaralha na exibição."
     },
+    "colecao": {
+      "enum": [
+        "pokemon"
+      ],
+      "description": "Opcional. Coleção temática a que a pergunta pertence (MANIFESTO §6, \"Coleções\"). O modo de jogo da coleção (por exemplo, o modo Pokémon) sorteia só as perguntas dela."
+    },
+    "exclusiva": {
+      "const": true,
+      "description": "Opcional, só com colecao. A pergunta sai apenas no modo da coleção, nunca nos modos do jogo original (Master, Trilha da Vida, Linear)."
+    },
     "autor": {
       "type": "string",
       "minLength": 1,

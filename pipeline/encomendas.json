@@ -2465,6 +2465,36 @@
       ],
       "observacoes": "Artistas, canções, gêneros (samba, MPB, bossa nova, sertanejo, rock, funk) e histórias da música brasileira de várias épocas. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara. Este é o lote 3 do subtema: o banco já tem perguntas sobre ele (veja as listas abaixo). Aprofunde: procure âncoras e ângulos ainda não usados, sem cair em detalhes obscuros.",
       "autopiloto": true
+    },
+    {
+      "id": "pokemon_texto_01",
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "quantidade": 30,
+      "multipla": 8,
+      "angulos_alvo": [
+        "nome",
+        "conexao",
+        "causa"
+      ],
+      "observacoes": "Só Pokémon, para o modo Pokémon do app (perguntas exclusivas dele, que não saem no jogo original). Cubra a franquia inteira: os jogos principais e derivados, o anime e os filmes, o card game, treinadores, líderes de ginásio e vilões, as regiões e suas inspirações, os tipos e as mecânicas mais conhecidas, a origem dos nomes e as curiosidades de pokémon específicos. Distribua por todas as gerações. O público é quem gosta de pokémon, mas nada de estatísticas, números da Pokédex, golpes obscuros ou detalhes que só um competidor saberia. A âncora é o pokémon, o personagem, o jogo ou o lugar de que a pergunta trata.",
+      "colecao": "pokemon",
+      "exclusiva": true
+    },
+    {
+      "id": "pokemon_texto_02",
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "quantidade": 30,
+      "multipla": 8,
+      "angulos_alvo": [
+        "atributo",
+        "lugar",
+        "composicao"
+      ],
+      "observacoes": "Só Pokémon, para o modo Pokémon do app (perguntas exclusivas dele, que não saem no jogo original). Cubra a franquia inteira: os jogos principais e derivados, o anime e os filmes, o card game, treinadores, líderes de ginásio e vilões, as regiões e suas inspirações, os tipos e as mecânicas mais conhecidas, a origem dos nomes e as curiosidades de pokémon específicos. Distribua por todas as gerações. O público é quem gosta de pokémon, mas nada de estatísticas, números da Pokédex, golpes obscuros ou detalhes que só um competidor saberia. A âncora é o pokémon, o personagem, o jogo ou o lugar de que a pergunta trata. Este é o segundo lote: procure âncoras e ângulos ainda não usados.",
+      "colecao": "pokemon",
+      "exclusiva": true
     }
   ]
 }

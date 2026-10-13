@@ -1,0 +1,372 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Hitmonchan",
+        "descricao": "Pokémon lutador do tipo Lutador, de número 107 da Pokédex Nacional, que usa luvas de boxe.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        },
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "chinchila",
+          "nome": "Chinchila",
+          "descricao": "Roedor do gênero Chinchilla, nativo dos Andes, conhecido pela pelagem muito densa.",
+          "variantes": [
+            "Chinchilla"
+          ]
+        },
+        {
+          "id": "staryu",
+          "nome": "Staryu",
+          "descricao": "Pokémon estrela-do-mar de água da primeira geração, número 120 da Pokédex Nacional.",
+          "variantes": [
+            "Hitodeman"
+          ]
+        },
+        {
+          "id": "gaita",
+          "nome": "Gaita",
+          "descricao": "Instrumento de palhetas livres tocado com a boca, soprando e aspirando o ar.",
+          "variantes": [
+            "Gaita de boca",
+            "Harmônica",
+            "Harmonica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Magikarp",
+        "descricao": "Pokémon peixe do tipo Água, de número 129 da Pokédex Nacional, que evolui para Gyarados.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "magikarp",
+          "nome": "Magikarp",
+          "descricao": "Pokémon do tipo Água, número 129 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "agar_agar",
+          "nome": "Ágar-ágar",
+          "descricao": "Substância gelatinosa extraída de algas vermelhas, usada em culinária e como meio de cultura em laboratórios.",
+          "variantes": [
+            "Ágar",
+            "Agar"
+          ]
+        },
+        {
+          "id": "camisa_rosa_do_giro_d_italia",
+          "nome": "Camisa rosa do Giro d'Italia",
+          "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+          "variantes": [
+            "Maglia rosa"
+          ]
+        },
+        {
+          "id": "makiwara",
+          "nome": "Makiwara",
+          "descricao": "Poste acolchoado de golpes usado no treino de caratê tradicional de Okinawa.",
+          "variantes": [
+            "Makiwara de caratê"
+          ]
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Kabuto",
+        "descricao": "Pokémon fóssil do tipo Pedra e Água, de número 140 da Pokédex Nacional, parecido com um caranguejo-ferradura.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        },
+        {
+          "id": "jabuti_piranga",
+          "nome": "Jabuti-piranga",
+          "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+          "variantes": [
+            "Jabuti",
+            "Red-footed tortoise",
+            "Chelonoidis carbonarius"
+          ]
+        },
+        {
+          "id": "kabuki",
+          "nome": "Kabuki",
+          "descricao": "Forma tradicional de teatro japonês que combina canto, dança e atuação estilizada, surgida no início do século dezessete.",
+          "variantes": [
+            "Teatro kabuki"
+          ]
+        },
+        {
+          "id": "jabuti",
+          "nome": "Jabuti",
+          "descricao": "Quelônio estritamente terrestre do gênero Chelonoidis, comum no Brasil, de casco alto e patas em forma de coluna.",
+          "variantes": [
+            "Chelonoidis",
+            "Jabutis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pumpkaboo",
+        "descricao": "Pokémon abóbora fantasma dos tipos Fantasma e Planta, de número 710 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pulmao",
+          "nome": "Pulmão",
+          "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+          "variantes": [
+            "Pulmões"
+          ]
+        },
+        {
+          "id": "abobora",
+          "nome": "Abóbora",
+          "descricao": "Fruto de plantas do gênero Cucurbita, de formas e cores variadas.",
+          "variantes": [
+            "Jerimum",
+            "Pumpkin"
+          ]
+        },
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Zapdos",
+        "descricao": "Pokémon lendário ave do tipo Elétrico e Voador, de número 145 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "apofis",
+          "nome": "Apófis",
+          "descricao": "Serpente gigante da mitologia egípcia que encarnava o caos e atacava todas as noites a barca do deus-sol Rá",
+          "variantes": [
+            "Apep",
+            "Apepi",
+            "Apophis"
+          ]
+        },
+        {
+          "id": "dardos",
+          "nome": "Dardos",
+          "descricao": "Jogo de salão em que os jogadores arremessam pequenos dardos contra um alvo circular dividido em vinte setores.",
+          "variantes": [
+            "Darts",
+            "Jogo de dardos"
+          ]
+        },
+        {
+          "id": "toronto_raptors",
+          "nome": "Toronto Raptors",
+          "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995.",
+          "variantes": [
+            "Raptors"
+          ]
+        },
+        {
+          "id": "padrao_marco_dos_descobrimentos_portugueses",
+          "nome": "Padrão (marco dos descobrimentos portugueses)",
+          "descricao": "Pilar de pedra com cruz e armas reais, erguido por navegadores portugueses nos séculos quinze e dezesseis para marcar posse.",
+          "variantes": [
+            "Padrões",
+            "Padrão dos descobrimentos"
+          ]
+        },
+        {
+          "id": "ziraldo",
+          "nome": "Ziraldo",
+          "descricao": "Cartunista, escritor e jornalista brasileiro, criador do Menino Maluquinho (1932–2024).",
+          "variantes": [
+            "Ziraldo Alves Pinto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jynx",
+        "descricao": "Pokémon humanoide dos tipos Gelo e Psíquico, de número 124 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "jornal_nacional",
+          "nome": "Jornal Nacional",
+          "descricao": "Telejornal noturno da Rede Globo, transmitido em rede nacional.",
+          "variantes": [
+            "JN"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Kirlia",
+        "descricao": "Pokémon dançarino do tipo Psíquico e Fada, de número 281 da Pokédex Nacional, forma intermediária entre Ralts e Gardevoir.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "akira",
+          "nome": "Akira",
+          "descricao": "Filme de animação japonês de 1988, dirigido por Katsuhiro Otomo a partir de seu próprio mangá.",
+          "variantes": [
+            "Akira (filme)"
+          ]
+        },
+        {
+          "id": "kilwa_kisiwani",
+          "nome": "Kilwa Kisiwani",
+          "descricao": "Ilha e ruínas de uma cidade-estado suaíli medieval na costa da África Oriental, Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Kilwa",
+            "Quíloa"
+          ]
+        },
+        {
+          "id": "kiribati",
+          "nome": "Kiribati",
+          "descricao": "País insular do Oceano Pacífico formado por atóis espalhados em torno do equador, cuja capital é Tarawa do Sul.",
+          "variantes": [
+            "República de Kiribati",
+            "Quiribati"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "masahiko_kimura",
+          "nome": "Masahiko Kimura",
+          "descricao": "Judoca japonês dos anos 1950 que dá nome à chave de ombro conhecida como kimura.",
+          "variantes": [
+            "Kimura"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Hitmonchan não está entre as candidatas; Staryu é outro Pokémon."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "magikarp",
+      "motivo": "Mesmo Pokémon, número 129 da Pokédex, tipo Água."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Kabuto é um Pokémon; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pumpkaboo é um Pokémon; abóbora (fruto) é outra entidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Zapdos não aparece entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Jynx é um Pokémon; a candidata é um telejornal."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Kirlia é um Pokémon; nenhuma candidata corresponde."
+    }
+  ]
+}

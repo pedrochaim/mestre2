@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta com luva de boxe, topete e postura característica; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Hitmonchan",
+      "ancora": {
+        "nome": "Hitmonchan",
+        "descricao": "Pokémon lutador do tipo Lutador, de número 107 da Pokédex Nacional, que usa luvas de boxe.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta de peixe com crista, barbatanas e bigodes inconfundíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Magikarp",
+      "ancora": {
+        "nome": "Magikarp",
+        "descricao": "Pokémon peixe do tipo Água, de número 129 da Pokédex Nacional, que evolui para Gyarados.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A silhueta é uma mancha espinhosa sem forma característica; não lembra um Joltik e pode ser confundida com outros pokémon."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Domo com pequenos tentáculos na base; reconhecível por aficionados, mas pode lembrar Omanyte, então múltipla escolha com distratores parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kabuto",
+      "distratores": [
+        "Omanyte",
+        "Shuckle",
+        "Dwebble"
+      ],
+      "ancora": {
+        "nome": "Kabuto",
+        "descricao": "Pokémon fóssil do tipo Pedra e Água, de número 140 da Pokédex Nacional, parecido com um caranguejo-ferradura.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta de abóbora com caule enrolado e folhas laterais, distinta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pumpkaboo",
+      "ancora": {
+        "nome": "Pumpkaboo",
+        "descricao": "Pokémon abóbora fantasma dos tipos Fantasma e Planta, de número 710 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A silhueta é uma massa arredondada com uma gota embaixo, sem contorno característico; não permite reconhecer Tympole."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta de ave de asas abertas e pontiagudas com garras e cauda em espinhos; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Zapdos",
+      "ancora": {
+        "nome": "Zapdos",
+        "descricao": "Pokémon lendário ave do tipo Elétrico e Voador, de número 145 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A silhueta é um sapo curvado e arredondado, sem os detalhes típicos de Croagunk; pode ser confundida com Toxicroak ou outros anfíbios."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Corpo oval com espinhos no dorso e tufo na ponta; forma característica para quem conhece a sétima geração. Múltipla com distratores de forma parecida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pyukumuku",
+      "distratores": [
+        "Pincurchin",
+        "Stunfisk",
+        "Bruxish"
+      ],
+      "ancora": {
+        "nome": "Pyukumuku",
+        "descricao": "Pokémon pepino-do-mar do tipo Água, de número 771 da Pokédex Nacional, introduzido na sétima geração.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta de cabelo longo, vestido e mãos abertas bem característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Jynx",
+      "ancora": {
+        "nome": "Jynx",
+        "descricao": "Pokémon humanoide dos tipos Gelo e Psíquico, de número 124 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Orelhas pontudas, cabelo em franja, saia e perna esguia; reconhecível, mas parecido com Ralts e Gardevoir, então múltipla.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kirlia",
+      "distratores": [
+        "Ralts",
+        "Gardevoir",
+        "Gallade"
+      ],
+      "ancora": {
+        "nome": "Kirlia",
+        "descricao": "Pokémon dançarino do tipo Psíquico e Fada, de número 281 da Pokédex Nacional, forma intermediária entre Ralts e Gardevoir.",
+        "variantes": []
+      },
+      "usar_silhueta": true
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A silhueta é um bloco rochoso sem contorno distintivo; pode ser confundida com Rolycoly, Geodude e outros pokémon de pedra."
+    }
+  ]
+}

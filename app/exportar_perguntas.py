@@ -12,8 +12,9 @@ from pathlib import Path
 AQUI = Path(__file__).parent
 BANCO = AQUI.parent / "pipeline" / "banco"
 PUBLICO = AQUI / "public"
+# "colecao" e "exclusiva": o modo Pokémon sorteia as da coleção; as exclusivas ficam fora do jogo original.
 CAMPOS = ["id", "tema", "subtema", "tipo", "pergunta", "resposta", "distratores", "imagem", "audio",
-          "angulo", "fonte", "autor", "dificuldade"]
+          "angulo", "fonte", "autor", "dificuldade", "colecao", "exclusiva"]
 
 perguntas = json.loads((BANCO / "perguntas.json").read_text(encoding="utf-8"))
 ancoras = {a["id"]: a for a in json.loads((BANCO / "ancoras.json").read_text(encoding="utf-8"))}

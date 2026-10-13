@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível, corpo redondo com orelhas e pés pontudos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui de qual outro pokémon?",
+      "resposta": "Munchlax",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Snorlax",
+        "descricao": "Pokémon do tipo Normal número 143 da Pokédex Nacional, gigante e dorminhoco.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta reconhecível: pescoço longo, folha na cabeça e colar de folhas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Meganium",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Bayleef",
+        "descricao": "Pokémon do tipo Planta número 153 da Pokédex Nacional, evolução de Chikorita.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cabeça enorme com espinhos e corpo segmentado; pode lembrar Onix, por isso múltipla escolha com Onix entre os distratores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Steelix",
+      "distratores": [
+        "Onix",
+        "Gyarados",
+        "Dunsparce"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Steelix",
+        "descricao": "Pokémon do tipo Aço e Terra número 208 da Pokédex Nacional, evolução de Onix.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta com crânio de osso com chifres, característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Marowak",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Cubone",
+        "descricao": "Pokémon do tipo Terra número 104 da Pokédex Nacional, que usa o crânio da mãe.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta nítida com língua enrolada no pescoço e postura de ninja.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Greninja",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Greninja",
+        "descricao": "Pokémon do tipo Água e Sombrio número 658 da Pokédex Nacional, evolução final de Froakie.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta com laços, orelhas e cauda característicos de Sylveon.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui de qual outro pokémon?",
+      "resposta": "Eevee",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sylveon",
+        "descricao": "Pokémon do tipo Fada número 700 da Pokédex Nacional, evolução de Eevee.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta clássica com cauda longa e cabeça com chifres.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Mewtwo",
+      "distratores": [
+        "Mew",
+        "Gardevoir",
+        "Deoxys"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Mewtwo",
+        "descricao": "Pokémon lendário do tipo Psíquico número 150 da Pokédex Nacional, criado a partir de Mew.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta clara: pescoço longo, casco com espetos e nadadeiras.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que prédio de Kanto, nos jogos Red e Blue, um funcionário dá este pokémon de presente?",
+      "resposta": "Silph Co.",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Lapras",
+        "descricao": "Pokémon do tipo Água e Gelo número 131 da Pokédex Nacional, com pescoço longo e casco.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A silhueta é uma mancha achatada, sem forma característica; confundível com Seel, Dewgong ou outros pokémon aquáticos.",
+      "ancora": {
+        "nome": "Stunfisk",
+        "descricao": "Pokémon do tipo Elétrico e Terra número 618 da Pokédex Nacional, achatado como um linguado.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta com bigodes, moeda na testa e cauda enrolada, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Persian",
+      "distratores": [
+        "Liepard",
+        "Purugly",
+        "Espeon"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Meowth",
+        "descricao": "Pokémon do tipo Normal número 52 da Pokédex Nacional, o pokémon gato da Equipe Rocket.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta com flor grande nas costas e corpo largo, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Venusaur",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Venusaur",
+        "descricao": "Pokémon do tipo Planta e Venenoso número 3 da Pokédex Nacional, evolução final de Bulbasaur.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta com orelhas grandes e corpo arredondado de Spinda; com distratores de orelhas longas fica justo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Spinda",
+      "distratores": [
+        "Buneary",
+        "Plusle",
+        "Minccino"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Spinda",
+        "descricao": "Pokémon do tipo Normal número 327 da Pokédex Nacional, panda de olhos em espiral.",
+        "variantes": []
+      }
+    }
+  ]
+}

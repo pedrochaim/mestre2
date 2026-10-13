@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta deitada com cauda curva para cima e orelhas arredondadas, reconhecível o bastante.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Slowpoke",
+      "distratores": [],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Slowpoke",
+        "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+        "variantes": [
+          "Yadon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta com quatro braços musculosos, inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pokémon evolui para este quando é trocado?",
+      "resposta": "Machoke",
+      "distratores": [
+        "Graveler",
+        "Kadabra",
+        "Haunter"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Machamp",
+        "descricao": "Pokémon do tipo Lutador de primeira geração, número 68 da Pokédex Nacional, com quatro braços.",
+        "variantes": [
+          "Kairiky"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A silhueta é uma pose torcida e fragmentada, sem contorno característico; não se reconhece Blaziken pela forma."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Orelhas longas, colar de pelos e cauda felpuda: silhueta clara. Trocada para o_que_e porque nível 1 pede pergunta direta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Eevee",
+      "distratores": [],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Eevee",
+        "descricao": "Pokémon do tipo Normal de primeira geração, número 133 da Pokédex Nacional, conhecido por suas várias evoluções.",
+        "variantes": [
+          "Eievui"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A silhueta é um bloco arredondado com espinhos, uma mancha sem contorno característico que pode ser confundida com outros pokémon de casulo ou espinhosos."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bola de lã com patinhas curtas e rabinho: silhueta característica. Passei para múltipla escolha com ovelhas parecidas, já que é menos conhecido.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Wooloo",
+      "distratores": [
+        "Mareep",
+        "Dubwool",
+        "Skiddo"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Wooloo",
+        "descricao": "Pokémon ovelha do tipo Normal da oitava geração, número 831 da Pokédex Nacional.",
+        "variantes": [
+          "Wooloo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Nadadeiras nas orelhas e cauda de sereia, distintas das outras evoluções do Eevee. Múltipla com as outras evoluções.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Vaporeon",
+      "distratores": [
+        "Jolteon",
+        "Flareon",
+        "Glaceon"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Vaporeon",
+        "descricao": "Evolução do Eevee do tipo Água, de primeira geração, número 134 da Pokédex Nacional.",
+        "variantes": [
+          "Showers"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Canhões nos ombros e carapaça robusta tornam a silhueta reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui diretamente de qual outro?",
+      "resposta": "Wartortle",
+      "distratores": [],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Blastoise",
+        "descricao": "Pokémon do tipo Água de primeira geração, número 9 da Pokédex Nacional, uma tartaruga com canhões nas costas.",
+        "variantes": [
+          "Kamex"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Corpo serpentino de dragão com chifres e bigodes, reconhecível pela forma.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Rayquaza",
+      "distratores": [],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Rayquaza",
+        "descricao": "Pokémon lendário dragão do tipo Dragão/Voador da terceira geração, número 384 da Pokédex Nacional.",
+        "variantes": [
+          "Rayquaza"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintinho com topete e patas finas, silhueta clara.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este pokémon evolui diretamente em qual outro?",
+      "resposta": "Combusken",
+      "distratores": [
+        "Marshtomp",
+        "Grovyle",
+        "Monferno"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Torchic",
+        "descricao": "Pokémon pintinho do tipo Fogo da terceira geração, número 255 da Pokédex Nacional.",
+        "variantes": [
+          "Achamo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Chifre na testa, bigodes e postura em pé com a mão estendida lembram a lontra Dewott; múltipla com pokémon de forma parecida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dewott",
+      "distratores": [
+        "Oshawott",
+        "Samurott",
+        "Piplup"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Dewott",
+        "descricao": "Pokémon do tipo Água da quinta geração, número 502 da Pokédex Nacional, evolução de Oshawott.",
+        "variantes": [
+          "Futachimaru"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Crista, espinhos e cauda grossa de dinossauro bípede, silhueta característica.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este pokémon evolui diretamente de qual outro?",
+      "resposta": "Pupitar",
+      "distratores": [
+        "Larvitar",
+        "Shelgon",
+        "Metang"
+      ],
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Tyranitar",
+        "descricao": "Pokémon do tipo Pedra/Sombrio da segunda geração, número 248 da Pokédex Nacional, parecido com um dinossauro.",
+        "variantes": [
+          "Bangiras"
+        ]
+      }
+    }
+  ]
+}
