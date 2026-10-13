@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.62 — 2026-10-13**
+> **Versão preliminar 0.64 — 2026-10-13**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -16,6 +16,7 @@
 > - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
 > - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
 > - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
 
 ---
 
@@ -244,11 +245,11 @@ Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20%
 
 ### Coleções
 
-Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). A primeira é a de **pokémon**, do **modo Pokémon** (§15).
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
 
-- A pergunta da coleção tem o campo `colecao` (`"pokemon"`). O modo da coleção sorteia só as perguntas dela, de qualquer tema.
-- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear). As perguntas de pokémon feitas antes de 2026-10-13 continuam também no jogo original; as feitas depois são exclusivas do modo Pokémon.
-- As perguntas da coleção seguem todas as regras desta Parte I: tema e subtema (os pokémon ficam em Entretenimento › Jogos Eletrônicos), âncora, saturação e fontes. Podem ser com ou sem figura.
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- As perguntas da coleção seguem todas as regras desta Parte I: tema e subtema, âncora, saturação e fontes. Podem ser com ou sem figura.
 - As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
 
 ### Perguntas com áudio
@@ -360,7 +361,7 @@ Toda pergunta precisa passar em **todos** os critérios abaixo:
 | `distratores` | só em `multipla` | Exatamente 3. Proibido em `aberta` (§6) |
 | `autor` | — | Autor humano. Só é preenchido quando indicado |
 | `dificuldade` | — | 1 (fácil) a 5 (difícil), **calculada** pela popularidade da âncora (§4). Gravada pelo pipeline, nunca escrita pelo LLM. **Apenas ilustrativa**: não entra em nenhuma decisão |
-| `colecao` | — | Coleção da pergunta (§6, "Coleções"): `pokemon`. O modo da coleção sorteia só as perguntas dela |
+| `colecao` | — | Coleção da pergunta (§6, "Coleções"): `pokemon` ([`modo_pokemon.md`](modo_pokemon.md)). O modo da coleção sorteia só as perguntas dela |
 | `exclusiva` | — | `true`: a pergunta da coleção sai só no modo dela, nunca no jogo original |
 | `audio` | — | Trecho de áudio que toca na tela grande (§6, "Perguntas com áudio"): `arquivo` (id da pergunta + `.mp3`, em `pipeline/banco/audios/`), `origem` (página no Commons), `autor` e `licenca`; `inicio` e `duracao` registram o trecho da gravação original |
 | `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons ou, para Pokémon, no Bulbagarden Archives), `autor` e `licenca`. Opcional: `revelacao`, a imagem mostrada só depois da resposta (id + `_revelacao` + extensão), usada nas silhuetas de Pokémon |
@@ -641,7 +642,7 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 |---|---|---|
 | **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
 | **Linear** | Protótipo no app (2026-10-02). Uma trilha única de 60 casas em faixa ondulada, com casas de tema e casas especiais | Esta seção (Modo Linear) e §16 |
-| **Pokémon** | No app (2026-10-13). O Linear só com perguntas de pokémon | Esta seção (Modo Pokémon) e §16 |
+| **Pokémon** | No app (2026-10-13). O Linear só com perguntas de pokémon, num tabuleiro próprio | [`modo_pokemon.md`](modo_pokemon.md) |
 | **Trilha da Vida** | Primeira versão no app (2026-10-02), a refinar. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
@@ -694,7 +695,7 @@ Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que nã
 
 ### Modo Pokémon
 
-Decidido em 2026-10-13. É o **Linear só com perguntas de pokémon**: a mesma trilha de 60 casas e as mesmas regras (vez, quem lê, movimento, chegada), mas todas as perguntas saem da coleção de pokémon (§6, "Coleções"), em qualquer casa. O tabuleiro é a mesma trilha com outro desenho: um caminho de terra na grama, com as casas numeradas e sem tema, e uma pokébola nas casas especiais. Entram as perguntas de pokémon do jogo original e as exclusivas do modo.
+O Linear só com perguntas de pokémon (2026-10-13). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
 
 ### Definições
 
@@ -746,7 +747,7 @@ Ao criar a partida, há também **Nova partida · Linear (protótipo)**, guardad
 
 ### Modo Pokémon
 
-Em **Outros modos**, **Nova partida · Pokémon** grava `modo: "pokemon"` e mostra quantas perguntas de pokémon há. O app trata a partida como Linear (tabuleiro, Sorteio, modo mesa), com duas diferenças: as perguntas em jogo são só as da coleção `pokemon`, e o tema de toda casa é **Pokémon**, em amarelo e azul no lugar do arco-íris de "Qualquer tema". O tabuleiro é desenhado por `svgPokemon` (em `linear.js`), com a geometria do Linear: grama ao fundo, caminho de terra, casas numeradas em dois tons de areia e pokébolas nas especiais. No Sorteio há um botão só, **Pokémon**. Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
+**Nova partida · Pokémon**, em **Outros modos**, grava `modo: "pokemon"`; o app trata a partida como Linear, com as perguntas e o tabuleiro do modo (`svgPokemon`, em `linear.js`). Os detalhes estão em [`modo_pokemon.md`](modo_pokemon.md). Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
 
 ### Modo Trilha da Vida
 
@@ -858,7 +859,7 @@ O próximo lote é sempre do **subtema com o maior déficit em relação à meta
 
 ### Coleções (§6)
 
-As perguntas exclusivas de uma coleção são feitas à mão, fora do autopiloto. Figuras: um catálogo do `plano.json` com `colecao` e `exclusiva` (o de pokémon é `pokemon_modo`, com a silhueta da arte oficial, como o `pokemon`), rodado com `python pipeline/colecao.py figuras pokemon_modo --lotes N`. Texto: uma encomenda com `colecao` e `exclusiva`, rodada com `python pipeline/rodar.py executar --encomenda <id>`. Nos dois casos, o pipeline grava os dois campos em todas as perguntas do lote. `python pipeline/colecao.py status pokemon` mostra quantas perguntas a coleção tem. Em 2026-10-13, a coleção começou com as 86 perguntas de pokémon do banco e ganhou lotes exclusivos de figura e de texto, rumo a cerca de 200.
+As perguntas exclusivas de uma coleção são feitas à mão, fora do autopiloto. Figuras: um catálogo do `plano.json` com `colecao` e `exclusiva`, rodado com `python pipeline/colecao.py figuras <catalogo> --lotes N`. Texto: uma encomenda com `colecao` e `exclusiva`, rodada com `python pipeline/rodar.py executar --encomenda <id>`. Nos dois casos, o pipeline grava os dois campos em todas as perguntas do lote. `python pipeline/colecao.py status <colecao>` mostra quantas perguntas a coleção tem. A produção e a situação da coleção de pokémon estão em [`modo_pokemon.md`](modo_pokemon.md).
 
 ### Perguntas com áudio (§6)
 
@@ -961,6 +962,8 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.64 | 2026-10-13 | Modo Pokémon: família "Tipo e atributos base" (cartão com tipo e atributos, múltipla escolha, feita por `pipeline/pokemon_status.py` sem LLM) e variedade menos rígida; detalhes em `modo_pokemon.md` |
+| 0.63 | 2026-10-13 | As instruções do modo Pokémon (regras, tabuleiro, coleção, diretrizes de conteúdo, produção e pendências) saem do MANIFESTO para `modo_pokemon.md`; o MANIFESTO guarda só o que vale para qualquer coleção e aponta para o documento (§6, §10, §15, §16, §17) |
 | 0.62 | 2026-10-13 | Tabuleiro próprio do modo Pokémon: a trilha do Linear como um caminho de terra na grama, casas numeradas, pokébola nas especiais (§15, §16) |
 | 0.61 | 2026-10-13 | Coleções de perguntas (campos `colecao` e `exclusiva`) e o modo Pokémon: o Linear só com perguntas de pokémon; as novas perguntas de pokémon são exclusivas dele, e as antigas continuam também no jogo original; `pipeline/colecao.py` (§6, §15, §16, §17) |
 | 0.60 | 2026-10-12 | Perguntas com áudio: regras (reconhecimento, só áudio livre, o LLM não ouve e uma pessoa confere o trecho, saturação), campo `audio`, `pipeline/audios.py` com catálogo, página para ouvir e registro; no app, o som toca só na tela grande, comandado por quem lê; filtro de áudio no sorteio; piloto de 39 perguntas, ainda não registrado; até segunda ordem, as perguntas com áudio ficam fora do jogo; no Sorteio e no Turno, quem pergunta e quem responde aparecem como na tela grande, no cartão da pergunta e na linha da vez (§6, §15, §16, §17) |
