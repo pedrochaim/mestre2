@@ -127,12 +127,12 @@ python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 -
 - **Feitas de dados:** `pipeline/pokemon_dados.py`, sem LLM. Escolhe os pokémon, monta as figuras, a revelação e as alternativas, e registra as perguntas (lotes `pokemon_dados_NNN`; o primeiro, só de cartões, chamou-se `pokemon_status_001`). `amostras --pasta <pasta>` faz uma figura de cada família, sem gravar no banco.
 - O pipeline grava `colecao`, `exclusiva` e `subtema_colecao` em todas as perguntas do lote. Depois, `python app/exportar_perguntas.py` leva as perguntas ao app.
 
-**Situação em 2026-10-13:** a coleção tem 1515 perguntas.
+**Situação em 2026-10-13:** a coleção tem 1747 perguntas.
 
 | | Exclusivas | Também no jogo original |
 |---|---|---|
 | Com figura | 1062 (cerca de 890 feitas de dados: cartão, tipo, região e evolução; o resto, silhuetas) | 75 |
-| Sem figura | 367 | 11 |
+| Sem figura | 599 | 11 |
 
 Por subtema do modo:
 
@@ -141,15 +141,16 @@ Por subtema do modo:
 | Quem é esse pokémon? | 653 | 588 |
 | Tipos e Evoluções | 458 | 423 |
 | Regiões e Treinadores | 221 | 124 |
-| Anime, Filmes e Franquia | 112 | 0 |
-| Jogos da Série Principal | 71 | 2 |
+| Jogos da Série Principal | 211 | 2 |
+| Anime, Filmes e Franquia | 204 | 0 |
 
-Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_texto_01` a `14`; feitas de dados, `pokemon_status_001` (100 cartões) e `pokemon_dados_002` a `006` (4 lotes de 185 e um de 15). As 1000 perguntas novas pedidas em 2026-10-13 vieram de `pokemon_texto_07` a `14` (202), dos lotes de silhueta 017 a 021 (43) e de `pokemon_dados_002` a `006` (755).
+O menor subtema tem 31% do maior: o piso de 30% foi atingido.
+
+Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_texto_01` a `24`; feitas de dados, `pokemon_status_001` (100 cartões) e `pokemon_dados_002` a `006` (4 lotes de 185 e um de 15). As 1000 perguntas novas pedidas em 2026-10-13 vieram de `pokemon_texto_07` a `14` (202), dos lotes de silhueta 017 a 021 (43) e de `pokemon_dados_002` a `006` (755). Para atingir o piso de equilíbrio, vieram `pokemon_texto_15` a `19` (Jogos da Série Principal, 140) e `pokemon_texto_20` a `24` (Anime, Filmes e Franquia, 92).
 
 ## Em aberto
 
 - O app ainda não usa os subtemas do modo: o campo fica no banco e não vai para o app. Falta decidir para que eles servem no jogo (cor das casas, escolha de subtema no Sorteio ou só a aba Informações).
-- **A coleção ainda está fora do equilíbrio.** O maior subtema tem 653 perguntas, e o piso de 30% é de 196. Para chegar lá, faltam 125 perguntas em Jogos da Série Principal (tem 71) e 84 em Anime, Filmes e Franquia (tem 112). Enquanto isso, só sai lote desses dois subtemas, ou de Regiões e Treinadores até o teto (hoje 236).
 
 - As ações das casas especiais (as mesmas pendências do Linear).
 - Perguntas sugeridas para revisão, ainda no banco:
@@ -157,3 +158,4 @@ Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_te
   - **q10042:** Ash e Satoshi, repete a q01316, com outra âncora.
   - **q10041** e **q10043:** a infância de Tajiri e os insetos, perto da q07404.
   - **q10049:** a chance de brilhante de 1 em 8 192, obscura.
+  - **q11180:** os nomes de cores das cidades de Kanto, o mesmo fato da q09803 e da q10233, com outra âncora.
