@@ -1,0 +1,290 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que grupo de insetos reúne mais espécies descritas do que qualquer outro grupo de animais?",
+        "resposta": "Besouros"
+      },
+      "existentes": [
+        {
+          "id": "q02633",
+          "pergunta": "Que grupo de insetos reúne o maior número de espécies já descritas pela ciência?",
+          "resposta": "Besouros"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Por fora, as arqueias parecem bactérias. Mas, na árvore da vida, elas são mais aparentadas com qual outro grande grupo de seres vivos?",
+        "resposta": "Eucariontes"
+      },
+      "existentes": [
+        {
+          "id": "q04793",
+          "pergunta": "Em 1977, ao lado de George Fox, que microbiologista americano mostrou que as arqueias, comuns em ambientes extremos, formam um ramo da vida separado das bactérias?",
+          "resposta": "Carl Woese"
+        },
+        {
+          "id": "q05039",
+          "pergunta": "As arqueias são microrganismos parecidos com bactérias. O nome delas vem do grego e significa o quê?",
+          "resposta": "Antigas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A parede das células das plantas é feita de celulose. A dos fungos tem como componente característico qual substância, a mesma da carapaça dos insetos?",
+        "resposta": "Quitina"
+      },
+      "existentes": [
+        {
+          "id": "q03844",
+          "pergunta": "Na árvore evolutiva da vida, os fungos são parentes mais próximos de qual grupo?",
+          "resposta": "Animais"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Um líquen não é uma planta, mas uma parceria de um fungo com qual outro tipo de ser vivo?",
+        "resposta": "Alga (ou cianobactéria)"
+      },
+      "existentes": [
+        {
+          "id": "q02875",
+          "pergunta": "Um líquen não é um ser só: é a parceria entre um fungo e que outro tipo de organismo?",
+          "resposta": "Alga (ou cianobactéria)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Dentro dos cromossomos, o longo fio de DNA fica enrolado, como linha num carretel, em torno de quais proteínas?",
+        "resposta": "Histonas"
+      },
+      "existentes": [
+        {
+          "id": "q03824",
+          "pergunta": "Os cromossomos ganharam esse nome no século dezenove. Traduzido do grego, ele significa o quê?",
+          "resposta": "Corpo colorido"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No sistema de cinco reinos, ensinado por décadas nas escolas, as bactérias formavam qual reino?",
+        "resposta": "Monera"
+      },
+      "existentes": [
+        {
+          "id": "q03865",
+          "pergunta": "Em 1969, o ecólogo Robert Whittaker propôs dividir os seres vivos em quantos reinos?",
+          "resposta": "Cinco"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Por resistir a doses enormes de radiação, a bactéria Deinococcus radiodurans ganhou o apelido de qual herói da ficção?",
+        "resposta": "Conan, o Bárbaro"
+      },
+      "existentes": [
+        {
+          "id": "q02854",
+          "pergunta": "Capaz de resistir a doses enormes de radiação, a bactéria Deinococcus radiodurans ganhou um apelido inspirado em que bárbaro da ficção?",
+          "resposta": "Conan"
+        },
+        {
+          "id": "q04811",
+          "pergunta": "Em 1956, a bactéria Deinococcus radiodurans foi encontrada num alimento que tinha sido esterilizado com radiação. Em que alimento?",
+          "resposta": "Carne enlatada"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Do ponto de vista da biologia, o que repolho, couve, brócolis e couve-flor têm em comum?",
+        "resposta": "São a mesma espécie"
+      },
+      "existentes": [
+        {
+          "id": "q06089",
+          "pergunta": "Repolho, brócolis, couve-flor e couve-manteiga parecem bem diferentes. O que eles têm em comum, do ponto de vista botânico?",
+          "resposta": "São a mesma espécie"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O biólogo Thomas Huxley, apelidado de buldogue de Darwin, tinha que parentesco com Aldous Huxley, autor de Admirável Mundo Novo?",
+        "resposta": "Avô"
+      },
+      "existentes": [
+        {
+          "id": "q02792",
+          "pergunta": "Por defender com unhas e dentes a teoria da evolução no século dezenove, o biólogo inglês Thomas Huxley ganhou que apelido?",
+          "resposta": "Buldogue de Darwin"
+        },
+        {
+          "id": "q07480",
+          "pergunta": "Que parentesco ligava o biólogo Thomas Huxley, defensor de Darwin, ao escritor Aldous Huxley, autor de Admirável Mundo Novo?",
+          "resposta": "Era seu avô"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Chimpanzés e gorilas têm quarenta e oito cromossomos, e o ser humano tem quarenta e seis. O que explica essa diferença?",
+        "resposta": "Dois cromossomos se fundiram em um"
+      },
+      "existentes": [
+        {
+          "id": "q02802",
+          "pergunta": "Chimpanzés e gorilas têm vinte e quatro pares de cromossomos, e nós temos vinte e três. Que evento na linhagem humana explica essa diferença?",
+          "resposta": "A fusão de dois cromossomos"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Por que, numa colmeia, o zangão tem mãe, mas não tem pai?",
+        "resposta": "Nasce de óvulo não fecundado"
+      },
+      "existentes": [
+        {
+          "id": "q02634",
+          "pergunta": "Numa colmeia, entre rainha, operárias e zangões, quem nasce de ovos não fecundados?",
+          "resposta": "Os zangões"
+        },
+        {
+          "id": "q06969",
+          "pergunta": "Como o zangão tem mãe, mas não tem pai, sua árvore genealógica segue qual famosa sequência de números?",
+          "resposta": "Sequência de Fibonacci"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A ovelha Dolly foi a única a chegar à vida adulta entre quantas tentativas de clonagem?",
+        "resposta": "277"
+      },
+      "existentes": [
+        {
+          "id": "q03830",
+          "pergunta": "Clonada a partir de uma célula de glândula mamária, a ovelha Dolly recebeu o nome em homenagem a qual cantora?",
+          "resposta": "Dolly Parton"
+        },
+        {
+          "id": "q05014",
+          "pergunta": "Em que ano nasceu a ovelha Dolly, o primeiro mamífero clonado a partir de uma célula adulta?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O ser humano tem quarenta e seis cromossomos em cada célula. E o cão doméstico, quantos tem?",
+        "resposta": "78"
+      },
+      "existentes": [
+        {
+          "id": "q03849",
+          "pergunta": "Para muitos biólogos, o cachorro doméstico é apenas uma subespécie de qual animal selvagem?",
+          "resposta": "Lobo"
+        },
+        {
+          "id": "q05537",
+          "pergunta": "Que animal doméstico é este?",
+          "resposta": "Cachorro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: besouros têm mais espécies descritas.",
+      "id_existente": "q02633"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Parentesco das arqueias com eucariontes é fato diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Parede celular de quitina é fato distinto do parentesco evolutivo."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta sobre líquen.",
+      "id_existente": "q02875"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Histonas é fato distinto da etimologia de cromossomo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Reino das bactérias é diferente do número de reinos."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo apelido Conan para a bactéria.",
+      "id_existente": "q02854"
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: são a mesma espécie.",
+      "id_existente": "q06089"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo parentesco: Thomas era avô de Aldous.",
+      "id_existente": "q07480"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma explicação: fusão de dois cromossomos.",
+      "id_existente": "q02802"
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Nascer de ovo não fecundado explica ter mãe sem pai; mesmo fato de q02634.",
+      "id_existente": "q02634"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Número de tentativas é fato diferente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Número de cromossomos do cão é fato novo."
+    }
+  ]
+}
