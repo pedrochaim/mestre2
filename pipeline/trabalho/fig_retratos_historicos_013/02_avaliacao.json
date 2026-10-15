@@ -1,0 +1,244 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato oficial com faixa presidencial, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este presidente do Brasil?",
+      "resposta": "Luiz Inácio Lula da Silva",
+      "destino": 8,
+      "ancora": {
+        "nome": "Luiz Inácio Lula da Silva",
+        "descricao": "Político e sindicalista brasileiro, presidente do Brasil de 2003 a 2011 e desde 2023.",
+        "variantes": [
+          "Lula"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este dirigente nazista?",
+      "resposta": "Heinrich Himmler",
+      "distratores": [
+        "Joseph Goebbels",
+        "Hermann Göring",
+        "Reinhard Heydrich"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Heinrich Himmler",
+        "descricao": "Líder da SS (Reichsführer-SS) e um dos principais arquitetos do Holocausto na Alemanha nazista.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A faixa vermelha na imagem traz escrito 'El Rey D. Afonso Anriquez', o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura pública reconhecível pelo keffiyeh e rosto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prêmio este líder recebeu em 1994?",
+      "resposta": "Prêmio Nobel da Paz",
+      "distratores": [
+        "Nobel de Literatura",
+        "Nobel de Economia",
+        "Prêmio Sakharov"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Yasser Arafat",
+        "descricao": "Líder palestino, presidente da OLP de 1969 a 2004 e da Autoridade Palestina.",
+        "variantes": [
+          "Iasser Arafat",
+          "Abu Ammar"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, sem texto, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro este político governou?",
+      "resposta": "Minas Gerais",
+      "destino": 8,
+      "ancora": {
+        "nome": "Tancredo Neves",
+        "descricao": "Político mineiro eleito presidente do Brasil em 1985, que morreu antes de tomar posse.",
+        "variantes": [
+          "Tancredo de Almeida Neves"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Busto romano com tipologia característica de Adriano, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este imperador romano assumiu o poder?",
+      "resposta": "117",
+      "distratores": [
+        "98",
+        "108",
+        "138"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Adriano",
+        "descricao": "Imperador romano de 117 a 138, nascido em Itálica, na Hispânia.",
+        "variantes": [
+          "Hadrian",
+          "Públio Élio Adriano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato presidencial oficial, sem texto, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que plano econômico de 1994 está ligado a este presidente?",
+      "resposta": "Plano Real",
+      "distratores": [
+        "Plano Cruzado",
+        "Plano Collor",
+        "Plano Verão"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Fernando Henrique Cardoso",
+        "descricao": "Sociólogo e político brasileiro, presidente do Brasil de 1995 a 2003.",
+        "variantes": [
+          "FHC"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este líder indiano?",
+      "resposta": "Jawaharlal Nehru",
+      "distratores": [
+        "Mahatma Gandhi",
+        "Muhammad Ali Jinnah",
+        "Subhas Chandra Bose"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Jawaharlal Nehru",
+        "descricao": "Líder do movimento de independência e primeiro primeiro-ministro da Índia.",
+        "variantes": [
+          "Pandit Nehru"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Detalhe de pintura do século quinze, sem texto, retrato reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este príncipe português participou da conquista de Ceuta?",
+      "resposta": "1415",
+      "distratores": [
+        "1385",
+        "1419",
+        "1434"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Infante Dom Henrique",
+        "descricao": "Príncipe português do século quinze, patrono das descobertas marítimas portuguesas.",
+        "variantes": [
+          "Henrique, o Navegador",
+          "Prince Henry the Navigator"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de figura pública, sem texto, sem pessoas comuns.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem foi o vice-presidente desta política?",
+      "resposta": "Michel Temer",
+      "destino": 8,
+      "ancora": {
+        "nome": "Dilma Rousseff",
+        "descricao": "Economista e política brasileira, primeira mulher presidente do Brasil, de 2011 a 2016.",
+        "variantes": [
+          "Dilma Vana Rousseff"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Busto de tipo homérico claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que poeta da Grécia Antiga é representado neste busto?",
+      "resposta": "Homero",
+      "destino": 1,
+      "ancora": {
+        "nome": "Homero",
+        "descricao": "Poeta épico grego tradicionalmente tido como autor da Ilíada e da Odisseia.",
+        "variantes": [
+          "Homer"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato pintado clássico, sem nome visível (apenas número de inventário).",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este rei se tornou rei da Espanha?",
+      "resposta": "1556",
+      "distratores": [
+        "1516",
+        "1543",
+        "1580"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Filipe II da Espanha",
+        "descricao": "Rei da Espanha de 1556 a 1598 e de Portugal a partir de 1580.",
+        "variantes": [
+          "Felipe II",
+          "Philip II of Spain"
+        ]
+      }
+    }
+  ]
+}

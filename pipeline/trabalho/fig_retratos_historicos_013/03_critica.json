@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; enunciado não nomeia nem entrega, pois muitos já foram presidentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento com distratores do mesmo grupo e críveis; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nobel da Paz de 1994 confirmado nos trechos; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Governou Minas Gerais de 1983 a 1984, confirmado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Imperador de 117 a 138; ano é múltipla com distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'plano econômico de 1994' já entrega o Plano Real; a figura vira enfeite e não há reescrita limpa.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores do mesmo tipo, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a imagem, a pergunta sobre o ano da conquista de Ceuta se responde pelo próprio evento (1415); a figura é enfeite. Passa a pedir um fato que exige reconhecer o infante.",
+      "reescrita": {
+        "pergunta": "Depois da conquista de Ceuta, em 1415, que título de duque este príncipe português recebeu?",
+        "resposta": "Duque de Viseu",
+        "distratores": [
+          "Duque de Coimbra",
+          "Duque de Bragança",
+          "Duque de Aveiro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Michel Temer foi vice nos dois mandatos; resposta única e depende da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de busto; 'poeta da Grécia Antiga' não entrega, pois há vários.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1556 confirmado; sem a figura o rei é indeterminado; distratores plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
