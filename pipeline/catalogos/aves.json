@@ -96,7 +96,7 @@
       "titulo": "en:Black vulture",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Gavião-real",
@@ -355,7 +355,7 @@
       "titulo": "en:Helmeted guineafowl",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cisne-negro",
@@ -418,14 +418,14 @@
       "titulo": "en:Magnificent frigatebird",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Faisão-dourado",
       "titulo": "en:Golden pheasant",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lóris-arco-íris",
@@ -453,7 +453,7 @@
       "titulo": "en:Cattle egret",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Anu-preto",
@@ -474,7 +474,7 @@
       "titulo": "en:Resplendent quetzal",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Kakapo",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Corvo",
+      "titulo": "en:Common raven",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ganso",
+      "titulo": "en:Domestic goose",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Codorna",
+      "titulo": "en:Japanese quail",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cacatua-de-crista-amarela",
+      "titulo": "en:Sulphur-crested cockatoo",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Águia-real",
+      "titulo": "en:Golden eagle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rolinha-roxa",
+      "titulo": "en:Ruddy ground dove",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Beija-flor-tesoura",
+      "titulo": "en:Swallow-tailed hummingbird",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pica-pau-de-banda-branca",
+      "titulo": "en:Lineated woodpecker",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maritaca",
+      "titulo": "en:Scaly-headed parrot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaivotão",
+      "titulo": "en:Kelp gull",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sanhaço-cinzento",
+      "titulo": "en:Sayaca tanager",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Asa-branca",
+      "titulo": "en:Picazuro pigeon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Agapórnis",
+      "titulo": "en:Rosy-faced lovebird",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Curió",
+      "titulo": "en:Chestnut-bellied seed finch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrupião",
+      "titulo": "en:Campo troupial",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cambacica",
+      "titulo": "en:Bananaquit",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Faisão-comum",
+      "titulo": "en:Common pheasant",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cucaburra",
+      "titulo": "en:Laughing kookaburra",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poupa",
+      "titulo": "en:Eurasian hoopoe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pisco-de-peito-ruivo",
+      "titulo": "en:European robin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaio-azul",
+      "titulo": "en:Blue jay",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mandarim",
+      "titulo": "en:Zebra finch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pato-mandarim",
+      "titulo": "en:Mandarin duck",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Grou-da-manchúria",
+      "titulo": "en:Red-crowned crane",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pintassilgo",
+      "titulo": "en:Hooded siskin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grifo",
+      "titulo": "en:Griffon vulture",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Japu",
+      "titulo": "en:Crested oropendola",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abutre-barbudo",
+      "titulo": "en:Bearded vulture",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pombo-coroado-de-victoria",
+      "titulo": "en:Victoria crowned pigeon",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anhuma",
+      "titulo": "en:Horned screamer",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pavãozinho-do-pará",
+      "titulo": "en:Sunbittern",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Biguatinga",
+      "titulo": "en:Anhinga",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lavadeira-mascarada",
+      "titulo": "en:Masked water tyrant",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Murucututu",
+      "titulo": "en:Spectacled owl",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caburé",
+      "titulo": "en:Ferruginous pygmy owl",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Trinca-ferro",
+      "titulo": "en:Green-winged saltator",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saí-azul",
+      "titulo": "en:Blue dacnis",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kea",
+      "titulo": "en:Kea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Íbis-sagrado",
+      "titulo": "en:African sacred ibis",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gavião-de-penacho",
+      "titulo": "en:Ornate hawk-eagle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

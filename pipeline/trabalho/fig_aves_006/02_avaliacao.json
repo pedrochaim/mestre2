@@ -1,0 +1,281 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de cacatua com crista amarela.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em qual destes países esta ave vive em estado selvagem?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Brasil",
+        "Índia",
+        "África do Sul"
+      ],
+      "ancora": {
+        "nome": "Cacatua-de-crista-amarela",
+        "descricao": "Grande cacatua branca de crista amarela (Cacatua galerita), nativa da Austrália e Nova Guiné.",
+        "variantes": [
+          "Cacatua galerita",
+          "Sulphur-crested cockatoo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Macho de pato-mandarim bem visível e inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pato é este?",
+      "resposta": "Pato-mandarim",
+      "distratores": [
+        "Pato-carolino",
+        "Pato-arlequim",
+        "Pato-real"
+      ],
+      "ancora": {
+        "nome": "Pato-mandarim",
+        "descricao": "Pato ornamental do leste da Ásia (Aix galericulata), com o macho muito colorido.",
+        "variantes": [
+          "Aix galericulata",
+          "Mandarin duck"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Três anhumas visíveis, mesma espécie, com chifre filamentoso.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave sul-americana é esta?",
+      "resposta": "Anhuma",
+      "distratores": [
+        "Tachã",
+        "Mutum",
+        "Jacu"
+      ],
+      "ancora": {
+        "nome": "Anhuma",
+        "descricao": "Ave aquática sul-americana (Anhima cornuta) com um filamento em forma de chifre na testa.",
+        "variantes": [
+          "Anhima cornuta",
+          "Horned screamer",
+          "Unicórnio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Close da cabeça enrugada e preta, característica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Urubu-de-cabeça-preta",
+      "distratores": [],
+      "ancora": {
+        "nome": "Urubu-de-cabeça-preta",
+        "descricao": "Abutre americano preto (Coragyps atratus), muito comum no Brasil.",
+        "variantes": [
+          "Coragyps atratus",
+          "Urubu-comum",
+          "Black vulture"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Macho de faisão-dourado nítido e inconfundível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é originário este faisão?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Índia",
+        "Egito"
+      ],
+      "ancora": {
+        "nome": "Faisão-dourado",
+        "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+        "variantes": [
+          "Chrysolophus pictus",
+          "Golden pheasant"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Corujinha pequena e nítida, reconhecível com múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que coruja pequena é esta?",
+      "resposta": "Caburé",
+      "distratores": [
+        "Coruja-buraqueira",
+        "Corujinha-do-mato",
+        "Coruja-orelhuda"
+      ],
+      "ancora": {
+        "nome": "Caburé",
+        "descricao": "Pequena coruja (Glaucidium brasilianum) amplamente distribuída nas Américas.",
+        "variantes": [
+          "Glaucidium brasilianum",
+          "Ferruginous pygmy owl",
+          "Caburé-ferrugem"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Galinha-d'angola nítida com a pintalgada característica.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente esta ave é nativa?",
+      "resposta": "África",
+      "distratores": [],
+      "ancora": {
+        "nome": "Galinha-d'angola",
+        "descricao": "Ave galiforme pintalgada de branco (Numida meleagris), nativa da África e domesticada.",
+        "variantes": [
+          "Numida meleagris",
+          "Angola",
+          "Guiné",
+          "Helmeted guinea fowl"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Macho com bolsa gular inflada, marca clara da espécie.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave marinha é esta, com a bolsa vermelha inflada?",
+      "resposta": "Tesourão",
+      "distratores": [
+        "Albatroz",
+        "Atobá",
+        "Pelicano"
+      ],
+      "ancora": {
+        "nome": "Tesourão",
+        "descricao": "Ave marinha de cauda bifurcada (Fregata magnificens), cujo macho infla uma bolsa vermelha.",
+        "variantes": [
+          "Fragata",
+          "Rabiforcado-magnífico",
+          "Fregata magnificens",
+          "Magnificent frigatebird"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Lavadeira-mascarada nítida, com máscara preta visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Lavadeira-mascarada",
+      "distratores": [
+        "Viuvinha",
+        "Noivinha",
+        "Maria-branca"
+      ],
+      "ancora": {
+        "nome": "Lavadeira-mascarada",
+        "descricao": "Passarinho branco com máscara preta nos olhos (Fluvicola nengeta), comum perto da água.",
+        "variantes": [
+          "Fluvicola nengeta",
+          "Masked water tyrant"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ganso doméstico branco bem visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave doméstica é esta?",
+      "resposta": "Ganso",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ganso",
+        "descricao": "Ave doméstica branca de pescoço longo, do gênero Anser, criada por carne, ovos e penas.",
+        "variantes": [
+          "Ganso-doméstico",
+          "Anser anser domesticus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Garça branca com plumas alaranjadas, nítida.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que grandes animais de pasto esta ave costuma acompanhar para pegar insetos?",
+      "resposta": "Gado",
+      "distratores": [],
+      "ancora": {
+        "nome": "Garça-vaqueira",
+        "descricao": "Pequena garça branca (Bubulcus ibis) que acompanha o gado nos pastos.",
+        "variantes": [
+          "Bubulcus ibis",
+          "Ardea ibis",
+          "Cattle egret"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macho de quetzal-resplandecente nítido e inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país tem esta ave como símbolo nacional?",
+      "resposta": "Guatemala",
+      "distratores": [],
+      "ancora": {
+        "nome": "Quetzal-resplandecente",
+        "descricao": "Ave tropical verde e vermelha de cauda longa (Pharomachrus mocinno) da América Central.",
+        "variantes": [
+          "Pharomachrus mocinno",
+          "Quetzal",
+          "Resplendent quetzal"
+        ]
+      }
+    }
+  ]
+}

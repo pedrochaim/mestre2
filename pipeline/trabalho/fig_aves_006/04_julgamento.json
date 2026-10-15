@@ -1,0 +1,716 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cacatua-de-crista-amarela",
+        "descricao": "Grande cacatua branca de crista amarela (Cacatua galerita), nativa da Austrália e Nova Guiné.",
+        "variantes": [
+          "Cacatua galerita",
+          "Sulphur-crested cockatoo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arara_caninde",
+          "nome": "Arara-canindé",
+          "descricao": "Grande arara (Ara ararauna) de dorso azul, barriga amarelo-alaranjada, garganta preta e face branca listrada.",
+          "variantes": [
+            "Arara-azul-e-amarela",
+            "Arara-de-barriga-amarela",
+            "Blue-and-yellow macaw",
+            "Ara ararauna"
+          ]
+        },
+        {
+          "id": "pica_pau_de_cabeca_amarela",
+          "nome": "Pica-pau-de-cabeça-amarela",
+          "descricao": "Pica-pau (Celeus flavescens) de cabeça clara e mancha vermelha na face, que vive na Argentina, no Brasil e no Paraguai.",
+          "variantes": [
+            "Celeus flavescens",
+            "Blond-crested woodpecker"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "tatu_galinha",
+          "nome": "Tatu-galinha",
+          "descricao": "Tatu das Américas, espécie Dasypus novemcinctus.",
+          "variantes": [
+            "Dasypus novemcinctus",
+            "Nine-banded armadillo",
+            "Tatu-de-nove-bandas"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pato-mandarim",
+        "descricao": "Pato ornamental do leste da Ásia (Aix galericulata), com o macho muito colorido.",
+        "variantes": [
+          "Aix galericulata",
+          "Mandarin duck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tamandua_mirim",
+          "nome": "Tamanduá-mirim",
+          "descricao": "Tamanduá sul-americano de porte médio, com uma mancha escura em forma de colete (Tamandua tetradactyla).",
+          "variantes": [
+            "Tamandua tetradactyla",
+            "Tamanduá-de-colete"
+          ]
+        },
+        {
+          "id": "ratazana",
+          "nome": "Ratazana",
+          "descricao": "Roedor da espécie Rattus norvegicus, também chamado rato-marrom, comum em áreas urbanas do mundo todo.",
+          "variantes": [
+            "Rato-marrom",
+            "Rattus norvegicus",
+            "Rato-de-esgoto"
+          ]
+        },
+        {
+          "id": "atletico_de_madrid",
+          "nome": "Atlético de Madrid",
+          "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+          "variantes": [
+            "Club Atlético de Madrid",
+            "Atlético Madrid",
+            "Athletic Club de Madrid",
+            "Atleti"
+          ]
+        },
+        {
+          "id": "sao_januario",
+          "nome": "São Januário",
+          "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+          "variantes": [
+            "Estádio Vasco da Gama"
+          ]
+        },
+        {
+          "id": "mandacaru",
+          "nome": "Mandacaru",
+          "descricao": "Cacto Cereus jamacaru, típico da Caatinga e símbolo do sertão nordestino",
+          "variantes": [
+            "Cereus jamacaru"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Anhuma",
+        "descricao": "Ave aquática sul-americana (Anhima cornuta) com um filamento em forma de chifre na testa.",
+        "variantes": [
+          "Anhima cornuta",
+          "Horned screamer",
+          "Unicórnio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hanuman",
+          "nome": "Hanuman",
+          "descricao": "Divindade hindu, devoto e aliado de Rama no épico Ramayana",
+          "variantes": [
+            "Hanumã"
+          ]
+        },
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        },
+        {
+          "id": "tricornio",
+          "nome": "Tricórnio",
+          "descricao": "Chapéu de feltro com a aba virada para cima em três lados, formando um triângulo, popular na Europa no século dezoito.",
+          "variantes": [
+            "Tricorne",
+            "Chapéu de três pontas",
+            "Cocked hat"
+          ]
+        },
+        {
+          "id": "tacha",
+          "nome": "Tachã",
+          "descricao": "Chauna torquata, ave aquática cinzenta sul-americana da família Anhimidae, de pernas vermelhas.",
+          "variantes": [
+            "Chajá",
+            "Tachã-cinzenta",
+            "Southern screamer"
+          ]
+        },
+        {
+          "id": "homo_sapiens",
+          "nome": "Homo sapiens",
+          "descricao": "Espécie humana moderna, a única do gênero Homo ainda viva.",
+          "variantes": [
+            "Ser humano",
+            "Humano moderno",
+            "Human"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Urubu-de-cabeça-preta",
+        "descricao": "Abutre americano preto (Coragyps atratus), muito comum no Brasil.",
+        "variantes": [
+          "Coragyps atratus",
+          "Urubu-comum",
+          "Black vulture"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urubu_de_cabeca_preta",
+          "nome": "Urubu-de-cabeça-preta",
+          "descricao": "Ave necrófaga das Américas (Coragyps atratus), toda preta e de cabeça nua cinza-escura, comum nas cidades brasileiras.",
+          "variantes": [
+            "Urubu",
+            "Urubu-comum",
+            "Coragyps atratus"
+          ]
+        },
+        {
+          "id": "cisne_negro",
+          "nome": "Cisne-negro",
+          "descricao": "Cygnus atratus, grande ave aquática de plumagem negra e bico vermelho, nativa da Austrália.",
+          "variantes": [
+            "Cygnus atratus",
+            "Black swan"
+          ]
+        },
+        {
+          "id": "cha_preto",
+          "nome": "Chá preto",
+          "descricao": "Tipo de chá feito das folhas da Camellia sinensis submetidas a oxidação completa antes da secagem.",
+          "variantes": [
+            "Black tea"
+          ]
+        },
+        {
+          "id": "quadrado_negro",
+          "nome": "Quadrado Negro",
+          "descricao": "Quadro suprematista de Kazimir Malevich de 1915.",
+          "variantes": [
+            "Black Square"
+          ]
+        },
+        {
+          "id": "urubu_rei",
+          "nome": "Urubu-rei",
+          "descricao": "Grande urubu das Américas, de plumagem branca e preta e cabeça nua colorida.",
+          "variantes": [
+            "Sarcoramphus papa",
+            "King vulture"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Faisão-dourado",
+        "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+        "variantes": [
+          "Chrysolophus pictus",
+          "Golden pheasant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "rabanada",
+          "nome": "Rabanada",
+          "descricao": "Fatia de pão embebida em leite e ovos, frita e passada em açúcar e canela.",
+          "variantes": [
+            "Fatia dourada",
+            "Torrada francesa",
+            "French toast"
+          ]
+        },
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji"
+          ]
+        },
+        {
+          "id": "macaco_dourado_de_nariz_arrebitado",
+          "nome": "Macaco-dourado-de-nariz-arrebitado",
+          "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+          "variantes": [
+            "Macaco-dourado",
+            "Rhinopithecus roxellana",
+            "Golden snub-nosed monkey"
+          ]
+        },
+        {
+          "id": "arroz_dourado",
+          "nome": "Arroz dourado",
+          "descricao": "Variedade de arroz geneticamente modificada para produzir betacaroteno nos grãos.",
+          "variantes": [
+            "Golden rice"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Caburé",
+        "descricao": "Pequena coruja (Glaucidium brasilianum) amplamente distribuída nas Américas.",
+        "variantes": [
+          "Glaucidium brasilianum",
+          "Ferruginous pygmy owl",
+          "Caburé-ferrugem"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_caburai",
+          "nome": "Monte Caburaí",
+          "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil.",
+          "variantes": [
+            "Caburaí"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo"
+          ]
+        },
+        {
+          "id": "cabra",
+          "nome": "Cabra",
+          "descricao": "Cabra-doméstica, Capra hircus, mamífero criado para leite, carne e pele.",
+          "variantes": [
+            "Bode",
+            "Cabra-doméstica",
+            "Capra hircus"
+          ]
+        },
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        },
+        {
+          "id": "cacturne",
+          "nome": "Cacturne",
+          "descricao": "Pokémon dos tipos Planta e Sombrio, número 332 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Galinha-d'angola",
+        "descricao": "Ave galiforme pintalgada de branco (Numida meleagris), nativa da África e domesticada.",
+        "variantes": [
+          "Numida meleagris",
+          "Angola",
+          "Guiné",
+          "Helmeted guinea fowl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "galinha_d_angola",
+          "nome": "Galinha-d'angola",
+          "descricao": "Ave galiforme africana domesticada (Numida meleagris), de plumagem cinza pintalgada de branco.",
+          "variantes": [
+            "Numida meleagris",
+            "Angolinha",
+            "Guiné",
+            "Capote",
+            "Tô-fraco"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "la_angora",
+          "nome": "Lã angorá",
+          "descricao": "Fibra felpuda e macia tirada do pelo do coelho angorá",
+          "variantes": [
+            "Angorá",
+            "Angora wool"
+          ]
+        },
+        {
+          "id": "guinness",
+          "nome": "Guinness",
+          "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+          "variantes": [
+            "Guinness Stout"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tesourão",
+        "descricao": "Ave marinha de cauda bifurcada (Fregata magnificens), cujo macho infla uma bolsa vermelha.",
+        "variantes": [
+          "Fragata",
+          "Rabiforcado-magnífico",
+          "Fregata magnificens",
+          "Magnificent frigatebird"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agata",
+          "nome": "Ágata",
+          "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+          "variantes": [
+            "Agate"
+          ]
+        },
+        {
+          "id": "petra_al_khazneh",
+          "nome": "Petra (Al-Khazneh)",
+          "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+          "variantes": [
+            "Al-Khazneh",
+            "O Tesouro",
+            "Petra"
+          ]
+        },
+        {
+          "id": "besouro",
+          "nome": "Besouro",
+          "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+          "variantes": [
+            "Coleoptera",
+            "coleóptero",
+            "beetle",
+            "Coleópteros"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa"
+          ]
+        },
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lavadeira-mascarada",
+        "descricao": "Passarinho branco com máscara preta nos olhos (Fluvicola nengeta), comum perto da água.",
+        "variantes": [
+          "Fluvicola nengeta",
+          "Masked water tyrant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "tamareira_de_massada",
+          "nome": "Tamareira de Massada",
+          "descricao": "Tamareira-da-judeia germinada em 2005 a partir de uma semente antiga achada nas ruínas de Massada, em Israel",
+          "variantes": [
+            "Matusalém (tamareira)",
+            "Judean date palm"
+          ]
+        },
+        {
+          "id": "flavia_saraiva",
+          "nome": "Flávia Saraiva",
+          "descricao": "Ginasta artística brasileira, medalhista de bronze por equipes nas Olimpíadas de Paris 2024.",
+          "variantes": [
+            "Flávia Lopes Saraiva"
+          ]
+        },
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "masters_de_golfe",
+          "nome": "Masters de golfe",
+          "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+          "variantes": [
+            "The Masters",
+            "Masters Tournament",
+            "Masters de Augusta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ganso",
+        "descricao": "Ave doméstica branca de pescoço longo, do gênero Anser, criada por carne, ovos e penas.",
+        "variantes": [
+          "Ganso-doméstico",
+          "Anser anser domesticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "pardal",
+          "nome": "Pardal",
+          "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+          "variantes": [
+            "Pardal-comum",
+            "Passer domesticus"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "furao",
+          "nome": "Furão",
+          "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+          "variantes": [
+            "Mustela furo",
+            "Furão doméstico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Quetzal-resplandecente",
+        "descricao": "Ave tropical verde e vermelha de cauda longa (Pharomachrus mocinno) da América Central.",
+        "variantes": [
+          "Pharomachrus mocinno",
+          "Quetzal",
+          "Resplendent quetzal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quetzal_guatemalteco",
+          "nome": "Quetzal guatemalteco",
+          "descricao": "Moeda oficial da Guatemala.",
+          "variantes": [
+            "Quetzal"
+          ]
+        },
+        {
+          "id": "quetzalcoatl",
+          "nome": "Quetzalcóatl",
+          "descricao": "Divindade mesoamericana conhecida como serpente emplumada, cultuada por astecas e outros povos.",
+          "variantes": []
+        },
+        {
+          "id": "quentao",
+          "nome": "Quentão",
+          "descricao": "Bebida quente e alcoólica servida nas festas juninas brasileiras",
+          "variantes": []
+        },
+        {
+          "id": "ilha_de_paqueta",
+          "nome": "Ilha de Paquetá",
+          "descricao": "Ilha da baía de Guanabara, bairro da cidade do Rio de Janeiro, onde não circulam carros.",
+          "variantes": [
+            "Paquetá"
+          ]
+        },
+        {
+          "id": "quetzalcoatlus",
+          "nome": "Quetzalcoatlus",
+          "descricao": "Gênero de pterossauro gigante do fim do Cretáceo da América do Norte.",
+          "variantes": [
+            "Quetzalcoatlo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cacatua australiana não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pato-mandarim não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Anhuma (Anhima cornuta) é diferente do tachã (Chauna torquata)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "urubu_de_cabeca_preta",
+      "motivo": "Mesmo Coragyps atratus, mesmo nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Faisão-dourado não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Caburé (coruja) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "galinha_d_angola",
+      "motivo": "Mesma ave Numida meleagris."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tesourão (Fregata magnificens) não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lavadeira-mascarada não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ganso doméstico não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "A ave quetzal-resplandecente é diferente da moeda, da divindade e do pterossauro."
+    }
+  ]
+}

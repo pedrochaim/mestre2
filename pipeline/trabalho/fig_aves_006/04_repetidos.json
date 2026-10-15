@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ave é esta?",
+        "resposta": "Urubu-de-cabeça-preta"
+      },
+      "existentes": [
+        {
+          "id": "q02495",
+          "pergunta": "O urubu é o mascote de que clube de futebol carioca, cuja torcida adotou a ave no fim dos anos sessenta?",
+          "resposta": "Flamengo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que continente esta ave é nativa?",
+        "resposta": "África"
+      },
+      "existentes": [
+        {
+          "id": "q06523",
+          "pergunta": "No Brasil, a galinha-d'angola ganhou um apelido que imita seu canto e parece uma queixa de cansaço. Qual?",
+          "resposta": "Tô-fraco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a espécie da ave numa imagem é fato diferente do mascote do Flamengo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Continente de origem da ave é fato diferente do apelido popular no Brasil."
+    }
+  ]
+}

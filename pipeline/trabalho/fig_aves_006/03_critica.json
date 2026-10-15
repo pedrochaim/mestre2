@@ -1,0 +1,120 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vive em estado selvagem' é ambíguo (populações ferais fora da área nativa). Trocar por 'é nativa', apoiado nos trechos.",
+      "reescrita": {
+        "pergunta": "Em qual destes países esta ave é nativa?",
+        "resposta": "Austrália",
+        "distratores": [
+          "Brasil",
+          "Índia",
+          "África do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, distratores do mesmo tipo e críveis (pato-carolino é parente próximo), sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores são aves sul-americanas críveis, e a anhuma é a única com o chifre na testa.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, sem pista no enunciado; o nome da resposta consta nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam origem na China; distratores são países errados e plausíveis; precisa reconhecer o faisão.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Caburé' também é nome popular da coruja-buraqueira em algumas regiões, então esse distrator pode ser correto. Trocar por outro.",
+      "reescrita": {
+        "pergunta": "Que coruja pequena é esta?",
+        "resposta": "Caburé",
+        "distratores": [
+          "Corujinha-do-mato",
+          "Coruja-orelhuda",
+          "Coruja-suindara"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que é nativa da África; a figura é necessária para reconhecer a ave.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Bolsa vermelha inflada' é a característica famosa da fragata e entrega a resposta sem ver a figura.",
+      "reescrita": {
+        "pergunta": "Que ave marinha tropical é esta?",
+        "resposta": "Tesourão",
+        "distratores": [
+          "Albatroz",
+          "Atobá",
+          "Pelicano"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho da Wikipédia diz que a lavadeira-mascarada também é chamada viuvinha e noivinha, então esses distratores também estão corretos.",
+      "reescrita": {
+        "pergunta": "Que ave é esta?",
+        "resposta": "Lavadeira-mascarada",
+        "distratores": [
+          "Freirinha",
+          "Lavadeira-de-cara-branca",
+          "Maria-preta"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, sem vazamento; ganso doméstico confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado ('grandes animais de pasto') quase entrega a resposta sem a figura, e outras respostas (cavalos, búfalos, bois) são defensáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que é animal nacional da Guatemala; só se responde reconhecendo a ave.",
+      "reescrita": null
+    }
+  ]
+}
