@@ -1,0 +1,338 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Pela idade dos fósseis, qual destas espécies do gênero Homo é a mais antiga?",
+        "resposta": "Homo habilis"
+      },
+      "existentes": [
+        {
+          "id": "q07477",
+          "pergunta": "O Homo habilis, descrito em 1964, ganhou o nome de homem habilidoso porque seus fósseis foram achados junto a quê?",
+          "resposta": "Ferramentas de pedra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nos grupos de chimpanzés, quem domina são os machos. Já entre os bonobos, seus parentes próximos, quem costuma ter mais poder no grupo?",
+        "resposta": "As fêmeas"
+      },
+      "existentes": [
+        {
+          "id": "q02815",
+          "pergunta": "O bonobo divide com que outro primata o posto de parente vivo mais próximo do ser humano?",
+          "resposta": "Chimpanzé"
+        },
+        {
+          "id": "q07917",
+          "pergunta": "Primo próximo do chimpanzé, o bonobo vive na natureza em apenas um país africano, ao sul do grande rio que o separa dos chimpanzés. Qual país?",
+          "resposta": "República Democrática do Congo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Entre os grandes primatas vivos, qual tem o parentesco mais distante com o ser humano?",
+        "resposta": "Orangotango"
+      },
+      "existentes": [
+        {
+          "id": "q00281",
+          "pergunta": "Na língua malaia, o que significa o nome orangotango?",
+          "resposta": "Homem da floresta"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que parte do rosto, ausente nos Neandertais e em outros humanos extintos, é uma marca exclusiva do Homo sapiens?",
+        "resposta": "Queixo"
+      },
+      "existentes": [
+        {
+          "id": "q02819",
+          "pergunta": "Em 1758, que naturalista sueco, criador da classificação dos seres vivos, deu à nossa espécie o nome científico Homo sapiens?",
+          "resposta": "Carl Lineu"
+        },
+        {
+          "id": "q03826",
+          "pergunta": "Em latim, o que quer dizer Homo sapiens, o nome científico da nossa espécie?",
+          "resposta": "Homem sábio"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Além da origem humana, boa parte do livro A Descendência do Homem, de Darwin, é dedicada a que outro mecanismo da evolução?",
+        "resposta": "Seleção sexual"
+      },
+      "existentes": [
+        {
+          "id": "q02828",
+          "pergunta": "No livro A Descendência do Homem, de 1871, Darwin considerou provável que os primeiros ancestrais humanos tivessem vivido em que continente?",
+          "resposta": "África"
+        },
+        {
+          "id": "q07463",
+          "pergunta": "Quantos anos depois de A Origem das Espécies Darwin publicou A Descendência do Homem, livro em que trata diretamente da evolução humana?",
+          "resposta": "Doze anos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O Homem-Leão, estatueta de cerca de quarenta mil anos achada numa caverna da Alemanha, foi esculpido em quê?",
+        "resposta": "Marfim de mamute"
+      },
+      "existentes": [
+        {
+          "id": "q03120",
+          "pergunta": "A estatueta do Homem-Leão, achada numa caverna alemã, com corpo humano e cabeça de felino, foi esculpida em que material?",
+          "resposta": "Marfim de mamute"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que estrutura óssea no alto do crânio do Paranthropus boisei, também vista em gorilas machos, prendia seus enormes músculos de mastigação?",
+        "resposta": "Crista sagital"
+      },
+      "existentes": [
+        {
+          "id": "q02790",
+          "pergunta": "Por causa da mandíbula robusta e dos molares enormes, que apelido ganhou o fóssil de Paranthropus boisei achado na Tanzânia em 1959?",
+          "resposta": "Homem Quebra-Nozes"
+        },
+        {
+          "id": "q02791",
+          "pergunta": "Em 1959, na Garganta de Olduvai, que pesquisadora britânica encontrou o crânio de Paranthropus boisei apelidado de Zinj?",
+          "resposta": "Mary Leakey"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A Mulher de Mungo, sepultada na Austrália há cerca de quarenta mil anos, é um dos casos mais antigos conhecidos de que prática funerária?",
+        "resposta": "Cremação"
+      },
+      "existentes": [
+        {
+          "id": "q07453",
+          "pergunta": "Os esqueletos chamados Homem de Mungo e Mulher de Mungo, sepultados há cerca de quarenta mil anos à beira de um lago hoje seco, foram achados em que país?",
+          "resposta": "Austrália"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O pé de Ardi, hominídeo etíope de mais de quatro milhões de anos, tinha um traço que o pé humano perdeu. Qual?",
+        "resposta": "Dedão afastado, capaz de agarrar"
+      },
+      "existentes": [
+        {
+          "id": "q07460",
+          "pergunta": "Ardi, esqueleto de Ardipithecus ramidus achado na Etiópia, é bem mais antigo que Lucy. Ela viveu há cerca de quanto tempo?",
+          "resposta": "4,4 milhões de anos"
+        },
+        {
+          "id": "q07461",
+          "pergunta": "Na língua afar, falada na Etiópia, o que significa ardi, palavra que batiza o hominídeo Ardipithecus?",
+          "resposta": "Chão"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Os fósseis de Jebel Irhoud, de cerca de trezentos mil anos, têm o rosto parecido com o nosso. Mas que forma tinha a caixa craniana, diferente da nossa?",
+        "resposta": "Alongada"
+      },
+      "existentes": [
+        {
+          "id": "q02826",
+          "pergunta": "Os fósseis de Jebel Irhoud, que recuaram a origem do Homo sapiens para cerca de trezentos mil anos atrás, foram achados em que país?",
+          "resposta": "Marrocos"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Para escavar os fósseis de Homo naledi na África do Sul, a equipe recrutou cientistas bem magras e pequenas. Por quê?",
+        "resposta": "A passagem até os fósseis era estreitíssima"
+      },
+      "existentes": [
+        {
+          "id": "q02786",
+          "pergunta": "Na língua sesoto, o que significa naledi, palavra que batiza uma espécie humana descoberta em 2013 numa caverna sul-africana?",
+          "resposta": "Estrela"
+        },
+        {
+          "id": "q07462",
+          "pergunta": "Apesar do cérebro pequeno, parecido com o de hominídeos bem antigos, o Homo naledi viveu há quanto tempo, aproximadamente?",
+          "resposta": "300 mil anos"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Uma explicação para a baixa estatura do Homo floresiensis é um fenômeno comum em animais isolados por muito tempo em ilhas. Qual?",
+        "resposta": "Nanismo insular"
+      },
+      "existentes": [
+        {
+          "id": "q02784",
+          "pergunta": "Que apelido, tirado das histórias de Tolkien, ganhou a espécie humana extinta descoberta em 2003 na ilha indonésia de Flores?",
+          "resposta": "Hobbit"
+        },
+        {
+          "id": "q02785",
+          "pergunta": "O Homo floresiensis, espécie humana extinta achada numa ilha da Indonésia, media aproximadamente quanto de altura?",
+          "resposta": "Cerca de um metro"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que filme de 1960, estrelado por Spencer Tracy, levou ao cinema uma versão do Julgamento do Macaco, de 1925?",
+        "resposta": "O Vento Será Tua Herança"
+      },
+      "existentes": [
+        {
+          "id": "q02793",
+          "pergunta": "Em 1925, no Tennessee, o professor John Scopes foi processado por ensinar evolução numa escola. Que apelido ganhou esse julgamento?",
+          "resposta": "Julgamento do Macaco"
+        },
+        {
+          "id": "q03861",
+          "pergunta": "Em 1925, um professor foi julgado por ensinar evolução, no famoso Julgamento do Macaco. Em que estado americano isso aconteceu?",
+          "resposta": "Tennessee"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O apelido Mrs. Ples vem de Plesianthropus, primeiro nome científico dado a esse crânio sul-africano. O que significa esse nome de origem grega?",
+        "resposta": "Quase homem"
+      },
+      "existentes": [
+        {
+          "id": "q07472",
+          "pergunta": "Em 1947, em Sterkfontein, na África do Sul, o crânio apelidado de Mrs. Ples foi achado por John Robinson e por qual paleontólogo?",
+          "resposta": "Robert Broom"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Que arqueóloga brasileira, defensora de uma chegada muito antiga dos humanos às Américas, liderou por décadas as pesquisas na Serra da Capivara, no Piauí?",
+        "resposta": "Niède Guidon"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        },
+        {
+          "id": "q03083",
+          "pergunta": "Que arqueóloga brasileira liderou as pesquisas e a luta pela criação do Parque Nacional da Serra da Capivara?",
+          "resposta": "Niède Guidon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente: espécie mais antiga vs origem do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Poder das fêmeas é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Parentesco distante vs significado do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Queixo é outro fato."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Seleção sexual é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q03120",
+      "motivo": "Mesmo material da estatueta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Crista sagital é outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Prática funerária vs país."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Traço do pé é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Forma do crânio vs país."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Motivo do recrutamento é outro fato."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Explicação da estatura é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Filme é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs descobridor."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q03083",
+      "motivo": "Mesma arqueóloga e mesma resposta."
+    }
+  ]
+}
