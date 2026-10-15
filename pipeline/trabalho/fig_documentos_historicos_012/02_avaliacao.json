@@ -1,0 +1,191 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O texto 'Arbeit macht frei' está legível na imagem e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Trabuco de contrapeso em foto nítida, reconhecível pela forma.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que máquina de cerco medieval é esta?",
+      "resposta": "Trabuco",
+      "distratores": [
+        "Balista",
+        "Aríete",
+        "Torre de cerco"
+      ],
+      "ancora": {
+        "nome": "Trabuco",
+        "descricao": "Máquina de cerco medieval que arremessa projéteis com um braço articulado e contrapeso.",
+        "variantes": [
+          "Trebuchet",
+          "Trabuquete"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mapa cheio de legendas e textos; imagem poluída e difícil de ler no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois Stahlhelm (um da Segunda Guerra e um da Primeira), mesmo assunto, sem texto.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano o exército alemão começou a substituir o antigo capacete de couro por este tipo de capacete de aço?",
+      "resposta": "1916",
+      "distratores": [
+        "1914",
+        "1915",
+        "1918"
+      ],
+      "ancora": {
+        "nome": "Stahlhelm",
+        "descricao": "Capacete de aço alemão adotado a partir da Primeira Guerra Mundial.",
+        "variantes": [
+          "Capacete de aço alemão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fotografia icônica e amplamente reconhecida, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fotógrafa americana tirou esta famosa foto, em 1936?",
+      "resposta": "Dorothea Lange",
+      "ancora": {
+        "nome": "Mãe Migrante",
+        "descricao": "Fotografia de 1936 de Dorothea Lange mostrando uma mãe com filhos, símbolo da Grande Depressão nos EUA.",
+        "variantes": [
+          "Migrant Mother"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto legível com nome de Einstein, Roosevelt e data entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Armadura completa de placas, nítida e sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de armadura é esta?",
+      "resposta": "Armadura de placas",
+      "distratores": [
+        "Cota de malha",
+        "Brigandina",
+        "Armadura lamelar"
+      ],
+      "ancora": {
+        "nome": "Armadura de placas",
+        "descricao": "Armadura de corpo inteiro feita de placas de aço articuladas, típica do fim da Idade Média e do Renascimento.",
+        "variantes": [
+          "Armadura completa",
+          "Plate armour"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Great helm nítido, forma característica, sem texto.",
+      "destino": 3,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que século surgiu este tipo de elmo de cavaleiro, no contexto das Cruzadas?",
+      "resposta": "Século doze",
+      "distratores": [
+        "Século dez",
+        "Século quatorze",
+        "Século dezesseis"
+      ],
+      "ancora": {
+        "nome": "Elmo de cavaleiro (great helm)",
+        "descricao": "Elmo cilíndrico fechado usado por cavaleiros europeus entre os séculos doze e quatorze.",
+        "variantes": [
+          "Great helm",
+          "Heaume",
+          "Elmo de pote"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mapa com caracteres e legendas; não reconhecível pela imagem para o público geral."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto famosa dos três líderes aliados, figuras públicas, sem texto.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano se reuniram, na Crimeia, os três líderes aliados desta foto?",
+      "resposta": "1945",
+      "distratores": [
+        "1943",
+        "1944",
+        "1946"
+      ],
+      "ancora": {
+        "nome": "Conferência de Ialta",
+        "descricao": "Reunião de Roosevelt, Churchill e Stalin em fevereiro de 1945, na Crimeia, para planejar a Europa do pós-guerra.",
+        "variantes": [
+          "Conferência de Yalta",
+          "Yalta Conference"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pergaminho fragmentado, sem forma reconhecível para o público; resposta não identificável pela imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bicorne nítido, sem texto.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década este chapéu militar foi amplamente adotado pelos exércitos europeus?",
+      "resposta": "Década de 1790",
+      "distratores": [
+        "Década de 1750",
+        "Década de 1820",
+        "Década de 1850"
+      ],
+      "ancora": {
+        "nome": "Chapéu bicorne",
+        "descricao": "Chapéu de duas pontas usado por militares europeus, famoso nas Guerras Napoleônicas.",
+        "variantes": [
+          "Bicorne",
+          "Bicórnio"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Monumento claro, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurado este monumento, em São Paulo?",
+      "resposta": "1922",
+      "distratores": [
+        "1908",
+        "1889",
+        "1932"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Monumento à Independência do Brasil",
+        "descricao": "Conjunto escultórico em granito e bronze no Parque da Independência, em São Paulo, também chamado Altar da Pátria.",
+        "variantes": [
+          "Monumento do Ipiranga",
+          "Altar da Pátria"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome 'Theatro da Paz' está escrito no frontão e é legível, entregando a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada gótico-manuelina inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mosteiro português é este?",
+      "resposta": "Mosteiro da Batalha",
+      "distratores": [
+        "Mosteiro dos Jerónimos",
+        "Mosteiro de Alcobaça",
+        "Convento de Cristo"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Mosteiro da Batalha",
+        "descricao": "Mosteiro dominicano gótico em Batalha, Portugal, erguido em memória da batalha de Aljubarrota.",
+        "variantes": [
+          "Mosteiro de Santa Maria da Vitória",
+          "Batalha Monastery"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Muros de pedra genéricos, sem elemento que permita reconhecer Troia; resposta não única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aqueduto inconfundível; a placa 'Cándido' é pequena e não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade da Espanha fica este aqueduto romano?",
+      "resposta": "Segóvia",
+      "distratores": [
+        "Toledo",
+        "Ávila",
+        "Salamanca"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Aqueduto de Segóvia",
+        "descricao": "Aqueduto romano de arcos de granito, do século primeiro, na cidade espanhola de Segóvia.",
+        "variantes": [
+          "Acueducto de Segovia",
+          "Aqueduct of Segovia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Anfiteatro romano reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este anfiteatro romano?",
+      "resposta": "Tunísia",
+      "distratores": [
+        "Argélia",
+        "Líbia",
+        "Egito"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Anfiteatro de El Djem",
+        "descricao": "Anfiteatro romano oval na cidade de El Djem, antiga Thysdrus, na Tunísia.",
+        "variantes": [
+          "Anfiteatro de El Jem",
+          "Amphitheatre of El Jem",
+          "Thysdrus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Torres gêmeas góticas inconfundíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que catedral gótica é esta?",
+      "resposta": "Catedral de Colônia",
+      "distratores": [],
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Colônia",
+        "descricao": "Catedral católica gótica de torres gêmeas em Colônia, na Alemanha.",
+        "variantes": [
+          "Kölner Dom",
+          "Cologne Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fachada com torres assimétricas, reconhecível; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que catedral francesa é esta?",
+      "resposta": "Catedral de Chartres",
+      "distratores": [
+        "Notre-Dame de Paris",
+        "Catedral de Reims",
+        "Catedral de Amiens"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Chartres",
+        "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, construída sobretudo entre 1194 e 1220.",
+        "variantes": [
+          "Catedral de Notre-Dame de Chartres",
+          "Chartres Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Castelo cruzado reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ordem de cavaleiros ocupou este castelo medieval até 1271?",
+      "resposta": "Hospitalários",
+      "distratores": [
+        "Templários",
+        "Cavaleiros Teutônicos",
+        "Ordem de Avis"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Krak des Chevaliers",
+        "descricao": "Castelo cruzado medieval na Síria, ocupado pelos Cavaleiros Hospitalários.",
+        "variantes": [
+          "Crac dos Cavaleiros",
+          "Fortaleza dos Cavaleiros",
+          "Qalʿat al-Ḥiṣn"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Estátua monumental reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta enorme estátua de bronze de Buda?",
+      "resposta": "Japão",
+      "distratores": [
+        "China",
+        "Coreia do Sul",
+        "Tailândia"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Grande Buda de Kamakura",
+        "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+        "variantes": [
+          "Kamakura Daibutsu",
+          "Daibutsu de Kamakura",
+          "Kōtoku-in"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada barroca/rococó clara, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem projetou esta igreja mineira do século dezoito?",
+      "resposta": "Aleijadinho (Antônio Francisco Lisboa)",
+      "distratores": [],
+      "destino": 8,
+      "ancora": {
+        "nome": "Igreja de São Francisco de Assis de Ouro Preto",
+        "descricao": "Igreja rococó em Ouro Preto, Minas Gerais, projetada por Aleijadinho e iniciada em 1766.",
+        "variantes": [
+          "Igreja de São Francisco de Assis (Ouro Preto)",
+          "Church of Saint Francis of Assisi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Torre manuelina inconfundível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou esta torre manuelina?",
+      "resposta": "Francisco de Arruda",
+      "distratores": [
+        "Diogo de Boitaca",
+        "Diogo de Arruda",
+        "João de Castilho"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Torre de Belém",
+        "descricao": "Fortificação manuelina do século dezesseis na margem do Tejo, em Lisboa.",
+        "variantes": [
+          "Torre de São Vicente",
+          "Belém Tower"
+        ]
+      }
+    }
+  ]
+}

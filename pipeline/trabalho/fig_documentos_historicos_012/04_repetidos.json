@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década este chapéu militar foi amplamente adotado pelos exércitos europeus?",
+        "resposta": "Década de 1790"
+      },
+      "existentes": [
+        {
+          "id": "q04101",
+          "pergunta": "Que chapéu de feltro, com a aba levantada na frente e atrás, virou marca registrada de Napoleão Bonaparte?",
+          "resposta": "Bicorne"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o nome do chapéu (bicorne); a nova pergunta a década de adoção pelos exércitos europeus, fato diferente."
+    }
+  ]
+}

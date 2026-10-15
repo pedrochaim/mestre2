@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; trabuco confirmado como máquina de cerco medieval; distratores do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "pt.wikipedia: substituição do pickelhaube pelo stahlhelm iniciada em 1916; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foto de 1936 por Dorothea Lange confirmada; a pergunta aponta para a figura sem nomeá-la.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armadura de placas confirmada; distratores são outros tipos de armadura, claramente distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Great helm surgiu no final do século doze no contexto das Cruzadas, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ano 1945 correto, mas 'na Crimeia' entrega a conferência sem olhar a figura (teste da imagem coberta). Remover a pista de lugar.",
+      "reescrita": {
+        "pergunta": "Em que ano se reuniram os três líderes aliados desta foto, para planejar a Europa do pós-guerra?",
+        "resposta": "1945",
+        "distratores": [
+          "1943",
+          "1944",
+          "1946"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bicorne amplamente adotado por militares europeus na década de 1790, conforme os trechos; distratores críveis.",
+      "reescrita": null
+    }
+  ]
+}
