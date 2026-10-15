@@ -7857,7 +7857,8 @@
       "en": 12923
     },
     "variantes": [
-      "Autodromo Nazionale Monza"
+      "Autodromo Nazionale Monza",
+      "Monza Circuit"
     ]
   },
   {
@@ -24494,7 +24495,8 @@
     "descricao": "Autódromo Enzo e Dino Ferrari, em Ímola, na Itália, onde Ayrton Senna morreu em 1994.",
     "variantes": [
       "Autodromo Enzo e Dino Ferrari",
-      "Imola Circuit"
+      "Imola Circuit",
+      "Autodromo Internazionale Enzo e Dino Ferrari"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Imola_Circuit"
@@ -148971,6 +148973,313 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Resplendent_quetzal",
       "https://pt.wikipedia.org/wiki/Quetzal-resplandecente"
+    ]
+  },
+  {
+    "id": "circuito_de_pescara",
+    "nome": "Circuito de Pescara",
+    "descricao": "Circuito de estradas públicas em Pescara, na Itália, que recebeu o Grande Prêmio de Pescara de Fórmula 1 em 1957.",
+    "variantes": [
+      "Pescara Circuit",
+      "Circuito di Pescara"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pescara_Circuit"
+    ]
+  },
+  {
+    "id": "autodromo_hermanos_rodriguez",
+    "nome": "Autódromo Hermanos Rodríguez",
+    "descricao": "Autódromo da Cidade do México, sede do Grande Prêmio do México de Fórmula 1, a mais de dois mil metros de altitude.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez"
+    ]
+  },
+  {
+    "id": "scuderia_ferrari",
+    "nome": "Scuderia Ferrari",
+    "descricao": "Equipe de corrida da Ferrari, fundada por Enzo Ferrari em 1929 e presente na Fórmula 1 desde 1950.",
+    "variantes": [
+      "Ferrari (equipe de Fórmula 1)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scuderia_Ferrari"
+    ]
+  },
+  {
+    "id": "ingo_hoffmann",
+    "nome": "Ingo Hoffmann",
+    "descricao": "Piloto brasileiro que correu na Fórmula 1 pela Copersucar e foi o maior campeão da Stock Car brasileira.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ingo_Hoffmann"
+    ]
+  },
+  {
+    "id": "grande_premio_de_monaco",
+    "nome": "Grande Prêmio de Mônaco",
+    "descricao": "Corrida de automóveis disputada desde 1929 nas ruas de Monte Carlo, uma das mais tradicionais da Fórmula 1.",
+    "variantes": [
+      "GP de Mônaco",
+      "Monaco Grand Prix"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Monaco_Grand_Prix"
+    ]
+  },
+  {
+    "id": "drs",
+    "nome": "DRS",
+    "descricao": "Sistema de redução de arrasto usado na Fórmula 1 entre 2011 e 2025, que abria uma aba da asa traseira para facilitar ultrapassagens.",
+    "variantes": [
+      "Drag Reduction System",
+      "Sistema de redução de arrasto",
+      "Asa móvel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drag_reduction_system"
+    ]
+  },
+  {
+    "id": "capacete_de_ayrton_senna",
+    "nome": "Capacete de Ayrton Senna",
+    "descricao": "Capacete amarelo com faixas verde e azul usado por Ayrton Senna ao longo da carreira, desenhado por Sid Mosca.",
+    "variantes": [
+      "Capacete do Senna"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ]
+  },
+  {
+    "id": "campeonato_mundial_de_rali",
+    "nome": "Campeonato Mundial de Rali",
+    "descricao": "Campeonato mundial de rali organizado pela FIA desde 1973, disputado em estradas fechadas de terra, asfalto e neve.",
+    "variantes": [
+      "WRC",
+      "World Rally Championship",
+      "Mundial de Rali"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/World_Rally_Championship"
+    ]
+  },
+  {
+    "id": "circuito_de_la_sarthe",
+    "nome": "Circuito de la Sarthe",
+    "descricao": "Circuito de Le Mans, na França, que mistura estradas públicas e trechos permanentes e recebe as 24 Horas de Le Mans.",
+    "variantes": [
+      "Circuit de la Sarthe",
+      "Circuito de Le Mans"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Circuit_de_la_Sarthe"
+    ]
+  },
+  {
+    "id": "trofeu_borg_warner",
+    "nome": "Troféu Borg-Warner",
+    "descricao": "Troféu de prata entregue ao vencedor das 500 Milhas de Indianápolis, com o rosto de cada campeão esculpido em relevo.",
+    "variantes": [
+      "Borg-Warner Trophy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Borg-Warner_Trophy"
+    ]
+  },
+  {
+    "id": "ford_vs_ferrari",
+    "nome": "Ford vs Ferrari",
+    "descricao": "Filme americano de 2019, dirigido por James Mangold, sobre a equipe da Ford que enfrentou a Ferrari nas 24 Horas de Le Mans de 1966.",
+    "variantes": [
+      "Ford v Ferrari",
+      "Le Mans '66"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ford_v_Ferrari"
+    ]
+  },
+  {
+    "id": "bandeira_preta",
+    "nome": "Bandeira preta",
+    "descricao": "Bandeira de sinalização do automobilismo mostrada a um piloto que foi desclassificado e deve deixar a pista.",
+    "variantes": [
+      "Black flag"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Racing_flags"
+    ]
+  },
+  {
+    "id": "grande_premio_de_singapura",
+    "nome": "Grande Prêmio de Singapura",
+    "descricao": "Corrida de Fórmula 1 disputada desde 2008 no circuito de rua de Marina Bay, em Singapura.",
+    "variantes": [
+      "GP de Singapura",
+      "Singapore Grand Prix"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Singapore_Grand_Prix"
+    ]
+  },
+  {
+    "id": "lotus_72",
+    "nome": "Lotus 72",
+    "descricao": "Carro de Fórmula 1 da Lotus, usado de 1970 a 1975, com o qual Emerson Fittipaldi foi campeão mundial em 1972.",
+    "variantes": [
+      "Lotus 72D"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lotus_72"
+    ]
+  },
+  {
+    "id": "pneu_slick",
+    "nome": "Pneu slick",
+    "descricao": "Pneu de competição sem sulcos na banda de rodagem, usado em pista seca para aumentar a aderência.",
+    "variantes": [
+      "Slick",
+      "Racing slick"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Racing_slick"
+    ]
+  },
+  {
+    "id": "brabham_bt52",
+    "nome": "Brabham BT52",
+    "descricao": "Carro de Fórmula 1 da Brabham, com motor BMW, com o qual Nelson Piquet foi campeão mundial em 1983.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brabham_BT52"
+    ]
+  },
+  {
+    "id": "cosworth",
+    "nome": "Cosworth",
+    "descricao": "Fabricante inglesa de motores de competição, fundada em 1958, criadora do motor DFV.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cosworth"
+    ]
+  },
+  {
+    "id": "mercedes_w11",
+    "nome": "Mercedes W11",
+    "descricao": "Carro de Fórmula 1 da Mercedes na temporada de 2020, pintado de preto, com o qual Lewis Hamilton foi campeão.",
+    "variantes": [
+      "Mercedes-AMG F1 W11 EQ Performance"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mercedes-AMG_F1_W11_EQ_Performance"
+    ]
+  },
+  {
+    "id": "pietro_fittipaldi",
+    "nome": "Pietro Fittipaldi",
+    "descricao": "Piloto brasileiro, neto de Emerson Fittipaldi, que correu duas provas de Fórmula 1 pela Haas em 2020.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pietro_Fittipaldi"
+    ]
+  },
+  {
+    "id": "grande_premio_do_japao_de_1989",
+    "nome": "Grande Prêmio do Japão de 1989",
+    "descricao": "Corrida de Fórmula 1 em Suzuka em que Ayrton Senna e Alain Prost bateram, decidindo o título de 1989 a favor de Prost.",
+    "variantes": [
+      "GP do Japão de 1989",
+      "1989 Japanese Grand Prix"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/1989_Japanese_Grand_Prix"
+    ]
+  },
+  {
+    "id": "honda_na_formula_1",
+    "nome": "Honda na Fórmula 1",
+    "descricao": "Participação da montadora japonesa Honda na Fórmula 1 como equipe e fornecedora de motores, desde 1964.",
+    "variantes": [
+      "Honda in Formula One",
+      "Honda Racing F1"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Honda_in_Formula_One"
+    ]
+  },
+  {
+    "id": "jacques_villeneuve",
+    "nome": "Jacques Villeneuve",
+    "descricao": "Piloto canadense, filho de Gilles Villeneuve, campeão mundial de Fórmula 1 em 1997 pela Williams.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jacques_Villeneuve"
+    ]
+  },
+  {
+    "id": "bruno_senna",
+    "nome": "Bruno Senna",
+    "descricao": "Piloto brasileiro, sobrinho de Ayrton Senna, que correu na Fórmula 1 entre 2010 e 2012.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bruno_Senna"
+    ]
+  },
+  {
+    "id": "stirling_moss",
+    "nome": "Stirling Moss",
+    "descricao": "Piloto inglês dos anos cinquenta e sessenta, considerado um dos maiores da história mesmo sem ter sido campeão mundial de Fórmula 1.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stirling_Moss"
+    ]
+  },
+  {
+    "id": "grande_premio_do_brasil_de_2008",
+    "nome": "Grande Prêmio do Brasil de 2008",
+    "descricao": "Última corrida da temporada de 2008 da Fórmula 1, em Interlagos, vencida por Felipe Massa, em que Lewis Hamilton garantiu o título.",
+    "variantes": [
+      "GP do Brasil de 2008",
+      "2008 Brazilian Grand Prix"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/2008_Brazilian_Grand_Prix"
+    ]
+  },
+  {
+    "id": "mille_miglia",
+    "nome": "Mille Miglia",
+    "descricao": "Corrida italiana de longa distância em estradas abertas, disputada de 1927 a 1957, depois revivida como prova de carros clássicos.",
+    "variantes": [
+      "Mil Milhas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mille_Miglia"
+    ]
+  },
+  {
+    "id": "jim_clark",
+    "nome": "Jim Clark",
+    "descricao": "Piloto escocês da Lotus, bicampeão mundial de Fórmula 1 em 1963 e 1965, morto num acidente em 1968.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jim_Clark"
+    ]
+  },
+  {
+    "id": "williams",
+    "nome": "Williams",
+    "descricao": "Equipe britânica de Fórmula 1 fundada em 1977, pela qual Nelson Piquet foi campeão em 1987 e Nigel Mansell em 1992.",
+    "variantes": [
+      "Williams Racing",
+      "Williams Grand Prix Engineering"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Williams_Racing"
+    ]
+  },
+  {
+    "id": "cosworth_dfv",
+    "nome": "Cosworth DFV",
+    "descricao": "Motor V8 de Fórmula 1 da Cosworth, que estreou em 1967 na Lotus e dominou a categoria até o começo dos anos oitenta.",
+    "variantes": [
+      "Ford Cosworth DFV",
+      "DFV"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cosworth_DFV"
     ]
   }
 ]

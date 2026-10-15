@@ -1,0 +1,354 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Dos quatro grandes rivais da Fórmula 1 nos anos oitenta, qual conquistou mais títulos mundiais?",
+        "resposta": "Alain Prost"
+      },
+      "existentes": [
+        {
+          "id": "q02573",
+          "pergunta": "Que ex-piloto francês de Fórmula 1 é este?",
+          "resposta": "Alain Prost"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Pelo estilo calculista, de quem poupava o carro e pensava a corrida inteira, que apelido ganhou o francês Alain Prost?",
+        "resposta": "O Professor"
+      },
+      "existentes": [
+        {
+          "id": "q02573",
+          "pergunta": "Que ex-piloto francês de Fórmula 1 é este?",
+          "resposta": "Alain Prost"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual destes pilotos conquistou um título mundial de Fórmula 1 com a idade mais avançada?",
+        "resposta": "Juan Manuel Fangio"
+      },
+      "existentes": [
+        {
+          "id": "q01575",
+          "pergunta": "Em 1958, o que impediu Juan Manuel Fangio de disputar o Grande Prêmio de Cuba, em Havana?",
+          "resposta": "Foi sequestrado por rebeldes cubanos"
+        },
+        {
+          "id": "q06180",
+          "pergunta": "Nos anos cinquenta, o argentino Juan Manuel Fangio conquistou seus cinco títulos mundiais de Fórmula 1 defendendo quantas equipes diferentes?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destes brasileiros venceu mais vezes as 500 Milhas de Indianápolis?",
+        "resposta": "Hélio Castroneves"
+      },
+      "existentes": [
+        {
+          "id": "q01571",
+          "pergunta": "Por escalar o alambrado para comemorar suas vitórias, o brasileiro Hélio Castroneves ganhou qual apelido nos Estados Unidos?",
+          "resposta": "Homem-Aranha"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No traçado usado pela Fórmula 1, qual destes circuitos tem a volta mais curta?",
+        "resposta": "Mônaco"
+      },
+      "existentes": [
+        {
+          "id": "q00550",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Mônaco"
+        },
+        {
+          "id": "q06178",
+          "pergunta": "A primeira curva do circuito de rua de Mônaco tem o nome de uma pequena capela vizinha. A capela é dedicada a quem?",
+          "resposta": "Santa Devota, padroeira de Mônaco"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "De que metal é feito o halo, o arco que protege a cabeça dos pilotos de Fórmula 1?",
+        "resposta": "Titânio"
+      },
+      "existentes": [
+        {
+          "id": "q06160",
+          "pergunta": "Em que ano a Fórmula 1 tornou obrigatório o halo, o arco de titânio que protege a cabeça do piloto?",
+          "resposta": "2018"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 2009, a estreante Brawn GP foi campeã mundial com Jenson Button. Que brasileiro era o outro piloto da equipe?",
+        "resposta": "Rubens Barrichello"
+      },
+      "existentes": [
+        {
+          "id": "q01588",
+          "pergunta": "A Brawn GP foi campeã em 2009 com Jenson Button. No ano seguinte, foi comprada e passou a correr com o nome de qual montadora?",
+          "resposta": "Mercedes"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Além de carros e motos, que veículos pesados também têm uma categoria própria no Rali Dakar?",
+        "resposta": "Caminhões"
+      },
+      "existentes": [
+        {
+          "id": "q01596",
+          "pergunta": "O Rali Dakar tem esse nome porque, nas primeiras edições, terminava na capital de qual país africano?",
+          "resposta": "Senegal"
+        },
+        {
+          "id": "q06184",
+          "pergunta": "A edição de 2008 do Rali Dakar foi cancelada na véspera da largada, e a prova acabou mudando de continente. Qual foi o motivo do cancelamento?",
+          "resposta": "Ameaças terroristas na Mauritânia"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1950, a Alfa Romeo dominou o primeiro Mundial com o trio apelidado de três efes: Farina, Fagioli e qual piloto argentino?",
+        "resposta": "Juan Manuel Fangio"
+      },
+      "existentes": [
+        {
+          "id": "q06168",
+          "pergunta": "Em 1950, pilotando uma Alfa Romeo, qual italiano se tornou o primeiro campeão mundial de Fórmula 1?",
+          "resposta": "Giuseppe Farina"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Diferente de um carro de corrida, o kart não tem qual sistema, deixando o próprio chassi absorver as irregularidades da pista?",
+        "resposta": "Suspensão"
+      },
+      "existentes": [
+        {
+          "id": "q06164",
+          "pergunta": "O kart nasceu na Califórnia, quando um construtor de carros de corrida montou o primeiro com tubos e um motor pequeno. Em que década?",
+          "resposta": "Anos cinquenta"
+        },
+        {
+          "id": "q06927",
+          "pergunta": "Que tipo de veículo de corrida estes pilotos conduzem?",
+          "resposta": "Kart"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Nas corridas da NASCAR em pistas ovais, os carros fazem todas as curvas para qual lado?",
+        "resposta": "Para a esquerda"
+      },
+      "existentes": [
+        {
+          "id": "q01582",
+          "pergunta": "As corridas de stock car que deram origem à NASCAR nasceram de motoristas que, na época da Lei Seca americana, faziam qual atividade ilegal?",
+          "resposta": "Contrabando de bebida alcoólica"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A antiga curva Parabólica, a última do circuito de Monza, foi rebatizada em 2021 em homenagem a qual piloto italiano?",
+        "resposta": "Michele Alboreto"
+      },
+      "existentes": [
+        {
+          "id": "q00551",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Monza"
+        },
+        {
+          "id": "q06159",
+          "pergunta": "O Autódromo de Monza, perto de Milão, chamado de Templo da Velocidade, foi inaugurado em que década?",
+          "resposta": "Anos vinte (1922)"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Pela garra ao volante, os torcedores italianos da Ferrari deram a Nigel Mansell qual apelido?",
+        "resposta": "Il Leone (O Leão)"
+      },
+      "existentes": [
+        {
+          "id": "q06190",
+          "pergunta": "Além de terem sido campeões mundiais de Fórmula 1, que outro título Emerson Fittipaldi e Nigel Mansell têm em comum?",
+          "resposta": "Campeões da Fórmula Indy"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O autódromo de Ímola homenageia Enzo Ferrari e também o filho dele, morto aos vinte e quatro anos. Como esse filho era chamado?",
+        "resposta": "Dino"
+      },
+      "existentes": [
+        {
+          "id": "q01602",
+          "pergunta": "Em que curva do autódromo de Ímola Ayrton Senna sofreu o acidente fatal de 1994?",
+          "resposta": "Tamburello"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Segundo a lenda, em 1934 a Mercedes raspou a tinta branca do seu carro, deixando o alumínio à mostra. Por quê?",
+        "resposta": "Para respeitar o peso máximo"
+      },
+      "existentes": [
+        {
+          "id": "q06174",
+          "pergunta": "Nos anos trinta, os carros de corrida alemães da Mercedes e da Auto Union dominaram os Grandes Prêmios. Que apelido, em português, eles ganharam?",
+          "resposta": "Flechas de Prata"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O que o antigo autódromo de Jacarepaguá, no Rio, e o circuito de Montreal, no Canadá, têm em comum no nome oficial?",
+        "resposta": "Homenageiam pilotos do próprio país"
+      },
+      "existentes": [
+        {
+          "id": "q01579",
+          "pergunta": "O autódromo de Jacarepaguá, no Rio, onde a Fórmula 1 correu nos anos oitenta, foi demolido para dar lugar a quê?",
+          "resposta": "Parque Olímpico da Rio 2016"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Tradicionalmente, quantos carros largam nas 500 Milhas de Indianápolis, alinhados em filas de três?",
+        "resposta": "Trinta e três"
+      },
+      "existentes": [
+        {
+          "id": "q01606",
+          "pergunta": "Entre estas corridas famosas, qual foi disputada pela primeira vez há mais tempo?",
+          "resposta": "500 Milhas de Indianápolis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente (mais títulos entre rivais), não identificação do piloto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Apelido é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Idade de título é fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Vitórias em Indianápolis vs apelido."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Volta mais curta é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Metal do halo vs ano da obrigatoriedade; embora a existente cite titânio, a resposta não sai da pergunta existente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Companheiro de equipe vs comprador."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Categorias do Dakar é outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Fangio no trio vs primeiro campeão Farina."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Suspensão do kart é outro fato."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Direção das curvas vs origem."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Rebatismo da curva é outro fato."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Apelido de Mansell é outro fato."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Filho de Enzo vs acidente de Senna."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Lenda da tinta vs apelido Flechas de Prata."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Nome oficial em comum vs destino da demolição."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Número de carros vs corrida mais antiga."
+    }
+  ]
+}
