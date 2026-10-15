@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Por qual filme de Hector Babenco esta atriz brasileira foi premiada internacionalmente?",
+        "resposta": "Pixote"
+      },
+      "existentes": [
+        {
+          "id": "q02777",
+          "pergunta": "Quem é esta atriz brasileira?",
+          "resposta": "Marília Pêra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual era o apelido carinhoso deste compositor e diplomata brasileiro?",
+        "resposta": "Poetinha"
+      },
+      "existentes": [
+        {
+          "id": "q01189",
+          "pergunta": "Longe da música, que carreira Vinicius de Moraes seguiu, a mesma do escritor Guimarães Rosa?",
+          "resposta": "Diplomata"
+        },
+        {
+          "id": "q05409",
+          "pergunta": "O poeta e diplomata Vinicius de Moraes foi aposentado à força do Itamaraty por qual ato da ditadura militar?",
+          "resposta": "O AI-5"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o filme premiado, não a identidade da atriz; fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O apelido 'Poetinha' é um fato diferente da carreira de diplomata ou da aposentadoria forçada."
+    }
+  ]
+}

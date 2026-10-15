@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este tenor italiano venceu a seção de novos talentos de que festival de música em 1994?",
+      "resposta": "Festival de Sanremo",
+      "destino": 4,
+      "ancora": {
+        "nome": "Andrea Bocelli",
+        "descricao": "Tenor italiano de ópera e música pop, famoso desde 1994.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato legível; texto parcial ao fundo não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que conceito, criado por esta escritora brasileira, nomeia a sua literatura?",
+      "resposta": "Escrevivência",
+      "destino": 0,
+      "ancora": {
+        "nome": "Conceição Evaristo",
+        "descricao": "Escritora brasileira afro-brasileira, criadora do conceito de escrevivência.",
+        "variantes": [
+          "Maria da Conceição Evaristo de Brito"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto antiga de corpo inteiro, rosto pequeno; a poeta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro, figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta autora britânica escreveu qual série de livros de fantasia?",
+      "resposta": "Harry Potter",
+      "destino": 1,
+      "ancora": {
+        "nome": "J. K. Rowling",
+        "descricao": "Autora britânica da série Harry Potter.",
+        "variantes": [
+          "Joanne Rowling",
+          "Robert Galbraith"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato a óleo de Rothwell, claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Com que poeta romântico se casou esta escritora inglesa?",
+      "resposta": "Percy Bysshe Shelley",
+      "destino": 1,
+      "ancora": {
+        "nome": "Mary Shelley",
+        "descricao": "Escritora inglesa, autora de Frankenstein.",
+        "variantes": [
+          "Mary Wollstonecraft Shelley",
+          "Mary Godwin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a ópera mais famosa deste compositor francês?",
+      "resposta": "Carmen",
+      "destino": 2,
+      "ancora": {
+        "nome": "Georges Bizet",
+        "descricao": "Compositor francês romântico, autor da ópera Carmen.",
+        "variantes": [
+          "Alexandre César Léopold Bizet"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; o texto ao fundo é de uma escola de samba, não do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta atriz brasileira é reconhecida pelo Guinness por qual feito?",
+      "resposta": "Carreira de atriz mais longa",
+      "destino": 4,
+      "ancora": {
+        "nome": "Dercy Gonçalves",
+        "descricao": "Atriz, comediante e cantora brasileira, de carreira de mais de 80 anos.",
+        "variantes": [
+          "Dolores Gonçalves Costa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato de Nadar; a assinatura do fotógrafo não entrega o nome do retratado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito por este autor francês?",
+      "resposta": "Os Três Mosqueteiros",
+      "distratores": [
+        "Os Miseráveis",
+        "Germinal",
+        "Madame Bovary"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Alexandre Dumas",
+        "descricao": "Romancista e dramaturgo francês do século dezenove, também chamado Dumas pai.",
+        "variantes": [
+          "Alexandre Dumas pai"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra duas pessoas; resposta ambígua e retratado não identificável com clareza."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual filme de Hector Babenco esta atriz brasileira foi premiada internacionalmente?",
+      "resposta": "Pixote",
+      "destino": 4,
+      "ancora": {
+        "nome": "Marília Pêra",
+        "descricao": "Atriz, cantora e diretora de teatro brasileira.",
+        "variantes": [
+          "Marília Soares Pêra"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, claro, com batuta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes musicais tem música deste maestro e compositor americano?",
+      "resposta": "West Side Story",
+      "distratores": [
+        "Oklahoma!",
+        "My Fair Lady",
+        "Cats"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Leonard Bernstein",
+        "descricao": "Maestro e compositor americano, autor de West Side Story.",
+        "variantes": [
+          "Louis Bernstein"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual era o apelido carinhoso deste poeta e compositor brasileiro?",
+      "resposta": "Poetinha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vinicius de Moraes",
+        "descricao": "Poeta, compositor e diplomata brasileiro, parceiro de Tom Jobim na bossa nova.",
+        "variantes": [
+          "Marcus Vinícius da Cruz e Mello Moraes",
+          "O Poetinha"
+        ]
+      }
+    }
+  ]
+}

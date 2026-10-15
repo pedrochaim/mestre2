@@ -1,0 +1,594 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Andrea Bocelli",
+        "descricao": "Tenor italiano de ópera e música pop, famoso desde 1994.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sandro_botticelli",
+          "nome": "Sandro Botticelli",
+          "descricao": "Pintor renascentista florentino do século quinze, autor de O Nascimento de Vênus e A Primavera.",
+          "variantes": [
+            "Botticelli",
+            "Alessandro di Mariano di Vanni Filipepi"
+          ]
+        },
+        {
+          "id": "a_primavera_botticelli",
+          "nome": "A Primavera (Botticelli)",
+          "descricao": "Quadro de Sandro Botticelli na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "andre_vesalio",
+          "nome": "André Vesálio",
+          "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543.",
+          "variantes": [
+            "Andreas Vesalius",
+            "Vesálio"
+          ]
+        },
+        {
+          "id": "handebol",
+          "nome": "Handebol",
+          "descricao": "Esporte coletivo em que duas equipes de sete jogadores arremessam a bola com as mãos no gol adversário.",
+          "variantes": [
+            "Andebol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Conceição Evaristo",
+        "descricao": "Escritora brasileira afro-brasileira, criadora do conceito de escrevivência.",
+        "variantes": [
+          "Maria da Conceição Evaristo de Brito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nado_artistico",
+          "nome": "Nado artístico",
+          "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+          "variantes": [
+            "Natação sincronizada",
+            "Nado sincronizado"
+          ]
+        },
+        {
+          "id": "concilio_de_trento",
+          "nome": "Concílio de Trento",
+          "descricao": "Concílio ecumênico da Igreja Católica realizado entre 1545 e 1563",
+          "variantes": [
+            "Council of Trent"
+          ]
+        },
+        {
+          "id": "concreto_armado",
+          "nome": "Concreto armado",
+          "descricao": "Concreto reforçado com barras ou telas de metal, patenteado pelo francês Joseph Monier em 1867.",
+          "variantes": [
+            "Betão armado"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "J. K. Rowling",
+        "descricao": "Autora britânica da série Harry Potter.",
+        "variantes": [
+          "Joanne Rowling",
+          "Robert Galbraith"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "remo",
+          "nome": "Remo",
+          "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas.",
+          "variantes": [
+            "Rowing"
+          ]
+        },
+        {
+          "id": "caso_bosman",
+          "nome": "Caso Bosman",
+          "descricao": "Decisão de 1995 do Tribunal de Justiça europeu, a partir da ação do jogador belga Jean-Marc Bosman, que mudou as regras de transferência no futebol.",
+          "variantes": [
+            "Lei Bosman",
+            "Bosman ruling"
+          ]
+        },
+        {
+          "id": "roberto_carlos",
+          "nome": "Roberto Carlos",
+          "descricao": "Cantor e compositor capixaba, chamado de Rei da música brasileira.",
+          "variantes": [
+            "Roberto Carlos Braga"
+          ]
+        },
+        {
+          "id": "j_r_r_tolkien",
+          "nome": "J. R. R. Tolkien",
+          "descricao": "Escritor e filólogo britânico (1892–1973), autor de O Hobbit e O Senhor dos Anéis.",
+          "variantes": [
+            "John Ronald Reuel Tolkien",
+            "Tolkien"
+          ]
+        },
+        {
+          "id": "boliche",
+          "nome": "Boliche",
+          "descricao": "Boliche de dez pinos, jogo em que se rola uma bola pesada por uma pista para derrubar dez pinos.",
+          "variantes": [
+            "Ten-pin bowling",
+            "Bowling"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mary Shelley",
+        "descricao": "Escritora inglesa, autora de Frankenstein.",
+        "variantes": [
+          "Mary Wollstonecraft Shelley",
+          "Mary Godwin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mary_wollstonecraft",
+          "nome": "Mary Wollstonecraft",
+          "descricao": "Escritora e filósofa inglesa (1759–1797), autora de Reivindicação dos Direitos da Mulher.",
+          "variantes": []
+        },
+        {
+          "id": "maria_i_da_inglaterra",
+          "nome": "Maria I da Inglaterra",
+          "descricao": "Rainha católica da Inglaterra de 1553 a 1558, filha de Henrique VIII e Catarina de Aragão.",
+          "variantes": [
+            "Mary I",
+            "Maria Tudor",
+            "Bloody Mary"
+          ]
+        },
+        {
+          "id": "mark_twain",
+          "nome": "Mark Twain",
+          "descricao": "Escritor americano (1835–1910), autor de As Aventuras de Tom Sawyer e Huckleberry Finn.",
+          "variantes": [
+            "Samuel Langhorne Clemens",
+            "Samuel Clemens"
+          ]
+        },
+        {
+          "id": "cometa_halley",
+          "nome": "Cometa Halley",
+          "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+          "variantes": [
+            "Halley",
+            "1P/Halley",
+            "Halley's Comet"
+          ]
+        },
+        {
+          "id": "para_darwin",
+          "nome": "Para Darwin",
+          "descricao": "Livro de 1864 de Fritz Müller que defendeu a teoria da evolução com estudos de crustáceos de Santa Catarina.",
+          "variantes": [
+            "Für Darwin",
+            "Facts and Arguments for Darwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Georges Bizet",
+        "descricao": "Compositor francês romântico, autor da ópera Carmen.",
+        "variantes": [
+          "Alexandre César Léopold Bizet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "herge",
+          "nome": "Hergé",
+          "descricao": "Quadrinista belga, criador de Tintim",
+          "variantes": [
+            "Georges Remi"
+          ]
+        },
+        {
+          "id": "george_weah",
+          "nome": "George Weah",
+          "descricao": "Atacante liberiano, Bola de Ouro de 1995, que depois foi presidente da Libéria.",
+          "variantes": [
+            "George Manneh Oppong Weah"
+          ]
+        },
+        {
+          "id": "george_lazenby",
+          "nome": "George Lazenby",
+          "descricao": "Ator australiano que estrelou o filme 007 a Serviço Secreto de Sua Majestade, de 1969.",
+          "variantes": []
+        },
+        {
+          "id": "jorge_v",
+          "nome": "Jorge V",
+          "descricao": "Rei do Reino Unido de 1910 a 1936, que reinou durante a Primeira Guerra Mundial.",
+          "variantes": [
+            "George V"
+          ]
+        },
+        {
+          "id": "georges_st_pierre",
+          "nome": "Georges St-Pierre",
+          "descricao": "Lutador canadense de MMA, ex-campeão meio-médio e médio do UFC.",
+          "variantes": [
+            "GSP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Dercy Gonçalves",
+        "descricao": "Atriz, comediante e cantora brasileira, de carreira de mais de 80 anos.",
+        "variantes": [
+          "Dolores Gonçalves Costa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bento_goncalves",
+          "nome": "Bento Gonçalves",
+          "descricao": "Militar e político do Rio Grande do Sul, líder da Revolução Farroupilha e primeiro presidente da República Rio-Grandense.",
+          "variantes": [
+            "Bento Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "oswaldo_cruz",
+          "nome": "Oswaldo Cruz",
+          "descricao": "Médico sanitarista e bacteriologista brasileiro, fundador do Instituto Oswaldo Cruz.",
+          "variantes": [
+            "Oswaldo Gonçalves Cruz"
+          ]
+        },
+        {
+          "id": "goncalves_dias",
+          "nome": "Gonçalves Dias",
+          "descricao": "Poeta romântico maranhense (1823–1864), autor da Canção do Exílio.",
+          "variantes": [
+            "Antônio Gonçalves Dias"
+          ]
+        },
+        {
+          "id": "ray_charles",
+          "nome": "Ray Charles",
+          "descricao": "Cantor e pianista americano, pioneiro da soul music",
+          "variantes": [
+            "Ray Charles Robinson"
+          ]
+        },
+        {
+          "id": "conclave",
+          "nome": "Conclave",
+          "descricao": "Reunião dos cardeais da Igreja Católica para eleger um novo papa",
+          "variantes": [
+            "Conclave papal",
+            "Papal conclave"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Alexandre Dumas",
+        "descricao": "Romancista e dramaturgo francês do século dezenove, também chamado Dumas pai.",
+        "variantes": [
+          "Alexandre Dumas pai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alexandre_o_grande",
+          "nome": "Alexandre, o Grande",
+          "descricao": "Rei da Macedônia que conquistou o Império Persa e chegou ao noroeste da Índia no século quatro a.C.",
+          "variantes": [
+            "Alexandre Magno",
+            "Alexandre III da Macedônia",
+            "Alexander the Great"
+          ]
+        },
+        {
+          "id": "alexandre_pushkin",
+          "nome": "Alexandre Pushkin",
+          "descricao": "Poeta e romancista russo do Romantismo, autor de Eugênio Onêguin.",
+          "variantes": [
+            "Aleksandr Pushkin",
+            "Alexander Pushkin",
+            "Aleksandr Púchkin"
+          ]
+        },
+        {
+          "id": "aleksandr_borodin",
+          "nome": "Aleksandr Borodin",
+          "descricao": "Químico e compositor russo do século dezenove, autor da ópera Príncipe Igor.",
+          "variantes": [
+            "Alexander Borodin",
+            "Alexandre Borodin"
+          ]
+        },
+        {
+          "id": "gustave_eiffel",
+          "nome": "Gustave Eiffel",
+          "descricao": "Engenheiro francês, 1832-1923, cuja empresa construiu a torre de ferro do Campo de Marte, em Paris.",
+          "variantes": [
+            "Alexandre Gustave Eiffel"
+          ]
+        },
+        {
+          "id": "alexander_fleming",
+          "nome": "Alexander Fleming",
+          "descricao": "Médico e microbiologista escocês (1881–1955), descobridor da penicilina e Nobel de 1945.",
+          "variantes": [
+            "Sir Alexander Fleming"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Marília Pêra",
+        "descricao": "Atriz, cantora e diretora de teatro brasileira.",
+        "variantes": [
+          "Marília Soares Pêra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marilia_pera",
+          "nome": "Marília Pêra",
+          "descricao": "Atriz, cantora e diretora de teatro brasileira (1943–2015).",
+          "variantes": [
+            "Marília Soares Pêra"
+          ]
+        },
+        {
+          "id": "maria_rita",
+          "nome": "Maria Rita",
+          "descricao": "Cantora brasileira de MPB e samba, filha de Elis Regina.",
+          "variantes": [
+            "Maria Rita Camargo Mariano"
+          ]
+        },
+        {
+          "id": "maria_teresa_da_austria",
+          "nome": "Maria Teresa da Áustria",
+          "descricao": "Arquiduquesa da Áustria e rainha da Hungria e da Boêmia de 1740 a 1780, única mulher a governar os domínios dos Habsburgos.",
+          "variantes": [
+            "Maria Theresa",
+            "Maria Theresia"
+          ]
+        },
+        {
+          "id": "marilia_mendonca",
+          "nome": "Marília Mendonça",
+          "descricao": "Cantora e compositora brasileira de sertanejo, conhecida pela música Infiel.",
+          "variantes": [
+            "Marília Dias Mendonça"
+          ]
+        },
+        {
+          "id": "camisa_rosa_do_giro_d_italia",
+          "nome": "Camisa rosa do Giro d'Italia",
+          "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+          "variantes": [
+            "Maglia rosa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Leonard Bernstein",
+        "descricao": "Maestro e compositor americano, autor de West Side Story.",
+        "variantes": [
+          "Louis Bernstein"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leon_trotski",
+          "nome": "Leon Trótski",
+          "descricao": "Revolucionário russo, líder do Exército Vermelho, exilado por Stálin e assassinado em 1940.",
+          "variantes": [
+            "Leon Trotsky",
+            "Lev Davidovich Bronstein",
+            "Lev Bronstein"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        },
+        {
+          "id": "louise_brown",
+          "nome": "Louise Brown",
+          "descricao": "Britânica nascida em 1978, a primeira pessoa concebida por fertilização in vitro.",
+          "variantes": [
+            "Louise Joy Brown"
+          ]
+        },
+        {
+          "id": "louis_armstrong",
+          "nome": "Louis Armstrong",
+          "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+          "variantes": [
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "ludwig_wittgenstein",
+          "nome": "Ludwig Wittgenstein",
+          "descricao": "Filósofo austríaco (1889–1951), autor do Tractatus Logico-Philosophicus.",
+          "variantes": [
+            "Wittgenstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Vinicius de Moraes",
+        "descricao": "Poeta, compositor e diplomata brasileiro, parceiro de Tom Jobim na bossa nova.",
+        "variantes": [
+          "Marcus Vinícius da Cruz e Mello Moraes",
+          "O Poetinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinicius_de_moraes",
+          "nome": "Vinicius de Moraes",
+          "descricao": "Poeta, compositor e diplomata carioca, parceiro de Tom Jobim na bossa nova.",
+          "variantes": [
+            "Poetinha"
+          ]
+        },
+        {
+          "id": "vinicius_e_tom",
+          "nome": "Vinicius e Tom",
+          "descricao": "Mascotes olímpico e paralímpico dos Jogos Rio 2016.",
+          "variantes": [
+            "Vinicius and Tom"
+          ]
+        },
+        {
+          "id": "tio_patinhas",
+          "nome": "Tio Patinhas",
+          "descricao": "Pato bilionário e avarento da Disney, tio do Pato Donald",
+          "variantes": [
+            "Scrooge McDuck"
+          ]
+        },
+        {
+          "id": "vacina_oral_contra_a_poliomielite",
+          "nome": "Vacina oral contra a poliomielite",
+          "descricao": "Vacina de vírus atenuado contra a pólio, aplicada em gotas, desenvolvida por Albert Sabin.",
+          "variantes": [
+            "Vacina Sabin",
+            "VOP",
+            "Gotinha"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Andrea Bocelli."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Conceição Evaristo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é J. K. Rowling; Tolkien é outro autor."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mary Wollstonecraft é a mãe, pessoa diferente de Mary Shelley."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Georges Bizet."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Dercy Gonçalves."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Alexandre Dumas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "marilia_pera",
+      "motivo": "Mesma atriz, nome e variante idênticos."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Leonard Bernstein."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "vinicius_de_moraes",
+      "motivo": "Mesmo poeta, parceiro de Tom Jobim, variante equivalente."
+    }
+  ]
+}
