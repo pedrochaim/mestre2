@@ -1,0 +1,733 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bandeira do Panamá",
+        "descricao": "Bandeira nacional do Panamá, dividida em quatro quadrantes com uma estrela azul e uma vermelha.",
+        "variantes": [
+          "Panamá",
+          "Bandeira panamenha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_panama",
+          "nome": "Chapéu-panamá",
+          "descricao": "Chapéu de aba trançado à mão com fibras da palha toquilla.",
+          "variantes": [
+            "Panama hat",
+            "Chapéu de palha toquilla",
+            "Sombrero de paja toquilla",
+            "Panamá"
+          ]
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        },
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "pangrama",
+          "nome": "Pangrama",
+          "descricao": "Frase que usa todas as letras do alfabeto",
+          "variantes": [
+            "Pantograma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bandeira da Líbia",
+        "descricao": "Bandeira nacional da Líbia, com listras vermelha, preta e verde e crescente com estrela brancos.",
+        "variantes": [
+          "Líbia",
+          "Bandeira líbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_liberia",
+          "nome": "Bandeira da Libéria",
+          "descricao": "Bandeira nacional da Libéria, com onze listras vermelhas e brancas e uma estrela branca num quadrado azul.",
+          "variantes": [
+            "Bandeira liberiana"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "bandeira_da_colombia",
+          "nome": "Bandeira da Colômbia",
+          "descricao": "Bandeira nacional da Colômbia, tricolor horizontal com faixa amarela dupla, azul e vermelha.",
+          "variantes": [
+            "Colômbia"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandeira de Palau",
+        "descricao": "Bandeira nacional de Palau, com um disco amarelo deslocado sobre fundo azul-celeste.",
+        "variantes": [
+          "Palau",
+          "Bandeira palauana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        },
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "bandeira_da_bielorrussia",
+          "nome": "Bandeira da Bielorrússia",
+          "descricao": "Bandeira da Bielorrússia, vermelha e verde com ornamento bordado vermelho e branco junto à haste.",
+          "variantes": [
+            "Bielorrússia",
+            "Bandeira de Belarus"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira do Kuwait",
+        "descricao": "Bandeira nacional do Kuwait, com listras verde, branca e vermelha e trapézio preto junto à haste.",
+        "variantes": [
+          "Kuwait",
+          "Bandeira kuwaitiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_equador",
+          "nome": "Bandeira do Equador",
+          "descricao": "Bandeira nacional do Equador, tricolor horizontal amarela, azul e vermelha com o brasão no centro.",
+          "variantes": [
+            "Bandeira equatoriana"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        },
+        {
+          "id": "bandeira_do_paraguai",
+          "nome": "Bandeira do Paraguai",
+          "descricao": "Bandeira nacional do Paraguai, tricolor horizontal vermelha, branca e azul com emblemas diferentes em cada lado.",
+          "variantes": [
+            "Flag of Paraguay"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bandeira do Iraque",
+        "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+        "variantes": [
+          "Iraque",
+          "Bandeira iraquiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "bandeira_do_zimbabue",
+          "nome": "Bandeira do Zimbábue",
+          "descricao": "Bandeira atual do Zimbábue: listras horizontais com triângulo branco, estrela vermelha e o Pássaro do Zimbábue.",
+          "variantes": [
+            "Zimbábue",
+            "Bandeira zimbabuana"
+          ]
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        },
+        {
+          "id": "bandeira_de_israel",
+          "nome": "Bandeira de Israel",
+          "descricao": "Bandeira nacional de Israel, branca com duas faixas azuis horizontais e a Estrela de Davi.",
+          "variantes": [
+            "Flag of Israel"
+          ]
+        },
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bandeira de Liechtenstein",
+        "descricao": "Bandeira nacional de Liechtenstein, azul e vermelha com uma coroa dourada no canto.",
+        "variantes": [
+          "Liechtenstein",
+          "Bandeira liechtensteinense"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liechtenstein",
+          "nome": "Liechtenstein",
+          "descricao": "Pequeno principado sem litoral nos Alpes, com capital em Vaduz.",
+          "variantes": [
+            "Principado de Liechtenstein"
+          ]
+        },
+        {
+          "id": "hino_de_liechtenstein",
+          "nome": "Hino de Liechtenstein",
+          "descricao": "Hino nacional do Principado de Liechtenstein, intitulado Oben am jungen Rhein.",
+          "variantes": [
+            "Oben am jungen Rhein"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        },
+        {
+          "id": "ludwig_wittgenstein",
+          "nome": "Ludwig Wittgenstein",
+          "descricao": "Filósofo austríaco (1889–1951), autor do Tractatus Logico-Philosophicus.",
+          "variantes": [
+            "Wittgenstein"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira de Malta",
+        "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+        "variantes": [
+          "Malta",
+          "Bandeira maltesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "japamala",
+          "nome": "Japamala",
+          "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+          "variantes": [
+            "Mala",
+            "Japa mala"
+          ]
+        },
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        },
+        {
+          "id": "bandeira_do_nepal",
+          "nome": "Bandeira do Nepal",
+          "descricao": "Bandeira nacional do Nepal, formada por dois triângulos sobrepostos vermelhos com borda azul, com lua e sol brancos.",
+          "variantes": [
+            "Bandeira nepalesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bandeira de Burkina Faso",
+        "descricao": "Bandeira nacional de Burkina Faso, vermelha e verde com uma estrela amarela central.",
+        "variantes": [
+          "Burkina Faso",
+          "Bandeira burquinense",
+          "Bandeira de Burquina Fasso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "burkina_faso",
+          "nome": "Burkina Faso",
+          "descricao": "País da África Ocidental, chamado Alto Volta até 1984.",
+          "variantes": [
+            "Burquina Faso",
+            "Alto Volta"
+          ]
+        },
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "bandeira_de_granada",
+          "nome": "Bandeira de Granada",
+          "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+          "variantes": [
+            "Bandeira granadina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bandeira da Armênia",
+        "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+        "variantes": [
+          "Armênia",
+          "Bandeira armênia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_argelia",
+          "nome": "Bandeira da Argélia",
+          "descricao": "Bandeira atual da Argélia: metades verde e branca com crescente e estrela vermelhos ao centro.",
+          "variantes": [
+            "Argélia",
+            "Bandeira argelina"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        },
+        {
+          "id": "bandeira_da_estonia",
+          "nome": "Bandeira da Estônia",
+          "descricao": "Bandeira nacional da Estônia, tricolor horizontal azul, preta e branca.",
+          "variantes": [
+            "Estônia",
+            "Bandeira estoniana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Bandeira do Gabão",
+        "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+        "variantes": [
+          "Gabão",
+          "Bandeira gabonesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        },
+        {
+          "id": "bandeira_do_libano",
+          "nome": "Bandeira do Líbano",
+          "descricao": "Bandeira nacional do Líbano, com faixas vermelhas e um cedro verde sobre a faixa branca central.",
+          "variantes": [
+            "Bandeira libanesa"
+          ]
+        },
+        {
+          "id": "bandeira_do_camboja",
+          "nome": "Bandeira do Camboja",
+          "descricao": "Bandeira nacional do Camboja, azul e vermelha com o desenho branco de um templo no centro.",
+          "variantes": [
+            "Bandeira cambojana"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bandeira de San Marino",
+        "descricao": "Bandeira nacional de San Marino, branca e azul-celeste com o brasão de três torres no centro.",
+        "variantes": [
+          "San Marino",
+          "Bandeira sanmarinense"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        },
+        {
+          "id": "santa_maria_nau_de_colombo",
+          "nome": "Santa Maria (nau de Colombo)",
+          "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+          "variantes": [
+            "Santa María",
+            "La Gallega"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Bandeira de Honduras",
+        "descricao": "Bandeira nacional de Honduras, azul e branca com cinco estrelas azuis na listra central.",
+        "variantes": [
+          "Honduras",
+          "Bandeira hondurenha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "honduras",
+          "nome": "Honduras",
+          "descricao": "País da América Central, com costa no Caribe e no Pacífico, cuja capital é Tegucigalpa.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_das_nacoes_unidas",
+          "nome": "Bandeira das Nações Unidas",
+          "descricao": "Bandeira oficial da ONU, azul-clara com um mapa-múndi branco entre ramos de oliveira.",
+          "variantes": [
+            "Bandeira da ONU",
+            "Flag of the United Nations"
+          ]
+        },
+        {
+          "id": "bandeira_de_monaco",
+          "nome": "Bandeira de Mônaco",
+          "descricao": "Bandeira nacional do Principado de Mônaco, com duas faixas horizontais, vermelha e branca.",
+          "variantes": [
+            "Flag of Monaco"
+          ]
+        },
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_da_uniao_sovietica",
+          "nome": "Bandeira da União Soviética",
+          "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+          "variantes": [
+            "Bandeira da URSS",
+            "Bandeira Vermelha soviética",
+            "Flag of the Soviet Union"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira do Panamá."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Líbia difere de Libéria."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sem bandeira de Palau entre candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sem bandeira do Kuwait."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Candidata Iraque é o país, não a bandeira."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidatas são o país e o hino, não a bandeira."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Malta candidata é o país."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Candidata é o país."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sem bandeira da Armênia."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Sem bandeira do Gabão."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Sem bandeira de San Marino."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Candidata Honduras é o país."
+    }
+  ]
+}

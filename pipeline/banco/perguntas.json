@@ -209660,5 +209660,265 @@
       "licenca": "CC0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q11500",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_panama",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital do país desta bandeira?",
+    "resposta": "Cidade do Panamá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panama",
+      "https://pt.wikipedia.org/wiki/Panam%C3%A1"
+    ],
+    "imagem": {
+      "arquivo": "q11500.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg",
+      "autor": "Zscout370 et al.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11501",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_da_libia",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Líbia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Libya",
+      "https://pt.wikipedia.org/wiki/L%C3%ADbia"
+    ],
+    "imagem": {
+      "arquivo": "q11501.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg",
+      "autor": "Various The SVG code is valid. This vector image was created with a text editor.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11502",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_palau",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que oceano fica o país desta bandeira?",
+    "resposta": "Oceano Pacífico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Palau",
+      "https://pt.wikipedia.org/wiki/Palau"
+    ],
+    "imagem": {
+      "arquivo": "q11502.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Palau.svg",
+      "autor": "Original: John Blau Skebong Vector: Nightstallion",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11503",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_kuwait",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Kuwait",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kuwait",
+      "https://pt.wikipedia.org/wiki/Kuwait"
+    ],
+    "imagem": {
+      "arquivo": "q11503.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11504",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_iraque",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a capital do país desta bandeira?",
+    "resposta": "Bagdá",
+    "distratores": [
+      "Damasco",
+      "Amã",
+      "Teerã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iraq",
+      "https://pt.wikipedia.org/wiki/Iraque"
+    ],
+    "imagem": {
+      "arquivo": "q11504.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq.svg",
+      "autor": "See File history below for details.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11505",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_liechtenstein",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Liechtenstein",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Liechtenstein",
+      "https://pt.wikipedia.org/wiki/Liechtenstein"
+    ],
+    "imagem": {
+      "arquivo": "q11505.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg",
+      "autor": "Mnmazur and others",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11506",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_malta",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a capital do país desta bandeira?",
+    "resposta": "Valeta",
+    "distratores": [
+      "Tunes",
+      "Palermo",
+      "Nicósia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Malta",
+      "https://pt.wikipedia.org/wiki/Malta"
+    ],
+    "imagem": {
+      "arquivo": "q11506.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Malta.svg",
+      "autor": "See File history below for details.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11507",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_burkina_faso",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Burkina Faso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Burkina_Faso",
+      "https://pt.wikipedia.org/wiki/Burquina_Fasso"
+    ],
+    "imagem": {
+      "arquivo": "q11507.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
+      "autor": "Drawn by SKopp, rewritten by Gabbe and Андрей Перцев",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11508",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_da_armenia",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a capital do país desta bandeira?",
+    "resposta": "Erevan",
+    "distratores": [
+      "Tbilisi",
+      "Baku",
+      "Teerã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Armenia",
+      "https://pt.wikipedia.org/wiki/Arm%C3%A9nia"
+    ],
+    "imagem": {
+      "arquivo": "q11508.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Armenia.svg",
+      "autor": "Original: Stepan Malkhasyants Vector: SKopp",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11509",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_gabao",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Gabão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gabon",
+      "https://pt.wikipedia.org/wiki/Gab%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q11509.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Gabon.svg",
+      "autor": "Léon Augé and Pierre Claver Eyeghe",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11510",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_san_marino",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que país cerca completamente o país desta bandeira?",
+    "resposta": "Itália",
+    "distratores": [
+      "França",
+      "Suíça",
+      "Áustria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/San_Marino",
+      "https://pt.wikipedia.org/wiki/San_Marino"
+    ],
+    "imagem": {
+      "arquivo": "q11510.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_San_Marino.svg",
+      "autor": "Zscout370",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11511",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_honduras",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Honduras",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Honduras",
+      "https://pt.wikipedia.org/wiki/Honduras"
+    ],
+    "imagem": {
+      "arquivo": "q11511.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(1949–2022,_2026–present).svg",
+      "autor": "Kes47",
+      "licenca": "Public domain"
+    }
   }
 ]

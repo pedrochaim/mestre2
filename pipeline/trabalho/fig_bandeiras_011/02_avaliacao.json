@@ -1,0 +1,241 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Cidade do Panamá",
+      "ancora": {
+        "nome": "Bandeira do Panamá",
+        "descricao": "Bandeira nacional do Panamá, dividida em quatro quadrantes com uma estrela azul e uma vermelha.",
+        "variantes": [
+          "Bandeira panamenha"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira atual da Líbia, nítida e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Líbia",
+      "ancora": {
+        "nome": "Bandeira da Líbia",
+        "descricao": "Bandeira nacional da Líbia, com listras vermelha, preta e verde e crescente com estrela brancos.",
+        "variantes": [
+          "Bandeira líbia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Disco amarelo sobre fundo azul, única e nítida.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que oceano fica o país desta bandeira?",
+      "resposta": "Oceano Pacífico",
+      "ancora": {
+        "nome": "Bandeira de Palau",
+        "descricao": "Bandeira nacional de Palau, com um disco amarelo deslocado sobre fundo azul-celeste.",
+        "variantes": [
+          "Bandeira palauana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Kuwait",
+      "ancora": {
+        "nome": "Bandeira do Kuwait",
+        "descricao": "Bandeira nacional do Kuwait, com listras verde, branca e vermelha e trapézio preto junto à haste.",
+        "variantes": [
+          "Bandeira kuwaitiana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; a inscrição árabe não nomeia o país.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Bagdá",
+      "distratores": [
+        "Damasco",
+        "Amã",
+        "Teerã"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Iraque",
+        "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+        "variantes": [
+          "Bandeira iraquiana"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Coroa característica, nítida, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Liechtenstein",
+      "ancora": {
+        "nome": "Bandeira de Liechtenstein",
+        "descricao": "Bandeira nacional de Liechtenstein, azul e vermelha com uma coroa dourada no canto.",
+        "variantes": [
+          "Bandeira liechtensteinense"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; o texto 'For Gallantry' não entrega o país.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Valeta",
+      "distratores": [
+        "Tunes",
+        "Palermo",
+        "Nicósia"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Malta",
+        "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+        "variantes": [
+          "Bandeira maltesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Burkina Faso",
+      "ancora": {
+        "nome": "Bandeira de Burkina Faso",
+        "descricao": "Bandeira nacional de Burkina Faso, vermelha e verde com uma estrela amarela central.",
+        "variantes": [
+          "Bandeira burquinense",
+          "Bandeira de Burquina Fasso"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal nítido, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Erevan",
+      "distratores": [
+        "Tbilisi",
+        "Baku",
+        "Teerã"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Armênia",
+        "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+        "variantes": [
+          "Bandeira armênia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tricolor verde, amarelo e azul, única e nítida.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Gabão",
+      "ancora": {
+        "nome": "Bandeira do Gabão",
+        "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+        "variantes": [
+          "Bandeira gabonesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Brasão nítido; 'Libertas' não entrega o país.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país cerca completamente o país desta bandeira?",
+      "resposta": "Itália",
+      "distratores": [
+        "França",
+        "Suíça",
+        "Áustria"
+      ],
+      "ancora": {
+        "nome": "Bandeira de San Marino",
+        "descricao": "Bandeira nacional de San Marino, branca e azul-celeste com o brasão de três torres no centro.",
+        "variantes": [
+          "Bandeira sanmarinense"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, cinco estrelas, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Honduras",
+      "ancora": {
+        "nome": "Bandeira de Honduras",
+        "descricao": "Bandeira nacional de Honduras, azul e branca com cinco estrelas azuis na listra central.",
+        "variantes": [
+          "Bandeira hondurenha"
+        ]
+      }
+    }
+  ]
+}
