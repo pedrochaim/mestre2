@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Barueri fica na Região Metropolitana de São Paulo; enunciado não nomeia o estádio e os distratores são cidades da Grande SP, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arena coberta em Paris confirmada nos trechos; enunciado não entrega a resposta e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ellis Park fica em Johannesburgo, conforme os trechos; distratores são cidades sul-africanas críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A dica da Copa de 1978 deixa eliminar Tucumán e Salta, que não foram sedes, e a ideia de 'sede' é ambígua com Mendoza, que também foi. Remover a pista e usar distratores igualmente críveis.",
+      "reescrita": {
+        "pergunta": "Em que cidade argentina fica este estádio?",
+        "resposta": "Córdoba",
+        "distratores": [
+          "Rosario",
+          "Mendoza",
+          "Mar del Plata"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hampden Park fica em Glasgow, Escócia, estádio nacional; distratores são países do Reino Unido/Irlanda, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Circo Máximo fica em Roma, conforme os trechos; enunciado não nomeia o monumento e a pista não identifica sozinha (há outros hipódromos antigos).",
+      "reescrita": null
+    }
+  ]
+}

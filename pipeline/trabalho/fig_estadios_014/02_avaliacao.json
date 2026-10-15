@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Interior reconhecível por fãs; sem texto que entregue. Múltipla pela cidade.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade da Grande São Paulo fica este estádio?",
+      "resposta": "Barueri",
+      "distratores": [
+        "Osasco",
+        "Santo André",
+        "Guarulhos"
+      ],
+      "ancora": {
+        "nome": "Arena Barueri",
+        "descricao": "Estádio multiuso municipal de Barueri (SP), também chamado Arena Municipal Orlando Batista Noveli ou Arena Crefisa.",
+        "variantes": [
+          "Arena Crefisa",
+          "Arena Municipal Orlando Batista Noveli"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Letras 'NISSAN STADIUM' visíveis nas arquibancadas entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto noturna com torcedores em primeiro plano; estádio pouco reconhecível e ambíguo."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto 'ROGERS CENTRE' visível na fachada."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arena piramidal coberta de grama, inconfundível, sem texto legível relevante.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta arena coberta?",
+      "resposta": "Paris",
+      "distratores": [],
+      "ancora": {
+        "nome": "Accor Arena",
+        "descricao": "Arena coberta no bairro de Bercy, em Paris, de paredes inclinadas cobertas de grama, antigo Palais Omnisports de Paris-Bercy.",
+        "variantes": [
+          "Palais Omnisports de Paris-Bercy",
+          "Bercy Arena",
+          "AccorHotels Arena"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e faixas de patrocinadores com texto; ambígua como velódromo."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea característica, sem nome do estádio visível.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio de rúgbi e futebol?",
+      "resposta": "Johannesburgo",
+      "distratores": [
+        "Pretória",
+        "Cidade do Cabo",
+        "Durban"
+      ],
+      "ancora": {
+        "nome": "Ellis Park",
+        "descricao": "Estádio de rúgbi e futebol em Johannesburgo, África do Sul, palco da final da Copa do Mundo de Rúgbi de 1995.",
+        "variantes": [
+          "Ellis Park Stadium",
+          "Estádio Ellis Park"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto, estádio com pista de atletismo; múltipla para justiça.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade argentina fica este estádio, sede da Copa do Mundo de 1978?",
+      "resposta": "Córdoba",
+      "distratores": [
+        "Mendoza",
+        "Tucumán",
+        "Salta"
+      ],
+      "ancora": {
+        "nome": "Estádio Mario Alberto Kempes",
+        "descricao": "Estádio de Córdoba, Argentina, inaugurado em 1978 para a Copa do Mundo, antes chamado Chateau Carreras.",
+        "variantes": [
+          "Chateau Carreras",
+          "Estadio Mario Alberto Kempes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Letras 'TIMÃO' nas arquibancadas e 'Sport Club Corinthians Paulista' visíveis entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Panorama com multidão de pessoas comuns em primeiro plano e estádio pouco distintivo."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea do oval característico, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este estádio nacional de futebol?",
+      "resposta": "Escócia",
+      "distratores": [
+        "Inglaterra",
+        "País de Gales",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Hampden Park",
+        "descricao": "Estádio nacional de futebol da Escócia, em Glasgow.",
+        "variantes": [
+          "Hampden",
+          "Barclays Hampden"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pista alongada do antigo circo, sem texto; múltipla por ser pouco óbvio.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este antigo estádio de corridas de bigas?",
+      "resposta": "Roma",
+      "distratores": [
+        "Istambul",
+        "Atenas",
+        "Nápoles"
+      ],
+      "ancora": {
+        "nome": "Circo Máximo",
+        "descricao": "Antigo estádio romano de corridas de bigas, no vale entre o Aventino e o Palatino, em Roma.",
+        "variantes": [
+          "Circus Maximus",
+          "Circo Massimo"
+        ]
+      }
+    }
+  ]
+}

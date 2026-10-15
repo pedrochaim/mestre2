@@ -209246,5 +209246,150 @@
       "autor": "Ricardo Alfieri",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q11487",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "arena_barueri",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade da Grande São Paulo fica este estádio?",
+    "resposta": "Barueri",
+    "distratores": [
+      "Osasco",
+      "Santo André",
+      "Guarulhos"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arena_Barueri",
+      "https://en.wikipedia.org/wiki/Arena_Barueri"
+    ],
+    "imagem": {
+      "arquivo": "q11487.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arena_Barueri.jpg",
+      "autor": "Lucas gc",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11488",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "accor_arena",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica esta arena coberta?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Accor_Arena",
+      "https://pt.wikipedia.org/wiki/Accor_Arena"
+    ],
+    "imagem": {
+      "arquivo": "q11488.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palais_Omnisports_de_Paris-Bercy_2007.jpg",
+      "autor": "Jan Zubíček",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q11489",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "ellis_park",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio de rúgbi e futebol?",
+    "resposta": "Johannesburgo",
+    "distratores": [
+      "Pretória",
+      "Cidade do Cabo",
+      "Durban"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ellis_Park_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ellis_Park"
+    ],
+    "imagem": {
+      "arquivo": "q11489.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ellis_Park_Stadium.jpg",
+      "autor": "Leglo09",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q11490",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_mario_alberto_kempes",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade argentina fica este estádio?",
+    "resposta": "Córdoba",
+    "distratores": [
+      "Rosario",
+      "Mendoza",
+      "Mar del Plata"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Estadio_Mario_Alberto_Kempes",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Mario_Alberto_Kempes"
+    ],
+    "imagem": {
+      "arquivo": "q11490.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vista_aérea_del_Estadio_Mario_Alberto_Kempes,_Córdoba.jpg",
+      "autor": "Córdoba Municipality",
+      "licenca": "CC BY 2.5 ar"
+    }
+  },
+  {
+    "id": "q11491",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "hampden_park",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este estádio nacional de futebol?",
+    "resposta": "Escócia",
+    "distratores": [
+      "Inglaterra",
+      "País de Gales",
+      "Irlanda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hampden_Park",
+      "https://pt.wikipedia.org/wiki/Hampden_Park"
+    ],
+    "imagem": {
+      "arquivo": "q11491.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hampden_Park_(Glasgow)_aerial_view_cropped.jpg",
+      "autor": "Dan Kearney, cropped by Blackcat",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11492",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "circo_maximo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este antigo estádio de corridas de bigas?",
+    "resposta": "Roma",
+    "distratores": [
+      "Istambul",
+      "Atenas",
+      "Nápoles"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circus_Maximus",
+      "https://pt.wikipedia.org/wiki/Circo_M%C3%A1ximo"
+    ],
+    "imagem": {
+      "arquivo": "q11492.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Circus_Maximus_2025.jpg",
+      "autor": "Rione Colonna",
+      "licenca": "CC BY 4.0"
+    }
   }
 ]

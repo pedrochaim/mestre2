@@ -1,0 +1,393 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Arena Barueri",
+        "descricao": "Estádio multiuso municipal de Barueri (SP), também chamado Arena Municipal Orlando Batista Noveli ou Arena Crefisa.",
+        "variantes": [
+          "Arena Crefisa",
+          "Arena Municipal Orlando Batista Noveli"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para_elisa",
+          "nome": "Para Elisa",
+          "descricao": "Peça para piano de Ludwig van Beethoven, a Bagatela em lá menor, publicada postumamente em 1867.",
+          "variantes": [
+            "Für Elise",
+            "Bagatela em lá menor"
+          ]
+        },
+        {
+          "id": "atenas",
+          "nome": "Atenas",
+          "descricao": "Capital da Grécia, vista com a Acrópole e o Partenon.",
+          "variantes": [
+            "Athens",
+            "Atenas, Grécia"
+          ]
+        },
+        {
+          "id": "neo_quimica_arena",
+          "nome": "Neo Química Arena",
+          "descricao": "Estádio de futebol do Corinthians, no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+          "variantes": [
+            "Arena Corinthians",
+            "Itaquerão"
+          ]
+        },
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "rene_descartes",
+          "nome": "René Descartes",
+          "descricao": "Filósofo e matemático francês (1596–1650), autor de Discurso do Método.",
+          "variantes": [
+            "Descartes",
+            "Renatus Cartesius",
+            "Cartesius"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Accor Arena",
+        "descricao": "Arena coberta no bairro de Bercy, em Paris, de paredes inclinadas cobertas de grama, antigo Palais Omnisports de Paris-Bercy.",
+        "variantes": [
+          "Accor Arena (Bercy)",
+          "Palais Omnisports de Paris-Bercy",
+          "Bercy Arena",
+          "AccorHotels Arena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "the_o2_arena",
+          "nome": "The O2 Arena",
+          "descricao": "Arena coberta na Península de Greenwich, em Londres, instalada no antigo Millennium Dome.",
+          "variantes": [
+            "The O2",
+            "O2 Arena",
+            "Millennium Dome"
+          ]
+        },
+        {
+          "id": "arena_de_verona",
+          "nome": "Arena de Verona",
+          "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+          "variantes": [
+            "Verona Arena",
+            "Arena di Verona"
+          ]
+        },
+        {
+          "id": "ginkgo",
+          "nome": "Ginkgo",
+          "descricao": "Árvore Ginkgo biloba, única espécie viva de uma linhagem muito antiga de plantas",
+          "variantes": [
+            "Ginkgo biloba",
+            "nogueira-do-japão",
+            "árvore-avenca"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "estadio_krestovsky",
+          "nome": "Estádio Krestovsky",
+          "descricao": "Estádio de teto retrátil na ilha Krestovsky, em São Petersburgo, Rússia, casa do Zenit e sede da Copa de 2018.",
+          "variantes": [
+            "Krestovsky Stadium",
+            "Gazprom Arena",
+            "Estádio de São Petersburgo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ellis Park",
+        "descricao": "Estádio de rúgbi e futebol em Johannesburgo, África do Sul, palco da final da Copa do Mundo de Rúgbi de 1995.",
+        "variantes": [
+          "Ellis Park Stadium",
+          "Estádio Ellis Park"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "allianz_stadium_turim",
+          "nome": "Allianz Stadium (Turim)",
+          "descricao": "Estádio de futebol da Juventus, em Turim, na Itália, inaugurado em 2011.",
+          "variantes": [
+            "Juventus Stadium",
+            "Allianz Stadium"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "etihad_stadium",
+          "nome": "Etihad Stadium",
+          "descricao": "Estádio do Manchester City, na Inglaterra, construído para os Jogos da Comunidade Britânica de 2002.",
+          "variantes": [
+            "City of Manchester Stadium",
+            "Estádio da Cidade de Manchester"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_ataturk",
+          "nome": "Estádio Olímpico Atatürk",
+          "descricao": "Estádio de Istambul, Turquia, o maior do país, sede da final da Liga dos Campeões de 2005.",
+          "variantes": [
+            "Atatürk Olimpiyat Stadyumu",
+            "Atatürk Olympic Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estádio Mario Alberto Kempes",
+        "descricao": "Estádio de Córdoba, Argentina, inaugurado em 1978 para a Copa do Mundo, antes chamado Chateau Carreras.",
+        "variantes": [
+          "Chateau Carreras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tatu_canastra",
+          "nome": "Tatu-canastra",
+          "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+          "variantes": [
+            "Tatu-gigante",
+            "Tatu-carreta",
+            "Priodontes maximus"
+          ]
+        },
+        {
+          "id": "cratera_de_impacto",
+          "nome": "Cratera de impacto",
+          "descricao": "Depressão na superfície de um corpo sólido formada pelo choque em alta velocidade de um objeto menor; a imagem mostra a Meteor Crater, no Arizona.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Cratera do Meteoro"
+          ]
+        },
+        {
+          "id": "cratera_do_meteoro",
+          "nome": "Cratera do Meteoro",
+          "descricao": "Cratera de impacto de cerca de 1,2 km de diâmetro no deserto do norte do Arizona, Estados Unidos.",
+          "variantes": [
+            "Meteor Crater",
+            "Cratera Barringer",
+            "Barringer Crater"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hampden Park",
+        "descricao": "Estádio nacional de futebol da Escócia, em Glasgow.",
+        "variantes": [
+          "Hampden",
+          "Barclays Hampden"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "parque_do_flamengo",
+          "nome": "Parque do Flamengo",
+          "descricao": "Grande parque construído sobre aterro à beira da baía de Guanabara, no Rio de Janeiro, inaugurado nos anos 1960.",
+          "variantes": [
+            "Aterro do Flamengo",
+            "Flamengo Park"
+          ]
+        },
+        {
+          "id": "lampent",
+          "nome": "Lampent",
+          "descricao": "Pokémon dos tipos Fantasma e Fogo, número 608 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        },
+        {
+          "id": "joseph_haydn",
+          "nome": "Joseph Haydn",
+          "descricao": "Compositor austríaco do período clássico (1732–1809), chamado de pai da sinfonia.",
+          "variantes": [
+            "Haydn",
+            "Franz Joseph Haydn"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Circo Máximo",
+        "descricao": "Antigo estádio romano de corridas de bigas, no vale entre o Aventino e o Palatino, em Roma.",
+        "variantes": [
+          "Circus Maximus",
+          "Circo Massimo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circo_maximo",
+          "nome": "Circo Máximo",
+          "descricao": "Grande estádio de corridas de bigas da Roma Antiga, entre os montes Aventino e Palatino.",
+          "variantes": [
+            "Circus Maximus"
+          ]
+        },
+        {
+          "id": "pomelo",
+          "nome": "Pomelo",
+          "descricao": "Fruta cítrica Citrus maxima, nativa do Sudeste Asiático, de casca grossa e polpa doce.",
+          "variantes": [
+            "Citrus maxima",
+            "Toranja-pomelo"
+          ]
+        },
+        {
+          "id": "tubarao_peregrino",
+          "nome": "Tubarão-peregrino",
+          "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo.",
+          "variantes": [
+            "Tubarão-frade",
+            "Cetorhinus maximus",
+            "Basking shark"
+          ]
+        },
+        {
+          "id": "cinco_de_maio",
+          "nome": "Cinco de Maio",
+          "descricao": "Comemoração mexicana da vitória na Batalha de Puebla, em 1862, muito festejada nos Estados Unidos.",
+          "variantes": [
+            "Cinco de Mayo"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Arena Barueri."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Accor Arena de Paris não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ellis Park não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estádio Kempes de Córdoba não consta nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hampden Park não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "circo_maximo",
+      "motivo": "Mesmo estádio de corridas de bigas da Roma Antiga."
+    }
+  ]
+}

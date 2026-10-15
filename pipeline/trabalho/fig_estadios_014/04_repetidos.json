@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este antigo estádio de corridas de bigas?",
+        "resposta": "Roma"
+      },
+      "existentes": [
+        {
+          "id": "q00093",
+          "pergunta": "Qual era o maior local de espetáculos da Roma antiga, com lugar para muito mais gente que o Coliseu?",
+          "resposta": "Circo Máximo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a cidade onde fica o estádio de corridas de bigas (Roma); a existente pede o nome do maior local de espetáculos (Circo Máximo). Fatos diferentes, e saber um não leva necessariamente ao outro."
+    }
+  ]
+}
