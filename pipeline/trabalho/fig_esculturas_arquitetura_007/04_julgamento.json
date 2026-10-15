@@ -1,0 +1,521 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral de Chartres",
+        "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+        "variantes": [
+          "Catedral de Notre-Dame de Chartres",
+          "Chartres Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_notre_dame_de_paris",
+          "nome": "Catedral de Notre-Dame de Paris",
+          "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+          "variantes": [
+            "Notre-Dame",
+            "Notre Dame de Paris",
+            "Nossa Senhora de Paris"
+          ]
+        },
+        {
+          "id": "incendio_da_catedral_de_notre_dame_de_paris",
+          "nome": "Incêndio da Catedral de Notre-Dame de Paris",
+          "descricao": "Incêndio que destruiu o telhado e a agulha da catedral de Notre-Dame, em Paris.",
+          "variantes": [
+            "Notre-Dame de Paris fire"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pagode Shwedagon",
+        "descricao": "Estupa budista dourada de 112 metros em Yangon, Myanmar, o templo mais sagrado do país.",
+        "variantes": [
+          "Shwedagon",
+          "Pagode Dourado",
+          "Shwedagon Zedi Daw"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "shelgon",
+          "nome": "Shelgon",
+          "descricao": "Pokémon do tipo Dragão, número 372 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "arroz_dourado",
+          "nome": "Arroz dourado",
+          "descricao": "Variedade de arroz geneticamente modificada para produzir betacaroteno nos grãos.",
+          "variantes": [
+            "Golden rice"
+          ]
+        },
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Basílica de Nossa Senhora Aparecida",
+        "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+        "variantes": [
+          "Basílica Nova de Aparecida",
+          "Santuário Nacional de Aparecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nossa_senhora_aparecida",
+          "nome": "Nossa Senhora Aparecida",
+          "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+          "variantes": [
+            "Nossa Senhora da Conceição Aparecida",
+            "Our Lady of Aparecida",
+            "Imagem de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro",
+            "Bird's Nest"
+          ]
+        },
+        {
+          "id": "estadio_nacional_do_japao",
+          "nome": "Estádio Nacional do Japão",
+          "descricao": "Estádio de Tóquio inaugurado em 2019, palco da abertura dos Jogos Olímpicos de 2020.",
+          "variantes": [
+            "Japan National Stadium",
+            "Novo Estádio Nacional",
+            "MUFG Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estátua equestre de Gattamelata",
+        "descricao": "Estátua equestre em bronze do condottiere Gattamelata, feita por Donatello em 1453, na Piazza del Santo, em Pádua.",
+        "variantes": [
+          "Gattamelata",
+          "Monumento equestre a Gattamelata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rattata",
+          "nome": "Rattata",
+          "descricao": "Pokémon rato do tipo Normal da primeira geração, número 19 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "vulgata",
+          "nome": "Vulgata",
+          "descricao": "Tradução latina da Bíblia feita no fim do século quatro, adotada como texto oficial da Igreja Católica",
+          "variantes": [
+            "Vulgata Latina"
+          ]
+        },
+        {
+          "id": "anta_malaia",
+          "nome": "Anta-malaia",
+          "descricao": "Anta asiática de corpo preto e branco (Tapirus indicus), a única do grupo fora das Américas.",
+          "variantes": [
+            "Anta-asiática",
+            "Tapirus indicus",
+            "Malayan tapir"
+          ]
+        },
+        {
+          "id": "gargamel",
+          "nome": "Gargamel",
+          "descricao": "Mago vilão que persegue os Smurfs nos quadrinhos e desenhos de Peyo.",
+          "variantes": [
+            "Gargamel dos Smurfs"
+          ]
+        },
+        {
+          "id": "buda",
+          "nome": "Buda",
+          "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo.",
+          "variantes": [
+            "Sidarta Gautama",
+            "Siddhartha Gautama",
+            "Buddha",
+            "Gautama Buda",
+            "Buda Gautama",
+            "Buda Shakyamuni"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Mesquita de adobe em estilo sudano-saheliano na cidade de Djenné, no Mali, a maior construção de tijolos de barro do mundo.",
+        "variantes": [
+          "Grande Mesquita de Jenê",
+          "Great Mosque of Djenné"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Capela Sistina",
+        "descricao": "Capela do Palácio Apostólico, no Vaticano, famosa pelos afrescos de Michelangelo e sede do conclave papal.",
+        "variantes": [
+          "Sistine Chapel",
+          "Cappella Sistina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capela_sistina",
+          "nome": "Capela Sistina",
+          "descricao": "Capela do Palácio Apostólico, no Vaticano, mandada construir pelo papa Sisto IV e famosa pelos afrescos de Michelangelo.",
+          "variantes": [
+            "Sistine Chapel",
+            "Cappella Sistina"
+          ]
+        },
+        {
+          "id": "teto_da_capela_sistina",
+          "nome": "Teto da Capela Sistina",
+          "descricao": "Conjunto de afrescos pintados por Michelangelo no teto da Capela Sistina, no Vaticano, com cenas do Gênesis.",
+          "variantes": [
+            "Sistine Chapel ceiling"
+          ]
+        },
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "abelha_africanizada",
+          "nome": "Abelha-africanizada",
+          "descricao": "Híbrido entre abelhas europeias e africanas surgido no Brasil e espalhado pelas Américas, conhecido pela defesa agressiva da colmeia.",
+          "variantes": [
+            "abelha assassina",
+            "Africanized bee"
+          ]
+        },
+        {
+          "id": "peruca",
+          "nome": "Peruca",
+          "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+          "variantes": [
+            "Wig",
+            "Cabeleira postiça"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, com lojas construídas sobre ela.",
+        "variantes": [
+          "Ponte Velha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        },
+        {
+          "id": "pont_neuf",
+          "nome": "Pont Neuf",
+          "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+          "variantes": [
+            "Ponte Nova"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        },
+        {
+          "id": "corrente_vermelha",
+          "nome": "Corrente Vermelha",
+          "descricao": "Objeto criado por Cyrus em Pokémon Diamond, Pearl e Platinum para controlar os lendários Dialga e Palkia.",
+          "variantes": [
+            "Red Chain"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Dama de Elche",
+        "descricao": "Busto de calcário ibérico do século quarto antes de Cristo, descoberto em 1897 em La Alcudia, perto de Elche, na Espanha.",
+        "variantes": [
+          "Lady of Elche",
+          "Dama d'Elx"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arma_de_tchekhov",
+          "nome": "Arma de Tchekhov",
+          "descricao": "Princípio dramático segundo o qual todo elemento apresentado numa história deve ter função, como uma arma que precisa disparar.",
+          "variantes": [
+            "Chekhov's gun",
+            "Arma de Chekhov"
+          ]
+        },
+        {
+          "id": "daruma",
+          "nome": "Daruma",
+          "descricao": "Boneco japonês redondo e sem braços, usado como amuleto para fazer pedidos.",
+          "variantes": [
+            "Boneco Daruma",
+            "Daruma doll"
+          ]
+        },
+        {
+          "id": "bolsa_kelly",
+          "nome": "Bolsa Kelly",
+          "descricao": "Bolsa de couro da grife Hermès rebatizada em homenagem à atriz e princesa Grace Kelly",
+          "variantes": [
+            "Kelly bag",
+            "Sac à dépêches"
+          ]
+        },
+        {
+          "id": "cogumelo_veu_de_noiva",
+          "nome": "Cogumelo-véu-de-noiva",
+          "descricao": "Fungo Phallus indusiatus, da família Phallaceae, com chapéu alveolado e uma saia rendada branca, o indúsio.",
+          "variantes": [
+            "Véu-de-noiva",
+            "Phallus indusiatus",
+            "Dictyophora indusiata",
+            "Dama-velada"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Chartres não está entre as candidatas; são outras catedrais."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "pagode_shwedagon",
+      "motivo": "Mesma estupa dourada em Yangon."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Basílica/santuário é diferente da imagem da santa e da catedral de Brasília."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a estátua de Gattamelata."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "grande_mesquita_de_djenne",
+      "motivo": "Mesma mesquita de barro de Djenné, Mali."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "capela_sistina",
+      "motivo": "Mesma capela no Vaticano."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "ponte_vecchio",
+      "motivo": "Mesma ponte sobre o Arno em Florença."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Dama de Elche."
+    }
+  ]
+}

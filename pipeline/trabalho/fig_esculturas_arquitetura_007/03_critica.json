@@ -1,0 +1,80 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chartres fica em Chartres; o enunciado não nomeia a catedral e os distratores são cidades distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estupa em Yangon confirmada; enunciado não entrega a cidade e distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A maior catedral do mundo' entrega a resposta sem olhar a figura; removida a pista.",
+      "reescrita": {
+        "pergunta": "Em que cidade do interior paulista fica esta basílica católica, principal santuário de peregrinação do Brasil?",
+        "resposta": "Aparecida",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria de Donatello confirmada; florentino e Renascimento ajudam sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Djenné fica no Mali; resposta única e distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teto pintado em capela entrega Michelangelo pelo enunciado; pergunta trocada por fato que exige reconhecer a capela.",
+      "reescrita": {
+        "pergunta": "Que papa do século quinze mandou construir esta capela, hoje sede do conclave?",
+        "resposta": "Sisto IV",
+        "distratores": [
+          "Júlio II",
+          "Alexandre VI",
+          "Leão X"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponte medieval sobre o Arno em Florença; correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ibérica' é palavra derivada da resposta 'Íberos'; vazamento.",
+      "reescrita": {
+        "pergunta": "Que povo antigo da Espanha produziu este busto de calcário, feito no século quarto antes de Cristo?",
+        "resposta": "Íberos",
+        "distratores": [
+          "Celtas",
+          "Visigodos",
+          "Romanos"
+        ]
+      }
+    }
+  ]
+}

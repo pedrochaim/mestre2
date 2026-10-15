@@ -1,0 +1,208 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Há texto visível (Museu da Cidade, Fundação Casa de Jorge Amado) que aponta para o Pelourinho, e pessoas comuns na praça."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada gótica inconfundível, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que cidade da França fica esta catedral gótica?",
+      "resposta": "Chartres",
+      "distratores": [
+        "Reims",
+        "Amiens",
+        "Rouen"
+      ],
+      "ancora": {
+        "nome": "Catedral de Chartres",
+        "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+        "variantes": [
+          "Catedral de Notre-Dame de Chartres",
+          "Chartres Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estupa dourada inconfundível, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Em que cidade fica este templo budista dourado?",
+      "resposta": "Yangon",
+      "distratores": [
+        "Bangkok",
+        "Mandalay",
+        "Colombo"
+      ],
+      "ancora": {
+        "nome": "Pagode Shwedagon",
+        "descricao": "Estupa budista dourada de 112 metros em Yangon, Myanmar, o templo mais sagrado do país.",
+        "variantes": [
+          "Shwedagon",
+          "Pagode Dourado",
+          "Shwedagon Zedi Daw"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Basílica reconhecível, com a torre do relógio azul, sem texto.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Em que cidade paulista fica esta basílica, a maior catedral do mundo?",
+      "resposta": "Aparecida",
+      "distratores": [],
+      "ancora": {
+        "nome": "Basílica de Nossa Senhora Aparecida",
+        "descricao": "Santuário nacional católico em Aparecida, São Paulo, dedicado à padroeira do Brasil.",
+        "variantes": [
+          "Basílica Nova de Aparecida",
+          "Santuário Nacional de Aparecida"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Multidão de turistas, pessoas comuns, em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estátua equestre em bronze reconhecível, sem texto.",
+      "tipo": "aberta",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que escultor florentino do Renascimento fez esta estátua equestre?",
+      "resposta": "Donatello",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estátua equestre de Gattamelata",
+        "descricao": "Estátua equestre em bronze do condottiere Gattamelata, feita por Donatello em 1453, na Piazza del Santo, em Pádua.",
+        "variantes": [
+          "Gattamelata",
+          "Monumento equestre a Gattamelata"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O prédio pode ser confundido com o Palácio da Alvorada, também de Niemeyer, com colunas e espelho d'água muito parecidos; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Legenda visível 'Entry to the Traitors Gate' entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Construção de adobe característica, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que país africano fica esta mesquita de barro?",
+      "resposta": "Mali",
+      "distratores": [
+        "Níger",
+        "Burkina Faso",
+        "Senegal"
+      ],
+      "ancora": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Mesquita de adobe em estilo sudano-saheliano na cidade de Djenné, no Mali, a maior construção de tijolos de barro do mundo.",
+        "variantes": [
+          "Grande Mesquita de Jenê",
+          "Great Mosque of Djenné"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Interior da Capela Sistina reconhecível, sem texto.",
+      "tipo": "multipla",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem pintou o teto desta capela?",
+      "resposta": "Michelangelo",
+      "distratores": [
+        "Rafael",
+        "Leonardo da Vinci",
+        "Botticelli"
+      ],
+      "ancora": {
+        "nome": "Capela Sistina",
+        "descricao": "Capela do Palácio Apostólico, no Vaticano, famosa pelos afrescos de Michelangelo e sede do conclave papal.",
+        "variantes": [
+          "Sistine Chapel",
+          "Cappella Sistina"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ponte com casas sobre o Arno, reconhecível, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que cidade italiana fica esta ponte medieval?",
+      "resposta": "Florença",
+      "distratores": [
+        "Veneza",
+        "Verona",
+        "Pisa"
+      ],
+      "ancora": {
+        "nome": "Ponte Vecchio",
+        "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, com lojas construídas sobre ela.",
+        "variantes": [
+          "Ponte Velha"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Busto em calcário característico, fundo neutro, sem texto.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que povo antigo da Península Ibérica produziu este busto?",
+      "resposta": "Íberos",
+      "distratores": [
+        "Celtas",
+        "Etruscos",
+        "Lusitanos"
+      ],
+      "ancora": {
+        "nome": "Dama de Elche",
+        "descricao": "Busto de calcário ibérico do século quarto antes de Cristo, descoberto em 1897 em La Alcudia, perto de Elche, na Espanha.",
+        "variantes": [
+          "Lady of Elche",
+          "Dama d'Elx"
+        ]
+      }
+    }
+  ]
+}

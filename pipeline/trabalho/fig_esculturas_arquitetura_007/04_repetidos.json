@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este templo budista dourado?",
+        "resposta": "Yangon"
+      },
+      "existentes": [
+        {
+          "id": "q07970",
+          "pergunta": "Em que país fica este pagode dourado?",
+          "resposta": "Mianmar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país africano fica esta mesquita de barro?",
+        "resposta": "Mali"
+      },
+      "existentes": [
+        {
+          "id": "q04949",
+          "pergunta": "A Grande Mesquita de Djenné, no Mali, é reformada todo ano numa festa popular. De que material ela é feita?",
+          "resposta": "Tijolos de barro"
+        },
+        {
+          "id": "q08109",
+          "pergunta": "Apesar do aspecto medieval, a atual Grande Mesquita de Djenné, no Mali, foi construída em que século?",
+          "resposta": "Século vinte"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que papa do século quinze mandou construir esta capela, hoje sede do conclave?",
+        "resposta": "Sisto IV"
+      },
+      "existentes": [
+        {
+          "id": "q05286",
+          "pergunta": "Em que século foi construída esta capela do Vaticano?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que cidade italiana fica esta ponte medieval?",
+        "resposta": "Florença"
+      },
+      "existentes": [
+        {
+          "id": "q05293",
+          "pergunta": "Em que século foi erguida a versão atual desta ponte medieval, depois de uma enchente destruir a anterior?",
+          "resposta": "Século quatorze"
+        },
+        {
+          "id": "q07142",
+          "pergunta": "Em Florença, a medieval Ponte Vecchio, tomada por lojas de joias, atravessa qual rio?",
+          "resposta": "Rio Arno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade (Yangon) é fato diferente do país (Mianmar)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "País Mali já está no enunciado das existentes; a pergunta nova pede o país, que é fato distinto de material ou século."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Papa construtor é fato diferente do século."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "A existente q07142 já revela que a ponte fica em Florença; mesma resposta.",
+      "id_existente": "q07142"
+    }
+  ]
+}
