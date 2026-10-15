@@ -1,0 +1,277 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado pela fonte; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nishida fez os primeiros desenhos e Sugimori finalizou, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado, mas a fonte não existe; troca de URL e de um distrator fraco.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "multipla",
+        "pergunta": "Em 2022, o youtuber Logan Paul pagou mais de cinco milhões de dólares por uma carta de Pokémon e entrou para o Guinness. Que carta era essa?",
+        "resposta": "Pikachu Illustrator",
+        "distratores": [
+          "Charizard primeira edição",
+          "Trophy Pikachu",
+          "Mewtwo holográfico"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Logan_Paul"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Arita ilustrou o Charizard do Base Set; fato amplamente documentado, fontes inacessíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seis cartas de prêmio, confirmado pela Wikipédia em português; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "DeNA co-desenvolveu o TCG Pocket e fez Pokémon Masters; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Baralho de 20 cartas no TCG Pocket é fato bem conhecido; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sugimori ilustrava a revista Game Freak de Tajiri, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta não é a forma literal do nome (Pokémon Center Co., Ltd.); ajustada.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "A empresa que hoje administra a marca Pokémon nasceu em 1998 para cuidar das lojas oficiais da franquia. Com que nome ela foi fundada?",
+        "resposta": "Pokémon Center Co., Ltd.",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Pok%C3%A9mon_Company"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "PokéStops e ginásios derivam dos portais de Ingress, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Google Maps: Pokémon Challenge de 1º de abril de 2014, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lançamento no Brasil em 3 de agosto de 2016, dois dias antes da abertura da Rio 2016.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Go Plus+ integra Pokémon Sleep, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Equipes de cinco jogadores, confirmado em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não menciona Lear nem a criação do torneio por um príncipe; sem certeza do fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fonte em inglês diz 40 e a em português 42; fatos conflitantes e distratores distantes.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espeon e Umbreon são os pokémon iniciais de Wes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "XD001 é um Shadow Lugia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fiore é a região de Pokémon Ranger, sem aparecer nos jogos principais.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ovo de Manaphy transferível para Diamond e Pearl, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Alternativas passam de quatro palavras; simplificada para um console só.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Os primeiros Pokémon Mystery Dungeon saíram em duas versões, Red e Blue Rescue Team. Para qual console saiu a versão Red Rescue Team?",
+        "resposta": "Game Boy Advance",
+        "distratores": [
+          "Nintendo DS",
+          "Game Boy Color",
+          "GameCube"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Blue_Rescue_Team_and_Red_Rescue_Team"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Recurso de vibração com bateria própria, citado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome Tumblecube vaza a resposta (cubo); removido do enunciado.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Em Pokémon Quest, de 2018, os pokémon ganham um visual bem diferente do habitual. Como eles aparecem?",
+        "resposta": "Em formato de cubo",
+        "distratores": [
+          "Feitos de massinha",
+          "Desenhados a giz",
+          "Em pixels antigos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Quest"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A coleção de figurinhas é imprecisa; enunciado simplificado e preciso.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "No aplicativo Pokémon Smile, de 2020, que usa a câmera do celular, as crianças salvam pokémon sempre que fazem o quê?",
+        "resposta": "Escovam os dentes",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Smile"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pocket Pikachu funcionava como pedômetro e reagia à caminhada do dono.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Pikachu usa chapéu de detetive, não boné; resposta café correta.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No jogo Detetive Pikachu, o investigador de chapéu de detetive fala com voz de homem maduro e tem um vício. É louco por qual bebida?",
+        "resposta": "Café",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Detective_Pikachu_(video_game)"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pokémon Mini lançado em 2001, confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "O balão de Pikachu estreou em 1998, não em 2001; fonte não trata do balão e foge do subtema.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Elma Chips distribuiu os tazos de Pokémon no Brasil, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato fraco, resposta óbvia, fonte não sustenta e foge do subtema.",
+      "reescrita": null
+    }
+  ]
+}

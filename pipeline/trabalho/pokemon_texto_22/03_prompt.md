@@ -1,0 +1,1373 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Jogos Eletrônicos** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Pokémon 2000",
+      "descricao": "Segundo filme da franquia Pokémon, em que Ash ajuda o lendário Lugia a salvar o mundo, conhecido no Brasil como Pokémon 2000: O Poder de Um."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em Pokémon 2000, que colecionador rico, a bordo de uma fortaleza voadora, captura Moltres, Zapdos e Articuno para completar sua coleção?",
+    "resposta": "Lawrence III",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Lawrence_III",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Movie_2000"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lawrence_III",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Movie_2000",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie 2000 is a 1999 Japanese animated fantasy adventure film directed by Kunihiko Yuyama. It is the second film of the Pokémon anime series and of Pokémon the Series: The Beginning.\n[…]\nThe events of the film take place during Pokémon: Adventures in the Orange Islands, where Ash, Misty and Tracey enter Shamouti Island. While there, they discover the three legendary bird Pokémon, Articuno, Zapdos, and Moltres. Meanwhile, a collector named Lawrence III attempts to steal the three Pokémon to awaken Lugia, which proves dangerous for the legendary Pokémon, Lugia, and Ash himself.\n[…]\nAn ancient prophecy predicts that a conflict between \"the Titans of Fire, Ice, and Lightning\" will only be quelled by the \"Water's Great Guardian\" with the help of a \"Chosen One\". Lawrence III, a Pokémon collector, plans to capture the legendary Pokémon Articuno, Zapdos, and Moltres and sets out in his flying fortress to the Orange Islands, where he locates and captures Moltres.\n[…]\nZapdos attempts to claim the empty island, but is then captured by Lawrence, alongside Ash, his friends, and Team Rocket. The group discover Lawrence's plan and, while he attempts to capture Articuno (which he failed to do), Ash's Pokémon free Moltres, who in turn frees Zapdos, and the two begin fighting, which causes the fortress to crash on Lightning Island.\n[…]\nAsh retrieves Articuno's Treasure and Lugia starts to fly them back to Shamouti; Team Rocket sacrifice themselves to help in the process. Lawrence attempts to capture Lugia, who uses a powerful Aeroblast to destroy the remains of Lawrence's airship; severely weakened, Lugia and Ash collapse into the sea.\n[…]\nPokémon the Movie 2000 at Rotten Tomatoes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_The_Movie_2000",
+        "situacao": "ok",
+        "texto": "Pokémon: The Movie 2000: The Power of One, geralmente referido como Pokémon O Filme 2000, originalmente lançado no Japão como Pocket Monsters the Movie: Revelation Lugia (劇場版ポケットモンスター 幻のポケモン ルギア爆誕, Gekijōban Poketto Monsutā Maboroshi no Pokemon Rugia Bakutan; lit. \"Mirage Pokémon: Lugia's Explosive Birth\"), é um filme de animação de 1999 dirigido por Kunihiko Yuyama. É o segundo filme da franquia \n[…]\nEnquanto Ash, Misty e Tracey viajam num barco, Giraldan, um colecionador de bichinhos pokémon, prepara seu mais novo plano: capturar o raro Lugia. Para tanto, provoca uma catástrofe climática quando ataca e retira de suas ilhas os três pássaros sagrados: Moltres, o pássaro-guardião de fogo; Zapdos, o pássaro-guardião do trovão; e Articuno, o pássaro-guardião do gelo.\n[…]\nLawrence III - Luiz Feier Motta\n[…]\nMundo Pokémon - SNZ\n[…]\nApós o lançamento nos cinemas, Pokémon: O Filme 2000 foi lançado em VHS no Japão em 2 de fevereiro de 2000 e também foi lançado em DVD em 22 de novembro de 2000. No mesmo ano, foi lançado em VHS e DVD nos Estados Unidos em 14 de novembro de 2000 e no Brasil pela Warner Home Video.\n[…]\nApós os anos seguintes, foi relançado em DVD no dia 21 de setembro de 2007 no Japão, fazendo parte da coleção Pikachu the Movie Box 1998-2002. Nos Estados Unidos, foi relançado em DVD no dia 7 de abril de 2009 pela Warner Home Video, fazendo parte da coleção Pokémon: The First Three Movies. Em 28 de novembro de 2012, o filme foi remasterizado digitalmente e lançado pela 1ª vez em Blu-ray, fazendo parte da coleção Pikachu the Movie Premium Box 1998-2010.\n[…]\nNos Estados Unidos, foi relançado em DVD e lançado em Blu-ray no dia 2 de fevereiro de 2016 pela Viz Media, fazendo parte da coleção Pokémon: The Movies 1-3 Collection, depois foi relançado em 2 de outubro de 2018 em formato padrão. Em 2017, está disponível em formato digital no Brasil pela iTunes e pelo Google Play.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Pokémon 3: O Filme",
+      "descricao": "Terceiro filme da franquia Pokémon, de 2000, em que os Unown criam um mundo de cristal ao redor da menina Molly e de um Entei ilusório."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em Pokémon 3, a menina Molly sente falta da mãe, e Entei atende ao seu desejo. Quem ele sequestra para ocupar esse lugar?",
+    "resposta": "Delia Ketchum, mãe de Ash",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_3:_The_Movie",
+      "https://bulbapedia.bulbagarden.net/wiki/M03"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_3:_The_Movie",
+        "situacao": "ok",
+        "texto": "Pokémon 3: The Movie is a 2000 Japanese anime film directed by Kunihiko Yuyama as the third film in the Pokémon franchise. The film stars the voices of Rica Matsumoto, Ikue Ōtani, Mayumi Iizuka, Yūji Ueda, Megumi Hayashibara, Shin-ichiro Miki, Inuko Inuyama, Yumi Tōma, Satomi Kōrogi, Unshō Ishizuka, Kōichi Yamadera, Naoto Takenaka, Hirohide Yakumaru, and Ai Kato, and Noriko Sakai. In the film, Ash\n[…]\nMeanwhile, Ash Ketchum, Misty, and Brock meet and befriend a trainer named Lisa, arriving in Greenfield just in time to see the crystallization slowly in progress. They also meet up with Professor Oak and Ash's mom, Delia, who arrived to help with the situation, as the Ketchums are old friends of the Hales. However, Entei kidnaps Delia, following Molly's request for a mother as well, and he hypnotizes her into thinking she is Molly's mother.\n[…]\nAsh, Misty, Brock, and their Pokémon head out to the mansion to save Delia, communicating with Oak and Skyler thanks to a PokéGear device given to them by Lisa. Team Rocket try investigating the mansion, but Entei blasts them into its depths. Molly watches Ash's Pokémon in action through a television and falls asleep, imagining herself being a Pokémon Trainer; Delia is snapped out of her trance by seeing Ash on the TV.\n[…]\nAsh locates Molly and Delia, attempting to convince Molly to leave with them, but she is too scared and refuses, causing the power of the Unown to fight back. Entei returns and battles Ash, defeating his Pokémon and nearly killing him and Pikachu. However, having witnessed the crisis on TV in Charicific Valley, Ash's Charizard appears in time to rescue Ash and Pikachu. Entei engages Charizard in a duel and eventually tries to kill him.\n[…]\nPokémon 3: The Movie was released on VHS and DVD on August 21, 2001.\n[…]\nPokémon 3: The Movie at IMDb\n[…]\nPokémon 3: The Movie  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M03",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_3%3A_Spell_of_the_Unown",
+        "situacao": "ok",
+        "texto": "Pokémon 3: The Movie: Spell of the Unown, geralmente referido como Pokémon 3: The Movie, originalmente lançado no Japão como Pocket Monsters the Movie: Lord of the \"UNKNOWN\" Tower, ENTEI (劇場版ポケットモンスター 結晶塔の帝王 ENTEI, Gekijōban Poketto Monsutā Kesshōtō no Teiō ENTEI), é um filme de animação de 2000, dirigido por Kunihiko Yuyama. É o terceiro filme da franquia Pokémon, sendo lançado nos cinemas japone\n[…]\nO filme começa com um homem falando com sua filha de 5 anos, Molly. Ele está lendo um livro, e contando a sua filha o que ele faz em seu trabalho, explicando que ele tem a tarefa de descobrir Unowns. Ele então mostra a ela no livro uma foto com vários Unowns. Molly olhando para o livro vê um Entei, e diz que ele é o seu Pokémon favorito, dizendo também que ele a lembra do seu pai. Então o pai da Molly finge ser Entei e deixa ela subir em suas costas.\n[…]\nUm pouco antes, Molly implora para que seu pai não machuque Charizard. Misty e Brock pedem que Molly vá com a mãe de Ash, dizendo que ela é muito boa em batalhas Pokémon. Então a mãe de Ash e Molly se abraçam. Molly chora de alegria, e os cristais desaparecem. Entei começa a desaparecer, dizendo se ela está feliz assim, ele também está. Eles tentam ir embora, mas os Unowns percebem o que está acontecendo e não querem que Molly vá embora, então eles começam a fazer mais cristais em volta.\n[…]\nA trilha sonora foi produzida nos estúdios Dellart Cine, com a participação do elenco de cantores do CD Totalmente Pokémon.\n[…]\nPokémon Johto (Versão Filme)\n[…]\nPokémon 3: O Feitiço dos Unown foi lançado pela 1ª vez nos cinemas japoneses no dia 8 de Julho de 2000 no Japão pela distribuição da Toho. No ano seguinte, o filme foi lançado no dia 6 de Abril de 2001 nos Estados Unidos e no Canadá, pelo licenciamento da 4Kids Entertainment e da Kids' WB. Foi exibido no Brasil no dia 6 de Julho e em Portugal no dia 14 de dezembro no mesmo ano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Pokémon Heróis",
+      "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Pokémon Heróis, o filme de Latias e Latios ambientado numa cidade de canais, estreou nos cinemas japoneses em que ano?",
+    "resposta": "2002",
+    "distratores": [
+      "2001",
+      "2003",
+      "2004"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+      "https://bulbapedia.bulbagarden.net/wiki/M05"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+        "situacao": "ok",
+        "texto": "Pokémon Heroes (also known as Pokémon Heroes: The Movie) is a 2002 Japanese animated film directed by Kunihiko Yuyama and written by Hideki Sonoda. Produced by OLM, Inc. and distributed by Toho, it is the fifth film in the Pokémon series. The film stars Rica Matsumoto, Ikue Ōtani, Mayumi Iizuka, Yūji Ueda, Satomi Kōrogi, Megumi Hayashibara, Shin-ichiro Miki, Inuko Inuyama, Kōichi Yamadera, Unshō I\n[…]\nThe film premiered in Japan on July 13, 2002. An English adaptation produced by 4Kids Entertainment was distributed in the United States by Miramax Films on May 16, 2003. This version stars the regular television cast of Veronica Taylor, Eric Stuart, Rachael Lillis and Maddie Blaustein. The film grossed US$27 million in Japan and $756,381 in the United States, becoming the lowest-grossing film in the Pokémon franchise.\n[…]\nDuring a production presentation held at a hotel January 30, 2002, in Japan, the film's title was officially announced alongside the announcement of video game Pokémon Ruby and Sapphire's release date. Several members of the film's Japanese voice cast were revealed at the presentation, with the cast members explaining their roles in the film. The presentation was stated to go on a \"road show\" following this initial reveal at the hotel.\n[…]\nThe first three Pokémon films, Pokémon: The First Movie, Pokémon: The Movie 2000, and Pokémon 3: The Movie, were released outside of Japan by Warner Bros., but the distribution rights for Pokémon 4Ever and Pokémon Heroes were given to Miramax on April 2, 2002, by The Pokémon Company. Miramax was rumored to have bought the rights for $1 million and by giving up 75% of the profits. Harvey Weinstein stated that Miramax could \"reinvigorate the franchise\".\n[…]\nPokémon Heroes at IMDb\n[…]\nPokémon Heroes at Rotten Tomatoes\n[…]\nPokémon Heroes at Box Office Mojo\n[…]\nPokémon Heroes  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M05",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+        "situacao": "ok",
+        "texto": "Heróis Pokémon é quinto filme do animê Pokémon lançado em 13 de julho de 2002 no Japão e em 2003 nos Estados Unidos. Seu lançamento no Brasil foi no pay-per-view da Sky em março de 2005.\n[…]\nAsh então percebe que estava ficando tarde e lembra que havia dito a Misty que estaria no Centro Pokémon antes do anoitecer. Latias não queria que ele fosse embora. Kanon se oferece para levá-lo de volta. Durante a volta, Ash faz algumas perguntas a Kanon e uma delas foi porque Latias assume a forma dela. Kanon explica que Latias é superbrincalhona perto de Latios e que às vezes ela se sente sozinha e que vai para o outro lado (a cidade de Alto Mare) para quebrar a rotina.\n[…]\nDepois, Ash e os outros procuram pelos guardiões. Eles avistam um Mantine e outros pokémons de água carregando Latias. Latias acorda e olha pelos lados, procurando pelo irmão. Bongore diz que Latios usou toda sua energia para salvar a cidade, sacrificando sua vida. Ash conforta Latias pela perda do irmão. Eles encontram e “Lágrima do Coração” e voltam para o jardim. Kanon a põe de volta ao seu lugar. Ela e seu pai agradecem a Ash e seus amigos pela ajuda.\n[…]\nNo Brasil, Heróis Pokémon nunca foi lançado oficialmente. A Europa Filmes que comprou os Direitos de Pokémon 4: Viajantes do Tempo não foi rápida o bastante para comprar os direitos de Pokémon 5, que acabou sendo comprada pela Buena Vista. Esta empresa nunca quis lançar o DVD do filme, o que faz do filme o mais raro no Brasil. Heróis Pokémon passou somente duas vezes no Brasil. Ambas na seção de filmes do Jetix e, ainda, no mesmo ano (Janeiro e Março de 2007).\n[…]\nPokémon Heroes no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Pokémon Heróis",
+      "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Japão, o título de Pokémon Heróis apresenta Latias e Latios como deuses guardiões de qual lugar?",
+    "resposta": "Da Capital da Água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+      "https://bulbapedia.bulbagarden.net/wiki/M05"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+        "situacao": "ok",
+        "texto": "Pokémon Heroes (also known as Pokémon Heroes: The Movie) is a 2002 Japanese animated film directed by Kunihiko Yuyama and written by Hideki Sonoda. Produced by OLM, Inc. and distributed by Toho, it is the fifth film in the Pokémon series. The film stars Rica Matsumoto, Ikue Ōtani, Mayumi Iizuka, Yūji Ueda, Satomi Kōrogi, Megumi Hayashibara, Shin-ichiro Miki, Inuko Inuyama, Kōichi Yamadera, Unshō I\n[…]\nIn Pokémon Heroes, Ash Ketchum, Misty and Brock travel to the city of Alto Mare and face off against the mysterious spies Annie and Oakley, who seek to use the guardian Pokémon Latias and Latios to power a superweapon. The film takes place during the fifth season of the Pokémon anime.\n[…]\nAt a local museum, the trio learn from its curator and Bianca's grandfather Lorenzo about Alto Mare's history, the defense mechanism, and the evil trainer's fossilized Pokémon on display. Ash finds Bianca and chases her across the city into a hidden garden where Latias and Latios live. As Pikachu plays with the Pokémon, Lorenzo shows Ash the Soul Dew, unaware that Annie and Oakley have used an unmanned aerial vehicle to infiltrate the sanctuary.\n[…]\nThat evening, Annie and Oakley capture Latios and the Soul Dew to power the D.M.A., but Latias escapes and seeks Ash's help. Using the defense mechanism, Oakley locks down the city and revives the evil trainer's Pokémon from the dead. After escaping the lockdown, Ash, Pikachu and Latias travel to the museum to rescue Latios and disable the defense mechanism in the ensuing fight. The Soul Dew shatters from its use in the device, causing the city's water to become a tidal wave.\n[…]\nLatias and Latios combine their powers to stop the wave, but Latios dies in the process and transforms into a new Soul Dew.\n[…]\nPokémon Heroes at IMDb\n[…]\nPokémon Heroes at Rotten Tomatoes\n[…]\nPokémon Heroes at Box Office Mojo\n[…]\nPokémon Heroes  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M05",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+        "situacao": "ok",
+        "texto": "Heróis Pokémon é quinto filme do animê Pokémon lançado em 13 de julho de 2002 no Japão e em 2003 nos Estados Unidos. Seu lançamento no Brasil foi no pay-per-view da Sky em março de 2005.\n[…]\nAlto Mare é uma ilha muito diferente. O estilo, a arquitetura, a localidade e até mesmo pelo que é famosa: uma cidade construída sobre a superfície da água. A beleza e os locais de Alto Maré deram-lhe o título de “A capital das águas”. Mais há algo por trás de Alto Mare...\n[…]\nLatias e Latios estão brincando com Pikachu, enquanto Bongore responde às dúvidas de Ash sobre os dois e sobre toda a lenda da ilha. Mais tarde, ele mostra a Ash a “Lágrima do Coração”, que estava no centro de um pequeno lago. Isso era a fonte da água de Alto Mare. Enquanto isso, uma pequena câmera sobrevoava ao redor deles. Eram Zanna e Rion.\n[…]\nDe volta ao templo, elas carregam Latios até a máquina e preparam a próxima fase do templo.\n[…]\nLatias e Ash estão fugindo de Kabutops, que mantém sua velocidade, já que a água não é um problema para ele. Latias virá em uma esquina, mas vira tão rápido que faz com que Ash voe longe. Kabutops se prepara para atacá-lo, quando Crobat, Politoed e Corsola o param. Ash os agradece e continua.\n[…]\nDepois, Ash e os outros procuram pelos guardiões. Eles avistam um Mantine e outros pokémons de água carregando Latias. Latias acorda e olha pelos lados, procurando pelo irmão. Bongore diz que Latios usou toda sua energia para salvar a cidade, sacrificando sua vida. Ash conforta Latias pela perda do irmão. Eles encontram e “Lágrima do Coração” e voltam para o jardim. Kanon a põe de volta ao seu lugar. Ela e seu pai agradecem a Ash e seus amigos pela ajuda.\n[…]\nPokémon Heroes no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Pokémon: Jirachi, Realizador de Desejos",
+      "descricao": "Sexto filme da franquia Pokémon, de 2003, em que Ash e May protegem o mítico Jirachi do mágico Butler."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No filme de 2003 estrelado por Jirachi, o mágico Butler quer usar o poder do mítico para criar qual lendário de Hoenn?",
+    "resposta": "Groudon",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/M06",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Jirachi:_Wish_Maker"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M06",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Jirachi:_Wish_Maker",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Pokémon: O Destino de Deoxys",
+      "descricao": "Sétimo filme da franquia Pokémon, de 2004, em que o alienígena Deoxys enfrenta Rayquaza numa cidade tecnológica."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O filme em que Rayquaza enfrenta o alienígena Deoxys numa cidade cheia de tecnologia estreou no Japão em que ano?",
+    "resposta": "2004",
+    "distratores": [
+      "2003",
+      "2005",
+      "2006"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Destiny_Deoxys",
+      "https://bulbapedia.bulbagarden.net/wiki/M07"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Destiny_Deoxys",
+        "situacao": "ok",
+        "texto": "Pokémon: Destiny Deoxys is a 2004 Japanese anime film directed by Kunihiko Yuyama. It is the seventh film of the Pokémon anime series and the second film of Pokémon the Series: Ruby and Sapphire. The film stars the voices of Rica Matsumoto, Ikue Otani, Yuji Ueda, Kaori, Fushigi Yamada, Noriko Hidaka, Koichi Yamadera, Susumu Chiba, Kenji Nojima and Becky. The events of the film take place during Po\n[…]\nA battle ensues, destroying a nearby research site and traumatizing a young boy Tory (Tou'i), scared by a stampede of Spheal, Sealeo, and Walrein. Deoxys engages Rayquaza and the two take turns delivering devastating blows to each other, but the fight draws to a conclusion when Rayquaza surprises the alien Pokémon and fires a point blank Hyper Beam at it.\n[…]\nPokemon: Destiny Deoxys was distributed theatrically in Japan by Toho on July 17, 2004, alongside Steamboy.\n[…]\nThe film was released on VHS and DVD in Japan by Media Factory on December 21, 2004. The film was later released in the U.S. on DVD and VHS by Buena Vista Home Entertainment on February 15, 2005. In the UK, StudioCanal released the DVD on April 2, 2012.\n[…]\nThe English dub for Pokémon: Destiny Deoxys received generally negative reviews. DVD Talk gave it a negative review saying that \"I didn't find much of the film that was much superior to an average episode of Pokémon\" and \"unless you have a die-hard Pokemon fan in your household, this DVD should just be skipped\".\n[…]\nBellaOnline gave it a negative review saying that \"while Pokémon: Destiny Deoxys is a decent film, I was rather disappointed by the lack of effort Miramax put into the DVD extras on this release\" and that \"however, if you are a fan of the Pokémon anime, you should purchase this DVD for your collection\".\n[…]\nOfficial pokemon.com site\n[…]\nPokémon: Destiny Deoxys at IMDb\n[…]\nPokémon: Destiny Deoxys  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M07",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Destiny_Deoxys",
+        "situacao": "ok",
+        "texto": "Pokémon 7: Alma Gêmea, lançado originalmente no Japão como Pocket Monsters Advanced Generation the Movie: Deoxys the Visitor (劇場版ポケットモンスター アドバンスジェネレーション 裂空の訪問者 デオキシス, Gekijōban Poketto Monsutā Adobansu Jenerēshon Rekkū no Hōmonsha Deokishisu; lit. \"Visitor from a Fissure in the Sky: Deoxys\") é o sétimo filme da série de desenho animado Pokémon e o segundo de Pocket Monsters Advanced Generation.\n[…]\nQuerendo aproveitar o sucesso que os monstros de bolso faziam e aproveitando para divertir ainda mais os seus passageiros, a companhia aérea All Nippon Airways (ANA) fez uma parceria com os produtores da série em prol da criação de um curta-metragem exclusivo para ser exibido durante os vôos domésticos da empresa durante todo o mês de agosto de 2004.\n[…]\nQuatro anos depois, Ash, Pikachu, e amigos chegam na cidade de alta tecnologia de Larousse, pronto batalhar na famosa torre de batalha da cidade. Na Torre de Batalha, Ash vai a uma batalha e Tory por engano entra na batalha juntamente com Ash. Seus adversários são Rafe e Sid. Tory usa o pokémon Torkoal do Ash. No entanto, Tory não sabe como lidar com Torkoal e eles perdem. Tory foge, parando para salvar um Minun que foi preso em uma lata de lixo.\n[…]\nQuando Deoxys começa a remover os habitantes da cidade para procurar o ovo verde, cabe a Ash, Pikachu e Tory para ajudá-lo a encontrar o óvulo. Isso é complicado pelo retorno de Rayquaza, e os robôs de segurança com defeito. A cidade está repleta de blocos de robôs quase sendo destruído por Rayquaza. A cidade é salva com o encontro dos Deoxys do ovo verde e roxo e por Ash, Pikachu e Tory.\n[…]\nRayquaza salvou o mundo, mas que muita coisa foi destruída, mesmo assim Rayquaza saiu da Cidade como um Herói, junto com Ash e Tory. Deoxys não está morto, Rayquaza apenas arrumou um jeito de acabar com aquela batalha devastadora.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Lucario e o Mistério de Mew",
+      "descricao": "Oitavo filme da franquia Pokémon, de 2005, em que Ash conhece um Lucario ligado ao antigo cavaleiro Aaron."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Lucario e o Mistério de Mew, Lucario desperta depois de séculos e confunde Ash com seu antigo mestre, o cavaleiro Aaron. Por quê?",
+    "resposta": "Os dois têm aura parecida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew",
+      "https://bulbapedia.bulbagarden.net/wiki/M08"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew",
+        "situacao": "ok",
+        "texto": "Pokémon: Lucario and the Mystery of Mew is a 2005 Japanese animated fantasy film directed by Kunihiko Yuyama and produced by OLM, Inc. It is the eighth film of the Pokémon anime series and the third film of Pokémon the Series: Ruby and Sapphire.\n[…]\nIn the distant past, a war is about to break out between Pokémon outside the Tree of Beginning. The Pokémon Lucario informs his master, the Aura Guardian Sir Aaron, of the danger, however to his shock, Aaron seemingly betrays him as he proceeds to leave, sealing Lucario away in his staff. After the staff is given to the Queen of Cameron Palace by a Pidgeot, she witnesses the Tree of Beginning start to shine brightly, which also stops the impending conflict of the war.\n[…]\nOver a thousand years later, Ash Ketchum and his friends arrive at Cameron Palace where a festival is being held to celebrate Sir Aaron. At the festival, Ash, coincidentally wearing a re-creation of Aaron's outfit, competes in a tournament at Cameron Palace and wins, to become the \"Aura Guardian\" for that year. As part of the celebration, Ash is granted Aaron's staff, where his \"Aura\", which resembles that of Sir Aaron, ends up inadvertently releasing Lucario from his capture.\n[…]\nHowever, the disruption of energy flow in the tree due to the defense system sends the tree into shock, and as Mew and the tree are symbiotic creatures that depend on each other for survival, Mew also becomes very ill. Traveling to the tree's heart, Ash, Kidd, and Lucario witness a time flower's vision of Aaron, revealing that he actually sacrificed himself using his Aura power into the Tree to stop the war.\n[…]\nPokémon: Lucario and the Mystery of Mew at Box Office Mojo\n[…]\nPokémon: Lucario and the Mystery of Mew at Rotten Tomatoes"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M08",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Lucario_and_the_Mystery_of_Mew",
+        "situacao": "ok",
+        "texto": "Pokémon: Lucario e o Mistério de Mew é o terceiro filme de Pocket Monsters Advanced Generation e o oitavo da série inteira.\n[…]\nO recém-Pikachu se transforma em Mew e Kid revela seus dois Weaviles. Ela lança um dispositivo para seus Pokémons, dizendo que capturará Mew.\n[…]\nKid explica o que era a flor e que Ash só conseguiu fazer isso pois possuía a mesma aura de Aaron. De noite, parando em torno de uma fogueira, Ash conta como ficou amigo de Pikachu, depois de ambos serem atacados por um bando de Spearows. Lucario tem outra lembrança do treinamento que teve com Aaron, de como conseguiu desviar de vários troncos com os olhos vendados. Lucario pergunta o que é confiança, e diz que humanos não são confiáveis.\n[…]\nPassando por cima de um grande cristal, eles fogem para fora da caverna. Eles passam por uma ponte e entram em outro lugar. Lucario, quando passa pela ponte, usa um ataque para quebra-la e deixa Registeel e Regirock para trás. Dois robôs de Kid aparecem sendo engolidos por bolhas laranjas. Na caverna em que entrou, Jessie é capturada por um Cradily laranja. James envia seu Cacnea para resgatar Jessie. Ele ataca com um ataque de mísseis, mas eles atravessam o Pokémon.\n[…]\nAli Lucario parece ter encontrado a rota de fuga, mas no caminho é pego por Registeel. Kid e Ash são pegos pelas criaturas laranjas, enquanto Regirock também aparece, ao lado de Registeel, que ataca Lucario. Antes de serem consumidos, Kid libera seus dois Weaviles, e Ash libera seu Swellow e seu Phanpy. Ash é puxado por seus Pokémons, mas não funciona e ele acaba sendo consumido pelo glóbulo branco, que desaparece.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Lucario e o Mistério de Mew",
+      "descricao": "Oitavo filme da franquia Pokémon, de 2005, em que Ash conhece um Lucario ligado ao antigo cavaleiro Aaron."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Qual destes filmes de Pokémon, lançados em quatro anos seguidos, chegou primeiro aos cinemas japoneses?",
+    "resposta": "O filme de Lucario",
+    "distratores": [
+      "O filme de Manaphy",
+      "O filme de Darkrai",
+      "O filme de Giratina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films",
+        "situacao": "ok",
+        "texto": "Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been twenty-three animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, while the twentieth, twenty-first, and twenty-third are set in an alternate continuity to the anim\n[…]\nThe launch of the mobile game Pokémon Go in 2016 reignited mainstream interest in the Pokémon franchise in the Western market since its initial peak in the early 2000s, and various Hollywood film companies approached The Pokémon Company to gain film rights. Eventually, Warner Bros. Pictures and Legendary Entertainment struck a deal to produce a live-action adaptation of the 2018 video game Detective Pikachu; Pokémon Detective Pikachu, the first official live-action Pokémon film.\n[…]\nPikachu shorts are a series of twenty-seven animated short films shown at the start of animated theatrical films based on Pokémon, and have also been shown on ANA flights in Japan and released during Christmas as Pikachu's Winter Vacation.\n[…]\nThese television specials, which run longer than the normal half-hour and are usually not separated into more than one episode in either the original or the dub, are often considered TV Pokémon movies, not counting towards the running total. They do not air in theaters, but are instead broadcast on the same networks that the anime is broadcast on for their premieres.\n[…]\n\"Pokémon Movies - US official website\".\n[…]\n\"Pokémon Movies - JP official website\" (in Japanese).\n[…]\n\"Pokémon Movies - KO official website\" (in Korean)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew",
+        "situacao": "ok",
+        "texto": "Pokémon: Lucario and the Mystery of Mew is a 2005 Japanese animated fantasy film directed by Kunihiko Yuyama and produced by OLM, Inc. It is the eighth film of the Pokémon anime series and the third film of Pokémon the Series: Ruby and Sapphire.\n[…]\nPokémon: Lucario and the Mystery of Mew was one of the four nominees for the American Anime Awards' \"Best Anime Feature\" award, but it lost to Final Fantasy VII: Advent Children.\n[…]\nAsh eventually earns Lucario's trust by apologizing for his hurtful words. As they enter the Tree of Beginning, they are attacked by Regirock, Regice, and Registeel, the tree's guardians who recognize them as a threat.\n[…]\nFollowing the vision, Lucario and Ash combine their Aura to reverse the self-destruction of the tree and save Mew, but Lucario pushes Ash away towards the completion of the process to save him.\n[…]\nPokémon: Lucario and the Mystery of Mew was released in Japan on July 16, 2005.\n[…]\nThe general screening of Lucario and the Mystery of Mew in Japan ran for 6 weeks from July 16 to August 26, 2005.\n[…]\nSince premiering on July 16, 2005, Lucario and the Mystery of Mew grossed ¥4.3 billion at the Japanese box office, making it the year's second highest-grossing domestic film, behind only Howl's Moving Castle. Approximately 3,930,000 viewers saw the movie.\n[…]\nHe concluded: \"Lucario and the Mystery of Mew isn't out to change the face of animation forever, but it's set to entertain, which it does with its fantasy flavor and strong back-story.\n[…]\nPokémon: Lucario and the Mystery of Mew at IMDb\n[…]\nPokémon: Lucario and the Mystery of Mew  at Anime News Network's encyclopedia\n[…]\nPokémon: Lucario and the Mystery of Mew at Box Office Mojo\n[…]\nPokémon: Lucario and the Mystery of Mew at Rotten Tomatoes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_filmes_de_Pok%C3%A9mon",
+        "situacao": "ok",
+        "texto": "Pokémon é uma franquia de mídia criada pelo designer de jogo eletrônico Satoshi Tajiri que se concentra em criaturas fictícias chamadas Pokémon. Em 2020, houve 23 filmes de animação e um filme live-action. Os primeiros dezenove filmes de animação são baseados na série de televisão de anime de mesmo nome, com o filme original sendo refeito no dia 22. Os 20º, 21º e 23º filmes de animação são ambient\n[…]\nNesses quatro filmes distribuídos pela Miramax, havia elencos de dublagem parcial ou totalmente diferentes dos da série de TV em muitos países. Começando com Pokémon: Lucario and the Mystery of Mew, a Viz Media é a única licenciada na América do Norte (com a Studio Distribution Services, LLC, um consórcio entre a Warner Bros.\n[…]\nHome Entertainment e a Universal Pictures Home Entertainment, responsável pela distribuição de DVDs de Pokémon na América do Norte: Lucario and the Mystery of Mew em diante). Nos lançamentos brasileiros, os três primeiros filmes foram distribuídos pela Warner Bros.; quarto, sexto e sétimo foram distribuídas pela Europa Filmes; quinto foi distribuída pela Buena Vista, e a partir do oitavo filme foi distribuída pela SDI Media Poland.\n[…]\nO ais recente filme de animação, Pokémon the Movie: Secrets of the Jungle, foi originalmente programado para ser lançado nos cinemas japoneses em 10 de julho de 2020, mas foi adiado para 25 de dezembro de 2020, devido à pandemia de COVID-19; foi lançado em 8 de outubro de 2021, nos Estados Unidos e Brasil. O próximo filme, Pokémon: Wild Card, será dirigido por Katsuhiko Kitada no estúdio de animação CloverWorks e tem lançamento previsto para 2027.\n[…]\n«Pokémon Filmes – Website oficial dos EUA»\n[…]\n«Pokémon Filmes – Website oficial do Japão» (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Oración",
+      "descricao": "Melodia antiga do filme A Ascensão de Darkrai, de 2007, capaz de acalmar os lendários Dialga e Palkia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em A Ascensão de Darkrai, uma antiga melodia chamada Oración acalma Dialga e Palkia. O que significa esse nome em espanhol?",
+    "resposta": "Oração",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Oraci%C3%B3n",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Rise_of_Darkrai"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Oraci%C3%B3n",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Rise_of_Darkrai",
+        "situacao": "ok",
+        "texto": "Pokémon: The Rise of Darkrai is a 2007 Japanese animated fantasy adventure film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama and written by Hideki Sonoda. It is the tenth film in the Pokémon anime series and the first film of Pokémon the Series: Diamond and Pearl, created by Satoshi Tajiri, Junichi Masuda and Ken Sugimori.\n[…]\nThe next day, Palkia, injured and attempting to hide from Dialga, emerges in Alamos Town. It moves the town to another dimension with no way of escaping. Darkrai reappears in the town square, telling someone to go away. Alberto, joined by Ash, Dawn, and other Pokémon trainers, engage in combat with it. Outraged, Darkrai traps many Pokémon in the town square in nightmares. Later that evening, Tonio finds Palkia resting between the Towers.\n[…]\nAs Palkia is about to hit Darkrai with one of its attacks, Dialga arrives, opens fire on the two and immediately runs into Palkia. As Palkia and Dialga brawl, the entire town slowly starts to collapse. After Alice finds the \"Oración\" music disc, Ash and Dawn climb up to the music disc player on the Space-Time Towers' skybridge while Brock helps evacuate the townspeople. Tonio reveals that if Palkia and Dialga collide once more, the dimension they are in will be destroyed.\n[…]\nWhen Palkia and Dialga discharge their attacks, Darkrai crosses the attacks' line and forms a sphere around itself to block the attacks, engulfing and immobilizing Palkia and Dialga in the process.\n[…]\nAfter breaking free, Palkia and Dialga both attack Darkrai, causing it to disintegrate. Ash and Dawn realize that the Space-Time Towers are no-longer charged, so Pikachu along with Dawn's Pachirisu use their electrical powers to charge the Towers as they play the \"Orácion\" disc. The song successfully calms Palkia and Dialga down. Dialga flies away, and Palkia's wound heals."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_The_Rise_of_Darkrai",
+        "situacao": "ok",
+        "texto": "Pokémon: The Rise of Darkrai, originalmente lançado no Japão como Pocket Monsters Diamond & Pearl the Movie: Dialga vs. Palkia vs. Darkrai (劇場版ポケットモンスター ダイヤモンド&パール ディアルガVSパルキアVSダークライ, Gekijōban Poketto Monsutā Daiyamondo Pāru Diaruga tai Parukia tai Dākurai) é o décimo filme de animação da franquia Pokémon. Foi lançado nos cinemas japoneses em 14 de julho de 2007.\n[…]\nDialga e Palkia dispertam e se encontram numa fenda entre o espaço e tempo. Lá eles começam uma batalha, mas Palkia ferido foge de Dialga. E Ash e seus amigos sentem um vento estranho causado por esses dois deuses. Em Alamos eles conhecem Alice que os guia pela cidade e Alberto um barão que culpa Darkrai por tudo e Tonio um cientista local. Ash e seus amigos vêm Darkrai um Pokémon que causa pesadelos. Ele é atacado e faz Ash ter pesadelos mostrando uma imagem. Ele acorda no centro Pokémon.\n[…]\nLogo após Palkia luta com Dialga e tenta fugir dele indo para alamos onde tenta se recuperar. Darkrai tenta impedir Palkia, mas a cidade e levada a outra dimensão por Palkia. Eis que Dialga aparece e os tres começam uma luta que começa a destruir a cidade. Dialga e Palkia vão dar um ataque que destruia Alamos Town e Darkrai cria uma esfera que se mistura aos ataques. A esfera some e Dialga e Palkia derrotam Darkrai que some em uma nuvem de pó.\n[…]\nNa torre Tempo-Espaço Ash e Dawn ativam a maquina que começa a tocar uma canção chamada oracion,essa canção foi ensinada a Alice por sua vó, quando Dialga e Palkia escutam a canção se acalmão e percebem que sua luta e errada.Então Dialga e Palkia retornam a cidade para sua verdadeira posição.\n[…]\nPokémon: The Rise of Darkrai (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon: The Rise of Darkrai no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Giratina e o Guerreiro dos Céus",
+      "descricao": "Décimo primeiro filme da franquia Pokémon, de 2008, em que Ash ajuda o mítico Shaymin e enfrenta o caçador Zero."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em Giratina e o Guerreiro dos Céus, Giratina arrasta Shaymin e Ash para o mundo paralelo onde vive. Como esse mundo se chama?",
+    "resposta": "Mundo Reverso",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Reverse_World",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Giratina_and_the_Sky_Warrior"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Reverse_World",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Giratina_and_the_Sky_Warrior",
+        "situacao": "ok",
+        "texto": "Pokémon: Giratina & the Sky Warrior is a 2008 Japanese animated adventure film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama from a screenplay by Hideki Sonoda. It is the eleventh film in the Pokémon anime series and the second film of Pokémon the Series: Diamond and Pearl, created by Satoshi Tajiri, Junichi Masuda and Ken Sugimori, and serves as a direct \n[…]\nGiratina captures Dialga and drags it into the Reverse World. Shaymin, a hedgehog-like Pokémon which bears flowers, gets caught on Dialga's back when the portal opens. A frightened Shaymin uses its powers to escape through a portal back to the world of reality. Dialga follows Shaymin after it disables Giratina's ability to venture to the world of reality by trapping it in an infinite time loop.\n[…]\nIn the Reverse World, Ash and Dawn encounter Giratina but are rescued by Newton. Giratina, who wants to use Shaymin's power to enter into the world of reality, targets Shaymin, prompting Newton to send Shaymin, Ash, and Dawn back to the world of reality. Zero, who is also seeking Shaymin's power, attacks the kids with his army of Magnemite, Magneton, and Magnezone, forcing them to escape onto a departing train.\n[…]\nOn the train, Shaymin makes contact with a Gracidea flower and transforms into its Sky Forme, altering its appearance to a deer-like state and allowing it to fly. Ash, Dawn, and Brock board a ferry to the Flower Garden, but are sucked into the Reverse World again, followed by Zero and his Pokémon. Giratina attacks the group after Shaymin provokes it. When night falls, Shaymin transforms back to its normal form.\n[…]\nShaymin heals Giratina, and Zero flees to the Reverse World to cause damage to the world of reality, resulting in the mountain's glacier to start moving towards the Flower Garden. The Pokémon Regigigas is awakened, and along with a herd of Mamoswine, slows the glacier down."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Giratina_and_the_Sky_Warrior",
+        "situacao": "ok",
+        "texto": "Pokémon: Giratina e o Cavaleiro do Céu é um filme de longa-metragem produzido no Japão em 2008 e depois foi enviado nos Estados Unidos em 2009, o décimo primeiro da série Pokémon. Além disso, é a segunda parte da trilogia da Saga Diamante e Pérola, sendo a continuação do filme Pokémon: O Pesadelo de Darkrai.\n[…]\nGiratina é o único morador do Mundo Reverso, um mundo pouco conhecido em paralelo com o nosso em que vivemos. Furioso quando Palkia e Dialga distorcem o tempo e o espaço, Giratina leva Dialga até o Mundo Reverso para iniciar uma batalha - mas o confronto é paralisado por um pequeno Shaymin, um Pokémon Gratidão.\n[…]\nApós deixar o Mundo Reverso e conhecer Ash e seus amigos, Shaymin - comunicando-se telepaticamente - pede por ajuda, para que ele possa se reunir com os outros Shaymin no jardim Gracidea.\n[…]\nDialga, que está descançando em um lago, é atacado por Giratina e é arrastado para o Mundo Reverso; Shaymin, que está presente, também é pego. Escapar é impossível para Dialga, mas Shaymin arranja uma forma de livrar-se através da absorção do veneno que se encontra no Mundo Reverso. Tal ato de Shaymin, acaba causando uma explosão e abrindo um buraco no Mundo Reverso, onde Shaymin e Dialga conseguem escapar.\n[…]\nEnquanto estão escapando, Dialga coloca o Mundo Reverso em um loop de tempo, fechando-o e impedindo que Giratina entre no Mundo Real. Shaymin é um Pokémon agradável. Ele respira o ar sujo e poluído dos mundos e o devolve limpo. No entanto, se ele respira em meio ao veneno, uma explosão violenta de energia ocorre. Esta habilidade é chamada de Semente Ofuscante (Seed Flare), sendo uma força explosiva capaz de abrir um grande buraco no Mundo Reverso.\n[…]\nPokémon Giratina & the Sky Warrior (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon Giratina & the Sky Warrior no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Arceus",
+      "descricao": "Pokémon mítico do tipo Normal da quarta geração, que segundo a mitologia de Sinnoh criou o universo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No filme de 2009 estrelado por Arceus, o deus pokémon quer se vingar da humanidade. O que ele emprestou aos humanos e nunca recebeu de volta?",
+    "resposta": "A Joia da Vida",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Jewel_of_Life",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Arceus_and_the_Jewel_of_Life"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jewel_of_Life",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Arceus_and_the_Jewel_of_Life",
+        "situacao": "ok",
+        "texto": "Pokémon: Arceus and the Jewel of Life is a 2009 Japanese animated adventure film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama from a screenplay by Hideki Sonoda. It is the twelfth film in the Pokémon anime series and the third film of Pokémon the Series: Diamond and Pearl, created by Satoshi Tajiri, Junichi Masuda and Ken Sugimori, serving as a direct seq\n[…]\nTo prevent Arceus from attacking humanity, Dialga sends Pokémon trainers Ash Ketchum, Dawn, and Brock back in time, along with Sheena, a descendant of the man mistakenly believed to have betrayed Arceus.\n[…]\nAsh obtains the Jewel of Life, and calmed by Damos' ability, Arceus absorbs the jewel, restoring its own life force, and reversing the time paradox that nearly killed Ash, Dawn, Brock, Sheena, and their Pokémon. Arceus rescues the people and Pokémon from the collapse of the temple. Ash, Dawn, Brock, and Sheena are transported back to the present, only to discover that Arceus is still furious and has defeated Dialga, Palkia, and Giratina.\n[…]\nArceus spots Ash and recognizes him due to history's alterations, and reverses the destruction it caused, healing its former adversaries. Ash and the others discover Damos has put them on a mural, thanking them for their help in saving the world and seeing that even without the Jewel of Life, Michina is still fertile due to the people and Pokémon cultivating the land. Dialga, Palkia, Giratina, and Arceus depart for their dimensions, with Arceus realizing that it is truly a part of this world.\n[…]\nIn the United States, the English dub aired on Cartoon Network on November 20, 2009. This marks the first time that a Pokémon feature film has made its U.S. debut in the same year as its original Japanese release.\n[…]\nPokemon: Arceus and the Jewel of Life generally got mixed reviews.\n[…]\nPokémon: Arceus and the Jewel of Life at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Arceus_and_the_Jewel_of_Life",
+        "situacao": "ok",
+        "texto": "Pokémon: Arceus and the Jewel of Life (劇場版ポケットモンスター ダイヤモンド&パール 超克の時空へ, Gekijōban Poketto Monsutā Daiyamondo & Pāru: Chōkoku no Jikū e), (no Brasil e em Portugal, Pokémon - Arceus e a Joia da Vida) é um filme japonês lançado em 2009. É o 12º filme da série Pokémon e, com seu lançamento, igualará o recorde de série de desenhos com mais filmes produzidos com Em Busca do Vale Encantado. Aparecem os le\n[…]\nNas Ruínas, os Guardiões explicam a lenda da cidade de Michina, que diz que um dia o lendário pokémon Arceus, o criador do mundo, retornará a Michina para trazer justiça aos humanos devido ter sido traído por Damos, um ancestral de Sheena que não quis devolver a Jóia da Vida para Arceus, a jóia que foi usada para tornar Michina um lugar fértil.\n[…]\nChegando no passado Ash e seus amigos são presos, exceto Sheena, que fica solta para poder conversar com o verdadeiro vilão, Marcus, e ela acaba revelando tudo sobre o futuro, sem saber que ele planeja usar tudo que ela sabe. Enquanto isso, Pikachu, Piplup, Pichu, Chikorita, Cyndaquil e Totodile ajudam Ash, Dawn, Brock e Damos a escaparem, pois Ash e Dawn descobrem que Damos planejava devolver a jóia mas foi detido por Marcus, sendo preso.\n[…]\nTodos são libertados, Marcus engana Sheena e ataca Arceus no dia de devolver a jóia, fazendo Arceus quase morrer, Ash e Dawn batalham contra o Heatran e o Bronzong de Marcus com a ajuda de Chikorita, Cyndaquil e Totodile e Ash recupera a Jóia da Vida e tenta devolver para Arceus mas ele não escuta Ash, pois está muito ferido, inconsciente e tomado pelo ódio achando que Damos o traiu, mas então Damos o salva do ódio e salva sua vida fazendo o acordar e pegar a jóia da vida de Ash, então Arceus agradece a todos.\n[…]\n«Página oficial» (em japonês). www.pokemon-movie.jp\n[…]\nPokémon Arceus and the Jewel of Life (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon Arceus and the Jewel of Life no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Zoroark: O Mestre das Ilusões",
+      "descricao": "Décimo terceiro filme da franquia Pokémon, de 2010, em que Zoroark tenta resgatar Zorua e salvar a cidade de Crown City."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No filme de 2010, Zoroark espalha o caos numa cidade usando ilusões. Ele se disfarça de quais três lendários?",
+    "resposta": "Raikou, Entei e Suicune",
+    "distratores": [
+      "Articuno, Zapdos e Moltres",
+      "Uxie, Mesprit e Azelf",
+      "Cobalion, Terrakion e Virizion"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Zoroark:_Master_of_Illusions",
+      "https://bulbapedia.bulbagarden.net/wiki/M13"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Zoroark:_Master_of_Illusions",
+        "situacao": "ok",
+        "texto": "Pokémon—Zoroark: Master of Illusions is a 2010 Japanese animated adventure fantasy film directed by Kunihiko Yuyama. It is the thirteenth film of the Pokémon anime series and the fourth and final film of Pokémon the Series: Diamond and Pearl.\n[…]\nKodai unleashes the imprisoned Zoroark upon the city, showing her a video pretending to hold Zorua as a hostage. Zoroark uses her illusion powers to take the form of the Legendary Pokémon Entei, Raikou, and Suicune, the guardian protectors of the city in ancient times, scaring the townsfolk.\n[…]\nKodai tries to reach the Time Ripple but is blocked by the guardian protectors, and Zoroark traps him in the stadium by using its remaining strength to make an illusion of Kodai's ship.\n[…]\nZoroark, voiced by Romi Park: A Dark-type Pokémon abducted by Kodai. She rampages through Crown City in the guises of Raikou, Entei and Suicune due to Kodai blackmailing her with her son, Zorua's, safety. Near the end of the film, Zoroark helps Celebi stop Kodai and protect the time ripple by casting one of her illusions on him, which tricks him into thinking he's already captured the time ripple's power for himself.\n[…]\nAs a promotion for this movie, in Japan everyone who pre-ordered their tickets to the movie got to download a special alternate-colored version of Raikou, Entei, and Suicune,  which, when traded over to the Pokémon Black and White games activated an in game encounter with a special Zoroark that uses its Illusion ability to transform into the legendary Pokémon with a type advantage to the transferred one.\n[…]\nZoroark—Master of Illusions at IMDb\n[…]\nPokémon—Zoroark: Master of Illusions  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M13",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Zoroark%3A_Master_of_Illusions",
+        "situacao": "ok",
+        "texto": "Zoroark: Master of Illusions\n[…]\n(Zoroark: O Mestre das Ilusões) nos Estados Unidos e conhecido no Japão como  Chip Phantom Ruler Zoroark  ou  The Phantom Ruler Zoroark  (劇場版ポケットモンスター ダイヤモンド&パール: チップ, 幻影の覇者Z, Gekijoban Poketto Monsuta Daiyamondo & Paru: Chippu Genei no Hasha Z) traduzido para o Português como \"Zoroark: O Mestre das Ilusões\" é o décimo terceiro filme baseado no anime Pokémon e o último filme da série Diamond & Pearl; foi distribuído em todos os cinemas japoneses a partir de 10 de julho de 2010, e enviado para os Estados Unidos a partir de 5 de Fevereiro de 2011 e no Brasil também foi exibido no dia 10 de março de 2012 no Cartoon Network.\n[…]\nEm Portugal foi exibido no dia 22 de fevereiro pelo Biggs. O Governante da Ilusão Zoroark. No filme parece que é uma cidade de Pokémons fantasmas.\n[…]\nAsh e seus amigos visitam a cidade de Crown para assistir a Pokémon Backer World Cup. Em sua viagem, eles encontram um Pokémon chamado Zorua, que está procurando por seu companheiro. Eles decidem ajudá-lo, mas Kodai está forçando Zoroark a se transformas nas feras lendárias para destruir Crowns, ele ataca um ônibus virando Entei e inundando uma rua com Suicune e virá Raikou no topo de uma igreja ele corre no telhado das casas quando a ser Zoroark quando a tempestade acaba.\n[…]\n«Página oficial» (em japonês). www.pokemon-movie.jp\n[…]\n«Website do filme» (em inglês). www.pokemonthemovie.com\n[…]\nPokémon Zoroark: Master of Illusions (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nZoroark: Master of Illusions no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Zoroark: O Mestre das Ilusões",
+      "descricao": "Décimo terceiro filme da franquia Pokémon, de 2010, em que Zoroark tenta resgatar Zorua e salvar a cidade de Crown City."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que pokémon mítico, capaz de viajar no tempo, tem papel importante no filme de Zoroark e também no quarto filme da franquia, de 2001?",
+    "resposta": "Celebi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Zoroark:_Master_of_Illusions",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_4Ever"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Zoroark:_Master_of_Illusions",
+        "situacao": "ok",
+        "texto": "Pokémon—Zoroark: Master of Illusions is a 2010 Japanese animated adventure fantasy film directed by Kunihiko Yuyama. It is the thirteenth film of the Pokémon anime series and the fourth and final film of Pokémon the Series: Diamond and Pearl.\n[…]\nAt the end of the film, he is arrested, but in the manga, Zoroark chases him to the top floors of the Stadium, summoning illusionary vines in front of him, then he trips and plummets to his death. Unlike other Pokémon villains, he was discovered to be shockingly evil, going as far as strangling Celebi, electrocuting Zorua then saying he got a kick out of it, trying to kill Ash and his friends, and nearly murdering Zoroark.\n[…]\nZoroark, voiced by Romi Park: A Dark-type Pokémon abducted by Kodai. She rampages through Crown City in the guises of Raikou, Entei and Suicune due to Kodai blackmailing her with her son, Zorua's, safety. Near the end of the film, Zoroark helps Celebi stop Kodai and protect the time ripple by casting one of her illusions on him, which tricks him into thinking he's already captured the time ripple's power for himself.\n[…]\nZorua, voiced by Kurumi Mamiya in Japanese and Eileen Stevens in English: A Pokémon related to Zoroark that can use weaker illusion powers. He is desperate to reunite with his mother, the film's Zoroark, whom he refers to as \"Meema\". In middle of the film, Zorua befriends Celebi and accepts its help in looking for Zoroark. Zorua, afterward, makes an effort to help protect Celebi and the time ripple and stop Kodai.\n[…]\nCelebi also has the power to make flowers magically bloom as well as turn the flowers into edible, fully ripened fruit.\n[…]\nZoroark—Master of Illusions at IMDb\n[…]\nPokémon—Zoroark: Master of Illusions  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_4Ever",
+        "situacao": "ok",
+        "texto": "Pokémon 4Ever is a 2001 Japanese anime film directed by Kunihiko Yuyama and based on the television series Pokémon. The fourth official Pokémon film, it was released in Japan on July 7, 2001. The film was directed in Japan by Kunihiko Yuyama and written by Hideki Sonoda. It stars Rica Matsumoto, Ikue Ōtani, Mayumi Iizuka, Yūji Ueda, Satomi Kōrogi, Megumi Hayashibara, Shin-ichiro Miki, Inuko Inuyam\n[…]\nTeam Rocket pursue the children, joining forces with the Marauder. The children are guided to the lake by wild Pokémon, where Celebi is healed. That night, Ash and Sammy bond, both hoping the latter can return to his era. The next day, the Marauder confronts the group, using a Dark Ball to capture Celebi and uses its immense powers over nature to encase it in an enormous draconian-like armor made from the forest.\n[…]\nJust as all hope of reviving Celebi is lost, the Voice of the Forest, which is actually each Celebi from across time, materializes in the sky and magically resurrects their fellow Time Travel Pokémon. Suddenly, the Marauder re-appears and tries to kidnaps Celebi again by using a jetpack to escape, but Ash and Pikachu rescue Celebi; the Marauder then crashes into the forest and is confronted by Towa, Diana, White, and the angry wild Pokémon.\n[…]\nIn a review of the film, Dann Gire of the Daily Herald said that \"nothing feels more desperate than a movie that tries to extort emotions from young viewers. That happens in the animated Pokémon 4Ever, in which colorful characters stand around crying over the shriveling corpse of a magical creature called Celebi. The movie has emotional warmth of tin foil, mainly because it never establishes connections among the characters, or between the characters and viewers\".\n[…]\nPokémon 4Ever at IMDb\n[…]\nPokémon 4Ever at Rotten Tomatoes\n[…]\nPokémon 4Ever  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Zoroark%3A_Master_of_Illusions",
+        "situacao": "ok",
+        "texto": "Zoroark: Master of Illusions\n[…]\n(Zoroark: O Mestre das Ilusões) nos Estados Unidos e conhecido no Japão como  Chip Phantom Ruler Zoroark  ou  The Phantom Ruler Zoroark  (劇場版ポケットモンスター ダイヤモンド&パール: チップ, 幻影の覇者Z, Gekijoban Poketto Monsuta Daiyamondo & Paru: Chippu Genei no Hasha Z) traduzido para o Português como \"Zoroark: O Mestre das Ilusões\" é o décimo terceiro filme baseado no anime Pokémon e o último filme da série Diamond & Pearl; foi distribuído em todos os cinemas japoneses a partir de 10 de julho de 2010, e enviado para os Estados Unidos a partir de 5 de Fevereiro de 2011 e no Brasil também foi exibido no dia 10 de março de 2012 no Cartoon Network.\n[…]\nEm Portugal foi exibido no dia 22 de fevereiro pelo Biggs. O Governante da Ilusão Zoroark. No filme parece que é uma cidade de Pokémons fantasmas.\n[…]\nPor um motivo Zoroark está triste Além disso, Celebi retorna após 20 anos quando aparece um telão que está numa contagem que termina e é atacado por um grupo de Ninjasks. O que poderia ser o \"Governante da Ilusão\", Zoroark? E Celebi e as bestas lendárias? Ash e Cia conseguirão salvar a cidade e o Pokémon?\n[…]\n«Página oficial» (em japonês). www.pokemon-movie.jp\n[…]\n«Website do filme» (em inglês). www.pokemonthemovie.com\n[…]\nPokémon Zoroark: Master of Illusions (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nZoroark: Master of Illusions no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Kyurem Contra o Espadachim da Justiça",
+      "descricao": "Décimo quinto filme da franquia Pokémon, de 2012, em que o mítico Keldeo desafia o lendário Kyurem."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Keldeo, o mais jovem dos Espadachins da Justiça, ganhou um filme em que enfrenta Kyurem. Em que ano ele estreou no Japão?",
+    "resposta": "2012",
+    "distratores": [
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Kyurem_vs._the_Sword_of_Justice",
+      "https://bulbapedia.bulbagarden.net/wiki/M15"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Kyurem_vs._the_Sword_of_Justice",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Kyurem vs. the Sword of Justice is a 2012 Japanese animated film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama and written by Hideki Sonoda. It is the 15th animated installment in the Pokémon film series and the second film of Pokémon the Series: Black & White.\n[…]\nThe movie's theme song is titled \"Memories\" (メモリーズ, Memorīzu), which is performed by the Bengali-Japanese-Russian model-turned-singer Rola. The film's director Kunihiko Yuyama thinks the song will work perfectly for the film itself after he first heard it. Rola also voiced a character in the film named Malin. The single itself was released on July 11, 2012.\n[…]\nKeldeo (ケルディオ, Kerudio): The Colt Pokémon and also the fourth of the Swords of Justice. Keldeo is very exceptional at using his hidden abilities. And unlike the other swordsmen, Keldeo can assume his other form called Resolute Form. He challenges Kyurem to a battle despite Cobalion's warnings, and when Kyurem proves to be too strong, Keldeo became scared and ended up running away. Keldeo is then followed in hot pursuit by Kyurem, who is determined to finish their fight.\n[…]\nCobalion (コバルオン, Kobaruon): The Iron Will Pokémon and leader of the Swords of Justice. Having a collected personality, he is responsible for the group and for protecting Keldeo from Kyurem. Cobalion's Japanese voice actor is Kōichi Yamadera. His English voice actor is H.D. Quinn.\n[…]\nPokémon the Movie: Kyurem vs. the Sword of Justice premiered in the United States on Cartoon Network in conjunction with YTV in Canada on December 8, 2012, and premiered in the United Kingdom on CITV on December 12, 2012.\n[…]\nPokémon the Movie: Kyurem vs. the Sword of Justice at IMDb\n[…]\nPokémon the Movie: Kyurem vs. the Sword of Justice (film) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M15",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Kyurem_vs._the_Sword_of_Justice",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Kyurem vs. the Sword of Justice, originalmente lançado no Japão como Pocket Monsters Best Wishes! O Filme: Kyurem vs. o Sagrado Espadachim: Keldeo (劇場版ポケットモンスター ベストウイッシュ キュレムVS聖剣士 ケルディオ, Gekijōban Poketto Monsutā Besuto Uisshu Kyuremu tai Seikenshi: Kerudio) é o décimo quinto filme baseado do anime Pokémon e o segundo filme da série Pokémon Black & White. O filme foi lançado em \n[…]\nA edição de janeiro da CoroCoro Comic também revela a data de lançamento do filme, que foi em 14 de julho de 2012.\n[…]\nO filme foi exibido nos Estados Unidos no dia 8 de Dezembro de 2012 no Cartoon Network na televisão norte-americana. No Brasil também foi exibido no dia 1 de Novembro de 2013 no Cartoon Network. E em Portugal foi exibido no dia 25 de Dezembro de 2013 no Biggs.\n[…]\nAsh e Co. se dirijem a Rooshan/Roushan. Enquanto em um trem passando pelas montanhas, Ash encontra um Pokémon ferido que nunca havia visto antes, desmaiado. Esta é uma ilusão do Pokémon Keldeo, que diz ser o sucessor de Cobalion e Co., os mestres da Espada Sagrada que protegem o mundo. Nesse momento, Kyurem aparece e começa a atacar, mudando para Kyurem Preto e Kyurem Branco fazendo isso. Isto bloqueia o caminho de Ash e Co. até Keldeo. Ash e Co.\n[…]\nconseguem escapar da perseguição de Kyurem, por um triz. A batalha se enfurece entre Kyurem, caçando Keldeo, e o trem e o balão de ar quente no céu. Podem Keldeo, Ash e Co. superar esse perigo?\n[…]\nFoi mais tarde revelado que este filme irá mostrar o Pokémon lendário Keldeo e as formas alternativas de Kyurem: Kyurem Preto e Kyurem Branco. Este filme também virá junto com um curta especial: O Recital Cintilante de Meloetta.\n[…]\nKyurem\n[…]\nKeldeo\n[…]\nDesign do Logo do Filme: Eric Medalle, John Moore\n[…]\nPokémon the Movie: Kyurem vs. the Sword of Justice (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon the Movie: Kyurem vs. the Sword of Justice no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Genesect e a Lenda Revelada",
+      "descricao": "Décimo sexto filme da franquia Pokémon, de 2013, em que um bando de Genesect invade uma metrópole e enfrenta um Mewtwo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O filme de 2013 estrelado por um bando de Genesect se passa numa metrópole de arranha-céus inspirada em qual cidade real?",
+    "resposta": "Nova York",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/New_Tork_City",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Genesect_and_the_Legend_Awakened"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/New_Tork_City",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Genesect_and_the_Legend_Awakened",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Genesect and the Legend Awakened is a 2013 Japanese animated film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama and written by Hideki Sonoda. It is the sixteenth film of the Pokémon anime series and the third and final film of Pokémon the Series: Black & White.\n[…]\nThe Genesect, not realizing the humans survived, leave.\n[…]\nIt tells the red Genesect not to hurt the other Pokémon, but it refuses to listen, and the two embark on a high-speed chase around the city.\n[…]\nEric (エリック, Erikku): Is a park ranger who works at Pokémon Hills in New Tork City and a Guest character from the movie. Eric's voice in the original Japanese release is provided by Takashi Yoshimura.\n[…]\nMoviegoers could receive Genesect in copies of the Pokémon Black, White, Pokémon Black 2, or White 2 video games at theaters from January 11 to February 20, 2013.\n[…]\nThe film's setting is based on New York City, much like the Black, White, Black 2, and White 2 games, with Central Park as a key location. Director Kunihiko Yuyama stated that this was chosen to contrast a modern city with the wild and ancient nature of Genesect. A special episode of the anime serving as a prologue to the film aired on TV Tokyo, titled Mewtwo: Prologue to Awaking (ミュウツー ～覚醒への序章（プロローグ）～, Myūtsū ~Kakusei e no Purorōgu~).\n[…]\nEric Switzer of The Gamer gave the film a negative review, calling it a \"real mess of a movie\". He said that the story could have been great but the slapdash way it was replaced ruined any hope the movie had of saying something worthwhile. He also said that it might be the most disappointing Pokémon film ever made.\n[…]\nPokémon the Movie: Genesect and the Legend Awakened  at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: Genesect and the Legend Awakened at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Genesect_and_the_Legend_Awakened",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Genesect and the Legend Awakened, originalmente lançado no Japão como Pocket Monsters Best Wishes! O Filme: Extrema Velocidade de Genesect e o Desperta de Mewtwo (劇場版ポケットモンスター ベストウイッシュ 神速のゲノセクト ミュウツー覚醒, Gekijōban Poketto Monsutā Besuto Uisshu! Shinsoku no Genosekuto – Myūtsū Kakusei), é o décimo sexto filme baseado no anime Pokémon e o terceiro filme da série Pokémon Black & Whi\n[…]\nEste filme é estrelado pelos Pokémons lendários: Genesect e Mewtwo (com uma nova forma do Mewtwo, o Mega Mewtwo), e foi originalmente exibido em 13 de julho de 2013 nos cinemas japoneses  juntamente com o curta \"Pikachu Short Pikachu and Eevee Friends\", que é protagonizado por Sylveon e outras evoluções de Eevee. O filme chegou aos Estados Unidos no dia 19 de outubro de 2013 no Cartoon Network. Em Portugal, o filme estreou no canal Biggs no dia 20 de abril de 2014 às 17h30.\n[…]\nA história começa quando o Exército de Genesect escapa das instalações da Equipe Plasma com a intenção de chegar à sua casa. No entanto, devido à falta de visão e confusão sobre a sua localização, eles são incapazes de distinguir estruturas altas e objetos dos pilares de pedra do seu país, o que os leva a desencadear o caos. Sem nenhum detalhe, o exército de Genesect chega à cidade de Nova Tork e inicia uma batalha contra Ash, Pikachu, Iris, Axew e Cilan.\n[…]\nEnquanto Ash e companhia tentam defender Pokémon Hills, Genesect os ataca para derrubá-los, quando inesperadamente surge Mewtwo para detê-lo se transformando em sua nova forma.[carece de fontes]?\n[…]\nGenesect\n[…]\nDesign do Logo do Filme: Eric Medalle, John Moore\n[…]\nPokémon the Movie: Genesect and the Legend Awakened (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon the Movie: Genesect and the Legend Awakened no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Genesect e a Lenda Revelada",
+      "descricao": "Décimo sexto filme da franquia Pokémon, de 2013, em que um bando de Genesect invade uma metrópole e enfrenta um Mewtwo."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "No filme de Genesect, aparece um Mewtwo diferente do primeiro filme, capaz de megaevoluir. Em que forma ele se transforma?",
+    "resposta": "Mega Mewtwo Y",
+    "distratores": [
+      "Mega Mewtwo X",
+      "Mewtwo de Armadura",
+      "Mewtwo Sombrio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Genesect_and_the_Legend_Awakened",
+      "https://bulbapedia.bulbagarden.net/wiki/M16"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Genesect_and_the_Legend_Awakened",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Genesect and the Legend Awakened is a 2013 Japanese animated film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama and written by Hideki Sonoda. It is the sixteenth film of the Pokémon anime series and the third and final film of Pokémon the Series: Black & White.\n[…]\nThe film follows a conflict involving a group of Genesect and a single Mewtwo, both human-engineered species of a fictional class of animals called Pokémon, and the wild Pokémon inhabitants of a nature park the Genesect forcibly try to take over to make their new home.\n[…]\nAsh's Oshawott, together with the Pokémon of Pokémon Hills, help to put out the flames, and save three of the Genesect, who realize that the other Pokémon are not their enemies and save Ash from a falling beam. Ash, along with the four Genesect other than the red Genesect, run between Mewtwo and the red Genesect to stop them from fighting. The red Genesect claims that they are all its enemies and fires an attack, but Mewtwo blocks it takes it into space.\n[…]\nIn awe of the beauty it originated from, the red Genesect realizes that all people and Pokémon are friends. Unable to survive there, Mewtwo and the red Genesect begin to fall. Oshawott and the wild Pokémon create a giant ball of water to cushion Mewtwo and the red Genesect's fall. By morning, Eric restores the power.\n[…]\nThis Mewtwo can assume a new form referred to as \"Awakened Mewtwo\" (覚醒したミュウツー, Kakusei-shita Myūtsū), later known as Mega Mewtwo Y, following the release of Pokémon X and Y. In the original Japanese release, is provided by Reiko Takashima. In the English dub, Miriam Pultro provides the voice.\n[…]\nPokémon the Movie: Genesect and the Legend Awakened  at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: Genesect and the Legend Awakened at IMDb"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M16",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Genesect_and_the_Legend_Awakened",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Genesect and the Legend Awakened, originalmente lançado no Japão como Pocket Monsters Best Wishes! O Filme: Extrema Velocidade de Genesect e o Desperta de Mewtwo (劇場版ポケットモンスター ベストウイッシュ 神速のゲノセクト ミュウツー覚醒, Gekijōban Poketto Monsutā Besuto Uisshu! Shinsoku no Genosekuto – Myūtsū Kakusei), é o décimo sexto filme baseado no anime Pokémon e o terceiro filme da série Pokémon Black & Whi\n[…]\nEste filme é estrelado pelos Pokémons lendários: Genesect e Mewtwo (com uma nova forma do Mewtwo, o Mega Mewtwo), e foi originalmente exibido em 13 de julho de 2013 nos cinemas japoneses  juntamente com o curta \"Pikachu Short Pikachu and Eevee Friends\", que é protagonizado por Sylveon e outras evoluções de Eevee. O filme chegou aos Estados Unidos no dia 19 de outubro de 2013 no Cartoon Network. Em Portugal, o filme estreou no canal Biggs no dia 20 de abril de 2014 às 17h30.\n[…]\nNo Brasil, o filme estreou no dia 30 de maio de 2014, no Cartoon Network. O Mewtwo deste filme não é o mesmo que conheceu Ash no primeiro filme (Mewtwo Contra-Ataca).\n[…]\nNo Japão, o filme possui um prólogo em forma de especial de TV, que estreou no dia 11 de julho de 2013 no canal TV Tokyo, chamado Mewtwo: The Prologue to Awakening. Sendo o décimo segundo especial, ele é estrelado por Eevee e suas evoluções e Virgílio com sua equipe de resgate Pokémon, além de novos personagens. Na história eles encontram Mewtwo ferido e dizem como Mewtwo pode comprar estas novas formas.\n[…]\nEnquanto Ash e companhia tentam defender Pokémon Hills, Genesect os ataca para derrubá-los, quando inesperadamente surge Mewtwo para detê-lo se transformando em sua nova forma.[carece de fontes]?\n[…]\nMewtwo\n[…]\nGenesect\n[…]\nDesign do Logo do Filme: Eric Medalle, John Moore\n[…]\nPokémon the Movie: Genesect and the Legend Awakened (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon the Movie: Genesect and the Legend Awakened no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Diancie e o Casulo da Destruição",
+      "descricao": "Décimo sétimo filme da franquia Pokémon, de 2014, em que a princesa Diancie busca salvar seu reino de joias."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em Diancie e o Casulo da Destruição, qual lendário de Kalos desperta do tal casulo e transforma em pedra tudo o que atinge?",
+    "resposta": "Yveltal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Diancie_and_the_Cocoon_of_Destruction",
+      "https://bulbapedia.bulbagarden.net/wiki/M17"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Diancie_and_the_Cocoon_of_Destruction",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Diancie and the Cocoon of Destruction (ポケモン・ザ・ムービーXY 「破壊の繭とディアンシー」, Pokemon Za Mūbī Ekkusu Wai Hakai no Mayu to Dianshī; lit. 'Pokémon the Movie XY: Diancie and the Cocoon of Destruction') is a 2014 Japanese animated fantasy adventure film created by Satoshi Tajiri and produced by OLM. It is the seventeenth film of the Pokémon anime series and the first film of Pokémon the Serie\n[…]\nYveltal turns the thieves, their Pokémon, and Pikachu to stone with its destructive powers. Xerneas makes Yveltal leave the forest, and uses its life force to restore the forest and the people and Pokémon there as well as Ash's Pikachu, becoming a tree to protect the balance of nature. Diancie returns to the Diamond Domain to create a new Heart Diamond, saving the kingdom.\n[…]\nThe February issue of CoroCoro states that the movie will revolve around the \"Magnificent Battle\" between Xerneas and Yveltal as well as the hidden meaning to the title, related to the Destruction Pokémon. It also notes that many Legendary Pokémon and several Mega Evolutions will appear in the film.\n[…]\nDirector Yuyama stated that it is the first time since Pokémon the Movie: Black—Victini and Reshiram and White—Victini and Zekrom that he and his crew traveled to a foreign country for inspiration.\n[…]\nDiancie (ディアンシー, Dianshī): Known as the Jewel Pokémon, Diancie is the princess of the Diamond Domain, home to Carbink that keep it peaceful as well the Heart Diamond that keeps it safe from outsiders. However, Diancie is growing weak, as is the Heart Diamond. She seeks out Ash and his friends to help her find the Life Pokémon Xerneas to restore her life energy, but on the way they are attacked by the Destruction Pokémon Yveltal.\n[…]\nPokémon the Movie: Diancie and the Cocoon of Destruction  at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: Diancie and the Cocoon of Destruction at IMDb"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M17",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Diancie_and_the_Cocoon_of_Destruction",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Diancie and the Cocoon of Destruction (ポケモン・ザ・ムービーXY 「破壊の繭とディアンシー」, Pokemon Za Mūbī Ekkusu Wai \"Hakai no Mayu to Dianshī\"; lit. \"Pokémon o Filme XY: Diancie e o Casulo da Destruição\") é o décimo sétimo filme baseado no anime Pokémon e o primeiro da série Pokémon: Série XY. O filme foi lançado em 19 de julho de 2014 no Japão. Foi exibido no Cartoon Network no dia 8 de novembro de\n[…]\nA edição de fevereiro da CoroCoro afirma que o filme vai girar em torno de uma \"Batalha Magnífica\" entre Xerneas e Yveltal, como o significado oculto do título, relacionado com o Pokémon da Destruição. Nele nota-se também que muitos Pokémon lendários e várias Mega Evoluções vão aparecer no filme.\n[…]\nThe Cocoon of Destruction será exibido ao lado do mini filme Pikachu, What's This Key For? (ピカチュウ、これなんのカギ？, Pikachū, Kore Nan no Kagi?; Pikachu, Para que Serve Esta Chave?) onde contará com o novo Pokémon Klefki. A revista revela que também contará com Jirachi, Victini, Manaphy, e Darkrai como convidados especiais. O tema de encerramento do filme será \"Yoake no Ryūseigun\" (夜明けの流星群; lit. \"Aurora da Chuva de Meteoros\") pela Scandal.\n[…]\nUm dia, ela encontra-se com Satoshi e seus amigos e pede a eles para ir em uma jornada para encontrar o Pokémon da Vida Xerneas, a fim de restaurar o Heart Diamond de volta à vida. Mas que está em seu caminho é o Pokémon da Destruição, Yveltal, que uma vez roubou toda a vida na Região Kalos. Durante sua jornada, eles também são atacados pela Equipe Rocket, assim como ladrões de jóias Marilyn Flame e o Ninja Riot.\n[…]\nEles são auxiliados por Millis Steel e seu pai Argus, os viajantes que também enfrentam o Casulo da Destruição.\n[…]\nVersão brasileira de \"Pokémon Theme\"\n[…]\nPokémon the Movie: Diancie and the Cocoon of Destruction (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon the Movie: Diancie and the Cocoon of Destruction no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Hoopa e o Duelo Lendário",
+      "descricao": "Décimo oitavo filme da franquia Pokémon, de 2015, estrelado pelo mítico Hoopa, que convoca lendários por meio de anéis."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No filme de Hoopa, de 2015, por que o mítico vive em sua forma pequena e brincalhona, sem todo o seu poder?",
+    "resposta": "Seu poder está preso numa garrafa",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Prison_Bottle",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Hoopa_and_the_Clash_of_Ages"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Prison_Bottle",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Hoopa_and_the_Clash_of_Ages",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Hoopa and the Clash of Ages, known in Japan as Pokémon the Movie XY: The Archdjinni of the Rings: Hoopa (ポケモン・ザ・ムービーXY 光輪リングの超魔神 フーパ, Pokemon Za Mūbī Ekkusu Wai Ringu no Chōmajin Fūpa) is a 2015 Japanese anime adventure film created by Satoshi Tajiri. It is the eighteenth film of the Pokémon anime series and the second film of Pokémon the Series: XY. It was directed by Kunihiko \n[…]\nRayquaza creates a twister around Dahara Tower to protect it, while the others inside reforge the Prison Bottle. However, Hoopa's shadow and the Legendary Pokémon break through it. The bottle is made again, but Baraz drops it; Ash catches it but gets possessed. Hoopa cleanses the shadow of itself with its happy memories, causing the evil to disappear. However, due to too many legendary Pokémon being summoned, a time warp forms around the tower.\n[…]\nHoopa (フーパ, Hūpa): Known as the Mischief and the Mythical Pokémon. In the original Japanese, Rie Kugimiya voices Hoopa's Confined form. Kōichi Yamadera voices Hoopa's Unbound form. In the English dub, Lori Phillips voices Hoopa's Confined form. Ryan William Downey voices Hoopa's Unbound form.\n[…]\nAs the 18th film in the Pokémon series, its production began as soon as production of the 17th installment ended. Based on the sixth generation of Pokémon video games, it is based around the legendary Pokémon known as Hoopa.\n[…]\nThe movie grossed ¥2,610,000,000 in Japan. It is one of the lowest-grossing Pokémon movies, performing slightly better than lowest-grossing film, Pokémon Heroes.\n[…]\nThe movie was released on DVD and Blu-ray in Japan on December 16, 2015, by SMD Itaku. In the US, Viz Media released the movie on DVD on March 8, 2016. In the UK, the movie was released on DVD and Blu-ray by Manga Entertainment.\n[…]\nPokémon the Movie: Hoopa and the Clash of Ages  at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: Hoopa and the Clash of Ages at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Hoopa_and_the_Clash_of_Ages",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Hoopa and the Clash of Ages (ポケモン・ザ・ムービーXY 光輪の超魔神 フーパ, Pokemon Za Mūbī Ekkusu Wai Ring no chōmajin Hoopa; lit. \"Pokémon o Filme XY: O Archdjinni dos Anéis: Hoopa\") é um filme japonês de animé realizado por Kunihiko Yuyama. É o décimo oitavo filme da franquia homónima e o segundo da série XY. Foi lançado nos cinemas japoneses a 18 de julho de 2015.. Em Portugal, o filme estreou e\n[…]\nDurante a batalha entre Groudon, Kyogre e Rayquaza, Ash e seus amigos são atraídos por um som de um anel que começa a sugar tudo à sua volta, enviando para outro local. Eles não conseguem se segurar e acabam sendo sugados para o portal e chegam a um local desconhecido. Enquanto Ash e Pikachu estão comendo rosquilhas, eles encontram o mítico Pokémon Hoopa que concorda em viajar com eles.\n[…]\nPokémon the Movie: Hoopa and the Clash of Ages (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nPokémon the Movie: Hoopa and the Clash of Ages no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Pokémon: O Poder de Todos",
+      "descricao": "Vigésimo primeiro filme da franquia Pokémon, de 2018, passado durante o Festival do Vento de Fula City."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Pokémon: O Poder de Todos, filme sobre o Festival do Vento de uma cidade, chegou aos cinemas japoneses em que ano?",
+    "resposta": "2018",
+    "distratores": [
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_The_Power_of_Us",
+      "https://bulbapedia.bulbagarden.net/wiki/M21"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_The_Power_of_Us",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: The Power of Us is a 2018 Japanese anime adventure film based on Satoshi Tajiri's Pokémon media franchise, produced by OLM and Wit Studio and distributed by Toho. It is the twenty-first film of the Pokémon anime series, the second film of the alternate timeline trilogy and a sequel to Pokémon the Movie: I Choose You!.\n[…]\nIt was released in Japan on July 13, 2018. The Pokémon Company International and Fathom Events released the film on a limited theatrical run in select countries on November 24, 2018. It grossed \t$23.7 million worldwide. It was followed by the sequel Pokémon the Movie: Secrets of the Jungle.\n[…]\nThe film was initially announced on the December 10, 2017, broadcast of TV Tokyo's variety program Oha Suta, under the title Pokémon the Movie 2018 (劇場版 ポケットモンスター 2018, Gekijō-ban Poketto Monsutā 2018), showing a new character design for the film's main protagonist Ash Ketchum alongside a new unnamed character. The film also revolves around the Legendary Pokémon Lugia.\n[…]\nAlongside the reveal of the film, Wit Studio (Attack on Titan, The Ancient Magus' Bride) was confirmed to co-produce and animate the film. A new trailer for the film was released on February 27, 2018, which revealed 5 new characters accompanying Ash in the movie alongside the mysterious new character; the film's initial premise was also revealed.\n[…]\nThe Power of Us premiered on July 13, 2018, in 364 theaters in Japan and opened at #2 at the Japanese box office, though the film earned 3.1% less than the opening weekend of last year's Pokémon the Movie: I Choose You! According to polls conducted by Pia Cinemas, the film has hit the mark in Japan. The Power of Us led the pack at the box office with a reported 92.8% rating from the audience.\n[…]\nPokémon the Movie: The Power of Us (anime) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M21",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_The_Power_of_Us",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: The Power of Us (Pokémon, o Filme: O Poder de Todos(PT/BR)) é um filme de aventura e anime de 2018 produzido por OLM e Wit Studio. É o vigésimo primeiro filme de Pokémon lançado e o segundo filme da série de filmes reboot do anime. É a sequela de Pokémon, O Filme: Eu Escolho Você!, existente em uma continuidade separada do programa de televisão.\n[…]\nÉ dirigido por Tetsuo Yajima e escrito por ambos Eiji Umehara (Grimoire of Zero) e Aya Takaha com design de personagens done por Shizue Kaneko (If Her Flag Breaks). É foi lançado no Japão em 13 de julho de 2018 e será o último período Heisei de lançamento da série. The Pokémon Company International e Fathom Events lançou o filme em uma corrida cinematográfica limitada em todo o mundo em 24 de novembro de 2018. No Brasil, lançou em 11 de janeiro de 2019, no canal Cartoon Network.\n[…]\nTodos os anos, o festival do vento ocorre em Cidade de Fula, um lugar onde as pessoas são como um vento. Há uma crença de que o lendário Pokémon Lugia aparecerá no último dia do festival, trazendo a todos a benção do vento.\n[…]\nAs pessoas começam a se reunir para o festival, entre as quais Lisa, uma estudante de ensino médio e novata com os Pokémon; Kagachi, um fanfarrão que conta as trolas aos visitantes; Trito, um pesquisador temeroso e com grande falta de confiança; Hisui, uma mulher velha bastante extravagante que odeia os Pokémon e Largo, uma menina que vagueia misteriosamente pela floresta sozinha. Quando Ash e Pikachu os conhecem, a história de todos começa a fluir...\n[…]\nMia (ミア; Mia) Voz de: Yū Shimamura (Japonês), Martha Harms (Português), Angélica Borges (Português)\n[…]\nA sequência, Pokémon the Movie: Secrets of the Jungle estreou em 25 de dezembro de 2020.\n[…]\nWebsite japonês\n[…]\nPokémon the Movie: The Power of Us no IMDb\n[…]\nPokémon the Movie: The Power of Us (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Pokémon: O Poder de Todos",
+      "descricao": "Vigésimo primeiro filme da franquia Pokémon, de 2018, passado durante o Festival do Vento de Fula City."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que lendário, astro de Pokémon 2000, volta a aparecer quase vinte anos depois, no fim do Festival do Vento de O Poder de Todos?",
+    "resposta": "Lugia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_The_Power_of_Us",
+      "https://bulbapedia.bulbagarden.net/wiki/M21"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_The_Power_of_Us",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: The Power of Us is a 2018 Japanese anime adventure film based on Satoshi Tajiri's Pokémon media franchise, produced by OLM and Wit Studio and distributed by Toho. It is the twenty-first film of the Pokémon anime series, the second film of the alternate timeline trilogy and a sequel to Pokémon the Movie: I Choose You!.\n[…]\nFula City was founded on barren land that was developed by humans after the Legendary Pokémon Lugia granted them the power of wind. The wind festival is held every year.\n[…]\nFifty years ago, the nearby mountain forest was engulfed in flames due to humans clearing the mountain forest and looking for the mysterious Mythical Pokémon Zeraora. Harriet, the woman who built the wind power plant, burned her hand while failing to save her Snubbull from the burning windmill; she was only able to get the key to start the turbine that Snubbull was holding. This resulted in her becoming distant from Pokémon. Lugia was called to clear the fire.\n[…]\nMargo steals the eternal flame, a light held on the highest tower in the city to contact Lugia, to stop the festival and keep Zeraora safe and hidden. Margo tries to protect Zeraora from two poachers, but they are rescued by Ash and his friends just in time. Suddenly, the Effect Spore bottle cracks engulfing much of the forest and the city and the group decide to work together to stop it.\n[…]\nThe film was initially announced on the December 10, 2017, broadcast of TV Tokyo's variety program Oha Suta, under the title Pokémon the Movie 2018 (劇場版 ポケットモンスター 2018, Gekijō-ban Poketto Monsutā 2018), showing a new character design for the film's main protagonist Ash Ketchum alongside a new unnamed character. The film also revolves around the Legendary Pokémon Lugia.\n[…]\nPokémon the Movie: The Power of Us (anime) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M21",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_The_Power_of_Us",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: The Power of Us (Pokémon, o Filme: O Poder de Todos(PT/BR)) é um filme de aventura e anime de 2018 produzido por OLM e Wit Studio. É o vigésimo primeiro filme de Pokémon lançado e o segundo filme da série de filmes reboot do anime. É a sequela de Pokémon, O Filme: Eu Escolho Você!, existente em uma continuidade separada do programa de televisão.\n[…]\nÉ dirigido por Tetsuo Yajima e escrito por ambos Eiji Umehara (Grimoire of Zero) e Aya Takaha com design de personagens done por Shizue Kaneko (If Her Flag Breaks). É foi lançado no Japão em 13 de julho de 2018 e será o último período Heisei de lançamento da série. The Pokémon Company International e Fathom Events lançou o filme em uma corrida cinematográfica limitada em todo o mundo em 24 de novembro de 2018. No Brasil, lançou em 11 de janeiro de 2019, no canal Cartoon Network.\n[…]\nTodos os anos, o festival do vento ocorre em Cidade de Fula, um lugar onde as pessoas são como um vento. Há uma crença de que o lendário Pokémon Lugia aparecerá no último dia do festival, trazendo a todos a benção do vento.\n[…]\nAs pessoas começam a se reunir para o festival, entre as quais Lisa, uma estudante de ensino médio e novata com os Pokémon; Kagachi, um fanfarrão que conta as trolas aos visitantes; Trito, um pesquisador temeroso e com grande falta de confiança; Hisui, uma mulher velha bastante extravagante que odeia os Pokémon e Largo, uma menina que vagueia misteriosamente pela floresta sozinha. Quando Ash e Pikachu os conhecem, a história de todos começa a fluir...\n[…]\nA sequência, Pokémon the Movie: Secrets of the Jungle estreou em 25 de dezembro de 2020.\n[…]\nPokémon the Movie: The Power of Us no IMDb\n[…]\nPokémon the Movie: The Power of Us (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Pokémon: Eu Escolho Você! (filme)",
+      "descricao": "Vigésimo filme da franquia Pokémon, de 2017, que recria o começo da jornada de Ash e Pikachu."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No filme Eu Escolho Você, de 2017, Ash parte atrás do mesmo lendário que viu voando no primeiro episódio do anime. Qual é ele?",
+    "resposta": "Ho-Oh",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_I_Choose_You!",
+      "https://bulbapedia.bulbagarden.net/wiki/M20"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_I_Choose_You!",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: I Choose You! is a 2017 Japanese animated adventure film created by Satoshi Tajiri and produced by OLM. It is the twentieth film of the Pokémon anime series and the first film of the alternate timeline trilogy. Loosely adapted from the anime's first episode and much of the first season, it was directed by Kunihiko Yuyama and written by Shoji Yonemura.\n[…]\nSome fans also requested that voice actress Veronica Taylor should reprise her role as the English voice of Ash Ketchum for the film, but it was later confirmed that the current set of voice actors would stay on. The title of the film is also a reference to the first episode of the anime, \"Pokémon, I Choose You!\".\n[…]\nI Choose You! premiered at Japan Expo in France on July 6, 2017, and officially released in Japanese theaters on July 15, 2017. Advanced pre-orders the movie tickets across limited time periods (from September 19 to October 30, 2017) allowed moviegoers to receive a serial code to obtain one of the six special Pikachu in Pokémon Sun and Moon, each wearing one of Ash's signature hats from each anime season. These Pikachu were holding an exclusive Pikashunium Z-Crystal.\n[…]\nAccording to Oricon, the top-selling animation in Japan on Blu-ray/DVD by series sales surveyed from December 11, 2017, to June 10, 2018, ranks Pokemon The Movie: I Choose You! as the 29th most-sold anime series with 24,976 units.\n[…]\nA sequel to Pokémon the Movie: I Choose You! called Pokémon the Movie: The Power of Us was released in Japan on July 13, 2018. and then worldwide in theaters on November 24, 2018.\n[…]\nJapanese movie website\n[…]\nPokemon.co.jp movie website\n[…]\nPokémon the Movie: I Choose You! at IMDb\n[…]\nPokémon the Movie: I Choose You! (anime) at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: I Choose You! at Rotten Tomatoes"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M20",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_I_Choose_You%21",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: I Choose You! (Brasil: Pokémon: O Filme - Eu Escolho Você / Portugal: Pokémon O Filme - Escolho-te a Ti!) é o vigésimo filme da franquia Pokémon, lançado em 15 de julho de 2017, no Japão, 5 de novembro de 2017, no resto do mundo e em 15 de dezembro de 2018, em Portugal, pelo Biggs.\n[…]\nAsh Ketchum é um garoto que vai ao professor Carvalho para escolher o seu Pokémon inicial e começar sua jornada como treinador de Pokémon. Inicialmente, seu Pikachu o aborrece, mas depois de ser salvo por um bando de Spearows, o Pokémon muda de ideia. Ash e seu Pikachu conhecem o lendário Pokémon Ho-Oh.Depois de ter conquistado algumas insígnias na região de Kanto, Ash tenta capturar Entei com a ajuda dos treinadores Vera e Sérgio, vindo respectivamente de Duefoglie e Rupepoli.\n[…]\nO garoto mais tarde adquire um Charmander e descobre a localização de Ho-Oh. No decorrer da pesquisa do Arco-Íris Pokémon, os meninos se deparam com Suicune e Raikou.Chegando à montanha que hospeda Ho-Oh, Ash encontra o proprietário original de seu Charmander Cruz. Seu Lycanroc é, no entanto, possuído pelo lendário Marshadow e tenta matar seu treinador, mas o Charizard de Ash consegue salvá-lo. Mais tarde Ash e seu Pikachu lutam com Ho-Oh que vê a lendária vitória do Pokémon.\n[…]\nDepois de trazer seu Pokémon elétrico para Centro Pokémon, Ash cumprimenta seus companheiros de viagem. Um deles pretende procurar o trio Articuno, Zapdos e Moltres, Vera rever sua mãe e Ash seguir jornada para se tornar o maior Mestre Pokémon de todos os tempos.\n[…]\nPokémon the Movie: I Choose You! no IMDb\n[…]\nPokémon - O Filme: Eu Escolho Você! no AdoroCinema",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Pokémon: Eu Escolho Você! (filme)",
+      "descricao": "Vigésimo filme da franquia Pokémon, de 2017, que recria o começo da jornada de Ash e Pikachu."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em Eu Escolho Você, o Pikachu de Ash finalmente revela por que não gosta de ficar na Poké Bola. O que ele faz de inédito nessa cena?",
+    "resposta": "Fala como um humano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_I_Choose_You!",
+      "https://bulbapedia.bulbagarden.net/wiki/M20"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_I_Choose_You!",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: I Choose You! is a 2017 Japanese animated adventure film created by Satoshi Tajiri and produced by OLM. It is the twentieth film of the Pokémon anime series and the first film of the alternate timeline trilogy. Loosely adapted from the anime's first episode and much of the first season, it was directed by Kunihiko Yuyama and written by Shoji Yonemura.\n[…]\nI Choose You! premiered at Japan Expo in France on July 6, 2017, and officially released in Japanese theaters on July 15, 2017. Advanced pre-orders the movie tickets across limited time periods (from September 19 to October 30, 2017) allowed moviegoers to receive a serial code to obtain one of the six special Pikachu in Pokémon Sun and Moon, each wearing one of Ash's signature hats from each anime season. These Pikachu were holding an exclusive Pikashunium Z-Crystal.\n[…]\nAccording to Oricon, the top-selling animation in Japan on Blu-ray/DVD by series sales surveyed from December 11, 2017, to June 10, 2018, ranks Pokemon The Movie: I Choose You! as the 29th most-sold anime series with 24,976 units.\n[…]\nHe praised the film for having a stronger narrative than the other movies in the franchise, but criticized Sorrel and Verity's personalities, calling them \"more like bystanders of someone else's story, and the attempts at creating backstories for them aren't built up at all\". Brian Costello of Common Sense Media gave the film a score of 2 stars out of 5, writing: \"Pokemon the Movie: I Choose You!\n[…]\nA sequel to Pokémon the Movie: I Choose You! called Pokémon the Movie: The Power of Us was released in Japan on July 13, 2018. and then worldwide in theaters on November 24, 2018.\n[…]\nJapanese movie website\n[…]\nPokemon.co.jp movie website\n[…]\nPokémon the Movie: I Choose You! at IMDb\n[…]\nPokémon the Movie: I Choose You! (anime) at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: I Choose You! at Rotten Tomatoes"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M20",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_I_Choose_You%21",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: I Choose You! (Brasil: Pokémon: O Filme - Eu Escolho Você / Portugal: Pokémon O Filme - Escolho-te a Ti!) é o vigésimo filme da franquia Pokémon, lançado em 15 de julho de 2017, no Japão, 5 de novembro de 2017, no resto do mundo e em 15 de dezembro de 2018, em Portugal, pelo Biggs.\n[…]\nAsh Ketchum é um garoto que vai ao professor Carvalho para escolher o seu Pokémon inicial e começar sua jornada como treinador de Pokémon. Inicialmente, seu Pikachu o aborrece, mas depois de ser salvo por um bando de Spearows, o Pokémon muda de ideia. Ash e seu Pikachu conhecem o lendário Pokémon Ho-Oh.Depois de ter conquistado algumas insígnias na região de Kanto, Ash tenta capturar Entei com a ajuda dos treinadores Vera e Sérgio, vindo respectivamente de Duefoglie e Rupepoli.\n[…]\nO garoto mais tarde adquire um Charmander e descobre a localização de Ho-Oh. No decorrer da pesquisa do Arco-Íris Pokémon, os meninos se deparam com Suicune e Raikou.Chegando à montanha que hospeda Ho-Oh, Ash encontra o proprietário original de seu Charmander Cruz. Seu Lycanroc é, no entanto, possuído pelo lendário Marshadow e tenta matar seu treinador, mas o Charizard de Ash consegue salvá-lo. Mais tarde Ash e seu Pikachu lutam com Ho-Oh que vê a lendária vitória do Pokémon.\n[…]\nDepois de trazer seu Pokémon elétrico para Centro Pokémon, Ash cumprimenta seus companheiros de viagem. Um deles pretende procurar o trio Articuno, Zapdos e Moltres, Vera rever sua mãe e Ash seguir jornada para se tornar o maior Mestre Pokémon de todos os tempos.\n[…]\nPokémon the Movie: I Choose You! no IMDb\n[…]\nPokémon - O Filme: Eu Escolho Você! no AdoroCinema",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Segredos da Selva",
+      "descricao": "Vigésimo terceiro filme da franquia Pokémon, de 2020, sobre Koko, um menino criado por um Zarude na floresta."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segredos da Selva conta a história de Koko, um menino criado por um Zarude. A trama lembra qual herói da literatura, criado por macacos?",
+    "resposta": "Tarzan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Secrets_of_the_Jungle",
+      "https://bulbapedia.bulbagarden.net/wiki/M23"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Secrets_of_the_Jungle",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Secrets of the Jungle is a 2020 Japanese anime film based on Satoshi Tajiri's Pokémon media franchise and produced by OLM. It is the twenty-third film of the Pokémon anime series, the third of the alternate timeline, a sequel to Pokémon the Movie: The Power of Us and the last film produced by OLM of the Pokémon franchise. The film returns to the series' traditional 2D art style \n[…]\nIn the Forest of Okoya, the Mythical Pokémon Zarude finds an infant boy in a cradle washed up on a riverbank. Unable to leave the child on his own, Zarude adopts him as a son, naming him \"Koko\". Zarude leaves his tribe, which inhabits a Great Tree deep in the jungle where humans are forbidden to venture, to raise Koko who grows up as a feral child.\n[…]\nZed seizes control of the tank from his henchmen, and Ash, Pikachu, and Koko try to fight him to no avail. Zarude arrives with his tribe, having convinced them to help save the jungle. He also brings a group of wild Pokémon, who previously disliked his tribe due to their selfish behavior, to assist. Zarude is injured in the battle and nearly succumbs, but Koko manages to harness the power of the jungle as if he were a Pokémon, healing him.\n[…]\nWith their combined forces, they manage to break the tank's power source, disabling it. Zed attempts to escape, but is captured by Koko and arrested by the police with the evidence leaked by Team Rocket, and the humans and Pokémon work together to restore the damage done to the jungle.\n[…]\nKoko (ft. Beverly) (Opening Theme Song)\n[…]\nIn Japan, Pokémon the Movie: Secrets of the Jungle grossed ¥2.02 billion ($18.41 million) as of June 2021. Overseas, the film's September 2021 releases in China and South Korea grossed $5,045,865, for a worldwide total of $23,575,865.\n[…]\nPokémon the Movie: Secrets of the Jungle (anime) at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: Secrets of the Jungle at IMDb"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M23",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Secrets_of_the_Jungle",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Secrets of the Jungle (no Brasil e em Portugal, Pokémon, o Filme: Segredos da Selva) é um filme de anime japonês de 2020 baseado na franquia de mídia Pokémon de Satoshi Tajiri e produzido por OLM. É o vigésimo terceiro filme do universo Pokémon, cobrindo a Geração VIII. O filme retorna ao estilo de arte 2D tradicional da série, em vez de usar a animação CGI usada em Mewtwo Strik\n[…]\nPor um tempo limitado, se os jogadores em ingressos pré-encomendassem de Pokémon Sword e Shield para a estreia deste filme, eles obteriam o Pokémon Mítico Zarude em sua forma \"Dada\" e um Celebi Brilhante.\n[…]\nAcompanhamos a história de Koko, um garoto humano, que vive nas profundezas da selva na floresta de Okoya, um paraíso Pokémon proibido para estranhos. Ele foi criado desde bebê como um Pokémon pelo mítico Zarude e cresceu sem nunca duvidar de que ele era um Pokémon, mas um encontro ao acaso com Ash e Pikachu deixa Koko com seu primeiro amigo humano que lhe faz duvidar de quem ele é.\n[…]\nAo mesmo tempo, Koko ao lado de Ash e seu pai Zarude, precisam superar o grande perigo que ameaça toda a selva.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Segredos da Selva",
+      "descricao": "Vigésimo terceiro filme da franquia Pokémon, de 2020, sobre Koko, um menino criado por um Zarude na floresta."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Previsto para julho de 2020, o filme de Pokémon estrelado por Zarude só estreou nos cinemas japoneses no Natal. O que causou o adiamento?",
+    "resposta": "A pandemia de covid-19",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Secrets_of_the_Jungle",
+      "https://bulbapedia.bulbagarden.net/wiki/M23"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Secrets_of_the_Jungle",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Secrets of the Jungle is a 2020 Japanese anime film based on Satoshi Tajiri's Pokémon media franchise and produced by OLM. It is the twenty-third film of the Pokémon anime series, the third of the alternate timeline, a sequel to Pokémon the Movie: The Power of Us and the last film produced by OLM of the Pokémon franchise. The film returns to the series' traditional 2D art style \n[…]\nIn Japan, the film was released on December 25, 2020, by Toho. The original release date of July 10, 2020, was delayed due to the COVID-19 pandemic in Japan. The film released worldwide (excluding Japan, Korea and China) on Netflix on October 8, 2021.\n[…]\nIn the Forest of Okoya, the Mythical Pokémon Zarude finds an infant boy in a cradle washed up on a riverbank. Unable to leave the child on his own, Zarude adopts him as a son, naming him \"Koko\". Zarude leaves his tribe, which inhabits a Great Tree deep in the jungle where humans are forbidden to venture, to raise Koko who grows up as a feral child.\n[…]\nPokémon the Movie: Koko Music Collection (Japanese: 「劇場版ポケットモンスター ココ」ミュージックコレクション) is the official soundtrack of the movie that was released in Japan on December 23, 2020. Koko by Beverly is the Japanese opening theme for the movie. Pokémon the Movie: Koko Theme Song Collection (Japanese: 「劇場版ポケットモンスター ココ」テーマソング集), the album for the opening theme was also released on December 23, 2020.\n[…]\nThe film was released on December 25, 2020, in Japan. The original release date of July 10, 2020, was delayed due to the COVID-19 pandemic.\n[…]\nIn Japan, Pokémon the Movie: Secrets of the Jungle grossed ¥2.02 billion ($18.41 million) as of June 2021. Overseas, the film's September 2021 releases in China and South Korea grossed $5,045,865, for a worldwide total of $23,575,865.\n[…]\nPokémon the Movie: Secrets of the Jungle (anime) at Anime News Network's encyclopedia\n[…]\nPokémon the Movie: Secrets of the Jungle at IMDb"
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M23",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie%3A_Secrets_of_the_Jungle",
+        "situacao": "ok",
+        "texto": "Pokémon the Movie: Secrets of the Jungle (no Brasil e em Portugal, Pokémon, o Filme: Segredos da Selva) é um filme de anime japonês de 2020 baseado na franquia de mídia Pokémon de Satoshi Tajiri e produzido por OLM. É o vigésimo terceiro filme do universo Pokémon, cobrindo a Geração VIII. O filme retorna ao estilo de arte 2D tradicional da série, em vez de usar a animação CGI usada em Mewtwo Strik\n[…]\nNo Japão, o filme foi lançado em 25 de dezembro de 2020, pela Toho. A data de lançamento original de 10 de julho de 2020, foi adiada devido à pandemia de COVID-19 no Japão. O filme foi lançado internacionalmente (exceto China, Coreia do Sul e Japão), em 8 de outubro de 2021 na Netflix.\n[…]\nPor um tempo limitado, se os jogadores em ingressos pré-encomendassem de Pokémon Sword e Shield para a estreia deste filme, eles obteriam o Pokémon Mítico Zarude em sua forma \"Dada\" e um Celebi Brilhante.\n[…]\nAcompanhamos a história de Koko, um garoto humano, que vive nas profundezas da selva na floresta de Okoya, um paraíso Pokémon proibido para estranhos. Ele foi criado desde bebê como um Pokémon pelo mítico Zarude e cresceu sem nunca duvidar de que ele era um Pokémon, mas um encontro ao acaso com Ash e Pikachu deixa Koko com seu primeiro amigo humano que lhe faz duvidar de quem ele é.\n[…]\nAo mesmo tempo, Koko ao lado de Ash e seu pai Zarude, precisam superar o grande perigo que ameaça toda a selva.[carece de fontes]?\n[…]\nO filme foi lançado em 25 de dezembro de 2020 no Japão. A data de lançamento original de 10 de julho de 2020, foi adiada devido à pandemia de COVID-19 em Tóquio.\n[…]\nO filme foi lançado na Netflix em 8 de outubro de 2021 em todo o mundo (exceto China, Coreia do Sul e Japão).[carece de fontes]?\n[…]\nSítio oficial (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Mewtwo Contra-Ataca: Evolução",
+      "descricao": "Vigésimo segundo filme da franquia Pokémon, refilmagem em computação gráfica do primeiro filme, Mewtwo Contra-Ataca."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Fora do Japão, a refilmagem em computação gráfica de Mewtwo Contra-Ataca não passou nos cinemas. Onde ela estreou?",
+    "resposta": "Na Netflix",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/M22",
+      "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/M22",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films",
+        "situacao": "ok",
+        "texto": "Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been twenty-three animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, while the twentieth, twenty-first, and twenty-third are set in an alternate continuity to the anim\n[…]\nThe first Pokémon animated film, Pokémon: The First Movie, was released in Japan in 1998, and in 2019 was remade as Pokémon: Mewtwo Strikes Back – Evolution. A live-action film, Detective Pikachu, was produced by American studio Legendary Entertainment, directed by Rob Letterman, and written by Letterman and Nicole Perlman. It was distributed in Japan by Toho and outside of Japan and China by Warner Bros. Pictures. It was released on May 10, 2019."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_filmes_de_Pok%C3%A9mon",
+        "situacao": "ok",
+        "texto": "Pokémon é uma franquia de mídia criada pelo designer de jogo eletrônico Satoshi Tajiri que se concentra em criaturas fictícias chamadas Pokémon. Em 2020, houve 23 filmes de animação e um filme live-action. Os primeiros dezenove filmes de animação são baseados na série de televisão de anime de mesmo nome, com o filme original sendo refeito no dia 22. Os 20º, 21º e 23º filmes de animação são ambient\n[…]\nO filme 24ª filme de animação baseado no Pokémon Trading Card Game e sem continuidade com anime. Os filmes são produzidos pelos estúdios de animação OLM, Production I.G, Xebec, Wit Studio e CloverWorks, e distribuídos no Japão pela Toho, com vários estúdios distribuindo os filmes na América do Norte e Brasil. Eles foram dirigidos por Kunihiko Yuyama e Tetsuo Yajima e escritos por Takeshi Shudo, Hideki Sonoda, Atsuhiro Tomioka, Shōji Yonemura, Eiji Umehara e Aya Takaha.\n[…]\nO primeiro filme de animação Pokémon, Pokémon: The First Movie, foi lançado no Japão em 1998, que foi refeito em Mewtwo Strikes Back: Evolution. Um filme live-action, Pokémon: Detetive Pikachu, foi produzido pelo estúdio americano Legendary Entertainment, dirigido por Rob Letterman e escrito por Letterman e Nicole Perlman. É distribuído no Japão pela Toho, e fora do Japão e China pela Warner Bros. Foi lançado em 10 de maio de 2019.\n[…]\nO ais recente filme de animação, Pokémon the Movie: Secrets of the Jungle, foi originalmente programado para ser lançado nos cinemas japoneses em 10 de julho de 2020, mas foi adiado para 25 de dezembro de 2020, devido à pandemia de COVID-19; foi lançado em 8 de outubro de 2021, nos Estados Unidos e Brasil. O próximo filme, Pokémon: Wild Card, será dirigido por Katsuhiko Kitada no estúdio de animação CloverWorks e tem lançamento previsto para 2027.\n[…]\n«Pokémon Filmes – Website oficial do Japão» (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "O Retorno de Mewtwo",
+      "descricao": "Especial de TV de 2000 do anime Pokémon, continuação do primeiro filme, em que a Equipe Rocket volta a caçar Mewtwo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No especial O Retorno de Mewtwo, continuação do primeiro filme, Mewtwo vive escondido com seus clones em qual montanha?",
+    "resposta": "Monte Quena",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Mt._Quena",
+      "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_Returns"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mt._Quena",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_Returns",
+        "situacao": "inacessivel",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Detetive Pikachu (filme)",
+      "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes filmes da franquia Pokémon arrecadou mais dinheiro nas bilheterias do mundo inteiro?",
+    "resposta": "Detetive Pikachu",
+    "distratores": [
+      "Mewtwo Contra-Ataca",
+      "Pokémon 2000",
+      "Eu Escolho Você"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Detective_Pikachu",
+      "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Detective_Pikachu",
+        "situacao": "ok",
+        "texto": "Pokémon Detective Pikachu is a 2019 urban fantasy mystery film and the first live-action film based on the Pokémon franchise. It is loosely based on the 2016 video game Detective Pikachu. Directed by Rob Letterman, who co-wrote it with Dan Hernandez, Benji Samit, and Derek Connolly, the film stars Ryan Reynolds as the voice and motion capture of Pikachu, with Justice Smith, Kathryn Newton, Suki Wa\n[…]\nNiantic Labs promoted the film through the Pokémon Go app, by featuring, among other things, select Pokémon from the movie appear in the game, including a limited edition \"detective\" version of Pikachu. The Pokémon Company released a series of trading cards featuring images from the film, including a limited edition Detective Pikachu character card only available the first weekend of the film's release.\n[…]\nDetective Pikachu was released on Digital HD on July 23, 2019, and was released on Ultra HD Blu-ray, Blu-ray and DVD on August 6, 2019.\n[…]\nThe website's critical consensus reads, \"Pokémon Detective Pikachu may not take its wonderfully bizarre premise as far as it could have, but this offbeat adaptation should catch most – if not all – of the franchise's fans.\" It was the first international theatrical live-action video game adaptation to maintain a \"fresh\" rating and it was the highest rated video game adaptation on the site, until it was surpassed by The Angry Birds Movie 2.\n[…]\nPeter Debruge of Variety was critical of the plot and the special effects: \"Though consistent with the games ... the story of Detective Pikachu doesn't allow nearly enough Pokémon-related action, while the quality of the computer animation ... falls far short of the basic level of competency audiences have come to expect from effects movies.\" Debruge was also critical of the central pairing of Pikachu and Tim Goodman, saying the relationship lacks chemistry.\n[…]\nList of Pokémon films\n[…]\nPokémon Detective Pikachu at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films",
+        "situacao": "ok",
+        "texto": "Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been twenty-three animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, while the twentieth, twenty-first, and twenty-third are set in an alternate continuity to the anim\n[…]\nThe first Pokémon animated film, Pokémon: The First Movie, was released in Japan in 1998, and in 2019 was remade as Pokémon: Mewtwo Strikes Back – Evolution. A live-action film, Detective Pikachu, was produced by American studio Legendary Entertainment, directed by Rob Letterman, and written by Letterman and Nicole Perlman. It was distributed in Japan by Toho and outside of Japan and China by Warner Bros. Pictures. It was released on May 10, 2019.\n[…]\nThe films star Pokémon Trainer Ash Ketchum and his partner Pokémon, Pikachu. Detective Pikachu is based on the 2016 video game Detective Pikachu and stars Ryan Reynolds as the motion capture role of Detective Pikachu, with Justice Smith and Kathryn Newton as the lead human roles.\n[…]\nThe launch of the mobile game Pokémon Go in 2016 reignited mainstream interest in the Pokémon franchise in the Western market since its initial peak in the early 2000s, and various Hollywood film companies approached The Pokémon Company to gain film rights. Eventually, Warner Bros. Pictures and Legendary Entertainment struck a deal to produce a live-action adaptation of the 2018 video game Detective Pikachu; Pokémon Detective Pikachu, the first official live-action Pokémon film.\n[…]\nPikachu shorts are a series of twenty-seven animated short films shown at the start of animated theatrical films based on Pokémon, and have also been shown on ANA flights in Japan and released during Christmas as Pikachu's Winter Vacation.\n[…]\n\"Pokémon Movies - US official website\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_Detetive_Pikachu",
+        "situacao": "ok",
+        "texto": "Pokémon Detective Pikachu (no Brasil e em Portugal, Pokémon: Detetive Pikachu) é um filme nipo-americano de fantasia produzido pela Legendary Entertainment​, The Pokémon Company, Tōhō​ e Warner Bros. Pictures, baseado na franquia “Pokémon” de Satoshi Tajiri, Ken Sugimori, Game Freak e Nintendo. O filme é dirigido por Rob Letterman e estrelado por Ryan Reynolds, Justice Smith, Kathryn Newton, Ken W\n[…]\nHarry Goodman, o pai desaparecido de Tim e um famoso detetive de Ryme City.\n[…]\nEm abril de 2016, foi mencionado que a Warner Bros. Pictures e a Legendary Pictures estavam negociando os direitos para realizarem um live-action de Pokémon. Mais tarde, em julho de 2016, a Legendary estava prestes a fechar um acordo para o filme. Em 20 de julho de 2016, foi anunciado que a Legendary e a The Pokémon Company International assinaram um acordo para fazer o primeiro filme de ação ao vivo na franquia, que seria baseado no videogame Detective Pikachu.\n[…]\nEm 25 de julho de 2018, a Warner Bros. anunciou que havia assumido as funções de distribuição mundial (exceto no Japão e na China) da Universal Pictures, com a data de lançamento inalterada. O motivo para adaptar o Detetive Pikachu veio da The Pokémon Company e do desejo de Letterman de fazer um filme que focasse em outro personagem além de Ash Ketchum, o protagonista da série de anime Pokémon.\n[…]\nA ideia de um filme de Pokémon originou-se de um conceito inicial para a série de anime dos anos 1990, mas foi descartada pelo desenvolvedor do jogo original, Game Freak, que não estava satisfeito com o conceito, antes que a ideia fosse revivida para o spin-off do jogo Detective Pikachu de 2016.\n[…]\nUma gravação de áudio adicional de uma suposta luta entre o Detetive Pikachu e Charizard foi gravada no Campeonato Mundial de Pokémon de 2018.\n[…]\nPokémon: Detetive Pikachu no IMDb\n[…]\nDetetive Pikachu (em português) no BurnBook",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Férias do Pikachu",
+      "descricao": "Primeiro curta-metragem do Pikachu, de 1998, exibido nos cinemas antes do primeiro filme de Pokémon."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que curta-metragem, em que os pokémon de Ash passam um dia de folga sem nenhum humano por perto, abriu as sessões do primeiro filme?",
+    "resposta": "Férias do Pikachu",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/PK01",
+      "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/PK01",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie",
+        "situacao": "ok",
+        "texto": "Pokémon: The First Movie is a 1998 Japanese animated fantasy adventure film directed by Kunihiko Yuyama. It is the first in the Pokémon anime film series. The film was first released in Japan on July 18, 1998, to positive reviews, with praise directed at the film's emotional impact and exploration of ethical topics such as cloning, genetic modification, and existentialism.\n[…]\nGrossfeld had new music re-recorded for the film's release, citing that it \"would better reflect what American kids would respond to.\" John Loeffler of Rave Music produced the English-language music and co-composed the film score with Ralph Schuckett. Loeffler collaborated with John Lissauer and Manny Corallo to produce the English-language \"Pikachu's Vacation\" score.\n[…]\nIn 2016, the film was theatrically re-released exclusively at Cinemark theaters in the United States on October 29 and November 1, 2016. The re-release included the Pikachu's Vacation short film from the original release and was intended to commemorate Pokémon's 20th anniversary.\n[…]\nAnime News Network review called the main feature \"contradictory\", stating that \"the anti-violent message that is pretty much crammed down our throats works directly against the entire point of the franchise\" and criticized Pikachu's Summer Vacation for being \"incoherent, pointless and fluffy\".\n[…]\nRating the movie two stars out of four, Roger Ebert of the Chicago Sun-Times called the movie \"a sound-and-light show, linked to the marketing push for Pokémon in general\" and said that the movie had \"no level at which it enriches a young viewer, by encouraging thinking or observation.\" Michael Wood of the Coventry Evening Telegraph said that Pikachu's Summer Vacation \"can only be described as a mind-numbingly tedious piece, with no discernible storyline and lots of trippy images and silly voices\".\n[…]\nPokémon: The First Movie at Box Office Mojo"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pok%C3%A9mon%3A_The_First_Movie",
+        "situacao": "ok",
+        "texto": "Pokémon: The First Movie: Mewtwo Strikes Back, geralmente referido como Pokémon: The First Movie, originalmente lançado como Pocket Monsters the Movie: Mewtwo Strikes Back! (劇場版ポケットモンスター ミュウツーの逆襲, Gekijōban Poketto Monsutā: Myūtsū no Gyakushū), é um filme de anime de 1998, dirigido por Kunihiko Yuyama, o diretor chefe da série de televisão Pokémon. Foi o primeiro filme da franquia Pokémon.\n[…]\nAsh, Misty e Brock chegam a um local onde seus Pokémon podem brincar livremente enquanto tiram um dia de descanso de sua longa jornada. E como todos os Pokémon do trio principal vão felizes curtir esse dia de férias, Pikachu, Squirtle e Bulbasaur ficam responsáveis por cuidar do pequeno Togepi de Misty sozinhos.\n[…]\nCom a luta interrompida, Pikachu tenta reanimar seu treinador, verificando que este está tecnicamente morto. Ao ver Pikachu inconsolado com a perda, todos os Pokémon, originais e clones, entristecem-se por perceberem o quanto estavam errados em lutar e a consequência dessa luta. As lágrimas de todos os Pokémon devolvem a vida a Ash, clareando a mente de Mewtwo de que nem todos os humanos são maléficos.\n[…]\nPokémon: The First Movie é a trilha sonora do primeiro filme de Pokémon lançada nos Estados Unidos em 10 de novembro de 1999. Mais tarde, foi lançado o álbum Pokémon: The First Movie Original Motion Picture Score.\n[…]\nApós os anos seguintes, foi relançado em DVD no dia 21 de setembro de 2007 no Japão, fazendo parte da coleção Pikachu the Movie Box 1998-2002. Nos Estados Unidos, foi relançado em DVD no dia 7 de abril de 2009 pela Warner Home Video, fazendo parte da coleção Pokémon: The First Three Movies. Em 28 de novembro de 2012, o filme foi remasterizado digitalmente e lançado pela 1ª vez em Blu-ray, fazendo parte da coleção Pikachu the Movie Premium Box 1998-2010.\n[…]\nPokémon: The First Movie no IMDb\n[…]\nPokémon: The First Movie (em inglês). no Box Office Mojo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Pikachu e Pichu (curta)",
+      "descricao": "Curta-metragem do Pikachu exibido junto com Pokémon 3, em que Pikachu se perde numa cidade grande."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No curta exibido junto com Pokémon 3, Pikachu se perde numa cidade grande. Que dupla de irmãos o ajuda a voltar para casa?",
+    "resposta": "Os Irmãos Pichu",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/PK03",
+      "https://bulbapedia.bulbagarden.net/wiki/Pichu_Brothers"
+    ],
+    "trechos": [
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/PK03",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Pichu_Brothers",
+        "situacao": "inacessivel",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Filmes de Pokémon",
+      "descricao": "Série de longas-metragens anuais do anime Pokémon, lançada nos cinemas japoneses desde 1998."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "De 1998 a 2019, os filmes anuais de Pokémon estrearam nos cinemas japoneses sempre no mesmo mês, nas férias de verão. Qual?",
+    "resposta": "Julho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films",
+      "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_movies"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon_films",
+        "situacao": "ok",
+        "texto": "Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been twenty-three animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, while the twentieth, twenty-first, and twenty-third are set in an alternate continuity to the anim\n[…]\nThe first Pokémon animated film, Pokémon: The First Movie, was released in Japan in 1998, and in 2019 was remade as Pokémon: Mewtwo Strikes Back – Evolution. A live-action film, Detective Pikachu, was produced by American studio Legendary Entertainment, directed by Rob Letterman, and written by Letterman and Nicole Perlman. It was distributed in Japan by Toho and outside of Japan and China by Warner Bros. Pictures. It was released on May 10, 2019.\n[…]\nThe most recent film, Pokémon the Movie: Secrets of the Jungle, was originally set for release in Japanese theaters on July 10, 2020, but delayed to December 25, 2020, due to the COVID-19 pandemic. It was released on October 8, 2021, in the United States. The next film, Pokémon: Wild Card, will be directed by Katsuhiko Kitada at animation studio CloverWorks and is scheduled to be released in 2027.\n[…]\nIn January 2019, ahead of the film's release, Legendary began development on a sequel.\n[…]\nThese television specials, which run longer than the normal half-hour and are usually not separated into more than one episode in either the original or the dub, are often considered TV Pokémon movies, not counting towards the running total. They do not air in theaters, but are instead broadcast on the same networks that the anime is broadcast on for their premieres.\n[…]\n\"Pokémon Movies - US official website\".\n[…]\n\"Pokémon Movies - JP official website\" (in Japanese).\n[…]\n\"Pokémon Movies - KO official website\" (in Korean)."
+      },
+      {
+        "url": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_movies",
+        "situacao": "inacessivel",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_filmes_de_Pok%C3%A9mon",
+        "situacao": "ok",
+        "texto": "Pokémon é uma franquia de mídia criada pelo designer de jogo eletrônico Satoshi Tajiri que se concentra em criaturas fictícias chamadas Pokémon. Em 2020, houve 23 filmes de animação e um filme live-action. Os primeiros dezenove filmes de animação são baseados na série de televisão de anime de mesmo nome, com o filme original sendo refeito no dia 22. Os 20º, 21º e 23º filmes de animação são ambient\n[…]\nO primeiro filme de animação Pokémon, Pokémon: The First Movie, foi lançado no Japão em 1998, que foi refeito em Mewtwo Strikes Back: Evolution. Um filme live-action, Pokémon: Detetive Pikachu, foi produzido pelo estúdio americano Legendary Entertainment, dirigido por Rob Letterman e escrito por Letterman e Nicole Perlman. É distribuído no Japão pela Toho, e fora do Japão e China pela Warner Bros. Foi lançado em 10 de maio de 2019.\n[…]\nHome Entertainment e a Universal Pictures Home Entertainment, responsável pela distribuição de DVDs de Pokémon na América do Norte: Lucario and the Mystery of Mew em diante). Nos lançamentos brasileiros, os três primeiros filmes foram distribuídos pela Warner Bros.; quarto, sexto e sétimo foram distribuídas pela Europa Filmes; quinto foi distribuída pela Buena Vista, e a partir do oitavo filme foi distribuída pela SDI Media Poland.\n[…]\nO ais recente filme de animação, Pokémon the Movie: Secrets of the Jungle, foi originalmente programado para ser lançado nos cinemas japoneses em 10 de julho de 2020, mas foi adiado para 25 de dezembro de 2020, devido à pandemia de COVID-19; foi lançado em 8 de outubro de 2021, nos Estados Unidos e Brasil. O próximo filme, Pokémon: Wild Card, será dirigido por Katsuhiko Kitada no estúdio de animação CloverWorks e tem lançamento previsto para 2027.\n[…]\n«Pokémon Filmes – Website oficial dos EUA»\n[…]\n«Pokémon Filmes – Website oficial do Japão» (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.66 — 2026-10-13**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem todas as regras desta Parte I: tema e subtema, âncora, saturação e fontes. Podem ser com ou sem figura.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 3 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

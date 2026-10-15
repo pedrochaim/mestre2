@@ -72,11 +72,23 @@ def montar_prompt_geracao(enc, banco):
         multipla=enc.get("multipla", round(quantidade * 0.2)),
         angulos_alvo=", ".join(enc.get("angulos_alvo", [])) or "nenhum em especial; siga as regras de variedade",
         observacoes=enc.get("observacoes") or "nenhuma",
+        subtemas_colecao=_bloco_subtemas_colecao(enc),
         ancoras_existentes="\n".join(linhas_ancoras) or "(nenhuma)",
         perguntas_existentes="\n".join(linhas_perguntas) or "(nenhuma)",
         ancoras_saturadas="\n".join(linhas_saturadas) or "(nenhuma)",
         manifesto=manifesto_para_llm(),
     )
+
+
+def _bloco_subtemas_colecao(enc):
+    """Na encomenda de uma coleção com subtemas próprios, o gerador classifica cada pergunta pelo assunto dela."""
+    subtemas = bc.SUBTEMAS_COLECAO.get(enc.get("colecao"))
+    if not subtemas:
+        return ""
+    linhas = "\n".join(f"  - `{nome}`: {escopo}" for nome, escopo in subtemas.items())
+    foco = f" O foco deste lote é `{enc['subtema_colecao']}`, mas" if enc.get("subtema_colecao") else ""
+    return (f"- **Subtema da coleção:** em cada pergunta, preencha `subtema_colecao` com um destes subtemas do modo"
+            f" {enc['colecao']}.{foco} classifique cada pergunta pelo assunto dela, não pelo foco do lote:\n{linhas}")
 
 
 def gerar(enc, banco, pasta, config):
@@ -102,6 +114,8 @@ def validar(enc, banco, canon, pasta):
             item[campo] = g[campo]
         if g["tipo"] == "multipla" and "distratores" in g:
             item["distratores"] = g["distratores"]
+        if g.get("subtema_colecao") in bc.SUBTEMAS_COLECAO.get(enc.get("colecao"), {}):
+            item["_subtema_colecao"] = g["subtema_colecao"]
 
         erros = bc.erros_pergunta(forma_final(item), canon)
         if erros:
@@ -445,9 +459,11 @@ def registrar(enc, banco, canon, pasta):
     for it in dados["itens"]:
         ancora = renomear.get(it["ancora"], it["ancora"])
         final = forma_final(it, f"q{numero:05d}", ancora)
-        # Coleção temática (MANIFESTO §6): a encomenda marca todas as suas perguntas; "exclusiva" as tira do jogo original,
-        # e "subtema_colecao" dá o subtema delas no modo da coleção.
-        final.update({c: enc[c] for c in ("colecao", "exclusiva", "subtema_colecao") if enc.get(c)})
+        # Coleção temática (MANIFESTO §6): a encomenda marca todas as suas perguntas; "exclusiva" as tira do jogo original.
+        # O subtema no modo da coleção é o que o gerador deu à pergunta; sem ele, vale o foco da encomenda.
+        final.update({c: enc[c] for c in ("colecao", "exclusiva") if enc.get(c)})
+        if it.get("_subtema_colecao") or enc.get("subtema_colecao"):
+            final["subtema_colecao"] = it.get("_subtema_colecao") or enc["subtema_colecao"]
         erros = bc.erros_pergunta(final, canon)
         if erros or banco.resolver(ancora) is None:
             registrar_log(enc["id"], "registrar", "descartada", "; ".join(erros) or "âncora inexistente", _resumo(it))

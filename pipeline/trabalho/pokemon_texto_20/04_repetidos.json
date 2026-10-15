@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No anime, o Professor Carvalho, que entrega Pikachu a Ash na cidade de Pallet, tem qual primeiro nome?",
+        "resposta": "Samuel"
+      },
+      "existentes": [
+        {
+          "id": "q09804",
+          "pergunta": "No original em inglês, os professores pokémon se chamam Oak, Elm, Birch e Rowan. De onde vêm esses nomes?",
+          "resposta": "De árvores"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No Japão, a Oficial Jenny se chama Junsar, nome tirado de uma palavra japonesa. O que essa palavra significa?",
+        "resposta": "Policial"
+      },
+      "existentes": [
+        {
+          "id": "q10234",
+          "pergunta": "No anime, o que a Enfermeira Joy, do Centro Pokémon, e a Oficial Jenny, da polícia, têm em comum?",
+          "resposta": "Há uma idêntica em cada cidade"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No anime, Misty adora pokémon de água, mas tem pavor de pokémon de um outro tipo. Qual?",
+        "resposta": "Inseto"
+      },
+      "existentes": [
+        {
+          "id": "q09814",
+          "pergunta": "Logo no começo do anime, por que Misty passa a seguir Ash em sua jornada?",
+          "resposta": "Para cobrar a bicicleta destruída"
+        },
+        {
+          "id": "q09965",
+          "pergunta": "No Japão, Misty, a companheira de Ash especialista em pokémon de água, se chama Kasumi. O que significa esse nome?",
+          "resposta": "Névoa"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No filme Lucario e o Mistério de Mew, Lucario passa séculos preso dentro de um cajado. Quem o selou ali?",
+        "resposta": "Sir Aaron, seu antigo mestre"
+      },
+      "existentes": [
+        {
+          "id": "q10212",
+          "pergunta": "No filme Lucario e o Mistério de Mew, Lucario desperta depois de passar séculos selado dentro de qual objeto do seu mestre, Aaron?",
+          "resposta": "O cajado de Aaron"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Primeiro nome do Professor Carvalho é fato distinto da origem dos nomes em inglês."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Significado do nome Junsar difere da característica comum entre Joy e Jenny."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Medo de pokémon tipo inseto é fato diferente do motivo de seguir Ash e do significado de Kasumi."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Lucario selado no cajado de Aaron; a existente já entrega a resposta."
+    }
+  ]
+}

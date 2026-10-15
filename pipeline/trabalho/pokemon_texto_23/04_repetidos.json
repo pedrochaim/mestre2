@@ -1,0 +1,163 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Numa partida padrão do card game Pokémon, cada jogador separa cartas de prêmio e vence quem pegar todas. Quantas cartas de prêmio são?",
+        "resposta": "Seis"
+      },
+      "existentes": [
+        {
+          "id": "q09810",
+          "pergunta": "Até 2003, o card game Pokémon foi publicado no Ocidente pela mesma empresa que criou Magic. Que empresa é essa?",
+          "resposta": "Wizards of the Coast"
+        },
+        {
+          "id": "q09822",
+          "pergunta": "O card game de Pokémon, com suas cartas colecionáveis, chegou às lojas do Japão em que ano?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Antes de virar estúdio, a Game Freak era uma revista sobre videogames feita por Satoshi Tajiri. Que futuro artista de Pokémon desenhava as ilustrações dela?",
+        "resposta": "Ken Sugimori"
+      },
+      "existentes": [
+        {
+          "id": "q09828",
+          "pergunta": "Antes de se tornar o estúdio que criou Pokémon, a Game Freak, de Satoshi Tajiri, era o quê?",
+          "resposta": "Uma revista sobre videogames"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A empresa que hoje administra a marca Pokémon nasceu em 1998 para cuidar das lojas oficiais da franquia. Com que nome ela foi fundada?",
+        "resposta": "Pokémon Center Co., Ltd."
+      },
+      "existentes": [
+        {
+          "id": "q10057",
+          "pergunta": "A empresa que administra a marca Pokémon foi criada em 1998 por três sócias: Nintendo, Game Freak e qual outra, responsável pelo card game?",
+          "resposta": "Creatures"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Numa partida padrão de Pokémon Unite, dois times disputam pontos marcando gols na arena. Quantos jogadores formam cada time?",
+        "resposta": "Cinco"
+      },
+      "existentes": [
+        {
+          "id": "q10009",
+          "pergunta": "Pokémon Unite, jogo de batalhas de cinco contra cinco, foi desenvolvido pelo estúdio TiMi, que pertence a qual gigante chinesa da tecnologia?",
+          "resposta": "Tencent"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Pokémon Colosseum, o protagonista Wes não escolhe um inicial clássico: ele começa a aventura com duas evoluções de Eevee. Quais?",
+        "resposta": "Espeon e Umbreon"
+      },
+      "existentes": [
+        {
+          "id": "q09992",
+          "pergunta": "Pokémon Colosseum, para GameCube, se passa em Orre, uma região desértica inspirada em qual estado americano?",
+          "resposta": "Arizona"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O primeiro Pokémon Ranger, do Nintendo DS, se passa numa região que não aparece nos jogos principais. Como ela se chama?",
+        "resposta": "Fiore"
+      },
+      "existentes": [
+        {
+          "id": "q09985",
+          "pergunta": "Em Pokémon Ranger, para Nintendo DS, o herói não usa Poké Bolas. Como ele captura os pokémon, usando a caneta na tela?",
+          "resposta": "Desenhando círculos ao redor deles"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Uma missão especial de Pokémon Ranger dava ao jogador o ovo de um pokémon mítico, que podia ser enviado para Diamond e Pearl. Que pokémon era esse?",
+        "resposta": "Manaphy"
+      },
+      "existentes": [
+        {
+          "id": "q09985",
+          "pergunta": "Em Pokémon Ranger, para Nintendo DS, o herói não usa Poké Bolas. Como ele captura os pokémon, usando a caneta na tela?",
+          "resposta": "Desenhando círculos ao redor deles"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No jogo Detetive Pikachu, o investigador de chapéu de detetive fala com voz de homem maduro e tem um vício. É louco por qual bebida?",
+        "resposta": "Café"
+      },
+      "existentes": [
+        {
+          "id": "q10308",
+          "pergunta": "O jogo Detetive Pikachu, para Nintendo 3DS, que inspirou o filme, foi desenvolvido por qual empresa, uma das três sócias da The Pokémon Company?",
+          "resposta": "Creatures"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Número de cartas de prêmio é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o ilustrador, não o que a Game Freak era."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nome de fundação é diferente da sócia Creatures."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tamanho do time; a existente cita 5x5 mas pergunta a desenvolvedora."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Iniciais de Wes vs. inspiração de Orre."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nome da região vs. método de captura."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ovo de Manaphy vs. método de captura."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Bebida favorita vs. desenvolvedora."
+    }
+  ]
+}

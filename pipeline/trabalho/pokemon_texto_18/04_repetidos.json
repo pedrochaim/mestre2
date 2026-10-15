@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Pokémon Sun segue o horário real do console. Em Pokémon Moon, o relógio do jogo fica deslocado em quantas horas?",
+        "resposta": "Doze horas"
+      },
+      "existentes": [
+        {
+          "id": "q09996",
+          "pergunta": "Pokémon Sun e Moon, que apresentaram a região tropical de Alola, chegaram ao Nintendo 3DS em que ano?",
+          "resposta": "2016"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Cada ilha de Alola tem um tapu protetor. Qual deles guarda Melemele, a ilha onde começa a jornada de Sun e Moon?",
+        "resposta": "Tapu Koko"
+      },
+      "existentes": [
+        {
+          "id": "q10085",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Tapu Koko"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Pokémon Sword e Shield, que levaram os jogadores à região de Galar, chegaram às lojas em que ano?",
+        "resposta": "2019"
+      },
+      "existentes": [
+        {
+          "id": "q07374",
+          "pergunta": "A região de Galar, cenário de Pokémon Sword e Shield, de 2019, é inspirada em qual país europeu?",
+          "resposta": "Reino Unido"
+        },
+        {
+          "id": "q09987",
+          "pergunta": "Nos estádios de Galar, em Sword e Shield, que fenômeno faz os pokémon crescerem até ficar gigantes durante a batalha?",
+          "resposta": "Dynamax"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome de Miraidon, o lendário elétrico e dragão de Paldea, vem da palavra japonesa mirai. O que ela significa?",
+        "resposta": "Futuro"
+      },
+      "existentes": [
+        {
+          "id": "q10746",
+          "pergunta": "Em que região este pokémon apareceu pela primeira vez?",
+          "resposta": "Paldea"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual destes pokémon lendários estampa a capa de Pokémon Scarlet?",
+        "resposta": "Koraidon"
+      },
+      "existentes": [
+        {
+          "id": "q10053",
+          "pergunta": "Scarlet e Violet, que levaram a série principal a um mundo aberto na região de Paldea, chegaram ao Nintendo Switch em que ano?",
+          "resposta": "2022"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente: deslocamento do relógio vs. ano de lançamento."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Existente é pergunta de imagem cuja resposta é Tapu Koko; nova pergunta o mesmo pokémon, mas o fato perguntado difere (guardião de Melemele vs. identificar pelos atributos). Na dúvida, nova."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento não é perguntado nas existentes; a de 2019 está apenas no enunciado, não como resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. região de origem; fatos distintos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pokémon da capa vs. ano de lançamento."
+    }
+  ]
+}

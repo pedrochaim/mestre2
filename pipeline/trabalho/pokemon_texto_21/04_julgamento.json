@@ -1,0 +1,945 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Platinum (Pokémon Adventures)",
+        "descricao": "Platinum Berlitz, moça rica que protagoniza o arco de Diamond e Pearl do mangá Pokémon Adventures ao lado de Diamond e Pearl.",
+        "variantes": [
+          "Platinum Berlitz",
+          "Lady"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "chumbo",
+          "nome": "Chumbo",
+          "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+          "variantes": [
+            "Lead",
+            "Plumbum"
+          ]
+        },
+        {
+          "id": "joaninha",
+          "nome": "Joaninha",
+          "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+          "variantes": [
+            "Coccinellidae",
+            "ladybird",
+            "ladybug"
+          ]
+        },
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        },
+        {
+          "id": "los_angeles",
+          "nome": "Los Angeles",
+          "descricao": "Cidade mais populosa da Califórnia, nos Estados Unidos; a foto mostra o centro e as montanhas de San Gabriel.",
+          "variantes": [
+            "LA",
+            "L.A."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mewtwo Contra-Ataca: Evolução",
+        "descricao": "Vigésimo segundo filme da franquia Pokémon, refilmagem em computação gráfica do primeiro filme, Mewtwo Contra-Ataca.",
+        "variantes": [
+          "Mewtwo Strikes Back—Evolution",
+          "Mewtwo no Gyakushū Evolution"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_o_filme",
+          "nome": "Pokémon: O Filme",
+          "descricao": "Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa.",
+          "variantes": [
+            "Mewtwo Contra-Ataca",
+            "Pokémon: The First Movie",
+            "Mewtwo Strikes Back"
+          ]
+        },
+        {
+          "id": "megaevolucao",
+          "nome": "Megaevolução",
+          "descricao": "Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra.",
+          "variantes": [
+            "Mega Evolution",
+            "Mega Evolução"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pokémon Origins",
+        "descricao": "Minissérie de anime de 2013 que adapta a jornada de Red nos jogos Pokémon Red e Green, em vez de seguir Ash.",
+        "variantes": [
+          "Pokémon The Origin",
+          "Pocket Monsters: The Origin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_horizontes",
+          "nome": "Pokémon Horizontes",
+          "descricao": "Série do anime Pokémon iniciada em 2023, a primeira série principal sem Ash e seu Pikachu como protagonistas.",
+          "variantes": [
+            "Pokémon Horizons: The Series",
+            "Pokémon Horizons"
+          ]
+        },
+        {
+          "id": "pokemon_red_e_green",
+          "nome": "Pokémon Red e Green",
+          "descricao": "Primeiros jogos da série Pokémon, lançados no Japão em 1996 para o Game Boy, que deram origem a Red e Blue no Ocidente.",
+          "variantes": [
+            "Pocket Monsters Aka e Midori",
+            "Pokémon Red and Green"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias"
+          ]
+        },
+        {
+          "id": "pokemon_3_o_filme",
+          "nome": "Pokémon 3: O Filme",
+          "descricao": "Terceiro filme da franquia Pokémon, de 2000, em que os Unown criam um mundo de cristal ao redor da menina Molly e de um Entei ilusório.",
+          "variantes": [
+            "Pokémon 3: O Feitiço dos Unown",
+            "Pokémon 3: The Movie",
+            "Spell of the Unown"
+          ]
+        },
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Royal Mascarado",
+        "descricao": "Lutador mascarado de batalhas reais da série Sol e Lua do anime Pokémon, parceiro de um Incineroar, identidade secreta de um personagem de Alola.",
+        "variantes": [
+          "Masked Royal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boi_almiscarado",
+          "nome": "Boi-almiscarado",
+          "descricao": "Mamífero ungulado da família Bovidae, nativo do Ártico, de pelagem longa e densa (Ovibos moschatus).",
+          "variantes": [
+            "Muskox",
+            "Ovibos moschatus"
+          ]
+        },
+        {
+          "id": "estrada_real_persa",
+          "nome": "Estrada Real Persa",
+          "descricao": "Estrada construída no Império Aquemênida, ligando Susa a Sardes, percorrida por mensageiros a cavalo.",
+          "variantes": [
+            "Estrada Real",
+            "Royal Road"
+          ]
+        },
+        {
+          "id": "rolo_de_macarrao",
+          "nome": "Rolo de macarrão",
+          "descricao": "Utensílio cilíndrico de madeira, com cabos nas pontas, usado para abrir massas.",
+          "variantes": [
+            "Rolo de massa"
+          ]
+        },
+        {
+          "id": "lobo_guara",
+          "nome": "Lobo-guará",
+          "descricao": "Canídeo de pernas longas e pelagem alaranjada do Cerrado e de campos sul-americanos, espécie Chrysocyon brachyurus.",
+          "variantes": [
+            "Chrysocyon brachyurus",
+            "Maned wolf"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pingente de Liko",
+        "descricao": "Pingente misterioso da protagonista Liko na série Pokémon Horizontes, cobiçado pelo grupo dos Exploradores.",
+        "variantes": [
+          "Liko's pendant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dente_de_leao",
+          "nome": "Dente-de-leão",
+          "descricao": "Planta do gênero Taraxacum, de capítulo amarelo que depois vira bola de sementes.",
+          "variantes": [
+            "Taraxaco",
+            "Taraxacum",
+            "Dandelion"
+          ]
+        },
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "diogenes_de_sinope",
+          "nome": "Diógenes de Sinope",
+          "descricao": "Filósofo cínico grego do século quatro a.C., famoso por viver na pobreza em Atenas e Corinto.",
+          "variantes": [
+            "Diógenes, o Cínico",
+            "Diogenes",
+            "Diogenes the Cynic"
+          ]
+        },
+        {
+          "id": "dentes_de_leite",
+          "nome": "Dentes de leite",
+          "descricao": "Primeira dentição humana, que cai na infância e é substituída pelos dentes permanentes.",
+          "variantes": [
+            "Dentição decídua",
+            "Dentes decíduos",
+            "Deciduous teeth"
+          ]
+        },
+        {
+          "id": "ponte_de_rialto",
+          "nome": "Ponte de Rialto",
+          "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+          "variantes": [
+            "Ponte di Rialto",
+            "Rialto Bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pokémon Concierge",
+        "descricao": "Série da Netflix de 2023 sobre Haru, uma moça que trabalha num resort para pokémon.",
+        "variantes": [
+          "Pokémon Concierge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_firered_e_leafgreen",
+          "nome": "Pokémon FireRed e LeafGreen",
+          "descricao": "Recriações de Pokémon Red e Green para o Game Boy Advance, ambientadas na região de Kanto.",
+          "variantes": [
+            "Pokémon FireRed",
+            "Pokémon LeafGreen",
+            "FireRed e LeafGreen",
+            "Pokémon Vermelho Fogo e Verde Folha"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        },
+        {
+          "id": "pokemon_unite",
+          "nome": "Pokémon Unite",
+          "descricao": "Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_conquest",
+          "nome": "Pokémon Conquest",
+          "descricao": "Jogo de estratégia de 2012 para Nintendo DS, que leva os pokémon ao Japão feudal dos senhores da guerra.",
+          "variantes": [
+            "Pokémon + Nobunaga no Yabō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "White (Pokémon Adventures)",
+        "descricao": "Protagonista do arco de Black e White do mangá Pokémon Adventures, ao lado de Black.",
+        "variantes": [
+          "White"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "whitney",
+          "nome": "Whitney",
+          "descricao": "Líder de ginásio do tipo Normal da cidade de Goldenrod, nos jogos Pokémon Gold e Silver.",
+          "variantes": [
+            "Akane"
+          ]
+        },
+        {
+          "id": "adolf_hitler",
+          "nome": "Adolf Hitler",
+          "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+          "variantes": [
+            "Hitler",
+            "Führer"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "white_tie",
+          "nome": "White tie",
+          "descricao": "Código de traje de gala noturno que exige casaca e gravata-borboleta branca",
+          "variantes": [
+            "Traje a rigor",
+            "Casaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Victini e Reshiram / Victini e Zekrom",
+        "descricao": "Décimo quarto filme da franquia Pokémon, de 2011, lançado em duas versões estreladas pelo mítico Victini.",
+        "variantes": [
+          "Pokémon the Movie: Black—Victini and Reshiram and White—Victini and Zekrom",
+          "M14"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "galaxia_de_andromeda",
+          "nome": "Galáxia de Andrômeda",
+          "descricao": "Galáxia espiral do Grupo Local, a cerca de dois milhões e meio de anos-luz da Terra.",
+          "variantes": [
+            "Andrômeda",
+            "M31",
+            "Andromeda Galaxy"
+          ]
+        },
+        {
+          "id": "pleiades",
+          "nome": "Plêiades",
+          "descricao": "Aglomerado aberto de estrelas na constelação de Touro, conhecido no Brasil como Sete-Estrelo.",
+          "variantes": [
+            "Sete-Estrelo",
+            "M45",
+            "Subaru"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Axew de Iris",
+        "descricao": "Axew parceiro de Iris na série Preto e Branco do anime Pokémon.",
+        "variantes": [
+          "Iris's Axew"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "epifania",
+          "nome": "Epifania",
+          "descricao": "Festa cristã que celebra a manifestação de Jesus, associada no Ocidente à visita dos Reis Magos",
+          "variantes": [
+            "Dia de Reis",
+            "Festa dos Reis Magos"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis",
+            "Bolo de Reis francês"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "hamsa",
+          "nome": "Hamsa",
+          "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África contra o mau-olhado.",
+          "variantes": [
+            "Mão de Fátima",
+            "Khamsa",
+            "Mão de Miriam"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Rising Volt Tacklers",
+        "descricao": "Grupo de aventureiros da série Pokémon Horizontes, liderado por Friede e com o Capitão Pikachu, ao qual se juntam Liko e Roy.",
+        "variantes": [
+          "Exploradores Volt Ascendente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volt_tackle",
+          "nome": "Volt Tackle",
+          "descricao": "Golpe elétrico exclusivo da linha evolutiva de Pikachu, introduzido na terceira geração e famoso no anime com o Pikachu de Ash.",
+          "variantes": [
+            "Investida Trovão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Mestres Oito",
+        "descricao": "Torneio final do Campeonato Mundial de Coroação no anime Jornadas Pokémon, disputado pelos oito melhores treinadores do mundo.",
+        "variantes": [
+          "Masters Eight Tournament",
+          "Torneio Mestres Oito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "masters_de_golfe",
+          "nome": "Masters de golfe",
+          "descricao": "Torneio principal de golfe disputado todo ano no Augusta National Golf Club, nos Estados Unidos.",
+          "variantes": [
+            "The Masters",
+            "Masters Tournament",
+            "Masters de Augusta"
+          ]
+        },
+        {
+          "id": "mestre_vitalino",
+          "nome": "Mestre Vitalino",
+          "descricao": "Vitalino Pereira dos Santos, artesão pernambucano famoso por seus bonecos de barro que retratam o cotidiano nordestino.",
+          "variantes": [
+            "Vitalino Pereira dos Santos"
+          ]
+        },
+        {
+          "id": "yoda",
+          "nome": "Yoda",
+          "descricao": "Mestre Jedi pequeno e de pele verde da saga Star Wars.",
+          "variantes": [
+            "Mestre Yoda"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "pedra_sabao",
+          "nome": "Pedra-sabão",
+          "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas.",
+          "variantes": [
+            "Esteatita",
+            "Soapstone",
+            "Esteatito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Pokémon XYZ (anime)",
+        "descricao": "Terceira e última temporada da série de Kalos do anime Pokémon, em que Ash disputa a Liga de Kalos.",
+        "variantes": [
+          "Pokémon the Series: XYZ",
+          "Pocket Monsters XY&Z"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_sol_e_lua_anime",
+          "nome": "Pokémon Sol e Lua (anime)",
+          "descricao": "Série do anime Pokémon em que Ash estuda numa escola da região de Alola e vence a Liga de Alola.",
+          "variantes": [
+            "Pokémon the Series: Sun & Moon",
+            "Pokémon Sun & Moon"
+          ]
+        },
+        {
+          "id": "pokemon_amie",
+          "nome": "Pokémon-Amie",
+          "descricao": "Recurso de Pokémon X e Y em que o jogador acaricia, alimenta e brinca com seus pokémon para aumentar a afeição deles.",
+          "variantes": [
+            "Poké Parfait"
+          ]
+        },
+        {
+          "id": "pokemon_x_e_y",
+          "nome": "Pokémon X e Y",
+          "descricao": "Par de jogos Pokémon da sexta geração, lançado em 2013 para o Nintendo 3DS e ambientado na região de Kalos.",
+          "variantes": [
+            "Pokémon X and Y"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Dot",
+        "descricao": "Personagem da série Pokémon Horizontes, menina reservada que vive a bordo do dirigível dos aventureiros e faz vídeos na internet.",
+        "variantes": [
+          "Nidothing",
+          "Gurumin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nidoking",
+          "nome": "Nidoking",
+          "descricao": "Pokémon dos tipos Venenoso e Terrestre, número 34 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "donut",
+          "nome": "Donut",
+          "descricao": "Doce frito ou assado de massa fermentada em formato de anel, geralmente com cobertura de glacê.",
+          "variantes": [
+            "Doughnut",
+            "Rosquinha"
+          ]
+        },
+        {
+          "id": "guri",
+          "nome": "Guri",
+          "descricao": "Palavra usada sobretudo no Rio Grande do Sul para criança do sexo masculino",
+          "variantes": [
+            "Guria"
+          ]
+        },
+        {
+          "id": "grumpig",
+          "nome": "Grumpig",
+          "descricao": "Pokémon do tipo Psíquico, número 326 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grubbin",
+          "nome": "Grubbin",
+          "descricao": "Pokémon do tipo Inseto, número 736 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Friede",
+        "descricao": "Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes.",
+        "variantes": [
+          "Professor Friede"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        },
+        {
+          "id": "friends",
+          "nome": "Friends",
+          "descricao": "Sitcom americana sobre seis amigos que vivem em Nova York, exibida de 1994 a 2004.",
+          "variantes": []
+        },
+        {
+          "id": "professor_elm",
+          "nome": "Professor Elm",
+          "descricao": "Professor pokémon da região de Johto, que entrega o inicial ao jogador em Pokémon Gold e Silver.",
+          "variantes": [
+            "Professor Utsugi"
+          ]
+        },
+        {
+          "id": "sada_e_turo",
+          "nome": "Sada e Turo",
+          "descricao": "Professores pokémon de Paldea: Sada aparece em Pokémon Scarlet e Turo em Pokémon Violet.",
+          "variantes": [
+            "Professora Sada",
+            "Professor Turo"
+          ]
+        },
+        {
+          "id": "sigmund_freud",
+          "nome": "Sigmund Freud",
+          "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+          "variantes": [
+            "Freud"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Samson Carvalho",
+        "descricao": "Diretor da Escola Pokémon de Alola na série Sol e Lua do anime Pokémon, famoso pelos trocadilhos com nomes de pokémon.",
+        "variantes": [
+          "Samson Oak",
+          "Diretor Carvalho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "professor_carvalho",
+          "nome": "Professor Carvalho",
+          "descricao": "Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime.",
+          "variantes": [
+            "Professor Oak",
+            "Samuel Oak"
+          ]
+        },
+        {
+          "id": "gary_carvalho",
+          "nome": "Gary Carvalho",
+          "descricao": "Neto do Professor Carvalho e rival de Ash Ketchum no anime Pokémon, chamado Shigeru no Japão.",
+          "variantes": [
+            "Gary Oak",
+            "Shigeru Okido"
+          ]
+        },
+        {
+          "id": "marimbondo_cavalo",
+          "nome": "Marimbondo-cavalo",
+          "descricao": "Vespa da família Pompilidae, dos gêneros Pepsis e Hemipepsis, que caça tarântulas.",
+          "variantes": [
+            "Tarantula hawk",
+            "Vespa-caçadora-de-tarântulas"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Conferência Vertress",
+        "descricao": "Torneio da Liga Pokémon de Unova no anime Pokémon, disputado por Ash na série Preto e Branco.",
+        "variantes": [
+          "Vertress Conference",
+          "Liga de Unova (anime)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "conferencia_de_berlim",
+          "nome": "Conferência de Berlim",
+          "descricao": "Reunião de potências em Berlim, entre 1884 e 1885, que estabeleceu regras para a ocupação colonial da África.",
+          "variantes": [
+            "Conferência do Congo",
+            "Berlin Conference"
+          ]
+        },
+        {
+          "id": "conferencia_de_teera",
+          "nome": "Conferência de Teerã",
+          "descricao": "Encontro de Roosevelt, Churchill e Stálin realizado no Irã entre novembro e dezembro de 1943.",
+          "variantes": [
+            "Conferência de Teerão",
+            "Tehran Conference"
+          ]
+        },
+        {
+          "id": "liga_indigo_anime",
+          "nome": "Liga Índigo (anime)",
+          "descricao": "Torneio do Platô Índigo, em Kanto, disputado por Ash no fim da primeira temporada do anime Pokémon.",
+          "variantes": [
+            "Conferência do Platô Índigo",
+            "Indigo Plateau Conference"
+          ]
+        },
+        {
+          "id": "conferencia_de_paz_de_paris",
+          "nome": "Conferência de Paz de Paris",
+          "descricao": "Encontro dos países vencedores em 1919 e 1920 que definiu os tratados de paz após a Primeira Guerra Mundial.",
+          "variantes": [
+            "Conferência de Paz de Versalhes",
+            "Paris Peace Conference"
+          ]
+        },
+        {
+          "id": "unova",
+          "nome": "Unova",
+          "descricao": "Região fictícia dos jogos Pokémon Black e White, da quinta geração.",
+          "variantes": [
+            "Região de Unova",
+            "Isshu"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem, distinta do mangá"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Refilmagem distinta do primeiro filme"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Minissérie diferente de todas candidatas"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Personagem sem candidata correspondente"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Objeto sem candidata correspondente"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Série Netflix distinta"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Personagem, distinta do mangá"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Filme sem candidata correspondente"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pokémon específico sem candidata"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Grupo distinto do golpe Volt Tackle"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Torneio sem candidata correspondente"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Temporada específica distinta do anime geral"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Personagem sem candidata correspondente"
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Personagem sem candidata correspondente"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Personagem distinto do Professor Carvalho"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Torneio de Unova distinto de Liga Índigo e da região"
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "pokedex",
+        "nome": "Pokédex",
+        "descricao": "Enciclopédia eletrônica dos jogos e do anime Pokémon, que registra os dados dos pokémon vistos e capturados.",
+        "variantes": [
+          "Pokedex"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, quem completa a Pokédex pode visitar o escritório da Game Freak, num prédio de Celadon. O que o designer do jogo entrega como prêmio?",
+      "resposta": "Um diploma",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Diploma"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "game_freak",
+        "nome": "Game Freak",
+        "descricao": "Estúdio japonês fundado por Satoshi Tajiri, responsável pelos jogos principais da série Pokémon.",
+        "variantes": [
+          "GAME FREAK"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Game_Freak"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes de virar um estúdio de jogos, Game Freak era o nome de uma publicação que Satoshi Tajiri criou nos anos oitenta. Que tipo de publicação era?",
+      "resposta": "Uma revista de videogames",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Game_Freak"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Junichi Masuda",
+        "descricao": "Compositor, programador e diretor japonês da Game Freak, autor da trilha sonora dos primeiros jogos Pokémon.",
+        "variantes": [
+          "Junichi Masuda",
+          "Masuda Jun'ichi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Junichi_Masuda"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que veterano da Game Freak compôs a trilha sonora de Red e Green, os primeiros jogos Pokémon, lançados para o Game Boy?",
+      "resposta": "Junichi Masuda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Junichi_Masuda"
+      ],
+      "distratores": [
+        "Satoshi Tajiri",
+        "Ken Sugimori",
+        "Go Ichinose"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Lavender",
+        "descricao": "Cidade da região de Kanto, nos jogos Pokémon Red e Blue, onde fica a Torre Pokémon, conhecida pela música fúnebre.",
+        "variantes": [
+          "Lavender Town",
+          "Cidade de Lavender"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lavender_Town"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Uma lenda urbana da internet diz que crianças japonesas passaram mal ao ouvir a música fúnebre de uma cidade de Kanto, em Red e Green. Que cidade é essa?",
+      "resposta": "Lavender",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lavender_Town",
+        "https://en.wikipedia.org/wiki/Lavender_Town"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "master_ball",
+        "nome": "Master Ball",
+        "descricao": "Poké Bola roxa marcada com a letra M, a mais poderosa dos jogos Pokémon, fabricada pela Silph.",
+        "variantes": [
+          "Bola Mestra"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Master_Ball"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, o jogador ganha a única Master Ball do jogo como recompensa por libertar um prédio dominado pela Equipe Rocket. Que prédio é esse?",
+      "resposta": "A sede da Silph",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Master_Ball"
+      ],
+      "distratores": [
+        "A Torre Pokémon",
+        "O Cassino de Celadon",
+        "A loja de Celadon"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "maquina_oculta",
+        "nome": "Máquina Oculta",
+        "descricao": "Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa.",
+        "variantes": [
+          "MO",
+          "HM",
+          "Hidden Machine"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/HM"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, as Máquinas Ocultas ensinavam Corte, Voo, Surf e Força. Qual era a quinta, que iluminava as cavernas escuras?",
+      "resposta": "Flash",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/HM"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "maquina_tecnica",
+        "nome": "Máquina Técnica",
+        "descricao": "Item dos jogos Pokémon que ensina um golpe a um pokémon, conhecido pela sigla MT.",
+        "variantes": [
+          "MT",
+          "TM",
+          "Technical Machine"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/TM"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, o jogador fabrica Máquinas Técnicas numa máquina dos Centros Pokémon. Além dos pontos da Liga, que matéria-prima ele gasta?",
+      "resposta": "Materiais deixados por pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/TM_Machine"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Evolução por troca",
+        "descricao": "Método de evolução dos jogos Pokémon em que certos pokémon só evoluem ao serem trocados com outro jogador.",
+        "variantes": [
+          "Trade evolution"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Kadabra, Machoke, Graveler e Haunter, pokémon de Red e Blue, têm em comum na maneira de evoluir?",
+      "resposta": "Evoluem quando são trocados",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution",
+        "https://bulbapedia.bulbagarden.net/wiki/Trade"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Pokémon exclusivos de versão",
+        "descricao": "Pokémon que só podem ser capturados numa das versões de um par de jogos Pokémon, como Red e Blue.",
+        "variantes": [
+          "Version exclusives",
+          "Exclusivos de versão"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Version-exclusive_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Desde Red e Green, alguns pokémon só aparecem numa das duas versões de cada jogo. Que hábito a Game Freak quis estimular nos jogadores com isso?",
+      "resposta": "Trocar pokémon entre si",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Version-exclusive_Pok%C3%A9mon",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Pokémon HOME",
+        "descricao": "Serviço na nuvem da The Pokémon Company, para Nintendo Switch e celular, que guarda e transfere pokémon entre vários jogos.",
+        "variantes": [
+          "Pokémon Home",
+          "Pokemon HOME"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Home"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Pokémon HOME, serviço na nuvem que reúne pokémon de vários jogos no Switch e no celular, foi lançado em que ano?",
+      "resposta": "2020",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Home"
+      ],
+      "distratores": [
+        "2018",
+        "2019",
+        "2021"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Wonder Trade",
+        "descricao": "Recurso online criado em Pokémon X e Y que troca, às cegas, um pokémon do jogador com o de um desconhecido.",
+        "variantes": [
+          "Troca Maravilha",
+          "Surprise Trade",
+          "Troca Surpresa"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wonder_Trade"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, a Wonder Trade troca um pokémon do jogador com o de um desconhecido, às cegas. Que novo nome esse recurso ganhou em Sword e Shield?",
+      "resposta": "Surprise Trade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wonder_Trade"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Presente Misterioso",
+        "descricao": "Recurso dos jogos Pokémon, criado em Gold e Silver, para receber presentes como itens e pokémon de evento.",
+        "variantes": [
+          "Mystery Gift"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mystery_Gift"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, dois Game Boy Color colocados frente a frente trocavam presentes sem nenhum cabo, pelo Presente Misterioso. Que tecnologia permitia isso?",
+      "resposta": "Infravermelho",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mystery_Gift"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Habilidade oculta",
+        "descricao": "Habilidade rara de pokémon, diferente das habilidades comuns da espécie, introduzida em Pokémon Black e White.",
+        "variantes": [
+          "Hidden Ability",
+          "Habilidade escondida"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ability"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, os primeiros pokémon com habilidade oculta vinham de uma área do site Pokémon Global Link, ligada ao sono dos pokémon. Como se chamava essa área?",
+      "resposta": "Pokémon Dream World",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Dream_World"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Clima nas batalhas Pokémon",
+        "descricao": "Mecânica dos jogos Pokémon em que condições como chuva, sol forte e tempestade de areia alteram os efeitos das batalhas.",
+        "variantes": [
+          "Weather",
+          "Clima (Pokémon)"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Weather"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os efeitos de clima nas batalhas, como a chuva que fortalece os golpes de água, estrearam em qual par de jogos da série principal?",
+      "resposta": "Gold e Silver",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Weather"
+      ],
+      "distratores": [
+        "Red e Blue",
+        "Ruby e Sapphire",
+        "Diamond e Pearl"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Ciclo de dia e noite em Pokémon",
+        "descricao": "Mecânica introduzida em Pokémon Gold e Silver em que um relógio real faz o dia e a noite se alternarem no jogo.",
+        "variantes": [
+          "Time",
+          "Relógio em tempo real"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Time"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Gold e Silver, o relógio real do cartucho mudava os pokémon que apareciam ao longo do dia. Em quantos períodos o dia do jogo se dividia?",
+      "resposta": "Três",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Time"
+      ],
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Cinco"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Ovo Pokémon",
+        "descricao": "Ovo de onde nascem filhotes de pokémon nos jogos da série principal, desde Gold e Silver, obtido por criação.",
+        "variantes": [
+          "Pokémon Egg",
+          "Ovo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Egg"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, que não têm creche, onde o jogador encontra os ovos gerados pelos seus pokémon?",
+      "resposta": "Na cesta do piquenique",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Picnic",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Egg"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "satoru_iwata",
+        "nome": "Satoru Iwata",
+        "descricao": "Programador japonês da HAL Laboratory que depois presidiu a Nintendo, de 2002 a 2015.",
+        "variantes": [
+          "Iwata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Satoru_Iwata"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Gold e Silver só conseguiram incluir também a região de Kanto graças a um programador que compactou os dados do jogo. Quem era ele, que depois presidiu a Nintendo?",
+      "resposta": "Satoru Iwata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Satoru_Iwata",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "emboar",
+        "nome": "Emboar",
+        "descricao": "Pokémon dos tipos Fogo e Lutador, número 500 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Emboar_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Blaziken, Infernape e Emboar, as evoluções finais dos iniciais de fogo de três gerações seguidas, têm em comum além do fogo?",
+      "resposta": "Também são do tipo Lutador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Starter_Pok%C3%A9mon",
+        "https://bulbapedia.bulbagarden.net/wiki/Emboar_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Pokégear",
+        "descricao": "Aparelho multifuncional do jogador em Pokémon Gold, Silver e Crystal e nos remakes HeartGold e SoulSilver.",
+        "variantes": [
+          "Poké Gear"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9gear"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, o Pokégear reunia relógio, mapa e rádio. Que quarta função permitia que outros treinadores pedissem revanche ao jogador?",
+      "resposta": "Telefone",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9gear"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "PokéNav",
+        "descricao": "Aparelho do jogador em Pokémon Ruby, Sapphire e Emerald, com mapa de Hoenn e registro de treinadores.",
+        "variantes": [
+          "PokeNav",
+          "PokéNav Plus"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9Nav"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby e Sapphire, o PokéNav, com o mapa da região e um registro de treinadores, é fabricado por qual empresa da cidade de Rustboro?",
+      "resposta": "Corporação Devon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9Nav",
+        "https://bulbapedia.bulbagarden.net/wiki/Devon_Corporation"
+      ],
+      "distratores": [
+        "Silph",
+        "Macro Cosmos",
+        "Fundação Aether"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Bicicleta (Pokémon)",
+        "descricao": "Meio de transporte do jogador nos jogos Pokémon, que permite andar mais rápido que a pé.",
+        "variantes": [
+          "Bicycle",
+          "Bike"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bicycle"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, a loja de Cerulean vende bicicletas por um preço que o jogador nunca consegue juntar. Quanto custa uma bicicleta?",
+      "resposta": "Um milhão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bicycle"
+      ],
+      "distratores": [
+        "Cem mil",
+        "Quinhentos mil",
+        "Dez mil"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Vara de pesca (Pokémon)",
+        "descricao": "Item dos jogos Pokémon usado para fisgar pokémon aquáticos, com modelos de qualidades diferentes.",
+        "variantes": [
+          "Fishing rod",
+          "Old Rod",
+          "Good Rod",
+          "Super Rod"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fishing"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, o jogador ganha três varas de pesca: a Old Rod, que só fisga Magikarp, a Good Rod e qual outra, a melhor das três?",
+      "resposta": "Super Rod",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Super_Rod",
+        "https://bulbapedia.bulbagarden.net/wiki/Fishing"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Pokérus",
+        "descricao": "Vírus raro e benéfico dos jogos Pokémon, introduzido em Gold e Silver, que faz os pokémon se fortalecerem mais rápido.",
+        "variantes": [
+          "Pokerus",
+          "PKRS"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9rus"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que vírus raro, que a enfermeira do Centro Pokémon avisa ter encontrado, faz os pokémon infectados ficarem mais fortes mais depressa?",
+      "resposta": "Pokérus",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9rus"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "missingno",
+        "nome": "MissingNo.",
+        "descricao": "Pokémon defeituoso, fruto de uma falha de programação, encontrado nos jogos Pokémon Red e Blue.",
+        "variantes": [
+          "MissingNo",
+          "Missingno"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/MissingNo."
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do pokémon defeituoso MissingNo., famoso em Red e Blue, é a abreviação de qual expressão em inglês?",
+      "resposta": "Missing Number",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/MissingNo."
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Elite dos Quatro",
+        "descricao": "Grupo de quatro treinadores de elite que o jogador enfrenta antes do campeão na Liga Pokémon de cada região.",
+        "variantes": [
+          "Elite Four",
+          "Shitennō"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Elite_Four"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "No Japão, a Elite dos Quatro dos jogos Pokémon se chama Shitennō, nome emprestado de quais figuras da tradição budista?",
+      "resposta": "Quatro Reis Celestiais",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Elite_Four",
+        "https://en.wikipedia.org/wiki/Four_Heavenly_Kings"
+      ],
+      "distratores": [
+        "Quatro Samurais Sagrados",
+        "Quatro Dragões Divinos",
+        "Quatro Monges Guerreiros"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "pokemon_diamond_e_pearl",
+        "nome": "Pokémon Diamond e Pearl",
+        "descricao": "Par de jogos Pokémon da quarta geração, para Nintendo DS, ambientado na região de Sinnoh.",
+        "variantes": [
+          "Pokémon Diamante e Pérola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que tema une os nomes das versões Ruby, Sapphire e Emerald, de Hoenn, aos de Diamond e Pearl, de Sinnoh?",
+      "resposta": "São nomes de joias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "terastal",
+        "nome": "Terastal",
+        "descricao": "Fenômeno dos jogos Pokémon Scarlet e Violet que faz o pokémon brilhar como cristal durante a batalha.",
+        "variantes": [
+          "Terastalização",
+          "Terastallization"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Megaevolução, Movimento Z, Dynamax e Terastal são mecânicas de batalha de gerações diferentes. Que limite de uso todas elas têm em comum?",
+      "resposta": "Só uma vez por batalha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon",
+        "https://bulbapedia.bulbagarden.net/wiki/Mega_Evolution",
+        "https://bulbapedia.bulbagarden.net/wiki/Z-Move",
+        "https://bulbapedia.bulbagarden.net/wiki/Dynamax"
+      ]
+    }
+  ]
+}

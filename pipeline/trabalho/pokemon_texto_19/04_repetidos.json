@@ -1,0 +1,198 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Red e Blue, quem completa a Pokédex pode visitar o escritório da Game Freak, num prédio de Celadon. O que o designer do jogo entrega como prêmio?",
+        "resposta": "Um diploma"
+      },
+      "existentes": [
+        {
+          "id": "q10008",
+          "pergunta": "O nome Pokédex, a enciclopédia eletrônica que o treinador carrega, junta a palavra Pokémon com qual palavra em inglês?",
+          "resposta": "Index (índice)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Antes de virar um estúdio de jogos, Game Freak era o nome de uma publicação que Satoshi Tajiri criou nos anos oitenta. Que tipo de publicação era?",
+        "resposta": "Uma revista de videogames"
+      },
+      "existentes": [
+        {
+          "id": "q09828",
+          "pergunta": "Antes de se tornar o estúdio que criou Pokémon, a Game Freak, de Satoshi Tajiri, era o quê?",
+          "resposta": "Uma revista sobre videogames"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Red e Blue, o jogador ganha a única Master Ball do jogo como recompensa por libertar um prédio dominado pela Equipe Rocket. Que prédio é esse?",
+        "resposta": "A sede da Silph"
+      },
+      "existentes": [
+        {
+          "id": "q10270",
+          "pergunta": "A Master Ball, a Poké Bola roxa marcada com a letra M, tem que vantagem sobre todas as outras?",
+          "resposta": "Nunca falha na captura"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Red e Blue, as Máquinas Ocultas ensinavam Corte, Voo, Surf e Força. Qual era a quinta, que iluminava as cavernas escuras?",
+        "resposta": "Flash"
+      },
+      "existentes": [
+        {
+          "id": "q11255",
+          "pergunta": "As Máquinas Ocultas, com golpes como Surf e Força, existiam na série desde Red e Blue. Em que par de jogos elas foram abolidas?",
+          "resposta": "Sun e Moon"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Scarlet e Violet, o jogador fabrica Máquinas Técnicas numa máquina dos Centros Pokémon. Além dos pontos da Liga, que matéria-prima ele gasta?",
+        "resposta": "Materiais deixados por pokémon"
+      },
+      "existentes": [
+        {
+          "id": "q11238",
+          "pergunta": "Durante muito tempo, cada Máquina Técnica servia uma única vez. A partir de qual par de jogos ela passou a poder ser usada sem limite?",
+          "resposta": "Black e White"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Gold e Silver só conseguiram incluir também a região de Kanto graças a um programador que compactou os dados do jogo. Quem era ele, que depois presidiu a Nintendo?",
+        "resposta": "Satoru Iwata"
+      },
+      "existentes": [
+        {
+          "id": "q10066",
+          "pergunta": "Quem, na época presidente da HAL Laboratory e depois presidente da Nintendo, criou as ferramentas de compressão de gráficos usadas em Pokémon Gold e Silver?",
+          "resposta": "Satoru Iwata"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O que Blaziken, Infernape e Emboar, as evoluções finais dos iniciais de fogo de três gerações seguidas, têm em comum além do fogo?",
+        "resposta": "Também são do tipo Lutador"
+      },
+      "existentes": [
+        {
+          "id": "q10144",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Emboar"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O nome do pokémon defeituoso MissingNo., famoso em Red e Blue, é a abreviação de qual expressão em inglês?",
+        "resposta": "Missing Number"
+      },
+      "existentes": [
+        {
+          "id": "q09852",
+          "pergunta": "Em Red e Blue, encontrar o pokémon defeituoso MissingNo., na costa da ilha Cinnabar, aumentava em 128 unidades qual item da mochila?",
+          "resposta": "O sexto item da lista"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que tema une os nomes das versões Ruby, Sapphire e Emerald, de Hoenn, aos de Diamond e Pearl, de Sinnoh?",
+        "resposta": "São nomes de joias"
+      },
+      "existentes": [
+        {
+          "id": "q09995",
+          "pergunta": "Diamond e Pearl, que levaram a série principal ao Nintendo DS e à região de Sinnoh, chegaram às lojas japonesas em que ano?",
+          "resposta": "2006"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Megaevolução, Movimento Z, Dynamax e Terastal são mecânicas de batalha de gerações diferentes. Que limite de uso todas elas têm em comum?",
+        "resposta": "Só uma vez por batalha"
+      },
+      "existentes": [
+        {
+          "id": "q10279",
+          "pergunta": "Em Scarlet e Violet, ao terastalizar, o pokémon brilha como uma joia e pode mudar uma característica decisiva para a batalha. Qual?",
+          "resposta": "O próprio tipo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato diferente: prêmio do diploma vs etimologia do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Game Freak era revista de videogames.",
+      "id_existente": "q09828"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Onde se ganha a Master Ball vs sua vantagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quinta MO Flash vs quando foram abolidas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Material para fabricar TMs vs quando TMs ficaram ilimitadas."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Satoru Iwata e compressão em Gold/Silver.",
+      "id_existente": "q10066"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Fato diferente; existente pergunta identificar Emboar."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs efeito do glitch."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Tema dos nomes vs ano de lançamento."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Limite de uso comum vs efeito da terastalização."
+    }
+  ]
+}

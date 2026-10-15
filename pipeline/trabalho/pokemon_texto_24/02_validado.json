@@ -1,0 +1,303 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Campeonato Mundial de Pokémon",
+        "descricao": "Torneio anual oficial da The Pokémon Company que reúne os melhores jogadores do mundo no card game, nos jogos principais e em outros jogos da franquia.",
+        "variantes": [
+          "Pokémon World Championships",
+          "Mundial de Pokémon",
+          "Worlds"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2023, o Campeonato Mundial de Pokémon foi disputado no Japão, terra natal da franquia. Em que cidade japonesa?",
+      "resposta": "Yokohama",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Pokémon Center (loja)",
+        "descricao": "Rede de lojas oficiais dedicadas só a produtos da franquia Pokémon, aberta primeiro em Tóquio.",
+        "variantes": [
+          "Pokémon Center",
+          "Pokémon Center Store"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Center",
+          "https://en.wikipedia.org/wiki/Nintendo_New_York"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 2001, a primeira loja Pokémon Center fora do Japão abriu numa grande cidade americana e anos depois virou loja da Nintendo. Que cidade?",
+      "resposta": "Nova York",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo_New_York"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Pokémon Go Fest 2017",
+        "descricao": "Primeiro festival presencial do jogo Pokémon Go, realizado em julho de 2017 em Chicago e marcado por falhas de conexão.",
+        "variantes": [
+          "Pokémon GO Fest Chicago"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O primeiro Pokémon Go Fest, em 2017, ficou marcado por falhas de conexão e reembolsos aos jogadores. Em que cidade americana ele aconteceu?",
+      "resposta": "Chicago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Balão de Pikachu da Macy's",
+        "descricao": "Balão gigante de Pikachu que desfila no tradicional desfile de Ação de Graças da loja Macy's, em Nova York.",
+        "variantes": [
+          "Pikachu balloon",
+          "Balão do Pikachu no desfile da Macy's"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pikachu",
+          "https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Um balão gigante de Pikachu desfilou pela primeira vez no tradicional desfile de Ação de Graças da Macy's, em Nova York, em que ano?",
+      "resposta": "2001",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pikachu",
+        "https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade"
+      ],
+      "distratores": [
+        "1998",
+        "2004",
+        "2007"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "versao_brasileira_do_anime_pokemon",
+        "nome": "Versão brasileira do anime Pokémon",
+        "descricao": "Exibição dublada em português do anime Pokémon no Brasil, que estreou na TV aberta no fim dos anos noventa.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_(anime)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Dublado em português, o anime Pokémon estreou na TV aberta brasileira, pela Rede Record, em que ano?",
+      "resposta": "1999",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_(anime)"
+      ],
+      "distratores": [
+        "1997",
+        "2000",
+        "2001"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Pokémon Center (loja)",
+        "descricao": "Rede de lojas oficiais dedicadas só a produtos da franquia Pokémon, aberta primeiro em Tóquio.",
+        "variantes": [
+          "Pokémon Center",
+          "Pokémon Center Store"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Center"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A primeira loja Pokémon Center, dedicada só a produtos da franquia, abriu as portas em Tóquio em que ano?",
+      "resposta": "1998",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Center"
+      ],
+      "distratores": [
+        "1996",
+        "2000",
+        "2002"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Electric (canção de Katy Perry)",
+        "descricao": "Canção lançada em 2021 pela cantora Katy Perry como parte do projeto musical dos 25 anos de Pokémon, com clipe ao lado de Pikachu.",
+        "variantes": [
+          "Electric"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Electric_(Katy_Perry_song)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Para comemorar os 25 anos de Pokémon, em 2021, que cantora americana lançou a música Electric, com um clipe ao lado de Pikachu?",
+      "resposta": "Katy Perry",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Electric_(Katy_Perry_song)"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "pokemon_o_filme",
+        "nome": "Pokémon: O Filme",
+        "descricao": "Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa.",
+        "variantes": [
+          "Mewtwo Contra-Ataca",
+          "Pokémon: The First Movie"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1999, o primeiro filme de Pokémon, com Mewtwo, chegou aos cinemas dos Estados Unidos pelas mãos de qual grande estúdio americano?",
+      "resposta": "Warner Bros.",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Pikachu Illustrator",
+        "descricao": "Carta promocional rara do card game Pokémon, distribuída no Japão no fim dos anos noventa, considerada uma das cartas mais caras do mundo.",
+        "variantes": [
+          "Carta Pikachu Illustrator",
+          "Illustrator"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pikachu_Illustrator",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A carta Pikachu Illustrator, uma das mais caras do mundo, nunca foi vendida em pacotes. Por que existem tão poucos exemplares dela?",
+      "resposta": "Foi prêmio de concurso de ilustração",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pikachu_Illustrator",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Colaboração entre Pokémon e o Museu Van Gogh",
+        "descricao": "Parceria de 2023 entre a The Pokémon Company e o Museu Van Gogh, de Amsterdã, que incluiu uma carta de Pikachu com chapéu de feltro cinza.",
+        "variantes": [
+          "Pokémon x Van Gogh Museum",
+          "Pikachu com chapéu de feltro cinza"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Van_Gogh_Museum"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 2023, numa colaboração com um museu de Amsterdã, uma carta mostrou Pikachu de chapéu de feltro cinza, imitando um autorretrato famoso. De qual pintor?",
+      "resposta": "Vincent van Gogh",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Van_Gogh_Museum"
+      ],
+      "distratores": [
+        "Rembrandt",
+        "Johannes Vermeer",
+        "Claude Monet"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Pokémon VGC",
+        "descricao": "Circuito competitivo oficial dos jogos principais de Pokémon, disputado em batalhas duplas e encerrado no Campeonato Mundial.",
+        "variantes": [
+          "Video Game Championships",
+          "VGC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nos campeonatos oficiais de Pokémon, as disputas com os jogos de videogame da série principal formam o circuito VGC. O que significa essa sigla em inglês?",
+      "resposta": "Video Game Championships",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Pokémon VGC",
+        "descricao": "Circuito competitivo oficial dos jogos principais de Pokémon, disputado em batalhas duplas e encerrado no Campeonato Mundial.",
+        "variantes": [
+          "Video Game Championships",
+          "VGC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "No circuito oficial de Pokémon, disputado em batalhas duplas, cada treinador leva seis pokémon. Quantos deles ele escolhe para usar em cada partida?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+      ]
+    }
+  ]
+}

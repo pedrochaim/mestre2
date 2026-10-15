@@ -1,0 +1,998 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "kyogre",
+        "nome": "Kyogre",
+        "descricao": "Pokémon lendário do tipo Água da terceira geração, número 382 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Sapphire, depois de despertado pela Equipe Aqua, Kyogre se refugia numa caverna escondida em Sootopolis, onde o jogador pode capturá-lo. Como ela se chama?",
+      "resposta": "Caverna da Origem",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cave_of_Origin",
+        "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+      ],
+      "ancora": "kyogre"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "equipe_aqua",
+        "nome": "Equipe Aqua",
+        "descricao": "Organização vilã de Pokémon Ruby, Sapphire e Emerald que quer despertar Kyogre para expandir os mares.",
+        "variantes": [
+          "Team Aqua"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Aqua"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, o esconderijo da Equipe Aqua fica numa caverna escavada à beira-mar, ao lado de qual cidade litorânea de Hoenn?",
+      "resposta": "Lilycove",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Aqua_Hideout",
+        "https://bulbapedia.bulbagarden.net/wiki/Lilycove_City"
+      ],
+      "ancora": "equipe_aqua"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "equipe_galactica",
+        "nome": "Equipe Galáctica",
+        "descricao": "Organização vilã de Pokémon Diamond, Pearl e Platinum, liderada por Cyrus, que quer usar Dialga e Palkia para criar um novo mundo.",
+        "variantes": [
+          "Team Galactic"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o jogador invade o quartel-general da Equipe Galáctica para libertar os pokémon dos lagos. Em que cidade de Sinnoh fica esse prédio?",
+      "resposta": "Veilstone",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic",
+        "https://bulbapedia.bulbagarden.net/wiki/Veilstone_City"
+      ],
+      "ancora": "equipe_galactica"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Coluna Lança",
+        "descricao": "Ruínas antigas no topo do Monte Coronet, em Sinnoh, onde Cyrus tenta dominar Dialga e Palkia nos jogos Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Spear Pillar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Spear_Pillar"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, Cyrus tenta dominar Dialga e Palkia na Coluna Lança, umas ruínas antigas no alto de qual montanha de Sinnoh?",
+      "resposta": "Monte Coronet",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spear_Pillar",
+        "https://bulbapedia.bulbagarden.net/wiki/Mt._Coronet"
+      ],
+      "ancora": "coluna_lanca"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "heatran",
+        "nome": "Heatran",
+        "descricao": "Pokémon dos tipos Fogo e Aço, número 485 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Diamond, Pearl e Platinum, o lendário Heatran, de fogo e aço, vive nas profundezas de que lugar de Sinnoh?",
+      "resposta": "Monte Stark",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Stark_Mountain",
+        "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Monte Coronet",
+        "Ilha de Ferro",
+        "Caverna Turnback"
+      ],
+      "ancora": "heatran"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Estação Global de Trocas",
+        "descricao": "Serviço dos jogos Pokémon, criado em Diamond e Pearl, que permite trocar pokémon pela internet com jogadores do mundo todo.",
+        "variantes": [
+          "GTS",
+          "Global Trade Station"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Global_Trade_Station"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Diamond e Pearl, a Estação Global de Trocas permite trocar pokémon pela internet com jogadores do mundo todo. Em que cidade de Sinnoh ela fica?",
+      "resposta": "Jubilife",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Global_Trade_Station",
+        "https://bulbapedia.bulbagarden.net/wiki/Jubilife_City"
+      ],
+      "distratores": [
+        "Veilstone",
+        "Hearthome",
+        "Canalave"
+      ],
+      "ancora": "estacao_global_de_trocas"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "deoxys",
+        "nome": "Deoxys",
+        "descricao": "Pokémon mítico do tipo Psíquico da terceira geração, um alienígena que muda de forma.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Omega Ruby e Alpha Sapphire, no Episódio Delta, o jogador enfrenta o mítico Deoxys num lugar aonde chega voando nas costas de Rayquaza. Que lugar é esse?",
+      "resposta": "O espaço sideral",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Delta_Episode",
+        "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+      ],
+      "ancora": "deoxys"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "rayquaza",
+        "nome": "Rayquaza",
+        "descricao": "Pokémon dos tipos Dragão e Voador, número 384 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Emerald, o jogador desperta Rayquaza no alto do Pilar Celeste, e o dragão voa até a cidade de Sootopolis. Por que ele vai para lá?",
+      "resposta": "Para conter Groudon e Kyogre",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
+      ],
+      "ancora": "rayquaza"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Regressão Primitiva",
+        "descricao": "Transformação de Groudon e Kyogre em suas formas ancestrais, introduzida em Pokémon Omega Ruby e Alpha Sapphire.",
+        "variantes": [
+          "Primal Reversion",
+          "Reversão Primitiva"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Primal_Reversion"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Omega Ruby, Groudon volta à sua forma ancestral, na chamada Regressão Primitiva, quando entra em batalha segurando qual item?",
+      "resposta": "Orbe Vermelha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Primal_Reversion",
+        "https://bulbapedia.bulbagarden.net/wiki/Red_Orb"
+      ],
+      "ancora": "regressao_primitiva"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Wally",
+        "descricao": "Menino de Hoenn, rival do jogador em Pokémon Ruby, Sapphire e Emerald, que captura um Ralts com a ajuda do protagonista.",
+        "variantes": [
+          "Mitsuru"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wally"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, o menino Wally, que capturou seu primeiro pokémon com a ajuda do jogador, se muda para a cidade de Verdanturf. Por quê?",
+      "resposta": "Por causa da saúde frágil",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "https://bulbapedia.bulbagarden.net/wiki/Verdanturf_Town"
+      ],
+      "ancora": "wally"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Monte Chimney",
+        "descricao": "Vulcão no centro da região de Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, palco de um confronto com a Equipe Magma.",
+        "variantes": [
+          "Mt. Chimney"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mt._Chimney"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Ruby, no alto do Monte Chimney, a Equipe Magma tenta fazer o vulcão entrar em erupção com um objeto tomado do Professor Cozmo. Que objeto?",
+      "resposta": "Um meteorito",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mt._Chimney",
+        "https://bulbapedia.bulbagarden.net/wiki/Meteorite"
+      ],
+      "ancora": "monte_chimney"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Divisão físico-especial",
+        "descricao": "Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente.",
+        "variantes": [
+          "Physical/special split",
+          "Categoria de dano"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Damage_category"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Desde Diamond e Pearl, cada golpe tem sua própria categoria, física ou especial. Até a geração anterior, o que decidia a categoria de um golpe?",
+      "resposta": "O tipo do golpe",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Damage_category"
+      ],
+      "ancora": "divisao_fisico_especial"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "munchlax",
+        "nome": "Munchlax",
+        "descricao": "Pokémon do tipo Normal, número 446 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Munchlax_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o raro Munchlax só aparece em algumas árvores de Sinnoh. O que o jogador precisa espalhar nelas para atraí-lo?",
+      "resposta": "Mel",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Honey_Tree",
+        "https://bulbapedia.bulbagarden.net/wiki/Munchlax_(Pok%C3%A9mon)"
+      ],
+      "ancora": "munchlax"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "regigigas",
+        "nome": "Regigigas",
+        "descricao": "Pokémon do tipo Normal, número 486 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o colosso Regigigas dorme no Templo de Snowpoint e só desperta se o jogador levar na equipe quais três pokémon?",
+      "resposta": "Regirock, Regice e Registeel",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Snowpoint_Temple",
+        "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)"
+      ],
+      "ancora": "regigigas"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Comandantes da Equipe Galáctica",
+        "descricao": "Mars, Jupiter e Saturn, os comandantes que servem Cyrus na Equipe Galáctica em Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Galactic Commanders"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Mars, Jupiter e Saturn são os comandantes que servem Cyrus na Equipe Galáctica, em Diamond e Pearl. O que os nomes dos três têm em comum?",
+      "resposta": "São nomes de planetas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+      ],
+      "ancora": "comandantes_da_equipe_galactica"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Pal Park",
+        "descricao": "Parque de Sinnoh, em Pokémon Diamond, Pearl e Platinum, que recebe pokémon transferidos dos jogos de Game Boy Advance.",
+        "variantes": [
+          "Parque Amigo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pal_Park"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o Pal Park recebia pokémon de jogos anteriores, cujo cartucho era encaixado na segunda entrada do Nintendo DS. De quais jogos vinham esses pokémon?",
+      "resposta": "Os de Game Boy Advance",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pal_Park"
+      ],
+      "ancora": "pal_park"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Juan",
+        "descricao": "Líder do ginásio de tipo Água de Sootopolis em Pokémon Emerald, antigo mestre de Wallace.",
+        "variantes": [
+          "Adan"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Juan"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Emerald, Wallace vira campeão de Hoenn e deixa o ginásio de Sootopolis nas mãos do seu antigo mestre. Quem é ele?",
+      "resposta": "Juan",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Juan"
+      ],
+      "ancora": "juan"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Poffin",
+        "descricao": "Doce dos jogos Pokémon Diamond, Pearl e Platinum, feito com frutas e dado aos pokémon para melhorar suas condições nos concursos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Poffin"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, os pokémon de concurso comem Poffins, doces feitos com frutas. Eles tomaram o lugar de qual guloseima de Ruby e Sapphire?",
+      "resposta": "Pokéblock",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Poffin",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9block"
+      ],
+      "ancora": "poffin"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "torterra",
+        "nome": "Torterra",
+        "descricao": "Pokémon dos tipos Planta e Terrestre, número 389 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Torterra, a evolução final do inicial de planta de Sinnoh, carrega uma árvore nas costas. Ele lembra qual figura de várias mitologias, um animal que sustenta o mundo?",
+      "resposta": "A tartaruga do mundo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/World_Turtle"
+      ],
+      "ancora": "torterra"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Lisia",
+        "descricao": "Estrela dos concursos pokémon em Omega Ruby e Alpha Sapphire, que apresenta o jogador aos Concursos Espetaculares.",
+        "variantes": [
+          "Lutia"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lisia"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Omega Ruby e Alpha Sapphire, Lisia, a estrela dos concursos, apresenta esse mundo ao jogador. Ela é sobrinha de qual líder de ginásio de Hoenn?",
+      "resposta": "Wallace",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lisia"
+      ],
+      "ancora": "lisia"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Pokémon Brilliant Diamond e Shining Pearl",
+        "descricao": "Recriações de Pokémon Diamond e Pearl para o Nintendo Switch, lançadas em 2021 e ambientadas na região de Sinnoh.",
+        "variantes": [
+          "BDSP",
+          "Pokémon Diamante Brilhante e Pérola Reluzente"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Brilliant_Diamond_and_Shining_Pearl"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Brilliant Diamond e Shining Pearl, os remakes de Sinnoh para o Switch, não foram desenvolvidos pela Game Freak, e sim por outro estúdio japonês. Qual?",
+      "resposta": "ILCA",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Brilliant_Diamond_and_Shining_Pearl"
+      ],
+      "ancora": "pokemon_brilliant_diamond_e_shining_pearl"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Pokémon Emerald",
+        "descricao": "Versão especial de Pokémon Ruby e Sapphire para Game Boy Advance, com o lendário Rayquaza na capa.",
+        "variantes": [
+          "Pokémon Esmeralda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Emerald, a versão especial de Ruby e Sapphire com Rayquaza na capa, foi lançada no Japão em que ano?",
+      "resposta": "2004",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
+      ],
+      "distratores": [
+        "2003",
+        "2005",
+        "2006"
+      ],
+      "ancora": "pokemon_emerald"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Pokémon Omega Ruby e Alpha Sapphire",
+        "descricao": "Recriações de Pokémon Ruby e Sapphire para o Nintendo 3DS, ambientadas na região de Hoenn.",
+        "variantes": [
+          "ORAS"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Omega Ruby e Alpha Sapphire, os remakes de Ruby e Sapphire para o Nintendo 3DS, foram lançados em que ano?",
+      "resposta": "2014",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ],
+      "distratores": [
+        "2013",
+        "2015",
+        "2016"
+      ],
+      "ancora": "pokemon_omega_ruby_e_alpha_sapphire"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Batalha dupla",
+        "descricao": "Formato de batalha dos jogos Pokémon em que cada lado usa dois pokémon ao mesmo tempo.",
+        "variantes": [
+          "Double Battle"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Double_Battle"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "As batalhas duplas, em que cada treinador usa dois pokémon ao mesmo tempo, estrearam em qual par de jogos da série principal?",
+      "resposta": "Ruby e Sapphire",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Double_Battle"
+      ],
+      "distratores": [
+        "Gold e Silver",
+        "Diamond e Pearl",
+        "Black e White"
+      ],
+      "ancora": "batalha_dupla"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Natureza (Pokémon)",
+        "descricao": "Traço de personalidade de cada pokémon, introduzido em Ruby e Sapphire, que aumenta um atributo e diminui outro.",
+        "variantes": [
+          "Nature"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nature"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Desde Ruby e Sapphire, cada pokémon tem uma natureza, como Tímida ou Corajosa, que mexe nos seus atributos. Quantas naturezas diferentes existem?",
+      "resposta": "25",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nature"
+      ],
+      "distratores": [
+        "12",
+        "20",
+        "30"
+      ],
+      "ancora": "natureza_pokemon"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Frente de Batalha de Hoenn",
+        "descricao": "Complexo de instalações de batalha pós-jogo de Pokémon Emerald, na região de Hoenn.",
+        "variantes": [
+          "Battle Frontier"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Battle_Frontier_(Generation_III)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Emerald, a Frente de Batalha reúne desafios para depois da Liga, como a Torre e a Pirâmide de Batalha. Quantas instalações ela tem?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Battle_Frontier_(Generation_III)"
+      ],
+      "distratores": [
+        "Cinco",
+        "Seis",
+        "Oito"
+      ],
+      "ancora": "frente_de_batalha_de_hoenn"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Pokétch",
+        "descricao": "Aparelho de pulso com aplicativos usado pelo jogador em Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Poketch"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9tch"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Pokétch, aparelho de pulso de Diamond e Pearl com aplicativos como calculadora e contador de passos, junta no nome a palavra Pokémon e qual palavra inglesa?",
+      "resposta": "Watch",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9tch"
+      ],
+      "ancora": "poketch"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Câmara Selada",
+        "descricao": "Câmara submarina de Hoenn, em Pokémon Ruby, Sapphire e Emerald, cujas inscrições guiam o jogador até Regirock, Regice e Registeel.",
+        "variantes": [
+          "Sealed Chamber"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sealed_Chamber"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby e Sapphire, a Câmara Selada só se abre se a equipe tiver Relicanth em primeiro lugar e qual pokémon gigante em último?",
+      "resposta": "Wailord",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sealed_Chamber"
+      ],
+      "distratores": [
+        "Lapras",
+        "Gyarados",
+        "Milotic"
+      ],
+      "ancora": "camara_selada"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Câmara Selada",
+        "descricao": "Câmara submarina de Hoenn, em Pokémon Ruby, Sapphire e Emerald, cujas inscrições guiam o jogador até Regirock, Regice e Registeel.",
+        "variantes": [
+          "Sealed Chamber"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sealed_Chamber"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, as pistas para despertar Regirock, Regice e Registeel estão gravadas nas paredes da Câmara Selada num sistema de escrita real. Qual?",
+      "resposta": "Braille",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sealed_Chamber",
+        "https://bulbapedia.bulbagarden.net/wiki/Braille"
+      ],
+      "ancora": "camara_selada"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Corrente Vermelha",
+        "descricao": "Objeto criado por Cyrus em Pokémon Diamond, Pearl e Platinum para controlar os lendários Dialga e Palkia.",
+        "variantes": [
+          "Red Chain"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Red_Chain"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, Cyrus cria a Corrente Vermelha, capaz de prender Dialga e Palkia, usando o poder de quais três pokémon lendários?",
+      "resposta": "Uxie, Mesprit e Azelf",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Red_Chain"
+      ],
+      "ancora": "corrente_vermelha"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "coluna_lanca",
+      "nome": "Coluna Lança",
+      "descricao": "Ruínas antigas no topo do Monte Coronet, em Sinnoh, onde Cyrus tenta dominar Dialga e Palkia nos jogos Pokémon Diamond, Pearl e Platinum.",
+      "variantes": [
+        "Spear Pillar"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spear_Pillar"
+      ]
+    },
+    {
+      "id": "estacao_global_de_trocas",
+      "nome": "Estação Global de Trocas",
+      "descricao": "Serviço dos jogos Pokémon, criado em Diamond e Pearl, que permite trocar pokémon pela internet com jogadores do mundo todo.",
+      "variantes": [
+        "GTS",
+        "Global Trade Station"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Global_Trade_Station"
+      ]
+    },
+    {
+      "id": "regressao_primitiva",
+      "nome": "Regressão Primitiva",
+      "descricao": "Transformação de Groudon e Kyogre em suas formas ancestrais, introduzida em Pokémon Omega Ruby e Alpha Sapphire.",
+      "variantes": [
+        "Primal Reversion",
+        "Reversão Primitiva"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Primal_Reversion"
+      ]
+    },
+    {
+      "id": "wally",
+      "nome": "Wally",
+      "descricao": "Menino de Hoenn, rival do jogador em Pokémon Ruby, Sapphire e Emerald, que captura um Ralts com a ajuda do protagonista.",
+      "variantes": [
+        "Mitsuru"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wally"
+      ]
+    },
+    {
+      "id": "monte_chimney",
+      "nome": "Monte Chimney",
+      "descricao": "Vulcão no centro da região de Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, palco de um confronto com a Equipe Magma.",
+      "variantes": [
+        "Mt. Chimney"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mt._Chimney"
+      ]
+    },
+    {
+      "id": "divisao_fisico_especial",
+      "nome": "Divisão físico-especial",
+      "descricao": "Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente.",
+      "variantes": [
+        "Physical/special split",
+        "Categoria de dano"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Damage_category"
+      ]
+    },
+    {
+      "id": "comandantes_da_equipe_galactica",
+      "nome": "Comandantes da Equipe Galáctica",
+      "descricao": "Mars, Jupiter e Saturn, os comandantes que servem Cyrus na Equipe Galáctica em Pokémon Diamond, Pearl e Platinum.",
+      "variantes": [
+        "Galactic Commanders"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Galactic"
+      ]
+    },
+    {
+      "id": "pal_park",
+      "nome": "Pal Park",
+      "descricao": "Parque de Sinnoh, em Pokémon Diamond, Pearl e Platinum, que recebe pokémon transferidos dos jogos de Game Boy Advance.",
+      "variantes": [
+        "Parque Amigo"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pal_Park"
+      ]
+    },
+    {
+      "id": "juan",
+      "nome": "Juan",
+      "descricao": "Líder do ginásio de tipo Água de Sootopolis em Pokémon Emerald, antigo mestre de Wallace.",
+      "variantes": [
+        "Adan"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Juan"
+      ]
+    },
+    {
+      "id": "poffin",
+      "nome": "Poffin",
+      "descricao": "Doce dos jogos Pokémon Diamond, Pearl e Platinum, feito com frutas e dado aos pokémon para melhorar suas condições nos concursos.",
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Poffin"
+      ]
+    },
+    {
+      "id": "lisia",
+      "nome": "Lisia",
+      "descricao": "Estrela dos concursos pokémon em Omega Ruby e Alpha Sapphire, que apresenta o jogador aos Concursos Espetaculares.",
+      "variantes": [
+        "Lutia"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lisia"
+      ]
+    },
+    {
+      "id": "pokemon_brilliant_diamond_e_shining_pearl",
+      "nome": "Pokémon Brilliant Diamond e Shining Pearl",
+      "descricao": "Recriações de Pokémon Diamond e Pearl para o Nintendo Switch, lançadas em 2021 e ambientadas na região de Sinnoh.",
+      "variantes": [
+        "BDSP",
+        "Pokémon Diamante Brilhante e Pérola Reluzente"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Brilliant_Diamond_and_Shining_Pearl"
+      ]
+    },
+    {
+      "id": "pokemon_emerald",
+      "nome": "Pokémon Emerald",
+      "descricao": "Versão especial de Pokémon Ruby e Sapphire para Game Boy Advance, com o lendário Rayquaza na capa.",
+      "variantes": [
+        "Pokémon Esmeralda"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
+      ]
+    },
+    {
+      "id": "pokemon_omega_ruby_e_alpha_sapphire",
+      "nome": "Pokémon Omega Ruby e Alpha Sapphire",
+      "descricao": "Recriações de Pokémon Ruby e Sapphire para o Nintendo 3DS, ambientadas na região de Hoenn.",
+      "variantes": [
+        "ORAS"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ]
+    },
+    {
+      "id": "batalha_dupla",
+      "nome": "Batalha dupla",
+      "descricao": "Formato de batalha dos jogos Pokémon em que cada lado usa dois pokémon ao mesmo tempo.",
+      "variantes": [
+        "Double Battle"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Double_Battle"
+      ]
+    },
+    {
+      "id": "natureza_pokemon",
+      "nome": "Natureza (Pokémon)",
+      "descricao": "Traço de personalidade de cada pokémon, introduzido em Ruby e Sapphire, que aumenta um atributo e diminui outro.",
+      "variantes": [
+        "Nature"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nature"
+      ]
+    },
+    {
+      "id": "frente_de_batalha_de_hoenn",
+      "nome": "Frente de Batalha de Hoenn",
+      "descricao": "Complexo de instalações de batalha pós-jogo de Pokémon Emerald, na região de Hoenn.",
+      "variantes": [
+        "Battle Frontier"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Battle_Frontier_(Generation_III)"
+      ]
+    },
+    {
+      "id": "poketch",
+      "nome": "Pokétch",
+      "descricao": "Aparelho de pulso com aplicativos usado pelo jogador em Pokémon Diamond, Pearl e Platinum.",
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9tch"
+      ]
+    },
+    {
+      "id": "camara_selada",
+      "nome": "Câmara Selada",
+      "descricao": "Câmara submarina de Hoenn, em Pokémon Ruby, Sapphire e Emerald, cujas inscrições guiam o jogador até Regirock, Regice e Registeel.",
+      "variantes": [
+        "Sealed Chamber"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sealed_Chamber"
+      ]
+    },
+    {
+      "id": "corrente_vermelha",
+      "nome": "Corrente Vermelha",
+      "descricao": "Objeto criado por Cyrus em Pokémon Diamond, Pearl e Platinum para controlar os lendários Dialga e Palkia.",
+      "variantes": [
+        "Red Chain"
+      ],
+      "fontes": [
+        "https://bulbapedia.bulbagarden.net/wiki/Red_Chain"
+      ]
+    }
+  ],
+  "variantes": {
+    "kyogre": [
+      "Kyogre"
+    ],
+    "equipe_aqua": [
+      "Equipe Aqua",
+      "Team Aqua"
+    ],
+    "equipe_galactica": [
+      "Equipe Galáctica",
+      "Team Galactic"
+    ],
+    "heatran": [
+      "Heatran"
+    ],
+    "deoxys": [
+      "Deoxys"
+    ],
+    "rayquaza": [
+      "Rayquaza"
+    ],
+    "munchlax": [
+      "Munchlax"
+    ],
+    "regigigas": [
+      "Regigigas"
+    ],
+    "torterra": [
+      "Torterra"
+    ]
+  }
+}

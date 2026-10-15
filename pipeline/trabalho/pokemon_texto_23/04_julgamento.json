@@ -1,0 +1,891 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Creatures",
+        "descricao": "Empresa japonesa de jogos coproprietária da marca Pokémon, responsável pelo card game e por jogos derivados como Detetive Pikachu.",
+        "variantes": [
+          "Creatures Inc."
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "socrates_2",
+          "nome": "Sócrates",
+          "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão, retratado aqui em busto de mármore.",
+          "variantes": []
+        },
+        {
+          "id": "cacturne",
+          "nome": "Cacturne",
+          "descricao": "Pokémon dos tipos Planta e Sombrio, número 332 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pikachu Illustrator",
+        "descricao": "Carta promocional rara do card game Pokémon, de 1998, dada aos vencedores de um concurso de ilustração da revista CoroCoro.",
+        "variantes": [
+          "Illustrator Pikachu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "detetive_pikachu_jogo",
+          "nome": "Detetive Pikachu (jogo)",
+          "descricao": "Jogo de aventura e investigação para Nintendo 3DS, lançado no Japão em 2016 e no Ocidente em 2018, que inspirou o filme de 2019.",
+          "variantes": [
+            "Detective Pikachu",
+            "Meitantei Pikachu"
+          ]
+        },
+        {
+          "id": "pokemon_let_s_go_pikachu_e_let_s_go_eevee",
+          "nome": "Pokémon Let's Go, Pikachu! e Let's Go, Eevee!",
+          "descricao": "Par de jogos da série principal Pokémon para o Nintendo Switch, recriações de Pokémon Yellow ambientadas em Kanto.",
+          "variantes": [
+            "Pokémon Let's Go",
+            "Let's Go, Pikachu!",
+            "Let's Go, Eevee!"
+          ]
+        },
+        {
+          "id": "pokemon_jet",
+          "nome": "Pokémon Jet",
+          "descricao": "Aviões de passageiros pintados com pokémon, operados por uma companhia aérea japonesa desde 1998.",
+          "variantes": [
+            "ANA Pokémon Jet",
+            "Pikachu Jumbo"
+          ]
+        },
+        {
+          "id": "pikachu_s_goodbye_episodio",
+          "nome": "Pikachu's Goodbye (episódio)",
+          "descricao": "Episódio da primeira temporada do anime Pokémon em que Ash pensa em deixar Pikachu numa floresta com um bando de Pikachu selvagens.",
+          "variantes": [
+            "Adeus, Pikachu",
+            "Episódio 39 de Pokémon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Charizard holográfico do Base Set",
+        "descricao": "Carta holográfica de Charizard da primeira coleção do card game Pokémon, uma das mais cobiçadas pelos colecionadores.",
+        "variantes": [
+          "Charizard Base Set",
+          "Charizard 4/102"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "charizard",
+          "nome": "Charizard",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional.",
+          "variantes": [
+            "Lizardon"
+          ]
+        },
+        {
+          "id": "mega_charizard_x",
+          "nome": "Mega Charizard X",
+          "descricao": "Uma das duas megaevoluções de Charizard, introduzida em Pokémon X e Y, de corpo negro e chamas azuis.",
+          "variantes": []
+        },
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense",
+            "Piqui"
+          ]
+        },
+        {
+          "id": "resident_evil_4",
+          "nome": "Resident Evil 4",
+          "descricao": "Jogo de ação e terror da Capcom lançado em 2005, estrelado pelo agente Leon S. Kennedy.",
+          "variantes": [
+            "Biohazard 4"
+          ]
+        },
+        {
+          "id": "base_set",
+          "nome": "Base Set",
+          "descricao": "Primeira coleção do card game Pokémon, lançada no Japão em 1996 e em inglês em 1999, famosa pelo Charizard holográfico.",
+          "variantes": [
+            "Coleção Básica",
+            "Base Set (TCG)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pokémon Trading Card Game Pocket",
+        "descricao": "Versão para celular do card game Pokémon, lançada em 2024, com abertura diária de pacotes e cartas digitais.",
+        "variantes": [
+          "Pokémon TCG Pocket",
+          "TCG Pocket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_estampas_ilustradas",
+          "nome": "Pokémon Estampas Ilustradas",
+          "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+          "variantes": [
+            "Pokémon Trading Card Game",
+            "Pokémon TCG",
+            "Card game Pokémon"
+          ]
+        },
+        {
+          "id": "bolso_relojoeiro",
+          "nome": "Bolso relojoeiro",
+          "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+          "variantes": [
+            "Watch pocket",
+            "Bolsinho do jeans"
+          ]
+        },
+        {
+          "id": "pokemon_go",
+          "nome": "Pokémon Go",
+          "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+          "variantes": []
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        },
+        {
+          "id": "tipos_de_pokemon",
+          "nome": "Tipos de pokémon",
+          "descricao": "Sistema de tipos elementais, como Fogo, Água e Planta, que define forças e fraquezas dos pokémon e dos golpes nas batalhas.",
+          "variantes": [
+            "Tipos elementais de Pokémon",
+            "Pokémon types"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ingress",
+        "descricao": "Jogo de realidade aumentada para celular lançado pela Niantic antes de Pokémon Go, em que os jogadores disputam portais em lugares reais.",
+        "variantes": [
+          "Ingress Prime"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinagre",
+          "nome": "Vinagre",
+          "descricao": "Condimento ácido obtido pela fermentação acética do vinho ou de outras bebidas alcoólicas.",
+          "variantes": []
+        },
+        {
+          "id": "vingadores",
+          "nome": "Vingadores",
+          "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963",
+          "variantes": [
+            "Avengers"
+          ]
+        },
+        {
+          "id": "fraque",
+          "nome": "Fraque",
+          "descricao": "Traje masculino formal de paletó com abas longas atrás e frente cortada em curva",
+          "variantes": [
+            "Morning coat",
+            "Morning dress"
+          ]
+        },
+        {
+          "id": "tigre",
+          "nome": "Tigre",
+          "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+          "variantes": [
+            "Panthera tigris"
+          ]
+        },
+        {
+          "id": "wi_fi",
+          "nome": "Wi-Fi",
+          "descricao": "Família de padrões de rede local sem fio usada para conectar aparelhos à internet.",
+          "variantes": [
+            "Wifi",
+            "Wireless"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pokémon Challenge do Google Maps",
+        "descricao": "Brincadeira de primeiro de abril de 2014, feita pelo Google com a The Pokémon Company, que inspirou a criação de Pokémon Go.",
+        "variantes": [
+          "Pegadinha Pokémon do Google Maps"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_scarlet_e_violet",
+          "nome": "Pokémon Scarlet e Violet",
+          "descricao": "Par de jogos Pokémon da nona geração para o Nintendo Switch, ambientado na região de Paldea, com mundo aberto.",
+          "variantes": [
+            "Pokémon Escarlate e Violeta",
+            "Pokémon Scarlet and Violet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lançamento de Pokémon Go no Brasil",
+        "descricao": "Chegada do jogo Pokémon Go ao Brasil, em 3 de agosto de 2016, semanas depois da estreia nos Estados Unidos.",
+        "variantes": [
+          "Pokémon Go no Brasil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "versao_brasileira_do_anime_pokemon",
+          "nome": "Versão brasileira do anime Pokémon",
+          "descricao": "Exibição dublada em português do anime Pokémon no Brasil, que estreou na TV aberta no fim dos anos noventa.",
+          "variantes": [
+            "Pokémon no Brasil",
+            "Dublagem brasileira de Pokémon"
+          ]
+        },
+        {
+          "id": "pokemon_gold_e_silver",
+          "nome": "Pokémon Gold e Silver",
+          "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+          "variantes": [
+            "Pokémon Gold and Silver",
+            "Pokémon Ouro e Prata",
+            "Pokémon Gold",
+            "Pokémon Silver"
+          ]
+        },
+        {
+          "id": "voto_feminino_no_brasil",
+          "nome": "Voto feminino no Brasil",
+          "descricao": "Conquista do direito de voto pelas mulheres brasileiras, garantido pelo Código Eleitoral da era Vargas.",
+          "variantes": [
+            "Sufrágio feminino no Brasil"
+          ]
+        },
+        {
+          "id": "pokemon_o_filme",
+          "nome": "Pokémon: O Filme",
+          "descricao": "Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa.",
+          "variantes": [
+            "Mewtwo Contra-Ataca",
+            "Pokémon: The First Movie",
+            "Mewtwo Strikes Back"
+          ]
+        },
+        {
+          "id": "pokemon_sword_e_shield",
+          "nome": "Pokémon Sword e Shield",
+          "descricao": "Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar.",
+          "variantes": [
+            "Pokémon Sword and Shield",
+            "Pokémon Espada e Escudo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pokémon Go Plus+",
+        "descricao": "Acessório em forma de Poké Bola lançado em 2023, que se conecta ao celular para capturar pokémon e registrar o sono.",
+        "variantes": [
+          "Pokémon GO Plus +"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_gold_e_silver",
+          "nome": "Pokémon Gold e Silver",
+          "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+          "variantes": [
+            "Pokémon Gold and Silver",
+            "Pokémon Ouro e Prata",
+            "Pokémon Gold",
+            "Pokémon Silver"
+          ]
+        },
+        {
+          "id": "pokemon_go",
+          "nome": "Pokémon Go",
+          "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_sun_e_moon",
+          "nome": "Pokémon Sun e Moon",
+          "descricao": "Par de jogos Pokémon da sétima geração, para Nintendo 3DS, ambientado na região tropical de Alola.",
+          "variantes": [
+            "Pokémon Sun and Moon",
+            "Pokémon Sol e Lua"
+          ]
+        },
+        {
+          "id": "pokenav",
+          "nome": "PokéNav",
+          "descricao": "Aparelho do jogador em Pokémon Ruby, Sapphire e Emerald, com mapa de Hoenn e registro de treinadores.",
+          "variantes": [
+            "PokéNav Plus"
+          ]
+        },
+        {
+          "id": "pokemon_o_filme",
+          "nome": "Pokémon: O Filme",
+          "descricao": "Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa.",
+          "variantes": [
+            "Mewtwo Contra-Ataca",
+            "Pokémon: The First Movie",
+            "Mewtwo Strikes Back"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pokémon XD: Gale of Darkness",
+        "descricao": "Jogo de RPG Pokémon de 2005 para GameCube, continuação de Pokémon Colosseum, ambientado na região de Orre.",
+        "variantes": [
+          "Pokémon XD"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_do_pokemon",
+          "nome": "Dia do Pokémon",
+          "descricao": "Data comemorativa anual da franquia Pokémon, aniversário do lançamento dos primeiros jogos no Japão, usada para grandes anúncios.",
+          "variantes": [
+            "Pokémon Day"
+          ]
+        },
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_gold_e_silver",
+          "nome": "Pokémon Gold e Silver",
+          "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+          "variantes": [
+            "Pokémon Gold and Silver",
+            "Pokémon Ouro e Prata",
+            "Pokémon Gold",
+            "Pokémon Silver"
+          ]
+        },
+        {
+          "id": "pokemon_go",
+          "nome": "Pokémon Go",
+          "descricao": "Jogo de realidade aumentada para celular da Niantic, em que o jogador captura pokémon andando pelas ruas.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_x_e_y",
+          "nome": "Pokémon X e Y",
+          "descricao": "Par de jogos Pokémon da sexta geração, lançado em 2013 para o Nintendo 3DS e ambientado na região de Kalos.",
+          "variantes": [
+            "Pokémon X and Y"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pokémon Mystery Dungeon: Red Rescue Team e Blue Rescue Team",
+        "descricao": "Par de jogos que inaugurou a série Pokémon Mystery Dungeon, lançado em 2005 no Japão, em que o herói integra uma equipe de resgate.",
+        "variantes": [
+          "Pokémon Mystery Dungeon: Equipe de Resgate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_mystery_dungeon_explorers_of_time_e_explorers_of_darkness",
+          "nome": "Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness",
+          "descricao": "Par de jogos da série Pokémon Mystery Dungeon lançado em 2007 para Nintendo DS, em que o herói entra numa guilda de exploradores.",
+          "variantes": [
+            "Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness",
+            "Pokémon Mystery Dungeon: Explorers"
+          ]
+        },
+        {
+          "id": "pokemon_mystery_dungeon",
+          "nome": "Pokémon Mystery Dungeon",
+          "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+          "variantes": [
+            "Pokémon Fushigi no Dungeon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Pokémon Pinball",
+        "descricao": "Jogo de fliperama virtual com pokémon, lançado em 1999 para o Game Boy Color, em que a bolinha é uma Poké Bola.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "poke_bola",
+          "nome": "Poké Bola",
+          "descricao": "Esfera vermelha e branca usada pelos treinadores para capturar e carregar pokémon.",
+          "variantes": [
+            "Poké Ball",
+            "Pokébola",
+            "Monster Ball"
+          ]
+        },
+        {
+          "id": "pokemon_alfa",
+          "nome": "Pokémon Alfa",
+          "descricao": "Pokémon selvagens maiores, mais fortes e agressivos que os comuns, introduzidos em Pokémon Legends: Arceus.",
+          "variantes": [
+            "Alpha Pokémon",
+            "Pokémon Alpha"
+          ]
+        },
+        {
+          "id": "pokemon_tita",
+          "nome": "Pokémon Titã",
+          "descricao": "Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas.",
+          "variantes": [
+            "Titan Pokémon",
+            "Pokémon Titãs"
+          ]
+        },
+        {
+          "id": "pokemon_crystal",
+          "nome": "Pokémon Crystal",
+          "descricao": "Versão especial de Pokémon Gold e Silver, lançada em 2000 para Game Boy Color, com o lendário Suicune em destaque.",
+          "variantes": [
+            "Pokémon Cristal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Pokémon Quest",
+        "descricao": "Jogo gratuito de 2018 para Nintendo Switch e celulares, em que os pokémon exploram a Ilha Tumblecube.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_conquest",
+          "nome": "Pokémon Conquest",
+          "descricao": "Jogo de estratégia de 2012 para Nintendo DS, que leva os pokémon ao Japão feudal dos senhores da guerra.",
+          "variantes": [
+            "Pokémon + Nobunaga no Yabō"
+          ]
+        },
+        {
+          "id": "pokemon_jet",
+          "nome": "Pokémon Jet",
+          "descricao": "Aviões de passageiros pintados com pokémon, operados por uma companhia aérea japonesa desde 1998.",
+          "variantes": [
+            "ANA Pokémon Jet",
+            "Pikachu Jumbo"
+          ]
+        },
+        {
+          "id": "pokemon_unite",
+          "nome": "Pokémon Unite",
+          "descricao": "Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group.",
+          "variantes": []
+        },
+        {
+          "id": "tipos_de_pokemon",
+          "nome": "Tipos de pokémon",
+          "descricao": "Sistema de tipos elementais, como Fogo, Água e Planta, que define forças e fraquezas dos pokémon e dos golpes nas batalhas.",
+          "variantes": [
+            "Tipos elementais de Pokémon",
+            "Pokémon types"
+          ]
+        },
+        {
+          "id": "pokemon_estampas_ilustradas",
+          "nome": "Pokémon Estampas Ilustradas",
+          "descricao": "Card game colecionável oficial da franquia Pokémon, lançado no Japão em 1996.",
+          "variantes": [
+            "Pokémon Trading Card Game",
+            "Pokémon TCG",
+            "Card game Pokémon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Pokémon Smile",
+        "descricao": "Aplicativo gratuito da franquia Pokémon lançado em 2020, voltado para crianças, que usa a câmera do celular.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_gold_e_silver",
+          "nome": "Pokémon Gold e Silver",
+          "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+          "variantes": [
+            "Pokémon Gold and Silver",
+            "Pokémon Ouro e Prata",
+            "Pokémon Gold",
+            "Pokémon Silver"
+          ]
+        },
+        {
+          "id": "pokemon_amie",
+          "nome": "Pokémon-Amie",
+          "descricao": "Recurso de Pokémon X e Y em que o jogador acaricia, alimenta e brinca com seus pokémon para aumentar a afeição deles.",
+          "variantes": [
+            "Poké Parfait"
+          ]
+        },
+        {
+          "id": "pokemon_sleep",
+          "nome": "Pokémon Sleep",
+          "descricao": "Aplicativo da franquia Pokémon, lançado em 2023, que mede o sono do jogador e o transforma em jogo.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_home",
+          "nome": "Pokémon HOME",
+          "descricao": "Serviço na nuvem da The Pokémon Company, para Nintendo Switch e celular, que guarda e transfere pokémon entre vários jogos.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Pocket Pikachu",
+        "descricao": "Bichinho virtual com contador de passos lançado pela Nintendo em 1998, em que o dono cuida de um Pikachu.",
+        "variantes": [
+          "Pokémon Pikachu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_yellow",
+          "nome": "Pokémon Yellow",
+          "descricao": "Versão especial de Pokémon Red e Blue, para Game Boy, inspirada no anime, em que o inicial é um Pikachu que segue o jogador.",
+          "variantes": [
+            "Pokémon Amarelo",
+            "Pokémon Yellow Version",
+            "Pokémon Yellow: Special Pikachu Edition",
+            "Pocket Monsters Pikachu"
+          ]
+        },
+        {
+          "id": "detetive_pikachu_filme",
+          "nome": "Detetive Pikachu (filme)",
+          "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério.",
+          "variantes": [
+            "Pokémon: Detetive Pikachu",
+            "Detective Pikachu",
+            "Pokémon Detective Pikachu"
+          ]
+        },
+        {
+          "id": "pokemon_tita",
+          "nome": "Pokémon Titã",
+          "descricao": "Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas.",
+          "variantes": [
+            "Titan Pokémon",
+            "Pokémon Titãs"
+          ]
+        },
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "pokemon_alfa",
+          "nome": "Pokémon Alfa",
+          "descricao": "Pokémon selvagens maiores, mais fortes e agressivos que os comuns, introduzidos em Pokémon Legends: Arceus.",
+          "variantes": [
+            "Alpha Pokémon",
+            "Pokémon Alpha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Pokémon Mini",
+        "descricao": "Pequeno console portátil da Nintendo, com tela monocromática e jogos só de pokémon, lançado no início dos anos dois mil.",
+        "variantes": [
+          "Pokémon mini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_amie",
+          "nome": "Pokémon-Amie",
+          "descricao": "Recurso de Pokémon X e Y em que o jogador acaricia, alimenta e brinca com seus pokémon para aumentar a afeição deles.",
+          "variantes": [
+            "Poké Parfait"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_unite",
+          "nome": "Pokémon Unite",
+          "descricao": "Jogo de batalhas em equipe da franquia Pokémon, lançado em 2021, desenvolvido pelo TiMi Studio Group.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_brilhante",
+          "nome": "Pokémon brilhante",
+          "descricao": "Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores.",
+          "variantes": [
+            "Shiny",
+            "Pokémon shiny",
+            "Pokémon Cromático"
+          ]
+        },
+        {
+          "id": "pokemon_snap",
+          "nome": "Pokémon Snap",
+          "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Tazos de Pokémon",
+        "descricao": "Discos colecionáveis com pokémon distribuídos em pacotes de salgadinho, que viraram febre entre as crianças brasileiras no começo dos anos dois mil.",
+        "variantes": [
+          "Tazos Pokémon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tipos_de_pokemon",
+          "nome": "Tipos de pokémon",
+          "descricao": "Sistema de tipos elementais, como Fogo, Água e Planta, que define forças e fraquezas dos pokémon e dos golpes nas batalhas.",
+          "variantes": [
+            "Tipos elementais de Pokémon",
+            "Pokémon types"
+          ]
+        },
+        {
+          "id": "pokemon_theme",
+          "nome": "Pokémon Theme",
+          "descricao": "Primeira abertura da versão americana do anime Pokémon, que começa com os versos I wanna be the very best.",
+          "variantes": [
+            "Tema de Pokémon",
+            "Gotta Catch 'Em All (canção)"
+          ]
+        },
+        {
+          "id": "rose_pokemon",
+          "nome": "Rose (Pokémon)",
+          "descricao": "Presidente da Liga Pokémon de Galar e da empresa Macro Cosmos, antagonista de Pokémon Sword e Shield.",
+          "variantes": [
+            "Chairman Rose",
+            "Presidente Rose"
+          ]
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        },
+        {
+          "id": "pokemon_tita",
+          "nome": "Pokémon Titã",
+          "descricao": "Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas.",
+          "variantes": [
+            "Titan Pokémon",
+            "Pokémon Titãs"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Empresa Creatures não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Carta rara distinta de jogos, aviões ou episódio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Carta específica difere do Pokémon, da megaevolução e da coleção Base Set."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "App digital Pocket distinto do card game físico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ingress não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Brincadeira do Google Maps é entidade distinta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Evento de lançamento no Brasil distinto das candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Acessório distinto do jogo Pokémon Go."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Jogo XD não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Par Red/Blue Rescue Team distinto da série e do par Explorers."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Pokémon Pinball não está entre as candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Pokémon Quest é jogo distinto de Conquest e Unite."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Pokémon Smile não está entre as candidatas."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Bichinho virtual distinto de Pokémon Yellow."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Console Pokémon Mini não está entre as candidatas."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Tazos não está entre as candidatas."
+    }
+  ]
+}

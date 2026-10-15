@@ -30,7 +30,8 @@
           "pergunta": { "type": "string" },
           "resposta": { "type": "string" },
           "distratores": { "type": "array", "items": { "type": "string" } },
-          "fonte": { "type": "array", "items": { "type": "string" } }
+          "fonte": { "type": "array", "items": { "type": "string" } },
+          "subtema_colecao": { "type": "string", "description": "só quando a encomenda pede: o subtema da pergunta no modo da coleção, da lista dada" }
         }
       }
     }

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Dublado em português, o anime Pokémon estreou na TV aberta brasileira, pela Rede Record, em que ano?",
+        "resposta": "1999"
+      },
+      "existentes": [
+        {
+          "id": "q11320",
+          "pergunta": "Em que emissora de TV aberta o anime Pokémon estreou no Brasil, provocando uma febre entre as crianças?",
+          "resposta": "Rede Record"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a emissora (Rede Record); a nova pergunta o ano de estreia (1999). São fatos diferentes, embora a nova mencione a emissora no enunciado."
+    }
+  ]
+}

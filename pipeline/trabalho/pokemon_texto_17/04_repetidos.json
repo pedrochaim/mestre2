@@ -1,0 +1,182 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Pokémon Black e White, que levaram os jogadores à região de Unova no Nintendo DS, foram lançados no Japão em que ano?",
+        "resposta": "2010"
+      },
+      "existentes": [
+        {
+          "id": "q09841",
+          "pergunta": "Ao contrário do que o nome sugere, o dragão lendário estampado na capa de Pokémon Black tem qual cor?",
+          "resposta": "Branca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destes pares de jogos principais trouxe o maior número de espécies inéditas de pokémon?",
+        "resposta": "Black e White"
+      },
+      "existentes": [
+        {
+          "id": "q09841",
+          "pergunta": "Ao contrário do que o nome sugere, o dragão lendário estampado na capa de Pokémon Black tem qual cor?",
+          "resposta": "Branca"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Pokémon X e Y foram os primeiros jogos da série lançados no mesmo dia no mundo inteiro. Em que ano isso aconteceu?",
+        "resposta": "2013"
+      },
+      "existentes": [
+        {
+          "id": "q09840",
+          "pergunta": "Em Pokémon X e Y, o jogador escolhe o inicial entre Chespin, de planta, Froakie, de água, e qual pokémon de fogo?",
+          "resposta": "Fennekin"
+        },
+        {
+          "id": "q09986",
+          "pergunta": "Pokémon X e Y, de 2013, estrearam uma transformação temporária em batalha, ativada por uma pedra especial que o pokémon segura. Como ela se chama?",
+          "resposta": "Megaevolução"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Black e White, depois do fim da história, o lendário Kyurem pode ser capturado no fundo de qual caverna gelada de Unova?",
+        "resposta": "Giant Chasm"
+      },
+      "existentes": [
+        {
+          "id": "q09839",
+          "pergunta": "Em Black 2 e White 2, o dragão de gelo Kyurem pode se fundir a Reshiram ou a qual outro dragão lendário?",
+          "resposta": "Zekrom"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em X e Y, onde o jogador encontra o lendário Zygarde, o guardião do ecossistema de Kalos?",
+        "resposta": "Na Terminus Cave"
+      },
+      "existentes": [
+        {
+          "id": "q11122",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Zygarde"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em X e Y, além do inicial de Kalos, o Professor Sycamore oferece ao jogador um segundo pokémon inicial, vindo de qual região?",
+        "resposta": "Kanto"
+      },
+      "existentes": [
+        {
+          "id": "q11103",
+          "pergunta": "Em Pokémon X e Y, o Professor Sycamore, de Kalos, dedica suas pesquisas a qual fenômeno?",
+          "resposta": "Megaevolução"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual integrante da Elite dos Quatro de Kalos, especialista em pokémon de fogo, é também uma agente secreta da Equipe Flare?",
+        "resposta": "Malva"
+      },
+      "existentes": [
+        {
+          "id": "q11093",
+          "pergunta": "Em X e Y, que homem de cabeleira ruiva, dono de um café em Lumiose, comanda em segredo a Equipe Flare?",
+          "resposta": "Lysandre"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em X e Y, a Equipe Flare sonha com um mundo bonito e quer disparar a arma suprema. O que o grupo pretende fazer com ela?",
+        "resposta": "Eliminar quem não é da equipe"
+      },
+      "existentes": [
+        {
+          "id": "q11093",
+          "pergunta": "Em X e Y, que homem de cabeleira ruiva, dono de um café em Lumiose, comanda em segredo a Equipe Flare?",
+          "resposta": "Lysandre"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Qual foi a primeira região dos jogos principais de Pokémon inspirada num lugar fora do Japão?",
+        "resposta": "Unova"
+      },
+      "existentes": [
+        {
+          "id": "q09820",
+          "pergunta": "Em Pokémon Black e White, a região de Unova e sua metrópole de arranha-céus, Castelia, se inspiram em qual cidade americana?",
+          "resposta": "Nova York"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento vs cor do dragão da capa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente (número de espécies inéditas)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento simultâneo é fato distinto de inicial ou megaevolução."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Local de captura de Kyurem vs fusão com Zekrom."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta existente é identificar o pokémon; a nova é sobre local de encontro."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Segundo inicial de Kanto vs tema de pesquisa do professor."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Malva é outro personagem que Lysandre."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Objetivo da arma vs líder da equipe."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Primeira região inspirada fora do Japão vs cidade inspiradora; fatos diferentes, ainda que relacionados."
+    }
+  ]
+}

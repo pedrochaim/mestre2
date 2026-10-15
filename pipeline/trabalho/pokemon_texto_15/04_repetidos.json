@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Pokémon Yellow, a versão de Kanto inspirada no anime, em que Pikachu é o pokémon inicial, chegou às lojas do Japão em que ano?",
+        "resposta": "1998"
+      },
+      "existentes": [
+        {
+          "id": "q10003",
+          "pergunta": "Em Pokémon Yellow, inspirado no anime, o jogador começa a jornada com um Pikachu. Com qual pokémon começa o rival?",
+          "resposta": "Eevee"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Pokémon Yellow trouxe para os jogos uma dupla de vilões da Equipe Rocket que até então só existia no anime. Quem são eles?",
+        "resposta": "Jessie e James"
+      },
+      "existentes": [
+        {
+          "id": "q10003",
+          "pergunta": "Em Pokémon Yellow, inspirado no anime, o jogador começa a jornada com um Pikachu. Com qual pokémon começa o rival?",
+          "resposta": "Eevee"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No lançamento, as caixas de FireRed e LeafGreen traziam junto um acessório inédito do Game Boy Advance, que dava acesso à sala virtual Union Room. Que acessório era esse?",
+        "resposta": "Adaptador sem fio"
+      },
+      "existentes": [
+        {
+          "id": "q10244",
+          "pergunta": "FireRed e LeafGreen, que recriaram os primeiros jogos e levaram Kanto ao Game Boy Advance, saíram no Japão em que ano?",
+          "resposta": "2004"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destes jogos foi o primeiro da série principal de Pokémon em que o jogador podia escolher jogar como uma menina?",
+        "resposta": "Pokémon Crystal"
+      },
+      "existentes": [
+        {
+          "id": "q10067",
+          "pergunta": "Pokémon Crystal, lançado em 2000, trouxe uma novidade inédita na série principal na hora de escolher o protagonista. Que novidade era essa?",
+          "resposta": "Poder jogar com uma menina"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Gold e Silver, depois de vencer a Liga, o jogador volta a Kanto para enfrentar outros ginásios. Somando as duas regiões, quantas insígnias ele pode juntar?",
+        "resposta": "16"
+      },
+      "existentes": [
+        {
+          "id": "q09988",
+          "pergunta": "Em Pokémon Gold e Silver, depois de vencer a Liga de Johto, o jogador pode viajar para qual outra região, cenário dos primeiros jogos?",
+          "resposta": "Kanto"
+        },
+        {
+          "id": "q09989",
+          "pergunta": "A história de Pokémon Gold e Silver se passa quanto tempo depois dos acontecimentos de Red e Blue?",
+          "resposta": "Três anos depois"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento vs. inicial do rival: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Vilões do anime vs. inicial do rival: fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Acessório incluído vs. ano de lançamento: fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a novidade de poder jogar como menina em Crystal."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Total de insígnias é um fato diferente de região ou tempo da história."
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Máquina Oculta",
+        "descricao": "Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa.",
+        "variantes": [
+          "MO",
+          "HM",
+          "Hidden Machine"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/HM"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "As Máquinas Ocultas, com golpes como Surf e Força, existiam na série desde Red e Blue. Em que par de jogos elas foram abolidas?",
+      "resposta": "Sun e Moon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/HM",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Desafio das Ilhas",
+        "descricao": "Jornada de Pokémon Sun e Moon que substitui os ginásios, com provas em cada ilha da região de Alola.",
+        "variantes": [
+          "Island Challenge"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Island_challenge"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No Desafio das Ilhas de Sun e Moon, os kahunas comandam as grandes provas. Que título têm os jovens que comandam as provas comuns?",
+      "resposta": "Capitão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Island_challenge",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Rotom Dex",
+        "descricao": "Pokédex falante de Pokémon Sun e Moon, habitada por um Rotom, que dá dicas e mostra o mapa ao jogador.",
+        "variantes": [
+          "Rotom Pokédex",
+          "PokéDex Rotom"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rotom_Pok%C3%A9dex"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, a Pokédex do jogador fala, dá dicas e mostra o mapa. Que pokémon vive dentro dela?",
+      "resposta": "Rotom",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rotom_Pok%C3%A9dex"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Ultracriaturas",
+        "descricao": "Pokémon misteriosos de Pokémon Sun e Moon, como Nihilego e Buzzwole, vindos de outra dimensão por fendas chamadas Ultra Wormholes.",
+        "variantes": [
+          "Ultra Beasts",
+          "UB"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ultra_Beast"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, as Ultracriaturas, como Nihilego, chegam a Alola por fendas abertas no céu. De onde elas vêm?",
+      "resposta": "Do Ultra Espaço",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ultra_Beast",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Professor Kukui",
+        "descricao": "Professor pokémon da região de Alola, que entrega o inicial ao jogador em Pokémon Sun e Moon.",
+        "variantes": [
+          "Kukui"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kukui"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O Professor Kukui, que recebe o jogador em Alola em Sun e Moon, dedica suas pesquisas a que aspecto dos pokémon?",
+      "resposta": "Os golpes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kukui"
+      ],
+      "distratores": [
+        "A megaevolução",
+        "Os ovos",
+        "A evolução"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "pokemon_sun_e_moon",
+        "nome": "Pokémon Sun e Moon",
+        "descricao": "Par de jogos Pokémon da sétima geração, para Nintendo 3DS, ambientado na região tropical de Alola.",
+        "variantes": [
+          "Pokémon Sun and Moon",
+          "Pokémon Sol e Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Sun segue o horário real do console. Em Pokémon Moon, o relógio do jogo fica deslocado em quantas horas?",
+      "resposta": "Doze horas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Sun_and_Moon_Versions"
+      ],
+      "distratores": [
+        "Seis horas",
+        "Três horas",
+        "Oito horas"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "tapu_koko",
+        "nome": "Tapu Koko",
+        "descricao": "Pokémon dos tipos Elétrico e Fada, número 785 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Cada ilha de Alola tem um tapu protetor. Qual deles guarda Melemele, a ilha onde começa a jornada de Sun e Moon?",
+      "resposta": "Tapu Koko",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Tapu Lele",
+        "Tapu Bulu",
+        "Tapu Fini"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Pokémon Ultra Sun e Ultra Moon",
+        "descricao": "Versões ampliadas de Pokémon Sun e Moon para Nintendo 3DS, com nova história na região de Alola centrada em Necrozma.",
+        "variantes": [
+          "Pokémon Ultra Sun and Ultra Moon",
+          "Pokémon Ultra Sol e Ultra Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ultra_Sun_and_Ultra_Moon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Ultra Sun e Ultra Moon, as versões ampliadas da aventura em Alola, foram lançados em que ano?",
+      "resposta": "2017",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ultra_Sun_and_Ultra_Moon"
+      ],
+      "distratores": [
+        "2016",
+        "2018",
+        "2019"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Pokémon Ultra Sun e Ultra Moon",
+        "descricao": "Versões ampliadas de Pokémon Sun e Moon para Nintendo 3DS, com nova história na região de Alola centrada em Necrozma.",
+        "variantes": [
+          "Pokémon Ultra Sun and Ultra Moon",
+          "Pokémon Ultra Sol e Ultra Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ultra_Sun_and_Ultra_Moon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As capas de Ultra Sun e Ultra Moon mostram Solgaleo e Lunala fundidos com qual outro pokémon lendário?",
+      "resposta": "Necrozma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ultra_Sun_and_Ultra_Moon"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "pokemon_sword_e_shield",
+        "nome": "Pokémon Sword e Shield",
+        "descricao": "Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar.",
+        "variantes": [
+          "Pokémon Sword and Shield",
+          "Pokémon Espada e Escudo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Sword e Shield, que levaram os jogadores à região de Galar, chegaram às lojas em que ano?",
+      "resposta": "2019",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "distratores": [
+        "2018",
+        "2020",
+        "2017"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Área Selvagem",
+        "descricao": "Grande área aberta de Pokémon Sword e Shield, no centro de Galar, com câmera livre, clima variável e batalhas Max Raid.",
+        "variantes": [
+          "Wild Area"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wild_Area"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na Área Selvagem de Sword e Shield, os pokémon que surgem em cada trecho de Galar variam de um dia para outro. O que provoca essa variação?",
+      "resposta": "O clima",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wild_Area",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Acampamento Pokémon",
+        "descricao": "Recurso de Pokémon Sword e Shield em que o jogador monta uma barraca, brinca e cozinha com seus pokémon.",
+        "variantes": [
+          "Pokémon Camp"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Camp"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, o jogador pode montar uma barraca e acampar com seus pokémon. Que prato ele cozinha para eles?",
+      "resposta": "Curry",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Camp"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "miraidon",
+        "nome": "Miraidon",
+        "descricao": "Pokémon dos tipos Elétrico e Dragão, número 1008 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome de Miraidon, o lendário elétrico e dragão de Paldea, vem da palavra japonesa mirai. O que ela significa?",
+      "resposta": "Futuro",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Urshifu",
+        "descricao": "Pokémon lendário do tipo Lutador da oitava geração, evolução de Kubfu, introduzido na expansão The Isle of Armor.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em The Isle of Armor, Kubfu evolui em Urshifu, que pode ter dois estilos de luta diferentes. O que decide qual será o estilo?",
+      "resposta": "A torre que Kubfu escala",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Mustard",
+        "descricao": "Velho mestre do dojo da Ilha da Armadura, na expansão The Isle of Armor de Pokémon Sword e Shield, que treina o jogador e Kubfu.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mustard"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Mustard, o velho mestre do dojo de The Isle of Armor, foi no passado o quê na Liga Pokémon de Galar?",
+      "resposta": "Campeão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mustard"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Peony",
+        "descricao": "Aventureiro exagerado que acompanha o jogador na expansão The Crown Tundra, de Pokémon Sword e Shield.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Peony"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Peony, o aventureiro que acompanha o jogador em The Crown Tundra, é irmão mais velho de qual personagem de Sword e Shield?",
+      "resposta": "Rose, presidente da Liga",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Peony"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "The Teal Mask",
+        "descricao": "Primeira parte da expansão de Pokémon Scarlet e Violet, em que o jogador viaja à terra de Kitakami e conhece Ogerpon.",
+        "variantes": [
+          "A Máscara Turquesa",
+          "The Hidden Treasure of Area Zero: The Teal Mask"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "The Teal Mask, a primeira parte da expansão de Scarlet e Violet, foi lançada em que ano?",
+      "resposta": "2023",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "distratores": [
+        "2022",
+        "2024",
+        "2025"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Kitakami",
+        "descricao": "Terra rural de arrozais, montanhas e festivais visitada pelo jogador na expansão The Teal Mask, de Pokémon Scarlet e Violet.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kitakami"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em The Teal Mask, a turma da academia viaja para Kitakami, uma terra de arrozais, montanhas e festivais. O interior de qual país a inspirou?",
+      "resposta": "Japão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kitakami"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Ogerpon",
+        "descricao": "Pokémon lendário do tipo Planta da nona geração, uma pequena ogra mascarada de Kitakami, estrela da expansão The Teal Mask.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em The Teal Mask, a pequena Ogerpon, de tipo Planta, pode ganhar um segundo tipo, como Água, Fogo ou Pedra. O que define qual será?",
+      "resposta": "A máscara que ela usa",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Iniciais de Pokémon Legends: Arceus",
+        "descricao": "Os três pokémon iniciais oferecidos ao jogador no jogo Pokémon Legends: Arceus, na antiga região de Hisui.",
+        "variantes": [
+          "Iniciais de Hisui"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, o jogador escolhe o primeiro pokémon entre três iniciais vindos de regiões diferentes. Quais são eles?",
+      "resposta": "Rowlet, Cyndaquil e Oshawott",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Pokémon Alfa",
+        "descricao": "Pokémon selvagens maiores, mais fortes e agressivos que os comuns, introduzidos em Pokémon Legends: Arceus.",
+        "variantes": [
+          "Alpha Pokémon",
+          "Pokémon Alpha"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alpha_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, os pokémon Alfa são mais fortes e agressivos que os outros. Além do tamanho maior, o que os denuncia de longe?",
+      "resposta": "Olhos vermelhos brilhantes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alpha_Pok%C3%A9mon"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Clã Pérola",
+        "descricao": "Um dos dois clãs rivais da região de Hisui em Pokémon Legends: Arceus, adversário do Clã Diamante.",
+        "variantes": [
+          "Pearl Clan"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pearl_Clan"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, os clãs rivais de Hisui veneram lendários diferentes. Que lendário o Clã Pérola venera?",
+      "resposta": "Palkia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pearl_Clan"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Volo",
+        "descricao": "Mercador simpático de Pokémon Legends: Arceus, membro da Guilda Ginkgo, que se revela antagonista no fim do jogo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, o simpático mercador Volo se revela inimigo do jogador no fim da aventura. Ao lado de qual lendário ele luta?",
+      "resposta": "Giratina",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Volo"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Pokémon Titã",
+        "descricao": "Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas.",
+        "variantes": [
+          "Titan Pokémon",
+          "Pokémon Titãs"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Titan_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, os pokémon Titãs que o jogador enfrenta ao lado de Arven cresceram muito além do normal. Por quê?",
+      "resposta": "Comeram Herba Mystica",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Titan_Pok%C3%A9mon"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "pokemon_scarlet_e_violet",
+        "nome": "Pokémon Scarlet e Violet",
+        "descricao": "Par de jogos Pokémon da nona geração para o Nintendo Switch, ambientado na região de Paldea, com mundo aberto.",
+        "variantes": [
+          "Pokémon Scarlet and Violet",
+          "Pokémon Escarlate e Violeta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes pokémon lendários estampa a capa de Pokémon Scarlet?",
+      "resposta": "Koraidon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "distratores": [
+        "Miraidon",
+        "Zamazenta",
+        "Solgaleo"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Pokémon Paradoxo",
+        "descricao": "Versões antigas ou futuristas de pokémon conhecidos que vivem na Área Zero, no fundo da Grande Cratera de Paldea, em Pokémon Scarlet e Violet.",
+        "variantes": [
+          "Paradox Pokémon"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Paradox_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, os pokémon Paradoxo, versões antigas e futuristas de pokémon conhecidos, vivem na Área Zero. Como eles chegaram lá?",
+      "resposta": "Por uma máquina do tempo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Paradox_Pok%C3%A9mon"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Gimmighoul",
+        "descricao": "Pokémon do tipo Fantasma da nona geração, que vive dentro de um baú e evolui para Gholdengo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em Scarlet e Violet, Gimmighoul só evolui em Gholdengo quando o jogador junta uma grande quantidade de moedas. Quantas?",
+      "resposta": "999",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "100",
+        "500",
+        "777"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Clavell",
+        "descricao": "Diretor da academia de Paldea em Pokémon Scarlet e Violet.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Clavell"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, o diretor Clavell se disfarça de aluno para investigar a Equipe Star. Que nome falso ele usa?",
+      "resposta": "Clive",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Clavell"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Tipo Estelar",
+        "descricao": "Teratipo especial introduzido na expansão The Indigo Disk, de Pokémon Scarlet e Violet, ligado ao lendário Terapagos.",
+        "variantes": [
+          "Stellar",
+          "Teratipo Estelar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Stellar_(type)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em The Indigo Disk, ligado ao lendário Terapagos, surgiu um Teratipo inédito, que fortalece golpes de qualquer tipo. Como ele se chama?",
+      "resposta": "Tipo Estelar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Stellar_(type)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Pokémon Sapphire, depois de despertado pela Equipe Aqua, Kyogre se refugia numa caverna escondida em Sootopolis, onde o jogador pode capturá-lo. Como ela se chama?",
+        "resposta": "Caverna da Origem"
+      },
+      "existentes": [
+        {
+          "id": "q09951",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Kyogre"
+        },
+        {
+          "id": "q10194",
+          "pergunta": "Em Pokémon Sapphire, a Equipe Aqua desperta o lendário Kyogre. O que esses vilões pretendem fazer com o poder dele?",
+          "resposta": "Expandir os mares"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Ruby e Sapphire, o esconderijo da Equipe Aqua fica numa caverna escavada à beira-mar, ao lado de qual cidade litorânea de Hoenn?",
+        "resposta": "Lilycove"
+      },
+      "existentes": [
+        {
+          "id": "q11087",
+          "pergunta": "Em Ruby e Sapphire, que líder comanda a Equipe Aqua, grupo que sonha em expandir os mares com o poder de Kyogre?",
+          "resposta": "Archie"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Diamond e Pearl, o jogador invade o quartel-general da Equipe Galáctica para libertar os pokémon dos lagos. Em que cidade de Sinnoh fica esse prédio?",
+        "resposta": "Veilstone"
+      },
+      "existentes": [
+        {
+          "id": "q11088",
+          "pergunta": "Qual destas equipes vilãs apareceu primeiro nos jogos principais de Pokémon?",
+          "resposta": "Equipe Galáctica"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Diamond, Pearl e Platinum, o lendário Heatran, de fogo e aço, vive nas profundezas de que lugar de Sinnoh?",
+        "resposta": "Monte Stark"
+      },
+      "existentes": [
+        {
+          "id": "q10569",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Heatran"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Omega Ruby e Alpha Sapphire, no Episódio Delta, o jogador enfrenta o mítico Deoxys num lugar aonde chega voando nas costas de Rayquaza. Que lugar é esse?",
+        "resposta": "O espaço sideral"
+      },
+      "existentes": [
+        {
+          "id": "q10037",
+          "pergunta": "O nome do pokémon alienígena Deoxys, que nasceu da mutação de um vírus vindo do espaço, vem de qual molécula da genética?",
+          "resposta": "DNA (ácido desoxirribonucleico)"
+        },
+        {
+          "id": "q10213",
+          "pergunta": "O alienígena Deoxys tem quatro formas: a Normal, a de Ataque, a de Defesa e qual outra?",
+          "resposta": "Velocidade"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Pokémon Emerald, o jogador desperta Rayquaza no alto do Pilar Celeste, e o dragão voa até a cidade de Sootopolis. Por que ele vai para lá?",
+        "resposta": "Para conter Groudon e Kyogre"
+      },
+      "existentes": [
+        {
+          "id": "q09745",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Rayquaza"
+        },
+        {
+          "id": "q10210",
+          "pergunta": "Em Pokémon Emerald, o jogador sobe uma torre antiga, numa ilha de Hoenn, para despertar Rayquaza lá no alto. Que torre é essa?",
+          "resposta": "Pilar Celeste (Sky Pillar)"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em Diamond e Pearl, o raro Munchlax só aparece em algumas árvores de Sinnoh. O que o jogador precisa espalhar nelas para atraí-lo?",
+        "resposta": "Mel"
+      },
+      "existentes": [
+        {
+          "id": "q10566",
+          "pergunta": "Em que pokémon este evolui?",
+          "resposta": "Snorlax"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em Diamond e Pearl, o colosso Regigigas dorme no Templo de Snowpoint e só desperta se o jogador levar na equipe quais três pokémon?",
+        "resposta": "Regirock, Regice e Registeel"
+      },
+      "existentes": [
+        {
+          "id": "q10409",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Regigigas"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Torterra, a evolução final do inicial de planta de Sinnoh, carrega uma árvore nas costas. Ele lembra qual figura de várias mitologias, um animal que sustenta o mundo?",
+        "resposta": "A tartaruga do mundo"
+      },
+      "existentes": [
+        {
+          "id": "q10559",
+          "pergunta": "De quem são estes tipos e atributos base? Quem é esse pokémon?",
+          "resposta": "Torterra"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o nome da caverna, fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Localização do esconderijo, não o líder."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade do quartel-general, outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Local onde vive Heatran, não tipos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Local do Episódio Delta, outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Motivo de ir a Sootopolis, outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Como atrair Munchlax, outro fato."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Condição para despertar Regigigas, outro fato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Inspiração mitológica, outro fato."
+    }
+  ]
+}

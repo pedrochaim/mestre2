@@ -64,8 +64,8 @@ PESO_GERACAO = {1: 16, 2: 11, 3: 12, 4: 12, 5: 12, 6: 9, 7: 10, 8: 9, 9: 9}
 DISTANCIA_MINIMA = 40   # atributos: soma das diferenças dos seis atributos entre duas alternativas
 FAMILIAS = ["atributos", "tipo", "regiao", "evolucao"]
 # Subtema de cada família no modo Pokémon (modo_pokemon.md, "Subtemas do modo").
-SUBTEMA_COLECAO = {"atributos": "Quem é esse pokémon?", "tipo": "Tipos e Evoluções", "regiao": "Regiões e Treinadores",
-                   "evolucao": "Tipos e Evoluções"}
+SUBTEMA_COLECAO = {"atributos": "Pokédex", "tipo": "Pokédex", "regiao": "Jogos da Série Principal",
+                   "evolucao": "Pokédex"}
 NOME = {"atributos"}   # famílias que perguntam o nome do pokémon
 
 

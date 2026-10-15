@@ -1,0 +1,149 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Pokémon 2000, que colecionador rico, a bordo de uma fortaleza voadora, captura Moltres e Zapdos para chegar até Lugia?",
+        "resposta": "Lawrence III"
+      },
+      "existentes": [
+        {
+          "id": "q09980",
+          "pergunta": "Apesar do título, o filme Pokémon 2000, aquele do lendário Lugia, estreou nos cinemas japoneses em que ano?",
+          "resposta": "1999"
+        },
+        {
+          "id": "q10199",
+          "pergunta": "No filme Pokémon 2000, o clima do planeta enlouquece e o mar ameaça o mundo. Que ação de um colecionador desencadeia esse caos?",
+          "resposta": "Capturar as aves lendárias"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Pokémon 3, a menina Molly sente falta da mãe, e Entei atende ao seu desejo. Quem ele sequestra para ocupar esse lugar?",
+        "resposta": "Delia Ketchum, mãe de Ash"
+      },
+      "existentes": [
+        {
+          "id": "q09963",
+          "pergunta": "No terceiro filme Pokémon, os misteriosos Unown criam um Entei ilusório para a menina Molly. Que desejo dela deu origem a essa criatura?",
+          "resposta": "Ter o pai de volta"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Pokémon Heróis, o filme de Latias e Latios ambientado numa cidade de canais, estreou nos cinemas japoneses em que ano?",
+        "resposta": "2002"
+      },
+      "existentes": [
+        {
+          "id": "q09973",
+          "pergunta": "No filme Pokémon Heróis, Latios e Latias vivem em Altomare, uma cidade de canais inspirada em qual cidade italiana?",
+          "resposta": "Veneza"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Lucario e o Mistério de Mew, Lucario desperta depois de séculos e confunde Ash com seu antigo mestre, o cavaleiro Aaron. Por quê?",
+        "resposta": "Os dois têm aura parecida"
+      },
+      "existentes": [
+        {
+          "id": "q10212",
+          "pergunta": "No filme Lucario e o Mistério de Mew, Lucario desperta depois de passar séculos selado dentro de qual objeto do seu mestre, Aaron?",
+          "resposta": "O cajado de Aaron"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual destes filmes de Pokémon, lançados em quatro anos seguidos, chegou primeiro aos cinemas japoneses?",
+        "resposta": "O filme de Lucario"
+      },
+      "existentes": [
+        {
+          "id": "q10212",
+          "pergunta": "No filme Lucario e o Mistério de Mew, Lucario desperta depois de passar séculos selado dentro de qual objeto do seu mestre, Aaron?",
+          "resposta": "O cajado de Aaron"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No filme de 2009 estrelado por Arceus, o deus pokémon quer se vingar da humanidade. O que ele emprestou aos humanos e nunca recebeu de volta?",
+        "resposta": "A Joia da Vida"
+      },
+      "existentes": [
+        {
+          "id": "q10211",
+          "pergunta": "Em Sinnoh, a Flauta Azul criaria uma escada até o lugar onde Arceus espera. Como esse lugar se chama?",
+          "resposta": "Salão da Origem (Hall of Origin)"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destes filmes da franquia Pokémon arrecadou mais dinheiro nas bilheterias do mundo inteiro?",
+        "resposta": "Detetive Pikachu"
+      },
+      "existentes": [
+        {
+          "id": "q07410",
+          "pergunta": "Que ator, astro dos filmes de Deadpool, deu voz e expressões ao Pikachu no filme Detetive Pikachu, de 2019?",
+          "resposta": "Ryan Reynolds"
+        },
+        {
+          "id": "q09974",
+          "pergunta": "No filme Detetive Pikachu, de 2019, em que cidade fictícia humanos e pokémon vivem lado a lado, sem batalhas?",
+          "resposta": "Ryme City"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o nome do colecionador; a existente pergunta a ação (capturar aves), fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Quem Entei sequestra difere do desejo de Molly de ter o pai de volta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ano de estreia vs cidade que inspirou Altomare."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Motivo da confusão com Aaron vs objeto onde Lucario foi selado."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Comparação de ordem de lançamento, fato diferente do objeto selado."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Joia da Vida vs nome do lugar onde Arceus espera."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bilheteria não é ator nem cidade."
+    }
+  ]
+}

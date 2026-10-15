@@ -1,0 +1,484 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herbert nasceu em João Pessoa; resposta única e fato interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dado Villa-Lobos foi guitarrista até o fim da banda; pergunta correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frejat assumiu os vocais em 1985; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "KL Jay é o DJ do grupo; confirmado e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Banjo com afinação de cavaquinho confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alfaia é o grande tambor do maracatu de baque virado; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Astrud Gilberto, estreante, canta Garota de Ipanema no álbum de 1964.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fernanda Abreu fez vocais de apoio na Blitz e virou estrela solo; descrição a distingue de Marcia Bulcão.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Comissão de frente abre o desfile e apresenta a escola; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente, fato obscuro e enunciado já entrega parte da resposta (osso de burro).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Detalhe do penico não está nas fontes; mantém-se só o fato sustentado (arranjos).",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que maestro fez os arranjos do álbum-manifesto Tropicália ou Panis et Circencis, lançado em 1968?",
+        "resposta": "Rogério Duprat",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Tropicália_ou_Panis_et_Circencis",
+          "https://pt.wikipedia.org/wiki/Rogério_Duprat"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prato e faca confirmados como instrumentos do samba de roda.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A sombrinha é o objeto emblemático do passista de frevo; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz primeira mulher a reger uma orquestra popular; 'uma orquestra' é impreciso.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Autora de Ó Abre Alas, Chiquinha Gonzaga foi a primeira mulher no Brasil a reger que tipo de conjunto?",
+        "resposta": "Orquestra popular",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Chiquinha_Gonzaga"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não mostra a classificação vocal e o fato é discutível; na dúvida, descarta.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Waldir Azevedo, mestre do cavaquinho, solista em Brasileirinho; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A aversão de Roberto Carlos à cor marrom é amplamente documentada; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Asa-branca é uma espécie de pomba/pombo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trabalhou por muitos anos como empregada doméstica antes da carreira.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A águia é o símbolo da Portela; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte do festival inexistente; mantém-se só a fonte de Edu Lobo, que confirma Ponteio.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destas canções venceu o terceiro festival de música da TV Record, em 1967?",
+        "resposta": "Ponteio",
+        "distratores": [
+          "Domingo no Parque",
+          "Alegria, Alegria",
+          "Roda Viva"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Edu_Lobo"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Fonte situa o reconhecimento do Guinness em 1994, não 1995; remove-se o ano.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Que bloco carnavalesco é reconhecido pelo livro Guinness como o maior bloco de carnaval do mundo?",
+        "resposta": "Galo da Madrugada",
+        "distratores": [
+          "Cordão da Bola Preta",
+          "Filhos de Gandhy",
+          "Simpatia é Quase Amor"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Galo_da_Madrugada"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acabou Chorare foi o primeiro da lista da Rolling Stone Brasil de 2007.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte do músico caiu em desambiguação; fato (nascido em Portugal) é conhecido, troca-se a URL.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Ney Matogrosso, Gérson Conrad e João Ricardo formavam o Secos e Molhados. Qual dos três nasceu em Portugal?",
+        "resposta": "João Ricardo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/João_Ricardo_(músico)"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta traz explicação entre parênteses desnecessária; deve ser só o nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O carimbó, ritmo dançante do Pará, tem o nome derivado de qual instrumento de percussão?",
+        "resposta": "Curimbó",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carimbó"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Russo homenageia Russell e Rousseau; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tremendão confirmado como apelido na Jovem Guarda.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Xote vem de schottische; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O nome Zicartola no enunciado já contém a resposta (Zica): vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A palavra Quest no enunciado entrega a resposta Jonny Quest.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O casamento durou até 1982; 'nos anos sessenta' é impreciso, melhor datar o casamento em 1966.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Em 1966, a cantora Elza Soares casou-se com qual craque do futebol, num casamento famoso e tumultuado?",
+        "resposta": "Garrincha",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Elza_Soares"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lupicínio compôs o hino do Grêmio em 1953; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bethânia substituiu Nara Leão em Opinião; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Começar de Novo abria Malu Mulher; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rita Lee foi detida em 1976, grávida, por posse de maconha; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Meu Caro Amigo foi dirigida a Augusto Boal, exilado em Lisboa.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maria Maria foi o primeiro espetáculo do Grupo Corpo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A censura alegou 'falta de gosto', não erros de português; reformula-se sem a imprecisão.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Vetado pela censura em 1973, o samba Tiro ao Álvaro, de Adoniran Barbosa, trazia de propósito que tipo de palavras na letra?",
+        "resposta": "Palavras escritas errado",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Tiro_ao_Álvaro"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apartamento era dos pais de Nara; enunciado impreciso.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "No fim dos anos cinquenta, o apartamento dos pais de Nara Leão recebia os jovens que criavam a bossa nova. Em que bairro carioca ficava?",
+        "resposta": "Copacabana",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Nara_Leão"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criado em Três Pontas por pais adotivos; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belchior foi encontrado no Uruguai; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os Batutas tocaram seis meses em Paris em 1922.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta é um ano, então precisa ser múltipla escolha com distratores.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano foi oficializada a letra de Osório Duque Estrada para o Hino Nacional Brasileiro?",
+        "resposta": "1922",
+        "distratores": [
+          "1909",
+          "1917",
+          "1931"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Música de Francisco Manuel da Silva; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta é um ano (precisa ser múltipla) e a fonte só confirma Caetano.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Exilado em Londres desde 1969, Caetano Veloso voltou de vez ao Brasil em que ano?",
+        "resposta": "1972",
+        "distratores": [
+          "1970",
+          "1971",
+          "1973"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Caetano_Veloso"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dodô e Osmar saíram em um Ford 1929 em 1950; criação atribuída a eles.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeto de Oscar Niemeyer confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte aponta para os titãs mitológicos; o fato (oito integrantes) é conhecido, troca-se a URL.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Na formação clássica dos anos oitenta, com Arnaldo Antunes e Nando Reis, quantos integrantes tinham os Titãs?",
+        "resposta": "Oito",
+        "distratores": [
+          "Seis",
+          "Sete",
+          "Nove"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Titãs_(banda)"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma das fontes é inexistente; mantém-se a de Sérgio Ricardo, que sustenta o fato.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "No festival da TV Record de 1967, vaiado ao cantar Beto Bom de Bola, que compositor quebrou o violão e o atirou na plateia?",
+        "resposta": "Sérgio Ricardo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Sérgio_Ricardo"
+        ]
+      }
+    }
+  ]
+}

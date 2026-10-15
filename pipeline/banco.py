@@ -138,10 +138,24 @@ def erros_pergunta(pergunta, canon):
     return erros
 
 
-# Subtemas próprios de cada coleção (campo subtema_colecao; para pokemon, modo_pokemon.md) e o piso do equilíbrio:
-# o subtema com menos perguntas tem pelo menos esta fração das perguntas do subtema com mais.
-SUBTEMAS_COLECAO = {"pokemon": ["Quem é esse pokémon?", "Tipos e Evoluções", "Jogos da Série Principal",
-                                "Regiões e Treinadores", "Anime, Filmes e Franquia"]}
+# Subtemas próprios de cada coleção, com o escopo de cada um (campo subtema_colecao; para pokemon, modo_pokemon.md),
+# e o piso do equilíbrio: o subtema com menos perguntas tem pelo menos esta fração das perguntas do subtema com mais.
+# O piso só decide que lote pode ser montado; não pesa na classificação das perguntas.
+SUBTEMAS_COLECAO = {"pokemon": {
+    "Pokédex": "o pokémon como criatura, tudo o que a Pokédex registra dele: reconhecê-lo, o tipo (e a criação dos "
+               "tipos), em quem evolui e como (pedra, troca, amizade, lugar, item), megaevolução, formas regionais, "
+               "Gigantamax e outras formas, a origem do nome, a inspiração do desenho, os hábitos e as lendas dos "
+               "lendários e míticos",
+    "Jogos da Série Principal": "os jogos principais (de Red e Green a Scarlet e Violet, com remakes, Let's Go e Legends) "
+                                "e o mundo deles como aparece nesses jogos: lançamento, console, capa, iniciais, "
+                                "novidades, mecânicas, itens, enredo, regiões, cidades e lugares, líderes de ginásio, "
+                                "campeões, professores, rivais, equipes vilãs, onde encontrar um lendário, bastidores",
+    "Anime, Filmes e Franquia": "tudo fora dos jogos principais: anime, filmes, mangá, dublagem, card game, jogos "
+                                "derivados (Go, Snap, Colosseum, Mystery Dungeon, Ranger, Unite e outros), as empresas, "
+                                "os criadores e o Pokémon na cultura; inclusive treinadores, rivais, vilões, regiões e "
+                                "lugares como aparecem no anime, nos filmes, no mangá e nos jogos derivados (o que Brock "
+                                "faz no anime vem para cá, mesmo sendo ele líder de ginásio dos jogos)",
+}}
 PISO_SUBTEMA_COLECAO = {"pokemon": 0.30}
 
 

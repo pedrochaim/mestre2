@@ -1,0 +1,96 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelo trecho; enunciado preciso e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokémon Center de Nova York abriu em 2001 e virou Nintendo World em 2005; foi a primeira loja fora do Japão, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Evento de julho de 2017 em Chicago confirmado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Balão de Pikachu na parada da Macy's desde 2001, conforme o trecho; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a estreia na Record em 10 de maio de 1999.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira loja em Tóquio em 1998 confirmada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Katy Perry, Electric, Pokémon 25 e clipe com Pikachu confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Warner Bros. distribuiu o filme nos EUA em 1999, confirmado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela página do card game, mas uma fonte não existe; manter só a fonte válida e encurtar a resposta.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A carta Pikachu Illustrator, uma das mais caras do mundo, nunca foi vendida em pacotes. Por que existem tão poucos exemplares dela?",
+        "resposta": "Era prêmio de concurso de ilustração",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A carta Pikachu with Grey Felt Hat, da colaboração com o Museu Van Gogh, imita o autorretrato de Van Gogh; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que VGC significa Video Game Championships.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Regra de formato que pode mudar, e a fonte não traz o fato; fato fraco.",
+      "reescrita": null
+    }
+  ]
+}
