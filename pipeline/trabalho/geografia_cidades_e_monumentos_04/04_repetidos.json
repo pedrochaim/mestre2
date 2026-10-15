@@ -1,0 +1,221 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Os londrinos apelidaram de Gherkin o arranha-céu arredondado de vidro do número 30 da rua St Mary Axe. O que significa gherkin?",
+        "resposta": "Pepino em conserva"
+      },
+      "existentes": [
+        {
+          "id": "q09121",
+          "pergunta": "Em Londres, o arranha-céu arredondado de vidro que Norman Foster projetou na rua St Mary Axe ganhou, pela forma, o apelido de que legume?",
+          "resposta": "Pepino"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1868, a cidade de Edo passou a abrigar o imperador e foi rebatizada de Tóquio. O que esse novo nome significa?",
+        "resposta": "Capital do leste"
+      },
+      "existentes": [
+        {
+          "id": "q04857",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Tóquio"
+        },
+        {
+          "id": "q07235",
+          "pergunta": "Em 1868, com a Restauração Meiji, a cidade de Edo, futura sede do imperador, ganhou qual novo nome?",
+          "resposta": "Tóquio"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De 1924 a 1991, em homenagem a um líder revolucionário morto naquele ano, São Petersburgo teve qual nome?",
+        "resposta": "Leningrado"
+      },
+      "existentes": [
+        {
+          "id": "q03677",
+          "pergunta": "Que czar fundou São Petersburgo em 1703, às margens do Báltico, e depois a fez capital da Rússia?",
+          "resposta": "Pedro, o Grande"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Inaugurado em 1909, o Theatro Municipal do Rio de Janeiro teve a arquitetura inspirada em qual casa de ópera de Paris?",
+        "resposta": "Ópera Garnier"
+      },
+      "existentes": [
+        {
+          "id": "q03180",
+          "pergunta": "O Theatro Municipal do Rio de Janeiro, inaugurado em 1909, teve como modelo que casa de ópera de Paris?",
+          "resposta": "Ópera Garnier"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em fevereiro de 1922, que evento cultural, reunindo exposições, concertos e conferências, ocupou o Theatro Municipal de São Paulo?",
+        "resposta": "Semana de Arte Moderna"
+      },
+      "existentes": [
+        {
+          "id": "q04250",
+          "pergunta": "Projetado pelo escritório de Ramos de Azevedo, o Theatro Municipal de São Paulo foi inaugurado em que ano?",
+          "resposta": "1911"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O desenho de ondas pretas e brancas do calçadão de Copacabana foi inspirado no piso de qual praça de Lisboa?",
+        "resposta": "Rossio"
+      },
+      "existentes": [
+        {
+          "id": "q03185",
+          "pergunta": "O desenho de ondas do calçadão de Copacabana, em pedra portuguesa, é inspirado no piso de que praça de Lisboa?",
+          "resposta": "Praça do Rossio"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Mandado construir pelo rei Luís Segundo, o Castelo de Neuschwanstein inspirou o castelo do parque Disneyland, na Califórnia. Esse castelo leva o nome de qual princesa?",
+        "resposta": "Bela Adormecida"
+      },
+      "existentes": [
+        {
+          "id": "q03982",
+          "pergunta": "O castelo de Neuschwanstein, mandado erguer pelo rei Luís Segundo da Baviera, inspirou o castelo de que princesa na Disneylândia?",
+          "resposta": "Bela Adormecida"
+        },
+        {
+          "id": "q05290",
+          "pergunta": "Que rei da Baviera mandou construir este castelo no século dezenove?",
+          "resposta": "Luís II da Baviera"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Considerada um marco da engenharia, a enorme cúpula da Catedral de Florença, concluída no século quinze, foi projetada por quem?",
+        "resposta": "Filippo Brunelleschi"
+      },
+      "existentes": [
+        {
+          "id": "q03188",
+          "pergunta": "Que arquiteto renascentista ergueu a enorme cúpula da Catedral de Florença, no século quinze?",
+          "resposta": "Filippo Brunelleschi"
+        },
+        {
+          "id": "q07189",
+          "pergunta": "Em que século foi concluída a cúpula desta catedral?",
+          "resposta": "Século quinze"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Desde qual ano, com a coroação de Guilherme, o Conquistador, a Abadia de Westminster, em Londres, sedia as coroações dos monarcas ingleses e britânicos?",
+        "resposta": "1066"
+      },
+      "existentes": [
+        {
+          "id": "q06292",
+          "pergunta": "Em que ano o primeiro rei normando da Inglaterra foi coroado nesta igreja de Londres?",
+          "resposta": "1066"
+        },
+        {
+          "id": "q08574",
+          "pergunta": "Que igreja inglesa é esta?",
+          "resposta": "Abadia de Westminster"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No Mosteiro dos Jerónimos, em Lisboa, ficam os túmulos do navegador Vasco da Gama e de qual poeta?",
+        "resposta": "Luís de Camões"
+      },
+      "existentes": [
+        {
+          "id": "q03879",
+          "pergunta": "Em que século começou a ser construído este mosteiro, erguido perto do rio Tejo?",
+          "resposta": "Século dezesseis"
+        },
+        {
+          "id": "q06919",
+          "pergunta": "Que estilo arquitetônico é este?",
+          "resposta": "Manuelino"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o que o apelido Gherkin significa (pepino); mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o significado do nome, não o novo nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nome soviético da cidade vs fundador; fatos distintos."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: inspiração na Ópera Garnier."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Evento de 1922 vs ano de inauguração."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: piso do Rossio inspirou o calçadão."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: castelo da Bela Adormecida inspirado em Neuschwanstein."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Brunelleschi projetou a cúpula."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: coroação em 1066 do primeiro rei normando."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Túmulos no mosteiro é fato diferente de século e estilo."
+    }
+  ]
+}
