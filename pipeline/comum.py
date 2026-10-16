@@ -76,13 +76,15 @@ def slug(texto):
 
 
 def preencher(modelo, **valores):
-    """Substitui {{chave}} no modelo de prompt."""
-    for chave, valor in valores.items():
-        modelo = modelo.replace("{{" + chave + "}}", str(valor))
-    faltando = re.findall(r"\{\{(\w+)\}\}", modelo)
+    """Substitui {{chave}} no modelo de prompt.
+
+    A checagem e a troca olham só o modelo, numa passada: o texto inserido
+    (trechos de fontes, por exemplo "{{citation}}" vindo da Wikipédia) nunca é
+    lido como marcador nem substituído."""
+    faltando = [m for m in re.findall(r"\{\{(\w+)\}\}", modelo) if m not in valores]
     if faltando:
         raise ValueError(f"Prompt com marcadores não preenchidos: {faltando}")
-    return modelo
+    return re.sub(r"\{\{(\w+)\}\}", lambda m: str(valores[m.group(1)]), modelo)
 
 
 MARCA_FIM_CONTEUDO = "<!-- FIM DAS REGRAS DE CONTEÚDO"

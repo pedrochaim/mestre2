@@ -1,0 +1,1046 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Panteão de Roma",
+        "descricao": "Templo romano com grande cúpula de concreto, reconstruído no reinado de Adriano, no século dois, e hoje uma igreja.",
+        "variantes": [
+          "Panteão",
+          "Pantheon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Construído no século dois, que edifício romano ainda tem a maior cúpula de concreto sem armação de ferro do mundo?",
+      "resposta": "Panteão",
+      "distratores": [
+        "Mausoléu de Adriano",
+        "Termas de Caracala",
+        "Basílica de Maxêncio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Panteão de Roma",
+        "descricao": "Templo romano com grande cúpula de concreto, reconstruído no reinado de Adriano, no século dois, e hoje uma igreja.",
+        "variantes": [
+          "Panteão",
+          "Pantheon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No topo da cúpula do Panteão de Roma há uma abertura circular sem vidro, por onde entram a luz e a chuva. Como ela se chama?",
+      "resposta": "Óculo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monte Testaccio",
+        "descricao": "Colina artificial de Roma formada por restos de ânforas descartadas na Antiguidade.",
+        "variantes": [
+          "Testaccio",
+          "Monte dos Cacos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monte_Testaccio"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O Monte Testaccio é uma colina artificial de Roma com cerca de trinta e cinco metros de altura. De que ela é formada?",
+      "resposta": "Cacos de ânforas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monte_Testaccio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Segundo Triunvirato",
+        "descricao": "Aliança oficial formada em 43 antes de Cristo por Otaviano, Marco Antônio e Lépido.",
+        "variantes": [
+          "Second Triumvirate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Second_Triumvirate"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Formado em 43 antes de Cristo, o Segundo Triunvirato uniu Otaviano e Marco Antônio a que outro político romano?",
+      "resposta": "Lépido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Second_Triumvirate"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tetrarquia",
+        "descricao": "Sistema de governo criado por Diocleciano no fim do século três, em que quatro imperadores dividiam o Império Romano.",
+        "variantes": [
+          "Tetrarchy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tetrarchy"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na tetrarquia criada por Diocleciano, os dois imperadores principais tinham o título de augusto. Que título tinham os dois imperadores auxiliares?",
+      "resposta": "César",
+      "distratores": [
+        "Cônsul",
+        "Príncipe",
+        "Tribuno"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tetrarchy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Concreto romano",
+        "descricao": "Material de construção usado pelos romanos, feito de cal, pedras e cinza vulcânica, capaz de endurecer debaixo d'água.",
+        "variantes": [
+          "Opus caementicium",
+          "Roman concrete"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roman_concrete"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que ingrediente tornava o concreto romano tão especial que ele endurecia até debaixo d'água, em portos e pilares de pontes?",
+      "resposta": "Cinza vulcânica (pozolana)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_concrete",
+        "https://en.wikipedia.org/wiki/Pozzolana"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Garum",
+        "descricao": "Molho fermentado muito usado na culinária da Roma antiga.",
+        "variantes": [
+          "Liquamen"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Garum"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O garum era o tempero mais popular da cozinha romana, usado em quase tudo. De que ele era feito?",
+      "resposta": "Peixe fermentado com sal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Garum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tríade Capitolina",
+        "descricao": "Grupo de três divindades cultuadas juntas no templo de Júpiter no monte Capitolino, em Roma.",
+        "variantes": [
+          "Capitoline Triad"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Capitoline_Triad"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No principal templo do monte Capitolino, três deuses eram cultuados juntos, formando a Tríade Capitolina. Quais eram eles?",
+      "resposta": "Júpiter, Juno e Minerva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Capitoline_Triad"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Retiário",
+        "descricao": "Tipo de gladiador romano que lutava quase sem armadura, armado de tridente e rede.",
+        "variantes": [
+          "Retiarius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Retiarius"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Armado de tridente e quase sem armadura, o gladiador chamado retiário tentava prender o adversário com quê?",
+      "resposta": "Uma rede",
+      "distratores": [
+        "Um laço",
+        "Uma corrente",
+        "Um chicote"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Retiarius"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "coliseu",
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+        "variantes": [
+          "Anfiteatro Flávio",
+          "Colosseum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Colosseum"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As paredes do Coliseu são cheias de buracos. Que peças, que prendiam os blocos de pedra, foram arrancadas dali ao longo dos séculos?",
+      "resposta": "Grampos de metal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Colosseum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fulônica",
+        "descricao": "Lavanderia e oficina de tratamento de tecidos da Roma antiga, como as encontradas em Pompeia.",
+        "variantes": [
+          "Fullonica",
+          "Fulão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fullonica"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Nas lavanderias da Roma antiga, que líquido, recolhido até em vasos deixados nas ruas, era usado para limpar as roupas?",
+      "resposta": "Urina",
+      "distratores": [
+        "Vinagre",
+        "Água do mar",
+        "Azeite"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fullonica",
+        "https://en.wikipedia.org/wiki/Fulling"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aqueduto de Segóvia",
+        "descricao": "Aqueduto romano de arcos de granito que atravessa o centro da cidade de Segóvia, na Espanha.",
+        "variantes": [
+          "Acueducto de Segovia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aqueduct_of_Segovia"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O aqueduto romano de Segóvia, na Espanha, tem milhares de blocos de granito. O que é notável na forma como esses blocos se mantêm de pé?",
+      "resposta": "Não há argamassa entre eles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aqueduct_of_Segovia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cloaca Máxima",
+        "descricao": "Grande canal de drenagem e esgoto da Roma antiga, iniciado na época dos reis.",
+        "variantes": [
+          "Cloaca Maxima"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cloaca_Maxima"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A Cloaca Máxima ficou famosa como o grande esgoto de Roma. Mas, na época dos reis, para que ela foi construída?",
+      "resposta": "Drenar os pântanos da cidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cloaca_Maxima"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vomitório",
+        "descricao": "Passagem de anfiteatros e teatros romanos por onde o público entrava e saía das arquibancadas.",
+        "variantes": [
+          "Vomitorium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vomitorium"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nos anfiteatros e teatros romanos, o que era um vomitório?",
+      "resposta": "Passagem de saída",
+      "distratores": [
+        "Sala para vomitar",
+        "Jaula de feras",
+        "Camarote do imperador"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vomitorium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Coroa cívica",
+        "descricao": "Coroa de folhas de carvalho, uma das mais altas condecorações militares da Roma antiga.",
+        "variantes": [
+          "Corona civica",
+          "Civic Crown"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Civic_Crown"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Feita de folhas de carvalho, a coroa cívica era uma das maiores honras de um soldado romano. Que feito dava direito a ela?",
+      "resposta": "Salvar a vida de um cidadão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Civic_Crown"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hipocausto",
+        "descricao": "Sistema romano de calefação que fazia circular ar quente sob o piso e dentro das paredes.",
+        "variantes": [
+          "Hypocaust",
+          "Hypocaustum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hypocaust"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Muitas termas e casas ricas romanas tinham um hipocausto, com pilares de tijolos sob o chão. Para que servia esse sistema?",
+      "resposta": "Aquecer o piso e as paredes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hypocaust"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Domus Áurea",
+        "descricao": "Palácio monumental mandado construir por Nero em Roma depois do grande incêndio de 64.",
+        "variantes": [
+          "Domus Aurea",
+          "Casa Dourada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Domus_Aurea"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo o historiador Suetônio, o principal salão de banquetes da Domus Áurea, o palácio de Nero, tinha que característica surpreendente?",
+      "resposta": "Girava sem parar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Domus_Aurea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ínsula",
+        "descricao": "Prédio de apartamentos de vários andares onde vivia a maior parte da população urbana da Roma antiga.",
+        "variantes": [
+          "Insula"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Insula_(building)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A maioria do povo de Roma morava em ínsulas, prédios de apartamentos de vários andares. Que perigos eram comuns nesses prédios?",
+      "resposta": "Incêndios e desabamentos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Insula_(building)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aqueduto romano",
+        "descricao": "Canal construído pelos romanos para levar água de fontes distantes até as cidades.",
+        "variantes": [
+          "Roman aqueduct"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roman_aqueduct"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sem nenhum tipo de bomba, como a água percorria dezenas de quilômetros pelos aquedutos romanos até chegar às cidades?",
+      "resposta": "Pela gravidade, num leve declive",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_aqueduct"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Púrpura de Tiro",
+        "descricao": "Corante caríssimo extraído de moluscos marinhos, símbolo de poder na Roma antiga.",
+        "variantes": [
+          "Púrpura tíria",
+          "Tyrian purple"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tyrian_purple"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Tingido com um corante extraído de caramujos do mar, o tecido mais luxuoso de Roma, reservado aos poderosos, era de que cor?",
+      "resposta": "Púrpura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tyrian_purple"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Anfiteatro de Pompeia",
+        "descricao": "Anfiteatro romano de Pompeia, construído por volta de 70 antes de Cristo.",
+        "variantes": [
+          "Amphitheatre of Pompeii"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Construído por volta de 70 antes de Cristo, bem antes do Coliseu, qual é o anfiteatro romano mais antigo que sobreviveu até hoje?",
+      "resposta": "O anfiteatro de Pompeia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Termas de Diocleciano",
+        "descricao": "Complexo de banhos públicos construído em Roma por volta do ano 300, em parte transformado na basílica de Santa Maria dos Anjos.",
+        "variantes": [
+          "Baths of Diocletian",
+          "Thermae Diocletiani"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Baths_of_Diocletian"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual foi o maior complexo de banhos públicos da Roma antiga, cujas ruínas abrigam hoje uma igreja adaptada por Michelangelo?",
+      "resposta": "Termas de Diocleciano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Baths_of_Diocletian"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Primeira Guerra Púnica",
+        "descricao": "Guerra entre Roma e Cartago travada de 264 a 241 antes de Cristo, sobretudo pelo controle da Sicília.",
+        "variantes": [
+          "First Punic War"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/First_Punic_War"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das três Guerras Púnicas travadas entre Roma e Cartago, qual durou mais tempo?",
+      "resposta": "A Primeira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Punic_Wars",
+        "https://en.wikipedia.org/wiki/First_Punic_War"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tito",
+        "descricao": "Imperador romano de 79 a 81, filho de Vespasiano, da dinastia flávia.",
+        "variantes": [
+          "Titus",
+          "Tito Flávio Vespasiano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Titus"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "A dinastia flávia teve três imperadores: Vespasiano e seus filhos, Tito e Domiciano. Qual dos três governou por menos tempo?",
+      "resposta": "Tito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flavian_dynasty",
+        "https://en.wikipedia.org/wiki/Titus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tibério",
+        "descricao": "Segundo imperador romano, que governou de 14 a 37, sucessor de Augusto.",
+        "variantes": [
+          "Tiberius",
+          "Tibério César Augusto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiberius"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre os sucessores de Augusto na dinastia júlio-claudiana, que imperador ficou mais tempo no poder?",
+      "resposta": "Tibério",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Julio-Claudian_dynasty",
+        "https://en.wikipedia.org/wiki/Tiberius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tibério",
+        "descricao": "Segundo imperador romano, que governou de 14 a 37, sucessor de Augusto.",
+        "variantes": [
+          "Tiberius",
+          "Tibério César Augusto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiberius"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de ser adotado por Augusto, Tibério já fazia parte da família do imperador por meio da mãe, Lívia. Que parentesco os unia?",
+      "resposta": "Tibério era enteado de Augusto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tiberius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sicília romana",
+        "descricao": "Província romana criada na ilha da Sicília após a Primeira Guerra Púnica.",
+        "variantes": [
+          "Sicilia",
+          "Província da Sicília"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sicilia_(Roman_province)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Ao vencer Cartago em 241 antes de Cristo, Roma ganhou sua primeira província fora da península Itálica. Que ilha era essa?",
+      "resposta": "Sicília",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sicilia_(Roman_province)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Óstia",
+        "descricao": "Antiga cidade romana na foz do rio Tibre, hoje o sítio arqueológico de Óstia Antiga.",
+        "variantes": [
+          "Ostia Antica",
+          "Óstia Antiga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ostia_Antica"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na foz do rio Tibre, que cidade funcionou por séculos como o principal porto da Roma antiga?",
+      "resposta": "Óstia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ostia_Antica"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gládio",
+        "descricao": "Espada curta usada pelos legionários romanos.",
+        "variantes": [
+          "Gladius"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gladius"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome dos gladiadores vem de uma arma usada pelos soldados romanos. Que arma era essa?",
+      "resposta": "A espada curta, o gládio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gladiator",
+        "https://en.wikipedia.org/wiki/Gladius"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Testudo",
+        "descricao": "Formação militar romana em que os legionários se cobriam com escudos pela frente, pelos lados e por cima.",
+        "variantes": [
+          "Formação tartaruga",
+          "Testudo formation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Testudo_formation"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os legionários romanos às vezes formavam uma espécie de caixa de escudos, pela frente, pelos lados e por cima. Que animal dava nome a essa formação?",
+      "resposta": "Tartaruga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Testudo_formation"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pontífice",
+        "descricao": "Membro do principal colégio de sacerdotes da Roma antiga, cujo título passou depois ao papa.",
+        "variantes": [
+          "Pontifex",
+          "Pontífice Máximo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pontifex_maximus"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O papa tem o título de pontífice, herdado dos sumos sacerdotes da Roma antiga. O que significa ao pé da letra a palavra latina pontifex?",
+      "resposta": "Construtor de pontes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pontifex_maximus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Plebiscito",
+        "descricao": "Na Roma antiga, decisão votada pela assembleia dos plebeus; hoje, consulta popular direta.",
+        "variantes": [
+          "Plebiscitum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plebiscite",
+          "https://pt.wikipedia.org/wiki/Plebiscito"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Roma antiga, as leis votadas pela assembleia da gente comum, sem os patrícios, tinham um nome hoje usado para consultas populares. Que nome?",
+      "resposta": "Plebiscito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plebiscite",
+        "https://pt.wikipedia.org/wiki/Plebiscito"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "SPQR",
+        "descricao": "Sigla latina que representava o Estado romano, gravada em estandartes, moedas e monumentos.",
+        "variantes": [
+          "Senatus Populusque Romanus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/SPQR"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "As letras esse, pê, quê, erre aparecem em estandartes romanos e até nas tampas de bueiro da Roma atual. O que essa sigla significa?",
+      "resposta": "O Senado e o Povo Romano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/SPQR"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cincinato",
+        "descricao": "Lúcio Quíncio Cincinato, aristocrata romano do século cinco antes de Cristo que deixou o arado para ser ditador e depois voltou à lavoura.",
+        "variantes": [
+          "Cincinnatus",
+          "Lúcio Quíncio Cincinato"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cincinnatus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Cincinato largou o arado para ser ditador de Roma e, vencida a crise, voltou à lavoura. Que cidade americana deve seu nome, indiretamente, a ele?",
+      "resposta": "Cincinnati",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cincinnatus",
+        "https://en.wikipedia.org/wiki/Cincinnati"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monte Capitolino",
+        "descricao": "Uma das sete colinas de Roma, onde ficava o templo de Júpiter Ótimo Máximo.",
+        "variantes": [
+          "Capitólio",
+          "Capitoline Hill"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Capitoline_Hill"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que o prédio do Congresso americano, em Washington, tem em comum com a colina romana do templo de Júpiter?",
+      "resposta": "O nome Capitólio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Capitoline_Hill",
+        "https://en.wikipedia.org/wiki/United_States_Capitol"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "augusto",
+        "nome": "Augusto",
+        "descricao": "Otaviano, primeiro imperador romano, que governou de 27 antes de Cristo a 14 depois de Cristo.",
+        "variantes": [
+          "Otaviano",
+          "Octavian",
+          "Augustus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Augustus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Júlio César adotou em testamento o jovem Otaviano, futuro Augusto. Que parentesco de sangue já existia entre os dois?",
+      "resposta": "César era tio-avô de Otaviano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Augustus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sêneca",
+        "descricao": "Lúcio Aneu Sêneca, filósofo estoico e escritor romano do século primeiro, nascido em Córdoba.",
+        "variantes": [
+          "Sêneca, o Jovem",
+          "Seneca the Younger"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O filósofo estoico Sêneca acabou forçado a se matar por ordem do imperador Nero. Que papel ele tinha tido na juventude de Nero?",
+      "resposta": "Foi seu tutor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Virgens Vestais",
+        "descricao": "Sacerdotisas de Vesta que guardavam o fogo sagrado de Roma e faziam voto de castidade.",
+        "variantes": [
+          "Vestais",
+          "Vestal Virgins"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vestal_Virgin"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "As vestais, guardiãs do fogo sagrado de Roma, faziam voto de castidade. Que punição recebia a vestal condenada por quebrá-lo?",
+      "resposta": "Era enterrada viva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vestal_Virgin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Secessão da plebe",
+        "descricao": "Retiradas em massa dos plebeus de Roma em protesto contra os patrícios, a primeira delas em 494 antes de Cristo.",
+        "variantes": [
+          "Secessio plebis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Secessio_plebis"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, em 494 antes de Cristo, a gente comum de Roma abandonou a cidade em protesto. Que cargo de defensor do povo nasceu dessa crise?",
+      "resposta": "Tribuno da plebe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Secessio_plebis",
+        "https://en.wikipedia.org/wiki/Tribune_of_the_plebs"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rapto das Sabinas",
+        "descricao": "Episódio lendário dos primeiros anos de Roma em que os homens de Rômulo raptaram mulheres do povo sabino.",
+        "variantes": [
+          "Rapto das mulheres sabinas",
+          "The Rape of the Sabine Women"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Rape_of_the_Sabine_Women"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda, logo após a fundação de Roma, os homens de Rômulo raptaram as mulheres do povo sabino. Por que fizeram isso?",
+      "resposta": "Faltavam mulheres em Roma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Rape_of_the_Sabine_Women"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Muralha Aureliana",
+        "descricao": "Muralha que cerca Roma, construída a partir de 271 por ordem do imperador Aureliano.",
+        "variantes": [
+          "Muralhas Aurelianas",
+          "Aurelian Walls"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aurelian_Walls"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 270, depois de séculos sem precisar de grandes defesas, Roma ganhou uma nova muralha por ordem do imperador Aureliano. Que ameaça motivou a obra?",
+      "resposta": "Invasões de povos bárbaros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aurelian_Walls"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Contubérnio",
+        "descricao": "Menor unidade do exército romano, o grupo de legionários que dividia a mesma tenda.",
+        "variantes": [
+          "Contubernium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Contubernium"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Nas campanhas, os legionários romanos dormiam em grupos que dividiam a mesma tenda, o contubérnio. Quantos homens formavam cada grupo?",
+      "resposta": "Oito",
+      "distratores": [
+        "Quatro",
+        "Doze",
+        "Vinte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Contubernium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Centúria",
+        "descricao": "Unidade do exército romano comandada por um centurião.",
+        "variantes": [
+          "Centuria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Centuria"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, a centúria do exército romano da época imperial costumava reunir quantos soldados?",
+      "resposta": "Oitenta",
+      "distratores": [
+        "Cem",
+        "Sessenta",
+        "Cento e vinte"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Centuria"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ditador romano",
+        "descricao": "Magistrado extraordinário da República romana nomeado com plenos poderes em tempos de crise.",
+        "variantes": [
+          "Dictator",
+          "Ditadura romana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roman_dictator"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na República romana, um ditador recebia plenos poderes para enfrentar uma crise. Por quanto tempo, no máximo, ele podia ficar no cargo?",
+      "resposta": "Seis meses",
+      "distratores": [
+        "Três meses",
+        "Um ano",
+        "Cinco anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_dictator"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pecunia non olet",
+        "descricao": "Expressão latina, dinheiro não tem cheiro, atribuída a um imperador romano ao defender um imposto sobre a urina.",
+        "variantes": [
+          "Dinheiro não tem cheiro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pecunia_non_olet"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Ao defender um imposto sobre a urina recolhida nas latrinas públicas, que imperador romano teria dito que dinheiro não tem cheiro?",
+      "resposta": "Vespasiano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+        "https://en.wikipedia.org/wiki/Vespasian"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Teatro de Pompeu",
+        "descricao": "Primeiro teatro permanente de pedra de Roma, inaugurado em 55 antes de Cristo.",
+        "variantes": [
+          "Theatre of Pompey"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theatre_of_Pompey"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 55 antes de Cristo, Roma ganhou seu primeiro teatro permanente de pedra. Que general, rival de Júlio César, mandou construí-lo?",
+      "resposta": "Pompeu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theatre_of_Pompey"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Batalha de Carras",
+        "descricao": "Batalha de 53 antes de Cristo, na Mesopotâmia, em que o exército de Crasso foi destruído.",
+        "variantes": [
+          "Batalha de Carrhae",
+          "Battle of Carrhae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Carrhae"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 53 antes de Cristo, na batalha de Carras, Crasso sofreu uma das piores derrotas da história de Roma e acabou morto. Que povo o venceu?",
+      "resposta": "Os partos",
+      "distratores": [
+        "Os gauleses",
+        "Os germanos",
+        "Os dácios"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Carrhae"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Palácio de Diocleciano",
+        "descricao": "Palácio-fortaleza construído por volta do ano 300 para a aposentadoria do imperador Diocleciano, na costa da Dalmácia.",
+        "variantes": [
+          "Diocletian's Palace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Diocletian%27s_Palace"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O palácio que o imperador Diocleciano ergueu para passar a aposentadoria virou o centro histórico de que cidade da Croácia?",
+      "resposta": "Split",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Diocletian%27s_Palace"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano do século primeiro, muito bem conservado e usado para espetáculos de ópera.",
+        "variantes": [
+          "Verona Arena"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Verona_Arena"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Que cidade do norte da Itália guarda a Arena, um anfiteatro romano do século primeiro tão bem conservado que é usado para espetáculos de ópera?",
+      "resposta": "Verona",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Verona_Arena"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "República Romana",
+        "descricao": "Período da história de Roma governado por magistrados eleitos e pelo Senado, entre a queda da monarquia e o início do Império.",
+        "variantes": [
+          "Roman Republic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Roman_Republic"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição, em que ano a expulsão do último rei deu início à República Romana?",
+      "resposta": "509 antes de Cristo",
+      "distratores": [
+        "476 antes de Cristo",
+        "390 antes de Cristo",
+        "264 antes de Cristo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Roman_Republic"
+      ]
+    }
+  ]
+}

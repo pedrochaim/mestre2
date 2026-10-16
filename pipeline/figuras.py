@@ -11,6 +11,7 @@ Um lote de figuras de um catálogo passa por:
 Cada passo grava seu arquivo em trabalho/<lote>/ e é pulado se já existe, como nas encomendas de texto.
 """
 
+import http.client
 import io
 import json
 import math
@@ -67,7 +68,7 @@ def _get(url, json_=True):
             if e.code == 404:
                 return None
             time.sleep(5 * (tentativa + 1))
-        except (urllib.error.URLError, TimeoutError):
+        except (OSError, http.client.HTTPException):  # inclui conexão derrubada no meio da resposta
             time.sleep(5 * (tentativa + 1))
     return None
 

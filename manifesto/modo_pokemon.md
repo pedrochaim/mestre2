@@ -18,8 +18,8 @@ O modo Pokémon é o **Linear só com perguntas de pokémon**. A trilha de 60 ca
 - **Variedade:** as regras de variedade das perguntas valem com menos rigor no modo Pokémon que no jogo original.
 - **Perguntas feitas de dados** (aprovadas a partir de amostras): além do cartão, **tipo**, **região** e **evolução**, descritas abaixo. A **versão brilhante** e o **sprite antigo** (Yellow e Crystal) foram testados e recusados, porque ficavam fáceis demais.
 - **1000 perguntas novas**, em 4 lotes de cerca de 250, com todos os estilos: texto, silhueta e as perguntas feitas de dados.
-- **Subtemas próprios do modo:** cinco, descritos abaixo. Um deles trata só dos **jogos da série principal**. A sobreposição entre eles é tolerada com **um pouco mais de folga** que entre os subtemas do jogo original.
-- **Equilíbrio entre os subtemas:** o subtema com menos perguntas tem sempre **pelo menos 30%** das perguntas do subtema com mais.
+- **Subtemas próprios do modo:** três, descritos abaixo: Pokédex, Jogos da Série Principal, e Anime, Filmes e Franquia. Um deles trata só dos **jogos da série principal** e do mundo deles. A sobreposição entre eles é tolerada com **um pouco mais de folga** que entre os subtemas do jogo original. A primeira versão tinha cinco: Quem é esse pokémon?, Tipos e Evoluções, Jogos da Série Principal, Regiões e Treinadores e Anime, Filmes e Franquia. Jogos e Regiões foram unidos, porque regiões e treinadores fazem parte dos jogos. Quem é esse pokémon? e Tipos e Evoluções viraram a Pokédex, porque tipos, evoluções e formas são justamente o que a Pokédex registra de cada pokémon.
+- **Equilíbrio entre os subtemas:** o subtema com menos perguntas tem sempre **pelo menos 30%** das perguntas do subtema com mais. A regra vale **só na montagem dos lotes**: ela não pesa na definição dos subtemas nem na classificação de cada pergunta.
 
 ## Tabuleiro
 
@@ -36,35 +36,36 @@ O modo Pokémon é o **Linear só com perguntas de pokémon**. A trilha de 60 ca
 
 - Toda pergunta da coleção tem `colecao: "pokemon"`; as exclusivas também têm `exclusiva: true` (campos do MANIFESTO §10).
 - Tema e subtema: **Entretenimento › Jogos Eletrônicos**, inclusive as de anime, filmes e card game. Valem no jogo original e organizam o banco.
-- Subtema da coleção (campo `subtema_colecao`): um dos cinco subtemas do modo, descritos abaixo.
+- Subtema da coleção (campo `subtema_colecao`): um dos três subtemas do modo, descritos abaixo.
 - A âncora é o pokémon, o personagem, o jogo ou o lugar de que a pergunta trata. A saturação segue a regra geral: no máximo 3 perguntas por âncora, 2 se uma delas tiver figura, contando o banco inteiro.
 - As exclusivas não contam nas metas do jogo original (MANIFESTO §17).
 
 ## Subtemas do modo
 
-Dentro do modo, as perguntas se dividem em cinco subtemas próprios, gravados no campo `subtema_colecao`. Eles não substituem tema e subtema: toda pergunta continua em Entretenimento › Jogos Eletrônicos, e a lista canônica (MANIFESTO §3) não muda.
+Dentro do modo, as perguntas se dividem em três subtemas próprios, gravados no campo `subtema_colecao`. Eles não substituem tema e subtema: toda pergunta continua em Entretenimento › Jogos Eletrônicos, e a lista canônica (MANIFESTO §3) não muda.
 
-| Subtema | O que entra |
-|---|---|
-| **Quem é esse pokémon?** | Reconhecer o pokémon (arte, silhueta, cartão de tipos e atributos) e o que se sabe dele: origem do nome, inspiração do desenho, curiosidades da Pokédex, a lenda dos lendários e míticos |
-| **Tipos e Evoluções** | Tipos (de um pokémon, a criação de um tipo), evoluções e o jeito de evoluir (pedras, troca, amizade, itens, lugares), megaevolução, formas regionais e outras formas |
-| **Jogos da Série Principal** | Só os jogos principais, de Red e Green a Scarlet e Violet, com os remakes, as versões especiais (Yellow, Crystal, Emerald, Platinum), Let's Go e Legends: lançamento, consoles, capas, iniciais, o que cada jogo trouxe de novo, mecânicas, itens, onde encontrar um lendário, os bastidores do desenvolvimento |
-| **Regiões e Treinadores** | As regiões e suas inspirações, cidades e lugares, líderes de ginásio, Elite dos Quatro, campeões, professores, rivais e equipes vilãs |
-| **Anime, Filmes e Franquia** | O anime e os filmes, a dublagem, o mangá, o card game, os jogos derivados (Go, Snap, Stadium, Mystery Dungeon, Unite e outros), as empresas, os criadores e o Pokémon na cultura |
+| Subtema | O que entra | Fica de fora |
+|---|---|---|
+| **Pokédex** | O pokémon como criatura, tudo o que a Pokédex registra dele: reconhecê-lo pela arte, pela silhueta ou pelo cartão de tipos e atributos; o tipo e a criação dos tipos; em quem ele evolui e como (pedra, troca, amizade, lugar, item); megaevolução, formas regionais, Gigantamax e outras formas (Rotom, Deoxys, Urshifu); a origem do nome; a inspiração do desenho; os hábitos; as lendas dos lendários e míticos | Onde encontrá-lo num jogo e a região em que estreou (vão para os Jogos); o pokémon de um personagem do anime (vai para Anime, Filmes e Franquia) |
+| **Jogos da Série Principal** | Os jogos principais, de Red e Green a Scarlet e Violet, com os remakes, as versões especiais (Yellow, Crystal, Emerald, Platinum), Let's Go e Legends, e o mundo deles: lançamento, console, capa, iniciais, novidades, mecânicas, itens, enredo, onde encontrar um lendário, bastidores do desenvolvimento; as regiões e suas inspirações, cidades e lugares; líderes de ginásio, Elite dos Quatro, campeões, professores, rivais e equipes vilãs; a região em que um pokémon estreou | Jogos derivados, e o que treinadores, regiões e lugares fazem ou são no anime, nos filmes, no mangá e nos derivados (vão para Anime, Filmes e Franquia) |
+| **Anime, Filmes e Franquia** | Tudo fora dos jogos principais: o anime e os filmes, a dublagem, o mangá, o card game, os jogos derivados (Go, Snap, Stadium, Colosseum, Mystery Dungeon, Ranger, Unite e outros), as empresas, os criadores, eventos e o Pokémon na cultura e no Brasil. Inclui **treinadores, rivais, vilões, regiões e lugares** como aparecem nessas mídias: os companheiros e rivais de Ash, a Equipe Rocket do anime, as regiões dos derivados (Orre, Fiore, Pasio, Lental) | — |
 
-**Sobreposição.** No jogo original, uma pequena sobreposição é tolerada e o desempate vai para o subtema mais específico. Aqui a folga é um pouco maior: muita pergunta cabe em dois subtemas (Giovanni como líder de ginásio de Red e Blue é dos jogos e também dos treinadores), e vale o que estiver mais perto do **foco da pergunta**, sem desempate rígido. Uma pergunta sobre onde fica uma cidade vai para Regiões e Treinadores. Uma pergunta sobre o que acontece no jogo vai para Jogos da Série Principal. Uma pergunta sobre um treinador do anime vai para Anime, Filmes e Franquia.
+**Sobreposição.** No jogo original, uma pequena sobreposição é tolerada e o desempate vai para o subtema mais específico. Aqui a folga é um pouco maior, e vale o subtema mais perto do **assunto da pergunta**, sem desempate rígido:
+- Pokémon ou jogo: o que vale para a espécie (tipo, evolução, forma, hábitos) é da Pokédex; o que depende de um jogo (onde encontrá-lo, um evento, uma mecânica de batalha como Dynamax ou movimento Z) é dos Jogos.
+- Jogos ou outras mídias: decide **onde se passa o fato perguntado**, e não de onde vem o personagem. Brock como líder de ginásio em Red e Blue é dos Jogos; Brock viajando com Ash é do Anime. Um fato que vale igualmente nos jogos e no anime fica onde apareceu primeiro.
+- O assunto decide, e não o foco do lote: uma pergunta sobre a origem do nome de um lendário, feita num lote de Jogos, vai para a Pokédex.
 
-**Equilíbrio.** O subtema com menos perguntas tem de ter pelo menos **30%** das perguntas do subtema com mais. O pipeline cuida disso:
-- Recusa o lote que levaria um subtema acima do **teto**, que é o tamanho do menor dos outros dividido por 0,3. Vale para os lotes feitos de dados, os de silhueta e os de texto, contados pela quantidade pedida.
+**Equilíbrio.** O subtema com menos perguntas tem de ter pelo menos **30%** das perguntas do subtema com mais. A regra vale **só para montar lotes**, decidindo que lote pode ser feito. Ela não entra na escolha dos subtemas nem na classificação: cada pergunta vai para o subtema do seu assunto, mesmo que isso deixe a coleção abaixo do piso, e aí os próximos lotes vão para o subtema que ficou pequeno. O pipeline cuida disso:
+- Recusa o lote que levaria um subtema acima do **teto**, que é o tamanho do menor dos outros dividido por 0,3. Vale para os lotes feitos de dados, os de silhueta e os de texto; nos de texto, conta a quantidade pedida no subtema do foco.
 - Um lote que só aumenta os subtemas pequenos passa sempre, mesmo com a coleção ainda desequilibrada.
 - `python pipeline/colecao.py status pokemon` mostra o teto de cada subtema e quanto falta para o piso.
-- A regra e a lista dos subtemas ficam em `pipeline/banco.py` (`SUBTEMAS_COLECAO` e `PISO_SUBTEMA_COLECAO`).
+- A regra, a lista dos subtemas e o escopo de cada um ficam em `pipeline/banco.py` (`SUBTEMAS_COLECAO` e `PISO_SUBTEMA_COLECAO`).
 
 **Quem preenche.**
-- As perguntas feitas de dados recebem o subtema pela família: o cartão vai para Quem é esse pokémon?, tipo e evolução para Tipos e Evoluções, região para Regiões e Treinadores.
-- Nas silhuetas, o catálogo `pokemon_modo` dá um subtema por família: "o que é" vai para Quem é esse pokémon?, "com o que se liga" para Tipos e Evoluções.
-- Um lote de texto trata de um subtema só, que a encomenda grava (`subtema_colecao`).
-- As 1515 perguntas anteriores a 2026-10-13 foram classificadas uma a uma.
+- As perguntas feitas de dados recebem o subtema pela família: cartão, tipo e evolução vão para a Pokédex, região para os Jogos.
+- Nas silhuetas, o catálogo `pokemon_modo` dá a Pokédex a todas as perguntas.
+- Nos lotes de texto, o **gerador classifica cada pergunta** (`subtema_colecao` na saída), com a lista e o escopo dos subtemas no prompt. A encomenda diz só o foco do lote, que vale para a pergunta que voltar sem classificação.
+- As perguntas anteriores foram classificadas uma a uma, e as dos lotes `pokemon_texto_15` a `24`, que tinham herdado o subtema do lote, foram revistas.
 
 ## Diretrizes de conteúdo
 
@@ -72,7 +73,7 @@ Dentro do modo, as perguntas se dividem em cinco subtemas próprios, gravados no
 
 **Variedade.** As regras de variedade (MANIFESTO §9 e a cota de emblemáticos das figuras) valem aqui com menos rigor: o modo é para fãs, e um lote pode ter mais pokémon conhecidos ou concentrar-se num assunto.
 
-**Cobertura.** A franquia inteira, distribuída por **todas as gerações**. Cada lote de texto trata de um dos cinco subtemas do modo e procura âncoras e fatos ainda não usados. Os lotes anteriores a 2026-10-13 seguiam quatro frentes (anime e filmes, jogos, pokémon específicos, franquia e cultura), que hoje se repartem entre os subtemas.
+**Cobertura.** A franquia inteira, distribuída por **todas as gerações**. Cada lote de texto tem um dos três subtemas do modo como foco e procura âncoras e fatos ainda não usados. Os lotes anteriores a 2026-10-13 seguiam quatro frentes (anime e filmes, jogos, pokémon específicos, franquia e cultura), que hoje se repartem entre os subtemas.
 
 **Perguntas com figura.** Seguem as regras de pokémon do MANIFESTO §6, que valem também para o jogo original:
 - a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK" e a origem registrada;
@@ -123,9 +124,9 @@ python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 -
 ```
 
 - **Figura:** o catálogo `pokemon_modo` do `plano.json` (com `colecao` e `exclusiva`), com a mesma silhueta do catálogo `pokemon` do jogo original.
-- **Texto:** uma encomenda em `pipeline/encomendas.json` com `colecao: "pokemon"`, `exclusiva: true` e `subtema_colecao`, de Entretenimento › Jogos Eletrônicos. As observações repetem as diretrizes acima e descrevem o subtema do lote.
+- **Texto:** uma encomenda em `pipeline/encomendas.json` com `colecao: "pokemon"`, `exclusiva: true` e `subtema_colecao` (o foco do lote), de Entretenimento › Jogos Eletrônicos. As observações repetem as diretrizes acima e descrevem o foco. O gerador classifica cada pergunta.
 - **Feitas de dados:** `pipeline/pokemon_dados.py`, sem LLM. Escolhe os pokémon, monta as figuras, a revelação e as alternativas, e registra as perguntas (lotes `pokemon_dados_NNN`; o primeiro, só de cartões, chamou-se `pokemon_status_001`). `amostras --pasta <pasta>` faz uma figura de cada família, sem gravar no banco.
-- O pipeline grava `colecao`, `exclusiva` e `subtema_colecao` em todas as perguntas do lote. Depois, `python app/exportar_perguntas.py` leva as perguntas ao app.
+- O pipeline grava `colecao` e `exclusiva` em todas as perguntas do lote, e `subtema_colecao` em cada uma. Depois, `python app/exportar_perguntas.py` leva as perguntas ao app.
 
 **Situação em 2026-10-13:** a coleção tem 1747 perguntas.
 
@@ -138,13 +139,11 @@ Por subtema do modo:
 
 | Subtema | Perguntas | Com figura |
 |---|---|---|
-| Quem é esse pokémon? | 653 | 588 |
-| Tipos e Evoluções | 458 | 423 |
-| Regiões e Treinadores | 221 | 124 |
-| Jogos da Série Principal | 211 | 2 |
-| Anime, Filmes e Franquia | 204 | 0 |
+| Pokédex | 1119 | 1011 |
+| Jogos da Série Principal | 423 | 126 |
+| Anime, Filmes e Franquia | 205 | 0 |
 
-O menor subtema tem 31% do maior: o piso de 30% foi atingido.
+O menor subtema tem 18% do maior, abaixo do piso de 30% (336). Como o piso só vale para montar lotes, a classificação não muda por isso: os próximos lotes vão para Anime, Filmes e Franquia (faltam 131) e para os Jogos (até o teto), e os da Pokédex, inclusive os feitos de dados, ficam parados até o piso ser atingido.
 
 Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_texto_01` a `24`; feitas de dados, `pokemon_status_001` (100 cartões) e `pokemon_dados_002` a `006` (4 lotes de 185 e um de 15). As 1000 perguntas novas pedidas em 2026-10-13 vieram de `pokemon_texto_07` a `14` (202), dos lotes de silhueta 017 a 021 (43) e de `pokemon_dados_002` a `006` (755). Para atingir o piso de equilíbrio, vieram `pokemon_texto_15` a `19` (Jogos da Série Principal, 140) e `pokemon_texto_20` a `24` (Anime, Filmes e Franquia, 92).
 

@@ -101,10 +101,8 @@
     },
     "subtema_colecao": {
       "enum": [
-        "Quem é esse pokémon?",
-        "Tipos e Evoluções",
+        "Pokédex",
         "Jogos da Série Principal",
-        "Regiões e Treinadores",
         "Anime, Filmes e Franquia"
       ],
       "description": "Opcional, só com colecao. Subtema da pergunta dentro do modo da coleção, de uma lista própria dela (para pokemon, modo_pokemon.md). Não substitui tema e subtema, que continuam valendo no jogo original."

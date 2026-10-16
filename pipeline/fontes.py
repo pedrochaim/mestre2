@@ -13,6 +13,7 @@ ficam em trabalho/<encomenda>/03_fontes.json, para não baixar de novo se a etap
 """
 
 import html
+import http.client
 import json
 import re
 import subprocess
@@ -42,6 +43,11 @@ def _baixar(url, bruto=False):
     return dados if bruto else json.loads(dados)
 
 
+# Falhas de rede de uma fonte: o urllib só embrulha em URLError as do envio; as da resposta (conexão
+# derrubada pelo site, leitura incompleta) chegam cruas. Todas são OSError ou HTTPException.
+FALHAS_DE_REDE = (OSError, http.client.HTTPException, ValueError, json.JSONDecodeError)
+
+
 def _wikipedia(url):
     """(situação, texto) de um artigo da Wikipédia. situação: ok, inexistente ou desambiguacao."""
     partes = urllib.parse.urlsplit(url)
@@ -67,7 +73,7 @@ def equivalente_pt(url):
         dados = _baixar("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
             {"action": "query", "prop": "langlinks", "lllang": "pt", "redirects": 1,
              "titles": titulo, "format": "json"}))
-    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError):
+    except FALHAS_DE_REDE:
         return None
     for pagina in dados.get("query", {}).get("pages", {}).values():
         for link in pagina.get("langlinks", []):
@@ -152,7 +158,7 @@ def baixar_fonte(url):
         return _pagina(url)
     except urllib.error.HTTPError as e:
         return ("inexistente" if e.code in (404, 410) else "inacessivel"), ""
-    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError):
+    except FALHAS_DE_REDE:
         return "inacessivel", ""
 
 
