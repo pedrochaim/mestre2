@@ -44,12 +44,15 @@ service cloud.firestore {
         allow delete: if true;
       }
 
-      // Um registro por sorteio; a mesma pergunta pode sair mais de uma vez na partida.
+      // Um registro por sorteio; a mesma pergunta pode sair mais de uma vez na partida. "dado" (modo Pokémon): de 1 a
+      // 3, quantas casas anda quem acertar.
       match /sorteios/{id} {
         allow read: if true;
-        allow create: if request.resource.data.keys().hasOnly(['pergunta', 'em'])
+        allow create: if request.resource.data.keys().hasOnly(['pergunta', 'em', 'dado'])
                       && request.resource.data.pergunta is string
                       && request.resource.data.pergunta.size() <= 20
+                      && (!('dado' in request.resource.data)
+                          || (request.resource.data.dado is int && request.resource.data.dado >= 1 && request.resource.data.dado <= 3))
                       && request.resource.data.em == request.time;
         // "tentativas": a pergunta aberta passa adiante a cada erro; respondente e acertou são os da última.
         allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['respondente', 'acertou', 'tentativas'])

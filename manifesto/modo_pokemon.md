@@ -65,6 +65,7 @@ No tabuleiro do modo, cada casa comum tem uma **casa temática**, que dita o teo
 - **Legenda:** no canto inferior esquerdo, embaixo da trilha, uma caixa com o ícone e o nome de cada casa (na primeira linha, as de figura e a especial; na segunda, as de texto). Por isso o tabuleiro do modo é mais alto que o do Linear (1600 × 1000, `ALTURA_POKEMON`), e o modo mesa usa essa proporção. A regra do modo, no app, traz a mesma legenda. Nas posições dos temas do Linear, alternam uma casa de figura e uma de texto; as de figura revezam entre ? e ATR, e as de texto entre JOGO, TV e DEX. São 50 casas comuns, 25 de figura (13 "?", 12 ATR) e 25 de texto (9 JOGO, 8 TV, 8 DEX). Até 2026-10-16 as casas eram numeradas, em dois tons de areia, sem tema; no mesmo dia, uma primeira versão teve 8 casas temáticas em ciclo, com Tipos, Evolução e De onde vem o nome?.
 - **Casas especiais:** as mesmas 8 do Linear, escuras, com uma **pokébola** no lugar da ★. A pergunta é de qualquer casa, e as ações delas ainda não foram definidas, como no Linear.
 - **Início e chegada:** os do Linear (casa branca "INÍCIO" e xadrez).
+- **Movimento: o dado de 1 a 3** (2026-10-16). Com cada pergunta, o sorteio rola um dado de 1 a 3, que diz quantas casas anda quem acertar; errar não move o peão. Se a pergunta aberta passa adiante, o dado continua o mesmo, e quem acertar anda esse número de casas. No Linear, cada acerto continua valendo uma casa.
 - **Peões:** como no Linear, cada jogador tem um tema só para a cor do peão.
 
 ## A coleção `pokemon`
@@ -205,6 +206,7 @@ A família "o que é" pergunta o nome ("Quem é esse pokémon?"). A família "co
 - Em **Outros modos**, **Nova partida · Pokémon** grava `modo: "pokemon"` na partida e mostra quantas perguntas de pokémon há.
 - O app trata a partida como Linear (tabuleiro, Sorteio, modo mesa e arrasto dos peões), mas a lista do sorteio é só a da coleção `pokemon`. O tabuleiro é desenhado por `svgPokemon`, em `linear.js`.
 - No lugar dos temas, o app usa as **casas temáticas** (`CORES_POKEMON` e `casaPokemon` em `linear.js`; a casa de cada pergunta vem do campo `casa`). No Sorteio há um botão por casa e o botão **Pokémon (N)**, de qualquer casa, em amarelo (`#ffcb05`) e azul (`#2a3a8c`) no lugar do arco-íris de "Qualquer tema". Tocar num jogador seleciona a casa dele. O cartão da pergunta mostra a casa no lugar de tema e subtema.
+- **O dado** aparece logo depois do sorteio, no cartão da pergunta do aparelho que sorteou ("Quem acertar anda N casas", com o botão **Acertou (+N)**), e no modo mesa, ao lado da casa da pergunta e na figura ampliada. Ele rola uma vez, quando aparece. O valor fica no registro do sorteio (`dado`) e na pergunta em jogo da partida (`atual.dado`), e o acerto soma esse número à casa do peão.
 - A cor do peão continua sendo um dos temas do Master.
 - Nos outros modos, as perguntas exclusivas nem entram na lista do sorteio.
 - As regras do Firestore aceitam `modo: "pokemon"` (MANIFESTO §16).

@@ -39,6 +39,16 @@
     .resposta { font-size: 1.2rem; font-weight: 700; color: var(--certo); margin: .5rem 0; }
     .repetida { display: inline-block; margin: .3rem 0 0 .3rem; padding: .1rem .6rem; border-radius: 999px;
                 border: 1px solid #f0b429; color: #f0b429; font-size: .8rem; font-weight: 700; }
+    /* Modo Pokémon: o dado de 1 a 3, sorteado com a pergunta, diz quantas casas anda quem acertar. Rola uma vez,
+       quando aparece. */
+    .dado { display: flex; align-items: center; gap: .55rem; margin: .6rem 0 .2rem; font-weight: 700; }
+    .dado svg { width: 2.6rem; height: 2.6rem; flex: none; }
+    .dado.rolando svg { animation: rolar .9s cubic-bezier(.2, .8, .3, 1.15) var(--atraso, 0s) both; }
+    @keyframes rolar { from { transform: rotate(-660deg) scale(.3); opacity: 0; } to { transform: none; opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .dado.rolando svg { animation: none; } }
+    :is(#mesa-pergunta, #mesa-zoom) .dado { margin: 0; gap: .4em; }
+    :is(#mesa-pergunta, #mesa-zoom) .dado svg { width: 1.9em; height: 1.9em; }
+    #mesa-pergunta .dado { font-size: .8em; }
     .sobre-botao { width: 100%; margin-top: .8rem; background: none; color: var(--suave); }
     .sobre { margin: .6rem 0 0; padding: .7rem .9rem; border: 1px solid var(--linha); border-radius: 10px; font-size: .92rem; }
     .sobre dt { color: var(--suave); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; margin-top: .55rem; }
@@ -455,6 +465,8 @@
         <span id="atual-repetida" class="repetida" hidden></span>
         <!-- Quem pergunta (à esquerda) e quem responde (à direita), como na tela grande -->
         <div id="atual-papeis" class="papeis"></div>
+        <!-- Modo Pokémon: o dado sorteado com a pergunta (quantas casas anda quem acertar) -->
+        <div id="atual-dado"></div>
         <div id="atual-figura" class="figura" hidden>
           <img id="atual-img" alt="Figura da pergunta" title="Toque para mostrar em tela cheia">
         </div>
@@ -512,7 +524,8 @@
           <p id="regras-pokemon" class="suave" hidden><strong>Modo Pokémon:</strong> a trilha e as regras são as do
             Linear, e todas as perguntas são de pokémon. A casa dita o teor da pergunta, e metade das casas é de figura
             (Quem é esse pokémon?, a silhueta, em que a resposta nem sempre é o nome, e o Cartão de atributos); as
-            outras são de texto. No Início e nas casas com pokébola, a pergunta é de qualquer casa.</p>
+            outras são de texto. No Início e nas casas com pokébola, a pergunta é de qualquer casa. Com a pergunta
+            sai um dado de 1 a 3: quem acertar anda esse número de casas.</p>
           <p id="legenda-pokemon" class="suave legenda-pokemon" hidden></p>
           <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
             xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
@@ -730,6 +743,20 @@
     s.textContent = tema === null ? "🏁 chegada" : tema === "*" ? (ehPokemon() ? "Pokémon" : "Qualquer tema") : tema || "sem tema";
     pintar(s, tema);
     return s;
+  }
+
+  // Modo Pokémon: o dado de 1 a 3 sai junto com a pergunta e diz quantas casas anda quem acertar.
+  const rolarDado = () => 1 + Math.floor(Math.random() * 3);
+  const PONTOS_DADO = { 1: [[50, 50]], 2: [[72, 28], [28, 72]], 3: [[72, 28], [50, 50], [28, 72]] };
+  // "rolando": há quantos ms o dado começou a rolar (0 = agora), ou null para o dado parado. Um redesenho no meio da
+  // rolagem continua a animação de onde ela estava.
+  function blocoDado(n, rolando = null) {
+    const caixa = el("div", { className: "dado" + (rolando !== null ? " rolando" : "") });
+    if (rolando) caixa.style.setProperty("--atraso", `-${rolando}ms`);
+    caixa.innerHTML = `<svg viewBox="0 0 100 100" role="img" aria-label="Dado: ${n}"><rect x="6" y="6" width="88" height="88" rx="20"
+      fill="#fff" stroke="#2a3a8c" stroke-width="6"/>${PONTOS_DADO[n].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="10" fill="#e3350d"/>`).join("")}</svg>`;
+    caixa.append(el("span", { textContent: `Quem acertar anda ${n} ${n === 1 ? "casa" : "casas"}` }));
+    return caixa;
   }
 
   const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { banco = AUDIO_NO_JOGO ? d : d.filter(p => !p.audio); perguntasDoModo(); });
@@ -1009,10 +1036,12 @@
     const menos = Math.min(...todas.map(p => vezes.get(p.id) || 0));
     const candidatas = todas.filter(p => (vezes.get(p.id) || 0) === menos);
     const p = candidatas[Math.floor(Math.random() * candidatas.length)];
+    const dado = ehPokemon() ? rolarDado() : null;
     $("sortear").disabled = true;
     try {
-      const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"), { pergunta: p.id, em: serverTimestamp() });
-      mostrar(p, ref.id, menos);  // "menos" foi lido antes de gravar: o registro novo já entrou em "vezes"
+      const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"),
+                               { pergunta: p.id, em: serverTimestamp(), ...(dado ? { dado } : {}) });
+      mostrar(p, ref.id, menos, dado);  // "menos" foi lido antes de gravar: o registro novo já entrou em "vezes"
       // Quem responde fica sendo o da vez (escolhido à mão ou não), e quem lê é o seguinte na fila.
       const base = jogadores.find(j => j.id === respondente) || vezM();
       if (base) {
@@ -1043,10 +1072,13 @@
     $("barra-resultado").hidden = !revelado;
   }
 
-  // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído.
-  function mostrar(p, sorteio, antes) {
+  // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído; "dado", no modo
+  // Pokémon, quantas casas anda quem acertar.
+  function mostrar(p, sorteio, antes, dado = null) {
     atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null,
-              tentativas: [], publica: false, tempo: null };
+              tentativas: [], publica: false, tempo: null, dado };
+    $("atual-dado").replaceChildren(...(dado ? [blocoDado(dado, 0)] : []));
+    $("acertou").textContent = `Acertou (+${dado || 1})`;
     marcarCronometro();
     $("atual-passou").hidden = true;
     $("revelar-todos").textContent = "Mostrar resposta para todos";
@@ -1307,15 +1339,17 @@
     publicarAtual("erro");
   }
 
-  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou e passa a vez ao seguinte do da vez.
+  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou (uma casa; no modo Pokémon, o dado) e passa a
+  // vez ao seguinte do da vez.
   async function encerrar(tentativas) {
     const ultima = tentativas[tentativas.length - 1];
+    const passos = atual.dado || 1;
     const batch = writeBatch(db);
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
-    if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(1) });
+    if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(passos) });
     const base = jogadores.find(j => j.id === atual.base);
     const quem = jogadores.find(j => j.id === ultima.respondente);
-    const som = !ultima.acertou ? "erro" : quem && casaDe(quem) + 1 >= chegadaDoModo() ? "vitoria" : "acerto";
+    const som = !ultima.acertou ? "erro" : quem && casaDe(quem) + passos >= chegadaDoModo() ? "vitoria" : "acerto";
     batch.update(doc(db, "partidas", codigo), { atual: atualEncerrada(tentativas), som: evento(som),
                                                 ...(base ? { vez: (proximoM(base) || base).id } : {}) });
     try {
@@ -1332,7 +1366,7 @@
   const dadosAtual = (tentativas = atual.tentativas) => ({
     sorteio: atual.sorteio, pergunta: atual.id, opcoes: atual.opcoes, respondente: respondente || null,
     leitor: atual.leitor || null, tentaram: tentativas.map(t => t.respondente), revelada: atual.publica, tempo: atual.tempo || null,
-    audio: atual.audio || null });
+    audio: atual.audio || null, ...(atual.dado ? { dado: atual.dado } : {}) });
   // Quando sai uma pergunta nova depois de uma rodada encerrada, essa rodada vira "anterior", que a tela grande
   // pode mostrar de novo (botão Rodada anterior).
   function publicarAtual(som) {
@@ -1682,6 +1716,7 @@
     if (le === responde) linha.append(el("span", { className: "suave", textContent: "jogando sozinho" }));
     return linha;
   }
+  let dadoVisto = null;  // {sorteio, desde}: o sorteio cujo dado a tela grande já rolou, e quando começou
   function desenharMesa() {
     if (revendo && !partida.anterior) revendo = false;
     const a = revendo ? partida.anterior : partida.atual;
@@ -1721,6 +1756,13 @@
     pintar(cartao, temaDe(p));
     const topo = el("div", { className: "mp-topo" });
     topo.append(etiqueta(temaDe(p)));
+    // O dado do modo Pokémon rola uma vez, quando a tela mostra este sorteio pela primeira vez; os redesenhos do
+    // primeiro segundo continuam a mesma rolagem.
+    if (a.dado) {
+      if (!revendo && dadoVisto?.sorteio !== a.sorteio) dadoVisto = { sorteio: a.sorteio, desde: Date.now() };
+      const passou = !revendo && Date.now() - dadoVisto.desde;
+      topo.append(blocoDado(a.dado, passou !== false && passou < 900 ? passou : null));
+    }
     // Revendo a rodada anterior, o cronômetro da pergunta em jogo continua contando por trás, sem aparecer.
     if (!revendo) {
       const tm = !a.fim && a.tempo;
@@ -1765,7 +1807,7 @@
       if (opcoes) opcoes.append(...a.opcoes.map(o => el("li", { textContent: o, className: a.revelada && o === p.resposta ? "correta" : "" })));
       const resposta = a.revelada && !opcoes && el("div", { className: "mz-resposta" });
       if (resposta) resposta.append(el("span", { textContent: "Resposta" }), p.resposta);
-      zoom.querySelector(".mz-legenda").replaceChildren(papeis(a.leitor, a.respondente),
+      zoom.querySelector(".mz-legenda").replaceChildren(papeis(a.leitor, a.respondente), ...(a.dado ? [blocoDado(a.dado)] : []),
         el("div", { className: "mz-texto", textContent: p.pergunta }), ...[opcoes, resposta].filter(Boolean));
     }
     contarRelogio();
