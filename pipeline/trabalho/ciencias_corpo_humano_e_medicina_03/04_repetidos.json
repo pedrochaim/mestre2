@@ -1,0 +1,183 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Das quatro cavidades do coração, qual tem a parede mais grossa, por bombear o sangue para o corpo inteiro?",
+        "resposta": "Ventrículo esquerdo"
+      },
+      "existentes": [
+        {
+          "id": "q06329",
+          "pergunta": "O coração humano tem quatro cavidades. Duas são os átrios. Como se chamam as outras duas?",
+          "resposta": "Ventrículos"
+        },
+        {
+          "id": "q08160",
+          "pergunta": "Que órgão do corpo humano é representado neste esquema?",
+          "resposta": "Coração"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nos pulmões, o oxigênio passa para o sangue através de milhões de saquinhos microscópicos. Como eles se chamam?",
+        "resposta": "Alvéolos"
+      },
+      "existentes": [
+        {
+          "id": "q04102",
+          "pergunta": "Que órgão do corpo humano aparece nesta imagem de tomografia?",
+          "resposta": "Pulmões"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que grande feixe de fibras nervosas liga o hemisfério esquerdo ao hemisfério direito do cérebro?",
+        "resposta": "Corpo caloso"
+      },
+      "existentes": [
+        {
+          "id": "q01861",
+          "pergunta": "Que órgão é este?",
+          "resposta": "Cérebro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A pele tem três camadas. A de fora é a epiderme e a mais profunda é a hipoderme. Qual fica no meio?",
+        "resposta": "Derme"
+      },
+      "existentes": [
+        {
+          "id": "q00626",
+          "pergunta": "Cobrindo o corpo inteiro, qual é o maior órgão do corpo humano?",
+          "resposta": "Pele"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A palavra vacina vem do latim e tem origem no nome de qual animal, ligado à primeira vacina da história?",
+        "resposta": "Vaca"
+      },
+      "existentes": [
+        {
+          "id": "q00636",
+          "pergunta": "Em 1796, qual médico inglês testou a primeira vacina, usando material das feridas de uma ordenhadora de vacas?",
+          "resposta": "Edward Jenner"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1904, a população do Rio de Janeiro se revoltou contra a vacinação obrigatória de qual doença?",
+        "resposta": "Varíola"
+      },
+      "existentes": [
+        {
+          "id": "q00152",
+          "pergunta": "Em 1904, o Rio de Janeiro viveu dias de conflito contra a vacinação obrigatória. A vacina era contra qual doença?",
+          "resposta": "Varíola"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Uma deusa grega mensageira, uma flor e a parte colorida do olho compartilham o mesmo nome. Qual é ele?",
+        "resposta": "Íris"
+      },
+      "existentes": [
+        {
+          "id": "q04106",
+          "pergunta": "Que estrutura do olho aparece em destaque nesta foto de perto?",
+          "resposta": "Íris"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Ao contrário de uma crença antiga, homens e mulheres têm o mesmo número de costelas. Quantos pares são?",
+        "resposta": "12 pares"
+      },
+      "existentes": [
+        {
+          "id": "q04105",
+          "pergunta": "Que ossos do corpo humano estão destacados em cores nesta ilustração?",
+          "resposta": "Costelas"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O apêndice, que quando inflama costuma exigir cirurgia de urgência, fica preso ao começo de qual órgão?",
+        "resposta": "Intestino grosso"
+      },
+      "existentes": [
+        {
+          "id": "q11631",
+          "pergunta": "Darwin via o apêndice humano como sobra de um órgão maior que, nos nossos ancestrais, ajudava a digerir que tipo de alimento?",
+          "resposta": "Vegetação fibrosa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre ventrículo de parede mais grossa, fato diferente do nome das duas outras cavidades."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Alvéolos é fato diferente de identificar pulmões em imagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Corpo caloso é diferente de identificar o cérebro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Camada média da pele é fato diferente do maior órgão."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Etimologia da palavra vacina difere do médico que testou a primeira vacina."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q00152",
+      "motivo": "Mesmo fato: vacina obrigatória de 1904 era contra varíola."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pergunta de nome com charada versus identificar estrutura em foto; embora a resposta seja igual, o fato é pouco diferente. Na dúvida, nova."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de pares de costelas é diferente de identificar costelas em imagem."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Localização do apêndice difere da função evolutiva segundo Darwin."
+    }
+  ]
+}
