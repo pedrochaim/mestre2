@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem pista no enunciado; distratores são minerais escuros e críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, não nomeia o osso; distratores são ossos do mesmo tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; distratores são minerais azuis parecidos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição da peça (giratória, prende as objetivas) responde sem ver a figura, porque 'objetivas' já entrega que é um microscópio, e a imagem inteira não destaca nenhuma peça. Reescrita pede para reconhecer o aparelho.",
+      "reescrita": {
+        "pergunta": "Que instrumento de laboratório é este?",
+        "resposta": "Microscópio óptico",
+        "distratores": [
+          "Telescópio refrator",
+          "Periscópio",
+          "Espectroscópio"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem pista no enunciado; distratores do mesmo tipo e visualmente parecidos, nenhum correto para um cristal de topázio.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fragmentos pretos e brilhantes de carvão antracito, sobre fundo claro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que material é este?",
+      "resposta": "Carvão",
+      "distratores": [
+        "Grafite",
+        "Obsidiana",
+        "Hematita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carvão",
+        "descricao": "Rocha sedimentar combustível preta, formada pela transformação de matéria vegetal soterrada, usada como combustível fóssil.",
+        "variantes": [
+          "Carvão mineral",
+          "Antracito"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Barras cinzentas pouco características; poderiam ser chumbo, zinco ou outro metal, então não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em inglês que entregam a resposta (Gallbladder)."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mãos de várias crianças comuns em primeiro plano; pessoas comuns não são permitidas."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esqueleto com os dois úmeros destacados em vermelho, sem texto; claro e legível.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que osso está destacado em vermelho nesta figura?",
+      "resposta": "Úmero",
+      "distratores": [
+        "Rádio",
+        "Ulna",
+        "Clavícula"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Úmero",
+        "descricao": "Osso longo do braço, que vai do ombro ao cotovelo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristais lâminas azuis de cianita sobre matriz clara, característicos; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Cianita",
+      "distratores": [
+        "Azurita",
+        "Sodalita",
+        "Celestina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cianita",
+        "descricao": "Mineral silicato de alumínio, tipicamente azul, em cristais laminares, presente em rochas metamórficas.",
+        "variantes": [
+          "Cianite",
+          "Distênio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Microscópio óptico binocular com revólver de objetivas e platina bem visíveis; a marca na peça não entrega a resposta.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama a peça giratória deste aparelho que prende as lentes objetivas?",
+      "resposta": "Revólver",
+      "distratores": [
+        "Platina",
+        "Condensador",
+        "Ocular"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Microscópio óptico",
+        "descricao": "Instrumento que usa luz visível e um sistema de lentes para ampliar imagens de objetos minúsculos.",
+        "variantes": [
+          "Microscópio de luz",
+          "Microscópio composto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pepita metálica prateada sem traços característicos; não é reconhecível como níquel e poderia ser outro metal."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Metal cinza cristalino que não se distingue de antimônio, bismuto ou outros; não reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Close do rosto de pessoa comum, com olho também visível, o que torna a resposta ambígua."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois cristais prismáticos de topázio imperial, laranja e amarelo, sobre fundo preto; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Topázio",
+      "distratores": [
+        "Citrino",
+        "Quartzo fumê",
+        "Berilo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Topázio",
+        "descricao": "Mineral silicato de alumínio e flúor usado como gema, em cristais prismáticos de cor amarelo-alaranjada ou incolor.",
+        "variantes": [
+          "Topázio imperial"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Esquema genérico de uma célula com membranas internas e DNA, que pode ser confundido com cloroplasto ou outra estrutura; não é reconhecível como cianobactéria."
+    }
+  ]
+}

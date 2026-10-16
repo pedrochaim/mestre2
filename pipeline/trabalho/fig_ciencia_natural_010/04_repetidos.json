@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que material é este?",
+        "resposta": "Carvão"
+      },
+      "existentes": [
+        {
+          "id": "q04143",
+          "pergunta": "O carvão mineral, que alimenta usinas termelétricas, e o diamante das joias são formados principalmente pelo mesmo elemento. Qual?",
+          "resposta": "Carbono"
+        },
+        {
+          "id": "q05489",
+          "pergunta": "Para gerar a mesma quantidade de energia, qual destes combustíveis fósseis lança mais gás carbônico no ar?",
+          "resposta": "Carvão mineral"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede identificar o material (provavelmente por imagem) como carvão; as existentes tratam do elemento carbono e das emissões de CO2, fatos diferentes."
+    }
+  ]
+}

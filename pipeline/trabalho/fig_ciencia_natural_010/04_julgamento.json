@@ -1,0 +1,317 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Carvão",
+        "descricao": "Rocha sedimentar combustível preta, formada pela transformação de matéria vegetal soterrada, usada como combustível fóssil.",
+        "variantes": [
+          "Carvão mineral",
+          "Antracito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "antracito",
+          "nome": "Antracito",
+          "descricao": "Tipo de carvão mineral duro e brilhante, o de maior teor de carbono.",
+          "variantes": [
+            "Antracite"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "cavalo_xadrez",
+          "nome": "Cavalo (xadrez)",
+          "descricao": "Peça de xadrez com cabeça de cavalo, que se move em L e salta sobre as outras peças.",
+          "variantes": [
+            "Cavalo",
+            "Knight"
+          ]
+        },
+        {
+          "id": "cavalo",
+          "nome": "Cavalo",
+          "descricao": "Equídeo domesticado da espécie Equus caballus, usado para montaria, tração e esporte.",
+          "variantes": [
+            "Equus caballus",
+            "Equus ferus caballus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Úmero",
+        "descricao": "Osso longo do braço, que vai do ombro ao cotovelo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mero",
+          "nome": "Mero",
+          "descricao": "Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara.",
+          "variantes": [
+            "Mero-preto",
+            "Itajara",
+            "Epinephelus itajara"
+          ]
+        },
+        {
+          "id": "sumerios",
+          "nome": "Sumérios",
+          "descricao": "Povo da Baixa Mesopotâmia que desenvolveu a escrita cuneiforme.",
+          "variantes": [
+            "Suméria",
+            "Sumer"
+          ]
+        },
+        {
+          "id": "rio_douro",
+          "nome": "Rio Douro",
+          "descricao": "Rio da Península Ibérica que nasce na Espanha e deságua no Atlântico entre Porto e Vila Nova de Gaia, em Portugal.",
+          "variantes": [
+            "Douro",
+            "Duero"
+          ]
+        },
+        {
+          "id": "metro",
+          "nome": "Metro",
+          "descricao": "Unidade de comprimento do Sistema Internacional, criada na França no fim do século dezoito.",
+          "variantes": [
+            "Metro (unidade)",
+            "Metre",
+            "Meter"
+          ]
+        },
+        {
+          "id": "numero_e",
+          "nome": "Número e",
+          "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+          "variantes": [
+            "Número de Euler",
+            "Constante de Napier",
+            "e"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cianita",
+        "descricao": "Mineral silicato de alumínio, tipicamente azul, em cristais laminares, presente em rochas metamórficas.",
+        "variantes": [
+          "Cianite",
+          "Distênio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "einstenio",
+          "nome": "Einstênio",
+          "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+          "variantes": [
+            "Einsteinium",
+            "Einstênio (elemento químico)"
+          ]
+        },
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        },
+        {
+          "id": "anitta",
+          "nome": "Anitta",
+          "descricao": "Larissa de Macedo Machado, cantora carioca de funk e pop.",
+          "variantes": [
+            "Larissa de Macedo Machado"
+          ]
+        },
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        },
+        {
+          "id": "cinecitta",
+          "nome": "Cinecittà",
+          "descricao": "Grande complexo de estúdios de cinema da Itália, inaugurado em 1937, onde Federico Fellini rodou muitos de seus filmes.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Microscópio óptico",
+        "descricao": "Instrumento que usa luz visível e um sistema de lentes para ampliar imagens de objetos minúsculos.",
+        "variantes": [
+          "Microscópio de luz",
+          "Microscópio composto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        },
+        {
+          "id": "cd",
+          "nome": "CD",
+          "descricao": "Disco óptico digital para gravar áudio e dados, lançado comercialmente em 1982.",
+          "variantes": [
+            "Compact disc",
+            "Disco compacto"
+          ]
+        },
+        {
+          "id": "radiometro_de_crookes",
+          "nome": "Radiômetro de Crookes",
+          "descricao": "Bulbo de vidro com vácuo parcial e pás que giram sob a luz, inventado por William Crookes em 1873.",
+          "variantes": [
+            "Moinho de luz",
+            "Crookes radiometer"
+          ]
+        },
+        {
+          "id": "crocodilo_do_nilo",
+          "nome": "Crocodilo-do-nilo",
+          "descricao": "Grande crocodiliano africano de água doce, Crocodylus niloticus.",
+          "variantes": [
+            "Crocodylus niloticus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Topázio",
+        "descricao": "Mineral silicato de alumínio e flúor usado como gema, em cristais prismáticos de cor amarelo-alaranjada ou incolor.",
+        "variantes": [
+          "Topázio imperial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "topazio_imperial",
+          "nome": "Topázio imperial",
+          "descricao": "Variedade de topázio de cor alaranjada a rosada, típica de Minas Gerais.",
+          "variantes": [
+            "Imperial topaz"
+          ]
+        },
+        {
+          "id": "purpura_de_tiro",
+          "nome": "Púrpura de Tiro",
+          "descricao": "Corante púrpura caríssimo da Antiguidade, produzido na Fenícia e associado à realeza",
+          "variantes": [
+            "Púrpura tíria",
+            "Tyrian purple",
+            "Púrpura imperial"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "estilo_imperio",
+          "nome": "Estilo império",
+          "descricao": "Silhueta de vestido de cintura alta, logo abaixo do busto, com saia reta e fluida",
+          "variantes": [
+            "Empire silhouette",
+            "Cintura império"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_do_brasil",
+          "nome": "Bandeira do Império do Brasil",
+          "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+          "variantes": [
+            "Bandeira imperial do Brasil",
+            "Bandeira imperial"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "carvao_mineral",
+      "motivo": "Carvão mineral é a mesma rocha sedimentar combustível; 'Carvão' é variante da candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Úmero (osso) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cianita (mineral) não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Microscópio óptico é um tipo específico; candidata 'Microscópio' é o gênero mais amplo. Na dúvida, nova."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Topázio é o mineral geral; topázio imperial é uma variedade distinta."
+    }
+  ]
+}
