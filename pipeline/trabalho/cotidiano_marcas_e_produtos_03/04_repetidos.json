@@ -1,0 +1,334 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na Alemanha da Segunda Guerra, a primeira Fanta era feita com soro de leite e com sobras de qual fruta?",
+        "resposta": "Maçã"
+      },
+      "existentes": [
+        {
+          "id": "q00130",
+          "pergunta": "A Fanta foi criada na Alemanha durante a guerra porque a filial local de uma empresa americana ficou sem qual ingrediente importado?",
+          "resposta": "Xarope da Coca-Cola"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O molho inglês, vendido desde o século dezenove pela Lea e Perrins, leva na receita qual peixe pequeno?",
+        "resposta": "Anchova"
+      },
+      "existentes": [
+        {
+          "id": "q09716",
+          "pergunta": "Usado no bife e no coquetel Bloody Mary, o molho inglês leva na receita qual peixe pequeno fermentado?",
+          "resposta": "Anchova"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual destas montadoras nasceu da empresa mais antiga, um negócio familiar do começo do século dezenove?",
+        "resposta": "Peugeot"
+      },
+      "existentes": [
+        {
+          "id": "q01001",
+          "pergunta": "Além de carros, a marca francesa Peugeot está ligada a que utensílio de cozinha, fabricado desde o século dezenove?",
+          "resposta": "Moedor de pimenta"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destas marcas de cerveja é a mais antiga?",
+        "resposta": "Guinness"
+      },
+      "existentes": [
+        {
+          "id": "q03821",
+          "pergunta": "Em 1759, Arthur Guinness assinou o arrendamento da cervejaria de Saint James's Gate, em Dublin, por quantos anos?",
+          "resposta": "Nove mil anos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual destas empresas de tecnologia foi fundada primeiro?",
+        "resposta": "Microsoft"
+      },
+      "existentes": [
+        {
+          "id": "q03450",
+          "pergunta": "O primeiro produto da Microsoft, em 1975, foi uma versão da linguagem Basic para qual microcomputador?",
+          "resposta": "Altair 8800"
+        },
+        {
+          "id": "q06768",
+          "pergunta": "Antes de se mudar para a região de Seattle, a Microsoft foi fundada em 1975 em qual cidade do Novo México?",
+          "resposta": "Albuquerque"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Antes de desafiar a Ferrari com seus carros esportivos, o italiano Ferruccio Lamborghini enriqueceu fabricando que tipo de veículo?",
+        "resposta": "Tratores"
+      },
+      "existentes": [
+        {
+          "id": "q01002",
+          "pergunta": "O nome Lamborghini aparece em carros esportivos e também em qual veículo, que seu fundador já fabricava antes?",
+          "resposta": "Tratores"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Quando chegaram às lojas, em 1924, os lenços de papel Kleenex eram anunciados para qual uso?",
+        "resposta": "Remover cold cream do rosto"
+      },
+      "existentes": [
+        {
+          "id": "q07333",
+          "pergunta": "Lançado em 1924, o lenço de papel Kleenex não era vendido para assoar o nariz. Para que ele era anunciado?",
+          "resposta": "Remover creme facial (cold cream)"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O nome do chocolate Toblerone junta o sobrenome do criador, Theodor Tobler, com o nome italiano de qual doce?",
+        "resposta": "Torrone"
+      },
+      "existentes": [
+        {
+          "id": "q03814",
+          "pergunta": "Em qual cidade suíça foi criado, em 1908, o chocolate Toblerone?",
+          "resposta": "Berna"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Fundada em 1938 como uma pequena empresa de comércio, a Samsung tem um nome que, em coreano, significa o quê?",
+        "resposta": "Três estrelas"
+      },
+      "existentes": [
+        {
+          "id": "q06782",
+          "pergunta": "Em coreano, o que significa o nome Samsung?",
+          "resposta": "Três estrelas"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "George Eastman inventou a palavra Kodak do zero. Segundo ele, o nome começa e termina com qual letra, sua favorita?",
+        "resposta": "K"
+      },
+      "existentes": [
+        {
+          "id": "q08743",
+          "pergunta": "Lançada em 1888, a primeira câmera Kodak já vinha carregada de fábrica com filme para quantas fotos?",
+          "resposta": "Cem"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome do disco Frisbee vem de uma padaria de Connecticut, cujas formas de qual alimento os estudantes arremessavam por diversão?",
+        "resposta": "Torta"
+      },
+      "existentes": [
+        {
+          "id": "q00872",
+          "pergunta": "O nome Frisbee vem de uma empresa de Connecticut cujas formas de metal os estudantes arremessavam por diversão. O que essa empresa fabricava?",
+          "resposta": "Tortas"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em 1920, um funcionário da Johnson e Johnson inventou o curativo Band-Aid pensando em qual pessoa, que vivia se cortando na cozinha?",
+        "resposta": "A esposa dele"
+      },
+      "existentes": [
+        {
+          "id": "q00886",
+          "pergunta": "Em 1920, Earle Dickson, funcionário da Johnson e Johnson, montou o primeiro Band-Aid para ajudar uma pessoa que vivia se cortando na cozinha. Quem?",
+          "resposta": "A esposa dele"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Em 1900, por que os irmãos Michelin, fabricantes de pneus, lançaram um guia com hotéis, oficinas e restaurantes?",
+        "resposta": "Para incentivar as viagens de carro"
+      },
+      "existentes": [
+        {
+          "id": "q00993",
+          "pergunta": "Em 1900, uma fabricante francesa de pneus lançou um guia com hotéis, oficinas e restaurantes. Qual era o objetivo?",
+          "resposta": "Incentivar viagens de carro"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1943, a filha pequena de Edwin Land, acabando de ser fotografada, perguntou por que não podia o quê, o que inspirou a câmera Polaroid?",
+        "resposta": "Ver a foto na hora"
+      },
+      "existentes": [
+        {
+          "id": "q04514",
+          "pergunta": "Edwin Land teve a ideia da câmera instantânea Polaroid depois que alguém lhe perguntou por que não podia ver a foto na hora. Quem fez a pergunta?",
+          "resposta": "A filha dele, de três anos"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O que as marcas esportivas alemãs Puma e Adidas têm em comum na sua origem?",
+        "resposta": "Foram fundadas pelos irmãos Dassler"
+      },
+      "existentes": [
+        {
+          "id": "q00946",
+          "pergunta": "Os fundadores das marcas esportivas alemãs Adidas e Puma tinham que parentesco?",
+          "resposta": "Eram irmãos"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Em 1934, que engenheiro recebeu o contrato para projetar o carro do povo alemão, que no Brasil se chama Fusca?",
+        "resposta": "Ferdinand Porsche"
+      },
+      "existentes": [
+        {
+          "id": "q05601",
+          "pergunta": "Em 1934, que engenheiro recebeu da associação alemã da indústria automobilística o contrato para desenvolver o carro do povo, que virou o Fusca?",
+          "resposta": "Ferdinand Porsche"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "As argolas do logotipo da Audi representam as fabricantes que se uniram na antiga Auto Union. Quantas argolas são?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q03785",
+          "pergunta": "Audi é a tradução para o latim do sobrenome do fundador, August Horch. Em português, o que significa essa palavra?",
+          "resposta": "Ouça (escute)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre ingrediente fruta, fato diferente do xarope."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: anchova no molho inglês."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Empresa mais antiga vs utensílio de cozinha."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Marca mais antiga vs prazo do arrendamento."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Comparação de fundação vs fatos específicos de produto/cidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: tratores antes dos carros."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: uso anunciado do Kleenex."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs cidade de criação."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo significado do nome Samsung."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs número de fotos."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: padaria de tortas origem do Frisbee."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: esposa de Dickson."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo objetivo do guia Michelin."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesmo episódio: a filha perguntou; uma resposta leva à outra."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: fundadores irmãos Dassler."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Porsche contratado em 1934."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Número de argolas vs significado de Audi."
+    }
+  ]
+}

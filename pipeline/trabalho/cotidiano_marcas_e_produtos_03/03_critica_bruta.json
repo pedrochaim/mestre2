@@ -1,0 +1,475 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Soro de leite e sobras de maçã sustentados pelas fontes; boa curiosidade de composição.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anchova é ingrediente documentado do molho; pergunta clara e justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Enunciado menciona batatas e a resposta repete batata (vazamento), e a composição real inclui outros ingredientes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Extrato de malte de cevada é fato amplamente documentado do Ovomaltine.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e sustentado pela fonte, de resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pimenta, vinagre e sal confirmados pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Até os anos dois mil' é vago; o corante de cochonilha foi abandonado em 2006.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Até 2006, a cor vermelha do aperitivo italiano Campari vinha de um corante extraído de qual inseto?",
+        "resposta": "Cochonilha",
+        "distratores": [
+          "Joaninha",
+          "Bicho-da-seda",
+          "Abelha"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Campari"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patente de 1872 e origem no petróleo confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cruz entre os chifres do cervo é documentada; pergunta visual e memorável.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hello Kitty sem boca é confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fiat e Peugeot pertencem hoje à Stellantis, então 'pertence' é ambíguo; usar 'nasceu da empresa'.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destas montadoras nasceu da empresa mais antiga, um negócio familiar do começo do século dezenove?",
+        "resposta": "Peugeot",
+        "distratores": [
+          "Ford",
+          "Fiat",
+          "Renault"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Peugeot",
+          "https://en.wikipedia.org/wiki/Fiat_Automobiles",
+          "https://en.wikipedia.org/wiki/Renault"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Aberta que lista quatro opções no enunciado é pesada em voz alta; melhor múltipla escolha.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destas fabricantes de pneus é a mais antiga?",
+        "resposta": "Pirelli",
+        "distratores": [
+          "Goodyear",
+          "Firestone",
+          "Bridgestone"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pirelli",
+          "https://en.wikipedia.org/wiki/Firestone_Tire_and_Rubber_Company",
+          "https://en.wikipedia.org/wiki/Bridgestone"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guinness (1759) é claramente mais antiga que os distratores, todos de marcas conhecidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Milka (1901) precede Toblerone, Snickers e Kit Kat; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Aberta com quatro opções listadas é melhor como múltipla escolha.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destas empresas de tecnologia foi fundada primeiro?",
+        "resposta": "Microsoft",
+        "distratores": [
+          "Apple",
+          "Amazon",
+          "Google"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://en.wikipedia.org/wiki/Apple_Inc."
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Aberta com quatro opções listadas é melhor como múltipla escolha.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destes refrigerantes foi lançado por último?",
+        "resposta": "Sprite",
+        "distratores": [
+          "Coca-Cola",
+          "Pepsi",
+          "Fanta"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sprite_(drink)",
+          "https://en.wikipedia.org/wiki/Fanta"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Comandos em Ação' é a marca brasileira de G.I. Joe, tornando 'brinquedo americano' ambíguo; trocar o distrator.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destes brinquedos americanos foi lançado primeiro?",
+        "resposta": "Senhor Cabeça de Batata",
+        "distratores": [
+          "Barbie",
+          "Hot Wheels",
+          "Furby"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+          "https://en.wikipedia.org/wiki/Hot_Wheels"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Avon (1886) é bem mais antiga que os distratores, da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tratores confirmados pelas fontes; boa curiosidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hanafuda confirmado; curiosidade clássica e justa.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz remover cold cream, não maquiagem; ajustar a resposta.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Quando chegaram às lojas, em 1924, os lenços de papel Kleenex eram anunciados para qual uso?",
+        "resposta": "Remover cold cream do rosto",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kleenex"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baús de viagem confirmados pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lâmina descartável é a inovação documentada de Gillette.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Crocs foram concebidos originalmente como calçado para barco; fato bem documentado, e o lançamento foi num salão náutico.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toblerone = Tobler + torrone, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome Gatorade nos Florida Gators confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Redação 'como uma pequena comerciante' é confusa; corrigir o enunciado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Fundada em 1938 como uma pequena empresa de comércio, a Samsung tem um nome que, em coreano, significa o quê?",
+        "resposta": "Três estrelas",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Samsung"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Haribo = Hans Riegel Bonn confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma que K era a letra favorita de Eastman, e Kodak começa e termina com ela.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Water Displacement, 40th formula confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Listerine nomeado em homenagem a Joseph Lister, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frisbie Pie Company e as formas de torta confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Niveus, 'branco como a neve', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Earle Dickson criou o Band-Aid para a esposa Josephine, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guia criado para motoristas e promover o turismo automobilístico, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta longa demais (oito palavras); encurtar mantendo o fato bem documentado.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1943, a filha pequena de Edwin Land, acabando de ser fotografada, perguntou por que não podia o quê, o que inspirou a câmera Polaroid?",
+        "resposta": "Ver a foto na hora",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Edwin_H._Land",
+          "https://en.wikipedia.org/wiki/Instant_camera"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta praticamente repete o enunciado (quinta amostra = número cinco) e há outra explicação ligada ao dia 5 de maio.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Spencer Silver, em 1968, tentava uma cola superforte; fato clássico e documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem na Disneylândia confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação em Vila Velha, Espírito Santo, confirmada; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Destilaria fundada em Moscou por Pyotr Smirnov, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Perguntar o país da Nokia é fácil demais e sem graça, com resposta quase dada pela fama da empresa.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Puma e Adidas nasceram dos irmãos Rudolf e Adolf Dassler, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Série de 32 telas de Warhol com sopas Campbell exposta em 1962, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mesma fábrica' é impreciso; a Yamaha Motor se desmembrou da empresa de instrumentos em 1955.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que ligação existe entre as motos Yamaha e os pianos Yamaha?",
+        "resposta": "A moto nasceu da empresa de pianos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Yamaha_Motor_Company",
+          "https://en.wikipedia.org/wiki/Yamaha_Corporation"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acrônimo IKEA e fundador confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sobrenome virou marca de carros esportivos' quase entrega a resposta; remover a pista.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1934, que engenheiro recebeu o contrato para projetar o carro do povo alemão, que no Brasil se chama Fusca?",
+        "resposta": "Ferdinand Porsche",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+          "https://en.wikipedia.org/wiki/Ferdinand_Porsche"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pão de três fatias do Big Mac confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro argolas representam as quatro marcas da Auto Union, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

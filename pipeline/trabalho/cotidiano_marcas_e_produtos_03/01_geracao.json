@@ -1,0 +1,992 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Fanta",
+        "descricao": "Refrigerante de sabores de frutas criado na Alemanha em 1940, durante a Segunda Guerra Mundial, hoje da Coca-Cola.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fanta"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na Alemanha da Segunda Guerra, a primeira Fanta era feita com soro de leite e com sobras de qual fruta?",
+      "resposta": "Maçã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fanta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Molho inglês",
+        "descricao": "Molho fermentado criado em Worcester, na Inglaterra, e vendido pela Lea & Perrins desde o século dezenove.",
+        "variantes": [
+          "Worcestershire sauce",
+          "Molho Worcestershire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Worcestershire_sauce"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O molho inglês, vendido desde o século dezenove pela Lea e Perrins, leva na receita qual peixe pequeno?",
+      "resposta": "Anchova",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Worcestershire_sauce"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pringles",
+        "descricao": "Marca de batatas em formato de sela vendidas em tubos, lançada nos Estados Unidos pela Procter & Gamble em 1968.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pringles"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As batatas Pringles não são fatias cortadas de batatas. Elas são moldadas a partir de uma massa feita com o quê?",
+      "resposta": "Flocos de batata desidratada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pringles"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ovomaltine",
+        "descricao": "Bebida em pó à base de malte criada em Berna, na Suíça, em 1904, pela empresa de Albert Wander.",
+        "variantes": [
+          "Ovaltine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ovaltine"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O Ovomaltine, criado na Suíça em 1904, tem como base o extrato de malte de qual cereal?",
+      "resposta": "Cevada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ovaltine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bombril",
+        "descricao": "Marca brasileira de esponjas de lã de aço para limpeza, cujo nome virou sinônimo do produto.",
+        "variantes": [
+          "Bom Bril"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bombril"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A esponja Bombril, marca tão famosa que virou nome genérico no Brasil, é feita de lã de qual material?",
+      "resposta": "Aço",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bombril"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tabasco",
+        "descricao": "Molho de pimenta produzido pela McIlhenny Company em Avery Island, na Luisiana, desde o século dezenove.",
+        "variantes": [
+          "Molho Tabasco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tabasco_sauce"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O molho Tabasco, feito na Luisiana desde o século dezenove, leva só três ingredientes: pimenta, vinagre e qual outro?",
+      "resposta": "Sal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tabasco_sauce"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Campari",
+        "descricao": "Aperitivo alcoólico italiano de cor vermelha e sabor amargo, criado em Novara por Gaspare Campari em 1860.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Campari"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Até os anos dois mil, a cor vermelha do aperitivo italiano Campari vinha de um corante extraído de qual inseto?",
+      "resposta": "Cochonilha",
+      "distratores": [
+        "Joaninha",
+        "Bicho-da-seda",
+        "Abelha"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Campari"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vaselina",
+        "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
+        "variantes": [
+          "Vaseline"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vaseline"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A Vaselina, patenteada pelo químico americano Robert Chesebrough em 1872, é obtida a partir de qual matéria-prima?",
+      "resposta": "Petróleo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vaseline",
+        "https://en.wikipedia.org/wiki/Petroleum_jelly"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jägermeister",
+        "descricao": "Licor alemão de ervas criado em 1934 em Wolfenbüttel, cujo rótulo mostra a cabeça de um cervo.",
+        "variantes": [
+          "Jagermeister"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/J%C3%A4germeister"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No rótulo do licor alemão Jägermeister, o que brilha entre os chifres do cervo?",
+      "resposta": "Uma cruz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/J%C3%A4germeister"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hello Kitty",
+        "descricao": "Personagem de gatinha branca com laço criada em 1974 pela empresa japonesa Sanrio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hello_Kitty"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que parte do rosto a gatinha Hello Kitty, criada pela japonesa Sanrio em 1974, não tem nos desenhos?",
+      "resposta": "Boca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hello_Kitty"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Peugeot",
+        "descricao": "Montadora francesa de automóveis com o símbolo do leão, cuja empresa familiar foi fundada em 1810.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peugeot"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas montadoras pertence à empresa mais antiga, surgida como negócio familiar no começo do século dezenove?",
+      "resposta": "Peugeot",
+      "distratores": [
+        "Ford",
+        "Fiat",
+        "Renault"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peugeot",
+        "https://en.wikipedia.org/wiki/Fiat_Automobiles",
+        "https://en.wikipedia.org/wiki/Renault"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirelli",
+        "descricao": "Fabricante italiana de pneus fundada em Milão em 1872 por Giovanni Battista Pirelli.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pirelli"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre Pirelli, Goodyear, Firestone e Bridgestone, qual fabricante de pneus é a mais antiga?",
+      "resposta": "Pirelli",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pirelli",
+        "https://en.wikipedia.org/wiki/Firestone_Tire_and_Rubber_Company",
+        "https://en.wikipedia.org/wiki/Bridgestone"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "guinness",
+        "nome": "Guinness",
+        "descricao": "Cerveja escura irlandesa produzida desde o século dezoito na cervejaria de St. James's Gate, em Dublin.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guinness"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas marcas de cerveja é a mais antiga?",
+      "resposta": "Guinness",
+      "distratores": [
+        "Heineken",
+        "Budweiser",
+        "Brahma"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guinness",
+        "https://en.wikipedia.org/wiki/Heineken",
+        "https://en.wikipedia.org/wiki/Budweiser"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Milka",
+        "descricao": "Marca de chocolate ao leite de embalagem lilás, criada na Suíça em 1901 pela Suchard.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Milka"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes chocolates foi lançado primeiro?",
+      "resposta": "Milka",
+      "distratores": [
+        "Toblerone",
+        "Snickers",
+        "Kit Kat"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Milka",
+        "https://en.wikipedia.org/wiki/Toblerone",
+        "https://en.wikipedia.org/wiki/Kit_Kat"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Microsoft",
+        "descricao": "Empresa americana de software fundada por Bill Gates e Paul Allen em 1975.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microsoft"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre Apple, Microsoft, Amazon e Google, qual empresa foi fundada primeiro?",
+      "resposta": "Microsoft",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Microsoft",
+        "https://en.wikipedia.org/wiki/Apple_Inc."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sprite",
+        "descricao": "Refrigerante incolor de limão da Coca-Cola, lançado nos Estados Unidos em 1961.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sprite_(drink)"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Entre Coca-Cola, Pepsi, Fanta e Sprite, qual refrigerante foi lançado por último?",
+      "resposta": "Sprite",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sprite_(drink)",
+        "https://en.wikipedia.org/wiki/Fanta"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "levi_s",
+        "nome": "Levi's",
+        "descricao": "Fabricante americana de calças jeans fundada em São Francisco por Levi Strauss no século dezenove.",
+        "variantes": [
+          "Levi Strauss & Co."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co."
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas marcas de jeans é a mais antiga?",
+      "resposta": "Levi's",
+      "distratores": [
+        "Lee",
+        "Wrangler",
+        "Diesel"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Levi_Strauss_%26_Co.",
+        "https://en.wikipedia.org/wiki/Lee_(jeans)",
+        "https://en.wikipedia.org/wiki/Wrangler_(jeans)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Senhor Cabeça de Batata",
+        "descricao": "Brinquedo americano de batata com peças de rosto encaixáveis, lançado em 1952 pela Hasbro.",
+        "variantes": [
+          "Mr. Potato Head",
+          "Sr. Cabeça de Batata"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mr._Potato_Head"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes brinquedos americanos foi lançado primeiro?",
+      "resposta": "Senhor Cabeça de Batata",
+      "distratores": [
+        "Barbie",
+        "Comandos em Ação",
+        "Hot Wheels"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+        "https://en.wikipedia.org/wiki/G.I._Joe",
+        "https://en.wikipedia.org/wiki/Hot_Wheels"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Avon",
+        "descricao": "Empresa de cosméticos de venda direta fundada em Nova York em 1886 por David McConnell.",
+        "variantes": [
+          "Avon Products",
+          "California Perfume Company"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avon_Products"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas empresas de cosméticos foi fundada primeiro?",
+      "resposta": "Avon",
+      "distratores": [
+        "L'Oréal",
+        "Natura",
+        "O Boticário"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avon_Products",
+        "https://en.wikipedia.org/wiki/L%27Or%C3%A9al"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamborghini"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de desafiar a Ferrari com seus carros esportivos, o italiano Ferruccio Lamborghini enriqueceu fabricando que tipo de veículo?",
+      "resposta": "Tratores",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini",
+        "https://en.wikipedia.org/wiki/Lamborghini"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nintendo",
+        "descricao": "Empresa japonesa de videogames fundada em Quioto em 1889 por Fusajiro Yamauchi.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nintendo"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No fim do século dezenove, em Quioto, muito antes dos videogames, que produto a Nintendo fabricava?",
+      "resposta": "Cartas de baralho hanafuda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nintendo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kleenex",
+        "descricao": "Marca americana de lenços de papel da Kimberly-Clark, lançada em 1924.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kleenex"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quando chegaram às lojas, em 1924, os lenços de papel Kleenex eram anunciados para qual uso?",
+      "resposta": "Remover creme e maquiagem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kleenex"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Louis Vuitton",
+        "descricao": "Marca francesa de artigos de luxo fundada em Paris em 1854 pelo artesão Louis Vuitton.",
+        "variantes": [
+          "LV"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Louis_Vuitton"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 1854, em Paris, o artesão Louis Vuitton abriu sua casa especializada em qual objeto de viagem?",
+      "resposta": "Baús de viagem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Louis_Vuitton"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gillette",
+        "descricao": "Marca americana de aparelhos de barbear fundada por King Camp Gillette no começo do século vinte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gillette",
+          "https://en.wikipedia.org/wiki/King_C._Gillette"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No começo do século vinte, qual foi a grande novidade do aparelho de barbear lançado pelo americano King Gillette?",
+      "resposta": "Lâminas descartáveis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/King_C._Gillette",
+        "https://en.wikipedia.org/wiki/Gillette"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Crocs",
+        "descricao": "Marca americana de calçados de resina em formato de tamanco com furos, lançada em 2002.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crocs"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Os calçados furadinhos Crocs, lançados nos Estados Unidos em 2002, foram desenhados originalmente para qual atividade?",
+      "resposta": "Passeios de barco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crocs"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "toblerone",
+        "nome": "Toblerone",
+        "descricao": "Barra de chocolate suíça em formato de prismas triangulares, criada por Theodor Tobler em 1908.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toblerone"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do chocolate Toblerone junta o sobrenome do criador, Theodor Tobler, com o nome italiano de qual doce?",
+      "resposta": "Torrone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toblerone"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gatorade",
+        "descricao": "Bebida isotônica criada em 1965 por pesquisadores da Universidade da Flórida para atletas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gatorade"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O isotônico Gatorade, criado em 1965 por médicos de uma universidade americana, tirou o nome do apelido de qual time?",
+      "resposta": "Florida Gators",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gatorade"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Samsung",
+        "descricao": "Conglomerado sul-coreano fundado em 1938 por Lee Byung-chul em Daegu.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samsung"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em coreano, o que significa o nome Samsung, empresa fundada em 1938 como uma pequena comerciante?",
+      "resposta": "Três estrelas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samsung"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Haribo",
+        "descricao": "Fabricante alemã de balas de goma fundada em 1920 por Hans Riegel, famosa pelos ursinhos de goma.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Haribo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Haribo, das balas de goma alemãs, junta as sílabas iniciais do fundador, Hans Riegel, e de qual cidade?",
+      "resposta": "Bonn",
+      "distratores": [
+        "Bochum",
+        "Colônia",
+        "Hamburgo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haribo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kodak",
+        "descricao": "Empresa americana de fotografia fundada por George Eastman em Rochester, Nova York, no século dezenove.",
+        "variantes": [
+          "Eastman Kodak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kodak"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "George Eastman inventou a palavra Kodak do zero. Segundo ele, o nome começa e termina com qual letra, sua favorita?",
+      "resposta": "K",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kodak"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "WD-40",
+        "descricao": "Lubrificante e desengripante em spray criado em San Diego, nos Estados Unidos, em 1953.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/WD-40"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No nome do lubrificante WD-40, as letras indicam deslocamento de água em inglês. E o número quarenta, indica o quê?",
+      "resposta": "A quadragésima tentativa da fórmula",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/WD-40"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Listerine",
+        "descricao": "Enxaguante bucal antisséptico criado nos Estados Unidos em 1879 por Joseph Lawrence.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Listerine"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que cirurgião britânico do século dezenove, pioneiro do uso de antissépticos nas operações, deu nome a um famoso enxaguante bucal?",
+      "resposta": "Joseph Lister",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Listerine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Frisbee",
+        "descricao": "Disco voador de plástico para arremessar, vendido com esse nome pela empresa americana Wham-O a partir de 1957.",
+        "variantes": [
+          "Frisbi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Frisbee"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do disco Frisbee vem de uma padaria de Connecticut, cujas formas de qual alimento os estudantes arremessavam por diversão?",
+      "resposta": "Torta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Frisbee"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nivea",
+        "descricao": "Marca alemã de cremes e cosméticos da Beiersdorf, lançada em 1911 com um creme em lata azul.",
+        "variantes": [
+          "Nívea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nivea"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do creme Nivea, lançado na Alemanha em 1911, vem de uma palavra latina que significa o quê?",
+      "resposta": "Branca como a neve",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nivea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Band-Aid",
+        "descricao": "Marca de curativos adesivos da Johnson & Johnson, inventada em 1920 por Earle Dickson.",
+        "variantes": [
+          "Band Aid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Band-Aid"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1920, um funcionário da Johnson e Johnson inventou o curativo Band-Aid pensando em qual pessoa, que vivia se cortando na cozinha?",
+      "resposta": "A esposa dele",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Band-Aid"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de hotéis e restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso por suas estrelas.",
+        "variantes": [
+          "Michelin Guide"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michelin_Guide"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1900, por que os irmãos Michelin, fabricantes de pneus, lançaram um guia com hotéis, oficinas e restaurantes?",
+      "resposta": "Para incentivar as viagens de carro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michelin_Guide"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Câmera Polaroid",
+        "descricao": "Câmera fotográfica instantânea criada pelo americano Edwin Land e lançada pela Polaroid em 1948.",
+        "variantes": [
+          "Polaroid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Instant_camera"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1943, a filha pequena de Edwin Land fez uma pergunta que inspirou a câmera Polaroid. O que ela queria saber?",
+      "resposta": "Por que não podia ver a foto na hora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Edwin_H._Land",
+        "https://en.wikipedia.org/wiki/Instant_camera"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chanel número 5",
+        "descricao": "Perfume da maison francesa Chanel, lançado em 1921 e criado pelo perfumista Ernest Beaux.",
+        "variantes": [
+          "Chanel No. 5",
+          "Chanel nº 5"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chanel_No._5"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O perfumista Ernest Beaux apresentou a Coco Chanel uma série de frascos numerados. Por que o perfume escolhido se chama número cinco?",
+      "resposta": "Era a quinta amostra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chanel_No._5"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "post_it",
+        "nome": "Post-it",
+        "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+        "variantes": [
+          "Post-it Note"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Post-it_Note"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A cola fraca dos bloquinhos Post-it nasceu, em 1968, de uma tentativa fracassada de criar o quê?",
+      "resposta": "Uma cola superforte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Post-it_Note"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Doritos",
+        "descricao": "Marca americana de salgadinhos de tortilha de milho, hoje da PepsiCo, surgida nos anos 1960.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Doritos"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os salgadinhos Doritos surgiram nos anos sessenta num restaurante de comida mexicana dentro de qual parque de diversões da Califórnia?",
+      "resposta": "Disneylândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Doritos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chocolates Garoto",
+        "descricao": "Fabricante brasileira de chocolates fundada em 1929 em Vila Velha pelo imigrante alemão Heinrich Meyerfreund.",
+        "variantes": [
+          "Garoto"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Chocolates_Garoto"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A fábrica de chocolates Garoto foi fundada em 1929, por um imigrante alemão, em qual estado brasileiro?",
+      "resposta": "Espírito Santo",
+      "distratores": [
+        "Minas Gerais",
+        "Rio de Janeiro",
+        "Santa Catarina"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Chocolates_Garoto",
+        "https://en.wikipedia.org/wiki/Chocolates_Garoto"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Smirnoff",
+        "descricao": "Marca de vodca originada na destilaria fundada por Piotr Smirnov no século dezenove, hoje da Diageo.",
+        "variantes": [
+          "Smirnov"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Smirnoff"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A vodca Smirnoff nasceu de uma destilaria fundada no século dezenove por Piotr Smirnov em qual cidade?",
+      "resposta": "Moscou",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Smirnoff"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nokia",
+        "descricao": "Empresa finlandesa de telecomunicações fundada em 1865 como fábrica de papel.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nokia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A Nokia, que começou em 1865 como fábrica de papel, tirou seu nome de uma cidade de qual país?",
+      "resposta": "Finlândia",
+      "distratores": [
+        "Suécia",
+        "Noruega",
+        "Dinamarca"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nokia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Puma",
+        "descricao": "Marca alemã de artigos esportivos fundada por Rudolf Dassler em Herzogenaurach em 1948.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Puma_(brand)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que as marcas esportivas alemãs Puma e Adidas têm em comum na sua origem?",
+      "resposta": "Foram fundadas pelos irmãos Dassler",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Puma_(brand)",
+        "https://en.wikipedia.org/wiki/Adidas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sopa Campbell",
+        "descricao": "Marca americana de sopas enlatadas da Campbell Soup Company, fundada em Nova Jersey no século dezenove.",
+        "variantes": [
+          "Campbell's",
+          "Campbell Soup Company"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Campbell_Soup_Company"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que artista pop americano expôs, em 1962, uma série de trinta e duas telas com latas de sopa Campbell?",
+      "resposta": "Andy Warhol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Yamaha",
+        "descricao": "Marca japonesa fundada em 1887 por Torakusu Yamaha como fabricante de órgãos, presente em instrumentos musicais e motocicletas.",
+        "variantes": [
+          "Nippon Gakki"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yamaha_Corporation"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que ligação existe entre as motos Yamaha e os pianos Yamaha?",
+      "resposta": "Nasceram da mesma fábrica de instrumentos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yamaha_Corporation",
+        "https://en.wikipedia.org/wiki/Yamaha_Motor_Company"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ikea",
+        "descricao": "Rede sueca de lojas de móveis fundada em 1943 por Ingvar Kamprad.",
+        "variantes": [
+          "IKEA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/IKEA"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O nome da rede sueca de móveis Ikea traz as iniciais do fundador, da fazenda e da vila onde ele cresceu. Quem é esse fundador?",
+      "resposta": "Ingvar Kamprad",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/IKEA",
+        "https://en.wikipedia.org/wiki/Ingvar_Kamprad"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fusca",
+        "descricao": "Automóvel popular da Volkswagen, projetado na Alemanha nos anos 1930 e chamado de Fusca no Brasil.",
+        "variantes": [
+          "Volkswagen Beetle",
+          "Volkswagen Fusca",
+          "Fusquinha",
+          "Käfer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+          "https://pt.wikipedia.org/wiki/Volkswagen_Fusca"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro, cujo sobrenome virou marca de carros esportivos, projetou nos anos trinta o carro que no Brasil se chama Fusca?",
+      "resposta": "Ferdinand Porsche",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "https://en.wikipedia.org/wiki/Ferdinand_Porsche"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Big Mac",
+        "descricao": "Sanduíche de dois hambúrgueres do McDonald's, criado em 1967 por um franqueado de Pittsburgh.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Big_Mac"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O Big Mac, criado em 1967 por um franqueado do McDonald's em Pittsburgh, tem dois hambúrgueres e quantas partes de pão?",
+      "resposta": "Três",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Big_Mac"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "audi",
+        "nome": "Audi",
+        "descricao": "Montadora alemã de automóveis fundada por August Horch em 1909.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Audi"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "As argolas do logotipo da Audi representam as fabricantes que se uniram na antiga Auto Union. Quantas argolas são?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Audi",
+        "https://en.wikipedia.org/wiki/Auto_Union"
+      ]
+    }
+  ]
+}

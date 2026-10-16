@@ -1,0 +1,2387 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Fanta",
+        "descricao": "Refrigerante de sabores de frutas criado na Alemanha em 1940, durante a Segunda Guerra Mundial, hoje da Coca-Cola.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "fanta",
+          "nome": "Fanta",
+          "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+          "variantes": []
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        },
+        {
+          "id": "raia_manta",
+          "nome": "Raia-manta",
+          "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+          "variantes": [
+            "Jamanta",
+            "Manta",
+            "Manta ray"
+          ]
+        },
+        {
+          "id": "tiro_livre",
+          "nome": "Tiro livre",
+          "descricao": "Cobrança de bola parada no futebol concedida após uma infração do adversário.",
+          "variantes": [
+            "Falta",
+            "Free kick"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Molho inglês",
+        "descricao": "Molho fermentado criado em Worcester, na Inglaterra, e vendido pela Lea & Perrins desde o século dezenove.",
+        "variantes": [
+          "Worcestershire sauce",
+          "Molho Worcestershire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "molho_ingles",
+          "nome": "Molho inglês",
+          "descricao": "Molho escuro e agridoce fermentado, originário de Worcester, na Inglaterra, usado em carnes e coquetéis.",
+          "variantes": [
+            "Molho Worcestershire",
+            "Worcestershire sauce"
+          ]
+        },
+        {
+          "id": "mao_inglesa",
+          "nome": "Mão inglesa",
+          "descricao": "Regra de trânsito em que os veículos circulam pelo lado esquerdo da via, como no Reino Unido.",
+          "variantes": [
+            "Circulação pela esquerda",
+            "Mão esquerda"
+          ]
+        },
+        {
+          "id": "herpes_zoster",
+          "nome": "Herpes-zóster",
+          "descricao": "Doença de pele dolorosa, popularmente chamada de cobreiro, causada pela reativação do vírus da catapora.",
+          "variantes": [
+            "Cobreiro",
+            "Zona",
+            "Shingles"
+          ]
+        },
+        {
+          "id": "premier_league",
+          "nome": "Premier League",
+          "descricao": "Primeira divisão do futebol inglês, criada em 1992 no lugar da antiga First Division.",
+          "variantes": [
+            "Campeonato Inglês"
+          ]
+        },
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ovomaltine",
+        "descricao": "Bebida em pó à base de malte criada em Berna, na Suíça, em 1904, pela empresa de Albert Wander.",
+        "variantes": [
+          "Ovaltine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        },
+        {
+          "id": "vombate",
+          "nome": "Vombate",
+          "descricao": "Marsupial escavador australiano da família Vombatidae.",
+          "variantes": [
+            "Wombat",
+            "Vombatidae"
+          ]
+        },
+        {
+          "id": "mantine",
+          "nome": "Mantine",
+          "descricao": "Pokémon dos tipos Água e Voador, número 226 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "vacina",
+          "nome": "Vacina",
+          "descricao": "Preparação que estimula o sistema imunológico a proteger contra uma doença.",
+          "variantes": [
+            "Vaccine",
+            "Imunizante"
+          ]
+        },
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bombril",
+        "descricao": "Marca brasileira de esponjas de lã de aço para limpeza, cujo nome virou sinônimo do produto.",
+        "variantes": [
+          "Bom Bril"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bombirdier",
+          "nome": "Bombirdier",
+          "descricao": "Pokémon ave do tipo Voador e Sombrio da nona geração, número 962 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter",
+            "Volkswagen Transporter"
+          ]
+        },
+        {
+          "id": "biomas_do_brasil",
+          "nome": "Biomas do Brasil",
+          "descricao": "Classificação oficial do IBGE dos grandes biomas continentais brasileiros",
+          "variantes": [
+            "Biomas brasileiros"
+          ]
+        },
+        {
+          "id": "bicho_da_seda",
+          "nome": "Bicho-da-seda",
+          "descricao": "Lagarta da mariposa domesticada Bombyx mori, que tece casulos de seda.",
+          "variantes": [
+            "Bombyx mori",
+            "silkworm"
+          ]
+        },
+        {
+          "id": "lord_voldemort",
+          "nome": "Lord Voldemort",
+          "descricao": "Vilão principal da saga Harry Potter, bruxo das trevas sem nariz.",
+          "variantes": [
+            "Voldemort",
+            "Tom Riddle",
+            "Tom Marvolo Riddle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tabasco",
+        "descricao": "Molho de pimenta produzido pela McIlhenny Company em Avery Island, na Luisiana, desde o século dezenove.",
+        "variantes": [
+          "Molho Tabasco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "taco",
+          "nome": "Taco",
+          "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+          "variantes": [
+            "Tacos",
+            "Taco al pastor"
+          ]
+        },
+        {
+          "id": "baco_caravaggio",
+          "nome": "Baco (Caravaggio)",
+          "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+          "variantes": [
+            "Bacchus",
+            "Baco",
+            "Bacco"
+          ]
+        },
+        {
+          "id": "baco",
+          "nome": "Baço",
+          "descricao": "Órgão do lado esquerdo do abdome que filtra o sangue e faz parte do sistema linfático.",
+          "variantes": [
+            "Spleen"
+          ]
+        },
+        {
+          "id": "molho_bechamel",
+          "nome": "Molho bechamel",
+          "descricao": "Molho branco francês de leite engrossado com manteiga e farinha, base de lasanhas e gratinados.",
+          "variantes": [
+            "Bechamel",
+            "Béchamel",
+            "Molho branco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Campari",
+        "descricao": "Aperitivo alcoólico italiano de cor vermelha e sabor amargo, criado em Novara por Gaspare Campari em 1860.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "chevrolet_camaro",
+          "nome": "Chevrolet Camaro",
+          "descricao": "Automóvel esportivo americano do tipo pony car, fabricado pela Chevrolet desde o modelo de 1967.",
+          "variantes": [
+            "Camaro",
+            "Camaro RS"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "deserto_do_kalahari",
+          "nome": "Deserto do Kalahari",
+          "descricao": "Grande região semiárida arenosa do sul da África, em Botsuana, Namíbia e África do Sul",
+          "variantes": [
+            "Kalahari",
+            "Calaári"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Vaselina",
+        "descricao": "Marca de geleia de petróleo criada pelo químico americano Robert Chesebrough no século dezenove.",
+        "variantes": [
+          "Vaseline"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        },
+        {
+          "id": "cateto",
+          "nome": "Cateto",
+          "descricao": "Pecari de colar das Américas (Dicotyles tajacu), mamífero da família Tayassuidae.",
+          "variantes": [
+            "Caititu",
+            "Javelina",
+            "Pecari-de-colar",
+            "Dicotyles tajacu"
+          ]
+        },
+        {
+          "id": "castelia",
+          "nome": "Castelia",
+          "descricao": "Grande cidade portuária de arranha-céus da região de Unova, nos jogos Pokémon Black e White.",
+          "variantes": [
+            "Castelia City",
+            "Cidade de Castelia"
+          ]
+        },
+        {
+          "id": "vidro_de_uranio",
+          "nome": "Vidro de urânio",
+          "descricao": "Vidro colorido com pequena quantidade de urânio, comum em louças e objetos decorativos antigos.",
+          "variantes": [
+            "Vaseline glass"
+          ]
+        },
+        {
+          "id": "vacina",
+          "nome": "Vacina",
+          "descricao": "Preparação que estimula o sistema imunológico a proteger contra uma doença.",
+          "variantes": [
+            "Vaccine",
+            "Imunizante"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jägermeister",
+        "descricao": "Licor alemão de ervas criado em 1934 em Wolfenbüttel, cujo rótulo mostra a cabeça de um cervo.",
+        "variantes": [
+          "Jagermeister"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "johannes_vermeer",
+          "nome": "Johannes Vermeer",
+          "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+          "variantes": [
+            "Jan Vermeer",
+            "Vermeer de Delft"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur",
+            "Stóri Geysir"
+          ]
+        },
+        {
+          "id": "magnemite",
+          "nome": "Magnemite",
+          "descricao": "Pokémon do tipo Elétrico/Aço, número 81 da Pokédex Nacional, uma esfera com ímãs e parafusos.",
+          "variantes": []
+        },
+        {
+          "id": "ametista",
+          "nome": "Ametista",
+          "descricao": "Variedade violeta de quartzo, usada como pedra semipreciosa.",
+          "variantes": [
+            "Amethyst"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Hello Kitty",
+        "descricao": "Personagem de gatinha branca com laço criada em 1974 pela empresa japonesa Sanrio.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "hellboy",
+          "nome": "Hellboy",
+          "descricao": "Demônio de pele vermelha que combate o sobrenatural, personagem de quadrinhos americano dos anos 1990",
+          "variantes": []
+        },
+        {
+          "id": "celadon",
+          "nome": "Celadon",
+          "descricao": "Grande cidade da região de Kanto, nos jogos Pokémon Red e Blue, com loja de departamentos e o ginásio de tipo Planta de Erika.",
+          "variantes": [
+            "Celadon City",
+            "Cidade de Celadon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Peugeot",
+        "descricao": "Montadora francesa de automóveis com o símbolo do leão, cuja empresa familiar foi fundada em 1810.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "peugeot",
+          "nome": "Peugeot",
+          "descricao": "Fabricante francesa de automóveis, originada de uma empresa familiar de produtos de aço do século dezenove.",
+          "variantes": []
+        },
+        {
+          "id": "pidgeot",
+          "nome": "Pidgeot",
+          "descricao": "Pokémon ave do tipo Normal e Voador, número 18 da Pokédex Nacional, evolução final de Pidgey.",
+          "variantes": []
+        },
+        {
+          "id": "esporao_do_centeio",
+          "nome": "Esporão-do-centeio",
+          "descricao": "Fungo Claviceps purpurea, que parasita o centeio e outros cereais e causa o ergotismo",
+          "variantes": [
+            "Claviceps purpurea",
+            "cravagem",
+            "ergot"
+          ]
+        },
+        {
+          "id": "bode_expiatorio",
+          "nome": "Bode expiatório",
+          "descricao": "Expressão para quem leva a culpa pelos erros dos outros",
+          "variantes": [
+            "Scapegoat"
+          ]
+        },
+        {
+          "id": "pidgeotto",
+          "nome": "Pidgeotto",
+          "descricao": "Pokémon ave do tipo Normal/Voador da primeira geração, número 17 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Pirelli",
+        "descricao": "Fabricante italiana de pneus fundada em Milão em 1872 por Giovanni Battista Pirelli.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pipeline",
+          "nome": "Pipeline",
+          "descricao": "Onda de recife no litoral norte da ilha de Oahu, no Havaí, uma das mais famosas do surfe.",
+          "variantes": [
+            "Banzai Pipeline",
+            "Pipe"
+          ]
+        },
+        {
+          "id": "horsetail_fall",
+          "nome": "Horsetail Fall",
+          "descricao": "Cachoeira sazonal que desce pela face leste do El Capitan, no Vale de Yosemite, na Califórnia.",
+          "variantes": [
+            "Cachoeira Horsetail",
+            "Firefall"
+          ]
+        },
+        {
+          "id": "elsa_schiaparelli",
+          "nome": "Elsa Schiaparelli",
+          "descricao": "Estilista italiana radicada em Paris, conhecida pelas parcerias com artistas surrealistas",
+          "variantes": [
+            "Schiaparelli"
+          ]
+        },
+        {
+          "id": "supercell",
+          "nome": "Supercell",
+          "descricao": "Estúdio de jogos para celular com sede em Helsinque, criador de Clash of Clans.",
+          "variantes": [
+            "Supercell Oy"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Milka",
+        "descricao": "Marca de chocolate ao leite de embalagem lilás, criada na Suíça em 1901 pela Suchard.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ac_milan",
+          "nome": "AC Milan",
+          "descricao": "Associazione Calcio Milan, clube de futebol de Milão, na Itália, fundado em 1899.",
+          "variantes": [
+            "Milan",
+            "Associazione Calcio Milan"
+          ]
+        },
+        {
+          "id": "jasmine",
+          "nome": "Jasmine",
+          "descricao": "Líder do ginásio de tipo Aço de Olivine, em Johto, nos jogos Pokémon Gold e Silver.",
+          "variantes": [
+            "Mikan"
+          ]
+        },
+        {
+          "id": "leite_moca",
+          "nome": "Leite Moça",
+          "descricao": "Marca de leite condensado da Nestlé vendida no Brasil.",
+          "variantes": [
+            "Leite Condensado Moça",
+            "Milkmaid"
+          ]
+        },
+        {
+          "id": "martin_luther_king_jr",
+          "nome": "Martin Luther King Jr.",
+          "descricao": "Pastor batista e líder do movimento pelos direitos civis nos Estados Unidos, assassinado em 1968.",
+          "variantes": [
+            "Martin Luther King",
+            "MLK"
+          ]
+        },
+        {
+          "id": "pega_varetas",
+          "nome": "Pega-varetas",
+          "descricao": "Jogo de habilidade em que se retiram varetas coloridas de um monte sem mexer nas outras, chamado Mikado na Europa.",
+          "variantes": [
+            "Mikado",
+            "Pick-up sticks"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Microsoft",
+        "descricao": "Empresa americana de software fundada por Bill Gates e Paul Allen em 1975.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "microsoft",
+          "nome": "Microsoft",
+          "descricao": "Empresa americana de software fundada em 1975 por Bill Gates e Paul Allen.",
+          "variantes": []
+        },
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        },
+        {
+          "id": "minecraft",
+          "nome": "Minecraft",
+          "descricao": "Jogo de construção com blocos criado pelo sueco Markus Persson e lançado em 2009.",
+          "variantes": []
+        },
+        {
+          "id": "paciencia_do_windows",
+          "nome": "Paciência do Windows",
+          "descricao": "Versão digital do jogo de cartas Paciência incluída pela Microsoft no Windows a partir de 1990.",
+          "variantes": [
+            "Microsoft Solitaire",
+            "Solitaire"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Sprite",
+        "descricao": "Refrigerante incolor de limão da Coca-Cola, lançado nos Estados Unidos em 1961.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "spritzee",
+          "nome": "Spritzee",
+          "descricao": "Pokémon do tipo Fada da sexta geração, número 682 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pirita",
+          "nome": "Pirita",
+          "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+          "variantes": [
+            "Pyrite"
+          ]
+        },
+        {
+          "id": "gas_mostarda",
+          "nome": "Gás mostarda",
+          "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial.",
+          "variantes": [
+            "Iperita",
+            "Yperite",
+            "Mustard gas"
+          ]
+        },
+        {
+          "id": "mesprit",
+          "nome": "Mesprit",
+          "descricao": "Pokémon do tipo Psíquico, número 481 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pride_fighting_championships",
+          "nome": "Pride Fighting Championships",
+          "descricao": "Organização japonesa de MMA que promoveu grandes eventos entre 1997 e 2007.",
+          "variantes": [
+            "Pride FC",
+            "Pride"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Senhor Cabeça de Batata",
+        "descricao": "Brinquedo americano de batata com peças de rosto encaixáveis, lançado em 1952 pela Hasbro.",
+        "variantes": [
+          "Mr. Potato Head",
+          "Sr. Cabeça de Batata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        },
+        {
+          "id": "os_comedores_de_batata",
+          "nome": "Os Comedores de Batata",
+          "descricao": "Pintura a óleo de Vincent van Gogh de 1885 que mostra uma família camponesa jantando sob um lampião.",
+          "variantes": [
+            "The Potato Eaters",
+            "De Aardappeleters"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "a_dama_de_shalott_waterhouse",
+          "nome": "A Dama de Shalott (Waterhouse)",
+          "descricao": "Pintura de John William Waterhouse, de 1888, com uma mulher de cabelos ruivos num barco, baseada no poema de Tennyson.",
+          "variantes": [
+            "The Lady of Shalott",
+            "A Senhora de Shalott"
+          ]
+        },
+        {
+          "id": "princesa_isabel",
+          "nome": "Princesa Isabel",
+          "descricao": "Princesa Imperial do Brasil, filha de Pedro Segundo, que assinou a Lei Áurea em 1888.",
+          "variantes": [
+            "Isabel de Bragança",
+            "A Redentora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Avon",
+        "descricao": "Empresa de cosméticos de venda direta fundada em Nova York em 1886 por David McConnell.",
+        "variantes": [
+          "Avon Products",
+          "California Perfume Company"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aron",
+          "nome": "Aron",
+          "descricao": "Pokémon do tipo Aço/Pedra da terceira geração, número 304 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "cajon",
+          "nome": "Cajón",
+          "descricao": "Instrumento de percussão em forma de caixa de madeira, sobre o qual o músico se senta",
+          "variantes": []
+        },
+        {
+          "id": "pavao",
+          "nome": "Pavão",
+          "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+          "variantes": [
+            "Pavão-azul",
+            "Pavão-indiano",
+            "Pavo cristatus"
+          ]
+        },
+        {
+          "id": "argonio",
+          "nome": "Argônio",
+          "descricao": "Elemento químico gasoso de número atômico 18, um gás nobre que forma cerca de um por cento do ar.",
+          "variantes": [
+            "Árgon",
+            "Argon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Lamborghini",
+        "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lamborghini",
+          "nome": "Lamborghini",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+          "variantes": [
+            "Automobili Lamborghini"
+          ]
+        },
+        {
+          "id": "lumbini",
+          "nome": "Lumbini",
+          "descricao": "Local de peregrinação budista apontado pela tradição como lugar de nascimento de Buda",
+          "variantes": []
+        },
+        {
+          "id": "tamborim",
+          "nome": "Tamborim",
+          "descricao": "Pequeno tambor de aro brasileiro, de som agudo, usado no samba e no carnaval.",
+          "variantes": []
+        },
+        {
+          "id": "periodo_cambriano",
+          "nome": "Período Cambriano",
+          "descricao": "Primeiro período da Era Paleozoica, marcado pela explosão de diversidade da vida animal.",
+          "variantes": [
+            "Cambriano",
+            "Cambrian"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Nintendo",
+        "descricao": "Empresa japonesa de videogames fundada em Quioto em 1889 por Fusajiro Yamauchi.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "nintendo",
+          "nome": "Nintendo",
+          "descricao": "Empresa japonesa de videogames fundada em 1889, criadora de Mario e Zelda.",
+          "variantes": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Koppai"
+          ]
+        },
+        {
+          "id": "einstenio",
+          "nome": "Einstênio",
+          "descricao": "Elemento químico sintético de número atômico 99, batizado em homenagem a Albert Einstein.",
+          "variantes": [
+            "Einsteinium",
+            "Einstênio (elemento químico)"
+          ]
+        },
+        {
+          "id": "game_boy",
+          "nome": "Game Boy",
+          "descricao": "Videogame portátil da Nintendo lançado em 1989.",
+          "variantes": [
+            "Nintendo Game Boy"
+          ]
+        },
+        {
+          "id": "reino_unido",
+          "nome": "Reino Unido",
+          "descricao": "País da Europa Ocidental formado por Inglaterra, Escócia, País de Gales e Irlanda do Norte, com capital em Londres.",
+          "variantes": [
+            "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+            "United Kingdom"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Kleenex",
+        "descricao": "Marca americana de lenços de papel da Kimberly-Clark, lançada em 1924.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "kleenex",
+          "nome": "Kleenex",
+          "descricao": "Marca de lenço de papel lançada nos Estados Unidos pela Kimberly-Clark em 1924.",
+          "variantes": []
+        },
+        {
+          "id": "barbas_de_baleia",
+          "nome": "Barbas de baleia",
+          "descricao": "Placas filtradoras presas à mandíbula superior das baleias misticetas, usadas para reter krill e pequenos peixes.",
+          "variantes": [
+            "Barbatanas",
+            "Baleen"
+          ]
+        },
+        {
+          "id": "baco",
+          "nome": "Baço",
+          "descricao": "Órgão do lado esquerdo do abdome que filtra o sangue e faz parte do sistema linfático.",
+          "variantes": [
+            "Spleen"
+          ]
+        },
+        {
+          "id": "ken",
+          "nome": "Ken",
+          "descricao": "Boneco da Mattel lançado em 1961 como namorado da boneca Barbie.",
+          "variantes": [
+            "Ken Carson",
+            "Ken (boneco)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Louis Vuitton",
+        "descricao": "Marca francesa de artigos de luxo fundada em Paris em 1854 pelo artesão Louis Vuitton.",
+        "variantes": [
+          "LV"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "louis_vuitton",
+          "nome": "Louis Vuitton",
+          "descricao": "Fabricante francês de malas (1821–1892), fundador da grife que leva seu nome",
+          "variantes": [
+            "Louis Vuitton (estilista)"
+          ]
+        },
+        {
+          "id": "jipe_lunar",
+          "nome": "Jipe lunar",
+          "descricao": "Veículo elétrico de quatro rodas usado pelos astronautas das missões Apollo 15, 16 e 17.",
+          "variantes": [
+            "Jipe lunar (Lunar Roving Vehicle)",
+            "Lunar Roving Vehicle",
+            "LRV",
+            "Moon buggy"
+          ]
+        },
+        {
+          "id": "luis_xvi",
+          "nome": "Luís XVI",
+          "descricao": "Último rei da França antes da queda da monarquia na Revolução Francesa, casado com Maria Antonieta.",
+          "variantes": [
+            "Luís XVI de França",
+            "Louis XVI"
+          ]
+        },
+        {
+          "id": "monograma_louis_vuitton",
+          "nome": "Monograma Louis Vuitton",
+          "descricao": "Estampa de lona com as iniciais LV entrelaçadas e flores, criada pela Louis Vuitton em 1896",
+          "variantes": [
+            "Monogram Canvas",
+            "Monograma LV"
+          ]
+        },
+        {
+          "id": "luva",
+          "nome": "Luva",
+          "descricao": "Peça de vestuário que cobre a mão, com compartimentos separados para cada dedo.",
+          "variantes": [
+            "Luvas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Gillette",
+        "descricao": "Marca americana de aparelhos de barbear fundada por King Camp Gillette no começo do século vinte.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "papel_carta",
+          "nome": "Papel carta",
+          "descricao": "Formato de papel de 8,5 por 11 polegadas, padrão nos Estados Unidos e no Canadá.",
+          "variantes": [
+            "Letter",
+            "US Letter"
+          ]
+        },
+        {
+          "id": "golett",
+          "nome": "Golett",
+          "descricao": "Pokémon dos tipos Terrestre e Fantasma, número 622 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "diglett",
+          "nome": "Diglett",
+          "descricao": "Pokémon do tipo Terra, número 50 da Pokédex Nacional, que vive enterrado e mostra só a cabeça.",
+          "variantes": []
+        },
+        {
+          "id": "floette",
+          "nome": "Floette",
+          "descricao": "Pokémon do tipo Fada, número 670 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "wiglett",
+          "nome": "Wiglett",
+          "descricao": "Pokémon do tipo Água da nona geração, uma enguia-de-jardim de Paldea, parecida com Diglett, que evolui para Wugtrio.",
+          "variantes": [
+            "Umidigda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Crocs",
+        "descricao": "Marca americana de calçados de resina em formato de tamanco com furos, lançada em 2002.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "croissant",
+          "nome": "Croissant",
+          "descricao": "Pão folhado amanteigado em forma de meia-lua, símbolo da padaria francesa",
+          "variantes": [
+            "Croassã"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "ilhas_flutuantes_dos_uros",
+          "nome": "Ilhas flutuantes dos uros",
+          "descricao": "Ilhas artificiais construídas pelo povo uro no lago Titicaca, no Peru.",
+          "variantes": [
+            "Islas de los Uros",
+            "Uros"
+          ]
+        },
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Gatorade",
+        "descricao": "Bebida isotônica criada em 1965 por pesquisadores da Universidade da Flórida para atletas.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        },
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        },
+        {
+          "id": "tornado",
+          "nome": "Tornado",
+          "descricao": "Coluna de ar em rotação violenta que se estende de uma nuvem de tempestade até o solo",
+          "variantes": []
+        },
+        {
+          "id": "estilingue",
+          "nome": "Estilingue",
+          "descricao": "Arma ou brinquedo em forma de Y com elástico que lança projéteis pequenos.",
+          "variantes": [
+            "Atiradeira",
+            "Bodoque",
+            "Baladeira"
+          ]
+        },
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Samsung",
+        "descricao": "Conglomerado sul-coreano fundado em 1938 por Lee Byung-chul em Daegu.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "samsung",
+          "nome": "Samsung",
+          "descricao": "Conglomerado sul-coreano fundado em 1938, grande fabricante de eletrônicos.",
+          "variantes": []
+        },
+        {
+          "id": "sauna",
+          "nome": "Sauna",
+          "descricao": "Pequeno cômodo ou construção para banhos de vapor seco, tradição nacional da Finlândia.",
+          "variantes": [
+            "Sauna finlandesa"
+          ]
+        },
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        },
+        {
+          "id": "flannery",
+          "nome": "Flannery",
+          "descricao": "Líder do ginásio de tipo Fogo de Lavaridge, em Hoenn, nos jogos Pokémon Ruby e Sapphire.",
+          "variantes": [
+            "Asuna"
+          ]
+        },
+        {
+          "id": "mamulengo",
+          "nome": "Mamulengo",
+          "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+          "variantes": [
+            "Teatro de mamulengo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Haribo",
+        "descricao": "Fabricante alemã de balas de goma fundada em 1920 por Hans Riegel, famosa pelos ursinhos de goma.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "carimbo",
+          "nome": "Carimbó",
+          "descricao": "Ritmo e dança de roda de origem indígena e africana típicos do Pará.",
+          "variantes": []
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "wario",
+          "nome": "Wario",
+          "descricao": "Personagem da Nintendo, rival ganancioso de Mario, de roupa amarela e roxa.",
+          "variantes": []
+        },
+        {
+          "id": "haori",
+          "nome": "Haori",
+          "descricao": "Casaco tradicional japonês, curto e aberto na frente, usado sobre o quimono.",
+          "variantes": [
+            "Jaqueta japonesa"
+          ]
+        },
+        {
+          "id": "arbok",
+          "nome": "Arbok",
+          "descricao": "Pokémon do tipo Venenoso, número 24 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Kodak",
+        "descricao": "Empresa americana de fotografia fundada por George Eastman em Rochester, Nova York, no século dezenove.",
+        "variantes": [
+          "Eastman Kodak"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kodak",
+          "nome": "Kodak",
+          "descricao": "Empresa americana de fotografia fundada por George Eastman, que lançou em 1888 a primeira câmera Kodak.",
+          "variantes": [
+            "Eastman Kodak"
+          ]
+        },
+        {
+          "id": "kaka",
+          "nome": "Kaká",
+          "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002.",
+          "variantes": [
+            "Ricardo Kaká",
+            "Ricardo Izecson dos Santos Leite"
+          ]
+        },
+        {
+          "id": "lycra",
+          "nome": "Lycra",
+          "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+          "variantes": [
+            "Elastano",
+            "Spandex"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        },
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water",
+            "Água carbonatada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Listerine",
+        "descricao": "Enxaguante bucal antisséptico criado nos Estados Unidos em 1879 por Joseph Lawrence.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "clistenes",
+          "nome": "Clístenes",
+          "descricao": "Político ateniense cujas reformas, por volta de 508 a.C., deram origem à democracia ateniense.",
+          "variantes": [
+            "Cleisthenes",
+            "Clístenes de Atenas"
+          ]
+        },
+        {
+          "id": "citrino",
+          "nome": "Citrino",
+          "descricao": "Gema amarela a alaranjada, variedade do quartzo.",
+          "variantes": [
+            "Citrine"
+          ]
+        },
+        {
+          "id": "servine",
+          "nome": "Servine",
+          "descricao": "Pokémon do tipo Planta, número 496 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lost",
+          "nome": "Lost",
+          "descricao": "Série americana exibida de 2004 a 2010, sobre um grupo de pessoas presas numa ilha misteriosa do Pacífico.",
+          "variantes": [
+            "Lost (série)"
+          ]
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Frisbee",
+        "descricao": "Disco voador de plástico para arremessar, vendido com esse nome pela empresa americana Wham-O a partir de 1957.",
+        "variantes": [
+          "Frisbi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        },
+        {
+          "id": "friede",
+          "nome": "Friede",
+          "descricao": "Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes.",
+          "variantes": [
+            "Professor Friede"
+          ]
+        },
+        {
+          "id": "batata_frita",
+          "nome": "Batata frita",
+          "descricao": "Batatas cortadas em palitos e fritas, servidas como acompanhamento ou petisco.",
+          "variantes": [
+            "Fritas",
+            "Batata frita palito",
+            "French fries"
+          ]
+        },
+        {
+          "id": "furisode",
+          "nome": "Furisode",
+          "descricao": "Tipo de quimono japonês de mangas muito longas, usado por moças solteiras em ocasiões formais.",
+          "variantes": []
+        },
+        {
+          "id": "ribombee",
+          "nome": "Ribombee",
+          "descricao": "Pokémon dos tipos Inseto e Fada, número 743 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Nivea",
+        "descricao": "Marca alemã de cremes e cosméticos da Beiersdorf, lançada em 1911 com um creme em lata azul.",
+        "variantes": [
+          "Nívea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ninive",
+          "nome": "Nínive",
+          "descricao": "Antiga capital do Império Assírio, às margens do rio Tigre, no norte do atual Iraque.",
+          "variantes": [
+            "Nineveh"
+          ]
+        },
+        {
+          "id": "rio_nilo",
+          "nome": "Rio Nilo",
+          "descricao": "Grande rio do nordeste da África que atravessa o Sudão e o Egito até o mar Mediterrâneo.",
+          "variantes": [
+            "Nilo",
+            "Nile"
+          ]
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        },
+        {
+          "id": "vedas",
+          "nome": "Vedas",
+          "descricao": "Coleções de hinos e textos em sânscrito, as escrituras mais antigas do hinduísmo.",
+          "variantes": [
+            "Veda",
+            "Vedas hindus"
+          ]
+        },
+        {
+          "id": "rigveda",
+          "nome": "Rigveda",
+          "descricao": "Coleção de hinos em sânscrito védico, o primeiro dos quatro Vedas do hinduísmo",
+          "variantes": [
+            "Rig Veda",
+            "Rigveda Samhita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Band-Aid",
+        "descricao": "Marca de curativos adesivos da Johnson & Johnson, inventada em 1920 por Earle Dickson.",
+        "variantes": [
+          "Band Aid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "band_aid",
+          "nome": "Band-Aid",
+          "descricao": "Curativo adesivo lançado pela Johnson & Johnson a partir da ideia de Earle Dickson, em 1920.",
+          "variantes": [
+            "Curativo adesivo"
+          ]
+        },
+        {
+          "id": "banda_eva",
+          "nome": "Banda Eva",
+          "descricao": "Banda baiana de axé music surgida do bloco de carnaval Eva, em Salvador.",
+          "variantes": [
+            "Eva"
+          ]
+        },
+        {
+          "id": "android",
+          "nome": "Android",
+          "descricao": "Sistema operacional para celulares e tablets desenvolvido pelo Google.",
+          "variantes": [
+            "Android (sistema operacional)"
+          ]
+        },
+        {
+          "id": "candido",
+          "nome": "Cândido",
+          "descricao": "Novela satírica de Voltaire publicada em 1759, que ridiculariza o otimismo filosófico.",
+          "variantes": [
+            "Cândido, ou o Otimismo",
+            "Candide"
+          ]
+        },
+        {
+          "id": "umbanda",
+          "nome": "Umbanda",
+          "descricao": "Religião brasileira que reúne elementos africanos, indígenas, católicos e espíritas, surgida no início do século vinte",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de hotéis e restaurantes publicado pela fabricante francesa de pneus Michelin desde 1900, famoso por suas estrelas.",
+        "variantes": [
+          "Michelin Guide"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guia_michelin",
+          "nome": "Guia Michelin",
+          "descricao": "Guia de viagem francês publicado desde 1900 pela fabricante de pneus Michelin, famoso por dar estrelas a restaurantes.",
+          "variantes": [
+            "Michelin Guide",
+            "Guide Michelin"
+          ]
+        },
+        {
+          "id": "michelangelo",
+          "nome": "Michelangelo",
+          "descricao": "Escultor, pintor e arquiteto do Renascimento italiano, autor do Davi e dos afrescos da Capela Sistina, morto em 1564.",
+          "variantes": [
+            "Michelangelo Buonarroti",
+            "Miguel Ângelo"
+          ]
+        },
+        {
+          "id": "bibendum",
+          "nome": "Bibendum",
+          "descricao": "Mascote da fabricante francesa de pneus Michelin, criado em 1898.",
+          "variantes": [
+            "Boneco da Michelin",
+            "Michelin Man"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Câmera Polaroid",
+        "descricao": "Câmera fotográfica instantânea criada pelo americano Edwin Land e lançada pela Polaroid em 1948.",
+        "variantes": [
+          "Polaroid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polaroid",
+          "nome": "Polaroid",
+          "descricao": "Câmera fotográfica instantânea que revela a foto logo após o clique, criada por Edwin Land.",
+          "variantes": [
+            "Câmera Polaroid",
+            "Câmera instantânea",
+            "Polaroid Corporation"
+          ]
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        },
+        {
+          "id": "glandula_parotida",
+          "nome": "Glândula parótida",
+          "descricao": "Glândula salivar situada à frente e abaixo da orelha, atingida na caxumba.",
+          "variantes": [
+            "Parótida"
+          ]
+        },
+        {
+          "id": "camisa_polo",
+          "nome": "Camisa polo",
+          "descricao": "Camisa de malha de manga curta, com gola e abotoamento curto na frente",
+          "variantes": [
+            "Polo shirt"
+          ]
+        },
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Doritos",
+        "descricao": "Marca americana de salgadinhos de tortilha de milho, hoje da PepsiCo, surgida nos anos 1960.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ordem_dorica",
+          "nome": "Ordem dórica",
+          "descricao": "Ordem arquitetônica clássica grega de colunas sem base e capitel liso, usada no Partenon.",
+          "variantes": [
+            "Dórico",
+            "Doric order"
+          ]
+        },
+        {
+          "id": "dodrio",
+          "nome": "Dodrio",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 85 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "democrito",
+          "nome": "Demócrito",
+          "descricao": "Filósofo grego pré-socrático (c. 460–370 a.C.), um dos formuladores da teoria atômica.",
+          "variantes": [
+            "Democritus",
+            "Demócrito de Abdera"
+          ]
+        },
+        {
+          "id": "condorito",
+          "nome": "Condorito",
+          "descricao": "Condor trapalhão dos quadrinhos de humor criado pelo cartunista Pepo em 1949",
+          "variantes": []
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream",
+            "Skrik"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Chocolates Garoto",
+        "descricao": "Fabricante brasileira de chocolates fundada em 1929 em Vila Velha pelo imigrante alemão Heinrich Meyerfreund.",
+        "variantes": [
+          "Garoto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        },
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "garfo",
+          "nome": "Garfo",
+          "descricao": "Talher com dentes usado para espetar e levar a comida à boca.",
+          "variantes": []
+        },
+        {
+          "id": "chocolate_branco",
+          "nome": "Chocolate branco",
+          "descricao": "Doce de cor marfim feito de açúcar, leite e manteiga de cacau, sem os sólidos escuros do cacau.",
+          "variantes": [
+            "White chocolate"
+          ]
+        },
+        {
+          "id": "rotom",
+          "nome": "Rotom",
+          "descricao": "Pokémon dos tipos Elétrico e Fantasma da quarta geração, que entra em aparelhos e muda de forma.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Smirnoff",
+        "descricao": "Marca de vodca originada na destilaria fundada por Piotr Smirnov no século dezenove, hoje da Diageo.",
+        "variantes": [
+          "Smirnov"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agojie",
+          "nome": "Agojie",
+          "descricao": "Regimento militar de elite do Reino do Daomé, na atual Benim, ativo do século dezessete ao dezenove.",
+          "variantes": [
+            "Amazonas do Daomé",
+            "Dahomey Amazons",
+            "Mino"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "estrogonofe",
+          "nome": "Estrogonofe",
+          "descricao": "Prato de tiras de carne refogadas em molho cremoso, de origem russa, muito popular no Brasil.",
+          "variantes": [
+            "Strogonoff",
+            "Stroganoff",
+            "Beef Stroganoff"
+          ]
+        },
+        {
+          "id": "santo_crisma",
+          "nome": "Santo crisma",
+          "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+          "variantes": [
+            "Crisma (óleo)",
+            "Óleo do crisma",
+            "Chrism",
+            "Mirão"
+          ]
+        },
+        {
+          "id": "casemiro",
+          "nome": "Casemiro",
+          "descricao": "Volante brasileiro, ex-Real Madrid, que joga na seleção brasileira.",
+          "variantes": [
+            "Carlos Henrique Casimiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Puma",
+        "descricao": "Marca alemã de artigos esportivos fundada por Rudolf Dassler em Herzogenaurach em 1948.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "pumba",
+          "nome": "Pumba",
+          "descricao": "Javali-africano comilão, amigo de Timon, em O Rei Leão, da Disney.",
+          "variantes": [
+            "Pumbaa"
+          ]
+        },
+        {
+          "id": "pulmao",
+          "nome": "Pulmão",
+          "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+          "variantes": [
+            "Pulmões"
+          ]
+        },
+        {
+          "id": "mumia_egipcia",
+          "nome": "Múmia egípcia",
+          "descricao": "Corpo humano ou animal preservado artificialmente pelos antigos egípcios para a vida após a morte",
+          "variantes": [
+            "Mummy",
+            "Múmia",
+            "Mumificação egípcia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "Sopa Campbell",
+        "descricao": "Marca americana de sopas enlatadas da Campbell Soup Company, fundada em Nova Jersey no século dezenove.",
+        "variantes": [
+          "Campbell's",
+          "Campbell Soup Company"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "latas_de_sopa_campbell",
+          "nome": "Latas de Sopa Campbell",
+          "descricao": "Obra de Andy Warhol, de 1962, formada por telas que reproduzem latas de sopa da marca Campbell; está no MoMA, em Nova York.",
+          "variantes": [
+            "Campbell's Soup Cans"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "macaco_prego",
+          "nome": "Macaco-prego",
+          "descricao": "Primata sul-americano do gênero Sapajus, de topete escuro, como o Sapajus apella.",
+          "variantes": [
+            "Sapajus apella",
+            "Macaco-prego-das-guianas"
+          ]
+        },
+        {
+          "id": "castells",
+          "nome": "Castells",
+          "descricao": "Torres humanas tradicionais, formadas por várias camadas de pessoas em pé sobre os ombros umas das outras.",
+          "variantes": [
+            "Castell",
+            "Torres humanas"
+          ]
+        },
+        {
+          "id": "clamperl",
+          "nome": "Clamperl",
+          "descricao": "Pokémon do tipo Água, número 366 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "proposta": {
+        "nome": "Yamaha",
+        "descricao": "Marca japonesa fundada em 1887 por Torakusu Yamaha como fabricante de órgãos, presente em instrumentos musicais e motocicletas.",
+        "variantes": [
+          "Nippon Gakki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "cota_de_malha",
+          "nome": "Cota de malha",
+          "descricao": "Armadura feita de pequenos anéis de metal entrelaçados formando uma malha, usada em exércitos da Antiguidade ao século dezesseis.",
+          "variantes": [
+            "Malha",
+            "Chain mail",
+            "Loriga de malha",
+            "Hauberk"
+          ]
+        },
+        {
+          "id": "yanma",
+          "nome": "Yanma",
+          "descricao": "Pokémon dos tipos Inseto e Voador, número 193 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "proposta": {
+        "nome": "Ikea",
+        "descricao": "Rede sueca de lojas de móveis fundada em 1943 por Ingvar Kamprad.",
+        "variantes": [
+          "IKEA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicicleta",
+          "nome": "Bicicleta",
+          "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+          "variantes": [
+            "Bike"
+          ]
+        },
+        {
+          "id": "bicicleta_pokemon",
+          "nome": "Bicicleta (Pokémon)",
+          "descricao": "Meio de transporte do jogador nos jogos Pokémon, que permite andar mais rápido que a pé.",
+          "variantes": [
+            "Bicycle",
+            "Bike"
+          ]
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "tikal",
+          "nome": "Tikal",
+          "descricao": "Antiga cidade maia em ruínas na floresta do Petén, na Guatemala.",
+          "variantes": [
+            "Yax Mutal",
+            "Tik'al"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 40,
+      "proposta": {
+        "nome": "Fusca",
+        "descricao": "Automóvel popular da Volkswagen, projetado na Alemanha nos anos 1930 e chamado de Fusca no Brasil.",
+        "variantes": [
+          "Volkswagen Beetle",
+          "Volkswagen Fusca",
+          "Fusquinha",
+          "Käfer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        },
+        {
+          "id": "volkswagen_sp2",
+          "nome": "Volkswagen SP2",
+          "descricao": "Esportivo fabricado pela Volkswagen do Brasil de 1972 a 1975, baseado no chassi do Volkswagen Tipo 3.",
+          "variantes": [
+            "SP2",
+            "VW SP2"
+          ]
+        },
+        {
+          "id": "volkswagen_passat",
+          "nome": "Volkswagen Passat",
+          "descricao": "Modelo de automóvel da Volkswagen lançado em 1973",
+          "variantes": [
+            "Passat"
+          ]
+        },
+        {
+          "id": "donut",
+          "nome": "Donut",
+          "descricao": "Doce frito ou assado de massa fermentada em formato de anel, geralmente com cobertura de glacê.",
+          "variantes": [
+            "Doughnut",
+            "Rosquinha"
+          ]
+        },
+        {
+          "id": "volkswagen_gol",
+          "nome": "Volkswagen Gol",
+          "descricao": "Carro compacto fabricado pela Volkswagen do Brasil de 1980 a 2023, o mais vendido do país por 27 anos seguidos.",
+          "variantes": [
+            "Gol",
+            "VW Gol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 41,
+      "proposta": {
+        "nome": "Big Mac",
+        "descricao": "Sanduíche de dois hambúrgueres do McDonald's, criado em 1967 por um franqueado de Pittsburgh.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "big_bang",
+          "nome": "Big Bang",
+          "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+          "variantes": [
+            "Teoria do Big Bang",
+            "Grande Explosão"
+          ]
+        },
+        {
+          "id": "otto_von_bismarck",
+          "nome": "Otto von Bismarck",
+          "descricao": "Estadista prussiano que unificou a Alemanha e foi seu primeiro chanceler, de 1871 a 1890.",
+          "variantes": [
+            "Bismarck",
+            "Chanceler de Ferro"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "gros_michel",
+          "nome": "Gros Michel",
+          "descricao": "Variedade de banana que foi a principal de exportação até meados do século vinte",
+          "variantes": [
+            "Banana-maçã-grande",
+            "Big Mike"
+          ]
+        },
+        {
+          "id": "bigua",
+          "nome": "Biguá",
+          "descricao": "Cormorão neotropical (Nannopterum brasilianum), ave aquática escura das Américas.",
+          "variantes": [
+            "Nannopterum brasilianum",
+            "Neotropic cormorant",
+            "Phalacrocorax brasilianus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "fanta",
+      "motivo": "Mesmo refrigerante Fanta."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "molho_ingles",
+      "motivo": "Mesmo molho Worcestershire."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ovomaltine."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a marca Bombril."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o molho Tabasco."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Campari."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Vidro de urânio é diferente da marca Vaselina."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Jägermeister."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Hello Kitty."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "peugeot",
+      "motivo": "Mesma montadora Peugeot."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pirelli."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Milka."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "microsoft",
+      "motivo": "Mesma empresa Microsoft."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o refrigerante Sprite."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o brinquedo."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a empresa Avon."
+    },
+    {
+      "caso": 17,
+      "decisao": "mesma",
+      "id_existente": "lamborghini",
+      "motivo": "Mesma fabricante."
+    },
+    {
+      "caso": 18,
+      "decisao": "mesma",
+      "id_existente": "nintendo",
+      "motivo": "Mesma empresa Nintendo."
+    },
+    {
+      "caso": 19,
+      "decisao": "mesma",
+      "id_existente": "kleenex",
+      "motivo": "Mesma marca Kleenex."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Candidata é a pessoa fundadora; proposta é a marca."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Gillette."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Crocs."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Gatorade."
+    },
+    {
+      "caso": 24,
+      "decisao": "mesma",
+      "id_existente": "samsung",
+      "motivo": "Mesmo conglomerado Samsung."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Haribo."
+    },
+    {
+      "caso": 26,
+      "decisao": "mesma",
+      "id_existente": "kodak",
+      "motivo": "Mesma empresa Kodak."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Listerine."
+    },
+    {
+      "caso": 28,
+      "decisao": "mesma",
+      "id_existente": "frisbee",
+      "motivo": "Mesmo disco Frisbee."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Nivea."
+    },
+    {
+      "caso": 30,
+      "decisao": "mesma",
+      "id_existente": "band_aid",
+      "motivo": "Mesma marca Band-Aid."
+    },
+    {
+      "caso": 31,
+      "decisao": "mesma",
+      "id_existente": "guia_michelin",
+      "motivo": "Mesmo guia."
+    },
+    {
+      "caso": 32,
+      "decisao": "mesma",
+      "id_existente": "polaroid",
+      "motivo": "Mesma câmera Polaroid, variante Câmera Polaroid listada."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Doritos."
+    },
+    {
+      "caso": 34,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fabricante Garoto."
+    },
+    {
+      "caso": 35,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Smirnoff."
+    },
+    {
+      "caso": 36,
+      "decisao": "mesma",
+      "id_existente": "puma",
+      "motivo": "Mesma marca alemã Puma, não o felino."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Candidata é a obra de Warhol; proposta é a marca."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Yamaha."
+    },
+    {
+      "caso": 39,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ikea."
+    },
+    {
+      "caso": 40,
+      "decisao": "mesma",
+      "id_existente": "volkswagen_fusca",
+      "motivo": "Mesmo carro Fusca."
+    },
+    {
+      "caso": 41,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Big Mac."
+    }
+  ]
+}
