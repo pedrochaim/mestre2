@@ -7,12 +7,16 @@ Uso (na pasta app/):  python exportar_perguntas.py  e depois  npx -y firebase-to
 """
 import json
 import shutil
+import sys
 from pathlib import Path
 
 AQUI = Path(__file__).parent
+sys.path.insert(0, str(AQUI.parent / "pipeline"))
+from banco import casa_pokemon  # noqa: E402  (a casa temática do modo Pokémon de cada pergunta da coleção)
 BANCO = AQUI.parent / "pipeline" / "banco"
 PUBLICO = AQUI / "public"
 # "colecao" e "exclusiva": o modo Pokémon sorteia as da coleção; as exclusivas ficam fora do jogo original.
+# "casa" (só na coleção pokemon): a casa temática do tabuleiro do modo Pokémon em que a pergunta sai.
 CAMPOS = ["id", "tema", "subtema", "tipo", "pergunta", "resposta", "distratores", "imagem", "audio",
           "angulo", "fonte", "autor", "dificuldade", "colecao", "exclusiva"]
 
@@ -30,6 +34,8 @@ def ancora(id_ancora):
 saida = []
 for p in perguntas:
     q = {c: p[c] for c in CAMPOS if c in p}
+    if casa_pokemon(p):
+        q["casa"] = casa_pokemon(p)
     if ancora(p.get("ancora")):
         q["ancora"] = ancora(p["ancora"])
     saida.append(q)

@@ -33,7 +33,6 @@ import fontes
 from claude_cli import chamar
 from comum import (BANCO_DIR, ESQUEMAS_DIR, PIPELINE, PROMPTS_DIR, TRABALHO_DIR, gravar_json, ler_json, ler_texto,
                    manifesto_para_llm, normalizar, preencher, registrar_log)
-from etapas import MAX_POR_ANCORA
 
 CATALOGOS_DIR = PIPELINE / "catalogos"
 # Regras padrão da curadoria (prompts/curar_catalogo.md); um catálogo pode trocá-las por `regra_titulo` e
@@ -47,7 +46,7 @@ REGRA_IMAGEM = ("Só entidades com **imagem boa e de licença livre** na Wikipé
 FAMILIAS = {"o_que_e": "identidade", "quem_fez": "autoria", "onde": "lugar", "quando": "tempo",
             "que_parte": "composicao", "que_tipo": "atributo", "com_o_que_se_liga": "conexao"}
 ALVO_NIVEIS = {1: .4, 2: .4, 3: .2}
-MAX_FIGURA_POR_ANCORA = 2
+MAX_FIGURA_POR_ANCORA = bc.MAX_FIGURA_POR_ANCORA
 MAX_FAMILIA = .6
 LIVRE = re.compile(r"(CC0|CC[- ]BY|public domain|domínio público|\bPD\b|GFDL|FAL|Free Art)", re.I)
 UA = {"User-Agent": "Mestre2/0.1 (quiz; https://github.com/pedrochaim/mestre2)"}
@@ -549,7 +548,11 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
             print("  0. curadoria…", flush=True)
             curar(cat, banco, config)
             dados = carregar_catalogo(cat["id"])
-        por_ancora = banco.perguntas_por_ancora()
+        por_ancora, limite = banco.perguntas_por_ancora(cat), bc.limite_por_ancora(cat)
+        # Num catálogo de silhuetas de pokémon de uma coleção com figura livre (modo Pokémon), a silhueta não conta
+        # na saturação, qualquer que seja a pergunta: a entidade só fica de fora se já tiver uma silhueta na coleção.
+        nome_livre = _silhueta_livre(cat)
+        da_colecao = banco.colecao_por_ancora(cat["colecao"]) if nome_livre else {}
         idx = banco.indice_nomes()
         fila = sorted(livres(dados), key=lambda e: (e["camada"], ))
         camadas = {k: [e for e in fila if e["camada"] == k] for k in (1, 2, 3)}
@@ -569,7 +572,11 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
                 break
             id_ancora = idx.get(normalizar(ent["nome"]))
             ps = por_ancora.get(id_ancora, []) if id_ancora else []
-            if len(ps) >= MAX_POR_ANCORA or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA:
+            if nome_livre:
+                if any(bc.silhueta(p) for p in da_colecao.get(id_ancora, [])):
+                    ent["status"] = "saturada"
+                    continue
+            elif len(ps) >= limite or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA:
                 ent["status"] = "saturada"
                 continue
             prep, motivo = (_preparar_pokemon(ent, pasta, len(itens) + 1) if cat["imagem"] == "pokeapi"
@@ -604,7 +611,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
         prompt = preencher(ler_texto(PROMPTS_DIR / "figuras.md"), id=cat["id"], descricao=cat["descricao"],
                            destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
                            familias=", ".join(cat["familias"]), enunciado=enunciado,
-                           itens=json.dumps(entrada, ensure_ascii=False, indent=2), manifesto=manifesto_para_llm())
+                           itens=json.dumps(entrada, ensure_ascii=False, indent=2), manifesto=_manifesto(cat))
         c = config["figuras"]
         claude_cli.contexto.update(encomenda=lote_id, etapa="figuras")
         avaliacao = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_figuras.json"), c["modelo"], c["esforco"],
@@ -617,6 +624,16 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
     # 4. registro: âncora (com o juiz para nomes parecidos), saturação, repetidos e gravação
     print("  4. registro…", flush=True)
     return _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta, config)
+
+
+def _silhueta_livre(cat):
+    """Catálogo de silhuetas de pokémon de uma coleção em que a silhueta fica fora da saturação (bc.FIGURA_LIVRE)."""
+    return bc.colecao_exclusiva(cat) in bc.FIGURA_LIVRE and cat["imagem"] == "pokeapi"
+
+
+def _manifesto(cat):
+    """A Parte I do MANIFESTO e, num catálogo exclusivo de uma coleção com documento próprio, as regras do modo."""
+    return manifesto_para_llm(bc.DOC_COLECAO.get(bc.colecao_exclusiva(cat)))
 
 
 def _completa(av, cat):
@@ -659,7 +676,7 @@ def _criticar(cat, itens, avaliacao, pasta, config, lote_id):
         e["trechos"] = trechos.get(str(av["indice"]), [])
         lote.append(e)
     prompt = preencher(ler_texto(PROMPTS_DIR / "criticar_figuras.md"), catalogo=cat["id"],
-                       lote=json.dumps(lote, ensure_ascii=False, indent=2), manifesto=manifesto_para_llm())
+                       lote=json.dumps(lote, ensure_ascii=False, indent=2), manifesto=_manifesto(cat))
     c = config["criticar"]
     saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_critica_figuras.json"), c["modelo"], c["esforco"],
                    tempo_limite=c["tempo_limite"])
@@ -775,7 +792,9 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
     # b) âncoras e saturação
     ligacao = _resolver_ancoras({c["indice"]: c["proposta"] for c in candidatos}, banco, pasta, config, lote_id)
     novas, reservados = {}, set()   # nome normalizado -> âncora nova deste lote
-    por_ancora = {k: list(v) for k, v in banco.perguntas_por_ancora().items()}
+    por_ancora = {k: list(v) for k, v in banco.perguntas_por_ancora(cat).items()}
+    limite = bc.limite_por_ancora(cat)
+    da_colecao = {k: list(v) for k, v in banco.colecao_por_ancora(cat["colecao"]).items()} if cat.get("colecao") else {}
     prontos = []
     for c in candidatos:
         id_ancora, nova = ligacao.get(c["indice"]), None
@@ -796,10 +815,17 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
                 novas[chave] = nova
             id_ancora = nova["id"]
         ps = por_ancora.get(id_ancora, [])
-        if len(ps) >= MAX_POR_ANCORA or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA:
+        livre = _silhueta_livre(cat)
+        if livre and any(bc.silhueta(p) for p in da_colecao.get(id_ancora, [])):
+            registrar_log(lote_id, "figuras", "descartada", f"âncora {id_ancora} já tem silhueta", c["resumo"])
+            continue
+        if not livre and (len(ps) >= limite or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA):
             registrar_log(lote_id, "figuras", "descartada", f"âncora {id_ancora} saturada", c["resumo"])
             continue
-        por_ancora.setdefault(id_ancora, []).append(c["p"])
+        marcada = {**c["p"], "imagem": {**c["p"]["imagem"], "revelacao": True}} if c["it"].get("revelacao") else c["p"]
+        da_colecao.setdefault(id_ancora, []).append(marcada)   # para duas silhuetas do lote não irem à mesma âncora
+        if not livre:
+            por_ancora.setdefault(id_ancora, []).append(c["p"])
         c["p"]["ancora"], c["nova"] = id_ancora, nova
         prontos.append(c)
 
@@ -808,7 +834,8 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
         claude_cli.contexto.update(encomenda=lote_id, etapa="repetidos")
         para_checar = [{"_indice": c["indice"], "ancora": c["p"]["ancora"], "pergunta": c["p"]["pergunta"],
                         "resposta": c["p"]["resposta"]} for c in prontos]
-        ficam = {x["_indice"] for x in etapas.checar_repetidos({"id": lote_id}, banco, para_checar, pasta, config)}
+        ficam = {x["_indice"] for x in etapas.checar_repetidos({"id": lote_id, **{k: cat[k] for k in ("colecao", "exclusiva") if cat.get(k)}},
+                                                          banco, para_checar, pasta, config)}
         prontos = [c for c in prontos if c["indice"] in ficam]
 
     # d) gravação

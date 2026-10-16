@@ -6,14 +6,15 @@ escolhidos por código, de modo que nenhum fato passa por um LLM. Todas as pergu
 exclusivas do modo Pokémon. Famílias:
 
     atributos  cartão com o tipo e os atributos base, sem o nome: "Quem é esse pokémon?"
-    tipo       arte oficial: "De que tipo é este pokémon?"
-    regiao     arte oficial: "Em que região este pokémon apareceu pela primeira vez?"
-    evolucao   arte oficial: "Em que pokémon este evolui?" ou "De que pokémon este evolui?"
+    tipo       silhueta: "De que tipo é este pokémon?"
+    regiao     silhueta: "Em que região este pokémon apareceu pela primeira vez?"
+    evolucao   silhueta: "Em que pokémon este evolui?" ou "De que pokémon este evolui?"
 
 (A versão brilhante e o sprite de Yellow/Crystal foram testados e recusados pelo autor: ficavam fáceis demais.)
-No cartão de atributos, a revelação é a arte oficial sobre os raios azuis e amarelos, como nas silhuetas. Cada
-pokémon recebe no máximo uma figura que pergunta o nome (silhueta ou cartão), para a mesma resposta não aparecer duas
-vezes em figura, e a saturação geral vale: no máximo 3 perguntas por âncora, 2 com figura.
+Em todas, a revelação é a arte oficial sobre os raios azuis e amarelos. A silhueta é a da casa "Quem é esse
+pokémon?" (desde 2026-10-16; antes, tipo, região e evolução mostravam a arte colorida). Cartão e silhueta valem
+para todos os pokémon, ficam fora da saturação e convivem, mas cada pokémon tem um cartão só e uma silhueta só,
+contando as do catálogo de silhuetas. As famílias de silhueta usam só as espécies de forma fixa.
 
 Uso (na raiz do projeto):
     python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 --evolucao 40
@@ -38,7 +39,6 @@ import banco as bc  # noqa: E402
 import figuras  # noqa: E402
 import popularidade  # noqa: E402
 from comum import BANCO_DIR, TRABALHO_DIR, carregar_canon, gravar_json, ler_json, normalizar, registrar_log  # noqa: E402
-from etapas import MAX_POR_ANCORA  # noqa: E402
 
 CSV_URL = "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/{}.csv"
 TABELAS = ["pokemon", "pokemon_stats", "pokemon_types", "pokemon_species", "pokemon_species_names"]
@@ -66,7 +66,8 @@ FAMILIAS = ["atributos", "tipo", "regiao", "evolucao"]
 # Subtema de cada família no modo Pokémon (modo_pokemon.md, "Subtemas do modo").
 SUBTEMA_COLECAO = {"atributos": "Pokédex", "tipo": "Pokédex", "regiao": "Jogos da Série Principal",
                    "evolucao": "Pokédex"}
-NOME = {"atributos"}   # famílias que perguntam o nome do pokémon
+NOME = {"atributos"}   # famílias que perguntam o nome do pokémon (o cartão)
+SILHUETA = {"tipo", "regiao", "evolucao"}   # famílias em silhueta (casa "Quem é esse pokémon?")
 
 
 # ---------------------------------------------------------------- dados
@@ -83,9 +84,10 @@ def _tabela(pasta, nome):
 
 
 def carregar_pokemon(pasta):
-    """{id da espécie: {num, nome, geracao, tipos, atributos, final, lendario, cadeia, pai, filhos}} só das espécies
-    cuja forma padrão tem o mesmo nome da espécie e não troca de forma: Deoxys, Rotom, Urshifu e afins ficam de fora,
-    porque tipo e atributos dependem da forma."""
+    """{id da espécie: {num, nome, geracao, tipos, atributos, final, lendario, cadeia, pai, filhos, forma_fixa}} de
+    todas as espécies, com o tipo e os atributos da forma padrão. `forma_fixa` é falso nas que trocam de forma ou cuja
+    forma padrão tem outro nome (Deoxys, Rotom, Urshifu e afins): o tipo e os atributos dependem da forma, e elas só
+    entram no cartão, que vale para todos os pokémon (modo_pokemon.md)."""
     (pasta / "csv").mkdir(parents=True, exist_ok=True)
     t = {n: _tabela(pasta / "csv", n) for n in TABELAS}
     especies = {int(e["id"]): e for e in t["pokemon_species"]}
@@ -103,16 +105,16 @@ def carregar_pokemon(pasta):
     out = {}
     for sid, e in especies.items():
         p = padrao.get(sid)
-        if not p or p["identifier"] != e["identifier"] or e["forms_switchable"] == "1" or sid not in nomes:
-            continue
-        if "♀" in nomes[sid] or "♂" in nomes[sid]:
+        if not p or sid not in nomes:
             continue
         pid = int(p["id"])
-        out[sid] = {"num": sid, "nome": nomes[sid], "geracao": int(e["generation_id"]), "tipos": tipos[pid],
+        nome = nomes[sid].replace("♀", " fêmea").replace("♂", " macho")   # forma falada (modo_pokemon.md)
+        out[sid] = {"num": sid, "nome": nome, "geracao": int(e["generation_id"]), "tipos": tipos[pid],
                     "atributos": [atributos[pid][i] for i in range(1, 7)], "final": sid not in filhos,
                     "lendario": e["is_legendary"] == "1" or e["is_mythical"] == "1", "cadeia": e["evolution_chain_id"],
                     "pai": int(e["evolves_from_species_id"]) if e["evolves_from_species_id"] else None,
-                    "filhos": filhos.get(sid, [])}
+                    "filhos": filhos.get(sid, []),
+                    "forma_fixa": p["identifier"] == e["identifier"] and e["forms_switchable"] != "1"}
     return out
 
 
@@ -235,8 +237,8 @@ def _imagem(url):
 
 
 def desenhar(familia, p, destino, pagina):
-    """Grava destino.jpg (a figura) e, nas famílias que perguntam o nome, destino_revelacao.jpg. Devolve a origem
-    da figura, ou None se faltou imagem."""
+    """Grava destino.jpg (a figura: o cartão ou a silhueta) e destino_revelacao.jpg (a arte sobre os raios).
+    Devolve a origem da figura, ou None se faltou imagem."""
     arte_url = figuras.ARTE_POKEMON.format(p["num"])
     arte = _imagem(arte_url)
     if arte is None:
@@ -249,10 +251,9 @@ def desenhar(familia, p, destino, pagina):
         fundo.paste(im, mask=im.split()[3])
         figura, origem = fundo, arte_url
     else:
-        figura, origem = figuras._sobre_raios(arte), arte_url
+        figura, origem = figuras._sobre_raios(figuras._silhueta(arte)), arte_url
     figura.convert("RGB").save(f"{destino}.jpg", "JPEG", quality=90)
-    if familia in NOME:
-        figuras._sobre_raios(arte).save(revelacao, "JPEG", quality=88)
+    figuras._sobre_raios(arte).save(revelacao, "JPEG", quality=88)
     return origem
 
 
@@ -268,41 +269,40 @@ def indice_pokemon(banco):
     return indice
 
 
-def _pergunta_o_nome(q):
-    """A pergunta é uma figura cuja resposta é o nome do pokémon da âncora (silhueta ou cartão)."""
-    return "imagem" in q and q.get("angulo") == "identidade"
-
-
 # Como reconhecer, pelo enunciado, uma pergunta do banco que já trata do mesmo assunto da família (inclusive as
 # feitas pelo LLM, como "Em que pokémon este evolui?" nas silhuetas).
 ASSUNTO = {"atributos": ("atributos base",), "tipo": ("tipo",), "regiao": ("região", "regiao"),
            "evolucao": ("evolui", "evolução", "evoluir")}
 
 
-def _cabe(ps, familia):
-    figs = [q for q in ps if "imagem" in q]
-    return len(ps) < MAX_POR_ANCORA and len(figs) < figuras.MAX_FIGURA_POR_ANCORA and \
-        not any(q.get("familia_dados") == familia or any(t in q.get("pergunta", "").lower() for t in ASSUNTO[familia])
-                for q in ps) and \
-        not (familia in NOME and any(_pergunta_o_nome(q) for q in ps))
+def _cabe(p, todas, familia):
+    """O pokémon p pode receber uma pergunta da família? `todas`: as perguntas da âncora na coleção. Cartão e
+    silhueta ficam fora da saturação e convivem, mas cada pokémon tem um cartão só e uma silhueta só. As famílias
+    de silhueta só usam espécies de forma fixa e não repetem um assunto que a âncora já tenha, inclusive em
+    perguntas do LLM ("Em que pokémon este evolui?")."""
+    if familia in NOME:
+        return not any(q.get("familia_dados") == familia or bc.figura_livre(q) == "cartao" for q in todas)
+    return p["forma_fixa"] and \
+        not any(q.get("familia_dados") in SILHUETA or bc.silhueta(q) for q in todas) and \
+        not any(any(t in q.get("pergunta", "").lower() for t in ASSUNTO[familia]) for q in todas)
 
 
 def escolher(todos, banco, cotas, rng):
     """[(família, pokémon, pergunta)] do lote. Cada família tira pokémon de todas as gerações, na proporção de
     PESO_GERACAO; primeiro os que ainda não têm figura, depois formas finais e lendários. A ocupação das âncoras é
     contada à medida que o lote se forma, para duas famílias do mesmo lote não estourarem a saturação."""
-    por_ancora, indice = banco.perguntas_por_ancora(), indice_pokemon(banco)
-    ocupacao = {p["num"]: list(por_ancora.get(indice.get(normalizar(p["nome"])), [])) for p in todos.values()}
+    indice, da_colecao = indice_pokemon(banco), banco.colecao_por_ancora("pokemon")
+    ancora = {p["num"]: indice.get(normalizar(p["nome"])) for p in todos.values()}
+    colecao = {n: list(da_colecao.get(a, [])) for n, a in ancora.items()}      # as da coleção, e as do lote
     lote = []
     for familia, n in cotas.items():
         if not n:
             continue
         por_geracao = defaultdict(list)
         for p in todos.values():
-            ps = ocupacao[p["num"]]
-            if _cabe(ps, familia):
-                por_geracao[p["geracao"]].append((any("imagem" in q for q in ps), not (p["final"] or p["lendario"]),
-                                                  rng.random(), p))
+            if _cabe(p, colecao[p["num"]], familia):
+                tem_figura = any("imagem" in q for q in colecao[p["num"]])
+                por_geracao[p["geracao"]].append((tem_figura, not (p["final"] or p["lendario"]), rng.random(), p))
         pesos = {g: w for g, w in PESO_GERACAO.items() if por_geracao[g]}
         cotas_g = {g: round(n * w / sum(pesos.values())) for g, w in pesos.items()}
         cotas_g[min(cotas_g)] += n - sum(cotas_g.values())
@@ -314,7 +314,7 @@ def escolher(todos, banco, cotas, rng):
                 q = montar(familia, p, todos, rng)
                 if q:
                     lote.append({"familia": familia, "num": p["num"], **q})
-                    ocupacao[p["num"]].append({"imagem": 1, "angulo": q["angulo"], "familia_dados": familia})
+                    colecao[p["num"]].append({"imagem": 1, "angulo": q["angulo"], "familia_dados": familia})
                     feitos += 1
     rng.shuffle(lote)
     return lote
@@ -379,7 +379,7 @@ def executar(lote_id, cotas):
     selecao = ler_json(pasta / "02_figuras.json")
 
     numero, registradas = banco.proximo_numero(), []
-    por_ancora, indice = banco.perguntas_por_ancora(), indice_pokemon(banco)
+    indice, da_colecao = indice_pokemon(banco), banco.colecao_por_ancora("pokemon")
     for it in selecao:
         p = todos[it["num"]]
         base = pasta / "figuras" / f"{it['familia']}_{it['num']}"
@@ -392,9 +392,9 @@ def executar(lote_id, cotas):
             aid = banco.novo_id_ancora(p["nome"])
             banco.adicionar_ancora({"id": aid, "nome": p["nome"], "descricao": _descricao(p), "fontes": [_fonte(p)]})
             indice[normalizar(p["nome"])] = aid
-        ps = por_ancora.get(aid, [])
-        if len(ps) >= MAX_POR_ANCORA or sum("imagem" in q for q in ps) >= figuras.MAX_FIGURA_POR_ANCORA:
-            registrar_log(lote_id, "pokemon_dados", "descartada", f"âncora {aid} saturada", resumo)
+        figura = "cartao" if it["familia"] in NOME else "silhueta"
+        if any(bc.figura_livre(q) == figura for q in da_colecao.get(aid, [])):
+            registrar_log(lote_id, "pokemon_dados", "descartada", f"âncora {aid} já tem {figura}", resumo)
             continue
         qid = f"q{numero:05d}"
         q = {"id": qid, "tema": TEMA, "subtema": SUBTEMA, "ancora": aid, "angulo": it["angulo"], "tipo": "multipla",
@@ -402,17 +402,15 @@ def executar(lote_id, cotas):
              "fonte": [_fonte(p)], "imagem": {"arquivo": qid + ".jpg", "origem": it["origem"], "autor": AUTOR,
                                               "licenca": LICENCA},
              "colecao": "pokemon", "exclusiva": True, "subtema_colecao": SUBTEMA_COLECAO[it["familia"]]}
-        if it["familia"] in NOME:
-            q["imagem"]["revelacao"] = qid + "_revelacao.jpg"
+        q["imagem"]["revelacao"] = qid + "_revelacao.jpg"
         erros = bc.erros_pergunta(q, canon)
         if erros:
             registrar_log(lote_id, "pokemon_dados", "descartada", "; ".join(erros), resumo)
             continue
         (BANCO_DIR / "imagens" / (qid + ".jpg")).write_bytes(Path(f"{base}.jpg").read_bytes())
-        if it["familia"] in NOME:
-            (BANCO_DIR / "imagens" / (qid + "_revelacao.jpg")).write_bytes(Path(f"{base}_revelacao.jpg").read_bytes())
+        (BANCO_DIR / "imagens" / (qid + "_revelacao.jpg")).write_bytes(Path(f"{base}_revelacao.jpg").read_bytes())
         banco.perguntas.append(q)
-        por_ancora.setdefault(aid, []).append(q)
+        da_colecao.setdefault(aid, []).append(q)
         registradas.append(q)
         registrar_log(lote_id, "pokemon_dados", "registrada", f"{it['familia']}, geração {p['geracao']}",
                       {"id": qid, **resumo})

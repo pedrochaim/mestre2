@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.67 — 2026-10-13**
+> **Versão preliminar 0.69 — 2026-10-16**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -113,7 +113,7 @@ Cada âncora é registrada com:
 **Limites por âncora** (o pipeline descarta o que passar deles):
 - no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
 - no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
-- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
 - uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
 
 **Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
@@ -250,7 +250,9 @@ Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um mo
 - A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
 - **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
 - **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
-- As perguntas da coleção seguem todas as regras desta Parte I: tema e subtema, âncora, saturação e fontes. Podem ser com ou sem figura.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
 - As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
 
 ### Perguntas com áudio
@@ -644,7 +646,7 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 |---|---|---|
 | **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
 | **Linear** | Protótipo no app (2026-10-02). Uma trilha única de 60 casas em faixa ondulada, com casas de tema e casas especiais | Esta seção (Modo Linear) e §16 |
-| **Pokémon** | No app (2026-10-13). O Linear só com perguntas de pokémon, num tabuleiro próprio | [`modo_pokemon.md`](modo_pokemon.md) |
+| **Pokémon** | No app (2026-10-13). A trilha do Linear só com perguntas de pokémon, num tabuleiro próprio, com casas temáticas que ditam o teor da pergunta | [`modo_pokemon.md`](modo_pokemon.md) |
 | **Trilha da Vida** | Primeira versão no app (2026-10-02), a refinar. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
@@ -697,7 +699,7 @@ Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que nã
 
 ### Modo Pokémon
 
-O Linear só com perguntas de pokémon (2026-10-13). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
+A trilha do Linear só com perguntas de pokémon (2026-10-13), com casas temáticas que ditam o teor da pergunta (2026-10-16). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
 
 ### Definições
 
@@ -749,7 +751,7 @@ Ao criar a partida, há também **Nova partida · Linear (protótipo)**, guardad
 
 ### Modo Pokémon
 
-**Nova partida · Pokémon**, em **Outros modos**, grava `modo: "pokemon"`; o app trata a partida como Linear, com as perguntas e o tabuleiro do modo (`svgPokemon`, em `linear.js`). Os detalhes estão em [`modo_pokemon.md`](modo_pokemon.md). Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
+**Nova partida · Pokémon**, em **Outros modos**, grava `modo: "pokemon"`; o app trata a partida como Linear, com as perguntas e o tabuleiro do modo (`svgPokemon`, em `linear.js`), e as casas temáticas do modo no lugar dos temas. Os detalhes estão em [`modo_pokemon.md`](modo_pokemon.md). Nos outros modos, as perguntas exclusivas de uma coleção nem entram na lista do sorteio.
 
 ### Modo Trilha da Vida
 
@@ -896,7 +898,8 @@ As quantidades seguem `pipeline/plano.json` e foram reduzidas na v0.35 para que 
 Um assunto está saturado quando já há perguntas demais apontando para a mesma âncora. A primeira sessão também liga essa medida (pendência do §14):
 - a contagem de perguntas por âncora passa a valer **no banco inteiro**, e não só dentro do subtema;
 - o gerador recebe as âncoras mais usadas do tema todo, para evitá-las;
-- uma âncora com mais de 3 perguntas, somando texto e figura, fica bloqueada para novas perguntas, salvo decisão em contrário.
+- uma âncora com mais de 3 perguntas, somando texto e figura, fica bloqueada para novas perguntas, salvo decisão em contrário;
+- as exclusivas de uma coleção têm conta à parte, só dentro da coleção e com o limite do documento dela (§6, "Coleções").
 
 ### Autopiloto
 
@@ -964,6 +967,8 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.69 | 2026-10-16 | Modo Pokémon: tabuleiro com casas temáticas, que ditam o teor da pergunta, no lugar das casas sem tema, metade de figura e metade de texto, como a regra editorial do modo (pelo menos metade das perguntas com figura); tipo, região e evolução passam a ser silhuetas; o export grava a casa de cada pergunta da coleção (campo `casa` do app); detalhes em `modo_pokemon.md` (§15, §16) |
+| 0.68 | 2026-10-16 | Coleções com regras de conteúdo próprias, que partem da Parte I e prevalecem sobre ela, enviadas ao LLM depois dela nos lotes exclusivos; saturação das exclusivas contada só na coleção, e as exclusivas fora da conta do jogo original (§4, §6, §17). Modo Pokémon: regras de conteúdo próprias (público, sem cota de ângulos, até 5 perguntas por âncora, um fato por coleção, nomes oficiais brasileiros e em inglês, voz, atemporalidade, fontes, distratores); detalhes em `modo_pokemon.md` |
 | 0.67 | 2026-10-13 | Modo Pokémon: três subtemas em vez de cinco (Pokédex, que reúne Quem é esse pokémon? e Tipos e Evoluções; Jogos da Série Principal, que absorve Regiões e Treinadores; Anime, Filmes e Franquia), classificados por onde se passa o fato; o piso de 30% vale só para montar lotes; o gerador classifica cada pergunta de uma coleção pelo assunto, em vez de herdar o subtema do lote; detalhes em `modo_pokemon.md` |
 | 0.66 | 2026-10-13 | Subtemas próprios de uma coleção (campo `subtema_colecao`, §6, §10). Modo Pokémon: cinco subtemas, entre eles um só dos jogos da série principal, com sobreposição um pouco mais tolerada e equilíbrio (o menor subtema tem pelo menos 30% do maior, conferido pelo pipeline); as 1515 perguntas classificadas; detalhes em `modo_pokemon.md` |
 | 0.65 | 2026-10-13 | Modo Pokémon: perguntas feitas de dados também de tipo, região e evolução (`pipeline/pokemon_dados.py`, que substitui o `pokemon_status.py`) e 1000 perguntas novas em 4 lotes; detalhes em `modo_pokemon.md` |

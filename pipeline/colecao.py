@@ -11,6 +11,7 @@ Uso (na raiz do projeto):
     python pipeline/rodar.py executar --encomenda pokemon_texto_01   # lote de texto da coleção
 """
 import argparse
+import math
 import sys
 from collections import Counter
 
@@ -29,6 +30,17 @@ def status(colecao):
     print(f"Coleção {colecao}: {len(ps)} perguntas.")
     for (forma, onde), n in sorted(c.items()):
         print(f"  {forma}, {onde}: {n}")
+    minimo = bc.MIN_FIGURA_COLECAO.get(colecao)
+    if minimo and ps:
+        com = sum("imagem" in p for p in ps)
+        falta = math.ceil((len(ps) - com) * minimo / (1 - minimo)) - com
+        print(f"Com figura: {com / len(ps):.0%} (mínimo {minimo:.0%})"
+              + (f"; faltam {falta} perguntas com figura para o mínimo." if falta > 0 else "."))
+    if colecao == "pokemon":
+        casas = Counter(bc.casa_pokemon(p) for p in ps)
+        print("Por casa temática do tabuleiro:")
+        for casa in bc.CASAS_POKEMON:
+            print(f"  {casa}: {casas[casa]}")
     fig = Counter(p.get("subtema_colecao") for p in ps if "imagem" in p)
     contagem = bc.subtemas_da_colecao(ps, colecao)
     piso = bc.PISO_SUBTEMA_COLECAO.get(colecao)

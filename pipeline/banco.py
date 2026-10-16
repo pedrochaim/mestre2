@@ -104,12 +104,23 @@ class Banco:
     def perguntas_do_subtema(self, tema, subtema):
         return [p for p in self.perguntas if p["tema"] == tema and p["subtema"] == subtema]
 
-    def perguntas_por_ancora(self):
-        """{id da âncora ativa: perguntas do banco inteiro (texto e figura) que apontam para ela}.
-        É a medida de saturação de um assunto (MANIFESTO §17)."""
+    def perguntas_por_ancora(self, origem=None):
+        """{id da âncora ativa: perguntas (texto e figura) que apontam para ela}, contando só as que valem na
+        saturação de um lote da origem (conta_na_saturacao). É a medida de saturação de um assunto (MANIFESTO §17)."""
         grupos = defaultdict(list)
         for p in self.perguntas:
+            if not conta_na_saturacao(p, origem):
+                continue
             grupos[self.resolver(p["ancora"]) or p["ancora"]].append(p)
+        return grupos
+
+    def colecao_por_ancora(self, colecao):
+        """{id da âncora ativa: todas as perguntas da coleção que apontam para ela}, inclusive as que ficam fora da
+        saturação (figura_livre)."""
+        grupos = defaultdict(list)
+        for p in self.perguntas:
+            if p.get("colecao") == colecao:
+                grupos[self.resolver(p["ancora"]) or p["ancora"]].append(p)
         return grupos
 
     def angulos_por_ancora(self, perguntas=None):
@@ -163,6 +174,81 @@ SUBTEMAS_COLECAO = {"pokemon": {
 }}
 PISO_SUBTEMA_COLECAO = {"pokemon": 0.30}
 
+# Documento com as regras de conteúdo próprias de cada coleção, enviadas ao LLM depois da Parte I do MANIFESTO
+# (comum.manifesto_para_llm), e as coleções cujos lotes não têm cota de ângulos (MANIFESTO §9).
+DOC_COLECAO = {"pokemon": "modo_pokemon.md"}
+SEM_COTA_ANGULOS = {"pokemon"}
+
+# Saturação por âncora (MANIFESTO §4 e §17): no jogo original, no máximo 3 perguntas por âncora, 2 com figura.
+# As exclusivas de uma coleção têm conta própria: contam só as perguntas da coleção, com o limite do documento
+# dela; e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+MAX_POR_ANCORA = 3
+MAX_FIGURA_POR_ANCORA = 2
+MAX_POR_ANCORA_COLECAO = {"pokemon": 5}
+
+
+def colecao_exclusiva(origem):
+    """A coleção de um lote exclusivo (origem: a encomenda ou o catálogo), senão None."""
+    return origem.get("colecao") if origem and origem.get("exclusiva") else None
+
+
+# Coleções em que a silhueta (a casa "Quem é esse pokémon?", com qualquer pergunta sobre o pokémon escondido) e o
+# cartão de tipo e atributos ficam fora da saturação: todo pokémon pode ter os dois, além das outras perguntas, mas
+# só um de cada (modo_pokemon.md).
+FIGURA_LIVRE = {"pokemon"}
+
+
+def figura_livre(pergunta):
+    """"cartao" ou "silhueta" se a pergunta de uma coleção é um cartão de tipo e atributos ou uma figura em silhueta
+    com revelação, senão None."""
+    if "imagem" not in pergunta or not pergunta.get("colecao"):
+        return None
+    if "atributos base" in pergunta.get("pergunta", ""):
+        return "cartao"
+    return "silhueta" if "revelacao" in pergunta["imagem"] else None
+
+
+def silhueta(pergunta):
+    return figura_livre(pergunta) == "silhueta"
+
+
+# Casas temáticas do tabuleiro do modo Pokémon (modo_pokemon.md, "Casas temáticas"): a casa dita o teor da pergunta.
+# Metade das casas comuns é de figura e metade de texto, refletindo a regra editorial do modo (MIN_FIGURA_COLECAO). Os
+# nomes, as cores e a ordem no tabuleiro ficam em app/public/linear.js (CASAS_FIGURA e CASAS_TEXTO), com os mesmos
+# nomes. O export grava a casa de cada pergunta no campo "casa" do app.
+CASAS_FIGURA_POKEMON = ["Quem é esse pokémon?", "Cartão de atributos"]
+CASAS_TEXTO_POKEMON = ["Jogos e Regiões", "Anime e Filmes", "Pokédex"]
+CASAS_POKEMON = CASAS_FIGURA_POKEMON + CASAS_TEXTO_POKEMON
+CASA_DO_SUBTEMA = {"Pokédex": "Pokédex", "Jogos da Série Principal": "Jogos e Regiões",
+                   "Anime, Filmes e Franquia": "Anime e Filmes"}
+# Regra editorial: a fração mínima das perguntas da coleção que tem figura (modo Pokémon: pelo menos metade).
+MIN_FIGURA_COLECAO = {"pokemon": 0.5}
+
+
+def casa_pokemon(pergunta):
+    """A casa temática do modo Pokémon em que a pergunta da coleção pokemon sai, ou None se não é da coleção.
+    Figuras: o cartão é "Cartão de atributos", e a silhueta, qualquer que seja a pergunta (o nome, o tipo, a
+    evolução, a região), é "Quem é esse pokémon?". Texto: pelo subtema do modo."""
+    if pergunta.get("colecao") != "pokemon":
+        return None
+    if figura_livre(pergunta) == "cartao":
+        return "Cartão de atributos"
+    if "imagem" in pergunta:
+        return "Quem é esse pokémon?"
+    return CASA_DO_SUBTEMA.get(pergunta.get("subtema_colecao"), "Pokédex")
+
+
+def conta_na_saturacao(pergunta, origem=None):
+    """A pergunta conta na saturação das âncoras de um lote desta origem?"""
+    colecao = colecao_exclusiva(origem)
+    if not colecao:
+        return not pergunta.get("exclusiva")
+    return pergunta.get("colecao") == colecao and not (colecao in FIGURA_LIVRE and figura_livre(pergunta))
+
+
+def limite_por_ancora(origem=None):
+    return MAX_POR_ANCORA_COLECAO.get(colecao_exclusiva(origem), MAX_POR_ANCORA)
+
 
 def subtemas_da_colecao(perguntas, colecao):
     """{subtema_colecao: nº de perguntas}, com zero nos subtemas ainda vazios."""
@@ -212,21 +298,22 @@ def erros_ancora(ancora):
     return [e.message for e in _validador_ancora.iter_errors(ancora)]
 
 
-def avisos_variedade(perguntas):
-    """Regras de variedade de um lote (MANIFESTO §9)."""
+def avisos_variedade(perguntas, cota_angulos=True):
+    """Regras de variedade de um lote (MANIFESTO §9); sem as cotas de ângulo nas coleções de SEM_COTA_ANGULOS."""
     n = len(perguntas)
     if n == 0:
         return []
     avisos = []
     angulos = Counter(p["angulo"] for p in perguntas)
-    for angulo, qtd in angulos.items():
-        if qtd / n > 0.25:
-            avisos.append(f"ângulo {angulo!r} em {qtd}/{n} perguntas (máximo 25%)")
-    if len(angulos) < 6:
-        avisos.append(f"apenas {len(angulos)} ângulos diferentes (mínimo 6)")
-    genericos = angulos["identidade"] + angulos["atributo"]
-    if genericos / n > 0.30:
-        avisos.append(f"identidade + atributo em {genericos}/{n} perguntas (máximo 30%)")
+    if cota_angulos:
+        for angulo, qtd in angulos.items():
+            if qtd / n > 0.25:
+                avisos.append(f"ângulo {angulo!r} em {qtd}/{n} perguntas (máximo 25%)")
+        if len(angulos) < 6:
+            avisos.append(f"apenas {len(angulos)} ângulos diferentes (mínimo 6)")
+        genericos = angulos["identidade"] + angulos["atributo"]
+        if genericos / n > 0.30:
+            avisos.append(f"identidade + atributo em {genericos}/{n} perguntas (máximo 30%)")
     por_ancora = Counter(p["ancora"] for p in perguntas)
     for ancora, qtd in por_ancora.items():
         if qtd > 2:

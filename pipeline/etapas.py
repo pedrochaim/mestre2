@@ -20,10 +20,10 @@ ARQUIVOS = {
 }
 CAMPOS = ["tema", "subtema", "angulo", "tipo", "pergunta", "resposta", "distratores", "fonte"]
 MAX_PERGUNTAS_NO_PROMPT = 400
-# Saturação por âncora (MANIFESTO §17): uma âncora com MAX_POR_ANCORA perguntas no banco inteiro, somando texto
-# e figura, não recebe outra. O gerador é avisado das âncoras do tema que já têm SATURACAO_AVISO perguntas.
-MAX_POR_ANCORA = 3
-SATURACAO_AVISO = 2
+# Saturação por âncora (MANIFESTO §17): uma âncora no limite (bc.limite_por_ancora, somando texto e figura) não
+# recebe outra. O gerador é avisado das âncoras do tema a uma pergunta do limite. Num lote exclusivo de uma coleção,
+# a conta é só a das perguntas da coleção (bc.conta_na_saturacao).
+MAX_POR_ANCORA = bc.MAX_POR_ANCORA
 MAX_SATURADAS_NO_PROMPT = 300
 
 
@@ -42,23 +42,56 @@ def _resumo(item):
 
 # ---------------------------------------------------------------- 1. geração
 
+# Regras de variedade de um lote de texto (MANIFESTO §9), e a versão sem cota de ângulos das coleções de
+# bc.SEM_COTA_ANGULOS (as regras do modo dizem o resto).
+VARIEDADE_LOTE = """- No máximo 25% das perguntas num mesmo ângulo, e pelo menos 6 ângulos diferentes.
+- `identidade` + `atributo` somam no máximo 30%.
+- No máximo 2 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
+- Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
+- Prefira âncoras que ainda **não** aparecem na lista abaixo. Profundidade vem de ângulos novos sobre âncoras conhecidas, e não de âncoras obscuras."""
+VARIEDADE_SEM_COTA = """- **Sem cota de ângulos:** o lote pode se concentrar nos ângulos que o foco pede (regras do modo, no final).
+- No máximo 2 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
+- Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
+- Uma âncora da lista abaixo pode receber perguntas até o limite, desde que sobre fatos novos. Profundidade vem de fatos novos sobre assuntos conhecidos, e não de assuntos obscuros."""
+
+
 def montar_prompt_geracao(enc, banco):
-    existentes = banco.perguntas_do_subtema(enc["tema"], enc["subtema"])
+    colecao = bc.colecao_exclusiva(enc)
+    limite = bc.limite_por_ancora(enc)
+    if colecao:
+        # Lote exclusivo: a saturação e os fatos já usados contam na coleção, e não no subtema do jogo original.
+        # Só as perguntas de texto vão ao prompt: as com figura são quase todas de molde fixo ("Quem é esse
+        # pokémon?", tipo, região, evolução), e a checagem de repetidos pela âncora as compara depois.
+        da_conta = [p for p in banco.perguntas if bc.conta_na_saturacao(p, enc)]
+        existentes = [p for p in da_conta if "imagem" not in p]
+        escopo = f"na coleção `{colecao}`"
+    else:
+        da_conta = existentes = banco.perguntas_do_subtema(enc["tema"], enc["subtema"])
+        escopo = "neste subtema"
 
+    por_ancora = banco.perguntas_por_ancora(enc)
+    # Num lote exclusivo, as âncoras que só têm figuras de molde fixo ficam fora da lista, salvo perto do limite:
+    # a resolução de âncoras (etapa 4) liga pelo nome uma proposta a elas.
+    com_texto = {banco.resolver(p["ancora"]) or p["ancora"] for p in existentes}
     linhas_ancoras = []
-    for id_ancora, angulos in sorted(banco.angulos_por_ancora(existentes).items()):
+    for id_ancora, angulos in sorted(banco.angulos_por_ancora(da_conta).items()):
         a = banco.ancora_por_id.get(id_ancora)
+        if colecao and id_ancora not in com_texto and len(por_ancora.get(id_ancora, [])) < limite - 1:
+            continue
         if a:
-            linhas_ancoras.append(f"- `{a['id']}` | {a['nome']} | {a['descricao']} | ângulos: {', '.join(sorted(angulos))}")
+            total = f" | {len(por_ancora.get(id_ancora, []))} perguntas" if colecao else ""
+            linhas_ancoras.append(f"- `{a['id']}` | {a['nome']} | {a['descricao']} | ângulos: {', '.join(sorted(angulos))}{total}")
 
-    linhas_perguntas = [f"- {p['pergunta']} → {p['resposta']}" for p in existentes[-MAX_PERGUNTAS_NO_PROMPT:]]
+    recentes = existentes if colecao else existentes[-MAX_PERGUNTAS_NO_PROMPT:]
+    linhas_perguntas = [f"- {p['pergunta']} → {p['resposta']}" for p in recentes]
 
-    # Âncoras do tema inteiro (de qualquer subtema) já perto do limite: o gerador deve evitá-las.
-    do_subtema = {banco.resolver(p["ancora"]) for p in existentes}
+    # Âncoras do tema inteiro (de qualquer subtema) a uma pergunta do limite: o gerador deve evitá-las. Num lote
+    # exclusivo, todas as âncoras da conta já estão na lista acima, com o número de perguntas.
+    do_subtema = {banco.resolver(p["ancora"]) for p in da_conta}
     saturadas = []
-    for id_ancora, ps in banco.perguntas_por_ancora().items():
+    for id_ancora, ps in por_ancora.items():
         a = banco.ancora_por_id.get(id_ancora)
-        if a and id_ancora not in do_subtema and len(ps) >= SATURACAO_AVISO and any(p["tema"] == enc["tema"] for p in ps):
+        if a and id_ancora not in do_subtema and len(ps) >= limite - 1 and any(p["tema"] == enc["tema"] for p in ps):
             saturadas.append((len(ps), a["nome"]))
     saturadas.sort(reverse=True)
     linhas_saturadas = [f"- {nome} ({n})" for n, nome in saturadas[:MAX_SATURADAS_NO_PROMPT]]
@@ -73,11 +106,20 @@ def montar_prompt_geracao(enc, banco):
         angulos_alvo=", ".join(enc.get("angulos_alvo", [])) or "nenhum em especial; siga as regras de variedade",
         observacoes=enc.get("observacoes") or "nenhuma",
         subtemas_colecao=_bloco_subtemas_colecao(enc),
+        regras_variedade=VARIEDADE_SEM_COTA if colecao in bc.SEM_COTA_ANGULOS else VARIEDADE_LOTE,
+        escopo=escopo,
+        formato_extra=f" | perguntas da âncora na coleção (máximo {limite})" if colecao else "",
+        limite=limite,
         ancoras_existentes="\n".join(linhas_ancoras) or "(nenhuma)",
         perguntas_existentes="\n".join(linhas_perguntas) or "(nenhuma)",
         ancoras_saturadas="\n".join(linhas_saturadas) or "(nenhuma)",
-        manifesto=manifesto_para_llm(),
+        manifesto=_manifesto(enc),
     )
+
+
+def _manifesto(enc):
+    """A Parte I do MANIFESTO e, num lote exclusivo de uma coleção com documento próprio, as regras do modo."""
+    return manifesto_para_llm(bc.DOC_COLECAO.get(bc.colecao_exclusiva(enc)))
 
 
 def _bloco_subtemas_colecao(enc):
@@ -152,7 +194,7 @@ def completar_reescritas(enc, avaliacoes, lote, pasta, config):
         ler_texto(PROMPTS_DIR / "reescrever.md"),
         tema=enc["tema"], subtema=enc["subtema"],
         lote=json.dumps(pedido, ensure_ascii=False, indent=2),
-        manifesto=manifesto_para_llm(),
+        manifesto=_manifesto(enc),
     )
     c = config["criticar"]
     saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_reescrita.json"), c["modelo"], c["esforco"],
@@ -180,7 +222,7 @@ def montar_prompt_critica(enc, itens, pasta):
         ler_texto(PROMPTS_DIR / "criticar.md"),
         tema=enc["tema"], subtema=enc["subtema"],
         lote=json.dumps(lote, ensure_ascii=False, indent=2),
-        manifesto=manifesto_para_llm(),
+        manifesto=_manifesto(enc),
     )
     return lote, prompt
 
@@ -352,8 +394,10 @@ def resolver_ancoras(enc, banco, pasta, config):
 
     # 4d. liga cada pergunta à sua âncora e aplica os limites (MANIFESTO §4 e §9)
     finais = []
-    angulos_banco = banco.angulos_por_ancora()
-    total_banco = {k: len(v) for k, v in banco.perguntas_por_ancora().items()}
+    angulos_banco = banco.angulos_por_ancora([p for p in banco.perguntas if bc.conta_na_saturacao(p, enc)])
+    total_banco = {k: len(v) for k, v in banco.perguntas_por_ancora(enc).items()}
+    limite = bc.limite_por_ancora(enc)
+    conta = f"na coleção {enc['colecao']}" if bc.colecao_exclusiva(enc) else "no banco inteiro"
     no_lote = {}
     for it in itens:
         chave = it.pop("_nova", None)
@@ -380,9 +424,9 @@ def resolver_ancoras(enc, banco, pasta, config):
             registrar_log(enc["id"], "ancoras", "descartada",
                           f"âncora {it['ancora']} já tem 2 perguntas com o ângulo {it['angulo']}", _resumo(it))
             continue
-        if total_banco.get(it["ancora"], 0) + len(angulos_lote) >= MAX_POR_ANCORA:
+        if total_banco.get(it["ancora"], 0) + len(angulos_lote) >= limite:
             registrar_log(enc["id"], "ancoras", "descartada",
-                          f"âncora {it['ancora']} saturada (máx. {MAX_POR_ANCORA} perguntas no banco inteiro)", _resumo(it))
+                          f"âncora {it['ancora']} saturada (máx. {limite} perguntas {conta})", _resumo(it))
             continue
         angulos_lote.append(it["angulo"])
         finais.append(it)
@@ -400,8 +444,9 @@ def resolver_ancoras(enc, banco, pasta, config):
 
 def checar_repetidos(enc, banco, itens, pasta, config):
     """Repetição pela âncora (MANIFESTO §17): cada pergunta nova cuja âncora já tem perguntas no banco, em qualquer
-    tema, é comparada só com essas perguntas, numa chamada pequena ao LLM. Se pergunta o mesmo fato, sai."""
-    por_ancora = banco.perguntas_por_ancora()
+    tema, é comparada só com essas perguntas, numa chamada pequena ao LLM. Se pergunta o mesmo fato, sai. Num lote
+    exclusivo de uma coleção, contam as perguntas da coleção, como na saturação."""
+    por_ancora = banco.perguntas_por_ancora(enc)
     casos, item_do_caso = [], {}
     for it in itens:
         existentes = por_ancora.get(it["ancora"], [])
@@ -474,7 +519,7 @@ def registrar(enc, banco, canon, pasta):
         registradas.append(final)
         numero += 1
 
-    for aviso in bc.avisos_variedade(registradas):
+    for aviso in bc.avisos_variedade(registradas, cota_angulos=bc.colecao_exclusiva(enc) not in bc.SEM_COTA_ANGULOS):
         registrar_log(enc["id"], "variedade", "aviso", aviso)
 
     banco.estado["concluidas"].append(enc["id"])

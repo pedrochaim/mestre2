@@ -90,12 +90,25 @@ def preencher(modelo, **valores):
 MARCA_FIM_CONTEUDO = "<!-- FIM DAS REGRAS DE CONTEÚDO"
 
 
-def manifesto_para_llm():
-    """Só a Parte I do manifesto (regras de conteúdo), que é o que o gerador e o crítico precisam."""
+MARCA_INICIO_MODO = "<!-- INÍCIO DAS REGRAS DE CONTEÚDO DO MODO"
+MARCA_FIM_MODO = "<!-- FIM DAS REGRAS DE CONTEÚDO DO MODO"
+
+
+def manifesto_para_llm(doc_colecao=None):
+    """Só a Parte I do manifesto (regras de conteúdo), que é o que o gerador e o crítico precisam. Num lote exclusivo
+    de uma coleção, vêm depois as regras de conteúdo do documento dela (doc_colecao, em manifesto/), que prevalecem."""
     texto = ler_texto(MANIFESTO)
     if MARCA_FIM_CONTEUDO not in texto:
         raise ValueError(f"Marca de fim das regras de conteúdo não encontrada em {MANIFESTO}")
-    return texto.split(MARCA_FIM_CONTEUDO)[0].rstrip()
+    parte1 = texto.split(MARCA_FIM_CONTEUDO)[0].rstrip()
+    if not doc_colecao:
+        return parte1
+    doc = MANIFESTO_DIR / doc_colecao
+    texto = ler_texto(doc)
+    if MARCA_INICIO_MODO not in texto or MARCA_FIM_MODO not in texto:
+        raise ValueError(f"Marcas das regras de conteúdo do modo não encontradas em {doc}")
+    regras = texto.split(MARCA_INICIO_MODO)[1].split("-->", 1)[1].split(MARCA_FIM_MODO)[0].strip()
+    return f"{parte1}\n\n---\n\n# Regras de conteúdo do modo ({doc_colecao})\n\n{regras}"
 
 
 def carregar_canon():

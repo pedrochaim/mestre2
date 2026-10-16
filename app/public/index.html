@@ -345,12 +345,16 @@
       #mesa.com-pergunta.trilha { align-items: center; }
       #mesa.com-pergunta.trilha .tabuleiro svg { height: 52vh; }
     }
-    /* Modo Linear: o tabuleiro é deitado (1600 × 880); com a pergunta, fica ao lado dela na tela deitada. */
-    #mesa.linear .tabuleiro { width: min(100%, calc((100vh - 4vmin) * 1600 / 880)); }
-    #mesa.com-pergunta.linear .tabuleiro { width: min(60vw, calc((100vh - 4vmin) * 1600 / 880)); }
-    @media (orientation: portrait) { #mesa.com-pergunta.linear .tabuleiro { width: min(100%, calc(48vh * 1600 / 880)); } }
+    /* Modo Linear: o tabuleiro é deitado (1600 × 880; no modo Pokémon, mais alto, com a legenda: --alt-linear);
+       com a pergunta, fica ao lado dela na tela deitada. */
+    #mesa.linear .tabuleiro { width: min(100%, calc((100vh - 4vmin) * 1600 / var(--alt-linear, 880))); }
+    #mesa.com-pergunta.linear .tabuleiro { width: min(60vw, calc((100vh - 4vmin) * 1600 / var(--alt-linear, 880))); }
+    @media (orientation: portrait) { #mesa.com-pergunta.linear .tabuleiro { width: min(100%, calc(48vh * 1600 / var(--alt-linear, 880))); } }
     [hidden] { display: none !important; }
-  </style>
+      /* Legenda das casas temáticas do modo Pokémon: ícone e nome, em linhas que quebram. */
+    .legenda-pokemon { display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
+    .legenda-pokemon span { display: inline-flex; align-items: center; gap: .4rem; }
+</style>
 </head>
 <body>
 <main>
@@ -383,7 +387,7 @@
       <button id="criar-linear" style="width:100%">Nova partida · Linear (protótipo)</button>
       <p class="suave" style="margin:.3rem 0 .8rem">Todos na mesma trilha de 60 casas, até a chegada.</p>
       <button id="criar-pokemon" style="width:100%">Nova partida · Pokémon</button>
-      <p id="pokemon-desc" class="suave" style="margin:.3rem 0 0">A trilha do Linear, só com perguntas de pokémon.</p>
+      <p id="pokemon-desc" class="suave" style="margin:.3rem 0 0">A trilha do Linear com casas temáticas de pokémon.</p>
     </div>
     <div id="info-entrada" hidden></div>
   </section>
@@ -506,8 +510,10 @@
         <details id="regras-linear" class="regras" hidden>
           <summary>Como se joga</summary>
           <p id="regras-pokemon" class="suave" hidden><strong>Modo Pokémon:</strong> a trilha e as regras são as do
-            Linear, mas todas as perguntas são de pokémon, em qualquer casa. O tabuleiro é a mesma trilha, desenhada
-            como um caminho na grama, com as casas numeradas e uma pokébola nas especiais.</p>
+            Linear, e todas as perguntas são de pokémon. A casa dita o teor da pergunta, e metade das casas é de figura
+            (Quem é esse pokémon?, a silhueta, em que a resposta nem sempre é o nome, e o Cartão de atributos); as
+            outras são de texto. No Início e nas casas com pokébola, a pergunta é de qualquer casa.</p>
+          <p id="legenda-pokemon" class="suave legenda-pokemon" hidden></p>
           <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
             xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
             qualquer tema. Cada acerto avança uma casa; errar não move o peão. As ações das casas ★ ainda serão
@@ -648,8 +654,14 @@
   const ARCO = `linear-gradient(90deg, ${Object.values(CORES).map(([c], i, a) =>
     `${c} ${i * 100 / a.length}%, ${c} ${(i + 1) * 100 / a.length}%`).join(", ")})`;
 
+  // Cor de um tema ou de uma casa temática do modo Pokémon (linear.js).
+  const corDe = t => CORES[t] || L.CORES_POKEMON[t];
+  // No modo Pokémon, o "tema" da pergunta é a sua casa temática (campo "casa", gravado pelo export); nos outros
+  // modos, o tema do banco.
+  const temaDe = p => ehPokemon() ? p.casa : p.tema;
+
   function pintar(el, tema) {
-    const [c, ct] = tema === "*" ? (ehPokemon() ? ["#ffcb05", "#2a3a8c"] : [ARCO, "#fff"]) : CORES[tema] || ["#6b6b66", "#fff"];
+    const [c, ct] = tema === "*" ? (ehPokemon() ? ["#ffcb05", "#2a3a8c"] : [ARCO, "#fff"]) : corDe(tema) || ["#6b6b66", "#fff"];
     el.style.setProperty("--c", c);
     el.style.setProperty("--ct", ct);
   }
@@ -663,13 +675,17 @@
   const CENTRO = CASAS_E1 + CASAS_E2;
   const CHEGADA = CENTRO + 1;
 
-  // Todos os temas do jogo, na ordem das cores, mesmo os que ainda não têm perguntas no banco.
+  // Todos os temas do jogo, na ordem das cores, mesmo os que ainda não têm perguntas no banco. No modo Pokémon,
+  // as casas temáticas.
   function temasDoJogo() {
+    if (ehPokemon()) return [...L.CASAS_POKEMON];
     const extras = [...new Set(perguntas.map(p => p.tema))].filter(t => !CORES[t]);
     return [...Object.keys(CORES), ...extras.sort((a, b) => a.localeCompare(b, "pt"))];
   }
+  // As cores possíveis do peão de um jogador: os temas do jogo (no modo Pokémon, os temas do Master).
+  const coresDePeao = () => ehPokemon() ? Object.keys(CORES) : temasDoJogo();
 
-  const temPerguntas = tema => tema === "*" ? perguntas.length > 0 : perguntas.some(p => p.tema === tema);
+  const temPerguntas = tema => tema === "*" ? perguntas.length > 0 : perguntas.some(p => temaDe(p) === tema);
 
   // Última casa do modo: no Linear, a trilha de linear.js; no Master, o centro.
   const chegadaDoModo = () => ehLinear() ? L.CHEGADA : CHEGADA;
@@ -683,7 +699,7 @@
   // Tema da próxima pergunta do jogador; "*" (qualquer tema) na pergunta final; null se ele já chegou.
   function temaAtual(j) {
     const p = casaDe(j);
-    if (ehPokemon()) return p >= L.CHEGADA ? null : "*";
+    if (ehPokemon()) return L.casaPokemon(p);
     if (ehLinear()) return L.temaDaCasa(p);
     if (p >= CHEGADA) return null;
     if (p === CENTRO) return "*";
@@ -702,7 +718,7 @@
 
   // Tema inicial: sorteado entre os temas menos usados pelos jogadores da partida.
   function temaInicial() {
-    const temas = temasDoJogo();
+    const temas = coresDePeao();
     const uso = t => jogadores.filter(j => j.tema === t).length;
     const menor = Math.min(...temas.map(uso));
     const livres = temas.filter(t => uso(t) === menor);
@@ -720,10 +736,12 @@
   // O modo Pokémon sorteia só as perguntas da coleção "pokemon"; os outros modos, todas menos as exclusivas de
   // uma coleção (MANIFESTO §6, "Coleções").
   const pokemonDoBanco = () => banco.filter(p => p.colecao === "pokemon");
+  // Legenda das casas temáticas do modo Pokémon, com os ícones do tabuleiro (linear.js).
+  $("legenda-pokemon").innerHTML = L.CASAS_POKEMON.map(c => `<span>${L.iconePokemon(c, 26)} ${c}</span>`).join("");
   function perguntasDoModo() {
     perguntasPokemon = ehPokemon();
     perguntas = perguntasPokemon ? pokemonDoBanco() : banco.filter(p => !p.exclusiva);
-    $("pokemon-desc").textContent = `A trilha do Linear, só com perguntas de pokémon (${numero(pokemonDoBanco().length)}).`;
+    $("pokemon-desc").textContent = `A trilha do Linear com casas temáticas de pokémon (${numero(pokemonDoBanco().length)} perguntas).`;
   }
 
   // ---------------------------------------------------------------- entrada
@@ -862,7 +880,7 @@
   async function desenharInfo(caixa) {
     await carregando;
     const canonicos = await carregandoTemas;
-    const ordem = temasDoJogo();
+    const ordem = coresDePeao();
     const lista = [...canonicos].sort((a, b) => ordem.indexOf(a.tema) - ordem.indexOf(b.tema));
     // Temas e subtemas do banco que não estão na lista canônica entram no fim, sem descrição.
     for (const t of ordem) if (!lista.some(x => x.tema === t)) lista.push({ tema: t, descricao: "", subtemas: [] });
@@ -942,7 +960,7 @@
   // Perguntas do tema com os filtros de figura e de áudio; "restantes" são as que ainda não saíram na partida.
   function doFiltro(tema) {
     const figura = $("figura").value, audio = $("filtro-audio").value;
-    return perguntas.filter(p => (tema === "*" || p.tema === tema)
+    return perguntas.filter(p => (tema === "*" || temaDe(p) === tema)
       && (figura === "todas" || (figura === "com") === Boolean(p.imagem))
       && (audio === "todas" || (audio === "com") === Boolean(p.audio)));
   }
@@ -955,10 +973,10 @@
     const temas = temasDoJogo();
     if (!temas.includes(temaEscolhido)) temaEscolhido = "*";
     // Só os temas com perguntas viram botões; os outros ficam listados numa linha de "em breve".
-    const vazios = ehPokemon() ? [] : temas.filter(t => !temPerguntas(t));
+    const vazios = temas.filter(t => !temPerguntas(t));
     $("em-breve").hidden = !vazios.length;
     $("em-breve").textContent = `Em breve: ${vazios.join(", ")}.`;
-    $("temas").replaceChildren(...["*", ...(ehPokemon() ? [] : temas.filter(temPerguntas))].map(t => {
+    $("temas").replaceChildren(...["*", ...temas.filter(temPerguntas)].map(t => {
       const b = document.createElement("button");
       const novas = restantes(t).length;
       b.textContent = `${t === "*" ? (ehPokemon() ? "Pokémon" : "Qualquer tema") : t} ${novas || !doFiltro(t).length ? `(${novas})` : "(só repetidas)"}`;
@@ -1034,9 +1052,9 @@
     $("revelar-todos").textContent = "Mostrar resposta para todos";
     $("atual-repetida").hidden = !antes;
     $("atual-repetida").textContent = `Repetida · já saiu ${antes === 1 ? "1 vez" : `${antes} vezes`} nesta partida`;
-    $("atual-tema").textContent = `${p.tema} › ${p.subtema}`;
-    pintar($("atual-tema"), p.tema);
-    pintar($("atual"), p.tema);
+    $("atual-tema").textContent = ehPokemon() ? temaDe(p) : `${p.tema} › ${p.subtema}`;
+    pintar($("atual-tema"), temaDe(p));
+    pintar($("atual"), temaDe(p));
     $("atual-figura").hidden = !p.imagem;
     if (p.imagem) {
       $("atual-img").src = $("tela-cheia-img").src = "img/" + p.imagem.arquivo;
@@ -1162,7 +1180,7 @@
     if (!ultimaLida) return $("anterior-corpo").replaceChildren();
     const { p, sorteio } = ultimaLida;
     const resumo = el("div", { className: "resumo" });
-    resumo.append(etiqueta(p.tema), el("div", { textContent: p.pergunta, style: "margin-top:.4rem" }),
+    resumo.append(etiqueta(temaDe(p)), el("div", { textContent: p.pergunta, style: "margin-top:.4rem" }),
                   el("div", { className: "resposta", textContent: p.resposta }));
     $("anterior-corpo").replaceChildren(resumo, painelAvaliacao(p, sorteio));
   }
@@ -1700,9 +1718,9 @@
       cartao.replaceChildren(topo, papeis(le.id, v.id), el("p", { className: "mp-espera", textContent: "Aguardando o sorteio…" }));
       return ajustarMesa();
     }
-    pintar(cartao, p.tema);
+    pintar(cartao, temaDe(p));
     const topo = el("div", { className: "mp-topo" });
-    topo.append(etiqueta(p.tema));
+    topo.append(etiqueta(temaDe(p)));
     // Revendo a rodada anterior, o cronômetro da pergunta em jogo continua contando por trás, sem aparecer.
     if (!revendo) {
       const tm = !a.fim && a.tempo;
@@ -2002,7 +2020,7 @@
       detalhe.append(etiqueta(temaAtual(j)), " " + situacao(j) + " ");
       if (p < CASAS_E1 || ehLinear()) {
         const troca = el("select", { title: ehLinear() ? "Trocar a cor do peão" : "Trocar o tema do estágio 1" });
-        const opcoes = temasDoJogo();
+        const opcoes = ehLinear() ? coresDePeao() : temasDoJogo();
         if (!opcoes.includes(j.tema)) opcoes.unshift(j.tema || "");
         troca.replaceChildren(...opcoes.map(t => new Option(t || "—", t, false, t === (j.tema || ""))));
         troca.onchange = () => troca.value && updateDoc(ref, { tema: troca.value });
@@ -2158,13 +2176,14 @@
     $("regras-trilha").hidden = !tr;
     $("regras-master").hidden = tr || ehLinear();
     $("regras-linear").hidden = !ehLinear();
-    $("regras-pokemon").hidden = !ehPokemon();
+    $("regras-pokemon").hidden = $("legenda-pokemon").hidden = !ehPokemon();
     if (perguntasPokemon !== undefined && perguntasPokemon !== ehPokemon()) {
       perguntasDoModo();
       desenharTemas();
     }
     $("mesa").classList.toggle("trilha", tr);
     $("mesa").classList.toggle("linear", ehLinear());
+    $("mesa").style.setProperty("--alt-linear", ehPokemon() ? L.ALTURA_POKEMON : 880);
     document.querySelector('[data-aba="sorteio"]').textContent = tr ? "Turno" : "Sorteio";
     if (!tr) { $("sortear").textContent = "Sortear"; $("sortear").disabled = false; }
   }

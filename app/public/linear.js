@@ -1,5 +1,6 @@
 // Modo Linear (MANIFESTO §15): uma trilha única de 60 casas, numa faixa ondulada de 4 fileiras que vai e volta.
-// O modo Pokémon usa a mesma trilha, com outro desenho (svgPokemon): um caminho de terra na grama.
+// O modo Pokémon usa a mesma trilha, com outro desenho (svgPokemon): um caminho de terra na grama, com as casas
+// temáticas do modo no lugar dos temas.
 // Só dados e desenho: a ligação com a tela e o Firestore fica no index.html. A posição do peão é o campo "pontos",
 // como no Master: 0 é o Início e CHEGADA é a última casa.
 
@@ -20,6 +21,31 @@ export const TIPOS = (() => {
 
 // Tema da pergunta na casa c: o tema da casa; "*" (qualquer tema) no Início e nas especiais; null na chegada.
 export const temaDaCasa = c => c >= CHEGADA ? null : TEMAS.includes(TIPOS[c]) ? TIPOS[c] : "*";
+
+// Modo Pokémon (manifesto/modo_pokemon.md, "Casas temáticas"): a casa dita o teor da pergunta. Os nomes são os do
+// campo "casa" das perguntas, gravado pelo export (casa_pokemon, em pipeline/banco.py). As casas comuns alternam
+// figura e texto, refletindo a regra editorial do modo (pelo menos metade das perguntas com figura): as de figura revezam entre si,
+// e as de texto também. [fundo, texto, sigla da casa no tabuleiro]
+export const CORES_POKEMON = {
+  "Quem é esse pokémon?": ["#2a3a8c", "#ffcb05", "?"],
+  "Cartão de atributos":  ["#1f9e89", "#fff", "ATR"],
+  "Jogos e Regiões":      ["#3d7dca", "#fff", "JOGO"],
+  "Anime e Filmes":       ["#e05fa0", "#fff", "TV"],
+  "Pokédex":              ["#c62828", "#fff", "DEX"],
+};
+const CASAS_FIGURA = ["Quem é esse pokémon?", "Cartão de atributos"];
+const CASAS_TEXTO = ["Jogos e Regiões", "Anime e Filmes", "Pokédex"];
+export const CASAS_POKEMON = Object.keys(CORES_POKEMON);
+const TIPOS_POKEMON = (() => {
+  let k = 0;
+  return TIPOS.map(tipo => {
+    if (!TEMAS.includes(tipo)) return tipo;
+    const casa = k % 2 ? CASAS_TEXTO[(k >> 1) % CASAS_TEXTO.length] : CASAS_FIGURA[(k >> 1) % CASAS_FIGURA.length];
+    k++;
+    return casa;
+  });
+})();
+export const casaPokemon = c => c >= CHEGADA ? null : CASAS_POKEMON.includes(TIPOS_POKEMON[c]) ? TIPOS_POKEMON[c] : "*";
 
 // ---------------------------------------------------------------- geometria
 
@@ -127,6 +153,82 @@ export function svgLinear(jogadores, casaDe, cores, abrev, esc, peao) {
   return `<svg viewBox="0 0 ${LARGURA} ${ALTURA}" role="img" aria-label="Tabuleiro linear">${partes.join("")}</svg>`;
 }
 
+// Ícones das casas temáticas do modo Pokémon, desenhados aqui (formas genéricas, sem logotipos oficiais), centrados
+// em (x, y) e cabendo num quadrado de lado 2r. Na falta de ícone, a casa mostra a sigla.
+function estrela(x, y, r, n, interno) {
+  const pts = Array.from({ length: n * 2 }, (_, i) => {
+    const a = Math.PI * i / n - Math.PI / 2, rr = i % 2 ? r * interno : r;
+    return `${f(x + rr * Math.cos(a))} ${f(y + rr * Math.sin(a))}`;
+  });
+  return `M${pts.join("L")}Z`;
+}
+const ICONES_POKEMON = {
+  // A vinheta do desenho: um "?" sobre a explosão amarela.
+  "Quem é esse pokémon?": (x, y, r) =>
+    `<path d="${estrela(x, y, r, 12, .72)}" fill="#ffcb05" stroke="#1d2a6b" stroke-width="2.5" stroke-linejoin="round"/>
+     <text x="${f(x)}" y="${f(y + r * .05)}" font-size="${f(r * 1.25)}" font-weight="900" fill="#2a3a8c" text-anchor="middle" dominant-baseline="central">?</text>`,
+  // O cartão: seis barras de atributos sobre uma linha de base.
+  "Cartão de atributos": (x, y, r) => {
+    const alt = [.62, .9, .5, 1, .7, .82], w = r * .22, passo = r * .32, x0 = x - passo * 2.5, base = y + r * .78;
+    return `<rect x="${f(x - r * .98)}" y="${f(y - r * .98)}" width="${f(r * 1.96)}" height="${f(r * 1.96)}" rx="${f(r * .22)}" fill="none" stroke="#fff" stroke-width="3"/>` +
+      alt.map((h, i) => `<rect x="${f(x0 + i * passo - w / 2)}" y="${f(base - h * r * 1.42)}" width="${f(w)}" height="${f(h * r * 1.42)}" rx="2" fill="#fff"/>`).join("");
+  },
+  // Um console portátil genérico: tela, direcional e dois botões.
+  "Jogos e Regiões": (x, y, r) => {
+    const w = r * 1.25, h = r * 1.9, x0 = x - w / 2, y0 = y - h / 2;
+    const cx = x0 + w * .3, cy = y0 + h * .74, b = r * .14;
+    return `<rect x="${f(x0)}" y="${f(y0)}" width="${f(w)}" height="${f(h)}" rx="${f(r * .18)}" fill="#fff"/>
+      <rect x="${f(x0 + w * .14)}" y="${f(y0 + h * .1)}" width="${f(w * .72)}" height="${f(h * .38)}" rx="3" fill="#1d3f73"/>
+      <path d="M${f(cx - b * 1.5)} ${f(cy - b / 2)}h${f(b)}v${f(-b)}h${f(b)}v${f(b)}h${f(b)}v${f(b)}h${f(-b)}v${f(b)}h${f(-b)}v${f(-b)}h${f(-b)}Z" fill="#3d7dca"/>
+      <circle cx="${f(x0 + w * .66)}" cy="${f(cy + b * .6)}" r="${f(b * .75)}" fill="#e3350d"/>
+      <circle cx="${f(x0 + w * .82)}" cy="${f(cy - b * .5)}" r="${f(b * .75)}" fill="#e3350d"/>`;
+  },
+  // Uma TV antiga com antena.
+  "Anime e Filmes": (x, y, r) => {
+    const w = r * 1.9, h = r * 1.3, x0 = x - w / 2, y0 = y - h / 2 + r * .3;
+    return `<path d="M${f(x - r * .5)} ${f(y0 - r * .62)}L${f(x)} ${f(y0 - 2)}L${f(x + r * .5)} ${f(y0 - r * .62)}" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="${f(x0)}" y="${f(y0)}" width="${f(w)}" height="${f(h)}" rx="${f(r * .2)}" fill="#fff"/>
+      <rect x="${f(x0 + w * .09)}" y="${f(y0 + h * .14)}" width="${f(w * .64)}" height="${f(h * .72)}" rx="4" fill="#8a2c5c"/>
+      <circle cx="${f(x0 + w * .86)}" cy="${f(y0 + h * .34)}" r="${f(r * .1)}" fill="#e05fa0"/>
+      <circle cx="${f(x0 + w * .86)}" cy="${f(y0 + h * .66)}" r="${f(r * .1)}" fill="#e05fa0"/>`;
+  },
+  // Uma enciclopédia eletrônica genérica: a lente azul, três luzes e a tela.
+  "Pokédex": (x, y, r) => {
+    const w = r * 1.5, h = r * 1.9, x0 = x - w / 2, y0 = y - h / 2;
+    return `<rect x="${f(x0)}" y="${f(y0)}" width="${f(w)}" height="${f(h)}" rx="${f(r * .18)}" fill="#fff"/>
+      <circle cx="${f(x0 + w * .3)}" cy="${f(y0 + h * .24)}" r="${f(r * .3)}" fill="#3d9be9" stroke="#1d2a6b" stroke-width="2"/>
+      <circle cx="${f(x0 + w * .24)}" cy="${f(y0 + h * .2)}" r="${f(r * .09)}" fill="#fff"/>
+      ${["#e3350d", "#f7d02c", "#4caf50"].map((c, i) => `<circle cx="${f(x0 + w * (.62 + i * .13))}" cy="${f(y0 + h * .17)}" r="${f(r * .07)}" fill="${c}"/>`).join("")}
+      <rect x="${f(x0 + w * .14)}" y="${f(y0 + h * .48)}" width="${f(w * .72)}" height="${f(h * .38)}" rx="3" fill="#2d2d2d"/>
+      <path d="M${f(x0 + w * .24)} ${f(y0 + h * .6)}h${f(w * .5)}M${f(x0 + w * .24)} ${f(y0 + h * .72)}h${f(w * .34)}" stroke="#7fd36b" stroke-width="2.5" stroke-linecap="round"/>`;
+  },
+};
+
+// O tabuleiro do modo Pokémon é mais alto que o do Linear: embaixo da trilha fica a legenda das casas, no canto
+// inferior esquerdo. O app usa esta altura para dimensionar o tabuleiro no modo mesa.
+export const ALTURA_POKEMON = ALTURA + 120;
+
+// Legenda das casas, numa caixa no canto inferior esquerdo, a x0 da borda esquerda: na primeira linha, as casas de
+// figura e a casa especial; na segunda, as de texto.
+function legendaPokemon(x0) {
+  const itens = [...CASAS_FIGURA, "especial", ...CASAS_TEXTO];
+  const COL = 335, LIN = 46, r = 16, pad = 12, y0 = ALTURA_POKEMON - (LIN * 2 + pad * 2) - 16;
+  const partes = [`<rect x="${x0}" y="${y0}" width="${COL * 3 + pad}" height="${LIN * 2 + pad * 2}" rx="16" fill="#1f4d1c" fill-opacity=".9" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>`];
+  itens.forEach((casa, i) => {
+    const cx = x0 + pad + (i % 3) * COL + r + 4, cy = y0 + pad + Math.floor(i / 3) * LIN + LIN / 2;
+    if (casa === "especial") partes.push(pokebola([cx, cy], r));
+    else partes.push(`<rect x="${f(cx - r - 4)}" y="${f(cy - r - 4)}" width="${2 * r + 8}" height="${2 * r + 8}" rx="7" fill="${CORES_POKEMON[casa][0]}" stroke="#000" stroke-width="1.5"/>`,
+                     ICONES_POKEMON[casa](cx, cy, r));
+    const rotulo = casa === "especial" ? "Especial: qualquer casa" : casa;
+    partes.push(`<text x="${f(cx + r + 14)}" y="${f(cy)}" font-size="21" font-weight="800" fill="#fff" dominant-baseline="central">${rotulo}</text>`);
+  });
+  return `<g pointer-events="none">${partes.join("")}</g>`;
+}
+
+// O ícone de uma casa como SVG avulso, para legendas e botões do app.
+export const iconePokemon = (casa, px = 28) => ICONES_POKEMON[casa] ?
+  `<svg viewBox="-34 -34 68 68" width="${px}" height="${px}" aria-hidden="true"><rect x="-34" y="-34" width="68" height="68" rx="12" fill="${CORES_POKEMON[casa][0]}"/>${ICONES_POKEMON[casa](0, 0, 26)}</svg>` : "";
+
 // Pokébola de raio r centrada em (x, y): marca as casas especiais do modo Pokémon.
 function pokebola([x, y], r) {
   const [a, b, w] = [f(x - r), f(x + r), f(r * .14)];
@@ -137,32 +239,35 @@ function pokebola([x, y], r) {
     <circle cx="${f(x)}" cy="${f(y)}" r="${f(r * .34)}" fill="#fff" stroke="#111" stroke-width="${w}"/>`;
 }
 
-// Modo Pokémon: a mesma trilha, como um caminho de terra na grama. As casas não têm tema (toda pergunta é de
-// pokémon): são numeradas, em dois tons de areia, e as especiais levam uma pokébola.
+// Modo Pokémon: a mesma trilha, como um caminho de terra na grama. Cada casa comum tem a cor e o ícone da sua casa
+// temática (CORES_POKEMON, ICONES_POKEMON), e as especiais levam uma pokébola.
 export function svgPokemon(jogadores, casaDe, peao) {
   const TERRA = "#7a5a2e";
   const partes = [
     `<defs>${XADREZ}<pattern id="grama" width="60" height="52" patternUnits="userSpaceOnUse"><rect width="60" height="52" fill="#4f9d47"/>
        <path d="M10 20l3-9 3 9M13 20v-4M40 46l3-9 3 9M43 46v-4" stroke="#3d8237" stroke-width="2.5" fill="none" stroke-linecap="round"/>
        <circle cx="32" cy="14" r="2.2" fill="#3d8237"/><circle cx="52" cy="30" r="2.2" fill="#3d8237"/></pattern></defs>`,
-    `<rect width="${LARGURA}" height="${ALTURA}" rx="26" fill="url(#grama)"/>`,
+    `<rect width="${LARGURA}" height="${ALTURA_POKEMON}" rx="26" fill="url(#grama)"/>`,
     caminho(TERRA),
   ];
   IDX.forEach((_, c) => {
-    const tipo = TIPOS[c];
-    const [fundo, dica] =
-      tipo === "inicio" ? ["#f2f2f2", "Início"] :
+    const tipo = TIPOS_POKEMON[c];
+    const [fundo, cor, sigla] = CORES_POKEMON[tipo] || [];
+    const [preenchimento, dica] =
+      tipo === "inicio" ? ["#f2f2f2", "Início · qualquer casa"] :
       tipo === "chegada" ? ["url(#xadrez)", "Chegada"] :
-      tipo === "especial" ? ["#2a2a2a", "Casa especial (ação ainda a definir)"] :
-      [c % 2 ? "#ead9a8" : "#dcc48b", "Pokémon"];
-    partes.push(`<path d="${contornoDaCasa(c)}" fill="${fundo}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
+      tipo === "especial" ? ["#2a2a2a", "Casa especial · qualquer casa (ação ainda a definir)"] :
+      [fundo, tipo];
+    partes.push(`<path d="${contornoDaCasa(c)}" fill="${preenchimento}" stroke="#000" stroke-width="3"><title>Casa ${c} · ${dica}</title></path>`);
     if (tipo === "inicio") partes.push(texto(CENTROS[c], "INÍCIO", 19, "#111"));
     else if (tipo === "especial") partes.push(`<g pointer-events="none">${pokebola(CENTROS[c], 30)}</g>`);
-    else if (tipo !== "chegada") partes.push(texto(CENTROS[c], c, 26, TERRA));
+    else if (ICONES_POKEMON[tipo]) partes.push(`<g pointer-events="none">${ICONES_POKEMON[tipo](...CENTROS[c], 30)}</g>`);
+    else if (sigla) partes.push(texto(CENTROS[c], sigla, sigla.length > 1 ? 24 : 40, cor));
   });
   const [ex, ey] = PTS.at(-1);
   partes.push(texto([X0 + 50, LINHAS[0] - 92], "▼ PARTIDA", 22, "#fff", "#2f6b2a"),
               texto([ex + 50, ey + 92], "CHEGADA ▲", 22, "#fff", "#2f6b2a"));
+  partes.push(legendaPokemon(24));
   partes.push(...peoes(jogadores, casaDe, peao));
-  return `<svg viewBox="0 0 ${LARGURA} ${ALTURA}" role="img" aria-label="Tabuleiro do modo Pokémon">${partes.join("")}</svg>`;
+  return `<svg viewBox="0 0 ${LARGURA} ${ALTURA_POKEMON}" role="img" aria-label="Tabuleiro do modo Pokémon">${partes.join("")}</svg>`;
 }

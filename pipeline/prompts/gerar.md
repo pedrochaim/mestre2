@@ -12,20 +12,16 @@ Você é o gerador de perguntas do Mestre2, um jogo de quiz em que as perguntas 
 
 # Regras de variedade deste lote
 
-- No máximo 25% das perguntas num mesmo ângulo, e pelo menos 6 ângulos diferentes.
-- `identidade` + `atributo` somam no máximo 30%.
-- No máximo 2 perguntas por âncora, e nunca duas com o mesmo ângulo sobre a mesma âncora.
-- Perguntas do mesmo ângulo não devem repetir o mesmo molde de frase (MANIFESTO §5).
-- Prefira âncoras que ainda **não** aparecem na lista abaixo. Profundidade vem de ângulos novos sobre âncoras conhecidas, e não de âncoras obscuras.
+{{regras_variedade}}
 
-# Âncoras já cadastradas neste subtema
+# Âncoras já cadastradas {{escopo}}
 
-Formato: `id` | nome | descrição | ângulos já usados.
+Formato: `id` | nome | descrição | ângulos já usados{{formato_extra}}.
 Se uma pergunta for sobre uma destas âncoras, preencha `ancora.id_existente` com o `id` e **evite repetir um ângulo já usado** para ela (o banco aceita no máximo 2 perguntas com o mesmo ângulo por âncora). Para âncoras novas, omita `id_existente`.
 
 {{ancoras_existentes}}
 
-# Perguntas já existentes neste subtema
+# Perguntas já existentes {{escopo}}
 
 Não repita estes fatos, nem com outras palavras:
 
@@ -33,7 +29,7 @@ Não repita estes fatos, nem com outras palavras:
 
 # Âncoras já muito usadas em outros subtemas deste tema
 
-Estas entidades já têm várias perguntas no banco, em outros subtemas (o número entre parênteses). **Não as use como âncora**: o banco aceita no máximo 3 perguntas por âncora, somando todos os temas. Procure outras entidades.
+Estas entidades já têm várias perguntas no banco, em outros subtemas (o número entre parênteses). **Não as use como âncora**: o banco aceita no máximo {{limite}} perguntas por âncora, somando todos os temas. Procure outras entidades.
 
 {{ancoras_saturadas}}
 
