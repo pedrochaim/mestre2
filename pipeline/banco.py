@@ -37,6 +37,11 @@ class Banco:
     def _reindexar(self):
         self.ancora_por_id = {a["id"]: a for a in self.ancoras}
 
+    def abandonados(self):
+        """Ids dos lotes que o autopiloto largou depois de falhas seguidas. Não estão concluídos: a pasta de
+        trabalho guarda o que já foi feito, e `autopiloto.py --retomar` os devolve à fila."""
+        return {r["id"] for r in self.estado.get("abandonados", [])}
+
     def salvar(self):
         # Âncoras antes das perguntas: uma pergunta nunca aponta para âncora não gravada.
         gravar_json(ARQ_ANCORAS, self.ancoras)

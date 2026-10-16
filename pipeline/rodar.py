@@ -74,7 +74,8 @@ def selecionar(encomendas, banco, id_encomenda):
         if not escolhidas:
             sys.exit(f"Encomenda não encontrada: {id_encomenda}")
         return escolhidas
-    return [e for e in encomendas if e["id"] not in banco.estado["concluidas"]]
+    # Os lotes abandonados pelo autopiloto só rodam pedidos pelo id (--encomenda) ou depois de retomados.
+    return [e for e in encomendas if e["id"] not in banco.estado["concluidas"] and e["id"] not in banco.abandonados()]
 
 
 # ---------------------------------------------------------------- comandos

@@ -170,7 +170,7 @@ def encomenda_pendente(banco):
     """Uma encomenda de texto já criada e ainda não concluída (por exemplo, interrompida pela cota)."""
     dados = ler_json(ENCOMENDAS)
     for e in dados["encomendas"]:
-        if e["id"] not in banco.estado["concluidas"] and e.get("autopiloto"):
+        if e["id"] not in banco.estado["concluidas"] and e["id"] not in banco.abandonados() and e.get("autopiloto"):
             return e
     return None
 
@@ -229,6 +229,32 @@ def pausar(banco, chave, motivo):
     print(f"  ⏸ {chave} pausado: {motivo}")
 
 
+def abandonar(banco, lote_id, chave, motivo):
+    """Larga um lote que falhou seguidas vezes, sem marcá-lo como concluído: o que ele já gerou fica na pasta de
+    trabalho, e o registro em "abandonados" permite retomá-lo depois de corrigida a causa (--retomar)."""
+    banco.estado.setdefault("abandonados", [])
+    if lote_id not in banco.abandonados():
+        banco.estado["abandonados"].append({"id": lote_id, "chave": chave, "motivo": motivo, "quando": agora()})
+    diario("abandonado", trabalho=lote_id, chave=chave, motivo=motivo)
+    print(f"  ✗ {lote_id} abandonado; retome com --retomar {lote_id}")
+
+
+def retomar(lote_id):
+    """Devolve à fila um lote abandonado e tira a pausa da fila dele."""
+    banco = bc.Banco()
+    registro = next((r for r in banco.estado.get("abandonados", []) if r["id"] == lote_id), None)
+    if not registro:
+        sys.exit(f"Lote não está entre os abandonados: {lote_id}")
+    banco.estado["abandonados"].remove(registro)
+    banco.estado["pausados"] = [p for p in banco.estado.get("pausados", []) if p != registro["chave"]]
+    if lote_id.startswith("fig_"):
+        # O próximo lote do catálogo recebe o mesmo id (figuras.proximo_lote_id) e retoma a pasta.
+        banco.estado["lote_figura_em_andamento"] = {"id": lote_id, "catalogo": registro["chave"].split(":", 1)[1]}
+    banco.salvar()
+    diario("retomado", trabalho=lote_id, chave=registro["chave"])
+    print(f"{lote_id} de volta à fila; {registro['chave']} sem pausa.")
+
+
 def espera_da_cota(mensagem, agora_=None):
     """Segundos até a cota voltar, pelo horário de liberação da mensagem ("resets 6:10pm", no fuso local, ou um
     instante Unix depois de "|"), com 2 minutos de folga; sem horário, ESPERA_COTA."""
@@ -272,18 +298,26 @@ def main():
     ap.add_argument("--so-figuras", action="store_true")
     ap.add_argument("--publicar", type=int, default=0, help="push e deploy a cada N trabalhos (0 = nunca)")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--retomar", metavar="LOTE", help="devolve à fila um lote abandonado e tira a pausa da fila dele")
     ap.add_argument("--limite-sessao", type=float, default=95,
                     help="uso máximo da sessão de 5 horas, em %%, antes de esperar a renovação (100 = até a cota acabar)")
     args = ap.parse_args()
     claude_cli.LIMITE_SESSAO = None if args.limite_sessao >= 100 else args.limite_sessao / 100
     so = "texto" if args.so_texto else "figuras" if args.so_figuras else None
 
+    if args.retomar:
+        retomar(args.retomar)
+        return
     canon = carregar_canon()
     plano = carregar_plano(canon)
     if args.status:
         banco = bc.Banco()
         imprimir_progresso(progresso(banco, plano, canon), plano)
         print("\nPausados:", bc.Banco().estado.get("pausados", []) or "nenhum")
+        abandonados = banco.estado.get("abandonados", [])
+        print("Abandonados:", "nenhum" if not abandonados else "")
+        for r in abandonados:
+            print(f"  {r['id']} ({r['quando'][:10]}): {r['motivo']}")
         st = ler_json(STATUS)
         if st:
             print("Autopiloto:", json.dumps(st, ensure_ascii=False))
@@ -343,6 +377,9 @@ def main():
                     banco.salvar()
                 feitos += 1
                 falhas.pop(chave, None)
+                if rotulo in banco.abandonados():  # lote de figuras retomado ao tirar a pausa do catálogo à mão
+                    banco.estado["abandonados"] = [r for r in banco.estado["abandonados"] if r["id"] != rotulo]
+                    banco.salvar()
                 diario("concluido", trabalho=rotulo, registradas=n, total=len(banco.perguntas))
                 if feitos % 5 == 0:
                     try:
@@ -366,12 +403,10 @@ def main():
                     print(f"  Falha ({falhas[chave]}/{MAX_FALHAS}): {msg[:200]}", flush=True)
                     if falhas[chave] >= MAX_FALHAS:
                         banco = bc.Banco()
-                        pausar(banco, chave, f"{MAX_FALHAS} falhas seguidas: {msg[:120]}")
-                        if enc:
-                            banco.estado["concluidas"].append(enc["id"])
-                        else:
-                            banco.estado.pop("lote_figura_em_andamento", None)
-                        banco.salvar()
+                        motivo = f"{MAX_FALHAS} falhas seguidas: {msg[:120]}"
+                        abandonar(banco, rotulo, chave, motivo)
+                        banco.estado.pop("lote_figura_em_andamento", None)
+                        pausar(banco, chave, motivo)
                     time.sleep(60)
             except Exception as ex:  # erro inesperado (arquivo travado, rede, dado ruim): registra e segue
                 falhas[chave] = falhas.get(chave, 0) + 1
@@ -380,11 +415,10 @@ def main():
                 print(f"  Erro inesperado ({falhas[chave]}/{MAX_FALHAS}): {ex}", flush=True)
                 if falhas[chave] >= MAX_FALHAS:
                     banco = bc.Banco()
-                    pausar(banco, chave, f"{MAX_FALHAS} erros seguidos: {str(ex)[:120]}")
-                    if enc and enc["id"] not in banco.estado["concluidas"]:
-                        banco.estado["concluidas"].append(enc["id"])
+                    motivo = f"{MAX_FALHAS} erros seguidos: {str(ex)[:120]}"
+                    abandonar(banco, rotulo, chave, motivo)
                     banco.estado.pop("lote_figura_em_andamento", None)
-                    banco.salvar()
+                    pausar(banco, chave, motivo)
                 time.sleep(60)
     except Exception as ex:
         diario("erro", mensagem=str(ex), rastro=traceback.format_exc()[-2000:])
