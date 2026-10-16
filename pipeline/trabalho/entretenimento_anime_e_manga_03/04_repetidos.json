@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No bando dos Chapéus de Palha, de One Piece, qual pirata foi o primeiro a se juntar a Luffy?",
+        "resposta": "Roronoa Zoro"
+      },
+      "existentes": [
+        {
+          "id": "q01408",
+          "pergunta": "Roronoa Zoro, espadachim de One Piece, luta com quantas espadas ao mesmo tempo?",
+          "resposta": "Três"
+        },
+        {
+          "id": "q05937",
+          "pergunta": "O nome do espadachim Roronoa Zoro, de One Piece, foi inspirado em qual pirata real do século dezessete?",
+          "resposta": "François l'Olonnais"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nausicaä é anterior ao Studio Ghibli. Qual filme de Miyazaki, de 1986, foi o primeiro produzido de fato pelo estúdio?",
+        "resposta": "O Castelo no Céu"
+      },
+      "existentes": [
+        {
+          "id": "q01377",
+          "pergunta": "O que o filme O Castelo no Céu, de Miyazaki, tem em comum com o livro As Viagens de Gulliver?",
+          "resposta": "A ilha voadora Laputa"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em O Castelo Animado, de Miyazaki, que demônio do fogo vive na lareira e faz o castelo se mover?",
+        "resposta": "Calcifer"
+      },
+      "existentes": [
+        {
+          "id": "q05919",
+          "pergunta": "O filme O Castelo Animado, de Hayao Miyazaki, é a adaptação de um romance de qual escritora britânica?",
+          "resposta": "Diana Wynne Jones"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na turma do ladrão Lupin Terceiro, o pistoleiro Jigen e a bela Fujiko contam com qual samurai, dono de uma espada que corta tudo?",
+        "resposta": "Goemon Ishikawa"
+      },
+      "existentes": [
+        {
+          "id": "q01384",
+          "pergunta": "Monkey Punch criou em 1967 um ladrão apresentado como neto de qual famoso ladrão da literatura francesa?",
+          "resposta": "Arsène Lupin"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Black Jack, de Osamu Tezuka, qual menina, montada pelo cirurgião a partir de um tumor, vira sua assistente?",
+        "resposta": "Pinoko"
+      },
+      "existentes": [
+        {
+          "id": "q01383",
+          "pergunta": "O cirurgião Black Jack, personagem de Osamu Tezuka, reflete qual formação universitária do próprio autor?",
+          "resposta": "Medicina"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Ranma meio, o protagonista não é o único amaldiçoado pela água fria. O pai dele vira qual animal?",
+        "resposta": "Panda"
+      },
+      "existentes": [
+        {
+          "id": "q05915",
+          "pergunta": "Quem criou Ranma meio, mangá sobre um jovem lutador que vira garota sempre que é molhado com água fria?",
+          "resposta": "Rumiko Takahashi"
+        },
+        {
+          "id": "q05916",
+          "pergunta": "Em Ranma meio, o protagonista ganha sua maldição ao cair numa fonte encantada durante um treino em qual país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em Death Note, além de escrever o nome da vítima no caderno, o que é preciso ter em mente para que ele funcione?",
+        "resposta": "O rosto da vítima"
+      },
+      "existentes": [
+        {
+          "id": "q01389",
+          "pergunta": "Em Death Note, se quem escreve um nome no caderno não especifica a causa da morte, de que a vítima morre?",
+          "resposta": "Ataque cardíaco"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em japonês, o que significa Uzumaki, o sobrenome do ninja Naruto?",
+        "resposta": "Redemoinho"
+      },
+      "existentes": [
+        {
+          "id": "q04332",
+          "pergunta": "Quem criou o mangá deste personagem?",
+          "resposta": "Masashi Kishimoto"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em Detetive Conan, o que faz o jovem detetive Shinichi Kudo voltar a ter corpo de criança?",
+        "resposta": "Uma droga experimental"
+      },
+      "existentes": [
+        {
+          "id": "q01374",
+          "pergunta": "Em Detetive Conan, o nome falso adotado pelo protagonista homenageia Arthur Conan Doyle e qual escritor japonês de mistério?",
+          "resposta": "Edogawa Ranpo"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No mangá de Osamu Tezuka, por que o cientista Tenma constrói o menino robô Astro Boy?",
+        "resposta": "Para substituir o filho morto"
+      },
+      "existentes": [
+        {
+          "id": "q01399",
+          "pergunta": "No mangá de Osamu Tezuka, lançado nos anos cinquenta, em que ano futuro o robô Astro Boy é criado?",
+          "resposta": "2003"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Primeiro a se juntar a Luffy é fato diferente de espadas ou inspiração do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Primeiro filme do estúdio difere da comparação com Gulliver."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Calcifer difere da autora do romance."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Samurai da turma difere do avô de Lupin."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pinoko difere da formação do autor."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Animal do pai difere de criadora e país."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Regra do rosto difere da causa padrão da morte."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Significado de Uzumaki difere do criador do mangá."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Causa do encolhimento difere da origem do nome falso."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Motivo da criação difere do ano da criação."
+    }
+  ]
+}
