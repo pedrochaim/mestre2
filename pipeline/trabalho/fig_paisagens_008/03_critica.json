@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a gruta; fatos (caverna marinha, ilha italiana) confirmados nos trechos; a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'o Púlpito' é o próprio nome do penhasco (Pulpit Rock) e entrega a identidade; sem a figura já dá para responder. Trocar por pista visual.",
+      "reescrita": {
+        "pergunta": "Este penhasco de topo plano, na Noruega, se ergue sobre qual fiorde?",
+        "resposta": "Lysefjord",
+        "distratores": [
+          "Geirangerfjord",
+          "Hardangerfjord",
+          "Sognefjord"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Há outros buracos azuis circulares (Dean's, Dragon Hole); o enunciado não garante resposta única. Acrescentar a costa de Belize, que ajuda sem entregar o nome.",
+      "reescrita": {
+        "pergunta": "Que formação marinha circular, na costa de Belize, vista de cima, é esta?",
+        "resposta": "Grande Buraco Azul"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Projeta-se sobre o lago Ringedalsvatnet, na Noruega; distratores do mesmo tipo e plausíveis, nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Étretat fica na Normandia segundo os trechos; enunciado não nomeia a cidade; distratores são regiões francesas sem falésias de giz.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lago subterrâneo iluminado por facho de luz solar confirmado no trecho; enunciado não cita o nome; distratores plausíveis e a imagem decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Popocatépetl é vulcão ativo no México central; enunciado não o nomeia; distratores são países de outros vulcões.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam: Mantiqueira e ponto culminante do Rio de Janeiro; em Minas Gerais é só o terceiro, então o distrator não é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'de frente para a França' é a descrição famosa das falésias de Dover e quase entrega a resposta sem a figura. Retirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que país ficam estas falésias brancas de giz?",
+        "resposta": "Inglaterra"
+      }
+    }
+  ]
+}

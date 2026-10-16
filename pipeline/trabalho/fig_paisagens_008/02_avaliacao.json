@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Dossel de floresta tropical genérico, sem elemento que permita distinguir a Amazônia de outras florestas tropicais."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Interior azul brilhante da gruta marinha, reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Que gruta marinha, numa ilha italiana, é esta?",
+      "resposta": "Gruta Azul de Capri",
+      "distratores": [],
+      "ancora": {
+        "nome": "Gruta Azul de Capri",
+        "descricao": "Caverna marinha na costa da ilha de Capri, no sul da Itália, cuja água brilha em azul pela luz que entra por baixo d'água.",
+        "variantes": [
+          "Gruta Azul",
+          "Grotta Azzurra",
+          "Blue Grotto"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Penhasco plano sobre o fiorde, inconfundível; pessoas ao fundo são pequenas e anônimas.",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Este penhasco, o Púlpito, na Noruega, se ergue sobre qual fiorde?",
+      "resposta": "Lysefjord",
+      "distratores": [
+        "Geirangerfjord",
+        "Hardangerfjord",
+        "Sognefjord"
+      ],
+      "ancora": {
+        "nome": "Preikestolen",
+        "descricao": "Penhasco de topo plano, o Púlpito, a 604 metros acima do Lysefjord, no condado de Rogaland, Noruega.",
+        "variantes": [
+          "Pulpit Rock",
+          "Prekestolen",
+          "Púlpito"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea do buraco circular no recife, característica e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Que formação marinha circular, vista de cima, é esta?",
+      "resposta": "Grande Buraco Azul",
+      "distratores": [],
+      "ancora": {
+        "nome": "Grande Buraco Azul",
+        "descricao": "Grande dolina marinha circular no Lighthouse Reef, na costa de Belize.",
+        "variantes": [
+          "Great Blue Hole",
+          "Blue Hole de Belize"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rocha projetada sobre o lago, inconfundível; pessoas minúsculas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa norueguesa, projetada sobre um lago, é esta?",
+      "resposta": "Trolltunga",
+      "distratores": [
+        "Preikestolen",
+        "Kjeragbolten",
+        "Romsdalshorn"
+      ],
+      "ancora": {
+        "nome": "Trolltunga",
+        "descricao": "Formação rochosa que se projeta horizontalmente a cerca de 700 metros acima do lago Ringedalsvatnet, na Noruega.",
+        "variantes": [
+          "Língua do Troll",
+          "Troll Tongue"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Água arroxeada sem elemento distintivo; não permite reconhecer o Lago Retba com segurança frente a outros lagos rosados."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Panorama da cidade com as falésias e a baía, reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Em que região da França fica esta cidade litorânea de falésias brancas?",
+      "resposta": "Normandia",
+      "distratores": [
+        "Bretanha",
+        "Provença",
+        "Córsega"
+      ],
+      "ancora": {
+        "nome": "Falésias de Étretat",
+        "descricao": "Falésias de giz e arco natural junto à cidade de Étretat, na costa da Normandia, França.",
+        "variantes": [
+          "Étretat",
+          "Falaises d'Étretat"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Lago subterrâneo com feixe de luz, característico; figura do espeleólogo é silhueta anônima.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 3,
+      "tipo": "multipla",
+      "pergunta": "Que lago subterrâneo brasileiro, iluminado por um feixe de sol, é este?",
+      "resposta": "Poço Encantado",
+      "distratores": [
+        "Poço Azul",
+        "Lagoa Misteriosa",
+        "Gruta do Lago Azul"
+      ],
+      "ancora": {
+        "nome": "Poço Encantado",
+        "descricao": "Lago subterrâneo em caverna em Itaetê, na Chapada Diamantina, Bahia, iluminado por um feixe de luz solar.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vulcão nevado com fumaça, reconhecível; placa ilegível.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este vulcão ativo, de cume nevado?",
+      "resposta": "México",
+      "distratores": [
+        "Guatemala",
+        "Equador",
+        "Chile"
+      ],
+      "ancora": {
+        "nome": "Popocatépetl",
+        "descricao": "Vulcão ativo de 5.393 metros no centro do México, a sudeste da Cidade do México.",
+        "variantes": [
+          "Popocatepetl",
+          "Don Goyo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cume rochoso característico das Agulhas Negras, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 3,
+      "tipo": "multipla",
+      "pergunta": "Este pico da Serra da Mantiqueira é o ponto mais alto de qual estado?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Minas Gerais",
+        "São Paulo",
+        "Espírito Santo"
+      ],
+      "ancora": {
+        "nome": "Pico das Agulhas Negras",
+        "descricao": "Montanha de 2.791 metros no Parque Nacional do Itatiaia, na divisa entre Rio de Janeiro e Minas Gerais.",
+        "variantes": [
+          "Agulhas Negras"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Falésias brancas de giz com farol, reconhecíveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 2,
+      "tipo": "aberta",
+      "pergunta": "Em que país ficam estas falésias brancas de giz, de frente para a França?",
+      "resposta": "Inglaterra",
+      "distratores": [],
+      "ancora": {
+        "nome": "Falésias Brancas de Dover",
+        "descricao": "Falésias de giz na costa de Kent, na Inglaterra, voltadas para o Estreito de Dover.",
+        "variantes": [
+          "White Cliffs of Dover",
+          "Penhascos brancos de Dover"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mostra só argila rachada e uma duna, sem as árvores mortas características; o Deadvlei não é reconhecível e pode ser confundido com outras salinas e dunas."
+    }
+  ]
+}

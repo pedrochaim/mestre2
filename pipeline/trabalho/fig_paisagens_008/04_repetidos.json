@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que lago subterrâneo brasileiro, iluminado por um feixe de sol, é este?",
+        "resposta": "Poço Encantado"
+      },
+      "existentes": [
+        {
+          "id": "q09633",
+          "pergunta": "Entre abril e setembro, a água do Poço Encantado, caverna da Chapada Diamantina, ganha um brilho especial. O que a ilumina?",
+          "resposta": "Um facho de luz solar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este pico da Serra da Mantiqueira é o ponto mais alto de qual estado?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q07987",
+          "pergunta": "No Parque Nacional do Itatiaia, qual pico é o ponto mais alto do estado do Rio de Janeiro?",
+          "resposta": "Pico das Agulhas Negras"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que país ficam estas falésias brancas de giz?",
+        "resposta": "Inglaterra"
+      },
+      "existentes": [
+        {
+          "id": "q04322",
+          "pergunta": "O giz das falésias brancas de Dover, na Inglaterra, é formado principalmente pelos restos de quê?",
+          "resposta": "Algas microscópicas"
+        },
+        {
+          "id": "q06730",
+          "pergunta": "As falésias brancas de Dover, no sul da Inglaterra, devem a sua cor a que rocha macia?",
+          "resposta": "Giz"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o lago (Poço Encantado); a existente pede o que ilumina a água, com o nome já dado. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas tratam do pico mais alto do estado do Rio de Janeiro (Agulhas Negras), apenas em direções opostas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o país das falésias; as existentes tratam da composição e da cor, e o país só aparece como contexto."
+    }
+  ]
+}

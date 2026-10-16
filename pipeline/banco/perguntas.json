@@ -215348,5 +215348,190 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q11826",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "gruta_azul_de_capri",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que gruta marinha, numa ilha italiana, é esta?",
+    "resposta": "Gruta Azul de Capri",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blue_Grotto_%28Capri%29",
+      "https://pt.wikipedia.org/wiki/Gruta_Azul_%28Capri%29"
+    ],
+    "imagem": {
+      "arquivo": "q11826.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Grotta_azzurra.capri.JPG",
+      "autor": "Elenagm",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q11827",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "preikestolen",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Este penhasco de topo plano, na Noruega, se ergue sobre qual fiorde?",
+    "resposta": "Lysefjord",
+    "distratores": [
+      "Geirangerfjord",
+      "Hardangerfjord",
+      "Sognefjord"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Preikestolen",
+      "https://pt.wikipedia.org/wiki/Preikestolen"
+    ],
+    "imagem": {
+      "arquivo": "q11827.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Preikestolen_Norge.jpg",
+      "autor": "Stefan Krause, Germany",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11828",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "grande_buraco_azul",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que formação marinha circular, na costa de Belize, vista de cima, é esta?",
+    "resposta": "Grande Buraco Azul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Blue_Hole",
+      "https://pt.wikipedia.org/wiki/Grande_Buraco_Azul"
+    ],
+    "imagem": {
+      "arquivo": "q11828.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Blue_Hole.jpg",
+      "autor": "U.S. Geological Survey (USGS)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11829",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "trolltunga",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que formação rochosa norueguesa, projetada sobre um lago, é esta?",
+    "resposta": "Trolltunga",
+    "distratores": [
+      "Preikestolen",
+      "Kjeragbolten",
+      "Romsdalshorn"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trolltunga",
+      "https://pt.wikipedia.org/wiki/Trolltunga"
+    ],
+    "imagem": {
+      "arquivo": "q11829.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:View_of_trolltunga.jpg",
+      "autor": "TerjeN",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q11830",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "falesias_de_etretat",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que região da França fica esta cidade litorânea de falésias brancas?",
+    "resposta": "Normandia",
+    "distratores": [
+      "Bretanha",
+      "Provença",
+      "Córsega"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/%C3%89tretat",
+      "https://pt.wikipedia.org/wiki/%C3%89tretat"
+    ],
+    "imagem": {
+      "arquivo": "q11830.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vue_d'Étretat.jpg",
+      "autor": "Jörg Braukmann",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q11831",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "poco_encantado",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que lago subterrâneo brasileiro, iluminado por um feixe de sol, é este?",
+    "resposta": "Poço Encantado",
+    "distratores": [
+      "Poço Azul",
+      "Lagoa Misteriosa",
+      "Gruta do Lago Azul"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Po%C3%A7o_Encantado",
+      "https://en.wikipedia.org/wiki/Po%C3%A7o_Encantado"
+    ],
+    "imagem": {
+      "arquivo": "q11831.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Raio_Poço_Encantado.jpg",
+      "autor": "Cesar Monteiro",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q11832",
+    "tema": "Geografia",
+    "subtema": "Relevo e Maravilhas Naturais",
+    "ancora": "popocatepetl",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este vulcão ativo, de cume nevado?",
+    "resposta": "México",
+    "distratores": [
+      "Guatemala",
+      "Equador",
+      "Chile"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Popocat%C3%A9petl",
+      "https://pt.wikipedia.org/wiki/Popocat%C3%A9petl"
+    ],
+    "imagem": {
+      "arquivo": "q11832.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mexico-Popocatepetl.jpg",
+      "autor": "Jakub Hejtmánek",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11833",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "falesias_brancas_de_dover",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país ficam estas falésias brancas de giz?",
+    "resposta": "Inglaterra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/White_Cliffs_of_Dover",
+      "https://pt.wikipedia.org/wiki/Penhascos_brancos_de_Dover"
+    ],
+    "imagem": {
+      "arquivo": "q11833.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:White_Cliffs_of_Dover_02.JPG",
+      "autor": "Immanuel Giel",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
