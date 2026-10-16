@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta cantora foi vocalista de qual banda islandesa de rock, que se separou em 1992?",
+        "resposta": "The Sugarcubes"
+      },
+      "existentes": [
+        {
+          "id": "q07875",
+          "pergunta": "A cantora Björk, que começou a carreira internacional no grupo The Sugarcubes, é natural de que país nórdico?",
+          "resposta": "Islândia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a banda (The Sugarcubes); a existente pede o país natal (Islândia). Embora a existente mencione a banda, o fato perguntado é outro."
+    }
+  ]
+}

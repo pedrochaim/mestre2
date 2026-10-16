@@ -1,0 +1,253 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; figura pública.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual foi o primeiro álbum desta cantora, lançado em 2005?",
+      "resposta": "Music of the Sun",
+      "distratores": [
+        "A Girl Like Me",
+        "Good Girl Gone Bad",
+        "Loud"
+      ],
+      "ancora": {
+        "nome": "Rihanna",
+        "descricao": "Cantora, compositora e empresária de Barbados, de Umbrella e Diamonds.",
+        "variantes": [
+          "Robyn Rihanna Fenty"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; figura pública.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este ator e humorista ficou famoso por qual peça de teatro, depois adaptada para o cinema?",
+      "resposta": "Minha Mãe é uma Peça",
+      "distratores": [
+        "Vai que Cola",
+        "Cilada.com",
+        "Os Normais"
+      ],
+      "ancora": {
+        "nome": "Paulo Gustavo",
+        "descricao": "Ator, humorista e roteirista brasileiro (1978–2021), criador de Minha Mãe é uma Peça.",
+        "variantes": [
+          "Paulo Gustavo Amaral Monteiro de Barros"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro; o texto ao fundo é parcial e não entrega o nome.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta atriz estreou na direção de longas com qual documentário sobre artistas travestis do teatro Rival?",
+      "resposta": "Divinas Divas",
+      "distratores": [],
+      "ancora": {
+        "nome": "Leandra Leal",
+        "descricao": "Atriz, cantora e diretora brasileira nascida em 1982.",
+        "variantes": [
+          "Leandra Rodrigues Leal Braz e Silva"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato claro em show, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De qual grupo feminino esta cantora foi a vocalista principal no fim dos anos noventa?",
+      "resposta": "Destiny's Child",
+      "distratores": [],
+      "ancora": {
+        "nome": "Beyoncé",
+        "descricao": "Cantora, compositora e atriz americana, ex-vocalista do Destiny's Child.",
+        "variantes": [
+          "Beyoncé Knowles",
+          "Beyoncé Giselle Knowles-Carter"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com qual banda de apoio este cantor gravou a maior parte dos seus álbuns?",
+      "resposta": "E Street Band",
+      "distratores": [
+        "The Heartbreakers",
+        "Crazy Horse",
+        "The Band"
+      ],
+      "ancora": {
+        "nome": "Bruce Springsteen",
+        "descricao": "Cantor e compositor americano de Born in the U.S.A., apelidado de The Boss.",
+        "variantes": [
+          "The Boss"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido e característico (barba branca, chapéu); notação musical no chapéu não entrega o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este músico brasileiro?",
+      "resposta": "Hermeto Pascoal",
+      "distratores": [],
+      "ancora": {
+        "nome": "Hermeto Pascoal",
+        "descricao": "Compositor e multi-instrumentista brasileiro (1936–2025), de barba branca e chapéu.",
+        "variantes": [
+          "Hermeto Pascoal Oliveira da Costa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro; texto de fundo parcial e sem nome.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este ator começou a carreira na música, em dupla com qual DJ?",
+      "resposta": "DJ Jazzy Jeff",
+      "distratores": [
+        "Grandmaster Flash",
+        "DJ Premier",
+        "Afrika Bambaataa"
+      ],
+      "ancora": {
+        "nome": "Will Smith",
+        "descricao": "Ator, rapper e produtor americano, o Príncipe de Bel-Air.",
+        "variantes": [
+          "Willard Carroll Smith II"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro; o botão I AM não entrega o nome.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual filme este ator ganhou o Oscar de coadjuvante?",
+      "resposta": "Menina de Ouro (Million Dollar Baby)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Morgan Freeman",
+        "descricao": "Ator, produtor e narrador americano, nascido em 1937.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato claro em show; figura reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta cantora foi vocalista de qual banda antes da carreira solo?",
+      "resposta": "The Sugarcubes",
+      "distratores": [],
+      "ancora": {
+        "nome": "Björk",
+        "descricao": "Cantora, compositora e atriz islandesa nascida em 1965.",
+        "variantes": [
+          "Björk Guðmundsdóttir"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Por qual filme esta atriz ganhou o Oscar de coadjuvante?",
+      "resposta": "Garota, Interrompida",
+      "distratores": [
+        "Gia",
+        "A Troca",
+        "Sr. e Sra. Smith"
+      ],
+      "ancora": {
+        "nome": "Angelina Jolie",
+        "descricao": "Atriz, cineasta e humanitária americana, vencedora do Oscar por Garota, Interrompida.",
+        "variantes": [
+          "Angelina Jolie Voight"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato claro; o círculo parcial com '25º Prêmio' não entrega o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantor brasileiro é este?",
+      "resposta": "Ney Matogrosso",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ney Matogrosso",
+        "descricao": "Cantor brasileiro de voz de contratenor, ex-vocalista dos Secos & Molhados.",
+        "variantes": [
+          "Ney de Souza Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado nasceu este cantor?",
+      "resposta": "Pernambuco",
+      "distratores": [
+        "Paraíba",
+        "Ceará",
+        "Bahia"
+      ],
+      "ancora": {
+        "nome": "Alceu Valença",
+        "descricao": "Cantor e compositor pernambucano nascido em 1946, ligado ao maracatu, coco e frevo.",
+        "variantes": []
+      }
+    }
+  ]
+}
