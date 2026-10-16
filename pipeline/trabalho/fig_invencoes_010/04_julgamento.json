@@ -1,0 +1,564 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Seringa",
+        "descricao": "Bomba de êmbolo em tubo cilíndrico usada para aplicar injeções e medir líquidos.",
+        "variantes": [
+          "Seringa hipodérmica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "beringia",
+          "nome": "Beríngia",
+          "descricao": "Região entre a Sibéria e o Alasca que, nas eras glaciais, formava uma ponte de terra por onde humanos chegaram à América.",
+          "variantes": [
+            "Ponte terrestre de Bering"
+          ]
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "hering",
+          "nome": "Hering",
+          "descricao": "Empresa têxtil brasileira fundada em 1880 em Blumenau pelos irmãos alemães Hermann e Bruno Hering.",
+          "variantes": [
+            "Cia. Hering",
+            "Companhia Hering"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Giroscópio",
+        "descricao": "Dispositivo com disco giratório que mantém a orientação do eixo, usado para medir ou manter orientação.",
+        "variantes": [
+          "Gyroscope"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        },
+        {
+          "id": "cinetoscopio",
+          "nome": "Cinetoscópio",
+          "descricao": "Aparelho de exibição de filmes para um espectador por vez, desenvolvido no laboratório de Thomas Edison por volta de 1890.",
+          "variantes": [
+            "Kinetoscope"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        },
+        {
+          "id": "microscopio_optico",
+          "nome": "Microscópio óptico",
+          "descricao": "Instrumento que usa luz visível e um sistema de lentes para ampliar imagens de objetos minúsculos.",
+          "variantes": [
+            "Microscópio de luz",
+            "Microscópio composto"
+          ]
+        },
+        {
+          "id": "estetoscopio",
+          "nome": "Estetoscópio",
+          "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+          "variantes": [
+            "Estetoscópio de Laennec"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Régua de cálculo",
+        "descricao": "Calculadora analógica mecânica com escalas deslizantes, usada para multiplicar, dividir e calcular logaritmos.",
+        "variantes": [
+          "Slide rule"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_de_coco",
+          "nome": "Água de coco",
+          "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+          "variantes": [
+            "Coconut water",
+            "Água de coco verde"
+          ]
+        },
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "alola",
+          "nome": "Alola",
+          "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+          "variantes": [
+            "Região de Alola"
+          ]
+        },
+        {
+          "id": "kalos",
+          "nome": "Kalos",
+          "descricao": "Região fictícia dos jogos Pokémon X e Y, da sexta geração, cuja capital é a cidade de Lumiose.",
+          "variantes": [
+            "Região de Kalos"
+          ]
+        },
+        {
+          "id": "guerra_de_canudos",
+          "nome": "Guerra de Canudos",
+          "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+          "variantes": [
+            "Campanha de Canudos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Balança de Roberval",
+        "descricao": "Balança de dois pratos com mecanismo de paralelogramo articulado, apresentada em 1669.",
+        "variantes": [
+          "Balança de pratos",
+          "Roberval balance"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagoa_dos_patos",
+          "nome": "Lagoa dos Patos",
+          "descricao": "Grande laguna costeira do Rio Grande do Sul, ligada ao oceano pela barra junto à cidade de Rio Grande.",
+          "variantes": [
+            "Laguna dos Patos"
+          ]
+        },
+        {
+          "id": "trave_de_equilibrio",
+          "nome": "Trave de equilíbrio",
+          "descricao": "Aparelho retangular e estreito da ginástica artística feminina, sobre o qual se executam as séries.",
+          "variantes": [
+            "Trave olímpica",
+            "Trave",
+            "Balance beam"
+          ]
+        },
+        {
+          "id": "alicate",
+          "nome": "Alicate",
+          "descricao": "Ferramenta manual de duas alavancas com mandíbulas, usada para segurar e dobrar objetos.",
+          "variantes": [
+            "Alicate de pressão"
+          ]
+        },
+        {
+          "id": "arquibasilica_de_sao_joao_de_latrao",
+          "nome": "Arquibasílica de São João de Latrão",
+          "descricao": "Catedral da Diocese de Roma, sede do papa como bispo de Roma.",
+          "variantes": [
+            "São João de Latrão",
+            "Basílica de Latrão",
+            "Archbasilica of Saint John Lateran"
+          ]
+        },
+        {
+          "id": "a_danca",
+          "nome": "A Dança",
+          "descricao": "Grande painel decorativo de Henri Matisse de 1910, com cinco figuras vermelhas dançando em roda sobre fundo azul e verde, no Museu Hermitage.",
+          "variantes": [
+            "A Dança (Matisse)",
+            "La Danse",
+            "Dance",
+            "A Dança de Matisse"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ventilador",
+        "descricao": "Máquina com pás giratórias que produz fluxo de ar; aqui, um modelo portátil de clipe.",
+        "variantes": [
+          "Ventilador portátil",
+          "Fan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pudim",
+          "nome": "Pudim",
+          "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+          "variantes": [
+            "Pudim de leite",
+            "Flan",
+            "Crème caramel"
+          ]
+        },
+        {
+          "id": "brabham_bt46b",
+          "nome": "Brabham BT46B",
+          "descricao": "Carro de Fórmula 1 da Brabham, de 1978, projetado por Gordon Murray, conhecido como carro-ventilador.",
+          "variantes": [
+            "Fan car",
+            "Carro-ventilador"
+          ]
+        },
+        {
+          "id": "fanta",
+          "nome": "Fanta",
+          "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+          "variantes": []
+        },
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Microscópio eletrônico",
+        "descricao": "Microscópio que usa um feixe de elétrons em vez de luz para formar imagens ampliadas.",
+        "variantes": [
+          "Microscópio eletrônico de transmissão",
+          "Electron microscope"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        },
+        {
+          "id": "microscopio_optico",
+          "nome": "Microscópio óptico",
+          "descricao": "Instrumento que usa luz visível e um sistema de lentes para ampliar imagens de objetos minúsculos.",
+          "variantes": [
+            "Microscópio de luz",
+            "Microscópio composto"
+          ]
+        },
+        {
+          "id": "e_mail",
+          "nome": "E-mail",
+          "descricao": "Sistema de troca de mensagens eletrônicas entre usuários de computadores em rede.",
+          "variantes": [
+            "Correio eletrônico",
+            "Email"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica",
+            "Trio eléctrico",
+            "Trio"
+          ]
+        },
+        {
+          "id": "eletroscopio_de_folhas",
+          "nome": "Eletroscópio de folhas",
+          "descricao": "Instrumento que detecta carga elétrica pelo afastamento de duas folhas metálicas dentro de uma campânula de vidro.",
+          "variantes": [
+            "Eletroscópio",
+            "Eletroscópio de folha de ouro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Teodolito",
+        "descricao": "Instrumento óptico de precisão que mede ângulos horizontais e verticais, usado em topografia.",
+        "variantes": [
+          "Theodolite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "herodoto",
+          "nome": "Heródoto",
+          "descricao": "Historiador grego do século cinco a.C., nascido em Halicarnasso, autor das Histórias sobre as Guerras Médicas.",
+          "variantes": [
+            "Herodotus"
+          ]
+        },
+        {
+          "id": "coprolito",
+          "nome": "Coprólito",
+          "descricao": "Fezes fossilizadas de animais, usadas para estudar a dieta de espécies extintas.",
+          "variantes": [
+            "Coprolite",
+            "Coprólitos"
+          ]
+        },
+        {
+          "id": "meteorito_hoba",
+          "nome": "Meteorito Hoba",
+          "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+          "variantes": [
+            "Meteorito",
+            "Hoba",
+            "Hoba West"
+          ]
+        },
+        {
+          "id": "condorito",
+          "nome": "Condorito",
+          "descricao": "Condor trapalhão dos quadrinhos de humor criado pelo cartunista Pepo em 1949",
+          "variantes": []
+        },
+        {
+          "id": "pteranodonte",
+          "nome": "Pteranodonte",
+          "descricao": "Gênero de pterossauro sem dentes e de crista longa, do Cretáceo Superior da América do Norte.",
+          "variantes": [
+            "Pteranodon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Diapasão",
+        "descricao": "Ressonador acústico em forma de garfo de duas hastes que emite uma nota pura constante.",
+        "variantes": [
+          "Tuning fork"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dois_papas",
+          "nome": "Dois Papas",
+          "descricao": "Filme de 2019 sobre os papas Bento dezesseis e Francisco, com Anthony Hopkins e Jonathan Pryce.",
+          "variantes": [
+            "The Two Popes"
+          ]
+        },
+        {
+          "id": "antonin_dvorak",
+          "nome": "Antonín Dvořák",
+          "descricao": "Compositor tcheco do Romantismo, autor da Sinfonia do Novo Mundo.",
+          "variantes": [
+            "Dvorak"
+          ]
+        },
+        {
+          "id": "canicula",
+          "nome": "Canícula",
+          "descricao": "Período mais quente do verão no hemisfério norte, tradicionalmente associado à estrela Sírius",
+          "variantes": [
+            "Dias de cão",
+            "Dog days"
+          ]
+        },
+        {
+          "id": "diwali",
+          "nome": "Diwali",
+          "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
+          "variantes": [
+            "Deepavali",
+            "Dipavali",
+            "Divali"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Drone",
+        "descricao": "Aeronave sem piloto a bordo, autônoma ou controlada remotamente; aqui, um modelo militar de grande porte.",
+        "variantes": [
+          "Veículo aéreo não tripulado",
+          "VANT",
+          "UAV"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zangao",
+          "nome": "Zangão",
+          "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+          "variantes": [
+            "drone",
+            "abelha macho",
+            "Drone (bee)"
+          ]
+        },
+        {
+          "id": "radiacao_ultravioleta",
+          "nome": "Radiação ultravioleta",
+          "descricao": "Radiação eletromagnética de comprimento de onda menor que o da luz violeta, emitida pelo Sol e dividida nas faixas A, B e C.",
+          "variantes": [
+            "Raios ultravioleta",
+            "UV"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        },
+        {
+          "id": "immanuel_kant",
+          "nome": "Immanuel Kant",
+          "descricao": "Filósofo alemão (1724–1804), nascido em Königsberg, autor da Crítica da Razão Pura.",
+          "variantes": [
+            "Kant"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Seringa é instrumento; candidatas são outras entidades."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Giroscópio não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Régua de cálculo não consta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Balança de Roberval não consta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ventilador portátil diferente do carro-ventilador."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Microscópio eletrônico difere do óptico e do genérico."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Teodolito não consta."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Diapasão não consta."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Drone aeronave difere do zangão (abelha)."
+    }
+  ]
+}

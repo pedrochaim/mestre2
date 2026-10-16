@@ -1,0 +1,94 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; a pista é só a categoria e não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Disco girando dentro de anéis' descreve o giroscópio e permite responder com a imagem coberta; tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que aparelho é este?",
+        "resposta": "Giroscópio"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de época e uso ajuda sem entregar o nome; fato sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Roberval apresentou a balança, não o 'princípio'; corrigir a afirmação.",
+      "reescrita": {
+        "pergunta": "Que matemático francês do século dezessete apresentou esta balança à Academia de Ciências?",
+        "resposta": "Gilles de Roberval",
+        "distratores": [
+          "Blaise Pascal",
+          "Pierre de Fermat",
+          "René Descartes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples, sem vazamento, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos; a figura é necessária para saber o aparelho e o enunciado não o nomeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Medição de ângulos, usado em topografia' é a definição do teodolito e entrega a resposta sem a figura.",
+      "reescrita": {
+        "pergunta": "Que instrumento de precisão é este?",
+        "resposta": "Teodolito",
+        "distratores": [
+          "Sextante",
+          "Astrolábio",
+          "Bússola"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Som puro, usado para afinar' entrega o diapasão sem a figura; a pergunta de ano vira enfeite. Remover a pista.",
+      "reescrita": {
+        "pergunta": "Em que ano foi inventado este instrumento?",
+        "resposta": "1711",
+        "distratores": [
+          "1681",
+          "1741",
+          "1771"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta sem vazamento, resposta única e distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

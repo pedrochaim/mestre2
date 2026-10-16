@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Várias seringas do mesmo tipo, legíveis; letras sem entregar a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento médico e de laboratório é este?",
+      "resposta": "Seringa",
+      "ancora": {
+        "nome": "Seringa",
+        "descricao": "Bomba de êmbolo em tubo cilíndrico usada para aplicar injeções e medir líquidos.",
+        "variantes": [
+          "Seringa hipodérmica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Giroscópio de brinquedo claro e reconhecível; quem_fez seria ambíguo, então o_que_e.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho, com um disco girando dentro de anéis, é este?",
+      "resposta": "Giroscópio",
+      "ancora": {
+        "nome": "Giroscópio",
+        "descricao": "Dispositivo com disco giratório que mantém a orientação do eixo, usado para medir ou manter orientação.",
+        "variantes": [
+          "Giroscopio",
+          "Gyroscope"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O rótulo 'Cordless Spotlight 5,000,000 candle power' é texto visível que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Régua de cálculo nítida, escalas características; texto da marca não entrega o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de engenheiros, usado antes das calculadoras eletrônicas, é este?",
+      "resposta": "Régua de cálculo",
+      "ancora": {
+        "nome": "Régua de cálculo",
+        "descricao": "Calculadora analógica mecânica com escalas deslizantes, usada para multiplicar, dividir e calcular logaritmos.",
+        "variantes": [
+          "Regua de calculo",
+          "Slide rule"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Balança de pratos com paralelogramo articulado, reconhecível; pergunta pelo autor em múltipla escolha.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que matemático francês do século dezessete apresentou à Academia de Ciências o princípio desta balança?",
+      "resposta": "Gilles de Roberval",
+      "distratores": [
+        "Blaise Pascal",
+        "Pierre de Fermat",
+        "René Descartes"
+      ],
+      "ancora": {
+        "nome": "Balança de Roberval",
+        "descricao": "Balança de dois pratos com mecanismo de paralelogramo articulado, apresentada em 1669.",
+        "variantes": [
+          "Balança de pratos",
+          "Roberval balance"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ventilador de clipe nítido; logotipo da marca não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho doméstico é este?",
+      "resposta": "Ventilador",
+      "ancora": {
+        "nome": "Ventilador",
+        "descricao": "Máquina com pás giratórias que produz fluxo de ar; aqui, um modelo portátil de clipe.",
+        "variantes": [
+          "Ventilador portátil",
+          "Fan"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Coluna típica de microscópio eletrônico de transmissão com binóculo; sem texto.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que físico alemão construiu, em 1931 e com Max Knoll, o primeiro protótipo deste tipo de aparelho?",
+      "resposta": "Ernst Ruska",
+      "distratores": [
+        "Werner Heisenberg",
+        "Max Planck",
+        "Otto Hahn"
+      ],
+      "ancora": {
+        "nome": "Microscópio eletrônico",
+        "descricao": "Microscópio que usa um feixe de elétrons em vez de luz para formar imagens ampliadas.",
+        "variantes": [
+          "Microscópio eletrônico de transmissão",
+          "Electron microscope"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Teodolito claro sobre tripé; múltipla com instrumentos de medição parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de medição de ângulos, usado em topografia, é este?",
+      "resposta": "Teodolito",
+      "distratores": [
+        "Sextante",
+        "Astrolábio",
+        "Bússola"
+      ],
+      "ancora": {
+        "nome": "Teodolito",
+        "descricao": "Instrumento óptico de precisão que mede ângulos horizontais e verticais, usado em topografia.",
+        "variantes": [
+          "Theodolite"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa 'lift / elevator' entrega a resposta; além disso a cena é uma estação, não um objeto histórico."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Diapasão em forma de U bem visível; etiqueta ilegível. Resposta é ano, então múltipla.",
+      "destino": 2,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inventado este instrumento de som puro, usado para afinar outros instrumentos?",
+      "resposta": "1711",
+      "distratores": [
+        "1681",
+        "1741",
+        "1771"
+      ],
+      "ancora": {
+        "nome": "Diapasão",
+        "descricao": "Ressonador acústico em forma de garfo de duas hastes que emite uma nota pura constante.",
+        "variantes": [
+          "Tuning fork"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto histórica com duas mulheres operadoras em primeiro plano (pessoas comuns); máquina pouco distinguível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Aeronave não tripulada nítida; texto não nomeia a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de aeronave é esta?",
+      "resposta": "Drone",
+      "distratores": [
+        "Planador",
+        "Helicóptero",
+        "Dirigível"
+      ],
+      "ancora": {
+        "nome": "Drone",
+        "descricao": "Aeronave sem piloto a bordo, autônoma ou controlada remotamente; aqui, um modelo militar de grande porte.",
+        "variantes": [
+          "Veículo aéreo não tripulado",
+          "VANT",
+          "UAV"
+        ]
+      }
+    }
+  ]
+}
