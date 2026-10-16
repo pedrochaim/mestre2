@@ -1,0 +1,1027 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "caverna_chauvet",
+        "nome": "Caverna Chauvet",
+        "descricao": "Caverna no sul da França com algumas das pinturas rupestres mais antigas conhecidas, descoberta em 1994.",
+        "variantes": [
+          "Grotte Chauvet",
+          "Chauvet-Pont-d'Arc"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chauvet_Cave"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A caverna Chauvet, no sul da França, famosa por pinturas de mais de trinta mil anos, deve o seu nome a quem?",
+      "resposta": "Seu descobridor, Jean-Marie Chauvet",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chauvet_Cave"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "caverna_chauvet",
+        "nome": "Caverna Chauvet",
+        "descricao": "Caverna no sul da França com algumas das pinturas rupestres mais antigas conhecidas, descoberta em 1994.",
+        "variantes": [
+          "Grotte Chauvet",
+          "Chauvet-Pont-d'Arc"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chauvet_Cave"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A caverna Chauvet, com pinturas rupestres de mais de trinta mil anos, fica junto às gargantas de que rio francês?",
+      "resposta": "Ardèche",
+      "distratores": [
+        "Dordonha",
+        "Loire",
+        "Sena"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chauvet_Cave"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "caverna_de_lascaux",
+        "nome": "Caverna de Lascaux",
+        "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos.",
+        "variantes": [
+          "Lascaux"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lascaux"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Durante a Segunda Guerra Mundial, quatro adolescentes franceses descobriram as pinturas da caverna de Lascaux. Em que ano?",
+      "resposta": "1940",
+      "distratores": [
+        "1939",
+        "1942",
+        "1944"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lascaux"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "caverna_de_altamira",
+        "nome": "Caverna de Altamira",
+        "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+        "variantes": [
+          "Cueva de Altamira"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cave_of_Altamira"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os bisões pintados no teto da caverna de Altamira, na Espanha, foram feitos em que período da Pré-História?",
+      "resposta": "Paleolítico",
+      "distratores": [
+        "Neolítico",
+        "Mesolítico",
+        "Idade do Bronze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cave_of_Altamira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caverna Cosquer",
+        "descricao": "Caverna perto de Marselha, na França, com pinturas paleolíticas e entrada submersa no Mediterrâneo.",
+        "variantes": [
+          "Grotte Cosquer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cosquer_Cave"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A caverna Cosquer, perto de Marselha, tem pinturas feitas na era glacial, mas hoje a sua entrada fica debaixo d'água. Por quê?",
+      "resposta": "O nível do mar subiu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cosquer_Cave"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monte Verde",
+        "descricao": "Sítio arqueológico no sul do Chile com sinais de ocupação humana de mais de catorze mil anos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monte_Verde"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O sítio arqueológico de Monte Verde, que mostrou presença humana nas Américas há mais de catorze mil anos, fica em que país?",
+      "resposta": "Chile",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monte_Verde"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arte rupestre do Vale do Côa",
+        "descricao": "Conjunto de gravuras paleolíticas ao ar livre no vale do rio Côa, no norte de Portugal.",
+        "variantes": [
+          "Gravuras do Côa",
+          "Vale do Côa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/C%C3%B4a_Valley_Paleolithic_Art"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos noventa, Portugal suspendeu uma grande obra para salvar as gravuras pré-históricas do Vale do Côa. Que obra era essa?",
+      "resposta": "Uma barragem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/C%C3%B4a_Valley_Paleolithic_Art"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Uruk",
+        "descricao": "Antiga cidade suméria da Baixa Mesopotâmia, onde surgiram alguns dos primeiros registros escritos.",
+        "variantes": [
+          "Erech",
+          "Warka"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uruk"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As ruínas de Uruk, cidade suméria onde surgiram alguns dos registros escritos mais antigos, ficam hoje em que país?",
+      "resposta": "Iraque",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uruk"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Necrópole de Varna",
+        "descricao": "Cemitério pré-histórico do quinto milênio antes de Cristo, perto de Varna, com antigos objetos de ouro.",
+        "variantes": [
+          "Varna Necropolis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Varna_Necropolis"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A necrópole de Varna, cemitério onde foram achadas joias de ouro de mais de seis mil anos, fica em que país?",
+      "resposta": "Bulgária",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Varna_Necropolis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "otzi",
+        "nome": "Ötzi",
+        "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
+        "variantes": [
+          "Homem do gelo",
+          "Otzi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/%C3%96tzi"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Ötzi, o homem do gelo achado nos Alpes, fica hoje conservado num museu de arqueologia de qual cidade do norte da Itália?",
+      "resposta": "Bolzano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/South_Tyrol_Museum_of_Archaeology",
+        "https://en.wikipedia.org/wiki/%C3%96tzi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caverna da Pedra Pintada",
+        "descricao": "Caverna em Monte Alegre, no Pará, com pinturas rupestres e vestígios humanos de mais de onze mil anos.",
+        "variantes": [
+          "Pedra Pintada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Caverna da Pedra Pintada, onde a arqueóloga Anna Roosevelt achou vestígios humanos de mais de onze mil anos, fica em que estado brasileiro?",
+      "resposta": "Pará",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sanxingdui",
+        "descricao": "Sítio arqueológico da Idade do Bronze em Sichuan, famoso por máscaras de bronze de olhos saltados.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sanxingdui"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As enigmáticas máscaras de bronze de olhos saltados, com mais de três mil anos, achadas no sítio de Sanxingdui, são de que país?",
+      "resposta": "China",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sanxingdui"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Akrotiri",
+        "descricao": "Povoado da Idade do Bronze no mar Egeu, soterrado por cinzas vulcânicas e famoso por seus afrescos.",
+        "variantes": [
+          "Akrotiri pré-histórica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Akrotiri_(prehistoric_city)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A cidade de Akrotiri, da Idade do Bronze, com casas e afrescos preservados sob cinzas vulcânicas, fica em qual ilha grega?",
+      "resposta": "Santorini",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Akrotiri_(prehistoric_city)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Parque Arqueológico do Solstício",
+        "descricao": "Sítio com um círculo de blocos de granito pré-histórico em Calçoene, no Amapá.",
+        "variantes": [
+          "Stonehenge da Amazônia",
+          "Stonehenge do Amapá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro tem um círculo pré-histórico de blocos de pedra apelidado de Stonehenge da Amazônia?",
+      "resposta": "Amapá",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio",
+        "https://en.wikipedia.org/wiki/Cal%C3%A7oene"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nuragues",
+        "descricao": "Torres de pedra em forma de cone erguidas na Idade do Bronze pela civilização nurágica.",
+        "variantes": [
+          "Nuraghe",
+          "Nuraghi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nuraghe"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As torres de pedra em forma de cone chamadas nuragues, erguidas na Idade do Bronze, são símbolo de qual ilha italiana?",
+      "resposta": "Sardenha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nuraghe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Estanho",
+        "descricao": "Metal que, misturado ao cobre, forma o bronze, e cujo comércio movimentou a Idade do Bronze.",
+        "variantes": [
+          "Tin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tin_sources_and_trade_in_ancient_times"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na Antiguidade, que região do sudoeste da Grã-Bretanha era famosa pelas minas de estanho, metal essencial para fazer bronze?",
+      "resposta": "Cornualha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tin_sources_and_trade_in_ancient_times",
+        "https://en.wikipedia.org/wiki/Mining_in_Cornwall_and_Devon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Roda de madeira do pântano de Liubliana",
+        "descricao": "Roda de madeira de mais de cinco mil anos achada nos pântanos perto de Liubliana.",
+        "variantes": [
+          "Ljubljana Marshes Wooden Wheel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ljubljana_Marshes_Wooden_Wheel"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Uma roda de madeira com mais de cinco mil anos, uma das mais antigas já encontradas, foi achada num pântano de que país?",
+      "resposta": "Eslovênia",
+      "distratores": [
+        "Hungria",
+        "Áustria",
+        "Croácia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ljubljana_Marshes_Wooden_Wheel"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Revolução Neolítica",
+        "descricao": "Transição de sociedades caçadoras-coletoras para a agricultura e a vida sedentária no Neolítico.",
+        "variantes": [
+          "Revolução Agrícola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que arqueólogo australiano criou a expressão Revolução Neolítica para descrever o surgimento da agricultura?",
+      "resposta": "Gordon Childe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neolithic_Revolution",
+        "https://en.wikipedia.org/wiki/V._Gordon_Childe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Revolução Neolítica",
+        "descricao": "Transição de sociedades caçadoras-coletoras para a agricultura e a vida sedentária no Neolítico.",
+        "variantes": [
+          "Revolução Agrícola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "No Oriente Médio, a agricultura começou há cerca de quanto tempo?",
+      "resposta": "Cerca de 11 mil anos",
+      "distratores": [
+        "Cerca de 5 mil anos",
+        "Cerca de 40 mil anos",
+        "Cerca de 100 mil anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mesolítico",
+        "descricao": "Período da Idade da Pedra situado entre o Paleolítico e o Neolítico.",
+        "variantes": [
+          "Idade da Pedra Média"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mesolithic"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Que período da Idade da Pedra fica entre o Paleolítico e o Neolítico?",
+      "resposta": "Mesolítico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mesolithic"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "escrita_cuneiforme",
+        "nome": "Escrita cuneiforme",
+        "descricao": "Sistema de escrita criado na Mesopotâmia, com sinais marcados em tabuletas de argila.",
+        "variantes": [
+          "Cuneiforme"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cuneiform"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os primeiros textos em escrita cuneiforme, na Mesopotâmia, não eram poemas nem leis. Eram em sua maioria registros de quê?",
+      "resposta": "Contas e bens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cuneiform"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "escrita_cuneiforme",
+        "nome": "Escrita cuneiforme",
+        "descricao": "Sistema de escrita criado na Mesopotâmia, com sinais marcados em tabuletas de argila.",
+        "variantes": [
+          "Cuneiforme"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cuneiform"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A escrita cuneiforme começou a se desenvolver na Mesopotâmia por volta de quando?",
+      "resposta": "3200 antes de Cristo",
+      "distratores": [
+        "1200 antes de Cristo",
+        "8000 antes de Cristo",
+        "600 antes de Cristo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cuneiform"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "gobekli_tepe",
+        "nome": "Göbekli Tepe",
+        "descricao": "Sítio arqueológico no sudeste da Turquia com pilares de pedra esculpidos há cerca de onze mil anos.",
+        "variantes": [
+          "Gobekli Tepe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Os pilares de Göbekli Tepe, na Turquia, foram erguidos quanto tempo antes do início de Stonehenge, aproximadamente?",
+      "resposta": "Cerca de seis mil anos",
+      "distratores": [
+        "Cerca de quinhentos anos",
+        "Cerca de dois mil anos",
+        "Cerca de trinta mil anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+        "https://en.wikipedia.org/wiki/Stonehenge"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Idade do Ferro",
+        "descricao": "Período que sucedeu a Idade do Bronze, marcado pelo uso generalizado de ferramentas de ferro.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iron_Age"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "No Oriente Próximo, a Idade do Ferro começou por volta de quando?",
+      "resposta": "1200 antes de Cristo",
+      "distratores": [
+        "3500 antes de Cristo",
+        "2500 antes de Cristo",
+        "600 antes de Cristo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iron_Age"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alinhamentos_de_carnac",
+        "nome": "Alinhamentos de Carnac",
+        "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+        "variantes": [
+          "Pedras de Carnac"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carnac_stones"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Os alinhamentos de Carnac, na Bretanha, reúnem cerca de quantas pedras pré-históricas fincadas no chão?",
+      "resposta": "Mais de três mil",
+      "distratores": [
+        "Cerca de cem",
+        "Cerca de quinhentas",
+        "Mais de trinta mil"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carnac_stones"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "skara_brae",
+        "nome": "Skara Brae",
+        "descricao": "Aldeia neolítica de pedra nas ilhas Órcadas, na Escócia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Skara_Brae"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A aldeia de pedra de Skara Brae, nas ilhas escocesas, foi habitada há cerca de quanto tempo?",
+      "resposta": "Cerca de cinco mil anos",
+      "distratores": [
+        "Cerca de mil anos",
+        "Cerca de dois mil anos",
+        "Cerca de quinze mil anos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Skara_Brae"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "stonehenge",
+        "nome": "Stonehenge",
+        "descricao": "Monumento pré-histórico de grandes pedras em círculo, na Inglaterra.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stonehenge"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma lenda medieval, qual mago famoso teria trazido da Irlanda as pedras de Stonehenge?",
+      "resposta": "Merlin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stonehenge",
+        "https://en.wikipedia.org/wiki/Merlin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Avebury",
+        "descricao": "Vila inglesa em Wiltshire construída em parte dentro de um grande círculo de pedras neolítico.",
+        "variantes": [
+          "Círculo de Avebury"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avebury"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que vila inglesa, a poucas dezenas de quilômetros de Stonehenge, foi construída em parte dentro de um enorme círculo de pedras pré-histórico?",
+      "resposta": "Avebury",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avebury"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "palacio_de_cnossos",
+        "nome": "Palácio de Cnossos",
+        "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+        "variantes": [
+          "Knossos",
+          "Cnosso"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Knossos"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que arqueólogo britânico escavou o palácio de Cnossos, em Creta, no início do século vinte, e reconstruiu partes dele com concreto?",
+      "resposta": "Arthur Evans",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Knossos",
+        "https://en.wikipedia.org/wiki/Arthur_Evans"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Civilização minoica",
+        "descricao": "Civilização da Idade do Bronze centrada na ilha de Creta.",
+        "variantes": [
+          "Minoicos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Minoan_civilization"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A civilização da Idade do Bronze da ilha de Creta foi batizada pelo arqueólogo Arthur Evans em homenagem a qual rei lendário?",
+      "resposta": "Minos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Minoan_civilization"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Erupção minoica",
+        "descricao": "Grande erupção vulcânica de Thera, no mar Egeu, durante a Idade do Bronze.",
+        "variantes": [
+          "Erupção de Thera",
+          "Erupção de Santorini"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Minoan_eruption"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Uma gigantesca erupção vulcânica no mar Egeu, na Idade do Bronze, é ligada por alguns estudiosos à lenda de qual terra engolida pelo mar?",
+      "resposta": "Atlântida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Minoan_eruption"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Porta dos Leões",
+        "descricao": "Entrada principal da cidadela de Micenas, da Idade do Bronze, com um relevo de pedra sobre o lintel.",
+        "variantes": [
+          "Lion Gate"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lion_Gate"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A entrada principal da cidadela de Micenas, da Idade do Bronze, é decorada com um relevo de dois animais frente a frente. Quais?",
+      "resposta": "Leões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lion_Gate"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alvenaria ciclópica",
+        "descricao": "Técnica de construção com enormes blocos de pedra encaixados sem argamassa, típica de Micenas e Tirinto.",
+        "variantes": [
+          "Muralhas ciclópicas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cyclopean_masonry"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Os gregos antigos achavam que as muralhas de Micenas, feitas de blocos enormes, só poderiam ter sido erguidas por quais gigantes de um olho só?",
+      "resposta": "Ciclopes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cyclopean_masonry"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ur",
+        "descricao": "Antiga cidade-Estado suméria no sul da Mesopotâmia.",
+        "variantes": [
+          "Ur dos Caldeus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ur"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Agatha Christie conheceu o seu segundo marido, o arqueólogo Max Mallowan, numa visita às escavações de qual cidade suméria?",
+      "resposta": "Ur",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Max_Mallowan",
+        "https://en.wikipedia.org/wiki/Ur"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cemitério Real de Ur",
+        "descricao": "Conjunto de túmulos sumérios em Ur, com ricos objetos de ouro e outros tesouros.",
+        "variantes": [
+          "Royal Cemetery at Ur"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Royal_Cemetery_at_Ur"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1920, o Cemitério Real de Ur, repleto de tesouros sumérios de ouro, foi escavado por qual arqueólogo britânico?",
+      "resposta": "Leonard Woolley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Royal_Cemetery_at_Ur",
+        "https://en.wikipedia.org/wiki/Leonard_Woolley"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zigurate",
+        "descricao": "Templo mesopotâmico em forma de torre com terraços em degraus.",
+        "variantes": [
+          "Ziggurat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ziggurat"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Os zigurates, templos em degraus da Mesopotâmia, são apontados como a provável inspiração de qual construção da Bíblia?",
+      "resposta": "Torre de Babel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ziggurat",
+        "https://en.wikipedia.org/wiki/Etemenanki"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Estandarte de Ur",
+        "descricao": "Caixa de madeira suméria decorada com mosaicos de cenas de guerra e de paz, achada em Ur.",
+        "variantes": [
+          "Standard of Ur"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Standard_of_Ur"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O Estandarte de Ur, peça suméria com cenas de guerra e de paz, tem mosaicos de conchas, calcário vermelho e qual pedra azul?",
+      "resposta": "Lápis-lazúli",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Standard_of_Ur"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Império Acádio",
+        "descricao": "Império mesopotâmico fundado por volta de 2300 antes de Cristo, com capital em Acádia.",
+        "variantes": [
+          "Acádia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Akkadian_Empire"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Por volta de 2300 antes de Cristo, que rei unificou as cidades da Mesopotâmia e fundou o Império Acádio?",
+      "resposta": "Sargão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Akkadian_Empire",
+        "https://en.wikipedia.org/wiki/Sargon_of_Akkad"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ossos oraculares",
+        "descricao": "Ossos e cascos de tartaruga com inscrições da dinastia Shang, na China da Idade do Bronze.",
+        "variantes": [
+          "Oracle bones"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oracle_bone"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Alguns dos textos chineses mais antigos foram gravados, há mais de três mil anos, em cascos de tartaruga e ossos de boi. Para que eles serviam?",
+      "resposta": "Adivinhação",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oracle_bone"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "mohenjo_daro",
+        "nome": "Mohenjo-daro",
+        "descricao": "Cidade da civilização do Vale do Indo, na Idade do Bronze.",
+        "variantes": [
+          "Moenjodaro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mohenjo-daro"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que grande tanque público de tijolos, talvez usado em rituais de purificação, é uma das construções mais conhecidas de Mohenjo-daro?",
+      "resposta": "O Grande Banho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Bath,_Mohenjo-daro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Geoglifos do Acre",
+        "descricao": "Grandes valas geométricas escavadas por povos antigos no Acre, na Amazônia.",
+        "variantes": [
+          "Geoglifos amazônicos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Geoglifos_do_Acre"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Enormes valas em forma de círculos e quadrados, escavadas por povos antigos no Acre, ficaram séculos escondidas. O que as revelou a partir dos anos setenta?",
+      "resposta": "O desmatamento",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Geoglifos_do_Acre",
+        "https://en.wikipedia.org/wiki/Geoglyph"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cobre",
+        "descricao": "Metal avermelhado, o primeiro a ser trabalhado em larga escala e base do bronze.",
+        "variantes": [
+          "Cuprum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Copper"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra cobre vem do latim e está ligada ao nome de qual ilha do Mediterrâneo, grande fonte desse metal na Antiguidade?",
+      "resposta": "Chipre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Copper"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Megálito",
+        "descricao": "Grande pedra usada para erguer monumentos pré-históricos, sozinha ou com outras.",
+        "variantes": [
+          "Megalito"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Megalith"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra megálito, usada para monumentos pré-históricos como os dólmens, vem do grego. O que ela significa?",
+      "resposta": "Pedra grande",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Megalith"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mesopotâmia",
+        "descricao": "Região histórica do Oriente Médio entre os rios Tigre e Eufrates.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mesopotamia"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Mesopotâmia, dado pelos gregos à região onde surgiram as primeiras cidades, significa o quê?",
+      "resposta": "Terra entre rios",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mesopotamia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fenícios",
+        "descricao": "Povo de navegadores e comerciantes do litoral do Levante, criadores do alfabeto fenício.",
+        "variantes": [
+          "Fenícia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Phoenicia"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome dado pelos gregos aos fenícios vem de uma palavra ligada a qual cor, por causa de um corante famoso que eles vendiam?",
+      "resposta": "Púrpura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Phoenicia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maeshowe",
+        "descricao": "Túmulo de câmara neolítico nas ilhas Órcadas, na Escócia.",
+        "variantes": [
+          "Maes Howe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maeshowe"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No túmulo neolítico de Maeshowe, nas ilhas Órcadas, que povo deixou inscrições rúnicas nas paredes milhares de anos depois?",
+      "resposta": "Os vikings",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maeshowe"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cueva_de_las_manos",
+        "nome": "Cueva de las Manos",
+        "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos.",
+        "variantes": [
+          "Caverna das Mãos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cueva_de_las_Manos"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Cueva de las Manos, na Patagônia, como os artistas pré-históricos criavam os contornos das mãos nas paredes?",
+      "resposta": "Soprando tinta sobre a mão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cueva_de_las_Manos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Colapso da Idade do Bronze",
+        "descricao": "Declínio de várias civilizações do Mediterrâneo oriental por volta de 1200 antes de Cristo.",
+        "variantes": [
+          "Colapso do final da Idade do Bronze"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por volta de 1200 antes de Cristo, várias civilizações da Idade do Bronze ruíram. Que misteriosos invasores vindos do mar são associados a esse colapso?",
+      "resposta": "Povos do Mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+        "https://en.wikipedia.org/wiki/Sea_Peoples"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Domesticação do cão",
+        "descricao": "Processo pré-histórico pelo qual lobos deram origem aos cães domésticos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Domestication_of_the_dog"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Ainda no tempo dos caçadores-coletores, muito antes de bois, ovelhas e cavalos, qual foi o primeiro animal domesticado pelo ser humano?",
+      "resposta": "O cão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Domestication_of_the_dog"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "disco_de_nebra",
+        "nome": "Disco de Nebra",
+        "descricao": "Disco de bronze e ouro da Idade do Bronze, encontrado na Alemanha, com representações celestes.",
+        "variantes": [
+          "Nebra sky disc"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nebra_sky_disc"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1999, o Disco de Nebra, de bronze e ouro, foi desenterrado na Alemanha por quem?",
+      "resposta": "Caçadores de tesouros ilegais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nebra_sky_disc"
+      ]
+    }
+  ]
+}
