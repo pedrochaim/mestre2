@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'protetora da mata' torna o Curupira, também protetor da floresta segundo o trecho, uma resposta defensável e um distrator inválido. Tira-se a pista e troca-se o distrator.",
+      "reescrita": {
+        "pergunta": "Que personagem do folclore brasileiro é esta?",
+        "resposta": "Caipora",
+        "distratores": [
+          "Saci",
+          "Boitatá",
+          "Iara"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Acusada de atacar rebanhos' entrega o nome (chupa-cabra) sem olhar a figura. A pista deve ser removida.",
+      "reescrita": {
+        "pergunta": "Que criatura lendária das Américas é esta?",
+        "resposta": "Chupa-cabra",
+        "distratores": [
+          "Mapinguari",
+          "Lobisomem",
+          "Curupira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta, a resposta é única e os distratores são do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Nordeste como região do cangaço está nos trechos. O enunciado não nomeia a entidade e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve uma cena (cavaleiro, ave) que não está confirmada em 'mostra'. Além disso, 'Funda' é distrator defensável, pois o trecho chama a boleadeira de 'espécie de funda'.",
+      "reescrita": {
+        "pergunta": "Que arma de caça, usada nos pampas, é esta?",
+        "resposta": "Boleadeira",
+        "distratores": [
+          "Zarabatana",
+          "Laço",
+          "Bodoque"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A alfaia é usada principalmente no maracatu, conforme o trecho. O enunciado não vaza a resposta e os distratores são ritmos críveis e incorretos.",
+      "reescrita": null
+    }
+  ]
+}

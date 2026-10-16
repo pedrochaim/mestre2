@@ -1,0 +1,383 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caipora",
+        "descricao": "Espírito ou entidade protetora da floresta e da caça no folclore brasileiro, de origem tupi, muitas vezes montada num porco-do-mato.",
+        "variantes": [
+          "Caapora",
+          "Kaapora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caipora",
+          "nome": "Caipora",
+          "descricao": "Ser do folclore brasileiro protetor dos animais e das florestas, que castiga os caçadores.",
+          "variantes": [
+            "Caapora"
+          ]
+        },
+        {
+          "id": "capoeira",
+          "nome": "Capoeira",
+          "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+          "variantes": []
+        },
+        {
+          "id": "kakapo",
+          "nome": "Kakapo",
+          "descricao": "Papagaio noturno, pesado e incapaz de voar (Strigops habroptilus), da Nova Zelândia.",
+          "variantes": [
+            "Strigops habroptilus",
+            "Papagaio-coruja"
+          ]
+        },
+        {
+          "id": "aipo",
+          "nome": "Aipo",
+          "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+          "variantes": [
+            "Salsão",
+            "Celery"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Chupa-cabra",
+        "descricao": "Criatura lendária (críptido) das Américas, supostamente sugadora de sangue de animais de criação, retratada como réptil com espinhos nas costas.",
+        "variantes": [
+          "Chupacabra",
+          "Chupacabras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barbeiro",
+          "nome": "Barbeiro",
+          "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+          "variantes": [
+            "Triatominae",
+            "triatomíneo",
+            "chupança",
+            "kissing bug"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)",
+            "Copacabana (bairro)"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        },
+        {
+          "id": "cha_palavra",
+          "nome": "Chá (palavra)",
+          "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa",
+          "variantes": [
+            "Chá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Afoxé (instrumento)",
+        "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+        "variantes": [
+          "Afoxé",
+          "Cabaça",
+          "Cabaça afoxé"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "white_tie",
+          "nome": "White tie",
+          "descricao": "Código de traje de gala noturno que exige casaca e gravata-borboleta branca",
+          "variantes": [
+            "Traje a rigor",
+            "Casaca"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "caracal",
+          "nome": "Caracal",
+          "descricao": "Felino selvagem de pelagem castanho-avermelhada e longas orelhas com tufos pretos (Caracal caracal).",
+          "variantes": [
+            "Caracal caracal",
+            "Lince-do-deserto"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cangaço",
+        "descricao": "Fenômeno de banditismo social do sertão do Nordeste brasileiro, entre fins do século dezenove e começo do vinte, com bandos de cangaceiros de chapéu de couro.",
+        "variantes": [
+          "Cangaceiros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_cangaceiro",
+          "nome": "O Cangaceiro",
+          "descricao": "Filme brasileiro de 1953 dirigido por Lima Barreto, sobre um bando de cangaceiros no sertão nordestino.",
+          "variantes": [
+            "The Bandit"
+          ]
+        },
+        {
+          "id": "cancer",
+          "nome": "Câncer",
+          "descricao": "Grupo de doenças marcadas pelo crescimento descontrolado de células.",
+          "variantes": [
+            "Cancro",
+            "Neoplasia maligna"
+          ]
+        },
+        {
+          "id": "zangao",
+          "nome": "Zangão",
+          "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+          "variantes": [
+            "drone",
+            "abelha macho",
+            "Drone (bee)"
+          ]
+        },
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Boleadeira",
+        "descricao": "Arma de caça formada por pesos nas pontas de cordas ligadas, arremessada para enredar as pernas dos animais, típica dos gaúchos.",
+        "variantes": [
+          "Boleadora",
+          "Bolas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estilingue",
+          "nome": "Estilingue",
+          "descricao": "Arma ou brinquedo em forma de Y com elástico que lança projéteis pequenos.",
+          "variantes": [
+            "Atiradeira",
+            "Bodoque",
+            "Baladeira"
+          ]
+        },
+        {
+          "id": "ebola",
+          "nome": "Ebola",
+          "descricao": "Vírus que causa febre hemorrágica grave, identificado em 1976 e batizado com o nome de um rio africano.",
+          "variantes": [
+            "Vírus ebola",
+            "Ebolavírus"
+          ]
+        },
+        {
+          "id": "boldore",
+          "nome": "Boldore",
+          "descricao": "Pokémon do tipo Pedra, número 525 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "libelula",
+          "nome": "Libélula",
+          "descricao": "Insetos voadores da ordem Odonata, de corpo longo, quatro asas e larvas aquáticas.",
+          "variantes": [
+            "Lavadeira",
+            "Odonata",
+            "Jacinta"
+          ]
+        },
+        {
+          "id": "cebolinha",
+          "nome": "Cebolinha",
+          "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+          "variantes": [
+            "Cebola",
+            "Cebolácio Júnior Menezes da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Alfaia",
+        "descricao": "Tambor membranofone tocado com baquetas, típico do maracatu e usado também no coco e na ciranda, popular em Pernambuco.",
+        "variantes": [
+          "Bumbo de maracatu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gerrideo",
+          "nome": "Gerrídeo",
+          "descricao": "Percevejos aquáticos da família Gerridae, de pernas longas e finas, que andam sobre a superfície da água.",
+          "variantes": [
+            "Gerridae",
+            "Alfaiate",
+            "Patinador"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "galaxia_espiral",
+          "nome": "Galáxia espiral",
+          "descricao": "Galáxia com braços de estrelas, gás e poeira enrolados em torno de um núcleo brilhante, como a mostrada na foto.",
+          "variantes": [
+            "Galáxia",
+            "Galáxia espiral NGC 4414"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "oxalaia",
+          "nome": "Oxalaia",
+          "descricao": "Gênero de dinossauro espinossaurídeo do Cretáceo do Maranhão, descrito em 2011 e batizado em homenagem ao orixá Oxalá.",
+          "variantes": [
+            "Oxalaia quilombensis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "caipora",
+      "motivo": "Mesma entidade do folclore brasileiro, protetora da floresta e animais."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o críptido chupa-cabra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o instrumento afoxé."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O fenômeno do cangaço é distinto do filme O Cangaceiro."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Boleadeira não aparece entre as candidatas; estilingue é arma diferente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tambor alfaia."
+    }
+  ]
+}

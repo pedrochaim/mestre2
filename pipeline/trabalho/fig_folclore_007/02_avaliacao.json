@@ -1,0 +1,171 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de desfile de carnaval com passista em primeiro plano; não permite reconhecer o samba especificamente, resposta ambígua."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração clara da Caipora montada num porco-do-mato, característica marcante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem do folclore brasileiro, protetora da mata, é esta?",
+      "resposta": "Caipora",
+      "distratores": [
+        "Curupira",
+        "Saci",
+        "Boitatá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caipora",
+        "descricao": "Espírito ou entidade protetora da floresta e da caça no folclore brasileiro, de origem tupi, muitas vezes montada num porco-do-mato.",
+        "variantes": [
+          "Caapora",
+          "Kaapora"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma festa junina genérica com busto; não permite reconhecer Sairé (município) nem nenhuma entidade única; multidão de pessoas comuns."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Desenho claro do chupa-cabra, com espinhos e olhos grandes, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura lendária, acusada de atacar rebanhos, é esta?",
+      "resposta": "Chupa-cabra",
+      "distratores": [
+        "Mapinguari",
+        "Lobisomem",
+        "Curupira"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chupa-cabra",
+        "descricao": "Criatura lendária (críptido) das Américas, supostamente sugadora de sangue de animais de criação, retratada como réptil com espinhos nas costas.",
+        "variantes": [
+          "Chupacabra",
+          "Chupacabras"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida do afoxé (cabaça com rede de contas), sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão afro-brasileiro é este?",
+      "resposta": "Afoxé",
+      "distratores": [
+        "Agogô",
+        "Reco-reco",
+        "Ganzá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Afoxé (instrumento)",
+        "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+        "variantes": [
+          "Cabaça",
+          "Cabaça afoxé"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto escura de mulheres de branco com faixas e um homem com fitas; não permite reconhecer com segurança a Dança de São Gonçalo (poderia ser outra festa), com participantes comuns em primeiro plano."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco de cangaceiros com chapéus de couro característicos; figuras históricas públicas.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que região do Brasil atuavam os bandos de bandoleiros como os desta foto?",
+      "resposta": "Nordeste",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cangaço",
+        "descricao": "Fenômeno de banditismo social do sertão do Nordeste brasileiro, entre fins do século dezenove e começo do vinte, com bandos de cangaceiros de chapéu de couro.",
+        "variantes": [
+          "Cangaceiros"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de um pastor com ovelhas em paisagem europeia; não representa o Pastoril folclórico brasileiro, e a pessoa comum aparece em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Desenho claro de gaúcho a cavalo arremessando boleadeira contra uma ema, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma de arremesso o cavaleiro desta cena lança para caçar a ave?",
+      "resposta": "Boleadeira",
+      "distratores": [
+        "Funda",
+        "Zarabatana",
+        "Bodoque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Boleadeira",
+        "descricao": "Arma de caça formada por pesos nas pontas de cordas ligadas, arremessada para enredar as pernas dos animais, típica dos gaúchos.",
+        "variantes": [
+          "Boleadora",
+          "Bolas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do tambor alfaia com baquetas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com que ritmo tradicional este tambor está mais ligado?",
+      "resposta": "Maracatu",
+      "distratores": [
+        "Frevo",
+        "Baião",
+        "Jongo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alfaia",
+        "descricao": "Tambor membranofone tocado com baquetas, típico do maracatu e usado também no coco e na ciranda, popular em Pernambuco.",
+        "variantes": [
+          "Bumbo de maracatu"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O banner com o texto 'Festa da Uva 2022' entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem é o quadro 'O Pífaro' de Manet, uma pintura europeia; não mostra o pífano do folclore brasileiro e a entidade é ambígua (obra de arte x instrumento)."
+    }
+  ]
+}

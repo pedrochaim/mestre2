@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que personagem do folclore brasileiro é esta?",
+        "resposta": "Caipora"
+      },
+      "existentes": [
+        {
+          "id": "q05245",
+          "pergunta": "O nome da Caipora, protetora dos animais que castiga os maus caçadores, vem do tupi. O que ele significa?",
+          "resposta": "Habitante do mato"
+        },
+        {
+          "id": "q08171",
+          "pergunta": "Curupira e Caipora são muitas vezes confundidos. Qual dos dois costuma ser descrito montado num porco-do-mato?",
+          "resposta": "Caipora"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o personagem (Caipora) a partir de imagem; as existentes perguntam o significado do nome e qual dos dois monta um porco-do-mato. Fatos diferentes."
+    }
+  ]
+}
