@@ -1,0 +1,107 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'doce' + 'fruta sob a cobertura' é uma pergunta de resposta quase óbvia; a figura é enfeite, e o nome 'maçã do amor' entrega a resposta ao reconhecer o doce. Pergunta trivial e sem conserto claro.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'bolinhas no fundo' ajuda sem entregar, e a origem em Taiwan nos anos 1980 está nos trechos. Porém a pergunta de nível 2 pede país; está aceitável, mas 'surgiu na década de 1980' está correto. Distratores bons. Ajuste menor: a resposta 'Taiwan' não é vazada. Mantém-se, apenas com redação mais clara.",
+      "reescrita": {
+        "pergunta": "Em que país, na década de 1980, surgiu esta bebida com bolinhas no fundo do copo?",
+        "resposta": "Taiwan",
+        "distratores": [
+          "Japão",
+          "Coreia do Sul",
+          "Tailândia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Se acredita que surgiram' reflete o trecho ('generally believed to have originated in Shanghai'). Não nomeia o prato, distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Massa podre e recheado' é uma definição que descreve a resposta; a figura vira enfeite e o enunciado é frouxo. Reescrever para um nível 1 sem pista que entregue, em múltipla escolha com distratores parecidos.",
+      "reescrita": {
+        "pergunta": "Que salgado assado em forminha, popular em Portugal e no Brasil, é este?",
+        "resposta": "Empada",
+        "distratores": [
+          "Pastel",
+          "Coxinha",
+          "Esfiha"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "Os trechos listam aipo (celery) entre os ingredientes e guarnições, mas 'hortaliça verde' tecnicamente fine. Porém o enunciado 'serve de guarnição neste coquetel' é verdadeiro na prática; o problema é que a pergunta não exige reconhecer a bebida nem a figura (aipo aparece visualmente). Pistas ok. Mantém, mas torna menos ambíguo: azeitona e outros também são guarnições.",
+      "reescrita": {
+        "pergunta": "Que talo verde, de hortaliça, costuma enfeitar este coquetel de vodca e suco de tomate?",
+        "resposta": "Aipo",
+        "distratores": [
+          "Pepino",
+          "Alho-poró",
+          "Cenoura"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Que bolo é este?' com distratores que apenas diferem pelo ingrediente; nível 2 sem pista, mas a cobertura branca e cenourinhas torna reconhecimento direto. Reescrever como pergunta que vai além: a cobertura típica no Brasil é de chocolate, mas a imagem tem cobertura branca; melhor pergunta de composição sem nomear.",
+      "reescrita": {
+        "pergunta": "Que legume colorido, ralado, é ingrediente principal da massa deste bolo?",
+        "resposta": "Cenoura",
+        "distratores": [
+          "Beterraba",
+          "Abóbora",
+          "Batata-doce"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta define o doce pela massa 'leve e oca por dentro', e a resposta 'massa choux' exige conhecimento técnico sem relação com a figura. Resposta pode ser 'massa de bomba' ou 'pâte à choux', gerando ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta sobre o que aparece na figura, 'grãos vermelhos' ajuda sem entregar. Distratores plausíveis e do mesmo tipo (frutas vermelhas), nenhum descreve grãos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que a clara de ovo pode ou não ser usada, mas 'espuma branca' não entrega. Problema: o nome 'pisco' é vazado pelo vocabulário? Não. Porém 'bebida destilada' é correto (aguardente de uva); distratores ok. Basta explicitar a origem peruana como pista suave.",
+      "reescrita": {
+        "pergunta": "Que bebida destilada de uva, típica do Peru e do Chile, é a base deste coquetel de espuma branca?",
+        "resposta": "Pisco",
+        "distratores": [
+          "Tequila",
+          "Cachaça",
+          "Rum"
+        ]
+      }
+    }
+  ]
+}

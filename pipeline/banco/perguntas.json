@@ -213947,5 +213947,174 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q11751",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bubble_tea",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país, na década de 1980, surgiu esta bebida com bolinhas no fundo do copo?",
+    "resposta": "Taiwan",
+    "distratores": [
+      "Japão",
+      "Coreia do Sul",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bubble_tea",
+      "https://pt.wikipedia.org/wiki/Ch%C3%A1_de_bolhas"
+    ],
+    "imagem": {
+      "arquivo": "q11751.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg",
+      "autor": "Battlesnake1",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q11752",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "xiaolongbao",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade chinesa se acredita que surgiram estes bolinhos cozidos no vapor?",
+    "resposta": "Xangai",
+    "distratores": [
+      "Pequim",
+      "Cantão",
+      "Hong Kong"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xiaolongbao",
+      "https://pt.wikipedia.org/wiki/Xiaolongbao"
+    ],
+    "imagem": {
+      "arquivo": "q11752.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Xiao_Long_Bao_at_Nanxiang_Mantou_Dian_1.jpg",
+      "autor": "Eason Lai from 上海",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q11753",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "empada",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que salgado assado em forminha, popular em Portugal e no Brasil, é este?",
+    "resposta": "Empada",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Empada"
+    ],
+    "imagem": {
+      "arquivo": "q11753.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Empadas_de_frango_Vila_Isabel_Rio_de_Janeiro_Brasil.jpg",
+      "autor": "Eduardo P",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11754",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bloody_mary",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que talo verde, de hortaliça, costuma enfeitar este coquetel de vodca e suco de tomate?",
+    "resposta": "Aipo",
+    "distratores": [
+      "Pepino",
+      "Alho-poró",
+      "Cenoura"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bloody_Mary_%28cocktail%29",
+      "https://pt.wikipedia.org/wiki/Bloody_Mary_%28coquetel%29"
+    ],
+    "imagem": {
+      "arquivo": "q11754.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg",
+      "autor": "Evan Swigart from Chicago, USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q11755",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bolo_de_cenoura",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que legume colorido, ralado, é ingrediente principal da massa deste bolo?",
+    "resposta": "Cenoura",
+    "distratores": [
+      "Beterraba",
+      "Abóbora",
+      "Batata-doce"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carrot_cake",
+      "https://pt.wikipedia.org/wiki/Bolo_de_cenoura"
+    ],
+    "imagem": {
+      "arquivo": "q11755.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rueblitorte.jpg",
+      "autor": "http://rezeptewiki.org/wiki/Benutzer:At_u",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11756",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "salada_de_frutas",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que fruta, em grãos vermelhos, cobre esta salada?",
+    "resposta": "Romã",
+    "distratores": [
+      "Cereja",
+      "Framboesa",
+      "Morango"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fruit_salad",
+      "https://pt.wikipedia.org/wiki/Salada_de_frutas"
+    ],
+    "imagem": {
+      "arquivo": "q11756.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fruktsallad_(Fruit_salad).jpg",
+      "autor": "dnm",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11757",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pisco_sour",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que bebida destilada de uva, típica do Peru e do Chile, é a base deste coquetel de espuma branca?",
+    "resposta": "Pisco",
+    "distratores": [
+      "Tequila",
+      "Cachaça",
+      "Rum"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pisco_sour",
+      "https://pt.wikipedia.org/wiki/Pisco_sour"
+    ],
+    "imagem": {
+      "arquivo": "q11757.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pisco_sour_20100613b.JPG",
+      "autor": "Dtarazona",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

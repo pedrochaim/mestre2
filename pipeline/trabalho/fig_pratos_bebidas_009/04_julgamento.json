@@ -1,0 +1,454 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bubble tea",
+        "descricao": "Bebida à base de chá, leite e pérolas de tapioca, originada em Taiwan.",
+        "variantes": [
+          "Chá de bolhas",
+          "Boba tea",
+          "Chá de pérolas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "plastico_bolha",
+          "nome": "Plástico-bolha",
+          "descricao": "Folha plástica com bolhas de ar usada para proteger objetos frágeis, criada nos Estados Unidos em 1957.",
+          "variantes": [
+            "Bubble Wrap"
+          ]
+        },
+        {
+          "id": "cla_perola",
+          "nome": "Clã Pérola",
+          "descricao": "Um dos dois clãs rivais da região de Hisui em Pokémon Legends: Arceus, adversário do Clã Diamante.",
+          "variantes": [
+            "Pearl Clan"
+          ]
+        },
+        {
+          "id": "casa_de_bonecas",
+          "nome": "Casa de Bonecas",
+          "descricao": "Peça de Henrik Ibsen, estreada em Copenhague em 1879, sobre Nora Helmer e seu casamento.",
+          "variantes": [
+            "Et dukkehjem",
+            "A Doll's House"
+          ]
+        },
+        {
+          "id": "cocar",
+          "nome": "Cocar",
+          "descricao": "Adorno de cabeça de penas usado por muitos povos indígenas das Américas.",
+          "variantes": [
+            "Cocar de penas",
+            "Adorno de penas"
+          ]
+        },
+        {
+          "id": "boa_vista",
+          "nome": "Boa Vista",
+          "descricao": "Capital do estado de Roraima, às margens do rio Branco, inteiramente no Hemisfério Norte.",
+          "variantes": [
+            "Boa Vista (Roraima)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Xiaolongbao",
+        "descricao": "Pequeno bolinho chinês recheado e com caldo, cozido no vapor em cesta de bambu.",
+        "variantes": [
+          "Bolinho de sopa",
+          "Soup dumpling"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "takoyaki",
+          "nome": "Takoyaki",
+          "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+          "variantes": [
+            "Bolinho de polvo"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        },
+        {
+          "id": "bico_de_sapato",
+          "nome": "Bico-de-sapato",
+          "descricao": "Grande ave pernalta de bico enorme em forma de sapato (Balaeniceps rex) dos pântanos da África.",
+          "variantes": [
+            "Balaeniceps rex",
+            "Cabeça-de-baleia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Empada",
+        "descricao": "Salgado de massa podre assada em forminha, com recheio, popular no Brasil e em Portugal.",
+        "variantes": [
+          "Empadinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rayssa_leal",
+          "nome": "Rayssa Leal",
+          "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+          "variantes": [
+            "Fadinha",
+            "Rayssa Leal Mendes"
+          ]
+        },
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+          "variantes": [
+            "Reino da Espanha"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bloody Mary",
+        "descricao": "Coquetel de vodca com suco de tomate e temperos, guarnecido com aipo.",
+        "variantes": [
+          "Bloody Mary (coquetel)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maria_i_da_inglaterra",
+          "nome": "Maria I da Inglaterra",
+          "descricao": "Rainha católica da Inglaterra de 1553 a 1558, filha de Henrique VIII e Catarina de Aragão.",
+          "variantes": [
+            "Mary I",
+            "Maria Tudor",
+            "Bloody Mary"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "bob_marley",
+          "nome": "Bob Marley",
+          "descricao": "Cantor e compositor jamaicano de reggae, líder dos Wailers",
+          "variantes": [
+            "Robert Nesta Marley"
+          ]
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "cachoeira_de_sangue",
+          "nome": "Cachoeira de Sangue",
+          "descricao": "Afloramento de água salgada avermelhada na geleira Taylor, nos Vales Secos de McMurdo, na Antártida.",
+          "variantes": [
+            "Blood Falls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bolo de cenoura",
+        "descricao": "Bolo feito com cenoura na massa, aqui com cobertura branca e cenourinhas decorativas.",
+        "variantes": [
+          "Carrot cake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bola_de_ouro",
+          "nome": "Bola de Ouro",
+          "descricao": "Prêmio anual de melhor jogador de futebol, criado em 1956 pela revista francesa France Football.",
+          "variantes": [
+            "Ballon d'Or"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "efeito_solo",
+          "nome": "Efeito solo",
+          "descricao": "Princípio aerodinâmico em que o formato do assoalho do carro cria uma sucção que o prende ao chão, explorado na Fórmula 1 a partir do fim dos anos setenta.",
+          "variantes": [
+            "Ground effect",
+            "Carro-asa"
+          ]
+        },
+        {
+          "id": "bolo_da_lua",
+          "nome": "Bolo da lua",
+          "descricao": "Bolo chinês redondo e recheado, tradicionalmente oferecido e comido numa festa do calendário lunar",
+          "variantes": [
+            "Mooncake",
+            "Yuebing"
+          ]
+        },
+        {
+          "id": "gol_de_ouro",
+          "nome": "Gol de ouro",
+          "descricao": "Regra de morte súbita na prorrogação, usada no futebol nos anos 1990 e 2000, em que o primeiro gol encerrava a partida.",
+          "variantes": [
+            "Golden goal",
+            "Morte súbita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Salada de frutas",
+        "descricao": "Prato de frutas variadas cortadas, aqui com iogurte e grãos de romã.",
+        "variantes": [
+          "Fruit salad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesta_de_frutas",
+          "nome": "Cesta de Frutas",
+          "descricao": "Natureza-morta de Caravaggio, c. 1599, na Biblioteca Ambrosiana.",
+          "variantes": [
+            "Cesta de Frutas (Caravaggio)",
+            "Canestra di frutta",
+            "Basket of Fruit"
+          ]
+        },
+        {
+          "id": "futsal",
+          "nome": "Futsal",
+          "descricao": "Variante do futebol jogada em quadra por equipes de cinco jogadores.",
+          "variantes": [
+            "Futebol de salão"
+          ]
+        },
+        {
+          "id": "escala_fujita",
+          "nome": "Escala Fujita",
+          "descricao": "Escala que classifica a intensidade dos tornados pelos danos que causam",
+          "variantes": [
+            "Fujita scale",
+            "Escala F",
+            "Escala Fujita aprimorada",
+            "Enhanced Fujita scale"
+          ]
+        },
+        {
+          "id": "drosophila_melanogaster",
+          "nome": "Drosophila melanogaster",
+          "descricao": "Mosca-da-fruta usada como organismo-modelo em genética.",
+          "variantes": [
+            "Mosca-da-fruta",
+            "Drosófila",
+            "Mosca-das-frutas"
+          ]
+        },
+        {
+          "id": "malhacao_de_judas",
+          "nome": "Malhação de Judas",
+          "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa.",
+          "variantes": [
+            "Queima do Judas",
+            "Malhar o Judas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pisco sour",
+        "descricao": "Coquetel de pisco com limão, açúcar e clara de ovo, de origem peruana.",
+        "variantes": [
+          "Pisco sower"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_prisma",
+          "nome": "Torre Prisma",
+          "descricao": "Torre no centro da cidade de Lumiose, em Pokémon X e Y, que abriga o ginásio de tipo Elétrico de Clemont.",
+          "variantes": [
+            "Prism Tower"
+          ]
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "psicose",
+          "nome": "Psicose",
+          "descricao": "Filme de suspense de 1960 dirigido por Alfred Hitchcock, famoso pela cena do assassinato no chuveiro.",
+          "variantes": [
+            "Psycho"
+          ]
+        },
+        {
+          "id": "rio_missouri",
+          "nome": "Rio Missouri",
+          "descricao": "Grande rio dos Estados Unidos que nasce nas Montanhas Rochosas e deságua no Mississippi perto de Saint Louis.",
+          "variantes": [
+            "Missouri"
+          ]
+        },
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bebida bubble tea."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é xiaolongbao."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a empada."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O coquetel é distinto da rainha Maria I, apesar do apelido igual."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Bolo de cenoura não corresponde a nenhuma candidata; bolo da lua é outro."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Salada de frutas é distinta de todas as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o coquetel pisco sour."
+    }
+  ]
+}

@@ -593,7 +593,7 @@
       "titulo": "en:Carrot cake",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cerveja",
@@ -621,7 +621,7 @@
       "titulo": "pt:Empada",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Limonada",
@@ -642,7 +642,7 @@
       "titulo": "en:Candy apple",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Gelatina",
@@ -733,7 +733,7 @@
       "titulo": "en:Bubble tea",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pretzel",
@@ -810,7 +810,7 @@
       "titulo": "en:Pisco sour",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mole poblano",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Pizza",
+      "titulo": "en:Pizza",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arroz e feijão",
+      "titulo": "en:Rice and beans",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Picanha",
+      "titulo": "en:Picanha",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Suco de laranja",
+      "titulo": "en:Orange juice",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sanduíche",
+      "titulo": "en:Sandwich",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pavê",
+      "titulo": "pt:Pavê",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mousse",
+      "titulo": "en:Mousse",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Polenta",
+      "titulo": "en:Polenta",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ravióli",
+      "titulo": "en:Ravioli",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovo frito",
+      "titulo": "en:Fried egg",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Salada de frutas",
+      "titulo": "en:Fruit salad",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Chocolate quente",
+      "titulo": "en:Hot chocolate",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirulito",
+      "titulo": "en:Lollipop",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guioza",
+      "titulo": "en:Jiaozi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Samosa",
+      "titulo": "en:Samosa",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Empanada",
+      "titulo": "en:Empanada",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bruschetta",
+      "titulo": "en:Bruschetta",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quiche",
+      "titulo": "en:Quiche",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Crepe",
+      "titulo": "en:Crêpe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Yakisoba",
+      "titulo": "en:Yakisoba",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Espetinho (shish kebab)",
+      "titulo": "en:Shish kebab",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Profiterole",
+      "titulo": "en:Profiterole",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bomba de chocolate (éclair)",
+      "titulo": "en:Éclair",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Martíni",
+      "titulo": "en:Martini (cocktail)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bloody Mary",
+      "titulo": "en:Bloody Mary (cocktail)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Irish coffee",
+      "titulo": "en:Irish coffee",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cookie com gotas de chocolate",
+      "titulo": "en:Chocolate chip cookie",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sarapatel",
+      "titulo": "pt:Sarapatel",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tutu de feijão",
+      "titulo": "pt:Tutu de feijão",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lassi",
+      "titulo": "en:Lassi",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pelmeni",
+      "titulo": "en:Pelmeni",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dolma",
+      "titulo": "en:Dolma",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kouign-amann",
+      "titulo": "en:Kouign-amann",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mil-folhas",
+      "titulo": "en:Mille-feuille",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ossobuco",
+      "titulo": "en:Ossobuco",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Biryani",
+      "titulo": "en:Biryani",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xiaolongbao",
+      "titulo": "en:Xiaolongbao",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tamale",
+      "titulo": "en:Tamale",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bife Wellington",
+      "titulo": "en:Beef Wellington",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Matchá",
+      "titulo": "en:Matcha",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

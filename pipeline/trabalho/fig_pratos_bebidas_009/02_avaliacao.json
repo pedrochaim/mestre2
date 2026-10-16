@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Maçã do amor com amendoim picado, clara e sem texto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que fruta está escondida sob a cobertura deste doce?",
+      "resposta": "Maçã",
+      "ancora": {
+        "nome": "Maçã do amor",
+        "descricao": "Maçã inteira coberta por calda de açúcar, servida num palito.",
+        "variantes": [
+          "Maçã caramelada",
+          "Candy apple"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bubble tea com pérolas visíveis; sem texto que entregue a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país surgiu, na década de 1980, esta bebida com bolinhas no fundo?",
+      "resposta": "Taiwan",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Bubble tea",
+        "descricao": "Bebida à base de chá, leite e pérolas de tapioca, originada em Taiwan.",
+        "variantes": [
+          "Chá de bolhas",
+          "Boba tea",
+          "Chá de pérolas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Xiaolongbao em cesta de bambu, claro e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade chinesa se acredita que surgiram estes bolinhos cozidos no vapor?",
+      "resposta": "Xangai",
+      "distratores": [
+        "Pequim",
+        "Cantão",
+        "Hong Kong"
+      ],
+      "ancora": {
+        "nome": "Xiaolongbao",
+        "descricao": "Pequeno bolinho chinês recheado e com caldo, cozido no vapor em cesta de bambu.",
+        "variantes": [
+          "Bolinho de sopa",
+          "Soup dumpling"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Empadas assadas em forminhas; o letreiro cortado só sugere o recheio, não a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que salgado, de massa podre e recheado, é este?",
+      "resposta": "Empada",
+      "ancora": {
+        "nome": "Empada",
+        "descricao": "Salgado de massa podre assada em forminha, com recheio, popular no Brasil e em Portugal.",
+        "variantes": [
+          "Empadinha"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Coquetel vermelho com aipo, borda temperada, fundo limpo.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que hortaliça verde serve de guarnição neste coquetel?",
+      "resposta": "Aipo",
+      "distratores": [
+        "Pepino",
+        "Alho-poró",
+        "Cenoura"
+      ],
+      "ancora": {
+        "nome": "Bloody Mary",
+        "descricao": "Coquetel de vodca com suco de tomate e temperos, guarnecido com aipo.",
+        "variantes": [
+          "Bloody Mary (coquetel)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Bebida branca espumante com guarnição é ambígua: pode ser lassi, milkshake ou outra bebida; não é reconhecível com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bolo com cenourinhas decorativas; claro e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bolo é este?",
+      "resposta": "Bolo de cenoura",
+      "distratores": [
+        "Bolo de laranja",
+        "Bolo de abóbora",
+        "Bolo de milho"
+      ],
+      "ancora": {
+        "nome": "Bolo de cenoura",
+        "descricao": "Bolo feito com cenoura na massa, aqui com cobertura branca e cenourinhas decorativas.",
+        "variantes": [
+          "Carrot cake"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bomba de chocolate aberta mostrando massa e creme; sem texto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de massa, leve e oca por dentro, forma este doce?",
+      "resposta": "Massa choux",
+      "ancora": {
+        "nome": "Bomba de chocolate (éclair)",
+        "descricao": "Doce alongado de massa choux recheado com creme e coberto com chocolate.",
+        "variantes": [
+          "Éclair",
+          "Bomba de chocolate"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Panela com ensopado vermelho e cubos: sem forma característica, não reconhecível como sarapatel; poderia ser outros ensopados."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Salada de frutas com iogurte e romã, nítida.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta, em grãos vermelhos, cobre esta salada?",
+      "resposta": "Romã",
+      "distratores": [
+        "Cereja",
+        "Framboesa",
+        "Morango"
+      ],
+      "ancora": {
+        "nome": "Salada de frutas",
+        "descricao": "Prato de frutas variadas cortadas, aqui com iogurte e grãos de romã.",
+        "variantes": [
+          "Fruit salad"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Café com chantilly em copo de vidro duplo: pode ser café vienense ou espresso com chantilly; não identifica Irish coffee com unicidade."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pisco sour clássico com espuma e gotas de amargo; sem texto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bebida destilada é a base deste coquetel de espuma branca?",
+      "resposta": "Pisco",
+      "distratores": [
+        "Tequila",
+        "Cachaça",
+        "Rum"
+      ],
+      "ancora": {
+        "nome": "Pisco sour",
+        "descricao": "Coquetel de pisco com limão, açúcar e clara de ovo, de origem peruana.",
+        "variantes": [
+          "Pisco sower"
+        ]
+      }
+    }
+  ]
+}
