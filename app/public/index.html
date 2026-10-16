@@ -46,9 +46,19 @@
     .dado.rolando svg { animation: rolar .9s cubic-bezier(.2, .8, .3, 1.15) var(--atraso, 0s) both; }
     @keyframes rolar { from { transform: rotate(-660deg) scale(.3); opacity: 0; } to { transform: none; opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .dado.rolando svg { animation: none; } }
-    :is(#mesa-pergunta, #mesa-zoom) .dado { margin: 0; gap: .4em; }
-    :is(#mesa-pergunta, #mesa-zoom) .dado svg { width: 1.9em; height: 1.9em; }
-    #mesa-pergunta .dado { font-size: .8em; }
+    /* Na tela grande, o dado fica no canto inferior direito do tabuleiro, na grama livre à direita da legenda, com a
+       mesma altura e o mesmo fundo dela; não ocupa espaço do cartão da pergunta. As medidas são frações da largura do
+       tabuleiro (cqw), para acompanhar o tamanho dele. */
+    #mesa-tab { position: relative; }
+    #mesa.linear #mesa-tab { container-type: inline-size; }
+    #mesa-dado { position: absolute; right: 1.5cqw; bottom: 1cqw; height: 7.25cqw; box-sizing: border-box; margin: 0;
+                 gap: .6em; padding: 0 1.1em 0 .5em; font-size: 1.6cqw; color: #fff; background: #1f4d1ce6;
+                 border: 2px solid #ffffff80; border-radius: 1cqw; pointer-events: none; }
+    #mesa-dado[hidden] { display: none; }
+    #mesa-dado svg { width: 3.4em; height: 3.4em; }
+    #mesa-dado span { display: flex; flex-direction: column; line-height: 1.1; }
+    #mesa-dado small { font-size: .8em; font-weight: 600; }
+    #mesa-dado strong { font-size: 1.6em; font-weight: 900; }
     .sobre-botao { width: 100%; margin-top: .8rem; background: none; color: var(--suave); }
     .sobre { margin: .6rem 0 0; padding: .7rem .9rem; border: 1px solid var(--linha); border-radius: 10px; font-size: .92rem; }
     .sobre dt { color: var(--suave); font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; margin-top: .55rem; }
@@ -572,7 +582,7 @@
 
 <!-- Modo mesa: o tabuleiro em tela cheia, para deixar um aparelho no meio da mesa -->
 <div id="mesa" hidden>
-  <div id="mesa-tab" class="tabuleiro"></div>
+  <div id="mesa-tab" class="tabuleiro"><div id="mesa-dado" class="dado" hidden></div></div>
   <div id="mesa-lado" hidden>
     <div id="mesa-pergunta"></div>
     <div id="mesa-seguinte" hidden></div>
@@ -750,13 +760,28 @@
   const PONTOS_DADO = { 1: [[50, 50]], 2: [[72, 28], [28, 72]], 3: [[72, 28], [50, 50], [28, 72]] };
   // "rolando": há quantos ms o dado começou a rolar (0 = agora), ou null para o dado parado. Um redesenho no meio da
   // rolagem continua a animação de onde ela estava.
+  const svgDado = n => `<svg viewBox="0 0 100 100" role="img" aria-label="Dado: ${n}"><rect x="6" y="6" width="88" height="88" rx="20"
+    fill="#fff" stroke="#2a3a8c" stroke-width="6"/>${PONTOS_DADO[n].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="10" fill="#e3350d"/>`).join("")}</svg>`;
+  const casas = n => `${n} ${n === 1 ? "casa" : "casas"}`;
   function blocoDado(n, rolando = null) {
     const caixa = el("div", { className: "dado" + (rolando !== null ? " rolando" : "") });
     if (rolando) caixa.style.setProperty("--atraso", `-${rolando}ms`);
-    caixa.innerHTML = `<svg viewBox="0 0 100 100" role="img" aria-label="Dado: ${n}"><rect x="6" y="6" width="88" height="88" rx="20"
-      fill="#fff" stroke="#2a3a8c" stroke-width="6"/>${PONTOS_DADO[n].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="10" fill="#e3350d"/>`).join("")}</svg>`;
-    caixa.append(el("span", { textContent: `Quem acertar anda ${n} ${n === 1 ? "casa" : "casas"}` }));
+    caixa.innerHTML = svgDado(n);
+    caixa.append(el("span", { textContent: `Quem acertar anda ${casas(n)}` }));
     return caixa;
+  }
+  // Tela grande: o dado da pergunta à vista ("a", ou null), no canto do tabuleiro. Rola uma vez, quando a tela
+  // mostra o sorteio pela primeira vez; os redesenhos do primeiro segundo continuam a mesma rolagem.
+  let dadoVisto = null;  // {sorteio, desde}: o sorteio cujo dado a tela grande já rolou, e quando começou
+  function desenharDadoMesa(a) {
+    const caixa = $("mesa-dado");
+    caixa.hidden = !a?.dado;
+    if (caixa.hidden) return;
+    if (!revendo && dadoVisto?.sorteio !== a.sorteio) dadoVisto = { sorteio: a.sorteio, desde: Date.now() };
+    const passou = revendo ? Infinity : Date.now() - dadoVisto.desde;
+    caixa.classList.toggle("rolando", passou < 900);
+    caixa.style.setProperty("--atraso", `-${passou < 900 ? passou : 0}ms`);
+    caixa.innerHTML = `${svgDado(a.dado)}<span><small>Quem acertar anda</small><strong>${casas(a.dado)}</strong></span>`;
   }
 
   const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { banco = AUDIO_NO_JOGO ? d : d.filter(p => !p.audio); perguntasDoModo(); });
@@ -1616,7 +1641,9 @@
       ehPokemon() ? L.svgPokemon(jogadores, casaDe, peaoLinear) :
       ehLinear() ? L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peaoLinear) : svgTabuleiro();
     $("tabuleiro").innerHTML = svg;
-    $("mesa-tab").innerHTML = svg.replaceAll('<pattern id="', '<pattern id="mesa-').replaceAll("url(#", "url(#mesa-");
+    // Na tela grande, troca só o desenho: o dado (#mesa-dado) fica por cima dele.
+    $("mesa-tab").querySelector(":scope > svg")?.remove();
+    $("mesa-tab").insertAdjacentHTML("afterbegin", svg.replaceAll('<pattern id="', '<pattern id="mesa-').replaceAll("url(#", "url(#mesa-"));
   }
   const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
     .matrixTransform(svg.getScreenCTM().inverse());
@@ -1716,13 +1743,13 @@
     if (le === responde) linha.append(el("span", { className: "suave", textContent: "jogando sozinho" }));
     return linha;
   }
-  let dadoVisto = null;  // {sorteio, desde}: o sorteio cujo dado a tela grande já rolou, e quando começou
   function desenharMesa() {
     if (revendo && !partida.anterior) revendo = false;
     const a = revendo ? partida.anterior : partida.atual;
     $("mesa-rever").hidden = !partida.anterior;
     $("mesa-rever").textContent = revendo ? "Voltar ao jogo" : "↩ Rodada anterior";
     const p = a && perguntas.find(x => x.id === a.pergunta);
+    desenharDadoMesa(p && ehPokemon() ? a : null);
     const papeis = papeisDe;
     // Sem pergunta em jogo (ou com a rodada já encerrada), a vez seguinte: quem vai ler e quem vai responder.
     const v = ehTrilha() ? (mapa ? vezAtual() : null) : vezM();
@@ -1756,13 +1783,6 @@
     pintar(cartao, temaDe(p));
     const topo = el("div", { className: "mp-topo" });
     topo.append(etiqueta(temaDe(p)));
-    // O dado do modo Pokémon rola uma vez, quando a tela mostra este sorteio pela primeira vez; os redesenhos do
-    // primeiro segundo continuam a mesma rolagem.
-    if (a.dado) {
-      if (!revendo && dadoVisto?.sorteio !== a.sorteio) dadoVisto = { sorteio: a.sorteio, desde: Date.now() };
-      const passou = !revendo && Date.now() - dadoVisto.desde;
-      topo.append(blocoDado(a.dado, passou !== false && passou < 900 ? passou : null));
-    }
     // Revendo a rodada anterior, o cronômetro da pergunta em jogo continua contando por trás, sem aparecer.
     if (!revendo) {
       const tm = !a.fim && a.tempo;
@@ -1807,7 +1827,7 @@
       if (opcoes) opcoes.append(...a.opcoes.map(o => el("li", { textContent: o, className: a.revelada && o === p.resposta ? "correta" : "" })));
       const resposta = a.revelada && !opcoes && el("div", { className: "mz-resposta" });
       if (resposta) resposta.append(el("span", { textContent: "Resposta" }), p.resposta);
-      zoom.querySelector(".mz-legenda").replaceChildren(papeis(a.leitor, a.respondente), ...(a.dado ? [blocoDado(a.dado)] : []),
+      zoom.querySelector(".mz-legenda").replaceChildren(papeis(a.leitor, a.respondente),
         el("div", { className: "mz-texto", textContent: p.pergunta }), ...[opcoes, resposta].filter(Boolean));
     }
     contarRelogio();
