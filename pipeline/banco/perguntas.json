@@ -216339,5 +216339,200 @@
     "fonte": [
       "https://pt.wikipedia.org/wiki/Zé_Gotinha"
     ]
+  },
+  {
+    "id": "q11887",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "afeganistao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que cidade é a capital do país destacado neste mapa?",
+    "resposta": "Cabul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Afghanistan",
+      "https://pt.wikipedia.org/wiki/Afeganist%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q11887.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Afghanistan_on_the_globe_(Afghanistan_centered).svg",
+      "autor": "Addicted04",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11888",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "austria",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que país está destacado neste mapa?",
+    "resposta": "Áustria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Austria",
+      "https://pt.wikipedia.org/wiki/%C3%81ustria"
+    ],
+    "imagem": {
+      "arquivo": "q11888.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EU-Austria.svg",
+      "autor": "NuclearVacuum",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11889",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "minas_gerais",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a capital do estado destacado neste mapa?",
+    "resposta": "Belo Horizonte",
+    "distratores": [
+      "Vitória",
+      "Goiânia",
+      "Campo Grande"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Minas_Gerais",
+      "https://pt.wikipedia.org/wiki/Minas_Gerais"
+    ],
+    "imagem": {
+      "arquivo": "q11889.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Minas_Gerais_in_Brazil.svg",
+      "autor": "TUBS",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11890",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "moldavia",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que país faz fronteira, a oeste, com o país destacado neste mapa?",
+    "resposta": "Romênia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moldova",
+      "https://pt.wikipedia.org/wiki/Mold%C3%A1via"
+    ],
+    "imagem": {
+      "arquivo": "q11890.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Location_Moldova_Europe.svg",
+      "autor": "Bosonic dressing",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q11891",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "hungria",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que país está destacado neste mapa?",
+    "resposta": "Hungria",
+    "distratores": [
+      "Romênia",
+      "Eslováquia",
+      "Croácia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hungary",
+      "https://pt.wikipedia.org/wiki/Hungria"
+    ],
+    "imagem": {
+      "arquivo": "q11891.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EU-Hungary.svg",
+      "autor": "NuclearVacuum",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11892",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "guine_bissau",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual é o idioma oficial do país destacado neste mapa?",
+    "resposta": "Português",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guinea-Bissau",
+      "https://pt.wikipedia.org/wiki/Guin%C3%A9-Bissau"
+    ],
+    "imagem": {
+      "arquivo": "q11892.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Guinea-Bissau_on_the_globe_(Africa_centered).svg",
+      "autor": "TUBS",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11893",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "grecia",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que país está destacado neste mapa?",
+    "resposta": "Grécia",
+    "distratores": [
+      "Turquia",
+      "Itália",
+      "Bulgária"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greece",
+      "https://pt.wikipedia.org/wiki/Gr%C3%A9cia"
+    ],
+    "imagem": {
+      "arquivo": "q11893.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EU-Greece.svg",
+      "autor": "NuclearVacuum",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11894",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "bulgaria",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que mar banha, a leste, o país destacado neste mapa?",
+    "resposta": "Mar Negro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bulgaria",
+      "https://pt.wikipedia.org/wiki/Bulg%C3%A1ria"
+    ],
+    "imagem": {
+      "arquivo": "q11894.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EU-Bulgaria.svg",
+      "autor": "NuclearVacuum",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q11895",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "burkina_faso",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que país está destacado neste mapa?",
+    "resposta": "Burkina Faso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Burkina_Faso",
+      "https://pt.wikipedia.org/wiki/Burquina_Fasso"
+    ],
+    "imagem": {
+      "arquivo": "q11895.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Burkina_Faso_on_the_globe_(Africa_centered).svg",
+      "autor": "TUBS",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

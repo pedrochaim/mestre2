@@ -1,0 +1,244 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa claro do Quênia em projeção ortográfica da África, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade é a capital do país destacado neste mapa?",
+      "resposta": "Nairóbi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Quênia",
+        "descricao": "País da África Oriental, banhado pelo Oceano Índico, cuja capital é Nairóbi.",
+        "variantes": [
+          "Kenya",
+          "República do Quênia"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Espanha bem destacada no mapa da Europa, com ilhas Canárias e Baleares; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira, a oeste, com o país destacado neste mapa?",
+      "resposta": "Portugal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Espanha",
+        "descricao": "País do sul da Europa que ocupa a maior parte da Península Ibérica, com capital em Madri.",
+        "variantes": [
+          "Reino da Espanha",
+          "Spain"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Afeganistão em vermelho, no centro do globo; forma e posição reconhecíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade é a capital do país destacado neste mapa?",
+      "resposta": "Cabul",
+      "destino": 0,
+      "ancora": {
+        "nome": "Afeganistão",
+        "descricao": "País sem litoral da Ásia Central e do Sul, cuja capital é Cabul.",
+        "variantes": [
+          "Afghanistan",
+          "Emirado Islâmico do Afeganistão"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Áustria claramente destacada no mapa da Europa, com forma característica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Áustria",
+      "destino": 0,
+      "ancora": {
+        "nome": "Áustria",
+        "descricao": "País sem litoral da Europa Central, nos Alpes orientais, com capital em Viena.",
+        "variantes": [
+          "Austria",
+          "República da Áustria"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Minas Gerais em vermelho no mapa do Brasil, sem texto; forma inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "Belo Horizonte",
+      "distratores": [
+        "Vitória",
+        "Goiânia",
+        "Campo Grande"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Minas Gerais",
+        "descricao": "Estado brasileiro da Região Sudeste, sem litoral, cuja capital é Belo Horizonte.",
+        "variantes": [
+          "MG"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Moldávia em verde, pequena mas nítida no mapa da Europa, com círculo no mapa-múndi.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira, a oeste, com o país destacado neste mapa?",
+      "resposta": "Romênia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Moldávia",
+        "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+        "variantes": [
+          "Moldova",
+          "República da Moldávia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cuba em verde na projeção das Américas; forma de ilha alongada reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade é a capital do país destacado neste mapa?",
+      "resposta": "Havana",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cuba",
+        "descricao": "País insular do Caribe, o maior da região, com capital em Havana.",
+        "variantes": [
+          "República de Cuba"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Hungria destacada no mapa da Europa; resposta única, distratores vizinhos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Hungria",
+      "distratores": [
+        "Romênia",
+        "Eslováquia",
+        "Croácia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hungria",
+        "descricao": "País sem litoral da Europa Central, na Bacia dos Cárpatos, com capital em Budapeste.",
+        "variantes": [
+          "Hungary"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Guiné-Bissau em vermelho na costa da África Ocidental; pequena mas única destacada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é o idioma oficial do país destacado neste mapa?",
+      "resposta": "Português",
+      "destino": 0,
+      "ancora": {
+        "nome": "Guiné-Bissau",
+        "descricao": "País da África Ocidental, ex-colônia portuguesa, entre o Senegal e a Guiné, com capital em Bissau.",
+        "variantes": [
+          "Guinea-Bissau",
+          "República da Guiné-Bissau"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grécia com ilhas bem visível no mapa da Europa; forma característica.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Grécia",
+      "distratores": [
+        "Turquia",
+        "Itália",
+        "Bulgária"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grécia",
+        "descricao": "País do sul da Europa, na península Balcânica, com capital em Atenas.",
+        "variantes": [
+          "Greece",
+          "República Helênica"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bulgária destacada no mapa da Europa; o Mar Negro aparece a leste.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que mar banha, a leste, o país destacado neste mapa?",
+      "resposta": "Mar Negro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bulgária",
+        "descricao": "País do sudeste da Europa, nos Bálcãs, ao sul do Danúbio, com capital em Sófia.",
+        "variantes": [
+          "Bulgaria",
+          "República da Bulgária"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Burkina Faso em vermelho no centro-oeste da África, sem texto; forma distinta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Burkina Faso",
+      "destino": 0,
+      "ancora": {
+        "nome": "Burkina Faso",
+        "descricao": "País sem litoral da África Ocidental, antigo Alto Volta, com capital em Uagadugu.",
+        "variantes": [
+          "Burquina Fasso",
+          "Alto Volta"
+        ]
+      }
+    }
+  ]
+}

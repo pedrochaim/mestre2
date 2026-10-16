@@ -1,0 +1,123 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cidade é a capital do país destacado neste mapa?",
+        "resposta": "Nairóbi"
+      },
+      "existentes": [
+        {
+          "id": "q00920",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Nairóbi"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que país faz fronteira, a oeste, com o país destacado neste mapa?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q01295",
+          "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+          "resposta": "Portugal"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é a capital do estado destacado neste mapa?",
+        "resposta": "Belo Horizonte"
+      },
+      "existentes": [
+        {
+          "id": "q07981",
+          "pergunta": "Com mais de oitocentos municípios, qual estado brasileiro é o campeão em número de municípios?",
+          "resposta": "Minas Gerais"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que cidade é a capital do país destacado neste mapa?",
+        "resposta": "Havana"
+      },
+      "existentes": [
+        {
+          "id": "q05280",
+          "pergunta": "Que cidade é a capital do país representado por esta bandeira?",
+          "resposta": "Havana"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é o idioma oficial do país destacado neste mapa?",
+        "resposta": "Português"
+      },
+      "existentes": [
+        {
+          "id": "q05276",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Bissau"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que país está destacado neste mapa?",
+        "resposta": "Burkina Faso"
+      },
+      "existentes": [
+        {
+          "id": "q04911",
+          "pergunta": "Em 1984, o Alto Volta passou a se chamar Burkina Faso. O que significa esse novo nome?",
+          "resposta": "Terra dos homens íntegros"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta (capital do país), mesma resposta Nairóbi; muda só bandeira/mapa.",
+      "id_existente": "q00920"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: país a oeste, Portugal; muda só o suporte visual.",
+      "id_existente": "q01295"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Capital de MG é fato diferente do número de municípios."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre a capital de Cuba, Havana.",
+      "id_existente": "q05280"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Idioma oficial é fato diferente da capital."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o país no mapa difere do significado do nome."
+    }
+  ]
+}

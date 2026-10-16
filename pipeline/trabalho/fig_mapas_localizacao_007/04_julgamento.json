@@ -1,0 +1,725 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Quênia",
+        "descricao": "País da África Oriental, banhado pelo Oceano Índico, cuja capital é Nairóbi.",
+        "variantes": [
+          "Kenya",
+          "República do Quênia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "benim",
+          "nome": "Benim",
+          "descricao": "País da África Ocidental, antiga colônia francesa, chamado Daomé até 1975.",
+          "variantes": [
+            "Benin",
+            "República do Benim"
+          ]
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "keffiyeh",
+          "nome": "Keffiyeh",
+          "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+          "variantes": [
+            "Quefia",
+            "Shemagh",
+            "Ghutrah",
+            "Hattah",
+            "Kufiyya"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Espanha",
+        "descricao": "País do sul da Europa que ocupa a maior parte da Península Ibérica, com capital em Madri.",
+        "variantes": [
+          "Reino da Espanha",
+          "Spain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+          "variantes": [
+            "Reino da Espanha"
+          ]
+        },
+        {
+          "id": "marcha_real",
+          "nome": "Marcha Real",
+          "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+          "variantes": [
+            "Marcha Granadera",
+            "Hino da Espanha"
+          ]
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        },
+        {
+          "id": "hispaniola",
+          "nome": "Hispaniola",
+          "descricao": "Ilha das Grandes Antilhas, no mar do Caribe, entre Cuba e Porto Rico.",
+          "variantes": [
+            "La Española",
+            "Ilha de São Domingos",
+            "Española"
+          ]
+        },
+        {
+          "id": "spawn",
+          "nome": "Spawn",
+          "descricao": "Anti-herói demoníaco lançado em 1992 pela editora Image Comics",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Afeganistão",
+        "descricao": "País sem litoral da Ásia Central e do Sul, cuja capital é Cabul.",
+        "variantes": [
+          "Afghanistan",
+          "Emirado Islâmico do Afeganistão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gastao",
+          "nome": "Gastão",
+          "descricao": "Primo do Pato Donald nos quadrinhos da Disney, famoso por sua sorte absurda",
+          "variantes": [
+            "Gladstone Gander",
+            "Gastão (Disney)"
+          ]
+        },
+        {
+          "id": "granito",
+          "nome": "Granito",
+          "descricao": "Rocha ígnea intrusiva de grão grosso, formada pelo resfriamento lento do magma no interior da crosta.",
+          "variantes": [
+            "Granite"
+          ]
+        },
+        {
+          "id": "darmanitan",
+          "nome": "Darmanitan",
+          "descricao": "Pokémon do tipo Fogo da quinta geração, evolução de Darumaka, que entra num modo de meditação.",
+          "variantes": [
+            "Hihidaruma"
+          ]
+        },
+        {
+          "id": "bandeira_do_cazaquistao",
+          "nome": "Bandeira do Cazaquistão",
+          "descricao": "Bandeira nacional do Cazaquistão, azul-turquesa com sol dourado, águia e ornamento vertical na lateral.",
+          "variantes": [
+            "Cazaquistão",
+            "Bandeira do Kazakhstan"
+          ]
+        },
+        {
+          "id": "cazaquistao",
+          "nome": "Cazaquistão",
+          "descricao": "País da Ásia Central, o maior sem saída para o mar, com capital em Astana.",
+          "variantes": [
+            "Kazakhstan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Áustria",
+        "descricao": "País sem litoral da Europa Central, nos Alpes orientais, com capital em Viena.",
+        "variantes": [
+          "República da Áustria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        },
+        {
+          "id": "australia",
+          "nome": "Austrália",
+          "descricao": "País que ocupa o continente australiano e a Tasmânia, com capital em Camberra.",
+          "variantes": [
+            "Commonwealth da Austrália"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Minas Gerais",
+        "descricao": "Estado brasileiro da Região Sudeste, sem litoral, cuja capital é Belo Horizonte.",
+        "variantes": [
+          "MG"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "minas_gerais",
+          "nome": "Minas Gerais",
+          "descricao": "Estado da Região Sudeste do Brasil, com capital em Belo Horizonte.",
+          "variantes": [
+            "MG"
+          ]
+        },
+        {
+          "id": "melbourne_cricket_ground",
+          "nome": "Melbourne Cricket Ground",
+          "descricao": "Estádio multiuso em Melbourne, Austrália, sede da final da AFL e do Boxing Day Test.",
+          "variantes": [
+            "MCG",
+            "Estádio Melbourne Cricket Ground"
+          ]
+        },
+        {
+          "id": "estados_gerais_de_1789",
+          "nome": "Estados Gerais de 1789",
+          "descricao": "Assembleia dos três estados da França convocada por Luís XVI em 1789, cuja reunião desencadeou a Revolução Francesa.",
+          "variantes": [
+            "Estates General of 1789",
+            "Estados Gerais"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "minas_de_laurio",
+          "nome": "Minas de Láurio",
+          "descricao": "Minas de prata da Ática, ao sul de Atenas, cuja riqueza financiou a frota ateniense no século cinco a.C.",
+          "variantes": [
+            "Laurium",
+            "Lavrio",
+            "Láurion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Moldávia",
+        "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+        "variantes": [
+          "Moldova",
+          "República da Moldávia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_moldavia",
+          "nome": "Bandeira da Moldávia",
+          "descricao": "Bandeira nacional atual da Moldávia, com três faixas verticais azul, amarela e vermelha e o brasão com a cabeça de auroque.",
+          "variantes": [
+            "Moldávia",
+            "Bandeira da Moldova"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cuba",
+        "descricao": "País insular do Caribe, o maior da região, com capital em Havana.",
+        "variantes": [
+          "República de Cuba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cuba",
+          "nome": "Cuba",
+          "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+          "variantes": [
+            "República de Cuba"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "cuiaba",
+          "nome": "Cuiabá",
+          "descricao": "Capital do estado de Mato Grosso, às margens do rio Cuiabá.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Hungria",
+        "descricao": "País sem litoral da Europa Central, na Bacia dos Cárpatos, com capital em Budapeste.",
+        "variantes": [
+          "Hungary"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_hungria",
+          "nome": "Bandeira da Hungria",
+          "descricao": "Bandeira nacional da Hungria, tricolor horizontal vermelha, branca e verde.",
+          "variantes": [
+            "Hungria",
+            "Bandeira húngara"
+          ]
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        },
+        {
+          "id": "sangria",
+          "nome": "Sangria",
+          "descricao": "Bebida alcoólica ibérica de vinho tinto com frutas picadas.",
+          "variantes": []
+        },
+        {
+          "id": "buneary",
+          "nome": "Buneary",
+          "descricao": "Pokémon do tipo Normal, número 427 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "shangri_la",
+          "nome": "Shangri-La",
+          "descricao": "Vale paradisíaco imaginário nas montanhas do Tibete, criado pelo escritor britânico James Hilton.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Guiné-Bissau",
+        "descricao": "País da África Ocidental, ex-colônia portuguesa, entre o Senegal e a Guiné, com capital em Bissau.",
+        "variantes": [
+          "Guinea-Bissau",
+          "República da Guiné-Bissau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guine_bissau",
+          "nome": "Guiné-Bissau",
+          "descricao": "País da África Ocidental, antiga colônia portuguesa, que faz fronteira com Senegal e Guiné.",
+          "variantes": [
+            "República da Guiné-Bissau"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "guatemala",
+          "nome": "Guatemala",
+          "descricao": "País da América Central que faz fronteira com México, Belize, Honduras e El Salvador.",
+          "variantes": [
+            "República da Guatemala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Grécia",
+        "descricao": "País do sul da Europa, na península Balcânica, com capital em Atenas.",
+        "variantes": [
+          "Greece",
+          "República Helênica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "republica_tcheca",
+          "nome": "República Tcheca",
+          "descricao": "País sem litoral da Europa Central, antiga Boêmia, com capital em Praga.",
+          "variantes": [
+            "Tchéquia",
+            "Chéquia"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "greenpeace",
+          "nome": "Greenpeace",
+          "descricao": "Organização não governamental ambientalista internacional fundada em 1971.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bulgária",
+        "descricao": "País do sudeste da Europa, nos Bálcãs, ao sul do Danúbio, com capital em Sófia.",
+        "variantes": [
+          "República da Bulgária"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_bulgaria",
+          "nome": "Bandeira da Bulgária",
+          "descricao": "Bandeira da Bulgária, tricolor horizontal branco, verde e vermelho.",
+          "variantes": [
+            "Bulgária"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Burkina Faso",
+        "descricao": "País sem litoral da África Ocidental, antigo Alto Volta, com capital em Uagadugu.",
+        "variantes": [
+          "Burquina Fasso",
+          "Alto Volta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "burkina_faso",
+          "nome": "Burkina Faso",
+          "descricao": "País da África Ocidental, chamado Alto Volta até 1984.",
+          "variantes": [
+            "Burquina Faso",
+            "Alto Volta"
+          ]
+        },
+        {
+          "id": "bandeira_de_burkina_faso",
+          "nome": "Bandeira de Burkina Faso",
+          "descricao": "Bandeira nacional de Burkina Faso, vermelha e verde com uma estrela amarela central.",
+          "variantes": [
+            "Burkina Faso",
+            "Bandeira burquinense",
+            "Bandeira de Burquina Fasso"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "alessandro_volta",
+          "nome": "Alessandro Volta",
+          "descricao": "Físico e químico italiano, inventor da pilha elétrica (pilha voltaica).",
+          "variantes": [
+            "Volta"
+          ]
+        },
+        {
+          "id": "alola",
+          "nome": "Alola",
+          "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+          "variantes": [
+            "Região de Alola"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "quenia",
+      "motivo": "Mesmo país Quênia; descrição da candidata menciona bandeira mas é o país."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "espanha",
+      "motivo": "Mesmo país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Afeganistão."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Candidatas são bandeira ou outros países; o país Áustria não está cadastrado."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "minas_gerais",
+      "motivo": "Mesmo estado."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Só existe a bandeira da Moldávia, entidade distinta."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "cuba",
+      "motivo": "Mesmo país."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Só existe a bandeira da Hungria, entidade distinta."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "guine_bissau",
+      "motivo": "Mesmo país."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Grécia."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Só existe a bandeira da Bulgária, entidade distinta."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "burkina_faso",
+      "motivo": "Mesmo país, com variantes idênticas."
+    }
+  ]
+}
