@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.70 — 2026-10-16**
+> **Versão preliminar 0.71 — 2026-10-16**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -699,7 +699,7 @@ Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que nã
 
 ### Modo Pokémon
 
-A trilha do Linear só com perguntas de pokémon (2026-10-13), com casas temáticas que ditam o teor da pergunta (2026-10-16). Com cada pergunta sai um **dado de 1 a 3**, que diz quantas casas anda quem acertar (2026-10-16). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
+A trilha do Linear só com perguntas de pokémon (2026-10-13), com casas temáticas que ditam o teor da pergunta (2026-10-16). Com cada pergunta sai um **dado de 1 a 3**, que diz quantas casas anda quem recebeu a pergunta, se acertar; se ela passa adiante e outro acerta, ele anda uma casa (2026-10-16). As regras, o tabuleiro e a coleção estão em [`modo_pokemon.md`](modo_pokemon.md).
 
 ### Definições
 
@@ -788,7 +788,7 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
 |---|---|---|
 | `partidas/{codigo}` | `criada_em`, `vez`, `atual`; na Trilha da Vida, no Linear e no Pokémon, também `modo`; na Trilha, `semente` | A partida. O código é o id do documento. `modo` é `master`, `trilha`, `linear` ou `pokemon` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. `atual` é a pergunta em jogo, para o modo mesa: `sorteio`, `pergunta` (o id), `opcoes` (as alternativas na ordem da tela de quem lê), `respondente`, `leitor`, `tentaram`, `revelada` (a resposta foi mostrada a todos; o texto dela não vai para o Firestore), `tempo` (o cronômetro: `s`, os segundos, e `n`, que distingue um toque do outro), `audio` (o último comando de quem lê para o áudio da pergunta: `acao`, `tocar` ou `parar`, e `n`) e `fim` (a rodada acabou, e a pergunta continua na tela grande com a resposta, até o próximo sorteio). `som` é o último evento de som (`e`, o evento; `n`, que distingue um do outro). `atual` volta a `null` só quando a pergunta é pulada sem ninguém ter tentado. `anterior`, no mesmo formato, é a rodada encerrada antes da atual: quando sai uma pergunta nova, a rodada encerrada que estava em `atual` passa para `anterior`, para a tela grande poder mostrá-la de novo. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
 | `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em`; na Trilha, `trilha` | Um documento por jogador. Master: `pontos` é a casa do peão; `tema` é o tema do estágio 1. Trilha: o mapa `trilha` guarda posição, opções sorteadas, profissão, personalidade, mão, avanços livres, férias, descartes pendentes e o último evento |
-| `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `dado`, `respondente`, `acertou`, `tentativas` | Um registro por sorteio. A mesma pergunta pode ter vários. Quando a pergunta passa adiante, `tentativas` lista cada `{respondente, acertou}`, e `respondente` e `acertou` são os da última. `dado` (modo Pokémon) é o dado de 1 a 3 rolado no sorteio: quantas casas anda quem acertar |
+| `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `dado`, `respondente`, `acertou`, `tentativas` | Um registro por sorteio. A mesma pergunta pode ter vários. Quando a pergunta passa adiante, `tentativas` lista cada `{respondente, acertou}`, e `respondente` e `acertou` são os da última. `dado` (modo Pokémon) é o dado de 1 a 3 rolado no sorteio: quantas casas anda quem recebeu a pergunta, se acertar (outro que acerte anda uma) |
 | `avaliacoes/{id do sorteio}` | `pergunta`, `partida`, `dificuldade`, `otima`, `problemas`, `comentario`, `em` | A avaliação de quem leu a pergunta, fora das partidas. `dificuldade` vai de 1 (muito fácil) a 5 (muito difícil), ou `null`; `problemas` é uma lista de códigos fixos (`fora_do_tema`, `resposta_errada`, `mais_de_uma_resposta`, `enunciado_confuso`, `entrega_resposta`, `figura_ruim`, `repetida`, `desatualizada`). Quem leu pode refazê-la, sempre sobre a mesma pergunta; ninguém apaga. O resultado da rodada fica no sorteio de mesmo id |
 | `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
 
@@ -967,6 +967,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.71 | 2026-10-16 | Modo Pokémon: o dado vale só para quem recebeu a pergunta, e quem acerta depois que ela passa adiante anda uma casa; o marcador do dado mostra o nome de quem a recebeu (§15; `modo_pokemon.md`) |
 | 0.70 | 2026-10-16 | Modo Pokémon: um dado de 1 a 3, rolado com cada pergunta, diz quantas casas anda quem acertar; aparece no aparelho que sorteou e no modo mesa, e fica no registro do sorteio (§15, §16; `modo_pokemon.md`) |
 | 0.69 | 2026-10-16 | Modo Pokémon: tabuleiro com casas temáticas, que ditam o teor da pergunta, no lugar das casas sem tema, metade de figura e metade de texto, como a regra editorial do modo (pelo menos metade das perguntas com figura); tipo, região e evolução passam a ser silhuetas; o export grava a casa de cada pergunta da coleção (campo `casa` do app); detalhes em `modo_pokemon.md` (§15, §16) |
 | 0.68 | 2026-10-16 | Coleções com regras de conteúdo próprias, que partem da Parte I e prevalecem sobre ela, enviadas ao LLM depois dela nos lotes exclusivos; saturação das exclusivas contada só na coleção, e as exclusivas fora da conta do jogo original (§4, §6, §17). Modo Pokémon: regras de conteúdo próprias (público, sem cota de ângulos, até 5 perguntas por âncora, um fato por coleção, nomes oficiais brasileiros e em inglês, voz, atemporalidade, fontes, distratores); detalhes em `modo_pokemon.md` |

@@ -56,8 +56,10 @@
                  border: 2px solid #ffffff80; border-radius: 1cqw; pointer-events: none; }
     #mesa-dado[hidden] { display: none; }
     #mesa-dado svg { width: 3.4em; height: 3.4em; }
-    #mesa-dado span { display: flex; flex-direction: column; line-height: 1.1; }
-    #mesa-dado small { font-size: .8em; font-weight: 600; }
+    #mesa-dado { max-width: 34cqw; }
+    #mesa-dado span { display: flex; flex-direction: column; line-height: 1.1; min-width: 0; }
+    #mesa-dado small { font-size: .8em; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    #mesa-dado small + strong + small { opacity: .75; }
     #mesa-dado strong { font-size: 1.6em; font-weight: 900; }
     .sobre-botao { width: 100%; margin-top: .8rem; background: none; color: var(--suave); }
     .sobre { margin: .6rem 0 0; padding: .7rem .9rem; border: 1px solid var(--linha); border-radius: 10px; font-size: .92rem; }
@@ -535,7 +537,8 @@
             Linear, e todas as perguntas são de pokémon. A casa dita o teor da pergunta, e metade das casas é de figura
             (Quem é esse pokémon?, a silhueta, em que a resposta nem sempre é o nome, e o Cartão de atributos); as
             outras são de texto. No Início e nas casas com pokébola, a pergunta é de qualquer casa. Com a pergunta
-            sai um dado de 1 a 3: quem acertar anda esse número de casas.</p>
+            sai um dado de 1 a 3, que vale para quem a recebeu: se acertar, anda esse número de casas. Se a pergunta
+            aberta passa adiante e outro acerta, ele anda uma casa.</p>
           <p id="legenda-pokemon" class="suave legenda-pokemon" hidden></p>
           <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
             xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
@@ -755,23 +758,34 @@
     return s;
   }
 
-  // Modo Pokémon: o dado de 1 a 3 sai junto com a pergunta e diz quantas casas anda quem acertar.
+  // Modo Pokémon: o dado de 1 a 3 sai junto com a pergunta e vale só para quem ela foi feita: se essa pessoa acertar,
+  // anda o número do dado. Se a pergunta aberta passa adiante e outro acerta, ele anda uma casa.
   const rolarDado = () => 1 + Math.floor(Math.random() * 3);
   const PONTOS_DADO = { 1: [[50, 50]], 2: [[72, 28], [28, 72]], 3: [[72, 28], [50, 50], [28, 72]] };
-  // "rolando": há quantos ms o dado começou a rolar (0 = agora), ou null para o dado parado. Um redesenho no meio da
-  // rolagem continua a animação de onde ela estava.
   const svgDado = n => `<svg viewBox="0 0 100 100" role="img" aria-label="Dado: ${n}"><rect x="6" y="6" width="88" height="88" rx="20"
     fill="#fff" stroke="#2a3a8c" stroke-width="6"/>${PONTOS_DADO[n].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="10" fill="#e3350d"/>`).join("")}</svg>`;
   const casas = n => `${n} ${n === 1 ? "casa" : "casas"}`;
-  function blocoDado(n, rolando = null) {
-    const caixa = el("div", { className: "dado" + (rolando !== null ? " rolando" : "") });
-    if (rolando) caixa.style.setProperty("--atraso", `-${rolando}ms`);
-    caixa.innerHTML = svgDado(n);
-    caixa.append(el("span", { textContent: `Quem acertar anda ${casas(n)}` }));
-    return caixa;
+  // Quantas casas anda quem acertar: o dado, se for quem recebeu a pergunta (original); uma casa, se for outro.
+  const passosDe = (dado, original, quem) => dado && quem === original ? dado : 1;
+  // Cartão do Sorteio: o dado, que rola quando aparece, e o texto, que muda quando a pergunta passa adiante.
+  function desenharDadoAtual(rolar = false) {
+    const caixa = $("atual-dado"), dado = atual?.dado;
+    if (!dado) return caixa.replaceChildren();
+    const original = atual.tentativas[0]?.respondente || respondente;
+    if (rolar || !caixa.firstChild) {
+      const bloco = el("div", { className: "dado" + (rolar ? " rolando" : "") });
+      bloco.innerHTML = svgDado(dado);
+      bloco.append(el("span"));
+      caixa.replaceChildren(bloco);
+    }
+    caixa.querySelector("span").textContent = original
+      ? `Se ${nomeDe(original)} acertar, anda ${casas(dado)}${atual.tentativas.length ? " · os outros, 1 casa" : ""}`
+      : `Quem acertar anda ${casas(dado)}`;
+    $("acertou").textContent = `Acertou (+${passosDe(dado, original, respondente)})`;
   }
-  // Tela grande: o dado da pergunta à vista ("a", ou null), no canto do tabuleiro. Rola uma vez, quando a tela
-  // mostra o sorteio pela primeira vez; os redesenhos do primeiro segundo continuam a mesma rolagem.
+  // Tela grande: o dado da pergunta à vista ("a", ou null), no canto do tabuleiro, com o nome de quem recebeu a
+  // pergunta. Rola uma vez, quando a tela mostra o sorteio pela primeira vez; os redesenhos do primeiro segundo
+  // continuam a mesma rolagem.
   let dadoVisto = null;  // {sorteio, desde}: o sorteio cujo dado a tela grande já rolou, e quando começou
   function desenharDadoMesa(a) {
     const caixa = $("mesa-dado");
@@ -781,7 +795,11 @@
     const passou = revendo ? Infinity : Date.now() - dadoVisto.desde;
     caixa.classList.toggle("rolando", passou < 900);
     caixa.style.setProperty("--atraso", `-${passou < 900 ? passou : 0}ms`);
-    caixa.innerHTML = `${svgDado(a.dado)}<span><small>Quem acertar anda</small><strong>${casas(a.dado)}</strong></span>`;
+    // Quem recebeu a pergunta: o primeiro que tentou ou, se ninguém errou, quem responde.
+    const original = a.tentaram?.[0] || a.respondente;
+    const nome = original ? esc(nomeDe(original)) : "";
+    caixa.innerHTML = `${svgDado(a.dado)}<span><small>${nome ? `Se ${nome} acertar, anda` : "Quem acertar anda"}</small>`
+      + `<strong>${casas(a.dado)}</strong>${a.tentaram?.length ? "<small>Os outros: 1 casa</small>" : ""}</span>`;
   }
 
   const carregando = fetch("perguntas.json", { cache: "no-cache" }).then(r => r.json()).then(d => { banco = AUDIO_NO_JOGO ? d : d.filter(p => !p.audio); perguntasDoModo(); });
@@ -1102,8 +1120,8 @@
   function mostrar(p, sorteio, antes, dado = null) {
     atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null,
               tentativas: [], publica: false, tempo: null, dado };
-    $("atual-dado").replaceChildren(...(dado ? [blocoDado(dado, 0)] : []));
-    $("acertou").textContent = `Acertou (+${dado || 1})`;
+    $("acertou").textContent = "Acertou (+1)";
+    desenharDadoAtual(true);
     marcarCronometro();
     $("atual-passou").hidden = true;
     $("revelar-todos").textContent = "Mostrar resposta para todos";
@@ -1329,6 +1347,7 @@
     }));
     if (!jogadores.length) $("respondentes").textContent = "Adicione jogadores na aba Tabuleiro.";
     $("acertou").disabled = $("errou").disabled = !respondente;
+    desenharDadoAtual();
   }
 
   // Escolhe quem responde. Antes do sorteio, também seleciona o tema dele.
@@ -1364,11 +1383,11 @@
     publicarAtual("erro");
   }
 
-  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou (uma casa; no modo Pokémon, o dado) e passa a
-  // vez ao seguinte do da vez.
+  // Fecha a rodada: grava as tentativas, avança o peão de quem acertou (uma casa; no modo Pokémon, o dado, se for
+  // quem recebeu a pergunta) e passa a vez ao seguinte do da vez.
   async function encerrar(tentativas) {
     const ultima = tentativas[tentativas.length - 1];
-    const passos = atual.dado || 1;
+    const passos = passosDe(atual.dado, tentativas[0].respondente, ultima.respondente);
     const batch = writeBatch(db);
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { ...ultima, tentativas });
     if (ultima.acertou) batch.update(doc(db, "partidas", codigo, "jogadores", ultima.respondente), { pontos: increment(passos) });
