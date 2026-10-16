@@ -1,0 +1,152 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto aérea clara da ponte, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Oficialmente, esta ponte leva o nome de qual presidente?",
+      "resposta": "Costa e Silva",
+      "ancora": {
+        "nome": "Ponte Rio-Niterói",
+        "descricao": "Ponte sobre a Baía de Guanabara que liga o Rio de Janeiro a Niterói, inaugurada em 1974.",
+        "variantes": [
+          "Ponte Presidente Costa e Silva"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "DeLorean com portas asa-de-gaivota, inconfundível; o 'DMC' pequeno não entrega a resposta pedida (o designer).",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que designer italiano desenhou este carro de portas asa-de-gaivota?",
+      "resposta": "Giorgetto Giugiaro",
+      "distratores": [
+        "Marcello Gandini",
+        "Sergio Pininfarina",
+        "Nuccio Bertone"
+      ],
+      "ancora": {
+        "nome": "DeLorean DMC-12",
+        "descricao": "Carro esportivo de aço inox e portas asa-de-gaivota fabricado pela DeLorean Motor Company de 1981 a 1983.",
+        "variantes": [
+          "DMC DeLorean",
+          "DMC-12"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Texto visível na fuselagem ('Ту-144' e matrícula CCCP-77112) entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto 'MONZA S/R' legível na lateral entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Texto 'DREAMLINER' e logotipo ANA visíveis na fuselagem entregam o modelo."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "'TRIESTE' escrito na torre do batiscafo entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Letreiro 'SCHOOL BUS' e nome da empresa visíveis entregam a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto publicitária com modelo ao fundo, escrita 'Bel Air' no flanco e ambiguidade com outros modelos de 1957 (150, 210)."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Smart Fortwo reconhecível pela forma; placa austríaca não entrega a resposta.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi lançada a primeira geração deste carro?",
+      "resposta": "1998",
+      "distratores": [
+        "1994",
+        "1996",
+        "2001"
+      ],
+      "ancora": {
+        "nome": "Smart Fortwo",
+        "descricao": "Carro urbano de dois lugares da marca Smart, do grupo Mercedes-Benz, lançado em 1998.",
+        "variantes": [
+          "Smart ForTwo",
+          "Smart"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Chevette americano de perfil frontal, sem texto relevante; reconhecível entre outros compactos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo compacto da Chevrolet é este?",
+      "resposta": "Chevette",
+      "distratores": [
+        "Vega",
+        "Citation",
+        "Nova"
+      ],
+      "ancora": {
+        "nome": "Chevrolet Chevette",
+        "descricao": "Subcompacto de tração traseira da Chevrolet, produzido nos anos 1970 e 1980.",
+        "variantes": [
+          "Chevette"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Número de casco '63' bem visível identifica o navio; além disso, pouco distinguível de outros Iowa."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Hummer H1 reconhecível pela forma; a escrita pequena não entrega o ano pedido.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano começou a produção da versão civil deste veículo?",
+      "resposta": "1992",
+      "distratores": [
+        "1985",
+        "1989",
+        "1996"
+      ],
+      "ancora": {
+        "nome": "Hummer H1",
+        "descricao": "Utilitário 4x4 civil derivado do militar Humvee, produzido pela AM General de 1992 a 2006.",
+        "variantes": [
+          "Hummer",
+          "H1"
+        ]
+      }
+    }
+  ]
+}

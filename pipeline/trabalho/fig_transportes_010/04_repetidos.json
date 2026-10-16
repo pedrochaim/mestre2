@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Oficialmente, esta ponte leva o nome de qual presidente?",
+        "resposta": "Costa e Silva"
+      },
+      "existentes": [
+        {
+          "id": "q04556",
+          "pergunta": "A ponte Rio-Niterói tem um nome oficial pouco usado, que homenageia um presidente do regime militar. Qual?",
+          "resposta": "Costa e Silva"
+        },
+        {
+          "id": "q05838",
+          "pergunta": "Atravessando a baía de Guanabara por mais de treze quilômetros, a ponte Rio-Niterói foi inaugurada em qual década?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que designer italiano desenhou a carroceria deste carro esportivo, fabricado no início dos anos oitenta?",
+        "resposta": "Giorgetto Giugiaro"
+      },
+      "existentes": [
+        {
+          "id": "q05617",
+          "pergunta": "O DeLorean, carro que vira máquina do tempo no filme De Volta para o Futuro, era fabricado em qual parte do Reino Unido?",
+          "resposta": "Irlanda do Norte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04556",
+      "motivo": "Ambas perguntam o presidente homenageado no nome oficial da ponte; resposta Costa e Silva."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o designer da carroceria, fato diferente do local de fabricação do DeLorean."
+    }
+  ]
+}

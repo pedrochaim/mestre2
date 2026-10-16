@@ -1,0 +1,47 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o nome oficial é Ponte Presidente Costa e Silva. O enunciado não nomeia a ponte e a pergunta exige o passo além do reconhecimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato (Giugiaro) está nos trechos. Porém 'portas asa-de-gaivota' é a marca mais famosa do carro e entrega a identidade sem olhar a figura. Reescrita sem essa pista, usando a época.",
+      "reescrita": {
+        "pergunta": "Que designer italiano desenhou a carroceria deste carro esportivo, fabricado no início dos anos oitenta?",
+        "resposta": "Giorgetto Giugiaro",
+        "distratores": [
+          "Marcello Gandini",
+          "Sergio Pininfarina",
+          "Nuccio Bertone"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A primeira geração foi lançada em 1998, como confirmam os trechos. Os distratores são anos próximos e críveis, e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O modelo é o Chevette, confirmado pelos trechos. Os distratores são modelos Chevrolet críveis, de até quatro palavras, e o enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a versão civil foi produzida de 1992 a 2006 e foi lançada em 1992. Os distratores são anos plausíveis e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}
