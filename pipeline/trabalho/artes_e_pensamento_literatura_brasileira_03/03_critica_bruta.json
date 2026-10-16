@@ -1,0 +1,441 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelo trecho; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A primeira fonte é a página do município de Urupês, não do livro; usar só a página de Monteiro Lobato.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Monteiro Lobato ficou famoso pelos livros infantis. Qual destes livros dele, lançado em 1918, foi escrito para leitores adultos?",
+        "resposta": "Urupês",
+        "distratores": [
+          "Reinações de Narizinho",
+          "Caçadas de Pedrinho",
+          "Memórias da Emília"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a terceira pessoa; distratores são narrados em primeira pessoa.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Senhora é o romance urbano carioca; distratores são indianistas ou sertanejos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Resposta única entre romances; fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma líder loiro Pedro Bala.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte é uma página de desambiguação; trocar pela do Grupo dos Cinco (Brasil).",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O Grupo dos Cinco, núcleo do Modernismo paulista, reunia Tarsila do Amaral, Anita Malfatti, Mário e Oswald de Andrade. Quem era o quinto integrante?",
+        "resposta": "Menotti del Picchia",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Grupo_dos_Cinco_(Brasil)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quindim é rinoceronte, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dedicatória confirmada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado vaza a palavra 'rio' presente no título da resposta.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Que conto de Primeiras Estórias, de Guimarães Rosa, narra a história de um pai que abandona a família para viver numa canoa, sem nunca mais pisar em terra firme?",
+        "resposta": "A Terceira Margem do Rio",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Primeiras_Estórias",
+          "https://pt.wikipedia.org/wiki/A_Terceira_Margem_do_Rio"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Verso 'o beijo, amigo, é a véspera do escarro' é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ordem dos volumes confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O título 'Prefácio Interessantíssimo' é bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Episódio central da peça: o enterro em latim da cachorra do padeiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tríade confirmada; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a faca na mala da avó.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olhos de ressaca confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome completo Maria Capitolina confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teodoro é farmacêutico e toca fagote.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Transcomunicação instrumental com os mortos confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catadora de papéis confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O ano 1945 diverge do trecho (1946); remover o ano e simplificar a resposta.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Eleito deputado federal pelo Partido Comunista, Jorge Amado foi autor da emenda constitucional que garantiu que liberdade?",
+        "resposta": "Liberdade religiosa",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jorge_Amado"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os meninos são chamados só de mais velho e mais novo.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Graúna confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título e ano confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os pais eram escravos alforriados, não escravizados.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Filho de escravos libertos, o poeta simbolista Cruz e Sousa ganhou um apelido que o compara a uma ave elegante. Qual?",
+        "resposta": "Cisne Negro",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cruz_e_Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta contém 'Ferreira', que aparece no enunciado; e 'batizado' é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O poeta maranhense autor do Poema Sujo usava um pseudônimo. Qual era o seu nome de nascimento?",
+        "resposta": "José Ribamar Ferreira",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ferreira_Gullar"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pseudônimo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parentesco confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O título do romance varia no Brasil; aceitar ambas as formas na resposta.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A novela Max e os Felinos, do gaúcho Moacyr Scliar, sobre um náufrago que divide um bote com um jaguar, inspirou que premiado romance canadense?",
+        "resposta": "As Aventuras de Pi (A Vida de Pi)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Max_e_os_Felinos",
+          "https://en.wikipedia.org/wiki/Life_of_Pi"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grande Otelo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casamentos confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lucélia Santos confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte é página de desambiguação; usar a do escritor.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Lima Barreto foi internado duas vezes no hospício da Praia Vermelha, experiência que relatou no Diário do Hospício. Que problema o levou até lá?",
+        "resposta": "Alcoolismo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Lima_Barreto_(escritor)"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alegação confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hotel Majestic confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colégio interno confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; trocar pela página do autor.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O romance Dois Irmãos, de Milton Hatoum, sobre a rivalidade entre os gêmeos Yaqub e Omar, se passa em que capital brasileira?",
+        "resposta": "Manaus",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Milton_Hatoum"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte na Ilha de Moçambique confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1960 confirmado para livro e Brasília.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Último romance, 1908.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nove casamentos confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; trocar pela página do autor. Dez cantos é fato conhecido.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "Seguindo o modelo de Os Lusíadas, o poema épico Caramuru, de frei Santa Rita Durão, sobre o náufrago Diogo Álvares, é dividido em quantos cantos?",
+        "resposta": "Dez",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/José_de_Santa_Rita_Durão"
+        ]
+      }
+    }
+  ]
+}
