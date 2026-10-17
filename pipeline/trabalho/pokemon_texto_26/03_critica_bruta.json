@@ -1,0 +1,246 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Roar of Time é golpe exclusivo de Dialga e exige recarga no turno seguinte; fato clássico e correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Spacial Rend é exclusivo de Palkia; distratores são lendários de Sinnoh.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Shadow Force é de Giratina e ele some de vista no primeiro turno.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Detalhe de mecânica competitiva (acertar através de Protect), enunciado longo e com dois golpes; fraco para o modo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dark Void é exclusivo de Darkrai e faz dormir.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lunar Dance: usuário desmaia e o substituto é totalmente curado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Magma Storm é exclusivo de Heatran; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Crush Grip é exclusivo de Regigigas e tem mais força quanto mais vida o alvo tem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Seed Flare é exclusivo de Shaymin e reduz muito a Defesa Especial.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Heart Swap troca as alterações de atributos; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Chatter usa gravação feita pelo microfone do DS; fato curioso e correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "V-create reduz Defesa, Defesa Especial e Velocidade do usuário.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Keldeo só assume a Forma Resoluta conhecendo Secret Sword; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Secret Sword é descrito como corte com o chifre; fato distinto da pergunta 13.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Forma Pirueta de Meloetta é Normal/Lutador, substituindo o Psíquico.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Judgment de Arceus muda de tipo conforme a placa, como Techno Blast com Drives.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ice Burn pode queimar o alvo; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Freeze Shock e Ice Burn são golpes de dois turnos; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Logo depois' é impreciso: o bônus vale se Fusion Bolt foi usado antes no mesmo turno.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Fusion Flare, golpe de fogo exclusivo de Reshiram, ganha um bônus se o Fusion Bolt, de Zekrom, tiver sido usado antes no mesmo turno. Que bônus?",
+        "resposta": "O poder dobra",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fusion_Flare_(move)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bolt Strike é exclusivo de Zekrom e pode paralisar.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Night Daze é exclusivo de Zoroark e pode baixar a precisão.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fiery Dance é exclusivo de Volcarona e pode elevar o Ataque Especial.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Gear Grind é da linha toda (Klink, Klang, Klinklang) e a resposta tinha parênteses indevidos; pedir a evolução final.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "multipla",
+        "pergunta": "Gear Grind, golpe de aço em que o usuário arremessa engrenagens e acerta duas vezes, é exclusivo de Klink e de suas evoluções. Qual é a evolução final?",
+        "resposta": "Klinklang",
+        "distratores": [
+          "Ferrothorn",
+          "Durant",
+          "Escavalier"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gear_Grind_(move)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Geomancy: turno de carga e grande aumento de Ataque Especial, Defesa Especial e Velocidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Oblivion Wing drena vida; distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Thousand Arrows atinge voadores e os derruba ao chão.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Volcanion não é claramente 'de Kalos'; trocar por 'da sexta geração'.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Steam Eruption, um jato de vapor fervente que pode queimar o alvo, é o golpe exclusivo de qual pokémon mítico da sexta geração, de tipos Fogo e Água?",
+        "resposta": "Volcanion",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Steam_Eruption_(move)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Diamond Storm é exclusivo de Diancie; distratores míticos.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "King's Shield reduz o Ataque de quem usa golpe de contato.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Forest's Curse e Trick-or-Treat acrescentam um tipo ao alvo; conexão curiosa e correta.",
+      "reescrita": null
+    }
+  ]
+}

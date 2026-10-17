@@ -1,0 +1,264 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Entrada da Pokédex de Woobat fala das marcas em forma de coração deixadas ao grudar pelo nariz.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que Trubbish nasceu de reação entre sacos de lixo e resíduos industriais.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex de Litwick diz que a luz guia os perdidos e absorve a energia vital deles.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Entrada da Pokédex bate com o enunciado e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Conkeldurr empunha pilares de concreto, não anda apoiado neles; corrigir o verbo sem vazar a resposta.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Segundo a Pokédex, o lutador Conkeldurr, que empunha dois grandes pilares, teria ensinado aos humanos, há mais de dois mil anos, a fazer o quê?",
+        "resposta": "Concreto",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Conkeldurr_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex de Leavanny confirma as roupas de folhas; distratores são insetos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex de Heatmor diz que derrete e come Durant; distratores de aço são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza de que o texto é da versão X; remover a versão do enunciado.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Segundo a Pokédex, as damas da realeza de antigamente levavam um Spritzee consigo no lugar de qual produto?",
+        "resposta": "Perfume",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta longa demais e com dois itens; encurtar e usar ângulo atributo.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "O roedor Dedenne, de Kalos, suga eletricidade com a cauda e a dispara pelos bigodes. Segundo a Pokédex, de onde ele tira essa energia?",
+        "resposta": "Tomadas das casas e usinas",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dedenne_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a resposta é longa; encurtar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo velhas histórias contadas pela Pokédex, Phantump é um toco de árvore apodrecido possuído pelo espírito de quem?",
+        "resposta": "Uma criança perdida na floresta",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Phantump_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex de Gourgeist diz que quem ouve o canto na lua nova é amaldiçoado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que as orelhas cobrem o órgão que emite poder psíquico, para contê-lo.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex compara Avalugg a um porta-aviões de gelo; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que acampantes agradecem por Charjabug armazenar eletricidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex de Sandygast diz que quem põe a mão na boca é controlado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex menciona o bico de jogar Pyukumuku de volta ao mar em Alola.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza do texto da Pokédex sobre a causa do sono de Komala.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que Drampa desce das montanhas para brincar com crianças.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que Mareanie adora comer pedaços de Corsola; distratores aquáticos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que a lã permite cair de um penhasco sem ferimentos.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Arrokuda é a presa preferida engolida inteira por Cramorant; distratores aquáticos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que o raspar das saliências do peito gera eletricidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que Sinistea nasceu de espírito solitário que possuiu uma xícara de chá frio esquecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que Dracovish extinguiu-se por caçar todas as presas.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que as lágrimas de Sobble têm a força de cem cebolas.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que o aroma de Dachsbun ajuda o trigo a crescer, valorizado por vilas agrícolas.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que a cor da saliva depende do que Grafaiai come.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza do texto exato da Pokédex sobre a origem de Greavard.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pokédex diz que Dondozo se une a Tatsugiri para obter comida.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato confiável, mas a versão citada é incerta; remover a versão.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Segundo a Pokédex, Tinkaton rebate pedras para o céu com seu martelo, mirando em qual pokémon que passa voando?",
+        "resposta": "Corviknight",
+        "distratores": [
+          "Talonflame",
+          "Bombirdier",
+          "Kilowattrel"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tinkaton_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      }
+    }
+  ]
+}

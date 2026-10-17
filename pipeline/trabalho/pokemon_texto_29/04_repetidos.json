@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Hoopa, que tira objetos e até lendários de dentro de anéis mágicos, lembra qual ser das Mil e Uma Noites, famoso por sair de uma lâmpada?",
+        "resposta": "Gênio (djinn)"
+      },
+      "existentes": [
+        {
+          "id": "q12584",
+          "pergunta": "Hyperspace Hole, golpe exclusivo de Hoopa, ataca o alvo através de um portal aberto pelos seus anéis. Que tipo de defesa esse ataque atravessa?",
+          "resposta": "Golpes de proteção, como Protect"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Silvally, o pokémon artificial de Alola, tem o corpo montado com partes de vários animais, como qual monstro da mitologia grega?",
+        "resposta": "Quimera"
+      },
+      "existentes": [
+        {
+          "id": "q12580",
+          "pergunta": "Silvally muda de tipo conforme o disco de Memória que segura. Qual é o seu golpe exclusivo, que muda de tipo junto com ele?",
+          "resposta": "Multi-Attack"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quaquaval, a ave dançarina de Paldea, tem penas vistosas na cabeça como as fantasias de carnaval. Ela se inspira nos dançarinos de qual ritmo brasileiro?",
+        "resposta": "Samba"
+      },
+      "existentes": [
+        {
+          "id": "q12565",
+          "pergunta": "Aqua Step, uma dança de passos ágeis sobre a água que deixa o dançarino mais veloz, é o golpe exclusivo de qual pokémon de Paldea?",
+          "resposta": "Quaquaval"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Ogerpon, a pequena lendária mascarada de Kitakami, tem o visual inspirado em qual criatura chifruda do folclore japonês?",
+        "resposta": "Oni"
+      },
+      "existentes": [
+        {
+          "id": "q11272",
+          "pergunta": "Em The Teal Mask, a pequena Ogerpon, de tipo Planta, pode ganhar um segundo tipo, como Água, Fogo ou Pedra. O que define qual será?",
+          "resposta": "A máscara que ela usa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre inspiração (gênio) é diferente do efeito do Hyperspace Hole."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Inspiração mitológica (quimera) difere do golpe exclusivo Multi-Attack."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Inspiração em samba difere do golpe exclusivo Aqua Step."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Inspiração do visual (oni) difere do que define o segundo tipo (máscara)."
+    }
+  ]
+}

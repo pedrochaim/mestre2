@@ -1,0 +1,179 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Red e Blue, Moltres, a ave lendária de fogo, espera o jogador em qual lugar de Kanto, o último caminho antes do Platô Índigo?",
+        "resposta": "Victory Road"
+      },
+      "existentes": [
+        {
+          "id": "q11074",
+          "pergunta": "A fênix, ave mitológica que renasce das próprias cinzas, inspirou qual das três aves lendárias de Kanto?",
+          "resposta": "Moltres"
+        },
+        {
+          "id": "q12522",
+          "pergunta": "Fiery Wrath, golpe exclusivo do tipo Sombrio que transforma a fúria do usuário numa aura de fogo, pertence a qual pokémon de Galar?",
+          "resposta": "Moltres de Galar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Red e Blue, o jogador ganha um Eevee de presente no último andar de um prédio residencial. Em que cidade de Kanto fica esse prédio?",
+        "resposta": "Celadon"
+      },
+      "existentes": [
+        {
+          "id": "q09847",
+          "pergunta": "O nome Eevee imita a pronúncia, em inglês, das duas primeiras letras de qual palavra, que resume a grande marca desse pokémon?",
+          "resposta": "Evolution, evolução"
+        },
+        {
+          "id": "q10272",
+          "pergunta": "Em Gold e Silver, Eevee muito apegado ao treinador pode evoluir para Espeon ou para Umbreon. O que decide qual dos dois surge?",
+          "resposta": "Ser dia ou noite"
+        },
+        {
+          "id": "q12585",
+          "pergunta": "No Movimento Z exclusivo de Eevee, Extreme Evoboost, as evoluções dele aparecem para ajudar. Que efeito esse movimento tem sobre Eevee?",
+          "resposta": "Aumenta muito todos os atributos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Red e Blue, o diretor da Zona Safári de Fuchsia dá ao jogador a Máquina Oculta de Força, ou Strength, se ele achar algo que o diretor perdeu. O quê?",
+        "resposta": "A dentadura de ouro (Gold Teeth)"
+      },
+      "existentes": [
+        {
+          "id": "q09990",
+          "pergunta": "Em Red e Blue, há um parque onde o jogador captura pokémon raros atirando iscas e pedras, sem batalhar. Em que cidade fica essa Zona Safári?",
+          "resposta": "Fuchsia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Pokémon Gold, com a Rainbow Wing em mãos, o jogador sobe ao topo de qual torre de Ecruteak para enfrentar o lendário Ho-Oh?",
+        "resposta": "Tin Tower"
+      },
+      "existentes": [
+        {
+          "id": "q09812",
+          "pergunta": "Os lendários Ho-Oh e Lugia estampam as capas de qual par de jogos da segunda geração?",
+          "resposta": "Pokémon Gold e Silver"
+        },
+        {
+          "id": "q10207",
+          "pergunta": "Ho-Oh só estreou nos jogos em Gold e Silver, mas Ash já o tinha visto voando junto a um arco-íris. Em que episódio do anime?",
+          "resposta": "No primeiro episódio"
+        },
+        {
+          "id": "q12598",
+          "pergunta": "O nome do lendário Ho-Oh vem de hōō, a forma japonesa de qual ave mitológica da China?",
+          "resposta": "Fenghuang (fênix chinesa)"
+        },
+        {
+          "id": "q12667",
+          "pergunta": "Segundo as lendas, o que ganha a pessoa que tem a sorte de ver Ho-Oh, a ave lendária de penas de sete cores?",
+          "resposta": "Felicidade eterna"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Ruby e Sapphire, o jogador ganha Castform de presente depois de expulsar os vilões de um centro de pesquisas da Rota 119. Que lugar é esse?",
+        "resposta": "Weather Institute"
+      },
+      "existentes": [
+        {
+          "id": "q12599",
+          "pergunta": "Para pedir tempo bom, crianças japonesas penduram na janela um bonequinho de pano branco. Que pokémon de Hoenn, que muda com o clima, se inspira nele?",
+          "resposta": "Castform"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Black e White, em que ruínas antigas, quase soterradas pela areia do deserto de Unova, o jogador encontra uma Volcarona no andar mais fundo?",
+        "resposta": "Relic Castle"
+      },
+      "existentes": [
+        {
+          "id": "q12550",
+          "pergunta": "Fiery Dance, uma dança envolta em chamas que pode elevar o Ataque Especial de quem dança, é o golpe exclusivo de qual mariposa de Unova?",
+          "resposta": "Volcarona"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em X e Y, Mewtwo se esconde numa caverna perto de um refúgio de pokémon que fugiram de maus-tratos humanos. Que lugar de Kalos é esse?",
+        "resposta": "Pokémon Village"
+      },
+      "existentes": [
+        {
+          "id": "q09991",
+          "pergunta": "Em Red e Blue, depois de vencer a Liga, o jogador encontra o lendário Mewtwo escondido numa caverna ao lado de qual cidade?",
+          "resposta": "Cerulean"
+        },
+        {
+          "id": "q12671",
+          "pergunta": "Mewtwo tem duas megaevoluções. A Mega Mewtwo Y continua só do tipo Psíquico. Que segundo tipo ganha a Mega Mewtwo X?",
+          "resposta": "Lutador"
+        },
+        {
+          "id": "q12889",
+          "pergunta": "Na abertura do primeiro filme Pokémon, que cientista comanda o laboratório onde Mewtwo é criado, com dinheiro de Giovanni?",
+          "resposta": "Doutor Fuji"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Local de Moltres em Kanto é fato distinto de inspiração ou golpe."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local do Eevee de presente não consta nas existentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Objeto perdido do diretor difere da cidade da Zona Safári."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Torre onde encontra Ho-Oh é fato diferente dos existentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Local do presente de Castform difere da inspiração do pokémon."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Local de Volcarona difere do golpe exclusivo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Local de Mewtwo em Kalos é fato distinto dos existentes."
+    }
+  ]
+}

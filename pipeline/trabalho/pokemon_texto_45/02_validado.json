@@ -1,0 +1,771 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "marowak",
+        "nome": "Marowak",
+        "descricao": "Pokémon do tipo Terrestre da primeira geração, evolução de Cubone, que empunha um osso.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, um fantasma impede a subida na Torre Pokémon. É o espírito de qual pokémon, uma mãe morta pela Equipe Rocket, ou Team Rocket?",
+      "resposta": "Marowak",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Tower",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Silph Scope",
+        "descricao": "Item de Pokémon Red, Blue e Yellow que permite identificar os fantasmas da Torre Pokémon, em Lavender.",
+        "variantes": [
+          "Scope Silph"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Silph_Scope"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, que aparelho, tomado de Giovanni no esconderijo de Celadon, permite enxergar os fantasmas da Torre Pokémon?",
+      "resposta": "Silph Scope",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Silph_Scope",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "giovanni",
+        "nome": "Giovanni",
+        "descricao": "Chefe da Equipe Rocket nos jogos e no anime Pokémon.",
+        "variantes": [
+          "Sakaki"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+          "https://en.wikipedia.org/wiki/Team_Rocket"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, depois de perder para o jogador no ginásio de Viridian, que decisão Giovanni anuncia?",
+      "resposta": "Dissolver a Equipe Rocket",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "https://en.wikipedia.org/wiki/Team_Rocket"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Archer",
+        "descricao": "Executivo da Equipe Rocket que comanda o grupo na ausência de Giovanni em Pokémon HeartGold e SoulSilver.",
+        "variantes": [
+          "Apollo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Archer"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em HeartGold e SoulSilver, com Giovanni desaparecido, qual executivo assume o comando da Equipe Rocket, ou Team Rocket?",
+      "resposta": "Archer",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Archer",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver"
+      ],
+      "distratores": [
+        "Proton",
+        "Petrel",
+        "Ariana"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "pokemon_emerald",
+        "nome": "Pokémon Emerald",
+        "descricao": "Versão especial de Pokémon Ruby e Sapphire para Game Boy Advance, com o lendário Rayquaza na capa.",
+        "variantes": [
+          "Pokémon Esmeralda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby, o jogador enfrenta a Equipe Magma; em Sapphire, a Equipe Aqua. E em Pokémon Emerald, contra qual delas ele luta?",
+      "resposta": "As duas equipes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Emerald_Version"
+      ],
+      "distratores": [
+        "Só a Equipe Magma",
+        "Só a Equipe Aqua",
+        "Equipe Rocket"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "monte_pyre",
+        "nome": "Monte Pyre",
+        "descricao": "Montanha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, que serve de cemitério de pokémon e guarda as orbes de Groudon e Kyogre.",
+        "variantes": [
+          "Mt. Pyre"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mt._Pyre"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, os vilões sobem ao topo do Monte Pyre e roubam de um casal de idosos um objeto ligado ao lendário. Que objeto?",
+      "resposta": "Uma orbe antiga (Red Orb ou Blue Orb)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mt._Pyre",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Capitão Stern",
+        "descricao": "Oceanógrafo de Slateport, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, dono do submarino roubado pelos vilões.",
+        "variantes": [
+          "Captain Stern"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Captain_Stern"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, os vilões roubam um submarino em Slateport para chegar ao lendário. A qual pesquisador do museu oceanográfico ele pertence?",
+      "resposta": "Capitão Stern",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Captain_Stern",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "azelf",
+        "nome": "Azelf",
+        "descricao": "Pokémon lendário do tipo Psíquico da quarta geração, integrante do trio dos lagos de Sinnoh.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Diamond e Pearl, a Equipe Galáctica, ou Team Galactic, detona uma bomba que seca um lago de Sinnoh para capturar Azelf. Que lago é esse?",
+      "resposta": "Lake Valor",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lake_Valor",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+      ],
+      "distratores": [
+        "Lake Verity",
+        "Lake Acuity",
+        "Sendoff Spring"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Looker",
+        "descricao": "Agente da Polícia Internacional que aparece em vários jogos Pokémon, a partir de Platinum, investigando organizações criminosas.",
+        "variantes": [
+          "Handsome"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Looker"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que agente da Polícia Internacional investiga a Equipe Galáctica em Platinum e volta em Sun e Moon atrás das Ultracriaturas?",
+      "resposta": "Looker",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Looker",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Platinum"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "equipe_plasma",
+        "nome": "Equipe Plasma",
+        "descricao": "Organização vilã de Pokémon Black e White, da região de Unova, que tem N como rei e Ghetsis como verdadeiro líder.",
+        "variantes": [
+          "Team Plasma"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Plasma"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Black 2 e White 2, a Equipe Plasma, ou Team Plasma, volta com o lendário Kyurem. O que o grupo pretende fazer com Unova?",
+      "resposta": "Congelar a região inteira",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Plasma",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Museu de Nacrene",
+        "descricao": "Museu da cidade de Nacrene, em Unova, nos jogos Pokémon Black e White, que abriga o ginásio de Lenora.",
+        "variantes": [
+          "Nacrene Museum"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nacrene_Museum"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, a Equipe Plasma invade o museu de Nacrene e rouba uma peça que acredita estar ligada a um dragão lendário. Que peça?",
+      "resposta": "Um crânio de dragão (Dragon Skull)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nacrene_Museum",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "n",
+        "nome": "N",
+        "descricao": "Rei da Equipe Plasma em Pokémon Black e White, jovem criado entre pokémon e manipulado por Ghetsis.",
+        "variantes": [
+          "Natural Harmonia Gropius"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/N"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Black, o jogador fica com Reshiram. Que dragão lendário fica ao lado de N, o rei da Equipe Plasma?",
+      "resposta": "Zekrom",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/N",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ],
+      "distratores": [
+        "Kyurem",
+        "Hydreigon",
+        "Haxorus"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Colress",
+        "descricao": "Cientista de Pokémon Black 2 e White 2 que aparece como chefe da nova Equipe Plasma, obcecado pelo potencial dos pokémon.",
+        "variantes": [
+          "Achroma"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Colress"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Black 2 e White 2, que cientista obcecado em despertar todo o potencial dos pokémon aparece como chefe da nova Equipe Plasma?",
+      "resposta": "Colress",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Colress",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Ghetsis",
+        "descricao": "Verdadeiro líder da Equipe Plasma em Pokémon Black e White e em Black 2 e White 2, pai adotivo de N.",
+        "variantes": [
+          "Ghetsis Harmonia Gropius"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ghetsis"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, por trás do discurso de libertar os pokémon, qual é o verdadeiro plano de Ghetsis?",
+      "resposta": "Ser o único a ter pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ghetsis",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "equipe_flare",
+        "nome": "Equipe Flare",
+        "descricao": "Organização vilã de Pokémon X e Y, da região de Kalos, de uniformes vermelhos, liderada por Lysandre.",
+        "variantes": [
+          "Team Flare"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Flare"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em X e Y, a Equipe Flare, ou Team Flare, só aceita gente rica. Quanto um novo membro precisa pagar para entrar?",
+      "resposta": "Cinco milhões",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Flare",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ],
+      "distratores": [
+        "Um milhão",
+        "Dez milhões",
+        "Quinhentos mil"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "arma_suprema",
+        "nome": "Arma suprema",
+        "descricao": "Máquina construída há três mil anos pelo rei AZ, em Pokémon X e Y, que a Equipe Flare quer disparar contra o mundo.",
+        "variantes": [
+          "Ultimate weapon"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ultimate_weapon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, para disparar a arma suprema, a Equipe Flare precisa da energia vital de qual pokémon?",
+      "resposta": "Do lendário da capa, Xerneas ou Yveltal",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ultimate_weapon",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "equipe_skull",
+        "nome": "Equipe Skull",
+        "descricao": "Gangue de Pokémon Sun e Moon, da região de Alola, formada por jovens rebeldes que se vestem de preto e branco.",
+        "variantes": [
+          "Team Skull"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Skull"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, a Equipe Skull, ou Team Skull, parece só uma gangue de rua, mas trabalha em segredo para qual organização de Alola?",
+      "resposta": "Fundação Aether (Aether Foundation)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Skull",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Plumeria",
+        "descricao": "Administradora da Equipe Skull em Pokémon Sun e Moon, especialista em pokémon venenosos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Plumeria"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que treinadora de pokémon venenosos, tratada como irmã mais velha pelos membros, é o braço direito de Guzma na Equipe Skull?",
+      "resposta": "Plumeria",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Plumeria",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Guzma",
+        "descricao": "Chefe da Equipe Skull em Pokémon Sun e Moon, treinador especialista em pokémon inseto.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Guzma"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Sun e Moon, qual pokémon é o ás do time de Guzma, o chefe da Equipe Skull?",
+      "resposta": "Golisopod",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "distratores": [
+        "Vikavolt",
+        "Araquanid",
+        "Buzzwole"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Oleana",
+        "descricao": "Secretária do presidente Rose na empresa Macro Cosmos, em Pokémon Sword e Shield.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Oleana"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, que secretária fiel ajuda o presidente Rose no plano que acaba despertando Eternatus?",
+      "resposta": "Oleana",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Oleana",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Starmobile",
+        "descricao": "Carro gigante usado pelos chefes dos esquadrões da Equipe Star nas batalhas de Pokémon Scarlet e Violet.",
+        "variantes": [
+          "Starmobile"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Starmobile"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, os chefes da Equipe Star batalham com um carro gigante. Esse veículo é formado por vários exemplares de qual pokémon?",
+      "resposta": "Revavroom",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Starmobile",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "equipe_star",
+        "nome": "Equipe Star",
+        "descricao": "Grupo de alunos rebeldes da Academia de Paldea, em Pokémon Scarlet e Violet, dividido em esquadrões com bases próprias.",
+        "variantes": [
+          "Team Star"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Star"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, a Equipe Star nasceu de um grupo de alunos da academia de Paldea. Contra o que eles se uniram no começo?",
+      "resposta": "O bullying que sofriam",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Team_Star",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Professor Rowan",
+        "descricao": "Professor pokémon da região de Sinnoh, que entrega o inicial ao jogador em Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Professor Nanakamado"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No começo de Diamond e Pearl, o jogador abre a maleta esquecida de um professor, à beira de um lago. Por que precisa usar um pokémon dela na hora?",
+      "resposta": "Para escapar de Starly selvagens",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "lusamine",
+        "nome": "Lusamine",
+        "descricao": "Presidente da Fundação Aether nos jogos Pokémon Sun e Moon, obcecada pelas Ultracriaturas.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lusamine"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No clímax de Sun e Moon, já no Ultra Espaço, Lusamine se funde com qual Ultracriatura, a sua grande obsessão?",
+      "resposta": "Nihilego",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lusamine",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "distratores": [
+        "Buzzwole",
+        "Pheromosa",
+        "Guzzlord"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Slumbering Weald",
+        "descricao": "Floresta enevoada e proibida da região de Galar, em Pokémon Sword e Shield, ligada aos lendários Zacian e Zamazenta.",
+        "variantes": [
+          "Floresta Adormecida"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slumbering_Weald"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, logo no começo, o jogador e Hop entram numa floresta enevoada e proibida, onde surge um lobo lendário. Que floresta é essa?",
+      "resposta": "Slumbering Weald",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slumbering_Weald",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "sada_e_turo",
+        "nome": "Sada e Turo",
+        "descricao": "Professores pokémon de Paldea: Sada aparece em Pokémon Scarlet e Turo em Pokémon Violet.",
+        "variantes": [
+          "Professora Sada",
+          "Professor Turo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Sada"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No fim de Scarlet e Violet, na Área Zero, o jogador descobre que o professor que o guiava não é humano. O que ele é?",
+      "resposta": "Um robô com inteligência artificial",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Sada",
+        "https://bulbapedia.bulbagarden.net/wiki/Professor_Turo",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Galaxy Expedition Team",
+        "descricao": "Grupo de pesquisa da Vila Jubilife, em Pokémon Legends: Arceus, encarregado de estudar os pokémon de Hisui e criar a primeira Pokédex.",
+        "variantes": [
+          "Galaxy Team",
+          "Equipe Galaxy"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Galaxy_Expedition_Team"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, logo depois de cair do céu em Hisui, o jogador entra para qual grupo da Vila Jubilife, encarregado de criar a primeira Pokédex?",
+      "resposta": "Galaxy Expedition Team",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Galaxy_Expedition_Team",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "blue_rival",
+        "nome": "Blue (rival)",
+        "descricao": "Rival do protagonista e neto do Professor Carvalho nos jogos Pokémon Red, Green e Blue, chamado Green no Japão.",
+        "variantes": [
+          "Green",
+          "Gary"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, depois de vencer a Elite dos Quatro, o jogador descobre que o campeão de Kanto é um velho conhecido. Quem é ele?",
+      "resposta": "O rival, neto do Professor Carvalho",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Zinnia",
+        "descricao": "Guardiã de um antigo povo de Hoenn que protagoniza o Episódio Delta de Pokémon Omega Ruby e Alpha Sapphire.",
+        "variantes": [
+          "Higana"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zinnia"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "No Episódio Delta de Omega Ruby e Alpha Sapphire, que guardiã de um antigo povo de Hoenn quer invocar Rayquaza para deter um meteoro?",
+      "resposta": "Zinnia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zinnia",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Pokémon Platinum",
+        "descricao": "Versão especial de Pokémon Diamond e Pearl para Nintendo DS, ambientada em Sinnoh, com o lendário Giratina na capa.",
+        "variantes": [
+          "Pokémon Platina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Platinum"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon Platinum, a versão especial de Diamond e Pearl com Giratina na capa, foi lançado no Japão em que ano?",
+      "resposta": "2008",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Platinum",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Platinum_Version"
+      ],
+      "distratores": [
+        "2007",
+        "2009",
+        "2010"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    }
+  ]
+}

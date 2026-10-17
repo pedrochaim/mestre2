@@ -1,0 +1,264 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Kanto não 'copia' a região, se inspira nela; Saffron ser Tóquio é fato documentado.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O mapa de Kanto se inspira na região japonesa de mesmo nome. Saffron, a metrópole no centro desse mapa, corresponde a qual cidade real?",
+        "resposta": "Tóquio",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Saffron_City",
+          "https://bulbapedia.bulbagarden.net/wiki/Kanto"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem conhecido de Red e Blue: guardas sedentos aceitam uma bebida.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hitmonlee ou Hitmonchan no Dojo de Saffron é fato sólido; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Moltres fica na Victory Road em Red e Blue; pergunta precisa e distratores da região.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Eevee é dado no terraço da Celadon Mansion; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado confuso: quem perdeu a dentadura é o próprio diretor da Zona Safári, não 'o velho'.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em Red e Blue, o diretor da Zona Safári de Fuchsia dá ao jogador a Máquina Oculta de Força, ou Strength, se ele achar algo que o diretor perdeu. O quê?",
+        "resposta": "A dentadura de ouro (Gold Teeth)",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gold_Teeth",
+          "https://bulbapedia.bulbagarden.net/wiki/Kanto_Safari_Zone"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Goldenrod se inspira em Nagoya, não em Osaka; sem fonte confiável para corrigir.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Etimologia de Tohjo não verificável com segurança.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a fonte Bell Tower é a versão de HeartGold/SoulSilver; em Gold a torre é Tin Tower.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Em Pokémon Gold, com a Rainbow Wing em mãos, o jogador sobe ao topo de qual torre de Ecruteak para enfrentar o lendário Ho-Oh?",
+        "resposta": "Tin Tower",
+        "distratores": [
+          "Burned Tower",
+          "Sprout Tower",
+          "Radio Tower"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tin_Tower",
+          "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado vago ('em comum no mapa'); melhor perguntar diretamente o lugar.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A Liga Pokémon de Red e Blue e a de Gold e Silver acontecem no mesmo lugar de Kanto. Que lugar é esse?",
+        "resposta": "Platô Índigo (Indigo Plateau)",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Indigo_Plateau",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mossdeep se inspira em Tanegashima; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fortree tem casas nas árvores; resposta única e distratores de Hoenn.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pacifidlog é construída sobre troncos flutuantes; fato curioso e correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Castform é dado no Weather Institute da Rota 119; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Em Diamond e Pearl Cresselia vira andarilha após a Lunar Wing; 'procura em qual ilha' é impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As grandes pedras de Veilstone são ditas meteoritos pelos moradores; fato curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Rotom aparece na televisão do Old Chateau; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Volcarona fica no fundo do Relic Castle em Black e White.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As pedras de Geosenge remetem aos alinhamentos de Carnac; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Shalour e sua torre se inspiram no Mont-Saint-Michel; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os postos do Battle Château são títulos de nobreza (Barão, Duque etc.).",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mewtwo fica na Unknown Dungeon perto da Pokémon Village; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os nomes das ilhas de Alola são cores em havaiano; boa pergunta de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hau'oli se inspira em Honolulu; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta longa demais; encurtar mantendo o fato.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em Sword e Shield, perto de Turffield, um desenho gigantesco e antigo cobre a encosta de um morro. Que tipo de monumento britânico ele imita?",
+        "resposta": "Figuras de giz em colinas",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Turffield",
+          "https://en.wikipedia.org/wiki/Uffington_White_Horse"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Stow-on-Side faz trocadilho com Stow-on-the-Wold, nos Cotswolds; fonte confirma a cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza da explicação (Power Spot) para a ausência de Dynamax em Spikemuth.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Eternatus é enfrentado na Energy Plant de Hammerlocke; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O ginásio de Grusha fica na Glaseado Mountain; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte só diz colonização inicial de Hokkaido; 'Era Meiji' não é confirmada e pode ser Edo.",
+      "reescrita": null
+    }
+  ]
+}

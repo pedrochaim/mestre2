@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A fúria de Gyarados fica ainda maior quando ele megaevolui. Nessa forma, ele é dos tipos Água e qual outro?",
+        "resposta": "Sombrio"
+      },
+      "existentes": [
+        {
+          "id": "q09842",
+          "pergunta": "Em Gold e Silver, no Lago da Fúria, o jogador encontra um Gyarados brilhante, de cor diferente do normal. Que cor é essa?",
+          "resposta": "Vermelho"
+        },
+        {
+          "id": "q11071",
+          "pergunta": "O frágil Magikarp evolui no dragão Gyarados por inspiração numa lenda chinesa. Nela, a carpa vira dragão depois de fazer o quê?",
+          "resposta": "Subir uma cachoeira"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O Farfetch'd de Galar não evolui subindo de nível. Que proeza ele precisa conseguir numa única batalha para evoluir?",
+        "resposta": "Acertar três golpes críticos"
+      },
+      "existentes": [
+        {
+          "id": "q12594",
+          "pergunta": "Por causa de um ditado japonês sobre o pato que chega trazendo o próprio tempero, Farfetch'd sempre carrega um talo de qual planta?",
+          "resposta": "Alho-poró (negi)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Galar, as três aves lendárias de Kanto ganharam formas novas. Zapdos, que corre em vez de voar, ganhou qual tipo além de Voador?",
+        "resposta": "Lutador"
+      },
+      "existentes": [
+        {
+          "id": "q10209",
+          "pergunta": "Em Red e Blue, o lendário Zapdos espera o jogador dentro de qual construção abandonada de Kanto?",
+          "resposta": "Usina Elétrica"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Ao megaevoluir, Gengar fica maior, com as pernas enterradas no chão, e ganha algo novo no meio da testa. O quê?",
+        "resposta": "Um terceiro olho"
+      },
+      "existentes": [
+        {
+          "id": "q09802",
+          "pergunta": "O nome do fantasma Gengar vem de uma palavra alemã que designa o duplo sombrio de uma pessoa. Que palavra é essa?",
+          "resposta": "Doppelgänger"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O lendário Zygarde muda de tamanho e de forma conforme a quantidade de algo que ele reúne no corpo. O quê?",
+        "resposta": "Células e núcleos de Zygarde"
+      },
+      "existentes": [
+        {
+          "id": "q11235",
+          "pergunta": "Em X e Y, onde o jogador encontra o lendário Zygarde, o guardião do ecossistema de Kalos?",
+          "resposta": "Na Terminus Cave"
+        },
+        {
+          "id": "q12554",
+          "pergunta": "Thousand Arrows, golpe exclusivo de Zygarde, é do tipo Terrestre, mas atinge quem normalmente escaparia desses golpes, e ainda o derruba no chão. Quem?",
+          "resposta": "Os pokémon que estão no ar"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Segurando a Rusted Sword, uma espada enferrujada, Zacian assume uma forma coroada e ganha um segundo tipo além de Fada. Qual?",
+        "resposta": "Aço"
+      },
+      "existentes": [
+        {
+          "id": "q12685",
+          "pergunta": "Segundo a lenda de Galar, Zacian e Zamazenta ajudaram a deter uma catástrofe ancestral provocada por Eternatus. Como ela é chamada?",
+          "resposta": "Darkest Day"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tipo da Mega Gyarados é fato diferente de cor brilhante ou lenda da carpa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Condição de evolução difere do talo de alho-poró."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tipo de Zapdos de Galar difere do local em Kanto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Terceiro olho da mega evolução difere da origem do nome."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fator de mudança de forma difere do local e do golpe."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tipo da forma coroada difere da catástrofe lendária."
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Professor Willow",
+        "descricao": "Professor pokémon do jogo Pokémon Go, que recebe o jogador e pede ajuda nas suas pesquisas.",
+        "variantes": [
+          "Willow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "swellow",
+          "nome": "Swellow",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 277 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "taillow",
+          "nome": "Taillow",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 276 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "professor_carvalho",
+          "nome": "Professor Carvalho",
+          "descricao": "Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime.",
+          "variantes": [
+            "Professor Oak",
+            "Samuel Oak",
+            "Samuel Carvalho",
+            "Yukinari Okido"
+          ]
+        },
+        {
+          "id": "professor_elm",
+          "nome": "Professor Elm",
+          "descricao": "Professor pokémon da região de Johto, que entrega o inicial ao jogador em Pokémon Gold e Silver.",
+          "variantes": [
+            "Professor Utsugi"
+          ]
+        },
+        {
+          "id": "professora_ivy",
+          "nome": "Professora Ivy",
+          "descricao": "Pesquisadora pokémon da ilha Valencia, nas Ilhas Laranja, no anime Pokémon, que estuda as variações regionais dos pokémon.",
+          "variantes": [
+            "Professor Ivy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Spark",
+        "descricao": "Líder da equipe Instinct, a equipe amarela do jogo Pokémon Go.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_2",
+          "nome": "Tubarão",
+          "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha.",
+          "variantes": [
+            "Tubarões",
+            "Selachimorpha",
+            "Shark"
+          ]
+        },
+        {
+          "id": "spinarak",
+          "nome": "Spinarak",
+          "descricao": "Pokémon dos tipos Inseto e Venenoso, número 167 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "circuito_de_spa_francorchamps",
+          "nome": "Circuito de Spa-Francorchamps",
+          "descricao": "Circuito nas Ardenas, na Bélgica.",
+          "variantes": [
+            "Spa-Francorchamps",
+            "Spa"
+          ]
+        },
+        {
+          "id": "esparta",
+          "nome": "Esparta",
+          "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+          "variantes": [
+            "Sparta",
+            "Lacedemônia"
+          ]
+        },
+        {
+          "id": "czar",
+          "nome": "Czar",
+          "descricao": "Título dos monarcas da Rússia e de outros Estados eslavos.",
+          "variantes": [
+            "Tsar",
+            "Tzar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Equipe GO Rocket",
+        "descricao": "Versão da Equipe Rocket no jogo Pokémon Go, cujos recrutas e líderes usam pokémon sombrios que o jogador pode resgatar e purificar.",
+        "variantes": [
+          "Team GO Rocket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "equipe_rocket",
+          "nome": "Equipe Rocket",
+          "descricao": "Organização criminosa da franquia Pokémon, representada no anime pela dupla Jessie e James e pelo Meowth falante.",
+          "variantes": [
+            "Team Rocket"
+          ]
+        },
+        {
+          "id": "equipe_rainbow_rocket",
+          "nome": "Equipe Rainbow Rocket",
+          "descricao": "Organização vilã de Pokémon Ultra Sun e Ultra Moon, em que Giovanni reúne os chefes de outras equipes vilãs vindos de mundos paralelos.",
+          "variantes": [
+            "Team Rainbow Rocket"
+          ]
+        },
+        {
+          "id": "james_equipe_rocket",
+          "nome": "James (Equipe Rocket)",
+          "descricao": "Integrante da Equipe Rocket no anime Pokémon, parceiro de Jessie e Meowth, chamado Kojiro no Japão.",
+          "variantes": [
+            "Kojiro",
+            "Kojirō",
+            "James"
+          ]
+        },
+        {
+          "id": "jessie_e_james",
+          "nome": "Jessie e James",
+          "descricao": "Dupla de vilões da Equipe Rocket no anime Pokémon, que persegue Ash ao lado do Meowth falante.",
+          "variantes": [
+            "Musashi e Kojiro",
+            "Jessie and James",
+            "Team Rocket trio"
+          ]
+        },
+        {
+          "id": "jessie_equipe_rocket",
+          "nome": "Jessie (Equipe Rocket)",
+          "descricao": "Integrante da Equipe Rocket no anime Pokémon, parceira de James e Meowth, chamada Musashi no Japão.",
+          "variantes": [
+            "Jessie",
+            "Musashi",
+            "Jessilina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Snag Machine",
+        "descricao": "Aparelho preso ao braço do protagonista de Pokémon Colosseum e Pokémon XD, usado para capturar pokémon de outros treinadores.",
+        "variantes": [
+          "Máquina Snag"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_enigma",
+          "nome": "Máquina Enigma",
+          "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+          "variantes": [
+            "Enigma"
+          ]
+        },
+        {
+          "id": "maquina_tecnica",
+          "nome": "Máquina Técnica",
+          "descricao": "Item dos jogos Pokémon que ensina um golpe a um pokémon, conhecido pela sigla MT.",
+          "variantes": [
+            "MT",
+            "TM",
+            "Technical Machine"
+          ]
+        },
+        {
+          "id": "maquina_oculta",
+          "nome": "Máquina Oculta",
+          "descricao": "Item dos jogos Pokémon que ensinava golpes usados também fora das batalhas, como Surf e Força, para abrir caminho pelo mapa.",
+          "variantes": [
+            "MO",
+            "HM",
+            "Hidden Machine"
+          ]
+        },
+        {
+          "id": "mario_quintana",
+          "nome": "Mário Quintana",
+          "descricao": "Poeta gaúcho (1906–1994), conhecido pelos poemas curtos e pelo humor delicado.",
+          "variantes": []
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Rui (Pokémon Colosseum)",
+        "descricao": "Moça que acompanha o protagonista Wes em Pokémon Colosseum e consegue enxergar a aura dos pokémon sombrios.",
+        "variantes": [
+          "Rui"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_colosseum",
+          "nome": "Pokémon Colosseum",
+          "descricao": "Jogo de RPG Pokémon para GameCube, desenvolvido pela Genius Sonority e ambientado na região desértica de Orre.",
+          "variantes": []
+        },
+        {
+          "id": "rubi",
+          "nome": "Rubi",
+          "descricao": "Pedra preciosa vermelha, variedade do mineral coríndon",
+          "variantes": [
+            "Ruby"
+          ]
+        },
+        {
+          "id": "rugbi",
+          "nome": "Rúgbi",
+          "descricao": "Esporte coletivo com bola oval, de origem inglesa.",
+          "variantes": [
+            "Rugby"
+          ]
+        },
+        {
+          "id": "pokemon_eu_escolho_voce_episodio",
+          "nome": "Pokémon, Eu Escolho Você! (episódio)",
+          "descricao": "Primeiro episódio do anime Pokémon, exibido em 1997, em que Ash recebe Pikachu do Professor Carvalho.",
+          "variantes": [
+            "Pokémon – I Choose You!",
+            "EP001"
+          ]
+        },
+        {
+          "id": "rai",
+          "nome": "Raí",
+          "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+          "variantes": [
+            "Raí Souza Vieira de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rainbow Cloud (Pokémon Snap)",
+        "descricao": "Fase final e secreta de Pokémon Snap, uma nuvem de arco-íris onde Todd fotografa o mítico Mew.",
+        "variantes": [
+          "Rainbow Cloud",
+          "Nuvem Arco-Íris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_iris",
+          "nome": "Arco-íris",
+          "descricao": "Fenômeno óptico em que a luz do Sol, refratada e refletida em gotas de chuva, forma um arco colorido no céu.",
+          "variantes": [
+            "Arco-celeste",
+            "Rainbow"
+          ]
+        },
+        {
+          "id": "cano_cristales",
+          "nome": "Caño Cristales",
+          "descricao": "Rio da serra de La Macarena, na Colômbia, conhecido como rio de cinco cores.",
+          "variantes": [
+            "Rio de Cinco Cores",
+            "Rio Arco-Íris"
+          ]
+        },
+        {
+          "id": "new_pokemon_snap",
+          "nome": "New Pokémon Snap",
+          "descricao": "Jogo de fotografia de pokémon para Nintendo Switch, continuação de Pokémon Snap, desenvolvido pela Bandai Namco Studios.",
+          "variantes": [
+            "Shin Pokémon Snap"
+          ]
+        },
+        {
+          "id": "loris_arco_iris",
+          "nome": "Lóris-arco-íris",
+          "descricao": "Papagaio australiano (Trichoglossus moluccanus) de cabeça azul, peito laranja e dorso verde.",
+          "variantes": [
+            "Lóris-molucano",
+            "Trichoglossus moluccanus",
+            "Rainbow lorikeet"
+          ]
+        },
+        {
+          "id": "pokemon_snap",
+          "nome": "Pokémon Snap",
+          "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Zero-One",
+        "descricao": "Veículo automático em que Todd Snap percorre a Ilha Pokémon no jogo Pokémon Snap, de Nintendo 64.",
+        "variantes": [
+          "ZERO-ONE"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "zero_pokemon",
+          "nome": "Zero (Pokémon)",
+          "descricao": "Vilão do filme Giratina e o Guerreiro dos Céus, caçador que persegue Giratina.",
+          "variantes": [
+            "Zero"
+          ]
+        },
+        {
+          "id": "usina_de_belo_monte",
+          "nome": "Usina de Belo Monte",
+          "descricao": "Usina hidrelétrica no município de Altamira, no Pará, construída na década de 2010.",
+          "variantes": [
+            "Belo Monte",
+            "Belo Monte Dam",
+            "Usina Hidrelétrica de Belo Monte",
+            "UHE Belo Monte"
+          ]
+        },
+        {
+          "id": "zero",
+          "nome": "Zero",
+          "descricao": "O número zero e o algarismo que o representa.",
+          "variantes": [
+            "0",
+            "Número zero"
+          ]
+        },
+        {
+          "id": "cruzeiro_moeda",
+          "nome": "Cruzeiro (moeda)",
+          "descricao": "Moeda brasileira criada em 1942 em substituição ao mil-réis.",
+          "variantes": [
+            "Cruzeiro brasileiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Fenômeno Illumina",
+        "descricao": "Fenômeno de New Pokémon Snap em que certos pokémon da região de Lental brilham com uma luz misteriosa.",
+        "variantes": [
+          "Illumina",
+          "Pokémon Illumina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_mini",
+          "nome": "Pokémon Mini",
+          "descricao": "Pequeno console portátil da Nintendo, com tela monocromática e jogos só de pokémon, lançado no início dos anos dois mil.",
+          "variantes": []
+        },
+        {
+          "id": "illumise",
+          "nome": "Illumise",
+          "descricao": "Pokémon do tipo Inseto, número 314 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_sun_e_moon",
+          "nome": "Pokémon Sun e Moon",
+          "descricao": "Par de jogos Pokémon da sétima geração, para Nintendo 3DS, ambientado na região tropical de Alola.",
+          "variantes": [
+            "Pokémon Sun and Moon",
+            "Pokémon Sol e Lua"
+          ]
+        },
+        {
+          "id": "pokemon_snap",
+          "nome": "Pokémon Snap",
+          "descricao": "Jogo de 1999 para Nintendo 64 em que o fotógrafo Todd Snap registra pokémon numa ilha, percorrida num veículo sobre trilhos.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_amie",
+          "nome": "Pokémon-Amie",
+          "descricao": "Recurso de Pokémon X e Y em que o jogador acaricia, alimenta e brinca com seus pokémon para aumentar a afeição deles.",
+          "variantes": [
+            "Poké Parfait"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Grovyle (Mystery Dungeon)",
+        "descricao": "Personagem de Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness, procurado por roubar as Time Gears.",
+        "variantes": [
+          "Grovyle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grovyle",
+          "nome": "Grovyle",
+          "descricao": "Pokémon do tipo planta, número 253 da Pokédex Nacional, evolução do Treecko.",
+          "variantes": []
+        },
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        },
+        {
+          "id": "pokemon_mystery_dungeon",
+          "nome": "Pokémon Mystery Dungeon",
+          "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+          "variantes": [
+            "Pokémon Fushigi no Dungeon"
+          ]
+        },
+        {
+          "id": "grotle",
+          "nome": "Grotle",
+          "descricao": "Pokémon do tipo Planta, número 388 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Primal Dialga",
+        "descricao": "Forma enlouquecida de Dialga que é o grande antagonista de Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness.",
+        "variantes": [
+          "Dialga Primal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "prisma",
+          "nome": "Prisma",
+          "descricao": "Elemento óptico transparente de superfícies planas, como o prisma triangular que dispersa a luz branca em um espectro.",
+          "variantes": [
+            "Prisma óptico",
+            "Prisma triangular"
+          ]
+        },
+        {
+          "id": "primavera_de_praga",
+          "nome": "Primavera de Praga",
+          "descricao": "Período de reformas liberalizantes na Tchecoslováquia, interrompido pela invasão do Pacto de Varsóvia em agosto de 1968.",
+          "variantes": [
+            "Prague Spring"
+          ]
+        },
+        {
+          "id": "mulher_maravilha",
+          "nome": "Mulher-Maravilha",
+          "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+          "variantes": [
+            "Wonder Woman",
+            "Diana Prince"
+          ]
+        },
+        {
+          "id": "pedra_da_lua",
+          "nome": "Pedra da Lua",
+          "descricao": "Pedra evolutiva dos jogos Pokémon que faz evoluir pokémon como Clefairy, Jigglypuff, Nidorino e Nidorina.",
+          "variantes": [
+            "Moon Stone"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Guilda de Wigglytuff",
+        "descricao": "Guilda de exploradores comandada por Wigglytuff em Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness.",
+        "variantes": [
+          "Wigglytuff's Guild"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wigglytuff",
+          "nome": "Wigglytuff",
+          "descricao": "Pokémon dos tipos Normal e Fada, número 40 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Pokémon Mystery Dungeon: Rescue Team DX",
+        "descricao": "Remake para Nintendo Switch dos primeiros jogos Pokémon Mystery Dungeon, Red e Blue Rescue Team.",
+        "variantes": [
+          "Rescue Team DX"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_mystery_dungeon_explorers_of_time_e_explorers_of_darkness",
+          "nome": "Pokémon Mystery Dungeon: Explorers of Time e Explorers of Darkness",
+          "descricao": "Par de jogos da série Pokémon Mystery Dungeon lançado em 2007 para Nintendo DS, em que o herói entra numa guilda de exploradores.",
+          "variantes": [
+            "Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness",
+            "Pokémon Mystery Dungeon: Explorers"
+          ]
+        },
+        {
+          "id": "pokemon_mystery_dungeon",
+          "nome": "Pokémon Mystery Dungeon",
+          "descricao": "Série de jogos derivados de Pokémon, com masmorras geradas ao acaso, em que um humano vive como pokémon.",
+          "variantes": [
+            "Pokémon Fushigi no Dungeon"
+          ]
+        },
+        {
+          "id": "pokemon_mystery_dungeon_red_rescue_team_e_blue_rescue_team",
+          "nome": "Pokémon Mystery Dungeon: Red Rescue Team e Blue Rescue Team",
+          "descricao": "Par de jogos que inaugurou a série Pokémon Mystery Dungeon, lançado em 2005 no Japão, em que o herói integra uma equipe de resgate.",
+          "variantes": [
+            "Pokémon Mystery Dungeon: Equipe de Resgate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Capture Styler",
+        "descricao": "Aparelho usado pelos guardas da série Pokémon Ranger para riscar círculos em volta dos pokémon selvagens e acalmá-los.",
+        "variantes": [
+          "Styler"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grampeador",
+          "nome": "Grampeador",
+          "descricao": "Dispositivo mecânico que une folhas de papel cravando um grampo metálico e dobrando suas pontas.",
+          "variantes": [
+            "Agrafador",
+            "Stapler"
+          ]
+        },
+        {
+          "id": "taler",
+          "nome": "Táler",
+          "descricao": "Grande moeda de prata cunhada na Europa a partir do século dezesseis, originalmente com prata das minas de Joachimsthal, na Boêmia.",
+          "variantes": [
+            "Thaler",
+            "Joachimsthaler"
+          ]
+        },
+        {
+          "id": "stantler",
+          "nome": "Stantler",
+          "descricao": "Pokémon do tipo Normal, número 234 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "adolf_hitler",
+          "nome": "Adolf Hitler",
+          "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+          "variantes": [
+            "Hitler",
+            "Führer"
+          ]
+        },
+        {
+          "id": "nestle",
+          "nome": "Nestlé",
+          "descricao": "Empresa suíça de alimentos fundada por Henri Nestlé no século dezenove.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Pokémon Ranger: Shadows of Almia",
+        "descricao": "Segundo jogo da série Pokémon Ranger, para Nintendo DS, ambientado na região de Almia.",
+        "variantes": [
+          "Shadows of Almia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shadow_ball",
+          "nome": "Shadow Ball",
+          "descricao": "Golpe de pokémon do tipo Fantasma, da 2ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "as_aves_da_america",
+          "nome": "As Aves da América",
+          "descricao": "Livro de gravuras de aves norte-americanas em tamanho natural, publicado entre 1827 e 1838.",
+          "variantes": [
+            "The Birds of America",
+            "Birds of America"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        },
+        {
+          "id": "pokemon_ranger",
+          "nome": "Pokémon Ranger",
+          "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Genetic Apex",
+        "descricao": "Primeira coleção de cartas do Pokémon Trading Card Game Pocket, lançada em 2024 em três pacotes diferentes.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "codigo_genetico",
+          "nome": "Código genético",
+          "descricao": "Conjunto de regras pelo qual trincas de bases do material genético são traduzidas em aminoácidos.",
+          "variantes": [
+            "Genetic code"
+          ]
+        },
+        {
+          "id": "ozaru",
+          "nome": "Ōzaru",
+          "descricao": "Forma de macaco gigante em que os saiyajins com rabo se transformam em Dragon Ball.",
+          "variantes": [
+            "Oozaru",
+            "Macaco gigante",
+            "Great Ape"
+          ]
+        },
+        {
+          "id": "marca_generica",
+          "nome": "Marca genérica",
+          "descricao": "Fenômeno em que o nome de uma marca passa a designar toda uma categoria de produtos.",
+          "variantes": [
+            "Vulgarização de marca",
+            "Generic trademark"
+          ]
+        },
+        {
+          "id": "guernica",
+          "nome": "Guernica",
+          "descricao": "Grande painel de Pablo Picasso, de 1937, sobre o bombardeio da cidade basca de Guernica na Guerra Civil Espanhola.",
+          "variantes": [
+            "Guernica (Picasso)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Wonder Pick",
+        "descricao": "Recurso do Pokémon Trading Card Game Pocket que permite escolher às cegas uma carta de um pacote aberto por outro jogador.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "one_piece",
+          "nome": "One Piece",
+          "descricao": "Mangá e anime sobre o pirata Monkey D. Luffy e sua tripulação, publicado desde 1997.",
+          "variantes": [
+            "ワンピース"
+          ]
+        },
+        {
+          "id": "montanha_do_pico",
+          "nome": "Montanha do Pico",
+          "descricao": "Estratovulcão da ilha do Pico, no arquipélago dos Açores, o ponto mais alto de Portugal.",
+          "variantes": [
+            "Monte Pico",
+            "Pico"
+          ]
+        },
+        {
+          "id": "benjamin_spock",
+          "nome": "Benjamin Spock",
+          "descricao": "Pediatra americano, autor de um best-seller sobre cuidados com bebês e campeão olímpico em 1924.",
+          "variantes": [
+            "Dr. Spock"
+          ]
+        },
+        {
+          "id": "mulher_maravilha",
+          "nome": "Mulher-Maravilha",
+          "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+          "variantes": [
+            "Wonder Woman",
+            "Diana Prince"
+          ]
+        },
+        {
+          "id": "wonder_trade",
+          "nome": "Wonder Trade",
+          "descricao": "Recurso online criado em Pokémon X e Y que troca, às cegas, um pokémon do jogador com o de um desconhecido.",
+          "variantes": [
+            "Troca Maravilha",
+            "Surprise Trade",
+            "Troca Surpresa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Professor Willow de Pokémon Go não consta entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Spark, líder da Instinct, não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A Equipe GO Rocket, de Pokémon Go, é diferente da Equipe Rocket geral."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Snag Machine."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A personagem Rui não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A fase Rainbow Cloud é diferente do jogo e do fenômeno arco-íris."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O veículo Zero-One não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O fenômeno Illumina não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O personagem Grovyle de Mystery Dungeon é distinto da espécie Pokémon Grovyle."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Primal Dialga não consta entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "A guilda é diferente do pokémon Wigglytuff."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Rescue Team DX é um remake diferente dos jogos originais."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Capture Styler não consta entre as candidatas."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Shadows of Almia é um jogo diferente do primeiro Pokémon Ranger."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Genetic Apex não consta entre as candidatas."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Wonder Pick é um recurso diferente do Wonder Trade."
+    }
+  ]
+}

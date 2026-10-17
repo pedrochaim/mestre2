@@ -1,0 +1,164 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Para perseguir Ash pelos céus, o trio da Equipe Rocket, ou Team Rocket, costuma usar um balão. Que formato ele tem?",
+        "resposta": "A cabeça de Meowth"
+      },
+      "existentes": [
+        {
+          "id": "q09805",
+          "pergunta": "No anime, a dupla de vilões da Equipe Rocket tem nomes que, juntos, homenageiam qual fora da lei do Velho Oeste americano?",
+          "resposta": "Jesse James"
+        },
+        {
+          "id": "q09836",
+          "pergunta": "No anime, o trio da Equipe Rocket que persegue o Pikachu de Ash é formado por Jessie, James e qual pokémon que fala?",
+          "resposta": "Meowth"
+        },
+        {
+          "id": "q10222",
+          "pergunta": "Em Red e Blue, o esconderijo secreto da Equipe Rocket fica escondido debaixo de um salão de jogos. Em que cidade de Kanto?",
+          "resposta": "Celadon"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nos primeiros episódios, o rosto de Giovanni quase não aparecia, mas sim o pokémon gato no seu colo, que desperta o ciúme de Meowth. Que pokémon é esse?",
+        "resposta": "Persian"
+      },
+      "existentes": [
+        {
+          "id": "q09821",
+          "pergunta": "Em Pokémon Red e Blue, Giovanni, o chefe da Equipe Rocket, é também o líder de ginásio de qual cidade de Kanto?",
+          "resposta": "Viridian"
+        },
+        {
+          "id": "q11084",
+          "pergunta": "Além de chefiar a Equipe Rocket, Giovanni comanda o último ginásio de Kanto em Red e Blue. Em que tipo de pokémon ele é especialista?",
+          "resposta": "Terrestre"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "James, da Equipe Rocket, ou Team Rocket, guarda com orgulho e muito carinho uma coleção curiosa. O que ele coleciona?",
+        "resposta": "Tampinhas de garrafa"
+      },
+      "existentes": [
+        {
+          "id": "q10251",
+          "pergunta": "James, da Equipe Rocket, é herdeiro de uma família riquíssima. Por que ele fugiu de casa ainda jovem?",
+          "resposta": "Para escapar de um casamento arranjado"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A mãe de Jessie, Miyamoto, também era agente da Equipe Rocket, ou Team Rocket. Ela desapareceu durante a busca por qual pokémon mítico?",
+        "resposta": "Mew"
+      },
+      "existentes": [
+        {
+          "id": "q12844",
+          "pergunta": "Em Sinnoh, Jessie, da Equipe Rocket, ou Team Rocket, entra disfarçada nos concursos pokémon e chega a ganhar fitas. Com que nome falso ela se apresenta?",
+          "resposta": "Jessilina (Jessilee)"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em Kanto, a Oficial Jenny costuma patrulhar ao lado de um cão policial farejador, do tipo Fogo. Que pokémon é esse?",
+        "resposta": "Growlithe"
+      },
+      "existentes": [
+        {
+          "id": "q10234",
+          "pergunta": "No anime, o que a Enfermeira Joy, do Centro Pokémon, e a Oficial Jenny, da polícia, têm em comum?",
+          "resposta": "Há uma idêntica em cada cidade"
+        },
+        {
+          "id": "q11316",
+          "pergunta": "No Japão, a Oficial Jenny se chama Junsar, nome tirado de uma palavra japonesa. O que essa palavra significa?",
+          "resposta": "Policial"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No Japão, o ator Unshō Ishizuka dublou o Professor Carvalho por cerca de vinte anos. Que outro papel ele fazia no mesmo anime?",
+        "resposta": "O narrador"
+      },
+      "existentes": [
+        {
+          "id": "q09804",
+          "pergunta": "No original em inglês, os professores pokémon se chamam Oak, Elm, Birch e Rowan. De onde vêm esses nomes?",
+          "resposta": "De árvores"
+        },
+        {
+          "id": "q11315",
+          "pergunta": "No anime, o Professor Carvalho, que entrega Pikachu a Ash na cidade de Pallet, tem qual primeiro nome?",
+          "resposta": "Samuel"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No segundo episódio do anime, Ash enfrenta Jessie, James e Meowth pela primeira vez, quando eles atacam qual lugar da cidade de Viridian?",
+        "resposta": "O Centro Pokémon"
+      },
+      "existentes": [
+        {
+          "id": "q09966",
+          "pergunta": "No Japão, Jessie e James se chamam Musashi e Kojiro, como dois rivais lendários da história japonesa. O que esses rivais eram?",
+          "resposta": "Samurais"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Formato do balão é fato diferente dos existentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pokémon no colo de Giovanni difere de cidade e tipo do ginásio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Coleção de James difere do motivo da fuga de casa."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mãe de Jessie e Mew difere do nome falso nos concursos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pokémon da Oficial Jenny é fato distinto dos existentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Outro papel do dublador difere do primeiro nome ou da origem dos nomes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Local atacado no segundo episódio difere da origem dos nomes japoneses."
+    }
+  ]
+}

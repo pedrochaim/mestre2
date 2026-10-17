@@ -1,0 +1,775 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Sandshrew",
+        "descricao": "Pokémon tatu da primeira geração, do tipo Terrestre, que tem uma forma regional de Alola dos tipos Gelo e Aço.",
+        "variantes": [
+          "Sandshrew de Alola"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, as formas de Alola de Vulpix e de Sandshrew, que vivem no alto das montanhas, ganharam o mesmo tipo novo. Que tipo é esse?",
+      "resposta": "Gelo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "gyarados",
+        "nome": "Gyarados",
+        "descricao": "Pokémon dos tipos Água e Voador, número 130 da Pokédex Nacional.",
+        "variantes": [
+          "Mega Gyarados"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "A fúria de Gyarados fica ainda maior quando ele megaevolui. Nessa forma, ele é dos tipos Água e qual outro?",
+      "resposta": "Sombrio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Dragão",
+        "Voador",
+        "Elétrico"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Ponyta",
+        "descricao": "Pokémon cavalo de fogo da primeira geração, que tem uma forma regional de Galar do tipo Psíquico, parecida com um unicórnio.",
+        "variantes": [
+          "Ponyta de Galar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Galar, Ponyta não tem crina de fogo: é um pequeno unicórnio de pelo claro, que vive numa floresta escura. De que tipo ele é?",
+      "resposta": "Psíquico",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Sirfetch'd",
+        "descricao": "Pokémon do tipo Lutador da oitava geração, evolução do Farfetch'd de Galar, um guerreiro que usa um alho-poró como lança.",
+        "variantes": [
+          "Sirfetchd"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, o Farfetch'd de Galar ganhou uma evolução inédita, um guerreiro que empunha o alho-poró como lança. Que pokémon é esse?",
+      "resposta": "Sirfetch'd",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "farfetch_d",
+        "nome": "Farfetch’d",
+        "descricao": "Pokémon de tipo Normal/Voador, número 83 da Pokédex Nacional, um pato selvagem que carrega um talo de alho-poró.",
+        "variantes": [
+          "Farfetch'd de Galar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Farfetch'd de Galar não evolui subindo de nível. Que proeza ele precisa conseguir numa única batalha para evoluir?",
+      "resposta": "Acertar três golpes críticos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Slowbro",
+        "descricao": "Pokémon dos tipos Água e Psíquico da primeira geração, evolução de Slowpoke, com um Shellder preso ao corpo, que tem uma forma regional de Galar.",
+        "variantes": [
+          "Slowbro de Galar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No Slowbro comum, o Shellder morde a cauda. No Slowbro de Galar, em que parte do corpo esse Shellder fica preso?",
+      "resposta": "No braço",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Marowak",
+        "descricao": "Pokémon do tipo Terrestre da primeira geração, evolução de Cubone, que tem uma forma regional de Alola dos tipos Fogo e Fantasma.",
+        "variantes": [
+          "Marowak de Alola"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O que o Marowak de Alola, que gira um osso em chamas, e o Typhlosion de Hisui têm em comum nos seus tipos?",
+      "resposta": "Fogo e Fantasma",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Fogo e Sombrio",
+        "Fogo e Terrestre",
+        "Fogo e Psíquico"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Diglett",
+        "descricao": "Pokémon toupeira do tipo Terrestre da primeira geração, que tem uma forma regional de Alola dos tipos Terrestre e Aço.",
+        "variantes": [
+          "Diglett de Alola"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Alola, Diglett tem na cabeça três fios brilhantes, que lembram cabelos loiros. Além de Terrestre, qual é o tipo dele?",
+      "resposta": "Aço",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Clodsire",
+        "descricao": "Pokémon dos tipos Venenoso e Terrestre da nona geração, evolução do Wooper de Paldea.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Clodsire_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Paldea, o Wooper é marrom, venenoso e não evolui em Quagsire. Em que pokémon ele se transforma?",
+      "resposta": "Clodsire",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Clodsire_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "zapdos",
+        "nome": "Zapdos",
+        "descricao": "Pokémon lendário ave do tipo Elétrico e Voador, de número 145 da Pokédex Nacional.",
+        "variantes": [
+          "Zapdos de Galar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Galar, as três aves lendárias de Kanto ganharam formas novas. Zapdos, que corre em vez de voar, ganhou qual tipo além de Voador?",
+      "resposta": "Lutador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Psíquico",
+        "Sombrio",
+        "Terrestre"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Altaria",
+        "descricao": "Pokémon ave de asas de nuvem dos tipos Dragão e Voador, da terceira geração, evolução de Swablu, que tem uma megaevolução.",
+        "variantes": [
+          "Mega Altaria"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na megaevolução, a ave nuvem Altaria passa a combinar Dragão com um tipo que estreou na mesma geração das megaevoluções. Que tipo é esse?",
+      "resposta": "Fada",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Kangaskhan",
+        "descricao": "Pokémon do tipo Normal da primeira geração, parecido com um canguru, que carrega um filhote numa bolsa na barriga e tem uma megaevolução.",
+        "variantes": [
+          "Mega Kangaskhan"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Kangaskhan carrega o filhote numa bolsa na barriga. Quando ela megaevolui, o que o filhote passa a fazer na batalha?",
+      "resposta": "Sai da bolsa e luta junto",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Alakazam",
+        "descricao": "Pokémon do tipo Psíquico da primeira geração, evolução final de Abra, que segura duas colheres e tem uma megaevolução.",
+        "variantes": [
+          "Mega Alakazam"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O psíquico Alakazam segura duas colheres. Ao megaevoluir, quantas colheres passam a flutuar ao redor dele?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Seis"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "gengar",
+        "nome": "Gengar",
+        "descricao": "Pokémon dos tipos Fantasma e Veneno, número 94 da Pokédex Nacional.",
+        "variantes": [
+          "Mega Gengar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao megaevoluir, Gengar fica com parte do corpo afundada nas sombras e ganha algo novo no meio da testa. O quê?",
+      "resposta": "Um terceiro olho",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Gengar"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Duraludon",
+        "descricao": "Pokémon dos tipos Aço e Dragão da oitava geração, da região de Galar, feito de um metal leve e resistente, que tem forma Gigantamax.",
+        "variantes": [
+          "Duraludon Gigantamax"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Duraludon_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Duraludon, o dragão de metal de Galar, cresce muito na forma Gigantamax e passa a parecer qual construção, cheia de janelas iluminadas?",
+      "resposta": "Um arranha-céu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Duraludon_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Burmy",
+        "descricao": "Pokémon do tipo Inseto da quarta geração, uma larva que se cobre com uma capa feita do ambiente ao redor.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Burmy, de Sinnoh, se protege com uma capa feita de folhas, de areia ou de lixo. O que decide qual dessas capas ele usa?",
+      "resposta": "O lugar da última batalha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Shellos",
+        "descricao": "Pokémon lesma-do-mar do tipo Água da quarta geração, com uma forma rosa e outra azul na região de Sinnoh.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sinnoh, a lesma-do-mar Shellos é rosa num lado da região e azul no outro. Que lugar separa essas duas formas?",
+      "resposta": "Monte Coronet",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Vivillon",
+        "descricao": "Pokémon borboleta dos tipos Inseto e Voador da sexta geração, evolução de Spewpa, com muitas estampas de asas diferentes.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Vivillon_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, a borboleta Vivillon pode ter asas de muitas estampas. O que define a estampa que aparece no jogo de cada pessoa?",
+      "resposta": "O lugar real onde o jogador mora",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Vivillon_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Lycanroc",
+        "descricao": "Pokémon lobo do tipo Pedra da sétima geração, evolução de Rockruff, que tem as formas Diurna, Noturna e Crepúsculo.",
+        "variantes": [
+          "Lycanroc Diurno",
+          "Lycanroc Noturno",
+          "Lycanroc Crepúsculo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Rockruff, o filhote de cachorro de Alola, pode evoluir em três formas diferentes de Lycanroc. O que decide qual delas surge?",
+      "resposta": "A hora do dia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "A fase da lua",
+        "O clima",
+        "A pedra usada"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Wishiwashi",
+        "descricao": "Pokémon peixe do tipo Água da sétima geração, da região de Alola, que tem uma forma Solo e uma forma Cardume.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que peixinho de Alola, fraquíssimo sozinho, chama outros da espécie durante a batalha e forma com eles um cardume gigante e assustador?",
+      "resposta": "Wishiwashi",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Sliggoo",
+        "descricao": "Pokémon lesma do tipo Dragão da sexta geração, evolução de Goomy, que evolui para Goodra.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em Kalos, a lesma Sliggoo só evolui em Goodra se subir de nível sob qual condição do tempo?",
+      "resposta": "Chuva",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Neve",
+        "Neblina",
+        "Sol forte"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Pancham",
+        "descricao": "Pokémon panda do tipo Lutador da sexta geração, da região de Kalos, que evolui para Pangoro.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pancham_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Pancham, o panda brigão de Kalos, só evolui em Pangoro se subir de nível tendo na equipe um pokémon de qual tipo?",
+      "resposta": "Sombrio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pancham_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Lutador",
+        "Fantasma",
+        "Fada"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Mantyke",
+        "descricao": "Pokémon bebê raia dos tipos Água e Voador da quarta geração, forma anterior de Mantine.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mantyke_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O filhote Mantyke só evolui em Mantine se houver na equipe outro pokémon, um peixe que na natureza costuma nadar grudado em Mantine. Qual?",
+      "resposta": "Remoraid",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mantyke_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Applin",
+        "descricao": "Pokémon dos tipos Planta e Dragão da oitava geração, que vive dentro de uma maçã e evolui para Flapple ou Appletun.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, o pequeno dragão Applin vive dentro de uma maçã. O que decide se ele evolui em Flapple ou em Appletun?",
+      "resposta": "A maçã que recebe, azeda ou doce",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Ursaring",
+        "descricao": "Pokémon urso do tipo Normal da segunda geração, evolução de Teddiursa, que em Pokémon Legends: Arceus ganhou a evolução Ursaluna.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, Ursaring evolui em Ursaluna quando recebe um item da terra numa noite de lua cheia. Que item é esse?",
+      "resposta": "Peat Block",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "zygarde",
+        "nome": "Zygarde",
+        "descricao": "Pokémon lendário do tipo Dragão/Terra da sexta geração, número 718 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O lendário Zygarde muda de tamanho e de forma conforme a quantidade de algo que ele reúne no corpo. O quê?",
+      "resposta": "Células e núcleos de Zygarde",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "id_existente": "zacian",
+        "nome": "Zacian",
+        "descricao": "Pokémon do tipo Fada, número 888 da Pokédex Nacional.",
+        "variantes": [
+          "Zacian Coroado"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segurando a Rusted Sword, uma espada enferrujada, Zacian assume uma forma coroada e ganha um segundo tipo além de Fada. Qual?",
+      "resposta": "Aço",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Lutador",
+        "Psíquico",
+        "Dragão"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Stunfisk",
+        "descricao": "Pokémon peixe achatado da quinta geração, dos tipos Terrestre e Elétrico, que tem uma forma regional de Galar dos tipos Terrestre e Aço.",
+        "variantes": [
+          "Stunfisk de Galar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que pokémon achatado de Galar, dos tipos Terrestre e Aço, imita uma armadilha de dentes de ferro e prende quem pisa nele?",
+      "resposta": "Stunfisk de Galar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Runerigus",
+        "descricao": "Pokémon dos tipos Terrestre e Fantasma da oitava geração, evolução do Yamask de Galar, com o corpo de uma placa de pedra.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Runerigus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Perrserker, Cursola e Runerigus, pokémon apresentados em Sword e Shield, têm em comum na sua origem?",
+      "resposta": "Evoluem de formas de Galar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Runerigus_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Perrserker_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Cursola_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Glaceon",
+        "descricao": "Pokémon do tipo Gelo da quarta geração, uma das evoluções de Eevee.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o que Leafeon e Glaceon tinham em comum na maneira de evoluir a partir de Eevee?",
+      "resposta": "Subir de nível perto de uma rocha especial",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Leafeon_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    }
+  ]
+}

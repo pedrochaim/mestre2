@@ -1,0 +1,734 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Woobat",
+        "descricao": "Pokémon morcego dos tipos Psíquico e Voador da quinta geração, que evolui para Swoobat.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Woobat_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, o morcego Woobat dorme grudado pelo nariz nas paredes das cavernas. Que formato tem a marca que ele deixa?",
+      "resposta": "Coração",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Woobat_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Trubbish",
+        "descricao": "Pokémon do tipo Venenoso da quinta geração, em forma de saco de lixo, que evolui para Garbodor.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Trubbish_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, Trubbish nasceu de uma reação química entre sacos de lixo e o quê?",
+      "resposta": "Resíduos industriais",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Trubbish_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Litwick",
+        "descricao": "Pokémon vela dos tipos Fantasma e Fogo da quinta geração, forma inicial da linha de Chandelure.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Litwick_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A vela Litwick acende sua chama e finge servir de guia para quem está perdido. Segundo a Pokédex, o que ela faz com quem a segue?",
+      "resposta": "Suga a energia vital",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Litwick_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Alomomola",
+        "descricao": "Pokémon peixe cor-de-rosa do tipo Água da quinta geração, conhecido por cuidar de pokémon feridos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alomomola_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que peixe de Unova, segundo a Pokédex, abraça os pokémon feridos com as nadadeiras e cura as feridas deles com uma membrana especial?",
+      "resposta": "Alomomola",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alomomola_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Luvdisc",
+        "Frillish",
+        "Basculin"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Conkeldurr",
+        "descricao": "Pokémon do tipo Lutador da quinta geração, que se apoia em dois pilares, evolução final de Timburr.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Conkeldurr_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, o lutador Conkeldurr, que anda apoiado em pilares, teria ensinado aos humanos, há mais de dois mil anos, a fazer o quê?",
+      "resposta": "Concreto",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Conkeldurr_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Leavanny",
+        "descricao": "Pokémon dos tipos Inseto e Planta da quinta geração, evolução final de Sewaddle.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Leavanny_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que inseto de Unova, segundo a Pokédex, costura roupas de folhas com a seda da boca para os pokémon pequenos que encontra?",
+      "resposta": "Leavanny",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Leavanny_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Escavalier",
+        "Vivillon",
+        "Ribombee"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Heatmor",
+        "descricao": "Pokémon tamanduá do tipo Fogo da quinta geração, da região de Unova.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Heatmor_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O tamanduá Heatmor transforma o ar em fogo e usa as chamas como língua. Segundo a Pokédex, que pokémon de armadura de aço ele derrete e come?",
+      "resposta": "Durant",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Heatmor_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Klink",
+        "Escavalier",
+        "Ferroseed"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Spritzee",
+        "descricao": "Pokémon perfumado do tipo Fada da sexta geração, que evolui para Aromatisse.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de X, as damas da realeza de antigamente levavam um Spritzee consigo no lugar de qual produto?",
+      "resposta": "Perfume",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Dedenne",
+        "descricao": "Pokémon roedor dos tipos Elétrico e Fada da sexta geração, da região de Kalos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dedenne_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O roedor Dedenne, de Kalos, suga eletricidade com a cauda e a dispara pelos bigodes. Segundo a Pokédex, de onde ele tira essa energia?",
+      "resposta": "Das tomadas das casas e das usinas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dedenne_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Phantump",
+        "descricao": "Pokémon toco de árvore dos tipos Fantasma e Planta da sexta geração, que evolui para Trevenant.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Phantump_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo velhas histórias contadas pela Pokédex, Phantump é um toco de árvore apodrecido possuído pelo espírito de quem?",
+      "resposta": "Uma criança que morreu perdida na floresta",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Phantump_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Gourgeist",
+        "descricao": "Pokémon abóbora dos tipos Fantasma e Planta da sexta geração, evolução de Pumpkaboo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gourgeist_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A abóbora fantasma Gourgeist canta com voz sinistra pelas ruas nas noites de lua nova. Segundo a Pokédex, o que acontece com quem ouve essa canção?",
+      "resposta": "Fica amaldiçoado",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gourgeist_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Espurr",
+        "descricao": "Pokémon gatinho do tipo Psíquico da sexta geração, que evolui para Meowstic.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Espurr_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Espurr parece um gatinho inofensivo, mas vive com as orelhas dobradas sobre o órgão da cabeça. Segundo a Pokédex, por quê?",
+      "resposta": "Para conter seu poder psíquico",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Espurr_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Avalugg",
+        "descricao": "Pokémon iceberg do tipo Gelo da sexta geração, evolução de Bergmite.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que pokémon de gelo de Kalos, segundo a Pokédex, parece um porta-aviões de gelo quando pequenos pokémon se amontoam nas suas costas?",
+      "resposta": "Avalugg",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Cetitan",
+        "Walrein",
+        "Mamoswine"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Charjabug",
+        "descricao": "Pokémon larva dos tipos Inseto e Elétrico da sétima geração, entre Grubbin e Vikavolt.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Charjabug_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de Sun, por que quem sai para acampar fica grato de ter um Charjabug por perto?",
+      "resposta": "Ele armazena eletricidade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Charjabug_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Sandygast",
+        "descricao": "Pokémon castelo de areia dos tipos Fantasma e Terrestre da sétima geração, que evolui para Palossand.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sandygast_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Sandygast é um montinho de areia fantasma das praias de Alola. Segundo a Pokédex, o que acontece com quem enfia a mão na boca dele?",
+      "resposta": "Passa a ser controlado por ele",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sandygast_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Pyukumuku",
+        "descricao": "Pokémon pepino-do-mar do tipo Água da sétima geração, comum nas praias de Alola.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pyukumuku_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O pepino-do-mar Pyukumuku é tão comum nas praias de Alola que, segundo a Pokédex, existe até um trabalho temporário ligado a ele. Que trabalho é esse?",
+      "resposta": "Jogá-los de volta ao mar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pyukumuku_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Komala",
+        "descricao": "Pokémon coala do tipo Normal da sétima geração, que vive sempre adormecido.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Komala_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de Moon, o coala Komala dorme desde o nascimento até a morte. O que o mantém adormecido?",
+      "resposta": "As folhas sedativas que come",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Komala_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Drampa",
+        "descricao": "Pokémon dragão idoso dos tipos Normal e Dragão da sétima geração, da região de Alola.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O velho dragão Drampa vive no alto das montanhas de Alola. Segundo a Pokédex, por que ele às vezes desce até as cidades?",
+      "resposta": "Para brincar com as crianças",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Mareanie",
+        "descricao": "Pokémon estrela-do-mar dos tipos Venenoso e Água da sétima geração, que evolui para Toxapex.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mareanie_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, Mareanie, a estrela-do-mar venenosa de Alola, adora se alimentar de pedaços do corpo de qual pokémon?",
+      "resposta": "Corsola",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mareanie_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Luvdisc",
+        "Clamperl",
+        "Shellder"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Wooloo",
+        "descricao": "Pokémon ovelha do tipo Normal da oitava geração, da região de Galar, que evolui para Dubwool.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wooloo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, a lã encaracolada de Wooloo amortece tão bem que ele poderia fazer o quê e levantar-se sem nenhum ferimento?",
+      "resposta": "Cair de um penhasco",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wooloo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Cramorant",
+        "descricao": "Pokémon ave dos tipos Voador e Água da oitava geração, da região de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, a faminta ave Cramorant engole inteira sua presa preferida, mas às vezes se engana de pokémon. Que presa é essa?",
+      "resposta": "Arrokuda",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Magikarp",
+        "Chewtle",
+        "Wishiwashi"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Toxtricity",
+        "descricao": "Pokémon roqueiro dos tipos Elétrico e Venenoso da oitava geração, evolução de Toxel.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quando Toxtricity parece tocar guitarra, na verdade está arranhando as saliências do próprio peito. Segundo a Pokédex, para quê?",
+      "resposta": "Para gerar eletricidade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Sinistea",
+        "descricao": "Pokémon fantasma do tipo Fantasma da oitava geração, que vive numa xícara e evolui para Polteageist.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, o pequeno fantasma Sinistea teria nascido quando um espírito solitário se apossou de quê?",
+      "resposta": "Uma xícara de chá frio esquecida",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Dracovish",
+        "descricao": "Pokémon fóssil dos tipos Água e Dragão da oitava geração, montado a partir de dois fósseis em Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dracovish_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Com pernas e mandíbulas poderosas, Dracovish foi o maior predador do seu tempo. Segundo a Pokédex, o que o levou à extinção?",
+      "resposta": "Caçou demais as próprias presas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dracovish_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Sobble",
+        "descricao": "Pokémon inicial do tipo Água da oitava geração, um lagartinho da região de Galar que evolui para Drizzile.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Quando se assusta, Sobble chora. Segundo a Pokédex, suas lágrimas fazem os atacantes chorar com a força química de cem unidades de qual alimento?",
+      "resposta": "Cebola",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Dachsbun",
+        "descricao": "Pokémon cão do tipo Fada da nona geração, com aparência de pão, evolução de Fidough.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dachsbun_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, por que o cachorro Dachsbun é tão valorizado pelas vilas de agricultores de Paldea?",
+      "resposta": "Seu aroma ajuda o trigo a crescer",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dachsbun_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Grafaiai",
+        "descricao": "Pokémon macaco dos tipos Venenoso e Normal da nona geração, evolução de Shroodle, que pinta com os dedos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Grafaiai_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O macaco Grafaiai pinta desenhos nas árvores com saliva venenosa nos dedos. Segundo a Pokédex de Scarlet, o que define a cor dessa saliva?",
+      "resposta": "O que ele come",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Grafaiai_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Greavard",
+        "descricao": "Pokémon cachorro fantasma do tipo Fantasma da nona geração, que evolui para Houndstone.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Greavard_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de Scarlet, o cãozinho fantasma Greavard renasceu de um pokémon cão que morreu na natureza sem nunca ter feito o quê?",
+      "resposta": "Convivido com humanos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Greavard_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Dondozo",
+        "descricao": "Pokémon peixe gigante do tipo Água da nona geração, da região de Paldea.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dondozo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, o gigante Dondozo é guloso, mas péssimo para conseguir comida. Com qual pequeno pokémon ele se une para caçar?",
+      "resposta": "Tatsugiri",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dondozo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Wiglett",
+        "Finizen",
+        "Veluza"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Tinkaton",
+        "descricao": "Pokémon dos tipos Fada e Aço da nona geração, que carrega um martelo enorme, evolução final de Tinkatink.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tinkaton_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex de Violet, Tinkaton rebate pedras para o céu com seu martelo, mirando em qual pokémon que passa voando?",
+      "resposta": "Corviknight",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tinkaton_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Talonflame",
+        "Bombirdier",
+        "Kilowattrel"
+      ],
+      "_subtema_colecao": "Pokédex"
+    }
+  ]
+}

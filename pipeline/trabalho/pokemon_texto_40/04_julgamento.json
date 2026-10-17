@@ -1,0 +1,462 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Melody (Pokémon 2000)",
+        "descricao": "Moça da ilha Shamouti no filme Pokémon 2000, escolhida para o festival da ilha, que toca a canção ligada a Lugia.",
+        "variantes": [
+          "Melody"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_2000",
+          "nome": "Pokémon 2000",
+          "descricao": "Segundo filme da franquia Pokémon, em que Ash ajuda o lendário Lugia a salvar o mundo, conhecido no Brasil como Pokémon 2000: O Poder de Um.",
+          "variantes": [
+            "Pokémon 2000: O Poder de Um",
+            "Pokémon the Movie 2000"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "megalodonte",
+          "nome": "Megalodonte",
+          "descricao": "Espécie extinta de tubarão gigante que viveu entre o Mioceno e o Plioceno.",
+          "variantes": [
+            "Otodus megalodon",
+            "Megalodon",
+            "Carcharocles megalodon"
+          ]
+        },
+        {
+          "id": "mel",
+          "nome": "Mel",
+          "descricao": "Substância doce e viscosa produzida pelas abelhas a partir do néctar das flores.",
+          "variantes": [
+            "Mel de abelha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pokémon 4Ever",
+        "descricao": "Quarto filme da franquia Pokémon, de 2001, em que o mítico Celebi traz do passado o menino Sammy e é caçado pelo Mascarado de Ferro.",
+        "variantes": [
+          "Pokémon 4Ever: Celebi, a Voz da Floresta",
+          "Celebi: Voice of the Forest"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_gold_e_silver",
+          "nome": "Pokémon Gold e Silver",
+          "descricao": "Par de jogos Pokémon da segunda geração, lançado para Game Boy Color e ambientado na região de Johto.",
+          "variantes": [
+            "Pokémon Gold and Silver",
+            "Pokémon Ouro e Prata",
+            "Pokémon Gold",
+            "Pokémon Silver"
+          ]
+        },
+        {
+          "id": "pokemon_center_loja",
+          "nome": "Pokémon Center (loja)",
+          "descricao": "Rede de lojas oficiais dedicadas só a produtos da franquia Pokémon, aberta primeiro em Tóquio.",
+          "variantes": [
+            "Pokémon Center",
+            "Pokémon Center Store"
+          ]
+        },
+        {
+          "id": "sammy_pokemon_4ever",
+          "nome": "Sammy (Pokémon 4Ever)",
+          "descricao": "Menino do quarto filme da franquia Pokémon, trazido do passado pelo mítico Celebi, que é a versão jovem de um personagem famoso.",
+          "variantes": [
+            "Sammy",
+            "Yukinari"
+          ]
+        },
+        {
+          "id": "pokemon_emerald",
+          "nome": "Pokémon Emerald",
+          "descricao": "Versão especial de Pokémon Ruby e Sapphire para Game Boy Advance, com o lendário Rayquaza na capa.",
+          "variantes": [
+            "Pokémon Esmeralda"
+          ]
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bianca (Pokémon Heróis)",
+        "descricao": "Menina de Altomare no filme Pokémon Heróis, neta do guardião Lorenzo, cuja aparência Latias copia para se disfarçar.",
+        "variantes": [
+          "Bianca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cheren_e_bianca",
+          "nome": "Cheren e Bianca",
+          "descricao": "Amigos de infância e rivais do protagonista em Pokémon Black e White, da região de Unova.",
+          "variantes": [
+            "Cheren",
+            "Bianca",
+            "Bel"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias",
+            "Pokémon Heroes: Latios and Latias"
+          ]
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "iansa",
+          "nome": "Iansã",
+          "descricao": "Orixá dos ventos, raios e tempestades nas religiões afro-brasileiras.",
+          "variantes": [
+            "Oyá",
+            "Oiá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tree of Beginning",
+        "descricao": "Árvore gigantesca do filme Lucario e o Mistério de Mew, onde vive o mítico Mew, protegida por um sistema de defesa próprio.",
+        "variantes": [
+          "Árvore do Início",
+          "Árvore do Começo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_do_silencio",
+          "nome": "Torre do Silêncio",
+          "descricao": "Estrutura circular elevada usada pelos zoroastristas para expor os mortos às aves de rapina.",
+          "variantes": [
+            "Dakhma",
+            "Tower of Silence"
+          ]
+        },
+        {
+          "id": "arvore_bodhi",
+          "nome": "Árvore Bodhi",
+          "descricao": "Figueira sagrada sob a qual, segundo a tradição budista, Sidarta Gautama alcançou a iluminação.",
+          "variantes": [
+            "Bodhi Tree",
+            "Árvore da Iluminação",
+            "Árvore de Bodhi",
+            "Figueira sagrada"
+          ]
+        },
+        {
+          "id": "arvore_do_tenere",
+          "nome": "Árvore do Ténéré",
+          "descricao": "Acácia solitária no deserto do Ténéré, no Níger, considerada a árvore mais isolada do mundo até 1973",
+          "variantes": [
+            "Arbre du Ténéré",
+            "Tree of Ténéré"
+          ]
+        },
+        {
+          "id": "ufc_1",
+          "nome": "UFC 1",
+          "descricao": "Primeiro evento do Ultimate Fighting Championship, realizado em Denver em novembro de 1993.",
+          "variantes": [
+            "UFC 1: The Beginning",
+            "Primeiro UFC"
+          ]
+        },
+        {
+          "id": "a_descendencia_do_homem",
+          "nome": "A Descendência do Homem",
+          "descricao": "Livro de Charles Darwin publicado em 1871 que aplica a teoria da evolução aos seres humanos e trata da seleção sexual.",
+          "variantes": [
+            "The Descent of Man",
+            "A Origem do Homem e a Seleção Sexual",
+            "A Origem do Homem"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jack Walker",
+        "descricao": "Pokémon Ranger do filme Pokémon Ranger e o Templo do Mar, que protege o ovo de Manaphy infiltrado num grupo do Povo da Água.",
+        "variantes": [
+          "Jackie",
+          "Jack Walker (Pokémon Ranger)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        },
+        {
+          "id": "pokewalker",
+          "nome": "Pokéwalker",
+          "descricao": "Acessório em forma de Poké Bola que acompanhava Pokémon HeartGold e SoulSilver e deixava o jogador levar um pokémon para passear.",
+          "variantes": [
+            "Poké Walker"
+          ]
+        },
+        {
+          "id": "jackie_chan",
+          "nome": "Jackie Chan",
+          "descricao": "Ator, dublê e artista marcial de Hong Kong, famoso por filmes de ação com comédia.",
+          "variantes": [
+            "Chan Kong-sang"
+          ]
+        },
+        {
+          "id": "pokemon_ranger",
+          "nome": "Pokémon Ranger",
+          "descricao": "Jogo derivado da franquia Pokémon, lançado em 2006 para Nintendo DS, em que o jogador é um guarda florestal que acalma pokémon selvagens.",
+          "variantes": []
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Arceus e a Joia da Vida",
+        "descricao": "Décimo segundo filme da franquia Pokémon, de 2009, em que Arceus busca vingança contra os humanos e Ash viaja ao passado.",
+        "variantes": [
+          "Arceus and the Jewel of Life",
+          "Arceus: A Conquista do Universo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "karate_kid",
+          "nome": "Karatê Kid",
+          "descricao": "Filme americano de 1984 sobre o jovem Daniel e seu mestre de caratê, o Sr. Miyagi.",
+          "variantes": [
+            "The Karate Kid",
+            "Karatê Kid: A Hora da Verdade"
+          ]
+        },
+        {
+          "id": "deus_nao_joga_dados",
+          "nome": "Deus não joga dados",
+          "descricao": "Frase atribuída a Albert Einstein, numa carta a Max Born de 1926, expressando sua desconfiança do acaso na mecânica quântica.",
+          "variantes": [
+            "God does not play dice"
+          ]
+        },
+        {
+          "id": "conquista_do_imperio_asteca",
+          "nome": "Conquista do Império Asteca",
+          "descricao": "Campanha espanhola liderada por Hernán Cortés, de 1519 a 1521, que derrubou o Império Asteca.",
+          "variantes": [
+            "Conquista do México",
+            "Spanish conquest of the Aztec Empire"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Volcanion e a Maravilha Mecânica",
+        "descricao": "Décimo nono filme da franquia Pokémon, de 2016, em que Ash fica preso ao mítico Volcanion e enfrenta o vilão Alva, que cobiça Magearna.",
+        "variantes": [
+          "Volcanion and the Mechanical Marvel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fio_maravilha_cancao",
+          "nome": "Fio Maravilha (canção)",
+          "descricao": "Canção de Jorge Ben de 1972 que homenageia o atacante Fio Maravilha, do Flamengo.",
+          "variantes": [
+            "Filho Maravilha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Zarude",
+        "descricao": "Pokémon mítico dos tipos Sombrio e Planta da oitava geração, um macaco da selva, estrela do filme Segredos da Selva, de 2020.",
+        "variantes": [
+          "Dada Zarude"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zarude",
+          "nome": "Zarude",
+          "descricao": "Pokémon dos tipos Sombrio e Planta, número 893 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "zygarde",
+          "nome": "Zygarde",
+          "descricao": "Pokémon lendário do tipo Dragão/Terra da sexta geração, número 718 da Pokédex Nacional.",
+          "variantes": [
+            "Zygarde 50%"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "zaire",
+          "nome": "Zaire",
+          "descricao": "Nome oficial da atual República Democrática do Congo de 1971 a 1997, sob o regime de Mobutu.",
+          "variantes": [
+            "República do Zaire"
+          ]
+        },
+        {
+          "id": "ozaru",
+          "nome": "Ōzaru",
+          "descricao": "Forma de macaco gigante em que os saiyajins com rabo se transformam em Dragon Ball.",
+          "variantes": [
+            "Oozaru",
+            "Macaco gigante",
+            "Great Ape"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem do filme, diferente do filme Pokémon 2000."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O filme Pokémon 4Ever não está entre as candidatas; Sammy é personagem."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bianca de Pokémon Heróis é outra personagem, não a rival de Unova."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Árvore fictícia do filme, sem correspondente nas candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Personagem de filme, diferente das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Filme sem correspondente entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Filme Pokémon, diferente da canção Fio Maravilha."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "zarude",
+      "motivo": "Mesmo Pokémon Zarude, tipos Sombrio e Planta, oitava geração."
+    }
+  ]
+}

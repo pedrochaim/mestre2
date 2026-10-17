@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Segundo a Pokédex, quando a chama na ponta da cauda de Charmander arde com vigor, mesmo molhada, isso é sinal de quê?",
+        "resposta": "De que está saudável"
+      },
+      "existentes": [
+        {
+          "id": "q09960",
+          "pergunta": "Quando Ash conhece seu Charmander, o pokémon espera sozinho numa pedra, debaixo de chuva. Por que ele estava ali?",
+          "resposta": "Foi abandonado pelo treinador"
+        },
+        {
+          "id": "q11058",
+          "pergunta": "No Japão, Charmander se chama Hitokage. Hi quer dizer fogo. E tokage, a outra metade do nome, designa qual animal?",
+          "resposta": "Lagarto"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O lento Slowpoke passa horas sentado à beira da água, com a ponta da cauda mergulhada. Segundo a Pokédex, o que ele está fazendo?",
+        "resposta": "Pescando"
+      },
+      "existentes": [
+        {
+          "id": "q09808",
+          "pergunta": "O preguiçoso Slowpoke evolui para Slowbro quando qual pokémon, uma concha, morde a ponta da sua cauda?",
+          "resposta": "Shellder"
+        },
+        {
+          "id": "q10231",
+          "pergunta": "Em Gold e Silver, por que a Equipe Rocket invade o poço dos Slowpoke, na cidade de Azalea, em Johto?",
+          "resposta": "Para cortar e vender as caudas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Lapras, o gentil pokémon que leva pessoas nas costas pelo mar, chegou perto de desaparecer. Segundo a Pokédex, por quê?",
+        "resposta": "Foi caçado demais"
+      },
+      "existentes": [
+        {
+          "id": "q11080",
+          "pergunta": "Lapras, o pokémon de pescoço longo que leva pessoas nas costas pelo mar, lembra o famoso monstro de qual lago escocês?",
+          "resposta": "Lago Ness"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Diz a Pokédex que Ninetales é muito esperto e vingativo. Que castigo pode receber quem agarrar uma das suas caudas?",
+        "resposta": "Uma maldição de mil anos"
+      },
+      "existentes": [
+        {
+          "id": "q12587",
+          "pergunta": "Com nove caudas e fama de viver mil anos, Ninetales lembra qual raposa mágica do folclore japonês?",
+          "resposta": "Kitsune"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Sudowoodo vive se fingindo de árvore, mas, segundo a Pokédex de Crystal, tem um costume que nenhuma árvore teria. Ele se esconde do quê?",
+        "resposta": "Da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q10034",
+          "pergunta": "O nome Sudowoodo, do pokémon de pedra que se finge de árvore, junta wood, madeira em inglês, com qual palavra que indica falsidade?",
+          "resposta": "Pseudo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O pequeno Bonsly gosta de ar seco e parece estar sempre chorando. Segundo a Pokédex, o que são, de fato, essas lágrimas?",
+        "resposta": "Água para regular a umidade"
+      },
+      "existentes": [
+        {
+          "id": "q12610",
+          "pergunta": "O nome de Bonsly, o filhote de Sudowoodo que finge ser uma arvorezinha, junta sly, astuto em inglês, com qual arte japonesa?",
+          "resposta": "Bonsai"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fato sobre a chama indicar saúde; as existentes tratam de abandono e do nome japonês."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Slowpoke pescando com a cauda é fato diferente de evolução e da Equipe Rocket."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Causa da quase extinção difere da semelhança com o monstro do Lago Ness."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Maldição ao agarrar a cauda difere da origem folclórica Kitsune."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Esconder-se da chuva difere da etimologia do nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Natureza das lágrimas difere da etimologia do nome."
+    }
+  ]
+}

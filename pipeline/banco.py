@@ -172,7 +172,10 @@ SUBTEMAS_COLECAO = {"pokemon": {
                                 "lugares como aparecem no anime, nos filmes, no mangá e nos jogos derivados (o que Brock "
                                 "faz no anime vem para cá, mesmo sendo ele líder de ginásio dos jogos)",
 }}
-PISO_SUBTEMA_COLECAO = {"pokemon": 0.30}
+# Piso de equilíbrio entre os subtemas de uma coleção (o menor com pelo menos essa fração do maior), que trava os
+# lotes que o desrespeitariam. O modo Pokémon teve 30% até 2026-10-16, quando o autor tirou o piso: o equilíbrio
+# passou a ser o das casas temáticas do tabuleiro, feito na programação dos lotes (modo_pokemon.md).
+PISO_SUBTEMA_COLECAO = {}
 
 # Documento com as regras de conteúdo próprias de cada coleção, enviadas ao LLM depois da Parte I do MANIFESTO
 # (comum.manifesto_para_llm), e as coleções cujos lotes não têm cota de ângulos (MANIFESTO §9).
@@ -198,12 +201,16 @@ def colecao_exclusiva(origem):
 FIGURA_LIVRE = {"pokemon"}
 
 
+# O enunciado dos cartões de golpe do modo Pokémon (pipeline/pokemon_golpes.py).
+PERGUNTA_GOLPE = "Qual é esse ataque?"
+
+
 def figura_livre(pergunta):
-    """"cartao" ou "silhueta" se a pergunta de uma coleção é um cartão de tipo e atributos ou uma figura em silhueta
-    com revelação, senão None."""
+    """"cartao" ou "silhueta" se a pergunta de uma coleção é um cartão (de tipo e atributos de um pokémon, ou de um
+    golpe) ou uma figura em silhueta com revelação, senão None."""
     if "imagem" not in pergunta or not pergunta.get("colecao"):
         return None
-    if "atributos base" in pergunta.get("pergunta", ""):
+    if "atributos base" in pergunta.get("pergunta", "") or pergunta.get("pergunta") == PERGUNTA_GOLPE:
         return "cartao"
     return "silhueta" if "revelacao" in pergunta["imagem"] else None
 

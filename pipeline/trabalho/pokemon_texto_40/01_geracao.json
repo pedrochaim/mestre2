@@ -1,0 +1,684 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "pokemon_o_filme",
+        "nome": "Pokémon: O Filme",
+        "descricao": "Primeiro filme da franquia Pokémon, em que Ash e Pikachu enfrentam o clone Mewtwo, lançado no Japão no fim dos anos noventa.",
+        "variantes": [
+          "Mewtwo Contra-Ataca",
+          "Pokémon: The First Movie",
+          "Mewtwo Strikes Back"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No fim do primeiro filme, Ash vira pedra ao se jogar entre os ataques de Mew e Mewtwo. O que o traz de volta à vida?",
+      "resposta": "As lágrimas dos pokémon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "mewtwo",
+        "nome": "Mewtwo",
+        "descricao": "Pokémon lendário do tipo Psíquico da primeira geração, clone criado a partir do material genético de Mew.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mewtwo"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na abertura do primeiro filme Pokémon, que cientista comanda o laboratório onde Mewtwo é criado, com dinheiro de Giovanni?",
+      "resposta": "Doutor Fuji",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_First_Movie",
+        "https://en.wikipedia.org/wiki/Mewtwo"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_2000",
+        "nome": "Pokémon 2000",
+        "descricao": "Segundo filme da franquia Pokémon, em que Ash ajuda o lendário Lugia a salvar o mundo, conhecido no Brasil como Pokémon 2000: O Poder de Um.",
+        "variantes": [
+          "Pokémon 2000: O Poder de Um",
+          "Pokémon The Movie 2000"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Pokémon 2000 se passa na ilha Shamouti, onde uma lenda anuncia a chegada de um Escolhido. Em que arquipélago do anime fica essa ilha?",
+      "resposta": "Ilhas Laranja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000",
+        "https://bulbapedia.bulbagarden.net/wiki/Shamouti_Island"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Melody (Pokémon 2000)",
+        "descricao": "Moça da ilha Shamouti no filme Pokémon 2000, escolhida para o festival da ilha, que toca a canção ligada a Lugia.",
+        "variantes": [
+          "Melody"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon 2000, que moça da ilha Shamouti, escolhida para o festival, toca na flauta a música que chama o lendário Lugia?",
+      "resposta": "Melody",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_3_o_filme",
+        "nome": "Pokémon 3: O Filme",
+        "descricao": "Terceiro filme da franquia Pokémon, de 2000, em que os Unown criam um mundo de cristal ao redor da menina Molly e de um Entei ilusório.",
+        "variantes": [
+          "Pokémon 3: The Movie",
+          "O Feitiço dos Unown",
+          "Spell of the Unown"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_3:_The_Movie"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon 3, os Unown cobrem de cristal a mansão da menina Molly e boa parte da cidade em volta. Como se chama essa cidade?",
+      "resposta": "Greenfield",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_3:_The_Movie"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_3_o_filme",
+        "nome": "Pokémon 3: O Filme",
+        "descricao": "Terceiro filme da franquia Pokémon, de 2000, em que os Unown criam um mundo de cristal ao redor da menina Molly e de um Entei ilusório.",
+        "variantes": [
+          "Pokémon 3: The Movie",
+          "O Feitiço dos Unown",
+          "Spell of the Unown"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_3:_The_Movie"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon 3, o filme do mundo de cristal criado pelos Unown, estreou nos cinemas japoneses em que ano?",
+      "resposta": "2000",
+      "distratores": [
+        "1999",
+        "2001",
+        "2002"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_3:_The_Movie"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon 4Ever",
+        "descricao": "Quarto filme da franquia Pokémon, de 2001, em que o mítico Celebi traz do passado o menino Sammy e é caçado pelo Mascarado de Ferro.",
+        "variantes": [
+          "Pokémon 4Ever: Celebi, a Voz da Floresta",
+          "Celebi: Voice of the Forest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_4Ever"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Pokémon 4Ever, o filme em que Celebi traz do passado o menino Sammy, estreou nos cinemas japoneses em que ano?",
+      "resposta": "2001",
+      "distratores": [
+        "2000",
+        "2002",
+        "2003"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_4Ever"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Pokémon 4Ever",
+        "descricao": "Quarto filme da franquia Pokémon, de 2001, em que o mítico Celebi traz do passado o menino Sammy e é caçado pelo Mascarado de Ferro.",
+        "variantes": [
+          "Pokémon 4Ever: Celebi, a Voz da Floresta",
+          "Celebi: Voice of the Forest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_4Ever"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Além do mítico Celebi, que fera lendária de Johto, ligada às águas puras, aparece em Pokémon 4Ever?",
+      "resposta": "Suicune",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_4Ever"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Bianca (Pokémon Heróis)",
+        "descricao": "Menina de Altomare no filme Pokémon Heróis, neta do guardião Lorenzo, cuja aparência Latias copia para se disfarçar.",
+        "variantes": [
+          "Bianca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Heróis, Latias passeia por Altomare disfarçada de humana. Ela copia a aparência de qual menina, neta do guardião Lorenzo?",
+      "resposta": "Bianca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_herois",
+        "nome": "Pokémon Heróis",
+        "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+        "variantes": [
+          "Pokémon Heroes",
+          "Pokémon Heróis: Latios e Latias"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No fim de Pokémon Heróis, Latios dá a própria vida para salvar a cidade de Altomare. Em que objeto ele se transforma?",
+      "resposta": "Uma nova Soul Dew",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes",
+        "https://bulbapedia.bulbagarden.net/wiki/Soul_Dew"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Butler (Pokémon)",
+        "descricao": "Mágico e ex-integrante da Equipe Magma, vilão do filme Jirachi: Realizador de Desejos, de 2003.",
+        "variantes": [
+          "Butler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Jirachi:_Wish_Maker"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No filme de Jirachi, o mágico Butler, antigo membro da Equipe Magma, ou Team Magma, quer usar o poder do mítico para recriar qual lendário?",
+      "resposta": "Groudon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Jirachi:_Wish_Maker"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_o_destino_de_deoxys",
+        "nome": "Pokémon: O Destino de Deoxys",
+        "descricao": "Sétimo filme da franquia Pokémon, de 2004, em que o alienígena Deoxys enfrenta Rayquaza numa cidade tecnológica.",
+        "variantes": [
+          "Destiny Deoxys"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Destiny_Deoxys"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em O Destino de Deoxys, Rayquaza e o alienígena se enfrentam numa cidade cheia de robôs e esteiras rolantes. Como se chama essa cidade?",
+      "resposta": "LaRousse",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Destiny_Deoxys"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Tree of Beginning",
+        "descricao": "Árvore gigantesca do filme Lucario e o Mistério de Mew, onde vive o mítico Mew, protegida por um sistema de defesa próprio.",
+        "variantes": [
+          "Árvore do Início",
+          "Árvore do Começo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew",
+          "https://bulbapedia.bulbagarden.net/wiki/Tree_of_Beginning"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Lucario e o Mistério de Mew, o mítico Mew vive dentro de uma árvore gigantesca, cheia de cristais, que ataca os intrusos. Como ela se chama?",
+      "resposta": "Tree of Beginning",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Lucario_and_the_Mystery_of_Mew",
+        "https://bulbapedia.bulbagarden.net/wiki/Tree_of_Beginning"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Jack Walker",
+        "descricao": "Pokémon Ranger do filme Pokémon Ranger e o Templo do Mar, que protege o ovo de Manaphy infiltrado num grupo do Povo da Água.",
+        "variantes": [
+          "Jackie",
+          "Jack Walker (Pokémon Ranger)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ranger_and_the_Temple_of_the_Sea"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Ranger e o Templo do Mar, que guarda florestal, infiltrado num grupo de artistas do Povo da Água, protege o ovo de Manaphy?",
+      "resposta": "Jack Walker",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ranger_and_the_Temple_of_the_Sea"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "a_ascensao_de_darkrai",
+        "nome": "A Ascensão de Darkrai",
+        "descricao": "Décimo filme da franquia Pokémon, de 2007, em que Darkrai protege a cidade de Alamos de uma batalha entre lendários.",
+        "variantes": [
+          "The Rise of Darkrai"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Rise_of_Darkrai"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Ascensão de Darkrai se passa numa cidade famosa por duas torres gêmeas e um grande jardim. Que cidade é essa?",
+      "resposta": "Alamos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Rise_of_Darkrai",
+        "https://bulbapedia.bulbagarden.net/wiki/Alamos_Town"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "a_ascensao_de_darkrai",
+        "nome": "A Ascensão de Darkrai",
+        "descricao": "Décimo filme da franquia Pokémon, de 2007, em que Darkrai protege a cidade de Alamos de uma batalha entre lendários.",
+        "variantes": [
+          "The Rise of Darkrai"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Rise_of_Darkrai"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A Ascensão de Darkrai, primeiro filme da fase de Sinnoh, estreou nos cinemas japoneses em que ano?",
+      "resposta": "2007",
+      "distratores": [
+        "2006",
+        "2008",
+        "2009"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_The_Rise_of_Darkrai"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "giratina_e_o_guerreiro_dos_ceus",
+        "nome": "Giratina e o Guerreiro dos Céus",
+        "descricao": "Décimo primeiro filme da franquia Pokémon, de 2008, em que Ash ajuda o mítico Shaymin e enfrenta o caçador Zero.",
+        "variantes": [
+          "Giratina and the Sky Warrior",
+          "Giratina e o Cavaleiro do Céu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Giratina_and_the_Sky_Warrior"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O filme em que Ash ajuda o pequeno Shaymin e enfrenta o caçador Zero no Mundo Reverso estreou nos cinemas japoneses em que ano?",
+      "resposta": "2008",
+      "distratores": [
+        "2007",
+        "2009",
+        "2010"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Giratina_and_the_Sky_Warrior"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Arceus e a Joia da Vida",
+        "descricao": "Décimo segundo filme da franquia Pokémon, de 2009, em que Arceus busca vingança contra os humanos e Ash viaja ao passado.",
+        "variantes": [
+          "Arceus and the Jewel of Life",
+          "Arceus: A Conquista do Universo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Arceus_and_the_Jewel_of_Life"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O filme em que Arceus quer se vingar da humanidade se passa numa cidade de ruínas antigas de Sinnoh. Como ela se chama?",
+      "resposta": "Michina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Arceus_and_the_Jewel_of_Life"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Arceus e a Joia da Vida",
+        "descricao": "Décimo segundo filme da franquia Pokémon, de 2009, em que Arceus busca vingança contra os humanos e Ash viaja ao passado.",
+        "variantes": [
+          "Arceus and the Jewel of Life",
+          "Arceus: A Conquista do Universo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Arceus_and_the_Jewel_of_Life"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No filme Arceus e a Joia da Vida, que lendário leva Ash e seus amigos ao passado para desfazer a traição contra Arceus?",
+      "resposta": "Dialga",
+      "distratores": [
+        "Palkia",
+        "Giratina",
+        "Celebi"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Arceus_and_the_Jewel_of_Life"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "zoroark_o_mestre_das_ilusoes",
+        "nome": "Zoroark: O Mestre das Ilusões",
+        "descricao": "Décimo terceiro filme da franquia Pokémon, de 2010, em que Zoroark tenta resgatar Zorua e salvar a cidade de Crown City.",
+        "variantes": [
+          "Zoroark: Master of Illusions"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Zoroark:_Master_of_Illusions"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Zoroark: O Mestre das Ilusões, o filme em que Zoroark tenta resgatar o pequeno Zorua, estreou nos cinemas japoneses em que ano?",
+      "resposta": "2010",
+      "distratores": [
+        "2009",
+        "2011",
+        "2012"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Zoroark:_Master_of_Illusions"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "kyurem_contra_o_espadachim_da_justica",
+        "nome": "Kyurem Contra o Espadachim da Justiça",
+        "descricao": "Décimo quinto filme da franquia Pokémon, de 2012, em que o mítico Keldeo desafia o lendário Kyurem.",
+        "variantes": [
+          "Kyurem vs. the Sword of Justice"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Kyurem_vs._the_Sword_of_Justice"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No filme em que Keldeo enfrenta Kyurem, por que o jovem pokémon provoca o poderoso lendário para um duelo?",
+      "resposta": "Para ser reconhecido como Espadachim da Justiça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Kyurem_vs._the_Sword_of_Justice"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "genesect_e_a_lenda_revelada",
+        "nome": "Genesect e a Lenda Revelada",
+        "descricao": "Décimo sexto filme da franquia Pokémon, de 2013, em que um bando de Genesect invade uma metrópole e enfrenta um Mewtwo.",
+        "variantes": [
+          "Genesect and the Legend Awakened"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Genesect_and_the_Legend_Awakened"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O filme em que um bando de Genesect invade uma metrópole e enfrenta um Mewtwo capaz de megaevoluir estreou nos cinemas japoneses em que ano?",
+      "resposta": "2013",
+      "distratores": [
+        "2012",
+        "2014",
+        "2015"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Genesect_and_the_Legend_Awakened"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "diancie_e_o_casulo_da_destruicao",
+        "nome": "Diancie e o Casulo da Destruição",
+        "descricao": "Décimo sétimo filme da franquia Pokémon, de 2014, em que a princesa Diancie busca salvar seu reino de joias.",
+        "variantes": [
+          "Diancie and the Cocoon of Destruction"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Diancie_and_the_Cocoon_of_Destruction"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Diancie e o Casulo da Destruição, o diamante que sustenta o reino de Diancie está se apagando. Que lendário de Kalos ela procura para conseguir criar um novo?",
+      "resposta": "Xerneas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Diancie_and_the_Cocoon_of_Destruction"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "diancie_e_o_casulo_da_destruicao",
+        "nome": "Diancie e o Casulo da Destruição",
+        "descricao": "Décimo sétimo filme da franquia Pokémon, de 2014, em que a princesa Diancie busca salvar seu reino de joias.",
+        "variantes": [
+          "Diancie and the Cocoon of Destruction"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Diancie_and_the_Cocoon_of_Destruction"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O filme em que a princesa Diancie deixa seu reino de joias e acaba despertando Yveltal estreou nos cinemas japoneses em que ano?",
+      "resposta": "2014",
+      "distratores": [
+        "2013",
+        "2015",
+        "2016"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Diancie_and_the_Cocoon_of_Destruction"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "hoopa_e_o_duelo_lendario",
+        "nome": "Hoopa e o Duelo Lendário",
+        "descricao": "Décimo oitavo filme da franquia Pokémon, de 2015, estrelado pelo mítico Hoopa, que convoca lendários por meio de anéis.",
+        "variantes": [
+          "Hoopa and the Clash of Ages"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Hoopa_and_the_Clash_of_Ages"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O filme Hoopa e o Duelo Lendário se passa numa cidade do deserto, palco do confronto entre os lendários convocados. Que cidade é essa?",
+      "resposta": "Dahara",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Hoopa_and_the_Clash_of_Ages"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Volcanion e a Maravilha Mecânica",
+        "descricao": "Décimo nono filme da franquia Pokémon, de 2016, em que Ash fica preso ao mítico Volcanion e enfrenta o vilão Alva, que cobiça Magearna.",
+        "variantes": [
+          "Volcanion and the Mechanical Marvel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Volcanion_and_the_Mechanical_Marvel"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Volcanion e a Maravilha Mecânica se passa num reino de engrenagens onde a Magearna foi construída, séculos atrás. Como se chama esse reino?",
+      "resposta": "Reino de Azoth",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Volcanion_and_the_Mechanical_Marvel"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_eu_escolho_voce_filme",
+        "nome": "Pokémon: Eu Escolho Você! (filme)",
+        "descricao": "Vigésimo filme da franquia Pokémon, de 2017, que recria o começo da jornada de Ash e Pikachu.",
+        "variantes": [
+          "Pokémon the Movie: I Choose You!"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_I_Choose_You!"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No filme Eu Escolho Você, que recria o começo da jornada, Misty e Brock não acompanham Ash. Ele viaja com Verity e com qual outro novo companheiro?",
+      "resposta": "Sorrel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_I_Choose_You!"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "pokemon_o_poder_de_todos",
+        "nome": "Pokémon: O Poder de Todos",
+        "descricao": "Vigésimo primeiro filme da franquia Pokémon, de 2018, passado durante o Festival do Vento de Fula City.",
+        "variantes": [
+          "Pokémon the Movie: The Power of Us"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_The_Power_of_Us"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em O Poder de Todos, que pokémon mítico elétrico, de garras afiadas, vive escondido na floresta perto da cidade e desconfia dos humanos?",
+      "resposta": "Zeraora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_The_Power_of_Us"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "nome": "Zarude",
+        "descricao": "Pokémon mítico dos tipos Sombrio e Planta da oitava geração, um macaco da selva, estrela do filme Segredos da Selva, de 2020.",
+        "variantes": [
+          "Dada Zarude"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Secrets_of_the_Jungle",
+          "https://bulbapedia.bulbagarden.net/wiki/Zarude_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "No filme Segredos da Selva, que pokémon mítico, um macaco dos tipos Sombrio e Planta, encontra o bebê Koko e o cria como filho?",
+      "resposta": "Zarude",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Secrets_of_the_Jungle"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "ancora": {
+        "id_existente": "detetive_pikachu_filme",
+        "nome": "Detetive Pikachu (filme)",
+        "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério.",
+        "variantes": [
+          "Pokémon: Detetive Pikachu",
+          "Pokémon Detective Pikachu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Detective_Pikachu_(film)"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "No filme Detetive Pikachu, o desfecho revela quem está, na verdade, dentro do Pikachu falante que ajuda o jovem Tim. Quem é?",
+      "resposta": "Harry Goodman, pai de Tim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Detective_Pikachu_(film)"
+      ],
+      "subtema_colecao": "Anime, Filmes e Franquia"
+    }
+  ]
+}

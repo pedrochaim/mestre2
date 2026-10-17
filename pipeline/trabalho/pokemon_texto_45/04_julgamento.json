@@ -1,0 +1,903 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Silph Scope",
+        "descricao": "Item de Pokémon Red, Blue e Yellow que permite identificar os fantasmas da Torre Pokémon, em Lavender.",
+        "variantes": [
+          "Scope Silph"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "silph",
+          "nome": "Silph",
+          "descricao": "Empresa da cidade de Saffron, em Kanto, fabricante de Poké Bolas e outros itens nos jogos Pokémon.",
+          "variantes": [
+            "Silph Co.",
+            "Silph S.A."
+          ]
+        },
+        {
+          "id": "julgamento_de_scopes",
+          "nome": "Julgamento de Scopes",
+          "descricao": "Processo judicial de 1925, em Dayton, Tennessee, contra o professor John Scopes por ensinar a evolução humana numa escola pública.",
+          "variantes": [
+            "Scopes trial",
+            "Julgamento do Macaco",
+            "Scopes Monkey Trial"
+          ]
+        },
+        {
+          "id": "kilt",
+          "nome": "Kilt",
+          "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+          "variantes": [
+            "Kilt escocês",
+            "Saiote escocês"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "basilisco",
+          "nome": "Basilisco",
+          "descricao": "Lagarto da América Central (Basiliscus basiliscus) capaz de correr sobre a superfície da água.",
+          "variantes": [
+            "Basilisco-comum",
+            "Basiliscus basiliscus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Archer",
+        "descricao": "Executivo da Equipe Rocket que comanda o grupo na ausência de Giovanni em Pokémon HeartGold e SoulSilver.",
+        "variantes": [
+          "Apollo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "archen",
+          "nome": "Archen",
+          "descricao": "Pokémon dos tipos Pedra e Voador, número 566 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "apollo_11",
+          "nome": "Apollo 11",
+          "descricao": "Missão da Nasa que levou os primeiros seres humanos à superfície da Lua.",
+          "variantes": [
+            "Apolo 11"
+          ]
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "apollo_17",
+          "nome": "Apollo 17",
+          "descricao": "Missão da NASA de dezembro de 1972, a última do programa Apollo a pousar na Lua.",
+          "variantes": []
+        },
+        {
+          "id": "apollo_13",
+          "nome": "Apollo 13",
+          "descricao": "Missão lunar da NASA de abril de 1970, cujo pouso foi cancelado após um acidente a bordo, com retorno seguro da tripulação.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Capitão Stern",
+        "descricao": "Oceanógrafo de Slateport, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, dono do submarino roubado pelos vilões.",
+        "variantes": [
+          "Captain Stern"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        },
+        {
+          "id": "capitao_feio",
+          "nome": "Capitão Feio",
+          "descricao": "Principal vilão da Turma da Mônica, tio do Cascão, que vive nos esgotos.",
+          "variantes": [
+            "Feitoso Araújo"
+          ]
+        },
+        {
+          "id": "capitao_nemo",
+          "nome": "Capitão Nemo",
+          "descricao": "Comandante do submarino Nautilus nos romances de Júlio Verne, como Vinte Mil Léguas Submarinas.",
+          "variantes": [
+            "Captain Nemo",
+            "Capitaine Nemo"
+          ]
+        },
+        {
+          "id": "capitao_america",
+          "nome": "Capitão América",
+          "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+          "variantes": [
+            "Captain America",
+            "Steve Rogers"
+          ]
+        },
+        {
+          "id": "mar_caspio",
+          "nome": "Mar Cáspio",
+          "descricao": "Grande corpo de água salgada sem saída para o oceano, entre a Europa Oriental e a Ásia Central.",
+          "variantes": [
+            "Caspian Sea",
+            "Cáspio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Looker",
+        "descricao": "Agente da Polícia Internacional que aparece em vários jogos Pokémon, a partir de Platinum, investigando organizações criminosas.",
+        "variantes": [
+          "Handsome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "snooker",
+          "nome": "Snooker",
+          "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+          "variantes": [
+            "Sinuca inglesa"
+          ]
+        },
+        {
+          "id": "coringa",
+          "nome": "Coringa",
+          "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+          "variantes": [
+            "Joker"
+          ]
+        },
+        {
+          "id": "curinga",
+          "nome": "Curinga",
+          "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+          "variantes": [
+            "Coringa",
+            "Joker"
+          ]
+        },
+        {
+          "id": "poquer",
+          "nome": "Pôquer",
+          "descricao": "Jogo de cartas de apostas e blefe em que vence a melhor combinação de cinco cartas.",
+          "variantes": [
+            "Poker"
+          ]
+        },
+        {
+          "id": "georg_friedrich_handel",
+          "nome": "Georg Friedrich Händel",
+          "descricao": "Compositor barroco alemão naturalizado inglês (1685–1759), autor do Messias.",
+          "variantes": [
+            "Handel",
+            "Händel",
+            "George Frideric Handel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Museu de Nacrene",
+        "descricao": "Museu da cidade de Nacrene, em Unova, nos jogos Pokémon Black e White, que abriga o ginásio de Lenora.",
+        "variantes": [
+          "Nacrene Museum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "museu_de_orsay",
+          "nome": "Museu de Orsay",
+          "descricao": "Museu de arte em Paris, à margem esquerda do Sena, famoso pelo acervo impressionista, inaugurado em 1986.",
+          "variantes": [
+            "Musée d'Orsay"
+          ]
+        },
+        {
+          "id": "jesus",
+          "nome": "Jesus",
+          "descricao": "Pregador judeu do século um, figura central do cristianismo",
+          "variantes": [
+            "Jesus Cristo",
+            "Jesus de Nazaré"
+          ]
+        },
+        {
+          "id": "museu_do_amanha",
+          "nome": "Museu do Amanhã",
+          "descricao": "Museu de ciências projetado por Santiago Calatrava no Píer Mauá, no Rio de Janeiro, aberto em 2015.",
+          "variantes": [
+            "Museum of Tomorrow"
+          ]
+        },
+        {
+          "id": "cidade_proibida",
+          "nome": "Cidade Proibida",
+          "descricao": "Complexo de palácios imperiais no centro de Pequim, na China, residência dos imperadores Ming e Qing.",
+          "variantes": [
+            "Palácio Imperial de Pequim",
+            "Forbidden City",
+            "Museu do Palácio"
+          ]
+        },
+        {
+          "id": "museu_de_arte_de_sao_paulo",
+          "nome": "Museu de Arte de São Paulo",
+          "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre.",
+          "variantes": [
+            "MASP",
+            "Museu de Arte de São Paulo Assis Chateaubriand"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Colress",
+        "descricao": "Cientista de Pokémon Black 2 e White 2 que aparece como chefe da nova Equipe Plasma, obcecado pelo potencial dos pokémon.",
+        "variantes": [
+          "Achroma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acores",
+          "nome": "Açores",
+          "descricao": "Arquipélago português no meio do oceano Atlântico Norte, região autônoma de Portugal.",
+          "variantes": [
+            "Arquipélago dos Açores",
+            "Ilhas dos Açores"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "roma_2",
+          "nome": "Roma",
+          "descricao": "Capital da Itália, às margens do rio Tibre.",
+          "variantes": [
+            "Rome"
+          ]
+        },
+        {
+          "id": "acerola",
+          "nome": "Acerola",
+          "descricao": "Fruta pequena e vermelha da Malpighia emarginata, muito cultivada no Nordeste brasileiro.",
+          "variantes": [
+            "Cereja-das-antilhas",
+            "Malpighia emarginata"
+          ]
+        },
+        {
+          "id": "moltres",
+          "nome": "Moltres",
+          "descricao": "Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional.",
+          "variantes": [
+            "Fire",
+            "Moltres de Galar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ghetsis",
+        "descricao": "Verdadeiro líder da Equipe Plasma em Pokémon Black e White e em Black 2 e White 2, pai adotivo de N.",
+        "variantes": [
+          "Ghetsis Harmonia Gropius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "n",
+          "nome": "N",
+          "descricao": "Rei da Equipe Plasma em Pokémon Black e White, jovem criado entre pokémon e manipulado por Ghetsis.",
+          "variantes": [
+            "Natural Harmonia Gropius"
+          ]
+        },
+        {
+          "id": "genesis",
+          "nome": "Genesis",
+          "descricao": "Banda britânica de rock progressivo e pop formada em 1967",
+          "variantes": []
+        },
+        {
+          "id": "mega_drive",
+          "nome": "Mega Drive",
+          "descricao": "Console de videogame de dezesseis bits da Sega, lançado no Japão no fim dos anos oitenta.",
+          "variantes": [
+            "Sega Genesis",
+            "Genesis"
+          ]
+        },
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "the_sims",
+          "nome": "The Sims",
+          "descricao": "Jogo de simulação de vida lançado em 2000 pela Maxis, em que o jogador controla pessoas virtuais.",
+          "variantes": [
+            "Os Sims"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Plumeria",
+        "descricao": "Administradora da Equipe Skull em Pokémon Sun e Moon, especialista em pokémon venenosos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sumerios",
+          "nome": "Sumérios",
+          "descricao": "Povo da Baixa Mesopotâmia que desenvolveu a escrita cuneiforme.",
+          "variantes": [
+            "Suméria",
+            "Sumer"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Guzma",
+        "descricao": "Chefe da Equipe Skull em Pokémon Sun e Moon, treinador especialista em pokémon inseto.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "carlos_arthur_nuzman",
+          "nome": "Carlos Arthur Nuzman",
+          "descricao": "Ex-jogador brasileiro de vôlei e dirigente esportivo, presidente da Confederação Brasileira de Voleibol e do Comitê Olímpico Brasileiro.",
+          "variantes": [
+            "Nuzman"
+          ]
+        },
+        {
+          "id": "gustavo_kuerten",
+          "nome": "Gustavo Kuerten",
+          "descricao": "Tenista brasileiro tricampeão de Roland Garros, o Guga.",
+          "variantes": [
+            "Guga"
+          ]
+        },
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        },
+        {
+          "id": "ogum",
+          "nome": "Ogum",
+          "descricao": "Orixá guerreiro, ligado ao ferro, cultuado no candomblé e na umbanda",
+          "variantes": [
+            "Ogun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Oleana",
+        "descricao": "Secretária do presidente Rose na empresa Macro Cosmos, em Pokémon Sword e Shield.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        },
+        {
+          "id": "toleman",
+          "nome": "Toleman",
+          "descricao": "Equipe britânica de Fórmula 1 que competiu de 1981 a 1985, pela qual Ayrton Senna estreou em 1984.",
+          "variantes": [
+            "Toleman Motorsport"
+          ]
+        },
+        {
+          "id": "ezana",
+          "nome": "Ezana",
+          "descricao": "Rei de Axum no século quarto, o primeiro governante do reino a adotar o cristianismo.",
+          "variantes": [
+            "Ezana de Axum",
+            "Ezana of Axum"
+          ]
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Professor Rowan",
+        "descricao": "Professor pokémon da região de Sinnoh, que entrega o inicial ao jogador em Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Professor Nanakamado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "professor_carvalho",
+          "nome": "Professor Carvalho",
+          "descricao": "Pesquisador pokémon de Kanto, que entrega o primeiro pokémon ao jogador nos jogos Red e Blue e a Ash no anime.",
+          "variantes": [
+            "Professor Oak",
+            "Samuel Oak",
+            "Samuel Carvalho",
+            "Yukinari Okido"
+          ]
+        },
+        {
+          "id": "sada_e_turo",
+          "nome": "Sada e Turo",
+          "descricao": "Professores pokémon de Paldea: Sada aparece em Pokémon Scarlet e Turo em Pokémon Violet.",
+          "variantes": [
+            "Professora Sada",
+            "Professor Turo"
+          ]
+        },
+        {
+          "id": "professor_willow",
+          "nome": "Professor Willow",
+          "descricao": "Professor pokémon do jogo Pokémon Go, que recebe o jogador e pede ajuda nas suas pesquisas.",
+          "variantes": [
+            "Willow"
+          ]
+        },
+        {
+          "id": "professor_sycamore",
+          "nome": "Professor Sycamore",
+          "descricao": "Professor pokémon da região de Kalos, que entrega o inicial ao jogador em Pokémon X e Y.",
+          "variantes": [
+            "Professor Platane",
+            "Augustine Sycamore"
+          ]
+        },
+        {
+          "id": "professor_agasa",
+          "nome": "Professor Agasa",
+          "descricao": "Hiroshi Agasa, inventor vizinho e aliado do protagonista no mangá Detetive Conan.",
+          "variantes": [
+            "Hiroshi Agasa",
+            "Dr. Agasa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Slumbering Weald",
+        "descricao": "Floresta enevoada e proibida da região de Galar, em Pokémon Sword e Shield, ligada aos lendários Zacian e Zamazenta.",
+        "variantes": [
+          "Floresta Adormecida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        },
+        {
+          "id": "varzea",
+          "nome": "Várzea",
+          "descricao": "Floresta amazônica inundada periodicamente pelas cheias de rios de água barrenta, como o Solimões",
+          "variantes": [
+            "Floresta de várzea"
+          ]
+        },
+        {
+          "id": "mata_de_araucarias",
+          "nome": "Mata de Araucárias",
+          "descricao": "Floresta do planalto do Sul do Brasil dominada pelo pinheiro-do-paraná",
+          "variantes": [
+            "Floresta Ombrófila Mista",
+            "Floresta de Araucária"
+          ]
+        },
+        {
+          "id": "flor_de_maio",
+          "nome": "Flor-de-maio",
+          "descricao": "Cacto epífito do gênero Schlumbergera, nativo da Mata Atlântica do Sudeste brasileiro",
+          "variantes": [
+            "Schlumbergera",
+            "Cacto-de-natal",
+            "Christmas cactus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Galaxy Expedition Team",
+        "descricao": "Grupo de pesquisa da Vila Jubilife, em Pokémon Legends: Arceus, encarregado de estudar os pokémon de Hisui e criar a primeira Pokédex.",
+        "variantes": [
+          "Galaxy Team",
+          "Equipe Galaxy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "equipe_galactica",
+          "nome": "Equipe Galáctica",
+          "descricao": "Organização vilã de Pokémon Diamond, Pearl e Platinum, liderada por Cyrus, que quer usar Dialga e Palkia para criar um novo mundo.",
+          "variantes": [
+            "Team Galactic"
+          ]
+        },
+        {
+          "id": "samsung_galaxy_note_7",
+          "nome": "Samsung Galaxy Note 7",
+          "descricao": "Celular da Samsung lançado em 2016 e retirado do mercado no mesmo ano.",
+          "variantes": [
+            "Galaxy Note 7"
+          ]
+        },
+        {
+          "id": "equipe_aqua",
+          "nome": "Equipe Aqua",
+          "descricao": "Organização vilã de Pokémon Ruby, Sapphire e Emerald que quer despertar Kyogre para expandir os mares.",
+          "variantes": [
+            "Team Aqua"
+          ]
+        },
+        {
+          "id": "equipe_magma",
+          "nome": "Equipe Magma",
+          "descricao": "Organização vilã de Pokémon Ruby, Sapphire e Emerald, liderada por Maxie, que quer despertar Groudon.",
+          "variantes": [
+            "Team Magma"
+          ]
+        },
+        {
+          "id": "equipe_flare",
+          "nome": "Equipe Flare",
+          "descricao": "Organização vilã de Pokémon X e Y, da região de Kalos, de uniformes vermelhos, liderada por Lysandre.",
+          "variantes": [
+            "Team Flare"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Zinnia",
+        "descricao": "Guardiã de um antigo povo de Hoenn que protagoniza o Episódio Delta de Pokémon Omega Ruby e Alpha Sapphire.",
+        "variantes": [
+          "Higana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        },
+        {
+          "id": "iguana",
+          "nome": "Iguana",
+          "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+          "variantes": [
+            "Iguana-verde",
+            "Green iguana",
+            "Iguana iguana"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "corphish",
+          "nome": "Corphish",
+          "descricao": "Pokémon lagostim do tipo Água, número 341 da Pokédex Nacional, da terceira geração.",
+          "variantes": [
+            "Heigani"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Pokémon Platinum",
+        "descricao": "Versão especial de Pokémon Diamond e Pearl para Nintendo DS, ambientada em Sinnoh, com o lendário Giratina na capa.",
+        "variantes": [
+          "Pokémon Platina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_tita",
+          "nome": "Pokémon Titã",
+          "descricao": "Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas.",
+          "variantes": [
+            "Titan Pokémon",
+            "Pokémon Titãs"
+          ]
+        },
+        {
+          "id": "pokemon_pinball",
+          "nome": "Pokémon Pinball",
+          "descricao": "Jogo de fliperama virtual com pokémon, lançado em 1999 para o Game Boy Color, em que a bolinha é uma Poké Bola.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_stadium",
+          "nome": "Pokémon Stadium",
+          "descricao": "Jogo de batalhas Pokémon em 3D para Nintendo 64, que permitia usar pokémon dos jogos de Game Boy.",
+          "variantes": [
+            "Stadium"
+          ]
+        },
+        {
+          "id": "fenomeno_illumina",
+          "nome": "Fenômeno Illumina",
+          "descricao": "Fenômeno de New Pokémon Snap em que certos pokémon da região de Lental brilham com uma luz misteriosa.",
+          "variantes": [
+            "Illumina",
+            "Pokémon Illumina"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Item Silph Scope é distinto da empresa Silph e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Personagem Archer não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Capitão Stern é personagem de Pokémon; candidatas são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Looker é personagem de Pokémon, sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Museu de Nacrene é um local fictício diferente dos museus reais listados."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Colress é personagem sem equivalente nas candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ghetsis é distinto de N, seu filho adotivo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Plumeria é personagem sem equivalente nas candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Guzma é personagem sem equivalente nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Oleana é personagem sem equivalente nas candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Professor Rowan é diferente dos outros professores pokémon listados."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Slumbering Weald é local fictício de Galar, distinto das florestas reais."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Galaxy Expedition Team é diferente da Equipe Galáctica (vilã de Sinnoh)."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Zinnia é personagem; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Pokémon Platinum não está entre as candidatas."
+    }
+  ]
+}

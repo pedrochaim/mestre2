@@ -1,0 +1,434 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "lugia",
+        "nome": "Lugia",
+        "descricao": "Pokémon lendário dos tipos Psíquico e Voador da segunda geração, guardião dos mares e mascote de Pokémon Silver.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lugia",
+          "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Aeroblast, um jato de ar do tipo Voador com grande chance de acerto crítico, é o golpe exclusivo de qual lendário de Johto?",
+      "resposta": "Lugia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Aeroblast_(move)",
+        "https://en.wikipedia.org/wiki/Lugia"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "rayquaza",
+        "nome": "Rayquaza",
+        "descricao": "Pokémon lendário dos tipos Dragão e Voador da terceira geração, mascote de Pokémon Emerald.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Omega Ruby e Alpha Sapphire, Rayquaza megaevolui sem segurar nenhuma Mega Pedra. Para isso, basta que ele conheça qual golpe exclusivo?",
+      "resposta": "Dragon Ascent",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dragon_Ascent_(move)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "kyogre",
+        "nome": "Kyogre",
+        "descricao": "Pokémon lendário do tipo Água da terceira geração, mascote de Pokémon Sapphire.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Omega Ruby e Alpha Sapphire, Kyogre ganhou um golpe exclusivo que dispara raios de luz azul contra todos os adversários. Como ele se chama?",
+      "resposta": "Origin Pulse",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Origin_Pulse_(move)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "groudon",
+        "nome": "Groudon",
+        "descricao": "Pokémon lendário do tipo Terrestre da terceira geração, mascote de Pokémon Ruby e rival de Kyogre.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Groudon ganhou um golpe exclusivo nos remakes de Hoenn, Omega Ruby e Alpha Sapphire. Qual destes golpes é o dele?",
+      "resposta": "Precipice Blades",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Precipice_Blades_(move)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ],
+      "distratores": [
+        "Thousand Arrows",
+        "Roar of Time",
+        "Spacial Rend"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "deoxys",
+        "nome": "Deoxys",
+        "descricao": "Pokémon mítico do tipo Psíquico da terceira geração, um alienígena que muda de forma.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Psycho Boost, ataque psíquico fortíssimo que deixa o próprio usuário mais fraco depois de cada uso, é o golpe exclusivo de qual mítico da terceira geração?",
+      "resposta": "Deoxys",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Psycho_Boost_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Latias",
+        "descricao": "Pokémon lendário dos tipos Dragão e Psíquico da terceira geração, irmã de Latios, de cores vermelha e branca.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O lendário Latios tem como golpe exclusivo o Luster Purge, uma explosão de luz. Qual é o golpe exclusivo da irmã dele, Latias?",
+      "resposta": "Mist Ball",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mist_Ball_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Luster_Purge_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Delibird",
+        "descricao": "Pokémon pinguim dos tipos Gelo e Voador da segunda geração, que carrega comida no rabo e distribui presentes.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Delibird, a ave que carrega comida no rabo, ataca com o golpe Present. Que efeito inesperado o presente às vezes causa no adversário?",
+      "resposta": "Cura o adversário",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Present_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Slowking",
+        "descricao": "Pokémon dos tipos Água e Psíquico da segunda geração, evolução de Slowpoke mordido na cabeça por um Shellder.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, Slowking e seus parentes aprendem Chilly Reception, que chama a neve antes de o usuário sair de campo. Como o usuário faz o tempo esfriar?",
+      "resposta": "Contando uma piada sem graça",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Chilly_Reception_(move)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Primeape",
+        "descricao": "Pokémon macaco do tipo Lutador da primeira geração, evolução de Mankey, que evolui para Annihilape em Scarlet e Violet.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Primeape_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em Scarlet e Violet, Primeape evolui para Annihilape depois de usar vinte vezes qual golpe, que fica mais forte a cada pancada recebida?",
+      "resposta": "Rage Fist",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rage_Fist_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Close Combat",
+        "Thrash",
+        "Cross Chop"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "moltres",
+        "nome": "Moltres",
+        "descricao": "Pokémon lendário ave de fogo da primeira geração, que tem uma forma de Galar do tipo Sombrio.",
+        "variantes": [
+          "Moltres de Galar"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Fiery Wrath, golpe exclusivo do tipo Sombrio que transforma a fúria do usuário numa aura de fogo, pertence a qual pokémon de Galar?",
+      "resposta": "Moltres de Galar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fiery_Wrath_(move)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "distratores": [
+        "Zapdos de Galar",
+        "Articuno de Galar",
+        "Weezing de Galar"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "snorlax",
+        "nome": "Snorlax",
+        "descricao": "Pokémon gigante e dorminhoco do tipo Normal da primeira geração.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snorlax",
+          "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, qual pokémon tem o Movimento Z exclusivo Pulverizing Pancake, em que salta e esmaga o adversário com seu corpo enorme?",
+      "resposta": "Snorlax",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pulverizing_Pancake_(move)",
+        "https://en.wikipedia.org/wiki/Snorlax"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "id_existente": "mew",
+        "nome": "Mew",
+        "descricao": "Pokémon mítico do tipo Psíquico da primeira geração, que traz o material genético de todos os pokémon.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mew_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Genesis Supernova, Movimento Z que enche o campo de energia psíquica, é exclusivo de qual pokémon mítico?",
+      "resposta": "Mew",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Genesis_Supernova_(move)",
+        "https://en.wikipedia.org/wiki/Mew_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "raichu",
+        "nome": "Raichu",
+        "descricao": "Pokémon do tipo Elétrico da primeira geração, evolução de Pikachu, que tem uma forma de Alola dos tipos Elétrico e Psíquico.",
+        "variantes": [
+          "Raichu de Alola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Qual destes Movimentos Z exclusivos pertence ao Raichu de Alola, que surfa sobre a própria cauda?",
+      "resposta": "Stoked Sparksurfer",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Stoked_Sparksurfer_(move)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "distratores": [
+        "Catastropika",
+        "Splintered Stormshards",
+        "Sinister Arrow Raid"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "id_existente": "meowth",
+        "nome": "Meowth",
+        "descricao": "Pokémon gato do tipo Normal da primeira geração, com uma moeda na testa, que tem forma Gigantamax em Sword e Shield.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Meowth",
+          "https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, o Meowth Gigantamax ataca com G-Max Gold Rush, que confunde os adversários. O que mais esse golpe rende ao treinador?",
+      "resposta": "Dinheiro extra",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/G-Max_Gold_Rush_(move)",
+        "https://en.wikipedia.org/wiki/Meowth"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Eevee parceiro",
+        "descricao": "Eevee especial que acompanha o jogador em Pokémon Let's Go, Eevee!, que não evolui e aprende golpes exclusivos.",
+        "variantes": [
+          "Partner Eevee"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Partner_Eevee",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee!"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Let's Go, Eevee!, o Eevee parceiro aprende golpes exclusivos como Sizzly Slide, Bouncy Bubble e Buzzy Buzz. Que relação eles têm com as evoluções de Eevee?",
+      "resposta": "Têm o tipo de cada evolução",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Partner_Eevee",
+        "https://bulbapedia.bulbagarden.net/wiki/Sizzly_Slide_(move)"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "volt_tackle",
+        "nome": "Volt Tackle",
+        "descricao": "Golpe elétrico exclusivo da linha evolutiva de Pikachu, introduzido na terceira geração e famoso no anime com o Pikachu de Ash.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volt_Tackle_(move)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Volt Tackle, a investida elétrica exclusiva da linha de Pikachu, tem um preço para quem a usa. Qual é esse preço?",
+      "resposta": "O usuário também sofre dano",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Volt_Tackle_(move)",
+        "https://en.wikipedia.org/wiki/Pikachu"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "unown",
+        "nome": "Unown",
+        "descricao": "Pokémon psíquico da segunda geração em forma de letra, com uma forma para cada símbolo do alfabeto.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon",
+          "https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Unown, o pokémon em forma de letra, e Ditto, o que se transforma em outros, têm em comum na lista de golpes?",
+      "resposta": "Só aprendem um golpe",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hidden_Power_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Transform_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    }
+  ]
+}

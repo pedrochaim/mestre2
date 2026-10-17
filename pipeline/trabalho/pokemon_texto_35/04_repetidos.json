@@ -1,0 +1,135 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Sun e Moon, um Greninja especial tem a habilidade Battle Bond e muda de forma depois de derrotar um adversário. Essa forma leva o nome de qual treinador?",
+        "resposta": "Ash"
+      },
+      "existentes": [
+        {
+          "id": "q10248",
+          "pergunta": "No fim da série XY, o Greninja de Ash fica em Kalos, ao lado do lendário Zygarde. Por que ele se separa do treinador?",
+          "resposta": "Para destruir as raízes gigantes restantes"
+        },
+        {
+          "id": "q12654",
+          "pergunta": "Greninja, a evolução final do inicial de água de Kalos, junta ninja com grenouille. O que significa essa palavra francesa?",
+          "resposta": "Rã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O que a habilidade Protean, de Greninja, e a habilidade Libero, do coelho Cinderace, fazem com o pokémon logo antes de ele atacar?",
+        "resposta": "Mudam seu tipo para o do golpe"
+      },
+      "existentes": [
+        {
+          "id": "q12562",
+          "pergunta": "No golpe exclusivo Pyro Ball, Cinderace, o coelho artilheiro de Galar, incendeia um objeto e o lança como uma bola de fogo. Que objeto é esse?",
+          "resposta": "Uma pequena pedra"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Graças à habilidade exclusiva Disguise, Mimikyu evita o dano da primeira pancada que leva numa batalha. O que se estraga no lugar dele?",
+        "resposta": "O pano que imita Pikachu"
+      },
+      "existentes": [
+        {
+          "id": "q11068",
+          "pergunta": "Segundo a Pokédex, por que o solitário Mimikyu se esconde debaixo de um pano velho que imita Pikachu?",
+          "resposta": "Para fazer amizade com as pessoas"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A ave Oricorio tem a habilidade Dancer. Como ela reage quando outro pokémon, aliado ou adversário, usa um golpe de dança na batalha?",
+        "resposta": "Copia a dança na hora"
+      },
+      "existentes": [
+        {
+          "id": "q12627",
+          "pergunta": "Oricorio, a ave dançarina de Alola, muda de estilo conforme o néctar que bebe. Qual dos seus estilos dança o hula havaiano?",
+          "resposta": "Pa'u"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Apesar da pose de guerreiro, Golisopod tem a habilidade Emergency Exit. O que ela o faz fazer quando sua vida cai abaixo da metade?",
+        "resposta": "Sai de campo"
+      },
+      "existentes": [
+        {
+          "id": "q12659",
+          "pergunta": "Qual pokémon de Alola, um crustáceo guerreiro de garras enormes, tem o nome inspirado no gigante bíblico Golias?",
+          "resposta": "Golisopod"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Por causa da habilidade exclusiva Slow Start, o colosso Regigigas começa cada batalha lento e enfraquecido. Por quantos turnos dura esse começo arrastado?",
+        "resposta": "Cinco turnos"
+      },
+      "existentes": [
+        {
+          "id": "q11209",
+          "pergunta": "Em Diamond e Pearl, o colosso Regigigas dorme no Templo de Snowpoint e só desperta se o jogador levar na equipe quais três pokémon?",
+          "resposta": "Regirock, Regice e Registeel"
+        },
+        {
+          "id": "q12536",
+          "pergunta": "Com Crush Grip, seu golpe exclusivo, Regigigas esmaga o alvo com as mãos gigantes. Em que situação esse aperto fica mais forte?",
+          "resposta": "Quanto mais vida o alvo tiver"
+        },
+        {
+          "id": "q12672",
+          "pergunta": "Uma lenda antiga conta que o colosso Regigigas, o mestre de Regirock, Regice e Registeel, arrastou algo gigantesco amarrado com cordas. O quê?",
+          "resposta": "Os continentes"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Forma Ash-Greninja de Battle Bond é fato distinto do destino do Greninja ou do significado de grenouille."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Habilidade Protean/Libero difere do golpe Pyro Ball."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Mecânica de Disguise difere do motivo na Pokédex."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Habilidade Dancer difere do estilo hula."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Emergency Exit difere da origem do nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Duração de Slow Start é fato diferente dos existentes."
+    }
+  ]
+}

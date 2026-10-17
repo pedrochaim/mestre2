@@ -1,0 +1,982 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Squirtle",
+        "descricao": "Pokémon tartaruga do tipo Água da primeira geração, inicial de Kanto, que evolui para Wartortle e Blastoise.",
+        "variantes": [
+          "Zenigame"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "squirtle",
+          "nome": "Squirtle",
+          "descricao": "Pokémon do tipo Água, número 7 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "skate",
+          "nome": "Skate",
+          "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+          "variantes": [
+            "Skateboarding",
+            "Esqueite"
+          ]
+        },
+        {
+          "id": "squirtle_de_ash",
+          "nome": "Squirtle de Ash",
+          "descricao": "Squirtle que pertence a Ash Ketchum no anime Pokémon, antigo líder do Esquadrão Squirtle.",
+          "variantes": [
+            "Ash's Squirtle"
+          ]
+        },
+        {
+          "id": "maquina_enigma",
+          "nome": "Máquina Enigma",
+          "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+          "variantes": [
+            "Enigma"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Entei",
+        "descricao": "Pokémon lendário do tipo Fogo da segunda geração, uma das três feras lendárias de Johto ressuscitadas por Ho-Oh.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "entei",
+          "nome": "Entei",
+          "descricao": "Pokémon do tipo Fogo, número 244 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "dente_molar",
+          "nome": "Dente molar",
+          "descricao": "Dente posterior humano com coroa larga de várias cúspides e duas ou mais raízes, usado para triturar alimentos.",
+          "variantes": [
+            "Dente",
+            "Molar"
+          ]
+        },
+        {
+          "id": "dente_humano",
+          "nome": "Dente humano",
+          "descricao": "Estrutura dura da boca humana, formada por esmalte, dentina e polpa, usada para cortar e mastigar.",
+          "variantes": [
+            "Dente"
+          ]
+        },
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sharpedo",
+        "descricao": "Pokémon tubarão dos tipos Água e Sombrio da terceira geração, evolução de Carvanha.",
+        "variantes": [
+          "Samehader"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sharpedo",
+          "nome": "Sharpedo",
+          "descricao": "Pokémon tubarão dos tipos Água e Sombrio da terceira geração, número 319 da Pokédex Nacional.",
+          "variantes": [
+            "Sharpedo (Pokémon)"
+          ]
+        },
+        {
+          "id": "speedo",
+          "nome": "Speedo",
+          "descricao": "Marca de roupas de banho e natação fundada em Sydney",
+          "variantes": []
+        },
+        {
+          "id": "chandelure",
+          "nome": "Chandelure",
+          "descricao": "Pokémon dos tipos Fantasma e Fogo, número 609 da Pokédex Nacional.",
+          "variantes": [
+            "Shandera"
+          ]
+        },
+        {
+          "id": "musculo_estapedio",
+          "nome": "Músculo estapédio",
+          "descricao": "Músculo do ouvido médio, preso ao estribo, que amortece vibrações de sons muito fortes.",
+          "variantes": [
+            "Estapédio",
+            "Músculo do estribo",
+            "Stapedius"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Camerupt",
+        "descricao": "Pokémon dos tipos Fogo e Terrestre da terceira geração, com dois vulcões nas costas, evolução de Numel.",
+        "variantes": [
+          "Bakuuda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camerupt",
+          "nome": "Camerupt",
+          "descricao": "Pokémon dos tipos Fogo e Terrestre, número 323 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        },
+        {
+          "id": "buda",
+          "nome": "Buda",
+          "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo.",
+          "variantes": [
+            "Sidarta Gautama",
+            "Siddhartha Gautama",
+            "Buddha",
+            "Gautama Buda",
+            "Buda Gautama",
+            "Buda Shakyamuni"
+          ]
+        },
+        {
+          "id": "baku",
+          "nome": "Baku",
+          "descricao": "Capital e maior cidade do Azerbaijão, na península de Absheron.",
+          "variantes": [
+            "Bacu",
+            "Baki"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Wynaut",
+        "descricao": "Pokémon bebê do tipo Psíquico da terceira geração, forma anterior de Wobbuffet.",
+        "variantes": [
+          "Sohnano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wynaut",
+          "nome": "Wynaut",
+          "descricao": "Pokémon do tipo Psíquico, número 360 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "wobbuffet",
+          "nome": "Wobbuffet",
+          "descricao": "Pokémon do tipo Psíquico, número 202 da Pokédex Nacional.",
+          "variantes": [
+            "Sonans",
+            "Sōnansu"
+          ]
+        },
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        },
+        {
+          "id": "yakult",
+          "nome": "Yakult",
+          "descricao": "Leite fermentado criado no Japão pelo médico Minoru Shirota em 1935.",
+          "variantes": []
+        },
+        {
+          "id": "naruto_uzumaki",
+          "nome": "Naruto Uzumaki",
+          "descricao": "Protagonista do mangá e anime Naruto, ninja de Konoha com o Nove Caudas selado nele.",
+          "variantes": [
+            "Uzumaki Naruto",
+            "Naruto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mamoswine",
+        "descricao": "Pokémon peludo dos tipos Gelo e Terrestre da quarta geração, evolução de Piloswine.",
+        "variantes": [
+          "Manmoo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamoswine",
+          "nome": "Mamoswine",
+          "descricao": "Pokémon dos tipos Gelo e Terrestre, número 473 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        },
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        },
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        },
+        {
+          "id": "isoroku_yamamoto",
+          "nome": "Isoroku Yamamoto",
+          "descricao": "Almirante da Marinha Imperial Japonesa, comandante da Frota Combinada, morto em 1943.",
+          "variantes": [
+            "Yamamoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Empoleon",
+        "descricao": "Pokémon pinguim dos tipos Água e Aço da quarta geração, evolução final de Piplup, inicial de Sinnoh.",
+        "variantes": [
+          "Emperte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "empoleon",
+          "nome": "Empoleon",
+          "descricao": "Pokémon dos tipos Água e Aço, número 395 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        },
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Purrloin",
+        "descricao": "Pokémon gato do tipo Sombrio da quinta geração, que evolui para Liepard.",
+        "variantes": [
+          "Choroneko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "purrloin",
+          "nome": "Purrloin",
+          "descricao": "Pokémon do tipo Sombrio, número 509 da Pokédex Nacional, gato travesso que evolui para Liepard.",
+          "variantes": []
+        },
+        {
+          "id": "jigglypuff",
+          "nome": "Jigglypuff",
+          "descricao": "Pokémon dos tipos Normal e Fada, número 39 da Pokédex Nacional.",
+          "variantes": [
+            "Purin"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "curling",
+          "nome": "Curling",
+          "descricao": "Esporte de inverno em que se desliza uma pedra de granito no gelo até um alvo.",
+          "variantes": []
+        },
+        {
+          "id": "borneu",
+          "nome": "Bornéu",
+          "descricao": "Grande ilha do Sudeste Asiático, a terceira maior do mundo.",
+          "variantes": [
+            "Borneo",
+            "Kalimantan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Zweilous",
+        "descricao": "Pokémon dragão de duas cabeças dos tipos Sombrio e Dragão da quinta geração, evolução de Deino e forma anterior de Hydreigon.",
+        "variantes": [
+          "Dihead"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "zweilous",
+          "nome": "Zweilous",
+          "descricao": "Pokémon dos tipos Sombrio e Dragão, número 634 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "radiohead",
+          "nome": "Radiohead",
+          "descricao": "Banda britânica de rock alternativo formada em Abingdon, liderada por Thom Yorke",
+          "variantes": []
+        },
+        {
+          "id": "dia_d",
+          "nome": "Dia D",
+          "descricao": "Desembarque aliado na Normandia, na França, em 6 de junho de 1944.",
+          "variantes": [
+            "Desembarque na Normandia",
+            "D-Day",
+            "Operação Netuno"
+          ]
+        },
+        {
+          "id": "iron_head",
+          "nome": "Iron Head",
+          "descricao": "Golpe de pokémon do tipo Aço, da 4ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "rayssa_leal",
+          "nome": "Rayssa Leal",
+          "descricao": "Skatista brasileira, medalhista olímpica no skate street, conhecida como Fadinha.",
+          "variantes": [
+            "Fadinha",
+            "Rayssa Leal Mendes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Flabébé",
+        "descricao": "Pokémon do tipo Fada da sexta geração, uma fadinha minúscula que segura uma flor, forma inicial de Floette e Florges.",
+        "variantes": [
+          "Flabebe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flabebe",
+          "nome": "Flabébé",
+          "descricao": "Pokémon do tipo Fada, número 669 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "bebeto",
+          "nome": "Bebeto",
+          "descricao": "José Roberto Gama de Oliveira, atacante brasileiro campeão mundial em 1994, parceiro de ataque de Romário.",
+          "variantes": [
+            "José Roberto Gama de Oliveira"
+          ]
+        },
+        {
+          "id": "forca_expedicionaria_brasileira",
+          "nome": "Força Expedicionária Brasileira",
+          "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+          "variantes": [
+            "FEB",
+            "Brazilian Expeditionary Force",
+            "Pracinhas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bruxish",
+        "descricao": "Pokémon peixe dos tipos Água e Psíquico da sétima geração, de dentes à mostra e cores vivas, da região de Alola.",
+        "variantes": [
+          "Hagigishiri"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bruxish",
+          "nome": "Bruxish",
+          "descricao": "Pokémon dos tipos Água e Psíquico, número 779 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "rush",
+          "nome": "Rush",
+          "descricao": "Filme de 2013 sobre a rivalidade entre Niki Lauda e James Hunt na temporada de 1976 da Fórmula 1.",
+          "variantes": [
+            "Rush: No Limite da Emoção"
+          ]
+        },
+        {
+          "id": "haggis",
+          "nome": "Haggis",
+          "descricao": "Prato tradicional escocês feito com miúdos de ovelha, aveia e temperos, servido com purê de nabo e batata.",
+          "variantes": []
+        },
+        {
+          "id": "chiaki_ishii",
+          "nome": "Chiaki Ishii",
+          "descricao": "Judoca nascido no Japão e naturalizado brasileiro, primeiro medalhista olímpico do judô do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "bruninho",
+          "nome": "Bruninho",
+          "descricao": "Levantador brasileiro de vôlei, campeão olímpico nos Jogos do Rio em 2016.",
+          "variantes": [
+            "Bruno Rezende",
+            "Bruno Mossa de Rezende"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Tsareena",
+        "descricao": "Pokémon do tipo Planta da sétima geração, de pernas longas e coroa de folhas, evolução final de Bounsweet.",
+        "variantes": [
+          "Amajo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tsareena",
+          "nome": "Tsareena",
+          "descricao": "Pokémon do tipo Planta, número 763 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "gamao",
+          "nome": "Gamão",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com dados e quinze peças cada, que andam por vinte e quatro casas triangulares.",
+          "variantes": [
+            "Backgammon"
+          ]
+        },
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        },
+        {
+          "id": "braixen",
+          "nome": "Braixen",
+          "descricao": "Pokémon fogo da sexta geração, número 654 da Pokédex Nacional, forma intermediária entre Fennekin e Delphox, que carrega um galho na cauda.",
+          "variantes": [
+            "Tairenar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Golisopod",
+        "descricao": "Pokémon crustáceo dos tipos Inseto e Água da sétima geração, evolução de Wimpod.",
+        "variantes": [
+          "Gusokumusha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "golisopod",
+          "nome": "Golisopod",
+          "descricao": "Pokémon dos tipos Inseto e Água, número 768 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "isopor",
+          "nome": "Isopor",
+          "descricao": "Poliestireno expandido, espuma plástica leve usada em embalagens e isolamento térmico.",
+          "variantes": [
+            "Poliestireno expandido",
+            "EPS"
+          ]
+        },
+        {
+          "id": "giroscopio",
+          "nome": "Giroscópio",
+          "descricao": "Dispositivo com disco giratório que mantém a orientação do eixo, usado para medir ou manter orientação.",
+          "variantes": [
+            "Gyroscope"
+          ]
+        },
+        {
+          "id": "gliscor",
+          "nome": "Gliscor",
+          "descricao": "Pokémon dos tipos Terrestre e Voador, número 472 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Copperajah",
+        "descricao": "Pokémon elefante do tipo Aço da oitava geração, de pele cor de cobre, evolução de Cufant.",
+        "variantes": [
+          "Daioudou"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copperajah",
+          "nome": "Copperajah",
+          "descricao": "Pokémon do tipo Aço, número 879 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tony_tony_chopper",
+          "nome": "Tony Tony Chopper",
+          "descricao": "Rena médica do bando dos Chapéus de Palha, no mangá e anime One Piece.",
+          "variantes": [
+            "Chopper"
+          ]
+        },
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "opera",
+          "nome": "Ópera",
+          "descricao": "Gênero de teatro inteiramente cantado, com orquestra, surgido na Itália.",
+          "variantes": []
+        },
+        {
+          "id": "diplodoco",
+          "nome": "Diplodoco",
+          "descricao": "Gênero de dinossauro saurópode do Jurássico Superior da América do Norte, de pescoço e cauda muito longos.",
+          "variantes": [
+            "Diplodocus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Drednaw",
+        "descricao": "Pokémon tartaruga mordedora dos tipos Água e Pedra da oitava geração, evolução de Chewtle.",
+        "variantes": [
+          "Kajirigame"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "drednaw",
+          "nome": "Drednaw",
+          "descricao": "Pokémon dos tipos Água e Pedra, número 834 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "gargamel",
+          "nome": "Gargamel",
+          "descricao": "Mago vilão que persegue os Smurfs nos quadrinhos e desenhos de Peyo.",
+          "variantes": [
+            "Gargamel dos Smurfs"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "galaxia_de_andromeda",
+          "nome": "Galáxia de Andrômeda",
+          "descricao": "Galáxia espiral do Grupo Local, a cerca de dois milhões e meio de anos-luz da Terra.",
+          "variantes": [
+            "Andrômeda",
+            "M31",
+            "Andromeda Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Lechonk",
+        "descricao": "Pokémon porquinho do tipo Normal da nona geração, da região de Paldea, que evolui para Oinkologne.",
+        "variantes": [
+          "Grungy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lechonk",
+          "nome": "Lechonk",
+          "descricao": "Pokémon do tipo Normal da nona geração, um porquinho, número 915 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "rugbi",
+          "nome": "Rúgbi",
+          "descricao": "Esporte coletivo com bola oval, de origem inglesa.",
+          "variantes": [
+            "Rugby"
+          ]
+        },
+        {
+          "id": "leon",
+          "nome": "Leon",
+          "descricao": "Campeão da Liga Pokémon de Galar nos jogos Sword e Shield, adversário de Ash na final do Mundial no anime Jornadas Pokémon.",
+          "variantes": [
+            "Dande"
+          ]
+        },
+        {
+          "id": "gringo",
+          "nome": "Gringo",
+          "descricao": "Palavra usada no Brasil e na América Latina para designar estrangeiros",
+          "variantes": []
+        },
+        {
+          "id": "aquenaton",
+          "nome": "Aquenáton",
+          "descricao": "Faraó da 18ª dinastia do Egito, antes chamado Amenhotep IV, que instituiu o culto de Áton.",
+          "variantes": [
+            "Akhenaten",
+            "Amenhotep IV",
+            "Echnaton"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Scovillain",
+        "descricao": "Pokémon pimenta dos tipos Planta e Fogo da nona geração, evolução de Capsakid.",
+        "variantes": [
+          "Scovillain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scovillain",
+          "nome": "Scovillain",
+          "descricao": "Pokémon dos tipos Planta e Fogo, número 952 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "leotard",
+          "nome": "Leotard",
+          "descricao": "Malha inteiriça e justa usada em ginástica e balé, chamada collant no Brasil",
+          "variantes": [
+            "Collant",
+            "Malha de ginástica"
+          ]
+        },
+        {
+          "id": "escocia",
+          "nome": "Escócia",
+          "descricao": "País constituinte do Reino Unido, no norte da ilha da Grã-Bretanha, cuja capital é Edimburgo.",
+          "variantes": [
+            "Scotland"
+          ]
+        },
+        {
+          "id": "cilan",
+          "nome": "Cilan",
+          "descricao": "Líder de ginásio de Striaton e conhecedor pokémon, companheiro de viagem de Ash em Unova no anime.",
+          "variantes": [
+            "Dent"
+          ]
+        },
+        {
+          "id": "pancho_villa",
+          "nome": "Pancho Villa",
+          "descricao": "Revolucionário e líder guerrilheiro mexicano da Revolução Mexicana, nascido José Doroteo Arango.",
+          "variantes": [
+            "Francisco Villa",
+            "José Doroteo Arango Arámbula"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "squirtle",
+      "motivo": "Mesmo Pokémon Squirtle (não o Squirtle de Ash)."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "entei",
+      "motivo": "Mesmo Pokémon Entei."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "sharpedo",
+      "motivo": "Mesmo Pokémon Sharpedo."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "camerupt",
+      "motivo": "Mesmo Pokémon Camerupt."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "wynaut",
+      "motivo": "Mesmo Pokémon Wynaut."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "mamoswine",
+      "motivo": "Mesmo Pokémon Mamoswine."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "empoleon",
+      "motivo": "Mesmo Pokémon Empoleon."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "purrloin",
+      "motivo": "Mesmo Pokémon Purrloin."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "zweilous",
+      "motivo": "Mesmo Pokémon Zweilous."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "flabebe",
+      "motivo": "Mesmo Pokémon Flabébé."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "bruxish",
+      "motivo": "Mesmo Pokémon Bruxish."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "tsareena",
+      "motivo": "Mesmo Pokémon Tsareena."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "golisopod",
+      "motivo": "Mesmo Pokémon Golisopod."
+    },
+    {
+      "caso": 14,
+      "decisao": "mesma",
+      "id_existente": "copperajah",
+      "motivo": "Mesmo Pokémon Copperajah."
+    },
+    {
+      "caso": 15,
+      "decisao": "mesma",
+      "id_existente": "drednaw",
+      "motivo": "Mesmo Pokémon Drednaw."
+    },
+    {
+      "caso": 16,
+      "decisao": "mesma",
+      "id_existente": "lechonk",
+      "motivo": "Mesmo Pokémon Lechonk."
+    },
+    {
+      "caso": 17,
+      "decisao": "mesma",
+      "id_existente": "scovillain",
+      "motivo": "Mesmo Pokémon Scovillain."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No começo de uma partida do card game Pokémon, depois de embaralhar, cada jogador compra quantas cartas para formar a mão inicial?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q09810",
+          "pergunta": "Até 2003, o card game Pokémon foi publicado no Ocidente pela mesma empresa que criou Magic. Que empresa é essa?",
+          "resposta": "Wizards of the Coast"
+        },
+        {
+          "id": "q09822",
+          "pergunta": "O card game de Pokémon, com suas cartas colecionáveis, chegou às lojas do Japão em que ano?",
+          "resposta": "1996"
+        },
+        {
+          "id": "q11368",
+          "pergunta": "Numa partida padrão do card game Pokémon, cada jogador separa cartas de prêmio e vence quem pegar todas. Quantas cartas de prêmio são?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No card game, o baralho mistura três grandes tipos de carta. Além de Pokémon e Energia, qual é o terceiro, que inclui Itens, Apoiadores e Estádios?",
+        "resposta": "Treinador (Trainer)"
+      },
+      "existentes": [
+        {
+          "id": "q09810",
+          "pergunta": "Até 2003, o card game Pokémon foi publicado no Ocidente pela mesma empresa que criou Magic. Que empresa é essa?",
+          "resposta": "Wizards of the Coast"
+        },
+        {
+          "id": "q09822",
+          "pergunta": "O card game de Pokémon, com suas cartas colecionáveis, chegou às lojas do Japão em que ano?",
+          "resposta": "1996"
+        },
+        {
+          "id": "q11368",
+          "pergunta": "Numa partida padrão do card game Pokémon, cada jogador separa cartas de prêmio e vence quem pegar todas. Quantas cartas de prêmio são?",
+          "resposta": "Seis"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A carta Pikachu Illustrator, prêmio de um concurso de ilustração da revista CoroCoro, traz um Pikachu desenhado por qual ilustradora japonesa?",
+        "resposta": "Atsuko Nishida"
+      },
+      "existentes": [
+        {
+          "id": "q11397",
+          "pergunta": "A carta Pikachu Illustrator, uma das mais caras do mundo, nunca foi vendida em pacotes. Por que existem tão poucos exemplares dela?",
+          "resposta": "Era prêmio de concurso de ilustração"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O Campeonato Mundial de Pokémon, que no começo reunia só jogadores do card game, foi disputado pela primeira vez em que ano?",
+        "resposta": "2004"
+      },
+      "existentes": [
+        {
+          "id": "q11390",
+          "pergunta": "Em 2023, o Campeonato Mundial de Pokémon foi disputado no Japão, terra natal da franquia. Em que cidade japonesa?",
+          "resposta": "Yokohama"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No Campeonato Mundial de Pokémon, os jogadores se dividem por idade em Júnior, Sênior e qual outra categoria, a dos mais velhos?",
+        "resposta": "Masters"
+      },
+      "existentes": [
+        {
+          "id": "q11390",
+          "pergunta": "Em 2023, o Campeonato Mundial de Pokémon foi disputado no Japão, terra natal da franquia. Em que cidade japonesa?",
+          "resposta": "Yokohama"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cartas da mão inicial é fato diferente das cartas de prêmio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tipos de carta não aparecem nas existentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ilustradora da carta é fato diferente do motivo da raridade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Primeiro ano do campeonato difere da cidade de 2023."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Categorias de idade são fato diferente da cidade sede em 2023."
+    }
+  ]
+}

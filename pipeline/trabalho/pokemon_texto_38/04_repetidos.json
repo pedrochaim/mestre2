@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A série Sol e Lua, em que Ash se muda para Alola e vai estudar numa escola pokémon, estreou na televisão japonesa em que ano?",
+        "resposta": "2016"
+      },
+      "existentes": [
+        {
+          "id": "q10259",
+          "pergunta": "Depois de mais de vinte anos de anime, Ash finalmente vence a liga de uma região dos jogos, a de Alola. Em que ano esse episódio passou no Japão?",
+          "resposta": "2019"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No fim da série de Kalos, Serena se despede de Ash para seguir a carreira de artista em outra região. Para qual região ela parte?",
+        "resposta": "Hoenn"
+      },
+      "existentes": [
+        {
+          "id": "q09975",
+          "pergunta": "Em Pokémon XY, Serena reencontra Ash, que ela conheceu quando criança. Onde os dois se viram pela primeira vez?",
+          "resposta": "No acampamento do Professor Carvalho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Um pergunta o ano de estreia da série Sol e Lua (2016); o outro, o ano em que Ash venceu a liga de Alola (2019). São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Um pergunta para qual região Serena parte no fim da série; o outro, onde ela viu Ash pela primeira vez. São fatos diferentes."
+    }
+  ]
+}

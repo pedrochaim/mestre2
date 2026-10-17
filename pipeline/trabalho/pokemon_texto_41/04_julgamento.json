@@ -1,0 +1,908 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Red (Pokémon Adventures)",
+        "descricao": "Protagonista do primeiro arco do mangá Pokémon Adventures, treinador de Pallet que enfrenta a Equipe Rocket em Kanto.",
+        "variantes": [
+          "Red (Adventures)",
+          "Red (Pokémon Special)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "white_pokemon_adventures",
+          "nome": "White (Pokémon Adventures)",
+          "descricao": "Protagonista do arco de Black e White do mangá Pokémon Adventures, ao lado de Black.",
+          "variantes": [
+            "White"
+          ]
+        },
+        {
+          "id": "platinum_pokemon_adventures",
+          "nome": "Platinum (Pokémon Adventures)",
+          "descricao": "Platinum Berlitz, moça rica que protagoniza o arco de Diamond e Pearl do mangá Pokémon Adventures ao lado de Diamond e Pearl.",
+          "variantes": [
+            "Platinum Berlitz",
+            "Lady"
+          ]
+        },
+        {
+          "id": "musical_pokemon",
+          "nome": "Musical Pokémon",
+          "descricao": "Atração de Pokémon Black e White em que o jogador enfeita seus pokémon com acessórios para se apresentarem num palco.",
+          "variantes": [
+            "Pokémon Musical"
+          ]
+        },
+        {
+          "id": "pokemon_pinball",
+          "nome": "Pokémon Pinball",
+          "descricao": "Jogo de fliperama virtual com pokémon, lançado em 1999 para o Game Boy Color, em que a bolinha é uma Poké Bola.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Yellow (Pokémon Adventures)",
+        "descricao": "Protagonista do segundo arco do mangá Pokémon Adventures, vinda da Floresta de Viridian, capaz de curar pokémon e ler seus pensamentos.",
+        "variantes": [
+          "Yellow (Adventures)",
+          "Yellow de Caballero"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "white_pokemon_adventures",
+          "nome": "White (Pokémon Adventures)",
+          "descricao": "Protagonista do arco de Black e White do mangá Pokémon Adventures, ao lado de Black.",
+          "variantes": [
+            "White"
+          ]
+        },
+        {
+          "id": "platinum_pokemon_adventures",
+          "nome": "Platinum (Pokémon Adventures)",
+          "descricao": "Platinum Berlitz, moça rica que protagoniza o arco de Diamond e Pearl do mangá Pokémon Adventures ao lado de Diamond e Pearl.",
+          "variantes": [
+            "Platinum Berlitz",
+            "Lady"
+          ]
+        },
+        {
+          "id": "febre_amarela",
+          "nome": "Febre amarela",
+          "descricao": "Doença viral transmitida por mosquitos, que causa icterícia e hemorragias.",
+          "variantes": [
+            "Yellow fever"
+          ]
+        },
+        {
+          "id": "rio_amarelo",
+          "nome": "Rio Amarelo",
+          "descricao": "Segundo rio mais longo da China, que corre pelo norte do país até o mar de Bohai.",
+          "variantes": [
+            "Huang He",
+            "Hwang Ho",
+            "Yellow River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gold (Pokémon Adventures)",
+        "descricao": "Protagonista esquentado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, criado em New Bark, em Johto.",
+        "variantes": [
+          "Gold (Adventures)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "white_pokemon_adventures",
+          "nome": "White (Pokémon Adventures)",
+          "descricao": "Protagonista do arco de Black e White do mangá Pokémon Adventures, ao lado de Black.",
+          "variantes": [
+            "White"
+          ]
+        },
+        {
+          "id": "platinum_pokemon_adventures",
+          "nome": "Platinum (Pokémon Adventures)",
+          "descricao": "Platinum Berlitz, moça rica que protagoniza o arco de Diamond e Pearl do mangá Pokémon Adventures ao lado de Diamond e Pearl.",
+          "variantes": [
+            "Platinum Berlitz",
+            "Lady"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias",
+            "Pokémon Heroes: Latios and Latias"
+          ]
+        },
+        {
+          "id": "pokemon_center_loja",
+          "nome": "Pokémon Center (loja)",
+          "descricao": "Rede de lojas oficiais dedicadas só a produtos da franquia Pokémon, aberta primeiro em Tóquio.",
+          "variantes": [
+            "Pokémon Center",
+            "Pokémon Center Store"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Homem Mascarado (Pokémon Adventures)",
+        "descricao": "Vilão mascarado do arco de Gold, Silver e Crystal do mangá Pokémon Adventures, que sequestra crianças e rouba pokémon em Johto.",
+        "variantes": [
+          "Masked Man",
+          "Mascarado de Gelo",
+          "Kamen no Otoko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mascarado_de_ferro",
+          "nome": "Mascarado de Ferro",
+          "descricao": "Vilão do quarto filme da franquia Pokémon, um agente da Equipe Rocket de máscara de ferro que caça Celebi.",
+          "variantes": [
+            "Iron-Masked Marauder",
+            "Vicious"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        },
+        {
+          "id": "mascara_de_medico_da_peste",
+          "nome": "Máscara de médico da peste",
+          "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste.",
+          "variantes": [
+            "Medico della peste",
+            "Máscara de bico"
+          ]
+        },
+        {
+          "id": "o_mar_de_gelo",
+          "nome": "O Mar de Gelo",
+          "descricao": "Pintura a óleo de Caspar David Friedrich de 1823-1824 que mostra um navio naufragado entre blocos de gelo no Ártico.",
+          "variantes": [
+            "Das Eismeer",
+            "The Sea of Ice",
+            "O Naufrágio da Esperança",
+            "O Mar Glacial"
+          ]
+        },
+        {
+          "id": "royal_mascarado",
+          "nome": "Royal Mascarado",
+          "descricao": "Lutador mascarado de batalhas reais da série Sol e Lua do anime Pokémon, parceiro de um Incineroar, identidade secreta de um personagem de Alola.",
+          "variantes": [
+            "Masked Royal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sapphire (Pokémon Adventures)",
+        "descricao": "Protagonista selvagem do arco de Ruby e Sapphire do mangá Pokémon Adventures, criada na natureza de Hoenn.",
+        "variantes": [
+          "Sapphire (Adventures)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "white_pokemon_adventures",
+          "nome": "White (Pokémon Adventures)",
+          "descricao": "Protagonista do arco de Black e White do mangá Pokémon Adventures, ao lado de Black.",
+          "variantes": [
+            "White"
+          ]
+        },
+        {
+          "id": "pokemon_adventures",
+          "nome": "Pokémon Adventures",
+          "descricao": "Mangá japonês baseado nos jogos Pokémon, publicado desde 1997, com protagonistas que levam os nomes das versões dos jogos, como Red e Blue.",
+          "variantes": [
+            "Pocket Monsters Special",
+            "Pokémon Special"
+          ]
+        },
+        {
+          "id": "platinum_pokemon_adventures",
+          "nome": "Platinum (Pokémon Adventures)",
+          "descricao": "Platinum Berlitz, moça rica que protagoniza o arco de Diamond e Pearl do mangá Pokémon Adventures ao lado de Diamond e Pearl.",
+          "variantes": [
+            "Platinum Berlitz",
+            "Lady"
+          ]
+        },
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "tiradentes_2",
+          "nome": "Tiradentes",
+          "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+          "variantes": [
+            "São José del Rei"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pocket Monsters (mangá)",
+        "descricao": "Mangá de humor publicado na revista CoroCoro Comic a partir de 1996, em que Red viaja com um Pikachu e um Clefairy falante.",
+        "variantes": [
+          "Pokémon (mangá de Anakubo)",
+          "Pocket Monsters de Kosaku Anakubo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon",
+          "nome": "Pokémon",
+          "descricao": "Franquia japonesa de jogos, anime e cartas criada por Satoshi Tajiri e lançada em 1996.",
+          "variantes": [
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_xy_anime",
+          "nome": "Pokémon XY (anime)",
+          "descricao": "Série do anime Pokémon em que Ash viaja pela região de Kalos com Serena, Clemont e Bonnie, exibida no Japão a partir de 2013.",
+          "variantes": [
+            "Pokémon the Series: XY",
+            "Pocket Monsters XY",
+            "Pokémon XY"
+          ]
+        },
+        {
+          "id": "pokemon_sol_e_lua_anime",
+          "nome": "Pokémon Sol e Lua (anime)",
+          "descricao": "Série do anime Pokémon em que Ash estuda numa escola da região de Alola e vence a Liga de Alola.",
+          "variantes": [
+            "Pokémon the Series: Sun & Moon",
+            "Pokémon Sun & Moon",
+            "Pocket Monsters Sun & Moon"
+          ]
+        },
+        {
+          "id": "pokemon_xyz_anime",
+          "nome": "Pokémon XYZ (anime)",
+          "descricao": "Terceira e última temporada da série de Kalos do anime Pokémon, em que Ash disputa a Liga de Kalos.",
+          "variantes": [
+            "Pokémon the Series: XYZ",
+            "Pocket Monsters XY&Z"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "The Electric Tale of Pikachu",
+        "descricao": "Mangá que reconta de forma livre o início do anime Pokémon, com Ash, Misty e Brock, publicado no fim dos anos noventa.",
+        "variantes": [
+          "Dengeki Pikachu",
+          "Electric Tale of Pikachu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "detetive_pikachu_filme",
+          "nome": "Detetive Pikachu (filme)",
+          "descricao": "Filme de 2019 baseado na franquia Pokémon, em que um Pikachu falante investiga um mistério.",
+          "variantes": [
+            "Pokémon: Detetive Pikachu",
+            "Detective Pikachu",
+            "Pokémon Detective Pikachu"
+          ]
+        },
+        {
+          "id": "detetive_pikachu_jogo",
+          "nome": "Detetive Pikachu (jogo)",
+          "descricao": "Jogo de aventura e investigação para Nintendo 3DS, lançado no Japão em 2016 e no Ocidente em 2018, que inspirou o filme de 2019.",
+          "variantes": [
+            "Detective Pikachu",
+            "Meitantei Pikachu"
+          ]
+        },
+        {
+          "id": "pikachu_s_goodbye_episodio",
+          "nome": "Pikachu's Goodbye (episódio)",
+          "descricao": "Episódio da primeira temporada do anime Pokémon em que Ash pensa em deixar Pikachu numa floresta com um bando de Pikachu selvagens.",
+          "variantes": [
+            "Adeus, Pikachu",
+            "Episódio 39 de Pokémon"
+          ]
+        },
+        {
+          "id": "pokemon_let_s_go_pikachu_e_let_s_go_eevee",
+          "nome": "Pokémon Let's Go, Pikachu! e Let's Go, Eevee!",
+          "descricao": "Par de jogos da série principal Pokémon para o Nintendo Switch, recriações de Pokémon Yellow ambientadas em Kanto.",
+          "variantes": [
+            "Pokémon Let's Go",
+            "Let's Go, Pikachu!",
+            "Let's Go, Eevee!"
+          ]
+        },
+        {
+          "id": "pocket_pikachu",
+          "nome": "Pocket Pikachu",
+          "descricao": "Bichinho virtual com contador de passos lançado pela Nintendo em 1998, em que o dono cuida de um Pikachu.",
+          "variantes": [
+            "Pokémon Pikachu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pokémon Generations",
+        "descricao": "Série de episódios curtos lançada no YouTube que revisita momentos marcantes dos jogos das seis primeiras regiões Pokémon.",
+        "variantes": [
+          "Pokémon Generations (série)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_scent_sation_episodio",
+          "nome": "Pokémon Scent-sation! (episódio)",
+          "descricao": "Episódio da primeira temporada do anime Pokémon em que Ash disputa a insígnia de Erika, no ginásio de Celadon.",
+          "variantes": [
+            "Pokémon Scent-sation!",
+            "EP026"
+          ]
+        },
+        {
+          "id": "pokemon_anime",
+          "nome": "Pokémon (anime)",
+          "descricao": "Série de animação japonesa baseada na franquia Pokémon, protagonizada por Ash e Pikachu até 2023.",
+          "variantes": [
+            "Pokémon: a série",
+            "Pocket Monsters (anime)",
+            "Pocket Monsters"
+          ]
+        },
+        {
+          "id": "pokemon_horizontes",
+          "nome": "Pokémon Horizontes",
+          "descricao": "Série do anime Pokémon iniciada em 2023, a primeira série principal sem Ash e seu Pikachu como protagonistas.",
+          "variantes": [
+            "Pokémon Horizons: The Series",
+            "Pokémon Horizons"
+          ]
+        },
+        {
+          "id": "geracao_espontanea",
+          "nome": "Geração espontânea",
+          "descricao": "Antiga teoria de que seres vivos surgiriam espontaneamente da matéria sem vida.",
+          "variantes": [
+            "Abiogênese (teoria antiga)",
+            "Spontaneous generation"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias",
+            "Pokémon Heroes: Latios and Latias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Pokémon: Twilight Wings",
+        "descricao": "Série curta de animação lançada no YouTube, ambientada na região de Galar dos jogos Sword e Shield.",
+        "variantes": [
+          "Twilight Wings",
+          "Hakumei no Tsubasa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_origins",
+          "nome": "Pokémon Origins",
+          "descricao": "Minissérie de anime de 2013 que adapta a jornada de Red nos jogos Pokémon Red e Green, em vez de seguir Ash.",
+          "variantes": [
+            "Pokémon The Origin",
+            "Pocket Monsters: The Origin"
+          ]
+        },
+        {
+          "id": "pokemon_tita",
+          "nome": "Pokémon Titã",
+          "descricao": "Pokémon gigantes de Pokémon Scarlet e Violet, enfrentados pelo jogador com Arven na história do Caminho das Lendas.",
+          "variantes": [
+            "Titan Pokémon",
+            "Pokémon Titãs"
+          ]
+        },
+        {
+          "id": "super_campeoes",
+          "nome": "Super Campeões",
+          "descricao": "Mangá e anime de futebol de Yoichi Takahashi, protagonizado por Tsubasa Ozora.",
+          "variantes": [
+            "Captain Tsubasa",
+            "Capitão Tsubasa"
+          ]
+        },
+        {
+          "id": "pokemon_preto_e_branco_anime",
+          "nome": "Pokémon Preto e Branco (anime)",
+          "descricao": "Série do anime Pokémon em que Ash viaja pela região de Unova com Iris e Cilan.",
+          "variantes": [
+            "Pokémon Best Wishes",
+            "Pokémon the Series: Black & White",
+            "Pocket Monsters Best Wishes!"
+          ]
+        },
+        {
+          "id": "pokemon_let_s_go_pikachu_e_let_s_go_eevee",
+          "nome": "Pokémon Let's Go, Pikachu! e Let's Go, Eevee!",
+          "descricao": "Par de jogos da série principal Pokémon para o Nintendo Switch, recriações de Pokémon Yellow ambientadas em Kanto.",
+          "variantes": [
+            "Pokémon Let's Go",
+            "Let's Go, Pikachu!",
+            "Let's Go, Eevee!"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pokémon Evolutions",
+        "descricao": "Série curta de animação lançada no YouTube em 2021, com um episódio para cada região dos jogos, de Kanto a Galar.",
+        "variantes": [
+          "Evolutions"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_evolutiva",
+          "nome": "Pedra evolutiva",
+          "descricao": "Categoria de itens dos jogos Pokémon, como as pedras do Fogo, da Água e do Trovão, que fazem certos pokémon evoluir na hora.",
+          "variantes": [
+            "Evolution stone",
+            "Pedra de evolução"
+          ]
+        },
+        {
+          "id": "pokemon_horizontes",
+          "nome": "Pokémon Horizontes",
+          "descricao": "Série do anime Pokémon iniciada em 2023, a primeira série principal sem Ash e seu Pikachu como protagonistas.",
+          "variantes": [
+            "Pokémon Horizons: The Series",
+            "Pokémon Horizons"
+          ]
+        },
+        {
+          "id": "pokemon_herois",
+          "nome": "Pokémon Heróis",
+          "descricao": "Quinto filme da franquia Pokémon, de 2002, estrelado pelos lendários Latios e Latias.",
+          "variantes": [
+            "Pokémon Heroes",
+            "Pokémon Heróis: Latios e Latias",
+            "Pokémon Heroes: Latios and Latias"
+          ]
+        },
+        {
+          "id": "megaevolucao",
+          "nome": "Megaevolução",
+          "descricao": "Transformação temporária de certos pokémon em batalha, introduzida em Pokémon X e Y, ativada por uma Mega Pedra.",
+          "variantes": [
+            "Mega Evolution",
+            "Mega Evolução"
+          ]
+        },
+        {
+          "id": "das_revolucoes_das_esferas_celestes",
+          "nome": "Das revoluções das esferas celestes",
+          "descricao": "Livro de Nicolau Copérnico, publicado em 1543, que apresentou o modelo com o Sol no centro.",
+          "variantes": [
+            "De revolutionibus orbium coelestium",
+            "De revolutionibus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Pokémon: Hisuian Snow",
+        "descricao": "Minissérie curta de animação lançada no YouTube, ambientada na antiga região de Hisui do jogo Pokémon Legends: Arceus.",
+        "variantes": [
+          "Hisuian Snow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_sol_e_lua_anime",
+          "nome": "Pokémon Sol e Lua (anime)",
+          "descricao": "Série do anime Pokémon em que Ash estuda numa escola da região de Alola e vence a Liga de Alola.",
+          "variantes": [
+            "Pokémon the Series: Sun & Moon",
+            "Pokémon Sun & Moon",
+            "Pocket Monsters Sun & Moon"
+          ]
+        },
+        {
+          "id": "pokemon_sun_e_moon",
+          "nome": "Pokémon Sun e Moon",
+          "descricao": "Par de jogos Pokémon da sétima geração, para Nintendo 3DS, ambientado na região tropical de Alola.",
+          "variantes": [
+            "Pokémon Sun and Moon",
+            "Pokémon Sol e Lua"
+          ]
+        },
+        {
+          "id": "xuanzang",
+          "nome": "Xuanzang",
+          "descricao": "Monge budista chinês do século sete que viajou à Índia em busca de textos sagrados.",
+          "variantes": [
+            "Hsuan-tsang",
+            "Tripitaka"
+          ]
+        },
+        {
+          "id": "pokemon_brilhante",
+          "nome": "Pokémon brilhante",
+          "descricao": "Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores.",
+          "variantes": [
+            "Shiny",
+            "Pokémon shiny",
+            "Pokémon Cromático"
+          ]
+        },
+        {
+          "id": "hunter_j",
+          "nome": "Hunter J",
+          "descricao": "Caçadora de pokémon sem escrúpulos da série Diamante e Pérola do anime, que rouba pokémon para vendê-los a clientes.",
+          "variantes": [
+            "J",
+            "Pokémon Hunter J"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Irmãos Pichu",
+        "descricao": "Dupla de irmãos Pichu travessos que estreou no curta Pikachu & Pichu, exibido nos cinemas antes de Pokémon 3: O Filme.",
+        "variantes": [
+          "Pichu Brothers",
+          "Pikachu & Pichu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "machu_picchu",
+          "nome": "Machu Picchu",
+          "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+          "variantes": [
+            "Machu Pichu"
+          ]
+        },
+        {
+          "id": "irmaos_wright",
+          "nome": "Irmãos Wright",
+          "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903.",
+          "variantes": [
+            "Wright brothers",
+            "Orville e Wilbur Wright"
+          ]
+        },
+        {
+          "id": "hey_you_pikachu",
+          "nome": "Hey You, Pikachu!",
+          "descricao": "Jogo de 1998 para Nintendo 64 em que o jogador convive com um Pikachu e conversa com ele por comandos de voz.",
+          "variantes": [
+            "Pikachū Genki Dechū"
+          ]
+        },
+        {
+          "id": "big_brother",
+          "nome": "Big Brother",
+          "descricao": "Franquia internacional de reality show criada na Holanda em 1999, em que participantes confinados numa casa são filmados o tempo todo.",
+          "variantes": [
+            "Big Brother (franquia)"
+          ]
+        },
+        {
+          "id": "pikachu",
+          "nome": "Pikachu",
+          "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Pikachu's Rescue Adventure",
+        "descricao": "Curta de animação estrelado por Pikachu e outros pokémon numa selva, exibido nos cinemas junto com o segundo filme da franquia.",
+        "variantes": [
+          "Pikachu Tanken-tai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balao_de_pikachu_da_macy_s",
+          "nome": "Balão de Pikachu da Macy's",
+          "descricao": "Balão gigante de Pikachu que desfila no tradicional desfile de Ação de Graças da loja Macy's, em Nova York.",
+          "variantes": [
+            "Pikachu balloon",
+            "Balão do Pikachu no desfile da Macy's"
+          ]
+        },
+        {
+          "id": "cesta_de_pessego",
+          "nome": "Cesta de pêssego",
+          "descricao": "O cesto de frutas usado como alvo nos primeiros jogos de basquete, em 1891.",
+          "variantes": [
+            "Peach basket",
+            "Cesto original do basquete"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "The Legend of Thunder!",
+        "descricao": "Especial de TV do anime Pokémon, passado em Johto, protagonizado pelos treinadores Jimmy e Marina em vez de Ash.",
+        "variantes": [
+          "A Lenda do Trovão",
+          "Raikou: The Legend of Thunder"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_lenda_de_dratini_episodio",
+          "nome": "A Lenda de Dratini (episódio)",
+          "descricao": "Episódio da primeira temporada do anime Pokémon em que Ash procura um Dratini na Zona Safári, nunca exibido nos Estados Unidos.",
+          "variantes": [
+            "The Legend of Dratini",
+            "Episódio 35 de Pokémon"
+          ]
+        },
+        {
+          "id": "the_legend_of_zelda_jogo_de_1986",
+          "nome": "The Legend of Zelda (jogo de 1986)",
+          "descricao": "Primeiro jogo da série Zelda, da Nintendo, lançado em 1986, estrelado pelo herói Link.",
+          "variantes": [
+            "The Legend of Zelda",
+            "Zelda no Densetsu"
+          ]
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado"
+          ]
+        },
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "que_horas_ela_volta",
+          "nome": "Que Horas Ela Volta?",
+          "descricao": "Filme brasileiro de 2015 dirigido por Anna Muylaert, com Regina Casé como a babá Val.",
+          "variantes": [
+            "The Second Mother"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "GOTCHA! (clipe)",
+        "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+        "variantes": [
+          "GOTCHA!",
+          "Acacia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tacaca",
+          "nome": "Tacacá",
+          "descricao": "Caldo quente paraense servido em cuia, feito com tucupi, goma de mandioca, camarão seco e jambu",
+          "variantes": []
+        },
+        {
+          "id": "gotham_city",
+          "nome": "Gotham City",
+          "descricao": "Cidade fictícia onde se passam as histórias do Batman",
+          "variantes": [
+            "Gotham"
+          ]
+        },
+        {
+          "id": "acai_na_tigela",
+          "nome": "Açaí na tigela",
+          "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+          "variantes": [
+            "Açaí",
+            "Açaí bowl"
+          ]
+        },
+        {
+          "id": "gota",
+          "nome": "Gota",
+          "descricao": "Doença inflamatória das articulações causada por depósitos de cristais, conhecida como doença dos reis.",
+          "variantes": [
+            "Artrite gotosa"
+          ]
+        },
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem Red; candidatas são outros personagens ou a obra."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Personagem Yellow; nenhuma candidata é ela."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Personagem Gold; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Vilão do mangá, distinto do Mascarado de Ferro do filme."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Personagem Sapphire; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mangá de Anakubo, diferente do anime e da franquia."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Mangá distinto de todas as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Série do YouTube, sem candidata equivalente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Série curta distinta das candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Série curta distinta das candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Minissérie distinta das candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Personagens do curta, distintos de Pikachu e outros."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Curta sem candidata equivalente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Especial de TV distinto das candidatas."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Clipe sem candidata equivalente."
+    }
+  ]
+}

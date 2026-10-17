@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.71 — 2026-10-16**
+> **Versão preliminar 0.72 — 2026-10-17**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -967,6 +967,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.72 | 2026-10-17 | Modo Pokémon: sem o piso de equilíbrio entre os subtemas (o equilíbrio é o das casas temáticas, na programação dos lotes); nova família de dados "Qual é esse ataque?", um cartão com os dados do golpe, na casa Cartão de atributos (`pipeline/pokemon_golpes.py`); o esquema aceita como origem as tabelas de dados do PokéAPI; mais 1164 perguntas no modo (`modo_pokemon.md`) |
 | 0.71 | 2026-10-16 | Modo Pokémon: o dado vale só para quem recebeu a pergunta, e quem acerta depois que ela passa adiante anda uma casa; o marcador do dado mostra o nome de quem a recebeu (§15; `modo_pokemon.md`) |
 | 0.70 | 2026-10-16 | Modo Pokémon: um dado de 1 a 3, rolado com cada pergunta, diz quantas casas anda quem acertar; aparece no aparelho que sorteou e no modo mesa, e fica no registro do sorteio (§15, §16; `modo_pokemon.md`) |
 | 0.69 | 2026-10-16 | Modo Pokémon: tabuleiro com casas temáticas, que ditam o teor da pergunta, no lugar das casas sem tema, metade de figura e metade de texto, como a regra editorial do modo (pelo menos metade das perguntas com figura); tipo, região e evolução passam a ser silhuetas; o export grava a casa de cada pergunta da coleção (campo `casa` do app); detalhes em `modo_pokemon.md` (§15, §16) |

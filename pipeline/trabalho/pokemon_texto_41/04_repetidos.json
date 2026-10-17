@@ -1,0 +1,149 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Antes de Satoshi Yamamoto assumir os desenhos, quem ilustrou os primeiros volumes do mangá Pokémon Adventures?",
+        "resposta": "Mato"
+      },
+      "existentes": [
+        {
+          "id": "q10310",
+          "pergunta": "Quem escreve o mangá Pokémon Adventures, publicado desde 1997 e famoso por seguir de perto a história dos jogos?",
+          "resposta": "Hidenori Kusaka"
+        },
+        {
+          "id": "q10311",
+          "pergunta": "No Japão, o mangá Pokémon Adventures tem um título formado por Pocket Monsters e mais uma palavra em inglês. Que palavra é essa?",
+          "resposta": "Special"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No arco de Yellow do mangá Pokémon Adventures, que mestre dos dragões comanda a Elite dos Quatro num plano para livrar o mundo dos humanos?",
+        "resposta": "Lance"
+      },
+      "existentes": [
+        {
+          "id": "q11184",
+          "pergunta": "Em Gold e Silver, o campeão Lance ajuda o jogador a invadir um esconderijo secreto da Equipe Rocket. Em que cidade de Johto fica esse esconderijo?",
+          "resposta": "Mahogany"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Diferente do anime de Ash, a minissérie Pokémon Origins resume a jornada de Red em poucos episódios. Quantos episódios ela tem?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q11330",
+          "pergunta": "A minissérie Pokémon Origins, que conta a jornada de Red como nos primeiros jogos, e não a de Ash, foi exibida em que ano?",
+          "resposta": "2013"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No último episódio de Pokémon Origins, contra Mewtwo, o Charizard de Red assume qual forma, que acabava de estrear nos jogos X e Y?",
+        "resposta": "Mega Charizard X"
+      },
+      "existentes": [
+        {
+          "id": "q11330",
+          "pergunta": "A minissérie Pokémon Origins, que conta a jornada de Red como nos primeiros jogos, e não a de Ash, foi exibida em que ano?",
+          "resposta": "2013"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que estúdio japonês de stop-motion, criador do mascote Domo-kun, produziu a série Pokémon Concierge?",
+        "resposta": "Dwarf Studios"
+      },
+      "existentes": [
+        {
+          "id": "q11334",
+          "pergunta": "Pokémon Concierge, série de 2023 da Netflix sobre uma moça que trabalha num resort de pokémon, foi feita com qual técnica de animação?",
+          "resposta": "Stop-motion"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em Pokémon Concierge, Haru começa a trabalhar num resort de pokémon e cria um laço especial com um pokémon ansioso e sempre nervoso. Qual?",
+        "resposta": "Psyduck"
+      },
+      "existentes": [
+        {
+          "id": "q11334",
+          "pergunta": "Pokémon Concierge, série de 2023 da Netflix sobre uma moça que trabalha num resort de pokémon, foi feita com qual técnica de animação?",
+          "resposta": "Stop-motion"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Os nomes Ash, Misty e Brock, no lugar de Satoshi, Kasumi e Takeshi, revelam de onde partiu a dublagem brasileira do anime. Que versão serviu de base?",
+        "resposta": "A versão americana"
+      },
+      "existentes": [
+        {
+          "id": "q11320",
+          "pergunta": "Em que emissora de TV aberta o anime Pokémon estreou no Brasil, provocando uma febre entre as crianças?",
+          "resposta": "Rede Record"
+        },
+        {
+          "id": "q11394",
+          "pergunta": "Dublado em português, o anime Pokémon estreou na TV aberta brasileira, pela Rede Record, em que ano?",
+          "resposta": "1999"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ilustrador inicial é fato diferente de roteirista e título japonês."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato sobre o mangá, diferente do esconderijo em Johto nos jogos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Número de episódios difere do ano de exibição."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Forma do Charizard difere do ano de exibição."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estúdio produtor difere da técnica de animação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pokémon companheiro de Haru é outro fato."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Versão base da dublagem difere da emissora e do ano."
+    }
+  ]
+}

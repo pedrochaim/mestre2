@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No anime, quando o Pikachu de Ash diz Pika Pi, a quem ele está se referindo?",
+        "resposta": "Ao próprio Ash"
+      },
+      "existentes": [
+        {
+          "id": "q11317",
+          "pergunta": "Ao contrário da maioria dos pokémon do anime, o Pikachu de Ash se recusa a fazer algo que os treinadores costumam pedir. O quê?",
+          "resposta": "Entrar na Poké Bola"
+        },
+        {
+          "id": "q11326",
+          "pergunta": "No primeiro episódio de Preto e Branco, o Pikachu de Ash não consegue usar eletricidade e perde para um Snivy. Que lendário causou o problema?",
+          "resposta": "Zekrom"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No torneio da Liga de Johto, Ash finalmente vence Gary numa luta decidida pelo Charizard dele contra qual pokémon do rival?",
+        "resposta": "Blastoise"
+      },
+      "existentes": [
+        {
+          "id": "q09849",
+          "pergunta": "No Japão, Gary, o neto do Professor Carvalho e rival de Ash, tem qual prenome, uma homenagem ao criador de Mario?",
+          "resposta": "Shigeru"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o significado de 'Pika Pi' é um fato diferente de recusar a Poké Bola ou do problema com Zekrom."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a luta contra Blastoise é diferente do prenome japonês de Gary."
+    }
+  ]
+}

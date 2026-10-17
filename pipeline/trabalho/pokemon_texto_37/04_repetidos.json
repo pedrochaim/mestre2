@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No anime, que líder de ginásio de Sootopolis, mestre elegante dos pokémon de água, dá a Ash sua oitava insígnia de Hoenn?",
+        "resposta": "Juan"
+      },
+      "existentes": [
+        {
+          "id": "q11212",
+          "pergunta": "Em Pokémon Emerald, Wallace vira campeão de Hoenn e deixa o ginásio de Sootopolis nas mãos do seu antigo mestre. Quem é ele?",
+          "resposta": "Juan"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Veilstone, o gentil criador de pokémon Reggie cuida dos pokémon que Paul não leva na viagem. Que parentesco ele tem com Paul?",
+        "resposta": "Irmão mais velho"
+      },
+      "existentes": [
+        {
+          "id": "q10249",
+          "pergunta": "Em Sinnoh, o Chimchar que vira o Infernape de Ash pertencia antes a Paul, o rival dele. Por que o pokémon mudou de treinador?",
+          "resposta": "Paul o libertou por achá-lo fraco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q11212",
+      "motivo": "Ambas perguntam quem é o líder do ginásio de Sootopolis (Juan), mestre de Wallace; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o parentesco de Reggie com Paul, fato diferente do motivo da troca de treinador do Chimchar."
+    }
+  ]
+}

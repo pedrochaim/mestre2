@@ -1,0 +1,97 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A moeda dourada na testa de Meowth remete a qual estatueta japonesa de gato, colocada nas lojas para atrair dinheiro?",
+        "resposta": "Maneki-neko"
+      },
+      "existentes": [
+        {
+          "id": "q09959",
+          "pergunta": "No anime, o Meowth da Equipe Rocket aprendeu sozinho a andar em pé e a falar como gente. Por que ele se esforçou tanto?",
+          "resposta": "Para conquistar uma Meowth fêmea"
+        },
+        {
+          "id": "q12526",
+          "pergunta": "Em Sword e Shield, o Meowth Gigantamax ataca com G-Max Gold Rush, que confunde os adversários. O que mais esse golpe rende ao treinador?",
+          "resposta": "Dinheiro extra"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome do lendário Ho-Oh vem de hōō, a forma japonesa de qual ave mitológica da China?",
+        "resposta": "Fenghuang (fênix chinesa)"
+      },
+      "existentes": [
+        {
+          "id": "q09812",
+          "pergunta": "Os lendários Ho-Oh e Lugia estampam as capas de qual par de jogos da segunda geração?",
+          "resposta": "Pokémon Gold e Silver"
+        },
+        {
+          "id": "q10207",
+          "pergunta": "Ho-Oh só estreou nos jogos em Gold e Silver, mas Ash já o tinha visto voando junto a um arco-íris. Em que episódio do anime?",
+          "resposta": "No primeiro episódio"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "As tiras de papel penduradas na cabeça de Jirachi, o pokémon que realiza desejos, lembram as de qual festival japonês das estrelas?",
+        "resposta": "Tanabata"
+      },
+      "existentes": [
+        {
+          "id": "q09981",
+          "pergunta": "Segundo os jogos e o filme Jirachi: Realizador de Desejos, o pequeno pokémon mítico fica acordado apenas sete dias a cada quanto tempo?",
+          "resposta": "Mil anos"
+        },
+        {
+          "id": "q12583",
+          "pergunta": "Doom Desire, golpe exclusivo de Jirachi, é um feixe de luz que não atinge o alvo na hora. Quando o golpe finalmente acerta?",
+          "resposta": "Dois turnos depois"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que pokémon de gelo e fantasma, apresentado em Sinnoh, se inspira na yuki-onna, a mulher da neve do folclore japonês?",
+        "resposta": "Froslass"
+      },
+      "existentes": [
+        {
+          "id": "q10016",
+          "pergunta": "Que pedra evolutiva, estreante em Diamond e Pearl, transforma a fêmea de Snorunt em Froslass e o macho de Kirlia em Gallade?",
+          "resposta": "Dawn Stone"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a inspiração da moeda (maneki-neko), fato diferente dos existentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Origem do nome Ho-Oh é fato distinto de capas dos jogos ou aparição no anime."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Inspiração das tiras de papel (Tanabata) difere de sono de mil anos ou Doom Desire."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre inspiração folclórica de Froslass; existente trata da pedra evolutiva."
+    }
+  ]
+}

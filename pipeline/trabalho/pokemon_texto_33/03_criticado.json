@@ -1,0 +1,746 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "id_existente": "charmander",
+        "nome": "Charmander",
+        "descricao": "Pokémon do tipo Fogo, número 4 da Pokédex Nacional.",
+        "variantes": [
+          "Hitokage"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charmander",
+          "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, quando a chama na ponta da cauda de Charmander arde com vigor, mesmo molhada, isso é sinal de quê?",
+      "resposta": "De que está saudável",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Charmander"
+      ],
+      "distratores": [
+        "De que vai evoluir",
+        "De que está faminto",
+        "De que vai chover"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "slowpoke",
+        "nome": "Slowpoke",
+        "descricao": "Pokémon da Água/Psíquico de primeira geração, número 79 da Pokédex Nacional, rosado e de cauda longa.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O lento Slowpoke passa horas sentado à beira da água, com a ponta da cauda mergulhada. Segundo a Pokédex, o que ele está fazendo?",
+      "resposta": "Pescando",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Chansey",
+        "descricao": "Pokémon do tipo Normal da primeira geração, cor-de-rosa, que carrega um ovo numa bolsa na barriga e evolui para Blissey.",
+        "variantes": [
+          "Lucky"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que pokémon cor-de-rosa de Kanto, segundo a Pokédex, é tão bondoso que divide seus ovos nutritivos com os pokémon feridos que encontra?",
+      "resposta": "Chansey",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Haunter",
+        "descricao": "Pokémon dos tipos Fantasma e Venenoso da primeira geração, evolução de Gastly e forma anterior de Gengar.",
+        "variantes": [
+          "Ghost"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na Pokédex de Gold, a língua de Haunter é feita de gás. O que acontece com quem leva uma lambida dela?",
+      "resposta": "Treme sem parar até morrer",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "lapras",
+        "nome": "Lapras",
+        "descricao": "Pokémon dos tipos Água e Gelo, número 131 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Lapras, o gentil pokémon que leva pessoas nas costas pelo mar, chegou perto de desaparecer. Segundo a Pokédex, por quê?",
+      "resposta": "Foi caçado demais",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Poluição dos mares",
+        "Falta de alimento",
+        "Mudança do clima"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "ninetales",
+        "nome": "Ninetales",
+        "descricao": "Pokémon do tipo Fogo, número 38 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Diz a Pokédex que Ninetales é muito esperto e vingativo. Que castigo pode receber quem agarrar uma das suas caudas?",
+      "resposta": "Uma maldição de mil anos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Parasect",
+        "descricao": "Pokémon dos tipos Inseto e Planta da primeira geração, evolução de Paras, que leva um grande cogumelo nas costas.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, o inseto Parasect já não pensa por conta própria. Quem passou a controlar o corpo dele?",
+      "resposta": "O cogumelo das suas costas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Dragonite",
+        "descricao": "Pokémon dos tipos Dragão e Voador da primeira geração, evolução final de Dratini e Dragonair.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que dragão bondoso de Kanto, segundo a Pokédex, conduz até a terra firme os navios que se perdem nas tempestades?",
+      "resposta": "Dragonite",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "sudowoodo",
+        "nome": "Sudowoodo",
+        "descricao": "Pokémon do tipo Pedra da segunda geração, número 185 da Pokédex Nacional, que imita uma árvore.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Sudowoodo vive se fingindo de árvore, mas, segundo a Pokédex de Crystal, tem um costume que nenhuma árvore teria. Ele se esconde do quê?",
+      "resposta": "Da chuva",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Misdreavus",
+        "descricao": "Pokémon do tipo Fantasma da segunda geração, com esferas vermelhas no pescoço, que evolui para Mismagius.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Misdreavus assusta as pessoas com um choro arrepiante. Segundo a Pokédex, do que ele se alimenta, usando as esferas vermelhas do pescoço?",
+      "resposta": "Do medo das vítimas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Dos sonhos das vítimas",
+        "Da luz da lua",
+        "Das sombras da noite"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Murkrow",
+        "descricao": "Pokémon corvo dos tipos Sombrio e Voador da segunda geração, que evolui para Honchkrow.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Temido e detestado por muita gente, o corvo Murkrow tem uma fama sinistra. Segundo a Pokédex, o que ele traz a quem o vê à noite?",
+      "resposta": "Azar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Houndoom",
+        "descricao": "Pokémon cão dos tipos Sombrio e Fogo da segunda geração, de chifres curvos, evolução de Houndour.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na Antiguidade, conta a Pokédex de Ruby, as pessoas imaginavam que o cão de chifres Houndoom fosse mensageiro de quem?",
+      "resposta": "Da Morte, o Ceifador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Shuckle",
+        "descricao": "Pokémon dos tipos Inseto e Pedra da segunda geração, que vive dentro de uma carapaça em forma de vaso.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Shuckle guarda frutinhas dentro da sua carapaça em forma de vaso. Segundo a Pokédex, o que acontece com elas com o passar do tempo?",
+      "resposta": "Viram suco",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Viram sementes",
+        "Endurecem como pedra",
+        "Viram veneno"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Teddiursa",
+        "descricao": "Pokémon ursinho do tipo Normal da segunda geração, com uma lua crescente na testa, que evolui para Ursaring.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, por que o ursinho Teddiursa, de Johto, vive lambendo as palmas das patas?",
+      "resposta": "Estão lambuzadas de mel",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Para limpar o pelo",
+        "Para curar feridas",
+        "Para se acalmar"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Larvitar",
+        "descricao": "Pokémon dos tipos Pedra e Terrestre da segunda geração, primeira forma da linha que termina em Tyranitar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, o pequeno Larvitar só adormece para crescer depois de devorar uma montanha inteira. Do que ele se alimenta?",
+      "resposta": "Terra",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Spoink",
+        "descricao": "Pokémon porquinho do tipo Psíquico da terceira geração, que pula sobre a própria cauda em forma de mola e evolui para Grumpig.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O porquinho Spoink, de Hoenn, passa a vida pulando sobre a cauda em forma de mola. Segundo a Pokédex, por que ele não pode parar nunca?",
+      "resposta": "O coração dele pararia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Absol",
+        "descricao": "Pokémon do tipo Sombrio da terceira geração, branco e de chifre em forma de foice, conhecido como o pokémon do desastre.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por muito tempo, Absol foi culpado pelas catástrofes, já que surgia logo antes delas. Segundo a Pokédex, por que ele desce das montanhas nessas horas?",
+      "resposta": "Para avisar as pessoas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Banette",
+        "descricao": "Pokémon do tipo Fantasma da terceira geração, um boneco de pelúcia com zíper na boca, evolução de Shuppet.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Banette_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Banette já foi um simples boneco de pelúcia. Segundo a Pokédex, o que aconteceu com ele para que uma energia rancorosa lhe desse vida?",
+      "resposta": "Foi jogado fora",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Banette_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Spinda",
+        "descricao": "Pokémon panda do tipo Normal da terceira geração, de andar cambaleante e manchas no corpo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O pandinha Spinda anda cambaleando como se estivesse tonto. Segundo a Pokédex, o que nunca se repete de um Spinda para outro?",
+      "resposta": "O desenho das manchas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Ludicolo",
+        "descricao": "Pokémon dos tipos Água e Planta da terceira geração, evolução final de Lotad, com uma folha em forma de sombrero.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ludicolo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "De sombrero de folha, Ludicolo é um dançarino nato. Segundo a Pokédex, o que enche seus músculos de energia e o faz começar a dançar?",
+      "resposta": "Ouvir música alegre e festiva",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ludicolo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Kecleon",
+        "descricao": "Pokémon camaleão do tipo Normal da terceira geração, que muda de cor para se camuflar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O camaleão Kecleon muda a cor do corpo à vontade para sumir na paisagem. Segundo a Pokédex, que detalhe dele nunca muda de cor?",
+      "resposta": "O zigue-zague da barriga",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Zangoose",
+        "descricao": "Pokémon do tipo Normal da terceira geração, um mangusto branco de garras afiadas, rival de Seviper.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zangoose_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, Zangoose, o mangusto de garras afiadas de Hoenn, mantém uma rivalidade antiga com qual outro pokémon?",
+      "resposta": "Seviper",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zangoose_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Arbok",
+        "Mightyena",
+        "Huntail"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Tropius",
+        "descricao": "Pokémon dos tipos Planta e Voador da terceira geração, um dinossauro de asas de folha com cachos de frutas no pescoço.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que pokémon de Hoenn, de asas feitas de folhas, carrega no pescoço cachos de frutas que, segundo a Pokédex, as crianças dos trópicos comem como lanche?",
+      "resposta": "Tropius",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Bibarel",
+        "descricao": "Pokémon castor dos tipos Normal e Água da quarta geração, evolução de Bidoof.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Conhecido como trabalhador incansável, o castor Bibarel, de Sinnoh, usa casca de árvore e lama para fazer o ninho. Segundo a Pokédex, como ele o constrói?",
+      "resposta": "Represando os riachos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Drifloon",
+        "descricao": "Pokémon dos tipos Fantasma e Voador da quarta geração, em forma de balão, que evolui para Drifblim.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Drifloon, o balão fantasma de Sinnoh, tem fama assustadora na Pokédex. Quem costuma segurá-lo, achando que é um balão de verdade, e acaba sumindo?",
+      "resposta": "Crianças",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Pachirisu",
+        "descricao": "Pokémon esquilo do tipo Elétrico da quarta geração, branco com uma faixa azul.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pachirisu_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, o esquilo Pachirisu fabrica algo que estala de eletricidade estática e guarda junto com frutinhas no oco das árvores. O quê?",
+      "resposta": "Bolas de pelo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pachirisu_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Ninhos de folhas",
+        "Bolotas de barro",
+        "Pedras polidas"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Bronzong",
+        "descricao": "Pokémon dos tipos Aço e Psíquico da quarta geração, em forma de sino de bronze, evolução de Bronzor.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bronzong_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, os povos antigos faziam um pedido ao sino de bronze Bronzong para que suas colheitas crescessem. O que eles pediam?",
+      "resposta": "Chuva",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bronzong_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Sol",
+        "Vento",
+        "Neve"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Lucario",
+        "descricao": "Pokémon dos tipos Lutador e Aço da quarta geração, evolução de Riolu, que domina a aura.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucario",
+          "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de Pearl, Lucario consegue ler os pensamentos e prever os movimentos dos outros. O que ele capta para fazer isso?",
+      "resposta": "A aura",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucario",
+        "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "bonsly",
+        "nome": "Bonsly",
+        "descricao": "Pokémon do tipo Pedra, número 438 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O pequeno Bonsly gosta de ar seco e parece estar sempre chorando. Segundo a Pokédex, o que são, de fato, essas lágrimas?",
+      "resposta": "Água para regular a umidade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Togekiss",
+        "descricao": "Pokémon dos tipos Fada e Voador da quarta geração, evolução de Togetic, conhecido por distribuir bênçãos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Togekiss distribui bênçãos às pessoas que se respeitam. Mas, segundo a Pokédex de Pearl, ele nunca aparece em lugares onde há o quê?",
+      "resposta": "Brigas e conflitos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    }
+  ]
+}

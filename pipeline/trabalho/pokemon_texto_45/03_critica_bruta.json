@@ -1,0 +1,273 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto e documentado, mas o enunciado confuso (\"uma mãe morta pela Equipe Rocket, ou Team Rocket\") atrapalha a leitura em voz alta.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em Red e Blue, um fantasma bloqueia a subida da Torre Pokémon. Ele é o espírito de uma mãe morta pela Equipe Rocket, ou Team Rocket. De que pokémon?",
+        "resposta": "Marowak",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Tower",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Silph Scope é obtido de Giovanni no esconderijo da Equipe Rocket em Celadon e revela os fantasmas da Torre Pokémon; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Em Red e Blue, Giovanni, derrotado em Viridian, anuncia a dissolução da Equipe Rocket; coerente com o trecho da Wikipédia sobre a dissolução do grupo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Archer assume o comando da Equipe Rocket em HeartGold e SoulSilver; distratores são outros executivos críveis da mesma equipe.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A premissa de que só uma equipe é enfrentada em Ruby ou Sapphire é imprecisa, e a pergunta é fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta ambígua (Red Orb ou Blue Orb, dependendo da versão), os vilões variam e nenhum trecho sustenta o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O submarino roubado em Slateport pertence ao Capitão Stern, pesquisador do museu oceanográfico; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Azelf habita o Lake Valor, onde a Equipe Galáctica usa uma bomba; distratores são lugares de Sinnoh da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Looker investiga a Equipe Galáctica em Platinum e reaparece em Sun e Moon com as Ultracriaturas; os trechos sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta \"a região inteira\" é exagerada: o trecho fala em congelar grandes porções de Unova.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em Black 2 e White 2, a Equipe Plasma, ou Team Plasma, tenta usar o poder do lendário Kyurem sobre Unova. Para fazer o quê?",
+        "resposta": "Congelar grandes partes de Unova",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Team_Plasma",
+          "https://pt.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_e_White_2"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Equipe Plasma rouba o Dragon Skull do museu de Nacrene; fato conhecido e resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas dois distratores (Hydreigon, Haxorus) não são lendários; trocar por dragões lendários críveis.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Em Pokémon Black, o jogador fica com Reshiram. Que dragão lendário fica ao lado de N, o rei da Equipe Plasma?",
+        "resposta": "Zekrom",
+        "distratores": [
+          "Kyurem",
+          "Rayquaza",
+          "Palkia"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/N",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Colress trabalha com a Neo Equipe Plasma, mas o chefe é Ghetsis; \"chefe\" é impreciso.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em Black 2 e White 2, que cientista, obcecado em despertar todo o potencial dos pokémon, trabalha com a nova Equipe Plasma, ou Team Plasma?",
+        "resposta": "Colress",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Colress",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Ghetsis quer ser o único humano com controle sobre os pokémon.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não há certeza do valor exato da taxa de entrada nem trecho que o sustente; detalhe arbitrário e arriscado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome da arma na fonte é \"arma definitiva\" (ultimate weapon), não \"arma suprema\"; resposta também deve ser mais direta.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Em X e Y, para disparar a arma definitiva, ou ultimate weapon, a Equipe Flare, ou Team Flare, precisa da energia de qual pokémon?",
+        "resposta": "Xerneas ou Yveltal, o lendário do jogo",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ultimate_weapon",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que a Equipe Skull trabalha para a Fundação Aether.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Plumeria é a administradora da Equipe Skull, especialista em venenosos e tratada como irmã mais velha; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Golisopod é o pokémon principal de Guzma; distratores críveis da franquia.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oleana é a secretária do presidente Rose; o trecho confirma que Rose desperta Eternatus.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não há certeza de que o carro seja formado por vários exemplares de Revavroom; a afirmação pode ser imprecisa e nenhum trecho sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Equipe Star foi fundada para combater o bullying.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o jogador escolhe um pokémon para batalhar contra os Starly atacantes, não para escapar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "No começo de Diamond e Pearl, o jogador abre a maleta esquecida pelo professor Rowan, à beira de um lago, e escolhe um pokémon. Por que precisa usá-lo na hora?",
+        "resposta": "Para enfrentar Starly selvagens que atacam",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Professor_Rowan",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lusamine se funde com Nihilego no Ultra Espaço; distratores são outras Ultracriaturas.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a floresta Slumbering Weald e o pokémon poderoso que expulsa o jogador e Hop.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido do final de Scarlet e Violet: o professor é uma inteligência artificial em corpo de robô.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o recrutamento do jogador pela Galaxy Expedition Team em Jubilife Village.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia confirma que o campeão é o rival, neto do Professor Carvalho.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Zinnia, o Episódio Delta, o meteoro e Rayquaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o lançamento de Platinum no Japão em 13 de setembro de 2008; distratores próximos e críveis.",
+      "reescrita": null
+    }
+  ]
+}

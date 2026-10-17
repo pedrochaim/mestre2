@@ -34,6 +34,8 @@ O modo Pokémon usa **a trilha do Linear só com perguntas de pokémon**. A tril
 - **Saem as casas Tipos, Evolução e De onde vem o nome?**: o autor não gostou desses tipos de pergunta como casas próprias. As perguntas de origem do nome voltam para a casa do assunto delas.
 - **Pelo menos metade das perguntas com figura:** regra editorial do modo (a fração pode ser maior), que o tabuleiro reflete, com metade das casas comuns de figura e metade de texto.
 - **Uma casa geral** (o nome ainda não foi escolhido), para as perguntas que não se encaixam bem nas outras casas. O que entra nela ainda está em definição.
+- **Sem piso de equilíbrio entre os subtemas:** o equilíbrio do modo passa a ser o das casas temáticas, feito na programação dos lotes. Os subtemas continuam como classificação, e é por eles que o texto acha a sua casa.
+- **Golpes:** entram perguntas de texto sobre os **golpes exclusivos** (signature moves) de pokémon específicos e a família de dados **"Qual é esse ataque?"**: um cartão com os dados do golpe, que pede o nome.
 
 ## Casas temáticas
 
@@ -41,18 +43,18 @@ No tabuleiro do modo, cada casa comum tem uma **casa temática**, que dita o teo
 
 **Regra editorial: pelo menos metade das perguntas do modo tem figura**; a fração pode ser maior. O tabuleiro a reflete: as casas comuns alternam uma de figura e uma de texto. `python pipeline/colecao.py status pokemon` mostra a fração atual e, se ela cair abaixo do mínimo, quantas perguntas com figura faltam.
 
-| Sigla (ícone) | Casa | Forma | O que sai nela | Perguntas em 2026-10-16 |
+| Sigla (ícone) | Casa | Forma | O que sai nela | Perguntas em 2026-10-17 |
 |---|---|---|---|---|
-| **?** | **Quem é esse pokémon?** | Figura | A **silhueta** preta sobre os raios azuis e amarelos, com a arte colorida na revelação. A pergunta é sobre o pokémon escondido: o nome, o tipo, em quem evolui ou de quem evolui, a região de estreia. **Uma silhueta por pokémon**, com a pergunta variando entre os pokémon. Todos os pokémon podem entrar | 662 |
-| **ATR** | **Cartão de atributos** | Figura | O cartão de tipo e atributos base: "De quem são estes tipos e atributos base?" | 385 |
-| **JOGO** | **Jogos e Regiões** | Texto | O subtema Jogos da Série Principal | 297 |
-| **TV** | **Anime e Filmes** | Texto | O subtema Anime, Filmes e Franquia | 205 |
-| **DEX** | **Pokédex** | Texto | O subtema Pokédex: hábitos, lendas, formas, origem dos nomes, inspiração dos desenhos. Pode receber as entradas da Pokédex ("Que pokémon a Pokédex descreve assim…?"), ainda não produzidas: a PokéAPI só tem o texto em inglês | 108 |
+| **?** | **Quem é esse pokémon?** | Figura | A **silhueta** preta sobre os raios azuis e amarelos, com a arte colorida na revelação. A pergunta é sobre o pokémon escondido: o nome, o tipo, em quem evolui ou de quem evolui, a região de estreia. **Uma silhueta por pokémon**, com a pergunta variando entre os pokémon. Todos os pokémon podem entrar | 845 |
+| **ATR** | **Cartão de atributos** | Figura | Os cartões: o de tipo e atributos base de um pokémon ("De quem são estes tipos e atributos base?") e, desde 2026-10-16, o de um golpe ("Qual é esse ataque?") | 785 |
+| **JOGO** | **Jogos e Regiões** | Texto | O subtema Jogos da Série Principal | 404 |
+| **TV** | **Anime e Filmes** | Texto | O subtema Anime, Filmes e Franquia | 391 |
+| **DEX** | **Pokédex** | Texto | O subtema Pokédex: hábitos, lendas, formas, origem dos nomes, inspiração dos desenhos. Pode receber as entradas da Pokédex ("Que pokémon a Pokédex descreve assim…?"), ainda não produzidas: a PokéAPI só tem o texto em inglês | 396 |
 | — | **Casa geral** (nome a definir) | Texto | O que não se encaixa bem nas outras casas. Em definição | — |
 
-- **Como cada pergunta acha a sua casa:** o cartão vai para Cartão de atributos; qualquer outra figura, que agora é sempre silhueta, vai para "Quem é esse pokémon?"; o texto vai pelo subtema do modo. Não há campo novo no banco: a regra fica em `pipeline/banco.py` (`casa_pokemon`, `CASAS_FIGURA_POKEMON` e `CASAS_TEXTO_POKEMON`), e o export grava a casa de cada pergunta no campo `casa` do app.
+- **Como cada pergunta acha a sua casa:** o cartão, de pokémon ou de golpe, vai para Cartão de atributos; qualquer outra figura, que agora é sempre silhueta, vai para "Quem é esse pokémon?"; o texto vai pelo subtema do modo. Não há campo novo no banco: a regra fica em `pipeline/banco.py` (`casa_pokemon`, `CASAS_FIGURA_POKEMON` e `CASAS_TEXTO_POKEMON`), e o export grava a casa de cada pergunta no campo `casa` do app.
 - **De quem é este grito?** foi cogitada (os gritos estão na PokéAPI), mas o MANIFESTO §6 só aceita áudio de licença livre, e as perguntas com áudio estão fora do jogo. Só entra com uma exceção do autor.
-- Os subtemas do modo e o piso de equilíbrio entre eles (abaixo) serão revistos a partir das casas.
+- O piso de equilíbrio entre os subtemas saiu em 2026-10-16 (abaixo): o equilíbrio é o das casas, na programação dos lotes.
 - **Situação:** 63% das perguntas têm figura, acima do mínimo.
 
 ## Tabuleiro
@@ -91,11 +93,7 @@ Dentro do modo, as perguntas se dividem em três subtemas próprios, gravados no
 - Jogos ou outras mídias: decide **onde se passa o fato perguntado**, e não de onde vem o personagem. Brock como líder de ginásio em Red e Blue é dos Jogos; Brock viajando com Ash é do Anime. Um fato que vale igualmente nos jogos e no anime fica onde apareceu primeiro.
 - O assunto decide, e não o foco do lote: uma pergunta sobre a origem do nome de um lendário, feita num lote de Jogos, vai para a Pokédex.
 
-**Equilíbrio.** O subtema com menos perguntas tem de ter pelo menos **30%** das perguntas do subtema com mais. A regra vale **só para montar lotes**, decidindo que lote pode ser feito. Ela não entra na escolha dos subtemas nem na classificação: cada pergunta vai para o subtema do seu assunto, mesmo que isso deixe a coleção abaixo do piso, e aí os próximos lotes vão para o subtema que ficou pequeno. O pipeline cuida disso:
-- Recusa o lote que levaria um subtema acima do **teto**, que é o tamanho do menor dos outros dividido por 0,3. Vale para os lotes feitos de dados, os de silhueta e os de texto; nos de texto, conta a quantidade pedida no subtema do foco.
-- Um lote que só aumenta os subtemas pequenos passa sempre, mesmo com a coleção ainda desequilibrada.
-- `python pipeline/colecao.py status pokemon` mostra o teto de cada subtema e quanto falta para o piso.
-- A regra, a lista dos subtemas e o escopo de cada um ficam em `pipeline/banco.py` (`SUBTEMAS_COLECAO` e `PISO_SUBTEMA_COLECAO`).
+**Equilíbrio.** Até 2026-10-16, o subtema com menos perguntas tinha de ter pelo menos **30%** das perguntas do subtema com mais, e a regra recusava os lotes que levariam um subtema acima do teto. Como as figuras (cartões e silhuetas) são todas da Pokédex, o piso passou a travar justamente a casa de texto mais vazia, a Pokédex, e o autor o tirou: o equilíbrio do modo é o das **casas temáticas**, feito na programação dos lotes. O código continua em `pipeline/banco.py` (`bloqueio_equilibrio`), com `PISO_SUBTEMA_COLECAO` vazio.
 
 **Quem preenche.**
 - As perguntas feitas de dados recebem o subtema pela família: cartão, tipo e evolução vão para a Pokédex, região para os Jogos.
@@ -116,7 +114,7 @@ Estas são as regras de conteúdo do **modo Pokémon**, que valem para as pergun
 - **O público é quem gosta de pokémon:** já jogou alguns jogos, viu o anime e conhece pokémon de várias gerações. Isso substitui o "público informado, mas leigo" do MANIFESTO §7: termos da franquia (tipo, evolução, ginásio, insígnia, lendário, Pokédex, megaevolução, iniciais) dispensam explicação.
 - **Pode ir mais fundo que no jogo original**, mas a régua da justiça continua: um fã diria "boa pergunta", e não "que detalhe arbitrário". Profundidade vem do fato, não da obscuridade (MANIFESTO, princípio 4).
 - **Entram:** a origem dos nomes, a inspiração dos desenhos, as lendas dos lendários, como e em quem um pokémon evolui, as formas regionais, o enredo e os lugares dos jogos, os líderes e campeões, os bastidores da criação, o anime, os filmes, a dublagem e o Pokémon no Brasil.
-- **Ficam de fora:** números da Pokédex, estatísticas, valores de dano e de atributos, probabilidades e mecânicas internas (a chance de um brilhante, taxas de captura), golpes e habilidades obscuros, falhas de programação e dados escondidos (MissingNo., itens duplicados), detalhes que só um competidor saberia, e perguntas que pedem listas. A exceção é a família "Tipo e atributos base", em que os atributos aparecem na figura como pista e ninguém precisa sabê-los de cor.
+- **Ficam de fora:** números da Pokédex, estatísticas, valores de dano e de atributos, probabilidades e mecânicas internas (a chance de um brilhante, taxas de captura), golpes e habilidades obscuros, falhas de programação e dados escondidos (MissingNo., itens duplicados), detalhes que só um competidor saberia, e perguntas que pedem listas. A exceção são os cartões feitos de dados, o de tipo e atributos base e o de golpe ("Qual é esse ataque?"), em que os números aparecem na figura como pista e ninguém precisa sabê-los de cor.
 
 ### Cobertura
 
@@ -197,6 +195,16 @@ Regras comuns:
 - **Distratores do cartão:** escolhidos por código, entre pokémon que dividem ao menos um tipo com a resposta. A preferência vai para os de tipos iguais e os da mesma linha evolutiva. Os seis atributos de duas alternativas quaisquer diferem, somados, em pelo menos 40 pontos, para a pergunta ter uma só resposta.
 - **Quais pokémon:** cotas por geração. O **cartão** vale para **todos os pokémon**, inclusive os que trocam de forma, com o tipo e os atributos da forma padrão (Deoxys Normal, Rotom Elétrico e Fantasma); fica fora da saturação e convive com a silhueta, mas cada pokémon tem um cartão só. Nas famílias **tipo, região e evolução**, as espécies que trocam de forma (Deoxys, Rotom, Urshifu e afins) ficam de fora, porque o tipo depende da forma; a âncora é o pokémon, com a saturação do modo, e uma âncora recebe no máximo uma pergunta de cada família. Um pokémon que já tem pergunta sobre o mesmo assunto, inclusive as do LLM ("Em que pokémon este evolui?"), não recebe outra. Primeiro entram os pokémon que ainda não têm figura.
 
+### Qual é esse ataque?
+
+Família de dados do `pipeline/pokemon_golpes.py` (2026-10-16), sem LLM, de múltipla escolha, na casa Cartão de atributos e no subtema Jogos da Série Principal.
+
+- **A figura** é um cartão com o "?", o **tipo** (nome oficial brasileiro, na cor do tipo), a **categoria** (Físico ou Especial), o **poder**, a **precisão** ("—" para o golpe que não erra), o **PP** e a **estreia** (a região e a geração). A revelação é o mesmo cartão com o nome do golpe no lugar do "?".
+- **A pergunta** é sempre "Qual é esse ataque?". **A resposta e os distratores** usam o nome em **inglês**: as tabelas do PokéAPI não têm os nomes brasileiros dos golpes, e a regra de nomes manda usar só o inglês na dúvida.
+- **Quais golpes:** só os de dano (os de status não têm poder para se distinguir), que algum pokémon aprende, de tipo fixo (fora Hidden Power, Weather Ball, Tera Blast e afins) e com **cartão único**: nenhum outro golpe tem o mesmo tipo, categoria, poder, precisão, PP e geração. Entre eles, os 220 que mais espécies aprendem. Cada golpe tem um cartão só, e o golpe é a âncora.
+- **Distratores:** golpes do mesmo tipo, de preferência entre os conhecidos, da mesma categoria e com poder parecido.
+- **Fonte:** a página do golpe na Bulbapedia; a origem da figura é a tabela de golpes do PokéAPI.
+
 ### Outras famílias de figura
 
 A família "o que é" pergunta o nome ("Quem é esse pokémon?"). A família "com o que se liga" vai um passo além, por exemplo em que pokémon ele evolui ou de quem se disfarça. A camada 3 é de aficionado de verdade, e não um lendário famoso.
@@ -220,32 +228,28 @@ python pipeline/colecao.py status pokemon                       # quantas pergun
 python pipeline/colecao.py figuras pokemon_modo --lotes N       # lotes de figura do catálogo exclusivo
 python pipeline/rodar.py executar --encomenda pokemon_texto_NN  # um lote de texto
 python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 --evolucao 40   # perguntas feitas de dados
+python pipeline/pokemon_golpes.py executar --quantidade 100     # cartões "Qual é esse ataque?"
 ```
 
 - **Figura:** o catálogo `pokemon_modo` do `plano.json` (com `colecao` e `exclusiva`), com a mesma silhueta do catálogo `pokemon` do jogo original.
 - **Texto:** uma encomenda em `pipeline/encomendas.json` com `colecao: "pokemon"`, `exclusiva: true` e `subtema_colecao` (o foco do lote), de Entretenimento › Jogos Eletrônicos. As observações descrevem só o foco: as regras de conteúdo do modo já vão ao gerador e ao crítico. O gerador classifica cada pergunta.
-- **Feitas de dados:** `pipeline/pokemon_dados.py`, sem LLM. Escolhe os pokémon, monta as figuras, a revelação e as alternativas, e registra as perguntas (lotes `pokemon_dados_NNN`; o primeiro, só de cartões, chamou-se `pokemon_status_001`). `amostras --pasta <pasta>` faz uma figura de cada família, sem gravar no banco.
+- **Feitas de dados:** `pipeline/pokemon_dados.py`, sem LLM. Escolhe os pokémon, monta as figuras, a revelação e as alternativas, e registra as perguntas (lotes `pokemon_dados_NNN`; o primeiro, só de cartões, chamou-se `pokemon_status_001`). `amostras --pasta <pasta>` faz uma figura de cada família, sem gravar no banco. Os cartões de golpe vêm de `pipeline/pokemon_golpes.py` (lotes `pokemon_golpes_NNN`), que também tem `amostras --pasta`.
 - Nos lotes exclusivos (texto e figura), o pipeline envia ao LLM a Parte I do MANIFESTO e, depois dela, as regras de conteúdo do modo (`DOC_COLECAO` em `pipeline/banco.py`); conta a saturação só na coleção, com o limite de 5 (`MAX_POR_ANCORA_COLECAO`); e não aplica as cotas de ângulo (`SEM_COTA_ANGULOS`). O gerador vê todas as perguntas de texto e todas as âncoras da coleção, com quantas perguntas cada uma tem.
 - O pipeline grava `colecao` e `exclusiva` em todas as perguntas do lote, e `subtema_colecao` em cada uma. Depois, `python app/exportar_perguntas.py` leva as perguntas ao app.
 
-**Situação em 2026-10-13:** a coleção tem 1747 perguntas.
+**Situação em 2026-10-17:** a coleção tem 2821 perguntas, 58% com figura.
 
 | | Exclusivas | Também no jogo original |
 |---|---|---|
-| Com figura | 1062 (cerca de 890 feitas de dados: cartão, tipo, região e evolução; o resto, silhuetas) | 75 |
-| Sem figura | 599 | 11 |
+| Com figura | 1569 (silhuetas, cartões de pokémon e cartões de golpe) | 61 |
+| Sem figura | 1180 | 11 |
 
-Por subtema do modo:
+Por casa temática: Quem é esse pokémon? 845, Cartão de atributos 785 (685 de pokémon e 100 de golpe), Jogos e Regiões 404, Anime e Filmes 391, Pokédex 396. Por subtema do modo: Pokédex 1726, Jogos da Série Principal 704, Anime, Filmes e Franquia 391.
 
-| Subtema | Perguntas | Com figura |
-|---|---|---|
-| Pokédex | 1119 | 1011 |
-| Jogos da Série Principal | 423 | 126 |
-| Anime, Filmes e Franquia | 205 | 0 |
+Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_texto_01` a `47`; feitas de dados, `pokemon_status_001` (100 cartões) e `pokemon_dados_002` a `009`; cartões de golpe, `pokemon_golpes_001` (100).
 
-O menor subtema tem 18% do maior, abaixo do piso de 30% (336). Como o piso só vale para montar lotes, a classificação não muda por isso: os próximos lotes vão para Anime, Filmes e Franquia (faltam 131) e para os Jogos (até o teto), e os da Pokédex, inclusive os feitos de dados, ficam parados até o piso ser atingido.
-
-Lotes rodados: silhuetas de `fig_pokemon_modo_001` a `021`; texto de `pokemon_texto_01` a `24`; feitas de dados, `pokemon_status_001` (100 cartões) e `pokemon_dados_002` a `006` (4 lotes de 185 e um de 15). As 1000 perguntas novas pedidas em 2026-10-13 vieram de `pokemon_texto_07` a `14` (202), dos lotes de silhueta 017 a 021 (43) e de `pokemon_dados_002` a `006` (755). Para atingir o piso de equilíbrio, vieram `pokemon_texto_15` a `19` (Jogos da Série Principal, 140) e `pokemon_texto_20` a `24` (Anime, Filmes e Franquia, 92).
+- **As 1000 pedidas em 2026-10-13** vieram de `pokemon_texto_07` a `14` (202), dos lotes de silhueta 017 a 021 (43) e de `pokemon_dados_002` a `006` (755). Para atingir o piso de equilíbrio, que ainda valia, vieram `pokemon_texto_15` a `19` (Jogos da Série Principal, 140) e `pokemon_texto_20` a `24` (Anime, Filmes e Franquia, 92).
+- **As 1000 pedidas em 2026-10-16**, para equilibrar as casas: 483 feitas de dados (`pokemon_dados_007` a `009`: 300 cartões e 183 silhuetas, o que restava de pokémon sem silhueta), 100 cartões de golpe (`pokemon_golpes_001`) e 581 de texto de `pokemon_texto_25` a `47` (23 lotes de 30, com 16 a 30 aprovadas por lote; Pokédex +288, Anime e Filmes +186, Jogos e Regiões +107). Os três primeiros lotes da Pokédex foram sobre os golpes exclusivos (signature moves). Os lotes de texto custaram cerca de US$ 52 em preço de API e pararam duas vezes na cota da sessão, retomando sozinhos depois da renovação.
 
 ## Em aberto
 

@@ -1,0 +1,271 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado e resposta sustentados pelo resumo em português; pergunta clara e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fuji recrutado por Giovanni para criar Mewtwo, conforme a fonte; pergunta precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o nome da resposta deve trazer também o inglês entre parênteses, conforme as regras do modo.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Pokémon 2000 se passa na ilha Shamouti, onde uma lenda anuncia a chegada de um Escolhido. Em que arquipélago do anime fica essa ilha?",
+        "resposta": "Ilhas Laranja (Orange Islands)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000",
+          "https://bulbapedia.bulbagarden.net/wiki/Shamouti_Island"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que Melody toca a canção do festival num búzio (conch), não numa flauta.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em Pokémon 2000, que moça da ilha Shamouti, a donzela do festival, toca a canção do festival que revive o lendário Lugia?",
+        "resposta": "Melody",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_The_Movie_2000"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Greenfield confirmada pela fonte; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário para uma pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário; menos e melhor.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suicune aparece no filme e a pista das águas puras o distingue de Raikou e Entei.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que Lorenzo é curador do museu e avô de Bianca; chamá-lo de guardião é impreciso.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em Pokémon Heróis, Latias passeia por Altomare disfarçada de humana. Ela copia a aparência de qual menina, neta do curador do museu, Lorenzo?",
+        "resposta": "Bianca",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Heroes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma que Latios morre e se transforma em uma nova Soul Dew.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente sem URL substituta confiável, e 'recriar' é impreciso (a ideia é reviver Groudon).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte não menciona esteiras rolantes; a cidade é descrita como de alta tecnologia com robôs de blocos.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em O Destino de Deoxys, Rayquaza e o alienígena se enfrentam numa cidade de alta tecnologia, patrulhada por robôs de blocos. Como se chama essa cidade?",
+        "resposta": "LaRousse",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Destiny_Deoxys"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tree of Beginning confirmada; a árvore é defendida pelos Regis, o que sustenta 'ataca os intrusos'.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Jack se disfarça de tripulante de Phantom e depois se junta ao grupo Marina; 'infiltrado' no grupo de artistas e 'guarda florestal' são imprecisos.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em Pokémon Ranger e o Templo do Mar, que personagem, disfarçado de tripulante do pirata Phantom, rouba o ovo de Manaphy?",
+        "resposta": "Jack Walker",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ranger_and_the_Temple_of_the_Sea"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alamos Town com as Torres Espaço-Tempo e o jardim, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Michina confirmada como a cidade do filme; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dialga envia o grupo ao passado, conforme a fonte; distratores críveis da franquia.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A motivação de Keldeo só é inferida pelos trechos e a resposta é longa e vaga.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diancie procura Xerneas para criar um novo Heart Diamond, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Ano de estreia de filme é fato fraco e arbitrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dahara City confirmada como cenário do filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Reino de Azoth' repete a palavra 'reino' do enunciado (vazamento parcial).",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Volcanion e a Maravilha Mecânica se passa num reino de engrenagens onde a Magearna foi construída, séculos atrás. Como se chama esse reino?",
+        "resposta": "Azoth",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Movie:_Volcanion_and_the_Mechanical_Marvel"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ash viaja com Verity e Sorrel, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zeraora, mítico elétrico que desconfia dos humanos, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zarude encontra Koko e o adota, conforme a fonte; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta tem trecho redundante ('pai de Tim'); o enunciado fica mais preciso falando da mente presa no Pikachu.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "No filme Detetive Pikachu, o desfecho revela de quem é a mente presa no Pikachu falante que ajuda o jovem Tim. Quem é?",
+        "resposta": "Harry Goodman",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Detective_Pikachu_(film)"
+        ]
+      }
+    }
+  ]
+}

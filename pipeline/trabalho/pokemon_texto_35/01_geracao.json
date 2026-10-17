@@ -1,0 +1,637 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Shedinja",
+        "descricao": "Pokémon dos tipos Inseto e Fantasma da terceira geração, uma casca vazia que surge quando Nincada evolui em Ninjask.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Shedinja, a casca fantasma que surge na evolução de Nincada, tem a habilidade exclusiva Wonder Guard. Que golpes de ataque conseguem feri-lo?",
+      "resposta": "Só os supereficazes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wonder_Guard_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Slaking",
+        "descricao": "Pokémon do tipo Normal da terceira geração, um gigante preguiçoso inspirado no bicho-preguiça, evolução final de Slakoth.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Slaking, o gigante preguiçoso de Hoenn, é fortíssimo, mas sua habilidade, Truant, cobra um preço alto nas batalhas. Que preço é esse?",
+      "resposta": "Só age a cada dois turnos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Truant_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Slakoth",
+        "descricao": "Pokémon do tipo Normal da terceira geração, um bicho-preguiça que evolui em Vigoroth e depois em Slaking.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, o bicho-preguiça Slakoth se mexe tão pouco que quase não precisa comer. Quanto tempo por dia ele passa deitado à toa?",
+      "resposta": "Mais de vinte horas",
+      "distratores": [
+        "Cerca de oito horas",
+        "Cerca de doze horas",
+        "Cerca de dezesseis horas"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "id_existente": "greninja",
+        "nome": "Greninja",
+        "descricao": "Pokémon dos tipos Água e Sombrio, número 658 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greninja",
+          "https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, um Greninja especial tem a habilidade Battle Bond e muda de forma depois de derrotar um adversário. Essa forma leva o nome de qual treinador?",
+      "resposta": "Ash",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Battle_Bond_(Ability)",
+        "https://en.wikipedia.org/wiki/Greninja"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "id_existente": "cinderace",
+        "nome": "Cinderace",
+        "descricao": "Pokémon do tipo Fogo, número 815 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cinderace_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que a habilidade Protean, de Greninja, e a habilidade Libero, do coelho Cinderace, fazem com o pokémon logo antes de ele atacar?",
+      "resposta": "Mudam seu tipo para o do golpe",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Libero_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Protean_(Ability)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "id_existente": "mimikyu",
+        "nome": "Mimikyu",
+        "descricao": "Pokémon dos tipos Fantasma e Fada, número 778 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mimikyu",
+          "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Graças à habilidade exclusiva Disguise, Mimikyu sai ileso da primeira pancada que leva numa batalha. O que é danificado no lugar dele?",
+      "resposta": "O pano que imita Pikachu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Disguise_(Ability)",
+        "https://en.wikipedia.org/wiki/Mimikyu"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Komala",
+        "descricao": "Pokémon do tipo Normal da sétima geração, um coala de Alola que vive sempre adormecido, com a habilidade exclusiva Comatose.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Komala_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O coala Komala, de habilidade exclusiva Comatose, dorme do nascimento até a morte. Segundo a Pokédex de Sun, o que o mantém sempre adormecido?",
+      "resposta": "As folhas sedativas que come",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Komala_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Comatose_(Ability)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Hoothoot",
+        "descricao": "Pokémon coruja dos tipos Normal e Voador da segunda geração, que evolui em Noctowl.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A coruja Hoothoot começa a piar todo dia exatamente no mesmo horário. Segundo a Pokédex, o que um órgão especial do seu corpo acompanha?",
+      "resposta": "A rotação da Terra",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Munna",
+        "descricao": "Pokémon do tipo Psíquico da quinta geração, rosado e flutuante, que se alimenta de sonhos e evolui em Musharna.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Munna_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Munna, de Unova, se alimenta dos sonhos de pessoas e de pokémon. Segundo a Pokédex, o que ele solta no ar quando come um sonho agradável?",
+      "resposta": "Uma névoa cor-de-rosa",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Munna_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Gulpin",
+        "descricao": "Pokémon do tipo Venenoso da terceira geração, uma bolha verde capaz de engolir quase tudo, que evolui em Swalot.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Gulpin consegue engolir de uma vez algo do seu próprio tamanho. Segundo a Pokédex, quase todo o corpo dele é formado por qual órgão?",
+      "resposta": "Estômago",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Skiddo",
+        "descricao": "Pokémon cabrito do tipo Planta da sexta geração, com folhas nas costas, que evolui em Gogoat.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Skiddo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O cabrito Skiddo, de Kalos, não precisa comer se tiver sol e água. Segundo a Pokédex de Y, de onde ele tira energia?",
+      "resposta": "Das folhas das costas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Skiddo_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Aron",
+        "descricao": "Pokémon dos tipos Aço e Pedra da terceira geração, de corpo de ferro, que evolui em Lairon e depois em Aggron.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Aron_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Aron forma o corpo de aço comendo o minério de ferro que cava nas montanhas. Segundo a Pokédex, que construções humanas ele às vezes devora, causando estragos?",
+      "resposta": "Pontes e trilhos de trem",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Aron_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Joltik",
+        "descricao": "Pokémon aranha minúsculo dos tipos Inseto e Elétrico da quinta geração, que evolui em Galvantula.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Joltik_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A aranha Joltik, de Unova, não consegue gerar eletricidade própria. Segundo a Pokédex, como ela obtém a energia de que precisa?",
+      "resposta": "Suga a estática de pokémon maiores",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Joltik_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Tatsugiri",
+        "descricao": "Pokémon dos tipos Dragão e Água da nona geração, um pequeno peixe de Paldea que vive em parceria com Dondozo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Numa batalha em dupla, a habilidade Commander faz Tatsugiri se esconder dentro do seu parceiro Dondozo para comandá-lo. Em que parte do corpo dele?",
+      "resposta": "Na boca",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Commander_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Palafin",
+        "descricao": "Pokémon golfinho do tipo Água da nona geração, evolução de Finizen, que vira um super-herói na Forma Herói.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O golfinho Palafin começa a batalha na fraca Forma Zero. Graças à habilidade Zero to Hero, o que ele precisa fazer para virar a Forma Herói?",
+      "resposta": "Sair de campo e voltar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zero_to_Hero_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "id_existente": "oricorio",
+        "nome": "Oricorio",
+        "descricao": "Pokémon ave dançarina da sétima geração, número 741 da Pokédex Nacional, com quatro estilos de dança.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A ave Oricorio tem a habilidade Dancer. Como ela reage quando outro pokémon, aliado ou adversário, usa um golpe de dança na batalha?",
+      "resposta": "Copia a dança na hora",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dancer_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "id_existente": "golisopod",
+        "nome": "Golisopod",
+        "descricao": "Pokémon dos tipos Inseto e Água, número 768 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Apesar da pose de guerreiro, Golisopod tem a habilidade Emergency Exit. O que ela o faz fazer quando perde metade da vida?",
+      "resposta": "Fugir da batalha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Emergency_Exit_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Happiny",
+        "descricao": "Pokémon bebê do tipo Normal da quarta geração, forma anterior de Chansey.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Happiny_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O bebê Happiny, que um dia vira Chansey, carrega com todo o cuidado uma pedra branca e redonda na bolsinha. Segundo a Pokédex, o que ele acha que ela é?",
+      "resposta": "Um ovo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Happiny_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Sableye",
+        "descricao": "Pokémon dos tipos Sombrio e Fantasma da terceira geração, de olhos de cristal, que vive no escuro das cavernas.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O fantasma Sableye vive no fundo das cavernas e cava o chão com as garras afiadas. Segundo a Pokédex, do que ele se alimenta?",
+      "resposta": "Pedras preciosas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Cubchoo",
+        "descricao": "Pokémon ursinho do tipo Gelo da quinta geração, de nariz sempre escorrendo, que evolui em Beartic.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cubchoo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O ursinho Cubchoo vive com o nariz escorrendo e sempre funga a meleca de volta. Segundo a Pokédex, por que ele faz isso?",
+      "resposta": "É a matéria-prima dos seus golpes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cubchoo_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Toxel",
+        "descricao": "Pokémon bebê dos tipos Elétrico e Venenoso da oitava geração, que evolui em Toxtricity.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Toxel_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O bebê Toxel, de Galar, evolui em Toxtricity na Forma Amped ou na Forma Low Key. O que decide qual das duas surge?",
+      "resposta": "A natureza dele",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Toxel_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Bramblin",
+        "descricao": "Pokémon dos tipos Planta e Fantasma da nona geração, uma bola de capim seco que rola pelo vento em Paldea e evolui em Brambleghast.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bramblin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, o que Pawmo, Rellor e Bramblin têm em comum na hora de evoluir?",
+      "resposta": "Andar mil passos com o jogador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bramblin_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Tangela",
+        "descricao": "Pokémon do tipo Planta da primeira geração, coberto de cipós azuis, que na quarta geração ganhou a evolução Tangrowth.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na quarta geração, Tangela, Yanma e Piloswine ganharam novas evoluções. O que os três precisam ter para evoluir em Tangrowth, Yanmega e Mamoswine?",
+      "resposta": "Saber o golpe Ancient Power",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "id_existente": "regigigas",
+        "nome": "Regigigas",
+        "descricao": "Pokémon do tipo Normal, número 486 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Por causa da habilidade exclusiva Slow Start, o colosso Regigigas começa cada batalha lento e enfraquecido. Por quantos turnos dura esse começo arrastado?",
+      "resposta": "Cinco turnos",
+      "distratores": [
+        "Três turnos",
+        "Sete turnos",
+        "Dez turnos"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Slow_Start_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Cherrim",
+        "descricao": "Pokémon do tipo Planta da quarta geração, em forma de flor de cerejeira, evolução de Cherubi, que muda de forma com o tempo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Cherrim, de Sinnoh, costuma ficar fechado como um botão roxo. Com a habilidade Flower Gift, que condição do tempo faz suas pétalas cor-de-rosa se abrirem?",
+      "resposta": "Sol forte",
+      "distratores": [
+        "Chuva forte",
+        "Granizo",
+        "Tempestade de areia"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Flower_Gift_(Ability)",
+        "https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Metagross",
+        "descricao": "Pokémon dos tipos Aço e Psíquico da terceira geração, de quatro patas, evolução final de Beldum e Metang.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, o colosso de aço Metagross resolve cálculos difíceis mais depressa que um supercomputador. Quantos cérebros ele tem?",
+      "resposta": "Quatro",
+      "distratores": [
+        "Dois",
+        "Três",
+        "Seis"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Clamperl",
+        "descricao": "Pokémon ostra do tipo Água da terceira geração, que evolui em Huntail ou em Gorebyss quando trocado segurando certos itens.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Clamperl_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "A ostra Clamperl evolui ao ser trocada, e o item que ela segura decide o resultado. Que item a transforma em Gorebyss?",
+      "resposta": "Deep Sea Scale",
+      "distratores": [
+        "Deep Sea Tooth",
+        "Dragon Scale",
+        "Prism Scale"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Clamperl_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Deep_Sea_Scale"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Crabrawler",
+        "descricao": "Pokémon caranguejo boxeador do tipo Lutador da sétima geração, que evolui em Crabominable.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crabrawler_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Sun e Moon, o caranguejo boxeador Crabrawler só evolui em Crabominable se subir de nível num lugar específico de Alola. Que lugar é esse?",
+      "resposta": "Mount Lanakila",
+      "distratores": [
+        "Wela Volcano Park",
+        "Mount Hokulani",
+        "Vast Poni Canyon"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Crabrawler_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Volbeat",
+        "descricao": "Pokémon vaga-lume do tipo Inseto da terceira geração, de cauda luminosa, companheiro de Illumise.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, os vaga-lumes Volbeat desenham figuras no céu noturno com a luz da cauda, atraídos pelo perfume doce de qual pokémon?",
+      "resposta": "Illumise",
+      "distratores": [
+        "Beautifly",
+        "Combee",
+        "Dustox"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    },
+    {
+      "ancora": {
+        "nome": "Greedent",
+        "descricao": "Pokémon esquilo do tipo Normal da oitava geração, guloso por berries, evolução de Skwovet.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Greedent_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex de Sword, o esquilo guloso Greedent enfia tantas berries num lugar do corpo que elas vivem caindo, sem que ele perceba. Onde?",
+      "resposta": "Na cauda",
+      "distratores": [
+        "Nas bochechas",
+        "Na barriga",
+        "Nas orelhas"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Greedent_(Pok%C3%A9mon)"
+      ],
+      "subtema_colecao": "Pokédex"
+    }
+  ]
+}

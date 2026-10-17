@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Ao arremessar uma chuva de moedas com Make It Rain, seu golpe exclusivo, Gholdengo sai enfraquecido. Que atributo dele diminui?",
+        "resposta": "Ataque Especial"
+      },
+      "existentes": [
+        {
+          "id": "q10025",
+          "pergunta": "Segundo a Pokédex de Scarlet, o corpo do pokémon dourado Gholdengo é formado por quê?",
+          "resposta": "Mil moedas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Urshifu tem um golpe exclusivo para cada estilo de luta: Wicked Blow, no estilo Single Strike, e Surging Strikes, no Rapid Strike. De que tipos são esses golpes?",
+        "resposta": "Sombrio e Água"
+      },
+      "existentes": [
+        {
+          "id": "q11267",
+          "pergunta": "Em The Isle of Armor, Kubfu evolui em Urshifu, que pode ter dois estilos de luta diferentes. O que decide qual será o estilo?",
+          "resposta": "A torre que Kubfu escala"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Montado no corcel Spectrier, Calyrex ataca com Astral Barrage. Montado no outro corcel, Glastrier, qual é o seu golpe exclusivo?",
+        "resposta": "Glacial Lance"
+      },
+      "existentes": [
+        {
+          "id": "q10215",
+          "pergunta": "Calyrex, o antigo rei de Galar, cavalga um de dois corcéis: Glastrier, de gelo, ou qual outro?",
+          "resposta": "Spectrier"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Doom Desire, golpe exclusivo de Jirachi, é um feixe de luz que não atinge o alvo na hora. Quando o golpe finalmente acerta?",
+        "resposta": "Dois turnos depois"
+      },
+      "existentes": [
+        {
+          "id": "q09981",
+          "pergunta": "Segundo os jogos e o filme Jirachi: Realizador de Desejos, o pequeno pokémon mítico fica acordado apenas sete dias a cada quanto tempo?",
+          "resposta": "Mil anos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No Movimento Z exclusivo de Eevee, Extreme Evoboost, as evoluções dele aparecem para ajudar. Que efeito esse movimento tem sobre Eevee?",
+        "resposta": "Aumenta muito todos os atributos"
+      },
+      "existentes": [
+        {
+          "id": "q09847",
+          "pergunta": "O nome Eevee imita a pronúncia, em inglês, das duas primeiras letras de qual palavra, que resume a grande marca desse pokémon?",
+          "resposta": "Evolution, evolução"
+        },
+        {
+          "id": "q10272",
+          "pergunta": "Em Gold e Silver, Eevee muito apegado ao treinador pode evoluir para Espeon ou para Umbreon. O que decide qual dos dois surge?",
+          "resposta": "Ser dia ou noite"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o efeito colateral de Make It Rain, não sobre a composição do corpo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tipos dos golpes exclusivos, não o que decide o estilo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pede o golpe de Glastrier; a existente pede o nome do outro corcel (Spectrier), fato distinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Funcionamento de Doom Desire, não o tempo de sono de Jirachi."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Efeito do Movimento Z, fato diferente do nome ou da evolução por dia/noite."
+    }
+  ]
+}

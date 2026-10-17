@@ -1,0 +1,635 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Habilidade (Pokémon)",
+        "descricao": "Efeito passivo próprio de cada pokémon nas batalhas, como Intimidate ou Levitate, introduzido nos jogos da terceira geração.",
+        "variantes": [
+          "Ability",
+          "Habilidades"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ability"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Habilidades como Intimidate e Levitate, efeitos passivos que cada pokémon leva para as batalhas, estrearam em qual par de jogos da série principal?",
+      "resposta": "Ruby e Sapphire",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ability",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ],
+      "distratores": [
+        "Gold e Silver",
+        "Diamond e Pearl",
+        "Black e White"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Item segurado (Pokémon)",
+        "descricao": "Mecânica dos jogos Pokémon em que o pokémon carrega um item, como uma fruta, que age durante a batalha, introduzida na segunda geração.",
+        "variantes": [
+          "Held item"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Held_item"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A possibilidade de um pokémon segurar um item na batalha, como uma fruta que ele come sozinho quando a vida cai, estreou em qual par de jogos?",
+      "resposta": "Gold e Silver",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Held_item",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ],
+      "distratores": [
+        "Red e Blue",
+        "Ruby e Sapphire",
+        "Diamond e Pearl"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Forma regional",
+        "descricao": "Variação de um pokémon já conhecido adaptada ao ambiente de outra região, com aparência e às vezes tipo diferentes, como as formas de Alola e de Galar.",
+        "variantes": [
+          "Regional form",
+          "Regional variant"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Regional_form"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "As formas regionais, versões de pokémon antigos adaptadas ao ambiente de outra região, estrearam em qual par de jogos?",
+      "resposta": "Sun e Moon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Regional_form",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "distratores": [
+        "X e Y",
+        "Sword e Shield",
+        "Black e White"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Pokémon Brilliant Diamond e Shining Pearl",
+        "descricao": "Recriações de Pokémon Diamond e Pearl para o Nintendo Switch, ambientadas na região de Sinnoh.",
+        "variantes": [
+          "Brilliant Diamond",
+          "Shining Pearl",
+          "BDSP"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Brilliant_Diamond_and_Shining_Pearl"
+        ],
+        "id_existente": "pokemon_brilliant_diamond_e_shining_pearl"
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Brilliant Diamond e Shining Pearl, que levaram a região de Sinnoh de volta, agora ao Nintendo Switch, chegaram às lojas em que ano?",
+      "resposta": "2021",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Brilliant_Diamond_and_Shining_Pearl"
+      ],
+      "distratores": [
+        "2019",
+        "2020",
+        "2022"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "The Isle of Armor",
+        "descricao": "Primeira parte da expansão de Pokémon Sword e Shield, ambientada numa ilha de Galar onde o jogador treina num dojo com o lendário Kubfu.",
+        "variantes": [
+          "Ilha da Armadura"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/The_Isle_of_Armor"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "The Isle of Armor, a primeira parte da expansão de Sword e Shield, em que o jogador treina num dojo com Kubfu, foi lançada em que ano?",
+      "resposta": "2020",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield",
+        "https://bulbapedia.bulbagarden.net/wiki/The_Isle_of_Armor"
+      ],
+      "distratores": [
+        "2019",
+        "2021",
+        "2022"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Divisão físico-especial",
+        "descricao": "Mudança introduzida em Pokémon Diamond e Pearl que passou a definir a categoria física ou especial de cada golpe individualmente.",
+        "variantes": [
+          "Physical/special split"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Physical_move"
+        ],
+        "id_existente": "divisao_fisico_especial"
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Qual destas novidades de batalha estreou primeiro nos jogos principais de Pokémon?",
+      "resposta": "Divisão físico-especial",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Physical_move",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+      ],
+      "distratores": [
+        "Habilidade oculta",
+        "Megaevolução",
+        "Movimento Z"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Base secreta",
+        "descricao": "Esconderijo que o jogador abre em árvores, arbustos ou paredes de pedra e decora com móveis em Pokémon Ruby, Sapphire e Emerald.",
+        "variantes": [
+          "Secret Base"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Secret_Base"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, um golpe especial abre um esconderijo numa árvore, num arbusto ou numa parede de pedra, que o jogador decora com móveis e bonecos. Como ele se chama?",
+      "resposta": "Base secreta (Secret Base)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Secret_Base",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Underground (Sinnoh)",
+        "descricao": "Enorme rede de túneis sob a região de Sinnoh, em Pokémon Diamond, Pearl e Platinum, onde o jogador cava fósseis e monta sua base secreta.",
+        "variantes": [
+          "Underground",
+          "Grand Underground",
+          "Subterrâneo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Underground"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, um enorme labirinto de túneis se espalha debaixo de Sinnoh, onde o jogador cava fósseis e monta sua base. Como esse lugar se chama?",
+      "resposta": "Underground",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Underground",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Batalha de rotação",
+        "descricao": "Formato de batalha introduzido em Pokémon Black e White em que cada lado põe três pokémon em campo, mas só o da frente ataca, podendo ser trocado girando a formação.",
+        "variantes": [
+          "Rotation Battle"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rotation_Battle"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Black e White estrearam as batalhas triplas e outro formato, em que três pokémon ficam em campo, mas só o da frente ataca e pode ser trocado a cada turno. Qual?",
+      "resposta": "Batalha de rotação (Rotation Battle)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rotation_Battle",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Pokémon World Tournament",
+        "descricao": "Instalação de batalhas da cidade de Driftveil, em Pokémon Black 2 e White 2, onde o jogador enfrenta líderes de ginásio e campeões de todas as regiões.",
+        "variantes": [
+          "PWT",
+          "Torneio Mundial Pokémon"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_World_Tournament"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Black 2 e White 2, numa instalação da cidade de Driftveil, o jogador pode enfrentar líderes de ginásio e campeões de todas as regiões anteriores. Como ela se chama?",
+      "resposta": "Pokémon World Tournament",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_World_Tournament",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Shiny Charm",
+        "descricao": "Item estreante em Pokémon Black 2 e White 2, dado a quem completa a Pokédex Nacional, que aumenta a chance de encontrar pokémon brilhantes.",
+        "variantes": [
+          "Amuleto Brilhante"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shiny_Charm"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que item, estreante em Black 2 e White 2 e entregue a quem completa a Pokédex Nacional, aumenta a chance de encontrar pokémon de cores raras?",
+      "resposta": "Shiny Charm",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Shiny_Charm"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Pokémon X e Y",
+        "descricao": "Par de jogos Pokémon da sexta geração, lançado em 2013 para o Nintendo 3DS e ambientado na região de Kalos.",
+        "variantes": [
+          "Pokémon X",
+          "Pokémon Y"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+        ],
+        "id_existente": "pokemon_x_e_y"
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Qual par de jogos da série principal foi o primeiro a trocar os pokémon desenhados em duas dimensões por modelos em 3D nas batalhas?",
+      "resposta": "X e Y",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Sky Battle",
+        "descricao": "Formato de batalha de Pokémon X e Y em que só podem lutar pokémon voadores ou com a habilidade de levitar.",
+        "variantes": [
+          "Batalha aérea"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sky_Battle"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, alguns treinadores de Kalos desafiam o jogador num formato em que só podem lutar pokémon que voam ou levitam. Como se chama esse tipo de batalha?",
+      "resposta": "Sky Battle",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sky_Battle",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Latios",
+        "descricao": "Pokémon lendário dos tipos Dragão e Psíquico da terceira geração, irmão de Latias.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Omega Ruby, ao tocar a Flauta Eon, o jogador sobrevoa toda a região de Hoenn nas costas de um dragão lendário. Que pokémon é esse?",
+      "resposta": "Latios",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Eon_Flute",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Pokémon Totem",
+        "descricao": "Pokémon maior que o normal, envolto numa aura, enfrentado no fim das provas do Desafio das Ilhas em Pokémon Sun e Moon.",
+        "variantes": [
+          "Totem Pokémon",
+          "Pokémon Dominante"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Totem_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "No fim das provas de Sun e Moon, o jogador enfrenta um pokémon maior que o normal, envolto numa aura, que chama aliados para a luta. Como esse pokémon é chamado?",
+      "resposta": "Pokémon Totem (Totem Pokémon)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Totem_Pok%C3%A9mon",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Poké Ride",
+        "descricao": "Recurso de Pokémon Sun e Moon que substitui as Máquinas Ocultas, permitindo chamar pokémon para montar e atravessar obstáculos.",
+        "variantes": [
+          "Ride Pager",
+          "Pokémon Ride"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ride"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, sem as Máquinas Ocultas, o jogador chama Lapras, Tauros ou Charizard para atravessar o mar, quebrar pedras e voar. Como se chama esse recurso?",
+      "resposta": "Poké Ride",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Ride"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Gigantamax",
+        "descricao": "Variação do Dynamax de Pokémon Sword e Shield em que certos pokémon, além de crescer, ganham uma aparência especial.",
+        "variantes": [
+          "Gigantamax"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gigantamax"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, alguns pokémon gigantes também mudam de aparência, como Pikachu, que volta a ficar gorducho como nos anos noventa. Como se chama essa forma especial?",
+      "resposta": "Gigantamax",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gigantamax",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Batalha Max Raid",
+        "descricao": "Batalha de Pokémon Sword e Shield, iniciada em tocas da Área Selvagem, em que até quatro treinadores enfrentam juntos um pokémon em Dynamax.",
+        "variantes": [
+          "Max Raid Battle"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Max_Raid_Battle"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Na Área Selvagem de Sword e Shield, colunas de luz saem de tocas no chão, e ali até quatro treinadores se unem contra um pokémon gigante. Como se chamam essas batalhas?",
+      "resposta": "Batalhas Max Raid (Max Raid Battles)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Max_Raid_Battle",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Pokémon Sword e Shield",
+        "descricao": "Par de jogos Pokémon da oitava geração, lançado em 2019 para o Nintendo Switch e ambientado na região de Galar.",
+        "variantes": [
+          "Pokémon Sword",
+          "Pokémon Shield"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ],
+        "id_existente": "pokemon_sword_e_shield"
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Antes mesmo do lançamento, Sword e Shield provocaram entre os fãs uma polêmica apelidada de Dexit. Qual foi o motivo da revolta?",
+      "resposta": "Nem todos os pokémon estariam no jogo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Linking Cord",
+        "descricao": "Item de Pokémon Legends: Arceus que faz evoluir os pokémon que antes só evoluíam por troca.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Linking_Cord"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, pokémon que antes só evoluíam por troca, como Machoke e Haunter, evoluem usando qual item?",
+      "resposta": "Linking Cord",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Linking_Cord"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Teratipo",
+        "descricao": "Tipo que um pokémon assume ao terastalizar em Pokémon Scarlet e Violet, que pode ser diferente dos seus tipos normais.",
+        "variantes": [
+          "Tera Type"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tera_Type"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao terastalizar em Scarlet e Violet, o pokémon ganha na cabeça uma coroa de cristal, de formato variado. O que o formato dessa coroa indica?",
+      "resposta": "O Teratipo do pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tera_Type",
+        "https://bulbapedia.bulbagarden.net/wiki/Terastal_phenomenon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Poké Radar",
+        "descricao": "Aparelho estreante em Pokémon Diamond e Pearl que faz a grama alta tremer para revelar pokémon e permite encadear encontros com a mesma espécie.",
+        "variantes": [
+          "Pokéradar"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, um aparelho faz a grama alta tremer para revelar pokémon escondidos e permite encadear encontros com a mesma espécie. Como ele se chama?",
+      "resposta": "Poké Radar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9_Radar"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Pokémon Blue (versão japonesa)",
+        "descricao": "Edição especial japonesa de 1996 dos primeiros jogos Pokémon, com gráficos revistos, vendida inicialmente por encomenda pela revista CoroCoro Comic.",
+        "variantes": [
+          "Pocket Monsters Ao"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No Japão, a versão Blue saiu meses depois de Red e Green, ainda em 1996, mas não chegou logo às lojas. Como ela era vendida no começo?",
+      "resposta": "Por encomenda, pela revista CoroCoro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Crobat",
+        "descricao": "Pokémon morcego dos tipos Venenoso e Voador da segunda geração, evolução de Golbat obtida pela amizade.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que pokémon morcego de quatro asas, apresentado em Gold e Silver, surge quando um Golbat muito apegado ao treinador sobe de nível?",
+      "resposta": "Crobat",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Expansion Pass de Sword e Shield",
+        "descricao": "Conteúdo pago baixável de Pokémon Sword e Shield, formado por The Isle of Armor e The Crown Tundra, lançado no lugar de uma terceira versão.",
+        "variantes": [
+          "Expansion Pass"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Sword_and_Shield_Expansion_Pass"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em vez da tradicional terceira versão, como Platinum e Emerald, Sword e Shield ganharam conteúdo novo de outra forma, pela primeira vez na série. Qual?",
+      "resposta": "Expansões pagas baixáveis (Expansion Pass)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Sword_and_Shield_Expansion_Pass"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    }
+  ]
+}

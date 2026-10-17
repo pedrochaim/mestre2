@@ -1,0 +1,258 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Jungle é a segunda coleção em inglês (1999) com Scyther, Kangaskhan e Snorlax; a Wikipédia confirma a sequência das coleções.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fossil traz Aerodactyl, Ditto e as três aves holográficas; os distratores são coleções da mesma franquia que não têm essas cartas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dark Charizard e Dark Blastoise são de Team Rocket (2000); a Wikipédia confirma os pokémon Dark.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gym Heroes (2000) estreou as cartas de líderes de ginásio, seguida por Gym Challenge; a ordem consta na Wikipédia.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado vaza a resposta ao dizer 'Sombrio' (Darkness); melhor perguntar a coleção, em múltipla escolha.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "multipla",
+        "pergunta": "Os tipos Aço e Sombrio estrearam nos jogos Gold e Silver. Que coleção do card game criou as primeiras energias desses dois tipos?",
+        "resposta": "Neo Genesis",
+        "distratores": [
+          "Neo Discovery",
+          "Neo Revelation",
+          "Aquapolis"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Neo_Genesis_(TCG)",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Legendary Collection (2002) estreou as cartas reverse holo, em que brilha a moldura; a Wikipédia lista a coleção.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O e-Reader do Game Boy Advance lê cartas com códigos de pontos, e a série e-Card (Expedition) usava essas tiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A carta Ancient Mew foi distribuída nos cinemas dos EUA com Pokémon 2000 e traz texto em escrita inventada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As cartas Gold Star da era EX mostram pokémon shiny com uma estrela ao lado do nome; a Wikipédia cita Gold Star.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O fato está correto, mas '(nível X)' não é a leitura oficial; a leitura certa é 'Level X'.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Na era Diamond e Pearl do card game, um tipo de carta era posto por cima do pokémon ativo de mesmo nome, como uma evolução extra. Como ele se chama?",
+        "resposta": "Pokémon LV.X (Level X)",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_LV.X_(TCG)",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As cartas BREAK da era X e Y são horizontais e vão sobre o pokémon evoluído; os distratores são outros tipos de carta da franquia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cada jogador só pode usar um ataque GX por partida; a regra é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia lista Tag Team como mecânica da era Sun e Moon; Pikachu e Zekrom e Eevee e Snorlax são cartas Tag Team.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nocautear um pokémon VMAX vale três cartas de prêmio, e os distratores são números plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A regra é de uma carta pokémon Radiant por baralho, na era Sword e Shield.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos em inglês e em português confirmam que a energia Fada passou a ser Psíquica a partir de Sword e Shield.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português diz que cada jogador pega uma mão de sete cartas.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia diz que as cartas padrão são Pokémon, Energia e Treinador.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Banco comporta cinco pokémon na regra padrão; o trecho em português cita o limite de cinco.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português diz que se liga uma carta Energy por turno ('Apenas uma vez').",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Um baralho pode ter até quatro cópias de cartas de mesmo nome, exceto energias básicas; os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Confuso é marcado girando a carta 180 graus, de cabeça para baixo; Adormecido e Paralisado giram 90 graus.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte da Wikipédia em inglês não existe; o artigo do card game confirma o concurso da CoroCoro e Atsuko Nishida.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "A carta Pikachu Illustrator, prêmio de um concurso de ilustração da revista CoroCoro, traz um Pikachu desenhado por qual ilustradora japonesa?",
+        "resposta": "Atsuko Nishida",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O detalhe da sombra é obscuro e difícil de responder com precisão; o enunciado ainda entrega o sentido de 'Shadowless'.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia confirma 2004, mas os distratores 2001 e 2009 estão distantes; trocar por anos próximos e críveis.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "O Campeonato Mundial de Pokémon, que no começo reunia só jogadores do card game, foi disputado pela primeira vez em que ano?",
+        "resposta": "2004",
+        "distratores": [
+          "2002",
+          "2006",
+          "2008"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_World_Championships"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia confirma as divisões Junior, Senior e Masters por idade.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia confirma que a Play! Pokémon organiza os torneios do card game e dos videogames.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As quatro cartas lendárias do jogo de Game Boy Color são Articuno, Zapdos, Moltres e Dragonite; os distratores não estão entre elas.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia confirma o lançamento no Japão em dezembro de 1998.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Celebrations (2021) comemorou os 25 anos de Pokémon com reimpressões clássicas, como o Charizard do Base Set.",
+      "reescrita": null
+    }
+  ]
+}

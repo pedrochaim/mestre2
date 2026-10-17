@@ -1,0 +1,754 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Saffron",
+        "descricao": "Grande cidade no centro da região de Kanto, nos jogos Pokémon Red e Blue, sede da Silph e do ginásio psíquico de Sabrina.",
+        "variantes": [
+          "Saffron City",
+          "Cidade de Saffron"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Saffron_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O mapa de Kanto copia a região japonesa de mesmo nome. Saffron, a metrópole no centro desse mapa, corresponde a qual cidade real?",
+      "resposta": "Tóquio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Saffron_City",
+        "https://bulbapedia.bulbagarden.net/wiki/Kanto"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Saffron",
+        "descricao": "Grande cidade no centro da região de Kanto, nos jogos Pokémon Red e Blue, sede da Silph e do ginásio psíquico de Sabrina.",
+        "variantes": [
+          "Saffron City",
+          "Cidade de Saffron"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Saffron_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, guardas com sede bloqueiam os portões de Saffron. O que o jogador precisa entregar a eles para conseguir passar?",
+      "resposta": "Uma bebida (água, refrigerante ou limonada)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Saffron_City",
+        "https://bulbapedia.bulbagarden.net/wiki/Fresh_Water"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Dojo de Luta de Saffron",
+        "descricao": "Dojo de lutadores ao lado do ginásio de Saffron, em Kanto, nos jogos Pokémon Red e Blue, que dá um pokémon de prêmio a quem vence seu mestre.",
+        "variantes": [
+          "Fighting Dojo",
+          "Dojo de Saffron"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fighting_Dojo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, ao lado do ginásio de Saffron, quem vence o dojo de luta escolhe um prêmio: Hitmonlee ou qual outro pokémon?",
+      "resposta": "Hitmonchan",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fighting_Dojo"
+      ],
+      "distratores": [
+        "Machamp",
+        "Primeape",
+        "Hitmontop"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "moltres",
+        "nome": "Moltres",
+        "descricao": "Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, Moltres, a ave lendária de fogo, espera o jogador em qual lugar de Kanto, o último caminho antes do Platô Índigo?",
+      "resposta": "Victory Road",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Kanto_Victory_Road"
+      ],
+      "distratores": [
+        "Mt. Moon",
+        "Rock Tunnel",
+        "Diglett's Cave"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "id_existente": "eevee",
+        "nome": "Eevee",
+        "descricao": "Pokémon do tipo Normal, número 133 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Red e Blue, o jogador ganha um Eevee de presente no último andar de um prédio residencial. Em que cidade de Kanto fica esse prédio?",
+      "resposta": "Celadon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Celadon_Mansion",
+        "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Saffron",
+        "Fuchsia",
+        "Lavender"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "id_existente": "zona_safari_de_kanto",
+        "nome": "Zona Safári de Kanto",
+        "descricao": "Área de captura dos jogos Pokémon Red e Blue em que o jogador atira iscas e pedras nos pokémon em vez de batalhar.",
+        "variantes": [
+          "Safari Zone",
+          "Kanto Safari Zone"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kanto_Safari_Zone"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, o guarda da Zona Safári de Fuchsia dá ao jogador a Máquina Oculta de Força, ou Strength, se ele achar algo que o velho perdeu. O quê?",
+      "resposta": "A dentadura de ouro",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gold_Teeth",
+        "https://bulbapedia.bulbagarden.net/wiki/Kanto_Safari_Zone"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Goldenrod",
+        "descricao": "Grande cidade comercial da região de Johto, nos jogos Pokémon Gold e Silver, com loja de departamentos, torre de rádio e o ginásio de Whitney.",
+        "variantes": [
+          "Goldenrod City",
+          "Cidade de Goldenrod"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Goldenrod_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Goldenrod, a grande cidade comercial de Johto, com loja de departamentos e torre de rádio, se inspira em qual cidade japonesa?",
+      "resposta": "Osaka",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Goldenrod_City",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Tohjo Falls",
+        "descricao": "Caverna com cachoeiras na rota que liga as regiões de Johto e Kanto, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Cachoeiras Tohjo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tohjo_Falls"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, uma caverna com cachoeiras, na estrada entre as duas regiões do jogo, se chama Tohjo Falls. Que dois nomes se juntam em Tohjo?",
+      "resposta": "Kanto e Johto",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tohjo_Falls"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "ho_oh",
+        "nome": "Ho-Oh",
+        "descricao": "Pokémon dos tipos Fogo e Voador, número 250 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Gold, com a Rainbow Wing em mãos, o jogador sobe ao topo de qual torre de Ecruteak para enfrentar o lendário Ho-Oh?",
+      "resposta": "Tin Tower",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bell_Tower",
+        "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Burned Tower",
+        "Sprout Tower",
+        "Radio Tower"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Platô Índigo",
+        "descricao": "Planalto na região de Kanto onde fica a Liga Pokémon enfrentada pelo jogador em Red e Blue e em Gold e Silver.",
+        "variantes": [
+          "Indigo Plateau",
+          "Platô Indigo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Indigo_Plateau"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que a Liga Pokémon que o jogador enfrenta em Red e Blue e a que ele enfrenta em Gold e Silver têm em comum no mapa?",
+      "resposta": "Ficam no mesmo lugar, o Platô Índigo (Indigo Plateau)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Indigo_Plateau",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Mossdeep",
+        "descricao": "Cidade-ilha da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, onde fica um centro espacial e o ginásio psíquico de Tate e Liza.",
+        "variantes": [
+          "Mossdeep City",
+          "Cidade de Mossdeep"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mossdeep_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby e Sapphire, que cidade-ilha de Hoenn, sede de um centro espacial, se inspira em Tanegashima, a ilha japonesa de onde partem foguetes?",
+      "resposta": "Mossdeep",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mossdeep_City",
+        "https://bulbapedia.bulbagarden.net/wiki/Mossdeep_Space_Center"
+      ],
+      "distratores": [
+        "Lilycove",
+        "Slateport",
+        "Dewford"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Fortree",
+        "descricao": "Cidade da região de Hoenn, nos jogos Pokémon Ruby e Sapphire, com casas no alto das árvores e o ginásio de tipo Voador de Winona.",
+        "variantes": [
+          "Fortree City",
+          "Cidade de Fortree"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Fortree_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby e Sapphire, em que cidade de Hoenn as casas ficam no alto das árvores, ligadas por pontes de madeira?",
+      "resposta": "Fortree",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fortree_City"
+      ],
+      "distratores": [
+        "Pacifidlog",
+        "Lilycove",
+        "Verdanturf"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Pacifidlog",
+        "descricao": "Pequena cidade no meio do mar da região de Hoenn, nos jogos Pokémon Ruby e Sapphire.",
+        "variantes": [
+          "Pacifidlog Town"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Pacifidlog_Town"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No meio do mar de Hoenn, a pequena cidade de Pacifidlog não tem chão firme. Sobre o que ela é construída?",
+      "resposta": "Troncos flutuantes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pacifidlog_Town"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "castform",
+        "nome": "Castform",
+        "descricao": "Pokémon do clima, tipo Normal na forma normal, da terceira geração, número 351 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, o jogador ganha Castform de presente depois de expulsar os vilões de um centro de pesquisas da Rota 119. Que lugar é esse?",
+      "resposta": "Weather Institute",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Weather_Institute",
+        "https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "cresselia",
+        "nome": "Cresselia",
+        "descricao": "Pokémon do tipo Psíquico, número 488 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em Diamond e Pearl, para acabar com os pesadelos do filho de um marinheiro de Canalave, o jogador procura Cresselia em qual ilha?",
+      "resposta": "Fullmoon Island",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fullmoon_Island",
+        "https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon)"
+      ],
+      "distratores": [
+        "Newmoon Island",
+        "Iron Island",
+        "Fight Area"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Veilstone",
+        "descricao": "Cidade da região de Sinnoh, nos jogos Pokémon Diamond e Pearl, escavada na rocha, com loja de departamentos e o quartel da Equipe Galáctica.",
+        "variantes": [
+          "Veilstone City",
+          "Cidade de Veilstone"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Veilstone_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Veilstone, a cidade de Sinnoh escavada na rocha, exibe enormes pedras espalhadas pela cidade. Segundo os moradores, o que são essas pedras?",
+      "resposta": "Meteoritos que caíram do céu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Veilstone_City"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Old Chateau",
+        "descricao": "Mansão abandonada e assombrada na floresta de Eterna, em Sinnoh, nos jogos Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Velho Castelo de Eterna"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Old_Chateau"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, numa mansão abandonada na floresta de Eterna, o fantasma Rotom aparece à noite quando o jogador examina qual aparelho?",
+      "resposta": "A televisão",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Old_Chateau",
+        "https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "volcarona",
+        "nome": "Volcarona",
+        "descricao": "Pokémon dos tipos Inseto e Fogo, número 637 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volcarona_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, em que ruínas antigas, quase soterradas pela areia do deserto de Unova, o jogador encontra uma Volcarona no andar mais fundo?",
+      "resposta": "Relic Castle",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Relic_Castle",
+        "https://bulbapedia.bulbagarden.net/wiki/Volcarona_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Geosenge",
+        "descricao": "Cidadezinha da região de Kalos, nos jogos Pokémon X e Y, cercada de pedras antigas, sob a qual está escondida a arma suprema.",
+        "variantes": [
+          "Geosenge Town"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Geosenge_Town"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, as fileiras de pedras antigas da cidadezinha de Geosenge, em Kalos, se inspiram em qual sítio pré-histórico francês?",
+      "resposta": "Alinhamentos de Carnac",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Geosenge_Town",
+        "https://en.wikipedia.org/wiki/Carnac_stones"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Tower of Mastery",
+        "descricao": "Torre da cidade de Shalour, em Kalos, nos jogos Pokémon X e Y, ligada aos segredos da megaevolução.",
+        "variantes": [
+          "Torre da Maestria"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tower_of_Mastery"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, a Tower of Mastery, a torre da cidade de Shalour ligada aos segredos da megaevolução, lembra qual abadia francesa erguida sobre um rochedo?",
+      "resposta": "Monte Saint-Michel",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tower_of_Mastery",
+        "https://en.wikipedia.org/wiki/Mont-Saint-Michel"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Battle Château",
+        "descricao": "Castelo de batalhas da região de Kalos, nos jogos Pokémon X e Y, onde os treinadores sobem de posto a cada vitória.",
+        "variantes": [
+          "Castelo de Batalha"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Battle_Ch%C3%A2teau"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No Battle Château de Kalos, em X e Y, os treinadores sobem de posto conforme vencem batalhas. Que tipo de título eles recebem?",
+      "resposta": "Títulos de nobreza",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Battle_Ch%C3%A2teau"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "mewtwo",
+        "nome": "Mewtwo",
+        "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em X e Y, Mewtwo se esconde numa caverna perto de um refúgio de pokémon que fugiram de maus-tratos humanos. Que lugar de Kalos é esse?",
+      "resposta": "Pokémon Village",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Village",
+        "https://bulbapedia.bulbagarden.net/wiki/Unknown_Dungeon"
+      ],
+      "distratores": [
+        "Lost Hotel",
+        "Snowbelt",
+        "Couriway"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Akala",
+        "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+        "variantes": [
+          "Ilha Akala",
+          "Akala Island"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Akala_Island"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os nomes das quatro ilhas principais de Alola, Melemele, Akala, Ula'ula e Poni, têm em comum?",
+      "resposta": "São nomes de cores em havaiano",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Akala_Island",
+        "https://bulbapedia.bulbagarden.net/wiki/Melemele_Island",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Hau'oli",
+        "descricao": "Maior cidade da região de Alola, na ilha Melemele, nos jogos Pokémon Sun e Moon.",
+        "variantes": [
+          "Hau'oli City",
+          "Hauʻoli"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hau%CA%BBoli_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Hau'oli, a maior cidade de Alola, com prédios, lojas e praia na ilha Melemele, se inspira em qual cidade havaiana?",
+      "resposta": "Honolulu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hau%CA%BBoli_City"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Turffield",
+        "descricao": "Vilarejo rural da região de Galar, nos jogos Pokémon Sword e Shield, onde fica o ginásio de Planta de Milo e um grande desenho antigo num morro.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Turffield"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, perto de Turffield, um desenho gigantesco e antigo cobre a encosta de um morro. Que tipo de monumento britânico ele imita?",
+      "resposta": "As figuras de giz das colinas inglesas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Turffield",
+        "https://en.wikipedia.org/wiki/Uffington_White_Horse"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Stow-on-Side",
+        "descricao": "Cidade da região de Galar, nos jogos Pokémon Sword e Shield, com um mural antigo e o ginásio de Bea ou de Allister.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Stow-on-Side"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome de Stow-on-Side, a cidade de Galar do mural antigo, brinca com o de qual cidadezinha inglesa da região dos Cotswolds?",
+      "resposta": "Stow-on-the-Wold",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Stow-on-Side",
+        "https://en.wikipedia.org/wiki/Stow-on-the-Wold"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Spikemuth",
+        "descricao": "Cidade decadente da região de Galar, nos jogos Pokémon Sword e Shield, onde fica o ginásio de tipo Sombrio de Piers.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Spikemuth"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, a batalha contra Piers em Spikemuth acontece sem Dynamax. Por que o fenômeno não funciona naquela cidade?",
+      "resposta": "Ela não fica sobre um Power Spot",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spikemuth",
+        "https://bulbapedia.bulbagarden.net/wiki/Power_Spot"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Eternatus",
+        "descricao": "Pokémon lendário dos tipos Venenoso e Dragão da oitava geração, fonte da energia do Dynamax em Pokémon Sword e Shield.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sword e Shield, o jogador enfrenta Eternatus no alto da torre de uma usina de energia. Em que cidade de Galar fica essa usina?",
+      "resposta": "Hammerlocke",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Energy_Plant",
+        "https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Grusha",
+        "descricao": "Líder do ginásio de tipo Gelo de Paldea, ex-atleta de snowboard, nos jogos Pokémon Scarlet e Violet.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Grusha"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, Grusha, ex-atleta de snowboard e líder do ginásio de Gelo, recebe os desafiantes no alto de qual montanha de Paldea?",
+      "resposta": "Glaseado",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Grusha",
+        "https://bulbapedia.bulbagarden.net/wiki/Glaseado_Mountain"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "hisui",
+        "nome": "Hisui",
+        "descricao": "Antiga região do jogo Pokémon Legends: Arceus, que corresponde a Sinnoh muitos anos antes dos jogos Diamond e Pearl.",
+        "variantes": [
+          "Região de Hisui"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hisui"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A antiga Hisui, de Legends: Arceus, recebe colonos vindos de longe para desbravar a região. Ela se inspira na ocupação de Hokkaido em qual era japonesa?",
+      "resposta": "Era Meiji",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hisui",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    }
+  ]
+}

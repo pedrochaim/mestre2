@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Japão, o redondo e macio Jigglypuff se chama Purin. Esse nome vem de qual doce?",
+        "resposta": "Pudim"
+      },
+      "existentes": [
+        {
+          "id": "q09817",
+          "pergunta": "No anime, por que Jigglypuff rabisca com sua caneta o rosto de quem ouve sua canção?",
+          "resposta": "Fica irritado porque todos dormem"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Ampharos, que guia os navios de Johto com a luz da cauda, tem no nome Pharos, nome grego de qual Maravilha do Mundo Antigo?",
+        "resposta": "Farol de Alexandria"
+      },
+      "existentes": [
+        {
+          "id": "q10040",
+          "pergunta": "Ao megaevoluir, Ampharos ganha uma longa crina branca e um segundo tipo, além de Elétrico. Que tipo é esse?",
+          "resposta": "Dragão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Umbreon, a evolução noturna de Eevee, tem o nome derivado de umbra, palavra latina para quê?",
+        "resposta": "Sombra"
+      },
+      "existentes": [
+        {
+          "id": "q09809",
+          "pergunta": "Com muita amizade, Eevee evolui para Espeon durante o dia. Nas mesmas condições, mas à noite, ele vira qual pokémon?",
+          "resposta": "Umbreon"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Rotom, o fantasma que se enfia em eletrodomésticos, tem um nome que é qual palavra escrita ao contrário?",
+        "resposta": "Motor"
+      },
+      "existentes": [
+        {
+          "id": "q10026",
+          "pergunta": "O fantasma elétrico Rotom entra em aparelhos e muda de forma: micro-ondas, máquina de lavar, geladeira, ventilador e qual outro?",
+          "resposta": "Cortador de grama"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Elgyem, de cabeça enorme, tem um nome que soa como LGM, sigla inglesa de little green men. Que seres essa expressão designa?",
+        "resposta": "Alienígenas"
+      },
+      "existentes": [
+        {
+          "id": "q12622",
+          "pergunta": "Segundo a Pokédex, Elgyem estaria ligado à queda de um disco voador num deserto, cinquenta anos antes. Que caso americano famoso isso lembra?",
+          "resposta": "Caso Roswell"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Greninja, a evolução final do inicial de água de Kalos, junta ninja com grenouille. O que significa essa palavra francesa?",
+        "resposta": "Rã"
+      },
+      "existentes": [
+        {
+          "id": "q10248",
+          "pergunta": "No fim da série XY, o Greninja de Ash fica em Kalos, ao lado do lendário Zygarde. Por que ele se separa do treinador?",
+          "resposta": "Para destruir as raízes gigantes restantes"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Primarina, a sereia cantora de Alola, tem um nome que lembra qual expressão italiana para a cantora principal de uma ópera?",
+        "resposta": "Prima-dona"
+      },
+      "existentes": [
+        {
+          "id": "q12561",
+          "pergunta": "Primarina, a sereia de Alola, canta Sparkling Aria e lança bolhas contra os adversários. Que efeito inesperado essa canção tem sobre um alvo que está queimado?",
+          "resposta": "Cura a queimadura"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Origem do nome japonês vs. comportamento no anime."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome vs. tipo da megaevolução."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Significado de umbra vs. condição de evolução; fatos distintos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Origem do nome vs. formas de eletrodomésticos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Significado da sigla LGM vs. caso Roswell da Pokédex."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome vs. enredo do anime."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome vs. efeito do golpe."
+    }
+  ]
+}

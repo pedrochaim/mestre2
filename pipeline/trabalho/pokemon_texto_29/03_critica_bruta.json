@@ -1,0 +1,260 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Inspiração de Sigilyph nas Linhas de Nazca é bem documentada; enunciado preciso e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cofagrigus é o sarcófago dourado de Unova; distratores fantasmas da mesma geração.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Claydol também é de barro, criado por civilização antiga, e pode competir como resposta; troquei o distrator.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "multipla",
+        "pergunta": "Que pokémon gigante de barro, criado por uma civilização antiga e com um selo no peito, se inspira na criatura animada por magia do folclore judaico?",
+        "resposta": "Golurk",
+        "distratores": [
+          "Conkeldurr",
+          "Gigalith",
+          "Probopass"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Golurk_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Golem"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ducklett/Swanna e O Patinho Feio é uma conexão clara e a fonte confirma o conto de Andersen.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Maractus vem de maraca + cactus; resposta específica e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tornadus e Thundurus se inspiram em Fūjin e Raijin; a fonte sustenta Raijin como deus do trovão.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Linha Gothita inspirada na Lolita gótica; a fonte confirma a subcategoria gótica.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex liga Elgyem a um disco voador caído no deserto, o que remete a Roswell.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Klefki é o pokémon chaveiro de Kalos, com entrada da Pokédex sobre chaves; distratores de Kalos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Clawitzer lembra o camarão-pistola, confirmado pela fonte e pelo artigo em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte afirma que Dragalge parece se basear no dragão-marinho-folhado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hoopa é inspirado no gênio de lâmpada/djinn; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Os nomes brasileiros dos estilos não são certos; usar os nomes das formas sem 'Estilo'.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Oricorio, a ave dançarina de Alola, muda de estilo conforme o néctar que bebe. Qual dos seus estilos dança o hula havaiano?",
+        "resposta": "Pa'u",
+        "distratores": [
+          "Baile",
+          "Pom-Pom",
+          "Sensu"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Hula"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dhelmise é o fantasma de algas com âncora; distratores fantasmas de Alola.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta contém 'Bambu', que aparece no enunciado, e é longa; pedir o nome da princesa.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Celesteela, a Ultracriatura em forma de foguete, lembra uma princesa lendária japonesa, encontrada bebê num talo brilhante e que volta para a Lua. Qual é o nome dela?",
+        "resposta": "Princesa Kaguya (Kaguya-hime)",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Celesteela_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/The_Tale_of_the_Bamboo_Cutter"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O nome Golisopod contém 'isopod' e vaza a resposta; a base do desenho também é incerta.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Vive em terra' é duvidoso, a resposta vaza com 'água' no enunciado e o nome em português é incerto.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Comfey e o lei havaiano é uma inspiração conhecida e a resposta é específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Silvally é inspirado na quimera; enunciado correto e resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Stonjourner se inspira em Stonehenge; distratores de Galar e de tipo Pedra/Terrestre.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lenda dos corvos da Torre de Londres está na fonte e a conexão com Corviknight é conhecida.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta ambígua entre vikings e berserkers, e o nome Perrserker vazaria 'berserker'.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Uma folha' é uma resposta genérica e quase chutável, fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Skeledirge se inspira no Dia dos Mortos mexicano; resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Quaquaval se inspira nos dançarinos de samba do carnaval brasileiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte mostra Khepri, o escaravelho egípcio que empurra o Sol, ligado ao desenho de Rabsca.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bombirdier é a ave-cegonha de Paldea que carrega e solta objetos; distratores aves de Paldea.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "As formas de Tatsugiri não imitam sushi de fato e não tenho certeza da inspiração; enunciado impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ting-Lu é o Tesouro da Ruína ligado a um vaso ritual (ding); distratores são os outros três.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome Ogerpon vem de 'ogre' e não de oni; limitar a inspiração ao visual.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Ogerpon, a pequena lendária mascarada de Kitakami, tem o visual inspirado em qual criatura chifruda do folclore japonês?",
+        "resposta": "Oni",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Oni"
+        ]
+      }
+    }
+  ]
+}

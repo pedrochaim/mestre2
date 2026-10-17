@@ -1,0 +1,241 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Wonder Guard de Shedinja só deixa passar golpes supereficazes; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Truant faz Slaking agir só a cada dois turnos; fato clássico.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que Slakoth passa mais de vinte horas por dia deitado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ash-Greninja, via Battle Bond em Sun e Moon; fato correto e conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Protean e Libero mudam o tipo do pokémon para o do golpe antes de atacar.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Ileso' só vale para a sétima geração; depois o disfarce desfeito causa um pequeno dano.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Graças à habilidade exclusiva Disguise, Mimikyu evita o dano da primeira pancada que leva numa batalha. O que se estraga no lugar dele?",
+        "resposta": "O pano que imita Pikachu",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Disguise_(Ability)",
+          "https://en.wikipedia.org/wiki/Mimikyu"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza do texto da Pokédex de Sun sobre a causa do sono de Komala.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que o órgão de Hoothoot acompanha a rotação da Terra.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex de Munna fala de névoa rosa ao comer um sonho agradável.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que quase todo o corpo de Gulpin é o estômago.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Skiddo obtém energia das folhas das costas segundo a Pokédex.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex cita Aron devorando pontes e trilhos de trem.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Joltik absorve eletricidade estática de pokémon maiores, segundo a Pokédex.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tatsugiri comanda Dondozo de dentro da boca dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Zero to Hero ativa quando Palafin sai de campo e volta.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dancer faz o pokémon repetir golpes de dança usados por outros.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Em batalhas de treinador ele não foge, troca de lugar; 'fugir da batalha' é impreciso.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Apesar da pose de guerreiro, Golisopod tem a habilidade Emergency Exit. O que ela o faz fazer quando sua vida cai abaixo da metade?",
+        "resposta": "Sai de campo",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Emergency_Exit_(Ability)",
+          "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Happiny acha que a pedra branca e redonda é um ovo.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sableye se alimenta de pedras preciosas segundo a Pokédex.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que o muco é a fonte do poder dos golpes de gelo de Cubchoo.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A forma de Toxtricity depende da natureza de Toxel.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Os mil passos só valem no modo Let's Go; 'andar com o jogador' é impreciso.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Em Scarlet e Violet, o que Pawmo, Rellor e Bramblin precisam fazer para evoluir?",
+        "resposta": "Andar mil passos no modo Let's Go",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bramblin_(Pok%C3%A9mon)",
+          "https://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tangela, Yanma e Piloswine evoluem ao subir de nível sabendo Ancient Power.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Slow Start dura cinco turnos.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Flower Gift abre Cherrim sob sol forte.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex diz que Metagross tem quatro cérebros.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Clamperl vira Gorebyss trocado com Deep Sea Scale.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Crabrawler evolui ao subir de nível no Mount Lanakila.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex liga os Volbeat ao aroma doce de Illumise.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Pokédex de Sword diz que Greedent guarda berries na cauda e elas caem sem ele notar.",
+      "reescrita": null
+    }
+  ]
+}

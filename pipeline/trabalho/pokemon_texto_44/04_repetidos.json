@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Gold e Silver, o campeão Lance leva no time três exemplares do mesmo dragão. Que pokémon é esse?",
+        "resposta": "Dragonite"
+      },
+      "existentes": [
+        {
+          "id": "q11184",
+          "pergunta": "Em Gold e Silver, o campeão Lance ajuda o jogador a invadir um esconderijo secreto da Equipe Rocket. Em que cidade de Johto fica esse esconderijo?",
+          "resposta": "Mahogany"
+        },
+        {
+          "id": "q12913",
+          "pergunta": "No arco de Yellow do mangá Pokémon Adventures, que mestre dos dragões comanda a Elite dos Quatro num plano para livrar o mundo dos humanos?",
+          "resposta": "Lance"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em Ruby e Sapphire, qual pokémon dos tipos Aço e Psíquico é o ás de Steven Stone, o campeão de Hoenn?",
+        "resposta": "Metagross"
+      },
+      "existentes": [
+        {
+          "id": "q10005",
+          "pergunta": "Steven Stone, campeão de Hoenn em Ruby e Sapphire e apaixonado por pedras raras, é filho do presidente de qual empresa?",
+          "resposta": "Corporação Devon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Black e White, quando o jogador finalmente enfrenta Alder, o campeão de Unova, qual pokémon é o ás do time dele?",
+        "resposta": "Volcarona"
+      },
+      "existentes": [
+        {
+          "id": "q10185",
+          "pergunta": "Em Black e White, quando o jogador vence a Elite dos Quatro de Unova, o campeão Alder já tinha sido derrotado. Quem o venceu?",
+          "resposta": "N"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o pokémon do time de Lance (Dragonite); as existentes tratam do esconderijo da Equipe Rocket e do mangá, fatos distintos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o ás de Steven (Metagross); a existente pergunta a empresa do pai dele."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o ás de Alder (Volcarona); a existente pergunta quem o derrotou (N)."
+    }
+  ]
+}

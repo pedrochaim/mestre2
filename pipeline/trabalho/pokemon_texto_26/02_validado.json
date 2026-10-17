@@ -1,0 +1,753 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Dialga",
+        "descricao": "Pokémon lendário dos tipos Aço e Dragão da quarta geração, senhor do tempo na mitologia de Sinnoh e mascote de Pokémon Diamond.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Roar of Time, o golpe exclusivo de Dialga que distorce o próprio tempo, é devastador. Mas o que Dialga precisa fazer no turno seguinte?",
+      "resposta": "Descansar, sem poder agir",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Roar_of_Time_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "id_existente": "palkia",
+        "nome": "Palkia",
+        "descricao": "Pokémon lendário dos tipos Água e Dragão da quarta geração, senhor do espaço na mitologia de Sinnoh e mascote de Pokémon Pearl.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que lendário de Sinnoh tem como golpe exclusivo Spacial Rend, que rasga o alvo junto com o espaço ao redor dele?",
+      "resposta": "Palkia",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Spacial_Rend_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Dialga",
+        "Giratina",
+        "Arceus"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "giratina",
+        "nome": "Giratina",
+        "descricao": "Pokémon lendário dos tipos Fantasma e Dragão da quarta geração, mascote de Pokémon Platinum.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Shadow Force, o golpe exclusivo de Giratina, leva dois turnos para acontecer. O que ele faz no primeiro turno, antes de atacar?",
+      "resposta": "Desaparece de vista",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Shadow_Force_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Hoopa",
+        "descricao": "Pokémon mítico dos tipos Psíquico e Fantasma da sexta geração, que convoca coisas e pokémon por meio de anéis e tem as formas Confinada e Livre.",
+        "variantes": [
+          "Hoopa Confinado",
+          "Hoopa Livre"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Shadow Force, de Giratina, e Hyperspace Hole, o golpe de Hoopa que surge do lado do alvo por um buraco no espaço, têm uma vantagem em comum. Qual?",
+      "resposta": "Acertam mesmo quem se protege",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hyperspace_Hole_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Shadow_Force_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Darkrai",
+        "descricao": "Pokémon mítico do tipo Sombrio da quarta geração, que provoca pesadelos em quem está dormindo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Dark Void, o golpe exclusivo de Darkrai, mergulha os adversários numa escuridão profunda. Em que estado eles ficam?",
+      "resposta": "Adormecidos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dark_Void_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Cresselia",
+        "descricao": "Pokémon lendário do tipo Psíquico da quarta geração, ligado à lua crescente e aos sonhos bons, contraparte de Darkrai.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao usar Lunar Dance, seu golpe exclusivo, Cresselia desmaia de propósito. Que recompensa recebe o pokémon que entra no lugar dela?",
+      "resposta": "É curado por completo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lunar_Dance_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "heatran",
+        "nome": "Heatran",
+        "descricao": "Pokémon lendário dos tipos Fogo e Aço da quarta geração, que vive nas profundezas de vulcões de Sinnoh.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Magma Storm, que prende o alvo num redemoinho de fogo por vários turnos, é o golpe exclusivo de qual lendário de Sinnoh?",
+      "resposta": "Heatran",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Magma_Storm_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Giratina",
+        "Regigigas",
+        "Dialga"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "regigigas",
+        "nome": "Regigigas",
+        "descricao": "Pokémon lendário do tipo Normal da quarta geração, colosso que teria puxado os continentes e que comanda Regirock, Regice e Registeel.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Com Crush Grip, seu golpe exclusivo, Regigigas esmaga o alvo com as mãos gigantes. Em que situação esse aperto fica mais forte?",
+      "resposta": "Quanto mais vida o alvo tiver",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Crush_Grip_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Shaymin",
+        "descricao": "Pokémon mítico do tipo Planta da quarta geração, um pequeno ouriço florido que muda para a Forma Céu com a flor Gracídea.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Seed Flare, explosão de sementes que pode derrubar muito a Defesa Especial do alvo, é o golpe exclusivo de qual pequeno ouriço mítico de Sinnoh?",
+      "resposta": "Shaymin",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Seed_Flare_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "manaphy",
+        "nome": "Manaphy",
+        "descricao": "Pokémon mítico do tipo Água da quarta geração, o príncipe do mar, estrela do nono filme da franquia.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Com Heart Swap, golpe exclusivo de Manaphy, o príncipe do mar usa poderes psíquicos para trocar algo com o adversário. O quê?",
+      "resposta": "As alterações de atributos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Heart_Swap_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Chatot",
+        "descricao": "Pokémon papagaio dos tipos Normal e Voador da quarta geração, que imita sons e palavras.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Chatot_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o papagaio Chatot ataca com seu golpe exclusivo, Chatter, usando um som gravado pelo jogador. Que recurso do Nintendo DS fazia essa gravação?",
+      "resposta": "O microfone",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Chatter_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Victini",
+        "descricao": "Pokémon mítico dos tipos Psíquico e Fogo da quinta geração, o pokémon da vitória, com orelhas em forma de V.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Victini_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "V-create, investida com uma chama em forma de V na testa, é o golpe exclusivo de Victini. Que efeito colateral ele sofre ao usá-lo?",
+      "resposta": "Perde defesas e velocidade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/V-create_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "keldeo",
+        "nome": "Keldeo",
+        "descricao": "Pokémon mítico dos tipos Água e Lutador da quinta geração, o jovem que se junta aos Espadachins da Justiça.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos jogos, Keldeo tem uma forma comum e a Forma Resoluta. O que ele precisa ter para assumir a Forma Resoluta?",
+      "resposta": "Saber o golpe Secret Sword",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "keldeo",
+        "nome": "Keldeo",
+        "descricao": "Pokémon mítico dos tipos Água e Lutador da quinta geração, o jovem que se junta aos Espadachins da Justiça.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Secret Sword, o golpe exclusivo de Keldeo, tem nome de espada. Mas com que parte do corpo Keldeo corta o adversário?",
+      "resposta": "Com o chifre",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Secret_Sword_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Meloetta",
+        "descricao": "Pokémon mítico da quinta geração, uma cantora com as formas Ária, Normal e Psíquico, e Pirueta, Normal e Lutador.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Quando Meloetta canta Relic Song, seu golpe exclusivo, ela muda de forma e troca o tipo Psíquico por outro. Qual?",
+      "resposta": "Lutador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Relic_Song_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Fada",
+        "Voador",
+        "Sombrio"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "genesect",
+        "nome": "Genesect",
+        "descricao": "Pokémon mítico dos tipos Inseto e Aço da quinta geração, um inseto pré-histórico modificado pela Equipe Plasma.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Techno Blast, de Genesect, muda de tipo conforme o cartucho Drive que ele segura. Que golpe exclusivo de Arceus funciona do mesmo jeito, mas com placas?",
+      "resposta": "Judgment",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Techno_Blast_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Judgment_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "kyurem",
+        "nome": "Kyurem",
+        "descricao": "Pokémon lendário dos tipos Dragão e Gelo da quinta geração, que pode se fundir a Reshiram ou Zekrom.",
+        "variantes": [
+          "Kyurem Branco",
+          "Kyurem Negro"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Fundido a Reshiram, Kyurem Branco ataca com Ice Burn, um golpe de gelo exclusivo. Que condição inesperada ele pode causar no alvo?",
+      "resposta": "Queimadura",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ice_Burn_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Paralisia",
+        "Congelamento",
+        "Sono"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "id_existente": "kyurem",
+        "nome": "Kyurem",
+        "descricao": "Pokémon lendário dos tipos Dragão e Gelo da quinta geração, que pode se fundir a Reshiram ou Zekrom.",
+        "variantes": [
+          "Kyurem Branco",
+          "Kyurem Negro"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Freeze Shock, de Kyurem Negro, e Ice Burn, de Kyurem Branco, funcionam do mesmo jeito na hora de atacar. Como?",
+      "resposta": "Carregam um turno antes de atacar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Freeze_Shock_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Ice_Burn_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "reshiram",
+        "nome": "Reshiram",
+        "descricao": "Pokémon lendário dos tipos Dragão e Fogo da quinta geração, mascote de Pokémon Black, símbolo da verdade.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Reshiram_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O golpe de fogo Fusion Flare, exclusivo de Reshiram, ganha que bônus quando é usado logo depois do Fusion Bolt, de Zekrom?",
+      "resposta": "Dobra de poder",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fusion_Flare_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Zekrom",
+        "descricao": "Pokémon lendário dos tipos Dragão e Elétrico da quinta geração, mascote de Pokémon White, símbolo dos ideais.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Bolt Strike, uma investida carregada de eletricidade que pode paralisar o alvo, é o golpe exclusivo de qual pokémon lendário?",
+      "resposta": "Zekrom",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bolt_Strike_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Thundurus",
+        "Raikou",
+        "Zapdos"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Zoroark",
+        "descricao": "Pokémon raposa do tipo Sombrio da quinta geração, evolução de Zorua, que cria ilusões e se disfarça de outros pokémon.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zoroark_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que raposa de Unova, mestre das ilusões, tem como golpe exclusivo Night Daze, uma onda escura que pode baixar a precisão do alvo?",
+      "resposta": "Zoroark",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Night_Daze_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Volcarona",
+        "descricao": "Pokémon mariposa dos tipos Inseto e Fogo da quinta geração, evolução de Larvesta, venerado como um sol.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volcarona_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Fiery Dance, uma dança envolta em chamas que pode elevar o Ataque Especial de quem dança, é o golpe exclusivo de qual mariposa de Unova?",
+      "resposta": "Volcarona",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fiery_Dance_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Klinklang",
+        "descricao": "Pokémon do tipo Aço da quinta geração, formado por engrenagens, evolução final de Klink e Klang.",
+        "variantes": [
+          "Klink",
+          "Klang"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Klinklang_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Gear Grind, golpe de aço em que o usuário arremessa engrenagens e acerta o alvo duas vezes, é a marca de qual linha evolutiva de Unova?",
+      "resposta": "Klinklang (linha de Klink)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gear_Grind_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Ferrothorn",
+        "Durant",
+        "Escavalier"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "xerneas",
+        "nome": "Xerneas",
+        "descricao": "Pokémon lendário do tipo Fada da sexta geração, um cervo de chifres coloridos, mascote de Pokémon X.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Ao usar Geomancy, seu golpe exclusivo, Xerneas não causa dano e passa um turno absorvendo energia. Que benefício ele recebe depois?",
+      "resposta": "Grande aumento de três atributos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Geomancy_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Yveltal",
+        "descricao": "Pokémon lendário dos tipos Sombrio e Voador da sexta geração, ave da destruição, mascote de Pokémon Y.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Yveltal_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nos jogos, que efeito tem Oblivion Wing, o golpe exclusivo de Yveltal, além de causar dano?",
+      "resposta": "Recupera vida do usuário",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Oblivion_Wing_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Faz o alvo dormir",
+        "Rouba o item adversário",
+        "Prende o alvo"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "id_existente": "zygarde",
+        "nome": "Zygarde",
+        "descricao": "Pokémon lendário dos tipos Dragão e Terrestre da sexta geração, guardião do ecossistema de Kalos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Thousand Arrows, golpe exclusivo de Zygarde, é do tipo Terrestre, mas atinge quem normalmente escaparia desses golpes, e ainda o derruba no chão. Quem?",
+      "resposta": "Os pokémon que estão no ar",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Thousand_Arrows_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Volcanion",
+        "descricao": "Pokémon mítico dos tipos Fogo e Água da sexta geração, que dispara vapor pelos braços.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volcanion_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Steam Eruption, um jato de vapor fervente que pode queimar o alvo, é o golpe exclusivo de qual pokémon mítico de Kalos, de tipos Fogo e Água?",
+      "resposta": "Volcanion",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Steam_Eruption_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "id_existente": "diancie",
+        "nome": "Diancie",
+        "descricao": "Pokémon mítico dos tipos Pedra e Fada da sexta geração, a princesa das joias, estrela do filme Diancie e o Casulo da Destruição.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Diamond Storm, golpe de pedra que lança uma tempestade de diamantes contra os adversários, é exclusivo de qual pokémon mítico?",
+      "resposta": "Diancie",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Diamond_Storm_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Hoopa",
+        "Volcanion",
+        "Jirachi"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "aegislash",
+        "nome": "Aegislash",
+        "descricao": "Pokémon dos tipos Aço e Fantasma da sexta geração, uma espada com escudo, evolução final de Honedge.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "King's Shield, golpe exclusivo de Aegislash, o protege como um escudo. O que acontece com o adversário que o ataca com contato físico?",
+      "resposta": "Tem o Ataque reduzido",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/King%27s_Shield_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Trevenant",
+        "descricao": "Pokémon árvore dos tipos Fantasma e Planta da sexta geração, evolução de Phantump obtida por troca.",
+        "variantes": [
+          "Phantump"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Trevenant_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Forest's Curse, de Trevenant, e Trick-or-Treat, de Gourgeist, são golpes marcantes de dois fantasmas de Kalos. Que efeito curioso eles têm em comum?",
+      "resposta": "Acrescentam um tipo ao alvo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Forest%27s_Curse_(move)",
+        "https://bulbapedia.bulbagarden.net/wiki/Trick-or-Treat_(move)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    }
+  ]
+}

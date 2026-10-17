@@ -1,0 +1,738 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Sigilyph",
+        "descricao": "Pokémon ave dos tipos Psíquico e Voador da quinta geração, de corpo colorido e geométrico, nativo de Unova.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sigilyph_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O corpo geométrico de Sigilyph, ave psíquica de Unova, lembra os gigantescos desenhos traçados no solo de um deserto do Peru. Como esses desenhos são conhecidos?",
+      "resposta": "Linhas de Nazca",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sigilyph_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Nazca_Lines"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Cofagrigus",
+        "descricao": "Pokémon do tipo Fantasma da quinta geração, em forma de sarcófago dourado, evolução de Yamask.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Cofagrigus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Unova, que pokémon fantasma tem a forma de um sarcófago dourado, inspirado nos caixões das múmias do Egito Antigo?",
+      "resposta": "Cofagrigus",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cofagrigus_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Sarcophagus"
+      ],
+      "distratores": [
+        "Jellicent",
+        "Golurk",
+        "Chandelure"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Golurk",
+        "descricao": "Pokémon gigante de barro dos tipos Terrestre e Fantasma da quinta geração, evolução de Golett.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Golurk_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que pokémon gigante de barro, criado por uma civilização antiga e com um selo no peito, se inspira na criatura animada por magia do folclore judaico?",
+      "resposta": "Golurk",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Golurk_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Golem"
+      ],
+      "distratores": [
+        "Claydol",
+        "Runerigus",
+        "Conkeldurr"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Swanna",
+        "descricao": "Pokémon cisne dos tipos Água e Voador da quinta geração, evolução de Ducklett.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Swanna_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O patinho azul Ducklett evolui no elegante cisne branco Swanna. Essa transformação lembra qual conto de Hans Christian Andersen?",
+      "resposta": "O Patinho Feio",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Swanna_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/The_Ugly_Duckling"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Maractus",
+        "descricao": "Pokémon cacto do tipo Planta da quinta geração, dançarino, nativo de Unova.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Maractus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Maractus, o cacto de Unova, se mexe no ritmo e faz um som de chocalho. Seu nome junta cacto com qual instrumento de percussão?",
+      "resposta": "Maraca",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Maractus_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Maracas"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Thundurus",
+        "descricao": "Pokémon lendário dos tipos Elétrico e Voador da quinta geração, gênio do trovão que voa sobre uma nuvem, parceiro de Tornadus.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Tornadus e Thundurus, gênios de Unova que voam sobre nuvens, se inspiram em Fūjin, deus do vento, e em qual deus japonês do trovão?",
+      "resposta": "Raijin",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Raijin"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Gothitelle",
+        "descricao": "Pokémon do tipo Psíquico da quinta geração, evolução final de Gothita e Gothorita.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gothitelle_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Gothita, Gothorita e Gothitelle, de Unova, usam laços e vestidos escuros inspirados em qual estilo de moda de rua japonês?",
+      "resposta": "Lolita gótica",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gothitelle_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Lolita_fashion"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Elgyem",
+        "descricao": "Pokémon do tipo Psíquico da quinta geração, com aparência de alienígena cinza, que evolui para Beheeyem.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Elgyem_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, Elgyem estaria ligado à queda de um disco voador num deserto, cinquenta anos antes. Que caso americano famoso isso lembra?",
+      "resposta": "Caso Roswell",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Elgyem_(Pok%C3%A9mon)",
+        "https://pt.wikipedia.org/wiki/Caso_Roswell"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Klefki",
+        "descricao": "Pokémon dos tipos Aço e Fada da sexta geração, em forma de chaveiro, nativo de Kalos.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Klefki_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Inspirado num chaveiro, que pokémon de Kalos coleciona chaves e, segundo a Pokédex, nunca larga uma chave de que gosta?",
+      "resposta": "Klefki",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Klefki_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Honedge",
+        "Carbink",
+        "Dedenne"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Clawitzer",
+        "descricao": "Pokémon do tipo Água da sexta geração, crustáceo de garra enorme, evolução de Clauncher.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Clawitzer_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Clauncher e Clawitzer, de Kalos, disparam jatos de água pela garra gigante, como qual crustáceo real, que atordoa as presas com um estalo?",
+      "resposta": "Camarão-pistola",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Clawitzer_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Alpheidae"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Dragalge",
+        "descricao": "Pokémon dos tipos Venenoso e Dragão da sexta geração, parecido com alga marinha, evolução de Skrelp.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dragalge_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Skrelp e Dragalge, de Kalos, se disfarçam de algas no fundo do mar, como qual peixe da Austrália, parente do cavalo-marinho?",
+      "resposta": "Dragão-marinho-folhado",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dragalge_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Leafy_seadragon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "hoopa",
+        "nome": "Hoopa",
+        "descricao": "Pokémon dos tipos Psíquico e Fantasma, número 720 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Hoopa, que tira objetos e até lendários de dentro de anéis mágicos, lembra qual ser das Mil e Uma Noites, famoso por sair de uma lâmpada?",
+      "resposta": "Gênio (djinn)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Jinn"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Oricorio",
+        "descricao": "Pokémon ave dançarina da sétima geração, de Alola, que muda de estilo e de tipo conforme o néctar que bebe.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Oricorio, a ave dançarina de Alola, muda de estilo conforme o néctar que bebe. Qual dos seus estilos dança o hula havaiano?",
+      "resposta": "Estilo Pa'u",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Hula"
+      ],
+      "distratores": [
+        "Estilo Baile",
+        "Estilo Pompom",
+        "Estilo Sensu"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Dhelmise",
+        "descricao": "Pokémon dos tipos Fantasma e Planta da sétima geração, formado por algas presas a uma âncora de navio.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dhelmise_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Alola, que fantasma é um emaranhado de algas que arrasta pelo fundo do mar uma enorme âncora de navio?",
+      "resposta": "Dhelmise",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dhelmise_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Mimikyu",
+        "Palossand",
+        "Decidueye"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Celesteela",
+        "descricao": "Ultracriatura dos tipos Aço e Voador da sétima geração, em forma de foguete, com braços de bambu.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Celesteela_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Celesteela, a Ultracriatura em forma de foguete, tem braços de bambu. Ela lembra a princesa de qual conto japonês, que nasce num bambu e volta para a Lua?",
+      "resposta": "O Conto do Cortador de Bambu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Celesteela_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/The_Tale_of_the_Bamboo_Cutter"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Golisopod",
+        "descricao": "Pokémon dos tipos Inseto e Água da sétima geração, crustáceo cavaleiro de Alola, evolução de Wimpod.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Golisopod, o cavaleiro de Alola, e sua forma anterior, Wimpod, se inspiram em qual crustáceo do fundo do mar, parente do tatuzinho de jardim?",
+      "resposta": "Isópode gigante",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Giant_isopod"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Dewpider",
+        "descricao": "Pokémon aranha dos tipos Água e Inseto da sétima geração, que carrega uma bolha d'água na cabeça e evolui para Araquanid.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Dewpider_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Dewpider, de Alola, vive em terra com uma bolha d'água na cabeça. É o truque invertido de qual aranha real, que leva ar para debaixo d'água?",
+      "resposta": "Aranha-de-sino-de-mergulho",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Dewpider_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Diving_bell_spider"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Comfey",
+        "descricao": "Pokémon do tipo Fada da sétima geração, de Alola, que junta flores num aro preso ao corpo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Comfey_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Comfey, a fadinha de Alola, colhe flores e as prende num aro que carrega no corpo, imitando qual adorno havaiano?",
+      "resposta": "Lei (colar de flores)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Comfey_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Lei_(garland)"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "silvally",
+        "nome": "Silvally",
+        "descricao": "Pokémon do tipo Normal, número 773 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Silvally_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Silvally, o pokémon artificial de Alola, tem o corpo montado com partes de vários animais, como qual monstro da mitologia grega?",
+      "resposta": "Quimera",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Silvally_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Chimera_(mythology)"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Stonjourner",
+        "descricao": "Pokémon do tipo Pedra da oitava geração, gigante formado por blocos de pedra erguidos, nativo de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Stonjourner_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que pokémon de Galar, um gigante de blocos erguidos que surge em campos abertos, se inspira no famoso círculo pré-histórico do sul da Inglaterra?",
+      "resposta": "Stonjourner",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Stonjourner_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Stonehenge"
+      ],
+      "distratores": [
+        "Coalossal",
+        "Runerigus",
+        "Duraludon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Corviknight",
+        "descricao": "Pokémon corvo dos tipos Voador e Aço da oitava geração, coberto de armadura, que serve de táxi aéreo em Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Corviknight_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Corviknight, o corvo de armadura de Galar, lembra os corvos que, segundo a lenda, protegem o reino britânico vivendo numa fortaleza à beira do Tâmisa. Que fortaleza é essa?",
+      "resposta": "Torre de Londres",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Corviknight_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Ravens_of_the_Tower_of_London"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Perrserker",
+        "descricao": "Pokémon do tipo Aço da oitava geração, evolução do Meowth de Galar, de capacete com chifres.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Perrserker_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Meowth de Galar, de pelo eriçado, evolui em Perrserker, que usa um capacete com chifres. Em quais guerreiros escandinavos os dois se inspiram?",
+      "resposta": "Vikings",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Perrserker_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Berserker"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Sirfetch'd",
+        "descricao": "Pokémon do tipo Lutador da oitava geração, cavaleiro de Galar, evolução do Farfetch'd de Galar.",
+        "variantes": [
+          "Sirfetchd"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Sirfetch'd, o cavaleiro de Galar, usa um alho-poró como lança. Que parte dessa mesma planta ele carrega como escudo?",
+      "resposta": "Uma folha",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Skeledirge",
+        "descricao": "Pokémon dos tipos Fogo e Fantasma da nona geração, crocodilo cantor, evolução final do inicial Fuecoco.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Skeledirge_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Skeledirge, o crocodilo cantor de Paldea, tem marcas de caveira e cores vivas inspiradas em qual festa tradicional mexicana?",
+      "resposta": "Dia dos Mortos",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Skeledirge_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "id_existente": "quaquaval",
+        "nome": "Quaquaval",
+        "descricao": "Pokémon dos tipos Água e Lutador, número 914 da Pokédex Nacional.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Quaquaval_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Quaquaval, a ave dançarina de Paldea, tem penas vistosas na cabeça como as fantasias de carnaval. Ela se inspira nos dançarinos de qual ritmo brasileiro?",
+      "resposta": "Samba",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Quaquaval_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Samba"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Rabsca",
+        "descricao": "Pokémon dos tipos Inseto e Psíquico da nona geração, besouro que equilibra uma bola com as patas, evolução de Rellor.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rabsca_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Rabsca, de Paldea, equilibra uma bola com as patas, como o escaravelho que, numa mitologia antiga, empurrava o Sol pelo céu. De que civilização é esse mito?",
+      "resposta": "Egito Antigo",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rabsca_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Khepri"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Bombirdier",
+        "descricao": "Pokémon ave dos tipos Voador e Sombrio da nona geração, que carrega objetos num avental de penas e os deixa cair, nativo de Paldea.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bombirdier_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que ave de Paldea, inspirada na cegonha que entrega bebês, carrega coisas num avental de penas e as deixa cair lá do alto?",
+      "resposta": "Bombirdier",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bombirdier_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/White_stork"
+      ],
+      "distratores": [
+        "Wattrel",
+        "Flamigo",
+        "Squawkabilly"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Tatsugiri",
+        "descricao": "Pokémon dos tipos Dragão e Água da nona geração, pequeno dragão que vive na boca de Dondozo, com formas de cores diferentes.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Tatsugiri, o pequeno dragão de Paldea que se esconde dentro da boca do enorme Dondozo, tem formas que imitam qual prato japonês?",
+      "resposta": "Sushi",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Sushi"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Ting-Lu",
+        "descricao": "Pokémon lendário dos tipos Sombrio e Terrestre da nona geração, um dos quatro lendários selados em santuários de Paldea.",
+        "variantes": [
+          "Ting Lu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ting-Lu_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Os quatro lendários sombrios de Paldea, selados em santuários, nasceram de relíquias da China antiga. Qual deles, segundo a Pokédex, surgiu de um antigo vaso ritual?",
+      "resposta": "Ting-Lu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ting-Lu_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Wo-Chien",
+        "Chien-Pao",
+        "Chi-Yu"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "ogerpon",
+        "nome": "Ogerpon",
+        "descricao": "Pokémon lendário do tipo Planta da nona geração, uma pequena ogra mascarada de Kitakami, estrela da expansão The Teal Mask.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Ogerpon, a pequena lendária mascarada de Kitakami, tem o visual e o nome inspirados em qual criatura chifruda do folclore japonês?",
+      "resposta": "Oni",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Oni"
+      ],
+      "_subtema_colecao": "Pokédex"
+    }
+  ]
+}

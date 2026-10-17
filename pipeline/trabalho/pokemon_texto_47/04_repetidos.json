@@ -1,0 +1,102 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Brilliant Diamond e Shining Pearl, que levaram a região de Sinnoh de volta, agora ao Nintendo Switch, chegaram às lojas em que ano?",
+        "resposta": "2021"
+      },
+      "existentes": [
+        {
+          "id": "q11216",
+          "pergunta": "Brilliant Diamond e Shining Pearl, os remakes de Sinnoh para o Switch, não foram desenvolvidos pela Game Freak, e sim por outro estúdio japonês. Qual?",
+          "resposta": "ILCA"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destas novidades de batalha estreou primeiro nos jogos principais de Pokémon?",
+        "resposta": "Divisão físico-especial"
+      },
+      "existentes": [
+        {
+          "id": "q11207",
+          "pergunta": "Desde Diamond e Pearl, cada golpe tem sua própria categoria, física ou especial. Até a geração anterior, o que decidia a categoria de um golpe?",
+          "resposta": "O tipo do golpe"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual par de jogos da série principal foi o primeiro a trocar os pokémon desenhados em duas dimensões por modelos em 3D nas batalhas?",
+        "resposta": "X e Y"
+      },
+      "existentes": [
+        {
+          "id": "q09840",
+          "pergunta": "Em Pokémon X e Y, o jogador escolhe o inicial entre Chespin, de planta, Froakie, de água, e qual pokémon de fogo?",
+          "resposta": "Fennekin"
+        },
+        {
+          "id": "q09986",
+          "pergunta": "Pokémon X e Y, de 2013, estrearam uma transformação temporária em batalha, ativada por uma pedra especial que o pokémon segura. Como ela se chama?",
+          "resposta": "Megaevolução"
+        },
+        {
+          "id": "q11230",
+          "pergunta": "Pokémon X e Y foram os primeiros jogos da série lançados no mesmo dia no mundo inteiro. Em que ano isso aconteceu?",
+          "resposta": "2013"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Antes mesmo do lançamento, Sword e Shield provocaram entre os fãs uma polêmica apelidada de Dexit. Qual foi o motivo da revolta?",
+        "resposta": "Nem todos os pokémon estariam no jogo"
+      },
+      "existentes": [
+        {
+          "id": "q07374",
+          "pergunta": "A região de Galar, cenário de Pokémon Sword e Shield, de 2019, é inspirada em qual país europeu?",
+          "resposta": "Reino Unido"
+        },
+        {
+          "id": "q09987",
+          "pergunta": "Nos estádios de Galar, em Sword e Shield, que fenômeno faz os pokémon crescerem até ficar gigantes durante a batalha?",
+          "resposta": "Dynamax"
+        },
+        {
+          "id": "q11263",
+          "pergunta": "Pokémon Sword e Shield, que levaram os jogadores à região de Galar, chegaram às lojas em que ano?",
+          "resposta": "2019"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano de lançamento vs. estúdio desenvolvedor: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta compara qual novidade estreou primeiro, e a existente pergunta o que definia a categoria do golpe antes da divisão. Os fatos são diferentes, embora relacionados."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Os modelos 3D em X e Y são um fato diferente de inicial, megaevolução ou lançamento mundial."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A polêmica Dexit não é perguntada em nenhuma das existentes."
+    }
+  ]
+}

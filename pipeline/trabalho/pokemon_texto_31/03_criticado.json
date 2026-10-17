@@ -1,0 +1,633 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Azelf",
+        "descricao": "Pokémon lendário do tipo Psíquico da quarta geração, um dos três lendários dos lagos de Sinnoh, guardião do Lago Valor.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Cada um dos três lendários dos lagos de Sinnoh encarna uma qualidade da mente. Azelf é conhecido como o ser de quê?",
+      "resposta": "Força de vontade",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Lake_guardians",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Conhecimento",
+        "Emoção",
+        "Memória"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Trio da criação",
+        "descricao": "Trio de pokémon lendários de Sinnoh formado por Dialga, Palkia e Giratina, ligados ao tempo, ao espaço e ao mundo paralelo.",
+        "variantes": [
+          "Creation trio"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Creation_trio"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo a mitologia de Sinnoh, o que Dialga, senhor do tempo, Palkia, senhor do espaço, e Giratina têm em comum na sua origem?",
+      "resposta": "Foram criados por Arceus",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Creation_trio",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "lugia",
+        "nome": "Lugia",
+        "descricao": "Pokémon lendário dos tipos Psíquico e Voador da segunda geração, guardião dos mares, mascote de Pokémon Silver.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Lugia"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, por que o lendário Lugia passa o tempo quieto, escondido no fundo do mar?",
+      "resposta": "Seus poderes são fortes demais",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Lugia"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "ho_oh",
+        "nome": "Ho-Oh",
+        "descricao": "Pokémon lendário dos tipos Fogo e Voador da segunda geração, ave de penas de sete cores, mascote de Pokémon Gold.",
+        "variantes": [
+          "Ho Oh"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo as lendas, o que ganha a pessoa que tem a sorte de ver Ho-Oh, a ave lendária de penas de sete cores?",
+      "resposta": "Felicidade eterna",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Suicune",
+        "descricao": "Pokémon lendário do tipo Água da segunda geração, uma das três feras lendárias de Johto, destaque de Pokémon Crystal.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que fera lendária de Johto, tida como a reencarnação dos ventos do norte, é capaz de purificar na hora qualquer água suja?",
+      "resposta": "Suicune",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Suicune",
+        "descricao": "Pokémon lendário do tipo Água da segunda geração, uma das três feras lendárias de Johto, destaque de Pokémon Crystal.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Pokémon Crystal, que místico, amigo do líder Morty, dedica a vida a procurar Suicune e desafia o jogador por causa dele?",
+      "resposta": "Eusine",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Eusine",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Crystal"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "mew",
+        "nome": "Mew",
+        "descricao": "Pokémon mítico do tipo Psíquico da primeira geração, de cujo material genético nasceu Mewtwo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Mew_(Pok%C3%A9mon)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Segundo os diários achados na mansão em ruínas da ilha Cinnabar, Mew foi descoberto nas selvas de qual país da América do Sul?",
+      "resposta": "Guiana",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mansion",
+        "https://en.wikipedia.org/wiki/Mew_(Pok%C3%A9mon)"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "id_existente": "mewtwo",
+        "nome": "Mewtwo",
+        "descricao": "Pokémon lendário do tipo Psíquico da primeira geração, criado pela ciência a partir do material genético de Mew.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Mewtwo"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Mewtwo tem duas megaevoluções. A Mega Mewtwo Y continua só do tipo Psíquico. Que segundo tipo ganha a Mega Mewtwo X?",
+      "resposta": "Lutador",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Mewtwo"
+      ],
+      "distratores": [
+        "Sombrio",
+        "Fantasma",
+        "Dragão"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "id_existente": "regigigas",
+        "nome": "Regigigas",
+        "descricao": "Pokémon lendário do tipo Normal da quarta geração, colosso que dorme no Templo de Snowpoint, em Sinnoh.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Uma lenda antiga conta que o colosso Regigigas, o mestre de Regirock, Regice e Registeel, arrastou algo gigantesco amarrado com cordas. O quê?",
+      "resposta": "Os continentes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "id_existente": "victini",
+        "nome": "Victini",
+        "descricao": "Pokémon mítico dos tipos Psíquico e Fogo da quinta geração, de orelhas em forma de V, conhecido como o pokémon da vitória.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Victini_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, que pequeno mítico de orelhas em forma de V vive escondido no porão do farol da ilha Liberty Garden?",
+      "resposta": "Victini",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Liberty_Garden",
+        "https://bulbapedia.bulbagarden.net/wiki/Victini_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "celebi",
+        "nome": "Celebi",
+        "descricao": "Pokémon mítico dos tipos Psíquico e Planta da segunda geração, que viaja no tempo e protege as florestas.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex de Ruby e Sapphire, o que se diz que nos espera sempre que Celebi, o viajante do tempo, aparece?",
+      "resposta": "Um futuro brilhante",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_II_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "id_existente": "rayquaza",
+        "nome": "Rayquaza",
+        "descricao": "Pokémon lendário dos tipos Dragão e Voador da terceira geração, senhor do céu, mascote de Pokémon Emerald.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que dragão lendário de Hoenn, segundo a Pokédex, viveu centenas de milhões de anos na camada de ozônio, sem nunca descer ao chão?",
+      "resposta": "Rayquaza",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_III_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "id_existente": "zekrom",
+        "nome": "Zekrom",
+        "descricao": "Pokémon lendário dos tipos Dragão e Elétrico da quinta geração, dragão negro mascote de Pokémon White.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Na lenda de Unova, o dragão negro Zekrom só se une ao herói que persegue qual valor?",
+      "resposta": "Ideais",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Verdade",
+        "Justiça",
+        "Liberdade"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Landorus",
+        "descricao": "Pokémon lendário dos tipos Terrestre e Voador da quinta geração, uma das forças da natureza de Unova, ao lado de Tornadus e Thundurus.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que lendário de Unova, chamado de guardião dos campos, faz as colheitas brotarem fartas por onde passa e teria contido as brigas de Tornadus e Thundurus?",
+      "resposta": "Landorus",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Forces_of_Nature",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Enamorus",
+        "descricao": "Pokémon lendário dos tipos Fada e Voador, introduzido em Pokémon Legends: Arceus, a quarta das forças da natureza.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Legends: Arceus, o trio das forças da natureza ganhou uma quarta integrante, de tipos Fada e Voador, que traz a primavera. Quem é ela?",
+      "resposta": "Enamorus",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Espadachins da Justiça",
+        "descricao": "Grupo de pokémon lendários de Unova formado por Cobalion, Terrakion e Virizion, ao qual se junta o mítico Keldeo.",
+        "variantes": [
+          "Swords of Justice"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Swords_of_Justice"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a Pokédex, Cobalion e seus aliados, os Espadachins da Justiça, puniram certos humanos no passado. O que esses humanos tinham feito?",
+      "resposta": "Machucaram pokémon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Cobalion_(Pok%C3%A9mon)",
+        "https://bulbapedia.bulbagarden.net/wiki/Swords_of_Justice",
+        "https://en.wikipedia.org/wiki/List_of_generation_V_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "id_existente": "xerneas",
+        "nome": "Xerneas",
+        "descricao": "Pokémon lendário do tipo Fada da sexta geração, um cervo de chifres coloridos, mascote de Pokémon X.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a Pokédex, o lendário Xerneas dormiu mil anos antes de despertar. Em que forma ele passou esse longo sono?",
+      "resposta": "Uma árvore",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VI_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Um casulo",
+        "Uma pedra",
+        "Um cristal"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Tapu Fini",
+        "descricao": "Pokémon lendário dos tipos Água e Fada da sétima geração, um dos quatro guardiões das ilhas de Alola.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tapu_Fini_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Cada ilha de Alola tem um guardião lendário. Tapu Fini, de tipos Água e Fada, protege qual delas?",
+      "resposta": "Poni",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tapu_Fini_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Melemele",
+        "Akala",
+        "Ula'ula"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Tapu Koko",
+        "descricao": "Pokémon lendário dos tipos Elétrico e Fada da sétima geração, guardião da ilha Melemele, em Alola.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Logo no primeiro episódio de Sol e Lua, que guardião de Alola surge diante de Ash e lhe dá um Z-Ring, a pulseira dos movimentos Z?",
+      "resposta": "Tapu Koko",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_the_Series:_Sun_%26_Moon"
+      ],
+      "_subtema_colecao": "Anime, Filmes e Franquia"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Type: Null",
+        "descricao": "Pokémon artificial do tipo Normal da sétima geração, de capacete de ferro, criado pela Fundação Aether, que evolui para Silvally.",
+        "variantes": [
+          "Type Null",
+          "Código Zero"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Type:_Null_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a Fundação Aether, de Alola, criou Type: Null, o pokémon artificial que usa um pesado capacete de ferro?",
+      "resposta": "Para combater as Ultra Beasts",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Type:_Null_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "id_existente": "necrozma",
+        "nome": "Necrozma",
+        "descricao": "Pokémon lendário do tipo Psíquico da sétima geração, que absorve luz e pode se fundir a Solgaleo e Lunala.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Ultra Sun e Ultra Moon, a cidade de Ultra Megalópolis vive no escuro, sem luz no céu. O que provocou essa escuridão?",
+      "resposta": "Necrozma absorveu a luz",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Ultra_Megalopolis",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ultra_Sun_and_Ultra_Moon"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Zacian",
+        "descricao": "Pokémon lendário do tipo Fada da oitava geração, um lobo com espada, mascote de Pokémon Sword e herói lendário de Galar.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda de Galar, Zacian e Zamazenta ajudaram a deter uma catástrofe ancestral provocada por Eternatus. Como ela é chamada?",
+      "resposta": "Darkest Day",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Darkest_Day",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Walking Wake",
+        "descricao": "Pokémon paradoxo dos tipos Água e Dragão, uma versão antiga de um lendário de Johto, introduzido na expansão de Pokémon Scarlet.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Walking_Wake_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Walking Wake, pokémon paradoxo de tipos Água e Dragão vindo do passado, é uma versão antiga de qual lendário de Johto?",
+      "resposta": "Suicune",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Walking_Wake_(Pok%C3%A9mon)",
+        "https://en.wikipedia.org/wiki/List_of_generation_IX_Pok%C3%A9mon"
+      ],
+      "distratores": [
+        "Raikou",
+        "Entei",
+        "Lugia"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "id_existente": "shaymin",
+        "nome": "Shaymin",
+        "descricao": "Pokémon mítico do tipo Planta da quarta geração, um pequeno ouriço florido que tem a Forma Terrestre e a Forma Céu.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O pequeno ouriço Shaymin troca a Forma Terrestre pela Forma Céu, de tipo Planta e Voador, quando entra em contato com qual flor?",
+      "resposta": "Gracidea",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Gracidea",
+        "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+      ],
+      "_subtema_colecao": "Pokédex"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "id_existente": "arceus",
+        "nome": "Arceus",
+        "descricao": "Pokémon mítico do tipo Normal da quarta geração, que segundo a mitologia de Sinnoh criou o universo.",
+        "variantes": [],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_IV_Pok%C3%A9mon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Jogos Eletrônicos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No jogo ambientado na antiga região de Hisui, que pokémon mítico arranca o protagonista do presente e o leva para aquele passado distante?",
+      "resposta": "Arceus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus",
+        "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Legends:_Arceus"
+      ],
+      "_subtema_colecao": "Jogos da Série Principal"
+    }
+  ]
+}

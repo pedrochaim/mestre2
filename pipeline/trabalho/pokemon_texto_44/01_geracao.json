@@ -1,0 +1,690 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Koga",
+        "descricao": "Líder ninja do ginásio de tipo Venenoso de Fuchsia, em Kanto, nos jogos Pokémon Red e Blue, e depois membro da Elite dos Quatro de Johto.",
+        "variantes": [
+          "Koga"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Koga",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, o ginásio do ninja Koga, em Fuchsia, esconde um truque para atrapalhar quem tenta chegar até ele. Que truque é esse?",
+      "resposta": "Paredes invisíveis",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Fuchsia_Gym",
+        "https://bulbapedia.bulbagarden.net/wiki/Koga"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Bruno",
+        "descricao": "Treinador especialista em pokémon lutadores, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue e de Johto em Gold e Silver.",
+        "variantes": [
+          "Bruno"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bruno",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, Bruno, o lutador da Elite dos Quatro de Kanto, leva no time dois exemplares de um pokémon de pedra. Qual?",
+      "resposta": "Onix",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bruno"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "id_existente": "lance",
+        "nome": "Lance",
+        "descricao": "Treinador especialista em pokémon dragão, último membro da Elite dos Quatro em Red e Blue e campeão da Liga em Gold e Silver.",
+        "variantes": [
+          "Lance"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lance"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Gold e Silver, o campeão Lance leva no time três exemplares do mesmo dragão. Que pokémon é esse?",
+      "resposta": "Dragonite",
+      "distratores": [
+        "Dragonair",
+        "Kingdra",
+        "Gyarados"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "id_existente": "blue_rival",
+        "nome": "Blue (rival)",
+        "descricao": "Rival do protagonista e neto do Professor Carvalho nos jogos Pokémon Red, Green e Blue, chamado Green no Japão.",
+        "variantes": [
+          "Blue",
+          "Green",
+          "Gary"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Red e Blue, depois de vencer a Elite dos Quatro, o jogador descobre que o campeão da Liga é alguém que conhece desde o começo da jornada. Quem?",
+      "resposta": "O rival, Blue",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Will",
+        "descricao": "Treinador mascarado especialista em pokémon psíquicos, primeiro membro da Elite dos Quatro de Johto em Pokémon Gold e Silver.",
+        "variantes": [
+          "Will"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Will",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Gold e Silver, o primeiro adversário da Elite dos Quatro de Johto é um treinador mascarado que usa pokémon psíquicos. Qual é o nome dele?",
+      "resposta": "Will",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Will"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Bugsy",
+        "descricao": "Jovem líder do ginásio de tipo Inseto de Azalea, em Johto, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Bugsy"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Bugsy",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Em Gold e Silver, qual pokémon é o mais forte do time de Bugsy, o jovem líder de insetos de Azalea?",
+      "resposta": "Scyther",
+      "distratores": [
+        "Heracross",
+        "Pinsir",
+        "Ledian"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Bugsy"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Falkner",
+        "descricao": "Líder do ginásio de tipo Voador de Violet, o primeiro de Johto, nos jogos Pokémon Gold e Silver.",
+        "variantes": [
+          "Falkner"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Falkner, que aprendeu com o pai a amar os pokémon voadores, é o primeiro líder de ginásio de Gold e Silver. Em que cidade de Johto ele espera os desafiantes?",
+      "resposta": "Violet",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "https://bulbapedia.bulbagarden.net/wiki/Violet_Gym"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Roxanne",
+        "descricao": "Líder do ginásio de tipo Pedra de Rustboro, o primeiro de Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald.",
+        "variantes": [
+          "Roxanne"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Roxanne",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, a primeira insígnia de Hoenn é disputada com Roxanne, especialista em pokémon de pedra. Onde fica o ginásio dela?",
+      "resposta": "Rustboro",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Roxanne",
+        "https://bulbapedia.bulbagarden.net/wiki/Rustboro_Gym"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Brawly",
+        "descricao": "Líder surfista do ginásio de tipo Lutador de Dewford, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald.",
+        "variantes": [
+          "Brawly"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Brawly",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Brawly, o lutador de Hoenn apaixonado por surfe, recebe os desafiantes num ginásio escuro, numa ilha pequena. Que ilha é essa?",
+      "resposta": "Dewford",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Brawly",
+        "https://bulbapedia.bulbagarden.net/wiki/Dewford_Gym"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Wattson",
+        "descricao": "Velho líder do ginásio de tipo Elétrico de Mauville, em Hoenn, nos jogos Pokémon Ruby, Sapphire e Emerald, famoso pela risada.",
+        "variantes": [
+          "Wattson"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Ruby e Sapphire, que velho líder elétrico, de risada escandalosa, comanda o ginásio de Mauville?",
+      "resposta": "Wattson",
+      "distratores": [
+        "Volkner",
+        "Clemont",
+        "Elesa"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Wattson"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Drake",
+        "descricao": "Velho marinheiro especialista em pokémon dragão, último membro da Elite dos Quatro de Hoenn nos jogos Pokémon Ruby, Sapphire e Emerald.",
+        "variantes": [
+          "Drake"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Drake_(game)",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Drake, o velho marinheiro que fecha a Elite dos Quatro de Hoenn, tem qual dragão como pokémon mais forte?",
+      "resposta": "Salamence",
+      "distratores": [
+        "Dragonite",
+        "Garchomp",
+        "Hydreigon"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Drake_(game)"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Phoebe",
+        "descricao": "Treinadora especialista em pokémon fantasmas, membro da Elite dos Quatro de Hoenn nos jogos Pokémon Ruby, Sapphire e Emerald.",
+        "variantes": [
+          "Phoebe"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Phoebe",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Phoebe, a especialista em fantasmas da Elite dos Quatro de Hoenn, conta que treinou numa montanha que serve de cemitério de pokémon. Que montanha é essa?",
+      "resposta": "Monte Pyre (Mt. Pyre)",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Phoebe"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "id_existente": "steven_stone",
+        "nome": "Steven Stone",
+        "descricao": "Campeão da Liga Pokémon de Hoenn nos jogos Ruby e Sapphire, colecionador de pedras raras.",
+        "variantes": [
+          "Steven",
+          "Daigo"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Steven_Stone"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Ruby e Sapphire, qual pokémon dos tipos Aço e Psíquico é o ás de Steven Stone, o campeão de Hoenn?",
+      "resposta": "Metagross",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Steven_Stone",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Crasher Wake",
+        "descricao": "Líder do ginásio de tipo Água de Pastoria, em Sinnoh, nos jogos Pokémon Diamond, Pearl e Platinum, vestido de lutador mascarado.",
+        "variantes": [
+          "Crasher Wake",
+          "Wake"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, o ginásio de água de Pastoria é comandado por um homem fantasiado de lutador mascarado de luta livre. Como ele se chama?",
+      "resposta": "Crasher Wake",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Volkner",
+        "descricao": "Líder do ginásio de tipo Elétrico de Sunyshore, o último de Sinnoh, nos jogos Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Volkner"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Diamond e Pearl, Volkner, o líder elétrico de Sunyshore, anda entediado e sem vontade de batalhar. Por quê?",
+      "resposta": "Não encontra desafiantes fortes",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Volkner"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Lucian",
+        "descricao": "Treinador especialista em pokémon psíquicos, membro da Elite dos Quatro de Sinnoh nos jogos Pokémon Diamond, Pearl e Platinum.",
+        "variantes": [
+          "Lucian"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lucian",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Diamond_and_Pearl"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Diamond e Pearl, que especialista em psíquicos da Elite dos Quatro de Sinnoh está sempre com o nariz enfiado num livro quando o desafiante chega?",
+      "resposta": "Lucian",
+      "distratores": [
+        "Will",
+        "Caitlin",
+        "Aaron"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Lucian"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Elesa",
+        "descricao": "Líder do ginásio de tipo Elétrico de Nimbasa, em Unova, nos jogos Pokémon Black e White, também conhecida como modelo.",
+        "variantes": [
+          "Elesa"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Elesa",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, para chegar até Elesa, a líder elétrica de Nimbasa, o jogador atravessa o ginásio a bordo de quê?",
+      "resposta": "Montanhas-russas",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nimbasa_Gym",
+        "https://bulbapedia.bulbagarden.net/wiki/Elesa"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Marshal",
+        "descricao": "Treinador especialista em pokémon lutadores, membro da Elite dos Quatro de Unova nos jogos Pokémon Black e White.",
+        "variantes": [
+          "Marshal"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Marshal",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Marshal, o lutador da Elite dos Quatro de Unova, é discípulo de um treinador famoso da região. Que campeão é esse?",
+      "resposta": "Alder",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Marshal"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "id_existente": "alder",
+        "nome": "Alder",
+        "descricao": "Campeão da Liga Pokémon de Unova nos jogos Pokémon Black e White, treinador andarilho de cabelo ruivo.",
+        "variantes": [
+          "Alder"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Alder"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Black e White, quando o jogador finalmente enfrenta Alder, o campeão de Unova, qual pokémon é o ás do time dele?",
+      "resposta": "Volcarona",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Alder",
+        "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Valerie",
+        "descricao": "Líder do ginásio de tipo Fada de Laverre, em Kalos, nos jogos Pokémon X e Y.",
+        "variantes": [
+          "Valerie"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Valerie",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em X e Y, o tipo Fada estreou com uma líder de ginásio só dele, na cidade de Laverre. Quem é ela?",
+      "resposta": "Valerie",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Valerie"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Viola",
+        "descricao": "Fotógrafa e líder do ginásio de tipo Inseto de Santalune, o primeiro de Kalos, nos jogos Pokémon X e Y.",
+        "variantes": [
+          "Viola"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Viola",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_X_and_Y"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Viola, a fotógrafa que lidera o ginásio de insetos de Santalune, em Kalos, é irmã de qual jornalista que ajuda o jogador?",
+      "resposta": "Alexa",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Viola",
+        "https://bulbapedia.bulbagarden.net/wiki/Alexa"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Olivia",
+        "descricao": "Kahuna especialista em pokémon de pedra nos jogos Pokémon Sun e Moon, membro da Elite dos Quatro de Alola.",
+        "variantes": [
+          "Olivia"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Olivia",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, Olivia, a kahuna especialista em pokémon de pedra, é a chefe de qual ilha de Alola?",
+      "resposta": "Akala",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Olivia"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Nanu",
+        "descricao": "Kahuna da ilha Ula'ula e policial nos jogos Pokémon Sun e Moon, especialista em pokémon sombrios.",
+        "variantes": [
+          "Nanu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Nanu",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Sun e Moon, a ilha de Ula'ula tem como kahuna um policial desanimado, especialista em pokémon sombrios. Qual é o nome dele?",
+      "resposta": "Nanu",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Nanu"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Kahili",
+        "descricao": "Treinadora especialista em pokémon voadores e golfista, membro da Elite dos Quatro de Alola nos jogos Pokémon Sun e Moon.",
+        "variantes": [
+          "Kahili"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kahili",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sun_and_Moon"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Kahili, a especialista em pokémon voadores da Elite dos Quatro de Alola, também é uma estrela de qual esporte?",
+      "resposta": "Golfe",
+      "distratores": [
+        "Surfe",
+        "Patinação",
+        "Snowboard"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kahili"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Kabu",
+        "descricao": "Veterano líder do ginásio de tipo Fogo de Motostoke, em Galar, nos jogos Pokémon Sword e Shield.",
+        "variantes": [
+          "Kabu"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Kabu",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Kabu, o veterano líder de fogo de Motostoke, em Galar, nasceu em outra região dos jogos. Qual?",
+      "resposta": "Hoenn",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Kabu"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Allister",
+        "descricao": "Menino mascarado, líder do ginásio de tipo Fantasma de Stow-on-Side em Pokémon Shield, na região de Galar.",
+        "variantes": [
+          "Allister"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Allister",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em Pokémon Sword, o ginásio de Stow-on-Side é da lutadora Bea. Em Shield, quem o comanda, com pokémon fantasmas?",
+      "resposta": "Allister",
+      "distratores": [
+        "Opal",
+        "Piers",
+        "Melony"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Allister",
+        "https://bulbapedia.bulbagarden.net/wiki/Stow-on-Side_Stadium"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Melony",
+        "descricao": "Líder do ginásio de tipo Gelo de Circhester em Pokémon Shield, na região de Galar.",
+        "variantes": [
+          "Melony"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Melony",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Galar, Gordie, o líder de pedra de Circhester em Sword, e Melony, a líder de gelo da mesma cidade em Shield, têm que parentesco?",
+      "resposta": "Ela é mãe dele",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Melony",
+        "https://bulbapedia.bulbagarden.net/wiki/Gordie"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Raihan",
+        "descricao": "Líder do ginásio de tipo Dragão de Hammerlocke, em Galar, nos jogos Pokémon Sword e Shield.",
+        "variantes": [
+          "Raihan"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Raihan",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Sword_and_Shield"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Raihan, o líder de dragões de Hammerlocke, em Sword e Shield, se apresenta como eterno rival de qual treinador de Galar?",
+      "resposta": "Leon",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Raihan"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Poppy",
+        "descricao": "Menina especialista em pokémon de aço, membro da Elite dos Quatro de Paldea nos jogos Pokémon Scarlet e Violet.",
+        "variantes": [
+          "Poppy"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Poppy",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em Scarlet e Violet, a Elite dos Quatro de Paldea tem uma integrante bem pequena, especialista em aço e dona de um Tinkaton. Quem é ela?",
+      "resposta": "Poppy",
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Poppy"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    },
+    {
+      "ancora": {
+        "nome": "Geeta",
+        "descricao": "Campeã e presidente da Liga Pokémon de Paldea nos jogos Pokémon Scarlet e Violet.",
+        "variantes": [
+          "Geeta"
+        ],
+        "fontes": [
+          "https://bulbapedia.bulbagarden.net/wiki/Geeta",
+          "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Scarlet_and_Violet"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Em Scarlet e Violet, Geeta, a campeã que testa o jogador no fim da Liga de Paldea, ocupa também qual cargo?",
+      "resposta": "Presidente da Liga Pokémon",
+      "distratores": [
+        "Diretora da academia",
+        "Professora da academia",
+        "Chefe da Equipe Star"
+      ],
+      "fonte": [
+        "https://bulbapedia.bulbagarden.net/wiki/Geeta"
+      ],
+      "subtema_colecao": "Jogos da Série Principal"
+    }
+  ]
+}

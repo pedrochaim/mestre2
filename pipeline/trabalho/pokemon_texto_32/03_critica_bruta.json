@@ -1,0 +1,246 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Vulpix e Sandshrew de Alola ganham o tipo Gelo; fato correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mega Gyarados é Água e Sombrio; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ponyta de Galar é puramente Psíquico; descrição correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sirfetch'd é a evolução inédita do Farfetch'd de Galar.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Farfetch'd de Galar evolui ao acertar três golpes críticos numa batalha.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "No Slowbro de Galar o Shellder fica preso no braço.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Marowak de Alola e Typhlosion de Hisui são ambos Fogo e Fantasma.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Diglett de Alola é Terrestre e Aço.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Wooper de Paldea evolui em Clodsire; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Zapdos de Galar é Lutador/Voador; distratores são tipos das outras aves.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mega Altaria é Dragão/Fada, e Fada estreou na sexta geração com as megaevoluções.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Na megaevolução o filhote de Kangaskhan sai da bolsa e luta junto.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não tenho certeza de quantas colheres da Mega Alakazam flutuam (3 ou 5 no total); resposta ambígua.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que as pernas ficam enterradas no chão, não afundadas nas sombras.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Ao megaevoluir, Gengar fica maior, com as pernas enterradas no chão, e ganha algo novo no meio da testa. O quê?",
+        "resposta": "Um terceiro olho",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/Gengar"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Duraludon Gigantamax lembra um arranha-céu com janelas iluminadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A capa de Burmy depende do lugar da última batalha.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As formas de Shellos são separadas pelo Monte Coronet; fato documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A estampa de Vivillon depende da região real do jogador.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A forma Crepúsculo depende de uma habilidade, não da hora; reduzir para as duas formas decididas pelo horário.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Rockruff, o filhote de cachorro de Alola, evolui em Lycanroc de forma diurna ou noturna. O que decide qual das duas surge?",
+        "resposta": "A hora do dia",
+        "distratores": [
+          "A fase da lua",
+          "O clima",
+          "A pedra usada"
+        ],
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VII_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Descrição correta de Wishiwashi e sua forma Cardume.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sliggoo evolui em Goodra subindo de nível sob chuva.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pancham evolui com um pokémon Sombrio na equipe.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mantyke evolui com Remoraid na equipe.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta longa demais; trocar por pergunta com item específico.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em Sword e Shield, o pequeno dragão Applin vive dentro de uma maçã. Que item faz Applin evoluir em Appletun?",
+        "resposta": "Sweet Apple",
+        "fonte": [
+          "https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon)",
+          "https://en.wikipedia.org/wiki/List_of_generation_VIII_Pok%C3%A9mon"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ursaring evolui em Ursaluna com o Peat Block sob lua cheia.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As formas de Zygarde dependem das células e núcleos reunidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Zacian Coroado é Fada/Aço.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Stunfisk de Galar é Terrestre/Aço e imita uma armadilha.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Perrserker, Cursola e Runerigus evoluem de formas de Galar.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Em Diamond e Pearl, Leafeon e Glaceon evoluem subindo de nível perto de rochas especiais.",
+      "reescrita": null
+    }
+  ]
+}
