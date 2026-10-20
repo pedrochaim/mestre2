@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Diagrama anatômico genérico do esqueleto humano, sem relação com fósseis ou pré-história; nenhuma pergunta de quando, onde ou o que é rende uma boa pergunta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Escavação vista de longe, com pessoas comuns e uma passarela. Nada na imagem permite reconhecer Sterkfontein, e a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pinturas rupestres de gado em tons de vermelho, sem texto. Em múltipla escolha, a pergunta sobre a região funciona.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região da África fica este sítio de arte rupestre com pinturas de gado?",
+      "resposta": "Chifre da África",
+      "distratores": [
+        "Saara central",
+        "Vale do Nilo",
+        "Deserto do Kalahari"
+      ],
+      "ancora": {
+        "nome": "Laas Geel",
+        "descricao": "Conjunto de cavernas com arte rupestre de gado de cerca de cinco mil anos, perto de Hargeisa, na Somalilândia.",
+        "variantes": [
+          "Laas Gaal"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra um oleiro, uma pessoa comum em primeiro plano, e a marca SHIMPO aparece escrita no torno. O assunto é a produção moderna de cerâmica, e não a pré-história."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pilares em T em estruturas circulares de pedra, típicos do Neolítico pré-cerâmico da Turquia. O país é único mesmo que se confunda com Göbekli Tepe.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este sítio neolítico com pilares de pedra em forma de T?",
+      "resposta": "Turquia",
+      "distratores": [
+        "Síria",
+        "Iraque",
+        "Jordânia"
+      ],
+      "ancora": {
+        "nome": "Karahan Tepe",
+        "descricao": "Sítio arqueológico do Neolítico pré-cerâmico em Şanlıurfa, na Turquia, irmão de Göbekli Tepe, com pilares em T.",
+        "variantes": [
+          "Karahantepe"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Crânio humano coberto de reboco modelado, bem visível e sem texto, com aparência inconfundível.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Há cerca de quantos anos foram feitos estes crânios humanos modelados com reboco no Levante?",
+      "resposta": "Cerca de nove mil anos",
+      "distratores": [
+        "Cerca de cinco mil anos",
+        "Cerca de quinze mil anos",
+        "Cerca de três mil anos"
+      ],
+      "ancora": {
+        "nome": "Crânios rebocados de Jericó",
+        "descricao": "Crânios humanos cobertos com camadas de reboco e modelados como rostos, do Neolítico pré-cerâmico B no Levante.",
+        "variantes": [
+          "Crânios modelados de Jericó",
+          "Plastered human skulls"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Arcos decorativos modernos pendurados numa janela, ao lado de tambores. Não são pré-históricos, o contexto é de loja de artesanato e a pergunta não teria resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estela de pedra bem visível, de frente, com o rei no alto e os inimigos abaixo. Reconhecível e sem legenda que entregue a resposta.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século antes de Cristo foi esculpida esta estela de vitória do Império Acádio?",
+      "resposta": "Século vinte e três a.C.",
+      "distratores": [
+        "Século vinte e cinco a.C.",
+        "Século vinte e um a.C.",
+        "Século dezenove a.C."
+      ],
+      "ancora": {
+        "nome": "Estela de Naram-Sin",
+        "descricao": "Estela de vitória em arenito rosado do rei acadiano Naram-Sin, de cerca de 2254 a.C., hoje no Louvre.",
+        "variantes": [
+          "Estela da Vitória de Naram-Sin",
+          "Victory Stele of Naram-Sin"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O crânio mostrado é de um canídeo (raposa ou cão), e não humano, o que não combina com o catálogo nem com o nome do item. Também não dá para reconhecer a espécie."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vaso de prata com placas em relevo, sem texto. É reconhecível e tem resposta única.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país foi encontrado, num pântano de turfa, este vaso de prata da Idade do Ferro?",
+      "resposta": "Dinamarca",
+      "ancora": {
+        "nome": "Caldeirão de Gundestrup",
+        "descricao": "Vaso de prata ricamente decorado da Idade do Ferro europeia, achado em 1891 num pântano da Dinamarca.",
+        "variantes": [
+          "Gundestrup cauldron"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Mandíbula e ossos parietais do holótipo de Homo habilis, expostos num suporte, sem texto. É um fóssil de aficionado, então a múltipla escolha é adequada.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que espécie de hominídeo pertencem estes fósseis achados na Garganta de Olduvai, na Tanzânia?",
+      "resposta": "Homo habilis",
+      "distratores": [
+        "Homo erectus",
+        "Australopithecus afarensis",
+        "Paranthropus boisei"
+      ],
+      "ancora": {
+        "nome": "OH 7",
+        "descricao": "Fósseis do holótipo de Homo habilis, achados em 1960 por Jonathan e Mary Leakey na Garganta de Olduvai, na Tanzânia.",
+        "variantes": [
+          "Olduvai Hominid 7",
+          "Filho de Johnny",
+          "Johnny's Child"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Dois gibões-de-mãos-brancas em claro e escuro, em foto nítida e bem reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vivem na natureza estes primatas, parentes menores dos grandes macacos?",
+      "resposta": "Ásia",
+      "ancora": {
+        "nome": "Gibão",
+        "descricao": "Primata da família Hylobatidae, um dos macacos menores sem cauda, que vive nas florestas do sul e do sudeste da Ásia.",
+        "variantes": [
+          "Gibões",
+          "Gibbon"
+        ]
+      }
+    }
+  ]
+}
