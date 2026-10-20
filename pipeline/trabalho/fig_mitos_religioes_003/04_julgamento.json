@@ -1,0 +1,582 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Hades",
+        "descricao": "Deus grego dos mortos e rei do mundo subterrâneo, irmão de Zeus e Poseidon.",
+        "variantes": [
+          "Plutão",
+          "Plutão (Roma)",
+          "Aides"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "plutao",
+          "nome": "Plutão",
+          "descricao": "Planeta anão do Cinturão de Kuiper, descoberto em 1930 e considerado o nono planeta até 2006.",
+          "variantes": [
+            "Pluto",
+            "134340 Plutão"
+          ]
+        },
+        {
+          "id": "caronte",
+          "nome": "Caronte",
+          "descricao": "Maior lua de Plutão, de superfície cinzenta com um polo avermelhado, fotografada pela sonda New Horizons.",
+          "variantes": [
+            "Charon",
+            "Plutão I"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        },
+        {
+          "id": "cordilheira_dos_andes",
+          "nome": "Cordilheira dos Andes",
+          "descricao": "Cadeia de montanhas que percorre todo o oeste da América do Sul, da Venezuela à Patagônia.",
+          "variantes": [
+            "Andes",
+            "Cordillera de los Andes"
+          ]
+        },
+        {
+          "id": "aedes_aegypti",
+          "nome": "Aedes aegypti",
+          "descricao": "Mosquito de origem africana, transmissor da dengue, da zika, da chikungunya e da febre amarela urbana.",
+          "variantes": [
+            "mosquito da dengue",
+            "Aedes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Sobek",
+        "descricao": "Deus egípcio com cabeça de crocodilo, ligado ao Nilo, à fertilidade e ao poder do faraó.",
+        "variantes": [
+          "Sobeque",
+          "Suchus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bequer",
+          "nome": "Béquer",
+          "descricao": "Recipiente cilíndrico de laboratório, de fundo plano e pequeno bico para despejar líquidos.",
+          "variantes": [
+            "Becker",
+            "Copo de Becker"
+          ]
+        },
+        {
+          "id": "sobble",
+          "nome": "Sobble",
+          "descricao": "Pokémon do tipo Água, número 816 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sarcosuchus",
+          "nome": "Sarcosuchus",
+          "descricao": "Gênero extinto de crocodilomorfo gigante do Cretáceo Inferior, da África do Norte e do Brasil, com bulbo na ponta do focinho.",
+          "variantes": [
+            "Sarcosuco",
+            "Supercroc"
+          ]
+        },
+        {
+          "id": "obelisco",
+          "nome": "Obelisco",
+          "descricao": "Monumento egípcio de pedra, alto e de quatro faces, que termina em ponta piramidal",
+          "variantes": [
+            "Obelisk",
+            "Tekhenu"
+          ]
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Apolo do Belvedere",
+        "descricao": "Estátua romana em mármore, cópia de bronze grego, que representa o deus Apolo e está nos Museus do Vaticano.",
+        "variantes": [
+          "Apolo",
+          "Apolo Belvedere"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "apolo_de_belvedere",
+          "nome": "Apolo de Belvedere",
+          "descricao": "Escultura de mármore, cópia romana de um bronze grego, que representa Apolo e está nos Museus do Vaticano.",
+          "variantes": [
+            "Apollo Belvedere",
+            "Apolo Pítio"
+          ]
+        },
+        {
+          "id": "archer",
+          "nome": "Archer",
+          "descricao": "Executivo da Equipe Rocket que comanda o grupo na ausência de Giovanni em Pokémon HeartGold e SoulSilver.",
+          "variantes": [
+            "Apollo"
+          ]
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "palacio_belvedere",
+          "nome": "Palácio Belvedere",
+          "descricao": "Conjunto de palácios barrocos em Viena, na Áustria, hoje museu de arte austríaca.",
+          "variantes": [
+            "Belvedere",
+            "Schloss Belvedere"
+          ]
+        },
+        {
+          "id": "polvo",
+          "nome": "Polvo",
+          "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+          "variantes": [
+            "Octopus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Garuda",
+        "descricao": "Criatura alada da mitologia hindu, rei das aves e montaria do deus Vishnu.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        },
+        {
+          "id": "ararajuba",
+          "nome": "Ararajuba",
+          "descricao": "Psitacídeo brasileiro (Guaruba guarouba) de plumagem amarela com pontas das asas verdes.",
+          "variantes": [
+            "Guaruba guarouba",
+            "Guaruba",
+            "Golden parakeet"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "antoni_gaudi",
+          "nome": "Antoni Gaudí",
+          "descricao": "Arquiteto catalão, 1852-1926, autor da Sagrada Família, da Casa Batlló e do Parque Güell, em Barcelona.",
+          "variantes": [
+            "Gaudí",
+            "Antoni Gaudí i Cornet"
+          ]
+        },
+        {
+          "id": "gaara",
+          "nome": "Gaara",
+          "descricao": "Ninja de Sunagakure de cabelo vermelho, jinchuuriki do Shukaku e depois Kazekage, no mangá e anime Naruto.",
+          "variantes": [
+            "Gaara do Deserto",
+            "Gaara of the Sand"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pietà de Michelangelo",
+        "descricao": "Escultura em mármore de Michelangelo (1498-1499) que mostra Maria com Jesus morto nos braços.",
+        "variantes": [
+          "Pietà",
+          "Pietà do Vaticano",
+          "Madonna della Pietà"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà",
+            "Pietà"
+          ]
+        },
+        {
+          "id": "moises_michelangelo",
+          "nome": "Moisés (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, na Basílica de San Pietro in Vincoli, em Roma, feita para o túmulo do papa Júlio II.",
+          "variantes": [
+            "Moisés de Michelangelo",
+            "Moses"
+          ]
+        },
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Kinkaku-ji (Pavilhão Dourado)",
+        "descricao": "Templo budista zen em Kyoto, no Japão, famoso pelo pavilhão com os dois andares superiores cobertos de folha de ouro.",
+        "variantes": [
+          "Pavilhão Dourado",
+          "Rokuon-ji",
+          "Templo do Pavilhão Dourado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kinkaku_ji_pavilhao_dourado",
+          "nome": "Kinkaku-ji (Pavilhão Dourado)",
+          "descricao": "Templo budista zen em Quioto, Japão, cujo pavilhão é coberto de folha de ouro.",
+          "variantes": [
+            "Pavilhão Dourado",
+            "Rokuon-ji",
+            "Kinkakuji",
+            "Kinkaku-ji",
+            "Templo do Pavilhão Dourado"
+          ]
+        },
+        {
+          "id": "faisao_dourado",
+          "nome": "Faisão-dourado",
+          "descricao": "Faisão colorido (Chrysolophus pictus), originário das montanhas da China.",
+          "variantes": [
+            "Chrysolophus pictus",
+            "Golden pheasant"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "pagode_shwedagon",
+          "nome": "Pagode Shwedagon",
+          "descricao": "Estupa dourada, o pagode budista mais sagrado de Mianmar, em Yangon.",
+          "variantes": [
+            "Shwedagon Pagoda",
+            "Pagode Dourado",
+            "Grande Pagode Dagon"
+          ]
+        },
+        {
+          "id": "macaco_dourado_de_nariz_arrebitado",
+          "nome": "Macaco-dourado-de-nariz-arrebitado",
+          "descricao": "Macaco do Velho Mundo (Rhinopithecus roxellana) das florestas montanhosas do centro e sudoeste da China.",
+          "variantes": [
+            "Macaco-dourado",
+            "Rhinopithecus roxellana",
+            "Golden snub-nosed monkey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Narciso",
+        "descricao": "Jovem da mitologia grega que se apaixonou pelo próprio reflexo na água.",
+        "variantes": [
+          "Narcissus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "denario",
+          "nome": "Denário",
+          "descricao": "Moeda de prata padrão da Roma antiga.",
+          "variantes": [
+            "Denarius"
+          ]
+        },
+        {
+          "id": "arcossauros",
+          "nome": "Arcossauros",
+          "descricao": "Grupo de répteis que reúne os crocodilianos, os dinossauros extintos e as aves.",
+          "variantes": [
+            "Archosauria",
+            "Archosaur"
+          ]
+        },
+        {
+          "id": "macaco_narigudo",
+          "nome": "Macaco-narigudo",
+          "descricao": "Macaco arborícola de nariz enorme (Nasalis larvatus), endêmico da ilha de Bornéu.",
+          "variantes": [
+            "Narigudo",
+            "Nasalis larvatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Kipá",
+        "descricao": "Pequeno chapéu redondo sem aba usado na cabeça por judeus, sobretudo na oração.",
+        "variantes": [
+          "Quipá",
+          "Yarmulke",
+          "Kippah"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quipa",
+          "nome": "Quipá",
+          "descricao": "Pequeno chapéu redondo sem aba usado por judeus para cobrir a cabeça.",
+          "variantes": [
+            "Kippah",
+            "Yarmulke",
+            "Kipá"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Turíbulo",
+        "descricao": "Recipiente de metal preso a correntes em que se queima incenso durante cerimônias religiosas.",
+        "variantes": [
+          "Incensário",
+          "Thurible"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cesariao",
+          "nome": "Cesarião",
+          "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo",
+          "variantes": [
+            "Ptolomeu XV",
+            "Caesarion",
+            "Ptolomeu XV Cesarião"
+          ]
+        },
+        {
+          "id": "thriller",
+          "nome": "Thriller",
+          "descricao": "Álbum de Michael Jackson produzido por Quincy Jones",
+          "variantes": []
+        },
+        {
+          "id": "try_rugbi",
+          "nome": "Try (rúgbi)",
+          "descricao": "Jogada do rúgbi em que o jogador apoia a bola no chão dentro da área de meta adversária.",
+          "variantes": [
+            "Ensaio",
+            "Try"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "murilo_endres",
+          "nome": "Murilo Endres",
+          "descricao": "Ponta brasileiro de vôlei, bicampeão mundial e duas vezes medalhista de prata olímpico.",
+          "variantes": [
+            "Murilo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Hades é o deus grego; Plutão candidato é o planeta anão, entidade diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Sobek é o deus egípcio; nenhuma candidata o descreve."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "apolo_de_belvedere",
+      "motivo": "Mesma estátua romana de Apolo nos Museus do Vaticano."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Garuda mitológico não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "pieta_michelangelo",
+      "motivo": "Mesma escultura de Michelangelo, 1498-1499, Maria com Jesus morto."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "kinkaku_ji_pavilhao_dourado",
+      "motivo": "Mesmo templo Kinkaku-ji em Kyoto/Quioto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Narciso mitológico não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "quipa",
+      "motivo": "Mesmo chapéu judaico, com variantes coincidentes (Kipá, Kippah, Yarmulke)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Turíbulo (incensário) não corresponde a nenhuma candidata."
+    }
+  ]
+}

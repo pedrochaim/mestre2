@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que museu fica esta estátua?",
+        "resposta": "Museus do Vaticano"
+      },
+      "existentes": [
+        {
+          "id": "q02524",
+          "pergunta": "Que célebre escultura de mármore, cópia romana de um original grego, é esta?",
+          "resposta": "Apolo de Belvedere"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O edifício principal deste templo japonês foi reconstruído em 1955. O que o havia destruído, cinco anos antes?",
+        "resposta": "Um incêndio criminoso"
+      },
+      "existentes": [
+        {
+          "id": "q07191",
+          "pergunta": "Em que cidade do Japão fica este templo?",
+          "resposta": "Quioto"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Kipá"
+      },
+      "existentes": [
+        {
+          "id": "q06938",
+          "pergunta": "Como se chama este tipo de chapéu sem aba?",
+          "resposta": "Quipá"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre o nome da escultura, a outra sobre o museu onde fica; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre a cidade do templo, a outra sobre a causa da destruição do edifício; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem o nome do mesmo objeto (kipá/quipá), a mesma resposta com grafia diferente.",
+      "id_existente": "q06938"
+    }
+  ]
+}

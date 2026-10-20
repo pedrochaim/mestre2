@@ -1,0 +1,512 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Atlas Farnese",
+        "descricao": "Escultura romana em mármore do Titã Atlas sustentando o globo celeste, no Museu Arqueológico Nacional de Nápoles.",
+        "variantes": [
+          "Atlas",
+          "Atlante Farnese"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atlas_vertebra",
+          "nome": "Atlas (vértebra)",
+          "descricao": "Primeira vértebra cervical, que sustenta o crânio.",
+          "variantes": [
+            "Atlas",
+            "C1",
+            "Atlas (anatomy)"
+          ]
+        },
+        {
+          "id": "atlantida",
+          "nome": "Atlântida",
+          "descricao": "Ilha lendária que, segundo um relato da Grécia Antiga, teria sido engolida pelo mar.",
+          "variantes": [
+            "Atlantis"
+          ]
+        },
+        {
+          "id": "atlantes_de_tula",
+          "nome": "Atlantes de Tula",
+          "descricao": "Colunas de pedra em forma de guerreiros no alto de uma pirâmide de Tula, antiga capital tolteca no estado mexicano de Hidalgo.",
+          "variantes": [
+            "Atlantes",
+            "Atlantes de Tula de Allende"
+          ]
+        },
+        {
+          "id": "fruta_do_conde",
+          "nome": "Fruta-do-conde",
+          "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+          "variantes": [
+            "Pinha",
+            "Ata",
+            "Annona squamosa"
+          ]
+        },
+        {
+          "id": "mata_atlantica",
+          "nome": "Mata Atlântica",
+          "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+          "variantes": [
+            "Atlantic Forest",
+            "Floresta Atlântica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita de Córdoba, na Andaluzia, hoje catedral católica.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova",
+          "Grande Mesquita de Córdoba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        },
+        {
+          "id": "grande_mesquita_de_djenne",
+          "nome": "Grande Mesquita de Djenné",
+          "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Great Mosque of Djenné",
+            "Mesquita de Djenné"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        },
+        {
+          "id": "grande_barreira_de_coral",
+          "nome": "Grande Barreira de Coral",
+          "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália.",
+          "variantes": [
+            "Great Barrier Reef"
+          ]
+        },
+        {
+          "id": "maquina_de_costura",
+          "nome": "Máquina de costura",
+          "descricao": "Máquina que une tecidos com linha, considerada inventada por Thomas Saint em 1790.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Buda Gigante de Leshan",
+        "descricao": "Estátua de Buda de 71 metros esculpida num penhasco, na província de Sichuan, China.",
+        "variantes": [
+          "Grande Buda de Leshan",
+          "Leshan Giant Buddha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buda_gigante_de_leshan",
+          "nome": "Buda Gigante de Leshan",
+          "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+          "variantes": [
+            "Grande Buda de Leshan"
+          ]
+        },
+        {
+          "id": "grande_buda_de_kamakura",
+          "nome": "Grande Buda de Kamakura",
+          "descricao": "Estátua monumental de bronze de Amitabha no templo Kōtoku-in, em Kamakura, Japão.",
+          "variantes": [
+            "Kamakura Daibutsu",
+            "Daibutsu de Kamakura"
+          ]
+        },
+        {
+          "id": "jack_johnson",
+          "nome": "Jack Johnson",
+          "descricao": "Boxeador americano, primeiro campeão mundial negro dos pesos-pesados, em 1908.",
+          "variantes": [
+            "John Arthur Johnson",
+            "Gigante de Galveston"
+          ]
+        },
+        {
+          "id": "muralha_da_china",
+          "nome": "Muralha da China",
+          "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+          "variantes": [
+            "Grande Muralha da China",
+            "Great Wall of China",
+            "Grande Muralha"
+          ]
+        },
+        {
+          "id": "grande_buraco_de_kimberley",
+          "nome": "Grande Buraco de Kimberley",
+          "descricao": "Antiga mina de diamantes a céu aberto, escavada em grande parte à mão no século dezenove na cidade de Kimberley.",
+          "variantes": [
+            "Big Hole",
+            "Kimberley Mine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ostensório",
+        "descricao": "Objeto litúrgico dourado usado para expor a hóstia consagrada na adoração eucarística.",
+        "variantes": [
+          "Custódia",
+          "Monstrância"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "suspensorio",
+          "nome": "Suspensório",
+          "descricao": "Tiras de tecido ou couro que passam pelos ombros para segurar calças ou saias.",
+          "variantes": [
+            "Suspenders",
+            "Braces"
+          ]
+        },
+        {
+          "id": "petra_al_khazneh",
+          "nome": "Petra (Al-Khazneh)",
+          "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+          "variantes": [
+            "Al-Khazneh",
+            "O Tesouro",
+            "Petra"
+          ]
+        },
+        {
+          "id": "utopia",
+          "nome": "Utopia",
+          "descricao": "Ilha imaginária com uma sociedade ideal, descrita no livro de mesmo nome publicado em 1516.",
+          "variantes": [
+            "Utopia (livro)",
+            "Ilha de Utopia"
+          ]
+        },
+        {
+          "id": "utopia_2",
+          "nome": "Utopia",
+          "descricao": "Livro de Thomas More, publicado em 1516, que descreve uma ilha com uma sociedade ideal.",
+          "variantes": [
+            "Utopia (livro)",
+            "Utopia de Thomas More",
+            "A Utopia",
+            "De Optimo Reipublicae Statu deque Nova Insula Utopia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Dragão chinês",
+        "descricao": "Criatura lendária da mitologia chinesa, serpentina com quatro patas, símbolo de poder e controle das águas.",
+        "variantes": [
+          "Long",
+          "Loong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "pong",
+          "nome": "Pong",
+          "descricao": "Jogo de fliperama da Atari que simula tênis de mesa, lançado em 1972.",
+          "variantes": []
+        },
+        {
+          "id": "tamanco",
+          "nome": "Tamanco",
+          "descricao": "Calçado de solado grosso e rígido, tradicionalmente de madeira, aqui com tira no tornozelo.",
+          "variantes": [
+            "Clog"
+          ]
+        },
+        {
+          "id": "logo_linguagem_de_programacao",
+          "nome": "Logo (linguagem de programação)",
+          "descricao": "Linguagem de programação educacional criada em 1967, usada para ensinar programação a crianças.",
+          "variantes": [
+            "Logo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Torii",
+        "descricao": "Portal tradicional japonês na entrada de santuários xintoístas, aqui o torii flutuante de Itsukushima.",
+        "variantes": [
+          "Portal torii",
+          "Torii de Itsukushima"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santuario_de_itsukushima",
+          "nome": "Santuário de Itsukushima",
+          "descricao": "Santuário xintoísta na ilha de Miyajima, no Japão, famoso pelo grande portal torii erguido sobre o mar.",
+          "variantes": [
+            "Itsukushima-jinja",
+            "Miyajima"
+          ]
+        },
+        {
+          "id": "thor",
+          "nome": "Thor",
+          "descricao": "Deus nórdico do trovão, filho de Odin, que empunha o martelo Mjölnir.",
+          "variantes": [
+            "Thórr",
+            "Tor"
+          ]
+        },
+        {
+          "id": "matori",
+          "nome": "Matori",
+          "descricao": "Secretária de Giovanni na Equipe Rocket nas séries Sol e Lua e Jornadas do anime Pokémon.",
+          "variantes": []
+        },
+        {
+          "id": "trivium",
+          "nome": "Trivium",
+          "descricao": "Grupo das três artes liberais de base do ensino medieval: gramática, retórica e lógica.",
+          "variantes": [
+            "Trívio"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera",
+            "Tera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Wat Arun",
+        "descricao": "Templo budista do Amanhecer, com alto prang, na margem do rio Chao Phraya, em Bangkok, Tailândia.",
+        "variantes": [
+          "Templo da Aurora",
+          "Templo do Amanhecer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wat_arun",
+          "nome": "Wat Arun",
+          "descricao": "Templo budista em Bangkok, na Tailândia, na margem oeste do rio Chao Phraya, conhecido pelo prang central.",
+          "variantes": [
+            "Templo do Amanhecer",
+            "Templo da Aurora",
+            "Wat Arun Ratchawararam"
+          ]
+        },
+        {
+          "id": "lance",
+          "nome": "Lance",
+          "descricao": "Treinador especialista em pokémon dragão, último membro da Elite dos Quatro em Red e Blue e campeão da Liga em Gold e Silver.",
+          "variantes": [
+            "Wataru"
+          ]
+        },
+        {
+          "id": "templo_de_luxor",
+          "nome": "Templo de Luxor",
+          "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+          "variantes": [
+            "Luxor Temple"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "O Nascimento de Vênus",
+        "descricao": "Pintura de Sandro Botticelli, de cerca de 1485, que mostra Vênus chegando à praia numa concha; fica na Galeria Uffizi.",
+        "variantes": [
+          "Nascita di Venere",
+          "The Birth of Venus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_nascimento_de_venus",
+          "nome": "O Nascimento de Vênus",
+          "descricao": "Pintura de Sandro Botticelli, de cerca de 1485.",
+          "variantes": [
+            "The Birth of Venus",
+            "Nascita di Venere"
+          ]
+        },
+        {
+          "id": "atmosfera_de_venus",
+          "nome": "Atmosfera de Vênus",
+          "descricao": "Camada densa de gases, quase toda de gás carbônico, que envolve o planeta Vênus.",
+          "variantes": [
+            "Atmosphere of Venus"
+          ]
+        },
+        {
+          "id": "vacina_contra_a_variola",
+          "nome": "Vacina contra a varíola",
+          "descricao": "Imunização desenvolvida pelo médico inglês Edward Jenner a partir da varíola bovina, base de todas as vacinas.",
+          "variantes": [
+            "Vacina antivariólica",
+            "Vacina de Jenner"
+          ]
+        },
+        {
+          "id": "arremesso_de_peso",
+          "nome": "Arremesso de peso",
+          "descricao": "Prova do atletismo em que o atleta arremessa uma bola metálica pesada o mais longe possível, a partir de um círculo.",
+          "variantes": [
+            "Lançamento de peso"
+          ]
+        },
+        {
+          "id": "o_absinto",
+          "nome": "O Absinto",
+          "descricao": "Pintura de Edgar Degas de 1875-1876, também chamada Num Café, que mostra uma mulher e um homem sentados num café parisiense.",
+          "variantes": [
+            "O Absinto (Degas)",
+            "L'Absinthe",
+            "Num Café",
+            "Dans un Café",
+            "The Absinthe Drinker"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Escultura Atlas Farnese é distinta da vértebra, Atlântida e demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "mesquita_catedral_de_cordoba",
+      "motivo": "Mesma mesquita-catedral de Córdoba."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "buda_gigante_de_leshan",
+      "motivo": "Mesma estátua em Leshan, Sichuan, 71 m."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ostensório não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Dragão chinês não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O torii flutuante é parte do santuário, entidade distinta do santuário de Itsukushima."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "wat_arun",
+      "motivo": "Mesmo templo em Bangkok."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "o_nascimento_de_venus",
+      "motivo": "Mesma pintura de Botticelli, c. 1485."
+    }
+  ]
+}

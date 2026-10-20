@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua em mármore de Hades com Cérbero, sem texto que entregue a resposta; o cão de três cabeças e o cetro o tornam reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que deus grego é este?",
+      "resposta": "Hades (Plutão)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hades",
+        "descricao": "Deus grego dos mortos e rei do mundo subterrâneo, irmão de Zeus e Poseidon.",
+        "variantes": [
+          "Plutão",
+          "Plutão (Roma)",
+          "Aides"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ilustração limpa do deus egípcio com cabeça de crocodilo, sem texto; reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus egípcio é este?",
+      "resposta": "Sobek",
+      "distratores": [
+        "Anúbis",
+        "Hórus",
+        "Khnum"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sobek",
+        "descricao": "Deus egípcio com cabeça de crocodilo, ligado ao Nilo, à fertilidade e ao poder do faraó.",
+        "variantes": [
+          "Sobeque",
+          "Suchus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estátua do Apolo do Belvedere, reconhecida pela pose e pelo tronco com serpente; sem texto. Pergunta sobre o museu exige reconhecer a obra.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu fica esta estátua?",
+      "resposta": "Museus do Vaticano",
+      "destino": 0,
+      "ancora": {
+        "nome": "Apolo do Belvedere",
+        "descricao": "Estátua romana em mármore, cópia de bronze grego, que representa o deus Apolo e está nos Museus do Vaticano.",
+        "variantes": [
+          "Apolo Belvedere",
+          "Apolo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Detalhe de busto de guerreiro com elmo; sem atributos claros, pode ser confundido com Aquiles, Atena ou outro herói. Resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escultura em madeira de Garuda com asas e rosto humano, sem texto legível; boa para uma pergunta de conexão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta criatura é a montaria de qual deus hindu?",
+      "resposta": "Vishnu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Garuda",
+        "descricao": "Criatura alada da mitologia hindu, rei das aves e montaria do deus Vishnu.",
+        "variantes": [
+          "Garuḍa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida da Pietà de Michelangelo, sem texto; obra famosa e inconfundível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que basílica fica esta escultura?",
+      "resposta": "Basílica de São Pedro",
+      "distratores": [
+        "São João de Latrão",
+        "Santa Maria Maggiore",
+        "São Paulo Extramuros"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pietà de Michelangelo",
+        "descricao": "Escultura em mármore de Michelangelo (1498-1499) que mostra Maria com Jesus morto nos braços.",
+        "variantes": [
+          "Pietà",
+          "Pietà do Vaticano",
+          "Madonna della Pietà"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara do Pavilhão Dourado refletido no lago, sem texto; inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este templo japonês foi reconstruído em 1955. Que tipo de acontecimento o havia destruído?",
+      "resposta": "Um incêndio criminoso",
+      "destino": 1,
+      "ancora": {
+        "nome": "Kinkaku-ji (Pavilhão Dourado)",
+        "descricao": "Templo budista zen em Kyoto, no Japão, famoso pelo pavilhão com os dois andares superiores cobertos de folha de ouro.",
+        "variantes": [
+          "Pavilhão Dourado",
+          "Rokuon-ji",
+          "Templo do Pavilhão Dourado"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pintura de Caravaggio (domínio público) que mostra o jovem diante do reflexo na água; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que personagem da mitologia é este?",
+      "resposta": "Narciso",
+      "destino": 0,
+      "ancora": {
+        "nome": "Narciso",
+        "descricao": "Jovem da mitologia grega que se apaixonou pelo próprio reflexo na água.",
+        "variantes": [
+          "Narcissus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Kipá bem visível, com menorá e estrela de Davi; o texto em hebraico não entrega o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Kipá",
+      "distratores": [
+        "Taqiyah",
+        "Fez",
+        "Barrete frígio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Kipá",
+        "descricao": "Pequeno chapéu redondo sem aba usado na cabeça por judeus, sobretudo na oração.",
+        "variantes": [
+          "Quipá",
+          "Yarmulke",
+          "Kippah"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Turíbulo gótico dourado, com correntes, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de culto é este?",
+      "resposta": "Turíbulo",
+      "destino": 1,
+      "ancora": {
+        "nome": "Turíbulo",
+        "descricao": "Recipiente de metal preso a correntes em que se queima incenso durante cerimônias religiosas.",
+        "variantes": [
+          "Incensário",
+          "Thurible"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Silhueta distante de minaretes e cúpulas ao pôr do sol; sem detalhes, pode ser qualquer mesquita. Não reconhecível nem legível no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Gravura japonesa antiga e confusa, com várias figuras entre árvores; o tengu não é claramente identificável e a resposta não é única."
+    }
+  ]
+}

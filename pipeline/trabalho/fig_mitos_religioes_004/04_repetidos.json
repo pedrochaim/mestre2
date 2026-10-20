@@ -1,0 +1,88 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade espanhola fica este templo?",
+        "resposta": "Córdoba"
+      },
+      "existentes": [
+        {
+          "id": "q03477",
+          "pergunta": "Em que cidade espanhola fica este edifício?",
+          "resposta": "Córdoba"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que província da China fica esta estátua esculpida na rocha?",
+        "resposta": "Sichuan"
+      },
+      "existentes": [
+        {
+          "id": "q03885",
+          "pergunta": "Durante qual dinastia chinesa foi esculpida esta estátua gigante na encosta de um penhasco?",
+          "resposta": "Dinastia Tang"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade, às margens de um grande rio, fica este templo?",
+        "resposta": "Bangkok"
+      },
+      "existentes": [
+        {
+          "id": "q08669",
+          "pergunta": "Que templo budista tailandês é este?",
+          "resposta": "Wat Arun"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que deus do vento aparece à esquerda neste quadro?",
+        "resposta": "Zéfiro"
+      },
+      "existentes": [
+        {
+          "id": "q00406",
+          "pergunta": "Qual é o nome deste quadro?",
+          "resposta": "O Nascimento de Vênus"
+        },
+        {
+          "id": "q06808",
+          "pergunta": "Pintado por Botticelli no século quinze, O Nascimento de Vênus está exposto em que museu de Florença?",
+          "resposta": "Galeria Uffizi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade espanhola do mesmo local, resposta Córdoba.",
+      "id_existente": "q03477"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Província é fato diferente da dinastia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade do templo é diferente do nome do templo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Deus do vento no quadro é fato distinto do nome ou museu."
+    }
+  ]
+}

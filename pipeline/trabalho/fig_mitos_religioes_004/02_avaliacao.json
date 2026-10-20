@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Escultura romana do Atlas Farnese, reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana está hoje esta escultura romana?",
+      "resposta": "Nápoles",
+      "distratores": [
+        "Roma",
+        "Florença",
+        "Veneza"
+      ],
+      "ancora": {
+        "nome": "Atlas Farnese",
+        "descricao": "Escultura romana em mármore do Titã Atlas sustentando o globo celeste, no Museu Arqueológico Nacional de Nápoles.",
+        "variantes": [
+          "Atlas",
+          "Atlante Farnese"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A gravura traz caracteres chineses legíveis com o nome do personagem (Sun Xingzhe) na lateral; o texto entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível da mesquita-catedral, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade espanhola fica este templo?",
+      "resposta": "Córdoba",
+      "distratores": [
+        "Sevilha",
+        "Granada",
+        "Toledo"
+      ],
+      "ancora": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita de Córdoba, na Andaluzia, hoje catedral católica.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova",
+          "Grande Mesquita de Córdoba"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Crucifixo monumental genérico, sem como identificar um local único; a resposta de 'onde' não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Buda esculpido na rocha, claramente reconhecível, sem texto; turistas pequenos ao fundo.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que província da China fica esta estátua esculpida na rocha?",
+      "resposta": "Sichuan",
+      "distratores": [
+        "Henan",
+        "Yunnan",
+        "Shaanxi"
+      ],
+      "ancora": {
+        "nome": "Buda Gigante de Leshan",
+        "descricao": "Estátua de Buda de 71 metros esculpida num penhasco, na província de Sichuan, China.",
+        "variantes": [
+          "Grande Buda de Leshan",
+          "Leshan Giant Buddha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ostensório dourado claro, fundo limpo, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto litúrgico católico é este?",
+      "resposta": "Ostensório (custódia)",
+      "ancora": {
+        "nome": "Ostensório",
+        "descricao": "Objeto litúrgico dourado usado para expor a hóstia consagrada na adoração eucarística.",
+        "variantes": [
+          "Custódia",
+          "Monstrância"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ilustração clara de dragão chinês, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país vem esta criatura mitológica?",
+      "resposta": "China",
+      "distratores": [
+        "Japão",
+        "Coreia do Sul",
+        "Vietnã"
+      ],
+      "ancora": {
+        "nome": "Dragão chinês",
+        "descricao": "Criatura lendária da mitologia chinesa, serpentina com quatro patas, símbolo de poder e controle das águas.",
+        "variantes": [
+          "Long",
+          "Loong"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torii flutuante de Itsukushima, inconfundível; placa pequena ilegível.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Com que religião do Japão se liga este portal?",
+      "resposta": "Xintoísmo",
+      "ancora": {
+        "nome": "Torii",
+        "descricao": "Portal tradicional japonês na entrada de santuários xintoístas, aqui o torii flutuante de Itsukushima.",
+        "variantes": [
+          "Portal torii",
+          "Torii de Itsukushima"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano (jovem rezando) e texto de camiseta; fora da política de pessoas."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cena de cerâmica grega de figuras vermelhas com Teseu e o Minotauro, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que criatura este herói grego está enfrentando neste vaso?",
+      "resposta": "Minotauro",
+      "distratores": [
+        "Hidra",
+        "Quimera",
+        "Górgona"
+      ],
+      "ancora": {
+        "nome": "Teseu",
+        "descricao": "Herói da mitologia grega, rei de Atenas, famoso por matar o Minotauro de Creta.",
+        "variantes": [
+          "Theseus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Wat Arun com o prang central, reconhecível, sem texto relevante.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade, às margens de um grande rio, fica este templo?",
+      "resposta": "Bangkok",
+      "ancora": {
+        "nome": "Wat Arun",
+        "descricao": "Templo budista do Amanhecer, com alto prang, na margem do rio Chao Phraya, em Bangkok, Tailândia.",
+        "variantes": [
+          "Templo da Aurora",
+          "Templo do Amanhecer"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pintura famosa de Botticelli, sem texto; a figura alada à esquerda permite pergunta de segundo fato.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus do vento aparece à esquerda neste quadro?",
+      "resposta": "Zéfiro",
+      "distratores": [
+        "Bóreas",
+        "Noto",
+        "Euro"
+      ],
+      "ancora": {
+        "nome": "O Nascimento de Vênus",
+        "descricao": "Pintura de Sandro Botticelli, de cerca de 1485, que mostra Vênus chegando à praia numa concha; fica na Galeria Uffizi.",
+        "variantes": [
+          "Nascita di Venere",
+          "The Birth of Venus"
+        ]
+      }
+    }
+  ]
+}
