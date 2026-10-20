@@ -1,0 +1,438 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Incêndio florestal",
+        "descricao": "Fogo não planejado e descontrolado em vegetação combustível, como florestas e matas.",
+        "variantes": [
+          "Queimada",
+          "Incêndio de vegetação",
+          "Wildfire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandibula",
+          "nome": "Mandíbula",
+          "descricao": "Osso móvel da parte inferior do rosto, que sustenta os dentes de baixo.",
+          "variantes": [
+            "Maxilar inferior",
+            "Queixada"
+          ]
+        },
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "keffiyeh",
+          "nome": "Keffiyeh",
+          "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+          "variantes": [
+            "Quefia",
+            "Shemagh",
+            "Ghutrah",
+            "Hattah",
+            "Kufiyya"
+          ]
+        },
+        {
+          "id": "empada",
+          "nome": "Empada",
+          "descricao": "Salgado de massa podre assada em forminha, com recheio, popular no Brasil e em Portugal.",
+          "variantes": [
+            "Empadinha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Branqueamento de corais",
+        "descricao": "Perda das algas simbiontes e dos pigmentos dos corais, que ficam brancos, causada por estresse como o aquecimento da água.",
+        "variantes": [
+          "Branqueamento do coral",
+          "Coral bleaching"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "branqueamento_de_corais",
+          "nome": "Branqueamento de corais",
+          "descricao": "Fenômeno em que os corais perdem a cor ao expulsar as algas que vivem em seus tecidos.",
+          "variantes": [
+            "Coral bleaching",
+            "Branqueamento dos corais"
+          ]
+        },
+        {
+          "id": "pesagem_do_coracao",
+          "nome": "Pesagem do coração",
+          "descricao": "Julgamento dos mortos na religião egípcia, em que o coração do falecido era pesado numa balança.",
+          "variantes": [
+            "Julgamento de Osíris",
+            "Psicostasia"
+          ]
+        },
+        {
+          "id": "prudente_de_morais",
+          "nome": "Prudente de Morais",
+          "descricao": "Político paulista que presidiu o Brasil entre 1894 e 1898.",
+          "variantes": [
+            "Prudente José de Morais Barros"
+          ]
+        },
+        {
+          "id": "quarteto_de_cordas",
+          "nome": "Quarteto de cordas",
+          "descricao": "Formação de música de câmara com quatro instrumentos de cordas, consagrada por Haydn no período clássico.",
+          "variantes": [
+            "Quarteto de cordas clássico"
+          ]
+        },
+        {
+          "id": "enriquecimento_de_uranio",
+          "nome": "Enriquecimento de urânio",
+          "descricao": "Processo que aumenta a proporção do isótopo físsil urânio-235 no urânio, para uso como combustível nuclear.",
+          "variantes": [
+            "Urânio enriquecido"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Atrator de Lorenz",
+        "descricao": "Figura em forma de borboleta formada pelas soluções do sistema de Lorenz, exemplo clássico de comportamento caótico.",
+        "variantes": [
+          "Lorenz attractor",
+          "Sistema de Lorenz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sistema_de_cinco_reinos",
+          "nome": "Sistema de cinco reinos",
+          "descricao": "Classificação dos seres vivos proposta por Robert Whittaker em 1969.",
+          "variantes": [
+            "Classificação de Whittaker",
+            "Five-kingdom system"
+          ]
+        },
+        {
+          "id": "systema_naturae",
+          "nome": "Systema Naturae",
+          "descricao": "Obra de Carl Lineu, com primeira edição em 1735, que organizou a classificação dos seres vivos.",
+          "variantes": [
+            "Sistema da Natureza"
+          ]
+        },
+        {
+          "id": "conde_d_eu",
+          "nome": "Conde d'Eu",
+          "descricao": "Gastão de Orléans, príncipe francês, marido da Princesa Isabel e comandante brasileiro na fase final da Guerra do Paraguai.",
+          "variantes": [
+            "Gastão de Orléans"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "i_ll_be_there_for_you",
+          "nome": "I'll Be There for You",
+          "descricao": "Canção de 1995 usada como tema de abertura da série Friends.",
+          "variantes": [
+            "Tema de Friends"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Arquimedes Pensativo",
+        "descricao": "Pintura de Domenico Fetti que retrata o matemático grego Arquimedes de Siracusa em meditação.",
+        "variantes": [
+          "Arquimedes",
+          "Archimedes Thoughtful"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        },
+        {
+          "id": "ganimedes",
+          "nome": "Ganimedes",
+          "descricao": "Lua de Júpiter descoberta por Galileu em 1610.",
+          "variantes": [
+            "Ganymede"
+          ]
+        },
+        {
+          "id": "ganimedes_mitologia",
+          "nome": "Ganimedes (mitologia)",
+          "descricao": "Jovem troiano levado ao Olimpo por Zeus para ser o copeiro dos deuses.",
+          "variantes": [
+            "Ganymede",
+            "Ganímedes"
+          ]
+        },
+        {
+          "id": "aquiles",
+          "nome": "Aquiles",
+          "descricao": "Herói grego da Guerra de Troia, filho da ninfa Tétis e do rei Peleu.",
+          "variantes": [
+            "Achilles",
+            "Aquileu"
+          ]
+        },
+        {
+          "id": "paraquedas",
+          "nome": "Paraquedas",
+          "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gráfico de pizza",
+        "descricao": "Gráfico circular dividido em fatias proporcionais às quantidades representadas.",
+        "variantes": [
+          "Gráfico de setores",
+          "Pie chart"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "linguado",
+          "nome": "Linguado",
+          "descricao": "Peixe chato marinho que vive deitado no fundo, com os dois olhos do mesmo lado da cabeça.",
+          "variantes": [
+            "Peixe chato",
+            "Flatfish"
+          ]
+        },
+        {
+          "id": "pecharunt",
+          "nome": "Pecharunt",
+          "descricao": "Pokémon dos tipos Venenoso e Fantasma, número 1025 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grito_de_dolores",
+          "nome": "Grito de Dolores",
+          "descricao": "Chamado à revolta feito na cidade mexicana de Dolores em 16 de setembro de 1810, que iniciou a guerra de independência do México.",
+          "variantes": [
+            "Grito de Independencia",
+            "Cry of Dolores"
+          ]
+        },
+        {
+          "id": "papel_carta",
+          "nome": "Papel carta",
+          "descricao": "Formato de papel de 8,5 por 11 polegadas, padrão nos Estados Unidos e no Canadá.",
+          "variantes": [
+            "Letter",
+            "US Letter"
+          ]
+        },
+        {
+          "id": "grande_sertao_veredas",
+          "nome": "Grande Sertão: Veredas",
+          "descricao": "Romance de Guimarães Rosa publicado em 1956, narrado pelo jagunço Riobaldo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Icosaedro",
+        "descricao": "Poliedro regular de vinte faces triangulares equiláteras, trinta arestas e doze vértices.",
+        "variantes": [
+          "Icosaedro regular",
+          "Regular icosahedron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dodecaedro",
+          "nome": "Dodecaedro",
+          "descricao": "Poliedro regular de doze faces pentagonais, um dos sólidos de Platão.",
+          "variantes": [
+            "Dodecaedro regular"
+          ]
+        },
+        {
+          "id": "icaro",
+          "nome": "Ícaro",
+          "descricao": "Filho de Dédalo que fugiu de Creta voando com asas artificiais e caiu no mar.",
+          "variantes": [
+            "Icarus"
+          ]
+        },
+        {
+          "id": "acossado",
+          "nome": "Acossado",
+          "descricao": "Filme francês de 1960 de Jean-Luc Godard, com Jean-Paul Belmondo e Jean Seberg, marco da Nouvelle Vague.",
+          "variantes": [
+            "À bout de souffle",
+            "Breathless"
+          ]
+        },
+        {
+          "id": "ictiossauro",
+          "nome": "Ictiossauro",
+          "descricao": "Grupo extinto de répteis marinhos da Era Mesozoica, com corpo hidrodinâmico semelhante ao de golfinhos.",
+          "variantes": [
+            "Ichthyosauria",
+            "Ictiossauros",
+            "Ichthyosaur"
+          ]
+        },
+        {
+          "id": "dinossauro",
+          "nome": "Dinossauro",
+          "descricao": "Grupo de répteis arcossauros que dominou os ambientes terrestres na Era Mesozoica e do qual descendem as aves.",
+          "variantes": [
+            "Dinosauria",
+            "Dinossauros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tesselação",
+        "descricao": "Recobrimento de uma superfície com formas geométricas sem sobreposições nem espaços.",
+        "variantes": [
+          "Ladrilhamento",
+          "Pavimentação do plano",
+          "Tessellation"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ladrilhos_de_penrose",
+          "nome": "Ladrilhos de Penrose",
+          "descricao": "Padrão de ladrilhos que cobre o plano sem se repetir periodicamente, criado pelo britânico Roger Penrose nos anos setenta.",
+          "variantes": [
+            "Penrose tiling",
+            "Pavimentação de Penrose"
+          ]
+        },
+        {
+          "id": "tesserato",
+          "nome": "Tesserato",
+          "descricao": "Hipercubo de quatro dimensões, cuja hipersuperfície tem oito células cúbicas.",
+          "variantes": [
+            "Hipercubo",
+            "Tesseract",
+            "8-célula"
+          ]
+        },
+        {
+          "id": "cor_da_pele_humana",
+          "nome": "Cor da pele humana",
+          "descricao": "Variação da pigmentação da pele entre populações humanas, ligada principalmente à quantidade de melanina e à exposição ao sol.",
+          "variantes": [
+            "Human skin color",
+            "Pigmentação da pele"
+          ]
+        },
+        {
+          "id": "estacoes_do_ano",
+          "nome": "Estações do ano",
+          "descricao": "As quatro divisões do ano, primavera, verão, outono e inverno, com mudanças de temperatura e duração do dia.",
+          "variantes": [
+            "Estação do ano",
+            "Season"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é incêndio florestal; Torre Queimada é local de Pokémon."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "branqueamento_de_corais",
+      "motivo": "Mesmo fenômeno, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Atrator de Lorenz não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A proposta é uma pintura de Fetti; Arquimedes é a pessoa retratada, entidade diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é gráfico de pizza."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Icosaedro é poliedro distinto do dodecaedro; as demais não têm relação."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tesselação é o conceito geral; Ladrilhos de Penrose é um tipo específico, entidade distinta."
+    }
+  ]
+}

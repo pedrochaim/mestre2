@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado nomeia o que a figura mostra (incêndios) e a pista 'fogo de propósito para reduzir o risco' entrega a resposta sem olhar a imagem. A figura virou enfeite. Reescrito como reconhecimento direto.",
+      "reescrita": {
+        "pergunta": "Que tipo de catástrofe ambiental é esta?",
+        "resposta": "Incêndio florestal",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado nomeia 'corais' (palavra da resposta) e a pista 'ligado ao aquecimento dos oceanos' permite responder com a imagem coberta. Reescrito sem a pista.",
+      "reescrita": {
+        "pergunta": "Que fenômeno está acontecendo neste recife?",
+        "resposta": "Branqueamento de corais",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, a pista 'estudo do caos' não entrega o nome, resposta única e específica, sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A pintura de Fetti retrata Arquimedes (fato amplamente documentado). O enunciado não nomeia o retratado, e os distratores são matemáticos gregos críveis, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Resposta específica; o sinônimo entre parênteses evita injustiça (gráfico de setores).",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um sólido platônico pela forma. Não há pista de vazamento, e a resposta é única, pois o icosaedro é o de vinte faces triangulares.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Piso de blocos encaixados' descreve a própria resposta e permite responder sem a figura. Pista removida; os distratores continuam críveis e errados.",
+      "reescrita": {
+        "pergunta": "Que conceito geométrico este piso ilustra?",
+        "resposta": "Tesselação",
+        "distratores": [
+          "Fractal",
+          "Espiral de Fibonacci",
+          "Simetria radial"
+        ]
+      }
+    }
+  ]
+}

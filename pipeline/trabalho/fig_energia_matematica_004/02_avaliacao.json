@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Incêndio florestal noturno, claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que prática de manejo florestal usa fogo de propósito para reduzir o risco de incêndios como este?",
+      "resposta": "Queimada controlada (queima prescrita)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Incêndio florestal",
+        "descricao": "Fogo não planejado e descontrolado em vegetação combustível, como florestas e matas.",
+        "variantes": [
+          "Queimada",
+          "Incêndio de vegetação",
+          "Wildfire"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Corais esbranquiçados, claros, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fenômeno, ligado ao aquecimento dos oceanos, está afetando estes corais?",
+      "resposta": "Branqueamento de corais",
+      "distratores": [],
+      "ancora": {
+        "nome": "Branqueamento de corais",
+        "descricao": "Perda das algas simbiontes e dos pigmentos dos corais, que ficam brancos, causada por estresse como o aquecimento da água.",
+        "variantes": [
+          "Branqueamento do coral",
+          "Coral bleaching"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Figura de borboleta característica, sem texto; resolução baixa, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que figura do estudo do caos é esta?",
+      "resposta": "Atrator de Lorenz",
+      "distratores": [],
+      "ancora": {
+        "nome": "Atrator de Lorenz",
+        "descricao": "Figura em forma de borboleta formada pelas soluções do sistema de Lorenz, exemplo clássico de comportamento caótico.",
+        "variantes": [
+          "Lorenz attractor",
+          "Sistema de Lorenz"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público, sem texto, com instrumentos de geometria e globo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que matemático grego da Antiguidade é retratado neste quadro?",
+      "resposta": "Arquimedes",
+      "distratores": [
+        "Euclides",
+        "Pitágoras",
+        "Tales de Mileto"
+      ],
+      "ancora": {
+        "nome": "Arquimedes Pensativo",
+        "descricao": "Pintura de Domenico Fetti que retrata o matemático grego Arquimedes de Siracusa em meditação.",
+        "variantes": [
+          "Arquimedes",
+          "Archimedes Thoughtful"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Barragem com reservatório que não permite reconhecer a usina específica; confundível com outras represas."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gráfico de pizza nítido; só aparecem percentuais, que não entregam a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que tipo de gráfico estatístico é este?",
+      "resposta": "Gráfico de pizza (de setores)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Gráfico de pizza",
+        "descricao": "Gráfico circular dividido em fatias proporcionais às quantidades representadas.",
+        "variantes": [
+          "Gráfico de setores",
+          "Pie chart"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Sólido com vinte faces triangulares, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que sólido de Platão é este?",
+      "resposta": "Icosaedro",
+      "distratores": [],
+      "ancora": {
+        "nome": "Icosaedro",
+        "descricao": "Poliedro regular de vinte faces triangulares equiláteras, trinta arestas e doze vértices.",
+        "variantes": [
+          "Icosaedro regular",
+          "Regular icosahedron"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama com cotas em texto bengali e peças pretas; não é um tangram reconhecível como objeto."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Arbustos em solo seco; não mostra com clareza a desertificação e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vertedouro de barragem sem elementos que permitam identificar a usina; resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mão de pessoa comum em primeiro plano, texto na sacola e pergunta trivial."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Piso de blocos encaixados sem lacunas, ilustra bem o conceito, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que conceito geométrico este piso de blocos encaixados ilustra?",
+      "resposta": "Tesselação (ladrilhamento)",
+      "distratores": [
+        "Fractal",
+        "Espiral de Fibonacci",
+        "Simetria radial"
+      ],
+      "ancora": {
+        "nome": "Tesselação",
+        "descricao": "Recobrimento de uma superfície com formas geométricas sem sobreposições nem espaços.",
+        "variantes": [
+          "Ladrilhamento",
+          "Pavimentação do plano",
+          "Tessellation"
+        ]
+      }
+    }
+  ]
+}

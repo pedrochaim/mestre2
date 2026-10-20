@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno está acontecendo neste recife?",
+        "resposta": "Branqueamento de corais"
+      },
+      "existentes": [
+        {
+          "id": "q02201",
+          "pergunta": "No branqueamento, a água aquecida faz o coral expulsar quais algas microscópicas, que vivem nele e lhe dão cor e alimento?",
+          "resposta": "Zooxantelas"
+        },
+        {
+          "id": "q02539",
+          "pergunta": "Quando ficam brancos, os corais expulsaram as algas que viviam em seus tecidos. Qual é a principal causa desse branqueamento?",
+          "resposta": "Aquecimento da água do mar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do fenômeno (branqueamento). As existentes pedem as algas (zooxantelas) e a causa (aquecimento da água), que são fatos diferentes."
+    }
+  ]
+}
