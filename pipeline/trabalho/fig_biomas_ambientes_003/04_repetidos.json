@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que deserto africano é este, visto do espaço?",
+        "resposta": "Saara"
+      },
+      "existentes": [
+        {
+          "id": "q02062",
+          "pergunta": "O nome Saara vem de uma palavra árabe. O que essa palavra significa?",
+          "resposta": "Deserto"
+        },
+        {
+          "id": "q02063",
+          "pergunta": "Levada pelo vento sobre o Atlântico, a poeira do Saara ajuda a fertilizar qual grande floresta sul-americana?",
+          "resposta": "Floresta Amazônica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o deserto pela imagem (resposta Saara); as existentes perguntam o significado do nome e a fertilização da Amazônia, fatos diferentes."
+    }
+  ]
+}

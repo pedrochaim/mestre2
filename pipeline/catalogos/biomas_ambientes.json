@@ -152,7 +152,7 @@
       "titulo": "en:Lava",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Recife de coral",
@@ -187,7 +187,7 @@
       "titulo": "en:Fumarole",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Banquisa",
@@ -201,7 +201,7 @@
       "titulo": "en:Permafrost",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Dolina",
@@ -257,7 +257,7 @@
       "titulo": "en:Penitente (snow formation)",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Vulcão de lama",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "Nevasca",
+      "titulo": "en:Blizzard",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tempestade de areia",
+      "titulo": "en:Dust storm",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Orvalho",
+      "titulo": "en:Dew",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Aurora polar",
+      "titulo": "en:Aurora",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cúmulo",
+      "titulo": "en:Cumulus cloud",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chuva",
+      "titulo": "en:Rain",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olho do furacão",
+      "titulo": "en:Eye (cyclone)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estrato",
+      "titulo": "en:Stratus cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta temperada úmida",
+      "titulo": "en:Temperate rainforest",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Restinga",
+      "titulo": "pt:Restinga",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem funil",
+      "titulo": "en:Funnel cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ciclone extratropical",
+      "titulo": "en:Extratropical cyclone",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Altocúmulo",
+      "titulo": "en:Altocumulus cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem noctilucente",
+      "titulo": "en:Noctilucent cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parélio",
+      "titulo": "en:Sun dog",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sincelo",
+      "titulo": "en:Rime ice",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mata de galeria",
+      "titulo": "en:Gallery forest",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Maquis",
+      "titulo": "en:Maquis shrubland",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem rolo",
+      "titulo": "en:Roll cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Páramo",
+      "titulo": "en:Páramo",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pântano",
+      "titulo": "en:Swamp",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar Morto",
+      "titulo": "en:Dead Sea",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Antártida",
+      "titulo": "en:Antarctica",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Everest",
+      "titulo": "en:Mount Everest",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Saara",
+      "titulo": "en:Sahara",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pororoca",
+      "titulo": "pt:Pororoca",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Turfeira",
+      "titulo": "en:Bog",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fiorde",
+      "titulo": "en:Fjord",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Plataforma de gelo",
+      "titulo": "en:Ice shelf",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna de gelo",
+      "titulo": "en:Ice cave",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago de lava",
+      "titulo": "en:Lava lake",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Estuário",
+      "titulo": "en:Estuary",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tepui",
+      "titulo": "en:Tepui",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubo de lava",
+      "titulo": "en:Lava tube",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mar de Aral",
+      "titulo": "en:Aral Sea",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fenda glacial",
+      "titulo": "en:Crevasse",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedras velejadoras",
+      "titulo": "en:Sailing stones",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tsingy de Bemaraha",
+      "titulo": "en:Tsingy de Bemaraha Strict Nature Reserve",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Marisma",
+      "titulo": "en:Salt marsh",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pingo",
+      "titulo": "en:Pingo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

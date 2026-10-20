@@ -1,0 +1,80 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores (Gobi, Atacama) não são africanos, então o enunciado já elimina três opções sem olhar a figura. 'Maior parte desta região' também é vago. Reescrita com distratores africanos.",
+      "reescrita": {
+        "pergunta": "Que deserto africano é este, visto do espaço?",
+        "resposta": "Saara",
+        "distratores": [
+          "Kalahari",
+          "Namibe",
+          "Danakil"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De onde saem vapor e gases' é a definição de fumarola e entrega a resposta sem a figura. Pista removida e distratores trocados por estruturas vulcânicas que não emitem gases da mesma forma.",
+      "reescrita": {
+        "pergunta": "Que abertura, típica de regiões vulcânicas, é esta?",
+        "resposta": "Fumarola",
+        "distratores": [
+          "Cone de cinzas",
+          "Caldeira",
+          "Domo de lava"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Lâminas pontiagudas' descreve a formação e funciona como definição; a pista foi retirada, mantendo altitude.",
+      "reescrita": {
+        "pergunta": "Que formação de neve de alta montanha é esta?",
+        "resposta": "Penitentes"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento. A resposta é única, pois a imagem mostra frailejões e gramíneas. O trecho confirma páramo como ecossistema de altitude dos Andes.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Centro desta tempestade' já entrega o olho do furacão, então a figura vira enfeite. Os distratores são absurdos. A palavra 'escura' não é sustentada pelos trechos. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista que entregue a resposta. Lago de lava é uma formação vulcânica confirmada pelos trechos, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Há mais de um tsingy em Madagascar (como Ankarana), parecidos com Bemaraha, então a resposta específica não é única diante da imagem. Responder 'Tsingy' evita a ambiguidade.",
+      "reescrita": {
+        "pergunta": "Que paisagem rochosa de Madagascar é esta?",
+        "resposta": "Tsingy",
+        "distratores": [
+          "Karst de Guilin",
+          "Chaminés de fada",
+          "Pináculos de Nambung"
+        ]
+      }
+    }
+  ]
+}

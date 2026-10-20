@@ -598,9 +598,10 @@
     "fig_biomas_ambientes_001",
     "fig_ilhas_aguas_001",
     "fig_biomas_ambientes_002",
-    "fig_idiomas_escritas_002"
+    "fig_idiomas_escritas_002",
+    "fig_biomas_ambientes_003"
   ],
-  "maior_id": 14172,
+  "maior_id": 14178,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1161,15 +1162,15 @@
     },
     "biomas_ambientes": {
       "familias": {
-        "o_que_e": 7,
-        "que_tipo": 6,
+        "o_que_e": 12,
+        "que_tipo": 7,
         "onde": 1
       },
       "niveis": {
-        "1": 5,
-        "2": 9
+        "1": 8,
+        "2": 12
       },
-      "registradas": 14
+      "registradas": 20
     },
     "ilhas_aguas": {
       "familias": {

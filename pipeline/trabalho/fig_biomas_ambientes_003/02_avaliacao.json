@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Mostra lava jorrando num lago de lava em cratera; a entidade 'lava' é ambígua com lago de lava e fonte de lava."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O gelo escuro exposto na barranca parece barro; o permafrost não é reconhecível pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Paisagem de cerrado com buritis e mata ao fundo; a resposta não é única (vereda, mata de galeria, cerrado)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto orbital do norte da África, com o Mar Vermelho visível; o Saara domina a cena.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deserto cobre a maior parte desta região da África vista do espaço?",
+      "resposta": "Saara",
+      "distratores": [
+        "Gobi",
+        "Kalahari",
+        "Atacama"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Saara",
+        "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+        "variantes": [
+          "Deserto do Saara",
+          "Sahara"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aberturas vulcânicas com vapor e depósitos amarelos de enxofre, bem nítidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estrutura vulcânica é esta, de onde saem vapor e gases?",
+      "resposta": "Fumarola",
+      "distratores": [
+        "Gêiser",
+        "Caldeira",
+        "Cone de cinzas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fumarola",
+        "descricao": "Abertura na superfície de terreno vulcânico que emite vapor e gases quentes, sem líquidos nem sólidos.",
+        "variantes": [
+          "Fumarolas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lâminas de neve pontiagudas muito características; sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formação de neve de alta montanha, em lâminas pontiagudas, é esta?",
+      "resposta": "Penitentes",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Penitentes",
+        "descricao": "Formação de neve ou gelo em lâminas finas e pontiagudas, típica de grandes altitudes nos Andes secos.",
+        "variantes": [
+          "Nieves penitentes",
+          "Neve penitente"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Arco de rocha vulcânica com pessoas em primeiro plano; não é claramente um tubo de lava."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Paisagem de altitude com frailejões e gramíneas, típica do páramo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ecossistema de altitude dos Andes é este?",
+      "resposta": "Páramo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Páramo",
+        "descricao": "Ecossistema de altitude dos Andes do norte, acima do limite das florestas e abaixo da neve permanente, com frailejões e gramíneas.",
+        "variantes": [
+          "Paramo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem de satélite de um furacão com o olho nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "O que é a área escura no centro desta tempestade vista do espaço?",
+      "resposta": "Olho do furacão",
+      "distratores": [
+        "Núcleo frio",
+        "Frente fria",
+        "Vórtice polar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Olho do furacão",
+        "descricao": "Região central de calmaria de um ciclone tropical, cercada pela parede de nuvens.",
+        "variantes": [
+          "Olho do ciclone",
+          "Olho da tempestade"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lago de lava em cratera, visto do alto, bem claro.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formação vulcânica é esta, vista do alto?",
+      "resposta": "Lago de lava",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago de lava",
+        "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+        "variantes": [
+          "Lava lake"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Paisagem de agulhas de calcário muito característica dos tsingy.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que paisagem de rocha de Madagascar é esta?",
+      "resposta": "Tsingy de Bemaraha",
+      "distratores": [
+        "Karst de Guilin",
+        "Chaminés de fada",
+        "Pináculos de Nambung"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tsingy de Bemaraha",
+        "descricao": "Reserva natural de Madagascar famosa por suas agulhas de calcário, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Tsingy",
+          "Reserva Natural Integral do Tsingy de Bemaraha"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Gotas em folhas podem ser orvalho, chuva ou gutação; resposta não é única."
+    }
+  ]
+}
