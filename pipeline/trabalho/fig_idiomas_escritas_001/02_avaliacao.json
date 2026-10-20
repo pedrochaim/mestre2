@@ -1,0 +1,206 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de oca coberta de palha, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de habitação indígena brasileira é esta?",
+      "resposta": "Oca",
+      "ancora": {
+        "nome": "Oca",
+        "descricao": "Habitação coletiva tradicional de povos indígenas do Brasil, de estrutura de madeira coberta de palha.",
+        "variantes": [
+          "Oka"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A foto mostra uma cabana de toras com telhado recente e janela moderna, que não permite reconhecer um hogan; resposta pouco única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Iglu nítido, sem texto; pergunta leva ao povo que o constrói.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que povo do Ártico canadense constrói tradicionalmente esta habitação?",
+      "resposta": "Inuítes",
+      "ancora": {
+        "nome": "Iglu",
+        "descricao": "Abrigo em forma de cúpula feito de blocos de neve, tradicional entre os inuítes do Ártico central canadense.",
+        "variantes": [
+          "Igloo",
+          "Iglo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Casas sobre estacas na água, claras e legíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de habitação é esta?",
+      "resposta": "Palafita",
+      "ancora": {
+        "nome": "Palafita",
+        "descricao": "Habitação erguida sobre estacas acima da água ou do solo, comum em zonas costeiras e ribeirinhas.",
+        "variantes": [
+          "Casa sobre estacas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bloco glífico maia em desenho limpo, sem texto latino; reconhecível com múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que povo antigo da América é esta escrita?",
+      "resposta": "Maias",
+      "distratores": [
+        "Egípcios",
+        "Sumérios",
+        "Chineses"
+      ],
+      "ancora": {
+        "nome": "Escrita maia",
+        "descricao": "Sistema de escrita logossilábico em glifos da civilização maia da Mesoamérica.",
+        "variantes": [
+          "Glifos maias",
+          "Hieróglifos maias"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Kilt de tartã em primeiro plano, sem rosto; objeto tradicional claro.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Com que país europeu esta peça de vestuário tradicional é associada?",
+      "resposta": "Escócia",
+      "ancora": {
+        "nome": "Kilt",
+        "descricao": "Peça de vestuário em forma de saia de lã pregueada e xadrez, tradicional dos homens das Terras Altas escocesas.",
+        "variantes": [
+          "Saiote escocês"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Alfabeto armênio nítido, sem texto latino.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que alfabeto é este?",
+      "resposta": "Alfabeto armênio",
+      "distratores": [
+        "Alfabeto georgiano",
+        "Alfabeto grego",
+        "Alfabeto cirílico"
+      ],
+      "ancora": {
+        "nome": "Alfabeto armênio",
+        "descricao": "Alfabeto criado por volta do ano 405 por Mesrop Mashtots para escrever o armênio.",
+        "variantes": [
+          "Escrita armênia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Amostra clara da escrita tâmil, sem texto em alfabeto latino.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escrita é esta?",
+      "resposta": "Escrita tâmil",
+      "distratores": [
+        "Escrita télugo",
+        "Escrita malaiala",
+        "Escrita devanágari"
+      ],
+      "ancora": {
+        "nome": "Escrita tâmil",
+        "descricao": "Abugida usada para escrever o idioma tâmil na Índia, no Sri Lanka e em outros países.",
+        "variantes": [
+          "Alfabeto tâmil"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto histórica com duas pessoas comuns em primeiro plano; a figura é de retrato, não da peça."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Trecho de manuscrito em ge'ez, legível e sem texto latino.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escrita é esta?",
+      "resposta": "Escrita ge'ez",
+      "distratores": [
+        "Escrita copta",
+        "Escrita tibetana",
+        "Escrita khmer"
+      ],
+      "ancora": {
+        "nome": "Escrita ge'ez",
+        "descricao": "Abugida da Etiópia e da Eritreia, usada na liturgia e para escrever amárico e tigrínia.",
+        "variantes": [
+          "Ge'ez",
+          "Alfabeto etíope",
+          "Fidäl"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cocar de penas em vitrine de museu, sem texto visível; objeto claro.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que adorno de cabeça de povos indígenas é este?",
+      "resposta": "Cocar",
+      "ancora": {
+        "nome": "Cocar",
+        "descricao": "Adorno de cabeça de penas usado por muitos povos indígenas das Américas.",
+        "variantes": [
+          "Cocar de penas",
+          "War bonnet"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, com apenas dois caracteres; ilegível no celular e sem como identificar a escrita com segurança."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, direto; o enunciado não nomeia nem entrega a resposta e o trecho sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'povo do Ártico canadense' já leva a Inuítes sem olhar a figura. Passa a múltipla com outros povos do Ártico e tira a pista do Canadá.",
+      "reescrita": {
+        "pergunta": "Que povo do Ártico constrói tradicionalmente esta habitação?",
+        "resposta": "Inuítes",
+        "distratores": [
+          "Sâmis",
+          "Nenets",
+          "Iacutos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado; trechos sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Povo antigo da América' entrega a resposta e torna os distratores (egípcios, sumérios, chineses) descartáveis sem ver a figura. Tirar a pista geográfica.",
+      "reescrita": {
+        "pergunta": "De que povo antigo é esta escrita?",
+        "resposta": "Maias",
+        "distratores": [
+          "Egípcios",
+          "Sumérios",
+          "Chineses"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a peça nem a resposta; a Escócia é a associação documentada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores de escritas visualmente distintivas, mas críveis, do mesmo tipo e curtos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são escritas indianas parecidas e nenhuma também correta; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores do mesmo tipo (escritas), curtos e nenhum correto; enunciado sem pista.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega 'cocar'; resposta sustentada pelo trecho.",
+      "reescrita": null
+    }
+  ]
+}

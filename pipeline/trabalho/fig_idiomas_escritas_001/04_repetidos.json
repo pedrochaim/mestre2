@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que povo antigo é esta escrita?",
+        "resposta": "Maias"
+      },
+      "existentes": [
+        {
+          "id": "q03518",
+          "pergunta": "Nos anos 1950, quem propôs a leitura fonética dos sinais que abriu caminho para decifrar a escrita maia?",
+          "resposta": "Yuri Knorozov"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Com que país europeu esta peça de vestuário tradicional é associada?",
+        "resposta": "Escócia"
+      },
+      "existentes": [
+        {
+          "id": "q01350",
+          "pergunta": "Esta peça de lã xadrez, de pregas atrás, é traje tradicional masculino de qual país?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que adorno de cabeça de povos indígenas é este?",
+        "resposta": "Cocar"
+      },
+      "existentes": [
+        {
+          "id": "q05179",
+          "pergunta": "Que peça indígena é esta?",
+          "resposta": "Cocar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o povo da escrita (imagem); a existente pergunta quem propôs a leitura fonética. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem o país associado ao traje tradicional (kilt), com resposta Escócia."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas pedem o nome da peça indígena na imagem, cocar."
+    }
+  ]
+}
