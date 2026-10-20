@@ -1,0 +1,503 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Paus (naipe)",
+        "descricao": "Naipe preto do baralho francês, representado por um trevo de três folhas.",
+        "variantes": [
+          "Paus",
+          "Clubs",
+          "Trevo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        },
+        {
+          "id": "frevo",
+          "nome": "Frevo",
+          "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+          "variantes": []
+        },
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "maus",
+          "nome": "Maus",
+          "descricao": "Romance gráfico de Art Spiegelman sobre o Holocausto, vivido por seu pai",
+          "variantes": []
+        },
+        {
+          "id": "patricia_galvao",
+          "nome": "Patrícia Galvão",
+          "descricao": "Escritora, jornalista e militante modernista brasileira (1910–1962).",
+          "variantes": [
+            "Pagu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carrom",
+        "descricao": "Jogo de mesa de origem indiana em que os jogadores lançam discos com os dedos para as caçapas dos cantos do tabuleiro.",
+        "variantes": [
+          "Carrom board"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carma",
+          "nome": "Carma",
+          "descricao": "Conceito do hinduísmo e do budismo segundo o qual as ações geram consequências futuras",
+          "variantes": [
+            "Karma"
+          ]
+        },
+        {
+          "id": "cairo",
+          "nome": "Cairo",
+          "descricao": "Capital do Egito, às margens do rio Nilo, fundada no século dez pela dinastia fatímida.",
+          "variantes": [
+            "O Cairo",
+            "Al-Qahira"
+          ]
+        },
+        {
+          "id": "icaro",
+          "nome": "Ícaro",
+          "descricao": "Filho de Dédalo que fugiu de Creta voando com asas artificiais e caiu no mar.",
+          "variantes": [
+            "Icarus"
+          ]
+        },
+        {
+          "id": "caronte_2",
+          "nome": "Caronte",
+          "descricao": "Personagem da mitologia grega que levava as almas dos mortos através do rio do mundo inferior.",
+          "variantes": [
+            "Charon",
+            "Caron"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ás (carta de baralho)",
+        "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+        "variantes": [
+          "Ás",
+          "Ace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        },
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "acre",
+          "nome": "Acre",
+          "descricao": "Estado da Região Norte do Brasil, incorporado ao país pelo Tratado de Petrópolis, em 1903.",
+          "variantes": []
+        },
+        {
+          "id": "valete_carta_de_baralho",
+          "nome": "Valete (carta de baralho)",
+          "descricao": "Carta de figura do baralho que representa um jovem da corte, abaixo da dama e do rei.",
+          "variantes": [
+            "Valete",
+            "Jack",
+            "Conde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "José Raúl Capablanca",
+        "descricao": "Enxadrista cubano, terceiro campeão mundial de xadrez, de 1921 a 1927.",
+        "variantes": [
+          "Capablanca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casablanca_filme",
+          "nome": "Casablanca (filme)",
+          "descricao": "Filme americano de 1942 dirigido por Michael Curtiz, com Humphrey Bogart e Ingrid Bergman, passado no Marrocos durante a Segunda Guerra.",
+          "variantes": [
+            "Casablanca"
+          ]
+        },
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "asa_branca_2",
+          "nome": "Asa-branca",
+          "descricao": "Pomba sul-americana que abandona o sertão nordestino nas secas",
+          "variantes": [
+            "Pomba asa-branca",
+            "Patagioenas picazuro",
+            "Pombão"
+          ]
+        },
+        {
+          "id": "cocada",
+          "nome": "Cocada",
+          "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+          "variantes": [
+            "Cocada branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Dreidel",
+        "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo durante o Hanucá.",
+        "variantes": [
+          "Dreidl",
+          "Sevivon",
+          "Pião de Hanucá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dreidel",
+          "nome": "Dreidel",
+          "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+          "variantes": [
+            "Dreydl",
+            "Sevivon",
+            "Pião de Hanucá"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "demolidor",
+          "nome": "Demolidor",
+          "descricao": "Super-herói cego da Marvel, identidade do advogado Matt Murdock",
+          "variantes": [
+            "Daredevil"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Xadrez",
+        "descricao": "Jogo de tabuleiro para dois jogadores, em tabuleiro de 64 casas e 16 peças para cada lado.",
+        "variantes": [
+          "Chess"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "xadrez",
+          "nome": "Xadrez",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com 64 casas e 16 peças para cada lado.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "xadrez_960",
+          "nome": "Xadrez 960",
+          "descricao": "Variante do xadrez em que a posição inicial das peças da última fileira é sorteada entre 960 possibilidades.",
+          "variantes": [
+            "Chess960",
+            "Xadrez aleatório de Fischer",
+            "Fischer Random"
+          ]
+        },
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Dados poliédricos",
+        "descricao": "Conjunto de dados de várias faces, como os usados em jogos de RPG de mesa.",
+        "variantes": [
+          "Copo de dados",
+          "Dados de RPG",
+          "Dados",
+          "Dice"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dado",
+          "nome": "Dado",
+          "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+          "variantes": [
+            "Dice",
+            "Dado de seis faces"
+          ]
+        },
+        {
+          "id": "dardos",
+          "nome": "Dardos",
+          "descricao": "Jogo de salão em que os jogadores arremessam pequenos dardos contra um alvo circular dividido em vinte setores.",
+          "variantes": [
+            "Darts",
+            "Jogo de dardos"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        },
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo",
+            "Javelin throw",
+            "Dardo"
+          ]
+        },
+        {
+          "id": "tomas_antonio_gonzaga",
+          "nome": "Tomás Antônio Gonzaga",
+          "descricao": "Poeta árcade luso-brasileiro (1744–1810), autor de Marília de Dirceu e participante da Inconfidência Mineira.",
+          "variantes": [
+            "Dirceu",
+            "Tomás Gonzaga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ouros (naipe)",
+        "descricao": "Naipe vermelho do baralho francês, representado por um losango.",
+        "variantes": [
+          "Ouros",
+          "Diamonds",
+          "Losango"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diamante",
+          "nome": "Diamante",
+          "descricao": "Mineral formado por carbono puro cristalizado, o mais duro da natureza, usado como gema.",
+          "variantes": [
+            "Diamond"
+          ]
+        },
+        {
+          "id": "ilhas_flutuantes_dos_uros",
+          "nome": "Ilhas flutuantes dos uros",
+          "descricao": "Ilhas artificiais construídas pelo povo uro no lago Titicaca, no Peru.",
+          "variantes": [
+            "Islas de los Uros",
+            "Uros"
+          ]
+        },
+        {
+          "id": "ouro",
+          "nome": "Ouro",
+          "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+          "variantes": [
+            "Au",
+            "Gold"
+          ]
+        },
+        {
+          "id": "ciro_o_grande",
+          "nome": "Ciro, o Grande",
+          "descricao": "Rei persa do século seis antes de Cristo, fundador do Império Aquemênida.",
+          "variantes": [
+            "Ciro II",
+            "Cyrus the Great",
+            "Kourosh"
+          ]
+        },
+        {
+          "id": "xango",
+          "nome": "Xangô",
+          "descricao": "Orixá da justiça, dos raios e do trovão, cultuado no candomblé e em outras religiões afro-brasileiras",
+          "variantes": [
+            "Shango",
+            "Changó",
+            "Sàngó"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Paus não consta entre as candidatas; Copas é outro naipe."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Carrom é um jogo de mesa; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ás é uma carta específica, diferente de carta de baralho em geral, do rei e do valete."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Capablanca é um enxadrista; as candidatas só têm nomes parecidos."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "dreidel",
+      "motivo": "Mesma entidade: pião de Hanucá com letras hebraicas, com descrição e variantes coincidentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "xadrez",
+      "motivo": "Mesmo jogo de tabuleiro, de 64 casas e 16 peças por lado."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Dados poliédricos de RPG são diferentes do dado comum de seis faces."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O naipe de ouros é diferente do mineral diamante, do elemento ouro e das demais candidatas."
+    }
+  ]
+}

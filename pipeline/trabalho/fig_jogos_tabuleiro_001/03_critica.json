@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista no enunciado. O trecho confirma o trevo de três folhas e o nome Paus em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A origem indiana está nos trechos. O enunciado, porém, descreve a mecânica do jogo (lançar discos com os dedos), o que ajuda a identificá-lo sem olhar a figura e enfraquece a imagem. Tirei a descrição e deixei só a figura.",
+      "reescrita": {
+        "pergunta": "De que país vem este jogo de mesa?",
+        "resposta": "Índia",
+        "distratores": [
+          "China",
+          "Egito",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é correto e está nos trechos (ás com um único símbolo de naipe). Mas \"neste leque\" afirma uma disposição da foto que `mostra` não confirma. Troquei por uma formulação verdadeira para qualquer arranjo dos quatro ases.",
+      "reescrita": {
+        "pergunta": "Que carta do baralho aparece aqui, uma de cada naipe?",
+        "resposta": "Ás"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de um enxadrista, com enunciado sem pista. Os distratores são enxadristas da mesma época, têm até 4 palavras e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O dreidel é jogado no Hanucá, conforme os trechos. O enunciado não nomeia o objeto. Os distratores são objetos judaicos críveis e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1 sem pista no enunciado. A resposta Xadrez é única e está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que dados poliédricos são usados em jogos de mesa e RPG. O enunciado só diz o tipo de objeto, sem entregar a resposta, e a resposta Dados é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O losango vermelho é Ouros, conforme os trechos. Os distratores são os outros naipes, do mesmo tipo e nenhum é correto. O enunciado não dá pista.",
+      "reescrita": null
+    }
+  ]
+}

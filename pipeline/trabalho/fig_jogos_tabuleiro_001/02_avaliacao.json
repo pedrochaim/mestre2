@@ -1,0 +1,201 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Símbolo nítido, sem texto, resposta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que naipe do baralho é este?",
+      "resposta": "Paus",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paus (naipe)",
+        "descricao": "Naipe preto do baralho francês, representado por um trevo de três folhas.",
+        "variantes": [
+          "Paus",
+          "Clubs",
+          "Trevo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tabuleiro de carrom claro e reconhecível, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país vem este jogo de tabuleiro, em que se lançam discos com os dedos?",
+      "resposta": "Índia",
+      "distratores": [
+        "China",
+        "Egito",
+        "Japão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carrom",
+        "descricao": "Jogo de mesa de origem indiana em que os jogadores lançam discos com os dedos para as caçapas dos cantos do tabuleiro.",
+        "variantes": [
+          "Carrom board"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Quatro ases claros e sem texto; mão sem rosto. Troquei para o_que_e pois o ás não se conecta bem a outra pergunta sem entregar.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que carta do baralho aparece repetida, uma de cada naipe, neste leque?",
+      "resposta": "Ás",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ás (carta de baralho)",
+        "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+        "variantes": [
+          "Ás",
+          "Ace"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A carta traz a legenda \"DER NARR\", que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato histórico de figura pública, sem texto; reconhecível por quem conhece xadrez, em múltipla escolha com contemporâneos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que enxadrista é este?",
+      "resposta": "José Raúl Capablanca",
+      "distratores": [
+        "Emanuel Lasker",
+        "Alexander Alekhine",
+        "Akiba Rubinstein"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "José Raúl Capablanca",
+        "descricao": "Enxadrista cubano, terceiro campeão mundial de xadrez, de 1921 a 1927.",
+        "variantes": [
+          "Capablanca"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns (mãos e braços) em primeiro plano e cartas com texto; a imagem não mostra com clareza o jogo da memória."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Piões de quatro lados com letras hebraicas, nítidos; não há texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto de uma festa judaica é este?",
+      "resposta": "Dreidel",
+      "distratores": [
+        "Menorá",
+        "Shofar",
+        "Kipá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dreidel",
+        "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo durante o Hanucá.",
+        "variantes": [
+          "Dreidl",
+          "Sevivon",
+          "Pião de Hanucá"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A carta traz o texto \"THE TOWER\" e o numeral XVI, que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tabuleiro com peças na posição inicial, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Xadrez",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Xadrez",
+        "descricao": "Jogo de tabuleiro para dois jogadores, em tabuleiro de 64 casas e 16 peças para cada lado.",
+        "variantes": [
+          "Chess"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "A imagem mostra dados poliédricos, não um copo de dados; âncora ajustada ao que aparece. Sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objetos de jogo são estes, de vários formatos e usados em jogos de mesa?",
+      "resposta": "Dados",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dados poliédricos",
+        "descricao": "Conjunto de dados de várias faces, como os usados em jogos de RPG de mesa.",
+        "variantes": [
+          "Dados de RPG",
+          "Dados",
+          "Dice"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, granulada e de baixa resolução; não fica legível num celular nem permite reconhecer a pessoa."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Símbolo nítido, sem texto; múltipla com os outros naipes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naipe do baralho é este?",
+      "resposta": "Ouros",
+      "distratores": [
+        "Copas",
+        "Espadas",
+        "Paus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ouros (naipe)",
+        "descricao": "Naipe vermelho do baralho francês, representado por um losango.",
+        "variantes": [
+          "Ouros",
+          "Diamonds",
+          "Losango"
+        ]
+      }
+    }
+  ]
+}

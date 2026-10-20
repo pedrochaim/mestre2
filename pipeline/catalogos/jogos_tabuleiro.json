@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Xadrez",
+      "titulo": "en:Chess",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Espadas (naipe)",
+      "titulo": "en:Spades (suit)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ouros (naipe)",
+      "titulo": "en:Diamonds (suit)",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paus (naipe)",
+      "titulo": "en:Clubs (suit)",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Dama (carta de baralho)",
+      "titulo": "en:Queen (playing card)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ás (carta de baralho)",
+      "titulo": "en:Ace",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Resta um",
+      "titulo": "en:Peg solitaire",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Damas chinesas",
+      "titulo": "en:Chinese checkers",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ficha de cassino",
+      "titulo": "en:Casino token",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lig 4",
+      "titulo": "en:Connect Four",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tabuleiro Ouija",
+      "titulo": "en:Ouija",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jogo da memória",
+      "titulo": "en:Concentration (card game)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Xeque-mate",
+      "titulo": "en:Checkmate",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mancala",
+      "titulo": "en:Mancala",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Relógio de xadrez",
+      "titulo": "en:Chess clock",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peças de xadrez Staunton",
+      "titulo": "en:Staunton chess set",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Magnus Carlsen",
+      "titulo": "en:Magnus Carlsen",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anatoly Karpov",
+      "titulo": "en:Anatoly Karpov",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Louco (tarô)",
+      "titulo": "en:The Fool (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "A Morte (tarô)",
+      "titulo": "en:Death (tarot card)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dreidel",
+      "titulo": "en:Dreidel",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Carrom",
+      "titulo": "en:Carrom",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Reversi (Othello)",
+      "titulo": "en:Reversi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinco Marias",
+      "titulo": "en:Knucklebones",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Baralho espanhol",
+      "titulo": "en:Spanish-suited playing cards",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Copo de dados",
+      "titulo": "en:Dice cup",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fanorona",
+      "titulo": "en:Fanorona",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Oware",
+      "titulo": "en:Oware",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hnefatafl",
+      "titulo": "en:Tafl games",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Janggi (xadrez coreano)",
+      "titulo": "en:Janggi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patolli",
+      "titulo": "en:Patolli",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mehen",
+      "titulo": "en:Mehen (game)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Shut the box",
+      "titulo": "en:Shut the box",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tarô de Marselha",
+      "titulo": "en:Tarot of Marseilles",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Tarô Visconti-Sforza",
+      "titulo": "en:Visconti-Sforza tarot deck",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "José Raúl Capablanca",
+      "titulo": "en:José Raúl Capablanca",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paul Morphy",
+      "titulo": "en:Paul Morphy",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mikhail Tal",
+      "titulo": "en:Mikhail Tal",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lee Sedol",
+      "titulo": "en:Lee Sedol",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Torre (tarô)",
+      "titulo": "en:The Tower (tarot card)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    }
+  ]
+}

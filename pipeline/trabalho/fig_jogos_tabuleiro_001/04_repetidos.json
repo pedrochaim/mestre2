@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto de uma festa judaica é este?",
+        "resposta": "Dreidel"
+      },
+      "existentes": [
+        {
+          "id": "q05071",
+          "pergunta": "Com que festa judaica se associa este brinquedo?",
+          "resposta": "Hanucá"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que jogo de tabuleiro é este?",
+        "resposta": "Xadrez"
+      },
+      "existentes": [
+        {
+          "id": "q07438",
+          "pergunta": "Que jogo de tabuleiro é este?",
+          "resposta": "Xadrez"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do objeto (dreidel), a outra a festa associada (Hanucá); fatos diferentes, embora o mesmo item apareça na imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta (Xadrez)."
+    }
+  ]
+}
