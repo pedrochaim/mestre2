@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pepitas de ouro nativo, fato documentado. O enunciado não nomeia o metal e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos falam em bandas verdes e concêntricas (massas botrioidais), não em \"bandas onduladas\", então a descrição não é literal. Corrigi para \"verde, de bandas concêntricas\", que não entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que mineral verde, de bandas concêntricas, é este?",
+        "resposta": "Malaquita",
+        "distratores": [
+          "Turquesa",
+          "Amazonita",
+          "Jade"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cristais tabulares laranja-avermelhados são característicos da wulfenita, como dizem os trechos. A pista não entrega a resposta, e os distratores são minerais laranja-avermelhados parecidos, sem cristais tabulares.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ágata é calcedônia bandada com cores alternadas, conforme os trechos. Os distratores são pedras silicosas ou gemas plausíveis e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Mineral de chumbo\" é a definição da galena, principal minério de chumbo. Com os distratores, a resposta sai por eliminação sem ver a figura, porque nenhum deles é mineral de chumbo. Reescrevi com a pista visual e distratores de aspecto metálico parecido.",
+      "reescrita": {
+        "pergunta": "Que mineral é este, de cristais cúbicos cinza metálicos?",
+        "resposta": "Galena",
+        "distratores": [
+          "Estibnita",
+          "Molibdenita",
+          "Hematita"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Muitas pepitas de ouro numa caixa, sem texto; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que metal precioso forma estas peças?",
+      "resposta": "Ouro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pepita de ouro",
+        "descricao": "Pedaço natural de ouro nativo, comum em depósitos de aluvião.",
+        "variantes": [
+          "Pepita",
+          "Ouro nativo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Placa polida com bandas verdes concêntricas, muito característica; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este, de bandas onduladas?",
+      "resposta": "Malaquita",
+      "distratores": [
+        "Turquesa",
+        "Amazonita",
+        "Jade"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Malaquita",
+        "descricao": "Mineral de carbonato de cobre de cor verde, com bandas concêntricas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cristais marrons escuros sobre matriz; sem a macla em cruz nítida, pode ser confundido com turmalina ou outros prismas."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bloco cinza metálico genérico; pode ser confundido com hematita, galena ou carvão; resposta não única pela imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cristais pretos hexagonais sobre feldspato; podem ser confundidos com turmalina ou outro mineral escuro; mica não é reconhecível com segurança."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristal tabular laranja-avermelhado, nítido e característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este, de cristal tabular alaranjado?",
+      "resposta": "Wulfenita",
+      "distratores": [
+        "Realgar",
+        "Vanadinita",
+        "Crocoíta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Wulfenita",
+        "descricao": "Mineral de molibdato de chumbo, de cristais tabulares laranja-avermelhados.",
+        "variantes": [
+          "Wulfenite"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É um diagrama esquemático, não uma foto; pouco reconhecível e sem a entidade real."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mistura de cristais pretos e dourados (provável pirita ou calcopirita) em primeiro plano; resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e borrada, azul-esverdeada; pode ser confundida com malaquita, turquesa ou azurita."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Cavidade com cristais e bordas de ágata; resposta ambígua entre geodo e ágata. Ainda há resto de placa cortado no canto."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Corte polido com bandas concêntricas coloridas, típico de ágata; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pedra é esta, de bandas coloridas?",
+      "resposta": "Ágata",
+      "distratores": [
+        "Jaspe",
+        "Opala",
+        "Turmalina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ágata",
+        "descricao": "Variedade bandada de calcedônia, com camadas de cores diferentes.",
+        "variantes": [
+          "Agata"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cristais cúbicos cinza metálicos brilhantes, com pirita ao fundo; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral de chumbo forma os cristais cinza desta amostra?",
+      "resposta": "Galena",
+      "distratores": [
+        "Hematita",
+        "Esfalerita",
+        "Estibnita"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Galena",
+        "descricao": "Sulfeto de chumbo, principal minério de chumbo, em cristais cúbicos cinza metálicos.",
+        "variantes": [
+          "Sulfeto de chumbo"
+        ]
+      }
+    }
+  ]
+}

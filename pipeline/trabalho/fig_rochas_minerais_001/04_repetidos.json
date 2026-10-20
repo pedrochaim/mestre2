@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mineral verde, de bandas concêntricas, é este?",
+        "resposta": "Malaquita"
+      },
+      "existentes": [
+        {
+          "id": "q02708",
+          "pergunta": "Que mineral de faixas verdes é este?",
+          "resposta": "Malaquita"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que pedra é esta, de bandas coloridas?",
+        "resposta": "Ágata"
+      },
+      "existentes": [
+        {
+          "id": "q04104",
+          "pergunta": "Que pedra é esta, vista em corte?",
+          "resposta": "Ágata"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas são identificação da malaquita por imagem, mineral verde de faixas; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a ágata a partir da imagem; mesma resposta e mesmo fato."
+    }
+  ]
+}
