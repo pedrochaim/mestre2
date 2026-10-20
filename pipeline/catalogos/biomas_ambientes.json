@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Geada",
+      "titulo": "en:Frost",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Granizo",
+      "titulo": "en:Hail",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco-íris",
+      "titulo": "en:Rainbow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neblina",
+      "titulo": "en:Fog",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Relâmpago",
+      "titulo": "en:Lightning",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta tropical",
+      "titulo": "en:Tropical rainforest",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Neve",
+      "titulo": "en:Snow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estepe",
+      "titulo": "en:Steppe",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pradaria",
+      "titulo": "en:Prairie",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tromba d'água",
+      "titulo": "en:Waterspout",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cirro",
+      "titulo": "en:Cirrus cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Chaparral",
+      "titulo": "en:Chaparral",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem prateleira",
+      "titulo": "en:Shelf cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta temperada decídua",
+      "titulo": "en:Temperate deciduous forest",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem mammatus",
+      "titulo": "en:Mammatus cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem lenticular",
+      "titulo": "en:Lenticular cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Halo solar",
+      "titulo": "en:Halo (optical phenomenon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fynbos",
+      "titulo": "en:Fynbos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Campos rupestres",
+      "titulo": "en:Campos rupestres",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Haboob",
+      "titulo": "en:Haboob",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Geleira",
+      "titulo": "en:Glacier",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lava",
+      "titulo": "en:Lava",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Recife de coral",
+      "titulo": "en:Coral reef",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Duna",
+      "titulo": "en:Dune",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Gêiser",
+      "titulo": "en:Geyser",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Caverna",
+      "titulo": "en:Cave",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fumarola",
+      "titulo": "en:Fumarole",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Banquisa",
+      "titulo": "en:Sea ice",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Permafrost",
+      "titulo": "en:Permafrost",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dolina",
+      "titulo": "en:Sinkhole",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fonte termal",
+      "titulo": "en:Hot spring",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Atol",
+      "titulo": "en:Atoll",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Deserto do Atacama",
+      "titulo": "en:Atacama Desert",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Floresta de kelp",
+      "titulo": "en:Kelp forest",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Vales Secos de McMurdo",
+      "titulo": "en:McMurdo Dry Valleys",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estromatólito",
+      "titulo": "en:Stromatolite",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Penitentes",
+      "titulo": "en:Penitente (snow formation)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vulcão de lama",
+      "titulo": "en:Mud volcano",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moulin glacial",
+      "titulo": "en:Moulin (geomorphology)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Hillier",
+      "titulo": "en:Lake Hillier",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

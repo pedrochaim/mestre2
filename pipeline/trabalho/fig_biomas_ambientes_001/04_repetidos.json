@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ecossistema marinho é este?",
+        "resposta": "Recife de coral"
+      },
+      "existentes": [
+        {
+          "id": "q09577",
+          "pergunta": "Os recifes de coral crescem com o acúmulo dos esqueletos dos corais. De que substância mineral, a mesma do calcário, esses esqueletos são feitos?",
+          "resposta": "Carbonato de cálcio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formações rochosas aparecem nesta água rasa?",
+        "resposta": "Estromatólitos"
+      },
+      "existentes": [
+        {
+          "id": "q13994",
+          "pergunta": "Estas estruturas laminadas guardam alguns dos vestígios de vida mais antigos conhecidos. Que tipo de micro-organismo as constrói, sobretudo?",
+          "resposta": "Cianobactérias"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o ecossistema (recife de coral) a partir de imagem; a existente pergunta a substância mineral dos esqueletos. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome das formações (estromatólitos); a existente pede o micro-organismo que as constrói (cianobactérias). Fatos diferentes."
+    }
+  ]
+}

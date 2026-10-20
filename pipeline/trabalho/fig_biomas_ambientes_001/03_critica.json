@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Clima quente e muito úmido' descreve a resposta e permite responder sem a figura.",
+      "reescrita": {
+        "pergunta": "Que bioma florestal é este, visto do alto?",
+        "resposta": "Floresta tropical (pluvial)"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fino e fibroso' é a definição do cirro e entrega a resposta sem a imagem.",
+      "reescrita": {
+        "pergunta": "Que gênero de nuvem aparece neste céu?",
+        "resposta": "Cirro",
+        "distratores": [
+          "Cumulonimbo",
+          "Estrato",
+          "Altocúmulo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Anel em volta do Sol' descreve o halo e entrega a resposta; o distrator 'Pilar solar' pode aparecer na mesma foto.",
+      "reescrita": {
+        "pergunta": "Que fenômeno óptico é este, visto junto ao Sol?",
+        "resposta": "Halo solar",
+        "distratores": [
+          "Arco-íris",
+          "Aurora boreal",
+          "Coroa solar"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Moldada pelo vento' é pista desnecessária e a categoria pode ser ambígua; a figura deve fazer o trabalho.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo é esta?",
+        "resposta": "Duna"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Grandes algas pardas' é a definição de kelp e entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que ecossistema marinho costeiro é este?",
+        "resposta": "Floresta de kelp"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem pista, com distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Entre as mais antigas evidências de vida' é pista conhecida que permite responder sem a figura.",
+      "reescrita": {
+        "pergunta": "Que formações rochosas aparecem nesta água rasa?",
+        "resposta": "Estromatólitos",
+        "distratores": [
+          "Recifes de coral",
+          "Rochas vulcânicas",
+          "Esponjas marinhas"
+        ]
+      }
+    }
+  ]
+}

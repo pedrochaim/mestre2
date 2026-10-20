@@ -1,0 +1,435 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Floresta tropical",
+        "descricao": "Bioma florestal densa de clima quente e chuvoso, próximo à linha do Equador.",
+        "variantes": [
+          "Floresta pluvial tropical",
+          "Floresta tropical úmida",
+          "Selva tropical"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "floresta_do_congo",
+          "nome": "Floresta do Congo",
+          "descricao": "Floresta tropical úmida da bacia do Rio Congo, na África Central",
+          "variantes": [
+            "Floresta tropical do Congo",
+            "Congolian rainforests"
+          ]
+        },
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        },
+        {
+          "id": "floresta_da_tijuca",
+          "nome": "Floresta da Tijuca",
+          "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro",
+          "variantes": [
+            "Parque Nacional da Tijuca"
+          ]
+        },
+        {
+          "id": "floresta_amazonica",
+          "nome": "Floresta Amazônica",
+          "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul",
+          "variantes": [
+            "Amazônia",
+            "Hileia Amazônica",
+            "Amazon rainforest"
+          ]
+        },
+        {
+          "id": "mata_atlantica",
+          "nome": "Mata Atlântica",
+          "descricao": "Bioma de florestas tropicais que acompanha o litoral leste e sul do Brasil",
+          "variantes": [
+            "Atlantic Forest",
+            "Floresta Atlântica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cirro",
+        "descricao": "Gênero de nuvem alta, formada por cristais de gelo, de aspecto delicado e fibroso.",
+        "variantes": [
+          "Cirrus",
+          "Cirros"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cairo",
+          "nome": "Cairo",
+          "descricao": "Capital do Egito, às margens do rio Nilo, fundada no século dez pela dinastia fatímida.",
+          "variantes": [
+            "O Cairo",
+            "Al-Qahira"
+          ]
+        },
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "virus",
+          "nome": "Vírus",
+          "descricao": "Agente infeccioso microscópico que só se replica dentro de células vivas.",
+          "variantes": []
+        },
+        {
+          "id": "cyrus",
+          "nome": "Cyrus",
+          "descricao": "Chefe da Equipe Galáctica, vilão dos jogos Pokémon Diamond, Pearl e Platinum, da região de Sinnoh.",
+          "variantes": []
+        },
+        {
+          "id": "crocs",
+          "nome": "Crocs",
+          "descricao": "Marca americana de calçados de resina em formato de tamanco com furos, lançada em 2002.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Halo solar",
+        "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+        "variantes": [
+          "Halo",
+          "Halo de 22 graus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "halo",
+          "nome": "Halo",
+          "descricao": "Arco de proteção de titânio instalado sobre o cockpit dos carros de Fórmula 1 para proteger a cabeça do piloto.",
+          "variantes": [
+            "Halo de proteção"
+          ]
+        },
+        {
+          "id": "hal_9000",
+          "nome": "HAL 9000",
+          "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+          "variantes": [
+            "HAL"
+          ]
+        },
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        },
+        {
+          "id": "alho",
+          "nome": "Alho",
+          "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+          "variantes": [
+            "Allium sativum"
+          ]
+        },
+        {
+          "id": "babosa",
+          "nome": "Babosa",
+          "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+          "variantes": [
+            "Aloe vera",
+            "Aloé",
+            "Aloe barbadensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Duna",
+        "descricao": "Elevação de areia acumulada e moldada pelo vento ou pela água, comum em desertos.",
+        "variantes": [
+          "Dunas",
+          "Duna de areia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dunga",
+          "nome": "Dunga",
+          "descricao": "Ex-volante e técnico brasileiro, capitão da seleção campeã do mundo em 1994.",
+          "variantes": [
+            "Carlos Caetano Bledorn Verri"
+          ]
+        },
+        {
+          "id": "idun",
+          "nome": "Idun",
+          "descricao": "Deusa nórdica que guarda os frutos que mantêm os deuses jovens.",
+          "variantes": [
+            "Iðunn",
+            "Idunn",
+            "Iduna"
+          ]
+        },
+        {
+          "id": "dna",
+          "nome": "DNA",
+          "descricao": "Molécula que carrega as informações genéticas dos seres vivos.",
+          "variantes": [
+            "ADN",
+            "Ácido desoxirribonucleico"
+          ]
+        },
+        {
+          "id": "unha",
+          "nome": "Unha",
+          "descricao": "Placa dura e córnea que recobre a ponta dos dedos humanos.",
+          "variantes": [
+            "Unhas"
+          ]
+        },
+        {
+          "id": "futhark",
+          "nome": "Futhark",
+          "descricao": "Alfabeto rúnico usado pelos antigos povos germânicos.",
+          "variantes": [
+            "Futhark antigo",
+            "Elder Futhark",
+            "Runas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Floresta de kelp",
+        "descricao": "Ecossistema costeiro submerso dominado por grandes algas pardas do grupo kelp.",
+        "variantes": [
+          "Floresta de algas",
+          "Kelp forest",
+          "Floresta de laminárias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "varzea",
+          "nome": "Várzea",
+          "descricao": "Floresta amazônica inundada periodicamente pelas cheias de rios de água barrenta, como o Solimões",
+          "variantes": [
+            "Floresta de várzea"
+          ]
+        },
+        {
+          "id": "mata_de_araucarias",
+          "nome": "Mata de Araucárias",
+          "descricao": "Floresta do planalto do Sul do Brasil dominada pelo pinheiro-do-paraná",
+          "variantes": [
+            "Floresta Ombrófila Mista",
+            "Floresta de Araucária"
+          ]
+        },
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "floresta_de_daintree",
+          "nome": "Floresta de Daintree",
+          "descricao": "Floresta tropical úmida do nordeste de Queensland, considerada uma das mais antigas do mundo",
+          "variantes": [
+            "Daintree Rainforest"
+          ]
+        },
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Recife de coral",
+        "descricao": "Ecossistema marinho construído por colônias de pólipos de coral em águas rasas e quentes.",
+        "variantes": [
+          "Recife de corais",
+          "Coral reef"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "recife_de_coral",
+          "nome": "Recife de coral",
+          "descricao": "Estrutura submarina formada pelo acúmulo dos esqueletos calcários de corais ao longo de séculos.",
+          "variantes": [
+            "Recife coralino",
+            "Coral reef"
+          ]
+        },
+        {
+          "id": "eclipse_solar_de_29_de_maio_de_1919",
+          "nome": "Eclipse solar de 29 de maio de 1919",
+          "descricao": "Eclipse total do Sol observado em Sobral e na ilha do Príncipe, que ajudou a confirmar a relatividade geral.",
+          "variantes": [
+            "Experimento de Eddington",
+            "Eclipse de Sobral"
+          ]
+        },
+        {
+          "id": "prudente_de_morais",
+          "nome": "Prudente de Morais",
+          "descricao": "Político paulista que presidiu o Brasil entre 1894 e 1898.",
+          "variantes": [
+            "Prudente José de Morais Barros"
+          ]
+        },
+        {
+          "id": "cobra_real",
+          "nome": "Cobra-real",
+          "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+          "variantes": [
+            "Ophiophagus hannah",
+            "King cobra"
+          ]
+        },
+        {
+          "id": "reino_de_portugal",
+          "nome": "Reino de Portugal",
+          "descricao": "Monarquia ibérica que surgiu do Condado Portucalense no século doze e durou até 1910.",
+          "variantes": [
+            "Kingdom of Portugal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estromatólito",
+        "descricao": "Formação sedimentar em camadas, construída por micro-organismos como cianobactérias.",
+        "variantes": [
+          "Estromatólitos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estromatolito",
+          "nome": "Estromatólito",
+          "descricao": "Estrutura sedimentar laminada construída por comunidades de micro-organismos, sobretudo cianobactérias.",
+          "variantes": [
+            "Stromatolite",
+            "Estromatólitos"
+          ]
+        },
+        {
+          "id": "stromboli",
+          "nome": "Stromboli",
+          "descricao": "Ilha vulcânica das Ilhas Eólias, no Mar Tirreno, ao norte da Sicília.",
+          "variantes": [
+            "Ilha de Stromboli",
+            "Monte Stromboli",
+            "Vulcão Stromboli"
+          ]
+        },
+        {
+          "id": "pedra_sabao",
+          "nome": "Pedra-sabão",
+          "descricao": "Rocha metamórfica macia rica em talco, a esteatita, usada em esculturas e panelas.",
+          "variantes": [
+            "Esteatita",
+            "Soapstone",
+            "Esteatito"
+          ]
+        },
+        {
+          "id": "stromboli_2",
+          "nome": "Stromboli",
+          "descricao": "Vulcão ativo numa ilha do mar Tirreno, ao norte da Sicília, na Itália, conhecido por erupções explosivas pequenas e frequentes.",
+          "variantes": [
+            "Vulcão Stromboli"
+          ]
+        },
+        {
+          "id": "tamarutaca",
+          "nome": "Tamarutaca",
+          "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade.",
+          "variantes": [
+            "Stomatopoda",
+            "camarão-louva-a-deus",
+            "mantis shrimp",
+            "estomatópode"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bioma genérico de floresta tropical; as candidatas são florestas ou biomas específicos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cirro (nuvem) não corresponde a nenhuma candidata; só os nomes são parecidos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Halo solar é um fenômeno atmosférico, diferente do halo da Fórmula 1."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Duna (forma de relevo) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Floresta de kelp é um ecossistema marinho e nenhuma candidata é equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "recife_de_coral",
+      "motivo": "Mesma entidade: recife de coral. O nome e a variante 'Coral reef' coincidem, e as descrições são compatíveis."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "estromatolito",
+      "motivo": "Mesma entidade: estromatólito, uma estrutura sedimentar laminada construída por micro-organismos."
+    }
+  ]
+}

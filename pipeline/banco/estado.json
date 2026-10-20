@@ -594,9 +594,10 @@
     "fig_mitos_religioes_004",
     "fig_filosofos_palcos_003",
     "fig_mitos_religioes_005",
-    "fig_idiomas_escritas_001"
+    "fig_idiomas_escritas_001",
+    "fig_biomas_ambientes_001"
   ],
-  "maior_id": 14145,
+  "maior_id": 14152,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1151,6 +1152,17 @@
       "niveis": {
         "1": 2,
         "3": 1,
+        "2": 4
+      },
+      "registradas": 7
+    },
+    "biomas_ambientes": {
+      "familias": {
+        "o_que_e": 4,
+        "que_tipo": 3
+      },
+      "niveis": {
+        "1": 3,
         "2": 4
       },
       "registradas": 7

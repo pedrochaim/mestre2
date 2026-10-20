@@ -1,0 +1,184 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea do dossel, com copas densas e floração; reconhecível como floresta tropical.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de floresta, de clima quente e muito úmido, é esta vista do alto?",
+      "resposta": "Floresta tropical (pluvial)",
+      "ancora": {
+        "nome": "Floresta tropical",
+        "descricao": "Bioma florestal densa de clima quente e chuvoso, próximo à linha do Equador.",
+        "variantes": [
+          "Floresta pluvial tropical",
+          "Floresta tropical úmida",
+          "Selva tropical"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Céu azul com filamentos brancos e finos, típicos de cirros; sem texto nem pessoas.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem, de aspecto fino e fibroso, aparece neste céu?",
+      "resposta": "Cirro",
+      "distratores": [
+        "Cumulonimbo",
+        "Estrato",
+        "Altocúmulo"
+      ],
+      "ancora": {
+        "nome": "Cirro",
+        "descricao": "Gênero de nuvem alta, formada por cristais de gelo, de aspecto delicado e fibroso.",
+        "variantes": [
+          "Cirrus",
+          "Cirros"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Anel luminoso nítido em torno do Sol, claramente um halo de 22 graus; alpinistas minúsculos ao fundo, não em primeiro plano.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico forma este anel em volta do Sol?",
+      "resposta": "Halo solar",
+      "distratores": [
+        "Arco-íris",
+        "Aurora boreal",
+        "Pilar solar"
+      ],
+      "ancora": {
+        "nome": "Halo solar",
+        "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+        "variantes": [
+          "Halo",
+          "Halo de 22 graus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duna de areia com ondulações e céu limpo; imagem clara e sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que forma de relevo, moldada pelo vento, é esta?",
+      "resposta": "Duna",
+      "ancora": {
+        "nome": "Duna",
+        "descricao": "Elevação de areia acumulada e moldada pelo vento ou pela água, comum em desertos.",
+        "variantes": [
+          "Dunas",
+          "Duna de areia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem mostra um prado com salgueiros podados, e não uma pradaria típica; pode ser confundida com pampa, estepe ou simples campo."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Encosta rochosa genérica, sem elementos que permitam reconhecer campos rupestres; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano; além disso, mostra um tubo de lava específico, e não uma caverna genérica."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Há assinatura/marca d'água do fotógrafo na imagem, e o que aparece é um iceberg com aurora, não uma banquisa."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Frondes longas de algas pardas sob a água com peixes; reconhecível como floresta de kelp, embora de baixa resolução.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ecossistema marinho, formado por grandes algas pardas, é este?",
+      "resposta": "Floresta de kelp",
+      "ancora": {
+        "nome": "Floresta de kelp",
+        "descricao": "Ecossistema costeiro submerso dominado por grandes algas pardas do grupo kelp.",
+        "variantes": [
+          "Floresta de algas",
+          "Kelp forest",
+          "Floresta de laminárias"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Corais de mesa e ramificados coloridos em águas rasas; imagem clara.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ecossistema marinho é este?",
+      "resposta": "Recife de coral",
+      "distratores": [
+        "Floresta de kelp",
+        "Pradaria marinha",
+        "Fonte hidrotermal"
+      ],
+      "ancora": {
+        "nome": "Recife de coral",
+        "descricao": "Ecossistema marinho construído por colônias de pólipos de coral em águas rasas e quentes.",
+        "variantes": [
+          "Recife de corais",
+          "Coral reef"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Planície aberta sem traço distintivo; pode ser pradaria, pampa ou estepe, logo a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estromatólitos em águas rasas (estilo Shark Bay), formas características e sem texto.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formações, entre as mais antigas evidências de vida na Terra, aparecem nesta água rasa?",
+      "resposta": "Estromatólitos",
+      "distratores": [
+        "Recifes de coral",
+        "Rochas vulcânicas",
+        "Esponjas marinhas"
+      ],
+      "ancora": {
+        "nome": "Estromatólito",
+        "descricao": "Formação sedimentar em camadas, construída por micro-organismos como cianobactérias.",
+        "variantes": [
+          "Estromatólitos",
+          "Estromatolito"
+        ]
+      }
+    }
+  ]
+}

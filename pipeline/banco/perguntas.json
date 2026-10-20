@@ -262558,5 +262558,165 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q14146",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "floresta_tropical",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que bioma florestal é este, visto do alto?",
+    "resposta": "Floresta tropical (pluvial)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tropical_rainforest",
+      "https://pt.wikipedia.org/wiki/Floresta_tropical_pluvial"
+    ],
+    "imagem": {
+      "arquivo": "q14146.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Forest_on_Barro_Colorado.png",
+      "autor": "Photos courtesy of Christian Ziegler.",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q14147",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "cirro",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que gênero de nuvem aparece neste céu?",
+    "resposta": "Cirro",
+    "distratores": [
+      "Cumulonimbo",
+      "Estrato",
+      "Altocúmulo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cirrus_cloud",
+      "https://pt.wikipedia.org/wiki/Cirro_%28nuvem%29"
+    ],
+    "imagem": {
+      "arquivo": "q14147.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wolken_cirrus_(3).jpg",
+      "autor": "Rasbak",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14148",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "halo_solar",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno óptico é este, visto junto ao Sol?",
+    "resposta": "Halo solar",
+    "distratores": [
+      "Arco-íris",
+      "Aurora boreal",
+      "Coroa solar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Halo_%28optical_phenomenon%29",
+      "https://pt.wikipedia.org/wiki/Halo_%28fen%C3%B3meno_%C3%B3ptico%29"
+    ],
+    "imagem": {
+      "arquivo": "q14148.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Halo_in_the_Himalayas.jpg",
+      "autor": "Anton Yankovyi",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14149",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "duna",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que forma de relevo é esta?",
+    "resposta": "Duna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dune",
+      "https://pt.wikipedia.org/wiki/Duna"
+    ],
+    "imagem": {
+      "arquivo": "q14149.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010.jpg",
+      "autor": "Rosino on Flickr",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q14150",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "floresta_de_kelp",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que ecossistema marinho costeiro é este?",
+    "resposta": "Floresta de kelp",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kelp_forest",
+      "https://pt.wikipedia.org/wiki/Floresta_de_algas"
+    ],
+    "imagem": {
+      "arquivo": "q14150.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kelp_forest.jpg",
+      "autor": "Kip Evans",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14151",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "recife_de_coral",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que ecossistema marinho é este?",
+    "resposta": "Recife de coral",
+    "distratores": [
+      "Floresta de kelp",
+      "Pradaria marinha",
+      "Fonte hidrotermal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coral_reef",
+      "https://pt.wikipedia.org/wiki/Recife_de_coral"
+    ],
+    "imagem": {
+      "arquivo": "q14151.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg",
+      "autor": "Toby Hudson",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14152",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "estromatolito",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que formações rochosas aparecem nesta água rasa?",
+    "resposta": "Estromatólitos",
+    "distratores": [
+      "Recifes de coral",
+      "Rochas vulcânicas",
+      "Esponjas marinhas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stromatolite",
+      "https://pt.wikipedia.org/wiki/Estromat%C3%B3lito"
+    ],
+    "imagem": {
+      "arquivo": "q14152.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stromatolites_in_Sharkbay.jpg",
+      "autor": "Paul Harrison",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
