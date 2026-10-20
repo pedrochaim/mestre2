@@ -1,0 +1,97 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto de pessoa com crachá legível com o nome; sem o crachá não seria reconhecível, e a pergunta não é sobre prefiguração visual de um objeto."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Prédio comum de vilarejo ucraniano, sem traços que o tornem reconhecível; a entidade não é identificável pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Busto egípcio do Egito Antigo; não cabe nos subtemas de destino do catálogo (Evolução Humana, Pré-História e Idade do Bronze)."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra um molar isolado (dente de Denisova), não o crânio de Homo longi; a âncora não corresponde e um dente não é reconhecível pelo público."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mandíbula fóssil (réplica) sem identificação segura como Mauer 1 e não reconhecível pela forma; resposta não única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do desenho de giz na colina, sem texto; assunto único e reconhecível. Múltipla pelo país.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta figura gigante, feita com giz numa colina na Idade do Bronze?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Escócia",
+        "País de Gales",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Cavalo Branco de Uffington",
+        "descricao": "Figura pré-histórica de um cavalo, esculpida em giz numa colina de Oxfordshire, Inglaterra.",
+        "variantes": [
+          "Uffington White Horse"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Fragmento ósseo (cotovelo) sem forma reconhecível; impossível identificar a espécie pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Busto nítido, sem texto, escultura famosa da civilização do Indo; reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa escultura de pedra, da Idade do Bronze, é esta?",
+      "resposta": "Rei-Sacerdote de Mohenjo-daro",
+      "ancora": {
+        "nome": "Rei-Sacerdote de Mohenjo-daro",
+        "descricao": "Pequena escultura de esteatita de um homem barbado, encontrada em Mohenjo-daro, símbolo da civilização do Vale do Indo.",
+        "variantes": [
+          "Priest-King",
+          "Rei-Sacerdote",
+          "Sacerdote-Rei"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Paredão rochoso com uma estrutura metálica moderna na entrada; a caverna de Niaux não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Máscara do Egito Antigo; não cabe nos subtemas de destino do catálogo (Pré-História/Idade do Bronze ou Evolução Humana) e o período não corresponde."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de pessoas comuns em primeiro plano dentro de uma caverna; a caverna não é reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa do museu visível ao fundo traz o nome 'Petralona' e a descrição, entregando a resposta."
+    }
+  ]
+}

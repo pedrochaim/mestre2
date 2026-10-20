@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cavalo Branco de Uffington",
+        "descricao": "Figura pré-histórica de um cavalo, esculpida em giz numa colina de Oxfordshire, Inglaterra.",
+        "variantes": [
+          "Uffington White Horse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        },
+        {
+          "id": "cerco_de_tsingtao",
+          "nome": "Cerco de Tsingtao",
+          "descricao": "Ataque de 1914 em que forças japonesas e britânicas tomaram a colônia alemã de Tsingtao, na China.",
+          "variantes": [
+            "Cerco de Qingdao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Rei-Sacerdote de Mohenjo-daro",
+        "descricao": "Pequena escultura de esteatita de um homem barbado, encontrada em Mohenjo-daro, símbolo da civilização do Vale do Indo.",
+        "variantes": [
+          "Priest-King",
+          "Rei-Sacerdote",
+          "Sacerdote-Rei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_banho_de_mohenjo_daro",
+          "nome": "Grande Banho de Mohenjo-daro",
+          "descricao": "Grande tanque de tijolos da cidade de Mohenjo-daro, da civilização do Vale do Indo, provavelmente usado em rituais de purificação.",
+          "variantes": [
+            "Grande Banho",
+            "Great Bath"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "luta_livre_profissional",
+          "nome": "Luta livre profissional",
+          "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+          "variantes": [
+            "Wrestling",
+            "Pro wrestling",
+            "Luta profissional"
+          ]
+        },
+        {
+          "id": "rinoceronte",
+          "nome": "Rinoceronte",
+          "descricao": "Grandes mamíferos herbívoros com chifre no focinho, da família Rhinocerotidae.",
+          "variantes": [
+            "Rhinoceros",
+            "Rhinocerotidae"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Figura de giz em Oxfordshire; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Escultura de esteatita distinta do Grande Banho, embora ambos sejam de Mohenjo-daro; as demais são irrelevantes."
+    }
+  ]
+}

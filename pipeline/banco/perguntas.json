@@ -259126,5 +259126,49 @@
       "autor": "Autor desconhecido",
       "licenca": "CC BY-SA 2.5"
     }
+  },
+  {
+    "id": "q14001",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "cavalo_branco_de_uffington",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica esta figura pré-histórica, esculpida numa colina?",
+    "resposta": "Inglaterra",
+    "distratores": [
+      "Escócia",
+      "País de Gales",
+      "Irlanda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uffington_White_Horse",
+      "https://pt.wikipedia.org/wiki/Cavalo_Branco_de_Uffington"
+    ],
+    "imagem": {
+      "arquivo": "q14001.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:White_horse_from_air.jpg",
+      "autor": "Dan Huby",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14002",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "rei_sacerdote_de_mohenjo_daro",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que famosa escultura de pedra, da Idade do Bronze, é esta?",
+    "resposta": "Rei-Sacerdote de Mohenjo-daro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Priest-King_%28sculpture%29"
+    ],
+    "imagem": {
+      "arquivo": "q14002.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mohenjo-daro_Priesterkönig.jpeg",
+      "autor": "Mamoon Mengal",
+      "licenca": "CC BY-SA 1.0"
+    }
   }
 ]
