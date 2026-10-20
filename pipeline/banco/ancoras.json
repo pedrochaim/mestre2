@@ -13863,7 +13863,9 @@
     "descricao": "Casaco impermeável longo, com abotoamento duplo e cinto, de origem militar britânica",
     "variantes": [
       "Gabardine (casaco)",
-      "Capa de chuva trench"
+      "Capa de chuva trench",
+      "Gabardine",
+      "Sobretudo trench"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Trench_coat"
@@ -65573,7 +65575,8 @@
     "nome": "Batalha de Verdun",
     "descricao": "Batalha travada entre franceses e alemães em 1916, perto da cidade de Verdun, uma das mais longas e sangrentas da Primeira Guerra Mundial.",
     "variantes": [
-      "Battle of Verdun"
+      "Battle of Verdun",
+      "Verdun"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Battle_of_Verdun",
@@ -76641,7 +76644,8 @@
     "descricao": "Concerto para piano em ré maior de Maurice Ravel, de 1930, escrito para ser tocado só com a mão esquerda.",
     "variantes": [
       "Concerto para piano para a mão esquerda",
-      "Piano Concerto for the Left Hand"
+      "Piano Concerto for the Left Hand",
+      "Concerto para piano em ré maior para a mão esquerda"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Piano_Concerto_for_the_Left_Hand_(Ravel)"
@@ -85287,7 +85291,8 @@
     "nome": "Charles de Gaulle",
     "descricao": "General francês que liderou a França Livre a partir de Londres na Segunda Guerra e depois presidiu a França.",
     "variantes": [
-      "General de Gaulle"
+      "General de Gaulle",
+      "De Gaulle"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Charles_de_Gaulle",
@@ -125339,7 +125344,8 @@
     "nome": "Anzac Day",
     "descricao": "Feriado de vinte e cinco de abril na Austrália e na Nova Zelândia em memória dos soldados mortos em guerras.",
     "variantes": [
-      "Dia do Anzac"
+      "Dia do Anzac",
+      "Dia Anzac"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Anzac_Day"
@@ -126949,7 +126955,8 @@
     "nome": "Roland Garros (aviador)",
     "descricao": "Aviador francês (1888–1918), pioneiro da aviação de caça, morto em combate na Primeira Guerra Mundial.",
     "variantes": [
-      "Eugène Adrien Roland Georges Garros"
+      "Eugène Adrien Roland Georges Garros",
+      "Roland Garros"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Roland_Garros_(aviator)"
@@ -131067,7 +131074,8 @@
     "descricao": "Capacete de couro ou metal com um espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
     "variantes": [
       "Pickelhelm",
-      "Capacete prussiano"
+      "Capacete prussiano",
+      "Capacete de ponta alemão"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pickelhaube",
@@ -169290,6 +169298,330 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Greek_tragedy",
       "https://pt.wikipedia.org/wiki/Tragédia_grega"
+    ]
+  },
+  {
+    "id": "primeira_batalha_do_marne",
+    "nome": "Primeira Batalha do Marne",
+    "descricao": "Batalha de setembro de 1914 perto do rio Marne em que franceses e britânicos detiveram o avanço alemão sobre Paris.",
+    "variantes": [
+      "Batalha do Marne",
+      "Milagre do Marne"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Primeira_Batalha_do_Marne",
+      "https://en.wikipedia.org/wiki/First_Battle_of_the_Marne"
+    ]
+  },
+  {
+    "id": "batalha_de_passchendaele",
+    "nome": "Batalha de Passchendaele",
+    "descricao": "Ofensiva britânica de 1917 perto de Ypres, na Bélgica, também chamada Terceira Batalha de Ypres.",
+    "variantes": [
+      "Terceira Batalha de Ypres",
+      "Passchendaele"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Battle_of_Passchendaele",
+      "https://pt.wikipedia.org/wiki/Batalha_de_Passchendaele"
+    ]
+  },
+  {
+    "id": "cher_ami",
+    "nome": "Cher Ami",
+    "descricao": "Pombo-correio do exército americano condecorado por levar uma mensagem que salvou o Batalhão Perdido em 1918.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cher_Ami"
+    ]
+  },
+  {
+    "id": "francisco_jose_i_da_austria",
+    "nome": "Francisco José I da Áustria",
+    "descricao": "Imperador da Áustria de 1848 a 1916 e rei da Hungria, que reinava sobre a Áustria-Hungria no início da Primeira Guerra Mundial.",
+    "variantes": [
+      "Francisco José",
+      "Franz Joseph I"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Francisco_José_I_da_Áustria",
+      "https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria"
+    ]
+  },
+  {
+    "id": "c_s_lewis",
+    "nome": "C. S. Lewis",
+    "descricao": "Escritor e professor britânico (1898–1963), autor de As Crônicas de Nárnia.",
+    "variantes": [
+      "Clive Staples Lewis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/C._S._Lewis"
+    ]
+  },
+  {
+    "id": "mito_da_punhalada_pelas_costas",
+    "nome": "Mito da punhalada pelas costas",
+    "descricao": "Teoria conspiratória difundida na Alemanha após 1918 segundo a qual o exército alemão não fora derrotado em combate, mas traído por civis e políticos.",
+    "variantes": [
+      "Dolchstoßlegende",
+      "Lenda da punhalada nas costas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stab-in-the-back_myth"
+    ]
+  },
+  {
+    "id": "armisticio_de_salonica",
+    "nome": "Armistício de Salônica",
+    "descricao": "Armistício assinado em 29 de setembro de 1918 entre a Bulgária e os Aliados, que tirou a Bulgária da Primeira Guerra Mundial.",
+    "variantes": [
+      "Armistício de Tessalônica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Armistice_of_Salonica"
+    ]
+  },
+  {
+    "id": "marinha_real_britanica",
+    "nome": "Marinha Real Britânica",
+    "descricao": "Força naval do Reino Unido, conhecida em inglês como Royal Navy.",
+    "variantes": [
+      "Royal Navy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Royal_Navy"
+    ]
+  },
+  {
+    "id": "corpo_de_exercito_australiano_e_neozelandes",
+    "nome": "Corpo de Exército Australiano e Neozelandês",
+    "descricao": "Corpo militar formado em 1914 por tropas da Austrália e da Nova Zelândia, conhecido pela sigla ANZAC e pela luta em Galípoli.",
+    "variantes": [
+      "ANZAC",
+      "Anzacs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Australian_and_New_Zealand_Army_Corps"
+    ]
+  },
+  {
+    "id": "acordo_sykes_picot",
+    "nome": "Acordo Sykes-Picot",
+    "descricao": "Acordo secreto de 1916 entre o Reino Unido e a França, com assentimento da Rússia, para dividir territórios do Império Otomano no Oriente Médio.",
+    "variantes": [
+      "Sykes-Picot"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sykes%E2%80%93Picot_Agreement",
+      "https://pt.wikipedia.org/wiki/Acordo_Sykes-Picot"
+    ]
+  },
+  {
+    "id": "quatro_grandes_1919",
+    "nome": "Quatro Grandes (1919)",
+    "descricao": "Os chefes de governo dos Estados Unidos, do Reino Unido, da França e da Itália, que dominaram a Conferência de Paz de Paris em 1919.",
+    "variantes": [
+      "Big Four"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Big_Four_(World_War_I)"
+    ]
+  },
+  {
+    "id": "mark_i_tanque",
+    "nome": "Mark I (tanque)",
+    "descricao": "Primeiro tanque britânico usado em combate, estreado na Batalha do Somme em 1916.",
+    "variantes": [
+      "Tanque Mark I"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mark_I_tank"
+    ]
+  },
+  {
+    "id": "renault_ft",
+    "nome": "Renault FT",
+    "descricao": "Tanque leve francês lançado em 1917, com a arma montada numa torre giratória.",
+    "variantes": [
+      "Renault FT-17"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Renault_FT"
+    ]
+  },
+  {
+    "id": "voie_sacree",
+    "nome": "Voie Sacrée",
+    "descricao": "Estrada entre Bar-le-Duc e Verdun que abasteceu de tropas e suprimentos a defesa francesa durante a Batalha de Verdun, em 1916.",
+    "variantes": [
+      "Via Sagrada",
+      "Caminho Sagrado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Voie_Sacr%C3%A9e"
+    ]
+  },
+  {
+    "id": "reino_da_iugoslavia",
+    "nome": "Reino da Iugoslávia",
+    "descricao": "Estado criado em 1918 nos Bálcãs com o nome de Reino dos Sérvios, Croatas e Eslovenos, rebatizado em 1929.",
+    "variantes": [
+      "Reino dos Sérvios, Croatas e Eslovenos",
+      "Jugoslávia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kingdom_of_Yugoslavia"
+    ]
+  },
+  {
+    "id": "guerra_submarina_irrestrita",
+    "nome": "Guerra submarina irrestrita",
+    "descricao": "Estratégia alemã de afundar sem aviso navios mercantes, inclusive neutros, nas águas em torno do Reino Unido, retomada em 1917.",
+    "variantes": [
+      "Guerra submarina sem restrições"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Unrestricted_submarine_warfare"
+    ]
+  },
+  {
+    "id": "edith_cavell",
+    "nome": "Edith Cavell",
+    "descricao": "Enfermeira britânica (1865–1915) fuzilada pelos alemães na Bélgica ocupada durante a Primeira Guerra Mundial.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Edith_Cavell"
+    ]
+  },
+  {
+    "id": "navio_parana_1917",
+    "nome": "Navio Paraná (1917)",
+    "descricao": "Navio mercante brasileiro torpedeado por um submarino alemão na costa da França em abril de 1917.",
+    "variantes": [
+      "Vapor Paraná"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Brasil_na_Primeira_Guerra_Mundial"
+    ]
+  },
+  {
+    "id": "ofensiva_nivelle",
+    "nome": "Ofensiva Nivelle",
+    "descricao": "Ofensiva franco-britânica de abril e maio de 1917, comandada pelo general Robert Nivelle, que terminou em grande fracasso.",
+    "variantes": [
+      "Segunda Batalha do Aisne",
+      "Chemin des Dames"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nivelle_Offensive"
+    ]
+  },
+  {
+    "id": "portugal_na_primeira_guerra_mundial",
+    "nome": "Portugal na Primeira Guerra Mundial",
+    "descricao": "Participação portuguesa no conflito, a partir da declaração de guerra alemã em março de 1916.",
+    "variantes": [
+      "Corpo Expedicionário Português"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Portugal_in_World_War_I"
+    ]
+  },
+  {
+    "id": "hmhs_britannic",
+    "nome": "HMHS Britannic",
+    "descricao": "Transatlântico britânico da White Star Line convertido em navio-hospital e afundado por uma mina no Mar Egeu em 1916.",
+    "variantes": [
+      "Britannic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/HMHS_Britannic"
+    ]
+  },
+  {
+    "id": "batalha_das_malvinas_1914",
+    "nome": "Batalha das Malvinas (1914)",
+    "descricao": "Batalha naval de dezembro de 1914 em que a esquadra britânica destruiu a esquadra alemã do almirante von Spee no Atlântico Sul.",
+    "variantes": [
+      "Batalha das Falklands"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Battle_of_the_Falkland_Islands"
+    ]
+  },
+  {
+    "id": "revolta_dos_marinheiros_de_kiel",
+    "nome": "Revolta dos marinheiros de Kiel",
+    "descricao": "Motim de marinheiros da frota alemã em novembro de 1918 que desencadeou a Revolução Alemã e a queda do kaiser.",
+    "variantes": [
+      "Motim de Kiel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kiel_mutiny"
+    ]
+  },
+  {
+    "id": "cerco_de_tsingtao",
+    "nome": "Cerco de Tsingtao",
+    "descricao": "Ataque de 1914 em que forças japonesas e britânicas tomaram a colônia alemã de Tsingtao, na China.",
+    "variantes": [
+      "Cerco de Qingdao"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Siege_of_Tsingtao"
+    ]
+  },
+  {
+    "id": "liga_de_defesa_nacional",
+    "nome": "Liga de Defesa Nacional",
+    "descricao": "Entidade civil brasileira fundada em 1916 para promover o civismo e o serviço militar obrigatório.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Liga_de_Defesa_Nacional"
+    ]
+  },
+  {
+    "id": "fokker_dr_i",
+    "nome": "Fokker Dr.I",
+    "descricao": "Caça triplano alemão de 1917, famoso por ter sido pilotado por Manfred von Richthofen, o Barão Vermelho.",
+    "variantes": [
+      "Fokker Dreidecker",
+      "Triplano Fokker"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fokker_Dr.I"
+    ]
+  },
+  {
+    "id": "henry_gunther",
+    "nome": "Henry Gunther",
+    "descricao": "Soldado americano morto na França em 11 de novembro de 1918, considerado o último soldado morto em combate na Primeira Guerra Mundial.",
+    "variantes": [
+      "Henry Nicholas John Gunther"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Henry_Gunther"
+    ]
+  },
+  {
+    "id": "tratado_de_trianon",
+    "nome": "Tratado de Trianon",
+    "descricao": "Tratado de paz assinado em 1920 entre os Aliados e a Hungria após a Primeira Guerra Mundial.",
+    "variantes": [
+      "Tratado do Trianon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Treaty_of_Trianon"
+    ]
+  },
+  {
+    "id": "entrada_da_italia_na_primeira_guerra_mundial",
+    "nome": "Entrada da Itália na Primeira Guerra Mundial",
+    "descricao": "Declaração de guerra da Itália à Áustria-Hungria em maio de 1915, após o Tratado de Londres com os Aliados.",
+    "variantes": [
+      "Tratado de Londres de 1915"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Treaty_of_London_(1915)",
+      "https://en.wikipedia.org/wiki/Italian_front_(World_War_I)"
     ]
   }
 ]
