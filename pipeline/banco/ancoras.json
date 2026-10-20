@@ -11060,7 +11060,8 @@
     "variantes": [
       "Língua geral amazônica",
       "Nhengatu",
-      "Tupi moderno"
+      "Tupi moderno",
+      "Yẽgatu"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Nheengatu_language",
@@ -11273,7 +11274,8 @@
     "variantes": [
       "Nahuatl",
       "Náhuatl",
-      "Língua asteca"
+      "Língua asteca",
+      "Asteca"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Nahuatl",
@@ -60313,7 +60315,8 @@
     "nome": "Paraguai",
     "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
     "variantes": [
-      "Paraguay"
+      "Paraguay",
+      "República do Paraguai"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Paraguay"
@@ -67303,7 +67306,8 @@
     "descricao": "Sistema de escrita e leitura tátil para pessoas cegas, formado por pontos em relevo.",
     "variantes": [
       "Sistema braille",
-      "Braile"
+      "Braile",
+      "Sistema braile"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Braille"
@@ -70814,7 +70818,8 @@
     "nome": "Libras",
     "descricao": "Língua Brasileira de Sinais, usada pela comunidade surda do Brasil",
     "variantes": [
-      "Língua Brasileira de Sinais"
+      "Língua Brasileira de Sinais",
+      "Brazilian Sign Language"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
@@ -72991,7 +72996,8 @@
     "variantes": [
       "Suaíli",
       "Swahili",
-      "Kiswahili"
+      "Kiswahili",
+      "Suahíli"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Swahili_language"
@@ -151504,7 +151510,10 @@
       "wikidata": "Q653477",
       "pt": 812,
       "en": 568
-    }
+    },
+    "variantes": [
+      "Kasatu Maru"
+    ]
   },
   {
     "id": "consolidacao_das_leis_do_trabalho",
@@ -158972,6 +158981,420 @@
     ],
     "fontes": [
       "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Sword_and_Shield_Expansion_Pass"
+    ]
+  },
+  {
+    "id": "alfabeto_cirilico",
+    "nome": "Alfabeto cirílico",
+    "descricao": "Sistema de escrita usado no russo, búlgaro, sérvio e outras línguas, criado no Primeiro Império Búlgaro no século nove.",
+    "variantes": [
+      "Cirílico",
+      "Cyrillic script"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cyrillic_script"
+    ]
+  },
+  {
+    "id": "inuites",
+    "nome": "Inuítes",
+    "descricao": "Povos indígenas das regiões árticas do Canadá, da Groenlândia e do Alasca, antes chamados de esquimós.",
+    "variantes": [
+      "Inuit",
+      "Inuíte"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Inuit"
+    ]
+  },
+  {
+    "id": "iidiche",
+    "nome": "Iídiche",
+    "descricao": "Língua germânica escrita com letras hebraicas, falada historicamente pelos judeus asquenazes da Europa Central e Oriental.",
+    "variantes": [
+      "Yiddish",
+      "Ídiche"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yiddish"
+    ]
+  },
+  {
+    "id": "sanscrito",
+    "nome": "Sânscrito",
+    "descricao": "Língua clássica da Índia antiga, usada nos textos sagrados do hinduísmo, do budismo e do jainismo.",
+    "variantes": [
+      "Sanskrit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sanskrit"
+    ]
+  },
+  {
+    "id": "kanji",
+    "nome": "Kanji",
+    "descricao": "Ideogramas de origem chinesa usados na escrita da língua japonesa.",
+    "variantes": [
+      "Kanjis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kanji"
+    ]
+  },
+  {
+    "id": "povo_cigano",
+    "nome": "Povo cigano",
+    "descricao": "Povo romani, de origem no norte do subcontinente indiano, espalhado pela Europa e pelas Américas.",
+    "variantes": [
+      "Romani",
+      "Roma",
+      "Ciganos",
+      "Rom"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Romani_people"
+    ]
+  },
+  {
+    "id": "aleph",
+    "nome": "Aleph",
+    "descricao": "Primeira letra do alfabeto fenício, ancestral do alfa grego e da letra A latina.",
+    "variantes": [
+      "Álef",
+      "Alef",
+      "Aleph fenício"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aleph"
+    ]
+  },
+  {
+    "id": "futhark",
+    "nome": "Futhark",
+    "descricao": "Alfabeto rúnico usado pelos antigos povos germânicos.",
+    "variantes": [
+      "Futhark antigo",
+      "Elder Futhark",
+      "Runas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elder_Futhark"
+    ]
+  },
+  {
+    "id": "malgaxe",
+    "nome": "Malgaxe",
+    "descricao": "Língua austronésia falada em Madagascar.",
+    "variantes": [
+      "Língua malgaxe",
+      "Malagasy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Malagasy_language"
+    ]
+  },
+  {
+    "id": "hungaro",
+    "nome": "Húngaro",
+    "descricao": "Língua urálica oficial da Hungria.",
+    "variantes": [
+      "Língua húngara",
+      "Magiar",
+      "Hungarian"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hungarian_language"
+    ]
+  },
+  {
+    "id": "quichua",
+    "nome": "Quíchua",
+    "descricao": "Família de línguas indígenas dos Andes, falada no antigo Império Inca.",
+    "variantes": [
+      "Quéchua",
+      "Quechua",
+      "Runa simi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Quechuan_languages"
+    ]
+  },
+  {
+    "id": "quimbundo",
+    "nome": "Quimbundo",
+    "descricao": "Língua banta falada no norte de Angola, que influenciou o português do Brasil.",
+    "variantes": [
+      "Kimbundu",
+      "Língua quimbunda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kimbundu"
+    ]
+  },
+  {
+    "id": "alfabeto_hebraico",
+    "nome": "Alfabeto hebraico",
+    "descricao": "Sistema de escrita usado no hebraico, no iídiche e em outras línguas judaicas.",
+    "variantes": [
+      "Hebrew alphabet",
+      "Alefbet"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+    ]
+  },
+  {
+    "id": "maltes",
+    "nome": "Maltês",
+    "descricao": "Língua semítica oficial de Malta, escrita com o alfabeto latino.",
+    "variantes": [
+      "Língua maltesa",
+      "Maltese"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maltese_language"
+    ]
+  },
+  {
+    "id": "tuaregues",
+    "nome": "Tuaregues",
+    "descricao": "Povo berbere nômade do deserto do Saara e do Sahel.",
+    "variantes": [
+      "Tuareg",
+      "Tuaregs",
+      "Kel Tamasheq"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tuareg_people"
+    ]
+  },
+  {
+    "id": "alfabeto_cirilico_mongol",
+    "nome": "Alfabeto cirílico mongol",
+    "descricao": "Versão do alfabeto cirílico adotada para escrever a língua mongol na Mongólia no século vinte.",
+    "variantes": [
+      "Mongolian Cyrillic alphabet",
+      "Escrita mongol cirílica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mongolian_Cyrillic_alphabet"
+    ]
+  },
+  {
+    "id": "alfabeto_vietnamita",
+    "nome": "Alfabeto vietnamita",
+    "descricao": "Sistema de escrita do vietnamita, baseado no alfabeto latino e desenvolvido por missionários europeus no século dezessete.",
+    "variantes": [
+      "Chữ Quốc ngữ",
+      "Quốc ngữ",
+      "Vietnamese alphabet"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vietnamese_alphabet"
+    ]
+  },
+  {
+    "id": "ladino",
+    "nome": "Ladino",
+    "descricao": "Língua judeu-espanhola falada pelos judeus sefarditas.",
+    "variantes": [
+      "Judeu-espanhol",
+      "Judezmo",
+      "Judaeo-Spanish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Judaeo-Spanish"
+    ]
+  },
+  {
+    "id": "africaner",
+    "nome": "Africâner",
+    "descricao": "Língua germânica derivada do holandês, falada na África do Sul e na Namíbia.",
+    "variantes": [
+      "Afrikaans",
+      "Africânder"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Afrikaans"
+    ]
+  },
+  {
+    "id": "hangul",
+    "nome": "Hangul",
+    "descricao": "Alfabeto da língua coreana, criado no século quinze durante a dinastia Joseon.",
+    "variantes": [
+      "Hangeul",
+      "Alfabeto coreano",
+      "Chosŏn'gŭl"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hangul"
+    ]
+  },
+  {
+    "id": "dia_internacional_da_lingua_materna",
+    "nome": "Dia Internacional da Língua Materna",
+    "descricao": "Data comemorada em 21 de fevereiro, proclamada pela UNESCO para promover a diversidade linguística.",
+    "variantes": [
+      "International Mother Language Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/International_Mother_Language_Day"
+    ]
+  },
+  {
+    "id": "colonia_galesa_na_patagonia",
+    "nome": "Colônia galesa na Patagônia",
+    "descricao": "Assentamento de imigrantes do País de Gales na Patagônia argentina, iniciado em 1865.",
+    "variantes": [
+      "Y Wladfa",
+      "Patagônia galesa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Y_Wladfa"
+    ]
+  },
+  {
+    "id": "ainus",
+    "nome": "Ainus",
+    "descricao": "Povo indígena do norte do Japão e de áreas vizinhas da Rússia.",
+    "variantes": [
+      "Ainu",
+      "Aino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ainu_people"
+    ]
+  },
+  {
+    "id": "rongorongo",
+    "nome": "Rongorongo",
+    "descricao": "Sistema de glifos encontrado em tábuas de madeira da Ilha de Páscoa, ainda não decifrado.",
+    "variantes": [
+      "Escrita rongorongo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rongorongo"
+    ]
+  },
+  {
+    "id": "alfabeto_turco",
+    "nome": "Alfabeto turco",
+    "descricao": "Alfabeto latino adotado pela Turquia em 1928, nas reformas de Atatürk, no lugar da escrita árabe.",
+    "variantes": [
+      "Turkish alphabet",
+      "Reforma do alfabeto turco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Turkish_alphabet"
+    ]
+  },
+  {
+    "id": "lingua_geral",
+    "nome": "Língua geral",
+    "descricao": "Línguas de base tupi usadas como meio de comunicação entre colonos e indígenas no Brasil colonial.",
+    "variantes": [
+      "Língua geral paulista",
+      "Língua geral amazônica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/L%C3%ADngua_Geral"
+    ]
+  },
+  {
+    "id": "silabario_cherokee",
+    "nome": "Silabário cherokee",
+    "descricao": "Sistema de escrita da língua cherokee, criado no início do século dezenove.",
+    "variantes": [
+      "Cherokee syllabary",
+      "Escrita cherokee"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cherokee_syllabary"
+    ]
+  },
+  {
+    "id": "lingua_hebraica",
+    "nome": "Língua hebraica",
+    "descricao": "Língua semítica do povo judeu, revivida como língua falada a partir do fim do século dezenove e oficial em Israel.",
+    "variantes": [
+      "Hebraico",
+      "Hebraico moderno",
+      "Hebrew"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Revival_of_the_Hebrew_language"
+    ]
+  },
+  {
+    "id": "esperanto",
+    "nome": "Esperanto",
+    "descricao": "Língua planejada para a comunicação internacional, publicada em 1887.",
+    "variantes": [
+      "Esperanto language"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Esperanto"
+    ]
+  },
+  {
+    "id": "escrita_japonesa",
+    "nome": "Escrita japonesa",
+    "descricao": "Conjunto de sistemas usados para escrever o japonês: kanji, hiragana e katakana.",
+    "variantes": [
+      "Japanese writing system"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Japanese_writing_system"
+    ]
+  },
+  {
+    "id": "alfabeto_russo",
+    "nome": "Alfabeto russo",
+    "descricao": "Variante do alfabeto cirílico usada para escrever a língua russa.",
+    "variantes": [
+      "Russian alphabet"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Russian_alphabet"
+    ]
+  },
+  {
+    "id": "basco",
+    "nome": "Basco",
+    "descricao": "Língua isolada falada no País Basco, na Espanha e na França.",
+    "variantes": [
+      "Euskara",
+      "Euskera",
+      "Língua basca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Basque_language"
+    ]
+  },
+  {
+    "id": "pomerano",
+    "nome": "Pomerano",
+    "descricao": "Variedade do baixo-alemão da antiga Pomerânia, mantida por descendentes de imigrantes no Espírito Santo e no Sul do Brasil.",
+    "variantes": [
+      "Pomerano oriental",
+      "East Pomeranian",
+      "Língua pomerana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/East_Pomeranian_dialect"
+    ]
+  },
+  {
+    "id": "papua_nova_guine",
+    "nome": "Papua-Nova Guiné",
+    "descricao": "País da Oceania que ocupa a metade oriental da ilha da Nova Guiné.",
+    "variantes": [
+      "Papua New Guinea",
+      "Papuásia-Nova Guiné"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Languages_of_Papua_New_Guinea"
     ]
   }
 ]

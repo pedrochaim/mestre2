@@ -1,0 +1,440 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome vem de Cirilo, como diz o trecho; o enunciado é literalmente correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'A que parte da terra' é vago e a resposta fica comprida; o enunciado deve pedir o significado da palavra.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome do suaíli vem do plural de uma palavra árabe. O que significa essa palavra?",
+        "resposta": "Costa (litoral)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Swahili_language"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inuíte significa 'povo', conforme o trecho; pergunta clara e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português traz o sentido literal 'judeu, judaico'.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que 'sânscrito' era um modo refinado de falar; boa pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kanji significa 'caracteres Han'; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gypsy e gitano derivam de 'egípcio'; enunciado fiel à fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradução usual confirmada pelo trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aleph vem de 'ox' (boi), conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O nome vem dos sons das seis primeiras runas, não de 'letras'; a resposta precisa ser precisa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O alfabeto rúnico dos antigos povos germânicos é chamado futhark. De onde vem esse nome?",
+        "resposta": "Dos sons das seis primeiras runas",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Elder_Futhark"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem francesa de ambas é sustentada pelas fontes; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português liga o malgaxe ao ma'anyan de Bornéu; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O finlandês não é um idioma 'nórdico' em sentido estrito (as línguas nórdicas são germânicas); a formulação é imprecisa.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Apesar de ser falado no centro da Europa, o húngaro pertence à mesma família linguística de qual destes idiomas?",
+        "resposta": "Finlandês",
+        "distratores": [
+          "Sueco",
+          "Norueguês",
+          "Islandês"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hungarian_language"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lama, puma e condor vêm do quíchua, segundo as fontes; boa pergunta de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chocolate, tomate e abacate vêm do náuatle, falado pelos astecas.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado, mas a fonte em português não existe; mantém-se só a fonte válida.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Caçula, moleque e quitanda chegaram ao português do Brasil por meio de qual língua banta de Angola?",
+        "resposta": "Quimbundo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kimbundu"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grego e hebraico descendem do fenício, direta ou indiretamente.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma a direção da direita para a esquerda.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maltês deriva do árabe siciliano; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O índigo do tagelmust tinge a pele, como diz o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho cita a forte influência soviética na adoção do cirílico.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O alfabeto foi criado por missionários e se baseia na ortografia portuguesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A escrita noturna permitia aos soldados ler mensagens sem luz.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Expulsão da Espanha em 1492 confirmada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A VOC fundou a colônia do Cabo em 1652.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criado para superar o difícil hanja e a alta taxa de analfabetismo.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A data homenageia o Movimento da Língua Bengali de 1952.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz noroeste da Índia; 'região do mundo' e 'Norte da Índia' são vagos e imprecisos.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Estudos da língua romani indicam que os ciganos vieram do noroeste de qual país?",
+        "resposta": "Índia",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Romani_people"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Lei Municipal 145/2002 de São Gabriel da Cachoeira confirma as línguas cooficiais.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte caiu numa página de desambiguação; fato bem conhecido, troca-se a URL.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O talian, falado por descendentes de imigrantes na serra gaúcha, vem principalmente do dialeto de qual região italiana?",
+        "resposta": "Vêneto",
+        "distratores": [
+          "Sicília",
+          "Toscana",
+          "Calábria"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Talian_dialect"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colonos galeses na Patagônia argentina desde 1865, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hokkaido é a principal ilha dos ainus.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rongorongo foi descoberto na Ilha de Páscoa.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Década de 1920 (1928) confirmada; século e década podem ficar abertos.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta é um ano, então precisa ser múltipla escolha com distratores.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano uma lei federal reconheceu a Língua Brasileira de Sinais como meio legal de comunicação e expressão?",
+        "resposta": "2002",
+        "distratores": [
+          "1996",
+          "2005",
+          "2010"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazilian_Sign_Language",
+          "https://pt.wikipedia.org/wiki/L%C3%ADngua_brasileira_de_sinais"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A proibição pelo Diretório de 1758 (século dezoito) é bem documentada; resposta em século pode ficar aberta.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta é um ano, então precisa ser múltipla escolha.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano o navio Kasato Maru chegou a Santos trazendo o primeiro grupo oficial de imigrantes japoneses?",
+        "resposta": "1908",
+        "distratores": [
+          "1898",
+          "1914",
+          "1924"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Kasato_Maru",
+          "https://en.wikipedia.org/wiki/Japanese_Brazilians"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sejong, o Grande, promoveu a criação do hangul, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sequoyah, analfabeto até criar o silabário; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ben-Yehuda, lexicógrafo nascido no Império Russo, é o reconhecido reavivador do hebraico.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zamenhof, oftalmologista, publicou o Unua Libro em 1887 em Varsóvia.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A terceira escrita da Pedra de Roseta é o grego antigo.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Romanche é a quarta língua nacional da Suíça; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Katakana serve sobretudo para palavras estrangeiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O alfabeto hebraico tem 22 letras.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O alfabeto russo moderno tem 33 letras; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espanhol e guarani são oficiais no Paraguai.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O basco é o único isolado linguístico conhecido da Europa, nos Pireneus.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pomerano tem status cooficial em Santa Maria de Jetibá e é moribundo na Europa.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Papua-Nova Guiné é o país mais diverso linguisticamente, com mais de 800 línguas.",
+      "reescrita": null
+    }
+  ]
+}

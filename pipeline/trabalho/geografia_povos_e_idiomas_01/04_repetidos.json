@@ -1,0 +1,216 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome do suaíli vem do plural de uma palavra árabe. O que significa essa palavra?",
+        "resposta": "Costa (litoral)"
+      },
+      "existentes": [
+        {
+          "id": "q04912",
+          "pergunta": "O nome suaíli, dado a uma língua e a uma cultura do leste africano, vem de uma palavra árabe. O que ela significa?",
+          "resposta": "Costas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A Libras e a língua de sinais americana descendem de uma mesma língua de sinais europeia. De que país ela é?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q04757",
+          "pergunta": "A Libras, língua dos surdos brasileiros, descende da língua de sinais de qual país, trazida por um professor surdo no tempo do Império?",
+          "resposta": "França"
+        },
+        {
+          "id": "q04763",
+          "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
+          "resposta": "2002"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Os astecas deixaram no nosso vocabulário palavras como chocolate, tomate e abacate. Que língua eles falavam?",
+        "resposta": "Náuatle"
+      },
+      "existentes": [
+        {
+          "id": "q00776",
+          "pergunta": "O que as palavras chocolate, tomate e abacate têm em comum na origem?",
+          "resposta": "Vêm do náuatle, língua asteca"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O alfabeto grego e o hebraico descendem do sistema de escrita de qual povo navegador do Mediterrâneo antigo?",
+        "resposta": "Fenícios"
+      },
+      "existentes": [
+        {
+          "id": "q03100",
+          "pergunta": "A palavra alfabeto vem das letras gregas alfa e beta, derivadas de letras fenícias que significavam boi e o quê?",
+          "resposta": "Casa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O braile foi inspirado numa escrita em relevo criada para que soldados pudessem fazer o quê?",
+        "resposta": "Ler mensagens no escuro"
+      },
+      "existentes": [
+        {
+          "id": "q04506",
+          "pergunta": "Em 1824, que jovem francês, cego desde a infância, criou um sistema de leitura e escrita com pontos em relevo?",
+          "resposta": "Louis Braille"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que município do Amazonas o nheengatu, o tucano e o baníua são línguas cooficiais ao lado do português?",
+        "resposta": "São Gabriel da Cachoeira"
+      },
+      "existentes": [
+        {
+          "id": "q00763",
+          "pergunta": "O nome nheengatu, idioma de origem tupi falado na Amazônia, significa o quê?",
+          "resposta": "Língua boa"
+        },
+        {
+          "id": "q00782",
+          "pergunta": "Em que município do Amazonas, perto da fronteira com a Colômbia, o nheengatu é língua cooficial ao lado do português?",
+          "resposta": "São Gabriel da Cachoeira"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O talian, falado por descendentes de imigrantes na serra gaúcha, vem principalmente do dialeto de qual região italiana?",
+        "resposta": "Vêneto"
+      },
+      "existentes": [
+        {
+          "id": "q08525",
+          "pergunta": "O talian, língua trazida por imigrantes do norte da Itália, é falado sobretudo na serra de qual estado brasileiro?",
+          "resposta": "Rio Grande do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que ano o navio Kasato Maru chegou a Santos trazendo o primeiro grupo oficial de imigrantes japoneses?",
+        "resposta": "1908"
+      },
+      "existentes": [
+        {
+          "id": "q11712",
+          "pergunta": "O navio Kasato Maru, que trouxe a Santos o primeiro grupo oficial de imigrantes japoneses, atracou no porto em que ano?",
+          "resposta": "1908"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Além do alemão, do francês e do italiano, qual é a quarta língua nacional da Suíça?",
+        "resposta": "Romanche"
+      },
+      "existentes": [
+        {
+          "id": "q00916",
+          "pergunta": "Qual é a cidade-sede do governo federal do país desta bandeira?",
+          "resposta": "Berna"
+        },
+        {
+          "id": "q04034",
+          "pergunta": "Alemão, francês e italiano estão entre as línguas nacionais da Suíça. Quantas línguas nacionais o país tem ao todo?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Além do espanhol, que língua indígena é oficial no Paraguai e falada pela maior parte da população?",
+        "resposta": "Guarani"
+      },
+      "existentes": [
+        {
+          "id": "q04029",
+          "pergunta": "Na América do Sul, qual característica geográfica o Paraguai compartilha apenas com a Bolívia?",
+          "resposta": "Não ter saída para o mar"
+        },
+        {
+          "id": "q07548",
+          "pergunta": "Ao lado do espanhol, qual língua indígena é oficial no Paraguai e falada pela maioria da população?",
+          "resposta": "Guarani"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o significado da palavra árabe de que vem suaíli (costas/litoral)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas têm como resposta a França como origem da Libras."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Quem sabe que as palavras vêm do náuatle responde a nova; mesmo fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o significado da letra beta (casa); a nova pergunta o povo origem do alfabeto. Fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Fato diferente: inspiração do braile vs. criador e ano."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo município como resposta, mesma pergunta sobre língua cooficial."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Região italiana de origem vs. estado brasileiro onde é falado."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ano de chegada do Kasato Maru."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pergunta a quarta língua, não o número de línguas."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta: guarani no Paraguai."
+    }
+  ]
+}
