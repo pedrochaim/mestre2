@@ -1,0 +1,435 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Russo é de longe a língua eslava mais falada; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Quíchua é a língua indígena mais falada das Américas; enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suaíli é a língua banta mais falada, com distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado confuso ('aprenderam como língua materna'); simplificar para falantes nativos.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Entre as línguas celtas ainda faladas, qual tem mais falantes nativos?",
+        "resposta": "Galês",
+        "distratores": [
+          "Irlandês",
+          "Bretão",
+          "Gaélico escocês"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Welsh_language",
+          "https://en.wikipedia.org/wiki/Celtic_languages"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Han é o maior grupo étnico do mundo, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O alfabeto latino é a escrita mais usada do mundo; pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho em português confirma a RDC como nação francófona mais populosa, à frente da França.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Polonês é eslavo; distratores incluem o lituano, armadilha báltica interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Árabe é a sexta língua oficial da ONU, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alfabeto de alfa a ômega, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três povos constituintes são confirmados pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Twa, hutus e tutsis; genocídio de 1994 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Dois grandes troncos' é impreciso: há outras grandes famílias (arawak, karib), então a premissa é falsa.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "V fazia o papel de U no latim; confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Base portuguesa com forte influência do espanhol, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Abjad: vogais curtas não são escritas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escrita vertical de cima para baixo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Alfabeto persa-árabe' não é a denominação usual; usar resposta mais clara.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Muito parecido com o hindi na fala, o urdu do Paquistão usa uma escrita bem diferente. Qual?",
+        "resposta": "Alfabeto árabe modificado",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Urdu_alphabet",
+          "https://en.wikipedia.org/wiki/Urdu"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Todos os substantivos terminam em O' é falso no plural (-oj); restringir ao singular.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "No esperanto, os substantivos no singular terminam todos com a mesma vogal. Qual é ela?",
+        "resposta": "O",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Esperanto_grammar",
+          "https://pt.wikipedia.org/wiki/Gramática_do_esperanto"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Alegação contestada (números, cores, recursão); resposta não é única nem atemporal.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Silbo gomero é linguagem assobiada, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Blocos silábicos do hangul, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais; encurtar.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Os hieróglifos egípcios podiam ser escritos em várias direções. O que mostrava ao leitor de que lado começar?",
+        "resposta": "Para onde as figuras olham",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Hieróglifos_egípcios"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Hieróglifo, do grego 'gravação sagrada'; etimologia bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mirandês reconhecido em 1999, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Islandês é a mais conservadora das línguas escandinavas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chocolate, tomate e abacate vêm do náuatle, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Frase gramaticalmente quebrada; reformular e ajustar ângulo para nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Que povo, o maior grupo étnico do Afeganistão, era historicamente chamado de afegão, nome depois estendido a todos os cidadãos do país?",
+        "resposta": "Pashtuns (pastós)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pashtuns",
+          "https://en.wikipedia.org/wiki/Afghan_(ethnonym)"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suaíli vem do árabe 'das costas', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cuneiforme vem de cunha, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais; encurtar.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome mandarim, dado pelos europeus à principal língua chinesa, vem da palavra que os portugueses usavam para quem?",
+        "resposta": "Funcionários imperiais chineses",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mandarin_(bureaucrat)",
+          "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mapu (terra) + che (gente), confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pidgin vem de 'business', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte dos anglos é página de desambiguação; trocar por fontes que sustentam o fato.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Inglaterra significa terra de qual povo germânico que se fixou na Grã-Bretanha depois dos romanos?",
+        "resposta": "Anglos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/England",
+          "https://pt.wikipedia.org/wiki/Inglaterra"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Berbere ligado a bárbaro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Libras e ASL descendem da língua de sinais francesa, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hindustâni é a base comum do hindi e do urdu, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pan vem do português pão; contato no século dezesseis confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cirílico derivado do grego uncial, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aimarás ao redor do Titicaca, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uigures em Xinjiang, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Guarani-kaiowá vivem principalmente em Mato Grosso do Sul; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nheengatu no Alto Rio Negro, Amazonas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colônia britânica, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Entonação italiana por imigração, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "13 letras, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "28 letras, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Primeiros imigrantes japoneses' é impreciso: outros chegaram antes; o Kasato Maru trouxe o primeiro grupo oficial.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que ano o navio Kasato Maru chegou a Santos com o primeiro grupo oficial de imigrantes japoneses do Brasil?",
+        "resposta": "1908",
+        "distratores": [
+          "1898",
+          "1914",
+          "1925"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Kasato_Maru",
+          "https://pt.wikipedia.org/wiki/Imigração_japonesa_no_Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lei 10.436 de 2002, confirmado.",
+      "reescrita": null
+    }
+  ]
+}

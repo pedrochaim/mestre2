@@ -73016,7 +73016,8 @@
       "Suaíli",
       "Swahili",
       "Kiswahili",
-      "Suahíli"
+      "Suahíli",
+      "Suaíle"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Swahili_language"
@@ -92829,7 +92830,9 @@
     "descricao": "Sistema de escrita formal do Egito Antigo, que combinava sinais de sons e de ideias",
     "variantes": [
       "Egyptian hieroglyphs",
-      "Hieróglifo"
+      "Hieróglifo",
+      "Hieróglifos",
+      "Escrita hieroglífica"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
@@ -127292,7 +127295,8 @@
     "variantes": [
       "RD Congo",
       "Congo-Kinshasa",
-      "Zaire"
+      "Zaire",
+      "RDC"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
@@ -151552,7 +151556,8 @@
       "en": 568
     },
     "variantes": [
-      "Kasatu Maru"
+      "Kasatu Maru",
+      "Kasado Maru"
     ]
   },
   {
@@ -165014,6 +165019,336 @@
     "fontes": [
       "https://pt.wikipedia.org/wiki/Língua_hindi",
       "https://en.wikipedia.org/wiki/Hindi"
+    ]
+  },
+  {
+    "id": "lingua_russa",
+    "nome": "Língua russa",
+    "descricao": "Língua eslava oriental, oficial na Rússia e em Belarus.",
+    "variantes": [
+      "Russo"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Língua_russa",
+      "https://en.wikipedia.org/wiki/Russian_language"
+    ]
+  },
+  {
+    "id": "lingua_galesa",
+    "nome": "Língua galesa",
+    "descricao": "Língua celta falada no País de Gales, cooficial com o inglês.",
+    "variantes": [
+      "Galês",
+      "Cymraeg"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Língua_galesa",
+      "https://en.wikipedia.org/wiki/Welsh_language"
+    ]
+  },
+  {
+    "id": "han",
+    "nome": "Han",
+    "descricao": "Grupo étnico majoritário da China, também presente em Taiwan e em comunidades pelo mundo.",
+    "variantes": [
+      "Chineses han",
+      "Etnia han",
+      "Han Chinese"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Han_(etnia)",
+      "https://en.wikipedia.org/wiki/Han_Chinese"
+    ]
+  },
+  {
+    "id": "alfabeto_latino",
+    "nome": "Alfabeto latino",
+    "descricao": "Sistema de escrita derivado do usado pelos antigos romanos, base da escrita do português e de centenas de outras línguas.",
+    "variantes": [
+      "Alfabeto romano"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Alfabeto_latino",
+      "https://en.wikipedia.org/wiki/Latin_alphabet"
+    ]
+  },
+  {
+    "id": "linguas_eslavas",
+    "nome": "Línguas eslavas",
+    "descricao": "Ramo das línguas indo-europeias que inclui russo, polonês, tcheco, ucraniano, sérvio, croata e búlgaro.",
+    "variantes": [
+      "Idiomas eslavos"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Línguas_eslavas",
+      "https://en.wikipedia.org/wiki/Slavic_languages"
+    ]
+  },
+  {
+    "id": "linguas_oficiais_das_nacoes_unidas",
+    "nome": "Línguas oficiais das Nações Unidas",
+    "descricao": "Os seis idiomas usados oficialmente nos documentos e reuniões da ONU.",
+    "variantes": [
+      "Línguas oficiais da ONU"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Official_languages_of_the_United_Nations"
+    ]
+  },
+  {
+    "id": "alfabeto_grego",
+    "nome": "Alfabeto grego",
+    "descricao": "Sistema de escrita da língua grega, usado desde o século oito antes de Cristo.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Alfabeto_grego",
+      "https://en.wikipedia.org/wiki/Greek_alphabet"
+    ]
+  },
+  {
+    "id": "bosnia_e_herzegovina",
+    "nome": "Bósnia e Herzegovina",
+    "descricao": "País dos Bálcãs, com capital em Sarajevo, surgido da antiga Iugoslávia.",
+    "variantes": [
+      "Bósnia"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bósnia_e_Herzegovina",
+      "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
+    ]
+  },
+  {
+    "id": "ruanda",
+    "nome": "Ruanda",
+    "descricao": "País sem litoral da África Central, conhecido como terra das mil colinas.",
+    "variantes": [
+      "Rwanda"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ruanda",
+      "https://en.wikipedia.org/wiki/Rwanda"
+    ]
+  },
+  {
+    "id": "alfabeto_arabe",
+    "nome": "Alfabeto árabe",
+    "descricao": "Sistema de escrita da língua árabe, também usado no persa e no urdu, escrito da direita para a esquerda.",
+    "variantes": [
+      "Escrita árabe"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Alfabeto_árabe",
+      "https://en.wikipedia.org/wiki/Arabic_alphabet"
+    ]
+  },
+  {
+    "id": "escrita_mongol_tradicional",
+    "nome": "Escrita mongol tradicional",
+    "descricao": "Sistema de escrita do mongol derivado do alfabeto uigur antigo, ainda usado na Mongólia Interior, na China.",
+    "variantes": [
+      "Alfabeto mongol",
+      "Escrita uigur-mongol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mongolian_script",
+      "https://pt.wikipedia.org/wiki/Alfabeto_mongol"
+    ]
+  },
+  {
+    "id": "urdu",
+    "nome": "Urdu",
+    "descricao": "Língua indo-ariana nacional do Paquistão, também falada por muçulmanos do norte da Índia.",
+    "variantes": [
+      "Língua urdu"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Língua_urdu",
+      "https://en.wikipedia.org/wiki/Urdu"
+    ]
+  },
+  {
+    "id": "silbo_gomero",
+    "nome": "Silbo gomero",
+    "descricao": "Linguagem assobiada que transmite o espanhol, usada na ilha de La Gomera, nas Canárias.",
+    "variantes": [
+      "Silbo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Silbo_Gomero",
+      "https://pt.wikipedia.org/wiki/Silbo_gomero"
+    ]
+  },
+  {
+    "id": "lingua_islandesa",
+    "nome": "Língua islandesa",
+    "descricao": "Língua germânica do ramo nórdico, oficial na Islândia.",
+    "variantes": [
+      "Islandês"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Língua_islandesa",
+      "https://en.wikipedia.org/wiki/Icelandic_language"
+    ]
+  },
+  {
+    "id": "pashtuns",
+    "nome": "Pashtuns",
+    "descricao": "Povo iraniano oriental que vive no Afeganistão e no noroeste do Paquistão e fala o pashto.",
+    "variantes": [
+      "Pachtuns",
+      "Pastós",
+      "Patanes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pashtuns",
+      "https://pt.wikipedia.org/wiki/Pashtuns"
+    ]
+  },
+  {
+    "id": "mandarim",
+    "nome": "Mandarim",
+    "descricao": "Grupo de dialetos chineses do norte e do sudoeste da China, base do chinês padrão.",
+    "variantes": [
+      "Chinês mandarim"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+      "https://pt.wikipedia.org/wiki/Língua_mandarim"
+    ]
+  },
+  {
+    "id": "mapuches",
+    "nome": "Mapuches",
+    "descricao": "Povo indígena do centro-sul do Chile e do sudoeste da Argentina.",
+    "variantes": [
+      "Mapuche",
+      "Araucanos"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Mapuches",
+      "https://en.wikipedia.org/wiki/Mapuche"
+    ]
+  },
+  {
+    "id": "pidgin",
+    "nome": "Pidgin",
+    "descricao": "Língua de contato simplificada que surge entre grupos sem idioma comum, geralmente para o comércio.",
+    "variantes": [
+      "Língua pidgin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pidgin",
+      "https://pt.wikipedia.org/wiki/Pidgin"
+    ]
+  },
+  {
+    "id": "inglaterra",
+    "nome": "Inglaterra",
+    "descricao": "Nação que ocupa a maior parte do sul da ilha da Grã-Bretanha, parte do Reino Unido.",
+    "variantes": [
+      "England"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Inglaterra",
+      "https://en.wikipedia.org/wiki/England"
+    ]
+  },
+  {
+    "id": "berberes",
+    "nome": "Berberes",
+    "descricao": "Povos nativos do norte da África, do Marrocos ao Egito ocidental, que se chamam de amazigues.",
+    "variantes": [
+      "Amazigues",
+      "Imazighen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Berbers",
+      "https://pt.wikipedia.org/wiki/Berberes"
+    ]
+  },
+  {
+    "id": "lingua_japonesa",
+    "nome": "Língua japonesa",
+    "descricao": "Língua do Japão, escrita com kanji, hiragana e katakana.",
+    "variantes": [
+      "Japonês"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Língua_japonesa",
+      "https://en.wikipedia.org/wiki/Japanese_language"
+    ]
+  },
+  {
+    "id": "aimaras",
+    "nome": "Aimarás",
+    "descricao": "Povo indígena do altiplano andino, na Bolívia, no Peru e no Chile.",
+    "variantes": [
+      "Aymaras"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aymara_people",
+      "https://pt.wikipedia.org/wiki/Aimarás"
+    ]
+  },
+  {
+    "id": "uigures",
+    "nome": "Uigures",
+    "descricao": "Povo de língua túrquica e maioria muçulmana da Ásia Central.",
+    "variantes": [
+      "Uygures",
+      "Uyghurs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Uyghurs",
+      "https://pt.wikipedia.org/wiki/Uigures"
+    ]
+  },
+  {
+    "id": "guarani_kaiowa",
+    "nome": "Guarani-kaiowá",
+    "descricao": "Povo indígena guarani do sul de Mato Grosso do Sul e do Paraguai, conhecido pela luta pela demarcação de terras.",
+    "variantes": [
+      "Kaiowá",
+      "Caiouás",
+      "Pai-Tavyterã"
+    ],
+    "fontes": [
+      "https://pib.socioambiental.org/pt/Povo:Guarani_Kaiowá",
+      "https://pt.wikipedia.org/wiki/Caiouás"
+    ]
+  },
+  {
+    "id": "belize",
+    "nome": "Belize",
+    "descricao": "País da América Central, no litoral do Caribe, vizinho do México e da Guatemala.",
+    "variantes": [
+      "Honduras Britânicas"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Belize",
+      "https://en.wikipedia.org/wiki/Belize"
+    ]
+  },
+  {
+    "id": "espanhol_rioplatense",
+    "nome": "Espanhol rioplatense",
+    "descricao": "Variedade do espanhol falada em torno do rio da Prata, em Buenos Aires e em Montevidéu.",
+    "variantes": [
+      "Castelhano rioplatense"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rioplatense_Spanish",
+      "https://pt.wikipedia.org/wiki/Espanhol_rioplatense"
+    ]
+  },
+  {
+    "id": "alfabeto_havaiano",
+    "nome": "Alfabeto havaiano",
+    "descricao": "Alfabeto latino adaptado por missionários no século dezenove para escrever a língua havaiana.",
+    "variantes": [
+      "Alfabeto da língua havaiana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hawaiian_alphabet"
     ]
   }
 ]

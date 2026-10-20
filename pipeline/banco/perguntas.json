@@ -251337,5 +251337,568 @@
       "https://en.wikipedia.org/wiki/Hindi",
       "https://en.wikipedia.org/wiki/Devanagari"
     ]
+  },
+  {
+    "id": "q13538",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_russa",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre as línguas eslavas, como o tcheco, o búlgaro e o sérvio, qual tem o maior número de falantes?",
+    "resposta": "Russo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Slavic_languages",
+      "https://en.wikipedia.org/wiki/Russian_language"
+    ]
+  },
+  {
+    "id": "q13539",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "quichua",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Herdeira do idioma do Império Inca, qual é a língua indígena com mais falantes nas Américas?",
+    "resposta": "Quíchua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quechuan_languages"
+    ]
+  },
+  {
+    "id": "q13540",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_suaili",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Oficial no Quênia e na Tanzânia, qual é a língua banta com mais falantes, somando os que a aprendem como segunda língua?",
+    "resposta": "Suaíli",
+    "distratores": [
+      "Zulu",
+      "Xhosa",
+      "Quimbundo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Swahili_language",
+      "https://en.wikipedia.org/wiki/Bantu_languages"
+    ]
+  },
+  {
+    "id": "q13541",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_galesa",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre as línguas celtas ainda faladas, qual tem mais falantes nativos?",
+    "resposta": "Galês",
+    "distratores": [
+      "Irlandês",
+      "Bretão",
+      "Gaélico escocês"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Welsh_language",
+      "https://en.wikipedia.org/wiki/Celtic_languages"
+    ]
+  },
+  {
+    "id": "q13542",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "han",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual grupo étnico, majoritário na China, é o mais numeroso do mundo?",
+    "resposta": "Han",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Han_Chinese"
+    ]
+  },
+  {
+    "id": "q13543",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_latino",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Usado no português, no inglês, no turco e no vietnamita, qual é o sistema de escrita mais usado do mundo?",
+    "resposta": "Alfabeto latino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Latin_alphabet",
+      "https://pt.wikipedia.org/wiki/Alfabeto_latino"
+    ]
+  },
+  {
+    "id": "q13544",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "republica_democratica_do_congo",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual é o país mais populoso do mundo que tem o francês como língua oficial?",
+    "resposta": "República Democrática do Congo",
+    "distratores": [
+      "França",
+      "Canadá",
+      "Camarões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+      "https://en.wikipedia.org/wiki/French_language"
+    ]
+  },
+  {
+    "id": "q13545",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "linguas_eslavas",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Croata, eslovaco e ucraniano são línguas eslavas. Qual destas também pertence a esse grupo?",
+    "resposta": "Polonês",
+    "distratores": [
+      "Húngaro",
+      "Lituano",
+      "Romeno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Slavic_languages"
+    ]
+  },
+  {
+    "id": "q13546",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "linguas_oficiais_das_nacoes_unidas",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Inglês, francês, espanhol, russo e chinês são línguas oficiais da ONU. Qual é a sexta?",
+    "resposta": "Árabe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Official_languages_of_the_United_Nations"
+    ]
+  },
+  {
+    "id": "q13547",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_grego",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No alfabeto grego, que começa com alfa, qual é a última letra?",
+    "resposta": "Ômega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greek_alphabet",
+      "https://pt.wikipedia.org/wiki/Alfabeto_grego"
+    ]
+  },
+  {
+    "id": "q13548",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "bosnia_e_herzegovina",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A Bósnia e Herzegovina reconhece três povos constituintes: os bósnios, os croatas e qual outro?",
+    "resposta": "Sérvios",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
+    ]
+  },
+  {
+    "id": "q13549",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "ruanda",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Ruanda tem três grupos étnicos tradicionais: os twa, os hutus e qual outro, principal vítima do genocídio de 1994?",
+    "resposta": "Tutsis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tutsi",
+      "https://en.wikipedia.org/wiki/Rwandan_genocide"
+    ]
+  },
+  {
+    "id": "q13550",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_latino",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No alfabeto dos antigos romanos não havia J, U nem W. Que letra fazia o papel do U?",
+    "resposta": "V",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Latin_alphabet",
+      "https://en.wikipedia.org/wiki/U"
+    ]
+  },
+  {
+    "id": "q13551",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "papiamento",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O papiamento, falado em Aruba e em Curaçao, tem o vocabulário vindo sobretudo de quais duas línguas ibéricas?",
+    "resposta": "Português e espanhol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Papiamento"
+    ]
+  },
+  {
+    "id": "q13552",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_arabe",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na escrita árabe do dia a dia, que tipo de som normalmente fica sem letra própria, apenas subentendido pelo leitor?",
+    "resposta": "As vogais curtas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arabic_alphabet",
+      "https://en.wikipedia.org/wiki/Abjad"
+    ]
+  },
+  {
+    "id": "q13553",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "escrita_mongol_tradicional",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A escrita tradicional mongol, ainda usada na Mongólia Interior chinesa, é escrita em que direção?",
+    "resposta": "De cima para baixo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mongolian_script"
+    ]
+  },
+  {
+    "id": "q13554",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "urdu",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Muito parecido com o hindi na fala, o urdu do Paquistão usa uma escrita bem diferente. Qual?",
+    "resposta": "Alfabeto árabe modificado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Urdu_alphabet",
+      "https://en.wikipedia.org/wiki/Urdu"
+    ]
+  },
+  {
+    "id": "q13555",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "esperanto",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No esperanto, os substantivos no singular terminam todos com a mesma vogal. Qual é ela?",
+    "resposta": "O",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Esperanto_grammar",
+      "https://pt.wikipedia.org/wiki/Gramática_do_esperanto"
+    ]
+  },
+  {
+    "id": "q13556",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "silbo_gomero",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na ilha de La Gomera, nas Canárias, os moradores aprenderam a transmitir o espanhol a quilômetros de distância usando o quê?",
+    "resposta": "Assobios",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silbo_Gomero"
+    ]
+  },
+  {
+    "id": "q13557",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "hangul",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na escrita coreana, as letras não ficam soltas em fila, mas agrupadas em pequenos blocos. Cada bloco corresponde a quê?",
+    "resposta": "Uma sílaba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hangul"
+    ]
+  },
+  {
+    "id": "q13558",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "hieroglifos_egipcios",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Os hieróglifos egípcios podiam ser escritos em várias direções. O que mostrava ao leitor de que lado começar?",
+    "resposta": "Para onde as figuras olham",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Hieróglifos_egípcios"
+    ]
+  },
+  {
+    "id": "q13559",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_islandesa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que língua nórdica mudou tão pouco desde a Idade Média que seus falantes leem as sagas antigas com relativa facilidade?",
+    "resposta": "Islandês",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Icelandic_language"
+    ]
+  },
+  {
+    "id": "q13560",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "pashtuns",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que povo, o maior grupo étnico do Afeganistão, era historicamente chamado de afegão, nome depois estendido a todos os cidadãos do país?",
+    "resposta": "Pashtuns (pastós)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pashtuns",
+      "https://en.wikipedia.org/wiki/Afghan_(ethnonym)"
+    ]
+  },
+  {
+    "id": "q13561",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "mandarim",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome mandarim, dado pelos europeus à principal língua chinesa, vem da palavra que os portugueses usavam para quem?",
+    "resposta": "Funcionários imperiais chineses",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mandarin_(bureaucrat)",
+      "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+    ]
+  },
+  {
+    "id": "q13562",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "mapuches",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua do povo indígena mapuche, do Chile e da Argentina, o que significa o nome mapuche?",
+    "resposta": "Gente da terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mapuche"
+    ]
+  },
+  {
+    "id": "q13563",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "pidgin",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra pidgin, usada para línguas de contato simplificadas, viria da pronúncia chinesa de qual palavra inglesa?",
+    "resposta": "Business",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pidgin"
+    ]
+  },
+  {
+    "id": "q13564",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "inglaterra",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Inglaterra significa terra de qual povo germânico que se fixou na Grã-Bretanha depois dos romanos?",
+    "resposta": "Anglos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/England",
+      "https://pt.wikipedia.org/wiki/Inglaterra"
+    ]
+  },
+  {
+    "id": "q13565",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "berberes",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O nome dos berberes, povo do norte da África, tem a mesma origem de qual palavra que os gregos usavam para os estrangeiros?",
+    "resposta": "Bárbaro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Berbers"
+    ]
+  },
+  {
+    "id": "q13566",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "urdu",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O hindi e o urdu são, na fala do dia a dia, praticamente a mesma língua. Que nome recebe essa língua comum?",
+    "resposta": "Hindustâni",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hindustani_language"
+    ]
+  },
+  {
+    "id": "q13567",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_japonesa",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "A palavra japonesa pan, que significa pão, foi levada ao Japão no século dezesseis por falantes de qual língua?",
+    "resposta": "Português",
+    "distratores": [
+      "Holandês",
+      "Inglês",
+      "Francês"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Japanese_words_of_Portuguese_origin"
+    ]
+  },
+  {
+    "id": "q13568",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_cirilico",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O alfabeto cirílico, usado no russo e no búlgaro, foi baseado sobretudo nas letras de qual outro alfabeto?",
+    "resposta": "Grego",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cyrillic_script"
+    ]
+  },
+  {
+    "id": "q13569",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "aimaras",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os aimarás, povo indígena do altiplano andino, vivem em torno de qual lago, na fronteira entre Bolívia e Peru?",
+    "resposta": "Lago Titicaca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aymara_people"
+    ]
+  },
+  {
+    "id": "q13570",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "uigures",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os uigures, povo de língua túrquica e maioria muçulmana, vivem principalmente em qual região do oeste da China?",
+    "resposta": "Xinjiang",
+    "distratores": [
+      "Tibete",
+      "Mongólia Interior",
+      "Manchúria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uyghurs"
+    ]
+  },
+  {
+    "id": "q13571",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "guarani_kaiowa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os guarani-kaiowá, povo indígena conhecido pela luta por terras, vivem principalmente em qual estado brasileiro?",
+    "resposta": "Mato Grosso do Sul",
+    "fonte": [
+      "https://pib.socioambiental.org/pt/Povo:Guarani_Kaiowá"
+    ]
+  },
+  {
+    "id": "q13572",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "nheengatu",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O nheengatu, língua de base tupi espalhada na Amazônia colonial, ainda é falado às margens do rio Negro, em qual estado brasileiro?",
+    "resposta": "Amazonas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nheengatu_language",
+      "https://pt.wikipedia.org/wiki/Língua_nheengatu"
+    ]
+  },
+  {
+    "id": "q13573",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "belize",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Cercado de vizinhos que falam espanhol, Belize é o país da América Central com o inglês como língua oficial. Por quê?",
+    "resposta": "Foi colônia britânica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Belize"
+    ]
+  },
+  {
+    "id": "q13574",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "espanhol_rioplatense",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O espanhol falado em Buenos Aires tem uma entonação que lembra a do italiano. A que isso se atribui?",
+    "resposta": "À imigração italiana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rioplatense_Spanish"
+    ]
+  },
+  {
+    "id": "q13575",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_havaiano",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Com só cinco vogais e poucas consoantes, o alfabeto havaiano é um dos menores do mundo. Quantas letras ele tem?",
+    "resposta": "13",
+    "distratores": [
+      "9",
+      "18",
+      "21"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hawaiian_alphabet"
+    ]
+  },
+  {
+    "id": "q13576",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_arabe",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantas letras básicas tem o alfabeto árabe?",
+    "resposta": "28",
+    "distratores": [
+      "22",
+      "26",
+      "33"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arabic_alphabet",
+      "https://pt.wikipedia.org/wiki/Alfabeto_árabe"
+    ]
   }
 ]

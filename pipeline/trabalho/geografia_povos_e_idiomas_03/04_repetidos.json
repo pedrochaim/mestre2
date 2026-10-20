@@ -1,0 +1,327 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre as línguas que descendem do latim, como o português, o francês e o italiano, qual tem mais falantes nativos?",
+        "resposta": "Espanhol"
+      },
+      "existentes": [
+        {
+          "id": "q08497",
+          "pergunta": "Entre as línguas que nasceram do latim, qual tem mais falantes nativos no mundo?",
+          "resposta": "Espanhol"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Herdeira do idioma do Império Inca, qual é a língua indígena com mais falantes nas Américas?",
+        "resposta": "Quíchua"
+      },
+      "existentes": [
+        {
+          "id": "q13104",
+          "pergunta": "O que as palavras lhama, puma e condor têm em comum na sua origem?",
+          "resposta": "Vêm do quíchua"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Oficial no Quênia e na Tanzânia, qual é a língua banta com mais falantes, somando os que a aprendem como segunda língua?",
+        "resposta": "Suaíli"
+      },
+      "existentes": [
+        {
+          "id": "q04912",
+          "pergunta": "O nome suaíli, dado a uma língua e a uma cultura do leste africano, vem de uma palavra árabe. O que ela significa?",
+          "resposta": "Costas"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é o país mais populoso do mundo que tem o francês como língua oficial?",
+        "resposta": "República Democrática do Congo"
+      },
+      "existentes": [
+        {
+          "id": "q09087",
+          "pergunta": "Qual é a capital do país destacado neste mapa?",
+          "resposta": "Kinshasa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O papiamento, falado em Aruba e em Curaçao, tem o vocabulário vindo sobretudo de quais duas línguas ibéricas?",
+        "resposta": "Português e espanhol"
+      },
+      "existentes": [
+        {
+          "id": "q00780",
+          "pergunta": "O papiamento, língua crioula com muito vocabulário de origem portuguesa e espanhola, é falado em quais ilhas do Caribe?",
+          "resposta": "Aruba, Curaçao e Bonaire"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No esperanto, os substantivos no singular terminam todos com a mesma vogal. Qual é ela?",
+        "resposta": "O"
+      },
+      "existentes": [
+        {
+          "id": "q13127",
+          "pergunta": "Em 1887, que oftalmologista publicou em Varsóvia o primeiro livro do esperanto?",
+          "resposta": "Ludwik Zamenhof"
+        },
+        {
+          "id": "q13520",
+          "pergunta": "O nome esperanto vem do pseudônimo que o criador da língua usou no primeiro livro. O que essa palavra significa?",
+          "resposta": "Aquele que tem esperança"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na escrita coreana, as letras não ficam soltas em fila, mas agrupadas em pequenos blocos. Cada bloco corresponde a quê?",
+        "resposta": "Uma sílaba"
+      },
+      "existentes": [
+        {
+          "id": "q13115",
+          "pergunta": "Com que objetivo foi criado o alfabeto coreano hangul, no século quinze?",
+          "resposta": "Facilitar a alfabetização do povo"
+        },
+        {
+          "id": "q13124",
+          "pergunta": "Que rei da dinastia Joseon promoveu a criação do alfabeto coreano?",
+          "resposta": "Sejong, o Grande"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Os hieróglifos egípcios podiam ser escritos em várias direções. O que mostrava ao leitor de que lado começar?",
+        "resposta": "Para onde as figuras olham"
+      },
+      "existentes": [
+        {
+          "id": "q06370",
+          "pergunta": "Em 1822, depois de estudar a Pedra de Roseta e outros textos, que estudioso francês anunciou ter decifrado os hieróglifos egípcios?",
+          "resposta": "Jean-François Champollion"
+        },
+        {
+          "id": "q06371",
+          "pergunta": "A palavra hieróglifo vem do grego e descreve a escrita gravada nas paredes dos templos egípcios. O que ela significa literalmente?",
+          "resposta": "Entalhes sagrados"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que língua, falada no nordeste de Portugal, foi reconhecida oficialmente em 1999 ao lado do português?",
+        "resposta": "Mirandês"
+      },
+      "existentes": [
+        {
+          "id": "q04786",
+          "pergunta": "Que língua, falada perto da fronteira com a Espanha, foi reconhecida oficialmente em Portugal em 1999?",
+          "resposta": "Mirandês"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Chocolate, tomate e abacate são palavras que vieram de qual língua dos astecas, ainda falada no México?",
+        "resposta": "Náuatle"
+      },
+      "existentes": [
+        {
+          "id": "q00776",
+          "pergunta": "O que as palavras chocolate, tomate e abacate têm em comum na origem?",
+          "resposta": "Vêm do náuatle, língua asteca"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O nome da língua suaíli, da África Oriental, vem de uma palavra árabe. O que ela significa?",
+        "resposta": "Costas"
+      },
+      "existentes": [
+        {
+          "id": "q04912",
+          "pergunta": "O nome suaíli, dado a uma língua e a uma cultura do leste africano, vem de uma palavra árabe. O que ela significa?",
+          "resposta": "Costas"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "A Libras, língua de sinais do Brasil, e a língua de sinais americana descendem da língua de sinais de qual país europeu?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q04757",
+          "pergunta": "A Libras, língua dos surdos brasileiros, descende da língua de sinais de qual país, trazida por um professor surdo no tempo do Império?",
+          "resposta": "França"
+        },
+        {
+          "id": "q04763",
+          "pergunta": "Em que ano uma lei federal reconheceu a Libras como meio legal de comunicação e expressão no Brasil?",
+          "resposta": "2002"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O alfabeto cirílico, usado no russo e no búlgaro, foi baseado sobretudo nas letras de qual outro alfabeto?",
+        "resposta": "Grego"
+      },
+      "existentes": [
+        {
+          "id": "q13094",
+          "pergunta": "O alfabeto usado no russo e no búlgaro tem o nome de qual missionário bizantino do século nove?",
+          "resposta": "São Cirilo"
+        },
+        {
+          "id": "q13509",
+          "pergunta": "Hoje associado ao russo, o alfabeto cirílico foi criado no século nove no território de qual atual país europeu?",
+          "resposta": "Bulgária"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O nheengatu, língua de base tupi espalhada na Amazônia colonial, ainda é falado às margens do rio Negro, em qual estado brasileiro?",
+        "resposta": "Amazonas"
+      },
+      "existentes": [
+        {
+          "id": "q00763",
+          "pergunta": "O nome nheengatu, idioma de origem tupi falado na Amazônia, significa o quê?",
+          "resposta": "Língua boa"
+        },
+        {
+          "id": "q00782",
+          "pergunta": "Em que município do Amazonas, perto da fronteira com a Colômbia, o nheengatu é língua cooficial ao lado do português?",
+          "resposta": "São Gabriel da Cachoeira"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em que ano o navio Kasato Maru chegou a Santos com o primeiro grupo oficial de imigrantes japoneses do Brasil?",
+        "resposta": "1908"
+      },
+      "existentes": [
+        {
+          "id": "q11712",
+          "pergunta": "O navio Kasato Maru, que trouxe a Santos o primeiro grupo oficial de imigrantes japoneses, atracou no porto em que ano?",
+          "resposta": "1908"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: língua românica com mais falantes nativos, espanhol.",
+      "id_existente": "q08497"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Língua indígena mais falada nas Américas é fato diferente da origem de palavras."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Língua banta com mais falantes difere da etimologia do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País francófono mais populoso difere da capital no mapa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem do vocabulário versus onde é falado; fatos distintos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Terminação dos substantivos é fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Blocos silábicos é fato distinto de objetivo e rei."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Direção de leitura é fato distinto."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: mirandês reconhecido em 1999.",
+      "id_existente": "q04786"
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: palavras vêm do náuatle.",
+      "id_existente": "q00776"
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre significado de suaíli.",
+      "id_existente": "q04912"
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Libras descende da língua de sinais francesa.",
+      "id_existente": "q04757"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Alfabeto base é fato diferente do nome e local de criação."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Estado Amazonas é fato distinto; município cooficial é outro, e a resposta não é dada pela existente."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: ano de chegada do Kasato Maru, 1908.",
+      "id_existente": "q11712"
+    }
+  ]
+}
