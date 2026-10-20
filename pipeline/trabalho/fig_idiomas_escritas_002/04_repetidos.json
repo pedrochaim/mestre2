@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este chapéu de abas largas é típico de que país?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q01156",
+          "pergunta": "Este chapéu de aba larga e copa alta é típico de qual país?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que escrita da Idade do Bronze aparece nesta tábua de argila?",
+        "resposta": "Linear B"
+      },
+      "existentes": [
+        {
+          "id": "q03106",
+          "pergunta": "Em 1952, quem decifrou a escrita Linear B, de Creta e Micenas, mesmo sendo arquiteto e não linguista profissional?",
+          "resposta": "Michael Ventris"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam de que país é típico o chapéu (México); mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nova pede o nome da escrita (Linear B); a existente pede quem a decifrou (Ventris). Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Caiaque de corredeira nítido; marca no casco não entrega a origem; rosto não aparece.",
+      "pergunta": "Esta embarcação leve, movida a remo duplo, nasceu entre que povo do Ártico?",
+      "resposta": "Inuítes",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Caiaque",
+        "descricao": "Pequena embarcação estreita, propulsionada por remo de pá dupla, de origem inuíte.",
+        "variantes": [
+          "Kayak",
+          "Qajaq"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano, proibido pelas regras."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Caractere khmer isolado, sem texto legível por leigos; difícil, por isso múltipla escolha.",
+      "pergunta": "Este caractere pertence à escrita oficial de que país?",
+      "resposta": "Camboja",
+      "tipo": "multipla",
+      "distratores": [
+        "Tailândia",
+        "Laos",
+        "Mianmar"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Escrita khmer",
+        "descricao": "Abugida usada para escrever a língua khmer, oficial do Camboja.",
+        "variantes": [
+          "Alfabeto quemer",
+          "Khmer script"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sombrero claro, objeto isolado, sem texto.",
+      "pergunta": "Este chapéu de abas largas é típico de que país?",
+      "resposta": "México",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Sombrero",
+        "descricao": "Chapéu mexicano de abas largas e copa alta, usado para proteger do sol.",
+        "variantes": [
+          "Sombrero de charro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Gravura antiga de um homem, com chapéu, botas e chicote; a peça poderia ser confundida com vestes de gaucho ou huaso, e a resposta de lugar não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A rocha traz a palavra KIDAL pintada, texto visível; letras latinas e sinais pouco claros."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Duas iurtas claras na estepe, reconhecíveis.",
+      "pergunta": "Esta habitação tradicional de povos nômades é típica de que região do mundo?",
+      "resposta": "Ásia Central",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Iurta",
+        "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+        "variantes": [
+          "Yurt",
+          "Ger"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tecido de faixas e blocos coloridos, típico de kente; múltipla com distratores sem têxteis parecidos.",
+      "pergunta": "De que país da África vem este tecido tradicional tecido à mão em tiras?",
+      "resposta": "Gana",
+      "tipo": "multipla",
+      "distratores": [
+        "Mali",
+        "Costa do Marfim",
+        "Quênia"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Kente",
+        "descricao": "Tecido ganês feito de tiras tecidas à mão em seda e algodão, ligado aos povos Axânti e Ewe.",
+        "variantes": [
+          "Pano kente",
+          "Kente cloth"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Amostra clara do alfabeto tibetano, sem tradução nem legenda latina.",
+      "pergunta": "Que sistema de escrita é este?",
+      "resposta": "Escrita tibetana",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Escrita tibetana",
+        "descricao": "Abugida da família brâmica usada para escrever o tibetano e outras línguas do Himalaia.",
+        "variantes": [
+          "Alfabeto tibetano",
+          "Tibetan script"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dois postes totêmicos bem visíveis; texto minúsculo no fundo não entrega a resposta.",
+      "pergunta": "Estes postes esculpidos em madeira são tradição de povos de que região da América do Norte?",
+      "resposta": "Costa Noroeste do Pacífico",
+      "tipo": "multipla",
+      "distratores": [
+        "Grandes Planícies",
+        "Sudoeste americano",
+        "Ártico canadense"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Poste totêmico",
+        "descricao": "Escultura monumental em madeira de cedro dos povos indígenas da Costa Noroeste do Pacífico.",
+        "variantes": [
+          "Totem",
+          "Totem pole"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Caractere hiragana ほ claro e legível.",
+      "pergunta": "Esta escrita japonesa surgiu da simplificação cursiva de que caracteres?",
+      "resposta": "Kanji (caracteres chineses)",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Hiragana",
+        "descricao": "Silabário japonês fonético, aqui representado pelo caractere ho, derivado de formas cursivas de kanji.",
+        "variantes": [
+          "Hiragana ほ"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tábua de argila de Pilos em Linear B, bem visível e sem legenda.",
+      "pergunta": "Que escrita da Idade do Bronze aparece nesta tábua de argila?",
+      "resposta": "Linear B",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Linear B",
+        "descricao": "Escrita silábica micênica usada para o grego antigo, decifrada em 1952.",
+        "variantes": [
+          "Linear B micênica"
+        ]
+      }
+    }
+  ]
+}

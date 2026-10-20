@@ -1,0 +1,494 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caiaque",
+        "descricao": "Pequena embarcação estreita, propulsionada por remo de pá dupla, de origem inuíte.",
+        "variantes": [
+          "Kayak",
+          "Qajaq"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        },
+        {
+          "id": "templo_de_karnak",
+          "nome": "Templo de Karnak",
+          "descricao": "Vasto complexo de templos dedicado sobretudo ao deus Amon, na antiga Tebas, atual Luxor",
+          "variantes": [
+            "Karnak",
+            "Ipet-isut"
+          ]
+        },
+        {
+          "id": "caiapos",
+          "nome": "Caiapós",
+          "descricao": "Povo indígena de língua jê que vive no Pará e em Mato Grosso, ao longo do rio Xingu.",
+          "variantes": [
+            "Kayapó",
+            "Mebêngôkre",
+            "Caiapó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Escrita khmer",
+        "descricao": "Abugida usada para escrever a língua khmer, oficial do Camboja.",
+        "variantes": [
+          "Alfabeto quemer",
+          "Khmer script"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alfabeto_turco",
+          "nome": "Alfabeto turco",
+          "descricao": "Alfabeto latino adotado pela Turquia em 1928, nas reformas de Atatürk, no lugar da escrita árabe.",
+          "variantes": [
+            "Turkish alphabet",
+            "Reforma do alfabeto turco"
+          ]
+        },
+        {
+          "id": "silabario_cherokee",
+          "nome": "Silabário cherokee",
+          "descricao": "Sistema de escrita da língua cherokee, criado no início do século dezenove.",
+          "variantes": [
+            "Cherokee syllabary",
+            "Escrita cherokee"
+          ]
+        },
+        {
+          "id": "escrita_ge_ez",
+          "nome": "Escrita ge'ez",
+          "descricao": "Abugida da Etiópia e da Eritreia, usada na liturgia e para escrever amárico e tigrínia.",
+          "variantes": [
+            "Ge'ez",
+            "Alfabeto etíope",
+            "Fidäl"
+          ]
+        },
+        {
+          "id": "escrita_maia",
+          "nome": "Escrita maia",
+          "descricao": "Sistema de escrita hieroglífica usado pelos maias, com sinais que representam palavras e sílabas.",
+          "variantes": [
+            "Hieróglifos maias",
+            "Maya script"
+          ]
+        },
+        {
+          "id": "alfabeto_armenio",
+          "nome": "Alfabeto armênio",
+          "descricao": "Alfabeto criado por volta do ano 405 por Mesrop Mashtots para escrever o armênio.",
+          "variantes": [
+            "Escrita armênia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sombrero",
+        "descricao": "Chapéu mexicano de abas largas e copa alta, usado para proteger do sol.",
+        "variantes": [
+          "Sombrero de charro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "herpes_zoster",
+          "nome": "Herpes-zóster",
+          "descricao": "Doença de pele dolorosa, popularmente chamada de cobreiro, causada pela reativação do vírus da catapora.",
+          "variantes": [
+            "Cobreiro",
+            "Zona",
+            "Shingles"
+          ]
+        },
+        {
+          "id": "lombre",
+          "nome": "Lombre",
+          "descricao": "Pokémon Água e Planta da terceira geração, evolução de Lotad, número 271 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "homero",
+          "nome": "Homero",
+          "descricao": "Poeta épico grego tradicionalmente tido como autor da Ilíada e da Odisseia.",
+          "variantes": [
+            "Homer"
+          ]
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Iurta",
+        "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+        "variantes": [
+          "Yurt",
+          "Ger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "hurt",
+          "nome": "Hurt",
+          "descricao": "Canção de Trent Reznor lançada em 1994 e regravada por Johnny Cash em 2002",
+          "variantes": []
+        },
+        {
+          "id": "eiger",
+          "nome": "Eiger",
+          "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+          "variantes": [
+            "Monte Eiger"
+          ]
+        },
+        {
+          "id": "lager",
+          "nome": "Lager",
+          "descricao": "Família de cervejas de baixa fermentação, feitas com leveduras que trabalham a frio no fundo do tanque.",
+          "variantes": [
+            "Cerveja lager"
+          ]
+        },
+        {
+          "id": "masahiko_kimura",
+          "nome": "Masahiko Kimura",
+          "descricao": "Judoca japonês dos anos 1950 que dá nome à chave de ombro conhecida como kimura.",
+          "variantes": [
+            "Kimura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kente",
+        "descricao": "Tecido ganês feito de tiras tecidas à mão em seda e algodão, ligado aos povos Axânti e Ewe.",
+        "variantes": [
+          "Pano kente",
+          "Kente cloth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "candace",
+          "nome": "Candace",
+          "descricao": "Título das rainhas e rainhas-mães do antigo reino de Cuxe, na Núbia.",
+          "variantes": [
+            "Kandake",
+            "Kentake"
+          ]
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "dente_molar",
+          "nome": "Dente molar",
+          "descricao": "Dente posterior humano com coroa larga de várias cúspides e duas ou mais raízes, usado para triturar alimentos.",
+          "variantes": [
+            "Dente",
+            "Molar"
+          ]
+        },
+        {
+          "id": "entei",
+          "nome": "Entei",
+          "descricao": "Pokémon do tipo Fogo, número 244 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "dente_humano",
+          "nome": "Dente humano",
+          "descricao": "Estrutura dura da boca humana, formada por esmalte, dentina e polpa, usada para cortar e mastigar.",
+          "variantes": [
+            "Dente"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Escrita tibetana",
+        "descricao": "Abugida da família brâmica usada para escrever o tibetano e outras línguas do Himalaia.",
+        "variantes": [
+          "Alfabeto tibetano",
+          "Tibetan script"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alfabeto_latino",
+          "nome": "Alfabeto latino",
+          "descricao": "Sistema de escrita derivado do usado pelos antigos romanos, base da escrita do português e de centenas de outras línguas.",
+          "variantes": [
+            "Alfabeto romano"
+          ]
+        },
+        {
+          "id": "hangul",
+          "nome": "Hangul",
+          "descricao": "Alfabeto da língua coreana, criado no século quinze durante a dinastia Joseon.",
+          "variantes": [
+            "Hangeul",
+            "Alfabeto coreano",
+            "Chosŏn'gŭl"
+          ]
+        },
+        {
+          "id": "planalto_tibetano",
+          "nome": "Planalto Tibetano",
+          "descricao": "Vasto planalto de grande altitude na Ásia Central, ao norte do Himalaia, que ocupa o Tibete e regiões vizinhas.",
+          "variantes": [
+            "Planalto do Tibete",
+            "Tibetan Plateau"
+          ]
+        },
+        {
+          "id": "alfabeto_havaiano",
+          "nome": "Alfabeto havaiano",
+          "descricao": "Alfabeto latino adaptado por missionários no século dezenove para escrever a língua havaiana.",
+          "variantes": [
+            "Alfabeto da língua havaiana"
+          ]
+        },
+        {
+          "id": "escrita_ge_ez",
+          "nome": "Escrita ge'ez",
+          "descricao": "Abugida da Etiópia e da Eritreia, usada na liturgia e para escrever amárico e tigrínia.",
+          "variantes": [
+            "Ge'ez",
+            "Alfabeto etíope",
+            "Fidäl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Poste totêmico",
+        "descricao": "Escultura monumental em madeira de cedro dos povos indígenas da Costa Noroeste do Pacífico.",
+        "variantes": [
+          "Totem",
+          "Totem pole"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pokemon_totem",
+          "nome": "Pokémon Totem",
+          "descricao": "Pokémon maior que o normal, envolto numa aura, enfrentado no fim das provas do Desafio das Ilhas em Pokémon Sun e Moon.",
+          "variantes": [
+            "Totem Pokémon",
+            "Pokémon Dominante"
+          ]
+        },
+        {
+          "id": "thoth",
+          "nome": "Thoth",
+          "descricao": "Deus egípcio da escrita, da sabedoria e da lua, representado com cabeça de íbis",
+          "variantes": [
+            "Tot",
+            "Djehuty"
+          ]
+        },
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        },
+        {
+          "id": "tympole",
+          "nome": "Tympole",
+          "descricao": "Pokémon do tipo Água, número 535 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "post_it",
+          "nome": "Post-it",
+          "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+          "variantes": [
+            "Post-it note",
+            "Nota adesiva",
+            "Bloco autoadesivo",
+            "Post-its"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Linear B",
+        "descricao": "Escrita silábica micênica usada para o grego antigo, decifrada em 1952.",
+        "variantes": [
+          "Linear B micênica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "linear_b",
+          "nome": "Linear B",
+          "descricao": "Escrita silábica da Idade do Bronze usada em Creta e na Grécia micênica.",
+          "variantes": []
+        },
+        {
+          "id": "liepard",
+          "nome": "Liepard",
+          "descricao": "Pokémon do tipo Sombrio, número 510 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "liber_abaci",
+          "nome": "Liber Abaci",
+          "descricao": "Livro de aritmética escrito por Fibonacci, publicado em 1202.",
+          "variantes": [
+            "Livro do Ábaco",
+            "Liber Abbaci"
+          ]
+        },
+        {
+          "id": "diners_club",
+          "nome": "Diners Club",
+          "descricao": "Cartão de pagamento lançado nos Estados Unidos em 1950, precursor dos cartões de crédito modernos.",
+          "variantes": [
+            "Diners Club International",
+            "Cartão Diners"
+          ]
+        },
+        {
+          "id": "sininho",
+          "nome": "Sininho",
+          "descricao": "Fada ajudante de Peter Pan no filme da Disney de 1953.",
+          "variantes": [
+            "Tinker Bell",
+            "Tink"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o caiaque; só nomes parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Escrita khmer não está entre as candidatas, que são outros sistemas de escrita."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "sombrero",
+      "motivo": "Mesmo chapéu mexicano de aba larga, com descrição e variantes equivalentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A iurta não corresponde a nenhuma candidata; são nomes parecidos sem relação."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O tecido kente é diferente de todas as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A escrita tibetana é distinta do planalto e de outros alfabetos."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O poste totêmico não aparece entre as candidatas; Pokémon Totem é outra coisa."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "linear_b",
+      "motivo": "É a mesma escrita silábica Linear B, só com descrições complementares."
+    }
+  ]
+}
