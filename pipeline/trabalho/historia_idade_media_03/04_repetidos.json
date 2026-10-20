@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No século onze, quatro séculos antes de Gutenberg, o chinês Bi Sheng criou tipos móveis para imprimir. De que material eles eram feitos?",
+        "resposta": "Argila cozida"
+      },
+      "existentes": [
+        {
+          "id": "q03614",
+          "pergunta": "Por volta de 1040, quatro séculos antes de Gutenberg, o chinês Bi Sheng criou tipos móveis feitos de que material?",
+          "resposta": "Argila cozida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Nas catedrais góticas, as gárgulas, esculturas de monstros no alto das paredes, tinham que função prática?",
+        "resposta": "Escoar a água da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q03199",
+          "pergunta": "Nas catedrais góticas, qual é a função prática original das gárgulas?",
+          "resposta": "Escoar a água da chuva"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Segundo seu biógrafo Eginhardo, Carlos Magno guardava tabuinhas sob o travesseiro para treinar à noite uma habilidade que nunca dominou. Qual?",
+        "resposta": "Escrever"
+      },
+      "existentes": [
+        {
+          "id": "q00109",
+          "pergunta": "Num dia de Natal, em Roma, o papa Leão Terceiro coroou Carlos Magno imperador. Em que ano isso aconteceu?",
+          "resposta": "800"
+        },
+        {
+          "id": "q13183",
+          "pergunta": "Carlos Magno, imperador dos francos, morreu em 814 e foi sepultado na catedral de que cidade, hoje na Alemanha?",
+          "resposta": "Aachen (Aquisgrano)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Segundo a tradição, o monge Guido d'Arezzo, no século onze, nomeou as notas musicais com sílabas iniciais dos versos de um hino em latim. A que santo ele era dedicado?",
+        "resposta": "São João Batista"
+      },
+      "existentes": [
+        {
+          "id": "q08784",
+          "pergunta": "O monge italiano Guido d'Arezzo usou um hino a São João para ensinar as notas musicais. Em que século ele ensinou cantores na catedral de Arezzo?",
+          "resposta": "Século onze"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Por ser corpulento e calado, o jovem Tomás de Aquino recebeu dos colegas de estudo um apelido de animal. Qual era?",
+        "resposta": "Boi mudo"
+      },
+      "existentes": [
+        {
+          "id": "q03733",
+          "pergunta": "Por ser grande, calado e tímido, o jovem Tomás de Aquino ganhou dos colegas de estudo que apelido?",
+          "resposta": "Boi Mudo"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Nos Contos da Cantuária, de Chaucer, os peregrinos viajam até o túmulo de que arcebispo, assassinado na própria catedral em 1170?",
+        "resposta": "Thomas Becket"
+      },
+      "existentes": [
+        {
+          "id": "q07006",
+          "pergunta": "Os Contos da Cantuária, de Geoffrey Chaucer, narrados por peregrinos a caminho de uma catedral inglesa, foram escritos em que século?",
+          "resposta": "Século quatorze"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No Decamerão, de Boccaccio, um grupo de jovens deixa Florença e passa os dias contando histórias numa casa de campo. Do que eles estão fugindo?",
+        "resposta": "Da peste negra"
+      },
+      "existentes": [
+        {
+          "id": "q02948",
+          "pergunta": "No Decamerão, de Boccaccio, por que dez jovens se refugiam numa casa de campo fora de Florença?",
+          "resposta": "Para fugir da peste negra"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que ano as excomunhões mútuas entre os líderes das igrejas de Roma e de Constantinopla marcaram o cisma que separou católicos e ortodoxos?",
+        "resposta": "1054"
+      },
+      "existentes": [
+        {
+          "id": "q09497",
+          "pergunta": "O Grande Cisma, que separou a Igreja de Roma das igrejas ortodoxas do Oriente, aconteceu em que século?",
+          "resposta": "Século onze"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Convocada pelo papa Urbano Segundo em 1095, a Primeira Cruzada culminou com a tomada de Jerusalém pelos cruzados em que ano?",
+        "resposta": "1099"
+      },
+      "existentes": [
+        {
+          "id": "q03560",
+          "pergunta": "Em 1095, no Concílio de Clermont, que papa convocou a Primeira Cruzada?",
+          "resposta": "Urbano Segundo"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "No início do século onze, uma princesa casada com o filho do doge escandalizou Veneza ao comer com garfo. De que império ela vinha?",
+        "resposta": "Império Bizantino"
+      },
+      "existentes": [
+        {
+          "id": "q07349",
+          "pergunta": "No começo do século onze, uma princesa causou escândalo em Veneza ao comer com um garfo de ouro. De que império ela vinha?",
+          "resposta": "Império Bizantino"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: material dos tipos móveis de Bi Sheng.",
+      "id_existente": "q03614"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma função das gárgulas.",
+      "id_existente": "q03199"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Habilidade que Carlos Magno não dominou é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Santo do hino vs século do ensino; o nome do santo aparece na existente, mas a pergunta existente pergunta o século."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo apelido de Tomás de Aquino.",
+      "id_existente": "q03733"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Túmulo do peregrinação vs século da obra."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo motivo da fuga: peste negra.",
+      "id_existente": "q02948"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ano vs século; fatos diferentes, ano é mais específico."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Tomada de Jerusalém em 1099 vs papa que convocou."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: origem imperial da princesa.",
+      "id_existente": "q07349"
+    }
+  ]
+}

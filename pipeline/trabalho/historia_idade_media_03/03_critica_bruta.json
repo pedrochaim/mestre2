@@ -1,0 +1,394 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas fontes e pergunta limpa.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado: a Grande Pirâmide foi a estrutura mais alta por milênios; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maior império contíguo da história, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português sustenta maior e mais rica cidade da Europa.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: morrer em Bosworth já identifica Ricardo III; a pergunta é trivial.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fatos sustentados e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conquista do Algarve em 1249 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ambígua: Ricardo é rei da Inglaterra, então 'rei de que país' admite Inglaterra.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Ricardo, rei da Inglaterra, e o imperador Frederico Barba-Ruiva lideraram a Terceira Cruzada junto com um terceiro monarca. Rei de que país?",
+        "resposta": "França",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Third_Crusade"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Azuis e Verdes confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quadrivium confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Definição de vassalo sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torre de menagem sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tipos de argila cozida confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lancelote e Guinevere confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Função de escoar água confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma a profissão de atriz.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mamelucos eram soldados escravos.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Concha de vieira confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relato de Eginhardo sobre a escrita confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mal falava inglês' e 'poucos meses' não constam das fontes; usar o que elas sustentam.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Ricardo Coração de Leão, rei da Inglaterra no século doze, passou pouquíssimo tempo no reino. Que língua ele falava, a mesma da sua corte?",
+        "resposta": "Francês",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Richard_I_of_England",
+          "https://pt.wikipedia.org/wiki/Ricardo_I_de_Inglaterra"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A autoria da nomeação é só atribuída a Guido; hedge com 'segundo a tradição'.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo a tradição, o monge Guido d'Arezzo, no século onze, nomeou as notas musicais com sílabas iniciais dos versos de um hino em latim. A que santo ele era dedicado?",
+        "resposta": "São João Batista",
+        "distratores": [
+          "São Gregório Magno",
+          "São Bento",
+          "São Pedro"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ut_queant_laxis",
+          "https://en.wikipedia.org/wiki/Guido_of_Arezzo"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que ele mandou plantar o pinhal, não ampliar.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Além de rei poeta, Dom Dinis de Portugal ganhou que apelido por incentivar a agricultura e mandar plantar o Pinhal de Leiria?",
+        "resposta": "O Lavrador",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Dinis_I_de_Portugal",
+          "https://en.wikipedia.org/wiki/Denis_of_Portugal"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nomes de dias da semana com 'feira' confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome Domesday confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vikings e 911 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Timur-e Lang, o Coxo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Apelido 'boi mudo' bem documentado e citado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia em 1937 por Carl Orff confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Braveheart e Wallace confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Becket confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lenda do beija-mão ao cadáver de Inês é amplamente conhecida; enunciado hedgeado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Elefante Abul-Abbas confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Girafa identificada com o qilin confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Levantamento da excomunhão confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta não única: a crônica cita também a proibição da carne de porco e a circuncisão; fontes não mostram o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wagner confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peste negra confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Igualdade entre cavaleiros sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Segundo a tradição' cobre a disputa histórica; papel confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1054 confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1099 confirmado; distratores próximos.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pajem, escudeiro e cavaleiro confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Síria confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sherwood confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maria Argyropoulina, Bizâncio, 1004 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estacionamento em Leicester confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete eleitores confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grupos de cem confirmados na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bascos confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mongóis confirmados; relato dos livros hedgeado por 'segundo crônicas'.",
+      "reescrita": null
+    }
+  ]
+}
