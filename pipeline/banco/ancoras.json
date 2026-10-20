@@ -1146,7 +1146,10 @@
     "variantes": [
       "Reino Ptolemaico",
       "Ptolemaic Kingdom",
-      "Dinastia lágida"
+      "Dinastia lágida",
+      "Ptolomeus",
+      "Lágidas",
+      "Ptolemaic dynasty"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ptolemaic_Kingdom",
@@ -6383,7 +6386,8 @@
     },
     "variantes": [
       "The School of Athens",
-      "Scuola di Atene"
+      "Scuola di Atene",
+      "Escola de Atenas"
     ]
   },
   {
@@ -9538,7 +9542,8 @@
     "variantes": [
       "Gymnasion",
       "Gymnasium",
-      "Ginásio (Grécia Antiga)"
+      "Ginásio (Grécia Antiga)",
+      "Ginásio grego"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"
@@ -30520,7 +30525,8 @@
     "variantes": [
       "Pankration",
       "Pancrátio",
-      "Pancrátion"
+      "Pancrátion",
+      "Pancrácio grego"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pankration"
@@ -48316,7 +48322,8 @@
     "descricao": "Esculturas do Partenon retiradas de Atenas por Lord Elgin no início do século dezenove.",
     "variantes": [
       "Elgin Marbles",
-      "Mármores do Partenon"
+      "Mármores do Partenon",
+      "Parthenon Marbles"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Elgin_Marbles"
@@ -48694,7 +48701,9 @@
     "nome": "Batalha das Termópilas",
     "descricao": "Batalha de 480 a.C. em que gregos liderados pelo rei espartano Leônidas enfrentaram o exército persa de Xerxes.",
     "variantes": [
-      "Thermopylae"
+      "Thermopylae",
+      "Termópilas",
+      "Battle of Thermopylae"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Batalha_das_Term%C3%B3pilas",
@@ -56281,7 +56290,8 @@
     "descricao": "Método socrático de levar o interlocutor a descobrir verdades por meio de perguntas.",
     "variantes": [
       "Maieutics",
-      "Método socrático"
+      "Método socrático",
+      "Maiêutica socrática"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Maiêutica"
@@ -108132,7 +108142,8 @@
     "descricao": "Ordem arquitetônica clássica grega de colunas sem base e capitel liso, usada no Partenon.",
     "variantes": [
       "Dórico",
-      "Doric order"
+      "Doric order",
+      "Ordem dórica grega"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Doric_order"
@@ -114276,7 +114287,10 @@
     "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
     "variantes": [
       "Olimpeion",
-      "Olympieion"
+      "Olympieion",
+      "Templo de Zeus Olímpico (Atenas)",
+      "Olimpieion",
+      "Temple of Olympian Zeus"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus%2C_Athens",
@@ -168927,6 +168941,355 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Agudas",
       "https://pt.wikipedia.org/wiki/Agud%C3%A1s"
+    ]
+  },
+  {
+    "id": "ordem_jonica",
+    "nome": "Ordem jônica",
+    "descricao": "Ordem clássica da arquitetura grega surgida na Jônia, reconhecível pelo capitel com duas volutas em espiral.",
+    "variantes": [
+      "Ionic order"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ordem_jônica",
+      "https://en.wikipedia.org/wiki/Ionic_order"
+    ]
+  },
+  {
+    "id": "siracusa",
+    "nome": "Siracusa",
+    "descricao": "Cidade da Sicília fundada por colonos de Corinto no século oito a.C., a mais poderosa das colônias gregas do Ocidente.",
+    "variantes": [
+      "Syracuse",
+      "Siracusa (Sicília)",
+      "Siracusa antiga"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Syracuse,_Sicily",
+      "https://pt.wikipedia.org/wiki/Siracusa"
+    ]
+  },
+  {
+    "id": "falange_grega",
+    "nome": "Falange grega",
+    "descricao": "Formação de batalha das cidades gregas, um bloco cerrado de soldados de infantaria pesada com escudos e lanças.",
+    "variantes": [
+      "Falange",
+      "Phalanx"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Phalanx",
+      "https://pt.wikipedia.org/wiki/Falange_(militar)"
+    ]
+  },
+  {
+    "id": "dracma",
+    "nome": "Dracma",
+    "descricao": "Moeda de prata da Grécia Antiga, usada em Atenas e em outras cidades gregas.",
+    "variantes": [
+      "Dracma grega",
+      "Drachma"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drachma"
+    ]
+  },
+  {
+    "id": "anfora_panatenaica",
+    "nome": "Ânfora panatenaica",
+    "descricao": "Vaso de cerâmica decorado, dado como prêmio aos vencedores das competições das Panateneias, em Atenas.",
+    "variantes": [
+      "Ânforas panatenaicas",
+      "Panathenaic amphora"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Panathenaic_amphora"
+    ]
+  },
+  {
+    "id": "metecos",
+    "nome": "Metecos",
+    "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+    "variantes": [
+      "Meteco",
+      "Metic",
+      "Métoikos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Metic",
+      "https://pt.wikipedia.org/wiki/Meteco"
+    ]
+  },
+  {
+    "id": "filipe_ii_da_macedonia",
+    "nome": "Filipe II da Macedônia",
+    "descricao": "Rei da Macedônia de 359 a 336 a.C., pai de Alexandre, o Grande, que impôs o domínio macedônio sobre a Grécia.",
+    "variantes": [
+      "Filipe da Macedônia",
+      "Philip II of Macedon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Philip_II_of_Macedon",
+      "https://pt.wikipedia.org/wiki/Filipe_II_da_Macedônia"
+    ]
+  },
+  {
+    "id": "teatro_da_grecia_antiga",
+    "nome": "Teatro da Grécia Antiga",
+    "descricao": "Tradição teatral grega dos séculos seis a quatro a.C., com tragédias, comédias e dramas satíricos encenados em festivais.",
+    "variantes": [
+      "Teatro grego",
+      "Theatre of ancient Greece"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Theatre_of_ancient_Greece",
+      "https://pt.wikipedia.org/wiki/Teatro_da_Grécia_Antiga"
+    ]
+  },
+  {
+    "id": "ceramica_de_figuras_vermelhas",
+    "nome": "Cerâmica de figuras vermelhas",
+    "descricao": "Técnica de pintura de vasos surgida em Atenas por volta de 530 a.C., em que as figuras ficam na cor do barro.",
+    "variantes": [
+      "Figuras vermelhas",
+      "Red-figure pottery"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Red-figure_pottery",
+      "https://pt.wikipedia.org/wiki/Cerâmica_de_figuras_vermelhas"
+    ]
+  },
+  {
+    "id": "hoplitodromo",
+    "nome": "Hoplitódromo",
+    "descricao": "Corrida dos Jogos Olímpicos da Antiguidade em que os atletas corriam com equipamento de soldado.",
+    "variantes": [
+      "Hoplitodromos",
+      "Corrida armada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hoplitodromos"
+    ]
+  },
+  {
+    "id": "policromia_na_escultura_grega",
+    "nome": "Policromia na escultura grega",
+    "descricao": "Prática de pintar com cores as estátuas e os templos da Grécia Antiga, cujos pigmentos se perderam com o tempo.",
+    "variantes": [
+      "Policromia",
+      "Polychrome"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Polychrome"
+    ]
+  },
+  {
+    "id": "clepsidra",
+    "nome": "Clepsidra",
+    "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+    "variantes": [
+      "Relógio de água",
+      "Clepsydra",
+      "Water clock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Water_clock"
+    ]
+  },
+  {
+    "id": "liturgia_grecia_antiga",
+    "nome": "Liturgia (Grécia Antiga)",
+    "descricao": "Serviço público em Atenas, como equipar um navio de guerra ou custear um coro de teatro, financiado por um cidadão.",
+    "variantes": [
+      "Leitourgia",
+      "Liturgy (ancient Greece)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Liturgy_(ancient_Greece)"
+    ]
+  },
+  {
+    "id": "helenos",
+    "nome": "Helenos",
+    "descricao": "Nome que os gregos antigos davam a si mesmos, derivado de Heleno, ancestral mítico; a Grécia era a Hélade.",
+    "variantes": [
+      "Hellenes",
+      "Helenos (gregos)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hellenes",
+      "https://en.wikipedia.org/wiki/Names_of_the_Greeks"
+    ]
+  },
+  {
+    "id": "agora",
+    "nome": "Ágora",
+    "descricao": "Praça pública central das cidades gregas antigas, lugar de mercado, reunião e vida política.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Agora",
+      "https://pt.wikipedia.org/wiki/Ágora"
+    ]
+  },
+  {
+    "id": "idiotes",
+    "nome": "Idiotes",
+    "descricao": "Termo grego antigo para o indivíduo particular, leigo nos assuntos públicos, que deu origem à palavra idiota.",
+    "variantes": [
+      "Idiota (etimologia)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Idiot"
+    ]
+  },
+  {
+    "id": "anaximandro",
+    "nome": "Anaximandro",
+    "descricao": "Filósofo pré-socrático do século seis a.C., discípulo de Tales, autor da ideia do ápeiron, o ilimitado, como princípio de tudo.",
+    "variantes": [
+      "Anaximander",
+      "Anaximandro de Mileto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Anaximander",
+      "https://en.wikipedia.org/wiki/Milesian_school"
+    ]
+  },
+  {
+    "id": "esopo",
+    "nome": "Esopo",
+    "descricao": "Fabulista grego do século seis a.C., a quem se atribuem fábulas como A Cigarra e a Formiga.",
+    "variantes": [
+      "Aesop",
+      "Aisopos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aesop",
+      "https://pt.wikipedia.org/wiki/Esopo"
+    ]
+  },
+  {
+    "id": "peste_de_atenas",
+    "nome": "Peste de Atenas",
+    "descricao": "Epidemia que devastou Atenas a partir de 430 a.C., no início da Guerra do Peloponeso, descrita por Tucídides.",
+    "variantes": [
+      "Praga de Atenas",
+      "Plague of Athens"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Plague_of_Athens"
+    ]
+  },
+  {
+    "id": "aristides_o_justo",
+    "nome": "Aristides, o Justo",
+    "descricao": "Político e general ateniense do século cinco a.C., herói das Guerras Médicas, exilado por ostracismo por volta de 482 a.C.",
+    "variantes": [
+      "Aristides",
+      "Aristeides"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aristides"
+    ]
+  },
+  {
+    "id": "delos",
+    "nome": "Delos",
+    "descricao": "Pequena ilha grega das Cíclades, grande santuário de Apolo na Antiguidade e primeira sede da Liga de Delos.",
+    "variantes": [
+      "Ilha de Delos",
+      "Dílos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Delos",
+      "https://pt.wikipedia.org/wiki/Delos"
+    ]
+  },
+  {
+    "id": "sibaris",
+    "nome": "Síbaris",
+    "descricao": "Rica colônia grega do sul da Itália, fundada no século oito a.C. e destruída em 510 a.C., origem da palavra sibarita.",
+    "variantes": [
+      "Sybaris"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sybaris",
+      "https://pt.wikipedia.org/wiki/Síbaris"
+    ]
+  },
+  {
+    "id": "liga_de_delos",
+    "nome": "Liga de Delos",
+    "descricao": "Aliança de cidades gregas liderada por Atenas, criada em 478 a.C. contra o Império Persa.",
+    "variantes": [
+      "Confederação de Delos",
+      "Delian League"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Delian_League",
+      "https://pt.wikipedia.org/wiki/Liga_de_Delos"
+    ]
+  },
+  {
+    "id": "expedicao_a_sicilia",
+    "nome": "Expedição à Sicília",
+    "descricao": "Campanha militar ateniense de 415 a 413 a.C., durante a Guerra do Peloponeso, que terminou com a destruição da frota e do exército de Atenas.",
+    "variantes": [
+      "Expedição Siciliana",
+      "Sicilian Expedition"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sicilian_Expedition"
+    ]
+  },
+  {
+    "id": "alegoria_da_caverna",
+    "nome": "Alegoria da caverna",
+    "descricao": "Alegoria de Platão sobre prisioneiros acorrentados numa caverna que só conhecem sombras projetadas na parede.",
+    "variantes": [
+      "Mito da caverna",
+      "Allegory of the cave"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Allegory_of_the_cave",
+      "https://pt.wikipedia.org/wiki/Alegoria_da_caverna"
+    ]
+  },
+  {
+    "id": "taranto",
+    "nome": "Taranto",
+    "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+    "variantes": [
+      "Taras",
+      "Tarento"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taranto",
+      "https://pt.wikipedia.org/wiki/Taranto"
+    ]
+  },
+  {
+    "id": "batalha_de_queroneia",
+    "nome": "Batalha de Queroneia",
+    "descricao": "Batalha de 338 a.C. em que a Macedônia derrotou Atenas e Tebas, impondo seu domínio sobre a Grécia.",
+    "variantes": [
+      "Batalha de Queroneia (338 a.C.)",
+      "Battle of Chaeronea"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)"
+    ]
+  },
+  {
+    "id": "tragedia_grega",
+    "nome": "Tragédia grega",
+    "descricao": "Gênero teatral surgido em Atenas no século seis a.C., encenado nos festivais de Dionísio, com atores mascarados e coro.",
+    "variantes": [
+      "Tragédia ática",
+      "Greek tragedy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Greek_tragedy",
+      "https://pt.wikipedia.org/wiki/Tragédia_grega"
     ]
   }
 ]

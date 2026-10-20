@@ -1,0 +1,1106 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Ordem dórica",
+        "descricao": "A mais antiga e sóbria das ordens clássicas da arquitetura grega, de coluna sem base e capitel liso, usada no Partenon.",
+        "variantes": [
+          "Ordem dórica grega",
+          "Doric order"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ordem_dórica",
+          "https://en.wikipedia.org/wiki/Doric_order"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Das três ordens clássicas da arquitetura grega, qual tem o capitel mais simples, sem volutas nem folhas de acanto?",
+      "resposta": "Ordem dórica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Doric_order",
+        "https://pt.wikipedia.org/wiki/Ordem_dórica"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ordem jônica",
+        "descricao": "Ordem clássica da arquitetura grega surgida na Jônia, reconhecível pelo capitel com duas volutas em espiral.",
+        "variantes": [
+          "Ordem jónica",
+          "Ionic order"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ordem_jônica",
+          "https://en.wikipedia.org/wiki/Ionic_order"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A ordem jônica, de capitel com volutas, deve seu nome à Jônia, região grega antiga no litoral de que país atual?",
+      "resposta": "Turquia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ionic_order",
+        "https://en.wikipedia.org/wiki/Ionia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sófocles",
+        "descricao": "Dramaturgo ateniense do século cinco a.C., autor de tragédias como Édipo Rei e Antígona.",
+        "variantes": [
+          "Sophocles"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sófocles",
+          "https://en.wikipedia.org/wiki/Sophocles"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Dos grandes dramaturgos de Atenas, qual venceu mais vezes os concursos de teatro das Dionísias?",
+      "resposta": "Sófocles",
+      "distratores": [
+        "Ésquilo",
+        "Eurípides",
+        "Aristófanes"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sophocles"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eurípides",
+        "descricao": "Dramaturgo ateniense do século cinco a.C., o mais jovem dos três grandes trágicos, autor de Medeia e As Troianas.",
+        "variantes": [
+          "Euripides"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Eurípides",
+          "https://en.wikipedia.org/wiki/Euripides"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Ésquilo e Sófocles têm só sete tragédias inteiras preservadas cada um. Que trágico ateniense tem mais que o dobro disso?",
+      "resposta": "Eurípides",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euripides",
+        "https://en.wikipedia.org/wiki/Aeschylus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Siracusa",
+        "descricao": "Cidade da Sicília fundada por colonos de Corinto no século oito a.C., a mais poderosa das colônias gregas do Ocidente.",
+        "variantes": [
+          "Syracuse",
+          "Siracusa (Sicília)",
+          "Siracusa antiga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Syracuse,_Sicily",
+          "https://pt.wikipedia.org/wiki/Siracusa"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Segundo o orador romano Cícero, qual era a maior e a mais bela de todas as cidades gregas?",
+      "resposta": "Siracusa",
+      "distratores": [
+        "Atenas",
+        "Corinto",
+        "Alexandria"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Syracuse,_Sicily"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "palacio_de_cnossos",
+        "nome": "Palácio de Cnossos",
+        "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+        "variantes": [
+          "Cnossos",
+          "Knossos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Knossos"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Na Creta da Idade do Bronze, qual era o maior dos palácios da civilização minoica?",
+      "resposta": "Cnossos",
+      "distratores": [
+        "Festo",
+        "Mália",
+        "Zakros"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Knossos"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "esparta",
+        "nome": "Esparta",
+        "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+        "variantes": [
+          "Lacedemônia",
+          "Sparta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sparta"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Esparta, as terras dos cidadãos eram cultivadas por uma população dominada e sem liberdade. Como se chamavam esses servos?",
+      "resposta": "Hilotas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Helots",
+        "https://pt.wikipedia.org/wiki/Hilotas"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "esparta",
+        "nome": "Esparta",
+        "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+        "variantes": [
+          "Lacedemônia",
+          "Sparta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sparta"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Segundo Plutarco, para desestimular a ganância, Esparta usava um dinheiro pesado e de pouco valor. De que metal ele era feito?",
+      "resposta": "Ferro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lycurgus_of_Sparta",
+        "https://en.wikipedia.org/wiki/Sparta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Falange grega",
+        "descricao": "Formação de batalha das cidades gregas, um bloco cerrado de soldados de infantaria pesada com escudos e lanças.",
+        "variantes": [
+          "Falange",
+          "Phalanx"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Phalanx",
+          "https://pt.wikipedia.org/wiki/Falange_(militar)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A falange, formação de batalha das cidades gregas, era um bloco cerrado de soldados de infantaria pesada. Que nome recebiam esses soldados?",
+      "resposta": "Hoplitas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Phalanx",
+        "https://en.wikipedia.org/wiki/Hoplite"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dracma",
+        "descricao": "Moeda de prata da Grécia Antiga, usada em Atenas e em outras cidades gregas.",
+        "variantes": [
+          "Dracma grega",
+          "Drachma"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Drachma"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O dracma, moeda da Grécia antiga, valia seis moedinhas menores, iguais às que se punham na boca dos mortos. Que moeda era essa?",
+      "resposta": "Óbolo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Obol_(coin)",
+        "https://en.wikipedia.org/wiki/Charon%27s_obol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Estátua de Zeus em Olímpia",
+        "descricao": "Estátua colossal de Zeus sentado, feita por Fídias no século cinco a.C. para o templo de Olímpia, uma das sete maravilhas do mundo antigo.",
+        "variantes": [
+          "Zeus de Olímpia",
+          "Statue of Zeus at Olympia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+          "https://pt.wikipedia.org/wiki/Estátua_de_Zeus_em_Olímpia"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A estátua de Zeus em Olímpia, uma das sete maravilhas do mundo antigo, tinha estrutura de madeira revestida de que dois materiais preciosos?",
+      "resposta": "Marfim e ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Estátua de Zeus em Olímpia",
+        "descricao": "Estátua colossal de Zeus sentado, feita por Fídias no século cinco a.C. para o templo de Olímpia, uma das sete maravilhas do mundo antigo.",
+        "variantes": [
+          "Zeus de Olímpia",
+          "Statue of Zeus at Olympia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+          "https://pt.wikipedia.org/wiki/Estátua_de_Zeus_em_Olímpia"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escultor ateniense, o mesmo que dirigiu a decoração do Partenon, criou a estátua de Zeus em Olímpia, uma das sete maravilhas?",
+      "resposta": "Fídias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+        "https://en.wikipedia.org/wiki/Phidias"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pancrácio",
+        "descricao": "Modalidade de luta dos Jogos Olímpicos da Antiguidade, com quase nenhuma regra, que misturava golpes e agarramentos.",
+        "variantes": [
+          "Pankration",
+          "Pancrácio grego"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pankration",
+          "https://pt.wikipedia.org/wiki/Pancrácio"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O pancrácio, luta das Olimpíadas antigas em que quase tudo era permitido, combinava quais duas modalidades?",
+      "resposta": "Boxe e luta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pankration"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ânfora panatenaica",
+        "descricao": "Vaso de cerâmica decorado, dado como prêmio aos vencedores das competições das Panateneias, em Atenas.",
+        "variantes": [
+          "Ânforas panatenaicas",
+          "Panathenaic amphora"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panathenaic_amphora"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas Panateneias, grande festival de Atenas, os atletas vencedores ganhavam ânforas decoradas cheias de quê?",
+      "resposta": "Azeite de oliva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Panathenaic_amphora"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "trirreme",
+        "nome": "Trirreme",
+        "descricao": "Navio de guerra grego movido a remos dispostos em três níveis, base do poder naval de Atenas no século cinco a.C.",
+        "variantes": [
+          "Trireme"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trireme"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Ao contrário da imagem das galés movidas por escravos, quem remava em geral nas trirremes da frota de Atenas?",
+      "resposta": "Cidadãos pobres livres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trireme",
+        "https://en.wikipedia.org/wiki/Thetes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Metecos",
+        "descricao": "Estrangeiros livres que residiam em Atenas, pagavam imposto e serviam no exército, mas não tinham direitos políticos.",
+        "variantes": [
+          "Meteco",
+          "Metic",
+          "Métoikos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Metic",
+          "https://pt.wikipedia.org/wiki/Meteco"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Além de cidadãos e escravos, Atenas tinha muitos estrangeiros livres que moravam ali, pagavam imposto e não votavam. Que nome recebiam?",
+      "resposta": "Metecos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Metic",
+        "https://pt.wikipedia.org/wiki/Meteco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sete Sábios da Grécia",
+        "descricao": "Grupo tradicional de sete pensadores e governantes gregos dos séculos sete e seis a.C., célebres por sua sabedoria prática.",
+        "variantes": [
+          "Sete Sábios",
+          "Seven Sages of Greece"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Seven_Sages_of_Greece",
+          "https://pt.wikipedia.org/wiki/Sete_Sábios_da_Grécia"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Ao lado de Tales de Mileto, que legislador ateniense era contado entre os Sete Sábios da Grécia?",
+      "resposta": "Sólon",
+      "distratores": [
+        "Péricles",
+        "Clístenes",
+        "Drácon"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seven_Sages_of_Greece"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "A Escola de Atenas",
+        "descricao": "Afresco de Rafael, pintado entre 1509 e 1511 no Palácio Apostólico do Vaticano, que reúne filósofos da Grécia Antiga.",
+        "variantes": [
+          "Escola de Atenas",
+          "The School of Athens",
+          "Scuola di Atene"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_School_of_Athens",
+          "https://pt.wikipedia.org/wiki/A_Escola_de_Atenas"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No centro do afresco A Escola de Atenas, pintado por Rafael no Vaticano, aparecem lado a lado quais dois filósofos gregos?",
+      "resposta": "Platão e Aristóteles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_School_of_Athens"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Filipe II da Macedônia",
+        "descricao": "Rei da Macedônia de 359 a 336 a.C., pai de Alexandre, o Grande, que impôs o domínio macedônio sobre a Grécia.",
+        "variantes": [
+          "Filipe da Macedônia",
+          "Philip II of Macedon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Philip_II_of_Macedon",
+          "https://pt.wikipedia.org/wiki/Filipe_II_da_Macedônia"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Durante o cerco de uma cidade grega, Filipe II da Macedônia, pai de Alexandre, foi atingido por uma flecha. Que parte do corpo perdeu?",
+      "resposta": "Um olho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Philip_II_of_Macedon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Teatro da Grécia Antiga",
+        "descricao": "Tradição teatral grega dos séculos seis a quatro a.C., com tragédias, comédias e dramas satíricos encenados em festivais.",
+        "variantes": [
+          "Teatro grego",
+          "Theatre of ancient Greece"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theatre_of_ancient_Greece",
+          "https://pt.wikipedia.org/wiki/Teatro_da_Grécia_Antiga"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No teatro da Grécia Antiga, quem interpretava as personagens femininas, como Medeia e Antígona?",
+      "resposta": "Atores homens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theatre_of_ancient_Greece"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cerâmica de figuras vermelhas",
+        "descricao": "Técnica de pintura de vasos surgida em Atenas por volta de 530 a.C., em que as figuras ficam na cor do barro.",
+        "variantes": [
+          "Figuras vermelhas",
+          "Red-figure pottery"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red-figure_pottery",
+          "https://pt.wikipedia.org/wiki/Cerâmica_de_figuras_vermelhas"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na cerâmica ateniense de figuras vermelhas, as figuras ficam com a cor do barro. E de que cor é pintado o fundo do vaso?",
+      "resposta": "Preto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red-figure_pottery"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hoplitódromo",
+        "descricao": "Corrida dos Jogos Olímpicos da Antiguidade em que os atletas corriam com equipamento de soldado.",
+        "variantes": [
+          "Hoplitodromos",
+          "Corrida armada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hoplitodromos"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "No hoplitódromo, uma das corridas dos Jogos de Olímpia, os atletas corriam carregando que equipamento de guerra?",
+      "resposta": "Escudo e capacete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hoplitodromos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Policromia na escultura grega",
+        "descricao": "Prática de pintar com cores as estátuas e os templos da Grécia Antiga, cujos pigmentos se perderam com o tempo.",
+        "variantes": [
+          "Policromia",
+          "Polychrome"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Polychrome"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Hoje vemos templos e estátuas gregas no branco do mármore. Como eles eram originalmente, na Antiguidade?",
+      "resposta": "Pintados com cores vivas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Polychrome"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Clepsidra",
+        "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+        "variantes": [
+          "Relógio de água",
+          "Clepsydra",
+          "Water clock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Water_clock"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos tribunais de Atenas, o tempo de fala da acusação e da defesa era controlado por um relógio que funcionava com o quê?",
+      "resposta": "Água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Water_clock"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Liturgia (Grécia Antiga)",
+        "descricao": "Serviço público em Atenas, como equipar um navio de guerra ou custear um coro de teatro, financiado por um cidadão.",
+        "variantes": [
+          "Leitourgia",
+          "Liturgy (ancient Greece)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liturgy_(ancient_Greece)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em Atenas, a liturgia, palavra hoje ligada aos cultos religiosos, era um serviço público, como equipar um navio de guerra. Quem pagava por ele?",
+      "resposta": "Os cidadãos ricos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liturgy_(ancient_Greece)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Helenos",
+        "descricao": "Nome que os gregos antigos davam a si mesmos, derivado de Heleno, ancestral mítico; a Grécia era a Hélade.",
+        "variantes": [
+          "Hellenes",
+          "Helenos (gregos)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hellenes",
+          "https://en.wikipedia.org/wiki/Names_of_the_Greeks"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome gregos foi dado pelos romanos. Como os gregos antigos chamavam a si mesmos?",
+      "resposta": "Helenos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Names_of_the_Greeks",
+        "https://en.wikipedia.org/wiki/Hellenes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ágora",
+        "descricao": "Praça pública central das cidades gregas antigas, lugar de mercado, reunião e vida política.",
+        "variantes": [
+          "Agora"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Agora",
+          "https://pt.wikipedia.org/wiki/Ágora"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que palavra, usada para o medo de espaços abertos e lugares cheios de gente, vem do nome da praça pública das cidades gregas?",
+      "resposta": "Agorafobia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Agoraphobia",
+        "https://en.wikipedia.org/wiki/Agora"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ginásio (Grécia Antiga)",
+        "descricao": "Local de treinamento físico e de convívio dos jovens nas cidades gregas antigas.",
+        "variantes": [
+          "Gymnasium",
+          "Ginásio grego"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra ginásio vem de um termo grego que lembra como os atletas treinavam na Antiguidade. O que esse termo significa?",
+      "resposta": "Nu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maiêutica",
+        "descricao": "Método de Sócrates de levar o interlocutor, por meio de perguntas, a descobrir por si mesmo o conhecimento.",
+        "variantes": [
+          "Maiêutica socrática",
+          "Método socrático",
+          "Maieutics"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maiêutica",
+          "https://en.wikipedia.org/wiki/Socratic_method"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Sócrates chamava seu método de perguntas de maiêutica, comparando-o ao ofício da própria mãe. Qual era esse ofício?",
+      "resposta": "Parteira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maiêutica",
+        "https://en.wikipedia.org/wiki/Phaenarete"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mármores de Elgin",
+        "descricao": "Esculturas do Partenon retiradas de Atenas no início do século dezenove e expostas no Museu Britânico, em Londres.",
+        "variantes": [
+          "Mármores do Partenon",
+          "Elgin Marbles",
+          "Parthenon Marbles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elgin_Marbles"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Parte das esculturas do Partenon está em Londres e é conhecida pelo título do diplomata britânico que as levou, no início do século dezenove. Qual?",
+      "resposta": "Lorde Elgin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elgin_Marbles"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Idiotes",
+        "descricao": "Termo grego antigo para o indivíduo particular, leigo nos assuntos públicos, que deu origem à palavra idiota.",
+        "variantes": [
+          "Idiota (etimologia)",
+          "Idiōtēs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Idiot"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Grécia antiga, a palavra idiotes, que deu origem a idiota, não era um insulto. Que tipo de pessoa ela designava?",
+      "resposta": "Um particular, leigo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Idiot"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Anaximandro",
+        "descricao": "Filósofo pré-socrático do século seis a.C., discípulo de Tales, autor da ideia do ápeiron, o ilimitado, como princípio de tudo.",
+        "variantes": [
+          "Anaximander",
+          "Anaximandro de Mileto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anaximander",
+          "https://en.wikipedia.org/wiki/Milesian_school"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Os filósofos Anaximandro e Anaxímenes nasceram na mesma cidade grega da Ásia Menor que o mestre deles, Tales. Que cidade era essa?",
+      "resposta": "Mileto",
+      "distratores": [
+        "Éfeso",
+        "Samos",
+        "Halicarnasso"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Milesian_school"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "batalha_das_termopilas",
+        "nome": "Batalha das Termópilas",
+        "descricao": "Batalha de 480 a.C. em que gregos liderados pelo rei espartano Leônidas enfrentaram o exército persa de Xerxes.",
+        "variantes": [
+          "Termópilas",
+          "Battle of Thermopylae"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Thermopylae"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que filme de 2006, baseado nos quadrinhos de Frank Miller, retrata a resistência de Leônidas e seus espartanos nas Termópilas?",
+      "resposta": "300",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/300_(film)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Esopo",
+        "descricao": "Fabulista grego do século seis a.C., a quem se atribuem fábulas como A Cigarra e a Formiga.",
+        "variantes": [
+          "Aesop",
+          "Aisopos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aesop",
+          "https://pt.wikipedia.org/wiki/Esopo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Segundo Platão, enquanto esperava a execução na prisão, Sócrates passou a pôr em versos as fábulas de que autor?",
+      "resposta": "Esopo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aesop",
+        "https://en.wikipedia.org/wiki/Phaedo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Peste de Atenas",
+        "descricao": "Epidemia que devastou Atenas a partir de 430 a.C., no início da Guerra do Peloponeso, descrita por Tucídides.",
+        "variantes": [
+          "Praga de Atenas",
+          "Plague of Athens"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Plague_of_Athens"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O historiador Tucídides descreveu em detalhes a peste que atingiu Atenas em 430 antes de Cristo. Que experiência pessoal ele teve com ela?",
+      "resposta": "Pegou a doença e sobreviveu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Plague_of_Athens",
+        "https://en.wikipedia.org/wiki/Thucydides"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aristides, o Justo",
+        "descricao": "Político e general ateniense do século cinco a.C., herói das Guerras Médicas, exilado por ostracismo por volta de 482 a.C.",
+        "variantes": [
+          "Aristides",
+          "Aristeides"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aristides"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo Plutarco, um eleitor analfabeto pediu ao próprio Aristides que escrevesse o nome dele num caco, para exilá-lo. Que motivo o homem deu?",
+      "resposta": "Cansou de ouvi-lo chamado de Justo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aristides"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "batalha_de_maratona",
+        "nome": "Batalha de Maratona",
+        "descricao": "Batalha de 490 a.C. em que os atenienses venceram a invasão persa na planície de Maratona.",
+        "variantes": [
+          "Battle of Marathon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Marathon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo Heródoto, os espartanos aceitaram ajudar Atenas contra os persas em Maratona, mas não partiram logo. Por quê?",
+      "resposta": "Esperavam a lua cheia, por lei religiosa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Marathon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delos",
+        "descricao": "Pequena ilha grega das Cíclades, grande santuário de Apolo na Antiguidade e primeira sede da Liga de Delos.",
+        "variantes": [
+          "Ilha de Delos",
+          "Dílos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Delos",
+          "https://pt.wikipedia.org/wiki/Delos"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por volta de 426 antes de Cristo, Atenas proibiu que alguém nascesse ou morresse na ilha de Delos. Por quê?",
+      "resposta": "Para manter pura a ilha sagrada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Delos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Síbaris",
+        "descricao": "Rica colônia grega do sul da Itália, fundada no século oito a.C. e destruída em 510 a.C., origem da palavra sibarita.",
+        "variantes": [
+          "Sybaris"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sybaris",
+          "https://pt.wikipedia.org/wiki/Síbaris"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A palavra sibarita, para quem vive no luxo, vem de uma riquíssima cidade grega antiga. Em que país atual ela ficava?",
+      "resposta": "Itália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sybaris"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Liga de Delos",
+        "descricao": "Aliança de cidades gregas liderada por Atenas, criada em 478 a.C. contra o Império Persa.",
+        "variantes": [
+          "Confederação de Delos",
+          "Delian League"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Delian_League",
+          "https://pt.wikipedia.org/wiki/Liga_de_Delos"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 454 antes de Cristo, o tesouro da Liga de Delos, aliança grega contra os persas, saiu da ilha de Delos e foi levado para que cidade?",
+      "resposta": "Atenas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Delian_League"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Expedição à Sicília",
+        "descricao": "Campanha militar ateniense de 415 a 413 a.C., durante a Guerra do Peloponeso, que terminou com a destruição da frota e do exército de Atenas.",
+        "variantes": [
+          "Expedição Siciliana",
+          "Sicilian Expedition"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sicilian_Expedition"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Durante a guerra contra Esparta, Atenas sofreu um desastre em 413 antes de Cristo ao tentar conquistar que grande ilha do Mediterrâneo?",
+      "resposta": "Sicília",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sicilian_Expedition"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alegoria da caverna",
+        "descricao": "Alegoria de Platão sobre prisioneiros acorrentados numa caverna que só conhecem sombras projetadas na parede.",
+        "variantes": [
+          "Mito da caverna",
+          "Allegory of the cave"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Allegory_of_the_cave",
+          "https://pt.wikipedia.org/wiki/Alegoria_da_caverna"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que obra de Platão aparece a alegoria da caverna, sobre prisioneiros que só conhecem sombras projetadas na parede?",
+      "resposta": "A República",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Allegory_of_the_cave"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Taranto",
+        "descricao": "Cidade do sul da Itália fundada no século oito a.C. por colonos gregos com o nome de Taras.",
+        "variantes": [
+          "Taras",
+          "Tarento"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taranto",
+          "https://pt.wikipedia.org/wiki/Taranto"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A cidade de Taranto, no sul da Itália, foi fundada no século oito antes de Cristo por colonos vindos de que cidade grega?",
+      "resposta": "Esparta",
+      "distratores": [
+        "Atenas",
+        "Corinto",
+        "Tebas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taranto"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Batalha de Queroneia",
+        "descricao": "Batalha de 338 a.C. em que a Macedônia derrotou Atenas e Tebas, impondo seu domínio sobre a Grécia.",
+        "variantes": [
+          "Batalha de Queroneia (338 a.C.)",
+          "Battle of Chaeronea"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 338 antes de Cristo, na Batalha de Queroneia, que rei macedônio derrotou Atenas e Tebas e passou a dominar a Grécia?",
+      "resposta": "Filipe II da Macedônia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dinastia ptolemaica",
+        "descricao": "Dinastia de origem macedônia que governou o Egito de 305 a 30 a.C., da morte de Alexandre até Cleópatra.",
+        "variantes": [
+          "Ptolomeus",
+          "Lágidas",
+          "Ptolemaic dynasty"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ptolemaic_dynasty",
+          "https://pt.wikipedia.org/wiki/Dinastia_ptolemaica"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "A dinastia que governou o Egito até Cleópatra foi fundada por um general macedônio de Alexandre, o Grande. Qual era o nome dele?",
+      "resposta": "Ptolomeu",
+      "distratores": [
+        "Seleuco",
+        "Antígono",
+        "Cassandro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ptolemaic_dynasty"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "partenon",
+        "nome": "Partenon",
+        "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+        "variantes": [
+          "Parthenon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Parthenon"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantas colunas tem a fachada principal do Partenon, voltada para o leste?",
+      "resposta": "Oito",
+      "distratores": [
+        "Seis",
+        "Dez",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Parthenon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tragédia grega",
+        "descricao": "Gênero teatral surgido em Atenas no século seis a.C., encenado nos festivais de Dionísio, com atores mascarados e coro.",
+        "variantes": [
+          "Tragédia ática",
+          "Greek tragedy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greek_tragedy",
+          "https://pt.wikipedia.org/wiki/Tragédia_grega"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na tragédia grega clássica, além do coro, no máximo quantos atores com falas podiam estar ao mesmo tempo em cena?",
+      "resposta": "Três",
+      "distratores": [
+        "Dois",
+        "Quatro",
+        "Cinco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Three-actor_rule",
+        "https://en.wikipedia.org/wiki/Greek_tragedy"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "socrates_2",
+        "nome": "Sócrates",
+        "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão.",
+        "variantes": [
+          "Socrates"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Socrates"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Sócrates é um dos filósofos mais influentes da história ocidental. Quantos livros ele deixou escritos?",
+      "resposta": "Nenhum",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Socrates"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "jogos_olimpicos_da_antiguidade",
+        "nome": "Jogos Olímpicos da Antiguidade",
+        "descricao": "Festival esportivo e religioso realizado no santuário de Olímpia, na Grécia Antiga.",
+        "variantes": [
+          "Olimpíadas antigas",
+          "Ancient Olympic Games"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Segundo a tradição grega, em que ano foram disputados os primeiros Jogos de Olímpia?",
+      "resposta": "776 a.C.",
+      "distratores": [
+        "753 a.C.",
+        "812 a.C.",
+        "704 a.C."
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Templo de Zeus Olímpico (Atenas)",
+        "descricao": "Colossal templo de Atenas, iniciado no século seis a.C. e concluído pelo imperador romano Adriano no século dois d.C.",
+        "variantes": [
+          "Olimpieion",
+          "Olympieion",
+          "Temple of Olympian Zeus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Começado no século seis antes de Cristo e só concluído pelo imperador romano Adriano, que templo de Atenas era ainda maior que o Partenon?",
+      "resposta": "Templo de Zeus Olímpico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Temple_of_Olympian_Zeus,_Athens"
+      ]
+    }
+  ]
+}
