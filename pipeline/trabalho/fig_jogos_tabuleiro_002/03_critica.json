@@ -1,0 +1,66 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não trazem o fato, mas é amplamente documentado que os primeiros indícios do Resta Um estão na corte de Luís XIV (gravura de 1697). O enunciado não vaza a resposta e a figura é necessária para reconhecer o jogo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, direta. Os trechos confirmam que Carlsen é norueguês. O enunciado não nomeia nem dá pista, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aparece sobre este tabuleiro' afirma que a peça está na foto, o que `mostra` não garante. O enunciado também fica genérico: sem a figura, qualquer tabuleiro com letras serviria. A nova versão se apoia no reconhecimento do tabuleiro e no uso da peça (trecho: indicador móvel, planchette).",
+      "reescrita": {
+        "pergunta": "Neste jogo, os participantes pousam os dedos numa pequena peça móvel que desliza até as letras. Como se chama essa peça?",
+        "resposta": "Planchette (também chamada prancheta)"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1. Os trechos confirmam que Mancala é uma família de jogos de tabuleiro. O enunciado não vaza e a resposta é a família, não um jogo específico.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Tal nasceu em Riga. Os distratores são cidades de países vizinhos, do mesmo tipo e curtas, e nenhum é correto. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Uma de cada naipe, nesta mão' não é garantido por `mostra`, que descreve uma única carta. A afirmação pode ser falsa para a foto. Reescrito sem ela, apoiado no trecho da Wikipédia (carta com figura de rainha no baralho francês).",
+      "reescrita": {
+        "pergunta": "Que figura do baralho francês é esta?",
+        "resposta": "Dama (também chamada rainha)"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Karpov nasceu em Zlatoust. Os distratores são cidades russas dos Urais, plausíveis e não corretas. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o jogo leva o nome de Mehen, divindade serpente. O enunciado não nomeia o jogo, e é preciso reconhecê-lo para responder. A resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

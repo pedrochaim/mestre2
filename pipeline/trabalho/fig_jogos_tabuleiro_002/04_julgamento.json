@@ -1,0 +1,471 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Resta um",
+        "descricao": "Jogo de tabuleiro solitário em que se eliminam pinos por saltos, até restar um, num tabuleiro em cruz com furo central.",
+        "variantes": [
+          "Peg solitaire",
+          "Solitaire",
+          "Solo nobre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paciencia_do_windows",
+          "nome": "Paciência do Windows",
+          "descricao": "Versão digital do jogo de cartas Paciência incluída pela Microsoft no Windows a partir de 1990.",
+          "variantes": [
+            "Microsoft Solitaire",
+            "Solitaire"
+          ]
+        },
+        {
+          "id": "voltaire",
+          "nome": "Voltaire",
+          "descricao": "Escritor e filósofo iluminista francês (1694–1778), autor de Cândido.",
+          "variantes": [
+            "François-Marie Arouet"
+          ]
+        },
+        {
+          "id": "polo_norte",
+          "nome": "Polo Norte",
+          "descricao": "Polo Norte geográfico, ponto mais ao norte da Terra, no meio do Oceano Ártico.",
+          "variantes": [
+            "North Pole"
+          ]
+        },
+        {
+          "id": "bandeira_da_escocia",
+          "nome": "Bandeira da Escócia",
+          "descricao": "Bandeira da Escócia, azul com uma cruz branca em forma de X, chamada Saltire.",
+          "variantes": [
+            "Saltire",
+            "Cruz de Santo André"
+          ]
+        },
+        {
+          "id": "solitario_george",
+          "nome": "Solitário George",
+          "descricao": "Jabuti gigante macho, último representante conhecido da espécie da ilha Pinta, em Galápagos, morto em 2012.",
+          "variantes": [
+            "Lonesome George",
+            "Chelonoidis abingdonii"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Magnus Carlsen",
+        "descricao": "Grande mestre norueguês de xadrez, campeão mundial.",
+        "variantes": [
+          "Sven Magnus Øen Carlsen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        },
+        {
+          "id": "marco_aurelio",
+          "nome": "Marco Aurélio",
+          "descricao": "Imperador romano e filósofo estoico (121–180), autor das Meditações.",
+          "variantes": [
+            "Marcus Aurelius"
+          ]
+        },
+        {
+          "id": "jacques_charles",
+          "nome": "Jacques Charles",
+          "descricao": "Físico e inventor francês (1746–1823) que fez, em 1783, o primeiro voo tripulado num balão de hidrogênio.",
+          "variantes": [
+            "Jacques Alexandre César Charles"
+          ]
+        },
+        {
+          "id": "aguia_careca",
+          "nome": "Águia-careca",
+          "descricao": "Ave de rapina norte-americana (Haliaeetus leucocephalus) de cabeça branca, símbolo nacional dos Estados Unidos.",
+          "variantes": [
+            "Haliaeetus leucocephalus",
+            "Bald eagle",
+            "Águia-de-cabeça-branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tabuleiro Ouija",
+        "descricao": "Tabuleiro com letras, números e palavras sim e não, usado com um indicador móvel em sessões espíritas.",
+        "variantes": [
+          "Ouija",
+          "Tábua Ouija",
+          "Tabuleiro espírita",
+          "Talking board"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        },
+        {
+          "id": "organizacao_da_unidade_africana",
+          "nome": "Organização da Unidade Africana",
+          "descricao": "Organização de países africanos criada em 1963 e substituída pela União Africana em 2002.",
+          "variantes": [
+            "OUA",
+            "Organisation of African Unity"
+          ]
+        },
+        {
+          "id": "iansa",
+          "nome": "Iansã",
+          "descricao": "Orixá dos ventos, raios e tempestades nas religiões afro-brasileiras.",
+          "variantes": [
+            "Oyá",
+            "Oiá"
+          ]
+        },
+        {
+          "id": "cachoeira_do_tabuleiro",
+          "nome": "Cachoeira do Tabuleiro",
+          "descricao": "Queda-d'água de 273 metros na serra do Espinhaço, em Conceição do Mato Dentro, Minas Gerais.",
+          "variantes": [
+            "Tabuleiro"
+          ]
+        },
+        {
+          "id": "coruja",
+          "nome": "Coruja",
+          "descricao": "Ave de rapina, em geral noturna, da ordem Strigiformes, de olhos grandes voltados para a frente.",
+          "variantes": [
+            "Corujas",
+            "Strigiformes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mancala",
+        "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+        "variantes": [
+          "Kalah",
+          "Manqala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        },
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "deserto_do_kalahari",
+          "nome": "Deserto do Kalahari",
+          "descricao": "Grande região semiárida arenosa do sul da África, em Botsuana, Namíbia e África do Sul",
+          "variantes": [
+            "Kalahari",
+            "Calaári"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mikhail Tal",
+        "descricao": "Grande mestre soviético letão de xadrez, oitavo campeão mundial.",
+        "variantes": [
+          "Mihail Tal",
+          "Mikhail Nekhemievich Tal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        },
+        {
+          "id": "mikhail_gorbachev",
+          "nome": "Mikhail Gorbachev",
+          "descricao": "Último líder da União Soviética, secretário-geral do Partido Comunista de 1985 a 1991.",
+          "variantes": [
+            "Mikhail Gorbatchov",
+            "Mikhail Sergeyevich Gorbachev"
+          ]
+        },
+        {
+          "id": "papai_noel",
+          "nome": "Papai Noel",
+          "descricao": "Personagem lendário que traz presentes no Natal",
+          "variantes": [
+            "Santa Claus",
+            "Pai Natal",
+            "Bom Velhinho"
+          ]
+        },
+        {
+          "id": "teatro_de_arte_de_moscou",
+          "nome": "Teatro de Arte de Moscou",
+          "descricao": "Companhia teatral russa fundada em 1898 por Stanislavski e Nemirovitch-Dantchenko.",
+          "variantes": [
+            "Moscow Art Theatre",
+            "MKhAT"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Dama (carta de baralho)",
+        "descricao": "Carta de baralho francês com figura de rainha, entre o rei e o valete.",
+        "variantes": [
+          "Rainha",
+          "Queen",
+          "Q"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "abelha_rainha",
+          "nome": "Abelha-rainha",
+          "descricao": "Fêmea fértil e reprodutora de uma colônia de abelhas-europeias.",
+          "variantes": [
+            "Rainha",
+            "Queen bee"
+          ]
+        },
+        {
+          "id": "queens",
+          "nome": "Queens",
+          "descricao": "Um dos cinco distritos da cidade de Nova York, a leste de Manhattan, na ilha de Long Island.",
+          "variantes": [
+            "Borough of Queens"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        },
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Anatoly Karpov",
+        "descricao": "Grande mestre russo de xadrez, décimo segundo campeão mundial.",
+        "variantes": [
+          "Anatoli Karpov",
+          "Anatoly Yevgenyevich Karpov"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "andrei_sakharov",
+          "nome": "Andrei Sakharov",
+          "descricao": "Físico nuclear soviético (1921–1989), um dos criadores da bomba de hidrogênio soviética e Nobel da Paz de 1975.",
+          "variantes": [
+            "Andrei Dmitrievich Sakharov"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Mehen",
+        "descricao": "Jogo de tabuleiro do Egito antigo, em espiral de serpente, nomeado em referência à divindade serpente Mehen.",
+        "variantes": [
+          "Jogo da serpente",
+          "Mehen (jogo)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mehndi",
+          "nome": "Mehndi",
+          "descricao": "Arte de pintar desenhos temporários na pele, tradicional em casamentos na Índia e no sul da Ásia.",
+          "variantes": [
+            "Mehendi",
+            "Tatuagem de hena"
+          ]
+        },
+        {
+          "id": "jogo_da_morte",
+          "nome": "Jogo da Morte",
+          "descricao": "Filme de artes marciais de 1978, estrelado por Bruce Lee e concluído após a morte do ator.",
+          "variantes": [
+            "O Jogo da Morte",
+            "Game of Death"
+          ]
+        },
+        {
+          "id": "jeu_de_paume",
+          "nome": "Jeu de paume",
+          "descricao": "Jogo de bola francês, ancestral do tênis, jogado originalmente com a mão e depois com raquete em quadras fechadas.",
+          "variantes": [
+            "Jogo da pela",
+            "Real tennis",
+            "Tênis real"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Resta um é jogo de pinos; nenhuma candidata é o mesmo jogo (Paciência do Windows é jogo de cartas)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Enxadrista norueguês; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tabuleiro Ouija não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Mancala é família de jogos; candidatas são entidades não relacionadas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mikhail Tal é enxadrista; Gorbachev é outra pessoa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Dama carta de baralho difere da dama do xadrez, da carta genérica e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Karpov é enxadrista; Sakharov é outra pessoa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Mehen é jogo egípcio; nenhuma candidata corresponde."
+    }
+  ]
+}

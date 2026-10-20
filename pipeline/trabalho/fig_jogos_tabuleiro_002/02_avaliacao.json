@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tabuleiro de malaquita com 33 casas em cruz e furo central vazio, reconhecível como Resta um; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Os primeiros indícios deste jogo de um jogador só vêm da corte de que rei francês?",
+      "resposta": "Luís XIV",
+      "ancora": {
+        "nome": "Resta um",
+        "descricao": "Jogo de tabuleiro solitário em que se eliminam pinos por saltos, até restar um, num tabuleiro em cruz com furo central.",
+        "variantes": [
+          "Peg solitaire",
+          "Solitaire",
+          "Solo nobre"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública jogando xadrez; a etiqueta VG não entrega o nome.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que país é este enxadrista?",
+      "resposta": "Noruega",
+      "ancora": {
+        "nome": "Magnus Carlsen",
+        "descricao": "Grande mestre norueguês de xadrez, campeão mundial.",
+        "variantes": [
+          "Sven Magnus Øen Carlsen"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Tabuleiro quadriculado com dado e marcas em X; pode ser outra variante de tafl ou outro jogo, resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tabuleiro com alfabeto, números e planchette em forma de coração, claramente do tipo Ouija; o texto não traz o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Como se chama a peça móvel que aparece sobre este tabuleiro e aponta as letras?",
+      "resposta": "Planchette",
+      "ancora": {
+        "nome": "Tabuleiro Ouija",
+        "descricao": "Tabuleiro com letras, números e palavras sim e não, usado com um indicador móvel em sessões espíritas.",
+        "variantes": [
+          "Ouija",
+          "Tábua Ouija",
+          "Tabuleiro espírita",
+          "Talking board"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Baixa resolução, e o tabuleiro com covas grandes nas pontas não distingue oware de outros mancalas."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra apenas rei e rainha num tabuleiro, não um xeque-mate; não representa a entidade."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tabuleiro de madeira com covas e pedrinhas, típico dos jogos da família mancala; a pergunta pela família evita ambiguidade entre variantes.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que família de jogos de tabuleiro é esta?",
+      "resposta": "Mancala",
+      "ancora": {
+        "nome": "Mancala",
+        "descricao": "Família de jogos de tabuleiro para dois jogadores, com sementes ou pedras distribuídas em covas.",
+        "variantes": [
+          "Mancala",
+          "Kalah",
+          "Manqala"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco de figura pública diante de um tabuleiro de xadrez; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade nasceu este campeão mundial de xadrez?",
+      "resposta": "Riga",
+      "distratores": [
+        "Tallinn",
+        "Vilnius",
+        "Minsk"
+      ],
+      "ancora": {
+        "nome": "Mikhail Tal",
+        "descricao": "Grande mestre soviético letão de xadrez, oitavo campeão mundial.",
+        "variantes": [
+          "Mihail Tal",
+          "Mikhail Nekhemievich Tal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Quatro damas, uma de cada naipe, bem visíveis; a mão é só um apoio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que carta de baralho, uma de cada naipe, aparece nesta mão?",
+      "resposta": "Dama (também chamada rainha)",
+      "ancora": {
+        "nome": "Dama (carta de baralho)",
+        "descricao": "Carta de baralho francês com figura de rainha, entre o rei e o valete.",
+        "variantes": [
+          "Rainha",
+          "Queen",
+          "Q"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que cidade russa nasceu este ex-campeão mundial de xadrez?",
+      "resposta": "Zlatoust",
+      "distratores": [
+        "Cheliabinsk",
+        "Perm",
+        "Ecaterimburgo"
+      ],
+      "ancora": {
+        "nome": "Anatoly Karpov",
+        "descricao": "Grande mestre russo de xadrez, décimo segundo campeão mundial.",
+        "variantes": [
+          "Anatoli Karpov",
+          "Anatoly Yevgenyevich Karpov"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tabuleiro circular em espiral com cabeça de serpente, peças azul-turquesa; típico do Mehen, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Este jogo do Egito antigo leva o nome de uma divindade com a forma de que animal?",
+      "resposta": "Serpente",
+      "ancora": {
+        "nome": "Mehen",
+        "descricao": "Jogo de tabuleiro do Egito antigo, em espiral de serpente, nomeado em referência à divindade serpente Mehen.",
+        "variantes": [
+          "Jogo da serpente",
+          "Mehen (jogo)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "As fichas trazem escrito 'Casino de Isthmus City', texto que entrega a resposta, além de serem de um cassino fictício."
+    }
+  ]
+}
