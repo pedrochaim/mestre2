@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Teste da imagem coberta: 'afresco de Michelangelo no Vaticano' leva à Capela Sistina sem olhar a figura; a imagem vira enfeite. Passa a perguntar o autor, que exige reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Quem pintou este afresco do Vaticano?",
+        "resposta": "Michelangelo",
+        "distratores": [
+          "Rafael",
+          "Leonardo da Vinci",
+          "Ticiano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que a figura é um prato de cerâmica, o que não consta em 'mostra' e não dá para confirmar. Retira-se essa afirmação.",
+      "reescrita": {
+        "pergunta": "Que criatura da mitologia grega é esta?",
+        "resposta": "Sátiro",
+        "distratores": [
+          "Centauro",
+          "Minotauro",
+          "Górgona"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, sem vazamento, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam o kraken no Mar da Noruega, junto à costa da Noruega. A pergunta exige reconhecer a criatura, e os distratores são países críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento claro, sem pista no enunciado, com distratores de criaturas míticas gregas e nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Rá é o deus do Sol, representado com cabeça de falcão. É preciso reconhecer a figura (disco solar), pois outros deuses também têm cabeça de falcão.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar a cidade entrega quase o nome do objeto ('tecido venerado' na Itália leva a Turim). A figura vira enfeite. Passa a pedir o reconhecimento do objeto.",
+      "reescrita": {
+        "pergunta": "Que relíquia venerada por cristãos é esta?",
+        "resposta": "Sudário de Turim"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que, para Plínio, o Velho, a doninha é fatal ao basilisco. A criatura só se identifica pela figura, e os distratores são animais pequenos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de símbolo, sem vazamento, com resposta única.",
+      "reescrita": null
+    }
+  ]
+}

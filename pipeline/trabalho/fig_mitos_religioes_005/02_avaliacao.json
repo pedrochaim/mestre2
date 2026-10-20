@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Afresco famoso, sem texto, legível; pergunta de local com distratores.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que local do Vaticano fica este afresco de Michelangelo?",
+      "resposta": "Capela Sistina",
+      "distratores": [
+        "Stanze de Rafael",
+        "Basílica de São Pedro",
+        "Capela Paulina"
+      ],
+      "ancora": {
+        "nome": "A Criação de Adão",
+        "descricao": "Afresco de Michelangelo no teto da Capela Sistina, pintado entre 1508 e 1512, que mostra Deus dando vida a Adão.",
+        "variantes": [
+          "Creazione di Adamo",
+          "The Creation of Adam",
+          "A Criação do Homem"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Sátiro claro (orelha pontuda, cauda, flauta) em prato grego; letras gregas decorativas não entregam a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura da mitologia grega é esta, representada neste prato de cerâmica?",
+      "resposta": "Sátiro",
+      "distratores": [
+        "Centauro",
+        "Minotauro",
+        "Górgona"
+      ],
+      "ancora": {
+        "nome": "Sátiro",
+        "descricao": "Espírito masculino da natureza da mitologia grega, com orelhas e cauda de cavalo, companheiro de Dionísio.",
+        "variantes": [
+          "Sileno",
+          "Satyr"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Grupo de visitantes comuns em primeiro plano, bem visível na imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Menorá de sete braços, clara; o texto refletido no vidro não entrega a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto ritual judaico é este?",
+      "resposta": "Menorá",
+      "ancora": {
+        "nome": "Menorá",
+        "descricao": "Candelabro de sete braços do Tabernáculo e do Templo de Jerusalém, símbolo do judaísmo.",
+        "variantes": [
+          "Menorah",
+          "Menorá do Templo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura clássica do polvo gigante atacando um navio; baixa resolução mas legível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Perto da costa de que país a lenda situa esta criatura marinha?",
+      "resposta": "Noruega",
+      "distratores": [
+        "Escócia",
+        "Espanha",
+        "Japão"
+      ],
+      "ancora": {
+        "nome": "Kraken",
+        "descricao": "Criatura marinha lendária de tamanho colossal, semelhante a um cefalópode, ligada ao mar da Noruega.",
+        "variantes": [
+          "Kraken lendário"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vaso com cena da guerra de Troia e esfinges; não mostra harpia, tem vários assuntos e nomes escritos."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto de gigante com um olho só, reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura da mitologia grega é esta?",
+      "resposta": "Ciclope",
+      "distratores": [
+        "Sátiro",
+        "Centauro",
+        "Minotauro"
+      ],
+      "ancora": {
+        "nome": "Ciclope",
+        "descricao": "Gigante de um olho só da mitologia grega, como Polifemo na Odisseia.",
+        "variantes": [
+          "Ciclopes",
+          "Cyclops",
+          "Polifemo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ilustração limpa de Rá com cabeça de falcão e disco solar, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este deus egípcio, de cabeça de falcão, personificava que astro?",
+      "resposta": "O Sol",
+      "ancora": {
+        "nome": "Rá",
+        "descricao": "Deus do Sol do Egito Antigo, representado com cabeça de falcão e disco solar.",
+        "variantes": [
+          "Ra",
+          "Re"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto do tecido inteiro, sem texto, sem pessoas; reconhecível para quem conhece.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana é guardado este tecido venerado por cristãos?",
+      "resposta": "Turim",
+      "ancora": {
+        "nome": "Sudário de Turim",
+        "descricao": "Tecido de linho com a imagem de um homem, venerado por cristãos como o sudário de Jesus, guardado em Turim.",
+        "variantes": [
+          "Santo Sudário",
+          "Sindone di Torino",
+          "Shroud of Turin"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Xilogravura de criatura com cabeça de galo e cauda de serpente, sem texto; compatível com o basilisco medieval.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Segundo Plínio, o Velho, que pequeno animal é o ponto fraco desta criatura?",
+      "resposta": "Doninha",
+      "distratores": [
+        "Raposa",
+        "Texugo",
+        "Gato"
+      ],
+      "ancora": {
+        "nome": "Basilisco",
+        "descricao": "Réptil lendário dos bestiários europeus, rei das serpentes, cujo olhar mata.",
+        "variantes": [
+          "Basilisk",
+          "Cocatriz"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Símbolo nítido, sem texto, legível no celular.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que símbolo sagrado das religiões indianas é este?",
+      "resposta": "Om",
+      "ancora": {
+        "nome": "Om",
+        "descricao": "Símbolo e sílaba sagrada do hinduísmo, budismo, jainismo e siquismo.",
+        "variantes": [
+          "Aum",
+          "ॐ"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Cena de Héracles com ser de cauda de peixe: pode ser Tritão, Nereu ou Proteu; a resposta não é única."
+    }
+  ]
+}

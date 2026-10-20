@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem pintou este afresco do Vaticano?",
+        "resposta": "Michelangelo"
+      },
+      "existentes": [
+        {
+          "id": "q00414",
+          "pergunta": "Quem pintou esta cena?",
+          "resposta": "Michelangelo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que relíquia venerada por cristãos é esta?",
+        "resposta": "Sudário de Turim"
+      },
+      "existentes": [
+        {
+          "id": "q03624",
+          "pergunta": "Em que século começa a história documentada deste objeto venerado?",
+          "resposta": "Século quatorze"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o autor da mesma obra (imagem) com resposta Michelangelo; mesmo fato.",
+      "id_existente": "q00414"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta identifica o objeto; a outra, o século do início da história documentada. Fatos diferentes."
+    }
+  ]
+}
