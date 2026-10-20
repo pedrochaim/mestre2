@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cone simétrico coberto de neve, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que montanha vulcânica japonesa é esta?",
+      "resposta": "Monte Fuji",
+      "ancora": {
+        "nome": "Monte Fuji",
+        "descricao": "Estratovulcão de cone simétrico na ilha de Honshu, a maior montanha do Japão.",
+        "variantes": [
+          "Fujisan",
+          "Fuji"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Blocos arredondados na grama; não se reconhece madeira petrificada pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Fatia com faixa rosa ao lado de caneta; não é reconhecível como ulexita, pode ser confundida com selenita ou outros."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Várias pedras diferentes, uma delas parece pilão; imagem sem entidade única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Perfil característico do monólito, reconhecível com múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa brasileira, à beira do mar, é esta?",
+      "resposta": "Pedra da Gávea",
+      "distratores": [
+        "Pedra Bonita",
+        "Pão de Açúcar",
+        "Pico do Itatiaia"
+      ],
+      "ancora": {
+        "nome": "Pedra da Gávea",
+        "descricao": "Monólito de granito e gnaisse na Floresta da Tijuca, no Rio de Janeiro, com 844 metros.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Padrão de treliça de cristais em corte atacado de meteorito de ferro, característico.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que padrão de cristais aparece neste corte polido de um meteorito de ferro?",
+      "resposta": "Padrão de Widmanstätten",
+      "distratores": [
+        "Padrão de Liesegang",
+        "Figuras de Lichtenberg",
+        "Bandas de Lüders"
+      ],
+      "ancora": {
+        "nome": "Padrão de Widmanstätten",
+        "descricao": "Figura de longas lâminas de ferro e níquel vista em meteoritos de ferro octaedritos.",
+        "variantes": [
+          "Estrutura de Thomson",
+          "Figuras de Widmanstätten"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Coluna de cinzas sobre cone vulcânico, claramente uma erupção.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno geológico é este?",
+      "resposta": "Erupção vulcânica",
+      "ancora": {
+        "nome": "Vulcão",
+        "descricao": "Abertura na crosta por onde escapam lava, cinzas e gases de uma câmara magmática.",
+        "variantes": [
+          "Erupção vulcânica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Cristal transparente que pode ser selenita, calcita ou quartzo; resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rocha com clastos arredondados numa matriz, típica de conglomerado.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rocha sedimentar é esta, com seixos cimentados numa massa mais fina?",
+      "resposta": "Conglomerado",
+      "distratores": [
+        "Arenito",
+        "Folhelho",
+        "Calcário"
+      ],
+      "ancora": {
+        "nome": "Conglomerado",
+        "descricao": "Rocha sedimentar formada por seixos arredondados cimentados numa matriz mais fina.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dunas brancas com lagoas verdes, paisagem inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parque nacional brasileiro é este?",
+      "resposta": "Lençóis Maranhenses",
+      "ancora": {
+        "nome": "Lençóis Maranhenses",
+        "descricao": "Parque nacional do Maranhão com dunas de areia e lagoas de água doce na estação chuvosa.",
+        "variantes": [
+          "Parque Nacional dos Lençóis Maranhenses"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pedra preta polida, pode ser ônix, obsidiana ou outra; não identificável com unicidade."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Massas arredondadas no fundo do mar, típicas de lava almofadada.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de lava, formada debaixo d'água, é esta?",
+      "resposta": "Lava almofadada",
+      "distratores": [
+        "Lava pahoehoe",
+        "Lava aa",
+        "Lava em blocos"
+      ],
+      "ancora": {
+        "nome": "Lava almofadada",
+        "descricao": "Lava com estruturas arredondadas em forma de almofada, formada por extrusão subaquática.",
+        "variantes": [
+          "Lava em almofada",
+          "Pillow lava"
+        ]
+      }
+    }
+  ]
+}

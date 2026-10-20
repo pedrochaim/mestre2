@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico (montanha vulcânica japonesa) não nomeia nem entrega a resposta; a figura é necessária. Fato confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'À beira do mar' é verdadeiro (trecho: termina diretamente no oceano) e não entrega a resposta; a figura distingue de outras formações cariocas. Distratores do mesmo tipo e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Padrão de cristais em meteorito de ferro' entrega a resposta sem olhar a figura (teste da imagem coberta). Remover a pista.",
+      "reescrita": {
+        "pergunta": "Que padrão cristalino é este?",
+        "resposta": "Padrão de Widmanstätten",
+        "distratores": [
+          "Padrão de Liesegang",
+          "Figuras de Lichtenberg",
+          "Bandas de Lüders"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta ('Erupção vulcânica') não corresponde à entidade mostrada (Vulcão) e a pergunta é vaga demais; vulcão e erupção são respostas defensáveis. Sem conserto seguro.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a rocha (seixos cimentados em massa mais fina), vazando a resposta; a figura vira enfeite.",
+      "reescrita": {
+        "pergunta": "Que rocha sedimentar é esta?",
+        "resposta": "Conglomerado",
+        "distratores": [
+          "Arenito",
+          "Folhelho",
+          "Calcário"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Formada debaixo d'água' identifica a lava almofadada sem a figura; vazamento por definição.",
+      "reescrita": {
+        "pergunta": "Que tipo de lava é este?",
+        "resposta": "Lava almofadada",
+        "distratores": [
+          "Lava pahoehoe",
+          "Lava aa",
+          "Lava em blocos"
+        ]
+      }
+    }
+  ]
+}

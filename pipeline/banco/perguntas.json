@@ -259245,5 +259245,125 @@
       "autor": "Jens L. Franzen, Philip D. Gingerich, Jörg Habersetzer1, Jørn H. Hurum, Wighart von Koenigswald, B. Holly Smith",
       "licenca": "CC BY-SA 2.5"
     }
+  },
+  {
+    "id": "q14006",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "monte_fuji",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que montanha vulcânica japonesa é esta?",
+    "resposta": "Monte Fuji",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Fuji",
+      "https://pt.wikipedia.org/wiki/Monte_Fuji"
+    ],
+    "imagem": {
+      "arquivo": "q14006.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kodaki_fuji_frm_shojinko_refurb.jpg",
+      "autor": "名古屋太郎, (edited by Hannes_24)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14007",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "pedra_da_gavea",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que formação rochosa brasileira, à beira do mar, é esta?",
+    "resposta": "Pedra da Gávea",
+    "distratores": [
+      "Pedra Bonita",
+      "Pão de Açúcar",
+      "Pico do Itatiaia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pedra_da_G%C3%A1vea",
+      "https://pt.wikipedia.org/wiki/Pedra_da_G%C3%A1vea"
+    ],
+    "imagem": {
+      "arquivo": "q14007.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pedra_da_Gavea_proche.jpg",
+      "autor": "Parigot (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14008",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "padrao_de_widmanstatten",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que padrão cristalino é este?",
+    "resposta": "Padrão de Widmanstätten",
+    "distratores": [
+      "Padrão de Liesegang",
+      "Figuras de Lichtenberg",
+      "Bandas de Lüders"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Widmanst%C3%A4tten_pattern",
+      "https://pt.wikipedia.org/wiki/Padr%C3%A3o_Widmanst%C3%A4tten"
+    ],
+    "imagem": {
+      "arquivo": "q14008.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Casas_Grandes_meteorite,_pattern.jpg",
+      "autor": "James St. John",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14009",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "conglomerado",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que rocha sedimentar é esta?",
+    "resposta": "Conglomerado",
+    "distratores": [
+      "Arenito",
+      "Folhelho",
+      "Calcário"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Conglomerate_%28geology%29",
+      "https://pt.wikipedia.org/wiki/Conglomerado"
+    ],
+    "imagem": {
+      "arquivo": "q14009.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lehigh_conglom.jpg",
+      "autor": "Jstuby at en.wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14010",
+    "tema": "Natureza",
+    "subtema": "Geologia e História da Terra",
+    "ancora": "lava_almofadada",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de lava é este?",
+    "resposta": "Lava almofadada",
+    "distratores": [
+      "Lava pahoehoe",
+      "Lava aa",
+      "Lava em blocos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pillow_lava",
+      "https://pt.wikipedia.org/wiki/Lava_em_almofada"
+    ],
+    "imagem": {
+      "arquivo": "q14010.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nur05018-Pillow_lavas_off_Hawaii.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
   }
 ]

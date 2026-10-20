@@ -1,0 +1,54 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que montanha vulcânica japonesa é esta?",
+        "resposta": "Monte Fuji"
+      },
+      "existentes": [
+        {
+          "id": "q02090",
+          "pergunta": "Em que século o Monte Fuji teve a erupção Hoei, que cobriu de cinzas a cidade de Edo, atual Tóquio?",
+          "resposta": "Século dezoito"
+        },
+        {
+          "id": "q02091",
+          "pergunta": "Que artista japonês criou a série Trinta e Seis Vistas do Monte Fuji, que inclui A Grande Onda de Kanagawa?",
+          "resposta": "Hokusai"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que formação rochosa brasileira, à beira do mar, é esta?",
+        "resposta": "Pedra da Gávea"
+      },
+      "existentes": [
+        {
+          "id": "q05317",
+          "pergunta": "Em que cidade brasileira fica este monólito de granito?",
+          "resposta": "Rio de Janeiro"
+        },
+        {
+          "id": "q09626",
+          "pergunta": "Vista de certo ângulo, uma das faces da Pedra da Gávea, no Rio de Janeiro, tem uma forma que lembra o quê?",
+          "resposta": "Um rosto humano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova é de identificação visual do monte; as existentes perguntam sobre a erupção Hoei e sobre Hokusai, que são fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da formação (identificação). A q05317 pergunta a cidade e a q09626 pergunta a forma do rosto, então os fatos são outros."
+    }
+  ]
+}
