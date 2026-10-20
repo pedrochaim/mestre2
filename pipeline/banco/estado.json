@@ -587,9 +587,10 @@
     "fig_energia_matematica_003",
     "fig_energia_matematica_004",
     "fig_mitos_religioes_001",
-    "fig_filosofos_palcos_001"
+    "fig_filosofos_palcos_001",
+    "fig_filosofos_palcos_002"
   ],
-  "maior_id": 14092,
+  "maior_id": 14100,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1124,14 +1125,16 @@
     },
     "filosofos_palcos": {
       "familias": {
-        "o_que_e": 2,
-        "com_o_que_se_liga": 2
+        "o_que_e": 7,
+        "com_o_que_se_liga": 4,
+        "onde": 1
       },
       "niveis": {
-        "2": 3,
-        "3": 1
+        "2": 7,
+        "3": 3,
+        "1": 2
       },
-      "registradas": 4
+      "registradas": 12
     }
   },
   "rendimento": {

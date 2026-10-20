@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá nacionalidade e século (Locke, 1632–1704); a pintura decide. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de lugar sem vazamento; Londres confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pede reconhecer a máscara; o enunciado não entrega o nome. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A escola também é chamada O Jardim, o que dá duas respostas defensáveis; a resposta deve acolher as duas formas.",
+      "reescrita": {
+        "pergunta": "Que escola filosófica foi fundada por este pensador grego em Atenas?",
+        "resposta": "Epicurismo (a escola do Jardim)"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Walden é a obra mais conhecida e leva o nome do lago Walden Pond; o enunciado não nomeia o autor.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento de Pierrô; enunciado sem pista que entregue. Distratores do mesmo universo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico (filósofo chinês); a figura decide. Distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Século terceiro, nascido no Egito romano' permite responder sem a imagem, e 'busto' não está confirmado em mostra. Pista removida e distratores trocados por neoplatônicos.",
+      "reescrita": {
+        "pergunta": "Que filósofo grego antigo é retratado nesta imagem?",
+        "resposta": "Plotino",
+        "distratores": [
+          "Porfírio",
+          "Jâmblico",
+          "Proclo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Palco de ópera ao ar livre' é pista que entrega Verona sem a figura. Pista removida.",
+      "reescrita": {
+        "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+        "resposta": "Verona",
+        "distratores": [
+          "Roma",
+          "Pompeia",
+          "Cápua"
+        ]
+      }
+    }
+  ]
+}

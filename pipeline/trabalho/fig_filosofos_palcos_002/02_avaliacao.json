@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto, claro e legível; filósofo reconhecível, mas parecido com outros retratos da época, então múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo inglês do século dezessete é retratado nesta pintura?",
+      "resposta": "John Locke",
+      "distratores": [
+        "Thomas Hobbes",
+        "David Hume",
+        "George Berkeley"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "John Locke",
+        "descricao": "Filósofo e médico inglês do século XVII, considerado o pai do liberalismo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada nítida do teatro, com placa de rua pequena que não entrega a cidade. Cidade única diante da imagem.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta casa de ópera e de balé?",
+      "resposta": "Londres",
+      "destino": 1,
+      "ancora": {
+        "nome": "Royal Opera House",
+        "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+        "variantes": [
+          "Covent Garden",
+          "Royal Ballet and Opera"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Máscara isolada, nítida, sem texto, com chifres e olhos metálicos característicos; resposta única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máscara do teatro nô japonês é esta?",
+      "resposta": "Hannya",
+      "destino": 1,
+      "ancora": {
+        "nome": "Máscara Hannya",
+        "descricao": "Máscara do teatro nô japonês que representa uma mulher transformada em demônio pelo ciúme.",
+        "variantes": [
+          "Hannya",
+          "Han'nya"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Busto em mármore sem texto, nítido; o retrato clássico de Epicuro. A pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que escola filosófica foi fundada por este pensador grego?",
+      "resposta": "Epicurismo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Epicuro",
+        "descricao": "Filósofo grego (341–270 a.C.), fundador do epicurismo e da escola do Jardim, em Atenas.",
+        "variantes": [
+          "Epicuro de Samos",
+          "Epicurus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Daguerreótipo famoso de Thoreau, sem texto, legível; pergunta pede um segundo fato após o reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que lago americano dá nome à obra mais conhecida deste escritor?",
+      "resposta": "Walden (Walden Pond)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Henry David Thoreau",
+        "descricao": "Escritor, naturalista e filósofo transcendentalista americano do século XIX, autor de Walden e de A Desobediência Civil.",
+        "variantes": [
+          "Thoreau",
+          "David Henry Thoreau"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O vitral traz texto legível ('should not be ... multiplied'), que remete à navalha de Occam e entrega a resposta; imagem também pequena e de baixa resolução."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Figura de Pierrô de rosto branco e blusa larga, nítida; a plaqueta é ilegível. Múltipla com personagens parecidos da commedia dell'arte.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem da commedia dell'arte e da pantomima é este?",
+      "resposta": "Pierrô",
+      "distratores": [
+        "Arlequim",
+        "Polichinelo",
+        "Pantaleão"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pierrô",
+        "descricao": "Personagem clássico da pantomima e da commedia dell'arte, de rosto branco e blusa larga, conhecido como o palhaço triste apaixonado por Colombina.",
+        "variantes": [
+          "Pierrot",
+          "Pedrolino"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pintura clássica do filósofo sobre o boi, sem texto legível (só selos); reconhecível, mas com filósofos chineses semelhantes, então múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo chinês é retratado nesta pintura?",
+      "resposta": "Lao Zi",
+      "distratores": [
+        "Confúcio",
+        "Mêncio",
+        "Zhuangzi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lao Zi",
+        "descricao": "Filósofo chinês tradicionalmente tido como autor do Tao Te Ching e fundador do taoísmo.",
+        "variantes": [
+          "Laozi",
+          "Lao-Tsé",
+          "Laotsé",
+          "Lao Tzu"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Busto em mármore sem texto, nítido; entidade de aficionado, por isso múltipla com filósofos romanos como distratores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo do século terceiro, nascido no Egito romano, é representado neste busto?",
+      "resposta": "Plotino",
+      "distratores": [
+        "Sêneca",
+        "Epicteto",
+        "Marco Aurélio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Plotino",
+        "descricao": "Filósofo grego do século III, nascido no Egito romano, fundador do neoplatonismo.",
+        "variantes": [
+          "Plotinus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O retrato traz a inscrição 'C. de Montesquieu 1728', que entrega o nome e a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada do anfiteatro bem visível, com turistas apenas ao fundo e letreiros que não dizem a cidade. Reconhecível, mas há outros anfiteatros romanos parecidos, então múltipla.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade italiana fica este anfiteatro romano, hoje palco de temporadas de ópera ao ar livre?",
+      "resposta": "Verona",
+      "distratores": [
+        "Roma",
+        "Pompeia",
+        "Cápua"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano muito bem conservado em Verona, na Itália, que recebe um festival de ópera no verão.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A etiqueta com caracteres chineses traz o nome do retratado (Meng Ke), o que entrega a resposta."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que escola filosófica foi fundada por este pensador grego em Atenas?",
+        "resposta": "Epicurismo (a escola do Jardim)"
+      },
+      "existentes": [
+        {
+          "id": "q09538",
+          "pergunta": "Em Atenas, Epicuro reunia seus discípulos num terreno junto de sua casa, que acabou virando o apelido da escola. Que lugar era esse?",
+          "resposta": "O Jardim"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que lago americano dá nome à obra mais conhecida deste escritor?",
+        "resposta": "Walden (Walden Pond)"
+      },
+      "existentes": [
+        {
+          "id": "q07340",
+          "pergunta": "Que escritor americano, autor do livro Walden, trabalhou na fábrica de lápis da família e ajudou a melhorar a qualidade do grafite?",
+          "resposta": "Henry David Thoreau"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+        "resposta": "Verona"
+      },
+      "existentes": [
+        {
+          "id": "q06054",
+          "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+          "resposta": "Verona"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da escola (Epicurismo); a existente pede o lugar, o Jardim. Os fatos são parecidos, mas diferentes. Quem soubesse que o lugar era o Jardim poderia não saber o nome da escola."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre o lago que dá nome à obra Walden. A outra é sobre a fábrica de lápis da família. São fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "As perguntas são idênticas e a resposta é a mesma (Verona).",
+      "id_existente": "q06054"
+    }
+  ]
+}

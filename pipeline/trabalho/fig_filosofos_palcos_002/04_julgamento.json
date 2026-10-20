@@ -1,0 +1,537 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "John Locke",
+        "descricao": "Filósofo e médico inglês do século XVII, considerado o pai do liberalismo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "john_dalton",
+          "nome": "John Dalton",
+          "descricao": "Químico e físico inglês (1766–1844), autor da teoria atômica moderna e primeiro a descrever cientificamente a cegueira para cores.",
+          "variantes": []
+        },
+        {
+          "id": "john_lennon",
+          "nome": "John Lennon",
+          "descricao": "Músico e compositor inglês, cofundador dos Beatles, assassinado em Nova York",
+          "variantes": [
+            "John Winston Lennon"
+          ]
+        },
+        {
+          "id": "john_boyd_dunlop",
+          "nome": "John Boyd Dunlop",
+          "descricao": "Veterinário escocês (1840–1921) que desenvolveu um pneu com câmara de ar prático no fim dos anos 1880.",
+          "variantes": [
+            "John Dunlop"
+          ]
+        },
+        {
+          "id": "jackson_pollock",
+          "nome": "Jackson Pollock",
+          "descricao": "Pintor expressionista abstrato americano, famoso por respingar e gotejar tinta sobre telas no chão, que viveu de 1912 a 1956.",
+          "variantes": [
+            "Paul Jackson Pollock"
+          ]
+        },
+        {
+          "id": "john_logie_baird",
+          "nome": "John Logie Baird",
+          "descricao": "Engenheiro e inventor escocês (1888–1946), pioneiro da televisão mecânica.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Royal Opera House",
+        "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+        "variantes": [
+          "Covent Garden",
+          "Royal Ballet and Opera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "jardim_persa",
+          "nome": "Jardim persa",
+          "descricao": "Tradição de jardins murados do antigo Irã, cujo termo em persa antigo deu origem à palavra paraíso.",
+          "variantes": [
+            "Persian garden",
+            "Pairidaeza"
+          ]
+        },
+        {
+          "id": "wilhelm_rontgen",
+          "nome": "Wilhelm Röntgen",
+          "descricao": "Físico alemão (1845–1923), descobridor dos raios X e primeiro Nobel de Física.",
+          "variantes": [
+            "Wilhelm Conrad Röntgen",
+            "Roentgen"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Máscara Hannya",
+        "descricao": "Máscara do teatro nô japonês que representa uma mulher transformada em demônio pelo ciúme.",
+        "variantes": [
+          "Hannya",
+          "Han'nya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hatenna",
+          "nome": "Hatenna",
+          "descricao": "Pokémon do tipo Psíquico, número 856 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "johanna",
+          "nome": "Johanna",
+          "descricao": "Mãe de Dawn na série Diamante e Pérola do anime Pokémon, moradora de Twinleaf, em Sinnoh.",
+          "variantes": [
+            "Mãe de Dawn"
+          ]
+        },
+        {
+          "id": "rihanna",
+          "nome": "Rihanna",
+          "descricao": "Cantora, compositora e empresária de Barbados, de Umbrella e Diamonds.",
+          "variantes": [
+            "Robyn Rihanna Fenty"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "lorelei_2",
+          "nome": "Lorelei",
+          "descricao": "Treinadora especialista em pokémon de gelo, membro da Elite dos Quatro de Kanto em Pokémon Red e Blue.",
+          "variantes": [
+            "Kanna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Epicuro",
+        "descricao": "Filósofo grego (341–270 a.C.), fundador do epicurismo e da escola do Jardim, em Atenas.",
+        "variantes": [
+          "Epicuro de Samos",
+          "Epicurus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "epicuro",
+          "nome": "Epicuro",
+          "descricao": "Filósofo grego (341–270 a.C.) que fundou em Atenas a escola epicurista, voltada à busca do prazer moderado e da tranquilidade.",
+          "variantes": [
+            "Epicurus"
+          ]
+        },
+        {
+          "id": "teatro_de_epidauro",
+          "nome": "Teatro de Epidauro",
+          "descricao": "Teatro grego antigo do século IV a.C. no santuário de Asclépio, em Epidauro, na Grécia.",
+          "variantes": [
+            "Teatro de Epidaurus",
+            "Epidauro"
+          ]
+        },
+        {
+          "id": "euro",
+          "nome": "Euro",
+          "descricao": "Moeda única adotada por diversos países da União Europeia.",
+          "variantes": [
+            "€"
+          ]
+        },
+        {
+          "id": "montanha_do_pico",
+          "nome": "Montanha do Pico",
+          "descricao": "Estratovulcão da ilha do Pico, no arquipélago dos Açores, o ponto mais alto de Portugal.",
+          "variantes": [
+            "Monte Pico",
+            "Pico"
+          ]
+        },
+        {
+          "id": "icaro",
+          "nome": "Ícaro",
+          "descricao": "Filho de Dédalo que fugiu de Creta voando com asas artificiais e caiu no mar.",
+          "variantes": [
+            "Icarus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Henry David Thoreau",
+        "descricao": "Escritor, naturalista e filósofo transcendentalista americano do século XIX, autor de Walden e de A Desobediência Civil.",
+        "variantes": [
+          "Thoreau",
+          "David Henry Thoreau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "henry_david_thoreau",
+          "nome": "Henry David Thoreau",
+          "descricao": "Escritor e filósofo americano do século dezenove, autor de Walden.",
+          "variantes": []
+        },
+        {
+          "id": "horsea",
+          "nome": "Horsea",
+          "descricao": "Pokémon do tipo Água, número 116 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        },
+        {
+          "id": "thor",
+          "nome": "Thor",
+          "descricao": "Deus nórdico do trovão, filho de Odin, que empunha o martelo Mjölnir.",
+          "variantes": [
+            "Thórr",
+            "Tor"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pierrô",
+        "descricao": "Personagem clássico da pantomima e da commedia dell'arte, de rosto branco e blusa larga, conhecido como o palhaço triste apaixonado por Colombina.",
+        "variantes": [
+          "Pierrot",
+          "Pedrolino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "studio_pierrot",
+          "nome": "Studio Pierrot",
+          "descricao": "Estúdio japonês de animação fundado em 1979.",
+          "variantes": [
+            "Pierrot"
+          ]
+        },
+        {
+          "id": "petrolina",
+          "nome": "Petrolina",
+          "descricao": "Cidade do sertão de Pernambuco, polo de fruticultura irrigada, vizinha de Juazeiro, na Bahia.",
+          "variantes": []
+        },
+        {
+          "id": "hercule_poirot",
+          "nome": "Hercule Poirot",
+          "descricao": "Detetive belga, personagem de dezenas de romances policiais de Agatha Christie.",
+          "variantes": [
+            "Poirot"
+          ]
+        },
+        {
+          "id": "francisco_pizarro",
+          "nome": "Francisco Pizarro",
+          "descricao": "Conquistador espanhol que liderou a conquista do Império Inca na década de 1530.",
+          "variantes": [
+            "Pizarro"
+          ]
+        },
+        {
+          "id": "piers",
+          "nome": "Piers",
+          "descricao": "Líder do ginásio de tipo Sombrio de Spikemuth, em Galar, cantor de rock, nos jogos Pokémon Sword e Shield.",
+          "variantes": [
+            "Nezu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lao Zi",
+        "descricao": "Filósofo chinês tradicionalmente tido como autor do Tao Te Ching e fundador do taoísmo.",
+        "variantes": [
+          "Laozi",
+          "Lao-Tsé",
+          "Laotsé",
+          "Lao Tzu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "laos",
+          "nome": "Laos",
+          "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+          "variantes": [
+            "República Democrática Popular do Laos"
+          ]
+        },
+        {
+          "id": "lacoste",
+          "nome": "Lacoste",
+          "descricao": "Marca francesa de roupas fundada em 1933 pelo tenista René Lacoste, famosa pela camisa polo.",
+          "variantes": [
+            "La Chemise Lacoste",
+            "Lacoste (marca)"
+          ]
+        },
+        {
+          "id": "lotus",
+          "nome": "Lotus",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994.",
+          "variantes": [
+            "Team Lotus"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "turma_da_monica_lacos",
+          "nome": "Turma da Mônica: Laços",
+          "descricao": "Graphic novel de 2013 da Turma da Mônica, adaptada para o cinema em 2019",
+          "variantes": [
+            "Laços"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Plotino",
+        "descricao": "Filósofo grego do século III, nascido no Egito romano, fundador do neoplatonismo.",
+        "variantes": [
+          "Plotinus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "lotus",
+          "nome": "Lotus",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994.",
+          "variantes": [
+            "Team Lotus"
+          ]
+        },
+        {
+          "id": "lotus_2",
+          "nome": "Lótus",
+          "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+          "variantes": [
+            "Flor-de-lótus",
+            "Lótus-sagrado",
+            "Nelumbo nucifera"
+          ]
+        },
+        {
+          "id": "poutine",
+          "nome": "Poutine",
+          "descricao": "Prato canadense de batatas fritas com queijo coalhado e molho de carne quente, surgido em Quebec.",
+          "variantes": [
+            "Poutine canadense"
+          ]
+        },
+        {
+          "id": "kotinos",
+          "nome": "Kotinos",
+          "descricao": "Coroa vegetal dada como prêmio aos vencedores dos Jogos de Olímpia na Grécia Antiga.",
+          "variantes": [
+            "Coroa de oliveira olímpica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Arena de Verona",
+        "descricao": "Anfiteatro romano muito bem conservado em Verona, na Itália, que recebe um festival de ópera no verão.",
+        "variantes": [
+          "Verona Arena",
+          "Arena di Verona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_de_verona",
+          "nome": "Arena de Verona",
+          "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+          "variantes": [
+            "Verona Arena",
+            "Arena di Verona"
+          ]
+        },
+        {
+          "id": "rod_laver_arena",
+          "nome": "Rod Laver Arena",
+          "descricao": "Quadra central do Aberto da Austrália, no complexo Melbourne Park, em Melbourne.",
+          "variantes": [
+            "Arena Rod Laver"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "allen_iverson",
+          "nome": "Allen Iverson",
+          "descricao": "Ex-armador e ala-armador americano da NBA, MVP em 2001 pelo Philadelphia 76ers.",
+          "variantes": [
+            "Iverson",
+            "A.I."
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "John Locke não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Royal Opera House de Londres é distinta das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Máscara Hannya não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "epicuro",
+      "motivo": "Mesmo filósofo grego Epicuro (341–270 a.C.), fundador do epicurismo."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "henry_david_thoreau",
+      "motivo": "Mesmo escritor americano autor de Walden."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Personagem Pierrô é diferente do estúdio de animação Studio Pierrot e das demais."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lao Zi não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Plotino não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "arena_de_verona",
+      "motivo": "Mesmo anfiteatro romano de Verona."
+    }
+  ]
+}
