@@ -1,0 +1,1787 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Pré-História e Idade do Bronze** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Caverna Chauvet",
+      "descricao": "Caverna no sul da França com algumas das pinturas rupestres mais antigas conhecidas, descoberta em 1994."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A caverna Chauvet, no sul da França, famosa por pinturas de mais de trinta mil anos, deve o seu nome a quem?",
+    "resposta": "Seu descobridor, Jean-Marie Chauvet",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chauvet_Cave"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chauvet_Cave",
+        "situacao": "ok",
+        "texto": "The Chauvet-Pont-d'Arc Cave (French: Grotte Chauvet-Pont d'Arc [ɡʁɔt ʃovɛ pɔ̃ daʁk]) in the Ardèche department of southeastern France is a cave that contains some of the best-preserved figurative cave paintings in the world, as well as other evidence of Upper Paleolithic life. It is located near the commune of Vallon-Pont-d'Arc on a limestone cliff above the former bed of the river Ardèche, in the\n[…]\nRediscovered on 18 December 1994, it is considered one of the most important prehistoric art sites, and on 22 June 2014 the UN's cultural agency UNESCO granted it World Heritage status. The cave was first explored by a group of three speleologists: Eliette Brunel-Deschamps, Christian Hillaire, and Jean-Marie Chauvet (for whom the cave was named) six months after an aperture now known as \"Le Trou de Baba\" ('Baba's Hole') was discovered by Michel Rosa (Baba).\n[…]\nChauvet, Jean-Marie; Eliette Brunel Deschamps; Christian Hillaire (1996). Dawn of Art: The Chauvet Cave. Paul G. Bahn (Foreword), Jean Clottes (Epilogue). New York: Harry N. Abrams. ISBN 0-8109-3232-6.; UK edition. Chauvet Cave: The Discovery of the World's Oldest Paintings (Thames & Hudson, 1996). English translation by Paul G. Bahn from the French edition La Grotte Chauvet.\n[…]\nClottes, Jean (2003a). Return To Chauvet Cave, Excavating the Birthplace of Art: The First Full Report. Thames & Hudson. p. 232. ISBN 0-500-51119-5.\n[…]\nClottes, Jean (2003b). Chauvet Cave: The Art of Earliest Times. Paul G. Bahn (translator). University of Utah Press. ISBN 0-87480-758-1. Translation of La Grotte Chauvet, l'art des origins, Éditions du Seuil, 2001.\n[…]\nAncient Grand Masters: Chauvet Cave, France A brief article by Jean Clottes of the French Ministry of Culture, responsible for overseeing the authentication of the contents and art of the cave\n[…]\nChauvet Cave (ca. 30,000 b.c.) on the Metropolitan Museum of Art's Timeline of Art History"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caverna_de_Chauvet",
+        "situacao": "ok",
+        "texto": "A Caverna de Chauvet ou Chauvet-Pont-d'Arc está localizada ao sul da França. Tornou-se famosa em 1994 quando um trio de espeleólogos descobriu que ela continha os restos fossilizados de muitos animais, incluindo alguns já extintos. Mais importante que isso, descobriram que as paredes da caverna são ricamente decoradas com pinturas rupestres. Junto com Lascaux, Serra da Capivara e a Caverna de Alta\n[…]\nAs gargantas da região de Ardèche têm numerosas cavernas, muitas com importância geológica ou arqueológica. Entretanto a caverna de Chauvet é incaracteristicamente longa e a quantidade, qualidade e o estado de conservação das pinturas encontradas em suas paredes tem sido chamado de espetacular.\n[…]\nParece ter sido ocupada por humanos em dois diferentes períodos. A maior parte das pinturas é do mais antigo (30.000 a 32.000 anos). A última ocupação  (25.000 a 27.000 anos) deixou poucas marcas, como a impressão de um pé de criança, restos de fogueiras e a fuligem das tochas usadas para clarear mas que enfumaçou as pinturas. A caverna ganhou esse nome por seu descobridor, Jean-Marie Chauvet, que a descobriu em 18 de dezembro de 1994, juntamente com Christian Hillaire e Eliette Brunel-Deschamps.\n[…]\nDezesseis anos depois da descoberta da caverna o diretor alemão Werner Herzog escreveu, dirigiu e narrou o filme A caverna dos sonhos perdidos, um documentário que mostra as imagens de arte parietal com a tecnologia em 3D, entre declarações dos cientistas (arqueozoólogos, espeleólogos, antropólogos) responsáveis pela exploração da caverna.\n[…]\nA Caverna de Chauvet foi incluída na lista de patrimônio Mundial da UNESCO por \"conter os mais antigos e bem preservados desenhos figurativos do mundo, datando do Período Aurinaciano (30.000 a 32.000 a.C.), tornando-a um testemunho excepcional da arte pré-histórica\"\n[…]\n«Site sobre a caverna feito pelo Minisitério de Cultura da França»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Caverna Chauvet",
+      "descricao": "Caverna no sul da França com algumas das pinturas rupestres mais antigas conhecidas, descoberta em 1994."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A caverna Chauvet, com pinturas rupestres de mais de trinta mil anos, fica junto às gargantas de que rio francês?",
+    "resposta": "Ardèche",
+    "distratores": [
+      "Dordonha",
+      "Loire",
+      "Sena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chauvet_Cave"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chauvet_Cave",
+        "situacao": "ok",
+        "texto": "The Chauvet-Pont-d'Arc Cave (French: Grotte Chauvet-Pont d'Arc [ɡʁɔt ʃovɛ pɔ̃ daʁk]) in the Ardèche department of southeastern France is a cave that contains some of the best-preserved figurative cave paintings in the world, as well as other evidence of Upper Paleolithic life. It is located near the commune of Vallon-Pont-d'Arc on a limestone cliff above the former bed of the river Ardèche, in the\n[…]\nThe cave is situated above the previous course of the Ardèche before the Pont d'Arc opened up. The gorges of the Ardèche region are the site of numerous caves, many of them having some geological or archaeological importance.\n[…]\nIn parallel with the dating carried out in Chauvet cave itself, from 2008 onwards, several members of the scientific team in charge of studying the cave undertook chronological research in other rock art sites along the Ardèche river gorges under the direction of Julien Monney. It took place at Points cave (Aiguèze; Gard; France), which presents flagrant iconographic similarities with Chauvet cave, but also at Deux-Ouvertures cave.\n[…]\nCaverne du Pont-d'Arc (Grotte Chauvet 2), a facsimile of Chauvet Cave on the model of the so-called \"Faux Lascaux\", was opened to the general public on 25 April 2015. It is the largest cave replica ever built worldwide, ten times bigger than the Lascaux facsimile. The art is reproduced full-size in a condensed replica of the underground environment, in a circular building above ground, a few kilometres from the actual cave.\n[…]\nThe Cave of Chauvet-Pont-d'Arc French Ministry of Culture information site; includes an interactive map with photos.\n[…]\nAncient Grand Masters: Chauvet Cave, France A brief article by Jean Clottes of the French Ministry of Culture, responsible for overseeing the authentication of the contents and art of the cave\n[…]\nChauvet Cave (ca. 30,000 b.c.) on the Metropolitan Museum of Art's Timeline of Art History"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caverna_de_Chauvet",
+        "situacao": "ok",
+        "texto": "A Caverna de Chauvet ou Chauvet-Pont-d'Arc está localizada ao sul da França. Tornou-se famosa em 1994 quando um trio de espeleólogos descobriu que ela continha os restos fossilizados de muitos animais, incluindo alguns já extintos. Mais importante que isso, descobriram que as paredes da caverna são ricamente decoradas com pinturas rupestres. Junto com Lascaux, Serra da Capivara e a Caverna de Alta\n[…]\nAs gargantas da região de Ardèche têm numerosas cavernas, muitas com importância geológica ou arqueológica. Entretanto a caverna de Chauvet é incaracteristicamente longa e a quantidade, qualidade e o estado de conservação das pinturas encontradas em suas paredes tem sido chamado de espetacular.\n[…]\nParece ter sido ocupada por humanos em dois diferentes períodos. A maior parte das pinturas é do mais antigo (30.000 a 32.000 anos). A última ocupação  (25.000 a 27.000 anos) deixou poucas marcas, como a impressão de um pé de criança, restos de fogueiras e a fuligem das tochas usadas para clarear mas que enfumaçou as pinturas. A caverna ganhou esse nome por seu descobridor, Jean-Marie Chauvet, que a descobriu em 18 de dezembro de 1994, juntamente com Christian Hillaire e Eliette Brunel-Deschamps.\n[…]\nEm abril de 2015, foi inaugurada uma cópia em tamanho real da caverna. No espaço, criado graças ao trabalho de arquitetos, pintores, escultores e outros artistas, podem ser admiradas réplicas das pinturas rupestres. A original nunca foi aberta ao público, para evitar a degradação da caverna.\n[…]\nA Caverna de Chauvet foi incluída na lista de patrimônio Mundial da UNESCO por \"conter os mais antigos e bem preservados desenhos figurativos do mundo, datando do Período Aurinaciano (30.000 a 32.000 a.C.), tornando-a um testemunho excepcional da arte pré-histórica\"\n[…]\n«Site sobre a caverna feito pelo Minisitério de Cultura da França»\n[…]\n«A caverna dos sonhos perdidos, no site oficial de W. Herzog»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Caverna de Lascaux",
+      "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Durante a Segunda Guerra Mundial, quatro adolescentes franceses descobriram as pinturas da caverna de Lascaux. Em que ano?",
+    "resposta": "1940",
+    "distratores": [
+      "1939",
+      "1942",
+      "1944"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lascaux"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lascaux",
+        "situacao": "ok",
+        "texto": "Lascaux (English:  la-SKOH, US also  lah-SKOH; French: Grotte de Lascaux French pronunciation: [ɡʁɔt də lasko], \"Lascaux Cave\") is a network of caves near the village of Montignac, in the department of Dordogne in southwestern France. Over 600 parietal wall paintings cover the interior walls and ceilings of the cave. The paintings represent primarily large animals, typical local contemporary fauna\n[…]\nOn 12 September 1940, the entrance to the Lascaux Cave was discovered on the La Rochefoucauld-Montbel lands by 18-year-old Marcel Ravidat when his dog investigated a hole left by an uprooted tree (Ravidat would embellish the story in later retellings, saying the dog had fallen into the cave). Ravidat returned to the scene with three friends, Jacques Marsal, Georges Agnel, and Simon Coencas.\n[…]\nThey returned along with the Abbé Henri Breuil on 21 September 1940; Breuil would make many sketches of the cave, some of which are used as study material today due to the extreme degradation of many of the paintings. Breuil was accompanied by Denis Peyrony, curator of the National Museum of Prehistory at Les Eyzies, Jean Bouyssonie and Dr Cheynier.\n[…]\nB.et G. Delluc (dir.), Le Livre du Jubilé de Lascaux 1940–1990, Société historique et archéologique du Périgord, supplément au tome CXVII, 1990, 155 p., ill.\n[…]\nB. et G. Delluc, 2003: Lascaux retrouvé. Les recherches de l'abbé André Glory, Pilote 24 édition, 368 p., ill.\n[…]\nA. Glory, 2008: Les recherches à Lascaux (1952–1963). Documents recueillis et présentés par B. et G. Delluc, XXXIXe suppl. à Gallia-Préhistoire, CNRS, Paris.\n[…]\nRigaud, Jean-Philippe (October 1988). \"Art Treasures from the Ice Age: Lascaux Cave\". National Geographic. Vol. 174, no. 4. pp. 482–499. ISSN 0027-9358. OCLC 643483454.\n[…]\nThe microbiology of Lascaux Cave\n[…]\nLascaux Cave Art Symposium The Bradshaw Foundation\n[…]\nLascaux Symphony by Alan Bush, performed by the Royal Scottish National Orchestra"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lascaux",
+        "situacao": "ok",
+        "texto": "Lascaux (Inglês [læˈskoʊ] la-SKOH, [USalsolɑːˈskoʊ] lah-SKOH; em francês: Grotte de Lascaux fr, \"Cavernas Lascaux\") é um complexo de cavernas perto da comuna de Montignac, no departamento de Dordonha, no sudoeste da França, famosas por suas pinturas rupestres.\n[…]\nMais de 600 pinturas murais parietais cobrem as paredes internas e os tetos da caverna. As investigações levadas a cabo durante os últimos decénios permitem situar a cronologia das pinturas no final do Solutrense e princípio do Madalenense, ou seja, 17.000 anos AP.\n[…]\nEm função da notável arte pré-histórica na caverna, Lascaux foi incluída na Lista do Patrimônio Mundial da UNESCO em 1979, como um elemento dos sítios pré-históricos e cavernas decoradas do Vale do rio Vézère.\n[…]\nFoi descoberta no dia 12 de Setembro de 1940 por quatro adolescentes: Marcel Ravidat, Jacques Marsal, Georges Agnel e Simon Coencas, que avisaram ao seu antigo professor, Léon Laval. O pré-historiador Henri Breuil, refugiado na zona durante a ocupação nazi, foi o primeiro especialista que visitou Lascaux, em 21 de Setembro de 1940, em companhia de Jean Bouyssonnie e André Cheynier. H. Breuil foi também o primeiro em autenticá-la, descrevê-la e estudá-la.\n[…]\nDe seguido, realizou os primeiros calcos desde fins de 1940, passando vários meses in situ para analisar as obras, que atribuiu ao período perigordiano.\n[…]\nA caverna foi classificada entre os monumentos históricos da França desde o mesmo ano da sua descoberta, a 27 de Dezembro de 1940.\n[…]\nA Abside contém mais de mil gravuras, algumas superpostas a pinturas, correspondendo a animais e signos. Aqui está a única rena figurada de Lascaux.\n[…]\n«Sitio das Grutas de Lascaux» (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Caverna de Altamira",
+      "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Os bisões pintados no teto da caverna de Altamira, na Espanha, foram feitos em que período da Pré-História?",
+    "resposta": "Paleolítico",
+    "distratores": [
+      "Neolítico",
+      "Mesolítico",
+      "Idade do Bronze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cave_of_Altamira"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cave_of_Altamira",
+        "situacao": "ok",
+        "texto": "The Cave of Altamira ( AL-tə-MEER-ə; Spanish: Cueva de Altamira [ˈkweβa ðe altaˈmiɾa]) is a cave complex, located near the historic town of Santillana del Mar in Cantabria, Spain. It is renowned for prehistoric cave art featuring charcoal drawings and polychrome paintings of contemporary local fauna and human hands. The earliest paintings were applied during the Upper Paleolithic, around 36,000 ye\n[…]\nAltamira is located in the Franco-Cantabrian region and in 1985 was declared a World Heritage Site by UNESCO as a key location of the Cave of Altamira and Paleolithic Cave Art of Northern Spain. The cave can no longer be visited, for conservation reasons, but there are replicas of a section at the site and elsewhere.\n[…]\nArchaeological excavations in the cave floor found rich deposits of artifacts from the Upper Solutrean (c. 18,500 years ago) and Lower Magdalenian (between c. 16,590 and 14,000 years ago). Both periods belong to the Paleolithic or Old Stone Age. In the two millennia between these two occupations, the cave was evidently inhabited only by wild animals.\n[…]\nDated to the Magdalenian occupation, these paintings include abstract shapes in addition to animal subjects. Solutrean paintings include images of horses and goats, as well as handprints that were created when artists placed their hands on the cave wall and blew pigment over them to leave a negative image. Numerous other caves in northern Spain contain Paleolithic art, but none are as complex or well-populated as Altamira.\n[…]\nSome of the polychrome paintings at Altamira Cave are well known in Spanish popular culture. The logo used by the autonomous government of Cantabria to promote tourism to the region is based on one of the bisons in this cave. Bisonte (Spanish for \"bison\"), a Spanish cigarette brand of the 20th century, also used a Paleolithic style bison figure along with its logo.\n[…]\nArt of the Upper Paleolithic"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caverna_de_Altamira",
+        "situacao": "ok",
+        "texto": "Altamira é uma caverna na qual se conserva um dos conjuntos pictóricos mais importantes da Pré-história. Fica no município espanhol de Santillana del Mar, Cantábria, num prado do qual tomou o nome. Por volta de 11 000 a.C., a queda de uma rocha bloqueou a entrada da caverna, impedindo a continuidade da ocupação humana e assim preservando o seu interior.\n[…]\nFoi declarada Património da Humanidade em 1985. Em 2008, a nomeação foi estendida  para outras 17 cavernas do País Basco, das Astúrias e da própria Cantábria,  chamando o conjunto \"Caverna de Altamira e arte rupestre paleolítica do norte da Espanha\".\n[…]\nOs povoadores da zona de Altamira eram tribos de caçadores-coletores nómadas, formados por volta de entre 20 e 30 indivíduos, que usavam os abrigos naturais ou entradas das cavernas como habitação, mas não o seu interior, e faziam uso do fogo para se iluminar e para cozinhar. As escavações fizeram pensar aos arqueólogos que durante o Paleolítico superior os lumes eram limpados e renovados periodicamente, ao contrário do Paleolítico Meio, no qual os lumes eram mantidos de modo constante.\n[…]\nA Caverna de Altamira foi declarada Patrimônio da Humanidade pela UNESCO em 1985. Posteriormente, em 2008, foi estendida a proteção para outras 17 cavernas com vestígios humanos (talvez as mais bem conservadas e representativas de um grupo maior conhecido como Arte rupestre paleolítica do norte da Espanha).\n[…]\nA arte paleolítica da caverna de Altamira teve uma influência no âmbito social, além da que teve para os estudos pré-históricos. Assim, no mundo da pintura deu pé à criação da Escola de Altamira de pintura moderna; e Picasso, após uma visita, exclamou: \"Após Altamira, tudo parece decadente\". Outros artistas de ramos diversos também entenderam a importância, assim Rafael Alberti escreveu um poema descrevendo a sensação da visita que realizou.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Caverna Cosquer",
+      "descricao": "Caverna perto de Marselha, na França, com pinturas paleolíticas e entrada submersa no Mediterrâneo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A caverna Cosquer, perto de Marselha, tem pinturas feitas na era glacial, mas hoje a sua entrada fica debaixo d'água. Por quê?",
+    "resposta": "O nível do mar subiu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cosquer_Cave"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cosquer_Cave",
+        "situacao": "ok",
+        "texto": "Cosquer Cave ([kɔskɛʁ]) is located in the Calanque de Morgiou in Marseille, France, near Cap Morgiou. The entrance to the cave is located 37 m (121 ft) underwater, due to the Holocene sea level rise, and contains various prehistoric rock art engravings. Its submarine entrance was discovered in 1985 by Henri Cosquer, a professional diver.\n[…]\nIn June 1992, another mission resulted in the production of a film, The Secret of Cosquer Cave. Between 2001 and 2005, and again from 2010 to 2015, a series of archaeological research operations led by Luc Vanrell, with contributions from Michel Olive, further studied the cave.\n[…]\nA legal dispute emerged between Cosquer and the Ministry of Culture regarding compensation under a 2001 law on preventive archaeology. This law entitles discoverers to financial rewards based on the site's archaeological value. Cosquer sought a reward and a share of profits from book sales featuring cave photographs. Henri Cosquer also claimed a reward and the recovery of part of the proceeds from the sale of books of photographs of the cave.\n[…]\nIn 2022, a replica at Cosquer Méditerranée was inaugurated in the Villa Méditerranée (a 2013 work of the architect Stefano Boeri) in the port of Marseille.\n[…]\nCosquer’s Cave Grotto Cosquer\n[…]\nPrehistory and coastal karst area: Cosquer Cave and the “Calanques” of Marseille Archived 2011-09-28 at the Wayback Machine\n[…]\nFrench Ministry of Culture (2022). \"Cosquer cave | Archéologie sous-marine\". archeologie.culture.gouv.fr. Retrieved 4 July 2022.\n[…]\nThe Cosquer Cave Prehistoric Images and Medicines Under the Sea by Jean Clottes, Jean Courtin and Luc Vanrell"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caverna_de_Cosquer",
+        "situacao": "ok",
+        "texto": "A Caverna de Cosquer se localiza no Cabo Morgiou, perto de Marselha, França. Essa caverna, cuja entrada está submersa, foi descoberta por Henri Cosquer em 1991.\n[…]\nNa atualidade a caverna tem acesso através de um longo túnel de 175 metros de comprimento, cuja entrada está localizada a 37 metros abaixo do nível do mar.\n[…]\nHá 20 000 anos, durante a última Idade do Gelo, grandes volumes de água foram retidos em enormes calotas polares, fazendo o nível do mar 110 a 120 metros mais baixo que hoje. A costa do Mar Mediterrâneo estava então vários quilômetros da caverna.\n[…]\nEssa caverna contém várias dezenas de pinturas e incrustações que datam do Paleolítico Superior, com duas diferentes fases de ocupação da caverna:\n[…]\nJean Clottes, Jean Courtin, La grotte Cosquer, Seuil, 1994, ISBN 2-02-019820-7 (em francês)\n[…]\nJean Clottes, Jean Courtin, Luc Vanrell, Cosquer redécouvert, Seuil, 2005, ISBN 2-02-065550-0 (em francês)\n[…]\nThe Cave Beneath the Sea: Paleolithic Images at Cosquer by Jean Clottes and Jean Courtin (1996) Harry N. Abrams, Inc., New York ISBN 0-8109-4033-7 (traduzido em inglês a partir da edição francesa por Marilyn Garner)\n[…]\nPágina Oficial da Caverna de Cosquer",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Monte Verde",
+      "descricao": "Sítio arqueológico no sul do Chile com sinais de ocupação humana de mais de catorze mil anos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O sítio arqueológico de Monte Verde, que mostrou presença humana nas Américas há mais de catorze mil anos, fica em que país?",
+    "resposta": "Chile",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monte_Verde"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monte_Verde",
+        "situacao": "ok",
+        "texto": "Monte Verde is a Paleolithic archaeological site in the Llanquihue Province in southern Chile, located near Puerto Montt, Los Lagos Region. The site is primarily known for Monte Verde II, generally suggested to date to 14,500 years ago, which has been largely accepted (though not without dissent) as showing that the human settlement of the Americas predates the Clovis culture by at least 1,000 yea\n[…]\nThe bone later proved to be from Notiomastodon, a gomphothere related to modern elephants. Tom Dillehay, an American anthropologist and professor at the Universidad Austral de Chile at the time, started excavating Monte Verde in 1977.\n[…]\nIn 2026, a new study by researchers from the U.S. and Chile challenged the timeline of Monte Verde II occupation, suggesting the campsite was much younger than previously proposed and was not occupied until the Middle Holocene, after 8,200 years ago. This was the first independent analysis and dating of stratigraphy near the archaeological site (which was destroyed by flooding decades ago), as Dillehay and colleagues maintained exclusive permits.\n[…]\nIn March 2026, the Fundación Monte Verde, of which Dillehay is the president, filed complaints with Chile's Consejo de Monumentos Nacionales (CMN). The complaint alleged irregularities in archaeological sampling activities conducted by archaeologist César Méndez, one of the coauthors of the study, and requested the invalidation of permits and retraction of associated publications in Science magazine.\n[…]\nThe only other archaeological site in Southern Chile comparable in age to Monte Verde is Pilauco Bajo, dated to 12,500–11,000 BP. Researchers postulated that the two sites were complementary – Monte Verde would be a habitation site, and Pilauco Bajo would be a hunting and scavenging site. Further south lies the Pali Aike Crater lava tube, dated to 14,000–10,000  BP.\n[…]\nPrehispanic history of Chile"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Verde_%28Chile%29",
+        "situacao": "ok",
+        "texto": "Monte Verde é um sítio arqueológico localizado perto de Puerto Montt, na área sul-central do Chile. O local está localizado às margens do ribeiro Chinchihuapi, tributário do rio Maullín, a 36 milhas do Oceano Pacífico.\n[…]\nEm 1975, un estudante viu um osso coletado por camponeses perto do riacho Chinchihuapi. Posteriormente, se provou que o era de um Gomphotherium. Mario Pino, um geólogo chileno da Universidade Austral do Chile, e Tom Dillehay começaram a escavar em Monte Verde em 1977. Dillehay e sua equipe voltaram para realizar outra escavação em Monte Verde I, que foi datado para cerca de 18.500 a 14.500 BP.\n[…]\nMonte Verde é anterior à chamada Cultura Clóvis, em Clovis. Isso contradiz o modelo anteriormente aceito de \"primeiro Clovis\", que afirma que a colonização das Américas começou após 13.500 cal BP. As descobertas de Monte Verde foram inicialmente rejeitadas pela maioria da comunidade científica, mas posteriormente as evidências se tornaram muito aceitas nos círculos arqueológicos.\n[…]\nEmbora testar teorias de migração costeira possa ser difícil devido ao aumento do nível do mar desde o último máximo glacial, os arqueólogos estão cada vez mais dispostos a aceitar a possibilidade de que o assentamento inicial das Américas ocorreu através da costa.\n[…]\nArqueologia\n[…]\nProjeto Monte Verde\n[…]\nMonte Verde no site na UNESCO\n[…]\nhttp://www.unl.edu/rhames/monte_verde/monte_verde1.htm",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Arte rupestre do Vale do Côa",
+      "descricao": "Conjunto de gravuras paleolíticas ao ar livre no vale do rio Côa, no norte de Portugal."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos noventa, Portugal suspendeu uma grande obra para salvar as gravuras pré-históricas do Vale do Côa. Que obra era essa?",
+    "resposta": "Uma barragem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/C%C3%B4a_Valley_Paleolithic_Art"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/C%C3%B4a_Valley_Paleolithic_Art",
+        "situacao": "ok",
+        "texto": "Prehistoric Rock Art Sites in the Côa Valley and Siega Verde are a United Nations Educational, Scientific and Cultural Organization (UNESCO) transboundary World Heritage Site, located in the Côa Valley of Portugal and Siega Verde, Spain.\n[…]\nBaptista, António Martinho; Gomes, Mário Varela (1996), Arte rupestre do vale do Côa. (Fichas interpretativas Canada do Inferno e Penascosa) (in Portuguese), Lisbon, Portugal{{citation}}:  CS1 maint: location missing publisher (link)\n[…]\nCarvalho, António Faustino de; Zilhão, João; Aubry, Thierry (1996), \"Lisbon, Portugal\", Vale do Côa. Arte Rupestre e Pré-História (in Portuguese)\n[…]\nZilhão, João (1997), Arte rupestre e pré-história do vale do Côa. Trabalhos de 1995–1996 (in Portuguese), Lisbon, Portugal{{citation}}:  CS1 maint: location missing publisher (link)\n[…]\nBaptista, António Martinho (1998), Arte rupestre do vale do Côa. (Fichas interpretativas Canada do Inferno, Penascosa e Piscos) (in Portuguese), Lisbon, Portugal{{citation}}:  CS1 maint: location missing publisher (link)\n[…]\nCNART, ed. (1999), Inventário da arte rupestre do Vale do Côa (in Portuguese), Vila Nova de Foz Côa, Portugal: CNART – Centro Nacional de Arte Rupestre\n[…]\nBaptista, António Martinho (2001), A Arte Rupestre e o Parque Arqueológico do Vale do Côa. Um exemplo de estudo e salvaguarda do património rupestre pré-histórico em Portugal (PDF), Donostia, Spain: XV Congreso de Estudios Váscos: Ciencia y cultura vasca. y redes telemáticas, pp. 61–67, ISBN 84-8419-949-5, archived from the original (PDF) on 2016-08-09, retrieved 2011-08-02\n[…]\n\"Arte Rupestre Móvel no Côa\", Jornal de Notícias (in Portuguese), 16 October 2005\n[…]\n\"Gravuras indiciam que houve uma escola de arte rupestre\", Diário de Notícias (in Portuguese), 18 March 2006"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%ADtios_de_arte_rupestre_do_Vale_do_Coa",
+        "situacao": "ok",
+        "texto": "Os sítios de arte rupestre do Vale do Coa (pré-AO 1990: Vale do Côa), constituem uma rara concentração de arte rupestre composta por gravuras em pedra datadas do Paleolítico Superior (22 000–10 000 a.C.), situada ao longo das margens do rio Côa, nos municípios de Vila Nova de Foz Côa, Figueira de Castelo Rodrigo, Mêda e Pinhel.\n[…]\nApós alguns anos de trabalhos em campo, uma pequena equipa liderada pelo arqueólogo Transmontano, Nélson Rebanda, o património mundial enriqueceu-se em 1994 com o achado do maior complexo de arte rupestre paleolítico ao ar livre conhecido até hoje. Há 20 000 anos, o homem gravou milhares de desenhos representando cavalos e bovídeos nas rochas xistosas do Vale do Côa, afluente do rio Douro, no nordeste de Portugal.\n[…]\nDevido ao interesse na costrução de uma barragem no Rio Côa, o Governo português, na altura liderado por Cavaco Silva, não revelou a existência das gravuras rupestres à população portuguesa, até que, em novembro de 1994, uma equipa de arqueólogos portugueses, onde se incluem Mila Simões de Abreu, João Zilhão e outros, vieram a público divulgar a existência e a importância das gravuras para a história do Paleolítico, tendo a SIC tido um papel crucial na mediatização da descoberta, tendo sido desencadeado assim o Movimento para a Salvaguarda das Gravuras de Foz Côa.\n[…]\nRocha 1, com figuras densamente sobrepostas, mostrando a associação de dois bovídeos e a gravura de um cavalo, ou cervídeo. Gravuras incisas preenchidas com traços múltiplos. O caprídeo também está, embora escassamente, representado. Existem mais 10 painéis, submersos pelas águas do regolfo da barragem do Pocinho. Incluem um possível veado em sobreposição e um cavalo com cerca de 180 cm. Localizado na freguesia de Vila Nova de Foz Coa.\n[…]\nLocalizado em Vale de Afonsinho (Figueira de Castelo Rodrigo).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Uruk",
+      "descricao": "Antiga cidade suméria da Baixa Mesopotâmia, onde surgiram alguns dos primeiros registros escritos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As ruínas de Uruk, cidade suméria onde surgiram alguns dos registros escritos mais antigos, ficam hoje em que país?",
+    "resposta": "Iraque",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uruk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Uruk",
+        "situacao": "ok",
+        "texto": "Uruk, the archeological site known today as Warka, was an ancient city in the Near East or West Asia, located east of the current bed of the Euphrates River, on an ancient, now-dried channel of the river in Muthanna Governorate, Iraq. The site lies 93 kilometers (58 miles) northwest of ancient Ur, 108 kilometers (678 miles) southeast of ancient Nippur, and 24 kilometers (15 miles) northwest of anc\n[…]\nUruk () has several spellings in cuneiform. In Sumerian, it is 𒀕𒆠 unugᵏⁱ, and in Akkadian, it is spelled 𒌷𒀕 or 𒌷𒀔 Uruk (URUUNUG). In Arabic, it is called وركاء (Warkāʾ) or أوروك (Auruk); in Syriac, ܐܘܿܪܘܿܟ (ʾÚrūk); and in Biblical Hebrew, אֶרֶךְ (ʾÉreḵ). In Ancient Greek, it was known as Ὀρχόη (Orkhóē), Ὀρέχ (Orékh), and Ὠρύγεια (Ōrúgeia).\n[…]\nAusgrabungen in Uruk-Warka, Endberichte (AUWE), 25 volumes, 1987–2007\n[…]\nThe Mask of Warka, also known as the 'Lady of Uruk' and the 'Sumerian Mona Lisa', dating from 3100 BC, is one of the earliest representations of the human face. The carved marble female face is probably a depiction of Inanna. It is approximately 20 cm (7.9 in) tall, and may have been incorporated into a larger cult image. The mask was looted from the Iraq Museum during the invasion of Iraq in April 2003. It was recovered in September 2003 and returned to the museum.\n[…]\nUruk I\n[…]\nHe commented that other scans of that part of the site so far were a surprisingly good match for Sumerian descriptions of Uruk as it was in Gilgamesh's day, making the theory that the poem was also right about the tomb more plausible.\n[…]\nThe Sumerian King List (SKL) lists only 22 rulers among five dynasties of Uruk. The sixth dynasty was an Amorite dynasty not mentioned on the SKL. The following list should not be considered complete.\n[…]\n[6] Brandes, Mark A., \"Untersuchungen zur Komposition der Stiftmosaiken an der Pfeilerhalle der Schicht IVa in Uruk-Warka\", Berlin : Gebr. Mann, 1968.\n[…]\nLament for Unug (in Sumerian)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Uruque",
+        "situacao": "ok",
+        "texto": "Uruque (Uruk), Unugue (Unug), Ereque (Erech) ou Uarca (Warka) foi uma cidade antiga da Suméria – posterior Babilônia – situada a leste do Eufrates, na linha do antigo canal Nil, numa região pantanosa, a cerca de 225 quilômetros sul-sudeste de Bagdá. O próprio nome moderno Iraque é derivado de Uruque.\n[…]\nO sítio é agora chamado de Uarca, na República do Iraque um termo derivado do seu antigo nome, de origem acadiana, ele próprio derivado do nome sumério ou pré-sumério Unug, e que também deu origem ao hebraico Ereque na Bíblia.\n[…]\nUruque foi uma das mais antigas e importantes cidades da Babilônia. Era rodeada por uma muralha de aproximadamente 9 km de extensão. Dizia-se que suas muralhas haviam sido construídas por ordem de Gilgamés, que, diz-se, também mandou erguer o famoso templo de Eana, dedicado à Inana, ou Istar. Os extensos registros sobreviventes do templo, pertencentes ao Período Neobabilônico, documentam a função social do templo como um centro de redistribuição social.\n[…]\nDe acordo com a lista de reis sumérios, Uruque foi fundada por Enmercar, que trouxe consigo o direito oficial de realeza da cidade de Eana. Seu pai Mesquianguegaser havia \"entrado no mar e desaparecido.\" Outros reis históricos de Uruque incluem Lugal-Zages de Uma (atualmente Djoca, que conquistou Uruque) e Utuegal.\n[…]\nEssas investigações revelaram alguns registros antigos sumérios e uma chusma de tabuinhas referentes a documentos legais e literatos do período selêucida, depois publicados por Adam Falkenstein[en] e outros epigrafistas alemães.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Necrópole de Varna",
+      "descricao": "Cemitério pré-histórico do quinto milênio antes de Cristo, perto de Varna, com antigos objetos de ouro."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A necrópole de Varna, cemitério onde foram achadas joias de ouro de mais de seis mil anos, fica em que país?",
+    "resposta": "Bulgária",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Varna_Necropolis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Varna_Necropolis",
+        "situacao": "ok",
+        "texto": "The Varna Necropolis (Bulgarian: Варненски некропол), or Varna Cemetery, is a burial site in the western industrial zone of Varna (approximately half a kilometre from Lake Varna and 4 km from the city centre), internationally considered one of the key archaeological sites in world prehistory. The oldest gold treasure and jewelry in the world, dating from 4600 BC to 4200 BC, was discovered at the s\n[…]\nThe Varna necropolis artifacts were shown for the first time in the United States in 1998 and 1999 as part of a major Bulgarian archaeological exhibition, Thracians' Riches: Treasures from Bulgaria. In 2009–2010, several artifacts were shown at the New York University Institute for the Study of the Ancient World in a joint Bulgarian-Romanian-Moldovan exhibition entitled The Lost World of Old Europe: The Danube Valley, 5000–3500 BC.\n[…]\nIvanov, I. 1982. The Varna Chalcolithic necropolis. – In: The First Civilization in Europe and the Oldest Gold in the World – Varna, Bulgaria. Nippon Television Network Cultural Society, 21–24.\n[…]\nKostov, R. I. 2004. Prehistoric weight system among the gold objects of the Varna Chalcolithic necropolis. – Geology and Mineral Resources, 11, 3, 25–28 (in Bulgarian with an English abstract).\n[…]\nKostov, R. I., T. Dimov, O. Pelevina. 2004. Gemmological characteristics of carnelian and agate beads from the Chalcolithic necropolis at Durankulak and Varna. – Geology and Mineral Resources, 11, 10, 15–24 (in Bulgarian with an English abstract).\n[…]\nKuleff, I. 2009. Archeometric investigation of gold in the Chalcolithic necropolis of Varna (5th millennium BC) – Advances in Bulgarian Science, 2, 16–22.\n[…]\nVarna Archaeological Museum website Archived 2017-04-21 at the Wayback Machine (in Bulgarian and English).\n[…]\nSpecialized Varna Necropolis website (in Bulgarian)\n[…]\nNew perspectives on the Varna cemetery (Bulgaria) The Free Library Archived 2015-09-27 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Necr%C3%B3pole_de_Varna",
+        "situacao": "ok",
+        "texto": "A Necrópole de Varna (em búlgaro: Варненски некропол), ou Cemitério de Varna, é um sítio funerário na zona industrial ocidental de Varna (aproximadamente meio quilômetro do Lago Varna e 4 km do centro da cidade), considerado internacionalmente um dos principais sítios arqueológicos da pré-história mundial. O mais antigo tesouro de ouro e joias do mundo, datando de 4600 a.C. a 4200 a.C., foi descob\n[…]\nVárias descobertas pré-históricas búlgaras são consideradas igualmente antigas – os tesouros dourados de Hotnitsa, Durankulak, artefatos do assentamento Kurgan de Yunatsite perto de Pazardzhik, o tesouro dourado Sakar, bem como contas e joias de ouro encontradas no assentamento Kurgan de Provadia – Solnitsata (\"poço de sal\"). No entanto, o ouro de Varna é mais frequentemente chamado de o mais antigo, uma vez que este tesouro é o maior e mais diverso.\n[…]\nIvanov, I. 1982. The Varna Chalcolithic necropolis. – In: The First Civilization in Europe and the Oldest Gold in the World – Varna, Bulgaria. Nippon Television Network Cultural Society, 21–24.\n[…]\nKostov, R. I. 2004. Prehistoric weight system among the gold objects of the Varna Chalcolithic necropolis. – Geology and Mineral Resources, 11, 3, 25–28 (em búlgaro com resumo em inglês).\n[…]\nKostov, R. I., T. Dimov, O. Pelevina. 2004. Gemmological characteristics of carnelian and agate beads from the Chalcolithic necropolis at Durankulak and Varna. – Geology and Mineral Resources, 11, 10, 15–24 (em búlgaro com resumo em inglês).\n[…]\nKuleff, I. 2009. Archeometric investigation of gold in the Chalcolithic necropolis of Varna (5th millennium BC) – Advances in Bulgarian Science, 2, 16–22.\n[…]\nNikolov, V. 1994. Der soziale und religious-mythologische Kontext des Goldes in der Nekropole bei Varna. – Ann. Department of Archaeology, New Bulgarian University, I, 4–7.\n[…]\nTurismo na Necrópole de Varna página proveniente do sítio de Internet de Golden Sands Resort.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Ötzi",
+      "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Ötzi, o homem do gelo achado nos Alpes, fica hoje conservado num museu de arqueologia de qual cidade do norte da Itália?",
+    "resposta": "Bolzano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_Tyrol_Museum_of_Archaeology",
+      "https://en.wikipedia.org/wiki/%C3%96tzi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/South_Tyrol_Museum_of_Archaeology",
+        "situacao": "ok",
+        "texto": "South Tyrol Museum of Archaeology (German: Südtiroler Archäologiemuseum; Italian: Museo archeologico dell'Alto Adige) is an archaeological museum in the city of Bolzano, South Tyrol, Italy. It is the home of the preserved body of Ötzi the Iceman.\n[…]\nThe museum was specifically established in 1998 to house \"Ötzi\", a well-preserved natural mummy of a man from about 3300 BC (53 centuries ago). This is the world's oldest natural human mummy, a wet mummy, as opposed to mummies preserved by dry conditions in a desert environment. It has offered an unprecedented view of Chalcolithic (Copper Age) European culture.\n[…]\nThe body is held in a climate-controlled chamber within the museum at a temperature of -6 °Celsius and 98% humidity, replicating glacier conditions in which it was found. Along with original finds, models, reconstructions, and multimedia presentations show Ötzi in the context of the early history of the southern Alpine region.\n[…]\nMuseums of the Province of Bolzano-Bozen – Museum of Archaeology"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/%C3%96tzi",
+        "situacao": "ok",
+        "texto": "Ötzi (German: [œtsi]; c. 3275 BC – c. 3230 BC), also called The Iceman, Similaun man, or Tyrolean Iceman, is the natural mummy of a man who lived during the 4th millennium BC. Ötzi's remains were discovered on 19 September 1991 in the Ötztal Alps (hence the nickname \"Ötzi\") at the Austria–Italy border. He is Europe's oldest known natural human mummy, showing an unprecedented view of Chalcolithic (\n[…]\nBecause of the presence of an arrowhead embedded in his left shoulder and various other wounds, researchers believe that Ötzi was killed by another person. The nature of his life and the circumstances of his death are the subject of much investigation and speculation. His remains and personal belongings are on exhibit at the South Tyrol Museum of Archaeology in Bolzano, South Tyrol, Italy.\n[…]\nAnalysis of pollen, dust grains and the isotopic composition of his tooth enamel indicates that he spent his childhood near what is now the South Tyrol village of Feldthurns, north of Bolzano, but later went to live in valleys about 50 kilometres (31 mi) farther north.\n[…]\nIn 2003, a court in Bolzano recognized the Simons as Ötzi's official discoverers. Helmut Simon died the following year, before the dispute was settled. In 2006, an appeals court confirmed that the Simons had discovered Ötzi and were entitled to a finder's fee. The case ended in September 2008, seventeen years after Ötzi's discovery, when Erika Simon and the provincial government agreed on a payment of €150,000.\n[…]\nSince 1998, Ötzi has been on display at the South Tyrol Museum of Archaeology in Bolzano, the capital of South Tyrol.\n[…]\nFleckinger, Angelika; Steiner, Hubert (2000) [1998]. L'uomo venuto dal ghiaccio [The Man who Came from the Ice]. Bolzano, Italy: Folio. ISBN 978-88-86857-03-1. (in Italian)\n[…]\n\"Five millennia on, Iceman of Bolzano gives up DNA secrets\" Michael Day, The Independent, 2 August 2010\n[…]\n\"Ötzi's Shoes"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Caverna da Pedra Pintada",
+      "descricao": "Caverna em Monte Alegre, no Pará, com pinturas rupestres e vestígios humanos de mais de onze mil anos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Caverna da Pedra Pintada, onde a arqueóloga Anna Roosevelt achou vestígios humanos de mais de onze mil anos, fica em que estado brasileiro?",
+    "resposta": "Pará",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada",
+        "situacao": "ok",
+        "texto": "Caverna da Pedra Pintada (Painted Rock Cave), is an archaeological site in northern Brazil with evidence of human presence dating ca. 11,200 years ago.\n[…]\nThis find has challenged previous thinking about patterns of human settlement in South America. Anna C. Roosevelt, an American archaeologist and primary researcher here since 1990, believes that findings from the cave show there were Paleoindians this far south and with an independent culture that existed at the same time as other early Native Americans were active on the Great Plains of North America.\n[…]\nCaverna da Pedra Pintada is located near the town of Monte Alegre, in the Amazon River Basin in Pará state in northern Brazil.\n[…]\nAnna C. Roosevelt rediscovered the cave and excavated it extensively from 1990 to 1992. The excavations were supported by the Field Museum and the University of Illinois, Chicago, with which she is affiliated. The lowest levels of the cave were radiocarbon dated and thermoluminescence dated to ca. 11,200 to 10,000 years ago. The early dates of these finds have affected the interpretation of human settlement in the Amazon Basin.\n[…]\n\"We found strong evidence that a culture quite distinct from the North American Paleoindian culture, but contemporary with it, existed more than 5,000 miles to the south\", Anna Roosevelt has said. \"Paleoindians traveled far and adapted to a diverse range of habitats. The existence of distinct cultures east of the Andes suggests that North American big-game hunters were not the sole source of migration into South America.\"\n[…]\nPedra Furada sites\n[…]\nDispatches from Brasil, with photos of the cave and paintings"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caverna_da_Pedra_Pintada",
+        "situacao": "ok",
+        "texto": "Caverna da Pedra Pintada é um sítio arqueológico brasileiro localizado no município de Monte Alegre (Pará), sendo conhecido mundialmente pela presença de pinturas rupestres com mais de 11,2 mil anos, retratando plantas, animais e até as cenas de um parto.\n[…]\nAs pinturas da Caverna da Pedra Pintada são de grande importância arqueológica e antropológica, pois fornecem insights sobre a vida e a cultura dos povos que viveram na área no passado. Elas retratam por exemplo, animais, figuras humanas, cenas cotidianas e símbolos, proporcionando um vislumbre das atividades e crenças dessas antigas comunidades.[carece de fontes]? O sítio arqueológico foi documentado por vários viajantes e naturalistas.\n[…]\nA arte rupestre vem sendo estudada pela arqueóloga Edithe Pereira do Museu Goeldi desde os anos 1980.\n[…]\nEntre 1990 e 1992 a caverna foi objeto de estudos da arqueóloga  Anna Curtenius Roosevelt, incluindo a datação por radiocarbono das pinturas, ficando registrado a presença humana no local dos povos mais antigos que habitaram a região, provavelmente no final do Pleistoceno e início do Holoceno e classificaram as pinturas em dois estilos, Parime (abstrato) e Surumu (naturalista), enquanto as gravuras rupestres foram consideradas semelhantes às do já caracterizou o estilo Aishalton das Antilhas e do norte da América do Sul.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Sanxingdui",
+      "descricao": "Sítio arqueológico da Idade do Bronze em Sichuan, famoso por máscaras de bronze de olhos saltados."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As enigmáticas máscaras de bronze de olhos saltados, com mais de três mil anos, achadas no sítio de Sanxingdui, são de que país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sanxingdui"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sanxingdui",
+        "situacao": "ok",
+        "texto": "Sanxingdui (Chinese: 三星堆; pinyin: Sānxīngduī; lit. 'Three Star Mound') is an archaeological site and a major Bronze Age culture in modern Guanghan, Sichuan, China. Largely discovered in 1986, following a preliminary finding in 1927, archaeologists excavated artifacts that radiocarbon dating placed in the 12th–11th centuries BC.\n[…]\nThe timeline of the culture of the Sanxingdui site is thought to be divided into several phases. The Sanxingdui culture that corresponds to periods II-III of the site, was a mysterious civilization in southern China. This culture is contemporaneous with the Shang dynasty, but it developed a different artistic style of bronze-making from the Shang. The first phase that corresponds to period I of the site belongs to the Baodun.\n[…]\nOther bronze artifacts include birds with eagle-like bills, tigers, a large snake, zoomorphic masks, bells, and what appears to be a bronze spoked wheel but is more likely to be decoration from an ancient shield. Apart from bronze, Sanxingdui finds included jade artifacts consistent with earlier neolithic cultures in China, such as cong and zhang.\n[…]\nSome believe that the continued prevalence of depictions of these animals, especially in the later Han period, was an attempt by humans to \"fit into\" their understanding of their world, their cosmology. (The jades that were found at Sanxingdui also seem to correlate with the six known types of ritual jades of ancient China, again each might be associated with a compass point (N, S, E, W) plus the heavens and earth.)\n[…]\nHistory of China\n[…]\nList of Bronze Age sites in China\n[…]\nList of Neolithic cultures of China\n[…]\nYinke, Deng; Martha Avery; Yue Pan (2001). History of China. 五洲传播出版社. p. 171. ISBN 7-5085-1098-4.\n[…]\nA Lost Civilization Is Baffling Experts and Rewriting China’s Origin Story, Wall Street Journal, Aug. 7, 2026"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Akrotiri",
+      "descricao": "Povoado da Idade do Bronze no mar Egeu, soterrado por cinzas vulcânicas e famoso por seus afrescos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A cidade de Akrotiri, da Idade do Bronze, com casas e afrescos preservados sob cinzas vulcânicas, fica em qual ilha grega?",
+    "resposta": "Santorini",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akrotiri_(prehistoric_city)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Akrotiri_(prehistoric_city)",
+        "situacao": "ok",
+        "texto": "Akrotiri (Greek: Ακρωτήρι, pronounced Greek: [akroˈtiri]) is a Cycladic Bronze Age settlement site on the volcanic Greek island of Santorini. The name comes from the nearby village of Akrotiri, the name of the site in antiquity is unknown.\n[…]\nThe earliest excavations on the island of Santorini were conducted by French geologist F. Fouque in 1867 after some local people found old artifacts at a quarry. Later, in 1895–1900, the digs by German archeologist Baron Friedrich Hiller von Gaertringen revealed the ruins of ancient Thera on Mesa Vouno, which date from the archaic period, much after the Minoan eruption. Also, a little later, R.\n[…]\nAll of the pigments used by the artists at Akrotiri for painting the frescoes look as though they are mineral based and thus have resulted in the great preservation of the pieces. The colors used in Theran painting include white, yellow, red, brown, blue and black.\n[…]\nSpecialized techniques were required when it was discovered early on in the excavation process that the site contained numerous well preserved fresco wall paintings. Tassos Margaritoff, one of the leading restorers of Byzantine frescoes, is currently the supervisor of the Akrotiri project. The first fragments of fresco were discovered in 1968 in Sector Alpha and depict the head of an African, the head of a blue monkey and some large flying blue birds.\n[…]\nAkrotiri, Santorini, modern village located north of the ancient settlement\n[…]\nCastle of Akrotiri, a ruined castle on Santorini\n[…]\n\"TimeTable\". ktel-santorini.gr. KTEL Buses. Retrieved 3 November 2023.\n[…]\n\"Disaster on Santorini\". Kathimerini. 24 September 2005. Archived from the original on 2005-10-04. Retrieved 3 November 2023.\n[…]\nAkrotiri, Akrotiri on Visit Santorini Tourist Information Website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acrot%C3%ADri_%28Santorini%29",
+        "situacao": "ok",
+        "texto": "Acrotíri (em grego: Ακρωτήρι; romaniz.: Akrotíri) é um sítio arqueológico da Idade do Bronze da ilha grega de Santorini, associado com a Civilização Minoica devido a inscrições em Linear A, e semelhanças nos estilos de artefatos e afrescos. Seu nome deriva de uma aldeia moderna de mesmo nome localizada numa colina próxima. Afrescos, cerâmica, móveis, avançados sistemas de drenagem e edifícios de t\n[…]\nA cidade atingiu o seu florescimento dentro das Cíclades após 2 000 a.C. Naquela época, os quartos do cemitério da Idade do Bronze Inicial foram preenchidos com pedras e restos de muros desmoronados, de modo a formar uma base estável para a expansão do assentamento em direção ao topo da encosta. Acredita-se que o estopim para tal período áureo foi a descoberta de grandes depósitos de cobre em Chipre, e a posição ideal de Santorini na rota comercial entre Chipre e Creta.\n[…]\nos dóricos, liderados pelo herói tebano Teras estabeleceram-se na ilha e formaram a antiga cidade de Tiira. A ilha que, segundo Heródoto, era chamada Caliste em homenagem ao herói fenício Cadmo, recebeu o nome de Tera em homenagem a Teras.\n[…]\nOs afrescos encontrados em Acrotíri são alguns dos mais representativos do mundo egeu e expressam com clareza a cultura egeia da Idade do Bronze. Devido as subsequentes camadas piroclásticas que soterraram Acrotíri, os afrescos da cidade estão, em sua maior, em bom estado de conservação. Estes murais revelam, entre outras coisas, o vestuário, cerimônias sacras, história natural, etc.\n[…]\nEste afresco, conhecido como \"Afresco primavera\", é composto por uma representação da paisagem montanhosa e rochosa de Santorini, com abundância em lírios (as folhas são amarelas, enquanto os caules e flores são vermelhos) entre os quais ruflam andorinhas; as plantas estão representadas em grupos de três. Na sala Delta 17 há um pequeno fragmento com a representação de um ramo de vime.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Parque Arqueológico do Solstício",
+      "descricao": "Sítio com um círculo de blocos de granito pré-histórico em Calçoene, no Amapá."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que estado brasileiro tem um círculo pré-histórico de blocos de pedra apelidado de Stonehenge da Amazônia?",
+    "resposta": "Amapá",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio",
+      "https://en.wikipedia.org/wiki/Cal%C3%A7oene"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Arqueol%C3%B3gico_do_Solst%C3%ADcio",
+        "situacao": "ok",
+        "texto": "O Parque Arqueológico do Solstício, popularmente chamado de Stonehenge brasileiro, é um sítio arqueológico de arte rupestre de interesse histórico e turístico, localizado no interior do município de Calçoene, no litoral norte do estado brasileiro do Amapá, e conhecido por abrigar o Observatório Astronômico de Calçoene.\n[…]\nO círculo de Calçoene foi apelidado de \"Stonehenge do Amapá\", numa referência a Stonehenge, na Inglaterra. As escavações no local, executadas por arqueólogos, estão sendo feitas desde 2006. Baseando-se nas características de fragmentos cerâmicos encontrados nas redondezas do sítio arqueológico, arqueologistas estimam que a idade do mesmo esteja entre 500 e 2 000 anos.\n[…]\nA valorização do Parque Arqueológico do Solstício também tem se mostrado uma importante estratégia para fortalecer a identidade cultural da região e destacar o papel das culturas indígenas na construção do conhecimento humano. Ao mesmo tempo, a preservação do local é fundamental para a proteção do patrimônio arqueológico brasileiro e para a educação de futuras gerações sobre a riqueza da história pré-colonial da Amazônia.\n[…]\nEm resumo, o Parque Arqueológico do Solstício representa um ponto de encontro entre a sabedoria ancestral dos povos indígenas e os avanços da pesquisa científica moderna. Ele é um testemunho do profundo entendimento dos ciclos naturais que essas culturas possuíam e continua sendo um local de grande importância tanto para os estudos acadêmicos quanto para a valorização da história e da cultura da região amazônica.\n[…]\nCabral, M. P., Saldanha, J. D. M. (2008). «Paisagens megalíticas na costa norte do Amapá» (PDF). Revista de Arqueologia. 2 (21): 09-26  !CS1 manut: Nomes múltiplos: lista de autores (link)[ligação inativa]\n[…]\nSecretaria de Turismo do Amapá - Setur\n[…]\nNo Amapá, uma Stonehenge amazônica"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cal%C3%A7oene",
+        "situacao": "ok",
+        "texto": "Calçoene (Brazilian Portuguese pronunciation: [kawsoˈeni]) is a municipality located in the east of the state of Amapá, Brazil. It is located on the Atlantic Ocean in the Amazon jungle basin near French Guiana. Calçoene covers 14,269 square kilometres (5,509 mi2) and has a population is 11,306. The name Calçoene is a corruption of \"Calço N\" (North Wedge, one of four mining zones defined by the Bra\n[…]\nThe city has the highest rainfall of any in Brazil, with an annual average of 4,165 millimetres (164.0 in). Calçoene is noted for its ancient megalithic observatory, often referred to as the \"Amazon Stonehenge\".\n[…]\nCalçoene is bordered on the north and east by the Atlantic Ocean, to the south by the municipalities of Amapá and Pracuúba, and to the west by the municipalities of Oiapoque and Serra do Navio. Calçoene is 272 kilometres (169 mi) from the state capital of Macapá.\n[…]\nThe municipality contains 23.23% of the 2,369,400-hectare (5,855,000-acre) Amapá State Forest, a sustainable use conservation unit established in 2006.\n[…]\nOne of the most popular tourist attraction is the Goiabal beach on the Atlantic Ocean, which is located 14 kilometers from the town of Calçoene. The beach is 4 kilometres long and the water is dark due to the influence of the Amazon.\n[…]\nArchaeologist Mariana Petry Cabral of the Amapa Institute of Scientific and Technological Research (IEPA) said that the observatory has been designed to align with the winter solstice. Other agricultural societies also developed sophisticated ways to track important times in the solar calendar. At one time, researchers did not think any cultures in the Amazon Basin had developed such complexity as to build such a site. This has altered their thinking.\n[…]\n'Amazon Stonehenge' - Yahoo story\n[…]\n\"Calcoene, the Brazilian Stonehenge\", Archaeoastronomy, 14 May 2006"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Nuragues",
+      "descricao": "Torres de pedra em forma de cone erguidas na Idade do Bronze pela civilização nurágica."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As torres de pedra em forma de cone chamadas nuragues, erguidas na Idade do Bronze, são símbolo de qual ilha italiana?",
+    "resposta": "Sardenha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nuraghe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nuraghe",
+        "situacao": "ok",
+        "texto": "The nuraghe, or nurhag, is the main type of ancient megalithic edifice found in Sardinia, Italy, developed during the Nuragic Age between 1900 and 730 BC. Today it has come to be the symbol of Sardinia and its distinctive culture known as the Nuragic civilization. More than 7,000 nuraghes have been found, though archeologists believe that originally there were more than 10,000.\n[…]\nNatively, the structure is called a nuraghe (Sardinian: [nuˈɾaɣɛ], Italian: [nuˈraːɡe]; plural: Logudorese Sardinian nuraghes, Campidanese Sardinian nuraxis [nuˈɾaʒizi], Italian nuraghi). According to the Oxford English Dictionary the etymology is \"uncertain and disputed\": \"The word is perhaps related to the Sardinian place names Nurra, Nurri, Nurru, and to Sardinian nurra 'heap of stones, cavity in earth' (although these senses are difficult to reconcile).\n[…]\nThe nuraghes were built between the middle of the Bronze Age (18th–15th centuries BCE) and the Late Bronze Age. The claim that the El-Ahwat structures from Israel might be related has been contested; those are dated to either the 12th or the 11th century BCE. The only buildings widely accepted as being related to nuraghes are the torri (plural of torre) from southern Corsica and the talaiots from Menorca and Mallorca.\n[…]\nAccording to Massimo Pallottino, an Italian archaeologist specialized in Etruscology, the architecture produced by the Nuragic civilization was the most advanced of any in the western Mediterranean during this epoch, including those in the regions of Magna Graecia. Of the 7,000 extant nuraghes, only a few have been scientifically excavated.\n[…]\nLilliu, Giovanni (2004). La civiltà dei Sardi. Dal Paleolitico all'età dei nuraghi (in Italian). Edizioni il Maestrale. ISBN 978-88-86109-73-4.\n[…]\nNuraghi.org Su Nuraxi of Barumini\n[…]\nNeroArgento.com  (in Italian)\n[…]\nVirtual Reconstructions  (in Italian)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nurago",
+        "situacao": "ok",
+        "texto": "Nurago ou Nurague é um tipo de torre-fortaleza troncocónica, próprio da Cultura nuráguica (ou nurágica) da Sardenha, em que se aplica o princípio da falsa cúpula, originário do Mediterrâneo oriental. São construções que datam da Idade do Bronze, a partir do II milénio a.C.\n[…]\nOs substantivos «nurago» e «nurague» entram na língua portuguesa por via do sardo \"nuraghe\", que encerra o mesmo significado. Por seu turno, o étimo nuraghe, em sardo crê-se que terá uma origem, incerta, mas seguramente pré-romana.\n[…]\nRomanzesu, perto de Bitti, na Sardenha central. Os nuragos poderiam ter apenas uma ligação com riqueza e\n[…]\nnuragos simples e as torres centrais de 180 nuragos complexos. Os dados revelaram claros picos que\n[…]\nÉ o nurago por excelência e constitui a tipologia mais difundida. A torre única, em forma de cone truncado,\n[…]\nelaborados e frequentemente gizados num estilo próprio, assemelham-se a autênticas fortalezas, com várias torres ligadas por muralhas de pedra, cuja função é oferecer mais espaço útil e talvez reforçar a\n[…]\ntorre central. Estes  \"castelos megalíticos\" são cercados por paredes adicionais, às vezes também providas de torres (os chamados baluartes).\n[…]\nilha, foi o escolhido para representar o patrimônio nurágico. Um dos nuragos mais altos e mais complexos\n[…]\né o Nurago Santu Antine, perto da vila de Torralba, no norte da Sardenha. Outros nuragos famosos são o\n[…]\nOs nuragos foram construídos no meio da Idade do Bronze (séculos XVIII a XV antes de Cristo) e\n[…]\ndurante o Colapso da Idade do Bronze. A tese de que as estruturas de El Ahwat, em Israel, possam estar com eles relacionadas\n[…]\nSegundo Massimo Pallottino, arqueólogo italiano especializado em etruscologia, a arquitetura produzida\n[…]\nDos cerca de 7.000 nuragues restantes, somente uns poucos foram cientificamente escavados.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Estanho",
+      "descricao": "Metal que, misturado ao cobre, forma o bronze, e cujo comércio movimentou a Idade do Bronze."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na Antiguidade, que região do sudoeste da Grã-Bretanha era famosa pelas minas de estanho, metal essencial para fazer bronze?",
+    "resposta": "Cornualha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tin_sources_and_trade_in_ancient_times",
+      "https://en.wikipedia.org/wiki/Mining_in_Cornwall_and_Devon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tin_sources_and_trade_in_ancient_times",
+        "situacao": "ok",
+        "texto": "Tin is an essential metal in the creation of tin-bronzes, and its acquisition was an important part of ancient cultures from the Bronze Age onward. Its use began in the Middle East and the Balkans around 3000 BC. Tin is a relatively rare element in the Earth's crust, with about two parts per million (ppm), compared to iron with 50,000 ppm, copper with 70 ppm, lead with 16 ppm, arsenic with 5 ppm, \n[…]\nTin extraction and use can be dated to the beginning of the Bronze Age around 3000 BC, during which copper objects were formed from polymetallic ores which had different physical properties. The earliest bronze objects had tin or arsenic content of less than 2% and are therefore believed to be the result of unintentional alloying due to trace metal content in copper ores such as tennantite, which contains arsenic.\n[…]\nThe addition of a second metal to copper increases its hardness, lowers the melting temperature, and improves the casting process by producing a more fluid melt that cools to a denser, less spongy metal. This was an important innovation that allowed for the much more complex shapes cast in closed molds of the Bronze Age.\n[…]\nArsenical bronze objects appear first in the Middle East where arsenic is commonly found in association with copper ore, but the health risks were quickly realized and the quest for sources of the much less hazardous tin ores began early in the Bronze Age. This created the demand for rare tin metal and formed a trade network that linked the distant sources of tin to the markets of Bronze Age cultures.\n[…]\nWeeks, L.R. (2004), Early Metallurgy of the Persian Gulf: Technology, Trade, and the Bronze Age World, Boston: Brill Academic Publishers, ISBN 0-391-04213-0\n[…]\nWood, J.R; Liu, Y. (2025), \"Speculating on the sources of tin for the Chinese Bronze Age\", Journal of World Prehistory, 38 (2), doi:10.1007/s10963-025-09199-z"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mining_in_Cornwall_and_Devon",
+        "situacao": "ok",
+        "texto": "Mining in Cornwall and Devon, in the southwest of Britain, is thought to have begun in the early-middle Bronze Age with the exploitation of cassiterite for its tin. Later, copper was also commonly extracted. Some tin mining continued long after the mining of other metals had become unprofitable, but ended in the late 20th century.\n[…]\nTin is one of the earliest metals to have been exploited in Britain. Chalcolithic metal workers discovered that by putting a small proportion of tin (5 – 20%) in molten copper, the alloy bronze was produced. The alloy is harder than copper. The oldest production of tin-bronze is in Anatolia (modern day Turkey) about 3500 BC, but exploitation of the tin resources in Britain is believed to have started before 2000 BC, with a thriving tin trade developing with the civilisations of the Mediterranean.\n[…]\nThe tin and gold content of the bronze from the Nebra Sky Disc dating from 1600 BC, was found to be from Cornwall.\n[…]\nIn the Iron Age bronze continued to be used for ornaments though not for tools and weapons, so tin extraction seems to have continued. An ingot from Castle Dore is probably of Iron Age date.\n[…]\nBecause of the importance of metal mining to the Cornish economy, the Camborne School of Mines (CSM), founded in 1888, developed as the only specialist hard rock education establishment in the United Kingdom. It continues to teach mining as well as many other earth-related subjects (e.g. engineering geology) relevant to the Cornish economy.\n[…]\nEarl, Bryan (1994). Cornish Mining: the techniques of metal mining in the West of England, past and present (2nd ed.). St Austell: Cornish Hillside Publications. ISBN 0-9519419-3-3.\n[…]\nPearce, Susan C. Bronze Age Metalwork of South West Britain. (BAR; 190). Oxford: British Archaeological Reports, 1983."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Roda de madeira do pântano de Liubliana",
+      "descricao": "Roda de madeira de mais de cinco mil anos achada nos pântanos perto de Liubliana."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Uma roda de madeira com mais de cinco mil anos, uma das mais antigas já encontradas, foi achada num pântano de que país?",
+    "resposta": "Eslovênia",
+    "distratores": [
+      "Hungria",
+      "Áustria",
+      "Croácia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ljubljana_Marshes_Wooden_Wheel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ljubljana_Marshes_Wooden_Wheel",
+        "situacao": "ok",
+        "texto": "The Ljubljana Marshes Wheel is a wooden wheel that was found in the Ljubljana Marsh some 20 kilometres (12 mi) south of Ljubljana, the capital of Slovenia, in 2002. Radiocarbon dating, performed in the VERA laboratory (Vienna Environmental Research Accelerator) in Vienna, showed that it was approximately 5,100 to 5,350 years old, which makes it the oldest wooden wheel yet discovered.\n[…]\nRemains of pile dwellings were discovered in the Ljubljana Marsh as early as 1875. Since 2011, the site has been protected as a UNESCO World Heritage Site as an example of prehistoric pile dwellings around the Alps, a special form of dwellings in areas with lakes and marshes. The archaeologists at the excavation site identified over one thousand piles in the bed of the Iška River, near Ig.\n[…]\nThe wooden wheel belonged to a prehistoric two-wheel cart – a pushcart . Similar wheels have been found in the hilly regions of Switzerland and southwest Germany, but the Ljubljana Marshes wheel is bigger and older. It shows that wooden wheels may have appeared almost simultaneously in Mesopotamia and Europe, though finds of actual wheels from Mesopotamia date from significantly later.\n[…]\nIt has a diameter of 72 centimetres (28+3⁄8 in) and is made of ash wood, and its 124-centimetre-long (48+7⁄8 in) axle is made of oak. The axle was attached to the wheels with oak wood wedges, which meant that the axle rotated together with the wheels. The wheel was made from a tree that grew in the vicinity of the pile dwellings and at the time of the wheel construction was approximately 80 years old.\n[…]\nIt appears that the wheel itself is primarily made of two planks of wood which are held together with four cross braces. The cross braces appear to have been held in place simply by a tenon arrangement, the braces being fitted into tenoned slots carved into the two main wheel sections.\n[…]\nInvention of the wheel"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Revolução Neolítica",
+      "descricao": "Transição de sociedades caçadoras-coletoras para a agricultura e a vida sedentária no Neolítico."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que arqueólogo australiano criou a expressão Revolução Neolítica para descrever o surgimento da agricultura?",
+    "resposta": "Gordon Childe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neolithic_Revolution",
+      "https://en.wikipedia.org/wiki/V._Gordon_Childe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Neolithic_Revolution",
+        "situacao": "ok",
+        "texto": "The Neolithic Revolution, also known as the  First Agricultural Revolution, was the wide-scale transition of many human cultures during the Neolithic period in Afro-Eurasia from a lifestyle of hunting and gathering to one of agriculture and settlement, making an increasingly large population possible. These settled communities permitted humans to observe and experiment with plants, learning how th\n[…]\nThe term 'neolithic revolution' was invented by V. Gordon Childe in his book Man Makes Himself (1936). Childe introduced it as the first in a series of agricultural revolutions in Middle Eastern history, calling it a \"revolution\" to denote its significance, the degree of change to communities adopting and refining agricultural practices.\n[…]\nThe Oasis Theory, originally proposed by Raphael Pumpelly in 1908, popularized by V. Gordon Childe in 1928 and summarised in Childe's book Man Makes Himself. This theory maintains that as the climate got drier due to the Atlantic depressions shifting northward, communities contracted to oases where they were forced into close association with animals, which were then domesticated together with planting of seeds.\n[…]\nThe Hilly Flanks hypothesis, proposed by Robert John Braidwood in 1948, suggests that agriculture began in the hilly flanks of the Taurus and Zagros Mountains, where the climate was not drier as Childe had believed, and fertile land supported a variety of plants and animals amenable to domestication.\n[…]\nStrang supports her theory through a comparison of aquatic deities before and after the Neolithic Agricultural Revolution, most notably the Venus of Lespugue and the Greco-Roman deities such as Circe or Charybdis: the former venerated and respected, the latter dominated and conquered.\n[…]\nBroad spectrum revolution – Hypothesized increase in dietary range during the Neolithic Revolution\n[…]\nGreen Revolution – Agricultural developments in 1950s–1960s"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/V._Gordon_Childe",
+        "situacao": "ok",
+        "texto": "Vere Gordon Childe (14 April 1892 – 19 October 1957) was an Australian archaeologist who specialised in the study of European prehistory. He spent most of his life in the United Kingdom, working as an academic for the University of Edinburgh and then the Institute of Archaeology, London. He wrote twenty-six books during his career. Initially an early proponent of culture-historical archaeology, he\n[…]\nThey moved to Australia in 1878, where Mary died. On 22 November 1886 Stephen married Harriet Gordon, an Englishwoman from a wealthy background who had moved to Australia as a child. Her father was Alexander Gordon. Gordon Childe was raised alongside five half-siblings at his father's palatial country house, the Chalet Fontenelle, in the township of Wentworth Falls in the Blue Mountains, west of Sydney. Rev. Childe worked as the minister for St.\n[…]\nFollowing his death, several articles examining Childe's impact on archaeology were published. In 1980, Bruce Trigger's Gordon Childe: Revolutions in Archaeology appeared, which studied the influences that extended over Childe's archaeological thought; the same year saw the publication of Barbara McNairn's The Method and Theory of V. Gordon Childe, examining his methodological and theoretical approaches to archaeology. The following year, Sally Green published Prehistorian: A Biography of V.\n[…]\nThe first detailed bibliography of Childe's work was by Isobel F. Smith, \"Bibliography of the Publications of Professor V. Gordon Childe\", in Proceedings of the Prehistoric Society, vol. 21, July 1956, pp. 295–304. Sally Green includes a revised version completed to 1979 in her Prehistorian: A Biography of V. Gordon Childe (Bradford-on-Avon: Moonraker Press, 1981), pp. 176–190.\n[…]\nWorks by or about Vere Gordon Childe at Wikisource\n[…]\nWorks by or about Childe, V. Gordon at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_neol%C3%ADtica",
+        "situacao": "ok",
+        "texto": "Revolução neolítica ou Transição Demográfica Neolítica, às vezes chamada de Revolução Agrícola, foi a revolução tecnológica que permitiu a transição em grande escala de muitas culturas humanas do estilo de vida de caçador-coletor e nômade para um agrícola e sedentário fixo, tornando possível uma população cada vez maior. Estas comunidades estabelecidas permitiram que os seres humanos observassem e\n[…]\nDados arqueológicos indicam que a domesticação de vários tipos de plantas e animais evoluiu em locais separados em todo o mundo, começando na época geológica do Holoceno, cerca de 12.500 anos atrás. Foi a primeira revolução agrícola historicamente verificável no mundo. A Revolução Neolítica reduziu muito a diversidade de alimentos disponíveis, com uma mudança para a agricultura que levou a uma diminuição da nutrição humana.\n[…]\nO Oriente Médio possui as mais antigas evidências de agricultura, possuindo diversos sítios arqueológicos que fornecem valiosas informações sobre a Revolução Neolítica nesta região. Frequentemente o surgimento de tal prática neste período e região é dividido em 5 fases. No final da última era glacial, os humanos que habitavam o Oriente Médio eram caçadores e coletores nômades, que se movimentavam de acordo com a presença ou ausência de recursos ao longo do ano.\n[…]\nO termo \"Revolução Neolítica\" foi cunhado em 1923 por V. Gordon Childe para descrever o primeiro de uma série de revoluções agrícolas na história do Oriente Médio. O período é descrito como uma \"revolução\" para denotar sua importância e o grande significado e grau de mudança que afetam as comunidades nas quais novas práticas agrícolas foram gradualmente adotadas e refinadas.\n[…]\nGordon Hillman e Stuart Davies realizaram experimentos com variedades de trigo selvagem para mostrar que o processo de domesticação teria ocorrido em um período relativamente curto, entre 20 e 200 anos.\n[…]\nNeolítico\n[…]\nRevolução urbana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Revolução Neolítica",
+      "descricao": "Transição de sociedades caçadoras-coletoras para a agricultura e a vida sedentária no Neolítico."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "No Oriente Médio, a agricultura começou há cerca de quanto tempo?",
+    "resposta": "Cerca de 11 mil anos",
+    "distratores": [
+      "Cerca de 5 mil anos",
+      "Cerca de 40 mil anos",
+      "Cerca de 100 mil anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Neolithic_Revolution",
+        "situacao": "ok",
+        "texto": "The Neolithic Revolution, also known as the  First Agricultural Revolution, was the wide-scale transition of many human cultures during the Neolithic period in Afro-Eurasia from a lifestyle of hunting and gathering to one of agriculture and settlement, making an increasingly large population possible. These settled communities permitted humans to observe and experiment with plants, learning how th\n[…]\nArchaeological data indicate that the domestication of various types of plants and animals happened in separate locations worldwide, starting in the geological epoch of the Holocene 11,700 years ago, after the end of the last Ice Age. It was humankind's first historically verifiable transition to agriculture.\n[…]\nSelectively propagated figs, wild barley and wild oats were cultivated at the early Neolithic site of Gilgal I, where in 2006 archaeologists found caches of seeds of each in quantities too large to be accounted for even by intensive gathering, at strata datable to c. 11,000 years ago. Some of the plants tried and then abandoned during the Neolithic period in the Ancient Near East, at sites like Gilgal, were later successfully domesticated in other parts of the world.\n[…]\nStrang supports her theory through a comparison of aquatic deities before and after the Neolithic Agricultural Revolution, most notably the Venus of Lespugue and the Greco-Roman deities such as Circe or Charybdis: the former venerated and respected, the latter dominated and conquered.\n[…]\nBroad spectrum revolution – Hypothesized increase in dietary range during the Neolithic Revolution\n[…]\nGreen Revolution – Agricultural developments in 1950s–1960s\n[…]\nUrban revolution – Process by which villages transform into urban societies\n[…]\nKuijt, Ian; Finlayson, Bill. (2009). \"Evidence for food storage and predomestication granaries 11,000 years ago in the Jordan Valley\". PNAS, Vol. 106, No. 27, pp. 10966–10970."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_neol%C3%ADtica",
+        "situacao": "ok",
+        "texto": "Revolução neolítica ou Transição Demográfica Neolítica, às vezes chamada de Revolução Agrícola, foi a revolução tecnológica que permitiu a transição em grande escala de muitas culturas humanas do estilo de vida de caçador-coletor e nômade para um agrícola e sedentário fixo, tornando possível uma população cada vez maior. Estas comunidades estabelecidas permitiram que os seres humanos observassem e\n[…]\nDados arqueológicos indicam que a domesticação de vários tipos de plantas e animais evoluiu em locais separados em todo o mundo, começando na época geológica do Holoceno, cerca de 12.500 anos atrás. Foi a primeira revolução agrícola historicamente verificável no mundo. A Revolução Neolítica reduziu muito a diversidade de alimentos disponíveis, com uma mudança para a agricultura que levou a uma diminuição da nutrição humana.\n[…]\nA primeira manifestação totalmente desenvolvida de todo o complexo neolítico é vista nas cidades sumérias do Oriente Médio (c. 5.500 aC), cuja emergência anunciou também o começo da Idade do Bronze.\n[…]\nO principal alimento domesticado na região foi o inhame-da-guiné-branco, que foi por muito tempo a base da alimentação dos agricultores da savana do Norte, permitindo um grande aumento populacional deste grupo há cerca de 5.000 anos A.C. Em relação à pecuária, a domesticação de gado ocorreu inicialmente no nordeste por pastores móveis que não tinham conhecimento da agricultura sedentária.\n[…]\nO termo \"Revolução Neolítica\" foi cunhado em 1923 por V. Gordon Childe para descrever o primeiro de uma série de revoluções agrícolas na história do Oriente Médio. O período é descrito como uma \"revolução\" para denotar sua importância e o grande significado e grau de mudança que afetam as comunidades nas quais novas práticas agrícolas foram gradualmente adotadas e refinadas.\n[…]\nNeolítico\n[…]\nRevolução urbana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Mesolítico",
+      "descricao": "Período da Idade da Pedra situado entre o Paleolítico e o Neolítico."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Que período da Idade da Pedra fica entre o Paleolítico e o Neolítico?",
+    "resposta": "Mesolítico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mesolithic"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mesolithic",
+        "situacao": "ok",
+        "texto": "The Mesolithic (Greek: μέσος, mesos 'middle' + λίθος, lithos 'stone') is the Old World archaeological period between the Upper Paleolithic and the Neolithic. The term Epipaleolithic is often used synonymously, especially for outside Northern Europe, and for the corresponding period in the Levant and Caucasus. The Mesolithic has different time spans in different parts of Eurasia.\n[…]\nBy the time of Vere Gordon Childe's work, The Dawn of Europe (1947), which affirms the Mesolithic, sufficient data had been collected to determine that a transitional period between the Paleolithic and the Neolithic was indeed a useful concept. However, the terms \"Mesolithic\" and \"Epipalaeolithic\" remain in competition, with varying conventions of usage.\n[…]\n\"Epipaleolithic\" is sometimes also used alongside \"Mesolithic\" for the final end of the Upper Paleolithic immediately followed by the Mesolithic. As \"Mesolithic\" suggests an intermediate period, followed by the Neolithic, some authors prefer the term \"Epipaleolithic\" for hunter-gatherer cultures who are not succeeded by agricultural traditions, reserving \"Mesolithic\" for cultures who are clearly succeeded by the Neolithic Revolution, such as the Natufian culture.\n[…]\nThere is less surviving art from the Mesolithic than the preceding Upper Paleolithic and the following Neolithic. The Rock art of the Iberian Mediterranean Basin, which probably spreads across from the Upper Paleolithic, is a widespread phenomenon, much less well known than the cave-paintings of the Upper Paleolithic.\n[…]\nWhile \"Paleolithic\" and \"Neolithic\" have been useful concepts in the archaeology of China, and are mostly accepted, \"Mesolithic\" was introduced later, mostly after 1945, and does not appear to be a necessary or useful term in the context of China. Chinese sites that have been regarded as Mesolithic are better considered Early Neolithic."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mesol%C3%ADtico",
+        "situacao": "ok",
+        "texto": "Mesolítico ou Epipaleolítico (aproximadamente entre 13 000 e 9 000 a.C.) é o termo usado para denominar o período da pré-história, que serve de transição entre o Paleolítico e o Neolítico; e presente apenas em algumas regiões do mundo, onde não houve transição direta entre esses dois períodos.\n[…]\nSignifica Idade Média da Pedra (do grego μεσος, mesos =médio; e λίθος, líthos =pedra) por contraposição ao Paleolítico (Idade Antiga da Pedra) e ao Neolítico (Idade Nova da Pedra), identificando-se com as últimas sociedades de caçadores-coletores.\n[…]\nO período mesolítico só existiu em algumas regiões do mundo, onde não houve transição direta entre os períodos Paleolítico e Neolítico, pois, a evolução histórica se deu diferente em determinadas regiões.\n[…]\nO termo \"Mesolítico\" foi cunhado por J. Lubbock na sua obra Prehistoric Times, de 1865, quando estabeleceu a divisão da Idade da Pedra anteriormente mencionada. Durante muito tempo foi visto unicamente como uma etapa de transição, de decadência até mesmo, entre os outros dois grandes períodos.\n[…]\nUma terceira tendência seria a daqueles autores que identificam Epipaleolítico com as sociedades do Holoceno inicial de clara tradição paleolítica; e Mesolítico com as suas sucessoras.\n[…]\nPara certos autores a revolução neolítica começou a gestar-se realmente durante o Mesolítico. Para B. Hayden e A. Testart, durante este período apareceram grupos de caçadores-coletores especializados em escassos tipos de recursos abundantes e seguros, que podiam ser armazenados durante boa parte do ano, o que lhes permitiu aumentar a demografia e tornarem-se sedentários.\n[…]\nPor tudo isso, ambos consideram que a verdadeira revolução ocorreu no Mesolítico, quando foram estabelecidas as bases econômico-sociais que se desenvolveram posteriormente, durante o Neolítico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Escrita cuneiforme",
+      "descricao": "Sistema de escrita criado na Mesopotâmia, com sinais marcados em tabuletas de argila."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os primeiros textos em escrita cuneiforme, na Mesopotâmia, não eram poemas nem leis. Eram em sua maioria registros de quê?",
+    "resposta": "Contas e bens",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cuneiform"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cuneiform",
+        "situacao": "ok",
+        "texto": "Cuneiform is a logo-syllabic writing system that was used to write several languages of the ancient Near East. The script was in active use from the early Bronze Age until the 1st century BC. Cuneiform scripts are marked by and named for the characteristic wedge-shaped impressions (Latin: cuneus) which form their signs. Cuneiform is the earliest known writing system and was originally developed to\n[…]\nThere are many instances of Egypt-Mesopotamia relations at the time of the invention of writing, and standard reconstructions of the development of writing generally place the development of the Sumerian proto-cuneiform script before the development of Egyptian hieroglyphs, with the suggestion the former influenced the latter. Given the lack of direct evidence for the transfer of writing, \"no definitive determination has been made as to the origin of hieroglyphics in ancient Egypt\".\n[…]\nBeginning in the later half of the 1st millennium BC cuneiform rapidly fell into dis-use. In part this was due to the slow replacement of the Akkadian language by the Aramaic, written in the Aramaic alphabet, in Mesopotamia and the growing influence of the Persian\n[…]\nCuneiform script was used in many ways in ancient Mesopotamia. Besides the well-known clay tablets and stone inscriptions, cuneiform was also written on wax boards. One example from the 8th century BC was found at Nimrud. The wax contained toxic amounts of arsenic. It was used to record laws, like the Code of Hammurabi. It was also used for recording maps, compiling medical manuals, and documenting religious stories and beliefs, among other uses.\n[…]\nCuneiform Digital Library Initiative\n[…]\nFinding aid to the Columbia University Cuneiform Collection at Columbia University. Rare Book & Manuscript Library\n[…]\nA sign list by Assyriologist Kateřina Šašková, featuring Ur III and Neo-Assyrian cuneiform shapes, their composition and pronunciations"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escrita_cuneiforme",
+        "situacao": "ok",
+        "texto": "Escrita cuneiforme é a designação geral dada a certos tipos de escrita feitas com auxílio de objetos em formato de cunha. É, juntamente com os hieróglifos egípcios, o mais antigo tipo conhecido de escrita, tendo sido criado pelos sumérios cerca de 3 200 a.C. Inicialmente, a escrita representava formas do mundo (pictogramas). Com o passar do tempo, por praticidade, as formas foram se tornando mais \n[…]\nO último documento registrado em escrita cuneiforme da sociedade da Mesopotâmia é um almanaque astronômico datado de 75 d.C., onde estão anotados os movimentos dos astros mês a mês.\n[…]\nAs tabuinhas cuneiformes às vezes eram envoltas em envelopes de argila selados para serem abertos pelo destinatário do texto. Incluíam textos legais e administrativos, e cartas. O uso começou no período Dinástico Antigo IIIb (c. 2500-2340 a.C.) e continuou até que as tabuinhas cuneiformes caíssem em desuso. A extensão geográfica parece restrita à Mesopotâmia, embora fragmentos de envelopes quebrados nem sempre tenham sido registrados nas escavações, portanto isso é incerto.\n[…]\nA escrita cuneiforme suméria possuía na ordem de 1 000 sinais distintos, ou cerca de 1 500 se incluídas as variantes. Esse número foi reduzido para cerca de 600 por volta do século XXIV a.C. e no início dos registros acádios. Nem todos os sinais sumérios são utilizados em textos acádios, e nem todos os sinais acádios são utilizados no hitita.\n[…]\nA escrita cuneiforme foi usada de muitas maneiras na antiga Mesopotâmia. Além das conhecidas tabuinhas de argila e inscrições em pedra, o cuneiforme também era escrito em tábuas de cera. Um exemplo do século VIII a.C. foi encontrado em Nimrud. A cera continha quantidades tóxicas de arsênico. Era usado para registrar leis, como o Código de Hamurabi. Também era usado para registrar mapas, compilar manuais médicos e documentar histórias e crenças religiosas, entre outros usos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Escrita cuneiforme",
+      "descricao": "Sistema de escrita criado na Mesopotâmia, com sinais marcados em tabuletas de argila."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A escrita cuneiforme começou a se desenvolver na Mesopotâmia por volta de quando?",
+    "resposta": "3200 antes de Cristo",
+    "distratores": [
+      "1200 antes de Cristo",
+      "8000 antes de Cristo",
+      "600 antes de Cristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cuneiform"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cuneiform",
+        "situacao": "ok",
+        "texto": "Cuneiform is a logo-syllabic writing system that was used to write several languages of the ancient Near East. The script was in active use from the early Bronze Age until the 1st century BC. Cuneiform scripts are marked by and named for the characteristic wedge-shaped impressions (Latin: cuneus) which form their signs. Cuneiform is the earliest known writing system and was originally developed to\n[…]\nThere are many instances of Egypt-Mesopotamia relations at the time of the invention of writing, and standard reconstructions of the development of writing generally place the development of the Sumerian proto-cuneiform script before the development of Egyptian hieroglyphs, with the suggestion the former influenced the latter. Given the lack of direct evidence for the transfer of writing, \"no definitive determination has been made as to the origin of hieroglyphics in ancient Egypt\".\n[…]\nBeginning in the later half of the 1st millennium BC cuneiform rapidly fell into dis-use. In part this was due to the slow replacement of the Akkadian language by the Aramaic, written in the Aramaic alphabet, in Mesopotamia and the growing influence of the Persian\n[…]\nCuneiform script was used in many ways in ancient Mesopotamia. Besides the well-known clay tablets and stone inscriptions, cuneiform was also written on wax boards. One example from the 8th century BC was found at Nimrud. The wax contained toxic amounts of arsenic. It was used to record laws, like the Code of Hammurabi. It was also used for recording maps, compiling medical manuals, and documenting religious stories and beliefs, among other uses.\n[…]\nCuneiform Digital Library Initiative\n[…]\nFinding aid to the Columbia University Cuneiform Collection at Columbia University. Rare Book & Manuscript Library\n[…]\nA sign list by Assyriologist Kateřina Šašková, featuring Ur III and Neo-Assyrian cuneiform shapes, their composition and pronunciations"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escrita_cuneiforme",
+        "situacao": "ok",
+        "texto": "Escrita cuneiforme é a designação geral dada a certos tipos de escrita feitas com auxílio de objetos em formato de cunha. É, juntamente com os hieróglifos egípcios, o mais antigo tipo conhecido de escrita, tendo sido criado pelos sumérios cerca de 3 200 a.C. Inicialmente, a escrita representava formas do mundo (pictogramas). Com o passar do tempo, por praticidade, as formas foram se tornando mais \n[…]\nO último documento registrado em escrita cuneiforme da sociedade da Mesopotâmia é um almanaque astronômico datado de 75 d.C., onde estão anotados os movimentos dos astros mês a mês.\n[…]\nHá muitas instâncias de relações entre Egito e Mesopotâmia na época da invenção da escrita, e as reconstruções padrão do desenvolvimento da escrita geralmente colocam o desenvolvimento da escrita proto-cuneiforme suméria antes do desenvolvimento dos hieróglifos egípcios, com a sugestão de que a primeira influenciou a segunda. Dada a falta de evidências diretas para a transferência da escrita, \"nenhuma determinação definitiva foi feita quanto à origem dos hieróglifos no antigo Egito\".\n[…]\nA escrita cuneiforme suméria possuía na ordem de 1 000 sinais distintos, ou cerca de 1 500 se incluídas as variantes. Esse número foi reduzido para cerca de 600 por volta do século XXIV a.C. e no início dos registros acádios. Nem todos os sinais sumérios são utilizados em textos acádios, e nem todos os sinais acádios são utilizados no hitita.\n[…]\nA escrita cuneiforme foi usada de muitas maneiras na antiga Mesopotâmia. Além das conhecidas tabuinhas de argila e inscrições em pedra, o cuneiforme também era escrito em tábuas de cera. Um exemplo do século VIII a.C. foi encontrado em Nimrud. A cera continha quantidades tóxicas de arsênico. Era usado para registrar leis, como o Código de Hamurabi. Também era usado para registrar mapas, compilar manuais médicos e documentar histórias e crenças religiosas, entre outros usos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Göbekli Tepe",
+      "descricao": "Sítio arqueológico no sudeste da Turquia com pilares de pedra esculpidos há cerca de onze mil anos."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Os pilares de Göbekli Tepe, na Turquia, foram erguidos quanto tempo antes do início de Stonehenge, aproximadamente?",
+    "resposta": "Cerca de seis mil anos",
+    "distratores": [
+      "Cerca de quinhentos anos",
+      "Cerca de dois mil anos",
+      "Cerca de trinta mil anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+      "https://en.wikipedia.org/wiki/Stonehenge"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+        "situacao": "ok",
+        "texto": "Göbekli Tepe (pronounced ɟœbecˈli teˈpe  meaning 'Potbelly Hill') is a Neolithic archaeological site in Upper Mesopotamia (al-Jazira) in modern-day Turkey. The settlement was inhabited from around 9500 BCE to at least 8000 BCE, during the Pre-Pottery Neolithic. It is known for its large circular structures that contain large stone pillars – among the world's oldest known megaliths.\n[…]\nHowever, others estimate that just 7–14 people could have moved the pillars using ropes and water or another lubricant, with techniques used to construct other monuments such as Stonehenge. Experiments at Göbekli Tepe itself have suggested that all the PPNB structures exposed could have been built by 12–24 people in less than four months, allowing for time spent quarrying stone and gathering, and preparing food.\n[…]\nSchmidt saw the construction of Göbekli Tepe as contributing to the later development of urban civilization.\n[…]\nBefore being documented by archaeologists, the hill Göbekli Tepe stands on, known locally in Kurdish as Girê Mirazan or Xerabreşkê (Girê Mirazan meaning 'Wish Hill'), was considered a sacred place.\n[…]\nGöbekli Tepe was designated a UNESCO World Heritage Site in 2018, recognising its outstanding universal value as \"one of the first manifestations of human-made monumental architecture\". As of 2021, about 10% of the site has been excavated.\n[…]\nMedia related to Göbekli Tepe at Wikimedia Commons\n[…]\nMendik Tepe: A Neolithic Discovery That Could Rewrite History Before Göbekli Tepe - ArkeoNews - 24 September 2025\n[…]\nWhat's Happening At Göbekli Tepe⁉? An update with Field Director Dr Lee Clare (DAI), video by Flint Dibble\n[…]\nExplore Göbekli Tepe in the UNESCO collection on Google Arts and Culture\n[…]\nGöbekli Tepe, UNESCO World Heritage List\n[…]\nTepe Telegrams, blog of the DAI's Göbekli Tepe Research project\n[…]\n\"Göbekli Tepe\". Megalithic Portal.\n[…]\nGöbekli Tepe, Platform for Neolithic Radiocarbon Dates (PPND)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Stonehenge",
+        "situacao": "ok",
+        "texto": "Stonehenge is a prehistoric megalithic structure on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury. It consists of an outer ring of vertical sarsen standing stones, each around 13 feet (4.0 m) high, seven feet (2.1 m) wide, and weighing around 25 tons, topped by connecting horizontal lintel stones which are held in place with mortise and tenon joints—a feature unique amon\n[…]\nThe access situation and the proximity of the two roads continued to draw criticism, highlighted by a 2006 National Geographic survey. In the survey of conditions at 94 leading World Heritage Sites, 400 conservation and tourism experts ranked Stonehenge 75th in the list of destinations, declaring it to be \"in moderate trouble\". The controversy surrounding re-routing of the roads led to the scheme being cancelled on multiple occasions.\n[…]\nIn December 2007, the government announced that plans to build a Stonehenge road tunnel under the landscape and create a permanent visitors' centre had been cancelled on cost grounds.\n[…]\nAlthough the first years of the Free Festival (annual, from 1975 onwards) saw \"very little vandalism\", Stonehenge was fenced off from 1978 onwards. Later, repeated vandalism in the 1980s and 1990s led the authorities to deploy up to hundreds of police, erect barriers around Stonehenge, and impose exclusion zones up to six kilometres from the archaeological monument. The vandalism of 1984 included defacing the monument with purple spray paint.\n[…]\nThe government went so far as to close Stonehenge to protect it from vandalism, but in the face of public outcry, the government opted to reopen it.\n[…]\nStonehenge English Heritage official site: access and visiting information; research; future plans\n[…]\nStonehenge Landscape National Trust – information about the surrounding area."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
+        "situacao": "ok",
+        "texto": "Göbekli Tepe (\"Colina Barriguda\"; Curdo: Girê Mirazan ou Xerabreşkê, 'Colina dos Desejos') é um sítio arqueológico neolítico na Alta Mesopotâmia (Jazira), na atual Turquia. O assentamento foi habitado desde cerca de 9500 a.C. até pelo menos 8000 a.C., durante o Neolítico Pré-Cerâmico.\n[…]\nGöbekli Tepe foi declarado Patrimônio Mundial da UNESCO em 2018, reconhecendo seu valor universal excepcional como \"uma das primeiras manifestações da arquitetura monumental feita pelo homem\". Em 2021, cerca de 10% do sítio havia sido escavado. Áreas adicionais foram examinadas por levantamentos geofísicos, que mostraram que o monte continha pelo menos 20 grandes recintos.\n[…]\nAs lajes foram transportadas de cavas na rocha matriz a cerca de 100 metros de profundidade do topo da colina, com trabalhadores usando pontas de sílex para cortar o leito rochoso de calcário. Os pilares são os megalitos mais antigos conhecidos no mundo.\n[…]\nSchmidt considerou a construção de Göbekli Tepe como uma contribuição para o desenvolvimento posterior da civilização urbana.\n[…]\nSchmidt também especulou sobre os sistemas de crenças dos grupos que criaram Göbekli Tepe, com base em comparações com outros santuários e assentamentos, e presumiu práticas xamânicas. Ele sugeriu que os pilares em forma de T representam formas humanas, talvez ancestrais. Em contraste, ele considerou que uma crença plenamente articulada em divindades só se desenvolveu mais tarde, na Mesopotâmia, associada a extensos templos e palácios.\n[…]\nGöbekli Tepe foi designado Patrimônio Mundial da UNESCO em 2018, reconhecendo seu valor universal excepcional como \"uma das primeiras manifestações da arquitetura monumental feita pelo homem\". Em 2021, cerca de 10% do sítio foi escavado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Idade do Ferro",
+      "descricao": "Período que sucedeu a Idade do Bronze, marcado pelo uso generalizado de ferramentas de ferro."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "No Oriente Próximo, a Idade do Ferro começou por volta de quando?",
+    "resposta": "1200 antes de Cristo",
+    "distratores": [
+      "3500 antes de Cristo",
+      "2500 antes de Cristo",
+      "600 antes de Cristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iron_Age"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iron_Age",
+        "situacao": "ok",
+        "texto": "The Iron Age is the final epoch of the three-age system of technology after the Copper Age and Bronze Age. It has also been considered as the final age of the three-age division starting with prehistory (before recorded history) and progressing to protohistory (before written history). In this usage, it is preceded by the Stone Age (subdivided into the Paleolithic, Mesolithic and Neolithic) and Br\n[…]\nModern archaeological evidence identifies the start of large-scale global iron production about 1200 BC, marking the end of the Bronze Age. The Iron Age in Europe is often considered as a part of the Bronze Age collapse in the ancient Near East.\n[…]\nThe Iron Age in the ancient Near East is considered to last from c. 1200 BC (the Bronze Age collapse) to c. 550 BC (or 539 BC), roughly the beginning of historiography with Herodotus, marking the end of the proto-historical period.\n[…]\nIn China, Chinese bronze inscriptions are found around 1200 BC, preceding the development of iron metallurgy, which was known by the 9th century BC. Iron metallurgy reached the Yangtze valley in the late 6th century BC. The few objects were found at Changsha and Nanjing. The mortuary evidence suggests that the initial use of iron in Lingnan belongs to the mid-to-late Warring States period (from c. 350 BC).\n[…]\nThe early evidence of iron smelting predates the emergence of the Iron Age proper by several centuries. Iron was being used in Mundigak to manufacture some  The history of metallurgy in the Indian subcontinent began prior to the 3rd millennium BC. Archaeological sites in India, such as Malhar, Dadupur, Raja Nala Ka Tila, Lahuradewa, Kosambi and Jhusi, Allahabad in present-day Uttar Pradesh show iron implements in the period 1800–1200 BC."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Idade_do_Ferro",
+        "situacao": "ok",
+        "texto": "A Idade do Ferro (c. de 1 200 a.C. à c. 1 000 d.C.) se refere ao período em que ocorreu a metalurgia do ferro (metal superior ao bronze em relação à dureza e abundância de jazidas). Essa Idade é caracterizada pela utilização do ferro como metal, utilização importada do Oriente através da emigração de diversas tribos da Eurásia, que a partir de 1 200 a.C. começaram a chegar a Eurásia ocidental, e o\n[…]\nEm outras regiões europeias, o início da Idade do Ferro foi bastante posterior, não tendo se desenvolvido na Europa central até século VIII a.C., até o século VI a.C. no norte de Europa. Na África o primeiro exponente conhecido do uso do ferro pela fundição e forja se dá na cultura de Noque, na atual Nigéria, por volta do século XI a.C.\n[…]\nAinda na Idade do Bronze, um crescente número de objetos de ferro fundido, distinguíveis do ferro meteorítico pela falta de níquel, começou a aparecer por toda Anatólia, Mesopotâmia, subcontinente Indiano, Levante, Mediterrâneo e Egito. Algumas fontes propõem que o ferro fosse um subproduto casual do refino do cobre, sem um processo reproduzível pela metalurgia da época.\n[…]\nJá foi sugerido que a falta de estanho fosse o motivo do colapso da Idade do Bronze, com a interrupção do comércio no Mediterrâneo por volta de 1 300 a.C. levando à busca de metais alternativos. Existem evidências nesta época que vários objetos de bronze foram reciclados e transformados em armas. Com o uso mais difundido do ferro, foi desenvolvida a tecnologia necessária para fazer um aço maleável, fazendo com que os preços baixassem.\n[…]\nNa Caldeia e Assíria, o ferro é usado desde pelo menos 4 000 a.C.. Um dos primeiros artefatos de ferro conhecidos é uma adaga, com a lâmina de ferro encontrada numa tumba Hatita na Anatólia e datada de 2 500 a.C.. O uso de armas de ferro se difundiu rapidamente e substituiu o bronze por todo o Oriente Próximo no começo do primeiro milênio BC.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Alinhamentos de Carnac",
+      "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Os alinhamentos de Carnac, na Bretanha, reúnem cerca de quantas pedras pré-históricas fincadas no chão?",
+    "resposta": "Mais de três mil",
+    "distratores": [
+      "Cerca de cem",
+      "Cerca de quinhentas",
+      "Mais de trinta mil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carnac_stones"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Carnac_stones",
+        "situacao": "ok",
+        "texto": "The Carnac stones (Breton: Steudadoù Karnag) are an exceptionally dense collection of megalithic sites near the south coast of Brittany in northwestern France, consisting of stone alignments (rows), dolmens (stone tombs), tumuli (burial mounds), and single menhirs. More than 3,000 prehistoric standing stones were hewn from local granite and erected by the pre-Celtic people of Brittany and form the\n[…]\nAccording to Neil Oliver's BBC documentary A History of Ancient Britain, the alignments were built by hunter-gatherer people (\"These weren't erected by Neolithic farmers, but by Mesolithic hunters\"). That would place them in a different category from Stonehenge in England, which has been claimed to be the work of Early European Farmers. The question of which people Carnac stones are to be attributed to is still debated.\n[…]\nThe tumulus of Tumiac has been classified as a historical monument since 1923.\n[…]\nBurl, Aubrey (1993). From Carnac to Callanish: The Prehistoric Stone Rows and Avenues of Britain, Ireland, and Brittany. Yale University Press. ISBN 0-30-005575-7.\n[…]\nCarnac: Guide pratique 2006 (provided by Carnac tourist office)\n[…]\nCarnac stones official website\n[…]\n(in French) Carnac official website\n[…]\n(in French) Official website of Prehistory Museum of Carnac\n[…]\nCarnac at france-for-visitors.com (includes map)\n[…]\nOnline photo exhibition of the Carnac region's megaliths includes the giant menhir of Loqmariaquer, and marked and inscribed stones\n[…]\nAn amateur's guide to visiting the Carnac stones by car\n[…]\nThe megaliths of Carnac: Dolmen / passage graves – comprehensive list of dolmens in area with photos.\n[…]\nMegaliths of Carnac: Dolmen / Passage Graves  – main sites in the Morbihan area\n[…]\nCarnac – historical map\n[…]\nCarnac - a megalithic wonderland - M E g A L i T h i A  – basic arrangement of the main alignments"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rochas_de_Carnac",
+        "situacao": "ok",
+        "texto": "As Rochas de Carnac são um alinhamento de mais de 3000 megálitos que foram erguidos na comuna de Carnac, na Bretanha, França, por volta de 2000 a.C.\n[…]\nOs alinhamentos foram erigidos no Neolítico por comunidades sedentárias entre o quinto e o segundo milênio a.C.\n[…]\nOs homens conheciam o jeito de manobrar as pesadas pedras com troncos e cordas. Experiências têm demonstrado a viabilidade de que poucos homens manejassem pesadas pedras. O grande menir de Locmariaquer, com um peso de 300 toneladas e de 20 metros de comprimento, de granito, é um exemplo de transporte e elevação de monólitos.\n[…]\nAo norte da povoação localizam-se os monumentos megalíticos mais famosos da região. Destacam-se entre eles:\n[…]\nAlinhamento de Ménec - formados por 1.099 menires fincados ao longo de 1 km, seguindo o eixo SO/NE. O. Estes alinhamentos, erguidos no Neolítico Médio (3000 a.C.), constituem o conjunto mais representativo de menires: 1099 menires fincados em 11 fileiras, espalhados ao longo de 1165 metros de comprimento por 100 metros de largura. Os menires crescem de tamanho para oeste (o mais alto deles mede 4 m), finalizando com um cromeleque que ainda conserva 71 blocos.\n[…]\nAlinhamento de Kermario - composto por 1.029 menires, contemporâneos aos de Ménec, descrevem 10 linhas paralelas de 1.120 metros de comprimento, o tamanho dos menires vai crescendo de leste para oeste.\n[…]\nAlinhamento de Kerlescan\n[…]\nAlinhamento do Petit-Ménec\n[…]\nAlinhamento megalítico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Skara Brae",
+      "descricao": "Aldeia neolítica de pedra nas ilhas Órcadas, na Escócia."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A aldeia de pedra de Skara Brae, nas ilhas escocesas, foi habitada há cerca de quanto tempo?",
+    "resposta": "Cerca de cinco mil anos",
+    "distratores": [
+      "Cerca de mil anos",
+      "Cerca de dois mil anos",
+      "Cerca de quinze mil anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Skara_Brae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Skara_Brae",
+        "situacao": "ok",
+        "texto": "Skara Brae () is a stone-built Neolithic settlement located along the Bay of Skaill on the west coast of Mainland, Orkney. The site was discovered following a storm  exposing the presence of stone structures within the coastal sand dunes. Today, ten structures and four passageways are visible, as well as the remains of stone furniture and fixtures.\n[…]\nPottery jars with a volume of up to 30 litres were discovered in a number of the Skara Brae dwellings.\n[…]\nIn the film Indiana Jones and the Kingdom of the Crystal Skull, Indiana Jones is shown lecturing his students about Skara Brae, where he gives the date as \"3100 BC\".\n[…]\nSkara Brae's ancient sewer system and its use of running water are referenced by Medical Examiner Dr. Donald \"Ducky\" Mallard in the NCIS episode \"Murder 2.0\" (season 6, episode 6).\n[…]\nThe role-playing video game The Bard's Tale (1985) takes place in a fictional town named Skara Brae.\n[…]\nThe video game series Ultima includes a city named Skara Brae.\n[…]\nSkara Brae is used as the name for a Scottish pub in New York City in the IDW Teenage Mutant Ninja Turtles comic series.\n[…]\nA commemorative stone was unveiled at Skara Brae on 12 April 2008 marking the anniversary of Soviet cosmonaut Yuri Gagarin becoming the first human to orbit the Earth in 1961.\n[…]\nIn 2025, a board game was released about Skara Brae. It is a worker placement game for 1 to 4 players created by Shem Phillips.\n[…]\nChilde, V. Gordon (1931). Skara Brae, a Pictish Village in Orkney. meeting held in London: monograph of the Royal Commission on the Ancient and Historical Monuments of Scotland.\n[…]\nChilde, V. Gordon; Clarke, D. V. (1983). Skara Brae. Edinburgh: Her Majesty's Stationery Office. ISBN 0-11-491755-8.\n[…]\n\"Historic Scotland: Skara Brae Prehistoric Village\". Retrieved 3 November 2011.\n[…]\nHistoric Environment Scotland. \"Skara Brae (Site no. HY21NW 12)\". Retrieved 8 July 2025."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Skara_Brae",
+        "situacao": "ok",
+        "texto": "Skara Brae [ˈskærə ˈbreɪ] é um assentamento neolítico, situado na Baía de Skaill, a maior das ilhas Órcades. É composto por dez casas agrupadas que foram habitadas aproximadamente entre 3180 a 2500 AEC. Skara Brae é a aldeia neolítica mais completa e bem preservada do norte da Europa, tendo sido eleita como património mundial pela UNESCO, como um dos locais que constituem o \"Coração Neolítico das \n[…]\nMais antiga do que Stonehenge ou a Grande Pirâmide de Giza, este povoado tem sido denominado de \"Scottish Pompeii\" (Pompeia escocesa), devido ao seu excelente estado de preservação.\n[…]\nA povoação de Skara Brae foi construída na ilha principal de Orkney, a população neolítica utilizou uma alternativa à rara madeira da área para construir a povoação: Placas de pedra. Isto permitiu um vislumbre sobre o que seria uma casa neolítica. No centro da ilha temos uma série de depressões criadas por um monte de lixo, que foram aproveitadas para a construção de oito casas, todas feitas de pedra, com um comprimento entre os 4 e os 6 metros numa área rectangular com um forno central.\n[…]\nA sociedade de Skara Brae estava ligada a diversas actividades, pesca, agricultura e caça numa pequena escala. Os artefactos encontrados nas escavações efectuadas atestam estas actividades com ferramentas em osso e marfim, potes com entalhe, contas feitas de conchas e pedras e esculturas feitas em pedra com motivos geométricos.\n[…]\nA povoação de Skara Brae foi construída na ilha principal de Orkney, a população neolítica utilizou uma alternativa á rara madeira da área para construir a povoação: Placas de pedra. Isto permitiu um vislumbre sobre o que seria uma casa neolítica. No centro da ilha temos uma série de depressões criadas por um monte de lixo, que foram aproveitadas para a construção de oito casas, todas feitas de pedra, com um comprimento entre os 4 e os 6 metros numa área rectangular com um forno central.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Stonehenge",
+      "descricao": "Monumento pré-histórico de grandes pedras em círculo, na Inglaterra."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma lenda medieval, qual mago famoso teria trazido da Irlanda as pedras de Stonehenge?",
+    "resposta": "Merlin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stonehenge",
+      "https://en.wikipedia.org/wiki/Merlin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stonehenge",
+        "situacao": "ok",
+        "texto": "Stonehenge is a prehistoric megalithic structure on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury. It consists of an outer ring of vertical sarsen standing stones, each around 13 feet (4.0 m) high, seven feet (2.1 m) wide, and weighing around 25 tons, topped by connecting horizontal lintel stones which are held in place with mortise and tenon joints—a feature unique amon\n[…]\nThe twelfth-century Historia Regum Britanniae (\"History of the Kings of Britain\"), by Geoffrey of Monmouth, includes a legend of Stonehenge's origin, describing how Stonehenge was brought from Ireland with the help of the wizard Merlin. Geoffrey's story spread widely, with variations of it appearing in adaptations of his work, such as Wace's Norman French Roman de Brut, Layamon's Middle English Brut, and the Welsh Brut y Brenhinedd.\n[…]\nAccording to the tale, the stones of Stonehenge were healing stones, which giants had brought from Africa to Ireland. They had been raised on Mount Killaraus to form a stone circle, known as the Giant's Ring or Giant's Round. The fifth-century king Aurelius Ambrosius wished to build a great memorial to the British Celtic nobles slain by the Saxons at Salisbury. Merlin advised him to use the Giant's Ring.\n[…]\nThe king sent Merlin and Uther Pendragon (King Arthur's father) with 15,000 men to bring it from Ireland. They defeated an Irish army led by Gillomanius, but were unable to move the huge stones. With Merlin's help, they transported the stones to Britain and re-erected them as they had stood. Mount Killaraus may refer to the Hill of Uisneach.\n[…]\nApproximately 30,000 local residents are entitled to free admission to Stonehenge under an agreement made in 1921.\n[…]\nStonehenge English Heritage official site: access and visiting information; research; future plans\n[…]\nStonehenge Landscape National Trust – information about the surrounding area."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Merlin",
+        "situacao": "ok",
+        "texto": "Merlin (Welsh: Myrddin) is a mythical figure prominently featured in the legend of King Arthur and best known as a prophet and a magician, along with several other main roles. The familiar depiction of Merlin, based on an amalgamation of historical and legendary figures, was introduced by the 12th-century Catholic cleric Geoffrey of Monmouth and then built on by the French poet Robert de Boron and\n[…]\nContrary to many modern works in which they are archenemies, Merlin and Morgan are never opposed to each other in any medieval text, other than she forcibly rejecting him in some of them. Merlin's love for Morgan is so great that he even lies to the king to save her in the Huth Merlin, which is the only instance of him ever intentionally misleading Arthur.\n[…]\nIn North Welsh tradition, Merlin retires to Bardsey Island (Welsh: Ynys Enlli), where he lives in a house of glass (Welsh: Tŷ Gwydr) with the Thirteen Treasures of the Island of Britain (Welsh: Tri Thlws ar Ddeg Ynys Prydain). One site of his tomb is said to be Marlborough Mound in Wiltshire, known in medieval times as Merlebergia (the Abbot of Cirencester wrote in 1215: \"Merlin's tumulus gave you your name, Merlebergia\").\n[…]\nDiverging from his traditional role in medieval romances, Merlin is also sometimes portrayed as a villain, as in Mark Twain's 1889 classic A Connecticut Yankee in King Arthur's Court. As Peter H. Goodrich wrote in Merlin: A Casebook:\n[…]\nUniversal Islands of Adventure used to have a medieval section called Merlinwood which held the Flying Unicorn and Dueling Dragons roller coasters and also featured the Enchanted Oak Tavern, a restaurant located inside a giant tree-stump with a face of Merlin on it; this area has since been demolished for The Wizarding World of Harry Potter and its attractions incorporated into the Harry Potter universe as Flight of the Hippogriff and Dragon Challenge."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stonehenge",
+        "situacao": "ok",
+        "texto": "Stonehenge é uma estrutura composta, formada por círculos concêntricos de pedras, que chegam a ter 5 metros de altura e a pesar quase 50 toneladas, localizada na Inglaterra, no condado de Wiltshire, na Planície de Salisbury.\n[…]\nSegundo dados mais recentes, obtidos por arqueólogos chefiados por Mike Parker Pearson, Stonehenge está relacionada com a existência do povoado Durrington. Este povoado formado por algumas dezenas de casas construídas entre 2600 a.C. e 2500 a.C., situado em Durrington Walls, perto de Salisbury, é considerado a maior aldeia neolítica do Reino Unido. Segundo os arqueólogos, foi aí encontrada uma espécie de réplica de Stonehenge, em madeira.\n[…]\nDenominado pelos saxões de hanging stones (pedras suspensas) e referido em escritos medievais como dança dos gigantes, existem diversas lendas e mitos acerca da sua construção, creditada a diversos povos da Antiguidade.\n[…]\nA equipe descobriu um encaixe que, no passado, abrigou as chamadas pedras azuis, rochas vulcânicas de tom azulado, a maioria já desaparecida, que formava a primeira estrutura construída no monumento. Eles acreditam que as pedras azuis podem confirmar a tese de que Stonehenge era um local onde as pessoas iam em busca de cura.\n[…]\nEm 2013, um grupo de estudos da University College London levantou uma nova teoria de que Stonehenge pode ter surgido como um cemitério para famílias de elite, por volta do ano 3000 A.C. Estudos de restos humanos encontrados no local, indicam que, antes do monumento ser o que hoje se conhece, havia ali um grande círculo de pedras construído como um cemitério.\n[…]\nStonehenge - Egyptian solar temple. Egyptian hieroglyphs in Stonehenge\n[…]\nNovo monumento cerimonial encontrado perto de Stonehenge",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Avebury",
+      "descricao": "Vila inglesa em Wiltshire construída em parte dentro de um grande círculo de pedras neolítico."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que vila inglesa, a poucas dezenas de quilômetros de Stonehenge, foi construída em parte dentro de um enorme círculo de pedras pré-histórico?",
+    "resposta": "Avebury",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avebury"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Avebury",
+        "situacao": "ok",
+        "texto": "Avebury () is a Neolithic henge monument containing three stone circles, around the village of Avebury in Wiltshire, in south-west England. One of the best-known prehistoric sites in Britain, it contains the largest megalithic stone circle in the world. It is both a tourist attraction and a place of religious importance to contemporary pagans.\n[…]\nThey compared this with similar wooden posts that had been erected in southern Britain during the Mesolithic at Stonehenge and Hambledon Hill, both of which were sites that like Avebury saw the construction of large monuments in the Neolithic.\n[…]\nWhereas Stukeley claimed that Avebury and related prehistoric monuments were the creations of the druids, Twining thought that they had been constructed by the later Romans, justifying his conclusion on the fact that Roman writers like Julius Caesar and Tacitus had not referred to stone circles when discussing the Iron Age Britons, whereas Late Mediaeval historians like Geoffrey of Monmouth and Henry of Huntingdon had described these megaliths in their works, and that such monuments must have therefore been constructed between the two sets of accounts.\n[…]\nFollowing Stukeley, other writers produced inaccurate theories about how Avebury was built and by whom. The Reverend R. Weaver, in his The Pagan Altar (1840) argued that both Avebury and Stonehenge were built by Phoenicians, an ancient seafaring people whom many Victorian Britons believed had first brought civilisation to the island.\n[…]\nOthers believe in natural methods of explaining the phenomena, such as vortexes or ball lightning. There are a great number of crop circles in Wiltshire, including Stonehenge and Avebury. Crop circle season often begins at the end of May and ends by September, when the harvesting of the crops cuts away the circular patterns."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Avebury",
+        "situacao": "ok",
+        "texto": "Avebury é um local na Inglaterra, no condado de Wiltshire (perto da cidade de Avebury), onde estão vários círculos de pedra. É um dos melhores e maiores monumentos Neolíticos da Europa, datando de 5.000 anos atrás, sendo, assim, mais antigo que Stonehenge, que está localizado a cerca de 32 km (20 milhas) ao sul.\n[…]\nUm grande parte da cidade de Avebury, até mesmo um pub, fica dentro do monumento. A estrada local faz uma intersecção com o monumento e os visitantes podem caminhar por entre as pedras.\n[…]\nAs duas avenidas de pedra, Kennet Avenue e Beckhampton Avenue, que se cruzam em Avebury, definem dois lados de um triângulo que é designado como um Património Mundial e que ainda inclui The Sanctuary, Windmill Hill, Silbury Hill e West Kennet Long Barrow.\n[…]\nAvebury é considerada um centro espiritual para muitos que professam crenças tais como Paganismo, Wicca e Druidas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Palácio de Cnossos",
+      "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que arqueólogo britânico escavou o palácio de Cnossos, em Creta, no início do século vinte, e reconstruiu partes dele com concreto?",
+    "resposta": "Arthur Evans",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Knossos",
+      "https://en.wikipedia.org/wiki/Arthur_Evans"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Knossos",
+        "situacao": "ok",
+        "texto": "Knossos (; Ancient Greek: Κνωσσός, romanized: Knōssós; Greek: Κνωσός, romanized: Knōsós; Linear B: 𐀒𐀜𐀰 Ko-no-so) is an archaeological site and ancient urban centre in Crete, Greece. It is located within the southern periphery of Heraklion, about 5 km (3.1 mi) south of the city's historic centre. The site was occupied from the Neolithic period into the first millennium AD and became the largest and\n[…]\nIn 1900, Arthur Evans began large-scale excavations at Knossos. Working with archaeologists and architects including Duncan Mackenzie, David George Hogarth, Theodore Fyfe and Christian Doll, Evans uncovered most of the palace and many parts of the surrounding settlement.\n[…]\nEvans undertook extensive reconstructions at the palace using reinforced concrete, colour and architectural interpretation. These works made the site visually accessible to visitors but have also been criticised because they sometimes go beyond what can be securely reconstructed from the archaeological evidence. They are now part of the modern history of Knossos as well as part of the visitor experience.\n[…]\nConservation at Knossos is complex because of the age of the remains, the high number of visitors and the early twentieth-century reconstructions carried out by Evans. These reconstructions are now part of the history of the site, but they also require continued monitoring and maintenance.\n[…]\nEvans, Arthur (1921–1935). The Palace of Minos: A Comparative Account of the Successive Stages of the Early Cretan Civilization as Illustrated by the Discoveries at Knossos. London: Macmillan.\n[…]\nMacGillivray, J. A. (2000). Minotaur: Sir Arthur Evans and the Archaeology of the Minoan Myth. New York: Hill and Wang. ISBN 978-0-8090-3035-4.\n[…]\nMunicipality of Heraklion: Knossos\n[…]\nHellenic Ministry of Culture: Knossos\n[…]\nBritish School at Athens: Knossos Research Centre\n[…]\nKnossos Urban Landscape Project"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Arthur_Evans",
+        "situacao": "ok",
+        "texto": "Sir Arthur John Evans (8 July 1851 – 11 July 1941) was a British archaeologist and pioneer in the study of Aegean civilization in the Bronze Age.\n[…]\nIn 1840 John Evans started work in the mill owned by his maternal uncle, John Dickinson. He married his first cousin, Harriet, in 1850, and in 1851 became a junior partner in the family business. Profits from the mill would help fund Arthur Evans's excavations, restorations at Knossos, and resulting publications. For the time being they were an unpretentious and affectionate family.\n[…]\nHe and Lewis hunted for stone-age artefacts in the gravel quarries, Arthur Evans remarking that he was glad the Prussians were not interested in flint artefacts.\n[…]\nBrown, Ann Cynthia (1993). Before Knossos: Arthur Evans's Travels in the Balkans and Crete (Illustrated ed.). Ashmolean Museum. ISBN 9781854440297.\n[…]\nMacGillivray, Joseph Alexander (2000). Minotaur: Sir Arthur Evans and the Archaeology of the Minoan Myth. New York: Hill and Wang (Farrar, Straus and Giroux). ISBN 9780809030354.\n[…]\nMedia related to Arthur Evans at Wikimedia Commons\n[…]\nWorks related to Arthur Evans at Wikisource\n[…]\nWorks by Arthur Evans at Project Gutenberg\n[…]\nWorks by or about Arthur Evans at Internet Archive\n[…]\nEvans (Arthur) Collection at University College London\n[…]\n\"Arthur Evans, Archaeologist\". Brasenose College.\n[…]\n\"Sir Arthur Evans\". Encyclopædia Britannica Online. Retrieved 28 March 2012.\n[…]\n\"Evans, Arthur John, Sir\". Dictionary of Art Historians. Archived from the original on 15 May 2021. Retrieved 28 March 2012.\n[…]\n\"Sir Arthur John Evans\". Heraklion Crete org online. Retrieved 28 March 2012."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cnossos",
+        "situacao": "ok",
+        "texto": "Cnossos (em grego: Κνωσός; romaniz.: Knossós; AFI: [kno̞ˈso̞s]) é o maior sítio arqueológico da Idade do Bronze da ilha grega de Creta, provável centro cerimonial e político-cultural da Civilização Minoica. Situado próximo da cidade moderna de Heraclião, atualmente Cnossos é visitado por muitos turistas, que visitam a \"reconstrução\" imaginativa feita a partir das ruínas que existiam no local.\n[…]\nAs ruínas de Cnossos foram descobertas em 1878 por Minos Kalokairinos, um comerciante e antiquário cretense, que liderou as primeiras escavações do Monte Cefala, durante as quais foram escavados os armazéns da ala oeste e partes da fachada ocidental. Depois de Kalokairinos diversas pessoas tentaram continuar os trabalhos no sítio, porém apenas em 16 de março de 1900 o arqueólogo inglês sir Arthur Evans podia comprar todo o sítio e realizar um trabalho ali em grande escala.\n[…]\nA escavação e o restauro de Cnossos, e a descoberta da cultura que ele chamou de minoica, é inseparável de sua história pessoal. Auxiliado por Duncan Mackenzie, que já se havia destacado por suas escavações na ilha de Melos, e pelo senhor Fyfe, arquiteto da Escola Britânica em Atenas, Evans contratou uma enorme equipe de trabalhadores locais, e em poucos meses havia desenterrado uma parte substancial de um edifício, que ele chamou de Palácio de Minos.\n[…]\nA sala do trono foi repintada por uma equipe de artistas formadas por pai e filho, ambos chamados Émile Gilléron, sob ordens de Evans. Embora este afirmasse ter baseado suas recriações a partir das evidências arqueológicas, muitos dos afrescos mais conhecidos da sala do trono são criações inteiramente próprias dos Gilléron.\n[…]\nO próprio Evans sustentava essa hipótese.\n[…]\nSegundo Evans o palácio também era um templo, onde o seu soberano detinha o poder político, econômico, mas também religioso. E isso se reflete na própria arquitetura e disposição das salas e etc.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Civilização minoica",
+      "descricao": "Civilização da Idade do Bronze centrada na ilha de Creta."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A civilização da Idade do Bronze da ilha de Creta foi batizada pelo arqueólogo Arthur Evans em homenagem a qual rei lendário?",
+    "resposta": "Minos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Minoan_civilization"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Minoan_civilization",
+        "situacao": "ok",
+        "texto": "The Minoan civilization was a Bronze Age culture centered on the island of Crete. Known for its monumental architecture and Minoan art, it is often regarded as the first civilization in Europe. They traded extensively, exporting agricultural products and luxury crafts in exchange for raw metals which were difficult to obtain on Crete. Through traders and artisans, their cultural influence reached \n[…]\nThe modern term \"Minoan\" is derived from the name of the mythical King Minos, whom the Classical Greeks believed to have ruled Knossos in the distant past. It was popularized by Arthur Evans, possibly drawing on an earlier suggestion by Karl Hoeck. It is a modern coinage and not used by the Minoans, whose name for themselves is unknown.\n[…]\nMinoan horn-topped altars, which Arthur Evans called Horns of Consecration, are represented in seal impressions and have been found as far afield as Cyprus. Minoan sacred symbols include the bull (and its horns of consecration), the labrys (double-headed axe), the pillar, the serpent, the sun-disc, the tree, and even the Ankh.\n[…]\nMinoan cities were connected by narrow roads paved with blocks cut with bronze saws. Streets were drained, and water and sewage facilities were available to the upper class through clay pipes.\n[…]\nEarly excavators such as Arthur Evans proposed that there was little internal armed conflict in Minoan Crete until the Mycenaean period. However, subsequent scholarship has questioned this interpretation.\n[…]\nChester Starr said in \"Minoan Flower Lovers\" that since Shang China and the Maya had unfortified centers and engaged in frontier struggles, a lack of fortifications alone does not prove that the Minoans were a peaceful civilization unparalleled in history. In 1998, when Minoan archaeologists met in a Belgian conference to discuss the possibility that the Pax Minoica was outdated, evidence of Minoan war was still scanty."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Civiliza%C3%A7%C3%A3o_Minoica",
+        "situacao": "ok",
+        "texto": "Civilização Minoica foi uma civilização egeia em Creta, a maior ilha do mar Egeu, que floresceu aproximadamente entre o século XXX e XV a.C. Foi redescoberta no começo do século XX durante as expedições arqueológicas do britânico Arthur Evans. O historiador Will Durant refere-se à civilização como \"o primeiro elo da cadeia europeia\". Os primeiros habitantes de Creta remontam a pelo menos 128 000 a\n[…]\nO termo \"minoico\" foi cunhado por Arthur Evans e deriva do nome do rei mítico \"Minos\". Este foi associado ao mito grego do labirinto, que Evans identificou como o sítio de Cnossos. Por vezes argumenta-se que a placa egípcia chamada \"Keftiu\" (Káftiu kftiw) e as semíticas \"Caftor\" e \"Kaptara\" nos arquivos de Mari referem-se à ilha de Creta; \"Por outro lado alguns fatos conhecidos sobre Caftor/Keftiu dificilmente podem ser associados com Creta\", observa John Strange.\n[…]\nNa Odisseia, composta séculos depois da destruição da Civilização Minoica, Homero chama os nativos de Creta de eteocretenses (\"verdadeiros cretenses\").\n[…]\nDesta união gerou Catreu, Deucalião, Glauco, Androgeu, Acale, Xenódice, Ariadne e Fedra: Minos teve também filhos fora do casamento.\n[…]\nA introdução do cobre e o seu uso para ferramentas e armas, marca o fim do Neolítico em Creta, sendo que a Idade do Bronze na ilha começou em 2 700 a.C. Da Idade do Bronze Inferior (3 500 - 2 500 a.C.), a Civilização Minoica em Creta mostrou uma promessa de grandeza.\n[…]\nO termo Pax Minoica, cunhado por Arthur Evans, está associado à sua visão de que havia poucos conflitos armados internos na Creta minoica até ao período da dominação micênica. Esta visão tem sido criticada nos últimos anos,, apesar de, tal como acontece com grande parte da Creta minoica, é difícil tirar qualquer conclusão óbvia a partir das evidências disponíveis. Contudo, escavações levadas a cabo em 2006 em quatro assentamentos costeiros minoicos na ilha de Cárpatos de c.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Erupção minoica",
+      "descricao": "Grande erupção vulcânica de Thera, no mar Egeu, durante a Idade do Bronze."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Uma gigantesca erupção vulcânica no mar Egeu, na Idade do Bronze, é ligada por alguns estudiosos à lenda de qual terra engolida pelo mar?",
+    "resposta": "Atlântida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Minoan_eruption"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Minoan_eruption",
+        "situacao": "ok",
+        "texto": "The Minoan eruption was a catastrophic volcanic eruption that devastated the Aegean island of Thera (also called Santorini) circa 1600 BC. It destroyed the Minoan settlement at Akrotiri, as well as communities and agricultural areas on nearby islands and the coast of Crete with subsequent earthquakes and tsunamis.\n[…]\nSpyridon Marinatos, the discoverer of the Akrotiri archaeological site, suggested that the Minoan eruption is reflected in Plato's story of Atlantis. This view remains prevalent in popular culture, as reflected in TV programs such as BBC's Atlantis. However, this view is not supported by current scholarship.\n[…]\nMühlenbruch, Tobias (2017). \"The absolute dating of the volcanic eruption of Santorini/Thera (periferia South Aegean/GR) – an alternative perspective\". Praehistorische Zeitschrift. 92 (1–2): 92–107. doi:10.1515/pz-2017-0004. S2CID 134246887.\n[…]\nNotti, Erika (2021). \"Writing in Late Bronze Age Thera. Further Observations on the Theran Corpus of Linear A\". Pasiphae (15). ISSN 2037-738X.\n[…]\nSewell, David A. (2001). The eruption of Santorini in the Late Bronze Age (PhD dissertation). University of Reading. Archived from the original on 2008-02-26.\n[…]\nRadiocarbon dating of Egyptian artifacts puts Thera (Santorini) volcanic eruption prior to Pharaoh Ahmose - phys dot org - October 22, 2025\n[…]\nSantorini Decade Volcano – Santorini's geology and volcanic history, the Minoan eruption and the legend of Atlantis.\n[…]\nThe Thera (Santorini) Volcanic Eruption and the Absolute Chronology of the Aegean Bronze Age – A WWW companion site to: Sturt W. Manning, A Test of Time: the volcano of Thera and the chronology and history of the Aegean and east Mediterranean in the mid second millennium BC.\n[…]\nThera 2006 Expedition – exploration of the submarine deposits and morphology of Santorini volcano"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erup%C3%A7%C3%A3o_minoica",
+        "situacao": "ok",
+        "texto": "A erupção minoica, também chamada Erupção de Tera ou Erupção de Santorini, foi uma catastrófica erupção vulcânica pliniana com Índice de Explosividade Vulcânica (IEV) de 6 ou 7 e uma Densidade Lítica Equivalente (DLE) de 60 km³, que se estima ter ocorrido em meados do II milênio a.C., entre 1 650 e 1 450 a.C. A erupção foi um dos maiores eventos vulcânicos na Terra registrados na história.\n[…]\nA erupção devastou Santorini, incluindo o assentamento minoico de Acrotíri, bem como as comunidades agrícolas e áreas em ilhas próximas e na costa de Creta.\n[…]\nA erupção parece ter inspirado certos mitos gregos (como a Titanomaquia), da mesma forma que a destruição de Acrotíri quiçá deu a base ou inspirou a história platônica de Atlântida. Outrossim, são creditadas à erupção mudanças climáticas que afetaram culturas na China. A erupção causou tumulto no Egito e um tsunâmi que enfraqueceu os minoicos, que poucos séculos depois, c. 1 420 a.C., foram dominados pelos micênicos.\n[…]\nMeses antes da erupção também foi constatado um ou mais terremotos que danificaram os assentamentos locais.\n[…]\nA erupção de Santorini e a precipitação vulcânica podem ter inspirado o mito da titanomaquia na Teogonia de Hesíodo. As linhas de Hesíodo foram comparadas com a atividade vulcânica, citando raios de Zeus como um relâmpago vulcânico, a ebulição da terra e do mar como uma violação da câmara de magma, chamas imensas e calor como prova de explosões freáticas, entre muitas outras descrições.\n[…]\nOutras passagens mitológicas que possivelmente baseiam-se na erupção são o dilúvio de Deucalião, descrito na Crônica de Paros (datada de 1 582 a.C.), e o gigante de bronze de Creta, Talos, que atirava pedras sobre navios que se aproximassem da ilha. Há algumas evidências arqueológicas, sismológicas e vulcanológicas de que o mito da Atlântida, descrito por Platão (427–347 a.C.), baseia-se na erupção de Santorini.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Porta dos Leões",
+      "descricao": "Entrada principal da cidadela de Micenas, da Idade do Bronze, com um relevo de pedra sobre o lintel."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A entrada principal da cidadela de Micenas, da Idade do Bronze, é decorada com um relevo de dois animais frente a frente. Quais?",
+    "resposta": "Leões",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lion_Gate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lion_Gate",
+        "situacao": "ok",
+        "texto": "The Lion Gate (Greek: Πύλη των Λεόντων) is the popular modern name for the main entrance of the Bronze Age citadel of Mycenae in Southern Greece. It was erected during the thirteenth century BC, around 1250 BC, in the northwestern side of the acropolis. In modern times, it was named after the relief sculpture of two lions or lionesses in a heraldic pose that stands above the entrance.\n[…]\nThe Lion Gate is also a testimony of the presence of lions in Europe and Greece, before their disappearance in the late stages of Ancient history.\n[…]\nAfter the expansion, Mycenae could be entered by two gates, a main entrance and a postern, while undoubtedly, the most extensive feature was the remodeling of the main entrance to the citadel, now known as the Lion Gate, in the northwestern side built circa 1250 BC.\n[…]\nThis gate may be compared to the gates of the Hittite Bronze Age citadel of Hattusa, in Asia Minor. Since the heads of the animals were of a different material from their bodies and originally were fashioned to look toward those approaching below, a number of scholars have speculated that these might have been composite beasts, probably sphinxes, in the typical Middle Eastern tradition.\n[…]\nRoyal Institute of British Architects, whose emblem is a modified representation of the gate sculpture\n[…]\nAström, P.; Blomé, B. (1964). \"A Reconstruction of the Lion Gate Relief at Mycenae\". Opuscula Atheniensia (OpAth). 5: 159–191.\n[…]\nBlackwell, Nicholas G. (July 2014). \"Making the Lion Gate Relief at Mycenae: Tool Marks and Foreign Influence\". American Journal of Archaeology. 118 (3). Archaeological Institute of America: 451–488. doi:10.3764/aja.118.3.0451. JSTOR 10.3764/aja.118.3.0451. S2CID 193336855."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Port%C3%A3o_dos_Le%C3%B5es",
+        "situacao": "ok",
+        "texto": "O Portão dos Leões (em grego: Πύλη των Λεόντων) é o nome moderno popular para a entrada principal da cidadela da Idade do Bronze de Micenas, no sul da Grécia. Foi erguido durante o século XIII a.C., por volta de 1250 a.C., no lado noroeste da acrópole. Na era moderna, recebeu o nome do relevo escultórico de dois leões ou leoas em posição heráldica que se encontra acima da entrada.\n[…]\nApós a expansão, Micenas podia ser acedida por dois portões, uma entrada principal e uma poterna, sendo que, sem dúvida, a característica mais extensa foi a remodelação da entrada principal para a cidadela, agora conhecida como Portão dos Leões, no lado noroeste, construída por volta de 1250 a.C.\n[…]\nMuitas outras peças de arte micênica partilham o mesmo motivo básico de dois animais opostos separados por um divisor vertical, como dois cordeiros de frente para uma coluna e duas esfinges de frente para uma árvore sagrada representando uma divindade. O desenho arquitetónico no relevo do portão pode refletir uma entrada de um tipo caracterizado por um suporte central, comummente uma única coluna.\n[…]\nMais especificamente, o relevo do portão pode aludir ao propileu (estrutura que forma a entrada) que fornece o acesso direto principal ao palácio. Os leões atuavam como guardiões da entrada do palácio. Se assim for, o símbolo de uma entrada de palácio santificada teria aparecido acima do portão das fortificações: uma dupla bênção.\n[…]\nBlakolmer, Fritz (2010). «Images and Perceptions of the Lion Gate Relief at Mycenae during the 19th Century». In:  F. Buscemi. The Representation of Ancient Architecture in the XIXth Century [Imagens e Percepções do Relevo do Portão dos Leões em Micenas durante o Século XIX]. [S.l.]: Cogitata. pp. 49–66. Consultado em 18 de outubro de 2023",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Alvenaria ciclópica",
+      "descricao": "Técnica de construção com enormes blocos de pedra encaixados sem argamassa, típica de Micenas e Tirinto."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Os gregos antigos achavam que as muralhas de Micenas, feitas de blocos enormes, só poderiam ter sido erguidas por quais gigantes de um olho só?",
+    "resposta": "Ciclopes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cyclopean_masonry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cyclopean_masonry",
+        "situacao": "ok",
+        "texto": "Cyclopean masonry is a type of stonework found in Mycenaean architecture, built with massive limestone boulders, roughly fitted together with minimal clearance between adjacent stones and with clay mortar or no use of mortar. The boulders typically seem unworked, but some may have been worked roughly with a hammer and the gaps between boulders filled in with smaller chunks of limestone."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Constru%C3%A7%C3%A3o_cicl%C3%B3pica",
+        "situacao": "ok",
+        "texto": "Construção ciclópica, ou apenas ciclópico ou ciclópeo, é um tipo de cantaria encontrado na arquitetura micênica, construída com blocos maciços de calcário, aproximadamente encaixados com folga mínima entre pedras adjacentes e com argamassa de argila ou sem uso de argamassa. As pedras normalmente parecem não trabalhadas, mas algumas podem ter sido trabalhadas grosseiramente com um martelo e as lacu\n[…]\nOs exemplos mais famosos de alvenaria ciclópica são encontrados nas paredes de Micenas e Tirinto, e o estilo é característico das fortificações micênicas. Estilos semelhantes de cantaria são encontrados em outras culturas e o termo passou a ser usado para descrever cantaria típica desse tipo, como as antigas muralhas da cidade de Rajgir.\n[…]\nO termo vem da crença dos gregos clássicos de que apenas os míticos ciclopes tinham força para mover as enormes pedras que compunham as muralhas de Micenas e Tirinto. A História Natural de Plínio relata a tradição atribuída a Aristóteles, de que os Ciclopes foram os inventores das torres de alvenaria, dando origem à designação de “Ciclópico”.\n[…]\nAs paredes são geralmente fundadas em fundamentos extremamente rasos esculpidos na rocha. \"Ciclópico\", o termo normalmente aplicado ao estilo de alvenaria característico dos sistemas de fortificação micênicos, descreve paredes construídas com enormes pedras calcárias não trabalhadas que são aproximadamente encaixadas. Entre esses pedregulhos, pedaços menores de calcário preenchem os interstícios.\n[…]\nNo antigo Peru se encontram abundantes restos de construções ciclópicas, como as muralhas de Cuzco e os monumentos funerários turriformes ora quadradas, ora redondas ou ligeiramente cônicas, chamados chulpas. Destes e outros sepulcros em formato de dólmens se conservam um bom número nas imediações do Lago Titicaca.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Ur",
+      "descricao": "Antiga cidade-Estado suméria no sul da Mesopotâmia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Agatha Christie conheceu o seu segundo marido, o arqueólogo Max Mallowan, numa visita às escavações de qual cidade suméria?",
+    "resposta": "Ur",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Max_Mallowan",
+      "https://en.wikipedia.org/wiki/Ur"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Max_Mallowan",
+        "situacao": "ok",
+        "texto": "Sir Max Edgar Lucien Mallowan (6 May 1904 – 19 August 1978) was a British archaeologist specializing in the Ancient Near East. Having studied classics at Oxford University, he was trained for archaeology by Leonard Woolley at Ur and Reginald Campbell Thompson at Nineveh. He then directed a number of archaeological expeditions sponsored by the British Museum and the British School of Archaeology in\n[…]\nIt was by means of H. A. L. Fisher, the warden of his college, that Mallowan was introduced to D. G. Hogarth and then to Leonard Woolley. He worked first as an apprentice to Woolley at the archaeological site of Ur (1925–1930), which was thought to be the capital of Mesopotamian civilization. It was at the Ur site, in 1930, that he first met Agatha Christie, the famous author, whom he married the same year.\n[…]\nMallowan gave an account of his work in his book Twenty-five Years Of Mesopotamian Discovery (1956) and his wife Agatha Christie described his work in Syria in her book Come, Tell Me How You Live (1946). In 1954, he was elected a Fellow of the British Academy (FBA), the United Kingdom's national academy for the humanities and social sciences. He served as vice-president of the British Academy from 1961 to 1962.\n[…]\nAgatha Christie died in 1976; the next year, Mallowan married Barbara Hastings Parker, an archaeologist, who had been his epigraphist at Nimrud and Secretary of the British School of Archaeology in Iraq.\n[…]\nChristie Mallowan, Agatha. Come, Tell Me How You Live: An Archaeological Memoir. New York: Dodd, Mead and Company, 1976 (hardcover, ISBN 0-396-07320-4); New York: Vintage/Ebury, 1983 (hardcover, ISBN 0-370-30563-9); New York: HarperCollins, 1999 (paperback, ISBN 0-00-653114-8); Pleasantville, NY: Akadine Press, 2002 (with introduction by David Pryce-Jones; paperback, ISBN 1-58579-010-9).\n[…]\nAgatha Christie/Sir Max Mallowan's blue plaque at Cholsey"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ur",
+        "situacao": "ok",
+        "texto": "Ur ( or ) was a major Sumerian city-state in ancient Mesopotamia, located at the site of modern Tell el-Muqayyar (Arabic: تَلّ ٱلْمُقَيَّر, lit. 'mound of bitumen') in Dhi Qar Governorate, Iraq. Although Ur was a coastal city near the mouth of the Euphrates on the Persian Gulf, the coastline has shifted and the site is now well inland, on the south bank of the Euphrates, 16 km (10 mi) southwest of\n[…]\nThe discoveries at the site reached the headlines in mainstream media in the world with the discoveries of the Royal Tombs. As a result, the ruins of the ancient city attracted many visitors. One of these visitors was the already famous Agatha Christie, who as a result of this visit ended up marrying Max Mallowan. During this time the site was accessible from the Baghdad–Basra railway, from a stop called \"Ur Junction\".\n[…]\nGa’eš was also mentioned in the Sumerian literary composition Lament for Sumer and Ur:\n[…]\nCharvát, Petr, \"Signs from Silence: Ur of the First Sumerians (Late Uruk Through ED I)\", Ur in the Twenty-First Century CE: Proceedings of the 62nd Rencontre Assyriologique Internationale at Philadelphia, July 11–15, 2016, edited by Grant Frame, Joshua Jeffers and Holly Pittman, University Park, USA: Penn State University Press, pp. 195–204, 2021\n[…]\nD’Agostino, F., Pomponio, F., and Laurito, R., \"Neo-Sumerian Texts from Ur in the British Museum.\", Nisaba 5, Messina: Dipartimento di Scienze dell’Antichitá, 2004 ISBN 9788882680107\n[…]\nPardo Mata, Pilar, \"Ur, ciudad de los sumerios\". Cuenca: Alderaban, 2006. ISBN 978-84-95414-38-0.\n[…]\n[25] Woolley, Leonard and with M.E.L. Mallowan, \"The Old Babylonian Period\", Ur Excavations VII, Oxford University Press, 1976\n[…]\n[27] Woolley, Leonard and M.E.L. Mallowan, \"The Neo-Babylonian and Persian Periods\", Ur Excavations IX, London: Published for the Trustees of the Two Museums, 1962"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Max_Mallowan",
+        "situacao": "ok",
+        "texto": "Sir Max Edgar Lucien Mallowan, CBE (6 de maio de 1904 - 19 de agosto de 1978) foi um proeminente arqueólogo britânico, especializado em história do antigo Oriente Médio. Ele foi o segundo marido de Agatha Christie.\n[…]\nFoi por meio de H. A. L. Fisher, o diretor de seu colégio, que Mallowan foi apresentado a D. G. Hogarth e depois a Leonard Woolley. Trabalhou primeiro como aprendiz de Woolley no sítio arqueológico de Ur (1925–1930), que era considerado a capital da civilização mesopotâmica. Foi no sítio de Ur, em 1930, que conheceu Agatha Christie, a famosa escritora, com quem se casou no mesmo ano.\n[…]\nMallowan apresentou um relato de seu trabalho em seu livro Twenty-five Years Of Mesopotamian Discovery (1956) e sua esposa Agatha Christie descreveu seu trabalho na Síria em seu livro Come, Tell Me How You Live (1946). Em 1954, foi eleito Membro da Academia Britânica (FBA), a academia nacional do Reino Unido para ciências humanas e sociais. Serviu como vice-presidente da Academia Britânica de 1961 a 1962.\n[…]\nMallowan foi nomeado Comandante da Ordem do Império Britânico nas Honras do Aniversário da Rainha de 1960 e cavaleiro em 1968. Ele e a dama Agatha Christie estavam entre vários casais que detinham honras cavalheirescas por direito próprio.\n[…]\nEle morreu em 19 de agosto de 1978, aos 74 anos, em Wallingford, Oxfordshire, e foi enterrado ao lado de sua primeira esposa, Dame Agatha, no cemitério de St. Mary, em Cholsey. Sua viúva, Barbara, a segunda Lady Mallowan, morreu em Wallingford em 1993, aos 85 anos de idade.\n[…]\nMedia relacionados com Max Mallowan no Wikimedia Commons\n[…]\nAgatha Christie/Sir Max Mallowan's blue plaque at Cholsey",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Cemitério Real de Ur",
+      "descricao": "Conjunto de túmulos sumérios em Ur, com ricos objetos de ouro e outros tesouros."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1920, o Cemitério Real de Ur, repleto de tesouros sumérios de ouro, foi escavado por qual arqueólogo britânico?",
+    "resposta": "Leonard Woolley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Royal_Cemetery_at_Ur",
+      "https://en.wikipedia.org/wiki/Leonard_Woolley"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Royal_Cemetery_at_Ur",
+        "situacao": "ok",
+        "texto": "The Royal Cemetery at Ur is an archaeological site in modern-day Dhi Qar Governorate in southern Iraq. The initial excavations at Ur took place between 1922 and 1934 under the direction of Leonard Woolley in association with the British Museum and the University of Pennsylvania  Museum of Archaeology and Anthropology in Philadelphia, Pennsylvania, United States.\n[…]\nThe process was begun in 1922 by digging trial trenches, in order for the archaeologists to get an idea of the layout of the ancient city that would be documented in drawings by Katharine Woolley. In one trench where initially nothing was discovered, head archaeologist Leonard Woolley decided to dig deeper. There, clay vases, limestone bowls, small bronze objects, and assorted beads were found.\n[…]\nThe pottery types at Ur included mostly jar forms and bowls with limited variety in style. Conical bowls, as recorded by the excavators, fall into two categorical types based on their rim diameters. Woolley identified 24 different pottery types at the Royal Cemetery based on the excavation of 238 graves. In order to date the pottery and burials at Ur, some scholars have looked to the pottery to compare to similar types from other sites in Mesopotamia and then checked using cylinder seals.\n[…]\nAnalyses of the findings of Sir Leonard Woolley have led to new theories concerning the royal tombs.\n[…]\nIn 1998, Paul Zimmerman wrote a master's thesis while at the University of Pennsylvania on the Royal Cemetery at Ur. Graves PG789 and PG800, the king and queen's graves, according to Woolley, were complete burials with attendants and worldly possessions. Zimmerman analyzed the layout and formulated the hypothesis that the two tombs were in fact three. Pit PG800 had two rooms that were on two different levels, something that Zimmerman found inconsistent with grave PG789 (the rooms were connected)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Leonard_Woolley",
+        "situacao": "ok",
+        "texto": "Sir Charles Leonard Woolley (17 April 1880 – 20 February 1960) was a British archaeologist best known for his excavations at Ur in Mesopotamia. He is recognized as one of the first modern archaeologists who excavated in a methodical way, keeping careful records, and using them to reconstruct ancient life and history. Woolley was knighted in 1935 for his contributions to the discipline of archaeolo\n[…]\nIn the following years, Woolley returned to Carchemish, and then worked at Amarna in Egypt.\n[…]\nWoolley led a joint expedition of the British Museum and the University of Pennsylvania to Ur, beginning in 1922, which included his wife, the British archaeologist Katharine Woolley. There, they made important discoveries, including the Copper Bull and, in the course of excavating the royal cemetery, the Bull-Headed Lyre and the pair of Ram in a Thicket figurines. Agatha Christie's novel, Murder in Mesopotamia, was inspired by the discovery of the royal tombs.\n[…]\nAgatha Christie later married Woolley's young assistant, Max Mallowan.\n[…]\nAt Ur, the Woolleys discovered tombs of great material wealth, containing large paintings of ancient Sumerian culture at its zenith, along with gold and silver jewellery, cups and other furnishings. The most extravagant tomb was that of Queen Pu-Abi. Amazingly enough, Pu-Abi's tomb was untouched by looters. Inside the tomb, many well-preserved items were found, including a cylindrical seal bearing her name in Sumerian.\n[…]\nIn 1930, Woolley invited his friend Agatha Christie to visit a dig site in Iraq, where she met her second husband Max Mallowan.\n[…]\nWoolley died at 16 Fitzroy Square, London on 20 February 1960 at age 79. He was cremated at Golders Green on the 24th. Dame Katharine died on 8 November 1945. They had no children.\n[…]\nThe Sumerians, 1965\n[…]\nWinstone, H. V. F. (1990). Woolley of Ur. London: Secker and Warburg.\n[…]\nWorks by Leonard Woolley at Faded Page (Canada)"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Zigurate",
+      "descricao": "Templo mesopotâmico em forma de torre com terraços em degraus."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os zigurates, templos em degraus da Mesopotâmia, são apontados como a provável inspiração de qual construção da Bíblia?",
+    "resposta": "Torre de Babel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ziggurat",
+      "https://en.wikipedia.org/wiki/Etemenanki"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ziggurat",
+        "situacao": "ok",
+        "texto": "A ziggurat ( ); Cuneiform: 𒅆𒂍𒉪, is a type of massive structure built in ancient Mesopotamia and Iran. It has the form of a terraced compound of successively receding stories or levels. Notable ziggurats include the Great Ziggurat of Ur near Nasiriyah, the Ziggurat of Aqar Quf near Baghdad, the no longer extant Etemenanki in Babylon, Chogha Zanbil in Khūzestān and Sialk.\n[…]\nOne of the best-preserved ziggurats is Chogha Zanbil in western Iran. Ziggurat designs ranged from simple bases upon which a temple sat, to marvels of mathematics and construction which spanned several terraced stories and were topped with a temple.\n[…]\nThe biblical account of the Tower of Babel has been associated by modern scholars to the massive construction undertakings of the ziggurats of Mesopotamia, and in particular to the ziggurat of Etemenanki in Babylon in light of the Tower of Babel Stele describing its restoration by Nebuchadnezzar II.\n[…]\nAccording to some historians the design of Egyptian pyramids—especially the stepped designs of the oldest pyramids (Pyramid of Zoser at Saqqara, 2600 BCE)—may have been an evolution from the ziggurats built in Mesopotamia. Others say the Pyramid of Zoser and the earliest Egyptian pyramids may have been derived locally from the bench-shaped mastaba tomb.\n[…]\nAlthough having only crude formal shape, which can be compared to the stepped ziggurats, the shape of the ziggurat experienced a revival in modern architecture and Brutalist architecture starting in the 1970s. The Al Zaqura Building is a government building situated in Baghdad. It serves the office of the prime minister of Iraq. The Babylon Hotel in Baghdad is also inspired by the ziggurat. The Chet Holifield Federal Building is colloquially known as \"the Ziggurat\" due to its form.\n[…]\nUNESCO Heritage site for Choqa Zanbil ziggurat, Iran.\n[…]\nArticle on the status of Sialk ziggurat, Iran."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Etemenanki",
+        "situacao": "ok",
+        "texto": "Etemenanki (Sumerian: 𒂍𒋼𒀭𒆠, romanized: É.TEMEN.AN.KI, lit. 'Temple of the Foundation of Heaven and Earth') was a Babylonian ziggurat dedicated to the Mesopotamian god Marduk. It is now in ruins, which are located about 90 kilometres (56 mi) south of Baghdad. Some scholars have proposed Etemenanki as the ziggurat that may have influenced the biblical account of the Tower of Babel.\n[…]\nFenollós et al. note that \"The 'Tower of Babel' was not built in a single moment, but rather was the result of a complex history of successive constructions, destruction and reconstruction. Its origin dates back to the reign of Hammurabi and continues to this day with its inevitable and definitive destruction.\" The \"Tower,\" as discussed in ancient sources, refers to the monument as it appeared in the Neo-Babylonian period.\n[…]\nIn 2003 scholars discovered in the Schøyen Collection the oldest known representation of the Etemenanki. Carved on a black stone, the \"Tower of Babel Stele\", as it is known, dates to 604–562 BCE, the time of Nebuchadnezzar II.\n[…]\n[The modern] interpretation of Esagil's text raises a serious technical problem: the excessive height of the first two terraces of the ziggurat and the total height of the building defy the laws of statics and compressive strength of a material such as raw earth brick.\n[…]\nEven allowing variation in the design of a six-level terraced structure, at that height, the compression stress on the structure would be somewhere around two to three times as much as comparable structures of the same time period. Fenollós et al. propose that, assuming the structure did indeed use a six-level terrace design as depicted in the Tower of Babel stele, the ziggurat was probably closer to 54 meters tall."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zigurate",
+        "situacao": "ok",
+        "texto": "O zigurate é uma forma de templo, criada pelos sumérios e comum para os babilônios, assírios e acádios, pertinente à época do antigo vale da Mesopotâmia e construído na forma de pirâmides terraplanadas. O formato era o de vários andares construídos um sobre o outro, com o diferencial de cada andar possuir área menor que a plataforma inferior sobre a qual foi construído — as plataformas poderiam se\n[…]\nUm exemplo de zigurate mais simples é o do Templo Branco de Uruque, na antiga Suméria, que deve ter sido construído por volta de 3200-3 000 a.C.. O próprio zigurate é a base sobre o qual o Templo Branco repousa, e sua função é trazer o templo mais próximo aos céus, de forma que pudesse prover acesso desde o solo até lá, por meio de degraus — a estrutura teria a função, portanto, de uma ponte entre os dois mundos.\n[…]\nUm exemplo de zigurate sólido e abrangente é o de Marduque, ou Torre de Babel, situado na antiga Babilônia. Infelizmente não sobrou nem mesmo a base daquela poderosa estrutura, mas de acordo com achados arqueológicos e fontes históricas, a torre colocava-se sobreposta a sete camadas multicoloridas, em cujo topo achava-se um templo de proporções singulares. Acerca desse templo, acredita-se haver sido pintado e preservado em cor anil, combinando com o cimo das camadas.\n[…]\nÉ sabido que havia três escadarias que levavam ao templo, e diz-se que duas delas ascendiam apenas até a metade da altura do zigurate.\n[…]\nO nome sumério para a estrutura era Etemenanki, palavra que significa \"A Fundação do Céu e da Terra.\" Provavelmente construído sob as ordens de Hamurabi, averiguou-se que o centro do zigurate de Marduque continha restos de outros zigurates e estruturas mais antigas. O estágio final consistia dum encaixamento de 15 metros de tijolos reforçados construído pelo monarca Nabucodonosor I.\n[…]\nZigurate de Ur\n[…]\nTorre de Babel",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Estandarte de Ur",
+      "descricao": "Caixa de madeira suméria decorada com mosaicos de cenas de guerra e de paz, achada em Ur."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Estandarte de Ur, peça suméria com cenas de guerra e de paz, tem mosaicos de conchas, calcário vermelho e qual pedra azul?",
+    "resposta": "Lápis-lazúli",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Standard_of_Ur"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Standard_of_Ur",
+        "situacao": "ok",
+        "texto": "The Standard of Ur is a Sumerian artifact of the 3rd millennium BC that is now in the collection of the British Museum. It is thought to have decorated the outside of a hollow wooden box measuring 21.59 cm (8.50 in) wide by 49.53 cm (19.50 in) long, inlaid with a mosaic of shell, red limestone, and lapis lazuli. It comes from the ancient city of Ur, located in modern-day Iraq west of Nasiriyah. It\n[…]\nIt was found in a royal tomb in Ur in the 1920s next to the skeleton of a ritually sacrificed man who might have been its bearer \"entirely covered with thousands of minute lapis-lazuli ball beads, they lay over and under the broken skull and were thick in the surrounding soil; it appeared that he had worn a cap which was parsemé with beads\". A shell cylinder seal with the name \"é-zi\" was found with the body.\n[…]\nThe discovery was quite unexpected, as the tomb in which it occurred had been thoroughly plundered by robbers in ancient times. As one corner of the last chamber was being cleared, a workman spotted a piece of shell inlay. Woolley later recalled that \"the next minute the foreman's hand, carefully brushing away the earth, laid bare the corner of a mosaic in lapis lazuli and shell.\"\n[…]\nThe present form of the artifact is a reconstruction, presenting a best guess of its original appearance. It has been interpreted as a hollow wooden box measuring 21.59 cm (8.50 in) wide by 49.53 cm (19.50 in) long, inlaid with a mosaic of shell, red limestone, and lapis lazuli. The box has an irregular shape with end pieces in the shape of truncated triangles, making it wider at the bottom than at the top.\n[…]\nThere has been much speculation on the origins and professions of the various non-royal humans (and on the species of various animals) on the standard ranging from Sumerians to \"northerners\" to being from completely outside the Mesopotamian plain."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estandarte_de_Ur",
+        "situacao": "ok",
+        "texto": "O Estandarte de Ur (também conhecido como o \"Estandarte da Batalha de Ur\", ou o \"Estandarte Real de Ur\") é um artefato sumério escavado do que seria o cemitério real, na antiga cidade de Ur (localizada no atual Iraque ao sul de Bagdá). Ele possui três faixas horizontais que retratam o cotidiano do povo de Ur.\n[…]\nEspecialistas comumente identificam os dois maiores painéis do artefato como representando de um lado cenas típicas da vida em momentos de paz, enquanto o outro representaria cenas de guerra. Na face que retrata a guerra, os frisos exibem campanhas militares com a subjugação de prisioneiros que são levados à presença do soberano. Na outra face, os tempos de paz permitem o cuidado com a agricultura, com a pecuária e a celebração entre os habitantes da cidade.\n[…]\nMedia relacionados com Estandarte de Ur no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Império Acádio",
+      "descricao": "Império mesopotâmico fundado por volta de 2300 antes de Cristo, com capital em Acádia."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 2300 antes de Cristo, que rei unificou as cidades da Mesopotâmia e fundou o Império Acádio?",
+    "resposta": "Sargão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akkadian_Empire",
+      "https://en.wikipedia.org/wiki/Sargon_of_Akkad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Akkadian_Empire",
+        "situacao": "ok",
+        "texto": "The Akkadian Empire () or the Kingdom of Akkad/Agade was an ancient kingdom established around 2300 BCE, often seen as the first empire in world history, succeeding and unifying the long-lived city-states of the Early Dynastic period.\n[…]\nAccording to copies of his inscriptions dating from after his reign, Sargon defeated him (around 2300 BC, perhaps in 2292), bringing all of Lower Mesopotamia as far as the Persian Gulf under his control. The defeated king was captured, forced to wear a yoke, and paraded during Sargon’s triumphal procession in Nippur, the holy city of southern Mesopotamia. The other Sumerian cities were subjugated.\n[…]\nThe Akkadian Dynasty is the first known attempt at a lasting unification of southern Mesopotamia. The impact of Akkadian rule is felt most strongly in this region. The administrative structures of the Akkadian state, however, are poorly documented and little understood.\n[…]\nList of Mesopotamian deities\n[…]\nHistory of Mesopotamia\n[…]\nList of Mesopotamian dynasties\n[…]\nBahrani, Zainab (2017). Mesopotamia: Ancient Art and Architecture. London: Thames & Hudson.\n[…]\nFoster, Benjamin R. (2016). The Age of Agade: Inventing empire in ancient Mesopotamia. Londres and New York: Routledge / Taylor & Francis Group.\n[…]\nLafont, Bertrand (2017). \"Akkad, l'empire charismatique (2330-2100)\". Mésopotamie: De Gilgamesh à Artaban (3300-120 av. J.-C.). Mondes anciens (in French). Paris: Belin. pp. 165–199.\n[…]\nWestenholz, Aage (1999). \"The Old Akkadian Period: History and Culture\". Mesopotamien: Akkade-Zeit und Ur III-Zeit. Orbis Biblicus et Orientalis. Freiburg and Göttingen: Universitätsverlag Freiburg Schweiz and Vandenhoeck & Ruprecht. pp. 17–118."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
+        "situacao": "ok",
+        "texto": "Sargon of Akkad (; Akkadian: 𒊬𒊒𒄀, romanized: Šarrugi; died c. 2279 BC), also known as Sargon the Great, was the first ruler of the Akkadian Empire, known for his conquests of the Sumerian city-states in the 24th to 23rd centuries BC. He is sometimes identified as the first person in recorded history to rule over an empire.\n[…]\nthey were presumably transported from Mesopotamia in the 12th century BC).\n[…]\nAmerican Rock Group They Might Be Giants refer to Sargon of Akkad in the track \"The Mesopotamians\" on their 2007 album The Else, along with Hammurabi, Ashurbanipal and Gilgamesh.\n[…]\nHistory of Mesopotamia\n[…]\nList of Mesopotamian dynasties\n[…]\nFoster, Benjamin R., \"The Age of Agade. Inventing Empire in Ancient Mesopotamia\", Routledge, 2016 ISBN 9781138909755\n[…]\nGlassner, Jean-Jacques, \"Mesopotamian Chronicles\", Society of Biblical Literature, 2004 ISBN 1-58983-090-3\n[…]\nPostgate, Nicholas. \"Early Mesopotamia: Society and Economy at the Dawn of History\", Routledge, 1994\n[…]\nSallaberger, Walter, \"Mesopotamien. Akkade-Zeit und Ur III-Zeit\", Annäherungen 3. OBO 160/3. Freiburg, Schweiz/Göttingen, 1999 ISBN 978-3-525-53325-3\n[…]\nSchomp, Virginia, \"Ancient Mesopotamia\", Franklin Watts, 2005 ISBN 0-531-16741-0\n[…]\nFoster, Benjamin R. (2016). The Age of Agade: Inventing empire in ancient Mesopotamia. Londres and New York: Routledge / Taylor & Francis Group.\n[…]\nLafont, Bertrand (2017). \"Akkad, l'empire charismatique (2330-2100)\". Mésopotamie: De Gilgamesh à Artaban (3300-120 av. J.-C.). Mondes anciens (in French). Paris: Belin. pp. 165–199.\n[…]\nWestenholz, Aage (1999). \"The Old Akkadian Period: History and Culture\". Mesopotamien: Akkade-Zeit und Ur III-Zeit. Orbis Biblicus et Orientalis. Freiburg and Göttingen: Universitätsverlag Freiburg Schweiz and Vandenhoeck & Ruprecht. pp. 17–118."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Ac%C3%A1dio",
+        "situacao": "ok",
+        "texto": "Império Acádio (também chamado Império Acadiano ou Império da Acádia ou somente Acádia) foi o primeiro império multiétnico, governado a partir de um centro, conhecido da História. Situava-se na Mesopotâmia, centrado na cidade de Acádia e sua região circundante, que a Bíblia também chamava de \"Acádia\". Este uniu os falantes acádios e sumérios sob um único governo.\n[…]\nO Império Acadiano tira o seu nome da região e cidade da Acádia, ambas localizadas na área geral de confluência dos rios Tigre e Eufrates. Embora a cidade da Acádia ainda não tenha sido identificada no terreno, é conhecida a partir de várias fontes textuais. Entre estas está pelo menos um texto anterior ao reinado de Sargão. Juntamente com o facto de que o nome Acádia é de origem não-acadiana, isto sugere que a cidade da Acádia pode já ter sido ocupada em tempos pré-sargônicos.\n[…]\nDepondo Ur-Zababa, Sargão foi coroado rei e iniciou uma carreira de conquistas no exterior. Quatro vezes ele invadiu a Síria e Canaã, e passou três anos subjugando completamente os países do \"oeste\" para os unir com a Mesopotâmia \"num único império\".\n[…]\nImagens de Sargão foram erguidas nas margens do Mediterrâneo, como sinal das suas vitórias, e cidades e palácios foram construídos no seu país com os despojos das terras conquistadas. Elão e a parte norte da Mesopotâmia também foram subjugados, e rebeliões na Suméria foram reprimidas. Foram encontradas tabuletas de contrato datadas dos anos das campanhas contra Canaã e contra Sarlague, rei de Gutium.\n[…]\nO comércio internacional se desenvolveu durante o período acadiano. As relações indo-mesopotâmicas também parecem ter se expandido: Sargão da Acádia (por volta de 2300 ou 2250 a.C.) foi o primeiro governante da Mesopotâmia a fazer uma referência explícita à região de Meluhha, que é geralmente entendida como a região do Baluchistão ou do rio Indo.\n[…]\nLista de impérios",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Ossos oraculares",
+      "descricao": "Ossos e cascos de tartaruga com inscrições da dinastia Shang, na China da Idade do Bronze."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Alguns dos textos chineses mais antigos foram gravados, há mais de três mil anos, em cascos de tartaruga e ossos de boi. Para que eles serviam?",
+    "resposta": "Adivinhação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oracle_bone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oracle_bone",
+        "situacao": "ok",
+        "texto": "Oracle bones are pieces of ox scapula and turtle plastron which were used in pyromancy – a form of divination – during the Late Shang period (c. 1250 – c. 1050 BCE) in ancient China. Scapulimancy is the specific term if ox scapulae were used for the divination, plastromancy if turtle plastrons were used. A recent count estimated that there were about 13,000 bones with a total of a little over 130,\n[…]\nOraculology is the discipline for the study of oracle bones and the oracle bone script.\n[…]\nA legendary tale relates that Wang was sick with malaria, and his scholar friend Liu E was visiting him and helped examine his medicine. They discovered that, before being ground into powder, the bones bore strange glyphs which, having studied the ancient bronze inscriptions, they recognized as ancient writing. Xu Yahui states that, \"[n]o one can know how many oracle bones, prior to 1899, were ground up by traditional Chinese pharmacies and disappeared into people's stomachs.\"\n[…]\nBy the time of the establishment of the Institute of History and Philology by Fu Sinian at the Academia Sinica in 1928, the source of the oracle bones had been traced back to modern Xiaotun (小屯村) village at Anyang in Henan. Official archaeological excavations led by Li Ji, the father of Chinese archaeology, between 1928 and 1937 discovered 20,000 oracle bone pieces, which now form the bulk of the Academia Sinica's collection in Taiwan and constitute about 1/5 of the total discovered.\n[…]\nThe major archaeologically excavated pits of bones have been:\n[…]\nA handful of oracle bones have been found at other Western Zhou sites, including some from Beijing.\n[…]\nOracle bones, United College Library, Chinese University of Hong Kong. Includes 45 inscribed fragments.\n[…]\nHigh-resolution digital images of oracle bones, Cambridge Digital Library.\n[…]\nArchaeological database documenting the origins of Oracle Bone divination in Ancient East Asia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Osso_or%C3%A1culo",
+        "situacao": "ok",
+        "texto": "Ossos oráculo (chinês: 甲骨; pinyin: jiǎgǔ) são pedaços de escápula de boi e plastrão de tartaruga, que foram usados para piromancia – uma forma de adivinhação – na China antiga, principalmente durante o final da dinastia Shang. Escapulimancia é o termo específico se escápulas de boi forem usadas para adivinhação, plastromancia se forem usados plastrões de tartaruga.\n[…]\nUma contagem recente estimou que havia cerca de 13 mil ossos com um total de pouco mais de 130 mil inscrições em coleções na China e em cerca de quatorze outros países.\n[…]\nNa época do estabelecimento do Instituto de História e Filologia chefiado por Fu Sinian na Academia Sinica em 1928, a origem dos ossos do oráculo remontava à moderna vila de Xiǎotún (小屯村) em Anyang, na província de Henan. Escavações arqueológicas oficiais em 1928-1937 lideradas por Li Ji, o pai da arqueologia chinesa, descobriram 20.000 peças de ossos oráculo, que agora constituem a maior parte da coleção da Academia Sinica em Taiwan e constituem cerca de 1/5 do total descoberto.\n[…]\nQuando decifradas, as inscrições nos ossos oráculo revelaram-se registros das adivinhações realizadas para ou pela família real.\n[…]\nAs inscrições em ossos oráculo foram publicadas à medida que eram descobertas, em fascículos. Posteriormente, muitas coleções de inscrições também foram publicadas. A seguir estão as principais coleções.\n[…]\nchinês: 殷墟文字甲編; pinyin: Yinxu wenzi jiabian",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Mohenjo-daro",
+      "descricao": "Cidade da civilização do Vale do Indo, na Idade do Bronze."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que grande tanque público de tijolos, talvez usado em rituais de purificação, é uma das construções mais conhecidas de Mohenjo-daro?",
+    "resposta": "O Grande Banho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Bath,_Mohenjo-daro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Bath,_Mohenjo-daro",
+        "situacao": "ok",
+        "texto": "The Great Bath is one of the best-known structures among the ruins of the Harappan Civilization, excavated at Mohenjo-daro in present-day Sindh province of Pakistan. Archaeological evidence indicates that the Great Bath was built in the third millennium BCE, soon after the raising of the \"citadel\" mound on which it is located.\n[…]\nThe Great Bath of Mohenjo-Daro is called the \"earliest public water tank of the ancient world\". It measures approximately 12 metres (40 ft) by 7 metres (23 ft), with a maximum depth of 2.4 metres (8 ft). Two wide staircases, one from the north and one from the south, served as the entry to the structure. A ledge 1.4 metres (4 ft 7 in) high extending the entire width of the bath is at the lower ends of these stairs.\n[…]\nThe floor of the tank was watertight due to finely fitted bricks laid on edge with a gypsum plaster, and the side walls were constructed in a similar manner. To make the tank even more watertight, a thick layer of bitumen (waterproof tar) was laid along the sides of the pool and presumably also on the floor. Brick colonnades were discovered on the eastern, northern and southern edges. The preserved columns had stepped edges that may have held wooden screens or window frames.\n[…]\nThe fresh water supply at Mohenjo-Daro was fed by a system of wells that were lined with wedge-shaped bricks."
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Geoglifos do Acre",
+      "descricao": "Grandes valas geométricas escavadas por povos antigos no Acre, na Amazônia."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Enormes valas em forma de círculos e quadrados, escavadas por povos antigos no Acre, ficaram séculos escondidas. O que as revelou a partir dos anos setenta?",
+    "resposta": "O desmatamento",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Geoglifos_do_Acre",
+      "https://en.wikipedia.org/wiki/Geoglyph"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Geoglifos_do_Acre",
+        "situacao": "ok",
+        "texto": "Os geoglifos do Acre são um conjunto de geoglifos antigos localizados no estado brasileiro do Acre. Chamados de \"tatuagens da terra\" por alguns grupos indígenas da região, essas estruturas de terra escavada foram registradas pela primeira vez na década de 1970, quando o pesquisador Ondemar Dias encontrou oito dessas estruturas na terra do Acre enquanto executava suas atividades para o Programa Nac\n[…]\nGrande parte das escavações, conforme a pesquisa de Martti Pärssinen, delimitavam centros cerimoniais que serviam para reunir os povos daquela mesma cultura, em atividades festivas e rituais. Mesmo após o declínio, alguns dos antigos geoglifos provavelmente continuaram sendo utilizados em função ritual.\n[…]\nForam encontrados geoglifos na região sudoeste da Amazônia Ocidental, estando a maioria localizada no estado do Acre, em áreas de interflúvios, nascentes de igarapés e várzeas, principalmente entre os rios Acre e Iquiri. São mais de 410 geoglifos no estado espalhados por cerca de 300 sítios arqueológicos.\n[…]\nSegundo o IPHAN, não existe consenso entre arqueólogos e outros pesquisadores que estudam a função e o uso desses geoglifos pelas sociedades amazônicas pré-coloniais, mas há uma convergência de conjecturas para a ideia de que se tratavam de espaços sociais coletivos para uso cerimonial, simbólico, ritualístico ou para moradia.\n[…]\nO conjunto dos geoglifos do Acre atualmente fazem parte da Lista Indicativa a Patrimônio Mundial pelo Brasil. Essa lista reúne bens que podem ser capazes de receber o título de Patrimônio Mundial da UNESCO e deve retratar a riqueza e diversidade cultural e natural existente no país e contribuir para a compreensão do processo civilizatório da Humanidade. Segundo o IPHAN, os geoglifos acreanos são essenciais para entender o processo de ocupação e povoamento da região amazônica."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Geoglyph",
+        "situacao": "ok",
+        "texto": "A geoglyph is a large design or motif – generally longer than 4 metres (13 ft) – produced on the ground by durable elements of the landscape, such as stones, stone fragments, gravel, or earth. A positive geoglyph is formed by the arrangement and alignment of materials on the ground in a manner akin to petroforms, while a negative geoglyph is formed by removing part of the natural ground surface to\n[…]\nSince the 1970s, numerous geoglyphs have been discovered on deforested land in the Amazon rainforest, Brazil, leading to claims about Pre-Columbian civilizations. Ondemar Dias is accredited with first discovering the geoglyphs in 1977 and Alceu Ranzi with furthering their discovery after flying over Acre."
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Cobre",
+      "descricao": "Metal avermelhado, o primeiro a ser trabalhado em larga escala e base do bronze."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra cobre vem do latim e está ligada ao nome de qual ilha do Mediterrâneo, grande fonte desse metal na Antiguidade?",
+    "resposta": "Chipre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copper"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Copper",
+        "situacao": "ok",
+        "texto": "Copper is a chemical element; it has symbol Cu (from Latin cuprum) and atomic number 29. It is a soft, malleable, and ductile metal with very high thermal and electrical conductivity. A freshly exposed surface of pure copper has a pinkish-orange color.\n[…]\nThe name of the metal derives from aes cyprium meaning 'metal of Cyprus' in Latin. In Late Latin this became cuprum. Old English adopted this as coper; copper derives from that word and first used in the 12th century.\n[…]\nThe price of copper is volatile. After a peak in 2022 the price unexpectedly fell. And by May 2024, the price on the London Metal Exchange has reached an all-time high above $11,000 per ton.\n[…]\nCopper was the most extensively used metal among natives of North America, with evidence for use going back 7000 years.\n[…]\nThe metal's distinctive natural green patina has long been coveted by architects and designers. The final patina is a particularly durable layer that is highly resistant to atmospheric corrosion, thereby protecting the underlying metal against further weathering. It can be a mixture of carbonate and sulfate compounds in various amounts, depending upon environmental conditions such as sulfur-containing acid rain.\n[…]\nCopper has excellent brazing and soldering properties and can be welded; the best results are obtained with gas metal arc welding.\n[…]\nCopper is biostatic, meaning bacteria and many other forms of life will not grow on it. For this reason it has long been used to line parts of ships to protect against barnacles and mussels. It was originally used pure, but has since been superseded by Muntz metal and copper-based paint.\n[…]\nMetal theft"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cobre",
+        "situacao": "ok",
+        "texto": "O cobre é um elemento químico de símbolo Cu (do latim cuprum), número atômico 29 (29 prótons e 29 elétrons) e de massa atómica 63,54 u. À temperatura ambiente o cobre encontra-se no estado sólido.\n[…]\nFenícios importaram o cobre da Grécia, não tardando em explorar as minas do seu território, como atestam os nomes das cidades Calce, Calcis e Calcitis (de χαλκος, bronze), ainda que tenha sido Chipre, a meio caminho entre Grécia e Egito, por muito tempo o país do cobre por excelência, ao ponto de os romanos chamarem o metal de aes cyprium ou simplesmente cyprium e cuprum, donde provém o seu nome.\n[…]\nAlém disso, o cobre foi representado com o mesmo signo que Vênus (a afrodite grega), pois Chipre estava consagrada a deusa da beleza e os espelhos eram fabricados com este metal. O símbolo, espelho de Vênus da mitologia e da alquimia, modificação do egípcio Ankh, foi posteriormente adotado por Carl Linné para simbolizar o gênero feminino(♀).\n[…]\nApesar de formar ligações com ligantes O e N (bases fortes, que possuem eletronegatividade alta e são pequenos), cobre monovalente é um metal mole, ou seja, forma ligações mais forte com bases moles (átomos menos eletronegativos e polarizáveis) como S e P .\n[…]\nApesar de formar ligações com bases duras como o O e N (possuem eletronegatividade alta e são pequenos), cobre monovalente é um íon metálico mole (grande, baixo nox), ou seja, forma ligações mais forte com bases moles, (átomos menos eletronegativos e polarizáveis), como S e P. O ânion boroidreto está coordenado ao cobre de modo bidentado, o número de coordenação do cobre é quatro e a estrutura do centro metálico é tetraédrica distorcida.\n[…]\nFonte: INews.\n[…]\nLista de países por produção de cobre",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Megálito",
+      "descricao": "Grande pedra usada para erguer monumentos pré-históricos, sozinha ou com outras."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra megálito, usada para monumentos pré-históricos como os dólmens, vem do grego. O que ela significa?",
+    "resposta": "Pedra grande",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Megalith"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Megalith",
+        "situacao": "ok",
+        "texto": "A megalith is a large stone that has been used to construct a prehistoric structure or monument, either alone or together with other stones. They are found worldwide, but more than 35,000 megalithic structures have been identified across Europe, ranging geographically from Sweden in the north to the Mediterranean Sea in the south.\n[…]\nMegalithic tombs appear to have been used by communities for the long-term deposition of the remains of their dead, and some seem to have undergone alteration and enlargement. The organization and effort required to erect these large stones suggest that the societies concerned placed great emphasis on the proper treatment of their dead. The ritual significance of the tombs is supported by the presence of pre-historic art carved into the stones at some sites.\n[…]\nIn Sardinia, in addition to dolmens, menhirs and circular graves there are also more than 8000 megalithic structures made by a Nuragic civilisation, called Nuraghe: buildings similar to towers (sometimes with really complex structures) made using only rocks. They are often near giant's grave or the other megalithic monuments.\n[…]\nMuch scholarship over history has suggested that Stone Age peoples moved the large stones on cylindrical wooden rollers. However, there is some disagreement with this theory, specifically as experiments have indicated that this method is impractical on uneven ground. In some contemporary megalith building cultures, such as in Sumba, Indonesia, great emphasis is placed on the social status of moving heavy stones without the relief of rollers.\n[…]\nMegalithic monuments in Europe\n[…]\nMegalithicIreland.com\n[…]\nDolmen Path – Russian Megaliths (archived 10 January 2007)\n[…]\nIndex of Megalithic monuments in Ireland\n[…]\nPretanic World – Megaliths and Monuments (archived 12 March 2012)\n[…]\nModern Megalith-Building (archived 25 January 1999)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monumento_megal%C3%ADtico",
+        "situacao": "ok",
+        "texto": "Monumento megalítico, ou megálito, do grego mega, megalos, grande, e lithos, pedra, designa uma construção monumental ou monumento pré-histórico, sozinha ou em conjunto com outras pedras. Existem mais de 35 000 só na Europa, localizadas desde a Suécia até o mar Mediterrâneo.\n[…]\nA palavra foi usada pela primeira vez em 1849 pelo antiquário britânico Algernon Herbert em referência a Stonehenge e deriva das palavras gregas antigas \"mega\" para grande e \"lithos\" para pedra. A maioria dos megálitos existentes foram erguidos entre o período neolítico (embora exemplos anteriores do mesolítico sejam conhecidos) através do período calcolítico e na idade do bronze.\n[…]\nc. 4000 a.C.: Construções na Bretanha (Carnac), Portugal (Grande Anta do Zambujeiro, Évora), França (centro e sul), Córsega, Espanha (Galiza), Inglaterra e País de Gales, Construções na Andaluzia, Espanha (Villa Martín, Cádiz), Construção no Israel proto-cananeu c. 4 000 ~ 3 000 a.C.: Construções no restante do Levante proto-cananeu, por exemplo, Rujm el-Hiri e dolmens.\n[…]\nc. 2500 a.C.: Construções na Bretanha (Le Menec, Kermario e em outros lugares), Itália (Otranto), Sardenha e Escócia (nordeste), além do clímax da cultura megalítica Bell-beaker na Península Ibérica, Alemanha e nas Ilhas Britânicas (círculo de pedra em Stonehenge). Com os campanários, o Neolítico deu lugar ao Calcolítico, a idade do cobre.\n[…]\nc. 2400 a.C.: A cultura Bell-beaker era dominante na Grã-Bretanha, e centenas de círculos de pedra menores foram construídos nas Ilhas Britânicas nessa época.\n[…]\nc. 1200 a.C.: Os últimos vestígios da tradição megalítica no Mediterrâneo. A construção megalítica persistiu no Egito até a Idade do Ferro.\n[…]\nAntas ou dólmens\n[…]\nConjunto Megalítico de Meninas do Crasto",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Mesopotâmia",
+      "descricao": "Região histórica do Oriente Médio entre os rios Tigre e Eufrates."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Mesopotâmia, dado pelos gregos à região onde surgiram as primeiras cidades, significa o quê?",
+    "resposta": "Terra entre rios",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mesopotamia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mesopotamia",
+        "situacao": "ok",
+        "texto": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, where the region transitions into the Iranian plateau, marking the shift from the Arab world to Iran.\n[…]\nThe early logographic system of cuneiform script took many years to master. Thus, only a limited number of individuals were hired as scribes to be trained in its use. It was not until the widespread use of a syllabic script was adopted under Sargon's rule that significant portions of the Mesopotamian population became literate. Massive archives of texts were recovered from the archaeological contexts of Old Babylonian scribal schools, through which literacy was disseminated.\n[…]\nStudies indicate that the different ethno-religious groups of Iraq (Mesopotamia) share significant similarities in genetics and that Mesopotamian Arabs, who make up the majority of Iraqis, are more genetically similar to Iraqi Kurds than other Arab populations in the Middle East and Arabia.\n[…]\nNo significant differences in Y-DNA variation were observed among Iraqi Mesopotamian Arabs, Assyrians, or Kurds. Modern genetic studies indicate that Iraqi Mesopotamian Arabs are more related to Iraqi-Assyrians than Iraqi Kurds.\n[…]\nWhile other studies indicate that the Iraqi-Assyrian population was found to be significantly related to other Iraqis, especially Mesopotamian Arabs, likely due to the assimilation of indigenous Assyrians with other people groups who occupied and settled Mesopotamia after the fall of the Neo-Babylonian Empire.\n[…]\nAncient Mesopotamia – Timeline, definition, and articles at World History Encyclopedia\n[…]\nMesopotamia – Introduction to Mesopotamia from the British Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mesopot%C3%A2mia",
+        "situacao": "ok",
+        "texto": "Mesopotâmia é uma região histórica da Ásia Ocidental situada dentro do sistema fluvial Tigre-Eufrates, na parte norte do Crescente Fértil. Corresponde aproximadamente ao território do Iraque moderno e forma a fronteira geográfica oriental do Oriente Médio moderno. Logo além dela fica o sudoeste do Irã, onde a região transita para o planalto persa, marcando a mudança do mundo árabe para o iraniano.\n[…]\nA Mesopotâmia abrange a região entre os rios Eufrates e Tigre, ambos com nascentes no planalto armênio vizinho. Ambos os rios são alimentados por numerosos afluentes, e todo o sistema fluvial drena uma vasta região montanhosa. As rotas terrestres na Mesopotâmia geralmente seguem o Eufrates, pois as margens do Tigre são frequentemente íngremes e de difícil acesso.\n[…]\nAs cidades-estado da Mesopotâmia criaram os primeiros códigos de leis, baseados em precedentes legais e decisões tomadas por reis. Os códigos de Urucaguina e Lipite-Istar foram encontrados. O mais renomado deles foi o de Hamurabi, como mencionado acima, que se tornou famoso postumamente por seu conjunto de leis, o Código de Hamurabi, criado por volta de c.\n[…]\nA geografia do sul da Mesopotâmia é tal que a agricultura só é possível com irrigação e boa drenagem, um fato que teve um profundo efeito na evolução da civilização mesopotâmica antiga. A necessidade de irrigação levou os sumérios, e mais tarde os acádios, a construir suas cidades ao longo do Tigre e do Eufrates e dos afluentes desses rios.\n[…]\nCidades importantes, como Ur e Uruque, se estabeleceram em afluentes do Eufrates, enquanto outras, notavelmente Lagash, foram construídas em afluentes do Tigre. Os rios forneciam ainda os benefícios do peixe, usado tanto para alimentação quanto para fertilizante, juncos e argila, para materiais de construção. Com a irrigação, o abastecimento de alimentos na Mesopotâmia era comparável ao das pradarias canadenses.\n[…]\nMesopotâmia, 1920",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Fenícios",
+      "descricao": "Povo de navegadores e comerciantes do litoral do Levante, criadores do alfabeto fenício."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome dado pelos gregos aos fenícios vem de uma palavra ligada a qual cor, por causa de um corante famoso que eles vendiam?",
+    "resposta": "Púrpura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phoenicia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Phoenicia",
+        "situacao": "ok",
+        "texto": "The Phoenicians were an ancient Semitic-speaking people who inhabited city-states in Canaan along the Levantine coast of the eastern Mediterranean, primarily in present-day Lebanon. Their maritime civilization expanded and contracted over time, with its cultural core stretching from Arwad to Mount Carmel. Through trade and colonization, the Phoenicians extended their influence across the Mediterra\n[…]\nda Silva, Diógenes Henrique Carvalho Veras (14 October 2016). La literatura sobre fenicios en el territorio brasileño: orígenes y razones [Literature on Phoenicians in Brazilian territory: origins and reasons] (Ph.D. thesis) (in Spanish). Universidad Complutense de Madrid. hdl:20.500.14352/21232."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fen%C3%ADcia",
+        "situacao": "ok",
+        "texto": "Civilização Fenícia (em fenício: 𐤊𐤍𐤏𐤍, KNʿN; em hebraico: כְּנַעַן; romaniz.: Kənáʿan; em grego clássico: Φοινίκη; romaniz.: Pheníkē; em latim: Phoenicia) foi uma civilização da Antiguidade cujo epicentro se localizava no norte da antiga Canaã, ao longo das regiões litorâneas dos atuais Líbano, Síria e norte da Palestina. A civilização fenícia foi uma cultura comercial marítima empreendedora que s\n[…]\nOs fenícios foram alguns dos maiores comerciantes de seu tempo, e deviam muito de sua prosperidade ao comércio. Inicialmente mantinham relações comerciais apenas com os gregos, vendendo madeira, escravos, vidro e a púrpura de Tiro em pó. Esta célebre tinta de forte cor púrpura era muito usada pela elite grega para colorir suas vestes; o termo fenício vem do grego antigo phoínios, que significa \"púrpura\".\n[…]\nEm 1 200 a.C., os fenícios foram por séculos a principal potência naval e mercantil da região. O comércio fenício foi fundado com base na tinta conhecida como púrpura tíria, uma tinta de um púrpura profunda, derivada da concha do molusco gastrópode Murex, que anteriormente era encontrado com abundância nas águas costeiras do leste do Mediterrâneo, e que acabou sendo extinta. As escavações de James B.\n[…]\nHirão seria Hiram Abiff, arquiteto do Templo segundo a crença maçônica; ambos teriam sido muito famosos por sua tinta púrpura.[carece de fontes]?\n[…]\nNo fim da Idade do Bronze (por volta de 1 200 a.C.), havia intenso comércio entre os canaanitas (ancestrais dos fenícios), egípcios, cipriotas e gregos. Nos restos de um naufrágio ocorrido no litoral da Turquia (Ulu Bulurun), cerâmica canaanita usada para o transporte de mercadoria foi encontrada juntamente com objetos de cerâmica do Chipre e da Grécia.\n[…]\nOs fenícios até mesmo obtiveram seu nome dos gregos, devido às suas atividades comerciais; seu produto mais célebre era a tinta púrpura, conhecida em grego como phoenos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Maeshowe",
+      "descricao": "Túmulo de câmara neolítico nas ilhas Órcadas, na Escócia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No túmulo neolítico de Maeshowe, nas ilhas Órcadas, que povo deixou inscrições rúnicas nas paredes milhares de anos depois?",
+    "resposta": "Os vikings",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maeshowe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maeshowe",
+        "situacao": "ok",
+        "texto": "Maeshowe (or Maes Howe; Old Norse: Orkahaugr) is a Neolithic chambered cairn and passage grave situated on Mainland Orkney, Scotland. It was probably built around 2800 BC. In the archaeology of Scotland, it gives its name to the Maeshowe type of chambered cairn, which is limited to Orkney.\n[…]\nThe modern name Maeshowe developed later from Scots place-name elements. The second element, howe, derives from Old Norse haugr, meaning \"mound\". The first element, Maes, is less certain and may represent a later adaptation or alteration of the earlier Norse name.\n[…]\nMaeshowe forms part of a wider Neolithic ceremonial landscape in central Orkney that also includes the nearby stone circles of the Ring of Brodgar and the Stones of Stenness.\n[…]\nA potential explanation for the extraordinary genius of Maeshowe engineering and the lack of human remains was described by Peter Tompkins in 1971, who compared the structure at \"Maes-Howe\" to the Great Pyramid suggesting the site was used as an observatory, calendar, and for May Day ceremonies rather than as a tomb.\n[…]\nUnusually fine for their early date, and with a remarkably rich survival of evidence, these sites stand as a visible symbol of the achievements of early peoples away from the traditional centres of civilisation ... Maes Howe is a masterpiece of Neolithic engineering. It is an exceptionally early architectural accomplishment. With its almost classical strength and simplicity, it is a unique survival from 5000 years ago.\n[…]\nThe Maeshowe Heart of Neolithic Orkney Visitor Centre is located in the village of Stenness on Mainland, Orkney. Access to the cairn is by guided tour only. Visitors begin at the Stenness centre before travelling to the monument as part of scheduled tours organised by Historic Environment Scotland."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Cueva de las Manos",
+      "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na Cueva de las Manos, na Patagônia, como os artistas pré-históricos criavam os contornos das mãos nas paredes?",
+    "resposta": "Soprando tinta sobre a mão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cueva_de_las_Manos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos",
+        "situacao": "ok",
+        "texto": "Cueva de las Manos (Spanish for Cave of the Hands or Cave of Hands) is a cave and complex of rock art sites in the province of Santa Cruz, Argentina, 163 km (101 mi) south of the town of Perito Moreno. It is named for the hundreds of paintings of hands stenciled, in multiple collages, on the rock walls. The art was created in several waves between 7,300 BC and AD 700, during the Archaic period of \n[…]\nCueva de las Manos refers to both the main site of the cave and the surrounding complex of rock art sites that includes it. The cave lies at the base of a stepped cliff in the Pinturas River Canyon, in the upper part of the Deseado River basin, in an isolated part of Patagonia. It is about 165 km (103 mi) south of Perito Moreno, a town in northwest Santa Cruz Province, Argentina. It is part of both Perito Moreno National Park and Cueva de las Manos Provincial Park.\n[…]\nCueva de las Manos is a National Historic Monument in Argentina, and has been since 1993. In 1995, the site became a major subject in a study of Argentina's rock art initiated by the National Institute of Anthropology and Latin American Thought (INAPL). This study led to Cueva de las Manos being listed as a UNESCO World Heritage Site in 1999. In 2015, the land was bought from a private ranch by Rewilding Argentina, an environmental organization.\n[…]\nCueva de las Manos is named for the hundreds of hand paintings stenciled into multiple collages on the rock walls. The art in the Cueva de las Manos is some of the most important art in the New World, and by far the most famous rock art in the Patagonian region. The art dates to between around 7,300 BC to 700 AD, during the Archaic period of Pre-Columbian South America.\n[…]\nCueva de las Manos, cave 3D model (Skechfab)\n[…]\nCueva de las Manos, Perito Moreno, images (in Spanish)\n[…]\nCueva de las Manos Archived 23 October 2018 at the Wayback Machine, images"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cueva_de_las_Manos",
+        "situacao": "ok",
+        "texto": "A Cova das Mãos ou Cueva de las Manos é uma caverna localizada na província de Santa Cruz, Argentina. A caverna situa-se no vale do rio Pinturas, na Patagónia. É famosa pelas pinturas de mãos feitas por indígenas locais (provavelmente os antepassados dos Tehuelche) há 9000 anos.\n[…]\nPara além das pinturas das mãos há também pinturas de seres humanos, guanacos, emas, felinos e outros animais, assim como cenas de caça. Pinturas semelhantes podem ser encontradas em cavernas ali perto.\n[…]\nA Cova das Mãos é Património Mundial da UNESCO desde 1999.\n[…]\n«Imagens da Cova das Mãos»\n[…]\n«UNESCO - Cova das Mãos, Rio Pinturas»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Colapso da Idade do Bronze",
+      "descricao": "Declínio de várias civilizações do Mediterrâneo oriental por volta de 1200 antes de Cristo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 1200 antes de Cristo, várias civilizações da Idade do Bronze ruíram. Que misteriosos invasores vindos do mar são associados a esse colapso?",
+    "resposta": "Povos do Mar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+      "https://en.wikipedia.org/wiki/Sea_Peoples"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+        "situacao": "ok",
+        "texto": "The Late Bronze Age collapse was a period of societal collapse in the Mediterranean basin during the late 13th to early 12th century BC. It is thought to have affected much of the Eastern Mediterranean and Near East, in particular Egypt, Anatolia, the Aegean, eastern Libya, and the Balkans. The collapse was sudden, violent, and culturally disruptive for many Bronze Age civilizations, creating a sh\n[…]\nAdvanced civilizations with extensive trade networks and complex sociopolitical institutions characterized the Late Bronze Age (c. 1550–1200 BC). Prominent societies (Egyptians, Hittites, Mesopotamians, and Mycenaeans) exhibited monumental architecture, advanced metallurgy, and literacy. Flourishing trade in copper, timber, pottery, and agricultural goods, as well as diplomatic ties progressively deepened their interdependence.\n[…]\nWhile certain cities such as Ugarit and Emar were destroyed at the end of the Late Bronze Age, there are several others which were not destroyed, even though they erroneously appear on most maps of destruction at the end of the Late Bronze Age. No evidence of destruction has been found at Hama, Qatna, Kadesh, Alalakh, and Aleppo, while for Tell Sukas archaeologists only found some minor burning on some floors, likely indicating that the town was not burned to the ground around 1200 BC.\n[…]\nGeneral systems collapse theory, pioneered by Joseph Tainter, proposes that societal collapse results from an increase in social complexity beyond a sustainable level, leading people to revert to simpler ways of life. The growing complexity and specialization of the Late Bronze Age political, economic, and social organization made the organization of civilization too intricate to reestablish once seriously disrupted.\n[…]\nMiddle Bronze Age migrations (ancient Near East)\n[…]\nNPR Throughline podcast: The Aftermath of Collapse: Bronze Age Edition (2021)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sea_Peoples",
+        "situacao": "ok",
+        "texto": "The Sea Peoples were a group of tribes who raided Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. They included well-attested groups such as the Lukka and Peleset, as well as others such as the Weshesh whose origins are unknown. The term \"Sea People\" is a modern coinage, and is often regarded as a misnomer since most of them appear to have travelled by land\n[…]\nThe fact that several civilizations collapsed around 1175 BC has led to the suggestion that the Sea Peoples may have been involved at the end of the Hittite, Mycenaean and Mitanni kingdoms.\n[…]\nHistorians generally identify the Peleset with the later Philistines. The Peleset are generally regarded as originating somewhere within the Aegean cultural area; evidence for this identification comes from Genesis 10:14, which associates the Philistines with Caphtor and Casluhim, and Deuteronomy 2:23, which mentions the Caphtorim settling in Gaza.\n[…]\nIt has been hypothesized that the Shekelesh have some connection to Sicily, though evidence is sparse, and proposals vary as to whether Sicily was their original homeland, or if they settled there after the Bronze Age.\n[…]\nBased on onomastic similarities, similar weapons, presence in the same places of the Mediterranean and similar relationships with other peoples there, and other analysis of historical and archaeological sources, some archaeologists have proposed to identify the Sherden with the Nuragic civilization of Sardinia. Potential further evidence for this position comes from 12th century Nuragic pottery found at Pyla-Kokkinokremos, a fortified settlement in Cyprus.\n[…]\nMinoan civilization\n[…]\nCline, Eric. 1177 BC: The Year Civilization Collapsed [video], recorded lecture, 2016, 1h10'17.\n[…]\n\"The Greek Age of Bronze\", Archaeological website related to Greek Bronze Age and Sea Peoples weaponry and warfare"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Colapso_da_Idade_do_Bronze",
+        "situacao": "ok",
+        "texto": "O colapso da Idade do Bronze é a designação dada pela historiografia a um período de meio século de violento colapso social de civilizações humanas durante o século XII a.C. Este período está associado a mudanças climáticas, migrações em massa, destruições de cidades e interrupções das rotas comerciais que limitaram a produção de bronze utilizado por essas civilizações, as levando ao rápido declín\n[…]\nAntes do colapso da Idade do Bronze, a Anatólia (Ásia Menor) era dominada por povos de origens etnolinguísticas variadas, incluindo: assírios e amorreus de língua semítica, hurritas de língua hurro-urartiana, gasgas e hatitas e povos indo-europeus que chegaram depois , como os luvitas, hititas, mitanis e micênicos.\n[…]\nRefugiados que escaparam do colapso dos centros costeiros podem ter se fundido com povos da Anatólia e nômades para iniciar a construção de aldeias em terraços nas encostas das terras altas que foram associadas ao desenvolvimento posterior dos hebreus.\n[…]\nAo derrotar os líbios, os povos do mar e os núbios, o território ao redor do Egito permaneceu seguro durante o colapso da Idade do Bronze. Com a vitória sobre os sírios documentada, Ramessés declarou: \"Minha espada é formidável e poderosa como a de Montu. Nenhuma terra pode resistir aos meus exércitos. Sou um rei que alegra-se com a matança. Meu reinado é acalmado em paz.\" Com esta afirmação, Ramessés implicou que seu reinado estava seguro frente às ameaças do colapso da Idade do Bronze.\n[…]\nDurante o que pode ter sido a era mais seca da Idade do Bronze, a cobertura de árvores ao redor da floresta mediterrânea diminuiu. Fontes primárias relatam que a era foi marcada pela migração em grande escala de povos no final da Idade do Bronze Final. Os cientistas afirmam que a contração da floresta mediterrânea se deveu à seca e não ao aumento da domesticação e desmatamento para fins agrícolas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Domesticação do cão",
+      "descricao": "Processo pré-histórico pelo qual lobos deram origem aos cães domésticos."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Ainda no tempo dos caçadores-coletores, muito antes de bois, ovelhas e cavalos, qual foi o primeiro animal domesticado pelo ser humano?",
+    "resposta": "O cão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Domestication_of_the_dog"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Domestication_of_the_dog",
+        "situacao": "ok",
+        "texto": "The domestication of the dog was the process which resulted in the emergence of the domestic dog as a species (Canis familiaris). This included the dog's genetic divergence from the wolf, its domestication, and the emergence of the first dogs. Genetic studies suggest that all ancient and modern dogs share a common ancestry, descending from an ancient, now-extinct wolf population – or closely relat\n[…]\nAnimal domestication is a coevolutionary process in which a population responds to selective pressure while adapting to a novel niche that included another species with evolving behaviours.\n[…]\nWithin the carnivores, the first domesticated animal would need to exist without an all-meat diet, possess a running and hunting ability to provide its own food, and be of a controllable size to coexist with humans, indicating the family Canidae, and the right temperament with wolves being among the most gregarious and cooperative animals on the planet.\n[…]\nDogs were the only animal to be domesticated by mobile hunter-gatherers. Humans and wolves were both persistent pack hunters of large prey, were competing in overlapping territory, and are both capable of killing each other. One study proposes how humans may have domesticated such a dangerous competitor. Humans and wolves are members of the large carnivore guild, and when there is abundant game the top members leave carcasses for the other members to scavenge.\n[…]\nCalculations of the lipid content of arctic and subarctic game available across the cold steppe environment at this time and today shows that in order to gain the necessary quantity of fat and oils, there would have been enough excess animal calories to feed either proto-dogs or wolves with no need for competition. Hunting together and protection from other predators would have been advantageous to both species, leading to domestication."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Origem_do_c%C3%A3o_dom%C3%A9stico",
+        "situacao": "ok",
+        "texto": "A origem do cão doméstico não é clara. O cão doméstico é um membro do género Canis (caninos) e é o carnívoro mais abundante. O parente vivo mais próximo do cão é o lobo cinzento e não há nenhuma evidência de qualquer outro canino ter contribuído para a sua linhagem genética. O cão e o lobo cinzento formam dois clados irmãos, estando os lobos modernos não intimamente relacionados com os lobos que f\n[…]\nO registo arqueológico mostra que os mais antigos restos mortais indiscutíveis de cães enterrados ao lado de seres humanos de 14.700 anos atrás. No entanto foram descobertos restos mortais datados há 36.000 anos atrás, que são disputados. Estas datas implicam que os primeiros cães surgiram no tempo de humanos caçadores-coletores e não agricultores. O cão foi o a primeira espécie domesticada.\n[…]\nAcredita-se que o lobo de honshu é o antepassado dos cães domésticos, através do extinto Cão de bonn-oberkassel..\n[…]\nTudo isto foi tornado mais complicado pela mais recente proposta que encaixa as evidências disponíveis, que é ade que uma população inicial de lobos é dividida num grupo Eurasiático de Leste e um de Oeste; estes, antes de serem extintos, foram domesticadas independentemente em duas distintas populações de cães entre 14,000–6,400 anos atrás. A população de cães da Eurásia Ocidental foi parcial e gradualmente substituída pelos cães da Ásia Oriental introduzidos por humanos há pelo menos 6 400 anos.\n[…]\nCão doméstico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Disco de Nebra",
+      "descricao": "Disco de bronze e ouro da Idade do Bronze, encontrado na Alemanha, com representações celestes."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1999, o Disco de Nebra, de bronze e ouro, foi desenterrado na Alemanha por quem?",
+    "resposta": "Caçadores de tesouros ilegais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nebra_sky_disc"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nebra_sky_disc",
+        "situacao": "ok",
+        "texto": "The Nebra sky disc (German: Himmelsscheibe von Nebra, pronounced [ˈhɪml̩sˌʃaɪbə fɔn ˈneːbra]) is a bronze disc of around 30 cm (12 in) diameter and a weight of 2.2 kg (4.9 lb), having a blue-green patina and inlaid with gold symbols. These symbols are interpreted generally as the Sun or full moon, a lunar crescent, and stars, including a cluster of seven stars, axiomatically interpreted as the Ple\n[…]\nIn 1999, the disc was found buried on the Mittelberg hill near Nebra in Germany. It is dated by archaeologists to c. 1800–1600 BC and attributed to the Early Bronze Age Únětice culture. Various scientific analyses of the disc, the items found with the disc, and the find spot have confirmed the Early Bronze Age dating.\n[…]\nDepictions of the Pleiades are also known from some rock carvings dating from the early Bronze Age, such as at Mont Bégo in the southern Alps and on a 'Calendar Stone' at Leodagger in Austria, a cult site associated with the Únětice culture. The Nebra Disc has some similarities to petroglyphs from the Nordic Bronze Age, some of which are thought to have a calendrical meaning.\n[…]\nAccording to Kristian Kristiansen the pairs of swords, axes and spiral bracelets deposited with the Nebra Disc represent the mythological Divine Twins known from various Indo-European traditions, such as the Dioscuri in Greece, the Ašvieniai in Lithuania, the Ashvins in India, and the Alcis in Germany. Similar depositions are known from a number of other Bronze Age burials.\n[…]\nA paper published in 2020 by Rupert Gebhard and Rudiger Krause questioned the Early Bronze Age dating of the Nebra disc and proposed a later Iron Age date instead. A response paper was published in the same year by Ernst Pernicka and colleagues, rejecting the arguments of Gebhard and Krause. Scientific analyses of the disc, the items found with the disc, and the find spot have all confirmed the Early Bronze Age dating."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Disco_de_Nebra",
+        "situacao": "ok",
+        "texto": "O Disco de Nebra (na Língua alemã: Himmelsscheibe von Nebra) é uma placa em bronze com dimensões de cerca de 30 cm de diâmetro e peso de 2.2kg, com símbolos ouro. A placa foi descoberta na colina de Mittelberg, próxima à Nebra, na Alemanha, em 1999 e é considerada uma das descobertas arqueológicas mais relevantes do século XXI devido sua datação enquanto instrumento descritivo astronômico.\n[…]\nO disco foi encontrado enterrado em em uma câmara de pedra, durante escavações ilegais utilizando detectores metal,  posteriormente comercializado em mercados clandestinos em  1999 em Mittelberg, nas proximidades da cidade de Nebra em Sachsen-Anhalt, Alemanha.\n[…]\nDe acordo com outros achados originários da mesma escavação (espadas de bronze, machados, entre outros) o Disco de Nebra foi datado entre 1800 - 1600 DC por arqueólogos,  e atribuído como pertencente ai início da Idade do Bronze, especificamente, da cultura Únětice. Desde 2002 o disco pertence ao espólio do Museu Pré-Histórico de Sachsen-Anhalt, em Halle.\n[…]\nEm 2024, um relatório científico em arqueometalúrgica  foi publicada acerca da composição química do Disco de Nebra. A placa apresenta uma forma circular com perímetro de cerca de 32 centímetros, uma espessura que varia entre os 4,5 milímetros no centro e 1,7 milímetros nas extremidades, e pesa aproximadamente 2 quilogramas. O disco é feito de bronze, uma liga metálica de cobre e estanho, sendo que o seu cobre é oriundo da região de Mühlbach am Hochkönig (Áustria) na zona oriental dos Alpes.\n[…]\nA descoberta é do Disco de Nebra é considerada uma reconfirmação de que o conhecimento e as habilidades astronômicos dos povos da Idade do Bronze incluíam a observação atenta do curso anual do Sol, e do ângulo entre seus pontos de nascente e poente nos solstícios de verão e de inverno.\n[…]\nIdade do Bronze\n[…]\n«Museu Pré-Histórico de Sachsen-Anhalt» (em alemão). , sobre o disco (incluindo fotos)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.73 — 2026-10-19**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 3 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
