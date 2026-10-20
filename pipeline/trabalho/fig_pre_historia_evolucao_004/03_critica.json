@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado usa 'relevo', palavra que faz parte do nome da resposta. Troco por 'obra' para não vazar.",
+      "reescrita": {
+        "pergunta": "Que obra mesopotâmica de argila, de cerca de 1800 a.C., é esta?",
+        "resposta": "Relevo Burney (Rainha da Noite)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição científica saiu em 1925 (Dart nomeou a espécie em janeiro de 1925), então 'descrito em 1924' é impreciso. O fato de 1924 que os trechos sustentam é Dart ter recebido o fóssil. Também troco distratores por anos mais críveis.",
+      "reescrita": {
+        "pergunta": "Em que ano o anatomista Raymond Dart recebeu este crânio fóssil infantil, encontrado numa pedreira da África do Sul?",
+        "resposta": "1924",
+        "distratores": [
+          "1921",
+          "1927",
+          "1931"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crânio de Koobi Fora, no Quênia, de KNM-ER 1470. O enunciado não vaza a resposta, e os distratores são outros fósseis quenianos conhecidos, do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A descrição não diz que a imagem é uma pintura, então 'nesta pintura' pode ser falso. A data de morte (dezembro de 1829) confere nas duas fontes.",
+      "reescrita": {
+        "pergunta": "Em que ano morreu o naturalista francês retratado nesta imagem?",
+        "resposta": "1829",
+        "distratores": [
+          "1822",
+          "1834",
+          "1841"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Face achatada' é a etimologia de 'platyops', então entrega a resposta sem a figura. Troco pela data da descrição (2001) e pelo país dos achados, o que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que hominínio fóssil, descrito em dois mil e um a partir de achados no Quênia, é este?",
+        "resposta": "Kenyanthropus platyops",
+        "distratores": [
+          "Homo habilis",
+          "Paranthropus boisei",
+          "Sahelanthropus tchadensis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que o chapéu está no Neues Museum, em Berlim. O enunciado não vaza, e os distratores são museus críveis, sem nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o sepultamento em 1370 a.C. pela dendrocronologia do caixão. A resposta é um ano e a pergunta é múltipla, com distratores de anos próximos no mesmo formato.",
+      "reescrita": null
+    }
+  ]
+}

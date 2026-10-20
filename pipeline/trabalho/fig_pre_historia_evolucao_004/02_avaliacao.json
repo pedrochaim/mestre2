@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Retrato de um senhor idoso e barbudo, sem nada que o identifique; pouco reconhecível e confundível com outros naturalistas barbados do século dezenove."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Relevo famoso, nítido e sem texto. Reconhecível pela deusa alada com garras, as corujas e os leões.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que relevo mesopotâmico de argila é este?",
+      "resposta": "Relevo Burney (Rainha da Noite)",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Relevo Burney",
+        "descricao": "Placa de terracota mesopotâmica em alto-relevo, de cerca de 1800 a 1750 a.C., com figura alada de garras de ave entre corujas e leões, no Museu Britânico.",
+        "variantes": [
+          "Rainha da Noite",
+          "Burney Relief",
+          "Queen of the Night relief"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra um templo megalítico (aparentemente Ġgantija, em Malta), não a Idade da Pedra. Não é reconhecível com resposta única e não combina com a âncora."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas vistas do crânio fóssil e do molde endocraniano, sobre fundo preto e sem texto. Corresponde ao fóssil da criança de Taung, descrito em 1924.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi descrito cientificamente este crânio fóssil infantil, encontrado na África do Sul?",
+      "resposta": "1924",
+      "distratores": [
+        "1921",
+        "1929",
+        "1932"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Criança de Taung",
+        "descricao": "Crânio fóssil de uma criança de Australopithecus africanus, achado em Taung, na África do Sul, e descrito por Raymond Dart em 1924.",
+        "variantes": [
+          "Taung Child",
+          "Australopithecus africanus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Crânio fóssil de frente, nítido e sem texto. É reconhecível para quem conhece o assunto, e a múltipla escolha com crânios parecidos deixa a pergunta justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a designação deste crânio fóssil de hominínio, achado no Quênia?",
+      "resposta": "KNM-ER 1470",
+      "distratores": [
+        "KNM-ER 3733",
+        "KNM-WT 15000",
+        "KNM-ER 406"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "KNM-ER 1470",
+        "descricao": "Crânio fóssil de cerca de dois milhões de anos, achado em Koobi Fora, no Quênia, e tipo de Homo rudolfensis.",
+        "variantes": [
+          "Crânio 1470",
+          "Homo rudolfensis"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato pintado clássico de Lamarck, em domínio público, sem texto. É figura pública e o rosto está nítido.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu este naturalista francês, retratado nesta pintura?",
+      "resposta": "1829",
+      "distratores": [
+        "1822",
+        "1834",
+        "1841"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jean-Baptiste de Lamarck",
+        "descricao": "Naturalista francês (1744–1829), pioneiro da ideia de evolução biológica segundo leis naturais.",
+        "variantes": [
+          "Lamarck",
+          "Jean-Baptiste Lamarck"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto pequena de um homem numa embarcação, sem nada que o identifique. Não é reconhecível e a pergunta de lugar não se sustenta pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Crânio fóssil sobre fundo branco, nítido e sem texto. Forma distinta e sem outros elementos. Assunto de aficionado, então a múltipla escolha com hominínios diferentes é a mais justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que hominínio fóssil de face achatada é este?",
+      "resposta": "Kenyanthropus platyops",
+      "distratores": [
+        "Homo habilis",
+        "Paranthropus boisei",
+        "Sahelanthropus tchadensis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kenyanthropus platyops",
+        "descricao": "Hominínio extinto do Plioceno médio, com cerca de 3,3 a 3,2 milhões de anos, de face achatada e dentes pequenos, achado no Quênia.",
+        "variantes": [
+          "Kenyanthropus",
+          "K. platyops"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A etiqueta visível traz o nome da espécie (Perisphinctes wartae) e a palavra Ammonit, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Objeto de ouro nítido sobre fundo preto, sem texto, com forma única. A resposta, o museu, é única e passa um passo além do reconhecimento.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica hoje este objeto de ouro da Idade do Bronze?",
+      "resposta": "Neues Museum, em Berlim",
+      "distratores": [
+        "Museu Britânico",
+        "Museu do Louvre",
+        "Museu Nacional da Dinamarca"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Chapéu de ouro de Berlim",
+        "descricao": "Cobertura cônica de folha de ouro da Idade do Bronze Final, encontrada na Europa Central e exposta no Neues Museum, em Berlim.",
+        "variantes": [
+          "Berliner Goldhut",
+          "Berlin Gold Hat",
+          "Chapéu dourado de Berlim"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Caixão de carvalho com roupas, disco de bronze e pelagem, sobre fundo branco e sem texto. Peça característica, de resposta única.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano, segundo a datação pelos anéis da madeira, foi sepultada a jovem deste caixão de carvalho?",
+      "resposta": "1370 a.C.",
+      "distratores": [
+        "1420 a.C.",
+        "1320 a.C.",
+        "1270 a.C."
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Moça de Egtved",
+        "descricao": "Jovem da Idade do Bronze Nórdica, sepultada em 1370 a.C. num caixão de carvalho em Egtved, na Jutlândia, Dinamarca.",
+        "variantes": [
+          "Garota de Egtved",
+          "Egtved Girl"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A escrita à mão (Brassempouy) e a etiqueta de inventário aparecem na peça e entregam informação. Além disso, a lasca de sílex não é reconhecível, e a resposta não é única."
+    }
+  ]
+}

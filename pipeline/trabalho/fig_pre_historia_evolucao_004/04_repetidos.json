@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano o anatomista Raymond Dart recebeu este crânio fóssil infantil, encontrado numa pedreira da África do Sul?",
+        "resposta": "1924"
+      },
+      "existentes": [
+        {
+          "id": "q02797",
+          "pergunta": "Em 1925, que anatomista australiano descreveu a Criança de Taung e criou o nome Australopithecus africanus?",
+          "resposta": "Raymond Dart"
+        },
+        {
+          "id": "q02798",
+          "pergunta": "Marcas nas órbitas dos olhos da Criança de Taung indicam que ela foi morta por qual predador?",
+          "resposta": "Uma águia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano morreu o naturalista francês retratado nesta imagem?",
+        "resposta": "1829"
+      },
+      "existentes": [
+        {
+          "id": "q05300",
+          "pergunta": "Que naturalista francês, que viveu entre os séculos dezoito e dezenove, é este?",
+          "resposta": "Jean-Baptiste de Lamarck"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o ano em que Dart recebeu o crânio (1924), fato distinto de quem descreveu a Criança de Taung em 1925 ou do predador."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o ano da morte de Lamarck, fato diferente de identificar o naturalista na imagem."
+    }
+  ]
+}
