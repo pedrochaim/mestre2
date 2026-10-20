@@ -1,0 +1,188 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na bandeira do Brasil, só uma estrela fica acima da faixa com o lema Ordem e Progresso. Que estado ela representa?",
+        "resposta": "Pará"
+      },
+      "existentes": [
+        {
+          "id": "q00597",
+          "pergunta": "As estrelas da bandeira brasileira reproduzem o céu visto de qual cidade na manhã de 15 de novembro de 1889?",
+          "resposta": "Rio de Janeiro"
+        },
+        {
+          "id": "q04952",
+          "pergunta": "Ao lado de Miguel Lemos, que líder positivista idealizou a bandeira republicana do Brasil, adotada em 1889?",
+          "resposta": "Raimundo Teixeira Mendes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que ave, de asas abertas, aparece no topo do brasão que fica no centro da bandeira do Equador?",
+        "resposta": "Condor-dos-andes"
+      },
+      "existentes": [
+        {
+          "id": "q04989",
+          "pergunta": "As bandeiras do Equador, da Colômbia e da Venezuela têm as mesmas cores porque derivam da bandeira de qual país extinto?",
+          "resposta": "Grã-Colômbia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que lema de três palavras aparece sob o brasão da bandeira do Rio Grande do Sul?",
+        "resposta": "Liberdade, Igualdade, Humanidade"
+      },
+      "existentes": [
+        {
+          "id": "q02355",
+          "pergunta": "A bandeira do Rio Grande do Sul surgiu durante qual guerra separatista do século dezenove?",
+          "resposta": "Revolução Farroupilha"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Segundo o Guinness, que país tem a bandeira nacional mais antiga ainda em uso contínuo?",
+        "resposta": "Dinamarca"
+      },
+      "existentes": [
+        {
+          "id": "q01541",
+          "pergunta": "Segundo a lenda, esta bandeira caiu do céu durante uma batalha na Estônia, em mil duzentos e dezenove. De que país é?",
+          "resposta": "Dinamarca"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual dos três países bálticos tem uma faixa preta na bandeira nacional?",
+        "resposta": "Estônia"
+      },
+      "existentes": [
+        {
+          "id": "q07039",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Tallinn"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Pela lei brasileira, o que deve ser feito no Dia da Bandeira com as bandeiras nacionais em mau estado?",
+        "resposta": "Devem ser incineradas"
+      },
+      "existentes": [
+        {
+          "id": "q02356",
+          "pergunta": "Em que dia o Brasil comemora o Dia da Bandeira, data do decreto que adotou a bandeira republicana em 1889?",
+          "resposta": "19 de novembro"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Nos Jogos Olímpicos de 1936, Liechtenstein descobriu que sua bandeira era igual à de qual país, e acrescentou uma coroa?",
+        "resposta": "Haiti"
+      },
+      "existentes": [
+        {
+          "id": "q11505",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Liechtenstein"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo Coubertin, por que a bandeira olímpica usa o fundo branco e os anéis azul, amarelo, preto, verde e vermelho?",
+        "resposta": "Toda bandeira nacional tinha uma delas"
+      },
+      "existentes": [
+        {
+          "id": "q04662",
+          "pergunta": "A bandeira branca com os cinco anéis só foi hasteada num estádio olímpico depois da Primeira Guerra Mundial. Em que edição dos Jogos?",
+          "resposta": "Antuérpia 1920"
+        },
+        {
+          "id": "q04960",
+          "pergunta": "Os cinco anéis entrelaçados da bandeira olímpica foram desenhados em 1913 por quem?",
+          "resposta": "Pierre de Coubertin"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "As listras da bandeira da Malásia e as pontas de sua estrela amarela existem na mesma quantidade. Qual é esse número?",
+        "resposta": "Catorze"
+      },
+      "existentes": [
+        {
+          "id": "q07038",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Malásia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estado da estrela acima da faixa é fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Condor no brasão vs origem das cores; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Lema do brasão vs origem na guerra; diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas levam à Dinamarca e à bandeira mais antiga/lenda; mesma resposta, mas fatos distintos: antiguidade vs lenda do céu.",
+      "id_existente": "q01541"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Faixa preta vs capital; fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Incineração das bandeiras vs data do Dia da Bandeira."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Haiti e coroa vs identificar a bandeira; fato diferente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Justificativa das cores diferente de edição e desenhista."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Número de listras/pontas vs identificação da bandeira."
+    }
+  ]
+}

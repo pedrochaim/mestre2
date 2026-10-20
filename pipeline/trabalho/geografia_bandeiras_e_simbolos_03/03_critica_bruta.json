@@ -1,0 +1,437 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Spica, que representa o Pará, é a única estrela acima da faixa; fato conhecido e preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lei citada no trecho fixa o céu do Rio de Janeiro às 8h30 de 15 de novembro de 1889.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leão dourado com espada confirmado; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As colunas do brasão são os Pilares de Hércules, com o lema Plus Ultra.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O condor de asas abertas encima o brasão; sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fragata dourada sobre sol nascente confirmada; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ave-do-paraíso na bandeira confirmada; a pista não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O urso-pardo sobre a grama na bandeira da Califórnia é fato bem documentado; fonte trata do urso.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (garoupa na nota de cem), mas a fonte em português é uma página de desambiguação; fica só a fonte válida.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Cada cédula do real traz um animal brasileiro no verso. Qual deles aparece na nota de cem reais?",
+        "resposta": "Garoupa",
+        "distratores": [
+          "Onça-pintada",
+          "Mico-leão-dourado",
+          "Arara-vermelha"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazilian_real"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os quatro símbolos oficiais são bandeira, armas, hino e selo; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho diz que Castilhos acrescentou 'Humanidade', o que contradiz 'herdado da república farroupilha'; tira-se a afirmação.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Que lema de três palavras aparece sob o brasão da bandeira do Rio Grande do Sul?",
+        "resposta": "Liberdade, Igualdade, Humanidade",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Rio_Grande_do_Sul",
+          "https://pt.wikipedia.org/wiki/Bras%C3%A3o_do_Rio_Grande_do_Sul"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franklin na nota de cem desde 1914, inventor que não foi presidente; preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só duas das 158 estrofes são o hino, e Chipre também o usa; 'hino de letra mais longa' é impreciso e a resposta deixa de ser única.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Chipre e qual outro país adotaram como hino nacional as duas primeiras estrofes de um poema de cento e cinquenta e oito estrofes?",
+        "resposta": "Grécia",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hymn_to_Liberty"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ohio é a única bandeira estadual não retangular; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta deve ser o país (Catar), não 'Bandeira do Catar', e o critério fica mais preciso.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Branca e cor de vinho, a bandeira de qual país é a única nacional com largura maior que o dobro da altura?",
+        "resposta": "Catar",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Flag_of_Qatar"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os 'mais de mil e duzentos anos' não são sustentados pelos trechos e a alegação de 'mais antiga' é contestável.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O recorde Guinness da bandeira mais antiga em uso contínuo é da Dinamarca.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Só a Estônia tem faixa preta entre as bandeiras bálticas.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Única' é falso no período: o Afeganistão teve bandeira branca lisa em 1996-97.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "De mil novecentos e setenta e sete a dois mil e onze, bandeira de qual país era inteiramente verde, sem nenhum desenho?",
+        "resposta": "Líbia",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Flag_of_Libya"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Havaí é o único estado com o Union Jack na bandeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cruzeiro real durou cerca de onze meses, o menos entre as moedas do século vinte.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Lei 5.700 manda incinerar no Dia da Bandeira as bandeiras em mau estado; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Lei 5.700 permite a bandeira hasteada à noite se iluminada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O laranja representa os protestantes; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tagore escreveu o poema originalmente em bengali; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra original de O Canada é em francês, de Routhier.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lábaro é sinônimo de bandeira, conforme o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O colón recebeu o nome em homenagem a Colombo; formulação correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta é só o nome da moeda e a pergunta equivale a 'qual é a moeda da Guatemala'; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira inglesa é a Cruz de São Jorge.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rupia vem do sânscrito rupya, 'prata'.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mil-réis significa mil unidades de real (plural réis); confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lev é forma antiga da palavra búlgara para leão; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em inglês é inexistente; mantém-se só a fonte em português, que sustenta a Marianne.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O rosto feminino que simboliza a República nas cédulas do real se inspira em qual símbolo nacional francês?",
+        "resposta": "Marianne",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ef%C3%ADgie_da_Rep%C3%BAblica"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Suíça e Vaticano têm as únicas bandeiras nacionais quadradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bandeira do Chade quase idêntica à da Romênia; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Costa do Marfim tem as cores da Irlanda em ordem invertida.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Em 1936 Liechtenstein notou a igualdade com o Haiti e adicionou a coroa.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem o brasão, a bandeira mexicana seria quase idêntica à italiana.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Segundo Coubertin, as cores representavam as das bandeiras de todos os países competidores.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A interpretação popular das nove listras como sílabas de 'Liberdade ou Morte' está confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Onze takbirs em cada faixa lembram 22 de Bahman, vitória da Revolução Islâmica; fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato certo, mas a fonte em inglês não o sustenta; acrescenta-se a página em português que traz a lenda.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo uma lenda, onde a lua crescente e a estrela da bandeira turca apareceram refletidas depois de uma batalha?",
+        "resposta": "Numa poça de sangue",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bandeira_da_Turquia"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta é um ano e precisa ser múltipla escolha; a fonte é uma página de desambiguação.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Criado para acabar com a hiperinflação, o real, moeda brasileira, começou a circular em que ano?",
+        "resposta": "1994",
+        "distratores": [
+          "1992",
+          "1993",
+          "1995"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazilian_real"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra de Duque-Estrada foi oficializada em 1922; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira malaia tem 14 listras e estrela de 14 pontas.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira uruguaia tem nove listras horizontais alternadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra usa cinco das onze línguas oficiais da África do Sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Olavo Bilac é o autor da letra, mas a fonte é inexistente; troca-se por URL da Wikipédia de alta confiança.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que poeta parnasiano escreveu a letra do Hino à Bandeira, que começa com salve, lindo pendão da esperança?",
+        "resposta": "Olavo Bilac",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Hino_%C3%A0_Bandeira"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O verso 'auriverde pendão da minha terra' é de Castro Alves, em O Navio Negreiro.",
+      "reescrita": null
+    }
+  ]
+}
