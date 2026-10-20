@@ -260684,5 +260684,119 @@
       "autor": "Entalpia2",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q14066",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "sudoku",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+    "resposta": "Japonês",
+    "distratores": [
+      "Chinês",
+      "Coreano",
+      "Alemão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sudoku",
+      "https://pt.wikipedia.org/wiki/Sudoku"
+    ],
+    "imagem": {
+      "arquivo": "q14066.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg",
+      "autor": "Tim Stellmach",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q14067",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "quadrado_magico",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que nome se dá a este tipo de arranjo de números?",
+    "resposta": "Quadrado mágico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magic_square",
+      "https://pt.wikipedia.org/wiki/Quadrado_m%C3%A1gico"
+    ],
+    "imagem": {
+      "arquivo": "q14067.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Albrecht_Dürer_-_Melencolia_I_(detail).jpg",
+      "autor": "Albrecht Dürer",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14068",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "regua",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de medida é este?",
+    "resposta": "Régua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ruler",
+      "https://pt.wikipedia.org/wiki/R%C3%A9gua"
+    ],
+    "imagem": {
+      "arquivo": "q14068.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Measurement_unit.jpg",
+      "autor": "Gowolves109",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14069",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "conjunto_de_julia",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que conjunto fractal é mostrado nesta figura?",
+    "resposta": "Conjunto de Julia",
+    "distratores": [
+      "Conjunto de Mandelbrot",
+      "Conjunto de Cantor",
+      "Triângulo de Sierpinski"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Julia_set",
+      "https://pt.wikipedia.org/wiki/Conjunto_de_Julia"
+    ],
+    "imagem": {
+      "arquivo": "q14069.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Julia_set,_plotted_with_Matplotlib.svg",
+      "autor": "Morn",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14070",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "usina_solar_fotovoltaica",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de usina de energia é esta?",
+    "resposta": "Usina solar fotovoltaica",
+    "distratores": [
+      "Usina eólica",
+      "Usina geotérmica",
+      "Usina hidrelétrica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Photovoltaic_power_station"
+    ],
+    "imagem": {
+      "arquivo": "q14070.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SolarPowerPlantSerpa.jpg",
+      "autor": "Original uploader was user:Ceinturion at en.wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

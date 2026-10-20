@@ -172182,5 +172182,68 @@
       "https://en.wikipedia.org/wiki/Menger_sponge",
       "https://pt.wikipedia.org/wiki/Esponja_de_Menger"
     ]
+  },
+  {
+    "id": "sudoku",
+    "nome": "Sudoku",
+    "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
+    "variantes": [
+      "Number Place"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sudoku",
+      "https://pt.wikipedia.org/wiki/Sudoku"
+    ]
+  },
+  {
+    "id": "quadrado_magico",
+    "nome": "Quadrado mágico",
+    "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+    "variantes": [
+      "Magic square"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Magic_square",
+      "https://pt.wikipedia.org/wiki/Quadrado_m%C3%A1gico"
+    ]
+  },
+  {
+    "id": "regua",
+    "nome": "Régua",
+    "descricao": "Instrumento rígido com marcações usado para medir comprimentos e traçar linhas retas.",
+    "variantes": [
+      "Régua graduada",
+      "Escala"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ruler",
+      "https://pt.wikipedia.org/wiki/R%C3%A9gua"
+    ]
+  },
+  {
+    "id": "conjunto_de_julia",
+    "nome": "Conjunto de Julia",
+    "descricao": "Conjunto fractal da dinâmica complexa, definido pela iteração de uma função no plano complexo.",
+    "variantes": [
+      "Julia set",
+      "Fractal de Julia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Julia_set",
+      "https://pt.wikipedia.org/wiki/Conjunto_de_Julia"
+    ]
+  },
+  {
+    "id": "usina_solar_fotovoltaica",
+    "nome": "Usina solar fotovoltaica",
+    "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+    "variantes": [
+      "Parque solar",
+      "Fazenda solar",
+      "Central fotovoltaica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Photovoltaic_power_station"
+    ]
   }
 ]

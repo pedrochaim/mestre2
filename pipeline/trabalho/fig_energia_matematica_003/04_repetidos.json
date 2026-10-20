@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de usina de energia é esta?",
+        "resposta": "Usina geotérmica"
+      },
+      "existentes": [
+        {
+          "id": "q14062",
+          "pergunta": "Que tipo de usina é esta, numa paisagem de lava coberta de musgo?",
+          "resposta": "Usina geotérmica"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14062",
+      "motivo": "Ambas pedem o tipo de usina mostrada na imagem, com a mesma resposta (usina geotérmica)."
+    }
+  ]
+}

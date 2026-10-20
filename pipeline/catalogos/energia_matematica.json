@@ -96,7 +96,7 @@
       "titulo": "en:Thermal power station",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Usina de Tucuruí",
@@ -187,7 +187,7 @@
       "titulo": "en:Sudoku",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sólidos de Platão",
@@ -215,14 +215,14 @@
       "titulo": "en:Magic square",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Espiral áurea",
       "titulo": "en:Golden spiral",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Diagrama de Venn",
@@ -276,6 +276,286 @@
     {
       "nome": "Paraboloide hiperbólico",
       "titulo": "en:Hyperbolic paraboloid",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina hidrelétrica",
+      "titulo": "en:Hydroelectricity",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carro elétrico",
+      "titulo": "en:Electric car",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Queimada",
+      "titulo": "en:Wildfire",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Derramamento de petróleo",
+      "titulo": "en:Oil spill",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lâmpada incandescente",
+      "titulo": "en:Incandescent light bulb",
+      "camada": 1,
+      "destino": 0,
+      "status": "saturada"
+    },
+    {
+      "nome": "Sacola plástica",
+      "titulo": "en:Plastic bag",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pilha alcalina",
+      "titulo": "en:Alkaline battery",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada LED",
+      "titulo": "en:LED lamp",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Aterro sanitário",
+      "titulo": "en:Landfill",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina solar fotovoltaica",
+      "titulo": "en:Photovoltaic power station",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Energia eólica offshore",
+      "titulo": "en:Offshore wind power",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Microplástico",
+      "titulo": "en:Microplastics",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mar de Aral",
+      "titulo": "en:Aral Sea",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Desertificação",
+      "titulo": "en:Desertification",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação de recarga de veículos elétricos",
+      "titulo": "en:Charging station",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Turbina Darrieus",
+      "titulo": "en:Darrieus wind turbine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pelamis",
+      "titulo": "en:Pelamis Wave Energy Converter",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Wendelstein 7-X",
+      "titulo": "en:Wendelstein 7-X",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Barragem de rejeitos",
+      "titulo": "en:Tailings dam",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Biodigestor",
+      "titulo": "en:Anaerobic digestion",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo",
+      "titulo": "en:Cube",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dado",
+      "titulo": "en:Dice",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esquadro",
+      "titulo": "en:Set square",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Régua",
+      "titulo": "en:Ruler",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Gráfico de pizza",
+      "titulo": "en:Pie chart",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Isaac Newton",
+      "titulo": "en:Isaac Newton",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Icosaedro",
+      "titulo": "en:Regular icosahedron",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sorobã",
+      "titulo": "en:Soroban",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Parábola",
+      "titulo": "en:Parabola",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Curva normal (distribuição gaussiana)",
+      "titulo": "en:Normal distribution",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arquimedes",
+      "titulo": "en:Archimedes",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tesselação",
+      "titulo": "en:Tessellation",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Seções cônicas",
+      "titulo": "en:Conic section",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Conjunto de Julia",
+      "titulo": "en:Julia set",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Atrator de Lorenz",
+      "titulo": "en:Lorenz system",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dodecaedro romano",
+      "titulo": "en:Roman dodecahedron",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Plimpton 322",
+      "titulo": "en:Plimpton 322",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ossos de Napier",
+      "titulo": "en:Napier's bones",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Triângulo de Reuleaux",
+      "titulo": "en:Reuleaux triangle",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nó de trevo",
+      "titulo": "en:Trefoil knot",
       "camada": 3,
       "destino": 1,
       "status": "nova"

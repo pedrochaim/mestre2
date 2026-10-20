@@ -1,0 +1,167 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Lâmpada de bulbo fosco sem a sigla LED visível; não dá para distinguir de outros tipos de lâmpada, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'Ladestation', 'electric drive' e placa sobre veículos elétricos."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O instrumento é pouco reconhecível: uma caixa antiga com rolos e tabelas manuscritas, que poderia passar por outro dispositivo de cálculo."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Grade de sudoku clara e legível. Os números não entregam o nome.",
+      "ancora": {
+        "nome": "Sudoku",
+        "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
+        "variantes": [
+          "Number Place"
+        ]
+      },
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "De que idioma vem o nome deste passatempo de lógica?",
+      "resposta": "Japonês",
+      "distratores": [
+        "Chinês",
+        "Coreano",
+        "Alemão"
+      ]
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Quadrado mágico 4x4 nítido, no detalhe da gravura Melencolia I de Dürer. O reconhecimento vem do arranjo de números.",
+      "ancora": {
+        "nome": "Quadrado mágico",
+        "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+        "variantes": [
+          "Magic square"
+        ]
+      },
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome se dá a este tipo de arranjo de números?",
+      "resposta": "Quadrado mágico"
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A figura mostra uma máquina em montagem, com andaimes e operários. Não é reconhecível como o Wendelstein 7-X e pode ser confundida com outro reator de fusão ou outra instalação."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Régua metálica com escalas legíveis. Os números não entregam o nome do objeto.",
+      "ancora": {
+        "nome": "Régua",
+        "descricao": "Instrumento rígido com marcações usado para medir comprimentos e traçar linhas retas.",
+        "variantes": [
+          "Régua graduada",
+          "Escala"
+        ]
+      },
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de medida é este?",
+      "resposta": "Régua"
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fractal em espirais, com eixos complexos. O texto dos eixos não entrega o nome. A forma é característica de um conjunto de Julia.",
+      "ancora": {
+        "nome": "Conjunto de Julia",
+        "descricao": "Conjunto fractal da dinâmica complexa, definido pela iteração de uma função no plano complexo.",
+        "variantes": [
+          "Julia set",
+          "Fractal de Julia"
+        ]
+      },
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que conjunto fractal é mostrado nesta figura?",
+      "resposta": "Conjunto de Julia",
+      "distratores": [
+        "Conjunto de Mandelbrot",
+        "Conjunto de Cantor",
+        "Triângulo de Sierpinski"
+      ]
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Campo extenso de painéis fotovoltaicos, claro e legível, sem texto.",
+      "ancora": {
+        "nome": "Usina solar fotovoltaica",
+        "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+        "variantes": [
+          "Parque solar",
+          "Fazenda solar",
+          "Central fotovoltaica"
+        ]
+      },
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de usina de energia é esta?",
+      "resposta": "Usina solar fotovoltaica",
+      "distratores": [
+        "Usina eólica",
+        "Usina geotérmica",
+        "Usina hidrelétrica"
+      ]
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A palavra 'PELAMIS' aparece escrita no próprio equipamento, e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A mancha de óleo é tênue e se confunde com o mar. A cena mostra sobretudo plataformas e barcos, e não fica legível num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "A imagem mostra uma usina geotérmica, com colunas de vapor, tubulações e paisagem vulcânica. Aprovada como geotérmica (mais específica que termelétrica), sem texto.",
+      "ancora": {
+        "nome": "Usina geotérmica",
+        "descricao": "Usina que gera eletricidade com o vapor e o calor de reservatórios subterrâneos aquecidos pela Terra.",
+        "variantes": [
+          "Central geotérmica",
+          "Usina geotermal"
+        ]
+      },
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de usina de energia é esta?",
+      "resposta": "Usina geotérmica",
+      "distratores": [
+        "Usina nuclear",
+        "Usina a carvão",
+        "Usina de biomassa"
+      ]
+    }
+  ]
+}

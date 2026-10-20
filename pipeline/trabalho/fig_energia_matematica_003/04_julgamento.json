@@ -1,0 +1,382 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sudoku",
+        "descricao": "Quebra-cabeça de lógica de preencher uma grade 9x9 com dígitos de 1 a 9 sem repetir em linhas, colunas e blocos 3x3.",
+        "variantes": [
+          "Number Place"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "surdo",
+          "nome": "Surdo",
+          "descricao": "Grande tambor grave usado no samba e na percussão brasileira, tocado com baqueta.",
+          "variantes": [
+            "Bumbo"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        },
+        {
+          "id": "numero_e",
+          "nome": "Número e",
+          "descricao": "Constante matemática aproximadamente igual a dois vírgula setenta e um, base dos logaritmos naturais, também chamada número de Euler.",
+          "variantes": [
+            "Número de Euler",
+            "Constante de Napier",
+            "e"
+          ]
+        },
+        {
+          "id": "pi",
+          "nome": "Pi",
+          "descricao": "Constante matemática igual à razão entre a circunferência e o diâmetro de um círculo.",
+          "variantes": [
+            "Número pi",
+            "π"
+          ]
+        },
+        {
+          "id": "ryomen_sukuna",
+          "nome": "Ryomen Sukuna",
+          "descricao": "O Rei das Maldições, espírito poderoso que habita o corpo de Yuji Itadori em Jujutsu Kaisen.",
+          "variantes": [
+            "Sukuna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Quadrado mágico",
+        "descricao": "Arranjo quadrado de números em que linhas, colunas e diagonais principais têm a mesma soma.",
+        "variantes": [
+          "Magic square"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quadrado_negro",
+          "nome": "Quadrado Negro",
+          "descricao": "Quadro suprematista de Kazimir Malevich de 1915.",
+          "variantes": [
+            "Black Square"
+          ]
+        },
+        {
+          "id": "mandrake",
+          "nome": "Mandrake",
+          "descricao": "Mágico de cartola protagonista de tiras de jornal americanas lançadas em 1934",
+          "variantes": [
+            "Mandrake the Magician",
+            "Mandrake, o Mágico"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "lingua_aramaica",
+          "nome": "Língua aramaica",
+          "descricao": "Língua semítica antiga, falada no Oriente Médio e no dia a dia da Galileia no tempo de Jesus.",
+          "variantes": [
+            "Aramaico"
+          ]
+        },
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Régua",
+        "descricao": "Instrumento rígido com marcações usado para medir comprimentos e traçar linhas retas.",
+        "variantes": [
+          "Régua graduada",
+          "Escala"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escala_fujita",
+          "nome": "Escala Fujita",
+          "descricao": "Escala que classifica a intensidade dos tornados pelos danos que causam",
+          "variantes": [
+            "Fujita scale",
+            "Escala F",
+            "Escala Fujita aprimorada",
+            "Enhanced Fujita scale"
+          ]
+        },
+        {
+          "id": "escapula",
+          "nome": "Escápula",
+          "descricao": "Osso plano e triangular da cintura escapular, também chamado de omoplata, que liga o úmero à clavícula.",
+          "variantes": [
+            "Omoplata",
+            "Paleta"
+          ]
+        },
+        {
+          "id": "escada_rolante",
+          "nome": "Escada rolante",
+          "descricao": "Escada mecânica de degraus móveis que transporta pessoas entre andares.",
+          "variantes": [
+            "Escalator"
+          ]
+        },
+        {
+          "id": "bicho_preguica",
+          "nome": "Bicho-preguiça",
+          "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+          "variantes": [
+            "Preguiça",
+            "Sloth",
+            "Folivora"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Conjunto de Julia",
+        "descricao": "Conjunto fractal da dinâmica complexa, definido pela iteração de uma função no plano complexo.",
+        "variantes": [
+          "Julia set",
+          "Fractal de Julia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tebas",
+          "nome": "Tebas",
+          "descricao": "Antiga cidade do Alto Egito, capital no Novo Império, onde hoje fica Luxor",
+          "variantes": [
+            "Tebas (Egito)",
+            "Uaset",
+            "Waset",
+            "Thebes"
+          ]
+        },
+        {
+          "id": "atos_de_uniao_de_1707",
+          "nome": "Atos de União de 1707",
+          "descricao": "Leis aprovadas pelos parlamentos da Inglaterra e da Escócia que criaram, em 1707, o Reino da Grã-Bretanha.",
+          "variantes": [
+            "Acts of Union 1707",
+            "Tratado de União"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "conde_dracula",
+          "nome": "Conde Drácula",
+          "descricao": "Vampiro protagonista do romance Drácula, de Bram Stoker, publicado em 1897.",
+          "variantes": [
+            "Drácula",
+            "Count Dracula"
+          ]
+        },
+        {
+          "id": "o_conto_de_genji",
+          "nome": "O Conto de Genji",
+          "descricao": "Clássico da literatura japonesa escrito no início do século onze por uma dama da corte de Heian.",
+          "variantes": [
+            "Genji Monogatari",
+            "The Tale of Genji"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Usina solar fotovoltaica",
+        "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+        "variantes": [
+          "Parque solar",
+          "Fazenda solar",
+          "Central fotovoltaica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "energia_solar_fotovoltaica",
+          "nome": "Energia solar fotovoltaica",
+          "descricao": "Geração de eletricidade pela conversão direta da luz solar em células fotovoltaicas.",
+          "variantes": [
+            "Energia fotovoltaica"
+          ]
+        },
+        {
+          "id": "painel_solar",
+          "nome": "Painel solar",
+          "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+          "variantes": [
+            "Painel fotovoltaico",
+            "Placa solar",
+            "Célula solar"
+          ]
+        },
+        {
+          "id": "mancha_solar",
+          "nome": "Mancha solar",
+          "descricao": "Região temporária mais escura e fria na superfície do Sol, causada por concentrações de fluxo magnético.",
+          "variantes": [
+            "Manchas solares",
+            "Sunspot"
+          ]
+        },
+        {
+          "id": "efeito_fotovoltaico",
+          "nome": "Efeito fotovoltaico",
+          "descricao": "Fenômeno em que certos materiais geram tensão elétrica ao serem expostos à luz, base das células solares.",
+          "variantes": [
+            "Photovoltaic effect"
+          ]
+        },
+        {
+          "id": "usina_geotermica",
+          "nome": "Usina geotérmica",
+          "descricao": "Usina que gera eletricidade a partir do calor do interior da Terra, aqui com vapor saindo das chaminés.",
+          "variantes": [
+            "Central geotérmica",
+            "Usina de energia geotérmica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Usina geotérmica",
+        "descricao": "Usina que gera eletricidade com o vapor e o calor de reservatórios subterrâneos aquecidos pela Terra.",
+        "variantes": [
+          "Usina termelétrica",
+          "Central geotérmica",
+          "Usina geotermal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_geotermica",
+          "nome": "Usina geotérmica",
+          "descricao": "Usina que gera eletricidade a partir do calor do interior da Terra, aqui com vapor saindo das chaminés.",
+          "variantes": [
+            "Central geotérmica",
+            "Usina de energia geotérmica"
+          ]
+        },
+        {
+          "id": "urna_eletronica_brasileira",
+          "nome": "Urna eletrônica brasileira",
+          "descricao": "Equipamento eletrônico de votação usado nas eleições do Brasil.",
+          "variantes": [
+            "Urna eletrônica"
+          ]
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "simbolo_da_integral",
+          "nome": "Símbolo da integral",
+          "descricao": "Símbolo em forma de S alongado usado no cálculo para indicar a integral, introduzido por Leibniz.",
+          "variantes": [
+            "Sinal de integral"
+          ]
+        },
+        {
+          "id": "inversao_termica",
+          "nome": "Inversão térmica",
+          "descricao": "Fenômeno em que uma camada de ar quente fica sobre o ar frio junto ao solo, prendendo a poluição",
+          "variantes": [
+            "Inversão de temperatura"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sudoku não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Quadrado mágico numérico é diferente de Cubo mágico e das demais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Régua é um instrumento; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o conjunto fractal de Julia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Usina solar é distinta de energia, painel ou efeito fotovoltaico e de usina geotérmica."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "usina_geotermica",
+      "motivo": "Mesma entidade: usina que gera eletricidade a partir do calor da Terra."
+    }
+  ]
+}
