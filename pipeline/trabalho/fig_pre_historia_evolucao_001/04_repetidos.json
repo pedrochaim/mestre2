@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que grande primata africano é este?",
+        "resposta": "Gorila"
+      },
+      "existentes": [
+        {
+          "id": "q00857",
+          "pergunta": "Em que continente vive na natureza este primata?",
+          "resposta": "África"
+        },
+        {
+          "id": "q07934",
+          "pergunta": "O nome gorila vem do relato de qual navegador cartaginês, que descreveu uma tribo de selvagens peludos na costa da África?",
+          "resposta": "Hanão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do animal (gorila). As existentes perguntam o continente onde vive e a origem do nome. São fatos diferentes."
+    }
+  ]
+}

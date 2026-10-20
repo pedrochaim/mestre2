@@ -1,0 +1,130 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Gorila",
+        "descricao": "Gênero Gorilla, os maiores primatas vivos, que habitam as florestas da África equatorial.",
+        "variantes": [
+          "Gorilla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla"
+          ]
+        },
+        {
+          "id": "godzilla",
+          "nome": "Godzilla",
+          "descricao": "Monstro gigante criado pelo estúdio japonês Toho, que estreou no filme de 1954.",
+          "variantes": [
+            "Gojira"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        },
+        {
+          "id": "guri",
+          "nome": "Guri",
+          "descricao": "Palavra usada sobretudo no Rio Grande do Sul para criança do sexo masculino",
+          "variantes": [
+            "Guria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Biface",
+        "descricao": "Ferramenta pré-histórica de pedra lascada nas duas faces, em forma de amêndoa, típica do Acheulense.",
+        "variantes": [
+          "Machado de mão",
+          "Hand axe",
+          "Handaxe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "machado_de_assis",
+          "nome": "Machado de Assis",
+          "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro.",
+          "variantes": [
+            "Joaquim Maria Machado de Assis",
+            "Bruxo do Cosme Velho"
+          ]
+        },
+        {
+          "id": "georg_friedrich_handel",
+          "nome": "Georg Friedrich Händel",
+          "descricao": "Compositor barroco alemão naturalizado inglês (1685–1759), autor do Messias.",
+          "variantes": [
+            "Handel",
+            "Händel",
+            "George Frideric Handel"
+          ]
+        },
+        {
+          "id": "binacle",
+          "nome": "Binacle",
+          "descricao": "Pokémon craca em uma rocha dos tipos Pedra e Água, número 688 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        },
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "gorila",
+      "motivo": "Ambas tratam do gorila como grande primata africano (gênero Gorilla). A candidata usa o nome genérico 'Gorila', e a foto da espécie ocidental serve só de ilustração."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Biface é uma ferramenta pré-histórica de pedra. Nenhuma candidata corresponde: são pessoas, um Pokémon, um lugar e um país."
+    }
+  ]
+}

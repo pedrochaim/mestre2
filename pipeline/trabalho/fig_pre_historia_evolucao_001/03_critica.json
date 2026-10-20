@@ -1,0 +1,26 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia nem entrega a resposta: chimpanzés e bonobos também são grandes primatas africanos, então a figura é necessária. Os distratores são do mesmo tipo e plausíveis, e a imagem os exclui. Os trechos confirmam que o gorila é africano e é um grande primata.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado está bom, mas a resposta traz o sinônimo \"machado de mão\". A Wikipédia em português diz que associar bifaces a machados de mão é problemático e que os conceitos são opostos. Fica só \"Biface\", sem parênteses.",
+      "reescrita": {
+        "pergunta": "Que ferramenta de pedra lascada da pré-história é esta?",
+        "resposta": "Biface",
+        "distratores": [
+          "Raspador",
+          "Ponta de flecha",
+          "Lâmina de foice"
+        ]
+      }
+    }
+  ]
+}

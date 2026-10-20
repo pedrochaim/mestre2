@@ -1,0 +1,102 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Ilustração antiga de um 'homem das cavernas' genérico: é um estereótipo, não uma entidade única; a resposta seria ambígua (Neandertal, humano pré-histórico)."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pedra lascada com régua; não dá para reconhecer como olduvaiense e distinguir de outras ferramentas simples. Pergunta de lugar não teria resposta única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Paisagem de uma dolina cárstica sem nada que a identifique; o Homem de Altamura nem aparece na imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Fragmento de pedra com estrias; não é reconhecível como sílex (poderia ser outro tipo de chert ou calcedônia)."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Ferramenta de pedra lascada em forma de gota, indistinguível de um biface ou de outras indústrias; não permite resposta única para o musteriense."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco de um senhor desconhecido, com crachá ilegível; não é reconhecível pelo rosto."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de um gorila, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que grande primata africano é este?",
+      "resposta": "Gorila",
+      "distratores": [
+        "Chimpanzé",
+        "Orangotango",
+        "Mandril"
+      ],
+      "ancora": {
+        "nome": "Gorila",
+        "descricao": "Gênero Gorilla, os maiores primatas vivos, que habitam as florestas da África equatorial.",
+        "variantes": [
+          "Gorilla"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato pequeno, de baixa resolução e sem contexto; não é reconhecível pelo rosto."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mãos em negativo e pontos vermelhos: motivo comum a várias cavernas (Gargas, Cueva de las Manos), então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Três vistas nítidas de um biface típico; a etiqueta manuscrita não revela a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ferramenta de pedra lascada da pré-história é esta?",
+      "resposta": "Biface (machado de mão)",
+      "distratores": [
+        "Raspador",
+        "Ponta de flecha",
+        "Lâmina de foice"
+      ],
+      "ancora": {
+        "nome": "Biface",
+        "descricao": "Ferramenta pré-histórica de pedra lascada nas duas faces, em forma de amêndoa, típica do Acheulense.",
+        "variantes": [
+          "Machado de mão",
+          "Hand axe",
+          "Handaxe"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de um homem ao lado de um crânio fóssil; o rosto não é reconhecível e há duas entidades na imagem, então a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Crânio de aparência plenamente moderna: Homo sapiens também seria resposta defensável, e não dá para distinguir Cro-Magnon de outros crânios sapiens só pela imagem."
+    }
+  ]
+}
