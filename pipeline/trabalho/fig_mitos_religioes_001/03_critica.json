@@ -1,0 +1,131 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista; resposta única e confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que o disco está atrás de uma figura sentada, detalhe que 'mostra' não confirma. Também descreve a forma (disco de raios). Basta pedir o símbolo.",
+      "reescrita": {
+        "pergunta": "Que símbolo budista é este?",
+        "resposta": "Roda do dharma",
+        "distratores": [
+          "Nó infinito",
+          "Mandala",
+          "Estandarte da vitória"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz 'quase sempre' emparelhado com o sino ritual (ghanta). 'Sempre' não é literalmente verdadeiro.",
+      "reescrita": {
+        "pergunta": "No budismo tibetano, que instrumento ritual quase sempre é usado em par com este objeto?",
+        "resposta": "Sino",
+        "distratores": [
+          "Tambor damaru",
+          "Trompa longa",
+          "Taça de oferendas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Deusa do amor e da beleza' entrega a resposta sem olhar a figura. Remover a pista.",
+      "reescrita": {
+        "pergunta": "Que deusa grega esta escultura representa?",
+        "resposta": "Afrodite",
+        "distratores": [
+          "Atena",
+          "Ártemis",
+          "Hera"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'símbolo da vida' não entrega a civilização sem a figura. Resposta única, distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Faravahar é um dos principais símbolos do zoroastrismo. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de uma estátua com tridente. Distratores do mesmo tipo e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Era cultuada' é ambíguo, porque Saqqara, também no Baixo Egito, tinha culto e cemitérios de gatos. Pedir o principal centro de culto dá resposta única, e Bubástis é amplamente documentada como esse centro.",
+      "reescrita": {
+        "pergunta": "Qual cidade do Baixo Egito era o principal centro de culto desta deusa?",
+        "resposta": "Bubástis"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De um bestiário medieval' afirma uma origem da imagem que 'mostra' não confirma. O unicórnio é reconhecível sem isso.",
+      "reescrita": {
+        "pergunta": "Que criatura lendária é esta?",
+        "resposta": "Unicórnio",
+        "distratores": [
+          "Pégaso",
+          "Grifo",
+          "Quimera"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Sekhmet é 'associada' a Hathor e Bastet e é irmã de Bastet. Não dizem que foram fundidas. Reescrita pelo parentesco, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Segundo uma tradição mitológica, que deusa egípcia era irmã desta?",
+        "resposta": "Bastet",
+        "distratores": [
+          "Ísis",
+          "Néftis",
+          "Maat"
+        ]
+      }
+    }
+  ]
+}

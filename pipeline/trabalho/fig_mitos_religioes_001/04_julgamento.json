@@ -1,0 +1,743 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Centauro",
+        "descricao": "Criatura da mitologia grega com tronco humano e corpo de cavalo.",
+        "variantes": [
+          "Centaur",
+          "Hipocentauro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tauros",
+          "nome": "Tauros",
+          "descricao": "Pokémon touro do tipo Normal da primeira geração, número 128 da Pokédex Nacional.",
+          "variantes": [
+            "Kentauros"
+          ]
+        },
+        {
+          "id": "centuria",
+          "nome": "Centúria",
+          "descricao": "Unidade do exército romano comandada por um centurião.",
+          "variantes": []
+        },
+        {
+          "id": "carnotauro",
+          "nome": "Carnotauro",
+          "descricao": "Gênero de dinossauro terópode abelissaurídeo do Cretáceo Superior da Argentina, com dois chifres sobre os olhos.",
+          "variantes": [
+            "Carnotaurus"
+          ]
+        },
+        {
+          "id": "hipocausto",
+          "nome": "Hipocausto",
+          "descricao": "Sistema romano de calefação que fazia circular ar quente sob o piso e dentro das paredes.",
+          "variantes": [
+            "Hypocaust",
+            "Hypocaustum"
+          ]
+        },
+        {
+          "id": "cenoura",
+          "nome": "Cenoura",
+          "descricao": "Daucus carota subsp. sativus, raiz comestível, em geral alaranjada.",
+          "variantes": [
+            "Daucus carota"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Roda do dharma",
+        "descricao": "Símbolo budista em forma de roda de raios, que representa o ensinamento de Buda.",
+        "variantes": [
+          "Dharmachakra",
+          "Roda do darma",
+          "Dhammacakka"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rosa_do_deserto",
+          "nome": "Rosa do deserto",
+          "descricao": "Formação de cristais de gipsita ou barita em forma de rosa, com grãos de areia.",
+          "variantes": [
+            "Rosa das areias",
+            "Desert rose",
+            "Rosa do Saara"
+          ]
+        },
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "roca_de_fiar",
+          "nome": "Roca de fiar",
+          "descricao": "Equipamento de madeira com roda e fuso para transformar fibras em fio, usado antes da Revolução Industrial.",
+          "variantes": [
+            "Roda de fiar",
+            "Roca",
+            "Spinning wheel"
+          ]
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vajra",
+        "descricao": "Cetro ritual de metal com duas pontas esféricas, símbolo de indestrutibilidade e do raio, usado em tradições dármicas.",
+        "variantes": [
+          "Dorje",
+          "Dordje"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "varna",
+          "nome": "Varna",
+          "descricao": "Cada uma das quatro classes em que os textos hindus antigos dividiam a sociedade: brâmanes, xátrias, vaixás e sudras.",
+          "variantes": [
+            "Varnas",
+            "Sistema de castas"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        },
+        {
+          "id": "varzea",
+          "nome": "Várzea",
+          "descricao": "Floresta amazônica inundada periodicamente pelas cheias de rios de água barrenta, como o Solimões",
+          "variantes": [
+            "Floresta de várzea"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel",
+            "Folheto de cordel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Afrodite",
+        "descricao": "Deusa grega do amor e da beleza, representada em escultura de mármore.",
+        "variantes": [
+          "Vênus",
+          "Aphrodite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "venusaur",
+          "nome": "Venusaur",
+          "descricao": "Pokémon dos tipos Planta e Veneno, número 3 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "vertumno",
+          "nome": "Vertumno",
+          "descricao": "Retrato de Rodolfo II composto de frutas, legumes e flores, pintado por Arcimboldo em 1591.",
+          "variantes": [
+            "Vertumno (Arcimboldo)",
+            "Vertumnus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ankh",
+        "descricao": "Símbolo egípcio em forma de cruz com alça, que representa a vida.",
+        "variantes": [
+          "Chave da vida",
+          "Cruz ansata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ankh",
+          "nome": "Ankh",
+          "descricao": "Símbolo egípcio em forma de cruz com uma alça no alto, frequentemente seguro pelos deuses nas representações",
+          "variantes": [
+            "Cruz ansata",
+            "Anj"
+          ]
+        },
+        {
+          "id": "tanach",
+          "nome": "Tanach",
+          "descricao": "Conjunto das escrituras sagradas do judaísmo, a Bíblia hebraica",
+          "variantes": [
+            "Tanakh",
+            "Bíblia hebraica"
+          ]
+        },
+        {
+          "id": "tanque_de_guerra",
+          "nome": "Tanque de guerra",
+          "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial.",
+          "variantes": [
+            "Tank",
+            "Carro de combate"
+          ]
+        },
+        {
+          "id": "cravo_da_india",
+          "nome": "Cravo-da-índia",
+          "descricao": "Botão floral seco da árvore Syzygium aromaticum, usado como tempero",
+          "variantes": [
+            "Syzygium aromaticum",
+            "cravinho",
+            "clove"
+          ]
+        },
+        {
+          "id": "chave_de_fenda",
+          "nome": "Chave de fenda",
+          "descricao": "Ferramenta manual de ponta plana usada para girar parafusos de fenda.",
+          "variantes": [
+            "Chave de parafuso",
+            "Screwdriver"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Faravahar",
+        "descricao": "Símbolo alado com figura masculina, um dos mais conhecidos do zoroastrismo.",
+        "variantes": [
+          "Foruhar",
+          "Fravashi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futhark",
+          "nome": "Futhark",
+          "descricao": "Alfabeto rúnico usado pelos antigos povos germânicos.",
+          "variantes": [
+            "Futhark antigo",
+            "Elder Futhark",
+            "Runas"
+          ]
+        },
+        {
+          "id": "carvanha",
+          "nome": "Carvanha",
+          "descricao": "Pokémon dos tipos Água e Sombrio, número 318 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "zorua",
+          "nome": "Zorua",
+          "descricao": "Pokémon do tipo Sombrio, número 570 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        },
+        {
+          "id": "frasier",
+          "nome": "Frasier",
+          "descricao": "Sitcom americana exibida de 1993 a 2004, sobre o psiquiatra Frasier Crane, que vive em Seattle.",
+          "variantes": [
+            "Frasier Crane"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Poseidon",
+        "descricao": "Deus grego do mar, dos terremotos e dos cavalos, que porta um tridente.",
+        "variantes": [
+          "Posídon",
+          "Netuno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "netuno",
+          "nome": "Netuno",
+          "descricao": "Oitavo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Neptune"
+          ]
+        },
+        {
+          "id": "noturno",
+          "nome": "Noturno",
+          "descricao": "Kurt Wagner, mutante azul de cauda pontuda dos X-Men, capaz de se teletransportar",
+          "variantes": [
+            "Nightcrawler",
+            "Kurt Wagner"
+          ]
+        },
+        {
+          "id": "simposio_grecia_antiga",
+          "nome": "Simpósio (Grécia Antiga)",
+          "descricao": "Banquete grego de homens, com vinho, música e conversa, que dá título a um diálogo de Platão.",
+          "variantes": [
+            "Symposion",
+            "Symposium"
+          ]
+        },
+        {
+          "id": "neuronio",
+          "nome": "Neurônio",
+          "descricao": "Célula excitável do sistema nervoso que conduz impulsos elétricos.",
+          "variantes": [
+            "Célula nervosa"
+          ]
+        },
+        {
+          "id": "bratislava",
+          "nome": "Bratislava",
+          "descricao": "Capital e maior cidade da Eslováquia, às margens do Danúbio.",
+          "variantes": [
+            "Pressburg",
+            "Pozsony"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bastet",
+        "descricao": "Deusa egípcia de cabeça de gata, protetora e aspecto gentil da deusa leoa.",
+        "variantes": [
+          "Bast",
+          "Ubasti",
+          "Bastete"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bastet",
+          "nome": "Bastet",
+          "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis",
+          "variantes": [
+            "Bast",
+            "Bastit"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "basalto",
+          "nome": "Basalto",
+          "descricao": "Rocha vulcânica escura e de grão fino, formada pelo resfriamento rápido de lava pobre em sílica.",
+          "variantes": [
+            "Basalt"
+          ]
+        },
+        {
+          "id": "isis",
+          "nome": "Ísis",
+          "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus",
+          "variantes": [
+            "Aset"
+          ]
+        },
+        {
+          "id": "radiotelescopio_fast",
+          "nome": "Radiotelescópio FAST",
+          "descricao": "Radiotelescópio chinês de 500 metros de abertura, instalado numa depressão natural em Guizhou.",
+          "variantes": [
+            "FAST",
+            "Five-hundred-meter Aperture Spherical Telescope",
+            "Tianyan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Coatlicue",
+        "descricao": "Deusa asteca mãe dos deuses, cuja saia é feita de serpentes.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        },
+        {
+          "id": "acrobatics",
+          "nome": "Acrobatics",
+          "descricao": "Golpe de pokémon do tipo Voador, da 5ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "calculo",
+          "nome": "Cálculo",
+          "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+          "variantes": [
+            "Cálculo diferencial e integral",
+            "Calculus"
+          ]
+        },
+        {
+          "id": "ketchup",
+          "nome": "Ketchup",
+          "descricao": "Molho agridoce de tomate usado em lanches e batatas fritas.",
+          "variantes": [
+            "Catchup",
+            "Catsup"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Unicórnio",
+        "descricao": "Criatura lendária semelhante a um cavalo, com um único chifre espiralado na testa.",
+        "variantes": [
+          "Unicorn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anhuma",
+          "nome": "Anhuma",
+          "descricao": "Ave aquática sul-americana (Anhima cornuta) com um filamento em forma de chifre na testa.",
+          "variantes": [
+            "Anhima cornuta",
+            "Horned screamer",
+            "Unicórnio"
+          ]
+        },
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        },
+        {
+          "id": "tricornio",
+          "nome": "Tricórnio",
+          "descricao": "Chapéu de feltro com a aba virada para cima em três lados, formando um triângulo, popular na Europa no século dezoito.",
+          "variantes": [
+            "Tricorne",
+            "Chapéu de três pontas",
+            "Cocked hat"
+          ]
+        },
+        {
+          "id": "narval",
+          "nome": "Narval",
+          "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros.",
+          "variantes": [
+            "Monodon monoceros",
+            "Narwhal",
+            "Unicórnio-do-mar"
+          ]
+        },
+        {
+          "id": "rio_rubicao",
+          "nome": "Rio Rubicão",
+          "descricao": "Pequeno rio do norte da Itália que marcava o limite da Itália romana e foi cruzado por Júlio César em 49 antes de Cristo.",
+          "variantes": [
+            "Rubicão",
+            "Rubicon",
+            "Rubicone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Osíris",
+        "descricao": "Deus egípcio da vida após a morte, da ressurreição e da fertilidade.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "osiris",
+          "nome": "Osíris",
+          "descricao": "Deus egípcio dos mortos e do além, marido de Ísis e pai de Hórus",
+          "variantes": [
+            "Usir"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "sirius_acelerador_de_particulas",
+          "nome": "Sirius (acelerador de partículas)",
+          "descricao": "Fonte brasileira de luz síncrotron, acelerador de partículas do Laboratório Nacional de Luz Síncrotron, inaugurado em 2018.",
+          "variantes": [
+            "Sirius",
+            "Projeto Sirius"
+          ]
+        },
+        {
+          "id": "iris",
+          "nome": "Íris",
+          "descricao": "Estrutura em forma de anel do olho que controla o tamanho da pupila e define a cor dos olhos.",
+          "variantes": []
+        },
+        {
+          "id": "iris_2",
+          "nome": "Iris",
+          "descricao": "Treinadora especialista em dragões, companheira de Ash em Unova no anime e campeã da Liga de Unova em Pokémon Black 2 e White 2.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Sekhmet",
+        "descricao": "Deusa egípcia guerreira e da medicina, de cabeça de leoa, chamada olho de Rá.",
+        "variantes": [
+          "Sacmis",
+          "Sachmis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samis",
+          "nome": "Sámis",
+          "descricao": "Povo indígena do norte da Escandinávia e da península de Kola, tradicionalmente criador de renas.",
+          "variantes": [
+            "Sami",
+            "Lapões",
+            "Saami"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "pschent",
+          "nome": "Pschent",
+          "descricao": "Coroa dupla dos faraós, que unia as coroas do Alto e do Baixo Egito como símbolo do país unificado",
+          "variantes": [
+            "Coroa dupla",
+            "Sekhemti"
+          ]
+        },
+        {
+          "id": "michael_schumacher",
+          "nome": "Michael Schumacher",
+          "descricao": "Piloto alemão heptacampeão mundial de Fórmula 1.",
+          "variantes": [
+            "Schumi"
+          ]
+        },
+        {
+          "id": "amish",
+          "nome": "Amish",
+          "descricao": "Grupo cristão anabatista tradicionalista que vive em comunidades rurais dos Estados Unidos e do Canadá",
+          "variantes": [
+            "Amishes"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o centauro mitológico."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o símbolo budista."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vajra não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Afrodite é a deusa; Vênus candidata é o planeta."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "ankh",
+      "motivo": "Mesmo símbolo egípcio, com variante Cruz ansata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Faravahar."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Poseidon é o deus; Netuno candidata é o planeta."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "bastet",
+      "motivo": "Mesma deusa egípcia Bastet, com variante Bast."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Coatlicue."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O unicórnio lendário difere da anhuma e do narval, que só têm 'unicórnio' como apelido."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "osiris",
+      "motivo": "Mesmo deus egípcio Osíris."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sekhmet não está entre as candidatas; Pschent é uma coroa."
+    }
+  ]
+}

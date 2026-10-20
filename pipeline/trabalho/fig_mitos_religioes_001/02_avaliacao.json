@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Escultura de centauro nítida, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que criatura mitológica é esta?",
+      "resposta": "Centauro",
+      "ancora": {
+        "nome": "Centauro",
+        "descricao": "Criatura da mitologia grega com tronco humano e corpo de cavalo.",
+        "variantes": [
+          "Centaur",
+          "Hipocentauro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Escultura com o grande disco de raios atrás do Buda; símbolo reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que símbolo budista é este grande disco de raios atrás da figura sentada?",
+      "resposta": "Roda do dharma",
+      "distratores": [
+        "Nó infinito",
+        "Mandala",
+        "Estandarte da vitória"
+      ],
+      "ancora": {
+        "nome": "Roda do dharma",
+        "descricao": "Símbolo budista em forma de roda de raios, que representa o ensinamento de Buda.",
+        "variantes": [
+          "Dharmachakra",
+          "Roda do darma",
+          "Dhammacakka"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Objeto ritual isolado, fundo liso, bem legível.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "No budismo tibetano, que outro instrumento ritual é sempre usado em par com este objeto?",
+      "resposta": "Sino",
+      "distratores": [
+        "Tambor damaru",
+        "Trompa longa",
+        "Taça de oferendas"
+      ],
+      "ancora": {
+        "nome": "Vajra",
+        "descricao": "Cetro ritual de metal com duas pontas esféricas, símbolo de indestrutibilidade e do raio, usado em tradições dármicas.",
+        "variantes": [
+          "Dorje",
+          "Dordje"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Busto de mármore de Afrodite/Vênus pudica, sem texto; reconhecível pelo gesto, melhor em múltipla.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que deusa grega do amor e da beleza esta escultura representa?",
+      "resposta": "Afrodite",
+      "distratores": [
+        "Atena",
+        "Ártemis",
+        "Hera"
+      ],
+      "ancora": {
+        "nome": "Afrodite",
+        "descricao": "Deusa grega do amor e da beleza, representada em escultura de mármore.",
+        "variantes": [
+          "Vênus",
+          "Aphrodite"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Símbolo ankh preto sobre fundo branco, nítido e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que antiga civilização vem este símbolo da vida?",
+      "resposta": "Egito Antigo",
+      "distratores": [
+        "Mesopotâmia",
+        "Fenícia",
+        "Império Persa"
+      ],
+      "ancora": {
+        "nome": "Ankh",
+        "descricao": "Símbolo egípcio em forma de cruz com alça, que representa a vida.",
+        "variantes": [
+          "Chave da vida",
+          "Cruz ansata"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Símbolo Faravahar nítido, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Com que religião este símbolo alado se liga?",
+      "resposta": "Zoroastrismo",
+      "ancora": {
+        "nome": "Faravahar",
+        "descricao": "Símbolo alado com figura masculina, um dos mais conhecidos do zoroastrismo.",
+        "variantes": [
+          "Farāvahār",
+          "Foruhar",
+          "Fravashi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estátua com tridente, nítida; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus grego esta estátua representa?",
+      "resposta": "Poseidon",
+      "distratores": [
+        "Zeus",
+        "Hades",
+        "Apolo"
+      ],
+      "ancora": {
+        "nome": "Poseidon",
+        "descricao": "Deus grego do mar, dos terremotos e dos cavalos, que porta um tridente.",
+        "variantes": [
+          "Posídon",
+          "Netuno"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ilustração de deusa de cabeça de gato com ankh e sistro, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade do Baixo Egito esta deusa era cultuada?",
+      "resposta": "Bubástis",
+      "ancora": {
+        "nome": "Bastet",
+        "descricao": "Deusa egípcia de cabeça de gata, protetora e aspecto gentil da deusa leoa.",
+        "variantes": [
+          "Bast",
+          "Ubasti",
+          "Bastete"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escultura asteca famosa, com saia de serpentes e crânio; inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que deusa asteca esta escultura representa?",
+      "resposta": "Coatlicue",
+      "ancora": {
+        "nome": "Coatlicue",
+        "descricao": "Deusa asteca mãe dos deuses, cuja saia é feita de serpentes.",
+        "variantes": [
+          "Cōātlīcue"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Iluminura medieval clara de animal com um só chifre; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que criatura lendária é esta, de um bestiário medieval?",
+      "resposta": "Unicórnio",
+      "distratores": [
+        "Pégaso",
+        "Grifo",
+        "Quimera"
+      ],
+      "ancora": {
+        "nome": "Unicórnio",
+        "descricao": "Criatura lendária semelhante a um cavalo, com um único chifre espiralado na testa.",
+        "variantes": [
+          "Unicorn"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilustração nítida de Osíris com coroa atef, cajado e mangual, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que deus egípcio é este?",
+      "resposta": "Osíris",
+      "ancora": {
+        "nome": "Osíris",
+        "descricao": "Deus egípcio da vida após a morte, da ressurreição e da fertilidade.",
+        "variantes": [
+          "Osiris"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ilustração clara de deusa de cabeça de leoa com disco solar, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com que outra deusa egípcia esta foi fundida, como dois aspectos de uma só?",
+      "resposta": "Bastet",
+      "distratores": [
+        "Ísis",
+        "Néftis",
+        "Maat"
+      ],
+      "ancora": {
+        "nome": "Sekhmet",
+        "descricao": "Deusa egípcia guerreira e da medicina, de cabeça de leoa, chamada olho de Rá.",
+        "variantes": [
+          "Sacmis",
+          "Sachmis"
+        ]
+      }
+    }
+  ]
+}

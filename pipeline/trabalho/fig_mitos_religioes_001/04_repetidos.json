@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que antiga civilização vem este símbolo da vida?",
+        "resposta": "Egito Antigo"
+      },
+      "existentes": [
+        {
+          "id": "q06381",
+          "pergunta": "O ankh, a cruz com uma alça no alto que os deuses seguram nas pinturas egípcias, era o hieróglifo de qual palavra?",
+          "resposta": "Vida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual cidade do Baixo Egito era o principal centro de culto desta deusa?",
+        "resposta": "Bubástis"
+      },
+      "existentes": [
+        {
+          "id": "q13623",
+          "pergunta": "A deusa Bastet, protetora dos lares, era cultuada em Bubástis, onde se acharam milhares de múmias de animais. Com o tempo, passou a ser representada como qual animal doméstico?",
+          "resposta": "Gato"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que deus egípcio é este?",
+        "resposta": "Osíris"
+      },
+      "existentes": [
+        {
+          "id": "q06369",
+          "pergunta": "No mito egípcio, Osíris foi assassinado e teve o corpo despedaçado e espalhado pelo Egito. Qual deus, seu próprio irmão, cometeu o crime?",
+          "resposta": "Set"
+        },
+        {
+          "id": "q13651",
+          "pergunta": "Segundo a tradição egípcia, a cabeça de Osíris estava enterrada numa cidade do Alto Egito, principal centro do seu culto e destino de peregrinações. Que cidade?",
+          "resposta": "Abidos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ankh como símbolo da vida do Egito Antigo; a existente já informa que o hieróglifo é vida e o contexto egípcio, então quem sabe uma sabe a outra.",
+      "id_existente": "q06381"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade de culto (Bubástis) é dada no enunciado da existente, que pergunta o animal; fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar Osíris por imagem é diferente de saber quem o matou ou onde estava a cabeça."
+    }
+  ]
+}
