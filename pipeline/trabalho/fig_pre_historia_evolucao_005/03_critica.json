@@ -1,0 +1,70 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam Idade do Bronze nórdica e a descoberta na Dinamarca. 'Objeto de metal' ajuda sem entregar a resposta. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em inglês diz cerca de 25 mil anos e 'uma das mais antigas representações realistas'. A pergunta pede a idade, que o enunciado não entrega. Os distratores são distintos e curtos. O valor mais próximo das estimativas é 25 mil.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cretense, de escrita não decifrada' descreve de modo único o Disco de Festo, então a figura vira enfeite. O fato (segundo milênio a.C.) está no trecho. Tirei a pista identificadora e deixei só a região.",
+      "reescrita": {
+        "pergunta": "Este disco de argila foi achado numa ilha grega. Em que milênio antes de Cristo foi feito?",
+        "resposta": "Segundo milênio a.C.",
+        "distratores": [
+          "Quarto milênio a.C.",
+          "Terceiro milênio a.C.",
+          "Primeiro milênio a.C."
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apelido 'Stonehenge brasileiro' nomeia o sítio e leva ao Amapá sem olhar a figura. O fato de ficar no Amapá está no trecho. Tirei o apelido.",
+      "reescrita": {
+        "pergunta": "Em que estado brasileiro fica este círculo de grandes blocos de pedra, na região amazônica?",
+        "resposta": "Amapá",
+        "distratores": [
+          "Pará",
+          "Amazonas",
+          "Roraima"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam cerâmica gravetiana de 31 a 27 mil anos, achada na atual República Tcheca. 'Cerca de trinta mil anos' é literalmente correto. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ilha de Lewis' entrega a Escócia sem olhar a figura. O trecho confirma o fato (Escócia) e o período neolítico. Troquei a pista pelo período.",
+      "reescrita": {
+        "pergunta": "Em que país fica este círculo de pedras do período Neolítico?",
+        "resposta": "Escócia",
+        "distratores": [
+          "Inglaterra",
+          "Irlanda",
+          "País de Gales"
+        ]
+      }
+    }
+  ]
+}
