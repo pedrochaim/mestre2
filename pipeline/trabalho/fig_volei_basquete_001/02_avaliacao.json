@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome Madison Square Garden aparece escrito várias vezes na fachada e nos painéis, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de uma jogadora da seleção, sem nome na imagem. Só aparece o número 11, sem nome.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta jogadora da seleção brasileira de vôlei?",
+      "resposta": "Tandara Caixeta",
+      "distratores": [
+        "Natália Pereira",
+        "Fabiana Claudino",
+        "Jaqueline Carvalho"
+      ],
+      "ancora": {
+        "nome": "Tandara Caixeta",
+        "descricao": "Jogadora brasileira de vôlei, oposta, campeã olímpica em Londres 2012.",
+        "variantes": [
+          "Tandara",
+          "Tandara Alves Caixeta"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto. A pergunta vai além do nome e não entrega a resposta.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que time da NBA este ex-pivô defendeu durante a maior parte da carreira?",
+      "resposta": "New York Knicks",
+      "ancora": {
+        "nome": "Patrick Ewing",
+        "descricao": "Ex-pivô jamaicano-americano de basquete, ídolo do New York Knicks nos anos 1990.",
+        "variantes": [
+          "Patrick Aloysius Ewing"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sorridente de uma figura pública. Só aparece a marca da faixa, sem nome.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esta jogadora de vôlei, campeã olímpica pelo Brasil?",
+      "resposta": "Paula Pequeno",
+      "ancora": {
+        "nome": "Paula Pequeno",
+        "descricao": "Ponteira brasileira de vôlei, bicampeã olímpica em Pequim 2008 e Londres 2012.",
+        "variantes": [
+          "Paula Renata Marques Pequeno"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de corpo inteiro com a camisa do Boston Celtics e o número 5, sem nome. É reconhecível pelo rosto e pelo porte.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é este jogador de basquete?",
+      "resposta": "Kevin Garnett",
+      "distratores": [
+        "Tim Duncan",
+        "Dirk Nowitzki",
+        "Chris Webber"
+      ],
+      "ancora": {
+        "nome": "Kevin Garnett",
+        "descricao": "Ex-ala-pivô americano de basquete, campeão da NBA pelo Boston Celtics em 2008.",
+        "variantes": [
+          "KG",
+          "Kevin Maurice Garnett"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido da jogadora arremessando. A camisa traz só patrocinadores e o logotipo do time, sem nome.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é esta pivô brasileira de basquete?",
+      "resposta": "Damiris Dantas",
+      "ancora": {
+        "nome": "Damiris Dantas",
+        "descricao": "Pivô brasileira de basquete que jogou na WNBA pelo Minnesota Lynx e pelo Indiana Fever.",
+        "variantes": [
+          "Damiris Dantas do Amaral"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A camisa 19 do Brasil na Rio 2016 não é de Leandrinho, que usava a 9. O jogador não parece ser ele, então a identidade é duvidosa."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto. A pergunta vai além do nome e a pista é só a nacionalidade.",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Por que time da NBA este canadense, ex-armador, jogou mais temporadas?",
+      "resposta": "Phoenix Suns",
+      "ancora": {
+        "nome": "Steve Nash",
+        "descricao": "Ex-armador canadense de basquete, bicampeão do prêmio de MVP da NBA pelo Phoenix Suns.",
+        "variantes": [
+          "Stephen John Nash"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de uma figura pública em quadra, sem nome na imagem. A camisa traz só o número 18 e patrocinadores.",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esta jogadora italiana de vôlei?",
+      "resposta": "Paola Egonu",
+      "ancora": {
+        "nome": "Paola Egonu",
+        "descricao": "Oposta italiana de vôlei, estrela da seleção da Itália.",
+        "variantes": [
+          "Paola Ogechi Egonu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida com a camisa da seleção brasileira, sem nome. A pergunta é de múltipla escolha, com distratores de aparência parecida.",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é este jogador da seleção brasileira de vôlei?",
+      "resposta": "Murilo Endres",
+      "distratores": [
+        "Gustavo Endres",
+        "Dante Amaral",
+        "Sérgio Santos"
+      ],
+      "ancora": {
+        "nome": "Murilo Endres",
+        "descricao": "Ponta brasileiro de vôlei, bicampeão mundial e duas vezes medalhista de prata olímpico.",
+        "variantes": [
+          "Murilo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é um retrato minúsculo, de baixa resolução, e não fica legível num celular. O jogador também não é claramente reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra três jogadoras. Não fica claro qual delas é a âncora, então a resposta não é única diante da imagem."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única diante da imagem, distratores do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ele jogou 15 anos pelo Knicks. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só diz 'campeã olímpica', o que não identifica a jogadora. A resposta é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Os distratores são alas-pivôs críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento. Os trechos confirmam que ela é pivô brasileira de basquete.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O fato é verdadeiro: Nash jogou cerca de dez temporadas pelos Suns e seis pelos Mavericks. Mas 'Por que time' soa como 'porque' em voz alta. Também falta contexto antes da pergunta.",
+      "reescrita": {
+        "pergunta": "Este ex-armador canadense jogou dezoito temporadas na NBA. Qual time ele defendeu por mais temporadas?",
+        "resposta": "Phoenix Suns",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. A pista 'italiana' ajuda sem entregar, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro e resposta única. Os distratores são jogadores brasileiros de vôlei críveis, e nenhum descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}
