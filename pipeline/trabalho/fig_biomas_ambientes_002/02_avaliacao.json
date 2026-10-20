@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Raios nítidos sobre céu escuro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno do tempo é este?",
+      "resposta": "Relâmpago (raio)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Relâmpago",
+        "descricao": "Descarga elétrica atmosférica visível como clarão, associada a tempestades.",
+        "variantes": [
+          "Raio"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Parede de poeira avançando sobre uma cidade, bem reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno do tempo é este, que avança sobre a cidade?",
+      "resposta": "Haboob",
+      "distratores": [
+        "Tornado",
+        "Tromba-d'água",
+        "Nevasca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Haboob",
+        "descricao": "Intensa tempestade de poeira gerada pelas rajadas descendentes de uma tempestade.",
+        "variantes": [
+          "Habub",
+          "Tempestade de poeira"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arco-íris claro sobre rua; o letreiro visível não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno óptico aparece no céu desta foto?",
+      "resposta": "Arco-íris",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arco-íris",
+        "descricao": "Fenômeno óptico em arco colorido causado pela refração e reflexão da luz em gotas de água.",
+        "variantes": [
+          "Arco-iris"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Nuvem prateleira típica, panorama legível e sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem é esta?",
+      "resposta": "Nuvem prateleira",
+      "distratores": [
+        "Nuvem lenticular",
+        "Mammatus",
+        "Cirros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nuvem prateleira",
+        "descricao": "Nuvem arcus baixa e horizontal que marca a frente de rajadas de uma tempestade.",
+        "variantes": [
+          "Shelf cloud",
+          "Arcus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Água de degelo mergulhando num poço no gelo, característico de moulin.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que feição glacial é esta, onde a água do degelo mergulha no gelo?",
+      "resposta": "Moulin",
+      "distratores": [
+        "Morena",
+        "Sérac",
+        "Circo glacial"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Moulin glacial",
+        "descricao": "Poço vertical na superfície de uma geleira por onde desce a água de degelo.",
+        "variantes": [
+          "Moulin",
+          "Glacier mill"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Paredão de gelo sobre o mar pode ser iceberg, plataforma de gelo ou geleira; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dolina com lago azul-esverdeado, forma clara e sem texto; pessoas pequenas e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formação do relevo é esta, um colapso do terreno com água no fundo?",
+      "resposta": "Dolina",
+      "destino": 1,
+      "ancora": {
+        "nome": "Dolina",
+        "descricao": "Depressão ou buraco no terreno causado pelo colapso da camada superficial, comum em relevo cárstico.",
+        "variantes": [
+          "Sinkhole"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Lago rosa inconfundível cercado por vegetação e pelo oceano.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este lago?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Senegal",
+        "Espanha",
+        "México"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Hillier",
+        "descricao": "Lago salino de cor rosa na Ilha Middle, no sul da Austrália Ocidental.",
+        "variantes": [
+          "Lake Hillier"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um diagrama esquemático, não foto; um gêiser pode ser fotografado e o esquema é ambíguo (poderia ser fonte termal)."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Paisagem aérea de vale glacial genérica; não permite reconhecer os Vales Secos de McMurdo, resposta não única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cristais de gelo sobre grade, bem nítidos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno do tempo cobriu esta grade de cristais de gelo?",
+      "resposta": "Geada",
+      "distratores": [
+        "Neve",
+        "Granizo",
+        "Orvalho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Geada",
+        "descricao": "Camada de cristais de gelo formada pela deposição de vapor de água sobre superfícies congeladas.",
+        "variantes": [
+          "Gelo",
+          "Frost"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Água turva borbulhando pode ser fonte termal, gêiser ou poça de lama; resposta não única."
+    }
+  ]
+}

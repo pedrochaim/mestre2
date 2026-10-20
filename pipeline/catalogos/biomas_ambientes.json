@@ -5,7 +5,7 @@
       "titulo": "en:Frost",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Granizo",
@@ -19,7 +19,7 @@
       "titulo": "en:Rainbow",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Neblina",
@@ -33,7 +33,7 @@
       "titulo": "en:Lightning",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Floresta tropical",
@@ -89,7 +89,7 @@
       "titulo": "en:Shelf cloud",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Floresta temperada decídua",
@@ -138,14 +138,14 @@
       "titulo": "en:Haboob",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Geleira",
       "titulo": "en:Glacier",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Lava",
@@ -173,7 +173,7 @@
       "titulo": "en:Geyser",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Caverna",
@@ -208,28 +208,28 @@
       "titulo": "en:Sinkhole",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fonte termal",
       "titulo": "en:Hot spring",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Atol",
       "titulo": "en:Atoll",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Deserto do Atacama",
       "titulo": "en:Atacama Desert",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Floresta de kelp",
@@ -243,7 +243,7 @@
       "titulo": "en:McMurdo Dry Valleys",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estromatólito",
@@ -271,14 +271,14 @@
       "titulo": "en:Moulin (geomorphology)",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lago Hillier",
       "titulo": "en:Lake Hillier",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     }
   ]
 }

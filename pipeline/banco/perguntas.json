@@ -262896,5 +262896,169 @@
       "licenca": "CC BY-SA 2.5"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q14159",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "relampago",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno do tempo é este?",
+    "resposta": "Relâmpago (raio)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lightning",
+      "https://pt.wikipedia.org/wiki/Raio_%28meteorologia%29"
+    ],
+    "imagem": {
+      "arquivo": "q14159.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lightning_Pritzerbe_01_(MK).jpg",
+      "autor": "Mathias Krumbholz",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14160",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "haboob",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno do tempo é este?",
+    "resposta": "Haboob",
+    "distratores": [
+      "Tornado",
+      "Tromba-d'água",
+      "Nevasca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haboob",
+      "https://pt.wikipedia.org/wiki/Habub"
+    ],
+    "imagem": {
+      "arquivo": "q14160.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Haboob_Ransom_Canyon_Texas_2009.jpg",
+      "autor": "Leaflet",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14161",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "arco_iris",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno óptico aparece no céu desta foto?",
+    "resposta": "Arco-íris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rainbow",
+      "https://pt.wikipedia.org/wiki/Arco-%C3%ADris"
+    ],
+    "imagem": {
+      "arquivo": "q14161.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_rainbow_at_sunset_after_rain_in_Gaziantep,_Turkey.IMG_2448.jpg",
+      "autor": "YG01",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q14162",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "nuvem_prateleira",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de nuvem é esta?",
+    "resposta": "Nuvem prateleira",
+    "distratores": [
+      "Nuvem lenticular",
+      "Mammatus",
+      "Cirros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arcus_cloud",
+      "https://pt.wikipedia.org/wiki/Arcus_%28nuvem%29"
+    ],
+    "imagem": {
+      "arquivo": "q14162.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Thunderstorm_panorama.jpg",
+      "autor": "Bidgee",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14163",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "moulin_glacial",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que feição glacial é esta?",
+    "resposta": "Moulin",
+    "distratores": [
+      "Morena",
+      "Sérac",
+      "Circo glacial"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moulin_%28geomorphology%29"
+    ],
+    "imagem": {
+      "arquivo": "q14163.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Athabasca.Moulin.jpg",
+      "autor": "China Crisis",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q14164",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "lago_hillier",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este lago?",
+    "resposta": "Austrália",
+    "distratores": [
+      "Senegal",
+      "Espanha",
+      "México"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Hillier",
+      "https://pt.wikipedia.org/wiki/Lago_Hillier"
+    ],
+    "imagem": {
+      "arquivo": "q14164.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lake_Hillier_2_Middle_Island_Recherche_Archipelago_NR_IV-2011.JPG",
+      "autor": "Aussie Oc",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14165",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "geada",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno do tempo é este?",
+    "resposta": "Geada",
+    "distratores": [
+      "Neve",
+      "Granizo",
+      "Orvalho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frost",
+      "https://pt.wikipedia.org/wiki/Geada"
+    ],
+    "imagem": {
+      "arquivo": "q14165.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Frost_(31189250653).jpg",
+      "autor": "XoMEoX",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

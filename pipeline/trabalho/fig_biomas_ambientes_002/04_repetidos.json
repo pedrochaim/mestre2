@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno óptico aparece no céu desta foto?",
+        "resposta": "Arco-íris"
+      },
+      "existentes": [
+        {
+          "id": "q02993",
+          "pergunta": "Isaac Newton dividiu as cores do arco-íris em sete, acrescentando o laranja e o anil, por analogia com quê?",
+          "resposta": "As sete notas musicais"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país fica este lago?",
+        "resposta": "Austrália"
+      },
+      "existentes": [
+        {
+          "id": "q05312",
+          "pergunta": "Que lago australiano é este?",
+          "resposta": "Lago Hillier"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o fenômeno na foto; a existente trata da analogia de Newton com as notas musicais. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é o lago (Lago Hillier); a nova pergunta o país. Quem soubesse o nome do lago não necessariamente saberia dizer o país, e vice-versa. Na dúvida, nova."
+    }
+  ]
+}

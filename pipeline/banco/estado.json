@@ -596,9 +596,10 @@
     "fig_mitos_religioes_005",
     "fig_idiomas_escritas_001",
     "fig_biomas_ambientes_001",
-    "fig_ilhas_aguas_001"
+    "fig_ilhas_aguas_001",
+    "fig_biomas_ambientes_002"
   ],
-  "maior_id": 14158,
+  "maior_id": 14165,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1159,14 +1160,15 @@
     },
     "biomas_ambientes": {
       "familias": {
-        "o_que_e": 4,
-        "que_tipo": 3
+        "o_que_e": 7,
+        "que_tipo": 6,
+        "onde": 1
       },
       "niveis": {
-        "1": 3,
-        "2": 4
+        "1": 5,
+        "2": 9
       },
-      "registradas": 7
+      "registradas": 14
     },
     "ilhas_aguas": {
       "familias": {

@@ -173602,5 +173602,68 @@
       "pt": 878,
       "en": 12560
     }
+  },
+  {
+    "id": "relampago",
+    "nome": "Relâmpago",
+    "descricao": "Descarga elétrica atmosférica visível como clarão, associada a tempestades.",
+    "variantes": [
+      "Raio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lightning",
+      "https://pt.wikipedia.org/wiki/Raio_%28meteorologia%29"
+    ]
+  },
+  {
+    "id": "haboob",
+    "nome": "Haboob",
+    "descricao": "Intensa tempestade de poeira gerada pelas rajadas descendentes de uma tempestade.",
+    "variantes": [
+      "Habub",
+      "Tempestade de poeira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Haboob",
+      "https://pt.wikipedia.org/wiki/Habub"
+    ]
+  },
+  {
+    "id": "nuvem_prateleira",
+    "nome": "Nuvem prateleira",
+    "descricao": "Nuvem arcus baixa e horizontal que marca a frente de rajadas de uma tempestade.",
+    "variantes": [
+      "Shelf cloud",
+      "Arcus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Arcus_cloud",
+      "https://pt.wikipedia.org/wiki/Arcus_%28nuvem%29"
+    ]
+  },
+  {
+    "id": "moulin_glacial",
+    "nome": "Moulin glacial",
+    "descricao": "Poço vertical na superfície de uma geleira por onde desce a água de degelo.",
+    "variantes": [
+      "Moulin",
+      "Glacier mill"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Moulin_%28geomorphology%29"
+    ]
+  },
+  {
+    "id": "geada",
+    "nome": "Geada",
+    "descricao": "Camada de cristais de gelo formada pela deposição de vapor de água sobre superfícies congeladas.",
+    "variantes": [
+      "Gelo",
+      "Frost"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Frost",
+      "https://pt.wikipedia.org/wiki/Geada"
+    ]
   }
 ]

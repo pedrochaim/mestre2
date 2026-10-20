@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem pista. A resposta traz 'raio' entre parênteses para evitar injustiça, o que é aceitável.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Avança sobre a cidade' não está garantido na foto específica, pois a descrição não menciona cidade. Removi o trecho não verificável.",
+      "reescrita": {
+        "pergunta": "Que fenômeno do tempo é este?",
+        "resposta": "Haboob",
+        "distratores": [
+          "Tornado",
+          "Tromba-d'água",
+          "Nevasca"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico ('fenômeno óptico') que não entrega a resposta. Resposta única e confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta sem pista. Os distratores são tipos de nuvem críveis e nenhum deles também está correto. Os trechos confirmam a nuvem prateleira como tipo de arcus.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Onde a água do degelo mergulha no gelo' descreve a função do moulin e entrega a resposta sem olhar a figura. Removi a pista.",
+      "reescrita": {
+        "pergunta": "Que feição glacial é esta?",
+        "resposta": "Moulin",
+        "distratores": [
+          "Morena",
+          "Sérac",
+          "Circo glacial"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pista 'colapso do terreno com água no fundo' entrega a definição. Sem ela, a resposta fica ambígua entre dolina, sinkhole genérico e cenote, e a pergunta é aberta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O lago fica na Austrália Ocidental. Os distratores são países com lagos rosa famosos e nenhum deles é o local do lago Hillier.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cristais de gelo' é a definição de geada e entrega a resposta. 'Grade' também não está garantido na foto.",
+      "reescrita": {
+        "pergunta": "Que fenômeno do tempo é este?",
+        "resposta": "Geada",
+        "distratores": [
+          "Neve",
+          "Granizo",
+          "Orvalho"
+        ]
+      }
+    }
+  ]
+}
