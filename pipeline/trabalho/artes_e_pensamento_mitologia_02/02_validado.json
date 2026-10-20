@@ -1,0 +1,1208 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Oráculo de Delfos",
+        "descricao": "Santuário de Apolo na Grécia antiga, onde a sacerdotisa Pítia dava profecias.",
+        "variantes": [
+          "Delfos",
+          "Oráculo de Delphi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Delphi",
+          "https://en.wikipedia.org/wiki/Pythia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O oráculo de Delfos, onde a sacerdotisa Pítia falava em nome de Apolo, ficava na encosta de qual monte?",
+      "resposta": "Monte Parnaso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Delphi",
+        "https://en.wikipedia.org/wiki/Pythia"
+      ],
+      "distratores": [
+        "Monte Olimpo",
+        "Monte Ida",
+        "Monte Athos"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Troia",
+        "descricao": "Cidade lendária da Guerra de Troia, identificada com o sítio arqueológico de Hisarlik, na Anatólia.",
+        "variantes": [
+          "Tróia",
+          "Ílion",
+          "Troy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Troy",
+          "https://pt.wikipedia.org/wiki/Troia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os arqueólogos identificam a Troia de Homero com ruínas na colina de Hisarlik, perto do estreito dos Dardanelos. Em que país fica esse sítio?",
+      "resposta": "Turquia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Troy"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Ulisses",
+        "descricao": "Herói grego da Guerra de Troia e protagonista da Odisseia de Homero.",
+        "variantes": [
+          "Odisseu",
+          "Odysseus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Odysseus",
+          "https://pt.wikipedia.org/wiki/Odisseu"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na Odisseia, Ulisses passa anos tentando voltar para casa. De que ilha grega ele era rei?",
+      "resposta": "Ítaca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Odysseus"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "labirinto_de_creta",
+        "nome": "Labirinto de Creta",
+        "descricao": "Construção lendária do rei Minos, em Creta, onde vivia o Minotauro.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Labyrinth"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O mito do labirinto do Minotauro costuma ser associado às ruínas de qual grande palácio da Idade do Bronze?",
+      "resposta": "Cnossos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Knossos",
+        "https://en.wikipedia.org/wiki/Labyrinth"
+      ],
+      "distratores": [
+        "Micenas",
+        "Tirinto",
+        "Pilos"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Velocino de Ouro",
+        "descricao": "Pele de carneiro dourada buscada por Jasão e os argonautas na mitologia grega.",
+        "variantes": [
+          "Tosão de Ouro",
+          "Velo de Ouro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Golden_Fleece"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Jasão e os argonautas navegaram até que reino, na margem leste do Mar Negro, em busca do velocino de ouro?",
+      "resposta": "Cólquida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Golden_Fleece",
+        "https://en.wikipedia.org/wiki/Colchis"
+      ],
+      "distratores": [
+        "Frígia",
+        "Trácia",
+        "Lídia"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Tenochtitlán",
+        "descricao": "Capital dos mexicas, os astecas, fundada segundo o mito onde se viu uma águia sobre um cacto.",
+        "variantes": [
+          "Tenochtitlan",
+          "México-Tenochtitlán"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tenochtitlan"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Segundo o mito asteca, os mexicas fundaram sua capital onde viram uma águia pousada num cacto devorando uma serpente. Que cidade ocupa hoje esse lugar?",
+      "resposta": "Cidade do México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tenochtitlan"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Rei Artur",
+        "descricao": "Rei lendário da Bretanha, líder dos cavaleiros da Távola Redonda.",
+        "variantes": [
+          "King Arthur",
+          "Artur Pendragon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/King_Arthur"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Segundo as lendas britânicas, para que ilha mágica o rei Artur foi levado depois de ser ferido em sua última batalha?",
+      "resposta": "Avalon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avalon",
+        "https://en.wikipedia.org/wiki/King_Arthur"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Gilgamesh",
+        "descricao": "Rei lendário de Uruk, herói da epopeia mesopotâmica que leva seu nome.",
+        "variantes": [
+          "Gilgamés",
+          "Guilgamesh"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gilgamesh"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O herói Gilgamesh foi rei de Uruk, na antiga Mesopotâmia. As ruínas dessa cidade estão no sul de qual país de hoje?",
+      "resposta": "Iraque",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uruk",
+        "https://en.wikipedia.org/wiki/Gilgamesh"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Zeus",
+        "descricao": "Rei dos deuses do Olimpo na mitologia grega, senhor do céu e do raio.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zeus",
+          "https://pt.wikipedia.org/wiki/Zeus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Para escapar do pai, o titã Cronos, que devorava os próprios filhos, o bebê Zeus foi criado escondido numa caverna de que ilha?",
+      "resposta": "Creta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zeus"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Ilíada",
+        "descricao": "Poema épico grego atribuído a Homero, sobre um episódio da Guerra de Troia.",
+        "variantes": [
+          "Iliad"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iliad"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Por volta de que século antes de Cristo foi composta a Ilíada, o poema de Homero sobre a Guerra de Troia?",
+      "resposta": "Século oito a.C.",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iliad",
+        "https://en.wikipedia.org/wiki/Homer"
+      ],
+      "distratores": [
+        "Século doze a.C.",
+        "Século cinco a.C.",
+        "Século dois a.C."
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Saturnália",
+        "descricao": "Festa religiosa da Roma antiga em honra ao deus Saturno.",
+        "variantes": [
+          "Saturnalia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saturnalia"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que mês os romanos celebravam a Saturnália, festa em honra a Saturno com banquetes e troca de presentes?",
+      "resposta": "Dezembro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saturnalia"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Idades do Homem",
+        "descricao": "Mito grego das eras sucessivas da humanidade, descrito por Hesíodo e Ovídio.",
+        "variantes": [
+          "Idades do homem",
+          "Ages of Man"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ages_of_Man"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "No mito grego das idades da humanidade, cada era é pior que a anterior. Que metal dá nome à primeira delas?",
+      "resposta": "Ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ages_of_Man"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Doze Trabalhos de Hércules",
+        "descricao": "Série de tarefas impostas ao herói Hércules, como expiação, pelo rei Euristeu.",
+        "variantes": [
+          "Trabalhos de Héracles",
+          "Labours of Hercules"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Labours_of_Hercules"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Na ordem tradicional dos doze trabalhos de Hércules, qual foi a primeira tarefa do herói?",
+      "resposta": "Leão de Nemeia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Labours_of_Hercules",
+        "https://en.wikipedia.org/wiki/Nemean_lion"
+      ],
+      "distratores": [
+        "Hidra de Lerna",
+        "Captura de Cérbero",
+        "Estábulos de Áugias"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Popol Vuh",
+        "descricao": "Livro sagrado dos maias quichés, da Guatemala, com seus mitos de criação.",
+        "variantes": [
+          "Popol Wuj"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Popol_Vuh"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que século o Popol Vuh, livro sagrado dos maias quichés, foi escrito com o alfabeto latino, depois da conquista espanhola?",
+      "resposta": "Século dezesseis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Popol_Vuh"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Ragnarök",
+        "descricao": "Batalha final e fim do mundo na mitologia nórdica.",
+        "variantes": [
+          "Ragnarok",
+          "Crepúsculo dos Deuses"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ragnar%C3%B6k"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Na mitologia nórdica, o Ragnarök é precedido por três invernos seguidos, sem verão entre eles. Como se chama esse período?",
+      "resposta": "Fimbulvetr",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fimbulwinter",
+        "https://en.wikipedia.org/wiki/Ragnar%C3%B6k"
+      ],
+      "distratores": [
+        "Ginnungagap",
+        "Niflheim",
+        "Muspelheim"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Zodíaco chinês",
+        "descricao": "Ciclo de doze anos associados a animais, cuja ordem é explicada pela lenda da grande corrida.",
+        "variantes": [
+          "Horóscopo chinês"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chinese_zodiac"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda da grande corrida, que animal chegou primeiro e, por isso, abre o ciclo do zodíaco chinês?",
+      "resposta": "Rato",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chinese_zodiac"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Edda em Prosa",
+        "descricao": "Obra islandesa do século treze, atribuída a Snorri Sturluson, que reúne os mitos nórdicos.",
+        "variantes": [
+          "Edda de Snorri",
+          "Edda Menor",
+          "Prose Edda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prose_Edda"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "No século treze, que poeta islandês escreveu a Edda em Prosa, uma das principais fontes sobre os deuses nórdicos?",
+      "resposta": "Snorri Sturluson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prose_Edda",
+        "https://en.wikipedia.org/wiki/Snorri_Sturluson"
+      ],
+      "distratores": [
+        "Saxo Gramático",
+        "Egill Skallagrímsson",
+        "Elias Lönnrot"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Metamorfoses (Ovídio)",
+        "descricao": "Poema narrativo latino de Ovídio que reúne mitos de transformação.",
+        "variantes": [
+          "Metamorphoses",
+          "Metamorfoses"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Metamorphoses"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que poeta romano reuniu mais de duzentos mitos de transformação, como os de Narciso e Eco, num longo poema chamado Metamorfoses?",
+      "resposta": "Ovídio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Metamorphoses"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Teogonia",
+        "descricao": "Poema grego antigo de Hesíodo sobre a origem e a genealogia dos deuses.",
+        "variantes": [
+          "Theogony"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Theogony"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que poeta grego antigo, autor também de Os Trabalhos e os Dias, narrou a origem dos deuses no poema Teogonia?",
+      "resposta": "Hesíodo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Theogony",
+        "https://en.wikipedia.org/wiki/Hesiod"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Eneida",
+        "descricao": "Epopeia latina de Virgílio sobre o troiano Eneias, ancestral lendário dos romanos.",
+        "variantes": [
+          "Aeneid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aeneid"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que poeta romano escreveu a epopeia sobre Eneias, o troiano que fugiu da cidade em chamas e cujos descendentes fundariam Roma?",
+      "resposta": "Virgílio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aeneid"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "id_existente": "minotauro",
+        "nome": "Minotauro",
+        "descricao": "Criatura com corpo de homem e cabeça de touro, presa no labirinto de Creta.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Minotaur"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que herói ateniense entrou no labirinto e matou o Minotauro, criatura com cabeça de touro?",
+      "resposta": "Teseu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Minotaur",
+        "https://en.wikipedia.org/wiki/Theseus"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "id_existente": "aquiles",
+        "nome": "Aquiles",
+        "descricao": "Herói grego da Guerra de Troia, filho da ninfa Tétis e do rei Peleu.",
+        "variantes": [
+          "Achilles"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Achilles"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na tradição grega, que príncipe troiano matou Aquiles com uma flecha guiada pelo deus Apolo?",
+      "resposta": "Páris",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Achilles",
+        "https://en.wikipedia.org/wiki/Paris_(mythology)"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Esfinge de Tebas",
+        "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
+        "variantes": [
+          "Esfinge grega"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sphinx"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na mitologia grega, quem decifrou o enigma da Esfinge de Tebas, levando o monstro a se matar?",
+      "resposta": "Édipo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sphinx",
+        "https://en.wikipedia.org/wiki/Oedipus"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Muralhas de Troia",
+        "descricao": "Muralhas lendárias da cidade de Troia, erguidas segundo o mito por deuses a serviço do rei Laomedonte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Laomedon"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo o mito grego, que dois deuses, castigados por Zeus, serviram ao rei Laomedonte e ergueram as muralhas de Troia?",
+      "resposta": "Poseidon e Apolo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Laomedon"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Atlântida",
+        "descricao": "Ilha lendária que teria afundado no mar, descrita nos diálogos de Platão.",
+        "variantes": [
+          "Atlantis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atlantis"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "O relato mais antigo sobre a ilha perdida de Atlântida está nos diálogos Timeu e Crítias. Que filósofo grego os escreveu?",
+      "resposta": "Platão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atlantis"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Pomo da Discórdia",
+        "descricao": "Maçã de ouro da mitologia grega, destinada à mais bela, que provocou a disputa entre Hera, Atena e Afrodite.",
+        "variantes": [
+          "Maçã da discórdia",
+          "Apple of Discord"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple_of_Discord"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que deusa grega, excluída de um casamento, jogou entre as convidadas o pomo de ouro que acabaria levando à Guerra de Troia?",
+      "resposta": "Éris",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Apple_of_Discord",
+        "https://en.wikipedia.org/wiki/Eris_(mythology)"
+      ],
+      "distratores": [
+        "Hera",
+        "Nêmesis",
+        "Hécate"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Egeu (rei de Atenas)",
+        "descricao": "Rei mítico de Atenas, pai de Teseu, que deu nome ao Mar Egeu.",
+        "variantes": [
+          "Aegeus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aegeus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo o mito, um rei de Atenas se jogou ao mar ao ver velas pretas no navio do filho, que julgou morto. Que mar ganhou o nome desse rei?",
+      "resposta": "Mar Egeu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aegeus",
+        "https://en.wikipedia.org/wiki/Aegean_Sea"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Campos Elísios (mitologia)",
+        "descricao": "Paraíso da mitologia grega reservado às almas dos heróis e dos justos.",
+        "variantes": [
+          "Elísio",
+          "Elysium"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elysium"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que famosa avenida de Paris tem o nome do paraíso grego reservado às almas dos heróis?",
+      "resposta": "Champs-Élysées",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elysium",
+        "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Quetzalcóatl",
+        "descricao": "Divindade mesoamericana cultuada por astecas e outros povos do México.",
+        "variantes": [
+          "Quetzalcoatl"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quetzalcoatl"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do deus mesoamericano Quetzalcóatl, cultuado pelos astecas, costuma ser traduzido de que maneira?",
+      "resposta": "Serpente emplumada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quetzalcoatl"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Aracne",
+        "descricao": "Tecelã da mitologia grega transformada em aranha por Atena.",
+        "variantes": [
+          "Arachne",
+          "Aracné"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Arachne"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A tecelã grega Aracne desafiou Atena e foi transformada em aranha. Que classe de animais, que inclui escorpiões e carrapatos, compartilha a origem do nome dela?",
+      "resposta": "Aracnídeos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Arachne",
+        "https://en.wikipedia.org/wiki/Arachnid"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Ceres (mitologia)",
+        "descricao": "Deusa romana da agricultura e das colheitas, equivalente à grega Deméter.",
+        "variantes": [
+          "Ceres"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ceres_(mythology)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que palavra usada para grãos como trigo, arroz e milho vem do nome da deusa romana da agricultura?",
+      "resposta": "Cereal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ceres_(mythology)",
+        "https://en.wikipedia.org/wiki/Cereal"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Nice (mitologia)",
+        "descricao": "Deusa grega alada que personifica a vitória.",
+        "variantes": [
+          "Nike",
+          "Niké"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nike_(mythology)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que marca esportiva americana tem o nome da deusa grega alada da vitória?",
+      "resposta": "Nike",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nike_(mythology)",
+        "https://en.wikipedia.org/wiki/Nike,_Inc."
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Europa (mitologia)",
+        "descricao": "Princesa fenícia raptada por Zeus disfarçado de touro e levada para Creta.",
+        "variantes": [
+          "Europa, consorte de Zeus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Europa_(consort_of_Zeus)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição grega, que continente deve o nome a uma princesa fenícia raptada por Zeus disfarçado de touro?",
+      "resposta": "Europa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Europa_(consort_of_Zeus)",
+        "https://en.wikipedia.org/wiki/Europe"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Ícaro",
+        "descricao": "Filho de Dédalo que fugiu de Creta voando com asas artificiais e caiu no mar.",
+        "variantes": [
+          "Icarus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Icarus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que Ícaro caiu no mar quando voava com as asas que o pai, Dédalo, construiu para a fuga dos dois?",
+      "resposta": "O Sol derreteu a cera",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Icarus"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Sísifo",
+        "descricao": "Rei de Corinto da mitologia grega condenado a rolar eternamente uma pedra morro acima.",
+        "variantes": [
+          "Sisyphus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sisyphus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na versão mais conhecida do mito, que ousadia fez Sísifo ser condenado a empurrar eternamente uma pedra morro acima?",
+      "resposta": "Enganar a morte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sisyphus"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Balder",
+        "descricao": "Deus nórdico da luz e da beleza, filho de Odin e Frigg, morto por artimanha de Loki.",
+        "variantes": [
+          "Baldr",
+          "Baldur"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Baldr"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Quase tudo no mundo jurou não ferir o deus nórdico Balder, menos uma planta, que Loki usou para matá-lo. Que planta era essa?",
+      "resposta": "Visco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Baldr"
+      ],
+      "distratores": [
+        "Azevinho",
+        "Carvalho",
+        "Teixo"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Orfeu",
+        "descricao": "Músico e poeta da mitologia grega que desceu ao mundo dos mortos para resgatar Eurídice.",
+        "variantes": [
+          "Orpheus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Orpheus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que Orfeu perdeu a amada Eurídice para sempre, quando os dois já estavam saindo do mundo dos mortos?",
+      "resposta": "Olhou para trás",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Orpheus",
+        "https://en.wikipedia.org/wiki/Eurydice"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Castor e Pólux",
+        "descricao": "Irmãos gêmeos da mitologia grega, filhos de Leda, conhecidos como Dióscuros.",
+        "variantes": [
+          "Dióscuros",
+          "Castor and Pollux"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Castor_and_Pollux"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que constelação do zodíaco representa os irmãos Castor e Pólux, filhos de Leda?",
+      "resposta": "Gêmeos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Castor_and_Pollux",
+        "https://en.wikipedia.org/wiki/Gemini_(constellation)"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Eros",
+        "descricao": "Deus grego do amor e do desejo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eros"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que deus romano, sempre com arco e flechas, corresponde ao grego Eros?",
+      "resposta": "Cupido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eros",
+        "https://en.wikipedia.org/wiki/Cupid"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Hermes",
+        "descricao": "Deus grego mensageiro do Olimpo, protetor dos viajantes, dos comerciantes e dos ladrões.",
+        "variantes": [
+          "Mercúrio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hermes"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Além de mensageiro, o grego Hermes tinha uma função em comum com o egípcio Anúbis. Que função era essa?",
+      "resposta": "Guiar as almas dos mortos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Psychopomp",
+        "https://en.wikipedia.org/wiki/Hermes"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Hefesto",
+        "descricao": "Deus grego do fogo, da forja e dos metais, ferreiro dos deuses.",
+        "variantes": [
+          "Vulcano",
+          "Hephaestus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hephaestus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que deusa era casada com Hefesto, o deus ferreiro manco, e o traía com Ares, o deus da guerra?",
+      "resposta": "Afrodite",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hephaestus"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Thor",
+        "descricao": "Deus nórdico do trovão, filho de Odin, que empunha o martelo Mjölnir.",
+        "variantes": [
+          "Thórr",
+          "Tor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thor"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A quinta-feira homenageia Thor em inglês, no nome thursday, e Júpiter em espanhol, no nome jueves. Que fenômeno os dois deuses controlavam?",
+      "resposta": "O trovão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thursday",
+        "https://en.wikipedia.org/wiki/Thor"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Ymir",
+        "descricao": "Gigante primordial da mitologia nórdica, de cujo corpo os deuses fizeram o mundo.",
+        "variantes": [
+          "Ymer",
+          "Aurgelmir"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ymir"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na mitologia nórdica, Odin e os irmãos criaram o mundo com o corpo do gigante Ymir. Que parte dele virou o céu?",
+      "resposta": "O crânio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ymir"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Quimera",
+        "descricao": "Monstro da mitologia grega que cuspia fogo, morto pelo herói Belerofonte.",
+        "variantes": [
+          "Chimera"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chimera_(mythology)"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A Quimera, monstro morto pelo herói Belerofonte, tinha a frente de leão, uma cabeça de cabra no meio e a cauda de que animal?",
+      "resposta": "Serpente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chimera_(mythology)"
+      ],
+      "distratores": [
+        "Escorpião",
+        "Peixe",
+        "Crocodilo"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Trimúrti",
+        "descricao": "Tríade de deuses hindus formada por Brahma, Vishnu e Shiva.",
+        "variantes": [
+          "Trimurti",
+          "Trindade hindu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trimurti"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A trindade hindu, a Trimúrti, reúne Brahma, o criador, Vishnu, o preservador, e que deus destruidor?",
+      "resposta": "Shiva",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trimurti"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Ulisses",
+        "descricao": "Herói grego da Guerra de Troia e protagonista da Odisseia de Homero.",
+        "variantes": [
+          "Odisseu",
+          "Odysseus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Odysseus"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Somando a Guerra de Troia e a longa viagem de volta, quantos anos Ulisses passou longe de casa e da esposa, Penélope?",
+      "resposta": "Vinte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Odysseus",
+        "https://en.wikipedia.org/wiki/Odyssey"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Guerra de Troia",
+        "descricao": "Guerra lendária entre gregos e troianos, narrada na Ilíada e em outros poemas.",
+        "variantes": [
+          "Guerra de Tróia",
+          "Trojan War"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trojan_War"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição grega, por quantos anos os gregos sitiaram Troia antes de entrar na cidade escondidos no cavalo de madeira?",
+      "resposta": "Dez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trojan_War"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Anúbis",
+        "descricao": "Deus egípcio dos mortos, ligado à mumificação e à proteção dos túmulos.",
+        "variantes": [
+          "Anubis",
+          "Anpu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Anubis"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O deus egípcio Anúbis, protetor dos túmulos e ligado à mumificação, era retratado com cabeça de que animal?",
+      "resposta": "Chacal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Anubis"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Atena",
+        "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas.",
+        "variantes": [
+          "Palas Atena",
+          "Minerva",
+          "Athena"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Athena"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que ave, até hoje usada como símbolo de sabedoria, acompanhava a deusa grega Atena?",
+      "resposta": "Coruja",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Owl_of_Athena"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Górgonas",
+        "descricao": "Três irmãs monstruosas da mitologia grega, Esteno, Euríale e Medusa.",
+        "variantes": [
+          "Gorgonas",
+          "Gorgons"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gorgon"
+        ]
+      },
+      "tema": "Artes e Pensamento",
+      "subtema": "Mitologia",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na mitologia grega, as górgonas eram três irmãs com serpentes nos cabelos. Qual delas era a única mortal?",
+      "resposta": "Medusa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gorgon",
+        "https://en.wikipedia.org/wiki/Medusa"
+      ]
+    }
+  ]
+}

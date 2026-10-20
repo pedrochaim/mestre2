@@ -48777,7 +48777,9 @@
     "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
     "variantes": [
       "Pítia",
-      "Delphi Oracle"
+      "Delphi Oracle",
+      "Delfos",
+      "Oráculo de Delphi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Pythia"
@@ -93104,7 +93106,8 @@
     "nome": "Anúbis",
     "descricao": "Deus egípcio da mumificação e protetor dos mortos e das necrópoles",
     "variantes": [
-      "Inpu"
+      "Inpu",
+      "Anpu"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Anubis"
@@ -162853,6 +162856,392 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Wannsee_Conference"
+    ]
+  },
+  {
+    "id": "troia",
+    "nome": "Troia",
+    "descricao": "Cidade lendária da Guerra de Troia, identificada com o sítio arqueológico de Hisarlik, na Anatólia.",
+    "variantes": [
+      "Ílion",
+      "Troy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Troy",
+      "https://pt.wikipedia.org/wiki/Troia"
+    ]
+  },
+  {
+    "id": "ulisses_2",
+    "nome": "Ulisses",
+    "descricao": "Herói grego da Guerra de Troia e protagonista da Odisseia de Homero.",
+    "variantes": [
+      "Odisseu",
+      "Odysseus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Odysseus",
+      "https://pt.wikipedia.org/wiki/Odisseu"
+    ]
+  },
+  {
+    "id": "velocino_de_ouro",
+    "nome": "Velocino de Ouro",
+    "descricao": "Pele de carneiro dourada buscada por Jasão e os argonautas na mitologia grega.",
+    "variantes": [
+      "Tosão de Ouro",
+      "Velo de Ouro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Golden_Fleece"
+    ]
+  },
+  {
+    "id": "rei_artur",
+    "nome": "Rei Artur",
+    "descricao": "Rei lendário da Bretanha, líder dos cavaleiros da Távola Redonda.",
+    "variantes": [
+      "King Arthur",
+      "Artur Pendragon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/King_Arthur"
+    ]
+  },
+  {
+    "id": "zeus",
+    "nome": "Zeus",
+    "descricao": "Rei dos deuses do Olimpo na mitologia grega, senhor do céu e do raio.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zeus",
+      "https://pt.wikipedia.org/wiki/Zeus"
+    ]
+  },
+  {
+    "id": "iliada",
+    "nome": "Ilíada",
+    "descricao": "Poema épico grego atribuído a Homero, sobre um episódio da Guerra de Troia.",
+    "variantes": [
+      "Iliad"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Iliad"
+    ]
+  },
+  {
+    "id": "idades_do_homem",
+    "nome": "Idades do Homem",
+    "descricao": "Mito grego das eras sucessivas da humanidade, descrito por Hesíodo e Ovídio.",
+    "variantes": [
+      "Ages of Man"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ages_of_Man"
+    ]
+  },
+  {
+    "id": "doze_trabalhos_de_hercules",
+    "nome": "Doze Trabalhos de Hércules",
+    "descricao": "Série de tarefas impostas ao herói Hércules, como expiação, pelo rei Euristeu.",
+    "variantes": [
+      "Trabalhos de Héracles",
+      "Labours of Hercules"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Labours_of_Hercules"
+    ]
+  },
+  {
+    "id": "edda_em_prosa",
+    "nome": "Edda em Prosa",
+    "descricao": "Obra islandesa do século treze, atribuída a Snorri Sturluson, que reúne os mitos nórdicos.",
+    "variantes": [
+      "Edda de Snorri",
+      "Edda Menor",
+      "Prose Edda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Prose_Edda"
+    ]
+  },
+  {
+    "id": "metamorfoses_ovidio",
+    "nome": "Metamorfoses (Ovídio)",
+    "descricao": "Poema narrativo latino de Ovídio que reúne mitos de transformação.",
+    "variantes": [
+      "Metamorphoses",
+      "Metamorfoses"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Metamorphoses"
+    ]
+  },
+  {
+    "id": "teogonia",
+    "nome": "Teogonia",
+    "descricao": "Poema grego antigo de Hesíodo sobre a origem e a genealogia dos deuses.",
+    "variantes": [
+      "Theogony"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Theogony"
+    ]
+  },
+  {
+    "id": "esfinge_de_tebas",
+    "nome": "Esfinge de Tebas",
+    "descricao": "Monstro da mitologia grega com corpo de leão e cabeça de mulher que propunha um enigma aos viajantes de Tebas.",
+    "variantes": [
+      "Esfinge grega"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sphinx"
+    ]
+  },
+  {
+    "id": "muralhas_de_troia",
+    "nome": "Muralhas de Troia",
+    "descricao": "Muralhas lendárias da cidade de Troia, erguidas segundo o mito por deuses a serviço do rei Laomedonte.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Laomedon"
+    ]
+  },
+  {
+    "id": "pomo_da_discordia_2",
+    "nome": "Pomo da Discórdia",
+    "descricao": "Maçã de ouro da mitologia grega, destinada à mais bela, que provocou a disputa entre Hera, Atena e Afrodite.",
+    "variantes": [
+      "Maçã da discórdia",
+      "Apple of Discord"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Apple_of_Discord"
+    ]
+  },
+  {
+    "id": "egeu_rei_de_atenas",
+    "nome": "Egeu (rei de Atenas)",
+    "descricao": "Rei mítico de Atenas, pai de Teseu, que deu nome ao Mar Egeu.",
+    "variantes": [
+      "Aegeus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aegeus"
+    ]
+  },
+  {
+    "id": "campos_elisios_mitologia",
+    "nome": "Campos Elísios (mitologia)",
+    "descricao": "Paraíso da mitologia grega reservado às almas dos heróis e dos justos.",
+    "variantes": [
+      "Elísio",
+      "Elysium"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elysium"
+    ]
+  },
+  {
+    "id": "aracne",
+    "nome": "Aracne",
+    "descricao": "Tecelã da mitologia grega transformada em aranha por Atena.",
+    "variantes": [
+      "Arachne"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Arachne"
+    ]
+  },
+  {
+    "id": "ceres_mitologia",
+    "nome": "Ceres (mitologia)",
+    "descricao": "Deusa romana da agricultura e das colheitas, equivalente à grega Deméter.",
+    "variantes": [
+      "Ceres"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ceres_(mythology)"
+    ]
+  },
+  {
+    "id": "nice_mitologia",
+    "nome": "Nice (mitologia)",
+    "descricao": "Deusa grega alada que personifica a vitória.",
+    "variantes": [
+      "Nike",
+      "Niké"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nike_(mythology)"
+    ]
+  },
+  {
+    "id": "europa_mitologia",
+    "nome": "Europa (mitologia)",
+    "descricao": "Princesa fenícia raptada por Zeus disfarçado de touro e levada para Creta.",
+    "variantes": [
+      "Europa, consorte de Zeus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Europa_(consort_of_Zeus)"
+    ]
+  },
+  {
+    "id": "icaro",
+    "nome": "Ícaro",
+    "descricao": "Filho de Dédalo que fugiu de Creta voando com asas artificiais e caiu no mar.",
+    "variantes": [
+      "Icarus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Icarus"
+    ]
+  },
+  {
+    "id": "sisifo",
+    "nome": "Sísifo",
+    "descricao": "Rei de Corinto da mitologia grega condenado a rolar eternamente uma pedra morro acima.",
+    "variantes": [
+      "Sisyphus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sisyphus"
+    ]
+  },
+  {
+    "id": "balder",
+    "nome": "Balder",
+    "descricao": "Deus nórdico da luz e da beleza, filho de Odin e Frigg, morto por artimanha de Loki.",
+    "variantes": [
+      "Baldr",
+      "Baldur"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baldr"
+    ]
+  },
+  {
+    "id": "orfeu",
+    "nome": "Orfeu",
+    "descricao": "Músico e poeta da mitologia grega que desceu ao mundo dos mortos para resgatar Eurídice.",
+    "variantes": [
+      "Orpheus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Orpheus"
+    ]
+  },
+  {
+    "id": "castor_e_polux",
+    "nome": "Castor e Pólux",
+    "descricao": "Irmãos gêmeos da mitologia grega, filhos de Leda, conhecidos como Dióscuros.",
+    "variantes": [
+      "Dióscuros",
+      "Castor and Pollux"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Castor_and_Pollux"
+    ]
+  },
+  {
+    "id": "eros",
+    "nome": "Eros",
+    "descricao": "Deus grego do amor e do desejo.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eros"
+    ]
+  },
+  {
+    "id": "hermes_2",
+    "nome": "Hermes",
+    "descricao": "Deus grego mensageiro do Olimpo, protetor dos viajantes, dos comerciantes e dos ladrões.",
+    "variantes": [
+      "Mercúrio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hermes"
+    ]
+  },
+  {
+    "id": "hefesto",
+    "nome": "Hefesto",
+    "descricao": "Deus grego do fogo, da forja e dos metais, ferreiro dos deuses.",
+    "variantes": [
+      "Vulcano",
+      "Hephaestus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hephaestus"
+    ]
+  },
+  {
+    "id": "thor",
+    "nome": "Thor",
+    "descricao": "Deus nórdico do trovão, filho de Odin, que empunha o martelo Mjölnir.",
+    "variantes": [
+      "Thórr",
+      "Tor"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Thor"
+    ]
+  },
+  {
+    "id": "ymir",
+    "nome": "Ymir",
+    "descricao": "Gigante primordial da mitologia nórdica, de cujo corpo os deuses fizeram o mundo.",
+    "variantes": [
+      "Ymer",
+      "Aurgelmir"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ymir"
+    ]
+  },
+  {
+    "id": "quimera",
+    "nome": "Quimera",
+    "descricao": "Monstro da mitologia grega que cuspia fogo, morto pelo herói Belerofonte.",
+    "variantes": [
+      "Chimera"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chimera_(mythology)"
+    ]
+  },
+  {
+    "id": "guerra_de_troia",
+    "nome": "Guerra de Troia",
+    "descricao": "Guerra lendária entre gregos e troianos, narrada na Ilíada e em outros poemas.",
+    "variantes": [
+      "Trojan War"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trojan_War"
+    ]
+  },
+  {
+    "id": "atena",
+    "nome": "Atena",
+    "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas.",
+    "variantes": [
+      "Palas Atena",
+      "Minerva",
+      "Athena"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Athena"
+    ]
+  },
+  {
+    "id": "gorgonas",
+    "nome": "Górgonas",
+    "descricao": "Três irmãs monstruosas da mitologia grega, Esteno, Euríale e Medusa.",
+    "variantes": [
+      "Gorgons"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gorgon"
     ]
   }
 ]
