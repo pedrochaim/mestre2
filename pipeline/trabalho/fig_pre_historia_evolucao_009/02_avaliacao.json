@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Machado de cabo, imagem limpa e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ferramenta é esta, com lâmina presa a um cabo?",
+      "resposta": "Machado",
+      "destino": 1,
+      "ancora": {
+        "nome": "Machado",
+        "descricao": "Ferramenta de lâmina afiada presa a um cabo, usada para cortar madeira e como arma.",
+        "variantes": [
+          "Axe"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Cabanas num descampado à beira de um lago; nada permite reconhecer Koobi Fora."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Crânio com grandes reconstituições escuras; não é reconhecível como Peștera cu Oase e pode ser confundido com outros crânios."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Círculo de megálitos claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de monumento pré-histórico de pedras eretas é este?",
+      "resposta": "Círculo de pedras",
+      "distratores": [
+        "Dólmen",
+        "Menir isolado",
+        "Cairn funerário"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Círculo de pedras",
+        "descricao": "Anel de pedras eretas megalíticas, típico do Neolítico tardio e da Idade do Bronze inicial na Europa.",
+        "variantes": [
+          "Stone circle",
+          "Cromlech"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estatueta de mármore do harpista cicládico, reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que arquipélago do mar Egeu surgiu a cultura que esculpiu esta figura de mármore?",
+      "resposta": "Cíclades",
+      "distratores": [
+        "Dodecaneso",
+        "Espórades",
+        "Ilhas Jônicas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Arte cicládica",
+        "descricao": "Arte da cultura das ilhas Cíclades, no Egeu, de cerca de 3300 a 1100 a.C., famosa pelas estatuetas de mármore.",
+        "variantes": [
+          "Cycladic art",
+          "Harpista cicládico"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Calota craniana vista por trás, sem traços que permitam reconhecer a Criança de Mojokerto."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Diagrama em traço com letra H de legenda; roda moderna de raios, sem relação clara com a pré-história."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Bandeiras e fachada mostram o texto 'Neanderthal Museum' e 'Eingang', o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato sem contexto, impossível reconhecer a pessoa pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Sítio de escavação com estratos e equipe ao fundo, sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que trabalho científico está sendo feito neste sítio, com camadas de terra expostas?",
+      "resposta": "Escavação arqueológica",
+      "destino": 1,
+      "ancora": {
+        "nome": "Escavação arqueológica",
+        "descricao": "Exposição, processamento e registro de vestígios arqueológicos em um sítio.",
+        "variantes": [
+          "Escavação",
+          "Archaeological excavation"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano e propulsor pouco visível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Crânio bem visível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país foi encontrado este crânio de humano arcaico do Pleistoceno Médio?",
+      "resposta": "China",
+      "distratores": [
+        "Indonésia",
+        "Índia",
+        "Etiópia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Homem de Dali",
+        "descricao": "Crânio fóssil quase completo de humano arcaico do Pleistoceno Médio, achado em 1978 em Dali, na China.",
+        "variantes": [
+          "Dali man",
+          "Dali Man"
+        ]
+      }
+    }
+  ]
+}

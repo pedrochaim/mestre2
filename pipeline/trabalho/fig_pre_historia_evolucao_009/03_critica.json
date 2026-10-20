@@ -1,0 +1,53 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define a ferramenta (lâmina presa a um cabo), o que entrega a resposta pelo teste da imagem coberta. Além disso, a descrição também serve para enxada, faca e outras ferramentas.",
+      "reescrita": {
+        "pergunta": "Que ferramenta é esta?",
+        "resposta": "Machado"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'pedras', palavra que faz parte da resposta 'Círculo de pedras', o que vaza. A época e a região ajudam sem entregar.",
+      "reescrita": {
+        "pergunta": "Que tipo de monumento megalítico europeu, do Neolítico tardio, é este?",
+        "resposta": "Círculo de pedras",
+        "distratores": [
+          "Dólmen",
+          "Menir isolado",
+          "Cairn funerário"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos: a cultura cicládica floresceu nas ilhas do Egeu. O enunciado não nomeia a resposta, e os distratores são arquipélagos do Egeu ou próximos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Trabalho científico' em um sítio com 'camadas de terra expostas' descreve a escavação e entrega a resposta sem a figura.",
+      "reescrita": {
+        "pergunta": "Que trabalho de campo está sendo feito neste local?",
+        "resposta": "Escavação arqueológica"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma o crânio de Dali, do Pleistoceno Médio, achado em Shaanxi, China. O enunciado não vaza a resposta, e os distratores são países críveis em que nenhum fóssil de Dali foi achado.",
+      "reescrita": null
+    }
+  ]
+}

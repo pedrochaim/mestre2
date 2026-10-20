@@ -1,0 +1,312 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Machado",
+        "descricao": "Ferramenta de lâmina afiada presa a um cabo, usada para cortar madeira e como arma.",
+        "variantes": [
+          "Axe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "axe_music",
+          "nome": "Axé music",
+          "descricao": "Gênero musical surgido em Salvador nos anos 1980, ligado ao carnaval baiano.",
+          "variantes": [
+            "Axé"
+          ]
+        },
+        {
+          "id": "axel",
+          "nome": "Axel",
+          "descricao": "Salto da patinação artística batizado em homenagem ao norueguês Axel Paulsen.",
+          "variantes": [
+            "Axel jump",
+            "Axel Paulsen"
+          ]
+        },
+        {
+          "id": "axew",
+          "nome": "Axew",
+          "descricao": "Pokémon de tipo Dragão, número 610 da Pokédex Nacional, da quinta geração, que evolui para Fraxure.",
+          "variantes": []
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Círculo de pedras",
+        "descricao": "Anel de pedras eretas megalíticas, típico do Neolítico tardio e da Idade do Bronze inicial na Europa.",
+        "variantes": [
+          "Stone circle",
+          "Cromlech"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_de_pescara",
+          "nome": "Circuito de Pescara",
+          "descricao": "Circuito de estradas públicas em Pescara, na Itália, que recebeu o Grande Prêmio de Pescara de Fórmula 1 em 1957.",
+          "variantes": [
+            "Pescara Circuit",
+            "Circuito di Pescara"
+          ]
+        },
+        {
+          "id": "avebury",
+          "nome": "Avebury",
+          "descricao": "Vila inglesa em Wiltshire construída em parte dentro de um grande círculo de pedras neolítico.",
+          "variantes": [
+            "Círculo de Avebury"
+          ]
+        },
+        {
+          "id": "circuito_de_la_sarthe",
+          "nome": "Circuito de la Sarthe",
+          "descricao": "Circuito de Le Mans, na França, que mistura estradas públicas e trechos permanentes e recebe as 24 Horas de Le Mans.",
+          "variantes": [
+            "Circuit de la Sarthe",
+            "Circuito de Le Mans"
+          ]
+        },
+        {
+          "id": "ciclismo_de_estrada",
+          "nome": "Ciclismo de estrada",
+          "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+          "variantes": [
+            "Ciclismo",
+            "Ciclismo de rua",
+            "Road bicycle racing"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda",
+            "Capoeira circle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Arte cicládica",
+        "descricao": "Arte da cultura das ilhas Cíclades, no Egeu, de cerca de 3300 a 1100 a.C., famosa pelas estatuetas de mármore.",
+        "variantes": [
+          "Cycladic art",
+          "Harpista cicládico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cyclizar",
+          "nome": "Cyclizar",
+          "descricao": "Pokémon dos tipos Dragão e Normal, número 967 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "coruja_buraqueira",
+          "nome": "Coruja-buraqueira",
+          "descricao": "Pequena coruja de pernas longas, ativa de dia e de hábitos terrestres, que vive em campos abertos das Américas.",
+          "variantes": [
+            "Athene cunicularia",
+            "Burrowing owl"
+          ]
+        },
+        {
+          "id": "gato_tricolor",
+          "nome": "Gato tricolor",
+          "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+          "variantes": [
+            "Gato cálico",
+            "Calico cat"
+          ]
+        },
+        {
+          "id": "circulacao_sanguinea",
+          "nome": "Circulação sanguínea",
+          "descricao": "Movimento contínuo do sangue pelo corpo, bombeado pelo coração.",
+          "variantes": [
+            "Circulação do sangue",
+            "Sistema circulatório"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Escavação arqueológica",
+        "descricao": "Exposição, processamento e registro de vestígios arqueológicos em um sítio.",
+        "variantes": [
+          "Escavação",
+          "Archaeological excavation"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavaquinho",
+          "nome": "Cavaquinho",
+          "descricao": "Pequeno instrumento de cordas de origem portuguesa, essencial no samba e no choro.",
+          "variantes": [
+            "Cavaco"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "terra_preta_de_indio",
+          "nome": "Terra preta de índio",
+          "descricao": "Solo escuro e muito fértil encontrado em vários pontos da Amazônia, formado por ocupações indígenas antigas.",
+          "variantes": [
+            "Terra preta",
+            "Terra preta arqueológica"
+          ]
+        },
+        {
+          "id": "savana",
+          "nome": "Savana",
+          "descricao": "Bioma de vegetação rasteira com árvores esparsas, típico de regiões tropicais com estação seca",
+          "variantes": [
+            "Savanna"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Homem de Dali",
+        "descricao": "Crânio fóssil quase completo de humano arcaico do Pleistoceno Médio, achado em 1978 em Dali, na China.",
+        "variantes": [
+          "Dali man",
+          "Dali Man"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dalai_lama",
+          "nome": "Dalai-lama",
+          "descricao": "Título do principal líder espiritual da escola Gelug do budismo tibetano",
+          "variantes": []
+        },
+        {
+          "id": "homem_de_java",
+          "nome": "Homem de Java",
+          "descricao": "Fósseis de Homo erectus encontrados na ilha de Java, Indonésia, a partir de 1891.",
+          "variantes": [
+            "Java Man",
+            "Pithecanthropus erectus",
+            "Trinil 2"
+          ]
+        },
+        {
+          "id": "homem_de_gelo",
+          "nome": "Homem de Gelo",
+          "descricao": "Bobby Drake, mutante da Marvel que controla o gelo, um dos cinco X-Men originais",
+          "variantes": [
+            "Iceman",
+            "Bobby Drake"
+          ]
+        },
+        {
+          "id": "homem_de_neandertal",
+          "nome": "Homem de Neandertal",
+          "descricao": "Espécie humana extinta que viveu na Europa e na Ásia Ocidental até cerca de 40 mil anos atrás.",
+          "variantes": [
+            "Homo neanderthalensis",
+            "Neandertal",
+            "Neanderthal"
+          ]
+        },
+        {
+          "id": "homem_leao_de_hohlenstein_stadel",
+          "nome": "Homem-Leão de Hohlenstein-Stadel",
+          "descricao": "Estatueta paleolítica com corpo humano e cabeça de leão, achada numa caverna alemã.",
+          "variantes": [
+            "Löwenmensch",
+            "Homem-Leão",
+            "Lion-man"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Machado (ferramenta) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Círculo de pedras é um tipo de monumento; Avebury é uma vila/sítio específico, entidade diferente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Arte cicládica não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Escavação arqueológica é um conceito distinto das candidatas; terra preta é solo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Homem de Dali é um fóssil específico, diferente das outras candidatas."
+    }
+  ]
+}
