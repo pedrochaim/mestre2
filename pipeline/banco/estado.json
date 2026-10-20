@@ -595,9 +595,10 @@
     "fig_filosofos_palcos_003",
     "fig_mitos_religioes_005",
     "fig_idiomas_escritas_001",
-    "fig_biomas_ambientes_001"
+    "fig_biomas_ambientes_001",
+    "fig_ilhas_aguas_001"
   ],
-  "maior_id": 14152,
+  "maior_id": 14158,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1166,6 +1167,19 @@
         "2": 4
       },
       "registradas": 7
+    },
+    "ilhas_aguas": {
+      "familias": {
+        "o_que_e": 3,
+        "onde": 2,
+        "com_o_que_se_liga": 1
+      },
+      "niveis": {
+        "1": 1,
+        "2": 4,
+        "3": 1
+      },
+      "registradas": 6
     }
   },
   "rendimento": {

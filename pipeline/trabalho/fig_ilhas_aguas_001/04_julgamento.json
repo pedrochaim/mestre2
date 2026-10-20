@@ -1,0 +1,385 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palm Jumeirah",
+        "descricao": "Arquipélago artificial em forma de palmeira na costa de Dubai, nos Emirados Árabes Unidos.",
+        "variantes": [
+          "Palmeira Jumeirah",
+          "Palm Islands",
+          "Ilhas Palmeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "akala",
+          "nome": "Akala",
+          "descricao": "Segunda ilha da região de Alola, nos jogos Pokémon Sun e Moon, comandada pela kahuna Olivia.",
+          "variantes": [
+            "Ilha Akala",
+            "Akala Island"
+          ]
+        },
+        {
+          "id": "ilhas_seafoam",
+          "nome": "Ilhas Seafoam",
+          "descricao": "Arquipélago de cavernas geladas ao sul de Kanto, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Seafoam Islands"
+          ]
+        },
+        {
+          "id": "ilhas_do_canal",
+          "nome": "Ilhas do Canal",
+          "descricao": "Arquipélago no canal da Mancha, perto da costa da Normandia, formado por dependências da Coroa britânica como Jersey e Guernsey.",
+          "variantes": [
+            "Ilhas Anglo-Normandas",
+            "Channel Islands"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão",
+            "Palestra Itália"
+          ]
+        },
+        {
+          "id": "megaloceros",
+          "nome": "Megaloceros",
+          "descricao": "Gênero extinto de cervo gigante da Eurásia no Pleistoceno, de galhadas enormes, conhecido em inglês como Irish elk.",
+          "variantes": [
+            "Alce-irlandês",
+            "Cervo-gigante",
+            "Megaloceros giganteus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lago Bled",
+        "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilhota que abriga uma igreja.",
+        "variantes": [
+          "Lake Bled",
+          "Blejsko jezero"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_inle",
+          "nome": "Lago Inle",
+          "descricao": "Lago de água doce no estado de Shan, em Mianmar, famoso por suas aldeias sobre palafitas e jardins flutuantes.",
+          "variantes": [
+            "Inle Lake",
+            "Inlay"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "lago_ladoga",
+          "nome": "Lago Ladoga",
+          "descricao": "Grande lago de água doce no noroeste da Rússia, perto de São Petersburgo.",
+          "variantes": [
+            "Lake Ladoga",
+            "Ladoga"
+          ]
+        },
+        {
+          "id": "lago_ness",
+          "nome": "Lago Ness",
+          "descricao": "Grande lago de água doce nas Terras Altas da Escócia, famoso pela lenda do monstro de Nessie.",
+          "variantes": [
+            "Loch Ness"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Laguna Colorada",
+        "descricao": "Lago salgado raso e avermelhado do altiplano boliviano, na Reserva Nacional Eduardo Avaroa.",
+        "variantes": [
+          "Laguna Roja",
+          "Red Lagoon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagoa_azul",
+          "nome": "Lagoa Azul",
+          "descricao": "Spa geotérmico de águas quentes e leitosas na península de Reykjanes, na Islândia.",
+          "variantes": [
+            "Blue Lagoon",
+            "Bláa lónið"
+          ]
+        },
+        {
+          "id": "gelo",
+          "nome": "Gelo",
+          "descricao": "Água no estado sólido, menos densa que a água líquida.",
+          "variantes": [
+            "Ice",
+            "Água congelada"
+          ]
+        },
+        {
+          "id": "manfred_von_richthofen",
+          "nome": "Manfred von Richthofen",
+          "descricao": "Aviador de caça alemão da Primeira Guerra Mundial, o ás com mais vitórias aéreas creditadas no conflito, morto em combate em 1918.",
+          "variantes": [
+            "Barão Vermelho",
+            "Red Baron",
+            "Der Rote Baron"
+          ]
+        },
+        {
+          "id": "canguru_vermelho",
+          "nome": "Canguru-vermelho",
+          "descricao": "Maior dos cangurus e maior marsupial vivo, da Austrália continental (Osphranter rufus).",
+          "variantes": [
+            "Osphranter rufus",
+            "Macropus rufus",
+            "Red kangaroo"
+          ]
+        },
+        {
+          "id": "tv_globo",
+          "nome": "TV Globo",
+          "descricao": "Emissora de televisão brasileira fundada por Roberto Marinho, inaugurada no Rio de Janeiro e cabeça da Rede Globo.",
+          "variantes": [
+            "Rede Globo",
+            "Globo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mykonos",
+        "descricao": "Ilha grega das Cíclades, conhecida pelas casas brancas e pela vida noturna.",
+        "variantes": [
+          "Míconos",
+          "Mikonos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agojie",
+          "nome": "Agojie",
+          "descricao": "Regimento militar de elite do Reino do Daomé, na atual Benim, ativo do século dezessete ao dezenove.",
+          "variantes": [
+            "Amazonas do Daomé",
+            "Dahomey Amazons",
+            "Mino"
+          ]
+        },
+        {
+          "id": "domino",
+          "nome": "Dominó",
+          "descricao": "Jogo de peças retangulares divididas em duas metades marcadas com pontos de zero a seis.",
+          "variantes": [
+            "Dominós"
+          ]
+        },
+        {
+          "id": "moncao",
+          "nome": "Monção",
+          "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+          "variantes": [
+            "Monções",
+            "Monsoon"
+          ]
+        },
+        {
+          "id": "kotinos",
+          "nome": "Kotinos",
+          "descricao": "Coroa vegetal dada como prêmio aos vencedores dos Jogos de Olímpia na Grécia Antiga.",
+          "variantes": [
+            "Coroa de oliveira olímpica"
+          ]
+        },
+        {
+          "id": "macondo",
+          "nome": "Macondo",
+          "descricao": "Cidade fictícia criada por Gabriel García Márquez, cenário de Cem Anos de Solidão.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Heligolândia",
+        "descricao": "Pequeno arquipélago alemão no Mar do Norte, de falésias vermelhas, antes dinamarquês e britânico.",
+        "variantes": [
+          "Heligoland",
+          "Helgoland"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "heliconia",
+          "nome": "Helicônia",
+          "descricao": "Planta tropical do gênero Heliconia, de brácteas coloridas e pontiagudas dispostas em fileira.",
+          "variantes": [
+            "Bananeira-do-mato",
+            "Falsa-ave-do-paraíso"
+          ]
+        },
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "shelgon",
+          "nome": "Shelgon",
+          "descricao": "Pokémon do tipo Dragão, número 372 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "inglaterra",
+          "nome": "Inglaterra",
+          "descricao": "Nação que ocupa a maior parte do sul da ilha da Grã-Bretanha, parte do Reino Unido.",
+          "variantes": [
+            "England"
+          ]
+        },
+        {
+          "id": "corphish",
+          "nome": "Corphish",
+          "descricao": "Pokémon lagostim do tipo Água, número 341 da Pokédex Nacional, da terceira geração.",
+          "variantes": [
+            "Heigani"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rio Tibre",
+        "descricao": "Rio da Itália central que atravessa Roma, aqui com o Castelo e a Ponte Sant'Angelo.",
+        "variantes": [
+          "Tibre",
+          "Tevere",
+          "Tiber"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tiberio",
+          "nome": "Tibério",
+          "descricao": "Segundo imperador romano, que governou de 14 a 37, sucessor de Augusto.",
+          "variantes": [
+            "Tiberius",
+            "Tibério César Augusto"
+          ]
+        },
+        {
+          "id": "tigre",
+          "nome": "Tigre",
+          "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+          "variantes": [
+            "Panthera tigris"
+          ]
+        },
+        {
+          "id": "trufa",
+          "nome": "Trufa",
+          "descricao": "Corpo de frutificação subterrâneo de fungos do gênero Tuber, muito valorizado na culinária",
+          "variantes": [
+            "Tuber",
+            "truffle",
+            "túbera",
+            "Trufa (fungo)"
+          ]
+        },
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "rio_congo",
+          "nome": "Rio Congo",
+          "descricao": "Grande rio da África Central que deságua no oceano Atlântico, entre Angola e a República Democrática do Congo.",
+          "variantes": [
+            "Congo",
+            "Rio Zaire",
+            "Congo River"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Palm Jumeirah."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Lago Bled não está entre as candidatas, que são outros lagos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Laguna Colorada boliviana."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Mykonos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Heligolândia."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o rio Tibre."
+    }
+  ]
+}

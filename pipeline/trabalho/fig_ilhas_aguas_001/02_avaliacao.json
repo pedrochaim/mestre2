@@ -1,0 +1,195 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com a forma de palmeira, inconfundível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquipélago artificial é este, visto do espaço?",
+      "resposta": "Palm Jumeirah",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Palm Jumeirah",
+        "descricao": "Arquipélago artificial em forma de palmeira na costa de Dubai, nos Emirados Árabes Unidos.",
+        "variantes": [
+          "Palmeira Jumeirah",
+          "Palm Islands",
+          "Ilhas Palmeira"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do lago com a ilha e a igreja no centro e o castelo na margem; reconhecível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este lago alpino, com uma ilhota e uma igreja no centro?",
+      "resposta": "Eslovênia",
+      "distratores": [
+        "Áustria",
+        "Croácia",
+        "Suíça"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Bled",
+        "descricao": "Lago glacial dos Alpes Julianos, no noroeste da Eslovênia, com uma ilhota que abriga uma igreja.",
+        "variantes": [
+          "Lake Bled",
+          "Blejsko jezero"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto aérea de pântano e vegetação sem traço distintivo; poderia ser outra área alagada, então não é reconhecível nem tem resposta única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de marina com palmeiras e barcos, sem traço que permita reconhecer Ilhabela; poderia ser qualquer baía do litoral."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista clássica do Grand Canyon com o rio no fundo; reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rio escavou este cânion famoso do sudoeste dos Estados Unidos?",
+      "resposta": "Rio Colorado",
+      "distratores": [
+        "Rio Grande",
+        "Rio Columbia",
+        "Rio Missouri"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rio Colorado",
+        "descricao": "Rio do sudoeste dos Estados Unidos e norte do México que atravessa o Grand Canyon.",
+        "variantes": [
+          "Colorado River",
+          "Río Colorado"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Lago raso de águas vermelhas e ilhas brancas de bórax no altiplano, bem característico; panorama legível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta laguna de águas avermelhadas e ilhas brancas, no altiplano andino?",
+      "resposta": "Bolívia",
+      "distratores": [
+        "Chile",
+        "Peru",
+        "Argentina"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Laguna Colorada",
+        "descricao": "Lago salgado raso e avermelhado do altiplano boliviano, na Reserva Nacional Eduardo Avaroa.",
+        "variantes": [
+          "Laguna Roja",
+          "Red Lagoon"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto subaquática de recife genérico; nada permite reconhecer o Mar do Caribe, e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea da Pequena Veneza de Mykonos, com casas brancas à beira-mar; reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha grega é esta, com casas brancas à beira da água?",
+      "resposta": "Mykonos",
+      "distratores": [
+        "Santorini",
+        "Naxos",
+        "Paros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mykonos",
+        "descricao": "Ilha grega das Cíclades, conhecida pelas casas brancas e pela vida noturna.",
+        "variantes": [
+          "Míconos",
+          "Mikonos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Falésias vermelhas e a rocha Lange Anna, características de Heligoland; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta ilha rochosa de falésias vermelhas, no Mar do Norte, foi britânica até 1890. Para que país passou?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "Dinamarca",
+        "Países Baixos",
+        "Noruega"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Heligolândia",
+        "descricao": "Pequeno arquipélago alemão no Mar do Norte, de falésias vermelhas, antes dinamarquês e britânico.",
+        "variantes": [
+          "Heligoland",
+          "Helgoland"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Praia com morro verde genérica; não é reconhecível como Ilha do Mel e poderia ser qualquer praia do litoral sul."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rio com a Ponte Sant'Angelo e o Castelo Sant'Angelo ao lado; reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rio é este, com um castelo circular na margem e uma ponte de arcos de pedra?",
+      "resposta": "Rio Tibre",
+      "distratores": [
+        "Rio Arno",
+        "Rio Pó",
+        "Rio Sena"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rio Tibre",
+        "descricao": "Rio da Itália central que atravessa Roma, aqui com o Castelo e a Ponte Sant'Angelo.",
+        "variantes": [
+          "Tibre",
+          "Tevere",
+          "Tiber"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista de montanhas e lago a distância, sem o povoado de Hallstatt em destaque; não é reconhecível e poderia ser outro lago alpino."
+    }
+  ]
+}

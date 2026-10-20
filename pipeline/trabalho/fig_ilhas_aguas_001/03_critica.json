@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a entidade; 'arquipélago artificial' não identifica sozinho (há outros, como Palm Jebel Ali). Fato sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'ilhota e igreja no centro' descreve o Lago Bled e permite responder sem a figura. Retirada a pista, mantendo apenas 'lago alpino'.",
+      "reescrita": {
+        "pergunta": "Em que país fica este lago alpino?",
+        "resposta": "Eslovênia",
+        "distratores": [
+          "Áustria",
+          "Croácia",
+          "Suíça"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Cânion famoso do sudoeste dos Estados Unidos' entrega o Grand Canyon e, com ele, o Colorado, então a figura vira enfeite. O Rio Grande também escavou cânions na região, o que enfraquece o distrator. Não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Águas avermelhadas e ilhas brancas' descreve a Laguna Colorada e entrega a resposta sem a imagem. Retiradas essas pistas.",
+      "reescrita": {
+        "pergunta": "Em que país fica esta laguna salgada do altiplano andino?",
+        "resposta": "Bolívia",
+        "distratores": [
+          "Chile",
+          "Peru",
+          "Argentina"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'casas brancas' é comum às Cíclades e não entrega a ilha; o reconhecimento depende da figura. Distratores são ilhas gregas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Em nível 3, 'rochosa, falésias vermelhas, Mar do Norte' identifica a ilha sem a figura. Retiradas essas pistas, o fato (britânica de 1807 a 1890, depois Império Alemão) segue sustentado pelo trecho.",
+      "reescrita": {
+        "pergunta": "Esta ilha foi britânica até 1890. Para que país passou nesse ano?",
+        "resposta": "Alemanha",
+        "distratores": [
+          "Dinamarca",
+          "Países Baixos",
+          "Noruega"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Castelo circular na margem e ponte de arcos' entrega o Castelo Sant'Angelo e, portanto, o Tibre. O distrator Rio Sena não é italiano, ao contrário da resposta. Troquei a pista por 'italiano' e o Sena pelo Ádige.",
+      "reescrita": {
+        "pergunta": "Que rio italiano é este?",
+        "resposta": "Rio Tibre",
+        "distratores": [
+          "Rio Arno",
+          "Rio Pó",
+          "Rio Ádige"
+        ]
+      }
+    }
+  ]
+}
