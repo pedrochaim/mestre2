@@ -1,0 +1,445 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mamute-lanoso",
+        "descricao": "Espécie extinta de mamute coberta de pelos longos, Mammuthus primigenius, que viveu do Pleistoceno Médio até o Holoceno.",
+        "variantes": [
+          "Mamute",
+          "Mammuthus primigenius",
+          "Mamute-peludo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamute_lanoso",
+          "nome": "Mamute-lanoso",
+          "descricao": "Espécie extinta de mamute coberto de pelos que viveu nas regiões frias da Eurásia e da América do Norte.",
+          "variantes": [
+            "Mammuthus primigenius",
+            "Woolly mammoth",
+            "Mamute"
+          ]
+        },
+        {
+          "id": "mastodonte",
+          "nome": "Mastodonte",
+          "descricao": "Gênero extinto de proboscídeo parente dos elefantes, que viveu na América do Norte até o fim da última era do gelo.",
+          "variantes": [
+            "Mammut",
+            "Mastodon"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Portão dos Leões de Micenas",
+        "descricao": "Entrada monumental da cidadela micênica de Micenas, na Grécia, encimada por um relevo de duas leoas.",
+        "variantes": [
+          "Micenas",
+          "Porta dos Leões",
+          "Lion Gate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porta_dos_leoes_de_micenas",
+          "nome": "Porta dos Leões de Micenas",
+          "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+          "variantes": [
+            "Portão dos Leões",
+            "Lion Gate",
+            "Porta dos Leões"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis",
+            "Bolo de Reis francês"
+          ]
+        },
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        },
+        {
+          "id": "puerta_del_sol",
+          "nome": "Puerta del Sol",
+          "descricao": "Praça central de Madri, na Espanha, com o relógio cujas badaladas marcam a virada do ano no país.",
+          "variantes": [
+            "Porta do Sol"
+          ]
+        },
+        {
+          "id": "cloud_gate",
+          "nome": "Cloud Gate",
+          "descricao": "Escultura de aço inoxidável espelhado de Anish Kapoor, no Millennium Park, em Chicago.",
+          "variantes": [
+            "The Bean",
+            "O Feijão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Deusa das Serpentes",
+        "descricao": "Estatueta minoica de faiança, de cerca de 1600 a.C., achada no palácio de Cnossos, em Creta, de uma mulher segurando serpentes.",
+        "variantes": [
+          "Deusa das serpentes de Cnossos",
+          "Snake Goddess",
+          "Sacerdotisa das Serpentes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        },
+        {
+          "id": "doze_uvas_da_sorte",
+          "nome": "Doze uvas da sorte",
+          "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+          "variantes": [
+            "Las doce uvas",
+            "Twelve Grapes"
+          ]
+        },
+        {
+          "id": "era_mesozoica",
+          "nome": "Era Mesozoica",
+          "descricao": "Era geológica entre cerca de 252 e 66 milhões de anos atrás, dividida em Triássico, Jurássico e Cretáceo, conhecida como a era dos dinossauros.",
+          "variantes": [
+            "Mesozoico",
+            "Mesozoic",
+            "Era dos Répteis"
+          ]
+        },
+        {
+          "id": "holi",
+          "nome": "Holi",
+          "descricao": "Festa hindu em que as pessoas se cobrem de pós e águas coloridas",
+          "variantes": [
+            "Festival das Cores",
+            "Festa das Cores"
+          ]
+        },
+        {
+          "id": "cobras_e_escadas",
+          "nome": "Cobras e escadas",
+          "descricao": "Jogo de tabuleiro de corrida com dados, de origem indiana, em que escadas fazem subir e cobras fazem descer.",
+          "variantes": [
+            "Snakes and ladders",
+            "Moksha Patam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paranthropus robustus",
+        "descricao": "Espécie extinta de australopitecino robusto do Pleistoceno inicial da África do Sul, descrita em 1938.",
+        "variantes": [
+          "Australopithecus robustus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "australopithecus_afarensis",
+          "nome": "Australopithecus afarensis",
+          "descricao": "Espécie de hominídeo extinto da África Oriental, que viveu há cerca de 3,9 a 2,9 milhões de anos, à qual pertence o fóssil Lucy.",
+          "variantes": [
+            "A. afarensis"
+          ]
+        },
+        {
+          "id": "australopithecus",
+          "nome": "Australopithecus",
+          "descricao": "Gênero de hominídeos africanos extintos que viveram há cerca de 4 a 2 milhões de anos, como Lucy.",
+          "variantes": [
+            "Australopiteco"
+          ]
+        },
+        {
+          "id": "paranthropus_boisei",
+          "nome": "Paranthropus boisei",
+          "descricao": "Espécie de hominídeo robusto da África Oriental, conhecida pela mandíbula maciça e pelos molares enormes.",
+          "variantes": [
+            "Zinjanthropus boisei",
+            "Zinj",
+            "Homem Quebra-Nozes"
+          ]
+        },
+        {
+          "id": "australopithecus_sediba",
+          "nome": "Australopithecus sediba",
+          "descricao": "Espécie de hominídeo de cerca de 2 milhões de anos descrita a partir de fósseis da caverna Malapa, na África do Sul.",
+          "variantes": [
+            "A. sediba"
+          ]
+        },
+        {
+          "id": "homem_de_java",
+          "nome": "Homem de Java",
+          "descricao": "Fósseis de Homo erectus encontrados na ilha de Java, Indonésia, a partir de 1891.",
+          "variantes": [
+            "Java Man",
+            "Pithecanthropus erectus",
+            "Trinil 2"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jane Goodall",
+        "descricao": "Primatóloga e antropóloga inglesa, conhecida por décadas de pesquisa sobre chimpanzés selvagens em Gombe, na Tanzânia.",
+        "variantes": [
+          "Valerie Jane Morris-Goodall"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jane_goodall",
+          "nome": "Jane Goodall",
+          "descricao": "Primatóloga inglesa conhecida por seus estudos de chimpanzés selvagens em Gombe, na Tanzânia.",
+          "variantes": [
+            "Valerie Jane Morris-Goodall"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda",
+            "La Joconde"
+          ]
+        },
+        {
+          "id": "jangada",
+          "nome": "Jangada",
+          "descricao": "Embarcação de pesca de madeira, com vela triangular, típica do litoral do Nordeste do Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "salto_angel",
+          "nome": "Salto Ángel",
+          "descricao": "Queda d'água que despenca de um tepui no Parque Nacional Canaima, na Venezuela.",
+          "variantes": [
+            "Angel Falls",
+            "Kerepakupai Merú"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ħaġar Qim",
+        "descricao": "Complexo de templo megalítico em Malta, da fase Ġgantija (3600 a 3200 a.C.), Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Hagar Qim",
+          "Haġar Qim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "algarismo",
+          "nome": "Algarismo",
+          "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+          "variantes": [
+            "Dígito",
+            "Algarismos"
+          ]
+        },
+        {
+          "id": "rubeus_hagrid",
+          "nome": "Rubeus Hagrid",
+          "descricao": "Meio-gigante guarda-caça de Hogwarts nas obras de Harry Potter, vivido por Robbie Coltrane nos filmes.",
+          "variantes": [
+            "Hagrid"
+          ]
+        },
+        {
+          "id": "agar_agar",
+          "nome": "Ágar-ágar",
+          "descricao": "Substância gelatinosa extraída de algas vermelhas, usada em culinária e como meio de cultura em laboratórios.",
+          "variantes": [
+            "Ágar",
+            "Agar"
+          ]
+        },
+        {
+          "id": "lamarckismo",
+          "nome": "Lamarckismo",
+          "descricao": "Teoria evolutiva de Jean-Baptiste de Lamarck, baseada no uso e desuso e na herança de características adquiridas.",
+          "variantes": [
+            "Lamarquismo",
+            "Lamarckism"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Vênus de Hohle Fels",
+        "descricao": "Estatueta feminina do Paleolítico Superior, em marfim de mamute, achada em 2008 numa caverna perto de Schelklingen, na Alemanha.",
+        "variantes": [
+          "Vênus de Schelklingen",
+          "Venus of Hohle Fels"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flauta_de_hohle_fels",
+          "nome": "Flauta de Hohle Fels",
+          "descricao": "Flauta paleolítica de osso encontrada na caverna de Hohle Fels, na Alemanha.",
+          "variantes": [
+            "Hohle Fels flute"
+          ]
+        },
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        },
+        {
+          "id": "venus_ao_espelho",
+          "nome": "Vênus ao Espelho",
+          "descricao": "Pintura de Diego Velázquez, de cerca de 1647 a 1651, com Vênus nua de costas olhando-se num espelho segurado por Cupido, na National Gallery de Londres.",
+          "variantes": [
+            "Rokeby Venus",
+            "Vênus de Rokeby",
+            "A Toilette de Vênus"
+          ]
+        },
+        {
+          "id": "tumulo_dos_vagalumes",
+          "nome": "Túmulo dos Vagalumes",
+          "descricao": "Filme de animação de 1988 do Studio Ghibli sobre dois irmãos órfãos no fim da Segunda Guerra Mundial.",
+          "variantes": [
+            "Grave of the Fireflies",
+            "Hotaru no Haka"
+          ]
+        },
+        {
+          "id": "perseu_com_a_cabeca_de_medusa",
+          "nome": "Perseu com a Cabeça de Medusa",
+          "descricao": "Escultura de bronze de Benvenuto Cellini na Loggia dei Lanzi, em Florença, que mostra Perseu com a cabeça de Medusa.",
+          "variantes": [
+            "Perseu de Cellini",
+            "Perseus with the Head of Medusa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "mamute_lanoso",
+      "motivo": "Mesma espécie, Mammuthus primigenius."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "porta_dos_leoes_de_micenas",
+      "motivo": "Mesma entrada da cidadela de Micenas; Portão/Porta são sinônimos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a estatueta minoica de Cnossos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Paranthropus robustus é espécie distinta das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "jane_goodall",
+      "motivo": "Mesma primatóloga."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o templo de Ħaġar Qim."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A estatueta de Hohle Fels não é a flauta nem a Vênus de Willendorf; é um objeto distinto."
+    }
+  ]
+}

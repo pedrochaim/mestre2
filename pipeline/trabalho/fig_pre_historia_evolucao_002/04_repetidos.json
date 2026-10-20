@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animal extinto da Era do Gelo é este?",
+        "resposta": "Mamute-lanoso"
+      },
+      "existentes": [
+        {
+          "id": "q02752",
+          "pergunta": "Os últimos mamutes-lanosos sobreviveram até cerca de quatro mil anos atrás numa ilha isolada do Oceano Ártico. Que ilha era essa?",
+          "resposta": "Ilha de Wrangel"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que antiga cidade grega fica este portão de pedra?",
+        "resposta": "Micenas"
+      },
+      "existentes": [
+        {
+          "id": "q04707",
+          "pergunta": "Que civilização da Idade do Bronze construiu a cidadela cuja entrada é esta?",
+          "resposta": "Micênica"
+        },
+        {
+          "id": "q13313",
+          "pergunta": "A entrada principal da cidadela de Micenas, da Idade do Bronze, tem acima do lintel um relevo de dois animais de pé, um de cada lado de uma coluna. Quais animais?",
+          "resposta": "Leões"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Quem é esta cientista inglesa?",
+        "resposta": "Jane Goodall"
+      },
+      "existentes": [
+        {
+          "id": "q08138",
+          "pergunta": "Quem é esta cientista inglesa?",
+          "resposta": "Jane Goodall"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o animal na imagem é diferente de perguntar a ilha onde os últimos sobreviveram."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a cidade (Micenas); a civilização e os leões do relevo são fatos distintos. Embora q04707 mencione a cidadela, a resposta não leva à cidade necessariamente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta.",
+      "id_existente": "q08138"
+    }
+  ]
+}
