@@ -206,6 +206,7 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Pitágoras (3)
 - Pirâmide de Kukulcán (3)
 - Petra (3)
+- Peste Negra (3)
 - Pedra de Roseta (3)
 - Partenon (3)
 - Palácio de Versalhes (3)
@@ -223,6 +224,7 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Muralha da China (3)
 - Mosteiro dos Jerónimos (3)
 - Mona Lisa (3)
+- Mohenjo-daro (3)
 - Moais da Ilha de Páscoa (3)
 - Milho (3)
 - Miguel de Cervantes (3)
@@ -276,6 +278,7 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Alexandre, o Grande (3)
 - Agatha Christie (3)
 - Abu Simbel (3)
+- Abadia de Westminster (3)
 - 14-bis (3)
 - Édipo Rei (2)
 - Árvore Bodhi (2)
@@ -298,13 +301,16 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Tomada da Bastilha (2)
 - Tiradentes (2)
 - Tikal (2)
+- Tibério (2)
 - Thomas More (2)
 - Templo do Céu (2)
 - Templo de Hefesto (2)
 - Templo de Hatshepsut (2)
 - Templo Mayor (2)
 - Tanque de guerra (2)
+- Sêneca (2)
 - São Petersburgo (2)
+- Skara Brae (2)
 - Sistema sexagesimal (2)
 - Sismoscópio de Zhang Heng (2)
 - Sigmund Freud (2)
@@ -322,28 +328,32 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Quipu (2)
 - Quilombo dos Palmares (2)
 - Qhapaq Ñan (2)
+- Púrpura de Tiro (2)
+- Porta dos Leões de Micenas (2)
 - Popol Vuh (2)
 - Ponte Vecchio (2)
 - Pompeu (2)
 - Pompeia (2)
 - Platão (2)
-- Peste Negra (2)
 - Penny Black (2)
 - Pedra do Sol asteca (2)
 - Pedra do Ingá (2)
 - Pau-brasil (2)
 - Parque Nacional da Serra da Capivara (2)
+- Papado de Avignon (2)
 - Palácio de Cnossos (2)
 - Palácio da Pena (2)
 - Pakal (2)
 - Ouro Preto (2)
 - Otto von Bismarck (2)
 - Oswaldo Cruz (2)
+- Ossos oraculares (2)
 - Ordem coríntia (2)
 - Olmecas (2)
 - Obelisco de Axum (2)
 - O Príncipe (2)
 - O Nascimento de Vênus (2)
+- O Cânone da Medicina (2)
 - Numeração maia (2)
 - Nero (2)
 - Máscara de Agamenon (2)
@@ -352,7 +362,6 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Muiraquitã (2)
 - Monte Pascoal (2)
 - Mont-Saint-Michel (2)
-- Mohenjo-daro (2)
 - Moctezuma II (2)
 - Menir (2)
 - Mecanismo de Anticítera (2)
@@ -370,9 +379,11 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Libéria (2)
 - Leon Trótski (2)
 - Leis de Kepler (2)
+- L'Anse aux Meadows (2)
 - José de Anchieta (2)
 - Jogos Olímpicos de Verão de 1916 (2)
 - Joaquim Nabuco (2)
+- Joana d'Arc (2)
 - J. R. R. Tolkien (2)
 - Inti Raymi (2)
 - Inconfidência Mineira (2)
@@ -380,6 +391,7 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Império Songai (2)
 - Império Bizantino (2)
 - Ilha Fiscal (2)
+- Hégira (2)
 - Ho Chi Minh (2)
 - Hieróglifos egípcios (2)
 - Henrique VIII (2)
@@ -392,7 +404,9 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Grande Canal da China (2)
 - Giuseppe Garibaldi (2)
 - Genocídio em Ruanda (2)
+- Gengis Khan (2)
 - Gana (2)
+- Frederico Barba-Ruiva (2)
 - Forte dos Reis Magos (2)
 - Foice e martelo (2)
 - Fogos de artifício (2)
@@ -401,14 +415,17 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Estádio Panatenaico (2)
 - Estrada de Ferro Madeira-Mamoré (2)
 - Eratóstenes (2)
+- Epopeia de Gilgamesh (2)
 - Elogio da Loucura (2)
 - Elizabeth I (2)
 - Duque de Caxias (2)
 - Drácon (2)
 - Dom Pedro II (2)
 - Divisão Naval em Operações de Guerra (2)
+- Disco de Nebra (2)
 - Código de Hamurábi (2)
 - Cândido (2)
+- Cueva de las Manos (2)
 - Constantino (2)
 - Confúcio (2)
 - Companhia de Jesus (2)
@@ -418,11 +435,13 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Circo Máximo (2)
 - Cidade do Cabo (2)
 - Chichén Itzá (2)
+- Caverna Chauvet (2)
 - Catedral de Milão (2)
 - Catedral de Florença (2)
 - Catarina, a Grande (2)
 - Castelo de Neuschwanstein (2)
 - Carta de Pero Vaz de Caminha (2)
+- Carlos Magno (2)
 - Caravela (2)
 - Capela Sistina (2)
 - Calendário egípcio (2)
@@ -444,17 +463,19 @@ Estas entidades já têm várias perguntas no banco, em outros subtemas (o núme
 - Batalha da Floresta de Teutoburgo (2)
 - Batalha Naval do Riachuelo (2)
 - Babilônia (2)
+- Augusto (2)
 - Atentado de Sarajevo (2)
 - Assassinato de Júlio César (2)
 - Ashoka (2)
 - Arquitetura gótica (2)
 - Arquimedes (2)
 - Apartheid (2)
+- Alinhamentos de Carnac (2)
 - Algarismos romanos (2)
 - Algarismos indo-arábicos (2)
+- Alfabeto fenício (2)
 - Al-Khwarizmi (2)
 - Abraham Lincoln (2)
-- Abadia de Westminster (2)
 
 # Formato de cada pergunta
 
@@ -475,7 +496,7 @@ Antes de responder, revise cada pergunta contra os critérios de qualidade do MA
 
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.67 — 2026-10-13**
+> **Versão preliminar 0.73 — 2026-10-19**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -588,7 +609,7 @@ Cada âncora é registrada com:
 **Limites por âncora** (o pipeline descarta o que passar deles):
 - no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
 - no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
-- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
 - uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
 
 **Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
@@ -725,7 +746,9 @@ Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um mo
 - A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
 - **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
 - **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
-- As perguntas da coleção seguem todas as regras desta Parte I: tema e subtema, âncora, saturação e fontes. Podem ser com ou sem figura.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
 - As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
 
 ### Perguntas com áudio

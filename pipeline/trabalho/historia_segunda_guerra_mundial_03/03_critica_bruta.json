@@ -1,0 +1,394 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roosevelt morreu em abril de 1945, antes do fim da guerra; enunciado literal e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armistício de Cassibile mostra a Itália saindo primeiro; fato correto e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "T-34 foi o tanque mais produzido da guerra (mais de 80.000); distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Superlativo 'mais destrutivo, superando Hiroshima' é contestável conforme o critério (mortes, destruição), arriscado para resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Okinawa é descrita como a batalha mais sangrenta da Guerra do Pacífico; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Metade das vítimas judias do Holocausto, cerca de 3 milhões, era da Polônia.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hartmann, 352 vitórias, é o ás mais bem-sucedido da história; fato bem sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores Bismarck e Tirpitz são alemães, nada críveis para um navio japonês; trocar por encouraçados japoneses.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Afundado em abril de 1945 a caminho de Okinawa, que encouraçado japonês foi, com o irmão Musashi, o mais pesado já construído?",
+        "resposta": "Yamato",
+        "distratores": [
+          "Nagato",
+          "Mutsu",
+          "Kongō"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Japanese_battleship_Yamato",
+          "https://en.wikipedia.org/wiki/Yamato-class_battleship"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "URSS teve o maior número de mortos totais (cerca de 27 milhões), fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pacto Tripartite assinado em Berlim em 1940 entre Alemanha, Itália e Japão.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fat Man tinha núcleo de plutônio; fato correto e direto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tribunal reuniu EUA, Reino Unido, URSS e França; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Attlee substituiu Churchill durante a conferência após a eleição britânica.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sophie Scholl foi executada em 1943 com o irmão Hans; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Por eliminação a resposta é óbvia e a pergunta é mal classificada em Segunda Guerra Mundial; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais; simplificar para 'Barcos civis'.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Na evacuação de Dunquerque, em 1940, os navios de guerra britânicos contaram com a ajuda de centenas de pequenas embarcações de que tipo?",
+        "resposta": "Barcos civis",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Little_Ships_of_Dunkirk",
+          "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O distintivo da FEB mostra uma cobra verde fumando cachimbo.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Triângulo rosa marcava prisioneiros homossexuais nos campos nazistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cruz de Lorena foi o símbolo da França Livre de De Gaulle.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schindler era membro do Partido Nazista; fato interessante e sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O diário de Anne Frank foi escrito em holandês.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Yamaguchi é reconhecido como sobrevivente de Hiroshima e Nagasaki.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pavlichenko foi atiradora de elite com 309 mortes confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Volkssturm era composta principalmente por idosos, jovens e inaptos; resposta adequada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A casquinha de açúcar impedia o derretimento e os soldados recebiam os doces por isso.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shindo Renmei atacava quem aceitava a derrota do Japão.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "EUA cessaram as exportações de petróleo ao Japão em julho de 1941.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Acordo de Munique deu os Sudetos à Alemanha.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Empresa estatal de aço' vaza a resposta (Siderúrgica); 'financiar' não está nos trechos, trocar por 'apoio'.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1941, em troca do apoio do Brasil aos Aliados e com ajuda dos Estados Unidos, foi criada em Volta Redonda qual grande empresa?",
+        "resposta": "Companhia Siderúrgica Nacional",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional",
+          "https://pt.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Volkswagen significa 'carro do povo'; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palestra Itália virou Palmeiras em 1942 por causa da guerra.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta vaga ('um humorista'); pedir o nome do comediante, Bob Burns.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O lança-foguetes antitanque americano da Segunda Guerra ganhou o apelido de bazuca por lembrar um instrumento musical criado por qual comediante?",
+        "resposta": "Bob Burns",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bazooka"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Banzai (万歳) significa literalmente dez mil anos; distratores curtos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shoá significa catástrofe em hebraico.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quisling era norueguês e colaborou com a ocupação nazista.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "BBC usava a abertura da Quinta de Beethoven, ritmo do V em Morse.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ferdinand Porsche projetou o Fusca e o Ferdinand/Elefant.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aracy casou-se com Guimarães Rosa, então cônsul-adjunto em Hamburgo.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chaplin nasceu em 16 de abril de 1889 e Hitler em 20 de abril: quatro dias de diferença.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dia da Aviação de Caça é 22 de abril, mesma data da chegada de Cabral em 1500.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Zero foi fabricado pela Mitsubishi.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monte Cassino foi fundado por São Bento por volta de 529.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Sinfonia Leningrado, tocada em agosto de 1942, é de Shostakovich.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Esquadrão 201 era mexicano e lutou nas Filipinas.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casablanca, controlada por Vichy, fica no Marrocos.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ferrovia da Morte ligava Tailândia e Birmânia.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A rendição foi assinada a bordo do USS Missouri na baía de Tóquio.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regime nazista de 1933 a 1945: doze anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schindler é creditado com salvar 1.200 judeus.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conferência de Wannsee ocorreu em 20 de janeiro de 1942.",
+      "reescrita": null
+    }
+  ]
+}
