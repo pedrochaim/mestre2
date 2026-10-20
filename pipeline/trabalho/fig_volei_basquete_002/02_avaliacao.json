@@ -1,0 +1,219 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Rosto em foto próxima, com agasalho genérico da seleção brasileira; nada permite reconhecer Thaísa com segurança, e há muitas jogadoras parecidas."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem nome visível (só clube e patrocinadores).",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que apelido este jovem jogador francês de basquete ganhou por causa da altura e das habilidades fora do comum?",
+      "resposta": "Alien (O Alienígena)",
+      "distratores": [
+        "Gigante Gentil",
+        "Torre de Paris",
+        "Cometa Francês"
+      ],
+      "ancora": {
+        "nome": "Victor Wembanyama",
+        "descricao": "Pivô francês de basquete, primeira escolha do draft da NBA de 2023 pelo San Antonio Spurs.",
+        "variantes": [
+          "Wemby",
+          "Wembanyama"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue o nome.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta ex-jogadora brasileira de basquete, ídolo da seleção nos anos oitenta e noventa?",
+      "resposta": "Hortência Marcari",
+      "ancora": {
+        "nome": "Hortência Marcari",
+        "descricao": "Ex-jogadora brasileira de basquete, uma das maiores da história do país e membro do Hall da Fama do basquete.",
+        "variantes": [
+          "Hortência",
+          "Hortência Maria de Fátima Marcari"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de corpo inteiro com uniforme da seleção brasileira, número 4 sem nome; público e reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que Olimpíada este jogador brasileiro de vôlei conquistou a medalha de ouro?",
+      "resposta": "Rio de Janeiro 2016",
+      "distratores": [
+        "Londres 2012",
+        "Pequim 2008",
+        "Atenas 2004"
+      ],
+      "ancora": {
+        "nome": "Wallace de Souza",
+        "descricao": "Ponteiro brasileiro de vôlei, campeão olímpico em 2016.",
+        "variantes": [
+          "Wallace",
+          "Wallace Leandro de Souza"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, só o rosto sobre fundo branco; não fica legível nem reconhecível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto cortada de evento, com camiseta de campanha com texto e outras pessoas; o ex-jogador não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida, com colete de All-Star 2022 sem nome; reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes jogadores de basquete é este, que treina arremessos num evento de estrelas da NBA?",
+      "resposta": "Luka Dončić",
+      "distratores": [
+        "Nikola Jokić",
+        "Trae Young",
+        "Ben Simmons"
+      ],
+      "ancora": {
+        "nome": "Luka Dončić",
+        "descricao": "Armador esloveno de basquete, ex-Dallas Mavericks e hoje no Los Angeles Lakers.",
+        "variantes": [
+          "Luka Doncic",
+          "Luka Magic"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido com uniforme brasileiro, sem nome; figura pública.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem foi a parceira desta jogadora brasileira de vôlei de praia na Olimpíada de 2016?",
+      "resposta": "Bárbara Seixas",
+      "ancora": {
+        "nome": "Ágatha Bednarczuk",
+        "descricao": "Jogadora brasileira de vôlei de praia, medalha de prata nas Olimpíadas de 2016 com Bárbara Seixas.",
+        "variantes": [
+          "Ágatha",
+          "Agatha Bednarczuk Rippel"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto reconhecível do jogador com a camisa do Bulls, sem nome; resolução baixa, mas legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes jogadores campeões dos anos noventa é este, em ação com a bola?",
+      "resposta": "Scottie Pippen",
+      "distratores": [
+        "Dennis Rodman",
+        "Horace Grant",
+        "Toni Kukoč"
+      ],
+      "ancora": {
+        "nome": "Scottie Pippen",
+        "descricao": "Ala americano de basquete, seis vezes campeão da NBA com o Chicago Bulls.",
+        "variantes": [
+          "Scotty Pippen"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido com camisa 10 da seleção brasileira, sem nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que Olimpíada esta jogadora brasileira de vôlei ganhou uma medalha de bronze?",
+      "resposta": "Paris 2024",
+      "distratores": [
+        "Tóquio 2020",
+        "Rio de Janeiro 2016",
+        "Londres 2012"
+      ],
+      "ancora": {
+        "nome": "Gabi Guimarães",
+        "descricao": "Ponteira brasileira de vôlei, prata em Tóquio e bronze em Paris nas Olimpíadas.",
+        "variantes": [
+          "Gabi",
+          "Gabriela Guimarães",
+          "Gabriela Braga Guimarães"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; o microfone traz só NBA TV, sem o nome.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-jogador de basquete americano que virou comentarista de televisão?",
+      "resposta": "Charles Barkley",
+      "ancora": {
+        "nome": "Charles Barkley",
+        "descricao": "Ex-ala-pivô americano de basquete, MVP da NBA em 1993 e hoje comentarista de TV.",
+        "variantes": [
+          "Sir Charles",
+          "Chuck"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida com uniforme de Iowa, sem nome visível; reconhecível.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que time da WNBA escolheu esta jogadora no draft de 2024?",
+      "resposta": "Indiana Fever",
+      "distratores": [
+        "Chicago Sky",
+        "Dallas Wings",
+        "Seattle Storm"
+      ],
+      "ancora": {
+        "nome": "Caitlin Clark",
+        "descricao": "Armadora americana de basquete, maior pontuadora da história do basquete universitário da NCAA e jogadora do Indiana Fever.",
+        "variantes": [
+          "Caitlin Elizabeth Clark"
+        ]
+      }
+    }
+  ]
+}

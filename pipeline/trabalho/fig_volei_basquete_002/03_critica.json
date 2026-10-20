@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado (jovem, francês, altura fora do comum) quase identifica o jogador sem a figura. Reescrito para depender da imagem; 'Alien' é confirmado pelos trechos.",
+      "reescrita": {
+        "pergunta": "Qual destes é um apelido deste pivô de basquete?",
+        "resposta": "Alien (O Alienígena)",
+        "distratores": [
+          "Gigante Gentil",
+          "Torre de Paris",
+          "Cometa Francês"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de época sem entregar o nome; resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro em 2016 confirmado; os distratores não são ouro dele (prata em 2012).",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que ele treina arremessos num evento de estrelas. Isso não está em 'mostra' e não dá para verificar na foto.",
+      "reescrita": {
+        "pergunta": "Qual destes astros da NBA é este jogador de basquete?",
+        "resposta": "Luka Dončić",
+        "distratores": [
+          "Nikola Jokić",
+          "Trae Young",
+          "Ben Simmons"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parceira em 2016 confirmada pelos trechos; o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em ação com a bola' é uma afirmação sobre a foto que não está em 'mostra'. Reescrito apontando só para a figura, com distratores também do Bulls.",
+      "reescrita": {
+        "pergunta": "Qual destes astros do Chicago Bulls dos anos noventa é este?",
+        "resposta": "Scottie Pippen",
+        "distratores": [
+          "Dennis Rodman",
+          "Horace Grant",
+          "Toni Kukoč"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bronze em Paris 2024 confirmado; os distratores não são bronze dela.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 sem vazamento; a figura decide a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Indiana Fever na primeira escolha do draft de 2024 confirmado; os distratores são times reais e incorretos.",
+      "reescrita": null
+    }
+  ]
+}
