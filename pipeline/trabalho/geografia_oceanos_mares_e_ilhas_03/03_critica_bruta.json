@@ -1,0 +1,419 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado pelas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Forma sozinha' é impreciso: o país inclui também ilhas periféricas menores.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Qual país africano ocupa a quarta maior ilha do mundo, terra dos lêmures?",
+        "resposta": "Madagascar",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Madagascar",
+          "https://pt.wikipedia.org/wiki/Madagáscar"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Honshu é a maior das quatro ilhas principais e abriga as três cidades.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sardenha é a segunda maior ilha do Mediterrâneo, atrás da Sicília.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato amplamente documentado; as fontes mostram as vias mais baixas do mundo na margem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português traz o recorde de menor altitude média (1,5 m); distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A maior amplitude de maré é disputada com a baía de Ungava; é mais seguro dizer 'famosa por'.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Que baía da costa atlântica do Canadá, entre Nova Brunswick e Nova Escócia, é famosa por ter a maior amplitude de maré do mundo?",
+        "resposta": "Baía de Fundy",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bay_of_Fundy",
+          "https://pt.wikipedia.org/wiki/Baía_de_Fundy"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bornéu é a maior ilha da Ásia e refúgio do orangotango; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fontes confirmam o nome do navegador e o isolamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jersey é a maior das Ilhas do Canal; o tecido e a vaca são fatos corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As quatro maiores Antilhas incluem a Jamaica; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'No litoral do Nordeste' é impreciso: o atol fica a cerca de 260 km da costa.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no Atlântico a nordeste do Brasil, é formado principalmente por quê?",
+        "resposta": "Algas calcárias",
+        "distratores": [
+          "Corais",
+          "Arenito",
+          "Esponjas"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Rocas_Atoll",
+          "https://pt.wikipedia.org/wiki/Atol_das_Rocas"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rano Raraku é de tufo e forneceu cerca de 95% dos moais.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta é a localização da Praia, então o ângulo mais específico é lugar.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em qual ilha do arquipélago de Cabo Verde fica a cidade da Praia, capital do país?",
+        "resposta": "Ilha de Santiago",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Praia",
+          "https://en.wikipedia.org/wiki/Santiago,_Cape_Verde"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Montanha do Pico, na ilha do Pico, é o ponto mais alto de Portugal.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Porto Santo, a 'Ilha Dourada', é a outra ilha habitada do arquipélago.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Teide fica em Tenerife e é o ponto mais alto da Espanha.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que os arrecifes do Recife são cordões de arenito.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fontes confirmam água salobra e salinidade muito menor que a dos oceanos.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte cita a camada anóxica que preserva naufrágios antigos.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os búfalos são criados em grandes rebanhos e a polícia montada de Marajó os usa; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que as estátuas contemplavam o interior; os moais em ahu dão as costas ao mar.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os vidreiros foram obrigados a se mudar para Murano em 1291.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estação de imigração de 1892 a 1954, com cerca de 12 milhões de pessoas.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caviar é feito com ovas de esturjão e o Cáspio é famoso por ele.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O formato em S é um fato fraco e difícil de visualizar ou ouvir; a letra é pouco interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os golfinhos-rotadores se reúnem diariamente na Baía dos Golfinhos.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Corrente de Humboldt é fria, rica em plâncton e corre pelas costas do Chile e do Peru.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cila e Caríbdis são situadas no estreito de Messina.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A palavra vem do nome italiano do mar Egeu.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O cabo Horn não é o extremo sul da América do Sul (a fonte cita o ilhéu Águila); a afirmação precisa ser corrigida.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O nome do cabo Horn, na ponta sul do Chile, não vem da palavra inglesa para chifre. Ele homenageia uma cidade de qual país?",
+        "resposta": "Países Baixos",
+        "distratores": [
+          "Inglaterra",
+          "Dinamarca",
+          "Bélgica"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cape_Horn",
+          "https://pt.wikipedia.org/wiki/Cabo_Horn"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Upaon-Açu significa 'ilha grande' em tupi.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Do grego melas (preto) e nesos (ilha).",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A explicação mais aceita é o latim canis (cão), de Plínio; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As cidades não ficam inteiramente em ilhas (Florianópolis tem parte continental); falta precisão.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O que as capitais estaduais Florianópolis, São Luís e Vitória têm em comum quanto à localização?",
+        "resposta": "Ficam, em sua maior parte, em ilhas",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Vitória_(Espírito_Santo)",
+          "https://pt.wikipedia.org/wiki/Ilha_de_Santa_Catarina",
+          "https://en.wikipedia.org/wiki/São_Luís_Island"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O aeroporto foi rebatizado em 2017 em homenagem ao madeirense Cristiano Ronaldo.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os habitantes descendem principalmente dos amotinados do HMS Bounty.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moisés estende a mão sobre o mar no Êxodo.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tibério governou de Capri até sua morte, em 37 d.C.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os fiordes são vales escavados por geleiras e depois inundados.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As marés vêm principalmente da atração da Lua.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Terremotos submarinos são a causa mais comum dos tsunamis; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte atribui a alta salinidade à evaporação elevada e à ausência de rios significativos.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As Bermudas ficam no Atlântico Norte; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bora Bora pertence à Polinésia Francesa.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "97% de Florianópolis fica na ilha de Santa Catarina, ligada ao continente pela ponte Hercílio Luz.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A invasão de 793 está no século oito e é tida como o início da Era Viking.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O túnel foi inaugurado em 1994.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de um décimo do volume do iceberg fica acima da água.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stevenson, escocês, publicou A Ilha do Tesouro em livro em 1883.",
+      "reescrita": null
+    }
+  ]
+}

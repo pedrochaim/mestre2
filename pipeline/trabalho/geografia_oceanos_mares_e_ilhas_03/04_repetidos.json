@@ -1,0 +1,332 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual país africano ocupa a quarta maior ilha do mundo, terra dos lêmures?",
+        "resposta": "Madagascar"
+      },
+      "existentes": [
+        {
+          "id": "q03896",
+          "pergunta": "Que canal separa esta ilha do continente africano?",
+          "resposta": "Canal de Moçambique"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual país do oceano Índico, formado por atóis de coral, tem a menor altitude média entre todos os países do mundo?",
+        "resposta": "Maldivas"
+      },
+      "existentes": [
+        {
+          "id": "q07536",
+          "pergunta": "Com altitude média de cerca de um metro e meio acima do mar, qual país tem a menor altitude média do mundo?",
+          "resposta": "Maldivas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é a maior ilha da Ásia, cujas florestas tropicais são um dos últimos refúgios do orangotango?",
+        "resposta": "Bornéu"
+      },
+      "existentes": [
+        {
+          "id": "q02228",
+          "pergunta": "A ilha de Bornéu, no Sudeste Asiático, é dividida entre quantos países?",
+          "resposta": "Três"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no Atlântico a nordeste do Brasil, é formado principalmente por quê?",
+        "resposta": "Algas calcárias"
+      },
+      "existentes": [
+        {
+          "id": "q02220",
+          "pergunta": "O Atol das Rocas, reserva biológica no Atlântico, pertence a qual estado brasileiro?",
+          "resposta": "Rio Grande do Norte"
+        },
+        {
+          "id": "q02443",
+          "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no Rio Grande do Norte, foi construído principalmente por quê?",
+          "resposta": "Algas calcárias"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O ponto mais alto de Portugal é uma montanha vulcânica numa das ilhas dos Açores. Que ilha é essa?",
+        "resposta": "Ilha do Pico"
+      },
+      "existentes": [
+        {
+          "id": "q05866",
+          "pergunta": "O arquipélago português dos Açores, no meio do Atlântico Norte, é formado por quantas ilhas principais?",
+          "resposta": "Nove"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Os arrecifes que dão nome à capital pernambucana não são de coral. São formados por qual tipo de rocha?",
+        "resposta": "Arenito"
+      },
+      "existentes": [
+        {
+          "id": "q02410",
+          "pergunta": "Por causa de seus rios, pontes e canais, que capital nordestina ganhou o apelido de Veneza brasileira?",
+          "resposta": "Recife"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na ilha de Marajó, no Pará, qual animal é criado em grandes rebanhos e chega a servir de montaria para a polícia?",
+        "resposta": "Búfalo"
+      },
+      "existentes": [
+        {
+          "id": "q02231",
+          "pergunta": "Que ilha paraense, na foz do rio Amazonas, é considerada a maior ilha fluviomarinha do mundo?",
+          "resposta": "Ilha de Marajó"
+        },
+        {
+          "id": "q02445",
+          "pergunta": "Que animal de origem asiática, criado em grandes rebanhos, virou símbolo da Ilha de Marajó, onde é usado até como montaria?",
+          "resposta": "Búfalo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O famoso caviar do mar Cáspio é feito com as ovas de qual peixe?",
+        "resposta": "Esturjão"
+      },
+      "existentes": [
+        {
+          "id": "q02230",
+          "pergunta": "Apesar de ser chamado de mar, qual corpo de água entre a Europa e a Ásia é considerado o maior lago do mundo?",
+          "resposta": "Mar Cáspio"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que corrente marinha fria sobe pela costa do Chile e do Peru e torna aquelas águas muito ricas em peixes?",
+        "resposta": "Corrente de Humboldt"
+      },
+      "existentes": [
+        {
+          "id": "q02288",
+          "pergunta": "Que naturalista alemão dá nome a uma corrente marítima fria do Pacífico e a uma espécie de pinguim que vive junto a ela?",
+          "resposta": "Alexander von Humboldt"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Os tupinambás chamavam de Upaon-Açu a ilha onde hoje fica a capital do Maranhão. O que significa esse nome?",
+        "resposta": "Ilha grande"
+      },
+      "existentes": [
+        {
+          "id": "q08020",
+          "pergunta": "A ilha onde fica a capital maranhense, São Luís, é dividida entre quantos municípios?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O que as capitais estaduais Florianópolis, São Luís e Vitória têm em comum quanto à localização?",
+        "resposta": "Ficam, em sua maior parte, em ilhas"
+      },
+      "existentes": [
+        {
+          "id": "q02420",
+          "pergunta": "Que característica geográfica une Vitória, São Luís e Florianópolis e as diferencia das demais capitais estaduais?",
+          "resposta": "Ficam em ilhas"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Qual é a causa mais comum dos tsunamis, as ondas gigantes que invadem o litoral?",
+        "resposta": "Terremotos submarinos"
+      },
+      "existentes": [
+        {
+          "id": "q04291",
+          "pergunta": "Em japonês, o que significa literalmente a palavra tsunami, usada para as ondas gigantes provocadas por terremotos no mar?",
+          "resposta": "Onda de porto"
+        },
+        {
+          "id": "q08824",
+          "pergunta": "Em mar aberto, onde quase não se nota, um tsunami pode viajar tão rápido quanto qual meio de transporte?",
+          "resposta": "Um avião a jato"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "A maior parte de Florianópolis fica numa ilha ligada ao continente por pontes como a Hercílio Luz. Qual é essa ilha?",
+        "resposta": "Ilha de Santa Catarina"
+      },
+      "existentes": [
+        {
+          "id": "q02405",
+          "pergunta": "Em 1894, a cidade de Desterro, capital catarinense, mudou de nome para homenagear qual presidente da República?",
+          "resposta": "Floriano Peixoto"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O ataque viking ao mosteiro da ilha de Lindisfarne, na costa da Inglaterra, costuma marcar o início da Era Viking. Em que século foi?",
+        "resposta": "Século oito"
+      },
+      "existentes": [
+        {
+          "id": "q13178",
+          "pergunta": "O saque viking ao mosteiro de Lindisfarne, na costa da Inglaterra, costuma marcar o início da Era Viking. Em que século ele ocorreu?",
+          "resposta": "Século oito"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O Eurotúnel, que passa por baixo do canal da Mancha e liga a Inglaterra à França por trem, foi inaugurado em qual década?",
+        "resposta": "Década de 1990"
+      },
+      "existentes": [
+        {
+          "id": "q05624",
+          "pergunta": "Em que ano foi inaugurado o túnel ferroviário sob o Canal da Mancha, que liga a Inglaterra à França?",
+          "resposta": "1994"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "A expressão ponta do iceberg vem de um fato físico. Aproximadamente que fração do volume de um iceberg fica acima da água?",
+        "resposta": "Cerca de um décimo"
+      },
+      "existentes": [
+        {
+          "id": "q09218",
+          "pergunta": "Que parte de um iceberg costuma ficar escondida debaixo d'água?",
+          "resposta": "Cerca de nove décimos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país de Madagascar; a existente é sobre o canal."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Maldivas, menor altitude média.",
+      "id_existente": "q07536"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Maior ilha da Ásia difere de número de países."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre algas calcárias.",
+      "id_existente": "q02443"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ponto mais alto vs número de ilhas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tipo de rocha dos arrecifes vs apelido de Veneza."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: búfalo em Marajó como montaria.",
+      "id_existente": "q02445"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Caviar/esturjão é fato diferente de ser maior lago."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Corrente vs naturalista que dá nome; respostas diferentes, embora relacionadas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs número de municípios."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: capitais em ilhas.",
+      "id_existente": "q02420"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Causa dos tsunamis difere de significado da palavra e velocidade."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Nome da ilha vs origem do nome da cidade."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre século de Lindisfarne.",
+      "id_existente": "q13178"
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Inauguração em 1994 implica década de 1990.",
+      "id_existente": "q05624"
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Fração acima e abaixo são complementares; mesmo fato.",
+      "id_existente": "q09218"
+    }
+  ]
+}

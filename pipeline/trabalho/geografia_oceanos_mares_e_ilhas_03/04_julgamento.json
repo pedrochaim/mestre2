@@ -1,0 +1,2265 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Oceano Ártico",
+        "descricao": "Oceano que cerca o Polo Norte, entre a Europa, a Ásia e a América do Norte.",
+        "variantes": [
+          "Oceano Glacial Ártico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oceano_atlantico",
+          "nome": "Oceano Atlântico",
+          "descricao": "Segundo maior oceano da Terra, entre as Américas, a Europa e a África.",
+          "variantes": [
+            "Atlântico"
+          ]
+        },
+        {
+          "id": "oceano_pacifico",
+          "nome": "Oceano Pacífico",
+          "descricao": "O maior oceano da Terra, entre a Ásia, a Oceania e as Américas.",
+          "variantes": [
+            "Pacífico",
+            "Pacific Ocean"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "cerro_rico_de_potosi",
+          "nome": "Cerro Rico de Potosí",
+          "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol.",
+          "variantes": [
+            "Cerro Rico",
+            "Potosí"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Madagascar",
+        "descricao": "País insular africano no oceano Índico, a leste de Moçambique, conhecido pelos lêmures.",
+        "variantes": [
+          "Madagáscar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madagascar",
+          "nome": "Madagascar",
+          "descricao": "País insular do Oceano Índico, a sudeste da África, com capital em Antananarivo.",
+          "variantes": [
+            "República de Madagascar"
+          ]
+        },
+        {
+          "id": "mandacaru",
+          "nome": "Mandacaru",
+          "descricao": "Cacto Cereus jamacaru, típico da Caatinga e símbolo do sertão nordestino",
+          "variantes": [
+            "Cereus jamacaru"
+          ]
+        },
+        {
+          "id": "fossa",
+          "nome": "Fossa",
+          "descricao": "Carnívoro esguio e de cauda longa, parecido com um felino, endêmico de Madagascar (Cryptoprocta ferox).",
+          "variantes": [
+            "Cryptoprocta ferox",
+            "Fossa-de-madagascar"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        },
+        {
+          "id": "professor_agasa",
+          "nome": "Professor Agasa",
+          "descricao": "Hiroshi Agasa, inventor vizinho e aliado do protagonista no mangá Detetive Conan.",
+          "variantes": [
+            "Hiroshi Agasa",
+            "Dr. Agasa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Honshu",
+        "descricao": "A maior e mais populosa ilha do arquipélago japonês, onde ficam Tóquio, Quioto e Osaka.",
+        "variantes": [
+          "Honshū",
+          "Hondo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saque",
+          "nome": "Saquê",
+          "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido.",
+          "variantes": [
+            "Sake",
+            "Nihonshu"
+          ]
+        },
+        {
+          "id": "houndour",
+          "nome": "Houndour",
+          "descricao": "Pokémon do tipo Sombrio/Fogo da segunda geração, número 228 da Pokédex Nacional, parecido com um cão.",
+          "variantes": []
+        },
+        {
+          "id": "houndoom",
+          "nome": "Houndoom",
+          "descricao": "Pokémon dos tipos Sombrio e Fogo da segunda geração, número 229 da Pokédex Nacional.",
+          "variantes": [
+            "Houndoom (Pokémon)"
+          ]
+        },
+        {
+          "id": "cachorro_quente",
+          "nome": "Cachorro-quente",
+          "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+          "variantes": [
+            "Hot dog",
+            "Hotdog"
+          ]
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sardenha",
+        "descricao": "Ilha italiana no mar Mediterrâneo, ao sul da Córsega, cuja capital é Cagliari.",
+        "variantes": [
+          "Sardinia",
+          "Sardegna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rodinia",
+          "nome": "Rodínia",
+          "descricao": "Supercontinente que existiu há cerca de um bilhão de anos, muito antes da Pangeia.",
+          "variantes": []
+        },
+        {
+          "id": "sabrina",
+          "nome": "Sabrina",
+          "descricao": "Líder do ginásio de tipo Psíquico de Saffron, em Kanto, nos jogos e no anime Pokémon.",
+          "variantes": [
+            "Natsume"
+          ]
+        },
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        },
+        {
+          "id": "mastermind",
+          "nome": "Mastermind",
+          "descricao": "Jogo de tabuleiro de lógica em que se tenta descobrir uma combinação secreta de pinos coloridos, chamado Senha no Brasil.",
+          "variantes": [
+            "Senha"
+          ]
+        },
+        {
+          "id": "sacarina",
+          "nome": "Sacarina",
+          "descricao": "Adoçante artificial descoberto em 1879 pelo químico Constantin Fahlberg, na Universidade Johns Hopkins.",
+          "variantes": [
+            "Saccharin",
+            "Sacarina sódica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Maldivas",
+        "descricao": "País insular do oceano Índico, a sudoeste da Índia, formado por cadeias de atóis.",
+        "variantes": [
+          "República das Maldivas",
+          "Maldives"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maldivas",
+          "nome": "Maldivas",
+          "descricao": "País insular do Oceano Índico, formado por atóis a sudoeste da Índia, com capital em Malé.",
+          "variantes": [
+            "Maldives",
+            "República das Maldivas"
+          ]
+        },
+        {
+          "id": "moldavia",
+          "nome": "Moldávia",
+          "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+          "variantes": [
+            "Moldova",
+            "República da Moldávia"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "filipinas",
+          "nome": "Filipinas",
+          "descricao": "País arquipélago do Sudeste Asiático, no Pacífico ocidental, cuja capital é Manila.",
+          "variantes": [
+            "República das Filipinas",
+            "Philippines"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Baía de Fundy",
+        "descricao": "Baía da costa atlântica do Canadá, entre as províncias de Nova Brunswick e Nova Escócia.",
+        "variantes": [
+          "Bay of Fundy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "gaiola_de_faraday",
+          "nome": "Gaiola de Faraday",
+          "descricao": "Invólucro condutor que bloqueia campos elétricos externos, protegendo o que está dentro.",
+          "variantes": [
+            "Faraday cage",
+            "Blindagem eletrostática"
+          ]
+        },
+        {
+          "id": "baia_de_guanabara",
+          "nome": "Baía de Guanabara",
+          "descricao": "Baía oceânica do estado do Rio de Janeiro, cercada pelas cidades do Rio de Janeiro e de Niterói.",
+          "variantes": [
+            "Guanabara Bay",
+            "Guanabara"
+          ]
+        },
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        },
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tristão da Cunha",
+        "descricao": "Arquipélago britânico vulcânico no Atlântico Sul, entre a América do Sul e a África, com um único povoado.",
+        "variantes": [
+          "Tristan da Cunha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        },
+        {
+          "id": "quartzo",
+          "nome": "Quartzo",
+          "descricao": "Mineral de dióxido de silício (SiO2), o segundo mais comum da litosfera terrestre.",
+          "variantes": [
+            "Cristal de rocha",
+            "Quartz"
+          ]
+        },
+        {
+          "id": "cristal_de_rocha",
+          "nome": "Cristal de rocha",
+          "descricao": "Quartzo incolor e transparente, conhecido desde a Antiguidade.",
+          "variantes": [
+            "Quartzo hialino",
+            "Rock crystal"
+          ]
+        },
+        {
+          "id": "cortador_de_unha",
+          "nome": "Cortador de unha",
+          "descricao": "Ferramenta manual usada para aparar unhas.",
+          "variantes": [
+            "Alicate de unha",
+            "Corta-unhas"
+          ]
+        },
+        {
+          "id": "euclides_da_cunha",
+          "nome": "Euclides da Cunha",
+          "descricao": "Escritor e engenheiro brasileiro (1866–1909), autor de Os Sertões.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ilhas do Canal",
+        "descricao": "Arquipélago no canal da Mancha, perto da costa da Normandia, formado por dependências da Coroa britânica como Jersey e Guernsey.",
+        "variantes": [
+          "Ilhas Anglo-Normandas",
+          "Channel Islands"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_do_bananal",
+          "nome": "Ilha do Bananal",
+          "descricao": "Grande ilha fluvial no estado do Tocantins, formada pela bifurcação do rio Araguaia com o braço do Javaés.",
+          "variantes": [
+            "Bananal Island",
+            "Bananal"
+          ]
+        },
+        {
+          "id": "ilhas_laranja",
+          "nome": "Ilhas Laranja",
+          "descricao": "Arquipélago exclusivo do anime Pokémon, visitado por Ash depois de Kanto, onde ele vence a Liga Laranja.",
+          "variantes": [
+            "Orange Islands",
+            "Arquipélago Laranja",
+            "Orange Archipelago"
+          ]
+        },
+        {
+          "id": "ilha_de_calor",
+          "nome": "Ilha de calor",
+          "descricao": "Fenômeno em que áreas urbanas ficam mais quentes que o campo ao redor",
+          "variantes": [
+            "Ilha de calor urbana",
+            "Urban heat island"
+          ]
+        },
+        {
+          "id": "ilha_do_havai",
+          "nome": "Ilha do Havaí",
+          "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+          "variantes": [
+            "Big Island",
+            "Hawaii Island"
+          ]
+        },
+        {
+          "id": "ilha_do_maranhao",
+          "nome": "Ilha do Maranhão",
+          "descricao": "Ilha da costa do Maranhão onde fica a cidade de São Luís, também chamada Upaon-Açu.",
+          "variantes": [
+            "Ilha de São Luís",
+            "Upaon-Açu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Grandes Antilhas",
+        "descricao": "Grupo das maiores ilhas do mar do Caribe, ao norte das Pequenas Antilhas.",
+        "variantes": [
+          "Greater Antilles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hominideos",
+          "nome": "Hominídeos",
+          "descricao": "Família de primatas, Hominidae, que reúne os grandes primatas e os seres humanos.",
+          "variantes": [
+            "Hominidae",
+            "Grandes primatas"
+          ]
+        },
+        {
+          "id": "acerola",
+          "nome": "Acerola",
+          "descricao": "Fruta pequena e vermelha da Malpighia emarginata, muito cultivada no Nordeste brasileiro.",
+          "variantes": [
+            "Cereja-das-antilhas",
+            "Malpighia emarginata"
+          ]
+        },
+        {
+          "id": "muralha_da_china",
+          "nome": "Muralha da China",
+          "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+          "variantes": [
+            "Grande Muralha da China",
+            "Great Wall of China",
+            "Grande Muralha"
+          ]
+        },
+        {
+          "id": "grandes_dionisias",
+          "nome": "Grandes Dionísias",
+          "descricao": "Festival religioso de Atenas em honra a Dionísio, com concursos de tragédia e comédia.",
+          "variantes": [
+            "Dionísias Urbanas",
+            "Dionysia"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Moai",
+        "descricao": "Estátuas monolíticas de figuras humanas esculpidas pelo povo rapanui na Ilha de Páscoa.",
+        "variantes": [
+          "Moais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa",
+            "Moais"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "milho",
+          "nome": "Milho",
+          "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+          "variantes": [
+            "Zea mays",
+            "Maize",
+            "Maís"
+          ]
+        },
+        {
+          "id": "oasis",
+          "nome": "Oasis",
+          "descricao": "Banda britânica de rock formada em Manchester em 1991",
+          "variantes": []
+        },
+        {
+          "id": "oasis_2",
+          "nome": "Oásis",
+          "descricao": "Área fértil e com água no meio de um deserto, alimentada por fontes ou lençóis subterrâneos",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Madeira",
+        "descricao": "Arquipélago português no oceano Atlântico, região autônoma cuja capital é Funchal, na ilha da Madeira.",
+        "variantes": [
+          "Arquipélago da Madeira",
+          "Região Autónoma da Madeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_madeira",
+          "nome": "Rio Madeira",
+          "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+          "variantes": [
+            "Madeira",
+            "Madeira River"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "driver_golfe",
+          "nome": "Driver (golfe)",
+          "descricao": "Taco de golfe de cabeça grande, o chamado madeira um, usado nas tacadas de saída.",
+          "variantes": [
+            "Driver",
+            "Madeira 1",
+            "1-wood"
+          ]
+        },
+        {
+          "id": "nelson_mandela",
+          "nome": "Nelson Mandela",
+          "descricao": "Líder antiapartheid e primeiro presidente negro da África do Sul, de 1994 a 1999.",
+          "variantes": [
+            "Nelson Rolihlahla Mandela",
+            "Madiba",
+            "Rolihlahla Mandela"
+          ]
+        },
+        {
+          "id": "arquipelago_do_havai",
+          "nome": "Arquipélago do Havaí",
+          "descricao": "Cadeia de ilhas vulcânicas no centro do oceano Pacífico, que forma um estado dos Estados Unidos.",
+          "variantes": [
+            "Havaí",
+            "Hawaii",
+            "Ilhas Havaianas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Ilhas Canárias",
+        "descricao": "Arquipélago espanhol no oceano Atlântico, diante da costa do Marrocos e do Saara Ocidental.",
+        "variantes": [
+          "Canárias",
+          "Canary Islands",
+          "Islas Canarias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "zanzibar",
+          "nome": "Zanzibar",
+          "descricao": "Arquipélago na costa da Tanzânia, antigo sultanato e centro do comércio suaíli de especiarias e escravizados.",
+          "variantes": [
+            "Zanzibar Island",
+            "Unguja",
+            "Arquipélago de Zanzibar"
+          ]
+        },
+        {
+          "id": "ilha_cinnabar",
+          "nome": "Ilha Cinnabar",
+          "descricao": "Ilha vulcânica ao sul de Kanto, nos jogos Pokémon, onde fica o ginásio de tipo Fogo de Blaine e o laboratório que revive fósseis.",
+          "variantes": [
+            "Cinnabar Island",
+            "Cinnabar"
+          ]
+        },
+        {
+          "id": "canastra",
+          "nome": "Canastra",
+          "descricao": "Jogo de cartas da família do rummy, jogado com dois baralhos, criado em Montevidéu em 1939.",
+          "variantes": [
+            "Canasta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Recife",
+        "descricao": "Capital do estado de Pernambuco, no litoral do Nordeste brasileiro.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "recife",
+          "nome": "Recife",
+          "descricao": "Capital do estado de Pernambuco, cortada pelos rios Capibaribe e Beberibe.",
+          "variantes": []
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        },
+        {
+          "id": "regice",
+          "nome": "Regice",
+          "descricao": "Pokémon do tipo Gelo, número 378 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grecia",
+          "nome": "Grécia",
+          "descricao": "País do sul da Europa, na península Balcânica, com capital em Atenas.",
+          "variantes": [
+            "Greece",
+            "República Helênica"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate",
+            "Cravat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Mar Báltico",
+        "descricao": "Mar do norte da Europa cercado por países como Suécia, Finlândia, Polônia e Alemanha.",
+        "variantes": [
+          "Baltic Sea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paises_balticos",
+          "nome": "Países bálticos",
+          "descricao": "Grupo de três países do norte da Europa, na costa leste do Mar Báltico, que se separaram da União Soviética em 1991.",
+          "variantes": [
+            "Estados bálticos",
+            "Baltic states"
+          ]
+        },
+        {
+          "id": "batisfera",
+          "nome": "Batisfera",
+          "descricao": "Esfera de aço para mergulho profundo, usada por William Beebe e Otis Barton nos anos 1930 nas Bermudas.",
+          "variantes": [
+            "Bathysphere"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "marabaixo",
+          "nome": "Marabaixo",
+          "descricao": "Dança e música afro-brasileira com saias rodadas e caixas de percussão, ligada a festas religiosas populares.",
+          "variantes": []
+        },
+        {
+          "id": "ambar_antigo",
+          "nome": "Âmbar Antigo",
+          "descricao": "Pedaço de âmbar dos jogos Pokémon que, levado a um laboratório, revive o pokémon fóssil Aerodactyl.",
+          "variantes": [
+            "Old Amber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Mar Negro",
+        "descricao": "Mar interior entre o sudeste da Europa e a Ásia Menor, ligado ao Mediterrâneo pelo Bósforo.",
+        "variantes": [
+          "Black Sea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cha_preto",
+          "nome": "Chá preto",
+          "descricao": "Tipo de chá feito das folhas da Camellia sinensis submetidas a oxidação completa antes da secagem.",
+          "variantes": [
+            "Black tea"
+          ]
+        },
+        {
+          "id": "cisne_negro",
+          "nome": "Cisne-negro",
+          "descricao": "Cygnus atratus, grande ave aquática de plumagem negra e bico vermelho, nativa da Austrália.",
+          "variantes": [
+            "Cygnus atratus",
+            "Black swan"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "gato_preto",
+          "nome": "Gato preto",
+          "descricao": "Gato de pelagem preta, objeto de superstições opostas em diferentes países.",
+          "variantes": [
+            "Black cat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Murano",
+        "descricao": "Conjunto de ilhas na lagoa de Veneza, na Itália, tradicional centro de produção artesanal.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "urano",
+          "nome": "Urano",
+          "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Uranus"
+          ]
+        },
+        {
+          "id": "uranio",
+          "nome": "Urânio",
+          "descricao": "Elemento químico de número atômico 92, metal radioativo usado como combustível nuclear.",
+          "variantes": [
+            "U"
+          ]
+        },
+        {
+          "id": "morango",
+          "nome": "Morango",
+          "descricao": "Fruto do morangueiro, Fragaria × ananassa, um pseudofruto com aquênios na superfície",
+          "variantes": [
+            "Fragaria",
+            "morangueiro",
+            "strawberry",
+            "Fragaria × ananassa"
+          ]
+        },
+        {
+          "id": "minuano",
+          "nome": "Minuano",
+          "descricao": "Vento frio e seco de sudoeste que sopra no Rio Grande do Sul no inverno",
+          "variantes": [
+            "Vento minuano"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Ilha Ellis",
+        "descricao": "Ilha na baía de Nova York, perto da Estátua da Liberdade, hoje sede de um museu.",
+        "variantes": [
+          "Ellis Island"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_do_havai",
+          "nome": "Ilha do Havaí",
+          "descricao": "A maior ilha do arquipélago havaiano, conhecida como Big Island, onde ficam Mauna Kea, Mauna Loa e Kilauea.",
+          "variantes": [
+            "Big Island",
+            "Hawaii Island"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        },
+        {
+          "id": "lesbos",
+          "nome": "Lesbos",
+          "descricao": "Ilha grega no nordeste do mar Egeu, perto da costa da Turquia.",
+          "variantes": [
+            "Lesvos",
+            "Lesbos Island"
+          ]
+        },
+        {
+          "id": "ilhas_sevii",
+          "nome": "Ilhas Sevii",
+          "descricao": "Arquipélago perto de Kanto, explorado depois da Liga em Pokémon FireRed e LeafGreen.",
+          "variantes": [
+            "Sevii Islands",
+            "Nanashima"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Corrente de Humboldt",
+        "descricao": "Corrente oceânica fria do Pacífico que corre para o norte ao longo da costa do Chile e do Peru.",
+        "variantes": [
+          "Corrente do Peru",
+          "Humboldt Current"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrente_de_humboldt",
+          "nome": "Corrente de Humboldt",
+          "descricao": "Corrente marítima fria que corre para o norte ao longo da costa oeste da América do Sul",
+          "variantes": [
+            "Corrente do Peru",
+            "Humboldt Current"
+          ]
+        },
+        {
+          "id": "corrente_do_golfo",
+          "nome": "Corrente do Golfo",
+          "descricao": "Corrente oceânica quente que sai do golfo do México e atravessa o Atlântico Norte.",
+          "variantes": [
+            "Gulf Stream"
+          ]
+        },
+        {
+          "id": "alexander_von_humboldt",
+          "nome": "Alexander von Humboldt",
+          "descricao": "Naturalista, geógrafo e explorador alemão (1769–1859), pioneiro da biogeografia.",
+          "variantes": [
+            "Humboldt"
+          ]
+        },
+        {
+          "id": "corrente_vermelha",
+          "nome": "Corrente Vermelha",
+          "descricao": "Objeto criado por Cyrus em Pokémon Diamond, Pearl e Platinum para controlar os lendários Dialga e Palkia.",
+          "variantes": [
+            "Red Chain"
+          ]
+        },
+        {
+          "id": "carro_de_boi",
+          "nome": "Carro de boi",
+          "descricao": "Veículo rural de madeira com duas rodas, puxado por juntas de bois, tradicional no interior do Brasil.",
+          "variantes": [
+            "Carreta de boi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Estreito de Messina",
+        "descricao": "Estreito que separa a ilha da Sicília da Calábria, na ponta da península Itálica.",
+        "variantes": [
+          "Strait of Messina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estreito_de_bering",
+          "nome": "Estreito de Bering",
+          "descricao": "Estreito que liga o oceano Pacífico ao Ártico, entre a Sibéria e o Alasca.",
+          "variantes": [
+            "Bering Strait"
+          ]
+        },
+        {
+          "id": "estreito_de_magalhaes",
+          "nome": "Estreito de Magalhães",
+          "descricao": "Passagem marítima natural no extremo sul da América do Sul, entre o continente e a Terra do Fogo, que liga o Atlântico ao Pacífico.",
+          "variantes": [
+            "Estrecho de Magallanes"
+          ]
+        },
+        {
+          "id": "estreito_de_ormuz",
+          "nome": "Estreito de Ormuz",
+          "descricao": "Estreito entre o golfo Pérsico e o golfo de Omã, importante rota de petroleiros.",
+          "variantes": [
+            "Estreito de Hormuz"
+          ]
+        },
+        {
+          "id": "passagem_de_drake",
+          "nome": "Passagem de Drake",
+          "descricao": "Trecho de mar entre o cabo Horn, no sul da América do Sul, e a península Antártica.",
+          "variantes": [
+            "Estreito de Drake",
+            "Mar de Hoces"
+          ]
+        },
+        {
+          "id": "mesquita_do_profeta",
+          "nome": "Mesquita do Profeta",
+          "descricao": "Mesquita em Medina, Arábia Saudita, segunda mais sagrada do Islã, com a cúpula verde sobre o túmulo de Maomé.",
+          "variantes": [
+            "Al-Masjid an-Nabawi",
+            "Mesquita de Medina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Arquipélago",
+        "descricao": "Conceito geográfico: grupo de ilhas próximas umas das outras.",
+        "variantes": [
+          "Archipelago"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_laranja",
+          "nome": "Ilhas Laranja",
+          "descricao": "Arquipélago exclusivo do anime Pokémon, visitado por Ash depois de Kanto, onde ele vence a Liga Laranja.",
+          "variantes": [
+            "Orange Islands",
+            "Arquipélago Laranja",
+            "Orange Archipelago"
+          ]
+        },
+        {
+          "id": "ilhas_galapagos",
+          "nome": "Ilhas Galápagos",
+          "descricao": "Arquipélago vulcânico do Equador, no oceano Pacífico, famoso por sua fauna única.",
+          "variantes": [
+            "Galápagos",
+            "Arquipélago de Colón",
+            "Galapagos Islands"
+          ]
+        },
+        {
+          "id": "arquipelago_de_abrolhos",
+          "nome": "Arquipélago de Abrolhos",
+          "descricao": "Arquipélago no litoral sul da Bahia, sede do primeiro parque nacional marinho do Brasil.",
+          "variantes": [
+            "Abrolhos",
+            "Abrolhos Archipelago",
+            "Arquipélago dos Abrolhos",
+            "Parque Nacional Marinho dos Abrolhos"
+          ]
+        },
+        {
+          "id": "arquipelago_do_havai",
+          "nome": "Arquipélago do Havaí",
+          "descricao": "Cadeia de ilhas vulcânicas no centro do oceano Pacífico, que forma um estado dos Estados Unidos.",
+          "variantes": [
+            "Havaí",
+            "Hawaii",
+            "Ilhas Havaianas"
+          ]
+        },
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Cabo Horn",
+        "descricao": "Promontório da ilha Hornos, no Chile, considerado o extremo sul da América do Sul.",
+        "variantes": [
+          "Cape Horn",
+          "Cabo de Hornos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cidade_do_cabo",
+          "nome": "Cidade do Cabo",
+          "descricao": "Cidade portuária da África do Sul, ao pé da Montanha da Mesa.",
+          "variantes": [
+            "Cape Town",
+            "Kaapstad"
+          ]
+        },
+        {
+          "id": "cartao_perfurado",
+          "nome": "Cartão perfurado",
+          "descricao": "Cartão de papel rígido que guarda informações pela presença ou ausência de furos, usado em teares e computadores.",
+          "variantes": [
+            "Cartão de pontos",
+            "Punched card"
+          ]
+        },
+        {
+          "id": "alcaparra",
+          "nome": "Alcaparra",
+          "descricao": "Capparis spinosa, arbusto mediterrâneo cujos botões florais são usados como tempero em conserva.",
+          "variantes": [
+            "Alcaparreira",
+            "Capparis spinosa",
+            "Caper"
+          ]
+        },
+        {
+          "id": "acabou_chorare",
+          "nome": "Acabou Chorare",
+          "descricao": "Álbum dos Novos Baianos lançado em 1972.",
+          "variantes": []
+        },
+        {
+          "id": "bicorne",
+          "nome": "Bicorne",
+          "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+          "variantes": [
+            "Bicórnio",
+            "Chapéu bicorne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Ilha de São Luís",
+        "descricao": "Ilha do litoral do Maranhão onde fica a capital São Luís, chamada pelos tupinambás de Upaon-Açu.",
+        "variantes": [
+          "Ilha do Maranhão",
+          "Upaon-Açu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_do_maranhao",
+          "nome": "Ilha do Maranhão",
+          "descricao": "Ilha da costa do Maranhão onde fica a cidade de São Luís, também chamada Upaon-Açu.",
+          "variantes": [
+            "Ilha de São Luís",
+            "Upaon-Açu"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "hispaniola",
+          "nome": "Hispaniola",
+          "descricao": "Ilha das Grandes Antilhas, no mar do Caribe, entre Cuba e Porto Rico.",
+          "variantes": [
+            "La Española",
+            "Ilha de São Domingos",
+            "Española"
+          ]
+        },
+        {
+          "id": "ilha_fiscal",
+          "nome": "Ilha Fiscal",
+          "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
+          "variantes": [
+            "Ilha dos Ratos",
+            "Palácio da Ilha Fiscal"
+          ]
+        },
+        {
+          "id": "stromboli",
+          "nome": "Stromboli",
+          "descricao": "Ilha vulcânica das Ilhas Eólias, no Mar Tirreno, ao norte da Sicília.",
+          "variantes": [
+            "Ilha de Stromboli",
+            "Monte Stromboli",
+            "Vulcão Stromboli"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Melanésia",
+        "descricao": "Sub-região da Oceania no sudoeste do Pacífico, que inclui Nova Guiné, Ilhas Salomão, Vanuatu e Fiji.",
+        "variantes": [
+          "Melanesia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melancia",
+          "nome": "Melancia",
+          "descricao": "Planta rasteira Citrullus lanatus, da família Cucurbitaceae, que produz um grande fruto de polpa doce e suculenta.",
+          "variantes": [
+            "Citrullus lanatus"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "eclesia",
+          "nome": "Eclésia",
+          "descricao": "Assembleia dos cidadãos da Atenas democrática, que se reunia para votar leis, guerras e o ostracismo.",
+          "variantes": [
+            "Ekklesia",
+            "Ecclesia"
+          ]
+        },
+        {
+          "id": "melanie_anime",
+          "nome": "Melanie (anime)",
+          "descricao": "Moça do anime Pokémon que cuida de pokémon abandonados num vilarejo escondido de Kanto, protegido pelo Bulbasaur que depois segue Ash.",
+          "variantes": [
+            "Melanie"
+          ]
+        },
+        {
+          "id": "elesa",
+          "nome": "Elesa",
+          "descricao": "Líder do ginásio de tipo Elétrico de Nimbasa, em Unova, nos jogos Pokémon Black e White, também conhecida como modelo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Vitória",
+        "descricao": "Capital do estado do Espírito Santo, situada em grande parte numa ilha.",
+        "variantes": [
+          "Vitória (Espírito Santo)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taca_jules_rimet",
+          "nome": "Taça Jules Rimet",
+          "descricao": "Troféu da Copa do Mundo FIFA entre 1930 e 1970, entregue em definitivo ao Brasil e roubado no Rio de Janeiro em 1983.",
+          "variantes": [
+            "Jules Rimet",
+            "Copa Jules Rimet",
+            "Jules Rimet Trophy",
+            "Vitória"
+          ]
+        },
+        {
+          "id": "vitoria",
+          "nome": "Vitória",
+          "descricao": "Capital do estado do Espírito Santo, situada principalmente numa ilha.",
+          "variantes": [
+            "Vitória (Espírito Santo)"
+          ]
+        },
+        {
+          "id": "espirito_santo",
+          "nome": "Espírito Santo",
+          "descricao": "Estado do Sudeste do Brasil, com capital em Vitória.",
+          "variantes": []
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        },
+        {
+          "id": "tora",
+          "nome": "Torá",
+          "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+          "variantes": [
+            "Torah"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Ilhas Pitcairn",
+        "descricao": "Pequeno território britânico de ilhas vulcânicas no Pacífico Sul, com uma única vila, Adamstown.",
+        "variantes": [
+          "Pitcairn",
+          "Pitcairn Islands"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_pinkan",
+          "nome": "Ilha Pinkan",
+          "descricao": "Ilha das Ilhas Laranja, no anime Pokémon, reserva protegida onde os pokémon selvagens são cor-de-rosa.",
+          "variantes": [
+            "Pinkan Island"
+          ]
+        },
+        {
+          "id": "ilhas_virgens",
+          "nome": "Ilhas Virgens",
+          "descricao": "Arquipélago do Caribe, a leste de Porto Rico, dividido entre territórios dos Estados Unidos e do Reino Unido.",
+          "variantes": [
+            "Virgin Islands"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "ilhas_sevii",
+          "nome": "Ilhas Sevii",
+          "descricao": "Arquipélago perto de Kanto, explorado depois da Liga em Pokémon FireRed e LeafGreen.",
+          "variantes": [
+            "Sevii Islands",
+            "Nanashima"
+          ]
+        },
+        {
+          "id": "agave_americana",
+          "nome": "Agave-americana",
+          "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+          "variantes": [
+            "Planta-do-século",
+            "Piteira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Mar Vermelho",
+        "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+        "variantes": [
+          "Red Sea"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "manfred_von_richthofen",
+          "nome": "Manfred von Richthofen",
+          "descricao": "Aviador de caça alemão da Primeira Guerra Mundial, o ás com mais vitórias aéreas creditadas no conflito, morto em combate em 1918.",
+          "variantes": [
+            "Barão Vermelho",
+            "Red Baron",
+            "Der Rote Baron"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "char_aznable",
+          "nome": "Char Aznable",
+          "descricao": "Piloto mascarado rival de Amuro Ray em Mobile Suit Gundam, conhecido como o Cometa Vermelho.",
+          "variantes": [
+            "Cometa Vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Capri",
+        "descricao": "Ilha italiana do mar Tirreno, no golfo de Nápoles, famosa pela Gruta Azul.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "campari",
+          "nome": "Campari",
+          "descricao": "Aperitivo alcoólico italiano de cor vermelha e sabor amargo, criado em Novara por Gaspare Campari em 1860.",
+          "variantes": []
+        },
+        {
+          "id": "ocapi",
+          "nome": "Ocapi",
+          "descricao": "Mamífero das florestas do Congo com listras nas pernas, espécie Okapia johnstoni.",
+          "variantes": [
+            "Okapi",
+            "Okapia johnstoni"
+          ]
+        },
+        {
+          "id": "alcaparra",
+          "nome": "Alcaparra",
+          "descricao": "Capparis spinosa, arbusto mediterrâneo cujos botões florais são usados como tempero em conserva.",
+          "variantes": [
+            "Alcaparreira",
+            "Capparis spinosa",
+            "Caper"
+          ]
+        },
+        {
+          "id": "buzio_cauri",
+          "nome": "Búzio-cauri",
+          "descricao": "Concha de pequenos moluscos do oceano Índico, usada como moeda em várias regiões da África.",
+          "variantes": [
+            "Cauri",
+            "Cowrie",
+            "Búzio"
+          ]
+        },
+        {
+          "id": "catupiry",
+          "nome": "Catupiry",
+          "descricao": "Marca brasileira de requeijão cremoso criada em 1911 em Lambari, Minas Gerais.",
+          "variantes": [
+            "Catupiri"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Fiorde",
+        "descricao": "Conceito geográfico: braço de mar longo, estreito e profundo entre encostas íngremes, comum na Noruega.",
+        "variantes": [
+          "Fiorde",
+          "Fjord"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moltres",
+          "nome": "Moltres",
+          "descricao": "Pokémon lendário ave de fogo da primeira geração, número 146 da Pokédex Nacional.",
+          "variantes": [
+            "Fire",
+            "Moltres de Galar"
+          ]
+        },
+        {
+          "id": "rio_jordao",
+          "nome": "Rio Jordão",
+          "descricao": "Rio do Oriente Médio que corre do mar da Galileia até o Mar Morto.",
+          "variantes": [
+            "Jordão",
+            "Jordan River"
+          ]
+        },
+        {
+          "id": "sapato_oxford",
+          "nome": "Sapato Oxford",
+          "descricao": "Sapato social clássico de amarrar, com o cabedal fechado sobre a lingueta",
+          "variantes": [
+            "Oxford"
+          ]
+        },
+        {
+          "id": "furisode",
+          "nome": "Furisode",
+          "descricao": "Tipo de quimono japonês de mangas muito longas, usado por moças solteiras em ocasiões formais.",
+          "variantes": []
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel",
+            "Folheto de cordel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Maré",
+        "descricao": "Subida e descida periódica do nível do mar ao longo do dia.",
+        "variantes": [
+          "Marés"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "marvel_comics",
+          "nome": "Marvel Comics",
+          "descricao": "Editora americana de quadrinhos, casa do Homem-Aranha, dos X-Men e do Capitão América",
+          "variantes": [
+            "Marvel"
+          ]
+        },
+        {
+          "id": "mareep",
+          "nome": "Mareep",
+          "descricao": "Pokémon ovelha do tipo Elétrico, número 179 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "seattle_mariners",
+          "nome": "Seattle Mariners",
+          "descricao": "Time de beisebol da cidade americana de Seattle, da liga MLB.",
+          "variantes": [
+            "Mariners"
+          ]
+        },
+        {
+          "id": "camaroes",
+          "nome": "Camarões",
+          "descricao": "País da África Central cujo nome vem do Rio dos Camarões, batizado por navegadores portugueses",
+          "variantes": [
+            "Cameroon",
+            "Cameroun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Tsunami",
+        "descricao": "Série de ondas gigantes geradas pelo deslocamento repentino de uma grande massa de água.",
+        "variantes": [
+          "Maremoto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tsunami",
+          "nome": "Tsunami",
+          "descricao": "Série de ondas oceânicas gigantes provocadas por deslocamento súbito de água, em geral por terremotos submarinos.",
+          "variantes": [
+            "Maremoto"
+          ]
+        },
+        {
+          "id": "mar_morto",
+          "nome": "Mar Morto",
+          "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+          "variantes": [
+            "Dead Sea",
+            "Mar Salgado"
+          ]
+        },
+        {
+          "id": "isoroku_yamamoto",
+          "nome": "Isoroku Yamamoto",
+          "descricao": "Almirante da Marinha Imperial Japonesa, comandante da Frota Combinada, morto em 1943.",
+          "variantes": [
+            "Yamamoto"
+          ]
+        },
+        {
+          "id": "atum",
+          "nome": "Atum",
+          "descricao": "Peixe oceânico veloz da tribo Thunnini, de corpo fusiforme, muito usado na alimentação.",
+          "variantes": [
+            "Thunnus",
+            "Tuna"
+          ]
+        },
+        {
+          "id": "suriname",
+          "nome": "Suriname",
+          "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+          "variantes": [
+            "Surinam",
+            "República do Suriname"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Bermudas",
+        "descricao": "Território ultramarino britânico formado por um grupo de ilhas no Atlântico Norte, a leste dos Estados Unidos.",
+        "variantes": [
+          "Bermuda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "buda",
+          "nome": "Buda",
+          "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo.",
+          "variantes": [
+            "Sidarta Gautama",
+            "Siddhartha Gautama",
+            "Buddha",
+            "Gautama Buda",
+            "Buda Gautama",
+            "Buda Shakyamuni"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        },
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "vereda",
+          "nome": "Vereda",
+          "descricao": "Paisagem úmida do Cerrado formada em torno de nascentes e brejos, marcada por fileiras de palmeiras",
+          "variantes": [
+            "Veredas"
+          ]
+        },
+        {
+          "id": "pablo_neruda",
+          "nome": "Pablo Neruda",
+          "descricao": "Poeta chileno (1904–1973), Nobel de Literatura em 1971, autor de Vinte Poemas de Amor e uma Canção Desesperada.",
+          "variantes": [
+            "Ricardo Eliécer Neftalí Reyes Basoalto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Bora Bora",
+        "descricao": "Ilha do Pacífico Sul nas ilhas da Sociedade, cercada por uma lagoa e um recife de coral.",
+        "variantes": [
+          "Bora-Bora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bjorn_borg",
+          "nome": "Björn Borg",
+          "descricao": "Tenista sueco nascido em 1956, campeão de Wimbledon e de Roland Garros entre 1974 e 1981.",
+          "variantes": []
+        },
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "evangelho",
+          "nome": "Evangelho",
+          "descricao": "Cada um dos relatos da vida e dos ensinamentos de Jesus, e a mensagem cristã em geral",
+          "variantes": [
+            "Evangelhos",
+            "Boa-nova"
+          ]
+        },
+        {
+          "id": "air_jordan",
+          "nome": "Air Jordan",
+          "descricao": "Linha de tênis e roupas esportivas criada para Michael Jordan, lançada em 1985.",
+          "variantes": [
+            "Jordan Brand",
+            "Air Jordan 1"
+          ]
+        },
+        {
+          "id": "taiga",
+          "nome": "Taiga",
+          "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte",
+          "variantes": [
+            "Floresta boreal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Florianópolis",
+        "descricao": "Capital do estado de Santa Catarina, no Sul do Brasil, com a maior parte do território numa ilha.",
+        "variantes": [
+          "Floripa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "fluorita",
+          "nome": "Fluorita",
+          "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+          "variantes": [
+            "Fluorspar",
+            "Espatoflúor",
+            "Fluorite",
+            "Espato-flúor"
+          ]
+        },
+        {
+          "id": "fosbury_flop",
+          "nome": "Fosbury Flop",
+          "descricao": "Técnica do salto em altura em que o atleta passa de costas sobre o sarrafo.",
+          "variantes": [
+            "Salto Fosbury",
+            "Flop",
+            "Estilo Fosbury"
+          ]
+        },
+        {
+          "id": "formiga",
+          "nome": "Formiga",
+          "descricao": "Miraildes Maciel Mota, volante da seleção brasileira feminina entre 1995 e 2021.",
+          "variantes": [
+            "Miraildes Maciel Mota"
+          ]
+        },
+        {
+          "id": "formiga_2",
+          "nome": "Formiga",
+          "descricao": "Inseto social da família Formicidae, da ordem dos himenópteros.",
+          "variantes": [
+            "Formicidae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Lindisfarne",
+        "descricao": "Ilha de maré na costa nordeste da Inglaterra, sede de um mosteiro medieval, também chamada Ilha Sagrada.",
+        "variantes": [
+          "Holy Island",
+          "Ilha Sagrada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lindisfarne",
+          "nome": "Lindisfarne",
+          "descricao": "Ilha de maré no nordeste da Inglaterra, sede de um mosteiro saqueado pelos vikings em 793.",
+          "variantes": [
+            "Ilha Sagrada",
+            "Holy Island"
+          ]
+        },
+        {
+          "id": "ilha_grande",
+          "nome": "Ilha Grande",
+          "descricao": "Ilha do município de Angra dos Reis, no litoral sul do estado do Rio de Janeiro.",
+          "variantes": [
+            "Ilha Grande de Angra dos Reis"
+          ]
+        },
+        {
+          "id": "pilha_aaa",
+          "nome": "Pilha AAA",
+          "descricao": "Pilha cilíndrica de tamanho padrão AAA, chamada no Brasil de pilha palito.",
+          "variantes": [
+            "Pilha palito",
+            "Pilha triplo A"
+          ]
+        },
+        {
+          "id": "evangelhos_de_lindisfarne",
+          "nome": "Evangelhos de Lindisfarne",
+          "descricao": "Manuscrito iluminado em latim de arte insular, produzido por volta de 715 a 720 no mosteiro de Lindisfarne, hoje na Biblioteca Britânica.",
+          "variantes": [
+            "Lindisfarne Gospels",
+            "Livro de Lindisfarne"
+          ]
+        },
+        {
+          "id": "giralda",
+          "nome": "Giralda",
+          "descricao": "Torre sineira da Catedral de Sevilha, na Espanha, coroada por um cata-vento em forma de estátua.",
+          "variantes": [
+            "La Giralda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Eurotúnel",
+        "descricao": "Túnel ferroviário sob o canal da Mancha que liga a Inglaterra à França.",
+        "variantes": [
+          "Túnel do Canal da Mancha",
+          "Channel Tunnel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tunel_do_canal_da_mancha",
+          "nome": "Túnel do Canal da Mancha",
+          "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994.",
+          "variantes": [
+            "Eurotúnel",
+            "Channel Tunnel",
+            "Chunnel"
+          ]
+        },
+        {
+          "id": "canal_da_mancha",
+          "nome": "Canal da Mancha",
+          "descricao": "Braço do oceano Atlântico que separa a Inglaterra do norte da França.",
+          "variantes": [
+            "English Channel",
+            "La Manche"
+          ]
+        },
+        {
+          "id": "enguia_europeia",
+          "nome": "Enguia-europeia",
+          "descricao": "Peixe serpentiforme (Anguilla anguilla) que vive em rios europeus e migra ao oceano para desovar.",
+          "variantes": [
+            "Anguilla anguilla",
+            "European eel",
+            "Enguia"
+          ]
+        },
+        {
+          "id": "grande_canal_da_china",
+          "nome": "Grande Canal da China",
+          "descricao": "Sistema de canais artificiais da China, ampliado na dinastia Sui, que liga Pequim a Hangzhou.",
+          "variantes": [
+            "Grand Canal",
+            "Canal Pequim-Hangzhou",
+            "Da Yunhe"
+          ]
+        },
+        {
+          "id": "chandelure",
+          "nome": "Chandelure",
+          "descricao": "Pokémon dos tipos Fantasma e Fogo, número 609 da Pokédex Nacional.",
+          "variantes": [
+            "Shandera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Iceberg",
+        "descricao": "Grande bloco de gelo de água doce que se desprende de uma geleira e flutua no mar.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "iceberg",
+          "nome": "Iceberg",
+          "descricao": "Grande bloco de gelo de água doce desprendido de uma geleira ou plataforma de gelo, que flutua no mar.",
+          "variantes": []
+        },
+        {
+          "id": "werner_heisenberg",
+          "nome": "Werner Heisenberg",
+          "descricao": "Físico teórico alemão (1901–1976), autor do princípio da incerteza e Nobel de Física de 1932.",
+          "variantes": [
+            "Heisenberg"
+          ]
+        },
+        {
+          "id": "programa_cbers",
+          "nome": "Programa CBERS",
+          "descricao": "Programa de satélites de observação da Terra desenvolvidos em conjunto por Brasil e China, com o primeiro lançado em 1999.",
+          "variantes": [
+            "CBERS",
+            "Satélite Sino-Brasileiro de Recursos Terrestres"
+          ]
+        },
+        {
+          "id": "ice_beam",
+          "nome": "Ice Beam",
+          "descricao": "Golpe de pokémon do tipo Gelo, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "nico_rosberg",
+          "nome": "Nico Rosberg",
+          "descricao": "Piloto alemão campeão mundial de Fórmula 1 em 2016, filho do finlandês Keke Rosberg.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "A Ilha do Tesouro",
+        "descricao": "Romance de aventura sobre piratas e um mapa de tesouro, publicado em livro em 1883.",
+        "variantes": [
+          "Treasure Island",
+          "Ilha do Tesouro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        },
+        {
+          "id": "petra_al_khazneh",
+          "nome": "Petra (Al-Khazneh)",
+          "descricao": "Tumba nabateia esculpida na rocha, chamada de Tesouro, na cidade antiga de Petra, na Jordânia.",
+          "variantes": [
+            "Al-Khazneh",
+            "O Tesouro",
+            "Petra"
+          ]
+        },
+        {
+          "id": "a_ilha_dos_mortos",
+          "nome": "A Ilha dos Mortos",
+          "descricao": "Pintura simbolista de Arnold Böcklin, em várias versões entre 1880 e 1901.",
+          "variantes": [
+            "Die Toteninsel",
+            "Island of the Dead"
+          ]
+        },
+        {
+          "id": "antares",
+          "nome": "Antares",
+          "descricao": "Estrela supergigante vermelha, a mais brilhante da constelação de Escorpião.",
+          "variantes": [
+            "Alfa do Escorpião"
+          ]
+        },
+        {
+          "id": "ilha_do_mel",
+          "nome": "Ilha do Mel",
+          "descricao": "Ilha na entrada da baía de Paranaguá, conhecida pelas praias, pelo farol e pela proibição de carros.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Oceano Ártico é um oceano; 'Ártico' é a região polar, entidade diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "madagascar",
+      "motivo": "Mesmo país insular."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ilha de Honshu."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ilha da Sardenha."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "maldivas",
+      "motivo": "Mesmo país."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Baía de Fundy."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tristão da Cunha."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde às Ilhas do Canal."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde às Grandes Antilhas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "moais_da_ilha_de_pascoa",
+      "motivo": "Mesmas estátuas rapanui."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Arquipélago da Madeira difere do Rio Madeira e demais."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "O arquipélago difere da ave Canário."
+    },
+    {
+      "caso": 13,
+      "decisao": "mesma",
+      "id_existente": "recife",
+      "motivo": "Mesma capital de Pernambuco."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "O Mar Báltico difere dos países bálticos."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Mar Negro."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Murano."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Ellis Island."
+    },
+    {
+      "caso": 18,
+      "decisao": "mesma",
+      "id_existente": "corrente_de_humboldt",
+      "motivo": "Mesma corrente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Estreito de Messina."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Conceito genérico, distinto de arquipélagos específicos."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Cabo Horn."
+    },
+    {
+      "caso": 22,
+      "decisao": "mesma",
+      "id_existente": "ilha_do_maranhao",
+      "motivo": "Mesma ilha de São Luís/Upaon-Açu."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Melanésia."
+    },
+    {
+      "caso": 24,
+      "decisao": "mesma",
+      "id_existente": "vitoria",
+      "motivo": "Mesma capital capixaba."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata são as Ilhas Pitcairn."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Mar Vermelho."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ilha de Capri."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é fiorde."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a maré."
+    },
+    {
+      "caso": 30,
+      "decisao": "mesma",
+      "id_existente": "tsunami",
+      "motivo": "Mesmo fenômeno."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata são as Bermudas."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Bora Bora."
+    },
+    {
+      "caso": 33,
+      "decisao": "mesma",
+      "id_existente": "florianopolis",
+      "motivo": "Mesma capital catarinense."
+    },
+    {
+      "caso": 34,
+      "decisao": "mesma",
+      "id_existente": "lindisfarne",
+      "motivo": "Mesma ilha de maré."
+    },
+    {
+      "caso": 35,
+      "decisao": "mesma",
+      "id_existente": "tunel_do_canal_da_mancha",
+      "motivo": "Mesmo túnel."
+    },
+    {
+      "caso": 36,
+      "decisao": "mesma",
+      "id_existente": "iceberg",
+      "motivo": "Mesmo conceito."
+    },
+    {
+      "caso": 37,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o romance."
+    }
+  ]
+}
