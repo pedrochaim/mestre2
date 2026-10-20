@@ -1,0 +1,501 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Enxofre",
+        "descricao": "Elemento químico de símbolo S, encontrado como mineral nativo amarelo cristalino.",
+        "variantes": [
+          "Enxofre nativo",
+          "Sulfur"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "enxofre",
+          "nome": "Enxofre",
+          "descricao": "Elemento químico de símbolo S e número atômico 16, sólido amarelo.",
+          "variantes": [
+            "Enxofre nativo",
+            "Sulfur"
+          ]
+        },
+        {
+          "id": "cobre",
+          "nome": "Cobre",
+          "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+          "variantes": [
+            "Cu",
+            "Cobre nativo",
+            "Cuprum"
+          ]
+        },
+        {
+          "id": "uluru",
+          "nome": "Uluru",
+          "descricao": "Grande monólito de arenito no centro da Austrália, sagrado para o povo aborígene Anangu.",
+          "variantes": [
+            "Ayers Rock",
+            "Uluru / Ayers Rock"
+          ]
+        },
+        {
+          "id": "pepita_de_ouro",
+          "nome": "Pepita de ouro",
+          "descricao": "Pedaço natural de ouro nativo, comum em depósitos de aluvião.",
+          "variantes": [
+            "Pepita",
+            "Ouro nativo"
+          ]
+        },
+        {
+          "id": "fidelio",
+          "nome": "Fidelio",
+          "descricao": "Ópera de Ludwig van Beethoven sobre uma mulher que se disfarça de homem para libertar o marido preso, em versão final de 1814.",
+          "variantes": [
+            "Leonore"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Fluorita",
+        "descricao": "Mineral de fluoreto de cálcio (CaF2), de cristais cúbicos e muitas cores.",
+        "variantes": [
+          "Fluorspar",
+          "Espatoflúor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fluorita",
+          "nome": "Fluorita",
+          "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+          "variantes": [
+            "Fluorspar",
+            "Espatoflúor",
+            "Fluorite",
+            "Espato-flúor"
+          ]
+        },
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        },
+        {
+          "id": "fluor",
+          "nome": "Flúor",
+          "descricao": "Elemento químico de número atômico 9, halogênio gasoso amarelo-claro, extremamente reativo.",
+          "variantes": []
+        },
+        {
+          "id": "lapis_lazuli",
+          "nome": "Lápis-lazúli",
+          "descricao": "Rocha metamórfica azul-escura composta sobretudo de lazurita, usada como pedra semipreciosa.",
+          "variantes": [
+            "Lazurita"
+          ]
+        },
+        {
+          "id": "lolita",
+          "nome": "Lolita",
+          "descricao": "Romance de Vladimir Nabokov, publicado em 1955.",
+          "variantes": [
+            "Lolita (romance)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Caverna dos Cristais de Naica",
+        "descricao": "Caverna na mina de Naica, em Chihuahua, com cristais gigantes de selenita.",
+        "variantes": [
+          "Caverna de Naica",
+          "Cueva de los Cristales",
+          "Cave of the Crystals"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caverna_dos_cristais",
+          "nome": "Caverna dos Cristais",
+          "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+          "variantes": [
+            "Cueva de los Cristales",
+            "Cave of the Crystals"
+          ]
+        },
+        {
+          "id": "caverna_de_lascaux",
+          "nome": "Caverna de Lascaux",
+          "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos.",
+          "variantes": [
+            "Lascaux",
+            "Grotte de Lascaux"
+          ]
+        },
+        {
+          "id": "caverna_de_altamira",
+          "nome": "Caverna de Altamira",
+          "descricao": "Caverna na Cantábria, Espanha, famosa pelos bisões pintados no Paleolítico.",
+          "variantes": [
+            "Altamira",
+            "Cueva de Altamira",
+            "Cave of Altamira"
+          ]
+        },
+        {
+          "id": "lenda_da_vitoria_regia",
+          "nome": "Lenda da vitória-régia",
+          "descricao": "Lenda indígena amazônica sobre a jovem Naiá, transformada em planta aquática pela Lua.",
+          "variantes": [
+            "Lenda de Naiá"
+          ]
+        },
+        {
+          "id": "caverna_de_shanidar",
+          "nome": "Caverna de Shanidar",
+          "descricao": "Caverna nos montes Zagros onde foram achados esqueletos de Neandertais, alguns com sinais de sepultamento.",
+          "variantes": [
+            "Shanidar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estalactite",
+        "descricao": "Formação mineral que pende do teto de cavernas.",
+        "variantes": [
+          "Estalactites",
+          "Stalactite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estalactite",
+          "nome": "Estalactite",
+          "descricao": "Formação mineral que pende do teto de cavernas, depositada pela água que goteja.",
+          "variantes": [
+            "Stalactite"
+          ]
+        },
+        {
+          "id": "cesar_lattes",
+          "nome": "César Lattes",
+          "descricao": "Físico brasileiro nascido em Curitiba (1924–2005), um dos descobridores do méson pi.",
+          "variantes": [
+            "Cesare Mansueto Giulio Lattes"
+          ]
+        },
+        {
+          "id": "malaquita",
+          "nome": "Malaquita",
+          "descricao": "Mineral de carbonato hidróxido de cobre, verde e bandado, de fórmula Cu2CO3(OH)2.",
+          "variantes": [
+            "Malachite"
+          ]
+        },
+        {
+          "id": "petalita",
+          "nome": "Petalita",
+          "descricao": "Mineral de silicato de lítio e alumínio, descrito por José Bonifácio na ilha sueca de Utö por volta de 1800.",
+          "variantes": [
+            "Petalite",
+            "Castorita"
+          ]
+        },
+        {
+          "id": "afogamento_xadrez",
+          "nome": "Afogamento (xadrez)",
+          "descricao": "Situação do xadrez em que o jogador da vez não está em xeque mas não tem nenhum lance legal.",
+          "variantes": [
+            "Stalemate",
+            "Rei afogado"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Calcita",
+        "descricao": "Mineral de carbonato de cálcio (CaCO3), componente do calcário, de dureza 3 na escala de Mohs.",
+        "variantes": [
+          "Calcite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        },
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        },
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        },
+        {
+          "id": "malaquita",
+          "nome": "Malaquita",
+          "descricao": "Mineral de carbonato hidróxido de cobre, verde e bandado, de fórmula Cu2CO3(OH)2.",
+          "variantes": [
+            "Malachite"
+          ]
+        },
+        {
+          "id": "calopsita",
+          "nome": "Calopsita",
+          "descricao": "Pequena ave da família dos cacatuas (Nymphicus hollandicus), nativa da Austrália e muito criada como animal de estimação.",
+          "variantes": [
+            "Nymphicus hollandicus",
+            "Cockatiel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Estibinita",
+        "descricao": "Sulfeto de antimônio (Sb2S3), principal minério de antimônio, em cristais prismáticos cinza metálicos.",
+        "variantes": [
+          "Estibina",
+          "Antimonita",
+          "Stibnite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tibia",
+          "nome": "Tíbia",
+          "descricao": "Osso longo da perna, entre o joelho e o tornozelo, que forma a canela.",
+          "variantes": [
+            "Osso da canela"
+          ]
+        },
+        {
+          "id": "amonia",
+          "nome": "Amônia",
+          "descricao": "Composto de nitrogênio e hidrogênio, gás de cheiro forte usado em fertilizantes e produtos de limpeza.",
+          "variantes": [
+            "Amoníaco",
+            "Ammonia"
+          ]
+        },
+        {
+          "id": "retina",
+          "nome": "Retina",
+          "descricao": "Camada sensível à luz no fundo do olho, onde ficam as células fotorreceptoras.",
+          "variantes": []
+        },
+        {
+          "id": "inuites",
+          "nome": "Inuítes",
+          "descricao": "Povos indígenas das regiões árticas do Canadá, da Groenlândia e do Alasca, antes chamados de esquimós.",
+          "variantes": [
+            "Inuit",
+            "Inuíte"
+          ]
+        },
+        {
+          "id": "amonite",
+          "nome": "Amonite",
+          "descricao": "Grupo extinto de moluscos cefalópodes marinhos de concha em espiral, muito comuns como fósseis.",
+          "variantes": [
+            "Amonoide",
+            "Ammonoidea",
+            "Ammonite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Turquesa",
+        "descricao": "Mineral opaco azul a verde, fosfato hidratado de cobre e alumínio, usado como gema.",
+        "variantes": [
+          "Turquoise"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "turcomenistao",
+          "nome": "Turcomenistão",
+          "descricao": "País sem litoral oceânico da Ásia Central, à margem do Mar Cáspio, com capital em Asgabate.",
+          "variantes": [
+            "Turquemenistão",
+            "Turcomênia"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        },
+        {
+          "id": "urupes",
+          "nome": "Urupês",
+          "descricao": "Livro de contos de Monteiro Lobato publicado em 1918, voltado ao público adulto, que popularizou o caipira Jeca Tatu.",
+          "variantes": [
+            "Urupês (livro)"
+          ]
+        },
+        {
+          "id": "uruk",
+          "nome": "Uruk",
+          "descricao": "Antiga cidade suméria da Baixa Mesopotâmia, onde surgiram alguns dos primeiros registros escritos.",
+          "variantes": [
+            "Erech",
+            "Warka",
+            "Uruque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rosa do deserto",
+        "descricao": "Formação de cristais de gipsita ou barita em forma de rosa, com grãos de areia.",
+        "variantes": [
+          "Rosa das areias",
+          "Desert rose",
+          "Rosa do Saara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "feneco",
+          "nome": "Feneco",
+          "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+          "variantes": [
+            "Raposa-do-deserto",
+            "Vulpes zerda",
+            "Fennec"
+          ]
+        },
+        {
+          "id": "gaara",
+          "nome": "Gaara",
+          "descricao": "Ninja de Sunagakure de cabelo vermelho, jinchuuriki do Shukaku e depois Kazekage, no mangá e anime Naruto.",
+          "variantes": [
+            "Gaara do Deserto",
+            "Gaara of the Sand"
+          ]
+        },
+        {
+          "id": "fossa_das_marianas",
+          "nome": "Fossa das Marianas",
+          "descricao": "Fossa oceânica no oeste do Pacífico, onde fica o ponto mais profundo conhecido dos oceanos.",
+          "variantes": [
+            "Mariana Trench"
+          ]
+        },
+        {
+          "id": "deserto",
+          "nome": "Deserto",
+          "descricao": "Tipo de região, quente ou fria, onde a precipitação é muito baixa",
+          "variantes": []
+        },
+        {
+          "id": "deserto_do_saara",
+          "nome": "Deserto do Saara",
+          "descricao": "Maior deserto quente do mundo, que ocupa grande parte do norte da África.",
+          "variantes": [
+            "Saara",
+            "Sahara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "enxofre",
+      "motivo": "Mesmo elemento químico S, enxofre."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "fluorita",
+      "motivo": "Mesmo mineral CaF2."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A candidata 'Caverna dos Cristais' parece a mesma caverna de Naica, mas o nome e a descrição diferem um pouco; na dúvida, nova."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "estalactite",
+      "motivo": "Mesma formação mineral, estalactite."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é calcita; malaquita é outro mineral."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é estibinita."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Turquesa (mineral) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Rosa do deserto é uma formação mineral, diferente do deserto ou do Saara."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ouro nativo também é um mineral amarelo de um único elemento, então a resposta não é única. A pista de composição quase entrega a resposta. Trocada por uma pista de cor e forma.",
+      "reescrita": {
+        "pergunta": "Que mineral de cristais amarelos é este?",
+        "resposta": "Enxofre",
+        "distratores": [
+          "Orpimenta",
+          "Pirita",
+          "Citrino"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento. Os distratores são minerais plausíveis e nenhum descreve a imagem. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A caverna fica em Naica, Chihuahua, México. A resposta é única e o enunciado não vaza nada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As estalactites pendem do teto das cavernas. Os distratores são do mesmo tipo e têm no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista que entregue a resposta. Os distratores são minerais plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bismutinita também tem cristais alongados e brilho metálico, então a pista não distingue a resposta de um distrator. Pergunta simplificada e distrator trocado.",
+      "reescrita": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Estibinita",
+        "distratores": [
+          "Pirolusita",
+          "Molibdenita",
+          "Hematita"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gema opaca azul-esverdeada' entrega a resposta no teste da imagem coberta, e 'turquesa' também é o nome de uma cor. Pista removida.",
+      "reescrita": {
+        "pergunta": "Que mineral, usado como gema, é este, ainda em estado bruto?",
+        "resposta": "Turquesa",
+        "distratores": [
+          "Crisocola",
+          "Amazonita",
+          "Malaquita"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento. 'Rosa do deserto' é o nome mais conhecido da formação.",
+      "reescrita": null
+    }
+  ]
+}

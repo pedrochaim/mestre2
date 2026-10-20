@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mineral de cristais amarelos é este?",
+        "resposta": "Enxofre"
+      },
+      "existentes": [
+        {
+          "id": "q08159",
+          "pergunta": "Que elemento químico forma estes cristais?",
+          "resposta": "Enxofre"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que mineral é este?",
+        "resposta": "Fluorita"
+      },
+      "existentes": [
+        {
+          "id": "q01860",
+          "pergunta": "A que grupo de minerais pertence este?",
+          "resposta": "Haletos"
+        },
+        {
+          "id": "q03147",
+          "pergunta": "O que o nome do elemento flúor e o nome do fenômeno da fluorescência têm em comum?",
+          "resposta": "Ambos vêm do mineral fluorita"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Como se chamam estas formações de caverna?",
+        "resposta": "Estalactites"
+      },
+      "existentes": [
+        {
+          "id": "q09200",
+          "pergunta": "Nas cavernas de calcário, estalactites e estalagmites são formadas principalmente por que mineral?",
+          "resposta": "Calcita"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação da imagem com a mesma resposta, Enxofre.",
+      "id_existente": "q08159"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do mineral (Fluorita); as existentes tratam do grupo e da origem do nome, que são fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome das formações (estalactites); a existente pede o mineral que as forma (calcita)."
+    }
+  ]
+}

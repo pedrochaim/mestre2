@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cristais amarelos de enxofre nativo, nítidos e reconhecíveis. Sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral amarelo, formado por um único elemento químico, é este?",
+      "resposta": "Enxofre",
+      "distratores": [
+        "Orpimenta",
+        "Pirita",
+        "Citrino"
+      ],
+      "ancora": {
+        "nome": "Enxofre",
+        "descricao": "Elemento químico de símbolo S, encontrado como mineral nativo amarelo cristalino.",
+        "variantes": [
+          "Enxofre nativo",
+          "Sulfur"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cubos translúcidos azul-esverdeados de fluorita sobre fundo preto, imagem nítida e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Fluorita",
+      "distratores": [
+        "Celestita",
+        "Barita",
+        "Azurita"
+      ],
+      "ancora": {
+        "nome": "Fluorita",
+        "descricao": "Mineral de fluoreto de cálcio (CaF2), de cristais cúbicos e muitas cores.",
+        "variantes": [
+          "Fluorspar",
+          "Espatoflúor"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução; amostra vermelha e cinza pouco característica, que pode ser confundida com outros minerais (realgar, hematita). Resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aglomerado branco de cristais que pode ser confundido com gipsita ou calcita; há ainda régua com texto '15cm'. Resposta pouco segura diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Cristal verde bruto, sem forma característica: pode ser peridoto, mas também outros minerais verdes. Pergunta boa não evita citar a gema (também correta para a imagem)."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristais gigantes de selenita da caverna de Naica, muito característicos, com um mineiro de capacete como escala (silhueta distante, sem identificação).",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta caverna?",
+      "resposta": "México",
+      "ancora": {
+        "nome": "Caverna dos Cristais de Naica",
+        "descricao": "Caverna na mina de Naica, em Chihuahua, com cristais gigantes de selenita.",
+        "variantes": [
+          "Caverna de Naica",
+          "Cueva de los Cristales",
+          "Cave of the Crystals"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Estalactites pendendo do teto de uma caverna, bem visíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chamam estas formações de caverna?",
+      "resposta": "Estalactites",
+      "distratores": [
+        "Estalagmites",
+        "Helictites",
+        "Cortinas de caverna"
+      ],
+      "ancora": {
+        "nome": "Estalactite",
+        "descricao": "Formação mineral que pende do teto de cavernas.",
+        "variantes": [
+          "Estalactites",
+          "Stalactite"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cristal escalenoédrico de calcita sobre fundo preto, com pirita na base; forma característica, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Calcita",
+      "distratores": [
+        "Barita",
+        "Gipsita",
+        "Apatita"
+      ],
+      "ancora": {
+        "nome": "Calcita",
+        "descricao": "Mineral de carbonato de cálcio (CaCO3), componente do calcário, de dureza 3 na escala de Mohs.",
+        "variantes": [
+          "Calcite"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Agregado de cristais prismáticos alongados, negros e de brilho metálico, típico da estibinita; etiqueta de museu praticamente ilegível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral, de cristais alongados e brilho metálico, é este?",
+      "resposta": "Estibinita",
+      "distratores": [
+        "Pirolusita",
+        "Bismutinita",
+        "Hematita"
+      ],
+      "ancora": {
+        "nome": "Estibinita",
+        "descricao": "Sulfeto de antimônio (Sb2S3), principal minério de antimônio, em cristais prismáticos cinza metálicos.",
+        "variantes": [
+          "Estibina",
+          "Antimonita",
+          "Stibnite"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bloco bruto de turquesa azul-esverdeada em matriz marrom, cor característica; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que gema opaca azul-esverdeada é esta, ainda em estado bruto?",
+      "resposta": "Turquesa",
+      "distratores": [
+        "Crisocola",
+        "Amazonita",
+        "Malaquita"
+      ],
+      "ancora": {
+        "nome": "Turquesa",
+        "descricao": "Mineral opaco azul a verde, fosfato hidratado de cobre e alumínio, usado como gema.",
+        "variantes": [
+          "Turquoise"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Rosa do deserto nítida sobre fundo preto, com 'pétalas' características.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que formação mineral é esta?",
+      "resposta": "Rosa do deserto",
+      "ancora": {
+        "nome": "Rosa do deserto",
+        "descricao": "Formação de cristais de gipsita ou barita em forma de rosa, com grãos de areia.",
+        "variantes": [
+          "Rosa das areias",
+          "Desert rose",
+          "Rosa do Saara"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Esfera azul polida: pode ser lápis-lazúli, mas também sodalita, dumortierita ou quartzo azul. Resposta não única diante da imagem."
+    }
+  ]
+}
