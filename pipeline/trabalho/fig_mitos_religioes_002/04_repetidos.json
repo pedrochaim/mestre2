@@ -1,0 +1,121 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica este santuário de cúpula dourada?",
+        "resposta": "Jerusalém"
+      },
+      "existentes": [
+        {
+          "id": "q08991",
+          "pergunta": "Em que século foi construído este santuário?",
+          "resposta": "Século sete (691–692)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade do Egito ficava o principal templo deste deus?",
+        "resposta": "Hermópolis"
+      },
+      "existentes": [
+        {
+          "id": "q06392",
+          "pergunta": "Os gregos identificaram Thoth, o deus egípcio da escrita e da sabedoria, com qual deus do seu próprio panteão?",
+          "resposta": "Hermes"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Com que planeta este deus asteca era associado?",
+        "resposta": "Vênus"
+      },
+      "existentes": [
+        {
+          "id": "q03488",
+          "pergunta": "Em náuatle, o nome do deus Quetzalcóatl junta o quetzal, uma ave de penas verdes, a que outro animal?",
+          "resposta": "Serpente"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Este amuleto é popular no Oriente Médio e no Norte da África. Contra o que ele é considerado proteção?",
+        "resposta": "Mau-olhado"
+      },
+      "existentes": [
+        {
+          "id": "q06619",
+          "pergunta": "O amuleto em forma de mão aberta, o hamsa, é chamado por muitos muçulmanos de mão de qual mulher, filha do profeta Maomé?",
+          "resposta": "Fátima"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que deus egípcio é este?",
+        "resposta": "Anúbis"
+      },
+      "existentes": [
+        {
+          "id": "q06397",
+          "pergunta": "Anúbis, o deus egípcio que protegia os mortos e presidia a mumificação, era representado com a cabeça de qual animal?",
+          "resposta": "Chacal"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que deus era irmão e marido desta deusa egípcia?",
+        "resposta": "Osíris"
+      },
+      "existentes": [
+        {
+          "id": "q13654",
+          "pergunta": "Nas pinturas egípcias, a deusa Ísis costuma levar sobre a cabeça o hieróglifo do próprio nome. Que objeto ele desenha?",
+          "resposta": "Um trono"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cidade e século de construção são fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Local do templo é diferente da equivalência grega."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Planeta associado difere do significado do nome."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Proteção contra o mau-olhado difere do nome 'mão de Fátima'."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q06397",
+      "motivo": "Identificar o deus Anúbis é o mesmo fato da pergunta existente, que já o nomeia, mas a nova pergunta pede o nome; quem sabe a cabeça de chacal identifica Anúbis."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Parentesco com Osíris difere do hieróglifo do trono."
+    }
+  ]
+}

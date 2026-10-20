@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Monumento claro, inscrições árabes não entregam a resposta.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este santuário de cúpula dourada?",
+      "resposta": "Jerusalém",
+      "distratores": [
+        "Meca",
+        "Damasco",
+        "Istambul"
+      ],
+      "ancora": {
+        "nome": "Cúpula da Rocha",
+        "descricao": "Santuário islâmico octogonal de cúpula dourada, construído no século sete no Monte do Templo, em Jerusalém.",
+        "variantes": [
+          "Domo da Rocha",
+          "Dome of the Rock"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Deus com cabeça de íbis, ilustração nítida e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade do Egito ficava o principal templo deste deus?",
+      "resposta": "Hermópolis",
+      "distratores": [
+        "Mênfis",
+        "Tebas",
+        "Heliópolis"
+      ],
+      "ancora": {
+        "nome": "Thoth",
+        "descricao": "Deus egípcio da escrita, da sabedoria e da Lua, representado com cabeça de íbis.",
+        "variantes": [
+          "Tote",
+          "Djehuty"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Símbolo claro e inequívoco, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país tem este símbolo no centro da sua bandeira?",
+      "resposta": "Israel",
+      "ancora": {
+        "nome": "Estrela de Davi",
+        "descricao": "Hexagrama formado por dois triângulos equiláteros, símbolo da identidade judaica.",
+        "variantes": [
+          "Magen David",
+          "Escudo de Davi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ilustração no estilo dos códices astecas, deus reconhecível pela serpente emplumada e adornos.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com que planeta este deus asteca era associado?",
+      "resposta": "Vênus",
+      "distratores": [
+        "Marte",
+        "Júpiter",
+        "Mercúrio"
+      ],
+      "ancora": {
+        "nome": "Quetzalcóatl",
+        "descricao": "Deus asteca da Serpente Emplumada, ligado ao vento, ao planeta Vênus e ao conhecimento.",
+        "variantes": [
+          "Quetzalcoatl",
+          "Serpente Emplumada"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura antiga colorida de ave em chamas, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que criatura mítica é esta?",
+      "resposta": "Fênix",
+      "ancora": {
+        "nome": "Fênix",
+        "descricao": "Ave lendária imortal que renasce das próprias cinzas.",
+        "variantes": [
+          "Phoenix"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Símbolo de mão com olho, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Contra o que este amuleto em forma de mão é considerado proteção?",
+      "resposta": "Mau-olhado",
+      "distratores": [
+        "Raios",
+        "Naufrágios",
+        "Doenças"
+      ],
+      "ancora": {
+        "nome": "Hamsá",
+        "descricao": "Amuleto em forma de mão aberta, popular no Oriente Médio e no Norte da África, contra o mau-olhado.",
+        "variantes": [
+          "Khamsa",
+          "Mão de Fátima"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Monograma claro e sem texto; família trocada pois 'onde' não rende boa pergunta.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que imperador romano usou este símbolo no estandarte do seu exército?",
+      "resposta": "Constantino",
+      "distratores": [
+        "Nero",
+        "Augusto",
+        "Diocleciano"
+      ],
+      "ancora": {
+        "nome": "Chi-Rho",
+        "descricao": "Cristograma formado pelas letras gregas chi e rô sobrepostas, as duas primeiras de Cristo.",
+        "variantes": [
+          "Crismón",
+          "Monograma de Cristo",
+          "Quirô"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto noturna de uma instalação luminosa em praça, com muitos outros elementos; símbolo contestado como religioso, resposta ambígua e imagem pouco legível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Escultura clara de deusa velada com cetro; família trocada para identificar a deusa, evitando afirmar o museu.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deusa grega esta estátua representa?",
+      "resposta": "Hera",
+      "distratores": [
+        "Atena",
+        "Afrodite",
+        "Ártemis"
+      ],
+      "ancora": {
+        "nome": "Hera",
+        "descricao": "Deusa grega do casamento, rainha dos deuses do Olimpo e esposa de Zeus.",
+        "variantes": [
+          "Juno"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Chifre de carneiro claro, sem texto; família trocada para o_que_e.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento religioso judaico é este?",
+      "resposta": "Shofar",
+      "ancora": {
+        "nome": "Shofar",
+        "descricao": "Chifre, em geral de carneiro, usado como instrumento em rituais judaicos.",
+        "variantes": [
+          "Chofar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Deus de cabeça de chacal, ilustração nítida e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus egípcio é este?",
+      "resposta": "Anúbis",
+      "distratores": [
+        "Hórus",
+        "Sobek",
+        "Seth"
+      ],
+      "ancora": {
+        "nome": "Anúbis",
+        "descricao": "Deus egípcio dos ritos funerários, representado com cabeça de chacal.",
+        "variantes": [
+          "Anubis",
+          "Anpu"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Deusa com trono na cabeça, reconhecível; pergunta vai além do nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que deus era irmão e marido desta deusa egípcia?",
+      "resposta": "Osíris",
+      "ancora": {
+        "nome": "Ísis",
+        "descricao": "Deusa egípcia da maternidade e da magia, representada com um trono sobre a cabeça.",
+        "variantes": [
+          "Isis",
+          "Aset"
+        ]
+      }
+    }
+  ]
+}

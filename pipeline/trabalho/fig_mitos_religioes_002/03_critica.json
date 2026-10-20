@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a entidade; Jerusalém confirmado nos trechos; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que o principal templo de Thoth ficava em Hermópolis. O enunciado não entrega nada e os distratores são cidades egípcias erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estrela é o símbolo central da bandeira de Israel (trechos). A resposta é única e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos ligam Quetzalcóatl ao planeta Vênus. Os distratores são planetas errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1, sem pista. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Amuleto em forma de mão' descreve o objeto, e a imagem coberta já leva à resposta (mão de Fátima, contra o mau-olhado). O distrator 'Doenças' é defensável, pois o amuleto também afasta energias negativas.",
+      "reescrita": {
+        "pergunta": "Este amuleto é popular no Oriente Médio e no Norte da África. Contra o que ele é considerado proteção?",
+        "resposta": "Mau-olhado",
+        "distratores": [
+          "Raios",
+          "Naufrágios",
+          "Roubos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Constantino usou o Chi-Rho no lábaro, o estandarte militar. O enunciado não nomeia o símbolo e os distratores são imperadores errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição de 'mostra' não diz que a imagem é uma estátua, então 'esta estátua' pode ser falso para a figura. Corrijo para 'esta deusa'.",
+      "reescrita": {
+        "pergunta": "Que deusa grega é esta?",
+        "resposta": "Hera",
+        "distratores": [
+          "Atena",
+          "Afrodite",
+          "Ártemis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Instrumento religioso judaico' é uma pista que quase entrega o shofar sem a figura. Removo a pista.",
+      "reescrita": {
+        "pergunta": "Que instrumento é este?",
+        "resposta": "Shofar"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do deus de cabeça de chacal. Distratores egípcios, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que Osíris era irmão e marido de Ísis. Sem a figura há mais de uma deusa possível, então a imagem é necessária, e o enunciado não vaza.",
+      "reescrita": null
+    }
+  ]
+}
