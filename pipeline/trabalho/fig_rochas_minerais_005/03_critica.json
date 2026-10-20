@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista (Himalaias) ajuda sem entregar; resposta única e verificada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro; distratores plausíveis e não cânions de fenda.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ondulada' remete ao nome (Wave), vazando a resposta; Antelope Canyon como distrator também tem paredes onduladas e pode ser defendido.",
+      "reescrita": {
+        "pergunta": "Que formação de arenito do Arizona, perto da divisa com Utah, é esta?",
+        "resposta": "The Wave",
+        "distratores": [
+          "Monument Valley",
+          "Horseshoe Bend",
+          "Bryce Canyon"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista não entrega a resposta; distratores não são cânions escavados por rio e a imagem decide.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3: reconhecimento da região e termo 'chaminés de fadas' sustentado pelo trecho; não nomeia a Capadócia.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1, sem vazamento; Morro da Urca é mais baixo, então 'pico mais alto' está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são outros cânions reais do sul; a imagem distingue a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gruta de Fingal formada por basalto colunar; distratores são rochas incorretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Olho-de-gato (inclusive a variedade de quartzo) também é chatoyante e dourado, podendo ser defendido como correto; trocar o distrator.",
+      "reescrita": {
+        "pergunta": "Que pedra semipreciosa, de brilho sedoso em faixas douradas, é esta?",
+        "resposta": "Olho-de-tigre",
+        "distratores": [
+          "Âmbar",
+          "Citrino",
+          "Jaspe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cor devida ao cobre, sustentado pelos trechos; sem a figura a pergunta não se responde com certeza.",
+      "reescrita": null
+    }
+  ]
+}

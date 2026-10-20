@@ -1,0 +1,161 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que montanha dos Himalaias, o pico central desta foto aérea, é esta?",
+        "resposta": "Monte Everest"
+      },
+      "existentes": [
+        {
+          "id": "q02058",
+          "pergunta": "Em 1953, o neozelandês Edmund Hillary chegou ao cume do Everest ao lado de qual alpinista sherpa?",
+          "resposta": "Tenzing Norgay"
+        },
+        {
+          "id": "q02059",
+          "pergunta": "O calcário do cume do Everest guarda fósseis de animais antigos. Onde viviam esses animais?",
+          "resposta": "No mar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que cânion de fenda, no sudoeste dos Estados Unidos, é este?",
+        "resposta": "Antelope Canyon"
+      },
+      "existentes": [
+        {
+          "id": "q03874",
+          "pergunta": "Que cânion é este?",
+          "resposta": "Antelope Canyon"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que cânion americano, escavado por um rio, é este?",
+        "resposta": "Grand Canyon"
+      },
+      "existentes": [
+        {
+          "id": "q02076",
+          "pergunta": "Ao longo de milhões de anos, que rio escavou o Grand Canyon, no Arizona?",
+          "resposta": "Rio Colorado"
+        },
+        {
+          "id": "q06710",
+          "pergunta": "Em 1908, que presidente americano, caçador e conservacionista, protegeu o Grand Canyon ao declará-lo monumento nacional?",
+          "resposta": "Theodore Roosevelt"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Como se chamam estas colunas de rocha esculpidas pela erosão, típicas de uma região da Turquia?",
+        "resposta": "Chaminés de fadas"
+      },
+      "existentes": [
+        {
+          "id": "q02096",
+          "pergunta": "As chaminés de fada da Capadócia, na Turquia, foram esculpidas pela erosão de que tipo de rocha?",
+          "resposta": "Tufo vulcânico"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que morro brasileiro, o pico mais alto desta imagem, é este?",
+        "resposta": "Pão de Açúcar"
+      },
+      "existentes": [
+        {
+          "id": "q02102",
+          "pergunta": "Em que ano foi inaugurado o primeiro trecho do bondinho do Pão de Açúcar?",
+          "resposta": "1912"
+        },
+        {
+          "id": "q04555",
+          "pergunta": "Segundo a explicação mais conhecida, o Pão de Açúcar lembra a forma de que objeto de barro usado nos engenhos coloniais?",
+          "resposta": "Forma cônica de barro"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que cânion do sul do Brasil é este?",
+        "resposta": "Itaimbezinho"
+      },
+      "existentes": [
+        {
+          "id": "q04403",
+          "pergunta": "Que cânion do sul do Brasil é este?",
+          "resposta": "Itaimbezinho"
+        },
+        {
+          "id": "q06696",
+          "pergunta": "Na divisa entre o Rio Grande do Sul e Santa Catarina, em que parque nacional fica o cânion do Itaimbezinho?",
+          "resposta": "Aparados da Serra"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que rocha forma estas colunas na costa de uma ilha da Escócia?",
+        "resposta": "Basalto"
+      },
+      "existentes": [
+        {
+          "id": "q09642",
+          "pergunta": "Que compositor alemão visitou a Gruta de Fingal, numa ilha da Escócia, e se inspirou nela para criar a abertura As Hébridas?",
+          "resposta": "Felix Mendelssohn"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a montanha na foto é outro fato que os existentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação, mesma resposta.",
+      "id_existente": "q03874"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificação do cânion, diferente do rio ou do presidente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nome das formações vs. tipo de rocha; fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificação do morro, diferente de ano ou forma."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação do Itaimbezinho.",
+      "id_existente": "q04403"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Tipo de rocha vs. compositor; fatos diferentes."
+    }
+  ]
+}

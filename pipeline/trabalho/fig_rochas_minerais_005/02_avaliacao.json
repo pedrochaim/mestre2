@@ -1,0 +1,256 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do pico central, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que montanha dos Himalaias, o pico central desta foto aérea, é esta?",
+      "resposta": "Monte Everest",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monte Everest",
+        "descricao": "Montanha dos Himalaias na fronteira entre Nepal e China, a de maior altitude acima do nível do mar.",
+        "variantes": [
+          "Everest",
+          "Monte Evereste",
+          "Sagarmatha",
+          "Chomolungma"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cânion de fenda com feixe de luz, imagem clássica e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cânion de fenda, no sudoeste dos Estados Unidos, é este?",
+      "resposta": "Antelope Canyon",
+      "distratores": [
+        "Grand Canyon",
+        "Bryce Canyon",
+        "Zion Canyon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Antelope Canyon",
+        "descricao": "Cânion de fenda de arenito em terras navajo, perto de Page, no Arizona.",
+        "variantes": [
+          "Cânion Antelope",
+          "Upper Antelope Canyon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arenito ondulado muito característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formação rochosa ondulada do sudoeste dos Estados Unidos é esta?",
+      "resposta": "The Wave",
+      "distratores": [
+        "Antelope Canyon",
+        "Monument Valley",
+        "Bryce Canyon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "The Wave (Arizona)",
+        "descricao": "Formação de arenito com formas onduladas e coloridas em Coyote Buttes, no Arizona.",
+        "variantes": [
+          "The Wave",
+          "A Onda"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista do cânion com o rio e estratos característicos; múltipla escolha resolve ambiguidade.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cânion americano, escavado por um rio, é este?",
+      "resposta": "Grand Canyon",
+      "distratores": [
+        "Bryce Canyon",
+        "Antelope Canyon",
+        "Canyonlands"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grand Canyon",
+        "descricao": "Cânion escavado pelo rio Colorado, no Arizona, Estados Unidos.",
+        "variantes": [
+          "Grande Cânion"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Torres de rocha cônicas típicas, reconhecíveis.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Como se chamam estas colunas de rocha esculpidas pela erosão, típicas de uma região da Turquia?",
+      "resposta": "Chaminés de fadas",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Capadócia",
+        "descricao": "Região histórica da Anatólia Central, na Turquia, famosa por suas formações rochosas.",
+        "variantes": [
+          "Cappadocia",
+          "Kapadokya"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Detalhe muito aproximado de iridescência, que não permite reconhecer o mineral com unicidade.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "",
+      "resposta": "",
+      "ancora": {
+        "nome": "Labradorita",
+        "descricao": "Feldspato plagioclásio com efeito iridescente.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta inconfundível do morro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que morro brasileiro, o pico mais alto desta imagem, é este?",
+      "resposta": "Pão de Açúcar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pão de Açúcar",
+        "descricao": "Morro de rocha na entrada da Baía de Guanabara, no Rio de Janeiro.",
+        "variantes": [
+          "Morro do Pão de Açúcar",
+          "Sugarloaf Mountain"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cânion com paredões e araucárias, característico.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cânion do sul do Brasil é este?",
+      "resposta": "Itaimbezinho",
+      "distratores": [
+        "Fortaleza",
+        "Malacara",
+        "Cânion Guartelá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cânion Itaimbezinho",
+        "descricao": "Cânion do Parque Nacional de Aparados da Serra, na divisa entre Rio Grande do Sul e Santa Catarina.",
+        "variantes": [
+          "Itaimbezinho"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Colunas basálticas claras; o caiaque é pequeno e não é foco.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rocha forma estas colunas na costa de uma ilha da Escócia?",
+      "resposta": "Basalto",
+      "distratores": [
+        "Granito",
+        "Calcário",
+        "Arenito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gruta de Fingal",
+        "descricao": "Caverna marinha de colunas de basalto na ilha de Staffa, nas Hébridas Interiores, Escócia.",
+        "variantes": [
+          "Fingal's Cave"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Montagem com nove tipos de areia diferentes, sem entidade única.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "",
+      "resposta": "",
+      "ancora": {
+        "nome": "Areia",
+        "descricao": "Material granular de partículas minerais finas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cabochão com chatoyance típica; múltipla com pedras douradas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pedra semipreciosa, de brilho sedoso em faixas douradas, é esta?",
+      "resposta": "Olho-de-tigre",
+      "distratores": [
+        "Âmbar",
+        "Citrino",
+        "Olho-de-gato"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Olho-de-tigre",
+        "descricao": "Pedra do grupo do quartzo, dourada a marrom, com brilho sedoso (chatoyance).",
+        "variantes": [
+          "Olho de tigre",
+          "Tiger's eye"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cristais azul-escuros nítidos e reconhecíveis.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que metal dá a cor azul intensa a este mineral?",
+      "resposta": "Cobre",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Azurita",
+        "descricao": "Mineral de carbonato básico de cobre, azul profundo, formado pelo intemperismo de jazidas de cobre.",
+        "variantes": [
+          "Azurite"
+        ]
+      }
+    }
+  ]
+}

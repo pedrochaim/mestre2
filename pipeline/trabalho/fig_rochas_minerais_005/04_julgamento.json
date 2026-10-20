@@ -1,0 +1,629 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Monte Everest",
+        "descricao": "Montanha dos Himalaias na fronteira entre Nepal e China, a de maior altitude acima do nível do mar.",
+        "variantes": [
+          "Everest",
+          "Monte Evereste",
+          "Sagarmatha",
+          "Chomolungma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_everest",
+          "nome": "Monte Everest",
+          "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+          "variantes": [
+            "Everest",
+            "Chomolungma",
+            "Sagarmatha",
+            "Mount Everest"
+          ]
+        },
+        {
+          "id": "monte_verde",
+          "nome": "Monte Verde",
+          "descricao": "Sítio arqueológico no sul do Chile com sinais de presença humana de cerca de 14,5 mil anos.",
+          "variantes": []
+        },
+        {
+          "id": "monte_erebus",
+          "nome": "Monte Erebus",
+          "descricao": "Vulcão ativo na Ilha de Ross, na Antártida.",
+          "variantes": [
+            "Erebus"
+          ]
+        },
+        {
+          "id": "sagarana",
+          "nome": "Sagarana",
+          "descricao": "Livro de contos de estreia de Guimarães Rosa, publicado em 1946.",
+          "variantes": []
+        },
+        {
+          "id": "monte_pelee",
+          "nome": "Monte Pelée",
+          "descricao": "Vulcão ativo no norte da Martinica, cuja erupção de 1902 destruiu a cidade de Saint-Pierre.",
+          "variantes": [
+            "Montagne Pelée",
+            "Mount Pelée"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Antelope Canyon",
+        "descricao": "Cânion de fenda de arenito em terras navajo, perto de Page, no Arizona.",
+        "variantes": [
+          "Cânion Antelope",
+          "Upper Antelope Canyon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "antelope_canyon",
+          "nome": "Antelope Canyon",
+          "descricao": "Cânion de fenda (slot canyon) em terras navajo, perto de Page, no Arizona.",
+          "variantes": [
+            "Upper Antelope Canyon"
+          ]
+        },
+        {
+          "id": "grand_canyon",
+          "nome": "Grand Canyon",
+          "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos.",
+          "variantes": [
+            "Grande Cânion",
+            "Grand Canyon do Colorado"
+          ]
+        },
+        {
+          "id": "santo_antonio",
+          "nome": "Santo Antônio",
+          "descricao": "Santo Antônio de Lisboa ou de Pádua, frade franciscano celebrado em 13 de junho e conhecido como santo casamenteiro.",
+          "variantes": [
+            "Santo Antônio de Pádua",
+            "Santo Antônio de Lisboa",
+            "Antônio de Lisboa"
+          ]
+        },
+        {
+          "id": "melao",
+          "nome": "Melão",
+          "descricao": "Fruta de casca lisa ou rendada da espécie Cucumis melo, da família das cucurbitáceas.",
+          "variantes": [
+            "Melão-amarelo",
+            "Cantaloupe"
+          ]
+        },
+        {
+          "id": "radiotelescopio_de_arecibo",
+          "nome": "Radiotelescópio de Arecibo",
+          "descricao": "Radiotelescópio de 305 metros construído numa depressão natural perto de Arecibo, em Porto Rico.",
+          "variantes": [
+            "Telescópio de Arecibo",
+            "Arecibo Telescope",
+            "Observatório de Arecibo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "The Wave (Arizona)",
+        "descricao": "Formação de arenito com formas onduladas e coloridas em Coyote Buttes, no Arizona.",
+        "variantes": [
+          "The Wave",
+          "A Onda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        },
+        {
+          "id": "heat_wave",
+          "nome": "Heat Wave",
+          "descricao": "Golpe de pokémon do tipo Fogo, da 3ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda",
+            "La Joconde"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Grand Canyon",
+        "descricao": "Cânion escavado pelo rio Colorado, no Arizona, Estados Unidos.",
+        "variantes": [
+          "Grande Cânion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grand_canyon",
+          "nome": "Grand Canyon",
+          "descricao": "Grande desfiladeiro no estado do Arizona, nos Estados Unidos.",
+          "variantes": [
+            "Grande Cânion",
+            "Grand Canyon do Colorado"
+          ]
+        },
+        {
+          "id": "grande_banho_de_mohenjo_daro",
+          "nome": "Grande Banho de Mohenjo-daro",
+          "descricao": "Grande tanque de tijolos da cidade de Mohenjo-daro, da civilização do Vale do Indo, provavelmente usado em rituais de purificação.",
+          "variantes": [
+            "Grande Banho",
+            "Great Bath"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "grande_canal_da_china",
+          "nome": "Grande Canal da China",
+          "descricao": "Sistema de canais artificiais da China, ampliado na dinastia Sui, que liga Pequim a Hangzhou.",
+          "variantes": [
+            "Grand Canal",
+            "Canal Pequim-Hangzhou",
+            "Da Yunhe"
+          ]
+        },
+        {
+          "id": "grande_seca_de_1877",
+          "nome": "Grande Seca de 1877",
+          "descricao": "Seca de 1877 a 1879 que devastou o sertão nordestino, sobretudo o Ceará",
+          "variantes": [
+            "Grande Seca",
+            "Seca dos Dois Setes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Capadócia",
+        "descricao": "Região histórica da Anatólia Central, na Turquia, famosa por suas formações rochosas.",
+        "variantes": [
+          "Cappadocia",
+          "Kapadokya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capadocia",
+          "nome": "Capadócia",
+          "descricao": "Região histórica no centro da Turquia, famosa pelas chaminés de fada e pelas cidades subterrâneas.",
+          "variantes": [
+            "Cappadocia",
+            "Kapadokya"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "qhapaq_nan",
+          "nome": "Qhapaq Ñan",
+          "descricao": "Rede de estradas do Império Inca que ligava Cusco a todo o território andino.",
+          "variantes": [
+            "Caminho Inca",
+            "Inca road system",
+            "Capac Ñan",
+            "Estradas incas"
+          ]
+        },
+        {
+          "id": "carpaccio",
+          "nome": "Carpaccio",
+          "descricao": "Prato de fatias finíssimas de carne crua temperada, criado no Harry's Bar em 1950.",
+          "variantes": [
+            "Carpaccio de carne"
+          ]
+        },
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pão de Açúcar",
+        "descricao": "Morro de rocha na entrada da Baía de Guanabara, no Rio de Janeiro.",
+        "variantes": [
+          "Morro do Pão de Açúcar",
+          "Sugarloaf Mountain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "dreidel",
+          "nome": "Dreidel",
+          "descricao": "Pião de quatro lados com letras hebraicas, usado em jogo na festa judaica de Hanucá.",
+          "variantes": [
+            "Dreydl",
+            "Sevivon",
+            "Pião de Hanucá"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "bondinho_do_pao_de_acucar",
+          "nome": "Bondinho do Pão de Açúcar",
+          "descricao": "Teleférico que liga a Praia Vermelha aos morros da Urca e do Pão de Açúcar, no Rio de Janeiro, inaugurado em 1912.",
+          "variantes": [
+            "Caminho Aéreo Pão de Açúcar",
+            "Sugarloaf Cable Car"
+          ]
+        },
+        {
+          "id": "engenho_de_acucar",
+          "nome": "Engenho de açúcar",
+          "descricao": "Propriedade e instalação do Brasil colonial onde a cana era moída e transformada em açúcar, com casa-grande, senzala e moenda.",
+          "variantes": [
+            "Engenho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cânion Itaimbezinho",
+        "descricao": "Cânion do Parque Nacional de Aparados da Serra, na divisa entre Rio Grande do Sul e Santa Catarina.",
+        "variantes": [
+          "Itaimbezinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canion_itaimbezinho",
+          "nome": "Cânion Itaimbezinho",
+          "descricao": "Cânion do Parque Nacional de Aparados da Serra, na divisa entre o Rio Grande do Sul e Santa Catarina.",
+          "variantes": [
+            "Itaimbezinho",
+            "Canyon Itaimbezinho",
+            "Cânion do Itaimbezinho"
+          ]
+        },
+        {
+          "id": "cafe",
+          "nome": "Café",
+          "descricao": "Bebida preparada com os grãos torrados e moídos do cafeeiro, originário da Etiópia.",
+          "variantes": [
+            "Cafezinho"
+          ]
+        },
+        {
+          "id": "jairzinho",
+          "nome": "Jairzinho",
+          "descricao": "Ponta-direita brasileiro, o Furacão da Copa de 1970.",
+          "variantes": [
+            "Jair Ventura Filho",
+            "Furacão"
+          ]
+        },
+        {
+          "id": "vitamina",
+          "nome": "Vitamina",
+          "descricao": "Nutriente orgânico necessário em pequenas quantidades para o funcionamento do organismo.",
+          "variantes": [
+            "Vitamin"
+          ]
+        },
+        {
+          "id": "rio_zambeze",
+          "nome": "Rio Zambeze",
+          "descricao": "Grande rio do sul da África que forma as Cataratas Vitória e deságua no oceano Índico, em Moçambique.",
+          "variantes": [
+            "Zambeze",
+            "Zambezi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Gruta de Fingal",
+        "descricao": "Caverna marinha de colunas de basalto na ilha de Staffa, nas Hébridas Interiores, Escócia.",
+        "variantes": [
+          "Fingal's Cave"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gruta_de_fingal",
+          "nome": "Gruta de Fingal",
+          "descricao": "Caverna marinha de colunas de basalto na ilha desabitada de Staffa, nas Hébridas Interiores, na Escócia.",
+          "variantes": [
+            "Fingal's Cave"
+          ]
+        },
+        {
+          "id": "gruta_de_maquine",
+          "nome": "Gruta de Maquiné",
+          "descricao": "Caverna calcária no município de Cordisburgo, em Minas Gerais, aberta à visitação turística.",
+          "variantes": [
+            "Gruta do Maquiné"
+          ]
+        },
+        {
+          "id": "garota_de_ipanema",
+          "nome": "Garota de Ipanema",
+          "descricao": "Canção de bossa nova de Tom Jobim e Vinicius de Moraes, de 1962.",
+          "variantes": [
+            "The Girl from Ipanema"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "gruta_do_lago_azul",
+          "nome": "Gruta do Lago Azul",
+          "descricao": "Monumento natural com caverna de lago azul no município de Bonito, Mato Grosso do Sul.",
+          "variantes": [
+            "Monumento Natural da Gruta do Lago Azul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Olho-de-tigre",
+        "descricao": "Pedra do grupo do quartzo, dourada a marrom, com brilho sedoso (chatoyance).",
+        "variantes": [
+          "Tiger's eye"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "idolo_de_shigir",
+          "nome": "Ídolo de Shigir",
+          "descricao": "Escultura de madeira do início do Holoceno, a mais antiga conhecida, achada numa turfeira nos Urais, na Rússia.",
+          "variantes": [
+            "Shigir Idol",
+            "Escultura de Shigir"
+          ]
+        },
+        {
+          "id": "ilha_de_goree",
+          "nome": "Ilha de Gorée",
+          "descricao": "Pequena ilha diante de Dacar, símbolo do tráfico atlântico de escravizados e Patrimônio Mundial da UNESCO.",
+          "variantes": [
+            "Gorée",
+            "Ilha de Goreia"
+          ]
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel",
+            "Folheto de cordel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Azurita",
+        "descricao": "Mineral de carbonato básico de cobre, azul profundo, formado pelo intemperismo de jazidas de cobre.",
+        "variantes": [
+          "Azurite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lapis_lazuli",
+          "nome": "Lápis-lazúli",
+          "descricao": "Rocha metamórfica azul-escura composta sobretudo de lazurita, usada como pedra semipreciosa.",
+          "variantes": [
+            "Lazurita"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "bauxita",
+          "nome": "Bauxita",
+          "descricao": "Rocha sedimentar rica em óxidos de alumínio, principal minério desse metal.",
+          "variantes": [
+            "Bauxite"
+          ]
+        },
+        {
+          "id": "vaquita",
+          "nome": "Vaquita",
+          "descricao": "Pequeno boto (Phocoena sinus) que vive só no norte do Golfo da Califórnia, o menor cetáceo do mundo.",
+          "variantes": [
+            "Phocoena sinus",
+            "Toninha-do-golfo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "monte_everest",
+      "motivo": "Mesma montanha, descrições equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "antelope_canyon",
+      "motivo": "Mesmo cânion de fenda navajo perto de Page, Arizona."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "The Wave é uma formação de arenito; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "grand_canyon",
+      "motivo": "Mesmo cânion no Arizona, com o mesmo nome e variante."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "capadocia",
+      "motivo": "Mesma região histórica da Turquia."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "pao_de_acucar",
+      "motivo": "Mesmo morro na entrada da Baía de Guanabara; o bondinho é outra entidade."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "canion_itaimbezinho",
+      "motivo": "Mesmo cânion em Aparados da Serra."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "gruta_de_fingal",
+      "motivo": "Mesma caverna marinha em Staffa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Olho-de-tigre é uma pedra de quartzo; nenhuma candidata corresponde. A Nebulosa da Hélice só compartilha a variante 'Olho de Deus'."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Azurita é um mineral de cobre; nenhuma candidata corresponde."
+    }
+  ]
+}

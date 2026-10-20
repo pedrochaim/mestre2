@@ -577,9 +577,10 @@
     "fig_pre_historia_evolucao_007",
     "fig_rochas_minerais_004",
     "fig_jogos_tabuleiro_001",
-    "fig_pre_historia_evolucao_008"
+    "fig_pre_historia_evolucao_008",
+    "fig_rochas_minerais_005"
   ],
-  "maior_id": 14025,
+  "maior_id": 14033,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1061,15 +1062,17 @@
     },
     "rochas_minerais": {
       "familias": {
-        "o_que_e": 16,
+        "o_que_e": 21,
         "onde": 1,
-        "que_tipo": 4
+        "que_tipo": 6,
+        "que_parte": 1
       },
       "niveis": {
-        "1": 4,
-        "2": 17
+        "1": 6,
+        "2": 21,
+        "3": 2
       },
-      "registradas": 21
+      "registradas": 29
     },
     "jogos_tabuleiro": {
       "familias": {
