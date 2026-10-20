@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tipo de aparelho é este?",
+        "resposta": "Calculadora científica"
+      },
+      "existentes": [
+        {
+          "id": "q04495",
+          "pergunta": "Em que década este aparelho passou a caber no bolso e se tornou comum nas escolas?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que rio brasileiro fica esta grande usina hidrelétrica?",
+        "resposta": "Rio Xingu"
+      },
+      "existentes": [
+        {
+          "id": "q02163",
+          "pergunta": "A polêmica usina hidrelétrica de Belo Monte, no Pará, foi construída em qual rio?",
+          "resposta": "Rio Xingu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o tipo de aparelho; a outra, a década em que se popularizou. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em qual rio fica a usina de Belo Monte, com a mesma resposta: Rio Xingu."
+    }
+  ]
+}

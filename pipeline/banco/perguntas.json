@@ -260525,5 +260525,164 @@
       "autor": "User:MatthiasKabel",
       "licenca": "CC BY 2.5"
     }
+  },
+  {
+    "id": "q14059",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "diagrama_de_venn",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que matemático inglês popularizou, no século dezenove, este tipo de diagrama?",
+    "resposta": "John Venn",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venn_diagram",
+      "https://pt.wikipedia.org/wiki/Diagrama_de_Venn"
+    ],
+    "imagem": {
+      "arquivo": "q14059.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Menge_Venn-Diagramm_001.svg",
+      "autor": "Bin im Garten",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14060",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "reator_nuclear",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que equipamento de usina elétrica, mostrado em corte, é este?",
+    "resposta": "Reator nuclear",
+    "distratores": [
+      "Caldeira a carvão",
+      "Turbina a vapor",
+      "Gerador hidrelétrico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nuclear_reactor",
+      "https://pt.wikipedia.org/wiki/Reator_nuclear"
+    ],
+    "imagem": {
+      "arquivo": "q14060.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Reaktormodell_-_panoramio.jpg",
+      "autor": "BLS208",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14061",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "triangulo_de_sierpinski",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que figura matemática é esta?",
+    "resposta": "Triângulo de Sierpinski",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle",
+      "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_de_Sierpinski"
+    ],
+    "imagem": {
+      "arquivo": "q14061.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Big_Sierpinski_triangle.svg",
+      "autor": "Medvedev",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14062",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "usina_geotermica",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de usina é esta, numa paisagem de lava coberta de musgo?",
+    "resposta": "Usina geotérmica",
+    "distratores": [
+      "Usina nuclear",
+      "Usina a carvão",
+      "Usina solar térmica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Geothermal_power"
+    ],
+    "imagem": {
+      "arquivo": "q14062.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NesjavellirPowerPlant_edit2.jpg",
+      "autor": "Gretar Ívarsson – Edited by Fir0002",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14063",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "conjunto_de_mandelbrot",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que conjunto matemático é este?",
+    "resposta": "Conjunto de Mandelbrot",
+    "distratores": [
+      "Conjunto de Julia",
+      "Conjunto de Cantor",
+      "Curva de Koch"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mandelbrot_set",
+      "https://pt.wikipedia.org/wiki/Conjunto_de_Mandelbrot"
+    ],
+    "imagem": {
+      "arquivo": "q14063.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mandelbrot_set_with_blended_gradients_sqrt_step_and_slope.png",
+      "autor": "Adam majewski",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14064",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "esponja_de_menger",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que sólido matemático é este?",
+    "resposta": "Esponja de Menger",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Menger_sponge",
+      "https://pt.wikipedia.org/wiki/Esponja_de_Menger"
+    ],
+    "imagem": {
+      "arquivo": "q14064.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Menger-Schwamm-farbig.png",
+      "autor": "Niabot",
+      "licenca": "CC BY 3.0"
+    }
+  },
+  {
+    "id": "q14065",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "calculadora",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de aparelho é este?",
+    "resposta": "Calculadora científica",
+    "distratores": [
+      "Calculadora financeira",
+      "Calculadora básica",
+      "Régua de cálculo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Calculator",
+      "https://pt.wikipedia.org/wiki/Calculadora"
+    ],
+    "imagem": {
+      "arquivo": "q14065.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Calculadora_científica_Famaprem_CPC-400.jpg",
+      "autor": "Entalpia2",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

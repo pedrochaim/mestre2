@@ -1,0 +1,201 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Diagrama de Venn claro, só as letras A e B, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que matemático inglês popularizou, no século dezenove, este tipo de diagrama?",
+      "resposta": "John Venn",
+      "distratores": [],
+      "ancora": {
+        "nome": "Diagrama de Venn",
+        "descricao": "Diagrama de curvas fechadas, em geral círculos, que representa relações lógicas entre conjuntos.",
+        "variantes": [
+          "Diagrama de Euler-Venn"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra só um triângulo equilátero, o primeiro estágio. Não dá para reconhecer o floco de Koch."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Goniômetro antigo de forma incomum, com assinatura gravada. Não é reconhecível como transferidor, e a resposta não é única (goniômetro, transferidor, compasso)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Modelo em corte de um reator, nítido e sem texto que entregue a resposta. É difícil, então usa múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que equipamento de usina elétrica, mostrado em corte, é este?",
+      "resposta": "Reator nuclear",
+      "distratores": [
+        "Caldeira a carvão",
+        "Turbina a vapor",
+        "Gerador hidrelétrico"
+      ],
+      "ancora": {
+        "nome": "Reator nuclear",
+        "descricao": "Dispositivo que mantém uma reação nuclear em cadeia controlada, aqui num modelo em corte de um reator de usina.",
+        "variantes": [
+          "Reator de fissão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Triângulo de Sierpinski nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que figura matemática é esta?",
+      "resposta": "Triângulo de Sierpinski",
+      "distratores": [],
+      "ancora": {
+        "nome": "Triângulo de Sierpinski",
+        "descricao": "Fractal com a forma de um triângulo equilátero, subdividido recursivamente em triângulos menores.",
+        "variantes": [
+          "Gaxeta de Sierpinski",
+          "Peneira de Sierpinski"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A resposta não é única: a cena pode ser lixão, aterro ou depósito de lixo. As gaivotas e os caminhões não bastam para fixar um termo específico."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Usina geotérmica com plumas de vapor sobre campo de lava com musgo. Reconhecível em múltipla escolha, com distratores plausíveis.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de usina é esta, numa paisagem de lava coberta de musgo?",
+      "resposta": "Usina geotérmica",
+      "distratores": [
+        "Usina nuclear",
+        "Usina a carvão",
+        "Usina solar térmica"
+      ],
+      "ancora": {
+        "nome": "Usina geotérmica",
+        "descricao": "Usina que gera eletricidade a partir do calor do interior da Terra, aqui com vapor saindo das chaminés.",
+        "variantes": [
+          "Central geotérmica",
+          "Usina de energia geotérmica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A plataforma tem a placa PETROBRAS visível, que entrega parte da resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Conjunto de Mandelbrot nítido e característico, sem texto. Usa múltipla escolha com conjuntos fractais parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que conjunto matemático é este?",
+      "resposta": "Conjunto de Mandelbrot",
+      "distratores": [
+        "Conjunto de Julia",
+        "Conjunto de Cantor",
+        "Curva de Koch"
+      ],
+      "ancora": {
+        "nome": "Conjunto de Mandelbrot",
+        "descricao": "Conjunto fractal de números complexos c para os quais a iteração de z ao quadrado mais c não diverge.",
+        "variantes": [
+          "Fractal de Mandelbrot"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Esponja de Menger renderizada com nitidez, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que sólido matemático é este?",
+      "resposta": "Esponja de Menger",
+      "distratores": [],
+      "ancora": {
+        "nome": "Esponja de Menger",
+        "descricao": "Fractal tridimensional, generalização do tapete de Sierpinski, obtido retirando cubos de um cubo recursivamente.",
+        "variantes": [
+          "Cubo de Menger",
+          "Esponja de Menger-Sierpinski"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Calculadora científica legível. A marca e o modelo não entregam a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que tipo de aparelho é este?",
+      "resposta": "Calculadora científica",
+      "distratores": [
+        "Calculadora financeira",
+        "Calculadora gráfica",
+        "Régua de cálculo"
+      ],
+      "ancora": {
+        "nome": "Calculadora científica",
+        "descricao": "Calculadora eletrônica de bolso com funções trigonométricas, logarítmicas e estatísticas.",
+        "variantes": [
+          "Calculadora"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea de grande usina hidrelétrica amazônica, sem texto. A pergunta vai além do reconhecimento, sobre o rio, em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que rio brasileiro fica esta grande usina hidrelétrica?",
+      "resposta": "Rio Xingu",
+      "distratores": [
+        "Rio Madeira",
+        "Rio Tocantins",
+        "Rio Teles Pires"
+      ],
+      "ancora": {
+        "nome": "Usina de Belo Monte",
+        "descricao": "Complexo hidrelétrico no rio Xingu, no Pará, entre as maiores usinas do Brasil.",
+        "variantes": [
+          "Usina Hidrelétrica de Belo Monte",
+          "Belo Monte",
+          "Kararaô"
+        ]
+      }
+    }
+  ]
+}

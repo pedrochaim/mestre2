@@ -5,14 +5,14 @@
       "titulo": "en:Itaipu Dam",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Plataforma de petróleo",
       "titulo": "en:Oil platform",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Linha de transmissão",
@@ -40,7 +40,7 @@
       "titulo": "en:Landfill",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Medidor de energia elétrica",
@@ -54,21 +54,21 @@
       "titulo": "en:Belo Monte Dam",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Reator nuclear",
       "titulo": "en:Nuclear reactor",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Maré vermelha",
       "titulo": "en:Red tide",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Branqueamento de corais",
@@ -110,7 +110,7 @@
       "titulo": "en:Geothermal power",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Usina solar de Ivanpah",
@@ -152,7 +152,7 @@
       "titulo": "en:Protractor",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Compasso",
@@ -180,7 +180,7 @@
       "titulo": "en:Calculator",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sudoku",
@@ -201,7 +201,7 @@
       "titulo": "en:Mandelbrot set",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Dodecaedro",
@@ -229,7 +229,7 @@
       "titulo": "en:Venn diagram",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Toro",
@@ -243,7 +243,7 @@
       "titulo": "en:Sierpiński triangle",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Régua de cálculo",
@@ -257,14 +257,14 @@
       "titulo": "en:Koch snowflake",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Esponja de Menger",
       "titulo": "en:Menger sponge",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tesserato",

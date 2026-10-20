@@ -1,0 +1,511 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Diagrama de Venn",
+        "descricao": "Diagrama de curvas fechadas, em geral círculos, que representa relações lógicas entre conjuntos.",
+        "variantes": [
+          "Diagrama de Euler-Venn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irmas_sensacionais",
+          "nome": "Irmãs Sensacionais",
+          "descricao": "Irmãs mais velhas de Misty, Daisy, Violet e Lily, que cuidam do ginásio de Cerulean no anime Pokémon.",
+          "variantes": [
+            "Sensational Sisters",
+            "Irmãs de Cerulean"
+          ]
+        },
+        {
+          "id": "arena_de_verona",
+          "nome": "Arena de Verona",
+          "descricao": "Anfiteatro romano muito bem conservado, no centro de Verona, na Itália, usado para óperas e shows.",
+          "variantes": [
+            "Verona Arena",
+            "Arena di Verona"
+          ]
+        },
+        {
+          "id": "dama_de_elche",
+          "nome": "Dama de Elche",
+          "descricao": "Busto de calcário ibérico do século quarto antes de Cristo, descoberto em 1897 em La Alcudia, perto de Elche, na Espanha.",
+          "variantes": [
+            "Lady of Elche",
+            "Dama d'Elx"
+          ]
+        },
+        {
+          "id": "batalha_de_viena",
+          "nome": "Batalha de Viena",
+          "descricao": "Batalha de 1683 em que forças cristãs lideradas pelo rei polonês João Sobieski derrotaram o exército otomano que sitiava Viena.",
+          "variantes": [
+            "Cerco de Viena de 1683",
+            "Battle of Vienna"
+          ]
+        },
+        {
+          "id": "camara_de_nuvens",
+          "nome": "Câmara de nuvens",
+          "descricao": "Detector de partículas ionizantes com vapor supersaturado, criado por Charles Wilson em 1911.",
+          "variantes": [
+            "Câmara de Wilson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Reator nuclear",
+        "descricao": "Dispositivo que mantém uma reação nuclear em cadeia controlada, aqui num modelo em corte de um reator de usina.",
+        "variantes": [
+          "Reator de fissão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fissao_nuclear",
+          "nome": "Fissão nuclear",
+          "descricao": "Divisão do núcleo de um átomo pesado em núcleos menores, com liberação de energia, descoberta em 1938.",
+          "variantes": [
+            "Fissão",
+            "Nuclear fission"
+          ]
+        },
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        },
+        {
+          "id": "atos_de_uniao_de_1707",
+          "nome": "Atos de União de 1707",
+          "descricao": "Leis aprovadas pelos parlamentos da Inglaterra e da Escócia que criaram, em 1707, o Reino da Grã-Bretanha.",
+          "variantes": [
+            "Acts of Union 1707",
+            "Tratado de União"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "retratos_de_faium",
+          "nome": "Retratos de Faium",
+          "descricao": "Retratos realistas pintados sobre tábuas de madeira e colocados sobre o rosto de múmias no Egito",
+          "variantes": [
+            "Retratos de múmias de Faium",
+            "Fayum mummy portraits"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Triângulo de Sierpinski",
+        "descricao": "Fractal com a forma de um triângulo equilátero, subdividido recursivamente em triângulos menores.",
+        "variantes": [
+          "Gaxeta de Sierpinski",
+          "Peneira de Sierpinski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "triangulo_de_pascal",
+          "nome": "Triângulo de Pascal",
+          "descricao": "Arranjo triangular dos coeficientes binomiais, em que cada número é a soma dos dois acima dele.",
+          "variantes": [
+            "Triângulo de Yang Hui",
+            "Triângulo de Tartaglia",
+            "Pascal's triangle"
+          ]
+        },
+        {
+          "id": "triangulo_das_bermudas",
+          "nome": "Triângulo das Bermudas",
+          "descricao": "Região do Atlântico Norte associada a lendas de desaparecimentos de navios e aviões.",
+          "variantes": [
+            "Triângulo do Diabo"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        },
+        {
+          "id": "piramide_de_miquerinos",
+          "nome": "Pirâmide de Miquerinos",
+          "descricao": "Menor das três grandes pirâmides de Gizé, túmulo do faraó Miquerinos, da Quarta Dinastia",
+          "variantes": [
+            "Pirâmide de Menkaure",
+            "Pyramid of Menkaure"
+          ]
+        },
+        {
+          "id": "pesagem_do_coracao",
+          "nome": "Pesagem do coração",
+          "descricao": "Julgamento dos mortos na religião egípcia, em que o coração do falecido era pesado numa balança.",
+          "variantes": [
+            "Julgamento de Osíris",
+            "Psicostasia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Usina geotérmica",
+        "descricao": "Usina que gera eletricidade a partir do calor do interior da Terra, aqui com vapor saindo das chaminés.",
+        "variantes": [
+          "Central geotérmica",
+          "Usina de energia geotérmica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inversao_termica",
+          "nome": "Inversão térmica",
+          "descricao": "Fenômeno em que uma camada de ar quente fica sobre o ar frio junto ao solo, prendendo a poluição",
+          "variantes": [
+            "Inversão de temperatura"
+          ]
+        },
+        {
+          "id": "potencias_centrais",
+          "nome": "Potências Centrais",
+          "descricao": "Coalizão liderada pela Alemanha e pela Áustria-Hungria que lutou contra os Aliados na Primeira Guerra Mundial.",
+          "variantes": [
+            "Impérios Centrais",
+            "Central Powers"
+          ]
+        },
+        {
+          "id": "seringa",
+          "nome": "Seringa",
+          "descricao": "Bomba de êmbolo em tubo cilíndrico usada para aplicar injeções e medir líquidos.",
+          "variantes": [
+            "Seringa hipodérmica"
+          ]
+        },
+        {
+          "id": "turbina_eolica",
+          "nome": "Turbina eólica",
+          "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+          "variantes": [
+            "Aerogerador",
+            "Gerador eólico"
+          ]
+        },
+        {
+          "id": "a_geometria",
+          "nome": "A Geometria",
+          "descricao": "Obra de 1637 publicada como apêndice do Discurso do Método, que uniu a álgebra e a geometria.",
+          "variantes": [
+            "La Géométrie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Conjunto de Mandelbrot",
+        "descricao": "Conjunto fractal de números complexos c para os quais a iteração de z ao quadrado mais c não diverge.",
+        "variantes": [
+          "Fractal de Mandelbrot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_contos_da_cantuaria",
+          "nome": "Os Contos da Cantuária",
+          "descricao": "Coletânea de histórias em versos de Geoffrey Chaucer, contadas por peregrinos a caminho da catedral de Canterbury.",
+          "variantes": [
+            "The Canterbury Tales",
+            "Contos de Canterbury",
+            "Contos da Cantuária"
+          ]
+        },
+        {
+          "id": "portao_de_brandemburgo",
+          "nome": "Portão de Brandemburgo",
+          "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+          "variantes": [
+            "Brandenburger Tor",
+            "Brandenburg Gate"
+          ]
+        },
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        },
+        {
+          "id": "oraculo_de_delfos",
+          "nome": "Oráculo de Delfos",
+          "descricao": "Santuário de Apolo em Delfos, na Grécia, onde a sacerdotisa Pítia dava respostas proféticas.",
+          "variantes": [
+            "Pítia",
+            "Delphi Oracle",
+            "Delfos",
+            "Oráculo de Delphi"
+          ]
+        },
+        {
+          "id": "delfos",
+          "nome": "Delfos",
+          "descricao": "Antigo santuário grego na encosta do monte Parnaso, sede do oráculo da Pítia e do templo de Apolo.",
+          "variantes": [
+            "Delphi",
+            "Santuário de Delfos",
+            "Oráculo de Delfos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Esponja de Menger",
+        "descricao": "Fractal tridimensional, generalização do tapete de Sierpinski, obtido retirando cubos de um cubo recursivamente.",
+        "variantes": [
+          "Cubo de Menger",
+          "Esponja de Menger-Sierpinski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esponja_do_mar",
+          "nome": "Esponja-do-mar",
+          "descricao": "Animal marinho filtrador do filo Porifera, aqui uma esponja-barril gigante num recife.",
+          "variantes": [
+            "Esponja",
+            "Porífero",
+            "Porifera"
+          ]
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "escova_de_dentes",
+          "nome": "Escova de dentes",
+          "descricao": "Utensílio de higiene bucal com cerdas presas a um cabo, produzido em massa desde o século dezoito.",
+          "variantes": [
+            "Toothbrush"
+          ]
+        },
+        {
+          "id": "tubo_de_geissler",
+          "nome": "Tubo de Geissler",
+          "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+          "variantes": [
+            "Tubos de Geissler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Calculadora científica",
+        "descricao": "Calculadora eletrônica de bolso com funções trigonométricas, logarítmicas e estatísticas.",
+        "variantes": [
+          "Calculadora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calculadora",
+          "nome": "Calculadora",
+          "descricao": "Aparelho eletrônico portátil usado para fazer cálculos, de aritmética básica a matemática avançada; aqui, um modelo científico.",
+          "variantes": [
+            "Calculadora científica",
+            "Calculator"
+          ]
+        },
+        {
+          "id": "calcadeira",
+          "nome": "Calçadeira",
+          "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+          "variantes": [
+            "Calçador",
+            "Shoehorn"
+          ]
+        },
+        {
+          "id": "calculo",
+          "nome": "Cálculo",
+          "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+          "variantes": [
+            "Cálculo diferencial e integral",
+            "Calculus"
+          ]
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Usina de Belo Monte",
+        "descricao": "Complexo hidrelétrico no rio Xingu, no Pará, entre as maiores usinas do Brasil.",
+        "variantes": [
+          "Usina Hidrelétrica de Belo Monte",
+          "Belo Monte",
+          "Kararaô"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "usina_de_belo_monte",
+          "nome": "Usina de Belo Monte",
+          "descricao": "Usina hidrelétrica no município de Altamira, no Pará, construída na década de 2010.",
+          "variantes": [
+            "Belo Monte",
+            "Belo Monte Dam",
+            "Usina Hidrelétrica de Belo Monte",
+            "UHE Belo Monte"
+          ]
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        },
+        {
+          "id": "abraao",
+          "nome": "Abraão",
+          "descricao": "Patriarca bíblico considerado ancestral espiritual do judaísmo, do cristianismo e do islã",
+          "variantes": [
+            "Abraham",
+            "Ibrahim"
+          ]
+        },
+        {
+          "id": "usina_de_itaipu",
+          "nome": "Usina de Itaipu",
+          "descricao": "Usina hidrelétrica binacional de Brasil e Paraguai, no rio Paraná.",
+          "variantes": [
+            "Itaipu",
+            "Itaipu Binacional",
+            "Itaipu Dam",
+            "Usina Hidrelétrica de Itaipu"
+          ]
+        },
+        {
+          "id": "belo_horizonte",
+          "nome": "Belo Horizonte",
+          "descricao": "Capital do estado de Minas Gerais, cidade planejada inaugurada em 1897.",
+          "variantes": [
+            "BH"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o diagrama de Venn."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Reator nuclear é distinto de fissão nuclear (processo)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Fractal de Sierpinski difere do triângulo de Pascal e outros."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é usina geotérmica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde ao conjunto de Mandelbrot."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a esponja de Menger."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "calculadora",
+      "motivo": "A candidata descreve a calculadora eletrônica, com modelo científico, mesma entidade."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "usina_de_belo_monte",
+      "motivo": "Mesma usina hidrelétrica de Belo Monte, no Pará."
+    }
+  ]
+}

@@ -172108,5 +172108,79 @@
       "https://en.wikipedia.org/wiki/Gibbon",
       "https://pt.wikipedia.org/wiki/Gib%C3%A3o"
     ]
+  },
+  {
+    "id": "diagrama_de_venn",
+    "nome": "Diagrama de Venn",
+    "descricao": "Diagrama de curvas fechadas, em geral círculos, que representa relações lógicas entre conjuntos.",
+    "variantes": [
+      "Diagrama de Euler-Venn"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Venn_diagram",
+      "https://pt.wikipedia.org/wiki/Diagrama_de_Venn"
+    ]
+  },
+  {
+    "id": "reator_nuclear",
+    "nome": "Reator nuclear",
+    "descricao": "Dispositivo que mantém uma reação nuclear em cadeia controlada, aqui num modelo em corte de um reator de usina.",
+    "variantes": [
+      "Reator de fissão"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nuclear_reactor",
+      "https://pt.wikipedia.org/wiki/Reator_nuclear"
+    ]
+  },
+  {
+    "id": "triangulo_de_sierpinski",
+    "nome": "Triângulo de Sierpinski",
+    "descricao": "Fractal com a forma de um triângulo equilátero, subdividido recursivamente em triângulos menores.",
+    "variantes": [
+      "Gaxeta de Sierpinski",
+      "Peneira de Sierpinski"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle",
+      "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_de_Sierpinski"
+    ]
+  },
+  {
+    "id": "usina_geotermica",
+    "nome": "Usina geotérmica",
+    "descricao": "Usina que gera eletricidade a partir do calor do interior da Terra, aqui com vapor saindo das chaminés.",
+    "variantes": [
+      "Central geotérmica",
+      "Usina de energia geotérmica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Geothermal_power"
+    ]
+  },
+  {
+    "id": "conjunto_de_mandelbrot",
+    "nome": "Conjunto de Mandelbrot",
+    "descricao": "Conjunto fractal de números complexos c para os quais a iteração de z ao quadrado mais c não diverge.",
+    "variantes": [
+      "Fractal de Mandelbrot"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mandelbrot_set",
+      "https://pt.wikipedia.org/wiki/Conjunto_de_Mandelbrot"
+    ]
+  },
+  {
+    "id": "esponja_de_menger",
+    "nome": "Esponja de Menger",
+    "descricao": "Fractal tridimensional, generalização do tapete de Sierpinski, obtido retirando cubos de um cubo recursivamente.",
+    "variantes": [
+      "Cubo de Menger",
+      "Esponja de Menger-Sierpinski"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Menger_sponge",
+      "https://pt.wikipedia.org/wiki/Esponja_de_Menger"
+    ]
   }
 ]
