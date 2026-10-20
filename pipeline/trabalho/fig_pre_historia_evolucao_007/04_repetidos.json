@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século antes de Cristo foi construída esta estrutura mesopotâmica da Idade do Bronze?",
+        "resposta": "Século vinte e um"
+      },
+      "existentes": [
+        {
+          "id": "q03473",
+          "pergunta": "Em que país fica este zigurate?",
+          "resposta": "Iraque"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o país onde fica o zigurate; a nova pergunta o século de construção. São fatos diferentes."
+    }
+  ]
+}

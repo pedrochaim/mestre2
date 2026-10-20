@@ -1,0 +1,123 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Poucas pedras em pé, sem contexto: não dá para distinguir o Anel de Brodgar de outros círculos de pedras (Stenness, Callanish); resposta não única pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Escavação de tijolos e um monte de barro, sem feição que permita reconhecer Harappa; não reconhecível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Ossos numa vitrine de museu, com reflexos e pessoas ao fundo; não reconhecível como a Dama Vermelha de Paviland."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Zigurate de Ur nítido, de frente, com a escadaria monumental; reconhecível e sem texto. Os soldados no topo são minúsculos.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século antes de Cristo foi construída esta estrutura mesopotâmica da Idade do Bronze?",
+      "resposta": "Século vinte e um",
+      "distratores": [
+        "Século vinte e seis",
+        "Século trinta",
+        "Século dezessete"
+      ],
+      "ancora": {
+        "nome": "Grande Zigurate de Ur",
+        "descricao": "Zigurate neo-sumério construído pelo rei Ur-Nammu na cidade de Ur, no atual Iraque.",
+        "variantes": [
+          "Zigurate de Ur",
+          "Ziggurat of Ur",
+          "Etemenniguru"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Crânio de Homo sapiens antigo sobre fundo preto, sem traços que o separem de outros crânios modernos ou arcaicos; resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de escavação com muitas pessoas em primeiro plano e sem marca distintiva; não dá para identificar Atapuerca (ou qual de seus sítios) pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Crânio reconstruído de australopitecino com pessoas ao fundo; difícil de distinguir de outras espécies de Australopithecus, e a pergunta de lugar não teria resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato de um senhor num ambiente de museu; o rosto de um paleoantropólogo pouco famoso não é reconhecível pelo público."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Baixo-relevo de mulher com chifre, muito característico, sem texto, de boa leitura.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que obra de arte do Paleolítico superior, entalhada na pedra, é esta?",
+      "resposta": "Vênus de Laussel",
+      "distratores": [
+        "Vênus de Willendorf",
+        "Vênus de Lespugue",
+        "Vênus de Dolní Věstonice"
+      ],
+      "ancora": {
+        "nome": "Vênus de Laussel",
+        "descricao": "Baixo-relevo gravettiano em calcário, de uma mulher nua segurando um chifre, achado em Laussel, na Dordonha, França.",
+        "variantes": [
+          "Venus of Laussel",
+          "Vênus do Chifre",
+          "Dama do Chifre"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fóssil de Ida, inconfundível, em laje, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país foi encontrado este fóssil de primata de cerca de quarenta e sete milhões de anos?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "França",
+        "Inglaterra",
+        "Estados Unidos"
+      ],
+      "ancora": {
+        "nome": "Darwinius (Ida)",
+        "descricao": "Fóssil quase completo de um primata adapiforme do Eocénio médio, Darwinius masillae, achado no sítio de Messel.",
+        "variantes": [
+          "Ida",
+          "Darwinius masillae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco de um paleontólogo pouco conhecido, com assinatura manuscrita; rosto não reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Crânio sobre fundo preto, difícil de separar de outros Homo arcaicos (heidelbergensis, erectus); resposta não única pela imagem."
+    }
+  ]
+}
