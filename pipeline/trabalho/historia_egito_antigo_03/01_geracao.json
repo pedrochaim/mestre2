@@ -1,0 +1,1041 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Papiro",
+        "descricao": "Material de escrita feito pelos antigos egípcios com o caule da planta Cyperus papyrus, que crescia nas margens do Nilo",
+        "variantes": [
+          "Papyrus"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Papiro",
+          "https://en.wikipedia.org/wiki/Papyrus"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os egípcios escreviam em folhas feitas com uma planta das margens do Nilo. O nome dessa planta, via grego e latim, deu origem a que palavra do português?",
+      "resposta": "Papel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Papyrus",
+        "https://pt.wikipedia.org/wiki/Papiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Natrão",
+        "descricao": "Mistura natural de sais de sódio recolhida em lagos secos do Egito e usada na mumificação",
+        "variantes": [
+          "Natron"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Natron"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O natrão, sal que os egípcios usavam para secar os corpos na mumificação, deu origem ao símbolo de qual elemento químico?",
+      "resposta": "Sódio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Natron",
+        "https://en.wikipedia.org/wiki/Sodium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kohl",
+        "descricao": "Pintura escura usada em volta dos olhos por homens e mulheres no Egito Antigo",
+        "variantes": [
+          "Kajal",
+          "Cohl"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kohl_(cosmetics)"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O kohl, pintura preta que homens e mulheres egípcios usavam em volta dos olhos, era feito sobretudo com qual mineral moído?",
+      "resposta": "Galena",
+      "distratores": [
+        "Hematita",
+        "Turquesa",
+        "Quartzo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kohl_(cosmetics)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Shaduf",
+        "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo",
+        "variantes": [
+          "Shadoof",
+          "Chaduf",
+          "Picota"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shadoof"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O shaduf, aparelho egípcio para tirar água do Nilo, é uma vara apoiada como gangorra, com um balde numa ponta. O que fica na outra ponta?",
+      "resposta": "Um contrapeso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shadoof"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nilômetro",
+        "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+        "variantes": [
+          "Nilometer",
+          "Nilómetro"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nilometer"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os nilômetros, escadarias graduadas à beira do Nilo, registravam a altura da cheia de cada ano. O que os governantes calculavam a partir dessa medida?",
+      "resposta": "Os impostos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nilometer"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cerveja no Egito Antigo",
+        "descricao": "Bebida fermentada de cereal consumida diariamente no Egito Antigo e usada como parte do pagamento de trabalhadores",
+        "variantes": [
+          "Cerveja egípcia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ancient_Egyptian_cuisine",
+          "https://en.wikipedia.org/wiki/History_of_beer"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A cerveja, bebida do dia a dia no Egito Antigo, servia até de pagamento aos trabalhadores. Qual cereal era sua base principal?",
+      "resposta": "Cevada",
+      "distratores": [
+        "Milho",
+        "Arroz",
+        "Centeio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ancient_Egyptian_cuisine",
+        "https://en.wikipedia.org/wiki/History_of_beer"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bastet",
+        "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis",
+        "variantes": [
+          "Bast",
+          "Bastit"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bastet"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "A deusa Bastet, protetora dos lares, era cultuada em Bubástis, onde se acharam milhares de múmias de animais. Com o tempo, passou a ser representada como qual animal doméstico?",
+      "resposta": "Gato",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bastet"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tauéret",
+        "descricao": "Deusa egípcia protetora das grávidas e dos partos, com corpo de hipopótamo, patas de leão e dorso de crocodilo",
+        "variantes": [
+          "Taweret",
+          "Tueris",
+          "Taurt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Taweret"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Tauéret, deusa protetora das grávidas e dos partos, tinha patas de leão e dorso de crocodilo. E qual animal formava seu corpo e sua cabeça?",
+      "resposta": "Hipopótamo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Taweret"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Amon",
+        "descricao": "Deus egípcio patrono de Tebas, fundido ao deus-sol como Amon-Rá e associado ao carneiro",
+        "variantes": [
+          "Amun",
+          "Amen",
+          "Ammon",
+          "Amon-Rá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amun"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Os fósseis chamados amonites, de concha em espiral, devem o nome ao deus egípcio Amon. Qual animal sagrado do deus tinha chifres desse formato?",
+      "resposta": "Carneiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ammonoidea",
+        "https://en.wikipedia.org/wiki/Amun"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ptah",
+        "descricao": "Deus criador egípcio cultuado em Mênfis, patrono dos artesãos e construtores",
+        "variantes": [
+          "Ptá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ptah"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A palavra Egito vem, pelo grego, do nome de um templo de Mênfis, a morada do espírito de um deus criador, patrono dos artesãos. Que deus?",
+      "resposta": "Ptah",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ptah",
+        "https://en.wikipedia.org/wiki/Names_of_Egypt"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abu_simbel",
+        "nome": "Abu Simbel",
+        "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abu_Simbel"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Duas vezes por ano, o sol nascente entra no templo maior de Abu Simbel e ilumina estátuas no santuário. Qual deus, ligado ao mundo dos mortos, fica sempre na sombra?",
+      "resposta": "Ptah",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abu_Simbel"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nefertiti",
+        "nome": "Nefertiti",
+        "descricao": "Rainha egípcia da 18ª dinastia, grande esposa real do faraó Akhenaton, retratada no famoso busto de Berlim.",
+        "variantes": [
+          "Nefertari Nefertiti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nefertiti"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da rainha Nefertiti, grande esposa real de Aquenáton, costuma ser traduzido por qual frase?",
+      "resposta": "A bela chegou",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nefertiti"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "busto_de_nefertiti",
+        "nome": "Busto de Nefertiti",
+        "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nefertiti_Bust"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O busto de Nefertiti, exposto em Berlim, tem um detalhe que intriga os visitantes: um dos olhos não tem a incrustação de cristal. Qual dos olhos?",
+      "resposta": "O esquerdo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nefertiti_Bust"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hatshepsut",
+        "nome": "Hatshepsut",
+        "descricao": "Rainha da décima oitava dinastia que governou o Egito como faraó no século quinze antes de Cristo",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hatshepsut"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A faraó Hatshepsut enviou navios a uma terra distante, de onde trouxe árvores vivas de mirra e incenso, cena gravada no seu templo. Como os egípcios chamavam essa terra?",
+      "resposta": "Punt",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Land_of_Punt",
+        "https://en.wikipedia.org/wiki/Hatshepsut"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cesarião",
+        "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo",
+        "variantes": [
+          "Ptolomeu XV",
+          "Caesarion",
+          "Ptolomeu XV Cesarião"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caesarion",
+          "https://pt.wikipedia.org/wiki/Cesarião"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Para muitos historiadores, o último faraó do Egito foi o filho adolescente de Cleópatra com um general romano, morto em 30 antes de Cristo. Por qual apelido ele ficou conhecido?",
+      "resposta": "Cesarião",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caesarion"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mênfis",
+        "descricao": "Antiga capital do Egito unificado, perto da atual Cairo, centro do culto ao deus Ptah",
+        "variantes": [
+          "Memphis",
+          "Mênfis (Egito)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A cidade americana às margens do Mississippi onde viveu Elvis Presley tem o nome de qual antiga capital do Egito?",
+      "resposta": "Mênfis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+        "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mênfis",
+        "descricao": "Antiga capital do Egito unificado, perto da atual Cairo, centro do culto ao deus Ptah",
+        "variantes": [
+          "Memphis",
+          "Mênfis (Egito)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição registrada por Heródoto, qual rei unificou o Egito e fundou Mênfis como capital do país?",
+      "resposta": "Menés",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Memphis,_Egypt",
+        "https://en.wikipedia.org/wiki/Menes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tebas",
+        "descricao": "Antiga cidade do Alto Egito, capital no Novo Império, onde hoje fica Luxor",
+        "variantes": [
+          "Tebas (Egito)",
+          "Uaset",
+          "Waset",
+          "Thebes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na Ilíada, Homero fala de uma riquíssima cidade egípcia, a das cem portas. Que cidade era essa?",
+      "resposta": "Tebas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Delta do Nilo",
+        "descricao": "Região de forma triangular no norte do Egito onde o Nilo se divide em braços antes de desaguar no Mediterrâneo",
+        "variantes": [
+          "Nile Delta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nile_Delta"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A região em que o Nilo se divide em vários braços antes de chegar ao Mediterrâneo tem forma triangular. Os gregos a chamaram pelo nome de qual letra?",
+      "resposta": "Delta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nile_Delta",
+        "https://en.wikipedia.org/wiki/River_delta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alto Egito",
+        "descricao": "Metade sul do Egito Antigo, ao longo do vale do Nilo, em oposição ao Baixo Egito, no norte",
+        "variantes": [
+          "Upper Egypt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Upper_Egypt"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No Egito Antigo, o chamado Alto Egito ficava no sul do país, e o Baixo Egito, no norte. O que explica essa aparente inversão?",
+      "resposta": "O Nilo corre para o norte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Upper_Egypt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mastaba",
+        "descricao": "Tipo de tumba egípcia retangular, de teto plano e paredes inclinadas, anterior às pirâmides",
+        "variantes": [
+          "Mastabá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mastaba"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes das pirâmides, nobres e reis eram enterrados sob construções retangulares de teto plano, as mastabas. Esse nome árabe as compara a qual móvel?",
+      "resposta": "Banco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mastaba"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "piramide_de_djoser",
+        "nome": "Pirâmide de Djoser",
+        "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_Djoser"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A Pirâmide de Djoser, em Sacará, foi erguida como uma pilha de mastabas cada vez menores. Quantos degraus ela tem?",
+      "resposta": "Seis",
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Sete"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_Djoser"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "piramide_curvada",
+        "nome": "Pirâmide Curvada",
+        "descricao": "Pirâmide do faraó Seneferu, da IV dinastia, na necrópole de Dahshur, com a inclinação alterada na parte alta.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bent_Pyramid"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A Pirâmide Curvada, que muda de inclinação no meio da subida, foi construída para qual faraó, pai de Quéops?",
+      "resposta": "Seneferu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bent_Pyramid"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirâmide Vermelha",
+        "descricao": "Pirâmide de faces lisas do faraó Seneferu na necrópole de Dahshur, a terceira maior do Egito",
+        "variantes": [
+          "Red Pyramid",
+          "Pirâmide Norte de Dahshur"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Red_Pyramid"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Em Dahshur fica a terceira maior pirâmide do Egito, superada só pelas de Quéops e de Quéfren. Pela cor das suas pedras, ela é chamada de pirâmide de que cor?",
+      "resposta": "Vermelha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Red_Pyramid"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirâmide de Miquerinos",
+        "descricao": "Menor das três grandes pirâmides de Gizé, túmulo do faraó Miquerinos, da Quarta Dinastia",
+        "variantes": [
+          "Pirâmide de Menkaure",
+          "Pyramid of Menkaure"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Das três grandes pirâmides de Gizé, a menor foi construída para qual faraó da Quarta Dinastia?",
+      "resposta": "Miquerinos",
+      "distratores": [
+        "Quéops",
+        "Quéfren",
+        "Seneferu"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "piramide_de_quefren",
+        "nome": "Pirâmide de Quéfren",
+        "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_Khafre"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Perto do topo de uma das pirâmides de Gizé ainda resta um trecho do revestimento de calcário liso que antes as cobria. De qual faraó é essa pirâmide?",
+      "resposta": "Quéfren",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_Khafre"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "piramide_de_quefren",
+        "nome": "Pirâmide de Quéfren",
+        "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pyramid_of_Khafre"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Vista de longe, a pirâmide de Quéfren parece mais alta que a vizinha de Quéops, embora seja um pouco menor. O que explica essa impressão?",
+      "resposta": "Fica num terreno mais alto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pyramid_of_Khafre"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Obelisco Inacabado",
+        "descricao": "Obelisco gigante abandonado ainda preso à rocha numa antiga pedreira de granito de Assuã, no Egito",
+        "variantes": [
+          "Unfinished obelisk",
+          "Obelisco Inacabado de Assuã"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Unfinished_obelisk"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Numa pedreira de granito de Assuã, um obelisco gigante continua deitado e preso à rocha onde começou a ser talhado há milênios. Por que foi abandonado?",
+      "resposta": "Rachaduras na pedra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Unfinished_obelisk"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Obelisco de Latrão",
+        "descricao": "Obelisco egípcio do tempo de Tutmés Terceiro, levado de Karnak para Roma e erguido diante da Basílica de São João de Latrão",
+        "variantes": [
+          "Lateran Obelisk",
+          "Obelisco Lateranense"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lateran_Obelisk"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O maior obelisco egípcio antigo ainda de pé foi talhado no tempo de Tutmés Terceiro para Karnak. Hoje ele se ergue diante de uma basílica em qual cidade?",
+      "resposta": "Roma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lateran_Obelisk"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Serapeu de Sacará",
+        "descricao": "Conjunto de galerias subterrâneas em Sacará com grandes sarcófagos de pedra para os touros sagrados de Ápis",
+        "variantes": [
+          "Serapeum of Saqqara",
+          "Serapeum de Saqqara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Serapeum_of_Saqqara"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nas galerias subterrâneas do Serapeu de Sacará há enormes sarcófagos de granito. Que animais sagrados eram enterrados neles?",
+      "resposta": "Os touros Ápis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Serapeum_of_Saqqara"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Imhotep",
+        "descricao": "Arquiteto e alto funcionário do faraó Djoser, mais tarde venerado no Egito como deus da medicina",
+        "variantes": [
+          "Imotep"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Imhotep"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Séculos depois de morrer, Imhotep, arquiteto do faraó Djoser, foi venerado no Egito como deus da cura. Com que deus grego da medicina os gregos o identificaram?",
+      "resposta": "Asclépio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Imhotep"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Antigo Império",
+        "descricao": "Período da história egípcia, de cerca de 2700 a 2200 antes de Cristo, em que foram construídas as grandes pirâmides",
+        "variantes": [
+          "Antigo Reino",
+          "Old Kingdom of Egypt"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Que período da história egípcia, em que foram erguidas as pirâmides de Gizé e de Sacará, é apelidado de era das pirâmides?",
+      "resposta": "Antigo Império",
+      "distratores": [
+        "Médio Império",
+        "Novo Império",
+        "Período Ptolemaico"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vigésima Quinta Dinastia do Egito",
+        "descricao": "Dinastia de reis vindos do Reino de Kush, na Núbia, que governou o Egito no século oito e sete antes de Cristo",
+        "variantes": [
+          "25ª dinastia",
+          "Dinastia Kushita",
+          "Faraós negros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No século oito antes de Cristo, reis vindos do sul conquistaram o Egito e formaram a vigésima quinta dinastia. De qual reino africano eles vinham?",
+      "resposta": "Kush, na Núbia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Numeração egípcia",
+        "descricao": "Sistema de numeração decimal do Egito Antigo, com um sinal hieroglífico para cada potência de dez",
+        "variantes": [
+          "Egyptian numerals",
+          "Algarismos egípcios"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Egyptian_numerals"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na numeração egípcia, cada potência de dez tinha um sinal. O de um homem ajoelhado com os braços erguidos, como se estivesse espantado, valia quanto?",
+      "resposta": "Um milhão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Egyptian_numerals"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Papiro Rhind",
+        "descricao": "Papiro matemático egípcio copiado pelo escriba Ahmes, com problemas de aritmética e geometria, hoje no Museu Britânico",
+        "variantes": [
+          "Rhind Mathematical Papyrus",
+          "Papiro de Ahmes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O papiro Rhind, manual de matemática do Egito Antigo, calcula a área do círculo de um jeito que equivale a usar qual valor para pi?",
+      "resposta": "Cerca de 3,16",
+      "distratores": [
+        "Exatamente 3",
+        "Cerca de 3,5",
+        "Cerca de 2,5"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "hieroglifos_egipcios",
+        "nome": "Hieróglifos egípcios",
+        "descricao": "Sistema de escrita formal do Egito Antigo, que combinava sinais de sons e de ideias",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Não sabemos ao certo como os egípcios pronunciavam nomes como Ramsés, porque os sinais de som dos hieróglifos registravam só um tipo de letra. Qual?",
+      "resposta": "As consoantes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Demótico",
+        "descricao": "Escrita cursiva simplificada usada no dia a dia do Egito a partir do período tardio",
+        "variantes": [
+          "Escrita demótica",
+          "Demotic"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Demotic_(Egyptian)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A escrita egípcia do dia a dia no período tardio recebeu dos gregos o nome demótico. O que essa palavra quer dizer?",
+      "resposta": "Popular",
+      "distratores": [
+        "Sagrado",
+        "Sacerdotal",
+        "Real"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Demotic_(Egyptian)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Senet",
+        "descricao": "Jogo de tabuleiro do Egito Antigo, jogado num tabuleiro de três fileiras e encontrado em várias tumbas",
+        "variantes": [
+          "Senat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Senet"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O senet, jogo de tabuleiro egípcio de que até Tutancâmon levou exemplares para a tumba, tinha quantas casas?",
+      "resposta": "Trinta",
+      "distratores": [
+        "Vinte",
+        "Trinta e seis",
+        "Sessenta e quatro"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Senet"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Máscara de Tutancâmon",
+        "descricao": "Máscara funerária de ouro com incrustações que cobria o rosto da múmia de Tutancâmon, hoje no Egito",
+        "variantes": [
+          "Mask of Tutankhamun",
+          "Máscara funerária de Tutancâmon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na máscara funerária de ouro de Tutancâmon, as sobrancelhas e o contorno dos olhos são incrustados com qual pedra azul-escura?",
+      "resposta": "Lápis-lazúli",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cajado e mangual",
+        "descricao": "Par de cetros cruzados no peito que simbolizavam o poder do faraó e eram atributos do deus Osíris",
+        "variantes": [
+          "Heka e nekhakha",
+          "Crook and flail"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Crook_and_flail"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os faraós aparecem com dois cetros cruzados no peito, também símbolos de Osíris. Um é o cajado de pastor. Como se chama o outro, usado para debulhar grãos?",
+      "resposta": "Mangual",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Crook_and_flail"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "osiris",
+        "nome": "Osíris",
+        "descricao": "Deus egípcio dos mortos e do além, marido de Ísis e pai de Hórus",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Osiris"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição egípcia, a cabeça de Osíris estava enterrada numa cidade do Alto Egito, principal centro do seu culto e destino de peregrinações. Que cidade?",
+      "resposta": "Abidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abydos,_Egypt",
+        "https://en.wikipedia.org/wiki/Osiris"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Adobe",
+        "descricao": "Tijolo de barro cru secado ao sol, usado desde o Egito Antigo em casas e palácios",
+        "variantes": [
+          "Tijolo de adobe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Adobe"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra adobe, o tijolo de barro cru secado ao sol, chegou ao português pelo árabe. Mas de que língua bem mais antiga ela vem?",
+      "resposta": "Egípcio antigo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Adobe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Papiro Edwin Smith",
+        "descricao": "Antigo papiro médico egípcio que descreve casos de ferimentos e fraturas e seus tratamentos",
+        "variantes": [
+          "Edwin Smith Papyrus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O papiro Edwin Smith, um dos tratados médicos mais antigos que se conhecem, trata principalmente de quê?",
+      "resposta": "Ferimentos e fraturas",
+      "distratores": [
+        "Doenças dos olhos",
+        "Gravidez e partos",
+        "Picadas de cobra"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ísis",
+        "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus",
+        "variantes": [
+          "Isis",
+          "Aset"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Isis"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nas pinturas egípcias, a deusa Ísis costuma levar sobre a cabeça o hieróglifo do próprio nome. Que objeto ele desenha?",
+      "resposta": "Um trono",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "farao",
+        "nome": "Faraó",
+        "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pharaoh"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na crença egípcia, o faraó vivo era a encarnação na Terra de qual deus com cabeça de falcão?",
+      "resposta": "Hórus",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Horus",
+        "https://en.wikipedia.org/wiki/Pharaoh"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "vale_dos_reis",
+        "nome": "Vale dos Reis",
+        "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Valley_of_the_Kings"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No Novo Império, os faraós trocaram as pirâmides por tumbas escavadas na rocha de um vale isolado perto de Tebas. Que ameaça eles tentavam evitar?",
+      "resposta": "Os saqueadores de tumbas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Valley_of_the_Kings"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "templo_de_luxor",
+        "nome": "Templo de Luxor",
+        "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Luxor_Temple"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Dentro do Templo de Luxor, erguido para os deuses de Tebas, funciona há séculos, sobre as ruínas antigas, um templo de outra religião. Qual?",
+      "resposta": "Uma mesquita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Luxor_Temple",
+        "https://en.wikipedia.org/wiki/Abu_Haggag_Mosque"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Azul egípcio",
+        "descricao": "Pigmento azul artificial de silicato de cálcio e cobre, fabricado e usado na pintura do Egito Antigo",
+        "variantes": [
+          "Egyptian blue",
+          "Azul do Egito"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Egyptian_blue"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O azul egípcio, considerado um dos primeiros pigmentos sintéticos da história, era fabricado aquecendo areia, calcário e qual metal?",
+      "resposta": "Cobre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Egyptian_blue"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cartas de Amarna",
+        "descricao": "Arquivo de tabuletas de argila com a correspondência diplomática dos faraós com reis do Oriente Próximo, achado em Amarna",
+        "variantes": [
+          "Amarna letters",
+          "Correspondência de Amarna"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Amarna_letters"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "As Cartas de Amarna, correspondência diplomática entre faraós e reis vizinhos, foram escritas em tabuletas de argila. Em qual sistema de escrita?",
+      "resposta": "Cuneiforme",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amarna_letters"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Alexandria",
+        "descricao": "Cidade portuária no litoral mediterrâneo do Egito, fundada por Alexandre, o Grande, e capital da dinastia ptolemaica",
+        "variantes": [
+          "Alexandria (Egito)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alexandria"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano Alexandre, o Grande, fundou a cidade de Alexandria, no litoral mediterrâneo do Egito?",
+      "resposta": "331 antes de Cristo",
+      "distratores": [
+        "356 antes de Cristo",
+        "323 antes de Cristo",
+        "305 antes de Cristo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alexandria"
+      ]
+    }
+  ]
+}

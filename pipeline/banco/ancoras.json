@@ -84239,7 +84239,8 @@
     "nome": "Nefertiti",
     "descricao": "Rainha egípcia da 18ª dinastia, grande esposa real do faraó Akhenaton, retratada no famoso busto de Berlim.",
     "variantes": [
-      "Nefertite"
+      "Nefertite",
+      "Nefertari Nefertiti"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Nefertiti",
@@ -159743,7 +159744,8 @@
     "variantes": [
       "Amun",
       "Amon-Rá",
-      "Ammon"
+      "Ammon",
+      "Amen"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Amun"
@@ -165776,6 +165778,348 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)"
+    ]
+  },
+  {
+    "id": "papiro",
+    "nome": "Papiro",
+    "descricao": "Material de escrita feito pelos antigos egípcios com o caule da planta Cyperus papyrus, que crescia nas margens do Nilo",
+    "variantes": [
+      "Papyrus"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Papiro",
+      "https://en.wikipedia.org/wiki/Papyrus"
+    ]
+  },
+  {
+    "id": "natrao",
+    "nome": "Natrão",
+    "descricao": "Mistura natural de sais de sódio recolhida em lagos secos do Egito e usada na mumificação",
+    "variantes": [
+      "Natron"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Natron"
+    ]
+  },
+  {
+    "id": "shaduf",
+    "nome": "Shaduf",
+    "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo",
+    "variantes": [
+      "Shadoof",
+      "Chaduf",
+      "Picota"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shadoof"
+    ]
+  },
+  {
+    "id": "nilometro",
+    "nome": "Nilômetro",
+    "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+    "variantes": [
+      "Nilometer"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nilometer"
+    ]
+  },
+  {
+    "id": "bastet",
+    "nome": "Bastet",
+    "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis",
+    "variantes": [
+      "Bast",
+      "Bastit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bastet"
+    ]
+  },
+  {
+    "id": "taueret",
+    "nome": "Tauéret",
+    "descricao": "Deusa egípcia protetora das grávidas e dos partos, com corpo de hipopótamo, patas de leão e dorso de crocodilo",
+    "variantes": [
+      "Taweret",
+      "Tueris",
+      "Taurt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taweret"
+    ]
+  },
+  {
+    "id": "ptah",
+    "nome": "Ptah",
+    "descricao": "Deus criador egípcio cultuado em Mênfis, patrono dos artesãos e construtores",
+    "variantes": [
+      "Ptá"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ptah"
+    ]
+  },
+  {
+    "id": "cesariao",
+    "nome": "Cesarião",
+    "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo",
+    "variantes": [
+      "Ptolomeu XV",
+      "Caesarion",
+      "Ptolomeu XV Cesarião"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Caesarion",
+      "https://pt.wikipedia.org/wiki/Cesarião"
+    ]
+  },
+  {
+    "id": "menfis",
+    "nome": "Mênfis",
+    "descricao": "Antiga capital do Egito unificado, perto da atual Cairo, centro do culto ao deus Ptah",
+    "variantes": [
+      "Memphis",
+      "Mênfis (Egito)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+    ]
+  },
+  {
+    "id": "tebas",
+    "nome": "Tebas",
+    "descricao": "Antiga cidade do Alto Egito, capital no Novo Império, onde hoje fica Luxor",
+    "variantes": [
+      "Tebas (Egito)",
+      "Uaset",
+      "Waset",
+      "Thebes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+    ]
+  },
+  {
+    "id": "alto_egito",
+    "nome": "Alto Egito",
+    "descricao": "Metade sul do Egito Antigo, ao longo do vale do Nilo, em oposição ao Baixo Egito, no norte",
+    "variantes": [
+      "Upper Egypt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Upper_Egypt"
+    ]
+  },
+  {
+    "id": "mastaba",
+    "nome": "Mastaba",
+    "descricao": "Tipo de tumba egípcia retangular, de teto plano e paredes inclinadas, anterior às pirâmides",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mastaba"
+    ]
+  },
+  {
+    "id": "piramide_de_miquerinos",
+    "nome": "Pirâmide de Miquerinos",
+    "descricao": "Menor das três grandes pirâmides de Gizé, túmulo do faraó Miquerinos, da Quarta Dinastia",
+    "variantes": [
+      "Pirâmide de Menkaure",
+      "Pyramid of Menkaure"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure"
+    ]
+  },
+  {
+    "id": "obelisco_inacabado",
+    "nome": "Obelisco Inacabado",
+    "descricao": "Obelisco gigante abandonado ainda preso à rocha numa antiga pedreira de granito de Assuã, no Egito",
+    "variantes": [
+      "Unfinished obelisk",
+      "Obelisco Inacabado de Assuã"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Unfinished_obelisk"
+    ]
+  },
+  {
+    "id": "obelisco_de_latrao",
+    "nome": "Obelisco de Latrão",
+    "descricao": "Obelisco egípcio do tempo de Tutmés Terceiro, levado de Karnak para Roma e erguido diante da Basílica de São João de Latrão",
+    "variantes": [
+      "Lateran Obelisk",
+      "Obelisco Lateranense"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lateran_Obelisk"
+    ]
+  },
+  {
+    "id": "serapeu_de_sacara",
+    "nome": "Serapeu de Sacará",
+    "descricao": "Conjunto de galerias subterrâneas em Sacará com grandes sarcófagos de pedra para os touros sagrados de Ápis",
+    "variantes": [
+      "Serapeum of Saqqara",
+      "Serapeum de Saqqara"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Serapeum_of_Saqqara"
+    ]
+  },
+  {
+    "id": "imhotep",
+    "nome": "Imhotep",
+    "descricao": "Arquiteto e alto funcionário do faraó Djoser, mais tarde venerado no Egito como deus da medicina",
+    "variantes": [
+      "Imotep"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Imhotep"
+    ]
+  },
+  {
+    "id": "antigo_imperio",
+    "nome": "Antigo Império",
+    "descricao": "Período da história egípcia, de cerca de 2700 a 2200 antes de Cristo, em que foram construídas as grandes pirâmides",
+    "variantes": [
+      "Antigo Reino",
+      "Old Kingdom of Egypt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt"
+    ]
+  },
+  {
+    "id": "vigesima_quinta_dinastia_do_egito",
+    "nome": "Vigésima Quinta Dinastia do Egito",
+    "descricao": "Dinastia de reis vindos do Reino de Kush, na Núbia, que governou o Egito no século oito e sete antes de Cristo",
+    "variantes": [
+      "25ª dinastia",
+      "Dinastia Kushita",
+      "Faraós negros"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt"
+    ]
+  },
+  {
+    "id": "numeracao_egipcia",
+    "nome": "Numeração egípcia",
+    "descricao": "Sistema de numeração decimal do Egito Antigo, com um sinal hieroglífico para cada potência de dez",
+    "variantes": [
+      "Egyptian numerals",
+      "Algarismos egípcios"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Egyptian_numerals"
+    ]
+  },
+  {
+    "id": "demotico",
+    "nome": "Demótico",
+    "descricao": "Escrita cursiva simplificada usada no dia a dia do Egito a partir do período tardio",
+    "variantes": [
+      "Escrita demótica",
+      "Demotic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Demotic_(Egyptian)"
+    ]
+  },
+  {
+    "id": "mascara_de_tutancamon",
+    "nome": "Máscara de Tutancâmon",
+    "descricao": "Máscara funerária de ouro com incrustações que cobria o rosto da múmia de Tutancâmon, hoje no Egito",
+    "variantes": [
+      "Mask of Tutankhamun",
+      "Máscara funerária de Tutancâmon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun"
+    ]
+  },
+  {
+    "id": "cajado_e_mangual",
+    "nome": "Cajado e mangual",
+    "descricao": "Par de cetros cruzados no peito que simbolizavam o poder do faraó e eram atributos do deus Osíris",
+    "variantes": [
+      "Heka e nekhakha",
+      "Crook and flail"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Crook_and_flail"
+    ]
+  },
+  {
+    "id": "adobe",
+    "nome": "Adobe",
+    "descricao": "Tijolo de barro cru secado ao sol, usado desde o Egito Antigo em casas e palácios",
+    "variantes": [
+      "Tijolo de adobe"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Adobe"
+    ]
+  },
+  {
+    "id": "papiro_edwin_smith",
+    "nome": "Papiro Edwin Smith",
+    "descricao": "Antigo papiro médico egípcio que descreve casos de ferimentos e fraturas e seus tratamentos",
+    "variantes": [
+      "Edwin Smith Papyrus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus"
+    ]
+  },
+  {
+    "id": "isis",
+    "nome": "Ísis",
+    "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus",
+    "variantes": [
+      "Aset"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Isis"
+    ]
+  },
+  {
+    "id": "azul_egipcio",
+    "nome": "Azul egípcio",
+    "descricao": "Pigmento azul artificial de silicato de cálcio e cobre, fabricado e usado na pintura do Egito Antigo",
+    "variantes": [
+      "Egyptian blue",
+      "Azul do Egito"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Egyptian_blue"
+    ]
+  },
+  {
+    "id": "cartas_de_amarna",
+    "nome": "Cartas de Amarna",
+    "descricao": "Arquivo de tabuletas de argila com a correspondência diplomática dos faraós com reis do Oriente Próximo, achado em Amarna",
+    "variantes": [
+      "Amarna letters",
+      "Correspondência de Amarna"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amarna_letters"
+    ]
+  },
+  {
+    "id": "alexandria",
+    "nome": "Alexandria",
+    "descricao": "Cidade portuária no litoral mediterrâneo do Egito, fundada por Alexandre, o Grande, e capital da dinastia ptolemaica",
+    "variantes": [
+      "Alexandria (Egito)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alexandria"
     ]
   }
 ]

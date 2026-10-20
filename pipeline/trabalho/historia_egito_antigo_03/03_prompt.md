@@ -1,0 +1,1823 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Egito Antigo** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Papiro",
+      "descricao": "Material de escrita feito pelos antigos egípcios com o caule da planta Cyperus papyrus, que crescia nas margens do Nilo"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os egípcios escreviam em folhas feitas com uma planta das margens do Nilo. O nome dessa planta, via grego e latim, deu origem a que palavra do português?",
+    "resposta": "Papel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Papyrus",
+      "https://pt.wikipedia.org/wiki/Papiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Papyrus",
+        "situacao": "ok",
+        "texto": "Papyrus ( pə-PY-rəs) is a substance used in ancient times as a writing surface. Similar to thick paper, it was first known to have been used in Egypt (at least as far back as the First Dynasty) as the papyrus plant from which it was created was once abundant across the Nile Delta. Papyrus was made from the pith of the papyrus plant, Cyperus papyrus, a wetland sedge.\n[…]\nMichigan Papyrus Collection: this collection contains above 10,000 papyri fragments. It is housed at the University of Michigan.\n[…]\nYale Papyrus Collection: housed by the Beinecke Library, it contains over six thousand inventoried items. It is cataloged, digitally scanned, and accessible online.\n[…]\nBrooklyn Medical Papyrus: this papyrus focuses mainly on snakebites and their remedies. It speaks of remedial methods for venoms obtained from snakes, scorpions, and tarantulas. The Brooklyn Medical Papyrus currently resides in the Brooklyn Museum.\n[…]\nSaite Oracle Papyrus: this papyrus located at the Brooklyn Museum records the petition of a man named Pemou on behalf of his father, Harsiese to ask their god for permission to change temples.\n[…]\nStrasbourg papyrus\n[…]\nPapyrus sanitary pad\n[…]\nMagdalen papyrus\n[…]\nThe papyrus plant in Egyptian art\n[…]\nRosemarie Drenkhahn: Papyrus. In: Wolfgang Helck, Wolfhart Westendorf (eds.): Lexikon der Ägyptologie. vol. IV, Wiesbaden 1982, Spalte 667–670\n[…]\nLeuven Homepage of Papyrus Collections\n[…]\nAncient Egyptian Papyrus – Aldokkan\n[…]\nYale Papyrus Collection Database at the Beinecke Rare Book and Manuscript Library at Yale University\n[…]\nLund University Library Papyrus Collection\n[…]\nGhent University Library Papyrus Collection\n[…]\nThompson, Edward Maunde (1911). \"Papyrus\" . Encyclopædia Britannica. Vol. 20 (11th ed.). pp. 743–745.\n[…]\nModern commercial Papyrus paper making (photos)– Elbardy\n[…]\nPapyrus-making in Egypt (video), scidevnet, via youtube, April 2019."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Papiro",
+        "situacao": "ok",
+        "texto": "Papiro (em latim: papyrus; em grego clássico: πάπυρος) é, originalmente, uma planta perene da família das ciperáceas cujo nome científico é Cyperus papyrus, por extensão é também o meio físico usado para a escrita (precursor do papel) durante a Antiguidade — Antigo Egito, civilizações do Oriente Médio, como os hebreus e babilônios, e todo o mundo greco-romano).\n[…]\nA menos que o papiro fosse de qualidade perfeita, a superfície de escrita era irregular, e o leque de materiais que podiam ser utilizados era também limitado.\n[…]\nContudo, com o declínio das redes comerciais, a disponibilidade de papiro fora da zona de cultivo da planta tornou-se limitada, e por isso perdeu a sua vantagem de custo.\n[…]\nO seu uso no Egipto continuou até ser substituído por papel mais barato, introduzido pelo mundo islâmico, que o aprendeu originalmente com os chineses. No século XII, o pergaminho e o papel eram já utilizados no Império Bizantino, mas o papiro ainda era uma opção.\n[…]\nFoi por volta de 2500 a.C. que os egípcios desenvolveram a técnica de fabricar folhas de papiro, considerado o precursor do papel. Para confeccionar o papiro, corta-se o miolo esbranquiçado e poroso do talo em finas lâminas. Depois de secas, estas lâminas são mergulhadas em água com vinagre para ali permanecerem por seis dias, com propósito de eliminar o açúcar. Outra vez secas, as lâminas são ajeitadas em fileiras horizontais e verticais, sobrepostas umas às outras.\n[…]\nA sequência do processo exige que as lâminas sejam colocadas entre dois pedaços de tecido de algodão, sendo então mantidas e prensadas por seis dias. E é com o peso da prensa que as finas lâminas se misturam homogeneamente para formar o papel amarelado, pronto para ser usado. O papiro pronto era, então, enrolado a uma vareta de madeira ou marfim para criar o rolo que seria usado na escrita.\n[…]\nPapiro P52\n[…]\nPapiro Rhind\n[…]\nPapirologia"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Natrão",
+      "descricao": "Mistura natural de sais de sódio recolhida em lagos secos do Egito e usada na mumificação"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O natrão, sal que os egípcios usavam para secar os corpos na mumificação, deu origem ao símbolo de qual elemento químico?",
+    "resposta": "Sódio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Natron",
+      "https://en.wikipedia.org/wiki/Sodium"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Natron",
+        "situacao": "ok",
+        "texto": "Natron is a naturally occurring mixture of sodium carbonate decahydrate (Na2CO3·10H2O, a kind of soda ash) and around 17% sodium bicarbonate (also called baking soda, NaHCO3) along with small quantities of sodium chloride and sodium sulfate. Natron is white to colourless when pure, varying to gray or yellow with impurities. Natron deposits are sometimes found in saline lake beds which arose in ari\n[…]\nIn modern mineralogy the term natron has come to mean only the sodium carbonate decahydrate (hydrated soda ash) that makes up most of the historical salt.\n[…]\nThe English and German word natron is a French cognate derived through the Spanish natrón from Latin natrium and Greek nitron (νίτρον). This derives from the Ancient Egyptian word nṯrj. Natron refers to Wadi El Natrun or Natron Valley in Egypt, from which natron was mined by the ancient Egyptians for use in burial rites. The modern chemical symbol for sodium, Na, is an abbreviation of that element's Neo-Latin name natrium, which was derived from natron.\n[…]\nThe name of the chemical element nitrogen is also a cognate to natron, it derives from the Greek nitron and -gen (a suffix meaning \"producer of\", in this case of nitric acid, which was produced from niter or [nitre] [potassium nitrate]). Niter is also an obsolete name for natron because in earlier times, both minerals used to be confused with each other.\n[…]\nThe mineral natron is often found in association with thermonatrite, nahcolite, trona, halite, mirabilite, gaylussite, gypsum, and calcite.\n[…]\nIn most cases the mineral natron will form together with some amount of nahcolite (sodium bicarbonate), resulting in salt mixtures like the historical natron.\n[…]\nThe following list may include geographical sources of either natron or other hydrated sodium carbonate minerals:\n[…]\nTrou au Natron\n[…]\nWadi El Natrun (Natron Valley)\n[…]\nLake Natron\n[…]\nNatrona\n[…]\nNatrona County\n[…]\n\"Etymology of 'natron'\". Balashon."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sodium",
+        "situacao": "ok",
+        "texto": "Sodium is a chemical element; it has symbol Na (from Neo-Latin natrium) and atomic number 11. It is a soft, silvery-white, highly reactive metal. Sodium is an alkali metal, being in group 1 of the periodic table. Its only stable isotope is 23Na. The free metal does not occur in nature and must be prepared from compounds. Sodium is the sixth–most abundant element in the Earth's crust and exists in \n[…]\nMany salts of sodium are highly water-soluble: sodium ions have been leached by the action of water from the Earth's minerals over eons, and thus sodium and chlorine are the most common dissolved elements by weight in the oceans.\n[…]\nThe chemical abbreviation for sodium was first published in 1814 by Jöns Jakob Berzelius in his system of atomic symbols, and is an abbreviation of the element's Neo-Latin name natrium, which refers to the Egyptian natron, a natural mineral salt mainly consisting of hydrated sodium carbonate. Natron historically had several important industrial and household uses, later eclipsed by other sodium compounds.\n[…]\nThe Earth's crust contains 2.27% sodium, making it the sixth most abundant element on Earth and the fourth most abundant metal, behind aluminium, iron, calcium, and magnesium and ahead of potassium.Sodium's estimated oceanic abundance is 10.8 grams per liter. Because of its high reactivity, it is never found as a pure element. It is found in many minerals, some very soluble, such as halite and natron, others much less soluble, such as amphibole and zeolite.\n[…]\nSolving for x gives us the amount of sodium chloride that contains 1500 mg of elemental sodium\n[…]\nThis mean that 3812.91 mg of sodium chloride contain 1500 mg of elemental sodium.\n[…]\nGreenwood, Norman  N.; Earnshaw, Alan (1997). Chemistry of the Elements (2nd ed.). Butterworth-Heinemann. doi:10.1016/C2009-0-30414-6. ISBN 978-0-08-037941-8."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Natr%C3%A3o",
+        "situacao": "ok",
+        "texto": "Natrão é um mineral composto por carbonato de sódio hidratado, com fórmula química Na2CO3·10H2O.\n[…]\nO natrão era uma das substâncias utilizadas pelos antigos egípcios nos processos de mumificação; na verdade o natrão era composto por carbonato de sódio, bicarbonato de sódio, sal e sulfato de sódio - no qual as múmias ficavam imersas por durante 40 dias; a substância natural era encontrada em várias regiões do país, especialmente no uádi el-Natrum. Seu uso, neste fim, destinava-se à desidratação das células e combate às bactérias.\n[…]\nNa antiguidade egípcia seu uso também era o de alvejante para roupas brancas, e misturado com argila formava um tipo de sabão, com uso no preparo da lã.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Kohl",
+      "descricao": "Pintura escura usada em volta dos olhos por homens e mulheres no Egito Antigo"
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O kohl, pintura preta que homens e mulheres egípcios usavam em volta dos olhos, era feito sobretudo com qual mineral moído?",
+    "resposta": "Galena",
+    "distratores": [
+      "Hematita",
+      "Turquesa",
+      "Quartzo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kohl_(cosmetics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kohl_(cosmetics)",
+        "situacao": "ok",
+        "texto": "Kohl is a cosmetic product traditionally made by crushing stibnite (antimony sulfide). Modern kohl formulations often contain galena (lead sulfide), and in some cases charcoal or other pigments. Kohl is similar to eyeliner, and is widely used in many cultures to contour or darken the eyelids and heighten beauty marks. Several studies have questioned the safety of kohl out of fear of lead poisoning\n[…]\nAlthough found locally, both black galena and green malachite were also imported from nearby regions in Western Asia, Coptos, and the Land of Punt.\n[…]\nSurma is another popular cosmetic used in Indian subcontinent made of galena or other minerals. Both kajal and surma have been associated with potential chemical toxicity.\n[…]\nA group of researchers in China tried to find some scientific basis of this claimed property of lead sulfide (galena) relating to absorption of sun rays when applied into the eyes in the form of kohl. The authors reported the ultraviolet (UV) absorption spectra of a thin film of lead sulfide prepared on an indium tin oxide (ITO) substrate.\n[…]\nThe drive to eliminate lead from kohl was sparked by studies in the early 1990s of preparations of kohl that found high levels of contaminants, including lead. Lead levels in commercial kohl preparations were as high as 84%. Kohl samples from Oman and Cairo, analyzed using X-ray powder diffraction and scanning electron microscopy, were found to contain galena.\n[…]\n\"Blue\" kohl is a dark-bluish black pigment composed of lead-based compounds as well as a compound of antimony. The lead-based compounds in kohl are galena (PbS) – dark grey and gloss, laurionite (PbCl(OH)) – white, phosgenite (PbCl)2CO3), and cerussite (PbCO3) – blue. The antimony-based compound in kohl is stibnite (Sb2S3) – blue.\n[…]\nEgyptian: Kohl pot, Black steatite. Click on picture.\n[…]\nEgyptian: Bone kohl pot. Figurine design. Click on picture.\n[…]\nKohl (CopperWiki)"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Shaduf",
+      "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O shaduf, aparelho egípcio para tirar água do Nilo, é uma vara apoiada como gangorra, com um balde numa ponta. O que fica na outra ponta?",
+    "resposta": "Um contrapeso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shadoof"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shadoof",
+        "situacao": "ok",
+        "texto": "A shadoof or shaduf, well pole, well sweep, sweep, swape, or simply a lift is a tool that is used to lift water from a well or another water source onto land or into another waterway or basin. It is highly efficient, and has been known since ancient times.\n[…]\nThe geographic spread of shadoofs is impressive. In regions where irrigation is imperative, such as Egypt, India, and parts of sub-Saharan Africa, shadoofs have played a crucial role in enabling agriculture to thrive in water-scarce areas. Shadoofs have empowered marginalized communities by providing them with the means to secure their sustenance, breaking the barrier of food insecurity even in the modern age.\n[…]\nGender roles have also undergone a transformation, with women frequently assuming shadoof operation. The ease of use of the shadoof empowered women to play a more active role in farming. It is fair to acknowledge that shadoofs contributed to normalizing women's increased independence and participation in less physically demanding, and therefore more “socially acceptable”, aspects of food production.\n[…]\nThe ease of use of the shadoof is perhaps its most important feature. Studies have shown that it is impressively efficient, given the simplicity of its design. Still, it is essential to recognize that shadoofs, while easing the physical demands of water retrieval, require manual labor, posing a barrier for individuals with certain physical disabilities.\n[…]\nShadoof or shaduf comes from the Arabic word شادوف, šādūf.\n[…]\nPicotah (or picota) is a Portuguese loan word.\n[…]\nThe use of shadoofs in certain areas influenced heraldry. Below are some examples of heraldic elements of various subdivisions.\n[…]\nThe Shaduf Project: A European Commission Report on Mediterranean Shaduf Use and History"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Picota_%28ferramenta%29",
+        "situacao": "ok",
+        "texto": "A picota é uma máquina simples que serve para retirar água de poços. Interpretando obras artísticas e utensílios domésticos de civilizações antigas supõe-se que aplicação mais antiga desse mecanismo deu-se na Antiga Índia e também na Mesopotâmia\n[…]\nA origem da palavra \"picota\" não é muito clara. Em Português brasileiro a palavra remete a outros significados, ainda assim o termo é utilizado para designar a haste do êmbolo de uma bomba hidráulica. Shadoof ou shaduf é uma aproximação do termo árabe شادوف (šādūf) que foi muito incorporado por outras línguas. Foi conhecida antigamente também pelos gregos como κήλων ou κηλώνειον (kēlōn ou kēlōneion) que designa ferramenta de irrigação.\n[…]\nEm espanhol há mais uma vez uma variedade de termos que descrevem esse aparato, como por exemplo, cigoñal, chaduf, bibalete, bambilete, guimbalete, shadouf. Os termos mais comuns no inglês são: shadouf, well pole, well sweep ou simplesmente sweep em americano além da variação menos comum swape.\n[…]\nÉ constituída por dois pedaços longos e articulados de madeira, um deles na posição vertical e firmemente preso ao terreno. O outro, perpendicular ao primeiro, tem numa extremidade um peso e no outro um recipiente para a água. Baixa-se o recipiente ao poço e o peso na outra extremidade ajuda a içar o recipiente.\n[…]\nThe Shaduf Project: A European Commission Report on Mediterranean Shaduf Use and History",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Nilômetro",
+      "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os nilômetros, escadarias graduadas à beira do Nilo, registravam a altura da cheia de cada ano. O que os governantes calculavam a partir dessa medida?",
+    "resposta": "Os impostos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nilometer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nilometer",
+        "situacao": "ok",
+        "texto": "A nilometer is a structure for measuring the Nile River's clarity and water level during the annual flood season in Egypt. There were three main types of nilometers, calibrated in Egyptian cubits: (1) a vertical column, (2) a corridor stairway of steps leading down to the Nile, and (3) a deep well with a culvert. If the water level was low, the fertility of the floodplain would suffer. If it was t\n[…]\nYaqut al-Hamawi, writing in the 12th–13th centuries, writes that in the beginning of year 247 AH (March 861), during Yazid ibn Abd Allah al-Turki's governorship of Egypt, the Abbasid caliph al-Mutawakkil had the 'new' nilometer constructed, and ordered that the privilege of measuring the river 'be taken away from the Christians.' The governor then appointed a man from Basra named Abu'r-Raddad who had emigrated to Egypt and taught hadith.\n[…]\nAmr ibn al-As, after the conquest of Egypt, reported to the Caliph Umar that when the Nile rose to 14 cubits there was a sufficient harvest, 16 an abundant harvest, 17 being the most advantageous height of all, and that at 18, one-fourth of Egypt would be inundated and usually be followed by plague. The Baghdad doctor Abd al-Latif al-Baghdadi, who traveled Egypt between 1192-1201, related similar measurements. In the exceedingly low water levels of 1201 and 1202, the nilometer remained dry.\n[…]\nIn 1201, the year commenced with a rise in 2 cubits before rising an average 15+16⁄24 cubits. In 1202, the year began with 1½ cubits before rising to 15+23⁄24 cubits. During the Abbasid Period, the nilometer was used to measure the river level and hence determine the rates of tax in Egypt.\n[…]\nIn 1937, efforts to drain and excavate the nilometer were begun by Kamil Bey Ghalib, the Under-Secretary of State for Public Works, employing a new method used by Rothpletz and Lienhard. In this method, the mud could be removed completely and the structure examined."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nil%C3%B4metro",
+        "situacao": "ok",
+        "texto": "No Antigo Egito, um nilômetro(pt-BR) ou nilómetro(pt-PT?) era um poço de grande largura, provido de uma escada que descia até ao nível do lençol freático para permitir a medição das flutuações do nível da água do rio Nilo.\n[…]\nCada templo tinha um destes instrumentos, destinado a determinar a intensidade da inundação anual e, em consequência, o valor dos impostos devidos neste ano.\n[…]\nOs nilômetros podem ser vistos ainda hoje ao longo do Nilo. Os mais famosos encontram-se em Com Ombo, Assuã, na ilha Elefantina e no Cairo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Cerveja no Egito Antigo",
+      "descricao": "Bebida fermentada de cereal consumida diariamente no Egito Antigo e usada como parte do pagamento de trabalhadores"
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A cerveja, bebida do dia a dia no Egito Antigo, servia até de pagamento aos trabalhadores. Qual cereal era sua base principal?",
+    "resposta": "Cevada",
+    "distratores": [
+      "Milho",
+      "Arroz",
+      "Centeio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ancient_Egyptian_cuisine",
+      "https://en.wikipedia.org/wiki/History_of_beer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ancient_Egyptian_cuisine",
+        "situacao": "ok",
+        "texto": "The cuisine of ancient Egypt encompasses the food and drink consumed by the ancient Egyptians throughout a span of over three thousand years, which retained many consistent traits until well into Greco-Roman times. The staples of the ancient Egyptian diet were bread and beer, which were supplemented with vegetables, legumes, fruits, meat, and seasonings prepared in a multitude of ways."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_beer",
+        "situacao": "ok",
+        "texto": "Beer is one of the oldest human-produced drinks. The written history of ancient Egypt and Mesopotamia records the use of beer, and the drink eventually spread throughout the world. A 3,900-year-old Sumerian poem honouring Ninkasi, the patron goddess of brewing, contains the oldest surviving beer-recipe, describing the production of beer from barley bread. In China, residue on pottery dating from a\n[…]\nAs almost any cereal containing certain sugars can undergo spontaneous fermentation due to wild yeasts in the air, it is possible that beer-like drinks were independently developed throughout the world soon after a tribe or culture had domesticated cereal."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alimenta%C3%A7%C3%A3o_no_Antigo_Egito",
+        "situacao": "ok",
+        "texto": "A alimentação no Antigo Egito (3100 a.C. - 30 a.C.) perpassa de maneira bastante estável mais de três mil anos. Consistia basicamente em porções diárias de pão e cerveja, também acompanhados por cebolas ou outros vegetais, frutas e carnes. A quantidade de alimentos encontrados em tumbas como oferendas indicam a que a alimentação no Egito era estritamente relacionada a uma questão religiosa.\n[…]\nOs grãos eram a base necessária para a alimentação da população e dos animais domesticados. Consistiam principalmente em farro e cevada, que eram utilizados para fabricação do pão e da cerveja.\n[…]\nO pão era a base alimentar do povo egípcio, sendo consumido por todas as classes sociais. Nenhuma refeição era considerada completa sem ele. As estimativas para as porcentagens de calorias fornecidas pelo pão para as pessoas no Mediterrâneo Oriental variam entre 50-75% das calorias diárias e era provavelmente semelhante no antigo Egito. O pão era um alimento básico nutritivo e também economicamente importante: por ser um alimento seco e autossuficiente, era altamente portátil.\n[…]\nPoucos resíduos examinados em laboratório mostraram qualquer vestígio de ingredientes além de cereais, leveduras e água, mas acredita-se que a cerveja podia ser saborizada com tâmaras e mel, garantindo um sabor mais adocicado que o da cerveja atual. Em análises bioarqueológicas não foram encontrados resquícios de cevada, demonstrando que o farro, grão mais utilizado na fabricação do pão, também era o favorito para a cerveja.\n[…]\nOs ricos alimentavam-se duas ou três vezes ao dia, com uma refeição leve no início da manhã, seguida por um grande almoço e o jantar. Em contraste, os camponeses comiam um desjejum simples de pão e cebolas, sendo sua refeição principal no final da tarde. Pão e cerveja eram consumidos por todos os níveis da sociedade, provavelmente como base para todas as refeições.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Bastet",
+      "descricao": "Deusa egípcia protetora do lar, cultuada sobretudo na cidade de Bubástis"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A deusa Bastet, protetora dos lares, era cultuada em Bubástis, onde se acharam milhares de múmias de animais. Com o tempo, passou a ser representada como qual animal doméstico?",
+    "resposta": "Gato",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bastet"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bastet",
+        "situacao": "ok",
+        "texto": "Bastet or Bast (Ancient Egyptian: bꜣstt), also known as Ubasti or Bubastis, is a goddess of ancient Egyptian religion, possibly of Nubian origin, worshipped as early as the Second Dynasty (2890 BCE). In ancient Greek religion, she was known as Ailuros (Koine Greek: αἴλουρος, lit. 'cat').\n[…]\nBastet was worshipped in Bubastis in Lower Egypt, originally as a lioness goddess, a role shared by other deities such as Sekhmet. Eventually Bastet and Sekhmet were characterized as two aspects of the same goddess, with Sekhmet representing the powerful warrior and protector aspect, and Bastet, who increasingly was depicted as a cat, representing a gentler aspect.\n[…]\nHer name was originally shorter, transliterated as Bast in English. Bast first appears in the third millennium BCE, where she is depicted as either a fierce lioness or a woman with the head of a lioness. Two thousand years later, during the Third Intermediate Period of Egypt (c. 1070–712 BCE), Bast began to be depicted as a domestic cat or a cat-headed woman. Scribes of the New Kingdom and later eras began referring to her with an additional feminine suffix, as Bastet.\n[…]\nAt the Bubastis temple, large numbers of cats were found to have been mummified and buried, many next to their owners. More than 300,000 mummified cats were discovered when Bastet's temple was excavated. Turner and Bateson suggest that the status of the cat in Egypt was roughly equivalent to that of the cow in modern India.\n[…]\nBakr, Mohamed I. & Brandl, Helmut (2010). \"Bubastis and the Temple of Bastet\". In M. I. Bakr; H. Brandl & F. Kalloniatis (eds.). Egyptian Antiquities from Kufur Nigm and Bubastis. Cairo/Berlin. pp. 27–36.{{cite encyclopedia}}:  CS1 maint: location missing publisher (link) ISBN 978-3-00-033509-9"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bastete",
+        "situacao": "ok",
+        "texto": "Bastet (em egípcio: bstt; em copta: Ⲟⲩⲃⲁⲥⲧⲉ; romaniz.: Oubaste) ou Bast, na mitologia egípcia, foi uma deusa felina, cultuada desde ao menos a II dinastia (ca. 2 890 a.C.). É considerada filha do deus Rá, e uma versão mais “dócil” da deusa Sekhmet, que seria sua irmã.\n[…]\nO culto a Bastet e a Sekhmet foi muito popular no Antigo Egito, o que levou à proliferação de cemitérios de múmias votivas de felinos, com destaque para as cidades de Bubástis, Saqqara, Tebas, Dendera e Abidos. Além disso, também eram usados nos rituais devocionais amuletos e estátuas votivas de gatos, que funcionavam como intermediários entre os humanos e os deuses.\n[…]\nAs múmias votivas eram feitas sob encomendas nos templos e santuários devotos aos deuses felinos. Havia uma fazenda de animais e uma necrópole de animais próximo aos templos para este fim. Assim, os gatos eram mortos, geralmente pela quebra do pescoço ou por estrangulamento, secos e enfaixados. Estes corpos dissecados eram depositados em esquifes e em imagens de bronze.\n[…]\nO grande número de devotos durante toda a história egípcia levou a produção de milhares de múmias, que hoje em dia podem ser encontradas em diversos acervos e museus ao redor do mundo, como na Casa Museu Eva Klabin.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Tauéret",
+      "descricao": "Deusa egípcia protetora das grávidas e dos partos, com corpo de hipopótamo, patas de leão e dorso de crocodilo"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Tauéret, deusa protetora das grávidas e dos partos, tinha patas de leão e dorso de crocodilo. E qual animal formava seu corpo e sua cabeça?",
+    "resposta": "Hipopótamo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taweret"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taweret",
+        "situacao": "ok",
+        "texto": "In Ancient Egyptian religion, Taweret (Ancient Egyptian: tꜣ-wrt, also spelled Taurt, Tuat, Tuart, Ta-weret, Tawaret, Twert and Taueret, and in Ancient Greek: Θουέρις, romanized: Thouéris, Thoeris, Taouris and Toeris) is the protective goddess of childbirth and fertility. The name \"Taweret\"  means \"she who is great\" or simply \"great one\", a common pacificatory address to dangerous deities.\n[…]\nThere is a connection to the Phoenician goddess of pregnancy Dea Gravida.\n[…]\nThis cosmic image continues to be seen in later periods, although the tendency was to show such divine astral bodies more abstractly. One example can be found in the late Ptolemaic or early Roman Book of the Faiyum, a local monograph dedicated to the Faiyum and its patron gods, namely Sobek-Re. Taweret is depicted in her standard form with a crocodile on her back and a small upright crocodile in her right hand.\n[…]\nTaweret bears physical aspects of both a fertility goddess and a fearsome protective deity. She takes the form of a female hippopotamus, a highly deadly creature. She is also often seen with features from other predatory creatures, most notably being the tail of a Nile crocodile and the paws of a lioness. These features directly parallel those of other ferocious protective ancient Egyptian deities, most notably the crocodile god Sobek and the lioness goddess Sekhmet.\n[…]\nThese violent theriomorphic deities take on some of the aspects of the animals that they represent – both to the benefit and detriment of humans. Taweret's predatory form allows her to ward away evil from the innocent. Likewise, Taweret's nurturing aspects are also reinforced in her iconography, as she frequently is shown with a pregnant belly, and pendulous human breasts. These breasts are shared by the god of the Nile inundation, Hapi, and signify regenerative powers.\n[…]\nMedia related to Taweret at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tu%C3%A9ris",
+        "situacao": "ok",
+        "texto": "Tuéris (em grego clássico: Θουέρις; romaniz.: Thouéris) ou Tauerete (em egípcio: Tȝ-wrt; \"a grande [fêmea]\") era a deusa protetora das mulheres em parto e fertilidade. Seu culto ocorre desde o Reino Antigo (r. 2686–2160 a.C.), mas parece ser uma das divindades cujo culto formal era inexistente. Apesar disso, dada a grande quantidade de estatuetas que lhe representam, deve ter tido relevante culto \n[…]\nHá ainda um grafite no pilone VIII do Templo de Carnaque em Tebas e estátuas dedicadas por oficiais como Pabes, alta camareira de Nitócris, divina adoradora de Amom (XXVI dinastia). Como \"senhora do horizonte\", era a constelação de hipopótamo, localizada pelos egípcios no hemisfério norte, e aparece no teto da câmara do sarcófago no túmulo de Seti I no Vale dos Reis.\n[…]\nEm decorrência da associação do hipopótamo macho com Seti, foi chamada de concubina de Seti, que, segundo Plutarco, tornou-se uma das seguidoras de Hórus na disputa pelo trono. Também foi dito que era esposa de Bes.\n[…]\nSua iconografia é composta: a cabeça de hipopótamo, as pernas e braços de leão, a cauda de crocodilo, seios humanos pendentes e a barriga inchada de uma mulher grávida. Geralmente usa uma peruca feminina que pode ser encimada por uma touca emplumada, um módio, ou com chifres e disco solar. É geralmente exibida com boca aberta ou lábios puxados para trás e revelando dentes numa careta que talvez enfatize sua função protetora.\n[…]\nSeus principais atributos são o simbolo sa de proteção, o símbolo ankh da vida, e a tocha, cuja chama visava tanto dissipar as trevas quanto as forças inimigas. Geralmente, o símbolo sa é o maior desses atributos e é colocado no chão diante dela que repousa uma ou ambas as patas sobre ele. Variantes dela incluem formas da deusa com a cabeça de um gato ou de uma mulher humana, como visto numa jarra de madeira entalhada na sua forma (ou de Ipete), mas com perfil da rainha Tie.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Amon",
+      "descricao": "Deus egípcio patrono de Tebas, fundido ao deus-sol como Amon-Rá e associado ao carneiro"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Os fósseis chamados amonites, de concha em espiral, devem o nome ao deus egípcio Amon. Qual animal sagrado do deus tinha chifres desse formato?",
+    "resposta": "Carneiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ammonoidea",
+      "https://en.wikipedia.org/wiki/Amun"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ammonoidea",
+        "situacao": "ok",
+        "texto": "Ammonoids are extinct, typically coiled-shelled cephalopods composing the subclass Ammonoidea. They are more closely related to living octopuses, squid, and cuttlefish (which compose the clade Coleoidea) than they are to nautiluses (family Nautilidae), which their shells resemble.\n[…]\nThe name \"ammonite\", from which the scientific term is derived, was inspired by the spiral shape of their fossilized shells, which somewhat resemble tightly coiled rams' horns. Pliny the Elder (d. 79 AD near Pompeii) called fossils of these animals ammonis cornua (\"horns of Ammon\") because the Egyptian god Ammon (Amun) was typically depicted wearing rams' horns. Often, the name of an ammonite genus ends in -ceras, which is from ancient Greek κέρας (kéras) meaning \"horn\".\n[…]\nOne feature found in shells of the modern Nautilus is the variation in the shape and size of the shell according to the sex of the animal, the shell of the male being slightly smaller and wider than that of the female. This sexual dimorphism is thought to be an explanation for the variation in size of certain ammonite shells of the same species, the larger shell (the macroconch) being female, and the smaller shell (the microconch) being male.\n[…]\nMany ammonite shells have been found with round holes once interpreted as a result of limpets attaching themselves to the shells. However, the triangular formation of the holes, their size and shape, and their presence on both sides of the shells, corresponding to the upper and lower jaws, is more likely evidence of the bite of a medium-sized mosasaur preying upon ammonites."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Amun",
+        "situacao": "ok",
+        "texto": "Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested from the Old Kingdom together with his wife Amunet. His oracle in Siwa Oasis, located in Western Egypt near the Libyan Desert, remained the only oracle of Amun throughout. With the 11th Dynasty (c. 21st century BC), Amun rose to the position of patron deity of Thebes by replacing Montu.\n[…]\nWhen Alexander the Great occupied Egypt in late 332 BC, he was regarded as a liberator, thus conquering Egypt without a fight. He was pronounced son of Amun by the oracle at Siwa. Amun was identified as a form of Zeus and Alexander often referred to Zeus-Ammon as his true father, and after his death, currency depicted him adorned with the Horns of Ammon as a symbol of his divinity.\n[…]\nThe tradition of depicting Alexander the Great with the horns of Amun continued for centuries, with someone who was possibly Alexander being referred to in the Quran as \"Dhu al-Qarnayn\" (The Two-Horned One), a reference to his depiction on Middle Eastern coins and statuary as having horns of Ammon.\n[…]\nSeveral words derive from Amun via the Greek form, Ammon, such as ammonia and ammonite. The Romans called the ammonium chloride they collected from deposits near the Temple of Jupiter-Amun in ancient Libya sal ammoniacus (salt of Amun) because of proximity to the nearby temple. Ammonia, as well as being the chemical, is a genus name in the foraminifera.\n[…]\nBoth these foraminiferans (shelled Protozoa) and ammonites (extinct shelled cephalopods) bear spiral shells resembling a ram's, and Ammon's, horns. The regions of the hippocampus in the brain are called the cornu ammonis – literally \"Amun's Horns\", due to the horned appearance of the dark and light bands of cellular layers.\n[…]\nWim van den Dungen, Leiden Hymns to Amun\n[…]\nAmun with features of Tutankhamun (statue, c. 1332–1292 BC, Penn Museum)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ammonoidea",
+        "situacao": "ok",
+        "texto": "Os amonoides (do latim científico Ammonoidea), também chamados de amonites ou amonitas, constituem um grupo extinto de moluscos cefalópodes surgido no período Devónico e que desapareceu na extinção K-T, no final do Cretáceo que também vitimou os dinossauros.\n[…]\nA concha das amonites apresenta geralmente a forma de uma espiral enrolada num plano (embora algumas espécies, denominadas heteromórficas , apresentem um enrolamento mais complexo e tridimensional) e é precisamente esta característica que determinou o seu nome. A aparência desses animais, na verdade, lembra vagamente a de um chifre enrolado, como o de um carneiro (o deus egípcio Amon , nos tempos helenístico e romano, era comumente representado como um homem com chifres de carneiro).\n[…]\nO famoso estudioso romano Plínio, o Velho (autor do tratado Naturalis Historia) definiu os fósseis destes animais como Ammonis cornua, \"chifres de Amon\". Muitas vezes o nome das espécies de amonitas termina em ceras, uma palavra grega (κέρας) cujo significado é, na verdade, \"chifre\" (por exemplo, Pleuroceras que etimologicamente significa chifre com costelas). As amonites são consideradas os fósseis por excelência, tanto que são frequentemente utilizadas como símbolo gráfico da paleontologia.\n[…]\nAs amonites eram animais marinhos, que ocupavam o nicho ecológico das atuais lulas. Tinham dimensões muito variáveis, desde alguns centímetros a um metro de diâmetro. O animal vivia dentro de uma concha espiralada de natureza carbonatada, semelhante à dos nautiloides atuais.\n[…]\nAs conchas de amonite são um tipo comum de fóssil em formações marinhas do Mesozoico. Em estratigrafia, as amonites são consideradas excelentes fósseis de idade.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Ptah",
+      "descricao": "Deus criador egípcio cultuado em Mênfis, patrono dos artesãos e construtores"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A palavra Egito vem, pelo grego, do nome de um templo de Mênfis, a morada do espírito de um deus criador, patrono dos artesãos. Que deus?",
+    "resposta": "Ptah",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ptah",
+      "https://en.wikipedia.org/wiki/Names_of_Egypt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ptah",
+        "situacao": "ok",
+        "texto": "Ptah ( TAH; Ancient Egyptian: ptḥ, reconstructed [piˈtaħ]; Ancient Greek: Φθά, romanized: Phthá; Coptic: ⲡⲧⲁϩ, romanized: Ptah; Phoenician: 𐤐𐤕𐤇, romanized: ptḥ) is an ancient Egyptian deity, a creator god, and a patron deity of craftsmen and architects. In the triad of Memphis, he is the husband of Sekhmet and the father of Nefertem. He was also regarded as the father of the sage Imhotep.\n[…]\nPtah the beautiful face\n[…]\nFrom the Old Kingdom, he quickly absorbs the appearance of Sokar and Tatenen, ancient deities of the Memphite region. His form of Sokar is found contained in its white shroud wearing the Atef crown, an attribute of Osiris. In this capacity, he represents the patron deity of the necropolis of Saqqara and other famous sites where the royal pyramids were built. Gradually he formed with Osiris a new deity called Ptah-Sokar-Osiris.\n[…]\nIn the New Kingdom, the cult of the god would develop in different ways, especially in Memphis, his homeland, but also in Thebes, where the workers of the royal tombs honoured him as patron of craftsmen. For this reason, the oratory of Ptah who listens to prayers was built near the site of Deir el-Medina, the village where the workers and craftsmen were housed.\n[…]\nMemphis was believed to be under the protection of the god Ptah, the patron of craftsmen. Its great temple, Hut-ka-Ptah (meaning \"Enclosure of the ka of Ptah\"), was one of the most prominent structures in the city. This word entered Ancient Greek as Αἴγυπτος (Aiguptos), which entered Latin as Aegyptus, which developed into Middle French Egypte and was finally borrowed into English first as Egipte in Middle English and ultimately as Egypt.\n[…]\nGunn, Battiscombe G. Instruction of Ptah-Hotep and the Instruction of Ke'Gemni: The Oldest Books in the World. 1998  Google books\n[…]\nSandman Holmberg, Maj. The God Ptah. C. W. K. Gleerup, 1946.\n[…]\nMedia related to Ptah at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Names_of_Egypt",
+        "situacao": "ok",
+        "texto": "Egypt, officially the Arab Republic of Egypt, is a country spanning the northeast corner of Africa and southwest corner of Asia via the Sinai Peninsula. It is bordered by the Mediterranean Sea to the north, Palestine and Israel to the northeast, the Red Sea to the east, Sudan and the Sahara to the south, and Libya to the west. The Gulf of Aqaba in the northeast separates Egypt from Jordan and Saud\n[…]\nThe actual derivation is thought to be from 'ḥwt-kꜣ-ptḥ (Hutkaptah, Late Egyptian pronunciation [ħəjˌkojpəˈtaħ]), 'temple of the Ka of Ptah,\" a term for the city of Memphis."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pt%C3%A1",
+        "situacao": "ok",
+        "texto": "Ptá (/pəˈtɑː/; egípcio: ptḥ; provavelmente vocalizado como Pitaḥ em egípcio), na mitologia egípcia, é o demiurgo de Mênfis, deus dos artesãos e arquitetos. Na tríade de Mênfis é o marido de Secmet e por vezes de Bastet e seus filhos são: Nefertem, Mihos, Imhotep e Maahes. Também foi considerado como o pai do sábio Imhotep. Os gregos conheciam-no como o deus Hefesto, e desta forma o historiador egí\n[…]\nAo contrário de Socáris, outro deus construtor, Ptá está associado às obras em pedra. É um construtor e Ápis era seu oráculo. Mais tarde, foi combinado com Socáris e Osíris para criar Ptá-Socaris-Osíris. Nas artes, é representado como um homem mumificado com as mãos segurando um cetro enfeitado com ankh, was e djed (símbolos da vida, força e estabilidade, respectivamente).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Abu Simbel",
+      "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Duas vezes por ano, o sol nascente entra no templo maior de Abu Simbel e ilumina estátuas no santuário. Qual deus, ligado ao mundo dos mortos, fica sempre na sombra?",
+    "resposta": "Ptah",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abu_Simbel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Abu_Simbel",
+        "situacao": "ok",
+        "texto": "Abu Simbel is a historic site comprising two massive rock-cut temples in the village of Abu Simbel (Arabic: أبو سمبل), Aswan Governorate, Upper Egypt, near the border with Sudan. It is located on the western bank of Lake Nasser, about 230 km (140 mi) southwest of Aswan (about 300 km (190 mi) by road).\n[…]\nThe Great Temple at Abu Simbel, which took about twenty years to build, was completed around year 24 of the reign of Ramesses the Great (which corresponds to 1265 BC). It was dedicated to the gods Amun, Ra-Horakhty, and Ptah, as well as to the deified Ramesses himself. It is generally considered the grandest and most beautiful of the temples commissioned during the reign of Ramesses II, and one of the most beautiful in Egypt.\n[…]\nFrom the hypostyle hall, one enters the second pillared hall, which has four pillars decorated with beautiful scenes of offerings to the gods. There are depictions of Ramesses and Nefertari with the sacred boats of Amun and Ra-Horakhty. This hall gives access to a transverse vestibule, in the middle of which is the entrance to the sanctuary. Here, on a black wall, are rock cut sculptures of four seated figures: Ra-Horakhty, the deified king Ramesses, and the gods Amun Ra and Ptah.\n[…]\nRa-Horakhty, Amun Ra and Ptah were the main divinities in that period and their cult centers were at Heliopolis, Thebes and Memphis respectively.\n[…]\nIt is believed that the axis of the temple was positioned by the ancient Egyptian architects in such a way that on October 22 and February 22, the rays of the sun would penetrate the sanctuary and illuminate the sculptures on the back wall, except for the statue of Ptah, a god connected with the realm of the dead, who always remained in the dark. People gather at Abu Simbel on these days to witness this."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abul-Simbel",
+        "situacao": "ok",
+        "texto": "Os templos de Abul-Simbel são dois enormes templos esculpidos na rocha em Abu Simbel (em árabe: أبو سمبل), uma vila na província de Assuão, Alto Egito, perto da fronteira com o Sudão. Eles estão situados na margem oeste do Lago Nasser, cerca de 230 km sudoeste de Assuão (cerca de 300 km de carro). O complexo faz parte do Patrimônio Mundial da UNESCO conhecido como \"Monumentos Núbios\", que vão de A\n[…]\nO salão hipostilo (às vezes também chamado de pronau) tem 18 m de comprimento e 16,7 m de largura e é suportado por oito enormes pilares representando o deificado Ramessés ligado ao deus Osíris, o deus da fertilidade, agricultura, vida após a morte, os mortos, ressurreição, vida e vegetação, para indicar a natureza eterna do faraó. As estátuas colossais ao longo da parede esquerda exibem a coroa branca do Alto Egito, enquanto as do lado oposto usam a coroa dupla do Alto e do Baixo Egito.\n[…]\nNotavelmente, este é um dos poucos exemplos na arte egípcia em que as estátuas do rei e de sua consorte têm o mesmo tamanho. Tradicionalmente, as estátuas das rainhas ficavam próximas às do faraó, mas nunca eram mais altas do que seus joelhos. Ramessés foi para Abul-Simbel com sua esposa no 24º ano de seu reinado. Como o Grande Templo do rei, existem pequenas estátuas de príncipes e princesas ao lado de seus pais.\n[…]\nO santuário talhado na rocha e as duas câmaras laterais são conectados ao vestíbulo transversal e alinhados com o eixo do templo. Os baixos-relevos nas paredes laterais do pequeno santuário representam cenas de oferendas a vários deuses feitas pelo faraó ou pela rainha.\n[…]\nNa parede posterior, que fica a oeste ao longo do eixo do templo, há um nicho no qual Hator, como uma vaca divina, parece estar saindo da montanha: a deusa é retratada como a Senhora do templo dedicado a ela e à rainha Nefertari, que está intimamente ligada à deusa.\n[…]\n«Abu Simbel, por Marie Parsons» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Nefertiti",
+      "descricao": "Rainha egípcia da 18ª dinastia, grande esposa real do faraó Akhenaton, retratada no famoso busto de Berlim."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da rainha Nefertiti, grande esposa real de Aquenáton, costuma ser traduzido por qual frase?",
+    "resposta": "A bela chegou",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nefertiti"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nefertiti",
+        "situacao": "ok",
+        "texto": "Nefertiti (; c. 1370 – c. 1330 BC) was a queen of the 18th Dynasty of Ancient Egypt, the great royal wife of Pharaoh Akhenaten. Nefertiti and her husband were known for their radical overhaul of state religious policy, in which they promoted an exclusivist and possibly even monotheistic religion, Atenism, centred on the sun disc and its direct connection to the royal household. With her husband, s\n[…]\nNefertiti had many titles, including:\n[…]\nNefertiti is described in the song \"Nefertiti, Sun Goddess\" (written by Leo-Neferuaten Boyle and Sovra Wilson-Dickson in December 1998). The song appeared on Leo-Neferuaten Boyle's studio recorded demo album The Aten Shines Again in October 2002 and a YouTube video of the song was created in November 2012.\n[…]\nNefertiti is described as the sister of the Mittani Crown Prince in the Red River (1995-2002) (and 2026 anime) which also features Hittite prince Zannanza, son of King Suppililiuma.\n[…]\nDodson, Aidan (2020). Nefertiti, Queen and Pharaoh of Egypt, Her Life and Afterlife. American University in Cairo Press. ISBN 9789774169908.\n[…]\nvan der Perre, Athena (2014). \"The Year 16 graffito of Akhenaten in Dayr Abū Ḥinnis. A Contribution to the Study of the Later Years of Nefertiti\". Journal of Egyptian History. 7 (1): 67–106. doi:10.1163/18741665-12340014.\n[…]\nJuan Antonio Belmonte, \"Nefertiti strikes back! A comprehensive multidisciplinary approach for the end of the Amarna Period\" in The Star Who Appears in Thebes. Studies in Honour of Jiro Kondo (eds: Nozomu Kawai & Benedict G. Davies), Abercrombie Press, 2022, ISBN 9781912246137\n[…]\nMaria M. Kloska, The Role of Nefertiti in the Religion and the Politics of the Amarna Period, Instytut Archeologii, UAM Poznań, Vol.21 2016, pp.149-175  PDF\n[…]\nThe Disappearance of Queen Nefertiti: Egypt’s Greatest Mystery — by historian Tamara Eidelman on YouTube\n[…]\nC. Nicholas Reeves: The Burial of Nefertiti?\n[…]\nA 3D model of a bust of Nefertiti"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nefertiti",
+        "situacao": "ok",
+        "texto": "Nefertiti ([ˌnɛfərˈtiːti]) (c. 1370 - 1 330 a.C.) foi uma rainha da XVIII dinastia do Antigo Egito, esposa principal do faraó Amenófis IV, mais conhecido como Aquenáton. Nefertiti e seu marido tornaram-se conhecidos pela revolução religiosa, na qual adoravam apenas um deus, Áton, ou o disco solar. Aquenáton e Nefertiti foram responsáveis por criarem uma nova religião que alterou as formas de relig\n[…]\nAs origens familiares de Nefertiti são pouco claras. O seu nome significa \"a mais Bela chegou\", o que levou muitos investigadores a considerarem que Nefertiti teria uma origem estrangeira, tendo sido identificada por alguns autores como Tadukhipa, uma princesa do Reino de Mitani (império que existiu no que é hoje a região oriental da Turquia), filha do rei Tusserata.\n[…]\nDe igual forma o nome Nefertiti, embora não fosse comum no Egito, tinha um alusão teológica relacionada com a deusa Hator, sendo aplicado à esposa real durante a celebração da festa Sed do rei (uma festa celebrada quando este completava trinta anos de reinado).\n[…]\nPara alguns estas características indicariam que a família sofreria de síndrome de Marfan, enquanto que outros consideram tratar-se de uma mera tendência estética exagerada, que visava criar novos padrões estéticos à semelhança do que tinha acontecido no campo da religião, segundo historiadores, Aquenáton queria mostrar nessas esculturas que somos muito mais que imagens, e pedia para ser retratado dessas formas para escandalizar os co-cidadãos, e também pelo fato de querer mostrar que ele era o \"Grande esposo real\" de Nefertiti, que assumiu a direção do Egito como co-regente, deixando Aquenáton livre para ser o sumo sacerdote de Aton, as únicas imagens reais de Aquenáton e Nefertiti foram esculpidas em suas tumbas mortuárias, onde mostram claramente que Nefertiti era a mulher mais bela da época e Aquenáton não tinha os traços dos egípcios conhecidos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Busto de Nefertiti",
+      "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O busto de Nefertiti, exposto em Berlim, tem um detalhe que intriga os visitantes: um dos olhos não tem a incrustação de cristal. Qual dos olhos?",
+    "resposta": "O esquerdo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nefertiti_Bust"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nefertiti_Bust",
+        "situacao": "ok",
+        "texto": "The Nefertiti Bust is a painted stucco-coated limestone bust of Nefertiti, the Great Royal Wife of Egyptian pharaoh Akhenaten. It is on display in the Neues Museum of Berlin.\n[…]\nThe bust also bears resemblance to other unfinished, but recognizable, busts of Queen Nefertiti.\n[…]\nA 2006 CT scan that discovered the \"hidden face\" of Nefertiti proved, according to Science News, that the bust was genuine.\n[…]\nIn 2003, the Egyptian Museum in Berlin allowed the Hungarian artist duo Little Warsaw, András Gálik and Bálint Havas, to place the bust atop a nearly nude female bronze for a video installation to be shown at the Venice Biennale modern art festival. The artists said the project, called Body of Nefertiti, was an attempt to pay homage to the bust.\n[…]\nThe Egyptian Minister for Culture, Farouk Hosny, declared that Nefertiti was \"not in safe hands\" and although Egypt had not renewed their claims for restitution \"due to the good relations with Germany,\" this \"recent behaviour\" was unacceptable.\n[…]\nIn 2023, images circulating on social media showed the ceiling of King Ramses IV's tomb as resembling the back of the bust of Nefertiti statue. These images are altered and do not represent the actual ceiling of any king tombs by patterns or designs as suggested by the fake images.\n[…]\nIn 1930, the German press described the bust as their new monarch, personifying it as a queen. As the \"'most precious ... stone in the setting of the diadem' from the art treasures of 'Prussia Germany'\", Nefertiti would re-establish the imperial German national identity after 1918. Hitler described the bust as \"a unique masterpiece, an ornament, a true treasure\", and pledged to build a museum to house it."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Busto_de_Nefertiti",
+        "situacao": "ok",
+        "texto": "O busto de Nefertiti é um busto feito de calcário com cerca de 3400 anos de idade, retratando Nefertiti, a Grande Esposa Real do faraó egípcio Aquenáton, uma das obras de arte mais imitadas do Antigo Egito. Devido à obra, Nefertiti tornou-se uma das mulheres mais célebres da Antiguidade, bem como um ícone da beleza feminina. Acredita-se que tenha sido feito em 1345 a.C., pelo escultor Tutemés.\n[…]\nUma equipe de arqueólogos alemães, liderada por Ludwig Borchardt, descobriu o busto em 1912, no ateliê de Tutemés em Amarna, no Egito, e ele foi desde então mantido em diversas localidades da Alemanha - incluindo uma mina de sal em Merkers-Kieselbach, o Museu Dahlem (então em Berlim Ocidental), o Museu Egípcio de Charlotemburgo e o Museu Altes. Atualmente está em exposição no Neues Museum, em Berlim, onde era exibido antes da Segunda Guerra Mundial.\n[…]\nO busto de Nefertiti tornou-se um símbolo cultural da capital alemã, bem como do Egito Antigo. Também é tema de uma intensa discussão histórica entre os dois países, em vista da exigência das autoridades egípcias por sua devolução desde a década de 1920. Existem também controvérsias envolvendo sua autenticidade, e sua relação com a exposição de arte O Corpo de Nefertiti.\n[…]\nMaiores detalhes da vida da Esposa Real de Aquenáton são desconhecidos, ela desaparece das crônicas do reino de Amarna no duodécimo ano do reinado de Aquenáton, acredita-se que a referida rainha teria atingido o posto de faraó e governado sozinha após a morte do faraó. Entre muitas teorias, Nefertiti seria filha de um oficial chamado Ay (sucessor de Tutancâmon).\n[…]\nOutro ponto que vale ressaltar é que o busto não apresenta qualquer inscrição ou identificação. O Busto de Nefertiti é atribuído ao escultor real chamado Tutemés, no ano de 1345 a.C.\n[…]\n«Dec. 7 marks the 108th anniversary of discovering Nefertiti's head statue» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Hatshepsut",
+      "descricao": "Rainha da décima oitava dinastia que governou o Egito como faraó no século quinze antes de Cristo"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A faraó Hatshepsut enviou navios a uma terra distante, de onde trouxe árvores vivas de mirra e incenso, cena gravada no seu templo. Como os egípcios chamavam essa terra?",
+    "resposta": "Punt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Land_of_Punt",
+      "https://en.wikipedia.org/wiki/Hatshepsut"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Land_of_Punt",
+        "situacao": "ok",
+        "texto": "The Land of Punt (Egyptian:  pwnt; alternate Egyptological readings Pwene(t) /puːnt/) was an ancient kingdom known from Ancient Egyptian trade records. It produced and exported gold, aromatic resins, blackwood, ebony, ivory and wild animals. Recent evidence locates it in northwestern Eritrea. It is possible that it includes or corresponds to Opone, as later known by the ancient Greeks, while some \n[…]\nThe Puntites \"traded not only in their own produce of incense, ebony and short-horned cattle, but [also] in goods from other African states including gold, ivory and animal skins.\" According to the temple reliefs, the Land of Punt was ruled at that time by King Parahu and Queen Ati. This well illustrated expedition of Hatshepsut occurred in Year 9 of the female pharaoh's reign with the blessing of the god Amun:\n[…]\nSaid by Amen, the Lord of the Thrones of the Two Land: \"Come, come in peace my daughter, the graceful, who art in my heart, King Maatkare [i.e. Hatshepsut]... I will give thee Punt, the whole of it... I will lead your soldiers by land and by water, on mysterious shores, which join the harbours of incense... They will take incense as much as they like. They will load their ships to the satisfaction of their hearts with trees of green [i.e., fresh] incense, and all the good things of the land.\"\n[…]\nOn the murals of the Hatshepsut temple at Deir el-Bahri, the King and Queen of Punt are depicted along with their retinue. Due to her unusual appearance, the Queen was sometimes hypothesized to have had advanced steatopygia or elephantiasis.\n[…]\nIn June 2018, Polish archaeologists who have been conducting research in The Temple of Hatshepsut since 1961 discovered the only depiction of a secretary bird (Sagittarius serpentarius) known from ancient Egypt in the Bas-reliefs from the Portico of Punt that depicted the great Pharaonic expedition to the Land of Punt.\n[…]\nQueen of Punt syndrome"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hatshepsut",
+        "situacao": "ok",
+        "texto": "Hatshepsut ( haht-SHEPP-sut; c. 1505–1458 BC) was the sixth pharaoh of the Eighteenth Dynasty of Egypt, ruling first as regent, then as queen regnant from c. 1479 BC until c. 1458 BC (Low Chronology) and the Great Royal Wife of Pharaoh Thutmose II. She was Egypt's second confirmed woman who ruled in her own right, the first being Sobekneferu/Neferusobek in the Twelfth Dynasty.\n[…]\nThe dating of the amphorae, \"sealed into the [tomb's] burial chamber by the debris from Senenmut's own tomb\", is undisputed, meaning that Hatshepsut was acknowledged as pharaoh of Egypt—and no longer merely regent—by Year 7 of her reign. She was certainly pharaoh by Year 9, the date of the Punt expedition, c. 1471 BC; her last dated attestation as pharaoh is Year 20, c. 1460 BC, and she no longer appears in Year 22, c. 1458.\n[…]\nHatshepsut re-established a number of trade networks that had been disrupted during the Hyksos occupation of Egypt during the Second Intermediate Period. She oversaw the preparations and funding for a mission to the Land of Punt.\n[…]\nHatshepsut's delegation returned from Punt bearing 31 live myrrh trees and other luxuries such as frankincense. Hatshepsut would grind the charred frankincense into kohl eyeliner. This is the first recorded use of the resin.\n[…]\nHatshepsut had the expedition commemorated in relief at Deir el-Bahari, which is also famous for its realistic depiction of Queen Ati of the Land of Punt. Hatshepsut also sent raiding expeditions to Byblos and the Sinai Peninsula shortly after the Punt expedition. Very little is known about these expeditions. Although many Egyptologists have claimed that her foreign policy was mainly peaceful, it is possible that she led military campaigns against Nubia and Canaan.\n[…]\nIt has long been assumed statuary of Hatshepsut was abased by Thutmose III in an\n[…]\nDjehuty, overseer of the treasury under Hatshepsut's rule"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Punte",
+        "situacao": "ok",
+        "texto": "Punte ou Reino de Punte era o nome que os antigos egípcios davam a uma região da África Oriental cuja localização não foi até ao momento identificada. De acordo com as várias hipóteses, pode ter correspondido ao que é hoje a Somália, a parte da Etiópia, ao sul da Núbia ou até mesmo ao Omã.\n[…]\nEm algumas obras em língua portuguesa o nome desta terra aparece traduzido como \"Ponto\" em vez de \"Punte\", mas tal tradução é incorreta, visto que o Reino do Ponto refere-se ao Ponto Euxino no Mar Negro, local que não foi visitado pelos Egípcios.\n[…]\nDesta terra os Egípcios obtinham vários produtos, como o marfim, o ouro, a mirra, o ébano, as plumas, os animais exóticos e os perfumes.\n[…]\nO Punte foi visitado pelos egípcios desde as épocas mais recuadas da sua história. Um baixo-relevo da época da IV dinastia retrata um natural de Punte na companhia de um filho de Khufu (Quéops). Na época da V dinastia conhece-se uma expedição do rei Sefrés à região.\n[…]\nContudo, a expedição mais conhecida foi ordenada pela rainha Hatexepsute (Império Novo), no nono ano do seu reinado, encontrando-se representada em baixos-relevos do templo de Deir Elbari. Liderada por Neesi, a expedição era composta por cinco barcos. Os habitantes do Punte são apresentados vivendo em cabanas às quais se acedia através de uma escada, possivelmente para evitar os ataques de animais selvagens.\n[…]\nO rei do Punte, Pa-Rahu, aparece representado com uma barba pontiaguda, e a sua esposa, Iti, como formas estranhas, possivelmente resultado de obesidade ou de uma doença conhecida como elefantíase. Depois de carregarem os barcos com os bens da terra, retornaram ao Egito onde foram acolhidos pela rainha em Tebas. As árvores de incenso trazidas foram plantadas pela rainha no seu templo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Cesarião",
+      "descricao": "Ptolomeu Quinze, filho de Cleópatra Sétima e de Júlio César, corregente do Egito morto em 30 antes de Cristo"
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Para muitos historiadores, o último faraó do Egito foi o filho adolescente de Cleópatra com um general romano, morto em 30 antes de Cristo. Por qual apelido ele ficou conhecido?",
+    "resposta": "Cesarião",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caesarion"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Caesarion",
+        "situacao": "ok",
+        "texto": "Ptolemy XV Caesar (; Ancient Greek: Πτολεμαῖος Καῖσαρ, Ptolemaios Kaisar; 47 BC – late August 30 BC), nicknamed Caesarion (Greek: Καισαρίων, Kaisaríōn, \"Little Caesar\"), was the last pharaoh of the Ptolemaic Kingdom of Egypt, reigning with his mother Cleopatra VII from 44 BC to 30 BC.\n[…]\nCaesarion's formal co-regency with Cleopatra VII was recorded via double-dating systems in official state documentation.\n[…]\nAfter the defeat of Mark Antony and Cleopatra at the Battle of Actium in 31 BC, Cleopatra seems to have groomed Caesarion to take over as \"sole ruler without his mother\". She may have intended to go into exile, perhaps with Antony, who may have hoped that he would be allowed to retire peacefully as Lepidus had. Caesarion reappears in the historical record in 30 BC, when Octavian invaded Egypt and searched for him.\n[…]\nCaesarion appears in the HBO historical drama series Rome, portrayed by Maxim Baldry. He is depicted as actually being the son of Titus Pullo, one of the two main characters of the series. The series shows Caesarion surviving Octavian's conquest of Egypt, with Pullo faking his death.\n[…]\nIn the graphic novel Asterix and Son, a mysterious anonymous child is left on the step of the title character Asterix's home. At the end of the comic, the baby is revealed to be Caesarion, who Cleopatra had smuggled into the impregnable village to protect him from Marcus Junius Brutus. The character of Brutus is amalgamated with the historical Octavian, being depicted as Caesar's adopted son who sees Caesarion as threat to his inheritance.\n[…]\nCaesareum of Alexandria\n[…]\nReign of Cleopatra\n[…]\nPtolemy XV Caesarion (Archived 4 October 2018 at the Wayback Machine) – entry in historical sourcebook by Mahlon H. Smith"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ptolemeu_XV_Cesari%C3%A3o",
+        "situacao": "ok",
+        "texto": "Ptolemeu XV Filópator Filómetor Cesarião (do latim Caesarion, \"pequeno César\"; 23 de junho de 47 — agosto de 30 a.C.) foi o último faraó da dinastia ptolemaica do Egito Antigo. Era tido como filho da rainha do Egito, Cleópatra VII e do general romano Júlio César. Embora o romano jamais tenha reconhecido publicamente sua paternidade, deu indícios que fosse seu pai.\n[…]\nCesarião nasceu no Egito e sua mãe, a rainha Cleópatra, sempre afirmou que ele era filho do general romano Júlio César. Mas ainda que o menino pudesse ostentar traços fisionômicos de seu suposto pai e talvez tenha sido autorizado a usar seu nome, César nunca reconheceu, oficialmente, ter um filho natural, razão pela qual veio a adotar seu sobrinho, Otaviano, como seu herdeiro. Um panfleto que circulou em Roma àquela época  tentava provar que César não poderia ser o pai de Cesarião.\n[…]\nCesarião passou dois de seus primeiros anos, 46 a.C.-44 a.C., em Roma, onde ele e sua mãe eram convidados oficiais do governo romano, ou seja, de Júlio César. Mas quando o ditador foi assassinado, em 15 de março de 44 a.C., ambos tiveram que retornar, apressadamente, ao Egito.\n[…]\nApós a batalha de Áccio (31 a.C.) e consequente invasão do Egito pelas forças de Otaviano, Cleópatra enviou Cesarião, com um grande tesouro, para o porto de Berenice, no mar Vermelho, provavelmente pretendendo fazê-lo chegar à Índia, onde encontraria refúgio.\n[…]\nAs circunstâncias da morte do suposto filho de César nunca ficaram plenamente esclarecidas. A hipótese mais aceita — sustentada, inclusive, por Plutarco — é a de que ele, após os suicídios de Marco Antônio e Cleópatra, se tenha deixado enganar pela promessa de assumir o trono do Egito, como herdeiro de sua mãe, tendo retornado a Alexandria, onde foi preso e executado por ordem de Otaviano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Mênfis",
+      "descricao": "Antiga capital do Egito unificado, perto da atual Cairo, centro do culto ao deus Ptah"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A cidade americana às margens do Mississippi onde viveu Elvis Presley tem o nome de qual antiga capital do Egito?",
+    "resposta": "Mênfis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+      "https://en.wikipedia.org/wiki/Memphis,_Egypt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
+        "situacao": "ok",
+        "texto": "Memphis (, MEM-fis) is a city in Shelby County, Tennessee, United States, and its county seat. Situated along the Mississippi River, it had a population of 633,104 at the 2020 census, making it the second-most populous city in Tennessee, the fifth-most populous in the Southeast, and the 29th-most populous in the US. While being the most populous single municipality on the Mississippi River, Memphi\n[…]\nFormer and current Memphis residents include musicians Elvis Presley, Jerry Lee Lewis, Muddy Waters, Carl Perkins, Johnny Cash, Robert Johnson, W. C. Handy, Bobby Whitlock, B.B. King, Howlin' Wolf, Isaac Hayes, Booker T. Jones, Eric Gales, Al Green, Alex Chilton, Three 6 Mafia, the Sylvers, Jay Reatard, Zach Myers, and Aretha Franklin.\n[…]\nMany musicians, including Aretha Franklin, Elvis Presley, Johnny Cash, Jerry Lee Lewis, Carl Perkins, Roy Orbison, Booker T. & the M.G.'s, Otis Redding, Isaac Hayes, Shawn Lane, Al Green, Bobby Whitlock, Rance Allen, Percy Sledge, Solomon Burke, William Bell, Sam & Dave and B.B. King, got their start in Memphis in the 1950s and 1960s.\n[…]\nBeale Street is a national historical landmark and shows the impact Memphis has had on American blues, particularly after World War II as electric guitars took precedence over the original acoustic sound from the Mississippi Delta. Sam Phillips' Sun Studio still stands and is open for tours. Elvis, Johnny Cash, Jerry Lee Lewis, Carl Perkins and Roy Orbison all made their first recordings there and were \"discovered\" by Phillips. Many great blues artists recorded there, such as W. C.\n[…]\nDowdy, G. Wayne (2010). Crusades for Freedom: Memphis and the Political Transformation of the American South. Jackson, Mississippi, USA: University Press of Mississippi.\n[…]\nRushing, Wanda (2009). Memphis and the Paradox of Place: Globalization in the American South. Chapel Hill, North Carolina, USA: University of North Carolina Press, 2009."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Memphis,_Egypt",
+        "situacao": "ok",
+        "texto": "Memphis (Egyptian Arabic: منف, romanized: Manf, pronounced [mænf]; Bohairic Coptic: ⲙⲉⲙϥⲓ; Greek: Μέμφις), or Men-nefer, was the ancient capital of Inebu-hedj, the first nome of Lower Egypt that was known as mḥw (\"North\"). Its ruins are located in the vicinity of the present-day village of Mit Rahina (Arabic: ميت رهينة), in Badrashin markaz (county), Giza Governorate, Egypt.\n[…]\nDuring the Byzantine and Coptic periods the city gradually dwindled and finally dropped out of existence. It then became a quarry from which its stones were used to build new settlements nearby, including Fustat, the new capital founded by the Arabs who took possession in the seventh century AD. The foundations of Fustat and later Cairo, both built farther north, were laid with stones of dismantled temples and ancient necropoleis of Memphis.\n[…]\nAlthough the remains today are nothing compared to what was witnessed by the Arab historian, his testimony has inspired the work of many archaeologists. The first surveys and excavations of the nineteenth century, and the extensive work of Flinders Petrie, have been able to show a little of the former glory of the ancient capital. Memphis and its necropolis, which include funerary rock tombs, mastabas, temples, and pyramids, were inscribed on the World Heritage List of UNESCO in 1979.\n[…]\nThe Temple of Apis in Memphis was the main temple dedicated to the worship of the bull Apis, considered to be a living manifestation of Ptah. It is detailed in the works of classical historians such as Herodotus, Diodorus, and Strabo, but its location has yet to be discovered amidst the ruins of the ancient capital. According to Herodotus, who described the temple's courtyard as a peristyle of columns with giant statues, it was built during the reign of Psamtik I.\n[…]\nList of historical capitals of Egypt\n[…]\nOn the Memphis Theology\n[…]\nPhotos of Memphis, Egiptomania.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Memphis",
+        "situacao": "ok",
+        "texto": "Memphis ou Mênfis é a segunda cidade mais populosa do estado do Tennessee, atrás de Nashville. Localiza-se no sudoeste do estado e figura entre as 50 maiores cidades do país.\n[…]\nMemphis também se destaca no seu âmbito cultural, sendo considerada uma das três cidades mais importantes da música norte-americana, juntamente com Nova Orleães e Nashville. A cidade de Memphis também ficou famosa por ser a casa de Elvis Presley entre 1956 e 1977. A mansão Graceland, patrimônio da família Presley hoje transformada em museu, continua sendo um dos pontos de interesse mais visitados do estado atraindo cerca de 600 mil pessoas por ano.\n[…]\nMemphis foi fundada em 1819 por John Overton, Winchester James e Andrew Jackson e batizada em homenagem a cidade egípcia de Mênfis (que se localizava às margens do rio Nilo). Com o passar dos anos Memphis se tornou uma das cidades mais desenvolvidas dos Estados Unidos devido, principalmente, a sua localização estratégica às margens do Mississipi. Durante o auge da economia sulista baseada no cultivo de algodão, Memphis se tornou mais rica ainda.\n[…]\nAssim como em grande parte dos centros urbanos norte-americanos, a criminalidade é o maior problema enfrentado pelas autoridades de Memphis. Em 2004, Memphis foi classificada a 4ª cidade mais perigosa dos Estados Unidos.\n[…]\nA localização estratégica da cidade resultou no crescimento industrial e empresarial. Às margens do Mississipi, Memphis é cortada por ferrovias e rodovias que a conectam com o restante do pais. Memphis também se destaca na indústria naval e aérea, sendo a sede da FedEx, International Paper e da Schering-Plough que figuram entre as 1000 maiores empresas globais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Mênfis",
+      "descricao": "Antiga capital do Egito unificado, perto da atual Cairo, centro do culto ao deus Ptah"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição registrada por Heródoto, qual rei unificou o Egito e fundou Mênfis como capital do país?",
+    "resposta": "Menés",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Memphis,_Egypt",
+      "https://en.wikipedia.org/wiki/Menes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Memphis,_Egypt",
+        "situacao": "ok",
+        "texto": "Memphis (Egyptian Arabic: منف, romanized: Manf, pronounced [mænf]; Bohairic Coptic: ⲙⲉⲙϥⲓ; Greek: Μέμφις), or Men-nefer, was the ancient capital of Inebu-hedj, the first nome of Lower Egypt that was known as mḥw (\"North\"). Its ruins are located in the vicinity of the present-day village of Mit Rahina (Arabic: ميت رهينة), in Badrashin markaz (county), Giza Governorate, Egypt.\n[…]\nIn the Bible, Memphis is called either Noph, or Moph.\n[…]\nIt has been theorised that Menes may have been a mythical king, similar to Romulus of Rome. Some scholars suggest that Egypt most likely became unified through mutual need, developing cultural ties and trading partnerships, although it is undisputed that the first capital of united Egypt was the city of Memphis.\n[…]\nSome Egyptologists had identified the legendary Menes with the historical Narmer, who is represented on the Palette of Narmer conquering the territory of the Nile Delta in Lower Egypt and establishing himself as king. This palette has been dated to ca. 31st century BC and thus, would correlate with the legend of Egypt's unification by Menes. However, in 2012 an inscription depicting the visit of the predynastic king Iry-Hor to Memphis was discovered in the Sinai.\n[…]\nLittle is known about the city of the Old Kingdom and before. It was the state capital of the powerful kings, who reigned from Memphis from the date of the First Dynasty. According to Manetho, during the earliest years of the reign of Menes, the seat of power was farther to the south, at Thinis. According to Manetho, ancient sources suggest the \"white walls\" (Ineb-hedj) or \"fortress of the white wall\" were founded by Menes.\n[…]\nList of historical capitals of Egypt\n[…]\nMemphis, Tennessee, named after Memphis, Egypt\n[…]\nOn the Memphis Theology\n[…]\nPhotos of Memphis, University of Chicago Archived 22 March 2013 at the Wayback Machine\n[…]\nPhotos of Memphis, Egiptomania.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Menes",
+        "situacao": "ok",
+        "texto": "Menes (fl. c. 3200–3000 BC; ; Ancient Egyptian: mnj, probably pronounced */maˈnij/; Ancient Greek: Μήνης and Μήν) was a pharaoh of the Early Dynastic Period of ancient Egypt, credited by classical tradition with having united Upper and Lower Egypt, and as the founder of the First Dynasty.\n[…]\nThe name Menes is first documented in the work of Manetho, an Egyptian historian and priest of the relatively late Ptolemaic period. Manetho noted the name in Greek as Μήνης (transliterated: Mḗnés). An alternative Greek form, Μιν (transliterated: Min), was cited by the fifth-century-BC historian Herodotus, but this variant appears to be unrelated, the result of contamination from the name of the god Min.\n[…]\nThe almost complete absence of any mention of Menes in the archaeological record and the comparative wealth of evidence of Narmer, a protodynastic figure credited by posterity and in the archaeological record with a firm claim to the unification of Upper and Lower Egypt, has given rise to a theory identifying Menes with Narmer.\n[…]\nManetho associates the city of Thinis with the Early Dynastic Period and, in particular, Menes, a \"Thinite\" or native of Thinis. Herodotus contradicts Manetho in stating that Menes founded the city of Memphis as his capital after diverting the course of the Nile through the construction of a levee. Manetho ascribes the building of Memphis to Menes' son, Athothis, and calls no pharaohs earlier than Third Dynasty \"Memphite\".\n[…]\nHeagy, Thomas C. (2014), \"Who was Menes?\", Archeo-Nil, 24: 59–92. Available online \"[1]\". Archived from the original on 2017-09-01. Retrieved 2017-10-26..\n[…]\nMenes, Ancient Egypt, archived from the original on 2024-05-27.\n[…]\n\"Menes\", Ancient Egyptian Civilization (image), Aldokkan.\n[…]\n\"Menes\" . New International Encyclopedia. 1905."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%AAnfis",
+        "situacao": "ok",
+        "texto": "Mênfis (Men-nefer em egípcio; em árabe: ممفس; em árabe egípcio: ممفيس; em grego:  Μέμφις) era uma cidade do Antigo Egito, antiga capital de Aneb-Hetch, primeiro nomo do Baixo Egito. Suas ruínas localizam-se próximo à cidade atual de Heluã, ao sul da capital do país, Cairo.\n[…]\nDe acordo com a lenda narrada por Manetão, a cidade teria sido fundada pelo faraó Menés, por volta de 3 000 a.C. Capital do Egito durante o Império Antigo, continuou a ser uma cidade importante ao longo da história do Mediterrâneo. Os palácios eram edificados em Mênfis Ocupava uma posição estratégica, na embocadura no delta do Nilo; seu principal porto, Peru-nefer, abrigava diversas oficinas, fábricas e armazéns que distribuíam comida e mercadorias por todo o reino.\n[…]\nAcreditava-se que Mênfis estava sob a proteção do deus Ptá, padroeiro dos artesãos. Seu grande templo, Hut-ka-Ptah (\"Recinto do ka de Ptá\"), era uma das estruturas mais destacadas da cidade. O nome do templo, transliterado para o grego como Aί γυ πτoς (Ai-gy-ptos) pelo historiador Manetão, seria a origem etimológica do nome atual do país nos idiomas ocidentais, Egito.\n[…]\nA história de Mênfis está fortemente ligada à do próprio país. Acredita-se que sua eventual queda estaria ligada à perda da importância econômica ocorrida na Antiguidade Tardia, que se seguiu à ascensão de Alexandria, no litoral. Sua importância religiosa também diminuiu com o abandono da religião egípcia antiga, ocorrida após o Édito de Tessalônica. As ruínas da antiga capital oferecem, nos dias de hoje, uma evidência fragmentária de seu passado magnífico.\n[…]\nNa mitologia grega, Mênfis foi fundada por Épafo, rei do Egito, casado com Mênfis, filha do Nilo.\n[…]\nMedia relacionados com Mênfis no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Tebas",
+      "descricao": "Antiga cidade do Alto Egito, capital no Novo Império, onde hoje fica Luxor"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Ilíada, Homero fala de uma riquíssima cidade egípcia, a das cem portas. Que cidade era essa?",
+    "resposta": "Tebas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thebes,_Egypt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thebes,_Egypt",
+        "situacao": "ok",
+        "texto": "Thebes (Egyptian Arabic: طيبه, romanized: ṭība), known to the ancient Egyptians as Waset, was an ancient Egyptian city located along the Nile about 800 kilometers (500 mi) south of the Mediterranean. Its ruins lie within the modern Egyptian city of Luxor. Thebes was the main city of the fourth Upper Egyptian nome (Sceptre nome) and was the capital of Egypt for long periods during the Middle Kingdo\n[…]\nThebes was inhabited from around 3200 BC. It was the eponymous capital of Waset, the fourth Upper Egyptian nome. At this time it was still a small trading post, while Memphis served as the royal residence of the Old Kingdom pharaohs. Although no buildings survive in Thebes older than portions of the Karnak temple complex that may date from the Middle Kingdom, the lower part of a statue of Pharaoh Nyuserre of the 5th Dynasty has been found in Karnak.\n[…]\nIn the first century AD, Strabo described Thebes as having been relegated to a mere village.\n[…]\nEastern Thebes:\n[…]\nWestern Thebes:\n[…]\nIn the novel The Egyptian (1945) by Mika Waltari, there are elaborate descriptions of how Thebes looked during the 18th Dynasty of Ancient Egypt.\n[…]\nThebes is a setting in the films The Mummy (1999) and The Mummy Returns (2001). It is said to be the \"Land of the Living\". (In real history, there was no such name given to it.) The films feature scenes taking place in ancient Egypt in its prime, which affect the story in the modern setting some 3000 years later.\n[…]\nNew Thebes\n[…]\nThebes, Greece – the namesake\n[…]\nPeter F. Dorman & Betsy M. Bryan (editors), Perspectives on Ptolemaic Thebes, Studies in Ancient Oriental Civilization 65, The Oriental Institute of the University of Chicago, 2011\n[…]\nMore information on ancient Thebes, a World Cultural Heritage site\n[…]\nRamesseum/Ancient Thebes Digital Media Archive (photos, laser scans, panoramas), data from an Egyptian Supreme Council of Antiquities/CyArk research partnership"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tebas_%28Egito%29",
+        "situacao": "ok",
+        "texto": "Tebas (em antigo egípcio wꜣst, waset em grego clássico: Θῆβαι; romaniz.: Thēbai) foi uma cidade do Antigo Egito. Localizada a 800 km do delta do Nilo a sul de Alexandria. Foi capital do reino durante o Império Novo (c. 1550 a.C. - 1070 a.C.). Foi, posteriormente, a capital das províncias romanas de Tebaida e da Tebaida Superior. Hoje, nas suas proximidades, ergue-se a cidade de Luxor.\n[…]\nTebas e a sua Necrópole foram classificados Património Mundial da Organização das Nações Unidas para a Educação, a Ciência e a Cultura em 1979.\n[…]\nNo período do Novo Império, Tebas viveu seu auge, atraindo boa parte da riqueza do Egito e das terras então conquistadas. À medida em que experimentou sua decadência, o centro do poder se deslocou para o delta do Nilo. A cidade, então, tornou-se, durante o século XI a.C., uma entidade política separada sob o domínio sacerdotal. Em 661 a.C., Tebas foi saqueada pelos assírios, um evento relatado na Bíblia (Livro de Naum, capítulo 3, versículos 8-10).\n[…]\nCom a conquista do Egito por Alexandre, o Grande no século IV a.C. e a posterior colonização grega patrocinada pela dinastia Ptolomaica (faraós também de origem grega), a cidade recebeu o nome sob o qual ainda é popularmente conhecida, uma referência à cidade de Tebas original, localizada na Grécia.\n[…]\nNa mitologia grega, Tebas, cidade de cem portas, foi fundada por Agenor, no período de nove anos em que ele habitou Mênfis. Higino, porém, menciona uma Tebas na Índia, fundada por Júpiter, e que seria chamada de hecatompylae por ter cem portas. A cidade grega de Tebas tem este nome porque o oráculo de Delfos mandou Cadmo, filho de Agenor, colocar o mesmo nome que a cidade egípcia.\n[…]\nMedia relacionados com Tebas (Egito) no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Delta do Nilo",
+      "descricao": "Região de forma triangular no norte do Egito onde o Nilo se divide em braços antes de desaguar no Mediterrâneo"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A região em que o Nilo se divide em vários braços antes de chegar ao Mediterrâneo tem forma triangular. Os gregos a chamaram pelo nome de qual letra?",
+    "resposta": "Delta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nile_Delta",
+      "https://en.wikipedia.org/wiki/River_delta"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nile_Delta",
+        "situacao": "ok",
+        "texto": "The Nile Delta (Arabic: دلتا النيل, Delta an-Nīl or simply الدلتا, ad-Delta) is the delta formed in Lower Egypt where the Nile River spreads out and drains into the Mediterranean Sea. It is one of the world's largest deltas. From Alexandria in the west to Port Said in the east; it covers 240 km (150 mi) of the Mediterranean coastline and is a rich agricultural region. From north to south the delta\n[…]\nFrom north to south, the delta is about 160 km (100 mi) long. From west to east, it covers some 240 km (150 mi) of coastline. The delta is sometimes divided into sections, with the Nile dividing into two main distributaries, the Damietta and the Rosetta, flowing into the Mediterranean at port cities with the same names. In the past, the delta had several distributaries, but these have been lost due to flood control, silting, and changing relief. One such defunct distributary is Wadi Tumilat.\n[…]\nButic Canal, or Butic River, was an ancient east-west watercourse in the Nile Delta. It had a reconstructed length of about 185–200 km, which would make it the longest canal in Egypt. It did not pass by the town of Buto, itself, but went south of it and the large Butic lake that almost reached the Mediterranean Sea.\n[…]\nEgypt's Mediterranean coastline loses land to the sea, in some places to 90 m (100 yd) a year. The low-lying Nile Delta area in particular is vulnerable to sea level rise associated with global warming. This effect is exacerbated by the lack of sediments being deposited since the construction of the Aswan Dam. If the polar ice caps were to melt, much of the northern delta, including the ancient port city of Alexandria, could disappear under the Mediterranean.\n[…]\nLarge cities located in the Nile Delta:\n[…]\nAdaptationlearning.net: UN project for managing sea level rise risks in the Nile Delta\n[…]\n\"The Nile Delta\". Keyway Bible Study. Archived from the original on 2 August 2010."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/River_delta",
+        "situacao": "ok",
+        "texto": "A river delta is a landform, typically triangular, created by the deposition of the sediments that are carried by the waters of a river, where the river merges with a body of slow-moving water or with a body of stagnant water. The creation of a river delta occurs at the river mouth, where the river merges into an ocean, a sea, or an estuary, into a lake, a reservoir, or (more rarely) into another \n[…]\nEtymologically, the term river delta derives from the triangular shape (Δ) of the uppercase Greek letter delta. In hydrology, the dimensions of a river delta are determined by the balance between the watershed processes that supply sediment and the watershed processes that redistribute, sequester, and export the supplied sediment into the receiving basin.\n[…]\nA river delta is so named because the shape of the Nile Delta approximates the triangular uppercase Greek letter delta. The triangular shape of the Nile Delta was known to audiences of classical Athenian drama; The tragedy Prometheus Bound by Aeschylus refers to it as the \"triangular Nilotic land\", though not as a \"delta\".\n[…]\nHerodotus's description of Egypt in his Histories mentions the Delta fourteen times, as \"the Delta, as it is called by the Ionians\", including describing the outflow of silt into the sea and the convexly curved seaward side of the triangle. Despite making comparisons to other river systems, Herodotus did not describe them as \"deltas\". The Greek historian Polybius likened the land between the Rhône and Isère rivers to the Nile Delta, referring to both as islands, but did not apply the word delta.\n[…]\nWhile nearly all deltas have been impacted to some degree by humans, the Nile Delta and Colorado River Delta are some of the most extreme examples of the devastation caused to deltas by damming and diversion of water.\n[…]\nNile Delta – African river delta bordering the Mediterranean\n[…]\nRegressive delta"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Delta_do_Nilo",
+        "situacao": "ok",
+        "texto": "O delta do Nilo é a região onde o rio Nilo se divide em vários braços para desaguar no mar Mediterrâneo, no norte do Egito. É uma planície com um forma triangular (de onde provém o termo \"delta\"), com 160 km de comprimento e 250 km de largura.\n[…]\nNo delta, o Nilo bifurca-se em dois canais principais: a oeste, o canal de Roseta; e, a leste, o de Damieta.\n[…]\nNa Antiguidade, era onde se localizava o chamado Baixo Egito, que consequentemente foi a região que mais sofreu a influência do período helenístico.\n[…]\nO mais antigo período histórico desta região está profundamente enterrado sob sedimentos e é pouco conhecido, mas ninguém duvida da antiguidade de suas cidades ou de sua importância econômica desde os primeiros tempos.\n[…]\nO delta oriental era um ponto sensível onde o Antigo Egito se comunicava com a Ásia. No final do Império Médio, essa região foi invadida pelos hicsos, povos asiáticos, e mais tarde se tornou a base do Egito para suas campanhas bélicas na Ásia.\n[…]\nNa XIX dinastia, a capital do Egito foi transferida pelo faraó Ramessés II para o Baixo Egito, nas cidade de Pi-Ramessés (ou Per-Ramessés). Assim o Delta encabeçou a liderança do Egito. Mais tarde, no período ptolomaico e romano, a sua proximidade com os centros políticos e econômicos do mundo antigo favoreceu o seu desenvolvimento.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Alto Egito",
+      "descricao": "Metade sul do Egito Antigo, ao longo do vale do Nilo, em oposição ao Baixo Egito, no norte"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No Egito Antigo, o chamado Alto Egito ficava no sul do país, e o Baixo Egito, no norte. O que explica essa aparente inversão?",
+    "resposta": "O Nilo corre para o norte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Upper_Egypt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Upper_Egypt",
+        "situacao": "ok",
+        "texto": "Upper Egypt (Arabic: صعيد مصر, romanized: Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd], locally: [es.sˤɑ.ˈʕiːd]) is the southern portion of Egypt and is composed of the Nile River valley south of the Nile Delta and the 30th parallel North. It thus starts at Beni Suef and stretches down to the First Cataract preceding Lake Nasser (formed by the Aswan High Dam).\n[…]\nIn twentieth-century Egypt, the title Prince of the Sa'id (meaning Prince of Upper Egypt) was used by the heir apparent to the Egyptian throne.\n[…]\nAnthropologist Alain Anselin had issued a comparative review of Afro-Asiatic language families which suggested earliest speakers of the Egyptian language could be located in regions south of Upper Egypt or the Saharan hinterland. In his concluding passage, he found it plausible that early Upper Egyptian cultures were a crossroads for North Eastern African groups such as the Beja peoples.\n[…]\nAccording to historical linguist, Christopher Ehret, the material cultural indicators of the Nabta Playa complex in Upper Egypt, correspond with the conclusion that the inhabitants of the wider Nabta Playa region were a Nilo-Saharan-speaking population.\n[…]\nBritish linguist, Roger Blench, observed that pockets of Nilo-Saharan speakers are present in Upper Egypt. He further added that it was possible that early Afro-Asiatic speakers had domesticated wild cattle in the Egyptian-Sudanese border 10,000 years ago.\n[…]\nThe Cushitic language which is a sub-branch of the Afro-Asiatic language family was spoken in Lower Nubia, an ancient region which extends from Upper Egypt to Northern Sudan, before the arrival of North Eastern Sudanic languages in the Middle Nile Valley.\n[…]\nNowadays, Upper Egypt forms part of these 7 governorates:\n[…]\nLarge cities located in Upper Egypt:\n[…]\nUpper and Lower Egypt\n[…]\nReferences to Upper Egypt in Coptic Literature—Coptic Scriptorium database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alto_Egito",
+        "situacao": "ok",
+        "texto": "Alto Egito (em árabe: صعيد مصر‎; romaniz.: Sa'id Misr) é uma faixa de terra, em ambos lados do Vale do Nilo, que se estende desde os limites da catarata ao norte do atual Assuão para a área entre El-Ayait e Dachur (que fica ao sul do atual Cairo). O trecho norte do Alto Egito, entre El-Ayait e Sohag é às vezes conhecido como Médio Egito. O Alto Egito é mais frequentemente usada como uma divisão do\n[…]\nOs modernos habitantes do Alto Egito são conhecidos como saidis; eles geralmente falam o árabe saidi. O Alto Egito era conhecido como Ta Shemau, que significa “terra de juncos”. Foi dividido em 22 distritos chamados nomos. O primeiro nomo foi mais ou menos onde é Assuão e o vigésimo segundo foi na moderna Atfih (Afroditópolis), logo ao sul do Cairo.\n[…]\nPor volta de 3 200 a.C., o Alto Egito, sob Narmer, conquistou o Baixo Egito, unificando todo o território sob uma coroa.\n[…]\nNo século XI, um grande número de pastores, conhecidos como hilálios, fugiram do Alto Egito e se mudaram para o oeste da Líbia tão quanto para Tunis. Acredita-se que as condições de pastagens degradadas no Alto Egito, associados com o inicio do Período Medieval Quente, foram à causa da migração.\n[…]\nNo século XX no Egito, o título Príncipe de Saíde (significando príncipe do Alto Egito) foi usado pelo herdeiro aparente ao trono egípcio. Apesar de a monarquia egípcia ter sido abolida em 1953, o título continua a ser usado por Maomé Ali e chefe hereditário, Xejque Beja Cauar Alalaqui, Príncipe do Saíde.\n[…]\nBard, Katheryn A. and Shubert, Steven Blake (1999) Encyclopedia of the Archaeology of Ancient Egypt Routledge, London, ISBN 0-415-18589-0\n[…]\nChauveau, Michel (2000) Egypt in the Age of Cleopatra: History and Society Under the Ptolemies Cornell University Press, Ithaca, New York, ISBN 0-8014-3597-8\n[…]\nBaixo Egito\n[…]\nMédio Egito\n[…]\nAlto e Baixo Egito",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Mastaba",
+      "descricao": "Tipo de tumba egípcia retangular, de teto plano e paredes inclinadas, anterior às pirâmides"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Antes das pirâmides, nobres e reis eram enterrados sob construções retangulares de teto plano, as mastabas. Esse nome árabe as compara a qual móvel?",
+    "resposta": "Banco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mastaba"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mastaba",
+        "situacao": "ok",
+        "texto": "A mastaba ( MASS-tə-bə,  MAHSS-tah-bah or  mahss-TAH-bah; also mastabah or mastabat) is a type of ancient Egyptian tomb in the form of a flat-roofed, rectangular structure with inward sloping sides, constructed out of mudbricks or limestone. These edifices marked the burial sites of many eminent Egyptians during Egypt's Early Dynastic Period and Old Kingdom. Non-royal use of mastabas continued for\n[…]\nDue to the great expense of adding a complex of storerooms, these were only constructed in the largest of mastabas, for the royal family and viziers.\n[…]\nMastabas evolved over the early dynastic period (c. 3100–2686 BCE). During the 1st Dynasty, a mastaba was constructed simulating house plans of several rooms, a central one containing the sarcophagus and others surrounding it to receive the abundant funerary offerings. The whole was built in a shallow pit above which a brick superstructure covering a broad area. The typical 2nd and 3rd Dynasty (c.\n[…]\n2686–2313) mastabas was the 'stairway mastaba', the tomb chamber of which sank deeper than before and was connected to the top with an inclined shaft and stairs. Many of the features of mastabas grew into those of the pyramids, indicating their importance as a transitory construction of tombs. This notably includes the exterior appearance of the tombs, as the sloped sides of the mastabas extended to form a pyramid.\n[…]\nThe first and most striking example of this was Djoser's step pyramid, which combined many traditional features of mastabas with a more monumental stone construction.\n[…]\nEven after pyramids became more prevalent for pharaohs in the 3rd and 4th Dynasties, members of the nobility continued to be buried in mastaba tombs. This is especially evident on the Giza Plateau, where at least 150 mastaba tombs have been constructed alongside the pyramids.\n[…]\nBuried Mastaba (Sekhemkhet)\n[…]\nMastabat al-Fir'aun (Shepseskaf)\n[…]\nMastaba of Neferefre (Neferefre)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mastaba",
+        "situacao": "ok",
+        "texto": "Uma mastaba ou \"pr-djt\" (\"casa para a eternidade\" ou \"casa eterna\") é uma forma de túmulo egípcio antigo, emblemático do início da Era Dinástica, em que eram sepultados faraós ou nobres importantes do Egito antigo.\n[…]\nComeçaram-se a construir desde a I Dinastia (cerca de 3100 a.C.) e foi o género de edifício que a antecedeu as pirâmides. Quando estas começaram a ser construídas, mais exigentes do ponto de vista técnico e económico, a mastaba ainda se afigurava como a alternativa mais simples e módica.\n[…]\nA palavra mastaba entra na língua portuguesa por via do francês, que por sua vez a obteve do árabe maabba que significa «banco de pedra» (ou lama, segundo alguns autores). Por seu turno, o étimo árabe terá advindo do aramaico misubb, talvez este, por sua vez, com origem persa ou grega.[carece de fontes]?\n[…]\nCrê-se que a pirâmide de Djoser em Sacará foi inicialmente projectada para ser uma mastaba, ainda que já por si original - seria totalmente construída em pedra. Esta mastaba foi sendo expandida, construindo-se gradualmente cinco troncos piramidais cada vez mais pequenos, até ficar com a forma piramidal.[carece de fontes]?\n[…]\nAs mastabas eram muitas vezes utilizadas como túmulo familiar. Por isso, apesar da sua antiguidade (mesmo se comparadas unicamente com a história do Antigo Egito), continuaram a ser utilizadas como última morada dos descendentes do defunto que as tinha inaugurado. Assim, remodelações posteriores levam à substituição do tijolo de barro original pelo calcário e à perfuração do poço a diversas cotas, segundo a posição social dos sucessivos defuntos.[carece de fontes]?\n[…]\nImagens do interior de uma mastaba e dos seus corredores subterrâneos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Pirâmide de Djoser",
+      "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia"
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A Pirâmide de Djoser, em Sacará, foi erguida como uma pilha de mastabas cada vez menores. Quantos degraus ela tem?",
+    "resposta": "Seis",
+    "distratores": [
+      "Quatro",
+      "Cinco",
+      "Sete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyramid_of_Djoser"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
+        "situacao": "ok",
+        "texto": "The Pyramid of Djoser, sometimes called the Step Pyramid of Djoser or Step Pyramid of Horus Netjerikhet, is an archaeological site in the Saqqara necropolis, Egypt, northwest of the ruins of Memphis. It was the first Egyptian pyramid to be built. The six-tier, four-sided structure is the earliest colossal stone building in Egypt. It was built in the 27th century BC during the Third Dynasty for the\n[…]\nDjoser's Pyramid draws ideas from several precedents. The most relevant precedent is found at Saqqara mastaba S3038 (c. 2900 BC). The substructure lay in a 4 m (13 ft) deep rectangular pit, and had mudbrick walls rising to 6 m (20 ft). Three sides were extended and built out to create eight shallow steps rising at an angle of 49°. This would have been an elongated step pyramid if the remaining side had not been left uncovered.\n[…]\nIn another parallel to Djoser's complex, to complete this mastaba complex a niched enclosure wall was erected.\n[…]\nThe casing was 4.2 m (14 ft; 8 cu) thick at the base and 3.4 m (11 ft; 6.5 cu) thick at the peak and was about 0.525 m (2 ft; 1 cu) lower than the initial mastaba height. The outer blocks of this second coat also had a slightly less vertical incline at ~76°. The mastaba was then extended 8.4 m (28 ft; 16 cu) east to cover a series of eleven shafts 33 m (108 ft; 63 cu) deep that ended in passages that led west to the burial chambers of members of Djoser's family.\n[…]\nThe south court is a large court between the south tomb and the pyramid. Within the court are curved stones thought to be territorial markers associated with the Heb-sed festival, an important ritual completed by Egyptian kings (typically after 30 years on the throne) to renew their powers. These would have allowed Djoser to claim control over all of Egypt, while its presence in the funerary complex would allow Djoser to continue to benefit from the ritual in the afterlife."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_de_Djoser",
+        "situacao": "ok",
+        "texto": "A Pirâmide de Djoser, também chamada de Pirâmide de Sacará ou Pirâmide de Degraus, foi erguida para o sepultamento do Faraó Djoser por seu vizir, ou arquiteto real, Imhotep. Construída durante o século XXVII a.C. na necrópole de Sacará, a nordeste da cidade de Mênfis, é o edifício central de um grande complexo mortuário num amplo pátio cercado por estruturas elementos decorativos cerimoniais.\n[…]\nÉ considerada a primeira pirâmide a ser erguida do Egito, composta por seis mastabas (de dimensões decrescentes, de baixo para cima) construídas uma sobre a outra. Nota-se que o projeto original sofreu revisões e adaptações à medida que a construção evoluía. Originalmente, a pirâmide alcançava 62 m, com uma base de 109 m x 125 m, e era revestida por pedra calcária branca polida.\n[…]\nA pirâmide de degraus é vista como a mais antiga construção monumental em pedra do mundo, embora o sítio vizinho de Gisr el-mudir talvez anteceda o complexo de Djoser.\n[…]\nSeu complexo interno é relativamente pequeno, comparado ao da Grande Pirâmide de Gizé, ou de Quéops.\n[…]\nEm 2006 começaram obras de reabilitação, uma vez que a pirâmide corria o risco de colapso. No entanto, em 2011, os eventos da Primavera Árabe forçaram as autoridades egípcias a suspender o trabalho que não foi retomado até ao final de 2013. A restauração da pirâmide de Djoser incluiu a substituição das lacunas nas suas paredes por blocos semelhantes aos originais. A câmara funerária e o sarcófago do faraó, bem como os estreitos corredores internos da pirâmide, também foram reformados.\n[…]\nLista de pirâmides do Egito\n[…]\nMedia relacionados com Pirâmide de Djoser no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Pirâmide Curvada",
+      "descricao": "Pirâmide do faraó Seneferu, da IV dinastia, na necrópole de Dahshur, com a inclinação alterada na parte alta."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A Pirâmide Curvada, que muda de inclinação no meio da subida, foi construída para qual faraó, pai de Quéops?",
+    "resposta": "Seneferu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bent_Pyramid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bent_Pyramid",
+        "situacao": "ok",
+        "texto": "The Bent Pyramid is an ancient Egyptian pyramid located at the royal necropolis of Dahshur, approximately 40 kilometres (25 mi) south of Cairo, built under the Old Kingdom Pharaoh Sneferu. A unique example of early pyramid development in Egypt, this was the second of four pyramids built by Sneferu.\n[…]\nThe Pyramid underwent three construction phases. In the first construction phase, a steep pyramid with a base length of 157 meters and an inclination angle of approximately 58° (possibly even 60°) was planned. If the pyramid had been completed in this form, it would have reached a height of around 125 meters, but given the knowledge of ancient techniques and the comparison with completed pyramids, such a steep pyramid was probably not a realistic option and did not exceed only few stone layers.\n[…]\nIn the third construction phase, the angle was reduced to 43° and, like in the Red Pyramid and all successive pyramids, the masonry was laid in horizontal layers. The slope reduction created the unique kink that is not found in any other pyramid. Due to the lower inclination angle of the upper part, the total height was reduced to 105 m. The total volume was 1,440,808 cubic meters. The upper area also has a cladding of fine Tura limestone.\n[…]\nAnother tens of thousands of tons of stone were still added to the construction, only roughly a third less than without the inclination of the slope. Another study explains the reduction of the slope on geometric concerns in regard to ramp building.\n[…]\nThe manoeuvering space for ramps was extremely limited at the top of pyramids with a slope of 52° (as at Meidum and Giza), whereas it became geometrically impossible at a steeper incline, and the experiments with different gradients at the Dahshur pyramids document the process to deal with this problem."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_Curvada",
+        "situacao": "ok",
+        "texto": "A Pirâmide Curvada se localiza próxima a Dachur, no Egito. Segundo alguns arqueólogos, a pirâmide teria sido concluída às pressas, o que justifica o formato. O faraó Seneferu, não satisfeito com a obra, mandou erguer a Pirâmide Vermelha, alguns quilômetros ao norte.\n[…]\nEm cada uma das faces, na base, a pirâmide mede cerca de 190 metros, e 102 metros de altura. Essa pirâmide também é diferente das demais pelo fato de possuir duas entradas, uma na direção Norte e a outra na direção Oeste. É também uma das pirâmides mais bem conservadas no Egito, provavelmente devido ao modo como as pedras foram colocadas.\n[…]\nLista de pirâmides do Egito\n[…]\nPirâmide Vermelha\n[…]\nPirâmide Negra\n[…]\n\"A Pirâmide Torta\" - O Fascínio do Antigo Egito",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Pirâmide Vermelha",
+      "descricao": "Pirâmide de faces lisas do faraó Seneferu na necrópole de Dahshur, a terceira maior do Egito"
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Em Dahshur fica a terceira maior pirâmide do Egito, superada só pelas de Quéops e de Quéfren. Pela cor das suas pedras, ela é chamada de pirâmide de que cor?",
+    "resposta": "Vermelha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_Pyramid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_Pyramid",
+        "situacao": "ok",
+        "texto": "The Red Pyramid, also called the North Pyramid, is the largest of the pyramids located at the Dahshur necropolis in Cairo, Egypt. It is the third largest Egyptian pyramid, after those of Khufu and Khafre at Giza. It is believed to be Egypt's first successful attempt at constructing a \"true\" smooth-sided pyramid.\n[…]\nThe outcome of this was the change in inclination of the Bent Pyramid, and the commencement of the later Red Pyramid at an inclination known to be less susceptible to instability and therefore less susceptible to catastrophic collapse.\n[…]\nThe Red Pyramid is 105 metres (344 ft) high, and 220 metres (720 ft) wide. Fragments of a rare pyramidion, or capstone, for the Red Pyramid were uncovered and reconstructed, and are now on display at the Red Pyramid's site at Dahshur. However, whether the fragments were actually ever part of a pyramidion is unclear, as the reconstruction's angle of inclination differs from that of the pyramid for which it was apparently intended.\n[…]\nList of Egyptian pyramids\n[…]\nBárta, Miroslav (2005). \"Location of the Old Kingdom Pyramids in Egypt\". Cambridge Archaeological Journal. 15 (2): 177–191. doi:10.1017/s0959774305000090. S2CID 161629772.\n[…]\nLehner, Mark (2008). The Complete Pyramids. New York: Thames & Hudson. ISBN 978-0-500-28547-3.\n[…]\nMendelssohn, Kurt (1974). The Riddle of the Pyramids. Praeger. ISBN 978-0-500-05015-6.\n[…]\nRomer, John (2007). The Great Pyramid: Ancient Egypt Revisited. Cambridge University Press, Cambridge. ISBN 978-0-521-87166-2.\n[…]\nVerner, Miroslav (2001d). The Pyramids: The Mystery, Culture and Science of Egypt's Great Monuments. New York: Grove Press. ISBN 978-0-8021-1703-8.\n[…]\nVerner, Miroslav, \"The Pyramids – \"Their Archaeology and History\", Atlantic Books, 2001, ISBN 1-84354-171-8\n[…]\nThe Red Pyramid of Snofru"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_Vermelha",
+        "situacao": "ok",
+        "texto": "Pirâmide Vermelha, assim chamada pela cor rubro-clara da sua superfície exposta de granito (é chamada de el-haram el-watwat — a pirâmide do morcego — no local), é a maior das três principais pirâmides localizadas na necrópole de Dachur, e é a terceira maior pirâmide egípcia, após as de Quéops e Quéfren em Gizé. Quando foi terminada, era a maior estrutura criada pelo ser humano no mundo. Também se \n[…]\nEla foi construída durante o reinado do faraó Seneferu, e alguns sugerem ter sido local de seu descanso final. É localizada a aproximadamente um quilômetro ao norte da pirâmide curvada e levou cerca de 17 anos para ser concluída. Ela é construída com o mesmo ângulo raso de 43 graus, assim como a seção superior da pirâmide curvada, o que lhe dá uma aparência visivelmente mais baixa do que a das outras pirâmides egípcias de escala comparável.\n[…]\nO resultado disso foi a mudança de inclinação da pirâmide curvada, e o começo atrasado da Pirâmide Vermelha a uma inclinação conhecida por ser menos suscetível a instabilidade e, portanto, menos suscetível a um colapso catastrófico.\n[…]\nUm raro piramídio, ou espigão, para a Pirâmide Vermelha foi descoberto e reconstruído, e agora está à mostra em Dachur — porém, não está claro se ele foi realmente usado alguma vez, já que seu ângulo de inclinação difere daquele para qual aparentemente a pirâmide foi pensada.\n[…]\nA Pirâmide Vermelha é uma das muito poucas em que é possível ser escalada por dentro. A entrada alta no lado norte permite o acesso a uma longa passagem de 62m (200 pés) que é inclinada para baixo em um ângulo de cerca de 27º. Esta passagem mede aproximadamente 91cm (3 pés) de altura e 1.23m (4 pés) de largura. Não é recomendada para quem sofre algo além de uma leve claustrofobia. A presença de morcegos causa um cheiro forte de amônia, o que faz ser um alívio chegar a superfície.\n[…]\nMedia relacionados com Pirâmide Vermelha no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Pirâmide de Miquerinos",
+      "descricao": "Menor das três grandes pirâmides de Gizé, túmulo do faraó Miquerinos, da Quarta Dinastia"
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Das três grandes pirâmides de Gizé, a menor foi construída para qual faraó da Quarta Dinastia?",
+    "resposta": "Miquerinos",
+    "distratores": [
+      "Quéops",
+      "Quéfren",
+      "Seneferu"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pyramid_of_Menkaure",
+        "situacao": "ok",
+        "texto": "The pyramid of Menkaure (Arabic: هرم منقرع, romanized: Haram Manqaraʿ or Arabic: هرم منكاورع, romanized: Haram Minkāwraʿ) is the smallest of the three main pyramids of the Giza pyramid complex, located on the Giza Plateau in the southwestern outskirts of Cairo, Egypt. It is thought to have been built to serve as the tomb of the Fourth Dynasty King Menkaure.\n[…]\nThe pyramid's date of construction is unknown, because Menkaure's reign has not been accurately defined, but it was probably completed in the 26th century BC. It is a few hundred meters southwest of the pyramid of Khafre and the Great Pyramid of Khufu in the Giza necropolis.\n[…]\nLike the king's mortuary and valley temples, it was planned in stone (of which only the foundation platform was laid) and finished in crude brick after Menkaure's death on the orders of Shepseskaf, work on all four temples having been proceeding simultaneously when the king died. Neither of the other two pyramids progressed beyond the construction of the inner core.\n[…]\nHe reports that some Greeks attributed it to the courtesan Rhodopis, a claim he rejects: in his view they did not even know who Rhodopis was, the construction of a pyramid had cost millions of talents, and Rhodopis lived not under Menkaure but under Amasis, long after the builders of the pyramids; she was, moreover, a Thracian, the slave of Iadmon of Samos and fellow slave of Aesop.\n[…]\nEgyptian pyramid construction techniques\n[…]\nList of Egyptian pyramids\n[…]\nMaragioglio, Vito; Rinaldi, Celeste (1967). L'architettura delle piramidi menfite [The Architecture of the Memphite Pyramids] (in Italian). Vol. VI: La Grande Fossa di Zauiet el-Aryan, la Piramide di Micerino, il Mastabat Faraun, la Tomba di Khentkaus. Rapallo: Officine Grafiche Canessa.\n[…]\nGuardian's Ancient Egypt: The Pyramid of Menkaure\n[…]\nNOVA Online – Pyramids: Menkaure's Inside Story"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_de_Miquerinos",
+        "situacao": "ok",
+        "texto": "Pirâmide de Miquerinos é a menor em tamanho e a terceira dentre as mais famosas pirâmides do mundo antigo, as Pirâmides de Gizé. A pirâmide foi feita para ser tumba do faraó Miquerinos, filho do faraó Quéfren e o quinto soberano da Quarta Dinastia.\n[…]\nA pirâmide de Miquerinos tinha uma altura original de 65,5 metros e era a menor das três principais pirâmides da necrópole de Gizé. Ela agora tem 61 m de altura, com uma base de 108,5 m. Seu ângulo de inclinação é de aproximadamente 51°20′25″. Foi construída em calcário e granito de Aswan. A porção superior foi revestida da maneira normal com calcário de Tora. Parte do granito foi deixada bruta.\n[…]\nProjetos incompletos como essa pirâmide ajudam os arqueólogos a entender os métodos usados ​​para construir pirâmides e templos. Ao sul da pirâmide de Miquerinos, existem três pirâmides satélites, cada uma acompanhada por um templo e uma subestrutura. A mais oriental é a maior e uma verdadeira pirâmide. Seu invólucro é parcialmente de granito, como a pirâmide principal, e acredita-se que tenha sido concluído devido à pirâmide de calcário encontrada nas proximidades.\n[…]\nNenhuma das outras duas progrediu além da construção do núcleo interno.\n[…]\nNo final do século XII, Alaziz Otomão, filho e herdeiro de Saladino, tentou demolir as pirâmides, começando pelas de Miquerinos. Os trabalhadores recrutados por Alaziz para demolir a pirâmide trabalharam por oito meses, mas acharam quase tão caro destruir do que construir. Eles só podiam remover uma ou duas pedras por dia. Alguns usavam cunhas e alavancas para mover as pedras, enquanto outros usavam cordas para puxá-las para baixo.\n[…]\nMedia relacionados com Pirâmide de Miquerinos no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Pirâmide de Quéfren",
+      "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Perto do topo de uma das pirâmides de Gizé ainda resta um trecho do revestimento de calcário liso que antes as cobria. De qual faraó é essa pirâmide?",
+    "resposta": "Quéfren",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyramid_of_Khafre"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pyramid_of_Khafre",
+        "situacao": "ok",
+        "texto": "The pyramid of Khafre or of Chephren (Arabic: هرم خفرع, romanized: Haram Khafraʿ) is the middle of the three Ancient Egyptian Pyramids of Giza, the second tallest and second largest of the group. It is the only pyramid out of the three that still has cladding at the top. It is the tomb of the Fourth-Dynasty Pharaoh Khafre (Chefren), who ruled c. 2558−2532 BC."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_de_Qu%C3%A9fren",
+        "situacao": "ok",
+        "texto": "Pirâmide de Quéfren é uma pirâmide egípcia que tem 143 metros de altura. A estrutura é parte da Necrópole de Gizé e suas paredes erguem-se menos íngremes que as da grande Pirâmide de Quéops. O faraó Quéfren era filho do faraó Quéops e quarto rei da Quarta Dinastia, ele reinou entre 2520 e 2494 a.C, ordenou que fosse construída sua pirâmide que hoje é, em tamanho, a segunda maior pirâmide do Antigo\n[…]\nPedras de revestimento cobrem o terço superior da pirâmide, mas o piramídio e parte do ápice estão faltando.\n[…]\nOs templos do complexo de Quéfren sobrevivem em condições muito melhores do que os do Quéops, especialmente o templo do vale, que está substancialmente preservado. Ao leste da pirâmide está o templo mortuário. Embora esteja agora em grande parte em ruínas, boa parte dele sobreviveu.\n[…]\nEmbora desprovido de qualquer decoração interna, este templo teria sido preenchido com simbolismo: duas portas abertas em um vestíbulo e um grande salão de pilares, no qual havia soquetes no chão que teriam fixado 23 estátuas de Quéfren. Estas colunas foram saqueadas desde então. O interior, feito de granito do templo do vale, está relativamente bem preservado. O exterior feito da pedra calcária é muito mais castigado pelo tempo.\n[…]\nO assim chamado Templo da Esfinge não é dedicado a nenhum rei, mas as semelhanças estruturais com o templo mortuário de Quéfren indicam que ele foi seu construtor. Abrindo para uma sala com 24 colunas, cada uma com sua própria estátua, dois santuários e design simétrico, é possível, mas não se tem certeza de que este templo tinha qualquer simbolismo ligado a todo o complexo da pirâmide.\n[…]\nA esfinge, provavelmente construída a partir de uma formação rochosa usada para cortar os blocos da própria pirâmide, pode ter sido parte do complexo de Quéfren.\n[…]\nMedia relacionados com Pirâmide de Quéfren no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Pirâmide de Quéfren",
+      "descricao": "Segunda maior pirâmide de Gizé, túmulo do faraó Quéfren da Quarta Dinastia."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Vista de longe, a pirâmide de Quéfren parece mais alta que a vizinha de Quéops, embora seja um pouco menor. O que explica essa impressão?",
+    "resposta": "Fica num terreno mais alto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pyramid_of_Khafre"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pyramid_of_Khafre",
+        "situacao": "ok",
+        "texto": "The pyramid of Khafre or of Chephren (Arabic: هرم خفرع, romanized: Haram Khafraʿ) is the middle of the three Ancient Egyptian Pyramids of Giza, the second tallest and second largest of the group. It is the only pyramid out of the three that still has cladding at the top. It is the tomb of the Fourth-Dynasty Pharaoh Khafre (Chefren), who ruled c. 2558−2532 BC."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_de_Qu%C3%A9fren",
+        "situacao": "ok",
+        "texto": "Pirâmide de Quéfren é uma pirâmide egípcia que tem 143 metros de altura. A estrutura é parte da Necrópole de Gizé e suas paredes erguem-se menos íngremes que as da grande Pirâmide de Quéops. O faraó Quéfren era filho do faraó Quéops e quarto rei da Quarta Dinastia, ele reinou entre 2520 e 2494 a.C, ordenou que fosse construída sua pirâmide que hoje é, em tamanho, a segunda maior pirâmide do Antigo\n[…]\nA pirâmide tem um comprimento de base de 215,5 m e uma altura de 136,4 metros. A estrutura é feita de blocos de calcário que pesam mais de 2 toneladas cada. A inclinação da pirâmide sobe em um ângulo de 53° 10', mais íngreme do que a sua vizinha, a Pirâmide de Quéops, que tem um ângulo de 51°50'40\". Ela está situada em uma rocha 10 m mais elevada do que a Pirâmide de Quéops, o que faz com que pareça ser mais alta.\n[…]\nPedras de revestimento cobrem o terço superior da pirâmide, mas o piramídio e parte do ápice estão faltando.\n[…]\nÉ maior que os templos anteriores e é o primeiro a incluir todos os cinco elementos padrão de templos mortuários posteriores: um hall de entrada, várias colunas, cinco nichos para estátuas do faraó, cinco câmaras de armazenamento e um santuário interior. Havia mais de 50 estátuas de tamanho real de Quéfren, mas elas foram removidas e recicladas, possivelmente por Ramessés II. O templo foi construído de blocos megalíticos (o maior é um estimado 400 toneladas).\n[…]\nEmbora desprovido de qualquer decoração interna, este templo teria sido preenchido com simbolismo: duas portas abertas em um vestíbulo e um grande salão de pilares, no qual havia soquetes no chão que teriam fixado 23 estátuas de Quéfren. Estas colunas foram saqueadas desde então. O interior, feito de granito do templo do vale, está relativamente bem preservado. O exterior feito da pedra calcária é muito mais castigado pelo tempo.\n[…]\nMedia relacionados com Pirâmide de Quéfren no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Obelisco Inacabado",
+      "descricao": "Obelisco gigante abandonado ainda preso à rocha numa antiga pedreira de granito de Assuã, no Egito"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Numa pedreira de granito de Assuã, um obelisco gigante continua deitado e preso à rocha onde começou a ser talhado há milênios. Por que foi abandonado?",
+    "resposta": "Rachaduras na pedra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Unfinished_obelisk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Unfinished_obelisk",
+        "situacao": "ok",
+        "texto": "The unfinished obelisk is the largest known ancient obelisk  and is located in the northern region of the stone quarries of ancient Egypt in Aswan, Egypt. It was studied in detail by Reginald Engelbach in 1922.\n[…]\nIts creation was possibly ordered by Hatshepsut (1508–1458 BC), possibly to complement what would later be known as the Lateran Obelisk (which was originally at Karnak, and was later brought to the Lateran Palace in Rome). The unfinished obelisk is nearly one-third larger than any ancient Egyptian obelisk ever erected. If finished it would have measured around 41.75 metres (137.0 ft) and would have weighed nearly 1,090 tonnes (1,200 short tons).\n[…]\nThe obelisk's creators began to carve it directly out of bedrock, but cracks appeared in the granite and the project was abandoned. The bottom side of the obelisk is still attached to the bedrock.\n[…]\nThe unfinished obelisk offers unusual insights into ancient Egyptian stone-working techniques, with marks from workers' tools still clearly visible as well as ochre-colored lines marking where they were working.\n[…]\nBesides the unfinished obelisk, an unfinished, partly worked obelisk base was discovered in 2005 at the quarries of Aswan. Also discovered were some rock carvings and remains that may correspond to the site where most of the famous obelisks were worked. All these quarries in Aswan and the unfinished objects are an open-air museum and are officially protected by the Egyptian government as an archaeological site.\n[…]\nList of Egyptian obelisks\n[…]\nUnfinished Obelisk in situ\n[…]\nAerial photograph of the unfinished obelisk, at the quarry area"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Obelisco_inacabado_de_Assu%C3%A3",
+        "situacao": "ok",
+        "texto": "O obelisco inacabado de Assuã é um obelisco do Antigo Egito cuja extração não foi concluída, provavelmente devido ao aparecimento de rachaduras na rocha. Está deitado de lado em uma grande pedreira de granito rosa a cerca de 2 km ao sul da cidade de Assuã, no Egito. O lado inferior não foi destacado da rocha devido ao abandono do projeto.\n[…]\nCom quase 42 metros, teria sido o mais alto do mundo se tivesse sido completamente extraído e erguido. Seu peso é estimado em cerca de 1.200 toneladas. Acredita-se que remonta ao reinado do faraó Tutemés III e foi parte de um par de obeliscos cujo segundo exemplar, o Obelisco Laterano, originalmente localizado em Carnaque e agora em Roma, em frente à Arquibasílica de São João de Latrão.\n[…]\nA área onde está localizado o obelisco foi declarada como um museu a céu aberto pelo governo egípcio e é visitada continuamente por milhares de turistas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Obelisco de Latrão",
+      "descricao": "Obelisco egípcio do tempo de Tutmés Terceiro, levado de Karnak para Roma e erguido diante da Basílica de São João de Latrão"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O maior obelisco egípcio antigo ainda de pé foi talhado no tempo de Tutmés Terceiro para Karnak. Hoje ele se ergue diante de uma basílica em qual cidade?",
+    "resposta": "Roma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lateran_Obelisk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lateran_Obelisk",
+        "situacao": "ok",
+        "texto": "The Lateran Obelisk (Italian: Obelisco Lateranense; Latin: Obeliscus Constantii) is the largest standing ancient Egyptian obelisk in the world, and it is also the tallest obelisk in Italy. It originally weighed 413 tonnes (455 short tons), but after collapsing and being re-erected 4 metres (13 ft) shorter, now weighs around 300 tonnes (330 short tons). It is located in Rome, in the square across f\n[…]\nNow His Majesty completed the very great sole obelisk from what his ancestor the King of Upper and Lower Egypt Menkheperre (Thutmose III) brought after His Majesty found this obelisk having lain for a total of 35 years on its side in the possession of the craftsmen on the south side of Karnak.\n[…]\nAfter the obelisk remained in Alexandria for a few decades, Constantius II had the Lateran obelisk shipped to Rome when he made his only visit there in 357.\n[…]\nThough pieces of the obelisk were found in the 14th and 15th centuries, serious excavation was only made possible under Pope Sixtus V. The three pieces of the Lateran obelisk were dug up in 1587, and after being restored by architect Domenico Fontana, the obelisk was re-erected approximately 4 metres (13 ft) shorter. When it was erected near the Lateran Palace and basilica of St.\n[…]\nJohn Lateran on 3 August 1588 and became consecrated on 9 August, it became the last ancient Egyptian obelisk to be erected in Rome. Its location was formerly the spot where the equestrian statue of Marcus Aurelius stood until 1538, when it was relocated to decorate the Piazza del Campidoglio on Capitoline Hill.\n[…]\n^ Lateran at Karnak, Egypt: 25°43′7.46″N 32°39′26.64″E\n[…]\nGorringe, Henry H. (1882). Egyptian obelisks. pp. 127–129. doi:10.11588/diglit.33567#0239.\n[…]\n\"Virtual Roma – Obelisks part I\". roma.andreapollett.com. Archived from the original on 4 December 2022.\n[…]\n\"Wie schwer war der ägyptische Obelisk, der heute auf der Piazza di S. Giovanni in Laterano in Rom steht?\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Obelisco_Laterano",
+        "situacao": "ok",
+        "texto": "O Obelisco Laterano, chamado também de Obelisco de Latrão ou Obelisco Lateranense (em italiano:  Obelisco Lateranense), é o maior obelisco egípcio antigo ainda em pé do mundo e é também o mais alto obelisco na Itália, pesando 455 toneladas. Ele está localizado na praça em frente à Arquibasílica de São João de Latrão e ao Hospital San Giovanni Addolorata.\n[…]\nDepois de permanecer por décadas em Alexandria, Constâncio mandou levar o atual \"Obelisco Laterano\" para Roma quando ele visitou a cidade pela primeira (e única) vez em 357. Ele foi erigido perto de um outro obelisco egípcio (Obelisco Flamínio), que já estava no local desde 10 a.C. e fora trazido por Augusto para decorar a spina do Circo Máximo.\n[…]\nRelatos em primeira pessoa da época afirmam que a base (romana) do monumento ainda estava no Circo Máximo pelo menos até 1589. Ele continha um relato do transporte do obelisco por Constâncio, a instalação no local e uma dedicação do obelisco \"de seu pai\" inscrita nas quatro faces, como um longo epigrama.\n[…]\nEmbora pedaços do obelisco tenham sido encontrados nos séculos XIV e XV, uma escavação séria só foi possível durante o pontificado do papa Sisto V. Três pedaços foram encontrados em 1587 e, depois de terem sido restaurados pelo arquiteto Domenico Fontana, o obelisco restaurado ficou quatro metros mais baixo do que o original.\n[…]\nQuando ele foi erigido perto do Palácio de Latrão e da arquibasílica em 9 de agosto em 1588, tornou-se o último obelisco egípcio antigo a ser erigido em Roma, justamente no local onde estava a Estátua equestre de Marco Aurélio (que se acreditava na época ser de Constantino) até 1538, quando foi realocada para decorar a recém-inaugurada Piazza del Campidoglio, no Monte Capitolino.\n[…]\nLista de obeliscos em Roma",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Serapeu de Sacará",
+      "descricao": "Conjunto de galerias subterrâneas em Sacará com grandes sarcófagos de pedra para os touros sagrados de Ápis"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nas galerias subterrâneas do Serapeu de Sacará há enormes sarcófagos de granito. Que animais sagrados eram enterrados neles?",
+    "resposta": "Os touros Ápis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Serapeum_of_Saqqara"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Serapeum_of_Saqqara",
+        "situacao": "ok",
+        "texto": "The Serapeum of Saqqara was the ancient Egyptian burial place for sacred bulls of the Apis cult at Memphis. It was believed that the bulls were incarnations of the god Ptah, which would become immortal after death as Osiris-Apis, a name which evolved to Serapis (Σέραπις) in the Hellenistic period, and Userhapi (ⲟⲩⲥⲉⲣϩⲁⲡⲓ) in Coptic. It is one of the animal catacombs in the  Saqqara necropolis, whi\n[…]\nThe Serapeum was abandoned at the beginning of the Roman Period, shortly after 30 BC. Strabo (64 BC–30 AD) noted that some of the Sphinxes of the dromos had been covered in sand by the wind. Apis continued to be buried elsewhere in the Saqqara-Abusir region until the 3rd century AD. Arnobius, around 300 AD, mentioned that the Egyptians penalized anyone who revealed the places in which Apis lay hidden.\n[…]\nThe oldest Apis burials in the confines of the Serapeum took place in Isolated Tombs, scattered here and there, without a regular plan. They consisted of a decorated chapel above ground with votive stela fixed to the exterior walls, dedicated to the deceased animal. In the bedrock beneath, a sloping passage led to a rectangular chamber which housed coffins with the remains of the bull, canopic jars and other burial items.\n[…]\nWhen the Apis died around 612 BC, the Serapeum was in a state of decay. Pharaoh Psamtik I renovated the temple, and started a second underground gallery of burial chambers, now known as the \"Greater Vaults\".\n[…]\nBrugsch, Heinrich (1884). \"Der Apiskreis aus den Zeiten der Ptolemäer nach den hieroglyphischen und demotischen Weihinschriften des Serapeums von Memphis\" [The Apis-cycle from the time of the Ptolemies according to the hieroglyphic and demotic dedicatory inscriptions of the Serapeum of Memphis]. Zeitschrift für ägyptische Sprache und Altertumskunde (in German). 22: 110–136. doi:10.1524/zaes.1884.22.jg.110. S2CID 202553711."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Serapeu_de_Sacar%C3%A1",
+        "situacao": "ok",
+        "texto": "Serapeu de Sacará era o antigo local de sepultamento egípcio para touros sagrados do culto de Ápis em Mênfis. Acreditava-se que os touros eram encarnações do deus Ptá, que se tornaria imortal após a morte como Osíris-Ápis, um nome que evoluiu para \"Serápis\" (Σέραπις) no período helenístico, e Userhapi (ⲟⲩⲥⲉⲣϩⲁⲡⲓ) em copta. É uma das catacumbas de animais na necrópole de Sacará, que também contém o\n[…]\nAo longo de um período de aproximadamente 1400 anos, do Império Novo do Egito até o fim do Reino Ptolemaico, pelo menos sessenta Ápis foram enterrados no serapeu. Túmulos isolados foram construídos para os primeiros enterros. À medida que o culto ganhava importância, galerias subterrâneas eram escavadas para conectar as futuras câmaras funerárias. Acima do solo, o recinto principal do templo era complementado por santuários, oficinas, alojamentos e quarteirões administrativos.\n[…]\nA partir da Época Baixa, a maioria dos Ápis foi enterrada em grandes sarcófagos, que pesam cerca de 40 toneladas e têm tampas de 25 t. Eles foram movidos com a ajuda de guinchos, rolos e alavancas. Para abaixá-los até sua posição final, as câmaras foram primeiro preenchidas com areia, que então foi gradualmente removida. Apenas quatro dos 24 sarcófagos sobreviventes estão inscritos.\n[…]\nEm 1850, Auguste Mariette redescobriu o serapeu e o escavou nos anos seguintes. Ele encontrou dois sepultamentos de Ápis intactos, bem como milhares de objetos relacionados a séculos de atividade de culto. Estes incluíam estelas comemorativas com datas relacionadas à vida e morte dos touros sagrados e à construção de seus jazigos. Esses dados foram cruciais para o estabelecimento de uma cronologia egípcia no século XIX.\n[…]\nAs Grandes Abóbadas do Serapeu, conhecidas pelos grandes sarcófagos de touros mumificados, são acessíveis aos visitantes.\n[…]\nObjetos do Serapeu no Louvre\n[…]\nObjetos do Serapeu no Museu de História Natural de Viena",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Imhotep",
+      "descricao": "Arquiteto e alto funcionário do faraó Djoser, mais tarde venerado no Egito como deus da medicina"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Séculos depois de morrer, Imhotep, arquiteto do faraó Djoser, foi venerado no Egito como deus da cura. Com que deus grego da medicina os gregos o identificaram?",
+    "resposta": "Asclépio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Imhotep"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Imhotep",
+        "situacao": "ok",
+        "texto": "Imhotep (; Ancient Egyptian: ỉỉ-m-ḥtp \"(the one who) comes in peace\"; fl. late 27th century BC) was an Egyptian chancellor to the King Djoser, possible architect of Djoser's step pyramid, and high priest of the sun god Ra at Heliopolis. Very little is known of Imhotep as a historical figure, but in the 3,000 years following his death, he was gradually glorified and deified.\n[…]\nAs an instigator of Egyptian culture, Imhotep's idealized image lasted well into the Roman period. In the Ptolemaic period, the Egyptian priest and historian Manetho credited him with inventing the method of a stone-dressed building during Djoser's reign, although he was not the first to actually build with stone.\n[…]\nEgyptologist James Peter Allen states that \"The Greeks equated him with their own god of medicine, Asklepios, although ironically, there is no evidence that Imhotep himself was a physician.\"\n[…]\nIn his Pulitzer-prize winning “biography” of cancer – The Emperor of All Maladies – Siddhartha Mukherjee cites the oldest identified written diagnosis of cancer to Imhotep. Unfortunately, the therapy Imhotep laconically prescribed for it would be equally recognizable for millennia: “There is none”.\n[…]\nImhotep Museum\n[…]\nGarry, T. Gerald (1931). Egypt: The home of the occult sciences, with special reference to Imhotep, the mysterious wise man and Egyptian god of medicine. London, UK: John Bale, Sons and Danielsson.\n[…]\nHurry, Jamieson B. (1978) [1926]. Imhotep: The Egyptian god of medicine (2nd ed.). New York, NY: AMS Press. ISBN 978-0-404-13285-9.\n[…]\nHurry, Jamieson B. (2014) [1926]. Imhotep: The Egyptian god of medicine (reprint ed.). Oxford, UK: Traffic Output. ISBN 978-0-404-13285-9.\n[…]\nRisse, Guenther B. (1986). \"Imhotep and medicine — a re-evaluation\". Western Journal of Medicine. 144 (5): 622–624. PMC 1306737. PMID 3521098.\n[…]\n\"Imhotep (2667–2648 BCE)\". BBC History. British Broadcasting Corporation."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Imotepe",
+        "situacao": "ok",
+        "texto": "Imotepe ([ɪmˈhəʊtɛp]; em egípcio: ii-m-ḥtp *jā-im-ḥatāp, lit. \"Aquele que vem em paz\"; em grego clássico: Ιμυθες; romaniz.: Imuthes; fl. século XXVII a.C., c. 2 655 ) foi um polímata egípcio, que serviu a Joser, faraó da III dinastia, na função de vizir ou chanceler do faraó e sumo-sacerdote do deus-sol Rá, em Heliópolis. É considerado o primeiro arquiteto, engenheiro e médico da história antiga, \n[…]\nImotepe foi um dos poucos mortais a serem ilustrados como parte de uma estátua de um faraó. Foi um de um grupo restritíssimo de plebeus a quem foi concedido o status divino após a morte; o centro de seu culto era Mênfis. A partir do Primeiro Período Intermediário, Imotepe também passou a ser reverenciado como poeta e filósofo. Suas palavras eram mencionadas em poemas: \"Eu ouvi as palavras de Imotepe e Hordedefe, de cujos discursos os homens tanto falam.\".\n[…]\nImotepe foi um dos principais funcionários do faraó Joser. Concordando com lendas muito posteriores, os egiptólogos atribuem a ele o projeto e a construção da pirâmide de Joser, uma pirâmide em degraus em Sacará construída durante a III dinastia. Ele também pode ter sido responsável pelo primeiro uso conhecido de colunas de pedra para apoiar um edifício.\n[…]\nApesar dessas declarações posteriores, os próprios egípcios faraônicos nunca creditaram Imotepe como o designer da pirâmide escalonada, nem como a invenção da arquitetura de pedra.\n[…]\nPor outro lado, o facto de se tratar de um trabalho objetivo e não imbuído de magia, tende a dissociá-lo da figura de Imotepe, um sumo-sacerdote do deus Rá, naturalmente afeto a cultos mágicos. O egiptólogo James Peter Allen afirma que \"Os gregos o equipararam a seu próprio deus da medicina, Esculápio.\n[…]\nÉ importante, porém, lembrar que a figura maligna e vingativa apresentada no filme, em relação à pessoa de Imotepe não é de modo algum real e não tem respaldo histórico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Antigo Império",
+      "descricao": "Período da história egípcia, de cerca de 2700 a 2200 antes de Cristo, em que foram construídas as grandes pirâmides"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Que período da história egípcia, em que foram erguidas as pirâmides de Gizé e de Sacará, é apelidado de era das pirâmides?",
+    "resposta": "Antigo Império",
+    "distratores": [
+      "Médio Império",
+      "Novo Império",
+      "Período Ptolemaico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Old_Kingdom_of_Egypt",
+        "situacao": "ok",
+        "texto": "In ancient Egyptian history, the Old Kingdom is the period spanning c. 2700 – c. 2200 BC. It is also known as the \"Age of the Pyramids\" or the \"Age of the Pyramid Builders\", as it encompasses the reigns of the great pyramid-builders of the Fourth Dynasty, such as King Sneferu, under whom the art of pyramid-building was perfected, and the kings Khufu, Khafre and Menkaure, who commissioned the const\n[…]\nThe Old Kingdom is most commonly regarded as the period from the Third Dynasty to the Sixth Dynasty (2686–2181 BC). Information from the Fourth to the Sixth Dynasties of Egypt is scarce, and historians regard the history of the era as literally \"written in stone\" and largely architectural in that it is through the monuments and their inscriptions that scholars have been able to construct a history.\n[…]\nThese characteristics, initiated in the Early Dynastic Period and solidified during the Old Kingdom, persisted with some adaptability throughout the entirety of ancient Egyptian history as the foundation of its art.\n[…]\nThe statue of Menkaure with Hathor and Anput is an example of a typical Old Kingdom sculpture. The three figures display frontality and axiality, while fitting with the proportions of this time period. The graywacke came from the Eastern Desert in Egypt and is therefore associated with rebirth and the rising of the sun in the east.\n[…]\nBefore this study, whole-genome sequencing of ancient Egyptians from the early periods of Egyptian Dynastic history had not yet been accomplished, mainly because of the problematic DNA preservation conditions in Egypt.\n[…]\nWarden, Leslie Anne (2014). Pottery and economy in Old Kingdom Egypt. Culture and history of the ancient Near East. Leiden; Boston: Brill Publishers. ISBN 978-90-04-25984-3.\n[…]\nMiddle East on The Matrix: Egypt, The Old Kingdom – Photographs of many of the historic sites dating from the Old Kingdom\n[…]\nOld Kingdom of Egypt- Aldokkan"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Imp%C3%A9rio_Antigo",
+        "situacao": "ok",
+        "texto": "O Império Antigo, na história do Antigo Egito, é o período do terceiro milênio  (c. 2686-2181 a.C.), também conhecido como a \"Era das Pirâmides\" ou \"Era dos Construtores de Pirâmides\", pois inclui a grande 4ª Dinastia quando O Rei Seneferu aperfeiçoou a arte da construção de pirâmides e as  pirâmides de Gizé foram construídas sob os reis Quéops, Quéfren e Miquerinos.\n[…]\nO termo em si foi cunhado por historiadores do século XVIII, e a distinção entre o Império Antigo e o Período Arcaico não é aquela que teria sido reconhecida pelos antigos egípcios. Não apenas o último rei do Período Arcaico se relacionava com os dois primeiros reis do Império Antigo, como também a \"capital\", a residência real, permaneceu em Ineb-Hedg, o antigo nome Egípcio de Mênfis.\n[…]\nO Império Antigo é talvez mais conhecido pelo grande número de pirâmides construídas nessa época como locais de sepultamento para os reis do Egito. Por essa razão, o Reino Antigo é frequentemente chamado de \"a Era das Pirâmides\".\n[…]\nO primeiro Faraó do Império Antigo foi Djoser (em algum momento entre 2691 e 2625 a.C.) da terceira dinastia, que ordenou a construção de uma pirâmide (a Pirâmide de Degraus) na necrópole de Mênfis, Sacará. Uma pessoa importante durante o reinado de Djoser foi o seu vizir, Imhotep.\n[…]\nO Império Antigo do Egito (Dinastias 3–6, ca. 2649–2150 a.C.) foi um dos períodos mais dinâmicos no desenvolvimento da arte Egípcia. Durante esse período, os artistas aprenderam a expressar a visão de mundo de sua cultura, criando pela primeira vez imagens e formas que perduraram por gerações. Arquitetos e pedreiros dominaram as técnicas necessárias para construir estruturas monumentais em pedra.\n[…]\nMiddle East on The Matrix: Egypt, The Old Kingdom – Fotografias de muitos dos locais históricos que datam do Antigo Império\n[…]\nOld Kingdom of Egypt- Aldokkan",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Vigésima Quinta Dinastia do Egito",
+      "descricao": "Dinastia de reis vindos do Reino de Kush, na Núbia, que governou o Egito no século oito e sete antes de Cristo"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No século oito antes de Cristo, reis vindos do sul conquistaram o Egito e formaram a vigésima quinta dinastia. De qual reino africano eles vinham?",
+    "resposta": "Kush, na Núbia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt",
+        "situacao": "ok",
+        "texto": "The Twenty-fifth Dynasty of Egypt (notated Dynasty XXV, alternatively 25th Dynasty or Dynasty 25), also known as the Nubian Dynasty, the Kushite Empire, the Black Pharaohs, or the Napatans, after their capital Napata, was the last dynasty of the Third Intermediate Period of Egypt that occurred after the Kushite invasion.\n[…]\nStudies of horse skeletons at El-Kurru, textual evidence, and iconographical evidence related to the use of horses in Kushite warfare indicate that \"the finest horses used in Egypt and Assyria were bred in, and exported from Nubia.\"  Better horses, chariots, and the development of cavalry tactics helped Piye to defeat Tefnakht and his allies.\n[…]\n15) is similar to that of Taharqa (Nu. 1) and Tantamani (Ku. 16) [39 – D. Dunham, El-Kurru, The Royal Cemeteries of Kush, I, (1950) 55, 60, 64, 67; also D. Dunham, Nuri, The Royal Cemeteries of Kush, II, (1955) 6–7; J. Lull, Las tumbas reales egipcias del Tercer Periodo Intermedio (dinastías XXI-XXV). Tradición y cambios, BAR-IS 1045 (2002) 208.] .\n[…]\nA study of the sphinx that was created to represent Taharqa indicates that he was a Kushite pharaoh from Nubia.\n[…]\nPsamtik II, the third ruler of the following dynasty, the Twenty-Sixth Dynasty, deliberately destroyed monuments belonging to the 25th Dynasty of Kushite kings in Egypt, erasing their names and their emblems of royalty from statues and reliefs in Egypt. He then sent an army to Nubia in 592 BCE to erase all traces of their rule, during the reign of the Kushite King Aspelta. This expedition and its destructions are recorded on several victory stelae, especially the Victory Stela of Kalabsha.\n[…]\nList of monarchs of Kush"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/XXV_dinastia_eg%C3%ADpcia",
+        "situacao": "ok",
+        "texto": "A XXV dinastia egípcia, também conhecida como dinastia núbia, Império Cuxita ou Faraós Negros, foi a última dinastia do Terceiro Período Intermediário do Egito que ocorreu após a invasão núbia. Era uma linha de faraós que se originaram no Reino de Cuxe, localizado no atual norte do Sudão e no Alto Egito. A maioria dos reis da dinastia viu Napata como sua pátria espiritual. Eles reinaram em parte o\n[…]\nFoi durante a 25ª dinastia que o Vale do Nilo viu a primeira construção generalizada de pirâmides (muitas no que hoje é o Sudão) desde o Império Médio.\n[…]\nA chegada dos núbios se deu pela navegação do rio Nilo, onde aportaram em Tebas por volta de 730 a.C., a capital do Alto Egito, e venceram o exército local após cerca de um ano de batalhas, estendendo seu poder até o Mar Mediterrâneo. Após a vitória, Piiê retornou à Núbia, e nunca mais voltou ao Egito, governando remotamente.\n[…]\nO controle dos núbios acabou-se perdendo durante o reinado de Tanutamon, sobrinho de Taraca, motivando os assírios de Assurbanípal a passarem controlar o Egito, encerrando o período dos faraós negros.\n[…]\nMais tarde, Psamético I, o terceiro governante da dinastia seguinte, a XXVI dinastia, destruiu deliberadamente monumentos pertencentes à XXV dinastia dos reis cuxitas no Egito, apagando seus nomes e emblemas da realeza de estátuas e relevos no Egito. Ele então enviou um exército para a Núbia em 592 a.C. para apagar todos os vestígios de seu governo, durante o reinado do rei cuxita Aspelta.\n[…]\nA partir da década de 1960 os novos estudos arqueológicos passaram a considerar o controle dos negros sobre o Egito, fato que foi confirmado em 2003, quando foram encontradas sete estátuas feitas em granito dos faraós negros, na região norte do Sudão, dentro de uma cratera próxima ao rio Nilo, pelo arqueólogo suíço Charles Bonnet, da Universidade de Genebra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Numeração egípcia",
+      "descricao": "Sistema de numeração decimal do Egito Antigo, com um sinal hieroglífico para cada potência de dez"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na numeração egípcia, cada potência de dez tinha um sinal. O de um homem ajoelhado com os braços erguidos, como se estivesse espantado, valia quanto?",
+    "resposta": "Um milhão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egyptian_numerals"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Egyptian_numerals",
+        "situacao": "ok",
+        "texto": "The system of ancient Egyptian numerals was used in Ancient Egypt from around 3000 BC until the early first millennium AD. It was a system of numeration based on multiples of ten, often rounded off to the higher power, written in hieroglyphs.\n[…]\nThe Egyptians had no concept of a positional notation such as the decimal system. The hieratic form of numerals stressed an exact finite series notation, ciphered one-to-one onto the Egyptian alphabet.\n[…]\nAs with most modern day languages, the ancient Egyptian language could also write out numerals as words phonetically, just like one can write thirty instead of \"30\" in English. The word (thirty), for instance, was written as\n[…]\nIn the oldest hieratic texts the individual numerals were clearly written in a ciphered relationship to the Egyptian alphabet. But during the Old Kingdom a series of standardized writings had developed for sign-groups containing more than one numeral, repeated as Roman numerals practiced. However, repetition of the same numeral for each place-value was not allowed in the hieratic script.\n[…]\nThe following table shows the reconstructed Middle Egyptian forms of the numerals (which are indicated by a preceding asterisk), the transliteration of the hieroglyphs used to write them, and finally the Coptic numerals which descended from them and which give Egyptologists clues as to the vocalism of the original Egyptian numbers.\n[…]\nAllen, James Paul (2000). Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs. Cambridge: Cambridge University Press. Numerals discussed in §§9.1–9.6.\n[…]\nGardiner, Alan Henderson (1957). Egyptian Grammar; Being an Introduction to the Study of Hieroglyphs. 3rd ed. Oxford: Griffith Institute. For numerals, see §§259–266."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Numerais_eg%C3%ADpcios",
+        "situacao": "ok",
+        "texto": "O sistema de numerais egípcios foi um sistema de numeração usado no Antigo Egito. Era um sistema de numeração que não se define para base alguma pois não é posicional e era escrito tanto em hieróglifos como em hierático.\n[…]\nOs numerais egípcios podiam ser escritos da direita para a esquerda e da esquerda para a direita, como acontece nas línguas semíticas, ou até mesmo na vertical. O exemplo acima está escrito da esquerda para a direita e de cima para baixo, e deste modo, os sinais se apresentam invertidos.\n[…]\nAlém desse sistema gráfico para representar os numerais, a antiga língua egípcia também podia escrevê-los como palavras, assim como se pode escrever \"trinta\" ao invés de \"30\", em português. \"Trinta\", por exemplo, era assim:\n[…]\nComo a maior parte dos textos administrativos e de contabilidade foram escritos em papiros ou óstracos, em vez de serem sido gravados em pedras duras, a maioria desses textos empregavam o sistema de numerais da escrita hierática. Exemplos de numerais escritos em hierático podem ser encontrados em escritos pertencentes a épocas tão antigas quanto a Época Tinita. Os Papiros de Abusir do Antigo Império são um conjunto particularmente importante de textos onde se utilizavam numerais hieráticos.\n[…]\nLíngua egípcia\n[…]\nMatemática egípcia\n[…]\nDecifração dos hieróglifos egípcios\n[…]\nAllen, James Paul. 2000. Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs. Cambridge: Cambridge University Press. Numerals discussed in §§9.1–9.6.\n[…]\nGardiner, Alan Henderson. 1957. Egyptian Grammar; Being an Introduction to the Study of Hieroglyphs. 3rd ed. Oxford: Griffith Institute. For numerals, see §§259–266.\n[…]\n«Egyptian numerals»\n[…]\n«Hieratic numerals»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Papiro Rhind",
+      "descricao": "Papiro matemático egípcio copiado pelo escriba Ahmes, com problemas de aritmética e geometria, hoje no Museu Britânico"
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O papiro Rhind, manual de matemática do Egito Antigo, calcula a área do círculo de um jeito que equivale a usar qual valor para pi?",
+    "resposta": "Cerca de 3,16",
+    "distratores": [
+      "Exatamente 3",
+      "Cerca de 3,5",
+      "Cerca de 2,5"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus",
+        "situacao": "ok",
+        "texto": "The Rhind Mathematical Papyrus (RMP; also designated as papyrus British Museum 10057, pBM 10058, and Brooklyn Museum 37.1784Ea-b) is one of the best known examples of ancient Egyptian mathematics.\n[…]\nThe Rhind Mathematical Papyrus dates to the Second Intermediate Period of Egypt. It was copied by the scribe Ahmes (i.e., Ahmose; Ahmes is an older transcription favoured by historians of mathematics) from a now-lost text from the reign of the 12th dynasty king Amenemhat III.\n[…]\nThe first part of the papyrus is taken up by the 2/n table. The fractions 2/n for odd n ranging from 3 to 101 are expressed as sums of unit fractions. For example,\n[…]\n7 divided by 10 yields 2/3 + 1/30\n[…]\n100/30  quadruple heqat = (3 + 1/4 + 1/16 + 1/64) quadruple heqat + (1 + 2/3) quadruple ro\n[…]\n100/90  quadruple heqat = (1 + 1/16 + 1/32 + 1/64) quadruple heqat + (1/2 + 1/18) quadruple ro\n[…]\nThe third part of the Rhind papyrus consists of the remainder of the 91 problems, being 61, 61B, 62–82, 82B, 83–84, and \"numbers\" 85–87, which are items that are not mathematical in nature.\n[…]\nProblem 61 is concerned with multiplications of fractions. Problem 61B, meanwhile, gives a general expression for computing 2/3 of 1/n, where n is odd. In modern notation the formula given is\n[…]\n3\n[…]\nChace, Arnold Buffum; et al. (1927). The Rhind Mathematical Papyrus. Vol. 1. Oberlin, Ohio: Mathematical Association of America – via Internet Archive.\n[…]\nChace, Arnold Buffum; et al. (1929). The Rhind Mathematical Papyrus. Vol. 2. Oberlin, Ohio: Mathematical Association of America – via Internet Archive.\n[…]\nRobins, Gay; Shute, Charles (1987). The Rhind Mathematical Papyrus: an Ancient Egyptian Text. London: British Museum Publications Limited. ISBN 0-7141-0944-4."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Papiro_de_Rhind",
+        "situacao": "ok",
+        "texto": "Papiro de Rhind ou papiro de Amósis é um documento egípcio de cerca de 1 550 a.C., onde um escriba de nome Amósis detalha a solução de 85 problemas de aritmética, frações, cálculo de áreas, volumes, progressões, repartições proporcionais, regra de três simples, equações lineares, trigonometria básica e geometria. É um dos mais famosos antigos documentos matemáticos que chegaram aos dias de hoje, j\n[…]\nO papiro matemático de Rhind é uma cópia de um trabalho ainda mais antigo. Foi copiado por um escriba (escriturário egípcio) chamado Amósis em escrita hierática, em 1 550 a.C., e por esse motivo também é referenciado por papiro de Amósis. O papiro foi adquirido por Alexander Henry Rhind, de Aberdeen  (Escócia), em Luxor, Egito, em 1858. O Museu britânico incorporou-o ao seu patrimônio em 1865, permanecendo em seu acervo até os dias atuais.\n[…]\nO Papiro, também chamado papiro de Amósis mede cerca de 5 metros por 33 cm. Esse documento egípcio de e 1 550 a.C., não foi escrito com os hieróglifos convencionais, mas em escrita Hierática, uma espécie de escrita taquigráfica própria para seu uso contábil e matemático. As inscrições são em cor preta, exceto nos títulos dos problemas e suas soluções.\n[…]\nA primeira parte do papiro de Rhind consiste em tabelas de referência e uma coleção de 20 problemas de aritmética e 20 de álgebra . Os problemas começam por expressões fracionárias simples, seguido de problemas a serem preenchidos (sekhem) e também equações lineares. (“Moscow_Mathematical_Papyrus”).\n[…]\n. O quociente 256/81 (3,1605) tem valor aproximado de π.\n[…]\n1/30 representa 3 1/4 1/16 1/64 (quádruplo) hekat and 1 2/3 ro\n[…]\n{\\displaystyle 9^{2}-4\\times \\left[{\\frac {1}{2}}(3)(3)\\right]=63}\n[…]\nO problema 61 se compõe de duas partes: a parte 1 apresenta a multiplicação de frações. Sua parte b mostra a expressão geral para calcular 2/3 de 1/n, com n sendo ímpar. Em notação de hoje, temos:\n[…]\n3\n[…]\n3\n[…]\n16\n[…]\n{\\displaystyle 3,16}",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Hieróglifos egípcios",
+      "descricao": "Sistema de escrita formal do Egito Antigo, que combinava sinais de sons e de ideias"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Não sabemos ao certo como os egípcios pronunciavam nomes como Ramsés, porque os sinais de som dos hieróglifos registravam só um tipo de letra. Qual?",
+    "resposta": "As consoantes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+        "situacao": "ok",
+        "texto": "Ancient Egyptian hieroglyphs (, HY-roh-glifs) or hieroglyphics were the formal writing system used in Ancient Egypt for writing the Egyptian language. Hieroglyphs combined ideographic, logographic, syllabic, and alphabetic elements, with more than 1,000 distinct characters. Cursive hieroglyphs were used for religious literature on papyrus and wood.\n[…]\nMost non-determinative hieroglyphic signs are phonograms, whose meaning is determined by pronunciation, independent of visual characteristics. This follows the rebus principle where, for example, in English, the picture of an eye could stand not only for the word eye, but also for its phonetic equivalent, the first person pronoun I.\n[…]\nAs in the Arabic script, not all vowels were written in Egyptian hieroglyphs; it is debatable whether vowels were written at all. Possibly, as with Arabic, the semivowels /w/ and /j/ (as in English W and Y) could double as the vowels /u/ and /i/. In modern transcriptions, an e is added between consonants to aid in their pronunciation. For example, nfr 'good' is typically written nefer. This does not reflect Egyptian vowels, which are obscure, but is merely a modern convention.\n[…]\nList of Egyptian hieroglyphs\n[…]\nCursive Hieroglyphs\n[…]\nMcDonald, Angela. Write Your Own Egyptian Hieroglyphs. Berkeley: University of California Press, 2007 (paperback, ISBN 0-520-25235-7).\n[…]\nEgyptra - Egyptian Hieroglyphic Guide and Name Translator\n[…]\nAncient Egyptian Hieroglyphics – Aldokkan\n[…]\nGlyphs and Grammars – Resources for those interested in learning hieroglyphs, compiled by Aayko Eyma\n[…]\nHieroglyphics![link removed] – Annotated directory of popular and scholarly resources\n[…]\nUnicode Compliant Hieroglyphic Font – From the University of St Andrews\n[…]\nThe Thot Sign List - an interactive hieroglyphic sign-list database.\n[…]\nThe Polychrome Hieroglyph Research Project - a database of polychrome hieroglyphs."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hier%C3%B3glifos_eg%C3%ADpcios",
+        "situacao": "ok",
+        "texto": "Hieróglifos egípcios eram o sistema de escrita formal usado no Antigo Egito. Os hieróglifos combinavam elementos logográficos, silábicos e alfabéticos, com um total de cerca de 1 000 caracteres distintos. Acredita-se que tiveram origem por volta de 3000 a.C.\n[…]\nOs hieróglifos consistem em três tipos de glifos: glifos fonéticos, incluindo caracteres de consoante única que funcionam como um alfabeto; logogramas, representando morfemas; e determinativos, que restringem o significado de palavras logográficas ou fonéticas.\n[…]\nOs sinais hieroglíficos egípcios são divididos entre ideogramas e fonogramas.\n[…]\nsão sinais que representam duas consoantes (na ordem, wr e pr).\n[…]\nA escrita egípcia não representava vogais, apenas consoantes e semivogais. A partir do período ptolemaico, alguns sinais foram adaptados para representar vogais dos nomes dos governantes estrangeiros (como Cleópatra e Ptolomeu, que eram nomes gregos).\n[…]\nNa maioria das vezes, os antigos \"erros ortográficos\" são simplesmente interpretações erradas do contexto. Hoje em dia, os hieroglifistas utilizam numerosos sistemas de catalogação (notadamente o Manuel de Codage e a Lista de signos de Gardiner) para clarificar a presença de determinativos, ideogramas e outros sinais ambíguos na transliteração.\n[…]\nOutra forma como os hieróglifos funcionam é ilustrada pelas duas palavras egípcias pronunciadas pr (geralmente vocalizadas como per). Uma palavra significa 'casa', e a sua representação hieroglífica é direta:\n[…]\nAqui, o glifo 'casa' representa as consoantes pr. O glifo 'boca' abaixo dele é um complemento fonético: é lido como r, reforçando a leitura fonética de pr. O terceiro hieróglifo é um determinativo: é um ideograma para verbos de movimento que dá ao leitor uma ideia do significado da palavra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Demótico",
+      "descricao": "Escrita cursiva simplificada usada no dia a dia do Egito a partir do período tardio"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A escrita egípcia do dia a dia no período tardio recebeu dos gregos o nome demótico. O que essa palavra quer dizer?",
+    "resposta": "Popular",
+    "distratores": [
+      "Sagrado",
+      "Sacerdotal",
+      "Real"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Demotic_(Egyptian)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Demotic_(Egyptian)",
+        "situacao": "desambiguacao",
+        "texto": "Demotic may refer to:\n\nDemotic Greek, the modern vernacular form of the Greek language\nDemotic Egyptian script, an ancient Egyptian script\nDemotic Egyptian language, a stage in the development of the ancient Egyptian language\nChữ Nôm, the demotic script for writing Vietnamese\n\n\n== See also ==\nAll pages with titles containing demotic\nDemos (disambiguation)\nDomotics\nTerritorial nationalism"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dem%C3%B3tico",
+        "situacao": "desambiguacao",
+        "texto": "Demótico pode referir-se a:\nGrego demótico (dimotikí) - antigo dialeto, hoje a língua oficial da Grécia (língua grega)\nEgípcio demótico - forma de escrita da língua egípcia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Senet",
+      "descricao": "Jogo de tabuleiro do Egito Antigo, jogado num tabuleiro de três fileiras e encontrado em várias tumbas"
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O senet, jogo de tabuleiro egípcio de que até Tutancâmon levou exemplares para a tumba, tinha quantas casas?",
+    "resposta": "Trinta",
+    "distratores": [
+      "Vinte",
+      "Trinta e seis",
+      "Sessenta e quatro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Senet"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Senet",
+        "situacao": "ok",
+        "texto": "Senet or senat (Ancient Egyptian: 𓊃𓈖𓏏𓏠, romanized: znt, lit. 'passing'; cf. Coptic ⲥⲓⲛⲉ /sinə/, 'passing, afternoon') is a board game from ancient Egypt that consists of ten or more pawns on a 30-square playing board. The earliest representation of senet is dated to c. 2620 BCE from the Mastaba of Hesy-Re, while similar boards and hieroglyphic signs are found even earlier, including in the Levant \n[…]\nThe five decorated houses on the senet board plus House 30, the final house, each have special rules that must be followed:\n[…]\nTâb – a Middle Eastern game that is sometimes confused with senet\n[…]\nCrist, Walter (2019). \"Passing from the Middle to the New Kingdom: A Senet Board in the Rosicrucian Egyptian Museum\". The Journal of Egyptian Archaeology. 105 (1): 107–113. doi:10.1177/0307513319896288. ISSN 0307-5133. JSTOR 26949436. S2CID 213815875.\n[…]\nCrist, Walter (2021). \"Debunking the Diffusion of Senet\". Board Game Studies Journal. 15: 13–27. doi:10.2478/bgs-2021-0002.\n[…]\nKendall, Timothy (1978). Passing Through the Netherworld: The meaning and play of Senet, an ancient Egyptian funerary game. Belmont, MA: Kirk Game Company.\n[…]\nPiccione, Peter A. (2007). \"The Egyptian Game of Senet and the Migration of the Soul\". In Finkel, Irving (ed.). Ancient Board Games in Perspective. London: British Museum Press. pp. 54–63. ISBN 978-0-7141-1153-7.\n[…]\nBell, R. C. (1979). \"Senat\". The Boardgame Book. The Knapp Press. pp. 82–83. ISBN 0-89535-007-6.\n[…]\nGrunfeld, Frederic V. (1975). \"Senat\". Games of the World. Holt, Rinehart, and Winston. pp. 53–55. ISBN 978-0-03-015261-0.\n[…]\nSenet   at BoardGameGeek\n[…]\n\"Review of versions\". BoardGameGeek. Senet. Rules speculation.\n[…]\n\"Variations in the rules\". BoardGameGeek. Senet.\n[…]\n\"Why did ancient Egypt spend 3000 years playing a game nobody else liked?\". Eurogamer. 1 June 2016. Senet compared with the Royal Game of Ur"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Senet",
+        "situacao": "ok",
+        "texto": "Senet ou Senat (língua egípcia: znt, literalmente \"passagem\"; língua copta ⲥⲓⲛⲉ /sinə/ \"passagem, tarde\") é um jogo de tabuleiro do Antigo Egito. A menção mais antiga do Senet é datada de 2620 AEC na Mastaba de Hesy-Re, enquanto representações semelhantes e sinais hieroglíficos são encontrados ainda mais anteriormente. A popularidade do jogo decaiu durante o período romano e as regras originais sã\n[…]\nFragmentos de tabuleiros de Senet foram encontrados na Primeira Dinastia, cerca de 3100 AEC. A primeira representação inequívoca deste antigo jogo é do túmulo de um alto oficial egípcio da Terceira Dinastia. Pessoas são retratadas jogando Senet em pinturas de tumbas da Quinta e Sexta Dinastia (2500 AEC).\n[…]\nOs tabuleiros de Senet mais antigos e intactos datam do Império Médio, mas grafites do jogo representados em monumentos da Quinta e Sexta Dinastias podem ser datados desde o período do Império Antigo.\n[…]\nUm estudo de um exemplar de tabuleiro do Senet no Museu Egípcio Rosacruz, datado do início do Império Novo, mostrou a evolução do jogo desde suas origens seculares para um \"artefato\" mais religioso.\n[…]\nO Senet também foi jogado por civilizações vizinhas, e provavelmente chegou a esses lugares através de relações comerciais entre egípcios e povos locais. Foi encontrado no Levante em locais como Biblos, assim como no Chipre. Por causa da prática local de fazer tabuleiros de pedra, foram encontrados mais exemplares do jogo no Chipre do que no Egito.\n[…]\nO tabuleiro do Senet tem 30 casas no total, dispostos em três fileiras de dez casas. Um jogo de Senet tem dois conjuntos de peões (pelo menos cinco para cada jogador). Embora os detalhes das regras originais do jogo sejam assunto de algumas conjecturas, os historiadores Timothy Kendall e R. C. Bell fizeram suas próprias reconstituições das regras do jogo.\n[…]\nTâb – Um jogo do Oriente Próximo Antigo algumas vezes confundido com o Senet",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Máscara de Tutancâmon",
+      "descricao": "Máscara funerária de ouro com incrustações que cobria o rosto da múmia de Tutancâmon, hoje no Egito"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na máscara funerária de ouro de Tutancâmon, as sobrancelhas e o contorno dos olhos são incrustados com qual pedra azul-escura?",
+    "resposta": "Lápis-lazúli",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
+        "situacao": "ok",
+        "texto": "The mask of Tutankhamun is a gold funerary mask that belonged to Tutankhamun, who reigned over the New Kingdom of Egypt from 1332 BC to 1323 BC, during the Eighteenth Dynasty. After being buried with Tutankhamun's mummy for over 3,000 years, it was found in 1922 following the discovery of Tutankhamun's tomb three years earlier by the British archaeologist Howard Carter at the Valley of the Kings. \n[…]\nThe mask is inlaid with coloured glass and gemstones, including lapis lazuli (the eye surrounds and eyebrows), quartz (the eyes), obsidian (the pupils), carnelian, amazonite, turquoise, and faience.\n[…]\nOsiris was the Egyptian god of the afterlife. Ancient Egyptians believed that kings preserved in the likeness of Osiris would rule the Kingdom of the Dead. It never totally replaced the older cult of the sun, in which dead kings were thought to be reanimated as the sun-god Re, whose body was made of gold and lapis lazuli. This confluence of old and new beliefs resulted in a mixture of emblems inside Tutankhamun's sarcophagus and tomb.\n[…]\nReeves argues that the nemes-headcloth, collar, and ears of the mask were made for Neferneferuaten but that the face, which was made as a separate piece of metal and matches other portrayals of Tutankhamun, was added later, replacing an original face that presumably represented Neferneferuaten.\n[…]\nExhibitions of artifacts from the tomb of Tutankhamun\n[…]\nBroschat, Katja; Eckmann, Christian (2022). Tutanchamuns Mumienmaske – Chronographie einer Ikone. Monographien des Römisch-Germanischen Zentralmuseums, vol. 162. Mainz: Römisch-Germanisches Zentralmuseum, ISBN 978-3-88467-356-0 (monographical study on the scientific and technical aspects of the mask).\n[…]\nReeves, Nicholas (2015). \"Tutankhamun's Mask Reconsidered\". In Oppenheim, Adela; Goelet, Ogden (eds.). Bulletin of the Egyptological Seminar. Vol. 19. Egyptological Seminar of New York. ISBN 978-0-9816120-2-7."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A1scara_mortu%C3%A1ria_de_Tutanc%C3%A2mon",
+        "situacao": "ok",
+        "texto": "A máscara mortuária de Tutancâmon é uma máscara mortuária do faraó Tutancâmon da XVIII dinastia do Antigo Egito (reinou de 1332 a 1323 a.C.). Foi descoberta por Howard Carter em 1925 no túmulo KV62 e está exposta, desde 1925, no Museu Egípcio no Cairo. A máscara é uma das mais conhecidas obras de arte do mundo.\n[…]\nDe acordo com o egiptólogo Nicholas Reeves, a máscara é \"não só por excelência do túmulo de Tutancâmon, mas talvez seja o objeto mais conhecido do próprio Egito Antigo\". Em 2001, uma pesquisa sugeriu que originalmente a máscara poderia ter sido destinada à Rainha Neferneferuaten; pois seu nome real (Ankhkheperure) foi encontrado em um cartucho parcialmente apagado no interior da máscara.\n[…]\nUm acidente causou danos irreversíveis na máscara, os conservadores utilizaram epóxi para corrigir um dano causado na peça que compõe a barba, atualmente não existem maiores detalhes sobre o incidente.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Cajado e mangual",
+      "descricao": "Par de cetros cruzados no peito que simbolizavam o poder do faraó e eram atributos do deus Osíris"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Os faraós aparecem com dois cetros cruzados no peito, também símbolos de Osíris. Um é o cajado de pastor. Como se chama o outro, usado para debulhar grãos?",
+    "resposta": "Mangual",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crook_and_flail"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Crook_and_flail",
+        "situacao": "ok",
+        "texto": "The crook and flail (heka and nekhakha) were symbols used in ancient Egyptian society. They were originally the attributes of the deity Osiris that became insignia of pharaonic authority. The shepherd's crook stood for kingship and the flail for the fertility of the land.\n[…]\nThe earliest known example of a crook is from the Gerzeh culture (Naqada II), and comes from tomb U547 in Abydos. By late Predynastic times, the shepherd's crook was already an established symbol of rule. The flail initially remained separate, being depicted alone in some earliest representations of royal ceremonial. Approximately by the time of the Second Dynasty, the crook and flail became paired.\n[…]\nThe only extant pharaonic examples of both the crook and flail come from the Tomb of Tutankhamun. Their staffs are made of heavy bronze covered with alternating stripes of blue glass, obsidian, and gold, while the flail's beads are made of gilded wood.\n[…]\nIn the interpretation of Toby Wilkinson, the flail used to goad livestock was a symbol of the ruler's coercive power: as shepherd of his flock, the ruler encouraged his subjects as well as restrained them. Still another interpretation, by E. A. Wallis Budge, is that the flail is what was used to thresh grain.\n[…]\nPercy Newberry, a specialist on ancient Egypt, speculated that the \"flail\" or \"whip/scourge\" of Osiris was more likely an instrument for collecting labdanum similar to that used in nineteenth-century Crete. He examined archaeological remains of such items and their representations in art, and found that they were mechanically incapable of acting as either a flail or whip and so must be some other instrument.\n[…]\nPharaoh-seated, with flail & red crown (hieroglyph)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cajado_e_mangual",
+        "situacao": "ok",
+        "texto": "O cajado (heka) e o mangual (nekhakha) são símbolos usados na sociedade do Antigo Egito. Eram originalmente os atributos da divindade antiga Osíris mas se tornaram insígnias da autoridade faraônica. O cajado de pastor significa a realeza e o mangual a fertilidade da terra.\n[…]\nOs únicos exemplos faraônicos existentes tanto do cajado quanto do mangual vêm do túmulo de Tutancâmon. Os cajados são feitos de bronze e cobertos com listras alternadas de vidro azul, obsidiana e ouro, enquanto as contas do mangual são feitas de madeira folheadas em ouro.\n[…]\nTradicionalmente são cruzados sobre o peito quando segurado, provavelmente representavam o governante como um pastor cuja benevolência é formidavelmente temperada com poder.\n[…]\nNa interpretação de Toby Wilkinson, o mangual, usado para incitar o gado, era um símbolo do poder coercivo do governante: como pastor de seu rebanho, o governante encorajava seus súditos, assim como os restringia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Osíris",
+      "descricao": "Deus egípcio dos mortos e do além, marido de Ísis e pai de Hórus"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição egípcia, a cabeça de Osíris estava enterrada numa cidade do Alto Egito, principal centro do seu culto e destino de peregrinações. Que cidade?",
+    "resposta": "Abidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abydos,_Egypt",
+      "https://en.wikipedia.org/wiki/Osiris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Abydos,_Egypt",
+        "situacao": "ok",
+        "texto": "Abydos  (Arabic: أبيدوس, romanized: Abīdūs or Arabic: افود, romanized: Afūd; Sahidic Coptic: Ⲉⲃⲱⲧ Ebōt) was one of the oldest cities of ancient Egypt, and also of the eighth nome in Upper Egypt. It is located about 11 kilometres (6.8 miles) west of the Nile at latitude 26° 10' N, near the modern Egyptian towns of El Araba El Madfuna and El Balyana. In the ancient Egyptian language, the city was ca\n[…]\nDuring the First Intermediate Period, the principal deity of the area, Khentiamentiu, began to be seen as an aspect of Osiris, and the deities gradually merged and came to be regarded as one. Khentiamentiu's name became an epithet of Osiris. King Mentuhotep II was the first to build a royal chapel. In the Twelfth Dynasty a gigantic tomb was cut into the rock by Senusret III.\n[…]\nThe long list of the pharaohs of the principal dynasties—recognized by Seti—are carved on a wall and known as the \"Abydos King List\" (showing the cartouche name of many dynastic pharaohs of Egypt from the first, Narmer or Menes, until Seti's time). There were significant names deliberately left off of the list.\n[…]\nThere were also seven chapels built for the worship of the pharaoh and principal deities. These included three chapels for the \"state\" deities Ptah, Re-Horakhty, and (centrally positioned) Amun and the challenge for the Abydos triad of Osiris, Isis and Horus. The rites recorded in the deity chapels represent the first complete form known of the Daily Ritual, which was performed daily in temples across Egypt throughout the pharaonic period.\n[…]\nThe area now known as Kom El Sultan is a big mudbrick structure, the purpose of which is not clear and thought to have been at the original settlement area, dated to the Early Dynastic Period. The structure includes the early temple of Osiris."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Osiris",
+        "situacao": "ok",
+        "texto": "Osiris (, from Egyptian wsjr) was the god of fertility, agriculture, the afterlife, the dead, resurrection, life, and vegetation in ancient Egyptian religion. He was classically depicted with a pharaoh's beard, partially mummy-wrapped at the legs, wearing a distinctive atef crown and holding a symbolic crook and flail. He was one of the first to be associated with the mummy wrap.\n[…]\nThe Third Day: Osiris is mourned and the enemies of the land are destroyed.\n[…]\nDuring the reign of Seti I, Osiris was also invoked in royal decrees to pursue the living when wrongdoing was observed but kept secret and not reported.\n[…]\nThe early Ptolemaic kings promoted a new god, Serapis, who combined traits of Osiris with those of various Greek gods and was portrayed in a Hellenistic form. Serapis was often treated as the consort of Isis and became the patron deity of the Ptolemies' capital, Alexandria. Serapis's origins are not known.\n[…]\nThis name may have been a Hellenization of \"Osiris-Apis\". Osiris-Apis was a patron deity of the Memphite Necropolis and the father of the Apis bull who was worshipped there, and texts from Ptolemaic times treat \"Serapis\" as the Greek translation of \"Osiris-Apis\".\n[…]\nBut little of the early evidence for Serapis's cult comes from Memphis, and much of it comes from the Mediterranean world with no reference to an Egyptian origin for Serapis, so Mark Smith expresses doubt that Serapis originated as a Greek form of Osiris-Apis's name and leaves open the possibility that Serapis originated outside Egypt.\n[…]\nThe cult of Isis and Osiris continued at Philae until at least the 450s CE, long after the imperial decrees of the late 4th century that ordered the closing of temples to \"pagan\" gods. Philae was the last major ancient Egyptian temple to be closed.\n[…]\nMysteries of Osiris\n[…]\nOsiris—\"Ancient Egypt on a Comparative Method\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abidos_%28Egito%29",
+        "situacao": "ok",
+        "texto": "Abidos, Abido ou Abdju (em grego: Αβυδος; em egípcio antigo: Abedju, ȝbḏw; em árabe: أبيدوس) foi o lugar de enterro mais importante de Antigo Egito no início do período dinástico, deixando impressões de assentamento que remontam até o período pré-dinástico de Nacada I.\n[…]\nCom importância política desde a construção dos templos do faraó Seti I e posteriormente de seu filho Ramessés II, Abidos foi uma das províncias mais importantes durante a XIX dinastia e uma das cidades mais importantes do Alto Egito, junto com Tebas, Dendera, Assuã, Luxor, Carnaque e Abul-Simbel.\n[…]\nAbidos foi o centro religioso de maior veneração popular em Egito. O culto a Osíris, no que se produzia ritualmente a morte e a ressurreição do deus, atraía peregrinos de todos os cantos do país. Muita gente desejava participar nas cerimônias nas quais se fazia referência a passar por processos de dor e morte para depois ressurgir ou reviver num mundo e uma consciência completamente novos.\n[…]\nNa zona entre o templo de Osíris e os cemitérios, que se estendia 1,5 km aproximadamente ao sudoeste de Kom el-Sultan, até o templo de Seti I, os cemitérios são muitos mais extensos do que outros jazigos funerários locais. No Império Médio os faraós começaram a construir cenotáfios em Abidos, culminando na XIX dinastia com os templos de Seti I e Ramessés II.\n[…]\nAs atracções mais importante em Abidos são os templos de Seti I, Ramessés II, o de Osíris, e o Osireion, que se encontra por trás do templo de Seti I.\n[…]\nMedia relacionados com Abidos (Egito) no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Adobe",
+      "descricao": "Tijolo de barro cru secado ao sol, usado desde o Egito Antigo em casas e palácios"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra adobe, o tijolo de barro cru secado ao sol, chegou ao português pelo árabe. Mas de que língua bem mais antiga ela vem?",
+    "resposta": "Egípcio antigo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adobe"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Adobe",
+        "situacao": "ok",
+        "texto": "Adobe (  ə-DOH-bee; Spanish: [aˈðoβe]; via Spanish, from Arabic  الطّوب (at-tūb)) is a building material made from loam and organic materials. Adobe is Spanish for mudbrick. In some English-speaking regions of Spanish heritage, such as the Southwestern United States, the term is used to refer to any kind of earthen construction, or various architectural styles like Pueblo Revival or Territorial Re\n[…]\nAdobe architecture has been dated to before 5,100 BP.\n[…]\nThis method was demonstrated with an adobe blend heavily impregnated with cement to allow even drying and prevent cracking.\n[…]\nDepending on the materials, adobe roofs can be inherently fire-proof. The construction of a chimney can greatly influence the construction of the roof supports, creating an extra need for care in choosing the materials. The builders can make an adobe chimney by stacking simple adobe bricks in a similar fashion as the surrounding walls.\n[…]\nIn 1927, the Uniform Building Code (UBC) was adopted in the United States. Local ordinances, referencing the UBC added requirements to building with adobe. These included: restriction of building height of adobe structures to 1-story, requirements for adobe mix (compressive and shear strength) and new requirements which stated that every building shall be designed to withstand seismic activity, specifically lateral forces.\n[…]\nBy the 1980s however, seismic related changes in the California Building Code effectively ended solid wall adobe construction in California; however Post-and-Beam adobe and veneers are still being used.\n[…]\nThe largest structure ever made from adobe is the Arg-é Bam built by the Achaemenid Empire. Other large adobe structures are the Huaca del Sol in Peru, with 100 million signed bricks and the ciudellas of Chan Chan and Tambo Colorado, both in Peru.\n[…]\nMonterey Colonial architecture – Style of architecture used adobe walls"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Adobe",
+        "situacao": "ok",
+        "texto": "O adobe é um material vernacular usado na construção civil. É considerado um dos antecedentes históricos do tijolo de barro e seu processo construtivo é uma forma rudimentar de alvenaria. Adobes são tijolos de terra crua, água e palha e algumas vezes outras fibras naturais, moldados em fôrmas por processo artesanal ou semi-industrial.\n[…]\nA palavra adobe existe há cerca de 4 mil anos, com relativamente pouca mudança em qualquer pronúncia ou significado. A origem da palavra está ligada a ɟbt \"tijolo de barro\" em egípcio médio (c. 2000 BC). O egípcio médio, por sua vez, modificou-se para o egípcio tardio, demótico ou \"pré-copta\" e, finalmente, para o copta (c. 600 BC), onde apareceu como τωωβε. Ela passou para o árabe como الطوب AT-ṭawbu ou AT-tubu. Ou seja, a palavra tuba foi anexado o artigo definido al.\n[…]\nEssa palavra, por fim, foi assimilada ao espanhol medieval como adobe.\n[…]\nUm dos mais antigos materiais de construção, foi amplamente utilizado nas civilizações do crescente fértil, em especial no Antigo Egito e Mesopotâmia.\n[…]\nEm climas secos, as estruturas de adobe são extremamente duráveis e representam alguns dos edifícios mais antigos existentes no mundo. Os edifícios em adobe oferecem vantagens significativas devido à sua maior massa térmica, mas são conhecidos por serem particularmente suscetíveis a danos por terremotos se não forem reforçados.\n[…]\nRapidez na preparação dos tijolos\n[…]\nA Matriz de Santa Rita Durão, atualmente Igreja Matriz de Nossa Senhora de Nazaré, no município de Mariana, Minas Gerais, é datada da primeira metade do século XVIII, representando um dos mais antigos exemplares do estado. A edificação é também constituída em alvenaria de pedra e apresenta uma organização espacial retangular.\n[…]\nCidades históricas brasileiras, como Ouro Preto e Pirenópolis, ainda possui muitas casas de tijolos de adobe.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Papiro Edwin Smith",
+      "descricao": "Antigo papiro médico egípcio que descreve casos de ferimentos e fraturas e seus tratamentos"
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O papiro Edwin Smith, um dos tratados médicos mais antigos que se conhecem, trata principalmente de quê?",
+    "resposta": "Ferimentos e fraturas",
+    "distratores": [
+      "Doenças dos olhos",
+      "Gravidez e partos",
+      "Picadas de cobra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Edwin_Smith_Papyrus",
+        "situacao": "ok",
+        "texto": "The Edwin Smith Papyrus is an ancient Egyptian medical text, named after Edwin Smith who bought it in 1862, and the oldest known surgical treatise on trauma. This document, which may have been a manual of military surgery, describes 48 cases of injuries, fractures, wounds, dislocations and tumors.\n[…]\nAuthorship of the Edwin Smith Papyrus is debated. The majority of the papyrus was written by one scribe, with only small sections copied by a second scribe. The papyrus ends abruptly in the middle of a line, without any inclusion of an author. It is believed that the papyrus is an incomplete copy of an older reference manuscript from the Old Kingdom, evidenced by archaic grammar, terminology, form and commentary.\n[…]\nThe Edwin Smith Papyrus dates to Dynasties 16–17 of the Second Intermediate Period. Egypt was ruled from Thebes during this time and the papyrus is likely to have originated from there. Edwin Smith, an American Egyptologist, purchased it in Luxor, Egypt in 1862, from an Egyptian dealer named Mustafa Agha.\n[…]\nFrom 1938 through 1948, the papyrus was at the Brooklyn Museum. In 1948, the New York Historical Society and the Brooklyn Museum presented the papyrus to the New York Academy of Medicine, where it remains today.\n[…]\nFrom 2005 through 2006, the Edwin Smith Papyrus was on exhibition at the Metropolitan Museum of Art in New York. James P. Allen, curator of Egyptian Art at the museum, published a new translation of the work, coincident with the exhibition. This was the first complete English translation since Breasted’s in 1930. This translation offers a more modern understanding of hieratic and medicine."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Papiro_de_Edwin_Smith",
+        "situacao": "ok",
+        "texto": "O papiro de Edwin Smith é um texto de medicina da antiguidade egípcia e o mais antigo tratado de cirurgia traumática conhecido na actualidade. Data de cerca de 1700 a.C., entre as dinastias 16 e 17 do segundo período intermédio. Trata-se de uma obra única entre os quatro principais papiros relativos à medicina que se conhece.\n[…]\nEnquanto os restantes, como o Papiro Ebers e o Papiro Médico de Londres são textos de medicina baseados sobretudo em magia e superstição, o Papiro de Edwin Smith apresenta uma abordagem racional e científica à medicina praticada no antigo Egipto, na qual ciência e magia não entram em conflito, recorrendo-se a esta última apenas para explicar os casos de doenças misteriosas, como as doenças dos órgãos internos.\n[…]\nBreasted, James Henry. \"The Edwin Smith Surgical Papyrus: published in facsimile and hieroglyphic transliteration with translation and commentary in two volumes\". University of Chicago Oriental Institute publications, v. 3-4. Chicagop: University of Chicago Press, 1991.\n[…]\nWilkins, Robert H. (1964-03). Neurosurgical Classic-XVII Edwin Smith Surgical Papyrus. Article reprinted with author permission from Journal of Neurosurgery, March 1964, pp 240–244. Cybermuseum of Neurosurgery: translation of 13 cases pertaining to injuries of the skull and spinal cord, with commentary. Retrieved from http://www.neurosurgery.org/cybermuseum/pre20th/epapyrus.html.\n[…]\nWolfgang Kosack \"Der medizinische Papyrus Edwin Smith.\" The New York Academy of Medicine Inv. 217; De nuevo aplicar y retraducir de moda el jeroglifico: Berlin 2011, Schweizerische Nationalbibliothek, Brunner, Basel 2012, ISBN 978-3-033-03331-3. Deutsche Nationalbibliothek https://d-nb.info/1026714648\n[…]\n(em inglês) Turning the Pages: a virtual reconstruction of the Edwin Smith Papyrus. From the U.S. National Library of Medicine.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Ísis",
+      "descricao": "Deusa egípcia da magia e da maternidade, esposa de Osíris e mãe de Hórus"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nas pinturas egípcias, a deusa Ísis costuma levar sobre a cabeça o hieróglifo do próprio nome. Que objeto ele desenha?",
+    "resposta": "Um trono",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Isis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Isis",
+        "situacao": "ok",
+        "texto": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. Isis was first mentioned in the Old Kingdom (c. 2686 – c. 2181 BCE) as one of the main characters of the Osiris myth, in which she resurrects her slain brother and husband, the divine king Osiris, and produces and protects his heir, Horus.\n[…]\nMany scholars have focused on Isis's name in trying to determine her origins. Her Egyptian name was written as 𓊨𓏏𓐰𓆇𓁐 (ꜣst), the pronunciation of which changed over time: Rūsat > Rūsaʾ > ʾŪsaʾ > ʾĒsə, which became ⲎⲤⲈ (Ēse) in the Coptic form of Egyptian, Wusa in the Meroitic language of Nubia, and Ἶσις, on which her modern name is based, in Greek. The hieroglyphic writing of her name incorporates the sign for a throne, which Isis also wears on her head as a sign of her identity.\n[…]\nIt consisted of an elaborate procession, including Isiac priests and devotees with a wide variety of costumes and sacred emblems, carrying a model ship from the local Isis temple to the sea or to a nearby river. The other was the Isia in late October and early November. Like its Egyptian forerunner, the Khoiak festival, the Isia included a ritual reenactment of Isis's search for Osiris, followed by jubilation when the god's body was found.\n[…]\nIsis is found frequently in works of fiction, such as a superhero franchise, and her name and image appear in places as disparate as advertisements and personal names. The name Isidoros, meaning \"gift of Isis\" in Greek, survived in Christianity despite its pagan origins, giving rise to the English name Isidore and its variants. In the late twentieth and early twenty-first centuries, \"Isis\" itself became a popular feminine given name.\n[…]\n\"Isis and the Name of Ra\", as translated by A. G. McDowell.\n[…]\nPlutarch: Isis and Osiris, as translated by Frank Cole Babbitt."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%8Dsis",
+        "situacao": "ok",
+        "texto": "Ísis (em egípcio:  Aset; em grego clássico: Ἶσις) foi uma das principais divindades na religião do Antigo Egito cuja veneração espalhou-se também para o mundo greco-romano. Ela foi mencionada pela primeira vez no Império Antigo como uma das personagens principais do mito de Osíris, em que ressuscita seu marido, o rei Osíris, e produz e protege seu herdeiro, Hórus.\n[…]\nÍsis era retratada artisticamente como uma mulher humana usando um hieroglifo no formato de trono em sua cabeça. Ela assumiu no Império Novo os traços que originalmente pertenciam a Hator, uma deusa importante durante o período antigo, passando assim a ser retratada usando a touca de Hator: um disco solar entre os chifres de uma vaca.\n[…]\nMuitos acadêmicos focaram-se no nome de Ísis em uma tentativa de determinar suas origens. Seu nome egípcio era ꜣst ou Aset, que deu origem a forma copta ⲎⲤⲈ (Ēse) e seu nome grego Ἰσις (Ísis), do qual seu nome moderno é baseado. O nome em hieroglifo incorpora o sinal de um trono, que ela também usa em sua cabeça como sinal de sua identidade. O símbolo serve como fonograma, grafando o som st, porém é possível que tenha representado uma ligação com tronos reais.\n[…]\nKuhlmann discordaram por causa de dissimilaridades entre o nome de Ísis e a palavra para trono e a falta de evidências de que o trono já foi deificado.\n[…]\nÍsis era comumente representada na arte egípcia como uma mulher usando um vestido de bainha, um cajado de papiro em uma mão e um símbolo de ankh na outra. Seu adereço de cabeça original era o símbolo de trono usado em seu nome escrito. Ela e Néftis apareciam frequentemente juntas, particularmente ao lamentarem a morte de Osíris, apoiando em seu trono ou protegendo os sarcófagos dos mortos.\n[…]\nEstatuetas de uma mulher com um adereço de cabeça elaborado e expondo seus genitais pode representar Ísis-Afrodite.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Faraó",
+      "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na crença egípcia, o faraó vivo era a encarnação na Terra de qual deus com cabeça de falcão?",
+    "resposta": "Hórus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Horus",
+      "https://en.wikipedia.org/wiki/Pharaoh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Horus",
+        "situacao": "ok",
+        "texto": "Horus (), also known as Heru, Har, Her, or Hor () in Ancient Egyptian, is one of the most significant ancient Egyptian deities. He is known as the Ancient Egyptian god of kingship, healing, protection, the sun, and the sky. He was worshipped from at least the late prehistoric Egypt until the Ptolemaic Kingdom and Roman Egypt. Different descriptions of Horus are recorded in history, and these are t\n[…]\nHor Merti (Horus of the Two Eyes)\n[…]\nDeclan Hannigan portrays Horus in the Marvel Cinematic Universe (MCU) television series Moon Knight (2022).\n[…]\nIn the film series Night at the Museum, a group of underworld warrior deities appear in Night at the Museum: Battle of the Smithsonian when Kahmunrah uses the combination to open the gate to the underworld and summon an army of Horus warriors. The warriors appear from the underworld carrying spears ready to attack and join Kahmunrah's fight to take over the world.\n[…]\nHorus is a Warrior-class God in the multiplayer online battle arena game Smite with the title of \"The Rightful Heir\".\n[…]\nIn the book trilogy The Kane Chronicles by Rick Riordan, main character Carter Kane hosts the spirit of Horus when he is released in the British Museum along with four other Egyptian deities. Horus speaks to Carter throughout the trilogy, offering him his advice and wisdom.\n[…]\nIn the fantasy action film Gods of Egypt Horus is portrayed by Nikolaj Coster-Waldau. In the film, he helps out a mortal named Bek to stop his uncle Set while also trying to reclaim his throne and bring peace to Egypt.\n[…]\nHorus appears in a 1980 science fiction graphic novel La Foire aux immortels written and illustrated by French cartoonist and storyteller Enki Bilal.\n[…]\nHorus appears as a god that can be prayed to in 2023's Total War: Pharaoh. Praying to Horus increases the movement speed of the player's armies and makes them immune to attrition.\n[…]\nWay of Horus\n[…]\nBritannica Online: Horus (Egyptian God)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pharaoh",
+        "situacao": "ok",
+        "texto": "The Pharaoh was the monarch of ancient Egypt. The title came into use from the Eighteenth Dynasty onwards and was subsequently attributed to all the previous kings of Egypt. Before this Pharaoh was a term that referred more specifically to \"king's administration\" rather than the king. The earliest confirmed instance of the title used contemporaneously for a ruler is a letter to Akhenaten (reigned \n[…]\nThe Horus name was adopted by the king, when taking the throne. The name was written within a square frame representing the palace, named a serekh. The earliest known example of a serekh dates to the reign of king Ka, before the First Dynasty. The Horus name of several early kings expresses a relationship with Horus. Aha refers to \"Horus the fighter\", Djer refers to \"Horus the strong\", etc. Later kings express ideals of kingship in their Horus names.\n[…]\nKhasekhemwy refers to \"Horus: the two powers are at peace\", while Nebra refers to \"Horus, Lord of the Sun\".\n[…]\nThe Golden Horus or Golden Falcon name was preceded by a falcon on a gold or nbw sign. The title may have represented the divine status of the king. The Horus associated with gold may be referring to the idea that the bodies of the deities were made of gold and the pyramids and obelisks are representations of (golden) sun-rays. The gold sign may also be a reference to Nubt, the city of Set. This would suggest that the iconography represents Horus conquering Set.\n[…]\nDuring the Early Dynastic Period, the Pharaoh was represented as the divine incarnation of Horus, and the unifier of Upper and Lower Egypt. By the time of Djedefre (26th century BCE), the Pharaoh also ceased to have a father, as his mother was magically impregnated by the solar deity Ra. According to Pyramid Text Utterance 571, \"..."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/H%C3%B3rus",
+        "situacao": "ok",
+        "texto": "Hórus ou Horo (ou Heru-sa-Aset, Her'ur, Hrw, Hr, Hor-Hekenu ou Ra-Hoor-Khuit) é, no panteão do Antigo Egito, o deus dos céus e dos vivos. É representado geralmente como filho de Ísis e Osíris, e desempenha um papel fundamental no mito de Osíris como seu herdeiro e como rival de Set, o assassino e irmão de Osíris. Em outras versões, Hathor é considerada mãe de Hórus, e às vezes sua esposa.\n[…]\nHórus foi o Deus solar e o redentor dos egípcios.\n[…]\nHórus é a segunda pessoa da divina família egípcia, composta por Osíris, o pai, Hórus, o filho e Ísis, a mãe.\n[…]\nAlguns autores sugerem que a história de Jesus pode ter sido baseada em várias outras histórias de deuses mais antigos, principalmente, Hórus. Em suas mãos Hórus carrega as chaves da vida, da morte e da fertilidade. O primeiro filme da série Zeitgeist, o documentário O Deus que Não Estava Lá e o filme de Bill Maher, Religulous, expõem a ideia de que a história de Jesus seria uma cópia da história de Hórus. Contudo há controvérsias quanto ao documentário Zeitgeist.\n[…]\nNa religião cristã, a Virgem Maria concebeu Jesus através da ação do Espírito Santo, permanecendo, segundo a tradição católica, sempre virgem. Já Hórus, segundo a mitologia egípcia, era filho de Isis com Osíris, e teria nascido depois que sua mãe ter feito um pênis com a mão, por não ter encontrado essa parte do corpo do falecido companheiro.\n[…]\nOutras comparações já desmitificadas são as alegações de Hórus ter tido o mesmo número de seguidores que Jesus; de ter andado sobre as águas e de ter ressuscitado El-Azur-U, ter tido títulos iguais e ter sido crucificado. Segundo críticos à comparaçao de Jesus e Hórus, nenhum dos eventos relacionados na escatologia cristã teriam ocorrido com Hórus na mitologia egípcia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Vale dos Reis",
+      "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No Novo Império, os faraós trocaram as pirâmides por tumbas escavadas na rocha de um vale isolado perto de Tebas. Que ameaça eles tentavam evitar?",
+    "resposta": "Os saqueadores de tumbas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Valley_of_the_Kings"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
+        "situacao": "ok",
+        "texto": "The Valley of the Kings, also known as the Valley of the Gates of the Kings, is an area in Egypt where, for a period of nearly 500 years from the Eighteenth Dynasty to the Twentieth Dynasty, rock-cut tombs were excavated for pharaohs and powerful nobles under the New Kingdom of ancient Egypt.\n[…]\nMing and Qing Imperial Tombs – Royal tombs of the Ming and Qing Dynasties."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vale_dos_Reis",
+        "situacao": "ok",
+        "texto": "O Vale dos Reis (em árabe: وادي الملوك; romaniz.: Wādī al Mulūk; Copta: ϫⲏⲙⲉ; Džēme) é um vale no Egito onde, por um período  entre os séculos XVI-XI a.C., tumbas foram construídas para os faraós e poderosos nobres do Reino Novo (da XVIII até a XX dinastia do Antigo Egito). O vale se localiza na margem oeste do Rio Nilo, oposto a Tebas (atual Luxor), no centro da Necrópole de Tebas. O uádi consist\n[…]\nNo começo da XVIII dinastia, apenas faraós eram sepultados em grandes tumbas; quando alguém fora da realeza era sepultado, era em uma câmara muito menor perto da tumba de seu mestre. A tumba de Amenófis III foi construída no Vale Ocidental (WV22), enquanto que seu filho Aquenáton construiu a sua em Amarna; acredita-se que a inacabada WV25 era originalmente para ele. Com a volta da antiga religião ao final da dinastia, Tutancâmon, Ay e Horemebe retornaram para a necrópole real.\n[…]\nNa Época das Pirâmides, a tumba de um faraó estava associada com um templo mortuário localizado próximo a pirâmide. Quando as tumbas passaram a ser escondidas, o templo foi movido para longe, mais perto das áreas de cultivo de frente para Tebas.\n[…]\nAs tumbas foram construídas e decoradas por trabalhadores do vilarejo de Deir Almedina, localizado em um uádi entre o Vale dos Reis e o Vale das Rainhas, de frente para Tebas. Os trabalhadores iam até as tumbas através de rotas nas montanhas. A vida diária desses trabalhadores é bem conhecida, registrada em tumbas e em documentos oficiais. Entre os eventos documentados está o primeiro registro de uma greve trabalhista da história da humanidade.\n[…]\nNa virada do século, Theodore M. Davis recebeu permissão para escavar no vale, e sua equipe (liderada por Edward R. Ayrton) descobriu várias tumbas reais e de outras pessoas (incluindo KV43, KV46 e KV57). Em 1907, eles descobriram um esconderijo possivelmente do Período de Amarna em KV55.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Templo de Luxor",
+      "descricao": "Grande complexo de templo egípcio antigo na margem leste do Nilo, na antiga Tebas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Dentro do Templo de Luxor, erguido para os deuses de Tebas, funciona há séculos, sobre as ruínas antigas, um templo de outra religião. Qual?",
+    "resposta": "Uma mesquita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luxor_Temple",
+      "https://en.wikipedia.org/wiki/Abu_Haggag_Mosque"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Luxor_Temple",
+        "situacao": "ok",
+        "texto": "The Luxor Temple (Arabic: معبد الأقصر) is a large Ancient Egyptian temple complex located on the east bank of the Nile River in the city of Luxor (ancient Thebes) and was constructed around 1400 BC. In Egyptian it was known as ipet resyt, \"the southern sanctuary\". It was one of the two primary temples on the east bank, the other being Karnak.\n[…]\nThe Luxor Temple was built during the New Kingdom and dedicated to the Theban Triad consisted of Amun, his consort Mut, and their son Khonsu. The focus of the annual Opet Festival, in which a cult statue of Amun was paraded down the Nile from nearby Karnak Temple (ipet-sut) to stay there for a while with his consort Mut, was to promote the fertility of Amun-Re and the Pharaoh.\n[…]\nHowever, other studies at the temple by the Epigraphic Survey team present a completely new interpretation of Luxor and its great annual festival (the Feast of Opet). They have concluded that Luxor is the temple dedicated to the divine Egyptian ruler or, more precisely, to the cult of the Royal Ka.\n[…]\nThe avenue (known as wi.t ntr \"path of god\"; طريق الكباش) which went in a straight line for about 2.7 kilometres (1.7 mi) between the Luxor Temple and the Karnak area was lined with human-headed sphinxes; in ancient times it is probable that these replaced earlier sphinxes which may have had different heads. Six barque shrines, serving as way stations for the barques of the gods during festival processions, were set up on the avenue between the Karnak and Luxor Temple.\n[…]\nThe active Abu Haggag Mosque (مسجد أبو الحجاج بالأقصر) is located within the temple, standing on the ancient columns themselves. That part of the Luxor Temple was converted to a church by the Romans in 395, and then to a mosque around 640, which is more than 3,400 years of continuous religious worship.\n[…]\nLuxor Museum"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Abu_Haggag_Mosque",
+        "situacao": "ok",
+        "texto": "The Abu Haggag Mosque (Arabic: مسجد أبو الحجاج بالأقصر) is a mosque in Luxor, in the Luxor Governorate of Egypt. The mosque contains the tomb of Sheikh Yusuf Abu al-Haggag, after whom the mosque is named. The mosque is integrated into the structure of Luxor Temple, an Ancient Egyptian centre of worship, making it one of the oldest continuously used temples in the world, dating from the reign of Ph\n[…]\nThe mosque stands within the court of Ramesses II. This part of the Luxor Temple was converted to a basilica by the Coptic Christians in 395 CE, and then to a mosque in 640 CE. The site therefore has seen more than 3,400 years of continuous religious use, making the Luxor Temple the world's oldest building in active use, at least in part, for purposes other than archeological or tourist use.\n[…]\nThe annual birthday celebration, or Mawlid, of Yusuf Abu el-Haggag is celebrated in the mosque. The celebration culminates 15 days before Ramadan and attracts large numbers of pilgrims. During this festival, a procession of boats parade around the temple, typically carried by the descendants of el-Haggag. These boats symbolise el-Haggag’s journey to Egypt. Residents of Luxor dress up in colourful outfits and attend the mawlid festival for three days.\n[…]\nActivities of the festival often include horse races, performances of sufi music, stick fights and boat rides. Inside the mosque, the descendants of el-Haggag hold a council known as Al-Dayem, raise religious chanting, sing prophetic praises and read the Qur’an.\n[…]\nThe celebrations bear a resemblance to Pharaonic rituals, being strongly reminiscent of the Opet. Ahmed Abu Haggag, an organiser of the event, has stated: “The mawlid celebrations feature ancient rituals and customs that are greatly intertwined with the pharaonic festivals”. The celebration is habitually attended by those who hold significant governmental positions in Luxor."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Templo_de_Luxor",
+        "situacao": "ok",
+        "texto": "O Templo de Luxor, iniciado na época de Amenófis III e aumentado mais tarde por Ramessés II, tendo sido concluído apenas no período muçulmano, é o único monumento do mundo que contém em si mesmo documentos das épocas faraônica, greco-romana, copta e islâmica, com nichos e frescos coptas e até uma mesquita (Abul Hagague).\n[…]\nPor volta do século II, o templo foi ocupado pelos romanos, mas foi sendo abandonado gradualmente. Foi coberto pelas areias do deserto, até que em 1881 o arqueólogo Gaston Maspero redescobriu o templo, que se encontrava muito bem conservado. Para iniciar a escavação, a vila que entretanto tinha crescido perto do templo teve de ser retirada, apenas permanecendo uma mesquita, construída pelos árabes no século XIII.\n[…]\nO Templo de Luxor foi construído com arenito proveniente da região de Gebel el-Silsila, no sudoeste do Egito, chamado de Arenito Núbio. Este tipo de rocha foi usado para a construção de monumentos no Alto Egito, bem como na restauração de tais obras.\n[…]\nO templo tinha grande significado para o Festival de Opet. A obra foi dedicada à Tríade Tebana e ao culto de Ka, Amom, Mut e Quespisiquis e foi construída durante o Império Novo, período no qual ocorria o festival anual de Opet. Durante este período, uma estátua de Amom foi levada pelo rio Nilo até o templo vizinho de Carnaque para ficar lá juntamente com outra de Mut, em uma celebração da fertilidade.\n[…]\nForam construídos seis santuários para barcas ao longo do caminho entre os templos de Luxor e Carnaque que serviam como pontos de parada para as embarcações que levavam os deuses durante as procissões do festival. Esse caminho também era decorado com esfinges com a cabeça de Nectanebo I. Cada estação era preparada com um simbolismo específico. Por exemplo, a quarta era a estação de Kamare, que resfriava os remos de Amom.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Azul egípcio",
+      "descricao": "Pigmento azul artificial de silicato de cálcio e cobre, fabricado e usado na pintura do Egito Antigo"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O azul egípcio, considerado um dos primeiros pigmentos sintéticos da história, era fabricado aquecendo areia, calcário e qual metal?",
+    "resposta": "Cobre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Egyptian_blue"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Egyptian_blue",
+        "situacao": "ok",
+        "texto": "Egyptian blue, also known as calcium copper silicate, calcium copper tetrasilicate, or cuprorivaite, is a pigment with the chemical formula CaCuSi4O10 that was used in ancient Egypt for thousands of years. It is considered to be the first synthetic pigment.\n[…]\nTherefore, to have access to the large quantities of blue color to meet demand, the Egyptians needed to manufacture the pigment themselves.\n[…]\nDue to its almost exclusive use, Egyptian blue is the blue pigment par excellence of Roman antiquity; its art technological traces vanish in the course of the Middle Ages.\n[…]\nEgyptian blue's extremely powerful and long-lived infrared luminescence under visible light has enabled its presence to be detected on objects which appear unpainted to the human eye. This property has also been used to identify traces of the pigment on paintings produced as late as the sixteenth century, long after its use was presumed to have died out.\n[…]\nEgyptian blue pigment absorbs visible light, and emits light in the near-infrared range. This suggests that Egyptian blue pigment could be used in construction materials designed to cool rooftops and walls in sunny climates, and for tinting glass to improve photovoltaic cell performance.\n[…]\nRiederer, J. 1997, Egyptian Blue. In: E.W. Fitzhugh, (ed.), Artists’ pigments 3: 23–45. Oxford university Press. ISBN 0-89468-256-3\n[…]\nWiedemann, H.G., Bayer, G. & Reller, A. 1998, Egyptian blue and Chinese blue. Production technologies and applications of two historically important blue pigments. In: S. Colinart & M. Menu (eds.), La couleur dans la peinture et lémaillage de l’Egypte Ancienne. Scienze e materiali del patrimonio culturale 4. Bari: Edipuglia. ISBN 88-7228-201-2.\n[…]\nEgyptian blue, ColourLex\n[…]\nEgyptian Blue, Pigments through the ages"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Azul_eg%C3%ADpcio",
+        "situacao": "ok",
+        "texto": "Azul egípcio, também conhecido como silicato de cobre e cálcio (CaCuSi4O10 ou CaO·CuO·4SiO2) é um pigmento usado pelos egípcios por milhares de anos. É considerado como o primeiro pigmento sintético. O pigmento foi conhecido pelos romanos com o nome de cerúleo (caeruleum). Vitrúvio descreveu em seu trabalho \"De architectura\" que ele foi produzido pela moagem de areia, cobre e natrão que foram mist\n[…]\nAzul egípcio é um pigmento azul sintético constituído de uma mistura de sílica, cal, cobre e álcali. A cor é devido ao tetrasilicado de cálcio-cobre CaCuSi4O10 de exatamente a mesma composição como a cuprorivaita que ocorre naturalmente. O termo para ele na língua egípcia é hsbd-iryt, que significa lápis-lazúli artificial (hsbd).\n[…]\nVários experimentos foram realizados por cientistas e arqueólogos interessados em analisar a composição do azul egípcio e as técnicas usadas para fabricá-lo. É agora geralmente considerado como um material multifásico que foi produzido por aquecimento conjunto de areia de quartzo, um composto de cobre, carbonato de cálcio, e uma pequena quantidade de um álcali (natrão) a temperaturas que variam entre 800-1000°C (dependendo da quantidade de álcali usado) por várias horas.\n[…]\n10-20% de óxido de cobre (II) (CuO)\n[…]\n21% de óxido de cobre\n[…]\nAnálise das fontes de cobre utilizadas no fabrico de azul egípcio indicam uma relação com a indústria de metal contemporânea. Considerando que nos período anteriores, é mais provável que os minérios de cobre foram utilizados, durante o reinado de Tutemés III, o minério de cobre é substituído pelo uso de limalha de bronze.\n[…]\nIsto foi realizado através da detecção de uma quantidade específica de óxido de estanho em azul egípcio que só poderia ter sido resultado da utilização de aparas e bronze de estanho como fonte de cobre, que coincide com o tempo que o bronze tornou-se amplamente disponível no Antigo Egito.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Cartas de Amarna",
+      "descricao": "Arquivo de tabuletas de argila com a correspondência diplomática dos faraós com reis do Oriente Próximo, achado em Amarna"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "As Cartas de Amarna, correspondência diplomática entre faraós e reis vizinhos, foram escritas em tabuletas de argila. Em qual sistema de escrita?",
+    "resposta": "Cuneiforme",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amarna_letters"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amarna_letters",
+        "situacao": "ok",
+        "texto": "The Amarna letters (; sometimes referred to as the Amarna correspondence or Amarna tablets, and cited with the abbreviation \"EA\", for \"El Amarna\") are an archive, written on clay tablets, primarily consisting of diplomatic correspondence between the Egyptian administration and its representatives in Canaan and Amurru, or neighboring kingdom leaders, during the New Kingdom, spanning a period of no \n[…]\nThe Amarna letters are unusual in Egyptological research, because they are written not in the language of ancient Egypt, but in cuneiform, the writing system of ancient Mesopotamia. Most are in a variety of Akkadian sometimes characterised as a mixed language, Canaanite-Akkadian; one especially long letter—abbreviated EA 24—was written in a late dialect of Hurrian, and is the longest contiguous text known to survive in that language.\n[…]\nThe letters, comprising cuneiform tablets written primarily in Akkadian—the regional language of diplomacy for this period—were first discovered around 1887 by local Egyptians who secretly dug most of them from the ruined city of Amarna, and sold them in the antiquities market. They had originally been stored in an ancient building that archaeologists have since called the Bureau of Correspondence of Pharaoh.\n[…]\nDuring excavation in 1993 a small, damaged, clay cylinder (first thought to be a cylinder seal) was found. It was inscribed with \"Amarna Cuneiform\" and held a letter which appears to be part of the Amarna correspondence.\n[…]\nAmarna Period\n[…]\nMynářová, J., \"Egyptians and the cuneiform tradition: On the palaeography of the Amarna documents\", in Current research in cuneiform palaeography, eds. E. Devecchi, G.G.W. Müller, and J. Mynářová. Gladbeck: PeWe, pp. 89–102, 2015\n[…]\nSayce, A.H., \"The cuneiform inscriptions of Tel el-Amarna\", Journal of the Transactions of the Victoria Institute, or Philosophical Society of Great Britain 24, pp. 12–31, 1890\n[…]\nSample letter"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cartas_de_Amarna",
+        "situacao": "ok",
+        "texto": "Cartas de Amarna ou tabuinhas de Amarna é a designação dada a um conjunto de tabuinhas em escrita cuneiforme encontradas em Amarna, uma das várias capitais do Antigo Egito. Eram parte do arquivo de correspondência do Egito com os seus reis vassalos e governadores em Canaã, abrangendo um período de aproximadamente trinta anos (c. 1360–1332 a.C.).\n[…]\nA correspondência diz respeito aos reinados de Amenófis III e de Amenófis IV (mais conhecido como Aquenáton), tendo sido escrita em acádico, língua diplomática da época.\n[…]\nAs primeiras cartas foram descobertas de forma acidental por uma aldeã egípcia no ano de 1887, enquanto remexia na terra na localidade Amarna, onde Aquenáton tinha mandado erguer uma nova capital (Aquetaton) para o Egito, abandonada ao fim de cerca de trinta anos de ocupação. Desconhecendo o seu valor, a mulher vendeu-as a um vizinho por uma quantia irrisória.\n[…]\nAs tabuinhas acabaram por entrar no comércio das antiguidades, tendo sido inclusive declaradas como falsas pelo assiriólogo Jules Opert. Estima-se que cerca de duzentas cartas encontradas originalmente tenha sido destruídas por desconhecimento.\n[…]\nEm 1891, quando já se tinha entendido a importância das cartas, William Matthew Flinders Petrie inicia uma escavação arqueológica no palácio real de Amarna, à qual se seguiram as escavações da Deutsche Orientgessellschaft, entre 1911 e 1914, e da Sociedade de Exploração do Egito, entre 1921 e 1937.\n[…]\nMoran, William L. The Amarna Letters. Baltimore: Johns Hopkins University Press, 1992.\n[…]\nAmarna-Letters britannica.com\n[…]\nThe Tell el-Amarna Tablets. Catholic Encyclopedia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Alexandria",
+      "descricao": "Cidade portuária no litoral mediterrâneo do Egito, fundada por Alexandre, o Grande, e capital da dinastia ptolemaica"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano Alexandre, o Grande, fundou a cidade de Alexandria, no litoral mediterrâneo do Egito?",
+    "resposta": "331 antes de Cristo",
+    "distratores": [
+      "356 antes de Cristo",
+      "323 antes de Cristo",
+      "305 antes de Cristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alexandria"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alexandria",
+        "situacao": "ok",
+        "texto": "Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km (25 mi) along the country's northern coast. It is Egypt's principal seaport, the second largest city after Cairo, and the largest city on the Mediterranean coast. Founded in 331 BC by Alexander the Great, Alexandria was one of the largest and most important cities of antiquity and a leadi\n[…]\nAlexandria was founded by Alexander the Great in April 331 BC as Ἀλεξάνδρεια (Alexandreia), as one of his many city foundations. After he captured the Egyptian Satrapy from the Persians, Alexander wanted to build a large Greek city on Egypt's coast that would bear his name. He chose the site of Alexandria, envisioning the building of a causeway to the nearby island of Pharos that would generate two great natural harbours.\n[…]\nAlexandria has a borderline hot steppe and hot desert climate (Köppen climate classification: BSh/BWh). Like the rest of Egypt's northern coast, the prevailing north wind, blowing across the Mediterranean, gives the city a less severe climate than the desert hinterland. Rafah and Alexandria are the wettest places in Egypt; the other wettest places are Rosetta, Baltim, Kafr el-Dawwar, and Mersa Matruh.\n[…]\nCitadel of Qaitbay is a defensive fortress located on the Mediterranean sea coast. It was established in 1477 AD (882 AH) by the Mamluk Sultan Al-Ashraf Sayf al-Din Qa'it Bay. The Citadel is located on the eastern side of the northern tip of Pharos Island at the mouth of the Eastern Harbour. It was erected on the exact site of the famous Lighthouse of Alexandria, which was one of the Seven Wonders of the Ancient World. It was built on an area of 17,550 square metres.\n[…]\nA. Bernand, Alexandrie la Grande (1966)\n[…]\nR. Ilbert, Alexandrie entre deux mondes (1988)\n[…]\nGeographic data related to Alexandria at OpenStreetMap\n[…]\nPhotos of Alexandria at the American Center of Research"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alexandria",
+        "situacao": "ok",
+        "texto": "Alexandria (em árabe: الإسكندرية; romaniz.: al-Iskandariyya; em árabe egípcio: اسكندريه; romaniz.: Eskendereyya; em copta: Ⲣⲁⲕⲟⲧⲉ; romaniz.: Rakotə; em grego: Ἀλεξάνδρεια; romaniz.: Aleksándria) é uma cidade do Egito, sendo a segunda mais populosa do país, com uma população de cerca de 5,2 milhões de habitantes. É o maior porto do Egito, servindo 80% das importações e exportações do país, e um dos\n[…]\nAlexandria se estende por 32 quilômetros na costa mediterrânica do centro-norte do Egito. É o local onde fica a famosa Biblioteca de Alexandria e é um importante centro industrial por causa do gás natural da cidade e dos poços de petróleo em Suez, uma outra cidade egípcia. Alexandria também foi um grande ponto de encontro entre a Europa, a África e a Ásia, porque a cidade beneficiou da ligação entre o mar Mediterrâneo e o mar Vermelho.\n[…]\nNos tempos antigos, Alexandria foi uma das cidades mais importantes do mundo. Foi fundada em torno de um pequeno \"vilarejo\" em 331 a.C. por Alexandre, o Grande. Permaneceu como capital do Egito durante mil anos, até à conquista muçulmana do Egito, quando a capital passou a ser Fostate (que foi depois incorporada no Cairo).\n[…]\nPor outra parte, se desencadeou uma aberta rivalidade entre as duas cidades mais importantes do momento: Constantinopla e Alexandria. Esta rivalidade afetou bastante aos eternos debates teológicos sobre a natureza ou naturezas de Cristo. Era a “guerra” entre os monofisistas e os ortodoxos da Calcedônia.\n[…]\nQuando o povo árabe muçulmano chegou ao plano de conquista do Egito no ano 641, deram o nome de qubt ao cristão de Alexandria. Esta é a palavra que conhecemos como copta. O símbolo da cruz de Cristo começou a se usar em Alexandria, entre os cristãos coptas. Foi um costume que nasceu ali; o qual se sabe que não existia nas catacumbas nem no lábaro de Constantino, que levava um cristograma.\n[…]\nExpatriates em Alexandria",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.73 — 2026-10-19**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 3 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
