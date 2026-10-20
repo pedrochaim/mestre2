@@ -1,0 +1,188 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No idioma náuatle, falado pelos astecas, o que significa o nome do deus Quetzalcóatl?",
+        "resposta": "Serpente emplumada"
+      },
+      "existentes": [
+        {
+          "id": "q03488",
+          "pergunta": "Em náuatle, o nome do deus Quetzalcóatl junta o quetzal, uma ave de penas verdes, a que outro animal?",
+          "resposta": "Serpente"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Segundo um mito grego, a faixa de estrelas que chamamos de Via Láctea surgiu do leite derramado de qual deusa?",
+        "resposta": "Hera"
+      },
+      "existentes": [
+        {
+          "id": "q00556",
+          "pergunta": "Num mito grego, a Via Láctea surgiu do leite derramado do seio de qual deusa ao amamentar o bebê Hércules?",
+          "resposta": "Hera"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que episódio da Bíblia tem um paralelo antigo na Epopeia de Gilgamesh, em que um homem constrói um grande barco por aviso de um deus?",
+        "resposta": "O Dilúvio e a Arca de Noé"
+      },
+      "existentes": [
+        {
+          "id": "q03379",
+          "pergunta": "Na Epopeia de Gilgamesh, que personagem sobrevive a um grande dilúvio construindo um barco, como Noé?",
+          "resposta": "Utnapishtim"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O que o orixá iorubá Xangô e o deus nórdico Thor têm em comum?",
+        "resposta": "São deuses do trovão"
+      },
+      "existentes": [
+        {
+          "id": "q09475",
+          "pergunta": "No candomblé, Xangô, orixá da justiça que empunha um machado de duas lâminas, é ligado a que fenômeno da natureza?",
+          "resposta": "O trovão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na versão mais conhecida do mito hindu, por que o deus Ganesha tem cabeça de elefante?",
+        "resposta": "Shiva o decapitou e trocou sua cabeça"
+      },
+      "existentes": [
+        {
+          "id": "q05589",
+          "pergunta": "Muitos deuses hindus têm um animal como montaria. Qual é a de Ganesha, o deus de cabeça de elefante?",
+          "resposta": "Rato"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No mito japonês, por que o mundo ficou às escuras depois que a deusa do Sol, Amaterasu, se ofendeu com o irmão?",
+        "resposta": "Ela se escondeu numa caverna"
+      },
+      "existentes": [
+        {
+          "id": "q09486",
+          "pergunta": "Segundo a tradição xintoísta, a família imperial do Japão descende de que deusa do Sol?",
+          "resposta": "Amaterasu"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo a lenda indígena amazônica, a planta do guaraná nasceu de que parte do corpo de um menino morto?",
+        "resposta": "Os olhos"
+      },
+      "existentes": [
+        {
+          "id": "q05257",
+          "pergunta": "Segundo uma lenda do povo Sateré-Mawé, que fruto amazônico nasceu dos olhos de um menino morto e enterrado, e por isso parece um olho?",
+          "resposta": "Guaraná"
+        },
+        {
+          "id": "q08191",
+          "pergunta": "Nas lendas indígenas, o que têm em comum a origem da mandioca e a origem do guaraná?",
+          "resposta": "Brotaram da cova de uma criança"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo o mito, Zeus soltou duas águias em pontas opostas do mundo. Em que lugar elas se encontraram, considerado o umbigo do mundo?",
+        "resposta": "Delfos"
+      },
+      "existentes": [
+        {
+          "id": "q05288",
+          "pergunta": "Que sítio arqueológico da Grécia é este?",
+          "resposta": "Delfos"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que filósofo grego narrou, nos diálogos Timeu e Crítias, a história da ilha perdida de Atlântida?",
+        "resposta": "Platão"
+      },
+      "existentes": [
+        {
+          "id": "q02226",
+          "pergunta": "Que filósofo grego narrou, nos diálogos Timeu e Crítias, a história da ilha de Atlântida, engolida pelo mar?",
+          "resposta": "Platão"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o significado do nome Quetzalcóatl (serpente emplumada); a existente já dá a ave e pede a serpente.",
+      "id_existente": "q03488"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Via Láctea do leite de Hera.",
+      "id_existente": "q00556"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uma pede o episódio bíblico (Dilúvio), a outra o personagem Utnapishtim; fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Xangô ligado ao trovão é o fato da existente; a nova responde que ambos são deuses do trovão.",
+      "id_existente": "q09475"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem da cabeça de elefante vs montaria rato; fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Mito da caverna vs descendência imperial; fatos diferentes."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "A existente q05257 já afirma que o guaraná nasceu dos olhos do menino; mesmo fato.",
+      "id_existente": "q05257"
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Ambas têm Delfos como resposta; a existente é sobre o sítio, mas a nova pergunta o umbigo do mundo, que é outro fato.",
+      "id_existente": "q05288"
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Praticamente idênticas.",
+      "id_existente": "q02226"
+    }
+  ]
+}

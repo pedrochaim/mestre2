@@ -8,6 +8,7 @@ Uso (na raiz do projeto):
     python pipeline/autopiloto.py                 # roda até a meta, esperando a cota quando preciso
     python pipeline/autopiloto.py --max 3         # para depois de 3 trabalhos
     python pipeline/autopiloto.py --so-texto      # só lotes de texto (ou --so-figuras)
+    python pipeline/autopiloto.py --catalogos biomas,rochas_minerais   # só figuras destes catálogos
     python pipeline/autopiloto.py --publicar 5    # a cada 5 trabalhos, git push e deploy no Firebase
     python pipeline/autopiloto.py --status        # mostra o progresso e sai
 
@@ -122,14 +123,15 @@ def imprimir_progresso(prog, plano):
 
 # ---------------------------------------------------------------- escolha do próximo trabalho
 
-def escolher(banco, plano, canon, so=None):
+def escolher(banco, plano, canon, so=None, catalogos=None):
     prog = progresso(banco, plano, canon)
     pausados = set(banco.estado.get("pausados", []))
     def_texto = {k: m - n for k, (n, m) in prog["texto"].items() if m - n > 0 and f"texto:{k[1]}" not in pausados}
 
     def trabalho_figura(tema):
         cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados
-                and not c.get("exclusiva")]   # os catálogos de coleções exclusivas rodam à mão
+                and not c.get("exclusiva")   # os catálogos de coleções exclusivas rodam à mão
+                and (not catalogos or c["id"] in catalogos)]
         cats = [c for c in cats if prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0] > 0]
         if not cats:
             return None
@@ -296,6 +298,7 @@ def main():
     ap.add_argument("--max", type=int, default=0, help="número máximo de trabalhos (0 = até a meta)")
     ap.add_argument("--so-texto", action="store_true")
     ap.add_argument("--so-figuras", action="store_true")
+    ap.add_argument("--catalogos", help="só figuras, e só destes catálogos do plano.json (separados por vírgula)")
     ap.add_argument("--publicar", type=int, default=0, help="push e deploy a cada N trabalhos (0 = nunca)")
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--retomar", metavar="LOTE", help="devolve à fila um lote abandonado e tira a pausa da fila dele")
@@ -303,7 +306,8 @@ def main():
                     help="uso máximo da sessão de 5 horas, em %%, antes de esperar a renovação (100 = até a cota acabar)")
     args = ap.parse_args()
     claude_cli.LIMITE_SESSAO = None if args.limite_sessao >= 100 else args.limite_sessao / 100
-    so = "texto" if args.so_texto else "figuras" if args.so_figuras else None
+    catalogos = set(args.catalogos.split(",")) if args.catalogos else None
+    so = "texto" if args.so_texto else "figuras" if args.so_figuras or catalogos else None
 
     if args.retomar:
         retomar(args.retomar)
@@ -342,7 +346,7 @@ def main():
             enc = encomenda_pendente(banco)
             lote_fig = None if enc else lote_figura_pendente(banco)
             if not enc and not lote_fig:
-                trabalho = escolher(banco, plano, canon, so)
+                trabalho = escolher(banco, plano, canon, so, catalogos)
                 if trabalho is None:
                     diario("meta_atingida")
                     print("Nada mais a fazer: metas atingidas ou tudo pausado.")
