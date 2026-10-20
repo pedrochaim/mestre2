@@ -1,0 +1,394 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Dos dezessete países africanos que se tornaram independentes em 1960, a grande maioria tinha sido colônia de que potência europeia?",
+        "resposta": "França"
+      },
+      "existentes": [
+        {
+          "id": "q04943",
+          "pergunta": "Que ano ficou conhecido como Ano da África, porque dezessete países do continente se tornaram independentes?",
+          "resposta": "1960"
+        },
+        {
+          "id": "q13743",
+          "pergunta": "Em 1960, chamado de Ano da África, dezessete países africanos ficaram independentes. Qual potência europeia perdeu o maior número de colônias naquele ano?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual destas colônias portuguesas na África foi a última a se tornar independente?",
+        "resposta": "Angola"
+      },
+      "existentes": [
+        {
+          "id": "q04925",
+          "pergunta": "Que acontecimento em Portugal, em abril de 1974, abriu caminho para a independência de Angola e Moçambique?",
+          "resposta": "Revolução dos Cravos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Durante o apartheid, que nome recebiam os territórios separados por etnia que o governo sul-africano reservava à população negra?",
+        "resposta": "Bantustões"
+      },
+      "existentes": [
+        {
+          "id": "q07241",
+          "pergunta": "Na língua africâner, o que significa a palavra apartheid, nome do regime racista que vigorou na África do Sul?",
+          "resposta": "Separação"
+        },
+        {
+          "id": "q08107",
+          "pergunta": "O Partido Nacional venceu as eleições sul-africanas e transformou o apartheid em política oficial em que ano?",
+          "resposta": "1948"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que povo da África Ocidental, o mesmo do herói Sundiata Keita, formava o núcleo do Império do Mali?",
+        "resposta": "Mandingas"
+      },
+      "existentes": [
+        {
+          "id": "q04933",
+          "pergunta": "Que viajante marroquino do século quatorze visitou o Império do Mali e deixou um relato sobre a sua corte?",
+          "resposta": "Ibn Battuta"
+        },
+        {
+          "id": "q04934",
+          "pergunta": "Que herói, celebrado numa epopeia cantada pelos griôs, fundou o Império do Mali no século treze?",
+          "resposta": "Sundiata Keita"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A Revolta Mau Mau, contra o domínio britânico no Quênia, teve a maior parte de seus combatentes vinda de que povo?",
+        "resposta": "Quicuios"
+      },
+      "existentes": [
+        {
+          "id": "q08099",
+          "pergunta": "Nos anos cinquenta, os rebeldes Mau Mau lutaram contra o domínio colonial britânico em que país africano?",
+          "resposta": "Quênia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "As muralhas do Grande Zimbábue foram erguidas com blocos de granito encaixados, sem uso de que material de ligação?",
+        "resposta": "Argamassa"
+      },
+      "existentes": [
+        {
+          "id": "q04909",
+          "pergunta": "O nome do país Zimbábue foi tirado de umas ruínas medievais. Na língua xona, ele costuma ser traduzido como casas de quê?",
+          "resposta": "Pedra"
+        },
+        {
+          "id": "q04910",
+          "pergunta": "Os colonizadores europeus atribuíam o Grande Zimbábue a fenícios ou árabes. Que povo africano de fato construiu essas muralhas de pedra?",
+          "resposta": "Ancestrais do povo xona"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo a tradição, Shaka organizou os guerreiros zulus numa formação de ataque que imitava os chifres de que animal?",
+        "resposta": "Búfalo"
+      },
+      "existentes": [
+        {
+          "id": "q04924",
+          "pergunta": "Como se chama o período de guerras e migrações forçadas no sul da África, no início do século dezenove, tradicionalmente ligado à ascensão do Reino Zulu de Shaka?",
+          "resposta": "Mfecane"
+        },
+        {
+          "id": "q07625",
+          "pergunta": "Em que século reinou este rei africano?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No século dezesseis, antes de o Brasil dominar esse mercado, as ilhas de São Tomé e Príncipe eram grandes produtoras de quê?",
+        "resposta": "Açúcar"
+      },
+      "existentes": [
+        {
+          "id": "q05279",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "São Tomé e Príncipe"
+        },
+        {
+          "id": "q08495",
+          "pergunta": "Entre os países que têm o português como língua oficial, qual é o menor em área?",
+          "resposta": "São Tomé e Príncipe"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Os cronistas árabes chamaram de Gana um império medieval da África Ocidental. Na língua local, gana era o título de quem?",
+        "resposta": "Do rei"
+      },
+      "existentes": [
+        {
+          "id": "q04950",
+          "pergunta": "Qual destes impérios da África Ocidental surgiu primeiro?",
+          "resposta": "Império de Gana"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Fundada em 1886 por Menelik II e pela esposa, Taitu, a capital etíope Adis Abeba tem um nome que significa o quê?",
+        "resposta": "Nova flor"
+      },
+      "existentes": [
+        {
+          "id": "q04022",
+          "pergunta": "Em amárico, o nome de Adis Abeba, a capital da Etiópia, significa o quê?",
+          "resposta": "Flor nova"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Os europeus apelidaram as guerreiras do Reino do Daomé com o nome de que mulheres guerreiras da mitologia grega?",
+        "resposta": "Amazonas"
+      },
+      "existentes": [
+        {
+          "id": "q08127",
+          "pergunta": "No Reino do Daomé, a tropa de elite conhecida como agojie era formada exclusivamente por quem?",
+          "resposta": "Mulheres"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que filme de 2022, estrelado por Viola Davis, conta a história das agojie, a tropa de elite do Reino do Daomé?",
+        "resposta": "A Mulher Rei"
+      },
+      "existentes": [
+        {
+          "id": "q08127",
+          "pergunta": "No Reino do Daomé, a tropa de elite conhecida como agojie era formada exclusivamente por quem?",
+          "resposta": "Mulheres"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O nome de Monróvia, a capital da Libéria, homenageia que presidente dos Estados Unidos?",
+        "resposta": "James Monroe"
+      },
+      "existentes": [
+        {
+          "id": "q00006",
+          "pergunta": "A capital da Libéria recebeu seu nome em homenagem a qual presidente dos Estados Unidos?",
+          "resposta": "James Monroe"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "No século dezenove, uma sociedade americana fundou a colônia que deu origem à Libéria. Ela foi criada para enviar à África quem?",
+        "resposta": "Negros livres e libertos dos EUA"
+      },
+      "existentes": [
+        {
+          "id": "q00016",
+          "pergunta": "No século dezenove, a Libéria foi fundada na África como destino de qual grupo vindo dos Estados Unidos?",
+          "resposta": "Afro-americanos libertos"
+        },
+        {
+          "id": "q08108",
+          "pergunta": "Qual destes países africanos se tornou independente primeiro?",
+          "resposta": "Libéria"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em 1488, o navegador Bartolomeu Dias deu que nome ao cabo do sul da África que depois passou a se chamar da Boa Esperança?",
+        "resposta": "Cabo das Tormentas"
+      },
+      "existentes": [
+        {
+          "id": "q03652",
+          "pergunta": "Bartolomeu Dias chamou um cabo do sul da África de Cabo das Tormentas. Que nome o rei dom João Segundo deu a ele depois?",
+          "resposta": "Cabo da Boa Esperança"
+        },
+        {
+          "id": "q05845",
+          "pergunta": "Em 1488, que navegador português dobrou o cabo da Boa Esperança, no sul da África, abrindo caminho para a rota marítima até a Índia?",
+          "resposta": "Bartolomeu Dias"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Construído pelos portugueses em 1482, o Castelo de São Jorge da Mina, centro do comércio de ouro e de escravizados, fica em que país atual?",
+        "resposta": "Gana"
+      },
+      "existentes": [
+        {
+          "id": "q03683",
+          "pergunta": "O Castelo de São Jorge da Mina, erguido pelos portugueses em 1482 no litoral africano, fica em que país atual?",
+          "resposta": "Gana"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "No Estado Livre do Congo, mutilações e massacres eram usados para forçar os moradores a coletar que produto, cobiçado na era das bicicletas e dos primeiros automóveis?",
+        "resposta": "Borracha"
+      },
+      "existentes": [
+        {
+          "id": "q08094",
+          "pergunta": "Entre 1885 e 1908, o Estado Livre do Congo foi propriedade pessoal de que rei europeu?",
+          "resposta": "Leopoldo II da Bélgica"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O que une o destino dos líderes africanos Patrice Lumumba, Amílcar Cabral e Thomas Sankara?",
+        "resposta": "Foram assassinados"
+      },
+      "existentes": [
+        {
+          "id": "q03639",
+          "pergunta": "Quem é este líder da independência africana?",
+          "resposta": "Patrice Lumumba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q13743",
+      "motivo": "Ambas perguntam que potência (França) teve mais colônias independentes em 1960."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a última colônia portuguesa independente, fato diferente da Revolução dos Cravos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bantustões é fato distinto do significado da palavra ou do ano de 1948."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Povo mandinga é fato diferente do viajante ou do herói fundador."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Povo dos combatentes difere do país onde ocorreu a revolta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ausência de argamassa é fato distinto do significado do nome ou dos construtores."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Formação dos chifres de búfalo é fato diferente do Mfecane ou do século."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Produção de açúcar é fato distinto da bandeira ou do tamanho."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Significado de gana como título do rei difere de qual império surgiu primeiro."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q04022",
+      "motivo": "Ambas perguntam o significado de Adis Abeba (flor nova)."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Apelido de Amazonas difere da composição feminina da tropa."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Filme de 2022 é fato distinto da composição da tropa."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q00006",
+      "motivo": "Mesma pergunta sobre a homenagem a James Monroe no nome de Monróvia."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "id_existente": "q00016",
+      "motivo": "Ambas perguntam para quem a Libéria foi fundada: afro-americanos libertos."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q03652",
+      "motivo": "O nome Cabo das Tormentas e a troca para Boa Esperança são o mesmo fato; a resposta aparece no enunciado existente."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q03683",
+      "motivo": "Mesma pergunta: país onde fica o Castelo de São Jorge da Mina."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Borracha como produto coletado difere do rei proprietário."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Destino comum dos líderes difere da identificação de Lumumba por imagem."
+    }
+  ]
+}
