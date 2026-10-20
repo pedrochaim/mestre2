@@ -1,0 +1,178 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra um aparador de pedra de uma casa (Skara Brae), não algo reconhecível como o período Neolítico; resposta não única e entidade não identificável pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Retrato em preto e branco de rosto pouco conhecido; a entidade não é reconhecível pela imagem e as famílias permitidas não rendem boa pergunta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Núcleo e lasca de sílex com técnica característica, sem texto; em múltipla escolha com técnicas de lascamento parecidas, a pergunta é justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que técnica de lascamento de pedra produziu estas peças pré-históricas?",
+      "resposta": "Técnica Levallois",
+      "distratores": [
+        "Técnica clactoniana",
+        "Lascamento bifacial acheulense",
+        "Técnica de pressão"
+      ],
+      "ancora": {
+        "nome": "Técnica Levallois",
+        "descricao": "Técnica de lascamento de pedra do Paleolítico Médio, em que a lasca é destacada de um núcleo previamente preparado, associada aos neandertais.",
+        "variantes": [
+          "Levallois",
+          "Método Levallois"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sapo talhado em pedra verde, objeto isolado e sem texto; reconhecível para quem conhece o amuleto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que amuleto indígena da Amazônia, talhado em pedra verde, é este?",
+      "resposta": "Muiraquitã",
+      "ancora": {
+        "nome": "Muiraquitã",
+        "descricao": "Amuleto indígena da Amazônia talhado em pedra verde (amazonita), em geral com forma de sapo.",
+        "variantes": [
+          "Muyrakytã",
+          "Muiraquitan"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Osso de dedo pequeno, desfocado, sobre fundo preto; não reconhecível e poderia ser qualquer fóssil."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem nítida e característica do vaso, sem texto, objeto único.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que antiga cidade da Mesopotâmia foi encontrado este vaso de alabastro esculpido?",
+      "resposta": "Uruk",
+      "ancora": {
+        "nome": "Vaso de Warka",
+        "descricao": "Vaso de alabastro esculpido em relevo, de cerca de 3100 a.C., encontrado em Uruk, no atual Iraque.",
+        "variantes": [
+          "Vaso de Uruk",
+          "Warka Vase"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Montagem com dez espécies diferentes de primatas; vários assuntos numa só imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida do Portão dos Leões, sem texto, característica do sítio.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que antiga capital de um império da Idade do Bronze tem esta entrada guardada por leões de pedra?",
+      "resposta": "Hattusa",
+      "ancora": {
+        "nome": "Hattusa",
+        "descricao": "Antiga capital do Império Hitita na Idade do Bronze, perto da atual Boğazkale, na Turquia; aqui, o Portão dos Leões.",
+        "variantes": [
+          "Hattuşa",
+          "Hatusa",
+          "Hattusas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco da máscara, sem texto; obscura, por isso múltipla escolha com cidades mesopotâmicas.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que antiga cidade da Mesopotâmia foi encontrada esta máscara de mármore, de cerca de 3100 a.C.?",
+      "resposta": "Uruk",
+      "distratores": [
+        "Ur",
+        "Babilônia",
+        "Nínive"
+      ],
+      "ancora": {
+        "nome": "Máscara de Warka",
+        "descricao": "Rosto feminino de mármore branco, de cerca de 3100 a.C., encontrado em Uruk e hoje no Museu Nacional do Iraque.",
+        "variantes": [
+          "Dama de Uruk",
+          "Mask of Warka"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Placa verde corroída, provavelmente um lingote de cobre ou bronze; não é reconhecível como Idade do Bronze e a resposta não é única."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida da entrada da tumba em colmeia, sem texto legível; resposta (Micenas) é a mesma para as tumbas vizinhas parecidas.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que sítio arqueológico da Grécia fica esta tumba em colmeia da Idade do Bronze?",
+      "resposta": "Micenas",
+      "ancora": {
+        "nome": "Tesouro de Atreu",
+        "descricao": "Grande tumba tholos (em colmeia) do século XIII a.C., em Micenas, na Grécia, também chamada Túmulo de Agamenon.",
+        "variantes": [
+          "Túmulo de Agamenon",
+          "Treasury of Atreus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estatueta isolada sobre fundo branco, sem texto, de forma característica.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país foi encontrada esta estatueta feminina de cerca de 25 mil anos?",
+      "resposta": "França",
+      "distratores": [
+        "Áustria",
+        "Itália",
+        "Alemanha"
+      ],
+      "ancora": {
+        "nome": "Vênus de Lespugue",
+        "descricao": "Estatueta feminina gravetiana de marfim, de cerca de 26 mil a 24 mil anos, encontrada em Lespugue, no sul da França.",
+        "variantes": [
+          "Venus of Lespugue",
+          "Vênus de Lespugne"
+        ]
+      }
+    }
+  ]
+}

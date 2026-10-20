@@ -1,0 +1,51 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que artefato de pedra, associado aos povos indígenas do Baixo Amazonas, é este?",
+        "resposta": "Muiraquitã"
+      },
+      "existentes": [
+        {
+          "id": "q03508",
+          "pergunta": "Que herói de Mário de Andrade passa o romance tentando recuperar seu muiraquitã, amuleto amazônico de pedra verde?",
+          "resposta": "Macunaíma"
+        },
+        {
+          "id": "q08892",
+          "pergunta": "Como se chama este objeto de origem indígena amazônica?",
+          "resposta": "Muiraquitã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que sítio arqueológico da Grécia fica esta construção de pedra do século treze antes de Cristo?",
+        "resposta": "Micenas"
+      },
+      "existentes": [
+        {
+          "id": "q04710",
+          "pergunta": "Em que cidade antiga da Grécia fica esta tumba em forma de colmeia?",
+          "resposta": "Micenas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q08892",
+      "motivo": "Ambas pedem a identificação do objeto muiraquitã a partir da imagem; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q04710",
+      "motivo": "Ambas pedem o sítio/cidade grega (Micenas) a partir da imagem da construção/tumba; mesma resposta e mesmo fato."
+    }
+  ]
+}
