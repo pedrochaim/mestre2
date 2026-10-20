@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista 'maquiagem verde e trajes volumosos' é a definição famosa do Kathakali e responde sem a imagem. Além disso, distratores japoneses e chineses se eliminam sozinhos. Reescrita com pista de país e distratores de danças indianas.",
+      "reescrita": {
+        "pergunta": "Que forma clássica de teatro dançado da Índia é esta?",
+        "resposta": "Kathakali",
+        "distratores": [
+          "Bharatanatyam",
+          "Kuchipudi",
+          "Odissi"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Escocês do século dezoito não basta para identificar Smith (há Hume, por exemplo), então a figura é necessária. A Riqueza das Nações é amplamente tida como sua obra mais famosa. Distratores do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O teatro fica na encosta sul da Acrópole de Atenas, e nele eram encenadas tragédias. O enunciado não permite identificar a cidade sem a imagem, e os distratores são cidades gregas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Nascido na Inglaterra' e 'defendeu a independência' praticamente entregam Paine, e os distratores se eliminam pelo texto. A figura vira enfeite. Reescrita com pista só de época e distratores contemporâneos.",
+      "reescrita": {
+        "pergunta": "Quem é este pensador político de língua inglesa do século dezoito?",
+        "resposta": "Thomas Paine",
+        "distratores": [
+          "Benjamin Franklin",
+          "Thomas Jefferson",
+          "John Adams"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Obra monumental do Iluminismo editada por filósofo francês' é praticamente a definição da Enciclopédia e responde sem a figura. Reescrita para um fato de nível 3 que exige reconhecer Diderot, apoiado no trecho (O Sobrinho de Rameau).",
+      "reescrita": {
+        "pergunta": "Qual destas obras foi escrita por este filósofo francês do Iluminismo?",
+        "resposta": "O Sobrinho de Rameau",
+        "distratores": [
+          "Cândido",
+          "O Contrato Social",
+          "Cartas Persas"
+        ]
+      }
+    }
+  ]
+}

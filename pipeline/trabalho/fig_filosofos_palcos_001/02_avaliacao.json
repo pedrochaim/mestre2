@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A legenda visível na imagem ('Arlechino (1671)') entrega o nome da personagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida de uma apresentação de kathakali, com maquiagem verde e trajes volumosos, reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma tradicional de teatro dançado é esta, com maquiagem verde e trajes volumosos?",
+      "resposta": "Kathakali",
+      "distratores": [
+        "Kabuki",
+        "Ópera de Pequim",
+        "Teatro nô"
+      ],
+      "ancora": {
+        "nome": "Kathakali",
+        "descricao": "Forma clássica de teatro dançado do estado de Kerala, na Índia, conhecida pela maquiagem elaborada e pelos trajes volumosos.",
+        "variantes": [
+          "Kathakali de Kerala"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O banner na fachada traz em russo 'Мариинского театра' (Teatro Mariinsky), o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A fachada traz a inscrição 'THEATRO MUNICIPAL' bem legível, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura em perfil, sem texto, de figura pública. Rosto reconhecível pelo retrato clássico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Qual é a obra mais famosa deste pensador escocês do século dezoito?",
+      "resposta": "A Riqueza das Nações",
+      "distratores": [
+        "O Capital",
+        "O Leviatã",
+        "Tratado da Natureza Humana"
+      ],
+      "ancora": {
+        "nome": "Adam Smith",
+        "descricao": "Economista e filósofo escocês do Iluminismo, autor de A Riqueza das Nações.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto clara da orquestra e das arquibancadas do teatro antigo, sem texto. Teatro único e reconhecível pelo piso e pela encosta.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade grega fica este antigo teatro de pedra, onde se encenavam tragédias?",
+      "resposta": "Atenas",
+      "distratores": [
+        "Esparta",
+        "Corinto",
+        "Delfos"
+      ],
+      "ancora": {
+        "nome": "Teatro de Dionísio",
+        "descricao": "Antigo teatro grego na encosta sul da Acrópole de Atenas, palco do festival das Dionísias.",
+        "variantes": [
+          "Teatro de Dioniso",
+          "Theatre of Dionysus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto de figura pública, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Quem é este pensador nascido na Inglaterra, que defendeu a independência na Revolução Americana?",
+      "resposta": "Thomas Paine",
+      "distratores": [
+        "Benjamin Franklin",
+        "Thomas Jefferson",
+        "John Locke"
+      ],
+      "ancora": {
+        "nome": "Thomas Paine",
+        "descricao": "Filósofo político inglês-americano, autor de Senso Comum, panfleto da Revolução Americana.",
+        "variantes": [
+          "Tom Paine"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Iluminura medieval com inscrições em latim; o personagem não é reconhecível só pela imagem, e a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O livro no retrato traz a inscrição 'ERASM. ROTERO...' na lombada, que entrega o nome."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A legenda visível ('Colombine (1683)') entrega o nome da personagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vista aérea com poucos traços distintivos; o edifício não é reconhecível pela imagem num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura em retrato oval, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que obra monumental do Iluminismo este filósofo francês editou?",
+      "resposta": "A Enciclopédia",
+      "ancora": {
+        "nome": "Denis Diderot",
+        "descricao": "Filósofo, crítico de arte e escritor francês do Iluminismo, co-fundador e editor da Enciclopédia.",
+        "variantes": [
+          "Diderot"
+        ]
+      }
+    }
+  ]
+}

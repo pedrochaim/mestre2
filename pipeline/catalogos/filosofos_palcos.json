@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "O Pensador (Rodin)",
+      "titulo": "en:The Thinker",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Escola de Atenas",
+      "titulo": "en:The School of Athens",
+      "camada": 1,
+      "destino": 0,
+      "status": "saturada"
+    },
+    {
+      "nome": "A Morte de Sócrates",
+      "titulo": "en:The Death of Socrates",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Montesquieu",
+      "titulo": "en:Montesquieu",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "John Locke",
+      "titulo": "en:John Locke",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Erasmo de Roterdã",
+      "titulo": "en:Erasmus",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Epicuro",
+      "titulo": "en:Epicurus",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lao Zi",
+      "titulo": "en:Laozi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Thomas Paine",
+      "titulo": "en:Thomas Paine",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Adam Smith",
+      "titulo": "en:Adam Smith",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Averróis",
+      "titulo": "en:Averroes",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Henry David Thoreau",
+      "titulo": "en:Henry David Thoreau",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Denis Diderot",
+      "titulo": "en:Denis Diderot",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Plotino",
+      "titulo": "en:Plotinus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guilherme de Ockham",
+      "titulo": "en:William of Ockham",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "George Berkeley",
+      "titulo": "en:George Berkeley",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mêncio",
+      "titulo": "en:Mencius",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boécio",
+      "titulo": "en:Boethius",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Parmênides",
+      "titulo": "en:Parmenides",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zenão de Eleia",
+      "titulo": "en:Zeno of Elea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Amazonas",
+      "titulo": "en:Teatro Amazonas",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Theatro Municipal do Rio de Janeiro",
+      "titulo": "en:Theatro Municipal (Rio de Janeiro)",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ópera de Sydney",
+      "titulo": "en:Sydney Opera House",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arlequim",
+      "titulo": "en:Harlequin",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pierrô",
+      "titulo": "en:Pierrot",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Máscaras da comédia e da tragédia",
+      "titulo": "en:Sock and buskin",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera Estatal de Viena",
+      "titulo": "en:Vienna State Opera",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Metropolitan Opera House",
+      "titulo": "en:Metropolitan Opera House (Lincoln Center)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Royal Opera House",
+      "titulo": "en:Royal Opera House",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de Epidauro",
+      "titulo": "en:Ancient Theatre of Epidaurus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena de Verona",
+      "titulo": "en:Verona Arena",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Arame",
+      "titulo": "en:Ópera de Arame",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Colombina",
+      "titulo": "en:Columbina",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Kathakali",
+      "titulo": "en:Kathakali",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Teatro de Dionísio",
+      "titulo": "en:Theatre of Dionysus",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Festspielhaus de Bayreuth",
+      "titulo": "en:Bayreuth Festspielhaus",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro Mariinsky",
+      "titulo": "en:Mariinsky Theatre",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro de Santa Isabel",
+      "titulo": "pt:Teatro de Santa Isabel",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pantaleão",
+      "titulo": "en:Pantalone",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Máscara Hannya",
+      "titulo": "en:Hannya",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

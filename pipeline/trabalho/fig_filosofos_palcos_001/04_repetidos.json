@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade grega fica este antigo teatro de pedra, onde se encenavam tragédias?",
+        "resposta": "Atenas"
+      },
+      "existentes": [
+        {
+          "id": "q08995",
+          "pergunta": "Em que cidade fica este teatro da Grécia Antiga?",
+          "resposta": "Atenas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q08995",
+      "motivo": "Ambas perguntam em que cidade fica o mesmo teatro da Grécia Antiga (imagem), com resposta Atenas."
+    }
+  ]
+}

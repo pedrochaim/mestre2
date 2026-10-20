@@ -261233,5 +261233,100 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q14089",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "kathakali",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que forma clássica de teatro dançado da Índia é esta?",
+    "resposta": "Kathakali",
+    "distratores": [
+      "Bharatanatyam",
+      "Kuchipudi",
+      "Odissi"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kathakali",
+      "https://pt.wikipedia.org/wiki/Kathakali"
+    ],
+    "imagem": {
+      "arquivo": "q14089.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gopiasan-and-harinarayanan_(4506992629).jpg",
+      "autor": "Paul Varuni",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14090",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "adam_smith",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a obra mais famosa deste pensador escocês do século dezoito?",
+    "resposta": "A Riqueza das Nações",
+    "distratores": [
+      "O Capital",
+      "O Leviatã",
+      "Tratado da Natureza Humana"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adam_Smith",
+      "https://pt.wikipedia.org/wiki/Adam_Smith"
+    ],
+    "imagem": {
+      "arquivo": "q14090.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:AdamSmith.jpg",
+      "autor": "Etching created by Cadell and Davies (1811), John Horsburgh (1828) or R.C. Bell (1872).",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14091",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "thomas_paine",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este pensador político de língua inglesa do século dezoito?",
+    "resposta": "Thomas Paine",
+    "distratores": [
+      "Benjamin Franklin",
+      "Thomas Jefferson",
+      "John Adams"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Paine",
+      "https://pt.wikipedia.org/wiki/Thomas_Paine"
+    ],
+    "imagem": {
+      "arquivo": "q14091.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Thomas_Paine_rev1.jpg",
+      "autor": "Auguste Millière / After George Romney / After William Sharp",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14092",
+    "tema": "Artes e Pensamento",
+    "subtema": "Filosofia",
+    "ancora": "denis_diderot",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual destas obras foi escrita por este filósofo francês do Iluminismo?",
+    "resposta": "O Sobrinho de Rameau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Denis_Diderot",
+      "https://pt.wikipedia.org/wiki/Denis_Diderot"
+    ],
+    "imagem": {
+      "arquivo": "q14092.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Denis_Diderot_-_Alix_-_Vanloo.png",
+      "autor": "Pierre-Michel Alix",
+      "licenca": "Public domain"
+    }
   }
 ]
