@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bola de basquete nítida, sem texto legível que entregue a resposta.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que esporte é jogado com esta bola?",
+      "resposta": "Basquete",
+      "ancora": {
+        "nome": "Bola de basquete",
+        "descricao": "Bola laranja com gomos pretos usada no jogo de basquete.",
+        "variantes": [
+          "Basketball"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O letreiro na parede do edifício (Basketball Hall of Fame) aparece parcialmente legível e pode entregar a resposta. O edifício é de reconhecimento difícil para o público."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido e a camisa não traz o nome. Há um colega ao fundo, mas o jogador principal está em primeiro plano.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Quem é este jogador de basquete, com a bola nas mãos?",
+      "resposta": "Kawhi Leonard",
+      "ancora": {
+        "nome": "Kawhi Leonard",
+        "descricao": "Ala americano de basquete, bicampeão da NBA e duas vezes MVP das Finais, ex-Toronto Raptors.",
+        "variantes": [
+          "Kawhi Anthony Leonard"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida da jogadora de uniforme amarelo. Só aparecem patrocinadores e o número, sem nome. Múltipla escolha deixa a pergunta justa.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Quem é esta armadora de basquete?",
+      "resposta": "Sue Bird",
+      "distratores": [
+        "Diana Taurasi",
+        "Lauren Jackson",
+        "Candace Parker"
+      ],
+      "ancora": {
+        "nome": "Sue Bird",
+        "descricao": "Armadora americana de basquete, que jogou toda a carreira na WNBA pelo Seattle Storm.",
+        "variantes": [
+          "Suzanne Brigit Bird"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido da jogadora com a camisa da seleção brasileira, sem nome visível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem é esta jogadora da seleção brasileira de vôlei, bicampeã olímpica?",
+      "resposta": "Fabiana Claudino",
+      "distratores": [
+        "Thaisa Menezes",
+        "Natália Pereira",
+        "Jaqueline Carvalho"
+      ],
+      "ancora": {
+        "nome": "Fabiana Claudino",
+        "descricao": "Ex-jogadora brasileira de vôlei, central, bicampeã olímpica em 2008 e 2012.",
+        "variantes": [
+          "Fabiana Marcelino Claudino",
+          "Fabiana"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem de baixíssima resolução (cerca de 250 pixels), pequena para ficar legível no celular. A identificação da jogadora é incerta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, de perto. Só aparece um patrocinador no uniforme, sem nome. Múltipla com outros brasileiros da NBA.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Quem é este jogador brasileiro de basquete?",
+      "resposta": "Bruno Caboclo",
+      "distratores": [
+        "Tiago Splitter",
+        "Leandrinho Barbosa",
+        "Anderson Varejão"
+      ],
+      "ancora": {
+        "nome": "Bruno Caboclo",
+        "descricao": "Ala-pivô brasileiro de basquete, escolhido pelo Toronto Raptors no draft da NBA de 2014.",
+        "variantes": [
+          "Bruno Correa Fernandes Caboclo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido em fundo neutro, com a camisa da seleção. Não há nome visível.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem é esta levantadora da seleção brasileira de vôlei?",
+      "resposta": "Dani Lins",
+      "distratores": [
+        "Fofão",
+        "Fernanda Venturini",
+        "Macris Carneiro"
+      ],
+      "ancora": {
+        "nome": "Dani Lins",
+        "descricao": "Levantadora brasileira de vôlei, campeã olímpica em 2012.",
+        "variantes": [
+          "Danielle Rodrigues Lins"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "O jogador em primeiro plano, de camisa da seleção brasileira, está nítido. O número 10 não vem com nome.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem é este jogador de vôlei, em primeiro plano, com a camisa do Brasil?",
+      "resposta": "Ricardo Lucarelli",
+      "distratores": [
+        "Wallace de Souza",
+        "Douglas Souza",
+        "Maurício Souza"
+      ],
+      "ancora": {
+        "nome": "Ricardo Lucarelli",
+        "descricao": "Ponta brasileiro de vôlei, campeão olímpico no Rio 2016.",
+        "variantes": [
+          "Lucarelli",
+          "Ricardo Samuel Lucarelli Santos de Souza"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Jogador nítido em primeiro plano, com a bola. A camisa traz o nome do time e o número, sem o nome dele.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Quem é este armador com a bola?",
+      "resposta": "Kyrie Irving",
+      "distratores": [
+        "Stephen Curry",
+        "Chris Paul",
+        "Damian Lillard"
+      ],
+      "ancora": {
+        "nome": "Kyrie Irving",
+        "descricao": "Armador americano de basquete, campeão da NBA em 2016 pelo Cleveland Cavaliers.",
+        "variantes": [
+          "Kyrie Andrew Irving"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido e figura pública. Só aparecem patrocinadores no uniforme, sem nome. O enunciado não entrega a resposta sem a imagem.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Por qual universidade esta pivô jogou antes de entrar na WNBA?",
+      "resposta": "Baylor",
+      "distratores": [
+        "Connecticut",
+        "Tennessee",
+        "Notre Dame"
+      ],
+      "ancora": {
+        "nome": "Brittney Griner",
+        "descricao": "Pivô americana de basquete, tricampeã olímpica, que jogou no Phoenix Mercury.",
+        "variantes": [
+          "Brittney Yvette Griner"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido. A camisa traz o clube, patrocinadores e o número, mas não o nome.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem é este ponta de vôlei?",
+      "resposta": "Wilfredo León",
+      "distratores": [
+        "Earvin N'Gapeth",
+        "Yoandy Leal",
+        "Ivan Zaytsev"
+      ],
+      "ancora": {
+        "nome": "Wilfredo León",
+        "descricao": "Ponta de vôlei nascido em Cuba e naturalizado polonês.",
+        "variantes": [
+          "Wilfredo León Venero"
+        ]
+      }
+    }
+  ]
+}

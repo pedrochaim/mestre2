@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que esporte é jogado com esta bola?",
+        "resposta": "Basquete"
+      },
+      "existentes": [
+        {
+          "id": "q04346",
+          "pergunta": "Que bola esportiva é esta?",
+          "resposta": "Bola de basquete"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas mostram a mesma bola e a resposta é basquete; quem soubesse uma saberia a outra.",
+      "id_existente": "q04346"
+    }
+  ]
+}
