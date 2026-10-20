@@ -1,0 +1,401 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta binária dá 50% de chute; melhor pedir o rio pelo atributo.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Que rio, o mais longo da Ásia Ocidental, nasce na Turquia e, com o Tigre, define a Mesopotâmia?",
+        "resposta": "Eufrates",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Euphrates"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Escolha entre dois nomes dados no enunciado é chute de 50%; reformular sem as opções.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Que épico sânscrito da Índia antiga, sobre a guerra de Kurukshetra, é cerca de quatro vezes mais longo que o Ramayana?",
+        "resposta": "Mahabharata",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mahabharata",
+          "https://en.wikipedia.org/wiki/Ramayana"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado (Guinness, Wikipédia) e enunciado correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A existência dos jardins é incerta, então 'ficava' é impreciso; ângulo correto é lugar.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Segundo escritores gregos, qual das Sete Maravilhas do Mundo Antigo ficava na Mesopotâmia?",
+        "resposta": "Jardins Suspensos da Babilônia",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon",
+          "https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "790 anos, dinastia mais longa; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maior império da época, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rigveda é o Veda mais antigo; distratores corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chang'an no século oito com um milhão de habitantes, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte dá o auge de Uruk por volta de 3100 a.C., não 2900.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Por volta de 3100 antes de Cristo, que cidade suméria, ligada ao lendário rei Gilgamesh, era provavelmente a maior do mundo?",
+        "resposta": "Uruk",
+        "distratores": [
+          "Ur",
+          "Lagash",
+          "Eridu"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Uruk"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relevo da estela mostra Hamurábi com Shamash.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lápis-lazúli sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Impermeabilização com betume é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shiva destruidor, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brâmanes como classe sacerdotal, distratores das outras varnas.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Argamassa de cal com arroz glutinoso nas muralhas Ming é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caulim vem de Gaoling, perto de Jingdezhen.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salitre é o ingrediente majoritário.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Registros Han citam casca, cânhamo, trapos e redes de pesca.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serpente rouba a planta, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cor vem do loess carregado, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estupas guardam relíquias de Buda, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sátrapa, governador nomeado pelo rei.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fogo sagrado permanentemente aceso nos templos.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cabeça de elefante, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Folhas de amoreira, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estátuas eram policromadas; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Padronização da largura das carroças, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dedicado a Vishnu, hoje budista.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pede 'palavra latina' mas a resposta é em português; reformular para o significado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome da escrita da Mesopotâmia vem de uma palavra latina que descreve o formato dos sinais. O que essa palavra significa?",
+        "resposta": "Cunha",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cuneiform"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Magos eram sacerdotes zoroastristas.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saṃskṛtam significa refinado, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A raiz yuj significa jungir/atrelar além de unir; resposta não é única e a fonte contesta 'unir'.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'China's Sorrow' sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explicação do nome sustentada pela Wikipédia.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tao significa caminho.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nietzsche, Assim falou Zaratustra.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Comparação com Maquiavel documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Abraão parte de Ur rumo a Canaã, conforme Gênesis.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Família imperial descende de Amaterasu.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nome da banda vem do nirvana budista, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Freddie Mercury, parse nascido em Zanzibar.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sita levada a Lanka, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Réplica entregue à ONU, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Budai é monge chinês.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda de Leizu sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradição atribui a Laozi.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Murasaki Shikibu, distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oito partes, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro leões, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Treze capítulos, sustentado.",
+      "reescrita": null
+    }
+  ]
+}

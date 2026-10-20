@@ -1,0 +1,494 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que épico sânscrito da Índia antiga, sobre a guerra de Kurukshetra, é cerca de quatro vezes mais longo que o Ramayana?",
+        "resposta": "Mahabharata"
+      },
+      "existentes": [
+        {
+          "id": "q03381",
+          "pergunta": "Que diálogo entre o deus Krishna e o guerreiro Arjuna, às vésperas de uma batalha, faz parte do épico indiano Mahabharata?",
+          "resposta": "Bhagavad Gita"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Segundo escritores gregos, qual das Sete Maravilhas do Mundo Antigo ficava na Mesopotâmia?",
+        "resposta": "Jardins Suspensos da Babilônia"
+      },
+      "existentes": [
+        {
+          "id": "q03356",
+          "pergunta": "Segundo a tradição, Nabucodonosor segundo ergueu os Jardins Suspensos para agradar à esposa, saudosa das montanhas verdes de que terra natal?",
+          "resposta": "Média"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Indo dos Bálcãs e do Egito até o vale do Indo, que império foi o maior que o mundo já tinha visto, no século cinco antes de Cristo?",
+        "resposta": "Império Aquemênida"
+      },
+      "existentes": [
+        {
+          "id": "q07673",
+          "pergunta": "Conquistado por Alexandre, o Grande, o Império Aquemênida dos reis persas chegou ao fim em que século antes de Cristo?",
+          "resposta": "Século quatro antes de Cristo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual é o mais antigo dos quatro Vedas, as escrituras sagradas do hinduísmo?",
+        "resposta": "Rigveda"
+      },
+      "existentes": [
+        {
+          "id": "q07695",
+          "pergunta": "Quantos são os Vedas, as coleções de hinos em sânscrito que formam as escrituras mais antigas do hinduísmo?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No século oito, com cerca de um milhão de habitantes, que capital chinesa da dinastia Tang era provavelmente a maior cidade do mundo?",
+        "resposta": "Chang'an"
+      },
+      "existentes": [
+        {
+          "id": "q07662",
+          "pergunta": "Chang'an, capital da dinastia Tang e ponto de partida da Rota da Seda, corresponde hoje a que cidade chinesa?",
+          "resposta": "Xian"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Por volta de 3100 antes de Cristo, que cidade suméria, ligada ao lendário rei Gilgamesh, era provavelmente a maior do mundo?",
+        "resposta": "Uruk"
+      },
+      "existentes": [
+        {
+          "id": "q13297",
+          "pergunta": "As ruínas de Uruk, cidade suméria onde surgiram alguns dos registros escritos mais antigos, ficam hoje em que país?",
+          "resposta": "Iraque"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "No relevo do alto da estela do Código de Hamurábi, o rei aparece diante de que deus, o do sol e da justiça?",
+        "resposta": "Shamash"
+      },
+      "existentes": [
+        {
+          "id": "q03342",
+          "pergunta": "Levada como saque de guerra pelos elamitas, a estela do Código de Hamurábi foi encontrada em 1901 em que antiga cidade, hoje no Irã?",
+          "resposta": "Susa"
+        },
+        {
+          "id": "q07692",
+          "pergunta": "O princípio do olho por olho, dente por dente, presente no Código de Hamurábi, é conhecido por que nome?",
+          "resposta": "Lei de talião"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O azul dos mosaicos do Estandarte de Ur, peça suméria de cerca de 2600 antes de Cristo, vem de que pedra semipreciosa?",
+        "resposta": "Lápis-lazúli"
+      },
+      "existentes": [
+        {
+          "id": "q13318",
+          "pergunta": "O Estandarte de Ur, peça suméria com cenas de guerra e de paz, tem mosaicos de conchas, calcário vermelho e qual pedra azul?",
+          "resposta": "Lápis-lazúli"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na Trimurti hindu, Brahma é o criador e Vishnu, o preservador. Que deus completa a tríade como o destruidor?",
+        "resposta": "Shiva"
+      },
+      "existentes": [
+        {
+          "id": "q03570",
+          "pergunta": "A Trimúrti do hinduísmo reúne Brahma, o criador, Vixnu, o preservador, e que deus destruidor?",
+          "resposta": "Shiva"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Segundo os registros chineses, Cai Lun fez papel com casca de árvore, restos de cânhamo, trapos velhos e o quê?",
+        "resposta": "Redes de pesca"
+      },
+      "existentes": [
+        {
+          "id": "q03375",
+          "pergunta": "Na China da dinastia Han, por volta do ano cento e cinco, que funcionário da corte é tradicionalmente apontado como inventor do papel?",
+          "resposta": "Cai Lun"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Por que as águas do Rio Amarelo, berço da civilização chinesa, têm essa cor?",
+        "resposta": "Carregam sedimentos de loess"
+      },
+      "existentes": [
+        {
+          "id": "q02134",
+          "pergunta": "Por causa das enchentes devastadoras que provocou ao longo dos séculos, que apelido ganhou o rio Amarelo?",
+          "resposta": "Tristeza da China"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No Império Aquemênida, cada província era administrada por um governador nomeado pelo rei. Que título tinha esse governador?",
+        "resposta": "Sátrapa"
+      },
+      "existentes": [
+        {
+          "id": "q07673",
+          "pergunta": "Conquistado por Alexandre, o Grande, o Império Aquemênida dos reis persas chegou ao fim em que século antes de Cristo?",
+          "resposta": "Século quatro antes de Cristo"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Nos templos do zoroastrismo, a religião da Pérsia antiga, o que os sacerdotes mantêm sempre aceso, sem nunca deixar apagar?",
+        "resposta": "O fogo sagrado"
+      },
+      "existentes": [
+        {
+          "id": "q03553",
+          "pergunta": "Freddie Mercury, vocalista do Queen, nasceu numa família parse que seguia que antiga religião da Pérsia?",
+          "resposta": "Zoroastrismo"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Ganesha, deus hindu da sabedoria e removedor de obstáculos, é representado com a cabeça de que animal?",
+        "resposta": "Elefante"
+      },
+      "existentes": [
+        {
+          "id": "q05589",
+          "pergunta": "Muitos deuses hindus têm um animal como montaria. Qual é a de Ganesha, o deus de cabeça de elefante?",
+          "resposta": "Rato"
+        },
+        {
+          "id": "q13158",
+          "pergunta": "Na versão mais conhecida do mito hindu, por que o deus Ganesha tem cabeça de elefante?",
+          "resposta": "Shiva o decapitou e trocou sua cabeça"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "O bicho-da-seda, criado na China há milênios para produzir seda, alimenta-se das folhas de que árvore?",
+        "resposta": "Amoreira"
+      },
+      "existentes": [
+        {
+          "id": "q02622",
+          "pergunta": "Há milhares de anos, em que país a mariposa do bicho-da-seda foi domesticada para a produção de tecidos?",
+          "resposta": "China"
+        },
+        {
+          "id": "q06955",
+          "pergunta": "Monges contrabandearam ovos de bicho-da-seda escondidos em bengalas ocas até Constantinopla, quebrando o segredo chinês da seda. Em que século?",
+          "resposta": "Século seis"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Além da escrita, das moedas e dos pesos, o imperador Qin Shi Huang padronizou até a distância entre as rodas de quê?",
+        "resposta": "Das carroças"
+      },
+      "existentes": [
+        {
+          "id": "q03363",
+          "pergunta": "Obcecado pela imortalidade, o primeiro imperador da China teria morrido depois de ingerir pílulas feitas com que metal?",
+          "resposta": "Mercúrio"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Na própria língua, o que significa o nome sânscrito, o idioma clássico da Índia antiga?",
+        "resposta": "Refinado"
+      },
+      "existentes": [
+        {
+          "id": "q13097",
+          "pergunta": "Em oposição às falas populares da Índia antiga, o nome sânscrito qualificava essa língua clássica com que adjetivo?",
+          "resposta": "Refinada"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Por causa de suas enchentes devastadoras ao longo da história, que apelido ganhou o Rio Amarelo?",
+        "resposta": "Tristeza da China"
+      },
+      "existentes": [
+        {
+          "id": "q02134",
+          "pergunta": "Por causa das enchentes devastadoras que provocou ao longo dos séculos, que apelido ganhou o rio Amarelo?",
+          "resposta": "Tristeza da China"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Segundo a Bíblia, que patriarca partiu de Ur dos Caldeus, na Mesopotâmia, rumo à terra de Canaã?",
+        "resposta": "Abraão"
+      },
+      "existentes": [
+        {
+          "id": "q13315",
+          "pergunta": "Agatha Christie conheceu o seu segundo marido, o arqueólogo Max Mallowan, numa visita às escavações de qual cidade suméria?",
+          "resposta": "Ur"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Segundo a mitologia xintoísta, a família imperial do Japão descende de que deusa do sol?",
+        "resposta": "Amaterasu"
+      },
+      "existentes": [
+        {
+          "id": "q09486",
+          "pergunta": "Segundo a tradição xintoísta, a família imperial do Japão descende de que deusa do Sol?",
+          "resposta": "Amaterasu"
+        },
+        {
+          "id": "q13164",
+          "pergunta": "No mito japonês, por que o mundo ficou às escuras depois que a deusa do Sol, Amaterasu, se ofendeu com o irmão?",
+          "resposta": "Ela se escondeu numa caverna"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "Que banda de rock americana, liderada por Kurt Cobain, tirou o nome de um conceito budista de libertação do sofrimento?",
+        "resposta": "Nirvana"
+      },
+      "existentes": [
+        {
+          "id": "q09480",
+          "pergunta": "Que sentido literal tem a palavra sânscrita nirvana, meta final do caminho budista?",
+          "resposta": "Extinção, como de uma chama"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "No Ramayana, a princesa Sita é raptada pelo rei demônio Ravana e levada para que reino numa ilha?",
+        "resposta": "Lanka"
+      },
+      "existentes": [
+        {
+          "id": "q07693",
+          "pergunta": "No épico indiano Ramayana, que herói com forma de macaco ajuda o príncipe Rama a resgatar a esposa, Sita?",
+          "resposta": "Hanuman"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "Segundo a lenda chinesa, que imperatriz descobriu a seda quando um casulo caiu na sua xícara de chá quente?",
+        "resposta": "Leizu"
+      },
+      "existentes": [
+        {
+          "id": "q04080",
+          "pergunta": "Segundo a lenda chinesa, quem descobriu a seda ao ver um casulo se desenrolar dentro de sua xícara de chá quente?",
+          "resposta": "Imperatriz Leizu"
+        },
+        {
+          "id": "q07712",
+          "pergunta": "Ao contrário do algodão e da lã, qual fibra natural não é fiada, pois sai do casulo de um inseto como um fio contínuo de centenas de metros?",
+          "resposta": "Seda"
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "nova": {
+        "pergunta": "No início do século onze, que dama da corte japonesa escreveu O Conto de Genji, um dos romances mais antigos do mundo?",
+        "resposta": "Murasaki Shikibu"
+      },
+      "existentes": [
+        {
+          "id": "q02965",
+          "pergunta": "O Conto de Genji, clássico japonês do século onze, foi escrito por uma dama da corte imperial. Quem foi ela?",
+          "resposta": "Murasaki Shikibu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o épico; a existente pergunta o Bhagavad Gita."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Fato diferente: maravilha na Mesopotâmia vs terra natal da esposa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Extensão no século cinco vs fim do império no século quatro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Qual é o mais antigo vs quantos são."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Maior cidade do mundo vs equivalente moderno."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Maior cidade em 3100 a.C. vs localização atual."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Deus no relevo é fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "id_existente": "q13318",
+      "motivo": "Mesma resposta lápis-lazúli nos mosaicos do Estandarte de Ur."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "id_existente": "q03570",
+      "motivo": "Mesmo fato: Shiva como destruidor da Trimurti."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Material do papel vs inventor."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Cor da água vs apelido."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Título do governador vs fim do império."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fogo sagrado vs religião de Freddie Mercury."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Cabeça de elefante é só enunciado da existente, mas a resposta é fato distinto da montaria e do mito; o mito explica o porquê, não o animal."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Dieta é fato diferente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Padronização das rodas vs morte por mercúrio."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q13097",
+      "motivo": "Ambas perguntam o significado 'refinado' do nome sânscrito."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q02134",
+      "motivo": "Pergunta idêntica."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Abraão em Ur vs Agatha Christie em Ur."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q09486",
+      "motivo": "Mesma pergunta: descendência imperial de Amaterasu."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Banda Nirvana vs sentido literal da palavra."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Reino de Ravana vs Hanuman."
+    },
+    {
+      "caso": 23,
+      "decisao": "repete",
+      "id_existente": "q04080",
+      "motivo": "Mesma lenda e mesma resposta, Leizu."
+    },
+    {
+      "caso": 24,
+      "decisao": "repete",
+      "id_existente": "q02965",
+      "motivo": "Mesma pergunta sobre a autora de Genji."
+    }
+  ]
+}
