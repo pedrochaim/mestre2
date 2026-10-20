@@ -1,0 +1,312 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O profeta Maomé, figura central do islamismo, nasceu na cidade de Meca por volta de que século?",
+        "resposta": "Século seis"
+      },
+      "existentes": [
+        {
+          "id": "q05564",
+          "pergunta": "Segundo a tradição islâmica, Maomé nasceu em Meca em que século da era cristã?",
+          "resposta": "Século seis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 622, Maomé deixou Meca numa migração que marca o ano um do calendário islâmico. Para que cidade ele foi?",
+        "resposta": "Medina"
+      },
+      "existentes": [
+        {
+          "id": "q03541",
+          "pergunta": "A Hégira, a mudança de Maomé de Meca para Medina em 622, marca o início de quê?",
+          "resposta": "Calendário islâmico"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que ano a cristandade se dividiu entre as igrejas de Roma e de Constantinopla, no chamado Grande Cisma do Oriente?",
+        "resposta": "1054"
+      },
+      "existentes": [
+        {
+          "id": "q09497",
+          "pergunta": "O Grande Cisma, que separou a Igreja de Roma das igrejas ortodoxas do Oriente, aconteceu em que século?",
+          "resposta": "Século onze"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A construção da Catedral de Colônia, na Alemanha, começou em 1248, mas ficou parada por séculos. Em que século ela foi finalmente concluída?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q03973",
+          "pergunta": "Iniciada em 1248, a Catedral de Colônia, na Alemanha, ficou séculos inacabada. Em que século foi finalmente concluída?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q08671",
+          "pergunta": "Que catedral gótica alemã é esta?",
+          "resposta": "Catedral de Colônia"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Carlos Magno, imperador dos francos, morreu em 814 e foi sepultado na catedral de que cidade, hoje na Alemanha?",
+        "resposta": "Aachen (Aquisgrano)"
+      },
+      "existentes": [
+        {
+          "id": "q00109",
+          "pergunta": "Num dia de Natal, em Roma, o papa Leão Terceiro coroou Carlos Magno imperador. Em que ano isso aconteceu?",
+          "resposta": "800"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Segundo relatos da época, a peste negra chegou à Europa em 1347 em navios genoveses vindos de Caffa, porto de que península do mar Negro?",
+        "resposta": "Crimeia"
+      },
+      "existentes": [
+        {
+          "id": "q00101",
+          "pergunta": "No século quatorze, a peste negra matou milhões de europeus. Que inseto, parasita de ratos, é apontado como principal transmissor da bactéria causadora?",
+          "resposta": "Pulga"
+        },
+        {
+          "id": "q06308",
+          "pergunta": "A peste negra, que matou cerca de um terço dos europeus, devastou a Europa em que século?",
+          "resposta": "Século quatorze"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Depois de capturada e condenada por heresia, Joana d'Arc foi queimada em 1431 em que cidade da Normandia?",
+        "resposta": "Ruão (Rouen)"
+      },
+      "existentes": [
+        {
+          "id": "q01359",
+          "pergunta": "Que cidade francesa esta guerreira libertou do cerco inglês em 1429?",
+          "resposta": "Orléans"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O sítio arqueológico de L'Anse aux Meadows, com ruínas de casas vikings de cerca do ano mil, fica em que país?",
+        "resposta": "Canadá"
+      },
+      "existentes": [
+        {
+          "id": "q03517",
+          "pergunta": "No Canadá, o sítio de L'Anse aux Meadows guarda um povoado de cerca do ano mil, cinco séculos antes de Colombo. Que povo europeu o construiu?",
+          "resposta": "Vikings"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Entre 1309 e 1377, os papas deixaram Roma e passaram a viver em que cidade do sul da França?",
+        "resposta": "Avignon (Avinhão)"
+      },
+      "existentes": [
+        {
+          "id": "q05563",
+          "pergunta": "Em que século os papas deixaram Roma e passaram quase setenta anos morando em Avignon, no sul da França?",
+          "resposta": "Século quatorze"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O Pavilhão Dourado, templo budista coberto de folhas de ouro cuja origem remonta ao fim do século quatorze, fica em que cidade japonesa?",
+        "resposta": "Quioto"
+      },
+      "existentes": [
+        {
+          "id": "q07191",
+          "pergunta": "Em que cidade do Japão fica este templo?",
+          "resposta": "Quioto"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em 1095, no Concílio de Clermont, na França, que papa convocou os cristãos para a Primeira Cruzada?",
+        "resposta": "Urbano II"
+      },
+      "existentes": [
+        {
+          "id": "q03560",
+          "pergunta": "Em 1095, no Concílio de Clermont, que papa convocou a Primeira Cruzada?",
+          "resposta": "Urbano Segundo"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Que sábio persa escreveu, no início do século onze, o Cânone da Medicina, usado nas universidades europeias por séculos?",
+        "resposta": "Avicena"
+      },
+      "existentes": [
+        {
+          "id": "q06313",
+          "pergunta": "O Cânone da Medicina, do sábio persa Avicena, foi ensinado nas universidades europeias por séculos. Ele foi concluído em qual século?",
+          "resposta": "Século onze"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "No século onze, que rei anglo-saxão, mais tarde canonizado, mandou erguer a grande igreja que deu origem à Abadia de Westminster?",
+        "resposta": "Eduardo, o Confessor"
+      },
+      "existentes": [
+        {
+          "id": "q06292",
+          "pergunta": "Em que ano o primeiro rei normando da Inglaterra foi coroado nesta igreja de Londres?",
+          "resposta": "1066"
+        },
+        {
+          "id": "q08574",
+          "pergunta": "Que igreja inglesa é esta?",
+          "resposta": "Abadia de Westminster"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Antes de ser proclamado Gengis Khan, em 1206, o fundador do Império Mongol era conhecido por que nome?",
+        "resposta": "Temujin"
+      },
+      "existentes": [
+        {
+          "id": "q03640",
+          "pergunta": "Em que século morreu este governante medieval da Ásia?",
+          "resposta": "Século treze"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Além de enfeitar as catedrais góticas, as gárgulas de pedra em forma de monstro tinham que função prática?",
+        "resposta": "Escoar a água da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q03199",
+          "pergunta": "Nas catedrais góticas, qual é a função prática original das gárgulas?",
+          "resposta": "Escoar a água da chuva"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: século do nascimento de Maomé.",
+      "id_existente": "q05564"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta a cidade de destino; a existente pergunta o que a Hégira marca (a resposta Medina está no enunciado dela, mas o fato perguntado é outro)."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ano 1054 implica século onze; mesmo fato do Grande Cisma.",
+      "id_existente": "q09497"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre a conclusão da Catedral de Colônia.",
+      "id_existente": "q03973"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Local de sepultamento versus ano da coroação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Península de Caffa é fato diferente de transmissor ou século."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cidade da execução versus cidade libertada."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "País do sítio versus povo construtor."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Cidade de residência dos papas versus século; o fato é diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade japonesa do templo, Quioto.",
+      "id_existente": "q07191"
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta, mesmo papa.",
+      "id_existente": "q03560"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Autor versus século de conclusão."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Fundador da igreja versus coroação de Guilherme ou identificação."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nome original versus século da morte."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesma função das gárgulas.",
+      "id_existente": "q03199"
+    }
+  ]
+}
