@@ -1,0 +1,103 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ingrediente tornava o concreto romano tão especial que ele endurecia até debaixo d'água, em portos e pilares de pontes?",
+        "resposta": "Cinza vulcânica (pozolana)"
+      },
+      "existentes": [
+        {
+          "id": "q04623",
+          "pergunta": "O concreto romano, que mantém o Panteão de Roma de pé há quase dois mil anos, levava um tipo de cinza de que origem?",
+          "resposta": "Vulcânica"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Tingido com corante extraído de caramujos do mar, o tecido de luxo reservado aos poderosos em Roma era de que cor?",
+        "resposta": "Púrpura"
+      },
+      "existentes": [
+        {
+          "id": "q07716",
+          "pergunta": "Na Antiguidade, a púrpura de Tiro, corante caríssimo usado nas roupas de reis e imperadores, era extraída de qual animal?",
+          "resposta": "Caramujo marinho (múrex)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Júlio César adotou em testamento o jovem Otaviano, futuro Augusto. Que parentesco de sangue já existia entre os dois?",
+        "resposta": "César era tio-avô de Otaviano"
+      },
+      "existentes": [
+        {
+          "id": "q05329",
+          "pergunta": "Em que ano antes de Cristo Otaviano recebeu do Senado o título de Augusto, data tradicional do início do Império Romano?",
+          "resposta": "27 antes de Cristo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O filósofo estoico Sêneca acabou forçado a se matar por ordem do imperador Nero. Que papel ele tinha tido na juventude de Nero?",
+        "resposta": "Foi seu tutor"
+      },
+      "existentes": [
+        {
+          "id": "q03741",
+          "pergunta": "Em 65 depois de Cristo, o filósofo estoico Sêneca foi obrigado a se matar por ordem de que imperador, seu antigo aluno?",
+          "resposta": "Nero"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que cidade do norte da Itália guarda a Arena, um anfiteatro romano do século primeiro tão bem conservado que é usado para espetáculos de ópera?",
+        "resposta": "Verona"
+      },
+      "existentes": [
+        {
+          "id": "q06054",
+          "pergunta": "Em que cidade italiana fica este anfiteatro romano?",
+          "resposta": "Verona"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que cinza (vulcânica) havia no concreto romano.",
+      "id_existente": "q04623"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nova pergunta a cor (púrpura); a existente pergunta o animal de origem do corante. Fatos diferentes, embora a existente cite a púrpura no enunciado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Parentesco de sangue vs. ano do título de Augusto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o papel de tutor; a existente pergunta qual imperador, e já menciona antigo aluno no enunciado, mas o fato respondido é diferente (Nero vs. tutor)."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a cidade do anfiteatro, Verona.",
+      "id_existente": "q06054"
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O edifício atual foi reconstruído sob Adriano, não construído no século dois; corrigir o verbo.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Reconstruído no século dois, que edifício romano ainda tem a maior cúpula de concreto sem armação de ferro do mundo?",
+        "resposta": "Panteão",
+        "distratores": [
+          "Mausoléu de Adriano",
+          "Termas de Caracala",
+          "Basílica de Maxêncio"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Óculo é resposta única e específica, sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Composição do monte sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Césares como auxiliares confirmado; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pozolana sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tempero mais popular, usado em quase tudo' não é sustentado pela fonte.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O garum era um molho muito apreciado na cozinha da Roma antiga. De que ele era feito?",
+        "resposta": "Peixe fermentado",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Garum"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Júpiter, Juno e Minerva confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rede do retiário confirmada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Buracos deixados pela retirada dos grampos metálicos é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Uso de urina nas lavanderias romanas é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português diz que o aqueduto se sustenta só pelo peso das pedras.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A construção na época dos reis é tradição, não certeza; qualificar.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Segundo a tradição, a Cloaca Máxima foi iniciada na época dos reis. Hoje lembrada como esgoto, para que ela foi construída?",
+        "resposta": "Drenar os pântanos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cloaca_Maxima"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Definição correta; distratores cobrem o equívoco popular.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Função do hipocausto confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Suetônio descreve o salão giratório da Domus Áurea.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Perigos de fogo e desabamento confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fluxo por gravidade em declive suave é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O tecido mais luxuoso' é superlativo não verificável.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Tingido com corante extraído de caramujos do mar, o tecido de luxo reservado aos poderosos em Roma era de que cor?",
+        "resposta": "Púrpura",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tyrian_purple"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz 'um dos mais antigos', não o mais antigo; afirmação superlativa não sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte diz que foram as maiores termas imperiais; igreja de Michelangelo é fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vinte e três anos, a mais longa.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reinado de Tito, de 79 a 81, o mais curto.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tibério reinou de 14 a 37, mais que os demais.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enteado de Augusto confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sicília foi a primeira província.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Óstia era o porto de Roma na foz do Tibre.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Gladiador deriva de gládio, então o enunciado vaza a resposta por palavra derivada.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Testudo significa tartaruga.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pontifex como construtor de pontes é a interpretação habitual.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plebiscito vem de plebiscita, decreto da plebe.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte em português diz não haver evidência de uso regular em estandartes militares; usar moedas.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "As letras esse, pê, quê, erre aparecem em moedas romanas e até nas tampas de bueiro da Roma atual. O que essa sigla significa?",
+        "resposta": "O Senado e o Povo Romano",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/SPQR"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Cincinnati é derivada do nome Cincinato, o que vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capitol vem de Capitolium; boa pergunta de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte diz tio-avô de Augusto.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sêneca foi tutor de Nero.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enterro vivo é a punição tradicional.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tribunato da plebe criado após a secessão.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Motivo do rapto confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reação à invasão de 270 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte citada trata de outro sentido de contubernium; o fato está no artigo Centuria.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Nas campanhas, os legionários romanos dormiam em grupos que dividiam a mesma tenda, o contubérnio. Quantos homens formavam cada grupo?",
+        "resposta": "Oito",
+        "distratores": [
+          "Quatro",
+          "Doze",
+          "Vinte"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Centuria"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oitenta soldados no período imperial.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sila e César tiveram mandatos mais longos; qualificar como regra tradicional.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Pela regra tradicional da República romana, um ditador recebia plenos poderes para enfrentar uma crise. Por quanto tempo, no máximo, ele ficava no cargo?",
+        "resposta": "Seis meses",
+        "distratores": [
+          "Três meses",
+          "Um ano",
+          "Cinco anos"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Ditador_romano"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Atribuição a Vespasiano confirmada, com 'teria dito'.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teatro de Pompeu, primeiro permanente de Roma.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crasso derrotado pelos partas.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palácio no centro de Split.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Arena de Verona, do século primeiro, usada para óperas.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "509 a.C. pela tradição, com distratores plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

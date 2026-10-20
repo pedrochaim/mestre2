@@ -1,0 +1,1805 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Roma Antiga** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Panteão de Roma",
+      "descricao": "Templo romano com grande cúpula de concreto, reconstruído no reinado de Adriano, no século dois, e hoje uma igreja."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Construído no século dois, que edifício romano ainda tem a maior cúpula de concreto sem armação de ferro do mundo?",
+    "resposta": "Panteão",
+    "distratores": [
+      "Mausoléu de Adriano",
+      "Termas de Caracala",
+      "Basílica de Maxêncio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "situacao": "ok",
+        "texto": "The Pantheon (UK: , US: ; Latin: Pantheum, from Ancient Greek  Πάνθειον (Pantheion) '[temple] of all the gods') is an ancient temple in Rome, Italy, originally built under emperor Augustus (27 BC–AD 14) and reconstructed under Hadrian (117–138); since AD 609, it is a Catholic church called the Basilica of St. Mary and the Martyrs (Italian: Basilica di Santa Maria ad Martyres).\n[…]\nThe height to the oculus and the diameter of the interior circle are the same, 43.3 metres (142 ft), so the whole interior would fit exactly within a cube (or, a 43.3-m sphere could fit within the interior). These dimensions make more sense when expressed in ancient Roman units of measurement: The dome spans 150 Roman feet; the oculus is 30 Roman feet in diameter; the doorway is 40 Roman feet high. The Pantheon still holds the record for the world's largest unreinforced concrete dome.\n[…]\nThe Pantheon remains the largest dome constructed by concrete that is not reinforced. As the best-preserved example of an Ancient Roman monumental building, the Pantheon has been enormously influential in Western architecture from at least the Renaissance. Starting with Brunelleschi's 42-metre (138 ft) dome of Santa Maria del Fiore in Florence, completed in 1436.\n[…]\nThe portico-and-dome form of the Pantheon can be detected in many buildings of the 19th and 20th centuries, including government and public buildings, city halls, university buildings, and public libraries. The Rotunda built in the 19th century as library at the University of Virginia was constructed so that students of architecture could learn from it. Thomas Jefferson relied on engraved illustrations to Andrea Palladio of the Pantheon.\n[…]\nPanoramic Virtual Tour inside the Pantheon Archived 11 July 2021 at the Wayback Machine\n[…]\nHigh-resolution 360° Panoramas and Images of Pantheon|Art Atlas Archived 1 January 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pante%C3%A3o_%28Roma%29",
+        "situacao": "ok",
+        "texto": "Panteão (em latim: Pantheon) é um edifício em Roma, Itália, encomendado por Marco Vipsânio Agripa durante o reinado do imperador Augusto (r. 27 a.C.–14 d.C.) e reconstruído por Adriano (r. 117–138) por volta de 126.\n[…]\nSua planta é circular com um pórtico de grandes colunas coríntias de granito (oito na primeira fila e dois grupos de quatro na segunda) suportando um frontão. Um vestíbulo retangular liga o pórtico à rotunda, que está coberta por uma enorme cúpula de caixotões de concreto encimada por uma abertura central (óculo) descoberta. Quase dois mil anos depois de ter sido construído, esta cúpula é ainda hoje a maior cúpula de concreto não armado do mundo.\n[…]\nPortanto, o interior caberia exatamente dentro de um cubo e poderia abrigar uma esfera perfeita de 43,3 metros de diâmetro. Estas dimensões fazem muito mais sentido quando expressas nas unidades de medida da Roma Antiga: a cúpula tem 150 pés romanos; o óculo tem 30 pés de diâmetro; a porta tem 40 pés de altura. Substancialmente maior que as cúpulas anteriores, o Panteão ainda detém o recorde de mair cúpula de concreto não reforçado do mundo.\n[…]\nEmbora geralmente aparece em desenhos como um edifício isolado, havia um outro edifício anexo ao fundo do Panteão. Apesar de servir como contraforte adicional à rotunda, não havia uma passagem interior de um edifício para o outro.\n[…]\nComo o mais bem preservado exemplo de um edifício romano monumental antigo, o Panteão tem sido enormemente influente na arquitetura ocidental, pelo menos do Renascimento em diante, começando com a cúpula de 42 metros de diâmetro de Brunelleschi em Santa Maria del Fiore (Florença), completada em 1436.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Panteão de Roma",
+      "descricao": "Templo romano com grande cúpula de concreto, reconstruído no reinado de Adriano, no século dois, e hoje uma igreja."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No topo da cúpula do Panteão de Roma há uma abertura circular sem vidro, por onde entram a luz e a chuva. Como ela se chama?",
+    "resposta": "Óculo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+        "situacao": "ok",
+        "texto": "The Pantheon (UK: , US: ; Latin: Pantheum, from Ancient Greek  Πάνθειον (Pantheion) '[temple] of all the gods') is an ancient temple in Rome, Italy, originally built under emperor Augustus (27 BC–AD 14) and reconstructed under Hadrian (117–138); since AD 609, it is a Catholic church called the Basilica of St. Mary and the Martyrs (Italian: Basilica di Santa Maria ad Martyres).\n[…]\nThe Pantheon's large circular domed cella, with a conventional temple portico front, was unique in Roman architecture. Nevertheless, it became a standard exemplar when classical styles were revived, and has been copied many times by later architects.\n[…]\nWhile more recent archaeological diggings have suggested that Agrippa's building might have had a circular form with a triangular porch, and it might have also faced north, much like the later rebuildings, Ziolkowski complains that their conclusions were based entirely on surmise; according to him, they did not find any new datable material, yet they attributed everything they found to the Agrippan phase, failing to account for the fact that Domitian, known for his enthusiasm for building and known to have restored the Pantheon after 80 AD, might well have been responsible for everything they found.\n[…]\nPantheon Rome, Virtual Panorama and photo gallery\n[…]\nPantheon Rome vs Pantheon Paris. Archived 24 June 2019 at the Wayback Machine.\n[…]\nTomás García Salgado, \"The geometry of the Pantheon's vault\"\n[…]\nPantheon at Great Buildings/Architecture Week website (archived 15 March 2008)\n[…]\nArt & History Pantheon. Archived 2010-11-24 at the Wayback Machine.\n[…]\nSummer solstice at the Pantheon (archived 15 July 2011)\n[…]\nPantheon at Structurae\n[…]\nVideo Introduction to the Pantheon\n[…]\nPanoramic Virtual Tour inside the Pantheon Archived 11 July 2021 at the Wayback Machine\n[…]\nHigh-resolution 360° Panoramas and Images of Pantheon|Art Atlas Archived 1 January 2022 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pante%C3%A3o_%28Roma%29",
+        "situacao": "ok",
+        "texto": "Panteão (em latim: Pantheon) é um edifício em Roma, Itália, encomendado por Marco Vipsânio Agripa durante o reinado do imperador Augusto (r. 27 a.C.–14 d.C.) e reconstruído por Adriano (r. 117–138) por volta de 126.\n[…]\nSua planta é circular com um pórtico de grandes colunas coríntias de granito (oito na primeira fila e dois grupos de quatro na segunda) suportando um frontão. Um vestíbulo retangular liga o pórtico à rotunda, que está coberta por uma enorme cúpula de caixotões de concreto encimada por uma abertura central (óculo) descoberta. Quase dois mil anos depois de ter sido construído, esta cúpula é ainda hoje a maior cúpula de concreto não armado do mundo.\n[…]\nA altura até o óculo e o diâmetro da circunferência interior são idênticos, 43,3 metros.\n[…]\nO topo da parede da rotunda apresenta uma série de arcos de tijolo para aliviar as forças de stress, visíveis do lado fora e construídos no interior da estrutura de tijolos da parede. O Panteão está repleto de estruturas deste tipo, mas elas ficavam escondidas no interior pelo revestimento de mármore e, no exterior, pelo revestimento de pedra ou estuque. A altura do óculo e o diâmetro do círculo interior são idênticos, 43,3 metros.\n[…]\nPortanto, o interior caberia exatamente dentro de um cubo e poderia abrigar uma esfera perfeita de 43,3 metros de diâmetro. Estas dimensões fazem muito mais sentido quando expressas nas unidades de medida da Roma Antiga: a cúpula tem 150 pés romanos; o óculo tem 30 pés de diâmetro; a porta tem 40 pés de altura. Substancialmente maior que as cúpulas anteriores, o Panteão ainda detém o recorde de mair cúpula de concreto não reforçado do mundo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Monte Testaccio",
+      "descricao": "Colina artificial de Roma formada por restos de ânforas descartadas na Antiguidade."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O Monte Testaccio é uma colina artificial de Roma com cerca de trinta e cinco metros de altura. De que ela é formada?",
+    "resposta": "Cacos de ânforas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monte_Testaccio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monte_Testaccio",
+        "situacao": "ok",
+        "texto": "Monte Testaccio (Italian pronunciation: [ˈmonte teˈstattʃo]) or Monte Testaceo, also known as Monte dei Cocci, is an artificial mound in Rome composed almost entirely of testae (Italian: cocci), fragments of broken ancient Roman pottery, nearly all discarded amphorae, some of which were labelled with tituli picti.\n[…]\nMonte Testaccio was still used as a place of recreation when Stendhal visited in 1827. A  19th-century traveller, visiting a few years earlier, described the annual festival that was held on the summit of the hill:\n[…]\nThe first archaeological investigation of Monte Testaccio began in January 1872 under the German archaeologist Heinrich Dressel, who published his results in 1878. Further work was carried out in the 1980s by the Spanish archaeologists Emilio Rodríguez Almeida and José Remesal Rodríguez.\n[…]\nDressel, H. (1878). Ricerche sul monte testaccio. Rome : Salviucci\n[…]\nRodriguez Almeida, E. (1980). \"Alcuni aspetti della topografia e dell' archeologia attorno al monte Testaccio.\" In, JM Blazquez Martinez, ed. Produccion y comercio del aceite en la antiguedad (Madrid): 103–31. ISBN 84-7491-025-0\n[…]\nRodriguez Almeida, E. (1984). Il Monte Testaccio, ambiente, storia, materiale. Rome: Quasar. ISBN 88-85020-57-7\n[…]\nRodriguez Almeida, E. & Remesal Rodríguez, José (1994). Excavaciones arqueológicas en el Monte Testaccio (Roma). Madrid : Ministerio de Cultura, Dirección General de Bellas Artes y Archivos, Instituto de Conservación y Restauración de Bienes Culturales. ISBN 84-8181-006-1\n[…]\nRemesal Rodríguez J. (2019). \"Monte Testaccio\" (Rome, Italy), in, Smith C. (eds) Encyclopedia of Global Archaeology. Springer, Cham. doi:10.1007/978-3-319-51726-1_3331-1\n[…]\nStory, Pictures and song of Monte Testaccio\n[…]\nMonte Testaccio website by Universitat de Roma \"La Sapienza\" and Universitat de Barcelona"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Test%C3%A1cio",
+        "situacao": "ok",
+        "texto": "Monte Testácio (em latim: mons Testaceus; em italiano: Monte Testaccio) ou Monte dos cacos (em italiano: Monte dei cocci) é uma colina artificial construída na cidade de Roma durante os séculos I e III d.C. O monte formou-se por acumulação de testae, fragmentos de ânforas rotas, algumas delas com tituli picti. O monte emprestou seu nome ao rione XX de Roma, Testaccio, onde está localizado.\n[…]\nA colina, triangular, está composta por restos de cerca de 26 milhões de ânforas rotas; sobretudo de azeite de oliva procedentes de lugares como a Bética (aproximadamente 80% do total) ou a Tripolitânia (17%). O remanescente 3% provém da Gália, de regiões da península Itálica, bem como algumas ânforas orientais.\n[…]\nAs ânforas chegavam ao porto de Roma, onde se esvaziavam e então, ao não ser rentável lavar os recipientes e enviá-los de volta,  eram quebrados em pedaços e depositados no Monte Testácio; deitava-se cal sobre os recipientes quebrados para evitar cheiros. Parece que as ânforas se transladavam inteiras, possivelmente em grupos de quatro, por burros, mulas ou outras bestas de carga; e posteriormente eram quebradas no lugar.\n[…]\nO monte Testácio forneceu os arqueólogos com um retrato da economia romana. As ânforas depositado nele eram muitas vezes marcadas com tituli picti, inscrições pintadas ou estampadas que registravam informações como o peso do azeite contido, os nomes das pessoas que pesaram o azeite e o local onde o azeite fora originalmente engarrafado.\n[…]\nOs picti tituli das ânforas do Monte Testácio tendem a seguir um padrão e indicam um rigoroso sistema de controlo para controlar o comércio e impedir a fraude. As ânforas eram primeiro pesadas em vazio, e o seu peso marcado na parte externa. O nome do comerciante de exportação era, seguido por uma linha que dá o peso do azeite contido na ânfora (subtraindo o peso previamente determinado do navio propriamente dito).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Segundo Triunvirato",
+      "descricao": "Aliança oficial formada em 43 antes de Cristo por Otaviano, Marco Antônio e Lépido."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Formado em 43 antes de Cristo, o Segundo Triunvirato uniu Otaviano e Marco Antônio a que outro político romano?",
+    "resposta": "Lépido",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Second_Triumvirate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Second_Triumvirate",
+        "situacao": "ok",
+        "texto": "The Second Triumvirate was an extraordinary commission and magistracy created at the end of the Roman republic for Mark Antony, Lepidus, and Octavian to give them practically absolute power. It was formally constituted by law on 27 November 43 BC with a term of five years; it was renewed in 37 BC for another five years before expiring in 32 BC.\n[…]\nThe name \"Second Triumvirate\" is a modern misnomer derived from the branding of the political alliance between Pompey, Crassus, and Caesar (created c. 59 BC) as the \"First\" Triumvirate. This nomenclature was unknown during and before the Renaissance and was first attested in the late 17th century, coming into widespread use only in the following century. Recent books have started to avoid the traditional nomenclature of \"First\" and \"Second\" Triumvirates.\n[…]\nThe triumvirs at various times also made repeated promises or offers to give their powers back to the senate and people, though of course these promises were never kept. Most especially, the triumvirs' powers to appoint all provincial governors served as part of the division between military and civic provinces later adopted in Augustus' political settlements.\n[…]\nThe political chaos of the triumviral years proved a ladder for many provincials, veterans, and former slaves. Many of the great works of Latin literature were produced in this unstable period, such as Horace's Epodes and Satires, Virgil's Eclogues and Georgics, and the histories of Sallust and Asinius Pollio. The political competition between Octavian and Antony provided the impetus for Octavian's ally, Gaius Maecenas, to support many leading artists of his day.\n[…]\nLendering, Jona (2003). \"Second Triumvirate\". Livius.org. Retrieved 26 November 2022.\n[…]\nWasson, Donald L (2016). \"Second Triumvirate\". World History Encyclopedia. Retrieved 26 November 2022."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Segundo_Triunvirato",
+        "situacao": "ok",
+        "texto": "O Segundo Triunvirato (associação política entre três homens) foi estabelecido em 43 a.C., na República Romana, entre Marco Antônio, Otávio e Lépido, prolongou-se até 33 a.C..\n[…]\nAo contrário do primeiro triunvirato, um acordo informal entre Júlio César, Pompeu, o Grande e Marco Licínio Crasso, este triunvirato foi uma aliança política formal. Com o nome oficial de Triunviros para a Organização do Povo (em Latim: Triumviri Rei Publicae Constituendae Consulari Potestate), o triunvirato foi legislado pela Lex Titia e aprovado pela Assembleia do Povo, conferindo poderes universais aos três homens por um período de cinco anos.\n[…]\nA constituição do Segundo Triunvirato e atribuição de poderes excepcionais a António, Otávio e Lépido justificou-se no período de crise sem precedentes que se seguiu ao assassinato de Júlio César nos Idos de Março de 44 a.C. Otávio então com cerca de 20 anos era filho adotivo do ditador, António e de Lépido dois dos seus comandantes de maior confiança; todos ambicionavam poder e vingança.\n[…]\nTirando Lépido, que era uma figura de consenso e sem grande ambição política, Otávio e António odiavam-se e conspiraram um contra o outro desde a formação do triunvirato. Em 38 a.C. o acordo foi renovado por mais cinco anos, mas as relações entre os três estavam longe de ser amigáveis. Lépido foi afastado do poder e exilado de Roma na sequência de uma manobra política falhada, enquanto António, estacionado com o exército no Egito, atacava Otávio com todas as armas.\n[…]\nEm 27 a.C., Otávio aceitou o título de augusto e este ano é considerado pela historiografia como o início do Império Romano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Tetrarquia",
+      "descricao": "Sistema de governo criado por Diocleciano no fim do século três, em que quatro imperadores dividiam o Império Romano."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na tetrarquia criada por Diocleciano, os dois imperadores principais tinham o título de augusto. Que título tinham os dois imperadores auxiliares?",
+    "resposta": "César",
+    "distratores": [
+      "Cônsul",
+      "Príncipe",
+      "Tribuno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetrarchy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tetrarchy",
+        "situacao": "ok",
+        "texto": "The Tetrarchy was the system instituted by Roman emperor Diocletian to govern the ancient Roman Empire by dividing it between two emperors, the augusti, and their junior colleagues and designated successors, the caesares. It was kept in place between AD 293 and 324.\n[…]\nWhen in 305 the 20-year term of Diocletian and Maximian ended, both abdicated. Their caesares, Galerius and Constantius Chlorus, were both raised to the rank of augustus, and two new caesares were appointed: Maximinus Daza (caesar to Galerius) and Valerius Severus (caesar to Constantius). These four formed the second tetrarchy.\n[…]\nMaximinus was proclaimed augustus by his troops in about May 310. Galerius reluctantly agreed to recognize both Maximinus and Constantine as augusti, thus breaking the Diocletian's tetrarchic system.\n[…]\nThe constellation of Jewish principalities in the Herodian kingdom of Judea was known as a tetrarchy; see Tetrarchy (Judea).\n[…]\nIn the novel The Lion, the Witch and the Wardrobe, the Pevensie siblings rule Narnia as a tetrarchy of two kings and two queens. Peter was High King and Susan was High Queen, making them the Augusti of the group. Lucy was simply Queen and Edmund was simply King, making them the Caesares of the group.\n[…]\nKolb, Frank (2011). Diocletian und die Erste Tetrarchie: Improvisation oder Experiment in der Organisation monarchischer Herrschaft? (in German). Berlin: de Gruyter. ISBN 978-3110846508.\n[…]\nLeadbetter, William Lewis (2009). Galerius and the Will of Diocletian. London; New York: Routledge. ISBN 978-1135261320.\n[…]\nRees, Roger (2004). Diocletian and the Tetrarchy. Edinburgh: Edinburgh University Press. ISBN 978-0748616602.\n[…]\nA detailed chronology of the tetrarchy from Diocletian to Constantine\n[…]\nA chart showing the tetrarchy from Diocletian to Constantine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tetrarquia",
+        "situacao": "ok",
+        "texto": "Tetrarquia (do grego tetra, por derivação de tétares, \"quatro,\" e árchein, \"governar\") designa qualquer sistema de governo em que o poder esteja dividido entre quatro indivíduos, denominados \"tetrarcas\". Usualmente aplica-se à tetrarquia introduzida pelo imperador romano Diocleciano, em 293, e que perdurou até c. 313. A instituição da tetrarquia marca a resolução da crise do século III e a recuper\n[…]\nOito anos mais tarde, em 293, dada a crescente dificuldade de conter as numerosas revoltas no interior do império, procedeu a uma nova divisão funcional e territorial, a fim de facilitar as operações militares: nomeou um imperador menos \"graduado\", denominado césar (Caesar), subordinado a cada imperador mais graduado, que tinha o título de \"augusto\". Constituiu-se assim o sistema de quatro governantes - dois augustos e dois césares - ou  tetrarquia.\n[…]\nComo seu césar para o Oriente, Diocleciano designou Galério. Maximiano fez o mesmo, nomeando  Constâncio Cloro para o ocidente. O império foi dividido em quatro territórios:\n[…]\nAs quatro capitais tetrárquicas eram:\n[…]\nAugusta dos Tréveros (atual Tréveris), era a capital de Constâncio Cloro, o césar do ocidente, próxima à estratégica fronteira do Reno, que tinha sido capital do imperador gaulês Tétrico. Esta região tornou-se depois a Prefeitura pretoriana da Gália.\n[…]\nEm termos de jurisdição, não havia divisão precisa entre os quatro tetrarcas, e neste período realmente não houve divisão do Estado romano em quatro diferentes sub-impérios. Cada imperador tinha sua zona de influência dentro do império, mas principalmente o alto comando no \"teatro de guerra\".\n[…]\nNo ocidente, o augusto Maximiano controlava as províncias ocidentais do Adriático e dentro daquela região  seu césar controlava a Gália e a Britânia. No Oriente, os arranjos entre o augusto Diocleciano e seu césar Galério eram mais flexíveis.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Concreto romano",
+      "descricao": "Material de construção usado pelos romanos, feito de cal, pedras e cinza vulcânica, capaz de endurecer debaixo d'água."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que ingrediente tornava o concreto romano tão especial que ele endurecia até debaixo d'água, em portos e pilares de pontes?",
+    "resposta": "Cinza vulcânica (pozolana)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roman_concrete",
+      "https://en.wikipedia.org/wiki/Pozzolana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roman_concrete",
+        "situacao": "ok",
+        "texto": "Roman concrete, also called opus caementicium, was used in construction in ancient Rome. Like its modern equivalent, Roman concrete was based on a hydraulic-setting cement added to an aggregate.\n[…]\nA building site from 79 CE was uncovered at Pompeii in 2025, which contained unmixed Roman concrete building materials as well as the concreted structures.\n[…]\nThe Roman concrete at the Tomb of Caecilia Metella is another variation higher in potassium that triggered changes that \"reinforce interfacial zones and potentially contribute to improved mechanical performance\".\n[…]\nIt also has a reduced environmental footprint, due to its lower cooking temperature and much longer lifespan. Usable examples of Roman concrete exposed to harsh marine environments have been found to be 2000 years old with little or no wear.\n[…]\nIn 2013, the University of California Berkeley published an article that described for the first time the mechanism by which the suprastable calcium-aluminium-silicate-hydrate compound binds the material together. During its production, less carbon dioxide is released into the atmosphere than any modern concrete production process. It is no coincidence that the walls of Roman buildings are thicker than those of modern buildings.\n[…]\nHowever, Roman concrete was still gaining its strength for several decades after construction had been completed.\n[…]\nRoman masonry – Building techniques in Ancient Rome\n[…]\nHunt, Katie (2023-01-06). \"Why Roman concrete outlasts its modern counterpart\". CNN. Retrieved 2023-01-07.\n[…]\nPreuss, Paul (2013-06-04). \"Roman Seawater Concrete Holds the Secret to Cutting Carbon Emissions\". Berkeley Lab News Center. Retrieved 2023-01-07."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pozzolana",
+        "situacao": "ok",
+        "texto": "Pozzolana or pozzuolana ( POT-s(w)ə-LAH-nə, Italian: [potts(w)oˈlaːna]), also known as pozzolanic ash (Latin: pulvis puteolanus), is a natural siliceous or siliceous-aluminous material that reacts with calcium hydroxide in the presence of water at room temperature (cf. pozzolanic reaction). In this reaction insoluble calcium silicate hydrate and calcium aluminate hydrate compounds are formed posse\n[…]\nPozzolanas such as Santorin earth were used in the Eastern Mediterranean since 500–400 BC. Although pioneered by the ancient Greeks, it was the Romans who eventually fully developed the potential of lime-pozzolan pastes as binder phase in Roman concrete used for buildings and underwater construction. Vitruvius speaks of four types of pozzolana: black, white, grey, and red, all of which can be found in the volcanic areas of Italy, such as Naples.\n[…]\nTypically it was very thoroughly mixed two-to-one with lime just prior to mixing with water. The Roman port at Cosa was built of pozzolana-lime concrete that was poured under water, apparently using a long tube to carefully lay it up without allowing sea water to mix with it. The three piers are still visible today, with the underwater portions in generally excellent condition even after more than 2100 years.\n[…]\nThe pozzolanic reaction is the chemical reaction that occurs in portland cement containing pozzolans. It is the main reaction involved in the Roman concrete invented in Ancient Rome. At the basis of the pozzolanic reaction stands a simple acid-base reaction between calcium hydroxide (as Portlandite) and silicic acid.\n[…]\nConcrete\n[…]\nRoman concrete\n[…]\nMcCann A.M. (1994)  \"The Roman Port of Cosa\" (273 BC), Scientific American, Ancient Cities, pp. 92–99, by Anna Marguerite McCann. Covers, hydraulic concrete, of \"Pozzolana mortar\" and the 5 piers, of the Cosa harbor, the Lighthouse on pier 5, diagrams, and photographs. Height of Port city: 100 BC."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Opus_caementicium",
+        "situacao": "ok",
+        "texto": "Opus caementicium, também chamado de cimento romano, é uma técnica de construção civil utilizada pelos antigos romanos a partir do final da República Romana até a decadência do Império Romano. As pedras eram unidas com cimento e, na maioria dos casos, a estrutura das construções era revestida, a fim de se tornar mais atraente, do ponto de vista estético.\n[…]\nIsso explica por que as barragens marítimas construídas na Roma Antiga, que continham uma mistura de cal e cinza vulcânica para manter as rochas unidas, resistiram ao tempo e à erosão. Segundo os pesquisadores, o material vulcânico reagiu com a água do mar, fortalecendo a construção.\n[…]\nExistem várias formas de aplicação do opus caementicium:\n[…]\nopus mixtum\n[…]\nopus sectile\n[…]\nOs romanos usaram pela primeira vez concreto hidráulico em estruturas subaquáticas costeiras, provavelmente nos portos ao redor de Baias antes do final do século 2 a.C. O porto de Caesarea é um exemplo (22-15 a.C.) do uso da tecnologia subaquática de concreto romano em larga escala, para o qual enormes quantidades de pozolana foram importadas de Putéolos.\n[…]\nGesso e cal virgem foram utilizados como ligantes. As poeiras vulcânicas, chamadas pozolana, ou \"areia do poço\", eram favorecidas onde podiam ser obtidas. Pozzolana torna o concreto mais resistente à água salgada do que o concreto moderno. A argamassa pozolânica tinha um alto teor de alumina e sílica.\n[…]\nEntende-se que a resistência e longevidade do concreto \"marinho\" romano se beneficia de uma reação da água do mar com uma mistura de cinzas vulcânicas e cal virgem para criar um cristal raro chamado tobermorita, que pode resistir à fratura. À medida que a água do mar percolava dentro das pequenas rachaduras no concreto romano, ela reagia com a phillipsite naturalmente encontrada na rocha vulcânica e criava cristais de tobermorita aluminosos.\n[…]\nConcreto\n[…]\nTijolo romano",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Garum",
+      "descricao": "Molho fermentado muito usado na culinária da Roma antiga."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O garum era o tempero mais popular da cozinha romana, usado em quase tudo. De que ele era feito?",
+    "resposta": "Peixe fermentado com sal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Garum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Garum",
+        "situacao": "ok",
+        "texto": "Garum is a fermented fish sauce that was used as a condiment in the cuisines of Phoenicia, ancient Greece, Rome, Carthage, and later Byzantium. Liquamen is a similar preparation, and at times they were synonymous. Although garum enjoyed its greatest popularity in the Western Mediterranean and the Roman world, it was in earlier use by the Greeks. The taste of garum is thought to have been comparabl\n[…]\nLike modern fermented fish sauce and soy sauce, garum was a rich source of umami flavoring due to the presence of glutamates. It was used along with murri in medieval Byzantine and Arab cuisine to give a savory flavor to dishes. Murri may derive from garum.\n[…]\nIn the 1st century AD, liquamen was a sauce distinct from garum, as indicated throughout the Corpus Inscriptionum Latinarum IV. By the 5th century or earlier, however, liquamen had come to refer to garum. The available evidence suggests that the sauce was typically made by crushing the innards of (fatty) pelagic fishes—particularly anchovies, but also sprats, sardines, mackerel, or tuna—and then fermenting them in brine.\n[…]\nIn most surviving tituli picti inscribed on amphorae, where the fish ingredient is shown, the fish is mackerel. Under the best conditions, the fermentation process took about 48 hours.\n[…]\nPliny the Elder spoke of a type of garum that Roman Jews may have used, as normal garum may not have contained exclusively kosher seafood. In the ruins of Pompeii, jars were found containing kosher garum, suggesting an equal popularity among Jews there.\n[…]\nThe garum had been made entirely of bogues, fish that congregate in the summer months.\n[…]\nGarum is believed to be the ancestor of the fermented anchovy sauce colatura di alici, still produced in Campania, Italy, as well as the fermented anchovy and sardine paste pissalat in the Nice region, France.\n[…]\nFermented fish\n[…]\nGarum, in James Grout's Encyclopædia Romana"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Garo_%28condimento%29",
+        "situacao": "ok",
+        "texto": "Garo (em latim: garum) ou liquamen era um género de condimento muito utilizado na Antiguidade, especialmente na Roma Antiga. É feito de sangue, vísceras e de outras partes seleccionadas do atum ou da cavala misturadas com peixes pequenos, crustáceos e moluscos esmagados; tudo isto era deixado em salmoura durante cerca de dois meses ou então aquecido artificialmente. Este produto era exportado para\n[…]\nEm Portugal, a maior concentração de vestígios de unidades de fabrico de garo localiza-se no litoral algarvio. Na região atlântica há a referir os restos descobertos na baixa pombalina de Lisboa, nas fundações da Casa do Governador da Torre de Belém, no Alto de Martim Vaz (Póvoa de Varzim), na praia de Angeiras (Matosinhos) e no estuário do rio Sado, em Creiro, Rasca, Comenda, Ponta da Areia, Moinho Novo, Troia, um dos mais importantes centros conserveiros da Hispânia.\n[…]\nMais recentemente (2007), foram descobertos vestígios de cetárias romanas sob a marginal nascente da vila de Sesimbra. As ruínas destas fábricas até agora achadas em território português são constituídas pelos tanques ou cetárias destinados à salga de peixe e à preparação de conservas, normalmente de alvenaria. As conservas de peixe destinadas à exportação eram embaladas em recipientes de cerâmica, as ânforas.\n[…]\nPreparo moderno de Garum (YouTube)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Tríade Capitolina",
+      "descricao": "Grupo de três divindades cultuadas juntas no templo de Júpiter no monte Capitolino, em Roma."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No principal templo do monte Capitolino, três deuses eram cultuados juntos, formando a Tríade Capitolina. Quais eram eles?",
+    "resposta": "Júpiter, Juno e Minerva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capitoline_Triad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Capitoline_Triad",
+        "situacao": "ok",
+        "texto": "The Capitoline Triad was a group of three deities who were worshipped in ancient Roman religion in an elaborate temple on Rome's Capitoline Hill (Latin Capitolium). It comprised Jupiter, Juno and Minerva. The triad held a central place in the public religion of Rome.\n[…]\nThe three deities who are most commonly referred to as the \"Capitoline Triad\" are Jupiter, the king of the gods; Juno (in her aspect as Iuno Regina, \"Queen Juno\"), his wife and sister; and Jupiter's daughter Minerva, the goddess of wisdom. This grouping of a male god and two goddesses was highly unusual in ancient Indo-European religions, and is possibly derived from the Etruscan trio of Tinia, the supreme deity, Uni, his wife, and Menrva, their daughter and the goddess of wisdom.\n[…]\nIn some interpretations, this group replaced an original Archaic Triad made up of Jupiter, the farming/war god Mars and war/farming god Quirinus.\n[…]\nAlthough the temple was shared by Jupiter, Juno and Minerva, each deity had a separate cella, with Juno Regina on the left, Minerva on the right, and Jupiter Optimus Maximus in the middle. It included a podium and a tetrastyle (four-columned) pronaos (porch). The Temple of Jupiter Optimus Maximus's sculpture of the Triad is lost, although a small-scale late Antonine reproduction was discovered by looter Pietro Casasanta in 1992.\n[…]\nThis Triad, pictured below, is the only example of a fully preserved marble triad.\n[…]\nAnother shrine (sacellum) dedicated to Jupiter, Juno Regina and Minerva was the Capitolium Vetus on the Quirinal Hill. It was thought to be older than the more famous temple of Jupiter Optimus Maximus on the Capitoline Hill, and was still a landmark in Martial's time, in the late 1st century."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tr%C3%ADade_capitolina",
+        "situacao": "ok",
+        "texto": "Tríade capitolina, na antiga religião romana, refere-se a adoração de três divindades supremas no Capitólio.\n[…]\nAs fontes trazem referências a duas tríades capitolinas distintas e originárias de antigas tradições anteriores à República Romana, a tríade arcaica, constituída por Júpiter, Marte e Quirino, e uma tríade clássica constituída por Júpiter, Juno e Minerva com base na mitologia etrusca.\n[…]\nMonte Capitolino\n[…]\nNICLOAE, Maria-Corina. The Capitoline Triad in Roman Dacia. Peuce (Serie Nouă)-Studii şi cercetari de istorie şi arheologie, n. 9, p. 291-305, 2011.\n[…]\nRYBERG, Inez Scott. \"Was the Capitoline Triad Etruscan or Italic?.\" American Journal of Philology (1931): 145-156.\n[…]\nBASANOFF, V. \"La Tríade Capitoline.\" Studi Arangio-Ruiz II (1953): 323-332.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Retiário",
+      "descricao": "Tipo de gladiador romano que lutava quase sem armadura, armado de tridente e rede."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Armado de tridente e quase sem armadura, o gladiador chamado retiário tentava prender o adversário com quê?",
+    "resposta": "Uma rede",
+    "distratores": [
+      "Um laço",
+      "Uma corrente",
+      "Um chicote"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Retiarius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Retiarius",
+        "situacao": "ok",
+        "texto": "A retiarius (plural retiarii; literally, \"net-man\" in Latin) was a Roman gladiator who fought with equipment styled on that of a fisherman: a weighted net (rete (3rd decl.), hence the name), a three-pointed trident (fuscina or tridens), and a dagger (pugio). The retiarius was lightly armoured, wearing an arm guard (manica) and a shoulder guard (galerus). Typically, his clothing consisted only of a\n[…]\nAll told, the retiarius's equipment weighed 7 to 8 kilograms (15.4 to 17.6 lb), making him the lightest of the standard gladiator types. Like other arena combatants, the retiarius fought barefoot.\n[…]\nLikewise, the more heavily armoured gladiator tried to block the trident with his shield and force the net-man to lose it. Another type of gladiator, scissor could also be pitted against a retiarius. Images from the Eastern Roman Empire show scissores wearing a tubular arm-guard in lieu of a shield. The guard fits over the left hand and ends in a hooked, knife-like blade that was probably intended to parry the net and trident or to snag and pull away the net.\n[…]\nThe retiarius held the dagger in his left hand. The gladiator could use the dagger to cut his net free if it got snagged on his trident. He might fight with the trident in one hand and the dagger in the other, but this negated the advantage of distance afforded by the longer weapon when wielded by itself. The dagger also served as a backup should the retiarius lose both net and trident.\n[…]\nIn some contests, a retiarius faced two secutores at the same time. He stood on a bridge or raised platform with stairs and had a pile of fist-sized stones to lob at his adversaries and keep them at bay. The secutores tried to scale the structure and get at him. The platform (called a pons, \"bridge\") may have been constructed over water. Such scenarios were one of the rare situations where gladiators were not paired one on one."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Reci%C3%A1rio",
+        "situacao": "ok",
+        "texto": "Reciário ou retiário (em latim: retiarius; plural: retiarii) era um tipo de gladiador do Império Romano que lutava equipado como um pescador: uma rede ou tarrafa (rete - origem do nome), um tridente (fuscina ou tridens) e um punhal de lâmina curta (púgio). O reciário usava uma armadura só num dos braços (manica: manga), e uma protecção no ombro (galero).\n[…]\nOutra táctica era apanhar a arma do seu oponente com a rede, atirando-a para fora do seu alcance, ficando aquele em desvantagem.\n[…]\nO reciário é o tipo de gladiador mais facilmente identificável dadas as característica do seu equipamento: uma protecção de braço (manica: manga), uma protecção de ombro (galero), uma rede (rete), um tridente (fuscina ou tridens) e um punhal (púgio). (tecnicamente, não se pode afirmar que o reciário era um gladiador pois não lutava com uma espada - gládio - origem do nome gladiador, gladius). A sua armadura, e as suas armas, podiam estar decoradas.\n[…]\nHabitualmente, o reciário era colocado frente-a-frente contra um secutor, e raras vezes contra um mirmilão. Apesar da disparidade entre um lutador de rede quase nu e um adversário altamente armado e couraçado, recentes experiências e encenações demonstram que o reciário estava bem preparado para o combate. A falta de equipamento pesado significava que ele podia tirar proveito da sua capacidade de fuga e velocidade.\n[…]\nO reciário empunhava o seu punhal na mão esquerda. Este gladiador podia usar o punhal para se separar da rede caso ficasse preso no tridente. Ele podia lutar com o tridente numa mão e o punhal na outra, no entanto, esta situação anulava a vantagem da distância permitida pela arma mais longa quando empunhada sozinha. O punhal também servia de arma de apoio caso perdesse tanto a rede como o tridente. O reciário atacava com o punhal quando podia surpreender o adversário e combater com ele no chão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Coliseu",
+      "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As paredes do Coliseu são cheias de buracos. Que peças, que prendiam os blocos de pedra, foram arrancadas dali ao longo dos séculos?",
+    "resposta": "Grampos de metal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colosseum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Colosseum",
+        "situacao": "ok",
+        "texto": "The Colosseum ( KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world. Construction began under the Emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus \n[…]\nSimilarly, the Italian: colosseo, or coliseo, are attested as referring first to the amphitheatre in Rome, and then to any amphitheatre (as Italian: culiseo in 1367). By 1460, an equivalent existed in Catalan: coliseu; by 1495 had appeared the Spanish: coliseo, and by 1548 the Portuguese: coliseu.\n[…]\nThe text states: \"This Amphitheatre was commonly called Colosseum, of Neroes Colossus, which was set up in the porch of Neroes house.\" Similarly, John Evelyn, translating the Middle French name: le Colisée used by the architectural theorist Roland Fréart de Chambray, wrote \"And 'tis indeed a kind of miracle to see that the Colosseum … and innumerable other Structures which seemed to have been built for Eternity, should be at present so ruinous and dilapidated\".\n[…]\nThe first stage is to clean and restore the Colosseum's arcaded façade and replace the metal enclosures that block the ground-level arches. After three years, the work was completed on 1 July 2016, when the Italian minister of culture, Dario Franceschini, also announced that the funds have been committed to replace the floors by the end of 2018.\n[…]\nThe Colosseum has appeared in numerous films, artworks and games. It is featured in films such as Roman Holiday, Gladiator, The Way of the Dragon, Jumper, and Godzilla x Kong: The New Empire. Additionally, Coliseum Mountain in Alberta, Canada was named after the Colosseum.\n[…]\nThe Los Angeles Memorial Coliseum entrance was inspired by the Colosseum.\n[…]\nA 3D model of Colosseum on Sketchfab"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coliseu",
+        "situacao": "ok",
+        "texto": "Coliseu (em italiano:  Colosseo), também conhecido como Anfiteatro Flaviano (em latim: Amphitheatrum Flavium; em italiano:  Anfiteatro Flavio), é um anfiteatro oval localizado no centro da cidade de Roma, capital da Itália. Construído com tijolos revestidos de argamassa e areia, e originalmente cobertos com travertino é o maior anfiteatro já construído e está situado a leste do Fórum Romano.\n[…]\nO nome original do Coliseu de Roma era Anfiteatro Flávio ou Flaviano (em latim, Amphitheatrum Flavium), tendo sido construído no reinado dos imperadores da Dinastia Flaviana, após o governo do imperador Nero. Curiosamente, este nome não foi exclusivo do Coliseu, visto que Vespasiano e Tito haviam construído um anfiteatro que portou o mesmo nome, na cidade de Pozzuoli, na província de Nápoles.\n[…]\nO nome Anfiteatro Flavio é empregado ainda hoje, embora seja mais popularmente conhecido como Coliseu de Roma.\n[…]\nA sua designação de \"Coliseu\" começou a difundir-se a partir do século VIII, o qual se crê que tenha sido devido a uma grande estátua de Nero, que se encontrava perto do edifício, na Casa Dourada, conhecida popularmente como o Colosso de Nero. Este fato pode ter sido a razão pela qual o anfiteatro de Roma tenha adoptado o nome de Coliseu. Essa dita estátua foi destruída provavelmente para reciclagem do seu bronze.\n[…]\nO Coliseu, não estava inserido numa zona de encosta, enterrado, tal como normalmente sucede com a maioria dos teatros e anfiteatros romanos. Em vez disso, possuía um \"anel\" artificial de rocha à sua volta, para garantir sustentação e, ao mesmo tempo, esta substrutura serve como ornamento ao edifício e como condicionador da entrada dos espectadores. Tal como foi referido anteriormente, possuía três pisos, sendo mais tarde adicionado um outro.\n[…]\nJogos inaugurais do Coliseu\n[…]\nTour virtual do Coliseu\n[…]\nEstrutura do Coliseu",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Fulônica",
+      "descricao": "Lavanderia e oficina de tratamento de tecidos da Roma antiga, como as encontradas em Pompeia."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Nas lavanderias da Roma antiga, que líquido, recolhido até em vasos deixados nas ruas, era usado para limpar as roupas?",
+    "resposta": "Urina",
+    "distratores": [
+      "Vinagre",
+      "Água do mar",
+      "Azeite"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fullonica",
+      "https://en.wikipedia.org/wiki/Fulling"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fullonica",
+        "situacao": "ok",
+        "texto": "A fullo was a Roman fuller or laundry worker (plural: fullones), known from many inscriptions from Italy and the western half of the Roman Empire and references in Latin literature, e.g. by Plautus, Martialis and Pliny the Elder. A fullo worked in a fullery or fullonica. There is also evidence that fullones dealt with cloth straight from the loom, though this has been doubted by some modern schola\n[…]\nThe cloth was often brushed, with the thistle of plants, and sheared, as is indicated from finds in some Pompeian fullonicae.\n[…]\nAt Ostia, three extremely large fullonicae have been excavated along with two smaller ones. Best preserved is the large fullonica of the Via degli Augustali.\n[…]\nAn important recent development is the excavation of an exceptionally large fulling workshop in Casal Bertone, in Rome. This workshop is three times as large as the large Ostian fullonicae and was discovered during a rescue excavation for the construction of the high-speed railway from Roma Tiburtina to Naples. It was situated outside the ancient city in an area that also functioned as a necropolis. This workshop is probably the largest workshop from antiquity.\n[…]\nFlohr, M. (2006) 'Organizing the Workshop. Water Management in Roman Fullonicae'. In Wiplinger, G. (ed.) Cura Aquarum in Ephesus. Proceedings of the 12th International Congress on the History of Water Management and Hydraulic Engineering in the Mediterranean Region, Ephesus/Selçuk, October 2–10, 2004. Leuven: Peeters. 193 - 200.\n[…]\nWilson, A. (2003) 'The archaeology of the Roman fullonica', Journal of Roman Archaeology 16, 442 - 446.\n[…]\nFlohr, M. (2003) 'Fullones and Roman Society. A Reconsideration', Journal of Roman Archaeology 16, 447 - 450.\n[…]\nBradley, M. (2002) 'It all comes out in the wash': Looking harder at the Roman fullonica', Journal of Roman Archaeology 15, 21 - 44."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fulling",
+        "situacao": "ok",
+        "texto": "Fulling, also known as tucking or walking (Scots: waukin, hence often spelt waulking in Scottish English), is a step in woollen clothmaking which involves the cleansing of woven cloth (particularly wool) to eliminate (lanolin) oils, dirt, and other impurities, and to make it shrink by friction and pressure. The work delivers a smooth, tightly finished fabric that is insulating and water-repellent."
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Aqueduto de Segóvia",
+      "descricao": "Aqueduto romano de arcos de granito que atravessa o centro da cidade de Segóvia, na Espanha."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O aqueduto romano de Segóvia, na Espanha, tem milhares de blocos de granito. O que é notável na forma como esses blocos se mantêm de pé?",
+    "resposta": "Não há argamassa entre eles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aqueduct_of_Segovia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aqueduct_of_Segovia",
+        "situacao": "ok",
+        "texto": "The Aqueduct of Segovia (Spanish: Acueducto de Segovia) is a Roman aqueduct in Spain, built around the first century AD to channel water from springs in the mountains 17 kilometres (11 mi) to Segovia's fountains, public baths and private houses, in use until 1973. Its elevated section, with its complete arcade of 167 arches, is one of the best-preserved Roman aqueduct bridges and the foremost symb\n[…]\nThe Old Town of Segovia and the aqueduct were declared a UNESCO World Heritage Site in 1985.\n[…]\nThe aqueduct is the city's most important architectural landmark. It had been kept functioning throughout the centuries and preserved in excellent condition. It provided water to Segovia until 1973. Because of differential decay of stone blocks, water leakage from the upper viaduct, and pollution that caused the granite ashlar masonry to deteriorate and crack, the site was listed in the 2006 World Monuments Watch by the World Monuments Fund (WMF).\n[…]\nOne of the buildings of Segovia's former mint, the Real Casa de Moneda, houses an aqueduct interpretation centre, developed with funding from European Economic Area grants.\n[…]\nThere is a connection between the mint and the aqueduct in that coins minted in Segovia used the aqueduct as a mint mark. Another link is that the building provided for the mint in the 16th century harnessed water power to drive its machinery, although the water is taken directly from the River Eresma rather than sourced from the aqueduct.\n[…]\nList of aqueducts in the Roman Empire\n[…]\nList of aqueducts in the city of Rome by date\n[…]\nClub de Amigos del Acueducto (in Spanish)\n[…]\nOld Town of Segovia and its Aqueduct\n[…]\nNorma Barbacci, \"Saving Segovia's Aqueduct,\" ICON Magazine, Winter 2006/2007, p. 38–41.\n[…]\nAqueduct of Segovia – Information and photos.\n[…]\n600 Roman aqueducts with 35 descriptions in detail among which the Segovia aqueduct\n[…]\nWorld Monuments Fund – Acueducto de Segovia (in Spanish)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aqueduto_de_Seg%C3%B3via",
+        "situacao": "ok",
+        "texto": "Aqueduto de Segóvia é um aqueduto romano e um dos monumentos antigos mais importantes e melhores preservados deixados na Península Ibérica pela civilização romana. Ele está localizado na Espanha e é o símbolo mais importante de Segóvia, como evidenciado por sua presença no brasão de armas da cidade.\n[…]\nNo final do século XX, Géza Alföldy decifrou o texto na placa dedicatória estudando as âncoras que seguravam as letras de bronze que ficavam na estrutura. Ele determinou que o imperador Domiciano (81-96) ordenou a sua construção. Al Monún de Toledo derrubou parte do aqueduto em 1072, mas os Reis Católicos, no século XV, promoveram a restauração da obra. Segundo o arqueólogo Ernesto Quintana toda a estrutura do aqueduto está apenas suportada pelo próprio peso das pedras.\n[…]\nO aqueduto é o mais importante marco arquitetônico da cidade. Ele foi mantido em funcionamento ao longo dos séculos e preservado em excelente condição. Forneceu água para Segovia até meados do século XIX. Por causa da deterioração diferencial de blocos de pedra, vazamentos de água a partir do viaduto superior e da poluição, que causou a deterioração da alvenaria de granito, o monumento foi listado no World Monuments Fund (WMF).\n[…]\nAo contrário da crença popular, vibrações causadas pelo tráfego que costumavam passar sob os arcos não afetaram o aqueduto, devido à sua grande massa. A WMF, ao lado do governo espanhol, do governo regional de Castilla y León e de outros instituições locais para colaborar na execução do projeto de revitalização, tendo prestado assistência através da empresa global de serviços financeiros American Express.\n[…]\nLista de aquedutos de Roma\n[…]\n«Clube de Amigos do Aqueduto» (em espanhol)\n[…]\n«Artigo de Francisco Jurado» (em espanhol)\n[…]\n«Informação e fotos do Aqueduto de Segóvia»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Cloaca Máxima",
+      "descricao": "Grande canal de drenagem e esgoto da Roma antiga, iniciado na época dos reis."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A Cloaca Máxima ficou famosa como o grande esgoto de Roma. Mas, na época dos reis, para que ela foi construída?",
+    "resposta": "Drenar os pântanos da cidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cloaca_Maxima"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cloaca_Maxima",
+        "situacao": "ok",
+        "texto": "The Cloaca Maxima (Latin: Cloāca Maxima [kɫɔˈaːka ˈmaksɪma], lit. 'Greatest Sewer') or, less often, Maxima Cloaca, is one of the world's earliest sewage systems. Its name is related to that of Cloacina, a Roman goddess. Built during either the Roman Kingdom or early Roman Republic, it was constructed in Ancient Rome in order to drain local marshes and remove waste from the city. It carried effluen\n[…]\nAccording to tradition, it may have initially been constructed around 600 BC under the orders of the king of Rome, Tarquinius Priscus. He ordered Etruscan workers and the plebeians to construct the drainage. Before constructing the Cloaca Maxima, Priscus, and his son Tarquinius Superbus, worked to transform the land by the Roman forum from a swamp into a solid building ground, thus reclaiming the Velabrum.\n[…]\nThe Cloaca Maxima was large enough for \"wagons loaded with hay to pass\" according to Strabo. It could transport one million pounds of water, unwanted goods and waste, which were dumped into the streets, swamps, and rivers near Rome. They were all carried out to the Tiber River by this drain. It used gutters to collect rainwater, rubbish, and spillage, and conduits to dispense up to ten cubic meters of water per second. Vaults were closed with flat panels or rocks were used in the construction.\n[…]\nVenus, goddess of love, was the protector of the Cloaca Maxima. There was a small sanctuary dedicated to Venus Cloacina (Venus of the Drain) in the Forum Romanum.\n[…]\nCloaca Maxima: article in Platner's Topographical Dictionary of Ancient Rome\n[…]\nPictures taken from inside the Cloaca Maxima\n[…]\nThe Waters of Rome: \"The Cloaca Maxima and the Monumental Manipulation of Water in Archaic Rome\" by John N. N. Hopkins\n[…]\nRome: Cloaca Maxima Archived 20 October 2015 at the Wayback Machine\n[…]\nMedia related to Cloaca Maxima at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cloaca_M%C3%A1xima",
+        "situacao": "ok",
+        "texto": "Cloaca Máxima (em latim: Cloaca Maxima) é um dos mais antigos sistemas de esgoto do mundo, construído na cidade de Roma para drenar os pântanos locais e remover os dejetos de uma das cidades mais populosas do mundo na época, despejando-os no rio Tibre. O nome significa literalmente \"Maior Esgoto\" e, segundo a tradição, a Cloaca teria sido construída inicialmente por volta de 600 a.C. por ordem do \n[…]\nLívio, que escreveu séculos mais tarde, descreve os romanos escavando túneis por baixo da cidade. A partir de outras obras e com base no trajeto do sistema, historiadores concluíram que a obra de fato era um canal aberto, formando por riachos de três das colinas vizinhas, que foram canalizados através do Fórum Romano e seguindo até o Tibre. Este canal teria sido gradualmente recoberto conforme o espaço para construções na cidade foi escasseando, o que o transformou de fato num sistema de esgoto.\n[…]\nOs onze aquedutos que forneciam água para Roma no século I foram finalmente transformados em canais subterrâneos depois de fornecerem água para as muitas termas públicas da cidade, como as Termas de Diocleciano e as Termas de Trajano, para fontes públicas, palácios e casas. Este fornecimento contínuo de água corrente ajudou a remover detritos e a manter a tubulação livre de obstruções. A água de melhor qualidade era reservada para as fontes de água potável.\n[…]\nA Cloaca Máxima foi bem mantida durante toda a história romana e ainda hoje ela drena água da chuva do centro da cidade, abaixo do Fórum Romano, Velabro e Fórum Boário. Em 33 a.C., sabe-se que ela foi inspecionada e reformada por Marco Vipsânio Agripa e escavações revelaram diversos estilos e materiais de construção de épocas diferentes, o que sugere que o sistema regularmente era restaurado. Em tempos recentes, as passagens principais foram ligadas ao moderno sistema de esgoto de Roma.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Vomitório",
+      "descricao": "Passagem de anfiteatros e teatros romanos por onde o público entrava e saía das arquibancadas."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Nos anfiteatros e teatros romanos, o que era um vomitório?",
+    "resposta": "Passagem de saída",
+    "distratores": [
+      "Sala para vomitar",
+      "Jaula de feras",
+      "Camarote do imperador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vomitorium"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vomitorium",
+        "situacao": "ok",
+        "texto": "A vomitorium is a passage situated below or behind a tier of seats in an amphitheatre or a stadium through which large crowds can exit rapidly at the end of an event. They can also be pathways for actors to enter and leave stage. The Latin word vomitorium, plural vomitoria, derives from the verb vomō, vomere, \"to spew forth\".\n[…]\nIn ancient Roman architecture, vomitoria were designed to provide rapid egress for large crowds at amphitheatres and stadia, as they do in modern sports stadia and large theatres.\n[…]\nThe Cockpit Theatre, built in London in the 1960s, is one of the very few purpose-built theatres in the round in London, and features four vomitoria as corner entrances between four banks of raked seating arranged in a square.\n[…]\nThe Chichester Festival Theatre, founded in 1962, was the first of its kind to be opened in the United Kingdom for 500 years, because there is no proscenium arch or wings. Instead, there is a thrust stage with vomitoria or \"voms\" for the audience and performers to enter and exit.\n[…]\nIn addition, the Mark Taper Forum, one of the three theatres making up the Los Angeles Music Center, has two vomitoria. It has a strong thrust stage such that the audience sit in an amphitheatre-type array.\n[…]\nWinnipeg's second-largest theatre, Prairie Theatre Exchange, has two vomitoria on either side of its thrust stage, with seating on three sides.\n[…]\nThe Space Theatre at the Denver Center for the Performing Arts is a theatre \"in the round\" with a pentagon configuration. It contains five vomitoria spaced 72 degrees apart, creating five equal seating sections.\n[…]\nA common misconception about vomitoria is that Ancient Romans had designated spaces called vomitoria for the purpose of literal vomiting, so that they could purge to eat more, after binge eating.\n[…]\nThe dictionary definition of vomitorium at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vomit%C3%B3rio",
+        "situacao": "ok",
+        "texto": "Vomitório (do latim: vomitorium, pl. vomitoria) refere-se a um corredor ou passagem de acesso à cávea nos teatros, circos e anfiteatros romanos, nas arquibancadas também presentes em locais modernos análogos, que possibilitam a entrada e saída do público, ou que serviam a entrada e saída dos interpretes em determinada performance. A palavra latina vomitorium deriva do verbo vomo, vŏmis, vomui, vom\n[…]\nNa antiga arquitetura romana, os vomitoria foram projetados para conceder passagem rápida e eficiente a grandes multidões nos anfiteatros e teatros. Atualmente, estádios modernos e grandes teatros adquirem a mesma concepção.\n[…]\nNa arquitetura romana, os vomitórios possuíam, em geral, uma cobertura abobadada feita em concreto. Esta solução evitaria a entrada em contacto entre as diferentes classes sociais, e destinava-se a servir as arquibancadas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Coroa cívica",
+      "descricao": "Coroa de folhas de carvalho, uma das mais altas condecorações militares da Roma antiga."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Feita de folhas de carvalho, a coroa cívica era uma das maiores honras de um soldado romano. Que feito dava direito a ela?",
+    "resposta": "Salvar a vida de um cidadão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Civic_Crown"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Civic_Crown",
+        "situacao": "ok",
+        "texto": "The Civic Crown (Latin: corona civica) was a military decoration during the Roman Republic and the subsequent Roman Empire, given to Romans who saved the lives of fellow citizens. It was regarded as the second highest decoration to which a citizen could aspire (the Grass Crown being held in higher regard). It took the form of a chaplet of common oak leaves woven to form a crown. It was reserved fo\n[…]\nAfter Sulla's constitutional reforms, any recipient of the Civic Crown was entitled entry into the Roman Senate. Furthermore, the recipient was required by law to wear his crown at every public gathering, and was applauded even by men much senior to himself. It later became a prerogative for Roman emperors to be awarded the Civic Crown (originating with Augustus, who was awarded it for saving the lives of citizens by ending the series of civil wars).\n[…]\nPliny wrote about the Civic Crown at some length in Naturalis Historia:\n[…]\nSiccius Dentatus, as we have mentioned at the proper place, won fourteen Civic Wreaths, and Capitolinus six, one in his case being actually for saving the life of his commanding officer Servilius. Scipio Africanus refused to accept a wreath for rescuing his father at the Trebbia.\n[…]\nJulius Caesar was awarded the Civic Crown for his service in the Siege of Mytilene in 81 BC.\n[…]\nCamp crown\n[…]\nMural crown\n[…]\nNaval crown\n[…]\nRich, Anthony (1875). \"Corona\". In Smith, William (ed.). A Dictionary of Greek and Roman Antiquities. London: John Murray. pp. 359–363."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Coroa_c%C3%ADvica",
+        "situacao": "ok",
+        "texto": "A coroa cívica (em latim: corona civica) foi uma grinalda de folhas comuns de carvalho dispostas como uma coroa. Durante a República Romana e o subsequente Principado, foi considerada como a segunda em honra e importância (a primeira era a coroa gramínea) e foi presenteada a um soldado romano que preservou a vida de um soldado romano em batalha, sendo acompanhada pela inscrição Ob civem servatum (\n[…]\nUma vez que a posse desta coroa era tão alta e honrosa, sua obtenção era restrita por regulações muito severas. Para obter-se tal honraria, o soldado romano precisava salvar a vida de um cidadão romano em batalha, matar o oponente, e preservar o local onde a ação ocorreu. Adicionalmente, a pessoa resgatada precisada proclamar o fato, o que aumentava a dificuldade de obtenção.\n[…]\nOriginalmente, a coroa cívica era presenteada pelo soldado resgatado, após uma investigação ser realizada pelo tribuno, porém durante o Império Romano, a coroa cívica passou a ser recebida das mãos do príncipe, ou seu delegado.\n[…]\nA preservação da vida de um aliado, mesmo que um rei, não conferia um título suficiente à coroa cívica, de modo que, quando obtido, podia sempre ser desgastada. O soldado que portava-a, mantinha um lugar reservado próximo ao senado em todos os espetáculos públicos e os senadores, bem como todo o resto da companhia, erguiam-se após sua entrada. Ele foi isentado de todas as responsabilidades públicas, bem como seu pai e seu avô paterno.\n[…]\nE a pessoa que devia sua vida a ele foi obrigada, mesmo depois, a acalentar seu salvador como um parente, e dar-lhe todas as dependências como eram devidas a partir de um filho a seu pai.\n[…]\nAlém disso, uma coroa de folhas de carvalho, com a inscrição de cives servatos, é frequentemente encontrada no reverso das moedas augustanas, bem como as de Galba (r. 68–69), Vitélio (r. 69), Vespasiano (r. 69–79), Trajano (r. 98–117), etc.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Hipocausto",
+      "descricao": "Sistema romano de calefação que fazia circular ar quente sob o piso e dentro das paredes."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Muitas termas e casas ricas romanas tinham um hipocausto, com pilares de tijolos sob o chão. Para que servia esse sistema?",
+    "resposta": "Aquecer o piso e as paredes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hypocaust"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hypocaust",
+        "situacao": "ok",
+        "texto": "A hypocaust (Latin: hypocaustum) is a system of central heating in a building that produces and circulates hot air below the floor of a room, and may also warm the walls with a series of pipes through which the hot air passes. This air can warm the upper floors as well. The word derives from Ancient Greek hupó 'under' and kaustós 'burnt' (compare caustic).\n[…]\nIn 1984–1985, in the Georgian Soviet Socialist Republic, excavations in the ancient settlement of Dzalisi uncovered a large castle complex, featuring a well-preserved hypocaust built between 200 and 400 AD.\n[…]\nWith the decline of the Roman Empire, the hypocaust fell into disuse in the western provinces, but not in the Eastern Roman empire. It is thought that in Britain, from c. 400 until c. 1900, central heating did not exist, and hot baths were rare. However, an evolution of the hypocaust was used in some monasteries in calefactories, or warming rooms, which were heated via underground fires, as in the Roman hypocaust, but retained heat via granite stones.\n[…]\nIn Eastern Europe, the development of radiant ceramic or stone stoves were also used. In the Iberian Peninsula, the Roman system was adopted for the heating of Hispano-Islamic baths (hammams) of Al Andalus. A derivation of hypocaust, the gloria, was in use in Castile until the arrival of modern heating. After the fuel (mainly wood) was reduced to ashes, the air intake was closed to keep hot air inside and to slow combustion.\n[…]\nIn colonial British North America, the house of Maryland governor Charles Calvert (now part of the Historic Inns of Annapolis) was constructed in the 1720s with a hypocaust to heat a greenhouse for growing tropical plants.\n[…]\nDisputing the priority of Sergius Orata Garrett G. Fagan's paper \"Sergius Orata: Inventor of the Hypocaust?\" published in Phoenix, Vol. 50, No. 1 (Spring, 1996), pp. 56–66.\n[…]\nAbout Hypocaust."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hipocausto",
+        "situacao": "ok",
+        "texto": "Hipocausto (latim: hypocaustum) é uma palavra de origem grega cujo significado literal é \"aceso por baixo\": hypo significa \"sob\", \"por baixo de\" e kaiein, \"acender\".\n[…]\nO hipocausto era um sistema de calefação, geralmente do período romano, em que o ar aquecido numa fornalha (praefurnium) circulava sob o pavimento de um edifício e daí através de tijolos perfurados colocados no interior das paredes.\n[…]\nSérgio Orata foi creditado por Vitrúvio com a invenção do hipocausto, embora isso não seja totalmente confirmado. O que parece certo é que ele inventou um tipo de banhos suspensos (\"balneae pensiles\"), algum tipo de banhos termais relaxantes, que são geralmente consideradas hipocaustos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Domus Áurea",
+      "descricao": "Palácio monumental mandado construir por Nero em Roma depois do grande incêndio de 64."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Segundo o historiador Suetônio, o principal salão de banquetes da Domus Áurea, o palácio de Nero, tinha que característica surpreendente?",
+    "resposta": "Girava sem parar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Domus_Aurea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Domus_Aurea",
+        "situacao": "ok",
+        "texto": "The Domus Aurea (Latin, \"Golden House\") was a vast landscaped complex built by the Emperor Nero largely on the Oppian Hill in the heart of ancient Rome after the great fire in 64 AD had destroyed a large part of the city.\n[…]\nA symbol of decadence that caused severe embarrassment to Nero's successors, the Domus Aurea was stripped of its marble, jewels, and ivory within a decade. Although the Oppian villa continued to be inhabited for some years, soon after Nero's death other parts of the palace and grounds, encompassing 2.6 square kilometres (1 sq mi), were filled with earth and built over: the Baths of Titus were already being built on part of the site, probably the private baths, in 79 AD.\n[…]\nSuetonius claims this of Nero and the Domus Aurea:\n[…]\nBall, Larry F. (2003). The Domus Aurea and the Roman architectural revolution. Cambridge University Press. ISBN 0-521-82251-3.\n[…]\nHannah, Robert; Magli, Giulio; Palmieri, Antonella (2016). \"Nero's 'Solar' Kingship and the Architecture of the Domus Aurea\". Numen. 63 (5/6): 511–524. arXiv:1312.7583. doi:10.1163/15685276-12341436. ISSN 0029-5973. JSTOR 44505307.\n[…]\nRusso, Alfonsina (2022). \"Domus Aurea in-Visible: from research to fruition\". LANX. Journal of the Scuola di Specializzazione in Beni Archeologici - Università Degli Studi di Milano (30): 72–84. doi:10.54103/2035-4797/18368. ISSN 2035-4797.\n[…]\nSegala, Elisabetta; Ida Sciortino (1999). Domus Aurea. Milan: Electa. ISBN 88-435-7164-8.\n[…]\nWarden, P.G. (1981). \"The Domus Aurea Reconsidered\". Journal of the Society of Architectural Historians. 40 (4): 271–278. doi:10.2307/989644. JSTOR 989644.\n[…]\nGreat Buildings on-line: Domus Aurea\n[…]\nVirtual reconstruction in 3D of the Domus Aurea\n[…]\nMedia related to Domus Aurea at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casa_Dourada",
+        "situacao": "ok",
+        "texto": "A Casa Dourada (em latim: Domus Aurea) foi um palácio romano, desenhado para tirar partido das paisagens artificialmente criadas no coração da Roma Antiga pelo Imperador Romano Nero, depois do Grande Incêndio que devastou Roma em 64 ter varrido as habitações aristocráticas das encostas do monte Esquilino.\n[…]\nAfrescos cobriam todas as superfícies que não eram mais ricamente acabadas. O artista principal foi um tal de Fâmulo (ou Fábulo, de acordo com algumas fontes). A técnica a fresco, trabalhando com gesso húmido, exige um toque rápido e seguro: Fâmulo e a sua equipe cobriram uma área notável. Plínio, na sua História Natural, conta como Fâmulo ia, apenas algumas horas por dia, para a Casa Dourada, para trabalhar enquanto a luz estava apropriada.\n[…]\nO Palácio Dourado de Nero era a casa-prisão das produções deste artista, e portanto existem muito poucas que possam ser vistas noutro lugar.\n[…]\nDepois da morte de Nero, a Casa Dourada foi um severo embaraço para o seu sucessor, Galba, que tratou de aplicar um processo de damnatio memoriae. Foi despida dos seus mármores, das suas joias e marfins no espaço duma década. Pouco depois da morte de Nero, o palácio e os terrenos, compreendendo 2,6 km² (cerca de 1 mi²), foram entulhados e destruídos: as Termas de Tito foram ainda construídas numa parte do lugar em 79.\n[…]\nNo sítio do lago, no meio dos terrenos do palácio, Vespasiano construiu o Anfiteatro Flaviano, o qual podia ser inundado à vontade, com o Colosso de Nero (Colossus Neronis) ao lado. As Termas de Trajano e o Templo de Vénus e Roma também foram construídos no lugar. No prazo de 40 anos, a Casa Dourada ficou completamente obliterada, enterrada debaixo das novas construções, embora paradoxalmente estas tenham assegurado a sobrevivência das pinturas das paredes, protegendo-as da umidade.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Ínsula",
+      "descricao": "Prédio de apartamentos de vários andares onde vivia a maior parte da população urbana da Roma antiga."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A maioria do povo de Roma morava em ínsulas, prédios de apartamentos de vários andares. Que perigos eram comuns nesses prédios?",
+    "resposta": "Incêndios e desabamentos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Insula_(building)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Insula_(building)",
+        "situacao": "ok",
+        "texto": "In Roman architecture, an insula (Latin for \"island\", pl.: insulae) was one of two things: either a kind of apartment building, or a city block. This article deals with the former definition, that of a type of apartment building.\n[…]\nSimple two to four-roomed apartments are also found in Ostia for the lower classes inhabiting an insula. As seen in the Casa di Diana, the ground floor contains a narrow corridor with several poorly-lit cells that lead to what is believed to be a shared living area. This type of insula can also be found at the Capitoline Hill in Rome which may suggest that this particular design could have been a common solution to high housing demand at the time.\n[…]\nAugustus instituted reforms aimed at increasing the safety of buildings in the city of Rome. Because of the dangers of fire and collapse, the height of the insulae were restricted by Augustus to 70 pedes (Roman feet, 20.7 m), and again to an unspecified amount by Emperor Nero after The Great Fire of Rome in 64 AD. Emperor Trajan reduced the height to 60 Roman feet (17.75 m).\n[…]\nAccording to the 4th-century Regionary catalogues, there were about 42,000–46,000 insulae in the city, as compared to about 1,790 domus in the late 3rd century. Data on the number of insulae and to a lesser extent domus are used for classical demography. The city's population in the late 3rd century is thought to have fluctuated between 700,000 and 800,000, down from more than 1 million, based also on figures for the amount of grain required to feed the population in Rome and surrounding areas.\n[…]\nPhoto of Insulae in Ostia\n[…]\nModel of another insula in Ostia\n[…]\nInsula 9, an excavation of a Pompeii insula"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%8Dnsula",
+        "situacao": "ok",
+        "texto": "Ínsulas (em latim: insulae) eram um tipo de habitação existente na Antiga Roma. Distinguem-se das domus por serem destinadas à população mais desfavorecida. São parecidas com os prédios atuais, pois a sua disposição se verificava em andares. Eram também referidas quanto a uma classificação de planejamento urbano, sendo uma insulae o equivalente a um bloco.\n[…]\nMuitas vezes, quando uma ínsula, por sua má construção, desmoronava, esperava-se dos residentes a compensação para a reconstrução da estrutura; Cícero, em carta, diz à Crasso que ele poderia, facilmente, aumentar o aluguel do imóvel, mesmo em ruínas, para a construção de um novo. Os aposentos desses apartamentos eram minúsculos, principalmente nos andares mais altos.\n[…]\nAntes de um decreto de Augusto limitando a altura máxima das ínsulas a 20 metros, os edifícios podiam chegar a 9 andares ou mais, sem elevadores ou sistemas de encanamento. A enorme Insula Felicles ou Felicula era localizada perto do Circo Flamínio. O escritor Tertuliano condenou a ousadia da imponente estrutura ao compará-la às casas dos deuses. Numa única ínsula podia-se comumente encontrar mais de 40 pessoas em apenas 330m2 vivendo em pequenos apartamentos, de 92m2 em média.[carece de fontes]?\n[…]\nVisto os perigos de desmoronamento e fogo das ínsulas, várias regulamentações estatais foram estabelecidas. Dentre elas, as mais importantes são as feitas por Augusto  e Nero que limitaram a altura e, por conseguinte, capacidade máxima de apartamentos por ínsula:\n[…]\nAs restrições mais rigorosas, instituídas por Nero, foram uma resposta direta ao Grande Fogo de Roma. Segundo ao catálogo civil romano do século IV, aproximadamente 42.000 - 46.000 ínsulas existiam em Roma, comparado aos 1.790 domus. Nesta época, acredita-se que mais de 700.000 pessoas habitavam Roma, muitos dos quais moravam nas Insulae.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Aqueduto romano",
+      "descricao": "Canal construído pelos romanos para levar água de fontes distantes até as cidades."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Sem nenhum tipo de bomba, como a água percorria dezenas de quilômetros pelos aquedutos romanos até chegar às cidades?",
+    "resposta": "Pela gravidade, num leve declive",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roman_aqueduct"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roman_aqueduct",
+        "situacao": "ok",
+        "texto": "The Romans constructed aqueducts throughout their Republic and later Empire, to bring water from outside sources into cities and towns. Aqueduct water supplied public baths, latrines, fountains, and private households; it also supported mining operations, milling, farms, and gardens.\n[…]\nList of Roman aqueduct bridges\n[…]\nChanson, H. (2008). \"The Hydraulics of Roman Aqueducts: What do we know? Why should we learn ?\" in Proceedings of World Environmental and Water Resources Congress 2008 Ahupua'a. ASCE-EWRI Education, Research and History Symposium, Hawaii, USA. Invited Keynote lecture, 13–16 May, R.W. Badcock Jr and R. Walton Eds., 16 pages (ISBN 978-0-7844-0976-3)\n[…]\nHodge, A.T. (2001). Roman Aqueducts & Water Supply, 2nd ed. London: Duckworth.\n[…]\nKamash, Zena (2010). Archaeologies of Water in the Roman Near East. Gorgias Press.\n[…]\nKek, Damir (1996). Der römische Aquädukt als Bautypus und Repräsentationsarchitektur [The Roman aqueduct as architectural type and as representative architecture]. Charybdis, vol. 12. Münster: Lit, ISBN 3-8258-3035-7.\n[…]\nLeveau, P. (1991). \"Research on Roman Aqueducts in the Past Ten Years\" in T. Hodge (ed.): Future Currents in Aqueduct Studies. Leeds, UK, pp. 149–162.\n[…]\nMartínez Jiménez, J. (2019). Aqueducts and Urbanism in post-Roman Hispania. Gorgias Press.\n[…]\nMatthews, Kenneth D. (1970). \"Roman Aqueducts, Technical Aspects of their Construction Archived 2023-04-03 at the Wayback Machine\", in: Expedition, Fall 1970 (www.penn.museum), pp. 2–16\n[…]\nParker, J. H. (1876), The archæology of Rome, Part 8: The aqueducts. Oxford: James Parker and Co.\n[…]\nLacus Curtius – entry on Roman waterworks, uchicago.edu\n[…]\nRoman aqueducts by Wilke D. Schram (Univ. of Utrecht, NL), Cees Passchier (Univ. of Mainz, DEU), Driek van Opstal (ret.)\n[…]\nThe Atlas Project of Roman Aqueducts"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Púrpura de Tiro",
+      "descricao": "Corante caríssimo extraído de moluscos marinhos, símbolo de poder na Roma antiga."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Tingido com um corante extraído de caramujos do mar, o tecido mais luxuoso de Roma, reservado aos poderosos, era de que cor?",
+    "resposta": "Púrpura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tyrian_purple"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tyrian_purple",
+        "situacao": "ok",
+        "texto": "Tyrian purple (Ancient Greek: πορφύρα porphúra; Latin: purpura), also known as royal purple, imperial purple, imperial dye, or simply tyrian, is a reddish-purple natural dye. It is secreted by several species of predatory sea snails in the family Muricidae, rock snails originally known by the name murex (Bolinus brandaris, Hexaplex trunculus and Stramonita haemastoma). The coloured compound is 6,6\n[…]\nThe Phoenicians established an ancillary production facility on the Iles Purpuraires at Mogador, in Morocco. The sea snail harvested at this western Moroccan dye production facility was Hexaplex trunculus, also known by the older name Murex trunculus.\n[…]\nRecent research in organic electronics has shown that Tyrian purple is an ambipolar organic semiconductor. Transistors and circuits based on this material can be produced from sublimed thin-films of the dye. The good semiconducting properties of the dye originate from strong intermolecular hydrogen bonding that reinforces pi stacking necessary for transport.\n[…]\nTrue Tyrian purple, like most high-chroma pigments, cannot be accurately rendered on a standard RGB computer monitor. Ancient reports are also not entirely consistent, but these swatches give a rough indication of the likely range in which it appeared:\n[…]\nThe lower one is the sRGB colour #990024, intended for viewing on an output device with a gamma of 2.2. It is a representation of RHS colour code 66A, which has been equated to \"Tyrian red\", a term which is often used as a synonym for Tyrian purple.\n[…]\n\"Tyrian Purple\". World History Encyclopedia.\n[…]\nCooksey CJ (1994). \"Making Tyrian purple\". Dyes in History and Archaeology. 13: 7–13 (email the author for a copy). Archived from the original on 2020-07-26. Retrieved 2010-05-11. Source of article in author's Bibliography page.\n[…]\n\"Tyrian purple\". The Free Library.\n[…]\n\"Royal Purple of Tyre\" (PDF)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/P%C3%BArpura_t%C3%ADria",
+        "situacao": "ok",
+        "texto": "A púrpura tíria (também púrpura de Tiro ou púrpura-de-Tiro; em grego: πορφύρα, porphyra; em latim: purpura), também conhecida como vermelho fenício, púrpura fenícia, púrpura real, púrpura imperial ou tintura imperial,  é uma tinta natural de coloração vermelho-púrpura, extraída de caramujos marinhos, e que provavelmente foi produzida pela primeira vez pelos antigos fenícios.\n[…]\nMuitas vezes, os pigmentos biológicos eram difíceis de adquirir e os detalhes de sua produção eram mantidos em segredo pelos fabricantes. A púrpura tíria  era um pigmento feito a partir do muco de várias espécies de caramujos marinhos (Murex) . A produção de púrpura de Tiro para uso como corante de tecido começou já em 1200 aC pelos fenícios e foi continuada pelos gregos e romanos até 1453 dC, com a queda de Constantinopla .\n[…]\nO corante de cor fixa (que não desbota) era um item de comércio de luxo, valorizado pelos romanos, que o usavam para colorir mantos cerimoniais . Usado como corante, a cor muda de azul (pico de absorção em 590 nm, que é amarelo-laranja) para roxo-avermelhado (pico de absorção em 520 nm, que é verde). Acredita-se que a intensidade da tonalidade púrpura melhorou em vez de desbotar à medida que o tecido tingido envelhecia. Vitrúvio menciona a produção de púrpura de Tiro a partir de mariscos.\n[…]\nEm 1909, a antropóloga de Harvard Zelia Nuttall compilou um estudo comparativo intensivo sobre a produção histórica do corante púrpura produzido a partir do carnívoro caracol murex , fonte do corante púrpura real valorizado mais do que o ouro no antigo Oriente Próximo e no antigo México. O povo do México antigo não apenas usava os mesmos métodos de produção dos fenícios, mas também valorizava o tecido tingido de murex acima de todos os outros, pois aparecia nos códices como o traje da nobreza.\n[…]\n«The Free Library: artigo sobre a púrpura tíria»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Anfiteatro de Pompeia",
+      "descricao": "Anfiteatro romano de Pompeia, construído por volta de 70 antes de Cristo."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Construído por volta de 70 antes de Cristo, bem antes do Coliseu, qual é o anfiteatro romano mais antigo que sobreviveu até hoje?",
+    "resposta": "O anfiteatro de Pompeia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amphitheatre_of_Pompeii",
+        "situacao": "ok",
+        "texto": "The Amphitheatre of Pompeii is one of the oldest surviving Roman amphitheatres. It is located in the ancient city of Pompeii, near Naples, and was buried by the eruption of Mount Vesuvius in 79 AD, along with the city of Pompeii and the neighbouring town of Herculaneum.\n[…]\nIt was constructed shortly after Pompeii's induction as a Roman colony, and an inscription on the amphitheatre honouring the donors cites one of their motives being \"to demonstrate the honour of the colony\" perhaps indicating the amphitheatre's role in establishing Roman influence in Pompeii.\n[…]\nDavid Gilmour, the band's guitarist, returned to perform two concerts at the amphitheatre in July 2016 as part of his Rattle That Lock Tour. Gilmour's 2016 concerts saw the first public performances in the amphitheatre since 79 AD and are featured on the live album/video Live at Pompeii.\n[…]\nIn 2015 a temporary museum was installed in the centre of the amphitheatre. The pyramidal structure was designed to resemble Mount Vesuvius, and housed the installation \"Pompeii and Europe from 1748 to 1943\", which displayed casts of 20 victims of the eruption and photographs of the excavations.\n[…]\nTheatre Area of Pompeii\n[…]\nMazois, François; Gau, François C. (1838). \"Amphithéatre\". In Mazois, François; Gau, François (eds.). Les ruines de Pompei (in French). Vol. 4. Paris. pp. 77–86. doi:10.11588/diglit.3748.\n[…]\nJacobelli, Luciana (2003). \"The Amphitheater\". Gladiators at Pompeii. Getty Publications. pp. 53–64. ISBN 9780892367313.\n[…]\nBBC, \"Pompeii Art and Architecture Gallery\", Joanne Berry (accessed 7 May 2009)\n[…]\n'CSO: Security and Risk', \"Modern Crowd Control Lessons (from Ancient Pompeii)\" Archived 2009-10-30 at the Wayback Machine, Scott Berinato, 18 May 2007 (accessed 7 May 2009)\n[…]\n3D model of Pompeii Amphitheatre"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Anfiteatro_de_Pompeia",
+        "situacao": "ok",
+        "texto": "O anfiteatro de Pompeia foi uma construção com capacidade para 20 000 espectadores, quantidade suficiente para acomodar toda a população da cidade romana de Pompeia e mais seus visitantes, que por sua vez, eram em número quase igual ao de seus habitantes (CIL, X, 852). O anfiteatro abrigava jogos financiados por moradores evergetas da cidade que quisessem ter influência política, ou por governante\n[…]\nOs jogos mais comuns no anfiteatro eram as batalhas de gladiadores.\n[…]\nO edifício foi um dos primeiros a ser escavados no sítio arqueológico de Pompeia, em 1748. Na época, o procedimento adotado era retirar as obras de arte encontradas e recortar das paredes as pinturas consideradas mais preciosas, levando-as à coleção do rei Carlos III de Espanha — hoje essas peças estão no Museu Arqueológico de Nápoles. Depois disso, o edifício for coberto novamente. Uma segunda missão reescavou o anfiteatro entre 1813 e 1816.\n[…]\nO anfiteatro foi construído em 70 a.C. (150 anos antes do Coliseu), dentro das muralhas de Pompeia, no distrito sudeste da cidade. A sua construção foi possível devido às doações de Caio Quíncio Valgo e Marco Pórcio.\n[…]\nOs habitantes de Pompeia comemoraram essa vitória com grafites feitos no anfiteatro, que por sua vez, continuou aberto para outros tipos de evento.\n[…]\nAcredita-se que para o entretenimento dos espectadores antes e no intervalo dos jogos, fosse usado o espaço ao lado chamado de Grande Palestra, que, cercado por colunatas, também poderia servir como área para exercícios e continha uma grande piscina no meio do gramado interno. Os grafites nas paredes e colunas mostram a presença de mercadores itinerantes, mas também de pessoas de cidades próximas que usaram o local como abrigo quando em visita a Pompeia para os festivais realizados no anfiteatro.\n[…]\nPompeii's Amphitheatre (em inglês). www.AncientHistoryArchaeology.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Termas de Diocleciano",
+      "descricao": "Complexo de banhos públicos construído em Roma por volta do ano 300, em parte transformado na basílica de Santa Maria dos Anjos."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual foi o maior complexo de banhos públicos da Roma antiga, cujas ruínas abrigam hoje uma igreja adaptada por Michelangelo?",
+    "resposta": "Termas de Diocleciano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baths_of_Diocletian"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baths_of_Diocletian",
+        "situacao": "ok",
+        "texto": "The Baths of Diocletian (Latin: Thermae Diocletiani, Italian: Terme di Diocleziano) were public baths in ancient Rome. Named after emperor Diocletian and built from AD 298 to 306, they were the largest of the imperial baths.\n[…]\nOne of the four inscriptions around the main entrance to the Baths of Diocletian reads, translated from Latin, \"Our Lords Diocletian and Maximian, the elder and invincible Augusti, fathers of the Emperors and Caesars, our lords Constantius and Maximian and Severus and Maximum, noblest Caesars, dedicated to their beloved Romans these auspicious Baths of Diocletian, which the divine Maximin on his return from Africa ordered to be built and consecrated in the name of his brother Diocletian, having purchased the premises required for so huge and remarkable work and furnishing them with the most sumptuous refinement.\" Although only fragments of the inscription are extant today, a complete transcription was made by an 8th- or 9th-century pilgrim and was preserved at Einsiedeln Abbey in Switzerland.\n[…]\n(The author of the Life of Probus mentions that part of the Bibliotheca Ulpia, was located in the Forum of Trajan, and part within the Baths of Trajan, although he later contradicts that statement when referring to the Bibliotheca Ulpia). The presence of similar spaces in the Baths of Caracalla and the Baths of Trajan therefore makes it not unreasonable to assume that the baths of Diocletian contained a library.\n[…]\nThe Smithsonian's National Museum of Natural History building in Washington, D.C., was partially based on design elements from these baths, including its Diocletian windows.\n[…]\nPlatner, Samuel Ball, \"Baths of Diocletian\" 1929\n[…]\nMedia related to Thermae of Diocletian at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Termas_de_Diocleciano",
+        "situacao": "ok",
+        "texto": "Termas de Diocleciano (em latim: Thermae Diocletiani) eram termas da Roma Antiga construídas pelo imperador Maximiano entre 298 e 306 em homenagem ao co-imperador Diocleciano. O projeto foi encomendado quando ele retornou da África no outono de 298 e continuou após a abdicação dos dois já no reinado de Constâncio Cloro, o pai de Constantino.\n[…]\nAs termas foram encomendadas por Maximiano em honra ao co-imperador Diocleciano em 298, o mesmo ano no qual ele retornou da África. Evidências disto foram encontradas nas estampas dos tijolos da área principal do complexo — conhecida, segundo o \"Mirabilia Urbis Romae\", como \"Palácio de Diocleciano\" (em latim: Palatium Diocletiani) — da época de Diocleciano. A construção terminou em algum momento entre a abdicação de Diocleciano e Maximiano, em 305, e a morte de Constâncio Cloro em julho de 306.\n[…]\nA Via Carnaia separou o ginásio dos restos do muro exterior (que hoje podem ser vistos na Via Parigi). Finalmente, em 1889, o governo italiano criou o Museo Nazionale Romano no complexo das termas e na casa do capítulo.\n[…]\nNuma das quatro inscrições localizadas na entrada das Termas de Diocleciano se lê:\n[…]\nApesar do tamanho similar, a capacidade das Termas de Diocleciano era muito maior do que a das Termas de Caracala, possivelmente como resultado da diferença no tamanho do edifício principal. Segundo Olimpiodoro de Tebas, a capacidade era de cerca de 3 000 pessoas por vez, mas este número é questionado porque ele não relatou como fez essa estimativa.\n[…]\nPor analogia com as Termas de Caracala, alguns estudiosos sugeriram que as salas retangulares ligadas à êxedra semicircular seria bibliotecas. Para reforçar esta tese, já se provou que nelas haviam nichos que podiam ser utilizados para armazenar livros e rolos. Referências à presença de uma biblioteca nas Termas de Diocleciano são contraditórias.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Primeira Guerra Púnica",
+      "descricao": "Guerra entre Roma e Cartago travada de 264 a 241 antes de Cristo, sobretudo pelo controle da Sicília."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Das três Guerras Púnicas travadas entre Roma e Cartago, qual durou mais tempo?",
+    "resposta": "A Primeira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Punic_Wars",
+      "https://en.wikipedia.org/wiki/First_Punic_War"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Punic_Wars",
+        "situacao": "ok",
+        "texto": "The Punic Wars were a series of wars fought between the Roman Republic and the Carthaginian Empire during the period 264 to 146 BC. Three such wars took place, involving a total of forty-three years of warfare on both land and sea across the western Mediterranean region, and a four-year-long revolt against Carthage.\n[…]\nThe spark that ignited the First Punic War in 264 BC was the issue of control of the independent Sicilian city-state of Messana (modern Messina), with the Romans gaining control of the city and a foothold on Sicily at the battle of Messana. They then pressed Syracuse, the only substantial independent power on the island, into allying with them and laid siege to Carthage's main base, Agrigentum (modern Agrigento) on the south coast.\n[…]\nThe Mercenary, or Truceless, War began in 241 BC as a dispute over the payment of wages owed to 20,000 foreign soldiers who had fought for Carthage on Sicily during the First Punic War. This erupted into full-scale mutiny under the leadership of Spendius and Matho; 70,000 Africans from Carthage's oppressed dependent territories and towns flocked to join the mutineers, bringing supplies and finance. Rome initially declined to take advantage of Carthage's troubles.\n[…]\nWith the suppression of the rebellion, Hamilcar understood that Carthage needed to strengthen its economic and military base if it were to again confront Rome. After the First Punic War, Carthaginian possessions in Iberia were limited to a handful of prosperous coastal cities in the south. Hamilcar took the army which he had led in the Mercenary War to Iberia in 237 BC and carved out a quasi-monarchicial, autonomous state in its south east.\n[…]\nThe Punic language continued to be spoken in north Africa until the 7th century AD."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/First_Punic_War",
+        "situacao": "ok",
+        "texto": "The First Punic War (264–241 BC) was the first of three wars fought between Rome and Carthage, the two main powers of the western Mediterranean in the early 3rd century BC. For 23 years, in the longest continuous conflict and greatest naval war of antiquity, the two powers struggled for supremacy. The war was fought primarily on the Mediterranean island of Sicily and its surrounding waters, and al\n[…]\nThe unresolved strategic competition between Rome and Carthage led to the eruption of the Second Punic War in 218 BC.\n[…]\nThe Roman Republic had been aggressively expanding in the southern Italian mainland for a century before the First Punic War. It had conquered peninsular Italy south of the River Arno by 272 BC when the Greek cities of southern Italy (Magna Graecia) submitted at the conclusion of the Pyrrhic War.\n[…]\nThe Treaty of Lutatius was signed and brought the First Punic War to its end: Carthage evacuated Sicily, handed over all prisoners taken during the war, and paid an indemnity of 3,200 talents over ten years.\n[…]\nFor Rome, the end of the First Punic War marked the start of its expansion beyond the Italian Peninsula. Sicily became the first Roman province as Sicilia, governed by a former praetor. Sicily would become important to Rome as a source of grain. Sardinia and Corsica, combined, also became a Roman province and a source of grain, under a praetor, although a strong military presence was required for at least the next seven years, as the Romans struggled to suppress the local inhabitants.\n[…]\nBiggs, T. (2017). \"Primus Romanorum: Origin Stories, Fictions of Primacy, and the First Punic War\". Classical Philology. 112 (3): 350–367. doi:10.1086/692606. ISSN 0009-837X. S2CID 164526422.\n[…]\nDexter, Hoyos (1998). Unplanned Wars: The Origins of the First and Second Punic Wars. Berlin and New York: Walter de Gruyter. ISBN 978-3-11-080835-3."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerras_P%C3%BAnicas",
+        "situacao": "ok",
+        "texto": "As Guerras Púnicas consistiram numa série de três conflitos que opuseram a República Romana e a República de Cartago, cidade-estado fenícia, no período entre 264 a.C. e 146 a.C. Depois de um século de lutas, ao fim das Guerras Púnicas, Cartago foi totalmente destruída e Roma passou a dominar o mar Mediterrâneo.\n[…]\nO general cartaginês Amílcar conquistou o sul da Península Ibérica. Dali, seu filho Aníbal, em 218 a.C., desencadeou a Segunda Guerra Púnica. Partindo da Península Ibérica, atravessou os Alpes e chegou à península Itálica. Venceu os romanos em várias batalhas, porém não marchou sobre Roma.\n[…]\nA Primeira Guerra Púnica foi a princípio uma guerra naval que se desenrolou de 264 a.C. até 241 a.C. Iniciou-se com a intervenção romana em Messina, colônia de Cartago situada na Sicília. O conflito trouxe uma novidade para os romanos: o combate no mar. Com hábeis marinheiros, Cartago era a principal potência marítima do período.\n[…]\nA Segunda Guerra Púnica ficou famosa pela travessia dos Alpes, efetuada por Aníbal Barca, e desenrolou-se de 218 a.C. até 201 a.C. Desenvolveu-se quase toda em território romano. Liderados por Aníbal, os cartagineses conquistaram várias vitórias. O quadro só se reverteu com a decisão romana de atacar Cartago. Aníbal viu-se então obrigado a recuar para defender sua cidade e acabou derrotado na Batalha de Zama. Roma assumiu o controle da Península Ibérica.\n[…]\nA Terceira Guerra Púnica, que se desenrolou de 149 a.C. a 146 a.C. Roma foi implacável com o inimigo. Sob a liderança de Cipião Emiliano Africano atacou e destruiu completamente a cidade de Cartago, escravizando os sobreviventes. A cidade foi incendiada e suas terras cobertas com sal para que nada mais produzissem. Com isso completou-se o ciclo de batalhas que deu grande parte do mar Mediterrâneo aos romanos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Tito",
+      "descricao": "Imperador romano de 79 a 81, filho de Vespasiano, da dinastia flávia."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "A dinastia flávia teve três imperadores: Vespasiano e seus filhos, Tito e Domiciano. Qual dos três governou por menos tempo?",
+    "resposta": "Tito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flavian_dynasty",
+      "https://en.wikipedia.org/wiki/Titus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flavian_dynasty",
+        "situacao": "ok",
+        "texto": "The Flavian dynasty, lasting from 69 to 96 AD, was the second dynastic line of emperors to rule the Roman Empire following the Julio-Claudians, encompassing the reigns of Vespasian and his two sons, Titus and Domitian. The Flavians rose to power during the civil war of 69 AD, known as the Year of the Four Emperors; after Galba and Otho died in quick succession, Vitellius became emperor in mid 69.\n[…]\nNon-Flavians were virtually excluded from important public offices, even those who had been among Vespasian's earliest supporters during the civil war. Mucianus slowly disappears from the historical records during this time, and it is believed he died sometime between 75 and 77. That it was Vespasian's intention to found a long-lasting dynasty to govern the Roman Empire was most evident in the powers he conferred upon his eldest son Titus.\n[…]\nConstruction of the Flavian Amphitheatre, presently better known as the Colosseum (probably after the nearby statue), was begun in 70 under Vespasian and finally completed in 80 under Titus. In addition to providing spectacular entertainments to the Roman populace, the building was conceived as a gigantic triumphal monument to commemorate the military achievements of the Flavians during the Jewish wars.\n[…]\nAmong those he completed were the Temple of Vespasian and Titus, the Colosseum, to which he added a fourth level and finished the interior seating area and, according to many sources, the Arch of Titus.\n[…]\nMany historical records of the Flavian period, especially a large portion of Tacitus's Histories, were lost and other contemporary authors wrote comparatively little about this period. Later essays and more indirect sources such as coins and inscriptions are used for the history of this period. Vespasian's government is best known for financial reforms following the demise of the Julio-Claudian dynasty.\n[…]\nFlavian art\n[…]\n\"A Gallery of Flavian Coins\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Titus",
+        "situacao": "ok",
+        "texto": "Titus Flavius Vespasianus ( ; 30 December AD 39 – 13 September 81) was Roman emperor from AD 79 to 81. A member of the Flavian dynasty, Titus succeeded his father, Vespasian, upon his death, becoming the first Roman emperor to succeed his biological father.\n[…]\nThe last and most significant fortified city held by the Jewish resistance was Jerusalem. The campaign came to a sudden halt when news arrived of Nero's death. Almost simultaneously, the Roman Senate had declared Galba, the governor of Hispania, as emperor. Vespasian decided to await further orders and sent Titus to greet the new princeps.\n[…]\nThe Roman Army was joined by the Twelfth Legion, which had been previously defeated under Cestius Gallus, and from Alexandria, Vespasian sent Tiberius Julius Alexander, governor of Egypt, to act as Titus' second in command.\n[…]\nConstruction of the Flavian Amphitheatre, now better known as the Colosseum, was begun in 70 under Vespasian and was finally completed in 80 under Titus. In addition to providing spectacular entertainments to the Roman populace, the building was also conceived as a gigantic triumphal monument to commemorate the military achievements of the Flavians during the Jewish Wars.\n[…]\nPractice of the imperial cult was revived by Titus, but apparently, it met with some difficulty since Vespasian was not deified until six months after his death. To honour and glorify the Flavian dynasty further, foundations were laid for what would later become the Temple of Vespasian and Titus, which was finished by Domitian.\n[…]\nLa clemenza di Tito, an opera by Mozart, which centres around a plot to kill Emperor Titus instigated by Vitellia, the daughter of Vitellius, to gain what she believes to be her rightful place as Queen."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dinastia_flaviana",
+        "situacao": "ok",
+        "texto": "Dinastia flaviana ou dinastia Flávia foi uma dinastia romana que governou o Império Romano entre 69 e 96 através dos reinados de Vespasiano (69–79) e seus dois filhos, Tito (79–81) e Domiciano (81–96). Os flavianos chegaram ao poder durante a guerra civil de 69 conhecida como \"ano dos quatro imperadores\". Depois que Galba e Otão morreram em rápida sucessão, Vitélio tornou-se imperador em meados de\n[…]\nPor volta de 38, Vespasiano se casou com Domitila, filha de um equestre de Ferêncio. O casal teve dois filhos, Tito Flávio Vespasiano (n. 39) e Tito Flávio Domiciano (n. 51), e uma filha, Domitila, a Jovem (n. 45). Domitila (mãe) morreu antes de Vespasiano chegar ao poder e, a partir da morte dela, Caenis, sua amante, foi sua esposa em tudo menos no papel até a morte dela em 74.\n[…]\nOu seja, a intenção de Vespasiano era a de fundar uma dinastia duradoura para governar o Império e isto fica evidente nos poderes que ele conferiu ao seu filho mais velho, Tito. Ele compartilhou o poder tribunício com Vespasiano, recebeu sete consulados, foi censor e, o mais incrível, recebeu o comando da Guarda Pretoriana  Havendo Tito efetivamente atuado como co-imperador juntamente com seu pai, nenhuma mudança abrupta na política flaviana ocorreu durante seu breve reinado, entre 79 e 81 d.C..\n[…]\nTanto Tácito quanto Suetônio falam de uma escalada de perseguições no final do reinado de Domiciano e identificam um ano de virada em 93, depois da revolta de Saturnino. Pelo menos vinte senadores foram executados, incluindo o ex-marido da imperatriz Domícia Longina, Lúcio Élio Lamia, e três parentes do imperador, Tito Flávio Sabino, Tito Flávio Clemente e Marco Arrecino Clemente. Alguns deles foram executados já em 83 ou 85, porém, o que contraria a tese de \"reino do terror\" de Tácito.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Tibério",
+      "descricao": "Segundo imperador romano, que governou de 14 a 37, sucessor de Augusto."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre os sucessores de Augusto na dinastia júlio-claudiana, que imperador ficou mais tempo no poder?",
+    "resposta": "Tibério",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Julio-Claudian_dynasty",
+      "https://en.wikipedia.org/wiki/Tiberius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Julio-Claudian_dynasty",
+        "situacao": "ok",
+        "texto": "The Julio-Claudian dynasty comprised the first five Roman emperors: Augustus, Tiberius, Caligula, Claudius, and Nero.\n[…]\nPrimogeniture is notably absent in the history of the Julio-Claudian dynasty. Augustus, Caligula and Nero failed to father biological and legitimate sons. Tiberius' own son, Drusus predeceased him. Only Claudius was outlived by his son, Britannicus, although he opted to promote his adopted son Nero as his successor to the throne. Adoption ultimately became a tool that most Julio-Claudian emperors utilized in order to promote their chosen heir to the front of the succession.\n[…]\nCaligula (Gaius Julius Caesar Augustus Germanicus) was born into the Julian and Claudian branches of the Imperial family, thereby making him the first actual \"Julio-Claudian\" emperor. His father, Germanicus, was the son of Nero Claudius Drusus and Antonia Minor, the son of Livia and the daughter of Octavia Minor respectively. Germanicus was also a great-nephew of Augustus on his mother's side and nephew of Tiberius on his father's side.\n[…]\nClaudius was the great-nephew of Augustus, as well as the nephew of Tiberius (and the only Julio-Claudian who was not adopted); his mother Antonia was the daughter of Augustus' sister Octavia, and his father Drusus was the brother of Tiberius.\n[…]\nTiberius was Augustus' stepson due to the latter's marriage to Livia Drusilla. He and his brother Drusus were Livia's sons through her previous marriage to Tiberius Claudius Nero.\n[…]\nTiberius, in addition to being Augustus' stepson and adopted son, was married to Julia the Elder, daughter of Augustus.\n[…]\nTiberius, adopted son of Augustus"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tiberius",
+        "situacao": "ok",
+        "texto": "Tiberius Julius Caesar Augustus ( ty-BEER-ee-əs; 16 November 42 BC – 16 March AD 37) was the second Roman emperor from AD 14 until his death, reigning as the second ruler of the Julio-Claudian dynasty. He succeeded his stepfather Augustus, the first Roman emperor. Tiberius was born in Rome in 42 BC to politician Tiberius Claudius Nero and his wife, Livia Drusilla. In 38 BC, Livia divorced Nero and\n[…]\nTiberius was adopted in 26 June as full son and heir, and in turn he was required to adopt his nephew Germanicus, the son of his brother Nero Claudius Drusus and Augustus's niece Antonia Minor. Along with his adoption, Tiberius received tribunician power as well as a share of Augustus's maius imperium, something that even Marcus Agrippa may never have had.\n[…]\nThe Roman legions in Pannonia and Germania had not been paid the bonuses promised to them by Augustus, and showed early signs of mutiny when it was clear that a response from Tiberius was not forthcoming.\n[…]\nThis assertion is confirmed by busts of other Claudian men, who were depicted with the same hairstyle. Suetonius describes his eyes as being larger than average, while a passage in Pliny indicates they were grey or blue-grey; polychromy restoration on a bust of Tiberius depict him with grey eyes and hair. Suetonius reports he tended to talk with his hands, a habit others found unnerving, and which Augustus saw as an inherent character flaw.\n[…]\nTacitus describes Julio-Claudian rule as generally unjust and \"criminal\"; he attributes the apparent virtues of Tiberius during his early reign to hypocrisy.\n[…]\nIn AD 4, Tiberius adopted his nephew Germanicus Julius Caesar (15/16 BC – AD 19), the son of his brother Nero Claudius Drusus and Augustus's niece Antonia Minor.\n[…]\nFagan, Garrett G. (2001), \"Tiberius (A.D. 14–37)\", De Imperatoribus Romanis\n[…]\n\"Tiberius (42 BC – 37 AD)\" at the BBC\n[…]\n\"Maps of the Roman Empire under Tiberius at Omniatlas.com\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dinastia_j%C3%BAlio-claudiana",
+        "situacao": "ok",
+        "texto": "A dinastia júlio-claudiana foi a primeira dinastia de imperadores do Império Romano. O nome deriva do apelido do Imperador Augusto César, pertencente à família Júlia, e de Tibério, e Cláudio de nascimento subsequentemente adotado. Os sucessores de Augusto são conhecidos como a dinastia júlio-claudiana (que inclui ele próprio), devido aos casamentos idealizados por ele entre a sua família, os Júlio\n[…]\nNos primeiros anos do reinado de Tibério, não houve grandes mudanças políticas ou organizativas em relação aos princípios estabelecidos por Augusto. No entanto, com o passar do tempo, a instabilidade surgiu dentro da própria família imperial. Tibério tornou-se paranoico com possíveis conspirações e tentativas de golpe de estado, chegando, em 26 d.C., a retirar-se para a ilha de Capri de onde governou por procuração até ao fim da vida.\n[…]\nO sucessor de Tibério, Calígula cresceu neste ambiente e mostrou-se um imperador igualmente instável. As perseguições tornaram-se norma e durante estes reinados muitas das famílias tradicionais romanas chegaram ao fim devido a assassinatos e execuções que se prolongaram pelos reinados de Cláudio e Nero. Em 68 d.C., a classe política tinha chegado ao limite de resistência a tanta insegurança política.\n[…]\nEm 64 d.C., durante o reinado de Nero, Roma foi consumida por um violento incêndio (do qual o próprio imperador é muitas vezes erroneamente considerado culpado) e começaram as perseguições aos cristãos. Os júlio-claudianos foram eficazes em espalhar o culto imperial. Alguns deles, como Cláudio, foram deificados durante a sua vida e elevaram à dignidade divina muitos dos seus familiares (alguns subsequentemente assassinados).\n[…]\nAugusto (27 a.C. - 14 d.C.)\n[…]\nTibério (14 - 37)\n[…]\nCláudio (41 - 54)\n[…]\nLista de imperadores romanos\n[…]\nCláudios",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Tibério",
+      "descricao": "Segundo imperador romano, que governou de 14 a 37, sucessor de Augusto."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de ser adotado por Augusto, Tibério já fazia parte da família do imperador por meio da mãe, Lívia. Que parentesco os unia?",
+    "resposta": "Tibério era enteado de Augusto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiberius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tiberius",
+        "situacao": "ok",
+        "texto": "Tiberius Julius Caesar Augustus ( ty-BEER-ee-əs; 16 November 42 BC – 16 March AD 37) was the second Roman emperor from AD 14 until his death, reigning as the second ruler of the Julio-Claudian dynasty. He succeeded his stepfather Augustus, the first Roman emperor. Tiberius was born in Rome in 42 BC to politician Tiberius Claudius Nero and his wife, Livia Drusilla. In 38 BC, Livia divorced Nero and\n[…]\nIn 39 BC, Livia divorced Tiberius Nero and, despite being pregnant again by Nero, married Octavian, later known as Augustus. In 38 BC, his brother, Nero Claudius Drusus, was born. In 32 BC, Tiberius, at the age of nine, delivered the eulogy for his biological father at the rostra. In 29 BC, he rode next to the triumphal chariot of his step-father Octavian in celebration of the defeat of Antony and Cleopatra at Actium.\n[…]\nWith Tiberius's departure, succession rested solely on Augustus's two young grandsons, Lucius and Gaius Caesar. The situation became more precarious in AD 2 with the death of Lucius. Augustus, with perhaps some pressure from Livia, allowed Tiberius to return to Rome as a private citizen and nothing more. In AD 4, Gaius was killed in Armenia, and Augustus had no other choice but to turn to Tiberius. The death of Gaius initiated a flurry of activity in the household of Augustus.\n[…]\nTiberius married twice, first to the daughter of Agrippa, Vipsania Agrippina. His second marriage was after Agrippa's death to Augustus' daughter, Julia the Elder. Only his marriage with Agrippina produced a child who survived to adulthood, known as Drusus Julius Caesar (14 BC – AD 23). His marriage with Julia produced a child who died in infancy.\n[…]\nIn AD 4, Tiberius adopted his nephew Germanicus Julius Caesar (15/16 BC – AD 19), the son of his brother Nero Claudius Drusus and Augustus's niece Antonia Minor.\n[…]\nFagan, Garrett G. (2001), \"Tiberius (A.D. 14–37)\", De Imperatoribus Romanis"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tib%C3%A9rio",
+        "situacao": "ok",
+        "texto": "Tibério Cláudio Nero César (em latim Tiberius Claudius Nero Cæsar; 16 de novembro de 42 a.C. – 16 de março de 37 d.C.) foi imperador romano de 18 de setembro do ano 14 d.C. até à sua morte, a 16 de março de 37 d.C. Era filho de Tibério Cláudio Nero e Lívia Drusa. Foi o segundo imperador de Roma pertencente à dinastia júlio-claudiana, sucedendo ao padrasto Augusto. Foi durante o seu reinado que, na\n[…]\nTibério Cláudio Nero Germânico Augusto (Tiberius Claudius Nero Germanicus Augustus) nasceu a 16 de novembro de 42 a.C., em Roma. Era filho de Tibério Cláudio Nero e Lívia Drusila, sendo irmão de Nero Cláudio Druso. Em 38 a.C., a sua mãe divorciou-se do seu pai e casou-se com o imperador Caio Júlio César Octaviano pouco depois, enquanto estava ainda grávida de Nero Cláudio Druso, que nasceu três meses depois do casamento, em 38 a.C..\n[…]\nAntigos historiadores especularam com a possibilidade de Tibério sentir-se como uma solução provisória quando Augusto adotou os filhos de Júlia e Agripa, Caio César e Lúcio César e os favoreceu ao longo da sua carreira tal e qual fizera com Druso e com o próprio Tibério. O futuro imperador pode ter pensado que quando os seus enteados atingissem a maioridade substitui-lo-iam. Também pode ter influído o conhecido comportamento promíscuo da sua esposa.\n[…]\nTibério, então, mandou trazer a lagosta e esfregaram ela no rosto do pescador também..\n[…]\nAssim como Tácito, Suetônio teve acesso aos arquivos imperiais, bem como aos escritos de historiadores antigos como Aufídio Baso, Clúvio Rufo, Fábio Rústico e às mesmas cartas do imperador César Augusto. A obra de Suetônio é porém mais sensacionalista e anedótica que a do seu contemporâneo, destacando-se as partes que relatam as supostas depravações cometidas pelo imperador no seu retiro em Capri, e elogiando, porém, as ações de Tibério a princípio do seu reinado, pondo em relevo a sua modéstia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Sicília romana",
+      "descricao": "Província romana criada na ilha da Sicília após a Primeira Guerra Púnica."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Ao vencer Cartago em 241 antes de Cristo, Roma ganhou sua primeira província fora da península Itálica. Que ilha era essa?",
+    "resposta": "Sicília",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sicilia_(Roman_province)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sicilia_(Roman_province)",
+        "situacao": "ok",
+        "texto": "Sicilia (; Classical Latin: [sɪˈkɪ.li.a]; Ancient Greek: Σικελία, romanized: Sikelía) was the first province acquired by the Roman Republic, encompassing the island of Sicily. The western part of the island was brought under Roman control in 241 BC at the conclusion of the First Punic War with Carthage. A praetor was regularly assigned to the island from c. 227 BC. The Kingdom of Syracuse under Hi\n[…]\nFrom 73 to 71 BC, the praetor of the province was Gaius Verres who was denounced by the Sicilians for extortion, theft, and robbery and was prosecuted in Rome by Cicero whose speeches against him, known as the Verrines, still survive. Since these speeches are the main evidence for Verres' actions, it is hard to get an objective idea of the impact of his activities on Sicily.\n[…]\nGenseric, King of the Vandals, occupied the province of Africa in the 430s and began to  raid the Sicilian coast in 437. Then, after seizing part of the Western Roman fleet berthed at Carthage after taking the city in October 439, the Vandals organised attacks throughout the Mediterranean, especially in Sicily and Sardinia (the main sources of grain for the western empire), Corsica, and the Balearic islands.\n[…]\nList of Roman governors of Sicilia\n[…]\nBenigno, Francesco; Giarrizzo, Giuseppe (1999a). Storia della Sicilia. Vol. 1. Roma-Bari: Laterza Editore. ISBN 88-421-0533-3.\n[…]\nBenigno, Francesco; Giarrizzo, Giuseppe (1999b). Storia della Sicilia. Vol. 2. Roma-Bari: Laterza Editore. ISBN 88-421-0534-1.\n[…]\nFinley, Moses Israel (2009) [1970]. Storia della Sicilia antica (8 ed.). Roma-Bari: Editori Laterza. ISBN 978-88-420-2532-0.\n[…]\nManganaro, Giacomo (1997) [1979]. \"La provincia romana\". In Romeo, Rosario (ed.). Storia della Sicilia. La Sicilia antica. Vol. 2 (2nd ed.). Roma: Editalia. pp. 309–363.\n[…]\nR. Wilson; R. Talbert; T. Elliott; S. Gillies (31 January 2020). \"Places: 462492 (Sicilia)\". Pleiades. Retrieved March 8, 2012."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sic%C3%ADlia_%28prov%C3%ADncia_romana%29",
+        "situacao": "ok",
+        "texto": "A província romana da Sicília (em latim Sicilia), atualmente a região italiana da Sicília, foi incorporada ao Império Romano como um território proconsular em 241 a.C.,  após a Primeira Guerra Púnica contra Cartago.\n[…]\nA organização da Sicília como província foi completada por P. Rupilo com a ajuda de dez legados e sua constituição às vezes é referenciada com o nome de Leges Rupiliae. A ilha foi dividida em dois distritos, com Siracusa como capital do distrito leste e Lilibeu como capital do distrito oeste. A ilha inteira era administrada por um governador.\n[…]\nOs povos mais antigos da Sicília eram os sicanos, ao centro da ilha, e os sículos, na parte oriental. Estes últimos, provavelmente oriundos do continente, empurraram para oeste os ocupantes originais da ilha e deram o nome à região.\n[…]\nA Sicília foi colonizada por fenícios, cartagineses e gregos, que deixaram diversos vestígios, como o teatro grego de Taormina, os templos de Segesta, Agrigento e Selinunte. Foi, posteriormente, governada por príncipes chamados \"tiranos\", dentre os quais os mais conhecidos foram Dionísio, o Velho, e Dionísio, o Jovem (quem acolheu o filósofo Platão).\n[…]\nA ilha desempenhou um papel importante, dos pontos de vista estratégico e econômico, durante as duas primeiras Guerras Púnicas. Caiu nas mãos dos romanos ao fim da Primeira Guerra Púnica, tornando-se a primeira província romana. O rei Hierão de Siracusa permaneceu como um aliado fiel dos romanos.\n[…]\nRica em terras agrícolas, a Sicília transformou-se numa importante fonte de cereais para Roma, cultivados em latifúndios explorados por escravos. Duas revoltas de escravos ocorreram entre 135 e 101 a.C.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Óstia",
+      "descricao": "Antiga cidade romana na foz do rio Tibre, hoje o sítio arqueológico de Óstia Antiga."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Na foz do rio Tibre, que cidade funcionou por séculos como o principal porto da Roma antiga?",
+    "resposta": "Óstia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ostia_Antica"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ostia_Antica",
+        "situacao": "ok",
+        "texto": "Ostia Antica (lit. 'Ancient Ostia') is the modern name given to the ancient Roman city of Ostia. It became the port city of Rome located at the mouth of the Tiber and is near modern Ostia, 25 km (16 mi) southwest of Rome. Due to silting of the coastline from the river, the site now lies 3 km (2 mi) from the sea. The name Ostia (the plural of ostium) derives from Latin os 'mouth'.\n[…]\nOstia Antica is now a large archaeological site noted for the excellent preservation of its ancient buildings, magnificent frescoes and impressive mosaics. As in Pompeii, Ostia's remains provide details about Roman urbanism that are not accessible within the city of Rome itself.\n[…]\nIn 2025, excavations at Ostia Antica uncovered what may be the oldest Jewish ritual bath (mikveh) found outside Israel, dating to the late 4th or early 5th century. Located within a large Roman house, the bath features a deep immersion pool and an oil lamp with a menorah symbol, supporting its Jewish identification.\n[…]\nThe site of Ostia Antica is open to the public. Finds from the excavation are housed onsite in the Museo Ostiense.\n[…]\nOstia is one of the inspirations for the setting of The Talos Principle.\n[…]\nTemple of Bellona, Ostia\n[…]\nKarivieri, Arja (2020). Life and death in a multicultural harbour city. Ostia antica from the Republic through late antiquity. Rome: Institutum Romanum Finlandiae, ISBN 978-88-5491-104-8.\n[…]\nMeiggs, R. (1960) 1973. Roman Ostia 2nd ed. (Oxford University Press) The standard overview.\n[…]\nPacker, James E. 1971 The Insulae of Imperial Ostia M.Am.Acad. Rome 31\n[…]\nPavolini, C. Ostia: Guida Archeologica Laterza. Rome: Laterza (Italian)\n[…]\nRieger, Anna-Katharina (2004). Heiligtümer in Ostia [Sanctuaries in Ostia]. München: Pfeil, ISBN 3-89937-042-2.\n[…]\nLorenzatti Sandro, Ostia. Storia Ambiente Itinerari. Roma 2007.\n[…]\nPhotographs of Ostia at DigitalMapsoftheAncientWorld retrieved August 13, 2022"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%93stia",
+        "situacao": "ok",
+        "texto": "Óstia Antiga (em latim: Ostia Antica) é um grande sítio arqueológico, perto da cidade moderna de Óstia, que é o local da cidade portuária da Roma Antiga, a 25 km a sudoeste de Roma. \"Ostia\" (plur. De \"ostium\") é uma derivação de \"os\", a palavra latina para \"boca\". Na foz do rio Tibre, Óstia era o porto marítimo de Roma, mas devido ao assoreamento, o local fica agora a 3 quilômetros do mar.\n[…]\nEntre os anos 264 e 201 a.C., durante a Guerras Púnicas, Óstia se tornou a principal base da costa oeste para a marinha romana. Em 67 a.C., piratas cilícios saquearam a cidade e incendiaram o porto, destruindo uma frota de navios. Cneu Pompeu, através da lei Lex Gabinia, reuniu tropas e conseguiu derrotar os saqueadores.\n[…]\nA cidade passou por ampliações durante o governo de Júlio César, onde a cidade foi fortificada. Durante o governo de Tibério, foi construído um fórum e um novo porto. Óstia se tornara um importante porto para Roma, tendo a função de regular o comércio marítimo, e armazenar e distribuir os bens e mantimentos das províncias para a capital. Atingiu seu auge no século II, possuindo mais de 50.000 habitantes.\n[…]\nCom a transferência da capital do império de Roma para Bizâncio, durante o governo de Constantino, Óstia começou a declinar; passou por invasões bárbaras nos anos 408 e 537, que devastou a cidade, ocasionando a queda populacional e econômica; logo depois, a presença dos mouros no mediterrâneo ocidental atrapalhou o comércio marítimo no porto, acelerando o declínio da cidade.\n[…]\nEm meados do século IX, muitos monumentos, pedras e mármores de Óstia foram saqueados para construir edifícios em outras cidades como Orvieto e Pisa. Em 1598, o papa Clemente VIII sancionou o direito de extrair mármore das ruínas de Óstia para as obras de Roma, como foi utilizado na base da estátua de São Pedro no topo da Coluna de Trajano e na Basílica de São João de Latrão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Gládio",
+      "descricao": "Espada curta usada pelos legionários romanos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome dos gladiadores vem de uma arma usada pelos soldados romanos. Que arma era essa?",
+    "resposta": "A espada curta, o gládio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gladiator",
+      "https://en.wikipedia.org/wiki/Gladius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gladiator",
+        "situacao": "ok",
+        "texto": "A gladiator (Latin: gladiator 'swordsman', from Latin  gladius 'sword') was an armed combatant who entertained audiences in the Roman Republic and Roman Empire in violent confrontations with other gladiators, wild animals, and condemned criminals. Some gladiators were volunteers who risked their lives and their legal and social standing by appearing in the arena. Most were despised as slaves, scho\n[…]\nPliny the Elder gives vivid examples of the popularity of gladiator portraiture in Antium and an artistic treat laid on by an adoptive aristocrat for the solidly plebeian citizens of the Roman Aventine:\n[…]\nWhen a freedman of Nero was giving a gladiatorial show at Antium, the public porticoes were covered with paintings, so we are told, containing life-like portraits of all the gladiators and assistants.\n[…]\nThis portraiture of gladiators has been the highest interest in art for many centuries now, but it was Gaius Terentius who began the practice of having pictures made of gladiatorial shows and exhibited in public; in honour of his grandfather who had adopted him he provided thirty pairs of Gladiators in the Forum for three consecutive days, and exhibited a picture of the matches in the Grove of Diana.\n[…]\nSome Roman reenactors attempt to recreate Roman gladiator troupes. Some of these groups are part of larger Roman reenactment groups, and others are wholly independent, though they might participate in larger demonstrations of Roman reenacting or historical reenacting in general. These groups usually focus on portraying mock gladiatorial combat in as accurate a manner as possible.\n[…]\nCartwright, Mark (3 May 2018). \"Gladiator\". World History Encyclopedia.\n[…]\n\"Britannia Gladiators\". Archived from the original on 31 May 2014. Retrieved 7 March 2011.\n[…]\n\"Gladiators\". Archaeology. Archaeological Institute of America. 2007. Archived from the original on 10 October 2010. Retrieved 7 March 2011."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gladius",
+        "situacao": "ok",
+        "texto": "Gladius (Classical Latin: [ˈɡɫadiʊs]) is a Latin word properly referring to the type of sword that was used by ancient Roman foot soldiers starting from the 3rd century BC and until the 3rd century AD. Linguistically, within Latin, the word also came to mean \"sword\", regardless of the type used.\n[…]\nModern English words derived from gladius include gladiator (\"swordsman\") and gladiolus (\"little sword\", from the diminutive form of gladius), a flowering plant with sword-shaped leaves.\n[…]\nTowards the end of the 2nd century AD and during the 3rd century the spatha gradually took the place of the gladius in the Roman legions.\n[…]\nThe Fulham gladius or Mainz-Fulham gladius was a Roman sword that  was used after Aulus Plautius' invasion of Britain in 43 AD. The Romans used it until the end of the 1st century. The Fulham gladius has a triangular tip. The length of the blade is 50–55 cm (20–22 in). The length of the sword is 65–70 cm (26–28 in). The width of the blade is 6 cm (2.4 in). The swords weighs 700 g (1.5 lb) (wooden hilt). A full size replica can be seen at Fulham Palace, Fulham.\n[…]\nThe Pompeii gladius was named by modern historians after the Roman town of Pompeii. This type of gladius was by far the most popular one. Four examples of the sword type were found in Pompeii, with others turning up elsewhere. The sword has parallel cutting edges and a triangular tip. This is the shortest of the gladii. It is often confused with the spatha, which was a longer, slashing weapon used initially by mounted auxilians.\n[…]\n\"Legio XX Gladius\".\n[…]\n\"Legio XXIV Gladiator page\".\n[…]\nRoss Cowan, Gladius Gallicus, an introduction to the Gallic-type swords used by the Romans prior to the adoption of the gladius Hispaniensis\n[…]\nIron of the Empire: The History and Development of the Roman Gladius (myArmoury.com article)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gladiador",
+        "situacao": "ok",
+        "texto": "Gladiador,  do latim gladiātor, de gladius (modelo de espada utilizada pelos romanos), era uma pessoa que, na Roma Antiga, lutava com outra pessoa ou animal, às vezes, até a morte, para o entretenimento do público romano.\n[…]\nOs anfiteatros só começaram a ser construídos em I, assim como outros diversos edifícios públicos, dois séculos depois do primeiro combate de gladiadores romanos.\n[…]\nO mais antigo tipo de gladiador, foi chamado assim pois utilizava equipamentos deixados pelos guerreiros Samnitas (inimigos de Roma nos primórdios da república). Usavam um escudo retangular, um espada curta (gladius) e um elmo decorado com penas. Eventualmente caíram em desuso no governo de Augustus, pois ofenderiam os cidadão samnitas, agora aliados de Roma.\n[…]\nEstilo difícil de identificar, pelo fato de ser parecido com o gladiador Trácio. Usava proteções nas pernas e um impressionante elmo ornado, mas distinguia-se do Trácio por usar uma espada reta e um pequeno escudo redondo.\n[…]\nOs Eques eram gladiadores peculiares pelo fato de lutarem montados em cavalos. Utilizavam espada curta ou lança, junto a um escudo redondo pequeno, com uma túnica de vestimenta. Lutavam contra outros Eques, simulando batalhas de cavalaria.\n[…]\nOutra evidência física é um relevo em mármore encontrado em Halicarnassus, atualmente exibido no Museu Britânico, que data do primeiro ou século II a.C. Descreve duas mulheres equipadas e vestidas de forma semelhante aos gladiadores masculinos, vestem uma (subligaculum), grevas, um protetor de braço (Manica), armadas com um escudo e uma espada, sem  usarem capacete ou uma camisa. Se enfrentam e tem seus nomes inscritos em grego abaixo delas, Amazônia e Aquília.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Testudo",
+      "descricao": "Formação militar romana em que os legionários se cobriam com escudos pela frente, pelos lados e por cima."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os legionários romanos às vezes formavam uma espécie de caixa de escudos, pela frente, pelos lados e por cima. Que animal dava nome a essa formação?",
+    "resposta": "Tartaruga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Testudo_formation"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Testudo_formation",
+        "situacao": "ok",
+        "texto": "In ancient Roman warfare, the testudo or tortoise formation was a type of shield wall formation commonly used by the Roman legions during battles, particularly when they were the attacking force during sieges.\n[…]\nThe testudo was used to protect soldiers from all types of missiles. It could be formed by immobile troops and troops on the march. The primary drawback to the formation was that, because of its density, the men found it more difficult to fight in hand-to-hand combat and because the men were required to move in unison, speed was sacrificed. As \"phoulkon\", it played a great role in the tactics employed by the Byzantines against their eastern enemies.\n[…]\nThe testudo was a common formation in the Middle Ages, being used by Muhammad's forces during the Siege of Ta'if in 630, also by the Carolingian Frankish soldiers of Louis the Pious to advance on the walls of Barcelona during the siege of 800–801, by Vikings during the siege of Paris in 885–886, by East Frankish soldiers under king Arnulf of Carinthia during the siege of Bergamo in 894, by Lotharingians under Conrad the Red at the siege of Senlis in 949, by Lotharingian defenders at the siege of Verdun in 984 and by the Crusaders of count Raymond IV of Toulouse during the siege of Nicaea in 1097.\n[…]\nThe testudo formation was again employed by medieval Arabs, who called it the dabbāba or \"crawler\". It was employed by Abu Abdallah al-Shi'i in the 906 siege of Tobna (in modern-day Algeria), where he used it to protect sappers as they advanced to the city walls, where they undermined and collapsed a tower, creating a breach for their allies to enter the city.\n[…]\nMedia related to Testudo formations at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_tartaruga",
+        "situacao": "ok",
+        "texto": "A formação tartaruga era utilizada pelos soldados romanos e tinha caráter defensivo. Consistia em dispor os escudos bem juntos uns dos outros formando um teto com eles, visando a proteger os legionários de ataques com projéteis, por cima e pelos lados.\n[…]\nNa formação Testudo, a primeira fileira de homens, excluindo possivelmente os homens das laterais, segurava seus escudos aproximadamente entre a altura de suas canelas até os seus olhos, para cobrir a frente da formação. Os escudos eram erguidos de tal maneira que eles representavam uma parede de escudos para todos os lados.\n[…]\nOs homens nas fileiras traseiras colocavam seus escudos sobre suas cabeças para proteger a formação por cima, equilibrando os escudos em seus capacetes, sobrepondo-os. Se necessário, os legionários nas laterais e traseira da formação poderiam ficar de lado ou para trás com escudos erguidos como os das linhas de frente, de modo a proteger os lados e a traseira da formação.\n[…]\nDião Cássio escreve sobre a testudo ao descrever a campanha de Marco Antônio em 36 a.C. durante sua invasão da Pártia:\n[…]\nEste era o plano de formação e por essa razão recebeu o nome de testudo, como referência à sua força e ao excelente abrigo que proporciona.\n[…]\nA testudo não era invencível, como Cassius Dio também registra a ocasião em que uma formação Romana de escudos foi derrotada por catafractários Partos e cavaleiros arqueiros na Batalha de Carras:\n[…]\n“Pois se [os legionários] decidiram fechar os escudos com a finalidade de evitar as flechas pela proximidade de sua formação, os [catafractários] avançaram contra eles rapidamente, derrubando alguns, e espalhando os outros; e se ampliaram suas fileiras para evitar isso, eles foram atingidos pelas flechas”.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Pontífice",
+      "descricao": "Membro do principal colégio de sacerdotes da Roma antiga, cujo título passou depois ao papa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O papa tem o título de pontífice, herdado dos sumos sacerdotes da Roma antiga. O que significa ao pé da letra a palavra latina pontifex?",
+    "resposta": "Construtor de pontes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pontifex_maximus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pontifex_maximus",
+        "situacao": "ok",
+        "texto": "The pontifex maximus (Latin for 'supreme pontiff') was the chief high priest of the College of Pontiffs (Collegium Pontificum) in ancient Rome. This was the most important position in the ancient Roman religion, open only to patricians until 254 BC, when a plebeian first held this position.\n[…]\nAlthough in fact the most powerful office in the Roman priesthood, the pontifex maximus was officially ranked fifth in the ranking of the highest Roman priests (Ordo Sacerdotum), behind the Rex Sacrorum and the flamines maiores (Flamen Dialis, Flamen Martialis, Flamen Quirinalis).\n[…]\nThis law was abolished in 81 BC by Sulla in his dictatorship, in the lex Cornelia de Sacerdotiis, which restored to the great priestly colleges their full right of co-optatio. Also under Sulla, the number of pontifices was increased to fifteen, the pontifex maximus included, and Sulla appointed Quintus Caecilius Metellus Pius as the next holder of the office – the only truly unelected pontifex maximus in history, since even the other pontiffs did not get a vote in the matter.\n[…]\n449) is styled summus pontifex by Eucherius of Lyon (P. L., vol. L, col. 773).\n[…]\nIn December 2012, Pope Benedict XVI adopted @pontifex as his Twitter (now X) handle, prompting users to pose questions with the #askpontifex hashtag. This has been maintained by his successors Pope Francis and Pope Leo XIV.\n[…]\nList of pontifices maximi\n[…]\narticle Pontifex in Smith's Dictionary of Greek and Roman Antiquities\n[…]\nAnnotated pontifex maximus list\n[…]\nList of roman consuls (Fasti consulares) 300 BC – 60 AD at http://www.tyndale.cam.ac.uk/Egypt/ptolemies/chron/chronology.htm Archived December 27, 2011, at the Wayback Machine – in the list of consuls the column on the right (pontifex maximus) lists those that are known in the period."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pont%C3%ADfice_m%C3%A1ximo",
+        "situacao": "ok",
+        "texto": "Pontífice máximo (em latim: pontifex maximus; romaniz.: lit. \"máximo/supremo construtor de pontes\"), na Roma Antiga, designava o sacerdote supremo do colégio dos sacerdotes, a mais alta dignidade na religião romana. Inicialmente somente os patrícios podiam ocupá-lo, até um plebeu ser designado para o cargo em 254 a.C.\n[…]\nDe acordo com a interpretação habitual, o termo pontifex significa literalmente \"construtor de ponte\" (pons + facere); \"maximus\" significa literalmente \"máximo\", \"maior\" ou \"supremo\". Este título talvez tenha sido originalmente usado em seu sentido literal: a posição do construtor de pontes era realmente importante em Roma, onde as grandes pontes ao longo do Tibre, o rio sagrado, adornadas com estátuas de divindades, eram utilizadas somente por autoridades prestigiadas com funções sacras.\n[…]\nO Colégio de Pontífices (collegium Pontificum) foi o mais importante sacerdócio da Roma Antiga. A fundação deste colégio sagrado é atribuída ao segundo rei de Roma, Numa Pompílio. É seguro dizer que o colégio foi encarregado de atuar como consultor do rei (rex) em todos os assuntos de religião. O colégio foi chefiado pelo pontífice máximo, sendo o cargo vitalício. Antes de o cargo ser criado, as funções administrativas e religiosas foram naturalmente exercidas pelo rei.\n[…]\nUma vez que o título de \"pontífice\" era uma palavra latina equivalente a \"sumo sacerdote\", como pode ser observado em sua tradução em outras línguas, como o grego, o termo equivalente grego foi usado no texto da Septuaginta e pelos apóstolos. Posteriormente quando Jerônimo de Estridão traduziu a Bíblia para o latim, a Vulgata, o termo pontífice foi definitivamente usado para referir-se ao sumo sacerdote judeu.\n[…]\nA partir do século XV, o título de pontífice máximo passou a ser aplicado para os papas (ver lista de papas).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Plebiscito",
+      "descricao": "Na Roma antiga, decisão votada pela assembleia dos plebeus; hoje, consulta popular direta."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Roma antiga, as leis votadas pela assembleia da gente comum, sem os patrícios, tinham um nome hoje usado para consultas populares. Que nome?",
+    "resposta": "Plebiscito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Plebiscite",
+      "https://pt.wikipedia.org/wiki/Plebiscito"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Plebiscite",
+        "situacao": "ok",
+        "texto": "A referendum, plebiscite, or ballot measure is a direct vote by the electorate (rather than their representatives) on a proposal, law, or political issue. A referendum may be either binding, resulting in the adoption of a new policy, or consultive (or advisory), functioning like a large opinion poll.\n[…]\nThe term 'plebiscite' has a generally similar meaning in modern usage and comes from the Latin plebiscita, which originally meant a decree of the Concilium Plebis (Plebeian Council), the popular assembly of the Roman Republic. Today, a referendum can also often be referred to as a plebiscite, but in some countries the two terms are used differently to refer to votes with differing types of legal consequences.\n[…]\nBinding vs consultative\n[…]\nAuthorities plebiscite: Also known as a legislative referral, are initiated by the legislature or government. These may be advisory questions to gauge public opinion or binding questions of law.\n[…]\nSome opposition to the referendum has arisen from its use by dictators such as Adolf Hitler and Benito Mussolini who, it is argued, used the plebiscite to disguise oppressive policies as populism. Dictators may also make use of referendums as well as show elections to further legitimize their authority such as António de Oliveira Salazar in 1933; Benito Mussolini in 1934; Adolf Hitler in 1934, 1936; Francisco Franco in 1947; Park Chung Hee in 1972; and Ferdinand Marcos in 1973.\n[…]\nHitler's use of plebiscites is argued as the reason why, since World War II, there has been no provision in Germany for the holding of referendums at the federal level.\n[…]\nQvortrup, Matt; O'Leary, Brendan; Wintrobe, Ronald (2018). \"Explaining the Paradox of Plebiscites\". Government and Opposition. 55 (2): 1–18. doi:10.1017/gov.2018.16. S2CID 149756080."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Plebiscito",
+        "situacao": "ok",
+        "texto": "Plebiscito (do latim plebiscitum, decreto da plebe) é um voto ou decreto passado em comício, originariamente obrigatório apenas para os plebeus. Hoje em dia, o plebiscito é convocado antes da criação da norma (ato legislativo ou administrativo), e são os cidadãos, por meio do voto, que vão aprovar ou não a questão que lhes for submetida.\n[…]\nPara Darcy Azambuja, o referendo é o que mais aproxima o Governo da democracia pura, mas também é o mais complexo, tanto por sua intimidade com outros instrumentos, como o plebiscito e o veto popular, como pelas diferentes classificações que abriga.\n[…]\nA constituição brasileira (1988) prevê, em seu artigo 14, que \"a soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos, e, nos termos da lei, mediante: I - plebiscito; II - referendo; III - iniciativa popular\". Não existe na atual constituição brasileira a previsão expressa que permita aos cidadãos introduzir mudanças na Constituição.\n[…]\nPorém, através de uma análise principiológica é possível que seja permitido aos cidadãos emendar a Constituição. Só se saberá ao certo quando for tentando projeto de emenda de iniciativa popular. Podem ocorrer mudanças constitucionais mediante plebiscito, porém, só o Congresso pode convocá-lo (o Executivo pode, no máximo, enviar mensagem ao Parlamento propondo sua convocação, mas é o Legislativo que decide se convoca ou não).\n[…]\nIniciativa popular\n[…]\nGARCIA, Alexandre Navarro. Democracia semidireta: Referendo, plebiscito, iniciativa popular e legislação participativa. Estudo comparado sobre a iniciativa popular na Suíça, Itália, França e Estados Unidos com ênfase ao Brasil. Revista de Informação Legislativa Universidade do Legislativo Brasileiro - UNILEGIS, 2005\n[…]\nreferendo X plebiscito [ligação inativa]"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "SPQR",
+      "descricao": "Sigla latina que representava o Estado romano, gravada em estandartes, moedas e monumentos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As letras esse, pê, quê, erre aparecem em estandartes romanos e até nas tampas de bueiro da Roma atual. O que essa sigla significa?",
+    "resposta": "O Senado e o Povo Romano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SPQR"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/SPQR",
+        "situacao": "ok",
+        "texto": "SPQR or S.P.Q.R., an initialism for Senatus Populusque Romanus (Classical Latin: [sɛˈnaːtʊs pɔpʊˈɫʊskʷɛ roːˈmaːnʊs]; transl. \"The Senate and People of Rome\"), is an emblematic phrase referring to the government of the Roman Republic. It appears on documents made public by an inscription in stone or metal, in dedications of monuments and public works, and on some Roman currency.\n[…]\nIn Latin, Senātus is a nominative singular noun meaning \"Senate\". Populusque is compounded from the nominative noun Populus, \"the People\", and -que, an enclitic particle meaning \"and\" which connects the two nominative nouns. The last word, Rōmānus (\"Roman\"), is an adjective modifying the whole of Senātus Populusque: the \"Roman Senate and People\", taken as a whole. Thus, the phrase is translated literally as \"The Roman Senate and People\", or more freely as \"The Senate and People of Rome\".\n[…]\nAn alternative interpretation of the acronym, provided by the dictionary IL – Vocabolario della lingua latina by Luigi Castiglioni and Scevola Mariotti, is ‘Senatus Populusque Quiritium Romanus’, that is: ‘the Roman Senate and People of the Quirites’; the Quirite (quiris) was, in fact, a citizen of ancient Rome who enjoyed full civil, political and even military rights.\n[…]\nOne of the ways the emperor Commodus (180–192) paid for his donatives and mass entertainments was to tax the senatorial order, and on many inscriptions, the traditional order is provocatively reversed (Populus Senatusque...).\n[…]\nSPQx is sometimes used as an assertion of municipal pride and civic rights. The Italian town of Reggio Emilia, for instance, has SPQR in its coat of arms, standing for Senatus Populusque Regiensis. There are historic usages of the deployment of the \"SPQx\" format in various other  cities and towns:\n[…]\nLewis & Short dictionary entry for populus on Perseus.edu"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/SPQR",
+        "situacao": "ok",
+        "texto": "SPQR, uma abreviação para Senatus Populusque Romanus (latim clássico: [sɛˈnaːtʊs pɔpʊˈlʊs kᶣɛ roːˈmaːnʊs]; em português:  \"O Senado e Povo Romano\"; ou mais livremente \"O Senado e o Povo de Roma\"), é uma frase abreviada emblemática que se refere ao governo da antiga República Romana. Aparece na moeda romana e no fim de documentos tornados públicos pela inscrição em pedra ou metal, e em dedicações d\n[…]\nA frase completa aparece em literatura política, legal e histórica romana, como os discursos de Cícero e Ab Urbe Condita Libri (\"Livros da Fundação da Cidade\") de Lívio.\n[…]\nSPQR: Senātus Populusque Rōmānus.\n[…]\nEm latim, Senātus é um substantivo singular nominativo que significa \"Senado\". Populusque é composto pelo substantivo nominativo Populus, \"o Povo\", e por -que, uma partícula enclítica que significa \"e\" que conecta os dois substantivos nominativos. A última palavra, Rōmānus (\"Romano\") é um adjetivo que modifica completamente Senātus Populusque: o \"Senado e Povo Romano\", tomado como um todo.\n[…]\nAssim, a frase é traduzida literalmente como \"O Senado e Povo Romano\", ou mais livremente como \"O Senado e Povo de Roma\".\n[…]\nOs supremacistas brancos tendem a associar \"SPQR\" ao ethos militarista das legiões romanas. Na verdade, não há evidências de que a sigla aparecesse regularmente nas insígnias e equipamentos militares romanos, mas era muito usada pelo regime fascista de Benito Mussolini.\n[…]\nO clube de futebol Associazione Sportiva Roma utiliza no seu equipamento as iniciais de SPQR à altura do tórax, durante toda a época desportiva 2023/24. Em 29 de Abril 2017, já tinha utilizado contra o rival da cidade, Società Sportiva Lazio.\n[…]\nMedia relacionados com SPQR no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Cincinato",
+      "descricao": "Lúcio Quíncio Cincinato, aristocrata romano do século cinco antes de Cristo que deixou o arado para ser ditador e depois voltou à lavoura."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Cincinato largou o arado para ser ditador de Roma e, vencida a crise, voltou à lavoura. Que cidade americana deve seu nome, indiretamente, a ele?",
+    "resposta": "Cincinnati",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cincinnatus",
+      "https://en.wikipedia.org/wiki/Cincinnati"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cincinnatus",
+        "situacao": "ok",
+        "texto": "Lucius Quinctius Cincinnatus (c. 519 – c. 430 BC) was a Roman patrician, statesman, and military leader of the early Roman Republic who became a famous model of Roman virtue—particularly civic virtue—by the time of the late Republic.\n[…]\nThe Society of the Cincinnati was established by Henry Knox in 1783 to assist the officers of the Continental Army and Navy and their families, to preserve the ideals of the American Revolution, and to maintain the union of the former colonies. A French Society of the Cincinnati was founded soon afterward by King Louis XVI. Cincinnati, Ohio, and Cincinnatus, New York, in the United States, were named in his honor.\n[…]\nRipley, George; Dana, Charles A., eds. (1879), \"Lucius Quintius Cincinnatus\", American Cyclopaedia, Vol. IV, New York{{citation}}:  CS1 maint: location missing publisher (link).\n[…]\nSmith, William, ed. (1867), \"Cincinna′tus\", A Dictionary of Greek and Roman Biography and Mythology, Vol. I, Boston: Little, Brown, & Co..\n[…]\nBaynes, T. S., ed. (1878), \"Cincinnatus\" , Encyclopædia Britannica, vol. 5 (9th ed.), New York: Charles Scribner's Sons, pp. 784–785\n[…]\nChisholm, Hugh, ed. (1911), \"Cincinnatus, Lucius Quinctius\" , Encyclopædia Britannica, vol. 6 (11th ed.), Cambridge University Press, p. 374\n[…]\nBeach, Chandler B., ed. (1914), \"Cincinnatus, Lucius Quintius\" , The New Student's Reference Work , vol. 1, Chicago: F. E. Compton and Co\n[…]\n\"Cincinnatus, Lucius Quinctius\" , Encyclopedia Americana, vol. 6, 1920\n[…]\nGill, N.S. (17 August 2016), \"Lucius Quinctius Cincinnatus\", About Ancient/Classical History, About.com, archived from the original on 16 July 2011, retrieved 28 August 2007"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cincinnati",
+        "situacao": "ok",
+        "texto": "Cincinnati (  SIN-sin-AT-ee; colloquially nicknamed Cincy) is the most populous city in Hamilton County, Ohio, United States, and its county seat. It is located along the Ohio River across from its confluence with the Licking River in Kentucky. Cincinnati is the third-most populous city in Ohio (after Columbus and Cleveland), and the 66th-most populous city in the U.S., with a population of 309,31\n[…]\nCincinnati has been called the \"Chili Capital of America\" and \"of the World\" because it has more chili restaurants per capita than any other city in the United States or in the world.\n[…]\nCincinnati has three major league teams, five minor league teams, five college institutions with sports teams, and seven major sports venues. Cincinnati's three major league teams are Major League Baseball's Reds, who were named for America's first professional baseball team, the Cincinnati Red Stockings; the Bengals of the National Football League; and FC Cincinnati, which became a Major League Soccer franchise in 2019.\n[…]\nCincinnati's daily newspaper is The Cincinnati Enquirer, which was established in 1841. The city is home to several alternative, weekly, and monthly publications, among which are free weekly print magazine publications including CityBeat and La Jornada Latina. The city's weekly African American newspaper, The Cincinnati Herald, was founded by Gerald Porter in 1955 and purchased by Sesh Communications in 1996.\n[…]\nThe city is served by Cincinnati/Northern Kentucky International Airport (IATA: CVG) which is located in Hebron, Kentucky. The airport is a focus city for Allegiant Air and Frontier Airlines as well as a global cargo hub for both Amazon Air and DHL Aviation. The airport offers non-stop passenger service to over 50 destinations in North America and to European cities including Paris and London.\n[…]\nVine Street, Cincinnati\n[…]\nAdelina Patti and Oscar Wilde in Cincinnati 1882"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%BAcio_Qu%C3%ADncio_Cincinato",
+        "situacao": "ok",
+        "texto": "Lúcio Quíncio Cincinato (em latim: Lucius Quinctius Cincinnatus; 519 a.C. — 439 a.C.) foi general, cônsul e por um certo período, ditador romano, por determinação do senado.\n[…]\nFoi pai também de Lúcio Quíncio Cincinato, que foi tribuno consular por três vezes (438, 425 e 420 a.C.), de Tito Quíncio Peno Cincinato, cônsul em 431 e 428 a.C. e tribuno consular em 426 a.C., e de Quinto Quíncio Cincinato, tribuno consular em 415 e 405 a.C.\n[…]\nNo entanto, ele acampa seu exército ao lado do inimigo, e ao não tomar a iniciativa os équos cercam-no. Alguns cavaleiros romanos escapam e retornam a Roma para dizer ao senado o que tinha acontecido. O senado, em pânico, autoriza que Marco Horácio Pulvilo - o outro cônsul para o ano - nomeie um ditador. Horácio, sem titubear, nomeia Lúcio Quíncio Cincinato para um mandato ditatorial (também conhecido como Pretor Máximo (Praetor Maximus) ou Mestre do Povo (Magister Populi)) por seis meses.\n[…]\nO équos foram surpreendidos pelo ataque duplo e logo vencidos. O cônsul Lúcio foi resgatado e o generais inimigos foram julgados em Roma. Cincinato recebeu as honrarias do triunfo romano e, em seguida, renunciou ao seu mandato, para retornar a sua vida pastoril novamente.\n[…]\nCom isto, ele arrumou amigos e contratou uma guarda pessoal com a qual teria ganho o controle da cidade; porém, o patrício Minúcio Agurino, que era responsável pela distribuição de grãos e havia sido censurado pela escassez de comida, reportou as ações de Mélio ao Senado. O Senado apontou Lúcio Quíncio Cincinato, que estava com oitenta anos de idade, para ser ditador.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Monte Capitolino",
+      "descricao": "Uma das sete colinas de Roma, onde ficava o templo de Júpiter Ótimo Máximo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o prédio do Congresso americano, em Washington, tem em comum com a colina romana do templo de Júpiter?",
+    "resposta": "O nome Capitólio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capitoline_Hill",
+      "https://en.wikipedia.org/wiki/United_States_Capitol"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Capitoline_Hill",
+        "situacao": "ok",
+        "texto": "The Capitolium or Capitoline Hill ( KAP-it-ə-lyne, kə-PIT-; Italian: Campidoglio [kampiˈdɔʎʎo]; Latin: Mons Capitolinus [ˈmõːs kapɪtoːˈliːnʊs]), between the Forum and the Campus Martius, is one of the Seven Hills of Rome.\n[…]\nThe hill was earlier known as Mons Saturnius, dedicated to the god Saturn. The word Capitolium first referred to the Temple of Jupiter Optimus Maximus which was located on the hill; however, the meaning evolved to refer to the whole hill and even other temples of Jupiter on other hills. In an etymological myth, ancient sources connect the name to caput (\"head\", \"summit\") because of a tale that stated that when the foundations for the temple were being laid, a man's head was found.\n[…]\nThe word Capitolium is a precursor to the English word capitol, and Capitol Hill in Washington, D.C. is widely assumed to be named after the Capitoline Hill.\n[…]\nThere are several important temples built on Capitoline Hill: the temple of Juno Moneta, the temple of Virtus, and the Temple of Jupiter Optimus Maximus Capitolinus. The Temple of Jupiter Optimus Maximus Capitolinus is the most important of the temples. It was built in 509 BC and was nearly as large as the Parthenon. The hill and the temple of Jupiter became the symbols of Rome, the capital of the world.\n[…]\nThe Temple of Saturn was built at the foot of Capitoline Hill in the western end of the Forum Romanum.\n[…]\nInfluenced by Roman architecture and Roman republican times, the word Capitolium still lives in the English word capitol. The Capitol Hill in Washington, D.C., is widely assumed to be named after the Capitoline Hill.\n[…]\n\"Capitolium\" at Roma Interactive (archived link)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_Capitol",
+        "situacao": "ok",
+        "texto": "The United States Capitol, often called the Capitol or the Capitol Building, is the seat of the United States Congress, the legislative branch of the federal government. It is located on Capitol Hill at the eastern end of the National Mall in Washington, D.C. Although no longer at the geographic center of the national capital, the U.S. Capitol forms the origin point for the street-numbering system\n[…]\nThe term \"Capitol\" (from Latin Capitolium) originally denoted the Capitoline Hill in Rome and the Temple of Jupiter that stood on its summit. The Roman Capitol was sometimes misconceived of as a meeting place for senators, and this led the term to be applied to legislative buildings; the first such building was the Williamsburg Capitol in Virginia.\n[…]\nHowever, the House of Representatives moved early into their House wing in 1807. Though the Senate wing building was incomplete, the Capitol held its first session of the U.S. Congress with both chambers in session on November 17, 1800. The National Legislature was moved to Washington prematurely, at the urging of President John Adams, in hopes of securing enough Southern votes in the Electoral College to be re-elected for a second term as president.\n[…]\nThe Capitol Grounds cover approximately 274 acres (1.11 km2), with the grounds proper consisting mostly of lawns, walkways, streets, drives, and planting areas. Several monumental sculptures used to be located on the east facade and lawn of the Capitol including The Rescue and George Washington. The current grounds were designed by noted American landscape architect Frederick Law Olmsted, who planned the expansion and landscaping performed from 1874 to 1892.\n[…]\nCapitol History Project Archived April 17, 2007, at the Wayback Machine\n[…]\nTemple of Liberty: Building the Capitol for a New Nation, Library of Congress\n[…]\nU.S. Capitol Police Archived September 3, 2009, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Capitolino",
+        "situacao": "ok",
+        "texto": "Capitólio (em latim: Capitolium), como monte Capitolino (em latim: Mons Capitolinus), é uma das sete colinas sobre as quais foi fundada a cidade de Roma.\n[…]\nA encosta sudoeste do Capitolino, ocupada por vários edifícios da Villa Caffarelli e abaixo da Rocha Tarpeia, ainda hoje é conhecida como Monte Caprino.\n[…]\nSegundo o historiador Tácito, o Capitólio e também o vizinho Fórum Romano foram anexados à antiga Roma quadrada de Rômulo por Tito Tácio. A construção do Templo de Júpiter Capitolino, dedicado à tríade capitolina (Júpiter, Juno e Minerva), que antigamente ocupava o segundo cume (Capitolium) e era até então apenas um altar, foi iniciada, segundo a tradição, na época de Tarquínio Prisco, continuando durante o reinado de Tarquínio Soberbo e só terminou no início da República Romana.\n[…]\nDurante as obras de escavação das fundações do Templo de Júpiter Capitolino foi recuperada uma cabeça humana atribuída, na época, a Aulo Vibena (ou Vipsânia), um dos condes do herói Mastarna (o rei Sérvio Túlio), irmão de Célio Vibena. Ainda na antiguidade se supunha que deste episódio derivou o nome da colina inteira: de caput Auli, que significa \"cabeça de Aulo\", derivou capitolium.[carece de fontes]?\n[…]\nA antiga via de acesso ao Capitólio que permitia o tráfego de carroças era o Clivo Capitolino, uma continuação da Via Sacra que iniciava perto do Templo de Saturno (um trecho ainda é visível logo depois do Pórtico dos Deuses Harmoniosos). Mais adiante, a estrada ruiu juntamente com grande parte da encosta meridional da colina, mas é provável que seu trajeto continuasse em linha reta, contornando a colina para chegar ao Templo de Júpiter.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Augusto",
+      "descricao": "Otaviano, primeiro imperador romano, que governou de 27 antes de Cristo a 14 depois de Cristo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Júlio César adotou em testamento o jovem Otaviano, futuro Augusto. Que parentesco de sangue já existia entre os dois?",
+    "resposta": "César era tio-avô de Otaviano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Augustus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Augustus",
+        "situacao": "ok",
+        "texto": "Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14), also known as Octavian (Latin: Octavianus), was the founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14. The reign of Augustus initiated an imperial cult and an era of imperial peace (the Pax Romana or Pax Augusta) when the Roman world was largely free of armed conflict.\n[…]\nWhen this was refused, Octavian marched on Rome, where he encountered no military opposition. On 19 August 43 BC, aged 19, he became consul alongside his relative Quintus Pedius. Pedius passed legislation creating a special tribunal for Caesar's assassins and their alleged associates; Octavian presided over the trial and had them convicted and exiled in absentia. Octavian also induced the curiate assembly to have him adrogated into Caesar's family, legitimizing his claim of testamentary adoption.\n[…]\nAugustus is not as widely known as his great-uncle Julius Caesar and is often sidelined as a minor character or brooding villain in theatrical plays, films, TV series, comics, and novels. Goldsworthy attributes this to the fact that Shakespeare never wrote a play centered around him. Shakespeare's 1599 play Julius Caesar features the character of Octavius, while in the 1607 play Antony and Cleopatra he plays a weak, cowardly, and manipulative foe to Antony under the name Caesar.\n[…]\nThis view is perhaps based on ancient primary sources that reflect the propaganda war waged between Antony and Octavian, manifested in the cold performance of actor Roddy McDowall as Octavian in the 1963 film Cleopatra. Robert Graves's 1934 novel I, Claudius and its subsequent 1976 television series depict the older Augustus in a far more sympathetic light as he is outmaneuvered by his murderous wife Livia, though he plays only a supporting character.\n[…]\nAugustus – a short biography in the BBC's History section"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Augusto",
+        "situacao": "ok",
+        "texto": "Augusto (em latim: Gaius Iulius Caesar Octavianus Augustus; Roma, 23 de setembro de 63 a.C. – Nuvlana, 19 de agosto de 14) foi o fundador do Império Romano e seu primeiro imperador, governando de 27 a.C. até sua morte em 14 d.C. Nascido Caio Otávio, pertenceu a um rico e antigo ramo equestre da família plebeia dos Otávios. Depois do assassinato de seu tio-avô Júlio César em 44 a.C., o testamento d\n[…]\nPor exemplo, Otaviano permitiu a proscrição de seu aliado Cícero, Antônio a de seu tio materno Lúcio Júlio César (o cônsul de 64 a.C.) e Lépido, de seu irmão Paulo.\n[…]\nLúcio e seu exército foram poupados, devido a seu parentesco com Antônio, o homem forte do Oriente, enquanto Fúlvia foi exilada em Sicião. Otaviano, contudo, não mostrou misericórdia com os aliados de Lúcio. Em 15 de março, aniversário do assassinato de Júlio César, executou 300 senadores e equestres por se aliarem a Lúcio. Perúsia também foi pilhada e incendiada como um aviso para outros.\n[…]\nOtaviano tinha aproveitado sua posição como herdeiro de César para promover sua própria carreira política, e estava bem ciente dos perigos em permitir que outro fizesse o mesmo. Assim, seguindo o conselho de Ário Dídimo de que \"dois Césares são um em demasia\", ordenou que Cesarião – filho de Júlio César com Cleópatra – fosse morto, mas poupou os filhos de Cleópatra com Antônio, com a exceção do filho mais velho de Antônio com Fúlvia.\n[…]\nOutros projetos também foram encorajados, tais como a reforma do Septa Júlia de Júlio César, que tornou-se palco de lutas de gladiadores, e a construção do Teatro de Balbo, o Panteão, as Termas, o Estagno e o Euripo de Agripa, ou custeados em nome de outros, frequentemente parentes, como por exemplo o Pórtico de Otávia, o Macelo de Lívia e o Teatro de Marcelo. Mesmo seu mausoléu foi construído antes de sua morte para abrigar os membros de sua família.\n[…]\n«Testamento de Augusto, Res Gestae» (em espanhol)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Sêneca",
+      "descricao": "Lúcio Aneu Sêneca, filósofo estoico e escritor romano do século primeiro, nascido em Córdoba."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O filósofo estoico Sêneca acabou forçado a se matar por ordem do imperador Nero. Que papel ele tinha tido na juventude de Nero?",
+    "resposta": "Foi seu tutor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Seneca_the_Younger",
+        "situacao": "ok",
+        "texto": "Lucius Annaeus Seneca the Younger ( SEN-ik-ə; c. 4 BC – AD 65), usually known mononymously as Seneca, was a Stoic philosopher of Ancient Rome, a statesman, a dramatist, and in one work (Apocolocyntosis) a satirist from the post-Augustan age of Latin literature.\n[…]\nSeneca was born in Colonia Patricia Corduba in Hispania, and was trained in rhetoric and philosophy in Greece. His father was Seneca the Elder, his elder brother was Lucius Junius Gallio Annaeanus, and his nephew was the poet Lucan. In AD 41, Seneca was exiled to the island of Corsica under emperor Claudius, but was allowed to return in 49 to become a tutor to Nero.\n[…]\nSeneca's other work of this period, his Consolation to Polybius, one of Claudius' freedmen, focused on consoling Polybius on the death of his brother. It is noted for its flattery of Claudius, and Seneca expresses his hope that the emperor will recall him from exile. In 49 AD Agrippina married her uncle Claudius, and through her influence Seneca was recalled to Rome. Agrippina gained the praetorship for Seneca and appointed him tutor to her son, the future emperor Nero.\n[…]\nThe historical novel Chariot of the Soul by Linda Proud features Seneca as tutor of the young Togidubnus, son of King Verica of the Atrebates, during his ten-year stay in Rome.\n[…]\nCunnally, John, \"Nero, Seneca, and the Medallist of the Roman Emperors\", Art Bulletin, Vol. 68, No. 2 (June 1986), pp. 314–317.\n[…]\nWorks by Seneca the Younger at Perseus Digital Library\n[…]\nWorks by Seneca the Younger in eBook form at Standard Ebooks\n[…]\nWorks by Seneca the Younger at Project Gutenberg\n[…]\nWorks by or about Seneca the Younger at the Internet Archive\n[…]\nWorks by Seneca the Younger at LibriVox (public domain audiobooks)\n[…]\nCollection of works of Seneca the Younger at Wikisource"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%A9neca",
+        "situacao": "ok",
+        "texto": "Lúcio Aneu Séneca (português europeu) ou Sêneca (português brasileiro) (em latim: Lucius Annaeus Seneca; Corduba, ca. 4 a.C. – Roma, 65) foi um filósofo estoico e um dos mais célebres advogados, oradores, escritores e pensadores do Império Romano. Conhecido também como Séneca (ou Sêneca), o Moço, o Filósofo, ou ainda, o Jovem, sua obra literária e filosófica, tida como modelo do pensador estoico d\n[…]\nQuando Nero, aos dezessete anos, tornou-se imperador, Séneca continuou a seu lado, porém não mais como pedagogo e sim como seu principal conselheiro (ajudado por Afrânio Burro, prefeito do Pretório). Sêneca procurou orientar para uma política justa e humanitária. Se, durante os primeiros sete anos, o governo de Nero lembra o de Augusto, o mérito exclusivo é desses dois homens que, na realidade, governaram ao lado do jovem príncipe. A índole de Nero foi mitigada, corrigida, freada.\n[…]\nMais tarde, porém, a malvadez de Nero teve o predomínio. Séneca, durante algum tempo, exerceu influência benéfica sobre o jovem, mas, aos poucos, foi forçado a adotar atitudes de complacência. Chegou mesmo a redigir uma carta ao senado na qual se alega que tentou justificar a execução de Agripina em 59.\n[…]\nSéneca sabia que a maior culpa por sua morte havia sido da própria Agripina, que pretendia imperar e que se tornara hostil por ambição, capricho e corrupção; sua raiva crescente só fez aumentar a vingança matricida de Nero, que não deu mais ouvidos às palavras severas de seus dois conselheiros. Séneca foi, então, muito criticado pela fraca oposição à tirania e à acumulação de riquezas de Nero, incompatíveis com as concepções estoicas.\n[…]\n(56) De Clementia (\"Da Clemência\" / \"Tratado sobre a Clemência\") escrito a Nero sobre a virtude da Clemência em um imperador.\n[…]\nFilosofia na Roma Antiga\n[…]\nFilosofia ocidental\n[…]\nHistória da filosofia ocidental\n[…]\nO Estoico\n[…]\nObras de Séneca na Biblioteca Nacional de Portugal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Virgens Vestais",
+      "descricao": "Sacerdotisas de Vesta que guardavam o fogo sagrado de Roma e faziam voto de castidade."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As vestais, guardiãs do fogo sagrado de Roma, faziam voto de castidade. Que punição recebia a vestal condenada por quebrá-lo?",
+    "resposta": "Era enterrada viva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vestal_Virgin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vestal_Virgin",
+        "situacao": "ok",
+        "texto": "In ancient Rome, the Vestal Virgins or Vestals (Latin: Vestālēs, singular Vestālis [wɛsˈtaːlɪs]) were priestesses of Vesta, virgin goddess of Rome's sacred hearth and its flame.\n[…]\nSaufeia Alexandria, Virgo Vestalis Tiburtium.\n[…]\nParker, Holt N. \"Why Were the Vestals Virgins? Or the Chastity of Women and the Safety of the Roman State\", American Journal of Philology, Vol. 125, No. 4. (2004), pp. 563–601.\n[…]\nSaquete, José Carlos (2000). Las vírgenes vestales. Un sacerdocio femenino en la religión pública romana [The Vestal Virgins. A female priesthood in Roman public religion]. Madrid: Consejo Superior de Investigaciones Científicas.\n[…]\nSawyer, Deborah F. \"Magna Mater and the Vestal Virgins.\" In Women and Religion in the First Christian Centuries, 119–129. London: Routledge Press, 1996.\n[…]\nSchalles, Christiane (2002/2003). Die Vestalin als ideale Frauengestalt. Priesterinnen der Göttin Vesta in der bildenden Kunst von der Renaissance bis zum Klassizismus [The Vestal Virgin as the ideal female figure. Priestesses of the goddess Vesta in the visual arts from the Renaissance to Classicism]. Göttingen: Cuvillier, ISBN 3-89873-624-5.\n[…]\nStaples, Ariadne (1998). From Good Goddess to Vestal Virgins: Sex and Category in Roman Religion. London/New York: Routledge, ISBN 0-415-13233-9.\n[…]\nWildfang, Robin Lorsch. Rome's Vestal Virgins. Oxford: Routledge, 2006 (hardcover, ISBN 0-415-39795-2; paperback, ISBN 0-415-39796-0).\n[…]\nWyrwińska (2021). The Vestal Virgins' Socio-political Role and the Narrative of Roma Aeterna. Krakowskie Studia z Historii Państwa i Prawa, 14(2), 127–151. https://doi.org/10.4467/20844131KS.21.011.13519\n[…]\nHouse of the Vestal Virgins Archived 2008-03-08 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vestal",
+        "situacao": "ok",
+        "texto": "As vestais (em latim virgo vestalis), na Roma Antiga, eram sacerdotisas que cultuavam a deusa romana Vesta. Era um sacerdócio exclusivamente feminino, restrito a seis mulheres que seriam escolhidas entre a idade de 6 a 10 anos, servindo durante trinta anos. Durante esse período, as virgens vestais eram obrigadas a preservar sua virgindade e castidade, pois qualquer atentado a esses símbolos de pur\n[…]\nPodem ser enterradas no pomério;\n[…]\nA virgindade e a castidade (castitas) são consideradas essenciais para as mulheres romanas e particularmente para as virgens vestais, pois esse binômio tem estreita ligação com a fecundidade e o bem-estar da comunidade, representado pelo fogo sagrado, a marca da manutenção da pax deorum. Assim, o fogo sagrado é reproduzido em cada lar romano (domus) através dolararium, simbolizando e perpetuando a pureza da deusa Vesta.\n[…]\nDaí vem a importância da virgem vestal manter a sua castidade e pureza, como entende-se na seguinte passagem de Santiago Montero:\n[…]\nPortanto quando uma sacerdotisa vestal cometia o crimen incesti, a infração a seu voto de castidade era julgada com a pena máxima: a morte. Entretanto havia duas formas de aplicação, a decapitação e o sepultamento vivo, no qual a sacerdotisa vestal era enterrada viva, com um pedaço de alimento e um pouco de água para beber. Suetônio nos descreve um desses acontecimentos:\n[…]\n“De diversas maneiras, mas sempre severas, refreou os incestos das virgens vestais, pelos quais nem o pai nem o irmão se interessaram… Primeiro, puniu-os com a decapitação; mais tarde, com o antigo costume. Dessa forma, permitiu às irmãs Ocelata e a Vamila que escolhessem o gênero de morte que fossem mais de seu agrado, desterrando-lhes os sedutores. Enquanto isso, Cornélia, a Virgem Máxima, outrora absolvida, mas algum tempo depois acusada de novo, e de forma documentada, era enterrada viva.”\n[…]\nReligião na Roma antiga\n[…]\nVestália",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Secessão da plebe",
+      "descricao": "Retiradas em massa dos plebeus de Roma em protesto contra os patrícios, a primeira delas em 494 antes de Cristo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, em 494 antes de Cristo, a gente comum de Roma abandonou a cidade em protesto. Que cargo de defensor do povo nasceu dessa crise?",
+    "resposta": "Tribuno da plebe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Secessio_plebis",
+      "https://en.wikipedia.org/wiki/Tribune_of_the_plebs"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Secessio_plebis",
+        "situacao": "ok",
+        "texto": "Secessio plebis (withdrawal of the commoners, or secession of the plebs) was an informal exercise of power by Rome's plebeian citizens between the 5th century BC and 3rd century BC, similar in concept to the general strike. During the secessio plebis, the plebs would abandon the city en masse in a protest emigration and leave the patrician order to themselves. Therefore, a secessio meant that all \n[…]\nAfter the secession, the senate finally took action to address the issue. Negotiating with three envoys from the plebeians, the senate came to a resolution. The patricians freed some of the plebs from their debts and conceded some of their power by creating the office of the Tribune of the Plebs. This office was the first government position to be held by the plebs, since at this time the office of consul was held by patricians solely.\n[…]\nThe Second Secessio Plebis of 449 BC was precipitated by the abuses of a commission of the decemviri (Latin for \"ten men\") and involved demands for the restoration of the plebeian tribunes (the representatives of the plebeians) and of the right to appeal, which had been suspended.\n[…]\nThe consuls vehemently opposed Canuleius, arguing that the tribune was proposing nothing less than the breakdown of Rome's social and moral fabric, at a time when the city was faced with external threats.\n[…]\nHowever, the proposal that would permit plebeians to stand for the consulship was not brought to a vote, threatening a radical escalation of the conflict between the plebeian assembly and the patrician senate. A compromise was instead suggested that military tribunes with consular power might be elected from either order. This proposal was well-received, and the first consular tribunes were elected for the following year.\n[…]\nAventine Secession (20th century)\n[…]\nQuotations related to Secessio plebis at Wikiquote\n[…]\nThe dictionary definition of secession at Wiktionary"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tribune_of_the_plebs",
+        "situacao": "ok",
+        "texto": "Tribune of the plebs, tribune of the people or plebeian tribune (Latin: tribunus plebis) was the first office of the Roman state that was open to the plebeians, and was, throughout the history of the Republic, the most important check on the power of the Roman Senate and magistrates.\n[…]\nThe first tribuni plebis were Lucius Albinius Paterculus and Gaius Licinius, appointed for the year 493 BC. Soon afterward, the tribunes themselves appointed Sicinius and two others as their colleagues.\n[…]\nThe ancient sources indicate the tribunes may have originally been two or five in number. If the former, the college of tribunes was expanded to five in 470 BC. Either way, the college was increased to ten in 457 BC, and remained at this number throughout Roman history. They were assisted by two aediles plebis, or plebeian aediles. Only plebeians were eligible for these offices, although there were at least two exceptions.\n[…]\nAlthough sometimes referred to as plebeian magistrates, the tribunes of the people, like the plebeian aediles, who were created at the same time, were technically not magistrates, as they were elected by the plebeian assembly alone. However, they functioned very much like magistrates of the Roman state. They could convene the concilium plebis, which was entitled to pass legislation affecting the plebeians alone (plebiscita), and beginning in 493 BC to elect the plebeian tribunes and aediles.\n[…]\nFollowing their victory in 367 BC, the tribunes remained an important check on the power of the senate and the annual magistrates. In 287 BC, the senate formally recognized the plebiscita as laws with binding force. In 149 BC, men elected to the tribunate automatically entered the Senate.\n[…]\nList of tribunes of the plebs\n[…]\nMedia related to Tribune of the plebs at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Secess%C3%A3o_da_plebe",
+        "situacao": "ok",
+        "texto": "Secessão da plebe (em latim: secessio plebis) era um exercício informal de poder na Roma Antiga pelos cidadãos plebeus similar a uma greve geral levada ao extremo. Durante uma secessão, os plebeus simplesmente abandonavam a cidade em massa e abandonavam os patrícios à própria sorte. Portanto, uma secessão significava que todas as lojas e oficinas fechavam e todas as transações comerciais cessavam.\n[…]\nComeçando em 495 a.C. e culminando em 494-3 a.C., esta secessão foi o resultado de uma crescente preocupação da plebe com as dívidas (que podia resultar em escravidão) e na falha do Senado em lutar pelo bem estar da plebe. Os revoltosos abandonaram Roma e se juntaram no Monte Sacro. Como parte da solução negociada, os patrícios perdoaram a dívida de alguns plebeus e cederam parte de seu poder permitindo a criação do cargo de tribuno da plebe, a primeira função governamental ocupada pela plebe.\n[…]\nA segunda secessão da plebe em 449 a.C. foi causada pelos abusos da comissão dos decênviros e envolveu demandas pelo restauro dos tribunos da plebe e do direito de apelação, que haviam sido suspensos. Em 450 a.C., os romanos decidiram nomear uma comissão de decênviros com a missão de compilar um compêndio de leis (as futuras \"Leis das Doze Tábuas\"). A comissão tinha o mandato de um ano, durante o qual todos os demais cargos do estado foram suspensos e o direito de apelação foi suprimido.\n[…]\nO Senado tentou conseguir que os decênviros renunciassem, mas eles se recusaram e o povo decidiu se mudar em massa para o Monte Sacro, seguindo o exemplo da primeira secessão. O Senado culpou os decênviros pela tragédia e conseguiu que eles renunciassem. Depois, dois senadores, Lúcio Valério Potito e Marco Horácio Barbato, foram enviados ao Monte Sacro para negociar. A plebe exigiu a restauração dos tribunos da plebe e do direito de apelação, suspensos durante os mandatos dos decênviros.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Rapto das Sabinas",
+      "descricao": "Episódio lendário dos primeiros anos de Roma em que os homens de Rômulo raptaram mulheres do povo sabino."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a lenda, logo após a fundação de Roma, os homens de Rômulo raptaram as mulheres do povo sabino. Por que fizeram isso?",
+    "resposta": "Faltavam mulheres em Roma",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Rape_of_the_Sabine_Women"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Rape_of_the_Sabine_Women",
+        "situacao": "ok",
+        "texto": "The kidnapping of the Sabine women (Latin: Sabinae raptae, Classical pronunciation: [saˈbiːnae̯ ˈraptae̯]); traditionally known as the Rape of the Sabine women and also known as the abduction of the Sabine women, was an incident in the early history of Rome in which the men of Rome committed bride kidnappings or mass abduction for the purpose of marriage, of women from other cities in the region. \n[…]\nJohann Heinrich Schönfeld painted a version of this subject entitled The Rape of the Sabine Women in the late 1630s. His work now resides at the State Hermitage Museum in St. Petersburg.\n[…]\nThe episode of the rape of the Sabine women is recounted by Cicero, Livy, Dionysius of Halicarnassus, and Plutarch. The poetry of Ovid also contains several allusions to this episode and it is included on the shield of Aeneas in Virgil's Aeneid.\n[…]\nIn 1962, a Mexican \"sword-and-sandal\" film based on the story was made, directed by Alberto Gout. Titled El Rapto de las Sabinas, the film was released in the USA under the titles The Rape of the Sabine Women and The Shame of the Sabine Women.\n[…]\nTom Stoppard's play Rosencrantz and Guildenstern Are Dead (1966) features a group of all-male players offering to perform The Rape of the Sabine Women, to the disgust of the title characters.\n[…]\nThe latest adaptation is a film without dialogue, The Rape of the Sabine Women, which was produced in 2005 by Eve Sussman and the Rufus Corporation.\n[…]\nThe rape of the Sabine women is depicted in Debra Macleod’s historical fiction novel Tarpiea.\n[…]\nScholars have cited parallels between the rape of the Sabine women, the Æsir–Vanir War in Norse mythology, and the Iliad of Greek mythology, providing support for a Proto-Indo-European \"war of the functions\". Regarding these parallels, J. P. Mallory states:\n[…]\nThe Rape of the Sabine Women (1962 film)\n[…]\nMedia related to Rape of the Sabine Women at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rapto_das_Sabinas",
+        "situacao": "ok",
+        "texto": "O Rapto das Sabinas foi o episódio lendário da história de Roma em que a primeira geração de homens romanos teria se originado através do rapto das filhas das famílias sabinas vizinhas. Narrada por Lívio e Plutarco, ela serviu como tema para diversas obras de arte do Renascimento e pós-renascentistas, com uma oportunidade de retratar diversos personagens, incluindo figuras heroicamente seminuas, e\n[…]\nO rapto teria acontecido no início da história de Roma, logo após sua fundação por Rômulo e seus seguidores, em sua maior parte homens. À procura de esposas com quem pudessem formar famílias, os romanos negociaram, sem sucesso, com os sabinos, que haviam povoado a região anteriormente. Temendo o surgimento de uma sociedade rival, os sabinos recusaram-se a permitir que suas mulheres se casassem com os romanos; estes tiveram então a ideia de raptar as mulheres sabinas.\n[…]\nRômulo inventou então um festival em homenagem a Netuno Equestre, e proclamou-o aos povos vizinhos de Roma. De acordo com Lívio, muitos habitantes destes povoados vizinhos compareceram ao festival, incluindo os ceninenses, os crustumerinos e os antemnos, bem como muitos dos sabinos. Durante o festival Rômulo deu um sinal, indicando a seus conterrâneos que era hora de capturar as mulheres sabinas, o que eles fizeram, enquanto combatiam os homens.\n[…]\nColônias romanas foram enviadas em seguida para Antemnas e Crustumério por Rômulo, e diversos cidadãos destas cidades também migraram para Roma (especialmente as famílias das mulheres capturadas).\n[…]\nO pintor satírico inglês John Leech, do século XIX, incluiu em sua História Cômica de Roma uma versão do Rapto das Sabinas em que as mulheres são retratadas, com um anacronismo proposital, em roupas vitorianas, sendo levadas do \"Corona et Anchora\" (\"Crown and Anchor\", nome comum a pubs em cidades costeiras da Inglaterra).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Muralha Aureliana",
+      "descricao": "Muralha que cerca Roma, construída a partir de 271 por ordem do imperador Aureliano."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 270, depois de séculos sem precisar de grandes defesas, Roma ganhou uma nova muralha por ordem do imperador Aureliano. Que ameaça motivou a obra?",
+    "resposta": "Invasões de povos bárbaros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aurelian_Walls"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aurelian_Walls",
+        "situacao": "ok",
+        "texto": "The Aurelian Walls (Italian: Mura aureliane) are a line of city walls built between AD 271 and AD 275 in Rome, Italy, during the reign of the Roman Emperor Aurelian. They superseded the earlier Servian Wall built during the 4th century BC.\n[…]\nAurelian's construction of the walls as an emergency measure was a reaction to the invasion of 270; the historian Aurelius Victor states explicitly that the project aimed to alleviate the city's vulnerability. It may also have been intended to send a political signal as a statement that Aurelian trusted that the people of Rome would remain loyal, as well as serving as a public declaration of the emperor's firm hold on power.\n[…]\nThe Aurelian Walls continued as a significant military defense for the city of Rome until 20 September 1870, when the Bersaglieri of the Kingdom of Italy breached the wall near the Porta Pia and captured Rome. The walls also defined the boundary of the city of Rome up until the 19th century, with the built-up area being confined within the walled area. Today, the walls define \"central Rome\" for the purposes of taxi fare calculation.\n[…]\nThe Aurelian Walls remain remarkably well-preserved today, largely the result of their constant use as Rome's primary fortification until the 19th century. The Museo delle Mura near the Porta San Sebastiano offers information on the walls' construction and how the defenses operated.\n[…]\nPorta Aurelia/San Pancrazio\n[…]\nPorta Aurelia-Sancti Petri (also known as Porta Cornelia)\n[…]\nMuseum of the Walls, Rome\n[…]\nWalls of Constantinople\n[…]\nMancini, Rossana (2001). Le mura Aureliane di Roma. Atlante di un palinsesto murario, Quasar, Roma ISBN 88-7140-199-9\n[…]\nMuseum of the Walls official website\n[…]\nArticle about Walls, 2023"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Muralha_Aureliana",
+        "situacao": "ok",
+        "texto": "A Muralha Aureliana (em italiano: Mura aureliane) é um conjunto de muralhas erguidas em Roma, entre 271 e 275, durante o reinado dos imperadores romanos Aureliano e Probo. Englobava todas as Sete Colinas de Roma, além do Campo de Marte e do distrito do Trastevere, na margem esquerda do rio Tibre. As margens do rio situadas dentro dos limites da cidade parecem não ter sido fortificadas, embora o fo\n[…]\nA construção da muralha por Aureliano foi uma medida de emergência, como reação à invasão bárbara de 270. O historiador Aurélio Vítor é explícito ao afirmar que o projeto tinha como meta aliviar a vulnerabilidade da cidade. Pode também ter tido a intenção política de servir como uma declaração de confiança, da parte de Aureliano, na lealdade do povo de Roma, assim como uma demonstração pública de poder.\n[…]\nA construção da muralha foi o maior projeto de construção realizado em Roma em muitas décadas, e tornou-se um dos símbolos da força contínua de Roma.\n[…]\nNo entanto, a intenção militar destes muros não era o de suportar longos cercos, já que os exércitos bárbaros raramente tentavam sitiar cidades, pois não tinham nem equipamentos nem provisões suficientes para estas empreitadas; em vez disso, recorriam a ataques e incursões rápidas, contra alvos que tivessem defesas frágeis. A muralha era, portanto, um meio de desencorajar estas táticas.\n[…]\nA Muralha Aureliana também serviu para definir as fronteiras da cidade de Roma até o século XIX, com grande parte da área construída permanecendo, ao longo dos séculos, dentro dos muros. A muralha também continuou a servir como uma estrutura defensiva militar significante para a cidade de Roma até 20 de setembro de 1870, quando os bersaglieri do Reino de Itália conseguiram derrubá-la, próximo à Porta Pia, e capturaram Roma.\n[…]\nMuralha de Adriano\n[…]\nMuralha de Antonino\n[…]\nMuralha Serviana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Contubérnio",
+      "descricao": "Menor unidade do exército romano, o grupo de legionários que dividia a mesma tenda."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Nas campanhas, os legionários romanos dormiam em grupos que dividiam a mesma tenda, o contubérnio. Quantos homens formavam cada grupo?",
+    "resposta": "Oito",
+    "distratores": [
+      "Quatro",
+      "Doze",
+      "Vinte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contubernium"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Contubernium",
+        "situacao": "ok",
+        "texto": "In ancient Rome, contubernium was a quasi-marital relationship between two slaves or between a slave (servus) and a free person who was usually a former slave or the child of a former slave. A slave involved in such a relationship was called contubernalis, the basic and general meaning of which was \"companion\".\n[…]\nFamily law under Constantine, the first Christian emperor, was primarily aimed at preserving the privileges of freeborn status (ingenuitas), but at least one law also had the effect of protecting contubernales attached to a property whose family might have been broken up during a change of lease.\n[…]\nIn the provinces, Roman social norms would not be in effect, even for the army. Until AD 213, soldiers serving in the legions were not permitted to marry until they were discharged, placing them in a position rather like that of the imperial slave awaiting an expected or contractually fixed manumission. A soldier who consorted with women who were not supposed to be sexually available to him was subject to prosecution under the Augustan laws of morality that regulated illicit sex (stuprum).\n[…]\nAn alternative union such as contubernium with a slave woman or monogamous concubinage with his own freedwoman, mutually agreed upon and perhaps with the approval of the female partner's family, avoided dishonor for the soldier and the woman. Many of these relationships were long-lasting and significant enough to the partners to be commemorated in epitaphs.\n[…]\nOne such epitaph was set up in Corduba, Roman Spain, by an aquilifer (legionary standard-bearer) named Marcus Septicius on behalf of himself; his contubernalis, Sabina; and his biological son (filius naturalis) Martialis, who died aged ten years, seven months, as the freedman (libertus) of his own father."
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Centúria",
+      "descricao": "Unidade do exército romano comandada por um centurião."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Apesar do nome, a centúria do exército romano da época imperial costumava reunir quantos soldados?",
+    "resposta": "Oitenta",
+    "distratores": [
+      "Cem",
+      "Sessenta",
+      "Cento e vinte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Centuria"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Centuria",
+        "situacao": "ok",
+        "texto": "Centuria (Latin: [kɛn̪ˈt̪ʊria]; pl.: centuriae) is a Latin term (from the stem centum meaning one hundred) denoting military units originally consisting of 100 men. The size of the centuria changed over time, and from the first century BC through most of the imperial era the standard size of a centuria was 80 soldiers. By the time of the Roman Empire, ordo became a synonym of centuria (in 4 BC it \n[…]\nOn the battlefield, the centurion stood at the far right of the first row of men next to the signifer, while the optio stood at the rear, to avoid, if necessary, the disbanding of the troops and ensure the relay between typical closed order lines used by the Roman army.\n[…]\nThe centuria consisted of 80 soldiers. Each contubernium (the minimal unit in the Roman legion) consisted of eight soldiers who lived in the same tent while on campaign or the same bunk room in barracks. The contubernium was accompanied by an unfree attendant.\n[…]\nIn the imperial period, but likely not the republican period, the first cohort was twice the size of the other cohorts. Each of its five centuriae was a double centuria of 160 soldiers (rather than 80). The first cohort thus consisted of 1,000 men.\n[…]\nCenturions of these first-cohort double centuriae were called primi ordinis (\"first rank\"), except for the leader of the first centuria of the first cohort, who was referred to as primus pilus (the name denoted the first maniple, Latin: pilus, of the first cohort).\n[…]\nThe term centuria was later used during the Spanish Civil War to describe the informal bands of local militiamen and international volunteers that sprang up in Catalonia and Aragon in October–November 1936.\n[…]\nTactics of the Roman century in combat\n[…]\nRadin, Max (April 1915). \"The Promotion of Centurions in Caesar's Army\". The Classical Journal. 10 (7): 300–311. JSTOR 3287327."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cent%C3%BAria",
+        "situacao": "ok",
+        "texto": "Centúria era uma unidade de infantaria do exército romano, que constituía as coortes romanas, que continha oitenta legionários, correspondendo a dez contubérnios (a unidade mínima do exército romano, constando de oito soldados a dez). Cada contubérnio alojava-se numa loja ou cubículo de barracão de 6 praças — a quarta parte do mesmo estava sempre de guarda.\n[…]\nCada centúria era comandada pelo centurião, ajudado por um optio ou tenente e por um tesserário ou suboficial de segurança. Tinha um estandarte ou signo que era levado por um signífero. Assim mesmo, cada centúria dispunha de um bucinador, encarregado de tocar a bucina, uma espécie de trompa utilizada para transmitir ordens acústicas a jeito de toques.\n[…]\nCada coorte tinha até seis centúrias e cada legião romana tinha sessenta centúrias de legionários.\n[…]\nAs centúrias agrupavam-se administrativamente por pares formando manípulos de 160 infantes, e estes, pela sua vez, operativamente em grupos de três formando uma coorte de 480 legionários.\n[…]\nExcepcionalmente, a primeira coorte, era formada pelos homens mais aguerridos e experientes da legião, composta de apenas cinco centúrias. Mas estas eram centúrias duplas, ou seja, de 160 homens cada uma. Os centuriões dessas centúrias eram chamados primos ordinais (primi ordinis), menos o da primeira centúria, que recebia o nome de primipilo.\n[…]\nCentúria: (10 contubérnios) 80 a 100 legionários mandados pelo centurião\n[…]\nManípulo: (2 centúrias) 160 a 200 legionários.\n[…]\nLE BOHEC, Y. El ejército romano: instrumento para la conquista de un imperio, Ed. Ariel, Barcelona, 2004, ISBN 84-344-6723-2 978-84-344-6723-1\n[…]\nGOLDSWORTHY, A. El ejército romano, Ed. Akal, Madrid 2005, ISBN 84-460-2234-6, 978-84-460-2234-6",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Ditador romano",
+      "descricao": "Magistrado extraordinário da República romana nomeado com plenos poderes em tempos de crise."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na República romana, um ditador recebia plenos poderes para enfrentar uma crise. Por quanto tempo, no máximo, ele podia ficar no cargo?",
+    "resposta": "Seis meses",
+    "distratores": [
+      "Três meses",
+      "Um ano",
+      "Cinco anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roman_dictator"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roman_dictator",
+        "situacao": "ok",
+        "texto": "A Roman dictator was an extraordinary magistrate of the Roman Republic, endowed with full authority to resolve some specific problem to which he had been assigned. He received the full powers of the state, subordinating the other magistrates, consuls included, for the specific purpose of resolving that issue, and only that issue, and then dispensing with those powers immediately.\n[…]\nWishing his settlement to succeed, and conceiving of it in quasi-republican terms, he resigned the dictatorship in place of ordinary magistrates. Sulla's reforms and proscriptions stabilized a republic—albeit on radically reformed grounds, with Sulla as a \"law-giver\" who gave Rome \"a new constitution that would put an end to political and social strife\"—and restored somewhat free elections for the next few decades, at an enormous cost.\n[…]\nSuetonius' version of events may be anachronistic, with Crassus and Caesar's involvement being an embellishment. Regardless, the suggestion of a dictatorship \"belongs, perhaps to a late-republican school of thought that saw the antiquated office of the consulship as an ineffective path to the mastery of Rome\" with the dictatorship as an \"obvious tool for republican regime change\" informed by Sulla's proscriptions and reforms.\n[…]\nAfter Caesar's death, it became unlawful to propose, vote for, or accept any dictatorship. Any person who became dictator also could be summarily executed. Essentially, the title was cursed and excised from the republican constitution. Curiously, the person who did this was not one of the liberatores but rather, Caesar's own former magister equitum, Mark Antony. Antony's supporters lionised him for having rid the Republic of this instrument of tyranny.\n[…]\nConstitutional dictatorship – Dictatorship that is constitutionally granted in an emergency\n[…]\nDictator – Political leader who possesses absolute power"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ditador_romano",
+        "situacao": "ok",
+        "texto": "Ditador (em latim: Dictator) era o mais alto magistrado extraordinário na República Romana. Também era chamado pretor máximo (Praetor Maximus) e mestre do povo (Magister Populi).\n[…]\nPara afixar o clavus annalis no templo de Júpiter em épocas de pragas ou discórdias civis (Dictator clavi figendi causa);\n[…]\nEm condições de perigo militar iminente para a república, o ditador (neste caso designado por \"dictatores rei gerendae causa\") recebia um mandato com duração de seis meses ou enquanto se mantivesse o estado de emergência, qualquer que fosse o período mais curto. Os melhores exemplos de nomeações deste tipo são retirados das Guerras Púnicas com Cartago, sendo Fábio Máximo o mais notável.\n[…]\nJúlio César foi nomeado ditador romano em 46 a.C., também como corolário de uma guerra civil, desta vez contra os optimates liderados por Pompeu. Para pacificar os seus pares que temiam o seu poderio crescente, César preferiu ser nomeado de acordo com o conceito contemporâneo das Guerras Púnicas, que continha a cláusula limitativa de tempo expandida, no entanto, para um ano em vez de seis meses.\n[…]\nNo ano seguinte foi reconduzido pelo senado para mais nove mandatos consecutivos de um ano e em 44 a.C. foi nomeado ditador perpétuo (dictator perpetuus). César não foi longe no cargo de ditador perpétuo pois foi assassinado nos Idos de Março do mesmo ano.\n[…]\nO cargo de ditador foi uma vez mais abolido da lei romana após a morte de César através das iniciativas legislativas de Marco Antônio. O senado ofereceu mais tarde o posto a Augusto, que no entanto o recusou, pondo um ponto final na história dos ditadores romanos.\n[…]\nLista de cônsules da República Romana",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Pecunia non olet",
+      "descricao": "Expressão latina, dinheiro não tem cheiro, atribuída a um imperador romano ao defender um imposto sobre a urina."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Ao defender um imposto sobre a urina recolhida nas latrinas públicas, que imperador romano teria dito que dinheiro não tem cheiro?",
+    "resposta": "Vespasiano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+      "https://en.wikipedia.org/wiki/Vespasian"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pecunia_non_olet",
+        "situacao": "ok",
+        "texto": "Pecunia non olet is a Latin saying that means \"money does not stink\". The phrase is ascribed to the Roman emperor Vespasian (ruled AD 69–79).\n[…]\nA tax on the disposal of urine, an important ingredient to the Roman chemical industry, was first imposed by Emperor Nero under the name of vectigal urinae in the first century AD. The tax was removed after a while, but Vespasian re-enacted it around 70 AD in order to fill the treasury.\n[…]\nVespasian imposed a urine tax on the distribution of urine from Rome's public urinals (the Roman lower classes urinated into pots, which were later emptied into cesspools). The urine collected from these public urinals was sold as an ingredient for several chemical processes. It was used in tanning, wool production, and also by launderers as a source of ammonia to clean and whiten woollen togas. The buyers of the urine paid the tax.\n[…]\nThe Roman historian Suetonius reports that when Vespasian's son Titus complained about the disgusting nature of the tax, his father held up a gold coin and asked whether he felt offended by its smell (sciscitans num odore offenderetur). When Titus said \"No\", Vespasian replied, \"Yet it comes from urine\" (Atqui ex lotio est).\n[…]\nThe phrase pecunia non olet is still used today to say that the value of money is not tainted by its origins. Vespasian's name still attaches to public urinals in Italy (vespasiano) and France (vespasienne).\n[…]\nSuetonius. De Vita Caesarum--Divus Vespasianus\n[…]\nTranslation of De vita Caesarum—Divus Vespasianus"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vespasian",
+        "situacao": "ok",
+        "texto": "Vespasian (; Latin: Vespasianus [wɛspasiˈaːnus]; 17 November 9 AD – 23 June 79) was Roman emperor from 69 to 79. The last emperor to reign in the Year of the Four Emperors, he founded the Flavian dynasty, which ruled the empire for 27 years. His fiscal reforms and consolidation of the empire brought political stability and an extensive building program.\n[…]\nBefore Vespasian, Emperor Nero introduced a urine tax on public toilets under the name of vectigal urinae in the 1st century AD (see pay toilet).\n[…]\nHowever, the tax was removed after a while and it was Vespasian's new imposition of this tax around 70 AD which we still remember to this day, possibly giving origin to the Latin proverb Pecunia non olet (\"Money does not stink\"): Writing about Vespasian in their history books, Dio Cassius and Suetonius mentioned \"When [Vespasian's] son Titus blamed him for even laying a tax upon urine, he applied to his nose a piece of the money he received in the first instalment, and asked him if it stunk.\n[…]\nHe was also noted for his benefactions to the people. Much money was spent on public works and the restoration and beautification of Rome: the Temple of Peace (also known as the Forum of Vespasian), new public baths and the great showpiece, the Colosseum.\n[…]\nSabinus and Vespasia had three children, the eldest of whom, a girl, died in infancy. The elder boy, Titus Flavius Sabinus, entered public life and pursued the cursus honorum. Vespasian on the other hand, seemed far less likely to be successful, initially not wishing to pursue high public office. He followed in his brother's footsteps when driven to it by his mother's taunting.\n[…]\nPecunia non olet\n[…]\nStele of Vespasian\n[…]\nThis article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Vespasian\". Encyclopædia Britannica. Vol. 27 (11th ed.). Cambridge University Press."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pecunia_non_olet",
+        "situacao": "ok",
+        "texto": "A cláusula tributária chamada pecunia non olet ou non olet (não tem cheiro) estabelece que, para o fisco, pouco importa se os rendimentos tributáveis tiveram ou não fonte lícita ou moral.\n[…]\nA origem do instituto está na criação de um tributo, pelo Imperador Vespasiano, para a utilização de banheiros públicos. A taxa foi extinta, mas restabelecida pelo Imperador Vespasiano. Os historiadores romanos Suetônio e Dião Cássio contam que quando Tito reclamou com seu pai da natureza imoral da taxa e que ela faria com que a cidade ficasse fedendo, Vespasiano pegou uma moeda de ouro e disse Non olet (não tem cheiro).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Teatro de Pompeu",
+      "descricao": "Primeiro teatro permanente de pedra de Roma, inaugurado em 55 antes de Cristo."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 55 antes de Cristo, Roma ganhou seu primeiro teatro permanente de pedra. Que general, rival de Júlio César, mandou construí-lo?",
+    "resposta": "Pompeu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theatre_of_Pompey"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Theatre_of_Pompey",
+        "situacao": "ok",
+        "texto": "The Theatre of Pompey (Latin: Theatrum Pompeii, Italian: Teatro di Pompeo), also known by other names, was a structure in Ancient Rome built during the latter part of the Roman Republican era by Pompey the Great. Completed in 55 BC, it was the first permanent theatre to be built in Rome. Its ruins are located at Largo di Torre Argentina.\n[…]\nPrior to its construction, permanent stone theatres had been forbidden, and so to side-step this issue, Pompey had the structure built in the Campus Martius, outside of the pomerium, or sacred boundary, that divided the city from the ager Romanus (the territory immediately outside the city).\n[…]\nFor forty years, the theatre was the only permanent theatre located in Rome, until Lucius Cornelius Balbus the Younger constructed the Theatre of Balbus in 13 BC in the campus Martius. Regardless, the Theatre of Pompey continued to be the main location for plays, both due to its splendour and its size. In fact, the site was often considered the premiere theatre throughout its entire life. Seeking association with the great theatre, others constructed their own in and around the area of Pompey's.\n[…]\nIn order to build the theatre as a permanent stone structure, a number of things were done, including building outside the city walls. By dedicating the theatre to Venus Victrix and building the temple central within the cavea, Pompey made the structure a large shrine to his personal deity. He also incorporated four Republican temples from an earlier period in a section called the \"Sacred Area\" in what is today known as Largo di Torre Argentina.\n[…]\nList of Roman theatres\n[…]\nMedia related to Theatre of Pompey at Wikimedia Commons\n[…]\nThe Theatre of Pompey\n[…]\nThe Temple above Pompey's Theater (CJ 39:360‑366)\n[…]\nPompey’s Politics and the Presentation of His Theatre-Temple Complex, 61–52 BCE\n[…]\nRoma Online Guide"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_de_Pompeu",
+        "situacao": "ok",
+        "texto": "O Teatro de Pompeu (em latim: Theatrum Pompeii) foi uma estrutura da Roma Antiga construída já no final do período republicano, em 55 a.C. Cercado por grandes pórticos colunados, a estrutura contava ainda com um grande jardim com um complexo sistema de fontes e muitas estátuas. Ao longo das arcadas cobertas existiam salas dedicadas à exposição de obras de arte colecionadas por Pompeu Magno durante\n[…]\nlocal onde Júlio César foi assassinado pelos senadores conhecidos como liberatores.\n[…]\nPor quarenta anos, o teatro de Pompeu foi o único teatro permanente localizado em Roma, o que mudou em 13 a.C. com a construção do Teatro de Balbo, também no Campo de Marte, por Lúcio Cornélio Balbo. Apesar disto, o teatro de Pompeu continuou sendo o principal teatro da cidade, tanto pelo seu tamanho quanto por seu esplendor.\n[…]\nCom o objetivo de capturar, por associação, um pouco da fama da obra de Pompeu, diversos romanos ricos construíram seus próprios teatros na região, que acabou se tornando o distrito teatral de Roma.\n[…]\nO teatro de Pompeu serviu de modelo para quase todos os futuros teatros de Roma e do império. Entre as estruturas de estilo similar estão o Teatro de Marcelo e o Teatro de Balbo. O Templo da Vênus Victrix ficava localizado de frente para o palco. Em outubro de 2012, arqueólogos espanhóis alegaram ter descoberto a localização da estrutura de concreto erigida por Augusto no local onde César foi assassinado.\n[…]\nO complexo do Teatro de Pompeu servia como um contraponto ao Fórum Romano e é possível que sua construção tenha sido a inspiração para os futuros Fóruns Imperiais. Júlio César, por exemplo, copiou a utilização de espólios de guerra para ilustrar e glorificar sua própria imagem por Pompeu quando construiu seu próprio fórum. O Fórum de César, por sua vez, foi depois copiado pelos imperadores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Batalha de Carras",
+      "descricao": "Batalha de 53 antes de Cristo, na Mesopotâmia, em que o exército de Crasso foi destruído."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 53 antes de Cristo, na batalha de Carras, Crasso sofreu uma das piores derrotas da história de Roma e acabou morto. Que povo o venceu?",
+    "resposta": "Os partos",
+    "distratores": [
+      "Os gauleses",
+      "Os germanos",
+      "Os dácios"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Carrhae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
+        "situacao": "ok",
+        "texto": "The Battle of Carrhae (Latin pronunciation: [ˈkar.rʰae̯]) was fought in 53 BC between the Roman Republic and the Parthian Empire near the ancient town of Carrhae (present-day Harran, Turkey). An invading force of seven legions of Roman heavy infantry under Marcus Licinius Crassus was lured into the desert and decisively defeated by a mixed cavalry of armoured cataphracts and light horse archers le\n[…]\nThe Battle of Carrhae was one of the first major battles between the Romans and Parthians. It was the victory that led Parthia to invade Syria and Armenia several times, with varying degrees of success. Rome also realised that its legionaries could not effectively fight against Parthian cavalry unsupported in open terrain.\n[…]\nIn the 1940s, Homer H. Dubs, an American professor of Chinese history at the University of Oxford, hypothesized that the people of Liqian were descended from these prisoners. The prisoners, Dubs proposed, were resettled by the Parthians on their eastern border and may have fought as mercenaries at the Battle of Zhizhi between the Chinese and the Xiongnu in 36 BC.\n[…]\nPlutarch's account blames Crassus for every aspect of the defeat, particularly his tactics. Writing in the anthology The Worst Military Leaders in History, Hospodor, the modern military historian, argues that Crassus is only to blame tactically for the poorly organised retreat, which made it impossible for the Romans to regroup. \"Although Crassus correctly bears much of the responsibility for the crushing defeat, blaming him alone oversimplifies the reason for the result at Carrhae\", he writes.\n[…]\nThe only two ancient records of the battle:\n[…]\nCassius Dio's Roman History, 40:21–24 (Online)\n[…]\nBattle of Carrhae Archived 2014-10-07 at the Wayback Machine at Livius.org\n[…]\nBattle of Carrhae at HistoryNet\n[…]\nBattle of Carrhae, 53 BC at Gates of Nineveh"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Carras",
+        "situacao": "ok",
+        "texto": "A Batalha de Carras, travada em 53 a.C. próximo à cidade de Carras (atual Harã, na Turquia), foi uma das batalhas entre o Império Parta e a República Romana. O comandante parta Surena esmagou a força invasora romana comandada pelo general Marco Licínio Crasso. Esta foi uma das maiores derrotas sofridas pelos romanos.\n[…]\nCrasso, membro do primeiro triunvirato e conhecido por ser o homem mais rico em Roma, ansiava por glória e mais riquezas e então decidiu invadir o Império Parta sem o consentimento formal do senado. Rejeitando uma oferta de ajuda do rei Artavasdes II da Armênia de usar seu território para invadir o Reino Parta, Crasso marchou com seu exército direto pelo deserto da Mesopotâmia. Seu exército acabou se encontrando com as forças de Surena na cidade de Carras.\n[…]\nApesar dos protestos e da oposição, Marco Crasso deixou Roma em 14 de novembro de 55 a.C. Públio, filho de Crasso que lutara com César na Gália, juntou-se ao seu pai na Síria durante o inverno de 54–53 a.C., trazendo consigo mil cavaleiros celtas vindos da Gália que se manteriam leais ao seu jovem comandante até sua morte.\n[…]\nApós a humilhante derrota, Roma ficou assustada com a possibilidade de uma invasão dos territórios orientais pelos partas. Seguiriam-se várias guerras entre Roma e a Pártia com vitórias para ambos os lados. Mas naquele momento o impacto mais significante da derrota foi na política interna com o fim do primeiro triunvirato o que colocou os outros dois triúnviros sobreviventes (Pompeu e Júlio César) em guerra, que resultaria no fim da República Romana e o nascimento do Império.\n[…]\nWeir, William. 50 Battles That Changed the World: The Conflicts That Most Influenced the Course of History. Savage, Md: Barnes and Noble Books. ISBN 0-7607-6609-6\n[…]\nDião Cássio: História de Roma, 40:21–4 (Página)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Palácio de Diocleciano",
+      "descricao": "Palácio-fortaleza construído por volta do ano 300 para a aposentadoria do imperador Diocleciano, na costa da Dalmácia."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O palácio que o imperador Diocleciano ergueu para passar a aposentadoria virou o centro histórico de que cidade da Croácia?",
+    "resposta": "Split",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diocletian%27s_Palace"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Diocletian%27s_Palace",
+        "situacao": "ok",
+        "texto": "Diocletian's Palace (Croatian: Dioklecijanova palača, pronounced [diokletsijǎːnova pǎlatʃa]; Latin: Palatium Diocletiani) is an ancient Roman palace and fortress complex in Split, Croatia. It was built at the end of the third century AD by the Roman Emperor Diocletian as his retirement residence. About half of the complex was for Diocletian's personal use, with the rest housing the military garris\n[…]\nToday the palace forms about half of the old town of Split, with 3,000 inhabitants and numerous shops, boutiques, cafes, bars, and restaurants. In 1979, it was listed by UNESCO as a World Heritage Site.\n[…]\nToday, the Palace is well preserved with all the most important historical buildings, in the centre of the city of Split, the second-largest city of modern Croatia. Diocletian's Palace far transcends local importance because of its degree of preservation. The Palace is one of the most famous and complete architectural and cultural features on the Croatian Adriatic coast.\n[…]\nIn November 1979, UNESCO, in line with the international convention on cultural and natural heritage, adopted a proposal that the historic city of Split built around the Palace should be included in the register of World Cultural Heritage.\n[…]\nSet below what were the Imperial apartments, the Cellars of Diocletian's Palace are a set of substructures located at the southern end of the Palace, that represent one of the best preserved ancient complexes of their kind in the world.\n[…]\nDiocletian's Palace was used as a location for filming the fourth season of the HBO series Game of Thrones. The palace also hosted a task on the 31st season of the CBS reality show The Amazing Race.\n[…]\nDiocletian Aqueduct\n[…]\nMarjan, Split\n[…]\nResearch and Reconstruction of Diocletian's Palace Peristyle in Split 1956–1961\n[…]\nRobert Adam's Ruins of the Palace of the Emperor Diocletian at Spalatro in Dalmatia\n[…]\nDiocletian's Palace virtual tour (Croatian Landmarks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Diocleciano",
+        "situacao": "ok",
+        "texto": "O Palácio de Diocleciano (em croata: Dioklecijanova palača) foi a residência imperial fortificada construída pelo imperador Diocleciano (r. 284–305) na costa da Dalmácia com o fim de para ali se retirar após a sua abdicação voluntária em 305. É um dos edifícios mais bem conservados da Antiguidade Tardia e os seus vestígios estão preservados no coração histórico de Split, na Croácia.\n[…]\nA sobrecapacidade do aqueduto de Split é ainda mais surpreendente pelo facto da única instalação grande consumidora de água atestada arqueologicamente ser o complexo termal do palácio, de tamanho muito mais modesto que as grandes termas imperiais urbanas.\n[…]\nO primeiro viajante conhecido a interessar-se pelo Palácio de Diocleciano foi Ciríaco de Ancona que, ao regressar duma viagem a Acaia e Epiro parou em Split e Solin nos dias 29 e 30 de julho de 1436 para ali copiar inscrições. A primeira descrição, devida a um erudito local em croata, foi feita por Marko Markulić no final do século XV. Este descreveu o Templo de Júpiter e mencionou a \"Rotunda\" (ou seja, o Vestíbulo) que ainda comportava fragmentos de mosaico no lugar.\n[…]\nEm 1567, o chanceler do município de Split, Antonio Proculiano, descreveu o palácio e os seus edifícios principais, entre os quais figuravam, provavelmente, os dois edifícios circulares do têmeno do Templo de Júpiter. Tomko Marnavić, Bispo da Bósnia, relatou pelo seu lado a crónica da descoberta do sarcófago de Diocleciano na torre sudeste do palácio.\n[…]\nEm julho de 1757, chegou a Split o arquitecto escocês Robert Adam, que prosseguiu na Dalmácia o seu Grand Tour começado em Itália, em companhia do pintor francês Charles-Louis Clérisseau. O seu objectivo confessado era realizar uma coleta de desenhos de vestígios do Palácio de Dioceciano, que vinha em complemento daquele que tinha consagrado às termas do mesmo imperador em Roma.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Arena de Verona",
+      "descricao": "Anfiteatro romano do século primeiro, muito bem conservado e usado para espetáculos de ópera."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que cidade do norte da Itália guarda a Arena, um anfiteatro romano do século primeiro tão bem conservado que é usado para espetáculos de ópera?",
+    "resposta": "Verona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Verona_Arena"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Verona_Arena",
+        "situacao": "ok",
+        "texto": "The Verona Arena is a Roman amphitheatre located in the historic center of Verona, Italy. It is among the best-preserved ancient amphitheatres to have survived into the modern era. This remarkable state of preservation is largely due to systematic restoration efforts that began in the 16th century.\n[…]\nCastiglioni, Giovanni; Cofani, Marco (2017). \"L'Anfiteatro Arena: una questione da architetti\" [The Arena Amphitheater: A Matter for Architects]. ArchitettiVerona (in Italian). 02 (109). Verona: Ordine degli Architetti Pianificatori Paesaggisti e Conservatori della provincia di Verona: 20–25.\n[…]\nCorbetta, Silvia, ed. (2013). 1913-2013: Arena di Verona [1913-2013: Arena of Verona] (in Italian). Verona: Cariverona.\n[…]\nGiuliari, Bartolomeo (1822). Topografia dell'anfiteatro di Verona [Topography of the Verona Amphitheater] (in Italian). Verona: Tipografia Giuliari.\n[…]\nLenotti, Tullio (1954b). L'Arena di Verona [The Arena of Verona] (in Italian). Verona: Edizioni di Vita Veronese.\n[…]\nMaffei, Scipione (1841). Descrizione dell'anfiteatro di Verona tratta dalla Verona illustrata di Scipione Maffei con l'aggiunta delle cose più osservabili della stessa città [Description of the Verona Amphitheater Taken from Scipione Maffei's Verona Illustrata with the Addition of the Most Notable Things of the Same City] (in Italian). Verona: Tipografia di G. Sanvido.\n[…]\nMarini, Manuel (2013). Il sistema Arena di Verona: gestione valorizzazione turismo [The Verona Arena System: Management, Enhancement, Tourism] (in Italian). Verona: QuiEdit. ISBN 978-88-6464-234-5.\n[…]\nSpalviero, Franco; Arich, Diego (2002). L'Arena di Verona: duemila anni di storia e di spettacolo [The Arena of Verona: two thousand years of history and entertainment] (in Italian). Verona: Accademia di Belle arti G.B. Cignaroli.\n[…]\nAn article on Arena di Verona"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arena_de_Verona",
+        "situacao": "ok",
+        "texto": "A Arena de Verona é um anfiteatro romano, localizado em Verona, Itália, conhecido pelas monumentais produções de ópera que nela são apresentadas. É uma das estruturas do seu tipo que se encontram melhor conservadas. Durante os tempos antigos sua capacidade era de aproximadamente 30.000 pessoas, atualmente sua capacidade é de 15.000 pessoas.\n[…]\nPara estabelecer a data de construção da Arena é possível confrontá-la com o Anfiteatro de Pula, na Croácia, uma vez que este anfiteatro é o que mais se assemelha ao anfiteatro veronês, seja pelo aspecto estilístico, seja pelo aspecto técnico, e, além disso, ambos pertencem à mesma área geográfica cultural: as semelhanças são tantas que fazem pensar que esses dois anfiteatros sejam obras do mesmo arquiteto e dos mesmos operários.\n[…]\nO anfiteatro de Pula normalmente vem datado no período Augustino, por isso é provável que a Arena de Verona tenha sido realizada mais ou menos durante os mesmos anos.\n[…]\nA fachada era originalmente de pedra calcária, branca e rosada, originária de Valpolicella. Depois de um terramoto que ocorreu em 3 de janeiro de 1117 e que quase destruiu o anel exterior, com excepção da zona denominada Ala, a Arena foi utilizada como pedreira para outros edifícios. As primeiras intervenções de restauro aconteceram no Renascimento e tiveram por objectivo recuperar a funcionalidade da Arena para representações teatrais.\n[…]\nGraças à sua impressionante acústica, a Arena de Verona é um excelente local para a realização de concertos, prática que se iniciou em 1913. Hoje em dia, são ali apresentadas anualmente cerca de quatro óperas, entre Junho e Agosto, no âmbito do Festival Lírico Arenian.\n[…]\n«Arena de Verona»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "República Romana",
+      "descricao": "Período da história de Roma governado por magistrados eleitos e pelo Senado, entre a queda da monarquia e o início do Império."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Segundo a tradição, em que ano a expulsão do último rei deu início à República Romana?",
+    "resposta": "509 antes de Cristo",
+    "distratores": [
+      "476 antes de Cristo",
+      "390 antes de Cristo",
+      "264 antes de Cristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roman_Republic"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roman_Republic",
+        "situacao": "ok",
+        "texto": "The Roman Republic (Latin: Res publica Romana, pronounced [ˈreːs ˈpuːblɪka roːˈmaːna]) was the era of classical Roman civilisation beginning with the overthrow of the Roman Kingdom (traditionally dated to 509 BC) and ending in 27 BC with the establishment of the Roman Empire following the War of Actium. During this period, Rome's control expanded from the city's immediate surroundings to hegemony \n[…]\nRome had been ruled by monarchs since its foundation. These monarchs were elected, for life, by the men of the Roman Senate. The last Roman monarch was called Tarquin the Proud, who in traditional histories was expelled from Rome in 509 BC because his son, Sextus Tarquinius, raped a noblewoman, Lucretia.\n[…]\nThe constitutional history of the Roman Republic began with the revolution that overthrew the monarchy in 509 BC and ended with constitutional reforms that transformed the Republic into what would effectively be the Roman Empire, in 27 BC. The Roman Republic's constitution was a constantly evolving, unwritten set of guidelines and principles passed down mainly through precedent, by which the government and its politics operated.\n[…]\nEvidence for the republic's population largely comes from thirty-nine republican and early imperial censuses. The reported population increased substantially from the first, reporting 130,000 Romans in 509 BC, to the last, reporting 4,937,000 in AD 14. It is generally believed that the censuses prior to those of Augustus starting in 28 BC reported only free adult males.\n[…]\nHistory of the Roman Empire\n[…]\nRoman conceptions of citizenship\n[…]\nRoman economy – Economy of ancient Rome\n[…]\nCrisis of the Roman Republic\n[…]\nDevereaux, Bret (2023). \"How to Roman Republic 101, Part I: SPQR\". A Collection of Unmitigated Pedantry.\n[…]\n\"Digital Prosopography of the Roman Republic\". King's College London. 2025.\n[…]\nThayer, Bill. \"LacusCurtius: Into the Roman World\". LacusCurtius."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Romana",
+        "situacao": "ok",
+        "texto": "República Romana (em latim: Res Publica Romana) foi um período da antiga civilização romana no qual o governo operou como uma república. Começou com a queda da monarquia, tradicionalmente datada cerca de 509 a.C., e sua substituição pelo governo chefiado por dois cônsules, eleitos anualmente pelos cidadãos e aconselhados pelo senado. Uma complexa constituição gradualmente foi desenvolvida, centrad\n[…]\nEste último cedia a Augusto o controle sobre todas as legiões existentes na república, elevando-o ao posto de imperador, apesar de as instituições republicanas romanas continuarem existindo.\n[…]\nAs primeiras guerras da República Romana foram de expansão e defesa, no sentido de defendê-la de cidades e nações vizinhas e estabelecer seu território na região. Inicialmente, os vizinhos imediatos de Roma foram cidades e vilas latinas, ou mesmo tribos sabinas das colinas Apeninas e além. De acordo com um tratado entre Roma e Cartago datado de 509 a.C.\n[…]\nAs evidências da população da república vêm em grande parte de trinta e nove censos republicanos e do início do período imperial. A população relatada aumentou substancialmente desde o primeiro, relatando 130.000 romanos em 509 a.C., até o último, relatando 4.937.000 em 14 d.C. Acredita-se geralmente que os censos anteriores aos de Augusto, iniciados em 28 a.C., relataram apenas homens adultos livres.\n[…]\nA mineração e o processamento de metais eram uma parte essencial da indústria romana. Durante o início da república, a própria Itália era geralmente considerada rica em cobre e ferro, mas no final da república essas jazidas estavam em grande parte esgotadas. No segundo século a.C., a mineração havia se transferido para a ilha de Elba e para a Gália Cisalpina. Mas a tomada da Espanha de Cartago durante a Segunda Guerra Púnica abriu enormes e lucrativas minas na Península Ibérica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.73 — 2026-10-19**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 3 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
