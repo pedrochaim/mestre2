@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Gravura colorida em domínio público do personagem de traje branco, meia-máscara negra e chapéu cônico. Sem texto, figura única e reconhecível.",
+      "pergunta": "Este personagem do teatro popular, de máscara negra e chapéu cônico, surgiu em que país?",
+      "resposta": "Itália",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "ancora": {
+        "nome": "Polichinelo",
+        "descricao": "Personagem clássico da commedia dell'arte, de origem napolitana, com meia-máscara negra, traje branco e chapéu cônico.",
+        "variantes": [
+          "Pulcinella",
+          "Polichinelle"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa do busto traz \"IBN KHALDOUN\" legível e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É um retrato idealizado de um sábio chinês, sem traço que o identifique. Dá para confundi-lo com outros filósofos chineses, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura em domínio público, sem texto, famosa e reconhecível. Pergunta de local, em múltipla escolha.",
+      "pergunta": "Em que museu fica este quadro neoclássico sobre a morte de um filósofo grego?",
+      "resposta": "Metropolitan Museum of Art",
+      "tipo": "multipla",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu do Prado",
+        "National Gallery de Londres"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "A Morte de Sócrates",
+        "descricao": "Pintura a óleo neoclássica de Jacques-Louis David, de 1787, que retrata a execução de Sócrates.",
+        "variantes": [
+          "La Mort de Socrate",
+          "The Death of Socrates"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa de rua \"Teatro Castro Alves\" aparece na imagem e entrega a resposta. Há também pessoas comuns em primeiro plano, e o teatro quase não se vê atrás da vegetação."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A fachada traz \"TEATRE DEL LICEU\" legível, e há faixas com o nome, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Escultura mundialmente reconhecível, em foto livre. A inscrição da base está cortada e ilegível. A pergunta vai além do nome.",
+      "pergunta": "Esta escultura em bronze fazia parte de que obra monumental do mesmo artista, encomendada em 1880?",
+      "resposta": "A Porta do Inferno",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "O Pensador (Rodin)",
+        "descricao": "Escultura em bronze de Auguste Rodin que mostra um homem nu sentado, de queixo apoiado na mão, em atitude de reflexão.",
+        "variantes": [
+          "O Pensador",
+          "Le Penseur",
+          "The Thinker"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Estátua sentada diante de uma muralha ameada, em Córdoba. A inscrição do pedestal não se lê. Em múltipla escolha com cidades andaluzas, a resposta é única.",
+      "pergunta": "Esta estátua de um filósofo medieval, junto a uma muralha, fica em que cidade espanhola?",
+      "resposta": "Córdoba",
+      "tipo": "multipla",
+      "distratores": [
+        "Sevilha",
+        "Granada",
+        "Toledo"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Averróis",
+        "descricao": "Filósofo e jurista andaluz do século doze, comentador de Aristóteles, nascido em Córdoba, cuja estátua fica junto à muralha da cidade.",
+        "variantes": [
+          "Ibn Rushd",
+          "Averroes",
+          "Ibne Rushd"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mosaico romano de um filósofo com relógio solar, sem texto. É um assunto obscuro, então a pergunta é em múltipla escolha, com cidades alemãs.",
+      "pergunta": "Este mosaico romano de um filósofo grego com um relógio solar foi encontrado em que cidade alemã?",
+      "resposta": "Tréveris",
+      "tipo": "multipla",
+      "distratores": [
+        "Colônia",
+        "Mainz",
+        "Aachen"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Anaximandro",
+        "descricao": "Filósofo grego pré-socrático de Mileto, discípulo de Tales, representado num mosaico romano de Tréveris.",
+        "variantes": [
+          "Anaximander"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada neorrenascentista, sem texto legível. Em múltipla escolha, com casas de ópera de aparência semelhante.",
+      "pergunta": "Que casa de ópera europeia é esta?",
+      "resposta": "Semperoper",
+      "tipo": "multipla",
+      "distratores": [
+        "Ópera Estatal de Viena",
+        "Ópera de Budapeste",
+        "Ópera Garnier"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Semperoper",
+        "descricao": "Casa de ópera de Dresden, na Alemanha, projetada por Gottfried Semper e sede da Ópera Estatal da Saxônia.",
+        "variantes": [
+          "Ópera Semper",
+          "Sächsische Staatsoper Dresden"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Figuras recortadas coloridas, sem texto, de uma única tradição, a do teatro de sombras turco. A pergunta pede um passo além do nome.",
+      "pergunta": "Estes dois personagens pertencem a que tipo de teatro tradicional, popular na época otomana?",
+      "resposta": "Teatro de sombras",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "Karagöz e Hacivat",
+        "descricao": "Dupla de protagonistas do teatro de sombras tradicional turco, popularizado no período otomano.",
+        "variantes": [
+          "Karagöz",
+          "Hacivat",
+          "Karagiozis",
+          "Karagöz e Hacivad"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Há vários letreiros de teatros (Golden, Schoenfeld, Booth, Jacobs, Oleanna), então a imagem mostra vários teatros e traz texto. A imagem não permite uma resposta única."
+    }
+  ]
+}

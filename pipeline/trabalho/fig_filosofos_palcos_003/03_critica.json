@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem italiana (napolitana) sustentada pelos trechos; enunciado não entrega a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Quadro neoclássico sobre a morte de um filósofo grego' praticamente nomeia a obra (A Morte de Sócrates), então a figura vira enfeite. Troquei a pista por época e nacionalidade, que ajudam sem entregar. O Met é confirmado pelo trecho.",
+      "reescrita": {
+        "pergunta": "Em que museu fica este quadro neoclássico francês, pintado no fim do século dezoito?",
+        "resposta": "Metropolitan Museum of Art",
+        "distratores": [
+          "Museu do Louvre",
+          "Museu do Prado",
+          "National Gallery de Londres"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que O Pensador fazia parte de A Porta do Inferno, encomendada em 1880. O enunciado não nomeia a figura e não responde sozinho.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estátua de Averróis junto à muralha de Córdoba, o que 'mostra' confirma. O enunciado não identifica o filósofo, e os distratores são cidades andaluzas ou espanholas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O mosaico de Anaximandro foi encontrado em Tréveris, o que 'mostra' confirma e é fato documentado. O enunciado não nomeia o filósofo, e os distratores são cidades alemãs críveis e distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. O enunciado não vaza a resposta, e os distratores são casas de ópera europeias parecidas e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que Karagöz e Hacivat são personagens de teatro de sombras tradicional turco, popularizado no período otomano. O enunciado não dá a resposta, e a figura é necessária para reconhecer os personagens.",
+      "reescrita": null
+    }
+  ]
+}

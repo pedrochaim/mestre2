@@ -5,7 +5,7 @@
       "titulo": "en:The Thinker",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "A Escola de Atenas",
@@ -19,7 +19,7 @@
       "titulo": "en:The Death of Socrates",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Montesquieu",
@@ -75,7 +75,7 @@
       "titulo": "en:Averroes",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Henry David Thoreau",
@@ -180,7 +180,7 @@
       "titulo": "en:Sock and buskin",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Ópera Estatal de Viena",
@@ -276,6 +276,286 @@
     {
       "nome": "Máscara Hannya",
       "titulo": "en:Hannya",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Buda (Sidarta Gautama)",
+      "titulo": "en:The Buddha",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cícero",
+      "titulo": "en:Cicero",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ralph Waldo Emerson",
+      "titulo": "en:Ralph Waldo Emerson",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "William James",
+      "titulo": "en:William James",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mary Wollstonecraft",
+      "titulo": "en:Mary Wollstonecraft",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Edmund Burke",
+      "titulo": "en:Edmund Burke",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ibn Khaldun",
+      "titulo": "en:Ibn Khaldun",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Protágoras",
+      "titulo": "en:Protagoras",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zenão de Cítio",
+      "titulo": "en:Zeno of Citium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plutarco",
+      "titulo": "en:Plutarch",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lucrécio",
+      "titulo": "en:Lucretius",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Johann Gottlieb Fichte",
+      "titulo": "en:Johann Gottlieb Fichte",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Friedrich Schelling",
+      "titulo": "en:Friedrich Wilhelm Joseph Schelling",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ludwig Feuerbach",
+      "titulo": "en:Ludwig Feuerbach",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pico della Mirandola",
+      "titulo": "en:Giovanni Pico della Mirandola",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Al-Farabi",
+      "titulo": "en:Al-Farabi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zhuangzi",
+      "titulo": "en:Zhuangzi (philosopher)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mozi",
+      "titulo": "en:Mozi",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Anaxágoras",
+      "titulo": "en:Anaxagoras",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anaximandro",
+      "titulo": "en:Anaximander",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Broadway",
+      "titulo": "en:Broadway theatre",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Moulin Rouge",
+      "titulo": "en:Moulin Rouge",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Marionete",
+      "titulo": "en:Marionette",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de sombras",
+      "titulo": "en:Shadow play",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Polichinelo",
+      "titulo": "en:Pulcinella",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Teatro Castro Alves",
+      "titulo": "pt:Teatro Castro Alves",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro Guaíra",
+      "titulo": "pt:Teatro Guaíra",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Odeão de Herodes Ático",
+      "titulo": "en:Odeon of Herodes Atticus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de Marcelo",
+      "titulo": "en:Theatre of Marcellus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Punch e Judy",
+      "titulo": "en:Punch and Judy",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Wayang",
+      "titulo": "en:Wayang",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ópera de Oslo",
+      "titulo": "en:Oslo Opera House",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Semperoper",
+      "titulo": "en:Semperoper",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Teatro Real de Madri",
+      "titulo": "en:Teatro Real",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gran Teatre del Liceu",
+      "titulo": "en:Gran Teatre del Liceu",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Teatro dos Estados de Praga",
+      "titulo": "en:Estates Theatre",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro romano de Mérida",
+      "titulo": "en:Roman Theatre of Mérida",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro de Aspendos",
+      "titulo": "en:Aspendos",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Teatro Arthur Azevedo",
+      "titulo": "pt:Teatro Arthur Azevedo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Karagöz e Hacivat",
+      "titulo": "en:Karagöz and Hacivat",
       "camada": 3,
       "destino": 1,
       "status": "usada"

@@ -1,0 +1,443 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Polichinelo",
+        "descricao": "Personagem clássico da commedia dell'arte, de origem napolitana, com meia-máscara negra, traje branco e chapéu cônico.",
+        "variantes": [
+          "Pulcinella",
+          "Polichinelle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dulcineia_del_toboso",
+          "nome": "Dulcineia del Toboso",
+          "descricao": "Dama idealizada por Dom Quixote no romance de Miguel de Cervantes.",
+          "variantes": [
+            "Dulcinea del Toboso",
+            "Dulcineia"
+          ]
+        },
+        {
+          "id": "poliwhirl",
+          "nome": "Poliwhirl",
+          "descricao": "Pokémon do tipo Água da primeira geração, número 61 da Pokédex Nacional, forma intermediária entre Poliwag e Poliwrath ou Politoed.",
+          "variantes": []
+        },
+        {
+          "id": "poulaine",
+          "nome": "Poulaine",
+          "descricao": "Sapato medieval europeu de bico longo e pontudo, moda nos séculos quatorze e quinze",
+          "variantes": [
+            "Crakow",
+            "Sapato de bico de proa"
+          ]
+        },
+        {
+          "id": "boliche",
+          "nome": "Boliche",
+          "descricao": "Boliche de dez pinos, jogo em que se rola uma bola pesada por uma pista para derrubar dez pinos.",
+          "variantes": [
+            "Ten-pin bowling",
+            "Bowling"
+          ]
+        },
+        {
+          "id": "poliomielite",
+          "nome": "Poliomielite",
+          "descricao": "Doença viral que pode causar paralisia, combatida no Brasil com campanhas de vacinação em gotas.",
+          "variantes": [
+            "Pólio",
+            "Paralisia infantil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "A Morte de Sócrates",
+        "descricao": "Pintura a óleo neoclássica de Jacques-Louis David, de 1787, que retrata a execução de Sócrates.",
+        "variantes": [
+          "La Mort de Socrate",
+          "The Death of Socrates"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_morte_de_socrates",
+          "nome": "A Morte de Sócrates",
+          "descricao": "Pintura a óleo de Jacques-Louis David, de 1787, que mostra Sócrates prestes a beber a cicuta cercado de discípulos.",
+          "variantes": [
+            "La Mort de Socrate",
+            "The Death of Socrates"
+          ]
+        },
+        {
+          "id": "a_morte_de_sardanapalo",
+          "nome": "A Morte de Sardanápalo",
+          "descricao": "Pintura romântica de Eugène Delacroix, de 1827, no Louvre, sobre o rei assírio Sardanápalo cercado por seu harém e seus tesouros.",
+          "variantes": [
+            "The Death of Sardanapalus",
+            "La Mort de Sardanapale",
+            "Morte de Sardanapalo"
+          ]
+        },
+        {
+          "id": "julgamento_de_socrates",
+          "nome": "Julgamento de Sócrates",
+          "descricao": "Processo de 399 a.C. em que o filósofo Sócrates foi condenado à morte em Atenas por impiedade e por corromper a juventude.",
+          "variantes": [
+            "Trial of Socrates"
+          ]
+        },
+        {
+          "id": "assassinato_de_jean_paul_marat",
+          "nome": "Assassinato de Jean-Paul Marat",
+          "descricao": "Morte do jornalista revolucionário francês Jean-Paul Marat, esfaqueado na banheira em 13 de julho de 1793.",
+          "variantes": [
+            "Morte de Marat"
+          ]
+        },
+        {
+          "id": "a_riqueza_das_nacoes",
+          "nome": "A Riqueza das Nações",
+          "descricao": "Obra de economia publicada em 1776, considerada fundadora da economia política clássica e do liberalismo econômico.",
+          "variantes": [
+            "The Wealth of Nations",
+            "An Inquiry into the Nature and Causes of the Wealth of Nations"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Pensador (Rodin)",
+        "descricao": "Escultura em bronze de Auguste Rodin que mostra um homem nu sentado, de queixo apoiado na mão, em atitude de reflexão.",
+        "variantes": [
+          "O Pensador",
+          "Le Penseur",
+          "The Thinker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_pensador",
+          "nome": "O Pensador",
+          "descricao": "Escultura de bronze de Auguste Rodin.",
+          "variantes": [
+            "Le Penseur"
+          ]
+        },
+        {
+          "id": "o_pesadelo_fussli",
+          "nome": "O Pesadelo (Füssli)",
+          "descricao": "Pintura a óleo de Henry Fuseli, de 1781, com uma mulher adormecida, um íncubo sobre o peito e um cavalo ao fundo.",
+          "variantes": [
+            "The Nightmare",
+            "Der Nachtmahr",
+            "O Pesadelo"
+          ]
+        },
+        {
+          "id": "o_semeador_millet",
+          "nome": "O Semeador (Millet)",
+          "descricao": "Pintura a óleo de Jean-François Millet (1850) de um camponês semeando, no Museu de Belas Artes de Boston.",
+          "variantes": [
+            "The Sower",
+            "Le Semeur"
+          ]
+        },
+        {
+          "id": "o_absinto",
+          "nome": "O Absinto",
+          "descricao": "Pintura de Edgar Degas de 1875-1876, também chamada Num Café, que mostra uma mulher e um homem sentados num café parisiense.",
+          "variantes": [
+            "O Absinto (Degas)",
+            "L'Absinthe",
+            "Num Café",
+            "Dans un Café",
+            "The Absinthe Drinker"
+          ]
+        },
+        {
+          "id": "ensaios_montaigne",
+          "nome": "Ensaios (Montaigne)",
+          "descricao": "Coletânea de textos de Michel de Montaigne publicada a partir de 1580, que deu nome ao gênero ensaio.",
+          "variantes": [
+            "Essais",
+            "Os Ensaios"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Averróis",
+        "descricao": "Filósofo e jurista andaluz do século doze, comentador de Aristóteles, nascido em Córdoba, cuja estátua fica junto à muralha da cidade.",
+        "variantes": [
+          "Ibn Rushd",
+          "Averroes",
+          "Ibne Rushd"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "papoula",
+          "nome": "Papoula",
+          "descricao": "Papaver rhoeas, planta anual de flores vermelhas comum em campos agrícolas.",
+          "variantes": [
+            "Papoila",
+            "Papaver rhoeas",
+            "Papoula-comum"
+          ]
+        },
+        {
+          "id": "ambar_gris",
+          "nome": "Âmbar-gris",
+          "descricao": "Substância cerosa e rara, usada na perfumaria, formada no sistema digestivo do cachalote.",
+          "variantes": [
+            "Âmbar cinzento",
+            "Ambergris"
+          ]
+        },
+        {
+          "id": "arrufos",
+          "nome": "Arrufos",
+          "descricao": "Quadro de Belmiro de Almeida de 1887.",
+          "variantes": []
+        },
+        {
+          "id": "monte_everest",
+          "nome": "Monte Everest",
+          "descricao": "Montanha do Himalaia, na fronteira entre Nepal e China, o ponto mais alto da Terra acima do nível do mar.",
+          "variantes": [
+            "Everest",
+            "Chomolungma",
+            "Sagarmatha",
+            "Mount Everest"
+          ]
+        },
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Anaximandro",
+        "descricao": "Filósofo grego pré-socrático de Mileto, discípulo de Tales, representado num mosaico romano de Tréveris.",
+        "variantes": [
+          "Anaximander"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anaximandro",
+          "nome": "Anaximandro",
+          "descricao": "Filósofo pré-socrático do século seis a.C., discípulo de Tales, autor da ideia do ápeiron, o ilimitado, como princípio de tudo.",
+          "variantes": [
+            "Anaximander",
+            "Anaximandro de Mileto"
+          ]
+        },
+        {
+          "id": "charmander",
+          "nome": "Charmander",
+          "descricao": "Pokémon do tipo Fogo, número 4 da Pokédex Nacional.",
+          "variantes": [
+            "Hitokage"
+          ]
+        },
+        {
+          "id": "malamar",
+          "nome": "Malamar",
+          "descricao": "Pokémon lula dos tipos Sombrio e Psíquico da sexta geração, evolução de Inkay.",
+          "variantes": [
+            "Calamanero"
+          ]
+        },
+        {
+          "id": "africaner",
+          "nome": "Africâner",
+          "descricao": "Língua germânica derivada do holandês, falada na África do Sul e na Namíbia.",
+          "variantes": [
+            "Afrikaans",
+            "Africânder"
+          ]
+        },
+        {
+          "id": "mancha_negra",
+          "nome": "Mancha Negra",
+          "descricao": "Vilão encapuzado de capa negra, arquiinimigo do Mickey Mouse nos quadrinhos da Disney.",
+          "variantes": [
+            "Phantom Blot",
+            "Fantasma Negro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Semperoper",
+        "descricao": "Casa de ópera de Dresden, na Alemanha, projetada por Gottfried Semper e sede da Ópera Estatal da Saxônia.",
+        "variantes": [
+          "Ópera Semper",
+          "Sächsische Staatsoper Dresden"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serperior",
+          "nome": "Serperior",
+          "descricao": "Pokémon do tipo Planta, número 497 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "efemera",
+          "nome": "Efêmera",
+          "descricao": "Insetos da ordem Ephemeroptera, de larvas aquáticas e adultos que vivem muito pouco tempo.",
+          "variantes": [
+            "Efemeróptero",
+            "Ephemeroptera",
+            "Siriruia"
+          ]
+        },
+        {
+          "id": "empoleon",
+          "nome": "Empoleon",
+          "descricao": "Pokémon dos tipos Água e Aço, número 395 da Pokédex Nacional.",
+          "variantes": [
+            "Emperte"
+          ]
+        },
+        {
+          "id": "superpower",
+          "nome": "Superpower",
+          "descricao": "Golpe de pokémon do tipo Lutador, da 3ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Karagöz e Hacivat",
+        "descricao": "Dupla de protagonistas do teatro de sombras tradicional turco, popularizado no período otomano.",
+        "variantes": [
+          "Karagöz",
+          "Hacivat",
+          "Karagiozis",
+          "Karagöz e Hacivad"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "hipatia",
+          "nome": "Hipátia",
+          "descricao": "Filósofa, astrônoma e matemática de Alexandria, assassinada no ano 415.",
+          "variantes": [
+            "Hipátia de Alexandria",
+            "Hypatia",
+            "Hipácia"
+          ]
+        },
+        {
+          "id": "cartago",
+          "nome": "Cartago",
+          "descricao": "Antiga cidade fenícia do norte da África, rival de Roma nas Guerras Púnicas e destruída pelos romanos em 146 antes de Cristo.",
+          "variantes": [
+            "Carthago",
+            "Carthage"
+          ]
+        },
+        {
+          "id": "karaoke",
+          "nome": "Karaokê",
+          "descricao": "Forma de entretenimento em que pessoas cantam sobre gravações instrumentais, criada no Japão",
+          "variantes": []
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o personagem Polichinelo da commedia dell'arte."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "a_morte_de_socrates",
+      "motivo": "Mesma pintura de David, 1787."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "o_pensador",
+      "motivo": "Mesma escultura de bronze de Rodin."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o filósofo Averróis."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "anaximandro",
+      "motivo": "Mesmo filósofo pré-socrático de Mileto, discípulo de Tales."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Semperoper de Dresden."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o teatro de sombras turco Karagöz e Hacivat."
+    }
+  ]
+}

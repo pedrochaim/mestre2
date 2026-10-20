@@ -1,0 +1,68 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que museu fica este quadro neoclássico francês, pintado no fim do século dezoito?",
+        "resposta": "Metropolitan Museum of Art"
+      },
+      "existentes": [
+        {
+          "id": "q03700",
+          "pergunta": "Que estilo de pintura marca este quadro francês de 1787?",
+          "resposta": "Neoclassicismo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta escultura em bronze fazia parte de que obra monumental do mesmo artista, encomendada em 1880?",
+        "resposta": "A Porta do Inferno"
+      },
+      "existentes": [
+        {
+          "id": "q00459",
+          "pergunta": "Quem esculpiu esta estátua?",
+          "resposta": "Auguste Rodin"
+        },
+        {
+          "id": "q03179",
+          "pergunta": "O Pensador, de Rodin, nasceu como parte de um grande portal de bronze inspirado na obra de Dante. Como se chama esse portal?",
+          "resposta": "A Porta do Inferno"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este mosaico romano de um filósofo grego com um relógio solar foi encontrado em que cidade alemã?",
+        "resposta": "Tréveris"
+      },
+      "existentes": [
+        {
+          "id": "q13875",
+          "pergunta": "Os filósofos Tales, Anaximandro e Anaxímenes viveram na mesma cidade grega da Ásia Menor, no século seis antes de Cristo. Que cidade era essa?",
+          "resposta": "Mileto"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o museu, enquanto a existente pergunta o estilo; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A existente q03179 já pergunta que portal de bronze o Pensador integrava, com a mesma resposta: A Porta do Inferno."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A existente trata de filósofos pré-socráticos e de Mileto; a nova pergunta onde foi achado um mosaico, que é outro fato."
+    }
+  ]
+}
