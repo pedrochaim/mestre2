@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.72 — 2026-10-17**
+> **Versão preliminar 0.73 — 2026-10-19**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -929,6 +929,30 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 
 **Ajustes de rota:** o plano é uma meta, não uma obrigação. Se um subtema começar a se repetir (âncoras saturadas, crítico descartando muito), ele para abaixo da meta, e a diferença vai para subtemas com mais assunto. A proporção de 25% com figura vale para o banco todo, não para cada tema.
 
+### Subtemas com poucas perguntas (2026-10-19)
+
+A meta de 10 000 foi cumprida com cerca de 1 260 perguntas por tema, mas alguns subtemas ficaram quase vazios: oito lotes de texto travaram na crítica entre 03/10 e 15/10 (o `{{citation}}` da Wikipédia derrubava o prompt; corrigido em 16/10) e nunca foram retomados, e as figuras se concentraram nos catálogos mais fáceis. Antes das novas diretrizes de produção, um mutirão leva todos os subtemas a um **piso**:
+
+- **Texto: pelo menos ~90 perguntas por subtema.** Primeiro os 8 lotes travados (Povos e Idiomas, Mitologia, Idade Média, Pré-História e Idade do Bronze, Roma Antiga, Segunda Guerra Mundial, Oceanos, Mares e Ilhas, Bandeiras e Símbolos); depois mais 2 lotes para Povos e Idiomas e para Mitologia, 1 para Idade Média e 1 para cada subtema de História abaixo do piso (Egito Antigo, Idade Moderna, História do Brasil, Idade Contemporânea, Antigas Civilizações do Oriente, História da África, Grécia Antiga e Primeira Guerra Mundial). Nos 13 lotes novos, a orientação de "aprofundar" é trocada por "priorize os assuntos centrais e conhecidos que ainda não têm pergunta; não troque fama por raridade".
+- **Figura: pelo menos 20 perguntas por subtema (25 nos que têm zero),** com 12 catálogos novos, cada um dirigido só aos subtemas abaixo do piso:
+
+| Catálogo | Meta | Subtemas de destino |
+|---|---|---|
+| `idiomas_escritas` | 25 | Povos e Idiomas (escritas e alfabetos; habitações tradicionais) |
+| `biomas_ambientes` | 50 | Clima e Biomas · Ecossistemas e Ambientes Extremos |
+| `ilhas_aguas` | 20 | Oceanos, Mares e Ilhas · Rios e Lagos |
+| `pre_historia_evolucao` | 45 | Evolução Humana · Pré-História e Idade do Bronze |
+| `rochas_minerais` | 25 | Geologia e História da Terra |
+| `artefatos_antigos` | 45 | Egito Antigo · Grécia Antiga · Américas Pré-Colombianas · Antigas Civilizações do Oriente · História da África |
+| `guerras_mundiais` | 25 | Primeira Guerra Mundial · Segunda Guerra Mundial |
+| `mitos_religioes` | 40 | Mitologia · Religiões |
+| `filosofos_palcos` | 15 | Filosofia · Teatro e Ópera |
+| `energia_matematica` | 25 | Meio Ambiente e Energia · Matemática |
+| `volei_basquete` | 26 | Vôlei · Basquete |
+| `jogos_tabuleiro` | 12 | Jogos de Tabuleiro e Cartas |
+
+Ficam fora do piso de figura Língua Portuguesa e Expressões (sem assunto visual) e Marcas e Produtos (logotipos e embalagens entregam a resposta e têm direitos). Os lotes de figura rodam depois dos de texto, com `python pipeline/autopiloto.py --catalogos <ids>`, que só escolhe trabalho nesses catálogos.
+
 ---
 
 ## 18. Histórico
@@ -967,6 +991,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.73 | 2026-10-19 | Mutirão dos subtemas com poucas perguntas: piso de ~90 perguntas de texto e 20 com figura por subtema, os 8 lotes travados de volta à fila, 13 lotes novos com orientação de priorizar o conhecido e 12 catálogos de figura dirigidos aos subtemas vazios; opção `--catalogos` do autopiloto (§17) |
 | 0.72 | 2026-10-17 | Modo Pokémon: sem o piso de equilíbrio entre os subtemas (o equilíbrio é o das casas temáticas, na programação dos lotes); nova família de dados "Qual é esse ataque?", um cartão com os dados do golpe, na casa Cartão de atributos (`pipeline/pokemon_golpes.py`); o esquema aceita como origem as tabelas de dados do PokéAPI; mais 1164 perguntas no modo (`modo_pokemon.md`) |
 | 0.71 | 2026-10-16 | Modo Pokémon: o dado vale só para quem recebeu a pergunta, e quem acerta depois que ela passa adiante anda uma casa; o marcador do dado mostra o nome de quem a recebeu (§15; `modo_pokemon.md`) |
 | 0.70 | 2026-10-16 | Modo Pokémon: um dado de 1 a 3, rolado com cada pergunta, diz quantas casas anda quem acertar; aparece no aparelho que sorteou e no modo mesa, e fica no registro do sorteio (§15, §16; `modo_pokemon.md`) |

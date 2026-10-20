@@ -121,6 +121,7 @@ O `autopiloto.py` executa a programação do MANIFESTO §17 sozinho, fora de qua
 python pipeline/autopiloto.py                 # roda até a meta, esperando a cota quando preciso
 python pipeline/autopiloto.py --max 3         # para depois de 3 trabalhos
 python pipeline/autopiloto.py --so-texto      # só lotes de texto (ou --so-figuras)
+python pipeline/autopiloto.py --catalogos biomas_ambientes,rochas_minerais   # só figuras destes catálogos
 python pipeline/autopiloto.py --publicar 5    # a cada 5 trabalhos, git push e deploy no Firebase
 python pipeline/autopiloto.py --status        # mostra o progresso contra as metas e sai
 python pipeline/autopiloto.py --limite-sessao 90   # usa no máximo 90% da sessão de 5 horas (padrão: 95)

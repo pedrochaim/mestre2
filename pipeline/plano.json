@@ -1242,6 +1242,258 @@
         "onde",
         "com_o_que_se_liga"
       ]
+    },
+    {
+      "id": "idiomas_escritas",
+      "meta": 25,
+      "imagem": "P18",
+      "descricao": "Sistemas de escrita e alfabetos do mundo (a imagem é uma amostra da escrita, sem tradução nem legenda: cirílico, hangul, devanágari, ideogramas chineses) e habitações e objetos tradicionais ligados a um povo (iglu, iurta, oca, tipi). Nada de fotos que reduzam um povo à aparência das pessoas.",
+      "destinos": [
+        [
+          "Geografia",
+          "Povos e Idiomas"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "biomas_ambientes",
+      "meta": 50,
+      "imagem": "P18",
+      "descricao": "Biomas e tipos de vegetação (Caatinga, Pampa, tundra, taiga, savana, mangue), fenômenos do tempo e do clima (tornado, cumulonimbo, geada, monção) e ambientes extremos (fonte hidrotermal, geleira, salar, deserto polar, fumarola). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Geografia",
+          "Clima e Biomas"
+        ],
+        [
+          "Natureza",
+          "Ecossistemas e Ambientes Extremos"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "que_tipo"
+      ]
+    },
+    {
+      "id": "ilhas_aguas",
+      "meta": 20,
+      "imagem": "P18",
+      "descricao": "Ilhas, atóis, arquipélagos, estreitos, mares, rios e lagos famosos, em fotos ou imagens de satélite em que a forma ou a paisagem permite reconhecer (Ilha de Páscoa, Fernando de Noronha, Mar Morto, Encontro das Águas, Lago Titicaca). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Geografia",
+          "Oceanos, Mares e Ilhas"
+        ],
+        [
+          "Geografia",
+          "Rios e Lagos"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "pre_historia_evolucao",
+      "meta": 45,
+      "imagem": "P18",
+      "descricao": "Fósseis e reconstituições de hominídeos (crânios famosos, Lucy, Luzia), ferramentas de pedra e de bronze, arte rupestre (Lascaux, Altamira, Serra da Capivara), estatuetas e sítios pré-históricos (Göbekli Tepe, Skara Brae). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Natureza",
+          "Evolução Humana"
+        ],
+        [
+          "História",
+          "Pré-História e Idade do Bronze"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "quando"
+      ]
+    },
+    {
+      "id": "rochas_minerais",
+      "meta": 25,
+      "imagem": "P18",
+      "descricao": "Rochas, minerais, cristais e formações geológicas, em fotos de amostras ou afloramentos (basalto colunar, geodo, estalactites, obsidiana, pedra-pomes, mármore, quartzo).",
+      "destinos": [
+        [
+          "Natureza",
+          "Geologia e História da Terra"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "que_tipo",
+        "que_parte"
+      ]
+    },
+    {
+      "id": "artefatos_antigos",
+      "meta": 45,
+      "imagem": "P18",
+      "descricao": "Objetos e obras de civilizações antigas, em museus: máscaras, vasos, estelas, armas, joias e estátuas (máscara de Tutancâmon, Pedra de Roseta, Exército de Terracota, bronzes do Benin, Pedra do Sol asteca, Vaso François). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "História",
+          "Egito Antigo"
+        ],
+        [
+          "História",
+          "Grécia Antiga"
+        ],
+        [
+          "História",
+          "Américas Pré-Colombianas"
+        ],
+        [
+          "História",
+          "Antigas Civilizações do Oriente"
+        ],
+        [
+          "História",
+          "História da África"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "quando",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "guerras_mundiais",
+      "meta": 25,
+      "imagem": "P18",
+      "descricao": "Veículos, armas, aviões, navios, máquinas e lugares marcantes das duas guerras mundiais (tanque Mark I, máquina Enigma, Spitfire, encouraçado Bismarck, praias da Normandia). Nada de imagens com mortos ou violência explícita, nem cartazes com texto que entregue a resposta. Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "História",
+          "Primeira Guerra Mundial"
+        ],
+        [
+          "História",
+          "Segunda Guerra Mundial"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "quando",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "mitos_religioes",
+      "meta": 40,
+      "imagem": "P18",
+      "descricao": "Deuses, heróis e criaturas mitológicas em obras de arte em domínio público (esculturas, vasos e pinturas: Zeus, Anúbis, Thor, Medusa, Minotauro, Quetzalcóatl) e símbolos, objetos e templos das religiões (menorá, roda do dharma, Templo Dourado, Angkor Wat). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Artes e Pensamento",
+          "Mitologia"
+        ],
+        [
+          "Artes e Pensamento",
+          "Religiões"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "filosofos_palcos",
+      "meta": 15,
+      "imagem": "P18",
+      "descricao": "Retratos e bustos de filósofos em obras de domínio público (Sócrates, Confúcio, Descartes, Kant) e teatros e casas de ópera famosos, máscaras e figurinos tradicionais do teatro (nô, commedia dell'arte). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Artes e Pensamento",
+          "Filosofia"
+        ],
+        [
+          "Artes e Pensamento",
+          "Teatro e Ópera"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "com_o_que_se_liga",
+        "onde"
+      ]
+    },
+    {
+      "id": "energia_matematica",
+      "meta": 25,
+      "imagem": "P18",
+      "descricao": "Usinas e tecnologias de energia (turbina eólica, usina hidrelétrica, painel solar, reator nuclear), fenômenos ambientais visíveis (maré vermelha, branqueamento de corais) e objetos e figuras da matemática (ábaco, sólidos de Platão, faixa de Möbius, conjunto de Mandelbrot, triângulo de Sierpinski). Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Ciências",
+          "Meio Ambiente e Energia"
+        ],
+        [
+          "Ciências",
+          "Matemática"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "que_tipo",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "volei_basquete",
+      "meta": 26,
+      "imagem": "P18",
+      "descricao": "Jogadores e jogadoras de vôlei e de basquete, em fotos livres (Giba, Sheilla, Oscar Schmidt, Hortência, Michael Jordan), e ginásios, troféus e equipamentos marcantes das duas modalidades. Distribua as entidades mais ou menos por igual entre os subtemas de destino.",
+      "destinos": [
+        [
+          "Esportes",
+          "Vôlei"
+        ],
+        [
+          "Esportes",
+          "Basquete"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "com_o_que_se_liga"
+      ]
+    },
+    {
+      "id": "jogos_tabuleiro",
+      "meta": 12,
+      "imagem": "P18",
+      "descricao": "Jogos de tabuleiro e de cartas tradicionais, suas peças e baralhos (go, mancala, gamão, dominó, tarô, senet, ludo), em fotos livres e sem marcas.",
+      "destinos": [
+        [
+          "Entretenimento",
+          "Jogos de Tabuleiro e Cartas"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "com_o_que_se_liga"
+      ]
     }
   ]
 }
