@@ -1,0 +1,511 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Desmatamento",
+        "descricao": "Remoção e destruição de uma floresta para converter a terra em uso não florestal, como agricultura.",
+        "variantes": [
+          "Desflorestação",
+          "Derrubada de florestas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "adestramento",
+          "nome": "Adestramento",
+          "descricao": "Modalidade hípica em que o cavalo executa uma sequência de movimentos predeterminados guiado pelo cavaleiro.",
+          "variantes": [
+            "Dressage"
+          ]
+        },
+        {
+          "id": "apertizacao",
+          "nome": "Apertização",
+          "descricao": "Método de conservar alimentos em recipientes hermeticamente fechados e aquecidos, origem da comida enlatada.",
+          "variantes": [
+            "Conserva",
+            "Enlatamento",
+            "Canning"
+          ]
+        },
+        {
+          "id": "floresta_do_congo",
+          "nome": "Floresta do Congo",
+          "descricao": "Floresta tropical úmida da bacia do Rio Congo, na África Central",
+          "variantes": [
+            "Floresta tropical do Congo",
+            "Congolian rainforests"
+          ]
+        },
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        },
+        {
+          "id": "bolo_floresta_negra",
+          "nome": "Bolo Floresta Negra",
+          "descricao": "Bolo alemão em camadas de massa de chocolate, creme chantili e cerejas, com raspas de chocolate.",
+          "variantes": [
+            "Floresta Negra",
+            "Schwarzwälder Kirschtorte",
+            "Black Forest gateau"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cavalo de pau (bomba de petróleo)",
+        "descricao": "Equipamento de superfície que aciona a bomba de vareta de sucção para elevar petróleo de poços terrestres.",
+        "variantes": [
+          "Bomba de petróleo",
+          "Pumpjack",
+          "Cavalo-de-pau",
+          "Bomba de vareta de sucção"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalo_de_troia",
+          "nome": "Cavalo de Troia",
+          "descricao": "Cavalo de madeira oco usado pelos gregos para entrar em Troia e conquistar a cidade.",
+          "variantes": [
+            "Trojan Horse"
+          ]
+        },
+        {
+          "id": "canal_do_panama",
+          "nome": "Canal do Panamá",
+          "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico.",
+          "variantes": [
+            "Panama Canal",
+            "Canal de Panamá"
+          ]
+        },
+        {
+          "id": "locomotiva_a_vapor",
+          "nome": "Locomotiva a vapor",
+          "descricao": "Locomotiva que se move pela expansão do vapor produzido ao queimar combustível para aquecer água numa caldeira.",
+          "variantes": [
+            "Maria-fumaça",
+            "Steam locomotive",
+            "Cavalo de ferro"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "canal_de_suez",
+          "nome": "Canal de Suez",
+          "descricao": "Canal artificial no Egito que liga o mar Mediterrâneo ao mar Vermelho.",
+          "variantes": [
+            "Suez Canal",
+            "Suez"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tesserato",
+        "descricao": "Hipercubo de quatro dimensões, cuja hipersuperfície tem oito células cúbicas.",
+        "variantes": [
+          "Hipercubo",
+          "Tesseract",
+          "8-célula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celula",
+          "nome": "Célula",
+          "descricao": "Unidade estrutural e funcional básica dos seres vivos.",
+          "variantes": [
+            "Cell"
+          ]
+        },
+        {
+          "id": "telefone_celular",
+          "nome": "Telefone celular",
+          "descricao": "Telefone portátil sem fio que se conecta a uma rede de antenas, cuja primeira ligação foi feita em 1973.",
+          "variantes": [
+            "Celular",
+            "Telemóvel"
+          ]
+        },
+        {
+          "id": "esperanto",
+          "nome": "Esperanto",
+          "descricao": "Língua planejada para a comunicação internacional, publicada em 1887.",
+          "variantes": [
+            "Esperanto language"
+          ]
+        },
+        {
+          "id": "deserto",
+          "nome": "Deserto",
+          "descricao": "Tipo de região, quente ou fria, onde a precipitação é muito baixa",
+          "variantes": []
+        },
+        {
+          "id": "hiperion",
+          "nome": "Hipérion",
+          "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+          "variantes": [
+            "Hyperion",
+            "Saturno VII"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ábaco",
+        "descricao": "Instrumento manual de cálculo com contas deslizantes em hastes dentro de uma moldura.",
+        "variantes": [
+          "Soroban",
+          "Schoty"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "baco_caravaggio",
+          "nome": "Baco (Caravaggio)",
+          "descricao": "Pintura a óleo de Caravaggio (c. 1596) que mostra um jovem Baco com uvas na cabeça e uma taça de vinho, na Galeria Uffizi.",
+          "variantes": [
+            "Bacchus",
+            "Baco",
+            "Bacco"
+          ]
+        },
+        {
+          "id": "baco",
+          "nome": "Baço",
+          "descricao": "Órgão do lado esquerdo do abdome que filtra o sangue e faz parte do sistema linfático.",
+          "variantes": [
+            "Spleen"
+          ]
+        },
+        {
+          "id": "dioniso",
+          "nome": "Dioniso",
+          "descricao": "Deus grego do vinho, das festas e do teatro, filho de Zeus e da mortal Sêmele.",
+          "variantes": [
+            "Dionísio",
+            "Baco",
+            "Dionysus"
+          ]
+        },
+        {
+          "id": "tabasco",
+          "nome": "Tabasco",
+          "descricao": "Molho de pimenta produzido pela McIlhenny Company em Avery Island, na Luisiana, desde o século dezenove.",
+          "variantes": [
+            "Molho Tabasco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Dodecaedro",
+        "descricao": "Poliedro regular de doze faces pentagonais, um dos sólidos de Platão.",
+        "variantes": [
+          "Dodecaedro regular"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "decamerao",
+          "nome": "Decamerão",
+          "descricao": "Coletânea de contos de Giovanni Boccaccio, escrita no século quatorze.",
+          "variantes": [
+            "Decameron",
+            "Decamerone"
+          ]
+        },
+        {
+          "id": "dodrio",
+          "nome": "Dodrio",
+          "descricao": "Pokémon dos tipos Normal e Voador, número 85 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "hemofilia_na_realeza_europeia",
+          "nome": "Hemofilia na realeza europeia",
+          "descricao": "Disseminação da hemofilia entre famílias reais da Europa nos séculos dezenove e vinte.",
+          "variantes": [
+            "Doença real",
+            "Haemophilia in European royalty"
+          ]
+        },
+        {
+          "id": "alfabeto",
+          "nome": "Alfabeto",
+          "descricao": "Conjunto ordenado das letras usadas para escrever uma língua",
+          "variantes": [
+            "Abecedário"
+          ]
+        },
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Régua de cálculo",
+        "descricao": "Calculadora mecânica analógica com réguas deslizantes e escalas logarítmicas.",
+        "variantes": [
+          "Régua deslizante",
+          "Slide rule"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "regua_de_calculo",
+          "nome": "Régua de cálculo",
+          "descricao": "Calculadora analógica mecânica com escalas deslizantes, usada para multiplicar, dividir e calcular logaritmos.",
+          "variantes": [
+            "Slide rule"
+          ]
+        },
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa",
+            "Pedras deslizantes",
+            "Pedras andantes"
+          ]
+        },
+        {
+          "id": "agua_de_coco",
+          "nome": "Água de coco",
+          "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+          "variantes": [
+            "Coconut water",
+            "Água de coco verde"
+          ]
+        },
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "alola",
+          "nome": "Alola",
+          "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+          "variantes": [
+            "Região de Alola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sólidos de Platão",
+        "descricao": "Os cinco poliedros regulares convexos: tetraedro, cubo, octaedro, dodecaedro e icosaedro.",
+        "variantes": [
+          "Sólidos platônicos",
+          "Poliedros de Platão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "obelisco_de_latrao",
+          "nome": "Obelisco de Latrão",
+          "descricao": "Obelisco egípcio do tempo de Tutmés Terceiro, levado de Karnak para Roma e erguido diante da Basílica de São João de Latrão",
+          "variantes": [
+            "Lateran Obelisk",
+            "Obelisco Lateranense"
+          ]
+        },
+        {
+          "id": "dom_pedro_i",
+          "nome": "Dom Pedro I",
+          "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+          "variantes": [
+            "Pedro I do Brasil",
+            "Pedro IV de Portugal",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara",
+            "Pedro Segundo"
+          ]
+        },
+        {
+          "id": "gol_de_placa",
+          "nome": "Gol de placa",
+          "descricao": "Expressão brasileira para um gol muito bonito, nascida de uma placa colocada no Maracanã em 1961.",
+          "variantes": []
+        },
+        {
+          "id": "amor_platonico",
+          "nome": "Amor platônico",
+          "descricao": "Expressão para um amor afetivo e não físico, derivada do nome de Platão.",
+          "variantes": [
+            "Platonic love",
+            "Amor platonicus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Linha de transmissão",
+        "descricao": "Linha aérea de condutores suspensos por torres que leva energia elétrica por longas distâncias.",
+        "variantes": [
+          "Torre de transmissão",
+          "Linha de alta tensão",
+          "Torre de alta tensão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_radio_de_goldenrod",
+          "nome": "Torre de Rádio de Goldenrod",
+          "descricao": "Prédio da emissora de rádio de Goldenrod, em Johto, invadido pela Equipe Rocket em Pokémon Gold e Silver.",
+          "variantes": [
+            "Goldenrod Radio Tower",
+            "Torre de Rádio"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light",
+            "Sinaleira"
+          ]
+        },
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        },
+        {
+          "id": "linha_de_wallace",
+          "nome": "Linha de Wallace",
+          "descricao": "Fronteira biogeográfica no arquipélago malaio que separa a fauna de origem asiática da fauna de origem australiana.",
+          "variantes": [
+            "Wallace Line"
+          ]
+        },
+        {
+          "id": "torre_de_hanoi",
+          "nome": "Torre de Hanói",
+          "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+          "variantes": [
+            "Tower of Hanoi"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata trata de desmatamento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bomba de petróleo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tesserato não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "abaco",
+      "motivo": "Mesmo instrumento de cálculo, com as mesmas variantes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o dodecaedro."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "regua_de_calculo",
+      "motivo": "Mesma calculadora analógica de escalas deslizantes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata são os sólidos de Platão; o amor platônico é outra entidade."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a linha de transmissão elétrica."
+    }
+  ]
+}

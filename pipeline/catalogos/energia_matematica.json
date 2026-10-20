@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Usina de Itaipu",
+      "titulo": "en:Itaipu Dam",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plataforma de petróleo",
+      "titulo": "en:Oil platform",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Linha de transmissão",
+      "titulo": "en:Overhead power line",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Parque eólico",
+      "titulo": "en:Wind farm",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Desmatamento",
+      "titulo": "en:Deforestation",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lixão",
+      "titulo": "en:Landfill",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Medidor de energia elétrica",
+      "titulo": "en:Electricity meter",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Usina de Belo Monte",
+      "titulo": "en:Belo Monte Dam",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Reator nuclear",
+      "titulo": "en:Nuclear reactor",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maré vermelha",
+      "titulo": "en:Red tide",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Branqueamento de corais",
+      "titulo": "en:Coral bleaching",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavalo de pau (bomba de petróleo)",
+      "titulo": "en:Pumpjack",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Recuo das geleiras",
+      "titulo": "en:Retreat of glaciers since 1850",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Usina termelétrica",
+      "titulo": "en:Thermal power station",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina de Tucuruí",
+      "titulo": "en:Tucuruí Dam",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina geotérmica",
+      "titulo": "en:Geothermal power",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Usina solar de Ivanpah",
+      "titulo": "en:Ivanpah Solar Power Facility",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tokamak",
+      "titulo": "en:Tokamak",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Eutrofização",
+      "titulo": "en:Eutrophication",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Usina de Sobradinho",
+      "titulo": "en:Sobradinho Dam",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ábaco",
+      "titulo": "en:Abacus",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Transferidor",
+      "titulo": "en:Protractor",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Compasso",
+      "titulo": "en:Compass (drawing tool)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo mágico",
+      "titulo": "en:Rubik's Cube",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tangram",
+      "titulo": "en:Tangram",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora",
+      "titulo": "en:Calculator",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sudoku",
+      "titulo": "en:Sudoku",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sólidos de Platão",
+      "titulo": "en:Platonic solid",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Conjunto de Mandelbrot",
+      "titulo": "en:Mandelbrot set",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dodecaedro",
+      "titulo": "en:Regular dodecahedron",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Quadrado mágico",
+      "titulo": "en:Magic square",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Espiral áurea",
+      "titulo": "en:Golden spiral",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Diagrama de Venn",
+      "titulo": "en:Venn diagram",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Toro",
+      "titulo": "en:Torus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Triângulo de Sierpinski",
+      "titulo": "en:Sierpiński triangle",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Régua de cálculo",
+      "titulo": "en:Slide rule",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Floco de neve de Koch",
+      "titulo": "en:Koch snowflake",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esponja de Menger",
+      "titulo": "en:Menger sponge",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tesserato",
+      "titulo": "en:Tesseract",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Paraboloide hiperbólico",
+      "titulo": "en:Hyperbolic paraboloid",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

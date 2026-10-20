@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto aérea clara de floresta ao lado de área limpa, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que processo ambiental, causado pela ação humana, está registrado nesta foto aérea?",
+      "resposta": "Desmatamento",
+      "ancora": {
+        "nome": "Desmatamento",
+        "descricao": "Remoção e destruição de uma floresta para converter a terra em uso não florestal, como agricultura.",
+        "variantes": [
+          "Desflorestação",
+          "Derrubada de florestas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bomba de petróleo nítida; a marca Lufkin não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de equipamento é este?",
+      "resposta": "Cavalo de pau (bomba de petróleo)",
+      "distratores": [
+        "Torre de perfuração",
+        "Guindaste de obra",
+        "Bomba d'água manual"
+      ],
+      "ancora": {
+        "nome": "Cavalo de pau (bomba de petróleo)",
+        "descricao": "Equipamento de superfície que aciona a bomba de vareta de sucção para elevar petróleo de poços terrestres.",
+        "variantes": [
+          "Bomba de petróleo",
+          "Pumpjack",
+          "Cavalo-de-pau",
+          "Bomba de vareta de sucção"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Projeção clássica do hipercubo, um cubo dentro de outro, reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que figura geométrica é representada nesta imagem?",
+      "resposta": "Tesserato (hipercubo)",
+      "distratores": [
+        "Cubo de Necker",
+        "Cuboctaedro",
+        "Cubo truncado"
+      ],
+      "ancora": {
+        "nome": "Tesserato",
+        "descricao": "Hipercubo de quatro dimensões, cuja hipersuperfície tem oito células cúbicas.",
+        "variantes": [
+          "Hipercubo",
+          "Tesseract",
+          "8-célula"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ábaco de madeira com contas, inequívoco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento de cálculo é este?",
+      "resposta": "Ábaco",
+      "ancora": {
+        "nome": "Ábaco",
+        "descricao": "Instrumento manual de cálculo com contas deslizantes em hastes dentro de uma moldura.",
+        "variantes": [
+          "Soroban",
+          "Schoty"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Dodecaedro regular nítido, doze faces pentagonais visíveis.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que poliedro regular é este?",
+      "resposta": "Dodecaedro",
+      "distratores": [
+        "Icosaedro",
+        "Octaedro",
+        "Cubo truncado"
+      ],
+      "ancora": {
+        "nome": "Dodecaedro",
+        "descricao": "Poliedro regular de doze faces pentagonais, um dos sólidos de Platão.",
+        "variantes": [
+          "Dodecaedro regular"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Régua de cálculo linear nítida; a marca Aristo não entrega o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que instrumento de cálculo analógico é este, com escalas e cursor deslizante?",
+      "resposta": "Régua de cálculo",
+      "ancora": {
+        "nome": "Régua de cálculo",
+        "descricao": "Calculadora mecânica analógica com réguas deslizantes e escalas logarítmicas.",
+        "variantes": [
+          "Régua deslizante",
+          "Slide rule"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Muito texto visível (kWh, marca, instruções em sueco) que entrega a função do aparelho; imagem carregada."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Os cinco sólidos platônicos num único assunto, sem texto, claros.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que nome tem este conjunto de sólidos?",
+      "resposta": "Sólidos de Platão",
+      "distratores": [
+        "Sólidos de Arquimedes",
+        "Sólidos de Kepler",
+        "Sólidos de Johnson"
+      ],
+      "ancora": {
+        "nome": "Sólidos de Platão",
+        "descricao": "Os cinco poliedros regulares convexos: tetraedro, cubo, octaedro, dodecaedro e icosaedro.",
+        "variantes": [
+          "Sólidos platônicos",
+          "Poliedros de Platão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A torre aparece pequena e distante, em obras, sem espelhos legíveis; não é reconhecível como Ivanpah e se confunde com outras usinas de torre."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre de linha de transmissão nítida em campo, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estrutura é esta?",
+      "resposta": "Torre de transmissão de energia",
+      "distratores": [
+        "Torre de telefonia",
+        "Poste de iluminação",
+        "Torre de rádio"
+      ],
+      "ancora": {
+        "nome": "Linha de transmissão",
+        "descricao": "Linha aérea de condutores suspensos por torres que leva energia elétrica por longas distâncias.",
+        "variantes": [
+          "Torre de transmissão",
+          "Linha de alta tensão",
+          "Torre de alta tensão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama com texto, legenda, logotipo USGS e ano visíveis; não é foto clara."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Lagoa coberta de verde pode ser lentilha-d'água, alga ou floração; a resposta Eutrofização não é única nem reconhecível pela imagem."
+    }
+  ]
+}

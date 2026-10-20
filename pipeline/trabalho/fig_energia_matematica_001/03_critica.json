@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desmatamento é a remoção de floresta, em geral por ação humana; o enunciado não nomeia nem deriva a resposta e depende da foto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o nome 'cavalo de pau' para a bomba de vareta. Enunciado neutro, distratores plausíveis e do mesmo tipo, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tesserato é o hipercubo de quatro dimensões. Enunciado neutro e distratores geométricos críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de nível 1. Os trechos confirmam que o ábaco é um instrumento de cálculo, e o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O dodecaedro é um poliedro regular de doze faces pentagonais. O enunciado não entrega a resposta, e os distratores têm no máximo 4 palavras e são incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Analógico, com escalas e cursor deslizante' descreve a régua de cálculo, então dá para responder com a imagem coberta. É preciso tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que instrumento de cálculo é este?",
+        "resposta": "Régua de cálculo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O conjunto dos cinco poliedros regulares convexos é chamado de sólidos de Platão (ou platônicos). O enunciado não entrega o nome, e os distratores são conjuntos de sólidos reais e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem linhas aéreas de condutores suspensos por torres. O enunciado é neutro, e os distratores são estruturas parecidas, mas incorretas.",
+      "reescrita": null
+    }
+  ]
+}

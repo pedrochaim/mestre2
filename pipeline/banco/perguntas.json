@@ -260094,5 +260094,148 @@
       "autor": "Anagoria",
       "licenca": "CC BY 3.0"
     }
+  },
+  {
+    "id": "q14042",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "desmatamento",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que processo ambiental, causado pela ação humana, está registrado nesta foto aérea?",
+    "resposta": "Desmatamento",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deforestation",
+      "https://pt.wikipedia.org/wiki/Desfloresta%C3%A7%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14042.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Operação_Hymenaea,_Julho-2016_(29399454651).jpg",
+      "autor": "Ibama from Brasil",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14043",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "cavalo_de_pau_bomba_de_petroleo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de equipamento é este?",
+    "resposta": "Cavalo de pau (bomba de petróleo)",
+    "distratores": [
+      "Torre de perfuração",
+      "Guindaste de obra",
+      "Bomba d'água manual"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pumpjack",
+      "https://pt.wikipedia.org/wiki/Bomba_de_vareta_de_suc%C3%A7%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14043.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lufkin_Mark_II_Oelpumpe_im_Oelfeld_Hiersdorf_in_Oberoesterreich.jpg",
+      "autor": "Techcollector",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14044",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "tesserato",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que figura geométrica é representada nesta imagem?",
+    "resposta": "Tesserato (hipercubo)",
+    "distratores": [
+      "Cubo de Necker",
+      "Cuboctaedro",
+      "Cubo truncado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tesseract",
+      "https://pt.wikipedia.org/wiki/Tesserato"
+    ],
+    "imagem": {
+      "arquivo": "q14044.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:8-cell-simple.gif",
+      "autor": "JasonHise at English Wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14045",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "dodecaedro",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que poliedro regular é este?",
+    "resposta": "Dodecaedro",
+    "distratores": [
+      "Icosaedro",
+      "Octaedro",
+      "Cubo truncado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Regular_dodecahedron"
+    ],
+    "imagem": {
+      "arquivo": "q14045.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plato-12.png",
+      "autor": "KoenB",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14046",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "ancora": "solidos_de_platao",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que nome tem este conjunto de sólidos?",
+    "resposta": "Sólidos de Platão",
+    "distratores": [
+      "Sólidos de Arquimedes",
+      "Sólidos de Kepler",
+      "Sólidos de Johnson"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Platonic_solid",
+      "https://pt.wikipedia.org/wiki/S%C3%B3lido_plat%C3%B3nico"
+    ],
+    "imagem": {
+      "arquivo": "q14046.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Platonic_Solids_Transparent.svg",
+      "autor": "Drummyfish",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q14047",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "linha_de_transmissao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estrutura é esta?",
+    "resposta": "Torre de transmissão de energia",
+    "distratores": [
+      "Torre de telefonia",
+      "Poste de iluminação",
+      "Torre de rádio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Overhead_power_line"
+    ],
+    "imagem": {
+      "arquivo": "q14047.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Жнива_України.jpg",
+      "autor": "Novoklimov",
+      "licenca": "CC0"
+    }
   }
 ]

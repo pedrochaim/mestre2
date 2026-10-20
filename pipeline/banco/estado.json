@@ -579,9 +579,10 @@
     "fig_jogos_tabuleiro_001",
     "fig_pre_historia_evolucao_008",
     "fig_rochas_minerais_005",
-    "fig_jogos_tabuleiro_002"
+    "fig_jogos_tabuleiro_002",
+    "fig_energia_matematica_001"
   ],
-  "maior_id": 14041,
+  "maior_id": 14047,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1087,6 +1088,18 @@
         "3": 3
       },
       "registradas": 15
+    },
+    "energia_matematica": {
+      "familias": {
+        "o_que_e": 3,
+        "que_tipo": 3
+      },
+      "niveis": {
+        "1": 1,
+        "2": 4,
+        "3": 1
+      },
+      "registradas": 6
     }
   },
   "rendimento": {

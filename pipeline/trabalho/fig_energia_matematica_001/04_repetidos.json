@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de cálculo é este?",
+        "resposta": "Ábaco"
+      },
+      "existentes": [
+        {
+          "id": "q01613",
+          "pergunta": "Que instrumento de cálculo, com contas deslizantes em hastes, é este?",
+          "resposta": "Ábaco"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de cálculo é este?",
+        "resposta": "Régua de cálculo"
+      },
+      "existentes": [
+        {
+          "id": "q11765",
+          "pergunta": "Que instrumento de engenheiros, usado antes das calculadoras eletrônicas, é este?",
+          "resposta": "Régua de cálculo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o ábaco a partir da imagem; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a régua de cálculo; mesma resposta e mesmo fato."
+    }
+  ]
+}
