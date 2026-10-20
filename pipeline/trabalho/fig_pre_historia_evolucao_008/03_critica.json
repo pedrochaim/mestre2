@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gales confirmado pelos trechos; enunciado sem vazamento e distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'hominídeo de pequena estatura' entrega Flores (o 'hobbit') sem olhar a figura. Retirei a pista.",
+      "reescrita": {
+        "pergunta": "Em que ilha da Indonésia fica esta caverna de calcário?",
+        "resposta": "Flores",
+        "distratores": [
+          "Java",
+          "Sumatra",
+          "Bornéu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (cerca de 11 500 anos). As alternativas passam de 4 palavras e a leitura dos números fica ambígua em voz alta. Encurtei as alternativas.",
+      "reescrita": {
+        "pergunta": "Esta escultura de madeira foi achada numa turfeira russa. Há quantos anos, aproximadamente, ela foi entalhada?",
+        "resposta": "11 500 anos",
+        "distratores": [
+          "5 500 anos",
+          "8 000 anos",
+          "3 000 anos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A construção no século XXVII a.C. está nos trechos. O enunciado não entrega a resposta e os distratores são séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Paleoantropólogo holandês famoso por buscar fósseis na Ásia' identifica Dubois sem a imagem. Troquei por uma pista mais geral. Também substituí o distrator Koenigswald, que tem vínculo com os Países Baixos.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista holandês, nascido no século dezenove?",
+        "resposta": "Eugène Dubois",
+        "distratores": [
+          "Raymond Dart",
+          "Davidson Black",
+          "Louis Leakey"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Região rochosa de calcário na Irlanda' entrega o Burren sem olhar a figura. Passei a pergunta para o condado, que está nos trechos (County Clare).",
+      "reescrita": {
+        "pergunta": "Em que condado irlandês fica este dólmen neolítico?",
+        "resposta": "Clare",
+        "distratores": [
+          "Kerry",
+          "Donegal",
+          "Wicklow"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O afresco mostra salto sobre o touro (bull-leaping), segundo o trecho. O enunciado não nomeia a atividade e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Enorme montículo artificial de giz' descreve Silbury Hill e entrega a resposta. Retirei a descrição e troquei os distratores por monumentos ingleses mais parecidos.",
+      "reescrita": {
+        "pergunta": "Que monumento neolítico inglês é este?",
+        "resposta": "Silbury Hill",
+        "distratores": [
+          "West Kennet Long Barrow",
+          "Glastonbury Tor",
+          "Maiden Castle"
+        ]
+      }
+    }
+  ]
+}

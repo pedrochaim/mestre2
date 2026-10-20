@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Peça nítida e inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que país do Reino Unido foi encontrada esta peça cerimonial de ouro, da Idade do Bronze?",
+      "resposta": "País de Gales",
+      "distratores": [
+        "Escócia",
+        "Inglaterra",
+        "Irlanda do Norte"
+      ],
+      "ancora": {
+        "nome": "Capa de ouro de Mold",
+        "descricao": "Capa cerimonial de lâmina de ouro da Idade do Bronze britânica, achada em Mold, no País de Gales, e exposta no Museu Britânico.",
+        "variantes": [
+          "Mold gold cape",
+          "Capa de Mold",
+          "Clogyn Aur yr Wyddgrug"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto conhecida da caverna, sem texto; pessoas ao fundo são pequenas e não estão em primeiro plano.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha da Indonésia fica esta caverna, onde se achou um hominídeo de pequena estatura?",
+      "resposta": "Flores",
+      "distratores": [
+        "Java",
+        "Sumatra",
+        "Bornéu"
+      ],
+      "ancora": {
+        "nome": "Liang Bua",
+        "descricao": "Caverna calcária na ilha de Flores, Indonésia, onde foram achados os fósseis de Homo floresiensis.",
+        "variantes": [
+          "Caverna de Liang Bua"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura inteira legível, sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta escultura de madeira foi achada numa turfeira russa. Há quantos anos, aproximadamente, ela foi entalhada?",
+      "resposta": "Cerca de 11 500 anos",
+      "distratores": [
+        "Cerca de 5 500 anos",
+        "Cerca de 8 000 anos",
+        "Cerca de 3 000 anos"
+      ],
+      "ancora": {
+        "nome": "Ídolo de Shigir",
+        "descricao": "Escultura de madeira do início do Holoceno, a mais antiga conhecida, achada numa turfeira nos Urais, na Rússia.",
+        "variantes": [
+          "Shigir Idol",
+          "Escultura de Shigir"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pirâmide de degraus nítida, sem texto.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que século antes de Cristo foi construída esta pirâmide de degraus?",
+      "resposta": "Século vinte e sete",
+      "distratores": [
+        "Século trinta e um",
+        "Século vinte e três",
+        "Século dezenove"
+      ],
+      "ancora": {
+        "nome": "Pirâmide de Djoser",
+        "descricao": "Pirâmide de degraus de Saqqara, no Egito, a primeira pirâmide egípcia, construída para o faraó Djoser.",
+        "variantes": [
+          "Pirâmide de degraus de Djoser",
+          "Pirâmide escalonada de Djoser",
+          "Step Pyramid of Djoser"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Crânio que parece uma reconstituição ou réplica, não reconhecível como Omo I, e a datação é disputada, o que ameaça a resposta única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto; a pergunta vai além do reconhecimento sem entregar a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este paleoantropólogo holandês, famoso por buscar fósseis de hominídeos na Ásia?",
+      "resposta": "Eugène Dubois",
+      "distratores": [
+        "Raymond Dart",
+        "Ralph von Koenigswald",
+        "Davidson Black"
+      ],
+      "ancora": {
+        "nome": "Eugène Dubois",
+        "descricao": "Paleoantropólogo e geólogo holandês que descobriu o Homem de Java (Pithecanthropus erectus, depois Homo erectus).",
+        "variantes": [
+          "Marie Eugène François Thomas Dubois"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dólmen nítido e característico, sem texto legível.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que região rochosa de calcário, na Irlanda, fica este dólmen neolítico?",
+      "resposta": "Burren",
+      "distratores": [
+        "Connemara",
+        "Montanhas Wicklow",
+        "Península de Dingle"
+      ],
+      "ancora": {
+        "nome": "Dólmen de Poulnabrone",
+        "descricao": "Dólmen neolítico de câmara única na região do Burren, Condado de Clare, Irlanda.",
+        "variantes": [
+          "Poulnabrone dolmen",
+          "Poll na Brón"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Crânio sem contexto, pouco distinguível de outros fósseis humanos; não é reconhecível como o de Florisbad."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Afresco minoico claro, sem texto; cena única.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que atividade é retratada neste afresco minoico do palácio de Cnossos?",
+      "resposta": "Salto sobre o touro",
+      "distratores": [
+        "Caça ao javali",
+        "Dança ritual",
+        "Corrida de bigas"
+      ],
+      "ancora": {
+        "nome": "Afresco do salto do touro",
+        "descricao": "Painel de estuque pintado do palácio minoico de Cnossos, em Creta, que mostra acrobatas saltando sobre um touro.",
+        "variantes": [
+          "Bull-Leaping Fresco",
+          "Afresco da tauromaquia minoica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem mostra apenas uma maquete de barco em vitrine, genérica e sem como identificá-la com o naufrágio de Uluburun."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Crânio não reconhecível pela imagem, e a datação é dada só como faixa ampla (250 000 a 350 000 anos), sem resposta única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Montículo isolado, sem texto, característico o bastante com distratores de sítios ingleses.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que monumento pré-histórico inglês é este, um enorme montículo artificial de giz?",
+      "resposta": "Silbury Hill",
+      "distratores": [
+        "Glastonbury Tor",
+        "Maiden Castle",
+        "Cadbury Castle"
+      ],
+      "ancora": {
+        "nome": "Silbury Hill",
+        "descricao": "Montículo artificial de giz neolítico perto de Avebury, em Wiltshire, Inglaterra, o maior da Europa.",
+        "variantes": [
+          "Colina de Silbury"
+        ]
+      }
+    }
+  ]
+}

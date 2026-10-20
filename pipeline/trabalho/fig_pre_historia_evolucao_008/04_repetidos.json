@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século antes de Cristo foi construída esta pirâmide de degraus?",
+        "resposta": "Século vinte e sete"
+      },
+      "existentes": [
+        {
+          "id": "q00074",
+          "pergunta": "A Pirâmide de Degraus de Djoser, em Sacará, considerada a primeira pirâmide do Egito, é atribuída a qual arquiteto, mais tarde venerado como deus?",
+          "resposta": "Imhotep"
+        },
+        {
+          "id": "q13635",
+          "pergunta": "A Pirâmide de Djoser, em Sacará, foi erguida como uma pilha de mastabas cada vez menores. Quantos degraus ela tem?",
+          "resposta": "Seis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata do século de construção da pirâmide. As existentes tratam do arquiteto (Imhotep) e do número de degraus (seis). São fatos diferentes."
+    }
+  ]
+}
