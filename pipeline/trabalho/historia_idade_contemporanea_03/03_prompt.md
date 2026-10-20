@@ -1,0 +1,1775 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Idade Contemporânea** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6). Uma pergunta `aberta` cuja resposta é um ano ou uma data deve ser reescrita como `multipla`, com 3 anos ou datas próximos e críveis (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Revolução Romena de 1989",
+      "descricao": "Levante de dezembro de 1989 que derrubou o regime comunista de Nicolae Ceaușescu na Romênia, executado em seguida com a esposa."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Na queda dos regimes comunistas do Leste Europeu, em 1989, em que país a revolução foi violenta e terminou com o ditador fuzilado?",
+    "resposta": "Romênia",
+    "distratores": [
+      "Bulgária",
+      "Hungria",
+      "Tchecoslováquia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Romanian_Revolution",
+      "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Romena_de_1989"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Romanian_Revolution",
+        "situacao": "ok",
+        "texto": "The Romanian Revolution (Romanian: Revoluția română) was a period of violent civil unrest in the Socialist Republic of Romania during December 1989 as a part of the revolutions of 1989 that occurred in several countries around the world, primarily within the Eastern Bloc.\n[…]\nOn 16 December 1989, the Hungarian minority in Timișoara held a public protest in response to an attempt by the government to evict Hungarian Reformed church Pastor László Tőkés. In July of that year, in an interview with Hungarian television, Tőkés had criticised the regime's systematisation policy and complained that Romanians did not even know their human rights.\n[…]\nIn the years immediately following the revolution, narratives applied both by Romanians and the international audience competed for an interpretation of the events of 1989. Within Romania, myths interpreting it as \"false\" or \"stolen\" by the FSN correlated to one's level of disagreement with the political organization, while those painting the events as a pure, \"spontaneous revolution\" largely aligned with support for the FSN.\n[…]\nOutside Romania, public audiences in Western Europe initially projected generally idealistic notions of revolution on the country; the legacies of the French Revolution were fresh on people's minds in 1989 during its two-hundredth anniversary. However, as violence continued into 1990 and reports reached the West of mass casualties, this projected narrative shifted into a less sympathetic one characterized by disappointment in and suspicion of the revolution's direction.\n[…]\nList of films about the Romanian Revolution\n[…]\nMedia related to Romanian Revolution of 1989 at Wikimedia Commons\n[…]\nAnonymous Photo Essay about the Romanian Revolution of 1989\n[…]\nThe Romanian Revolution of December 1989"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Romena_de_1989",
+        "situacao": "ok",
+        "texto": "A Revolução Romena (em romeno: Revoluția română), também conhecida como Revolução de Natal (em romeno:  Revoluția de Crăciun), foi um período de violenta agitação civil na Romênia durante dezembro de 1989, como parte das Revoluções de 1989 que ocorreram em vários países ao redor do mundo, principalmente dentro do Bloco Oriental.\n[…]\nApós a Segunda Guerra Mundial, a Romênia foi colocada sob a esfera de influência soviética em 1947, com a implementação do regime comunista. Quando a Romênia se separou da influência soviética em Abril de 1964, Nicolae Ceaușescu tornou-se o líder do país no ano seguinte. Sob o seu governo, a Roménia conheceu um breve declínio da repressão interna que levou a uma imagem positiva tanto a nível interno como no Ocidente. No entanto, a repressão intensificou-se novamente na década de 1970.\n[…]\nA notícia mais notável nos jornais romenos de 11 de Novembro de 1989 foi a \"palestra magistral do camarada Nicolae Ceaușescu na sessão plenária alargada do Comité Central do Partido Comunista da Roménia\", na qual o chefe de estado e partido romeno elogiou fortemente a “brilhante programa de trabalho e luta revolucionária de todo o nosso povo”, bem como o “cumprimento exemplar das tarefas económicas”.\n[…]\nNos dias seguintes, o apoio moral foi seguido pelo apoio material. Grandes quantidades de alimentos, medicamentos, roupas, equipamento médico e outra ajuda humanitária foram enviadas para a Romênia. Em todo o mundo, a imprensa dedicou páginas inteiras e por vezes até edições completas à revolução romena e aos seus líderes.\n[…]\nA revolução atraiu à Romênia grande atenção do mundo exterior. Inicialmente, grande parte da simpatia do mundo foi para o governo FSN sob Ion Iliescu, um antigo membro da liderança do CPR e um aliado de Ceaușescu antes de cair no desfavor do ditador no início dos anos 1980."
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Guerra de Secessão",
+      "descricao": "Guerra civil dos Estados Unidos, de 1861 a 1865, entre a União e os estados escravistas do sul que formaram os Estados Confederados."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Em dezembro de 1860, logo após a eleição de Abraham Lincoln, qual foi o primeiro estado a se separar dos Estados Unidos?",
+    "resposta": "Carolina do Sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_Carolina_Declaration_of_Secession",
+      "https://en.wikipedia.org/wiki/American_Civil_War"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/South_Carolina_Declaration_of_Secession",
+        "situacao": "ok",
+        "texto": "The Declaration of the Immediate Causes Which Induce and Justify the Secession of South Carolina from the Federal Union was a proclamation issued on December 24, 1860, by the secession convention of South Carolina to explain its reasons for seceding from the United States. It followed the brief Ordinance of Secession that had been issued on December 20.\n[…]\nBoth the ordinance, which accomplished secession, and the declaration of immediate causes, which justified secession, were the products of a state convention called by South Carolina's legislature in the month following the election of Abraham Lincoln as U.S. president. The declaration of immediate causes was drafted in a committee headed by Christopher Memminger.\n[…]\nAn official secession convention met in South Carolina following the November 1860 election of Abraham Lincoln as President of the United States, on a platform opposing the expansion of slavery into U.S. territories. On December 20, 1860, the convention issued an ordinance of secession announcing the state's withdrawal from the union. The ordinance was brief and legalistic in nature, containing no explanation of the reasoning behind the delegates' decision:\n[…]\nThe next section states that while these problems had existed for twenty-five years, the situation had recently become unacceptable due to the election of a President (this was Abraham Lincoln although he is not mentioned by name) who had declared his opposition to the extension of slavery to territories outside the states of the Union. In reference to the failure of the northern states to uphold the Fugitive Slave Act, South Carolina states the primary reason for its secession:\n[…]\nSouth Carolina in the American Civil War\n[…]\nTexts of the Ordinances and Declarations of Secession of the various Confederate states\n[…]\nOriginal text of South Carolina Declaration and Ordinance"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/American_Civil_War",
+        "situacao": "ok",
+        "texto": "The American Civil War (April 12, 1861 – May 26, 1865; also known by other names) was a civil war in the United States between the Union (\"the North\") and the Confederacy (\"the South\"), which was formed in 1861 by Southern states that had seceded from the Union to preserve slavery in the United States. The South saw slavery as threatened because of the election of Abraham Lincoln as president in 1\n[…]\nDecades of controversy over slavery came to a head when Lincoln, a Republican who opposed slavery's expansion, won the 1860 presidential election. Seven slave states in the South responded to Lincoln's victory by seceding from the United States and forming the Confederate States. The Confederate States seized United States forts and other federal assets in the South. The war began on April 12, 1861, when the Confederate States bombarded Fort Sumter in South Carolina.\n[…]\nLincoln's election had provoked South Carolina's legislature to call a state convention to consider secession. South Carolina had done more than any other state to advance the notion that a state had the right to nullify federal laws and even secede. On December 20, 1860, the convention unanimously voted to secede and adopted a secession declaration. It argued in favor of states' rights for slave owners.\n[…]\nThe American Civil War began on April 12, 1861, when Confederate forces opened fire on the Union-held Fort Sumter, which is in the Charleston, South Carolina harbor. Its status had been contentious for months. Outgoing president Buchanan had dithered in reinforcing its garrison, commanded by Major Robert Anderson.\n[…]\nSherman turned north through South Carolina and North Carolina in his Carolinas campaign, to approach the Confederate Virginia lines from the south, increasing the pressure on Lee's army.\n[…]\n\"American Civil World\" maps at the Persuasive Cartography, The PJ Mode Collection, Cornell University Library"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Sufrágio feminino",
+      "descricao": "Direito das mulheres de votar em eleições, conquistado país a país a partir do fim do século dezenove."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Em 1893, qual foi o primeiro país autônomo do mundo a garantir a todas as mulheres o direito de votar nas eleições parlamentares?",
+    "resposta": "Nova Zelândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_New_Zealand",
+      "https://pt.wikipedia.org/wiki/Sufr%C3%A1gio_feminino"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_New_Zealand",
+        "situacao": "ok",
+        "texto": "Women's suffrage was an important political issue in late nineteenth-century New Zealand. In early colonial New Zealand, as in other European societies, women were excluded from any involvement in politics. Public opinion began to change in the latter half of the nineteenth century and after years of effort by women's suffrage campaigners, led by Kate Sheppard, New Zealand became the first nation \n[…]\nIn 1891, Walter Carncross moved an amendment that was intended to make a new bill fail in the Legislative Council. His amendment was for women to become eligible to be voted into the House of Representatives and in this way Carncross ensured that the conservative Upper House would reject the bill. This tactic infuriated the suffragist Catherine Fulton, who organised a protest at the 1893 election.\n[…]\nBy 1893 there was considerable popular support for women's suffrage. The 1893 Women's Suffrage Petition was presented to Parliament and a new electoral bill passed through the Lower House with a large majority. During debate, there was majority support for the enfranchisement of Māori as well as Pākehā women; the inclusion of Māori women was championed by John Shera, who was married to a woman of Māori and European descent.\n[…]\nDalziel, Raewynn. \"Presenting the Enfranchisement of New Zealand Women Abroad\" in Caroline Daley, and Melanie Nolan, eds. Suffrage and Beyond: International Feminist Perspectives (New York University Press, 1994) 42–64.\n[…]\nGrimshaw, Patricia. Women's Suffrage in New Zealand (1988), the standard scholarly study\n[…]\nGrimshaw, Patricia. \"Women’s Suffrage in New Zealand Revisited: Writing from the Margins,\" Caroline Daley, and Melanie Nolan, eds. Suffrage and Beyond: International Feminist Perspectives (New York University Press, 1994) pp 25–41.\n[…]\nCartoons and article on women's suffrage in New Zealand\n[…]\nWomen in Parliament 1933–2005 on elections website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sufr%C3%A1gio_feminino",
+        "situacao": "ok",
+        "texto": "O movimento pelo sufrágio feminino é um movimento social, político e econômico de reforma, com o objetivo de estender o sufrágio (o direito de votar) às mulheres. Participaram do sufrágio feminino mulheres e homens, denominados sufragistas. As origens modernas do movimento encontram-se na França do século XVIII. Em 1893, a Nova Zelândia se tornou o primeiro país a garantir o sufrágio feminino, gra\n[…]\nA luta pelo voto feminino foi sempre o primeiro passo a ser alcançado no horizonte das feministas da era pós-Revolução Industrial. As \"suffragettes\" (em português, sufragistas), primeiras ativistas do feminismo no século XIX, eram assim conhecidas justamente por terem iniciado um movimento no Reino Unido a favor da concessão, às mulheres, do direito ao voto.\n[…]\nO sufrágio feminino em Portugal acompanhou, de certa forma, o fenómeno civilizacional do ocidente liberal. À imagem do que se passava noutros países, o debate em volta do sufrágio feminino passou a fazer parte da agenda política nacional, com mais frequência a partir de 1892, data em que o primeiro país — a Nova Zelândia — deu o primeiro passo nesse sentido.\n[…]\nA Federação combinava propaganda pública, relações com organizações feministas estrangeiras e interlocução com parlamentares e governantes; suas reivindicações abrangiam, além do sufrágio, educação, trabalho e direitos civis das mulheres.\n[…]\nA partir de 1927, o reconhecimento dos direitos eleitorais femininos avançou também por meio das legislações estaduais e de decisões judiciais. No Rio Grande do Norte, a Lei estadual nº 660, de 25 de outubro de 1927, estabeleceu que poderiam \"votar e ser votados, sem distinção de sexo\" os cidadãos que satisfizessem as demais condições legais. Celina Guimarães Viana, em Mossoró, tornou-se a primeira mulher cujo alistamento foi concluído sob a nova legislação.\n[…]\nAssociação de mulheres contra o sufrágio feminino\n[…]\nFeminismo\n[…]\nVoto em família"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "OTAN",
+      "descricao": "Organização do Tratado do Atlântico Norte, aliança militar ocidental criada em 1949 durante a Guerra Fria."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre os doze países que fundaram a aliança militar OTAN, em 1949, qual não tinha forças armadas próprias?",
+    "resposta": "Islândia",
+    "distratores": [
+      "Luxemburgo",
+      "Noruega",
+      "Dinamarca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iceland",
+      "https://en.wikipedia.org/wiki/NATO"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iceland",
+        "situacao": "ok",
+        "texto": "Iceland is a Nordic island country between the Arctic Ocean and the North Atlantic Ocean, located on the Mid-Atlantic Ridge between Europe and North America. It is Europe's westernmost and most sparsely populated country. Its capital and largest city is Reykjavík, which is home to about 35% of the country's roughly 395,000 residents (excluding nearby towns/suburbs, which are separate municipalitie\n[…]\nIts latitude and marine influence keep summers chilly, and most of its islands have a polar climate.\n[…]\nIt has the smallest population of any NATO member and is the only one with no standing army, possessing only a lightly armed coast guard.\n[…]\nIceland is the only large insular landmass in the world which is located on a mid-ocean ridge above sea level. It is probably the only place in the world where the effects of two major tectonic plates drifting apart can easily be observed above sea level. The island sits directly on the Mid-Atlantic Ridge, where the Eurasian Plate and the North American Plate are moving away from each other.\n[…]\nA geologically young land at 16 to 18 million years old, Iceland is the surface expression of the Iceland Plateau, a large igneous province forming as a result of volcanism from the Iceland hotspot and along the Mid-Atlantic Ridge, the latter of which runs right through it. This means that the island is highly geologically active with many volcanoes including Hekla, Eldgjá, Herðubreið, and Eldfell.\n[…]\nThe climate of Iceland's coast is subarctic. The warm North Atlantic Current ensures generally higher annual temperatures than in most places of similar latitude in the world. Regions in the world with similar climates include the Aleutian Islands, the Alaska Peninsula, and Tierra del Fuego, although these regions are closer to the equator. Despite its proximity to the Arctic, the island's coasts remain ice-free through the winter."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/NATO",
+        "situacao": "ok",
+        "texto": "The North Atlantic Treaty Organization (NATO) is an intergovernmental military alliance between 32 member states (thirty in Europe and two in North America). Founded in the aftermath of World War II, NATO was established with the signing of the North Atlantic Treaty in 1949. The organization serves as a system of collective security and deterrence, whereby its independent members agree to defend e\n[…]\nNATO has thirty-two members, mostly in Europe with two in North America. NATO's \"area of responsibility\", within which attacks on member states are eligible for an Article 5 response, is defined under Article 6 of the North Atlantic Treaty to include member territory in Europe, North America, Turkey, and islands in the North Atlantic north of the Tropic of Cancer.\n[…]\nNATO was established on 4 April 1949 by the signing of the North Atlantic Treaty (Washington Treaty). The 12 founding members of the alliance were Belgium, Canada, Denmark, France, Iceland, Italy, Luxembourg, the Netherlands, Norway, Portugal, the United Kingdom, and the United States.\n[…]\nAll agencies and organizations of NATO are integrated into either the civilian administrative or military executive roles. For the most part, they perform roles and functions that directly or indirectly support the security role of the alliance as a whole.\n[…]\nThe Military Committee (MC) is the body of NATO that is composed of member states' Chiefs of Defence (CHOD) and advises the North Atlantic Council (NAC) on military policy and strategy. The national CHODs are regularly represented in the MC by their permanent Military Representatives (MilRep), who often are two- or three-star flag officers.\n[…]\nList of military equipment of NATO\n[…]\nNATO Arctic Sentry\n[…]\nMiddle East Treaty Organization (METO) – Cold War military alliance (1955–1979)Pages displaying short descriptions of redirect targets\n[…]\nNATO collected news and commentary at The New York Times"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Isl%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "Islândia (em islandês: Ísland; [ˈistlant] ()) é um país nórdico insular europeu situado no oceano Atlântico Norte. O seu território abrange a ilha homônima e algumas pequenas ilhas no oceano Atlântico, localizadas entre a Europa continental e a Groenlândia. O país tem uma população de 390 mil habitantes em uma área de cerca de 103 mil quilômetros quadrados. A sua capital e maior cidade é Reiquiavi\n[…]\nEm 1946, as forças de ocupação dos Aliados retiraram-se da Islândia, que se tornou um membro da OTAN (Organização do Tratado do Atlântico Norte) em 30 de março de 1949, provocando controvérsias e protestos em algumas áreas do país. Em 5 de maio de 1951, a nação firmou um acordo de defesa com os Estados Unidos. Houve o retorno de tropas norte-americanas que permaneceram lá ao longo da Guerra Fria, até a completa retirada em 30 de setembro de 2006.\n[…]\nO país é, ainda, um dos fundadores da Organização do Tratado do Atlântico Norte (OTAN), criada em 1949. A Islândia não possui nenhuma força militar regular, e, por isso, em 1951 foi assinado um acordo bilateral de defesa com os Estados Unidos, criando a Força de Defesa da Islândia que vigorou até 2006. A OTAN se comprometeu a proteger o país no caso de uma guerra. A Islândia também tem um tratado bilateral assinado com a Noruega em 2007 para vigilância e defesa do espaço aéreo islandês.\n[…]\nO sistema de saúde islandês foi considerado o 15º melhor do mundo pela Organização Mundial da Saúde (OMS). De acordo com um relatório da OCDE, a Islândia investe mais recursos à saúde do que a maior parte das nações industrializadas. Em 2009, o país tinha 3,7 médicos para cada mil pessoas (em comparação com uma média de 3,1 nos países da OCDE) e 15,3 enfermeiros para cada mil pessoas (em comparação com uma média de 8,4 na OCDE).\n[…]\nSítio do governo islandês (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Ano da África",
+      "descricao": "Nome dado a 1960, ano em que dezessete países africanos conquistaram a independência."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Em 1960, chamado de Ano da África, dezessete países africanos ficaram independentes. Qual potência europeia perdeu o maior número de colônias naquele ano?",
+    "resposta": "França",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Year_of_Africa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Year_of_Africa",
+        "situacao": "ok",
+        "texto": "The Year of Africa refers to a series of events that took place during the year 1960—mainly the independence of seventeen African nations—that highlighted the growing pan-African sentiments in the continent. The year brought about the culmination of African independence movements and the subsequent emergence of Africa as a major force in the United Nations.\n[…]\nO. H. Morris of the British Ministry of Colonies predicted in early January that \"1960 will be a year of Africa\". The phrase \"year of Africa\" was also used by Ralph Bunche on 16 February 1960. Bunche anticipated that many states would achieve independence in that year due to the \"well nigh explosive rapidity with which the peoples of Africa in all sectors are emerging from colonialism.\" The concept of a \"Year of Africa\" drew international media attention.\n[…]\nOn 14 December 1960, the UN General Assembly approved the Declaration on the Granting of Independence to Colonial Countries and Peoples. This statement affirms that \"all peoples have the right to self-determination\", and that rule by outside powers constitutes a violation of human rights. The statement passed with no votes against. The United States and seven other colonial powers abstained; Zelma George, an African American in the U.S. delegation, stood to signify her support of the Declaration.\n[…]\nMeriwether, looking back on the Year of Africa, writes: \"The events of 1960 strengthened links between African Americans and the worldwide struggle against white supremacy, while doing so on a more Africa-centered basis.\" More concretely, resisters to segregation in the Southern United States may have begun to look to South Africa for inspiration—and vice versa.\n[…]\nIn 2010, several African nations celebrated 50 years of independence on the \"Year of Africa\" semicentennial.\n[…]\nYear of return\n[…]\n1960: The year of independence on France24"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Revolução Haitiana",
+      "descricao": "Revolta de escravizados na colônia francesa de Saint-Domingue, entre 1791 e 1804, que resultou na independência do Haiti."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Depois dos Estados Unidos, qual foi o segundo país das Américas a conquistar a independência, em 1804?",
+    "resposta": "Haiti",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haitian_Revolution",
+      "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Haitiana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+        "situacao": "ok",
+        "texto": "The Haitian Revolution, also known as the Haitian War of Independence, was an armed conflict and insurrection by enslaved Black Africans against French colonial rule in Saint-Domingue, now the sovereign state of Haiti. The revolution is one of the only known slave rebellions in human history that led to the founding of a state which was both free from slavery (though not from forced labour) and ru\n[…]\nThe end of the Haitian Revolution in 1804 marked the end of French colonialism on the island. However, the social conflict cultivated under slavery continued to affect the population for years to come. Mulatto domination of politics and economics, and urban life after the revolution, created a different kind of two-caste society, as most Haitians were rural subsistence farmers. The affranchi élite, who continued to rule Haiti while the formidable Haitian army kept them in power.\n[…]\nSince the resistance and the murderous disease environment made it impossible for Napoleon to regain control over Haiti, he gave up hope of rebuilding a French New World empire. He decided to sell Louisiana to the U.S. The Haitian Revolution brought about two unintended consequences: the creation of a continental America and the virtual end of Napoleonic rule in the Americas.\n[…]\nJust as the French were successful in transforming their society, so were the Haitians. On 4 April 1792, the French Legislative Assembly granted freedom to slaves in Saint-Domingue. The revolution culminated in 1804; Haiti was an independent state solely of freed peoples. The activities of the revolutions sparked change across the world. France's transformation was most influential in Europe, and Haiti's influence spanned every location that continued to practice slavery. John E.\n[…]\nHaiti Archives\n[…]\nThe Other Revolution: Haiti, 1789–1804 Archived 18 February 2015 at the Wayback Machine, digital exhibition from Brown University"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Haitiana",
+        "situacao": "ok",
+        "texto": "A Revolução Haitiana (em francês: révolution haïtienne; em crioulo haitiano: revolisyon ayisyen) foi uma insurreição bem-sucedida de escravos auto-libertados contra o domínio colonial francês em São Domingos, agora o estado soberano do Haiti. A revolta começou em 22 de agosto de 1791, e terminou em 1804 com a independência da ex-colônia.\n[…]\nA Revolução Francesa teve impactos na classe branca e mestiça burguesas do Haiti, por conta dos conflitos internos entre a alta e baixa burguesia francesa (branca) e haitiana (mestiça), mas a maior parte do mérito da Revolução Haitiana é indiscutivelmente da massiva população preta (nascida ainda no continente africano, ou de segunda e terceira geração nascida na ilha).\n[…]\nTomich argumenta que conceitos como liberdade, cidadania e humanidade estavam em disputa no século XIX, e que a Revolução Haitiana não foi apenas esquecida, mas constituiu um campo de embate político e simbólico. A tentativa de Schoelcher de reinscrever o Haiti no horizonte do republicanismo francês revela que, mesmo dentro do pensamento europeu, havia espaços de deslocamento conceitual e abertura à transformação.\n[…]\nA figura do escravizado que conquista sua liberdade por meio da luta direta se assemelha à dinâmica de reconhecimento e negação descrita por Hegel, sugerindo que o Haiti teria servido como modelo empírico e simbólico para uma das passagens mais influentes da filosofia moderna.\n[…]\nA autora denuncia o fato de que, apesar dessa possível influência, a Revolução Haitiana permanece ausente do cânone filosófico, excluída por uma tradição que separa rigidamente filosofia e historia social. Assim, é proposto o reconhecimento da centralidade do Haiti para a intelectualidade, que permitiria uma reinterpretação da modernidade como processo verdadeiramente universal, e não apenas europeu.==Referências=="
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Independência da Lituânia em 1990",
+      "descricao": "Declaração de 11 de março de 1990 em que a Lituânia restabeleceu sua independência, saindo da União Soviética."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Em março de 1990, qual foi a primeira república soviética a declarar sua independência da União Soviética?",
+    "resposta": "Lituânia",
+    "distratores": [
+      "Estônia",
+      "Letônia",
+      "Geórgia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Act_of_the_Re-Establishment_of_the_State_of_Lithuania"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Act_of_the_Re-Establishment_of_the_State_of_Lithuania",
+        "situacao": "ok",
+        "texto": "The Act of the Re-Establishment of the State of Lithuania or Act of 11 March (Lithuanian: Aktas dėl Lietuvos nepriklausomos valstybės atstatymo) was an independence declaration by Lithuania adopted on 11 March 1990, signed by all members of the Supreme Council of the Republic of Lithuania led by Sąjūdis. The act emphasized restoration and legal continuity of the interwar-period Lithuania, which wa\n[…]\nThe Act of the Re-Establishment of the State of Lithuania served as a model and inspiration to other Soviet republics. However, the issue of independence was not immediately settled and recognition by other countries was not certain.\n[…]\nOn 31 May 1990 the Supreme Soviet of Moldavian SSR voted to recognize the Restoration of the Independence of Lithuania. The Parliament of Moldavia was the first legislature in the world to recognize Lithuania's independence, although Moldavia was still part of the Soviet Union. The Moldavian Supreme Soviet promised to establish an embassy to Lithuania in the near future.\n[…]\nOn 13 January 1991, as Soviet forces stormed the LRT building in Vilnius, Russian leader Boris Yeltsin arrived in Tallinn, and with the leaders of the Baltic countries he signed a joint declaration, recognising one another's independence/sovereignty. Later, on 27 July 1991, the Russian government re-recognized Lithuania and the two countries re-established diplomatic relations on 9 October 1991.\n[…]\nOn 11 February 1991 the Icelandic parliament voted to confirm that Iceland's 1922 recognition of Lithuanian independence was still in full effect, as it never formally recognized the Soviet Union's control over Lithuania, and that full diplomatic relations should be established as soon as possible. In response, the Soviet Union recalled its ambassador to Iceland. Iceland was later followed by Denmark, Slovenia, Croatia (then constituent republics of Yugoslavia), and Latvia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Declara%C3%A7%C3%A3o_de_Restabelecimento_do_Estado_da_Litu%C3%A2nia",
+        "situacao": "ok",
+        "texto": "A Declaração de Restabelecimento do Estado da Lituânia ou Declaração de 11 de Março, assinada pelos membros do Conselho Supremo da República da Lituânia, proclamou o restabelecimento da independência da Lituânia em 11 de março de 1990.\n[…]\nAssinada por todos os membros do Supremo Conselho da República da Lituânia liderado por Sąjūdis. O ato enfatizou a restauração e a continuidade legal da Lituânia do período entre guerras, que foi ocupada pela União Soviética e perdeu a independência em junho de 1940. Foi a primeira república soviética das 15 repúblicas soviéticas para declarar independência da União Soviética. As outras 14 repúblicas soviéticas mais tarde declarariam sua independência.\n[…]\nEsses eventos causariam a dissolução da União Soviética em 1991.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Puyi",
+      "descricao": "Último imperador da dinastia Qing, que abdicou ainda criança em 1912 e depois governou o estado fantoche japonês da Manchúria."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Que menino foi o último imperador da China, forçado a abdicar depois da revolução de 1911?",
+    "resposta": "Puyi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Puyi",
+      "https://pt.wikipedia.org/wiki/Puyi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Puyi",
+        "situacao": "ok",
+        "texto": "Puyi (Chinese: 溥儀; pinyin: Pǔ Yí; Wade–Giles: P'u-i; 7 February 1906 – 17 October 1967) was the last emperor of China, having reigned as the Xuantong Emperor of the Qing dynasty (1908–1912, with a brief restoration in 1917) and later as the Kangde Emperor of Manchukuo, a Japanese puppet state during World War II.\n[…]\nThe Cultural Revolution broke out in 1966, and the Red Guards saw Puyi, who symbolized imperial China, as an easy target. Puyi was placed under protection by the local public security bureau and although his food rations, his salary, and various luxuries were removed, he was not publicly humiliated as was common at the time. The Red Guards attacked Puyi because his book From Emperor to Citizen had been translated into English and French and they burned copies of it in the streets.\n[…]\nOn 29 May 1980, the Chinese government held a memorial service for Puyi and two others, after which his ashes were moved to the Babaoshan Revolutionary Cemetery, where they rested alongside the remains of other party members and state dignitaries. The Revolutionary Cemetery was the burial ground of imperial concubines and eunuchs prior to the establishment of the People's Republic of China. In 1995, Puyi's widow Li Shuxian transferred his ashes to the Hualong Imperial Cemetery (华龙皇家陵园).\n[…]\nThe cemetery is near the Western Qing Tombs, 120 km (75 mi) southwest of Beijing, where four of the nine Qing emperors preceding him are interred, along with three empresses and 69 princes, princesses, and imperial concubines. In 2015, some descendants of the Aisin-Gioro clan bestowed posthumous names upon Puyi and his wives. Wenxiu and Li Yuqin were not given posthumous names because their imperial status was removed upon divorce.\n[…]\nNewspaper clippings about Puyi in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Puyi",
+        "situacao": "ok",
+        "texto": "O Imperador Xuantong (Pequim, 7 de fevereiro de 1906 – Pequim, 17 de outubro de 1967), mais conhecido por seu nome pessoal Puyi (溥儀; também escrito Pu Yi), nome de cortesia Yaozhi (曜之), foi o último Imperador da China como o décimo primeiro e último monarca da Dinastia Qing. Mais tarde, ele foi governante do Estado-fantoche de Manchukuo sob o Império do Japão de 1934 a 1945.\n[…]\nO homem forte da China imperial tardia, o general Yuan Shikai, foi despachado pela corte para esmagar a revolução, mas não o conseguiu, pois em 1911 a opinião pública tinha-se virado decisivamente contra os Qing e muitos chineses não tinham vontade de lutar por uma dinastia que foi visto como tendo perdido o Mandato do Céu. O pai de Puyi, o Príncipe Chun, serviu como regente até 6 de dezembro, quando a Imperatriz Viúva Longyu assumiu o poder após a Revolução Xinhai.\n[…]\nA Imperatriz Viúva Longyu endossou o \"Édito Imperial de Abdicação do Imperador Qing\" (清帝退位詔書) em 12 de fevereiro de 1912 sob um acordo negociado por Yuan, agora primeiro-ministro, com a corte imperial em Pequim e os republicanos no sul da China. Puyi relembrou em sua autobiografia o encontro entre Longyu e Yuan:\n[…]\nEm 1935, Puyi visitou o Japão.\n[…]\nA partir de 1963, Puyi deu regularmente conferências de imprensa elogiando a vida na República Popular da China, e diplomatas estrangeiros frequentemente o procuravam, curiosos para conhecer o famoso \"Último Imperador\" da China.\n[…]\n1911, um filme histórico de 2011 dirigido por Jackie Chan e Zhang Li. O filme conta a história da fundação da República da China quando Sun Yat-sen liderou a Revolução Xinhai para derrubar a Dinastia Qing. Puyi, de cinco anos, é interpretado pelo ator infantil Su Hanye. Embora o tempo de Pu Yi na tela seja curto, há cenas significativas que mostram como o imperador foi tratado na corte antes de sua abdicação, aos seis anos de idade."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Bandeira da França",
+      "descricao": "Bandeira tricolor de faixas verticais azul, branca e vermelha, adotada durante a Revolução Francesa."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na bandeira tricolor francesa, o branco vinha da monarquia. O azul e o vermelho eram as cores tradicionais de qual cidade?",
+    "resposta": "Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_France",
+      "https://pt.wikipedia.org/wiki/Bandeira_da_Fran%C3%A7a"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_France",
+        "situacao": "ok",
+        "texto": "The national flag of France (French: Drapeau national de la France) is a tricolour featuring three vertical bands coloured blue (hoist side), white, and red. The design was adopted during the French Revolution and has remained the national flag since then, with only minor variations in shade and proportion.\n[…]\nBefore the tricolour was adopted the royal government used many flags, the best known being a blue shield and gold fleurs-de-lis (the Royal Arms of France) on a white background, or state flag. Early in the French Revolution, the Paris militia, which played a prominent role in the storming of the Bastille, wore a cockade of blue and red, the city's traditional colours.\n[…]\nIn the aftermath of the November 2015 Paris attacks, many famous landmarks and stadiums around the world were illuminated in the flag colours to honour the victims.\n[…]\nAdopted after the French Revolution, the French tricolour flag evolved from revolutionary symbols like the blue and red cockade of France. These were circular rosette-like emblems attached to the hat. Camille Desmoulins asked his followers to wear green cockades on 12 July 1789. The Paris militia, formed on 13 July, adopted a blue and red cockade. Blue and red are the traditional colours of Paris, and they are used on the city's coat of arms.\n[…]\nThe addition of white has been attributed to Lafayette, Mayor Jean Sylvain Bailly, and even Louis XVI himself. This episode is supposed to have taken place on July 17, 1789, on the occasion of the king's visit to the Paris city hall. However, it is proven that the tricolor cockade began to be worn, by order of the city, from the 13th or 14 July. In any case, Louis XVI actually went to the Paris city hall where he received the tricolor cockade.\n[…]\nFlag of Paraguay, inspired by the colours of the French Tricolour"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Fran%C3%A7a",
+        "situacao": "ok",
+        "texto": "A Bandeira da França (também conhecida como a tricolor ou bleu, blanc, rouge) é uma tricolor dividida em três faixas verticais (azul, branca e vermelha), simboliza a Revolução Francesa (1789), sendo que o azul e o vermelho representam as cores de Paris, enquanto o branco representa as origens, ou seja, a realeza. De acordo com o Marquês de Lafayette, o branco, a \"cor francesa ancestral\", foi adici\n[…]\nAzul e vermelho são as cores tradicionais de Paris, utilizadas no Brasão da cidade. O Azul é identificado com São Martinho de Tours e o vermelho com São Dinis de Paris. As cores azul e vermelho já haviam sido utilizadas pelos franceses antes da Revolução, que trouxe o uso dessas cores de volta.\n[…]\nNa tomada da Bastilha em 1789, a milícia parisiense usava laços azuis e vermelhos em seus chapéus. A cor branca possuía muito destaque em bandeiras francesas e é descrita como a \"cor francesa ancestral\" por Lafayette. O branco foi adicionado as cores revolucionárias dos laços da milícia para nacionalizar o projeto, criando assim o cocar tricolor. Apesar de Lafayette identificar a faixa branca com a nação, outros a identificaram com a monarquia.\n[…]\nLafayette negou que a bandeira continha qualquer referência ao libré vermelho-e-branco do Duque de Orléans. Apesar disso, orleanistas adotaram a bandeira tricolor como a sua própria. Azul e vermelho estão associados com a Virgem Maria, padroeira da França, e foram as cores da oriflama. As cores da bandeira francesa podem também representar os três principais estados do Antigo Regime (o clero: branco, a nobreza: vermelho e a burguesia: azul).\n[…]\nPor outro lado, o website do governo francês considera que o campo branco era a cor do Rei, enquanto azul e vermelho eram as cores de Paris.\n[…]\nAs cores adotadas por Valéry Giscard d'Estaing, foram substituídas por uma versão mais escura das cores da bandeira francesa."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Pacto de Varsóvia",
+      "descricao": "Aliança militar da União Soviética com os países comunistas do Leste Europeu, de 1955 a 1991."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1968, depois de romper com Moscou e se aproximar da China, que país comunista europeu deixou oficialmente o Pacto de Varsóvia?",
+    "resposta": "Albânia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Warsaw_Pact",
+      "https://pt.wikipedia.org/wiki/Pacto_de_Vars%C3%B3via"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
+        "situacao": "ok",
+        "texto": "The Warsaw Pact (WP), formally the Treaty of Friendship, Cooperation and Mutual Assistance (TFCMA), was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics in Central and Eastern Europe in May 1955, during the Cold War. The term \"Warsaw Pact\" commonly refers to both the treaty itself and its resultant military alliance, th\n[…]\nThe Warsaw Pact's largest military engagement was the Warsaw Pact invasion of Czechoslovakia, one of its own member states, in August 1968. All member states participated except for Albania and Romania, resulting in Albania's withdrawal from the pact less than one month later. The pact began to unravel with the spread of the Revolutions of 1989 through the Eastern Bloc, beginning with the Solidarity movement in Poland, its electoral success in June 1989 and the Pan-European Picnic in August 1989.\n[…]\nPeople's Republic of Albania (withheld support in 1961 because of the Albanian–Soviet split, but formally withdrew on 13 September 1968)\n[…]\nThe multi-national Communist armed forces' sole joint action was the Warsaw Pact invasion of Czechoslovakia, a Warsaw Pact member state, in August 1968. All member countries, with the exception of the Socialist Republic of Romania and the People's Republic of Albania, participated in the invasion. The German Democratic Republic provided only minimal support. Albania withdrew from the pact one month after the intervention.\n[…]\nRomania and (until 1968) Albania were exceptions. Together with Yugoslavia, which broke with the Soviet Union before the Warsaw Pact was created, these three countries completely rejected the Soviet doctrine formulated for the Pact. Albania officially left the organization in 1968, in protest of its invasion of Czechoslovakia.\n[…]\nMap of Russia and the Warsaw Pact (omniatlas.com)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pacto_de_Vars%C3%B3via",
+        "situacao": "ok",
+        "texto": "Organização do Tratado de Varsóvia (OTV), oficialmente o Tratado de Amizade, Cooperação e Assistência Mútua, comumente conhecido como Pacto de Varsóvia (PV), foi uma aliança militar assinada em Varsóvia, Polônia, entre a União Soviética e sete outras repúblicas socialistas do Bloco Oriental da Europa Central e Oriental em maio de 1955, durante a Guerra Fria.\n[…]\nSeu maior envolvimento militar foi a invasão da Tchecoslováquia pelo Pacto de Varsóvia em agosto de 1968 (com a participação de todas as nações do Pacto, exceto Albânia e Romênia), que, em parte, resultou na retirada da Albânia do Pacto menos de um mês depois. O Pacto começou a se desfazer com a propagação das Revoluções de 1989 pelo Bloco Oriental, começando com o Movimento Solidariedade na Polônia, seu sucesso eleitoral em junho de 1989 e o Piquenique Pan-Europeu em agosto de 1989.\n[…]\nRepública Popular Socialista da Albânia (retirou-se formalmente em 13 de setembro de 1968)\n[…]\nA única ação conjunta das forças armadas comunistas multinacionais foi a invasão da Tchecoslováquia pelo Pacto de Varsóvia em agosto de 1968. Todos os países membros, com exceção da República Socialista da Romênia e da República Popular da Albânia, participaram da invasão. A República Democrática Alemã forneceu apenas um apoio mínimo.\n[…]\nA Romênia e até 1968, a Albânia, eram exceções. Junto com a Iugoslávia, que rompeu com a União Soviética antes da criação do Pacto de Varsóvia, esses três países rejeitaram completamente a doutrina soviética formulada para o pacto. A Albânia deixou oficialmente a organização em 1968, em protesto contra a invasão da Tchecoslováquia.\n[…]\nEm 12 de março de 1999, a República Tcheca, a Hungria e a Polônia aderiram à OTAN; Bulgária, Estônia, Letônia, Lituânia, Romênia e Eslováquia aderiram em março de 2004; a Albânia aderiu em 1 de abril de 2009."
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Paz, terra e pão",
+      "descricao": "Lema usado pelos bolcheviques de Lênin em 1917 para ganhar apoio popular na Rússia."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, os bolcheviques de Lênin conquistaram apoio popular com um lema que prometia paz, pão e o quê?",
+    "resposta": "Terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peace,_Land,_and_Bread"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peace,_Land,_and_Bread",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "República Federal da América Central",
+      "descricao": "Federação de países centro-americanos formada após a independência da Espanha, que existiu de 1823 a cerca de 1841."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, a República Federal da América Central reunia Guatemala, Honduras, El Salvador, Nicarágua e qual outro país atual?",
+    "resposta": "Costa Rica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Federal_Republic_of_Central_America"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Federal_Republic_of_Central_America",
+        "situacao": "ok",
+        "texto": "The Federal Republic of Central America (Spanish: República Federal de Centro América), initially known as the United Provinces of Central America (Provincias Unidas del Centro de América), was a sovereign state in Central America that existed between 1823 and 1839/1841. The republic was composed of five states (Costa Rica, El Salvador, Guatemala, Honduras, and Nicaragua), and a Federal District f\n[…]\nAt the fall of the federal republic, four of its five successor states were led by opponents of federal rule and proponents of their respective states' secession: Braulio Carrillo (Costa Rica), Francisco Malespín (El Salvador), Carrera (Guatemala), and Francisco Ferrera (Honduras).\n[…]\nDelegations from El Salvador, Honduras, and Nicaragua proclaimed Antonio José Cañas the president of a new federal government on 17 March 1842, but the governments of Costa Rica and Guatemala did not recognize the proclamation. Cañas' government ended in 1844, when El Salvador and Honduras invaded Nicaragua for granting asylum to Salvadoran and Honduran political exiles. Francisco Morazán also tried to reunite Central America by force in 1842 when he became the political leader of Costa Rica.\n[…]\nHonduras accepted Barrios' declaration, but Costa Rica, El Salvador, and Nicaragua rejected it. Barrios invaded El Salvador on 29 March 1885 to force it to join the Central American Union, and was killed during the Battle of Chalchuapa on 2 April. Guatemalan forces withdrew from El Salvador, ending Barrios' attempt to reunite Central America.\n[…]\nOn 20 June 1895, delegations from El Salvador, Honduras, and Nicaragua signed the Treaty of Amapala and declared the formation of the Greater Republic of Central America. The treaty allowed Costa Rica and Guatemala to join if their governments wished to do so. The United States established diplomatic relations with the republic in December 1896.\n[…]\nHistory of Central America"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Federal_da_Am%C3%A9rica_Central",
+        "situacao": "ok",
+        "texto": "República Federal da América Central (em castelhano:  República Federal de Centroamérica)  foi um país constituído em 1823 como uma república federal situada na América Central, seguindo o modelo dos vizinhos Estados Unidos. A federação, que durou 17 anos, foi também designada como Províncias Unidas da América Central e, segundo a sua Constituição aprovada em 1824, Federação da América Central ou \n[…]\nA Federação era constituída pelas actuais repúblicas da Guatemala, El Salvador, Honduras, Nicarágua e Costa Rica. Em meados da década de 1830, foi formado um novo estado, o de Los Altos, o qual iria se rebelar contra a federação por não reconhecer a elite liberal local a autoridade dos conservadores na Guatemala. A sua capital ficava em Quetzaltenango, cujo território ocupava parte daquilo que são hoje as terras altas no ocidente da Guatemala e o estado mexicano de Chiapas.\n[…]\nA burocracia do governo federal, estabelecido na Cidade da Guatemala, demonstrou ser ineficaz.\n[…]\nA União dissolveu-se na guerra civil havida entre 1838 e 1840. A desintegração começou quando  Honduras deixou a federação em 5 de Novembro de 1838. As demais repúblicas acabaram também por separar-se e a união desapareceu em 1840.\n[…]\nPor fim, uma união entre as Honduras, a Nicarágua e El Salvador numa nova República da América Central durou apenas dois anos (1896 a 1898).\n[…]\nE, ainda hoje, as bandeiras dos cinco Estados que fizeram parte da União retêm o velho formato da bandeira federal: duas faixas azuis rodeando uma faixa branca (apenas pela Costa Rica, tradicionalmente a maior apoiante da integração regional, modificou significativamente a sua bandeira em 1848, escurecendo o tom do azul e adicionando uma faixa vermelha ao centro, rodeada por duas faixas brancas, em honra da bandeira tricolor francesa.\n[…]\nAmérica Central sob domínio mexicano\n[…]\nHistória da América Central\n[…]\nRepública Maior da América Central",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "República Árabe Unida",
+      "descricao": "União política entre o Egito e a Síria, de 1958 a 1961, liderada por Gamal Abdel Nasser."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Entre 1958 e 1961, o Egito de Nasser se uniu a qual país árabe para formar a República Árabe Unida?",
+    "resposta": "Síria",
+    "distratores": [
+      "Iraque",
+      "Jordânia",
+      "Líbia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/United_Arab_Republic",
+      "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_%C3%81rabe_Unida"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/United_Arab_Republic",
+        "situacao": "ok",
+        "texto": "The United Arab Republic was a country and sovereign state in the Middle East from 1958 to 1971. It was initially a short-lived political union between the Republic of Egypt (including Egyptian-governed Gaza) and the Second Syrian Republic from 1958 until Syria seceded from the union following the 1961 Syrian coup d'état. Egypt continued to be known officially as the United Arab Republic until it \n[…]\nThe republic was led by Gamal Abdel Nasser as the Egyptian president. The UAR was a member of the United Arab States, a loose confederation with the Mutawakkilite Kingdom of Yemen, which was dissolved in 1961. It was a brief, small, example of a pan-Arab union. The republic is recognized as the first genuine integrated union between two Arab states in the modern era.\n[…]\nThe United Arab Republic was established on 1 February 1958 as the first step towards a larger pan-Arab state, which was originally proposed to Egyptian President Gamal Abdel Nasser by a group of political and military leaders in Syria.\n[…]\nReferendums were held on 21 February 1958, according to whose results the Egyptians and Syrians voted overwhelmingly in favor of the merger, and for Nasser to be the President. The result was announced on 22 February and Nasser was declared the new president of the United Arab Republic.\n[…]\nAfter Syria's withdrawal from the union in 1961, Egypt's official name remained the \"United Arab Republic\" name until 1971.\n[…]\nUnited Arab States (1958–1961) – Egypt, the Kingdom of North Yemen, and Syria\n[…]\nArab Islamic Republic (1974) – Libya and Tunisia\n[…]\nUnited Arab Emirates\n[…]\nVatikiotis, P. J. (1961). \"Dilemmas of Political Leadership in the Arab Middle East: The Case of The United Arab Republic\". American Political Science Review. 55 (1): 103–111.\n[…]\nPodeh, Elie (1999). The Decline of Arab Unity: The Rise And Fall of the United Arab Republic. Foreword by Moshe Ma'oz. Sussex Academic Press. ISBN 1-84519-146-3."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_%C3%81rabe_Unida",
+        "situacao": "ok",
+        "texto": "A República Árabe Unida (abreviado como RAU; em árabe: الجمهورية العربية المتحدة; romaniz.: al-Jumhūrīyah al-‘Arabīyah al-Muttaḥidah ou al-Jumhūrīyah al-‘Arabīyah al-Muttaḥidah), foi um país que nasceu da união entre as repúblicas do Egito e da Síria, estabelecida em 1.º de fevereiro de 1958, como um primeiro passo a caminho de uma \"nação pan-árabe\", com a união do Egito nasserista, da Síria e, du\n[…]\nOs termos finais de Nasser foram decisivos e não negociáveis: \"plebiscito, dissolução dos partidos e retirada do exército da política\". Enquanto o plebiscito parecia razoável para a maioria da elite síria, as duas últimas condições foram extremamente preocupantes. Eles acreditavam que isto destruiria a vida política no país. A despeito destas preocupações, os oficiais sírios sabiam que era tarde demais para voltar atrás. A pressão popular para a união com o Egito já se tornara grande demais.\n[…]\nO estado árabe mais favorável à RAU foi inicialmente o Iraque. O Iraque procurou juntar-se à união entre 1960 e 1961, e em seguida reunificar a união após 1963, com a proposta do Egito, Iraque e Síria reformando a República Árabe Unida. Uma nova bandeira foi proposta; três estrelas, simbolizando os três estados que constituíram a união. No entanto, a união não era para ser. O Iraque ainda continuou a utilizar a bandeira de três estrelas, e mais tarde a adotou como a bandeira nacional do país.\n[…]\nEm junho de 1960, Nasser tentou estabelecer reformas econômicas que trariam a economia síria mais de acordo com o extremamente forte setor público egípcio. Infelizmente, essas mudanças fizeram pouco para auxiliar a economia. Ao invés da mudança em direção ao crescimento do setor privado, Nasser embarcou em uma onda de nacionalizações sem precedentes na Síria e no Egito. Isso começou em julho de 1961, sem consultar  as principais autoridades econômicas da Síria.\n[…]\nUnião do Maghreb Árabe\n[…]\nNasserismo"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Bando dos Quatro",
+      "descricao": "Grupo de dirigentes radicais do Partido Comunista Chinês da Revolução Cultural, preso em 1976 após a morte de Mao."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1976, a China prendeu o grupo radical chamado Bando dos Quatro. Que parente de Mao Tsé-tung fazia parte dele?",
+    "resposta": "Sua viúva, Jiang Qing",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gang_of_Four",
+      "https://pt.wikipedia.org/wiki/Bando_dos_Quatro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gang_of_Four",
+        "situacao": "ok",
+        "texto": "The Gang of Four (simplified Chinese: 四人帮; traditional Chinese: 四人幫; pinyin: Sì rén bāng) was a Maoist political faction composed of four Chinese Communist Party (CCP) officials. They came to prominence during the Cultural Revolution (1966–1976) and were later arrested and charged with treason and other crimes. The gang's leading figure was Jiang Qing (the wife of Mao Zedong). The other members we\n[…]\nAfter Mao died, the four represented a quarter of the remaining members of the last Politburo Mao had chosen. Premier Hua Guofeng attacked the radicals' media line at a Politburo meeting in late September; but Jiang Qing emphatically disagreed with Hua, and she insisted that she be named as the new party chairman. The meeting ended inconclusively.\n[…]\nFor many Chinese, the Gang, and its head Jiang Qing in particular, were a living symbol of everything that had gone wrong during the Cultural Revolution and their downfall was taken as a sign that China was on the brink of a new era.\n[…]\nIn late 1980, the four deposed leaders were subjected to a trial by the Supreme People's Court of China with Jiang Hua presiding; in January 1981, they were convicted of anti-party activities. During the trial, Jiang Qing in particular was extremely defiant, protesting loudly and bursting into tears at some points. She was the only member of the Gang of Four to argue on her own behalf; her argument was that she obeyed the orders of Chairman Mao Zedong at all times.\n[…]\nJiang Qing and Zhang Chunqiao received death sentences that were later commuted to life imprisonment, while Wang Hongwen and Yao Wenyuan were given life and twenty years in prison, respectively. All members of the Gang of Four have since died; Jiang Qing committed suicide in 1991, Wang Hongwen died in 1992, and Yao Wenyuan and Zhang Chunqiao died in 2005, having been released from prison in 1996 and 1998, respectively."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bando_dos_Quatro",
+        "situacao": "ok",
+        "texto": "A Camarilha dos Quatro (chinês simplificado: 四人帮; chinês tradicional: 四人幫; pinyin: Sìrén bāng; também chamada de Gangue dos Quatro ou Bando dos Quatro) é a designação atribuída a uma facção composta por quatro membros do Partido Comunista da China que ganharam proeminência no período de implementação da Grande Revolução Cultural Proletária (1966-1976): Jiang Qing (esposa de Mao Tsé-Tung), Zhang Ch\n[…]\nO grupo era liderado por Jiang Qing, e consistia de três de seus associados próximos, Zhang Chunqiao, Yao Wenyuan e Wang Hongwen. Dois outros homens que já estavam mortos em 1976, Kang Sheng e Xie Fuzhi, foram apontados como tendo feito parte da \"Gangue\". Chen Boda e Mao Yuanxin, sendo este último sobrinho de Mao, também eram considerados alguns dos associados mais próximos da gangue.\n[…]\nA maioria dos relatos ocidentais considera que a liderança real da Revolução Cultural consistia em um grupo mais amplo, referindo-se predominantemente aos membros do Grupo Central da Revolução Cultural. O mais proeminente foi Lin Biao, até sua suposta deserção da China e morte em um acidente de avião em 1971. Chen Boda é muitas vezes classificado como um membro da facção de Lin, em vez de Jiang Qing.\n[…]\nEm 1981, os membros da Gangue dos Quatro foram submetidos a um julgamento público no qual foram acusados de atividades antipartidárias, ataques contra a ideologia do marxismo-leninismo e crimes comuns contra seus rivais reais ou supostos (prisões arbitrárias, espancamentos, assassinatos...). Jiang Qing e Zhang Chunqiao recusaram-se a admitir as acusações e foram condenados à morte, enquanto Yao Wenyuan e Wang Hongwen declararam arrependimento pelo que foi 20 anos de prisão.\n[…]\nSuas sentenças de morte foram posteriormente comutadas e os quatro acabaram sendo libertados, embora vivessem a vida inteira no ostracismo.​\n[…]\nGrupo Antipartido"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Indochina Francesa",
+      "descricao": "Conjunto de colônias e protetorados franceses no Sudeste Asiático, de 1887 a 1954."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A antiga Indochina Francesa, desfeita em 1954, reunia os territórios dos atuais Vietnã, Laos e qual outro país?",
+    "resposta": "Camboja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_Indochina",
+      "https://pt.wikipedia.org/wiki/Indochina_Francesa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/French_Indochina",
+        "situacao": "ok",
+        "texto": "French Indochina (previously spelled as French Indo-China), officially known as the Indochinese Union and after 1941 as the Indochinese Federation, was a group of French-dependent territories in Southeast Asia from 1887 to 1954. It was initially a federation of French colonies (1887–1949), later a confederation of French associated states (1949–1954). It comprised Cambodia, Laos (from 1899), Guang\n[…]\nOn 9 March 1945, with France liberated, Germany in retreat, and the United States ascendant in the Pacific, Japan launched a coup d'etat against the French Indochina colonial administration to prevent a potential uprising by the colonial forces. Vietnam, Cambodia and Laos were established as independent states, members of Japan's Greater East Asia Co-Prosperity Sphere. The Japanese kept power in Indochina until the news of their government's surrender came through in August.\n[…]\nBitter fighting ensued in the First Indochina War as Ho and his government took to the forests and mountains. In 1948, France recognized independence of Vietnam with the Hạ Long Bay Preliminary Agreement. In 1949, in order to provide a political alternative to Ho Chi Minh, the French favoured the creation of a unified State of Vietnam, and former Emperor Bảo Đại was put back in power. Vietnam, Laos and Cambodia became associated states of the French Union and were granted more autonomy.\n[…]\nOn 21 July 1954, the Geneva Conference produced the Geneva Agreements between the Democratic Republic of Vietnam and France. Provisions included supporting the territorial integrity and sovereignty of Indochina, reaffirming its independence from France, declaring the cessation of hostilities and foreign involvement in internal Indochina affairs, and delineating northern and southern zones into which opposing troops were to withdraw.\n[…]\nFrench Union\n[…]\n(in English and French) Indochina, a tourism book published in 1910"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Indochina_Francesa",
+        "situacao": "ok",
+        "texto": "A Indochina Francesa (em francês: Indochine française; em vietnamita: Đông Dương thuộc Pháp, 東洋屬法, lit. \"Oceano Leste sob a França\"; em quemer: ឥណ្ឌូចិនបារាំង, Ĕnduchĕn Bareăng; em laociano: ອິນດູຈີນຝຣັ່ງ, Indouchin Frang), oficialmente conhecida como União Indochinesa (em francês: Union indochinoise; em vietnamita: Liên bang Đông Dương, 聯邦東洋, lit.\n[…]\nEm 1945, a França devolveu Guangzhouwan à China. Para combater o Viet Minh e como parte da descolonização, a França, em colaboração com nacionalistas vietnamitas, formou o Estado do Vietnã como um estado associado à União Francesa em 1949. Isto levou ao regresso da Cochinchina ao Vietname em junho. O Laos e o Camboja também se tornaram estados associados franceses no mesmo ano. Os esforços franceses para retomar a Indochina não tiveram sucesso, culminando na derrota na Batalha de Điện Biên Phủ.\n[…]\nEm 22 de outubro e 9 de novembro de 1953, o Laos e o Camboja conquistaram a independência, tal como o Vietnã   com os Acordos de Genebra de 21 de julho de 1954, pondo fim  da Indochina Francesa.\n[…]\nO Estado do Vietnã de Bảo Đại provou ser um governo fraco e instável, e o Camboja de Norodom Sihanouk proclamou sua independência em novembro de 1953. O Laos tornou-se independente em outubro de 1953 e o Estado do Vietnã tornou-se independente em 4 de junho de 1954 (embora ainda fossem membros da União Francesa). Os combates duraram até maio de 1954, quando o Việt Minh obteve a vitória decisiva contra as forças francesas na árdua Batalha de Dien Bien Phu.\n[…]\nOs eventos de 1954 marcaram a partição do Vietnã e a subsequente Guerra do Vietnã entre comunistas e anticomunistas. Os reinos do Laos e do Camboja eram nominalmente neutros, mas ambos foram arrastados para a Segunda Guerra da Indochina após a invasão do Laos pelo Vietnã do Norte.\n[…]\nUnião Francesa\n[…]\nLista de governadores-gerais da Indochina Francesa"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Guerra da Coreia",
+      "descricao": "Guerra de 1950 a 1953 entre a Coreia do Norte, apoiada por China e União Soviética, e a Coreia do Sul, apoiada pela ONU e pelos Estados Unidos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na Guerra da Coreia, iniciada em 1950, que país enviou centenas de milhares de soldados para lutar ao lado da Coreia do Norte?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Korean_War",
+      "https://pt.wikipedia.org/wiki/Guerra_da_Coreia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Korean_War",
+        "situacao": "ok",
+        "texto": "The Korean War (25 June 1950 – 27 July 1953) was an armed conflict fought on the Korean Peninsula between North Korea (Democratic People's Republic of Korea; DPRK) and South Korea (Republic of Korea; ROK) and their allies. North Korea was supported by China and the Soviet Union, while South Korea was supported by the United Nations led by the United States under the auspices of the United Nations \n[…]\nOn 25 June 1950, the United Nations Security Council (UNSC) adopted Resolution 83 finding that the North Korean invasion of the Republic of Korea was a breach of the peace in violation of Chapter VII of the UN Charter. The Soviet Union, a veto-wielding power, had been boycotting the UN Security Council since January 1950 in protest of Taiwan's occupation of China's permanent seat. Thus, the Soviet Union's representative was not present at the meeting and was unable to vote against the resolution.\n[…]\nThe mission was to cut the road north to China, prevent North Korean leaders from escaping Pyongyang, and rescue US prisoners of war.\n[…]\nThe Korean War cemented China's relationship with the USSR for some time, making it more dependent on the Soviet Union for development aid and technology, while limiting cooperation between China and the US. A high proportion of government expenditures were needed for the war and this slowed China's reconstruction.\n[…]\nThe most significant negative long-term consequence of the war for China was that it led the United States to guarantee the safety of Chiang Kai-shek's regime in Taiwan, effectively ensuring that Taiwan would remain outside of PRC control through the present day. Anti-US sentiments, which were already a significant factor during the Chinese Civil War, were ingrained into Chinese culture during the communist propaganda campaigns of the Korean War.\n[…]\nChinese 50th Anniversary Korean War Memorial Archived 26 February 2021 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerra_da_Coreia",
+        "situacao": "ok",
+        "texto": "Guerra da Coreia (em sul-coreano: coreano: 한국전쟁; hanja: 韓國戰爭; RR: Hanguk Jeonjaeng, \"Guerra Coreana\"; em norte-coreano: coreano: 조국해방전쟁; hancha: 祖國解放戰爭; MR: Choguk haebang chǒnjaeng, \"Guerra de Libertação da Pátria\"; 25 de junho de 1950 – 27 de julho de 1953) foi um conflito armado travado entre a Coreia do Norte e a Coreia do Sul, no contexto macro da Guerra Fria. As Nações Unidas, com os Estados\n[…]\nA China, por sua vez, interveio em favor do norte, com a União Soviética dando-lhes apoio logístico e político.\n[…]\nEm 1 de novembro, soldados da China e dos Estados Unidos travaram seu primeiro combate na guerra na batalha de Unsan, vencida pelos chineses. O comando da ONU, contudo, não acreditava que esta intervenção realmente tinha sido em larga escala ou se ela era séria. Em 24 de novembro, o 8º exército americano lançou uma ofensiva na costa noroeste da Coreia do Norte mas eles foram detidos pelos chineses.\n[…]\nEnquanto isso, a Coreia do Norte no pós-guerra viu altos e baixos. Estima-se que 100 mil norte-coreanos foram mortos nos expurgos após o conflito. A infraestrutura do país estava arrasada devido aos bombardeios dos Estados Unidos, mas a União Soviética, a China e os países do leste europeu (o Bloco Comunista) foram rápidos em ajudar. Assim, a economia norte-coreana se desenvolveu relativamente bem na década de 1960.\n[…]\nEm abril de 1975, a capital do Vietnã do Sul foi capturada pelo exército norte-vietnamita. Encorajado pelo sucesso do comunismo na Indochina, o ditador norte-coreano, Kim Il-sung, viu nisso uma nova oportunidade de conquistar o sul da sua península. Kim visitou a China em abril daquele ano e se encontrou com Mao Tsé-Tung e com Zhou Enlai, pedindo ajuda para uma futura incursão militar. Apesar das expectativas de Pyongyang, Pequim não tinha qualquer interesse em entrar em outra guerra na Coreia.\n[…]\nCrimes de guerra soviéticos\n[…]\nThe Center for the Study of the Korean War"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Doutrina Monroe",
+      "descricao": "Política externa anunciada em 1823 pelo presidente americano James Monroe contra a interferência europeia nas Américas."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1823, os Estados Unidos anunciaram uma doutrina contra a interferência europeia no continente. Que lema famoso resume essa doutrina?",
+    "resposta": "América para os americanos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Doutrina_Monroe"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Doutrina_Monroe",
+        "situacao": "ok",
+        "texto": "A chamada Doutrina Monroe foi anunciada pelo presidente americano James Monroe (presidente de 1817 a 1825) em sua mensagem ao Congresso em 2 de dezembro de 1823.\n[…]\nJulgarmos propícia esta ocasião para afirmar, como um princípio que afeta os direitos e interesses dos Estados Unidos, que os continentes americanos, em virtude da condição livre e independente que adquiriram e conservam, não podem mais ser considerados, no futuro, como suscetíveis de colonização por nenhuma potência europeia […] (Mensagem do Presidente James Monroe ao Congresso dos EUA, 1823)\n[…]\nA Doutrina reafirmava a posição dos Estados Unidos contra o colonialismo europeu, inspirando-se na política isolacionista de George Washington, segundo a qual \"a Europa tinha um conjunto de interesses elementares sem relação com os nossos ou senão muito remotamente\" (Discurso de despedida do Presidente George Washington, em 17 de Setembro de 1796), e desenvolvia o pensamento de Thomas Jefferson, segundo o qual \"a América tem um Hemisfério para si mesma\", o qual tanto poderia significar o continente americano como o seu próprio país.\n[…]\nCrow argumenta que os líderes da América Latina eram realistas. Em seu contexto histórico, eles sabiam que o Presidente dos Estados Unidos exercia muito pouco poder na época, particularmente sem o apoio das forças britânicas, e descobriram que a Doutrina Monroe era inaplicável se os Estados Unidos estivessem sozinhos contra a Santa Aliança.\n[…]\nPax Americana\n[…]\nLAIDLER, Christiane Vieira - Capítulos da Doutrina Monroe: Apontamentos sobre as relações entre os Estados Unidos e a América Latina. Jundiaí-SP: Paco Editorial; 2024. ISBN: 978-85-462-2867-6"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "George Marshall",
+      "descricao": "General americano, chefe do Exército na Segunda Guerra Mundial e depois secretário de Estado, que deu nome ao Plano Marshall."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O general George Marshall, que deu nome ao plano americano de reconstrução da Europa, ocupava que cargo no governo dos Estados Unidos em 1947?",
+    "resposta": "Secretário de Estado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_C._Marshall",
+      "https://pt.wikipedia.org/wiki/Plano_Marshall"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/George_C._Marshall",
+        "situacao": "ok",
+        "texto": "General of the Army George Catlett Marshall Jr. (31 December 1880 – 16 October 1959) was an American military officer and diplomat. He rose through the United States Army to become Chief of Staff of the U.S. Army under presidents Franklin D. Roosevelt and Harry S. Truman, then served as Secretary of State and Secretary of Defense under Truman. Winston Churchill lauded Marshall as the \"organizer of\n[…]\nBoth sides rejected his proposals and he returned to the United States in January 1947. As Secretary of State, Marshall disagreed with the Defense and State Department views that Chiang's success was vital to American interests, insisting that U.S. troops not become involved. The war continued, and the Communists won in 1949.\n[…]\nMarshall resigned as Secretary of State because of ill health on 7 January 1949. He was severely exhausted throughout his tenure in the position. Dean Acheson in late 1947 said he was underperforming like \"a four-engine bomber going only on one engine.\" Truman named him to the largely honorific positions of chairman of the American Battle Monuments Commission and president of the American National Red Cross.\n[…]\nMarshall was buried at Arlington National Cemetery, Section 7, Grave 8198, beside his first wife and her mother, Elizabeth Pendleton Coles (1849–1929). His second wife was also buried with him after she died on 18 December 1978. On its reverse side, the marble headstone lists General Marshall's positions held: \"Chief of Staff U.S. Army, Secretary of State, President of American Red Cross, Secretary of Defense.\" The five-star rank adorns both sides of the stone.\n[…]\nNote – Marshall served as Secretary of State from 21 January 1947 to 20 January 1949. He retired from the Army on 28 February 1947 and returned to active duty on 1 March 1949.\n[…]\nThe Papers of George Catlett Marshall: (Larry I. Bland and Sharon Ritenour Stevens, eds.) online edition"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Plano_Marshall",
+        "situacao": "ok",
+        "texto": "O Plano Marshall (conhecido oficialmente como Programa de Recuperação Europeia) foi o principal plano dos Estados Unidos para a reconstrução dos países aliados da Europa nos anos seguintes à Segunda Guerra Mundial. A iniciativa recebeu o nome do Secretário de Estado dos Estados Unidos, George Marshall.\n[…]\nPara evitar subestimar esse peso apenas com a estimativa de gastos deflacionados, um  estudo apresentado pelo Instituto de Pesquisa Econômica Aplicada (Ipea) considerou a proporção do orçamento gasto com o Plano Marshall pelo Governo dos Estados Unidos, entre 1948 a 1951, e o quanto isso representaria em proporção equivalente do orçamento de 2020.\n[…]\nSubstituindo o anterior Plano Morgenthau, operou por quatro anos a partir de 2 de abril de 1948. Os objetivos dos Estados Unidos eram reconstruir regiões devastadas pela guerra, remover barreiras comerciais e modernizar a indústria, melhorar a prosperidade europeia e impedir a disseminação do comunismo.\n[…]\nApesar de ter sido prometida, durante a guerra, que receberia ajuda financeira, a União Soviética recusou-se a participar do programa por medo de perder sua independência econômica; além disso, também bloqueou a possível participação de países da Europa Oriental, como a Alemanha Oriental, Checoslováquia, Hungria e Polônia. Os Estados Unidos forneceram programas de ajuda similares na Ásia, mas não faziam parte do Plano Marshall.\n[…]\nDestaca-se, no entanto, que o papel dos Estados Unidos na rápida recuperação tem sido debatido. Muitos rejeitam a ideia do país milagrosamente reviver a Europa, já que as evidências mostram que alguma recuperação já estava em andamento.\n[…]\nIdealizador do Plano Marshall morreu em 1959: George Catlett Marshall ganhou o Nobel da Paz de 1953 pela criação do plano que ajudou a reconstruir a Europa no pós-guerra."
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Estado Livre do Congo",
+      "descricao": "Território da África central controlado pelo rei belga Leopoldo II de 1885 a 1908, marcado por trabalho forçado e atrocidades."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Entre 1885 e 1908, o Estado Livre do Congo não era colônia de nenhum país, mas propriedade particular de quem?",
+    "resposta": "Rei Leopoldo II da Bélgica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Congo_Free_State",
+      "https://pt.wikipedia.org/wiki/Estado_Livre_do_Congo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Congo_Free_State",
+        "situacao": "ok",
+        "texto": "The Congo Free State (CFS), also known as the Independent State of the Congo (French: État indépendant du Congo), was a state and absolute monarchy in Central Africa from 1885 to 1908. It was privately owned by King Leopold II, the constitutional monarch of the Kingdom of Belgium. In legal terms, the two separate countries were in a personal union. The Congo Free State was not a part of, nor did i\n[…]\nIn 1885, Leopold's efforts to establish Belgian influence in the Congo Basin were awarded with the État Indépendant du Congo (CFS, Congo Free State). By a resolution passed in the Belgian Parliament, Leopold became roi souverain ('sovereign king'), of the newly formed CFS, over which he enjoyed nearly absolute control. The CFS (today the Democratic Republic of the Congo), a country of over two million square kilometres, became Leopold's personal property, the Domaine Privé.\n[…]\nIndividuals such as George Washington Williams also had a significant impact on the Congo Free State propaganda war. In his famous letter, \"An Open Letter to His Serene Majesty Léopold II, King of the Belgians and Sovereign of the Independent State of Congo\", sent on 18 July 1890, Williams described in great detail the crimes committed against the residents of the Congo and their overall mistreatment. This letter was a key factor in the propaganda struggle over conditions in the Congo.\n[…]\nYielding to international pressure, the parliament of Belgium annexed the Congo Free State and took over its administration on 15 November 1908, as the colony of the Belgian Congo. The governance of the Belgian Congo was outlined in the 1908 Colonial Charter. Despite being effectively removed from power, the international scrutiny was no major loss to Leopold II—who died in Brussels on 17 December 1909—or to the concessionary companies in the Congo.\n[…]\nList of colonial governors of the Congo Free State and Belgian Congo"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estado_Livre_do_Congo",
+        "situacao": "ok",
+        "texto": "O Estado Independente do Congo (em francês: État Indépendant du Congo), também conhecido como Estado Livre do Congo, foi um reino privado, propriedade pessoal de Leopoldo II da Bélgica entre 1877 e 1908. Ocupava a maior parte da área da bacia do rio Congo, incluindo o território da atual República Democrática do Congo. Sua economia se baseava na intensa exploração do trabalho africano, nas condiçõ\n[…]\nEm 1908, depois da brutalidade deste tipo de colonização ter por fim sido exposta na imprensa ocidental, esta propriedade privada passou a ser uma colónia da Bélgica — o Congo Belga.\n[…]\nNenhum destes planos chegou a bom termo: o governo da Bélgica resistiu a todas as sugestões de Leopoldo, vendo a aquisição de uma colónia como uma boa maneira de gastar dinheiro com pouco ou nenhum retorno.\n[…]\nEm seguida, o Estado Independente foi dividido em duas zonas econômicas: a Zona de Livre Comércio, aberta a empreendedores de qualquer nação, que eram autorizados a arrendar o monopólio por 10 e 15 anos de qualquer coisa de valor: marfim de um distrito particular, ou a concessão de borracha; a outra zona — mais de dois terços do Congo — tornou-se domaine de la couronne (domínio da coroa), ou seja, Leopoldo era seu dono.\n[…]\nLeopoldo ofereceu uma reforma em seu regime, mas poucos levaram isso a sério. Todas as nações estavam de acordo que o domínio do rei deveria ser extinto o mais rápido possível, mas nenhuma nação estava desejosa de assumir a responsabilidade, e nunca foi sugerido que as terras em questão fossem devolvidas ao povo da região. A Bélgica era a forte candidata à administração do Congo, mas os belgas não estavam ainda dispostos a isso. Por dois anos, a Bélgica debateu a questão e foi às urnas decidir.\n[…]\nA 30 de junho de 2020, o Rei Filipe expressou o seu pesar pelo reinado de Leopoldo II e depois pela Bélgica no Congo numa carta ao presidente congolês."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Rebelde Desconhecido",
+      "descricao": "Homem anônimo fotografado em 5 de junho de 1989 em Pequim, após a repressão aos protestos da Praça da Paz Celestial."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1989, perto da Praça da Paz Celestial, em Pequim, um homem anônimo ficou famoso numa foto parado sozinho diante de quê?",
+    "resposta": "Uma fila de tanques",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tank_Man"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tank_Man",
+        "situacao": "ok",
+        "texto": "Tank Man (also known as the Unknown Protester or the Unknown Rebel) is an unidentified individual, presumed to be a Chinese man, who stood in front of a column of Type 59 tanks on Chang'an Avenue near Tiananmen Square in Beijing on June 5, 1989. The confrontation occurred one day after the government of China forcibly cleared the square following six weeks of pro-democracy demonstrations, resultin\n[…]\nIn July 2017, it was reported by Apple Daily that the Tank Man's real name may be Zhang Weimin, a native of Shijingshan, Beijing, who was 24 years old in 1989. The man who gave the story claimed that he was in the same cell with Zhang in Beijing Yanqing Prison. The verdict stated that he struck a tank with a brick and was initially sentenced to life imprisonment, which was later reduced to 20 years. After winning an award at Yanqing Prison, he was released on parole in 2007.\n[…]\nOn June 4, 2021, the 32nd anniversary of the 1989 Tiananmen Square massacre, searches for the Tank Man image and videos were censored by Microsoft's Bing search engine worldwide. Hours after Microsoft acknowledged the issue, the search returned only pictures of tanks elsewhere in the world. Search engines that license results from Microsoft such as DuckDuckGo and Yahoo faced similar issues.\n[…]\nIn April 2019, Leica Camera released an advertisement depicting photographers in intense political climates, including 1989 China. The five-minute short ends with a photographer shooting from a hotel window with the Tank Man image reflected in his lens, despite the fact that the original photograph was taken with a Nikon camera. After the Leica brand was censored on Sina Weibo, Leica revoked the advertisement and sought to distance themselves from it.\n[…]\nTehran's Tank Man\n[…]\nRaw video of the Tank Man incident (CNN) on YouTube\n[…]\nJohn McBeth (13 Sep, 2019) \"Tank man photographer Charlie Cole died in Bali\" aged 64"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Rebelde_Desconhecido",
+        "situacao": "ok",
+        "texto": "O Rebelde Desconhecido, também conhecido como O Homem dos Tanques, é o misterioso homem que ficou conhecido em todo o mundo como figura heroica após ser filmado e fotografado durante os protestos na Praça da Paz Celestial em Pequim, em 5 de junho de 1989. Várias fotografias foram tiradas do homem, que ficou em pé em frente a uma coluna de tanques chineses Type 59, forçando-os a parar.\n[…]\nCharlie Cole, trabalhando para a Newsweek, escondeu o filme contendo a foto do homem dos tanques num banheiro do Beijing Hotel, sacrificando um rolo de filme novo e imagens de protestantes após o Serviço Secreto Chinês invadir seu quarto e forçá-lo a assinar uma confissão. Cole conseguiu resgatar seu rolo de filme do banheiro e o enviou à Newsweek. A foto apareceu na matéria 100 Fotografias que Mudaram o Mundo, da revista Life, em 2003.\n[…]\nArthur Tsang Hin Wah da Reuters tirou várias fotografias, mas apenas uma foto do homem subindo no tanque foi escolhida de sua pilha de fotos.\n[…]\nAs fotos e a filmagem do homem se posicionando em pé, parado e sozinho em frente à coluna de tanques alcançou audiência internacional quase instantaneamente. Foi capa dos principais jornais e revistas e a principal matéria de incontáveis jornais ao redor do mundo. Em Abril de 1998, a revista Time incluiu \"O Rebelde Desconhecido\" na lista das 100 pessoas mais influentes do século.\n[…]\nQuase nada se sabe a respeito da identidade do homem ou do comandante do tanque. Pouco depois do incidente, o tabloide britânico Sunday Express afirmou ser \"Wang Weilin\" (王维林) seu nome, um estudante de 19 anos que foi posteriormente preso por \"agitação política\" e \"tentativa de subversão de membros do Exército\"; entretanto, a veracidade desta afirmação é questionável.\n[…]\nProtestos na Praça da Paz Celestial em 1976\n[…]\nProtesto na Praça da Paz Celestial em 1989",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Deng Xiaoping",
+      "descricao": "Líder chinês que comandou as reformas econômicas de abertura da China entre o fim dos anos setenta e os anos noventa."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Para defender reformas de mercado na China, Deng Xiaoping dizia que não importa a cor do gato, desde que ele faça o quê?",
+    "resposta": "Cace ratos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deng_Xiaoping"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping",
+        "situacao": "ok",
+        "texto": "Deng Xiaoping (22 August 1904 – 19 February 1997) was a Chinese statesman, revolutionary, and political theorist who served as the paramount leader of the People's Republic of China (PRC) from 1978 to 1989. Emerging as China's most influential figure after Mao Zedong's death in 1976, Deng consolidated political power and guided the country into an era of reform and opening up that transitioned the\n[…]\nCredited as the \"architect of modern China\", he is recognized for shaping both socialism with Chinese characteristics and Deng Xiaoping Theory.\n[…]\nImproving relations with the outside world was the second of two important philosophical shifts outlined in Deng's program of reform termed Gaige Kaifang (lit. Reforms and Openness). China's domestic social, political, and most notably, economic systems would undergo significant changes during Deng's time. The goals of Deng's reforms were summed up by the Four Modernizations, those of agriculture, industry, science and technology, and the military.\n[…]\nDeng was recognized officially as \"the chief architect (总设计师) of the reform and opening up and China's socialist modernization\". To the Communist Party, he was believed to have set a good example for communist cadres who refused to retire at old age. He broke earlier conventions of holding offices for life. He was often referred to as simply Comrade Xiaoping, with no title attached.\n[…]\nOn this basis, and by focusing on the fundamental questions of what socialism is and how to build it and drawing lessons from the history of world socialism, they established Deng Xiaoping Theory, and devoted their efforts to freeing minds and seeking truth from facts. The historic decision was made to shift the focus of the Party and the country's work onto economic development and to launch the reform and opening up drive.\n[…]\nReform and opening up\n[…]\nWorks by Deng Xiaoping at marxists.org\n[…]\nXiaoping Deng at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deng_Xiaoping",
+        "situacao": "ok",
+        "texto": "Deng Xiaoping (22 de agosto de 1904 – 19 de fevereiro de 1997) foi um estadista, revolucionário e teórico político chinês que atuou como líder supremo da República Popular da China (RPC) de 1978 a 1989. Emergindo como a figura mais influente da China após a morte de Mao Zedong em 1976, Deng consolidou o poder político e guiou o país para uma era de Reforma e abertura que transicionou a nação em di\n[…]\nDeng citou o antigo provérbio \"não importa se um gato é preto ou branco, desde que cace ratos é um bom gato\", que resume a sua pragmática \"teoria do gato\". O ponto principal era que os métodos capitalistas funcionavam. Deng trabalhou com a sua equipe, especialmente como Zhao Ziyang, que em 1980 substituiu Hua Guofeng como primeiro-ministro, e Hu Yaobang, que em 1981 fez o mesmo com o cargo de presidente do partido.\n[…]\nDeng foi reconhecido oficialmente como \"o arquiteto-chefe (总设计师) da reforma e abertura e da modernização socialista da China\". Para o Partido Comunista, acreditava-se que ele havia dado um bom exemplo para os quadros comunistas que se recusavam a se aposentar na velhice. Ele quebrou convenções anteriores de ocupar cargos por toda a vida. Ele era frequentemente referido simplesmente como Camarada Xiaoping, sem nenhum título anexado.\n[…]\nDeng é lembrado principalmente pela reforma e abertura que iniciou enquanto era líder supremo da República Popular da China, que direcionou a China para uma economia de mercado, levou a um alto crescimento econômico, aumentou o padrão de vida de centenas de milhões de pessoas, expandiu as liberdades pessoais e culturais e integrou substancialmente o país na economia mundial.\n[…]\nAlém disso, as reformas econômicas de Deng Xiaoping iniciaram o caminho em direção a uma economia de mercado que acabou levando às condições para a aceleração da privatização e reestruturação das empresas estatais de meados ao final dos anos 1990.\n[…]\nXiaoping Deng no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Gulag",
+      "descricao": "Órgão soviético que administrava a rede de campos de trabalho forçado da União Soviética, sobretudo sob Stálin."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Na União Soviética de Stálin, o que era o Gulag, cujo nome vem da sigla de um órgão do governo?",
+    "resposta": "Sistema de campos de trabalho forçado",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gulag",
+      "https://en.wikipedia.org/wiki/Gulag"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gulag",
+        "situacao": "ok",
+        "texto": "Gulag foi um sistema de campos de trabalho da União Soviética. A palavra Gulag originalmente se referia apenas ao departamento da polícia secreta soviética responsável pela administração dos campos de trabalho forçado da década de 1930 ao início da década de 1950, durante o governo de Josef Stalin, mas, na literatura, o termo é popularmente utilizado para designar o sistema de trabalho forçado exi\n[…]\nA análise institucional do sistema de campos de concentração soviético é dificultada pela distinção formal entre o GULAG e o GUPVI.\n[…]\nSua principal função era organizar o trabalho forçado de estrangeiros na União Soviética. Os dirigentes superiores do GUPVI provinham do sistema GULAG. A principal diferença em relação ao GULAG registrada nas memórias era a ausência de criminosos condenados nos campos do GUPVI. Nos demais aspectos, as condições dos dois sistemas de campos eram semelhantes: trabalho pesado, alimentação e condições de vida precárias e elevada taxa de mortalidade.\n[…]\nAté a Segunda Guerra Mundial, o sistema Gulag expandiu-se consideravelmente para criar uma \"economia dos campos\" soviética. Imediatamente antes da guerra, o trabalho forçado fornecia 46,5% do níquel do país, 76% do estanho, 40% do cobalto, 40,5% do minério de cromo-ferro, 60% do ouro e 25,3% da madeira. Como parte dos preparativos para a guerra, a NKVD construiu muitas outras fábricas, rodovias e ferrovias.\n[…]\nArendt também argumenta que a função do sistema Gulag não era verdadeiramente econômica. Embora o governo soviético classificasse todos esses estabelecimentos como campos de trabalho forçado, isso, na realidade, evidenciava que o trabalho realizado nos campos era deliberadamente inútil, uma vez que todos os trabalhadores russos podiam ser submetidos ao trabalho forçado. A única finalidade econômica real que os campos normalmente cumpriam era financiar os custos de sua própria supervisão."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gulag",
+        "situacao": "ok",
+        "texto": "The Gulag was a system of labor camps in the Soviet Union. In Russian language, the word Gulag referrs only to the division of the Soviet secret police that was in charge of running the forced labor camps from the 1930s to the early 1950s during Joseph Stalin's rule, but in English literature the term is popularly used for the system of forced labor throughout the Soviet era. The Russian term that\n[…]\nThe economic explanation, in turn as set out by journalist Anne Applebaum, argues that the Soviet regime instrumentalised the Gulag for its economic development projects. Although never economically profitable, it was perceived as such right up to Stalin's death in 1953.\n[…]\nHannah Arendt argues that as part of a totalitarian system of government, the camps of the Gulag system were experiments in \"total domination.\" In her view, the goal of a totalitarian system was not merely to establish limits on liberty, but rather to abolish liberty entirely in service of its ideology. She argues that the Gulag system was not merely political repression because the system survived and grew long after Stalin had wiped out all serious political resistance.\n[…]\nShe also argues that the function of the Gulag system was not truly economic. Although the Soviet government deemed them all \"forced labor\" camps, this in fact highlighted that the work in the camps was deliberately pointless, since all Russian workers could be subject to forced labor. The only real economic purpose they typically served was financing the cost of their own supervision.\n[…]\nPunitive System. Structure and Cadres (Karatelnaya Sistema. Struktura i Kadry);\n[…]\nSoviet Repressive and Punitive Policy. Annotated Index of Cases of the SA RF (Sovetskaya Pepressivno-karatelnaya Politika i Penitentsiarnaya Sistema. Annotirovanniy Ukazatel Del GA RF).\n[…]\nBrutal! Drawings from the Gulag by Danzig Baldaev, a retired Soviet prison guard (YT)"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Chave da Bastilha",
+      "descricao": "Chave principal da fortaleza da Bastilha, enviada por La Fayette a George Washington em 1790 e guardada em Mount Vernon."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que objeto da fortaleza parisiense tomada em 1789 o marquês de La Fayette mandou de presente a George Washington, e hoje está na casa dele?",
+    "resposta": "A chave da Bastilha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bastille",
+      "https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bastille",
+        "situacao": "ok",
+        "texto": "The Bastille (, French: [bastij] ) was a medieval fortress in Paris, known as the Bastille Saint-Antoine. It played an important role in the internal conflicts of France and for most of its history was used as a state prison by the kings of France. It was stormed by a crowd on 14 July 1789, in the French Revolution, becoming an important symbol for the French Republican movement. It was later demo\n[…]\nSome relics of the Bastille survive: the Carnavalet Museum holds objects including one of the stone models of the Bastille made by Palloy and the rope ladder used by Latude to escape from the prison roof in the 18th century, while the mechanism and bells of the prison clock are exhibited in Musée Européen d'Art Campanaire at L'Isle-Jourdain. The key to the Bastille was given to George Washington in 1790 by Lafayette and is displayed in the historic house of Mount Vernon.\n[…]\nA number of histories of the Bastille were published immediately after July 1789, usually with dramatic titles promising the uncovering of secrets from the prison.\n[…]\nBy the 1830s and 1840s, popular histories written by Pierre Joigneaux and by the trio of Auguste Maquet, Auguste Arnould and Jules-Édouard Alboize de Pujol presented the years of the Bastille between 1358 and 1789 as a single long period of royal tyranny and oppression, epitomised by the fortress; their works featured imaginative 19th-century reconstructions of the medieval torture of prisoners.\n[…]\nOne of the major debates on the actual taking of the Bastille in 1789 has been the nature of the crowds that stormed the building. Hippolyte Taine argued in the late 19th century that the crowd consisted of unemployed vagrants, who acted without real thought; by contrast, the post-war left-wing intellectual George Rudé argued that the crowd was dominated by relatively prosperous artisan workers."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette",
+        "situacao": "ok",
+        "texto": "Marie-Joseph Paul Yves Roch Gilbert du Motier, Marquis de La Fayette (French: [ʒilbɛʁ dy mɔtje maʁki d(ə) la fajɛt]; September 6, 1757 – May 20, 1834), known in the United States as Lafayette (), was a French military officer and politician who volunteered to join the Continental Army, led by General George Washington, in the American Revolutionary War.\n[…]\nThis document was inspired by the United States Declaration of Independence, which was authored primarily by Jefferson, and invoked natural law to establish basic principles of the democratic nation-state. He also advocated the abolition of slavery, in keeping with the philosophy of natural rights. After the storming of the Bastille, he was appointed commander-in-chief of France's National Guard and tried to steer a middle course through the years of revolution.\n[…]\nIn December 1779, Adrienne gave birth to Georges Washington Lafayette.\n[…]\nOn July 14, the fortress known as the Bastille was stormed by the insurgents.\n[…]\nIn 1804, Bonaparte was crowned the Emperor Napoleon after a plebiscite in which Lafayette did not participate. The retired general remained relatively quiet, although he made Bastille Day addresses. After the Louisiana Purchase, President Jefferson asked him if he would be interested in the governorship, but Lafayette declined, citing personal problems and his desire to work for liberty in France.\n[…]\nThe following year, he served as a pallbearer and spoke at the funeral of General Jean Maximilien Lamarque, another opponent of Louis-Phillippe. He pleaded for calm, but there were riots in the streets and a barricade was erected at the Place de la Bastille. The king forcefully crushed this June Rebellion, to Lafayette's outrage. He returned to La Grange until the Chamber met in November 1832, when he condemned Louis-Phillippe for introducing censorship, as Charles X had."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bastilha",
+        "situacao": "ok",
+        "texto": "A Bastilha (em francês: Bastille), mais conhecida por ter sido uma prisão - assim funcionando desde o início do século XVII até o final do século XVIII - foi inicialmente concebida apenas como um portal de entrada à rua parisiense de Saint-Antoine, na França, motivo pelo qual era denominada Bastilha de Saint-Antoine. Encontrava-se onde hoje está situada a Place de la Bastille (\"Praça da Bastilha\")\n[…]\nFicou conhecida por ter sido o palco do evento histórico conhecido como a Tomada da Bastilha, em 14 de julho de 1789, o qual aliado ao Juramento do Jogo da Péla, está entre os fatos mais importantes do início da Revolução Francesa.\n[…]\nUma construção muito similar à Bastilha pode ser vista hoje no Châteaux de Tarancon. A bastilha era muito bonita por fora, mas por dentro não.\n[…]\nNeste período, encontrou-se a Bastilha dividida internamente em:\n[…]\nDurante o assédio, o marquês de Launay, o governador da Bastilha, ainda tentou negociar. Os guardas, no entanto, descontrolaram-se, disparando na multidão. Indignado, o povo reunido na praça em frente partiu para o assalto e dali para o massacre. O tiroteio durou aproximadamente quatro horas. O número de mortos foi incerto. Calculam que somaram 98 populares e apenas um defensor da Bastilha.\n[…]\nLaunay teve um fim trágico. Foi decapitado e a sua cabeça espetada na ponta de uma lança desfilou pelas ruas numa celebração macabra. Os presos, soltos, arrastaram-se para fora sob o aplauso comovido da multidão postada nos arredores da fortaleza devassada. Posteriormente a massa incendiou e destruiu a Bastilha, localizada no bairro Santo António, um dos mais populares de Paris. O episódio, verdadeiramente espetacular, teve um efeito electrizante.\n[…]\nPlace de la Bastille",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Mustafa Kemal Atatürk",
+      "descricao": "Militar e estadista fundador e primeiro presidente da República da Turquia, de 1923 a 1938."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1934, o fundador da Turquia moderna, Mustafa Kemal, recebeu do parlamento o sobrenome Atatürk. O que ele significa?",
+    "resposta": "Pai dos Turcos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+      "https://pt.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+        "situacao": "ok",
+        "texto": "Mustafa Kemal Atatürk (c. 1881 – 10 November 1938) was a Turkish field marshal and statesman who was the founder of the Republic of Turkey and served as its first president from 1923 until his death in 1938. He led sweeping reforms, turning Turkey into an industrialising nation. Ideologically a republican, secularist, and nationalist, his policies and socio-political theories became known as Kemal\n[…]\nAfter receiving the surname Atatürk on his ID in 1934, he appeared as Kemal Atatürk, while the given name Mustafa had disappeared altogether. He used the Old Turkic name Kamâl from 1935 to 1937, which means 'fortification', 'fortress', 'army', or 'shield'.\n[…]\nSaffet Arıkan, a politician who was the head of the Turkish Language Association, said \"Ulu Önderimiz Ata Türk Mustafa Kemal\" ('Our Great Leader Ata Türk Mustafa Kemal') in the opening speech of the 2nd Language Day on 26 September 1934. Later, the surname \"Atatürk\" (which derived from the title Atabey in Turkic history, however, commonly translated as 'father of the Turks' or 'Turk like his ancestors') was accepted as the surname of Mustafa Kemal after the adoption of the Surname Law in 1934.\n[…]\nIn 1934, Atatürk commissioned the first Turkish operatic work, Özsoy. The opera, staged at the People's House in Ankara, was composed by Adnan Saygun and performed by soprano Semiha Berksoy.\n[…]\nIn the epilogue of Grey Wolf, Mustafa Kemal: An Intimate Study of a Dictator, first published in 1932 and the first biography of Atatürk published in his lifetime, H. C. Armstrong described him as a \"man born out of due season\" and compared him to Timur and Genghis Khan.\n[…]\nTimeline of Mustafa Kemal Atatürk\n[…]\nWorks about Mustafa Kemal Atatürk at Open Library\n[…]\nWorks by Mustafa Kemal Atatürk at Open Library\n[…]\nWorks by or about Mustafa Kemal Atatürk at the Internet Archive\n[…]\nNewspaper clippings about Mustafa Kemal Atatürk in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+        "situacao": "ok",
+        "texto": "Mustafa Kemal Atatürk, também conhecido como Mustafa Kemal Paxá até 1921, e Gazi Mustafa Kemal de 1921 até a Lei do Sobrenome de 1934 (Salonica, c. 1881 – Istambul, 10 de novembro de 1938), foi um militar turco, estadista revolucionário, autor e pai fundador da República da Turquia, servindo como seu primeiro presidente de 1923 até sua morte em 1938. Ele empreendeu reformas progressivas radicais, \n[…]\nSob Atatürk, as minorias na Turquia foram obrigadas a falar turco em público, mas foram autorizadas a manter as suas próprias línguas em privado e dentro das suas próprias comunidades; os topónimos não turcos foram substituídos e as famílias não turcas foram obrigadas a adoptar um apelido turco. O Parlamento Turco concedeu-lhe o sobrenome Atatürk em 1934, que significa \"Pai dos Turcos\", em reconhecimento ao papel que desempenhou na construção da moderna República Turca.\n[…]\nSaffet Arıkan, um político que era o chefe da Associação da Língua Turca, disse \"Ulu Önderimiz Ata Türk Mustafa Kemal\" (\"Nosso Grande Líder Ata Türk Mustafa Kemal\") no discurso de abertura do 2º Dia da Língua em 26 de setembro de 1934. Mais tarde, o sobrenome \"Atatürk\" (\"pai dos turcos\") foi aceito como sobrenome de Mustafa Kemal após a adoção da Lei do Sobrenome em 1934.\n[…]\nEstes Alcorões turcos foram ferozmente contestados pelos membros da comunidade religiosa, e o incidente levou muitos modernistas muçulmanos de destaque a apelar ao Parlamento turco para patrocinar uma tradução do Alcorão de qualidade adequada.\n[…]\nQuando a moderna República da Turquia foi fundada em 1923, o nacionalismo e o secularismo eram dois dos princípios fundadores. Atatürk pretendia criar um estado-nação (ulus devlet) a partir dos remanescentes turcos do Império Otomano. O kemalismo define o \"povo turco\" como \"aqueles que protegem e promovem os valores morais, espirituais, culturais e humanísticos da nação turca\"."
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Checkpoint Charlie",
+      "descricao": "Posto de passagem mais famoso entre Berlim Oriental e Berlim Ocidental durante a Guerra Fria."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Berlim, o posto de fronteira Checkpoint Charlie tinha esse nome porque Charlie representa qual letra no alfabeto fonético militar?",
+    "resposta": "Letra C",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Checkpoint_Charlie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+        "situacao": "ok",
+        "texto": "Checkpoint Charlie (or \"Checkpoint C\") was the Western Bloc's name for the best-known Berlin Wall crossing point between East Berlin and West Berlin during the Cold War (1947–1991), becoming a symbol of the Cold War, representing the separation of East and West.\n[…]\nThe museum is operated by the Arbeitsgemeinschaft 13. August e. V., a registered association founded by Dr. Rainer Hildebrandt. The director is Alexandra Hildebrandt, the founder's widow. The museum is housed in part in the \"House at Checkpoint Charlie\" building by architect Peter Eisenman.\n[…]\nWith 850,000 visitors in 2007, the Checkpoint Charlie Museum is one of the most visited museums in Berlin and in Germany.\n[…]\nAt the border crossing from Hyder in Alaska, USA to Stewart in British Columbia, Canada, there is a humorous imitation of the Checkpoint Charlie sign with the inscription \"You are leaving the American Sector\" in English, French, and German, as well as a sign reading \"Eastern Sektor\", as Stewart is located east of Hyder. Hyder is the only place in the USA that can be legally entered without any border control.\n[…]\nDuring the 1950s and 1960s the Portas do Cerco was also referred to as Far Eastern Checkpoint Charlie with a major border incident happening in 1952 with Portuguese African Troops exchanging fire with Chinese Communist border guards. According to reports, the exchange lasted for one and three quarter hours leaving one dead and several dozens injured on the Macau side and more than 100 casualties claimed on the Communist Chinese side.\n[…]\nMedia related to Checkpoint Charlie at Wikimedia Commons\n[…]\nMuseum Haus am Checkpoint Charlie\n[…]\nThe Rise and Fall of the Berlin Wall: Checkpoint Charlie at Imperial War Museum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Checkpoint_Charlie",
+        "situacao": "ok",
+        "texto": "Checkpoint Charlie foi um posto militar entre a Alemanha Ocidental e a Alemanha Oriental durante a Guerra Fria. Havia dois outros postos militares localizados na direção ocidental da auto-estrada (Autobahn) onde se localizava o Checkpoint Charlie: o Checkpoint Alpha, em Helmstedt, e o Checkpoint Bravo em Dreilinden, no sudoeste de Wannsee, cada nome indicando uma letra do alfabeto (Alpha a letra A\n[…]\nHavia muitos outros postos militares em Berlim. Alguns foram entregues para moradores da parte ocidental.\n[…]\nO Checkpoint Charlie foi assim denominado pelos Aliados e projetado como um simples posto militar para passagem de estrangeiros e membros das Forças Aliadas na Alemanha Ocidental para a Alemanha Oriental. Os membros das forças Aliadas não tinham permissão para utilizar outra passagem designada para estrangeiros, como a estação de trem Friedrichstraße. Checkpoint Charlie se localiza entre 2 bares famosos. Os Soviéticos simplesmente o chamavam de Posto de Passagem de Friedrichstraße.\n[…]\n[carece de fontes]?. Os Alemães Orientais referiam ao Checkpoint Charlie oficialmente como Grenzübergangsstelle (\"Posto de Passagem da Fronteira\") Friedrich-/Zimmerstraße.\n[…]\nO Checkpoint Charlie se tornou um símbolo da Guerra Fria, representando a separação do leste e oeste, e — para alguns alemães orientais — uma estrada para a liberdade. É frequentemente exibida em filmes e livros de espiões, como os escritos por John le Carré.\n[…]\nUm famoso café e ponto de observação dos oficiais aliados, forças armadas e outros visitantes, o Cafe Adler (\"Cafe Águia\"), está situado exatamente no checkpoint. Era um excelente ponto de observação da Berlim Oriental, enquanto se degustava algo para beber ou comer.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Glasnost",
+      "descricao": "Política de abertura e transparência no governo e na imprensa lançada por Mikhail Gorbachev na União Soviética a partir de 1986."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Junto com a perestroika, Gorbachev lançou na União Soviética a glasnost. O que significa essa palavra russa?",
+    "resposta": "Transparência",
+    "distratores": [
+      "Reestruturação",
+      "Aceleração",
+      "Independência"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Glasnost",
+      "https://en.wikipedia.org/wiki/Glasnost"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Glasnost",
+        "situacao": "ok",
+        "texto": "Glasnost (do russo: , lit. \"transparência\") foi uma política implantada, juntamente com a Perestroika (\"reestruturação\"), na União Soviética, durante o governo de Mikhail Gorbachev. A glasnost contribuiu em grande parte para a intensificação do clima de instabilidade causado por agitações nacionalistas, conflitos étnicos e regionais e insatisfação econômica, fatores que levaram ao colapso da URSS.\n[…]\nEnquanto no Ocidente a noção da glasnost se associa a liberdade de expressão, a meta principal desta política na URSS foi tornar o governo transparente e aberto para discutir, assim logrando o círculo estreito de apparatchiks que anteriormente exercera o controle completo da economia. A glasnost foi, portanto, um processo de abertura política.\n[…]\nA glasnost deu novas liberdades à população e sobretudo maior liberdade de expressão — uma modificação radical, visto que o controle da liberdade de expressão e a supressão da crítica ao governo eram até então elementos centrais no sistema de governo soviético. Houve também um maior grau da liberdade para os meios de comunicação.\n[…]\nColapso da União Soviética\n[…]\nMikhail Gorbachev\n[…]\nPerestroika\n[…]\nSoviete Supremo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Glasnost",
+        "situacao": "ok",
+        "texto": "Glasnost ( GLAZ-nost; Russian: гласность, IPA: [ˈɡlasnəsʲtʲ] ) is a concept relating to openness and transparency. It has several general and specific meanings, including a policy of maximum openness in the activities of state institutions and freedom of information and the inadmissibility of hushing up problems. In Russian, the word glasnost has long been used to mean 'openness' and 'transparency\n[…]\nIn the mid-1980s, it was popularised by Mikhail Gorbachev as a political slogan for increased government transparency in the Soviet Union within the framework of perestroika, and the word came to be used in English in the latter meaning.\n[…]\nGlasnost was taken to mean increased openness and transparency in government institutions and activities in the Soviet Union (USSR). Glasnost reflected a commitment of the Gorbachev administration to allowing Soviet citizens to discuss publicly the problems of their system and potential solutions. Gorbachev encouraged popular scrutiny and criticism of leaders, as well as a certain level of exposure by the mass media.\n[…]\nWhile associated with freedom of speech, the main goal of this policy was to make the country's management transparent, and circumvent the holding of near-complete control of the economy and bureaucracy of the Soviet Union by a concentrated body of officials and bureaucratic personnel.\n[…]\nGorbachev's policy of glasnost received mixed reception in communist states, especially outside the Eastern Bloc.\n[…]\n1965 Glasnost rally\n[…]\nGlasnost Bowl\n[…]\nPerestroika (Gorbachev's \"Restructuring\")\n[…]\nCohen, Stephen F.; Vanden Heuvel, Katrina, eds. (1989). Voices of glasnost: interviews with Gorbachev's reformers. New York: W. W. Norton & Company. ISBN 978-0-393-02625-2.\n[…]\nGibbs, Joseph (1999). Gorbachev's glasnost: the Soviet media in the first phase of perestroika. Eastern European studies. College Station, Tex: Texas A&M University Press. ISBN 978-0-89096-892-5."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Sans-culottes",
+      "descricao": "Revolucionários populares de Paris, artesãos e trabalhadores, que tiveram grande peso na fase radical da Revolução Francesa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Revolução Francesa, os revolucionários populares de Paris eram chamados de sans-culottes. Que peça de roupa da elite o nome diz que eles não usavam?",
+    "resposta": "Calções até o joelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sans-culottes",
+      "https://pt.wikipedia.org/wiki/Sans-culottes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sans-culottes",
+        "situacao": "ok",
+        "texto": "The sans-culottes (French: [sɑ̃kylɔt]; lit. 'without breeches') were the common people of the lower classes in late 18th-century France, a great many of whom became radical and militant partisans of the French Revolution in response to their poor quality of life under the Ancien Régime.\n[…]\nThe height of their influence spanned roughly from the original overthrow of the monarchy in 1792 to the Thermidorian Reaction in 1794.Throughout the revolution, the sans-culottes provided much of the popular support for radical factions in Paris, particularly the Enragés and the Hébertists. Revolutionaries such as Jacques Roux and Jacques Hébert acted as influential spokesmen for their political and economic demands.\n[…]\nThe execution of radical leader Jacques Hébert spelled the decline of the sans-culottes, and with the successive rise of even more conservative governments, the Thermidorian Convention and the French Directory, they were definitively silenced as a political force. After the defeat of the 1795 popular revolt in Paris, the sans-culottes ceased to play any effective political role in France until the July Revolution of 1830.\n[…]\nAndrews, Richard Mowery. \"Social Structures, Political Elites and Ideology in Revolutionary Paris, 1792–94: A Critical Evaluation of Albert Soboul's' Les sans-culottes parisiens en l'an II',\" Journal of Social History (1985) 19#1 pp. 71–112. in JSTOR\n[…]\nThe Making of the Sans-culottes: Democratic Ideas and Institutions in Paris ...by R.B. Rose (1983)\n[…]\nSonenscher, Michael. Sans-Culottes: An Eighteenth-Century Emblem in the French Revolution (Princeton University Press, 2008). Pp. 493.\n[…]\nWilliams, Gwyn A (1969), Artisans and Sans-culottes: Popular Movements in France and Britain during the French Revolution. Foundations of Modern History. New York: Norton."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sans-culottes",
+        "situacao": "ok",
+        "texto": "Sans-culotte foi a denominação dada pelos aristocratas aos artesãos, trabalhadores e até pequenos proprietários participantes da Revolução Francesa, principalmente em Paris. Livremente traduzido da língua francesa como \"sem calção\", o culote era uma espécie de calções justos que se apertavam na altura dos joelhos, vestimenta típica da nobreza naquele país à época da Revolução.\n[…]\nPode se dizer que os sans-culottes eram uma camada popular urbana que atuou principalmente em Paris durante a Revolução Francesa. Eles pertenciam a um movimento heterogêneo em sua formação, mas eram, no geral, compostos por populações subalternas, que incluía os artesãos, trabalhadores especializados, lojistas, dentre outros, que foram fortemente ativos durante o processo revolucionário. Além do mais, pode-se também afirmar que alguns desses se situavam entre a burguesia e os novos proletários.\n[…]\nCom a eliminação da manutenção das Assembleias Gerais e dos comitês seccionais, os sans-culottes, insatisfeitos e a fim de garantir uma autonomia em suas organizações, transformaram as sociedades populares em sociedades seccionais. Dessa forma, a partir de 1791 esse corpo social parisiense fez um papel importante no decorrer da Revolução Francesa.\n[…]\nOs sans-culottes atuaram ativamente durante a Revolução Francesa, sendo parte indispensável da força bruta dos manifestantes. Em momentos de crises, os sans-culottes mobilizaram milhares de pessoas armadas, entoando canções e arrastando multidões pelas ruas de Paris.\n[…]\nHIGONNET, Patrice. Sans-Culottes. In: Dicionário Crítico da Revolução Francesa / François Furet e Mona Ozouf. Tradução de Henrique Mesquita. Rio de Janeiro: Nova Fronteira, 1989. ISBN 978-8520901496.\n[…]\nSOBOUL, Albert. The Sans-culottes: The Popular Movement and Revolutionary Government, 1793-1794. Princeton University Press, 1980. ISBN 0-691-05320-0."
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Ludismo",
+      "descricao": "Movimento de operários têxteis ingleses que destruíam máquinas no início do século dezenove, em protesto contra a mecanização."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No início do século dezenove, operários ingleses que quebravam máquinas ficaram conhecidos como luditas. O nome foi inspirado em quem?",
+    "resposta": "Ned Ludd",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ned_Ludd",
+      "https://pt.wikipedia.org/wiki/Ludismo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ned_Ludd",
+        "situacao": "ok",
+        "texto": "Ned Ludd (sometimes referred to as Ned Lud, among other names) is the legendary, fictitious person to whom the Luddites in England attributed the name of their movement.\n[…]\nIn 1779, Ludd is supposed to have broken two stocking frames in a fit of rage. When the Luddites emerged in the 1810s, his identity was quickly appropriated to become the folkloric character of Captain Ludd, also known as King Ludd or General Ludd, the Luddites' alleged leader and founder.\n[…]\nAccording to the legend, Ludd was a weaver from Anstey, near Leicester, England. In 1779, after either being whipped for idleness or taunted by local youths, he smashed two knitting frames in what was described as a \"fit of passion\". This story can be traced to an article in The Nottingham Review on 20 December 1811, but there is no independent evidence of its veracity.\n[…]\nJohn Blackner's book History of Nottingham, also published in 1811, provides a variant tale, of a boy called \"Ludlam\" who was told by his father, a framework-knitter, to \"square his needles\". Ludlam took a hammer and \"beat them into a heap\". News of the incident spread, and whenever frames were sabotaged, people would jokingly say \"Ned Ludd did it\".\n[…]\nBy 1812, organised frame-breakers became known as Luddites, using the name King Ludd or Captain Ludd for their fictitious leader. Letters and proclamations from the Luddites were signed by \"Ned Ludd\". The surname \"Ludd\" was sometimes shortened in these writings to just \"Lud\".\n[…]\nLuddites"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ludismo",
+        "situacao": "ok",
+        "texto": "Ludismo, também grafado luddismo, foi um movimento de trabalhadores da indústria têxtil inglesa que, no início do século XIX, atacaram máquinas e instalações de fabricantes em protesto contra a redução dos salários e a perda de trabalho. Suas reivindicações também envolviam o trabalho infantil, as condições de produção e a qualidade dos tecidos.\n[…]\nO movimento começou em Nottinghamshire, em 1811, e se espalhou pelo Yorkshire e pelo Lancashire. Os ataques se dirigiam a fabricantes que empregavam o maquinário para reduzir pagamentos ou contornar os costumes que regulavam o aprendizado e a contratação. Nas cartas de ameaça e de reivindicação, os trabalhadores assinavam como seguidores de Ned Ludd, um personagem lendário que teria destruído teares.\n[…]\nAs palavras \"ludismo\" e \"luddismo\" derivam do nome de Ned Ludd. Em português, \"ludismo\" também pode significar o caráter lúdico de uma atividade, com outra origem etimológica.\n[…]\nO nome de Ludd já era empregado nos escritos do movimento em 1811. A lenda conta que, em 1779, um aprendiz chamado Ned Ludd destruiu dois teares de meias depois de ser repreendido e receber uma ordem para mudar sua maneira de trabalhar. Nas cartas ludistas, ele se tornava \"capitão\", \"general\" ou \"rei Ludd\". Algumas versões situavam sua casa em Anstey, perto de Leicester, enquanto outras a colocavam na floresta de Sherwood, onde os remetentes das cartas diziam ter seu quartel-general.\n[…]\nEm Yorkshire, a resistência se dirigia às máquinas de aparar e levantar a superfície dos tecidos de lã durante o acabamento.\n[…]\nA canção tradicional de Yorkshire \"The Cropper Lads\" aborda os ludistas e foi gravada por Lou Killen e Maddy Prior. \"The Triumph of General Ludd\", outra canção tradicional sobre o movimento, foi incluída pelo Chumbawamba no álbum English Rebel Songs, de 1988.\n[…]\nLuddite no Wikcionário em inglês."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Escândalo Watergate",
+      "descricao": "Escândalo político americano iniciado com a invasão da sede do Partido Democrata em 1972, que levou à renúncia de Richard Nixon em 1974."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O escândalo Watergate, que levou o presidente Richard Nixon a renunciar em 1974, tirou seu nome de quê?",
+    "resposta": "Complexo de edifícios em Washington",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Watergate_complex",
+      "https://en.wikipedia.org/wiki/Watergate_scandal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Watergate_complex",
+        "situacao": "ok",
+        "texto": "The Watergate complex is a group of six buildings in the Foggy Bottom neighborhood of Washington, D.C., United States. It includes a development of cooperative apartment residences, a hotel, and an office building.\n[…]\nWatergate complex buildings include:\n[…]\nVolpe, John Warner and Elizabeth Taylor (during their marriage), Caspar Weinberger, Charles Z. Wick, and Rose Mary Woods. The Watergate's popularity among members of Congress and high-ranking executive branch political appointees has remained strong ever since the complex opened. So many members of the Nixon administration settled there that the Washington, D.C., press commented on it and nicknamed it the \"Republican Bastille\".\n[…]\nProblems with the building's construction became apparent shortly after its occupancy. The roof was leaking by 1968. In October 1968, The Washington Post published reports that SGI refused to fix the leaks unless residents dropped their opposition to the construction of the complex's fifth building. By 1970, problems at Watergate East led the press to dub the building the \"Potomac Titanic\", and its residents filed suit against the developer in 1971 to correct the structure's problems.\n[…]\nThe break-in at the Democratic National Headquarters was not the first break-in at the Watergate. The first break-in at the complex was the burglary of a residential unit in 1969 owned by Rose Mary Woods, President Nixon's personal secretary. The burglars took jewelry and some personal items. Woods was later accused of erasing 18+1⁄2 minutes from President Nixon's secret Oval Office audio taping system—specifically, the tape from June 20, 1972, that proved central to the Watergate scandal.\n[…]\nList of tallest buildings in Washington, D.C."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Watergate_scandal",
+        "situacao": "ok",
+        "texto": "The Watergate scandal, also simply called Watergate, was a political scandal in the United States involving the administration of President Richard Nixon. On June 17, 1972, operatives associated with Nixon's 1972 re-election campaign were caught burglarizing and planting listening devices in the Democratic National Committee headquarters at Washington, D.C.'s Watergate complex.\n[…]\nFollowing the May 1972 death of FBI director Hoover, Colson asked the CRP to send counterprotestors to a protest at Hoover's state funeral in the Capitol rotunda. Hunt and Liddy again recruited Bay of Pigs collaborators: Barker flew to D.C. with nine men from Miami. After the counterprotest, according to Lukas, Barker's team may have committed two unsolved burglaries in Washington, those of the Chilean Embassy and of a major Democratic law firm within the Watergate Complex on May 16.\n[…]\nOn May 9, impeachment hearings began. Over ten weeks, Doar and colleagues presented representatives with a complete account of Watergate from the break-in through to the cover-up, highlighting likely constitutional crimes. On May 10, Jaworski released a 39-page brief naming Nixon an unindicted co-conspirator; Sirica concluded that \"the president was doomed\". To avoid protracted appeals, Jaworski requested the Supreme Court directly review the subpoena's legality, to which it agreed on May 31.\n[…]\nThese range from genuine political scandals like Koreagate to the sports scandal Deflategate and the discredited Pizzagate conspiracy theory. The paranoia of the \"Watergate era\" is often associated with a subgenre of 1970s conspiracy thrillers, such as cinematic releases such as Francis Ford Coppola's The Conversation (1974) or Three Days of the Condor (1975), and Washington: Behind Closed Doors (1977), which depicts the lead up to Watergate, on  television."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Complexo_Watergate",
+        "situacao": "ok",
+        "texto": "O Complexo Watergate é um complexo de escritórios e apartamentos localizado em Washington, D.C., Estados Unidos. Tornou-se famoso após o assalto que levou ao histórico escândalo político conhecido como Caso Watergate, culminando com a renúncia do então presidente Richard Nixon em agosto de 1974.\n[…]\nTodo o complexo foi designado como um edifício no Registro Nacional de Lugares Históricos em 12 de outubro de 2005.\n[…]\nWatergate situa-se na parte Noroeste de Washington, D.C., no bairro de Foggy Bottom. Está limitado ao norte pela Virginia Avenue, à leste pela New Hampshire Avenue, ao sul pela F Street, e à oeste pela Rock Creek and Potomac Parkway. Adjacente ao complexo está o Kennedy Center e a embaixada da Arábia Saudita. A estação do metrô de Washington mais próxima é a Foggy Bottom–GWU.\n[…]\nO complexo foi construído pela companhia italiana Società Generale Immobiliare, com a aquisição de 10 acres que constiuíam um pedaço de terra do extinto Canal de Chesapeake e Ohio, no início da década de 1960, por 10 milhões de dólares. Watergate foi inaugurado em 1967.\n[…]\nWashington, DC SP Watergate (em inglês) no National Archives Catalog\n[…]\nWatergate (em inglês) no NPGallery Asset Detail",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Clube dos Jacobinos",
+      "descricao": "Clube político da Revolução Francesa que reuniu os revolucionários mais radicais, liderados por Robespierre."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Revolução Francesa, o clube político dos jacobinos tirou seu nome de quê?",
+    "resposta": "Do convento onde se reunia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jacobin_Club"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jacobin_Club",
+        "situacao": "ok",
+        "texto": "The Society of the Friends of the Constitution (French: Société des amis de la Constitution), renamed the Society of the Jacobins, Friends of Freedom and Equality (Société des Jacobins, amis de la liberté et de l'égalité) after 1792 and commonly known as the Jacobin Club (Club des Jacobins) or simply the Jacobins (; French: [ʒakɔbɛ̃]), was the most influential political club during the French Revo\n[…]\nIn the years and decades after the revolution, the term Jacobin was used in an extended sense to denote political positions perceived as similar to those of the historical Jacobins and the Mountain in the National Convention.\n[…]\nWhen the Estates General of 1789 in France convened in May–June 1789 at the Palace of Versailles, the Jacobin club, originating as the Club Breton, comprised exclusively a group of Breton representatives attending those Estates General. Deputies from other regions throughout France soon joined.\n[…]\nOn 21 September 1792, after the fall of the monarchy the title assumed by the Jacobin Club after the promulgation of the constitution of 1791 (Société des amis de la constitution séants aux Jacobins à Paris) was changed to Société des Jacobins, amis de la liberté et de l'égalité (Society of the Jacobins, Friends of Freedom and Equality). In the newly elected National Convention, governing France as of 21 September 1792, Maximilien Robespierre made his comeback in the center of French power.\n[…]\nRobespierre and 21 associates including the Jacobin Saint-Just and the Montagnard Couthon were sentenced to death by the National Convention and guillotined.\n[…]\nThe meeting place of the Fraternal Society of Patriots of Both Sexes was an old library room of the convent which hosted the Jacobins, and it was suggested that the Fraternal Society grew out of the regular occupants of a special gallery allotted to women at the Jacobin Club.\n[…]\nJacobin Club of Mysore\n[…]\nJacobins Convent, Nantes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Clube_Jacobino",
+        "situacao": "ok",
+        "texto": "O Clube Jacobino (em francês:  Club des Jacobins) foi um grupo político da Revolução Francesa, sendo seu Fundador Maximilien de Robespierre.\n[…]\nApós a Jornada de 5 e 6 de Outubro de 1789 e da transferência da Assembléia Constituinte para Paris, seguindo o Rei Luís XVI de França, este clube se reconstitui sob o nome de \"Sociedade dos Amigos da Constituição\" (em francês:  Société des amis de la Constitution) e instala-se no Convento dos Jacobinos, nome que se tornará célebre.\n[…]\nEste último readquire vantagem dentro do Clube dos Jacobinos em julho, com os primeiros fracassos que vam radicalizar a Revolução. Em um importante discurso, em 29 de Julho, Robespierre orquestra as palavras de ordem espontâneas dos federados (20.000 guardas nacionais das províncias, chamados à Paris para assistir à festa da Federação) e das secções parisienses: queda do rei e eleição de uma Convenção Nacional, eleita por sufrágio universal.\n[…]\nÉ o Clube dos Jacobinos que designa a delegação parisiense (24 deputados) para as eleições da Convenção. Robespierre é eleito em primeiro lugar, Danton em segundo (com mais vozes que Robespierre, 638 entre os 700 presentes).\n[…]\nO termo \"jacobino\" designava, antes da Revolução, a Ordem dos Dominicanos, que estabeleceu seu primeiro convento em Paris numa casa de caridade para peregrinos necessitados em 6 de agosto de 1218. Em 1789, os Dominicanos possuíam em Paris três casas: a da Rua Saint-Jacques, a da Rua Saint-Honoré, que se torna sede do Clube dos Jacobinos, e a do Faubourg Saint-Germain cuja capela tornou-se a Igreja de São Tomás de Aquino.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "AK-47",
+      "descricao": "Fuzil de assalto soviético projetado por Mikhail Kalashnikov, adotado pelo exército soviético em 1949."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "No nome do fuzil soviético AK-47, criado por Mikhail Kalashnikov, o que indica o número quarenta e sete?",
+    "resposta": "O ano de 1947",
+    "distratores": [
+      "O calibre da bala",
+      "Balas no pente",
+      "Número do protótipo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/AK-47",
+      "https://pt.wikipedia.org/wiki/AK-47"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/AK-47",
+        "situacao": "ok",
+        "texto": "The AK-47,  full name Avtomat Kalashnikova 1947, officially known as the Avtomat Kalashnikova (Russian: Автомат Калашникова, lit. 'Kalashnikov's automatic'; also known as the Kalashnikov or just AK), is an assault rifle chambered for the 7.62×39mm cartridge. Developed in the Soviet Union by Russian small-arms designer Mikhail Kalashnikov, it is the originating firearm of the Kalashnikov (or \"AK\") \n[…]\nDesign work on the AK-47 began in 1945. It was presented for official military trials in 1947, and, in 1948, the fixed-stock version was introduced into active service for selected units of the Soviet Army. In early 1949, the AK was officially accepted by the Soviet Armed Forces and used by the majority of the member states of the Warsaw Pact.\n[…]\nIt was called an Avtomat Kalashnikova, the automatic weapon of Kalashnikov—AK—and it carried the year of its first manufacture, 1947.\"\n[…]\nThe AK-47 can also mount a (rarely used) cup-type grenade launcher, the Kalashnikov grenade launcher that fires standard RGD-5 Soviet hand grenades. The maximum effective range is approximately 150 meters. This launcher can also be used to launch tear gas and riot control grenades.\n[…]\nThe AK-47 has also spawned a cottage industry of sorts and has been copied and manufactured (one gun at a time) in small shops around the world (see Khyber Pass Copy). The estimated numbers of AK-type weapons vary greatly. The Small Arms Survey suggests that \"between 70 and 100 million of these weapons have been produced since 1947\". The World Bank estimates that out of the 500 million total firearms available worldwide, 100 million are of the Kalashnikov family, and 75 million are AK-47s.\n[…]\n\"Путёвка в жизнь\". Kalashnikov (in Russian). No. 9. 2009. pp. 16–22. Archived from the original on 29 September 2007. Report/letter on the final round of testing, 27 December 1947, declaring Kalashnikov's design the winner."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/AK-47",
+        "situacao": "ok",
+        "texto": "O AK-47, ou AK como é oficialmente conhecida (russo:  Автома́т Кала́шникова, tr. Avtomát Kaláshnikova), também conhecida como Kalashnikov, é um fuzil de assalto de calibre 7,62x39mm criado em 1947 por Mikhail Kalashnikov e produzido na União Soviética pela indústria estatal IZH.\n[…]\nO fuzil de assalto AK-47 (Avtomat Kalashnikova - 47, fuzil automático Kalashnikov, modelo de 1947) surgiu na União Soviética logo após o fim da Segunda Guerra Mundial inspirado no fuzil de assalto alemão Sturmgewehr 44, sendo o fuzil mais fabricado de todos os tempos. Estima-se que o número de exemplares produzidos tanto na Rússia como sob licença em países como a Bulgária, China, Hungria, Índia, Coreia do Norte, Romênia entre outros, chegue a impressionante cifra de 90 milhões.\n[…]\nApós extensos testes, realizados em dezembro de 1947 e Janeiro de 1948, que incluíram melhoramentos nos três modelos, os resultados foram pouco conclusivos. O AK-47 foi concebido para ser o mais durável e confiável dos três concorrentes, porém perdia em precisão para os outros, especialmente no modo automático (que era, e ainda é considerado o principal modo de fogo na doutrina russa/soviética).\n[…]\nO AK-47 também gerou uma indústria artesanal e foi copiado e fabricado (uma arma de cada vez) em pequenas lojas em todo o mundo. O número estimado de armas do tipo AK varia muito. A Small Arms Survey sugere que \"entre 70 e 100 milhões dessas armas foram produzidas desde 1947\". O Banco Mundial estima que do total de 500 milhões de armas de fogo disponíveis no mundo, 100 milhões são da família Kalashnikov, e 75 milhões são AK-47.\n[…]\nFuzil de assalto\n[…]\nMikhail Kalashnikov\n[…]\n«AK-47 Museum virtual tour» (em inglês)\n[…]\n«AK-47 . O fuzil universal - Blog Arma e Munição»\n[…]\n«Militarypower: Fuzil de assalto AK- 47 - Rússia»"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "AK-47",
+      "descricao": "Fuzil de assalto soviético projetado por Mikhail Kalashnikov, adotado pelo exército soviético em 1949."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Símbolo das guerras de libertação, o fuzil AK-47 aparece na bandeira de qual país africano de língua portuguesa?",
+    "resposta": "Moçambique",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_Mozambique",
+      "https://pt.wikipedia.org/wiki/Bandeira_de_Mo%C3%A7ambique"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Mozambique",
+        "situacao": "ok",
+        "texto": "The national flag of Mozambique is a horizontal tricolour of green, black, and golden-yellow with white fimbriations and a red isosceles triangle at the hoist. The triangle is charged with a five-pointed gold star in its centre, above which there is a bayonet-equipped AK-47 crossed by a hoe, superimposed on an open book. The colours and symbols of the flag represent different aspects of the Mozamb\n[…]\nThe current design, adopted on 1 May 1983, is defined in the Constitution of Mozambique, and regulations regarding the flag's use are outlined in decree no. 47/2006, titled State Protocol Standards. The design is based on the first flag of FRELIMO (Mozambique Liberation Front), which has governed the country since its independence from Portugal on 25 June 1975. Since the democratisation of Mozambique in 1990, there have been calls to change the flag, particularly to remove the rifle.\n[…]\nIn 2005, the Mozambican government held a competition to design a new national flag and emblem, as part of a peace agreement between FRELIMO and RENAMO (Mozambican National Resistance). RENAMO had fought FRELIMO in a civil war that lasted sixteen years, before it became Mozambique's main opposition party. RENAMO called for the removal of the AK-47 and star from the flag. José Gabriel Manteigas, a RENAMO member of parliament, gave the following critique:\n[…]\nThen Mozambican president Joaquim Chissano, previously the leader of FRELIMO, responded to Manteigas's criticisms by saying: \"If Mozambique's single star were to symbolise communism, the Stars and Stripes would place the United States among the world's most leftist nations.\" In further defence of the flag, FRELIMO supporters argued that the AK-47 is a symbol of the Mozambican people's determination to protect their country, and the star is a symbol of African solidarity."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_de_Mo%C3%A7ambique",
+        "situacao": "ok",
+        "texto": "A Bandeira de Moçambique é a bandeira nacional da República de Moçambique que foi adoptada em 1º de Maio de 1983. É uma bandeira tricolor com fimbriações brancas e um triângulo vermelho. O verde-azulado representa as riquezas da terra, as bordas brancas significam a paz, o preto representa o continente africano, o amarelo simboliza os minerais do país e o vermelho representa a luta pela independên\n[…]\nInclui a imagem de um fuzil Kalashnikov (AK-47) com uma baioneta fixada ao cano e cruzado a uma enxada, sobrepostos a um livro aberto. O fuzil representa a defesa e vigilância, o livro aberto simboliza a importância da educação, a enxada representa a agricultura do país e a estrela simboliza o espírito de solidariedade internacional do povo moçambicano.\n[…]\nA bandeira é baseada na bandeira da Frente de Libertação de Moçambique (FRELIMO), o principal partido político em Moçambique. A bandeira da FRELIMO, usada por um breve período após o país ter conquistado a independência de Portugal, parece-se com a bandeira atual mas sem o emblema, com faixas horizontais verdes, pretas e amarelas separadas por fimbriações brancas e um triângulo vermelho na tralha.\n[…]\nO significado das cores, segundo a constituição da República de Moçambique, é o seguinte:\n[…]\nEm 2005, foi realizado um concurso para desenhar uma nova bandeira para Moçambique. Isso ocorreu no contexto de um esforço para criar um novo brasão e hino para o país. A RENAMO, oposição parlamentar de Moçambique, queria especificamente ver dois símbolos removidos da bandeira: a estrela, que eles viam como representativa do passado comunista do país; e o fuzil de assalto Kalashnikov, que eles argumentaram ser incompatível com um país tentando ser pacífico após a Guerra Civil Moçambicana.\n[…]\nBandeira da Comunidade dos Países de Língua Portuguesa\n[…]\nBandeira de Portugal\n[…]\nBandeira da Guiné-Bissau\n[…]\n«Bandeira do Moçambique» (em inglês)  no site Flags of the World."
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Mikhail Gorbachev",
+      "descricao": "Último líder da União Soviética, secretário-geral do Partido Comunista de 1985 a 1991."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1997, já fora do poder, o último líder soviético, Mikhail Gorbachev, estrelou um comercial de TV de qual rede americana de pizzarias?",
+    "resposta": "Pizza Hut",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mikhail_Gorbachev"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+        "situacao": "ok",
+        "texto": "Mikhail Sergeyevich Gorbachev (2 March 1931 – 30 August 2022) was a Soviet and Russian politician who was the last leader of the Soviet Union from 1985 until the country's dissolution in 1991. He served as General Secretary of the Communist Party from 1985, and additionally as head of state from 1988. Ideologically, he initially adhered to Marxism–Leninism, but moved towards social democracy by th\n[…]\nMikhail Sergeyevich Gorbachev was born on 2 March 1931 in Privolnoye, a village then part of North Caucasus Krai, Russian SFSR, Soviet Union, and now part of Krasnogvardeysky District, Stavropol Krai. Privolnoye was divided between Russians and Ukrainians at the time. His paternal family were Russians and had moved from Voronezh several generations before, while his maternal family were Ukrainians and had migrated from Chernigov.\n[…]\nGorbachev developed good relationships with senior figures including the Soviet prime minister, Alexei Kosygin, and the longstanding senior party member Mikhail Suslov.\n[…]\nOn 11 March 1985, Mikhail Gorbachev was elected the eighth general secretary of the Communist Party of the Soviet Union by the Politburo of the CPSU after the death of Konstantin Chernenko.\n[…]\nThe historian Mark Galeotti stressed the connection between Gorbachev and his predecessor, Andropov. In Galeotti's view, Andropov was \"the godfather of the Gorbachev revolution\", because—as a former head of the KGB—he was able to put forward the case for reform without having his loyalty to the Soviet cause questioned. According to McCauley, Gorbachev \"set reforms in motion without understanding where they could lead.\n[…]\nGorbachev also appears in a Pizza Hut commercial in 1997.\n[…]\nMikhail S. Gorbachev collected news and commentary at The New York Times\n[…]\nMikhail Gorbachev at IMDb\n[…]\nMikhail Gorbachev at Find a Grave\n[…]\nMikhail Gorbachev on Nobelprize.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mikhail_Gorbatchov",
+        "situacao": "ok",
+        "texto": "Mikhail Sergueievich Gorbatchov ou Gorbachev (em russo:  Михаи́л Серге́евич Горбачёв; Privolnoye, 2 de março de 1931 – Moscou, 30 de agosto de 2022) foi um político soviético e russo que serviu como o último líder da União Soviética de 1985 até a dissolução do país em 1991.\n[…]\nEm abril de 1970, Yefremov foi promovido a um cargo mais alto em Moscou e Gorbatchov o sucedeu como Primeiro Secretário do Estauropol kraikom. Isto concedeu a Gorbatchov um poder significativo sobre a região de Estauropol. Ele foi avaliado para o cargo por altos líderes do Kremlin e foi informado de sua decisão pelo líder soviético, Leonid Brejnev. Com 39 anos, ele era consideravelmente mais jovem que seus antecessores.\n[…]\nChernenko estava frequentemente doente demais para presidir às reuniões do Politburo, com Gorbatchov a intervir no último minuto. Gorbatchov continuou a cultivar aliados tanto no Kremlin como fora dele,  e fez o discurso principal numa conferência sobre a ideologia soviética, onde irritou os linha-dura do partido ao insinuar que o país necessitava de reformas.\n[…]\nPresidente da União Soviética\n[…]\nLista de líderes da União Soviética\n[…]\nBhattacharya, Jay; Gathmann, Christina; Miller, Grant (2013). «The Gorbachev Anti-Alcohol Campaign and Russia's Mortality Crisis». American Economic Journal: Applied Economics. 5 (2): 232–260. ISSN 1945-7790. JSTOR 43189436. PMC 3818525. PMID 24224067. doi:10.1257/app.5.2.232\n[…]\nBunce, Valerie (1992). «On Gorbachev». The Soviet and Post-Soviet Review. 19 (1): 199–206. doi:10.1163/187633292X00108\n[…]\nGaleotti, Mark (1997). Gorbachev and his Revolution. London: Palgrave. ISBN 978-0-33363855-2\n[…]\nGooding, John (1990). «Gorbachev and Democracy». Soviet Studies. 42 (2): 195–231. JSTOR 152078. doi:10.1080/09668139008411864\n[…]\n«www.mikhailGorbatchov.org». (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Che Guevara",
+      "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Além de serem argentinos, o que o revolucionário Che Guevara e o craque Lionel Messi têm em comum?",
+    "resposta": "Nasceram em Rosário",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Che_Guevara",
+      "https://pt.wikipedia.org/wiki/Lionel_Messi"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Che_Guevara",
+        "situacao": "ok",
+        "texto": "Ernesto Guevara de la Serna, mais conhecido como Che Guevara (Rosário, 14 de maio de 1928 – La Higuera, 9 de outubro de 1967), foi um revolucionário marxista, médico, escritor, guerrilheiro, diplomata e teórico militar argentino. Uma figura importante da Revolução Cubana, seu rosto estilizado tornou-se um símbolo contracultural de rebeldia e insígnia global na cultura popular.\n[…]\nErnesto Guevara nasceu em 14 de maio de 1928 em Rosário, Argentina, filho de Ernesto Guevara Lynch e Celia de la Serna e Llosa. Em sua certidão consta a data 14 de junho, mas, segundo o livro do biógrafo Jon Lee Anderson, Che Guevara: A Revolutionary Life, sua mãe confiou a um amigo astrólogo que Che nasceu em 14 de maio de 1928. O engano foi feito para evitar o escândalo de já estar grávida de três meses antes do casamento.\n[…]\nEm Jacarta, Guevara visitou o presidente indonésio Sukarno para discutir a recente Revolução Nacional da Indonésia e estabelecer relações comerciais entre os dois países. Os dois homens estabeleceram ligações rapidamente, quando Sukarno foi atraído pela energia do revolucionário argentino e pela sua abordagem informal descontraída; além disso, compartilhavam aspirações esquerdistas revolucionárias contra o imperialismo ocidental.\n[…]\nEm sua terra natal, a Argentina, escolas levam seu nome, numerosos museus sobre Che pontuam o país e em 2008 uma estátua de bronze de 3,7 metros de altura foi erguida na cidade de seu nascimento, Rosário. Guevara foi santificado por alguns campesinos bolivianos como \"Santo Ernesto\", que rezam a ele por ajuda. Em contraste, continua sendo uma figura odiada entre muitos no exílio cubano e na comunidade cubano-americana dos Estados Unidos, que o veem com animosidade como \"o açougueiro de La Cabaña\".\n[…]\nIlustre cidadão post-mortem de Rosario, 2002.\n[…]\nCentro de Estudios Che Guevara (em castelhano)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lionel_Messi",
+        "situacao": "ok",
+        "texto": "Lionel Andrés Messi Cuccittini (Rosário, 24 de junho de 1987) é um futebolista argentino que atua como atacante no Inter Miami. Como capitão da Seleção Argentina, venceu a Copa do Mundo de 2022. Possui oito prêmios Bola de Ouro da France Football, oito títulos de Melhor Jogador do Mundo pela FIFA, dois Prêmios Laureus de Melhor Esportista, seis Chuteiras de Ouro da Europa e, com 49 conquistas cole\n[…]\nLionel Andrés Messi Cuccittini nasceu em 24 de junho de 1987, em Rosário, na província de Santa Fé. Ele é o terceiro dos quatro filhos de Jorge Messi e Celia Cuccittini. Por parte paterna, Messi possui ascendência italiana e espanhola, sendo bisneto de imigrantes da região central-norte do Adriático, Marche, na Itália. Seu sobrenome paterno, Messi, é originário de Porto Recanati.\n[…]\nA Argentina integrou o grupo C, ao lado de Arábia Saudita, México e Polônia. A estreia, em 22 de novembro, no Estádio Nacional de Lusail, resultou em uma surpreendente derrota por 2–1 para a Seleção Saudita, apesar de Lionel Messi ter aberto o placar de pênalti.\n[…]\nLionel Messi e Antonela Roccuzzo se conheceram ainda na infância, quando tinham cerca de nove anos de idade, em razão da proximidade entre suas famílias. O contato inicial ocorreu por meio de um primo de Antonela, que atuava nas categorias de base do Newell’s Old Boys ao lado de Leo, clube tradicional da cidade de Rosário. À época, os pais de Antonela eram proprietários de um mercado local, estabelecimento frequentado pela família de Messi.\n[…]\nEm 30 de junho de 2017, Lionel Messi e Antonela Roccuzzo oficializaram sua união em uma cerimônia realizada em Rosário, no complexo Pullman Rosario City Center, reunindo cerca de 260 convidados, entre familiares e amigos. Quatro meses depois, no dia 15 de outubro, sua esposa Antonela anunciou que estava grávida do terceiro filho com o craque argentino. O garoto, Ciro, nasceu no dia 10 de março de 2018."
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Revolução de Fevereiro",
+      "descricao": "Revolução russa de 1917 que derrubou o tsar Nicolau II, começada em Petrogrado com protestos e greves."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A revolução que derrubou o tsar da Rússia, em 1917, começou com um protesto de operárias numa data hoje comemorada no mundo todo. Qual?",
+    "resposta": "Dia Internacional da Mulher",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/February_Revolution",
+      "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_Fevereiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/February_Revolution",
+        "situacao": "ok",
+        "texto": "The February Revolution (Russian: Февральская революция), known in Soviet historiography as the February Bourgeois Democratic Revolution, and sometimes as the March Revolution, was the first of two revolutions which took place in Russia in 1917.\n[…]\nThe 1917 Revolution was provoked by Russian military failures during the First World War. In August 1914, all classes supported and virtually all political deputies voted in favour of the war. The declaration of war was followed by a revival of nationalism across Russian society, which temporarily reduced internal strife.\n[…]\nBy 1917, the majority of Petersburgers had lost faith in the Tsarist regime. Government corruption was unrestrained, and Tsar Nicholas II had frequently disregarded the Imperial Duma. Thousands of workers flooded the streets of Petrograd (modern St. Petersburg) to show their dissatisfaction. The first major protest of the February Revolution occurred on 18 February O.S.\n[…]\nOn 23 February O.S. (8 March N.S.), the Putilov Factory protesters were joined in the uprising by those celebrating International Women's Day and protesting against the government's  food rationing. As the Russian government began rationing flour and bread, rumors of food shortages circulated and bread riots erupted across the city of Petrograd.\n[…]\nWomen in the Russian Revolution\n[…]\nMelancon, Michael S.: Social Conflict and Control, Protest and Repression (Russian Empire), in: 1914-1918-online. International Encyclopedia of the First World War.\n[…]\nRead, Christopher: Revolutions (Russian Empire), in: 1914-1918-online. International Encyclopedia of the First World War.\n[…]\nSanborn, Joshua A.: Russian Empire, in: 1914-1918-online. International Encyclopedia of the First World War.\n[…]\nRussian Revolutions 1905–1917"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_Fevereiro",
+        "situacao": "ok",
+        "texto": "A Revolução de Fevereiro de 1917 inaugurou a primeira fase da Revolução Russa e durou uma semana. Seu resultado imediato foi a abdicação do czar Nicolau II. Ela ocorreu como resultado da insatisfação popular com a autocracia czarista e com a participação do país na Primeira Guerra Mundial. Ela levou a transferência de poder do czar para um regime republicano e democrático, surgido da aliança entre\n[…]\nNa primeira metade de fevereiro de 1917, a escassez de alimentos levou a distúrbios na capital, Petrogrado. Em 18 de fevereiro (C.J.) a principal fábrica de Petrogrado, a Usina Putilov, anunciou uma greve; os grevistas foram despedidos e algumas lojas fecharam, o que causou inquietação em outras empresas. Em 23 de fevereiro (C.J.) (8 de março, C.G.), uma série de reuniões e passeatas aconteceram por ocasião do Dia Internacional das Mulheres com uma grande participação de tecelãs.\n[…]\nUm oficial cossaco gritou a alguns grevistas liderados por uma velha, \"Quem vocês seguem? Vocês são liderados por uma velha bruxa.\" A mulher respondeu \"Não por uma velha bruxa, mas pela irmã e mãe de soldados no front\". Alguém gritou, \"Cossacos, vocês são nossos irmãos, vocês não podem atirar em nós.\" Os cossacos, símbolos do terror czarista, foram embora.\n[…]\nA Revolução Branca foi a primeira fase da revolução que ocorreu de março a novembro de 1917.\n[…]\nAssim, Lênin regressa à Rússia (abril de 1917), pregando a formação de uma república dos sovietes, bem como a nacionalização dos bancos e da propriedade privada. O seu principal lema era: \"Todo o poder aos sovietes\". Durante esse período, as ordens do governo eram discutidas nos sovietes e nem sempre cumpridas. Trotsky chegaria em maio, vindo de Nova Iorque, onde vivia após escapar de um exílio perpétuo na Sibéria.\n[…]\nDiretório (Revolução Russa)\n[…]\nRevolução de Outubro\n[…]\nRevolução Russa de 1917"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Bloqueio de Berlim",
+      "descricao": "Bloqueio soviético das vias terrestres para Berlim Ocidental, de junho de 1948 a maio de 1949, uma das primeiras crises da Guerra Fria."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1948, quando a União Soviética fechou as estradas e ferrovias para Berlim Ocidental, como os aliados abasteceram a cidade por quase um ano?",
+    "resposta": "Por avião, numa ponte aérea",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Berlin_Blockade",
+      "https://pt.wikipedia.org/wiki/Bloqueio_de_Berlim"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Berlin_Blockade",
+        "situacao": "ok",
+        "texto": "The Berlin Blockade (24 June 1948 – 12 May 1949) was one of the first major international crises of the Cold War. During the multinational occupation of post–World War II Germany, the Soviet Union blocked the Western Allies' railway, road, and canal access to the sectors of Berlin under Western control. The Soviets offered to drop the blockade if the Western Allies withdrew the newly introduced De\n[…]\nAs of June 1948, the Soviets launched a campaign against Yugoslavia and Josip Broz Tito saying they are \"agents of the Anglo-Americans\". The Soviets said that they would lift the blockade when West Germany agreed to put aside their plans to introduce the Western D-Mark in Berlin. Stalin believed that the West would capitulate when they realised how difficult it would be to supply Berlin with adequate resources to make it through the winter.\n[…]\nSoviet communist propaganda was prevalent, throughout the time of the blockade, on the radio, in the press, pamphlets and in posters. However, the municipal elections in December 1948, showed that almost 85 percent of West Berliners voted against communist parties. In the summer and autumn of 1948, Soviet propaganda began to rally against \"cosmopolitans\", categorising them as an American \"fifth column\"; the press highlighted stories uncovering cosmopolitans within Soviet culture.\n[…]\nPublic opinion shifted during the blockade and there was a sharp decline in interest in communism. For example, an opinion poll in August 1948 showed that 80 percent of those polled listened most to RIAS (a US sponsored radio station in Berlin), whereas only 15 percent listened more to Radio Berlin (a Soviet-run station). The Blockade shifted public postwar apathy, and it gave people a sense of political purpose.\n[…]\nBerlin Crisis of 1961\n[…]\n\"Berlin Airlift\". Retrieved 22 October 2007. – A 1948 film about the airlift, told from the British point of view.\n[…]\nThe Berlin Airlift"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bloqueio_de_Berlim",
+        "situacao": "ok",
+        "texto": "O Bloqueio de Berlim (24 de junho de 1948 – 12 de maio de 1949) tornou-se uma das maiores crises da Guerra Fria, desencadeada quando a União Soviética interrompeu o acesso ferroviário, rodoviário e hidroviário à cidade de Berlim Ocidental. Seu objetivo era forçar as potências ocidentais a sair, dando assim o controle soviético sobre toda a cidade.\n[…]\nEm resposta, os aliados ocidentais organizaram a ponte aérea de Berlim para transportar suprimentos para as pessoas em Berlim Ocidental. A Força Aérea dos Estados Unidos e os britânicos da Força Aérea Real fizeram mais de 200 000 voos em um ano, com até 4700 toneladas diárias de suprimentos, como combustível e comida para os berlinenses.\n[…]\nA URSS encerrou o bloqueio à 00h01 de 12 de maio de 1949. Contudo, a ponte aérea continuou a funcionar até 30 de setembro, pois os quatro países ocidentais preferiram criar um estoque de suprimentos em Berlim Ocidental para o caso de novo bloqueio soviético.\n[…]\nBerlim tinha sofrido um dano enorme e sua população pré-guerra, de 4,6 milhões de pessoas, fora reduzida para 2,8 milhões, mas a cidade podia produzir apenas 2% das suas necessidades alimentares. Os aliados ocidentais não foram autorizados a entrar na cidade, até dois meses após a rendição da Alemanha, durante o qual a população local sofreu tratamento brutal nas mãos do exército soviético.\n[…]\nA crise arrefeceu quando ficou claro que a URSS não impediria a ponte aérea, organizada e operada pelos Estados Unidos, Reino Unido e França, para levar alimentos e outros gêneros à população da cidade. Na primavera de 1949, esse esforço se mostrava claramente um sucesso, e, em abril, o transporte aéreo estava entregando um volume carga superior ao que era anteriormente transportado de trem para a cidade. O sucesso da ponte aérea de Berlim parece ter surpreendido os soviéticos.\n[…]\nAcordo para dividir Berlin"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Revolução Belga",
+      "descricao": "Revolta de 1830 que separou as províncias do sul do Reino Unido dos Países Baixos e criou a Bélgica."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1830, a revolta que levou à independência da Bélgica estourou em Bruxelas logo depois de que tipo de espetáculo?",
+    "resposta": "Uma ópera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Belgian_Revolution",
+      "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Belga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Belgian_Revolution",
+        "situacao": "ok",
+        "texto": "The Belgian Revolution (French: Révolution belge, Dutch: Belgische Revolutie/opstand/omwenteling) was a conflict which led to the secession of the southern provinces (mainly the former Southern Netherlands) from the United Kingdom of the Netherlands and the establishment of an independent Kingdom of Belgium.\n[…]\nOn 25 August 1830, riots erupted in Brussels and shops were looted. Theatregoers who had just watched the nationalistic opera La muette de Portici joined the mob. Uprisings followed elsewhere in the country. Factories were occupied and machinery destroyed. Order was restored briefly after William committed troops to the Southern Provinces but rioting continued and leadership was taken up by radicals, who started talking of secession.\n[…]\nCatholic partisans watched with excitement the unfolding of the July Revolution in France, details of which were swiftly reported in the newspapers. On 25 August 1830, at the Théâtre Royal de la Monnaie in Brussels, an uprising followed a special performance, in honor of William I's birthday, of Daniel Auber's La Muette de Portici (The Mute Girl of Portici), a sentimental and patriotic opera set against Masaniello's uprising against the Spanish masters of Naples in the 17th century.\n[…]\nOn 20 December 1830 the London Conference of 1830 brought together five major European powers: Austria, the United Kingdom, France, Prussia and Russia. At first, the European powers were divided over the Belgian cry for independence.\n[…]\nIn 2005, the Belgian revolution of 1830 was depicted in one of the highest value Belgian coins ever minted, the 100 euro \"175 Years of Belgium\" coin. The obverse depicts a detail from Wappers' painting Scene of the September Days in 1830.\n[…]\nLuxembourg and the Belgian Revolution"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Belga",
+        "situacao": "ok",
+        "texto": "A Revolução Belga foi o conflito que levou à secessão das províncias do sul do Reino Unido dos Países Baixos e estabeleceu o independente Reino da Bélgica.\n[…]\nA revolução belga de 1830 fez os habitantes das províncias do sul do Reino dos Países Baixos rebelarem-se contra a hegemonia das províncias do norte, principalmente protestantes. Grande parte da população do sul eram católicos romanos, de língua francesa, ou liberais, que consideravam o governo do rei Guilherme I como despótico. Houve altos níveis de desemprego e inquietação industrial entre as classes trabalhadoras.\n[…]\nEm novembro de 1830, o Congresso Nacional da Bélgica foi estabelecido para criar e escrever a constituição do novo estado. O Congresso decidiu que a Bélgica seria uma monarquia constitucional popular. Em 7 de Fevereiro de 1831, a Constituição da Bélgica foi aprovada. Entretanto, ainda não havia um verdadeiro rei sentado no trono belga.\n[…]\nEm 20 de Dezembro de 1830 ocorre a Conferência de Londres de 1830, onde representantes diplomáticos de cinco países se reuniram: A Áustria, a França, o Reino Unido, a Prússia, e a Rússia. Inicialmente, houve discordâncias sobre uma Bélgica independente. A França, tomada por liberais em um período conhecido como a Monarquia de Julho, apoiava a independência da Bélgica, enquanto as outras nações apoiavam o status quo na Europa — as Guerras Napoleônicas ainda estavam na memória dos europeus.\n[…]\nRevoluções de 1830\n[…]\nRobert Demoulin: La Révolution de 1830. Bruselas 1950.\n[…]\nJ. S. Fishman: Diplomacy and revolution, the London conference of 1830 and the Belgian revolt. Amsterdam 1988. ISBN 90-5068-003-8\n[…]\n1830: A Bélgica torna-se independente"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Independência de Angola",
+      "descricao": "Fim do domínio colonial português em Angola, proclamado em 11 de novembro de 1975 após uma longa guerra de libertação."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que acontecimento em Portugal, em abril de 1974, abriu caminho para a independência de Angola no ano seguinte?",
+    "resposta": "Revolução dos Cravos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angolan_War_of_Independence",
+      "https://pt.wikipedia.org/wiki/Guerra_de_Independ%C3%AAncia_de_Angola"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Angolan_War_of_Independence",
+        "situacao": "ok",
+        "texto": "The Angolan War of Independence (Portuguese: Guerra de Independência de Angola; 1961–1974), known as the Armed Struggle of National Liberation (Portuguese: Luta Armada de Libertação Nacional) in Angola, was a war of independence fought by the Angolan nationalist forces of the MPLA, UNITA and FNLA against Portugal. It began as an uprising by Angolans against the Portuguese imposition of forced cult\n[…]\nIn 1960, Holden Roberto signed an agreement with the MPLA for the two movements to fight together against the Portuguese forces, but he ended up fighting alone. In 1962, UPA merged with the Democratic Party of Angola, becoming the National Liberation Front of Angola (FNLA), positioning itself as a pro-American and anti-Soviet organization. In the same year, it created the Revolutionary Government of Angola in Exile (GRAE).\n[…]\nThe combined forces of the MPLA, the UNITA, and the FNLA succeeded in their rebellion not because of their success in battle, but because of the Movimento das Forças Armadas' coup in Portugal. The MFA was an organisation of lower-ranked officers in the Portuguese Armed Forces which was responsible for the Carnation Revolution of 25 April 1974, which ended the Portuguese Colonial War and led to the independence of the Portuguese overseas territories.\n[…]\nThe MFA overthrew the Lisbon government in protest against the authoritarian political regime and the ongoing African colonial wars, specially the particularly demanding conflict in Portuguese Guinea. The revolutionary Portuguese government removed the remaining elements of its colonial forces and agreed to a quick handover of power to the nationalist African movements.\n[…]\nThe devastating civil war lasted several decades and claimed a million lives and refugees in independent Angola.\n[…]\nPortuguese Angola\n[…]\n(in Portuguese) Guerra Colonial: 1961–1974 – State-supported historical site of the Portuguese Colonial War (Portugal)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerra_de_Independ%C3%AAncia_de_Angola",
+        "situacao": "ok",
+        "texto": "A Guerra de Independência de Angola, também conhecida como Luta Armada de Libertação Nacional, foi um conflito armado entre as forças independentistas de Angola — UPA/MPLA e FNLA, a partir de 1966, a UNITA — e as Forças Armadas de Portugal.\n[…]\nAliada a esta contestação social, e a uma pressão internacional sobre a condução da Guerra Colonial Portuguesa, vai crescendo a influência comunista sobre os militares portugueses. O fim da guerra em Angola culminará com um golpe de Estado militar em Portugal, a Revolução dos Cravos, a 25 de Abril de 1974.\n[…]\nNo seguimento desta contestação, é criado o Movimento dos Capitães que, em Setembro, apresenta um pedido individual de demissão de oficial do Exército. Nos meses seguintes, o movimento reuniu-se em vários locais de Portugal, Guiné, Moçambique e Angola, para prosseguir com a mobilização dos oficiais e a pensar numa revolução.\n[…]\nA crescente instabilidade em Portugal culminaria em 25 de Abril de 1974, com a Revolução dos Cravos, um golpe de estado realizado pela esquerda militar em Lisboa, que depôs o governo de Marcelo Caetano.\n[…]\nA opinião generalizada dos retornados sobre a guerra é de que o conflito fez-se para acabar com o colonialismo e não contra os brancos, embora haja também um ponto de vista que defende que o objectivo era expulsar os colonos e apropriar-se dos seus bens. Quando se deu o \"25 de Abril\" em Portugal, muitos dos portugueses que foram trabalhar para Angola, e também aqueles que eram naturais de lá, viram a revolução como uma possível hipótese de autonomia.\n[…]\nCronologia da Guerra de Independência de Angola\n[…]\nIndependência de Angola\n[…]\nMarcum, John (1969). The Angolan Revolution. I. Cambridge/Mass. & Londres: MIT Press. ISBN 0-262-13136-6\n[…]\nGuerra Colonial 1961-1974"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Grande Salto Adiante",
+      "descricao": "Campanha econômica lançada por Mao Tsé-tung em 1958 para industrializar rapidamente a China e coletivizar a agricultura."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O Grande Salto Adiante, plano de Mao Tsé-tung para industrializar a China a partir de 1958, provocou qual tragédia?",
+    "resposta": "Uma enorme fome",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+      "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Leap_Forward",
+        "situacao": "ok",
+        "texto": "The Great Leap Forward was an industrialization campaign within China from 1958 to 1962, initiated by Mao Zedong, chairman of the Chinese Communist Party, whose goal was to transform the country from an agrarian society to an industrialized society through the formation of people's communes. The Great Leap Forward led to between 15 and 55 million deaths in mainland China during the 1959–1961 Great\n[…]\nThe initial projects of the Great Leap Forward were accelerating the construction of waterworks on the North China Plain during the 1957-1958 winter and next the development of people's communes and crude forms of rural industrialization. Some Great Leap Projects had lots of long-term value to China's economy and continued to benefit China after The Great Leap Forward ended. Some of the projects included bridges, railroads, canals and reservoirs.\n[…]\nThe Great Leap Forward sought to revive folk technologies, including in the area of steel production. China's steel industry faced a shortage of imported iron and calls to increase production of \"native iron\" had begun in 1956. Efforts to improve steel production were a major focus of the Great Leap Forward. By mid-1958, the Chinese state began promoting indigenous metallurgical methods and the proliferation of \"folk furnaces\".\n[…]\nThe Great Leap Forward period marked the initiation of China's rapid growth in tractor and fertilizer production.\n[…]\nOn 9 March 1958, the Ministry of Culture held a meeting to introduce a Great Leap Forward in cinema. During the Great Leap Forward, the film industry rapidly expanded, with documentary films being the genre that experienced the greatest growth. The total number of film-screening venues, including both urban cinemas and mobile projection units which traveled through rural China, radically increased."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+        "situacao": "ok",
+        "texto": "The Great Chinese Famine (Chinese: 三年大饥荒; lit. 'three years of great famine') was a famine that occurred between 1959 and 1961 in the People's Republic of China (PRC). Some scholars have also included the years 1958 or 1962.\n[…]\nThe major contributing factors in the famine were the policies of the Great Leap Forward (1958 to 1962) and people's communes, launched by Chairman of the Chinese Communist Party Mao Zedong, including inefficient food distribution within the nation's planned economy; the state's extremely high grain confiscation rates for foreign exports; the use of poor agricultural techniques and poor irrigation projects; the Eliminate Sparrows Campaign which significantly disrupted the Chinese ecosystem; over-reporting of food production and political suppression from the CCP; and the rapid transition of millions of farmers to industrial labor, iron production, and steel production.\n[…]\nThe Chinese Communist Party introduced drastic changes in farming policy during the Great Leap Forward.\n[…]\nIn January 1961, the 9th Plenary Session of the 8th Central Committee initiated a policy of readjustment summarized as \"adjustment, consolidation, filling out, and improvement\", marking a shift away from some of the Great Leap Forward's most extreme measures. China also increased grain purchases and imports beginning in 1961.\n[…]\nResearchers outside China have argued that the massive institutional and policy changes which accompanied the Great Leap Forward were the key factors in the famine, or at least worsened nature-induced disasters.\n[…]\nHistory of the People's Republic of China\n[…]\nList of famines in China"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Salto_Adiante",
+        "situacao": "ok",
+        "texto": "O Grande Salto Adiante ou Grande Salto para Frente foi uma campanha de industrialização realizada na China entre 1958 e 1962, liderada pelo Partido Comunista da China (PCC). O presidente do PCC, Mao Tsé-Tung, lançou a campanha para transformar o país de uma sociedade agrária em uma sociedade industrializada por meio da formação de comunas populares.\n[…]\nO Grande Salto Adiante provocou entre 15 e 55 milhões de mortes na China continental durante a fome de 1958–1961 na China, que ele próprio causou, tornando-a a maior ou a segunda maior fome em massa da história da humanidade.\n[…]\nCaso se aceite uma estimativa de trinta milhões de mortes, o fracasso do Grande Salto Adiante provocou a fome mais mortífera da história da China e também da história da humanidade. Essa perda extremamente elevada de vidas humanas deveu-se, em parte, à grande população da China. Para colocar os números em perspectiva absoluta e relativa: durante a Grande Fome Irlandesa, morreram aproximadamente um milhão de pessoas de uma população total de oito milhões, ou 12,5% de toda a população da Irlanda.\n[…]\nSe aproximadamente 23 milhões de pessoas morreram durante a fome de 1958–1961 na China, em uma população total de 650 milhões, a proporção seria de 3,5%. Portanto, a fome durante o Grande Salto Adiante apresentou o maior número absoluto de mortos, mas não a maior proporção relativa.\n[…]\nO Grande Salto Adiante reverteu a tendência de queda da mortalidade observada desde 1950, embora, mesmo durante o Salto, a mortalidade possa não ter atingido os níveis anteriores a 1949. As mortes causadas pela fome e a redução do número de nascimentos provocaram uma diminuição da população chinesa em 1960 e 1961. Foi apenas a terceira vez em seiscentos anos que a população da China diminuiu.\n[…]\nNo livro Tombstone, foi documentado um ciclo de fome e violência durante o Grande Salto Adiante.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "A Marselhesa",
+      "descricao": "Hino nacional da França, composto por Rouget de Lisle em 1792."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, o hino francês A Marselhesa foi composto em 1792 em qual cidade, perto da fronteira com a Alemanha?",
+    "resposta": "Estrasburgo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Marseillaise",
+      "https://pt.wikipedia.org/wiki/La_Marseillaise"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Marseillaise",
+        "situacao": "ok",
+        "texto": "\"La Marseillaise\" is the national anthem of France. It was written in 1792 by Claude Joseph Rouget de Lisle in Strasbourg after the First French Republic declared war against Austria, and was originally titled \"Chant de Guerre pour l'Armée du Rhin\" (\"War Song for the Army of the Rhine\").\n[…]\nDuring the 19th and early 20th centuries, La Marseillaise was recognised as the anthem of the international revolutionary movement; as such, it was adopted by the Paris Commune in 1871, albeit with new lyrics under the title \"La Marseillaise de la Commune\". It was reinstated as France's national anthem in 1879 and has remained so since.\n[…]\nDmitri Shostakovich quotes \"La Marseillaise\" at some length during the fifth reel of the film score he composed for the 1929 silent movie The New Babylon (set during the Paris Commune), where it is juxtaposed contrapuntally with the \"Infernal Galop\" from Offenbach's Orpheus in the Underworld.\n[…]\nIn Russia, \"La Marseillaise\" was used as a republican revolutionary anthem by those who knew French starting in the 18th century, almost simultaneously with its adoption in France. In 1875 Peter Lavrov, a narodnik revolutionary and theorist, wrote a Russian-language text (not a translation of the French one) to the same melody. This \"Worker's Marseillaise\" became one of the most popular revolutionary songs in Russia and was used in the Revolution of 1905.\n[…]\nThe British philosopher and reformer Jeremy Bentham, who was declared an honorary citizen of France in 1791 in recognition of his sympathies for the ideals of the French Revolution, was not enamoured of \"La Marseillaise\". Contrasting its qualities with the \"beauty\" and \"simplicity\" of \"God Save the King\", he wrote in 1796:\n[…]\nLa Marseillaise\n[…]\nLa Marseillaise, Iain Patterson's comprehensive website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/La_Marseillaise",
+        "situacao": "ok",
+        "texto": "La Marseillaise (A Marselhesa, em português) é o hino nacional da França. Foi composto pelo oficial Claude Joseph Rouget de Lisle em 1792, da divisão de Estrasburgo, como canção revolucionária. A canção adquiriu grande popularidade durante a Revolução Francesa, especialmente entre as unidades do exército de Marselha, ficando conhecida como A Marselhesa.\n[…]\nSeu título era originalmente Canto de Guerra para o Exército do Reno. O hino foi composto por Rouget de Lisle, oficial do exército francês e músico autodidata, a pedido do prefeito de Estrasburgo, Philippe-Frédéric de Dietrich, dias depois da declaração de guerra ao imperador da Áustria, em 25 de abril de 1792. O canto deveria ser um estímulo para encorajar os soldados no combate de fronteira, na região do rio Reno.\n[…]\nEm 20 de setembro de 1792, o exército revolucionário, comandado pelo general Dumouriez, venceu a Batalha de Valmy, travada contra a nobreza francesa e seus aliados austríacos e prussianos, que tentavam derrubar o regime instaurado em 1789. Na ocasião, Servan de Gerbey, ministro da Guerra da França, escreveu a Dumouriez: \"O hino conhecido pelo nome de La Marseillaise é o Te Deum da República\".\n[…]\nEm 1795, foi instituída pela Convenção como hino nacional.\n[…]\nNapoleão Bonaparte baniu A Marselhesa durante o império, assim como Luís XVIII na segunda restauração, devido ao seu caráter revolucionário. A revolução de 1830 restabeleceu-lhe o status de hino nacional, sendo inclusive reorquestrada por Hector Berlioz na década de 1830. Entretanto, Napoleão III tornaria a banir a canção até que, em 1879, com a instauração da III República, a canção foi definitivamente confirmada como o hino nacional francês, ato esse reafirmado nas constituições de 1946 e 1958."
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Revolta de Haymarket",
+      "descricao": "Protesto operário de maio de 1886 em Chicago, pela jornada de oito horas, que terminou com uma explosão e mortes e deu origem ao Primeiro de Maio."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O primeiro de maio, Dia do Trabalhador, lembra greves e uma revolta de operários em 1886 em qual cidade americana?",
+    "resposta": "Chicago",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haymarket_affair",
+      "https://pt.wikipedia.org/wiki/Revolta_de_Haymarket"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Haymarket_affair",
+        "situacao": "ok",
+        "texto": "The Haymarket affair was a bombing that took place at a labor demonstration on May 4, 1886, at Haymarket Square in Chicago. The rally began peacefully in support of workers striking for an eight-hour work day; it was held the day after a May 3 rally at a McCormick Harvesting Machine Company plant on the West Side of Chicago, during which police killed two strikers by opening fire at the crowd as i\n[…]\nand the foreign born Germans, Bohemians, and Scandinavians, all got together for the first time on the political field in the summer following the Haymarket Affair. ... The Knights of Labor doubled its membership, reaching 40,000 in the fall of 1886. On Labor Day the number of Chicago workers in parade led the country.\n[…]\nIn his book about the Haymarket Affair, historian James Green wrote, \"No other event in American history has exerted such a hold on the imaginations of people in other lands, especially on the minds of working people in Europe and the Latin world, where the 'martyrs of Chicago' were annually recalled in the iconography of May Day.\"\n[…]\nIn 1889, a commemorative nine-foot (2.7 meter) bronze statue of a Chicago policeman by sculptor Johannes Gelert was erected in the middle of Haymarket Square with private funds raised by the Union League Club of Chicago. The statue was unveiled on May 30, 1889, by Frank Degan, the son of Officer Mathias Degan. On May 4, 1927, the 41st anniversary of the Haymarket Affair, a streetcar jumped its tracks and crashed into the monument.\n[…]\nMcLean, George N. (1890). The Rise and Fall of Anarchy in America. Chicago: R.G. Badoux & Co.\n[…]\nHaymarket Affair Digital Collection, an extensive collection created by the Chicago Historical Society\n[…]\nThe Dramas of Haymarket, Chicago Historical Society\n[…]\nHaymarket Martyrs' Monument, Graveyards of Chicago\n[…]\nChicago Anarchists on Trial: Evidence from the Haymarket Affair 1886–1887, American Memory, Library of Congress"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Revolta_de_Haymarket",
+        "situacao": "ok",
+        "texto": "A Revolta de Haymarket foi um conflito que eclodiu após a explosão de uma bomba em uma manifestação em prol da jornada de oito horas de trabalho, em 4 de maio de 1886, na Haymarket Square, em Chicago, nos Estados Unidos. Durante a manifestação, inicialmente pacífica, uma bomba estourou junto ao local onde policiais estavam posicionados, matando um e ferindo outros sete.\n[…]\nEm homenagem às lutas dos trabalhadores de Chicago pela jornada de oito horas e em memória aos acontecimentos de Haymarket, a Segunda Internacional proclamou o 1º de maio como o Dia Internacional dos Trabalhadores. O local do incidente foi designado como um ponto histórico da cidade de Chicago em 1992. Em 1997, o Monumento aos Mártires de Haymarket, que está no local de enterro dos réus próximo ao Forest Park, foi declarado um Marco Histórico Nacional.\n[…]\nApós a Guerra de Secessão, mais especificamente após a Depressão de 1873, houve uma rápida expansão da produção industrial nos Estados Unidos. Chicago era um importante centro industrial e centenas de emigrantes germânicos foram empregados ganhando $ 1,50 dólares por dia. Os trabalhadores americanos tinham uma jornada de pouco mais de 60 horas semanais, trabalhando 6 dias por semana.\n[…]\nO movimento anarquista em Chicago, composto por milhares de trabalhadores (na sua maioria imigrantes), centrava-se sobre o jornal de língua alemã \"Arbeiter-Zeitung\" (\"Jornal dos Trabalhadores\"), editado por August Spies. Outros anarquistas construíam uma militância revolucionária armada.\n[…]\nEm Chicago, o centro do movimento, a estimativa é de 30 a 40 mil grevistas, e havia talvez o dobro de pessoas nas ruas participando dos atos e protestos, em forma de apoio, como por exemplo uma passeata de 10 mil  empregados dos estaleiros de Chicago.\n[…]\nThe Dramas of Haymarket, Chicago Historical Society\n[…]\nThe Haymarket Massacre Archive, Anarchy Archives"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Acidente nuclear de Chernobil",
+      "descricao": "Explosão de um reator da usina nuclear de Chernobil, em abril de 1986, o pior desastre nuclear da era soviética."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O acidente nuclear de Chernobil, em 1986, aconteceu em qual república da União Soviética, hoje um país independente?",
+    "resposta": "Ucrânia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chernobyl_disaster",
+      "https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Chernobil"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chernobyl_disaster",
+        "situacao": "ok",
+        "texto": "On 26 April 1986, reactor 4 of the Chernobyl Nuclear Power Plant, located near Pripyat in the Ukrainian SSR of the Soviet Union, exploded. The accident resulted in dozens of direct deaths and a major release of radioactive material into the environment, causing widespread health effects and requiring the establishment of the Chernobyl exclusion zone. The response involved more than 500,000 personn\n[…]\nThat day, the Swedish government contacted the Soviet government to inquire about whether there had been a nuclear accident in the Soviet Union. The Soviet authorities initially denied it. It was only after the Swedish government suggested they were about to file an official alert with the International Atomic Energy Agency that the Soviet government admitted that an accident had taken place at Chernobyl.\n[…]\nFrom May 5, 1986, workers from NIKIET and the V. G. Khlopin Radium Institute collaborated under the name Field Integrated Scientific and Technical Brigade No. 9 (PKNTB-9) to work at the Chernobyl Nuclear Power Plant, led by G. S. Sinitsyna and S. S. Kovalenko. Their job was to conduct dosimetric surveys of Unit 3, Unit 4, the vent block, and the deaerator block, as well as assessing the damage and finding nuclear fuel.\n[…]\nIn direct response to the Chernobyl disaster, a conference to create a Convention on Early Notification of a Nuclear Accident was called in 1986 by the International Atomic Energy Agency. The resulting treaty has bound members to provide notification of any nuclear and radiation accidents that occur that could affect other states, along with the Convention on Assistance in the Case of a Nuclear Accident or Radiological Emergency.\n[…]\nList of Chernobyl-related articles – 1986 nuclear accident in the Soviet UnionPages displaying short descriptions of redirect targets\n[…]\nPost-Soviet Pollution: Effects of Chernobyl from the Dean Peter Krogh Foreign Affairs Digital Archives"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acidente_nuclear_de_Chernobil",
+        "situacao": "ok",
+        "texto": "Desastre de Chernobil (em ucraniano:  Чорнобильська катастрофа, Tchornobylska katastrofa – Catástrofe de Chernobil; também conhecido como acidente de Chernobil) foi um acidente nuclear catastrófico ocorrido em 26 de abril de 1986 no reator nuclear n.º 4 da Usina Nuclear de Chernobil, perto da cidade de Pripiate, no norte da Ucrânia Soviética, próximo da fronteira com a Bielorrússia Soviética.\n[…]\nChernobil era a primeira usina nuclear em solo ucraniano e a terceira com reatores RBMK, sendo que as outras duas eram a Usina Nuclear de Leningrado e a Central Nuclear de Kursk.\n[…]\nOs custos contínuos são bem conhecidos; em seu relatório de 2003-2005, o Fórum de Chernobil afirmou que entre 5% e 7% dos gastos do governo na Ucrânia ainda estão relacionados a Chernobil, enquanto na Bielorrússia estima-se que mais de 13 bilhões foram gastos entre 1991 e 2003, com 22% o orçamento nacional direcionado aos efeitos do desastre em 1991, caindo para 6% em 2002. Em 2018, a Ucrânia gastou 5-7% do seu orçamento nacional em atividades de recuperação relacionadas ao acidente nuclear.\n[…]\nTanto a Ucrânia quanto a Bielorrússia, em seus primeiros meses de independência, reduziram os limiares legais de radiação dos limiares anteriores elevados pela União Soviética (de 35 rems por vida ao longo da URSS para 7 rems por vida na Ucrânia e 0,1 rems por ano na Bielorrússia).\n[…]\nEm 2011, a Ucrânia abriu a zona selada em torno do reator de Chernobil para turistas que desejam aprender mais sobre a tragédia que ocorreu em 1986. Sergii Mirnyi, um oficial de reconhecimento de radiação no momento do acidente, e agora um acadêmico na Universidade Nacional da Academia Kyiv-Mohyla em Kiev, na Ucrânia, escreveu sobre os efeitos psicológicos e físicos em sobreviventes e visitantes e trabalhou como consultor para grupos de turismo de Chernobil.\n[…]\nJornal do Brasil de 29 de Abril de 1986: Acidente na URSS leva radiação à Suécia"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Declaração dos Direitos do Homem e do Cidadão",
+      "descricao": "Documento aprovado pela Assembleia Nacional francesa em agosto de 1789, que proclamou direitos individuais e coletivos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que nobre francês, herói da independência americana, apresentou o primeiro rascunho da Declaração dos Direitos do Homem e do Cidadão, em 1789?",
+    "resposta": "Marquês de La Fayette",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Declaration_of_the_Rights_of_Man_and_of_the_Citizen",
+        "situacao": "ok",
+        "texto": "The Declaration of the Rights of Man and of the Citizen (French: Déclaration des droits de l'Homme et du citoyen de 1789), set by France's National Constituent Assembly in 1789, is a human and civil rights document from the French Revolution; the French title can be translated in the modern era as \"Declaration of Human and Civil Rights\".\n[…]\nAssisted by Jefferson, then American diplomat to France, Lafayette prepared a draft which echoed some of the provisions of the U.S. declaration. However, there was no consensus on the role of the Crown, and until this question was settled it was impossible to create political institutions. When presented to the legislative committee on 11 July 1789, it was rejected by pragmatists such as Jean Joseph Mounier, President of the Assembly, who feared creating expectations that could not be satisfied.\n[…]\nAfter editing by Mirabeau, it was published on 26 August as a statement of principle. The final draft contained provisions then considered radical in any European society, let alone France in 1789. French historian Georges Lefebvre argues that combined with the elimination of privilege and feudalism, it \"highlighted equality in a way the (American Declaration of Independence) did not\". More importantly, the two differed in intent; Jefferson saw the U.S.\n[…]\nGérard Conac, Marc Debene, Gérard Teboul, eds, La Déclaration des droits de l'homme et du citoyen de 1789; histoire, analyse et commentaires (in French), Economica, Paris, 1993, ISBN 978-2-7178-2483-4.\n[…]\nMcLean, Iain. \"Thomas Jefferson, John Adams, and the Déclaration des Droits de l'Homme et du Citoyen\" in The Future of Liberal Democracy: Thomas Jefferson and the Contemporary World (Palgrave Macmillan, 2004)\n[…]\n\"Déclaration des Droits de l'Homme et du Citoyen de 1789\". Conseil constitutionnel (in French). Retrieved 14 May 2012."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Declara%C3%A7%C3%A3o_dos_Direitos_do_Homem_e_do_Cidad%C3%A3o",
+        "situacao": "ok",
+        "texto": "Declaração dos Direitos do Homem e do Cidadão (em francês:  Déclaration des Droits de l'Homme et du Citoyen) é um documento culminante do Iluminismo, que define os direitos individuais e coletivos dos homens (tomada, teoricamente, a palavra na acepção de \"seres humanos\") como universais. Influenciada pela doutrina dos \"direitos naturais\", os direitos dos homens são tidos como universais: válidos e\n[…]\nInspirada nos pensamentos dos iluministas, bem como na Revolução Americana (1776), a Assembleia Nacional Constituinte da França revolucionária aprovou em 26 de agosto de 1789 e votou definitivamente a 2 de outubro a Declaração dos Direitos do Homem e do Cidadão, sintetizado em dezessete artigos e um preâmbulo dos ideais libertários e liberais da primeira fase da Revolução Francesa (1789-1799). Pela primeira foi proclamada a liberdade e os direitos fundamentais do homem de forma econômica.\n[…]\nOs representantes do povo francês, reunidos na Assembleia Nacional, considerando que a ignorância, o esquecimento ou o desprezo dos direitos do homem são as únicas causas das desgraças públicas e da corrupção dos governos, decidiram expor, numa declaração solene, os direitos naturais, inalienáveis e sagrados do homem, para que esta declaração, constantemente presente a todos os membros do corpo social, lhes recorde incessantemente os seus direitos e os seus deveres; para que os atos do poder legislativo e os do poder executivo, podendo ser a todo o momento comparados com a finalidade de toda a instituição política, sejam mais respeitados; para que as reclamações dos cidadãos, baseadas doravante em princípios simples e incontestáveis, contribuam sempre para a manutenção da Constituição e para a felicidade de todos.\n[…]\nDireitos humanos\n[…]\nDireitos civis\n[…]\n«A Declaração dos Direitos do Homem e do Cidadão no site oficial do Conselho Constitucional da França». (em francês) obs: os textos são menores",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Eu Acuso",
+      "descricao": "Carta aberta publicada em janeiro de 1898 no jornal L'Aurore em defesa do capitão Alfred Dreyfus, condenado injustamente."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1898, que escritor francês publicou num jornal o texto Eu Acuso, em defesa do capitão judeu Alfred Dreyfus?",
+    "resposta": "Émile Zola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dreyfus_affair",
+      "https://pt.wikipedia.org/wiki/Caso_Dreyfus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dreyfus_affair",
+        "situacao": "ok",
+        "texto": "The Dreyfus affair (French: affaire Dreyfus, pronounced [afɛːʁ dʁɛfys]) was a political scandal that divided the Third French Republic from 1894 until its resolution in 1906. The scandal began in December 1894 when Captain Alfred Dreyfus, a 35-year-old Alsatian French artillery officer of Jewish descent, was wrongfully convicted of treason for communicating French military secrets to the German Em\n[…]\nOn 13 January 1898, Émile Zola touched off a new dimension in the Dreyfus affair, which became known simply as The Affair. The first great Dreyfusard intellectual, Zola was at the height of his glory: the twenty volumes of the Les Rougon-Macquart epic were being distributed in dozens of countries. He was a leader in the literary world and was fully conscious of it. To General Pellieux, he said at his trial, \"I ask General Pellieux if there are not many ways to serve France?\n[…]\nOn 12 July 2006, President Jacques Chirac held an official state ceremony marking the centenary of Dreyfus's official rehabilitation. This was held in the presence of the living descendants of both Émile Zola and Alfred Dreyfus. The event took place in the same cobblestone courtyard of Paris's École Militaire where Capitaine Dreyfus had been officially stripped of his officer's rank.\n[…]\nThe Dreyfus affair provided the basis for many novels. The last work of Émile Zola (1902), Truth, transposes the Dreyfus affair to the world of education. Anatole France published The Island of Penguins (1907), which recounts the affair in Book VI: \"The Case of 80,000 bundles of hay\". Franz Kafka's short story \"In the Penal Colony\" drew inspiration from Devil's Island and the debate about justice and punishment the Dreyfus affair provoked in French society.\n[…]\n2006 (in French) Émile Zola, Fight for Dreyfus. Preface by Martine Le Blond-Zola. Postscript by Jean-Louis Lévy. Presentation and notes d'Alain Pagès. Dilecta Edition."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caso_Dreyfus",
+        "situacao": "ok",
+        "texto": "O caso Dreyfus foi um escândalo político que dividiu a Terceira República Francesa de 1894 até sua resolução em 1906. \"L'Affaire\", como é conhecido em francês, chegou a simbolizar a injustiça moderna no mundo francófono, e continua sendo um dos exemplos mais notáveis de um complexo erro judiciário e antissemitismo. O papel da imprensa e da opinião pública influenciou o conflito.\n[…]\nO Exército apresentou acusações adicionais contra Dreyfus, com base em documentos falsos. Posteriormente, a carta aberta de Émile Zola, J'Accuse…! alimentou um movimento crescente de apoio a Dreyfus, pressionando o governo para reabrir o caso.\n[…]\nNo final de 1894, o capitão do exército francês Alfred Dreyfus, um politécnico, judeu de origem alsaciana, acusado de entregar documentos secretos aos alemães, foi condenado à prisão perpétua por traição e deportado para Ilha do Diabo.\n[…]\nQuando o círculo de Dreyfusard se ampliou, dois eventos quase simultâneos em janeiro de 1898 deram uma dimensão nacional ao caso: Esterhazy foi absolvido pelas aclamações de conservadores e nacionalistas; Émile Zola publicou \"J'accuse ...!\", a acusação de Dreyfusard que levou à mobilização de muitos intelectuais. Um processo de divisão da França foi iniciado e durou até o final do século. Tumultos antissemitas eclodiram em mais de vinte cidades francesas. Houve várias mortes em Argel.\n[…]\nA completa falta de neutralidade da acusação levou Émile Zola a descrevê-la como um \"monumento da parcialidade\".\n[…]\nA Pele do Ogro é uma obra que mistura elementos fantásticos com fatos históricos, tendo como pano de fundo a Europa do século XIX e XX. O Caso Dreyfus aparece como um dos pontos centrais da narrativa, explorado de forma dramatizada e crítica, através das interações entre personagens fictícios imortais e figuras reais como Émile Zola e Alfred Dreyfus.\n[…]\nO Caso Dreyfus de Louis Begley\n[…]\nCaso Dreyfus\n[…]\nL'Affair Dreyfus"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Cruz Vermelha",
+      "descricao": "Movimento humanitário internacional de socorro a feridos de guerra, cujo comitê foi criado em Genebra em 1863."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Depois de ver milhares de feridos abandonados na batalha de Solferino, em 1859, que suíço idealizou a Cruz Vermelha?",
+    "resposta": "Henri Dunant",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_Dunant",
+      "https://pt.wikipedia.org/wiki/Henry_Dunant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Henry_Dunant",
+        "situacao": "ok",
+        "texto": "Henry Dunant (French pronunciation: [ɑ̃ʁi dynɑ̃]; born Jean-Henri Dunant; 8 May 1828 – 30 October 1910), also known as Henri Dunant, was a Swiss humanitarian, businessman, social activist, and co-founder of the Red Cross. His humanitarian efforts won him the first Nobel Peace Prize in 1901.\n[…]\nIn September 1895, Georg Baumberger, the chief editor of the St. Gall newspaper Die Ostschweiz, wrote an article about the Red Cross founder, whom he had met and conversed with during a walk in Heiden a month earlier. The article entitled \"Henri Dunant, the founder of the Red Cross\", appeared in the German Illustrated Magazine Über Land und Meer, and the article was soon reprinted in other publications throughout Europe. The article struck a chord, and he received renewed attention and support.\n[…]\nHis birthday, 8 May, is celebrated as the World Red Cross and Red Crescent Day. The former nursing home in Heiden now houses the Henry Dunant Museum. In Geneva and other places there are numerous streets, squares, and schools named after him. The Henry Dunant Medal, awarded every two years by the standing commission of the International Red Cross and Red Crescent Movement is its highest decoration.\n[…]\nHis life is represented, with some fictional elements, in the film D'homme à hommes (1948), starring Jean-Louis Barrault, and the period of his life when the Red Cross was founded in the international film coproduction Henry Dunant: Red on the Cross (2006). In 2010 the Takarazuka Revue staged a musical based on his time in Solferino and the founding of the Red Cross entitled Dawn at Solferino, or Where has Humanity Gone?.\n[…]\nThe road where the headquarters of the Thai Red Cross Society is situated on is named as Henri Dunant Road (Thai: ถนนอังรีดูนังต์) since 8 May 1965.\n[…]\nHenry Dunant Medal\n[…]\nDunantist"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Henry_Dunant",
+        "situacao": "ok",
+        "texto": "Jean-Henri Dunant (Genebra, 8 de maio de 1828 — Heiden, Suíça, 30 de outubro de 1910) foi um filantropo suíço, co-fundador da Cruz Vermelha Internacional. Recebeu o primeiro Nobel da Paz em 1901, juntamente com Frédéric Passy.Em 1852, tornou-se secretário da Aliança Evangélica da Suíça Francófona até 1859.\n[…]\nJá sua mãe era filha de Henri Colladon, chefe do Hospital de Genebra e prefeito de Avully. Ela trabalhava no setor de caridade, especialmente com pobres e doentes. Um dos tios maternos de Henri foi o físico Jean-Daniel Colladon. As atividades de caridade dos pais foram refletidas na educação dos seus filhos: eles incentivaram a responsabilidade social desde cedo em Henry Dunant, e em suas duas irmãs e dois irmãos.\n[…]\nAo presenciar o sofrimento na frente de combate na Batalha de Solferino em 1859, Dunant organizou de imediato um serviço de primeiros socorros. Desta sua experiência resultou o livro Un souvenir de Solferino, publicado em 1862, onde sugeria a criação de grupos nacionais de ajuda para apoiar os feridos em situações de guerra, e propunha a criação de uma organização internacional que permitisse melhorar as condições de vida e prestar auxílio às vítimas da guerra.\n[…]\nEm 1863, incitado por Gustave Moynier, e apoiado pelo Guillaume-Henri Dufour (o General Dufour) e os médicos Louis Appia e Théodore Maunoir - o chamado O Comitê dos Cinco - criam o que chamava na altura 'comité international de secours aux blessés (Comité internacional de socorro aos feridos) reconhecida no ano seguinte pela Convenção de Genebra e o que viria a ser o Comitê Internacional da Cruz Vermelha.\n[…]\nDe personalidade altruísta, Dunant não teve sorte nos seus negócios, acabando por se isolar em Heiden, na Suíça. Após adoecer, esteve internado no hospital desta vila Suíça, onde veio a falecer em 1910."
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "A Liberdade Guiando o Povo",
+      "descricao": "Pintura de Eugène Delacroix, de 1830, no Museu do Louvre, com uma mulher que ergue a bandeira francesa sobre uma barricada."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O quadro A Liberdade Guiando o Povo, de Delacroix, é muitas vezes associado a 1789. Mas que revolução francesa ele retrata?",
+    "resposta": "Revolução de Julho de 1830",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Liberty_Leading_the_People"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+        "situacao": "ok",
+        "texto": "Liberty Leading the People (French: La Liberté guidant le peuple [la libɛʁte ɡidɑ̃ lə pœpl]) is a painting of the Romantic era by the French artist Eugène Delacroix,  commemorating the July Revolution of 1830 that toppled King Charles X (r. 1824–1830).\n[…]\nThe figure of Liberty is also viewed as a symbol of France and the French Republic known as Marianne. The painting is sometimes wrongly thought to depict the French Revolution of 1789.\n[…]\nDelacroix depicted Liberty as both an allegorical goddess-figure and a robust woman of the people. The mound of corpses and wreckage acts as a kind of pedestal from which Liberty strides, barefoot and bare-breasted, out of the canvas and into the space of the viewer. The Phrygian cap she wears had come to symbolize liberty during the first French Revolution of 1789.\n[…]\nIn 1974–75, the painting was the featured work in an exhibition organized by the French government, the Metropolitan Museum of Art in New York, and the Detroit Institute of Arts as a Bicentennial gift to the people of the United States. The exhibition, entitled French Painting 1774–1830: The Age of Revolution, marked a rare display of the Delacroix painting, and many of the other 148 works, outside France.\n[…]\nLiberty Leading the People made an appearance in the 11th episode (\"EDGELORD – Revolution of the 14-Year-Olds\") of the Netflix animation series Ghost in the Shell: SAC 2045.\n[…]\nFight in Front of the City Hall on 28 July 1830, a similarly composed painting of the July Revolution by Jean-Victor Schnetz\n[…]\nPodcast of BBC Radio 4's In Our Time on Delacroix's Liberty Leading the People\n[…]\nRomanticism in France Delacroix's Liberty Leading the People—From smarthistory at Khan Academy\n[…]\nArtSleuth: Liberty Leading the People—Accidental Icon?—Video analysis"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Liberdade_guiando_o_povo",
+        "situacao": "ok",
+        "texto": "A Liberdade guiando o povo (em francês: La Liberté guidant le peuple) é uma pintura de Eugène Delacroix em comemoração à Revolução de Julho de 1830, com a queda de Carlos X. Uma mulher representando a Liberdade, guia o povo por cima dos corpos dos derrotados, empunhando a bandeira tricolor da Revolução francesa em uma mão e brandindo um mosquete com baioneta na outra. A pintura é talvez a obra mai\n[…]\nDelacroix pintou A Liberdade no outono de 1830. Numa carta ao seu irmão, datada de 21 de outubro daquele ano, escreveu: \"O meu mau humor está desaparecendo graças ao trabalho árduo. Embarquei num tema moderno - a barricada. Mesmo que eu não tenha lutado pelo meu país, pelo menos pinto para ele\">. O quadro foi exibido pela primeira vez no Salão de Maio de 1831.\n[…]\nDelacroix retratou a Liberdade,  como figura alegórica de uma deusa e como uma robusta mulher do povo. O monte de cadáveres funciona como uma espécie de pedestal, do qual a Liberdade se lança, descalça e com o peito meio descoberto, da tela para o espaço do espectador. Ela usa barrete frígio que se tornara símbolo da liberdade durante a Primeira República Francesa (1789-1794). Ela segura pelo mastro uma bandeira tricolor, que ocupa o eixo médio da tela.\n[…]\nA pintura tem sido vista como um marco  do fim da Era do Iluminismo, já que muitos estudiosos identificam o fim da Revolução Francesa como o início da Era Romântica.\n[…]\nO governo da França comprou a pintura em 1831, por 3.000 francos, com a intenção de exibi-lo na sala do trono do Palais du Luxembourg, como lembrança para o \"rei-cidadão\" Louis-Philippe da Revolução de Julho. Delacroix foi autorizado a enviar o quadro para Félicité, sua tia, para o preservar. Ele foi exibido por pouco tempo no Salão de 1855. Em 1874, a pintura esta exposta no museu do Louvre.\n[…]\n«Pinturas francesas - Museu do Louvre» (em francês)\n[…]\n«Orange - La Liberté guidant le peuple» (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Guerra de Independência da Argélia",
+      "descricao": "Guerra de 1954 a 1962 entre a Frente de Libertação Nacional argelina e a França, que terminou com a independência da Argélia."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Depois de quase oito anos de guerra contra a França, a Argélia conquistou a independência em que ano?",
+    "resposta": "1962",
+    "distratores": [
+      "1954",
+      "1958",
+      "1960"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Algerian_War",
+      "https://pt.wikipedia.org/wiki/Guerra_de_Independ%C3%AAncia_Argelina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Algerian_War",
+        "situacao": "ok",
+        "texto": "The Algerian War, also known as the Algerian Revolution, the Franco-Algerian War, or the Algerian War of Independence, was an armed conflict between France and the Algerian National Liberation Front (FLN) from 1954 to 1962, which led to Algeria winning its independence from France. An important decolonization war, it was a complex conflict characterized by guerrilla warfare and war crimes. The con\n[…]\nIn the second referendum on the independence of Algeria, held in April 1962, 91 percent of the French electorate approved the Evian Accords. On 1 July 1962, some 6 million of a total Algerian electorate of 6.5 million cast their ballots. The vote was nearly unanimous, with 5,992,115 votes for independence, 16,534 against, with most Pied-Noirs and Harkis either having fled or abstaining. De Gaulle pronounced Algeria an independent country on 3 July.\n[…]\nAlgerian Communist Party member Raymonde Peschard was initially accused of being an accomplice to the bombing and was forced to flee from the colonial authorities. In September 1957, though, Drif and Saâdi were arrested and sentenced to twenty years hard labor in the Barbarossa prison. Drif was pardoned by Charles de Gaulle when Algeria gained independence in 1962.\n[…]\nAfter Algeria's independence was recognised, Ahmed Ben Bella quickly became more popular and thereby more powerful. In June 1962, he challenged the leadership of Premier Benyoucef Ben Khedda; this led to several disputes among his rivals in the FLN, which were quickly suppressed by Ben Bella's rapidly growing support, most notably within the armed forces.\n[…]\nOne of the first books about the war in English, A Scattering of Dust by the American journalist Herb Greer in 1962, depicted very favorably the Algerian struggle for independence.\n[…]\nCommando (1962 film)\n[…]\nHorne, Alistair (1978). A savage war of peace: Algeria 1954-1962. New York: Viking Press. ISBN 978-0-670-61964-1."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerra_de_Independ%C3%AAncia_Argelina",
+        "situacao": "ok",
+        "texto": "A Guerra de Independência Argelina, também conhecida como Revolução Argelina ou Guerra da Argélia (em árabe: الثورة الجزائرية‎ – Ath-Thawra Al-Jazā’iriyya; em francês:  Guerre d'Algérie), foi um movimento de libertação nacional da Argélia do domínio francês, que tomou curso entre 1954 e 1962.\n[…]\nO conflito levou, após os acordos de Évian de 18 de março de 1962, à independência total da Argélia 4 meses depois, e precipitou o êxodo de habitantes de origem europeia - milhares de europeus-argelinos fugiram para a França em poucos meses com medo da vingança da FLN. Desses, muitos, ao deixarem a Argélia, destruíram ou prejudicavam o que não podiam levar, o que incluía desde infraestruturas básicas e serviços públicos até móveis e automóveis.\n[…]\nPortanto, o massacre de Setife foi um dos acontecimentos que serviram de prelúdio à Revolução da Guerra de Independência de 1954-1962.\n[…]\nHORNE, Alistair (1977). A Savage War of Peace: Algeria 1954–1962. New York: The Viking Press.\n[…]\nMESSAOUDI, Alain. “L’effervescence de l’indépendance algérienne. À propos de : Malika Rahal, Algérie 1962. Une histoire populaire, La Découverte”. La vie des idées. Disponível em: <https://laviedesidees.fr/Rahal-Algerie-1962-Une-histoire-populaire.html>.\n[…]\nPERROTTI, Bruna. Assia Djebar na Guerra de Independência da Argélia (1954 – 1962). Trabalho de Conclusão de Curso (Bacharel em História) - Universidade Estadual de Campinas. Campinas, pp. 111. 2021.\n[…]\nSAMPAIO, Thiago Henrique. O discurso de Jean-Paul Sartre sobre o colonialismo francês e a Guerra de Independência da Argélia (1954-1962). Revista Filogênese. Disponível em: <https://www.marilia.unesp.br/Home/RevistasEletronicas/FILOGENESE/thiagosampaio.pdf> Acesso em: 2 de julho de 2022.\n[…]\n«Algerian National Liberation (1954-1962)» (em inglês). GlobalSecurity.org"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Proclamação da República Popular da China",
+      "descricao": "Cerimônia na Praça Tiananmen, em Pequim, em que Mao Tsé-tung proclamou a República Popular da China após a vitória comunista na guerra civil."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Depois de vencer a guerra civil chinesa, Mao Tsé-tung proclamou a República Popular da China em que ano?",
+    "resposta": "1949",
+    "distratores": [
+      "1945",
+      "1947",
+      "1951"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China",
+      "https://en.wikipedia.org/wiki/Chinese_Communist_Revolution"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Proclamation_of_the_People%27s_Republic_of_China",
+        "situacao": "ok",
+        "texto": "The People's Republic of China was proclaimed by Mao Zedong, the chairman of the Chinese Communist Party (CCP), on October 1, 1949, in Tiananmen Square in Beijing. The government of a new state under the CCP, formally called the Central People's Government, was proclaimed by Mao at the ceremony, which marked the foundation of contemporary China.\n[…]\nPreviously, the CCP had proclaimed the establishment of the Chinese Soviet Republic (CSR) within the discontinuous territories of China they controlled, on November 7, 1931, in Ruijin. The CSR had lasted seven years until it was abolished in 1937.\n[…]\nThe Republic of China (ROC) had retreated to the island of Taiwan by December 1949.\n[…]\nThe civil war resumed with the Japanese defeat, and the CCP gained the upper hand in the final phase of the war from 1945 to 1949, generally referred to as the Chinese Communist Revolution.\n[…]\nMajor combat in the Chinese Civil War ended in 1949 with the CCP in control of most of mainland China, and the Kuomintang retreating offshore, reducing its territory to only Taiwan (a former Japanese colony that was received in 1945), Hainan, and their surrounding islands. On 21 September 1949, CCP Chairman Mao Zedong announced the establishment of the People's Republic of China with a speech at the first plenary session of the Chinese People's Political Consultative Conference.\n[…]\nThe first National Day military parade took place right after the proclamation of the PRC. Commanded by Nie Rongzhen, the Commander of the Northern China Military Region and inspected by Zhu De, the Commander-in-Chief of the PLA, the parade involved around 16,000 PLA officers and personnel. The parade, which was approved in June 1949, was the first large-scale and modern Chinese military parade, with the country having never done a public review of troops before under previous governments."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Revolution",
+        "situacao": "ok",
+        "texto": "The Chinese Communist Revolution was a social and political revolution in mainland China that began in 1927 and culminated with the proclamation of the People's Republic of China (PRC) in 1949. The revolution was led by the Chinese Communist Party (CCP), which afterwards became the ruling party of China. The political revolution resulted in major social changes within China and has been looked at \n[…]\nThe most common date used for the end of the Revolution is the Proclamation of the People's Republic of China on 1 October 1949. Nonetheless, the Nationalist Government had not evacuated to Taiwan until December, and significant fighting (such as the conquest of Hainan) continued well into 1950 and the takeover of Tibet in 1951.\n[…]\nAccording to William H. Hinton, author of a case study on how the Revolution impacted a village in north China:\n[…]\nOn October 1, 1949, Chairman Mao Zedong officially proclaimed the founding of the People's Republic of China at Tiananmen Square. Chiang Kai-shek, 600,000 Nationalist troops and about two million Nationalist-sympathizer refugees retreated to the island of Taiwan. After that, resistance to the Communists on the mainland was substantial but scattered, such as in the far south. An attempt to take the Nationalist-controlled island of Kinmen was thwarted in the Battle of Kuningtou.\n[…]\nIn December 1949 Chiang proclaimed Taipei, Taiwan the temporary capital of the Republic, and continued to assert his government as the sole legitimate authority of all China, while the PRC government continued to call for the unification of all China. The last direct fighting between Nationalist and Communist forces ended with the Communist capture of Hainan Island in April 1950, though shelling and guerrilla raids continued for several years.\n[…]\nOutline of the Chinese Civil War\n[…]\nTimeline of the Chinese Civil War\n[…]\nLoss of China\n[…]\nCultural Revolution"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Proclama%C3%A7%C3%A3o_da_Rep%C3%BAblica_Popular_da_China",
+        "situacao": "ok",
+        "texto": "A República Popular da China foi proclamada por Mao Tsé-Tung, presidente do Partido Comunista da China (PCC), em 1.º de outubro de 1949, na Praça da Paz Celestial, em Pequim. O governo do novo Estado sob o PCC, formalmente denominado Governo Popular Central, foi proclamado por Mao na cerimônia, que marcou a fundação da China contemporânea.\n[…]\nEm dezembro de 1949, a República da China (RC) já havia recuado para a ilha de Taiwan.\n[…]\nA Guerra Civil Chinesa foi travada entre o Governo Nacional da RC, liderado pelo Kuomintang (KMT), e o PCC, de forma intermitente entre 1927 e 1949. A guerra costuma ser dividida em duas fases, separadas por um interlúdio: de agosto de 1927 a 1937, a Primeira Frente Unida desfez-se durante a Expedição do Norte, e os nacionalistas controlaram a maior parte da China.\n[…]\nA guerra civil recomeçou após a derrota do Japão, e o PCC obteve vantagem na fase final do conflito, de 1945 a 1949, geralmente denominada Revolução Comunista Chinesa.\n[…]\nOs principais combates da Guerra Civil Chinesa terminaram em 1949, com o PCC controlando a maior parte da China continental e o Kuomintang em retirada para ilhas próximas à costa. O território da RC ficou reduzido a Taiwan — antiga colônia japonesa que passara ao controle da República da China em 1945 —, Ainão e as ilhas circundantes.\n[…]\nEm 21 de setembro de 1949, o presidente do PCC, Mao Tsé-Tung, anunciou a criação da República Popular da China em um discurso na primeira sessão plenária da Conferência Consultiva Política do Povo Chinês. Em seguida, houve uma celebração em massa na Praça da Paz Celestial em 1.º de outubro, durante a qual a proclamação foi feita publicamente por Mao no Portão da Paz Celestial; a data tornou-se o primeiro Dia Nacional do novo país.\n[…]\nproclamar a criação do Governo Popular Central da República Popular da China;\n[…]\nPequim, 1.º de outubro de 1949",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Canal de Suez",
+      "descricao": "Canal artificial no Egito que liga o Mar Mediterrâneo ao Mar Vermelho, aberto no século dezenove."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Canal de Suez, que liga o Mar Mediterrâneo ao Mar Vermelho, foi inaugurado em que ano?",
+    "resposta": "1869",
+    "distratores": [
+      "1859",
+      "1882",
+      "1914"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suez_Canal",
+      "https://pt.wikipedia.org/wiki/Canal_de_Suez"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Suez_Canal",
+        "situacao": "ok",
+        "texto": "The Suez Canal (; Egyptian Arabic: قناة السويس, Qanāt as-Suwais) is an artificial sea-level waterway in Egypt, connecting the Mediterranean Sea to the Red Sea through the Isthmus of Suez and dividing Africa and Asia (and by extension, the Sinai Peninsula from the rest of Egypt). The 193.3-kilometre-long (120.1-mile) canal is a key trade route between Europe and Asia.\n[…]\nIn 1858, French diplomat Ferdinand de Lesseps formed the Compagnie de Suez for the express purpose of building the canal. Construction of the canal lasted from 1859 to 1869 and it officially opened on 17 November 1869.\n[…]\nFrom its inauguration until 1925, the Suez Canal Company built a series of company towns along the canal to serve its operation. They included ports and their facilities as well as housing for employees, segregated by race or nationality. These were Port Said (1869) and Port Fuad (1925) at the canal's northern entrance by the Mediterranenan, Ismailia (1862) near the middle and north of Lake Timsah, and Port Twefik (1867) at the canal's southern entrance on the Red Sea.\n[…]\nThe canal opened under French control in November 1869. The opening ceremonies began at Port Said on the evening of 15 November, with illuminations, fireworks, and a banquet on the yacht of the Khedive Isma'il Pasha of Egypt and Sudan. The royal guests arrived the following morning: the Emperor Franz Joseph I, the French Empress Eugenie in the Imperial yacht L'Aigle, the Crown Prince of Prussia, and Prince Louis of Hesse. Other international guests included the American natural historian H. W.\n[…]\nBefore the canal's opening in 1869, goods were sometimes offloaded from ships and carried overland between the Mediterranean and the Red Sea.\n[…]\nExplained: The Whole Scenario Of Suez Canal. How Would It Have Impacted The Trade If It Persisted Longer? Archived 16 July 2021 at the Wayback Machine – Inventiva"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canal_de_Suez",
+        "situacao": "ok",
+        "texto": "O canal de Suez (em árabe: قناة السويس Qanāt al-Suways) é uma via navegável artificial a nível do mar localizada no Egito, entre o mar Mediterrâneo e o mar Vermelho (golfo de Suez). Inaugurado em 17 de novembro de 1869, após 10 anos de construção, permite que navios viajem entre a Europa e a Ásia Meridional sem ter de navegar em torno de África, reduzindo assim a distância da viagem marítima entre\n[…]\nA companhia Suez de Ferdinand de Lesseps construiu o canal entre 1859 e 1869. No final dos trabalhos, o Egito e a França eram os proprietários do canal. Estima-se que 1,5 milhão de egípcios tenham participado da construção do canal e que 120 000 morreram, principalmente de cólera.\n[…]\nEm 17 de fevereiro de 1867, o primeiro navio atravessou o canal, mas a inauguração oficial foi em 7 de novembro de 1869. O imperador da França Napoleão III, não estava presente, estando enfermo, sendo representado pela sua esposa a imperatriz Eugenia, sobrinha do próprio Lesseps. Ao contrário da crença popular, a ópera Aida não foi encomendada ao compositor italiano Giuseppe Verdi para ser apresentada na inauguração, que só foi concluída e apresentada dois anos depois.\n[…]\nEm 2015 foi inaugurada a expansão do canal de Suez, que permitirá dobrar até 2023 o fluxo diário de embarcações. Para tanto foi construída uma nova \"faixa\", de 35 km, paralela ao canal já existente, e a dragagem de um trecho de 37 km para torná-lo mais profundo e largo, permitindo a travessia de navios maiores. Os barcos podem agora viajar nas duas direções ao longo de todo o canal, numa viagem de onze horas, diminuindo em sete horas do tempo atual.\n[…]\nComo o canal não tem comportas marítimas, os portos nas extremidades estariam sujeitos ao impacto repentino dos tsunamis do Mar Mediterrâneo e do Mar Vermelho, de acordo com um artigo de 2012 no Journal of Coastal Research.\n[…]\nCanal de Quiel\n[…]\nCanal da Tailândia\n[…]\nCanal de Suez no Panoramio (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Comuna de Paris",
+      "descricao": "Governo revolucionário popular que controlou Paris em 1871, após a derrota francesa na guerra contra a Prússia, até ser esmagado pelo exército."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1871, a Comuna de Paris, governo revolucionário dos trabalhadores, controlou a cidade por cerca de quanto tempo?",
+    "resposta": "Dois meses",
+    "distratores": [
+      "Duas semanas",
+      "Seis meses",
+      "Um ano e meio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paris_Commune",
+      "https://pt.wikipedia.org/wiki/Comuna_de_Paris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paris_Commune",
+        "situacao": "ok",
+        "texto": "The Paris Commune (French: Commune de Paris, pronounced [kɔ.myn də pa.ʁi]) was a French revolutionary government that seized power in Paris on 18 March 1871 and controlled parts of the city until 28 May 1871. During the Franco-Prussian War of 1870–1871, the French National Guard had defended Paris, and working class radicalism grew among its soldiers.\n[…]\nOn 31 October, the leaders of the main revolutionary groups in Paris, including Blanqui, Félix Pyat and Louis Charles Delescluze, called new demonstrations at the Hôtel de Ville against General Trochu and the government. Fifteen thousand demonstrators, some of them armed, gathered in front of the Hôtel de Ville in pouring rain, calling for the resignation of Trochu and the proclamation of a commune.\n[…]\nMarx, in The Civil War in France (1871), written during the Commune, praised the Commune's achievements, and described it as the prototype for a revolutionary government of the future, \"the form at last discovered\" for the emancipation of the proletariat. Marx wrote that, \"Working men's Paris, with its Commune, will be forever celebrated as the glorious harbinger of a new society. Its martyrs are enshrined in the great heart of the working class.\n[…]\nLong live the Commune!\" On 23 March, the Prefect of the city called a mass meeting of the National Guard, expecting they would support the government; but, instead, the national guardsmen, as in Paris, stormed the Hôtel de Ville (City Hall) and took the mayor and prefect prisoner. They declared a Commune, led by a commission of six members, later increased to twelve, composed of both revolutionaries and moderate socialists.\n[…]\nBerlin performance group Showcase Beat le Mot created Paris 1871 Bonjour Commune (first performed at Hebbel am Ufer in 2010), the final part of a tetralogy dealing with failed revolutions.\n[…]\nParis Commune on Encyclopedia.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Comuna_de_Paris",
+        "situacao": "ok",
+        "texto": "A Comuna de Paris, eclodida em 18 de março de 1871, foi uma das mais importantes insurreições populares do século XIX. A capital francesa foi evacuada assim que as massas populares a tomaram.\n[…]\nApesar de ter durado apenas dois meses [18 de março – 28 de maio de 1871], a Comuna de Paris foi uma manifestação de grande importância para a história das lutas proletárias e seu futuro, mesmo que seja considerada como uma insurreição inacabada por alguns historiadores. Derrubada pelo exército francês e alemão, a Comuna foi colocada pelo próprio Engels como um exemplo do que seria a ditadura do proletariado, importante conceito da teoria marxista.\n[…]\nA Comuna de Paris, porém, só seria oficialmente proclamada no dia 28 de março, após eleições - realmente universais - realizadas dois dias antes pelo povo, que resultaram na ruptura do governo parisiense com o governo de Versalhes.\n[…]\nLogo, Paris pertencia ao povo revolucionário.\n[…]\nEntretanto, por mais revolucionária que tenha sido toda a insurreição que resultou no regime da Comuna de Paris, desde o começo ela estava fadada ao fracasso. Isso se deu graças aos erros em questões estratégicas para a proteção militar da cidade parisiense contra as tropas de Adolf Thiers, que, posteriormente, junto às tropas prussianas, derrubariam o governo proletário que havia se instituído na capital francesa.\n[…]\nBismarck, com medo de uma possível vitória da Comuna, libertou por ordem de Thiers cerca de 60 mil soldados franceses presos pela Prússia e aumentou suas próprias tropas para 130 mil soldados. Com isso, a cidade de Paris foi cercada, e os communards tiveram de fugir, queimando, em protesto, tudo aquilo que deixavam para trás.\n[…]\nFotos da Comuna de Paris"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.73 — 2026-10-19**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+> - [`modo_pokemon.md`](modo_pokemon.md): o modo Pokémon e a coleção de perguntas de pokémon (§6, §15, §16, §17)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Dificuldade percebida** (2026-10-12): no app, quem lê pode avaliar a pergunta em cinco níveis, de muito fácil a muito difícil (§16, "Avaliação"). Essa avaliação poderá mudar o campo `dificuldade`, como **informação adicional à popularidade**, e não no lugar dela. **Por enquanto só é registrada:** não altera o campo, e a dificuldade, estimada ou percebida, **não orienta a criação de perguntas**. A ideia é coletar dados antes de decidir como usá-los.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+- **Resposta que é um ano ou uma data: sempre `multipla`.** Quando a resposta é um ano específico ("1969") ou uma data mais detalhada ("15 de novembro de 1889", "2 de fevereiro"), a pergunta é obrigatoriamente de múltipla escolha, com ou sem figura. Os distratores são anos (ou datas) próximos e críveis, no mesmo formato da resposta, nenhum deles também correto. A regra vale só quando **a resposta é o próprio ano ou a data**: século e década ("século dezenove", "década de 1970") e respostas em que o ano identifica outra coisa, como uma edição de Olimpíada ou de Copa ("Londres 2012", "1970, no México"), podem continuar abertas.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+### Coleções
+
+Uma **coleção** é um conjunto de perguntas sobre um mesmo universo, com um modo de jogo próprio (decidido em 2026-10-13). Cada coleção tem um documento próprio com as diretrizes dela; a única até agora é a de **pokémon**, do modo Pokémon, em [`modo_pokemon.md`](modo_pokemon.md).
+
+- A pergunta da coleção tem o campo `colecao`. O modo da coleção sorteia só as perguntas dela, de qualquer tema.
+- **Exclusiva** (campo `exclusiva`): a pergunta sai **só no modo da coleção**, nunca no jogo original (Master, Trilha da Vida, Linear).
+- **Subtema da coleção** (campo `subtema_colecao`): uma coleção pode ter subtemas próprios, definidos no documento dela, que dividem as perguntas dentro do modo. Eles não substituem tema e subtema, e a lista canônica (§3) não muda. A folga para sobreposição entre eles também é definida no documento da coleção.
+- As perguntas da coleção seguem esta Parte I: tema e subtema, âncora, fontes, redação e critérios. Podem ser com ou sem figura.
+- **Regras de conteúdo próprias:** o documento de uma coleção pode ter regras de conteúdo para as exclusivas dela, que partem desta Parte I e prevalecem sobre ela onde divergirem. Nos lotes exclusivos, o gerador e o crítico recebem esta Parte I e, depois dela, essas regras.
+- **Saturação das exclusivas:** é contada só dentro da coleção, com o limite definido no documento dela, e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
+- As exclusivas não contam nas metas do jogo original (§17), e o autopiloto não as produz: os lotes delas são rodados à mão.
+
+### Perguntas com áudio
+
+Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), decidido em 2026-10-12. O questionador lê o enunciado e manda o trecho tocar **na tela grande** (modo mesa), para todos ouvirem; o celular de quem lê não toca o som. **Até segunda ordem, as perguntas com áudio ficam fora do jogo:** o app não as sorteia em nenhum modo (§16), enquanto os trechos são revistos.
+
+- **De reconhecimento**, como as figuras: a pergunta pede para reconhecer o que se ouve ("De que país é este hino nacional?", "Que música é esta?", "Que animal faz este som?", "Que instrumento é este?", "De que compositor é esta peça?"). O enunciado nunca diz o que toca; pode trazer uma pista que ajude sem entregar ("Que ave do Cerrado…").
+- **Categorias:** hinos nacionais (Geografia › Bandeiras e Símbolos); música clássica e ópera (Artes e Pensamento › Música Clássica, Teatro e Ópera); música brasileira antiga (Entretenimento › Música Brasileira); sons de animais (Natureza, no subtema do bicho); instrumentos (Música Clássica, Música Brasileira ou Música Internacional, conforme o instrumento).
+- **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
+- **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
+- **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
+- **Saturação:** o áudio conta no limite de 3 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
