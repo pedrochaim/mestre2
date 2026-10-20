@@ -1,0 +1,2323 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Guerra do Paraguai",
+        "descricao": "Guerra travada entre 1864 e 1870 entre o Paraguai e a Tríplice Aliança, formada por Brasil, Argentina e Uruguai.",
+        "variantes": [
+          "Guerra da Tríplice Aliança",
+          "Grande Guerra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "triplice_alianca",
+          "nome": "Tríplice Aliança",
+          "descricao": "Aliança militar formada em 1865 contra o Paraguai na Guerra do Paraguai.",
+          "variantes": [
+            "Tratado da Tríplice Aliança"
+          ]
+        },
+        {
+          "id": "grande_berta",
+          "nome": "Grande Berta",
+          "descricao": "Obus pesado alemão de 420 milímetros fabricado pela Krupp e usado contra as fortalezas belgas e francesas na Primeira Guerra Mundial.",
+          "variantes": [
+            "Big Bertha",
+            "Dicke Bertha"
+          ]
+        },
+        {
+          "id": "bandeira_do_paraguai",
+          "nome": "Bandeira do Paraguai",
+          "descricao": "Bandeira nacional do Paraguai, tricolor horizontal vermelha, branca e azul com emblemas diferentes em cada lado.",
+          "variantes": [
+            "Flag of Paraguay"
+          ]
+        },
+        {
+          "id": "gluteo_maximo",
+          "nome": "Glúteo máximo",
+          "descricao": "Músculo principal das nádegas, que estende o quadril.",
+          "variantes": [
+            "Gluteus maximus",
+            "Grande glúteo"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser",
+            "Great Geysir",
+            "Gêiser de Haukadalur",
+            "Stóri Geysir"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "São Vicente",
+        "descricao": "Cidade do litoral paulista fundada por Martim Afonso de Sousa em 1532, a primeira vila portuguesa no Brasil.",
+        "variantes": [
+          "Vila de São Vicente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_vicente",
+          "nome": "São Vicente",
+          "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+          "variantes": [
+            "São Vicente (São Paulo)",
+            "Vila de São Vicente"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "dia_dos_santos_inocentes",
+          "nome": "Dia dos Santos Inocentes",
+          "descricao": "Data cristã de 28 de dezembro que, na Espanha e na América hispânica, é o dia tradicional das pegadinhas.",
+          "variantes": [
+            "Día de los Santos Inocentes",
+            "Dia dos Inocentes"
+          ]
+        },
+        {
+          "id": "ilha_do_maranhao",
+          "nome": "Ilha do Maranhão",
+          "descricao": "Ilha da costa do Maranhão onde fica a cidade de São Luís, também chamada Upaon-Açu.",
+          "variantes": [
+            "Ilha de São Luís",
+            "Upaon-Açu"
+          ]
+        },
+        {
+          "id": "hispaniola",
+          "nome": "Hispaniola",
+          "descricao": "Ilha das Grandes Antilhas, no mar do Caribe, entre Cuba e Porto Rico.",
+          "variantes": [
+            "La Española",
+            "Ilha de São Domingos",
+            "Española"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cabanagem",
+        "descricao": "Revolta popular ocorrida na província do Grão-Pará entre 1835 e 1840, durante o Período Regencial.",
+        "variantes": [
+          "Guerra dos Cabanos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guerra_dos_cem_anos",
+          "nome": "Guerra dos Cem Anos",
+          "descricao": "Série de conflitos entre os reinos da Inglaterra e da França, de 1337 a 1453.",
+          "variantes": [
+            "Hundred Years' War"
+          ]
+        },
+        {
+          "id": "revolucao_farroupilha",
+          "nome": "Revolução Farroupilha",
+          "descricao": "Guerra separatista travada no Rio Grande do Sul contra o Império do Brasil entre 1835 e 1845.",
+          "variantes": [
+            "Guerra dos Farrapos",
+            "Revolução dos Farrapos"
+          ]
+        },
+        {
+          "id": "guerra_de_canudos",
+          "nome": "Guerra de Canudos",
+          "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+          "variantes": [
+            "Campanha de Canudos"
+          ]
+        },
+        {
+          "id": "guerra_dos_sete_anos",
+          "nome": "Guerra dos Sete Anos",
+          "descricao": "Conflito mundial de 1756 a 1763 entre as grandes potências europeias, com combates na Europa, na América e na Ásia.",
+          "variantes": [
+            "Seven Years' War"
+          ]
+        },
+        {
+          "id": "guerra_dos_ossos",
+          "nome": "Guerra dos Ossos",
+          "descricao": "Rivalidade entre os paleontólogos americanos Edward Drinker Cope e Othniel Charles Marsh no fim do século dezenove.",
+          "variantes": [
+            "Bone Wars",
+            "Grande Corrida dos Dinossauros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ciclo da cana-de-açúcar",
+        "descricao": "Período da economia colonial brasileira, nos séculos dezesseis e dezessete, baseado na produção de açúcar nos engenhos do litoral nordestino.",
+        "variantes": [
+          "Ciclo do açúcar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "ciclo_da_borracha",
+          "nome": "Ciclo da borracha",
+          "descricao": "Período de prosperidade da Amazônia brasileira baseado na extração do látex da seringueira, entre o fim do século dezenove e o início do vinte.",
+          "variantes": [
+            "Amazon rubber boom"
+          ]
+        },
+        {
+          "id": "bondinho_do_pao_de_acucar",
+          "nome": "Bondinho do Pão de Açúcar",
+          "descricao": "Teleférico que liga a Praia Vermelha aos morros da Urca e do Pão de Açúcar, no Rio de Janeiro, inaugurado em 1912.",
+          "variantes": [
+            "Caminho Aéreo Pão de Açúcar",
+            "Sugarloaf Cable Car"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "João Figueiredo",
+        "descricao": "General João Baptista Figueiredo, último presidente do regime militar brasileiro, de 1979 a 1985.",
+        "variantes": [
+          "João Baptista de Oliveira Figueiredo",
+          "General Figueiredo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joao_ricardo",
+          "nome": "João Ricardo",
+          "descricao": "Músico e compositor nascido em Portugal, fundador do grupo Secos & Molhados.",
+          "variantes": [
+            "João Ricardo Carneiro Teixeira Pinto"
+          ]
+        },
+        {
+          "id": "joao_do_pulo",
+          "nome": "João do Pulo",
+          "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+          "variantes": [
+            "João Carlos de Oliveira"
+          ]
+        },
+        {
+          "id": "joao_gilberto",
+          "nome": "João Gilberto",
+          "descricao": "Cantor e violonista baiano, considerado o pai da bossa nova.",
+          "variantes": [
+            "João Gilberto Prado Pereira de Oliveira"
+          ]
+        },
+        {
+          "id": "selton_mello",
+          "nome": "Selton Mello",
+          "descricao": "Ator e cineasta brasileiro, diretor de O Palhaço e intérprete de Rubens Paiva em Ainda Estou Aqui.",
+          "variantes": [
+            "Selton Figueiredo Mello"
+          ]
+        },
+        {
+          "id": "charles_de_gaulle",
+          "nome": "Charles de Gaulle",
+          "descricao": "General francês que liderou a França Livre a partir de Londres na Segunda Guerra e depois presidiu a França.",
+          "variantes": [
+            "General de Gaulle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Eleição presidencial no Brasil em 1989",
+        "descricao": "Primeira eleição direta para presidente do Brasil desde 1960, realizada em dois turnos em novembro e dezembro de 1989.",
+        "variantes": [
+          "Eleição de 1989"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "primeira_exposicao_impressionista",
+          "nome": "Primeira Exposição Impressionista",
+          "descricao": "Mostra coletiva de Monet, Degas, Renoir, Pissarro e outros, realizada em Paris no antigo estúdio do fotógrafo Nadar, em 1874.",
+          "variantes": [
+            "Exposição de 1874"
+          ]
+        },
+        {
+          "id": "revolucao_gloriosa",
+          "nome": "Revolução Gloriosa",
+          "descricao": "Deposição do rei católico Jaime II da Inglaterra em favor de Guilherme de Orange e Maria II, em 1688 e 1689.",
+          "variantes": [
+            "Glorious Revolution",
+            "Revolução de 1688"
+          ]
+        },
+        {
+          "id": "revolucao_constitucionalista_de_1932",
+          "nome": "Revolução Constitucionalista de 1932",
+          "descricao": "Levante armado do estado de São Paulo contra o governo provisório de Getúlio Vargas, em 1932.",
+          "variantes": [
+            "Revolução de 1932",
+            "Guerra Paulista"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1958",
+          "nome": "Copa do Mundo FIFA de 1958",
+          "descricao": "Sexta Copa do Mundo, disputada na Suécia e vencida pelo Brasil, seu primeiro título mundial.",
+          "variantes": [
+            "Copa da Suécia",
+            "Copa de 1958"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1994",
+          "nome": "Copa do Mundo FIFA de 1994",
+          "descricao": "Copa do Mundo de futebol disputada nos Estados Unidos e vencida pelo Brasil, seu quarto título.",
+          "variantes": [
+            "Copa de 1994",
+            "Tetra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira do Império do Brasil",
+        "descricao": "Bandeira verde com losango amarelo e brasão imperial, usada pelo Brasil de 1822 a 1889, desenhada por Jean-Baptiste Debret.",
+        "variantes": [
+          "Bandeira imperial do Brasil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_imperio_do_brasil",
+          "nome": "Bandeira do Império do Brasil",
+          "descricao": "Bandeira usada pelo Brasil de 1822 a 1889, verde com losango amarelo e o brasão imperial.",
+          "variantes": [
+            "Bandeira imperial do Brasil",
+            "Bandeira imperial"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_brasil",
+          "nome": "Coroa Imperial do Brasil",
+          "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+          "variantes": [
+            "Coroa de Dom Pedro II",
+            "Coroa Diamantina"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_otomano",
+          "nome": "Bandeira do Império Otomano",
+          "descricao": "Bandeira vermelha com crescente e estrela brancos de cinco pontas, adotada oficialmente pelo Império Otomano em 1844.",
+          "variantes": [
+            "Bandeira otomana"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_alemao",
+          "nome": "Bandeira do Império Alemão",
+          "descricao": "Bandeira tricolor horizontal preta, branca e vermelha, adotada oficialmente em 1892 pelo Império Alemão.",
+          "variantes": [
+            "Bandeira preta, branca e vermelha",
+            "Kaiserflagge",
+            "Reichsflagge",
+            "Schwarz-Weiß-Rot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Missão Artística Francesa",
+        "descricao": "Grupo de artistas franceses que chegou ao Rio de Janeiro em 1816 e deu origem à Academia Imperial de Belas Artes.",
+        "variantes": [
+          "Missão Francesa de 1816"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "missao_artistica_francesa",
+          "nome": "Missão Artística Francesa",
+          "descricao": "Grupo de artistas franceses, entre eles Jean-Baptiste Debret e Nicolas-Antoine Taunay, que chegou ao Rio de Janeiro no reinado de Dom João.",
+          "variantes": [
+            "Missão Francesa"
+          ]
+        },
+        {
+          "id": "saint_domingue",
+          "nome": "Saint-Domingue",
+          "descricao": "Colônia francesa no oeste da ilha de Hispaniola, de 1697 a 1804, que se tornou o Haiti independente.",
+          "variantes": [
+            "São Domingos francês",
+            "Pérola das Antilhas"
+          ]
+        },
+        {
+          "id": "patinacao_artistica",
+          "nome": "Patinação artística",
+          "descricao": "Esporte em que atletas executam saltos, giros e passos de dança sobre o gelo.",
+          "variantes": [
+            "Patinação artística no gelo",
+            "Figure skating"
+          ]
+        },
+        {
+          "id": "final_da_copa_do_mundo_de_2006",
+          "nome": "Final da Copa do Mundo de 2006",
+          "descricao": "Partida final da Copa do Mundo FIFA de 2006, em Berlim, em que a Itália venceu a França nos pênaltis.",
+          "variantes": [
+            "Itália x França de 2006"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Engenho de açúcar",
+        "descricao": "Propriedade e instalação do Brasil colonial onde a cana era moída e transformada em açúcar, com casa-grande, senzala e moenda.",
+        "variantes": [
+          "Engenho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "evangelho",
+          "nome": "Evangelho",
+          "descricao": "Cada um dos relatos da vida e dos ensinamentos de Jesus, e a mensagem cristã em geral",
+          "variantes": [
+            "Evangelhos",
+            "Boa-nova"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        },
+        {
+          "id": "invasoes_mongois_do_japao",
+          "nome": "Invasões mongóis do Japão",
+          "descricao": "Duas tentativas de invasão do Japão pela dinastia Yuan de Kublai Khan, em 1274 e 1281.",
+          "variantes": [
+            "Invasões mongóis ao Japão",
+            "Mongol invasions of Japan",
+            "Genkō"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Diretas Já",
+        "descricao": "Campanha popular de 1983 e 1984 pela volta das eleições diretas para presidente do Brasil.",
+        "variantes": [
+          "Diretas-Já"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "adidas",
+          "nome": "Adidas",
+          "descricao": "Empresa alemã de calçados e artigos esportivos fundada por Adolf Dassler em 1949.",
+          "variantes": [
+            "adidas AG"
+          ]
+        },
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        },
+        {
+          "id": "tres_joias",
+          "nome": "Três Joias",
+          "descricao": "Os três refúgios do budismo: o Buda, o Dharma e a Sangha",
+          "variantes": [
+            "Três Refúgios",
+            "Triratna",
+            "Três Tesouros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Governo-geral do Brasil",
+        "descricao": "Sistema administrativo centralizado criado pela Coroa portuguesa em 1548, com sede em Salvador, para governar a colônia.",
+        "variantes": [
+          "Governo-Geral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "dom_pedro_i",
+          "nome": "Dom Pedro I",
+          "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+          "variantes": [
+            "Pedro I do Brasil",
+            "Pedro IV de Portugal",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Aliança Liberal",
+        "descricao": "Coligação política que lançou Getúlio Vargas à presidência na eleição de 1930.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "balanca_de_roberval",
+          "nome": "Balança de Roberval",
+          "descricao": "Balança de dois pratos com mecanismo de paralelogramo articulado, apresentada em 1669.",
+          "variantes": [
+            "Balança de pratos",
+            "Roberval balance"
+          ]
+        },
+        {
+          "id": "trave_de_equilibrio",
+          "nome": "Trave de equilíbrio",
+          "descricao": "Aparelho retangular e estreito da ginástica artística feminina, sobre o qual se executam as séries.",
+          "variantes": [
+            "Trave olímpica",
+            "Trave",
+            "Balance beam"
+          ]
+        },
+        {
+          "id": "leandra_leal",
+          "nome": "Leandra Leal",
+          "descricao": "Atriz, cantora e diretora brasileira nascida em 1982.",
+          "variantes": [
+            "Leandra Rodrigues Leal Braz e Silva"
+          ]
+        },
+        {
+          "id": "lingua_geral",
+          "nome": "Língua geral",
+          "descricao": "Línguas de base tupi usadas como meio de comunicação entre colonos e indígenas no Brasil colonial.",
+          "variantes": [
+            "Língua geral paulista",
+            "Língua geral amazônica"
+          ]
+        },
+        {
+          "id": "hino_a_liberdade",
+          "nome": "Hino à Liberdade",
+          "descricao": "Hino nacional da Grécia e de Chipre, baseado num poema de Dionysios Solomos de 1823.",
+          "variantes": [
+            "Hymn to Liberty",
+            "Ýmnos eis tin Eleftherían"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Frente Ampla",
+        "descricao": "Movimento político de oposição ao regime militar brasileiro, criado em 1966 por Carlos Lacerda e proibido em 1968.",
+        "variantes": [
+          "Frente Ampla de 1966"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dente_molar",
+          "nome": "Dente molar",
+          "descricao": "Dente posterior humano com coroa larga de várias cúspides e duas ou mais raízes, usado para triturar alimentos.",
+          "variantes": [
+            "Dente",
+            "Molar"
+          ]
+        },
+        {
+          "id": "quetzalcoatl",
+          "nome": "Quetzalcóatl",
+          "descricao": "Divindade mesoamericana conhecida como serpente emplumada, cultuada por astecas e outros povos.",
+          "variantes": [
+            "Kukulcán",
+            "Serpente Emplumada"
+          ]
+        },
+        {
+          "id": "pete_sampras",
+          "nome": "Pete Sampras",
+          "descricao": "Tenista americano, ex-número 1 do mundo, vencedor de 14 títulos de Grand Slam.",
+          "variantes": [
+            "Pete Sampras Jr."
+          ]
+        },
+        {
+          "id": "frente_ocidental",
+          "nome": "Frente Ocidental",
+          "descricao": "Principal teatro de guerra terrestre da Primeira Guerra Mundial na Europa Ocidental, marcado por uma longa linha de trincheiras entre Alemanha e Aliados.",
+          "variantes": [
+            "Western Front",
+            "Front Ocidental"
+          ]
+        },
+        {
+          "id": "febre_amarela",
+          "nome": "Febre amarela",
+          "descricao": "Doença viral transmitida por mosquitos, que causa icterícia e hemorragias.",
+          "variantes": [
+            "Yellow fever"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Expedição Científica Rondon-Roosevelt",
+        "descricao": "Expedição de 1913 e 1914 pela Amazônia brasileira, liderada por Cândido Rondon e Theodore Roosevelt, que explorou o Rio da Dúvida.",
+        "variantes": [
+          "Expedição Roosevelt-Rondon",
+          "Roosevelt–Rondon Scientific Expedition"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_roosevelt",
+          "nome": "Rio Roosevelt",
+          "descricao": "Afluente do rio Aripuanã, na Amazônia brasileira, antes chamado rio da Dúvida.",
+          "variantes": [
+            "Rio da Dúvida",
+            "Roosevelt River"
+          ]
+        },
+        {
+          "id": "theodore_roosevelt",
+          "nome": "Theodore Roosevelt",
+          "descricao": "26º presidente dos Estados Unidos, de 1901 a 1909.",
+          "variantes": [
+            "Teddy Roosevelt",
+            "Teodoro Roosevelt"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Pelourinho",
+        "descricao": "Coluna de pedra erguida em praça pública nas vilas coloniais portuguesas, usada para castigos públicos.",
+        "variantes": [
+          "Picota"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pelourinho",
+          "nome": "Pelourinho",
+          "descricao": "Centro histórico de Salvador, na Bahia, com casario colonial, Patrimônio da UNESCO.",
+          "variantes": [
+            "Pelourinho (Salvador)",
+            "Pelô"
+          ]
+        },
+        {
+          "id": "shaduf",
+          "nome": "Shaduf",
+          "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo",
+          "variantes": [
+            "Shadoof",
+            "Chaduf",
+            "Picota"
+          ]
+        },
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        },
+        {
+          "id": "montanha_do_pico",
+          "nome": "Montanha do Pico",
+          "descricao": "Estratovulcão da ilha do Pico, no arquipélago dos Açores, o ponto mais alto de Portugal.",
+          "variantes": [
+            "Monte Pico",
+            "Pico"
+          ]
+        },
+        {
+          "id": "floquinho",
+          "nome": "Floquinho",
+          "descricao": "Cachorro verde e peludo do Cebolinha, na Turma da Mônica",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Réis",
+        "descricao": "Antiga moeda usada em Portugal e no Brasil, da Colônia até 1942, quando foi substituída pelo cruzeiro.",
+        "variantes": [
+          "Real antigo",
+          "Mil-réis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mil_reis",
+          "nome": "Mil-réis",
+          "descricao": "Unidade monetária usada no Brasil até 1942, equivalente a mil unidades da antiga moeda portuguesa e brasileira.",
+          "variantes": [
+            "Réis"
+          ]
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        },
+        {
+          "id": "pentatlo_antigo",
+          "nome": "Pentatlo antigo",
+          "descricao": "Prova combinada de cinco modalidades disputada nos Jogos Olímpicos da Antiguidade.",
+          "variantes": [
+            "Pentathlon",
+            "Pentatlo da Grécia Antiga",
+            "Ancient pentathlon"
+          ]
+        },
+        {
+          "id": "ancient_mew",
+          "nome": "Ancient Mew",
+          "descricao": "Carta promocional de Mew, escrita numa língua inventada, distribuída nos cinemas americanos que exibiam o filme Pokémon 2000.",
+          "variantes": [
+            "Ancient Mew (carta)",
+            "Mew antigo"
+          ]
+        },
+        {
+          "id": "risk",
+          "nome": "Risk",
+          "descricao": "Jogo de tabuleiro de estratégia militar e conquista de territórios, criado na França em 1957, que inspirou o War brasileiro.",
+          "variantes": [
+            "La Conquête du Monde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Ação Integralista Brasileira",
+        "descricao": "Movimento político de inspiração fascista fundado por Plínio Salgado em 1932.",
+        "variantes": [
+          "Integralismo",
+          "AIB"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "akihabara",
+          "nome": "Akihabara",
+          "descricao": "Bairro de Tóquio conhecido por lojas de eletrônicos, anime, mangá e games.",
+          "variantes": [
+            "Akiba",
+            "Akihabara Electric Town"
+          ]
+        },
+        {
+          "id": "deserto_do_namibe",
+          "nome": "Deserto do Namibe",
+          "descricao": "Deserto costeiro do sudoeste da África, ao longo da Namíbia e do sul de Angola",
+          "variantes": [
+            "Namib",
+            "Deserto do Namib"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "bachianas_brasileiras",
+          "nome": "Bachianas Brasileiras",
+          "descricao": "Ciclo de nove suítes de Heitor Villa-Lobos que une a música brasileira ao estilo barroco.",
+          "variantes": [
+            "Bachianas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Lei de Terras",
+        "descricao": "Lei brasileira de 1850 que regulamentou a propriedade das terras no Império.",
+        "variantes": [
+          "Lei número 601 de 1850"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "edipo",
+          "nome": "Édipo",
+          "descricao": "Rei mítico de Tebas que decifrou o enigma da Esfinge e, sem saber, matou o pai e se casou com a mãe.",
+          "variantes": [
+            "Oedipus",
+            "Édipo de Tebas"
+          ]
+        },
+        {
+          "id": "dia_da_terra",
+          "nome": "Dia da Terra",
+          "descricao": "Data anual de mobilização ambiental criada nos Estados Unidos em 1970.",
+          "variantes": [
+            "Earth Day"
+          ]
+        },
+        {
+          "id": "nucleo_da_terra",
+          "nome": "Núcleo da Terra",
+          "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido.",
+          "variantes": [
+            "Núcleo terrestre",
+            "Earth's core"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        },
+        {
+          "id": "liceu_aristoteles",
+          "nome": "Liceu (Aristóteles)",
+          "descricao": "Escola fundada por Aristóteles em Atenas, em 335 a.C., num bosque nos arredores da cidade.",
+          "variantes": [
+            "Liceu de Atenas",
+            "Lyceum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Palácio do Catete",
+        "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+        "variantes": [
+          "Palácio Nova Friburgo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_do_catete",
+          "nome": "Palácio do Catete",
+          "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+          "variantes": [
+            "Catete Palace"
+          ]
+        },
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_itamaraty",
+          "nome": "Palácio Itamaraty",
+          "descricao": "Sede do Ministério das Relações Exteriores em Brasília, projetada por Oscar Niemeyer e cercada por um espelho d'água.",
+          "variantes": [
+            "Palácio dos Arcos",
+            "Itamaraty"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Plano Cruzado",
+        "descricao": "Plano econômico lançado em fevereiro de 1986, no governo José Sarney, que criou a moeda cruzado.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "plano_real",
+          "nome": "Plano Real",
+          "descricao": "Programa de estabilização econômica lançado no Brasil em 1993 e 1994, que criou a moeda real e controlou a hiperinflação.",
+          "variantes": []
+        },
+        {
+          "id": "plano_cartesiano",
+          "nome": "Plano cartesiano",
+          "descricao": "Sistema de coordenadas formado por dois eixos perpendiculares, usado para localizar pontos no plano.",
+          "variantes": [
+            "Sistema de coordenadas cartesiano",
+            "Coordenadas cartesianas"
+          ]
+        },
+        {
+          "id": "scrabble",
+          "nome": "Scrabble",
+          "descricao": "Jogo de tabuleiro de formar palavras com peças de letras, criado pelo arquiteto americano Alfred Butts.",
+          "variantes": [
+            "Palavras Cruzadas"
+          ]
+        },
+        {
+          "id": "pelicano_pardo",
+          "nome": "Pelicano-pardo",
+          "descricao": "Pelicano marinho das Américas (Pelecanus occidentalis) que mergulha para pescar.",
+          "variantes": [
+            "Pelicano-marrom",
+            "Pelecanus occidentalis"
+          ]
+        },
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Fernão Dias Pais",
+        "descricao": "Bandeirante paulista do século dezessete que liderou uma longa expedição pelo sertão de Minas Gerais em busca de pedras preciosas.",
+        "variantes": [
+          "Fernão Dias",
+          "Fernão Dias Paes Leme"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fernando_alonso",
+          "nome": "Fernando Alonso",
+          "descricao": "Piloto espanhol de Fórmula 1, bicampeão mundial em 2005 e 2006.",
+          "variantes": [
+            "Fernando Alonso Díaz"
+          ]
+        },
+        {
+          "id": "cueva_de_las_manos",
+          "nome": "Cueva de las Manos",
+          "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos.",
+          "variantes": [
+            "Caverna das Mãos",
+            "Cave of the Hands"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "tulipomania",
+          "nome": "Tulipomania",
+          "descricao": "Bolha especulativa com bulbos de tulipa ocorrida nos Países Baixos",
+          "variantes": [
+            "Febre das tulipas",
+            "Tulip mania",
+            "Mania das tulipas"
+          ]
+        },
+        {
+          "id": "fernao_de_magalhaes",
+          "nome": "Fernão de Magalhães",
+          "descricao": "Navegador português que liderou a expedição que realizou a primeira circum-navegação da Terra.",
+          "variantes": [
+            "Fernando de Magalhães",
+            "Ferdinand Magellan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Navio negreiro",
+        "descricao": "Navio usado no tráfico atlântico para transportar africanos escravizados até as Américas.",
+        "variantes": [
+          "Tumbeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_navio_negreiro",
+          "nome": "O Navio Negreiro",
+          "descricao": "Poema abolicionista de Castro Alves, de 1868, que cita a bandeira brasileira como auriverde pendão.",
+          "variantes": [
+            "Navio Negreiro",
+            "Tragédia no Mar"
+          ]
+        },
+        {
+          "id": "umbuzeiro",
+          "nome": "Umbuzeiro",
+          "descricao": "Árvore da caatinga, Spondias tuberosa, que produz o umbu e armazena água nas raízes.",
+          "variantes": [
+            "Spondias tuberosa",
+            "Imbuzeiro",
+            "Pé de umbu"
+          ]
+        },
+        {
+          "id": "expedicao_de_perry",
+          "nome": "Expedição de Perry",
+          "descricao": "Missão naval americana de 1853 e 1854, com os chamados navios negros, que forçou o Japão a abrir seus portos.",
+          "variantes": [
+            "Navios negros",
+            "Perry Expedition"
+          ]
+        },
+        {
+          "id": "trufa",
+          "nome": "Trufa",
+          "descricao": "Corpo de frutificação subterrâneo de fungos do gênero Tuber, muito valorizado na culinária",
+          "variantes": [
+            "Tuber",
+            "truffle",
+            "túbera",
+            "Trufa (fungo)"
+          ]
+        },
+        {
+          "id": "welwitschia",
+          "nome": "Welwitschia",
+          "descricao": "Planta do deserto do Namibe, Welwitschia mirabilis, que vive séculos com apenas duas folhas de crescimento contínuo.",
+          "variantes": [
+            "Welwitschia mirabilis",
+            "Tumbo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Constituição brasileira de 1937",
+        "descricao": "Constituição outorgada por Getúlio Vargas em 1937, que instituiu o Estado Novo.",
+        "variantes": [
+          "Polaca",
+          "Constituição do Estado Novo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "constituicao_brasileira_de_1988",
+          "nome": "Constituição brasileira de 1988",
+          "descricao": "Constituição em vigor no Brasil, promulgada em 5 de outubro de 1988 ao fim do regime militar.",
+          "variantes": [
+            "Constituição Cidadã",
+            "Constituição de 1988"
+          ]
+        },
+        {
+          "id": "constituicao_brasileira_de_1824",
+          "nome": "Constituição brasileira de 1824",
+          "descricao": "Primeira constituição do Brasil, outorgada por Dom Pedro Primeiro em 1824 e vigente durante todo o Império.",
+          "variantes": [
+            "Constituição Política do Império do Brasil"
+          ]
+        },
+        {
+          "id": "constituicao_dos_estados_unidos",
+          "nome": "Constituição dos Estados Unidos",
+          "descricao": "Lei suprema dos Estados Unidos, redigida na Convenção de Filadélfia em 1787 e em vigor desde 1789.",
+          "variantes": [
+            "Constituição americana",
+            "Constitution of the United States"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        },
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Balaiada",
+        "descricao": "Revolta popular ocorrida no Maranhão entre 1838 e 1841, durante o Período Regencial.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "balanganda",
+          "nome": "Balangandã",
+          "descricao": "Joia crioula de prata, com vários pingentes e amuletos, patrimônio da cultura afro-brasileira da Bahia.",
+          "variantes": [
+            "Penca de balangandãs",
+            "Balangandãs"
+          ]
+        },
+        {
+          "id": "alfaia",
+          "nome": "Alfaia",
+          "descricao": "Tambor membranofone tocado com baquetas, típico do maracatu e usado também no coco e na ciranda, popular em Pernambuco.",
+          "variantes": [
+            "Bumbo de maracatu"
+          ]
+        },
+        {
+          "id": "iliada",
+          "nome": "Ilíada",
+          "descricao": "Poema épico grego atribuído a Homero, sobre um episódio da Guerra de Troia.",
+          "variantes": [
+            "Iliad"
+          ]
+        },
+        {
+          "id": "balaclava",
+          "nome": "Balaclava",
+          "descricao": "Gorro de lã que cobre a cabeça e o pescoço, deixando só o rosto ou os olhos de fora",
+          "variantes": [
+            "Balaclava (gorro)",
+            "Touca ninja"
+          ]
+        },
+        {
+          "id": "atlantida",
+          "nome": "Atlântida",
+          "descricao": "Ilha lendária que, segundo um relato da Grécia Antiga, teria sido engolida pelo mar.",
+          "variantes": [
+            "Atlantis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Teresina",
+        "descricao": "Capital do Piauí, fundada em 1852 e batizada em homenagem à imperatriz Teresa Cristina.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "teresina",
+          "nome": "Teresina",
+          "descricao": "Capital do estado do Piauí, cidade planejada fundada em 1852.",
+          "variantes": []
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "ira",
+          "nome": "Irã",
+          "descricao": "País da Ásia Ocidental, antiga Pérsia, com capital em Teerã.",
+          "variantes": [
+            "Pérsia",
+            "República Islâmica do Irã"
+          ]
+        },
+        {
+          "id": "ovelha_merino",
+          "nome": "Ovelha merino",
+          "descricao": "Raça de ovelha originária da Espanha, criada pela lã fina e macia",
+          "variantes": [
+            "Merino",
+            "Merina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Conjunto Moderno da Pampulha",
+        "descricao": "Conjunto arquitetônico de Oscar Niemeyer em torno da lagoa da Pampulha, em Belo Horizonte, construído nos anos quarenta.",
+        "variantes": [
+          "Pampulha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "conjunto_moderno_da_pampulha",
+          "nome": "Conjunto Moderno da Pampulha",
+          "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+          "variantes": [
+            "Pampulha",
+            "Igreja da Pampulha",
+            "Pampulha Modern Ensemble"
+          ]
+        },
+        {
+          "id": "lagoa_da_pampulha",
+          "nome": "Lagoa da Pampulha",
+          "descricao": "Lagoa artificial de Belo Horizonte, cercada pelo conjunto arquitetônico moderno da Pampulha.",
+          "variantes": [
+            "Lago da Pampulha",
+            "Pampulha"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "papoula",
+          "nome": "Papoula",
+          "descricao": "Papaver rhoeas, planta anual de flores vermelhas comum em campos agrícolas.",
+          "variantes": [
+            "Papoila",
+            "Papaver rhoeas",
+            "Papoula-comum"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Domingos Fernandes Calabar",
+        "descricao": "Senhor de engenho pernambucano que passou para o lado dos holandeses e foi executado pelos portugueses em 1635.",
+        "variantes": [
+          "Calabar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deserto_do_kalahari",
+          "nome": "Deserto do Kalahari",
+          "descricao": "Grande região semiárida arenosa do sul da África, em Botsuana, Namíbia e África do Sul",
+          "variantes": [
+            "Kalahari",
+            "Calaári"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "caaba",
+          "nome": "Caaba",
+          "descricao": "Santuário em forma de cubo no centro da Grande Mesquita de Meca",
+          "variantes": [
+            "Kaaba",
+            "Kaba"
+          ]
+        },
+        {
+          "id": "alhambra",
+          "nome": "Alhambra",
+          "descricao": "Palácio-fortaleza dos emires nacéridas, em Granada, na Espanha.",
+          "variantes": [
+            "Alhambra de Granada",
+            "Alambra",
+            "La Alhambra"
+          ]
+        },
+        {
+          "id": "malamar",
+          "nome": "Malamar",
+          "descricao": "Pokémon lula dos tipos Sombrio e Psíquico da sexta geração, evolução de Inkay.",
+          "variantes": [
+            "Calamanero"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Conde d'Eu",
+        "descricao": "Gastão de Orléans, príncipe francês, marido da Princesa Isabel e comandante brasileiro na fase final da Guerra do Paraguai.",
+        "variantes": [
+          "Gastão de Orléans"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gaita_de_fole",
+          "nome": "Gaita de fole",
+          "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+          "variantes": [
+            "Gaita escocesa",
+            "Bagpipe"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        },
+        {
+          "id": "marques_de_pombal",
+          "nome": "Marquês de Pombal",
+          "descricao": "Sebastião José de Carvalho e Melo, principal ministro do rei José I de Portugal (1750-1777).",
+          "variantes": [
+            "Sebastião José de Carvalho e Melo",
+            "Conde de Oeiras"
+          ]
+        },
+        {
+          "id": "conde_dracula",
+          "nome": "Conde Drácula",
+          "descricao": "Vampiro protagonista do romance Drácula, de Bram Stoker, publicado em 1897.",
+          "variantes": [
+            "Drácula",
+            "Count Dracula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Abertura dos portos às nações amigas",
+        "descricao": "Decreto de Dom João, de janeiro de 1808, que abriu os portos do Brasil ao comércio com nações aliadas de Portugal.",
+        "variantes": [
+          "Abertura dos portos de 1808"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "erupcao_do_krakatoa_de_1883",
+          "nome": "Erupção do Krakatoa de 1883",
+          "descricao": "Erupção catastrófica do vulcão Krakatoa, na Indonésia, em agosto de 1883.",
+          "variantes": [
+            "Krakatoa",
+            "Cracatoa",
+            "Krakatau"
+          ]
+        },
+        {
+          "id": "bandeira_das_nacoes_unidas",
+          "nome": "Bandeira das Nações Unidas",
+          "descricao": "Bandeira oficial da ONU, azul-clara com um mapa-múndi branco entre ramos de oliveira.",
+          "variantes": [
+            "Bandeira da ONU",
+            "Flag of the United Nations"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Imigração italiana no Brasil",
+        "descricao": "Grande fluxo de imigrantes italianos para o Brasil, sobretudo entre 1870 e 1920, em especial para as fazendas de café de São Paulo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "imigracao_alema_no_brasil",
+          "nome": "Imigração alemã no Brasil",
+          "descricao": "Movimento migratório de alemães para o Brasil, iniciado no século dezenove, com forte presença no Sul.",
+          "variantes": [
+            "Colonização alemã no Brasil"
+          ]
+        },
+        {
+          "id": "primeira_missa_no_brasil",
+          "nome": "Primeira Missa no Brasil",
+          "descricao": "Quadro de Victor Meirelles de 1860.",
+          "variantes": [
+            "A Primeira Missa no Brasil"
+          ]
+        },
+        {
+          "id": "capitanias_hereditarias",
+          "nome": "Capitanias hereditárias",
+          "descricao": "Sistema de divisão do território do Brasil colonial em faixas de terra doadas a particulares pela Coroa portuguesa a partir de 1534.",
+          "variantes": [
+            "Capitanias do Brasil"
+          ]
+        },
+        {
+          "id": "castanheira_do_para",
+          "nome": "Castanheira-do-pará",
+          "descricao": "Árvore amazônica Bertholletia excelsa, que produz a castanha-do-pará dentro de um ouriço duro",
+          "variantes": [
+            "Bertholletia excelsa",
+            "Castanha-do-brasil",
+            "Castanheira-do-brasil"
+          ]
+        },
+        {
+          "id": "castanha_do_para",
+          "nome": "Castanha-do-pará",
+          "descricao": "Semente da castanheira amazônica Bertholletia excelsa, vendida como fruto seco.",
+          "variantes": [
+            "Castanha-do-brasil",
+            "Brazil nut",
+            "Bertholletia excelsa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Guerra Guaranítica",
+        "descricao": "Conflito de 1754 a 1756 entre os guaranis das missões jesuíticas e tropas portuguesas e espanholas, no sul do Brasil.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lingua_guarani",
+          "nome": "Língua guarani",
+          "descricao": "Língua indígena da família tupi-guarani, oficial no Paraguai ao lado do espanhol",
+          "variantes": [
+            "Guarani",
+            "Avañe'ẽ"
+          ]
+        },
+        {
+          "id": "segunda_guerra_italo_etiope",
+          "nome": "Segunda Guerra Ítalo-Etíope",
+          "descricao": "Invasão da Etiópia pela Itália fascista, iniciada em 1935, que levou à ocupação do país até 1941.",
+          "variantes": [
+            "Second Italo-Ethiopian War",
+            "Guerra da Abissínia"
+          ]
+        },
+        {
+          "id": "guerra_da_cisplatina",
+          "nome": "Guerra da Cisplatina",
+          "descricao": "Guerra entre o Império do Brasil e as Províncias Unidas do Rio da Prata, de 1825 a 1828, pelo controle da Província Cisplatina.",
+          "variantes": [
+            "Guerra Argentino-Brasileira"
+          ]
+        },
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        },
+        {
+          "id": "guernica",
+          "nome": "Guernica",
+          "descricao": "Grande painel de Pablo Picasso, de 1937, sobre o bombardeio da cidade basca de Guernica na Guerra Civil Espanhola.",
+          "variantes": [
+            "Guernica (Picasso)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Correio Braziliense",
+        "descricao": "Jornal mensal fundado por Hipólito José da Costa em 1808, publicado até 1822, considerado o primeiro jornal brasileiro.",
+        "variantes": [
+          "Armazém Literário"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense",
+            "Piqui"
+          ]
+        },
+        {
+          "id": "flora_brasiliensis",
+          "nome": "Flora Brasiliensis",
+          "descricao": "Obra monumental de descrição das plantas do Brasil, publicada entre 1840 e 1906",
+          "variantes": []
+        },
+        {
+          "id": "cruzeiro_moeda",
+          "nome": "Cruzeiro (moeda)",
+          "descricao": "Moeda brasileira criada em 1942 em substituição ao mil-réis.",
+          "variantes": [
+            "Cruzeiro brasileiro"
+          ]
+        },
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Faculdade de Medicina da Bahia",
+        "descricao": "Escola de medicina criada em Salvador em fevereiro de 1808, a primeira do Brasil, hoje parte da Universidade Federal da Bahia.",
+        "variantes": [
+          "Escola de Cirurgia da Bahia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "faculdade_de_medicina_da_bahia",
+          "nome": "Faculdade de Medicina da Bahia",
+          "descricao": "Escola médica de Salvador criada em 1808 como Escola de Cirurgia da Bahia, a primeira do Brasil.",
+          "variantes": [
+            "Escola de Cirurgia da Bahia",
+            "Faculdade de Medicina da UFBA"
+          ]
+        },
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        },
+        {
+          "id": "escola_de_samba",
+          "nome": "Escola de samba",
+          "descricao": "Agremiação carnavalesca brasileira que desfila com enredo, alas, bateria, mestre-sala e porta-bandeira.",
+          "variantes": []
+        },
+        {
+          "id": "independencia_da_bahia",
+          "nome": "Independência da Bahia",
+          "descricao": "Guerra travada na Bahia entre 1822 e 1823 que expulsou as tropas portuguesas de Salvador e consolidou a Independência do Brasil.",
+          "variantes": [
+            "Dois de Julho"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 34,
+      "proposta": {
+        "nome": "Estrada de Ferro Mauá",
+        "descricao": "Primeira ferrovia do Brasil, inaugurada em 1854 por Irineu Evangelista de Sousa no fundo da Baía de Guanabara.",
+        "variantes": [
+          "Estrada de Ferro de Petrópolis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estrada_de_ferro_maua",
+          "nome": "Estrada de Ferro Mauá",
+          "descricao": "Primeira ferrovia do Brasil, construída por Irineu Evangelista de Sousa entre o porto de Mauá e Fragoso, no Rio de Janeiro.",
+          "variantes": [
+            "Imperial Companhia de Navegação a Vapor e Estrada de Ferro Petrópolis"
+          ]
+        },
+        {
+          "id": "estrada_de_ferro_madeira_mamore",
+          "nome": "Estrada de Ferro Madeira-Mamoré",
+          "descricao": "Ferrovia construída em Rondônia no início do século vinte, conhecida como Ferrovia do Diabo.",
+          "variantes": [
+            "Madeira-Mamoré",
+            "Ferrovia do Diabo"
+          ]
+        },
+        {
+          "id": "trem_do_corcovado",
+          "nome": "Trem do Corcovado",
+          "descricao": "Ferrovia de cremalheira inaugurada em 1884 que sobe o morro do Corcovado, no Rio de Janeiro.",
+          "variantes": [
+            "Estrada de Ferro do Corcovado",
+            "Corcovado Rack Railway"
+          ]
+        },
+        {
+          "id": "tratado_de_petropolis",
+          "nome": "Tratado de Petrópolis",
+          "descricao": "Acordo assinado em 1903 entre Brasil e Bolívia que incorporou o território do Acre ao Brasil.",
+          "variantes": []
+        },
+        {
+          "id": "espada_esgrima",
+          "nome": "Espada (esgrima)",
+          "descricao": "A mais pesada das três armas da esgrima, de estocada, com lâmina rígida e grande guarda em forma de sino.",
+          "variantes": [
+            "Épée",
+            "Espada de esgrima"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 35,
+      "proposta": {
+        "nome": "Salvador",
+        "descricao": "Capital da Bahia, fundada em 1549 como sede do governo-geral e primeira capital do Brasil.",
+        "variantes": [
+          "São Salvador da Bahia de Todos os Santos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salvador",
+          "nome": "Salvador",
+          "descricao": "Capital da Bahia, primeira capital do Brasil.",
+          "variantes": [
+            "São Salvador da Bahia de Todos os Santos"
+          ]
+        },
+        {
+          "id": "el_salvador",
+          "nome": "El Salvador",
+          "descricao": "País da América Central, na costa do Pacífico, cuja capital é San Salvador.",
+          "variantes": [
+            "Salvador"
+          ]
+        },
+        {
+          "id": "guanahani",
+          "nome": "Guanahani",
+          "descricao": "Ilha onde Cristóvão Colombo desembarcou pela primeira vez na América, em outubro de 1492, e que ele chamou de San Salvador.",
+          "variantes": [
+            "San Salvador",
+            "Ilha de San Salvador"
+          ]
+        },
+        {
+          "id": "ralador",
+          "nome": "Ralador",
+          "descricao": "Utensílio de cozinha com lâmina perfurada usado para ralar alimentos.",
+          "variantes": []
+        },
+        {
+          "id": "calcadeira",
+          "nome": "Calçadeira",
+          "descricao": "Utensílio de cabo longo e ponta curva usado para ajudar o calcanhar a entrar no sapato.",
+          "variantes": [
+            "Calçador",
+            "Shoehorn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 36,
+      "proposta": {
+        "nome": "Hino da Independência do Brasil",
+        "descricao": "Hino patriótico brasileiro com música de Dom Pedro Primeiro, que começa com os versos Já podeis, da Pátria filhos.",
+        "variantes": [
+          "Hino da Independência"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hino_da_independencia_do_brasil",
+          "nome": "Hino da Independência do Brasil",
+          "descricao": "Hino patriótico brasileiro com letra de Evaristo da Veiga, celebrando a independência de 1822.",
+          "variantes": [
+            "Hino da Independência"
+          ]
+        },
+        {
+          "id": "grito_de_dolores",
+          "nome": "Grito de Dolores",
+          "descricao": "Chamado à revolta feito na cidade mexicana de Dolores em 16 de setembro de 1810, que iniciou a guerra de independência do México.",
+          "variantes": [
+            "Grito de Independencia",
+            "Cry of Dolores"
+          ]
+        },
+        {
+          "id": "independencia_da_bahia",
+          "nome": "Independência da Bahia",
+          "descricao": "Guerra travada na Bahia entre 1822 e 1823 que expulsou as tropas portuguesas de Salvador e consolidou a Independência do Brasil.",
+          "variantes": [
+            "Dois de Julho"
+          ]
+        },
+        {
+          "id": "dia_da_independencia_da_polonia",
+          "nome": "Dia da Independência da Polônia",
+          "descricao": "Feriado nacional polonês que celebra a restauração da independência do país em 1918.",
+          "variantes": [
+            "Narodowe Święto Niepodległości",
+            "National Independence Day (Poland)"
+          ]
+        },
+        {
+          "id": "restauracao_da_independencia_de_portugal",
+          "nome": "Restauração da Independência de Portugal",
+          "descricao": "Movimento que encerrou a União Ibérica e aclamou dom João IV rei de Portugal, iniciando a dinastia de Bragança.",
+          "variantes": [
+            "Restauração de 1640",
+            "Restauração Portuguesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 37,
+      "proposta": {
+        "nome": "Independência ou Morte",
+        "descricao": "Quadro de 1888 que retrata o grito do Ipiranga, exposto no Museu Paulista, em São Paulo.",
+        "variantes": [
+          "O Grito do Ipiranga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "independencia_ou_morte_pintura",
+          "nome": "Independência ou Morte (pintura)",
+          "descricao": "Quadro de Pedro Américo, de 1888, também chamado O Grito do Ipiranga.",
+          "variantes": [
+            "O Grito do Ipiranga (quadro)",
+            "O Grito do Ipiranga"
+          ]
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga",
+            "Córrego do Ipiranga"
+          ]
+        },
+        {
+          "id": "separacao_do_panama_da_colombia",
+          "nome": "Separação do Panamá da Colômbia",
+          "descricao": "Independência do Panamá em relação à Colômbia, em novembro de 1903, com apoio dos Estados Unidos.",
+          "variantes": [
+            "Independência do Panamá"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 38,
+      "proposta": {
+        "nome": "Ditadura militar brasileira",
+        "descricao": "Regime autoritário governado por militares no Brasil, instaurado pelo golpe de 1964 e encerrado em 1985.",
+        "variantes": [
+          "Regime militar",
+          "Ditadura de 1964"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "restauracao_da_independencia_de_portugal",
+          "nome": "Restauração da Independência de Portugal",
+          "descricao": "Movimento que encerrou a União Ibérica e aclamou dom João IV rei de Portugal, iniciando a dinastia de Bragança.",
+          "variantes": [
+            "Restauração de 1640",
+            "Restauração Portuguesa"
+          ]
+        },
+        {
+          "id": "guerra_dos_seis_dias",
+          "nome": "Guerra dos Seis Dias",
+          "descricao": "Guerra de junho de 1967 entre Israel e Egito, Síria e Jordânia.",
+          "variantes": [
+            "Six-Day War",
+            "Guerra de 1967"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "feijoada",
+          "nome": "Feijoada",
+          "descricao": "Cozido de feijão com carnes de porco ou boi, prato emblemático do Brasil.",
+          "variantes": [
+            "Feijoada brasileira",
+            "Feijoada completa"
+          ]
+        },
+        {
+          "id": "jogos_olimpicos_de_verao_de_1940",
+          "nome": "Jogos Olímpicos de Verão de 1940",
+          "descricao": "Edição dos Jogos Olímpicos prevista para 1940, que nunca foi realizada por causa das guerras na Ásia e na Europa.",
+          "variantes": [
+            "Olimpíadas de 1940"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 39,
+      "proposta": {
+        "nome": "Cristo Redentor",
+        "descricao": "Estátua de Jesus Cristo de braços abertos no alto do morro do Corcovado, no Rio de Janeiro.",
+        "variantes": [
+          "Cristo do Corcovado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "corcovado",
+          "nome": "Corcovado",
+          "descricao": "Morro granítico de 710 metros na Floresta da Tijuca, no Rio de Janeiro, com a estátua do Cristo Redentor.",
+          "variantes": [
+            "Morro do Corcovado"
+          ]
+        },
+        {
+          "id": "trem_do_corcovado",
+          "nome": "Trem do Corcovado",
+          "descricao": "Ferrovia de cremalheira inaugurada em 1884 que sobe o morro do Corcovado, no Rio de Janeiro.",
+          "variantes": [
+            "Estrada de Ferro do Corcovado",
+            "Corcovado Rack Railway"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "rio_reno",
+          "nome": "Rio Reno",
+          "descricao": "Grande rio da Europa Ocidental que nasce nos Alpes suíços e deságua no mar do Norte, nos Países Baixos.",
+          "variantes": [
+            "Rhine",
+            "Rhein",
+            "Rhin"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Guerra distinta da aliança ou outras candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "sao_vicente",
+      "motivo": "Mesma cidade paulista fundada em 1532."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Cabanagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ciclo econômico difere da planta e de outros ciclos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Figueiredo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Eleição de 1989 não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "bandeira_do_imperio_do_brasil",
+      "motivo": "Mesma bandeira imperial, 1822-1889."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "missao_artistica_francesa",
+      "motivo": "Mesma missão artística francesa ao Rio."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Engenho não é cana nem outras candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Campanha política sem correspondente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Governo-geral sem correspondente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Expedição difere do rio e da pessoa."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Coluna de castigo difere do bairro de Salvador."
+    },
+    {
+      "caso": 16,
+      "decisao": "mesma",
+      "id_existente": "mil_reis",
+      "motivo": "Réis é variante do mil-réis, mesma moeda."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 19,
+      "decisao": "mesma",
+      "id_existente": "palacio_do_catete",
+      "motivo": "Mesmo palácio."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Plano Cruzado difere do Plano Real."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Navio genérico difere do poema."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Constituição de 1937 não está entre as candidatas."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 25,
+      "decisao": "mesma",
+      "id_existente": "teresina",
+      "motivo": "Mesma capital do Piauí."
+    },
+    {
+      "caso": 26,
+      "decisao": "mesma",
+      "id_existente": "conjunto_moderno_da_pampulha",
+      "motivo": "Mesmo conjunto arquitetônico."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Imigração italiana difere da alemã."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 33,
+      "decisao": "mesma",
+      "id_existente": "faculdade_de_medicina_da_bahia",
+      "motivo": "Mesma escola de 1808."
+    },
+    {
+      "caso": 34,
+      "decisao": "mesma",
+      "id_existente": "estrada_de_ferro_maua",
+      "motivo": "Mesma primeira ferrovia."
+    },
+    {
+      "caso": 35,
+      "decisao": "mesma",
+      "id_existente": "salvador",
+      "motivo": "Mesma cidade da Bahia."
+    },
+    {
+      "caso": 36,
+      "decisao": "nova",
+      "motivo": "Descrições divergem quanto ao autor da música (Dom Pedro I vs. letra de Evaristo da Veiga); na dúvida, nova."
+    },
+    {
+      "caso": 37,
+      "decisao": "mesma",
+      "id_existente": "independencia_ou_morte_pintura",
+      "motivo": "Mesmo quadro, também chamado O Grito do Ipiranga."
+    },
+    {
+      "caso": 38,
+      "decisao": "nova",
+      "motivo": "Sem correspondente."
+    },
+    {
+      "caso": 39,
+      "decisao": "mesma",
+      "id_existente": "cristo_redentor",
+      "motivo": "Mesma estátua."
+    }
+  ]
+}

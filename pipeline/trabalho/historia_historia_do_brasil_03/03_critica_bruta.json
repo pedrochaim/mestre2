@@ -1,0 +1,421 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelas fontes e enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que foi a revolta mais longa do Império; datas conferem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reinado de 58 anos confirmado e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'América' é ambígua (América do Sul também serviria); melhor perguntar quem assinou a lei.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1888, quem assinou a Lei Áurea, como regente, na ausência do imperador Dom Pedro II?",
+        "resposta": "Princesa Isabel",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lei_Áurea",
+          "https://pt.wikipedia.org/wiki/Lei_Áurea"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "30–40% da população confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maior produtor de açúcar nos séculos XVI e XVII confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Figueiredo governou seis anos, mais que os demais generais; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato e enunciado confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas fonte em inglês é inexistente; mantém só a fonte em português.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Na bandeira do Império do Brasil, o brasão era cercado por ramos de quais duas plantas cultivadas?",
+        "resposta": "Café e tabaco",
+        "distratores": [
+          "Cana e algodão",
+          "Café e cana-de-açúcar",
+          "Algodão e tabaco"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Império_do_Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gonzaga, autor de Marília de Dirceu, foi degredado para Moçambique.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Debret registrou os usos e costumes do país; fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moenda é o equipamento que extrai o caldo; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Osmar Santos locutor dos comícios, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nóbrega chefiou a primeira missão jesuítica em 1549.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paraíba confirmada como terceiro apoio da Aliança Liberal.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Villa-Lobos participou da Semana de 22.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goulart confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Roosevelt e Rondon confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pelourinho como local de açoite público confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta imprecisa (pesos também circularam na Colônia) e distratores problemáticos; reformulada ancorando em 1942.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Até 1942, quando foi substituída pelo cruzeiro, qual moeda circulava no Brasil desde a época colonial?",
+        "resposta": "Réis",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazilian_real_(old)",
+          "https://pt.wikipedia.org/wiki/Real_(antiga_moeda_brasileira)"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Camisas-verdes confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Compra como única forma de acesso confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "'Voto censitário' no enunciado já entrega a resposta (renda mínima).",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palácio do Catete abriga o Museu da República.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Congelamento de preços confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caçador de Esmeraldas confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tumbeiro vem de tumba, pelas muitas mortes a bordo; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Polaca por inspiração no modelo polonês confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Quem sabe a capital da Paraíba responde direto; vazamento pelo próprio nome da cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Balaio era fabricante de balaios (cestos).",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Etimologia de emboaba é disputada e o enunciado a afirma como fato; termo nem é nomeado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teresina homenageia Teresa Cristina e Petrópolis, Pedro II; boa conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (JK), mas fonte em português inexistente e trechos não citam JK; trocar fontes.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O conjunto da Pampulha, em Belo Horizonte, e a cidade de Brasília foram encomendados pelo mesmo político. Quem?",
+        "resposta": "Juscelino Kubitschek",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble",
+          "https://pt.wikipedia.org/wiki/Juscelino_Kubitschek"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos consolidados na memória como traidores.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casado com a Princesa Isabel e comandante dos aliados em 1869.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado, mas fonte inexistente; trocar por artigos existentes.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1808, a abertura dos portos brasileiros às nações amigas beneficiou principalmente qual país, aliado de Portugal?",
+        "resposta": "Inglaterra",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Transferência_da_corte_portuguesa_para_o_Brasil",
+          "https://en.wikipedia.org/wiki/Transfer_of_the_Portuguese_court_to_Brazil"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Queima de café para sustentar preços é fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Substituição dos escravos nas fazendas confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Direção da troca ambígua e 'colônia' vaza parte da resposta; reformulada.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A Guerra Guaranítica estourou depois que o Tratado de Madri, de 1750, previu a troca dos Sete Povos das Missões por qual povoação portuguesa no Rio da Prata?",
+        "resposta": "Colônia do Sacramento",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Guerra_Guaranítica",
+          "https://pt.wikipedia.org/wiki/Tratado_de_Madrid_(1750)"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correio Braziliense editado em Londres, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escola de Cirurgia da Bahia, Salvador, 1808.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ferrovia ligava a Baía de Guanabara à região de Petrópolis.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tomé de Sousa fundou Salvador em 1549.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Letra de Evaristo da Veiga, música de Pedro I, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto (Pedro Américo), mas fonte inexistente; 'criou' trocado por 'pintou'.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que pintor paraibano pintou Independência ou Morte, o quadro mais famoso do grito do Ipiranga, exposto no Museu Paulista?",
+        "resposta": "Pedro Américo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pedro_Américo",
+          "https://pt.wikipedia.org/wiki/Museu_Paulista"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "21 anos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "As datas do enunciado entregam a resposta por simples conta; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Votação da emenda em abril de 1984, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 1931 confirmada; distratores críveis.",
+      "reescrita": null
+    }
+  ]
+}
