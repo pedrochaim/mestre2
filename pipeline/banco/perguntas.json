@@ -250791,5 +250791,551 @@
       "https://en.wikipedia.org/wiki/Cerberus"
     ],
     "dificuldade": 3
+  },
+  {
+    "id": "q13501",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_guarani",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país sul-americano a língua indígena guarani é falada pela maioria da população e é oficial ao lado do espanhol?",
+    "resposta": "Paraguai",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guarani_language",
+      "https://pt.wikipedia.org/wiki/Língua_guarani"
+    ]
+  },
+  {
+    "id": "q13502",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_catala",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na Espanha, o catalão divide espaço com o castelhano. Em que pequeno principado dos Pireneus ele é a única língua oficial?",
+    "resposta": "Andorra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Catalan_language",
+      "https://en.wikipedia.org/wiki/Andorra"
+    ]
+  },
+  {
+    "id": "q13503",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_italiana",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O italiano padrão nasceu do falar usado por Dante, Petrarca e Boccaccio. De qual região da Itália vem esse falar?",
+    "resposta": "Toscana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Italian_language",
+      "https://pt.wikipedia.org/wiki/Língua_italiana"
+    ]
+  },
+  {
+    "id": "q13504",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "curdos",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O território tradicional dos curdos, sem Estado próprio, se divide entre Turquia, Iraque, Irã e qual outro país?",
+    "resposta": "Síria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kurds",
+      "https://en.wikipedia.org/wiki/Kurdistan"
+    ]
+  },
+  {
+    "id": "q13505",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "samis",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A terra dos sámis, povo criador de renas, se estende pela Noruega, pela Suécia, pela Finlândia e por qual outro país?",
+    "resposta": "Rússia",
+    "distratores": [
+      "Dinamarca",
+      "Islândia",
+      "Estônia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sámi_people",
+      "https://en.wikipedia.org/wiki/Sápmi"
+    ]
+  },
+  {
+    "id": "q13506",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "masais",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os masais, pastores conhecidos pelas vestes vermelhas, vivem no Quênia e em qual outro país africano?",
+    "resposta": "Tanzânia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maasai_people",
+      "https://www.britannica.com/topic/Maasai"
+    ]
+  },
+  {
+    "id": "q13507",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_ioruba",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A língua iorubá, presente nos cantos do candomblé, é falada principalmente em qual país da África Ocidental?",
+    "resposta": "Nigéria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yoruba_language",
+      "https://pt.wikipedia.org/wiki/Língua_iorubá"
+    ]
+  },
+  {
+    "id": "q13508",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "ianomamis",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O território dos ianomâmis, na floresta amazônica, fica dividido entre o Brasil e qual país vizinho?",
+    "resposta": "Venezuela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yanomami",
+      "https://www.britannica.com/topic/Yanomamo"
+    ]
+  },
+  {
+    "id": "q13509",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_cirilico",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Hoje associado ao russo, o alfabeto cirílico foi criado no século nove no território de qual atual país europeu?",
+    "resposta": "Bulgária",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cyrillic_script",
+      "https://pt.wikipedia.org/wiki/Alfabeto_cirílico"
+    ]
+  },
+  {
+    "id": "q13510",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_fenicio",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As cidades de Biblos, Tiro e Sídon, onde se usava o alfabeto fenício, ficam no litoral de qual país atual?",
+    "resposta": "Líbano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phoenician_alphabet",
+      "https://en.wikipedia.org/wiki/Phoenicia"
+    ]
+  },
+  {
+    "id": "q13511",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "imigracao_alema_no_brasil",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano chegaram a São Leopoldo os imigrantes que iniciaram a colonização alemã no Rio Grande do Sul?",
+    "resposta": "1824",
+    "distratores": [
+      "1808",
+      "1850",
+      "1875"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Imigração_alemã_no_Brasil",
+      "https://pt.wikipedia.org/wiki/São_Leopoldo"
+    ]
+  },
+  {
+    "id": "q13512",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "pinyin",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década a China adotou oficialmente o pinyin, sistema que escreve o mandarim com letras latinas?",
+    "resposta": "Década de 1950",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pinyin",
+      "https://pt.wikipedia.org/wiki/Pinyin"
+    ]
+  },
+  {
+    "id": "q13513",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "biblia_de_lutero",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No século dezesseis, a tradução da Bíblia feita por qual reformador religioso ajudou a fixar o alemão padrão?",
+    "resposta": "Martinho Lutero",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luther_Bible",
+      "https://pt.wikipedia.org/wiki/Martinho_Lutero"
+    ]
+  },
+  {
+    "id": "q13514",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "academia_francesa",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1635, que poderoso ministro do rei Luís treze fundou a Academia Francesa, guardiã da língua?",
+    "resposta": "Richelieu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Académie_Française",
+      "https://pt.wikipedia.org/wiki/Academia_Francesa"
+    ]
+  },
+  {
+    "id": "q13515",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "linguas_indo_europeias",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1786, em Calcutá, que juiz britânico apontou o parentesco do sânscrito com o grego e o latim?",
+    "resposta": "William Jones",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/William_Jones_(philologist)",
+      "https://en.wikipedia.org/wiki/Indo-European_languages"
+    ]
+  },
+  {
+    "id": "q13516",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "servico_de_protecao_aos_indios",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que militar, famoso pelas linhas telegráficas no sertão, foi o primeiro diretor do Serviço de Proteção aos Índios, criado em 1910?",
+    "resposta": "Cândido Rondon",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Serviço_de_Proteção_aos_Índios",
+      "https://pt.wikipedia.org/wiki/Cândido_Rondon"
+    ]
+  },
+  {
+    "id": "q13517",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_franca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A expressão língua franca vem de um falar de comércio do Mediterrâneo. Quem os árabes e os bizantinos chamavam de francos?",
+    "resposta": "Os europeus ocidentais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lingua_franca",
+      "https://en.wikipedia.org/wiki/Mediterranean_Lingua_Franca"
+    ]
+  },
+  {
+    "id": "q13518",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "latim",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A língua dos antigos romanos recebeu o nome de latim por causa de qual região da Itália central, onde fica Roma?",
+    "resposta": "Lácio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Latin",
+      "https://pt.wikipedia.org/wiki/Latim"
+    ]
+  },
+  {
+    "id": "q13519",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "aotearoa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Aotearoa, nome que os maoris dão à Nova Zelândia, costuma ser traduzido como terra de quê?",
+    "resposta": "Da longa nuvem branca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aotearoa"
+    ]
+  },
+  {
+    "id": "q13520",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "esperanto",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome esperanto vem do pseudônimo que o criador da língua usou no primeiro livro. O que essa palavra significa?",
+    "resposta": "Aquele que tem esperança",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Esperanto",
+      "https://pt.wikipedia.org/wiki/Esperanto"
+    ]
+  },
+  {
+    "id": "q13521",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "mandarim_padrao",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na China continental, o mandarim padrão é chamado de putonghua. O que significa esse nome?",
+    "resposta": "Fala comum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Standard_Chinese"
+    ]
+  },
+  {
+    "id": "q13522",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "diaspora",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra diáspora, usada para comunidades que vivem longe da terra de origem, vem do grego. O que ela significa?",
+    "resposta": "Dispersão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Diaspora",
+      "https://pt.wikipedia.org/wiki/Diáspora"
+    ]
+  },
+  {
+    "id": "q13523",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_arabe",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O al que aparece no começo de palavras como alface, almofada e alfaiate é a herança de um artigo de qual língua?",
+    "resposta": "Árabe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Influence_of_Arabic_on_other_languages",
+      "https://pt.wikipedia.org/wiki/Língua_árabe"
+    ]
+  },
+  {
+    "id": "q13524",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_galega",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O galego, falado no noroeste da Espanha, formou na Idade Média uma única língua com qual outro idioma?",
+    "resposta": "Português",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galician_language",
+      "https://en.wikipedia.org/wiki/Galician-Portuguese"
+    ]
+  },
+  {
+    "id": "q13525",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_indonesia",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A língua oficial da Indonésia é uma forma padronizada de qual outro idioma, também oficial em Brunei e em Singapura?",
+    "resposta": "Malaio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indonesian_language",
+      "https://en.wikipedia.org/wiki/Malay_language"
+    ]
+  },
+  {
+    "id": "q13526",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "linguas_indo_europeias",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Português, hindi e persa, mesmo falados em lugares distantes, pertencem à mesma família linguística. Qual?",
+    "resposta": "Indo-europeia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indo-European_languages",
+      "https://pt.wikipedia.org/wiki/Línguas_indo-europeias"
+    ]
+  },
+  {
+    "id": "q13527",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_inglesa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As palavras inglesas beef e pork, para carne de boi e de porco, vêm do francês. Que acontecimento de 1066 explica essa herança?",
+    "resposta": "A conquista normanda da Inglaterra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Norman_conquest",
+      "https://en.wikipedia.org/wiki/Anglo-Norman_language"
+    ]
+  },
+  {
+    "id": "q13528",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_romena",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Cercado de línguas eslavas e do húngaro, o romeno descende do latim por causa da conquista romana de qual antiga região?",
+    "resposta": "Dácia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Romanian_language",
+      "https://en.wikipedia.org/wiki/Roman_Dacia"
+    ]
+  },
+  {
+    "id": "q13529",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "braille",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No braile, cada letra é formada numa pequena célula de pontos em relevo. Quantos pontos tem essa célula?",
+    "resposta": "Seis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Braille",
+      "https://pt.wikipedia.org/wiki/Braille"
+    ]
+  },
+  {
+    "id": "q13530",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "linguas_da_bolivia",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Além do espanhol, quantas línguas indígenas a Constituição da Bolívia de 2009 reconhece como oficiais?",
+    "resposta": "36",
+    "distratores": [
+      "12",
+      "24",
+      "50"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Languages_of_Bolivia",
+      "https://en.wikipedia.org/wiki/Constitution_of_Bolivia"
+    ]
+  },
+  {
+    "id": "q13531",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "mandarim_padrao",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "No mandarim padrão, a mesma sílaba muda de sentido conforme o tom. Sem contar o tom neutro, quantos tons ele tem?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Dois",
+      "Seis",
+      "Nove"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Standard_Chinese_phonology",
+      "https://en.wikipedia.org/wiki/Standard_Chinese"
+    ]
+  },
+  {
+    "id": "q13532",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "belgica",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "As línguas oficiais da Bélgica são o holandês, o francês e qual outra, falada por uma pequena comunidade no leste do país?",
+    "resposta": "Alemão",
+    "distratores": [
+      "Luxemburguês",
+      "Inglês",
+      "Valão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Languages_of_Belgium",
+      "https://pt.wikipedia.org/wiki/Bélgica"
+    ]
+  },
+  {
+    "id": "q13533",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "alfabeto_portugues",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Com o Acordo Ortográfico de 1990, o alfabeto português passou a ter oficialmente vinte e seis letras. Quais três letras foram incluídas?",
+    "resposta": "K, W e Y",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Acordo_Ortográfico_de_1990",
+      "https://pt.wikipedia.org/wiki/Alfabeto_português"
+    ]
+  },
+  {
+    "id": "q13534",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_xhosa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que língua sul-africana, conhecida pelos sons de estalo, era a língua materna de Nelson Mandela?",
+    "resposta": "Xhosa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xhosa_language",
+      "https://en.wikipedia.org/wiki/Nelson_Mandela"
+    ]
+  },
+  {
+    "id": "q13535",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_aramaica",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que língua semítica era a mais falada no dia a dia da Galileia na época de Jesus?",
+    "resposta": "Aramaico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aramaic",
+      "https://en.wikipedia.org/wiki/Language_of_Jesus"
+    ]
+  },
+  {
+    "id": "q13536",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "caiapos",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "O cacique Raoni, famoso pelo disco no lábio inferior e pela defesa da Amazônia, pertence a qual povo indígena?",
+    "resposta": "Caiapó",
+    "distratores": [
+      "Xavante",
+      "Ianomâmi",
+      "Guarani"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Raoni_Metuktire",
+      "https://en.wikipedia.org/wiki/Raoni_Metuktire"
+    ]
+  },
+  {
+    "id": "q13537",
+    "tema": "Geografia",
+    "subtema": "Povos e Idiomas",
+    "ancora": "lingua_hindi",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que sistema de escrita, também usado para o sânscrito, é empregado para escrever o hindi?",
+    "resposta": "Devanágari",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hindi",
+      "https://en.wikipedia.org/wiki/Devanagari"
+    ]
   }
 ]
