@@ -1,0 +1,77 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gnaisse é rocha metamórfica de textura bandada; pergunta de reconhecimento sem vazamento, distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ametista é variedade violeta do quartzo (trechos). O enunciado não nomeia a pedra e exige reconhecê-la.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cristais escalonados iridescentes são de bismuto, fato amplamente documentado. Distratores são metais pesados parecidos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são pedras rosadas parecidas e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A rodonita, distratora, também é mineral de manganês, então o enunciado a torna defensável. Tirei a menção ao manganês e troquei a pista por uma que não a inclua.",
+      "reescrita": {
+        "pergunta": "Que mineral rosa é este?",
+        "resposta": "Rodocrosita",
+        "distratores": [
+          "Rodonita",
+          "Quartzo rosa",
+          "Turmalina rosa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Latão e bronze são ligas, não metais nativos, então são distratores fracos. Troquei por metais que também ocorrem na forma nativa.",
+      "reescrita": {
+        "pergunta": "Que metal nativo é este?",
+        "resposta": "Cobre",
+        "distratores": [
+          "Ouro",
+          "Prata",
+          "Estanho"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a resposta (estruturas construídas por micro-organismos), então a figura vira enfeite. Passei para o nível 3: reconhecer e perguntar quem as constrói.",
+      "reescrita": {
+        "pergunta": "Estas estruturas laminadas guardam alguns dos vestígios de vida mais antigos conhecidos. Que tipo de micro-organismo as constrói, sobretudo?",
+        "resposta": "Cianobactérias",
+        "distratores": [
+          "Corais",
+          "Esponjas",
+          "Moluscos"
+        ]
+      }
+    }
+  ]
+}

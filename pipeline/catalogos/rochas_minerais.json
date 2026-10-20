@@ -5,7 +5,7 @@
       "titulo": "en:Amethyst",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Geodo",
@@ -47,7 +47,7 @@
       "titulo": "en:Emerald",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Carvão mineral",
@@ -61,7 +61,7 @@
       "titulo": "en:Limestone",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Arenito",
@@ -159,21 +159,21 @@
       "titulo": "en:Native copper",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Gnaisse",
       "titulo": "en:Gneiss",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Quartzo rosa",
       "titulo": "en:Rose quartz",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Granada",
@@ -208,7 +208,7 @@
       "titulo": "en:Rhodochrosite",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cinábrio",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Areia",
+      "titulo": "en:Sand",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seixo",
+      "titulo": "en:Pebble",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Argila",
+      "titulo": "en:Clay",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Giz",
+      "titulo": "en:Chalk",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Meteorito",
+      "titulo": "en:Meteorite",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vulcão",
+      "titulo": "en:Volcano",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grand Canyon",
+      "titulo": "en:Grand Canyon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pão de Açúcar",
+      "titulo": "en:Sugarloaf Mountain",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lençóis Maranhenses",
+      "titulo": "en:Lençóis Maranhenses National Park",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Fuji",
+      "titulo": "en:Mount Fuji",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Everest",
+      "titulo": "en:Mount Everest",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cataratas do Iguaçu",
+      "titulo": "en:Iguazu Falls",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Madeira petrificada",
+      "titulo": "en:Petrified wood",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Talco",
+      "titulo": "en:Talc",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jaspe",
+      "titulo": "en:Jasper",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olho-de-tigre",
+      "titulo": "en:Tiger's eye",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ônix",
+      "titulo": "en:Onyx",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Turmalina",
+      "titulo": "en:Tourmaline",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pamukkale",
+      "titulo": "en:Pamukkale",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capadócia",
+      "titulo": "en:Cappadocia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antelope Canyon",
+      "titulo": "en:Antelope Canyon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dedo de Deus",
+      "titulo": "pt:Dedo de Deus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cânion Itaimbezinho",
+      "titulo": "pt:Cânion Itaimbezinho",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra da Gávea",
+      "titulo": "en:Pedra da Gávea",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera do Meteoro",
+      "titulo": "en:Meteor Crater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gruta do Lago Azul",
+      "titulo": "pt:Gruta do Lago Azul",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ulexita",
+      "titulo": "en:Ulexite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cristal de bismuto",
+      "titulo": "en:Bismuth",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Padrão de Widmanstätten",
+      "titulo": "en:Widmanstätten pattern",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Moldavita",
+      "titulo": "en:Moldavite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Septária",
+      "titulo": "en:Septarian concretion",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estromatólito",
+      "titulo": "en:Stromatolite",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ouro-pigmento",
+      "titulo": "en:Orpiment",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Celestita",
+      "titulo": "en:Celestine (mineral)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Conglomerado",
+      "titulo": "en:Conglomerate (geology)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Itacolomito",
+      "titulo": "en:Itacolumite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre do Diabo",
+      "titulo": "en:Devils Tower",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "The Wave (Arizona)",
+      "titulo": "en:The Wave (Arizona)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Montanhas Arco-íris de Zhangye",
+      "titulo": "en:Zhangye National Geopark",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gruta de Fingal",
+      "titulo": "en:Fingal's Cave",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

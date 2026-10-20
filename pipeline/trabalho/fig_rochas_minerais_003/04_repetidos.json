@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta pedra é uma variedade de qual mineral?",
+        "resposta": "Quartzo"
+      },
+      "existentes": [
+        {
+          "id": "q02709",
+          "pergunta": "Que variedade de quartzo é esta?",
+          "resposta": "Ametista"
+        },
+        {
+          "id": "q03132",
+          "pergunta": "Os gregos acreditavam que a ametista protegia quem a usava. O nome da pedra significa, em grego, livre de quê?",
+          "resposta": "Embriaguez"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02709",
+      "motivo": "Ambas tratam do mesmo fato: a pedra (ametista) é uma variedade de quartzo, só com a direção invertida."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Desenho esquemático de gema lapidada verde, não foto; qualquer pedra verde (peridoto, turmalina) serviria, sem resposta única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Amostra com bandas claras e escuras bem visíveis, característica do gnaisse.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rocha metamórfica é esta?",
+      "resposta": "Gnaisse",
+      "distratores": [
+        "Xisto",
+        "Granito",
+        "Quartzito"
+      ],
+      "ancora": {
+        "nome": "Gnaisse",
+        "descricao": "Rocha metamórfica de textura bandeada, com faixas alternadas claras e escuras.",
+        "variantes": [
+          "Gneiss"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Cristais incolores a azulados pálidos que podem ser confundidos com barita, calcita ou topázio; não há resposta única pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Drusa violeta muito reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta pedra é uma variedade de qual mineral?",
+      "resposta": "Quartzo",
+      "ancora": {
+        "nome": "Ametista",
+        "descricao": "Variedade violeta do quartzo, usada como gema semipreciosa.",
+        "variantes": [
+          "Amethyst"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, cristais escuros sobre quartzo; pouco legível no celular e a turmalina não é inequívoca."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cristais em escada (hopper) iridescentes e cubo ao lado, todos de bismuto; aspecto característico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que metal forma estes cristais em degraus?",
+      "resposta": "Bismuto",
+      "distratores": [
+        "Antimônio",
+        "Estanho",
+        "Chumbo"
+      ],
+      "ancora": {
+        "nome": "Cristal de bismuto",
+        "descricao": "Cristais escalonados e iridescentes do elemento químico bismuto, obtidos por solidificação do metal fundido.",
+        "variantes": [
+          "Bismuto",
+          "Bismuth"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Afloramento lamacento com martelo; pode ser argila, folhelho ou lamito, sem resposta única e pouco reconhecível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bloco bruto rosa translúcido, típico do quartzo rosa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pedra é esta?",
+      "resposta": "Quartzo rosa",
+      "distratores": [
+        "Rodocrosita",
+        "Morganita",
+        "Kunzita"
+      ],
+      "ancora": {
+        "nome": "Quartzo rosa",
+        "descricao": "Variedade rosa, translúcida e maciça de quartzo, usada em lapidação.",
+        "variantes": [
+          "Rose quartz"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cristais romboédricos rosa-avermelhados sobre matriz clara, aspecto típico da rodocrosita; múltipla escolha deixa justo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral de manganês é este?",
+      "resposta": "Rodocrosita",
+      "distratores": [
+        "Rodonita",
+        "Quartzo rosa",
+        "Granada"
+      ],
+      "ancora": {
+        "nome": "Rodocrosita",
+        "descricao": "Carbonato de manganês (MnCO3) de cor rosa a vermelha, de cristais romboédricos.",
+        "variantes": [
+          "Rhodochrosite"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Rochas estratificadas erodidas em paisagem; não é claramente identificável como calcário, resposta ambígua."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cristal dendrítico alaranjado típico de cobre nativo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que metal nativo é este?",
+      "resposta": "Cobre",
+      "distratores": [
+        "Ouro",
+        "Latão",
+        "Bronze"
+      ],
+      "ancora": {
+        "nome": "Cobre nativo",
+        "descricao": "Cobre metálico que ocorre naturalmente como mineral, em massas ou cristais dendríticos alaranjados.",
+        "variantes": [
+          "Native copper",
+          "Cobre"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Colônias de estromatólitos em águas rasas, paisagem característica de Shark Bay; múltipla escolha para justiça.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estruturas, construídas por micro-organismos, são estas?",
+      "resposta": "Estromatólitos",
+      "distratores": [
+        "Recifes de coral",
+        "Basalto almofadado",
+        "Concreções calcárias"
+      ],
+      "ancora": {
+        "nome": "Estromatólito",
+        "descricao": "Estrutura sedimentar laminada construída por comunidades de micro-organismos, sobretudo cianobactérias.",
+        "variantes": [
+          "Stromatolite",
+          "Estromatólitos"
+        ]
+      }
+    }
+  ]
+}
