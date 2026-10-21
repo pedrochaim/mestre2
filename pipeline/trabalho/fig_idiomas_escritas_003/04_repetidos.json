@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano o arqueólogo italiano Luigi Pernier descobriu, em Creta, este disco de argila da Idade do Bronze?",
+        "resposta": "1908"
+      },
+      "existentes": [
+        {
+          "id": "q13997",
+          "pergunta": "Este disco de argila foi achado numa ilha grega. Em que milênio antes de Cristo foi feito?",
+          "resposta": "Segundo milênio a.C."
+        },
+        {
+          "id": "q14196",
+          "pergunta": "Os sinais em espiral do Disco de Festo, de Creta, não foram desenhados à mão. Como foram feitos na argila?",
+          "resposta": "Carimbados com punções"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que chapéu de inverno é este?",
+        "resposta": "Ushanka"
+      },
+      "existentes": [
+        {
+          "id": "q01617",
+          "pergunta": "Que chapéu de pele com abas para cobrir as orelhas é este?",
+          "resposta": "Ushanka"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o ano da descoberta; as existentes tratam do milênio de fabricação e da técnica de carimbo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o mesmo chapéu (ushanka) a partir da imagem, com a mesma resposta.",
+      "id_existente": "q01617"
+    }
+  ]
+}

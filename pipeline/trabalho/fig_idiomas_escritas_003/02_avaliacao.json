@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, foto borrada e cortada; a zarabatana é só um tubo fino, pouco reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Objeto isolado, nítido e reconhecível sobre a grama.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este instrumento de sopro foi desenvolvido por povos originários de que país?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Nova Zelândia",
+        "Papua-Nova Guiné",
+        "Indonésia"
+      ],
+      "ancora": {
+        "nome": "Didjeridu",
+        "descricao": "Instrumento de sopro em tubo longo, desenvolvido por povos aborígenes do norte da Austrália.",
+        "variantes": [
+          "Didgeridoo",
+          "Yidaki"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Um único glifo isolado e estilizado, sem como reconhecer a escrita baybayin pela imagem; resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mostra com clareza as três escritas georgianas, sem legenda; reconhecível e legível no celular.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Estas três versões de um mesmo alfabeto são usadas para escrever o idioma de que país?",
+      "resposta": "Geórgia",
+      "distratores": [
+        "Armênia",
+        "Azerbaijão",
+        "Etiópia"
+      ],
+      "ancora": {
+        "nome": "Alfabeto georgiano",
+        "descricao": "Sistema de escrita do idioma georgiano, com as três versões Asomtavruli, Nuskhuri e Mkhedruli.",
+        "variantes": [
+          "Escrita georgiana",
+          "Mkhedruli"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem nítida das duas faces do disco, sem texto legível; reconhecível para quem conhece.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que ilha grega foi encontrado este objeto de argila com escrita ainda não decifrada?",
+      "resposta": "Creta",
+      "ancora": {
+        "nome": "Disco de Festo",
+        "descricao": "Disco de argila cozida da Idade do Bronze, achado no palácio minoico de Festo, com símbolos em espiral ainda não decifrados.",
+        "variantes": [
+          "Disco de Phaistos",
+          "Phaistos Disc"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Habitação comunitária amazônica clara; a placa verde é pequena e ilegível, sem entregar a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta habitação comunitária de palha é típica de que região?",
+      "resposta": "Amazônia",
+      "distratores": [
+        "Pampa",
+        "Patagônia",
+        "Altiplano andino"
+      ],
+      "ancora": {
+        "nome": "Maloca",
+        "descricao": "Grande cabana comunitária de madeira e palha usada por povos indígenas da região amazônica.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Amostra nítida da escrita birmanesa, de letras arredondadas, legível no celular.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que país se usa esta escrita?",
+      "resposta": "Mianmar",
+      "distratores": [
+        "Sri Lanka",
+        "Camboja",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Escrita birmanesa",
+        "descricao": "Alfabeto abugida de letras arredondadas usado para escrever o idioma birmanês, em Mianmar.",
+        "variantes": [
+          "Alfabeto birmanês",
+          "Burmese alphabet"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Chapéu isolado e nítido; o emblema pequeno não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que chapéu de inverno é este?",
+      "resposta": "Ushanka",
+      "distratores": [
+        "Papakha",
+        "Gorro frígio",
+        "Fez"
+      ],
+      "ancora": {
+        "nome": "Ushanka",
+        "descricao": "Chapéu russo de pele com abas que cobrem as orelhas e podem ser amarradas no alto.",
+        "variantes": [
+          "Chapéu ushanka",
+          "Shapka-ushanka"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de habitação em cúpula de palha; o texto de copyright não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que habitação de povos nativos norte-americanos é esta?",
+      "resposta": "Wigwam",
+      "distratores": [
+        "Tipi",
+        "Iglu",
+        "Pueblo"
+      ],
+      "ancora": {
+        "nome": "Wigwam",
+        "descricao": "Habitação em cúpula, semipermanente, coberta de palha ou casca, usada por povos nativos norte-americanos.",
+        "variantes": [
+          "Wikiup",
+          "Wickiup",
+          "Wetu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma rua de casas de chá em Kanazawa, com pessoa em primeiro plano e letreiros; não mostra uma minka com clareza."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O foco é um político em foto de evento, com o texto World Economic Forum visível; a kufiya não é o assunto claro."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mulher comum em primeiro plano, fora de festa pública."
+    }
+  ]
+}
