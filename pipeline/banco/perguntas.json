@@ -264517,5 +264517,115 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q14238",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "morro_de_sao_paulo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Esta vila turística baiana, com farol no alto do morro, fica em que ilha?",
+    "resposta": "Ilha de Tinharé",
+    "distratores": [
+      "Ilha de Itaparica",
+      "Ilha de Boipeba",
+      "Ilha de Maré"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Morro_de_S%C3%A3o_Paulo",
+      "https://en.wikipedia.org/wiki/Morro_de_S%C3%A3o_Paulo"
+    ],
+    "imagem": {
+      "arquivo": "q14238.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:FarolMorroSaoPaulo.jpg",
+      "autor": "Leonardo Pallotta",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14239",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "rio_arno",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que rio atravessa esta cidade italiana, vista do alto?",
+    "resposta": "Rio Arno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arno",
+      "https://pt.wikipedia.org/wiki/Rio_Arno"
+    ],
+    "imagem": {
+      "arquivo": "q14239.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:FirenzeDec092023_01.jpg",
+      "autor": "Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14240",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilhas_lofoten",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este arquipélago?",
+    "resposta": "Noruega",
+    "distratores": [
+      "Islândia",
+      "Suécia",
+      "Escócia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lofoten",
+      "https://pt.wikipedia.org/wiki/Lofoten"
+    ],
+    "imagem": {
+      "arquivo": "q14240.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Moskenes_Reinebringen_lub_2025-07-21_img09_Aussicht.jpg",
+      "autor": "Lukas Beck",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q14241",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "manhattan",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade americana fica esta ilha, vista do alto?",
+    "resposta": "Nova York",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manhattan",
+      "https://pt.wikipedia.org/wiki/Manhattan"
+    ],
+    "imagem": {
+      "arquivo": "q14241.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Above_Gotham.jpg",
+      "autor": "Anthony Quintano",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14242",
+    "tema": "Geografia",
+    "subtema": "Rios e Lagos",
+    "ancora": "lago_argentino",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O braço sul-sudoeste deste lago patagônico da Argentina termina diante de qual geleira?",
+    "resposta": "Perito Moreno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lake_Argentino",
+      "https://pt.wikipedia.org/wiki/Lago_Argentino"
+    ],
+    "imagem": {
+      "arquivo": "q14242.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Glaciar-Perito-Moreno-01.jpg",
+      "autor": "Tibby Jones",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]

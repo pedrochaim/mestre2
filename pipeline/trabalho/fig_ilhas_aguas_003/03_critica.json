@@ -1,0 +1,42 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Afirmações corretas (vila turística, farol, ilha de Tinharé). Distratores são outras ilhas baianas, nenhuma correta, até 3 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Arno atravessa Florença e Pisa; a resposta é a mesma para qualquer das duas. Não há vazamento e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lofoten fica na Noruega, conforme os trechos. Os distratores são países nórdicos ou do Atlântico Norte e nenhum é correto. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Manhattan é um dos cinco distritos de Nova York. A resposta é única e o enunciado não nomeia a ilha.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Várias geleiras terminam no lago (Upsala também), então a resposta não é única. 'Ao fundo' é uma afirmação sobre a foto que não dá para confirmar. A reescrita usa o fato dos trechos: o braço sul-sudoeste termina diante do Perito Moreno.",
+      "reescrita": {
+        "pergunta": "O braço sul-sudoeste deste lago patagônico da Argentina termina diante de qual geleira?",
+        "resposta": "Perito Moreno"
+      }
+    }
+  ]
+}
