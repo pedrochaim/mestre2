@@ -1,0 +1,75 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto indígena brasileiro, talhado em pedra, é este?",
+        "resposta": "Muiraquitã"
+      },
+      "existentes": [
+        {
+          "id": "q03508",
+          "pergunta": "Que herói de Mário de Andrade passa o romance tentando recuperar seu muiraquitã, amuleto amazônico de pedra verde?",
+          "resposta": "Macunaíma"
+        },
+        {
+          "id": "q08892",
+          "pergunta": "Como se chama este objeto de origem indígena amazônica?",
+          "resposta": "Muiraquitã"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é típico este brinquedo de madeira?",
+        "resposta": "Rússia"
+      },
+      "existentes": [
+        {
+          "id": "q00828",
+          "pergunta": "A matrioska, boneca russa que guarda outras menores dentro de si, teria sido inspirada num brinquedo de qual país?",
+          "resposta": "Japão"
+        },
+        {
+          "id": "q08905",
+          "pergunta": "Num conjunto de matrioskas, as bonecas russas que se encaixam umas nas outras, qual delas costuma ser maciça e não se abre?",
+          "resposta": "A menor"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que vestido é este?",
+        "resposta": "Qipao (também chamado cheongsam)"
+      },
+      "existentes": [
+        {
+          "id": "q05075",
+          "pergunta": "Que vestido chinês é este?",
+          "resposta": "Qipao (cheongsam)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q08892",
+      "motivo": "Ambas pedem identificar o objeto (muiraquitã) a partir da imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede o país típico do brinquedo (Rússia); as existentes perguntam a origem da inspiração (Japão) e qual boneca é maciça, fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q05075",
+      "motivo": "Ambas pedem o nome do mesmo vestido (qipao/cheongsam) a partir da imagem."
+    }
+  ]
+}

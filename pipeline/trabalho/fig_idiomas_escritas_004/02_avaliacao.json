@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fez vermelho com borla preta, isolado em fundo branco, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que chapéu é este?",
+      "resposta": "Fez",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fez",
+        "descricao": "Chapéu de feltro cilíndrico, sem aba, geralmente vermelho com borla preta, símbolo do Império Otomano.",
+        "variantes": [
+          "Tarboosh",
+          "Tarbush",
+          "Fes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Amuleto de pedra verde em forma de sapo, nítido; aceito como muiraquitã, com múltipla escolha para dar justiça.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto indígena brasileiro, talhado em pedra, é este?",
+      "resposta": "Muiraquitã",
+      "distratores": [
+        "Hei-tiki",
+        "Totem",
+        "Inukshuk"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Muiraquitã",
+        "descricao": "Amuleto indígena da Amazônia talhado em pedra verde, em geral em forma de sapo.",
+        "variantes": [
+          "Muyrakytã",
+          "Ybyrakytã"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Caligrafia estilizada, com letra ʻrʼ típica do assamês; a resposta não é única entre bengali e assamês e a leitura no celular é difícil."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Conjunto de bonecas russas de madeira, um só assunto, imagem clara e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é típico este brinquedo de madeira?",
+      "resposta": "Rússia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Matriosca",
+        "descricao": "Conjunto de bonecas russas de madeira que se encaixam umas dentro das outras.",
+        "variantes": [
+          "Matryoshka",
+          "Boneca russa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vestido de gola alta e fechamento lateral em manequim, claro e reconhecível como qipao.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que vestido é este?",
+      "resposta": "Qipao (também chamado cheongsam)",
+      "distratores": [
+        "Hanbok",
+        "Ao dai",
+        "Quimono"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Qipao",
+        "descricao": "Vestido feminino chinês justo, de gola alta e abertura lateral, inspirado na roupa dos manchus.",
+        "variantes": [
+          "Cheongsam",
+          "Chipao"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rumah gadang típica, com telhados curvos em chifre, foto nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo da Indonésia constrói esta casa tradicional de telhado curvo?",
+      "resposta": "Minangkabau",
+      "distratores": [
+        "Toraja",
+        "Batak",
+        "Javaneses"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rumah gadang",
+        "descricao": "Casa tradicional do povo Minangkabau, em Sumatra Ocidental, com telhado curvo de vários picos.",
+        "variantes": [
+          "Rumah bagonjong"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pontos e traços (três curtos, três longos, três curtos) em fundo branco, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que código é este?",
+      "resposta": "Código Morse",
+      "destino": 0,
+      "ancora": {
+        "nome": "Código Morse",
+        "descricao": "Sistema que codifica letras e números em sequências de pontos e traços, usado na telegrafia.",
+        "variantes": [
+          "Morse",
+          "Alfabeto Morse"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Escultura de pedras empilhadas em forma humana, silhueta clara ao entardecer; pessoas ao fundo, pequenas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estrutura de pedras empilhadas é esta?",
+      "resposta": "Inukshuk",
+      "destino": 0,
+      "ancora": {
+        "nome": "Inukshuk",
+        "descricao": "Marco de pedras empilhadas construído pelos inuítes no Ártico norte-americano.",
+        "variantes": [
+          "Inuksuk",
+          "Inuksuit"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pingente de jade em forma de figura humana estilizada, nítido, em fundo neutro.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "De que país é típico este pingente de pedra verde?",
+      "resposta": "Nova Zelândia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hei-tiki",
+        "descricao": "Pingente ornamental maori de pedra verde (pounamu), em forma de figura humana estilizada.",
+        "variantes": [
+          "Tiki maori"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, num desfile, e há texto de lojas ao fundo."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Telhados de telha escura e beirais típicos de hanok, imagem clara, sem pessoas e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de casa tradicional é esta?",
+      "resposta": "Hanok",
+      "distratores": [
+        "Minka",
+        "Siheyuan",
+        "Machiya"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hanok",
+        "descricao": "Casa tradicional coreana de telhado de telhas curvas e estrutura de madeira.",
+        "variantes": [
+          "Chosŏnjip"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada de tongkonan com telhado em forma de barco e chifres de búfalo; resolução baixa, mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que casa ancestral tradicional é esta?",
+      "resposta": "Tongkonan",
+      "distratores": [
+        "Rumah gadang",
+        "Honai",
+        "Fale"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tongkonan",
+        "descricao": "Casa ancestral tradicional do povo Toraja, em Sulawesi do Sul, na Indonésia, com telhado em forma de barco.",
+        "variantes": []
+      }
+    }
+  ]
+}
