@@ -1,0 +1,536 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Encouraçado Bismarck",
+        "descricao": "Encouraçado da Kriegsmarine alemã lançado em 1939 e afundado em 1941 após a operação Rheinübung.",
+        "variantes": [
+          "Bismarck",
+          "German battleship Bismarck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "otto_von_bismarck",
+          "nome": "Otto von Bismarck",
+          "descricao": "Estadista prussiano que unificou a Alemanha e foi seu primeiro chanceler, de 1871 a 1890.",
+          "variantes": [
+            "Bismarck",
+            "Chanceler de Ferro"
+          ]
+        },
+        {
+          "id": "yamato",
+          "nome": "Yamato",
+          "descricao": "Encouraçado da Marinha Imperial Japonesa, navio líder de sua classe, afundado em abril de 1945.",
+          "variantes": [
+            "Encouraçado Yamato",
+            "Couraçado Yamato"
+          ]
+        },
+        {
+          "id": "baia_shark",
+          "nome": "Baía Shark",
+          "descricao": "Baía da costa oeste australiana, Patrimônio Mundial, famosa pelos estromatólitos vivos de Hamelin Pool.",
+          "variantes": [
+            "Shark Bay",
+            "Hamelin Pool"
+          ]
+        },
+        {
+          "id": "jean_baptiste_de_lamarck",
+          "nome": "Jean-Baptiste de Lamarck",
+          "descricao": "Naturalista francês, pioneiro da ideia de evolução biológica.",
+          "variantes": [
+            "Lamarck",
+            "Jean-Baptiste Lamarck"
+          ]
+        },
+        {
+          "id": "bisharp",
+          "nome": "Bisharp",
+          "descricao": "Pokémon dos tipos Sombrio e Aço, número 625 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hawker Hurricane",
+        "descricao": "Caça monoplano britânico da Hawker, usado pela RAF na Batalha da Inglaterra.",
+        "variantes": [
+          "Hurricane"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "suricato",
+          "nome": "Suricato",
+          "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+          "variantes": [
+            "Suricata suricatta",
+            "Meerkat",
+            "Suricate"
+          ]
+        },
+        {
+          "id": "furacao_katrina",
+          "nome": "Furacão Katrina",
+          "descricao": "Furacão que devastou Nova Orleans e o litoral do Golfo do México nos Estados Unidos",
+          "variantes": [
+            "Hurricane Katrina",
+            "Katrina"
+          ]
+        },
+        {
+          "id": "furacao_catarina",
+          "nome": "Furacão Catarina",
+          "descricao": "Raro furacão do Atlântico Sul que atingiu o litoral de Santa Catarina e do Rio Grande do Sul",
+          "variantes": [
+            "Ciclone Catarina",
+            "Hurricane Catarina"
+          ]
+        },
+        {
+          "id": "duriao",
+          "nome": "Durião",
+          "descricao": "Fruta do sudeste asiático, de casca espinhosa e cheiro forte, do gênero Durio, chamada de rei das frutas.",
+          "variantes": [
+            "Durian"
+          ]
+        },
+        {
+          "id": "hungaro",
+          "nome": "Húngaro",
+          "descricao": "Língua urálica oficial da Hungria.",
+          "variantes": [
+            "Língua húngara",
+            "Magiar",
+            "Hungarian"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dwight D. Eisenhower",
+        "descricao": "General americano que comandou as forças aliadas na Europa na Segunda Guerra e foi o 34º presidente dos Estados Unidos.",
+        "variantes": [
+          "Eisenhower",
+          "Ike"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicicleta",
+          "nome": "Bicicleta",
+          "descricao": "Veículo de duas rodas, movido por pedais, inventado na Europa no século dezenove.",
+          "variantes": [
+            "Bike"
+          ]
+        },
+        {
+          "id": "bicicleta_pokemon",
+          "nome": "Bicicleta (Pokémon)",
+          "descricao": "Meio de transporte do jogador nos jogos Pokémon, que permite andar mais rápido que a pé.",
+          "variantes": [
+            "Bicycle",
+            "Bike"
+          ]
+        },
+        {
+          "id": "ikea",
+          "nome": "Ikea",
+          "descricao": "Rede sueca de lojas de móveis fundada em 1943 por Ingvar Kamprad.",
+          "variantes": []
+        },
+        {
+          "id": "nice_mitologia",
+          "nome": "Nice (mitologia)",
+          "descricao": "Deusa grega alada que personifica a vitória.",
+          "variantes": [
+            "Nike",
+            "Niké"
+          ]
+        },
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ninho da Águia",
+        "descricao": "Casa de montanha no pico Kehlstein, perto de Berchtesgaden, na Alemanha, concluída em 1938 para o Partido Nazista.",
+        "variantes": [
+          "Kehlsteinhaus",
+          "Eagle's Nest"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boto_cinza",
+          "nome": "Boto-cinza",
+          "descricao": "Golfinho costeiro e de estuário Sotalia guianensis, de dorso cinza, encontrado no litoral da América do Sul e Central.",
+          "variantes": [
+            "Boto",
+            "Golfinho-da-guiana",
+            "Sotalia guianensis"
+          ]
+        },
+        {
+          "id": "hino_da_russia",
+          "nome": "Hino da Rússia",
+          "descricao": "Hino nacional da Federação Russa, com melodia de Aleksandr Aleksandrov.",
+          "variantes": [
+            "Hino Nacional da Federação Russa",
+            "State Anthem of the Russian Federation"
+          ]
+        },
+        {
+          "id": "ode_a_alegria",
+          "nome": "Ode à Alegria",
+          "descricao": "Poema de Friedrich Schiller, de 1785, usado no movimento final da Nona Sinfonia de Beethoven.",
+          "variantes": [
+            "An die Freude",
+            "Hino à Alegria"
+          ]
+        },
+        {
+          "id": "nebulosa_da_aguia",
+          "nome": "Nebulosa da Águia",
+          "descricao": "Nebulosa de formação de estrelas na constelação da Serpente, onde ficam os Pilares da Criação (Messier 16).",
+          "variantes": [
+            "Messier 16",
+            "M16",
+            "NGC 6611",
+            "Pilares da Criação"
+          ]
+        },
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "De Havilland Mosquito",
+        "descricao": "Bimotor britânico multifunção da Segunda Guerra Mundial, de estrutura quase toda de madeira.",
+        "variantes": [
+          "Mosquito",
+          "DH.98 Mosquito",
+          "Mossie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mosquito",
+          "nome": "Mosquito",
+          "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+          "variantes": [
+            "Pernilongo",
+            "Muriçoca",
+            "Culicidae",
+            "Carapanã"
+          ]
+        },
+        {
+          "id": "de_havilland_comet",
+          "nome": "de Havilland Comet",
+          "descricao": "Avião britânico da de Havilland, primeiro jato comercial de passageiros a entrar em serviço, em 1952.",
+          "variantes": [
+            "DH.106 Comet",
+            "Comet"
+          ]
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        },
+        {
+          "id": "terno_zhongshan",
+          "nome": "Terno Zhongshan",
+          "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+          "variantes": [
+            "Terno Mao",
+            "Zhongshan suit",
+            "Mao suit"
+          ]
+        },
+        {
+          "id": "lionel_messi",
+          "nome": "Lionel Messi",
+          "descricao": "Atacante argentino ídolo do Barcelona, campeão mundial com a Argentina em 2022.",
+          "variantes": [
+            "Leo Messi",
+            "Lionel Andrés Messi",
+            "Messi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ponte Latina",
+        "descricao": "Ponte otomana sobre o rio Miljacka, em Sarajevo, perto da qual Franz Ferdinand foi assassinado em 1914.",
+        "variantes": [
+          "Latinska ćuprija",
+          "Latin Bridge",
+          "Ponte de Princip"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "sao_tome_e_principe",
+          "nome": "São Tomé e Príncipe",
+          "descricao": "País insular do Golfo da Guiné, antiga colônia portuguesa, formado por duas ilhas principais.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_platinum",
+          "nome": "Pokémon Platinum",
+          "descricao": "Versão especial de Pokémon Diamond e Pearl para Nintendo DS, ambientada em Sinnoh, com o lendário Giratina na capa.",
+          "variantes": [
+            "Pokémon Platina"
+          ]
+        },
+        {
+          "id": "polaina",
+          "nome": "Polaina",
+          "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+          "variantes": [
+            "Spats",
+            "Polainas"
+          ]
+        },
+        {
+          "id": "ponte_dos_suspiros",
+          "nome": "Ponte dos Suspiros",
+          "descricao": "Ponte de pedra coberta em Veneza que liga o Palácio Ducal às antigas prisões.",
+          "variantes": [
+            "Ponte dei Sospiri",
+            "Bridge of Sighs"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Submarino U-boot Tipo VII",
+        "descricao": "Classe de submarinos médios alemães, a espinha dorsal da Batalha do Atlântico na Segunda Guerra Mundial.",
+        "variantes": [
+          "Type VII",
+          "U-boot Tipo VII",
+          "U-995"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clemente_vii",
+          "nome": "Clemente VII",
+          "descricao": "Papa de 1523 a 1534, nascido Giulio de Médici, que governava a Igreja durante o Saque de Roma de 1527.",
+          "variantes": [
+            "Papa Clemente VII",
+            "Giulio de' Medici"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Canhão 88 (Flak 88)",
+        "descricao": "Canhão alemão de 88 mm, antiaéreo e antitanque, usado na Segunda Guerra Mundial.",
+        "variantes": [
+          "Flak 88",
+          "8.8 cm Flak",
+          "Acht-acht",
+          "Oitenta e oito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "28_numero",
+          "nome": "28 (número)",
+          "descricao": "Número natural vinte e oito, o segundo número perfeito.",
+          "variantes": [
+            "Vinte e oito"
+          ]
+        },
+        {
+          "id": "a_ronda_noturna",
+          "nome": "A Ronda Noturna",
+          "descricao": "Quadro de Rembrandt no Rijksmuseum.",
+          "variantes": [
+            "The Night Watch",
+            "De Nachtwacht"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "tebas",
+          "nome": "Tebas",
+          "descricao": "Antiga cidade do Alto Egito, capital no Novo Império, onde hoje fica Luxor",
+          "variantes": [
+            "Tebas (Egito)",
+            "Uaset",
+            "Waset",
+            "Thebes"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Submetralhadora Thompson",
+        "descricao": "Submetralhadora americana criada por John T. Thompson em 1918, famosa nos anos 1920 e na Segunda Guerra Mundial.",
+        "variantes": [
+          "Thompson",
+          "Tommy gun",
+          "Thompson submachine gun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "top_gun_ases_indomaveis",
+          "nome": "Top Gun: Ases Indomáveis",
+          "descricao": "Filme americano de 1986, estrelado por Tom Cruise, sobre pilotos de caça da Marinha.",
+          "variantes": [
+            "Top Gun"
+          ]
+        },
+        {
+          "id": "george_paget_thomson",
+          "nome": "George Paget Thomson",
+          "descricao": "Físico britânico (1892–1975), filho de J. J. Thomson, Nobel de Física de 1937 pela difração de elétrons.",
+          "variantes": [
+            "G. P. Thomson"
+          ]
+        },
+        {
+          "id": "os_simpsons",
+          "nome": "Os Simpsons",
+          "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield.",
+          "variantes": [
+            "The Simpsons"
+          ]
+        },
+        {
+          "id": "thomas_edison",
+          "nome": "Thomas Edison",
+          "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+          "variantes": [
+            "Thomas Alva Edison"
+          ]
+        },
+        {
+          "id": "homer_simpson",
+          "nome": "Homer Simpson",
+          "descricao": "Personagem de Os Simpsons, o pai da família, funcionário da usina nuclear de Springfield.",
+          "variantes": [
+            "Homer Jay Simpson"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Navio Bismarck é distinto de Otto von Bismarck e de outros candidatos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Avião Hawker Hurricane não corresponde a furacões nem outras candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Eisenhower não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Casa Kehlsteinhaus não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Avião Mosquito é distinto do inseto e do Comet."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ponte Latina de Sarajevo não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Classe de submarinos distinta de Clemente VII."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Canhão Flak 88 não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Submetralhadora Thompson não está entre as candidatas."
+    }
+  ]
+}

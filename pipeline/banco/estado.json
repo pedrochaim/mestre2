@@ -615,9 +615,10 @@
     "fig_guerras_mundiais_001",
     "fig_artefatos_antigos_002",
     "fig_artefatos_antigos_003",
-    "fig_guerras_mundiais_002"
+    "fig_guerras_mundiais_002",
+    "fig_guerras_mundiais_003"
   ],
-  "maior_id": 14311,
+  "maior_id": 14320,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1218,16 +1219,17 @@
     },
     "guerras_mundiais": {
       "familias": {
-        "o_que_e": 8,
-        "quando": 2,
-        "com_o_que_se_liga": 2
+        "o_que_e": 13,
+        "quando": 5,
+        "com_o_que_se_liga": 2,
+        "que_tipo": 1
       },
       "niveis": {
-        "1": 5,
-        "2": 5,
-        "3": 2
+        "1": 9,
+        "2": 9,
+        "3": 3
       },
-      "registradas": 12
+      "registradas": 21
     }
   },
   "rendimento": {

@@ -1,0 +1,87 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançado em 14 de fevereiro de 1939, confirmado nos trechos. Distratores são anos próximos e nenhum é o ano do lançamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. A resposta é única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Eisenhower tomou posse duas vezes (1953 e 1957), então 1957 é defensável. É preciso especificar a primeira posse.",
+      "reescrita": {
+        "pergunta": "Em que ano este general americano tomou posse pela primeira vez como presidente dos Estados Unidos?",
+        "resposta": "1953",
+        "distratores": [
+          "1949",
+          "1957",
+          "1961"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Falha no teste da imagem coberta: casa no topo de montanha ligada ao regime nazista já identifica o Ninho da Águia. A pista precisa ser mais genérica.",
+      "reescrita": {
+        "pergunta": "Que edifício de montanha, na Alemanha, é este?",
+        "resposta": "Ninho da Águia (Kehlsteinhaus)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O primeiro protótipo voou em 25 de novembro de 1940, segundo o trecho em português. Os distratores são anos próximos e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista (ponte otomana de pedra nos Bálcãs) ajuda sem entregar, e a imagem distingue a ponte. O trecho confirma que é otomana e de pedra.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Tipo VII é classe de submarinos médios alemães da Segunda Guerra. Os distratores são classes alemãs críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores Bofors e QF 3,7 não são alemães, então o enunciado já os elimina. É preciso distratores alemães.",
+      "reescrita": {
+        "pergunta": "Que canhão alemão da Segunda Guerra Mundial é este?",
+        "resposta": "Canhão 88 (Flak 88)",
+        "distratores": [
+          "Pak 40",
+          "Pak 38",
+          "Flak 38"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem vazamento. A Thompson é uma submetralhadora americana, conforme os trechos.",
+      "reescrita": null
+    }
+  ]
+}

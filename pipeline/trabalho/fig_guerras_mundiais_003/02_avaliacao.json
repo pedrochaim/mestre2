@@ -1,0 +1,220 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara do encouraçado, sem texto. Pergunta sobre o ano de lançamento ao mar.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este encouraçado alemão foi lançado ao mar em que ano?",
+      "resposta": "1939",
+      "distratores": [
+        "1938",
+        "1940",
+        "1941"
+      ],
+      "ancora": {
+        "nome": "Encouraçado Bismarck",
+        "descricao": "Encouraçado da Kriegsmarine alemã lançado em 1939 e afundado em 1941 após a operação Rheinübung.",
+        "variantes": [
+          "Bismarck",
+          "German battleship Bismarck"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Caça bem visível, com asas retas e grossas que o distinguem do Spitfire. O código de esquadrão não entrega o nome.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caça britânico da Segunda Guerra Mundial é este?",
+      "resposta": "Hawker Hurricane",
+      "ancora": {
+        "nome": "Hawker Hurricane",
+        "descricao": "Caça monoplano britânico da Hawker, usado pela RAF na Batalha da Inglaterra.",
+        "variantes": [
+          "Hurricane"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto. A pergunta vai além do nome, pedindo o ano da posse presidencial.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este general americano tomou posse como presidente dos Estados Unidos?",
+      "resposta": "1953",
+      "distratores": [
+        "1949",
+        "1957",
+        "1961"
+      ],
+      "ancora": {
+        "nome": "Dwight D. Eisenhower",
+        "descricao": "General americano que comandou as forças aliadas na Europa na Segunda Guerra e foi o 34º presidente dos Estados Unidos.",
+        "variantes": [
+          "Eisenhower",
+          "Ike"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A construção no alto do pico é reconhecível. Há turistas pequenos ao fundo, sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que casa no topo de uma montanha dos Alpes bávaros, ligada ao regime nazista, é esta?",
+      "resposta": "Ninho da Águia (Kehlsteinhaus)",
+      "ancora": {
+        "nome": "Ninho da Águia",
+        "descricao": "Casa de montanha no pico Kehlstein, perto de Berchtesgaden, na Alemanha, concluída em 1938 para o Partido Nazista.",
+        "variantes": [
+          "Kehlsteinhaus",
+          "Eagle's Nest"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta bimotora característica, com faixas de invasão e sem texto. Pergunta sobre o ano do primeiro voo.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano voou pela primeira vez este bimotor britânico?",
+      "resposta": "1940",
+      "distratores": [
+        "1938",
+        "1939",
+        "1941"
+      ],
+      "ancora": {
+        "nome": "De Havilland Mosquito",
+        "descricao": "Bimotor britânico multifunção da Segunda Guerra Mundial, de estrutura quase toda de madeira.",
+        "variantes": [
+          "Mosquito",
+          "DH.98 Mosquito",
+          "Mossie"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A vista aérea do prédio não permite reconhecer a casa. Há muitos transeuntes em primeiro plano e uma assinatura do fotógrafo na imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ponte de pedra de arcos sobre o rio, reconhecível. O trecho 'MUSEUM' na fachada não entrega a resposta. Pergunta de reconhecimento direto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ponte otomana de pedra, numa cidade dos Bálcãs, é esta?",
+      "resposta": "Ponte Latina",
+      "ancora": {
+        "nome": "Ponte Latina",
+        "descricao": "Ponte otomana sobre o rio Miljacka, em Sarajevo, perto da qual Franz Ferdinand foi assassinado em 1914.",
+        "variantes": [
+          "Latinska ćuprija",
+          "Latin Bridge",
+          "Ponte de Princip"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto histórica com duas operadoras em primeiro plano. A máquina não é reconhecível pela imagem e pode ser confundida com outros computadores da época."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Submarino-museu bem visível, com silhueta de Tipo VII. A matrícula na proa é pequena e não entrega a classe.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que classe pertence este submarino alemão da Segunda Guerra Mundial?",
+      "resposta": "Tipo VII",
+      "distratores": [
+        "Tipo IX",
+        "Tipo XXI",
+        "Tipo II"
+      ],
+      "ancora": {
+        "nome": "Submarino U-boot Tipo VII",
+        "descricao": "Classe de submarinos médios alemães, a espinha dorsal da Batalha do Atlântico na Segunda Guerra Mundial.",
+        "variantes": [
+          "Type VII",
+          "U-boot Tipo VII",
+          "U-995"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Canhão exposto em museu, nítido, sem texto que entregue a resposta. A visitante ao fundo está esmaecida.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que canhão alemão da Segunda Guerra Mundial é este?",
+      "resposta": "Canhão 88 (Flak 88)",
+      "distratores": [
+        "Pak 40",
+        "Bofors 40 milímetros",
+        "QF 3,7 polegadas"
+      ],
+      "ancora": {
+        "nome": "Canhão 88 (Flak 88)",
+        "descricao": "Canhão alemão de 88 mm, antiaéreo e antitanque, usado na Segunda Guerra Mundial.",
+        "variantes": [
+          "Flak 88",
+          "8.8 cm Flak",
+          "Acht-acht",
+          "Oitenta e oito"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A legenda 'SIR DOUGLAS HAIG' aparece no topo da foto e entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto limpa da arma com fundo branco, forma característica com cabo de madeira, carregador reto e sem texto legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que submetralhadora americana é esta?",
+      "resposta": "Thompson",
+      "ancora": {
+        "nome": "Submetralhadora Thompson",
+        "descricao": "Submetralhadora americana criada por John T. Thompson em 1918, famosa nos anos 1920 e na Segunda Guerra Mundial.",
+        "variantes": [
+          "Thompson",
+          "Tommy gun",
+          "Thompson submachine gun"
+        ]
+      }
+    }
+  ]
+}
