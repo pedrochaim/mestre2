@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno é este, registrado à noite?",
+        "resposta": "Incêndio florestal"
+      },
+      "existentes": [
+        {
+          "id": "q14071",
+          "pergunta": "Que tipo de catástrofe ambiental é esta?",
+          "resposta": "Incêndio florestal"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q14071",
+      "motivo": "Ambas são perguntas de identificação de imagem com a mesma resposta (Incêndio florestal); acertar uma levaria a acertar a outra."
+    }
+  ]
+}

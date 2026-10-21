@@ -174941,5 +174941,85 @@
       "pt": 620,
       "en": 48475
     }
+  },
+  {
+    "id": "rastro_de_condensacao",
+    "nome": "Rastro de condensação",
+    "descricao": "Nuvem em forma de linha produzida pelo escapamento ou pela pressão das aeronaves em grande altitude.",
+    "variantes": [
+      "Contrail",
+      "Rasto de condensação",
+      "Rastro de vapor"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Contrail",
+      "https://pt.wikipedia.org/wiki/Rasto_de_condensa%C3%A7%C3%A3o"
+    ]
+  },
+  {
+    "id": "asperitas",
+    "nome": "Asperitas",
+    "descricao": "Formação de nuvem de base ondulada e agitada, antes chamada Undulatus asperatus.",
+    "variantes": [
+      "Undulatus asperatus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Asperitas_%28cloud%29",
+      "https://pt.wikipedia.org/wiki/Asperitas"
+    ]
+  },
+  {
+    "id": "parelio",
+    "nome": "Parélio",
+    "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+    "variantes": [
+      "Sun dog",
+      "Falso sol",
+      "Cão-do-sol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sun_dog",
+      "https://pt.wikipedia.org/wiki/Par%C3%A9lio"
+    ]
+  },
+  {
+    "id": "nuvem_nacarada",
+    "nome": "Nuvem nacarada",
+    "descricao": "Nuvem estratosférica polar de cristais de gelo, de brilho iridescente como madrepérola.",
+    "variantes": [
+      "Nuvem estratosférica polar",
+      "Nuvem de madrepérola"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Polar_stratospheric_cloud",
+      "https://pt.wikipedia.org/wiki/Nuvem_estratosf%C3%A9rica_polar"
+    ]
+  },
+  {
+    "id": "sprite_relampago",
+    "nome": "Sprite (relâmpago)",
+    "descricao": "Grande descarga elétrica avermelhada na mesosfera, acima das nuvens de tempestade.",
+    "variantes": [
+      "Sprite vermelho",
+      "Red sprite",
+      "Raio sprite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sprite_%28lightning%29",
+      "https://pt.wikipedia.org/wiki/Sprite_%28raio%29"
+    ]
+  },
+  {
+    "id": "nuvem_noctilucente",
+    "nome": "Nuvem noctilucente",
+    "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo.",
+    "variantes": [
+      "Nuvem mesosférica polar",
+      "Nuvem que brilha à noite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Noctilucent_cloud",
+      "https://pt.wikipedia.org/wiki/Nuvem_noctilucente"
+    ]
   }
 ]

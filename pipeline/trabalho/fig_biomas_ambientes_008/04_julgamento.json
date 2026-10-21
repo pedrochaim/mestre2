@@ -1,0 +1,432 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Incêndio florestal",
+        "descricao": "Fogo não planejado e descontrolado em vegetação combustível, como florestas.",
+        "variantes": [
+          "Queimada",
+          "Incêndio de vegetação",
+          "Wildfire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "incendio_florestal",
+          "nome": "Incêndio florestal",
+          "descricao": "Fogo não planejado e descontrolado em vegetação combustível, como florestas e matas.",
+          "variantes": [
+            "Queimada",
+            "Incêndio de vegetação",
+            "Wildfire"
+          ]
+        },
+        {
+          "id": "mandibula",
+          "nome": "Mandíbula",
+          "descricao": "Osso móvel da parte inferior do rosto, que sustenta os dentes de baixo.",
+          "variantes": [
+            "Maxilar inferior",
+            "Queixada"
+          ]
+        },
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "keffiyeh",
+          "nome": "Keffiyeh",
+          "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+          "variantes": [
+            "Quefia",
+            "Shemagh",
+            "Ghutrah",
+            "Hattah",
+            "Kufiyya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Rastro de condensação",
+        "descricao": "Nuvem em forma de linha produzida pelo escapamento ou pela pressão das aeronaves em grande altitude.",
+        "variantes": [
+          "Contrail",
+          "Rasto de condensação",
+          "Rastro de vapor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        },
+        {
+          "id": "coral",
+          "nome": "Coral",
+          "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+          "variantes": [
+            "Corais"
+          ]
+        },
+        {
+          "id": "monotrilho",
+          "nome": "Monotrilho",
+          "descricao": "Sistema de transporte urbano sobre trilhos em que os trens correm sobre uma única viga ou pendurados nela.",
+          "variantes": [
+            "Monorail",
+            "Monocarril"
+          ]
+        },
+        {
+          "id": "contrabaixo",
+          "nome": "Contrabaixo",
+          "descricao": "Instrumento de cordas friccionadas, tocado de pé, o maior da família das cordas na orquestra.",
+          "variantes": [
+            "Contrabaixo acústico",
+            "Double bass"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Asperitas",
+        "descricao": "Formação de nuvem de base ondulada e agitada, antes chamada Undulatus asperatus.",
+        "variantes": [
+          "Undulatus asperatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gas_mostarda",
+          "nome": "Gás mostarda",
+          "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial.",
+          "variantes": [
+            "Iperita",
+            "Yperite",
+            "Mustard gas"
+          ]
+        },
+        {
+          "id": "aspirina",
+          "nome": "Aspirina",
+          "descricao": "Medicamento à base de ácido acetilsalicílico, lançado pela Bayer em 1899, usado contra dor, febre e inflamação.",
+          "variantes": [
+            "Ácido acetilsalicílico",
+            "Aspirin"
+          ]
+        },
+        {
+          "id": "ordem_dos_assassinos",
+          "nome": "Ordem dos Assassinos",
+          "descricao": "Seita ismaelita nizarita que atuou na Pérsia e na Síria entre os séculos onze e treze, famosa por assassinatos políticos.",
+          "variantes": [
+            "Hashashin",
+            "Nizaritas",
+            "Assassinos",
+            "Order of Assassins"
+          ]
+        },
+        {
+          "id": "esparta",
+          "nome": "Esparta",
+          "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+          "variantes": [
+            "Sparta",
+            "Lacedemônia"
+          ]
+        },
+        {
+          "id": "pirita",
+          "nome": "Pirita",
+          "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+          "variantes": [
+            "Pyrite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Parélio",
+        "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+        "variantes": [
+          "Sun dog",
+          "Falso sol",
+          "Cão-do-sol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dicionario_aurelio",
+          "nome": "Dicionário Aurélio",
+          "descricao": "Dicionário da língua portuguesa de Aurélio Buarque de Holanda Ferreira, cujo nome virou sinônimo de dicionário no Brasil",
+          "variantes": [
+            "Novo Dicionário Aurélio da Língua Portuguesa",
+            "Aurélio"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "caverna_son_doong",
+          "nome": "Caverna Son Doong",
+          "descricao": "Enorme caverna no Parque Nacional Phong Nha-Ke Bang, com floresta e clima próprios.",
+          "variantes": [
+            "Hang Sơn Đoòng",
+            "Son Doong",
+            "Hang Son Doong",
+            "Son Doong Cave"
+          ]
+        },
+        {
+          "id": "paramecio",
+          "nome": "Paramécio",
+          "descricao": "Protozoário ciliado unicelular de água doce, de corpo oval, muito usado como organismo-modelo em laboratório.",
+          "variantes": [
+            "Paramecium"
+          ]
+        },
+        {
+          "id": "halo_solar",
+          "nome": "Halo solar",
+          "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+          "variantes": [
+            "Halo",
+            "Halo de 22 graus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Nuvem nacarada",
+        "descricao": "Nuvem estratosférica polar de cristais de gelo, de brilho iridescente como madrepérola.",
+        "variantes": [
+          "Nuvem estratosférica polar",
+          "Nuvem de madrepérola"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nuvem_voadora",
+          "nome": "Nuvem Voadora",
+          "descricao": "Nuvem amarela mágica usada por Goku como meio de transporte em Dragon Ball.",
+          "variantes": [
+            "Kinto'un",
+            "Flying Nimbus"
+          ]
+        },
+        {
+          "id": "nuvem_lenticular",
+          "nome": "Nuvem lenticular",
+          "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma ao lado de montanhas.",
+          "variantes": [
+            "Lenticular",
+            "Lenticularis"
+          ]
+        },
+        {
+          "id": "marshtomp",
+          "nome": "Marshtomp",
+          "descricao": "Pokémon anfíbio de água e terra da terceira geração, forma intermediária entre Mudkip e Swampert, número 259 da Pokédex Nacional.",
+          "variantes": [
+            "Numacraw"
+          ]
+        },
+        {
+          "id": "jovem_guarda",
+          "nome": "Jovem Guarda",
+          "descricao": "Movimento e programa de TV dos anos 1960, liderado por Roberto Carlos, Erasmo Carlos e Wanderléa.",
+          "variantes": []
+        },
+        {
+          "id": "estrela_polar",
+          "nome": "Estrela Polar",
+          "descricao": "Estrela muito próxima do polo norte celeste, usada há séculos para indicar o norte.",
+          "variantes": [
+            "Polaris",
+            "Alfa da Ursa Menor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sprite (relâmpago)",
+        "descricao": "Grande descarga elétrica avermelhada na mesosfera, acima das nuvens de tempestade.",
+        "variantes": [
+          "Sprite vermelho",
+          "Red sprite",
+          "Raio sprite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cogumelo_gaiola",
+          "nome": "Cogumelo-gaiola",
+          "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+          "variantes": [
+            "Clathrus ruber",
+            "Cesto-vermelho"
+          ]
+        },
+        {
+          "id": "pimentao",
+          "nome": "Pimentão",
+          "descricao": "Fruto de Capsicum annuum do grupo Grossum, usado como hortaliça, aqui vermelho.",
+          "variantes": [
+            "Pimentão vermelho",
+            "Bell pepper"
+          ]
+        },
+        {
+          "id": "rabanete",
+          "nome": "Rabanete",
+          "descricao": "Raiz pequena e arredondada de Raphanus sativus, de sabor picante, comida crua em saladas.",
+          "variantes": [
+            "Rabanete-vermelho"
+          ]
+        },
+        {
+          "id": "sprite",
+          "nome": "Sprite",
+          "descricao": "Refrigerante incolor de limão da Coca-Cola, lançado nos Estados Unidos em 1961.",
+          "variantes": []
+        },
+        {
+          "id": "mar_vermelho",
+          "nome": "Mar Vermelho",
+          "descricao": "Braço do oceano Índico entre a península Arábica e o nordeste da África, ligado ao Mediterrâneo pelo canal de Suez.",
+          "variantes": [
+            "Red Sea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nuvem noctilucente",
+        "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo.",
+        "variantes": [
+          "Nuvem mesosférica polar",
+          "Nuvem que brilha à noite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penitentes",
+          "nome": "Penitentes",
+          "descricao": "Formação de neve ou gelo em lâminas finas e pontiagudas, típica de grandes altitudes nos Andes secos.",
+          "variantes": [
+            "Nieves penitentes",
+            "Neve penitente"
+          ]
+        },
+        {
+          "id": "paranthropus_boisei",
+          "nome": "Paranthropus boisei",
+          "descricao": "Espécie de hominídeo robusto da África Oriental, conhecida pela mandíbula maciça e pelos molares enormes.",
+          "variantes": [
+            "Zinjanthropus boisei",
+            "Zinj",
+            "Homem Quebra-Nozes"
+          ]
+        },
+        {
+          "id": "nuvem_lenticular",
+          "nome": "Nuvem lenticular",
+          "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma ao lado de montanhas.",
+          "variantes": [
+            "Lenticular",
+            "Lenticularis"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "incendio_florestal",
+      "motivo": "Mesmo conceito, descrição e variantes praticamente idênticas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é rastro de condensação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a formação de nuvem asperitas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Parélio é distinto do halo solar, outro fenômeno óptico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nuvem nacarada é distinta da nuvem lenticular e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sprite (relâmpago) é fenômeno atmosférico, diferente do refrigerante Sprite."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nuvem noctilucente é distinta da nuvem lenticular e das outras candidatas."
+    }
+  ]
+}

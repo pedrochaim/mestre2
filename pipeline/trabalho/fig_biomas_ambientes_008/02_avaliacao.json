@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Savana de palmeiras e arbustos sem traço exclusivo; pode ser Pantanal, Llanos ou outra savana. Resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Colinas com arbustos e plantas de folhas finas sem traço reconhecível; não se identifica charneca pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Incêndio em floresta de coníferas à noite, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno é este, registrado à noite numa floresta?",
+      "resposta": "Incêndio florestal",
+      "ancora": {
+        "nome": "Incêndio florestal",
+        "descricao": "Fogo não planejado e descontrolado em vegetação combustível, como florestas.",
+        "variantes": [
+          "Queimada",
+          "Incêndio de vegetação",
+          "Wildfire"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Avião de quatro motores com quatro rastros brancos nítidos sobre céu azul.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este fenômeno visível atrás do avião?",
+      "resposta": "Rastro de condensação",
+      "ancora": {
+        "nome": "Rastro de condensação",
+        "descricao": "Nuvem em forma de linha produzida pelo escapamento ou pela pressão das aeronaves em grande altitude.",
+        "variantes": [
+          "Contrail",
+          "Rasto de condensação",
+          "Rastro de vapor"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Nuvem ondulada e escura de aspecto característico, sem texto; distinguível de outras formações.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que formação de nuvem é esta, de aspecto ondulado e ameaçador?",
+      "resposta": "Asperitas",
+      "distratores": [
+        "Nuvem lenticular",
+        "Mamatus",
+        "Nuvem nacarada"
+      ],
+      "ancora": {
+        "nome": "Asperitas",
+        "descricao": "Formação de nuvem de base ondulada e agitada, antes chamada Undulatus asperatus.",
+        "variantes": [
+          "Undulatus asperatus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Três sóis com halos coloridos e pilares de luz ao entardecer; parélio visível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno óptico da atmosfera é este?",
+      "resposta": "Parélio",
+      "distratores": [
+        "Miragem",
+        "Aurora boreal",
+        "Arco-íris"
+      ],
+      "ancora": {
+        "nome": "Parélio",
+        "descricao": "Fenômeno óptico em que pontos luminosos aparecem ao lado do Sol, causado por cristais de gelo.",
+        "variantes": [
+          "Sun dog",
+          "Falso sol",
+          "Cão-do-sol"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Nuvens iridescentes coloridas sobre silhueta de colina; muito característica, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem é esta?",
+      "resposta": "Nuvem nacarada",
+      "distratores": [
+        "Nuvem lenticular",
+        "Nuvem noctilucente",
+        "Asperitas"
+      ],
+      "ancora": {
+        "nome": "Nuvem nacarada",
+        "descricao": "Nuvem estratosférica polar de cristais de gelo, de brilho iridescente como madrepérola.",
+        "variantes": [
+          "Nuvem estratosférica polar",
+          "Nuvem de madrepérola"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto da órbita mostrando sprite vermelho sobre tempestade; reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que fenômeno elétrico vermelho, visto do espaço, é este?",
+      "resposta": "Sprite",
+      "distratores": [
+        "Elfo",
+        "Jato azul",
+        "Fogo de santelmo"
+      ],
+      "ancora": {
+        "nome": "Sprite (relâmpago)",
+        "descricao": "Grande descarga elétrica avermelhada na mesosfera, acima das nuvens de tempestade.",
+        "variantes": [
+          "Sprite vermelho",
+          "Red sprite",
+          "Raio sprite"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Penhasco à beira d'água sem traço exclusivo; poderia ser qualquer lago ou mar. Resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Nuvens noctilucentes brilhantes no crepúsculo sobre pântano; típicas.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que nuvem de altitude, vista no crepúsculo, é esta?",
+      "resposta": "Nuvem noctilucente",
+      "distratores": [
+        "Nuvem nacarada",
+        "Cirro",
+        "Nuvem lenticular"
+      ],
+      "ancora": {
+        "nome": "Nuvem noctilucente",
+        "descricao": "Nuvem tênue de cristais de gelo na alta atmosfera, visível só no crepúsculo.",
+        "variantes": [
+          "Nuvem mesosférica polar",
+          "Nuvem que brilha à noite"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Coluna de fumaça com capuz; pode ser pirocúmulo, pirocumulonimbo ou nuvem de erupção. Resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Brejo plano de capim sem traço único; pode ser qualquer pântano ou campo alagado."
+    }
+  ]
+}

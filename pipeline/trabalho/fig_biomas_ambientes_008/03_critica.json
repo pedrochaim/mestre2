@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'floresta', de que deriva 'florestal' na resposta (vazamento parcial). Basta tirar a palavra, porque a figura mostra o fogo.",
+      "reescrita": {
+        "pergunta": "Que fenômeno é este, registrado à noite?",
+        "resposta": "Incêndio florestal"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visível atrás do avião' descreve o rastro de condensação. Pelo teste da imagem coberta, dá para responder sem a figura. A pista sai e a pergunta fica genérica.",
+      "reescrita": {
+        "pergunta": "Como se chama este fenômeno atmosférico?",
+        "resposta": "Rastro de condensação"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Ondulado e ameaçador' é sustentado pelos trechos e não entrega o nome. Os distratores são nuvens do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é genérica, sem vazamento. Os distratores são fenômenos ópticos ou luminosos críveis e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nuvem nacarada é o nome amplamente documentado das nuvens estratosféricas polares iridescentes. O enunciado não vaza e os distratores são de outros tipos de nuvem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visto do espaço' não está confirmado para esta foto. Além disso, 'elfo' também é um evento avermelhado da alta atmosfera, o que enfraquece o distrator.",
+      "reescrita": {
+        "pergunta": "Que fenômeno elétrico avermelhado da alta atmosfera é este?",
+        "resposta": "Sprite",
+        "distratores": [
+          "Jato azul",
+          "Raio globular",
+          "Fogo de santelmo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nuvem nacarada também é uma nuvem de altitude vista no crepúsculo, então o distrator seria defensável. A pista é trocada por uma que não coincide com ele, e os distratores mudam.",
+      "reescrita": {
+        "pergunta": "Que tipo de nuvem rara é esta?",
+        "resposta": "Nuvem noctilucente",
+        "distratores": [
+          "Cirro",
+          "Nuvem lenticular",
+          "Mamatus"
+        ]
+      }
+    }
+  ]
+}

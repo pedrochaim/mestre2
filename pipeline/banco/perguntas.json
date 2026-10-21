@@ -265253,5 +265253,150 @@
       "licenca": "Public domain"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q14270",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "rastro_de_condensacao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Como se chama este fenômeno atmosférico?",
+    "resposta": "Rastro de condensação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contrail",
+      "https://pt.wikipedia.org/wiki/Rasto_de_condensa%C3%A7%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14270.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Contrail.fourengined.arp.jpg",
+      "autor": "Adrian Pingstone Arpingstone",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14271",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "asperitas",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que formação de nuvem é esta, de aspecto ondulado e ameaçador?",
+    "resposta": "Asperitas",
+    "distratores": [
+      "Nuvem lenticular",
+      "Mamatus",
+      "Nuvem nacarada"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Asperitas_%28cloud%29",
+      "https://pt.wikipedia.org/wiki/Asperitas"
+    ],
+    "imagem": {
+      "arquivo": "q14271.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Beautiful_clouds.JPG",
+      "autor": "Ave Maria Mõistlik",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14272",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "parelio",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno óptico da atmosfera é este?",
+    "resposta": "Parélio",
+    "distratores": [
+      "Miragem",
+      "Aurora boreal",
+      "Arco-íris"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sun_dog",
+      "https://pt.wikipedia.org/wiki/Par%C3%A9lio"
+    ],
+    "imagem": {
+      "arquivo": "q14272.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fargo_Sundogs_2_18_09.jpg",
+      "autor": "Gopherboy6956",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14273",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "nuvem_nacarada",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de nuvem é esta?",
+    "resposta": "Nuvem nacarada",
+    "distratores": [
+      "Nuvem lenticular",
+      "Nuvem noctilucente",
+      "Asperitas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polar_stratospheric_cloud",
+      "https://pt.wikipedia.org/wiki/Nuvem_estratosf%C3%A9rica_polar"
+    ],
+    "imagem": {
+      "arquivo": "q14273.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nacreous_clouds_Antarctica.jpg",
+      "autor": "Alan Light from Charlotte, USA. At Commons: Alan R Light (talk · contribs)",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14274",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "sprite_relampago",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno elétrico avermelhado da alta atmosfera é este?",
+    "resposta": "Sprite",
+    "distratores": [
+      "Jato azul",
+      "Raio globular",
+      "Fogo de santelmo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sprite_%28lightning%29",
+      "https://pt.wikipedia.org/wiki/Sprite_%28raio%29"
+    ],
+    "imagem": {
+      "arquivo": "q14274.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Red_Sprites_from_the_ISS_(53791152564)_(cropped).jpg",
+      "autor": "semeion.photo",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14275",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "nuvem_noctilucente",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de nuvem rara é esta?",
+    "resposta": "Nuvem noctilucente",
+    "distratores": [
+      "Cirro",
+      "Nuvem lenticular",
+      "Mamatus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Noctilucent_cloud",
+      "https://pt.wikipedia.org/wiki/Nuvem_noctilucente"
+    ],
+    "imagem": {
+      "arquivo": "q14275.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Helkivad_ööpilved_Kuresoo_kohal.jpg",
+      "autor": "Martin Koitmäe [1]",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]
