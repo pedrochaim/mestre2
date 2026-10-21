@@ -1,0 +1,222 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vaso nítido, inscrições gregas não entregam o nome; datação sustentada pelo trecho.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este vaso grego de figuras vermelhas, usado para misturar vinho com água, foi feito em que século antes de Cristo?",
+      "resposta": "Século seis a.C.",
+      "distratores": [
+        "Século oito a.C.",
+        "Século cinco a.C.",
+        "Século quatro a.C."
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cratera de Eufrônio",
+        "descricao": "Cratera grega de figuras vermelhas pintada por Eufrônio por volta de 515 a.C., que mostra o corpo de Sarpédon, antes no Metropolitan e hoje em Cerveteri.",
+        "variantes": [
+          "Cratera de Sarpédon",
+          "Euphronios Krater",
+          "Vaso de Eufrônio"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Traje de jade em exposição, reconhecível; passantes ao fundo estão desfocados e distantes.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Nobres de que dinastia chinesa eram enterrados com trajes de placas de pedra como este?",
+      "resposta": "Dinastia Han",
+      "destino": 3,
+      "ancora": {
+        "nome": "Traje funerário de jade",
+        "descricao": "Traje cerimonial feito de placas de jade costuradas, no qual eram sepultados membros da realeza da dinastia Han da China.",
+        "variantes": [
+          "Roupa de jade",
+          "Jade burial suit"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Relevo nítido e inconfundível; troquei 'quando' por 'onde' porque a datação é um intervalo (1800 a 1750 a.C.) e a resposta ficaria ambígua.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica esta placa de terracota da Mesopotâmia?",
+      "resposta": "Museu Britânico",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu de Pérgamo",
+        "Museu do Iraque"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Relevo Burney",
+        "descricao": "Placa de terracota em alto-relevo da Mesopotâmia, com figura alada de garras de ave entre corujas, sobre dois leões, hoje no Museu Britânico.",
+        "variantes": [
+          "Rainha da Noite",
+          "Burney Relief",
+          "Queen of the Night relief"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena da pesagem do coração do Papiro de Ani, nítida; hieróglifos não entregam. Pergunta sobre a cena, pois a data valeria para outros papiros do mesmo período.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que momento do julgamento dos mortos egípcios esta cena mostra?",
+      "resposta": "A pesagem do coração",
+      "destino": 0,
+      "ancora": {
+        "nome": "Papiro de Ani",
+        "descricao": "Rolo de papiro do Livro dos Mortos feito por volta de 1250 a.C. para o escriba tebano Ani, hoje no Museu Britânico.",
+        "variantes": [
+          "Papyrus of Ani",
+          "Livro dos Mortos de Ani"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Obelisco inconfundível; a escrita cuneiforme não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rei assírio é celebrado por este obelisco de calcário negro?",
+      "resposta": "Salmanaser III",
+      "destino": 3,
+      "ancora": {
+        "nome": "Obelisco Negro de Salmanaser III",
+        "descricao": "Obelisco assírio de calcário negro, de Nimrud, com relevos de tributos e inscrições sobre os feitos do rei Salmanaser III, no Museu Britânico.",
+        "variantes": [
+          "Black Obelisk of Shalmaneser III",
+          "Obelisco Negro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paleta nítida, com as duas partes; só um número de inventário, que não entrega. Troquei 'onde' por 'quando' porque a escavação em Abidos é só provável e as peças estão em dois museus.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta paleta cerimonial egípcia, com leão e abutres sobre os inimigos, é de que período?",
+      "resposta": "Período pré-dinástico",
+      "distratores": [
+        "Reino Antigo",
+        "Reino Médio",
+        "Período ptolomaico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paleta do Campo de Batalha",
+        "descricao": "Paleta cosmética cerimonial egípcia do fim do período pré-dinástico, com cena de batalha, leão e abutres, dividida entre o Museu Britânico e o Ashmolean.",
+        "variantes": [
+          "Paleta dos Urubus",
+          "Paleta dos Abutres",
+          "Battlefield Palette",
+          "Paleta dos Leões"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Elmo coríntio nítido, fundo preto, sem texto; troquei 'quando' por 'onde' porque a época do elmo é um intervalo largo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este elmo de bronze dos hoplitas gregos tem o nome de que cidade-Estado?",
+      "resposta": "Corinto",
+      "destino": 1,
+      "ancora": {
+        "nome": "Elmo coríntio",
+        "descricao": "Elmo grego de bronze que cobre toda a cabeça e o pescoço, com fendas para olhos e boca, que leva o nome da cidade de Corinto.",
+        "variantes": [
+          "Corinthian helmet",
+          "Capacete coríntio"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A imagem mostra a reconstrução do sepultamento da Dama de Vix, com carro e rodas, e não a cratera de Vix. Não mostra a entidade."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cópia romana em mármore do Doríforo, nítida e reconhecível pela pose.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que arma o guerreiro desta estátua segurava apoiada no ombro esquerdo no original em bronze?",
+      "resposta": "Uma lança",
+      "destino": 1,
+      "ancora": {
+        "nome": "Doríforo",
+        "descricao": "Escultura grega de Policleto, de cerca de 440 a.C., que mostra um guerreiro nu em contrapposto com uma lança, conhecida por cópias romanas em mármore.",
+        "variantes": [
+          "Doryphoros",
+          "Portador da lança"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Osso entalhado nítido, sem texto; pergunta de origem sustentada pelo trecho.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país africano foi encontrado este osso com fileiras de entalhes?",
+      "resposta": "República Democrática do Congo",
+      "destino": 4,
+      "ancora": {
+        "nome": "Osso de Ishango",
+        "descricao": "Osso entalhado do Paleolítico Superior achado em Ishango, na atual República Democrática do Congo, talvez um instrumento de contagem.",
+        "variantes": [
+          "Ishango bone"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Há visitantes do museu em primeiro plano e ao fundo, pessoas comuns com rostos visíveis (não são figuras públicas)."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua nítida e famosa, sem texto; troquei a família para 'onde' porque a ligação possível (o escultor) cairia em 'quem fez', que não é permitida neste catálogo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu fica esta estátua, cópia romana de um bronze grego?",
+      "resposta": "Museus do Vaticano",
+      "destino": 1,
+      "ancora": {
+        "nome": "Apolo do Belvedere",
+        "descricao": "Escultura de mármore, cópia romana de um bronze grego atribuído a Leócares, exposta no Pátio do Belvedere, nos Museus do Vaticano.",
+        "variantes": [
+          "Apollo Belvedere",
+          "Apolo Belvedere"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que museu fica esta placa de terracota da Mesopotâmia?",
+        "resposta": "Museu Britânico"
+      },
+      "existentes": [
+        {
+          "id": "q13982",
+          "pergunta": "Que obra mesopotâmica de argila, de cerca de 1800 a.C., é esta?",
+          "resposta": "Relevo Burney (Rainha da Noite)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país africano foi encontrado este osso com fileiras de entalhes?",
+        "resposta": "República Democrática do Congo"
+      },
+      "existentes": [
+        {
+          "id": "q07756",
+          "pergunta": "O osso de Ishango, com entalhes de cerca de vinte mil anos que podem ser marcas de contagem, foi encontrado em que país africano?",
+          "resposta": "República Democrática do Congo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é a obra; a nova pergunta em que museu ela está. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em que país africano foi encontrado o osso de Ishango, com a mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam em que país africano foi encontrado o osso de Ishango, com a mesma resposta.",
+      "id_existente": "q07756"
+    }
+  ]
+}
