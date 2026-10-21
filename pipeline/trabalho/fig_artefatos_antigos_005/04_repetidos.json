@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta estátua romana é cópia de um bronze grego mais antigo. Em que século depois de Cristo foi feita a cópia?",
+        "resposta": "Século três"
+      },
+      "existentes": [
+        {
+          "id": "q04690",
+          "pergunta": "Que herói da mitologia esta estátua representa?",
+          "resposta": "Hércules"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tecido tradicional da África Ocidental é este?",
+        "resposta": "Kente"
+      },
+      "existentes": [
+        {
+          "id": "q14169",
+          "pergunta": "De que país da África vem este tecido tradicional tecido à mão em tiras?",
+          "resposta": "Gana"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre o século da cópia; a outra, sobre qual herói a estátua representa. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome do tecido (Kente) e a outra pede o país de origem (Gana). Saber uma resposta não leva à outra com certeza."
+    }
+  ]
+}

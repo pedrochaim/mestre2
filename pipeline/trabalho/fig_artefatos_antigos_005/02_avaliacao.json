@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua em museu, foto nítida, sem texto; reconhecível.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta estátua romana é cópia de um bronze grego mais antigo. Em que século foi feita a cópia?",
+      "resposta": "Século três depois de Cristo",
+      "distratores": [
+        "Século um depois de Cristo",
+        "Século dois depois de Cristo",
+        "Século quatro antes de Cristo"
+      ],
+      "ancora": {
+        "nome": "Hércules Farnese",
+        "descricao": "Estátua romana colossal de Hércules, assinada por Glykon, cópia de original grego atribuído a Lisipo, no Museu Arqueológico Nacional de Nápoles.",
+        "variantes": [
+          "Hércules Farnésio",
+          "Ercole Farnese",
+          "Farnese Hercules"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara de boneca de fertilidade de cabeça em disco, forma característica, sem texto.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto ritual de madeira, ligado aos povos akan de Gana, é este?",
+      "resposta": "Akuaba",
+      "distratores": [
+        "Ikenga",
+        "Máscara Gelede",
+        "Nkisi nkondi"
+      ],
+      "ancora": {
+        "nome": "Akuaba",
+        "descricao": "Boneca ritual de madeira de fertilidade, de cabeça em disco, associada ao povo fanti e a outros akan de Gana.",
+        "variantes": [
+          "Akua'ba",
+          "Akwaba",
+          "Akuba"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obelisco entalhado em vitrine, sem texto legível; reconhecível pelos entalhes, resposta por cultura em múltipla escolha.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cultura andina do Peru esculpiu este monólito de granito?",
+      "resposta": "Chavín",
+      "distratores": [
+        "Nazca",
+        "Moche",
+        "Tiwanaku"
+      ],
+      "ancora": {
+        "nome": "Obelisco Tello",
+        "descricao": "Obelisco de granito entalhado da cultura Chavín, achado em Chavín de Huántar, no Peru.",
+        "variantes": [
+          "Tello Obelisk",
+          "Obelisco de Tello"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ilustração clara e limpa do deus da chuva asteca, sem texto; olhos circulares e presas característicos.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que divindade asteca é esta?",
+      "resposta": "Tláloc",
+      "distratores": [
+        "Quetzalcóatl",
+        "Huitzilopochtli",
+        "Xipe Totec"
+      ],
+      "ancora": {
+        "nome": "Tláloc",
+        "descricao": "Deus asteca da chuva, da água e da fertilidade da terra.",
+        "variantes": [
+          "Tlaloc"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Escultura ikenga clara, fundo neutro, sem texto.",
+      "destino": 4,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo do sudeste da Nigéria faz esta escultura com chifres, símbolo de força?",
+      "resposta": "Igbo",
+      "distratores": [
+        "Iorubá",
+        "Hauçá",
+        "Axânti"
+      ],
+      "ancora": {
+        "nome": "Ikenga",
+        "descricao": "Escultura de madeira de figura com chifres do povo igbo, da Nigéria, símbolo de força e sucesso pessoal.",
+        "variantes": [
+          "Ikenga igbo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tecido de tiras multicoloridas, nítido, sem texto; padrão característico.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tecido tradicional de Gana é este?",
+      "resposta": "Kente",
+      "distratores": [
+        "Bogolan",
+        "Adire",
+        "Aso oke"
+      ],
+      "ancora": {
+        "nome": "Tecido kente",
+        "descricao": "Tecido ganês feito à mão em tiras de seda e algodão, usado por axântis e ewes.",
+        "variantes": [
+          "Kente",
+          "Pano kente"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "A imagem mostra um detalhe do Estandarte de Ur (músico com lira), não as Liras; âncora ajustada para o Estandarte, reconhecível e sem texto.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade antiga da Mesopotâmia foi encontrado este mosaico de lápis-lazúli e madrepérola?",
+      "resposta": "Ur",
+      "distratores": [
+        "Babilônia",
+        "Nínive",
+        "Uruk"
+      ],
+      "ancora": {
+        "nome": "Estandarte de Ur",
+        "descricao": "Caixa sumeriana de mosaico com lápis-lazúli, concha e calcário, achada no cemitério real de Ur; o detalhe mostra um banquete com músico tocando lira.",
+        "variantes": [
+          "Standard of Ur"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Various forms of Assagais', que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Ilustração de códice sem traços inequívocos; a divindade não é reconhecível com segurança e pode ser confundida com outras."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Taça de Exéquias nítida, sem texto; cena de Dioniso no barco com videira.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deus aparece navegando nesta taça grega?",
+      "resposta": "Dionísio",
+      "distratores": [
+        "Poseidon",
+        "Hermes",
+        "Apolo"
+      ],
+      "ancora": {
+        "nome": "Taça de Dioniso de Exéquias",
+        "descricao": "Kílix ateniense de figuras negras de cerca de 540–530 a.C., obra de Exéquias, com Dioniso num barco cercado de golfinhos.",
+        "variantes": [
+          "Taça de Dionísio",
+          "Dionysus Cup",
+          "Taça de Exéquias"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bronze helenístico bem visível; a placa só traz aviso de cuidado, sem o nome.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade foi desenterrada, em 1885, esta estátua grega de bronze?",
+      "resposta": "Roma",
+      "distratores": [
+        "Atenas",
+        "Pérgamo",
+        "Alexandria"
+      ],
+      "ancora": {
+        "nome": "Pugilista em repouso",
+        "descricao": "Bronze helenístico de um boxeador nu sentado, com faixas de couro nas mãos, no Palazzo Massimo, em Roma.",
+        "variantes": [
+          "Boxer at Rest",
+          "Pugilista do Quirinal",
+          "Boxeador das Termas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem mostra só uma paisagem do deserto com camelos; não aparecem as pinturas rupestres e o local não é reconhecível."
+    }
+  ]
+}

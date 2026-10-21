@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto (início do século III d.C.), mas as alternativas passam de 4 palavras e 'século quatro antes de Cristo' é ambíguo. Encurtei e fixei 'depois de Cristo' no enunciado.",
+      "reescrita": {
+        "pergunta": "Esta estátua romana é cópia de um bronze grego mais antigo. Em que século depois de Cristo foi feita a cópia?",
+        "resposta": "Século três",
+        "distratores": [
+          "Século dois",
+          "Século quatro",
+          "Século um"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ligado aos povos akan de Gana' mais distratores de outras regiões deixam responder sem a figura. Troquei a pista por 'África Ocidental' e usei distratores também ocidentais.",
+      "reescrita": {
+        "pergunta": "Que objeto ritual de madeira da África Ocidental é este?",
+        "resposta": "Akuaba",
+        "distratores": [
+          "Ikenga",
+          "Máscara Gelede",
+          "Estatueta Ibeji"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro, sem vazamento. Os distratores são culturas andinas críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista. Os distratores são deuses astecas e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sudeste da Nigéria' leva quase direto aos igbo e 'símbolo de força' ecoa o significado do nome, então a figura vira enfeite. O distrator Axânti nem é da Nigéria. Tirei as pistas e troquei o distrator.",
+      "reescrita": {
+        "pergunta": "Que povo da Nigéria faz esta escultura de madeira com chifres?",
+        "resposta": "Igbo",
+        "distratores": [
+          "Iorubá",
+          "Hauçá",
+          "Canúri"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De Gana' permite responder por eliminação, porque os distratores são de Mali e da Nigéria. Mudei a pista para 'África Ocidental', que não entrega a resposta.",
+      "reescrita": {
+        "pergunta": "Que tecido tradicional da África Ocidental é este?",
+        "resposta": "Kente",
+        "distratores": [
+          "Bogolan",
+          "Adire",
+          "Aso oke"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o Estandarte de Ur foi achado no cemitério real de Ur. Os trechos tratam das liras, não do estandarte. O enunciado não entrega a resposta e os distratores são cidades mesopotâmicas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma Dioniso navegando num navio na taça. Os distratores são deuses gregos e nenhum aparece na cena.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma a descoberta em 1885 no Quirinal, em Roma. O enunciado não nomeia a estátua e os distratores são cidades helenísticas críveis.",
+      "reescrita": null
+    }
+  ]
+}
