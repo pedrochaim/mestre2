@@ -611,9 +611,10 @@
     "fig_biomas_ambientes_007",
     "fig_ilhas_aguas_004",
     "fig_biomas_ambientes_008",
-    "fig_artefatos_antigos_001"
+    "fig_artefatos_antigos_001",
+    "fig_guerras_mundiais_001"
   ],
-  "maior_id": 14284,
+  "maior_id": 14292,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1211,6 +1212,19 @@
         "3": 3
       },
       "registradas": 9
+    },
+    "guerras_mundiais": {
+      "familias": {
+        "o_que_e": 5,
+        "quando": 2,
+        "com_o_que_se_liga": 1
+      },
+      "niveis": {
+        "1": 3,
+        "2": 4,
+        "3": 1
+      },
+      "registradas": 8
     }
   },
   "rendimento": {

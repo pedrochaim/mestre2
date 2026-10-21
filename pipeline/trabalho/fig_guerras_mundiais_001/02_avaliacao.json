@@ -1,0 +1,203 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sherman bem visível, de lado; o texto 'Cougar' e o número não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tanque médio americano da Segunda Guerra Mundial é este?",
+      "resposta": "M4 Sherman",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tanque M4 Sherman",
+        "descricao": "Tanque médio americano, o mais usado pelos Aliados ocidentais na Segunda Guerra Mundial.",
+        "variantes": [
+          "Sherman",
+          "M4"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Monumento inconfundível e legível; as pessoas são pequenas e ao fundo.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano ocorreu a batalha na colina onde fica este memorial canadense?",
+      "resposta": "1917",
+      "distratores": [
+        "1915",
+        "1916",
+        "1918"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Memorial de Vimy",
+        "descricao": "Memorial nacional canadense na França, dedicado aos soldados canadenses mortos na Primeira Guerra Mundial.",
+        "variantes": [
+          "Memorial Nacional Canadense de Vimy",
+          "Canadian National Vimy Memorial"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cratera ampla e característica com cruz no alto; reconhecível para aficionados, por isso múltipla escolha. Sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta cratera, na França, foi aberta por uma mina britânica no primeiro dia de que batalha da Primeira Guerra?",
+      "resposta": "Batalha do Somme",
+      "distratores": [
+        "Batalha de Verdun",
+        "Batalha do Marne",
+        "Batalha de Tannenberg"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cratera de Lochnagar",
+        "descricao": "Cratera deixada por uma mina britânica detonada em 1º de julho de 1916 perto de La Boisselle, no Somme.",
+        "variantes": [
+          "Mina Lochnagar",
+          "Lochnagar mine",
+          "Trou de mine de La Boisselle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Biplano de museu bem visível, com silhueta característica; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caça biplano britânico da Primeira Guerra Mundial é este?",
+      "resposta": "Sopwith Camel",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sopwith Camel",
+        "descricao": "Caça biplano britânico monoplace da Primeira Guerra Mundial, fabricado pela Sopwith Aviation Company.",
+        "variantes": [
+          "Camel",
+          "Sopwith F.1 Camel"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto histórica granulada, mas o monoplano com cruz alemã é legível; sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este caça monoplano alemão passou a dominar os céus da Frente Ocidental?",
+      "resposta": "1915",
+      "distratores": [
+        "1914",
+        "1916",
+        "1917"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fokker Eindecker",
+        "descricao": "Série de caças monoplanos alemães da Primeira Guerra Mundial, projetados por Anthony Fokker, os primeiros com tiro sincronizado com a hélice.",
+        "variantes": [
+          "Fokker E.III",
+          "Fokker Eindecker fighters"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ponte levadiça com contrapeso característico; sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ponte levadiça da Normandia é esta?",
+      "resposta": "Ponte Pegasus",
+      "distratores": [
+        "Ponte de Remagen",
+        "Ponte de Arnhem",
+        "Ponte de Nijmegen"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ponte Pegasus",
+        "descricao": "Ponte levadiça sobre o Canal de Caen, na Normandia, tomada por tropas aerotransportadas britânicas na madrugada do Dia D.",
+        "variantes": [
+          "Pegasus Bridge",
+          "Ponte de Bénouville"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Mapa com título e legendas de países; não mostra a entidade de forma fotográfica e o texto entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama técnico cheio de texto (TANK, HATCH, ENGINE etc.), e as medidas e o compartimento de tanque sugerem outra embarcação de desembarque (LCM), não o LCVP."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Capacete isolado, nítido, com insígnia sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que capacete de aço da Primeira Guerra Mundial é este?",
+      "resposta": "Capacete Brodie",
+      "destino": 0,
+      "ancora": {
+        "nome": "Capacete Brodie",
+        "descricao": "Capacete de aço de aba larga patenteado em Londres em 1915 por John Brodie, usado por britânicos e americanos na Primeira Guerra.",
+        "variantes": [
+          "Brodie helmet",
+          "Capacete M1917",
+          "Capacete Mark I"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida e de perfil; o nome 'Miss Kandy' é apelido do avião e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caça americano da Segunda Guerra Mundial é este?",
+      "resposta": "P-51 Mustang",
+      "distratores": [
+        "P-47 Thunderbolt",
+        "P-40 Warhawk",
+        "F4U Corsair"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "P-51 Mustang",
+        "descricao": "Caça de longo alcance americano da North American Aviation, usado na Segunda Guerra Mundial e na Guerra da Coreia.",
+        "variantes": [
+          "Mustang",
+          "North American P-51"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto antiga de cruzador leve de três chaminés, indistinguível das irmãs e de outras classes alemãs; a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto de soldados desembarcando numa praia da Normandia; não permite distinguir Omaha de outras praias do Dia D, e a imagem mostra várias pessoas em primeiro plano."
+    }
+  ]
+}

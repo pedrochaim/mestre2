@@ -1,0 +1,490 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tanque M4 Sherman",
+        "descricao": "Tanque médio americano, o mais usado pelos Aliados ocidentais na Segunda Guerra Mundial.",
+        "variantes": [
+          "Sherman",
+          "M4"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pleiades",
+          "nome": "Plêiades",
+          "descricao": "Aglomerado aberto de estrelas na constelação de Touro, conhecido no Brasil como Sete-Estrelo.",
+          "variantes": [
+            "Sete-Estrelo",
+            "M45",
+            "Subaru"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "clark_kent",
+          "nome": "Clark Kent",
+          "descricao": "Identidade secreta do Superman, repórter do Planeta Diário",
+          "variantes": [
+            "Kal-El",
+            "Superman",
+            "Super-Homem"
+          ]
+        },
+        {
+          "id": "superman",
+          "nome": "Superman",
+          "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster",
+          "variantes": [
+            "Super-Homem"
+          ]
+        },
+        {
+          "id": "victini_e_reshiram_victini_e_zekrom",
+          "nome": "Victini e Reshiram / Victini e Zekrom",
+          "descricao": "Décimo quarto filme da franquia Pokémon, de 2011, lançado em duas versões estreladas pelo mítico Victini.",
+          "variantes": [
+            "Pokémon the Movie: Black—Victini and Reshiram and White—Victini and Zekrom",
+            "M14"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Memorial de Vimy",
+        "descricao": "Memorial nacional canadense na França, dedicado aos soldados canadenses mortos na Primeira Guerra Mundial.",
+        "variantes": [
+          "Memorial Nacional Canadense de Vimy",
+          "Canadian National Vimy Memorial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "memorial_de_aires",
+          "nome": "Memorial de Aires",
+          "descricao": "Último romance de Machado de Assis, publicado em 1908, em forma de diário do Conselheiro Aires.",
+          "variantes": [
+            "Memorial de Ayres"
+          ]
+        },
+        {
+          "id": "memorial_de_lincoln",
+          "nome": "Memorial de Lincoln",
+          "descricao": "Memorial nacional em forma de templo clássico em Washington, D.C., em homenagem a Abraham Lincoln.",
+          "variantes": [
+            "Lincoln Memorial",
+            "Memorial a Lincoln"
+          ]
+        },
+        {
+          "id": "hipotese_gaia",
+          "nome": "Hipótese Gaia",
+          "descricao": "Hipótese segundo a qual os seres vivos e o ambiente da Terra formam um sistema que se autorregula.",
+          "variantes": [
+            "Hipótese de Gaia",
+            "Teoria de Gaia",
+            "Gaia hypothesis"
+          ]
+        },
+        {
+          "id": "cupula_da_bomba_atomica",
+          "nome": "Cúpula da Bomba Atômica",
+          "descricao": "Ruína de 1945 preservada como Memorial da Paz, no Japão.",
+          "variantes": [
+            "Genbaku Dome",
+            "Memorial da Paz de Hiroshima",
+            "Domo Genbaku"
+          ]
+        },
+        {
+          "id": "monte_rushmore",
+          "nome": "Monte Rushmore",
+          "descricao": "Memorial nacional dos Estados Unidos com os rostos de quatro presidentes esculpidos na rocha de uma montanha.",
+          "variantes": [
+            "Mount Rushmore",
+            "Memorial Nacional do Monte Rushmore"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cratera de Lochnagar",
+        "descricao": "Cratera deixada por uma mina britânica detonada em 1º de julho de 1916 perto de La Boisselle, no Somme.",
+        "variantes": [
+          "Mina Lochnagar",
+          "Lochnagar mine",
+          "Trou de mine de La Boisselle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença",
+            "Florence Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_chartres",
+          "nome": "Catedral de Chartres",
+          "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+          "variantes": [
+            "Catedral de Notre-Dame de Chartres",
+            "Chartres Cathedral"
+          ]
+        },
+        {
+          "id": "cratera_de_darvaza",
+          "nome": "Cratera de Darvaza",
+          "descricao": "Cratera de gás em chamas no deserto de Caracum, no Turcomenistão, apelidada de Porta do Inferno.",
+          "variantes": [
+            "Porta do Inferno",
+            "Darvaza gas crater",
+            "Darweze"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sopwith Camel",
+        "descricao": "Caça biplano britânico monoplace da Primeira Guerra Mundial, fabricado pela Sopwith Aviation Company.",
+        "variantes": [
+          "Camel",
+          "Sopwith F.1 Camel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "molho_bechamel",
+          "nome": "Molho bechamel",
+          "descricao": "Molho branco francês de leite engrossado com manteiga e farinha, base de lasanhas e gratinados.",
+          "variantes": [
+            "Bechamel",
+            "Béchamel",
+            "Molho branco"
+          ]
+        },
+        {
+          "id": "clamperl",
+          "nome": "Clamperl",
+          "descricao": "Pokémon do tipo Água, número 366 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mel",
+          "nome": "Mel",
+          "descricao": "Substância doce e viscosa produzida pelas abelhas a partir do néctar das flores.",
+          "variantes": [
+            "Mel de abelha"
+          ]
+        },
+        {
+          "id": "carmen_opera",
+          "nome": "Carmen (ópera)",
+          "descricao": "Ópera de Georges Bizet, estreada em Paris em 1875, sobre uma cigana sedutora.",
+          "variantes": [
+            "Carmen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fokker Eindecker",
+        "descricao": "Série de caças monoplanos alemães da Primeira Guerra Mundial, projetados por Anthony Fokker, os primeiros com tiro sincronizado com a hélice.",
+        "variantes": [
+          "Fokker E.III",
+          "Fokker Eindecker fighters"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fokker_dr_i",
+          "nome": "Fokker Dr.I",
+          "descricao": "Caça triplano alemão de 1917, famoso por ter sido pilotado por Manfred von Richthofen, o Barão Vermelho.",
+          "variantes": [
+            "Fokker Dreidecker",
+            "Triplano Fokker"
+          ]
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "roger_federer",
+          "nome": "Roger Federer",
+          "descricao": "Tenista suíço nascido em 1981, ex-número 1 do mundo e campeão de 20 torneios de Grand Slam, aposentado em 2022.",
+          "variantes": [
+            "Federer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ponte Pegasus",
+        "descricao": "Ponte levadiça sobre o Canal de Caen, na Normandia, tomada por tropas aerotransportadas britânicas na madrugada do Dia D.",
+        "variantes": [
+          "Pegasus Bridge",
+          "Ponte de Bénouville"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pegaso",
+          "nome": "Pégaso",
+          "descricao": "Cavalo alado da mitologia grega, montado pelo herói Belerofonte.",
+          "variantes": [
+            "Pegasus",
+            "Pégasus"
+          ]
+        },
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Capacete Brodie",
+        "descricao": "Capacete de aço de aba larga patenteado em Londres em 1915 por John Brodie, usado por britânicos e americanos na Primeira Guerra.",
+        "variantes": [
+          "Brodie helmet",
+          "Capacete M1917",
+          "Capacete Mark I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capacete_viking_com_chifres",
+          "nome": "Capacete viking com chifres",
+          "descricao": "Imagem popular e sem base arqueológica de guerreiros vikings usando capacetes com chifres.",
+          "variantes": [
+            "Horned helmet"
+          ]
+        },
+        {
+          "id": "capacete_de_ayrton_senna",
+          "nome": "Capacete de Ayrton Senna",
+          "descricao": "Capacete amarelo com faixas verde e azul usado por Ayrton Senna ao longo da carreira, desenhado por Sid Mosca.",
+          "variantes": [
+            "Capacete do Senna"
+          ]
+        },
+        {
+          "id": "pickelhaube",
+          "nome": "Pickelhaube",
+          "descricao": "Capacete de couro ou metal com um espigão no topo, usado por soldados prussianos e alemães nos séculos dezenove e vinte.",
+          "variantes": [
+            "Pickelhelm",
+            "Capacete prussiano",
+            "Capacete de ponta alemão"
+          ]
+        },
+        {
+          "id": "sapato_brogue",
+          "nome": "Sapato brogue",
+          "descricao": "Sapato de couro com furinhos decorativos e bordas serrilhadas, aqui na versão Oxford com bico asa de pássaro.",
+          "variantes": [
+            "Brogue",
+            "Wingtip"
+          ]
+        },
+        {
+          "id": "mark_i_tanque",
+          "nome": "Mark I (tanque)",
+          "descricao": "Primeiro tanque britânico usado em combate, estreado na Batalha do Somme em 1916.",
+          "variantes": [
+            "Tanque Mark I"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "P-51 Mustang",
+        "descricao": "Caça de longo alcance americano da North American Aviation, usado na Segunda Guerra Mundial e na Guerra da Coreia.",
+        "variantes": [
+          "Mustang",
+          "North American P-51"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ford_mustang",
+          "nome": "Ford Mustang",
+          "descricao": "Carro esportivo americano fabricado pela Ford desde 1964, que deu nome ao segmento dos pony cars.",
+          "variantes": [
+            "Mustang"
+          ]
+        },
+        {
+          "id": "metang",
+          "nome": "Metang",
+          "descricao": "Pokémon dos tipos Aço e Psíquico, número 375 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "placa_sul_americana",
+          "nome": "Placa Sul-Americana",
+          "descricao": "Placa tectônica que abrange a América do Sul e parte do oceano Atlântico Sul.",
+          "variantes": [
+            "South American Plate"
+          ]
+        },
+        {
+          "id": "mustard",
+          "nome": "Mustard",
+          "descricao": "Velho mestre do dojo da Ilha da Armadura, na expansão The Isle of Armor de Pokémon Sword e Shield, que treina o jogador e Kubfu.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tanque Sherman não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Memorial de Vimy é distinto das candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cratera de Lochnagar é diferente da Cratera de Darvaza e das demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Avião Sopwith Camel não é o animal camelo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Eindecker é série distinta do Fokker Dr.I."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ponte Pegasus é diferente do cavalo Pégaso e de outras pontes."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Capacete Brodie não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "P-51 Mustang é avião, diferente do Ford Mustang."
+    }
+  ]
+}

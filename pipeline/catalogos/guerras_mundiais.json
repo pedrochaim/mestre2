@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Zepelim",
+      "titulo": "en:Zeppelin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guerra de trincheiras",
+      "titulo": "en:Trench warfare",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capacete Brodie",
+      "titulo": "en:Brodie helmet",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Metralhadora Maxim",
+      "titulo": "en:Maxim gun",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sopwith Camel",
+      "titulo": "en:Sopwith Camel",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Máquina Enigma",
+      "titulo": "en:Enigma machine",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Supermarine Spitfire",
+      "titulo": "en:Supermarine Spitfire",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Encouraçado Bismarck",
+      "titulo": "en:German battleship Bismarck",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Praia de Omaha",
+      "titulo": "en:Omaha Beach",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tanque Tiger I",
+      "titulo": "en:Tiger I",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Jipe Willys MB",
+      "titulo": "en:Willys MB",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Memorial do USS Arizona",
+      "titulo": "en:USS Arizona Memorial",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque M4 Sherman",
+      "titulo": "en:M4 Sherman",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Ossuário de Douaumont",
+      "titulo": "en:Douaumont Ossuary",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memorial de Vimy",
+      "titulo": "en:Canadian National Vimy Memorial",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "SPAD S.XIII",
+      "titulo": "en:SPAD S.XIII",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fokker Eindecker",
+      "titulo": "en:Fokker Eindecker fighters",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "HMS Dreadnought",
+      "titulo": "en:HMS Dreadnought (1906)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Metralhadora Lewis",
+      "titulo": "en:Lewis gun",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "B-17 Fortaleza Voadora",
+      "titulo": "en:Boeing B-17 Flying Fortress",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "P-51 Mustang",
+      "titulo": "en:North American P-51 Mustang",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Messerschmitt Bf 109",
+      "titulo": "en:Messerschmitt Bf 109",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Junkers Ju 87 Stuka",
+      "titulo": "en:Junkers Ju 87",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Encouraçado USS Missouri",
+      "titulo": "en:USS Missouri (BB-63)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bletchley Park",
+      "titulo": "en:Bletchley Park",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Muralha do Atlântico",
+      "titulo": "en:Atlantic Wall",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nieuport 17",
+      "titulo": "en:Nieuport 17",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Albatros D.III",
+      "titulo": "en:Albatros D.III",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque A7V",
+      "titulo": "en:A7V",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Whippet",
+      "titulo": "en:Medium Mark A Whippet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memorial de Thiepval",
+      "titulo": "en:Thiepval Memorial",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cratera de Lochnagar",
+      "titulo": "en:Lochnagar mine",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cruzador SMS Emden",
+      "titulo": "en:SMS Emden (1908)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gotha G.IV",
+      "titulo": "en:Gotha G.IV",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Forte de Douaumont",
+      "titulo": "en:Fort Douaumont",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tanque Panther",
+      "titulo": "en:Panther tank",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "De Havilland Mosquito",
+      "titulo": "en:De Havilland Mosquito",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Barco Higgins (LCVP)",
+      "titulo": "en:LCVP (United States)",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ponte Pegasus",
+      "titulo": "en:Pegasus Bridge",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Messerschmitt Me 262",
+      "titulo": "en:Messerschmitt Me 262",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

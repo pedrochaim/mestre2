@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; o tanque médio americano da Segunda Guerra mostrado é o M4 Sherman.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A batalha de Vimy Ridge foi em abril de 1917, fato amplamente documentado. O enunciado não nomeia o memorial. Os distratores são anos próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mina britânica no primeiro dia de' praticamente entrega o Somme sem olhar a figura. Troquei a pista pelo ano, que ajuda sem entregar, e deixei Verdun como distrator crível. A cratera marca o início do Somme (trecho: 1º de julho de 1916).",
+      "reescrita": {
+        "pergunta": "Esta cratera, na França, foi aberta em 1916 por uma mina britânica. Em que batalha da Primeira Guerra isso aconteceu?",
+        "resposta": "Batalha do Somme",
+        "distratores": [
+          "Batalha de Verdun",
+          "Batalha do Marne",
+          "Batalha de Arras"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com pista de país, época e tipo que não entrega o nome. Resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Passou a dominar' é impreciso: o período de superioridade foi de julho de 1915 a início de 1916, então 1916 também seria defensável. Troquei por um fato verificável: o ano em que entrou em serviço em combate (primavera e verão de 1915).",
+      "reescrita": {
+        "pergunta": "Em que ano este caça monoplano alemão começou a ser usado em combate na Frente Ocidental?",
+        "resposta": "1915",
+        "distratores": [
+          "1914",
+          "1916",
+          "1917"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (Remagen, Arnhem, Nijmegen) ficam fora da Normandia, então 'da Normandia' no enunciado os elimina e entrega a resposta por exclusão. Tirei a localização do enunciado, e os distratores continuam críveis.",
+      "reescrita": {
+        "pergunta": "Que ponte da Segunda Guerra Mundial é esta?",
+        "resposta": "Ponte Pegasus",
+        "distratores": [
+          "Ponte de Remagen",
+          "Ponte de Arnhem",
+          "Ponte de Nijmegen"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. O Brodie foi o capacete de aço de aba larga usado por britânicos e americanos na Primeira Guerra.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são caças americanos da Segunda Guerra, críveis e visualmente distintos do Mustang. Nenhum deles descreve a imagem, e o enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}
