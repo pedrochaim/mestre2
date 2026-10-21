@@ -1,0 +1,495 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Restinga",
+        "descricao": "Ecossistema costeiro de vegetação estabelecida em substrato arenoso sujeito a influência marinha.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "retina",
+          "nome": "Retina",
+          "descricao": "Camada sensível à luz no fundo do olho, onde ficam as células fotorreceptoras.",
+          "variantes": []
+        },
+        {
+          "id": "luta_livre_profissional",
+          "nome": "Luta livre profissional",
+          "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+          "variantes": [
+            "Wrestling",
+            "Pro wrestling",
+            "Luta profissional"
+          ]
+        },
+        {
+          "id": "sting",
+          "nome": "Sting",
+          "descricao": "Cantor e baixista britânico, ex-vocalista do The Police, nascido Gordon Sumner",
+          "variantes": [
+            "Gordon Sumner"
+          ]
+        },
+        {
+          "id": "teresina",
+          "nome": "Teresina",
+          "descricao": "Capital do estado do Piauí, cidade planejada fundada em 1852.",
+          "variantes": []
+        },
+        {
+          "id": "estibinita",
+          "nome": "Estibinita",
+          "descricao": "Sulfeto de antimônio (Sb2S3), principal minério de antimônio, em cristais prismáticos cinza metálicos.",
+          "variantes": [
+            "Estibina",
+            "Antimonita",
+            "Stibnite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Socotra",
+        "descricao": "Maior ilha do arquipélago de Socotra, no oceano Índico, pertencente ao Iêmen e conhecida pelas espécies endêmicas.",
+        "variantes": [
+          "Socotorá",
+          "Soqotra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "socrates_2",
+          "nome": "Sócrates",
+          "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão, retratado aqui em busto de mármore.",
+          "variantes": []
+        },
+        {
+          "id": "escocia",
+          "nome": "Escócia",
+          "descricao": "País constituinte do Reino Unido, no norte da ilha da Grã-Bretanha, cuja capital é Edimburgo.",
+          "variantes": [
+            "Scotland"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Avalanche",
+        "descricao": "Fluxo rápido de neve encosta abaixo em montanhas.",
+        "variantes": [
+          "Avalancha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casablanca_filme",
+          "nome": "Casablanca (filme)",
+          "descricao": "Filme americano de 1942 dirigido por Michael Curtiz, com Humphrey Bogart e Ingrid Bergman, passado no Marrocos durante a Segunda Guerra.",
+          "variantes": [
+            "Casablanca"
+          ]
+        },
+        {
+          "id": "jose_raul_capablanca",
+          "nome": "José Raúl Capablanca",
+          "descricao": "Enxadrista cubano, terceiro campeão mundial de xadrez, de 1921 a 1927.",
+          "variantes": [
+            "Capablanca"
+          ]
+        },
+        {
+          "id": "lance",
+          "nome": "Lance",
+          "descricao": "Treinador especialista em pokémon dragão, último membro da Elite dos Quatro em Red e Blue e campeão da Liga em Gold e Silver.",
+          "variantes": [
+            "Wataru"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "alemanha",
+          "nome": "Alemanha",
+          "descricao": "País da Europa Central e Ocidental cuja capital é Berlim.",
+          "variantes": [
+            "República Federal da Alemanha",
+            "Germany",
+            "Deutschland"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tromba d'água",
+        "descricao": "Coluna de ar em rotação sobre uma massa de água, ligada a uma nuvem cumuliforme.",
+        "variantes": [
+          "Waterspout"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_d_agua",
+          "nome": "Roda d'água",
+          "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+          "variantes": [
+            "Roda de água",
+            "Roda hidráulica",
+            "Azenha"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "gota_d_agua_peca",
+          "nome": "Gota d'Água (peça)",
+          "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro.",
+          "variantes": [
+            "Gota d'Água"
+          ]
+        },
+        {
+          "id": "pedra_da_agua",
+          "nome": "Pedra da Água",
+          "descricao": "Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee.",
+          "variantes": [
+            "Water Stone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pilar de luz",
+        "descricao": "Fenômeno óptico em que um feixe vertical de luz parece se estender de uma fonte luminosa, por reflexão em cristais de gelo.",
+        "variantes": [
+          "Pilar de gelo",
+          "Light pillar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_mar_de_gelo",
+          "nome": "O Mar de Gelo",
+          "descricao": "Pintura a óleo de Caspar David Friedrich de 1823-1824 que mostra um navio naufragado entre blocos de gelo no Ártico.",
+          "variantes": [
+            "Das Eismeer",
+            "The Sea of Ice",
+            "O Naufrágio da Esperança",
+            "O Mar Glacial"
+          ]
+        },
+        {
+          "id": "delos",
+          "nome": "Delos",
+          "descricao": "Pequena ilha grega das Cíclades, grande santuário de Apolo na Antiguidade e primeira sede da Liga de Delos.",
+          "variantes": [
+            "Ilha de Delos",
+            "Dílos"
+          ]
+        },
+        {
+          "id": "sabre_de_luz",
+          "nome": "Sabre de luz",
+          "descricao": "Arma de lâmina de energia usada pelos Jedi e Sith na franquia Star Wars.",
+          "variantes": [
+            "Lightsaber"
+          ]
+        },
+        {
+          "id": "montes_de_feno_monet",
+          "nome": "Montes de Feno (Monet)",
+          "descricao": "Série de pinturas impressionistas de Claude Monet, iniciada em 1890, com montes de feno em Giverny sob luzes variadas.",
+          "variantes": [
+            "Les Meules",
+            "Haystacks",
+            "Meules de Feno",
+            "Pilhas de Feno"
+          ]
+        },
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Seca",
+        "descricao": "Período prolongado de condições mais secas que o normal, que resseca o solo.",
+        "variantes": [
+          "Estiagem"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nauatle",
+          "nome": "Náuatle",
+          "descricao": "Língua indígena do México, falada pelos astecas",
+          "variantes": [
+            "Nahuatl",
+            "Náhuatl",
+            "Língua asteca",
+            "Asteca",
+            "Língua náuatle"
+          ]
+        },
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        },
+        {
+          "id": "seneca",
+          "nome": "Sêneca",
+          "descricao": "Filósofo estoico e dramaturgo romano (c. 4 a.C.–65 d.C.), tutor do imperador Nero.",
+          "variantes": [
+            "Lúcio Aneu Sêneca",
+            "Seneca the Younger",
+            "Sêneca, o Jovem"
+          ]
+        },
+        {
+          "id": "estampagem",
+          "nome": "Estampagem",
+          "descricao": "Forma de aprendizado em que filhotes, logo após nascer, se ligam ao primeiro ser que veem e passam a segui-lo.",
+          "variantes": [
+            "Imprinting",
+            "Impressão"
+          ]
+        },
+        {
+          "id": "jeca_tatu",
+          "nome": "Jeca Tatu",
+          "descricao": "Personagem caipira da literatura brasileira, levado ao cinema por Amácio Mazzaropi.",
+          "variantes": [
+            "Jeca",
+            "Jeca Tatuzinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Altocúmulo",
+        "descricao": "Gênero de nuvem de altitude média formada por massas globulares ou rolos em camadas.",
+        "variantes": [
+          "Altocumulus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cumulo",
+          "nome": "Cúmulo",
+          "descricao": "Nuvem baixa de base plana e topo em forma de couve-flor, de aspecto algodoado.",
+          "variantes": [
+            "Cumulus"
+          ]
+        },
+        {
+          "id": "calculo",
+          "nome": "Cálculo",
+          "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+          "variantes": [
+            "Cálculo diferencial e integral",
+            "Calculus"
+          ]
+        },
+        {
+          "id": "nucleo_atomico",
+          "nome": "Núcleo atômico",
+          "descricao": "Região central e densa do átomo, formada por prótons e nêutrons.",
+          "variantes": [
+            "Atomic nucleus"
+          ]
+        },
+        {
+          "id": "salandit",
+          "nome": "Salandit",
+          "descricao": "Pokémon lagarto de veneno e fogo da sétima geração, número 757 da Pokédex Nacional.",
+          "variantes": [
+            "Yatoumori"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Glaciar Perito Moreno",
+        "descricao": "Geleira do Parque Nacional Los Glaciares, na Patagônia argentina, alimentada pelo Campo de Gelo Patagônico Sul.",
+        "variantes": [
+          "Geleira Perito Moreno",
+          "Perito Moreno Glacier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "glaciar_perito_moreno",
+          "nome": "Glaciar Perito Moreno",
+          "descricao": "Geleira do Parque Nacional Los Glaciares, na província de Santa Cruz, Argentina, perto de El Calafate.",
+          "variantes": [
+            "Geleira Perito Moreno",
+            "Perito Moreno Glacier"
+          ]
+        },
+        {
+          "id": "imperio_songai",
+          "nome": "Império Songai",
+          "descricao": "Império da África Ocidental que dominou o Sahel nos séculos quinze e dezesseis, sucedendo o Império do Mali.",
+          "variantes": [
+            "Songhai",
+            "Império Songhai"
+          ]
+        },
+        {
+          "id": "imperio_mongol",
+          "nome": "Império Mongol",
+          "descricao": "Império fundado por Gengis Khan em 1206, que nos séculos treze e quatorze se estendeu da Coreia à Europa oriental.",
+          "variantes": [
+            "Mongol Empire"
+          ]
+        },
+        {
+          "id": "geladeira_de_einstein",
+          "nome": "Geladeira de Einstein",
+          "descricao": "Refrigerador sem partes móveis patenteado por Albert Einstein e Leó Szilárd em 1930.",
+          "variantes": [
+            "Refrigerador Einstein-Szilárd"
+          ]
+        },
+        {
+          "id": "lei_de_moore",
+          "nome": "Lei de Moore",
+          "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+          "variantes": [
+            "Moore's law"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é ecossistema costeiro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ilha de Socotra."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é avalanche."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o fenômeno tromba d'água."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o fenômeno óptico pilar de luz."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o fenômeno seca."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Altocúmulo é gênero de nuvem distinto de Cúmulo."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "glaciar_perito_moreno",
+      "motivo": "Mesma geleira Perito Moreno no Parque Nacional Los Glaciares."
+    }
+  ]
+}

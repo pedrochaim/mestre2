@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Restinga com bromélias e laguna, reconhecível; múltipla com distratores.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ecossistema litorâneo brasileiro é este, de vegetação sobre solo arenoso?",
+      "resposta": "Restinga",
+      "distratores": [
+        "Manguezal",
+        "Caatinga",
+        "Campo rupestre"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Restinga",
+        "descricao": "Ecossistema costeiro de vegetação estabelecida em substrato arenoso sujeito a influência marinha.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista distante de um vulcão baixo e campo de lava; não é reconhecível como Erta Ale pela imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem de satélite em falsa cor de parte da ilha do Havaí, com Mauna Loa também visível; resposta ambígua e pouco legível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com contorno característico da ilha; múltipla escolha.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta ilha, vista do espaço?",
+      "resposta": "Iêmen",
+      "distratores": [
+        "Omã",
+        "Somália",
+        "Eritreia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Socotra",
+        "descricao": "Maior ilha do arquipélago de Socotra, no oceano Índico, pertencente ao Iêmen e conhecida pelas espécies endêmicas.",
+        "variantes": [
+          "Socotorá",
+          "Soqotra"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Avalanche clara, com tendas em primeiro plano, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno natural de montanha é este?",
+      "resposta": "Avalanche",
+      "destino": 0,
+      "ancora": {
+        "nome": "Avalanche",
+        "descricao": "Fluxo rápido de neve encosta abaixo em montanhas.",
+        "variantes": [
+          "Avalancha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Coluna de ar em rotação sobre o mar, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno do tempo é este?",
+      "resposta": "Tromba d'água",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tromba d'água",
+        "descricao": "Coluna de ar em rotação sobre uma massa de água, ligada a uma nuvem cumuliforme.",
+        "variantes": [
+          "Tromba-d'água",
+          "Waterspout"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Colunas verticais de luz sobre fontes luminosas, característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno óptico da atmosfera é este?",
+      "resposta": "Pilar de luz",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pilar de luz",
+        "descricao": "Fenômeno óptico em que um feixe vertical de luz parece se estender de uma fonte luminosa, por reflexão em cristais de gelo.",
+        "variantes": [
+          "Pilar de gelo",
+          "Light pillar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Solo de lama seco e rachado, símbolo claro de seca.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno climático deixa o solo neste estado?",
+      "resposta": "Seca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Seca",
+        "descricao": "Período prolongado de condições mais secas que o normal, que resseca o solo.",
+        "variantes": [
+          "Estiagem"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Céu cinza e esbranquiçado quase sem estrutura; o nimbostrato não é distinguível de outras nuvens baixas ou de névoa."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Campo de pequenos flocos em camadas, típico de altocúmulo; múltipla com nuvens parecidas.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem forma este céu de pequenos flocos?",
+      "resposta": "Altocúmulo",
+      "distratores": [
+        "Cirrocúmulo",
+        "Estratocúmulo",
+        "Cumulonimbo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Altocúmulo",
+        "descricao": "Gênero de nuvem de altitude média formada por massas globulares ou rolos em camadas.",
+        "variantes": [
+          "Altocumulus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista aérea de bairro alagado, sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de desastre natural alagou esta cidade?",
+      "resposta": "Inundação",
+      "destino": 0,
+      "ancora": {
+        "nome": "Inundação",
+        "descricao": "Transbordamento de água que cobre terras normalmente secas.",
+        "variantes": [
+          "Enchente",
+          "Alagamento"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Frente de gelo inconfundível do Perito Moreno; pergunta pela região.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região do mundo fica esta geleira?",
+      "resposta": "Patagônia",
+      "distratores": [
+        "Alasca",
+        "Himalaia",
+        "Islândia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Glaciar Perito Moreno",
+        "descricao": "Geleira do Parque Nacional Los Glaciares, na Patagônia argentina, alimentada pelo Campo de Gelo Patagônico Sul.",
+        "variantes": [
+          "Geleira Perito Moreno",
+          "Perito Moreno Glacier"
+        ]
+      }
+    }
+  ]
+}

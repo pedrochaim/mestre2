@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que região do mundo fica esta geleira?",
+        "resposta": "Patagônia"
+      },
+      "existentes": [
+        {
+          "id": "q02336",
+          "pergunta": "Que famosa geleira da Patagônia é esta?",
+          "resposta": "Perito Moreno"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02336",
+      "motivo": "O enunciado existente já traz 'geleira da Patagônia' para a mesma imagem; a nova pergunta pede exatamente esse dado (a Patagônia), então é o mesmo fato."
+    }
+  ]
+}

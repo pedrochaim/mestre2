@@ -68,7 +68,7 @@
       "titulo": "en:Waterspout",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cirro",
@@ -348,7 +348,7 @@
       "titulo": "pt:Restinga",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Nuvem funil",
@@ -369,7 +369,7 @@
       "titulo": "en:Altocumulus cloud",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Nuvem noctilucente",
@@ -559,6 +559,286 @@
       "camada": 3,
       "destino": 1,
       "status": "usada"
+    },
+    {
+      "nome": "Seca",
+      "titulo": "en:Drought",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Inundação",
+      "titulo": "en:Flood",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Avalanche",
+      "titulo": "en:Avalanche",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tsunami",
+      "titulo": "en:Tsunami",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Deslizamento de terra",
+      "titulo": "en:Landslide",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Raios crepusculares",
+      "titulo": "en:Crepuscular rays",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nimbostrato",
+      "titulo": "en:Nimbostratus cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Supercélula",
+      "titulo": "en:Supercell",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rastro de condensação",
+      "titulo": "en:Contrail",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tempestade de gelo",
+      "titulo": "en:Ice storm",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gran Chaco",
+      "titulo": "en:Gran Chaco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cirrocúmulo",
+      "titulo": "en:Cirrocumulus cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pilar de luz",
+      "titulo": "en:Light pillar",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sprite (relâmpago)",
+      "titulo": "en:Sprite (lightning)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fogo de santelmo",
+      "titulo": "en:St. Elmo's fire",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirocumulonimbo",
+      "titulo": "en:Pyrocumulonimbus cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Asperitas",
+      "titulo": "en:Asperitas (cloud)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nuvem nacarada",
+      "titulo": "en:Polar stratospheric cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Campos de altitude",
+      "titulo": "pt:Campos de altitude",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Charneca",
+      "titulo": "en:Heath",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vulcão",
+      "titulo": "en:Volcano",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Barreira de Coral",
+      "titulo": "en:Great Barrier Reef",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Grand Canyon",
+      "titulo": "en:Grand Canyon",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Fernando de Noronha",
+      "titulo": "en:Fernando de Noronha",
+      "camada": 1,
+      "destino": 1,
+      "status": "saturada"
+    },
+    {
+      "nome": "Cataratas do Iguaçu",
+      "titulo": "en:Iguazu Falls",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Incêndio florestal",
+      "titulo": "en:Wildfire",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Kilauea",
+      "titulo": "en:Kīlauea",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Glaciar Perito Moreno",
+      "titulo": "en:Perito Moreno Glacier",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ilhas Galápagos",
+      "titulo": "en:Galápagos Islands",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Baikal",
+      "titulo": "en:Lake Baikal",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Buraco Azul",
+      "titulo": "en:Great Blue Hole",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Everglades",
+      "titulo": "en:Everglades",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monte Roraima",
+      "titulo": "en:Mount Roraima",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lago Titicaca",
+      "titulo": "en:Lake Titicaca",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Branqueamento de corais",
+      "titulo": "en:Coral bleaching",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha da Queimada Grande",
+      "titulo": "en:Ilha da Queimada Grande",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Depressão de Danakil",
+      "titulo": "en:Danakil Depression",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Erta Ale",
+      "titulo": "en:Erta Ale",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Socotra",
+      "titulo": "en:Socotra",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Deserto Branco",
+      "titulo": "en:White Desert National Park",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }
