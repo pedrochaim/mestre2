@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que caça britânico da Segunda Guerra Mundial é este?",
+        "resposta": "Supermarine Spitfire"
+      },
+      "existentes": [
+        {
+          "id": "q02345",
+          "pergunta": "Que engenheiro britânico projetou este caça da Segunda Guerra Mundial?",
+          "resposta": "R. J. Mitchell"
+        },
+        {
+          "id": "q09396",
+          "pergunta": "O motor Merlin, que equipava o caça britânico Spitfire na Segunda Guerra, era fabricado por que empresa, famosa também por carros de luxo?",
+          "resposta": "Rolls-Royce"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do caça (Spitfire) a partir de imagem; as existentes pedem o projetista (Mitchell) e o fabricante do motor (Rolls-Royce). São fatos diferentes, e saber uma resposta não permite responder a nova."
+    }
+  ]
+}

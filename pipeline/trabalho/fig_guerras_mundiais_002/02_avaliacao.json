@@ -1,0 +1,131 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara e inconfundível do memorial sobre o casco afundado; o texto nas plataformas é minúsculo e ilegível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que encouraçado repousa sob as águas ao lado deste memorial?",
+      "resposta": "USS Arizona",
+      "distratores": [
+        "USS Missouri",
+        "USS Oklahoma",
+        "USS Utah"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Memorial do USS Arizona",
+        "descricao": "Memorial em Pearl Harbor, Havaí, construído em 1962 sobre o casco afundado do encouraçado USS Arizona, atingido no ataque de 7 de dezembro de 1941.",
+        "variantes": [
+          "USS Arizona Memorial",
+          "Memorial USS Arizona"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O leme mostra 'S' e 'XIII' visíveis, entregando a resposta; réplica com marcas americanas."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A inscrição 'The Missing of the Somme' é visível no monumento e entrega a resposta; o cemitério em primeiro plano também compete com o assunto."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Soldados comuns em primeiro plano; é uma cena genérica, não uma entidade específica reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Grupo de pessoas comuns em primeiro plano, e a foto antiga e escura dificulta o reconhecimento do avião."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de Panthers em vagões; silhueta de casco e torre inconfundível, sem texto legível. O tripulante é pequeno e secundário.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tanque alemão da Segunda Guerra Mundial é este?",
+      "resposta": "Panther",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tanque Panther",
+        "descricao": "Tanque médio alemão Panzerkampfwagen V Panther, usado na Segunda Guerra Mundial a partir de 1943.",
+        "variantes": [
+          "Panzer V",
+          "Panzerkampfwagen V Panther",
+          "Pz.Kpfw. V"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida, com a asa elíptica característica; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caça britânico da Segunda Guerra Mundial é este?",
+      "resposta": "Supermarine Spitfire",
+      "distratores": [
+        "Hawker Hurricane",
+        "Messerschmitt Bf 109",
+        "P-51 Mustang"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Supermarine Spitfire",
+        "descricao": "Caça monoplano britânico de um só lugar, da Royal Air Force, famoso pela asa elíptica e usado na Segunda Guerra Mundial.",
+        "variantes": [
+          "Spitfire"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, em voo, com perfil e capota característicos do Bf 109; sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caça alemão da Segunda Guerra Mundial é este?",
+      "resposta": "Messerschmitt Bf 109",
+      "destino": 1,
+      "ancora": {
+        "nome": "Messerschmitt Bf 109",
+        "descricao": "Caça monoplano alemão da Luftwaffe, espinha dorsal da força de caças alemã na Segunda Guerra Mundial.",
+        "variantes": [
+          "Me 109",
+          "Bf 109",
+          "Messerschmitt 109"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra o dirigível USS Los Angeles com 'U.S. NAVY' escrito, fora do contexto da Primeira Guerra e com texto visível."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A legenda 'H.M.S. Dreadnought' aparece na base da foto e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Biplano francês muito parecido com outros Nieuport (11, 16, 21, 24); resposta não é única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem pequena, de baixa resolução e com marca 'SA'; não é legível no celular e a Maxim se confunde com as derivadas (Vickers, MG 08)."
+    }
+  ]
+}

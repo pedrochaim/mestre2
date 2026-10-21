@@ -1,0 +1,40 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado pede o nome do navio, que é o próprio nome do memorial na figura, e nível 3 exige ir além do reconhecimento. Com 'encouraçado' e 'memorial', quem conhece o assunto responde sem ver a figura. 'Ao lado' também é impreciso, porque o memorial foi construído sobre o casco afundado. Reescrevi como pergunta de reconhecimento, sem pista, com distratores do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Que memorial de guerra dos Estados Unidos é este?",
+        "resposta": "Memorial do USS Arizona",
+        "distratores": [
+          "Memorial do USS Missouri",
+          "Memorial do USS Indianapolis",
+          "Memorial do USS Yorktown"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta. O enunciado não nomeia o tanque e a resposta é específica e confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só país e época, sem entregar a resposta. O Hurricane, também britânico, não é o que a figura mostra, e os distratores são do mesmo tipo e têm até 4 palavras. O Spitfire é confirmado nos trechos como caça britânico.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. País e época ajudam sem entregar a resposta, e o Bf 109 é confirmado como caça alemão da Luftwaffe. A figura distingue o Bf 109 de outros caças alemães, como o Fw 190.",
+      "reescrita": null
+    }
+  ]
+}

@@ -266150,5 +266150,95 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q14308",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "memorial_do_uss_arizona",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que memorial de guerra dos Estados Unidos é este?",
+    "resposta": "Memorial do USS Arizona",
+    "distratores": [
+      "Memorial do USS Missouri",
+      "Memorial do USS Indianapolis",
+      "Memorial do USS Yorktown"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/USS_Arizona_Memorial",
+      "https://pt.wikipedia.org/wiki/Memorial_do_USS_Arizona"
+    ],
+    "imagem": {
+      "arquivo": "q14308.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:USS_Arizona_Memorial_(aerial_view).jpg",
+      "autor": "DoD photo by: PH3(AW/SW) JAYME PASTORIC, USN",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14309",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "tanque_panther",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tanque alemão da Segunda Guerra Mundial é este?",
+    "resposta": "Panther",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panther_tank",
+      "https://pt.wikipedia.org/wiki/Panzerkampfwagen_V_Panther"
+    ],
+    "imagem": {
+      "arquivo": "q14309.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H26258,_Panzer_V_\"Panther\".jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q14310",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "supermarine_spitfire",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que caça britânico da Segunda Guerra Mundial é este?",
+    "resposta": "Supermarine Spitfire",
+    "distratores": [
+      "Hawker Hurricane",
+      "Messerschmitt Bf 109",
+      "P-51 Mustang"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Supermarine_Spitfire",
+      "https://pt.wikipedia.org/wiki/Supermarine_Spitfire"
+    ],
+    "imagem": {
+      "arquivo": "q14310.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ray_Flying_Legends_2005-1.jpg",
+      "autor": "The original uploader was Bryan Fury75 at French Wikipedia.",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14311",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "messerschmitt_bf_109",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que caça alemão da Segunda Guerra Mundial é este?",
+    "resposta": "Messerschmitt Bf 109",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109",
+      "https://pt.wikipedia.org/wiki/Messerschmitt_Bf_109"
+    ],
+    "imagem": {
+      "arquivo": "q14311.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Me109_G-6_D-FMBB_1.jpg",
+      "autor": "Kogo",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]
