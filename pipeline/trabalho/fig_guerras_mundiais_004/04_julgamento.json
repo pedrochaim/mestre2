@@ -1,0 +1,649 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Stielhandgranate 24",
+        "descricao": "Granada de mão alemã de cabo de madeira, usada na Segunda Guerra Mundial e apelidada de 'potato masher'.",
+        "variantes": [
+          "Granada de cabo alemã (Stielhandgranate)",
+          "Stielhandgranate",
+          "Stg 24",
+          "Potato masher",
+          "Kartoffelstampfer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_grande",
+          "nome": "Ilha Grande",
+          "descricao": "Ilha do município de Angra dos Reis, no litoral sul do estado do Rio de Janeiro.",
+          "variantes": [
+            "Ilha Grande de Angra dos Reis"
+          ]
+        },
+        {
+          "id": "os_comedores_de_batata",
+          "nome": "Os Comedores de Batata",
+          "descricao": "Pintura a óleo de Vincent van Gogh de 1885 que mostra uma família camponesa jantando sob um lampião.",
+          "variantes": [
+            "The Potato Eaters",
+            "De Aardappeleters"
+          ]
+        },
+        {
+          "id": "senhor_cabeca_de_batata",
+          "nome": "Senhor Cabeça de Batata",
+          "descricao": "Brinquedo americano de batata com peças de rosto encaixáveis, lançado em 1952 pela Hasbro.",
+          "variantes": [
+            "Mr. Potato Head",
+            "Sr. Cabeça de Batata"
+          ]
+        },
+        {
+          "id": "pokemon_masters",
+          "nome": "Pokémon Masters",
+          "descricao": "Jogo para celular da DeNA, lançado em 2019, em que treinadores famosos da franquia batalham ao lado de seus pokémon.",
+          "variantes": [
+            "Pokémon Masters EX"
+          ]
+        },
+        {
+          "id": "porto_alegre",
+          "nome": "Porto Alegre",
+          "descricao": "Capital do Rio Grande do Sul, na margem leste do lago Guaíba.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Joseph Goebbels",
+        "descricao": "Político nazista alemão, ministro da Propaganda do Reich de 1933 a 1945.",
+        "variantes": [
+          "Paul Joseph Goebbels"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "joseph_fourier",
+          "nome": "Joseph Fourier",
+          "descricao": "Matemático e físico francês criador das séries de Fourier e da análise de condução do calor.",
+          "variantes": [
+            "Jean-Baptiste Joseph Fourier"
+          ]
+        },
+        {
+          "id": "joseph_swan",
+          "nome": "Joseph Swan",
+          "descricao": "Físico e químico inglês (1828–1914), pioneiro da lâmpada elétrica e sócio de Edison na empresa Ediswan.",
+          "variantes": [
+            "Joseph Wilson Swan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nicolau II da Rússia",
+        "descricao": "Último imperador da Rússia, que abdicou em 1917 durante a Revolução Russa.",
+        "variantes": [
+          "Nicolau II",
+          "Nicholas II",
+          "Czar Nicolau II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frederico_o_grande",
+          "nome": "Frederico, o Grande",
+          "descricao": "Rei da Prússia de 1740 a 1786, Frederico II.",
+          "variantes": [
+            "Frederico II da Prússia",
+            "Frederick the Great"
+          ]
+        },
+        {
+          "id": "catarina_a_grande",
+          "nome": "Catarina, a Grande",
+          "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst.",
+          "variantes": [
+            "Catarina II da Rússia",
+            "Catherine the Great"
+          ]
+        },
+        {
+          "id": "hino_da_russia",
+          "nome": "Hino da Rússia",
+          "descricao": "Hino nacional da Federação Russa, com melodia de Aleksandr Aleksandrov.",
+          "variantes": [
+            "Hino Nacional da Federação Russa",
+            "State Anthem of the Russian Federation"
+          ]
+        },
+        {
+          "id": "pedro_o_grande",
+          "nome": "Pedro, o Grande",
+          "descricao": "Tsar da Rússia a partir de 1682 e primeiro imperador russo, de 1721 a 1725.",
+          "variantes": [
+            "Pedro I da Rússia",
+            "Peter the Great"
+          ]
+        },
+        {
+          "id": "nicolau_copernico",
+          "nome": "Nicolau Copérnico",
+          "descricao": "Astrônomo polonês do Renascimento que propôs o modelo heliocêntrico.",
+          "variantes": [
+            "Nicolaus Copernicus",
+            "Mikołaj Kopernik"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tanque Whippet",
+        "descricao": "Tanque médio britânico Medium Mark A Whippet, rápido, usado na Primeira Guerra Mundial.",
+        "variantes": [
+          "Medium Mark A Whippet",
+          "Whippet Mk A"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tanque_panther",
+          "nome": "Tanque Panther",
+          "descricao": "Tanque médio alemão Panzerkampfwagen V Panther, usado na Segunda Guerra Mundial a partir de 1943.",
+          "variantes": [
+            "Panzer V",
+            "Panzerkampfwagen V Panther",
+            "Pz.Kpfw. V"
+          ]
+        },
+        {
+          "id": "t_34",
+          "nome": "T-34",
+          "descricao": "Tanque médio soviético, peça central das forças blindadas do Exército Vermelho na Segunda Guerra Mundial.",
+          "variantes": [
+            "Tanque T-34"
+          ]
+        },
+        {
+          "id": "anu_preto",
+          "nome": "Anu-preto",
+          "descricao": "Ave da família dos cucos (Crotophaga ani), de plumagem preta, bico alto e cauda longa, comum no Brasil.",
+          "variantes": [
+            "Crotophaga ani",
+            "Smooth-billed ani"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "B-29 Superfortress",
+        "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+        "variantes": [
+          "Boeing B-29",
+          "B-29",
+          "Superfortaleza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "embraer_super_tucano",
+          "nome": "Embraer Super Tucano",
+          "descricao": "Avião turboélice brasileiro de ataque leve e contrainsurgência da Embraer, também chamado A-29.",
+          "variantes": [
+            "EMB 314 Super Tucano",
+            "A-29",
+            "ALX",
+            "Embraer EMB-314"
+          ]
+        },
+        {
+          "id": "boeing_747",
+          "nome": "Boeing 747",
+          "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+          "variantes": [
+            "Jumbo",
+            "Jumbo Jet"
+          ]
+        },
+        {
+          "id": "serra_leoa",
+          "nome": "Serra Leoa",
+          "descricao": "País da África Ocidental, antiga colônia britânica, cuja capital é Freetown.",
+          "variantes": [
+            "Sierra Leone"
+          ]
+        },
+        {
+          "id": "lago_superior",
+          "nome": "Lago Superior",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá.",
+          "variantes": [
+            "Lake Superior",
+            "Superior"
+          ]
+        },
+        {
+          "id": "breaking_bad",
+          "nome": "Breaking Bad",
+          "descricao": "Série americana criada por Vince Gilligan, sobre um professor de química que passa a produzir metanfetamina.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pistola Luger",
+        "descricao": "Pistola semiautomática alemã Parabellum P08, projetada por Georg Luger e usada nas duas guerras mundiais.",
+        "variantes": [
+          "Luger P08",
+          "Pistole Parabellum",
+          "Parabellum-Pistole",
+          "P08"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luge",
+          "nome": "Luge",
+          "descricao": "Esporte olímpico de inverno em que o atleta desce deitado de costas, com os pés à frente, num pequeno trenó.",
+          "variantes": [
+            "Luge de pista natural",
+            "Trenó"
+          ]
+        },
+        {
+          "id": "linha_de_plimsoll",
+          "nome": "Linha de Plimsoll",
+          "descricao": "Marca pintada no casco dos navios que indica até onde eles podem afundar na água com carga, com segurança.",
+          "variantes": [
+            "Plimsoll line",
+            "Linha de carga",
+            "Disco de Plimsoll"
+          ]
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        },
+        {
+          "id": "pisco_sour",
+          "nome": "Pisco sour",
+          "descricao": "Coquetel de pisco com limão, açúcar e clara de ovo, de origem peruana.",
+          "variantes": [
+            "Pisco sower"
+          ]
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Sargento Alvin York",
+        "descricao": "Soldado americano da Primeira Guerra Mundial, condecorado com a Medalha de Honra por ação na ofensiva Meuse-Argonne.",
+        "variantes": [
+          "Alvin Cullum York",
+          "Alvin C. York",
+          "Sergeant York"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dick_york",
+          "nome": "Dick York",
+          "descricao": "Ator americano, o primeiro intérprete de Darrin, marido da bruxa Samantha na série A Feiticeira.",
+          "variantes": []
+        },
+        {
+          "id": "maybelline",
+          "nome": "Maybelline",
+          "descricao": "Marca americana de maquiagem fundada em 1915 por Tom Lyle Williams, conhecida pelas máscaras de cílios.",
+          "variantes": [
+            "Maybelline New York"
+          ]
+        },
+        {
+          "id": "georg_cantor",
+          "nome": "Georg Cantor",
+          "descricao": "Matemático alemão (1845–1918), criador da teoria dos conjuntos.",
+          "variantes": [
+            "Georg Ferdinand Ludwig Philipp Cantor"
+          ]
+        },
+        {
+          "id": "caitlin_clark",
+          "nome": "Caitlin Clark",
+          "descricao": "Armadora americana de basquete, maior pontuadora da história do basquete universitário da NCAA e jogadora do Indiana Fever.",
+          "variantes": [
+            "Caitlin Elizabeth Clark"
+          ]
+        },
+        {
+          "id": "esperanto",
+          "nome": "Esperanto",
+          "descricao": "Língua planejada para a comunicação internacional, publicada em 1887.",
+          "variantes": [
+            "Esperanto language"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tanque Tiger I",
+        "descricao": "Tanque pesado alemão da Segunda Guerra Mundial com canhão de 88 mm, em serviço a partir de 1942.",
+        "variantes": [
+          "Panzerkampfwagen VI Tiger",
+          "Tiger",
+          "Panzer VI"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tanque_panther",
+          "nome": "Tanque Panther",
+          "descricao": "Tanque médio alemão Panzerkampfwagen V Panther, usado na Segunda Guerra Mundial a partir de 1943.",
+          "variantes": [
+            "Panzer V",
+            "Panzerkampfwagen V Panther",
+            "Pz.Kpfw. V"
+          ]
+        },
+        {
+          "id": "tigre",
+          "nome": "Tigre",
+          "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+          "variantes": [
+            "Panthera tigris"
+          ]
+        },
+        {
+          "id": "eiger",
+          "nome": "Eiger",
+          "descricao": "Montanha de 3.967 metros dos Alpes Berneses, na Suíça, famosa por sua imponente face norte.",
+          "variantes": [
+            "Monte Eiger"
+          ]
+        },
+        {
+          "id": "rio_tibre",
+          "nome": "Rio Tibre",
+          "descricao": "Rio da Itália central que atravessa Roma, aqui com o Castelo e a Ponte Sant'Angelo.",
+          "variantes": [
+            "Tibre",
+            "Tevere",
+            "Tiber"
+          ]
+        },
+        {
+          "id": "iurta",
+          "nome": "Iurta",
+          "descricao": "Tenda redonda portátil, coberta de feltro, usada por nômades das estepes da Ásia.",
+          "variantes": [
+            "Yurt",
+            "Ger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bomba voadora V-1",
+        "descricao": "Míssil de cruzeiro alemão Fieseler Fi 103, com motor a pulso, usado contra Londres a partir de 1944.",
+        "variantes": [
+          "V-1",
+          "Fieseler Fi 103",
+          "Buzz bomb",
+          "Doodlebug",
+          "Vergeltungswaffe 1"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foguete_v_2",
+          "nome": "Foguete V-2",
+          "descricao": "Míssil balístico desenvolvido pela Alemanha nazista e usado contra Londres e Antuérpia a partir de 1944.",
+          "variantes": [
+            "V-2",
+            "Vergeltungswaffe 2",
+            "A-4"
+          ]
+        },
+        {
+          "id": "deepsea_challenger",
+          "nome": "Deepsea Challenger",
+          "descricao": "Submersível que levou um único tripulante ao fundo da Fossa das Marianas em 2012.",
+          "variantes": [
+            "DCV 1"
+          ]
+        },
+        {
+          "id": "bell_x_1",
+          "nome": "Bell X-1",
+          "descricao": "Avião-foguete americano com o qual Chuck Yeager superou a velocidade do som em voo nivelado em 1947.",
+          "variantes": [
+            "X-1",
+            "Glamorous Glennis"
+          ]
+        },
+        {
+          "id": "onibus_espacial_enterprise",
+          "nome": "Ônibus espacial Enterprise",
+          "descricao": "Primeiro orbitador do programa de ônibus espaciais da NASA, usado apenas em testes de voo na atmosfera.",
+          "variantes": [
+            "Enterprise",
+            "OV-101",
+            "Space Shuttle Enterprise"
+          ]
+        },
+        {
+          "id": "onibus_espacial_columbia",
+          "nome": "Ônibus espacial Columbia",
+          "descricao": "Primeiro ônibus espacial da NASA a ir ao espaço, em 1981, destruído na reentrada em 2003.",
+          "variantes": [
+            "Space Shuttle Columbia",
+            "Columbia",
+            "OV-102"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Tanque Saint-Chamond",
+        "descricao": "Segundo tanque francês a entrar em serviço na Primeira Guerra Mundial, com canhão de 75 mm saliente na frente.",
+        "variantes": [
+          "Saint Chamond",
+          "St. Chamond",
+          "Char Saint-Chamond"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "louis_armstrong",
+          "nome": "Louis Armstrong",
+          "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+          "variantes": [
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "camille_saint_saens",
+          "nome": "Camille Saint-Saëns",
+          "descricao": "Compositor, organista e pianista francês romântico (1835–1921), autor de O Carnaval dos Animais.",
+          "variantes": [
+            "Charles-Camille Saint-Saëns",
+            "Saint-Saens"
+          ]
+        },
+        {
+          "id": "castelo_de_chambord",
+          "nome": "Castelo de Chambord",
+          "descricao": "Castelo renascentista no Vale do Loire, na França, construído como pavilhão de caça de Francisco I.",
+          "variantes": [
+            "Château de Chambord",
+            "Chambord"
+          ]
+        },
+        {
+          "id": "chan_chan",
+          "nome": "Chan Chan",
+          "descricao": "Grande cidade de adobe no litoral norte do Peru, perto de Trujillo, antiga capital do reino Chimu.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Submetralhadora MP 40",
+        "descricao": "Submetralhadora alemã de 9 mm (Maschinenpistole 40) usada na Segunda Guerra Mundial.",
+        "variantes": [
+          "MP 40",
+          "MP40",
+          "Maschinenpistole 40",
+          "Schmeisser"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mclaren_mp4_4",
+          "nome": "McLaren MP4/4",
+          "descricao": "Carro da McLaren com motor Honda pilotado por Ayrton Senna e Alain Prost em 1988.",
+          "variantes": [
+            "MP4/4"
+          ]
+        },
+        {
+          "id": "submetralhadora_thompson",
+          "nome": "Submetralhadora Thompson",
+          "descricao": "Submetralhadora americana criada por John T. Thompson em 1918, famosa nos anos 1920 e na Segunda Guerra Mundial.",
+          "variantes": [
+            "Thompson",
+            "Tommy gun",
+            "Thompson submachine gun"
+          ]
+        },
+        {
+          "id": "sekhmet",
+          "nome": "Sekhmet",
+          "descricao": "Deusa egípcia guerreira e da medicina, de cabeça de leoa, chamada olho de Rá.",
+          "variantes": [
+            "Sacmis",
+            "Sachmis"
+          ]
+        },
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "xadrez",
+          "nome": "Xadrez",
+          "descricao": "Jogo de tabuleiro para dois jogadores, com 64 casas e 16 peças para cada lado.",
+          "variantes": [
+            "Chess"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a granada alemã."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidatas são outras pessoas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nicolau II não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Whippet é diferente de Panther e T-34."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o B-29."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pistola Luger."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Alvin York."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tiger I é diferente do Panther e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "V-1 é diferente do V-2."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o tanque Saint-Chamond."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "MP 40 é diferente da Thompson e das demais."
+    }
+  ]
+}

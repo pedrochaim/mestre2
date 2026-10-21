@@ -1,0 +1,270 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de granada de cabo alemã, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta granada alemã de cabo ficou conhecida entre os aliados por qual apelido?",
+      "resposta": "Amassador de batatas",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Stielhandgranate 24",
+        "descricao": "Granada de mão alemã de cabo de madeira, usada na Segunda Guerra Mundial e apelidada de 'potato masher'.",
+        "variantes": [
+          "Stielhandgranate",
+          "Stg 24",
+          "Potato masher",
+          "Kartoffelstampfer"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este homem foi, de 1933 até 1945, ministro de qual área no governo nazista?",
+      "resposta": "Propaganda",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Joseph Goebbels",
+        "descricao": "Político nazista alemão, ministro da Propaganda do Reich de 1933 a 1945.",
+        "variantes": [
+          "Paul Joseph Goebbels"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto antiga, minúscula e granulada, com várias pessoas; o Gotha G.IV não fica reconhecível num celular e é parecido com outros bombardeiros bimotores alemães (como o G.V)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este monarca abdicou do trono?",
+      "resposta": "1917",
+      "distratores": [
+        "1915",
+        "1916",
+        "1918"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nicolau II da Rússia",
+        "descricao": "Último imperador da Rússia, que abdicou em 1917 durante a Revolução Russa.",
+        "variantes": [
+          "Nicolau II",
+          "Nicholas II",
+          "Czar Nicolau II"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tanque Whippet bem visível em museu; o nome 'Firefly' pintado é de um exemplar e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tanque britânico da Primeira Guerra Mundial é este?",
+      "resposta": "Whippet",
+      "distratores": [
+        "Mark IV",
+        "Renault FT",
+        "A7V"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tanque Whippet",
+        "descricao": "Tanque médio britânico Medium Mark A Whippet, rápido, usado na Primeira Guerra Mundial.",
+        "variantes": [
+          "Medium Mark A Whippet",
+          "Whippet Mk A"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de B-29 em exposição; nariz e número na cauda não entregam o nome do modelo.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano voou pela primeira vez este bombardeiro americano?",
+      "resposta": "1942",
+      "distratores": [
+        "1940",
+        "1941",
+        "1943"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "B-29 Superfortress",
+        "descricao": "Bombardeiro pesado quadrimotor americano da Boeing, usado na Segunda Guerra Mundial, que lançou as bombas atômicas sobre o Japão.",
+        "variantes": [
+          "Boeing B-29",
+          "B-29",
+          "Superfortaleza"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de Luger P08 sobre fundo neutro, sem texto relevante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual país foi o primeiro a adotar oficialmente esta pistola, em 1900?",
+      "resposta": "Suíça",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pistola Luger",
+        "descricao": "Pistola semiautomática alemã Parabellum P08, projetada por Georg Luger e usada nas duas guerras mundiais.",
+        "variantes": [
+          "Luger P08",
+          "Pistole Parabellum",
+          "Parabellum-Pistole",
+          "P08"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública (condecorado da Primeira Guerra), sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este soldado americano realizou a ação que lhe rendeu a Medalha de Honra?",
+      "resposta": "1918",
+      "distratores": [
+        "1916",
+        "1917",
+        "1919"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sargento Alvin York",
+        "descricao": "Soldado americano da Primeira Guerra Mundial, condecorado com a Medalha de Honra por ação na ofensiva Meuse-Argonne.",
+        "variantes": [
+          "Alvin Cullum York",
+          "Alvin C. York",
+          "Sergeant York"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tiger I bem visível em museu; a placa de patrocínio não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tanque alemão da Segunda Guerra Mundial é este?",
+      "resposta": "Tiger I",
+      "distratores": [
+        "Panther",
+        "Panzer IV",
+        "Tiger II"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Tanque Tiger I",
+        "descricao": "Tanque pesado alemão da Segunda Guerra Mundial com canhão de 88 mm, em serviço a partir de 1942.",
+        "variantes": [
+          "Panzerkampfwagen VI Tiger",
+          "Tiger",
+          "Panzer VI"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "V-1 bem visível em voo; textos minúsculos no corpo não entregam a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano os alemães começaram a lançar esta arma contra Londres?",
+      "resposta": "1944",
+      "distratores": [
+        "1942",
+        "1943",
+        "1945"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bomba voadora V-1",
+        "descricao": "Míssil de cruzeiro alemão Fieseler Fi 103, com motor a pulso, usado contra Londres a partir de 1944.",
+        "variantes": [
+          "V-1",
+          "Fieseler Fi 103",
+          "Buzz bomb",
+          "Doodlebug",
+          "Vergeltungswaffe 1"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica legível; o canhão saliente à frente identifica o Saint-Chamond.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tanque francês da Primeira Guerra Mundial é este?",
+      "resposta": "Saint-Chamond",
+      "distratores": [
+        "Schneider CA1",
+        "Renault FT",
+        "Char 2C"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tanque Saint-Chamond",
+        "descricao": "Segundo tanque francês a entrar em serviço na Primeira Guerra Mundial, com canhão de 75 mm saliente na frente.",
+        "variantes": [
+          "Saint Chamond",
+          "St. Chamond",
+          "Char Saint-Chamond"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de MP 40 sobre fundo branco, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que sobrenome de projetista os aliados costumavam usar para chamar esta submetralhadora alemã?",
+      "resposta": "Schmeisser",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Submetralhadora MP 40",
+        "descricao": "Submetralhadora alemã de 9 mm (Maschinenpistole 40) usada na Segunda Guerra Mundial.",
+        "variantes": [
+          "MP 40",
+          "MP40",
+          "Maschinenpistole 40",
+          "Schmeisser"
+        ]
+      }
+    }
+  ]
+}

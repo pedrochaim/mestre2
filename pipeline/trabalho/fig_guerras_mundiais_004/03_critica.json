@@ -1,0 +1,105 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'granada alemã de cabo' + apelido entrega a resposta (potato masher) sem olhar a figura. Além disso o trecho não diz que o apelido era dos aliados. Reescrita pede o reconhecimento do modelo.",
+      "reescrita": {
+        "pergunta": "Que modelo de granada de mão alemã da Segunda Guerra Mundial é este?",
+        "resposta": "Stielhandgranate 24",
+        "distratores": [
+          "Stielhandgranate 43",
+          "Eihandgranate 39",
+          "Mills Bomb"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Datas e cargo confirmados; o enunciado não identifica a pessoa (vários ministros serviram de 1933 a 1945), então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Abdicação em 1917 confirmada; distratores são anos próximos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dois distratores (Renault FT, A7V) não são britânicos e se eliminam pelo enunciado; ficam pouco críveis. Troca por tanques britânicos da mesma guerra.",
+      "reescrita": {
+        "pergunta": "Que tanque britânico da Primeira Guerra Mundial é este?",
+        "resposta": "Whippet",
+        "distratores": [
+          "Mark IV",
+          "Mark V",
+          "Mark I"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro voo do protótipo em 21 de setembro de 1942, confirmado no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a adoção suíça em 1900 como a primeira; o enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ação de 8 de outubro de 1918 na ofensiva Meuse-Argonne; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto do Tiger I; distratores do mesmo tipo e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira V-1 atingiu Londres em junho de 1944; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tanque francês da Primeira Guerra confirmado; distratores franceses críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apelido 'Schmeisser' com 'submetralhadora alemã' é respondível sem a figura (imagem coberta), e o apelido também se aplica a outras armas. Reescrita pede o reconhecimento do modelo, com distratores alemães.",
+      "reescrita": {
+        "pergunta": "Que submetralhadora alemã da Segunda Guerra Mundial é esta?",
+        "resposta": "MP 40",
+        "distratores": [
+          "MP 18",
+          "MP 28",
+          "MP 35"
+        ]
+      }
+    }
+  ]
+}
