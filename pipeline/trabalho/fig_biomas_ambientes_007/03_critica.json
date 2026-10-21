@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a imagem (montanha lançando cinzas), o que entrega a resposta sem olhar a figura. Reescrita sem a pista.",
+      "reescrita": {
+        "pergunta": "Que formação geológica é esta?",
+        "resposta": "Vulcão"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fenômeno elétrico, mastros e marinheiros entregam a resposta com a imagem coberta. Reescrita sem essas pistas.",
+      "reescrita": {
+        "pergunta": "Como se chama este fenômeno atmosférico que aparece neste navio?",
+        "resposta": "Fogo de santelmo"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem vazamento, resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o Aral entre Cazaquistão e Uzbequistão. Os distratores são países vizinhos plausíveis e nenhum deles margeia o lago. A imagem é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Grande Buraco Azul fica em Belize, confirmado nos trechos. Belize é país da América Central. Não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Descrever a montanha como de topo plano e paredões verticais é praticamente a definição de tepui, e o teste da imagem coberta falha. Reescrita com uma pista só regional.",
+      "reescrita": {
+        "pergunta": "Como se chama este tipo de montanha, típico do norte da América do Sul?",
+        "resposta": "Tepui"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A Depressão de Danakil se estende pela Etiópia e pela Eritreia, segundo o trecho. A resposta única fica discutível e não há como garantir qual país a foto mostra.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Austrália e a visibilidade do espaço. Os distratores são países com recifes, nenhum correto. O enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}

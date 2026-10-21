@@ -264956,5 +264956,155 @@
       "autor": "Peter Ruckstuhl",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q14258",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "vulcao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que formação geológica é esta?",
+    "resposta": "Vulcão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volcano",
+      "https://pt.wikipedia.org/wiki/Vulc%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14258.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mount_St._Helens_erupting_blue.jpg",
+      "autor": "U.S. government",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14259",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "fogo_de_santelmo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Como se chama este fenômeno atmosférico que aparece neste navio?",
+    "resposta": "Fogo de santelmo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/St._Elmo%27s_fire",
+      "https://pt.wikipedia.org/wiki/Fogo_de_santelmo"
+    ],
+    "imagem": {
+      "arquivo": "q14259.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Elmo's_fire-2.jpg",
+      "autor": "Elmo's_fire.jpg: UnknownUnknown derivative work: Saibo (Δ)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14260",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "deslizamento_de_terra",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fenômeno natural ocorreu nesta encosta?",
+    "resposta": "Deslizamento de terra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Landslide",
+      "https://pt.wikipedia.org/wiki/Deslizamento_de_terra"
+    ],
+    "imagem": {
+      "arquivo": "q14260.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nefyn_marine_landslide_-_coastal_erosion_as_a_result_of_Climate_Change_-_Wales_19_April_2021_16.jpg",
+      "autor": "ClwydianRanger",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14261",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "mar_de_aral",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Este lago salgado, mostrado em duas épocas, ficava entre o Cazaquistão e que outro país?",
+    "resposta": "Uzbequistão",
+    "distratores": [
+      "Turcomenistão",
+      "Quirguistão",
+      "Tajiquistão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aral_Sea",
+      "https://pt.wikipedia.org/wiki/Mar_de_Aral"
+    ],
+    "imagem": {
+      "arquivo": "q14261.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aral_Sea_1989-2008.jpg",
+      "autor": "NASA, derivative work by Zafiroblue05 at en.wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14262",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "grande_buraco_azul",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país da América Central fica esta formação circular?",
+    "resposta": "Belize",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Blue_Hole",
+      "https://pt.wikipedia.org/wiki/Grande_Buraco_Azul"
+    ],
+    "imagem": {
+      "arquivo": "q14262.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Blue_Hole.jpg",
+      "autor": "U.S. Geological Survey (USGS)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14263",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "tepui",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Como se chama este tipo de montanha, típico do norte da América do Sul?",
+    "resposta": "Tepui",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tepui",
+      "https://pt.wikipedia.org/wiki/Tepui"
+    ],
+    "imagem": {
+      "arquivo": "q14263.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Kukenan_Tepuy_at_Sunset.jpg",
+      "autor": "Paolo Costa Baldi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14264",
+    "tema": "Natureza",
+    "subtema": "Ecossistemas e Ambientes Extremos",
+    "ancora": "grande_barreira_de_coral",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este conjunto de recifes visto do espaço?",
+    "resposta": "Austrália",
+    "distratores": [
+      "Indonésia",
+      "Belize",
+      "Fiji"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+      "https://pt.wikipedia.org/wiki/Grande_Barreira_de_Coral"
+    ],
+    "imagem": {
+      "arquivo": "q14264.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:GreatBarrierReef-EO.JPG",
+      "autor": "NASA, by MISR",
+      "licenca": "Public domain"
+    }
   }
 ]

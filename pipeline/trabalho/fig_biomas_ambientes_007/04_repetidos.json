@@ -1,0 +1,92 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este lago salgado, mostrado em duas épocas, ficava entre o Cazaquistão e que outro país?",
+        "resposta": "Uzbequistão"
+      },
+      "existentes": [
+        {
+          "id": "q02139",
+          "pergunta": "Na era soviética, os rios que abasteciam o mar de Aral foram desviados para irrigar qual cultura, o que ajudou a secá-lo?",
+          "resposta": "Algodão"
+        },
+        {
+          "id": "q02140",
+          "pergunta": "Em que década do século vinte o mar de Aral, na Ásia Central, começou a encolher?",
+          "resposta": "Anos 1960"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que país da América Central fica esta formação circular?",
+        "resposta": "Belize"
+      },
+      "existentes": [
+        {
+          "id": "q11828",
+          "pergunta": "Que formação marinha circular, na costa de Belize, vista de cima, é esta?",
+          "resposta": "Grande Buraco Azul"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Como se chama este tipo de montanha, típico do norte da América do Sul?",
+        "resposta": "Tepui"
+      },
+      "existentes": [
+        {
+          "id": "q06720",
+          "pergunta": "Na língua do povo pemon, da Venezuela, o que significa tepui, nome dos planaltos de paredes verticais como o Monte Roraima?",
+          "resposta": "Casa dos deuses"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país fica este conjunto de recifes visto do espaço?",
+        "resposta": "Austrália"
+      },
+      "existentes": [
+        {
+          "id": "q03867",
+          "pergunta": "Que formação natural marinha é esta?",
+          "resposta": "Grande Barreira de Coral"
+        },
+        {
+          "id": "q05643",
+          "pergunta": "A Grande Barreira de Coral, o maior sistema de recifes do mundo, se estende ao longo da costa de que estado australiano?",
+          "resposta": "Queensland"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o país vizinho (Uzbequistão); as existentes tratam de algodão e da década do encolhimento."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o país (Belize) onde fica a formação; a existente pergunta o nome da formação, e o país aparece só no enunciado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o nome do tipo de montanha (tepui); a existente pergunta o significado do termo na língua pemon, que é outro fato."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta o país (Austrália); as existentes perguntam o nome da formação e o estado (Queensland), que são fatos diferentes."
+    }
+  ]
+}

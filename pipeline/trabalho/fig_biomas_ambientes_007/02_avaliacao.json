@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Erupção com coluna de cinzas, imagem nítida e sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "O que é esta montanha lançando uma coluna de cinzas?",
+      "resposta": "Vulcão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Vulcão",
+        "descricao": "Abertura ou fissura na crosta por onde escapam lava, cinzas e gases de uma câmara magmática.",
+        "variantes": [
+          "Vulcão em erupção"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Paredão de gelo que pode ser iceberg, geleira ou plataforma de gelo; resposta não é única e a imagem não distingue o ambiente."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gravura clara de um navio com chamas nos mastros, sem texto; ilustração aceitável por ser fenômeno difícil de fotografar.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno elétrico da atmosfera, temido e venerado pelos marinheiros, aparece nos mastros deste navio?",
+      "resposta": "Fogo de santelmo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Fogo de santelmo",
+        "descricao": "Fenômeno atmosférico em que uma descarga corona cria um brilho azulado em mastros e outras pontas durante tempestades.",
+        "variantes": [
+          "Fogo de Santelmo",
+          "Fogo-de-santelmo",
+          "St. Elmo's fire"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Encosta costeira com material desabado e cicatriz evidente; legível e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno natural ocorreu nesta encosta?",
+      "resposta": "Deslizamento de terra",
+      "distratores": [],
+      "ancora": {
+        "nome": "Deslizamento de terra",
+        "descricao": "Movimento de massa de solo e rochas encosta abaixo pela ação da gravidade.",
+        "variantes": [
+          "Deslizamento",
+          "Escorregamento",
+          "Landslide"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Montagem de duas imagens de satélite do mesmo lago, sem texto; forma característica.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este lago salgado, mostrado em duas épocas, ficava entre o Cazaquistão e que outro país?",
+      "resposta": "Uzbequistão",
+      "distratores": [
+        "Turcomenistão",
+        "Quirguistão",
+        "Tajiquistão"
+      ],
+      "ancora": {
+        "nome": "Mar de Aral",
+        "descricao": "Lago salgado da Ásia Central entre Cazaquistão e Uzbequistão, que encolheu a partir dos anos 1960 e quase secou.",
+        "variantes": [
+          "Aral Sea",
+          "Lago Aral"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto aérea de baixa resolução de uma ilha rochosa sem traços que a identifiquem; não reconhecível, difícil num celular."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea icônica e inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que país da América Central fica esta formação circular?",
+      "resposta": "Belize",
+      "distratores": [],
+      "ancora": {
+        "nome": "Grande Buraco Azul",
+        "descricao": "Grande sumidouro marinho circular no recife Lighthouse, ao largo de Belize.",
+        "variantes": [
+          "Great Blue Hole",
+          "Grande Buraco Azul de Belize"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Área alagada com capim que pode ser confundida com pântano, brejo ou outras zonas úmidas; sem traço que identifique a marisma."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pintura de cena com neve; resposta vaga (nevasca, nevada, tempestade de neve) e a nevasca poderia ser fotografada."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Montanha de topo plano e paredões verticais, típica; sem texto e legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este tipo de montanha de topo plano e paredões verticais, típico da região das Guianas?",
+      "resposta": "Tepui",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tepui",
+        "descricao": "Montanha de topo plano e paredões verticais de arenito, típica da Venezuela, Guiana e norte do Brasil.",
+        "variantes": [
+          "Tepuy"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Paisagem colorida de Dallol, inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país africano fica esta paisagem de cores vivas, uma das regiões mais quentes do planeta?",
+      "resposta": "Etiópia",
+      "distratores": [
+        "Quênia",
+        "Namíbia",
+        "Marrocos"
+      ],
+      "ancora": {
+        "nome": "Depressão de Danakil",
+        "descricao": "Vasto vale vulcânico abaixo do nível do mar no norte da região de Afar, na Etiópia e Eritreia, com a área hidrotermal de Dallol.",
+        "variantes": [
+          "Danakil",
+          "Dallol",
+          "Depressão de Afar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem de satélite de recifes ao longo da costa, sem texto; reconhecível com múltipla escolha.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este conjunto de recifes visto do espaço?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Indonésia",
+        "Belize",
+        "Fiji"
+      ],
+      "ancora": {
+        "nome": "Grande Barreira de Coral",
+        "descricao": "Maior sistema de recifes de coral do mundo, na costa de Queensland, Austrália.",
+        "variantes": [
+          "Great Barrier Reef",
+          "Grande Barreira de Corais"
+        ]
+      }
+    }
+  ]
+}
