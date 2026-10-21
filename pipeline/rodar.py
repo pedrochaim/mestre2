@@ -39,6 +39,9 @@ CONFIG = {
 
 ORDEM = ["gerar", "validar", "criticar", "ancoras", "registrar"]
 
+LIMIAR_CONSOLIDAR = 0.85   # semelhança entre nomes para o consolidar mandar um par ao juiz
+LOTE_CONSOLIDAR = 150      # casos por chamada ao juiz no consolidar
+
 
 # ---------------------------------------------------------------- encomendas
 
@@ -250,8 +253,12 @@ def cmd_relatorio(_args):
 PALAVRAS_VAZIAS = {"de", "da", "do", "das", "dos", "e", "the", "of", "a", "o", "as", "os", "la", "el"}
 
 
-def cmd_consolidar(_args):
-    """Procura pares de âncoras ativas com nomes parecidos e pede ao juiz que decida."""
+def cmd_consolidar(args):
+    """Procura pares de âncoras ativas com nomes parecidos e pede ao juiz que decida.
+
+    O limiar é mais alto que o do registro (0,60): cada âncora já passou pelo juiz quando foi criada, e com 0,60
+    o cadastro inteiro dá 41 mil pares, quase todos ruído (Pará × Pascal). Os casos vão ao juiz em lotes, e o
+    banco é gravado depois de cada lote, para que uma interrupção não perca as fusões já feitas."""
     banco = bc.Banco()
     ativas = banco.ancoras_ativas()
 
@@ -268,7 +275,7 @@ def cmd_consolidar(_args):
         vizinhas = set().union(*(por_palavra[w] for nome in [a["nome"], *a.get("variantes", [])]
                                  for w in normalizar(nome).split() if w in por_palavra))
         grupo = [ativas[j] for j in sorted(vizinhas) if j > i]
-        cands = bc.candidatas([a["nome"], *a.get("variantes", [])], grupo)
+        cands = bc.candidatas([a["nome"], *a.get("variantes", [])], grupo, limiar=args.limiar)
         if cands:
             n = len(casos) + 1
             casos.append({"caso": n, "proposta": etapas._ficha(a), "candidatas": [etapas._ficha(c) for c in cands]})
@@ -277,31 +284,34 @@ def cmd_consolidar(_args):
     if not casos:
         print("Nenhum par suspeito de duplicata.")
         return
-    print(f"{len(casos)} âncora(s) com candidatas parecidas; consultando o juiz…")
-    try:
-        decisoes = etapas.julgar(casos, CONFIG)
-    except ErroClaude as e:
-        sys.exit(f"Interrompido: {e}")
+    lotes = [casos[i:i + LOTE_CONSOLIDAR] for i in range(0, len(casos), LOTE_CONSOLIDAR)]
+    print(f"{len(casos)} âncora(s) com candidatas parecidas; consultando o juiz em {len(lotes)} lote(s)…")
 
     uso = Counter(banco.resolver(p["ancora"]) for p in banco.perguntas)
     fundidas = 0
-    for n, id_a in pares:
-        d = decisoes.get(n)
-        if not d or d["decisao"] != "mesma":
-            continue
-        a, b = banco.resolver(id_a), banco.resolver(d.get("id_existente", ""))
-        if a is None or b is None or a == b:
-            continue
-        # A que tem mais perguntas absorve a outra.
-        destino, origem = (a, b) if uso[a] >= uso[b] else (b, a)
-        o = banco.ancora_por_id[origem]
-        banco.acrescentar_variantes(destino, [o["nome"], *o.get("variantes", [])])
-        o["fundida_em"] = destino
-        uso[destino] += uso.pop(origem, 0)
-        fundidas += 1
-        registrar_log("consolidacao", "consolidar", "fundida", d["motivo"], {"origem": origem, "destino": destino})
+    for k, lote in enumerate(lotes, 1):
+        try:
+            decisoes = etapas.julgar(lote, CONFIG)
+        except ErroClaude as e:
+            sys.exit(f"Interrompido no lote {k}/{len(lotes)}, com {fundidas} fusão(ões) já gravada(s): {e}")
+        for n, id_a in pares[(k - 1) * LOTE_CONSOLIDAR:k * LOTE_CONSOLIDAR]:
+            d = decisoes.get(n)
+            if not d or d["decisao"] != "mesma":
+                continue
+            a, b = banco.resolver(id_a), banco.resolver(d.get("id_existente", ""))
+            if a is None or b is None or a == b:
+                continue
+            # A que tem mais perguntas absorve a outra.
+            destino, origem = (a, b) if uso[a] >= uso[b] else (b, a)
+            o = banco.ancora_por_id[origem]
+            banco.acrescentar_variantes(destino, [o["nome"], *o.get("variantes", [])])
+            o["fundida_em"] = destino
+            uso[destino] += uso.pop(origem, 0)
+            fundidas += 1
+            registrar_log("consolidacao", "consolidar", "fundida", d["motivo"], {"origem": origem, "destino": destino})
+        banco.salvar()
+        print(f"  lote {k}/{len(lotes)}: {fundidas} fusão(ões) até aqui", flush=True)
 
-    banco.salvar()
     print(f"{fundidas} fusão(ões) realizada(s).")
 
 
@@ -322,7 +332,10 @@ def main():
 
     sub.add_parser("validar", help="confere o banco inteiro").set_defaults(func=cmd_validar)
     sub.add_parser("relatorio", help="distribuição do banco").set_defaults(func=cmd_relatorio)
-    sub.add_parser("consolidar", help="funde âncoras duplicadas").set_defaults(func=cmd_consolidar)
+    p = sub.add_parser("consolidar", help="funde âncoras duplicadas")
+    p.add_argument("--limiar", type=float, default=LIMIAR_CONSOLIDAR,
+                   help=f"semelhança mínima entre nomes para ir ao juiz (padrão: {LIMIAR_CONSOLIDAR})")
+    p.set_defaults(func=cmd_consolidar)
 
     p = sub.add_parser("recuperar", help="recupera reescritas que o crítico não enviou em lotes já concluídos")
     p.add_argument("--encomenda", help="id de uma encomenda específica")

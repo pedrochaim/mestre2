@@ -344,7 +344,7 @@ def duplicata(enunciado, existentes):
     return melhor if maior >= LIMIAR_DUPLICATA else None
 
 
-def candidatas(nomes, ancoras, excluir=()):
+def candidatas(nomes, ancoras, excluir=(), limiar=LIMIAR_CANDIDATA):
     """Âncoras cujo nome ou variantes se parecem com algum dos `nomes`. Nomes sem nenhuma letra latina nem
     algarismo ("@", "花見") ficam vazios depois de normalizados e não entram na comparação."""
     nomes = [x for x in nomes if normalizar(x)]
@@ -356,7 +356,7 @@ def candidatas(nomes, ancoras, excluir=()):
         if not nomes or not nomes_a:
             continue
         nota = max(semelhanca(x, y) for x in nomes for y in nomes_a)
-        if nota >= LIMIAR_CANDIDATA:
+        if nota >= limiar:
             pontuadas.append((nota, a))
     pontuadas.sort(key=lambda par: -par[0])
     return [a for _, a in pontuadas[:MAX_CANDIDATAS]]
