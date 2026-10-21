@@ -1,0 +1,57 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'fenômeno luminoso no Ártico' já entrega 'aurora boreal'. Além disso, não dá para garantir que esta foto seja do Ártico, nem distinguir boreal de austral só pela imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vista do alto' não consta em 'mostra' e não dá para confirmar para esta foto. Tirei a expressão. O resto está correto, e os distratores são formas de relevo de origem glacial, críveis e nenhum correto.",
+      "reescrita": {
+        "pergunta": "Que forma de relevo polar é esta?",
+        "resposta": "Pingo",
+        "distratores": [
+          "Drumlin",
+          "Esker",
+          "Morena"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1. O enunciado não vaza a resposta. O fenômeno é amplamente documentado, e 'tempestade de areia' e 'de poeira' são equivalentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 3 correto: reconhece as pedras velejadoras e pergunta o parque nacional de Racetrack Playa. O trecho confirma o Parque Nacional do Vale da Morte. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Relevo costeiro escavado por uma geleira' é a definição de fiorde e responde sem olhar a figura. Removi a pista de origem.",
+      "reescrita": {
+        "pergunta": "Que tipo de relevo costeiro é este?",
+        "resposta": "Fiorde"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'expele material pelo solo' é vaga e não entrega a resposta. Os distratores são feições geotérmicas parecidas e nenhum descreve a imagem. Cada alternativa tem no máximo 4 palavras, e os trechos confirmam o vulcão de lama.",
+      "reescrita": null
+    }
+  ]
+}

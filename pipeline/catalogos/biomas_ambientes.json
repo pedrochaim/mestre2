@@ -26,7 +26,7 @@
       "titulo": "en:Fog",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Relâmpago",
@@ -82,7 +82,7 @@
       "titulo": "en:Chaparral",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Nuvem prateleira",
@@ -264,7 +264,7 @@
       "titulo": "en:Mud volcano",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Moulin glacial",
@@ -292,7 +292,7 @@
       "titulo": "en:Dust storm",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Orvalho",
@@ -306,7 +306,7 @@
       "titulo": "en:Aurora",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Cúmulo",
@@ -320,7 +320,7 @@
       "titulo": "en:Rain",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Olho do furacão",
@@ -355,7 +355,7 @@
       "titulo": "en:Funnel cloud",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ciclone extratropical",
@@ -432,7 +432,7 @@
       "titulo": "en:Dead Sea",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Antártida",
@@ -467,14 +467,14 @@
       "titulo": "en:Bog",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fiorde",
       "titulo": "en:Fjord",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Plataforma de gelo",
@@ -488,7 +488,7 @@
       "titulo": "en:Ice cave",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Lago de lava",
@@ -530,14 +530,14 @@
       "titulo": "en:Crevasse",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Pedras velejadoras",
       "titulo": "en:Sailing stones",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tsingy de Bemaraha",
@@ -558,7 +558,7 @@
       "titulo": "en:Pingo",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     }
   ]
 }

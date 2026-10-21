@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Aurora verde sobre fiorde, inconfundível e sem texto; foto no Ártico, então boreal é única.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Este fenômeno luminoso, fotografado no Ártico, recebe que nome específico?",
+      "resposta": "Aurora boreal",
+      "ancora": {
+        "nome": "Aurora polar",
+        "descricao": "Fenômeno luminoso na atmosfera superior causado por partículas solares carregadas, visto em altas latitudes.",
+        "variantes": [
+          "Aurora boreal",
+          "Luzes do norte",
+          "Aurora austral"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vegetação rasteira com montanha e bétulas: não se reconhece como turfeira, podendo ser tundra ou charneca; resposta não única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Montanhista em primeiro plano (pessoa comum) e imagem minúscula e de baixa resolução, ilegível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mar de nuvens/inversão térmica entre montanhas; pode ser confundido com nuvens baixas ou estrato, não é claramente neblina."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea de dois pingos cônicos na tundra; forma característica. Múltipla com formas de relevo de colinas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que forma de relevo polar é esta, vista do alto?",
+      "resposta": "Pingo",
+      "distratores": [
+        "Drumlin",
+        "Esker",
+        "Morena"
+      ],
+      "ancora": {
+        "nome": "Pingo",
+        "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+        "variantes": [
+          "Pingos",
+          "Colina de gelo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Parede de poeira avançando sobre uma base militar; fenômeno claro, sem texto, soldado pequeno ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno do tempo é este, que avança sobre os veículos?",
+      "resposta": "Tempestade de areia",
+      "ancora": {
+        "nome": "Tempestade de areia",
+        "descricao": "Fenômeno meteorológico em que ventos fortes levantam areia e poeira de superfícies secas, comum em regiões áridas.",
+        "variantes": [
+          "Tempestade de poeira",
+          "Haboob"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A paisagem parece cerrado/savana tropical, não chaparral californiano; entidade não reconhecível e resposta enganosa."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pedra isolada com rastro no leito seco rachado, característico do Racetrack Playa; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que parque nacional dos Estados Unidos fica o lugar mais famoso deste fenômeno?",
+      "resposta": "Parque Nacional do Vale da Morte",
+      "ancora": {
+        "nome": "Pedras velejadoras",
+        "descricao": "Rochas que deixam longos rastros no leito seco de lagos efêmeros, como em Racetrack Playa, sem intervenção de animais.",
+        "variantes": [
+          "Pedras deslizantes",
+          "Pedras andantes",
+          "Sailing stones"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fiorde norueguês com paredes íngremes e reflexo; forma de vale glacial inundado reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de relevo costeiro é este, escavado por uma geleira?",
+      "resposta": "Fiorde",
+      "ancora": {
+        "nome": "Fiorde",
+        "descricao": "Braço de mar longo e estreito, de paredes íngremes, num vale escavado por uma geleira e depois inundado.",
+        "variantes": [
+          "Fiorde glacial",
+          "Fjord"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lama cinzenta borbulhando em cratera rasa; feição típica de vulcão de lama, sem texto nem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "tipo": "multipla",
+      "pergunta": "Que formação é esta, que expele material pelo solo?",
+      "resposta": "Vulcão de lama",
+      "distratores": [
+        "Gêiser",
+        "Fumarola",
+        "Fonte termal"
+      ],
+      "ancora": {
+        "nome": "Vulcão de lama",
+        "descricao": "Forma de relevo criada pela erupção de lama, água e gases, sem lava.",
+        "variantes": [
+          "Domo de lama",
+          "Mud volcano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Cortina de precipitação sob nuvem pode ser pancada de chuva ou virga; resposta pouco específica e ambígua."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Baixa protuberância sob a nuvem parece nuvem-parede, não um funil nítido; não reconhecível como nuvem funil."
+    }
+  ]
+}

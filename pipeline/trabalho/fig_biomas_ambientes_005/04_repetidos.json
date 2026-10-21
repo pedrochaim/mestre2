@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que parque nacional dos Estados Unidos fica o lugar mais famoso deste fenômeno?",
+        "resposta": "Parque Nacional do Vale da Morte"
+      },
+      "existentes": [
+        {
+          "id": "q02086",
+          "pergunta": "No Vale da Morte, na Califórnia, pedras deixam rastros ao deslizar sozinhas. O vento as move por meio de finas placas de quê?",
+          "resposta": "Gelo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de relevo costeiro é este?",
+        "resposta": "Fiorde"
+      },
+      "existentes": [
+        {
+          "id": "q13243",
+          "pergunta": "Os fiordes da Noruega são vales profundos invadidos pelo mar. O que escavou esses vales?",
+          "resposta": "Geleiras"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o parque nacional onde ocorre o fenômeno; a existente pergunta o mecanismo (gelo). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta identifica o tipo de relevo (fiorde); a existente pergunta o que escavou os vales (geleiras). Fatos diferentes."
+    }
+  ]
+}
