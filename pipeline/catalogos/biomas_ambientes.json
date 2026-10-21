@@ -12,7 +12,7 @@
       "titulo": "en:Hail",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Arco-íris",
@@ -47,7 +47,7 @@
       "titulo": "en:Snow",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estepe",
@@ -96,21 +96,21 @@
       "titulo": "en:Temperate deciduous forest",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Nuvem mammatus",
       "titulo": "en:Mammatus cloud",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Nuvem lenticular",
       "titulo": "en:Lenticular cloud",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Halo solar",
@@ -124,7 +124,7 @@
       "titulo": "en:Fynbos",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Campos rupestres",
@@ -313,7 +313,7 @@
       "titulo": "en:Cumulus cloud",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Chuva",
@@ -334,14 +334,14 @@
       "titulo": "en:Stratus cloud",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Floresta temperada úmida",
       "titulo": "en:Temperate rainforest",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Restinga",
@@ -362,7 +362,7 @@
       "titulo": "en:Extratropical cyclone",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Altocúmulo",
@@ -404,14 +404,14 @@
       "titulo": "en:Maquis shrubland",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Nuvem rolo",
       "titulo": "en:Roll cloud",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Páramo",
@@ -425,7 +425,7 @@
       "titulo": "en:Swamp",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mar Morto",
@@ -439,7 +439,7 @@
       "titulo": "en:Antarctica",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Monte Everest",
@@ -460,7 +460,7 @@
       "titulo": "pt:Pororoca",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Turfeira",
@@ -502,7 +502,7 @@
       "titulo": "en:Estuary",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Tepui",

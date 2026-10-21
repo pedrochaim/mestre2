@@ -174015,5 +174015,82 @@
       "https://en.wikipedia.org/wiki/Lake_Como",
       "https://pt.wikipedia.org/wiki/Lago_de_Como"
     ]
+  },
+  {
+    "id": "cumulo",
+    "nome": "Cúmulo",
+    "descricao": "Nuvem baixa de base plana e topo em forma de couve-flor, de aspecto algodoado.",
+    "variantes": [
+      "Cumulus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cumulus_cloud",
+      "https://pt.wikipedia.org/wiki/Cumulus"
+    ]
+  },
+  {
+    "id": "pantano",
+    "nome": "Pântano",
+    "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+    "variantes": [
+      "Swamp",
+      "Floresta alagada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Swamp",
+      "https://pt.wikipedia.org/wiki/P%C3%A2ntano"
+    ]
+  },
+  {
+    "id": "nuvem_mammatus",
+    "nome": "Nuvem mammatus",
+    "descricao": "Formação de bolsas arredondadas penduradas na base de uma nuvem, em geral um cumulonimbo.",
+    "variantes": [
+      "Mammatus",
+      "Mamma"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mammatus_cloud",
+      "https://pt.wikipedia.org/wiki/Mammatus"
+    ]
+  },
+  {
+    "id": "granizo",
+    "nome": "Granizo",
+    "descricao": "Precipitação sólida formada por bolas ou pedaços de gelo, produzida por cumulonimbos.",
+    "variantes": [
+      "Chuva de pedra",
+      "Hail"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hail",
+      "https://pt.wikipedia.org/wiki/Granizo"
+    ]
+  },
+  {
+    "id": "nuvem_lenticular",
+    "nome": "Nuvem lenticular",
+    "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma ao lado de montanhas.",
+    "variantes": [
+      "Lenticular",
+      "Lenticularis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lenticular_cloud",
+      "https://pt.wikipedia.org/wiki/Nuvem_lenticular"
+    ]
+  },
+  {
+    "id": "neve",
+    "nome": "Neve",
+    "descricao": "Precipitação de cristais de gelo que se formam nas nuvens e se acumulam como flocos no solo.",
+    "variantes": [
+      "Snow",
+      "Nevasca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Snow",
+      "https://pt.wikipedia.org/wiki/Neve"
+    ]
   }
 ]

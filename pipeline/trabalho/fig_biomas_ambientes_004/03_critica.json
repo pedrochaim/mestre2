@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista, resposta única, distratores do mesmo tipo e curtos; trechos descrevem base plana e aspecto algodoado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma que as áreas do mapa são verdes, o que não dá para conferir pela descrição. Os trechos tratam de maquis, não de clima. Na dúvida, descarte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Árvores crescendo na água' é quase a definição de pântano, então o enunciado entrega a resposta. Também descreve o manguezal, que é um distrator defensável. A pista sai e os distratores mudam.",
+      "reescrita": {
+        "pergunta": "Que tipo de ambiente úmido é este?",
+        "resposta": "Pântano",
+        "distratores": [
+          "Turfeira",
+          "Estuário",
+          "Lagoa costeira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1, sem vazamento. A pista 'visto do espaço' não identifica sozinha.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta. A resposta é única e os distratores são do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta simples de nível 1, sem vazamento, com resposta única sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em forma de disco' é a pista clássica da nuvem lenticular (lente ou disco) e pode permitir responder sem a figura. A pista sai.",
+      "reescrita": {
+        "pergunta": "Que tipo de nuvem é esta?",
+        "resposta": "Nuvem lenticular"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista de contexto ajuda sem entregar o nome. Os trechos sustentam a formação na frente de tempestades, e os distratores são adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento pela cena. A resposta é única e os distratores são do mesmo tipo.",
+      "reescrita": null
+    }
+  ]
+}

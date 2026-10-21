@@ -1,0 +1,493 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cúmulo",
+        "descricao": "Nuvem baixa de base plana e topo em forma de couve-flor, de aspecto algodoado.",
+        "variantes": [
+          "Cumulus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        },
+        {
+          "id": "cumulonimbo",
+          "nome": "Cumulonimbo",
+          "descricao": "Nuvem de tempestade de grande desenvolvimento vertical, que produz raios, trovoadas e granizo",
+          "variantes": [
+            "Cumulonimbus",
+            "Cúmulo-nimbo"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "musculo",
+          "nome": "Músculo",
+          "descricao": "Tecido do corpo capaz de se contrair e produzir movimento.",
+          "variantes": [
+            "Muscle",
+            "Musculus"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pântano",
+        "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+        "variantes": [
+          "Swamp",
+          "Floresta alagada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon",
+            "Pantheon, Rome"
+          ]
+        },
+        {
+          "id": "panteao_de_paris",
+          "nome": "Panteão de Paris",
+          "descricao": "Edifício neoclássico no Quartier Latin, em Paris, que guarda os restos de grandes personalidades francesas.",
+          "variantes": [
+            "Panthéon",
+            "Panteão"
+          ]
+        },
+        {
+          "id": "floresta_nublada",
+          "nome": "Floresta nublada",
+          "descricao": "Floresta de montanhas tropicais envolta quase sempre por nuvens e neblina",
+          "variantes": [
+            "Mata nebular",
+            "Cloud forest"
+          ]
+        },
+        {
+          "id": "pantanal_telenovela_de_1990",
+          "nome": "Pantanal (telenovela de 1990)",
+          "descricao": "Telenovela de Benedito Ruy Barbosa exibida em 1990, ambientada no Pantanal mato-grossense.",
+          "variantes": [
+            "Pantanal"
+          ]
+        },
+        {
+          "id": "sampa",
+          "nome": "Sampa",
+          "descricao": "Canção de Caetano Veloso de 1978, homenagem à cidade de São Paulo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Antártida",
+        "descricao": "Continente mais ao sul da Terra, coberto por gelo e que contém o Polo Sul geográfico.",
+        "variantes": [
+          "Antártica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "antartida",
+          "nome": "Antártida",
+          "descricao": "Continente gelado em torno do Polo Sul.",
+          "variantes": [
+            "Antártica",
+            "Antarctica"
+          ]
+        },
+        {
+          "id": "altaria",
+          "nome": "Altaria",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 334 da Pokédex Nacional.",
+          "variantes": [
+            "Mega Altaria"
+          ]
+        },
+        {
+          "id": "fantastico",
+          "nome": "Fantástico",
+          "descricao": "Programa dominical da Rede Globo, misto de jornalismo e variedades, conhecido como o Show da Vida.",
+          "variantes": [
+            "Fantástico, o Show da Vida"
+          ]
+        },
+        {
+          "id": "anta_malaia",
+          "nome": "Anta-malaia",
+          "descricao": "Anta asiática de corpo preto e branco (Tapirus indicus), a única do grupo fora das Américas.",
+          "variantes": [
+            "Anta-asiática",
+            "Tapirus indicus",
+            "Malayan tapir"
+          ]
+        },
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Nuvem mammatus",
+        "descricao": "Formação de bolsas arredondadas penduradas na base de uma nuvem, em geral um cumulonimbo.",
+        "variantes": [
+          "Mammatus",
+          "Mamma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamao",
+          "nome": "Mamão",
+          "descricao": "Fruta tropical alaranjada da Carica papaya, com muitas sementes pretas no centro.",
+          "variantes": [
+            "Papaia",
+            "Carica papaya"
+          ]
+        },
+        {
+          "id": "maome",
+          "nome": "Maomé",
+          "descricao": "Profeta do islã, nascido em Meca",
+          "variantes": [
+            "Muhammad",
+            "Mohammed"
+          ]
+        },
+        {
+          "id": "setsubun",
+          "nome": "Setsubun",
+          "descricao": "Festa japonesa da véspera do início da primavera no calendário tradicional, em que se espantam os demônios.",
+          "variantes": [
+            "Mamemaki"
+          ]
+        },
+        {
+          "id": "artes_marciais_mistas",
+          "nome": "Artes marciais mistas",
+          "descricao": "Esporte de combate de contato total que combina golpes em pé e luta no solo, disputado em ringue com grade.",
+          "variantes": [
+            "MMA",
+            "Mixed martial arts"
+          ]
+        },
+        {
+          "id": "maractus",
+          "nome": "Maractus",
+          "descricao": "Pokémon do tipo Planta, número 556 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Granizo",
+        "descricao": "Precipitação sólida formada por bolas ou pedaços de gelo, produzida por cumulonimbos.",
+        "variantes": [
+          "Chuva de pedra",
+          "Hail"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hal_9000",
+          "nome": "HAL 9000",
+          "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+          "variantes": [
+            "HAL"
+          ]
+        },
+        {
+          "id": "granito",
+          "nome": "Granito",
+          "descricao": "Rocha ígnea intrusiva de grão grosso, formada pelo resfriamento lento do magma no interior da crosta.",
+          "variantes": [
+            "Granite"
+          ]
+        },
+        {
+          "id": "bubble_tea",
+          "nome": "Bubble tea",
+          "descricao": "Bebida à base de chá, leite e pérolas de tapioca, originada em Taiwan.",
+          "variantes": [
+            "Chá de bolhas",
+            "Boba tea",
+            "Chá de pérolas"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "uranio",
+          "nome": "Urânio",
+          "descricao": "Elemento químico de número atômico 92, metal radioativo usado como combustível nuclear.",
+          "variantes": [
+            "U"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Nuvem lenticular",
+        "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma ao lado de montanhas.",
+        "variantes": [
+          "Lenticular",
+          "Lenticularis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        },
+        {
+          "id": "ventilador",
+          "nome": "Ventilador",
+          "descricao": "Máquina com pás giratórias que produz fluxo de ar; aqui, um modelo portátil de clipe.",
+          "variantes": [
+            "Ventilador portátil",
+            "Fan"
+          ]
+        },
+        {
+          "id": "oculos_bifocais",
+          "nome": "Óculos bifocais",
+          "descricao": "Óculos com lentes divididas em duas partes, uma para enxergar de longe e outra de perto, atribuídos a Benjamin Franklin.",
+          "variantes": [
+            "Lentes bifocais",
+            "Bifocais"
+          ]
+        },
+        {
+          "id": "canicula",
+          "nome": "Canícula",
+          "descricao": "Período mais quente do verão no hemisfério norte, tradicionalmente associado à estrela Sírius",
+          "variantes": [
+            "Dias de cão",
+            "Dog days"
+          ]
+        },
+        {
+          "id": "vesicula_biliar",
+          "nome": "Vesícula biliar",
+          "descricao": "Pequena bolsa sob o fígado que armazena a bile.",
+          "variantes": [
+            "Vesícula"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nuvem arcus",
+        "descricao": "Nuvem baixa e horizontal em forma de arco, acessória do cumulonimbo, que se forma na frente de tempestades.",
+        "variantes": [
+          "Nuvem rolo",
+          "Arcus",
+          "Nuvem prateleira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nuvem_prateleira",
+          "nome": "Nuvem prateleira",
+          "descricao": "Nuvem arcus baixa e horizontal que marca a frente de rajadas de uma tempestade.",
+          "variantes": [
+            "Shelf cloud",
+            "Arcus"
+          ]
+        },
+        {
+          "id": "arceus",
+          "nome": "Arceus",
+          "descricao": "Pokémon mítico do tipo Normal da quarta geração, que segundo a mitologia de Sinnoh criou o universo.",
+          "variantes": []
+        },
+        {
+          "id": "maractus",
+          "nome": "Maractus",
+          "descricao": "Pokémon do tipo Planta, número 556 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "rainbow_cloud_pokemon_snap",
+          "nome": "Rainbow Cloud (Pokémon Snap)",
+          "descricao": "Fase final e secreta de Pokémon Snap, uma nuvem de arco-íris onde Todd fotografa o mítico Mew.",
+          "variantes": [
+            "Rainbow Cloud",
+            "Nuvem Arco-Íris"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Neve",
+        "descricao": "Precipitação de cristais de gelo que se formam nas nuvens e se acumulam como flocos no solo.",
+        "variantes": [
+          "Snow",
+          "Nevasca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "milu",
+          "nome": "Milu",
+          "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+          "variantes": [
+            "Milou",
+            "Snowy"
+          ]
+        },
+        {
+          "id": "nascar",
+          "nome": "NASCAR",
+          "descricao": "Principal entidade de corridas de stock car dos Estados Unidos, fundada em 1948.",
+          "variantes": [
+            "National Association for Stock Car Auto Racing"
+          ]
+        },
+        {
+          "id": "nene",
+          "nome": "Nenê",
+          "descricao": "Pivô brasileiro de basquete, ex-jogador da NBA, nascido Maybyner Rodney Hilário.",
+          "variantes": [
+            "Nenê Hilário",
+            "Maybyner Rodney Hilário"
+          ]
+        },
+        {
+          "id": "burro",
+          "nome": "Burro",
+          "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+          "variantes": [
+            "Asno",
+            "Jumento",
+            "Equus asinus"
+          ]
+        },
+        {
+          "id": "snom",
+          "nome": "Snom",
+          "descricao": "Pokémon dos tipos Gelo e Inseto, número 872 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cúmulo é um tipo de nuvem distinto do cumulonimbo e das demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pântano (floresta alagada) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "antartida",
+      "motivo": "Mesmo continente ao redor do Polo Sul, com a variante Antártica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nuvem mammatus não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Granizo é precipitação de gelo, diferente de granito e das outras candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nuvem lenticular não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "nuvem_prateleira",
+      "motivo": "Nuvem arcus e nuvem prateleira são a mesma formação; a candidata já tem a variante Arcus."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Neve como fenômeno meteorológico não corresponde a nenhuma candidata."
+    }
+  ]
+}

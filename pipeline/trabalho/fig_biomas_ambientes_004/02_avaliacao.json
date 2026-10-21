@@ -1,0 +1,222 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cúmulo claro, céu azul, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem é esta?",
+      "resposta": "Cúmulo",
+      "distratores": [
+        "Estrato",
+        "Cirro",
+        "Altostrato"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cúmulo",
+        "descricao": "Nuvem baixa de base plana e topo em forma de couve-flor, de aspecto algodoado.",
+        "variantes": [
+          "Cumulus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Céu cinza uniforme com árvores; pode ser estrato, nimbostrato ou neblina. Resposta não é única e a imagem não permite reconhecer."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Mapa-múndi sem texto com as áreas de vegetação/clima mediterrâneo em verde; reconhecível pela distribuição nas costas oeste e na bacia do Mediterrâneo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de clima predomina nas áreas verdes deste mapa?",
+      "resposta": "Mediterrâneo",
+      "distratores": [
+        "Subtropical úmido",
+        "Semiárido",
+        "Equatorial"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Clima mediterrâneo",
+        "descricao": "Clima de invernos úmidos e amenos e verões secos, que cobre a bacia do Mediterrâneo e regiões como Califórnia, Chile central, Cabo e sul da Austrália.",
+        "variantes": [
+          "Bioma mediterrâneo",
+          "Floresta, bosque e matagal mediterrâneo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Floresta alagada nítida, sem texto, sem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ambiente é este, com árvores crescendo na água?",
+      "resposta": "Pântano",
+      "distratores": [
+        "Manguezal",
+        "Turfeira",
+        "Tundra"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pântano",
+        "descricao": "Terra úmida florestada, alagada de forma permanente ou sazonal.",
+        "variantes": [
+          "Swamp",
+          "Floresta alagada"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Paisagem de arbustos com montanhas; sem característica que permita reconhecer o fynbos ou distingui-lo de matagais mediterrâneos de outros países. Resposta não única diante da imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de satélite do continente, contorno inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que continente é este, visto do espaço?",
+      "resposta": "Antártida",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Antártida",
+        "descricao": "Continente mais ao sul da Terra, coberto por gelo e que contém o Polo Sul geográfico.",
+        "variantes": [
+          "Antártica"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Textura de bolsas pendentes característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formação de nuvem é esta, vista de baixo?",
+      "resposta": "Nuvem mammatus",
+      "distratores": [
+        "Nuvem lenticular",
+        "Nuvem arcus",
+        "Cirro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nuvem mammatus",
+        "descricao": "Formação de bolsas arredondadas penduradas na base de uma nuvem, em geral um cumulonimbo.",
+        "variantes": [
+          "Mammatus",
+          "Mamma"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pedras de granizo grandes na mão, claras; só a mão aparece, sem texto relevante.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de precipitação é esta?",
+      "resposta": "Granizo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Granizo",
+        "descricao": "Precipitação sólida formada por bolas ou pedaços de gelo, produzida por cumulonimbos.",
+        "variantes": [
+          "Chuva de pedra",
+          "Hail"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Vista aérea de um estuário (Exe), mas a imagem também poderia ser lida como baía ou rio com maré; sem pistas para resposta única nem reconhecimento justo."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Nuvem lenticular clássica em forma de disco empilhado, céu limpo, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de nuvem, em forma de disco, é esta?",
+      "resposta": "Nuvem lenticular",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nuvem lenticular",
+        "descricao": "Nuvem estacionária em forma de lente ou disco, que se forma ao lado de montanhas.",
+        "variantes": [
+          "Lenticular",
+          "Lenticularis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Nuvem arcus em arco bem definida sobre a cidade, sem texto; resposta pelo gênero arcus evita a confusão entre rolo e prateleira.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de nuvem é esta, na frente de uma tempestade?",
+      "resposta": "Nuvem arcus",
+      "distratores": [
+        "Nuvem lenticular",
+        "Nuvem mammatus",
+        "Cirro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Nuvem arcus",
+        "descricao": "Nuvem baixa e horizontal em forma de arco, acessória do cumulonimbo, que se forma na frente de tempestades.",
+        "variantes": [
+          "Arcus",
+          "Nuvem prateleira",
+          "Nuvem rolo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Nevasca num parque, clara; pessoas pequenas ao fundo, não em primeiro plano.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de precipitação cai nesta cena?",
+      "resposta": "Neve",
+      "distratores": [
+        "Granizo",
+        "Garoa",
+        "Chuva congelada"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Neve",
+        "descricao": "Precipitação de cristais de gelo que se formam nas nuvens e se acumulam como flocos no solo.",
+        "variantes": [
+          "Snow",
+          "Nevasca"
+        ]
+      }
+    }
+  ]
+}

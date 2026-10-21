@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que continente é este, visto do espaço?",
+        "resposta": "Antártida"
+      },
+      "existentes": [
+        {
+          "id": "q02097",
+          "pergunta": "Considerando deserto toda região onde quase não chove nem neva, qual é o maior deserto do mundo?",
+          "resposta": "Antártida"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de nuvem é esta, na frente de uma tempestade?",
+        "resposta": "Nuvem arcus"
+      },
+      "existentes": [
+        {
+          "id": "q14162",
+          "pergunta": "Que tipo de nuvem é esta?",
+          "resposta": "Nuvem prateleira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma identifica o continente numa imagem do espaço; a outra pergunta o maior deserto do mundo. Fatos diferentes, mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "As respostas são tipos de nuvem diferentes (arcus e prateleira), então os fatos perguntados são outros."
+    }
+  ]
+}
