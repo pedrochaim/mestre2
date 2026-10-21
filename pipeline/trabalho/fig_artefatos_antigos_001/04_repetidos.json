@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que famosa escultura da Antiguidade, hoje nos Museus do Vaticano, é esta?",
+        "resposta": "Laocoonte e seus filhos"
+      },
+      "existentes": [
+        {
+          "id": "q05974",
+          "pergunta": "Em que museu está exposta esta escultura da Antiguidade?",
+          "resposta": "Museus do Vaticano"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta estátua grega de bronze foi recuperada do mar em 1928. Junto ao norte de qual ilha grega ela estava?",
+        "resposta": "Eubeia"
+      },
+      "existentes": [
+        {
+          "id": "q04697",
+          "pergunta": "Esta estátua grega de bronze foi recuperada do mar, perto do cabo Artemísio, ao norte de qual ilha grega?",
+          "resposta": "Eubeia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da escultura; a existente pede o museu onde está. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a ilha (Eubeia) ao norte da qual a estátua foi encontrada; mesmo fato."
+    }
+  ]
+}

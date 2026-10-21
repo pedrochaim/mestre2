@@ -1,0 +1,119 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, não nomeia a obra; a pista (Antiguidade, Vaticano) não entrega sem a figura. Trechos confirmam que está nos Museus do Vaticano.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que a estátua está hoje no Museu da Acrópole, em Atenas. Distratores do mesmo tipo e plausíveis; o enunciado só descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Kofun é confirmado pelos trechos, mas 'colocada sobre túmulos' é pista que quase entrega o período (kofun significa túmulo antigo); tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que período da história do Japão foi feita esta figura de argila?",
+        "resposta": "Período Kofun",
+        "distratores": [
+          "Período Jomon",
+          "Período Yayoi",
+          "Período Nara"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é confirmado, mas a pista 'mais antiga referência textual' é um feito único que permite responder sem a figura. A imagem de uma estela com hieróglifos também não permite reconhecer esta peça.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado cita o cabo Artemísio, que fica no norte da Eubeia, então responde sem a figura e quase nomeia a estátua. Tirar o nome do cabo e usar o ano de 1928 (pt.wikipedia).",
+      "reescrita": {
+        "pergunta": "Esta estátua grega de bronze foi recuperada do mar em 1928. Junto ao norte de qual ilha grega ela estava?",
+        "resposta": "Eubeia",
+        "distratores": [
+          "Creta",
+          "Rodes",
+          "Samos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que a peça é do século dois e foi achada em Gansu. A pista não entrega o século. Distratores de séculos plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a cena toda e entrega a identificação. 'Diante da esposa' também é impreciso, pois o trecho diz que ele segura a tocha acima dela. Simplificar e manter só a pista de local e época.",
+      "reescrita": {
+        "pergunta": "Que governante de Yaxchilán aparece, ao lado da esposa, neste relevo maia do século oito?",
+        "resposta": "Escudo Jaguar (Itzamnaaj Bahlam III)"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Objeto cerimonial dos Andes de lâmina em meia-lua' é a definição do tumi e permite responder sem a figura. Trocar por pista que só ajuda.",
+      "reescrita": {
+        "pergunta": "Este objeto de ouro foi feito por povos dos antigos Andes. Como ele se chama?",
+        "resposta": "Tumi"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que a figura principal da Estela Raimondi é o Deus dos Bastões. O enunciado não o nomeia, e a estela e a cultura Chavín só situam a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Peça de ouro' é impreciso, pois a figura é de madeira recoberta de folhas de ouro (trecho). O restante está correto e não vaza.",
+      "reescrita": {
+        "pergunta": "De que antigo reino africano vem esta pequena figura de animal, de madeira recoberta de ouro?",
+        "resposta": "Reino de Mapungubwe",
+        "distratores": [
+          "Grande Zimbábue",
+          "Reino de Axum",
+          "Reino de Cuxe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Centro religioso dos iorubás' com 1938 entrega Ifé sem a figura. Além disso, 'bronze' é impreciso, pois os trechos falam em liga de cobre. Tirar a pista.",
+      "reescrita": {
+        "pergunta": "Em que cidade nigeriana foi desenterrada, em 1938, esta cabeça naturalista de liga de cobre?",
+        "resposta": "Ifé",
+        "distratores": [
+          "Benin City",
+          "Oyo",
+          "Lagos"
+        ]
+      }
+    }
+  ]
+}

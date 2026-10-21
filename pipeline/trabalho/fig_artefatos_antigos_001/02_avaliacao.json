@@ -1,0 +1,262 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Grupo escultórico nítido, sem texto, famoso e único.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa escultura da Antiguidade, hoje nos Museus do Vaticano, é esta?",
+      "resposta": "Laocoonte e seus filhos",
+      "distratores": [],
+      "ancora": {
+        "nome": "Laocoonte e seus filhos",
+        "descricao": "Grupo escultórico helenístico em mármore, nos Museus do Vaticano, que mostra um sacerdote troiano e seus filhos atacados por serpentes marinhas.",
+        "variantes": [
+          "Grupo de Laocoonte",
+          "Laocoön and His Sons",
+          "Grupo do Laocoonte"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estátua arcaica nítida, sem texto, reconhecível pelo bezerro nos ombros.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica hoje esta estátua grega arcaica de um homem carregando um bezerro?",
+      "resposta": "Museu da Acrópole",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu Britânico",
+        "Museu de Delfos"
+      ],
+      "ancora": {
+        "nome": "Moscóforo",
+        "descricao": "Estátua grega arcaica de cerca de 560 a.C., em mármore, que representa um homem carregando um bezerro nos ombros, encontrada na Acrópole de Atenas.",
+        "variantes": [
+          "Moschophoros",
+          "Portador de bezerro",
+          "Calf Bearer"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Busto de haniwa reconhecível; o texto ao fundo é parcial e não entrega a resposta.",
+      "destino": 3,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que período da história do Japão foi feita esta figura de argila, colocada sobre túmulos?",
+      "resposta": "Período Kofun",
+      "distratores": [
+        "Período Jomon",
+        "Período Yayoi",
+        "Período Nara"
+      ],
+      "ancora": {
+        "nome": "Haniwa",
+        "descricao": "Figuras e cilindros de terracota colocados sobre túmulos no Japão do período Kofun.",
+        "variantes": [
+          "Haniwa de guerreiro",
+          "埴輪"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estela com hieróglifos ilegíveis para o público, sem legenda; reconhecível como a estela de Merneptá.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta estela de um faraó egípcio traz a mais antiga referência textual conhecida a que povo?",
+      "resposta": "Israel",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estela de Merneptá",
+        "descricao": "Estela egípcia de granito do faraó Merneptá, de cerca de 1208 a.C., que narra a vitória sobre os líbios e menciona Israel, hoje no Museu Egípcio do Cairo.",
+        "variantes": [
+          "Estela de Israel",
+          "Estela da Vitória de Merneptá",
+          "Merneptah Stele"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem mostra o painel de Nefermaat e Atet, em pé e sentada, e não os Gansos de Meidum; não corresponde ao nome do item."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Estátua de bronze nítida em museu, sem texto que entregue a resposta.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta estátua de bronze foi recuperada do mar perto do cabo Artemísio, no norte de qual ilha grega?",
+      "resposta": "Eubeia",
+      "distratores": [
+        "Creta",
+        "Rodes",
+        "Samos"
+      ],
+      "ancora": {
+        "nome": "Bronze de Artemísio",
+        "descricao": "Estátua grega de bronze de Zeus ou Poseidon, recuperada do mar no cabo Artemísio e exposta no Museu Arqueológico Nacional de Atenas.",
+        "variantes": [
+          "Deus do Cabo Artemísio",
+          "Zeus do Cabo Artemísio",
+          "Artemision Bronze",
+          "Zeus ou Poseidon de Artemísio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bronze nítido e inconfundível, sem texto.",
+      "destino": 3,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século da era cristã foi feita esta escultura chinesa de bronze, achada em Gansu?",
+      "resposta": "Século dois",
+      "distratores": [
+        "Século sexto",
+        "Século dez",
+        "Século catorze"
+      ],
+      "ancora": {
+        "nome": "Cavalo voador de Gansu",
+        "descricao": "Escultura chinesa de bronze, do século dois, de um cavalo galopando sobre uma andorinha, achada em 1969 perto de Wuwei.",
+        "variantes": [
+          "Cavalo Galopante de Gansu",
+          "Cavalo de bronze de Gansu",
+          "Flying Horse of Gansu",
+          "Cavalo Celestial de Gansu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Relevo maia nítido; glifos ilegíveis ao público, sem legenda.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Neste relevo maia de Yaxchilán, que governante segura a tocha diante da esposa, num ritual de sangria?",
+      "resposta": "Escudo Jaguar (Itzamnaaj Bahlam III)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lintel 24 de Yaxchilán",
+        "descricao": "Relevo maia em calcário, de cerca de 723-726 d.C., de Yaxchilán, hoje no Museu Britânico, que mostra um governante e sua consorte num ritual de sangria.",
+        "variantes": [
+          "Lintel 24",
+          "Yaxchilan Lintel 24",
+          "Verga 24 de Yaxchilán"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Objeto dourado nítido, sem texto, forma característica.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto cerimonial dos antigos Andes, de lâmina em meia-lua, é este?",
+      "resposta": "Tumi",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tumi",
+        "descricao": "Faca cerimonial de lâmina semicircular dos povos andinos, aqui um exemplar de ouro com figura de divindade no cabo.",
+        "variantes": [
+          "Tumi de ouro",
+          "Faca tumi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Estela com a iconografia característica do Deus dos Bastões, sem texto.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que divindade da cultura Chavín aparece gravada nesta estela?",
+      "resposta": "Deus dos Bastões",
+      "distratores": [],
+      "ancora": {
+        "nome": "Estela Raimondi",
+        "descricao": "Estela de granito polido da cultura Chavín, no Peru, com a figura do Deus dos Bastões.",
+        "variantes": [
+          "Raimondi Stele",
+          "Estela de Raimondi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Objeto de ouro nítido sobre fundo branco, sem texto.",
+      "destino": 4,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que antigo reino africano vem esta pequena peça de ouro em forma de animal?",
+      "resposta": "Reino de Mapungubwe",
+      "distratores": [
+        "Grande Zimbábue",
+        "Reino de Axum",
+        "Reino de Cuxe"
+      ],
+      "ancora": {
+        "nome": "Rinoceronte dourado de Mapungubwe",
+        "descricao": "Pequena figura de rinoceronte em madeira recoberta de folhas de ouro, achada em 1932 numa tumba real na colina de Mapungubwe, na África do Sul.",
+        "variantes": [
+          "Golden Rhinoceros of Mapungubwe",
+          "Rinoceronte de ouro de Mapungubwe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cabeça de bronze nítida, sem texto; reconhecível como cabeça de Ifé.",
+      "destino": 4,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade nigeriana, centro religioso dos iorubás, foi desenterrada em 1938 esta cabeça de bronze?",
+      "resposta": "Ifé",
+      "distratores": [
+        "Benin City",
+        "Oyo",
+        "Lagos"
+      ],
+      "ancora": {
+        "nome": "Cabeça de Ifé",
+        "descricao": "Cabeça de liga de cobre naturalista, atribuída a um rei iorubá, entre as dezoito peças achadas em Ifé, na Nigéria, em 1938.",
+        "variantes": [
+          "Ife Head",
+          "Cabeça de bronze de Ifé",
+          "Bronze Head from Ife"
+        ]
+      }
+    }
+  ]
+}
