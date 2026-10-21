@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que civilização da Idade do Bronze fez esta estatueta?",
+        "resposta": "Minoica"
+      },
+      "existentes": [
+        {
+          "id": "q13957",
+          "pergunta": "Que estatueta minoica de Cnossos é esta?",
+          "resposta": "Deusa das Serpentes"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que museu fica esta estela acádia?",
+        "resposta": "Museu do Louvre"
+      },
+      "existentes": [
+        {
+          "id": "q14056",
+          "pergunta": "Em que século antes de Cristo foi esculpida esta estela de vitória do Império Acádio?",
+          "resposta": "Século vinte e três a.C."
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que antiga cidade do Vale do Indo foi encontrada esta escultura?",
+        "resposta": "Mohenjo-daro"
+      },
+      "existentes": [
+        {
+          "id": "q14002",
+          "pergunta": "Que famosa escultura de pedra, da Idade do Bronze, é esta?",
+          "resposta": "Rei-Sacerdote de Mohenjo-daro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre a civilização; a outra, sobre qual é a estatueta. Fatos diferentes, embora relacionados."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Museu onde está a estela e século em que foi esculpida são fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome da escultura, que já inclui Mohenjo-daro. A nova pede a cidade onde foi encontrada. Quem soubesse a resposta da existente poderia deduzir a nova pelo nome, mas o fato perguntado é outro. Na dúvida, nova."
+    }
+  ]
+}

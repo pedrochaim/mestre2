@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vaso canópico egípcio com tampa em forma de cabeça humana, nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que processo funerário do Egito antigo eram usados vasos como este?",
+      "resposta": "Mumificação",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vasos canópicos",
+        "descricao": "Vasos funerários egípcios que guardavam os órgãos retirados do corpo na mumificação.",
+        "variantes": [
+          "Vaso canópico",
+          "Canopic jars"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estátua monumental de Coatlicue, foto clara e sem texto, silhueta inconfundível (saia de serpentes, caveira).",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que deusa asteca é representada nesta escultura de pedra?",
+      "resposta": "Coatlicue",
+      "distratores": [
+        "Coyolxauhqui",
+        "Chalchiuhtlicue",
+        "Xochiquetzal"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Estátua de Coatlicue",
+        "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+        "variantes": [
+          "Coatlicue",
+          "Coatlicue Mayor"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estatueta minoica da Deusa das Serpentes, clara e reconhecível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que civilização da Idade do Bronze fez esta estatueta?",
+      "resposta": "Minoica",
+      "destino": 1,
+      "ancora": {
+        "nome": "Deusa das Serpentes minoica",
+        "descricao": "Estatueta de faiança da civilização minoica, achada no palácio de Cnossos, em Creta, que segura duas serpentes.",
+        "variantes": [
+          "Deusa das serpentes",
+          "Minoan snake goddess"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Estela de Naram-Sin inteira, legível, só com escrita cuneiforme ilegível que não entrega a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica esta estela acádia?",
+      "resposta": "Museu do Louvre",
+      "distratores": [
+        "Museu Britânico",
+        "Museu de Pérgamo",
+        "Museu Nacional do Iraque"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Estela da Vitória de Naram-Sin",
+        "descricao": "Estela de arenito rosado do rei acádio Naram-Sin, com cerca de 2250 a.C., que celebra a vitória sobre os Lullubi.",
+        "variantes": [
+          "Estela de Naram-Sin",
+          "Victory Stele of Naram-Sin"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Busto colossal de Ramsés II (Jovem Mêmnon) no Museu Britânico, claro e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que faraó esta estátua colossal de granito representa?",
+      "resposta": "Ramsés II",
+      "distratores": [
+        "Amenhotep III",
+        "Tutmés III",
+        "Seti I"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jovem Mêmnon",
+        "descricao": "Estátua colossal de granito de Ramsés II, do Ramesseum de Tebas, cujo busto está no Museu Britânico.",
+        "variantes": [
+          "Younger Memnon",
+          "Busto de Ramsés II"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Página do Códice de Dresden com glifos e figuras maias, sem texto que revele o nome; reconhecível pelo estilo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo escreveu este livro dobrado em sanfona, feito de papel de amate?",
+      "resposta": "Maia",
+      "distratores": [
+        "Asteca",
+        "Mixteca",
+        "Zapoteca"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Códice de Dresden",
+        "descricao": "Livro maia dobrado em sanfona, com tabelas astronômicas, guardado na biblioteca estadual da Saxônia, em Dresden.",
+        "variantes": [
+          "Dresden Codex"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Mosaico de turquesa nítido, fundo escuro, sem texto, objeto inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escultura asteca de mosaico é esta?",
+      "resposta": "Serpente de duas cabeças",
+      "destino": 2,
+      "ancora": {
+        "nome": "Serpente de duas cabeças asteca",
+        "descricao": "Escultura asteca em mosaico de turquesa sobre base de madeira, do Museu Britânico.",
+        "variantes": [
+          "Double-headed serpent",
+          "Serpente bicéfala asteca"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Detalhe do Rei-sacerdote, com manto de trifólios, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que antiga cidade do Vale do Indo foi encontrada esta escultura?",
+      "resposta": "Mohenjo-daro",
+      "distratores": [
+        "Harappa",
+        "Lothal",
+        "Kalibangan"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Rei-sacerdote de Mohenjo-daro",
+        "descricao": "Pequena escultura de esteatita de homem barbado, da civilização do Vale do Indo, achada em Mohenjo-daro.",
+        "variantes": [
+          "Priest-King",
+          "Rei-sacerdote"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de vitrine com reflexos; o tipo de nkisi e a peça exata são ambíguos, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Relevo circular do zodíaco de Dendera, legível e reconhecível, sem legenda moderna.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que templo egípcio ficava este relevo astronômico do teto?",
+      "resposta": "Templo de Dendera",
+      "destino": 0,
+      "ancora": {
+        "nome": "Zodíaco de Dendera",
+        "descricao": "Relevo egípcio do teto de uma capela do templo de Hathor em Dendera, hoje no Louvre.",
+        "variantes": [
+          "Zodíaco de Denderah",
+          "Dendera zodiac"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de hieróglifos e tabelas, não é uma foto do papiro e não fica legível no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Painéis em relevo da caça aos leões, nítidos e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu estão estes relevos assírios de caça?",
+      "resposta": "Museu Britânico",
+      "destino": 3,
+      "ancora": {
+        "nome": "Caça aos leões de Assurbanípal",
+        "descricao": "Relevos assírios do Palácio Norte de Nínive que mostram o rei Assurbanípal caçando leões, hoje no Museu Britânico.",
+        "variantes": [
+          "Lion Hunt of Ashurbanipal",
+          "Caça ao leão de Assurbanípal"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Vasos canópicos",
+        "descricao": "Vasos funerários egípcios que guardavam os órgãos retirados do corpo na mumificação.",
+        "variantes": [
+          "Vaso canópico",
+          "Canopic jars"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capilar_sanguineo",
+          "nome": "Capilar sanguíneo",
+          "descricao": "Vaso sanguíneo microscópico onde ocorrem as trocas entre o sangue e os tecidos.",
+          "variantes": [
+            "Capilar",
+            "Vasos capilares"
+          ]
+        },
+        {
+          "id": "vaso_francois",
+          "nome": "Vaso François",
+          "descricao": "Grande cratera ática de figuras negras, de cerca de 570 a.C., achada em Chiusi e guardada no Museu Arqueológico de Florença.",
+          "variantes": [
+            "François Vase",
+            "Cratera François",
+            "François Krater"
+          ]
+        },
+        {
+          "id": "gato_tricolor",
+          "nome": "Gato tricolor",
+          "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+          "variantes": [
+            "Gato cálico",
+            "Calico cat"
+          ]
+        },
+        {
+          "id": "oceano_pacifico",
+          "nome": "Oceano Pacífico",
+          "descricao": "O maior oceano da Terra, entre a Ásia, a Oceania e as Américas.",
+          "variantes": [
+            "Pacífico",
+            "Pacific Ocean"
+          ]
+        },
+        {
+          "id": "carmim",
+          "nome": "Carmim",
+          "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+          "variantes": [
+            "carmine",
+            "corante de cochonilha",
+            "E120",
+            "Cochonilha",
+            "Ácido carmínico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estátua de Coatlicue",
+        "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+        "variantes": [
+          "Coatlicue",
+          "Coatlicue Mayor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coatlicue",
+          "nome": "Coatlicue",
+          "descricao": "Deusa asteca mãe dos deuses, cuja saia é feita de serpentes.",
+          "variantes": []
+        },
+        {
+          "id": "calice",
+          "nome": "Cálice",
+          "descricao": "Canção de Chico Buarque e Gilberto Gil de 1973, censurada pela ditadura militar.",
+          "variantes": []
+        },
+        {
+          "id": "estatua_de_hachiko",
+          "nome": "Estátua de Hachiko",
+          "descricao": "Estátua de bronze do cão akita Hachiko, diante da estação de Shibuya, em Tóquio.",
+          "variantes": [
+            "Hachikō",
+            "Hachiko"
+          ]
+        },
+        {
+          "id": "cicuta",
+          "nome": "Cicuta",
+          "descricao": "Planta venenosa Conium maculatum, da família da cenoura",
+          "variantes": [
+            "Conium maculatum",
+            "hemlock",
+            "cicuta-maior"
+          ]
+        },
+        {
+          "id": "regua_de_calculo",
+          "nome": "Régua de cálculo",
+          "descricao": "Calculadora analógica mecânica com escalas deslizantes, usada para multiplicar, dividir e calcular logaritmos.",
+          "variantes": [
+            "Slide rule"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Deusa das Serpentes minoica",
+        "descricao": "Estatueta de faiança da civilização minoica, achada no palácio de Cnossos, em Creta, que segura duas serpentes.",
+        "variantes": [
+          "Deusa das serpentes",
+          "Minoan snake goddess"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deusa_das_serpentes",
+          "nome": "Deusa das Serpentes",
+          "descricao": "Estatueta minoica de faiança, de cerca de 1600 a.C., achada no palácio de Cnossos, em Creta, de uma mulher segurando serpentes.",
+          "variantes": [
+            "Deusa das serpentes de Cnossos",
+            "Snake Goddess",
+            "Sacerdotisa das Serpentes"
+          ]
+        },
+        {
+          "id": "mehen",
+          "nome": "Mehen",
+          "descricao": "Jogo de tabuleiro do Egito antigo, em espiral de serpente, nomeado em referência à divindade serpente Mehen.",
+          "variantes": [
+            "Jogo da serpente",
+            "Mehen (jogo)"
+          ]
+        },
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        },
+        {
+          "id": "doze_uvas_da_sorte",
+          "nome": "Doze uvas da sorte",
+          "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+          "variantes": [
+            "Las doce uvas",
+            "Twelve Grapes"
+          ]
+        },
+        {
+          "id": "era_mesozoica",
+          "nome": "Era Mesozoica",
+          "descricao": "Era geológica entre cerca de 252 e 66 milhões de anos atrás, dividida em Triássico, Jurássico e Cretáceo, conhecida como a era dos dinossauros.",
+          "variantes": [
+            "Mesozoico",
+            "Mesozoic",
+            "Era dos Répteis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estela da Vitória de Naram-Sin",
+        "descricao": "Estela de arenito rosado do rei acádio Naram-Sin, com cerca de 2250 a.C., que celebra a vitória sobre os Lullubi.",
+        "variantes": [
+          "Estela de Naram-Sin",
+          "Victory Stele of Naram-Sin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estela_de_naram_sin",
+          "nome": "Estela de Naram-Sin",
+          "descricao": "Estela de vitória em arenito rosado do rei acadiano Naram-Sin, de cerca de 2254 a.C., hoje no Louvre.",
+          "variantes": [
+            "Estela da Vitória de Naram-Sin",
+            "Victory Stele of Naram-Sin"
+          ]
+        },
+        {
+          "id": "estela_raimondi",
+          "nome": "Estela Raimondi",
+          "descricao": "Estela de granito polido da cultura Chavín, no Peru, com a figura do Deus dos Bastões.",
+          "variantes": [
+            "Raimondi Stele",
+            "Estela de Raimondi"
+          ]
+        },
+        {
+          "id": "obelisco_de_axum",
+          "nome": "Obelisco de Axum",
+          "descricao": "Estela de fonolito de 24 metros, do século quarto, na cidade de Axum, na Etiópia.",
+          "variantes": [
+            "Estela de Axum",
+            "Obelisco de Aksum",
+            "Obelisk of Axum"
+          ]
+        },
+        {
+          "id": "estrela_de_davi",
+          "nome": "Estrela de Davi",
+          "descricao": "Hexagrama formado por dois triângulos equiláteros, símbolo da identidade judaica.",
+          "variantes": [
+            "Magen David",
+            "Escudo de Davi"
+          ]
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jovem Mêmnon",
+        "descricao": "Estátua colossal de granito de Ramsés II, do Ramesseum de Tebas, cujo busto está no Museu Britânico.",
+        "variantes": [
+          "Younger Memnon",
+          "Busto de Ramsés II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ramses_ii",
+          "nome": "Ramsés II",
+          "descricao": "Faraó da décima nona dinastia que reinou no século treze antes de Cristo, conhecido como Ramsés, o Grande",
+          "variantes": [
+            "Ramesses II",
+            "Ramessés II",
+            "Ozymandias"
+          ]
+        },
+        {
+          "id": "busto_de_nefertiti",
+          "nome": "Busto de Nefertiti",
+          "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+          "variantes": [
+            "Nefertiti Bust"
+          ]
+        },
+        {
+          "id": "bastao_de_asclepio",
+          "nome": "Bastão de Asclépio",
+          "descricao": "Bastão com uma única serpente enrolada, símbolo tradicional da medicina.",
+          "variantes": [
+            "Bastão de Esculápio",
+            "Rod of Asclepius"
+          ]
+        },
+        {
+          "id": "dustox_de_jessie",
+          "nome": "Dustox de Jessie",
+          "descricao": "Dustox de Jessie, da Equipe Rocket, no anime Pokémon, que evoluiu de um Wurmple capturado em Hoenn.",
+          "variantes": [
+            "Jessie's Dustox"
+          ]
+        },
+        {
+          "id": "ramses_iii",
+          "nome": "Ramsés III",
+          "descricao": "Faraó da vigésima dinastia do Egito, que reinou no século doze antes de Cristo e foi alvo de uma conspiração do harém",
+          "variantes": [
+            "Ramesses III",
+            "Ramessés III"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Códice de Dresden",
+        "descricao": "Livro maia dobrado em sanfona, com tabelas astronômicas, guardado na biblioteca estadual da Saxônia, em Dresden.",
+        "variantes": [
+          "Dresden Codex"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dedo_de_deus",
+          "nome": "Dedo de Deus",
+          "descricao": "Pico de granito em forma de dedo na Serra dos Órgãos, em Teresópolis, Rio de Janeiro.",
+          "variantes": [
+            "Pico Dedo de Deus"
+          ]
+        },
+        {
+          "id": "cidade_de_deus",
+          "nome": "Cidade de Deus",
+          "descricao": "Filme brasileiro de 2002 dirigido por Fernando Meirelles, sobre jovens numa favela do Rio de Janeiro.",
+          "variantes": [
+            "City of God"
+          ]
+        },
+        {
+          "id": "cidade_de_deus_2",
+          "nome": "Cidade de Deus",
+          "descricao": "Romance de Paulo Lins publicado em 1997, sobre a violência no conjunto habitacional carioca de mesmo nome, adaptado ao cinema em 2002.",
+          "variantes": [
+            "Cidade de Deus (livro)"
+          ]
+        },
+        {
+          "id": "epifania",
+          "nome": "Epifania",
+          "descricao": "Festa cristã que celebra a manifestação de Jesus, associada no Ocidente à visita dos Reis Magos",
+          "variantes": [
+            "Dia de Reis",
+            "Festa dos Reis Magos"
+          ]
+        },
+        {
+          "id": "rose_pokemon",
+          "nome": "Rose (Pokémon)",
+          "descricao": "Presidente da Liga Pokémon de Galar e da empresa Macro Cosmos, antagonista de Pokémon Sword e Shield.",
+          "variantes": [
+            "Chairman Rose",
+            "Presidente Rose"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Serpente de duas cabeças asteca",
+        "descricao": "Escultura asteca em mosaico de turquesa sobre base de madeira, do Museu Britânico.",
+        "variantes": [
+          "Double-headed serpent",
+          "Serpente bicéfala asteca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cobra_de_duas_cabecas",
+          "nome": "Cobra-de-duas-cabeças",
+          "descricao": "Anfisbenídeo (Amphisbaena alba) sem membros, de hábitos subterrâneos, comum na América do Sul.",
+          "variantes": [
+            "Amphisbaena alba",
+            "Anfisbena",
+            "Cobra-cega",
+            "Red worm lizard"
+          ]
+        },
+        {
+          "id": "triplice_alianca_asteca",
+          "nome": "Tríplice Aliança asteca",
+          "descricao": "Aliança entre as cidades de Tenochtitlan, Texcoco e Tlacopan que formou a base do Império Asteca.",
+          "variantes": [
+            "Tríplice Aliança",
+            "Excan Tlatoloyan",
+            "Império Asteca"
+          ]
+        },
+        {
+          "id": "double_edge",
+          "nome": "Double-Edge",
+          "descricao": "Golpe de pokémon do tipo Normal, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "albatroz_golfe",
+          "nome": "Albatroz (golfe)",
+          "descricao": "Termo do golfe para terminar um buraco com três tacadas a menos que o par.",
+          "variantes": [
+            "Albatross",
+            "Double eagle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rei-sacerdote de Mohenjo-daro",
+        "descricao": "Pequena escultura de esteatita de homem barbado, da civilização do Vale do Indo, achada em Mohenjo-daro.",
+        "variantes": [
+          "Priest-King",
+          "Rei-sacerdote"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rei_sacerdote_de_mohenjo_daro",
+          "nome": "Rei-Sacerdote de Mohenjo-daro",
+          "descricao": "Pequena escultura de esteatita de um homem barbado, encontrada em Mohenjo-daro, símbolo da civilização do Vale do Indo.",
+          "variantes": [
+            "Priest-King",
+            "Rei-Sacerdote",
+            "Sacerdote-Rei"
+          ]
+        },
+        {
+          "id": "grande_banho_de_mohenjo_daro",
+          "nome": "Grande Banho de Mohenjo-daro",
+          "descricao": "Grande tanque de tijolos da cidade de Mohenjo-daro, da civilização do Vale do Indo, provavelmente usado em rituais de purificação.",
+          "variantes": [
+            "Grande Banho",
+            "Great Bath"
+          ]
+        },
+        {
+          "id": "restinga",
+          "nome": "Restinga",
+          "descricao": "Ecossistema costeiro de vegetação estabelecida em substrato arenoso sujeito a influência marinha.",
+          "variantes": []
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "luta_livre_profissional",
+          "nome": "Luta livre profissional",
+          "descricao": "Espetáculo esportivo de combate coreografado, disputado em ringue com cordas, também chamado de wrestling.",
+          "variantes": [
+            "Wrestling",
+            "Pro wrestling",
+            "Luta profissional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Zodíaco de Dendera",
+        "descricao": "Relevo egípcio do teto de uma capela do templo de Hathor em Dendera, hoje no Louvre.",
+        "variantes": [
+          "Zodíaco de Denderah",
+          "Dendera zodiac"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "disco_de_nebra",
+          "nome": "Disco de Nebra",
+          "descricao": "Disco de bronze e ouro da Idade do Bronze, encontrado na Alemanha, com representações celestes.",
+          "variantes": [
+            "Nebra sky disc",
+            "Disco celeste de Nebra"
+          ]
+        },
+        {
+          "id": "dia_da_bandeira",
+          "nome": "Dia da Bandeira",
+          "descricao": "Data comemorativa brasileira dedicada à bandeira nacional, celebrada em 19 de novembro.",
+          "variantes": [
+            "Dia da Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "lago_de_genebra",
+          "nome": "Lago de Genebra",
+          "descricao": "Grande lago alpino na fronteira entre a Suíça e a França, às margens do qual fica a cidade de Genebra.",
+          "variantes": [
+            "Lago Léman",
+            "Lago Lemano",
+            "Lake Geneva",
+            "Lac Léman"
+          ]
+        },
+        {
+          "id": "pico_da_bandeira",
+          "nome": "Pico da Bandeira",
+          "descricao": "Pico da Serra do Caparaó, na divisa entre Minas Gerais e Espírito Santo.",
+          "variantes": []
+        },
+        {
+          "id": "poco_de_drake",
+          "nome": "Poço de Drake",
+          "descricao": "Poço de petróleo perfurado por Edwin Drake em 1859, perto de Titusville, nos Estados Unidos.",
+          "variantes": [
+            "Drake Well"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Caça aos leões de Assurbanípal",
+        "descricao": "Relevos assírios do Palácio Norte de Nínive que mostram o rei Assurbanípal caçando leões, hoje no Museu Britânico.",
+        "variantes": [
+          "Lion Hunt of Ashurbanipal",
+          "Caça ao leão de Assurbanípal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biblioteca_de_assurbanipal",
+          "nome": "Biblioteca de Assurbanipal",
+          "descricao": "Coleção de milhares de tabuletas cuneiformes reunida pelo rei assírio Assurbanipal no século sete antes de Cristo.",
+          "variantes": [
+            "Library of Ashurbanipal"
+          ]
+        },
+        {
+          "id": "capitel_dos_leoes_de_ashoka",
+          "nome": "Capitel dos Leões de Ashoka",
+          "descricao": "Escultura que coroava uma coluna do imperador Ashoka em Sarnath, adotada como emblema nacional da Índia.",
+          "variantes": [
+            "Leões de Sarnath",
+            "Lion Capital of Ashoka"
+          ]
+        },
+        {
+          "id": "mico_leao_de_cara_preta",
+          "nome": "Mico-leão-de-cara-preta",
+          "descricao": "Primata da Mata Atlântica do litoral sul de São Paulo e norte do Paraná, espécie Leontopithecus caissara, descrita em 1990.",
+          "variantes": [
+            "Leontopithecus caissara",
+            "Mico-leão-caiçara",
+            "Black-faced lion tamarin",
+            "Superagui lion tamarin"
+          ]
+        },
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": [
+            "Calçadão da Avenida Atlântica"
+          ]
+        },
+        {
+          "id": "a_morte_de_sardanapalo",
+          "nome": "A Morte de Sardanápalo",
+          "descricao": "Pintura romântica de Eugène Delacroix, de 1827, no Louvre, sobre o rei assírio Sardanápalo cercado por seu harém e seus tesouros.",
+          "variantes": [
+            "The Death of Sardanapalus",
+            "La Mort de Sardanapale",
+            "Morte de Sardanapalo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é vasos canópicos egípcios."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A estátua é uma obra distinta da deusa Coatlicue."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "deusa_das_serpentes",
+      "motivo": "Mesma estatueta minoica de faiança de Cnossos."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "estela_de_naram_sin",
+      "motivo": "Mesma estela de vitória de Naram-Sin."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A estátua colossal é distinta do faraó Ramsés II."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Códice de Dresden."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura asteca de serpente."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "rei_sacerdote_de_mohenjo_daro",
+      "motivo": "Mesma escultura de esteatita de Mohenjo-daro."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Zodíaco de Dendera."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o relevo da caça aos leões; a biblioteca é outra entidade."
+    }
+  ]
+}
