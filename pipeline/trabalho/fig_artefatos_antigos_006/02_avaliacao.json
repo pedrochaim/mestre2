@@ -1,0 +1,214 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estátua clara, sem texto; pergunta sobre o povo retratado.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta cópia romana de um original grego helenístico mostra um guerreiro celta ferido. De que povo ele era?",
+      "resposta": "Gálatas (gauleses)",
+      "distratores": [
+        "Dácios",
+        "Godos",
+        "Trácios"
+      ],
+      "ancora": {
+        "nome": "Gálata Moribundo",
+        "descricao": "Estátua romana em mármore, cópia de original helenístico de Pérgamo, nos Museus Capitolinos de Roma.",
+        "variantes": [
+          "Gaulês Moribundo",
+          "Gladiador Moribundo",
+          "Dying Gaul"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Página de códice mesoamericano sem elementos que a distingam de outros códices do grupo Borgia; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Objeto claro, duas faces, sem texto; pergunta sobre o museu.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta faca de sílex com cabo de marfim entalhado, do Egito pré-dinástico, está hoje em que museu?",
+      "resposta": "Museu do Louvre",
+      "distratores": [
+        "Museu Britânico",
+        "Museu Egípcio do Cairo",
+        "Museu Metropolitano"
+      ],
+      "ancora": {
+        "nome": "Faca de Gebel el-Arak",
+        "descricao": "Faca pré-dinástica egípcia de sílex com cabo de marfim entalhado, com influência mesopotâmica, no Louvre.",
+        "variantes": [
+          "Faca de Jebel el-Arak",
+          "Gebel el-Arak Knife"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cariátide bem visível; turistas só ao fundo. Pergunta sobre o templo de origem.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta estátua feminina, que faz o papel de coluna, vem de qual templo da Acrópole de Atenas?",
+      "resposta": "Erecteion",
+      "distratores": [
+        "Partenon",
+        "Templo de Atena Nice",
+        "Propileus"
+      ],
+      "ancora": {
+        "nome": "Cariátide do Erecteion",
+        "descricao": "Estátua feminina que serve de coluna, do pórtico do Erecteion na Acrópole de Atenas, hoje no Museu da Acrópole.",
+        "variantes": [
+          "Cariátide",
+          "Koré do Erecteion",
+          "Caryatid"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cabeça de bronze nítida, sem texto; pergunta sobre quem ela retrata.",
+      "destino": 4,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta cabeça de bronze foi levada do Egito romano e enterrada sob uma escadaria de templo em Méroe. Que imperador ela retrata?",
+      "resposta": "Augusto",
+      "distratores": [
+        "Tibério",
+        "Calígula",
+        "Nero"
+      ],
+      "ancora": {
+        "nome": "Cabeça de Méroe",
+        "descricao": "Cabeça de bronze de Augusto achada em Méroe, no atual Sudão, hoje no Museu Britânico.",
+        "variantes": [
+          "Cabeça de Augusto de Méroe",
+          "Meroë Head"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Desenho vetorial esquemático de um símbolo, e não foto de um objeto que poderia ser fotografado; fora da política de imagens."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Escultura nítida, sem texto; pergunta sobre o país de origem.",
+      "destino": 4,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta escultura ritual de madeira, ligada à agricultura e que representa um antílope, vem de que país africano?",
+      "resposta": "Mali",
+      "distratores": [
+        "Nigéria",
+        "Gana",
+        "Senegal"
+      ],
+      "ancora": {
+        "nome": "Chiwara",
+        "descricao": "Cimeira ritual de madeira em forma de antílope, usada pelos bambaras do Mali em cerimônias agrícolas.",
+        "variantes": [
+          "Tyi Wara",
+          "Ci Wara",
+          "Chi Wara"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Peça de enrolamento de cobra em bronze, sem contexto, não reconhecível como Igbo-Ukwu; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Ilustração vetorial do nemés, e não foto de objeto fotografável; fora da política de imagens."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Máscara dourada nítida, sem texto; pergunta sobre a província.",
+      "destino": 3,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta máscara de folha de ouro, de uma civilização da Idade do Bronze, foi achada em que província chinesa?",
+      "resposta": "Sichuan",
+      "distratores": [
+        "Henan",
+        "Shaanxi",
+        "Hubei"
+      ],
+      "ancora": {
+        "nome": "Máscaras de Sanxingdui",
+        "descricao": "Máscaras e cabeças de bronze e ouro da cultura de Sanxingdui, da Idade do Bronze, achadas em Guanghan, Sichuan.",
+        "variantes": [
+          "Sanxingdui",
+          "Máscara de ouro de Sanxingdui"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dogū nítida e característica; pergunta sobre o período.",
+      "destino": 3,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta estatueta de argila do Japão pré-histórico pertence a que período?",
+      "resposta": "Jōmon",
+      "distratores": [
+        "Yayoi",
+        "Kofun",
+        "Asuka"
+      ],
+      "ancora": {
+        "nome": "Dogū",
+        "descricao": "Estatueta humanoide de argila do período Jōmon do Japão pré-histórico.",
+        "variantes": [
+          "Dogu",
+          "Dogū Jōmon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Par de estatuetas nítido; etiqueta de exportação não entrega a resposta.",
+      "destino": 4,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Entre os iorubás, os pais encomendam figuras como estas quando morre uma criança de que tipo de nascimento?",
+      "resposta": "Gêmeos",
+      "ancora": {
+        "nome": "Ibeji",
+        "descricao": "Estatuetas iorubás de gêmeos, entalhadas para representar um gêmeo falecido.",
+        "variantes": [
+          "Ere Ibeji",
+          "Ibejí"
+        ]
+      }
+    }
+  ]
+}

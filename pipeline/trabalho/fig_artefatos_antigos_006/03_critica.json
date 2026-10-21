@@ -1,0 +1,103 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'guerreiro celta', o que praticamente entrega a resposta (gálatas/gauleses são celtas) e elimina todos os distratores, que não são celtas. Troco a pista pela encomenda em Pérgamo.",
+      "reescrita": {
+        "pergunta": "Esta cópia romana de um original helenístico, encomendado em Pérgamo, mostra um guerreiro derrotado. Que povo ele representa?",
+        "resposta": "Gálatas (gauleses)",
+        "distratores": [
+          "Dácios",
+          "Godos",
+          "Trácios"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelo trecho (Louvre, ala Sully). O enunciado não nomeia a faca, a figura é necessária e os distratores são plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estátua feminina que faz o papel de coluna' descreve a cariátide e, com 'Acrópole', entrega o Erecteion sem olhar a figura. Além disso, o Propileus não é templo, e o enunciado pede templo.",
+      "reescrita": {
+        "pergunta": "Esta estátua, hoje guardada em museu, fazia parte de qual edifício da Acrópole de Atenas?",
+        "resposta": "Erecteion",
+        "distratores": [
+          "Partenon",
+          "Templo de Atena Nice",
+          "Propileus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A história da cabeça levada do Egito romano e enterrada em Méroe é um feito único e famoso, que permite responder sem a figura. Fica só o lugar do achado como contexto.",
+      "reescrita": {
+        "pergunta": "Esta cabeça de bronze foi achada em Méroe, no atual Sudão. Que imperador romano ela retrata?",
+        "resposta": "Augusto",
+        "distratores": [
+          "Tibério",
+          "Calígula",
+          "Nero"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ligada à agricultura e representa um antílope' descreve a Chiwara e quase identifica o país sem a figura. Troco por pista neutra (região).",
+      "reescrita": {
+        "pergunta": "Esta cimeira ritual de madeira, usada em danças, vem de que país da África Ocidental?",
+        "resposta": "Mali",
+        "distratores": [
+          "Nigéria",
+          "Gana",
+          "Senegal"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Máscara de folha de ouro' não está confirmado para esta imagem (a descrição fala de máscaras e cabeças de bronze e ouro), então o enunciado pode não ser verdadeiro para a foto. Removo o detalhe.",
+      "reescrita": {
+        "pergunta": "Esta máscara, de uma civilização da Idade do Bronze, foi achada em que província chinesa?",
+        "resposta": "Sichuan",
+        "distratores": [
+          "Henan",
+          "Shaanxi",
+          "Hubei"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os dogū vêm exclusivamente do período Jōmon. A figura distingue o dogū de outras estatuetas, como os haniwa do período Kofun, que servem de distrator. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'gêmeos' sai só do enunciado: iorubás, figuras e criança morta já bastam, e o nome Ibeji significa gêmeos. A figura vira enfeite. Passo a pedir o nome da figura.",
+      "reescrita": {
+        "pergunta": "Esta figura de madeira entalhada, do povo iorubá, é feita para representar uma criança falecida. Que nome ela recebe?",
+        "resposta": "Ibeji"
+      }
+    }
+  ]
+}

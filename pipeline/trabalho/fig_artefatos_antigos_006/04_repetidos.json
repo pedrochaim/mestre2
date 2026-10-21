@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta cópia romana de um original helenístico, encomendado em Pérgamo, mostra um guerreiro derrotado. Que povo ele representa?",
+        "resposta": "Gálatas (gauleses)"
+      },
+      "existentes": [
+        {
+          "id": "q08578",
+          "pergunta": "Que escultura antiga é esta?",
+          "resposta": "Gálata Moribundo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pede o nome da escultura (Gálata Moribundo); a nova pergunta que povo o guerreiro representa. Fatos diferentes, embora relacionados; saber o nome não garante responder o povo com certeza."
+    }
+  ]
+}
