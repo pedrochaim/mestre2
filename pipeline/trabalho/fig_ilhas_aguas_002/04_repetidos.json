@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que lagoa carioca é esta?",
+        "resposta": "Lagoa Rodrigo de Freitas"
+      },
+      "existentes": [
+        {
+          "id": "q07127",
+          "pergunta": "Que lagoa é esta?",
+          "resposta": "Lagoa Rodrigo de Freitas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que gruta brasileira, em Mato Grosso do Sul, é esta?",
+        "resposta": "Gruta do Lago Azul"
+      },
+      "existentes": [
+        {
+          "id": "q03869",
+          "pergunta": "Em que estado brasileiro fica esta gruta?",
+          "resposta": "Mato Grosso do Sul"
+        },
+        {
+          "id": "q04812",
+          "pergunta": "A Gruta do Lago Azul, com um lago subterrâneo de água azul intensa, fica em que município de Mato Grosso do Sul?",
+          "resposta": "Bonito"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que estado brasileiro fica esta paisagem de dunas e lagoas?",
+        "resposta": "Maranhão"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        },
+        {
+          "id": "q09209",
+          "pergunta": "Apesar das dunas de areia a perder de vista, os Lençóis Maranhenses não são considerados um deserto. Por quê?",
+          "resposta": "Chove muito na região"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta de identificação da imagem, mesma resposta.",
+      "id_existente": "q07127"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pede identificar a gruta (Gruta do Lago Azul); as existentes perguntam o estado e o município, fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o estado dos Lençóis Maranhenses; as existentes tratam da origem da água e de não ser deserto."
+    }
+  ]
+}

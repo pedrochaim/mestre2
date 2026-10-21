@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Lago turquesa com o Chateau e a montanha ao fundo, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lago glacial dos Alpes canadenses é este?",
+      "resposta": "Lago Louise",
+      "distratores": [
+        "Lago Peyto",
+        "Lago Moraine",
+        "Lago Maligne"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Louise",
+        "descricao": "Lago glacial no Parque Nacional Banff, em Alberta, Canadá.",
+        "variantes": [
+          "Lake Louise"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem de satélite sem texto, com o contorno característico das ilhas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este arquipélago do Atlântico Norte, visto de satélite, é território autônomo de que país?",
+      "resposta": "Dinamarca",
+      "distratores": [
+        "Noruega",
+        "Islândia",
+        "Reino Unido"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ilhas Faroé",
+        "descricao": "Arquipélago do Atlântico Norte entre a Islândia, a Noruega e a Escócia, território autônomo do Reino da Dinamarca.",
+        "variantes": [
+          "Ilhas Feroe",
+          "Faroe Islands",
+          "Ilhas Faroes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Terraços de arroz com coqueiros existem em vários países asiáticos; a imagem não identifica Bali com unicidade."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Muitas pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Baía da vila em Hirta, com a ilha ao fundo; sem texto, paisagem característica.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este arquipélago remoto, visto da ilha de Hirta?",
+      "resposta": "Escócia",
+      "distratores": [
+        "Irlanda",
+        "Noruega",
+        "Islândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "St Kilda",
+        "descricao": "Arquipélago remoto a oeste das Hébridas Exteriores, na Escócia, com Hirta como maior ilha.",
+        "variantes": [
+          "Saint Kilda",
+          "Hirta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea característica da lagoa cercada pela cidade, com o mar e as ilhas ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagoa carioca é esta?",
+      "resposta": "Lagoa Rodrigo de Freitas",
+      "distratores": [
+        "Lagoa de Jacarepaguá",
+        "Lagoa de Marapendi",
+        "Lagoa da Tijuca"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lagoa Rodrigo de Freitas",
+        "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+        "variantes": [
+          "Lagoa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Falésias e água turquesa com barco são comuns no Sudeste Asiático; recorte sem marcos reconhecíveis e resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Forma e cor turquesa características do lago, vista clássica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que parque nacional canadense fica este lago?",
+      "resposta": "Parque Nacional Banff",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago Peyto",
+        "descricao": "Lago glacial de cor turquesa no Parque Nacional Banff, em Alberta, Canadá.",
+        "variantes": [
+          "Peyto Lake"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista dos braços do lago em forma de Y entre montanhas; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lago italiano é este?",
+      "resposta": "Lago de Como",
+      "distratores": [
+        "Lago de Garda",
+        "Lago Maggiore",
+        "Lago d'Orta"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lago de Como",
+        "descricao": "Lago glacial em forma de Y na Lombardia, Itália.",
+        "variantes": [
+          "Lario",
+          "Lake Como"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lago azul-cobalto numa caverna com estalactites, bem característico.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que gruta brasileira, em Mato Grosso do Sul, é esta?",
+      "resposta": "Gruta do Lago Azul",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Gruta do Lago Azul",
+        "descricao": "Caverna com lago de água azul no município de Bonito, Mato Grosso do Sul.",
+        "variantes": [
+          "Monumento Natural da Gruta do Lago Azul"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dunas brancas com lagoas, paisagem inconfundível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado brasileiro fica esta paisagem de dunas e lagoas?",
+      "resposta": "Maranhão",
+      "distratores": [
+        "Piauí",
+        "Ceará",
+        "Rio Grande do Norte"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lençóis Maranhenses",
+        "descricao": "Parque nacional de dunas com lagoas sazonais no Maranhão.",
+        "variantes": [
+          "Parque Nacional dos Lençóis Maranhenses"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Vista genérica de baía com vegetação, sem marco que permita reconhecer a lagoa."
+    }
+  ]
+}
