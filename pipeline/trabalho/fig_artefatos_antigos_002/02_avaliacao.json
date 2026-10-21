@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e sem texto da máscara de marfim, de contorno inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 4,
+      "pergunta": "Que rainha-mãe do Reino do Benin é retratada nesta máscara de marfim?",
+      "resposta": "Idia",
+      "ancora": {
+        "nome": "Máscara de marfim da rainha Idia",
+        "descricao": "Máscara-pendente de marfim do século dezesseis que retrata Idia, primeira rainha-mãe (Iyoba) do Reino do Benin.",
+        "variantes": [
+          "Máscara de Idia",
+          "Benin ivory mask",
+          "Máscara de marfim do Benin"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara do mosaico de lápis-lazúli e concha, sem texto legível; peça única e reconhecível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Esta peça sumeriana, encontrada numa tumba real, foi feita em que época?",
+      "resposta": "Terceiro milênio antes de Cristo",
+      "distratores": [
+        "Quinto milênio antes de Cristo",
+        "Segundo milênio antes de Cristo",
+        "Primeiro milênio antes de Cristo"
+      ],
+      "ancora": {
+        "nome": "Estandarte de Ur",
+        "descricao": "Caixa de madeira sumeriana com mosaico de concha, calcário e lápis-lazúli, achada num túmulo real de Ur e guardada no Museu Britânico.",
+        "variantes": [
+          "Standard of Ur",
+          "Estandarte de Ur"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução; o relevo mal aparece num celular e a peça pode ser confundida com a maça de Narmer, de forma parecida."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, da máscara de ouro; reconhecível, com distratores de máscaras funerárias.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que máscara funerária de ouro da Grécia da Idade do Bronze é esta?",
+      "resposta": "Máscara de Agamenon",
+      "distratores": [
+        "Máscara de Tutancâmon",
+        "Máscara de Sipán",
+        "Máscara de Pacal"
+      ],
+      "ancora": {
+        "nome": "Máscara de Agamenon",
+        "descricao": "Máscara funerária de ouro micênica do século dezesseis a.C., achada por Schliemann em Micenas e exposta em Atenas.",
+        "variantes": [
+          "Mask of Agamemnon",
+          "Máscara de Agamémnon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto escura, tirada num corredor estreito, em que só se vê uma coluna; sem o que permita reconhecer a peça, a pergunta de lugar fica impossível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de um chac mool, sem texto, com a pose reclinada típica.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que século surgiu este tipo de escultura mesoamericana?",
+      "resposta": "Século nove",
+      "distratores": [
+        "Século cinco",
+        "Século doze",
+        "Século quinze"
+      ],
+      "ancora": {
+        "nome": "Chac Mool",
+        "descricao": "Tipo de escultura mesoamericana de figura reclinada que sustenta uma tigela ou disco sobre o ventre, usada para oferendas.",
+        "variantes": [
+          "Chacmool",
+          "Chac-mool"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara do vaso em vitrine; a etiqueta é ilegível e o vaso é inconfundível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Este vaso grego foi achado numa tumba etrusca. Em que cidade italiana ele está hoje?",
+      "resposta": "Florença",
+      "ancora": {
+        "nome": "Vaso François",
+        "descricao": "Grande cratera ática de figuras negras, de cerca de 570 a.C., achada em Chiusi e guardada no Museu Arqueológico de Florença.",
+        "variantes": [
+          "François Vase",
+          "Cratera François",
+          "François Krater"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, da estátua de bronze, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que estátua de bronze da Grécia antiga é esta?",
+      "resposta": "Auriga de Delfos",
+      "distratores": [
+        "Efebo de Maratona",
+        "Poseidon do Cabo Artemísio",
+        "Guerreiros de Riace"
+      ],
+      "ancora": {
+        "nome": "Auriga de Delfos",
+        "descricao": "Estátua grega de bronze, de cerca de 470 a.C., de um condutor de carro vencedor dos Jogos Píticos, achada em Delfos.",
+        "variantes": [
+          "Charioteer of Delphi",
+          "Heníoco",
+          "Aurigo de Delfos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Kouroi são muito parecidos entre si; o enunciado sobre túmulo serviria a outros, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, da caveira de cristal do Museu Britânico; resposta de século sustentada pelo trecho.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Esta caveira de cristal é apresentada como arte pré-colombiana. Em que século estudos indicam que ela foi feita?",
+      "resposta": "Século dezenove",
+      "distratores": [
+        "Século quinze",
+        "Século doze",
+        "Século dezessete"
+      ],
+      "ancora": {
+        "nome": "Crânio de cristal",
+        "descricao": "Caveira de quartzo, atribuída a povos pré-colombianos, que estudos mostram ser feita na Europa a partir de meados do século dezenove.",
+        "variantes": [
+          "Caveira de cristal",
+          "Crystal skull",
+          "Crânio de cristal do Museu Britânico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Vitrine com muitos objetos diferentes e reflexos; as etiquetas legíveis dizem 'Goldweights', o que entrega a resposta, e a foto é escura."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Símbolo nítido, sem texto, sobre fundo branco, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que símbolo do Egito antigo é este?",
+      "resposta": "Olho de Hórus",
+      "ancora": {
+        "nome": "Olho de Hórus",
+        "descricao": "Símbolo egípcio do olho estilizado, o wedjat, que representa proteção, cura e bem-estar.",
+        "variantes": [
+          "Udjat",
+          "Wedjat",
+          "Eye of Horus",
+          "Olho de Udjat"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta peça sumeriana, encontrada numa tumba real, foi feita em que milênio antes de Cristo?",
+        "resposta": "Terceiro milênio"
+      },
+      "existentes": [
+        {
+          "id": "q13318",
+          "pergunta": "O Estandarte de Ur, peça suméria com cenas de guerra e de paz, tem mosaicos de conchas, calcário vermelho e qual pedra azul?",
+          "resposta": "Lápis-lazúli"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que máscara funerária famosa é esta?",
+        "resposta": "Máscara de Agamenon"
+      },
+      "existentes": [
+        {
+          "id": "q03107",
+          "pergunta": "Em Micenas, uma máscara funerária de ouro recebeu o nome de qual rei lendário, embora seja séculos mais antiga que a época dele?",
+          "resposta": "Agamenon"
+        },
+        {
+          "id": "q03108",
+          "pergunta": "Que arqueólogo alemão, também famoso por escavar Troia, encontrou em 1876 a máscara de ouro chamada Máscara de Agamenon?",
+          "resposta": "Heinrich Schliemann"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o milênio de produção da peça; a existente é sobre a pedra azul (lápis-lazúli). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A nova pergunta, que pede o nome da máscara funerária, tem como resposta Agamenon, o mesmo fato de q03107 (máscara de ouro de Micenas que leva o nome de Agamenon)."
+    }
+  ]
+}

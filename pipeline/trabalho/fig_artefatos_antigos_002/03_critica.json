@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Rainha-mãe + Benin + máscara de marfim quase entrega Idia sem olhar a figura. Tirei o Benin e deixei só a época e o continente como pista.",
+      "reescrita": {
+        "pergunta": "Que rainha-mãe africana, do século dezesseis, é retratada nesta máscara de marfim?",
+        "resposta": "Idia"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (terceiro milênio a.C.), mas a resposta e os distratores têm cinco palavras, acima do limite de quatro. Passei \"antes de Cristo\" para o enunciado.",
+      "reescrita": {
+        "pergunta": "Esta peça sumeriana, encontrada numa tumba real, foi feita em que milênio antes de Cristo?",
+        "resposta": "Terceiro milênio",
+        "distratores": [
+          "Quinto milênio",
+          "Segundo milênio",
+          "Primeiro milênio"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"De ouro da Grécia da Idade do Bronze\" quase entrega a resposta com a imagem coberta. Deixei só o tipo de objeto.",
+      "reescrita": {
+        "pergunta": "Que máscara funerária famosa é esta?",
+        "resposta": "Máscara de Agamenon",
+        "distratores": [
+          "Máscara de Tutancâmon",
+          "Máscara de Sipán",
+          "Máscara de Pacal"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dão as primeiras peças em c. 800–900 d.C., que cobre o século oito e o nove. O \"século nove\" não é uma resposta única, e \"surgiu\" é impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos (achado em tumba etrusca de Chiusi, hoje no Museu Arqueológico de Florença). O enunciado não nomeia o vaso e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto, não vaza e a resposta é única diante da imagem. Os distratores são bronzes gregos parecidos, com até quatro palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Os trechos falam em século dezoito ou dezenove para o crânio de Paris. Há vários crânios, e o Mitchell-Hedges é mais recente. \"O século em que ela foi feita\" não tem resposta única sem saber qual peça aparece.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta e sem vazamento. O símbolo é o Olho de Hórus (wedjat), confirmado nos trechos.",
+      "reescrita": null
+    }
+  ]
+}
