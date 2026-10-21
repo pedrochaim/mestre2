@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado descreve o próprio fenômeno (águas de cores diferentes lado a lado), então a imagem coberta já permite responder. Os trechos não citam o nome 'Encontro das Águas', que é amplamente documentado. Reescrito como múltipla, sem a pista que entrega.",
+      "reescrita": {
+        "pergunta": "Que fenômeno natural do Amazonas, perto de Manaus, aparece nesta imagem?",
+        "resposta": "Encontro das Águas",
+        "distratores": [
+          "Pororoca",
+          "Rios Voadores",
+          "Friagem"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta afirma 'imagens' no plural, 'satélite' e 'quase três décadas'. Nada disso consta em mostra e não dá para verificar. A figura é uma só. Simplifiquei para o reconhecimento do lago.",
+      "reescrita": {
+        "pergunta": "Que lago africano é este?",
+        "resposta": "Lago Chade",
+        "distratores": [
+          "Lago Vitória",
+          "Lago Tanganica",
+          "Lago Malawi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A ilha Norfolk também é vulcânica e fica na região do mar da Tasmânia, entre Austrália e Nova Zelândia, então um distrator é defensável. Usar 'Nova Gales do Sul' e 'crescente' (ambos nos trechos) deixa a resposta única.",
+      "reescrita": {
+        "pergunta": "Que ilha de Nova Gales do Sul, na Austrália, em forma de crescente, é esta?",
+        "resposta": "Ilha de Lord Howe",
+        "distratores": [
+          "Ilha Norfolk",
+          "Ilha Macquarie",
+          "Ilha Kangaroo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Vista do espaço' não consta em mostra e não dá para verificar. O resto é correto e está nos trechos. Retirei essa afirmação.",
+      "reescrita": {
+        "pergunta": "Em que arquipélago do Atlântico fica esta ilha vulcânica?",
+        "resposta": "Ilhas Canárias",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Visível no alto da imagem' é uma afirmação sobre a foto que não se pode verificar. O Solent está confirmado nos trechos. Retirei a referência de posição.",
+      "reescrita": {
+        "pergunta": "Que estreito separa esta ilha do litoral sul da Inglaterra?",
+        "resposta": "Solent",
+        "distratores": [
+          "Estreito de Dover",
+          "Canal de Bristol",
+          "Canal do Norte"
+        ]
+      }
+    }
+  ]
+}

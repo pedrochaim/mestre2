@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fenômeno natural do Amazonas, perto de Manaus, aparece nesta imagem?",
+        "resposta": "Encontro das Águas"
+      },
+      "existentes": [
+        {
+          "id": "q02137",
+          "pergunta": "Perto de Manaus, as águas do rio Negro e do Solimões correm lado a lado por quilômetros sem se misturar. O que explica isso?",
+          "resposta": "Temperatura, velocidade e sedimentos"
+        },
+        {
+          "id": "q02442",
+          "pergunta": "Perto de Manaus, no Encontro das Águas, o escuro rio Negro corre lado a lado com qual rio de águas barrentas?",
+          "resposta": "Solimões"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome do fenômeno (Encontro das Águas). A q02442 já traz esse nome no enunciado e pede o outro rio (Solimões). A q02137 pede a causa de as águas não se misturarem. Os fatos perguntados são diferentes."
+    }
+  ]
+}

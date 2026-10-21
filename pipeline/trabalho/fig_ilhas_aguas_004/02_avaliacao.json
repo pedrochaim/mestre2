@@ -1,0 +1,145 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clássica do Encontro das Águas (águas escuras e barrentas lado a lado). O nome SELVATUR no barco não entrega a resposta. A pergunta é pelo fenômeno, pois a âncora é o que aparece na imagem.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fenômeno natural famoso do Amazonas, em que águas de cores diferentes correm lado a lado, é este?",
+      "resposta": "Encontro das Águas",
+      "ancora": {
+        "nome": "Encontro das Águas",
+        "descricao": "Fenômeno perto de Manaus em que as águas escuras do Rio Negro correm lado a lado com as águas barrentas do Rio Solimões.",
+        "variantes": [
+          "Encontro das Águas de Manaus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Orla de cidade com bandeira mexicana, sem traço que permita reconhecer Cozumel. Pode ser outra ilha ou cidade litorânea mexicana, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagens de satélite da NASA do Lago Chade em várias datas. Só trazem os anos como texto, o que não entrega a resposta. Uma montagem de um único assunto é aceita. Múltipla escolha, já que a forma é pouco conhecida.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lago africano aparece nestas imagens de satélite, registradas em datas diferentes ao longo de quase três décadas?",
+      "resposta": "Lago Chade",
+      "distratores": [
+        "Lago Vitória",
+        "Lago Tanganica",
+        "Lago Malawi"
+      ],
+      "ancora": {
+        "nome": "Lago Chade",
+        "descricao": "Lago de água doce no centro-oeste da África, na junção de Nigéria, Níger, Chade e Camarões, que encolheu muito desde 1960.",
+        "variantes": [
+          "Lago Tchad",
+          "Lake Chad"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Meandro de rio com paisagem genérica. Nada permite reconhecer o Tigre, e a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Enseada com ciprestes, sem traço que a identifique como o Lago de Garda. Poderia ser qualquer lago mediterrâneo."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paisagem característica de Lord Howe, com os montes Gower e Lidgbird e a lagoa de coral. Pouco conhecida, por isso múltipla escolha com ilhas australianas ou do Pacífico sul.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha vulcânica do mar da Tasmânia, entre a Austrália e a Nova Zelândia, é esta?",
+      "resposta": "Ilha de Lord Howe",
+      "distratores": [
+        "Ilha Norfolk",
+        "Ilha Macquarie",
+        "Ilha Kangaroo"
+      ],
+      "ancora": {
+        "nome": "Ilha de Lord Howe",
+        "descricao": "Ilha vulcânica em forma de crescente no mar da Tasmânia, pertencente a Nova Gales do Sul, na Austrália.",
+        "variantes": [
+          "Lord Howe Island"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Superfície de água ao amanhecer, sem nenhum traço reconhecível. Não dá para identificar o Lago Paranoá."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mangue numa praia, sem traço que identifique Boipeba. Poderia ser qualquer litoral tropical."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Praia com dunas e vegetação costeira genérica. Não permite reconhecer a Ilha Fraser com resposta única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Mapa com o texto Indian Ocean escrito, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem de satélite de Tenerife, com o contorno triangular e a caldeira do Teide, bem reconhecível. Sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que arquipélago do Atlântico fica esta ilha vulcânica vista do espaço?",
+      "resposta": "Ilhas Canárias",
+      "ancora": {
+        "nome": "Tenerife",
+        "descricao": "Maior e mais populosa ilha das Ilhas Canárias, na Espanha, dominada pelo vulcão Teide.",
+        "variantes": [
+          "Teneriffe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem de satélite da Ilha de Wight, com a forma de losango e o litoral da Inglaterra no alto. Sem texto. A pergunta é pelo estreito que a separa do continente.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estreito separa esta ilha do litoral sul da Inglaterra, visível no alto da imagem?",
+      "resposta": "Solent",
+      "distratores": [
+        "Estreito de Dover",
+        "Canal de Bristol",
+        "Canal do Norte"
+      ],
+      "ancora": {
+        "nome": "Ilha de Wight",
+        "descricao": "Ilha no sul da Inglaterra, separada do continente pelo estreito de Solent e banhada pelo Canal da Mancha.",
+        "variantes": [
+          "Isle of Wight"
+        ]
+      }
+    }
+  ]
+}
