@@ -1,0 +1,394 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paleolítico vai de cerca de 3,3 milhões de anos até 11 mil anos atrás, então 'mais de dois milhões' é verdadeiro. Distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os cavalos são os animais mais numerosos em Lascaux, fato bem documentado. Distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português diz que Jericó é a cidade mais baixa do planeta. Pergunta interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Newgrange é pré-histórica, não da 'Antiguidade'. Troquei por 'monumentos antigos'.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destes monumentos antigos foi construído primeiro?",
+        "resposta": "Newgrange",
+        "distratores": [
+          "Grande Pirâmide de Gizé",
+          "Zigurate de Ur",
+          "Porta dos Leões"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Newgrange"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A pedra de entrada de Newgrange é famosa pelas espirais gravadas. Fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Vênus de Hohle Fels é a vênus mais antiga conhecida, com cerca de 35 a 40 mil anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Tesouro de Atreu teve a maior cúpula do mundo por cerca de mil anos, até o Panteão. Fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As fontes dizem que a civilização do Indo era geograficamente maior que o Egito e a Mesopotâmia.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O 'unicórnio' é o motivo mais comum nos selos de esteatita do Indo. A fonte registra o nome como convencional.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O hitita é a língua indo-europeia com os registros mais antigos. Distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enheduanna viveu por volta de 2300 a.C., muito antes de Homero, Hesíodo e Safo.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A mumificação deliberada dos Chinchorro (cerca de 5050 a.C.) é uns dois mil anos anterior à egípcia.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português cita leões, ursos e rinocerontes entre as pinturas de Chauvet.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A concordância do enunciado está errada ('feitos' com 'camas'). Reformulei para 'de que material eram feitos os móveis'.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Nas ilhas Órcadas quase não havia árvores. De que material eram feitos os móveis das casas neolíticas de Skara Brae, como camas, armários e prateleiras?",
+        "resposta": "Pedra",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Skara_Brae",
+          "https://pt.wikipedia.org/wiki/Skara_Brae"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os zoólitos são esculturas de pedra em forma de animais, típicas dos sambaquis. A fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Furada' e 'buraco' vazam a resposta. A Pedra Furada também não é um 'paredão' exato, e a Serra da Capivara tem outros sítios famosos, então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os zigurates tinham núcleo de tijolo de barro, e a fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que é uma estatueta de cerâmica, entre os mais antigos objetos cerâmicos conhecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nem todas as liras têm cabeça de touro (a lira de prata é discutida). Restringi à Lira de Ouro.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Na Lira de Ouro, achada no Cemitério Real de Ur e com cerca de quatro mil e quinhentos anos, a frente traz a cabeça de qual animal?",
+        "resposta": "Touro",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lyres_of_Ur",
+          "https://pt.wikipedia.org/wiki/Liras_de_Ur"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte em inglês diz que há roda de oleiro na Ucrânia e vestígios anteriores, e a precedência sobre os veículos é disputada. A afirmação não é literalmente segura.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que Evans reconstruiu Cnossos com concreto armado, e que isso é criticado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Linear B registra o grego micênico, a forma mais antiga atestada do grego.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os incêndios que destruíram os palácios cozeram as tabuletas de argila, e as fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O alfabeto fenício é um abjad, com só consoantes.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português cita o estilete de junco para escrever na argila.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os primeiros registros eram administrativos e contábeis, e a fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schmidt interpretou os pilares com braços como corpos de humanos estilizados.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os sinais do Disco de Festo foram impressos na argila com punções (carimbos), fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta não é única: as fontes citam também a dureza e o barateamento, além da abundância. A âncora está desalinhada com o enunciado, que trata do bronze.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português diz que os roedores atraíram os gatos aos primeiros assentamentos agrícolas.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O corpo foi preservado pela turfa do pântano. Fato confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte registra o Neolítico como Período da Pedra Polida.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Capela Sistina não é uma 'obra' de Michelangelo, só o teto pintado. Reformulei para o teto.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Por causa dos bisões pintados no seu teto, a caverna de Altamira, na Espanha, é apelidada com o nome de qual local famoso pelo teto pintado por Michelangelo?",
+        "resposta": "Capela Sistina",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cave_of_Altamira",
+          "https://pt.wikipedia.org/wiki/Caverna_de_Altamira"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A origem de 'labirinto' no lábris é hipótese de Evans e Mayer, e o enunciado diz 'segundo uma hipótese'.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cobre vem de 'aes cyprium', o metal de Chipre. As fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte registra a origem do nome Iraque em Uruk como uma das hipóteses.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cultura recebeu o nome da cidade de Clovis, no Novo México.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O sistema sexagesimal sobrevive em horas e graus, e o círculo tem 360 graus.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que as tatuagens coincidem com pontos de acupuntura, e o enunciado diz 'segundo alguns pesquisadores'.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lenda atribui à inscrição origem fenícia, e a própria fonte registra que não tem base científica.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A associação com os druidas existe, embora o monumento seja muito mais antigo. A fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As fontes situam o início da agricultura no Crescente Fértil entre 10 mil e 12,5 mil anos atrás, e os distratores ficam bem distantes.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte em português diz que a Idade do Bronze começou no Oriente Médio por volta de 3300 a.C.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Vênus de Willendorf tem 11,1 cm, e a fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Troia tem nove cidades principais sobrepostas (Troia I a IX). Fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os mortos eram enterrados dentro da casa, sob as plataformas do piso.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que uma cópia do tratado está exposta na sede da ONU, em Nova York.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O arroz foi domesticado cerca de 9 mil anos atrás no vale do Yangtzé, e a fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A mandioca foi domesticada no sudoeste da Amazônia, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O lápis-lazúli antigo vinha de Badakhshan, no Afeganistão, e a fonte confirma.",
+      "reescrita": null
+    }
+  ]
+}
