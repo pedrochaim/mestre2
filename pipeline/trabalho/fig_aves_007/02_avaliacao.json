@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de cegonha-branca, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Ao migrar da Europa para a África, esta ave evita cruzar que mar, porque depende de correntes de ar quente?",
+      "resposta": "Mar Mediterrâneo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cegonha-branca",
+        "descricao": "Grande ave migratória de plumagem branca com asas pretas e bico vermelho, Ciconia ciconia.",
+        "variantes": [
+          "Ciconia ciconia",
+          "White stork"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dois indivíduos da mesma espécie, bem visíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Cambacica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cambacica",
+        "descricao": "Pequena ave nectarívora de peito amarelo e sobrancelha branca, Coereba flaveola.",
+        "variantes": [
+          "Coereba flaveola",
+          "Bananaquit",
+          "Sebinho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Biguatinga macho bem visível, pescoço fino e bico pontudo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quando nada com só o pescoço fora d'água, esta ave lembra que tipo de animal?",
+      "resposta": "Cobra",
+      "destino": 0,
+      "ancora": {
+        "nome": "Biguatinga",
+        "descricao": "Ave aquática de pescoço longo e bico pontudo que caça peixes, Anhinga anhinga.",
+        "variantes": [
+          "Anhinga anhinga",
+          "Anhinga",
+          "Ave-cobra"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Codorna reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Codorna",
+      "destino": 0,
+      "ancora": {
+        "nome": "Codorna",
+        "descricao": "Pequena ave de plumagem pintada marrom, do gênero Coturnix, criada por seus ovos e carne.",
+        "variantes": [
+          "Coturnix japonica",
+          "Codorniz"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de pisco-de-peito-ruivo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "O que os filhotes desta ave não têm e os adultos exibem, e que dá nome a ela?",
+      "resposta": "O peito vermelho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pisco-de-peito-ruivo",
+        "descricao": "Pequena ave europeia de peito e rosto alaranjados, Erithacus rubecula.",
+        "variantes": [
+          "Erithacus rubecula",
+          "European robin",
+          "Robin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Macho de tangará com plumagem azul e topete vermelho, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave brasileira é esta?",
+      "resposta": "Tangará",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tangará",
+        "descricao": "Ave da Mata Atlântica, macho azul com cabeça preta e topete vermelho, Chiroxiphia caudata.",
+        "variantes": [
+          "Chiroxiphia caudata",
+          "Dançarino",
+          "Blue manakin"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ema nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave que não voa é nativa de qual região do mundo?",
+      "resposta": "América do Sul",
+      "distratores": [
+        "África",
+        "Austrália",
+        "Sul da Ásia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ema",
+        "descricao": "Maior ave nativa das Américas, não voadora, Rhea americana.",
+        "variantes": [
+          "Rhea americana",
+          "Greater rhea",
+          "Nandu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Japu com bico claro, olho azul e cauda amarela, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ave é esta?",
+      "resposta": "Japu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Japu",
+        "descricao": "Ave preta de bico claro, olho azul e cauda amarela, Psarocolius decumanus.",
+        "variantes": [
+          "Japu-preto",
+          "Psarocolius decumanus",
+          "Crested oropendola"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Kea nítido, reconhecível pelo bico e plumagem.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país vive este papagaio?",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Austrália",
+        "Madagascar",
+        "Indonésia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kea",
+        "descricao": "Papagaio oliváceo de bico curvo, nativo dos Alpes da Ilha Sul da Nova Zelândia, Nestor notabilis.",
+        "variantes": [
+          "Nestor notabilis",
+          "Quia"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Beija-flor com cauda bifurcada bem aberta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em inglês, o nome desta ave compara a cauda dela com a de que outra ave?",
+      "resposta": "Andorinha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Beija-flor-tesoura",
+        "descricao": "Beija-flor azulado de cauda longa e bifurcada da América do Sul, Eupetomena macroura.",
+        "variantes": [
+          "Eupetomena macroura",
+          "Swallow-tailed hummingbird",
+          "Tesourão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Papagaio-do-mar nítido, inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em qual destes países esta ave marinha se reproduz?",
+      "resposta": "Islândia",
+      "distratores": [
+        "Japão",
+        "Chile",
+        "Austrália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Papagaio-do-mar",
+        "descricao": "Ave marinha de bico colorido triangular do Atlântico Norte, Fratercula arctica.",
+        "variantes": [
+          "Fratercula arctica",
+          "Atlantic puffin",
+          "Fradinho",
+          "Puffin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pombo-coroado com crista de pontas brancas visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "O nome desta ave, o maior pombo do mundo, homenageia qual monarca britânica?",
+      "resposta": "Rainha Vitória",
+      "distratores": [
+        "Rainha Elizabeth Primeira",
+        "Rainha Ana",
+        "Rainha Maria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pombo-coroado-de-Victoria",
+        "descricao": "Grande pombo azulado da Nova Guiné com crista rendada de pontas brancas, Goura victoria.",
+        "variantes": [
+          "Goura victoria",
+          "Victoria crowned pigeon"
+        ]
+      }
+    }
+  ]
+}

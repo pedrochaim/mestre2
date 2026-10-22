@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ave brasileira é esta?",
+        "resposta": "Tangará"
+      },
+      "existentes": [
+        {
+          "id": "q04639",
+          "pergunta": "Em que bioma brasileiro vive principalmente esta ave?",
+          "resposta": "Mata Atlântica"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta ave que não voa é nativa de qual região do mundo?",
+        "resposta": "América do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q02513",
+          "pergunta": "Na ema, a maior ave do Brasil, quem choca os ovos e cuida dos filhotes?",
+          "resposta": "O macho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a ave (Tangará) é fato diferente do bioma em que ela vive."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A região de origem da ave é fato diferente de quem choca os ovos da ema."
+    }
+  ]
+}

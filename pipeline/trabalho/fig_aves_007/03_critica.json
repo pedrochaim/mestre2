@@ -1,0 +1,118 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas o enunciado se responde sem a figura: o único mar entre Europa e África é o Mediterrâneo. A figura vira enfeite e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento direto, sem vazamento. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que só o pescoço aparece na água e que a ave lembra uma cobra. O enunciado não nomeia a ave e depende da figura para identificá-la.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 simples. A resposta 'codorna' é adequada para a ave criada por ovos e carne.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'peito vermelho' não bate com a cor da ave (alaranjada, 'ruivo'). O enunciado também é confuso. Reescrito com base no trecho dos juvenis castanhos e do peito ruivo que só se desenvolve depois.",
+      "reescrita": {
+        "pergunta": "Os filhotes desta pequena ave europeia são castanhos e pintados. Que parte do corpo dos adultos, de cor alaranjada, dá nome à espécie?",
+        "resposta": "O peito"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, reconhecimento. 'Brasileira' ajuda sem entregar, e a ave é típica da Mata Atlântica.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está certo (nativa da América do Sul). Mas 'Sul da Ásia' é um distrator pouco crível, pois não há ave não voadora nativa ali. Troquei por Nova Zelândia.",
+      "reescrita": {
+        "pergunta": "Esta ave que não voa é nativa de qual região do mundo?",
+        "resposta": "América do Sul",
+        "distratores": [
+          "África",
+          "Austrália",
+          "Nova Zelândia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Japu' é nome genérico de várias espécies do grupo. A figura mostra Psarocolius decumanus, chamado japu-preto no trecho. A resposta precisa ser específica.",
+      "reescrita": {
+        "pergunta": "Que ave é esta, de plumagem preta e cauda amarela, que vive nas matas da América do Sul?",
+        "resposta": "Japu-preto"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que é endêmico da Nova Zelândia. Distratores do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O nome inglês, swallow-tailed hummingbird, compara a cauda com a da andorinha. O enunciado não vaza e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Islândia está nos trechos. Mas Japão tem papagaios-do-mar do Pacífico, o que gera confusão. Troquei o distrator por um país sem a espécie.",
+      "reescrita": {
+        "pergunta": "Em qual destes países esta ave marinha se reproduz?",
+        "resposta": "Islândia",
+        "distratores": [
+          "Chile",
+          "Austrália",
+          "África do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O maior pombo do mundo' é pista que identifica a ave e faz a resposta sair sem a figura. Também é afirmação de superlativo desnecessária. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "O nome em português desta ave da Nova Guiné homenageia qual monarca britânica?",
+        "resposta": "Rainha Vitória",
+        "distratores": [
+          "Rainha Elizabeth Primeira",
+          "Rainha Ana",
+          "Rainha Maria"
+        ]
+      }
+    }
+  ]
+}
