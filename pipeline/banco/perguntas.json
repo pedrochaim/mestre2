@@ -269257,5 +269257,184 @@
       "autor": "NASA",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q14439",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_raposa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tubarão é este?",
+    "resposta": "Tubarão-raposa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thresher_shark",
+      "https://pt.wikipedia.org/wiki/Alopias"
+    ],
+    "imagem": {
+      "arquivo": "q14439.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Thresher_Shark_at_Monad_Shoal.png",
+      "autor": "Jun V Lao",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14440",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_zebra",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este tubarão adulto tem pele manchada, mas os filhotes têm outro padrão. Qual?",
+    "resposta": "Listras claras verticais",
+    "distratores": [
+      "Manchas brancas redondas",
+      "Faixas escuras horizontais",
+      "Pele clara sem desenho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zebra_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-zebra"
+    ],
+    "imagem": {
+      "arquivo": "q14440.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stegostoma_fasciatum_mozambique.jpg",
+      "autor": "jon hanson from London",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q14441",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_cofre_amarelo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de peixes de recife pertence este animal?",
+    "resposta": "Peixes-cofre",
+    "distratores": [
+      "Baiacus-de-espinhos",
+      "Peixes-anjo",
+      "Peixes-papagaio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yellow_boxfish",
+      "https://pt.wikipedia.org/wiki/Peixe-cofre-amarelo"
+    ],
+    "imagem": {
+      "arquivo": "q14441.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ostracion_cubicus.JPG",
+      "autor": "J. Petersen",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q14442",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_frade",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe de recife, da família dos peixes-anjo, é este?",
+    "resposta": "Peixe-frade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/French_angelfish",
+      "https://pt.wikipedia.org/wiki/Peixe-frade"
+    ],
+    "imagem": {
+      "arquivo": "q14442.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pomacanthus_paru.jpg",
+      "autor": "LASZLO ILYES (laszlo-photo) from Cleveland, Ohio, USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14443",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_napoleao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que grande peixe de recife do Indo-Pacífico é este?",
+    "resposta": "Peixe-napoleão",
+    "distratores": [
+      "Peixe-papagaio-gigante",
+      "Garoupa-gigante",
+      "Peixe-cirurgião"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humphead_wrasse"
+    ],
+    "imagem": {
+      "arquivo": "q14443.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cheilinus_undulatus_-_R_Vasconcellos_-_582969181.jpeg",
+      "autor": "R Vasconcellos",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q14444",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "cirurgiao_patela",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Uma das personagens principais de dois filmes da Pixar é um peixe desta espécie. Como ela se chama?",
+    "resposta": "Dory",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paracanthurus",
+      "https://pt.wikipedia.org/wiki/Cirurgi%C3%A3o-patela"
+    ],
+    "imagem": {
+      "arquivo": "q14444.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Blue_tang_(Paracanthurus_hepatus)_02.jpg",
+      "autor": "Tewy",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q14445",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "caranguejo_violinista",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que caranguejo que vive no manguezal é este?",
+    "resposta": "Caranguejo-violinista (chama-maré)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fiddler_crab",
+      "https://pt.wikipedia.org/wiki/Uca"
+    ],
+    "imagem": {
+      "arquivo": "q14445.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fiddler_crab.jpg",
+      "autor": "NOAA",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14446",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "garoupa",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de peixes costeiros pertence este grande peixe de boca larga?",
+    "resposta": "Garoupas",
+    "distratores": [
+      "Pargos",
+      "Robalos",
+      "Dourados"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Epinephelus_marginatus",
+      "https://pt.wikipedia.org/wiki/Epinephelus_marginatus"
+    ],
+    "imagem": {
+      "arquivo": "q14446.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mero_(Epinephelus_marginatus),_Madeira,_Portugal,_2019-05-31,_DD_24.jpg",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

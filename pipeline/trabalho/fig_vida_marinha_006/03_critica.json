@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O nome do pinguim contém a resposta (Magalhães) e, sem olhar a figura, 'explorador português em 1520' já entrega Fernão de Magalhães. A figura vira enfeite e não há pista que possa ser retirada para consertar.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cauda enorme' é a característica que dá nome ao tubarão-raposa e entrega a resposta sem a imagem. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que tubarão é este?",
+        "resposta": "Tubarão-raposa"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o filhote tem listras verticais claras sobre fundo marrom e o adulto tem manchas. O enunciado não nomeia o tubarão, a figura é necessária, e os distratores são do mesmo tipo e curtos e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O peixe pertence à família Ostraciidae, os peixes-cofre. O enunciado não vaza a resposta, e os distratores são grupos de peixes de recife, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pomacanthus paru é o peixe-frade, da família dos peixes-anjo. A família ajuda a distinguir sem entregar o nome. O nível 1 aberto é adequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É o maior labrídeo dos recifes do Indo-Pacífico, o peixe-napoleão. O enunciado é genérico, a figura é necessária e os distratores são peixes grandes de recife, críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esquecida' alude à perda de memória de Dory e entrega a resposta sem a figura. Além disso 'deu origem' é impreciso. A reescrita tira a pista e afirma só o que os trechos sustentam: Dory é um cirurgião-patela e personagem principal de Procurando Nemo e Procurando Dory.",
+      "reescrita": {
+        "pergunta": "Uma das personagens principais de dois filmes da Pixar é um peixe desta espécie. Como ela se chama?",
+        "resposta": "Dory"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Garra gigante' e 'mangue' quase entregam o caranguejo-violinista sem olhar a figura. A reescrita tira a pista da garra e mantém só o ambiente, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que caranguejo que vive no manguezal é este?",
+        "resposta": "Caranguejo-violinista (chama-maré)"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A garoupa pertence ao grupo das garoupas. O enunciado não nomeia o grupo, e os distratores (pargos, robalos, dourados) são peixes costeiros ou de grande porte, críveis e errados. A descrição 'boca larga' ajuda sem entregar.",
+      "reescrita": null
+    }
+  ]
+}

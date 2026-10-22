@@ -1,0 +1,530 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tubarão-raposa",
+        "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+        "variantes": [
+          "Alopias",
+          "Thresher shark",
+          "Tubarão-rabarraposa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        },
+        {
+          "id": "evariste_galois",
+          "nome": "Évariste Galois",
+          "descricao": "Matemático francês do século dezenove, cujas ideias deram origem à teoria de Galois.",
+          "variantes": [
+            "Galois"
+          ]
+        },
+        {
+          "id": "calopsita",
+          "nome": "Calopsita",
+          "descricao": "Pequena ave da família dos cacatuas (Nymphicus hollandicus), nativa da Austrália e muito criada como animal de estimação.",
+          "variantes": [
+            "Nymphicus hollandicus",
+            "Cockatiel"
+          ]
+        },
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "tubarao_peregrino",
+          "nome": "Tubarão-peregrino",
+          "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo.",
+          "variantes": [
+            "Tubarão-frade",
+            "Cetorhinus maximus",
+            "Basking shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tubarão-zebra",
+        "descricao": "Tubarão-tapete do Indo-Pacífico (Stegostoma tigrinum), de corpo com cristas e manchas escuras quando adulto.",
+        "variantes": [
+          "Stegostoma tigrinum",
+          "Stegostoma fasciatum",
+          "Tubarão-leopardo-do-indo-pacífico",
+          "Zebra shark"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        },
+        {
+          "id": "tubarao_peregrino",
+          "nome": "Tubarão-peregrino",
+          "descricao": "Grande tubarão filtrador (Cetorhinus maximus) de mares temperados, segundo maior peixe vivo.",
+          "variantes": [
+            "Tubarão-frade",
+            "Cetorhinus maximus",
+            "Basking shark"
+          ]
+        },
+        {
+          "id": "baia_shark",
+          "nome": "Baía Shark",
+          "descricao": "Baía da costa oeste australiana, Patrimônio Mundial, famosa pelos estromatólitos vivos de Hamelin Pool.",
+          "variantes": [
+            "Shark Bay",
+            "Hamelin Pool"
+          ]
+        },
+        {
+          "id": "tubarao_baleia",
+          "nome": "Tubarão-baleia",
+          "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+          "variantes": [
+            "Rhincodon typus",
+            "Whale shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Peixe-cofre-amarelo",
+        "descricao": "Peixe de recife (Ostracion cubicum) de corpo em forma de caixa, amarelo com pintas escuras.",
+        "variantes": [
+          "Ostracion cubicum",
+          "Yellow boxfish",
+          "Peixe-cofre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "regaleco",
+          "nome": "Regaleco",
+          "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo.",
+          "variantes": [
+            "Peixe-remo",
+            "Regalecus glesne",
+            "Giant oarfish"
+          ]
+        },
+        {
+          "id": "linguado",
+          "nome": "Linguado",
+          "descricao": "Peixe chato marinho que vive deitado no fundo, com os dois olhos do mesmo lado da cabeça.",
+          "variantes": [
+            "Peixe chato",
+            "Flatfish"
+          ]
+        },
+        {
+          "id": "peixe_pescador",
+          "nome": "Peixe-pescador",
+          "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+          "variantes": [
+            "Tamboril",
+            "Anglerfish",
+            "Lophiiformes"
+          ]
+        },
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Peixe-frade",
+        "descricao": "Peixe-anjo de recifes do Atlântico (Pomacanthus paru), de corpo escuro com escamas de borda amarela.",
+        "variantes": [
+          "Pomacanthus paru",
+          "French angelfish",
+          "Paru-frade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "regaleco",
+          "nome": "Regaleco",
+          "descricao": "Peixe oceânico prateado em forma de fita (Regalecus glesne), o peixe ósseo mais comprido do mundo.",
+          "variantes": [
+            "Peixe-remo",
+            "Regalecus glesne",
+            "Giant oarfish"
+          ]
+        },
+        {
+          "id": "peixe_pedra",
+          "nome": "Peixe-pedra",
+          "descricao": "Peixe de recife do Indo-Pacífico do gênero Synanceia, camuflado como rocha, com espinhos dorsais muito venenosos.",
+          "variantes": [
+            "Synanceia",
+            "Stonefish"
+          ]
+        },
+        {
+          "id": "peixe_serra",
+          "nome": "Peixe-serra",
+          "descricao": "Raia de corpo alongado da família Pristidae, com um longo focinho achatado cheio de dentes nas laterais.",
+          "variantes": [
+            "Pristidae",
+            "Sawfish"
+          ]
+        },
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        },
+        {
+          "id": "peixe_voador",
+          "nome": "Peixe-voador",
+          "descricao": "Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas.",
+          "variantes": [
+            "Exocoetidae",
+            "Flying fish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Peixe-napoleão",
+        "descricao": "Maior labrídeo (Cheilinus undulatus) dos recifes do Indo-Pacífico, com testa protuberante e lábios grossos.",
+        "variantes": [
+          "Cheilinus undulatus",
+          "Humphead wrasse",
+          "Napoleon wrasse",
+          "Napoleonfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_leao",
+          "nome": "Peixe-leão",
+          "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+          "variantes": [
+            "Pterois volitans",
+            "Lionfish",
+            "Pterois"
+          ]
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        },
+        {
+          "id": "napoleao_iii",
+          "nome": "Napoleão III",
+          "descricao": "Sobrinho de Napoleão I, presidente da França de 1848 a 1852 e depois imperador dos franceses até 1870.",
+          "variantes": [
+            "Luís Napoleão Bonaparte",
+            "Napoleon III"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cirurgião-patela",
+        "descricao": "Peixe-cirurgião azul do Indo-Pacífico (Paracanthurus hepatus), de cauda amarela, popular em aquários.",
+        "variantes": [
+          "Cirurgião-patela (Dory)",
+          "Paracanthurus hepatus",
+          "Blue tang",
+          "Dory",
+          "Peixe-cirurgião-azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_azul",
+          "nome": "Bandeira azul",
+          "descricao": "Bandeira de sinalização do automobilismo mostrada a um piloto que está para ser alcançado por um carro mais rápido.",
+          "variantes": [
+            "Blue flag"
+          ]
+        },
+        {
+          "id": "jeans",
+          "nome": "Jeans",
+          "descricao": "Calça de tecido de algodão resistente, geralmente azul, popularizada pela Levi Strauss & Co.",
+          "variantes": [
+            "Calça jeans",
+            "Blue jeans"
+          ]
+        },
+        {
+          "id": "lagoa_azul",
+          "nome": "Lagoa Azul",
+          "descricao": "Spa geotérmico de águas quentes e leitosas na península de Reykjanes, na Islândia.",
+          "variantes": [
+            "Blue Lagoon",
+            "Bláa lónið"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "shinkansen",
+          "nome": "Shinkansen",
+          "descricao": "Rede japonesa de trens de alta velocidade, inaugurada em 1964 e conhecida como trem-bala.",
+          "variantes": [
+            "Trem-bala japonês",
+            "Bullet train"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Caranguejo-violinista",
+        "descricao": "Caranguejo do gênero Uca, cujos machos têm uma garra enorme.",
+        "variantes": [
+          "Uca",
+          "Fiddler crab",
+          "Chama-maré"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cuca",
+          "nome": "Cuca",
+          "descricao": "Bruxa do folclore brasileiro que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+          "variantes": [
+            "Coca"
+          ]
+        },
+        {
+          "id": "suica",
+          "nome": "Suíça",
+          "descricao": "País sem litoral da Europa Central, confederação de 26 cantões.",
+          "variantes": [
+            "Confederação Suíça",
+            "Switzerland"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        },
+        {
+          "id": "cha_da_tarde",
+          "nome": "Chá da tarde",
+          "descricao": "Refeição leve britânica do fim da tarde, com chá, sanduíches e bolos, surgida no século dezenove.",
+          "variantes": [
+            "Afternoon tea",
+            "Chá das cinco",
+            "Five o'clock tea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Garoupa",
+        "descricao": "Grande peixe costeiro da família Epinephelidae, de corpo robusto e boca larga.",
+        "variantes": [
+          "Epinephelus marginatus",
+          "Dusky grouper",
+          "Garoupa-verdadeira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "foca",
+          "nome": "Foca",
+          "descricao": "Mamífero marinho pinípede da família Phocidae, sem orelhas externas; na imagem, um filhote de pelagem branca.",
+          "variantes": [
+            "Focas",
+            "Foca verdadeira"
+          ]
+        },
+        {
+          "id": "garuda",
+          "nome": "Garuda",
+          "descricao": "Criatura alada da mitologia hindu, rei das aves e montaria do deus Vishnu.",
+          "variantes": []
+        },
+        {
+          "id": "mero",
+          "nome": "Mero",
+          "descricao": "Grande peixe de recife da família das garoupas, Epinephelus itajara, também chamado itajara.",
+          "variantes": [
+            "Mero-preto",
+            "Itajara",
+            "Epinephelus itajara"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "gargula",
+          "nome": "Gárgula",
+          "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+          "variantes": [
+            "Gargoyle"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Tubarão-raposa (Alopias) é espécie distinta de todas as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Tubarão-zebra (Stegostoma) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Peixe-cofre-amarelo não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Peixe-frade (Pomacanthus paru) é diferente das candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Peixe-napoleão é um peixe, distinto de Napoleão e demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cirurgião-patela é um peixe; candidatas não relacionadas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Caranguejo-violinista não tem correspondente nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Garoupa (Epinephelus marginatus) é diferente do mero (Epinephelus itajara), espécie distinta."
+    }
+  ]
+}

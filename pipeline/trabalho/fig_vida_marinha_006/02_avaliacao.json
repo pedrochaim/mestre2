@@ -1,0 +1,240 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pinguim de duas faixas no peito, reconhecível; pergunta de nível 3 sobre a origem do nome.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que explorador português deu nome a este pinguim sul-americano, ao avistá-lo em 1520?",
+      "resposta": "Fernão de Magalhães",
+      "ancora": {
+        "nome": "Pinguim-de-magalhães",
+        "descricao": "Pinguim sul-americano (Spheniscus magellanicus) que se reproduz na costa da Patagônia e nas ilhas Malvinas.",
+        "variantes": [
+          "Spheniscus magellanicus",
+          "Magellanic penguin"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cauda longa em forma de chicote é inconfundível; nível 1 direto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tubarão, de cauda enorme, é este?",
+      "resposta": "Tubarão-raposa",
+      "ancora": {
+        "nome": "Tubarão-raposa",
+        "descricao": "Tubarão do gênero Alopias, de cauda quase tão longa quanto o resto do corpo.",
+        "variantes": [
+          "Alopias",
+          "Thresher shark",
+          "Tubarão-rabarraposa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Adulto com manchas escuras e cristas no corpo; pergunta de nível 3 sobre o padrão dos filhotes.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este tubarão adulto tem pele manchada, mas os filhotes têm outro padrão. Qual?",
+      "resposta": "Listras claras verticais",
+      "distratores": [
+        "Manchas brancas redondas",
+        "Faixas escuras horizontais",
+        "Pele clara sem desenho"
+      ],
+      "ancora": {
+        "nome": "Tubarão-zebra",
+        "descricao": "Tubarão-tapete do Indo-Pacífico (Stegostoma tigrinum), de corpo com cristas e manchas escuras quando adulto.",
+        "variantes": [
+          "Stegostoma tigrinum",
+          "Stegostoma fasciatum",
+          "Tubarão-leopardo-do-indo-pacífico",
+          "Zebra shark"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Corpo encaixotado e padrão em favo bem visíveis; pergunta sobre o grupo evita ambiguidade de espécie.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de peixes de recife pertence este animal?",
+      "resposta": "Peixes-cofre",
+      "distratores": [
+        "Baiacus-de-espinhos",
+        "Peixes-anjo",
+        "Peixes-papagaio"
+      ],
+      "ancora": {
+        "nome": "Peixe-cofre-amarelo",
+        "descricao": "Peixe de recife (Ostracion cubicum) de corpo em forma de caixa, amarelo com pintas escuras.",
+        "variantes": [
+          "Ostracion cubicum",
+          "Yellow boxfish",
+          "Peixe-cofre"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Corpo escuro com escamas de borda amarela, inconfundível; nível 1.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peixe de recife, da família dos peixes-anjo, é este?",
+      "resposta": "Peixe-frade",
+      "ancora": {
+        "nome": "Peixe-frade",
+        "descricao": "Peixe-anjo de recifes do Atlântico (Pomacanthus paru), de corpo escuro com escamas de borda amarela.",
+        "variantes": [
+          "Pomacanthus paru",
+          "French angelfish",
+          "Paru-frade"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Testa protuberante, lábios grossos e padrão labiríntico no rosto; nível 2 com distratores de grandes peixes de recife.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que grande peixe de recife do Indo-Pacífico é este?",
+      "resposta": "Peixe-napoleão",
+      "distratores": [
+        "Peixe-papagaio-gigante",
+        "Garoupa-gigante",
+        "Peixe-cirurgião"
+      ],
+      "ancora": {
+        "nome": "Peixe-napoleão",
+        "descricao": "Maior labrídeo (Cheilinus undulatus) dos recifes do Indo-Pacífico, com testa protuberante e lábios grossos.",
+        "variantes": [
+          "Cheilinus undulatus",
+          "Humphead wrasse",
+          "Napoleon wrasse",
+          "Napoleonfish"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Peixe azul com cauda amarela, muito reconhecível; nível 3 sobre o personagem de animação.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta espécie deu origem a uma personagem esquecida de uma animação da Pixar. Que personagem é essa?",
+      "resposta": "Dory",
+      "ancora": {
+        "nome": "Cirurgião-patela",
+        "descricao": "Peixe-cirurgião azul do Indo-Pacífico (Paracanthurus hepatus), de cauda amarela, popular em aquários.",
+        "variantes": [
+          "Paracanthurus hepatus",
+          "Blue tang",
+          "Dory",
+          "Peixe-cirurgião-azul"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pinça única muito maior que a outra, característica do grupo; nível 1.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que caranguejo de mangue e de praia, com uma garra gigante, é este?",
+      "resposta": "Caranguejo-violinista",
+      "ancora": {
+        "nome": "Caranguejo-violinista",
+        "descricao": "Caranguejo do gênero Uca, cujos machos têm uma garra enorme.",
+        "variantes": [
+          "Uca",
+          "Fiddler crab",
+          "Chama-maré"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, mancha escura que pode ser confundida com raia ou outra lesma-do-mar; reconhecimento incerto."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Grande peixe cinzento de boca larga e corpo robusto; para evitar ambiguidade de espécie (garoupa ou mero), pergunta sobre o grupo.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de peixes costeiros pertence este grande peixe de boca larga?",
+      "resposta": "Garoupas",
+      "distratores": [
+        "Pargos",
+        "Robalos",
+        "Dourados"
+      ],
+      "ancora": {
+        "nome": "Garoupa",
+        "descricao": "Grande peixe costeiro da família Epinephelidae, de corpo robusto e boca larga.",
+        "variantes": [
+          "Epinephelus marginatus",
+          "Dusky grouper",
+          "Garoupa-verdadeira"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tubarão de focinho largo, duas nadadeiras dorsais iguais e tom amarelado; nível 2 com distratores parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão costeiro é este?",
+      "resposta": "Tubarão-limão",
+      "distratores": [
+        "Tubarão-touro",
+        "Tubarão-lixa",
+        "Tubarão-tigre"
+      ],
+      "ancora": {
+        "nome": "Tubarão-limão",
+        "descricao": "Tubarão-requiem (Negaprion brevirostris) de pele amarelada, comum em águas rasas subtropicais.",
+        "variantes": [
+          "Negaprion brevirostris",
+          "Lemon shark"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra um caranguejo segurando uma folha, sem as características que permitam reconhecer a espécie uçá; resposta não única."
+    }
+  ]
+}
