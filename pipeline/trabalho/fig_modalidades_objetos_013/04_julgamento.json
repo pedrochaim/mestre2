@@ -1,0 +1,431 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Paraquedismo",
+        "descricao": "Esporte em que o praticante salta de uma aeronave, faz queda livre e abre um paraquedas para pousar.",
+        "variantes": [
+          "Skydiving",
+          "Paraquedismo esportivo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paraquedas",
+          "nome": "Paraquedas",
+          "descricao": "Dispositivo que freia a descida de um objeto ou pessoa pela atmosfera, aqui sustentando uma cápsula espacial.",
+          "variantes": []
+        },
+        {
+          "id": "saltos_ornamentais",
+          "nome": "Saltos ornamentais",
+          "descricao": "Esporte aquático olímpico em que o atleta salta de um trampolim ou plataforma executando acrobacias antes de entrar na água.",
+          "variantes": [
+            "Diving"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "arqueias",
+          "nome": "Arqueias",
+          "descricao": "Domínio de microrganismos unicelulares, Archaea, distinto das bactérias e comum em ambientes extremos.",
+          "variantes": [
+            "Archaea",
+            "Arqueobactérias",
+            "Arqueia"
+          ]
+        },
+        {
+          "id": "lamarckismo",
+          "nome": "Lamarckismo",
+          "descricao": "Teoria evolutiva de Jean-Baptiste de Lamarck, baseada no uso e desuso e na herança de características adquiridas.",
+          "variantes": [
+            "Lamarquismo",
+            "Lamarckism"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Windsurfe",
+        "descricao": "Esporte náutico que combina vela e surfe, praticado em uma prancha com vela fixa a um mastro.",
+        "variantes": [
+          "Windsurf",
+          "Prancha a vela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "surfe",
+          "nome": "Surfe",
+          "descricao": "Esporte aquático em que o atleta desliza em pé sobre uma prancha na face de uma onda.",
+          "variantes": [
+            "Surf"
+          ]
+        },
+        {
+          "id": "praca_vermelha",
+          "nome": "Praça Vermelha",
+          "descricao": "Praça central de Moscou, entre o Kremlin e a Catedral de São Basílio.",
+          "variantes": [
+            "Krasnaya Ploshchad",
+            "Red Square"
+          ]
+        },
+        {
+          "id": "pancho_villa",
+          "nome": "Pancho Villa",
+          "descricao": "Revolucionário e líder guerrilheiro mexicano da Revolução Mexicana, nascido José Doroteo Arango.",
+          "variantes": [
+            "Francisco Villa",
+            "José Doroteo Arango Arámbula"
+          ]
+        },
+        {
+          "id": "aranha_pavao",
+          "nome": "Aranha-pavão",
+          "descricao": "Aranha australiana do gênero Maratus, cujo macho exibe o abdômen colorido no cortejo.",
+          "variantes": [
+            "Maratus volans",
+            "Peacock spider"
+          ]
+        },
+        {
+          "id": "praca_jemaa_el_fna",
+          "nome": "Praça Jemaa el-Fna",
+          "descricao": "Praça principal da medina de Marrakech, no Marrocos, famosa por encantadores de serpentes, contadores de histórias e barracas de comida.",
+          "variantes": [
+            "Jemaa el-Fnaa",
+            "Djemaa el-Fna"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ultimate frisbee",
+        "descricao": "Esporte coletivo sem contato jogado com um disco arremessado com as mãos, em que se marca ponto ao receber o disco na área adversária.",
+        "variantes": [
+          "Ultimate",
+          "Frisbee"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador",
+            "Frisbi"
+          ]
+        },
+        {
+          "id": "arrokoth",
+          "nome": "Arrokoth",
+          "descricao": "Objeto do cinturão de Kuiper em forma de boneco de neve, visitado pela sonda New Horizons em 2019.",
+          "variantes": [
+            "486958 Arrokoth",
+            "2014 MU69",
+            "Ultima Thule"
+          ]
+        },
+        {
+          "id": "clima",
+          "nome": "Clima",
+          "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+          "variantes": [
+            "Climate"
+          ]
+        },
+        {
+          "id": "friede",
+          "nome": "Friede",
+          "descricao": "Professor pokémon e líder dos aventureiros Rising Volt Tacklers na série Pokémon Horizontes.",
+          "variantes": [
+            "Professor Friede"
+          ]
+        },
+        {
+          "id": "tomate",
+          "nome": "Tomate",
+          "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+          "variantes": [
+            "Tomate-cereja",
+            "Tomato",
+            "Solanum lycopersicum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Motovelocidade",
+        "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+        "variantes": [
+          "Motociclismo de velocidade",
+          "Corrida de motos",
+          "MotoGP"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "3000_metros_com_obstaculos",
+          "nome": "3000 metros com obstáculos",
+          "descricao": "Prova do atletismo em que os corredores saltam barreiras e um fosso com água ao longo de três mil metros.",
+          "variantes": [
+            "Steeplechase",
+            "Corrida com obstáculos"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": [
+            "Cidade Rosa"
+          ]
+        },
+        {
+          "id": "togepi",
+          "nome": "Togepi",
+          "descricao": "Pokémon do tipo Fada, número 175 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bocha paralímpica",
+        "descricao": "Esporte paralímpico de precisão em que atletas com deficiência motora severa lançam bolas para chegar perto de uma bola-alvo.",
+        "variantes": [
+          "Boccia",
+          "Bocha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "moca_iemen",
+          "nome": "Moca (Iêmen)",
+          "descricao": "Cidade portuária no mar Vermelho, no Iêmen, antigo centro de exportação de café que deu nome ao café moca.",
+          "variantes": [
+            "Mocha",
+            "Mokha",
+            "Al-Makha"
+          ]
+        },
+        {
+          "id": "cha_palavra",
+          "nome": "Chá (palavra)",
+          "descricao": "Palavra portuguesa para a infusão de folhas de Camellia sinensis, de origem chinesa",
+          "variantes": [
+            "Chá"
+          ]
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "oca",
+          "nome": "Oca",
+          "descricao": "Habitação coletiva tradicional de povos indígenas do Brasil, de estrutura de madeira coberta de palha.",
+          "variantes": [
+            "Oka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Parapente",
+        "descricao": "Esporte aéreo em que o piloto voa suspenso sob uma asa flexível de tecido, decolando a pé.",
+        "variantes": [
+          "Paragliding"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        },
+        {
+          "id": "lantejoula",
+          "nome": "Lantejoula",
+          "descricao": "Pequeno disco brilhante costurado em roupas como enfeite",
+          "variantes": [
+            "Paetê",
+            "Sequin"
+          ]
+        },
+        {
+          "id": "parasita",
+          "nome": "Parasita",
+          "descricao": "Filme sul-coreano de 2019 dirigido por Bong Joon-ho, sobre uma família pobre que se infiltra numa família rica.",
+          "variantes": [
+            "Gisaengchung",
+            "Parasite"
+          ]
+        },
+        {
+          "id": "parasect",
+          "nome": "Parasect",
+          "descricao": "Pokémon dos tipos Inseto e Planta, número 47 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "papiamento",
+          "nome": "Papiamento",
+          "descricao": "Língua crioula de base ibérica falada nas Antilhas neerlandesas",
+          "variantes": [
+            "Papiamentu",
+            "Papiamentoe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bola (ginástica rítmica)",
+        "descricao": "Aparelho da ginástica rítmica, uma bola leve manipulada pela ginasta em sua série.",
+        "variantes": [
+          "Bola da ginástica rítmica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_ginastica_ritmica",
+          "nome": "Arco (ginástica rítmica)",
+          "descricao": "Aparelho circular de ginástica rítmica manipulado pela ginasta em sua série.",
+          "variantes": [
+            "Ginástica rítmica",
+            "Bambolê"
+          ]
+        },
+        {
+          "id": "ginastica_ritmica",
+          "nome": "Ginástica rítmica",
+          "descricao": "Modalidade de ginástica com música em que as atletas se apresentam com aparelhos manuais.",
+          "variantes": [
+            "Rhythmic gymnastics"
+          ]
+        },
+        {
+          "id": "fita_ginastica_ritmica",
+          "nome": "Fita (ginástica rítmica)",
+          "descricao": "Aparelho da ginástica rítmica formado por uma fita de cetim presa a uma vareta, movimentada em figuras no ar.",
+          "variantes": [
+            "Ribbon"
+          ]
+        },
+        {
+          "id": "solo_ginastica_artistica",
+          "nome": "Solo (ginástica artística)",
+          "descricao": "Aparelho e prova da ginástica artística realizados num tablado acolchoado com molas.",
+          "variantes": [
+            "Floor exercise",
+            "Exercícios de solo"
+          ]
+        },
+        {
+          "id": "ginastica_artistica",
+          "nome": "Ginástica artística",
+          "descricao": "Modalidade de ginástica disputada em aparelhos como solo, argolas, barras e trave.",
+          "variantes": [
+            "Ginástica olímpica"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Paraquedismo é um esporte; Paraquedas é um dispositivo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Windsurfe é distinto de surfe."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ultimate é um esporte coletivo; Frisbee é o disco, objeto diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é motovelocidade."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é bocha paralímpica."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é parapente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bola é um aparelho distinto de arco, fita, e da modalidade."
+    }
+  ]
+}

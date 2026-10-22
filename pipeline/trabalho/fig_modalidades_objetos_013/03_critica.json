@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Caindo' é pista que quase entrega o esporte (queda livre). Tirar a pista e deixar a figura decidir.",
+      "reescrita": {
+        "pergunta": "Que esporte as pessoas desta foto estão praticando?",
+        "resposta": "Paraquedismo"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento, resposta única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A entidade é o rúgbi de sete, mas a pergunta pede 'Rúgbi', e uma foto não distingue de forma confiável o rúgbi de sete do rúgbi union. Não há resposta única, e não tem conserto sem vazar 'sete'.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Jogado com um disco' é uma definição que entrega o esporte sem olhar a figura. Tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que esporte coletivo é praticado nesta foto?",
+        "resposta": "Ultimate frisbee"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Em aberta, MotoGP ou superbike também seriam respostas defensáveis, e 'motovelocidade' é a categoria geral. Em múltipla, com distratores de outras modalidades do motociclismo, a resposta fica única.",
+      "reescrita": {
+        "pergunta": "Que modalidade do motociclismo é esta?",
+        "resposta": "Motovelocidade",
+        "distratores": [
+          "Motocross",
+          "Enduro",
+          "Trial"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento. Os distratores são modalidades paralímpicas de mesmo tipo, curtas, e nenhuma delas também está correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro. Os distratores são esportes aéreos críveis e nenhum deles também está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho diz que a bola é o único aparelho que não se pode segurar (agarrar), então 'segura' é impreciso. Trocar por 'usa'.",
+      "reescrita": {
+        "pergunta": "Qual aparelho da ginástica rítmica esta atleta usa na série?",
+        "resposta": "Bola",
+        "distratores": [
+          "Arco",
+          "Fita",
+          "Maças"
+        ]
+      }
+    }
+  ]
+}

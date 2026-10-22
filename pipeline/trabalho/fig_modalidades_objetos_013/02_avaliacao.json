@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Queda livre em grupo, com avião acima; rostos ocultos por capacetes; o texto no avião não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte praticam as pessoas que aparecem caindo nesta foto?",
+      "resposta": "Paraquedismo",
+      "destino": 1,
+      "ancora": {
+        "nome": "Paraquedismo",
+        "descricao": "Esporte em que o praticante salta de uma aeronave, faz queda livre e abre um paraquedas para pousar.",
+        "variantes": [
+          "Skydiving",
+          "Paraquedismo esportivo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, de rosto visível, num parque; não é figura pública nem brincante de festa pública."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Uniforme branco pouco distintivo, facilmente confundido com o quimono de karatê ou de judô; resposta não é única diante da imagem e há texto parcial no colarinho."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dois windsurfistas bem visíveis em primeiro plano; o número na vela não entrega a resposta; os kites ao fundo são secundários.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade náutica praticam as duas pessoas em primeiro plano nesta foto?",
+      "resposta": "Windsurfe",
+      "destino": 1,
+      "ancora": {
+        "nome": "Windsurfe",
+        "descricao": "Esporte náutico que combina vela e surfe, praticado em uma prancha com vela fixa a um mastro.",
+        "variantes": [
+          "Windsurf",
+          "Prancha a vela"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Formação de scrum em estádio, claramente de rúgbi; textos de banner parciais não entregam a resposta; jogadores em evento esportivo público.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte é jogado nesta foto?",
+      "resposta": "Rúgbi",
+      "destino": 1,
+      "ancora": {
+        "nome": "Rúgbi de sete",
+        "descricao": "Variante do rúgbi union jogada por equipes de sete jogadores, em tempos de sete minutos.",
+        "variantes": [
+          "Rugby sevens",
+          "Rugby seven",
+          "Sevens"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Jogador em mergulho para pegar o disco; disco visível; esporte reconhecível, embora a imagem seja pequena.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte, jogado com um disco, é praticado nesta foto?",
+      "resposta": "Ultimate frisbee",
+      "destino": 1,
+      "ancora": {
+        "nome": "Ultimate frisbee",
+        "descricao": "Esporte coletivo sem contato jogado com um disco arremessado com as mãos, em que se marca ponto ao receber o disco na área adversária.",
+        "variantes": [
+          "Ultimate",
+          "Ultimate",
+          "Frisbee"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Motos de corrida em curva num autódromo, claramente motovelocidade; patrocínios não entregam a resposta.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade do motociclismo é esta?",
+      "resposta": "Motovelocidade",
+      "destino": 1,
+      "ancora": {
+        "nome": "Motovelocidade",
+        "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+        "variantes": [
+          "Motociclismo de velocidade",
+          "Corrida de motos",
+          "MotoGP"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É uma ilustração vetorial simples de um objeto que poderia ser fotografado; pouco distintiva e fora da política de imagens."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Partida de bocha com bolas no chão e atletas em cadeira de rodas; a legenda Beijing 2008 não entrega a modalidade.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade paralímpica é esta?",
+      "resposta": "Bocha paralímpica",
+      "distratores": [
+        "Golbol",
+        "Tênis em cadeira de rodas",
+        "Rúgbi em cadeira de rodas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bocha paralímpica",
+        "descricao": "Esporte paralímpico de precisão em que atletas com deficiência motora severa lançam bolas para chegar perto de uma bola-alvo.",
+        "variantes": [
+          "Boccia",
+          "Bocha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Jovens comuns (menores) em primeiro plano em jogo amador, com camisas de clube e marcas visíveis."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Parapente em voo sobre paisagem vulcânica; asa e piloto claros; resposta única entre os esportes aéreos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte aéreo é praticado nesta foto?",
+      "resposta": "Parapente",
+      "distratores": [
+        "Paraquedismo",
+        "Asa-delta",
+        "Balonismo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Parapente",
+        "descricao": "Esporte aéreo em que o piloto voa suspenso sob uma asa flexível de tecido, decolando a pé.",
+        "variantes": [
+          "Paragliding"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ginasta de ginástica rítmica segurando claramente uma bola; o texto de patrocinador não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual aparelho da ginástica rítmica esta atleta segura?",
+      "resposta": "Bola",
+      "distratores": [
+        "Arco",
+        "Fita",
+        "Maças"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bola (ginástica rítmica)",
+        "descricao": "Aparelho da ginástica rítmica, uma bola leve manipulada pela ginasta em sua série.",
+        "variantes": [
+          "Bola da ginástica rítmica"
+        ]
+      }
+    }
+  ]
+}
