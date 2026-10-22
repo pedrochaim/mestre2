@@ -1,0 +1,140 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Letras 'WIEN' formadas nas arquibancadas entregam a cidade; a imagem é um panorama distorcido de pouca identificação."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Campo de críquete com o horizonte de Sydney ao fundo, reconhecível por aficionados; sem texto relevante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio de críquete é este?",
+      "resposta": "Sydney Cricket Ground",
+      "distratores": [
+        "Melbourne Cricket Ground",
+        "Lord's Cricket Ground",
+        "Eden Gardens"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sydney Cricket Ground",
+        "descricao": "Estádio de críquete e futebol australiano no bairro de Moore Park, em Sydney, Austrália.",
+        "variantes": [
+          "SCG"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Estádio com torcida e o escudo do clube em faixa, sem nome escrito; reconhecível por aficionados, melhor em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio catarinense é este?",
+      "resposta": "Estádio Orlando Scarpelli",
+      "distratores": [
+        "Estádio Heriberto Hülse",
+        "Estádio da Ressacada",
+        "Arena Condá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Orlando Scarpelli",
+        "descricao": "Estádio de futebol do Figueirense, no bairro Estreito, em Florianópolis, Santa Catarina.",
+        "variantes": [
+          "Scarpelli"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O letreiro 'PGE Narodowy' está legível no topo do estádio e entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Faixas com 'Puebla F.C.' entregam o clube e a cidade; basquete em primeiro plano distrai."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A fachada traz 'ARSENAL STADIUM' escrito em letras grandes, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A placa 'ARROWHEAD' aparece na arquibancada, entregando o nome do estádio."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "As arquibancadas trazem 'SEVILLA' escrito em letras grandes e o escudo, entregando a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto escura, de baixa qualidade, sem elementos que permitam reconhecer o estádio; não fica legível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Estádio com pista de atletismo, sem texto que entregue a resposta; o país é o passo de conhecimento, em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este estádio com pista de atletismo?",
+      "resposta": "Bélgica",
+      "distratores": [
+        "Holanda",
+        "Alemanha",
+        "França"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Rei Balduíno",
+        "descricao": "Estádio multiuso em Bruxelas, Bélgica, no planalto de Heysel, conhecido como Heysel.",
+        "variantes": [
+          "Heysel",
+          "Estádio Heysel",
+          "King Baudouin Stadium",
+          "Stade Roi Baudouin"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Aparecem 'Euro17 Crédito' e a camisa 'Dener 10', que apontam para a Portuguesa e entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arquibancadas vermelhas sem nome do estádio; só patrocinadores. Em múltipla escolha, a cidade vizinha de Racing evita resposta óbvia.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade argentina fica este estádio?",
+      "resposta": "Avellaneda",
+      "distratores": [
+        "Buenos Aires",
+        "La Plata",
+        "Rosário"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Libertadores de América",
+        "descricao": "Estádio do Club Atlético Independiente, em Avellaneda, Grande Buenos Aires, Argentina.",
+        "variantes": [
+          "Libertadores de América - Ricardo Enrique Bochini",
+          "Estadio Libertadores de América"
+        ]
+      }
+    }
+  ]
+}

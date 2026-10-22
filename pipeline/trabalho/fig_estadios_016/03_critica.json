@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta contém 'Cricket' e o enunciado diz 'críquete', vazamento por palavra derivada; os distratores também ficam todos presos ao críquete. O estádio é usado em vários esportes. Trocar por 'australiano', que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que estádio australiano é este?",
+        "resposta": "Sydney Cricket Ground",
+        "distratores": [
+          "Melbourne Cricket Ground",
+          "Adelaide Oval",
+          "The Gabba"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá o estado, o que ajuda sem entregar. A resposta é única e confirmada pelos trechos. Os distratores são estádios catarinenses críveis (Criciúma, Florianópolis, Chapecó) e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estádio fica em Bruxelas, na Bélgica, e o trecho confirma o uso para atletismo. A pista de atletismo ajuda sem entregar o país. Os distratores são países vizinhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O estádio fica em Avellaneda, mas o trecho o situa no Grande Buenos Aires. Por isso 'Buenos Aires' como distrator pode ser defendido por alguns. Trocar por uma cidade vizinha que não seja defensável.",
+      "reescrita": {
+        "pergunta": "Em que cidade argentina fica este estádio?",
+        "resposta": "Avellaneda",
+        "distratores": [
+          "La Plata",
+          "Rosário",
+          "Quilmes"
+        ]
+      }
+    }
+  ]
+}

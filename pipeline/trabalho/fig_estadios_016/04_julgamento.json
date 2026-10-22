@@ -1,0 +1,252 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sydney Cricket Ground",
+        "descricao": "Estádio de críquete e futebol australiano no bairro de Moore Park, em Sydney, Austrália.",
+        "variantes": [
+          "SCG"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santa_catarina",
+          "nome": "Santa Catarina",
+          "descricao": "Estado da Região Sul do Brasil, entre o Paraná e o Rio Grande do Sul, com capital em Florianópolis.",
+          "variantes": [
+            "SC"
+          ]
+        },
+        {
+          "id": "lord_s",
+          "nome": "Lord's",
+          "descricao": "Campo de críquete em St John's Wood, Londres, sede do Marylebone Cricket Club.",
+          "variantes": [
+            "Lord's Cricket Ground"
+          ]
+        },
+        {
+          "id": "melbourne_cricket_ground",
+          "nome": "Melbourne Cricket Ground",
+          "descricao": "Estádio multiuso em Melbourne, Austrália, sede da final da AFL e do Boxing Day Test.",
+          "variantes": [
+            "MCG",
+            "Estádio Melbourne Cricket Ground"
+          ]
+        },
+        {
+          "id": "vacina_bcg",
+          "nome": "Vacina BCG",
+          "descricao": "Vacina contra a tuberculose desenvolvida por Albert Calmette e Camille Guérin no início do século vinte.",
+          "variantes": [
+            "BCG",
+            "Bacilo de Calmette-Guérin"
+          ]
+        },
+        {
+          "id": "ebenezer_scrooge",
+          "nome": "Ebenezer Scrooge",
+          "descricao": "Velho avarento protagonista de Um Conto de Natal, de Charles Dickens, publicado em 1843.",
+          "variantes": [
+            "Scrooge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio Orlando Scarpelli",
+        "descricao": "Estádio de futebol do Figueirense, no bairro Estreito, em Florianópolis, Santa Catarina.",
+        "variantes": [
+          "Scarpelli"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ricardo_lucarelli",
+          "nome": "Ricardo Lucarelli",
+          "descricao": "Ponta brasileiro de vôlei, campeão olímpico no Rio 2016.",
+          "variantes": [
+            "Lucarelli",
+            "Ricardo Samuel Lucarelli Santos de Souza"
+          ]
+        },
+        {
+          "id": "elsa_schiaparelli",
+          "nome": "Elsa Schiaparelli",
+          "descricao": "Estilista italiana radicada em Paris, conhecida pelas parcerias com artistas surrealistas",
+          "variantes": [
+            "Schiaparelli"
+          ]
+        },
+        {
+          "id": "estadio_roland_garros",
+          "nome": "Estádio Roland Garros",
+          "descricao": "Complexo de tênis em Paris onde se disputa o Aberto da França, batizado em homenagem ao aviador Roland Garros.",
+          "variantes": [
+            "Stade Roland Garros",
+            "Stade Roland-Garros"
+          ]
+        },
+        {
+          "id": "estadio_hernando_siles",
+          "nome": "Estádio Hernando Siles",
+          "descricao": "Estádio nacional da Bolívia, em La Paz, situado a cerca de três mil e seiscentos metros de altitude.",
+          "variantes": []
+        },
+        {
+          "id": "vila_belmiro",
+          "nome": "Vila Belmiro",
+          "descricao": "Estádio Urbano Caldeira, em Santos (SP), casa do Santos Futebol Clube.",
+          "variantes": [
+            "Estádio Urbano Caldeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Estádio Rei Balduíno",
+        "descricao": "Estádio multiuso em Bruxelas, Bélgica, no planalto de Heysel, conhecido como Heysel.",
+        "variantes": [
+          "Estádio Rei Balduíno (Heysel)",
+          "Heysel",
+          "Estádio Heysel",
+          "King Baudouin Stadium",
+          "Stade Roi Baudouin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "georg_wilhelm_friedrich_hegel",
+          "nome": "Georg Wilhelm Friedrich Hegel",
+          "descricao": "Filósofo idealista alemão (1770–1831), autor da Fenomenologia do Espírito.",
+          "variantes": [
+            "Hegel"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "estadio_koshien",
+          "nome": "Estádio Koshien",
+          "descricao": "Estádio de beisebol em Nishinomiya, no Japão, sede do torneio nacional colegial e casa do Hanshin Tigers.",
+          "variantes": [
+            "Hanshin Koshien Stadium",
+            "Koshien Stadium",
+            "Estádio Hanshin Koshien"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Estádio Libertadores de América",
+        "descricao": "Estádio do Club Atlético Independiente, em Avellaneda, Grande Buenos Aires, Argentina.",
+        "variantes": [
+          "Libertadores de América - Ricardo Enrique Bochini"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copa_libertadores_da_america",
+          "nome": "Copa Libertadores da América",
+          "descricao": "Principal torneio de clubes da América do Sul, organizado pela Conmebol desde 1960.",
+          "variantes": [
+            "Libertadores",
+            "Copa Libertadores",
+            "Conmebol Libertadores"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "estadio_rungrado_1o_de_maio",
+          "nome": "Estádio Rungrado 1º de Maio",
+          "descricao": "Estádio multiuso na ilha de Rungra, em Pyongyang, Coreia do Norte.",
+          "variantes": [
+            "Rungrado 1st of May Stadium",
+            "Estádio Primeiro de Maio"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "estadio_beira_rio",
+          "nome": "Estádio Beira-Rio",
+          "descricao": "Estádio de futebol às margens do rio Guaíba, em Porto Alegre, casa do Sport Club Internacional.",
+          "variantes": [
+            "Beira-Rio",
+            "Estádio José Pinheiro Borda",
+            "Gigante da Beira-Rio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sydney Cricket Ground é distinto do MCG, Lord's e demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estádio Orlando Scarpelli."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Estádio Rei Balduíno (Heysel) não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Estádio do Independiente não consta; candidatas são outros estádios ou a Copa Libertadores."
+    }
+  ]
+}
