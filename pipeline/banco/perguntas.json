@@ -269207,5 +269207,55 @@
       "autor": "Jmmuguerza",
       "licenca": "CC BY-SA 4.0"
     }
+  },
+  {
+    "id": "q14437",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sn_1994d",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que fenômeno é este, o ponto muito brilhante ao lado desta galáxia vista de perfil?",
+    "resposta": "Supernova",
+    "distratores": [
+      "Quasar",
+      "Pulsar",
+      "Nova"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Supernova",
+      "https://pt.wikipedia.org/wiki/Supernova"
+    ],
+    "imagem": {
+      "arquivo": "q14437.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SN1994D.jpg",
+      "autor": "NASA/ESA, The Hubble Key Project Team and The High-Z Supernova Search Team",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14438",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "space_launch_system",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que cápsula tripulada este foguete da NASA foi projetado para lançar?",
+    "resposta": "Orion",
+    "distratores": [
+      "Dragon",
+      "Starliner",
+      "Soyuz"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Space_Launch_System",
+      "https://pt.wikipedia.org/wiki/Space_Launch_System"
+    ],
+    "imagem": {
+      "arquivo": "q14438.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sls_block1_on-pad_sunrisesmall.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]

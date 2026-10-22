@@ -1,0 +1,137 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "SN 1994D",
+        "descricao": "Supernova observada pelo Hubble na galáxia NGC 4526, vista como um ponto brilhante ao lado da galáxia.",
+        "variantes": [
+          "Supernova",
+          "Supernova 1994D"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "supercola",
+          "nome": "Supercola",
+          "descricao": "Adesivo instantâneo de cianoacrilato, descoberto pelo americano Harry Coover nos anos quarenta.",
+          "variantes": [
+            "Cianoacrilato",
+            "Super Bonder"
+          ]
+        },
+        {
+          "id": "unova",
+          "nome": "Unova",
+          "descricao": "Região fictícia dos jogos Pokémon Black e White, da quinta geração.",
+          "variantes": [
+            "Região de Unova",
+            "Isshu"
+          ]
+        },
+        {
+          "id": "clark_kent",
+          "nome": "Clark Kent",
+          "descricao": "Identidade secreta do Superman, repórter do Planeta Diário",
+          "variantes": [
+            "Kal-El",
+            "Superman",
+            "Super-Homem"
+          ]
+        },
+        {
+          "id": "lago_superior",
+          "nome": "Lago Superior",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá.",
+          "variantes": [
+            "Lake Superior",
+            "Superior"
+          ]
+        },
+        {
+          "id": "superman",
+          "nome": "Superman",
+          "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster",
+          "variantes": [
+            "Super-Homem"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Space Launch System",
+        "descricao": "Foguete superpesado americano da NASA, usado no programa Artemis, aqui em ilustração na plataforma de lançamento.",
+        "variantes": [
+          "SLS (Space Launch System)",
+          "SLS",
+          "Sistema de Lançamento Espacial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "numeracao_maia",
+          "nome": "Numeração maia",
+          "descricao": "Sistema de numeração posicional dos maias, escrito com pontos, barras e um sinal de concha para o zero.",
+          "variantes": [
+            "Algarismos maias",
+            "Maya numerals",
+            "Sistema de numeração maia"
+          ]
+        },
+        {
+          "id": "sistema_de_armazenamento_pokemon",
+          "nome": "Sistema de Armazenamento Pokémon",
+          "descricao": "Sistema de computador dos jogos Pokémon que guarda os pokémon que não cabem na equipe, criado por Bill nos primeiros jogos.",
+          "variantes": [
+            "PC de Bill",
+            "Pokémon Storage System"
+          ]
+        },
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "SN 1994D é uma supernova específica; nenhuma candidata é essa entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O SLS é um foguete da NASA do programa Artemis, diferente do Ônibus espacial e das demais candidatas."
+    }
+  ]
+}
