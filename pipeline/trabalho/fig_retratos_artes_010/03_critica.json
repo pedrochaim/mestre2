@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'também dramaturgo' ajuda a responder sem olhar a foto, pois os distratores não são conhecidos como dramaturgos. Também é uma característica pouco conhecida. Basta pedir o reconhecimento do ator.",
+      "reescrita": {
+        "pergunta": "Que ator brasileiro de teatro e telenovelas aparece nesta foto?",
+        "resposta": "Antônio Fagundes",
+        "distratores": [
+          "Tony Ramos",
+          "Raul Cortez",
+          "Paulo Autran"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está correto, mas a grafia 'Pigmaleão' está errada. A forma em português é 'Pigmalião', como no trecho.",
+      "reescrita": {
+        "pergunta": "Qual destas peças foi escrita pelo dramaturgo desta foto?",
+        "resposta": "Pigmalião",
+        "distratores": [
+          "Hedda Gabler",
+          "Cyrano de Bergerac",
+          "Tio Vânia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Noturno de Chopin' é fraco: cita o compositor e destoa do formato dos outros títulos, o que o torna fácil de eliminar. Troquei por uma obra de outro compositor.",
+      "reescrita": {
+        "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+        "resposta": "Finlândia",
+        "distratores": [
+          "O Moldava",
+          "Peer Gynt",
+          "Sinfonia do Novo Mundo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cem Anos de Solidão é dele e os distratores são romances latino-americanos de outros autores. Não há vazamento e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Viva o Povo Brasileiro está nos trechos. Os distratores são livros brasileiros de outros autores e não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gitanjali é a coleção de poemas mais conhecida de Tagore. Os distratores são livros de poemas de outros autores.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A música de Sonho de uma Noite de Verão é de Mendelssohn, como diz o trecho. Os distratores são obras de outros compositores e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Budapeste é romance de Chico Buarque, como mostram os trechos. Os distratores são romances de Milton Hatoum, então nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}

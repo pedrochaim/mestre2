@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual destes romances foi escrito pelo artista desta foto?",
+        "resposta": "Budapeste"
+      },
+      "existentes": [
+        {
+          "id": "q01193",
+          "pergunta": "Que prêmio literário Chico Buarque recebeu em 2019, o mesmo dado antes a Jorge Amado e Rubem Fonseca?",
+          "resposta": "Prêmio Camões"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre um romance escrito pelo artista (Budapeste); a existente é sobre o Prêmio Camões em 2019. Fatos diferentes."
+    }
+  ]
+}

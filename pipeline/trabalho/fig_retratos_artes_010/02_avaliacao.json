@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto; reconhecível pelo rosto. Pergunta de nome em múltipla com atores veteranos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator brasileiro, também dramaturgo, aparece nesta foto?",
+      "resposta": "Antônio Fagundes",
+      "distratores": [
+        "Tony Ramos",
+        "Raul Cortez",
+        "Paulo Autran"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Antônio Fagundes",
+        "descricao": "Ator, dramaturgo e produtor brasileiro de teatro, cinema e telenovelas, nascido em 1949.",
+        "variantes": [
+          "Antônio José da Silva Fagundes Filho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fotografia antiga nítida, sem texto, de figura pública; barba, chapéu e tweed o tornam reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas peças foi escrita pelo dramaturgo desta foto?",
+      "resposta": "Pigmaleão",
+      "distratores": [
+        "Hedda Gabler",
+        "Cyrano de Bergerac",
+        "Tio Vânia"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "George Bernard Shaw",
+        "descricao": "Dramaturgo e crítico irlandês, Nobel de Literatura de 1925, autor de Pigmaleão e Santa Joana.",
+        "variantes": [
+          "Bernard Shaw",
+          "G. B. Shaw"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo, limpo, sem texto, com bigode e cabelo característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+      "resposta": "Finlândia",
+      "distratores": [
+        "O Moldava",
+        "Peer Gynt",
+        "Noturno de Chopin"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Jean Sibelius",
+        "descricao": "Compositor finlandês do final do Romantismo, autor de sete sinfonias e de Finlândia.",
+        "variantes": [
+          "Johan Julius Christian Sibelius"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, centrada nele, sem texto; pessoas ao fundo são desfocadas e secundárias.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito pelo autor desta foto?",
+      "resposta": "Cem Anos de Solidão",
+      "distratores": [
+        "A Casa dos Espíritos",
+        "O Túnel",
+        "Pedro Páramo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Gabriel García Márquez",
+        "descricao": "Escritor e jornalista colombiano, Nobel de Literatura de 1982, expoente do realismo mágico.",
+        "variantes": [
+          "Gabo",
+          "Gabriel Garcia Marquez"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A moldura do quadro traz a inscrição 'C. DE MONTESQUIEU 1728', que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto antiga danificada, com riscos coloridos e recorte confuso; rosto de perfil parcial coberto pela mão, pouco reconhecível."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto pequena e de baixa resolução, com texto na caneca e cenário de programa; pouco legível e arriscada num celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida dele sorrindo em primeiro plano, sem texto; outras pessoas ao fundo estão desfocadas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros foi escrito pelo romancista desta foto?",
+      "resposta": "Viva o Povo Brasileiro",
+      "distratores": [
+        "Grande Sertão: Veredas",
+        "Capitães da Areia",
+        "Vidas Secas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "João Ubaldo Ribeiro",
+        "descricao": "Romancista, jornalista e membro da Academia Brasileira de Letras, nascido na Bahia, autor de Viva o Povo Brasileiro.",
+        "variantes": [
+          "João Ubaldo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de um senhor idoso com microfone, de perfil baixo e sem traços marcantes; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato clássico em preto e branco, de perfil, sem texto, com barba e cabelo ondulado marcantes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes livros de poemas foi escrito pelo autor desta foto?",
+      "resposta": "Gitanjali",
+      "distratores": [
+        "Folhas de Relva",
+        "O Profeta",
+        "Rubaiyat"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rabindranath Tagore",
+        "descricao": "Poeta, músico e filósofo bengali, primeiro não europeu a ganhar o Nobel de Literatura, em 1913.",
+        "variantes": [
+          "Rabindranath Thakur"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura a óleo nítida, sem texto, de figura pública; retrato conhecido do compositor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi composta pelo músico deste retrato?",
+      "resposta": "Sonho de uma Noite de Verão",
+      "distratores": [
+        "As Quatro Estações",
+        "O Carnaval dos Animais",
+        "O Lago dos Cisnes"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Felix Mendelssohn",
+        "descricao": "Compositor, pianista e regente alemão do início do Romantismo, nascido em 1809.",
+        "variantes": [
+          "Felix Mendelssohn Bartholdy",
+          "Mendelssohn"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida dele; os patrocinadores ao fundo não revelam o nome e não ajudam na resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito pelo artista desta foto?",
+      "resposta": "Budapeste",
+      "distratores": [
+        "Dois Irmãos",
+        "Relato de um Certo Oriente",
+        "Cinzas do Norte"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chico Buarque",
+        "descricao": "Cantor, compositor, dramaturgo e escritor brasileiro nascido em 1944, autor de Budapeste.",
+        "variantes": [
+          "Francisco Buarque de Hollanda"
+        ]
+      }
+    }
+  ]
+}
