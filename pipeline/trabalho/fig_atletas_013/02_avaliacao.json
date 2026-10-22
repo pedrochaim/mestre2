@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem nome visível; pergunta de nível 3 sobre o clube das Champions.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual clube este meio-campista conquistou duas vezes a Liga dos Campeões?",
+      "resposta": "Milan",
+      "destino": 0,
+      "ancora": {
+        "nome": "Andrea Pirlo",
+        "descricao": "Ex-meio-campista italiano, campeão mundial em 2006 e vencedor da Liga dos Campeões pelo Milan.",
+        "variantes": [
+          "Pirlo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem nome escrito; reconhecimento direto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-zagueiro?",
+      "resposta": "Paolo Maldini",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paolo Maldini",
+        "descricao": "Ex-zagueiro e lateral italiano que passou toda a carreira no Milan e na seleção da Itália.",
+        "variantes": [
+          "Maldini"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro; só aparece 'Brasil' na camisa, sem o nome do atleta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que prova do atletismo este atleta foi campeão olímpico em 2016?",
+      "resposta": "Salto com vara",
+      "destino": 5,
+      "ancora": {
+        "nome": "Thiago Braz",
+        "descricao": "Atleta brasileiro do salto com vara, campeão olímpico no Rio 2016.",
+        "variantes": [
+          "Thiago Braz da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-jogador português?",
+      "resposta": "Luís Figo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Luís Figo",
+        "descricao": "Ex-ponta português, Bola de Ouro de 2000, que jogou no Barcelona e no Real Madrid.",
+        "variantes": [
+          "Figo",
+          "Luis Figo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida; patrocinador e escudo não entregam o nome. Múltipla com atacantes ingleses.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este atacante inglês?",
+      "resposta": "Wayne Rooney",
+      "distratores": [
+        "Harry Kane",
+        "Michael Owen",
+        "Steven Gerrard"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Wayne Rooney",
+        "descricao": "Ex-atacante inglês, maior artilheiro da história do Manchester United.",
+        "variantes": [
+          "Rooney"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato em preto e branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-jogador brasileiro?",
+      "resposta": "Didi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Didi",
+        "descricao": "Waldyr Pereira, meio-campista brasileiro bicampeão mundial em 1958 e 1962.",
+        "variantes": [
+          "Waldyr Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara; número 9 sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este atacante?",
+      "resposta": "Robert Lewandowski",
+      "destino": 0,
+      "ancora": {
+        "nome": "Robert Lewandowski",
+        "descricao": "Atacante polonês, capitão da seleção da Polônia e ex-jogador do Bayern e do Barcelona.",
+        "variantes": [
+          "Lewandowski"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro; só patrocinadores no macacão, sem o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-piloto?",
+      "resposta": "Mario Andretti",
+      "distratores": [
+        "Emerson Fittipaldi",
+        "A. J. Foyt",
+        "Al Unser"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Mario Andretti",
+        "descricao": "Ex-piloto ítalo-americano, campeão mundial de Fórmula 1 em 1978 e vencedor da Indy 500.",
+        "variantes": [
+          "Andretti"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, rosto sem contexto; pouco reconhecível num celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de goleiro; camisa sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este goleiro?",
+      "resposta": "Manuel Neuer",
+      "destino": 0,
+      "ancora": {
+        "nome": "Manuel Neuer",
+        "descricao": "Goleiro alemão do Bayern de Munique e da seleção da Alemanha.",
+        "variantes": [
+          "Neuer"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Rosto pouco distintivo, sem nada que permita identificar a jogadora entre outras da seleção; resposta não única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida; só o número 87 e o escudo, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este jogador de hóquei no gelo?",
+      "resposta": "Sidney Crosby",
+      "destino": 7,
+      "ancora": {
+        "nome": "Sidney Crosby",
+        "descricao": "Jogador canadense de hóquei no gelo, capitão do Pittsburgh Penguins na NHL.",
+        "variantes": [
+          "Sid Crosby"
+        ]
+      }
+    }
+  ]
+}
