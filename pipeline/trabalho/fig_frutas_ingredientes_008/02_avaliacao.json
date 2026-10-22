@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Espinafre em floração, com folhas e flores pouco características; não é reconhecível com clareza pela imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Montes de couves-de-bruxelas, bem nítidos e inconfundíveis.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que cidade europeia dá nome a esta hortaliça?",
+      "resposta": "Bruxelas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Couve-de-bruxelas",
+        "descricao": "Hortaliça de pequenos brotos globosos da espécie Brassica oleracea, grupo Gemmifera.",
+        "variantes": [
+          "Couve de Bruxelas",
+          "Brussels sprout"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto de uma árvore alta na mata; a fava-tonka (cumaru) não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Caquis maduros no pé, reconhecíveis; múltipla com frutas laranja parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, pendurada no pé?",
+      "resposta": "Caqui",
+      "distratores": [
+        "Tangerina",
+        "Damasco",
+        "Nêspera"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caqui",
+        "descricao": "Fruta alaranjada da árvore Diospyros kaki, o caquizeiro.",
+        "variantes": [
+          "Caqui-fuyu",
+          "Diospyros kaki",
+          "Persimmon"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Amora-preta isolada em fundo claro, nítida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Amora-preta",
+      "distratores": [
+        "Framboesa",
+        "Mirtilo",
+        "Jabuticaba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amora-preta",
+        "descricao": "Fruto escuro e composto de plantas do gênero Rubus, a blackberry.",
+        "variantes": [
+          "Amora",
+          "Blackberry"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma vista de cidade (Cambuci, RJ), e não a fruta cambuci; fora do tema e sem reconhecimento possível."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Plantação de alface-americana, reconhecível; múltipla com folhosas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que hortaliça é cultivada nesta plantação?",
+      "resposta": "Alface",
+      "distratores": [
+        "Repolho",
+        "Couve",
+        "Escarola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alface",
+        "descricao": "Hortaliça folhosa Lactuca sativa, usada em saladas.",
+        "variantes": [
+          "Alface-americana",
+          "Lactuca sativa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Apenas flores de citros; não permite distinguir toranja de outros cítricos."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Plantas altas com umbelas amarelas; endro muito parecido com erva-doce/funcho, resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Abobrinha jovem com a flor, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que hortaliça é esta, ainda com a flor?",
+      "resposta": "Abobrinha",
+      "distratores": [
+        "Pepino",
+        "Chuchu",
+        "Quiabo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abobrinha",
+        "descricao": "Fruto alongado e verde da abobrinha, Cucurbita pepo var. cylindrica, colhido imaturo.",
+        "variantes": [
+          "Abobrinha italiana",
+          "Zucchini",
+          "Courgette"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Berinjelas pequenas no pé, nítidas e características.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que hortaliça é esta, ainda no pé?",
+      "resposta": "Berinjela",
+      "distratores": [
+        "Jiló",
+        "Pimentão roxo",
+        "Beterraba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Berinjela",
+        "descricao": "Fruto roxo da planta Solanum melongena, usado como legume.",
+        "variantes": [
+          "Beringela",
+          "Eggplant",
+          "Aubergine"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Touceira de capim; capim-santo é muito parecido com citronela e outros Cymbopogon, sem detalhe que garanta resposta única."
+    }
+  ]
+}
