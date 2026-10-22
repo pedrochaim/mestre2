@@ -1,0 +1,141 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pista vermelha com raias numeradas, sem pessoas; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que tipo de pista esportiva é esta?",
+      "resposta": "Pista de atletismo",
+      "ancora": {
+        "nome": "Pista de atletismo",
+        "descricao": "Pista sintética de borracha, com raias numeradas, usada nas provas de corrida do atletismo.",
+        "variantes": [
+          "Pista de corrida",
+          "Pista de tartan"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A inscrição gravada na taça ('Coupe des Clubs Champions Européens') é legível e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Lutadores de sumô em combate, de azul, mawashi bem visível; atletas em competição pública.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Como se chama a faixa de pano que estes lutadores usam na cintura?",
+      "resposta": "Mawashi",
+      "distratores": [
+        "Obi",
+        "Hakama",
+        "Kimono"
+      ],
+      "ancora": {
+        "nome": "Mawashi",
+        "descricao": "Faixa de tecido enrolada na cintura e entre as pernas, usada pelos lutadores de sumô.",
+        "variantes": [
+          "Mawashi de sumô"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano, num parque, com outras pessoas ao fundo; a corda mal aparece."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esquiador aquático em ação, com dois esquis e corda de reboque; reconhecível e sem texto que entregue a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que esporte é este?",
+      "resposta": "Esqui aquático",
+      "ancora": {
+        "nome": "Esqui aquático",
+        "descricao": "Esporte em que o atleta é puxado por um barco ou cabo sobre a água, deslizando sobre esquis.",
+        "variantes": [
+          "Water ski"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e texto 'Terra de Aventura' no bote."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem mostra tacos de park golf (marca Asics, bolas coloridas), e não tacos de golfe; resposta ambígua e há texto de marca."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Patinador de velocidade em pista de gelo, reconhecível pela postura e pelos patins longos; texto na imagem não entrega a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que modalidade olímpica de inverno é esta?",
+      "resposta": "Patinação de velocidade",
+      "ancora": {
+        "nome": "Patinação de velocidade",
+        "descricao": "Modalidade de corrida sobre patins no gelo, disputada em pista oval.",
+        "variantes": [
+          "Patinação de velocidade no gelo",
+          "Speed skating"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Taça de prata com elefante na tampa e alças em forma de cobra, sem texto visível; peculiar e reconhecível.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "pergunta": "Que duas seleções de rúgbi disputam anualmente esta taça?",
+      "resposta": "Inglaterra e Escócia",
+      "distratores": [
+        "Inglaterra e País de Gales",
+        "Escócia e Irlanda",
+        "França e Itália"
+      ],
+      "ancora": {
+        "nome": "Calcutta Cup",
+        "descricao": "Taça de prata com elefante na tampa e alças em forma de cobra, disputada no jogo anual de rúgbi entre Inglaterra e Escócia.",
+        "variantes": [
+          "Taça de Calcutá"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano e letreiro 'Xtreme Bowl' visível, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto mostra um jogador de vôlei comum em pé/agachado na grama, e não vôlei sentado; pessoa comum e imagem não corresponde à âncora."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Gesto acima da cabeça pode ser um saque ou um smash, então a resposta não é única; há ainda patrocinadores e marca d'água 'KT'."
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pista de atletismo",
+        "descricao": "Pista sintética de borracha, com raias numeradas, usada nas provas de corrida do atletismo.",
+        "variantes": [
+          "Pista de corrida",
+          "Pista de tartan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corrida_de_cavalos",
+          "nome": "Corrida de cavalos",
+          "descricao": "Esporte em que cavalos montados por jóqueis disputam quem é o mais rápido numa distância determinada.",
+          "variantes": [
+            "Turfe",
+            "Hipismo de corrida"
+          ]
+        },
+        {
+          "id": "vista_de_toledo",
+          "nome": "Vista de Toledo",
+          "descricao": "Paisagem de El Greco de cerca de 1600.",
+          "variantes": []
+        },
+        {
+          "id": "teatro_de_revista",
+          "nome": "Teatro de revista",
+          "descricao": "Gênero teatral de música, dança e humor satírico, muito popular no Rio de Janeiro do fim do século dezenove a meados do século vinte.",
+          "variantes": [
+            "Revista (teatro)",
+            "Revista de ano"
+          ]
+        },
+        {
+          "id": "vidro_de_murano",
+          "nome": "Vidro de Murano",
+          "descricao": "Vidro artesanal produzido na ilha de Murano, em Veneza, desde a Idade Média.",
+          "variantes": [
+            "Cristal de Murano"
+          ]
+        },
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova",
+            "Mesquita de Córdoba",
+            "Mezquita"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mawashi",
+        "descricao": "Faixa de tecido enrolada na cintura e entre as pernas, usada pelos lutadores de sumô.",
+        "variantes": [
+          "Mawashi de sumô"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alcremie",
+          "nome": "Alcremie",
+          "descricao": "Pokémon do tipo Fada da oitava geração, em forma de doce de creme, evolução de Milcery.",
+          "variantes": [
+            "Mawhip"
+          ]
+        },
+        {
+          "id": "masais",
+          "nome": "Masais",
+          "descricao": "Povo nilótico de pastores seminômades da África Oriental, conhecido pelas vestes vermelhas.",
+          "variantes": [
+            "Maasai",
+            "Massai",
+            "Masai"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "jessie_equipe_rocket",
+          "nome": "Jessie (Equipe Rocket)",
+          "descricao": "Integrante da Equipe Rocket no anime Pokémon, parceira de James e Meowth, chamada Musashi no Japão.",
+          "variantes": [
+            "Jessie",
+            "Musashi",
+            "Jessilina"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Esqui aquático",
+        "descricao": "Esporte em que o atleta é puxado por um barco ou cabo sobre a água, deslizando sobre esquis.",
+        "variantes": [
+          "Water ski"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "musica_aquatica",
+          "nome": "Música Aquática",
+          "descricao": "Coleção de suítes orquestrais de Georg Friedrich Händel, estreada em 1717 num passeio de barco do rei Jorge I.",
+          "variantes": [
+            "Water Music"
+          ]
+        },
+        {
+          "id": "equipe_aqua",
+          "nome": "Equipe Aqua",
+          "descricao": "Organização vilã de Pokémon Ruby, Sapphire e Emerald que quer despertar Kyogre para expandir os mares.",
+          "variantes": [
+            "Team Aqua"
+          ]
+        },
+        {
+          "id": "pedra_da_agua",
+          "nome": "Pedra da Água",
+          "descricao": "Pedra evolutiva azul dos jogos Pokémon que faz evoluir pokémon como Staryu, Shellder, Poliwhirl e Eevee.",
+          "variantes": [
+            "Water Stone"
+          ]
+        },
+        {
+          "id": "water_pulse",
+          "nome": "Water Pulse",
+          "descricao": "Golpe de pokémon do tipo Água, da 3ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "clepsidra",
+          "nome": "Clepsidra",
+          "descricao": "Relógio de água usado na Grécia Antiga, entre outras funções, para marcar o tempo dos discursos nos tribunais de Atenas.",
+          "variantes": [
+            "Relógio de água",
+            "Clepsydra",
+            "Water clock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Patinação de velocidade",
+        "descricao": "Modalidade de corrida sobre patins no gelo, disputada em pista oval.",
+        "variantes": [
+          "Patinação de velocidade no gelo",
+          "Speed skating"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motovelocidade",
+          "nome": "Motovelocidade",
+          "descricao": "Modalidade de corrida de motocicletas em circuitos de asfalto.",
+          "variantes": [
+            "Motociclismo de velocidade",
+            "Corrida de motos",
+            "MotoGP"
+          ]
+        },
+        {
+          "id": "patinacao_artistica",
+          "nome": "Patinação artística",
+          "descricao": "Esporte em que atletas executam saltos, giros e passos de dança sobre o gelo.",
+          "variantes": [
+            "Patinação artística no gelo",
+            "Figure skating"
+          ]
+        },
+        {
+          "id": "canoa_canoagem_de_velocidade",
+          "nome": "Canoa (canoagem de velocidade)",
+          "descricao": "Barco da canoagem de velocidade, também chamado canoa canadense, impulsionado por remo de uma só pá.",
+          "variantes": [
+            "Canoa canadense",
+            "C1"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        },
+        {
+          "id": "teide",
+          "nome": "Teide",
+          "descricao": "Vulcão da ilha de Tenerife, nas Canárias, o ponto mais alto da Espanha.",
+          "variantes": [
+            "Pico del Teide",
+            "Monte Teide"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Calcutta Cup",
+        "descricao": "Taça de prata com elefante na tampa e alças em forma de cobra, disputada no jogo anual de rúgbi entre Inglaterra e Escócia.",
+        "variantes": [
+          "Taça de Calcutá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "madre_teresa_de_calcuta",
+          "nome": "Madre Teresa de Calcutá",
+          "descricao": "Freira católica albanesa-indiana, fundadora das Missionárias da Caridade e canonizada em 2016.",
+          "variantes": [
+            "Santa Teresa de Calcutá",
+            "Anjezë Gonxhe Bojaxhiu",
+            "Mother Teresa"
+          ]
+        },
+        {
+          "id": "estatua_de_coatlicue",
+          "nome": "Estátua de Coatlicue",
+          "descricao": "Monumental escultura asteca de pedra da deusa mãe Coatlicue, a da saia de serpentes, no Museu Nacional de Antropologia do México.",
+          "variantes": [
+            "Coatlicue",
+            "Coatlicue Mayor"
+          ]
+        },
+        {
+          "id": "casa_da_cascata",
+          "nome": "Casa da Cascata",
+          "descricao": "Residência construída nos anos 1930 sobre uma queda d'água na Pensilvânia, Estados Unidos.",
+          "variantes": [
+            "Fallingwater",
+            "Casa Kaufmann"
+          ]
+        },
+        {
+          "id": "vila_velha_parana",
+          "nome": "Vila Velha (Paraná)",
+          "descricao": "Parque estadual em Ponta Grossa, no Paraná, conhecido pelas formações de arenito como a Taça.",
+          "variantes": [
+            "Parque Estadual de Vila Velha",
+            "Taça de Vila Velha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pista de atletismo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Mawashi não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Esqui aquático é esporte distinto das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Patinação de velocidade difere de patinação artística e das demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Calcutta Cup não consta entre as candidatas."
+    }
+  ]
+}

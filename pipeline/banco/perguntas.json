@@ -267716,5 +267716,113 @@
       "autor": "Ministério da Defesa",
       "licenca": "CC BY 2.0"
     }
+  },
+  {
+    "id": "q14374",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "pista_de_atletismo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de instalação esportiva é esta?",
+    "resposta": "Pista de atletismo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Running_track"
+    ],
+    "imagem": {
+      "arquivo": "q14374.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:All-weather_running_track.jpg",
+      "autor": "Mk2010",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14375",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "mawashi",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Como se chama a faixa de pano que estes lutadores usam na cintura?",
+    "resposta": "Mawashi",
+    "distratores": [
+      "Obi",
+      "Hakama",
+      "Kimono"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mawashi",
+      "https://pt.wikipedia.org/wiki/Mawashi"
+    ],
+    "imagem": {
+      "arquivo": "q14375.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aminishiki_toyonoshima.JPG",
+      "autor": "Materialscientist (talk)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14376",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "esqui_aquatico",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Esqui aquático",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Water_skiing",
+      "https://pt.wikipedia.org/wiki/Esqui_aqu%C3%A1tico"
+    ],
+    "imagem": {
+      "arquivo": "q14376.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Water_skiing_on_the_yarra02.jpg",
+      "autor": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 400mm f/5.6 L",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q14377",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "patinacao_de_velocidade",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que modalidade olímpica de inverno é esta?",
+    "resposta": "Patinação de velocidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Speed_skating",
+      "https://pt.wikipedia.org/wiki/Patina%C3%A7%C3%A3o_de_velocidade_no_gelo"
+    ],
+    "imagem": {
+      "arquivo": "q14377.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Eric_Heiden_1980c.jpg",
+      "autor": "Anefo / Croes, R.C.",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q14378",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "calcutta_cup",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que duas seleções de rúgbi disputam anualmente esta taça?",
+    "resposta": "Inglaterra e Escócia",
+    "distratores": [
+      "Inglaterra e Gales",
+      "Escócia e Irlanda",
+      "França e Itália"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Calcutta_Cup"
+    ],
+    "imagem": {
+      "arquivo": "q14378.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Calcutta_Cup,_Twickenham.jpg",
+      "autor": "Pjposullivan",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

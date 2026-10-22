@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz a palavra 'pista', que está na resposta 'Pista de atletismo' (vazamento parcial). Trocar por 'instalação' tira a palavra sem perder a clareza.",
+      "reescrita": {
+        "pergunta": "Que tipo de instalação esportiva é esta?",
+        "resposta": "Pista de atletismo"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é preciso e a figura é necessária, porque 'lutadores' sozinho não leva a sumô. Os distratores são do mesmo tipo e têm até 4 palavras. O mawashi é a faixa usada pelos lutadores de sumô.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta direta de reconhecimento (nível 1), sem pista no enunciado. A resposta é única e o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento sem vazamento. 'Patinação de velocidade' é o nome olímpico, inclusive para a pista oval, e o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está confirmado no trecho e o enunciado não vaza a resposta. O distrator 'Inglaterra e País de Gales' tem 5 palavras, acima do limite de 4. Usar 'Inglaterra e Gales'.",
+      "reescrita": {
+        "pergunta": "Que duas seleções de rúgbi disputam anualmente esta taça?",
+        "resposta": "Inglaterra e Escócia",
+        "distratores": [
+          "Inglaterra e Gales",
+          "Escócia e Irlanda",
+          "França e Itália"
+        ]
+      }
+    }
+  ]
+}
