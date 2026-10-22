@@ -1,0 +1,237 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Busto clássico de Homero, reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual epopeia é atribuída ao poeta grego representado neste busto?",
+      "resposta": "Ilíada",
+      "distratores": [
+        "Eneida",
+        "Beowulf",
+        "Metamorfoses"
+      ],
+      "ancora": {
+        "nome": "Homero",
+        "descricao": "Poeta grego antigo, tradicionalmente tido como autor da Ilíada e da Odisseia.",
+        "variantes": [
+          "Homer"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto livre de figura pública, sem texto; reconhecimento mais difícil, por isso múltipla escolha.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que diretor de teatro brasileiro aparece nesta foto?",
+      "resposta": "Zé Celso Martinez Corrêa",
+      "distratores": [
+        "Augusto Boal",
+        "Antunes Filho",
+        "Gerald Thomas"
+      ],
+      "ancora": {
+        "nome": "Zé Celso Martinez Corrêa",
+        "descricao": "Diretor, ator e dramaturgo brasileiro, fundador do Teatro Oficina.",
+        "variantes": [
+          "Zé Celso",
+          "José Celso Martinez Corrêa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido, sem texto.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi composta pelo compositor russo desta foto?",
+      "resposta": "Scheherazade",
+      "distratores": [
+        "Sinfonia Patética",
+        "Quadros de uma Exposição",
+        "Pedro e o Lobo"
+      ],
+      "ancora": {
+        "nome": "Nikolai Rimsky-Korsakov",
+        "descricao": "Compositor russo do Grupo dos Cinco, autor de Scheherazade.",
+        "variantes": [
+          "Rimski-Korsakov",
+          "Rimsky-Korsakoff"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; o texto do fundo (tiff) não entrega a resposta.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor americano de terror é este?",
+      "resposta": "Stephen King",
+      "ancora": {
+        "nome": "Stephen King",
+        "descricao": "Escritor americano conhecido por romances de terror, como Carrie e O Iluminado.",
+        "variantes": [
+          "Stephen Edwin King"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga de figura pública, sem texto; múltipla escolha por ser menos conhecido.",
+      "destino": 4,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas peças foi escrita pelo dramaturgo brasileiro desta foto?",
+      "resposta": "O Pagador de Promessas",
+      "distratores": [
+        "Auto da Compadecida",
+        "Vestido de Noiva",
+        "Eles Não Usam Black-Tie"
+      ],
+      "ancora": {
+        "nome": "Dias Gomes",
+        "descricao": "Dramaturgo e novelista brasileiro, autor de O Pagador de Promessas.",
+        "variantes": [
+          "Alfredo de Freitas Dias Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato pintado clássico e muito difundido, sem texto.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que filósofo é retratado nesta pintura?",
+      "resposta": "Baruch Spinoza",
+      "ancora": {
+        "nome": "Baruch Spinoza",
+        "descricao": "Filósofo racionalista de origem portuguesa e judaica, nascido em Amsterdã no século dezessete.",
+        "variantes": [
+          "Espinosa",
+          "Benedictus de Spinoza",
+          "Baruch Espinoza"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, em baixa resolução e preto e branco; não fica legível nem reconhecível num celular."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato pintado famoso de Monteverdi, sem texto.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas óperas foi composta pelo músico retratado nesta pintura?",
+      "resposta": "L'Orfeo",
+      "distratores": [
+        "Dido e Eneias",
+        "Orfeu e Eurídice",
+        "Júlio César"
+      ],
+      "ancora": {
+        "nome": "Claudio Monteverdi",
+        "descricao": "Compositor italiano, figura de transição entre Renascença e Barroco e pioneiro da ópera.",
+        "variantes": [
+          "Monteverdi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato pintado clássico de Locke, sem texto.",
+      "destino": 3,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi escrita pelo filósofo inglês retratado nesta pintura?",
+      "resposta": "Carta sobre a Tolerância",
+      "distratores": [
+        "Leviatã",
+        "O Contrato Social",
+        "Crítica da Razão Pura"
+      ],
+      "ancora": {
+        "nome": "John Locke",
+        "descricao": "Filósofo e médico inglês do século dezessete, chamado de pai do liberalismo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Desenho a nanquim nítido, sem texto; reconhecimento difícil, por isso múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor brasileiro do século dezenove é retratado neste desenho?",
+      "resposta": "Bernardo Guimarães",
+      "distratores": [
+        "José de Alencar",
+        "Aluísio Azevedo",
+        "Raul Pompeia"
+      ],
+      "ancora": {
+        "nome": "Bernardo Guimarães",
+        "descricao": "Poeta e romancista brasileiro, autor de A Escrava Isaura e O Seminarista.",
+        "variantes": [
+          "Bernardo Joaquim da Silva Guimarães"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fotografia antiga nítida, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito pelo autor português desta foto?",
+      "resposta": "O Crime do Padre Amaro",
+      "distratores": [
+        "Memorial do Convento",
+        "Amor de Perdição",
+        "Ensaio sobre a Cegueira"
+      ],
+      "ancora": {
+        "nome": "Eça de Queirós",
+        "descricao": "Escritor português do século dezenove, maior nome do realismo em Portugal.",
+        "variantes": [
+          "Eça de Queiroz",
+          "José Maria de Eça de Queiroz"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, ilegível num celular; o retrato não é reconhecível."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual destas epopeias é atribuída ao poeta grego representado neste busto?",
+        "resposta": "Ilíada"
+      },
+      "existentes": [
+        {
+          "id": "q11579",
+          "pergunta": "Que poeta da Grécia Antiga é representado neste busto?",
+          "resposta": "Homero"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que filósofo é retratado nesta pintura?",
+        "resposta": "Baruch Spinoza"
+      },
+      "existentes": [
+        {
+          "id": "q04722",
+          "pergunta": "Baruch Spinoza nasceu em Amsterdã, filho de uma família judia que havia fugido da Inquisição em que país?",
+          "resposta": "Portugal"
+        },
+        {
+          "id": "q08237",
+          "pergunta": "Spinoza era chamado de Baruch, em hebraico, e de Bento, em português. Os dois nomes significam o quê?",
+          "resposta": "Abençoado"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual destas obras foi escrita pelo filósofo inglês retratado nesta pintura?",
+        "resposta": "Carta sobre a Tolerância"
+      },
+      "existentes": [
+        {
+          "id": "q14093",
+          "pergunta": "Que filósofo inglês do século dezessete é retratado nesta pintura?",
+          "resposta": "John Locke"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede qual epopeia é atribuída a Homero (Ilíada); a existente pede a identidade do poeta. Fatos diferentes, apesar de a imagem ser a mesma."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "A pergunta nova pede a identidade do filósofo retratado na pintura, o que é uma pergunta de identificação. Nenhuma existente pergunta isso: uma trata do país de origem da família e a outra do significado do nome. Os fatos são distintos, então é nova.",
+      "id_existente": "q04722"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede uma obra de Locke; a existente pede a identidade do filósofo. Fatos diferentes."
+    }
+  ]
+}
