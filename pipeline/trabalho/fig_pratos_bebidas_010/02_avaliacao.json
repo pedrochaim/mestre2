@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Xícara de chocolate quente com chantilly, clara e sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta bebida chegou à Europa vinda de que país da América?",
+      "resposta": "México",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chocolate quente",
+        "descricao": "Bebida quente feita de chocolate ou cacau com leite ou água, muitas vezes coberta com chantilly.",
+        "variantes": [
+          "Chocolate quente com chantilly",
+          "Cacau quente"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Pilha de massas lisas sem recheio; pode ser crepe, panqueca ou outra massa fina, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tamal embrulhado em folha de bananeira, aberto ao lado; reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de origem mesoamericana, feito de massa de milho cozida no vapor, é este?",
+      "resposta": "Tamal",
+      "distratores": [
+        "Pamonha",
+        "Humita",
+        "Hallaca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tamal",
+        "descricao": "Prato mesoamericano de massa de milho nixtamalizado, cozido no vapor em palha de milho ou folha de bananeira.",
+        "variantes": [
+          "Tamale",
+          "Tamales"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Ovo frito na frigideira, trivial; qualquer pergunta sobre a parte (gema, clara) entrega a resposta pelo enunciado."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Samosas fritas com chutney verde, bem reconhecíveis e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que salgado frito de massa triangular, servido com molho verde, é este?",
+      "resposta": "Samosa (chamuça)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Samosa",
+        "descricao": "Salgado frito do subcontinente indiano, de massa em forma triangular, cone ou meia-lua, com recheio picante.",
+        "variantes": [
+          "Chamuça",
+          "Samossa",
+          "Shingara"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Corte mostra filé, camada escura e massa folhada; Bife Wellington reconhecível, sem texto.",
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que preparado cobre o filé, por baixo da massa neste prato?",
+      "resposta": "Duxelles",
+      "distratores": [
+        "Tapenade",
+        "Ragu",
+        "Chimichurri"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bife Wellington",
+        "descricao": "Prato assado de filé mignon e duxelles envolvidos em massa folhada.",
+        "variantes": [
+          "Beef Wellington",
+          "Filé Wellington"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fatia de pavê em camadas com cobertura de doce de leite, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa brasileira em camadas de biscoito e creme é esta?",
+      "resposta": "Pavê",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pavê",
+        "descricao": "Sobremesa gelada brasileira em camadas de biscoito ou bolo e creme, de inspiração francesa.",
+        "variantes": [
+          "Torta de bolacha",
+          "Pavê de doce de leite"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Espetos de cubos de carne grelhada com arroz e cebola, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato do Oriente Médio é este?",
+      "resposta": "Shish kebab",
+      "distratores": [
+        "Doner kebab",
+        "Shawarma",
+        "Kofta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Shish kebab",
+        "descricao": "Prato de cubos de carne, tradicionalmente de cordeiro, espetados e grelhados, originário do Oriente Médio.",
+        "variantes": [
+          "Şiş kebap",
+          "Espetinho",
+          "Kebab de espeto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Massa marrom sem forma característica; não é reconhecível como tutu de feijão e poderia ser outras preparações."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Bebida rosa em copo alto com morango; poderia ser smoothie, vitamina ou milk-shake, então a resposta não é única e não há distratores justos."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sopa com camarão e ervas, aspecto típico do tom yum, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta sopa?",
+      "resposta": "Tailândia",
+      "distratores": [
+        "Vietnã",
+        "Laos",
+        "Camboja"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tom yum",
+        "descricao": "Família de sopas tailandesas azedas e picantes, com camarão, capim-limão e ervas.",
+        "variantes": [
+          "Tom yam",
+          "Tom yum goong"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Espaguete cru em um copo, fundo branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de massa é este?",
+      "resposta": "Espaguete",
+      "destino": 0,
+      "ancora": {
+        "nome": "Espaguete",
+        "descricao": "Massa italiana longa, fina e cilíndrica, feita de trigo.",
+        "variantes": [
+          "Spaghetti"
+        ]
+      }
+    }
+  ]
+}

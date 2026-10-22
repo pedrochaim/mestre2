@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a bebida se popularizou na Europa depois de ser introduzida a partir do México. O enunciado não nomeia a bebida nem entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Origem mesoamericana' e 'massa de milho cozida no vapor' definem o tamal e vazam a resposta. A pista também se aplica a pamonha e humita. Basta uma pista mais leve, que ajude sem entregar.",
+      "reescrita": {
+        "pergunta": "Que prato latino-americano, embrulhado em folha, é este?",
+        "resposta": "Tamal",
+        "distratores": [
+          "Pamonha",
+          "Humita",
+          "Hallaca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Salgado frito de massa triangular' praticamente define a samosa, então a figura vira enfeite. 'Molho verde' não aparece nos trechos e pode não valer para esta foto. Fica só o país como pista.",
+      "reescrita": {
+        "pergunta": "Que salgado frito de origem indiana é este?",
+        "resposta": "Samosa (chamuça)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que o bife Wellington pode levar patê, e o inglês diz que receitas clássicas usam patê no lugar da duxelles, então a resposta não é única. A figura mostra o prato por fora e não deixa ver o recheio. Qualquer pista sobre cogumelos entregaria a duxelles.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Camadas de biscoito e creme' descreve o pavê e responde sem olhar a figura. Fica só 'gelada brasileira', que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que sobremesa gelada brasileira é esta?",
+        "resposta": "Pavê",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá a região e não entrega a resposta. O trecho confirma que o shish kebab é do Oriente Médio. Os distratores são do mesmo tipo e nenhum descreve cubos de carne espetados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem o tom yum como família de sopas tailandesas. Os distratores são países vizinhos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de nível 1, de reconhecimento direto, sem vazamento. Os trechos confirmam o espaguete como massa longa, fina e cilíndrica.",
+      "reescrita": null
+    }
+  ]
+}
