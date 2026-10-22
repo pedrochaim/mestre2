@@ -1,0 +1,114 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta ponte pênsil?",
+        "resposta": "Florianópolis"
+      },
+      "existentes": [
+        {
+          "id": "q02036",
+          "pergunta": "Em Florianópolis, a Ponte Hercílio Luz, que liga a ilha ao continente, foi inaugurada em qual década?",
+          "resposta": "Anos 1920"
+        },
+        {
+          "id": "q08002",
+          "pergunta": "Inaugurada em 1926, que ponte pênsil, cartão-postal de Florianópolis, liga a Ilha de Santa Catarina ao continente?",
+          "resposta": "Ponte Hercílio Luz"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Esta coluna de Roma comemora as vitórias de qual imperador?",
+        "resposta": "Trajano"
+      },
+      "existentes": [
+        {
+          "id": "q03472",
+          "pergunta": "Que imperador romano é homenageado por esta coluna triunfal, erguida em Roma no século dois?",
+          "resposta": "Trajano"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que engenheiro imigrante alemão fez o projeto original desta ponte de Nova York?",
+        "resposta": "John A. Roebling"
+      },
+      "existentes": [
+        {
+          "id": "q08477",
+          "pergunta": "Ligando Manhattan ao Brooklyn sobre o East River, a Ponte do Brooklyn foi aberta ao público em qual ano?",
+          "resposta": "1883"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que arquiteto projetou este edifício de Paris?",
+        "resposta": "Jacques-Germain Soufflot"
+      },
+      "existentes": [
+        {
+          "id": "q11597",
+          "pergunta": "Em 1851, sob a cúpula do Panteão de Paris, qual físico pendurou um pêndulo gigante para demonstrar a rotação da Terra?",
+          "resposta": "Léon Foucault"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade europeia fica esta fonte?",
+        "resposta": "Bruxelas"
+      },
+      "existentes": [
+        {
+          "id": "q02032",
+          "pergunta": "A pequena estátua de bronze de um menino fazendo xixi numa fonte, o Manneken Pis, é símbolo de qual cidade europeia?",
+          "resposta": "Bruxelas"
+        },
+        {
+          "id": "q09124",
+          "pergunta": "Em Bruxelas, a pequena estátua de bronze chamada Manneken Pis tem um nome que, no dialeto local, significa o quê?",
+          "resposta": "Menininho fazendo xixi"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q08002",
+      "motivo": "Ambas perguntam a cidade/ponte de Florianópolis; q08002 já traz Florianópolis como cartão-postal, então quem soubesse responderia a nova. Porém a existente dá a cidade no enunciado, e a resposta é a cidade; o fato (ponte localizada em Florianópolis) é o mesmo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03472",
+      "motivo": "Ambas perguntam o imperador homenageado pela coluna: Trajano."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Projetista da ponte é fato diferente do ano de abertura."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Arquiteto do Panteão é diferente do pêndulo de Foucault."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q02032",
+      "motivo": "Ambas perguntam a cidade do Manneken Pis: Bruxelas."
+    }
+  ]
+}

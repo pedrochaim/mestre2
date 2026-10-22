@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ponte reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade brasileira fica esta ponte pênsil?",
+      "resposta": "Florianópolis",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte Hercílio Luz",
+        "descricao": "Ponte pênsil de Florianópolis (SC) que liga a Ilha de Santa Catarina ao continente, inaugurada em 1926.",
+        "variantes": [
+          "Hercílio Luz Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Coluna com relevo em espiral bem visível; igreja ao lado não confunde.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta coluna de Roma comemora as vitórias de qual imperador?",
+      "resposta": "Trajano",
+      "distratores": [
+        "Adriano",
+        "Augusto",
+        "Marco Aurélio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coluna de Trajano",
+        "descricao": "Coluna triunfal romana, com relevo em espiral, erguida em 113 d.C. no Fórum de Trajano, em Roma, para celebrar as guerras dácias.",
+        "variantes": [
+          "Colonna Traiana",
+          "Trajan's Column"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fachada clara; a inscrição cita o proprietário (Capra), não o arquiteto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto italiano projetou esta vila?",
+      "resposta": "Andrea Palladio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Villa Rotonda",
+        "descricao": "Vila renascentista de planta central perto de Vicenza, na Itália, projetada por Palladio a partir de 1567.",
+        "variantes": [
+          "La Rotonda",
+          "Villa Capra",
+          "Villa Almerico Capra Valmarana"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ponte inconfundível, sem texto que entregue a resposta (logo ao fundo é irrelevante).",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro projetou esta ponte?",
+      "resposta": "John A. Roebling",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ponte do Brooklyn",
+        "descricao": "Ponte pênsil de Nova York sobre o East River, ligando Manhattan ao Brooklyn, inaugurada em 1883.",
+        "variantes": [
+          "Brooklyn Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada com pórtico e cúpula reconhecível; a inscrição não revela o arquiteto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto projetou este edifício de Paris?",
+      "resposta": "Jacques-Germain Soufflot",
+      "destino": 0,
+      "ancora": {
+        "nome": "Panteão de Paris",
+        "descricao": "Monumento neoclássico do Quartier Latin, em Paris, construído entre 1758 e 1790, hoje mausoléu de grandes personalidades francesas.",
+        "variantes": [
+          "Panthéon",
+          "Panthéon de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Grupo escultórico claro, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escultor francês criou este grupo de bronze?",
+      "resposta": "Auguste Rodin",
+      "destino": 0,
+      "ancora": {
+        "nome": "Os Burgueses de Calais",
+        "descricao": "Grupo escultórico em bronze de Rodin, concluído em 1889, que lembra o cerco de Calais na Guerra dos Cem Anos.",
+        "variantes": [
+          "Les Bourgeois de Calais",
+          "The Burghers of Calais"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pavilhão inconfundível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este templo japonês pertence a qual vertente do budismo?",
+      "resposta": "Zen",
+      "distratores": [
+        "Terra Pura",
+        "Shingon",
+        "Nichiren"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pavilhão Dourado (Kinkaku-ji)",
+        "descricao": "Templo budista zen em Kyoto, no Japão, famoso pelo pavilhão revestido de folha de ouro.",
+        "variantes": [
+          "Kinkaku-ji",
+          "Rokuon-ji",
+          "Templo do Pavilhão Dourado"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Escultura famosa e nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa escultura de bronze é esta?",
+      "resposta": "Loba Capitolina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Loba Capitolina",
+        "descricao": "Escultura de bronze de uma loba amamentando os gêmeos Rômulo e Remo, símbolo de Roma, nos Museus Capitolinos.",
+        "variantes": [
+          "Lupa Capitolina",
+          "Capitoline Wolf"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Detalhe de salão de colunas e obelisco, sem elemento exclusivo; pode ser confundido com outros templos egípcios (Luxor, Ramesseum, Medinet Habu)."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torso fragmentário famoso, reconhecível; pessoas ao fundo são incidentais.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu fica esta escultura?",
+      "resposta": "Museus do Vaticano",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu Britânico",
+        "Galeria Uffizi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Torso do Belvedere",
+        "descricao": "Escultura de mármore fragmentária de um nu masculino sentado, assinada por Apolônio de Atenas, nos Museus do Vaticano.",
+        "variantes": [
+          "Belvedere Torso",
+          "Torso Belvedere"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fachada lateral reconhecível para quem conhece o Mercadão, sem texto; usa múltipla.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica este mercado?",
+      "resposta": "São Paulo",
+      "distratores": [
+        "Porto Alegre",
+        "Rio de Janeiro",
+        "Belo Horizonte"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mercado Municipal de São Paulo",
+        "descricao": "Mercado público do centro de São Paulo, o Mercadão, inaugurado em 1933.",
+        "variantes": [
+          "Mercadão",
+          "Mercado Municipal Paulistano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Escultura emblemática, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade europeia fica esta fonte?",
+      "resposta": "Bruxelas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Manneken Pis",
+        "descricao": "Pequena fonte-escultura de bronze de um menino urinando, símbolo de Bruxelas, na Bélgica.",
+        "variantes": [
+          "Manneken-Pis",
+          "Menino que Urina"
+        ]
+      }
+    }
+  ]
+}

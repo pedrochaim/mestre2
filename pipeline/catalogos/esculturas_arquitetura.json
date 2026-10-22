@@ -33,7 +33,7 @@
       "titulo": "en:Statue of Liberty",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Torre de Pisa",
@@ -68,7 +68,7 @@
       "titulo": "en:Parthenon",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Big Ben",
@@ -250,7 +250,7 @@
       "titulo": "en:Dome of the Rock",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Porta de Ishtar",
@@ -530,7 +530,7 @@
       "titulo": "en:The Burghers of Calais",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "A Porta do Inferno",
@@ -544,7 +544,7 @@
       "titulo": "en:Belvedere Torso",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Zigurate de Ur",
@@ -579,7 +579,7 @@
       "titulo": "en:Lacerda Elevator",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Arcos da Lapa",
@@ -614,14 +614,14 @@
       "titulo": "en:Brooklyn Bridge",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ponte Hercílio Luz",
       "titulo": "en:Hercílio Luz Bridge",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ponte JK",
@@ -635,7 +635,7 @@
       "titulo": "pt:Mercado Municipal de São Paulo",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pelourinho",
@@ -670,21 +670,21 @@
       "titulo": "en:Kinkaku-ji",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Manneken Pis",
       "titulo": "en:Manneken Pis",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Coluna de Trajano",
       "titulo": "en:Trajan's Column",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Basílica de São Marcos",
@@ -705,14 +705,14 @@
       "titulo": "en:David (Donatello)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Panteão de Paris",
       "titulo": "en:Panthéon",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estação da Luz",
@@ -726,7 +726,7 @@
       "titulo": "en:Karnak",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Mesquita do Profeta",
@@ -761,7 +761,7 @@
       "titulo": "en:Capitoline Wolf",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Baldaquino de São Pedro",
@@ -775,7 +775,7 @@
       "titulo": "en:Villa La Rotonda",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tempietto de Bramante",
