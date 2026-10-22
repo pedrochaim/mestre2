@@ -1,0 +1,121 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que conjunto de ruínas, no centro da Roma antiga, aparece nesta imagem?",
+        "resposta": "Fórum Romano"
+      },
+      "existentes": [
+        {
+          "id": "q03480",
+          "pergunta": "Que conjunto de ruínas da Roma antiga é este?",
+          "resposta": "Fórum Romano"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico caracteriza este palácio?",
+        "resposta": "Gótico veneziano"
+      },
+      "existentes": [
+        {
+          "id": "q07195",
+          "pergunta": "Em que cidade fica este palácio?",
+          "resposta": "Veneza"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que hotel de luxo dos Emirados Árabes Unidos aparece nesta imagem?",
+        "resposta": "Burj Al Arab"
+      },
+      "existentes": [
+        {
+          "id": "q08463",
+          "pergunta": "Erguido numa ilha artificial na costa de Dubai, o hotel Burj Al Arab tem o formato de quê?",
+          "resposta": "Vela de um barco"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que complexo de hotel e cassino de Singapura é este?",
+        "resposta": "Marina Bay Sands"
+      },
+      "existentes": [
+        {
+          "id": "q06689",
+          "pergunta": "Em que país fica este complexo de três torres?",
+          "resposta": "Singapura"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que arquiteto modernista projetou este edifício, construído no início do século vinte?",
+        "resposta": "Antoni Gaudí"
+      },
+      "existentes": [
+        {
+          "id": "q05439",
+          "pergunta": "Por causa da fachada ondulada de pedra bruta, a Casa Milà, projetada por Gaudí em Barcelona, ganhou dos moradores qual apelido?",
+          "resposta": "La Pedrera (A Pedreira)"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que escritório de arquitetura projetou esta roda-gigante?",
+        "resposta": "Marks Barfield Architects"
+      },
+      "existentes": [
+        {
+          "id": "q11600",
+          "pergunta": "A roda-gigante London Eye, à beira do Tâmisa, tem uma cápsula para cada distrito municipal de Londres. Quantas cápsulas são?",
+          "resposta": "Trinta e duas"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do Fórum Romano, mesma resposta.",
+      "id_existente": "q03480"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estilo arquitetônico é um fato diferente da cidade onde fica."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o hotel é diferente de saber o formato dele; o nome aparece na pergunta existente, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nome do complexo difere do país onde fica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Arquiteto do edifício difere do apelido da Casa Milà; o existente cita Gaudí no enunciado, mas não pergunta isso."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Escritório projetista difere do número de cápsulas."
+    }
+  ]
+}

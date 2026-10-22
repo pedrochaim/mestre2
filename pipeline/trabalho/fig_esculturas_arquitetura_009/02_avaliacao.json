@@ -1,0 +1,187 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Panorama claro do Fórum Romano, com colunas do Templo de Vespasiano e Arco de Sétimo Severo, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que conjunto de ruínas, no centro da Roma antiga, aparece nesta imagem?",
+      "resposta": "Fórum Romano",
+      "distratores": [
+        "Fórum de Trajano",
+        "Monte Palatino",
+        "Via Ápia"
+      ],
+      "ancora": {
+        "nome": "Fórum Romano",
+        "descricao": "Praça retangular cercada por ruínas de edifícios públicos antigos, no centro de Roma, entre o Palatino e o Capitólio.",
+        "variantes": [
+          "Forum Romanum",
+          "Foro Romano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada nítida do Palácio Ducal, sem texto; estilo gótico veneziano reconhecível.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que estilo arquitetônico caracteriza este palácio?",
+      "resposta": "Gótico veneziano",
+      "distratores": [
+        "Barroco romano",
+        "Renascentista florentino",
+        "Românico lombardo"
+      ],
+      "ancora": {
+        "nome": "Palácio Ducal de Veneza",
+        "descricao": "Palácio gótico em Veneza, antiga sede do governo e residência do Doge da República de Veneza.",
+        "variantes": [
+          "Palazzo Ducale",
+          "Doge's Palace"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Burj Al Arab visível à direita, reconhecível, sem texto; enunciado aponta o lado para evitar confusão com o outro hotel.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que hotel de luxo é este, o edifício à direita da imagem?",
+      "resposta": "Burj Al Arab",
+      "distratores": [],
+      "ancora": {
+        "nome": "Burj Al Arab",
+        "descricao": "Hotel de luxo em forma de vela de dhow, numa ilha artificial em Dubai, nos Emirados Árabes Unidos.",
+        "variantes": [
+          "Jumeirah Burj Al Arab",
+          "Torre dos Árabes"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placas na imagem trazem o nome 'Museu Oscar Niemeyer', o que pode entregar a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem é uma pintura (Poussin), e não a escultura de Giambologna do item; não combina com o catálogo nem com o subtema de escultura e arquitetura."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Marina Bay Sands nítido, com as três torres e o terraço, sem texto legível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que complexo de hotel e cassino é este, com três torres ligadas por um terraço?",
+      "resposta": "Marina Bay Sands",
+      "distratores": [],
+      "ancora": {
+        "nome": "Marina Bay Sands",
+        "descricao": "Complexo de hotel, cassino e centro de convenções em Singapura, com três torres encimadas por um terraço em forma de navio.",
+        "variantes": [
+          "MBS"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada ondulada inconfundível da Casa Milà; sem texto legível.",
+      "tipo": "multipla",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que arquiteto projetou este edifício de fachada ondulada de pedra?",
+      "resposta": "Antoni Gaudí",
+      "distratores": [
+        "Lluís Domènech i Montaner",
+        "Josep Puig i Cadafalch",
+        "Victor Horta"
+      ],
+      "ancora": {
+        "nome": "Casa Milà",
+        "descricao": "Edifício modernista de fachada ondulada de pedra em Barcelona, conhecido como La Pedrera.",
+        "variantes": [
+          "La Pedrera"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tímpano do Pórtico da Glória com Cristo e os músicos do Apocalipse; a inscrição latina não entrega a resposta. Reconhecível para o público informado; múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que cidade espanhola fica a catedral a que pertence este pórtico românico?",
+      "resposta": "Santiago de Compostela",
+      "distratores": [
+        "Burgos",
+        "León",
+        "Toledo"
+      ],
+      "ancora": {
+        "nome": "Pórtico da Glória",
+        "descricao": "Pórtico românico da Catedral de Santiago de Compostela, obra do Mestre Mateo, concluída em 1188.",
+        "variantes": [
+          "Pórtico da Gloria",
+          "Portico of Glory"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "London Eye de frente, claro e reconhecível, sem texto relevante.",
+      "tipo": "multipla",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que escritório de arquitetura projetou esta roda-gigante?",
+      "resposta": "Marks Barfield Architects",
+      "distratores": [
+        "Foster and Partners",
+        "Zaha Hadid Architects",
+        "Rogers Stirk Harbour"
+      ],
+      "ancora": {
+        "nome": "London Eye",
+        "descricao": "Roda-gigante panorâmica de 135 metros, às margens do Tâmisa, em Londres.",
+        "variantes": [
+          "Millennium Wheel",
+          "Roda do Milênio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A parada do vaporetto exibe 'Rialto' em letreiro amarelo, entregando a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A figura é uma estatueta de bronze de divindade alada de saia em camadas, e não um lamassu (touro ou leão alado com cabeça humana); a imagem não corresponde ao item."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A fachada traz 'THEATRO MUNICIPAL' escrito, o que entrega a resposta."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado fiel aos trechos, sem nomear a entidade; a figura é necessária para distinguir de outros conjuntos de ruínas. Distratores do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dão o palácio como exemplo de gótico veneziano. O enunciado não nomeia o palácio e os distratores são estilos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O edifício à direita da imagem' é uma afirmação sobre a composição da foto que não dá para conferir. Trocada por uma pista de país que ajuda sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que hotel de luxo dos Emirados Árabes Unidos aparece nesta imagem?",
+        "resposta": "Burj Al Arab"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Três torres ligadas por um terraço' descreve o edifício de forma única, então o enunciado responde sozinho (teste da imagem coberta). Troquei a descrição pelo país.",
+      "reescrita": {
+        "pergunta": "Que complexo de hotel e cassino de Singapura é este?",
+        "resposta": "Marina Bay Sands"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fachada ondulada de pedra' é a descrição clássica da Casa Milà e quase entrega Gaudí, então a figura vira enfeite. Troquei por época e estilo, e o distrator Victor Horta (belga) por um arquiteto catalão.",
+      "reescrita": {
+        "pergunta": "Que arquiteto modernista projetou este edifício, construído no início do século vinte?",
+        "resposta": "Antoni Gaudí",
+        "distratores": [
+          "Lluís Domènech i Montaner",
+          "Josep Puig i Cadafalch",
+          "Enric Sagnier"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O pórtico pertence à Catedral de Santiago de Compostela, segundo os trechos. O enunciado não nomeia a cidade e os distratores são cidades espanholas com catedrais, todas erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos apontam Marks Barfield como autores do projeto. A pergunta precisa da figura e os distratores são escritórios britânicos plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

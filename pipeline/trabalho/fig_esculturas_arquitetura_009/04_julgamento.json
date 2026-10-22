@@ -1,0 +1,439 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Fórum Romano",
+        "descricao": "Praça retangular cercada por ruínas de edifícios públicos antigos, no centro de Roma, entre o Palatino e o Capitólio.",
+        "variantes": [
+          "Forum Romanum",
+          "Foro Romano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forum_romano",
+          "nome": "Fórum Romano",
+          "descricao": "Praça cercada por ruínas de edifícios públicos, centro da vida da Roma antiga, entre o Palatino e o Capitólio.",
+          "variantes": [
+            "Foro Romano",
+            "Forum Romanum"
+          ]
+        },
+        {
+          "id": "concreto_romano",
+          "nome": "Concreto romano",
+          "descricao": "Material de construção usado na Roma Antiga, famoso pela durabilidade, empregado em obras como o Panteão.",
+          "variantes": [
+            "Opus caementicium",
+            "Roman concrete"
+          ]
+        },
+        {
+          "id": "ouro_branco",
+          "nome": "Ouro branco",
+          "descricao": "Liga de ouro com metais claros usada em joalheria, de cor prateada",
+          "variantes": [
+            "White gold"
+          ]
+        },
+        {
+          "id": "ditador_romano",
+          "nome": "Ditador romano",
+          "descricao": "Magistrado extraordinário da República romana nomeado com plenos poderes em tempos de crise.",
+          "variantes": [
+            "Dictator",
+            "Ditadura romana"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Palácio Ducal de Veneza",
+        "descricao": "Palácio gótico em Veneza, antiga sede do governo e residência do Doge da República de Veneza.",
+        "variantes": [
+          "Palazzo Ducale",
+          "Doge's Palace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_ducal_de_veneza",
+          "nome": "Palácio Ducal de Veneza",
+          "descricao": "Palácio gótico veneziano que foi residência do doge e sede do governo da República de Veneza.",
+          "variantes": [
+            "Palazzo Ducale",
+            "Palácio dos Doges"
+          ]
+        },
+        {
+          "id": "palacio_de_diocleciano",
+          "nome": "Palácio de Diocleciano",
+          "descricao": "Palácio-fortaleza construído por volta do ano 300 para a aposentadoria do imperador Diocleciano, na costa da Dalmácia.",
+          "variantes": [
+            "Diocletian's Palace"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        },
+        {
+          "id": "palacio_do_catete",
+          "nome": "Palácio do Catete",
+          "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+          "variantes": [
+            "Catete Palace",
+            "Palácio Nova Friburgo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Burj Al Arab",
+        "descricao": "Hotel de luxo em forma de vela de dhow, numa ilha artificial em Dubai, nos Emirados Árabes Unidos.",
+        "variantes": [
+          "Jumeirah Burj Al Arab",
+          "Torre dos Árabes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "burj_al_arab",
+          "nome": "Burj Al Arab",
+          "descricao": "Hotel de luxo erguido numa ilha artificial na costa de Dubai, nos Emirados Árabes Unidos, inaugurado em 1999.",
+          "variantes": [
+            "Torre dos Árabes"
+          ]
+        },
+        {
+          "id": "galette_des_rois",
+          "nome": "Galette des rois",
+          "descricao": "Torta folhada francesa recheada de creme de amêndoas, com uma pequena figura escondida na massa.",
+          "variantes": [
+            "Bolo-rei francês",
+            "Torta dos reis",
+            "Bolo de Reis francês"
+          ]
+        },
+        {
+          "id": "torre_do_diabo",
+          "nome": "Torre do Diabo",
+          "descricao": "Grande rochedo de colunas de rocha ígnea no nordeste do Wyoming, nos Estados Unidos.",
+          "variantes": [
+            "Devils Tower"
+          ]
+        },
+        {
+          "id": "torre_de_londres",
+          "nome": "Torre de Londres",
+          "descricao": "Fortaleza medieval à beira do Tâmisa, em Londres, que já foi palácio real e prisão e guarda as Joias da Coroa.",
+          "variantes": [
+            "Tower of London"
+          ]
+        },
+        {
+          "id": "torre_branca_torre_de_londres",
+          "nome": "Torre Branca (Torre de Londres)",
+          "descricao": "Torre de menagem de pedra no centro da Torre de Londres, mandada erguer por Guilherme, o Conquistador.",
+          "variantes": [
+            "White Tower",
+            "Torre de Londres"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Marina Bay Sands",
+        "descricao": "Complexo de hotel, cassino e centro de convenções em Singapura, com três torres encimadas por um terraço em forma de navio.",
+        "variantes": [
+          "MBS"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marina_bay_sands",
+          "nome": "Marina Bay Sands",
+          "descricao": "Complexo de resort com três torres unidas por um deque no topo, na baía da Marina, em Singapura.",
+          "variantes": [
+            "MBS"
+          ]
+        },
+        {
+          "id": "bts",
+          "nome": "BTS",
+          "descricao": "Grupo sul-coreano de K-pop formado em Seul em 2013",
+          "variantes": [
+            "Bangtan Boys",
+            "Bangtan Sonyeondan"
+          ]
+        },
+        {
+          "id": "sms",
+          "nome": "SMS",
+          "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+          "variantes": [
+            "Short Message Service",
+            "Torpedo",
+            "Mensagem de texto"
+          ]
+        },
+        {
+          "id": "catarina_a_grande",
+          "nome": "Catarina, a Grande",
+          "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst.",
+          "variantes": [
+            "Catarina II da Rússia",
+            "Catherine the Great"
+          ]
+        },
+        {
+          "id": "curiosity",
+          "nome": "Curiosity",
+          "descricao": "Rover da NASA da missão Mars Science Laboratory, lançado em 2011 e pousado em Marte em 2012.",
+          "variantes": [
+            "Mars Science Laboratory",
+            "MSL"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Casa Milà",
+        "descricao": "Edifício modernista de fachada ondulada de pedra em Barcelona, conhecido como La Pedrera.",
+        "variantes": [
+          "Casa Milà (La Pedrera)",
+          "La Pedrera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "casa_mila",
+          "nome": "Casa Milà",
+          "descricao": "Edifício residencial projetado por Antoni Gaudí no Passeig de Gràcia, em Barcelona, com fachada ondulada de pedra.",
+          "variantes": [
+            "La Pedrera"
+          ]
+        },
+        {
+          "id": "natalia_pereira",
+          "nome": "Natália Pereira",
+          "descricao": "Jogadora brasileira de vôlei, campeã olímpica em Londres 2012, nascida Natália Zilio Pereira.",
+          "variantes": [
+            "Natália Zilio Pereira",
+            "Natália"
+          ]
+        },
+        {
+          "id": "ac_milan",
+          "nome": "AC Milan",
+          "descricao": "Associazione Calcio Milan, clube de futebol de Milão, na Itália, fundado em 1899.",
+          "variantes": [
+            "Milan",
+            "Associazione Calcio Milan"
+          ]
+        },
+        {
+          "id": "cordao_da_bola_preta",
+          "nome": "Cordão da Bola Preta",
+          "descricao": "Tradicional bloco de carnaval do Rio de Janeiro, fundado em 1918.",
+          "variantes": [
+            "Bola Preta"
+          ]
+        },
+        {
+          "id": "cla_perola",
+          "nome": "Clã Pérola",
+          "descricao": "Um dos dois clãs rivais da região de Hisui em Pokémon Legends: Arceus, adversário do Clã Diamante.",
+          "variantes": [
+            "Pearl Clan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pórtico da Glória",
+        "descricao": "Pórtico românico da Catedral de Santiago de Compostela, obra do Mestre Mateo, concluída em 1188.",
+        "variantes": [
+          "Portico of Glory"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        },
+        {
+          "id": "gloria_feita_de_sangue",
+          "nome": "Glória Feita de Sangue",
+          "descricao": "Filme americano de 1957 sobre soldados franceses da Primeira Guerra levados a corte marcial após um ataque fracassado.",
+          "variantes": [
+            "Paths of Glory"
+          ]
+        },
+        {
+          "id": "independencia_da_india",
+          "nome": "Independência da Índia",
+          "descricao": "Fim do domínio britânico sobre a Índia, acompanhado da partição que criou o Paquistão.",
+          "variantes": [
+            "Partição da Índia"
+          ]
+        },
+        {
+          "id": "porto_de_galinhas",
+          "nome": "Porto de Galinhas",
+          "descricao": "Praia e vila do município de Ipojuca, no litoral sul de Pernambuco, famosa pelas piscinas naturais.",
+          "variantes": []
+        },
+        {
+          "id": "provincia_da_georgia",
+          "nome": "Província da Geórgia",
+          "descricao": "Colônia britânica fundada em 1732 por James Oglethorpe, a mais meridional das Treze Colônias.",
+          "variantes": [
+            "Colônia da Geórgia",
+            "Province of Georgia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "London Eye",
+        "descricao": "Roda-gigante panorâmica de 135 metros, às margens do Tâmisa, em Londres.",
+        "variantes": [
+          "Millennium Wheel",
+          "Roda do Milênio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "london_eye",
+          "nome": "London Eye",
+          "descricao": "Roda-gigante de observação à margem sul do rio Tâmisa, em Londres, inaugurada na virada do milênio.",
+          "variantes": [
+            "Millennium Wheel",
+            "Roda do Milênio"
+          ]
+        },
+        {
+          "id": "nyepi",
+          "nome": "Nyepi",
+          "descricao": "Ano-novo hindu balinês, dia de silêncio, jejum e meditação na ilha de Bali, na Indonésia.",
+          "variantes": [
+            "Dia do Silêncio"
+          ]
+        },
+        {
+          "id": "the_o2_arena",
+          "nome": "The O2 Arena",
+          "descricao": "Arena coberta na Península de Greenwich, em Londres, instalada no antigo Millennium Dome.",
+          "variantes": [
+            "The O2",
+            "O2 Arena",
+            "Millennium Dome"
+          ]
+        },
+        {
+          "id": "bug_do_milenio",
+          "nome": "Bug do milênio",
+          "descricao": "Problema de software temido na virada de 1999 para 2000, ligado ao modo como os sistemas registravam o ano.",
+          "variantes": [
+            "Problema do ano 2000",
+            "Y2K"
+          ]
+        },
+        {
+          "id": "londres",
+          "nome": "Londres",
+          "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+          "variantes": [
+            "London"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "forum_romano",
+      "motivo": "Mesma praça em Roma entre Palatino e Capitólio."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "palacio_ducal_de_veneza",
+      "motivo": "Mesmo palácio gótico, sede do doge."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "burj_al_arab",
+      "motivo": "Mesmo hotel em ilha artificial em Dubai."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "marina_bay_sands",
+      "motivo": "Mesmo complexo em Singapura com três torres."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "casa_mila",
+      "motivo": "Mesmo edifício La Pedrera em Barcelona."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pórtico da Catedral de Santiago de Compostela."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "london_eye",
+      "motivo": "Mesma roda-gigante às margens do Tâmisa."
+    }
+  ]
+}
