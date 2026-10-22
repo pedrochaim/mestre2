@@ -268016,5 +268016,170 @@
       "licenca": "CC BY 2.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q14386",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_vicente_calderon",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que clube espanhol mandou seus jogos neste estádio até 2017?",
+    "resposta": "Atlético de Madrid",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vicente_Calder%C3%B3n_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Vicente_Calder%C3%B3n"
+    ],
+    "imagem": {
+      "arquivo": "q14386.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aprobado_el_nuevo_ámbito_Mahou-Calderón_(01).jpg",
+      "autor": "Diario de Madrid",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q14387",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "bc_place",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade canadense fica este estádio?",
+    "resposta": "Vancouver",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/BC_Place",
+      "https://pt.wikipedia.org/wiki/BC_Place"
+    ],
+    "imagem": {
+      "arquivo": "q14387.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:BC_Place_(Vancouver).jpg",
+      "autor": "Quintin Soloviev",
+      "licenca": "CC BY 4.0"
+    }
+  },
+  {
+    "id": "q14388",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "volgograd_arena",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio russo é este, sede de jogos da Copa do Mundo de 2018?",
+    "resposta": "Volgograd Arena",
+    "distratores": [
+      "Kazan Arena",
+      "Arena Samara",
+      "Arena Rostov"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volgograd_Arena",
+      "https://pt.wikipedia.org/wiki/Arena_Volgogrado"
+    ],
+    "imagem": {
+      "arquivo": "q14388.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Volgograd_arena_aerial_view_1.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q14389",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "estadio_narendra_modi",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este enorme estádio de críquete?",
+    "resposta": "Índia",
+    "distratores": [
+      "Paquistão",
+      "Austrália",
+      "Inglaterra"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Narendra_Modi_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Narendra_Modi"
+    ],
+    "imagem": {
+      "arquivo": "q14389.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Narendra_Modi_Stadium_view_from_the_gallery.jpg",
+      "autor": "A Cricket Premi",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14390",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "palau_sant_jordi",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este ginásio, sede de uma Olimpíada de Verão?",
+    "resposta": "Barcelona",
+    "distratores": [
+      "Seul",
+      "Atlanta",
+      "Sydney"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Palau_Sant_Jordi",
+      "https://pt.wikipedia.org/wiki/Palau_Sant_Jordi"
+    ],
+    "imagem": {
+      "arquivo": "q14390.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Palau_Sant_Jordi_Barcelona_Catalonia.jpg",
+      "autor": "Hosiawak",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14391",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "el_cilindro_estadio_presidente_peron",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube argentino manda seus jogos neste estádio, em Avellaneda?",
+    "resposta": "Racing Club",
+    "distratores": [
+      "Belgrano",
+      "Rosario Central",
+      "Independiente"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Cilindro",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Presidente_Per%C3%B3n"
+    ],
+    "imagem": {
+      "arquivo": "q14391.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estadio_Presidente_Peron.jpg",
+      "autor": "Sentencia Gráfica Estudio",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q14392",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_olimpico_de_helsinque",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que cidade nórdica abriga este estádio olímpico?",
+    "resposta": "Helsinque",
+    "distratores": [
+      "Estocolmo",
+      "Oslo",
+      "Copenhague"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Helsinki_Olympic_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Helsinque"
+    ],
+    "imagem": {
+      "arquivo": "q14392.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Olympiastadion_2_2020-08-12.jpg",
+      "autor": "Joneikifi",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

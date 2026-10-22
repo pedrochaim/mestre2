@@ -1,0 +1,185 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea clara, sem texto que entregue; estádio reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que clube mandou seus jogos neste estádio, em Madri, de 1966 a 2017?",
+      "resposta": "Atlético de Madrid",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Vicente Calderón",
+        "descricao": "Antigo estádio do Atlético de Madrid, às margens do rio Manzanares, em Madri.",
+        "variantes": [
+          "Vicente Calderón Stadium",
+          "Estadio Vicente Calderón"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Teto característico, sem texto que entregue; foto clara.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade canadense fica este estádio?",
+      "resposta": "Vancouver",
+      "destino": 1,
+      "ancora": {
+        "nome": "BC Place",
+        "descricao": "Estádio multiuso com teto retrátil em Vancouver, na Colúmbia Britânica, Canadá.",
+        "variantes": [
+          "BC Place Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arena de teto e fachada inconfundíveis, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio russo é este, sede de jogos da Copa do Mundo de 2018?",
+      "resposta": "Volgograd Arena",
+      "distratores": [
+        "Kazan Arena",
+        "Arena Samara",
+        "Arena Rostov"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Volgograd Arena",
+        "descricao": "Estádio de futebol em Volgogrado, Rússia, sede da Copa do Mundo de 2018.",
+        "variantes": [
+          "Arena Volgogrado",
+          "Estádio de Volgogrado"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Interior genérico com várias pessoas em primeiro plano e camisa com o nome Bolsonaro visível; estádio pouco reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Interior enorme com campo de críquete visível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este enorme estádio de críquete?",
+      "resposta": "Índia",
+      "distratores": [
+        "Paquistão",
+        "Austrália",
+        "Inglaterra"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Estádio Narendra Modi",
+        "descricao": "Estádio de críquete em Motera, Ahmedabad, Índia, o maior do mundo em capacidade.",
+        "variantes": [
+          "Narendra Modi Stadium",
+          "Motera Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto de carros em curva, não se reconhece o autódromo pela imagem; há patrocinadores e o local não é único."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Placas 'TD GARDEN' e 'Boston Bruins' visíveis entregam a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cúpula característica no Anel Olímpico; texto da fachada ilegível no celular.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este ginásio, sede de uma Olimpíada de Verão?",
+      "resposta": "Barcelona",
+      "distratores": [
+        "Seul",
+        "Atlanta",
+        "Sydney"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Palau Sant Jordi",
+        "descricao": "Ginásio coberto do Anel Olímpico de Montjuïc, em Barcelona, projetado por Arata Isozaki.",
+        "variantes": [
+          "Palácio de São Jorge"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Torre de iluminação e arquibancadas azul e branca reconhecíveis; sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que clube argentino manda seus jogos neste estádio, em Avellaneda?",
+      "resposta": "Racing Club",
+      "distratores": [
+        "Belgrano",
+        "Rosario Central",
+        "Independiente"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "El Cilindro (Estádio Presidente Perón)",
+        "descricao": "Estádio do Racing Club, em Avellaneda, na Argentina.",
+        "variantes": [
+          "Estadio Presidente Perón",
+          "El Cilindro de Avellaneda"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "As letras EFC nas arquibancadas e o escudo do Everton entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Interior durante cerimônia, com multidão em primeiro plano; estádio não reconhecível."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea com a torre e a forma em ferradura, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade nórdica abriga este estádio olímpico?",
+      "resposta": "Helsinque",
+      "distratores": [
+        "Estocolmo",
+        "Oslo",
+        "Copenhague"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Olímpico de Helsinque",
+        "descricao": "Estádio com torre, na Finlândia, palco central dos Jogos Olímpicos de 1952.",
+        "variantes": [
+          "Helsinki Olympic Stadium",
+          "Helsingin Olympiastadion"
+        ]
+      }
+    }
+  ]
+}
