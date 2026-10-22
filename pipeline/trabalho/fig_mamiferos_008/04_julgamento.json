@@ -1,0 +1,719 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Porco",
+        "descricao": "Mamífero doméstico da família Suidae (Sus domesticus), criado principalmente pela carne.",
+        "variantes": [
+          "Porco doméstico",
+          "Suíno",
+          "Sus domesticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pombo",
+          "nome": "Pombo",
+          "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+          "variantes": [
+            "Pombo-comum",
+            "Pombo-doméstico",
+            "Columba livia",
+            "Rock dove"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "pardal",
+          "nome": "Pardal",
+          "descricao": "Pequena ave (Passer domesticus), macho com garganta preta, comum em áreas urbanas do mundo.",
+          "variantes": [
+            "Pardal-comum",
+            "Passer domesticus"
+          ]
+        },
+        {
+          "id": "peru",
+          "nome": "Peru",
+          "descricao": "Ave galiforme domesticada (Meleagris gallopavo), nativa da América do Norte, tradicional nas ceias de fim de ano.",
+          "variantes": [
+            "Peru-doméstico",
+            "Meleagris gallopavo"
+          ]
+        },
+        {
+          "id": "porquinho_da_india",
+          "nome": "Porquinho-da-índia",
+          "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+          "variantes": [
+            "Cobaia",
+            "Cavia porcellus",
+            "Preá doméstico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Elefante-marinho-do-sul",
+        "descricao": "Maior foca e maior mamífero marinho não cetáceo (Mirounga leonina), das regiões subantárticas.",
+        "variantes": [
+          "Elefante-marinho",
+          "Mirounga leonina",
+          "Southern elephant seal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elefante_marinho",
+          "nome": "Elefante-marinho",
+          "descricao": "Maior foca verdadeira, do gênero Mirounga, cujos machos têm uma grande tromba.",
+          "variantes": [
+            "Elefante-marinho-do-norte",
+            "Mirounga"
+          ]
+        },
+        {
+          "id": "elefante_africano",
+          "nome": "Elefante-africano",
+          "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+          "variantes": [
+            "Loxodonta",
+            "African elephant"
+          ]
+        },
+        {
+          "id": "leao_marinho",
+          "nome": "Leão-marinho",
+          "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+          "variantes": [
+            "Leão-marinho-da-Califórnia",
+            "Otariidae"
+          ]
+        },
+        {
+          "id": "elefante_branco",
+          "nome": "Elefante branco",
+          "descricao": "Expressão para um bem caro de manter e de pouca utilidade",
+          "variantes": [
+            "White elephant"
+          ]
+        },
+        {
+          "id": "elefante_asiatico",
+          "nome": "Elefante-asiático",
+          "descricao": "Elefante da espécie Elephas maximus, nativo do sul e sudeste da Ásia.",
+          "variantes": [
+            "Elefante-indiano",
+            "Elephas maximus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Camundongo",
+        "descricao": "Pequeno roedor da família Muridae (Mus musculus), comum perto de habitações e em laboratórios.",
+        "variantes": [
+          "Mus musculus",
+          "Rato-doméstico",
+          "House mouse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gato",
+          "nome": "Gato",
+          "descricao": "Pequeno mamífero carnívoro doméstico (Felis catus).",
+          "variantes": [
+            "Gato-doméstico",
+            "Felis catus"
+          ]
+        },
+        {
+          "id": "furao",
+          "nome": "Furão",
+          "descricao": "Mustelídeo doméstico da espécie Mustela furo, derivado do furão-europeu selvagem.",
+          "variantes": [
+            "Mustela furo",
+            "Furão doméstico"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "porquinho_da_india",
+          "nome": "Porquinho-da-índia",
+          "descricao": "Roedor doméstico da espécie Cavia porcellus, criado como animal de estimação e de laboratório.",
+          "variantes": [
+            "Cobaia",
+            "Cavia porcellus",
+            "Preá doméstico"
+          ]
+        },
+        {
+          "id": "ganso",
+          "nome": "Ganso",
+          "descricao": "Ave doméstica branca de pescoço longo, do gênero Anser, criada por carne, ovos e penas.",
+          "variantes": [
+            "Ganso-doméstico",
+            "Anser anser domesticus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paca",
+        "descricao": "Roedor noturno das florestas da América tropical (Cuniculus paca), de pelagem escura com fileiras de manchas brancas.",
+        "variantes": [
+          "Cuniculus paca",
+          "Lowland paca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pakal",
+          "nome": "Pakal",
+          "descricao": "Rei maia de Palenque no século sete, sepultado no Templo das Inscrições.",
+          "variantes": [
+            "Pakal, o Grande",
+            "K'inich Janaab' Pakal",
+            "Pacal"
+          ]
+        },
+        {
+          "id": "pac_man",
+          "nome": "Pac-Man",
+          "descricao": "Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto.",
+          "variantes": [
+            "Puck-Man",
+            "Pacman"
+          ]
+        },
+        {
+          "id": "pascoa",
+          "nome": "Páscoa",
+          "descricao": "Principal festa cristã, que celebra a ressurreição de Jesus",
+          "variantes": [
+            "Domingo de Páscoa"
+          ]
+        },
+        {
+          "id": "blaise_pascal",
+          "nome": "Blaise Pascal",
+          "descricao": "Filósofo, matemático e físico francês (1623–1662), autor dos Pensamentos.",
+          "variantes": [
+            "Pascal"
+          ]
+        },
+        {
+          "id": "moiras",
+          "nome": "Moiras",
+          "descricao": "Três deusas gregas do destino que fiavam, mediam e cortavam o fio da vida de cada mortal.",
+          "variantes": [
+            "Moirai",
+            "Parcas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gato-de-pallas",
+        "descricao": "Pequeno felino selvagem da Ásia Central (Otocolobus manul), de pelo longo e denso e orelhas arredondadas.",
+        "variantes": [
+          "Manul",
+          "Otocolobus manul",
+          "Pallas's cat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "emanuel_rego",
+          "nome": "Emanuel Rego",
+          "descricao": "Ex-jogador brasileiro de vôlei de praia, campeão olímpico com Ricardo em Atenas 2004.",
+          "variantes": [
+            "Emanuel",
+            "Emanuel Fernando Scheffler Rego"
+          ]
+        },
+        {
+          "id": "alola",
+          "nome": "Alola",
+          "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+          "variantes": [
+            "Região de Alola"
+          ]
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        },
+        {
+          "id": "paldea",
+          "nome": "Paldea",
+          "descricao": "Região fictícia dos jogos Pokémon Scarlet e Violet, da nona geração.",
+          "variantes": [
+            "Região de Paldea"
+          ]
+        },
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Alpaca",
+        "descricao": "Camelídeo doméstico sul-americano (Vicugna pacos), criado pela fibra de lã.",
+        "variantes": [
+          "Vicugna pacos",
+          "Lama pacos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malaca",
+          "nome": "Malaca",
+          "descricao": "Cidade portuária no estreito de Malaca, conquistada pelos portugueses de Afonso de Albuquerque em 1511.",
+          "variantes": [
+            "Malacca",
+            "Melaka"
+          ]
+        },
+        {
+          "id": "goma_laca",
+          "nome": "Goma-laca",
+          "descricao": "Resina secretada pela cochonilha-da-laca, usada como verniz e na fabricação de antigos discos de gramofone.",
+          "variantes": [
+            "Shellac",
+            "Laca"
+          ]
+        },
+        {
+          "id": "pakal",
+          "nome": "Pakal",
+          "descricao": "Rei maia de Palenque no século sete, sepultado no Templo das Inscrições.",
+          "variantes": [
+            "Pakal, o Grande",
+            "K'inich Janaab' Pakal",
+            "Pacal"
+          ]
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "balaclava",
+          "nome": "Balaclava",
+          "descricao": "Gorro de lã que cobre a cabeça e o pescoço, deixando só o rosto ou os olhos de fora",
+          "variantes": [
+            "Balaclava (gorro)",
+            "Touca ninja"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Gato-de-areia",
+        "descricao": "Pequeno felino selvagem (Felis margarita) dos desertos arenosos e pedregosos da África e da Ásia.",
+        "variantes": [
+          "Gato-do-deserto",
+          "Felis margarita",
+          "Sand cat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gafanhoto_do_deserto",
+          "nome": "Gafanhoto-do-deserto",
+          "descricao": "Gafanhoto africano e asiático (Schistocerca gregaria) que forma nuvens migratórias devastadoras.",
+          "variantes": [
+            "Schistocerca gregaria",
+            "desert locust"
+          ]
+        },
+        {
+          "id": "gaara",
+          "nome": "Gaara",
+          "descricao": "Ninja de Sunagakure de cabelo vermelho, jinchuuriki do Shukaku e depois Kazekage, no mangá e anime Naruto.",
+          "variantes": [
+            "Gaara do Deserto",
+            "Gaara of the Sand"
+          ]
+        },
+        {
+          "id": "feneco",
+          "nome": "Feneco",
+          "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+          "variantes": [
+            "Raposa-do-deserto",
+            "Vulpes zerda",
+            "Fennec"
+          ]
+        },
+        {
+          "id": "rosa_do_deserto",
+          "nome": "Rosa do deserto",
+          "descricao": "Formação de cristais de gipsita ou barita em forma de rosa, com grãos de areia.",
+          "variantes": [
+            "Rosa das areias",
+            "Desert rose",
+            "Rosa do Saara"
+          ]
+        },
+        {
+          "id": "duna",
+          "nome": "Duna",
+          "descricao": "Elevação de areia acumulada e moldada pelo vento ou pela água, comum em desertos.",
+          "variantes": [
+            "Dunas",
+            "Duna de areia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cervo-vermelho",
+        "descricao": "Grande cervídeo (Cervus elaphus) da Europa e do oeste da Ásia; o macho tem galhada ramificada.",
+        "variantes": [
+          "Veado-vermelho",
+          "Cervus elaphus",
+          "Red deer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cogumelo_gaiola",
+          "nome": "Cogumelo-gaiola",
+          "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+          "variantes": [
+            "Clathrus ruber",
+            "Cesto-vermelho"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Raposa-do-ártico",
+        "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+        "variantes": [
+          "Raposa-polar",
+          "Vulpes lagopus",
+          "Arctic fox"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "feneco",
+          "nome": "Feneco",
+          "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+          "variantes": [
+            "Raposa-do-deserto",
+            "Vulpes zerda",
+            "Fennec"
+          ]
+        },
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Lóris-lento",
+        "descricao": "Primata estrepsirrino noturno do sudeste asiático (gênero Nycticebus), de olhos grandes e movimentos lentos.",
+        "variantes": [
+          "Nycticebus coucang",
+          "Sunda slow loris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "loris_arco_iris",
+          "nome": "Lóris-arco-íris",
+          "descricao": "Papagaio australiano (Trichoglossus moluccanus) de cabeça azul, peito laranja e dorso verde.",
+          "variantes": [
+            "Lóris-molucano",
+            "Trichoglossus moluccanus",
+            "Rainbow lorikeet"
+          ]
+        },
+        {
+          "id": "os_elementos",
+          "nome": "Os Elementos",
+          "descricao": "Tratado de matemática em treze livros escrito em Alexandria por volta de 300 a.C.",
+          "variantes": [
+            "Elementos de Euclides",
+            "Euclid's Elements"
+          ]
+        },
+        {
+          "id": "elis_tom",
+          "nome": "Elis & Tom",
+          "descricao": "Álbum de 1974 gravado por Elis Regina e Tom Jobim, que inclui Águas de Março.",
+          "variantes": [
+            "Elis e Tom"
+          ]
+        },
+        {
+          "id": "tesselacao",
+          "nome": "Tesselação",
+          "descricao": "Recobrimento de uma superfície com formas geométricas sem sobreposições nem espaços.",
+          "variantes": [
+            "Ladrilhamento",
+            "Pavimentação do plano",
+            "Tessellation"
+          ]
+        },
+        {
+          "id": "carlos_alberto_torres",
+          "nome": "Carlos Alberto Torres",
+          "descricao": "Lateral-direito brasileiro, capitão da seleção tricampeã mundial em 1970.",
+          "variantes": [
+            "Carlos Alberto",
+            "Capita",
+            "Capitão do Tri"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Javali-africano",
+        "descricao": "Suíno selvagem da savana da África subsaariana (Phacochoerus africanus), de presas salientes e verrugas no rosto.",
+        "variantes": [
+          "Facócero",
+          "Phacochoerus africanus",
+          "Common warthog"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eva_mitocondrial",
+          "nome": "Eva mitocondrial",
+          "descricao": "Ancestral comum mais recente, pela linhagem materna, de todos os seres humanos vivos, identificada pelo DNA mitocondrial.",
+          "variantes": [
+            "Mitochondrial Eve",
+            "Eva africana"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "aligator",
+          "nome": "Aligátor",
+          "descricao": "Gênero de crocodilianos (Alligator) que inclui o aligátor-americano e o aligátor-chinês.",
+          "variantes": [
+            "Alligator",
+            "Jacaré-americano",
+            "Aligátor-americano"
+          ]
+        },
+        {
+          "id": "aligator_americano",
+          "nome": "Aligátor-americano",
+          "descricao": "Grande crocodiliano (Alligator mississippiensis) dos pântanos do sudeste dos Estados Unidos.",
+          "variantes": [
+            "Alligator mississippiensis",
+            "Jacaré-americano",
+            "American alligator"
+          ]
+        },
+        {
+          "id": "sambaqui",
+          "nome": "Sambaqui",
+          "descricao": "Monte artificial pré-histórico de conchas e restos, comum no litoral brasileiro.",
+          "variantes": [
+            "Sambaquis",
+            "Concheiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Porco doméstico não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A proposta é uma espécie (Mirounga leonina); a candidata é o gênero Mirounga, que inclui também a espécie do norte. Na dúvida, nova."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Camundongo (Mus musculus) não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A paca é um roedor. As candidatas têm só nomes parecidos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O gato-de-pallas é um felino selvagem e não é nenhuma das candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A alpaca é um camelídeo e não é nenhuma das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O gato-de-areia (Felis margarita) não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O cervo-vermelho não está entre as candidatas, que só têm 'vermelho' no nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A raposa-do-ártico (Vulpes lagopus) é uma espécie diferente da raposa-vermelha e do feneco."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O lóris-lento é um primata. O lóris-arco-íris é um papagaio."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "O facócero não está entre as candidatas."
+    }
+  ]
+}

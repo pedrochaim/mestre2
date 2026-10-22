@@ -1,0 +1,242 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Porca com leitão, foto clara e inequívoca.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Alguns especialistas consideram este animal doméstico uma subespécie de qual animal selvagem?",
+      "resposta": "Javali",
+      "destino": 0,
+      "ancora": {
+        "nome": "Porco",
+        "descricao": "Mamífero doméstico da família Suidae (Sus domesticus), criado principalmente pela carne.",
+        "variantes": [
+          "Porco doméstico",
+          "Suíno",
+          "Sus domesticus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Macho rugindo, inconfundível como elefante-marinho; pinguins-rei indicam o hemisfério sul, mas a pergunta pede o gênero popular para evitar ambiguidade com o do norte.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mamífero marinho é este, fotografado numa praia junto a pinguins?",
+      "resposta": "Elefante-marinho",
+      "distratores": [
+        "Morsa",
+        "Leão-marinho",
+        "Foca-leopardo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elefante-marinho-do-sul",
+        "descricao": "Maior foca e maior mamífero marinho não cetáceo (Mirounga leonina), das regiões subantárticas.",
+        "variantes": [
+          "Elefante-marinho",
+          "Mirounga leonina",
+          "Southern elephant seal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Os chifres finos e curvados para fora lembram mais o íbex-ibérico que o íbex-dos-alpes; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Camundongo nítido, legível e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pequeno roedor é este?",
+      "resposta": "Camundongo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Camundongo",
+        "descricao": "Pequeno roedor da família Muridae (Mus musculus), comum perto de habitações e em laboratórios.",
+        "variantes": [
+          "Mus musculus",
+          "Rato-doméstico",
+          "House mouse"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Paca com manchas brancas laterais visíveis, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que roedor das florestas americanas, de pelo escuro com manchas claras, é este?",
+      "resposta": "Paca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paca",
+        "descricao": "Roedor noturno das florestas da América tropical (Cuniculus paca), de pelagem escura com fileiras de manchas brancas.",
+        "variantes": [
+          "Cuniculus paca",
+          "Lowland paca"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, felino de rosto achatado e pelagem densa, inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este felino selvagem asiático tem outro nome popular, mais curto. Qual é?",
+      "resposta": "Manul",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gato-de-pallas",
+        "descricao": "Pequeno felino selvagem da Ásia Central (Otocolobus manul), de pelo longo e denso e orelhas arredondadas.",
+        "variantes": [
+          "Manul",
+          "Otocolobus manul",
+          "Pallas's cat"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rebanho de alpacas nas montanhas, claro; onde-pergunta sem entregar o animal.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cordilheira sul-americana este animal é tradicionalmente criado em rebanhos?",
+      "resposta": "Andes",
+      "destino": 0,
+      "ancora": {
+        "nome": "Alpaca",
+        "descricao": "Camelídeo doméstico sul-americano (Vicugna pacos), criado pela fibra de lã.",
+        "variantes": [
+          "Vicugna pacos",
+          "Lama pacos"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gato-de-areia nítido, com listras nas patas dianteiras e orelhas grandes e baixas.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que tipo de ambiente vive este pequeno felino selvagem?",
+      "resposta": "Deserto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gato-de-areia",
+        "descricao": "Pequeno felino selvagem (Felis margarita) dos desertos arenosos e pedregosos da África e da Ásia.",
+        "variantes": [
+          "Gato-do-deserto",
+          "Felis margarita",
+          "Sand cat"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Macho adulto de galhada grande em floresta, bem visível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cervídeo europeu é este?",
+      "resposta": "Cervo-vermelho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cervo-vermelho",
+        "descricao": "Grande cervídeo (Cervus elaphus) da Europa e do oeste da Ásia; o macho tem galhada ramificada.",
+        "variantes": [
+          "Veado-vermelho",
+          "Cervus elaphus",
+          "Red deer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Raposa-do-ártico em pelagem de verão; coleira e brinco numerado não entregam a resposta.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que região do planeta vive naturalmente esta raposa?",
+      "resposta": "Ártico",
+      "destino": 0,
+      "ancora": {
+        "nome": "Raposa-do-ártico",
+        "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+        "variantes": [
+          "Raposa-polar",
+          "Vulpes lagopus",
+          "Arctic fox"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Lóris de olhos grandes bem nítido; pergunta no nível de gênero, sem exigir a espécie exata.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que primata noturno, de olhos enormes e movimentos lentos, é este?",
+      "resposta": "Lóris-lento",
+      "distratores": [
+        "Társio",
+        "Gálago",
+        "Aye-aye"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lóris-lento",
+        "descricao": "Primata estrepsirrino noturno do sudeste asiático (gênero Nycticebus), de olhos grandes e movimentos lentos.",
+        "variantes": [
+          "Nycticebus coucang",
+          "Sunda slow loris",
+          "Loris-lento"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Facócero de perfil com presas visíveis, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que suíno selvagem africano, de presas salientes, é este?",
+      "resposta": "Facócero",
+      "distratores": [
+        "Javali europeu",
+        "Babirussa",
+        "Pecari-de-colar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Javali-africano",
+        "descricao": "Suíno selvagem da savana da África subsaariana (Phacochoerus africanus), de presas salientes e verrugas no rosto.",
+        "variantes": [
+          "Facócero",
+          "Phacochoerus africanus",
+          "Common warthog"
+        ]
+      }
+    }
+  ]
+}

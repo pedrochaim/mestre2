@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que alguns especialistas tratam o porco como subespécie do javali. O enunciado não nomeia o animal e, sem a figura, 'animal doméstico' serviria também para cão ou gato. A figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Numa praia junto a pinguins' não está confirmado em `mostra` e pode ser falso para esta foto. A resposta também deve ser a espécie exata, já que existe o elefante-marinho-do-norte.",
+      "reescrita": {
+        "pergunta": "Que grande mamífero marinho das regiões subantárticas é este?",
+        "resposta": "Elefante-marinho-do-sul",
+        "distratores": [
+          "Morsa",
+          "Leão-marinho",
+          "Foca-leopardo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1, sem vazamento. A resposta é a forma brasileira, 'camundongo', e está nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pelo escuro com manchas claras' é quase a definição da paca e responde sem olhar a figura. Basta manter o grupo e a região.",
+      "reescrita": {
+        "pergunta": "Que roedor das florestas americanas é este?",
+        "resposta": "Paca"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos confirmam 'manul' como outro nome do gato-de-pallas. O enunciado não entrega o nome e depende de reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que as alpacas eram tradicionalmente criadas em rebanhos nos Andes. O enunciado exige reconhecer o animal, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o gato-de-areia vive em desertos arenosos e pedregosos. O enunciado não nomeia o animal nem a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento de nível 1 sobre o cervo-vermelho, que ocorre na Europa. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a raposa-do-ártico é nativa das regiões árticas. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Movimentos lentos' contém palavra derivada da resposta ('lento') e, com 'olhos enormes', descreve o animal. Basta manter o hábito noturno e a região.",
+      "reescrita": {
+        "pergunta": "Que primata noturno do sudeste asiático é este?",
+        "resposta": "Lóris-lento",
+        "distratores": [
+          "Társio",
+          "Gálago",
+          "Aye-aye"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o facócero é um suíno selvagem africano de presas salientes, chamado popularmente de javali-africano. Os distratores são do mesmo tipo, curtos e nenhum está correto.",
+      "reescrita": null
+    }
+  ]
+}
