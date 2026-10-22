@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto borrada de corredores numa pista; não dá para garantir que seja os 100 metros (poderia ser 200 m ou revezamento), então a resposta não é única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Esquis de fundo com bastões e botas, claros na neve; marcas pequenas não entregam a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade de esqui usa este equipamento, com esquis finos, bastões e botas flexíveis?",
+      "resposta": "Esqui cross-country",
+      "distratores": [
+        "Esqui alpino",
+        "Salto de esqui",
+        "Snowboard cross"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esqui cross-country",
+        "descricao": "Equipamento de esqui de fundo (esquis, bastões e botas) usado para deslizar em percursos planos na neve.",
+        "variantes": [
+          "Esqui de fundo",
+          "Esqui nórdico",
+          "Esqui cross country"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Uma jovem comum aparece em primeiro plano, com o rosto em destaque, e a imagem é um retrato de banco de imagens."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bolas de boliche numa canaleta, bem visíveis; o texto na imagem não nomeia o esporte.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte usa estas bolas?",
+      "resposta": "Boliche",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bola de boliche",
+        "descricao": "Bola dura e esférica, com furos para os dedos, usada para derrubar pinos no boliche.",
+        "variantes": [
+          "Bola de bowling",
+          "Bola de boliche de dez pinos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Sapatilha de atletismo com cravos na sola bem visível; o logotipo da marca não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que calçado esportivo é este?",
+      "resposta": "Sapatilha de atletismo",
+      "distratores": [
+        "Chuteira de futebol",
+        "Sapatilha de ciclismo",
+        "Tênis de basquete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sapatilha de atletismo",
+        "descricao": "Calçado leve com cravos metálicos na sola, usado por atletas em provas de pista.",
+        "variantes": [
+          "Sapatilha de corrida com pregos",
+          "Track spikes",
+          "Tênis de atletismo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cavaleiro saltando um obstáculo fixo de madeira em meio à natureza, típico do cross-country do concurso completo; sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade do hipismo é esta, com obstáculos fixos de madeira num percurso ao ar livre?",
+      "resposta": "Concurso completo de equitação",
+      "distratores": [
+        "Adestramento",
+        "Salto (hipismo)",
+        "Enduro equestre"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Concurso completo de equitação",
+        "descricao": "Modalidade equestre olímpica que combina adestramento, cross-country e saltos com o mesmo cavalo e cavaleiro.",
+        "variantes": [
+          "Concurso completo",
+          "Eventing",
+          "CCE"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Partida de tênis de mesa em competição com mesa, raquetes e jogadores bem visíveis; os patrocinadores não entregam o esporte.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte de raquete é este?",
+      "resposta": "Tênis de mesa",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tênis de mesa",
+        "descricao": "Esporte de raquete jogado sobre uma mesa com rede, com bola leve e oca.",
+        "variantes": [
+          "Ping-pong",
+          "Pingue-pongue"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Taco de críquete de madeira, de lâmina plana e cabo envolto, isolado sobre fundo branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte usa este taco de lâmina plana?",
+      "resposta": "Críquete",
+      "destino": 1,
+      "ancora": {
+        "nome": "Taco de críquete",
+        "descricao": "Taco de madeira de lâmina plana e cabo envolto, usado pelo batedor no críquete.",
+        "variantes": [
+          "Bastão de críquete",
+          "Cricket bat"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pictograma abstrato de um lutador com bastões; não identifica com segurança o arnis e pode ser confundido com outras modalidades de bastão (kendo, eskrima, salto com vara)."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cronômetro analógico de mostrador claro; a marca no mostrador não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento usado para medir tempo em provas esportivas é este?",
+      "resposta": "Cronômetro",
+      "destino": 1,
+      "ancora": {
+        "nome": "Cronômetro",
+        "descricao": "Relógio que mede o tempo decorrido entre o acionamento e a parada, usado em competições esportivas.",
+        "variantes": [
+          "Cronômetro analógico"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois saltadores de um penhasco sobre um fiorde, imagem clara, sem texto; atletas em ação, sem rosto de pessoa comum em destaque.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que esporte radical é este, em que se salta de um penhasco e se abre o paraquedas perto do chão?",
+      "resposta": "BASE jump",
+      "distratores": [
+        "Paraquedismo",
+        "Parapente",
+        "Bungee jump"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "BASE jump",
+        "descricao": "Esporte radical de saltar de estruturas fixas, como penhascos, usando um paraquedas para descer.",
+        "variantes": [
+          "Base jumping",
+          "Salto BASE"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto antiga de baixa resolução de um homem com raquete de cabeça redonda; não permite reconhecer rackets com segurança (poderia ser tênis antigo, pelota ou outro esporte) e é pouco legível no celular."
+    }
+  ]
+}

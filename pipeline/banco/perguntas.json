@@ -268930,5 +268930,182 @@
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q14425",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "esqui_cross_country",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Em que modalidade dos esportes de inverno se usa este equipamento?",
+    "resposta": "Esqui cross-country",
+    "distratores": [
+      "Esqui alpino",
+      "Salto de esqui",
+      "Snowboard cross"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ski",
+      "https://pt.wikipedia.org/wiki/Esqui_%28equipamento%29"
+    ],
+    "imagem": {
+      "arquivo": "q14425.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cross-country_equipment--Skate_and_Classic.jpg",
+      "autor": "HopsonRoad",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14426",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "bola_de_boliche",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte usa estas bolas?",
+    "resposta": "Boliche",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bowling_ball"
+    ],
+    "imagem": {
+      "arquivo": "q14426.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bowlingball.JPG",
+      "autor": "en:User:Scl chua",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14427",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "sapatilha_de_atletismo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que calçado esportivo é este?",
+    "resposta": "Sapatilha de atletismo",
+    "distratores": [
+      "Chuteira de futebol",
+      "Sapatilha de ciclismo",
+      "Tênis de basquete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Track_spikes"
+    ],
+    "imagem": {
+      "arquivo": "q14427.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nieuwespikes2.jpg",
+      "autor": "Stijn (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14428",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "concurso_completo_de_equitacao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que modalidade do hipismo é esta, com obstáculos fixos num percurso ao ar livre?",
+    "resposta": "Concurso completo de equitação",
+    "distratores": [
+      "Adestramento",
+      "Salto",
+      "Enduro equestre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eventing",
+      "https://pt.wikipedia.org/wiki/Concurso_completo_de_equita%C3%A7%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14428.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Blenheim_Horse_Trials_2.jpg",
+      "autor": "Thowra_uk",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14429",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "tenis_de_mesa",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte de raquete é este?",
+    "resposta": "Tênis de mesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Table_tennis",
+      "https://pt.wikipedia.org/wiki/T%C3%AAnis_de_mesa"
+    ],
+    "imagem": {
+      "arquivo": "q14429.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mondial_Ping_-_Men's_Singles_-_Round_4_-_Kenta_Matsudaira-Vladimir_Samsonov_-_57.jpg",
+      "autor": "Pierre-Yves Beaudouin",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14430",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "taco_de_criquete",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte usa este taco de lâmina plana?",
+    "resposta": "Críquete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cricket_bat"
+    ],
+    "imagem": {
+      "arquivo": "q14430.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cricket_bat_01.jpg",
+      "autor": "Lionel Allorge",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14431",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "cronometro",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de competições esportivas é este?",
+    "resposta": "Cronômetro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stopwatch",
+      "https://pt.wikipedia.org/wiki/Cron%C3%B4metro_%28medidor_de_tempo%29"
+    ],
+    "imagem": {
+      "arquivo": "q14431.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stoppuhr_hanhart.jpg",
+      "autor": "Stefan (Diskussion). Original uploader was StefanPohl at German Wikipedia",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14432",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "base_jump",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que esporte radical de salto é este?",
+    "resposta": "BASE jump",
+    "distratores": [
+      "Paraquedismo",
+      "Parapente",
+      "Bungee jump"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/BASE_jumping",
+      "https://pt.wikipedia.org/wiki/BASE_jumping"
+    ],
+    "imagem": {
+      "arquivo": "q14432.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:04KJER0243.jpg",
+      "autor": "Xof711",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

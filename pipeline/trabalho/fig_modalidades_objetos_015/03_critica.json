@@ -1,0 +1,87 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado contém 'esqui' (parte da resposta) e 'esquis finos' é pista que entrega a resposta sem olhar a figura. Reescrito sem a pista.",
+      "reescrita": {
+        "pergunta": "Em que modalidade dos esportes de inverno se usa este equipamento?",
+        "resposta": "Esqui cross-country",
+        "distratores": [
+          "Esqui alpino",
+          "Salto de esqui",
+          "Snowboard cross"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento, resposta única e sustentada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta sem vazamento; distratores do mesmo tipo, curtos e incorretos; trecho sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Salto (hipismo)' tem parênteses, ruim para voz. Troquei por 'Salto' e mantive a pista, que distingue sem entregar.",
+      "reescrita": {
+        "pergunta": "Que modalidade do hipismo é esta, com obstáculos fixos num percurso ao ar livre?",
+        "resposta": "Concurso completo de equitação",
+        "distratores": [
+          "Adestramento",
+          "Salto",
+          "Enduro equestre"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista 'esporte de raquete' não entrega a resposta; resposta única e sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'lâmina plana' ajuda sem entregar; o trecho confirma que o taco de críquete tem lâmina de frente plana.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Instrumento usado para medir tempo' praticamente define o cronômetro, então a figura virou enfeite. Pista retirada.",
+      "reescrita": {
+        "pergunta": "Que instrumento de competições esportivas é este?",
+        "resposta": "Cronômetro"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o esporte (penhasco e paraquedas aberto perto do chão), então responde sem a figura. Também afirma 'penhasco', que pode não valer para a foto. Pista retirada.",
+      "reescrita": {
+        "pergunta": "Que esporte radical de salto é este?",
+        "resposta": "BASE jump",
+        "distratores": [
+          "Paraquedismo",
+          "Parapente",
+          "Bungee jump"
+        ]
+      }
+    }
+  ]
+}

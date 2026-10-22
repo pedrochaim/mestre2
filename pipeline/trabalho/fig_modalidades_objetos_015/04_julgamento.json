@@ -1,0 +1,507 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Esqui cross-country",
+        "descricao": "Equipamento de esqui de fundo (esquis, bastões e botas) usado para deslizar em percursos planos na neve.",
+        "variantes": [
+          "Esqui",
+          "Esqui de fundo",
+          "Esqui nórdico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "esquilo",
+          "nome": "Ésquilo",
+          "descricao": "Dramaturgo ateniense do século cinco a.C., considerado o pai da tragédia grega.",
+          "variantes": [
+            "Aeschylus",
+            "Aiskhylos",
+            "Aischylos"
+          ]
+        },
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense",
+            "Piqui"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "mcdonald_s",
+          "nome": "McDonald's",
+          "descricao": "Rede americana de lanchonetes de hambúrguer criada pelos irmãos Richard e Maurice McDonald na Califórnia, em 1940.",
+          "variantes": [
+            "McDonalds",
+            "Méqui"
+          ]
+        },
+        {
+          "id": "skate",
+          "nome": "Skate",
+          "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+          "variantes": [
+            "Skateboarding",
+            "Esqueite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bola de boliche",
+        "descricao": "Bola dura e esférica, com furos para os dedos, usada para derrubar pinos no boliche.",
+        "variantes": [
+          "Bola de bowling",
+          "Bola de boliche de dez pinos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pino_de_boliche",
+          "nome": "Pino de boliche",
+          "descricao": "Pino de madeira derrubado pela bola no boliche.",
+          "variantes": []
+        },
+        {
+          "id": "bola_de_golfe",
+          "nome": "Bola de golfe",
+          "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+          "variantes": [
+            "Golf ball"
+          ]
+        },
+        {
+          "id": "bola_de_bilhar",
+          "nome": "Bola de bilhar",
+          "descricao": "Bola maciça usada nos jogos de bilhar, antigamente feita de marfim.",
+          "variantes": [
+            "Billiard ball"
+          ]
+        },
+        {
+          "id": "pitch_lake",
+          "nome": "Pitch Lake",
+          "descricao": "Lago natural de asfalto em La Brea, na ilha de Trinidad, em Trinidad e Tobago.",
+          "variantes": [
+            "Lago de Piche",
+            "Lago de Asfalto de Trinidad"
+          ]
+        },
+        {
+          "id": "galocha",
+          "nome": "Galocha",
+          "descricao": "Bota impermeável de borracha, de cano alto, usada na chuva e no trabalho no campo.",
+          "variantes": [
+            "Bota de borracha",
+            "Wellington boot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sapatilha de atletismo",
+        "descricao": "Calçado leve com cravos metálicos na sola, usado por atletas em provas de pista.",
+        "variantes": [
+          "Sapatilha de corrida com pregos",
+          "Track spikes",
+          "Tênis de atletismo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pista_de_atletismo",
+          "nome": "Pista de atletismo",
+          "descricao": "Pista sintética de borracha, com raias numeradas, usada nas provas de corrida do atletismo.",
+          "variantes": [
+            "Pista de corrida",
+            "Pista de tartan"
+          ]
+        },
+        {
+          "id": "bronze_de_artemisio",
+          "nome": "Bronze de Artemísio",
+          "descricao": "Estátua grega em bronze de Zeus ou Poseidon, achada no mar do cabo Artemísio e hoje no Museu Arqueológico Nacional de Atenas.",
+          "variantes": [
+            "Deus do Cabo Artemísio",
+            "Zeus de Artemísio",
+            "Artemision Bronze"
+          ]
+        },
+        {
+          "id": "batalha_do_atlantico",
+          "nome": "Batalha do Atlântico",
+          "descricao": "Campanha naval de 1939 a 1945 entre os comboios aliados e os submarinos e navios alemães no Oceano Atlântico.",
+          "variantes": [
+            "Battle of the Atlantic"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "tales_de_mileto",
+          "nome": "Tales de Mileto",
+          "descricao": "Filósofo grego pré-socrático (c. 624–546 a.C.), considerado pela tradição um dos Sete Sábios da Grécia.",
+          "variantes": [
+            "Thales of Miletus",
+            "Tales",
+            "Thales"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Concurso completo de equitação",
+        "descricao": "Modalidade equestre olímpica que combina adestramento, cross-country e saltos com o mesmo cavalo e cavaleiro.",
+        "variantes": [
+          "Concurso completo",
+          "Eventing",
+          "CCE"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "voce",
+          "nome": "Você",
+          "descricao": "Pronome de tratamento usado no português, sobretudo no Brasil, para a segunda pessoa",
+          "variantes": [
+            "Vosmecê",
+            "Cê"
+          ]
+        },
+        {
+          "id": "carruagem",
+          "nome": "Carruagem",
+          "descricao": "Veículo de duas ou quatro rodas puxado por cavalos, usado para transportar passageiros.",
+          "variantes": [
+            "Coche"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "cancer",
+          "nome": "Câncer",
+          "descricao": "Grupo de doenças marcadas pelo crescimento descontrolado de células.",
+          "variantes": [
+            "Cancro",
+            "Neoplasia maligna"
+          ]
+        },
+        {
+          "id": "che_guevara",
+          "nome": "Che Guevara",
+          "descricao": "Ernesto Guevara, revolucionário argentino que foi um dos líderes da Revolução Cubana, morto na Bolívia em 1967.",
+          "variantes": [
+            "Ernesto Guevara",
+            "Che"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tênis de mesa",
+        "descricao": "Esporte de raquete jogado sobre uma mesa com rede, com bola leve e oca.",
+        "variantes": [
+          "Ping-pong",
+          "Pingue-pongue"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tenis",
+          "nome": "Tênis",
+          "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+          "variantes": [
+            "Sneakers",
+            "Tênis de lona"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "futebol_de_botao",
+          "nome": "Futebol de botão",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com botões movidos por uma palheta.",
+          "variantes": [
+            "Futebol de mesa",
+            "Futmesa"
+          ]
+        },
+        {
+          "id": "pingo",
+          "nome": "Pingo",
+          "descricao": "Colina cônica com núcleo de gelo que se forma em regiões de permafrost no Ártico e subártico.",
+          "variantes": [
+            "Pingos",
+            "Colina de gelo"
+          ]
+        },
+        {
+          "id": "estacao_espacial_tiangong",
+          "nome": "Estação Espacial Tiangong",
+          "descricao": "Estação espacial permanente da China, em órbita baixa da Terra desde 2021.",
+          "variantes": [
+            "Tiangong",
+            "Estação Espacial Chinesa",
+            "China Space Station"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Taco de críquete",
+        "descricao": "Taco de madeira de lâmina plana e cabo envolto, usado pelo batedor no críquete.",
+        "variantes": [
+          "Bastão de críquete",
+          "Cricket bat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "balao_de_ar_quente",
+          "nome": "Balão de ar quente",
+          "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+          "variantes": [
+            "Balão",
+            "Balão aerostático",
+            "Montgolfière",
+            "Hot air balloon"
+          ]
+        },
+        {
+          "id": "aro_de_basquete",
+          "nome": "Aro de basquete",
+          "descricao": "Anel de metal com rede, preso à tabela, por onde a bola deve passar para marcar pontos.",
+          "variantes": [
+            "Cesta",
+            "Rim",
+            "Hoop"
+          ]
+        },
+        {
+          "id": "kricketot",
+          "nome": "Kricketot",
+          "descricao": "Pokémon do tipo Inseto, número 401 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "acordo_de_munique",
+          "nome": "Acordo de Munique",
+          "descricao": "Acordo assinado em setembro de 1938 por Alemanha, Reino Unido, França e Itália, que cedeu à Alemanha parte do território da Tchecoslováquia.",
+          "variantes": [
+            "Pacto de Munique",
+            "Acordos de Munique"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cronômetro",
+        "descricao": "Relógio que mede o tempo decorrido entre o acionamento e a parada, usado em competições esportivas.",
+        "variantes": [
+          "Cronômetro analógico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "conglomerado",
+          "nome": "Conglomerado",
+          "descricao": "Rocha sedimentar formada por seixos arredondados cimentados numa matriz mais fina.",
+          "variantes": []
+        },
+        {
+          "id": "cronometro_maritimo",
+          "nome": "Cronômetro marítimo",
+          "descricao": "Relógio de precisão levado a bordo de navios para determinar a longitude.",
+          "variantes": [
+            "Cronômetro de marinha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "BASE jump",
+        "descricao": "Esporte radical de saltar de estruturas fixas, como penhascos, usando um paraquedas para descer.",
+        "variantes": [
+          "Base jumping",
+          "Salto BASE"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salto_de_esqui",
+          "nome": "Salto de esqui",
+          "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+          "variantes": [
+            "Ski jumping"
+          ]
+        },
+        {
+          "id": "axel",
+          "nome": "Axel",
+          "descricao": "Salto da patinação artística batizado em homenagem ao norueguês Axel Paulsen.",
+          "variantes": [
+            "Axel jump",
+            "Axel Paulsen"
+          ]
+        },
+        {
+          "id": "bungee_jump",
+          "nome": "Bungee jump",
+          "descricao": "Atividade radical em que a pessoa salta de uma grande altura presa a uma corda elástica.",
+          "variantes": [
+            "Bungee jumping",
+            "Bungy jump"
+          ]
+        },
+        {
+          "id": "salto_angel",
+          "nome": "Salto Ángel",
+          "descricao": "Queda d'água que despenca de um tepui no Parque Nacional Canaima, na Venezuela.",
+          "variantes": [
+            "Angel Falls",
+            "Kerepakupai Merú"
+          ]
+        },
+        {
+          "id": "hipismo_saltos",
+          "nome": "Hipismo (saltos)",
+          "descricao": "Modalidade equestre em que cavalo e cavaleiro vencem uma sequência de obstáculos.",
+          "variantes": [
+            "Salto",
+            "Saltos",
+            "Show jumping",
+            "Hipismo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é esqui cross-country."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bola de boliche difere do pino e de outras bolas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sapatilha de atletismo não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o concurso completo de equitação."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tênis de mesa é esporte; candidatas são calçado e outros jogos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Taco de críquete é objeto distinto do grilo e demais candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cronômetro esportivo difere do cronômetro marítimo, instrumento específico para longitude."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "BASE jump é distinto de bungee jump e salto de esqui."
+    }
+  ]
+}
