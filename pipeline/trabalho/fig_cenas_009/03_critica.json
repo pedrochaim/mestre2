@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A série foi exibida de 2014 a 2017, portanto na década de 2010. O enunciado não vaza nada e os distratores são décadas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Não dá para saber quem aparece ao fundo da cena. Nada garante que seja o senhor Miyagi, e os trechos não citam Pat Morita nem o elenco. A página da Wikipédia também não existe. O enunciado depende de um detalhe da imagem que não foi verificado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é sustentado pelos trechos: Phoebe Waller-Bridge criou a série e vive a protagonista. O enunciado, porém, afirma que a protagonista aparece na imagem, e `mostra` não garante isso. A reescrita liga a pergunta à série da cena.",
+      "reescrita": {
+        "pergunta": "Que atriz criou a série desta cena e também interpreta a protagonista?",
+        "resposta": "Phoebe Waller-Bridge",
+        "distratores": [
+          "Michaela Coel",
+          "Aisling Bea",
+          "Jodie Comer"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A direção de Emile Ardolino está nos trechos. O enunciado é curto e não vaza nada, e a pergunta aberta tem resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A novela estreou em 16 de abril de 2012. A resposta é um ano e a pergunta é multipla, como exige o MANIFESTO. Os distratores são anos próximos e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o enredo (dois homens, sertão, 1942), e quem conhece o filme responde sem ver a figura. Reescrevi sem essa pista. Também troquei o distrator Karim Aïnouz, que é corroteirista do filme e pode confundir.",
+      "reescrita": {
+        "pergunta": "Quem dirigiu o filme brasileiro desta cena?",
+        "resposta": "Marcelo Gomes",
+        "distratores": [
+          "Walter Salles",
+          "Kleber Mendonça Filho",
+          "Cláudio Assis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filme é de 1985, portanto da década de 1980. O enunciado não vaza nada e os distratores são décadas plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

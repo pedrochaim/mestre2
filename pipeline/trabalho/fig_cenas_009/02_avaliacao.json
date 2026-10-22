@@ -1,0 +1,182 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Metade da imagem é preta e a cena (duas pessoas fantasiadas) não permite reconhecer o programa."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Close de uma atriz num cenário genérico de época; nada identifica a novela e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte de divulgação subaquática, sem texto, bem característica da série.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que década foi lançada a série desta imagem?",
+      "resposta": "Década de 2010",
+      "distratores": [
+        "Década de 1990",
+        "Década de 2000",
+        "Década de 2020"
+      ],
+      "ancora": {
+        "nome": "The Leftovers",
+        "descricao": "Série dramática da HBO sobre o mundo após o desaparecimento de dois por cento da população.",
+        "variantes": [
+          "Os Deixados para Trás"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, com Daniel e o senhor Miyagi; boa para pergunta sobre o elenco.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ator interpreta o senhor mais velho que aparece ao fundo desta cena?",
+      "resposta": "Pat Morita",
+      "distratores": [
+        "Mako",
+        "James Hong",
+        "Sessue Hayakawa"
+      ],
+      "ancora": {
+        "nome": "Karatê Kid: A Hora da Verdade",
+        "descricao": "Filme de 1984 em que o adolescente Daniel LaRusso aprende karatê com o senhor Miyagi.",
+        "variantes": [
+          "The Karate Kid",
+          "Karatê Kid"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Paisagem de casas de tijolo sem pessoas; não é reconhecível como a série e serve a muitas favelas."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem de divulgação marcante, sem texto, com a protagonista e a porquinha-da-índia.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que atriz, que também criou a série, interpreta a protagonista desta imagem?",
+      "resposta": "Phoebe Waller-Bridge",
+      "distratores": [
+        "Michaela Coel",
+        "Aisling Bea",
+        "Jodie Comer"
+      ],
+      "ancora": {
+        "nome": "Fleabag",
+        "descricao": "Série britânica de comédia dramática criada e estrelada por Phoebe Waller-Bridge, lançada em 2016.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte do casal dançando, sem texto, reconhecível pela famosa pose do filme.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Emile Ardolino",
+      "ancora": {
+        "nome": "Dirty Dancing: Ritmo Quente",
+        "descricao": "Filme de 1987 sobre uma jovem que se apaixona pelo instrutor de dança de um resort nos montes Catskills.",
+        "variantes": [
+          "Dirty Dancing"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena sem texto com as três empregadas de uniforme de borboletas, característica da novela.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que ano foi exibida pela primeira vez a novela desta cena?",
+      "resposta": "2012",
+      "distratores": [
+        "2010",
+        "2011",
+        "2013"
+      ],
+      "ancora": {
+        "nome": "Cheias de Charme",
+        "descricao": "Novela brasileira da TV Globo, de 2012, sobre três empregadas domésticas que formam o grupo musical As Empreguetes.",
+        "variantes": [
+          "As Empreguetes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena sem texto com os dois protagonistas; reconhecível para quem conhece o cinema brasileiro, com múltipla escolha para ser justa.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem dirigiu o filme brasileiro desta cena, com dois homens no sertão em 1942?",
+      "resposta": "Marcelo Gomes",
+      "distratores": [
+        "Walter Salles",
+        "Karim Aïnouz",
+        "Cláudio Assis"
+      ],
+      "ancora": {
+        "nome": "Cinema, Aspirinas e Urubus",
+        "descricao": "Filme brasileiro de 2005 sobre um alemão e um sertanejo que vendem aspirina pelo sertão nordestino em 1942.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Casal de jovens genérico, sem elemento que identifique a série; a obra não é reconhecível."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena icônica do castelo em chamas, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi lançado o filme desta cena?",
+      "resposta": "Década de 1980",
+      "distratores": [
+        "Década de 1950",
+        "Década de 1960",
+        "Década de 1990"
+      ],
+      "ancora": {
+        "nome": "Ran",
+        "descricao": "Filme japonês de Akira Kurosawa, de 1985, sobre um senhor feudal que divide o reino entre os três filhos.",
+        "variantes": [
+          "乱"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Não dá para confirmar a atriz nem que a cena é desta novela; resposta não segura diante da imagem."
+    }
+  ]
+}
