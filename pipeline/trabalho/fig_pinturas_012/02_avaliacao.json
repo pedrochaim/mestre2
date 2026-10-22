@@ -1,0 +1,279 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Cena nítida, sem texto; pintura famosa de Gérôme. Quem fez, múltipla com pintores de história do século dezenove.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor francês do século dezenove pintou esta cena?",
+      "resposta": "Jean-Léon Gérôme",
+      "distratores": [
+        "Paul Delaroche",
+        "Lawrence Alma-Tadema",
+        "William Bouguereau"
+      ],
+      "ancora": {
+        "nome": "Pollice Verso",
+        "descricao": "Pintura de 1872 de Jean-Léon Gérôme que mostra o público do Coliseu fazendo o gesto de polegar virado diante de um gladiador vencedor.",
+        "variantes": [
+          "Polegar Virado",
+          "Pollice Verso (Gérôme)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra famosa, sem texto, legível; quem fez em múltipla com pintores espanhóis do mesmo século.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor espanhol do século dezessete pintou este quadro?",
+      "resposta": "Diego Velázquez",
+      "distratores": [
+        "Bartolomé Murillo",
+        "Francisco de Zurbarán",
+        "José de Ribera"
+      ],
+      "ancora": {
+        "nome": "A Rendição de Breda",
+        "descricao": "Pintura de Velázquez de 1634-1635 que mostra a entrega das chaves da cidade holandesa de Breda aos espanhóis.",
+        "variantes": [
+          "As Lanças",
+          "La rendición de Breda",
+          "The Surrender of Breda"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Inscrições na moldura pintada são minúsculas e ilegíveis no celular; pergunta de movimento não depende delas. Obra reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que movimento artístico britânico do século dezenove pertence o autor deste quadro?",
+      "resposta": "Pré-rafaelismo",
+      "distratores": [
+        "Impressionismo",
+        "Realismo",
+        "Neoclassicismo"
+      ],
+      "ancora": {
+        "nome": "Proserpina",
+        "descricao": "Pintura a óleo de Dante Gabriel Rossetti, de 1874, que mostra a deusa Prosérpina segurando uma romã.",
+        "variantes": [
+          "Proserpine",
+          "Perséfone (Rossetti)",
+          "Proserpine (Rossetti)"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto. Pergunta de data em múltipla; a imagem distingue do mesmo tema com Aníbal.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano ocorreu a travessia retratada neste quadro?",
+      "resposta": "1800",
+      "distratores": [
+        "1796",
+        "1798",
+        "1805"
+      ],
+      "ancora": {
+        "nome": "Bonaparte Cruzando os Alpes (Delaroche)",
+        "descricao": "Pintura de Paul Delaroche, de 1848-1850, que mostra Napoleão Bonaparte atravessando os Alpes numa mula.",
+        "variantes": [
+          "Napoleão Cruzando os Alpes (Delaroche)",
+          "Bonaparte Crossing the Alps"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Obra icônica, sem texto; figura minúscula mas a composição é reconhecível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "A que movimento artístico alemão do início do século dezenove pertence este quadro?",
+      "resposta": "Romantismo",
+      "distratores": [],
+      "ancora": {
+        "nome": "O Monge à Beira-Mar",
+        "descricao": "Pintura a óleo de Caspar David Friedrich, de 1808-1810, com um pequeno monge diante do mar e de um céu imenso.",
+        "variantes": [
+          "Der Mönch am Meer",
+          "The Monk by the Sea"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "A assinatura 'Delacroix' no canto é pequena e não responde à pergunta sobre a cidade do título. Obra reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade do norte da África dá nome a este quadro?",
+      "resposta": "Argel",
+      "distratores": [],
+      "ancora": {
+        "nome": "Mulheres de Argel",
+        "descricao": "Pintura de Eugène Delacroix, de 1834, que mostra mulheres num aposento em Argel, com um narguilé.",
+        "variantes": [
+          "Mulheres de Argel em seu apartamento",
+          "Femmes d'Alger dans leur appartement",
+          "Women of Algiers"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato de figura pública, sem texto, bem legível. Pergunta de identidade direta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rei da França aparece neste retrato de coroação?",
+      "resposta": "Luís XIV",
+      "distratores": [],
+      "ancora": {
+        "nome": "Retrato de Luís XIV",
+        "descricao": "Retrato de Luís XIV com as vestes de coroação, pintado por Hyacinthe Rigaud em 1701.",
+        "variantes": [
+          "Luís XIV em traje de coroação",
+          "Portrait of Louis XIV",
+          "Louis XIV (Rigaud)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, obra marcante do Realismo; as pessoas retratadas são de uma pintura histórica.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que movimento artístico francês do século dezenove inclui este quadro?",
+      "resposta": "Realismo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Um Enterro em Ornans",
+        "descricao": "Pintura de Gustave Courbet, de 1849-1850, que mostra um funeral na cidade natal do pintor.",
+        "variantes": [
+          "Um Funeral em Ornans",
+          "A Burial at Ornans",
+          "Un enterrement à Ornans"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Sem texto, legível; ambiguidade com outros desembarques resolvida pela menção ao pintor brasileiro.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano ocorreu o desembarque retratado neste quadro de um pintor brasileiro?",
+      "resposta": "1500",
+      "distratores": [
+        "1492",
+        "1498",
+        "1501"
+      ],
+      "ancora": {
+        "nome": "Desembarque de Cabral em Porto Seguro",
+        "descricao": "Pintura de Oscar Pereira da Silva, de 1900, que mostra o desembarque de Pedro Álvares Cabral em Porto Seguro.",
+        "variantes": [
+          "Desembarque de Pedro Álvares Cabral em Porto Seguro em 1500",
+          "Descoberta do Brasil (Oscar Pereira da Silva)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra célebre, sem texto legível; quem fez em múltipla com neoclássicos.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor francês neoclássico pintou este quadro, concluído em 1799?",
+      "resposta": "Jacques-Louis David",
+      "distratores": [
+        "Jean-Auguste-Dominique Ingres",
+        "Antoine-Jean Gros",
+        "Pierre-Narcisse Guérin"
+      ],
+      "ancora": {
+        "nome": "A Intervenção das Sabinas",
+        "descricao": "Pintura de Jacques-Louis David, de 1799, que mostra as mulheres sabinas separando romanos e sabinos em combate.",
+        "variantes": [
+          "As Sabinas",
+          "Les Sabines",
+          "The Intervention of the Sabine Women"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sem texto, composição reconhecível; estilo em múltipla.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que estilo artístico do século dezoito pertence este quadro?",
+      "resposta": "Rococó",
+      "distratores": [
+        "Barroco",
+        "Neoclassicismo",
+        "Romantismo"
+      ],
+      "ancora": {
+        "nome": "Peregrinação à Ilha de Citera",
+        "descricao": "Pintura de Jean-Antoine Watteau, de 1717, com casais elegantes prestes a embarcar rumo à ilha de Citera.",
+        "variantes": [
+          "O Embarque para Citera",
+          "L'embarquement pour Cythère",
+          "The Embarkation for Cythera"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem nítida, sem texto; o tema mitológico é claro. Data da obra é incerta, então a pergunta é de identidade.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que personagem da mitologia grega é retratado neste quadro?",
+      "resposta": "Narciso",
+      "distratores": [],
+      "ancora": {
+        "nome": "Narciso (Caravaggio)",
+        "descricao": "Pintura de Caravaggio, do fim do século dezesseis, que mostra o jovem Narciso contemplando o próprio reflexo na água.",
+        "variantes": [
+          "Narciso",
+          "Narcissus (Caravaggio)"
+        ]
+      }
+    }
+  ]
+}
