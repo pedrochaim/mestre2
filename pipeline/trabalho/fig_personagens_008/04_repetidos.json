@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que vigilante mascarado é este?",
+        "resposta": "Rorschach"
+      },
+      "existentes": [
+        {
+          "id": "q08878",
+          "pergunta": "O vigilante Rorschach, de Watchmen, tem o nome de um teste psicológico em que o paciente interpreta o quê?",
+          "resposta": "Manchas de tinta"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede identificar o personagem (Rorschach) a partir de uma imagem; a existente já dá o nome e pergunta o que o teste psicológico interpreta (manchas de tinta). Fatos diferentes."
+    }
+  ]
+}

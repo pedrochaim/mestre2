@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, fundo transparente, olhos nos talos e garras dão silhueta reconhecível.",
+      "usar_silhueta": true,
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Seu Siriguejo",
+      "ancora": {
+        "nome": "Seu Siriguejo",
+        "descricao": "Caranguejo vermelho avarento, dono do restaurante Siri Cascudo, no desenho Bob Esponja.",
+        "variantes": [
+          "Sr. Siriguejo",
+          "Eugene Krabs",
+          "Mr. Krabs"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena de filme sem texto, vilã claramente reconhecível.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Úrsula",
+      "ancora": {
+        "nome": "Úrsula",
+        "descricao": "Bruxa do mar vilã do filme de animação A Pequena Sereia, da Disney (1989).",
+        "variantes": [
+          "Ursula"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta é mancha confusa (cão de lado, orelhas), então usa a imagem colorida; pergunta sobre os criadores.",
+      "usar_silhueta": false,
+      "destino": 1,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dupla de quadrinistas criou este personagem?",
+      "resposta": "Goscinny e Uderzo",
+      "ancora": {
+        "nome": "Ideiafix",
+        "descricao": "Cãozinho branco de Obelix, nos quadrinhos de Asterix.",
+        "variantes": [
+          "Idéfix",
+          "Dogmatix"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Página de livro com várias formas e texto em japonês que entrega o nome; imagem confusa."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Logotipo com o nome PEIXONAUTA escrito, entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena de filme sem texto, rosto de Scar com a cicatriz; múltipla com felinos parecidos.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é o nome deste vilão da Disney?",
+      "resposta": "Scar",
+      "distratores": [
+        "Shere Khan",
+        "Sabor",
+        "Kovu"
+      ],
+      "ancora": {
+        "nome": "Scar",
+        "descricao": "Leão vilão, irmão de Mufasa, no filme O Rei Leão, da Disney (1994).",
+        "variantes": [
+          "Scar, o leão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cena da série com o ator caracterizado, sem texto; reconhecível pelo boné e uniforme de carteiro.",
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que seriado mexicano aparece este personagem?",
+      "resposta": "Chaves",
+      "ancora": {
+        "nome": "Jaiminho, o Carteiro",
+        "descricao": "Carteiro do seriado Chaves, interpretado por Raul Padilla.",
+        "variantes": [
+          "Jaiminho",
+          "Jaime Garabito",
+          "Senhor Garabito"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta de cabeça para baixo vira mancha com linhas internas; usa imagem colorida e múltipla escolha com distratores da mesma turma.",
+      "usar_silhueta": false,
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este personagem da Turma da Mônica?",
+      "resposta": "Do Contra",
+      "distratores": [
+        "Cascão",
+        "Franjinha",
+        "Jeremias"
+      ],
+      "ancora": {
+        "nome": "Do Contra",
+        "descricao": "Menino rebelde e diferentão da Turma da Mônica, irmão do ilusionista Nimbus.",
+        "variantes": [
+          "Mauricio Hiromashi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem colorida nítida; silhueta de pato poderia lembrar o Donald, então não usa silhueta.",
+      "usar_silhueta": false,
+      "destino": 2,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que coelho é o grande rival, e às vezes amigo, deste personagem?",
+      "resposta": "Pernalonga",
+      "ancora": {
+        "nome": "Patolino",
+        "descricao": "Pato preto e escandaloso dos desenhos Looney Tunes, da Warner Bros.",
+        "variantes": [
+          "Daffy Duck"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Tela de título com o nome O Bem-Amado escrito, sem mostrar o personagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte nítida do personagem com máscara de manchas, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que vigilante mascarado é este?",
+      "resposta": "Rorschach",
+      "distratores": [
+        "Questão",
+        "Coruja",
+        "O Sombra"
+      ],
+      "ancora": {
+        "nome": "Rorschach",
+        "descricao": "Vigilante de máscara com manchas de tinta, de sobretudo e chapéu, nos quadrinhos Watchmen.",
+        "variantes": [
+          "Walter Kovacs"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Quadro do desenho sem texto, personagem inconfundível; pergunta vai além do nome.",
+      "destino": 2,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que atriz dá voz a esta personagem na versão original?",
+      "resposta": "Yeardley Smith",
+      "ancora": {
+        "nome": "Lisa Simpson",
+        "descricao": "Filha do meio, inteligente e saxofonista, da família do desenho Os Simpsons.",
+        "variantes": [
+          "Lisa"
+        ]
+      }
+    }
+  ]
+}

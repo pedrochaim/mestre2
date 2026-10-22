@@ -1,0 +1,559 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Seu Siriguejo",
+        "descricao": "Caranguejo vermelho avarento, dono do restaurante Siri Cascudo, no desenho Bob Esponja.",
+        "variantes": [
+          "Sr. Siriguejo",
+          "Eugene Krabs",
+          "Mr. Krabs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eugene_dubois",
+          "nome": "Eugène Dubois",
+          "descricao": "Paleoantropólogo e geólogo holandês que descobriu o Homem de Java (Pithecanthropus erectus, depois Homo erectus).",
+          "variantes": [
+            "Marie Eugène François Thomas Dubois"
+          ]
+        },
+        {
+          "id": "mardi_gras",
+          "nome": "Mardi Gras",
+          "descricao": "Carnaval celebrado em Nova Orleans e em outras cidades de tradição francesa, na terça-feira antes da Quarta-Feira de Cinzas.",
+          "variantes": [
+            "Terça-feira gorda",
+            "Fat Tuesday"
+          ]
+        },
+        {
+          "id": "euglena",
+          "nome": "Euglena",
+          "descricao": "Gênero de protistas unicelulares flagelados, de água doce, com cloroplastos e uma mancha ocular vermelha.",
+          "variantes": [
+            "Euglena viridis",
+            "Euglena gracilis"
+          ]
+        },
+        {
+          "id": "gim",
+          "nome": "Gim",
+          "descricao": "Bebida destilada aromatizada com botânicos, base de coquetéis como o gim-tônica",
+          "variantes": [
+            "Gin",
+            "Genebra"
+          ]
+        },
+        {
+          "id": "sr_burns",
+          "nome": "Sr. Burns",
+          "descricao": "Idoso bilionário dono da usina nuclear de Springfield em Os Simpsons.",
+          "variantes": [
+            "Charles Montgomery Burns",
+            "Mr. Burns",
+            "Monty Burns"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Úrsula",
+        "descricao": "Bruxa do mar vilã do filme de animação A Pequena Sereia, da Disney (1989).",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cursola",
+          "nome": "Cursola",
+          "descricao": "Pokémon do tipo Fantasma, número 864 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "ursaluna",
+          "nome": "Ursaluna",
+          "descricao": "Pokémon dos tipos Terrestre e Normal, número 901 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "insula",
+          "nome": "Ínsula",
+          "descricao": "Prédio de apartamentos de vários andares onde vivia a maior parte da população urbana da Roma antiga.",
+          "variantes": []
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ideiafix",
+        "descricao": "Cãozinho branco de Obelix, nos quadrinhos de Asterix.",
+        "variantes": [
+          "Idéfix",
+          "Dogmatix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "matrix",
+          "nome": "Matrix",
+          "descricao": "Filme de ficção científica de 1999, das irmãs Wachowski, sobre um programador que descobre viver numa realidade simulada.",
+          "variantes": [
+            "The Matrix"
+          ]
+        },
+        {
+          "id": "dartrix",
+          "nome": "Dartrix",
+          "descricao": "Pokémon do tipo Planta/Voador da sétima geração, número 723 da Pokédex Nacional, uma coruja que evolui de Rowlet.",
+          "variantes": []
+        },
+        {
+          "id": "ikki_de_fenix",
+          "nome": "Ikki de Fênix",
+          "descricao": "Cavaleiro de Bronze da constelação de Fênix na obra Saint Seiya (Os Cavaleiros do Zodíaco).",
+          "variantes": [
+            "Phoenix Ikki",
+            "Ikki"
+          ]
+        },
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        },
+        {
+          "id": "dolomitas",
+          "nome": "Dolomitas",
+          "descricao": "Cadeia de montanhas dos Alpes no nordeste da Itália, famosa por seus picos rochosos claros.",
+          "variantes": [
+            "Dolomites",
+            "Dolomiti",
+            "Alpes Dolomíticos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Scar",
+        "descricao": "Leão vilão, irmão de Mufasa, no filme O Rei Leão, da Disney (1994).",
+        "variantes": [
+          "Scar, o leão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oscar",
+          "nome": "Oscar",
+          "descricao": "Prêmio anual da Academia de Artes e Ciências Cinematográficas dos Estados Unidos.",
+          "variantes": [
+            "Academy Awards",
+            "Prêmios da Academia"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "nascar",
+          "nome": "NASCAR",
+          "descricao": "Principal entidade de corridas de stock car dos Estados Unidos, fundada em 1948.",
+          "variantes": [
+            "National Association for Stock Car Auto Racing"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "czar",
+          "nome": "Czar",
+          "descricao": "Título dos monarcas da Rússia e de outros Estados eslavos.",
+          "variantes": [
+            "Tsar",
+            "Tzar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jaiminho, o Carteiro",
+        "descricao": "Carteiro do seriado Chaves, interpretado por Raul Padilla.",
+        "variantes": [
+          "Jaiminho",
+          "Jaime Garabito",
+          "Senhor Garabito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jairzinho",
+          "nome": "Jairzinho",
+          "descricao": "Ponta-direita brasileiro, o Furacão da Copa de 1970.",
+          "variantes": [
+            "Jair Ventura Filho",
+            "Furacão"
+          ]
+        },
+        {
+          "id": "trilha_jogo",
+          "nome": "Trilha (jogo)",
+          "descricao": "Jogo de tabuleiro para dois em que se tenta alinhar três peças para capturar peças do adversário, conhecido em inglês como nine men's morris.",
+          "variantes": [
+            "Moinho",
+            "Nine men's morris"
+          ]
+        },
+        {
+          "id": "canion_itaimbezinho",
+          "nome": "Cânion Itaimbezinho",
+          "descricao": "Cânion do Parque Nacional de Aparados da Serra, na divisa entre o Rio Grande do Sul e Santa Catarina.",
+          "variantes": [
+            "Itaimbezinho",
+            "Canyon Itaimbezinho",
+            "Cânion do Itaimbezinho"
+          ]
+        },
+        {
+          "id": "muriqui",
+          "nome": "Muriqui",
+          "descricao": "Primata do gênero Brachyteles, endêmico da Mata Atlântica brasileira.",
+          "variantes": [
+            "Brachyteles",
+            "Mono-carvoeiro",
+            "Woolly spider monkey"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Do Contra",
+        "descricao": "Menino rebelde e diferentão da Turma da Mônica, irmão do ilusionista Nimbus.",
+        "variantes": [
+          "Mauricio Hiromashi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mauricio_lima",
+          "nome": "Maurício Lima",
+          "descricao": "Ex-levantador brasileiro de vôlei, campeão olímpico em Barcelona 1992 e Atenas 2004.",
+          "variantes": [
+            "Maurício Camargo Lima"
+          ]
+        },
+        {
+          "id": "socotra",
+          "nome": "Socotra",
+          "descricao": "Maior ilha do arquipélago de Socotra, no oceano Índico, pertencente ao Iêmen e conhecida pelas espécies endêmicas.",
+          "variantes": [
+            "Socotorá",
+            "Soqotra"
+          ]
+        },
+        {
+          "id": "rastro_de_condensacao",
+          "nome": "Rastro de condensação",
+          "descricao": "Nuvem em forma de linha produzida pelo escapamento ou pela pressão das aeronaves em grande altitude.",
+          "variantes": [
+            "Contrail",
+            "Rasto de condensação",
+            "Rastro de vapor"
+          ]
+        },
+        {
+          "id": "nado_costas",
+          "nome": "Nado costas",
+          "descricao": "Estilo de natação em que o nadador fica de barriga para cima, alternando os braços.",
+          "variantes": [
+            "Costas",
+            "Backstroke"
+          ]
+        },
+        {
+          "id": "do_contrato_social",
+          "nome": "Do Contrato Social",
+          "descricao": "Tratado de filosofia política publicado em 1762, que defende a soberania do povo e a vontade geral.",
+          "variantes": [
+            "O Contrato Social",
+            "Du contrat social",
+            "The Social Contract"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Patolino",
+        "descricao": "Pato preto e escandaloso dos desenhos Looney Tunes, da Warner Bros.",
+        "variantes": [
+          "Daffy Duck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "poliomielite",
+          "nome": "Poliomielite",
+          "descricao": "Doença viral que pode causar paralisia, combatida no Brasil com campanhas de vacinação em gotas.",
+          "variantes": [
+            "Pólio",
+            "Paralisia infantil"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "pangolim",
+          "nome": "Pangolim",
+          "descricao": "Mamífero da África e da Ásia coberto de escamas, ordem Pholidota.",
+          "variantes": [
+            "Pangolin"
+          ]
+        },
+        {
+          "id": "platao",
+          "nome": "Platão",
+          "descricao": "Filósofo grego de Atenas (c. 428–348 a.C.), discípulo de Sócrates e autor de A República.",
+          "variantes": [
+            "Plato",
+            "Platon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rorschach",
+        "descricao": "Vigilante de máscara com manchas de tinta, de sobretudo e chapéu, nos quadrinhos Watchmen.",
+        "variantes": [
+          "Walter Kovacs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rorschach",
+          "nome": "Rorschach",
+          "descricao": "Vigilante mascarado e implacável da série Watchmen, de Alan Moore e Dave Gibbons",
+          "variantes": [
+            "Walter Kovacs"
+          ]
+        },
+        {
+          "id": "borscht",
+          "nome": "Borscht",
+          "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+          "variantes": [
+            "Borsch",
+            "Bortsch",
+            "Borche"
+          ]
+        },
+        {
+          "id": "aguas_de_marco",
+          "nome": "Águas de Março",
+          "descricao": "Canção brasileira de 1972 que lista imagens como pau, pedra e fim do caminho.",
+          "variantes": [
+            "Waters of March"
+          ]
+        },
+        {
+          "id": "atari_2600",
+          "nome": "Atari 2600",
+          "descricao": "Console doméstico de cartuchos da Atari, lançado nos Estados Unidos no fim dos anos setenta.",
+          "variantes": [
+            "Atari VCS",
+            "Video Computer System"
+          ]
+        },
+        {
+          "id": "esqui_aquatico",
+          "nome": "Esqui aquático",
+          "descricao": "Esporte em que o atleta é puxado por um barco ou cabo sobre a água, deslizando sobre esquis.",
+          "variantes": [
+            "Water ski"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lisa Simpson",
+        "descricao": "Filha do meio, inteligente e saxofonista, da família do desenho Os Simpsons.",
+        "variantes": [
+          "Lisa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lisia",
+          "nome": "Lisia",
+          "descricao": "Estrela dos concursos pokémon em Omega Ruby e Alpha Sapphire, que apresenta o jogador aos Concursos Espetaculares.",
+          "variantes": [
+            "Lutia"
+          ]
+        },
+        {
+          "id": "lisboa",
+          "nome": "Lisboa",
+          "descricao": "Capital de Portugal, às margens do rio Tejo.",
+          "variantes": [
+            "Lisbon"
+          ]
+        },
+        {
+          "id": "os_simpsons",
+          "nome": "Os Simpsons",
+          "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield.",
+          "variantes": [
+            "The Simpsons"
+          ]
+        },
+        {
+          "id": "bart_simpson",
+          "nome": "Bart Simpson",
+          "descricao": "Personagem de Os Simpsons, o filho mais velho e travesso de Homer e Marge.",
+          "variantes": [
+            "Bartholomew Simpson"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Seu Siriguejo é personagem de Bob Esponja; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Úrsula, vilã de A Pequena Sereia, não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ideiafix é o cão de Obelix; candidatas são entidades diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Scar, leão de O Rei Leão, não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Jaiminho, o Carteiro, é personagem de Chaves; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Do Contra, personagem da Turma da Mônica, não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Patolino não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "rorschach",
+      "motivo": "Mesmo vigilante de Watchmen, Walter Kovacs."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Lisa Simpson é personagem distinta; as candidatas são a série, Bart ou outras entidades."
+    }
+  ]
+}
