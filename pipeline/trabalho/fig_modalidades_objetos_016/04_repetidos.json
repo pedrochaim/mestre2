@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que luta tradicional indígena brasileira é esta?",
+        "resposta": "Huka-huka"
+      },
+      "existentes": [
+        {
+          "id": "q06642",
+          "pergunta": "O huka-huka, luta corporal disputada no ritual do Kuarup, é tradição dos povos indígenas de que região brasileira?",
+          "resposta": "Alto Xingu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o nome da luta (Huka-huka); a existente pede a região/povo de origem (Alto Xingu). São fatos diferentes, e saber um não implica saber o outro."
+    }
+  ]
+}

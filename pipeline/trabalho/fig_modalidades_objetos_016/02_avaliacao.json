@@ -1,0 +1,171 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mergulhador com cilindro, regulador e nadadeiras, claro e legível; rosto coberto pela máscara.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modalidade de mergulho é esta?",
+      "resposta": "Mergulho autônomo",
+      "distratores": [
+        "Mergulho livre",
+        "Mergulho de saturação",
+        "Snorkeling"
+      ],
+      "ancora": {
+        "nome": "Mergulho autônomo",
+        "descricao": "Modalidade de mergulho em que o mergulhador leva seu próprio suprimento de gás respiratório, em cilindro (scuba).",
+        "variantes": [
+          "Scuba",
+          "Mergulho scuba"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dois praticantes lutando com espadas e escudos em Kerala, sem texto; imagem clara e característica.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arte marcial indiana é esta?",
+      "resposta": "Kalaripayattu",
+      "distratores": [
+        "Gatka",
+        "Silambam",
+        "Thang-ta"
+      ],
+      "ancora": {
+        "nome": "Kalaripayattu",
+        "descricao": "Arte marcial indiana originada no atual estado de Kerala, praticada com espadas, escudos e golpes acrobáticos.",
+        "variantes": [
+          "Kalari",
+          "Kalarippayattu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A espada isolada, longa e curva, de aparência militar, pode ser confundida com tachi ou outra espada japonesa; resposta não única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Largada de natação em lago com muitos nadadores comuns de touca e roupa de borracha; pode ser triatlo e não identifica a modalidade com clareza."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa do troféu mostra 'The Heisman Memorial Trophy' e o nome do vencedor, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano; o taco aparece de forma parcial."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem é um desenho de um indígena de perfil com assinatura visível, e não uma munhequeira; não corresponde à entidade."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Quatro espadas de madeira de treino, sem texto; todas do mesmo tipo, então o assunto é único.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma japonesa de treino é esta?",
+      "resposta": "Bokken",
+      "distratores": [
+        "Shinai",
+        "Iaitō",
+        "Fukuro-shinai"
+      ],
+      "ancora": {
+        "nome": "Bokken",
+        "descricao": "Espada de madeira japonesa usada no treino de kenjutsu e de outras artes marciais.",
+        "variantes": [
+          "Bokutō",
+          "Boken"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco de jogador em pleno movimento de bicicleta, sem texto; golpe inconfundível.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que golpe acrobático do futebol é este?",
+      "resposta": "Bicicleta (também chamada de chilena)",
+      "ancora": {
+        "nome": "Bicicleta (futebol)",
+        "descricao": "Golpe acrobático em que o jogador chuta a bola no ar, de costas, jogando o corpo para trás.",
+        "variantes": [
+          "Chilena",
+          "Voadora",
+          "Bicycle kick",
+          "Tesoura"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dois praticantes de uniforme vermelho de cetim, chute saltado, fundo escuro e sem texto; claro e legível.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arte marcial é esta?",
+      "resposta": "Wushu (kung fu)",
+      "distratores": [
+        "Taekwondo",
+        "Karatê",
+        "Hapkido"
+      ],
+      "ancora": {
+        "nome": "Wushu",
+        "descricao": "Arte marcial chinesa, praticada em formas (taolu) e como esporte de combate (sanda), também chamada de kung fu.",
+        "variantes": [
+          "Kung fu",
+          "Kungfu",
+          "Wu shu"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto histórica de dois lutadores indígenas pintados, em luta corpo a corpo, sem texto; participantes de uma prática tradicional pública.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que luta tradicional indígena brasileira é esta?",
+      "resposta": "Huka-huka",
+      "ancora": {
+        "nome": "Huka-huka",
+        "descricao": "Luta tradicional dos povos indígenas do Xingu e dos Bakairi, em Mato Grosso, disputada nos Jogos dos Povos Indígenas.",
+        "variantes": [
+          "Huka huka",
+          "Hukahuka"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mesa antiga sem caçapas e sem bolas, num salão de palácio; pode ser entendida como mesa de bilhar francês, sinuca ou outra, e a resposta não é única."
+    }
+  ]
+}

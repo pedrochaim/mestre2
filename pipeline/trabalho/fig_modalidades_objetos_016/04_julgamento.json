@@ -1,0 +1,380 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mergulho autônomo",
+        "descricao": "Modalidade de mergulho em que o mergulhador leva seu próprio suprimento de gás respiratório, em cilindro (scuba).",
+        "variantes": [
+          "Scuba",
+          "Mergulho scuba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cuba",
+          "nome": "Cuba",
+          "descricao": "País insular do Caribe, o maior da região em área, com capital em Havana.",
+          "variantes": [
+            "República de Cuba"
+          ]
+        },
+        {
+          "id": "pleiades",
+          "nome": "Plêiades",
+          "descricao": "Aglomerado aberto de estrelas na constelação de Touro, conhecido no Brasil como Sete-Estrelo.",
+          "variantes": [
+            "Sete-Estrelo",
+            "M45",
+            "Subaru"
+          ]
+        },
+        {
+          "id": "subaru",
+          "nome": "Subaru",
+          "descricao": "Montadora japonesa de automóveis cujo logotipo mostra um grupo de estrelas.",
+          "variantes": [
+            "Subaru Corporation"
+          ]
+        },
+        {
+          "id": "cuiaba",
+          "nome": "Cuiabá",
+          "descricao": "Capital do estado de Mato Grosso, às margens do rio Cuiabá.",
+          "variantes": []
+        },
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kalaripayattu",
+        "descricao": "Arte marcial indiana originada no atual estado de Kerala, praticada com espadas, escudos e golpes acrobáticos.",
+        "variantes": [
+          "Kalari",
+          "Kalarippayattu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deserto_do_kalahari",
+          "nome": "Deserto do Kalahari",
+          "descricao": "Grande região semiárida arenosa do sul da África, em Botsuana, Namíbia e África do Sul",
+          "variantes": [
+            "Kalahari",
+            "Calaári"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "altaria",
+          "nome": "Altaria",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 334 da Pokédex Nacional.",
+          "variantes": [
+            "Mega Altaria"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        },
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bokken",
+        "descricao": "Espada de madeira japonesa usada no treino de kenjutsu e de outras artes marciais.",
+        "variantes": [
+          "Bokutō",
+          "Boken"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "boto_cinza",
+          "nome": "Boto-cinza",
+          "descricao": "Golfinho costeiro e de estuário Sotalia guianensis, de dorso cinza, encontrado no litoral da América do Sul e Central.",
+          "variantes": [
+            "Boto",
+            "Golfinho-da-guiana",
+            "Sotalia guianensis"
+          ]
+        },
+        {
+          "id": "ken",
+          "nome": "Ken",
+          "descricao": "Boneco da Mattel lançado em 1961 como namorado da boneca Barbie.",
+          "variantes": [
+            "Ken Carson",
+            "Ken (boneco)"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "orkut",
+          "nome": "Orkut",
+          "descricao": "Rede social do Google lançada em 2004, extremamente popular no Brasil.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bicicleta (futebol)",
+        "descricao": "Golpe acrobático em que o jogador chuta a bola no ar, de costas, jogando o corpo para trás.",
+        "variantes": [
+          "Chilena",
+          "Voadora",
+          "Bicycle kick",
+          "Tesoura"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tesourao",
+          "nome": "Tesourão",
+          "descricao": "Ave marinha de cauda bifurcada (Fregata magnificens), cujo macho infla uma bolsa vermelha.",
+          "variantes": [
+            "Fragata",
+            "Rabiforcado-magnífico",
+            "Fregata magnificens",
+            "Magnificent frigatebird"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "tesourinha",
+          "nome": "Tesourinha",
+          "descricao": "Inseto da ordem Dermaptera, com pinças no fim do abdômen.",
+          "variantes": [
+            "Lacrainha",
+            "Dermáptero",
+            "Earwig"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Wushu",
+        "descricao": "Arte marcial chinesa, praticada em formas (taolu) e como esporte de combate (sanda), também chamada de kung fu.",
+        "variantes": [
+          "Kung fu",
+          "Kungfu",
+          "Wu shu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kung_fu",
+          "nome": "Kung fu",
+          "descricao": "Termo chinês popularizado no Ocidente como nome genérico das artes marciais chinesas.",
+          "variantes": [
+            "Gongfu"
+          ]
+        },
+        {
+          "id": "confucio",
+          "nome": "Confúcio",
+          "descricao": "Filósofo chinês do século seis antes de Cristo, fundador do confucionismo.",
+          "variantes": [
+            "Kong Fuzi",
+            "Kongzi",
+            "Confucius"
+          ]
+        },
+        {
+          "id": "drew_anime",
+          "nome": "Drew (anime)",
+          "descricao": "Coordenador pokémon rival de May no anime Pokémon, dono de um Roselia.",
+          "variantes": [
+            "Drew",
+            "Shu"
+          ]
+        },
+        {
+          "id": "kubfu",
+          "nome": "Kubfu",
+          "descricao": "Pokémon do tipo Lutador, número 891 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "rush",
+          "nome": "Rush",
+          "descricao": "Filme de 2013 sobre a rivalidade entre Niki Lauda e James Hunt na temporada de 1976 da Fórmula 1.",
+          "variantes": [
+            "Rush: No Limite da Emoção"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Huka-huka",
+        "descricao": "Luta tradicional dos povos indígenas do Xingu e dos Bakairi, em Mato Grosso, disputada nos Jogos dos Povos Indígenas.",
+        "variantes": [
+          "Hukahuka"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "huka_huka",
+          "nome": "Huka-huka",
+          "descricao": "Luta corporal tradicional de povos indígenas do Alto Xingu, disputada no ritual do Kuarup.",
+          "variantes": [
+            "Uka-uka"
+          ]
+        },
+        {
+          "id": "kaka",
+          "nome": "Kaká",
+          "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002.",
+          "variantes": [
+            "Ricardo Kaká",
+            "Ricardo Izecson dos Santos Leite"
+          ]
+        },
+        {
+          "id": "mar_amarelo",
+          "nome": "Mar Amarelo",
+          "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+          "variantes": [
+            "Huang Hai"
+          ]
+        },
+        {
+          "id": "chakra_de_ashoka",
+          "nome": "Chakra de Ashoka",
+          "descricao": "Roda azul de vinte e quatro raios no centro da bandeira da Índia, tirada dos pilares do imperador Ashoka",
+          "variantes": [
+            "Ashoka Chakra",
+            "Roda de Ashoka"
+          ]
+        },
+        {
+          "id": "kukulcan",
+          "nome": "Kukulcán",
+          "descricao": "Divindade maia da serpente emplumada, cultuada especialmente em Chichén Itzá.",
+          "variantes": [
+            "Kukulkan",
+            "K'uk'ulkan"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é mergulho autônomo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a arte marcial indiana."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma espada de madeira."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o golpe de futebol."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Wushu (arte marcial e esporte, formas e sanda) é distinto do termo genérico Kung fu cadastrado; na dúvida, nova."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "huka_huka",
+      "motivo": "Mesma luta tradicional indígena do Xingu, mesmo nome."
+    }
+  ]
+}
