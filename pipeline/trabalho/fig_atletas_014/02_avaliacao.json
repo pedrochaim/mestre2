@@ -1,0 +1,169 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A figurinha traz a legenda 'Brasil - RIVELINO' na parte de baixo, que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto de perfil, com microfone e sem contexto. Não dá para reconhecer o piloto, então a pergunta seria impossível."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A foto mostra várias pessoas e a taça Jules Rimet. A resposta não é única diante da imagem e o atleta não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rosto claro, sem texto que entregue a resposta. A pergunta de nível 3 pede o clube brasileiro de antes do Real Madrid.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que clube brasileiro este atacante defendeu antes de se transferir para o Real Madrid?",
+      "resposta": "Santos",
+      "ancora": {
+        "nome": "Robinho",
+        "descricao": "Robson de Souza, atacante brasileiro revelado pelo Santos e campeão brasileiro em 2002.",
+        "variantes": [
+          "Robson de Souza"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto nítido, com a bandeira do Brasil na camisa e sem nome visível. Múltipla escolha com nadadores brasileiros.",
+      "destino": 5,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nadador brasileiro, medalhista olímpico, é este?",
+      "resposta": "Gustavo Borges",
+      "distratores": [
+        "Cesar Cielo",
+        "Fernando Scherer",
+        "Thiago Pereira"
+      ],
+      "ancora": {
+        "nome": "Gustavo Borges",
+        "descricao": "Nadador brasileiro, medalhista olímpico em 1992, 1996 e 2000.",
+        "variantes": [
+          "Gustavo França Borges"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Imagem de baixíssima resolução, ilegível num celular. O boné tem texto parcial de patrocinador ao fundo."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de uma figura pública. O rosto é reconhecível.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que boxeador americano, ex-campeão mundial dos pesos-pesados, é este?",
+      "resposta": "Evander Holyfield",
+      "ancora": {
+        "nome": "Evander Holyfield",
+        "descricao": "Boxeador americano, quatro vezes campeão mundial dos pesos-pesados.",
+        "variantes": [
+          "The Real Deal"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido. Os patrocinadores no macacão não dizem o nome do piloto. Distratores são pilotos espanhóis, incluindo o irmão dele.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que piloto espanhol de MotoGP é este?",
+      "resposta": "Marc Márquez",
+      "distratores": [
+        "Álex Márquez",
+        "Jorge Lorenzo",
+        "Dani Pedrosa"
+      ],
+      "ancora": {
+        "nome": "Marc Márquez",
+        "descricao": "Piloto espanhol de motovelocidade, nove vezes campeão mundial, sete delas na MotoGP.",
+        "variantes": [
+          "Marc Marquez"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem pequena, de baixa resolução, com óculos escuros cobrindo os olhos. A pessoa não é reconhecível num celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido com a camisa da Inglaterra. O número 9 e a data não trazem o nome. Reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que centroavante inglês é este?",
+      "resposta": "Harry Kane",
+      "ancora": {
+        "nome": "Harry Kane",
+        "descricao": "Centroavante inglês, maior artilheiro da história da seleção da Inglaterra e do Tottenham.",
+        "variantes": [
+          "Harry Edward Kane"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de tenista famosa, sem texto que entregue o nome. Múltipla escolha com tenistas parecidas.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tenista é esta?",
+      "resposta": "Naomi Osaka",
+      "distratores": [
+        "Coco Gauff",
+        "Sloane Stephens",
+        "Madison Keys"
+      ],
+      "ancora": {
+        "nome": "Naomi Osaka",
+        "descricao": "Tenista japonesa, ex-número 1 do mundo e campeã de quatro torneios de Grand Slam.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato claro. O texto 'Red Devil' na camisa é o nome da equipe e não identifica o lutador.",
+      "destino": 6,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lutador russo de artes marciais mistas é este?",
+      "resposta": "Fedor Emelianenko",
+      "ancora": {
+        "nome": "Fedor Emelianenko",
+        "descricao": "Lutador russo de MMA, campeão dos pesos-pesados do PRIDE de 2003 a 2007.",
+        "variantes": [
+          "Fiódor Emelianenko",
+          "Fedor Emelianenko"
+        ]
+      }
+    }
+  ]
+}
