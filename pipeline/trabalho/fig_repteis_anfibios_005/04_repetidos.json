@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que crocodiliano é este?",
+        "resposta": "Gavial"
+      },
+      "existentes": [
+        {
+          "id": "q06502",
+          "pergunta": "O gavial, crocodiliano de focinho longo e fino, vive hoje sobretudo em rios de que país?",
+          "resposta": "Índia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do animal (gavial); a existente pergunta o país onde vive, fato diferente."
+    }
+  ]
+}

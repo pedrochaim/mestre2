@@ -1,0 +1,206 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O jacaretinga é muito parecido com o jacaré-do-pantanal na foto, e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cobra preta com manchas amarelas, bem visível e reconhecível. Múltipla escolha com cobras parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cobra brasileira é esta?",
+      "resposta": "Caninana",
+      "distratores": [
+        "Muçurana",
+        "Cobra-cipó",
+        "Jiboia"
+      ],
+      "ancora": {
+        "nome": "Caninana",
+        "descricao": "Serpente não peçonhenta Spilotes pullatus, preta com manchas amarelas, do Neotrópico.",
+        "variantes": [
+          "Spilotes pullatus",
+          "Cobra-papagaio",
+          "Caninana-do-brejo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Jabuti de casco escuro com manchas amarelas e patas pintadas de amarelo, nítido. Nível 2 contra o parente jabuti-piranga.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jabuti sul-americano é este?",
+      "resposta": "Jabuti-tinga",
+      "distratores": [
+        "Jabuti-piranga",
+        "Jabuti-das-Galápagos",
+        "Tartaruga-da-amazônia"
+      ],
+      "ancora": {
+        "nome": "Jabuti-tinga",
+        "descricao": "Jabuti da Bacia Amazônica, Chelonoidis denticulatus, de manchas amarelas nas patas e no casco.",
+        "variantes": [
+          "Chelonoidis denticulatus",
+          "Jabuti-amarelo",
+          "Jabuti-de-patas-amarelas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível, com o focinho longo e a protuberância.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que crocodiliano é este?",
+      "resposta": "Gavial",
+      "ancora": {
+        "nome": "Gavial",
+        "descricao": "Crocodiliano piscívoro do subcontinente indiano, Gavialis gangeticus, de focinho longo e estreito.",
+        "variantes": [
+          "Gavial-do-ganges",
+          "Gharial",
+          "Gavialis gangeticus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Macho com crista dorsal serrilhada e pintas, visível. Múltipla escolha com outros anfíbios europeus parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que anfíbio europeu é este?",
+      "resposta": "Tritão-de-crista",
+      "distratores": [
+        "Tritão-marmorado",
+        "Tritão-alpino",
+        "Salamandra-comum"
+      ],
+      "ancora": {
+        "nome": "Tritão-de-crista",
+        "descricao": "Anfíbio europeu de grande porte, Triturus cristatus, cujo macho desenvolve uma crista serrilhada no dorso na época de reprodução.",
+        "variantes": [
+          "Triturus cristatus",
+          "Tritão-crestado"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O lagarto aparece parcialmente, de cabeça baixa, num tronco queimado. 'Calango' é um nome genérico e a espécie não se reconhece com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Camaleão-pantera macho, foto nítida e característica. O enunciado não nomeia o animal.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que ilha africana é nativo este réptil?",
+      "resposta": "Madagascar",
+      "ancora": {
+        "nome": "Camaleão-pantera",
+        "descricao": "Camaleão Furcifer pardalis, do leste e norte de Madagascar, de colorido vivo nos machos.",
+        "variantes": [
+          "Furcifer pardalis",
+          "Panther chameleon"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É uma gravura antiga, não uma foto, e um anfíbio pode ser fotografado. A espécie não é inequívoca, pois há várias rãs-voadoras parecidas."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Perfil nítido de jacaré com manchas amarelas no maxilar. Múltipla escolha sem o jacaretinga entre as opções.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jacaré é este, típico do Pantanal?",
+      "resposta": "Jacaré-do-pantanal",
+      "distratores": [
+        "Jacaré-açu",
+        "Jacaré-de-papo-amarelo",
+        "Jacaré-coroa"
+      ],
+      "ancora": {
+        "nome": "Jacaré-do-pantanal",
+        "descricao": "Jacaré Caiman yacare, de marrom com manchas escuras, nativo da Argentina, Bolívia, Brasil e Paraguai.",
+        "variantes": [
+          "Caiman yacare",
+          "Jacaré-paraguaio",
+          "Yacare caiman"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Cobra de manchas vermelhas que pode ser confundida com a cobra-do-milho e outras falsas-corais. A resposta não é única diante da imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Perereca verde com ventre claro, agarrada ao galho sobre fundo preto, bem visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que anfíbio amazônico é este?",
+      "resposta": "Perereca-macaco",
+      "distratores": [
+        "Perereca-de-olhos-vermelhos",
+        "Perereca-leitosa",
+        "Rã-de-vidro"
+      ],
+      "ancora": {
+        "nome": "Perereca-macaco",
+        "descricao": "Perereca arborícola Phyllomedusa bicolor, verde e de grande porte, da Bacia Amazônica.",
+        "variantes": [
+          "Phyllomedusa bicolor",
+          "Sapo-verde-da-amazônia",
+          "Giant monkey frog"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, com o guizo erguido e a cabeça de frente. Reconhecível e emblemática.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cobra brasileira é esta?",
+      "resposta": "Cascavel",
+      "ancora": {
+        "nome": "Cascavel",
+        "descricao": "Serpente peçonhenta Crotalus durissus, de guizo na cauda, a cascavel-sul-americana.",
+        "variantes": [
+          "Crotalus durissus",
+          "Cascavel-sul-americana"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pistas; caninana é o nome popular de Spilotes pullatus (pt.wikipedia). Distratores são outras cobras brasileiras, nenhuma correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores fracos: tartaruga-da-amazônia não é jabuti, e jabuti-das-Galápagos é discutível como sul-americano. Muda o enunciado para réptil amazônico, com distratores coerentes.",
+      "reescrita": {
+        "pergunta": "Que réptil amazônico de casco é este?",
+        "resposta": "Jabuti-tinga",
+        "distratores": [
+          "Jabuti-piranga",
+          "Tracajá",
+          "Tartaruga-da-amazônia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1, sem vazamento. Gavial é o nome da espécie Gavialis gangeticus.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro e distratores do mesmo tipo (tritões e salamandra europeus), críveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'ilha africana' já entrega Madagascar sem olhar a figura. Reescrita pede o reconhecimento do camaleão, em múltipla escolha.",
+      "reescrita": {
+        "pergunta": "Que camaleão de cores vivas é este?",
+        "resposta": "Camaleão-pantera",
+        "distratores": [
+          "Camaleão-de-jackson",
+          "Camaleão-véu",
+          "Camaleão-comum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: o enunciado traz 'Pantanal', que está na resposta 'Jacaré-do-pantanal'. Tira a pista.",
+      "reescrita": {
+        "pergunta": "Que jacaré sul-americano é este?",
+        "resposta": "Jacaré-do-pantanal",
+        "distratores": [
+          "Jacaré-açu",
+          "Jacaré-de-papo-amarelo",
+          "Jacaré-coroa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O distrator 'Perereca-de-olhos-vermelhos' é centro-americano e destoa de 'amazônico', então é facilmente eliminado. Troquei por um anfíbio amazônico.",
+      "reescrita": {
+        "pergunta": "Que anfíbio amazônico é este?",
+        "resposta": "Perereca-macaco",
+        "distratores": [
+          "Sapo-cururu",
+          "Perereca-leitosa",
+          "Rã-de-vidro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem pista; cascavel é nome da Crotalus durissus no Brasil.",
+      "reescrita": null
+    }
+  ]
+}

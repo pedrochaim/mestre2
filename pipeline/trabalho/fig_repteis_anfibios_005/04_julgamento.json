@@ -1,0 +1,526 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Caninana",
+        "descricao": "Serpente não peçonhenta Spilotes pullatus, preta com manchas amarelas, do Neotrópico.",
+        "variantes": [
+          "Spilotes pullatus",
+          "Cobra-papagaio",
+          "Caninana-do-brejo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bico_do_papagaio",
+          "nome": "Bico do Papagaio",
+          "descricao": "Região do extremo norte do Tocantins, entre os rios Araguaia e Tocantins, na divisa com o Pará e o Maranhão.",
+          "variantes": [
+            "Microrregião do Bico do Papagaio"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Jabuti-tinga",
+        "descricao": "Jabuti da Bacia Amazônica, Chelonoidis denticulatus, de manchas amarelas nas patas e no casco.",
+        "variantes": [
+          "Chelonoidis denticulatus",
+          "Jabuti-amarelo",
+          "Jabuti-de-patas-amarelas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jabuti_piranga",
+          "nome": "Jabuti-piranga",
+          "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+          "variantes": [
+            "Jabuti",
+            "Red-footed tortoise",
+            "Chelonoidis carbonarius"
+          ]
+        },
+        {
+          "id": "vespa_asiatica",
+          "nome": "Vespa-asiática",
+          "descricao": "Vespa (Vespa velutina) nativa do Sudeste Asiático, predadora de abelhas e invasora na Europa.",
+          "variantes": [
+            "Vespa velutina",
+            "Vespa-de-patas-amarelas"
+          ]
+        },
+        {
+          "id": "rio_amarelo",
+          "nome": "Rio Amarelo",
+          "descricao": "Segundo rio mais longo da China, que corre pelo norte do país até o mar de Bohai.",
+          "variantes": [
+            "Huang He",
+            "Hwang Ho",
+            "Yellow River",
+            "Rio Huang"
+          ]
+        },
+        {
+          "id": "mar_amarelo",
+          "nome": "Mar Amarelo",
+          "descricao": "Mar do oceano Pacífico entre o leste da China e a península da Coreia.",
+          "variantes": [
+            "Huang Hai"
+          ]
+        },
+        {
+          "id": "ipe_amarelo",
+          "nome": "Ipê-amarelo",
+          "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+          "variantes": [
+            "Ipê",
+            "Handroanthus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gavial",
+        "descricao": "Crocodiliano piscívoro do subcontinente indiano, Gavialis gangeticus, de focinho longo e estreito.",
+        "variantes": [
+          "Gavial-do-ganges",
+          "Gharial",
+          "Gavialis gangeticus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gavial",
+          "nome": "Gavial",
+          "descricao": "Crocodiliano de focinho longo e fino (Gavialis gangeticus) dos rios do norte do subcontinente indiano.",
+          "variantes": [
+            "Gavialis gangeticus",
+            "Gharial",
+            "Gavial-do-ganges"
+          ]
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "giuseppe_garibaldi",
+          "nome": "Giuseppe Garibaldi",
+          "descricao": "Revolucionário e general italiano, um dos principais líderes da unificação da Itália no século dezenove.",
+          "variantes": [
+            "Garibaldi"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tritão-de-crista",
+        "descricao": "Anfíbio europeu de grande porte, Triturus cristatus, cujo macho desenvolve uma crista serrilhada no dorso na época de reprodução.",
+        "variantes": [
+          "Triturus cristatus",
+          "Tritão-crestado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "terceiro_estado",
+          "nome": "Terceiro Estado",
+          "descricao": "Ordem da sociedade francesa do Antigo Regime que reunia todos os que não eram clero nem nobreza.",
+          "variantes": [
+            "Tiers état",
+            "Third Estate"
+          ]
+        },
+        {
+          "id": "teatro_de_revista",
+          "nome": "Teatro de revista",
+          "descricao": "Gênero teatral de música, dança e humor satírico, muito popular no Rio de Janeiro do fim do século dezenove a meados do século vinte.",
+          "variantes": [
+            "Revista (teatro)",
+            "Revista de ano"
+          ]
+        },
+        {
+          "id": "nitroglicerina",
+          "nome": "Nitroglicerina",
+          "descricao": "Composto explosivo líquido e instável, criado em 1847, base da dinamite.",
+          "variantes": [
+            "Trinitrato de glicerina"
+          ]
+        },
+        {
+          "id": "porta_de_ishtar",
+          "nome": "Porta de Ishtar",
+          "descricao": "Portão monumental da Babilônia, revestido de tijolos vidrados azuis, construído por Nabucodonosor segundo.",
+          "variantes": [
+            "Ishtar Gate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Camaleão-pantera",
+        "descricao": "Camaleão Furcifer pardalis, do leste e norte de Madagascar, de colorido vivo nos machos.",
+        "variantes": [
+          "Furcifer pardalis",
+          "Panther chameleon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "cleopatra",
+          "nome": "Cleópatra",
+          "descricao": "Cleópatra Sétima, última soberana da dinastia ptolemaica do Egito, morta em 30 antes de Cristo",
+          "variantes": [
+            "Cleópatra VII"
+          ]
+        },
+        {
+          "id": "besouro",
+          "nome": "Besouro",
+          "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+          "variantes": [
+            "Coleoptera",
+            "coleóptero",
+            "beetle",
+            "Coleópteros"
+          ]
+        },
+        {
+          "id": "camaleao",
+          "nome": "Camaleão",
+          "descricao": "Lagarto da família Chamaeleonidae, de olhos independentes, língua projétil e capacidade de mudar de cor.",
+          "variantes": [
+            "Chamaeleonidae",
+            "Camaleões",
+            "Chameleon"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jacaré-do-pantanal",
+        "descricao": "Jacaré Caiman yacare, de marrom com manchas escuras, nativo da Argentina, Bolívia, Brasil e Paraguai.",
+        "variantes": [
+          "Caiman yacare",
+          "Jacaré-paraguaio",
+          "Yacare caiman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "autodromo_de_jacarepagua",
+          "nome": "Autódromo de Jacarepaguá",
+          "descricao": "Antigo autódromo do Rio de Janeiro, chamado Autódromo Internacional Nelson Piquet, que recebeu o GP do Brasil de Fórmula 1.",
+          "variantes": [
+            "Autódromo Internacional Nelson Piquet",
+            "Jacarepaguá"
+          ]
+        },
+        {
+          "id": "cervo_do_pantanal",
+          "nome": "Cervo-do-pantanal",
+          "descricao": "Maior cervo da América do Sul, Blastocerus dichotomus, de áreas alagadas.",
+          "variantes": [
+            "Blastocerus dichotomus",
+            "Veado-galheiro"
+          ]
+        },
+        {
+          "id": "arena_pantanal",
+          "nome": "Arena Pantanal",
+          "descricao": "Estádio de futebol em Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014 e casa do Cuiabá Esporte Clube.",
+          "variantes": [
+            "Estádio José Fragelli",
+            "Arena Pantanal (Cuiabá)"
+          ]
+        },
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "caranguejo_violinista",
+          "nome": "Caranguejo-violinista",
+          "descricao": "Caranguejo do gênero Uca, cujos machos têm uma garra enorme.",
+          "variantes": [
+            "Uca",
+            "Fiddler crab",
+            "Chama-maré"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Perereca-macaco",
+        "descricao": "Perereca arborícola Phyllomedusa bicolor, verde e de grande porte, da Bacia Amazônica.",
+        "variantes": [
+          "Phyllomedusa bicolor",
+          "Sapo-verde-da-amazônia",
+          "Giant monkey frog"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arena_da_amazonia",
+          "nome": "Arena da Amazônia",
+          "descricao": "Estádio de futebol de Manaus, Amazonas, construído para a Copa do Mundo de 2014 no local do antigo Vivaldão.",
+          "variantes": [
+            "Estádio Vivaldo Lima",
+            "Arena Amazônia"
+          ]
+        },
+        {
+          "id": "recife_da_amazonia",
+          "nome": "Recife da Amazônia",
+          "descricao": "Extenso sistema de recifes de corais, esponjas e algas calcárias sob as águas barrentas da foz do rio Amazonas, anunciado em 2016.",
+          "variantes": [
+            "Grande Recife da Amazônia",
+            "Amazon Reef"
+          ]
+        },
+        {
+          "id": "sapo_de_chifre",
+          "nome": "Sapo-de-chifre",
+          "descricao": "Sapo sul-americano de boca enorme e projeções em forma de chifre sobre os olhos, Ceratophrys cornuta.",
+          "variantes": [
+            "Ceratophrys cornuta",
+            "Surinam horned frog",
+            "Sapo-de-chifres-amazônico"
+          ]
+        },
+        {
+          "id": "rio_negro",
+          "nome": "Rio Negro",
+          "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus.",
+          "variantes": [
+            "Rio Negro (Amazonas)",
+            "Rio Negro do Amazonas",
+            "Guainía",
+            "Negro River"
+          ]
+        },
+        {
+          "id": "amazonas_estado",
+          "nome": "Amazonas (estado)",
+          "descricao": "Estado da Região Norte do Brasil, o maior em área, com capital em Manaus.",
+          "variantes": [
+            "Estado do Amazonas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cascavel",
+        "descricao": "Serpente peçonhenta Crotalus durissus, de guizo na cauda, a cascavel-sul-americana.",
+        "variantes": [
+          "Crotalus durissus",
+          "Cascavel-sul-americana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cascavel",
+          "nome": "Cascavel",
+          "descricao": "Serpente peçonhenta das Américas, do gênero Crotalus, com um chocalho na ponta da cauda.",
+          "variantes": [
+            "Crotalus",
+            "Cascavel-sul-americana"
+          ]
+        },
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "placa_sul_americana",
+          "nome": "Placa Sul-Americana",
+          "descricao": "Placa tectônica que abrange a América do Sul e parte do oceano Atlântico Sul.",
+          "variantes": [
+            "South American Plate"
+          ]
+        },
+        {
+          "id": "agave_americana",
+          "nome": "Agave-americana",
+          "descricao": "Planta suculenta Agave americana, que floresce uma única vez depois de muitos anos e então morre",
+          "variantes": [
+            "Planta-do-século",
+            "Piteira"
+          ]
+        },
+        {
+          "id": "cascao",
+          "nome": "Cascão",
+          "descricao": "Menino sujinho, de cabelo preto e que não gosta de banho, da Turma da Mônica.",
+          "variantes": [
+            "Cascão Araújo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Caninana (Spilotes pullatus) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Chelonoidis denticulatus é espécie distinta da jabuti-piranga (C. carbonarius)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "gavial",
+      "motivo": "Mesma espécie Gavialis gangeticus."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tritão-de-crista não tem candidata correspondente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Furcifer pardalis é espécie específica; camaleão é a família mais geral."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Caiman yacare não tem candidata correspondente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Phyllomedusa bicolor não tem candidata correspondente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Proposta é a espécie Crotalus durissus; a candidata é o gênero Crotalus, entidade mais ampla. Na dúvida, nova."
+    }
+  ]
+}
