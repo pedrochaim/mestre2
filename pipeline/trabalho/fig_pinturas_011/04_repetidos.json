@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que pintor espanhol do Século de Ouro fez este quadro?",
+        "resposta": "Diego Velázquez"
+      },
+      "existentes": [
+        {
+          "id": "q06584",
+          "pergunta": "Em 1914, em Londres, a Vênus ao Espelho, de Velázquez, foi atacada a golpes de cutelo por uma militante de que causa?",
+          "resposta": "O voto feminino"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o autor do quadro (Velázquez); a existente pede a causa da militante que atacou a obra em 1914 (voto feminino). Fatos diferentes, e a existente já dá o nome do pintor no enunciado, mas a resposta dela não é a autoria."
+    }
+  ]
+}

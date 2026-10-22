@@ -1,0 +1,255 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra reconhecível.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este pintor acadêmico francês concluiu este quadro?",
+      "resposta": "1879",
+      "distratores": [
+        "1876",
+        "1881",
+        "1884"
+      ],
+      "ancora": {
+        "nome": "O Nascimento de Vênus (Bouguereau)",
+        "descricao": "Pintura de William-Adolphe Bouguereau que mostra Vênus de pé numa concha, cercada por tritões, ninfas e anjinhos.",
+        "variantes": [
+          "The Birth of Venus",
+          "La Naissance de Vénus",
+          "Nascimento de Vênus de Bouguereau"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem nítida e sem texto; trocada a família para quem_fez porque a datação é um intervalo (1647–1651).",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor espanhol do Século de Ouro fez este quadro?",
+      "resposta": "Diego Velázquez",
+      "ancora": {
+        "nome": "Vênus ao Espelho (Velázquez)",
+        "descricao": "Pintura de Velázquez que mostra Vênus nua, deitada de costas, olhando um espelho segurado por Cupido.",
+        "variantes": [
+          "Vênus de Rokeby",
+          "Rokeby Venus",
+          "La Venus del espejo",
+          "A Toilette de Vênus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; formato circular inconfundível.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome italiano se dá ao formato redondo deste quadro renascentista?",
+      "resposta": "Tondo",
+      "ancora": {
+        "nome": "Tondo Doni (Michelangelo)",
+        "descricao": "Pintura circular de Michelangelo, na Galeria Uffizi, que mostra a Sagrada Família com João Batista menino.",
+        "variantes": [
+          "Doni Tondo",
+          "Sagrada Família Doni",
+          "Madona Doni"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra muito conhecida na Rússia.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi pintado este quadro russo de uma floresta?",
+      "resposta": "1889",
+      "distratores": [
+        "1883",
+        "1886",
+        "1893"
+      ],
+      "ancora": {
+        "nome": "Manhã numa Floresta de Pinheiros (Shishkin)",
+        "descricao": "Pintura de Ivan Shishkin e Konstantin Savitsky que mostra ursos brincando num tronco caído numa floresta de pinheiros.",
+        "variantes": [
+          "Manhã num Pinhal",
+          "Morning in a Pine Forest",
+          "A Família de Ursos na Floresta"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto legível; obra reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rio russo aparece neste quadro realista?",
+      "resposta": "Rio Volga",
+      "ancora": {
+        "nome": "Os Barqueiros do Volga",
+        "descricao": "Pintura realista de Ilya Repin que mostra onze homens puxando uma barcaça à beira do rio.",
+        "variantes": [
+          "Rebocadores do Volga",
+          "Burlaki",
+          "Barge Haulers on the Volga"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; trocada a família para quem_fez porque a datação é um intervalo.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor holandês do século dezessete fez este quadro de um casal?",
+      "resposta": "Rembrandt",
+      "ancora": {
+        "nome": "A Noiva Judia (Rembrandt)",
+        "descricao": "Pintura de Rembrandt, de cerca de 1665 a 1669, que mostra um casal em gesto terno, ele com manga dourada e ela com vestido vermelho.",
+        "variantes": [
+          "The Jewish Bride",
+          "Het Joodse bruidje",
+          "A Noiva Judaica"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A assinatura 'R. Amoedo' e o ano são legíveis no canto inferior direito e entregam autoria e época.",
+      "ancora": {
+        "nome": "Más Notícias (Rodolfo Amoedo)",
+        "descricao": "Pintura de Rodolfo Amoedo, de 1895, que mostra uma mulher sentada numa poltrona, com a mão no rosto.",
+        "variantes": [
+          "Más Notícias"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem legível; cena de batalha medieval reconhecível. Os três painéis são do mesmo autor, então a resposta é única.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor florentino do século quinze fez este quadro de batalha?",
+      "resposta": "Paolo Uccello",
+      "ancora": {
+        "nome": "A Batalha de San Romano (Uccello)",
+        "descricao": "Conjunto de três painéis de Paolo Uccello sobre a batalha de 1432 entre Florença e Siena; a imagem mostra um deles, com cavaleiros e lanças em combate.",
+        "variantes": [
+          "Batalha de São Romano",
+          "The Battle of San Romano"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; trocada a família para onde porque a datação é um intervalo (1669–1670).",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Paris fica este quadro holandês do século dezessete?",
+      "resposta": "Museu do Louvre",
+      "distratores": [
+        "Museu d'Orsay",
+        "Museu Rodin",
+        "Museu Marmottan"
+      ],
+      "ancora": {
+        "nome": "A Rendeira (Vermeer)",
+        "descricao": "Pintura de Johannes Vermeer que mostra uma jovem de corpete amarelo fazendo renda de bilros.",
+        "variantes": [
+          "The Lacemaker",
+          "A Rendeira de Vermeer",
+          "A Renda"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra neoclássica muito reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que obra neoclássica francesa é esta?",
+      "resposta": "O Juramento dos Horácios",
+      "ancora": {
+        "nome": "O Juramento dos Horácios",
+        "descricao": "Pintura neoclássica de Jacques-Louis David, de 1784-1785, que mostra três irmãos romanos jurando diante de espadas erguidas pelo pai.",
+        "variantes": [
+          "Oath of the Horatii",
+          "Le Serment des Horaces",
+          "Juramento dos Horácios"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara e reconhecível; a assinatura no canto é quase ilegível e não entrega a resposta, pois a pergunta é sobre o museu.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu de Londres fica este quadro de duas meninas com lanternas?",
+      "resposta": "Tate Britain",
+      "ancora": {
+        "nome": "Cravo, Lírio, Lírio, Rosa (Sargent)",
+        "descricao": "Pintura de John Singer Sargent, de 1885-86, que mostra duas meninas de branco acendendo lanternas de papel num jardim florido.",
+        "variantes": [
+          "Carnation, Lily, Lily, Rose",
+          "Cravo, Lírio, Lírio, Rosa"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; estilo e tema reconhecíveis.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano, pouco depois de chegar a Paris, Van Gogh pintou este retrato?",
+      "resposta": "1887",
+      "distratores": [
+        "1885",
+        "1888",
+        "1889"
+      ],
+      "ancora": {
+        "nome": "Retrato do Père Tanguy (Van Gogh)",
+        "descricao": "Retrato de Julien Tanguy pintado por Van Gogh, com gravuras japonesas ao fundo; versão do Musée Rodin.",
+        "variantes": [
+          "Portrait of Père Tanguy",
+          "Retrato de Père Tanguy",
+          "Père Tanguy"
+        ]
+      }
+    }
+  ]
+}
