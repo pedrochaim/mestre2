@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Boxeador de luvas e roupão, figura pública; o texto no roupão é parcial e não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "O apelido deste boxeador brasileiro veio de qual personagem de desenho animado?",
+      "resposta": "Magilla Gorilla",
+      "destino": 6,
+      "ancora": {
+        "nome": "Maguila",
+        "descricao": "José Adílson Rodrigues dos Santos, boxeador brasileiro dos pesos-pesados, campeão WBF, conhecido como Maguila.",
+        "variantes": [
+          "Adílson Rodrigues",
+          "José Adílson Rodrigues dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Jogador com a camisa da seleção brasileira de vôlei, sem nome visível; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este jogador brasileiro de vôlei ganhou prata em Pequim 2008. Em qual outra edição olímpica ele também foi medalhista de prata?",
+      "resposta": "Londres 2012",
+      "distratores": [
+        "Atenas 2004",
+        "Sydney 2000",
+        "Barcelona 1992"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Murilo Endres",
+        "descricao": "Murilo Endres, jogador brasileiro de vôlei, campeão mundial em 2006 e 2010 e duas vezes prata olímpica.",
+        "variantes": [
+          "Murilo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Atleta sorridente com medalha e agasalho da delegação militar brasileira, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Este atleta brasileiro, especialista em arremesso de peso, ficou em que posição nas Olimpíadas de Tóquio?",
+      "resposta": "Quarto lugar",
+      "distratores": [
+        "Terceiro lugar",
+        "Quinto lugar",
+        "Sexto lugar"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Darlan Romani",
+        "descricao": "Darlan Romani, atleta brasileiro do arremesso de peso, campeão mundial indoor em 2022.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto escura, desfocada e de baixa resolução; o rosto não é reconhecível de forma confiável."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A placa visível diz SPITZ, o nome de outro nadador (Mark Spitz), o que induz ao erro e polui a identificação."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Figura pública reconhecível pelo boné e pela calça xadrez escocesa; textos pequenos não entregam o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Com qual equipe este ex-piloto escocês conquistou seus três títulos mundiais de Fórmula 1?",
+      "resposta": "Tyrrell",
+      "destino": 4,
+      "ancora": {
+        "nome": "Jackie Stewart",
+        "descricao": "Jackie Stewart, ex-piloto escocês, tricampeão mundial de Fórmula 1 pela Tyrrell.",
+        "variantes": [
+          "Sir John Young Stewart",
+          "The Flying Scot"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública, sem texto que entregue a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em qual único clube este goleiro brasileiro passou toda a carreira profissional?",
+      "resposta": "Palmeiras",
+      "destino": 0,
+      "ancora": {
+        "nome": "Marcos (goleiro)",
+        "descricao": "Marcos Roberto Silveira dos Reis, goleiro brasileiro campeão mundial em 2002 e ídolo do Palmeiras.",
+        "variantes": [
+          "São Marcos",
+          "Marcos Roberto Silveira dos Reis"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; a gravata com bandeiras náuticas é só uma dica discreta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em qual classe de barco este velejador brasileiro conquistou quatro de suas cinco medalhas olímpicas?",
+      "resposta": "Star",
+      "destino": 5,
+      "ancora": {
+        "nome": "Torben Grael",
+        "descricao": "Torben Grael, velejador brasileiro com cinco medalhas olímpicas, conhecido como Turbine.",
+        "variantes": [
+          "Torben Schmidt Grael",
+          "Turbine"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual clube italiano este atacante holandês foi três vezes Bola de Ouro?",
+      "resposta": "Milan",
+      "destino": 0,
+      "ancora": {
+        "nome": "Marco van Basten",
+        "descricao": "Marco van Basten, ex-atacante holandês de Ajax e Milan, três vezes vencedor da Bola de Ouro.",
+        "variantes": [
+          "Marcel van Basten"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este ex-jogador italiano ganhou a Bola de Ouro?",
+      "resposta": "1993",
+      "distratores": [
+        "1991",
+        "1992",
+        "1994"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Roberto Baggio",
+        "descricao": "Roberto Baggio, ex-meia e atacante italiano, Bola de Ouro e melhor do mundo da FIFA em 1993.",
+        "variantes": [
+          "Il Divin Codino"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; o agasalho traz só a sigla da delegação militar, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que judoca brasileira é esta?",
+      "resposta": "Sarah Menezes",
+      "distratores": [
+        "Rafaela Silva",
+        "Mayra Aguiar",
+        "Ketleyn Quadros"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Sarah Menezes",
+        "descricao": "Sarah Menezes, judoca brasileira, primeira brasileira campeã olímpica no judô, em Londres 2012.",
+        "variantes": [
+          "Sarah Gabrielle Cabral de Menezes"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato antigo nítido de figura pública, com a camisa listrada; o escudo é pequeno e não traz texto legível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em qual clube alemão este atacante marcou 365 gols na Bundesliga?",
+      "resposta": "Bayern de Munique",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gerd Müller",
+        "descricao": "Gerd Müller, atacante alemão campeão do mundo em 1974 e maior artilheiro histórico do Bayern de Munique.",
+        "variantes": [
+          "Gerhard Müller",
+          "Gerd Muller",
+          "Der Bomber"
+        ]
+      }
+    }
+  ]
+}

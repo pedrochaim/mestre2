@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que judoca brasileira é esta?",
+        "resposta": "Sarah Menezes"
+      },
+      "existentes": [
+        {
+          "id": "q06649",
+          "pergunta": "A piauiense Sarah Menezes tornou-se a primeira brasileira campeã olímpica de judô em que edição dos Jogos?",
+          "resposta": "Londres 2012"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade da judoca (provavelmente por imagem); a existente pede a edição olímpica em que ela foi campeã. São fatos diferentes, e a existente revela o nome mas a resposta não é a mesma."
+    }
+  ]
+}
