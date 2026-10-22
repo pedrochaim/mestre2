@@ -1,0 +1,213 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O texto 'ZETOR CRYSTAL 160' aparece no capô e no teto e entrega a marca e o modelo; além disso, a imagem é de um trator genérico."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Harrier AV-8A em voo pairado, silhueta inconfundível; as marcações 'Marines' não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jato de ataque é este?",
+      "resposta": "Harrier",
+      "distratores": [
+        "Sepecat Jaguar",
+        "Hawker Hunter",
+        "Northrop F-5"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hawker Siddeley Harrier",
+        "descricao": "Jato britânico de ataque com decolagem e pouso vertical ou curto, primeiro da série Harrier, usado pela RAF e, como AV-8A, pelos fuzileiros navais dos EUA.",
+        "variantes": [
+          "Harrier GR.1",
+          "AV-8A Harrier",
+          "Hawker Siddeley Harrier"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tiger I em museu, bem visível e inconfundível; o texto ao fundo não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que empresa alemã fabricou este tanque pesado da Segunda Guerra Mundial?",
+      "resposta": "Henschel",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tanque Tiger I",
+        "descricao": "Tanque pesado alemão da Segunda Guerra Mundial, armado com o canhão de 88 milímetros, em serviço a partir de 1942.",
+        "variantes": [
+          "Tiger I",
+          "Panzerkampfwagen VI Tiger",
+          "Panzer VI Tiger"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O carro traz o nome 'Gilles Villeneuve', o logotipo da Ferrari e 'Ferrari F1 126 C' na marca d'água, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A palavra 'GOODYEAR' está em letras enormes no dirigível e entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Sedã Lada de linha clássica, bem enquadrado; a placa alemã não entrega a resposta e as pessoas ao fundo estão desfocadas e pequenas.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que marca russa fabricou este sedã?",
+      "resposta": "Lada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lada Riva",
+        "descricao": "Sedã compacto soviético da série Zhiguli, derivado do Fiat 124 e produzido pela AvtoVAZ a partir de 1979, vendido em alguns mercados como Lada Riva ou Laika.",
+        "variantes": [
+          "Lada Laika",
+          "Lada 2107",
+          "VAZ-2107",
+          "Lada Nova",
+          "Lada Classic"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Torre e passarela do Elevador Lacerda com a Baía de Todos os Santos ao fundo; sem texto, reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurado este elevador urbano?",
+      "resposta": "1873",
+      "distratores": [
+        "1853",
+        "1863",
+        "1883"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador, na Bahia, que liga a Cidade Baixa à Cidade Alta, inaugurado em 1873.",
+        "variantes": [
+          "Elevador Lacerda de Salvador",
+          "Lacerda Elevator"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica do primeiro voo do Flyer, em 1903, sem texto; o homem ao fundo é um dos participantes do evento, não uma pessoa comum em primeiro plano.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano esta aeronave realizou seu primeiro voo motorizado?",
+      "resposta": "1903",
+      "distratores": [
+        "1901",
+        "1905",
+        "1907"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Flyer dos irmãos Wright",
+        "descricao": "Biplano construído por Orville e Wilbur Wright, que realizou o primeiro voo sustentado e controlado de uma aeronave motorizada mais pesada que o ar.",
+        "variantes": [
+          "Wright Flyer",
+          "Kitty Hawk",
+          "Flyer I",
+          "Flyer de 1903"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A grade traz a palavra 'TROLLER' em destaque, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Jato regional Embraer E-Jet em voo, nítido; a pintura da companhia aérea não entrega o fabricante.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fabricante construiu este jato regional?",
+      "resposta": "Embraer",
+      "distratores": [
+        "Bombardier",
+        "Fokker",
+        "Sukhoi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Embraer E-Jet",
+        "descricao": "Família de jatos comerciais regionais de corredor único, com quatro assentos por fileira, projetada e produzida pela brasileira Embraer.",
+        "variantes": [
+          "Embraer E175",
+          "Embraer E-Jets",
+          "Embraer 175",
+          "Embraer E170"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Golf Mk1 de frente e três quartos, com placa em branco e sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este carro estreou na Europa?",
+      "resposta": "1974",
+      "distratores": [
+        "1970",
+        "1972",
+        "1976"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Volkswagen Golf Mk1",
+        "descricao": "Primeira geração do Golf, compacto de tração dianteira da Volkswagen, desenhado por Giugiaro e lançado em 1974 como sucessor do Fusca.",
+        "variantes": [
+          "Golf Mk1",
+          "Volkswagen Rabbit",
+          "VW Golf I",
+          "Golf I"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "F-16 em voo, nítido; o código de cauda e o número não entregam o modelo ou o fabricante.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que empresa americana projetou este caça?",
+      "resposta": "General Dynamics (hoje Lockheed Martin)",
+      "destino": 0,
+      "ancora": {
+        "nome": "F-16 Fighting Falcon",
+        "descricao": "Caça americano monomotor supersônico multifunção, desenvolvido pela General Dynamics a partir de 1974 e produzido hoje pela Lockheed Martin.",
+        "variantes": [
+          "F-16",
+          "General Dynamics F-16",
+          "Viper"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; Harrier é a resposta correta e os distratores são jatos de ataque britânicos/ocidentais críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma produção do Tiger I na Henschel em Kassel; enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lada é a marca, produzida pela AvtoVAZ russa; enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 1873 confirmada; distratores são anos críveis e no mesmo formato, e a pergunta é múltipla.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro voo em 17 de dezembro de 1903 confirmado; pergunta múltipla com distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Embraer confirmada como fabricante; distratores são fabricantes regionais críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma estreia europeia em maio de 1974; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta com 'hoje Lockheed Martin' mistura quem projetou com quem produz hoje, e é pouco atemporal. Quem projetou foi a General Dynamics.",
+      "reescrita": {
+        "pergunta": "Que empresa americana projetou este caça?",
+        "resposta": "General Dynamics"
+      }
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Hawker Siddeley Harrier",
+        "descricao": "Jato britânico de ataque com decolagem e pouso vertical ou curto, primeiro da série Harrier, usado pela RAF e, como AV-8A, pelos fuzileiros navais dos EUA.",
+        "variantes": [
+          "Harrier",
+          "Harrier GR.1",
+          "AV-8A Harrier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mr_mime_de_delia",
+          "nome": "Mr. Mime de Delia",
+          "descricao": "Mr. Mime que vive com Delia Ketchum, mãe de Ash, em Pallet, no anime Pokémon, e ajuda nas tarefas da casa.",
+          "variantes": [
+            "Mimey",
+            "Delia's Mr. Mime",
+            "Barrierd"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "chapada_do_araripe",
+          "nome": "Chapada do Araripe",
+          "descricao": "Planalto do Nordeste brasileiro, famoso por fósseis do Cretáceo, como peixes e pterossauros.",
+          "variantes": [
+            "Araripe",
+            "Bacia do Araripe"
+          ]
+        },
+        {
+          "id": "herdier",
+          "nome": "Herdier",
+          "descricao": "Pokémon do tipo Normal, número 507 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tanque Tiger I",
+        "descricao": "Tanque pesado alemão da Segunda Guerra Mundial, armado com o canhão de 88 milímetros, em serviço a partir de 1942.",
+        "variantes": [
+          "Tiger I",
+          "Panzerkampfwagen VI Tiger",
+          "Panzer VI Tiger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tanque_tiger_i",
+          "nome": "Tanque Tiger I",
+          "descricao": "Tanque pesado alemão da Segunda Guerra Mundial com canhão de 88 mm, em serviço a partir de 1942.",
+          "variantes": [
+            "Panzerkampfwagen VI Tiger",
+            "Tiger",
+            "Panzer VI"
+          ]
+        },
+        {
+          "id": "tanque_panther",
+          "nome": "Tanque Panther",
+          "descricao": "Tanque médio alemão Panzerkampfwagen V Panther, usado na Segunda Guerra Mundial a partir de 1943.",
+          "variantes": [
+            "Panzer V",
+            "Panzerkampfwagen V Panther",
+            "Pz.Kpfw. V"
+          ]
+        },
+        {
+          "id": "mark_i_tanque",
+          "nome": "Mark I (tanque)",
+          "descricao": "Primeiro tanque britânico usado em combate, estreado na Batalha do Somme em 1916.",
+          "variantes": [
+            "Tanque Mark I"
+          ]
+        },
+        {
+          "id": "t_34",
+          "nome": "T-34",
+          "descricao": "Tanque médio soviético, peça central das forças blindadas do Exército Vermelho na Segunda Guerra Mundial.",
+          "variantes": [
+            "Tanque T-34"
+          ]
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lada Riva",
+        "descricao": "Sedã compacto soviético da série Zhiguli, derivado do Fiat 124 e produzido pela AvtoVAZ a partir de 1979, vendido em alguns mercados como Lada Riva ou Laika.",
+        "variantes": [
+          "Lada Laika",
+          "Lada 2107",
+          "VAZ-2107",
+          "Lada Nova",
+          "Lada Classic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "balalaica",
+          "nome": "Balalaica",
+          "descricao": "Instrumento de cordas russo, de corpo triangular e três cordas.",
+          "variantes": [
+            "Balalaika"
+          ]
+        },
+        {
+          "id": "lago_de_lava",
+          "nome": "Lago de lava",
+          "descricao": "Grande volume de lava fundida contido numa cratera ou depressão de um vulcão.",
+          "variantes": [
+            "Lava lake"
+          ]
+        },
+        {
+          "id": "lago_da_furia",
+          "nome": "Lago da Fúria",
+          "descricao": "Lago da região de Johto, nos jogos Pokémon Gold e Silver, onde aparece um Gyarados vermelho.",
+          "variantes": [
+            "Lake of Rage"
+          ]
+        },
+        {
+          "id": "evangelho",
+          "nome": "Evangelho",
+          "descricao": "Cada um dos relatos da vida e dos ensinamentos de Jesus, e a mensagem cristã em geral",
+          "variantes": [
+            "Evangelhos",
+            "Boa-nova"
+          ]
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Elevador Lacerda",
+        "descricao": "Elevador urbano de Salvador, na Bahia, que liga a Cidade Baixa à Cidade Alta, inaugurado em 1873.",
+        "variantes": [
+          "Elevador Lacerda de Salvador",
+          "Lacerda Elevator"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elevador_lacerda",
+          "nome": "Elevador Lacerda",
+          "descricao": "Elevador público de Salvador que liga a Cidade Baixa à Cidade Alta.",
+          "variantes": [
+            "Elevador Hidráulico da Conceição"
+          ]
+        },
+        {
+          "id": "freio_de_seguranca_do_elevador",
+          "nome": "Freio de segurança do elevador",
+          "descricao": "Mecanismo que trava a cabine do elevador caso o cabo se rompa, demonstrado em 1854 em Nova York.",
+          "variantes": [
+            "Elevador de segurança"
+          ]
+        },
+        {
+          "id": "leao_de_lucerna",
+          "nome": "Leão de Lucerna",
+          "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+          "variantes": [
+            "Löwendenkmal",
+            "Monumento do Leão"
+          ]
+        },
+        {
+          "id": "ojos_del_salado",
+          "nome": "Ojos del Salado",
+          "descricao": "Vulcão dos Andes na fronteira entre Argentina e Chile, com cerca de 6 900 metros de altitude.",
+          "variantes": [
+            "Nevado Ojos del Salado"
+          ]
+        },
+        {
+          "id": "nara_leao",
+          "nome": "Nara Leão",
+          "descricao": "Cantora capixaba criada no Rio, chamada de musa da bossa nova, morta em 1989.",
+          "variantes": [
+            "Nara Lofego Leão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Flyer dos irmãos Wright",
+        "descricao": "Biplano construído por Orville e Wilbur Wright, que realizou o primeiro voo sustentado e controlado de uma aeronave motorizada mais pesada que o ar.",
+        "variantes": [
+          "Wright Flyer",
+          "Kitty Hawk",
+          "Flyer I",
+          "Flyer de 1903"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wright_flyer",
+          "nome": "Wright Flyer",
+          "descricao": "Avião dos irmãos Wright que voou em Kitty Hawk, nos Estados Unidos, em 17 de dezembro de 1903.",
+          "variantes": [
+            "Flyer",
+            "Flyer I"
+          ]
+        },
+        {
+          "id": "tony_hawk",
+          "nome": "Tony Hawk",
+          "descricao": "Skatista profissional americano, um dos nomes mais famosos do skate vertical.",
+          "variantes": [
+            "Anthony Frank Hawk"
+          ]
+        },
+        {
+          "id": "irmaos_wright",
+          "nome": "Irmãos Wright",
+          "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903.",
+          "variantes": [
+            "Wright brothers",
+            "Orville e Wilbur Wright"
+          ]
+        },
+        {
+          "id": "ford_modelo_a_1903",
+          "nome": "Ford Modelo A (1903)",
+          "descricao": "Primeiro automóvel produzido e vendido pela Ford Motor Company, lançado em 1903.",
+          "variantes": [
+            "Ford Model A (1903–1904)"
+          ]
+        },
+        {
+          "id": "bomba_voadora_v_1",
+          "nome": "Bomba voadora V-1",
+          "descricao": "Míssil de cruzeiro alemão Fieseler Fi 103, com motor a pulso, usado contra Londres a partir de 1944.",
+          "variantes": [
+            "V-1",
+            "Fieseler Fi 103",
+            "Buzz bomb",
+            "Doodlebug",
+            "Vergeltungswaffe 1"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Embraer E-Jet",
+        "descricao": "Família de jatos comerciais regionais de corredor único, com quatro assentos por fileira, projetada e produzida pela brasileira Embraer.",
+        "variantes": [
+          "Embraer E175",
+          "Embraer E-Jets",
+          "Embraer 175",
+          "Embraer E170"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "embraer_super_tucano",
+          "nome": "Embraer Super Tucano",
+          "descricao": "Avião turboélice brasileiro de ataque leve e contrainsurgência da Embraer, também chamado A-29.",
+          "variantes": [
+            "EMB 314 Super Tucano",
+            "A-29",
+            "ALX",
+            "Embraer EMB-314"
+          ]
+        },
+        {
+          "id": "struggle",
+          "nome": "Struggle",
+          "descricao": "Golpe dos jogos Pokémon usado automaticamente quando o pokémon não tem mais pontos de poder em nenhum golpe, e que fere o próprio usuário.",
+          "variantes": [
+            "Debater-se"
+          ]
+        },
+        {
+          "id": "embraer_bandeirante",
+          "nome": "Embraer Bandeirante",
+          "descricao": "Avião turboélice bimotor leve de transporte EMB 110, projetado pela Embraer e lançado no fim dos anos 1960.",
+          "variantes": [
+            "EMB 110",
+            "Embraer EMB 110 Bandeirante",
+            "EMB-110"
+          ]
+        },
+        {
+          "id": "maria_mae_de_jesus",
+          "nome": "Maria, mãe de Jesus",
+          "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+          "variantes": [
+            "Virgem Maria",
+            "Nossa Senhora",
+            "Maryam"
+          ]
+        },
+        {
+          "id": "johannes_vermeer",
+          "nome": "Johannes Vermeer",
+          "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+          "variantes": [
+            "Jan Vermeer",
+            "Vermeer de Delft"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Volkswagen Golf Mk1",
+        "descricao": "Primeira geração do Golf, compacto de tração dianteira da Volkswagen, desenhado por Giugiaro e lançado em 1974 como sucessor do Fusca.",
+        "variantes": [
+          "Golf Mk1",
+          "Volkswagen Rabbit",
+          "VW Golf I",
+          "Golf I"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volkswagen_gol",
+          "nome": "Volkswagen Gol",
+          "descricao": "Carro compacto fabricado pela Volkswagen do Brasil de 1980 a 2023, o mais vendido do país por 27 anos seguidos.",
+          "variantes": [
+            "Gol",
+            "VW Gol"
+          ]
+        },
+        {
+          "id": "volkswagen_1600_ze_do_caixao",
+          "nome": "Volkswagen 1600 (Zé do Caixão)",
+          "descricao": "Sedã de quatro portas da Volkswagen com motor traseiro refrigerado a ar, lançado no Brasil em 1968 e baseado na mecânica do Fusca.",
+          "variantes": [
+            "Volkswagen Variant",
+            "Volkswagen 1600 sedã",
+            "Zé do Caixão",
+            "VW 1600"
+          ]
+        },
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter",
+            "Volkswagen Transporter"
+          ]
+        },
+        {
+          "id": "volkswagen_brasilia",
+          "nome": "Volkswagen Brasília",
+          "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+          "variantes": [
+            "Brasília",
+            "VW Brasília"
+          ]
+        },
+        {
+          "id": "volkswagen_fusca",
+          "nome": "Volkswagen Fusca",
+          "descricao": "Carro compacto de motor traseiro da Volkswagen, projetado na Alemanha nos anos trinta e conhecido mundialmente como Beetle.",
+          "variantes": [
+            "Fusca",
+            "Volkswagen Beetle",
+            "Volkswagen Käfer",
+            "Volkswagen Tipo 1",
+            "Fusquinha",
+            "Käfer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "F-16 Fighting Falcon",
+        "descricao": "Caça americano monomotor supersônico multifunção, desenvolvido pela General Dynamics a partir de 1974 e produzido hoje pela Lockheed Martin.",
+        "variantes": [
+          "F-16",
+          "General Dynamics F-16",
+          "Viper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "seviper",
+          "nome": "Seviper",
+          "descricao": "Pokémon do tipo Venenoso, número 336 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ziper",
+          "nome": "Zíper",
+          "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+          "variantes": [
+            "Zipper",
+            "Fecho éclair",
+            "Fecho de correr"
+          ]
+        },
+        {
+          "id": "f_14_tomcat",
+          "nome": "F-14 Tomcat",
+          "descricao": "Caça embarcado americano supersônico de dois motores e asas de geometria variável, usado pela Marinha dos EUA.",
+          "variantes": [
+            "Grumman F-14 Tomcat",
+            "F-14"
+          ]
+        },
+        {
+          "id": "ipe_amarelo",
+          "nome": "Ipê-amarelo",
+          "descricao": "Árvore brasileira de flores amarelas, comum no Cerrado e símbolo da estação seca",
+          "variantes": [
+            "Ipê",
+            "Handroanthus"
+          ]
+        },
+        {
+          "id": "vieira",
+          "nome": "Vieira",
+          "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+          "variantes": [
+            "Scallop",
+            "Pectinidae"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Harrier."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "tanque_tiger_i",
+      "motivo": "Mesmo tanque Tiger I, mesma descrição."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Lada Riva."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "elevador_lacerda",
+      "motivo": "Mesmo elevador de Salvador."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "wright_flyer",
+      "motivo": "Mesmo avião Wright Flyer; os irmãos Wright são entidade distinta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Família E-Jet não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Golf Mk1 não está entre as candidatas; Gol e Fusca são outros modelos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "F-16 não está entre as candidatas."
+    }
+  ]
+}

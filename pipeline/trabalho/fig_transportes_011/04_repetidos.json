@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que empresa alemã fabricou este tanque pesado da Segunda Guerra Mundial?",
+        "resposta": "Henschel"
+      },
+      "existentes": [
+        {
+          "id": "q14344",
+          "pergunta": "Que tanque alemão da Segunda Guerra Mundial é este?",
+          "resposta": "Tiger I"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurado este elevador urbano?",
+        "resposta": "1873"
+      },
+      "existentes": [
+        {
+          "id": "q04541",
+          "pergunta": "Em Salvador, o Elevador Lacerda liga a Cidade Baixa à Cidade Alta. Em que século ele foi inaugurado?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q05437",
+          "pergunta": "Ligando a Cidade Baixa à Cidade Alta de Salvador, o Elevador Lacerda transportou os primeiros passageiros no reinado de qual imperador?",
+          "resposta": "Dom Pedro II"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o fabricante (Henschel). A existente quer o nome do tanque (Tiger I). São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quer o ano exato da inauguração (1873). A existente quer só o século, e a outra quer o imperador. Saber o século não dá o ano, então decidi nova."
+    }
+  ]
+}
