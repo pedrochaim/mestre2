@@ -1,0 +1,610 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bandeira do Amazonas",
+        "descricao": "Bandeira do estado brasileiro do Amazonas, com canto azul de estrelas e faixa vermelha central.",
+        "variantes": [
+          "Amazonas (estado)",
+          "Bandeira do estado do Amazonas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amazonas_estado",
+          "nome": "Amazonas (estado)",
+          "descricao": "Estado da Região Norte do Brasil, o maior em área, com capital em Manaus.",
+          "variantes": [
+            "Estado do Amazonas"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bandeira do País Basco",
+        "descricao": "Ikurriña, bandeira da comunidade autônoma do País Basco, com cruz branca e verde sobre fundo vermelho.",
+        "variantes": [
+          "País Basco",
+          "Ikurriña",
+          "Euskadi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        },
+        {
+          "id": "bandeira_do_pais_de_gales",
+          "nome": "Bandeira do País de Gales",
+          "descricao": "Bandeira do País de Gales, com um dragão vermelho sobre faixas branca e verde.",
+          "variantes": [
+            "Y Ddraig Goch",
+            "Dragão Vermelho"
+          ]
+        },
+        {
+          "id": "bandeira_do_libano",
+          "nome": "Bandeira do Líbano",
+          "descricao": "Bandeira nacional do Líbano, com faixas vermelhas e um cedro verde sobre a faixa branca central.",
+          "variantes": [
+            "Bandeira libanesa"
+          ]
+        },
+        {
+          "id": "korrina",
+          "nome": "Korrina",
+          "descricao": "Líder do ginásio de tipo Lutador de Shalour, em Kalos, nos jogos Pokémon X e Y, que anda de patins.",
+          "variantes": [
+            "Corni"
+          ]
+        },
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandeira de Goiás",
+        "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+        "variantes": [
+          "Goiás",
+          "Bandeira do estado de Goiás"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        },
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "bandeira_de_ohio",
+          "nome": "Bandeira de Ohio",
+          "descricao": "Bandeira do estado americano de Ohio, em forma de flâmula com duas pontas.",
+          "variantes": [
+            "Ohio burgee"
+          ]
+        },
+        {
+          "id": "bandeira_de_gadsden",
+          "nome": "Bandeira de Gadsden",
+          "descricao": "Bandeira amarela com uma cascavel enrolada e o lema 'Dont Tread on Me', criada por Christopher Gadsden em 1775.",
+          "variantes": [
+            "Gadsden flag",
+            "Don't Tread on Me"
+          ]
+        },
+        {
+          "id": "bandeira_do_estado_de_sao_paulo",
+          "nome": "Bandeira do estado de São Paulo",
+          "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas.",
+          "variantes": [
+            "Bandeira paulista",
+            "Bandeira das treze listras"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira do Rio Grande do Norte",
+        "descricao": "Bandeira do estado brasileiro do Rio Grande do Norte, com faixas verde e branca e brasão amarelo com jangada.",
+        "variantes": [
+          "Rio Grande do Norte",
+          "Bandeira do estado do Rio Grande do Norte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_grande_do_norte",
+          "nome": "Rio Grande do Norte",
+          "descricao": "Estado do Nordeste do Brasil, na ponta nordeste da América do Sul, com capital em Natal.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_rio_grande_do_sul",
+          "nome": "Bandeira do Rio Grande do Sul",
+          "descricao": "Bandeira do estado do Rio Grande do Sul, com faixas diagonais verde, vermelha e amarela e o brasão estadual.",
+          "variantes": [
+            "Bandeira gaúcha"
+          ]
+        },
+        {
+          "id": "natal",
+          "nome": "Natal",
+          "descricao": "Capital do Rio Grande do Norte, que abrigou uma grande base aérea aliada na Segunda Guerra Mundial.",
+          "variantes": [
+            "Natal (Rio Grande do Norte)"
+          ]
+        },
+        {
+          "id": "bandeira_da_coreia_do_norte",
+          "nome": "Bandeira da Coreia do Norte",
+          "descricao": "Bandeira nacional da Coreia do Norte, com faixas azuis, vermelha e um disco branco com estrela vermelha.",
+          "variantes": [
+            "Coreia do Norte",
+            "Bandeira norte-coreana"
+          ]
+        },
+        {
+          "id": "rio_grande",
+          "nome": "Rio Grande",
+          "descricao": "Rio da América do Norte que forma a fronteira entre o Texas, nos Estados Unidos, e o México.",
+          "variantes": [
+            "Río Bravo",
+            "Río Bravo del Norte",
+            "Rio Grande do Norte americano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bandeira da ONU",
+        "descricao": "Bandeira da Organização das Nações Unidas, com emblema branco do mapa-múndi e ramos de oliveira sobre fundo azul.",
+        "variantes": [
+          "Organização das Nações Unidas",
+          "Bandeira das Nações Unidas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_das_nacoes_unidas",
+          "nome": "Bandeira das Nações Unidas",
+          "descricao": "Bandeira oficial da ONU, azul-clara com um mapa-múndi branco entre ramos de oliveira.",
+          "variantes": [
+            "Bandeira da ONU",
+            "Flag of the United Nations"
+          ]
+        },
+        {
+          "id": "bandeira_da_bosnia_e_herzegovina",
+          "nome": "Bandeira da Bósnia e Herzegovina",
+          "descricao": "Bandeira nacional da Bósnia e Herzegovina, azul com triângulo amarelo e fileira de estrelas brancas.",
+          "variantes": [
+            "Bósnia e Herzegovina",
+            "Bandeira da Bósnia"
+          ]
+        },
+        {
+          "id": "bandeira_da_uniao_sovietica",
+          "nome": "Bandeira da União Soviética",
+          "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+          "variantes": [
+            "Bandeira da URSS",
+            "Bandeira Vermelha soviética",
+            "Flag of the Soviet Union"
+          ]
+        },
+        {
+          "id": "sede_das_nacoes_unidas",
+          "nome": "Sede das Nações Unidas",
+          "descricao": "Complexo de edifícios da sede da ONU em Manhattan, Nova York, concluído em 1952.",
+          "variantes": [
+            "Sede da ONU",
+            "Headquarters of the United Nations"
+          ]
+        },
+        {
+          "id": "bandeira_da_noruega",
+          "nome": "Bandeira da Noruega",
+          "descricao": "Bandeira nacional atual do Reino da Noruega, vermelha com cruz nórdica azul bordada de branco.",
+          "variantes": [
+            "Noruega",
+            "Norges flagg"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bandeira de Mato Grosso",
+        "descricao": "Bandeira do estado brasileiro de Mato Grosso, com losango branco, círculo verde e estrela amarela sobre fundo azul-escuro.",
+        "variantes": [
+          "Mato Grosso",
+          "Bandeira do estado de Mato Grosso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mato_grosso",
+          "nome": "Mato Grosso",
+          "descricao": "Estado da região Centro-Oeste do Brasil, terceiro maior em área, cuja capital é Cuiabá.",
+          "variantes": [
+            "MT"
+          ]
+        },
+        {
+          "id": "bandeira_do_estado_de_sao_paulo",
+          "nome": "Bandeira do estado de São Paulo",
+          "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas.",
+          "variantes": [
+            "Bandeira paulista",
+            "Bandeira das treze listras"
+          ]
+        },
+        {
+          "id": "bandeira_de_betsy_ross",
+          "nome": "Bandeira de Betsy Ross",
+          "descricao": "Antiga bandeira dos Estados Unidos com treze listras e treze estrelas dispostas em círculo.",
+          "variantes": [
+            "Betsy Ross flag"
+          ]
+        },
+        {
+          "id": "ney_matogrosso",
+          "nome": "Ney Matogrosso",
+          "descricao": "Cantor brasileiro de voz de contratenor, ex-vocalista dos Secos & Molhados.",
+          "variantes": [
+            "Ney de Souza Pereira"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira das Ilhas Faroé",
+        "descricao": "Bandeira do território autônomo dinamarquês das Ilhas Faroé, com cruz vermelha com contorno azul sobre fundo branco.",
+        "variantes": [
+          "Ilhas Faroé",
+          "Bandeira das Ilhas Feroe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_faroe",
+          "nome": "Ilhas Faroé",
+          "descricao": "Arquipélago do Atlântico Norte entre a Islândia, a Noruega e a Escócia, território autônomo do Reino da Dinamarca.",
+          "variantes": [
+            "Ilhas Feroe",
+            "Faroe Islands",
+            "Ilhas Faroes"
+          ]
+        },
+        {
+          "id": "bandeira_de_fiji",
+          "nome": "Bandeira de Fiji",
+          "descricao": "Bandeira de Fiji, azul-clara com a Union Jack no canto e o brasão nacional.",
+          "variantes": [
+            "Fiji",
+            "Bandeira das Ilhas Fiji"
+          ]
+        },
+        {
+          "id": "bandeira_da_europa",
+          "nome": "Bandeira da Europa",
+          "descricao": "Bandeira do Conselho da Europa e da União Europeia, azul com um círculo de doze estrelas douradas.",
+          "variantes": [
+            "Bandeira da União Europeia",
+            "Bandeira europeia"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "ilhas_lofoten",
+          "nome": "Ilhas Lofoten",
+          "descricao": "Arquipélago do condado de Nordland, na Noruega, acima do Círculo Polar Ártico.",
+          "variantes": [
+            "Lofoten"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bandeira de Minas Gerais",
+        "descricao": "Bandeira do estado brasileiro de Minas Gerais, triângulo vermelho sobre fundo branco com o lema Libertas quae sera tamen.",
+        "variantes": [
+          "Minas Gerais",
+          "Bandeira do estado de Minas Gerais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "minas_gerais",
+          "nome": "Minas Gerais",
+          "descricao": "Estado da Região Sudeste do Brasil, com capital em Belo Horizonte.",
+          "variantes": [
+            "MG"
+          ]
+        },
+        {
+          "id": "bandeira_do_estado_de_sao_paulo",
+          "nome": "Bandeira do estado de São Paulo",
+          "descricao": "Bandeira do estado de São Paulo, com listras pretas e brancas e um retângulo vermelho com o mapa do Brasil e estrelas.",
+          "variantes": [
+            "Bandeira paulista",
+            "Bandeira das treze listras"
+          ]
+        },
+        {
+          "id": "bandeira_de_israel",
+          "nome": "Bandeira de Israel",
+          "descricao": "Bandeira nacional de Israel, branca com duas faixas azuis horizontais e a Estrela de Davi.",
+          "variantes": [
+            "Flag of Israel"
+          ]
+        },
+        {
+          "id": "bandeira_de_sergipe",
+          "nome": "Bandeira de Sergipe",
+          "descricao": "Bandeira do estado brasileiro de Sergipe, com quatro listras verdes e amarelas e cinco estrelas brancas em campo azul.",
+          "variantes": [
+            "Sergipe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bandeira de Hong Kong",
+        "descricao": "Bandeira da região administrativa especial de Hong Kong, com flor de bauhínia branca sobre fundo vermelho.",
+        "variantes": [
+          "Hong Kong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hong_kong",
+          "nome": "Hong Kong",
+          "descricao": "Região administrativa especial da China, no sul do país.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "bandeira_de_monaco",
+          "nome": "Bandeira de Mônaco",
+          "descricao": "Bandeira nacional do Principado de Mônaco, com duas faixas horizontais, vermelha e branca.",
+          "variantes": [
+            "Flag of Monaco"
+          ]
+        },
+        {
+          "id": "bandeira_de_ohio",
+          "nome": "Bandeira de Ohio",
+          "descricao": "Bandeira do estado americano de Ohio, em forma de flâmula com duas pontas.",
+          "variantes": [
+            "Ohio burgee"
+          ]
+        },
+        {
+          "id": "bandeira_da_mongolia",
+          "nome": "Bandeira da Mongólia",
+          "descricao": "Bandeira nacional atual da Mongólia, com três faixas verticais vermelha, azul e vermelha e o símbolo soyombo amarelo.",
+          "variantes": [
+            "Mongólia",
+            "Bandeira mongol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Bandeira de Rondônia",
+        "descricao": "Bandeira do estado brasileiro de Rondônia, com faixas azul e amarela, estrela branca e triângulo verde.",
+        "variantes": [
+          "Rondônia",
+          "Bandeira do estado de Rondônia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rondonia",
+          "nome": "Rondônia",
+          "descricao": "Estado da Região Norte do Brasil, na fronteira com a Bolívia, com capital em Porto Velho.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_dominica",
+          "nome": "Bandeira de Dominica",
+          "descricao": "Bandeira atual de Dominica, ilha caribenha: cruz de três cores sobre verde com disco vermelho e um papagaio sisserou.",
+          "variantes": [
+            "Dominica",
+            "Bandeira da Comunidade da Dominica"
+          ]
+        },
+        {
+          "id": "bandeira_de_granada",
+          "nome": "Bandeira de Granada",
+          "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+          "variantes": [
+            "Bandeira granadina"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "bandeira_da_mongolia",
+          "nome": "Bandeira da Mongólia",
+          "descricao": "Bandeira nacional atual da Mongólia, com três faixas verticais vermelha, azul e vermelha e o símbolo soyombo amarelo.",
+          "variantes": [
+            "Mongólia",
+            "Bandeira mongol"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bandeira do Amazonas é diferente do estado; nenhuma candidata é a bandeira."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira do País Basco."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A candidata Goiás é o estado, não a bandeira."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A candidata é o estado, não a bandeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "bandeira_das_nacoes_unidas",
+      "motivo": "Mesma bandeira da ONU, descrição compatível."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidata Mato Grosso é o estado, não a bandeira."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Candidata Ilhas Faroé é o arquipélago, não a bandeira."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "bandeira_de_minas_gerais",
+      "motivo": "Mesma bandeira, descrições coincidem."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Candidata Hong Kong é a região, não a bandeira."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Candidata Rondônia é o estado, não a bandeira."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado não nomeia o estado e, sem a figura, vários estados poderiam caber, então a figura é necessária. O estado Amazonas leva o nome do Rio Amazonas, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento. A ikurriña identifica o País Basco e o trecho confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A capital de Goiás é Goiânia, confirmada nos trechos. O enunciado não nomeia o estado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são estados nordestinos de mesmo tipo e nenhum deles é correto. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A sede da ONU fica em Nova York, confirmada nos trechos. O enunciado não nomeia a organização.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 direto, sem vazamento. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são territórios nórdicos ou insulares plausíveis e nenhum é correto. Não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 direto, sem vazamento. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pela pista \"região administrativa especial\", a pergunta se responde sem a figura: China. A figura virou enfeite. Reescrita para pedir o reconhecimento da bandeira, com distratores visualmente e conceitualmente próximos.",
+      "reescrita": {
+        "pergunta": "De que lugar é esta bandeira?",
+        "resposta": "Hong Kong",
+        "distratores": [
+          "Macau",
+          "Singapura",
+          "Taiwan"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cobrindo a imagem, \"sertanista que deu nome a um estado\" já entrega Rondon, então a figura é enfeite. Reescrita para a capital do estado, que exige reconhecer a bandeira. A capital, Porto Velho, está no trecho em inglês.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do estado desta bandeira?",
+        "resposta": "Porto Velho"
+      }
+    }
+  ]
+}

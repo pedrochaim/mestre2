@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade fica a sede da organização desta bandeira?",
+        "resposta": "Nova York"
+      },
+      "existentes": [
+        {
+          "id": "q02391",
+          "pergunta": "O mapa-múndi da bandeira das Nações Unidas é desenhado com qual ponto do planeta bem no centro?",
+          "resposta": "Polo Norte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A sede da ONU em Nova York é um fato diferente do ponto central do mapa na bandeira (Polo Norte)."
+    }
+  ]
+}

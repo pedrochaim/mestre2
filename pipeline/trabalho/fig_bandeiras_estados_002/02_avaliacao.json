@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que rio dá nome ao estado desta bandeira?",
+      "resposta": "Rio Amazonas",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Amazonas",
+        "descricao": "Bandeira do estado brasileiro do Amazonas, com canto azul de estrelas e faixa vermelha central.",
+        "variantes": [
+          "Bandeira do estado do Amazonas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ikurriña nítida, sem texto, inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que região é esta bandeira?",
+      "resposta": "País Basco",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do País Basco",
+        "descricao": "Ikurriña, bandeira da comunidade autônoma do País Basco, com cruz branca e verde sobre fundo vermelho.",
+        "variantes": [
+          "Ikurriña",
+          "Euskadi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A bandeira traz escrito 'Estado de Sta. Catarina' no listel, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado desta bandeira?",
+      "resposta": "Goiânia",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Goiás",
+        "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+        "variantes": [
+          "Bandeira do estado de Goiás"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira com brasão sem texto, reconhecível; múltipla com vizinhos nordestinos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado nordestino é esta bandeira?",
+      "resposta": "Rio Grande do Norte",
+      "distratores": [
+        "Paraíba",
+        "Sergipe",
+        "Alagoas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Rio Grande do Norte",
+        "descricao": "Bandeira do estado brasileiro do Rio Grande do Norte, com faixas verde e branca e brasão amarelo com jangada.",
+        "variantes": [
+          "Bandeira do estado do Rio Grande do Norte"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica a sede da organização desta bandeira?",
+      "resposta": "Nova York",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da ONU",
+        "descricao": "Bandeira da Organização das Nações Unidas, com emblema branco do mapa-múndi e ramos de oliveira sobre fundo azul.",
+        "variantes": [
+          "Bandeira das Nações Unidas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, resposta única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado é esta bandeira?",
+      "resposta": "Mato Grosso",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Mato Grosso",
+        "descricao": "Bandeira do estado brasileiro de Mato Grosso, com losango branco, círculo verde e estrela amarela sobre fundo azul-escuro.",
+        "variantes": [
+          "Bandeira do estado de Mato Grosso"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; múltipla com outros territórios nórdicos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que território é esta bandeira?",
+      "resposta": "Ilhas Faroé",
+      "distratores": [
+        "Ilhas Åland",
+        "Groenlândia",
+        "Ilhas Shetland"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira das Ilhas Faroé",
+        "descricao": "Bandeira do território autônomo dinamarquês das Ilhas Faroé, com cruz vermelha com contorno azul sobre fundo branco.",
+        "variantes": [
+          "Bandeira das Ilhas Feroe"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira nítida; o lema em latim não entrega o nome do estado.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado é esta bandeira?",
+      "resposta": "Minas Gerais",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Minas Gerais",
+        "descricao": "Bandeira do estado brasileiro de Minas Gerais, triângulo vermelho sobre fundo branco com o lema Libertas quae sera tamen.",
+        "variantes": [
+          "Bandeira do estado de Minas Gerais"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta bandeira é de uma região administrativa especial. De que país?",
+      "resposta": "China",
+      "distratores": [
+        "Reino Unido",
+        "Japão",
+        "Portugal"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Hong Kong",
+        "descricao": "Bandeira da região administrativa especial de Hong Kong, com flor de bauhínia branca sobre fundo vermelho.",
+        "variantes": [
+          "Bandeira de Hong Kong"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que sertanista deu nome ao estado desta bandeira?",
+      "resposta": "Cândido Rondon",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Rondônia",
+        "descricao": "Bandeira do estado brasileiro de Rondônia, com faixas azul e amarela, estrela branca e triângulo verde.",
+        "variantes": [
+          "Bandeira do estado de Rondônia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O brasão traz escrito 'República Rio-Grandense' e a data, o que entrega a resposta."
+    }
+  ]
+}

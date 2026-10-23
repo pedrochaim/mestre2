@@ -668,9 +668,10 @@
     "fig_aves_008",
     "fig_camisas_times_005",
     "fig_mamiferos_010",
-    "fig_bandeiras_estados_001"
+    "fig_bandeiras_estados_001",
+    "fig_bandeiras_estados_002"
   ],
-  "maior_id": 14755,
+  "maior_id": 14764,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1298,15 +1299,15 @@
     },
     "bandeiras_estados": {
       "familias": {
-        "onde": 8,
-        "com_o_que_se_liga": 4
+        "onde": 12,
+        "com_o_que_se_liga": 9
       },
       "niveis": {
-        "1": 5,
-        "2": 5,
-        "3": 2
+        "1": 8,
+        "2": 8,
+        "3": 5
       },
-      "registradas": 12
+      "registradas": 21
     }
   },
   "rendimento": {
