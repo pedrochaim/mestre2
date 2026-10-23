@@ -61,7 +61,7 @@
       "titulo": "en:Mitosis",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Tardígrado",
@@ -110,7 +110,7 @@
       "titulo": "en:Ulna",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Fíbula",
@@ -187,7 +187,7 @@
       "titulo": "en:Cilium",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Músculo deltoide",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 1,
       "status": "reprovada"
+    },
+    {
+      "nome": "Esôfago",
+      "titulo": "en:Esophagus",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Medula espinhal",
+      "titulo": "en:Spinal cord",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Patela",
+      "titulo": "en:Patella",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo reto abdominal",
+      "titulo": "en:Rectus abdominis muscle",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Feto",
+      "titulo": "en:Fetus",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Umbigo",
+      "titulo": "en:Navel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nariz",
+      "titulo": "en:Human nose",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cabelo",
+      "titulo": "en:Hair",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Laringe",
+      "titulo": "en:Larynx",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Músculo peitoral maior",
+      "titulo": "en:Pectoralis major muscle",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Quadríceps femoral",
+      "titulo": "en:Quadriceps femoris muscle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo gastrocnêmio",
+      "titulo": "en:Gastrocnemius muscle",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovário",
+      "titulo": "en:Ovary",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cóclea",
+      "titulo": "en:Cochlea",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sacro",
+      "titulo": "en:Sacrum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hipófise",
+      "titulo": "en:Pituitary gland",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Osso esfenoide",
+      "titulo": "en:Sphenoid bone",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Osso escafoide",
+      "titulo": "en:Scaphoid bone",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corpo caloso",
+      "titulo": "en:Corpus callosum",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tálamo",
+      "titulo": "en:Thalamus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lombriga",
+      "titulo": "en:Ascaris lumbricoides",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tênia (solitária)",
+      "titulo": "en:Taenia solium",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Embrião",
+      "titulo": "en:Embryo",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Líquen",
+      "titulo": "en:Lichen",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Célula vegetal",
+      "titulo": "en:Plant cell",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Staphylococcus aureus",
+      "titulo": "en:Staphylococcus aureus",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Linfócito",
+      "titulo": "en:Lymphocyte",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tecido adiposo",
+      "titulo": "en:Adipose tissue",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Zigoto",
+      "titulo": "en:Zygote",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ácaro-do-pó",
+      "titulo": "en:House dust mite",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bicho-de-pé",
+      "titulo": "en:Tunga penetrans",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Physarum polycephalum",
+      "titulo": "en:Physarum polycephalum",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolor-do-pão",
+      "titulo": "en:Rhizopus stolonifer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Célula de Purkinje",
+      "titulo": "en:Purkinje cell",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Neutrófilo",
+      "titulo": "en:Neutrophil",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Eosinófilo",
+      "titulo": "en:Eosinophil",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vírus do mosaico do tabaco",
+      "titulo": "en:Tobacco mosaic virus",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dinoflagelado",
+      "titulo": "en:Dinoflagellate",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Blastocisto",
+      "titulo": "en:Blastocyst",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Epitélio",
+      "titulo": "en:Epithelium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

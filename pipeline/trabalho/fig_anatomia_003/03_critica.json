@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia nem descreve a estrutura; o reconhecimento depende da figura. Resposta única e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A dica 'osso do antebraço' não basta: o rádio também é do antebraço, então é preciso olhar a figura. Distratores do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, sem pista que entregue. Distratores são microrganismos planctônicos parecidos e nenhum é correto para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Corpo em forma de frasco, dendritos ramificados e cerebelo são a descrição clássica da célula de Purkinje. Com a imagem coberta já dá para responder. A pista foi removida.",
+      "reescrita": {
+        "pergunta": "Que tipo de célula nervosa aparece nesta imagem?",
+        "resposta": "Célula de Purkinje",
+        "distratores": [
+          "Célula piramidal",
+          "Célula granular",
+          "Célula estrelada"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta. Os distratores são órgãos vizinhos do mesmo sistema e nenhum é o destacado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico e verdadeiro. Os distratores são estágios embrionários plausíveis, e a imagem distingue o blastocisto.",
+      "reescrita": null
+    }
+  ]
+}
