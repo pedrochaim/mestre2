@@ -1,0 +1,206 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Listras azul e grená verticais, inconfundíveis; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Barcelona",
+      "destino": 0,
+      "ancora": {
+        "nome": "Futbol Club Barcelona",
+        "descricao": "Clube de futebol espanhol sediado em Barcelona, na Catalunha.",
+        "variantes": [
+          "Barça",
+          "FC Barcelona"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Camisa vermelha lisa com detalhes verde-azulados: cores comuns a muitas seleções e clubes (Marrocos, Benfica etc.); não há resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Azul-celeste com calção branco; cor compartilhada com outros times (Lazio, Uruguai), então múltipla com distratores sem azul.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que clube italiano é este uniforme?",
+      "resposta": "Napoli",
+      "distratores": [
+        "Milan",
+        "Juventus",
+        "Roma"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Società Sportiva Calcio Napoli",
+        "descricao": "Clube de futebol italiano sediado em Nápoles, na Campânia.",
+        "variantes": [
+          "SSC Napoli",
+          "Nápoles"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Amarelo com calção azul e meias brancas, uniforme emblemático e claro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Brasil",
+      "destino": 0,
+      "ancora": {
+        "nome": "Seleção Brasileira de Futebol",
+        "descricao": "Seleção nacional masculina de futebol do Brasil, pentacampeã mundial.",
+        "variantes": [
+          "Brasil",
+          "Canarinho"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Listras verticais vermelhas e pretas lembram muito o Milan e outros times; o trecho diz que o Vitória usa listras horizontais, e a imagem não bate com isso."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Camisa branca com calção preto é genérica, compartilhada por muitos clubes; não há resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Verde com calção branco; o verde é compartilhado (ex.: México), então múltipla com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time brasileiro é este uniforme?",
+      "resposta": "Palmeiras",
+      "distratores": [
+        "Cruzeiro",
+        "Internacional",
+        "Grêmio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sociedade Esportiva Palmeiras",
+        "descricao": "Clube de futebol brasileiro sediado em São Paulo, fundado em 1914 como Palestra Itália.",
+        "variantes": [
+          "Palmeiras",
+          "Verdão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Listras horizontais vermelhas e pretas são idênticas ao padrão do Flamengo; não há resposta única diante da imagem."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vermelho com calção branco e listras brancas; vermelho é comum, então múltipla com distratores sem vermelho.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que clube português é este uniforme?",
+      "resposta": "Benfica",
+      "distratores": [
+        "Porto",
+        "Sporting",
+        "Boavista"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sport Lisboa e Benfica",
+        "descricao": "Clube de futebol português sediado em Lisboa, apelidado de As Águias.",
+        "variantes": [
+          "Benfica",
+          "SL Benfica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Uniforme todo branco com detalhes rosados; reconhecível, com distratores que não são brancos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que clube espanhol é este uniforme?",
+      "resposta": "Real Madrid",
+      "distratores": [
+        "Barcelona",
+        "Atlético de Madrid",
+        "Athletic Bilbao"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Real Madrid Club de Fútbol",
+        "descricao": "Clube de futebol espanhol sediado em Madri, tradicionalmente de uniforme branco.",
+        "variantes": [
+          "Real Madrid CF",
+          "Real"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Branco com faixas verdes horizontais e calção preto; múltipla com distratores de outras cores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time brasileiro é este uniforme?",
+      "resposta": "Coritiba",
+      "distratores": [
+        "Athletico Paranaense",
+        "Cruzeiro",
+        "Grêmio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coritiba Foot Ball Club",
+        "descricao": "Clube de futebol brasileiro sediado em Curitiba, no Paraná, conhecido como Coxa.",
+        "variantes": [
+          "Coxa",
+          "Coritiba FC"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Listras verticais verdes e brancas; a pista do estado ajuda sem entregar, e os distratores gaúchos não são verdes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time gaúcho é este uniforme?",
+      "resposta": "Juventude",
+      "distratores": [
+        "Grêmio",
+        "Internacional",
+        "Caxias"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esporte Clube Juventude",
+        "descricao": "Clube de futebol brasileiro sediado em Caxias do Sul, no Rio Grande do Sul.",
+        "variantes": [
+          "Ju",
+          "EC Juventude"
+        ]
+      }
+    }
+  ]
+}

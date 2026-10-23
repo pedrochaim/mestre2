@@ -1,0 +1,78 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Barcelona"
+      },
+      "existentes": [
+        {
+          "id": "q00733",
+          "pergunta": "O Barcelona foi fundado em 1899 por um grupo liderado por um suíço apaixonado por futebol. Qual era o nome dele?",
+          "resposta": "Joan Gamper"
+        },
+        {
+          "id": "q05106",
+          "pergunta": "Depois de mais de um século sem patrocínio na camisa, o Barcelona estampou em 2006, pagando em vez de receber, o nome de qual entidade?",
+          "resposta": "Unicef"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que time brasileiro é este uniforme?",
+        "resposta": "Palmeiras"
+      },
+      "existentes": [
+        {
+          "id": "q00746",
+          "pergunta": "Em 1942, o clube paulista que se chamava Palestra Itália foi forçado a mudar de nome, até virar Palmeiras. Por quê?",
+          "resposta": "Por causa da Segunda Guerra Mundial"
+        },
+        {
+          "id": "q13399",
+          "pergunta": "Em 1942, com o Brasil em guerra contra o Eixo, o Palestra Itália paulista teve de abandonar o nome italiano. Que nome definitivo adotou?",
+          "resposta": "Palmeiras"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que clube espanhol é este uniforme?",
+        "resposta": "Real Madrid"
+      },
+      "existentes": [
+        {
+          "id": "q00034",
+          "pergunta": "Em 1920, o clube Madrid ganhou o título de Real, concedido por qual rei da Espanha?",
+          "resposta": "Afonso XIII"
+        },
+        {
+          "id": "q09320",
+          "pergunta": "A partir da primeira edição, decidida em 1956, o Real Madrid venceu quantas Copas dos Campeões Europeus seguidas?",
+          "resposta": "Cinco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pede identificar o time pelo uniforme; as existentes tratam do fundador e do patrocínio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pede identificar o clube pelo uniforme. A q13399 pergunta o nome adotado em 1942, que é outro fato, mesmo com a mesma resposta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pede identificar o clube pelo uniforme; as existentes tratam do título Real e das Copas dos Campeões."
+    }
+  ]
+}

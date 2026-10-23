@@ -1,0 +1,522 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Futbol Club Barcelona",
+        "descricao": "Clube de futebol espanhol sediado em Barcelona, na Catalunha.",
+        "variantes": [
+          "Barcelona",
+          "Barça",
+          "FC Barcelona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "barcelona",
+          "nome": "Barcelona",
+          "descricao": "Capital da Catalunha, na costa nordeste da Espanha.",
+          "variantes": []
+        },
+        {
+          "id": "marcelo",
+          "nome": "Marcelo",
+          "descricao": "Lateral esquerdo brasileiro, ídolo do Real Madrid, ex-Fluminense.",
+          "variantes": [
+            "Marcelo Vieira da Silva Júnior"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "barata",
+          "nome": "Barata",
+          "descricao": "Inseto da ordem Blattodea, de corpo achatado e hábitos noturnos, alguns deles pragas domésticas.",
+          "variantes": [
+            "Blattodea",
+            "Cockroach"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Società Sportiva Calcio Napoli",
+        "descricao": "Clube de futebol italiano sediado em Nápoles, na Campânia.",
+        "variantes": [
+          "Napoli",
+          "SSC Napoli",
+          "Nápoles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "napoles",
+          "nome": "Nápoles",
+          "descricao": "Cidade do sul da Itália fundada por colonos gregos com o nome de Neápolis.",
+          "variantes": [
+            "Neápolis",
+            "Napoli",
+            "Naples"
+          ]
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte",
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "samis",
+          "nome": "Sámis",
+          "descricao": "Povo indígena do norte da Escandinávia e da península de Kola, tradicionalmente criador de renas.",
+          "variantes": [
+            "Sami",
+            "Lapões",
+            "Saami"
+          ]
+        },
+        {
+          "id": "peixe_napoleao",
+          "nome": "Peixe-napoleão",
+          "descricao": "Maior labrídeo (Cheilinus undulatus) dos recifes do Indo-Pacífico, com testa protuberante e lábios grossos.",
+          "variantes": [
+            "Cheilinus undulatus",
+            "Humphead wrasse",
+            "Napoleon wrasse",
+            "Napoleonfish"
+          ]
+        },
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Seleção Brasileira de Futebol",
+        "descricao": "Seleção nacional masculina de futebol do Brasil, pentacampeã mundial.",
+        "variantes": [
+          "Brasil",
+          "Canarinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasil",
+          "nome": "Brasil",
+          "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital Brasília.",
+          "variantes": [
+            "República Federativa do Brasil"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        },
+        {
+          "id": "volkswagen_brasilia",
+          "nome": "Volkswagen Brasília",
+          "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+          "variantes": [
+            "Brasília",
+            "VW Brasília"
+          ]
+        },
+        {
+          "id": "aquarela_do_brasil",
+          "nome": "Aquarela do Brasil",
+          "descricao": "Samba-exaltação composto por Ary Barroso em 1939.",
+          "variantes": [
+            "Brazil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sociedade Esportiva Palmeiras",
+        "descricao": "Clube de futebol brasileiro sediado em São Paulo, fundado em 1914 como Palestra Itália.",
+        "variantes": [
+          "Palmeiras",
+          "Verdão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão",
+            "Palestra Itália"
+          ]
+        },
+        {
+          "id": "vereda",
+          "nome": "Vereda",
+          "descricao": "Paisagem úmida do Cerrado formada em torno de nascentes e brejos, marcada por fileiras de palmeiras",
+          "variantes": [
+            "Veredas"
+          ]
+        },
+        {
+          "id": "palmas",
+          "nome": "Palmas",
+          "descricao": "Capital do estado do Tocantins, cidade planejada às margens do rio Tocantins.",
+          "variantes": [
+            "Palmas (Tocantins)"
+          ]
+        },
+        {
+          "id": "vedas",
+          "nome": "Vedas",
+          "descricao": "Coleções de hinos e textos em sânscrito, as escrituras mais antigas do hinduísmo.",
+          "variantes": [
+            "Veda",
+            "Vedas hindus"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Sport Lisboa e Benfica",
+        "descricao": "Clube de futebol português sediado em Lisboa, apelidado de As Águias.",
+        "variantes": [
+          "Benfica",
+          "SL Benfica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "belgica",
+          "nome": "Bélgica",
+          "descricao": "Reino da Europa Ocidental, vizinho da Holanda, Alemanha, Luxemburgo e França.",
+          "variantes": [
+            "Belgium",
+            "Reino da Bélgica"
+          ]
+        },
+        {
+          "id": "fenicios",
+          "nome": "Fenícios",
+          "descricao": "Povo de navegadores e comerciantes do litoral do Levante, criadores do alfabeto fenício.",
+          "variantes": [
+            "Fenícia"
+          ]
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        },
+        {
+          "id": "beringia",
+          "nome": "Beríngia",
+          "descricao": "Região entre a Sibéria e o Alasca que, nas eras glaciais, formava uma ponte de terra por onde humanos chegaram à América.",
+          "variantes": [
+            "Ponte terrestre de Bering"
+          ]
+        },
+        {
+          "id": "guernica",
+          "nome": "Guernica",
+          "descricao": "Grande painel de Pablo Picasso, de 1937, sobre o bombardeio da cidade basca de Guernica na Guerra Civil Espanhola.",
+          "variantes": [
+            "Guernica (Picasso)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Real Madrid Club de Fútbol",
+        "descricao": "Clube de futebol espanhol sediado em Madri, tradicionalmente de uniforme branco.",
+        "variantes": [
+          "Real Madrid",
+          "Real Madrid CF",
+          "Real"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "real_madrid",
+          "nome": "Real Madrid",
+          "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+          "variantes": [
+            "Real Madrid Club de Fútbol",
+            "Real Madrid CF",
+            "Madrid Football Club"
+          ]
+        },
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea",
+            "Lago de Aral"
+          ]
+        },
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        },
+        {
+          "id": "arsenal",
+          "nome": "Arsenal",
+          "descricao": "Arsenal Football Club, clube de futebol de Londres fundado em 1886 no bairro de Woolwich.",
+          "variantes": [
+            "Arsenal FC",
+            "Arsenal F.C."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Coritiba Foot Ball Club",
+        "descricao": "Clube de futebol brasileiro sediado em Curitiba, no Paraná, conhecido como Coxa.",
+        "variantes": [
+          "Coritiba",
+          "Coxa",
+          "Coritiba FC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "curitiba",
+          "nome": "Curitiba",
+          "descricao": "Capital do estado do Paraná, conhecida pelo planejamento urbano e pelo transporte coletivo.",
+          "variantes": []
+        },
+        {
+          "id": "celtic_football_club",
+          "nome": "Celtic Football Club",
+          "descricao": "Clube de futebol de Glasgow, na Escócia, fundado em 1887, de camisa com listras horizontais verdes e brancas.",
+          "variantes": [
+            "Celtic",
+            "Celtic FC",
+            "Celtic de Glasgow"
+          ]
+        },
+        {
+          "id": "coca_cola",
+          "nome": "Coca-Cola",
+          "descricao": "Refrigerante de cola criado em Atlanta, nos Estados Unidos, em 1886.",
+          "variantes": [
+            "Coca",
+            "Coke"
+          ]
+        },
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "circuito_das_americas",
+          "nome": "Circuito das Américas",
+          "descricao": "Autódromo de Austin, Texas, EUA, sede do GP dos Estados Unidos de Fórmula 1.",
+          "variantes": [
+            "Circuit of the Americas",
+            "COTA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Esporte Clube Juventude",
+        "descricao": "Clube de futebol brasileiro sediado em Caxias do Sul, no Rio Grande do Sul.",
+        "variantes": [
+          "Juventude",
+          "Ju",
+          "EC Juventude"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "weekly_shonen_jump",
+          "nome": "Weekly Shōnen Jump",
+          "descricao": "Revista semanal japonesa de mangás da editora Shueisha.",
+          "variantes": [
+            "Shonen Jump",
+            "Shūkan Shōnen Janpu",
+            "Jump"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple",
+            "Anacardium occidentale",
+            "cajueiro",
+            "cashew"
+          ]
+        },
+        {
+          "id": "judo",
+          "nome": "Judô",
+          "descricao": "Arte marcial e esporte olímpico japonês criado por Jigoro Kano no fim do século dezenove.",
+          "variantes": []
+        },
+        {
+          "id": "teiu",
+          "nome": "Teiú",
+          "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+          "variantes": [
+            "Teiú-comum",
+            "Tegu",
+            "Salvator merianae",
+            "Teju"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "futbol_club_barcelona",
+      "motivo": "Mesmo clube de futebol, mesmo nome e variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Clube SSC Napoli é diferente da cidade de Nápoles; nenhuma candidata é o clube."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Seleção é diferente do país, da capital ou de outras candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "palmeiras",
+      "motivo": "Candidata descreve a Sociedade Esportiva Palmeiras, fundada em 1914, mesmo clube."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o clube Benfica."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "real_madrid",
+      "motivo": "Mesmo clube, Real Madrid Club de Fútbol."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Clube Coritiba é diferente da cidade de Curitiba."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Juventude de Caxias do Sul é diferente da Juventus de Turim."
+    }
+  ]
+}
