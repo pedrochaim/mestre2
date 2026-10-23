@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a obra; os trechos confirmam que está na National Gallery of Art, em Washington. Distratores são cidades de museus famosos e nenhum guarda o quadro.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a pintura está exposta no Prado. A descrição temática é vaga e não nomeia a obra. Distratores são museus do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista no enunciado. Os trechos atribuem a obra a Van Gogh.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o título e que é obra do impressionista francês Renoir. O enunciado não entrega o título.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem Napoleão em trono e manto forrado de arminho. A pista descreve a imagem sem nomear o retratado; outros soberanos também têm tronos e arminho, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dizer 'chamado de Vampiro' entrega a obra e quase a resposta, e o trecho diz que Munch nunca usou esse nome. Tire o título e deixe a figura fazer o trabalho.",
+      "reescrita": {
+        "pergunta": "Que pintor norueguês do fim do século dezenove fez este quadro?",
+        "resposta": "Edvard Munch",
+        "distratores": [
+          "Anders Zorn",
+          "Carl Larsson",
+          "Akseli Gallen-Kallela"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Montanha da Provença' identifica Sainte-Victoire e, com ela, Cézanne sem olhar a figura. Retire a pista geográfica.",
+      "reescrita": {
+        "pergunta": "Quem pintou esta paisagem, no fim do século dezenove?",
+        "resposta": "Paul Cézanne",
+        "distratores": [
+          "Camille Pissarro",
+          "Alfred Sisley",
+          "Paul Gauguin"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a casa ficava na Place Lamartine, em Arles. O enunciado não nomeia a obra e os distratores são cidades do sul da França.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma deusa deitada sobre as ondas já entrega Vênus (nascimento de Vênus). Retire a pista e use a época.",
+      "reescrita": {
+        "pergunta": "Que deusa romana é retratada neste quadro de 1863?",
+        "resposta": "Vênus",
+        "distratores": [
+          "Juno",
+          "Minerva",
+          "Diana"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam autoria de Vigée Le Brun em 1783. O enunciado não entrega a pintora, e os distratores são pintores de retratos do século dezoito, e nenhum pintou este quadro.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Nomear Washington aponta quase sozinho para Stuart, o famoso retratista dele. Retire o nome do retratado e mantenha a época e o formato.",
+      "reescrita": {
+        "pergunta": "Que pintor americano fez este retrato de corpo inteiro, em 1796?",
+        "resposta": "Gilbert Stuart",
+        "distratores": [
+          "John Singleton Copley",
+          "Charles Willson Peale",
+          "John Trumbull"
+        ]
+      }
+    }
+  ]
+}
