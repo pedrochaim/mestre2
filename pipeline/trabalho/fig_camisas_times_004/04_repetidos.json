@@ -1,0 +1,78 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Boca Juniors"
+      },
+      "existentes": [
+        {
+          "id": "q00032",
+          "pergunta": "Os torcedores do Boca Juniors são chamados de xeneizes, termo que remete aos imigrantes de qual cidade italiana?",
+          "resposta": "Gênova"
+        },
+        {
+          "id": "q00033",
+          "pergunta": "No começo do século vinte, o Boca Juniors adotou o azul e o amarelo copiando a bandeira de um navio no porto. De que país era o navio?",
+          "resposta": "Suécia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade fica o time deste uniforme?",
+        "resposta": "Rio de Janeiro"
+      },
+      "existentes": [
+        {
+          "id": "q00035",
+          "pergunta": "O Vasco, fundado em 1898, foi batizado em homenagem aos quatrocentos anos de qual feito do navegador português?",
+          "resposta": "Chegada às Índias por mar"
+        },
+        {
+          "id": "q09345",
+          "pergunta": "Em 1924, o Vasco recusou a exigência de afastar doze jogadores para entrar numa nova liga carioca. Por que esses atletas eram rejeitados?",
+          "resposta": "Eram negros e operários"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Juventus"
+      },
+      "existentes": [
+        {
+          "id": "q00044",
+          "pergunta": "No início do século vinte, a Juventus trocou o uniforme rosa pelo preto e branco ao receber camisas de qual clube inglês?",
+          "resposta": "Notts County"
+        },
+        {
+          "id": "q09326",
+          "pergunta": "O nome Juventus significa juventude em latim, mas o clube de Turim tem um apelido famoso que diz o contrário. Qual?",
+          "resposta": "Velha Senhora"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o time do uniforme é um fato diferente de gentílico xeneize ou origem das cores."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade do time (Vasco) não é perguntada pelas existentes, que tratam do nome e da liga de 1924."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o time pelo uniforme é diferente do uniforme anterior rosa ou do apelido."
+    }
+  ]
+}

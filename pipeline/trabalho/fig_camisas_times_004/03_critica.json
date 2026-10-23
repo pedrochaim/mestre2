@@ -1,0 +1,64 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores do mesmo tipo, curtos e visualmente próximos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam que o clube fica no Rio de Janeiro; o enunciado não vaza o nome e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado limpo; distratores são seleções críveis do mesmo tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gre-Nal' contém partes do nome do time mostrado (Grêmio) e da resposta (Internacional), vazando as duas. Basta apontar a cidade e o rival, sem nomear o clássico.",
+      "reescrita": {
+        "pergunta": "Qual time de Porto Alegre é o maior rival do time deste uniforme?",
+        "resposta": "Internacional",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto; sem vazamento e com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores italianos críveis e curtos; nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores usam vermelho e preto, como o uniforme, e são bons; nenhum é correto.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Azul com faixa amarela horizontal, uniforme único e emblemático.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "De que time é este uniforme?",
+      "tipo": "aberta",
+      "resposta": "Boca Juniors",
+      "ancora": {
+        "nome": "Boca Juniors",
+        "descricao": "Clube argentino de futebol sediado no bairro de La Boca, em Buenos Aires.",
+        "variantes": [
+          "Club Atlético Boca Juniors",
+          "Boca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Listras horizontais azul, vermelho e branco, marcantes; múltipla com distratores de cores diferentes.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "De que time é este uniforme?",
+      "tipo": "multipla",
+      "resposta": "Fortaleza",
+      "distratores": [
+        "Bahia",
+        "Sport Recife",
+        "Remo"
+      ],
+      "ancora": {
+        "nome": "Fortaleza Esporte Clube",
+        "descricao": "Clube de futebol de Fortaleza, no Ceará, de uniforme tricolor listrado.",
+        "variantes": [
+          "Fortaleza",
+          "Fortaleza EC",
+          "Leão do Pici"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Uniforme quase todo branco, sem desenho marcante; igual a muitos outros times, não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Preto com faixa diagonal branca, muito reconhecível; resposta única.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Em que cidade fica o time deste uniforme?",
+      "tipo": "aberta",
+      "resposta": "Rio de Janeiro",
+      "ancora": {
+        "nome": "Vasco da Gama",
+        "descricao": "Clube de regatas e futebol do Rio de Janeiro, de camisa preta com faixa diagonal branca.",
+        "variantes": [
+          "Club de Regatas Vasco da Gama",
+          "Vasco"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Camisa azul estampada, calção branco e meias vermelhas; múltipla com distratores sem azul.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "De que seleção é este uniforme?",
+      "tipo": "multipla",
+      "resposta": "França",
+      "distratores": [
+        "Espanha",
+        "Holanda",
+        "Portugal"
+      ],
+      "ancora": {
+        "nome": "Seleção Francesa de Futebol",
+        "descricao": "Equipe nacional masculina de futebol da França, conhecida como Les Bleus.",
+        "variantes": [
+          "França",
+          "Les Bleus",
+          "Seleção da França"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Camisa vermelha com calção azul-marinho é combinação comum a vários times; resposta não é única diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Listras verticais preto, azul-claro e branco, marcantes; passo de conhecimento sobre o rival.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Qual é o maior rival do time deste uniforme, no clássico conhecido como Gre-Nal?",
+      "tipo": "aberta",
+      "resposta": "Internacional",
+      "ancora": {
+        "nome": "Grêmio",
+        "descricao": "Clube de futebol de Porto Alegre, de camisa listrada em azul-claro, preto e branco.",
+        "variantes": [
+          "Grêmio Foot-Ball Porto Alegrense",
+          "Grêmio FBPA"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camisa branca com chevrons preto, vermelho e amarelo, reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "De que país é a seleção deste uniforme?",
+      "tipo": "aberta",
+      "resposta": "Alemanha",
+      "ancora": {
+        "nome": "Seleção Alemã de Futebol",
+        "descricao": "Equipe nacional masculina de futebol da Alemanha, de camisa branca com detalhes nas cores da bandeira.",
+        "variantes": [
+          "Alemanha",
+          "Seleção da Alemanha",
+          "Die Mannschaft"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Listras verticais azuis e brancas, desenho comum a muitos clubes; sem traço que permita reconhecer o Paysandu."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Listras verticais pretas e brancas; múltipla com distratores de outras cores, pois outros times usam o mesmo desenho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "De que time é este uniforme?",
+      "tipo": "multipla",
+      "resposta": "Juventus",
+      "distratores": [
+        "Napoli",
+        "Roma",
+        "Fiorentina"
+      ],
+      "ancora": {
+        "nome": "Juventus",
+        "descricao": "Clube de futebol de Turim, na Itália, de camisa listrada em preto e branco.",
+        "variantes": [
+          "Juventus Football Club",
+          "Juve"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Preto com faixas diagonais vermelhas, desenho marcante; múltipla com distratores de outros desenhos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "De que time é este uniforme?",
+      "tipo": "multipla",
+      "resposta": "Athletico Paranaense",
+      "distratores": [
+        "Flamengo",
+        "Milan",
+        "Sport Recife"
+      ],
+      "ancora": {
+        "nome": "Athletico Paranaense",
+        "descricao": "Clube de futebol de Curitiba, no Paraná, de camisa preta com faixas diagonais vermelhas.",
+        "variantes": [
+          "Club Athletico Paranaense",
+          "Furacão",
+          "Athletico-PR"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Listras celestes e brancas iguais às da seleção argentina e de outros times; resposta não é única diante da imagem."
+    }
+  ]
+}
