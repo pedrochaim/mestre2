@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Botafogo"
+      },
+      "existentes": [
+        {
+          "id": "q05099",
+          "pergunta": "Que figura branca aparece no escudo preto do Botafogo e virou um dos apelidos do clube carioca?",
+          "resposta": "A Estrela Solitária"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Fluminense"
+      },
+      "existentes": [
+        {
+          "id": "q05104",
+          "pergunta": "O Fluminense é chamado de tricolor. Quais são as três cores do clube carioca?",
+          "resposta": "Grená, verde e branco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o time pelo uniforme; a existente pergunta sobre a estrela do escudo. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o time pelo uniforme; a existente pergunta as cores do clube. Fatos diferentes, e a resposta não decorre da outra."
+    }
+  ]
+}

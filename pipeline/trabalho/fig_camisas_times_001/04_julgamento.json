@@ -1,0 +1,634 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sport Club Internacional",
+        "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+        "variantes": [
+          "Internacional",
+          "Inter",
+          "Inter de Porto Alegre",
+          "Internacional de Porto Alegre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "a_internacional",
+          "nome": "A Internacional",
+          "descricao": "Hino do movimento socialista e operário, com letra francesa de Eugène Pottier, de 1871.",
+          "variantes": [
+            "L'Internationale",
+            "The Internationale"
+          ]
+        },
+        {
+          "id": "diners_club",
+          "nome": "Diners Club",
+          "descricao": "Cartão de pagamento lançado nos Estados Unidos em 1950, precursor dos cartões de crédito modernos.",
+          "variantes": [
+            "Diners Club International",
+            "Cartão Diners"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga",
+            "Hino do Brasil",
+            "Hino Nacional"
+          ]
+        },
+        {
+          "id": "tim_maia_racional",
+          "nome": "Tim Maia Racional",
+          "descricao": "Série de discos gravados por Tim Maia em meados dos anos 1970, dedicados a uma doutrina religiosa.",
+          "variantes": [
+            "Racional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Esporte Clube Bahia",
+        "descricao": "Clube de futebol de Salvador, na Bahia, fundado em 1931, de uniforme branco com faixa diagonal azul e vermelha.",
+        "variantes": [
+          "Bahia",
+          "EC Bahia",
+          "Esquadrão de Aço"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bahia",
+          "nome": "Bahia",
+          "descricao": "Estado da Região Nordeste do Brasil, com capital em Salvador.",
+          "variantes": []
+        },
+        {
+          "id": "quadra_de_saibro",
+          "nome": "Quadra de saibro",
+          "descricao": "Quadra de tênis coberta por pó de tijolo, pedra ou xisto triturado, como as de Roland Garros.",
+          "variantes": [
+            "Clay court",
+            "Terre battue"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "ahimsa",
+          "nome": "Ahimsa",
+          "descricao": "Princípio de não violência presente no hinduísmo, no budismo e no jainismo",
+          "variantes": [
+            "Ahinsa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sporting Clube de Portugal",
+        "descricao": "Clube desportivo de Lisboa, famoso pelo futebol, de camisa com listras horizontais verdes e brancas.",
+        "variantes": [
+          "Sporting",
+          "Sporting CP",
+          "Sporting Lisboa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portugues_europeu",
+          "nome": "Português europeu",
+          "descricao": "Variedade da língua portuguesa falada em Portugal",
+          "variantes": [
+            "Português de Portugal",
+            "Português lusitano"
+          ]
+        },
+        {
+          "id": "sting",
+          "nome": "Sting",
+          "descricao": "Cantor e baixista britânico, ex-vocalista do The Police, nascido Gordon Sumner",
+          "variantes": [
+            "Gordon Sumner"
+          ]
+        },
+        {
+          "id": "escalada_esportiva",
+          "nome": "Escalada esportiva",
+          "descricao": "Modalidade de escalada em rocha em que o escalador prende a corda a ancoragens fixas pré-instaladas na parede.",
+          "variantes": [
+            "Sport climbing"
+          ]
+        },
+        {
+          "id": "spoink",
+          "nome": "Spoink",
+          "descricao": "Pokémon porco psíquico da terceira geração, que salta sobre uma mola na cauda, número 325 da Pokédex Nacional.",
+          "variantes": [
+            "Baneboo"
+          ]
+        },
+        {
+          "id": "candido_portinari",
+          "nome": "Candido Portinari",
+          "descricao": "Pintor brasileiro, nascido em Brodowski em 1903 e morto em 1962, autor de Os Retirantes e dos painéis Guerra e Paz.",
+          "variantes": [
+            "Portinari"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Botafogo de Futebol e Regatas",
+        "descricao": "Clube de futebol do bairro de Botafogo, no Rio de Janeiro, de camisa com listras verticais pretas e brancas.",
+        "variantes": [
+          "Botafogo",
+          "Glorioso",
+          "Botafogo FR"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "botafogo",
+          "nome": "Botafogo",
+          "descricao": "Botafogo de Futebol e Regatas, clube carioca de camisa alvinegra e escudo com uma estrela.",
+          "variantes": [
+            "Botafogo de Futebol e Regatas",
+            "Fogão"
+          ]
+        },
+        {
+          "id": "evariste_galois",
+          "nome": "Évariste Galois",
+          "descricao": "Matemático francês do século dezenove, cujas ideias deram origem à teoria de Galois.",
+          "variantes": [
+            "Galois"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "logaritmo",
+          "nome": "Logaritmo",
+          "descricao": "Operação matemática inversa da exponenciação.",
+          "variantes": [
+            "Logaritmos"
+          ]
+        },
+        {
+          "id": "bosforo",
+          "nome": "Bósforo",
+          "descricao": "Estreito na Turquia que liga o mar Negro ao mar de Mármara e separa a Europa da Ásia.",
+          "variantes": [
+            "Estreito de Bósforo",
+            "Bósporo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Seleção Espanhola de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Espanha, apelidada de La Roja.",
+        "variantes": [
+          "Espanha",
+          "La Roja",
+          "La Furia Roja"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espanha",
+          "nome": "Espanha",
+          "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+          "variantes": [
+            "Reino da Espanha"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "hispaniola",
+          "nome": "Hispaniola",
+          "descricao": "Ilha das Grandes Antilhas, no mar do Caribe, entre Cuba e Porto Rico.",
+          "variantes": [
+            "La Española",
+            "Ilha de São Domingos",
+            "Española"
+          ]
+        },
+        {
+          "id": "lingua_espanhola",
+          "nome": "Língua espanhola",
+          "descricao": "Língua românica originada em Castela, oficial na Espanha e em boa parte da América Latina",
+          "variantes": [
+            "Espanhol",
+            "Castelhano"
+          ]
+        },
+        {
+          "id": "espathra",
+          "nome": "Espathra",
+          "descricao": "Pokémon do tipo Psíquico, número 956 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Clube Atlético Mineiro",
+        "descricao": "Clube de futebol de Belo Horizonte, em Minas Gerais, fundado em 1908, conhecido como Galo.",
+        "variantes": [
+          "Atlético Mineiro",
+          "Atlético-MG",
+          "Galo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galinha",
+          "nome": "Galinha",
+          "descricao": "Ave doméstica (Gallus gallus domesticus), forma domesticada do galo-bankiva, criada para carne e ovos.",
+          "variantes": [
+            "Galo",
+            "Gallus gallus domesticus",
+            "Frango"
+          ]
+        },
+        {
+          "id": "galio",
+          "nome": "Gálio",
+          "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+          "variantes": [
+            "Gallium"
+          ]
+        },
+        {
+          "id": "dialeto_mineiro",
+          "nome": "Dialeto mineiro",
+          "descricao": "Falar típico de Minas Gerais, conhecido popularmente como mineirês",
+          "variantes": [
+            "Mineirês"
+          ]
+        },
+        {
+          "id": "evariste_galois",
+          "nome": "Évariste Galois",
+          "descricao": "Matemático francês do século dezenove, cujas ideias deram origem à teoria de Galois.",
+          "variantes": [
+            "Galois"
+          ]
+        },
+        {
+          "id": "aeroporto_internacional_do_galeao",
+          "nome": "Aeroporto Internacional do Galeão",
+          "descricao": "Principal aeroporto internacional do Rio de Janeiro, na Ilha do Governador.",
+          "variantes": [
+            "Aeroporto Internacional do Rio de Janeiro",
+            "Galeão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Seleção Croata de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+        "variantes": [
+          "Croácia",
+          "Vatreni",
+          "Seleção da Croácia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_croacia",
+          "nome": "Bandeira da Croácia",
+          "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Bandeira croata"
+          ]
+        },
+        {
+          "id": "selecao_uruguaia_de_futebol",
+          "nome": "Seleção Uruguaia de Futebol",
+          "descricao": "Seleção nacional de futebol do Uruguai, campeã mundial em 1930 e 1950.",
+          "variantes": [
+            "Celeste Olímpica",
+            "Uruguay national football team"
+          ]
+        },
+        {
+          "id": "selecao_sul_coreana_de_futebol",
+          "nome": "Seleção Sul-Coreana de Futebol",
+          "descricao": "Seleção nacional de futebol da Coreia do Sul, semifinalista da Copa do Mundo de 2002, que sediou junto com o Japão.",
+          "variantes": [
+            "Seleção da Coreia do Sul"
+          ]
+        },
+        {
+          "id": "selecao_hungara_de_futebol",
+          "nome": "Seleção Húngara de Futebol",
+          "descricao": "Seleção nacional de futebol da Hungria, vice-campeã mundial em 1938 e 1954.",
+          "variantes": [
+            "Hungary national football team"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Fluminense Football Club",
+        "descricao": "Clube de futebol de Laranjeiras, no Rio de Janeiro, fundado em 1902, de camisa tricolor com listras grená, verdes e brancas.",
+        "variantes": [
+          "Fluminense",
+          "Flu",
+          "Tricolor das Laranjeiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gripe",
+          "nome": "Gripe",
+          "descricao": "Doença respiratória contagiosa causada pelos vírus influenza.",
+          "variantes": [
+            "Influenza",
+            "Flu"
+          ]
+        },
+        {
+          "id": "fluminense",
+          "nome": "Fluminense",
+          "descricao": "Fluminense Football Club, clube carioca fundado em 1902, conhecido como Tricolor das Laranjeiras.",
+          "variantes": [
+            "Fluminense Football Club",
+            "Flu",
+            "Tricolor das Laranjeiras"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "lumineon",
+          "nome": "Lumineon",
+          "descricao": "Pokémon do tipo Água, número 457 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "fluor",
+          "nome": "Flúor",
+          "descricao": "Elemento químico de número atômico 9, halogênio gasoso amarelo-claro, extremamente reativo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Borussia Dortmund",
+        "descricao": "Clube de futebol de Dortmund, na Alemanha, fundado em 1909, de camisa amarela e short preto.",
+        "variantes": [
+          "Dortmund",
+          "BVB",
+          "Borussia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "russia",
+          "nome": "Rússia",
+          "descricao": "País da Europa Oriental e Ásia Setentrional, o maior do mundo em área, cuja capital é Moscou.",
+          "variantes": [
+            "Federação Russa"
+          ]
+        },
+        {
+          "id": "bandeira_da_bielorrussia",
+          "nome": "Bandeira da Bielorrússia",
+          "descricao": "Bandeira da Bielorrússia, vermelha e verde com ornamento bordado vermelho e branco junto à haste.",
+          "variantes": [
+            "Bielorrússia",
+            "Bandeira de Belarus"
+          ]
+        },
+        {
+          "id": "bosnia_e_herzegovina",
+          "nome": "Bósnia e Herzegovina",
+          "descricao": "País dos Bálcãs, com capital em Sarajevo, surgido da antiga Iugoslávia.",
+          "variantes": [
+            "Bósnia"
+          ]
+        },
+        {
+          "id": "babirussa",
+          "nome": "Babirussa",
+          "descricao": "Mamífero semelhante a um porco, das ilhas indonésias como Sulawesi, cujos machos têm presas caninas curvas.",
+          "variantes": [
+            "Babirusa",
+            "Babyrousa celebensis",
+            "Babirussa-de-Celebes"
+          ]
+        },
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Celtic Football Club",
+        "descricao": "Clube de futebol de Glasgow, na Escócia, fundado em 1887, de camisa com listras horizontais verdes e brancas.",
+        "variantes": [
+          "Celtic",
+          "Celtic FC",
+          "Celtic de Glasgow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boston_celtics",
+          "nome": "Boston Celtics",
+          "descricao": "Franquia da NBA sediada em Boston, fundada em 1946.",
+          "variantes": [
+            "Celtics"
+          ]
+        },
+        {
+          "id": "old_firm",
+          "nome": "Old Firm",
+          "descricao": "Clássico de Glasgow, na Escócia, entre os clubes Celtic e Rangers.",
+          "variantes": [
+            "Clássico de Glasgow"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "real_madrid",
+          "nome": "Real Madrid",
+          "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+          "variantes": [
+            "Real Madrid Club de Fútbol",
+            "Real Madrid CF",
+            "Madrid Football Club"
+          ]
+        },
+        {
+          "id": "sheffield_fc",
+          "nome": "Sheffield FC",
+          "descricao": "Clube de futebol inglês fundado em 1857 em Sheffield, reconhecido pela FIFA como o mais antigo do mundo.",
+          "variantes": [
+            "Sheffield Football Club",
+            "Sheffield F.C."
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Internacional de Porto Alegre não está entre as candidatas; Inter de Milão é outro clube."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A candidata Bahia é o estado, não o clube."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Sporting."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "botafogo",
+      "motivo": "Mesmo clube carioca, Botafogo de Futebol e Regatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A candidata Espanha é o país; a seleção é outra entidade."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Atlético Mineiro."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A bandeira da Croácia não é a seleção; as outras seleções são de outros países."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "fluminense",
+      "motivo": "Mesmo clube: Fluminense Football Club, fundado em 1902, Tricolor das Laranjeiras."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Borussia Dortmund."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "O Celtic FC não está entre as candidatas; Old Firm é o clássico, não o clube."
+    }
+  ]
+}

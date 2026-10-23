@@ -1,0 +1,515 @@
+{
+  "entidades": [
+    {
+      "nome": "Flamengo",
+      "titulo": "en:CR Flamengo",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corinthians",
+      "titulo": "en:Sport Club Corinthians Paulista",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palmeiras",
+      "titulo": "en:Sociedade Esportiva Palmeiras",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santos",
+      "titulo": "en:Santos FC",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "São Paulo",
+      "titulo": "en:São Paulo FC",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vasco da Gama",
+      "titulo": "en:CR Vasco da Gama",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Botafogo",
+      "titulo": "en:Botafogo de Futebol e Regatas",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fluminense",
+      "titulo": "en:Fluminense FC",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Grêmio",
+      "titulo": "en:Grêmio Foot-Ball Porto Alegrense",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Internacional",
+      "titulo": "en:Sport Club Internacional",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cruzeiro",
+      "titulo": "en:Cruzeiro Esporte Clube",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atlético Mineiro",
+      "titulo": "en:Clube Atlético Mineiro",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Barcelona",
+      "titulo": "en:FC Barcelona",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Real Madrid",
+      "titulo": "en:Real Madrid CF",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Brasileira de Futebol",
+      "titulo": "en:Brazil national football team",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Argentina de Futebol",
+      "titulo": "en:Argentina national football team",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Juventus",
+      "titulo": "en:Juventus FC",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "AC Milan",
+      "titulo": "en:AC Milan",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boca Juniors",
+      "titulo": "en:Boca Juniors",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esporte Clube Bahia",
+      "titulo": "en:Esporte Clube Bahia",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sport Recife",
+      "titulo": "en:Sport Club do Recife",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Athletico Paranaense",
+      "titulo": "en:Club Athletico Paranaense",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coritiba",
+      "titulo": "en:Coritiba Foot Ball Club",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fortaleza Esporte Clube",
+      "titulo": "en:Fortaleza Esporte Clube",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ceará Sporting Club",
+      "titulo": "en:Ceará Sporting Club",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esporte Clube Vitória",
+      "titulo": "en:Esporte Clube Vitória",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Inter de Milão",
+      "titulo": "en:Inter Milan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "River Plate",
+      "titulo": "en:Club Atlético River Plate",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Liverpool Football Club",
+      "titulo": "en:Liverpool F.C.",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manchester United",
+      "titulo": "en:Manchester United F.C.",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manchester City",
+      "titulo": "en:Manchester City F.C.",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chelsea",
+      "titulo": "en:Chelsea F.C.",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arsenal",
+      "titulo": "en:Arsenal F.C.",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bayern de Munique",
+      "titulo": "en:FC Bayern Munich",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Borussia Dortmund",
+      "titulo": "en:Borussia Dortmund",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paris Saint-Germain",
+      "titulo": "en:Paris Saint-Germain FC",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ájax",
+      "titulo": "en:AFC Ajax",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atlético de Madrid",
+      "titulo": "en:Atlético Madrid",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Neerlandesa de Futebol",
+      "titulo": "en:Netherlands national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Italiana de Futebol",
+      "titulo": "en:Italy national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Alemã de Futebol",
+      "titulo": "en:Germany national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Francesa de Futebol",
+      "titulo": "en:France national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Uruguaia de Futebol",
+      "titulo": "en:Uruguay national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Portuguesa de Futebol",
+      "titulo": "en:Portugal national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Espanhola de Futebol",
+      "titulo": "en:Spain national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Seleção Inglesa de Futebol",
+      "titulo": "en:England national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Croata de Futebol",
+      "titulo": "en:Croatia national football team",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Peñarol",
+      "titulo": "en:Peñarol",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nacional de Montevidéu",
+      "titulo": "en:Club Nacional de Football",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Celtic",
+      "titulo": "en:Celtic F.C.",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Benfica",
+      "titulo": "en:S.L. Benfica",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Porto",
+      "titulo": "en:FC Porto",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sporting",
+      "titulo": "en:Sporting CP",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Napoli",
+      "titulo": "en:SSC Napoli",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roma",
+      "titulo": "en:AS Roma",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galatasaray",
+      "titulo": "en:Galatasaray S.K. (football)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olympique de Marseille",
+      "titulo": "en:Olympique de Marseille",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Racing Club",
+      "titulo": "en:Racing Club de Avellaneda",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Independiente",
+      "titulo": "en:Club Atlético Independiente",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Colo-Colo",
+      "titulo": "en:Colo-Colo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Mexicana de Futebol",
+      "titulo": "en:Mexico national football team",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Colombiana de Futebol",
+      "titulo": "en:Colombia national football team",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Japonesa de Futebol",
+      "titulo": "en:Japan national football team",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seleção Belga de Futebol",
+      "titulo": "en:Belgium national football team",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Goiás",
+      "titulo": "en:Goiás Esporte Clube",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ponte Preta",
+      "titulo": "en:Associação Atlética Ponte Preta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "América Mineiro",
+      "titulo": "en:América Futebol Clube (MG)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guarani",
+      "titulo": "en:Guarani FC",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Paysandu",
+      "titulo": "en:Paysandu Sport Club",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Remo",
+      "titulo": "en:Clube do Remo",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santa Cruz",
+      "titulo": "en:Santa Cruz Futebol Clube",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Náutico",
+      "titulo": "en:Clube Náutico Capibaribe",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Juventude",
+      "titulo": "en:Esporte Clube Juventude",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    }
+  ]
+}

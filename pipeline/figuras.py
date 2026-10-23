@@ -457,6 +457,94 @@ def _preparar_pokemon(ent, pasta, indice):
             "trecho": f"{nome_en}, número {num} da Pokédex Nacional."}, None
 
 
+# Uniformes de times (catálogo camisas_times): o primeiro uniforme do quadro de informações da Wikipédia, que a
+# predefinição Football kit monta com camadas absolutas (cor de fundo, desenho do padrão e contorno). As camadas são
+# refeitas aqui, em escala maior. A Wikipédia não põe escudo nem patrocinador nos uniformes, e a figura não entrega o
+# nome do time.
+KIT_ESCALA = 5
+KIT_CAMADA = re.compile(r'<div style="position:\s*absolute;\s*left:\s*(\d+)px;\s*top:\s*(\d+)px;\s*width:\s*(\d+)px;\s*'
+                        r'height:\s*(\d+)px;(?:\s*background-color:\s*(#[0-9A-Fa-f]{3,6}))?[^"]*">(.*?)</div>', re.S)
+
+
+def _kit_arquivo(src):
+    """URL da camada no tamanho da escala, e o nome do arquivo no Commons (None se não for do Commons)."""
+    src = "https:" + src.split("?")[0] if src.startswith("//") else src.split("?")[0]
+    m = re.search(r"/wikipedia/commons/(?:thumb/)?[0-9a-f]/[0-9a-f]{2}/([^/]+)", src)
+    if "/thumb/" in src:
+        src = re.sub(r"/\d+px-", "/330px-", src)  # o Wikimedia só serve miniaturas em larguras padronizadas
+    return src, urllib.parse.unquote(m.group(1)) if m else None
+
+
+def _preparar_camisa(ent, pasta, indice):
+    lingua, _, titulo = ent["titulo"].partition(":")
+    if not titulo:
+        lingua, titulo = "en", lingua
+    d = _get(f"https://{lingua}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "parse", "page": titulo, "prop": "text", "section": 0, "redirects": 1, "format": "json",
+         "formatversion": 2}))
+    html_ = (d or {}).get("parse", {}).get("text", "")
+    inicio = html_.find('<div style="position: relative; left: 0px; top: 0px; width: 100px; height: 135px;')
+    if inicio < 0:
+        return None, "sem desenho de uniforme no quadro de informações"
+    # Só o primeiro uniforme (o principal): as camadas até o fim do bloco de 100 × 135 px.
+    fim = html_.find("</td>", inicio)
+    camadas = KIT_CAMADA.findall(html_[inicio:fim])
+    if len(camadas) < 8:
+        return None, "uniforme incompleto no quadro de informações"
+    k = KIT_ESCALA
+    tela = Image.new("RGBA", (100 * k, 135 * k), (255, 255, 255, 0))
+    padroes = []
+    for x, y, w, h, cor, miolo in camadas:
+        x, y, w, h = (int(v) * k for v in (x, y, w, h))
+        if cor:
+            c = cor.lstrip("#")
+            c = "".join(ch * 2 for ch in c) if len(c) == 3 else c
+            tela.alpha_composite(Image.new("RGBA", (w, h), tuple(int(c[i:i + 2], 16) for i in (0, 2, 4)) + (255,)), (x, y))
+        src = re.search(r'<img [^>]*src="([^"]+)"', miolo)
+        if not src:
+            continue
+        url, arquivo = _kit_arquivo(src.group(1))
+        if not arquivo:
+            return None, "camada do uniforme fora do Commons (pode não ser livre)"
+        dados = _get(url, json_=False)
+        if not dados:
+            return None, f"falha ao baixar {arquivo}"
+        camada = Image.open(io.BytesIO(dados)).convert("RGBA").resize((w, h), Image.LANCZOS)
+        tela.alpha_composite(camada, (x, y))
+        if not arquivo.lower().endswith(".svg"):
+            padroes.append(arquivo)
+    # Licença: a do desenho do corpo (ou do primeiro padrão); os contornos .svg são de domínio público.
+    licenca, autor, origem = "Public domain", "Wikipedia Football kit template", None
+    for arquivo in padroes:
+        ii = _get("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(
+            {"action": "query", "titles": "File:" + arquivo, "prop": "imageinfo", "iiprop": "extmetadata",
+             "format": "json"}))
+        info = next(iter((ii or {}).get("query", {}).get("pages", {}).values()), {}).get("imageinfo", [None])[0] or {}
+        lic = info.get("extmetadata", {}).get("LicenseShortName", {}).get("value", "")
+        if not LIVRE.search(lic):
+            return None, f"licença não livre em {arquivo}: {lic}"
+        if origem is None or "body" in arquivo.lower():
+            licenca, autor = lic, _limpar_autor(info.get("extmetadata", {}).get("Artist", {}).get("value")) or autor
+            origem = "https://commons.wikimedia.org/wiki/File:" + arquivo.replace(" ", "_")
+    titulo_real = d["parse"].get("title", titulo)
+    origem = origem or _wiki_url(lingua, titulo_real)
+    base = Image.new("RGBA", (700, 700), (255, 255, 255, 255))
+    figura = _ampliar(tela, 640)
+    base.alpha_composite(figura, ((700 - figura.width) // 2, (700 - figura.height) // 2))
+    arquivo_jpg = pasta / f"{indice:02d}.jpg"
+    base.convert("RGB").save(arquivo_jpg, "JPEG", quality=90)
+    ex = _get(f"https://{lingua}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "query", "prop": "extracts|langlinks", "exintro": 1, "explaintext": 1, "lllang": "pt" if lingua != "pt" else "en",
+         "redirects": 1, "titles": titulo_real, "format": "json"}))
+    pagina = next(iter((ex or {}).get("query", {}).get("pages", {}).values()), {})
+    fontes_ = [_wiki_url(lingua, titulo_real)]
+    for ll in pagina.get("langlinks", []):
+        fontes_.append(_wiki_url(ll["lang"], ll["*"]))
+    trecho = "Primeiro uniforme (o principal) do quadro de informações da Wikipédia. " + (pagina.get("extract") or "")[:900]
+    return {"imagem": str(arquivo_jpg), "origem": origem, "autor": autor, "licenca": licenca, "nome": ent["nome"],
+            "fonte": fontes_, "trecho": trecho}, None
+
+
 def _preparar_wikidata(ent, cat, pasta, indice):
     lingua, _, titulo = ent["titulo"].partition(":")
     if not titulo:
@@ -582,6 +670,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
             prep, motivo = (_preparar_pokemon(ent, pasta, len(itens) + 1) if cat["imagem"] == "pokeapi"
                             else _preparar_personagem(ent, pasta, len(itens) + 1) if cat["imagem"] == "personagens"
                             else _preparar_cena(ent, pasta, len(itens) + 1) if cat["imagem"] == "cenas"
+                            else _preparar_camisa(ent, pasta, len(itens) + 1) if cat["imagem"] == "camisas"
                             else _preparar_wikidata(ent, cat, pasta, len(itens) + 1))
             if prep is None:
                 ent["status"] = "sem_imagem"

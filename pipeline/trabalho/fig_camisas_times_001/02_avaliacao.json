@@ -1,0 +1,264 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Camisa vermelha com short branco, legível. As cores se repetem em outros times, então a pergunta é de múltipla escolha, com distratores sem vermelho.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Internacional",
+      "distratores": [
+        "Grêmio",
+        "Palmeiras",
+        "Cruzeiro"
+      ],
+      "ancora": {
+        "nome": "Sport Club Internacional",
+        "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+        "variantes": [
+          "Inter",
+          "Inter de Porto Alegre",
+          "Internacional de Porto Alegre"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Camisa branca com faixa diagonal azul e vermelha, short azul e meias vermelhas. O desenho é marcante e a imagem está legível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica o time deste uniforme?",
+      "resposta": "Salvador",
+      "distratores": [
+        "Recife",
+        "Fortaleza",
+        "São Luís"
+      ],
+      "ancora": {
+        "nome": "Esporte Clube Bahia",
+        "descricao": "Clube de futebol de Salvador, na Bahia, fundado em 1931, de uniforme branco com faixa diagonal azul e vermelha.",
+        "variantes": [
+          "Bahia",
+          "EC Bahia",
+          "Esquadrão de Aço"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Listras horizontais verdes e brancas com short preto, reconhecível. O short preto o separa do Celtic, e a pergunta pede o animal do escudo, que não cabe ao Celtic.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que animal aparece no escudo do time deste uniforme?",
+      "resposta": "Leão",
+      "distratores": [
+        "Águia",
+        "Dragão",
+        "Lobo"
+      ],
+      "ancora": {
+        "nome": "Sporting Clube de Portugal",
+        "descricao": "Clube desportivo de Lisboa, famoso pelo futebol, de camisa com listras horizontais verdes e brancas.",
+        "variantes": [
+          "Sporting",
+          "Sporting CP",
+          "Sporting Lisboa"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Listras verticais pretas e brancas com short preto. As cores se repetem em outros times, então a pergunta é de múltipla escolha, com distratores sem preto e branco.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Botafogo",
+      "distratores": [
+        "Palmeiras",
+        "Cruzeiro",
+        "Grêmio"
+      ],
+      "ancora": {
+        "nome": "Botafogo de Futebol e Regatas",
+        "descricao": "Clube de futebol do bairro de Botafogo, no Rio de Janeiro, de camisa com listras verticais pretas e brancas.",
+        "variantes": [
+          "Botafogo",
+          "Glorioso",
+          "Botafogo FR"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Camisa vermelha com mangas azul-marinho e meias com as cores da bandeira espanhola. É reconhecível e legível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta seleção?",
+      "resposta": "Espanha",
+      "distratores": [
+        "Portugal",
+        "Bélgica",
+        "Dinamarca"
+      ],
+      "ancora": {
+        "nome": "Seleção Espanhola de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Espanha, apelidada de La Roja.",
+        "variantes": [
+          "Espanha",
+          "La Roja",
+          "La Furia Roja"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Camisa verde lisa com short branco, sem desenho marcante. Palmeiras, Goiás e outros times usam o mesmo padrão, então a imagem não permite uma resposta única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Listras pretas e brancas com detalhes dourados e short preto. As cores se repetem em outros times, então a pergunta é de múltipla escolha, com distratores sem preto e branco.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Atlético Mineiro",
+      "distratores": [
+        "Cruzeiro",
+        "América Mineiro",
+        "Palmeiras"
+      ],
+      "ancora": {
+        "nome": "Clube Atlético Mineiro",
+        "descricao": "Clube de futebol de Belo Horizonte, em Minas Gerais, fundado em 1908, conhecido como Galo.",
+        "variantes": [
+          "Atlético-MG",
+          "Galo",
+          "Atlético Mineiro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "O xadrez vermelho e branco é inconfundível e a imagem é legível. A pergunta vai além do reconhecimento e pede a capital do país.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta seleção?",
+      "resposta": "Zagreb",
+      "distratores": [
+        "Belgrado",
+        "Liubliana",
+        "Sarajevo"
+      ],
+      "ancora": {
+        "nome": "Seleção Croata de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+        "variantes": [
+          "Croácia",
+          "Vatreni",
+          "Seleção da Croácia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Camisa verde escura lisa com short branco, sem traço marcante. Palmeiras e outros times têm o mesmo padrão, então não há resposta única nem reconhecimento justo."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Listras verticais grená, verdes e brancas, inconfundíveis e legíveis. A pergunta é de múltipla escolha, com distratores de listras verticais.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Fluminense",
+      "distratores": [
+        "Botafogo",
+        "Juventude",
+        "Grêmio"
+      ],
+      "ancora": {
+        "nome": "Fluminense Football Club",
+        "descricao": "Clube de futebol de Laranjeiras, no Rio de Janeiro, fundado em 1902, de camisa tricolor com listras grená, verdes e brancas.",
+        "variantes": [
+          "Fluminense",
+          "Flu",
+          "Tricolor das Laranjeiras"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Camisa amarela com short preto, legível. Outros times usam amarelo e preto, então a pergunta é de múltipla escolha, com distratores sem amarelo. Troquei a família para 'o que é', porque 'onde' ficaria ambíguo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time alemão é este uniforme?",
+      "resposta": "Borussia Dortmund",
+      "distratores": [
+        "Bayern de Munique",
+        "Schalke 04",
+        "Werder Bremen"
+      ],
+      "ancora": {
+        "nome": "Borussia Dortmund",
+        "descricao": "Clube de futebol de Dortmund, na Alemanha, fundado em 1909, de camisa amarela e short preto.",
+        "variantes": [
+          "Dortmund",
+          "BVB",
+          "Borussia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Listras horizontais verdes e brancas com short branco, reconhecível. A múltipla escolha traz só cidades escocesas e irlandesas, e o Sporting (short preto) é outro time.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica o time deste uniforme?",
+      "resposta": "Glasgow",
+      "distratores": [
+        "Edimburgo",
+        "Dublin",
+        "Aberdeen"
+      ],
+      "ancora": {
+        "nome": "Celtic Football Club",
+        "descricao": "Clube de futebol de Glasgow, na Escócia, fundado em 1887, de camisa com listras horizontais verdes e brancas.",
+        "variantes": [
+          "Celtic",
+          "Celtic FC",
+          "Celtic de Glasgow"
+        ]
+      }
+    }
+  ]
+}

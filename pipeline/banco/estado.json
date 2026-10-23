@@ -652,9 +652,10 @@
     "fig_bandeiras_012",
     "fig_cidades_011",
     "fig_monumentos_historicos_011",
-    "fig_monumentos_historicos_012"
+    "fig_monumentos_historicos_012",
+    "fig_camisas_times_001"
   ],
-  "maior_id": 14608,
+  "maior_id": 14618,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1266,6 +1267,18 @@
         "3": 7
       },
       "registradas": 32
+    },
+    "camisas_times": {
+      "familias": {
+        "o_que_e": 5,
+        "onde": 4,
+        "com_o_que_se_liga": 1
+      },
+      "niveis": {
+        "2": 8,
+        "3": 2
+      },
+      "registradas": 10
     }
   },
   "rendimento": {

@@ -365,7 +365,7 @@
   "catalogos": [
     {
       "id": "bandeiras",
-      "meta": 120,
+      "meta": 140,
       "imagem": "P41",
       "descricao": "Países soberanos (a imagem é a bandeira atual).",
       "destinos": [
@@ -452,7 +452,7 @@
     },
     {
       "id": "mamiferos",
-      "meta": 80,
+      "meta": 95,
       "imagem": "P18",
       "descricao": "Espécies de mamíferos.",
       "destinos": [
@@ -470,7 +470,7 @@
     },
     {
       "id": "aves",
-      "meta": 70,
+      "meta": 85,
       "imagem": "P18",
       "descricao": "Espécies de aves.",
       "destinos": [
@@ -1153,7 +1153,7 @@
     },
     {
       "id": "pratos_bebidas",
-      "meta": 80,
+      "meta": 115,
       "imagem": "P18",
       "descricao": "Pratos típicos, doces e bebidas do Brasil e do mundo.",
       "destinos": [
@@ -1170,7 +1170,7 @@
     },
     {
       "id": "frutas_ingredientes",
-      "meta": 50,
+      "meta": 75,
       "imagem": "P18",
       "descricao": "Frutas, temperos e ingredientes.",
       "destinos": [
@@ -1494,6 +1494,47 @@
         "onde",
         "com_o_que_se_liga"
       ]
+    },
+    {
+      "id": "camisas_times",
+      "meta": 45,
+      "imagem": "camisas",
+      "descricao": "Uniformes de clubes de futebol e seleções (a imagem é o primeiro uniforme, o principal, desenhado no quadro de informações da Wikipédia, sem escudo nem patrocinador). Cerca de metade de times brasileiros. Só times de uniforme marcante e reconhecível; quando as cores e o desenho se repetem em outros times conhecidos, a pergunta deve ser de múltipla escolha, com distratores que não usem as mesmas cores.",
+      "destinos": [
+        [
+          "Esportes",
+          "Futebol"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "onde",
+        "com_o_que_se_liga"
+      ],
+      "enunciado": "De que time é este uniforme?",
+      "regra_titulo": "o artigo da Wikipédia em inglês do time, no formato `en:Título exato` (ex.: `en:CR Flamengo`);",
+      "regra_imagem": "Só times cujo artigo na Wikipédia em inglês tem o desenho do uniforme no quadro de informações."
+    },
+    {
+      "id": "bandeiras_estados",
+      "meta": 35,
+      "imagem": "P41",
+      "descricao": "Bandeiras dos estados brasileiros e do Distrito Federal, e de regiões, estados e territórios famosos do mundo (Texas, Escócia, Catalunha, Groenlândia) e de organizações internacionais (União Europeia, ONU). A imagem é a bandeira atual. Nada de bandeiras com o nome escrito.",
+      "destinos": [
+        [
+          "Geografia",
+          "Bandeiras e Símbolos"
+        ],
+        [
+          "Geografia",
+          "Geografia do Brasil"
+        ]
+      ],
+      "familias": [
+        "onde",
+        "com_o_que_se_liga"
+      ],
+      "enunciado": "De que estado é esta bandeira?"
     }
   ]
 }
