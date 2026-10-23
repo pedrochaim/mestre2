@@ -1,0 +1,180 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma massa amarela granulada num pote plástico, parecida com cuscuz ou farofa; não dá para reconhecer a paçoca salgada com certeza, e há uma mão em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara de yakisoba, com macarrão frito, repolho, carne e gengibre vermelho.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que prato japonês é este?",
+      "resposta": "Yakisoba",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Yakisoba",
+        "descricao": "Prato japonês de macarrão frito com legumes e carne, temperado com molho tipo inglês.",
+        "variantes": [
+          "Yakissoba"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de tteokbokki, com bolinhos cilíndricos de arroz em molho vermelho e gergelim. O prato é reconhecível e a pergunta pelo país tem resposta única.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "De que país vem este prato?",
+      "resposta": "Coreia do Sul",
+      "distratores": [
+        "Japão",
+        "China",
+        "Tailândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tteokbokki",
+        "descricao": "Prato coreano de bolinhos cilíndricos de arroz em molho apimentado de gochujang.",
+        "variantes": [
+          "Topokki",
+          "Tokpokki"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pizza napolitana clara e inconfundível, sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que prato é este?",
+      "resposta": "Pizza",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pizza",
+        "descricao": "Prato italiano de massa de trigo achatada coberta com tomate, queijo e outros ingredientes, assada em forno quente.",
+        "variantes": [
+          "Pizza margherita",
+          "Pizza napolitana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem minúscula (300x225) e desfocada, um close de pastéis cozidos. Não dá para distinguir guioza, jiaozi, mandu e outros; a resposta não é única e não fica legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Close de arroz alaranjado sem contexto; é fácil confundir com outros arrozes temperados (arroz à mexicana, pilaf), então a resposta não é única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pirulito isolado sobre fundo branco, claro e legível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que doce é este?",
+      "resposta": "Pirulito",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pirulito",
+        "descricao": "Doce de açúcar duro preso a um palito, feito para chupar ou lamber.",
+        "variantes": [
+          "Chupa-chupa",
+          "Lollipop"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Sopa laranja lisa numa tigela de barro, parecida com creme de tomate, de abóbora ou de cenoura; não se reconhece o gaspacho com certeza."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mapo tofu reconhecível: cubos de tofu em molho vermelho escuro com carne moída e cebolinha. Sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 3,
+      "pergunta": "De que região da China vem este prato?",
+      "resposta": "Sichuan",
+      "distratores": [
+        "Hunan",
+        "Cantão",
+        "Yunnan"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mapo tofu",
+        "descricao": "Prato chinês de tofu em molho picante de pasta de feijão e pimenta, com carne moída.",
+        "variantes": [
+          "Mapo doufu",
+          "Mápó dòufu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Mostra bifes grelhados fatiados numa bandeja, sem a capa de gordura característica; não se reconhece a picanha, e poderia ser outro corte."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pretzels claros e inconfundíveis, com sal grosso. Há farinha e rolo ao fundo, sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "pergunta": "De que país é típico este pão?",
+      "resposta": "Alemanha",
+      "distratores": [
+        "Itália",
+        "Espanha",
+        "Grécia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pretzel",
+        "descricao": "Pão ou massa assada em formato de nó, com sal grosso, típica da Alemanha.",
+        "variantes": [
+          "Bretzel",
+          "Brezel"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mole escuro sobre enchiladas, com gergelim e rodelas de cebola, reconhecível e sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que molho mexicano é este?",
+      "resposta": "Mole",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mole poblano",
+        "descricao": "Molho mexicano escuro de pimentas, especiarias, frutas, castanhas e chocolate, típico de Puebla.",
+        "variantes": [
+          "Mole",
+          "Mole negro"
+        ]
+      }
+    }
+  ]
+}

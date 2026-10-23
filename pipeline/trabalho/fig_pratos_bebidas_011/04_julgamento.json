@@ -1,0 +1,440 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Yakisoba",
+        "descricao": "Prato japonês de macarrão frito com legumes e carne, temperado com molho tipo inglês.",
+        "variantes": [
+          "Yakissoba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "akihabara",
+          "nome": "Akihabara",
+          "descricao": "Bairro de Tóquio conhecido por lojas de eletrônicos, anime, mangá e games.",
+          "variantes": [
+            "Akiba",
+            "Akihabara Electric Town"
+          ]
+        },
+        {
+          "id": "manicoba",
+          "nome": "Maniçoba",
+          "descricao": "Prato paraense feito com folhas moídas de mandioca cozidas longamente com carnes de porco e boi",
+          "variantes": []
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "paquistao",
+          "nome": "Paquistão",
+          "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+          "variantes": [
+            "Pakistan"
+          ]
+        },
+        {
+          "id": "alisson_becker",
+          "nome": "Alisson Becker",
+          "descricao": "Goleiro brasileiro de futebol, do Liverpool e da seleção brasileira.",
+          "variantes": [
+            "Alisson",
+            "Álisson Ramsés Becker"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tteokbokki",
+        "descricao": "Prato coreano de bolinhos cilíndricos de arroz em molho apimentado de gochujang.",
+        "variantes": [
+          "Topokki",
+          "Tokpokki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kamikaze",
+          "nome": "Kamikaze",
+          "descricao": "Pilotos japoneses que, no fim da Segunda Guerra, lançavam seus aviões carregados de explosivos contra navios aliados.",
+          "variantes": [
+            "Camicase",
+            "Tokkōtai"
+          ]
+        },
+        {
+          "id": "ocapi",
+          "nome": "Ocapi",
+          "descricao": "Mamífero das florestas do Congo com listras nas pernas, espécie Okapia johnstoni.",
+          "variantes": [
+            "Okapi",
+            "Okapia johnstoni"
+          ]
+        },
+        {
+          "id": "togepi",
+          "nome": "Togepi",
+          "descricao": "Pokémon do tipo Fada, número 175 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "utopia_2",
+          "nome": "Utopia",
+          "descricao": "Livro de Thomas More, publicado em 1516, que descreve uma ilha com uma sociedade ideal.",
+          "variantes": [
+            "Utopia (livro)",
+            "Utopia de Thomas More",
+            "A Utopia",
+            "De Optimo Reipublicae Statu deque Nova Insula Utopia",
+            "Ilha de Utopia"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pizza",
+        "descricao": "Prato italiano de massa de trigo achatada coberta com tomate, queijo e outros ingredientes, assada em forno quente.",
+        "variantes": [
+          "Pizza margherita",
+          "Pizza napolitana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pizza_marguerita",
+          "nome": "Pizza marguerita",
+          "descricao": "Pizza napolitana clássica coberta com tomate, muçarela e folhas de manjericão",
+          "variantes": [
+            "Pizza Margherita",
+            "Pizza margarita"
+          ]
+        },
+        {
+          "id": "francisco_pizarro",
+          "nome": "Francisco Pizarro",
+          "descricao": "Conquistador espanhol que liderou a conquista do Império Inca na década de 1530.",
+          "variantes": [
+            "Pizarro"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "moela",
+          "nome": "Moela",
+          "descricao": "Parte musculosa do estômago das aves que tritura o alimento, muitas vezes com a ajuda de pedrinhas engolidas.",
+          "variantes": [
+            "Gizzard",
+            "Ventrículo"
+          ]
+        },
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pirulito",
+        "descricao": "Doce de açúcar duro preso a um palito, feito para chupar ou lamber.",
+        "variantes": [
+          "Chupa-chupa",
+          "Lollipop"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chupa_chups",
+          "nome": "Chupa Chups",
+          "descricao": "Marca espanhola de pirulitos fundada por Enric Bernat em 1958, com logotipo em forma de margarida.",
+          "variantes": []
+        },
+        {
+          "id": "preikestolen",
+          "nome": "Preikestolen",
+          "descricao": "Penhasco de topo plano, o Púlpito, a 604 metros acima do Lysefjord, no condado de Rogaland, Noruega.",
+          "variantes": [
+            "Pulpit Rock",
+            "Prekestolen",
+            "Púlpito"
+          ]
+        },
+        {
+          "id": "andrea_pirlo",
+          "nome": "Andrea Pirlo",
+          "descricao": "Ex-meio-campista italiano, campeão mundial em 2006 e vencedor da Liga dos Campeões pelo Milan.",
+          "variantes": [
+            "Pirlo"
+          ]
+        },
+        {
+          "id": "raul_seixas",
+          "nome": "Raul Seixas",
+          "descricao": "Cantor e compositor baiano, pioneiro do rock brasileiro, chamado de Maluco Beleza.",
+          "variantes": [
+            "Raulzito"
+          ]
+        },
+        {
+          "id": "lillipup",
+          "nome": "Lillipup",
+          "descricao": "Pokémon filhote de cão do tipo Normal da quinta geração, número 506 da Pokédex Nacional, que evolui para Herdier.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mapo tofu",
+        "descricao": "Prato chinês de tofu em molho picante de pasta de feijão e pimenta, com carne moída.",
+        "variantes": [
+          "Mapo doufu",
+          "Mápó dòufu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mapa_t_o",
+          "nome": "Mapa T-O",
+          "descricao": "Tipo de mapa-múndi medieval que representa a Afro-Eurásia como um círculo dividido em três partes por um T.",
+          "variantes": [
+            "Mapa T e O",
+            "T and O map",
+            "Mapa isidoriano"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "lao_zi",
+          "nome": "Lao Zi",
+          "descricao": "Filósofo chinês tradicionalmente tido como autor do Tao Te Ching e fundador do taoísmo.",
+          "variantes": [
+            "Laozi",
+            "Lao-Tsé",
+            "Laotsé",
+            "Lao Tzu"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "apolo_de_belvedere",
+          "nome": "Apolo de Belvedere",
+          "descricao": "Escultura de mármore, cópia romana de um bronze grego, que representa Apolo e está nos Museus do Vaticano.",
+          "variantes": [
+            "Apollo Belvedere",
+            "Apolo Pítio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pretzel",
+        "descricao": "Pão ou massa assada em formato de nó, com sal grosso, típica da Alemanha.",
+        "variantes": [
+          "Bretzel",
+          "Brezel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portela",
+          "nome": "Portela",
+          "descricao": "Escola de samba do bairro de Madureira, no Rio de Janeiro, de cores azul e branco.",
+          "variantes": [
+            "Grêmio Recreativo Escola de Samba Portela"
+          ]
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "aquarela_do_brasil",
+          "nome": "Aquarela do Brasil",
+          "descricao": "Samba-exaltação composto por Ary Barroso em 1939.",
+          "variantes": [
+            "Brazil"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        },
+        {
+          "id": "pente",
+          "nome": "Pente",
+          "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+          "variantes": [
+            "Comb"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mole poblano",
+        "descricao": "Molho mexicano escuro de pimentas, especiarias, frutas, castanhas e chocolate, típico de Puebla.",
+        "variantes": [
+          "Mole",
+          "Mole negro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mobile",
+          "nome": "Móbile",
+          "descricao": "Tipo de escultura cinética suspensa, com peças equilibradas que se movem com o ar, criada por Alexander Calder.",
+          "variantes": []
+        },
+        {
+          "id": "montenegro",
+          "nome": "Montenegro",
+          "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
+          "variantes": [
+            "Montenegro (país)",
+            "Crna Gora"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "orfeu_negro",
+          "nome": "Orfeu Negro",
+          "descricao": "Filme de 1959 dirigido por Marcel Camus, filmado no Rio de Janeiro durante o Carnaval e baseado na peça Orfeu da Conceição, de Vinicius de Moraes.",
+          "variantes": [
+            "Black Orpheus",
+            "Orfeu do Carnaval"
+          ]
+        },
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o prato Yakisoba."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tteokbokki."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pizza em geral é distinta da Pizza marguerita, que é uma variedade específica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pirulito é o doce genérico; Chupa Chups é uma marca específica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Mapo tofu."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pretzel."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mole poblano."
+    }
+  ]
+}
