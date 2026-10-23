@@ -12,7 +12,7 @@
       "titulo": "en:Rio de Janeiro (state)",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Minas Gerais",
@@ -47,7 +47,7 @@
       "titulo": "en:Paraná (state)",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Santa Catarina (estado)",
@@ -96,7 +96,7 @@
       "titulo": "en:Maranhão",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Paraíba",
@@ -124,35 +124,35 @@
       "titulo": "en:Mato Grosso do Sul",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Alagoas",
       "titulo": "en:Alagoas",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Acre",
       "titulo": "en:Acre (state)",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Amapá",
       "titulo": "en:Amapá",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Piauí",
       "titulo": "en:Piauí",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Rio Grande do Norte",
@@ -215,7 +215,7 @@
       "titulo": "en:Wales",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "União Europeia",
@@ -285,7 +285,7 @@
       "titulo": "en:Sardinia",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Baviera",
@@ -404,21 +404,21 @@
       "titulo": "pt:Bandeira do Piauí",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira de Mato Grosso do Sul",
       "titulo": "pt:Bandeira de Mato Grosso do Sul",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira de Alagoas",
       "titulo": "pt:Bandeira de Alagoas",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira do Acre",
@@ -432,7 +432,7 @@
       "titulo": "pt:Bandeira do Amapá",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira de Roraima",
@@ -446,7 +446,7 @@
       "titulo": "en:Flag of the Isle of Man",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira da Sardenha",
@@ -488,7 +488,7 @@
       "titulo": "en:Flag of Colorado",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira de Ontário",
@@ -502,7 +502,7 @@
       "titulo": "en:Flag of Brittany",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira da Andaluzia",
@@ -523,7 +523,7 @@
       "titulo": "en:Flag of Flanders",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira de Åland",
@@ -551,14 +551,14 @@
       "titulo": "en:Flag of New Mexico",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira do Arizona",
       "titulo": "en:Flag of Arizona",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira de Maryland",
@@ -579,14 +579,14 @@
       "titulo": "en:Flag of the African Union",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira da ASEAN",
       "titulo": "en:Flag of ASEAN",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Bandeira da Liga Árabe",
@@ -607,6 +607,286 @@
       "titulo": "en:Flag of Tatarstan",
       "camada": 3,
       "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Palestina",
+      "titulo": "en:Flag of Palestine",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do município de São Paulo",
+      "titulo": "pt:Bandeira do município de São Paulo",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do município do Rio de Janeiro",
+      "titulo": "pt:Bandeira do município do Rio de Janeiro",
+      "camada": 1,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Catalunha",
+      "titulo": "en:Flag of Catalonia",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Kosovo",
+      "titulo": "en:Flag of Kosovo",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira das Ilhas Malvinas",
+      "titulo": "en:Flag of the Falkland Islands",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Ulster",
+      "titulo": "en:Ulster Banner",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Carolina do Sul",
+      "titulo": "en:Flag of South Carolina",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Tennessee",
+      "titulo": "en:Flag of Tennessee",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Chicago",
+      "titulo": "en:Flag of Chicago",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Berlim",
+      "titulo": "en:Flag of Berlin",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Salvador",
+      "titulo": "pt:Bandeira de Salvador",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Recife",
+      "titulo": "pt:Bandeira do Recife",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira das Ilhas Canárias",
+      "titulo": "en:Flag of the Canary Islands",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Tasmânia",
+      "titulo": "en:Flag of Tasmania",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Colúmbia Britânica",
+      "titulo": "en:Flag of British Columbia",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Commonwealth",
+      "titulo": "en:Flag of the Commonwealth of Nations",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Saara Ocidental",
+      "titulo": "en:Flag of the Sahrawi Arab Democratic Republic",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Chipre do Norte",
+      "titulo": "en:Flag of Northern Cyprus",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Comunidade Valenciana",
+      "titulo": "en:Flag of the Valencian Community",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Comunidade de Madrid",
+      "titulo": "en:Flag of the Community of Madrid",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira das Astúrias",
+      "titulo": "en:Flag of Asturias",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Navarra",
+      "titulo": "en:Flag of Navarre",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Normandia",
+      "titulo": "en:Flag of Normandy",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Valônia",
+      "titulo": "en:Flag of Wallonia",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Hamburgo",
+      "titulo": "en:Flag of Hamburg",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Polinésia Francesa",
+      "titulo": "en:Flag of French Polynesia",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira sámi",
+      "titulo": "en:Sámi flag",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Zanzibar",
+      "titulo": "en:Flag of Zanzibar",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Somalilândia",
+      "titulo": "en:Flag of Somaliland",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Minnesota",
+      "titulo": "en:Flag of Minnesota",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira da Nova Escócia",
+      "titulo": "en:Flag of Nova Scotia",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Terra Nova e Labrador",
+      "titulo": "en:Flag of Newfoundland and Labrador",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Jersey",
+      "titulo": "en:Flag of Jersey",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Guernsey",
+      "titulo": "en:Flag of Guernsey",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Território do Norte",
+      "titulo": "en:Flag of the Northern Territory",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira do Alabama",
+      "titulo": "en:Flag of Alabama",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Belo Horizonte",
+      "titulo": "pt:Bandeira de Belo Horizonte",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Porto Alegre",
+      "titulo": "pt:Bandeira de Porto Alegre",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Bandeira de Curitiba",
+      "titulo": "pt:Bandeira de Curitiba",
+      "camada": 2,
+      "destino": 1,
       "status": "sem_imagem"
     }
   ]

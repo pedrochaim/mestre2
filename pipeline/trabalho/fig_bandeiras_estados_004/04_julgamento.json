@@ -1,0 +1,503 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sardenha",
+        "descricao": "Região autônoma da Itália, a segunda maior ilha do Mediterrâneo, cuja bandeira traz quatro mouros e uma cruz vermelha.",
+        "variantes": [
+          "Sardegna",
+          "Sardinia",
+          "Bandeira da Sardenha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sardenha",
+          "nome": "Sardenha",
+          "descricao": "Ilha italiana no mar Mediterrâneo, ao sul da Córsega, cuja capital é Cagliari.",
+          "variantes": [
+            "Sardinia",
+            "Sardegna"
+          ]
+        },
+        {
+          "id": "bandeira_da_armenia",
+          "nome": "Bandeira da Armênia",
+          "descricao": "Bandeira nacional da Armênia, tricolor horizontal vermelha, azul e laranja.",
+          "variantes": [
+            "Armênia",
+            "Bandeira armênia"
+          ]
+        },
+        {
+          "id": "bandeira_da_espanha",
+          "nome": "Bandeira da Espanha",
+          "descricao": "Bandeira nacional da Espanha, com faixas vermelha, amarela larga e vermelha e o brasão real do lado da haste.",
+          "variantes": [
+            "Rojigualda"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha_oriental",
+          "nome": "Bandeira da Alemanha Oriental",
+          "descricao": "Bandeira da República Democrática Alemã, tricolor preto, vermelho e dourado com martelo, compasso e coroa de trigo, usada de 1959 a 1990.",
+          "variantes": [
+            "Bandeira da RDA",
+            "Flag of East Germany"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Maranhão",
+        "descricao": "Estado brasileiro da Região Nordeste, cuja capital é São Luís.",
+        "variantes": [
+          "Estado do Maranhão",
+          "Bandeira do Maranhão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maranhao",
+          "nome": "Maranhão",
+          "descricao": "Estado do Nordeste do Brasil, cuja capital é São Luís.",
+          "variantes": [
+            "MA"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "aranha",
+          "nome": "Aranha",
+          "descricao": "Aracnídeos da ordem Araneae, predadores de oito patas que produzem seda.",
+          "variantes": [
+            "Araneae"
+          ]
+        },
+        {
+          "id": "bandeira_de_ruanda",
+          "nome": "Bandeira de Ruanda",
+          "descricao": "Bandeira nacional de Ruanda, com faixas azul, amarela e verde e um sol dourado no canto superior.",
+          "variantes": [
+            "Ruanda",
+            "Bandeira do Ruanda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "País de Gales",
+        "descricao": "País que integra o Reino Unido, na ilha da Grã-Bretanha, com capital em Cardiff, cuja bandeira traz um dragão vermelho.",
+        "variantes": [
+          "Gales",
+          "Wales",
+          "Cymru",
+          "Bandeira do País de Gales"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_pais_de_gales",
+          "nome": "Bandeira do País de Gales",
+          "descricao": "Bandeira do País de Gales, com um dragão vermelho sobre faixas branca e verde.",
+          "variantes": [
+            "Y Ddraig Goch",
+            "Dragão Vermelho"
+          ]
+        },
+        {
+          "id": "lingua_galesa",
+          "nome": "Língua galesa",
+          "descricao": "Língua celta falada no País de Gales, cooficial com o inglês.",
+          "variantes": [
+            "Galês",
+            "Cymraeg"
+          ]
+        },
+        {
+          "id": "bandeira_do_pais_basco",
+          "nome": "Bandeira do País Basco",
+          "descricao": "Ikurriña, bandeira da comunidade autônoma do País Basco, com cruz branca e verde sobre fundo vermelho.",
+          "variantes": [
+            "País Basco",
+            "Ikurriña",
+            "Euskadi"
+          ]
+        },
+        {
+          "id": "tales_de_mileto",
+          "nome": "Tales de Mileto",
+          "descricao": "Filósofo grego pré-socrático (c. 624–546 a.C.), considerado pela tradição um dos Sete Sábios da Grécia.",
+          "variantes": [
+            "Thales of Miletus",
+            "Tales",
+            "Thales"
+          ]
+        },
+        {
+          "id": "galeno",
+          "nome": "Galeno",
+          "descricao": "Médico grego do Império Romano (século segundo), cujas ideias dominaram a medicina por mais de mil anos.",
+          "variantes": [
+            "Cláudio Galeno",
+            "Galen",
+            "Galeno de Pérgamo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Acre",
+        "descricao": "Estado brasileiro da Região Norte, na fronteira com Peru e Bolívia, cuja capital é Rio Branco.",
+        "variantes": [
+          "Estado do Acre",
+          "Bandeira do Acre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acre",
+          "nome": "Acre",
+          "descricao": "Estado da Região Norte do Brasil, incorporado ao país pelo Tratado de Petrópolis, em 1903.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        },
+        {
+          "id": "bandeira_do_para",
+          "nome": "Bandeira do Pará",
+          "descricao": "Bandeira do estado brasileiro do Pará, com faixa diagonal branca e estrela azul sobre fundo vermelho.",
+          "variantes": [
+            "Pará"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Alagoas",
+        "descricao": "Estado brasileiro da Região Nordeste, cuja capital é Maceió, com bandeira de faixas vermelha, branca e azul e brasão central.",
+        "variantes": [
+          "Estado de Alagoas",
+          "Bandeira de Alagoas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alagoas",
+          "nome": "Alagoas",
+          "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+          "variantes": [
+            "Estado de Alagoas"
+          ]
+        },
+        {
+          "id": "bandeira_de_goias",
+          "nome": "Bandeira de Goiás",
+          "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+          "variantes": [
+            "Goiás",
+            "Bandeira do estado de Goiás"
+          ]
+        },
+        {
+          "id": "goias",
+          "nome": "Goiás",
+          "descricao": "Estado brasileiro da região Centro-Oeste que cerca o Distrito Federal, com capital em Goiânia.",
+          "variantes": [
+            "Estado de Goiás"
+          ]
+        },
+        {
+          "id": "bandeira_das_bahamas",
+          "nome": "Bandeira das Bahamas",
+          "descricao": "Bandeira nacional das Bahamas, com faixas azul-turquesa e amarela e triângulo preto à esquerda.",
+          "variantes": [
+            "Bahamas",
+            "Bandeira de Bahamas"
+          ]
+        },
+        {
+          "id": "lagoa_rodrigo_de_freitas",
+          "nome": "Lagoa Rodrigo de Freitas",
+          "descricao": "Lagoa na Zona Sul do Rio de Janeiro, ligada ao Atlântico por um canal.",
+          "variantes": [
+            "Lagoa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Piauí",
+        "descricao": "Estado brasileiro da Região Nordeste, de menor litoral do país, cuja capital é Teresina.",
+        "variantes": [
+          "Estado do Piauí",
+          "Bandeira do Piauí"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piaui",
+          "nome": "Piauí",
+          "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+          "variantes": [
+            "Estado do Piauí",
+            "PI"
+          ]
+        },
+        {
+          "id": "bandeira_do_ira",
+          "nome": "Bandeira do Irã",
+          "descricao": "Bandeira nacional do Irã, tricolor verde, branca e vermelha com emblema vermelho e inscrições nas bordas das faixas.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_iraque",
+          "nome": "Bandeira do Iraque",
+          "descricao": "Bandeira nacional do Iraque, com listras vermelha, branca e preta e inscrição árabe verde.",
+          "variantes": [
+            "Iraque",
+            "Bandeira iraquiana"
+          ]
+        },
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "bandeira_dos_emirados_arabes_unidos",
+          "nome": "Bandeira dos Emirados Árabes Unidos",
+          "descricao": "Bandeira dos Emirados Árabes Unidos, com faixa vertical vermelha e faixas horizontais verde, branca e preta.",
+          "variantes": [
+            "Emirados Árabes Unidos",
+            "Bandeira dos EAU"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mato Grosso do Sul",
+        "descricao": "Estado brasileiro da Região Centro-Oeste, cuja capital é Campo Grande.",
+        "variantes": [
+          "Estado de Mato Grosso do Sul",
+          "Bandeira de Mato Grosso do Sul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mato_grosso_do_sul",
+          "nome": "Mato Grosso do Sul",
+          "descricao": "Estado da Região Centro-Oeste do Brasil, desmembrado de Mato Grosso, com capital em Campo Grande.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_mato_grosso",
+          "nome": "Bandeira de Mato Grosso",
+          "descricao": "Bandeira do estado brasileiro de Mato Grosso, com losango branco, círculo verde e estrela amarela sobre fundo azul-escuro.",
+          "variantes": [
+            "Mato Grosso",
+            "Bandeira do estado de Mato Grosso"
+          ]
+        },
+        {
+          "id": "bonito",
+          "nome": "Bonito",
+          "descricao": "Município de Mato Grosso do Sul, na Serra da Bodoquena, famoso pelos rios de águas cristalinas.",
+          "variantes": [
+            "Bonito (Mato Grosso do Sul)"
+          ]
+        },
+        {
+          "id": "campo_grande",
+          "nome": "Campo Grande",
+          "descricao": "Capital do estado de Mato Grosso do Sul.",
+          "variantes": [
+            "Campo Grande (Mato Grosso do Sul)"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao_do_sul",
+          "nome": "Bandeira do Sudão do Sul",
+          "descricao": "Bandeira nacional do Sudão do Sul, com faixas preta, vermelha e verde, triângulo azul e estrela amarela.",
+          "variantes": [
+            "Sudão do Sul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Amapá",
+        "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, cuja capital é Macapá.",
+        "variantes": [
+          "Estado do Amapá",
+          "Bandeira do Amapá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amapa",
+          "nome": "Amapá",
+          "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+          "variantes": [
+            "Estado do Amapá"
+          ]
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "bandeira_do_amazonas",
+          "nome": "Bandeira do Amazonas",
+          "descricao": "Bandeira do estado brasileiro do Amazonas, com canto azul de estrelas e faixa vermelha central.",
+          "variantes": [
+            "Amazonas (estado)",
+            "Bandeira do estado do Amazonas"
+          ]
+        },
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "bandeira_do_panama",
+          "nome": "Bandeira do Panamá",
+          "descricao": "Bandeira nacional do Panamá, dividida em quatro quadrantes com uma estrela azul e uma vermelha.",
+          "variantes": [
+            "Panamá",
+            "Bandeira panamenha"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "sardenha",
+      "motivo": "Mesma entidade: a ilha/região autônoma da Sardenha; a menção à bandeira é só detalhe descritivo."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "maranhao",
+      "motivo": "Mesmo estado do Maranhão, capital São Luís."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A proposta é o país; a candidata é a bandeira, e a outra é a língua. São entidades diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "acre",
+      "motivo": "Mesmo estado do Acre, na Região Norte."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "alagoas",
+      "motivo": "Mesmo estado de Alagoas, capital Maceió."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "piaui",
+      "motivo": "Mesmo estado do Piauí, capital Teresina."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "mato_grosso_do_sul",
+      "motivo": "Mesmo estado de Mato Grosso do Sul, capital Campo Grande."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "amapa",
+      "motivo": "Mesmo estado do Amapá, capital Macapá."
+    }
+  ]
+}

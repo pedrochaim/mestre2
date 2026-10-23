@@ -1,0 +1,189 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A bandeira traz escrito 'Estado do Rio de Janeiro' na faixa, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira dos quatro mouros com cruz vermelha, sem texto, reconhecível e única.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que região italiana é esta bandeira?",
+      "resposta": "Sardenha",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sardenha",
+        "descricao": "Região autônoma da Itália, a segunda maior ilha do Mediterrâneo, cuja bandeira traz quatro mouros e uma cruz vermelha.",
+        "variantes": [
+          "Sardegna",
+          "Sardinia",
+          "Bandeira da Sardenha"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira listrada com quadrado azul e estrela branca, sem texto, distinta das demais.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Maranhão",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Maranhão",
+        "descricao": "Estado brasileiro da Região Nordeste, cuja capital é São Luís.",
+        "variantes": [
+          "Estado do Maranhão",
+          "Bandeira do Maranhão"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Dragão vermelho sobre branco e verde, sem texto, inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país do Reino Unido é esta bandeira?",
+      "resposta": "País de Gales",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "País de Gales",
+        "descricao": "País que integra o Reino Unido, na ilha da Grã-Bretanha, com capital em Cardiff, cuja bandeira traz um dragão vermelho.",
+        "variantes": [
+          "Gales",
+          "Wales",
+          "Cymru",
+          "Bandeira do País de Gales"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A bandeira traz a palavra 'PARANÁ' escrita no círculo azul, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira amarela e verde em diagonal com estrela vermelha, sem texto; por ser menos conhecida, vai em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Acre",
+      "distratores": [
+        "Rondônia",
+        "Roraima",
+        "Tocantins"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Acre",
+        "descricao": "Estado brasileiro da Região Norte, na fronteira com Peru e Bolívia, cuja capital é Rio Branco.",
+        "variantes": [
+          "Estado do Acre",
+          "Bandeira do Acre"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Três faixas verticais com brasão central, sem texto legível; distinta de outras bandeiras nordestinas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Alagoas",
+      "distratores": [
+        "Sergipe",
+        "Pernambuco",
+        "Paraíba"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Alagoas",
+        "descricao": "Estado brasileiro da Região Nordeste, cuja capital é Maceió, com bandeira de faixas vermelha, branca e azul e brasão central.",
+        "variantes": [
+          "Estado de Alagoas",
+          "Bandeira de Alagoas"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira listrada verde e amarela com quadrado azul; a data escrita não revela o nome do estado, então a pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado desta bandeira?",
+      "resposta": "Teresina",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Piauí",
+        "descricao": "Estado brasileiro da Região Nordeste, de menor litoral do país, cuja capital é Teresina.",
+        "variantes": [
+          "Estado do Piauí",
+          "Bandeira do Piauí"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira com faixa diagonal verde, branca e azul e estrela amarela, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Mato Grosso do Sul",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Mato Grosso do Sul",
+        "descricao": "Estado brasileiro da Região Centro-Oeste, cuja capital é Campo Grande.",
+        "variantes": [
+          "Estado de Mato Grosso do Sul",
+          "Bandeira de Mato Grosso do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira verde, azul e amarela com símbolo central, sem texto; vai em múltipla escolha com estados vizinhos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Amapá",
+      "distratores": [
+        "Pará",
+        "Amazonas",
+        "Roraima"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Amapá",
+        "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, cuja capital é Macapá.",
+        "variantes": [
+          "Estado do Amapá",
+          "Bandeira do Amapá"
+        ]
+      }
+    }
+  ]
+}

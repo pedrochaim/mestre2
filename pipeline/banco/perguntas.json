@@ -277453,5 +277453,180 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q14785",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "sardenha",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que região italiana é esta bandeira?",
+    "resposta": "Sardenha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sardinia",
+      "https://pt.wikipedia.org/wiki/Sardenha"
+    ],
+    "imagem": {
+      "arquivo": "q14785.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Sardinia,_Italy.svg",
+      "autor": "Angelus",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14786",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "maranhao",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que estado brasileiro é esta bandeira?",
+    "resposta": "Maranhão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maranh%C3%A3o",
+      "https://pt.wikipedia.org/wiki/Maranh%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14786.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandeira_do_Maranhão.svg",
+      "autor": "E2m (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14787",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "pais_de_gales",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país do Reino Unido é esta bandeira?",
+    "resposta": "País de Gales",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wales",
+      "https://pt.wikipedia.org/wiki/Pa%C3%ADs_de_Gales"
+    ],
+    "imagem": {
+      "arquivo": "q14787.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Wales.svg",
+      "autor": "Unknown Vector graphics by Tobias Jakobs",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14788",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "acre",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que estado brasileiro é esta bandeira?",
+    "resposta": "Acre",
+    "distratores": [
+      "Rondônia",
+      "Roraima",
+      "Tocantins"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Acre_%28state%29",
+      "https://pt.wikipedia.org/wiki/Acre"
+    ],
+    "imagem": {
+      "arquivo": "q14788.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandeira_do_Acre.svg",
+      "autor": "Public domainPublic domainfalsefalse This work has been released into the public domain by its author, E2m. This applies worldwide. In some countries this may not be legally possible; if so: E2m grant",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14789",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "alagoas",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que estado brasileiro é esta bandeira?",
+    "resposta": "Alagoas",
+    "distratores": [
+      "Sergipe",
+      "Pernambuco",
+      "Paraíba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alagoas",
+      "https://pt.wikipedia.org/wiki/Alagoas"
+    ],
+    "imagem": {
+      "arquivo": "q14789.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandeira_de_Alagoas.svg",
+      "autor": "Giro720",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14790",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "piaui",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital do estado desta bandeira?",
+    "resposta": "Teresina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piau%C3%AD",
+      "https://pt.wikipedia.org/wiki/Piau%C3%AD"
+    ],
+    "imagem": {
+      "arquivo": "q14790.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandeira_do_Piauí.svg",
+      "autor": "E2m, Giro720",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14791",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "mato_grosso_do_sul",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que estado brasileiro é esta bandeira?",
+    "resposta": "Mato Grosso do Sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mato_Grosso_do_Sul",
+      "https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul"
+    ],
+    "imagem": {
+      "arquivo": "q14791.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandeira_de_Mato_Grosso_do_Sul.svg",
+      "autor": "E2m",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14792",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "amapa",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que estado brasileiro é esta bandeira?",
+    "resposta": "Amapá",
+    "distratores": [
+      "Pará",
+      "Amazonas",
+      "Roraima"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amap%C3%A1",
+      "https://pt.wikipedia.org/wiki/Amap%C3%A1"
+    ],
+    "imagem": {
+      "arquivo": "q14792.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bandeira_do_Amapá.svg",
+      "autor": "E2m",
+      "licenca": "Public domain"
+    }
   }
 ]

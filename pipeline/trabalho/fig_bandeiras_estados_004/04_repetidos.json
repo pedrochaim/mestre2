@@ -1,0 +1,144 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que região italiana é esta bandeira?",
+        "resposta": "Sardenha"
+      },
+      "existentes": [
+        {
+          "id": "q13217",
+          "pergunta": "Logo atrás da Sicília, qual é a segunda maior ilha do mar Mediterrâneo, também italiana?",
+          "resposta": "Sardenha"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que estado brasileiro é esta bandeira?",
+        "resposta": "Maranhão"
+      },
+      "existentes": [
+        {
+          "id": "q06202",
+          "pergunta": "Que estado brasileiro está destacado neste mapa?",
+          "resposta": "Maranhão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que estado brasileiro é esta bandeira?",
+        "resposta": "Acre"
+      },
+      "existentes": [
+        {
+          "id": "q02421",
+          "pergunta": "Pelo tratado de 1903 que deu o Acre ao Brasil, o país se comprometeu a construir qual ferrovia na Amazônia?",
+          "resposta": "Madeira-Mamoré"
+        },
+        {
+          "id": "q04546",
+          "pergunta": "Durante décadas o Acre foi um território federal. Em que década ele foi finalmente elevado à categoria de estado?",
+          "resposta": "Década de 1960"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "De que estado brasileiro é esta bandeira?",
+        "resposta": "Alagoas"
+      },
+      "existentes": [
+        {
+          "id": "q03897",
+          "pergunta": "Qual é a capital do estado destacado neste mapa?",
+          "resposta": "Maceió"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a capital do estado desta bandeira?",
+        "resposta": "Teresina"
+      },
+      "existentes": [
+        {
+          "id": "q01843",
+          "pergunta": "Que estado brasileiro está destacado neste mapa?",
+          "resposta": "Piauí"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "De que estado brasileiro é esta bandeira?",
+        "resposta": "Mato Grosso do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q02438",
+          "pergunta": "Em que ano foi assinada a lei que dividiu Mato Grosso em dois, criando o Mato Grosso do Sul?",
+          "resposta": "1977"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "De que estado brasileiro é esta bandeira?",
+        "resposta": "Amapá"
+      },
+      "existentes": [
+        {
+          "id": "q03894",
+          "pergunta": "Em que região do Brasil fica o estado destacado neste mapa?",
+          "resposta": "Norte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bandeira da região vs. segunda maior ilha do Mediterrâneo; fatos diferentes (identificar bandeira)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar estado pela bandeira é diferente de identificá-lo pelo mapa."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bandeira do Acre não é o tratado nem a elevação a estado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar estado pela bandeira difere da capital de estado no mapa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Capital do Piauí difere de identificar o estado no mapa."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bandeira vs. ano da lei de divisão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bandeira do Amapá vs. região onde fica; fatos diferentes."
+    }
+  ]
+}
