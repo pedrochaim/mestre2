@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Desenho claro de um homem de turbante, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que acessório de cabeça é este?",
+      "resposta": "Turbante",
+      "destino": 0,
+      "ancora": {
+        "nome": "Turbante",
+        "descricao": "Cobertura de cabeça feita de tecido enrolado, usada em várias culturas.",
+        "variantes": [
+          "Dastar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de um sombrero decorado com cacto, fundo neutro.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este chapéu de abas largas é tradicional de que país?",
+      "resposta": "México",
+      "distratores": [
+        "Espanha",
+        "Argentina",
+        "Peru"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sombrero",
+        "descricao": "Chapéu de abas largas e copa alta, associado à cultura mexicana.",
+        "variantes": [
+          "Sombrero de charro",
+          "Sombrero jarano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de um chapéu-palheta de palha com fita escura.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que chapéu é este?",
+      "resposta": "Chapéu-palheta (canotier)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chapéu-palheta",
+        "descricao": "Chapéu de palha rígida, copa e aba planas, com fita, usado no verão.",
+        "variantes": [
+          "Canotier",
+          "Boater"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura de Memling em domínio público com o toucado cônico bem visível, sem texto.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que toucado feminino do fim da Idade Média europeia aparece neste retrato?",
+      "resposta": "Hennin",
+      "distratores": [
+        "Chapéu cloche",
+        "Turbante",
+        "Bicorne"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Hennin",
+        "descricao": "Toucado feminino em forma de cone ou cone truncado, usado pela nobreza europeia no fim da Idade Média.",
+        "variantes": [
+          "Hênin"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O desenho mostra um lenço quadrado amarrado no pescoço, que pode ser lenço ou echarpe e não só cachecol. A resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica de Louise Brooks, figura pública, com o chapéu cloche em destaque.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que chapéu feminino, popular nos anos vinte, esta atriz usa?",
+      "resposta": "Chapéu cloche",
+      "distratores": [
+        "Chapéu-palheta",
+        "Fedora",
+        "Boina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chapéu cloche",
+        "descricao": "Chapéu feminino justo em forma de sino, popular nos anos 1920.",
+        "variantes": [
+          "Cloche",
+          "Chapéu cloché"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O desenho a nanquim é abstrato e confuso, e a braguilha não é reconhecível pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A foto mostra pessoas comuns e crianças em primeiro plano num mercado, o que não é permitido."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto de sapatilhas de ponta em detalhe, só pés e pernas, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que calçado de dança é este?",
+      "resposta": "Sapatilha de ponta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sapatilha de ponta",
+        "descricao": "Sapatilha de ballet com ponta reforçada, que permite dançar sobre a ponta dos pés.",
+        "variantes": [
+          "Sapatilha de ballet",
+          "Pointe shoe"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de um kilt de tartan verde e azul, sem rosto nem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que peça de vestuário é esta?",
+      "resposta": "Kilt (saia escocesa)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kilt",
+        "descricao": "Peça de lã plissada que envolve a cintura até o joelho, de tartan, originária das Terras Altas da Escócia.",
+        "variantes": [
+          "Saia escocesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Estampa de bolinhas brancas sobre fundo vinho, nítida e inequívoca.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que nome tem esta estampa?",
+      "resposta": "Poá (bolinhas)",
+      "distratores": [
+        "Xadrez",
+        "Listras",
+        "Paisley"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Poá",
+        "descricao": "Estampa de círculos cheios do mesmo tamanho, espaçados regularmente.",
+        "variantes": [
+          "Bolinhas",
+          "Polka dot"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de museu de um véu de renda preta sobre manequim, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça feminina de renda, usada sobre a cabeça e os ombros, é esta?",
+      "resposta": "Mantilha",
+      "distratores": [
+        "Turbante",
+        "Chapéu cloche",
+        "Hennin"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mantilha",
+        "descricao": "Véu ou xale de renda ou seda usado sobre a cabeça e os ombros, tradicional na Espanha e na América Latina.",
+        "variantes": [
+          "Mantilla"
+        ]
+      }
+    }
+  ]
+}

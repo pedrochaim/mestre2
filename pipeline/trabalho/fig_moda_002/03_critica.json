@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'acessório de cabeça' é só categoria e não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sombrero típico do México, confirmado nos trechos. A figura é necessária e a pista não entrega o país.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta neutra. O chapéu-palheta (canotier) está confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retrato' não está confirmado em mostra. Os distratores (cloche, turbante, bicorne) são de outras épocas e o enunciado já fixa o fim da Idade Média, então dá para eliminá-los. Distratores trocados por peças medievais ou antigas.",
+      "reescrita": {
+        "pergunta": "Que toucado feminino da nobreza europeia, no fim da Idade Média, é este?",
+        "resposta": "Hennin",
+        "distratores": [
+          "Capuz com liripipe",
+          "Barrete florentino",
+          "Gorro frígio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Esta atriz' não está confirmado em mostra. 'Feminino, popular nos anos vinte' praticamente entrega o cloche sem a figura. O chapéu-palheta também foi usado por mulheres no começo do século vinte, então não serve de distrator.",
+      "reescrita": {
+        "pergunta": "Que chapéu feminino é este?",
+        "resposta": "Chapéu cloche",
+        "distratores": [
+          "Fedora",
+          "Boina",
+          "Pillbox"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; 'calçado de dança' é categoria. A resposta é específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta neutra, sem pista que entregue o nome. A resposta está confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A estampa de círculos cheios iguais é o polka dot (poá), conforme o trecho. Os distratores são estampas críveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Peça feminina de renda, usada sobre a cabeça e os ombros' é a definição de mantilha, quase literal do trecho, então a figura vira enfeite. Pista removida.",
+      "reescrita": {
+        "pergunta": "Que peça de vestuário feminina é esta?",
+        "resposta": "Mantilha",
+        "distratores": [
+          "Turbante",
+          "Chapéu cloche",
+          "Hennin"
+        ]
+      }
+    }
+  ]
+}

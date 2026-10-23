@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Este chapéu de abas largas é tradicional de que país?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q01156",
+          "pergunta": "Este chapéu de aba larga e copa alta é típico de qual país?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peça de vestuário é esta?",
+        "resposta": "Kilt (saia escocesa)"
+      },
+      "existentes": [
+        {
+          "id": "q01350",
+          "pergunta": "Esta peça de lã xadrez, de pregas atrás, é traje tradicional masculino de qual país?",
+          "resposta": "Escócia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que peça de vestuário feminina é esta?",
+        "resposta": "Mantilha"
+      },
+      "existentes": [
+        {
+          "id": "q06934",
+          "pergunta": "Este véu de renda para cobrir a cabeça é tradicional de que país europeu?",
+          "resposta": "Espanha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam de que país é típico o chapéu (México); mesmo fato.",
+      "id_existente": "q01156"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nova pergunta identifica a peça (kilt); a existente pergunta o país (Escócia). Fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nova pergunta identifica a peça (mantilha); a existente pergunta o país (Espanha). Fatos diferentes."
+    }
+  ]
+}
