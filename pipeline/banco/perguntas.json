@@ -281635,5 +281635,115 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q14962",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "triceps_braquial",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que músculo do braço está colorido nesta figura, vista por trás?",
+    "resposta": "Tríceps",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triceps",
+      "https://pt.wikipedia.org/wiki/Tr%C3%ADceps_braquial"
+    ],
+    "imagem": {
+      "arquivo": "q14962.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle_-_animation02.gif",
+      "autor": "Anatomography",
+      "licenca": "CC BY-SA 2.1 jp"
+    }
+  },
+  {
+    "id": "q14963",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "parede_celular",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que estrutura forma a camada verde mais externa desta figura?",
+    "resposta": "Parede celular",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cell_wall",
+      "https://pt.wikipedia.org/wiki/Parede_celular"
+    ],
+    "imagem": {
+      "arquivo": "q14963.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Eukaryota_cell_strucutre.PNG",
+      "autor": "Image by LadyofHats + my own editing",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14964",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "bigorna",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que pequeno osso do ouvido médio é este?",
+    "resposta": "Bigorna",
+    "distratores": [
+      "Martelo",
+      "Estribo",
+      "Osso hioide"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Incus",
+      "https://pt.wikipedia.org/wiki/Bigorna_%28osso%29"
+    ],
+    "imagem": {
+      "arquivo": "q14964.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gray917.png",
+      "autor": "Henry Vandyke Carter",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14965",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "cotovelo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que articulação do corpo humano aparece dobrada nesta foto?",
+    "resposta": "Cotovelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elbow",
+      "https://pt.wikipedia.org/wiki/Cotovelo"
+    ],
+    "imagem": {
+      "arquivo": "q14965.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Elbow_coude.JPG",
+      "autor": "KoS",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14966",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "zigoto",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que célula humana é esta, vista ao microscópio?",
+    "resposta": "Zigoto",
+    "distratores": [
+      "Óvulo",
+      "Blastômero",
+      "Espermatozoide"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zygote",
+      "https://pt.wikipedia.org/wiki/Zigoto"
+    ],
+    "imagem": {
+      "arquivo": "q14966.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Zygote1.jpg",
+      "autor": "Niña Sesina",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

@@ -1,0 +1,142 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração limpa, sem texto, vista posterior com o músculo colorido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que músculo do braço está colorido nesta figura, vista por trás?",
+      "resposta": "Tríceps",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tríceps braquial",
+        "descricao": "Músculo grande da parte posterior do braço, responsável por estender o cotovelo.",
+        "variantes": [
+          "Tríceps",
+          "Músculo tríceps braquial"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Diagrama de célula vegetal sem texto; a camada externa verde espessa é claramente a parede celular.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parte desta célula vegetal é a camada verde mais externa, que envolve tudo?",
+      "resposta": "Parede celular",
+      "destino": 1,
+      "ancora": {
+        "nome": "Parede celular",
+        "descricao": "Camada estrutural rígida que envolve a membrana das células de plantas, fungos, algas e procariotos.",
+        "variantes": [
+          "Parede celular vegetal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem traz as legendas 'Medial meniscus' e 'Lateral meniscus', que entregam a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de calcanhar e tornozelo: a resposta não é única (calcanhar, tornozelo, pé) e a região não é bem delimitada."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura de Gray da bigorna, com legendas que não trazem o nome; a forma é característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno osso do ouvido médio é este?",
+      "resposta": "Bigorna",
+      "distratores": [
+        "Martelo",
+        "Estribo",
+        "Osso hioide"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bigorna",
+        "descricao": "Ossículo do ouvido médio que recebe as vibrações do martelo e as transmite ao estribo.",
+        "variantes": [
+          "Incus",
+          "Osso bigorna"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Prostate' escrita sobre o órgão, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem tem o título 'Centrioles' em letras grandes, que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A gravura mostra os nervos plantares e os músculos da sola do pé, com legendas como 'Medial plantar'. O foco é ambíguo (nervos, músculos ou pé), e o texto sugere a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem traz as legendas 'Tympanic membrane' e 'The Anatomy of the Ear', que entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A gravura traz as legendas 'Common Carotid' e 'Internal Carotid', que entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto sem texto de um braço dobrado, só o membro, sem rosto. O cotovelo é a parte em destaque.",
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que articulação do corpo humano aparece dobrada nesta foto?",
+      "resposta": "Cotovelo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cotovelo",
+        "descricao": "Articulação em dobradiça entre o braço e o antebraço, formada por úmero, rádio e ulna.",
+        "variantes": [
+          "Articulação do cotovelo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de microscópio sem texto, com a célula de dois pronúcleos e corpúsculos polares, típica de zigoto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que célula humana é esta, vista ao microscópio?",
+      "resposta": "Zigoto",
+      "distratores": [
+        "Óvulo",
+        "Blastocisto",
+        "Espermatozoide"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Zigoto",
+        "descricao": "Célula diploide formada pela fusão de dois gametas na fecundação.",
+        "variantes": [
+          "Ovo fecundado",
+          "Célula-ovo"
+        ]
+      }
+    }
+  ]
+}

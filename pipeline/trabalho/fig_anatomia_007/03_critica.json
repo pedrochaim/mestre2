@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o músculo; 'músculo do braço' não entrega a resposta (há bíceps, braquial). Trechos confirmam que o tríceps fica na parte posterior, coerente com 'vista por trás'.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'camada mais externa que envolve tudo' é a definição de parede celular e dá para responder sem a figura; 'célula' também se repete na resposta. Tirei a definição e mantive só a pista visual.",
+      "reescrita": {
+        "pergunta": "Que estrutura forma a camada verde mais externa desta figura?",
+        "resposta": "Parede celular"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a bigorna como ossículo do ouvido médio. O enunciado não a nomeia, a resposta é única e os distratores são do mesmo tipo (osso), curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1, sem vazamento: o enunciado não nomeia a articulação. A resposta depende da foto mostrar o cotovelo dobrado, como indica 'mostra'. Os trechos confirmam o cotovelo como articulação entre braço e antebraço.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Blastocisto' não é uma célula, mas um embrião de muitas células, e o enunciado pergunta 'que célula'. Isso o torna fácil de eliminar. Troquei por 'Blastômero', uma célula embrionária crível que não é o zigoto.",
+      "reescrita": {
+        "pergunta": "Que célula humana é esta, vista ao microscópio?",
+        "resposta": "Zigoto",
+        "distratores": [
+          "Óvulo",
+          "Blastômero",
+          "Espermatozoide"
+        ]
+      }
+    }
+  ]
+}
