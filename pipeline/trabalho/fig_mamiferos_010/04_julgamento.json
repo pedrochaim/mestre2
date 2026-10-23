@@ -1,0 +1,775 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Raposa-voadora-indiana",
+        "descricao": "Grande morcego frugívoro (Pteropus medius) nativo do subcontinente indiano.",
+        "variantes": [
+          "Raposa-voadora",
+          "Pteropus medius",
+          "Pteropus giganteus",
+          "Morcego-frugívoro-indiano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raposa_do_artico",
+          "nome": "Raposa-do-ártico",
+          "descricao": "Pequena raposa (Vulpes lagopus) nativa da tundra ártica, de pelagem que muda com as estações.",
+          "variantes": [
+            "Raposa-polar",
+            "Vulpes lagopus",
+            "Arctic fox"
+          ]
+        },
+        {
+          "id": "besouro_tita",
+          "nome": "Besouro-titã",
+          "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+          "variantes": [
+            "Titanus giganteus",
+            "titan beetle"
+          ]
+        },
+        {
+          "id": "rios_voadores",
+          "nome": "Rios voadores",
+          "descricao": "Correntes de vapor de água que levam a umidade da Amazônia para o centro-sul do Brasil",
+          "variantes": []
+        },
+        {
+          "id": "megaloceros",
+          "nome": "Megaloceros",
+          "descricao": "Gênero extinto de cervo gigante da Eurásia no Pleistoceno, de galhadas enormes, conhecido em inglês como Irish elk.",
+          "variantes": [
+            "Alce-irlandês",
+            "Cervo-gigante",
+            "Megaloceros giganteus"
+          ]
+        },
+        {
+          "id": "cachorro_do_mato",
+          "nome": "Cachorro-do-mato",
+          "descricao": "Canídeo de porte médio (Cerdocyon thous) da América do Sul, que não é uma raposa verdadeira.",
+          "variantes": [
+            "Graxaim-do-mato",
+            "Raposa-do-mato",
+            "Crab-eating fox",
+            "Cerdocyon thous"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mangusto-listrado",
+        "descricao": "Pequeno mangusto social (Mungos mungo) da savana africana, com listras nas costas.",
+        "variantes": [
+          "Mungos mungo",
+          "Mangusto-de-bandas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "xale_de_manila",
+          "nome": "Xale de Manila",
+          "descricao": "Xale de seda bordado e franjado, derivado do alampay filipino, usado no traje de flamenca.",
+          "variantes": [
+            "Mantón de Manila",
+            "Manton de Manila"
+          ]
+        },
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        },
+        {
+          "id": "augusto_dos_anjos",
+          "nome": "Augusto dos Anjos",
+          "descricao": "Poeta brasileiro paraibano, autor de poemas sobre doença e morte, precursor do Modernismo.",
+          "variantes": [
+            "Augusto de Carvalho Rodrigues dos Anjos"
+          ]
+        },
+        {
+          "id": "manuel_bandeira",
+          "nome": "Manuel Bandeira",
+          "descricao": "Poeta modernista pernambucano (1886–1968), autor de Libertinagem.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Markhor",
+        "descricao": "Grande cabra selvagem (Capra falconeri) de chifres espiralados, das montanhas da Ásia Central e do Sul.",
+        "variantes": [
+          "Capra falconeri",
+          "Cabra-parafuso"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marmore",
+          "nome": "Mármore",
+          "descricao": "Rocha metamórfica formada pela recristalização de calcário sob calor e pressão.",
+          "variantes": []
+        },
+        {
+          "id": "chave_de_fenda",
+          "nome": "Chave de fenda",
+          "descricao": "Ferramenta manual de ponta plana usada para girar parafusos de fenda.",
+          "variantes": [
+            "Chave de parafuso",
+            "Screwdriver"
+          ]
+        },
+        {
+          "id": "matterhorn",
+          "nome": "Matterhorn",
+          "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros.",
+          "variantes": [
+            "Cervino",
+            "Monte Cervino",
+            "Cervin"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cervo-de-cauda-branca",
+        "descricao": "Cervo de porte médio (Odocoileus virginianus) nativo das Américas.",
+        "variantes": [
+          "Cariacu",
+          "Veado-de-cauda-branca",
+          "Odocoileus virginianus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "cocada",
+          "nome": "Cocada",
+          "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+          "variantes": [
+            "Cocada branca"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "caracal",
+          "nome": "Caracal",
+          "descricao": "Felino selvagem de pelagem castanho-avermelhada e longas orelhas com tufos pretos (Caracal caracal).",
+          "variantes": [
+            "Caracal caracal",
+            "Lince-do-deserto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hiena-riscada",
+        "descricao": "Hiena listrada (Hyaena hyaena) da África, Oriente Médio e Índia.",
+        "variantes": [
+          "Hiena-listrada",
+          "Hyaena hyaena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hiena_malhada",
+          "nome": "Hiena-malhada",
+          "descricao": "Maior hiena atual, de pelagem manchada, da África subsaariana (Crocuta crocuta).",
+          "variantes": [
+            "Crocuta crocuta",
+            "Hiena-pintada",
+            "Hiena-risonha",
+            "Spotted hyena"
+          ]
+        },
+        {
+          "id": "pina_colada",
+          "nome": "Piña colada",
+          "descricao": "Coquetel caribenho de rum, creme de coco e suco de abacaxi.",
+          "variantes": [
+            "Pinha colada"
+          ]
+        },
+        {
+          "id": "hino_a_liberdade",
+          "nome": "Hino à Liberdade",
+          "descricao": "Hino nacional da Grécia e de Chipre, baseado num poema de Dionysios Solomos de 1823.",
+          "variantes": [
+            "Hymn to Liberty",
+            "Ýmnos eis tin Eleftherían"
+          ]
+        },
+        {
+          "id": "king_richard_criando_campeas",
+          "nome": "King Richard: Criando Campeãs",
+          "descricao": "Filme americano de 2021 sobre Richard Williams, estrelado por Will Smith.",
+          "variantes": [
+            "King Richard"
+          ]
+        },
+        {
+          "id": "pinguim_2",
+          "nome": "Pinguim",
+          "descricao": "Ave marinha não voadora da família Spheniscidae, do Hemisfério Sul.",
+          "variantes": [
+            "Pinguins",
+            "Spheniscidae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Porco-da-terra",
+        "descricao": "Mamífero africano escavador e noturno (Orycteropus afer) que come formigas e cupins.",
+        "variantes": [
+          "Porco-formigueiro",
+          "Aardvark",
+          "Orycteropus afer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nucleo_da_terra",
+          "nome": "Núcleo da Terra",
+          "descricao": "Parte mais interna do planeta, formada por um núcleo externo líquido e um núcleo interno sólido.",
+          "variantes": [
+            "Núcleo terrestre",
+            "Earth's core"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        },
+        {
+          "id": "canario_da_terra",
+          "nome": "Canário-da-terra",
+          "descricao": "Pequena ave amarela com o alto da cabeça alaranjado, comum em áreas abertas da América do Sul e não aparentada ao canário.",
+          "variantes": [
+            "Canário-da-terra-verdadeiro",
+            "Sicalis flaveola",
+            "Saffron finch"
+          ]
+        },
+        {
+          "id": "curcuma",
+          "nome": "Cúrcuma",
+          "descricao": "Raiz alaranjada da planta Curcuma longa, usada como tempero e corante, também chamada açafrão-da-terra.",
+          "variantes": [
+            "Açafrão-da-terra",
+            "Curcuma longa",
+            "Turmeric"
+          ]
+        },
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Urso-de-óculos",
+        "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+        "variantes": [
+          "Urso-andino",
+          "Tremarctos ornatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urso_de_ouro",
+          "nome": "Urso de Ouro",
+          "descricao": "Prêmio máximo do Festival Internacional de Cinema de Berlim.",
+          "variantes": [
+            "Golden Bear",
+            "Goldener Bär"
+          ]
+        },
+        {
+          "id": "chullo",
+          "nome": "Chullo",
+          "descricao": "Gorro andino de lã com abas para as orelhas, feito de alpaca, lhama ou ovelha.",
+          "variantes": [
+            "Ch'ullu",
+            "Gorro andino"
+          ]
+        },
+        {
+          "id": "urso_pardo",
+          "nome": "Urso-pardo",
+          "descricao": "Grande urso (Ursus arctos) de pelagem marrom, nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Urso-marrom",
+            "Grizzly",
+            "Ursus arctos"
+          ]
+        },
+        {
+          "id": "urso_polar",
+          "nome": "Urso-polar",
+          "descricao": "Urso das regiões árticas, espécie Ursus maritimus.",
+          "variantes": [
+            "Ursus maritimus",
+            "Polar bear",
+            "Urso-branco"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Foca-leopardo",
+        "descricao": "Foca predadora (Hydrurga leptonyx) do oceano Antártico, de pelagem manchada.",
+        "variantes": [
+          "Hydrurga leptonyx",
+          "Leopardo-marinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao_marinho",
+          "nome": "Leão-marinho",
+          "descricao": "Mamífero marinho da família Otariidae, com orelhas externas, como o leão-marinho-da-califórnia.",
+          "variantes": [
+            "Leão-marinho-da-Califórnia",
+            "Otariidae"
+          ]
+        },
+        {
+          "id": "leopardo",
+          "nome": "Leopardo",
+          "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+          "variantes": [
+            "Panthera pardus",
+            "Leopardo-africano"
+          ]
+        },
+        {
+          "id": "leonardo_dicaprio",
+          "nome": "Leonardo DiCaprio",
+          "descricao": "Ator e produtor norte-americano, vencedor do Oscar de melhor ator por O Regresso.",
+          "variantes": [
+            "Leonardo Wilhelm DiCaprio"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "fibonacci",
+          "nome": "Fibonacci",
+          "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+          "variantes": [
+            "Leonardo de Pisa",
+            "Leonardo Fibonacci",
+            "Leonardo Pisano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Takin",
+        "descricao": "Grande ungulado da subfamília Caprinae (Budorcas taxicolor) do Himalaia oriental.",
+        "variantes": [
+          "Budorcas taxicolor",
+          "Takin-de-mishmi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tajine",
+          "nome": "Tajine",
+          "descricao": "Panela de barro com tampa cônica e o ensopado marroquino preparado nela.",
+          "variantes": [
+            "Tagine",
+            "Tagin"
+          ]
+        },
+        {
+          "id": "tainos",
+          "nome": "Taínos",
+          "descricao": "Povo indígena das Grandes Antilhas, como Cuba, Hispaniola e Porto Rico, encontrado por Colombo em 1492.",
+          "variantes": [
+            "Taíno"
+          ]
+        },
+        {
+          "id": "estanho",
+          "nome": "Estanho",
+          "descricao": "Metal que, misturado ao cobre, forma o bronze, e cujo comércio movimentou a Idade do Bronze.",
+          "variantes": [
+            "Tin"
+          ]
+        },
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Foca-comum",
+        "descricao": "Foca verdadeira (Phoca vitulina) do hemisfério norte, o pinípede de maior distribuição.",
+        "variantes": [
+          "Phoca vitulina",
+          "Foca-do-porto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinho_do_porto",
+          "nome": "Vinho do Porto",
+          "descricao": "Vinho licoroso português produzido no vale do Douro e envelhecido em Vila Nova de Gaia.",
+          "variantes": [
+            "Porto",
+            "Port wine"
+          ]
+        },
+        {
+          "id": "noz",
+          "nome": "Noz",
+          "descricao": "Semente comestível da nogueira (Juglans regia), com casca dura e enrugada e miolo em forma de cérebro.",
+          "variantes": [
+            "Noz comum",
+            "Walnut"
+          ]
+        },
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "jacana",
+          "nome": "Jaçanã",
+          "descricao": "Ave pernalta (Jacana jacana) de corpo preto e avermelhado, crista vermelha e bico amarelo, que vive em áreas alagadas da América do Sul.",
+          "variantes": [
+            "Jacana jacana",
+            "Wattled jacana",
+            "Jaçanã-comum"
+          ]
+        },
+        {
+          "id": "mao_do_morto",
+          "nome": "Mão do morto",
+          "descricao": "Mão de pôquer com dois pares, de ases e de oitos pretos, associada à morte de um pistoleiro do Velho Oeste.",
+          "variantes": [
+            "Dead man's hand"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Texugo-europeu",
+        "descricao": "Mustelídeo noturno (Meles meles) da Europa e Ásia, de rosto listrado em preto e branco.",
+        "variantes": [
+          "Meles meles",
+          "Texugo-eurasiático"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "montes_de_feno_monet",
+          "nome": "Montes de Feno (Monet)",
+          "descricao": "Série de pinturas impressionistas de Claude Monet, iniciada em 1890, com montes de feno em Giverny sob luzes variadas.",
+          "variantes": [
+            "Les Meules",
+            "Haystacks",
+            "Meules de Feno",
+            "Pilhas de Feno"
+          ]
+        },
+        {
+          "id": "grifo_2",
+          "nome": "Grifo",
+          "descricao": "Abutre do Velho Mundo Gyps fulvus, de plumagem castanha e cabeça clara, comum no sul da Europa.",
+          "variantes": [
+            "Grifo-eurasiático",
+            "Eurasian griffon vulture",
+            "Gyps fulvus"
+          ]
+        },
+        {
+          "id": "lince_euroasiatico",
+          "nome": "Lince-euroasiático",
+          "descricao": "Felino de médio porte (Lynx lynx) das florestas da Europa e da Ásia, com tufos pretos nas orelhas.",
+          "variantes": [
+            "Lince-boreal",
+            "Lince-comum",
+            "Eurasian lynx",
+            "Lynx lynx"
+          ]
+        },
+        {
+          "id": "coelho",
+          "nome": "Coelho",
+          "descricao": "Coelho-europeu, Oryctolagus cuniculus, pequeno lagomorfo que cava tocas.",
+          "variantes": [
+            "Coelho-europeu",
+            "Oryctolagus cuniculus"
+          ]
+        },
+        {
+          "id": "portugues_europeu",
+          "nome": "Português europeu",
+          "descricao": "Variedade da língua portuguesa falada em Portugal",
+          "variantes": [
+            "Português de Portugal",
+            "Português lusitano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Lobo-etíope",
+        "descricao": "Canídeo ruivo raro (Canis simensis) das montanhas da Etiópia.",
+        "variantes": [
+          "Canis simensis",
+          "Chacal-da-Etiópia",
+          "Lobo-de-Simien"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escrita_ge_ez",
+          "nome": "Escrita ge'ez",
+          "descricao": "Abugida da Etiópia e da Eritreia, usada na liturgia e para escrever amárico e tigrínia.",
+          "variantes": [
+            "Ge'ez",
+            "Alfabeto etíope",
+            "Fidäl"
+          ]
+        },
+        {
+          "id": "laranja",
+          "nome": "Laranja",
+          "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+          "variantes": [
+            "Laranja-doce",
+            "Citrus sinensis"
+          ]
+        },
+        {
+          "id": "bandeira_da_etiopia",
+          "nome": "Bandeira da Etiópia",
+          "descricao": "Bandeira nacional da Etiópia, tricolor verde, amarela e vermelha com disco azul e estrela amarela.",
+          "variantes": [
+            "Etiópia",
+            "Bandeira etíope"
+          ]
+        },
+        {
+          "id": "enkutatash",
+          "nome": "Enkutatash",
+          "descricao": "Ano-Novo da Etiópia, celebrado segundo o calendário etíope.",
+          "variantes": [
+            "Ano-Novo etíope"
+          ]
+        },
+        {
+          "id": "file_mignon",
+          "nome": "Filé-mignon",
+          "descricao": "Corte bovino retirado do lombo, ao longo da coluna do animal, conhecido pela maciez.",
+          "variantes": [
+            "Lombo de boi",
+            "Tenderloin"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Morcego Pteropus medius não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Mangusto sem candidata equivalente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Markhor é cabra selvagem; candidatas são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cervo-de-cauda-branca difere da rena e demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hiena-riscada (Hyaena hyaena) é espécie distinta da hiena-malhada."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Porco-da-terra (aardvark) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Urso-de-óculos é espécie distinta das outras ursos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Foca-leopardo é espécie distinta das candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Takin sem candidata equivalente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Foca-comum sem candidata equivalente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Texugo-europeu sem candidata equivalente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Lobo-etíope é animal, distinto da bandeira e demais."
+    }
+  ]
+}

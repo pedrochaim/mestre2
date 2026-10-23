@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de morcego-raposa pendurado, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este morcego é um dos maiores do mundo. Em que região do planeta ele vive naturalmente?",
+      "resposta": "Subcontinente indiano",
+      "distratores": [
+        "América Central",
+        "África Ocidental",
+        "Madagascar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Raposa-voadora-indiana",
+        "descricao": "Grande morcego frugívoro (Pteropus medius) nativo do subcontinente indiano.",
+        "variantes": [
+          "Pteropus medius",
+          "Pteropus giganteus",
+          "Morcego-frugívoro-indiano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Listras nas costas bem visíveis, animal nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pequeno mamífero africano é este?",
+      "resposta": "Mangusto-listrado",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mangusto-listrado",
+        "descricao": "Pequeno mangusto social (Mungos mungo) da savana africana, com listras nas costas.",
+        "variantes": [
+          "Mungos mungo",
+          "Mangusto-de-bandas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Chifres em espiral inconfundíveis, foto clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal de chifres em espiral é este?",
+      "resposta": "Markhor",
+      "destino": 0,
+      "ancora": {
+        "nome": "Markhor",
+        "descricao": "Grande cabra selvagem (Capra falconeri) de chifres espiralados, das montanhas da Ásia Central e do Sul.",
+        "variantes": [
+          "Capra falconeri",
+          "Cabra-parafuso"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Macho de cervo-de-cauda-branca bem visível; aceitável pelo padrão de pelagem e galhada.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que parte do mundo este cervo vive naturalmente?",
+      "resposta": "Américas",
+      "distratores": [
+        "Europa e Ásia",
+        "África",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cervo-de-cauda-branca",
+        "descricao": "Cervo de porte médio (Odocoileus virginianus) nativo das Américas.",
+        "variantes": [
+          "Cariacu",
+          "Veado-de-cauda-branca",
+          "Odocoileus virginianus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Filhote de hiena com listras nas patas e corpo, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal é este?",
+      "resposta": "Hiena-riscada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hiena-riscada",
+        "descricao": "Hiena listrada (Hyaena hyaena) da África, Oriente Médio e Índia.",
+        "variantes": [
+          "Hiena-listrada",
+          "Hyaena hyaena"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Porco-da-terra nítido, orelhas e focinho característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que insetos este animal desenterra para se alimentar?",
+      "resposta": "Formigas e cupins",
+      "destino": 0,
+      "ancora": {
+        "nome": "Porco-da-terra",
+        "descricao": "Mamífero africano escavador e noturno (Orycteropus afer) que come formigas e cupins.",
+        "variantes": [
+          "Porco-formigueiro",
+          "Aardvark",
+          "Orycteropus afer"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Máscara facial clara característica; foto nítida.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cordilheira da América do Sul vive este urso?",
+      "resposta": "Andes",
+      "destino": 0,
+      "ancora": {
+        "nome": "Urso-de-óculos",
+        "descricao": "Único urso sul-americano (Tremarctos ornatus), com manchas claras ao redor dos olhos.",
+        "variantes": [
+          "Urso-andino",
+          "Tremarctos ornatus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foca com pelagem manchada e mandíbula aberta, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que foca predadora da Antártida é esta?",
+      "resposta": "Foca-leopardo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Foca-leopardo",
+        "descricao": "Foca predadora (Hydrurga leptonyx) do oceano Antártico, de pelagem manchada.",
+        "variantes": [
+          "Hydrurga leptonyx",
+          "Leopardo-marinho"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Baixa resolução, mas dois takins reconhecíveis; legível o bastante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este animal é o símbolo nacional de que país do Himalaia?",
+      "resposta": "Butão",
+      "distratores": [
+        "Nepal",
+        "Mongólia",
+        "Tailândia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Takin",
+        "descricao": "Grande ungulado da subfamília Caprinae (Budorcas taxicolor) do Himalaia oriental.",
+        "variantes": [
+          "Budorcas taxicolor",
+          "Takin-de-mishmi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foca-comum nítida na praia, rosto característico.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que oceanos esta foca é encontrada?",
+      "resposta": "Atlântico Norte e Pacífico Norte",
+      "distratores": [
+        "Índico e Antártico",
+        "Atlântico Sul",
+        "Pacífico Sul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Foca-comum",
+        "descricao": "Foca verdadeira (Phoca vitulina) do hemisfério norte, o pinípede de maior distribuição.",
+        "variantes": [
+          "Phoca vitulina",
+          "Foca-do-porto"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Faixas faciais do texugo nítidas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mamífero europeu de rosto listrado é este?",
+      "resposta": "Texugo-europeu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Texugo-europeu",
+        "descricao": "Mustelídeo noturno (Meles meles) da Europa e Ásia, de rosto listrado em preto e branco.",
+        "variantes": [
+          "Meles meles",
+          "Texugo-eurasiático"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Canídeo ruivo de peito branco, foto clara.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país africano vivem estes canídeos, nas montanhas de Simien e Bale?",
+      "resposta": "Etiópia",
+      "distratores": [
+        "Quênia",
+        "Namíbia",
+        "Marrocos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lobo-etíope",
+        "descricao": "Canídeo ruivo raro (Canis simensis) das montanhas da Etiópia.",
+        "variantes": [
+          "Canis simensis",
+          "Chacal-da-Etiópia",
+          "Lobo-de-Simien"
+        ]
+      }
+    }
+  ]
+}

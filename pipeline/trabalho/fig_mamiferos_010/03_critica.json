@@ -1,0 +1,111 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a espécie nem entrega a região. O trecho confirma 'um dos maiores do mundo' e que ela é nativa do subcontinente indiano. Os distratores são do mesmo tipo e estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1. O enunciado só dá o grupo e o continente, sem entregar o nome. O animal é africano, como diz o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. A pista dos chifres em espiral não entrega o nome, e o markhor é o animal típico dos chifres espiralados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie é nativa das Américas. O enunciado não vaza a resposta e os distratores são continentes errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples. O enunciado não dá pista alguma, e o nome 'hiena-listrada' é sinônimo aceitável da resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Desenterra' não é literal, porque o animal abre os ninhos e montes, e não desenterra os insetos. O trecho sustenta que a base da alimentação são formigas e cupins.",
+      "reescrita": {
+        "pergunta": "Que insetos formam a base da alimentação deste animal noturno africano?",
+        "resposta": "Formigas e cupins"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'cordilheira da América do Sul' já dá os Andes sem olhar a figura, então a figura virou enfeite. Passa a pedir o reconhecimento do animal.",
+      "reescrita": {
+        "pergunta": "Que urso é este?",
+        "resposta": "Urso-de-óculos"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Foca predadora da Antártida' é pista forte que quase entrega a espécie sem a figura. Tira-se a pista para que o reconhecimento venha da imagem.",
+      "reescrita": {
+        "pergunta": "Que foca é esta?",
+        "resposta": "Foca-leopardo"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está no trecho: o takin é o animal nacional do Butão. Mongólia e Tailândia não ficam no Himalaia, então são distratores fracos. Troco por países himalaicos que não têm o takin como símbolo nacional.",
+      "reescrita": {
+        "pergunta": "Este animal é o símbolo nacional de que país do Himalaia?",
+        "resposta": "Butão",
+        "distratores": [
+          "Nepal",
+          "Índia",
+          "Paquistão"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a espécie vive no Atlântico Norte e no Pacífico Norte. Os distratores são oceanos errados e têm no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado usa 'europeu', que já faz parte da resposta 'Texugo-europeu'. Isso é vazamento. 'Rosto listrado' também serve para outros texugos. Tiro as duas pistas.",
+      "reescrita": {
+        "pergunta": "Que mamífero de hábitos noturnos é este?",
+        "resposta": "Texugo-europeu"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Simien e Bale' entregam a Etiópia sem a figura. A Wikipédia em português também cita a Eritreia, então a resposta única fica discutível. Passa a pedir o reconhecimento do animal.",
+      "reescrita": {
+        "pergunta": "Que canídeo africano de pelagem ruiva é este?",
+        "resposta": "Lobo-etíope"
+      }
+    }
+  ]
+}
