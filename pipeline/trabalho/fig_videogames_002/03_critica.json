@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Halo: Combat Evolved é de 2001 e a Bungie criou o personagem (trechos). O enunciado não entrega a resposta e os distratores são estúdios de FPS críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de Cloud Strife, sem pista no enunciado. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Link é o protagonista de The Legend of Zelda (trechos). Enunciado sem vazamento e resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fox McCloud é o protagonista da série Star Fox (trechos). O enunciado não nomeia nem deixa pista da série.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pergunta e a resposta estão corretas, mas o MANIFESTO pede que pelo menos um distrator de obra de ficção venha da mesma franquia. Troquei Geralt de Rívia por Ares, de God of War.",
+      "reescrita": {
+        "pergunta": "Quem é este personagem?",
+        "resposta": "Kratos",
+        "distratores": [
+          "Marcus Fenix",
+          "Ares",
+          "Dante"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Piloto de corridas futuristas\" entrega a série F-Zero e, com ela, a Nintendo. Troquei por uma pista que só ajuda: F-Zero é de 1990 (trecho) e o capitão estreou nele.",
+      "reescrita": {
+        "pergunta": "Que empresa criou este personagem, que estreou em 1990?",
+        "resposta": "Nintendo",
+        "distratores": [
+          "Sega",
+          "Capcom",
+          "Namco"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Donkey Kong estreou no arcade de 1981 como vilão de Mario, que então se chamava Jumpman (trechos). O enunciado não nomeia o gorila e a resposta é única.",
+      "reescrita": null
+    }
+  ]
+}

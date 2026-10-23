@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida e reconhecível; o 117 no peito é parte do traje e não diz o nome. A silhueta é um bloco de armadura com fuzil colado, pouco característica.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estúdio criou este personagem, que estreou em 2001?",
+      "resposta": "Bungie",
+      "distratores": [
+        "Epic Games",
+        "id Software",
+        "Valve"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Master Chief",
+        "descricao": "Master Chief Petty Officer John-117, soldado Spartan e protagonista da série de jogos Halo.",
+        "variantes": [
+          "John-117",
+          "Spartan 117"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Corpo inteiro, personagem sozinho, fundo transparente; a silhueta com cabelo espetado e a espada enorme é inconfundível.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Cloud Strife",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cloud Strife",
+        "descricao": "Ex-SOLDIER mercenário de cabelos loiros espetados, protagonista de Final Fantasy VII.",
+        "variantes": [
+          "Cloud"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem é uma foto de divulgação da série da Netflix, com o ator em primeiro plano, e não a arte do personagem nos jogos. Fica fora do catálogo e abre ambiguidade entre jogo, livro e série."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte oficial clara, com o traje verde, o gorro e a Master Sword. A silhueta tem espada e escudo colados ao corpo e perde o gorro, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de jogos é este herói?",
+      "resposta": "The Legend of Zelda",
+      "destino": 0,
+      "ancora": {
+        "nome": "Link",
+        "descricao": "Jovem espadachim de roupa verde, protagonista da série de jogos The Legend of Zelda.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, borrada e pixelada, em tons de cinza e só com o rosto. Não fica legível no celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mostra só o rosto de um homem sem capacete, que é genérico. Não dá para reconhecer o personagem pela imagem, e a silhueta é uma mancha."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É a arte de capa do jogo, com o título 'Cuphead' e o lema escritos, o que entrega a resposta. Mostra também dois personagens."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É um busto de um homem moreno de feições comuns, sem elemento distintivo. A resposta não é única nem reconhecível só pela imagem, e a silhueta é genérica."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida, corpo inteiro e fundo transparente. A silhueta de raposa poderia ser confundida com a de Krystal, então usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de jogos é este personagem?",
+      "resposta": "Star Fox",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fox McCloud",
+        "descricao": "Raposa antropomórfica, piloto da nave Arwing e líder da equipe Star Fox.",
+        "variantes": [
+          "Fox"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte oficial legível de Kratos na fase nórdica. A silhueta é de um homem grande de capa de pele, com o machado quase invisível, e pode ser confundida com outros guerreiros.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este personagem?",
+      "resposta": "Kratos",
+      "distratores": [
+        "Marcus Fenix",
+        "Geralt de Rívia",
+        "Dante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kratos",
+        "descricao": "Ex-general espartano e semideus, protagonista da série de jogos God of War.",
+        "variantes": [
+          "Fantasma de Esparta"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida, personagem sozinho e de corpo inteiro. A pergunta é sobre a empresa, não sobre o nome, então não usa silhueta.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que empresa criou este piloto de corridas futuristas?",
+      "resposta": "Nintendo",
+      "distratores": [
+        "Sega",
+        "Capcom",
+        "Namco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Captain Falcon",
+        "descricao": "Piloto e caçador de recompensas de capacete vermelho, protagonista da série de corrida F-Zero.",
+        "variantes": [
+          "Capitão Falcon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida e inconfundível, de corpo inteiro. A gravata com DK é parte do desenho do personagem. A silhueta é um gorila genérico sem a gravata.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que herói enfrentou este personagem no jogo de arcade de 1981 em que ele estreou?",
+      "resposta": "Mario (então chamado Jumpman)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Donkey Kong",
+        "descricao": "Gorila forte de gravata vermelha, personagem da franquia Mario e protagonista da série Donkey Kong Country.",
+        "variantes": [
+          "DK"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Master Chief",
+        "descricao": "Master Chief Petty Officer John-117, soldado Spartan e protagonista da série de jogos Halo.",
+        "variantes": [
+          "John-117",
+          "Spartan 117"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mestre_kame",
+          "nome": "Mestre Kame",
+          "descricao": "Velho eremita mestre de artes marciais de Dragon Ball, que vive na Kame House e criou o Kamehameha.",
+          "variantes": [
+            "Kame Sennin",
+            "Muten Roshi",
+            "Mestre Tartaruga",
+            "Master Roshi"
+          ]
+        },
+        {
+          "id": "esparta",
+          "nome": "Esparta",
+          "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+          "variantes": [
+            "Sparta",
+            "Lacedemônia"
+          ]
+        },
+        {
+          "id": "maschiff",
+          "nome": "Maschiff",
+          "descricao": "Pokémon do tipo Sombrio, número 942 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "ceres",
+          "nome": "Ceres",
+          "descricao": "Planeta anão do cinturão de asteroides entre Marte e Júpiter, com manchas brilhantes na cratera Occator.",
+          "variantes": [
+            "Asteroide",
+            "Ceres (planeta anão)",
+            "1 Ceres"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Cloud Strife",
+        "descricao": "Ex-SOLDIER mercenário de cabelos loiros espetados, protagonista de Final Fantasy VII.",
+        "variantes": [
+          "Cloud"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cloud_gate",
+          "nome": "Cloud Gate",
+          "descricao": "Escultura de aço inoxidável espelhado de Anish Kapoor, no Millennium Park, em Chicago.",
+          "variantes": [
+            "The Bean",
+            "O Feijão"
+          ]
+        },
+        {
+          "id": "clodsire",
+          "nome": "Clodsire",
+          "descricao": "Pokémon dos tipos Venenoso e Terrestre, número 980 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "ludo",
+          "nome": "Ludo",
+          "descricao": "Jogo de tabuleiro de corrida com dados e peões coloridos, derivado do pachisi indiano.",
+          "variantes": [
+            "Ludo (jogo)"
+          ]
+        },
+        {
+          "id": "cluedo",
+          "nome": "Cluedo",
+          "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+          "variantes": [
+            "Clue",
+            "Detetive"
+          ]
+        },
+        {
+          "id": "tamanco",
+          "nome": "Tamanco",
+          "descricao": "Calçado de solado grosso e rígido, tradicionalmente de madeira, aqui com tira no tornozelo.",
+          "variantes": [
+            "Clog"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Link",
+        "descricao": "Jovem espadachim de roupa verde, protagonista da série de jogos The Legend of Zelda.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "klinklang",
+          "nome": "Klinklang",
+          "descricao": "Pokémon do tipo Aço, número 601 da Pokédex Nacional.",
+          "variantes": [
+            "Klink",
+            "Klang"
+          ]
+        },
+        {
+          "id": "klink",
+          "nome": "Klink",
+          "descricao": "Pokémon do tipo Aço, número 599 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mola_maluca",
+          "nome": "Mola maluca",
+          "descricao": "Brinquedo em forma de mola helicoidal que desce escadas, lançado nos Estados Unidos como Slinky em 1945.",
+          "variantes": [
+            "Slinky"
+          ]
+        },
+        {
+          "id": "shinx",
+          "nome": "Shinx",
+          "descricao": "Pokémon filhote de leão do tipo Elétrico, número 403 da Pokédex Nacional, da quarta geração.",
+          "variantes": [
+            "Kolink"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Fox McCloud",
+        "descricao": "Raposa antropomórfica, piloto da nave Arwing e líder da equipe Star Fox.",
+        "variantes": [
+          "Fox"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "afoxe_instrumento",
+          "nome": "Afoxé (instrumento)",
+          "descricao": "Instrumento de percussão afro-brasileiro formado por uma cabaça envolta em rede de contas ou sementes.",
+          "variantes": [
+            "Afoxé",
+            "Cabaça",
+            "Cabaça afoxé"
+          ]
+        },
+        {
+          "id": "fax",
+          "nome": "Fax",
+          "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile.",
+          "variantes": [
+            "Fac-símile",
+            "Telefax"
+          ]
+        },
+        {
+          "id": "fohn",
+          "nome": "Föhn",
+          "descricao": "Vento quente e seco que desce as encostas a sotavento dos Alpes",
+          "variantes": [
+            "Foehn",
+            "Fön",
+            "Vento foehn"
+          ]
+        },
+        {
+          "id": "o_macaco_nu",
+          "nome": "O Macaco Nu",
+          "descricao": "Livro de 1967 do zoólogo Desmond Morris que analisa o comportamento humano como o de um primata.",
+          "variantes": [
+            "The Naked Ape"
+          ]
+        },
+        {
+          "id": "nuvem_prateleira",
+          "nome": "Nuvem prateleira",
+          "descricao": "Nuvem arcus baixa e horizontal que marca a frente de rajadas de uma tempestade.",
+          "variantes": [
+            "Shelf cloud",
+            "Arcus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Kratos",
+        "descricao": "Ex-general espartano e semideus, protagonista da série de jogos God of War.",
+        "variantes": [
+          "Fantasma de Esparta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "emerson_fittipaldi",
+          "nome": "Emerson Fittipaldi",
+          "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis.",
+          "variantes": [
+            "Emmo",
+            "Emerson",
+            "Rato"
+          ]
+        },
+        {
+          "id": "atos_dos_apostolos",
+          "nome": "Atos dos Apóstolos",
+          "descricao": "Livro do Novo Testamento que narra os primeiros anos da Igreja cristã depois da morte de Jesus",
+          "variantes": [
+            "Atos",
+            "Actos dos Apóstolos"
+          ]
+        },
+        {
+          "id": "fantasmas_de_pac_man",
+          "nome": "Fantasmas de Pac-Man",
+          "descricao": "Os quatro fantasmas que perseguem o protagonista no jogo Pac-Man, de 1980.",
+          "variantes": [
+            "Ghosts (Pac-Man)",
+            "Blinky, Pinky, Inky e Clyde"
+          ]
+        },
+        {
+          "id": "toronto_raptors",
+          "nome": "Toronto Raptors",
+          "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995.",
+          "variantes": [
+            "Raptors"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Captain Falcon",
+        "descricao": "Piloto e caçador de recompensas de capacete vermelho, protagonista da série de corrida F-Zero.",
+        "variantes": [
+          "Capitão Falcon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitao_feio",
+          "nome": "Capitão Feio",
+          "descricao": "Principal vilão da Turma da Mônica, tio do Cascão, que vive nos esgotos.",
+          "variantes": [
+            "Feitoso Araújo"
+          ]
+        },
+        {
+          "id": "james_cook",
+          "nome": "James Cook",
+          "descricao": "Navegador e cartógrafo britânico do século dezoito que explorou o Pacífico em três grandes viagens.",
+          "variantes": [
+            "Capitão Cook",
+            "Captain Cook"
+          ]
+        },
+        {
+          "id": "markhor",
+          "nome": "Markhor",
+          "descricao": "Grande cabra selvagem (Capra falconeri) de chifres espiralados, das montanhas da Ásia Central e do Sul.",
+          "variantes": [
+            "Capra falconeri",
+            "Cabra-parafuso"
+          ]
+        },
+        {
+          "id": "capitao_marvel_shazam",
+          "nome": "Capitão Marvel (Shazam)",
+          "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam",
+          "variantes": [
+            "Shazam",
+            "Captain Marvel"
+          ]
+        },
+        {
+          "id": "capitolio_dos_estados_unidos",
+          "nome": "Capitólio dos Estados Unidos",
+          "descricao": "Edifício neoclássico em Washington, sede do Congresso dos Estados Unidos.",
+          "variantes": [
+            "Capitólio",
+            "United States Capitol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Donkey Kong",
+        "descricao": "Gorila forte de gravata vermelha, personagem da franquia Mario e protagonista da série Donkey Kong Country.",
+        "variantes": [
+          "DK"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "donkey_kong_jogo_de_1981",
+          "nome": "Donkey Kong (jogo de 1981)",
+          "descricao": "Fliperama da Nintendo de 1981 em que um gorila sequestra uma moça e marca a estreia de Mario.",
+          "variantes": [
+            "Donkey Kong"
+          ]
+        },
+        {
+          "id": "burro_shrek",
+          "nome": "Burro (Shrek)",
+          "descricao": "Burro falante e tagarela, melhor amigo do ogro Shrek nos filmes de animação.",
+          "variantes": [
+            "Donkey",
+            "Burro de Shrek"
+          ]
+        },
+        {
+          "id": "hong_kong",
+          "nome": "Hong Kong",
+          "descricao": "Região administrativa especial da China, no sul do país.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_hong_kong",
+          "nome": "Bandeira de Hong Kong",
+          "descricao": "Bandeira da região administrativa especial de Hong Kong, com flor de bauhínia branca sobre fundo vermelho.",
+          "variantes": [
+            "Hong Kong"
+          ]
+        },
+        {
+          "id": "enterrada",
+          "nome": "Enterrada",
+          "descricao": "Arremesso em que o jogador salta e empurra a bola de cima para baixo dentro do aro.",
+          "variantes": [
+            "Slam dunk",
+            "Dunk"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Master Chief."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Cloud Strife."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o personagem Link."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Fox McCloud."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Kratos."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Captain Falcon."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O personagem Donkey Kong é diferente do jogo de 1981, que é uma obra."
+    }
+  ]
+}
