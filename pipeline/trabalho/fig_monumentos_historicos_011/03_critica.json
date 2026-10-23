@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 1922 confirmada pelos trechos. Enunciado sem vazamento, distratores são anos próximos e críveis, e nenhum é correto. Resposta é ano e a pergunta é múltipla.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem pista. Distratores são mosteiros portugueses parecidos, com no máximo 4 palavras, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O aqueduto fica em Segóvia, como dizem os trechos. O enunciado não nomeia a cidade, e 'aqueduto romano na Espanha' não basta para responder sem a imagem. Os distratores são cidades históricas castelhanas e nenhuma abriga este aqueduto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O anfiteatro de El Djem fica na Tunísia, como dizem os trechos. A pista 'anfiteatro romano' não entrega o país. Os distratores são países vizinhos ou do norte da África.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, aberta e de reconhecimento. 'Gótica' é pista que não identifica sozinha, e a resposta não aparece no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento da catedral. Os distratores são catedrais góticas francesas parecidas, e nenhuma é a mostrada.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que os Hospitalários controlaram o castelo até 1271. O enunciado não nomeia o castelo, e a data sozinha não permite responder sem reconhecê-lo. Os distratores são outras ordens militares.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Grande Buda de Kamakura fica no Japão, como dizem os trechos. 'Estátua de bronze de Buda' é uma pista genérica que não entrega o país, e a figura é necessária. Os distratores são países budistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos atribuem o projeto a Aleijadinho, e as obras começaram em 1766, então 'século dezoito' está correto. O enunciado não permite responder sem a figura, porque Minas tem muitas igrejas. A resposta traz só uma observação curta entre parênteses.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A autoria de Francisco de Arruda está nos trechos. O trecho em português diz que as obras ficaram a cargo de Diogo Boitaca, então esse distrator é defensável e pode ser tomado como correto. Substituí-o por um arquiteto português que não teve relação com a torre.",
+      "reescrita": {
+        "pergunta": "Que arquiteto projetou esta torre manuelina, à beira do Tejo?",
+        "resposta": "Francisco de Arruda",
+        "distratores": [
+          "Mateus Fernandes",
+          "Diogo de Arruda",
+          "João de Castilho"
+        ]
+      }
+    }
+  ]
+}

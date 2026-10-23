@@ -272906,5 +272906,200 @@
       "licenca": "CC BY-SA 3.0 de"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q14592",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "monumento_a_independencia_do_brasil",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano foi inaugurado este monumento, em São Paulo?",
+    "resposta": "1922",
+    "distratores": [
+      "1908",
+      "1889",
+      "1932"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monumento_%C3%A0_Independ%C3%AAncia_do_Brasil",
+      "https://en.wikipedia.org/wiki/Monument_to_the_Independence_of_Brazil"
+    ],
+    "imagem": {
+      "arquivo": "q14592.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Monumento_à_Independência_04.JPG",
+      "autor": "Dornicke",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14593",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "mosteiro_da_batalha",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que mosteiro português é este?",
+    "resposta": "Mosteiro da Batalha",
+    "distratores": [
+      "Mosteiro dos Jerónimos",
+      "Mosteiro de Alcobaça",
+      "Convento de Cristo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Batalha_Monastery",
+      "https://pt.wikipedia.org/wiki/Mosteiro_da_Batalha"
+    ],
+    "imagem": {
+      "arquivo": "q14593.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Batalha_September_2021-53.jpg",
+      "autor": "Alvesgaspar",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14594",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "anfiteatro_de_el_djem",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica este anfiteatro romano?",
+    "resposta": "Tunísia",
+    "distratores": [
+      "Argélia",
+      "Líbia",
+      "Egito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem",
+      "https://pt.wikipedia.org/wiki/Anfiteatro_de_El_Jem"
+    ],
+    "imagem": {
+      "arquivo": "q14594.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Amphi_El_Jem.jpg",
+      "autor": "Cimoi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14595",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "catedral_de_chartres",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que catedral francesa é esta?",
+    "resposta": "Catedral de Chartres",
+    "distratores": [
+      "Notre-Dame de Paris",
+      "Catedral de Reims",
+      "Catedral de Amiens"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chartres_Cathedral",
+      "https://pt.wikipedia.org/wiki/Catedral_de_Chartres"
+    ],
+    "imagem": {
+      "arquivo": "q14595.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Westfassade_Chartres.jpg",
+      "autor": "BT",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14596",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "krak_des_chevaliers",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que ordem de cavaleiros ocupou este castelo medieval até 1271?",
+    "resposta": "Hospitalários",
+    "distratores": [
+      "Templários",
+      "Cavaleiros Teutônicos",
+      "Ordem de Avis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Krak_des_Chevaliers",
+      "https://pt.wikipedia.org/wiki/Fortaleza_dos_Cavaleiros"
+    ],
+    "imagem": {
+      "arquivo": "q14596.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers_01.jpg",
+      "autor": "Bernard Gagnon",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14597",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "grande_buda_de_kamakura",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país fica esta enorme estátua de bronze de Buda?",
+    "resposta": "Japão",
+    "distratores": [
+      "China",
+      "Coreia do Sul",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in",
+      "https://pt.wikipedia.org/wiki/K%C5%8Dtoku-in"
+    ],
+    "imagem": {
+      "arquivo": "q14597.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:230128_Kamakura_Daibutsu_Japan01s3.jpg",
+      "autor": "663highland",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q14598",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "igreja_de_sao_francisco_de_assis_ouro_preto",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem projetou esta igreja mineira do século dezoito?",
+    "resposta": "Aleijadinho (Antônio Francisco Lisboa)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi_%28Ouro_Preto%29",
+      "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_%28Ouro_Preto%29"
+    ],
+    "imagem": {
+      "arquivo": "q14598.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SFrancisOuroPreto-CCBY.jpg",
+      "autor": "Sarah and Iain",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14599",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "torre_de_belem",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que arquiteto projetou esta torre manuelina, à beira do Tejo?",
+    "resposta": "Francisco de Arruda",
+    "distratores": [
+      "Mateus Fernandes",
+      "Diogo de Arruda",
+      "João de Castilho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
+      "https://pt.wikipedia.org/wiki/Torre_de_Bel%C3%A9m"
+    ],
+    "imagem": {
+      "arquivo": "q14599.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Belem_Tower_-_April_2019_(2).jpg",
+      "autor": "Rehman Abubakr",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

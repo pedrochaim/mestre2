@@ -1,0 +1,175 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que mosteiro português é este?",
+        "resposta": "Mosteiro da Batalha"
+      },
+      "existentes": [
+        {
+          "id": "q13204",
+          "pergunta": "O Mosteiro da Batalha, em Portugal, foi erguido por Dom João Primeiro como agradecimento por qual vitória de 1385 contra Castela?",
+          "resposta": "Batalha de Aljubarrota"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade da Espanha fica este aqueduto romano?",
+        "resposta": "Segóvia"
+      },
+      "existentes": [
+        {
+          "id": "q13336",
+          "pergunta": "O aqueduto romano de Segóvia, na Espanha, tem milhares de blocos de granito. O que é notável na forma como esses blocos se mantêm de pé?",
+          "resposta": "Não há argamassa entre eles"
+        },
+        {
+          "id": "q14551",
+          "pergunta": "Em que cidade espanhola fica este aqueduto romano?",
+          "resposta": "Segóvia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que catedral gótica é esta?",
+        "resposta": "Catedral de Colônia"
+      },
+      "existentes": [
+        {
+          "id": "q03973",
+          "pergunta": "Iniciada em 1248, a Catedral de Colônia, na Alemanha, ficou séculos inacabada. Em que século foi finalmente concluída?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q08671",
+          "pergunta": "Que catedral gótica alemã é esta?",
+          "resposta": "Catedral de Colônia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que catedral francesa é esta?",
+        "resposta": "Catedral de Chartres"
+      },
+      "existentes": [
+        {
+          "id": "q11581",
+          "pergunta": "Em que cidade da França fica esta catedral gótica?",
+          "resposta": "Chartres"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que ordem de cavaleiros ocupou este castelo medieval até 1271?",
+        "resposta": "Hospitalários"
+      },
+      "existentes": [
+        {
+          "id": "q13612",
+          "pergunta": "O Krak des Chevaliers, fortaleza dos cavaleiros hospitalários no tempo das cruzadas, fica em que país atual?",
+          "resposta": "Síria"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que país fica esta enorme estátua de bronze de Buda?",
+        "resposta": "Japão"
+      },
+      "existentes": [
+        {
+          "id": "q08577",
+          "pergunta": "Que estátua monumental japonesa do século treze, ao ar livre, é esta?",
+          "resposta": "Grande Buda de Kamakura"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Quem projetou esta igreja mineira do século dezoito?",
+        "resposta": "Aleijadinho (Antônio Francisco Lisboa)"
+      },
+      "existentes": [
+        {
+          "id": "q03186",
+          "pergunta": "Que pintor mineiro, parceiro de Aleijadinho, pintou o forro da Igreja de São Francisco de Assis, em Ouro Preto?",
+          "resposta": "Mestre Ataíde"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que arquiteto projetou esta torre manuelina, à beira do Tejo?",
+        "resposta": "Francisco de Arruda"
+      },
+      "existentes": [
+        {
+          "id": "q02022",
+          "pergunta": "A Torre de Belém e o vizinho Mosteiro dos Jerônimos, em Lisboa, compartilham qual estilo arquitetônico, batizado em homenagem a um rei?",
+          "resposta": "Manuelino"
+        },
+        {
+          "id": "q07520",
+          "pergunta": "Hoje cartão-postal de Lisboa, a Torre de Belém foi erguida no início do século dezesseis com que função principal?",
+          "resposta": "Defender a entrada do Tejo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o mosteiro pela imagem é diferente de perguntar a vitória que ele celebra."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q14551",
+      "motivo": "Mesma pergunta: cidade do aqueduto, resposta Segóvia."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q08671",
+      "motivo": "Mesma pergunta de identificar a catedral de Colônia pela imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede o nome da catedral e a outra a cidade, que são fatos diferentes, embora a resposta de uma dê pista da outra."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A ordem que ocupou o castelo e o país onde ele fica são fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Perguntar o país é diferente de perguntar o nome da estátua, embora Kamakura implique o Japão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O arquiteto da igreja e o pintor do forro de São Francisco de Assis são fatos diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O arquiteto da torre é um fato diferente do estilo ou da função dela."
+    }
+  ]
+}
