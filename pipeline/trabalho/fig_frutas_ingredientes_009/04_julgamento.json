@@ -1,0 +1,633 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Maionese",
+        "descricao": "Molho cremoso emulsionado de óleo, gema de ovo e ácido (vinagre ou limão).",
+        "variantes": [
+          "Mayonnaise",
+          "Mayo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mao",
+          "nome": "Mão",
+          "descricao": "Extremidade do membro superior humano, formada por punho, palma e dedos.",
+          "variantes": [
+            "Mão humana"
+          ]
+        },
+        {
+          "id": "maimonides",
+          "nome": "Maimônides",
+          "descricao": "Filósofo, rabino e médico judeu (1138–1204), nascido em Córdoba, autor do Guia dos Perplexos.",
+          "variantes": [
+            "Moisés Maimônides",
+            "Rambam",
+            "Moshe ben Maimon"
+          ]
+        },
+        {
+          "id": "seattle_mariners",
+          "nome": "Seattle Mariners",
+          "descricao": "Time de beisebol da cidade americana de Seattle, da liga MLB.",
+          "variantes": [
+            "Mariners"
+          ]
+        },
+        {
+          "id": "mintonette",
+          "nome": "Mintonette",
+          "descricao": "Nome original dado por William G. Morgan, em 1895, ao jogo que viria a ser o vôlei.",
+          "variantes": [
+            "Minonette"
+          ]
+        },
+        {
+          "id": "madonna",
+          "nome": "Madonna",
+          "descricao": "Cantora, compositora e atriz americana conhecida como a Rainha do Pop.",
+          "variantes": [
+            "Madonna Louise Ciccone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Azeitona",
+        "descricao": "Fruto da oliveira (Olea europaea), uma drupa consumida em conserva e usada para extrair azeite.",
+        "variantes": [
+          "Oliva",
+          "Olive"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "azeitona",
+          "nome": "Azeitona",
+          "descricao": "Fruto da oliveira (Olea europaea), uma drupe usada em conserva e para extrair azeite.",
+          "variantes": [
+            "Oliveira",
+            "Oliva",
+            "Olive"
+          ]
+        },
+        {
+          "id": "olivia",
+          "nome": "Olivia",
+          "descricao": "Kahuna especialista em pokémon de pedra nos jogos Pokémon Sun e Moon, membro da Elite dos Quatro de Alola.",
+          "variantes": []
+        },
+        {
+          "id": "bolivia",
+          "nome": "Bolívia",
+          "descricao": "País sem litoral da América do Sul, com capital constitucional em Sucre e sede de governo em La Paz.",
+          "variantes": [
+            "Estado Plurinacional da Bolívia"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "ollie",
+          "nome": "Ollie",
+          "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+          "variantes": [
+            "Ollie (skate)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Groselha",
+        "descricao": "Pequeno fruto vermelho, translúcido, em cachos, do arbusto Ribes rubrum.",
+        "variantes": [
+          "Groselha-vermelha",
+          "Redcurrant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raposa_vermelha",
+          "nome": "Raposa-vermelha",
+          "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+          "variantes": [
+            "Vulpes vulpes",
+            "Raposa-comum"
+          ]
+        },
+        {
+          "id": "roselia",
+          "nome": "Roselia",
+          "descricao": "Pokémon dos tipos Planta e Venenoso, número 315 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "durant",
+          "nome": "Durant",
+          "descricao": "Pokémon dos tipos Inseto e Aço, número 632 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "grande_mancha_vermelha",
+          "nome": "Grande Mancha Vermelha",
+          "descricao": "Tempestade anticiclônica gigante e persistente na atmosfera de Júpiter.",
+          "variantes": [
+            "Great Red Spot",
+            "Mancha Vermelha de Júpiter"
+          ]
+        },
+        {
+          "id": "ovelha",
+          "nome": "Ovelha",
+          "descricao": "Ruminante doméstico da espécie Ovis aries, criado por lã, carne e leite.",
+          "variantes": [
+            "Ovis aries",
+            "Carneiro",
+            "Ovino"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Noz",
+        "descricao": "Semente comestível da nogueira (Juglans regia), com casca dura e enrugada e miolo em forma de cérebro.",
+        "variantes": [
+          "Noz comum",
+          "Walnut"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "teatro_no",
+          "nome": "Teatro nô",
+          "descricao": "Forma clássica de teatro musical japonês, com atores mascarados e movimentos lentos, desenvolvida por Kan'ami e Zeami.",
+          "variantes": [
+            "Nô",
+            "Noh",
+            "Nō"
+          ]
+        },
+        {
+          "id": "nowruz",
+          "nome": "Nowruz",
+          "descricao": "Ano-novo persa, celebrado no Irã, na Ásia Central e em outras regiões de influência persa.",
+          "variantes": [
+            "Noruz",
+            "Norouz",
+            "Ano-novo persa"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "avela",
+          "nome": "Avelã",
+          "descricao": "Fruto da aveleira (Corylus avellana), fruto seco usado em doces e pastas de chocolate.",
+          "variantes": [
+            "Avelã comum",
+            "Hazelnut"
+          ]
+        },
+        {
+          "id": "pombo",
+          "nome": "Pombo",
+          "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+          "variantes": [
+            "Pombo-comum",
+            "Pombo-doméstico",
+            "Columba livia",
+            "Rock dove"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Grão-de-bico",
+        "descricao": "Semente da leguminosa Cicer arietinum, usada no homus e no falafel.",
+        "variantes": [
+          "Chickpea",
+          "Garbanzo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "granizo",
+          "nome": "Granizo",
+          "descricao": "Precipitação sólida formada por bolas ou pedaços de gelo, produzida por cumulonimbos.",
+          "variantes": [
+            "Chuva de pedra",
+            "Hail"
+          ]
+        },
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        },
+        {
+          "id": "mascara_de_medico_da_peste",
+          "nome": "Máscara de médico da peste",
+          "descricao": "Máscara de bico longo do Carnaval de Veneza, inspirada no traje dos médicos que tratavam a peste.",
+          "variantes": [
+            "Medico della peste",
+            "Máscara de bico"
+          ]
+        },
+        {
+          "id": "jogo_do_bicho",
+          "nome": "Jogo do bicho",
+          "descricao": "Jogo de apostas brasileiro baseado numa tabela de animais, criado em 1892 no Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "gato_de_botas",
+          "nome": "Gato de Botas",
+          "descricao": "Gato laranja espadachim de chapéu e botas, companheiro de Shrek nos filmes da DreamWorks.",
+          "variantes": [
+            "Puss in Boots",
+            "Gato de Botas de Shrek"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Limão",
+        "descricao": "Fruto cítrico verde e ácido, aqui o limão taiti (Citrus × latifolia), usado como tempero e em bebidas.",
+        "variantes": [
+          "Limão-taiti",
+          "Lima ácida",
+          "Lime"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lima",
+          "nome": "Lima",
+          "descricao": "Capital e maior cidade do Peru, fundada em 1535.",
+          "variantes": [
+            "Cidade dos Reis",
+            "Ciudad de los Reyes"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "clima",
+          "nome": "Clima",
+          "descricao": "Conjunto das condições atmosféricas típicas de uma região ao longo de muitos anos",
+          "variantes": [
+            "Climate"
+          ]
+        },
+        {
+          "id": "timao",
+          "nome": "Timão",
+          "descricao": "Personagem tagarela de O Rei Leão, da Disney, inseparável amigo do javali Pumba.",
+          "variantes": [
+            "Timon"
+          ]
+        },
+        {
+          "id": "limpador_de_para_brisa",
+          "nome": "Limpador de para-brisa",
+          "descricao": "Dispositivo com palhetas que remove chuva e neve do para-brisa dos veículos.",
+          "variantes": [
+            "Limpador de vidro",
+            "Windscreen wiper",
+            "Limpador"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Grumixama",
+        "descricao": "Fruta roxo-escura da árvore Eugenia brasiliensis, nativa do sul do Brasil, de sabor doce semelhante à cereja.",
+        "variantes": [
+          "Grumichama",
+          "Cereja-do-Brasil",
+          "Eugenia brasiliensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "aquarela_do_brasil",
+          "nome": "Aquarela do Brasil",
+          "descricao": "Samba-exaltação composto por Ary Barroso em 1939.",
+          "variantes": [
+            "Brazil"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Salsinha",
+        "descricao": "Erva Petroselinum crispum, usada como tempero e guarnição, aqui de folha lisa.",
+        "variantes": [
+          "Salsa",
+          "Parsley"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aipo",
+          "nome": "Aipo",
+          "descricao": "Hortaliça Apium graveolens, de talos fibrosos e crocantes usados em saladas, caldos e sucos.",
+          "variantes": [
+            "Salsão",
+            "Celery"
+          ]
+        },
+        {
+          "id": "salsicha",
+          "nome": "Salsicha",
+          "descricao": "Membro da turma do Scooby-Doo, de camisa verde e cavanhaque ralo, dono do cão Scooby.",
+          "variantes": [
+            "Shaggy Rogers",
+            "Norville Rogers",
+            "Shaggy"
+          ]
+        },
+        {
+          "id": "paisley",
+          "nome": "Paisley",
+          "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+          "variantes": [
+            "Estampa paisley",
+            "Estampa caxemira",
+            "Buta"
+          ]
+        },
+        {
+          "id": "galinha",
+          "nome": "Galinha",
+          "descricao": "Ave doméstica (Gallus gallus domesticus), forma domesticada do galo-bankiva, criada para carne e ovos.",
+          "variantes": [
+            "Galo",
+            "Gallus gallus domesticus",
+            "Frango"
+          ]
+        },
+        {
+          "id": "persepolis_2",
+          "nome": "Persépolis",
+          "descricao": "Capital cerimonial em ruínas do Império Aquemênida, na província de Fars, no Irã.",
+          "variantes": [
+            "Takht-e Jamshid",
+            "Parseh"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Damasco",
+        "descricao": "Fruta alaranjada de caroço (Prunus armeniaca), consumida fresca ou seca.",
+        "variantes": [
+          "Abricó",
+          "Apricot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "de_humani_corporis_fabrica",
+          "nome": "De humani corporis fabrica",
+          "descricao": "Tratado ilustrado de anatomia humana publicado por Andreas Vesalius em 1543.",
+          "variantes": [
+            "Sobre a estrutura do corpo humano",
+            "Fabrica"
+          ]
+        },
+        {
+          "id": "shaduf",
+          "nome": "Shaduf",
+          "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo",
+          "variantes": [
+            "Shadoof",
+            "Chaduf",
+            "Picota"
+          ]
+        },
+        {
+          "id": "pelourinho_2",
+          "nome": "Pelourinho",
+          "descricao": "Coluna de pedra erguida em praça pública nas vilas coloniais portuguesas, usada para castigos públicos.",
+          "variantes": [
+            "Picota"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Kino",
+        "descricao": "Fruto espinhoso de Cucumis metuliferus, nativo da África, de polpa verde gelatinosa e casca alaranjada quando maduro.",
+        "variantes": [
+          "Kiwano",
+          "Melão-de-chifres",
+          "Pepino-africano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lagarto_de_chifre_texano",
+          "nome": "Lagarto-de-chifre-texano",
+          "descricao": "Lagarto espinhoso (Phrynosoma cornutum) do centro-sul dos Estados Unidos e nordeste do México.",
+          "variantes": [
+            "Phrynosoma cornutum",
+            "Texas horned lizard",
+            "Sapo-de-chifres"
+          ]
+        },
+        {
+          "id": "quimono",
+          "nome": "Quimono",
+          "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+          "variantes": [
+            "Kimono"
+          ]
+        },
+        {
+          "id": "sapo_de_chifre",
+          "nome": "Sapo-de-chifre",
+          "descricao": "Sapo sul-americano de boca enorme e projeções em forma de chifre sobre os olhos, Ceratophrys cornuta.",
+          "variantes": [
+            "Ceratophrys cornuta",
+            "Surinam horned frog",
+            "Sapo-de-chifres-amazônico"
+          ]
+        },
+        {
+          "id": "leao_o_africano",
+          "nome": "Leão, o Africano",
+          "descricao": "Diplomata e viajante do século dezesseis, autor de uma célebre descrição da África, nascido al-Hasan al-Wazzan.",
+          "variantes": [
+            "Leo Africanus",
+            "Hasan al-Wazzan",
+            "Leão Africano"
+          ]
+        },
+        {
+          "id": "no_unidade",
+          "nome": "Nó (unidade)",
+          "descricao": "Unidade de velocidade usada na navegação marítima e aérea, equivalente a uma milha náutica por hora.",
+          "variantes": [
+            "Knot"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é maionese."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "azeitona",
+      "motivo": "Mesmo fruto da oliveira, Olea europaea, com variantes iguais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a groselha."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A noz é diferente da avelã e das outras candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é grão-de-bico."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Lima é a capital do Peru, não o fruto limão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a grumixama."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é salsinha. Aipo é outra hortaliça."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o damasco fruta."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o kiwano."
+    }
+  ]
+}

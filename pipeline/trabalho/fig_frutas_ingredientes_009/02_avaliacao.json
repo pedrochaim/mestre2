@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Maionese bem visível ao lado de batatas fritas, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Este molho cremoso é a base de qual destes outros molhos?",
+      "resposta": "Molho tártaro",
+      "distratores": [
+        "Molho pesto",
+        "Molho holandês",
+        "Molho bechamel"
+      ],
+      "ancora": {
+        "nome": "Maionese",
+        "descricao": "Molho cremoso emulsionado de óleo, gema de ovo e ácido (vinagre ou limão).",
+        "variantes": [
+          "Mayonnaise",
+          "Mayo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandejas de azeitonas de várias cores num mercado; etiquetas sem nome da resposta, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que óleo muito usado na cozinha se extrai deste fruto?",
+      "resposta": "Azeite de oliva",
+      "ancora": {
+        "nome": "Azeitona",
+        "descricao": "Fruto da oliveira (Olea europaea), uma drupa consumida em conserva e usada para extrair azeite.",
+        "variantes": [
+          "Oliva",
+          "Olive"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de groselhas vermelhas em cacho, fundo limpo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Groselha",
+      "distratores": [
+        "Cranberry",
+        "Acerola",
+        "Pitanga"
+      ],
+      "ancora": {
+        "nome": "Groselha",
+        "descricao": "Pequeno fruto vermelho, translúcido, em cachos, do arbusto Ribes rubrum.",
+        "variantes": [
+          "Groselha-vermelha",
+          "Redcurrant"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Nozes inteira, aberta e o miolo, claramente reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruto seco é este?",
+      "resposta": "Noz",
+      "ancora": {
+        "nome": "Noz",
+        "descricao": "Semente comestível da nogueira (Juglans regia), com casca dura e enrugada e miolo em forma de cérebro.",
+        "variantes": [
+          "Noz comum",
+          "Walnut"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Grãos-de-bico secos e verdes, claros e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que grão é este?",
+      "resposta": "Grão-de-bico",
+      "ancora": {
+        "nome": "Grão-de-bico",
+        "descricao": "Semente da leguminosa Cicer arietinum, usada no homus e no falafel.",
+        "variantes": [
+          "Chickpea",
+          "Garbanzo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A foto mostra um arbusto à beira do rio com frutinhas minúsculas e distantes; o camu-camu não é reconhecível pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Limões verdes na árvore, com folhas, aspecto de limão taiti; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruta cítrica é esta?",
+      "resposta": "Limão (taiti)",
+      "ancora": {
+        "nome": "Limão",
+        "descricao": "Fruto cítrico verde e ácido, aqui o limão taiti (Citrus × latifolia), usado como tempero e em bebidas.",
+        "variantes": [
+          "Limão-taiti",
+          "Lima ácida",
+          "Lime"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Foto de uma inflorescência azul da planta; sem as sementes, a chia não é reconhecível e lembra outras sálvias."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Frutos escuros e vermelhos com folhas, reconhecíveis para quem conhece; múltipla escolha deixa justo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta brasileira de cor roxa escura é esta, de uma árvore da Mata Atlântica?",
+      "resposta": "Grumixama",
+      "distratores": [
+        "Jabuticaba",
+        "Pitanga",
+        "Jambolão"
+      ],
+      "ancora": {
+        "nome": "Grumixama",
+        "descricao": "Fruta roxo-escura da árvore Eugenia brasiliensis, nativa do sul do Brasil, de sabor doce semelhante à cereja.",
+        "variantes": [
+          "Grumichama",
+          "Cereja-do-Brasil",
+          "Eugenia brasiliensis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Folha de salsinha lisa nítida; múltipla com ervas de folhas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que erva de cozinha é esta?",
+      "resposta": "Salsinha",
+      "distratores": [
+        "Coentro",
+        "Cerefólio",
+        "Aipo"
+      ],
+      "ancora": {
+        "nome": "Salsinha",
+        "descricao": "Erva Petroselinum crispum, usada como tempero e guarnição, aqui de folha lisa.",
+        "variantes": [
+          "Salsa",
+          "Parsley"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Damascos maduros na árvore, nítidos e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Damasco",
+      "ancora": {
+        "nome": "Damasco",
+        "descricao": "Fruta alaranjada de caroço (Prunus armeniaca), consumida fresca ou seca.",
+        "variantes": [
+          "Abricó",
+          "Apricot"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fruto verde de espinhos característicos, nítido e sem texto; múltipla com distratores espinhosos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que fruta africana é esta?",
+      "resposta": "Kino (kiwano)",
+      "distratores": [
+        "Maxixe",
+        "Jaca",
+        "Pitaia"
+      ],
+      "ancora": {
+        "nome": "Kino",
+        "descricao": "Fruto espinhoso de Cucumis metuliferus, nativo da África, de polpa verde gelatinosa e casca alaranjada quando maduro.",
+        "variantes": [
+          "Kiwano",
+          "Melão-de-chifres",
+          "Pepino-africano"
+        ]
+      }
+    }
+  ]
+}

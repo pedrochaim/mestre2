@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que óleo muito usado na cozinha se extrai deste fruto?",
+        "resposta": "Azeite de oliva"
+      },
+      "existentes": [
+        {
+          "id": "q09182",
+          "pergunta": "De que árvore, típica da região do Mediterrâneo, vem este fruto?",
+          "resposta": "Oliveira"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre a árvore de origem (oliveira); a outra, sobre o óleo extraído (azeite). São fatos diferentes, e saber um não leva a saber o outro."
+    }
+  ]
+}

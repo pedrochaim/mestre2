@@ -61,7 +61,7 @@
       "titulo": "en:Lime (fruit)",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Alho",
@@ -628,7 +628,7 @@
       "titulo": "en:Parsley",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Amêndoa",
@@ -642,7 +642,7 @@
       "titulo": "en:Walnut",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Caqui",
@@ -670,7 +670,7 @@
       "titulo": "en:Chickpea",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lentilha",
@@ -831,7 +831,7 @@
       "titulo": "en:Redcurrant",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pinhão",
@@ -839,6 +839,286 @@
       "camada": 3,
       "destino": 0,
       "status": "sem_imagem"
+    },
+    {
+      "nome": "Ovo",
+      "titulo": "en:Egg as food",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arroz",
+      "titulo": "en:Rice",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Queijo",
+      "titulo": "en:Cheese",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leite",
+      "titulo": "en:Milk",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manteiga",
+      "titulo": "en:Butter",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sal",
+      "titulo": "en:Salt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cana-de-açúcar",
+      "titulo": "en:Sugarcane",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chuchu",
+      "titulo": "en:Chayote",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mostarda",
+      "titulo": "en:Mustard (condiment)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maionese",
+      "titulo": "en:Mayonnaise",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Vagem",
+      "titulo": "en:Green bean",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Couve",
+      "titulo": "en:Collard (plant)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cebolinha",
+      "titulo": "en:Scallion",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Damasco",
+      "titulo": "en:Apricot",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tâmara",
+      "titulo": "en:Date palm",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Azeitona",
+      "titulo": "en:Olive",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Uva-passa",
+      "titulo": "en:Raisin",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pimenta-do-reino",
+      "titulo": "en:Black pepper",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Páprica",
+      "titulo": "en:Paprika",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Shiitake",
+      "titulo": "en:Shiitake",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tofu",
+      "titulo": "en:Tofu",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quinoa",
+      "titulo": "en:Quinoa",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chia",
+      "titulo": "en:Salvia hispanica",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Palmito",
+      "titulo": "en:Heart of palm",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Erva-doce",
+      "titulo": "en:Fennel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mandioquinha",
+      "titulo": "en:Arracacia xanthorrhiza",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maxixe",
+      "titulo": "en:Cucumis anguria",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sapoti",
+      "titulo": "en:Manilkara zapota",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seriguela",
+      "titulo": "en:Spondias purpurea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Abiu",
+      "titulo": "en:Pouteria caimito",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jambolão",
+      "titulo": "en:Syzygium cumini",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camu-camu",
+      "titulo": "en:Myrciaria dubia",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Grumixama",
+      "titulo": "en:Eugenia brasiliensis",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pupunha",
+      "titulo": "en:Bactris gasipaes",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jambu",
+      "titulo": "en:Acmella oleracea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ora-pro-nóbis",
+      "titulo": "en:Pereskia aculeata",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Romanesco",
+      "titulo": "en:Romanesco broccoli",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mão-de-buda",
+      "titulo": "en:Buddha's hand",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kino",
+      "titulo": "en:Horned melon",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Feno-grego",
+      "titulo": "en:Fenugreek",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }
