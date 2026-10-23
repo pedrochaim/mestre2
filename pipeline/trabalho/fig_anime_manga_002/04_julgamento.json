@@ -1,0 +1,622 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mikasa Ackerman",
+        "descricao": "Personagem de Attack on Titan (Shingeki no Kyojin), soldado da Legião de Reconhecimento e amiga de infância de Eren Yeager.",
+        "variantes": [
+          "Mikasa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mikasa",
+          "nome": "Mikasa",
+          "descricao": "Fabricante japonesa de artigos esportivos, conhecida pelas bolas de vôlei usadas em competições olímpicas.",
+          "variantes": [
+            "Mikasa Sports",
+            "Mikasa Corporation"
+          ]
+        },
+        {
+          "id": "misa_amane",
+          "nome": "Misa Amane",
+          "descricao": "Modelo e atriz loira que se torna a segunda Kira em Death Note.",
+          "variantes": [
+            "Misa",
+            "Second Kira"
+          ]
+        },
+        {
+          "id": "mimas",
+          "nome": "Mimas",
+          "descricao": "Satélite natural de Saturno, de forma arredondada, marcado pela enorme cratera Herschel.",
+          "variantes": [
+            "Mimas (satélite)"
+          ]
+        },
+        {
+          "id": "iansa",
+          "nome": "Iansã",
+          "descricao": "Orixá dos ventos, raios e tempestades nas religiões afro-brasileiras.",
+          "variantes": [
+            "Oyá",
+            "Oiá"
+          ]
+        },
+        {
+          "id": "matza",
+          "nome": "Matzá",
+          "descricao": "Pão ázimo, sem fermento, comido pelos judeus durante a festa do Pessach.",
+          "variantes": [
+            "Matzah",
+            "Matsá",
+            "Pão ázimo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Genkai",
+        "descricao": "Mestra idosa de artes marciais de Yusuke Urameshi em Yu Yu Hakusho.",
+        "variantes": [
+          "Mestre Genkai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "genkan",
+          "nome": "Genkan",
+          "descricao": "Vestíbulo rebaixado na entrada das casas japonesas, onde se deixam os sapatos.",
+          "variantes": []
+        },
+        {
+          "id": "phil_jackson",
+          "nome": "Phil Jackson",
+          "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+          "variantes": [
+            "Mestre Zen",
+            "Zen Master"
+          ]
+        },
+        {
+          "id": "mestre_kame",
+          "nome": "Mestre Kame",
+          "descricao": "Velho eremita mestre de artes marciais de Dragon Ball, que vive na Kame House e criou o Kamehameha.",
+          "variantes": [
+            "Kame Sennin",
+            "Muten Roshi",
+            "Mestre Tartaruga",
+            "Master Roshi"
+          ]
+        },
+        {
+          "id": "invasoes_mongois_do_japao",
+          "nome": "Invasões mongóis do Japão",
+          "descricao": "Duas tentativas de invasão do Japão pela dinastia Yuan de Kublai Khan, em 1274 e 1281.",
+          "variantes": [
+            "Invasões mongóis ao Japão",
+            "Mongol invasions of Japan",
+            "Genkō"
+          ]
+        },
+        {
+          "id": "genio_aladdin",
+          "nome": "Gênio (Aladdin)",
+          "descricao": "Gênio da lâmpada da animação Aladdin, da Disney, de 1992.",
+          "variantes": [
+            "Genie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nami",
+        "descricao": "Navegadora do bando dos Chapéus de Palha em One Piece.",
+        "variantes": [
+          "Nami Gata Ladra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "deserto_do_namibe",
+          "nome": "Deserto do Namibe",
+          "descricao": "Deserto costeiro do sudoeste da África, ao longo da Namíbia e do sul de Angola",
+          "variantes": [
+            "Namib",
+            "Deserto do Namib"
+          ]
+        },
+        {
+          "id": "hanami",
+          "nome": "Hanami",
+          "descricao": "Costume japonês de reunir-se ao ar livre para contemplar as cerejeiras floridas na primavera.",
+          "variantes": []
+        },
+        {
+          "id": "samis",
+          "nome": "Sámis",
+          "descricao": "Povo indígena do norte da Escandinávia e da península de Kola, tradicionalmente criador de renas.",
+          "variantes": [
+            "Sami",
+            "Lapões",
+            "Saami"
+          ]
+        },
+        {
+          "id": "tsunami",
+          "nome": "Tsunami",
+          "descricao": "Série de ondas oceânicas gigantes provocadas por deslocamento súbito de água, em geral por terremotos submarinos.",
+          "variantes": [
+            "Maremoto"
+          ]
+        },
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Satoru Gojo",
+        "descricao": "Feiticeiro de grau especial e professor da Escola Jujutsu de Tóquio em Jujutsu Kaisen.",
+        "variantes": [
+          "Gojo Satoru",
+          "Gojo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pomo_de_adao",
+          "nome": "Pomo de adão",
+          "descricao": "Saliência na frente do pescoço formada pela cartilagem tireoide da laringe.",
+          "variantes": [
+            "Gogó",
+            "Proeminência laríngea",
+            "Adam's apple"
+          ]
+        },
+        {
+          "id": "go",
+          "nome": "Go",
+          "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território.",
+          "variantes": [
+            "Weiqi",
+            "Baduk"
+          ]
+        },
+        {
+          "id": "agogo",
+          "nome": "Agogô",
+          "descricao": "Instrumento de percussão de metal formado por dois sinos cônicos de alturas diferentes, de origem iorubá.",
+          "variantes": []
+        },
+        {
+          "id": "tv_globo",
+          "nome": "TV Globo",
+          "descricao": "Emissora de televisão brasileira fundada por Roberto Marinho, inaugurada no Rio de Janeiro e cabeça da Rede Globo.",
+          "variantes": [
+            "Rede Globo",
+            "Globo"
+          ]
+        },
+        {
+          "id": "macarrao_instantaneo",
+          "nome": "Macarrão instantâneo",
+          "descricao": "Macarrão pré-cozido e desidratado, pronto em poucos minutos, lançado no Japão em 1958 pela Nissin com o nome Chicken Ramen.",
+          "variantes": [
+            "Miojo",
+            "Lámen instantâneo",
+            "Instant noodles",
+            "Chicken Ramen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cell",
+        "descricao": "Androide biológico criado pelo Dr. Gero, vilão da Saga Cell em Dragon Ball Z.",
+        "variantes": [
+          "Cell Perfeito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celula",
+          "nome": "Célula",
+          "descricao": "Unidade estrutural e funcional básica dos seres vivos.",
+          "variantes": [
+            "Cell"
+          ]
+        },
+        {
+          "id": "violoncelo",
+          "nome": "Violoncelo",
+          "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+          "variantes": [
+            "Cello"
+          ]
+        },
+        {
+          "id": "cedilha",
+          "nome": "Cedilha",
+          "descricao": "Sinal gráfico colocado sob a letra c, formando o ç",
+          "variantes": [
+            "Cedilla",
+            "Zedilla",
+            "Ç"
+          ]
+        },
+        {
+          "id": "telefone_celular",
+          "nome": "Telefone celular",
+          "descricao": "Telefone portátil sem fio que se conecta a uma rede de antenas, cuja primeira ligação foi feita em 1973.",
+          "variantes": [
+            "Celular",
+            "Telemóvel"
+          ]
+        },
+        {
+          "id": "castells",
+          "nome": "Castells",
+          "descricao": "Torres humanas tradicionais, formadas por várias camadas de pessoas em pé sobre os ombros umas das outras.",
+          "variantes": [
+            "Castell",
+            "Torres humanas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Rock Lee",
+        "descricao": "Ninja da Vila da Folha, especialista em taijutsu e membro da equipe de Might Guy em Naruto.",
+        "variantes": [
+          "Lee"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rock_slide",
+          "nome": "Rock Slide",
+          "descricao": "Golpe de pokémon do tipo Pedra, da 1ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_sleep",
+          "nome": "Pokémon Sleep",
+          "descricao": "Aplicativo da franquia Pokémon, lançado em 2023, que mede o sono do jogador e o transforma em jogo.",
+          "variantes": [
+            "Sleep"
+          ]
+        },
+        {
+          "id": "locomotiva_rocket",
+          "nome": "Locomotiva Rocket",
+          "descricao": "Locomotiva a vapor de Robert Stephenson, vencedora dos Rainhill Trials em 1829.",
+          "variantes": [
+            "Rocket",
+            "Stephenson's Rocket",
+            "Rocket de Stephenson"
+          ]
+        },
+        {
+          "id": "bruce_lee",
+          "nome": "Bruce Lee",
+          "descricao": "Ator e artista marcial sino-americano, astro do cinema de ação de Hong Kong nos anos 1970.",
+          "variantes": [
+            "Lee Jun-fan"
+          ]
+        },
+        {
+          "id": "pombo",
+          "nome": "Pombo",
+          "descricao": "Pombo-comum ou pombo-das-rochas (Columba livia), ave de plumagem cinza com duas faixas escuras nas asas.",
+          "variantes": [
+            "Pombo-comum",
+            "Pombo-doméstico",
+            "Columba livia",
+            "Rock dove"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Guts",
+        "descricao": "Espadachim negro, protagonista do mangá Berserk e ex-capitão dos Raiders do Bando do Falcão.",
+        "variantes": [
+          "Gatsu",
+          "Espadachim Negro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estacao_global_de_trocas",
+          "nome": "Estação Global de Trocas",
+          "descricao": "Serviço dos jogos Pokémon, criado em Diamond e Pearl, que permite trocar pokémon pela internet com jogadores do mundo todo.",
+          "variantes": [
+            "GTS",
+            "Global Trade Station"
+          ]
+        },
+        {
+          "id": "carl_friedrich_gauss",
+          "nome": "Carl Friedrich Gauss",
+          "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+          "variantes": [
+            "Johann Carl Friedrich Gauss",
+            "Gauß",
+            "Gauss"
+          ]
+        },
+        {
+          "id": "gas",
+          "nome": "Gás",
+          "descricao": "Estado da matéria em que as partículas se movem livremente e ocupam todo o recipiente, cujo nome foi criado no século dezessete.",
+          "variantes": [
+            "Estado gasoso"
+          ]
+        },
+        {
+          "id": "nheengatu",
+          "nome": "Nheengatu",
+          "descricao": "Língua geral de base tupi, ainda falada na Amazônia brasileira",
+          "variantes": [
+            "Língua geral amazônica",
+            "Nhengatu",
+            "Tupi moderno",
+            "Yẽgatu"
+          ]
+        },
+        {
+          "id": "ketchup",
+          "nome": "Ketchup",
+          "descricao": "Molho agridoce de tomate usado em lanches e batatas fritas.",
+          "variantes": [
+            "Catchup",
+            "Catsup"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Shiryu de Dragão",
+        "descricao": "Cavaleiro de bronze da constelação do Dragão em Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Shiryu",
+          "Dragon Shiryu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gary_carvalho",
+          "nome": "Gary Carvalho",
+          "descricao": "Neto do Professor Carvalho e rival de Ash Ketchum no anime Pokémon, chamado Shigeru no Japão.",
+          "variantes": [
+            "Gary Oak",
+            "Shigeru Okido",
+            "Shigeru"
+          ]
+        },
+        {
+          "id": "shiftry",
+          "nome": "Shiftry",
+          "descricao": "Pokémon dos tipos Planta e Sombrio, número 275 da Pokédex Nacional.",
+          "variantes": [
+            "Dirteng"
+          ]
+        },
+        {
+          "id": "mestre_shifu",
+          "nome": "Mestre Shifu",
+          "descricao": "Personagem da animação Kung Fu Panda, mestre de kung fu que treina o panda Po.",
+          "variantes": [
+            "Shifu"
+          ]
+        },
+        {
+          "id": "dragonair",
+          "nome": "Dragonair",
+          "descricao": "Pokémon serpentino de tipo Dragão, número 148 da Pokédex Nacional, forma intermediária entre Dratini e Dragonite.",
+          "variantes": []
+        },
+        {
+          "id": "pokemon_brilhante",
+          "nome": "Pokémon brilhante",
+          "descricao": "Variação rara de cor de um pokémon, introduzida em Pokémon Gold e Silver, cobiçada por colecionadores.",
+          "variantes": [
+            "Shiny",
+            "Pokémon shiny",
+            "Pokémon Cromático"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Shaka de Virgem",
+        "descricao": "Cavaleiro de ouro da constelação de Virgem em Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Shaka",
+          "Virgo Shaka"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shaka",
+          "nome": "Shaka",
+          "descricao": "Rei zulu do início do século dezenove, que transformou os zulus num poderoso reino militar no sul da África.",
+          "variantes": [
+            "Shaka Zulu",
+            "Chaka"
+          ]
+        },
+        {
+          "id": "haka",
+          "nome": "Haka",
+          "descricao": "Dança cerimonial maori da Nova Zelândia, com gritos, batidas no corpo e expressões faciais intensas.",
+          "variantes": []
+        },
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "shakira",
+          "nome": "Shakira",
+          "descricao": "Cantora e compositora colombiana de pop latino, nascida Shakira Isabel Mebarak Ripoll",
+          "variantes": [
+            "Shakira Mebarak"
+          ]
+        },
+        {
+          "id": "tubarao_2",
+          "nome": "Tubarão",
+          "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha.",
+          "variantes": [
+            "Tubarões",
+            "Selachimorpha",
+            "Shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Kurapika",
+        "descricao": "Último sobrevivente do clã Kurta e caçador de recompensas em Hunter x Hunter.",
+        "variantes": [
+          "Kurapica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kurama",
+          "nome": "Kurama",
+          "descricao": "A Raposa de Nove Caudas selada dentro de Naruto Uzumaki no mangá Naruto.",
+          "variantes": [
+            "Raposa de Nove Caudas",
+            "Kyuubi",
+            "Nine-Tailed Fox"
+          ]
+        },
+        {
+          "id": "laika",
+          "nome": "Laika",
+          "descricao": "Cadela soviética lançada ao espaço a bordo do Sputnik 2, em 1957.",
+          "variantes": [
+            "Kudryavka"
+          ]
+        },
+        {
+          "id": "kublai_khan",
+          "nome": "Kublai Khan",
+          "descricao": "Neto de Gengis Khan e fundador da dinastia Yuan da China.",
+          "variantes": [
+            "Kublai Cã",
+            "Kublai",
+            "Qubilai"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem de Attack on Titan; 'Mikasa' candidata é a fabricante de artigos esportivos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Genkai de Yu Yu Hakusho não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Personagem de One Piece; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Personagem de Jujutsu Kaisen; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vilão de Dragon Ball Z, diferente de célula biológica."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Personagem de Naruto; Bruce Lee é outra pessoa."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Protagonista de Berserk; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Cavaleiro de Dragão; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Personagem de Cavaleiros do Zodíaco, distinto do rei zulu Shaka."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Personagem de Hunter x Hunter; nenhuma candidata corresponde."
+    }
+  ]
+}

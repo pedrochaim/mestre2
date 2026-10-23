@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Montagem com quatro formas diferentes do Majin Boo, com texto japonês visível (nomes das formas e legenda) e número de página; não é uma figura limpa de um personagem."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rosto da Mikasa em página de mangá, sem texto, com o cachecol característico; reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é essa personagem?",
+      "resposta": "Mikasa Ackerman",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mikasa Ackerman",
+        "descricao": "Personagem de Attack on Titan (Shingeki no Kyojin), soldado da Legião de Reconhecimento e amiga de infância de Eren Yeager.",
+        "variantes": [
+          "Mikasa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Quadro do anime sem texto, mostrando Genkai idosa com cabelo rosa ondulado; reconhecível por fãs. A pergunta pede o autor da obra.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mangaká criou esta personagem?",
+      "resposta": "Yoshihiro Togashi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Genkai",
+        "descricao": "Mestra idosa de artes marciais de Yusuke Urameshi em Yu Yu Hakusho.",
+        "variantes": [
+          "Mestre Genkai"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte de corpo inteiro e nítida da Nami, sem texto; cabelo laranja e bastão característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é essa personagem?",
+      "resposta": "Nami",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nami",
+        "descricao": "Navegadora do bando dos Chapéus de Palha em One Piece.",
+        "variantes": [
+          "Nami Gata Ladra"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gojo sozinho, de corpo inteiro, com cabelo espetado e dedo levantado; a silhueta tem contorno característico e é reconhecível.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Satoru Gojo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Satoru Gojo",
+        "descricao": "Feiticeiro de grau especial e professor da Escola Jujutsu de Tóquio em Jujutsu Kaisen.",
+        "variantes": [
+          "Gojo Satoru",
+          "Gojo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Rosto do Byakuya com o kenseikan, sem texto; reconhecível. A pergunta liga ao parentesco.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é a irmã adotiva deste personagem?",
+      "resposta": "Rukia Kuchiki",
+      "distratores": [
+        "Orihime Inoue",
+        "Yoruichi Shihoin",
+        "Rangiku Matsumoto"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Byakuya Kuchiki",
+        "descricao": "Capitão da 6ª Divisão do Gotei 13 e chefe do clã Kuchiki em Bleach.",
+        "variantes": [
+          "Kuchiki Byakuya"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cell em forma perfeita, de corpo inteiro, sem texto; muito reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse vilão?",
+      "resposta": "Cell",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cell",
+        "descricao": "Androide biológico criado pelo Dr. Gero, vilão da Saga Cell em Dragon Ball Z.",
+        "variantes": [
+          "Cell Perfeito"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rock Lee em quadro do anime, sem texto; franja e sobrancelhas inconfundíveis.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Masashi Kishimoto",
+      "distratores": [
+        "Eiichiro Oda",
+        "Tite Kubo",
+        "Akira Toriyama"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rock Lee",
+        "descricao": "Ninja da Vila da Folha, especialista em taijutsu e membro da equipe de Might Guy em Naruto.",
+        "variantes": [
+          "Lee"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte de Guts com a Dragonslayer, sem texto; reconhecível pela armadura, braço de ferro e espada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "A que grupo de mercenários este personagem pertenceu?",
+      "resposta": "Bando do Falcão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Guts",
+        "descricao": "Espadachim negro, protagonista do mangá Berserk e ex-capitão dos Raiders do Bando do Falcão.",
+        "variantes": [
+          "Gatsu",
+          "Espadachim Negro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Shiryu de corpo inteiro com a armadura de Dragão, sem texto; distratores bronzeados têm armaduras parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este cavaleiro de bronze?",
+      "resposta": "Shiryu de Dragão",
+      "distratores": [
+        "Seiya de Pégaso",
+        "Hyoga de Cisne",
+        "Shun de Andrômeda"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Shiryu de Dragão",
+        "descricao": "Cavaleiro de bronze da constelação do Dragão em Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Shiryu",
+          "Dragon Shiryu"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Shaka de Virgem de corpo inteiro com armadura de ouro, olhos fechados e manto, sem texto; reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que mangaká criou este cavaleiro?",
+      "resposta": "Masami Kurumada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Shaka de Virgem",
+        "descricao": "Cavaleiro de ouro da constelação de Virgem em Os Cavaleiros do Zodíaco.",
+        "variantes": [
+          "Shaka",
+          "Virgo Shaka"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Close do rosto de Kurapika em quadro do anime, sem texto; cabelo loiro e olhos avermelhados o identificam.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que clã este personagem é o último sobrevivente?",
+      "resposta": "Clã Kurta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kurapika",
+        "descricao": "Último sobrevivente do clã Kurta e caçador de recompensas em Hunter x Hunter.",
+        "variantes": [
+          "Kurapica"
+        ]
+      }
+    }
+  ]
+}
