@@ -676,9 +676,10 @@
     "fig_bandeiras_018",
     "fig_bandeiras_019",
     "fig_anime_manga_001",
-    "fig_anatomia_001"
+    "fig_anatomia_001",
+    "fig_tecnologia_001"
   ],
-  "maior_id": 14827,
+  "maior_id": 14829,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1336,6 +1337,16 @@
       "niveis": {
         "1": 1,
         "2": 1
+      },
+      "registradas": 2
+    },
+    "tecnologia": {
+      "familias": {
+        "o_que_e": 2
+      },
+      "niveis": {
+        "2": 1,
+        "1": 1
       },
       "registradas": 2
     }

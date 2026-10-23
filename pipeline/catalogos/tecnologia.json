@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Disquete",
+      "titulo": "en:Floppy disk",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fita cassete",
+      "titulo": "en:Cassette tape",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Walkman",
+      "titulo": "en:Walkman",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fita VHS",
+      "titulo": "en:VHS",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de escrever",
+      "titulo": "en:Typewriter",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telefone de disco",
+      "titulo": "en:Rotary dial",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Disco de vinil",
+      "titulo": "en:Phonograph record",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ábaco",
+      "titulo": "en:Abacus",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Boy",
+      "titulo": "en:Game Boy",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nokia 3310",
+      "titulo": "en:Nokia 3310",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Primeiro iPhone",
+      "titulo": "en:iPhone (1st generation)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tamagotchi",
+      "titulo": "en:Tamagotchi",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "DVD",
+      "titulo": "en:DVD",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Válvula termiônica",
+      "titulo": "en:Vacuum tube",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Macintosh 128K",
+      "titulo": "en:Macintosh 128K",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Motorola DynaTAC",
+      "titulo": "en:Motorola DynaTAC",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "iPod Classic",
+      "titulo": "en:IPod Classic",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Atari 2600",
+      "titulo": "en:Atari 2600",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Commodore 64",
+      "titulo": "en:Commodore 64",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Régua de cálculo",
+      "titulo": "en:Slide rule",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tubo de raios catódicos",
+      "titulo": "en:Cathode-ray tube",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Modem",
+      "titulo": "en:Modem",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pager",
+      "titulo": "en:Pager",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Apple II",
+      "titulo": "en:Apple II",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "PalmPilot",
+      "titulo": "en:PalmPilot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nintendinho (NES)",
+      "titulo": "en:Nintendo Entertainment System",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "LED",
+      "titulo": "en:Light-emitting diode",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Altair 8800",
+      "titulo": "en:Altair 8800",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Colossus",
+      "titulo": "en:Colossus computer",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Harvard Mark I",
+      "titulo": "en:Harvard Mark I",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "UNIVAC I",
+      "titulo": "en:UNIVAC I",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Memória de núcleo magnético",
+      "titulo": "en:Magnetic-core memory",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fita perfurada",
+      "titulo": "en:Punched tape",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teletipo",
+      "titulo": "en:Teleprinter",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xerox Alto",
+      "titulo": "en:Xerox Alto",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Osborne 1",
+      "titulo": "en:Osborne 1",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "ZX Spectrum",
+      "titulo": "en:ZX Spectrum",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Magnavox Odyssey",
+      "titulo": "en:Magnavox Odyssey",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "PDP-8",
+      "titulo": "en:PDP-8",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Zip drive",
+      "titulo": "en:Zip drive",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    }
+  ]
+}

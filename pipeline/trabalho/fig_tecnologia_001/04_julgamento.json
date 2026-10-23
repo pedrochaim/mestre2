@@ -1,0 +1,178 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Motorola DynaTAC",
+        "descricao": "Série de telefones celulares portáteis da Motorola, lançada comercialmente em 1984, apelidada de tijolão.",
+        "variantes": [
+          "DynaTAC 8000X",
+          "Motorola DynaTAC 8000"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dinastia_ptolemaica",
+          "nome": "Dinastia ptolemaica",
+          "descricao": "Dinastia de origem macedônica que governou o Egito de 305 a 30 antes de Cristo, da qual Cleópatra foi a última soberana",
+          "variantes": [
+            "Reino Ptolemaico",
+            "Ptolemaic Kingdom",
+            "Dinastia lágida",
+            "Ptolomeus",
+            "Lágidas",
+            "Ptolemaic dynasty"
+          ]
+        },
+        {
+          "id": "metodo_atuacao",
+          "nome": "Método (atuação)",
+          "descricao": "Técnica de interpretação desenvolvida nos Estados Unidos, associada ao Actors Studio e a atores como Marlon Brando.",
+          "variantes": [
+            "Method acting",
+            "O Método"
+          ]
+        },
+        {
+          "id": "dynamax",
+          "nome": "Dynamax",
+          "descricao": "Fenômeno dos jogos Pokémon Sword e Shield que faz os pokémon crescerem até ficar gigantes durante as batalhas na região de Galar.",
+          "variantes": [
+            "Dinamax",
+            "Gigantamax"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Régua de cálculo",
+        "descricao": "Instrumento mecânico analógico com escalas deslizantes para multiplicar, dividir e calcular logaritmos e funções trigonométricas.",
+        "variantes": [
+          "Régua deslizante",
+          "Slide rule"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "regua_de_calculo",
+          "nome": "Régua de cálculo",
+          "descricao": "Calculadora analógica mecânica com escalas deslizantes, usada para multiplicar, dividir e calcular logaritmos.",
+          "variantes": [
+            "Slide rule"
+          ]
+        },
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa",
+            "Pedras deslizantes",
+            "Pedras andantes"
+          ]
+        },
+        {
+          "id": "agua_de_coco",
+          "nome": "Água de coco",
+          "descricao": "Líquido claro do interior do coco verde, consumido como bebida.",
+          "variantes": [
+            "Coconut water",
+            "Água de coco verde"
+          ]
+        },
+        {
+          "id": "tregua_de_natal",
+          "nome": "Trégua de Natal",
+          "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914.",
+          "variantes": [
+            "Christmas truce",
+            "Trégua de Natal de 1914"
+          ]
+        },
+        {
+          "id": "alola",
+          "nome": "Alola",
+          "descricao": "Região tropical formada por ilhas, cenário dos jogos Pokémon Sun e Moon, da sétima geração.",
+          "variantes": [
+            "Região de Alola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Válvula termiônica",
+        "descricao": "Dispositivo de vidro com vácuo que controla a corrente elétrica entre eletrodos, usado para amplificar e retificar sinais.",
+        "variantes": [
+          "Válvula",
+          "Válvula a vácuo",
+          "Tubo de vácuo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubo_de_ensaio",
+          "nome": "Tubo de ensaio",
+          "descricao": "Vidraria de laboratório cilíndrica, aberta em cima e fechada embaixo, usada para conter amostras.",
+          "variantes": [
+            "Tubo de teste"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "vava",
+          "nome": "Vavá",
+          "descricao": "Edvaldo Izídio Neto, centroavante brasileiro bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Edvaldo Izídio Neto"
+          ]
+        },
+        {
+          "id": "luiz_inacio_lula_da_silva",
+          "nome": "Luiz Inácio Lula da Silva",
+          "descricao": "Político e sindicalista brasileiro, presidente do Brasil de 2003 a 2011 e desde 2023.",
+          "variantes": [
+            "Lula"
+          ]
+        },
+        {
+          "id": "alva",
+          "nome": "Alva",
+          "descricao": "Vilão do filme Volcanion e a Maravilha Mecânica, de 2016, que tenta se apoderar de um pokémon artificial.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o celular Motorola DynaTAC."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "regua_de_calculo",
+      "motivo": "Mesmo instrumento: régua de cálculo com escalas deslizantes, variante Slide rule."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a válvula termiônica."
+    }
+  ]
+}

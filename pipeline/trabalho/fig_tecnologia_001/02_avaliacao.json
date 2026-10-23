@@ -1,0 +1,131 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O rótulo traz muito texto (Voice-O-Graph, endereço, Mach); é um disco de gravação doméstica, não um vinil típico, e a resposta não seria única."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Celular tijolão reconhecível; o texto British Telecom não entrega o modelo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de celular da Motorola é este, um dos primeiros aparelhos portáteis comerciais?",
+      "resposta": "DynaTAC",
+      "distratores": [
+        "MicroTAC",
+        "StarTAC",
+        "Mobira Senator"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Motorola DynaTAC",
+        "descricao": "Série de telefones celulares portáteis da Motorola, lançada comercialmente em 1984, apelidada de tijolão.",
+        "variantes": [
+          "DynaTAC 8000X",
+          "Motorola DynaTAC 8000"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Console do UNIVAC I reconhecível pelo painel; a placa é minúscula e ilegível no celular.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em 1952, uma máquina deste tipo previu na televisão o resultado de uma eleição presidencial americana. Que emissora a usou?",
+      "resposta": "CBS",
+      "distratores": [
+        "NBC",
+        "ABC",
+        "DuMont"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "UNIVAC I",
+        "descricao": "Primeiro computador eletrônico digital de uso geral para aplicações comerciais nos Estados Unidos, projetado por Eckert e Mauchly.",
+        "variantes": [
+          "UNIVAC",
+          "Universal Automatic Computer I"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Verso de disco genérico; não distingue DVD de CD, e há texto (Sony Music) que indica CD."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Régua de cálculo clara e reconhecível; a marca Aristo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de cálculo é este, usado por engenheiros antes das calculadoras de bolso?",
+      "resposta": "Régua de cálculo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Régua de cálculo",
+        "descricao": "Instrumento mecânico analógico com escalas deslizantes para multiplicar, dividir e calcular logaritmos e funções trigonométricas.",
+        "variantes": [
+          "Régua deslizante",
+          "Slide rule"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: iomega zip 100 e Fujifilm zip 100."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: Sony Stereo Walkman II."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É uma ilustração vetorial de um aparelho que pode ser fotografado, e não serve como figura; também não distingue a geração."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Close muito abstrato; os núcleos não ficam claros e pode ser confundido com outra memória de fios ou com uma trama têxtil."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: Nintendo Game Boy."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Válvula termiônica nítida e reconhecível; o texto na ampola é código de modelo e só traz um fragmento de tube ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que componente eletrônico é este, usado nos primeiros computadores e nos rádios antigos?",
+      "resposta": "Válvula termiônica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Válvula termiônica",
+        "descricao": "Dispositivo de vidro com vácuo que controla a corrente elétrica entre eletrodos, usado para amplificar e retificar sinais.",
+        "variantes": [
+          "Válvula",
+          "Válvula a vácuo",
+          "Tubo de vácuo"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto histórica com duas mulheres comuns em primeiro plano, e a máquina não é inequivocamente identificável como Colossus."
+    }
+  ]
+}

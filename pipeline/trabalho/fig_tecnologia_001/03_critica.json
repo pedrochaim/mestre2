@@ -1,0 +1,48 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'um dos primeiros aparelhos portáteis comerciais' com 'Motorola' entrega o DynaTAC sem a figura. Além disso, o distrator Mobira Senator não é da Motorola. Tirei a pista e usei distratores Motorola visualmente distintos do tijolão, para a pergunta virar de distinguir o modelo.",
+      "reescrita": {
+        "pergunta": "Que modelo de celular da Motorola é este?",
+        "resposta": "DynaTAC",
+        "distratores": [
+          "MicroTAC",
+          "StarTAC",
+          "Razr V3"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O feito único (computador que previu a eleição de 1952 na TV) identifica a máquina sem a imagem, então a figura vira enfeite. 'Máquina deste tipo' também é impreciso, porque o fato vale para o UNIVAC I específico. Não há conserto sem trocar a pergunta por outra.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Instrumento de cálculo' repete parte da resposta (Régua de cálculo) e, junto com 'engenheiros antes das calculadoras de bolso', permite responder sem olhar a figura. Deixei só o reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que instrumento é este?",
+        "resposta": "Régua de cálculo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'usado nos primeiros computadores e nos rádios antigos' é a descrição clássica da válvula e entrega a resposta sem a figura. Deixei só o reconhecimento do componente.",
+      "reescrita": {
+        "pergunta": "Que componente eletrônico é este?",
+        "resposta": "Válvula termiônica",
+        "distratores": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento é este?",
+        "resposta": "Régua de cálculo"
+      },
+      "existentes": [
+        {
+          "id": "q11765",
+          "pergunta": "Que instrumento de engenheiros, usado antes das calculadoras eletrônicas, é este?",
+          "resposta": "Régua de cálculo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q11765",
+      "motivo": "Ambas pedem a identificação do mesmo instrumento (régua de cálculo) a partir da imagem; mesma resposta e mesmo fato."
+    }
+  ]
+}
