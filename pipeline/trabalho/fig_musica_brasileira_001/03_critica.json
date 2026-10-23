@@ -1,0 +1,57 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de época e nacionalidade não entrega o nome; fatos confirmados nos trechos (luso-brasileira, carreira nos EUA nos anos 1940).",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado só dá o gênero e a nacionalidade, sem entregar o nome; resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado genérico, distratores do mesmo tipo (cantoras de MPB), curtos e incorretos para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato pedido (craque companheiro que foi com ela para a Itália) identifica Garrincha só pelo enunciado, então a figura é enfeite. Não há pista de substituição que não entregue também.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O termo 'carioca' é uma pista que elimina Alcione e Clara Nunes sem olhar a figura, e Leci Brandão também é carioca. Removi a pista e troquei um distrator.",
+      "reescrita": {
+        "pergunta": "Quem é esta sambista brasileira?",
+        "resposta": "Beth Carvalho",
+        "distratores": [
+          "Alcione",
+          "Clara Nunes",
+          "Dona Ivone Lara"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pai de Luciana Mello' identifica o cantor sem olhar a imagem. Troquei por uma pista de época, que ajuda sem entregar. A pergunta continua aberta.",
+      "reescrita": {
+        "pergunta": "Quem é este cantor brasileiro, que ficou famoso nos anos 1960?",
+        "resposta": "Jair Rodrigues"
+      }
+    }
+  ]
+}

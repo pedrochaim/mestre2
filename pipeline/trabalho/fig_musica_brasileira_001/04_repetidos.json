@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem é esta cantora e atriz brasileira, famosa nos anos 1940?",
+        "resposta": "Carmen Miranda"
+      },
+      "existentes": [
+        {
+          "id": "q00948",
+          "pergunta": "O figurino de turbante, saia rodada e balangandãs que consagrou Carmen Miranda foi inspirado nas roupas de quem?",
+          "resposta": "Das baianas quituteiras"
+        },
+        {
+          "id": "q01083",
+          "pergunta": "Carmen Miranda, a Pequena Notável dos turbantes de frutas, chegou ao Brasil ainda bebê. Em que país ela tinha nascido?",
+          "resposta": "Portugal"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identidade da cantora (Carmen Miranda); as existentes tratam da inspiração do figurino e do país de nascimento, que são fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro e sem texto, com o turbante marcante, de figura pública emblemática.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta cantora e atriz brasileira, famosa nos anos 1940?",
+      "resposta": "Carmen Miranda",
+      "distratores": [],
+      "ancora": {
+        "nome": "Carmen Miranda",
+        "descricao": "Cantora, dançarina e atriz luso-brasileira, famosa por seus turbantes e chapéus de frutas em filmes americanos.",
+        "variantes": [
+          "Maria do Carmo Miranda da Cunha"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A foto mostra um tambor com mão e baqueta e pessoas ao redor. Ele pode ser confundido com um surdo ou outro tambor, então a resposta não é única. A imagem também não é clara."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O retrato em preto e branco de um senhor barbudo com violão não é reconhecível pela imagem. Sivuca é conhecido pelo acordeão, e a foto pode ser confundida com outros músicos."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Figura pública reconhecível, em foto nítida. O texto ao fundo é fragmentado e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Quem é este cantor sertanejo brasileiro?",
+      "resposta": "Gusttavo Lima",
+      "distratores": [],
+      "ancora": {
+        "nome": "Gusttavo Lima",
+        "descricao": "Cantor, compositor e produtor sertanejo brasileiro, conhecido pela canção Balada.",
+        "variantes": [
+          "Nivaldo Batista Lima"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A foto em preto e branco é pequena e de baixa resolução, com texto parcial ao fundo. O rosto não é reconhecível o bastante num celular."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O retrato antigo mostra um homem com cavaquinho, sem nenhum traço que permita reconhecer o músico. A assinatura é do fotógrafo. Não há resposta única pela imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. Em múltipla escolha com distratores de cantoras da MPB a pergunta fica justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta cantora e compositora brasileira?",
+      "resposta": "Marisa Monte",
+      "distratores": [
+        "Adriana Calcanhotto",
+        "Maria Bethânia",
+        "Zélia Duncan"
+      ],
+      "ancora": {
+        "nome": "Marisa Monte",
+        "descricao": "Cantora, compositora e produtora brasileira de MPB e samba, nascida em 1967.",
+        "variantes": [
+          "Marisa de Azevedo Monte"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto, de figura pública reconhecível. O passo além do nome é o companheiro craque do futebol.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que craque do futebol foi companheiro desta cantora e fugiu com ela para a Itália nos anos 1970?",
+      "resposta": "Garrincha",
+      "distratores": [],
+      "ancora": {
+        "nome": "Elza Soares",
+        "descricao": "Cantora brasileira de samba (1930–2022), eleita cantora do milênio pela BBC Radio em 1999.",
+        "variantes": [
+          "Elza da Conceição Soares"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O músico de camisa clara tocando violão de sete cordas não é reconhecível pela imagem. Qualquer violonista parecido serviria."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto. Múltipla escolha com outras sambistas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta sambista carioca?",
+      "resposta": "Beth Carvalho",
+      "distratores": [
+        "Alcione",
+        "Clara Nunes",
+        "Leci Brandão"
+      ],
+      "ancora": {
+        "nome": "Beth Carvalho",
+        "descricao": "Cantora, violonista, cavaquinista e compositora brasileira de samba (1946–2019).",
+        "variantes": [
+          "Elizabeth Santos Leal de Carvalho"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de show nítida, com texto ao fundo ilegível e sem entregar o nome. Figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Quem é este cantor brasileiro, pai de Luciana Mello?",
+      "resposta": "Jair Rodrigues",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jair Rodrigues",
+        "descricao": "Cantor brasileiro (1939–2014), pai dos músicos Luciana Mello e Jair Oliveira.",
+        "variantes": [
+          "Jair Rodrigues de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O retrato antigo, de baixa nitidez e com assinatura do fotógrafo, mostra um homem com violão. Ele não é reconhecível pela imagem."
+    }
+  ]
+}
