@@ -1,0 +1,61 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a ascaridíase é a infecção por Ascaris lumbricoides. O enunciado não nomeia o verme nem a doença, e é preciso reconhecer a figura. Os distratores são doenças parasitárias de mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'ponto onde se prendia uma estrutura do feto' só pode ser o cordão umbilical, então a figura virou enfeite. Uma reescrita que tirasse a pista não deixaria pergunta útil.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é curto e não entrega a resposta. A resposta é única diante da figura. Os distratores são músculos do tronco, plausíveis e com no máximo 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que é um músculo do pescoço. 'Do pescoço' ajuda sem entregar a resposta. Os distratores são músculos cervicais ou próximos e nenhum é o destacado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Flagelado, parasita do intestino' quase entrega a giárdia, que é o exemplo clássico, então a figura perde peso. Tirei a pista de localização e deixei só 'protozoário parasita'. Os distratores continuam críveis, pois são parasitas flagelados.",
+      "reescrita": {
+        "pergunta": "Que protozoário parasita aparece nesta imagem?",
+        "resposta": "Giárdia",
+        "distratores": [
+          "Trichomonas",
+          "Trypanosoma",
+          "Leishmania"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de identificação direta, sem pista no enunciado. Os distratores são outros glóbulos brancos, e só o eosinófilo corresponde à figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de nível 1 sem vazamento. 'Verme parasita do intestino' não basta para chegar à tênia sem ver a figura, que mostra o escólex. A resposta é específica e o trecho confirma que a tênia é parasita intestinal.",
+      "reescrita": null
+    }
+  ]
+}

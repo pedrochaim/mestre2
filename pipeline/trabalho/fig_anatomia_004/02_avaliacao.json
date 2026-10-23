@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Verme branco, longo e de pontas afiladas ao lado de uma régua; o texto da régua não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que doença causa este verme parasita quando infecta o intestino humano?",
+      "resposta": "Ascaridíase",
+      "distratores": [
+        "Esquistossomose",
+        "Filariose",
+        "Ancilostomose"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lombriga",
+        "descricao": "Ascaris lumbricoides, nematódeo parasita intestinal mais comum em humanos.",
+        "variantes": [
+          "Ascaris lumbricoides",
+          "Ascaris",
+          "Lombriga-humana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Micrografia eletrônica de varredura de uma célula arredondada com microvilosidades; não permite distinguir um linfócito de outras células do sangue."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Gravura com legendas em inglês (For radius, For lunate etc.), com texto na imagem; as peças isoladas também são pouco reconhecíveis."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Cocos roxos em cachos, que não permitem identificar a espécie com segurança (outros estafilococos e cocos são muito parecidos); resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de legendas em inglês (sporangium, rhizoids etc.), que entregam a estrutura."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de perto de um umbigo, sem pessoa identificável. Pouco nítida, mas reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta parte do corpo marca o ponto onde, antes do nascimento, se prendia qual estrutura do feto?",
+      "resposta": "Cordão umbilical",
+      "destino": 0,
+      "ancora": {
+        "nome": "Umbigo",
+        "descricao": "Cicatriz no abdômen no local de fixação do cordão umbilical.",
+        "variantes": [
+          "Umbilicus",
+          "Umbigo humano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Render de esqueleto com o diafragma destacado em vermelho, sem texto.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que músculo está destacado em vermelho nesta figura?",
+      "resposta": "Diafragma",
+      "distratores": [
+        "Reto abdominal",
+        "Transverso do abdome",
+        "Músculos intercostais"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Diafragma",
+        "descricao": "Músculo em forma de lâmina que separa o tórax do abdome e é o principal músculo da respiração.",
+        "variantes": [
+          "Músculo diafragma",
+          "Diafragma torácico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Render com os dois esternocleidomastóideos destacados em vermelho sobre o esqueleto, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que músculo do pescoço está destacado em vermelho nesta figura?",
+      "resposta": "Esternocleidomastoideo",
+      "distratores": [
+        "Trapézio",
+        "Platisma",
+        "Escaleno"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Músculo esternocleidomastoideo",
+        "descricao": "Músculo superficial do pescoço que liga o esterno e a clavícula ao osso temporal e gira a cabeça.",
+        "variantes": [
+          "Esternocleidomastóideo",
+          "Músculo ECM"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de um osso isolado sobre fundo azul, sem contexto; a identificação como patela não é segura, e a vista pode ser confundida com outros ossos."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica nítida, com disco adesivo e flagelos característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que protozoário flagelado, parasita do intestino, aparece nesta imagem?",
+      "resposta": "Giárdia",
+      "distratores": [
+        "Trichomonas",
+        "Trypanosoma",
+        "Leishmania"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Giárdia",
+        "descricao": "Protozoário flagelado parasita do intestino delgado, causador da giardíase.",
+        "variantes": [
+          "Giardia",
+          "Giardia lamblia",
+          "Giardia duodenalis",
+          "Giardia intestinalis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilustração 3D clara, com núcleo bilobulado e grânulos vermelhos característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que glóbulo branco é este?",
+      "resposta": "Eosinófilo",
+      "distratores": [
+        "Basófilo",
+        "Neutrófilo",
+        "Monócito"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Eosinófilo",
+        "descricao": "Glóbulo branco granulócito com grânulos que se coram de vermelho pela eosina, atuante contra parasitas e em alergias.",
+        "variantes": [
+          "Granulócito eosinófilo",
+          "Eosinophil"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Microscopia nítida da cabeça (escólex) com ventosas e coroa de ganchos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que verme parasita do intestino é este, visto ao microscópio?",
+      "resposta": "Tênia (solitária)",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tênia (solitária)",
+        "descricao": "Platelminto parasita intestinal do gênero Taenia, com escólex dotado de ventosas e ganchos.",
+        "variantes": [
+          "Solitária",
+          "Taenia solium",
+          "Taenia",
+          "Tapeworm"
+        ]
+      }
+    }
+  ]
+}
