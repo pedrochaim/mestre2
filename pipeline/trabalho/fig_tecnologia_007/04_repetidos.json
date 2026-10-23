@@ -1,0 +1,31 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que dispositivo é este?",
+        "resposta": "Painel solar"
+      },
+      "existentes": [
+        {
+          "id": "q02118",
+          "pergunta": "Que equipamento é este, instalado sobre pedras?",
+          "resposta": "Painel solar"
+        },
+        {
+          "id": "q05467",
+          "pergunta": "Em 1954, a primeira célula solar de silício capaz de alimentar aparelhos elétricos foi apresentada por que famoso laboratório americano?",
+          "resposta": "Laboratórios Bell"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02118",
+      "motivo": "Ambas são perguntas de identificação por imagem com a mesma resposta, Painel solar; quem acertasse uma saberia a outra."
+    }
+  ]
+}

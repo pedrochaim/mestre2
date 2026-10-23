@@ -1,0 +1,36 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que a primeira webcam comercial amplamente difundida, a QuickCam, chegou ao mercado em 1994. O enunciado não nomeia o aparelho. Os distratores são anos críveis; 1991 é o da webcam do café de Cambridge, que não era comercial.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os dois trechos dizem que o projeto inicial da Bombe britânica foi produzido em 1939. O enunciado não a nomeia nem cita Enigma ou Turing. Os distratores são anos plausíveis e nenhum deles está certo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado usa a palavra 'tubo', que é parte da resposta 'Tubo Nixie'. Isso vaza uma parte da resposta. A reescrita tira a palavra e deixa a figura como a pista.",
+      "reescrita": {
+        "pergunta": "Que componente eletrônico de exibição, usado em equipamentos antigos, é este?",
+        "resposta": "Tubo Nixie",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é direta, de nível 1, e não dá pista nem vaza a resposta. O trecho define o painel solar como dispositivo que converte luz solar em eletricidade, e a resposta é única diante da figura.",
+      "reescrita": null
+    }
+  ]
+}

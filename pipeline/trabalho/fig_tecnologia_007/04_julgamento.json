@@ -1,0 +1,262 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Webcam",
+        "descricao": "Câmera de vídeo feita para transmitir ou gravar imagens para um computador ou rede.",
+        "variantes": [
+          "Câmera web",
+          "Webcam USB"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio_espacial_james_webb",
+          "nome": "Telescópio Espacial James Webb",
+          "descricao": "Telescópio espacial infravermelho da NASA, ESA e CSA, lançado em 2021, com espelho primário de segmentos hexagonais dourados.",
+          "variantes": [
+            "James Webb",
+            "JWST",
+            "Webb"
+          ]
+        },
+        {
+          "id": "world_wide_web",
+          "nome": "World Wide Web",
+          "descricao": "Sistema de páginas de hipertexto interligadas e acessadas pela internet, proposto por Tim Berners-Lee em 1989.",
+          "variantes": [
+            "Web",
+            "WWW"
+          ]
+        },
+        {
+          "id": "caxemira",
+          "nome": "Caxemira",
+          "descricao": "Lã fina e macia obtida do subpelo de cabras, também chamada cashmere",
+          "variantes": [
+            "Cashmere",
+            "Cachemira"
+          ]
+        },
+        {
+          "id": "rebeca",
+          "nome": "Rebeca",
+          "descricao": "Instrumento medieval de cordas friccionadas, de corpo em forma de pera ou barco, antepassado do violino.",
+          "variantes": [
+            "Rabeca",
+            "Rebec"
+          ]
+        },
+        {
+          "id": "albert_camus",
+          "nome": "Albert Camus",
+          "descricao": "Escritor e filósofo francês nascido na Argélia (1913–1960), autor de O Estrangeiro e O Mito de Sísifo.",
+          "variantes": [
+            "Camus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bombe",
+        "descricao": "Dispositivo eletromecânico britânico usado em Bletchley Park para decifrar mensagens da máquina Enigma na Segunda Guerra Mundial.",
+        "variantes": [
+          "Bomba eletromecânica",
+          "Bombe britânica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cortada",
+          "nome": "Cortada",
+          "descricao": "Ataque do vôlei em que o jogador salta e golpeia a bola de cima para baixo na quadra adversária.",
+          "variantes": [
+            "Ataque",
+            "Spike",
+            "Bomba"
+          ]
+        },
+        {
+          "id": "ribombee",
+          "nome": "Ribombee",
+          "descricao": "Pokémon dos tipos Inseto e Fada, número 743 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "open_britanico",
+          "nome": "Open Britânico",
+          "descricao": "The Open Championship, torneio de golfe disputado no Reino Unido desde 1860, um dos quatro principais do golfe masculino.",
+          "variantes": [
+            "The Open Championship",
+            "The Open",
+            "British Open",
+            "Aberto Britânico"
+          ]
+        },
+        {
+          "id": "boliviano",
+          "nome": "Boliviano",
+          "descricao": "Moeda oficial da Bolívia.",
+          "variantes": [
+            "Boliviano (moeda)",
+            "BOB"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome",
+            "Caneta Bic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tubo Nixie",
+        "descricao": "Tubo de descarga em gás de cátodo frio que exibe dígitos por meio de eletrodos em forma de número.",
+        "variantes": [
+          "Nixie",
+          "Tubo de Nixie",
+          "Válvula Nixie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubo_de_ensaio",
+          "nome": "Tubo de ensaio",
+          "descricao": "Vidraria de laboratório cilíndrica, aberta em cima e fechada embaixo, usada para conter amostras.",
+          "variantes": [
+            "Tubo de teste"
+          ]
+        },
+        {
+          "id": "ninive",
+          "nome": "Nínive",
+          "descricao": "Antiga capital do Império Assírio, às margens do rio Tigre, no norte do atual Iraque.",
+          "variantes": [
+            "Nineveh"
+          ]
+        },
+        {
+          "id": "tempo_unix",
+          "nome": "Tempo Unix",
+          "descricao": "Sistema de contagem do tempo em segundos a partir de uma data de referência, usado em muitos computadores.",
+          "variantes": [
+            "Época Unix",
+            "Unix time"
+          ]
+        },
+        {
+          "id": "valvula_termionica",
+          "nome": "Válvula termiônica",
+          "descricao": "Dispositivo de vidro com vácuo que controla a corrente elétrica entre eletrodos, usado para amplificar e retificar sinais.",
+          "variantes": [
+            "Válvula",
+            "Válvula a vácuo",
+            "Tubo de vácuo"
+          ]
+        },
+        {
+          "id": "tubo_de_geissler",
+          "nome": "Tubo de Geissler",
+          "descricao": "Tubo de vidro com gás rarefeito e eletrodos que brilha sob alta tensão, criado por Heinrich Geissler em 1857.",
+          "variantes": [
+            "Tubos de Geissler"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Painel solar",
+        "descricao": "Dispositivo com células fotovoltaicas que converte luz do Sol em eletricidade.",
+        "variantes": [
+          "Painel fotovoltaico",
+          "Módulo solar fotovoltaico",
+          "Placa solar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "painel_solar",
+          "nome": "Painel solar",
+          "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+          "variantes": [
+            "Painel fotovoltaico",
+            "Placa solar",
+            "Célula solar"
+          ]
+        },
+        {
+          "id": "mancha_solar",
+          "nome": "Mancha solar",
+          "descricao": "Região temporária mais escura e fria na superfície do Sol, causada por concentrações de fluxo magnético.",
+          "variantes": [
+            "Manchas solares",
+            "Sunspot"
+          ]
+        },
+        {
+          "id": "usina_solar_fotovoltaica",
+          "nome": "Usina solar fotovoltaica",
+          "descricao": "Usina que converte a luz do sol em eletricidade por painéis fotovoltaicos, em grande escala.",
+          "variantes": [
+            "Parque solar",
+            "Fazenda solar",
+            "Central fotovoltaica"
+          ]
+        },
+        {
+          "id": "efeito_fotovoltaico",
+          "nome": "Efeito fotovoltaico",
+          "descricao": "Fenômeno em que certos materiais geram tensão elétrica ao serem expostos à luz, base das células solares.",
+          "variantes": [
+            "Photovoltaic effect"
+          ]
+        },
+        {
+          "id": "halo_solar",
+          "nome": "Halo solar",
+          "descricao": "Anel luminoso em torno do Sol, produzido pela luz ao atravessar cristais de gelo na atmosfera.",
+          "variantes": [
+            "Halo",
+            "Halo de 22 graus"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma webcam; nomes só parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bombe (máquina de decifrar Enigma) não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tubo Nixie é um display específico, diferente de válvula termiônica e tubo de Geissler."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "painel_solar",
+      "motivo": "Mesma entidade: dispositivo fotovoltaico que converte luz solar em eletricidade, com variantes coincidentes."
+    }
+  ]
+}

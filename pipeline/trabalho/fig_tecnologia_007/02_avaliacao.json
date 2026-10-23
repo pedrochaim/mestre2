@@ -1,0 +1,134 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Webcam externa sem texto visível, reconhecível pelo formato e pela fixação no monitor.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano chegou ao mercado a primeira versão comercial amplamente difundida deste tipo de aparelho?",
+      "resposta": "1994",
+      "distratores": [
+        "1991",
+        "1996",
+        "1998"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Webcam",
+        "descricao": "Câmera de vídeo feita para transmitir ou gravar imagens para um computador ou rede.",
+        "variantes": [
+          "Câmera web",
+          "Webcam USB"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra as inscrições MiniDisc e TDK, que entregam a resposta, além de uma pilha Duracell ao lado."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Réplica da Bombe com tambores rotativos, sem texto legível. O manequim não é pessoa real. É um item de aficionado, e a múltipla escolha deixa a pergunta justa.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi produzido o projeto inicial desta máquina britânica, usada na Segunda Guerra Mundial?",
+      "resposta": "1939",
+      "distratores": [
+        "1937",
+        "1941",
+        "1943"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bombe",
+        "descricao": "Dispositivo eletromecânico britânico usado em Bletchley Park para decifrar mensagens da máquina Enigma na Segunda Guerra Mundial.",
+        "variantes": [
+          "Bomba eletromecânica",
+          "Bombe britânica"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O nome TAMAGOTCHI está escrito no aparelho e entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O nome Lisa está escrito na frente do computador, e há a marca Apple e o rótulo ProFile, que entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A palavra Discman e a marca Sony estão bem visíveis no aparelho."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O texto Polaroid Land Camera e Supercolor 1000 entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tubo Nixie com o dígito 4 aceso, sem texto. A forma de vidro com eletrodos em forma de número é característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de tubo eletrônico é este?",
+      "resposta": "Tubo Nixie",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubo Nixie",
+        "descricao": "Tubo de descarga em gás de cátodo frio que exibe dígitos por meio de eletrodos em forma de número.",
+        "variantes": [
+          "Nixie",
+          "Tubo de Nixie",
+          "Válvula Nixie"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Painel solar fotovoltaico claro e sem texto. Como a pergunta de ano não serve, troquei para reconhecimento direto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dispositivo é este?",
+      "resposta": "Painel solar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Painel solar",
+        "descricao": "Dispositivo com células fotovoltaicas que converte luz do Sol em eletricidade.",
+        "variantes": [
+          "Painel fotovoltaico",
+          "Módulo solar fotovoltaico",
+          "Placa solar"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma montagem de dois osciloscópios, com texto visível (475A Oscilloscope, Tektronix)."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem é em preto e branco e mostra um cilindro com fios e furos, que pode ser confundido com outros dispositivos antigos (linha de atraso, memória de núcleo). Não há reconhecimento único."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A foto mostra Edison com o fonógrafo, ou seja, dois assuntos. O inventor aparece na imagem e entrega a resposta de autoria. O aparelho é um fonógrafo de cilindro, e não um gramofone."
+    }
+  ]
+}
