@@ -146,7 +146,7 @@ O `figuras.py` faz as perguntas com figura de reconhecimento (MANIFESTO §6), a 
 | 1. preparo | Escolhe entidades das três camadas e baixa a imagem principal: Wikidata/Commons (`P18`, bandeira `P41`, mapa `P242`), PokéAPI (silhueta e revelação) ou, no catálogo `cenas`, TMDB (só imagens sem texto; chave em `pipeline/tmdb_chave.txt` ou na variável `TMDB_CHAVE`, fora do git) e Commons; no catálogo `personagens`, Fandom, AniList, superhero-api e Wikipédia, na ordem dada no `titulo` da entidade (com fundo transparente, prepara também a silhueta e a revelação, e o redator escolhe). Confere a licença, põe fundo branco, guarda um trecho da Wikipédia e sugere família e nível, puxando para as metas de variedade | `01_selecao.json`, `01.jpg`… |
 | 2. avaliação | O Claude (Sonnet) **abre cada imagem**, reprova as ruins (texto que entrega a resposta, montagem, assunto ambíguo) e escreve a pergunta | `02_avaliacao.json` |
 | 3. crítica | O Python baixa os trechos das fontes (`fontes.py`). O Claude (Sonnet, esforço médio), sem a imagem, mas sabendo o que ela mostra, confere o fato, o vazamento, a resposta única e os distratores, e aprova, reescreve ou descarta | `03_fontes.json`, `03_critica.json` |
-| 4. registro | Liga à âncora (nomes iguais ou parecidos vão ao juiz, como no texto), respeita a saturação (no máximo 3 perguntas por âncora e 2 com figura), descarta o que repete um fato já perguntado sobre a mesma âncora, copia a imagem e grava | `04_julgamento.json`, `04_repetidos.json` |
+| 4. registro | Liga à âncora (nomes iguais ou parecidos vão ao juiz, como no texto), respeita a saturação (no máximo 5 perguntas por âncora e 2 com figura), descarta o que repete um fato já perguntado sobre a mesma âncora, copia a imagem e grava | `04_julgamento.json`, `04_repetidos.json` |
 
 ## Coleções (modo Pokémon)
 
@@ -162,7 +162,7 @@ python pipeline/pokemon_dados.py executar --atributos 70 --tipo 45 --regiao 30 -
 ## Saturação por âncora
 
 O assunto de uma pergunta é a sua âncora. Desde a programação de 10 000 perguntas:
-- uma âncora com 3 perguntas no banco inteiro, somando texto e figura, não recebe outra;
+- uma âncora com 5 perguntas no banco inteiro, somando texto e figura, não recebe outra;
 - o gerador recebe a lista das âncoras do tema que já têm 2 ou mais perguntas em outros subtemas, para evitá-las;
 - na etapa de âncoras, cada pergunta nova cuja âncora já tem perguntas é comparada com essas perguntas por uma chamada pequena ao Sonnet (`prompts/repetidos.md`). Se perguntar o mesmo fato, sai.
 

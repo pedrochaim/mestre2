@@ -182,10 +182,10 @@ PISO_SUBTEMA_COLECAO = {}
 DOC_COLECAO = {"pokemon": "modo_pokemon.md"}
 SEM_COTA_ANGULOS = {"pokemon"}
 
-# Saturação por âncora (MANIFESTO §4 e §17): no jogo original, no máximo 3 perguntas por âncora, 2 com figura.
+# Saturação por âncora (MANIFESTO §4 e §17): no jogo original, no máximo 5 perguntas por âncora (3 até 2026-10-23), 2 com figura.
 # As exclusivas de uma coleção têm conta própria: contam só as perguntas da coleção, com o limite do documento
 # dela; e as exclusivas não contam na saturação do jogo original, porque uma partida nunca sorteia os dois conjuntos.
-MAX_POR_ANCORA = 3
+MAX_POR_ANCORA = 5
 MAX_FIGURA_POR_ANCORA = 2
 MAX_POR_ANCORA_COLECAO = {"pokemon": 5}
 

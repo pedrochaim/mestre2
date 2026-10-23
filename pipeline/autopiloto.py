@@ -1,4 +1,4 @@
-"""Autopiloto da programação até 10 000 perguntas (MANIFESTO §17).
+"""Autopiloto da programação do banco (MANIFESTO §17; hoje, até 20 000 perguntas no jogo original).
 
 Roda sozinho, fora de qualquer conversa: escolhe o próximo trabalho pelo maior déficit em relação ao plano
 (pipeline/plano.json), alternando lotes de texto e de figuras; quando a cota do plano do claude.ai acaba, espera

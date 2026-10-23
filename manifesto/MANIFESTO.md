@@ -1,12 +1,12 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.73 — 2026-10-19**
+> **Versão preliminar 0.75 — 2026-10-23**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
 > Ele tem duas partes:
 > - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
-> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 e até 20 000 perguntas. É a referência de quem mantém o projeto.
 >
 > Arquivos relacionados:
 > - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
@@ -113,7 +113,7 @@ Cada âncora é registrada com:
 **Limites por âncora** (o pipeline descarta o que passar deles):
 - no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
 - no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
-- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
+- no máximo **5 perguntas por âncora** no banco inteiro (3 até 2026-10-23), somando texto e figura, e no máximo **2 com figura**. As exclusivas de uma coleção têm conta à parte (§6, "Coleções");
 - uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
 
 **Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
@@ -264,7 +264,7 @@ Uma pergunta de qualquer tipo pode ter um **trecho de áudio** (campo `audio`), 
 - **Só áudio livre**, porque o repositório e o site são públicos: domínio público, CC0, CC BY ou CC BY-SA, sem NC nem ND. Gravações comerciais de música popular **não entram**: a composição fica protegida até 70 anos depois da morte do autor, e a gravação, até 70 anos depois de publicada. Na música brasileira antiga, a composição e a gravação precisam estar em domínio público no Brasil: autores mortos há mais de 70 anos (Chiquinha Gonzaga, Ernesto Nazareth, Zequinha de Abreu, Catulo da Paixão Cearense, Carlos Gomes) e gravação publicada há mais de 70 anos. *Pelo Telefone*, de Donga (morto em 1974), por exemplo, fica de fora. Boas fontes: os hinos da Banda da Marinha dos EUA e os sons do Serviço de Pesca e Vida Selvagem dos EUA (obras do governo americano, em domínio público), o Musopen e as gravações antigas da Casa Edison, todos no Wikimedia Commons.
 - **O LLM não ouve áudio.** A pergunta sai dos metadados do arquivo (título, descrição, categorias, origem) e das fontes, e **uma pessoa ouve o trecho** antes de ele entrar no banco, na página que o pipeline gera (§17).
 - **O trecho:** de 6 a 30 segundos, escolhido para ser reconhecível (o tema famoso de uma peça, o começo de um hino, o canto típico de uma ave), com entrada e saída suaves e volume igualado. Nas gravações antigas, o trecho pula o anúncio do locutor, que muitas vezes diz o nome da música.
-- **Saturação:** o áudio conta no limite de 3 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
+- **Saturação:** o áudio conta no limite de 5 perguntas por âncora, e cada âncora tem no máximo 1 pergunta com áudio.
 - **Resposta específica e justa:** o nome da música, do país, do animal ou do instrumento. Quando o som não permite distinguir a espécie ou o instrumento exato de outros parecidos (uma coruja de outra, o acordeão do bandoneón), a pergunta é `multipla`, sem distratores que soem igual.
 
 ---
@@ -620,7 +620,7 @@ Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o 
 - [ ] **Calibrar os limites por âncora** (§4) e as regras de variedade (§9), à medida que o banco crescer.
 - [x] **Figuras no pipeline** (§6, §17): feito em 2026-10-01 (`pipeline/figuras.py`).
 - [x] **Saturação por âncora no banco inteiro** (§17): feito em 2026-10-01.
-- [x] **Proporção de perguntas com figura:** definida em 25% do banco (§17).
+- [x] **Proporção de perguntas com figura:** definida em 25% do banco em 2026-10-01; desde 2026-10-23, **até cerca de 50%**, como orientação e não como critério rígido (§17).
 - [ ] **Tamanho do tabuleiro** (§15): 5 casas no estágio 1 (a casa grande do início e mais 4; eram 8 até 2026-10-10) e 8 no estágio 2 (uma por tema), e mais a pergunta final no centro, ou seja, 14 acertos até vencer. Ajustar depois de jogar, se preciso.
 - [x] **Como a vez passa** (§15): decidido em 2026-10-09. A vez gira na ordem do placar, lê o seguinte da fila, e a pergunta aberta passa adiante a cada erro.
 - [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
@@ -831,6 +831,8 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 
 Plano aprovado em 2026-10-01 para levar o banco de 612 a **cerca de 10 000 perguntas**, com **25% de perguntas com figura**, ao longo das próximas sessões de trabalho.
 
+> **Desde 2026-10-23, a produção aceita até cerca de 50% de perguntas com figura.** Não é um critério rígido: é uma orientação para o banco como um todo, e **a fração não precisa ser a mesma entre os subtemas**. Subtemas mais afeitos a figura (bandeiras, animais, pinturas, atletas, pratos) podem ter bem mais que a metade; subtemas em que a figura rende pouco (Língua Portuguesa e Expressões, Filosofia, Matemática) podem ter relativamente menos, ou quase nenhuma. As metas por tema e por catálogo abaixo são as do plano original (25%).
+
 ### Ponto de partida e metas
 
 | | Hoje (2026-10-01) | Meta | Falta |
@@ -898,7 +900,7 @@ As quantidades seguem `pipeline/plano.json` e foram reduzidas na v0.35 para que 
 Um assunto está saturado quando já há perguntas demais apontando para a mesma âncora. A primeira sessão também liga essa medida (pendência do §14):
 - a contagem de perguntas por âncora passa a valer **no banco inteiro**, e não só dentro do subtema;
 - o gerador recebe as âncoras mais usadas do tema todo, para evitá-las;
-- uma âncora com mais de 3 perguntas, somando texto e figura, fica bloqueada para novas perguntas, salvo decisão em contrário;
+- uma âncora com 5 perguntas (3 até 2026-10-23), somando texto e figura, fica bloqueada para novas perguntas, salvo decisão em contrário;
 - as exclusivas de uma coleção têm conta à parte, só dentro da coleção e com o limite do documento dela (§6, "Coleções").
 
 ### Autopiloto
@@ -907,7 +909,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 - **`pipeline/plano.json`:** as metas desta seção, a orientação de cada subtema para as encomendas e os catálogos de figura.
 - **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo **tema com menos perguntas no banco**, somando texto e figura (desde 2026-10-02, para os temas atrasados, como Artes e Pensamento, alcançarem os outros); dentro do tema, texto ou figura pelo que falta mais em relação à meta, o subtema pelo déficit absoluto e o catálogo pelo déficit relativo à sua meta, cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera até o horário de liberação informado na mensagem ("resets 6:10pm") e retoma da mesma etapa.** **Ele usa no máximo 95% da sessão de 5 horas** (desde 2026-10-02): ao chegar a esse uso, informado pelo próprio Claude Code a cada chamada, espera a sessão renovar, para deixar uma folga para o uso interativo. Só mensagens de cota ou sobrecarga contam como cota; um tempo limite ou outro erro conta como falha, e três falhas seguidas pausam o subtema ou catálogo. Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
 - **`pipeline/figuras.py`:** a etapa de figuras, com curadoria dos catálogos pelo LLM, imagem do Wikidata ou do PokéAPI, avaliação pelo Sonnet, que abre cada imagem, e crítica do texto. No primeiro teste (4 bandeiras), as 4 entraram, a cerca de 4 centavos por pergunta.
-- **Saturação:** no máximo 3 perguntas por âncora no banco inteiro e 2 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
+- **Saturação:** no máximo 5 perguntas por âncora no banco inteiro (3 até 2026-10-23) e 2 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
 
 ### Sessões
 
@@ -927,7 +929,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 5. Exportar, commitar e publicar no Firebase.
 6. Registrar no §13 as lições e o custo da sessão.
 
-**Ajustes de rota:** o plano é uma meta, não uma obrigação. Se um subtema começar a se repetir (âncoras saturadas, crítico descartando muito), ele para abaixo da meta, e a diferença vai para subtemas com mais assunto. A proporção de 25% com figura vale para o banco todo, não para cada tema.
+**Ajustes de rota:** o plano é uma meta, não uma obrigação. Se um subtema começar a se repetir (âncoras saturadas, crítico descartando muito), ele para abaixo da meta, e a diferença vai para subtemas com mais assunto. A proporção de figuras (até cerca de 50% desde 2026-10-23; era 25%) vale para o banco todo, não para cada tema ou subtema, e é uma orientação, não um critério rígido: cada subtema tem a fração de figuras que o seu assunto permite.
 
 ### Subtemas com poucas perguntas (2026-10-19)
 
@@ -952,6 +954,61 @@ A meta de 10 000 foi cumprida com cerca de 1 260 perguntas por tema, mas alguns 
 | `jogos_tabuleiro` | 12 | Jogos de Tabuleiro e Cartas |
 
 Ficam fora do piso de figura Língua Portuguesa e Expressões (sem assunto visual) e Marcas e Produtos (logotipos e embalagens entregam a resposta e têm direitos). Os lotes de figura rodam depois dos de texto, com `python pipeline/autopiloto.py --catalogos <ids>`, que só escolhe trabalho nesses catálogos.
+
+### Programação até 20 000 perguntas (aprovada em 2026-10-23)
+
+A meta de 10 000 foi cumprida. A próxima leva o **jogo original** (sem as exclusivas das coleções, que têm programação própria) de 11 883 para **20 000 perguntas**, com cerca de **40% de figuras** no fim. Fica dentro da orientação de até ~50% (nota no início desta seção).
+
+| | Hoje (2026-10-23) | Meta | Falta |
+|---|---|---|---|
+| Perguntas de texto | 8 539 | 12 000 | ~3 460 |
+| Perguntas com figura | 3 344 | 8 000 | ~4 660 |
+| **Total** | **11 883** | **20 000** | **~8 120** |
+
+**Por tema: 2 500 perguntas cada, com a fração de figura que o assunto permite.** Os temas mais visuais ficam perto de 50% de figuras e os outros, perto de 35%. Dentro do tema, o texto continua dividido pelos pesos dos subtemas (`plano.json`). As figuras não têm meta por subtema: elas seguem os catálogos, que apontam para os subtemas visuais. Por isso, Língua Portuguesa, Marcas, Filosofia e Matemática ganham sobretudo texto.
+
+| Tema | Texto hoje → meta | Figura hoje → meta | Figura no fim |
+|---|---|---|---|
+| Geografia | 1 129 → 1 300 (+171) | 502 → 1 200 (+698) | 48% |
+| Natureza | 947 → 1 300 (+353) | 450 → 1 200 (+750) | 48% |
+| Artes e Pensamento | 1 069 → 1 450 (+381) | 456 → 1 050 (+594) | 42% |
+| Esportes | 954 → 1 450 (+496) | 431 → 1 050 (+619) | 42% |
+| Entretenimento | 976 → 1 600 (+624) | 344 → 900 (+556) | 36% |
+| Cotidiano | 974 → 1 600 (+626) | 387 → 900 (+513) | 36% |
+| Ciências | 987 → 1 650 (+663) | 339 → 850 (+511) | 34% |
+| História | 1 503 → 1 650 (+147) | 435 → 850 (+415) | 34% |
+
+**Texto:** cerca de 85 lotes de 50, com ~40 aproveitadas por lote, a uns US$ 2 por lote (média desde 15/10): **~US$ 180** e umas 12 horas de execução. Com o limite de 5 perguntas por âncora (§4), a profundidade vem de **fatos novos sobre âncoras conhecidas**, e não de âncoras obscuras. A orientação dos subtemas é revista na sessão 1 nesse sentido, como no mutirão de 2026-10-19 ("não troque fama por raridade"). Subtemas estreitos (Américas Pré-Colombianas, Vôlei, Tênis, Basquete) podem parar antes da meta quando o rendimento cair: o autopiloto já os pausa, e a diferença vai para os subtemas com mais assunto.
+
+**Figura:** cerca de 610 lotes de 12, com ~7,6 aproveitadas por lote, a uns 5,5 centavos por pergunta: **~US$ 260** e umas 12 horas de execução. As metas dos catálogos atuais sobem, e entram 21 catálogos novos, dirigidos aos subtemas visuais que ainda têm poucas figuras. Nenhum catálogo passa de 40% das figuras do seu tema (§6).
+
+| Tema | Catálogos atuais (registradas → nova meta) | Catálogos novos (meta) |
+|---|---|---|
+| Geografia | bandeiras 158 → 190 · mapas_localizacao 76 → 150 · cidades 80 → 200 · paisagens 61 → 120 · bandeiras_estados 38 → 40 · idiomas_escritas 28 → 50 · biomas_ambientes 53 → 90 · ilhas_aguas 23 → 80 | `relevo_maravilhas` (montanhas, vulcões, cânions, cachoeiras; 120) · `brasil_lugares` (cidades, paisagens e monumentos do Brasil; 120) · `simbolos_nacionais` (brasões e símbolos nacionais; 60) |
+| Natureza | mamiferos 110 → 220 · aves 90 → 200 · vida_marinha 54 → 140 · repteis_anfibios 45 → 100 · insetos 31 → 120 · plantas 30 → 110 · dinossauros 20 → 70 · pre_historia_evolucao 50 → 70 · rochas_minerais 29 → 60 | `ecossistemas` (recifes, mangues, cavernas, fenômenos naturais; 60) · `hominideos` (crânios e reconstruções; 40) |
+| História | retratos_historicos 123 → 230 · monumentos_historicos 116 → 200 · documentos_historicos 72 → 100 · artefatos_antigos 48 → 110 · guerras_mundiais 32 → 70 | `brasil_historico` (retratos e pinturas históricas do Brasil; 80) · `bandeiras_historicas` (bandeiras de Estados que não existem mais; 50) |
+| Artes e Pensamento | pinturas 132 → 300 · retratos_artes 117 → 220 · esculturas_arquitetura 86 → 180 · mitos_religioes 43 → 100 · filosofos_palcos 18 → 50 | `arte_brasileira` (80) · `musica_classica` (instrumentos de orquestra, casas de ópera; 50) · `templos_lugares_sagrados` (70) |
+| Esportes | atletas 126 → 300 · estadios 85 → 150 · modalidades_objetos 110 → 200 · volei_basquete 26 → 70 · camisas_times 46 → 80 | `automobilismo` (pilotos, carros, circuitos; 80) · `tenis` (60) · `lutas` (50) · `olimpiadas` (tochas, cartazes antigos, cerimônias; 50) |
+| Entretenimento | pokemon 73 → 100 · personagens 83 → 180 · cenas 85 → 160 · musicos_atores 52 → 140 · instrumentos_jogos 36 → 70 · jogos_tabuleiro 15 → 40 | `anime_manga` (80) · `videogames` (consoles e personagens de jogos; 80) · `musica_brasileira` (cantores e instrumentos; 50) |
+| Ciências | cientistas 100 → 200 · astronomia 81 → 180 · invencoes 75 → 140 · ciencia_natural 61 → 110 · energia_matematica 25 → 60 | `anatomia` (ilustrações anatômicas antigas, células e órgãos; 80) · `tecnologia` (computadores e aparelhos históricos; 80) |
+| Cotidiano | pratos_bebidas 115 → 250 · frutas_ingredientes 77 → 160 · transportes 66 → 130 · objetos_trajes 80 → 150 · folclore 42 → 60 | `festas_costumes` (festas e trajes típicos pelo mundo; 90) · `moda` (60) |
+
+As metas dos catálogos são estimativas. Os catálogos que reprovam muito (estádios, documentos, transportes, ciencia_natural, com 40% a 50% de reprovação) ou que se esgotam (bandeiras, bandeiras_estados, folclore) param abaixo da meta, e a diferença vai para os outros catálogos do tema.
+
+**Custo e prazo:** cerca de **US$ 440 em equivalente de API**, na cota do plano, e umas 25 horas de execução. No ritmo dos melhores dias do autopiloto (~1 000 perguntas por dia), são **8 a 10 dias de execução**.
+
+**Sessões:**
+
+| Sessão | O que se faz |
+|---|---|
+| 1 | **Preparação:** `plano.json` com meta total de 20 000 e as metas por tema e por catálogo acima; os 21 catálogos novos (descrição, fonte da imagem, destinos, famílias e enunciado); orientação dos subtemas de texto revista; um lote de teste em cada catálogo novo, com conferência das imagens |
+| 2 a 4 | **Autopiloto**, uns 2 700 por sessão. Ele escolhe o tema com menos perguntas e, dentro dele, texto ou figura pelo déficit. A cada sessão: amostra das perguntas novas, rendimento por subtema e catálogo, pausa dos que se esgotaram, exportação, commit e publicação |
+| 5 | **Revisão:** relatório final, nova crítica por amostragem (`recriticar`), âncoras perto do limite, distribuição de figuras por subtema, de ângulos e de tipos |
+
+**Pontos de atenção:**
+- **Tamanho do app:** as imagens ocupam hoje 943 MB em `app/public` (6 697 arquivos). Com mais ~4 700 figuras, passam de 1,5 GB. O `perguntas.json` vai de 8,5 MB para uns 14 MB e é baixado sem cache a cada abertura (§16). Conferir o plano do Firebase Hosting e, se for preciso, mandar o arquivo comprimido ou dividido.
+- **Limite de figuras por âncora:** continua em 2 (§4). Os catálogos usam cada entidade uma vez, então esse limite quase não pesa. Só vale subir se entrar uma "segunda figura" das entidades mais conhecidas (um detalhe da pintura, outra vista do monumento).
+- **Profundidade x obscuridade:** com mais entidades por catálogo, as camadas 2 e 3 pesam mais (§6). Conferir na amostra se as figuras continuam reconhecíveis por quem conhece o assunto.
 
 ---
 
@@ -991,6 +1048,8 @@ Ficam fora do piso de figura Língua Portuguesa e Expressões (sem assunto visua
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.75 | 2026-10-23 | Proposta de programação até 20 000 perguntas no jogo original, com ~40% de figuras: metas por tema (2 500 cada, com fração de figura de 34% a 48%), metas dos catálogos atuais, 21 catálogos novos, custo, sessões e pontos de atenção; `plano.json` com as metas novas, `fracao_figura` 0,4 e orientação de texto para fatos novos sobre âncoras conhecidas (§17) |
+| 0.74 | 2026-10-23 | Proporção de perguntas com figura: até cerca de 50% do banco, como orientação e não como critério rígido (era 25%), com fração livre por subtema, maior nos subtemas mais afeitos a figura; `fracao_figura` do `plano.json` em 0,5. Limite por âncora no banco inteiro sobe de 3 para 5 perguntas, somando texto, figura e áudio; continuam 2 com figura, 1 com áudio e 2 por lote (§4, §6, §14, §17) |
 | 0.73 | 2026-10-19 | Mutirão dos subtemas com poucas perguntas: piso de ~90 perguntas de texto e 20 com figura por subtema, os 8 lotes travados de volta à fila, 13 lotes novos com orientação de priorizar o conhecido e 12 catálogos de figura dirigidos aos subtemas vazios; opção `--catalogos` do autopiloto (§17) |
 | 0.72 | 2026-10-17 | Modo Pokémon: sem o piso de equilíbrio entre os subtemas (o equilíbrio é o das casas temáticas, na programação dos lotes); nova família de dados "Qual é esse ataque?", um cartão com os dados do golpe, na casa Cartão de atributos (`pipeline/pokemon_golpes.py`); o esquema aceita como origem as tabelas de dados do PokéAPI; mais 1164 perguntas no modo (`modo_pokemon.md`) |
 | 0.71 | 2026-10-16 | Modo Pokémon: o dado vale só para quem recebeu a pergunta, e quem acerta depois que ela passa adiante anda uma casa; o marcador do dado mostra o nome de quem a recebeu (§15; `modo_pokemon.md`) |
