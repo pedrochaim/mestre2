@@ -1,0 +1,162 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sobremesa reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa é esta, de casquinha firme e recheio que escorre?",
+      "resposta": "Petit gâteau",
+      "ancora": {
+        "nome": "Petit gâteau",
+        "descricao": "Sobremesa de pequeno bolo de chocolate com casca e recheio cremoso, servida com sorvete.",
+        "variantes": [
+          "Petit gateau",
+          "Bolinho de chocolate com recheio cremoso"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Imagem pequena e borrada de um doce branco; não é reconhecível e pode ser confundido com marshmallow ou outros doces."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Muffin inglês com presunto, molho holandês e ovo; reconhecível, apesar da resolução baixa. Múltipla para dar justiça.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de café da manhã é este?",
+      "resposta": "Ovos Benedict",
+      "distratores": [
+        "Ovos Florentine",
+        "Shakshuka",
+        "Ovos mexidos"
+      ],
+      "ancora": {
+        "nome": "Ovos Benedict",
+        "descricao": "Prato americano de café da manhã com muffin inglês, presunto, ovo pochê e molho holandês.",
+        "variantes": [
+          "Eggs Benedict",
+          "Ovos beneditinos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Bolo decorado genérico; resposta pouco específica e sem nível 3 viável."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fatia com camadas de batata e ovo, reconhecível; múltipla para evitar confusão com outras omeletes.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Tortilha espanhola",
+      "distratores": [
+        "Omelete francesa",
+        "Quiche lorraine",
+        "Panqueca americana"
+      ],
+      "ancora": {
+        "nome": "Tortilha espanhola",
+        "descricao": "Omelete espanhola de ovos e batatas, muitas vezes com cebola.",
+        "variantes": [
+          "Tortilla de patatas",
+          "Tortilla española",
+          "Omelete espanhola"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto escura de ensopado em ramequim; não dá para reconhecer o bœuf bourguignon com segurança."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O bolo traz escrito '10th Birthday Wikidata', texto visível; além disso é bolo de uma ocasião específica."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Torta salgada com massa e recheio de creme, reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que torta salgada de origem francesa é esta?",
+      "resposta": "Quiche",
+      "ancora": {
+        "nome": "Quiche",
+        "descricao": "Torta francesa de massa recheada com creme salgado e queijo, carne, frutos do mar ou vegetais.",
+        "variantes": [
+          "Quiche lorraine"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Panquecas finas que podem ser crepes ou outras panquecas; resposta não única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mousse de chocolate com textura aerada visível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa aerada é esta?",
+      "resposta": "Mousse de chocolate",
+      "ancora": {
+        "nome": "Mousse",
+        "descricao": "Preparo macio e aerado, doce ou salgado; aqui, de chocolate.",
+        "variantes": [
+          "Mousse de chocolate"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto cheia de elementos (menu com texto e preços, nachos, molhos, mesa de restaurante); prato principal pouco claro."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pão achatado com superfície alveolada característica; múltipla com pães achatados.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pão achatado e fermentado é este?",
+      "resposta": "Injera",
+      "distratores": [
+        "Naan",
+        "Chapati",
+        "Pita"
+      ],
+      "ancora": {
+        "nome": "Injera",
+        "descricao": "Pão achatado e fermentado, de farinha de teff, base da culinária da Etiópia.",
+        "variantes": [
+          "Enjera",
+          "Taita"
+        ]
+      }
+    }
+  ]
+}

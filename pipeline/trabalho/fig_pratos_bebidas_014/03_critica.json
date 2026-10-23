@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a sobremesa (casquinha firme, recheio que escorre) e dá para responder com a imagem coberta. Foi retirada a pista.",
+      "reescrita": {
+        "pergunta": "Que sobremesa de origem francesa, servida quente, é esta?",
+        "resposta": "Petit gâteau"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. Os distratores são do mesmo tipo e críveis, e nenhum descreve a imagem (muffin, presunto, ovo pochê e molho holandês). O Florentine leva espinafre.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta neutra, com resposta única diante da imagem. Distratores do mesmo tipo (pratos de ovos) e nenhum também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Origem francesa' é discutível: o trecho em português diz que a origem é alemã, da Lorena medieval. 'Torta salgada' já descreve o prato. Texto simplificado.",
+      "reescrita": {
+        "pergunta": "Que torta salgada, de massa aberta, é esta?",
+        "resposta": "Quiche"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sobremesa aerada' não é exclusivo da mousse (há suflê, chantilly), e a resposta 'de chocolate' não vinha com o enunciado. Foi simplificado sem entregar a resposta.",
+      "reescrita": {
+        "pergunta": "Que sobremesa cremosa, de origem francesa, é esta?",
+        "resposta": "Mousse de chocolate"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pão achatado e fermentado' define a injera e também vale para naan e pita, que são distratores, então a pergunta fica ambígua. Foi retirada a pista e deixada só a categoria.",
+      "reescrita": {
+        "pergunta": "Que pão achatado é este?",
+        "resposta": "Injera",
+        "distratores": [
+          "Naan",
+          "Chapati",
+          "Pita"
+        ]
+      }
+    }
+  ]
+}
