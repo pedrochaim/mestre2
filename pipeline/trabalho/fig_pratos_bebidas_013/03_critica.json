@@ -1,0 +1,91 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam origem americana; o enunciado não entrega a resposta nem o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pastel, calzone e outros também são salgados de massa dobrada e recheada, então a resposta não é única. Vira múltipla escolha, com a pista de Espanha e América Latina e com distratores de outros países.",
+      "reescrita": {
+        "pergunta": "Que salgado de massa dobrada, comum na Espanha e na América Latina, é este?",
+        "resposta": "Empanada",
+        "distratores": [
+          "Calzone",
+          "Samosa",
+          "Pierogi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto; o enunciado não vaza a resposta e a figura é essencial.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pão italiano achatado' é a definição da focaccia e entrega a resposta sem a figura. Além disso, o distrator 'Pão naan' não é italiano. Muda o enunciado e usa distratores italianos.",
+      "reescrita": {
+        "pergunta": "Qual destes pães italianos é este?",
+        "resposta": "Focaccia",
+        "distratores": [
+          "Ciabatta",
+          "Grissini",
+          "Pão carasau"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Massa folhada' é impreciso: a massa é filo, não folhada. A reescrita descreve a massa em camadas finas e não cita o recheio.",
+      "reescrita": {
+        "pergunta": "Esta torta salgada de massa em camadas finas é de origem de que país?",
+        "resposta": "Grécia",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem francesa confirmada pelos trechos; o enunciado só descreve de forma genérica e não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto; o enunciado não vaza a resposta e a figura é essencial.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bife empanado pode ser a milanesa, que também leva nome de cidade, então a resposta não é única. A reescrita acrescenta vitela e Áustria para fixar o prato.",
+      "reescrita": {
+        "pergunta": "Este bife empanado de vitela, famoso na Áustria, leva o nome de que cidade?",
+        "resposta": "Viena",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coquetel italiano servido como aperitivo, confirmado pelos trechos. Os distratores são coquetéis italianos críveis e nenhum descreve a imagem. O enunciado não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}

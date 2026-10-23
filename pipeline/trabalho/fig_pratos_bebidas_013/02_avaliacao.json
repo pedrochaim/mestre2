@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Sundae de morango em taça, claro e legível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta sobremesa gelada é de origem de que país?",
+      "resposta": "Estados Unidos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sundae",
+        "descricao": "Sobremesa gelada de sorvete coberto com calda e outros acompanhamentos, de origem americana.",
+        "variantes": [
+          "Sundae de morango"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Empanadas assadas bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que salgado de massa dobrada e recheada é este?",
+      "resposta": "Empanada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Empanada",
+        "descricao": "Salgado de massa dobrada sobre um recheio, assado ou frito, comum na Espanha e na América Latina.",
+        "variantes": [
+          "Empanadas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Sopa branca cremosa pouco distintiva, confundível com outras sopas cremosas; não se reconhece como clam chowder."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Gelatina em camadas coloridas, inequívoca.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Gelatina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gelatina",
+        "descricao": "Sobremesa feita com gelatina, que endurece e vira um gel macio e elástico.",
+        "variantes": [
+          "Gelatina colorida",
+          "Jelly",
+          "Jello"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Focaccia com alecrim, reconhecível; múltipla para evitar ambiguidade.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pão italiano achatado é este?",
+      "resposta": "Focaccia",
+      "distratores": [
+        "Ciabatta",
+        "Grissini",
+        "Pão naan"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Focaccia",
+        "descricao": "Pão italiano achatado, fermentado e assado no forno, geralmente com azeite e ervas.",
+        "variantes": [
+          "Focaccia italiana"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torta de massa filo com recheio verde, característica.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta torta de massa folhada é de origem de que país?",
+      "resposta": "Grécia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Spanakopita",
+        "descricao": "Torta grega de massa filo recheada com espinafre, queijo feta e ovos.",
+        "variantes": [
+          "Torta de espinafre grega"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Bolo amarelo de textura comum, confundível com bolo de milho, cornbread e outros; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bola de massa choux com calda de chocolate, legível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta sobremesa de massa leve com calda de chocolate é de origem de que país?",
+      "resposta": "França",
+      "destino": 0,
+      "ancora": {
+        "nome": "Profiterole",
+        "descricao": "Bolinha de massa choux recheada com creme ou sorvete, coberta com calda, de origem francesa.",
+        "variantes": [
+          "Profiteroles",
+          "Chou à la crème",
+          "Bomba de chocolate"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pó verde numa colher, confundível com espirulina, moringa ou outros pós verdes."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Banana split clássico, bem reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Banana split",
+      "destino": 0,
+      "ancora": {
+        "nome": "Banana split",
+        "descricao": "Sobremesa americana de banana aberta ao meio, com bolas de sorvete, caldas, chantilly e cereja.",
+        "variantes": [
+          "Banana royal"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bife empanado com limão e batatas, típico.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este bife empanado leva o nome de que cidade?",
+      "resposta": "Viena",
+      "destino": 0,
+      "ancora": {
+        "nome": "Wiener schnitzel",
+        "descricao": "Bife fino de vitela empanado e frito, especialidade da culinária de Viena e prato nacional da Áustria.",
+        "variantes": [
+          "Schnitzel",
+          "Wienerschnitzel",
+          "Escalope vienense"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Coquetel laranja com fatia de laranja; o texto no copo não nomeia a bebida. Múltipla com parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que coquetel italiano, servido como aperitivo, é este?",
+      "resposta": "Spritz",
+      "distratores": [
+        "Negroni",
+        "Americano",
+        "Bellini"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Spritz",
+        "descricao": "Coquetel italiano à base de espumante prosecco, água com gás e um aperitivo amargo, servido como aperitivo.",
+        "variantes": [
+          "Spritz veneziano",
+          "Aperol spritz"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sundae",
+        "descricao": "Sobremesa gelada de sorvete coberto com calda e outros acompanhamentos, de origem americana.",
+        "variantes": [
+          "Sundae de morango"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saudade",
+          "nome": "Saudade",
+          "descricao": "Palavra portuguesa para o sentimento de falta de alguém ou de algo distante",
+          "variantes": []
+        },
+        {
+          "id": "sauna",
+          "nome": "Sauna",
+          "descricao": "Pequeno cômodo ou construção para banhos de vapor seco, tradição nacional da Finlândia.",
+          "variantes": [
+            "Sauna finlandesa"
+          ]
+        },
+        {
+          "id": "camurca",
+          "nome": "Camurça",
+          "descricao": "Couro de acabamento aveludado, lixado no lado de dentro da pele",
+          "variantes": [
+            "Suede"
+          ]
+        },
+        {
+          "id": "sudan_rinoceronte",
+          "nome": "Sudan (rinoceronte)",
+          "descricao": "Último macho de rinoceronte-branco-do-norte, que viveu na reserva Ol Pejeta, no Quênia.",
+          "variantes": [
+            "Sudan"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Empanada",
+        "descricao": "Salgado de massa dobrada sobre um recheio, assado ou frito, comum na Espanha e na América Latina.",
+        "variantes": [
+          "Empanadas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "empada",
+          "nome": "Empada",
+          "descricao": "Salgado de massa podre assada em forminha, com recheio, popular no Brasil e em Portugal.",
+          "variantes": [
+            "Empadinha"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "chapeu_panama",
+          "nome": "Chapéu-panamá",
+          "descricao": "Chapéu de aba trançado à mão com fibras da palha toquilla.",
+          "variantes": [
+            "Panama hat",
+            "Chapéu de palha toquilla",
+            "Sombrero de paja toquilla",
+            "Panamá"
+          ]
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Gelatina",
+        "descricao": "Sobremesa feita com gelatina, que endurece e vira um gel macio e elástico.",
+        "variantes": [
+          "Gelatina colorida",
+          "Jelly",
+          "Jello"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "violoncelo",
+          "nome": "Violoncelo",
+          "descricao": "Instrumento de cordas friccionadas da família do violino, de som grave, tocado sentado e apoiado no chão por uma ponteira.",
+          "variantes": [
+            "Cello"
+          ]
+        },
+        {
+          "id": "giratina",
+          "nome": "Giratina",
+          "descricao": "Pokémon lendário dos tipos Fantasma e Dragão da quarta geração, mascote de Pokémon Platinum.",
+          "variantes": []
+        },
+        {
+          "id": "laguna_colorada",
+          "nome": "Laguna Colorada",
+          "descricao": "Lago salgado raso e avermelhado do altiplano boliviano, na Reserva Nacional Eduardo Avaroa.",
+          "variantes": [
+            "Laguna Roja",
+            "Red Lagoon"
+          ]
+        },
+        {
+          "id": "joelho",
+          "nome": "Joelho",
+          "descricao": "Articulação da perna humana entre o fêmur e a tíbia, protegida pela patela.",
+          "variantes": [
+            "Articulação do joelho"
+          ]
+        },
+        {
+          "id": "rellor",
+          "nome": "Rellor",
+          "descricao": "Pokémon do tipo Inseto, número 953 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Focaccia",
+        "descricao": "Pão italiano achatado, fermentado e assado no forno, geralmente com azeite e ervas.",
+        "variantes": [
+          "Focaccia italiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gotcha_clipe",
+          "nome": "GOTCHA! (clipe)",
+          "descricao": "Clipe animado de 2020 que relembra as aventuras dos jogos Pokémon, embalado pela música Acacia.",
+          "variantes": [
+            "GOTCHA!",
+            "Acacia"
+          ]
+        },
+        {
+          "id": "bocha_paralimpica",
+          "nome": "Bocha paralímpica",
+          "descricao": "Esporte paralímpico de precisão em que atletas com deficiência motora severa lançam bolas para chegar perto de uma bola-alvo.",
+          "variantes": [
+            "Boccia",
+            "Bocha"
+          ]
+        },
+        {
+          "id": "fibonacci",
+          "nome": "Fibonacci",
+          "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+          "variantes": [
+            "Leonardo de Pisa",
+            "Leonardo Fibonacci",
+            "Leonardo Pisano"
+          ]
+        },
+        {
+          "id": "lingua_italiana",
+          "nome": "Língua italiana",
+          "descricao": "Língua românica oficial da Itália, de San Marino e de parte da Suíça.",
+          "variantes": [
+            "Italiano"
+          ]
+        },
+        {
+          "id": "abobrinha",
+          "nome": "Abobrinha",
+          "descricao": "Fruto alongado e verde da abobrinha, Cucurbita pepo var. cylindrica, colhido imaturo.",
+          "variantes": [
+            "Abobrinha italiana",
+            "Zucchini",
+            "Courgette"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Spanakopita",
+        "descricao": "Torta grega de massa filo recheada com espinafre, queijo feta e ovos.",
+        "variantes": [
+          "Torta de espinafre grega"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panna_cotta",
+          "nome": "Panna cotta",
+          "descricao": "Sobremesa italiana de creme de leite adoçado, endurecido com gelatina e desenformado.",
+          "variantes": [
+            "Panacota"
+          ]
+        },
+        {
+          "id": "tragedia",
+          "nome": "Tragédia",
+          "descricao": "Gênero teatral nascido na Grécia Antiga, centrado no sofrimento e na queda de um herói.",
+          "variantes": [
+            "Tragédia grega",
+            "Tragedy"
+          ]
+        },
+        {
+          "id": "paquistao",
+          "nome": "Paquistão",
+          "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+          "variantes": [
+            "Pakistan"
+          ]
+        },
+        {
+          "id": "parasita",
+          "nome": "Parasita",
+          "descricao": "Filme sul-coreano de 2019 dirigido por Bong Joon-ho, sobre uma família pobre que se infiltra numa família rica.",
+          "variantes": [
+            "Gisaengchung",
+            "Parasite"
+          ]
+        },
+        {
+          "id": "sanscrito",
+          "nome": "Sânscrito",
+          "descricao": "Língua clássica da Índia antiga, usada nos textos sagrados do hinduísmo, do budismo e do jainismo.",
+          "variantes": [
+            "Sanskrit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Profiterole",
+        "descricao": "Bolinha de massa choux recheada com creme ou sorvete, coberta com calda, de origem francesa.",
+        "variantes": [
+          "Profiteroles",
+          "Chou à la crème",
+          "Bomba de chocolate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cavalo_de_pau_bomba_de_petroleo",
+          "nome": "Cavalo de pau (bomba de petróleo)",
+          "descricao": "Equipamento de superfície que aciona a bomba de vareta de sucção para elevar petróleo de poços terrestres.",
+          "variantes": [
+            "Bomba de petróleo",
+            "Pumpjack",
+            "Cavalo-de-pau",
+            "Bomba de vareta de sucção"
+          ]
+        },
+        {
+          "id": "cookie_com_gotas_de_chocolate",
+          "nome": "Cookie com gotas de chocolate",
+          "descricao": "Biscoito americano com pedaços de chocolate, criado nos anos 1930 no restaurante Toll House, em Massachusetts.",
+          "variantes": [
+            "Chocolate chip cookie",
+            "Toll House cookie",
+            "Cookie"
+          ]
+        },
+        {
+          "id": "passagem_de_drake",
+          "nome": "Passagem de Drake",
+          "descricao": "Trecho de mar entre o cabo Horn, no sul da América do Sul, e a península Antártica.",
+          "variantes": [
+            "Estreito de Drake",
+            "Mar de Hoces"
+          ]
+        },
+        {
+          "id": "chocolate",
+          "nome": "Chocolate",
+          "descricao": "Alimento feito das sementes fermentadas e torradas do cacau, consumido originalmente como bebida na Mesoamérica.",
+          "variantes": [
+            "Xocolatl"
+          ]
+        },
+        {
+          "id": "chocolate_branco",
+          "nome": "Chocolate branco",
+          "descricao": "Doce de cor marfim feito de açúcar, leite e manteiga de cacau, sem os sólidos escuros do cacau.",
+          "variantes": [
+            "White chocolate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Banana split",
+        "descricao": "Sobremesa americana de banana aberta ao meio, com bolas de sorvete, caldas, chantilly e cereja.",
+        "variantes": [
+          "Banana royal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_do_bananal",
+          "nome": "Ilha do Bananal",
+          "descricao": "Grande ilha fluvial no estado do Tocantins, formada pela bifurcação do rio Araguaia com o braço do Javaés.",
+          "variantes": [
+            "Bananal Island",
+            "Bananal"
+          ]
+        },
+        {
+          "id": "cambacica",
+          "nome": "Cambacica",
+          "descricao": "Pequena ave nectarívora de peito amarelo e sobrancelha branca, Coereba flaveola.",
+          "variantes": [
+            "Coereba flaveola",
+            "Bananaquit",
+            "Sebinho"
+          ]
+        },
+        {
+          "id": "bts",
+          "nome": "BTS",
+          "descricao": "Grupo sul-coreano de K-pop formado em Seul em 2013",
+          "variantes": [
+            "Bangtan Boys",
+            "Bangtan Sonyeondan"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Wiener schnitzel",
+        "descricao": "Bife fino de vitela empanado e frito, especialidade da culinária de Viena e prato nacional da Áustria.",
+        "variantes": [
+          "Schnitzel",
+          "Wienerschnitzel",
+          "Escalope vienense"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "campo_de_concentracao_de_auschwitz",
+          "nome": "Campo de concentração de Auschwitz",
+          "descricao": "Complexo de campos de concentração e extermínio construído pela Alemanha nazista na Polônia ocupada.",
+          "variantes": [
+            "Auschwitz",
+            "Auschwitz-Birkenau"
+          ]
+        },
+        {
+          "id": "chita",
+          "nome": "Chita",
+          "descricao": "Tecido barato de algodão com estampas florais coloridas, tradicional no Brasil",
+          "variantes": [
+            "Chitão",
+            "Chintz"
+          ]
+        },
+        {
+          "id": "sao_vicente",
+          "nome": "São Vicente",
+          "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+          "variantes": [
+            "São Vicente (São Paulo)",
+            "Vila de São Vicente"
+          ]
+        },
+        {
+          "id": "chicote",
+          "nome": "Chicote",
+          "descricao": "Instrumento flexível de couro ou corda cujo estalo é um pequeno estrondo sônico.",
+          "variantes": [
+            "Whip"
+          ]
+        },
+        {
+          "id": "tunel_do_canal_da_mancha",
+          "nome": "Túnel do Canal da Mancha",
+          "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994.",
+          "variantes": [
+            "Eurotúnel",
+            "Channel Tunnel",
+            "Chunnel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Spritz",
+        "descricao": "Coquetel italiano à base de espumante prosecco, água com gás e um aperitivo amargo, servido como aperitivo.",
+        "variantes": [
+          "Spritz veneziano",
+          "Aperol spritz"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "spritzee",
+          "nome": "Spritzee",
+          "descricao": "Pokémon do tipo Fada da sexta geração, número 682 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sprite",
+          "nome": "Sprite",
+          "descricao": "Refrigerante incolor de limão da Coca-Cola, lançado nos Estados Unidos em 1961.",
+          "variantes": []
+        },
+        {
+          "id": "mesprit",
+          "nome": "Mesprit",
+          "descricao": "Pokémon do tipo Psíquico, número 481 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mark_spitz",
+          "nome": "Mark Spitz",
+          "descricao": "Nadador americano, nove vezes campeão olímpico, sete delas em Munique 1972.",
+          "variantes": [
+            "Mark Andrew Spitz"
+          ]
+        },
+        {
+          "id": "rede_integrada_de_transporte",
+          "nome": "Rede Integrada de Transporte",
+          "descricao": "Sistema de ônibus de Curitiba com canaletas exclusivas e estações-tubo, referência mundial em corredores expressos.",
+          "variantes": [
+            "RIT",
+            "Ligeirinho"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a sobremesa sundae."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Empanada difere de empada (outro salgado)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a sobremesa de gelatina."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pão focaccia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a spanakopita."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o profiterole."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Banana split é sobremesa, diferente da fruta banana."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o wiener schnitzel."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Spritz é coquetel; candidatas são entidades diferentes."
+    }
+  ]
+}
