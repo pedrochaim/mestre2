@@ -684,9 +684,10 @@
     "fig_tecnologia_003",
     "fig_anatomia_003",
     "fig_musica_brasileira_001",
-    "fig_tecnologia_004"
+    "fig_tecnologia_004",
+    "fig_musica_brasileira_002"
   ],
-  "maior_id": 14868,
+  "maior_id": 14875,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1377,13 +1378,15 @@
     },
     "musica_brasileira": {
       "familias": {
-        "o_que_e": 5
+        "o_que_e": 8,
+        "com_o_que_se_liga": 4
       },
       "niveis": {
-        "1": 3,
-        "2": 2
+        "1": 6,
+        "2": 5,
+        "3": 1
       },
-      "registradas": 5
+      "registradas": 12
     }
   },
   "rendimento": {

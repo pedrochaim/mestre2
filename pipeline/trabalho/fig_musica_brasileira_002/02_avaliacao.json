@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto de corpo inteiro, cantora reconhecível; o fundo só diz o nome do prêmio, sem entregar a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que apelido, que é o nome de uma cor, esta cantora recebeu?",
+      "resposta": "Marrom",
+      "distratores": [
+        "Verde",
+        "Azulão",
+        "Branca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alcione",
+        "descricao": "Cantora e sambista brasileira nascida em São Luís, conhecida como Marrom e Dama do Samba.",
+        "variantes": [
+          "Alcione Dias Nazareth",
+          "Marrom"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido, fundo neutro e sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Com que banda de rock este cantor e poeta começou a carreira, nos anos oitenta?",
+      "resposta": "Titãs",
+      "distratores": [
+        "Paralamas do Sucesso",
+        "Legião Urbana",
+        "Ultraje a Rigor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arnaldo Antunes",
+        "descricao": "Cantor, compositor e poeta brasileiro, ex-integrante dos Titãs e dos Tribalistas.",
+        "variantes": [
+          "Arnaldo Augusto Nora Antunes Filho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Captura de tela de vídeo, com recorte apertado e qualidade baixa; a pessoa não é reconhecível com segurança pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de figura pública; usa múltipla escolha porque o rosto é menos emblemático.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Que cantor e compositor cearense é este?",
+      "resposta": "Fagner",
+      "distratores": [
+        "Alceu Valença",
+        "Zé Ramalho",
+        "Geraldo Azevedo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fagner",
+        "descricao": "Cantor e compositor cearense nascido em Orós, de nome Raimundo Fagner Cândido Lopes.",
+        "variantes": [
+          "Raimundo Fagner",
+          "Raimundo Fagner Cândido Lopes"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A foto mostra duas pessoas, e não fica claro qual delas é o Nelson Cavaquinho; a resposta não é única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida de corpo inteiro, cantor famoso e reconhecível; o fundo só traz o nome do prêmio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cantor e guitarrista brasileiro é este?",
+      "resposta": "Lulu Santos",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lulu Santos",
+        "descricao": "Cantor e guitarrista brasileiro do pop rock, nascido no Rio de Janeiro em 1953.",
+        "variantes": [
+          "Luiz Maurício Pragana dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de show nítida; ele toca um instrumento de cordas e a imagem não traz texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de pagode este sambista pertenceu na sua formação mais importante?",
+      "resposta": "Fundo de Quintal",
+      "distratores": [
+        "Exaltasamba",
+        "Raça Negra",
+        "Art Popular"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arlindo Cruz",
+        "descricao": "Sambista e compositor brasileiro do pagode, integrante do grupo Fundo de Quintal.",
+        "variantes": [
+          "Arlindo Domingos da Cruz Filho"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato antigo nítido, sem texto; compositor do século dezenove reconhecido pela múltipla escolha com contemporâneos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor brasileiro de ópera do século dezenove é este?",
+      "resposta": "Carlos Gomes",
+      "distratores": [
+        "Alberto Nepomuceno",
+        "Henrique Oswald",
+        "Leopoldo Miguez"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carlos Gomes",
+        "descricao": "Compositor brasileiro de ópera, nascido em Campinas em 1836, autor de Il Guarany.",
+        "variantes": [
+          "Antônio Carlos Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, de cantora famosa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que gênero musical esta cantora levou ao sucesso nacional nos anos noventa?",
+      "resposta": "Axé",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Daniela Mercury",
+        "descricao": "Cantora baiana de axé music, nascida em 1965, autora de O Canto da Cidade.",
+        "variantes": [
+          "Daniela Mercuri de Almeida"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato frontal sem texto, de figura pública; a resolução é baixa mas o rosto é legível, e a múltipla escolha ajuda.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cantor brasileiro, de voz grave, é este?",
+      "resposta": "Cauby Peixoto",
+      "distratores": [
+        "Agnaldo Timóteo",
+        "Altemar Dutra",
+        "Nelson Gonçalves"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cauby Peixoto",
+        "descricao": "Cantor brasileiro de voz grave e visual extravagante, com carreira de 1940 a 2016.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto de capa de disco, com cabelo comprido, que não distingue o artista de outros; não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Instrumento bem visível, com pele e platinelas; só aparecem mãos, sem rosto e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de percussão típico do samba e do choro é este?",
+      "resposta": "Pandeiro",
+      "distratores": [
+        "Tamborim",
+        "Repique de mão",
+        "Atabaque"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pandeiro",
+        "descricao": "Instrumento de percussão brasileiro, tambor de moldura com platinelas, usado no samba e no choro.",
+        "variantes": []
+      }
+    }
+  ]
+}
