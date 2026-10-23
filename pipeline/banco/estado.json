@@ -687,9 +687,10 @@
     "fig_tecnologia_004",
     "fig_musica_brasileira_002",
     "fig_anatomia_004",
-    "fig_anime_manga_002"
+    "fig_anime_manga_002",
+    "fig_tecnologia_005"
   ],
-  "maior_id": 14892,
+  "maior_id": 14897,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1355,16 +1356,17 @@
     },
     "tecnologia": {
       "familias": {
-        "o_que_e": 11,
+        "o_que_e": 15,
         "com_o_que_se_liga": 1,
-        "quando": 1
+        "quando": 1,
+        "que_tipo": 1
       },
       "niveis": {
-        "2": 4,
-        "1": 8,
+        "2": 8,
+        "1": 9,
         "3": 1
       },
-      "registradas": 13
+      "registradas": 18
     },
     "videogames": {
       "familias": {

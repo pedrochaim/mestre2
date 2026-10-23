@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o aparelho; 'de sala de aula' só ajuda. Distratores do mesmo tipo e nenhum correto para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores são componentes distintos e plausíveis, nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado neutro, resposta única. Distratores são outros dispositivos de vidro/vácuo, nenhum correto para a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Encolhendo ao longo dos anos' não está nos trechos e também vale para cartões de memória (SD, miniSD, microSD), então a pista não é segura. Troquei por algo que se vê na figura.",
+      "reescrita": {
+        "pergunta": "Que cartão de chip é este, mostrado aqui em três tamanhos diferentes?",
+        "resposta": "Cartão SIM"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pelo modo como se apoia na cabeça' é impreciso: a diferença entre circumaural e supra-aural está na posição das conchas em relação à orelha. Usei também a grafia dos trechos.",
+      "reescrita": {
+        "pergunta": "Que tipo de fone de ouvido é este, pelo modo como as conchas se posicionam em relação à orelha?",
+        "resposta": "Circumaural",
+        "distratores": [
+          "Intra-auricular",
+          "Condução óssea",
+          "Supra-aural"
+        ]
+      }
+    }
+  ]
+}

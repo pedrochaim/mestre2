@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Marca e modelo (Shure SM58) legíveis no corpo; além disso a imagem não rende pergunta de 'quando' sem ambiguidade."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A tela mostra 'The Macintosh Finder' e o logo da Apple, entregando a resposta; a tela ainda indica 512K, não 128K."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Texto legível na imagem: 'IBM 2050' e 'System 360' no painel entregam a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Texto visível ('Floppy Disk 5,25 HD,DS', 'BASF') entrega a resposta, e a imagem mostra três formatos diferentes."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retroprojetor em uso numa sala de aula, claro e sem texto que entregue a resposta.",
+      "pergunta": "Que aparelho de sala de aula é este?",
+      "tipo": "multipla",
+      "resposta": "Retroprojetor",
+      "distratores": [
+        "Projetor de slides",
+        "Epidiascópio",
+        "Lanterna mágica"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Retroprojetor",
+        "descricao": "Aparelho que projeta numa tela o conteúdo de folhas transparentes colocadas sobre uma superfície de vidro iluminada.",
+        "variantes": [
+          "Projetor de transparências",
+          "Overhead projector"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Relé eletromecânico aberto, com bobina e contatos bem visíveis e sem texto.",
+      "pergunta": "Que componente eletromecânico é este?",
+      "tipo": "multipla",
+      "resposta": "Relé",
+      "distratores": [
+        "Solenoide",
+        "Transformador",
+        "Bobina de ignição"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Relé",
+        "descricao": "Interruptor elétrico acionado por um eletroímã, que abre ou fecha contatos.",
+        "variantes": [
+          "Relay",
+          "Relê"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Logotipo Dell visível, e o teclado é fácil demais; a imagem não rende pergunta de 'quando' justa."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tubo de raios catódicos isolado, com canhão de elétrons e tela fosforescente, sem texto.",
+      "pergunta": "Que componente é este?",
+      "tipo": "multipla",
+      "resposta": "Tubo de raios catódicos",
+      "distratores": [
+        "Válvula termiônica",
+        "Tubo Geiger-Müller",
+        "Lâmpada incandescente"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Tubo de raios catódicos",
+        "descricao": "Tubo de vácuo com canhão de elétrons que forma imagens numa tela fosforescente.",
+        "variantes": [
+          "CRT",
+          "Cathode ray tube"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A placa do museu na frente do computador traz 'Xerox Alto' e o texto fica legível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Três tamanhos de cartão SIM com chip dourado, sem texto algum.",
+      "pergunta": "Que cartão é este, que foi encolhendo ao longo dos anos?",
+      "tipo": "aberta",
+      "resposta": "Cartão SIM",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cartão SIM",
+        "descricao": "Cartão com chip que armazena a identidade do assinante de telefonia móvel, mostrado em três tamanhos.",
+        "variantes": [
+          "SIM card",
+          "Chip do celular",
+          "Subscriber identity module"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fone de ouvido grande, fechado, sem texto legível; a pergunta pede o tipo, não só o nome.",
+      "pergunta": "Que tipo de fone de ouvido é este, pelo modo como se apoia na cabeça?",
+      "tipo": "multipla",
+      "resposta": "Circum-auricular",
+      "distratores": [
+        "Intra-auricular",
+        "Condução óssea",
+        "Supra-auricular"
+      ],
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Fone de ouvido",
+        "descricao": "Par de pequenos alto-falantes usados junto aos ouvidos, aqui com conchas que envolvem a orelha e arco na cabeça.",
+        "variantes": [
+          "Headphones",
+          "Auscultadores",
+          "Headphone"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, ilegível num celular; a tela mostra texto ('ALERTE NIVEAU 2')."
+    }
+  ]
+}

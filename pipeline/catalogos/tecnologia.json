@@ -5,7 +5,7 @@
       "titulo": "en:Floppy disk",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fita cassete",
@@ -103,7 +103,7 @@
       "titulo": "en:Macintosh 128K",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Motorola DynaTAC",
@@ -145,7 +145,7 @@
       "titulo": "en:Cathode-ray tube",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Modem",
@@ -159,7 +159,7 @@
       "titulo": "en:Pager",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Apple II",
@@ -243,7 +243,7 @@
       "titulo": "en:Xerox Alto",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Osborne 1",
@@ -320,7 +320,7 @@
       "titulo": "en:SIM card",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Antena parabólica",
@@ -334,21 +334,21 @@
       "titulo": "en:Microphone",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Fone de ouvido",
       "titulo": "en:Headphones",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Teclado de computador",
       "titulo": "en:Computer keyboard",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Painel solar",
@@ -439,14 +439,14 @@
       "titulo": "en:Overhead projector",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cartucho de videogame",
       "titulo": "en:ROM cartridge",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Pilha de botão",
@@ -502,7 +502,7 @@
       "titulo": "en:IBM System/360",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Placa de ensaio (protoboard)",
@@ -516,7 +516,7 @@
       "titulo": "en:Relay",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Display de sete segmentos",
@@ -551,7 +551,7 @@
       "titulo": "en:Crystal radio",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Galvanômetro",
