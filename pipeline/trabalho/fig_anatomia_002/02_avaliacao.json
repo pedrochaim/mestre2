@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração 3D limpa, sem texto, com o músculo em vermelho.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que músculo do braço aparece destacado em vermelho nesta figura?",
+      "resposta": "Bíceps braquial",
+      "distratores": [
+        "Tríceps braquial",
+        "Deltoide",
+        "Peitoral maior"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bíceps braquial",
+        "descricao": "Músculo da frente do braço, com duas cabeças, que flexiona o cotovelo.",
+        "variantes": [
+          "Bíceps",
+          "Músculo bíceps braquial"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Figura clara, sem texto, osso em vermelho; resposta única (tíbia).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este osso da perna, destacado em vermelho, é vizinho de qual outro osso, ao qual se liga em cima e embaixo?",
+      "resposta": "Tíbia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fíbula",
+        "descricao": "Osso fino e longo na face lateral da perna, ao lado da tíbia.",
+        "variantes": [
+          "Perônio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto de microscópio nítida, sem texto; forma típica de rotífero.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal microscópico de água doce é este?",
+      "resposta": "Rotífero",
+      "distratores": [
+        "Paramécio",
+        "Tardígrado",
+        "Dáfnia"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rotífero",
+        "descricao": "Filo de animais microscópicos, comuns em água doce, com coroa de cílios na cabeça.",
+        "variantes": [
+          "Rotifera",
+          "Rotíferos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Legendas em inglês (Stomach, Esophagus, Pylorus etc.) entregam a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Diagrama numerado que mostra núcleo, retículo e Golgi juntos; vários assuntos e resposta ambígua."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Figura sem texto, músculo trapézio em três cores, reconhecível pela forma.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que músculo das costas aparece destacado em três cores nesta figura?",
+      "resposta": "Trapézio",
+      "distratores": [
+        "Latíssimo do dorso",
+        "Romboide",
+        "Deltoide"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Músculo trapézio",
+        "descricao": "Músculo superficial em forma de trapézio, do occipital às vértebras torácicas e à escápula.",
+        "variantes": [
+          "Trapézio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Ilustração mistura núcleo, retículo e Golgi; a entidade não é única nem clara."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Ilustração estilizada, parecida com ameba ou outras células brancas; não é reconhecível como macrófago."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de legendas que entregam a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto de peça cirúrgica sobre papel, com régua; as glândulas não são reconhecíveis pela imagem."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Prancha com texto (títulos, nomes dos gêneros) e muitas espécies numeradas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto de microscópio sem texto, com corpo tubular e tentáculos característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pequeno animal de água doce, visto ao microscópio, é este?",
+      "resposta": "Hidra",
+      "distratores": [
+        "Água-viva",
+        "Anêmona-do-mar",
+        "Planária"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Hidra",
+        "descricao": "Gênero de pequenos cnidários de água doce, com corpo tubular e tentáculos, capazes de regenerar o corpo.",
+        "variantes": [
+          "Hydra"
+        ]
+      }
+    }
+  ]
+}
