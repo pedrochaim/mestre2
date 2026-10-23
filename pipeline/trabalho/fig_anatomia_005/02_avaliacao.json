@@ -1,0 +1,144 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ilustração anatômica antiga (Gray) da pelve com vértebra e fêmures. O único texto, 'Lacunar ligament', não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estrutura óssea do esqueleto humano é esta?",
+      "resposta": "Pelve (bacia)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Pelve",
+        "descricao": "Estrutura óssea na base do tronco, formada pelo sacro, pelo cóccix e pelos dois ossos do quadril.",
+        "variantes": [
+          "Bacia",
+          "Pelve óssea",
+          "Cintura pélvica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem está cheia de legendas em inglês (Fallopian tube, Ovarian artery, Uterine veins etc.) que entregam a resposta. É um diagrama com muito texto."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Render 3D de um crânio translúcido com o esfenoide em destaque. Não tem texto e o formato de asas é reconhecível.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este osso, destacado no crânio, é um dos sete que formam qual cavidade onde ficam os olhos?",
+      "resposta": "Órbita",
+      "distratores": [],
+      "ancora": {
+        "nome": "Osso esfenoide",
+        "descricao": "Osso ímpar e alado no meio da base do crânio, à frente do occipital, que participa da formação da órbita.",
+        "variantes": [
+          "Esfenoide",
+          "Osso esfenoidal"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É um diagrama cheio de legendas em inglês (Posterior gray horn, Dorsal root etc.) e tem título escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É um desenho digital roxo e abstrato de bastonetes, sem detalhe de microscópio. Não permite reconhecer o bacilo de Koch e é confundível com qualquer outra bactéria em bastonete."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de microscópio de um filamento de alga com cloroplastos em hélice, característico e sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que alga verde filamentosa de água doce é esta, vista ao microscópio?",
+      "resposta": "Espirogira (Spirogyra)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Espirogira",
+        "descricao": "Gênero de algas verdes filamentosas de água doce, com cloroplastos dispostos em espiral.",
+        "variantes": [
+          "Spirogyra",
+          "Seda-d'água"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "É uma prancha de Haeckel com vários líquens de formas diferentes, ou seja, uma montagem de várias espécies sem um assunto único claro."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Render 3D dos músculos gastrocnêmios em vermelho, visto por trás. Não tem texto e a forma é reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este músculo, visto por trás, termina no calcanhar por meio de que tendão?",
+      "resposta": "Tendão de Aquiles (tendão do calcâneo)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Músculo gastrocnêmio",
+        "descricao": "Músculo superficial de duas cabeças na parte posterior da perna, que forma o volume da panturrilha.",
+        "variantes": [
+          "Gastrocnêmio",
+          "Músculo da panturrilha",
+          "Gêmeos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Render 3D do cérebro com o tálamo em vermelho em vista lateral e frontal, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estrutura do cérebro aparece em vermelho nesta figura?",
+      "resposta": "Tálamo",
+      "distratores": [
+        "Hipocampo",
+        "Hipotálamo",
+        "Núcleo caudado"
+      ],
+      "ancora": {
+        "nome": "Tálamo",
+        "descricao": "Grande massa de substância cinzenta do diencéfalo que retransmite sinais sensoriais e motores ao córtex cerebral.",
+        "variantes": [
+          "Tálamo cerebral"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A foto é borrada e mostra um embrião ou feto dentro de um saco. Não se sabe se é embrião ou feto, e o tema é sensível. A resposta não é única nem clara."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É uma macrofoto de uma lesão na pele em que a pulga fêmea não é reconhecível pela imagem. Mostra pele de pessoa comum e a resposta não é única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A colônia tem pedúnculos ramificados e não se vê o corpo em sino típico nem a contração em mola. Lembra mais Carchesium ou Epistylis que Vorticella, então a resposta não é única."
+    }
+  ]
+}

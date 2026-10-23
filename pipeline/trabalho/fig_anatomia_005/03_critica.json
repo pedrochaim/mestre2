@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direta, sem pista que entregue a resposta. Os trechos confirmam que pelve e bacia são sinônimos, e o parêntese é apropriado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cavidade onde ficam os olhos' é a definição de órbita, então dá para responder com a imagem coberta. A figura virou enfeite e o enunciado nem pede para reconhecer o osso. Reescrevi como reconhecimento do osso, em múltipla escolha com distratores do mesmo tipo.",
+      "reescrita": {
+        "pergunta": "Que osso da base do crânio aparece destacado nesta figura?",
+        "resposta": "Esfenoide",
+        "distratores": [
+          "Etmoide",
+          "Occipital",
+          "Temporal"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As pistas (alga verde filamentosa de água doce) não bastam para identificar o gênero. A espiral dos cloroplastos, vista na figura, é que distingue. Os trechos confirmam a descrição.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Termina no calcanhar' leva quase direto ao tendão de Aquiles sem olhar a figura. O sóleo também termina nesse tendão, então a resposta não depende do músculo mostrado. Reescrevi como reconhecimento do músculo, em múltipla escolha.",
+      "reescrita": {
+        "pergunta": "Que músculo da perna, visto por trás, aparece nesta figura?",
+        "resposta": "Gastrocnêmio",
+        "distratores": [
+          "Sóleo",
+          "Tibial anterior",
+          "Bíceps femoral"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são estruturas cerebrais críveis, com no máximo 4 palavras, e nenhum deles é correto.",
+      "reescrita": null
+    }
+  ]
+}
