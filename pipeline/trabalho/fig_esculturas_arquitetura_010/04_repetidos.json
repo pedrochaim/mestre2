@@ -1,0 +1,202 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico predomina nesta catedral, com suas duas torres de agulhas?",
+        "resposta": "Neogótico"
+      },
+      "existentes": [
+        {
+          "id": "q09518",
+          "pergunta": "Em que cidade brasileira fica esta catedral neogótica?",
+          "resposta": "São Paulo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que cidade espanhola fica este aqueduto romano?",
+        "resposta": "Segóvia"
+      },
+      "existentes": [
+        {
+          "id": "q13336",
+          "pergunta": "O aqueduto romano de Segóvia, na Espanha, tem milhares de blocos de granito. O que é notável na forma como esses blocos se mantêm de pé?",
+          "resposta": "Não há argamassa entre eles"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica esta ponte sobre um lago?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q06687",
+          "pergunta": "Que presidente dá nome a esta ponte?",
+          "resposta": "Juscelino Kubitschek"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Este relógio astronômico medieval, preso a uma prefeitura, fica em que capital europeia?",
+        "resposta": "Praga"
+      },
+      "existentes": [
+        {
+          "id": "q02038",
+          "pergunta": "No relógio astronômico medieval de Praga, qual figura puxa a corda do sino quando as horas batem?",
+          "resposta": "Um esqueleto"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que estilo arquitetônico tem este arranha-céu?",
+        "resposta": "Art Déco"
+      },
+      "existentes": [
+        {
+          "id": "q07442",
+          "pergunta": "Em que ano foi concluído este arranha-céu?",
+          "resposta": "1931"
+        },
+        {
+          "id": "q07506",
+          "pergunta": "Inaugurado em Nova York em 1931, que arranha-céu foi o prédio mais alto do mundo por mais de quarenta anos?",
+          "resposta": "Empire State Building"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que cidade americana fica esta torre de observação?",
+        "resposta": "Seattle"
+      },
+      "existentes": [
+        {
+          "id": "q05438",
+          "pergunta": "A Space Needle, torre futurista com disco no topo, em Seattle, foi construída para a Feira Mundial de qual ano?",
+          "resposta": "1962"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que escultura grega helenística em bronze é esta?",
+        "resposta": "Pugilista em Repouso"
+      },
+      "existentes": [
+        {
+          "id": "q14336",
+          "pergunta": "Em que cidade foi desenterrada, em 1885, esta estátua grega de bronze?",
+          "resposta": "Roma"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Esta máscara funerária egípcia cobria a múmia de que faraó?",
+        "resposta": "Tutancâmon"
+      },
+      "existentes": [
+        {
+          "id": "q13649",
+          "pergunta": "Na máscara funerária de ouro de Tutancâmon, as sobrancelhas e o contorno dos olhos são incrustados com qual pedra azul-escura?",
+          "resposta": "Lápis-lazúli"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A base desta torre sineira foi construída como minarete de uma grande mesquita medieval. Que dinastia a ergueu?",
+        "resposta": "Almóada"
+      },
+      "existentes": [
+        {
+          "id": "q11614",
+          "pergunta": "Antes de virar o campanário da Catedral de Sevilha, a torre da Giralda foi construída no século doze para servir de quê?",
+          "resposta": "Minarete de uma mesquita"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este teatro de estrutura metálica e teto transparente?",
+        "resposta": "Curitiba"
+      },
+      "existentes": [
+        {
+          "id": "q02035",
+          "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+          "resposta": "Curitiba"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estilo arquitetônico vs cidade: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Cidade vs ausência de argamassa: fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade vs presidente homônimo: fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cidade do relógio vs figura que puxa o sino: fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estilo vs ano/nome do prédio: fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A existente já cita Seattle no enunciado, mas pergunta o ano; a nova pergunta a cidade, fato diferente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nome da escultura vs cidade da descoberta: fatos diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Faraó vs pedra incrustada: fatos diferentes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Dinastia construtora vs função original (minarete): fatos diferentes, embora o enunciado novo revele o minarete."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "id_existente": "q02035",
+      "motivo": "Ambas perguntam a cidade (Curitiba) do mesmo teatro."
+    }
+  ]
+}

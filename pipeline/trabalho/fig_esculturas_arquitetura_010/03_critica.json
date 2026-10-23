@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Neogótico confirmado pelos trechos (predomina claramente o neogótico, duas altas torres). O enunciado não vaza e os distratores são estilos do mesmo tipo e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aqueduto romano em Segóvia, confirmado. A figura decide entre os aquedutos romanos da Espanha. Os distratores são cidades espanholas de origem romana e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponte JK sobre o Lago Paranoá, em Brasília, confirmado. Nível 1, aberta, e o enunciado não nomeia a cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A figura mostra o relógio preso à prefeitura, não uma torre com relógio na base, então o enunciado pode não valer para a foto. Corrigi para o relógio. Troquei Cracóvia, que não é capital, por Varsóvia, para manter distratores da mesma categoria.",
+      "reescrita": {
+        "pergunta": "Este relógio astronômico medieval, preso a uma prefeitura, fica em que capital europeia?",
+        "resposta": "Praga",
+        "distratores": [
+          "Viena",
+          "Budapeste",
+          "Varsóvia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Art Déco confirmado pelos trechos. Os distratores são estilos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Space Needle fica em Seattle, confirmado. O enunciado só dá a categoria, e os distratores são cidades americanas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boxer at Rest é uma escultura helenística em bronze, confirmado. O enunciado não vaza o nome e os distratores são esculturas antigas conhecidas, diferentes da resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'máscara funerária de ouro' já remete a Tutancâmon, então a figura vira enfeite. Tirei 'de ouro' e usei 'egípcia', que ajuda sem entregar. O fato (máscara de Tutancâmon) está confirmado pelos trechos.",
+      "reescrita": {
+        "pergunta": "Esta máscara funerária egípcia cobria a múmia de que faraó?",
+        "resposta": "Tutancâmon",
+        "distratores": [
+          "Ramsés II",
+          "Akhenaton",
+          "Seti I"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Só a parte inferior da Giralda foi erguida como minarete. O topo é um campanário renascentista acrescentado pelos católicos, então 'esta torre foi erguida como minarete' não é literalmente verdadeiro. Corrigi a afirmação. A dinastia almóada está confirmada pelo trecho.",
+      "reescrita": {
+        "pergunta": "A base desta torre sineira foi construída como minarete de uma grande mesquita medieval. Que dinastia a ergueu?",
+        "resposta": "Almóada",
+        "distratores": [
+          "Omíada",
+          "Nasrida",
+          "Almorávida"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ópera de Arame fica em Curitiba, confirmado. A estrutura é de tubos de aço com policarbonato transparente. O enunciado não vaza e os distratores são capitais do Sul e Sudeste.",
+      "reescrita": null
+    }
+  ]
+}

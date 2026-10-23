@@ -1,0 +1,247 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida, reconhecível, sem texto. Pergunta sobre o estilo, que exige conhecimento além do nome.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico predomina nesta catedral, com suas duas torres de agulhas?",
+      "resposta": "Neogótico",
+      "distratores": [
+        "Barroco",
+        "Neoclássico",
+        "Românico"
+      ],
+      "ancora": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica da arquidiocese de São Paulo, na Praça da Sé.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Catedral de Nossa Senhora da Assunção e São Paulo",
+          "Sé de São Paulo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Aqueduto romano em primeiro plano, bem legível. Aprovado com pergunta de cidade e distratores de cidades espanholas com vestígios romanos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade espanhola fica este aqueduto romano?",
+      "resposta": "Segóvia",
+      "distratores": [
+        "Mérida",
+        "Tarragona",
+        "Toledo"
+      ],
+      "ancora": {
+        "nome": "Aqueduto de Segóvia",
+        "descricao": "Aqueduto romano do século I com arcada de 167 arcos, símbolo da cidade espanhola de Segóvia.",
+        "variantes": [
+          "Acueducto de Segovia",
+          "Aqueduto romano de Segóvia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida dos três arcos assimétricos, sem texto, muito característica.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade brasileira fica esta ponte sobre um lago?",
+      "resposta": "Brasília",
+      "ancora": {
+        "nome": "Ponte JK",
+        "descricao": "Ponte de arcos de aço e concreto sobre o Lago Paranoá, em Brasília, inaugurada em 2002.",
+        "variantes": [
+          "Ponte Juscelino Kubitschek"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Torre da Prefeitura da Cidade Velha com o relógio astronômico visível, sem texto legível que entregue a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade europeia fica esta torre com um relógio medieval na base?",
+      "resposta": "Praga",
+      "distratores": [
+        "Viena",
+        "Budapeste",
+        "Cracóvia"
+      ],
+      "ancora": {
+        "nome": "Relógio Astronômico de Praga",
+        "descricao": "Relógio astronômico medieval preso à Prefeitura da Cidade Velha de Praga.",
+        "variantes": [
+          "Orloj de Praga",
+          "Pražský orloj"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea com a silhueta inconfundível do prédio, sem texto.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estilo arquitetônico tem este arranha-céu?",
+      "resposta": "Art Déco",
+      "distratores": [
+        "Brutalista",
+        "Neogótico",
+        "Pós-moderno"
+      ],
+      "ancora": {
+        "nome": "Empire State Building",
+        "descricao": "Arranha-céu Art Déco de 102 andares em Midtown Manhattan, Nova York, concluído em 1931.",
+        "variantes": [
+          "Empire State"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Torre em contra-plongée, forma inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade americana fica esta torre de observação?",
+      "resposta": "Seattle",
+      "distratores": [
+        "Portland",
+        "São Francisco",
+        "Chicago"
+      ],
+      "ancora": {
+        "nome": "Space Needle",
+        "descricao": "Torre de observação construída para a Feira Mundial de 1962 em Seattle, Washington.",
+        "variantes": [
+          "Agulha Espacial"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Escultura bem enquadrada e reconhecível; a placa visível só traz aviso ao público, não o nome. Autoria incerta, então pergunta pelo nome em múltipla escolha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escultura grega helenística em bronze é esta?",
+      "resposta": "Pugilista em Repouso",
+      "distratores": [
+        "Gaulês Moribundo",
+        "Hermes em Repouso",
+        "Apoxiomeno"
+      ],
+      "ancora": {
+        "nome": "Pugilista em Repouso",
+        "descricao": "Escultura helenística em bronze de um boxeador sentado, encontrada em Roma em 1885 e hoje no Palazzo Massimo.",
+        "variantes": [
+          "Boxer at Rest",
+          "Pugilista das Termas",
+          "Boxeador do Quirinal"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Objeto isolado sobre fundo preto, nítido, sem texto e icônico.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta máscara funerária de ouro cobria o rosto da múmia de que faraó?",
+      "resposta": "Tutancâmon",
+      "distratores": [
+        "Ramsés II",
+        "Akhenaton",
+        "Seti I"
+      ],
+      "ancora": {
+        "nome": "Máscara de Tutancâmon",
+        "descricao": "Máscara funerária de ouro e pedras do faraó Tutancâmon, achada em 1922 no Vale dos Reis.",
+        "variantes": [
+          "Máscara mortuária de Tutancâmon",
+          "Mask of Tutankhamun"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Apenas uma silhueta distante ao pôr do sol; o edifício é pequeno e pouco reconhecível, e ficaria confundível com outras mesquitas. Ilegível no celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre bem visível com a decoração almóada característica, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta torre foi erguida como minarete de uma mesquita. Que dinastia a construiu?",
+      "resposta": "Almóada",
+      "distratores": [
+        "Omíada",
+        "Nasrida",
+        "Almorávida"
+      ],
+      "ancora": {
+        "nome": "Giralda",
+        "descricao": "Torre sineira da Catedral de Sevilha, antigo minarete almóada da grande mesquita da cidade.",
+        "variantes": [
+          "La Giralda",
+          "Torre da Giralda"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Interior com estrutura tubular metálica característica, sem texto. Resposta única; multipla com cidades brasileiras.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica este teatro de estrutura metálica e teto transparente?",
+      "resposta": "Curitiba",
+      "distratores": [
+        "Porto Alegre",
+        "Belo Horizonte",
+        "Florianópolis"
+      ],
+      "ancora": {
+        "nome": "Ópera de Arame",
+        "descricao": "Teatro de tubos de aço e policarbonato, cercado por lago artificial, inaugurado em 1992 em Curitiba.",
+        "variantes": [
+          "Wire Opera House"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O nome 'Theatro da Paz' aparece escrito no friso da fachada, o que entrega a resposta."
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral da Sé de São Paulo",
+        "descricao": "Catedral metropolitana neogótica da arquidiocese de São Paulo, na Praça da Sé.",
+        "variantes": [
+          "Catedral Metropolitana de São Paulo",
+          "Catedral de Nossa Senhora da Assunção e São Paulo",
+          "Sé de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "bienal_de_sao_paulo",
+          "nome": "Bienal de São Paulo",
+          "descricao": "Exposição internacional de arte realizada a cada dois anos em São Paulo.",
+          "variantes": [
+            "Bienal Internacional de Arte de São Paulo",
+            "São Paulo Art Biennial"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Aqueduto de Segóvia",
+        "descricao": "Aqueduto romano do século I com arcada de 167 arcos, símbolo da cidade espanhola de Segóvia.",
+        "variantes": [
+          "Acueducto de Segovia",
+          "Aqueduto romano de Segóvia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aqueduto_de_segovia",
+          "nome": "Aqueduto de Segóvia",
+          "descricao": "Aqueduto romano de arcos de granito que atravessa o centro da cidade de Segóvia, na Espanha.",
+          "variantes": [
+            "Acueducto de Segovia"
+          ]
+        },
+        {
+          "id": "aqueduto_romano",
+          "nome": "Aqueduto romano",
+          "descricao": "Canal construído pelos romanos para levar água de fontes distantes até as cidades.",
+          "variantes": [
+            "Roman aqueduct"
+          ]
+        },
+        {
+          "id": "pacto_de_varsovia",
+          "nome": "Pacto de Varsóvia",
+          "descricao": "Aliança militar da União Soviética com os países comunistas do Leste Europeu, de 1955 a 1991.",
+          "variantes": [
+            "Warsaw Pact",
+            "Tratado de Varsóvia"
+          ]
+        },
+        {
+          "id": "arcos_da_lapa",
+          "nome": "Arcos da Lapa",
+          "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+          "variantes": [
+            "Aqueduto da Carioca"
+          ]
+        },
+        {
+          "id": "alcazar_de_segovia",
+          "nome": "Alcázar de Segóvia",
+          "descricao": "Castelo medieval e palácio real sobre um penhasco na cidade de Segóvia, em Castela e Leão, na Espanha.",
+          "variantes": [
+            "Alcázar of Segovia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ponte JK",
+        "descricao": "Ponte de arcos de aço e concreto sobre o Lago Paranoá, em Brasília, inaugurada em 2002.",
+        "variantes": [
+          "Ponte Juscelino Kubitschek"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_jk",
+          "nome": "Ponte JK",
+          "descricao": "Ponte de três arcos de aço sobre o Lago Paranoá, em Brasília, inaugurada em 2002.",
+          "variantes": [
+            "Ponte Juscelino Kubitschek"
+          ]
+        },
+        {
+          "id": "juscelino_kubitschek",
+          "nome": "Juscelino Kubitschek",
+          "descricao": "Político brasileiro, 21º presidente do Brasil (1956 a 1961), conhecido pela construção de Brasília.",
+          "variantes": [
+            "JK",
+            "Juscelino Kubitschek de Oliveira"
+          ]
+        },
+        {
+          "id": "monte_fuji",
+          "nome": "Monte Fuji",
+          "descricao": "Vulcão de forma cônica na ilha de Honshu, o ponto mais alto do Japão.",
+          "variantes": [
+            "Fuji",
+            "Fujisan",
+            "Fuji-san",
+            "Fujiyama"
+          ]
+        },
+        {
+          "id": "pont_neuf",
+          "nome": "Pont Neuf",
+          "descricao": "Ponte de pedra sobre o rio Sena, em Paris, concluída em 1607 no reinado de Henrique Quarto.",
+          "variantes": [
+            "Ponte Nova"
+          ]
+        },
+        {
+          "id": "ponte_vecchio",
+          "nome": "Ponte Vecchio",
+          "descricao": "Ponte medieval de pedra sobre o rio Arno, em Florença, Itália, famosa pelas lojas construídas sobre ela.",
+          "variantes": [
+            "Ponte Velha",
+            "Old Bridge Florence"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Relógio Astronômico de Praga",
+        "descricao": "Relógio astronômico medieval preso à Prefeitura da Cidade Velha de Praga.",
+        "variantes": [
+          "Orloj de Praga",
+          "Pražský orloj"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_astronomico_de_praga",
+          "nome": "Relógio Astronômico de Praga",
+          "descricao": "Relógio medieval na antiga prefeitura da Cidade Velha de Praga, com figuras animadas.",
+          "variantes": [
+            "Orloj",
+            "Prague Astronomical Clock"
+          ]
+        },
+        {
+          "id": "golem_2",
+          "nome": "Golem",
+          "descricao": "Criatura do folclore judaico moldada em barro e animada por meios místicos, famosa pela lenda do rabino de Praga.",
+          "variantes": [
+            "Golem de Praga"
+          ]
+        },
+        {
+          "id": "castelo_de_praga",
+          "nome": "Castelo de Praga",
+          "descricao": "Complexo de castelo em Praga, na República Tcheca, sede de reis da Boêmia e hoje residência oficial do presidente.",
+          "variantes": [
+            "Pražský hrad",
+            "Prague Castle"
+          ]
+        },
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "gol_de_placa",
+          "nome": "Gol de placa",
+          "descricao": "Expressão brasileira para um gol muito bonito, nascida de uma placa colocada no Maracanã em 1961.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Empire State Building",
+        "descricao": "Arranha-céu Art Déco de 102 andares em Midtown Manhattan, Nova York, concluído em 1931.",
+        "variantes": [
+          "Empire State"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "empire_state_building",
+          "nome": "Empire State Building",
+          "descricao": "Arranha-céu art déco de 102 andares em Manhattan, Nova York, concluído em 1931.",
+          "variantes": [
+            "Empire State"
+          ]
+        },
+        {
+          "id": "estilo_imperio",
+          "nome": "Estilo império",
+          "descricao": "Silhueta de vestido de cintura alta, logo abaixo do busto, com saia reta e fluida",
+          "variantes": [
+            "Empire silhouette",
+            "Cintura império"
+          ]
+        },
+        {
+          "id": "morcego_vampiro",
+          "nome": "Morcego-vampiro",
+          "descricao": "Morcegos da subfamília Desmodontinae, que se alimentam de sangue.",
+          "variantes": [
+            "Desmodontinae",
+            "Vampire bat",
+            "Desmodus rotundus"
+          ]
+        },
+        {
+          "id": "a_tempestade_giorgione",
+          "nome": "A Tempestade (Giorgione)",
+          "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+          "variantes": [
+            "La Tempesta",
+            "The Tempest",
+            "A Tempestade"
+          ]
+        },
+        {
+          "id": "a_tempestade",
+          "nome": "A Tempestade",
+          "descricao": "Peça de William Shakespeare sobre o mago Próspero, exilado numa ilha com a filha Miranda.",
+          "variantes": [
+            "The Tempest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Space Needle",
+        "descricao": "Torre de observação construída para a Feira Mundial de 1962 em Seattle, Washington.",
+        "variantes": [
+          "Agulha Espacial"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "space_needle",
+          "nome": "Space Needle",
+          "descricao": "Torre de observação de formato futurista em Seattle, nos Estados Unidos, construída para uma Feira Mundial.",
+          "variantes": [
+            "Agulha Espacial"
+          ]
+        },
+        {
+          "id": "chevrolet_opala",
+          "nome": "Chevrolet Opala",
+          "descricao": "Automóvel médio produzido pela General Motors do Brasil de 1968 a 1992, derivado do Opel Rekord.",
+          "variantes": [
+            "Opala",
+            "Opala Especial"
+          ]
+        },
+        {
+          "id": "traje_espacial",
+          "nome": "Traje espacial",
+          "descricao": "Roupa pressurizada que protege astronautas do vácuo, da temperatura e da radiação no espaço.",
+          "variantes": [
+            "Roupa espacial",
+            "Escafandro espacial"
+          ]
+        },
+        {
+          "id": "caminhada_espacial",
+          "nome": "Caminhada espacial",
+          "descricao": "Atividade extraveicular em que um astronauta trabalha fora da nave, no espaço.",
+          "variantes": [
+            "Atividade extraveicular",
+            "EVA",
+            "Passeio espacial"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pugilista em Repouso",
+        "descricao": "Escultura helenística em bronze de um boxeador sentado, encontrada em Roma em 1885 e hoje no Palazzo Massimo.",
+        "variantes": [
+          "Boxer at Rest",
+          "Pugilista das Termas",
+          "Boxeador do Quirinal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pugilista_em_repouso",
+          "nome": "Pugilista em repouso",
+          "descricao": "Bronze helenístico de um boxeador nu sentado, com faixas de couro nas mãos, no Palazzo Massimo, em Roma.",
+          "variantes": [
+            "Boxer at Rest",
+            "Pugilista do Quirinal",
+            "Boxeador das Termas"
+          ]
+        },
+        {
+          "id": "eco_92",
+          "nome": "Eco-92",
+          "descricao": "Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento, realizada no Rio de Janeiro em 1992.",
+          "variantes": [
+            "Rio-92",
+            "Cúpula da Terra",
+            "Earth Summit"
+          ]
+        },
+        {
+          "id": "bertolt_brecht",
+          "nome": "Bertolt Brecht",
+          "descricao": "Dramaturgo, poeta e encenador alemão (1898–1956), teórico do teatro épico.",
+          "variantes": [
+            "Bert Brecht",
+            "Eugen Berthold Friedrich Brecht"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três",
+            "Arremesso de três pontos"
+          ]
+        },
+        {
+          "id": "tanabata",
+          "nome": "Tanabata",
+          "descricao": "Festival japonês das estrelas, em que se penduram pedidos escritos em ramos de bambu.",
+          "variantes": [
+            "Festival das Estrelas",
+            "Festa das Estrelas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Máscara de Tutancâmon",
+        "descricao": "Máscara funerária de ouro e pedras do faraó Tutancâmon, achada em 1922 no Vale dos Reis.",
+        "variantes": [
+          "Máscara mortuária de Tutancâmon",
+          "Mask of Tutankhamun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mascara_de_tutancamon",
+          "nome": "Máscara de Tutancâmon",
+          "descricao": "Máscara funerária de ouro com incrustações que cobria o rosto da múmia de Tutancâmon, hoje no Egito",
+          "variantes": [
+            "Mask of Tutankhamun",
+            "Máscara funerária de Tutancâmon"
+          ]
+        },
+        {
+          "id": "maldicao_dos_faraos",
+          "nome": "Maldição dos faraós",
+          "descricao": "Lenda de que quem perturba a múmia de um faraó é castigado, popularizada após a abertura da tumba de Tutancâmon",
+          "variantes": [
+            "Maldição de Tutancâmon",
+            "Curse of the pharaohs"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        },
+        {
+          "id": "tumba_de_tutancamon",
+          "nome": "Tumba de Tutancâmon",
+          "descricao": "Tumba do faraó Tutancâmon no Vale dos Reis, catalogada como KV62 e encontrada quase intacta em 1922",
+          "variantes": [
+            "KV62"
+          ]
+        },
+        {
+          "id": "tutancamon",
+          "nome": "Tutancâmon",
+          "descricao": "Faraó da décima oitava dinastia do Egito, morto por volta dos dezoito anos, cuja tumba foi achada intacta em 1922.",
+          "variantes": [
+            "Tutankhamun",
+            "Tutankhamon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Giralda",
+        "descricao": "Torre sineira da Catedral de Sevilha, antigo minarete almóada da grande mesquita da cidade.",
+        "variantes": [
+          "La Giralda",
+          "Torre da Giralda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giralda",
+          "nome": "Giralda",
+          "descricao": "Torre sineira da Catedral de Sevilha, na Espanha, coroada por um cata-vento em forma de estátua.",
+          "variantes": [
+            "La Giralda"
+          ]
+        },
+        {
+          "id": "girafa",
+          "nome": "Girafa",
+          "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+          "variantes": [
+            "Giraffa",
+            "Giraffe"
+          ]
+        },
+        {
+          "id": "one_world_trade_center",
+          "nome": "One World Trade Center",
+          "descricao": "Arranha-céu principal do novo complexo do World Trade Center, em Manhattan, inaugurado em 2014.",
+          "variantes": [
+            "Freedom Tower",
+            "Torre da Liberdade",
+            "One WTC"
+          ]
+        },
+        {
+          "id": "estreito_de_gibraltar",
+          "nome": "Estreito de Gibraltar",
+          "descricao": "Estreito entre o sul da Espanha e o norte da África que liga o oceano Atlântico ao mar Mediterrâneo.",
+          "variantes": [
+            "Gibraltar"
+          ]
+        },
+        {
+          "id": "torre_de_radio_de_goldenrod",
+          "nome": "Torre de Rádio de Goldenrod",
+          "descricao": "Prédio da emissora de rádio de Goldenrod, em Johto, invadido pela Equipe Rocket em Pokémon Gold e Silver.",
+          "variantes": [
+            "Goldenrod Radio Tower",
+            "Torre de Rádio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ópera de Arame",
+        "descricao": "Teatro de tubos de aço e policarbonato, cercado por lago artificial, inaugurado em 1992 em Curitiba.",
+        "variantes": [
+          "Wire Opera House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House",
+            "Teatro Ópera de Arame"
+          ]
+        },
+        {
+          "id": "royal_opera_house",
+          "nome": "Royal Opera House",
+          "descricao": "Teatro de ópera e balé no bairro de Covent Garden, em Londres, sede da Royal Opera e do Royal Ballet.",
+          "variantes": [
+            "Covent Garden",
+            "Royal Ballet and Opera"
+          ]
+        },
+        {
+          "id": "opera_garnier",
+          "nome": "Ópera Garnier",
+          "descricao": "Teatro de ópera de Paris, projetado por Charles Garnier e inaugurado em 1875.",
+          "variantes": [
+            "Palais Garnier",
+            "Ópera de Paris"
+          ]
+        },
+        {
+          "id": "opera_de_sydney",
+          "nome": "Ópera de Sydney",
+          "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+          "variantes": [
+            "Sydney Opera House"
+          ]
+        },
+        {
+          "id": "partida_da_opera",
+          "nome": "Partida da Ópera",
+          "descricao": "Célebre partida de xadrez vencida pelo americano Paul Morphy em 1858, jogada num camarote de teatro durante uma ópera.",
+          "variantes": [
+            "Opera Game",
+            "Jogo da Ópera"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "catedral_da_se_de_sao_paulo",
+      "motivo": "Mesma catedral da Praça da Sé."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "aqueduto_de_segovia",
+      "motivo": "Mesmo aqueduto romano de Segóvia."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "ponte_jk",
+      "motivo": "Mesma ponte sobre o Paranoá, 2002."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "relogio_astronomico_de_praga",
+      "motivo": "Mesmo relógio da Cidade Velha de Praga."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "empire_state_building",
+      "motivo": "Mesmo arranha-céu."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "space_needle",
+      "motivo": "Mesma torre de Seattle."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "pugilista_em_repouso",
+      "motivo": "Mesma escultura de bronze no Palazzo Massimo."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "mascara_de_tutancamon",
+      "motivo": "Mesma máscara funerária."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "giralda",
+      "motivo": "Mesma torre da Catedral de Sevilha."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "opera_de_arame",
+      "motivo": "Mesmo teatro de Curitiba."
+    }
+  ]
+}
