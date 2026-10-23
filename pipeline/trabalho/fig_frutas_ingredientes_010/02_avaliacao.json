@@ -1,0 +1,186 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Colmos de cana-de-açúcar claros e reconhecíveis, sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que bebida destilada brasileira é feita a partir do caldo desta planta?",
+      "resposta": "Cachaça",
+      "ancora": {
+        "nome": "Cana-de-açúcar",
+        "descricao": "Planta gramínea alta (Saccharum officinarum), cujo caldo rico em sacarose é usado para produzir açúcar.",
+        "variantes": [
+          "Cana",
+          "Saccharum officinarum"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fruto do cacau aberto, com polpa e sementes visíveis; as mãos aparecem só parcialmente, sem rosto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que produto doce é feito com as sementes secas e fermentadas desta fruta?",
+      "resposta": "Chocolate",
+      "ancora": {
+        "nome": "Cacau",
+        "descricao": "Fruto do cacaueiro (Theobroma cacao), cujas sementes fermentadas e secas dão o chocolate.",
+        "variantes": [
+          "Cacau (fruto)",
+          "Cacaueiro",
+          "Theobroma cacao"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Frutos amarelos e folhas peludas características da nêspera; boa para múltipla escolha com frutas amarelas parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Nêspera",
+      "distratores": [
+        "Damasco",
+        "Kinkan",
+        "Cajá-manga"
+      ],
+      "ancora": {
+        "nome": "Nêspera",
+        "descricao": "Fruto amarelo-alaranjado da nespereira (Eriobotrya japonica), originária da China.",
+        "variantes": [
+          "Ameixa-amarela",
+          "Eriobotrya japonica"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Montagem de seis colheres, todas com mostarda (grãos, pó e pastas): um único assunto, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que condimento é este, mostrado em grãos, em pó e em pastas?",
+      "resposta": "Mostarda",
+      "ancora": {
+        "nome": "Mostarda",
+        "descricao": "Condimento feito das sementes da planta da mostarda, em grãos, pó ou pasta.",
+        "variantes": [
+          "Mostarda (condimento)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Carambolas inteiras e fatiadas, bem visíveis e inconfundíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Carambola",
+      "ancora": {
+        "nome": "Carambola",
+        "descricao": "Fruto amarelo da caramboleira (Averrhoa carambola), cujo corte transversal tem forma de estrela.",
+        "variantes": [
+          "Star fruit",
+          "Averrhoa carambola"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto de estúdio nítida do romanesco, de forma característica e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que hortaliça de botões em espiral é esta?",
+      "resposta": "Romanesco (brócolis romanesco)",
+      "ancora": {
+        "nome": "Romanesco",
+        "descricao": "Hortaliça verde-limão, cultivar de couve-flor (Brassica oleracea), de botões em forma de fractal.",
+        "variantes": [
+          "Brócolis romanesco",
+          "Couve-flor romanesca"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Planta inteira num jardim, alta e de folhagem pouco típica; pode ser confundida com outras couves (tronchuda, manteiga, kale), sem resposta única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ameixas vermelho-arroxeadas no ramo, nítidas e reconhecíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Ameixa",
+      "ancora": {
+        "nome": "Ameixa",
+        "descricao": "Fruto de árvores do gênero Prunus, uma drupa de polpa suculenta, que seca vira ameixa-seca.",
+        "variantes": [
+          "Plum"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Frutos amarelos com a ponta em mamilo característica do abiu; múltipla com frutas amarelas parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta amazônica é esta?",
+      "resposta": "Abiu",
+      "distratores": [
+        "Limão-siciliano",
+        "Pitomba",
+        "Seriguela"
+      ],
+      "ancora": {
+        "nome": "Abiu",
+        "descricao": "Fruto amarelo do abieiro (Pouteria caimito), de polpa branca e gelatinosa, nativo da Amazônia.",
+        "variantes": [
+          "Caimito",
+          "Abieiro",
+          "Pouteria caimito"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem traz placas legíveis (\"Unsalted butter\", \"Salted butter\") e rótulos \"Beurre Échiré\" que entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Close da inflorescência rosa do orégano, sem folhas; o público não reconhece, e pode ser confundida com manjerona e outras lamiáceas."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Mudas jovens de feno-grego, folhagem verde genérica, não reconhecível e parecida com outras leguminosas (amendoim, trevo)."
+    }
+  ]
+}

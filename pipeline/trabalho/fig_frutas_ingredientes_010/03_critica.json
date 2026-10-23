@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Teste da imagem coberta: 'bebida destilada brasileira feita do caldo' já entrega cachaça sem olhar a figura (a pista é a própria resposta). Trocar por outro fato sobre a cana, como a domesticação, é arriscado, porque há mais de uma espécie e mais de um centro de domesticação.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'sementes secas e fermentadas' de uma fruta, com produto doce, leva direto ao chocolate sem a figura. A figura virou enfeite.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista no enunciado. Os distratores são frutas amarelo-alaranjadas parecidas, com até 4 palavras, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só descreve as formas de apresentação, que não bastam para identificar o condimento sem a figura. A resposta é única e a redação é curta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto. O enunciado não traz pista e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'botões em espiral' ajuda sem entregar. O trecho confirma a disposição espiralada, e a resposta com parênteses é apropriada.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível 1, sem pista que entregue a resposta. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado é verdadeiro, mas os distratores são fracos: limão-siciliano, pitomba e seriguela não são frutas amazônicas parecidas com o abiu, então o enunciado já os elimina. Troquei por frutas amazônicas amarelas.",
+      "reescrita": {
+        "pergunta": "Que fruta amazônica é esta?",
+        "resposta": "Abiu",
+        "distratores": [
+          "Bacuri",
+          "Cupuaçu",
+          "Taperebá"
+        ]
+      }
+    }
+  ]
+}
