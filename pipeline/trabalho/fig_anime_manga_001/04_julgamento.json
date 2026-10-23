@@ -1,0 +1,752 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mestre Kame",
+        "descricao": "Velho eremita mestre de artes marciais de Dragon Ball, que vive na Kame House e criou o Kamehameha.",
+        "variantes": [
+          "Kame Sennin",
+          "Muten Roshi",
+          "Mestre Tartaruga",
+          "Master Roshi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "phil_jackson",
+          "nome": "Phil Jackson",
+          "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+          "variantes": [
+            "Mestre Zen",
+            "Zen Master"
+          ]
+        },
+        {
+          "id": "mestre_ataide",
+          "nome": "Mestre Ataíde",
+          "descricao": "Manuel da Costa Ataíde, pintor do barroco mineiro, que viveu de 1762 a 1830.",
+          "variantes": [
+            "Manuel da Costa Ataíde"
+          ]
+        },
+        {
+          "id": "yoda",
+          "nome": "Yoda",
+          "descricao": "Mestre Jedi pequeno e de pele verde da saga Star Wars.",
+          "variantes": [
+            "Mestre Yoda"
+          ]
+        },
+        {
+          "id": "paradoxos_de_zenao",
+          "nome": "Paradoxos de Zenão",
+          "descricao": "Argumentos do filósofo grego Zenão de Eleia sobre o movimento e o infinito.",
+          "variantes": [
+            "Paradoxo de Aquiles e a tartaruga",
+            "Zeno's paradoxes",
+            "Aquiles e a tartaruga"
+          ]
+        },
+        {
+          "id": "paradoxo_de_aquiles_e_a_tartaruga",
+          "nome": "Paradoxo de Aquiles e a tartaruga",
+          "descricao": "Paradoxo de Zenão de Eleia segundo o qual o veloz Aquiles nunca alcançaria uma tartaruga que saiu na frente.",
+          "variantes": [
+            "Aquiles e a tartaruga",
+            "Paradoxos de Zenão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Zenitsu Agatsuma",
+        "descricao": "Caçador de demônios loiro de haori laranja com triângulos, companheiro de Tanjiro em Demon Slayer (Kimetsu no Yaiba).",
+        "variantes": [
+          "Zenitsu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tenis",
+          "nome": "Tênis",
+          "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+          "variantes": [
+            "Sneakers",
+            "Tênis de lona"
+          ]
+        },
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "eneida",
+          "nome": "Eneida",
+          "descricao": "Poema épico latino do século primeiro antes de Cristo sobre as viagens do troiano Eneias até a Itália.",
+          "variantes": [
+            "Aeneid",
+            "Aeneis"
+          ]
+        },
+        {
+          "id": "eiscue",
+          "nome": "Eiscue",
+          "descricao": "Pokémon pinguim do tipo Gelo da oitava geração, da região de Galar, com a habilidade Ice Face.",
+          "variantes": [
+            "Koorippo"
+          ]
+        },
+        {
+          "id": "menfis",
+          "nome": "Mênfis",
+          "descricao": "Antiga capital do Egito unificado, perto da atual Cairo, centro do culto ao deus Ptah",
+          "variantes": [
+            "Memphis",
+            "Mênfis (Egito)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Roy Mustang",
+        "descricao": "Coronel e Alquimista das Chamas do exército de Amestris, em Fullmetal Alchemist.",
+        "variantes": [
+          "Coronel Mustang",
+          "Alquimista das Chamas",
+          "Flame Alchemist"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fullmetal_alchemist",
+          "nome": "Fullmetal Alchemist",
+          "descricao": "Mangá e anime de Hiromu Arakawa sobre os irmãos alquimistas Edward e Alphonse Elric.",
+          "variantes": [
+            "Hagane no Renkinjutsushi",
+            "Fullmetal Alchemist: Brotherhood"
+          ]
+        },
+        {
+          "id": "o_alquimista",
+          "nome": "O Alquimista",
+          "descricao": "Romance de Paulo Coelho publicado em 1988, sobre a viagem do pastor andaluz Santiago em busca de um tesouro.",
+          "variantes": [
+            "The Alchemist"
+          ]
+        },
+        {
+          "id": "ford_mustang",
+          "nome": "Ford Mustang",
+          "descricao": "Carro esportivo americano fabricado pela Ford desde 1964, que deu nome ao segmento dos pony cars.",
+          "variantes": [
+            "Mustang"
+          ]
+        },
+        {
+          "id": "p_51_mustang",
+          "nome": "P-51 Mustang",
+          "descricao": "Caça de longo alcance americano da North American Aviation, usado na Segunda Guerra Mundial e na Guerra da Coreia.",
+          "variantes": [
+            "Mustang",
+            "North American P-51"
+          ]
+        },
+        {
+          "id": "rio_amarelo",
+          "nome": "Rio Amarelo",
+          "descricao": "Segundo rio mais longo da China, que corre pelo norte do país até o mar de Bohai.",
+          "variantes": [
+            "Huang He",
+            "Hwang Ho",
+            "Yellow River",
+            "Rio Huang"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Trunks",
+        "descricao": "Filho de Vegeta e Bulma de Dragon Ball, aqui na versão do futuro alternativo, com espada nas costas e jaqueta roxa.",
+        "variantes": [
+          "Trunks do Futuro",
+          "Future Trunks",
+          "Mirai Trunks"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "futhark",
+          "nome": "Futhark",
+          "descricao": "Alfabeto rúnico usado pelos antigos povos germânicos.",
+          "variantes": [
+            "Futhark antigo",
+            "Elder Futhark",
+            "Runas"
+          ]
+        },
+        {
+          "id": "ghost_in_the_shell",
+          "nome": "Ghost in the Shell",
+          "descricao": "Filme de animação japonês de ficção científica de 1995, dirigido por Mamoru Oshii.",
+          "variantes": [
+            "O Fantasma do Futuro",
+            "Kōkaku Kidōtai"
+          ]
+        },
+        {
+          "id": "starbucks",
+          "nome": "Starbucks",
+          "descricao": "Rede americana de cafeterias fundada em Seattle em 1971.",
+          "variantes": [
+            "Starbucks Corporation"
+          ]
+        },
+        {
+          "id": "tonfa",
+          "nome": "Tonfa",
+          "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+          "variantes": [
+            "Tunkua",
+            "Tui-fa",
+            "Senkon"
+          ]
+        },
+        {
+          "id": "stunky",
+          "nome": "Stunky",
+          "descricao": "Pokémon dos tipos Venenoso e Sombrio, número 434 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Portgas D. Ace",
+        "descricao": "Pirata de One Piece, irmão adotivo de Luffy, comandante da 2ª divisão dos Piratas de Barba Branca e usuário da Fruta Mera Mera.",
+        "variantes": [
+          "Ace",
+          "Punho de Fogo",
+          "Fire Fist Ace"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_carta_de_baralho",
+          "nome": "Ás (carta de baralho)",
+          "descricao": "Carta de baralho com um único símbolo de naipe, aqui os quatro ases do baralho francês.",
+          "variantes": [
+            "Ás",
+            "Ace"
+          ]
+        },
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "acre",
+          "nome": "Acre",
+          "descricao": "Estado da Região Norte do Brasil, incorporado ao país pelo Tratado de Petrópolis, em 1903.",
+          "variantes": []
+        },
+        {
+          "id": "voce",
+          "nome": "Você",
+          "descricao": "Pronome de tratamento usado no português, sobretudo no Brasil, para a segunda pessoa",
+          "variantes": [
+            "Vosmecê",
+            "Cê"
+          ]
+        },
+        {
+          "id": "a_danca",
+          "nome": "A Dança",
+          "descricao": "Grande painel decorativo de Henri Matisse de 1910, com cinco figuras vermelhas dançando em roda sobre fundo azul e verde, no Museu Hermitage.",
+          "variantes": [
+            "A Dança (Matisse)",
+            "La Danse",
+            "Dance",
+            "A Dança de Matisse"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Jotaro Kujo",
+        "descricao": "Protagonista da Parte 3 de JoJo's Bizarre Adventure, usuário do Stand Star Platinum.",
+        "variantes": [
+          "Jotaro",
+          "Kujo Jotaro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taro",
+          "nome": "Tarô",
+          "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+          "variantes": [
+            "Tarot",
+            "Tarocchi"
+          ]
+        },
+        {
+          "id": "johto",
+          "nome": "Johto",
+          "descricao": "Região fictícia dos jogos Pokémon Gold e Silver, da segunda geração, vizinha de Kanto.",
+          "variantes": [
+            "Região de Johto"
+          ]
+        },
+        {
+          "id": "jotalhao",
+          "nome": "Jotalhão",
+          "descricao": "Elefante verde da Turma da Mata, nos quadrinhos de Mauricio de Sousa.",
+          "variantes": []
+        },
+        {
+          "id": "nova_zelandia",
+          "nome": "Nova Zelândia",
+          "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+          "variantes": [
+            "New Zealand",
+            "Aotearoa"
+          ]
+        },
+        {
+          "id": "aotearoa",
+          "nome": "Aotearoa",
+          "descricao": "Nome em língua maori da Nova Zelândia.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Seiya de Pégaso",
+        "descricao": "Cavaleiro de Bronze de Atena e protagonista de Os Cavaleiros do Zodíaco (Saint Seiya).",
+        "variantes": [
+          "Seiya",
+          "Pegasus Seiya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "choco",
+          "nome": "Choco",
+          "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+          "variantes": [
+            "Siba",
+            "Sépia",
+            "Cuttlefish"
+          ]
+        },
+        {
+          "id": "imponderabilidade",
+          "nome": "Imponderabilidade",
+          "descricao": "Sensação de ausência de peso vivida por quem está em queda livre, como os astronautas em órbita.",
+          "variantes": [
+            "Ausência de peso",
+            "Microgravidade",
+            "Weightlessness"
+          ]
+        },
+        {
+          "id": "suecia",
+          "nome": "Suécia",
+          "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+          "variantes": [
+            "Reino da Suécia"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "saiyajin",
+          "nome": "Saiyajin",
+          "descricao": "Raça alienígena guerreira de Dragon Ball, à qual pertencem Goku e Vegeta.",
+          "variantes": [
+            "Saiyan",
+            "Saiyajins"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Hinata Hyuga",
+        "descricao": "Kunoichi de Konoha do clã Hyuga, da Equipe 8, em Naruto.",
+        "variantes": [
+          "Hinata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        },
+        {
+          "id": "hipatia",
+          "nome": "Hipátia",
+          "descricao": "Filósofa, astrônoma e matemática de Alexandria, assassinada no ano 415.",
+          "variantes": [
+            "Hipátia de Alexandria",
+            "Hypatia",
+            "Hipácia"
+          ]
+        },
+        {
+          "id": "natal",
+          "nome": "Natal",
+          "descricao": "Capital do Rio Grande do Norte, que abrigou uma grande base aérea aliada na Segunda Guerra Mundial.",
+          "variantes": [
+            "Natal (Rio Grande do Norte)"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Kenpachi Zaraki",
+        "descricao": "Capitão da 11ª Divisão do Gotei 13, guerreiro de Bleach com tapa-olho e cicatriz no rosto.",
+        "variantes": [
+          "Zaraki Kenpachi",
+          "Kenpachi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "ara_pacis",
+          "nome": "Ara Pacis",
+          "descricao": "Altar romano dedicado à Paz de Augusto, consagrado em 9 a.C. e hoje exposto em museu próprio em Roma.",
+          "variantes": [
+            "Ara Pacis Augustae",
+            "Altar da Paz Augusta"
+          ]
+        },
+        {
+          "id": "kanzashi",
+          "nome": "Kanzashi",
+          "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+          "variantes": [
+            "Kanzashi japonês"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "eniac",
+          "nome": "ENIAC",
+          "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945.",
+          "variantes": [
+            "Electronic Numerical Integrator and Computer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Kakashi Hatake",
+        "descricao": "Ninja de cabelo prateado e máscara, líder da Equipe 7 e sexto Hokage em Naruto.",
+        "variantes": [
+          "Kakashi",
+          "Ninja Copiador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "varanasi",
+          "nome": "Varanasi",
+          "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+          "variantes": [
+            "Benares",
+            "Banaras",
+            "Kashi"
+          ]
+        },
+        {
+          "id": "kanzashi",
+          "nome": "Kanzashi",
+          "descricao": "Enfeite de cabelo tradicional japonês, como grampos com flores e correntes pendentes.",
+          "variantes": [
+            "Kanzashi japonês"
+          ]
+        },
+        {
+          "id": "time_7",
+          "nome": "Time 7",
+          "descricao": "Equipe ninja de Naruto formada por Naruto, Sasuke e Sakura, sob o comando de um jonin.",
+          "variantes": [
+            "Time Kakashi",
+            "Team 7"
+          ]
+        },
+        {
+          "id": "kaka",
+          "nome": "Kaká",
+          "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002.",
+          "variantes": [
+            "Ricardo Kaká",
+            "Ricardo Izecson dos Santos Leite"
+          ]
+        },
+        {
+          "id": "monte_kailash",
+          "nome": "Monte Kailash",
+          "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+          "variantes": [
+            "Kailash",
+            "Monte Kailasa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Hiei",
+        "descricao": "Demônio de baixa estatura com um terceiro olho (Jagan), um dos quatro protagonistas de Yu Yu Hakusho.",
+        "variantes": [
+          "Hiei Jaganshi",
+          "Hiei do Jagan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "imperio_de_gana",
+          "nome": "Império de Gana",
+          "descricao": "Império da África Ocidental, nas atuais Mauritânia e Mali, que prosperou com o comércio de ouro até o século treze.",
+          "variantes": [
+            "Ghana Empire",
+            "Império do Gana",
+            "Wagadu",
+            "Uagadu"
+          ]
+        },
+        {
+          "id": "corphish",
+          "nome": "Corphish",
+          "descricao": "Pokémon lagostim do tipo Água, número 341 da Pokédex Nacional, da terceira geração.",
+          "variantes": [
+            "Heigani"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Seto Kaiba",
+        "descricao": "Duelista e presidente da Kaiba Corp em Yu-Gi-Oh!, dono do Dragão Branco de Olhos Azuis.",
+        "variantes": [
+          "Kaiba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caaba",
+          "nome": "Caaba",
+          "descricao": "Santuário em forma de cubo no centro da Grande Mesquita de Meca",
+          "variantes": [
+            "Kaaba",
+            "Kaba"
+          ]
+        },
+        {
+          "id": "akihabara",
+          "nome": "Akihabara",
+          "descricao": "Bairro de Tóquio conhecido por lojas de eletrônicos, anime, mangá e games.",
+          "variantes": [
+            "Akiba",
+            "Akihabara Electric Town"
+          ]
+        },
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        },
+        {
+          "id": "acao_integralista_brasileira",
+          "nome": "Ação Integralista Brasileira",
+          "descricao": "Movimento político de inspiração fascista fundado por Plínio Salgado em 1932.",
+          "variantes": [
+            "Integralismo",
+            "AIB"
+          ]
+        },
+        {
+          "id": "nelson_mandela",
+          "nome": "Nelson Mandela",
+          "descricao": "Líder antiapartheid e primeiro presidente negro da África do Sul, de 1994 a 1999.",
+          "variantes": [
+            "Nelson Rolihlahla Mandela",
+            "Madiba",
+            "Rolihlahla Mandela"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Mestre Kame é personagem de Dragon Ball; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Personagem de Demon Slayer; candidatas não relacionadas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Personagem de FMA, diferente da obra e dos demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Personagem de Dragon Ball; sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Personagem de One Piece, distinto da carta Ás e outras."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Personagem de JoJo; sem correspondência."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Personagem de Saint Seiya; sem correspondência."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Personagem de Naruto; sem correspondência."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Personagem de Bleach; sem correspondência."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Kakashi é pessoa/personagem distinta do Time 7 e demais candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Personagem de Yu Yu Hakusho; sem correspondência."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Personagem de Yu-Gi-Oh!; sem correspondência."
+    }
+  ]
+}

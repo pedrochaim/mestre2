@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte clara do Mestre Kame, sem texto, reconhecível pelos óculos, barba e cajado.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Mestre Kame (Kame Sennin)",
+      "ancora": {
+        "nome": "Mestre Kame",
+        "descricao": "Velho eremita mestre de artes marciais de Dragon Ball, que vive na Kame House e criou o Kamehameha.",
+        "variantes": [
+          "Kame Sennin",
+          "Muten Roshi",
+          "Mestre Tartaruga",
+          "Master Roshi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Zenitsu nítido, sem texto. A silhueta é pouco característica (poderia ser outro espadachim de haori), então usa a imagem colorida e pergunta o autor.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Koyoharu Gotouge",
+      "distratores": [
+        "Gege Akutami",
+        "Eiichiro Oda",
+        "Tite Kubo"
+      ],
+      "usar_silhueta": false,
+      "ancora": {
+        "nome": "Zenitsu Agatsuma",
+        "descricao": "Caçador de demônios loiro de haori laranja com triângulos, companheiro de Tanjiro em Demon Slayer (Kimetsu no Yaiba).",
+        "variantes": [
+          "Zenitsu"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida do Roy Mustang, sem texto, uniforme militar e luva brancos característicos.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este coronel é superior de qual jovem alquimista, protagonista da obra em que aparece?",
+      "resposta": "Edward Elric",
+      "ancora": {
+        "nome": "Roy Mustang",
+        "descricao": "Coronel e Alquimista das Chamas do exército de Amestris, em Fullmetal Alchemist.",
+        "variantes": [
+          "Coronel Mustang",
+          "Alquimista das Chamas",
+          "Flame Alchemist"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Trunks do futuro com espada e jaqueta roxa, claro e reconhecível; o pequeno logotipo da Capsule Corp não entrega o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Trunks (do Futuro)",
+      "ancora": {
+        "nome": "Trunks",
+        "descricao": "Filho de Vegeta e Bulma de Dragon Ball, aqui na versão do futuro alternativo, com espada nas costas e jaqueta roxa.",
+        "variantes": [
+          "Trunks do Futuro",
+          "Future Trunks",
+          "Mirai Trunks"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ace de corpo inteiro, chapéu, colar e fogo no braço, sem texto; bem reconhecível.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá deste personagem?",
+      "resposta": "Eiichiro Oda",
+      "distratores": [
+        "Masashi Kishimoto",
+        "Tite Kubo",
+        "Akira Toriyama"
+      ],
+      "ancora": {
+        "nome": "Portgas D. Ace",
+        "descricao": "Pirata de One Piece, irmão adotivo de Luffy, comandante da 2ª divisão dos Piratas de Barba Branca e usuário da Fruta Mera Mera.",
+        "variantes": [
+          "Ace",
+          "Punho de Fogo",
+          "Fire Fist Ace"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Close do Jotaro com boné e corrente, sem texto, bem reconhecível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é o Stand deste personagem?",
+      "resposta": "Star Platinum",
+      "ancora": {
+        "nome": "Jotaro Kujo",
+        "descricao": "Protagonista da Parte 3 de JoJo's Bizarre Adventure, usuário do Stand Star Platinum.",
+        "variantes": [
+          "Jotaro",
+          "Kujo Jotaro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Seiya de corpo inteiro na armadura de Pégaso, sem texto; distratores serão outros cavaleiros de bronze de aparência parecida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Seiya de Pégaso",
+      "distratores": [
+        "Shiryu de Dragão",
+        "Hyoga de Cisne",
+        "Shun de Andrômeda"
+      ],
+      "ancora": {
+        "nome": "Seiya de Pégaso",
+        "descricao": "Cavaleiro de Bronze de Atena e protagonista de Os Cavaleiros do Zodíaco (Saint Seiya).",
+        "variantes": [
+          "Seiya",
+          "Pegasus Seiya"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Hinata de rosto, com olhos claros característicos e protetor de Konoha; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que clã pertence esta personagem?",
+      "resposta": "Clã Hyuga",
+      "ancora": {
+        "nome": "Hinata Hyuga",
+        "descricao": "Kunoichi de Konoha do clã Hyuga, da Equipe 8, em Naruto.",
+        "variantes": [
+          "Hinata Hyūga",
+          "Hinata"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Kenpachi com tapa-olho, cicatriz e cabelo espetado, reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De qual divisão do Gotei treze este personagem é capitão?",
+      "resposta": "Décima primeira divisão",
+      "ancora": {
+        "nome": "Kenpachi Zaraki",
+        "descricao": "Capitão da 11ª Divisão do Gotei 13, guerreiro de Bleach com tapa-olho e cicatriz no rosto.",
+        "variantes": [
+          "Zaraki Kenpachi",
+          "Kenpachi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Kakashi nítido, com máscara e protetor de Konoha; sem texto que entregue o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Kakashi Hatake",
+      "distratores": [
+        "Zabuza Momochi",
+        "Obito Uchiha",
+        "Minato Namikaze"
+      ],
+      "ancora": {
+        "nome": "Kakashi Hatake",
+        "descricao": "Ninja de cabelo prateado e máscara, líder da Equipe 7 e sexto Hokage em Naruto.",
+        "variantes": [
+          "Kakashi",
+          "Ninja Copiador"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Hiei com o terceiro olho (Jagan) brilhando; imagem clara e sem texto. Pergunta pelo autor, indo além do nome.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem criou o mangá em que aparece este personagem?",
+      "resposta": "Yoshihiro Togashi",
+      "distratores": [
+        "Masami Kurumada",
+        "Akira Toriyama",
+        "Masashi Kishimoto"
+      ],
+      "ancora": {
+        "nome": "Hiei",
+        "descricao": "Demônio de baixa estatura com um terceiro olho (Jagan), um dos quatro protagonistas de Yu Yu Hakusho.",
+        "variantes": [
+          "Hiei Jaganshi",
+          "Hiei do Jagan"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Kaiba nítido com o casaco branco; só as iniciais KC aparecem, sem entregar o nome nem a resposta pedida.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dragão está mais associado a este personagem?",
+      "resposta": "Dragão Branco de Olhos Azuis",
+      "distratores": [
+        "Dragão Negro de Olhos Vermelhos",
+        "Dragão Alado de Rá",
+        "Dragão Cósmico"
+      ],
+      "ancora": {
+        "nome": "Seto Kaiba",
+        "descricao": "Duelista e presidente da Kaiba Corp em Yu-Gi-Oh!, dono do Dragão Branco de Olhos Azuis.",
+        "variantes": [
+          "Kaiba",
+          "Seto Kaiba"
+        ]
+      }
+    }
+  ]
+}
