@@ -1,0 +1,680 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bandeira de Omã",
+        "descricao": "Bandeira nacional do Sultanato de Omã, com faixas branca, vermelha e verde e emblema de punhal e espadas.",
+        "variantes": [
+          "Omã",
+          "Bandeira de Oman"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        },
+        {
+          "id": "bandeira_de_goias",
+          "nome": "Bandeira de Goiás",
+          "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+          "variantes": [
+            "Goiás",
+            "Bandeira do estado de Goiás"
+          ]
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "roma_2",
+          "nome": "Roma",
+          "descricao": "Capital da Itália, às margens do rio Tibre.",
+          "variantes": [
+            "Rome"
+          ]
+        },
+        {
+          "id": "bandeira_de_dominica",
+          "nome": "Bandeira de Dominica",
+          "descricao": "Bandeira atual de Dominica, ilha caribenha: cruz de três cores sobre verde com disco vermelho e um papagaio sisserou.",
+          "variantes": [
+            "Dominica",
+            "Bandeira da Comunidade da Dominica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bandeira de Ruanda",
+        "descricao": "Bandeira nacional de Ruanda, com faixas azul, amarela e verde e um sol dourado no canto superior.",
+        "variantes": [
+          "Ruanda",
+          "Bandeira do Ruanda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ruanda",
+          "nome": "Ruanda",
+          "descricao": "País sem litoral da África Central, conhecido como terra das mil colinas.",
+          "variantes": [
+            "Rwanda"
+          ]
+        },
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_de_granada",
+          "nome": "Bandeira de Granada",
+          "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+          "variantes": [
+            "Bandeira granadina"
+          ]
+        },
+        {
+          "id": "bandeira_do_canada",
+          "nome": "Bandeira do Canadá",
+          "descricao": "Bandeira nacional do Canadá, vermelha e branca com uma folha de bordo vermelha no centro.",
+          "variantes": [
+            "Maple Leaf",
+            "Unifolié"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandeira das Comores",
+        "descricao": "Bandeira nacional da União das Comores, com quatro faixas horizontais, triângulo verde, crescente e quatro estrelas.",
+        "variantes": [
+          "Comores",
+          "Bandeira de Comores"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "bandeira_da_corsega",
+          "nome": "Bandeira da Córsega",
+          "descricao": "Bandeira da ilha francesa da Córsega, com a cabeça de mouro de bandana branca sobre fundo branco.",
+          "variantes": [
+            "Córsega",
+            "Cabeça de mouro",
+            "Corse"
+          ]
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        },
+        {
+          "id": "bandeira_de_ohio",
+          "nome": "Bandeira de Ohio",
+          "descricao": "Bandeira do estado americano de Ohio, em forma de flâmula com duas pontas.",
+          "variantes": [
+            "Ohio burgee"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira das Bahamas",
+        "descricao": "Bandeira nacional das Bahamas, com faixas azul-turquesa e amarela e triângulo preto à esquerda.",
+        "variantes": [
+          "Bahamas",
+          "Bandeira de Bahamas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_bahia",
+          "nome": "Bandeira da Bahia",
+          "descricao": "Bandeira do estado brasileiro da Bahia, com triângulo branco em quadrado azul e listras vermelhas e brancas.",
+          "variantes": [
+            "Bahia"
+          ]
+        },
+        {
+          "id": "bandeira_de_barbados",
+          "nome": "Bandeira de Barbados",
+          "descricao": "Bandeira nacional de Barbados, com faixas azul, amarela e azul e um tridente preto no centro.",
+          "variantes": [
+            "Flag of Barbados"
+          ]
+        },
+        {
+          "id": "bandeira_de_camaroes",
+          "nome": "Bandeira de Camarões",
+          "descricao": "Bandeira de Camarões, tricolor vertical verde, vermelho e amarelo com estrela amarela no centro.",
+          "variantes": [
+            "Camarões",
+            "Bandeira dos Camarões"
+          ]
+        },
+        {
+          "id": "bandeira_do_panama",
+          "nome": "Bandeira do Panamá",
+          "descricao": "Bandeira nacional do Panamá, dividida em quatro quadrantes com uma estrela azul e uma vermelha.",
+          "variantes": [
+            "Panamá",
+            "Bandeira panamenha"
+          ]
+        },
+        {
+          "id": "bandeira_de_granada",
+          "nome": "Bandeira de Granada",
+          "descricao": "Bandeira nacional de Granada, país insular do Caribe, com bordas vermelhas, triângulos verdes e amarelos e sete estrelas.",
+          "variantes": [
+            "Bandeira granadina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bandeira de Serra Leoa",
+        "descricao": "Bandeira nacional de Serra Leoa, tricolor horizontal verde, branca e azul.",
+        "variantes": [
+          "Serra Leoa",
+          "Bandeira de Sierra Leone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "serra_leoa",
+          "nome": "Serra Leoa",
+          "descricao": "País da África Ocidental, antiga colônia britânica, cuja capital é Freetown.",
+          "variantes": [
+            "Sierra Leone"
+          ]
+        },
+        {
+          "id": "bandeira_de_israel",
+          "nome": "Bandeira de Israel",
+          "descricao": "Bandeira nacional de Israel, branca com duas faixas azuis horizontais e a Estrela de Davi.",
+          "variantes": [
+            "Flag of Israel"
+          ]
+        },
+        {
+          "id": "bandeira_de_sergipe",
+          "nome": "Bandeira de Sergipe",
+          "descricao": "Bandeira do estado brasileiro de Sergipe, com quatro listras verdes e amarelas e cinco estrelas brancas em campo azul.",
+          "variantes": [
+            "Sergipe"
+          ]
+        },
+        {
+          "id": "bandeira_de_palau",
+          "nome": "Bandeira de Palau",
+          "descricao": "Bandeira nacional de Palau, com um disco amarelo deslocado sobre fundo azul-celeste.",
+          "variantes": [
+            "Palau",
+            "Bandeira palauana"
+          ]
+        },
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bandeira da República do Congo",
+        "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+        "variantes": [
+          "República do Congo",
+          "Bandeira do Congo-Brazzaville"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "bandeira_da_tchequia",
+          "nome": "Bandeira da Tchéquia",
+          "descricao": "Bandeira atual da Tchéquia: faixas branca e vermelha com triângulo azul junto à haste.",
+          "variantes": [
+            "Tchéquia",
+            "Bandeira da República Tcheca",
+            "Bandeira tcheca"
+          ]
+        },
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "benim",
+          "nome": "Benim",
+          "descricao": "País da África Ocidental, antiga colônia francesa, chamado Daomé até 1975.",
+          "variantes": [
+            "Benin",
+            "República do Benim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira de Taiwan",
+        "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+        "variantes": [
+          "Taiwan",
+          "Bandeira da República da China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taiwan",
+          "nome": "Taiwan",
+          "descricao": "Ilha do leste da Ásia, separada da China continental pelo estreito de Taiwan.",
+          "variantes": [
+            "Formosa"
+          ]
+        },
+        {
+          "id": "bandeira_da_tchequia",
+          "nome": "Bandeira da Tchéquia",
+          "descricao": "Bandeira atual da Tchéquia: faixas branca e vermelha com triângulo azul junto à haste.",
+          "variantes": [
+            "Tchéquia",
+            "Bandeira da República Tcheca",
+            "Bandeira tcheca"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        },
+        {
+          "id": "talian",
+          "nome": "Talian",
+          "descricao": "Língua de base vêneta falada por descendentes de imigrantes italianos no Sul do Brasil",
+          "variantes": [
+            "Vêneto brasileiro"
+          ]
+        },
+        {
+          "id": "bandeira_da_tailandia",
+          "nome": "Bandeira da Tailândia",
+          "descricao": "Bandeira atual da Tailândia: cinco listras horizontais vermelha, branca, azul larga, branca e vermelha.",
+          "variantes": [
+            "Tailândia",
+            "Bandeira tailandesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bandeira da República Centro-Africana",
+        "descricao": "Bandeira nacional da República Centro-Africana, com quatro faixas horizontais, faixa vermelha vertical e estrela amarela.",
+        "variantes": [
+          "República Centro-Africana",
+          "Bandeira da Centro-Africana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_tchequia",
+          "nome": "Bandeira da Tchéquia",
+          "descricao": "Bandeira atual da Tchéquia: faixas branca e vermelha com triângulo azul junto à haste.",
+          "variantes": [
+            "Tchéquia",
+            "Bandeira da República Tcheca",
+            "Bandeira tcheca"
+          ]
+        },
+        {
+          "id": "bandeira_da_croacia",
+          "nome": "Bandeira da Croácia",
+          "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Bandeira croata"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "bandeira_da_africa_do_sul",
+          "nome": "Bandeira da África do Sul",
+          "descricao": "Bandeira nacional da África do Sul, de seis cores, com uma forma de Y horizontal verde.",
+          "variantes": [
+            "Bandeira sul-africana"
+          ]
+        },
+        {
+          "id": "bandeira_da_tailandia",
+          "nome": "Bandeira da Tailândia",
+          "descricao": "Bandeira atual da Tailândia: cinco listras horizontais vermelha, branca, azul larga, branca e vermelha.",
+          "variantes": [
+            "Tailândia",
+            "Bandeira tailandesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bandeira do Sudão do Sul",
+        "descricao": "Bandeira nacional do Sudão do Sul, com faixas preta, vermelha e verde, triângulo azul e estrela amarela.",
+        "variantes": [
+          "Sudão do Sul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        },
+        {
+          "id": "bandeira_do_sudao",
+          "nome": "Bandeira do Sudão",
+          "descricao": "Bandeira do Sudão, faixas vermelha, branca e preta com triângulo verde junto à haste.",
+          "variantes": [
+            "Sudão"
+          ]
+        },
+        {
+          "id": "casuar",
+          "nome": "Casuar",
+          "descricao": "Grande ave corredora não voadora de plumagem negra, pescoço azul e elmo na cabeça (Casuarius casuarius).",
+          "variantes": [
+            "Casuar-do-sul",
+            "Casuarius casuarius"
+          ]
+        },
+        {
+          "id": "pudu",
+          "nome": "Pudu",
+          "descricao": "Gênero de pequenos cervos sul-americanos, os menores cervos do mundo, aqui o pudu-do-sul (Pudu puda).",
+          "variantes": [
+            "Pudu puda",
+            "Pudu-do-sul"
+          ]
+        },
+        {
+          "id": "bandeira_da_africa_do_sul",
+          "nome": "Bandeira da África do Sul",
+          "descricao": "Bandeira nacional da África do Sul, de seis cores, com uma forma de Y horizontal verde.",
+          "variantes": [
+            "Bandeira sul-africana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Bandeira do Benin",
+        "descricao": "Bandeira nacional do Benin, com faixa vertical verde à esquerda e faixas amarela e vermelha à direita.",
+        "variantes": [
+          "Benin",
+          "Bandeira do Benim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "benim",
+          "nome": "Benim",
+          "descricao": "País da África Ocidental, antiga colônia francesa, chamado Daomé até 1975.",
+          "variantes": [
+            "Benin",
+            "República do Benim"
+          ]
+        },
+        {
+          "id": "bandeira_do_ira",
+          "nome": "Bandeira do Irã",
+          "descricao": "Bandeira nacional do Irã, tricolor verde, branca e vermelha com emblema vermelho e inscrições nas bordas das faixas.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        },
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bandeira da Micronésia",
+        "descricao": "Bandeira dos Estados Federados da Micronésia, azul-claro com quatro estrelas brancas em losango.",
+        "variantes": [
+          "Micronésia",
+          "Bandeira dos Estados Federados da Micronésia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_croacia",
+          "nome": "Bandeira da Croácia",
+          "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Bandeira croata"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "bandeira_da_mongolia",
+          "nome": "Bandeira da Mongólia",
+          "descricao": "Bandeira nacional atual da Mongólia, com três faixas verticais vermelha, azul e vermelha e o símbolo soyombo amarelo.",
+          "variantes": [
+            "Mongólia",
+            "Bandeira mongol"
+          ]
+        },
+        {
+          "id": "bandeira_da_bosnia_e_herzegovina",
+          "nome": "Bandeira da Bósnia e Herzegovina",
+          "descricao": "Bandeira nacional da Bósnia e Herzegovina, azul com triângulo amarelo e fileira de estrelas brancas.",
+          "variantes": [
+            "Bósnia e Herzegovina",
+            "Bandeira da Bósnia"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira de Omã."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A candidata 'Ruanda' é o país, não a bandeira."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira das Comores."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira das Bahamas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A candidata 'Serra Leoa' é o país, não a bandeira."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira da República do Congo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "A candidata 'Taiwan' é a ilha, não a bandeira."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira da República Centro-Africana."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "'Sudão do Sul' é o país; a bandeira do Sudão é outra entidade."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A candidata 'Benim' é o país, não a bandeira."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira da Micronésia."
+    }
+  ]
+}
