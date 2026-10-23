@@ -1,0 +1,678 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Steve (Minecraft)",
+        "descricao": "Skin padrão do jogador em Minecraft, de camisa azul-turquesa e calça azul.",
+        "variantes": [
+          "Steve"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "steven_stone",
+          "nome": "Steven Stone",
+          "descricao": "Campeão da Liga Pokémon de Hoenn nos jogos Ruby e Sapphire, colecionador de pedras raras.",
+          "variantes": [
+            "Steven",
+            "Daigo"
+          ]
+        },
+        {
+          "id": "saque_tenis",
+          "nome": "Saque (tênis)",
+          "descricao": "Golpe que inicia cada ponto no tênis, executado lançando a bola ao ar e golpeando-a com a raquete.",
+          "variantes": [
+            "Serviço",
+            "Serve"
+          ]
+        },
+        {
+          "id": "creeper",
+          "nome": "Creeper",
+          "descricao": "Criatura verde que explode ao se aproximar do jogador no jogo Minecraft.",
+          "variantes": [
+            "Creeper (Minecraft)"
+          ]
+        },
+        {
+          "id": "minecraft",
+          "nome": "Minecraft",
+          "descricao": "Jogo de construção com blocos criado pelo sueco Markus Persson e lançado em 2009.",
+          "variantes": []
+        },
+        {
+          "id": "rio_tibre",
+          "nome": "Rio Tibre",
+          "descricao": "Rio da Itália central que atravessa Roma, aqui com o Castelo e a Ponte Sant'Angelo.",
+          "variantes": [
+            "Tibre",
+            "Tevere",
+            "Tiber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Diddy Kong",
+        "descricao": "Macaco de boné vermelho, sobrinho e parceiro de Donkey Kong, criado pela Rare.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "donkey_kong_jogo_de_1981",
+          "nome": "Donkey Kong (jogo de 1981)",
+          "descricao": "Fliperama da Nintendo de 1981 em que um gorila sequestra uma moça e marca a estreia de Mario.",
+          "variantes": [
+            "Donkey Kong"
+          ]
+        },
+        {
+          "id": "rio_mekong",
+          "nome": "Rio Mekong",
+          "descricao": "Grande rio do Sudeste Asiático que nasce no planalto do Tibete e deságua no mar da China Meridional.",
+          "variantes": [
+            "Mekong",
+            "Mecongue"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Rei Boo",
+        "descricao": "Líder dos fantasmas Boo e principal vilão da série Luigi's Mansion.",
+        "variantes": [
+          "King Boo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rei_momo",
+          "nome": "Rei Momo",
+          "descricao": "Personagem que reina simbolicamente sobre o carnaval e recebe a chave da cidade.",
+          "variantes": []
+        },
+        {
+          "id": "luis_xiv",
+          "nome": "Luís XIV",
+          "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes.",
+          "variantes": [
+            "Rei Sol",
+            "Louis XIV"
+          ]
+        },
+        {
+          "id": "re_bordosa",
+          "nome": "Rê Bordosa",
+          "descricao": "Personagem boêmia dos quadrinhos de humor brasileiros dos anos 1980, famosa pelas ressacas",
+          "variantes": []
+        },
+        {
+          "id": "fenda_do_biquini",
+          "nome": "Fenda do Biquíni",
+          "descricao": "Cidade submarina fictícia onde vivem Bob Esponja e seus amigos.",
+          "variantes": [
+            "Bikini Bottom"
+          ]
+        },
+        {
+          "id": "ary_barroso",
+          "nome": "Ary Barroso",
+          "descricao": "Compositor mineiro de Aquarela do Brasil, também locutor esportivo de rádio.",
+          "variantes": [
+            "Ari Barroso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sub-Zero",
+        "descricao": "Ninja de roupa azul que controla o gelo, da série de jogos de luta Mortal Kombat.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "umbuzeiro",
+          "nome": "Umbuzeiro",
+          "descricao": "Árvore da caatinga, Spondias tuberosa, que produz o umbu e armazena água nas raízes.",
+          "variantes": [
+            "Spondias tuberosa",
+            "Imbuzeiro",
+            "Pé de umbu"
+          ]
+        },
+        {
+          "id": "zero",
+          "nome": "Zero",
+          "descricao": "O número zero e o algarismo que o representa.",
+          "variantes": [
+            "0",
+            "Número zero"
+          ]
+        },
+        {
+          "id": "zero_absoluto",
+          "nome": "Zero absoluto",
+          "descricao": "Temperatura mais baixa teoricamente possível, zero na escala Kelvin.",
+          "variantes": [
+            "Absolute zero",
+            "Zero kelvin"
+          ]
+        },
+        {
+          "id": "xerxes_primeiro",
+          "nome": "Xerxes primeiro",
+          "descricao": "Rei persa aquemênida do século cinco antes de Cristo, filho de Dario primeiro, que invadiu a Grécia.",
+          "variantes": [
+            "Xerxes I",
+            "Xerxes, o Grande",
+            "Assuero",
+            "Xerxes"
+          ]
+        },
+        {
+          "id": "zero_pokemon",
+          "nome": "Zero (Pokémon)",
+          "descricao": "Vilão do filme Giratina e o Guerreiro dos Céus, caçador que persegue Giratina.",
+          "variantes": [
+            "Zero"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Amy Rose",
+        "descricao": "Ouriça rosa da série Sonic the Hedgehog, apaixonada por Sonic e dona de um martelo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lago_retba",
+          "nome": "Lago Retba",
+          "descricao": "Lago salgado de águas cor-de-rosa perto de Dacar, no Senegal.",
+          "variantes": [
+            "Lago Rosa",
+            "Lac Rose",
+            "Lake Retba"
+          ]
+        },
+        {
+          "id": "agudas",
+          "nome": "Agudás",
+          "descricao": "Comunidade de descendentes de africanos e brasileiros que se estabeleceram no golfo da Guiné vindos do Brasil, sobretudo no século dezenove.",
+          "variantes": [
+            "Amarôs",
+            "Brasileiros do Benim"
+          ]
+        },
+        {
+          "id": "jambo",
+          "nome": "Jambo",
+          "descricao": "Fruta vermelha e brilhante de árvore tropical do gênero Syzygium, como o jambo-vermelho (Syzygium malaccense).",
+          "variantes": [
+            "Jambo-vermelho",
+            "Jambo-rosa"
+          ]
+        },
+        {
+          "id": "amy_winehouse",
+          "nome": "Amy Winehouse",
+          "descricao": "Cantora e compositora britânica de soul e jazz, autora do álbum Back to Black",
+          "variantes": [
+            "Amy Jade Winehouse"
+          ]
+        },
+        {
+          "id": "rose_pokemon",
+          "nome": "Rose (Pokémon)",
+          "descricao": "Presidente da Liga Pokémon de Galar e da empresa Macro Cosmos, antagonista de Pokémon Sword e Shield.",
+          "variantes": [
+            "Chairman Rose",
+            "Presidente Rose"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Aloy",
+        "descricao": "Protagonista da série de jogos Horizon, caçadora da tribo Nora.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "baltoy",
+          "nome": "Baltoy",
+          "descricao": "Pokémon de terra e psíquico em forma de boneco de argila giratório, número 343 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "alho",
+          "nome": "Alho",
+          "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+          "variantes": [
+            "Allium sativum"
+          ]
+        },
+        {
+          "id": "babosa",
+          "nome": "Babosa",
+          "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+          "variantes": [
+            "Aloe vera",
+            "Aloé",
+            "Aloe barbadensis"
+          ]
+        },
+        {
+          "id": "halo",
+          "nome": "Halo",
+          "descricao": "Arco de proteção de titânio instalado sobre o cockpit dos carros de Fórmula 1 para proteger a cabeça do piloto.",
+          "variantes": [
+            "Halo de proteção"
+          ]
+        },
+        {
+          "id": "contralto",
+          "nome": "Contralto",
+          "descricao": "Tipo de voz feminina de canto lírico, a de registro mais grave entre as vozes femininas.",
+          "variantes": [
+            "Contralto (voz)",
+            "Alto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Yoshi",
+        "descricao": "Dinossauro verde aliado de Mario, da franquia Super Mario.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        },
+        {
+          "id": "lago_nyos",
+          "nome": "Lago Nyos",
+          "descricao": "Lago de cratera vulcânica no noroeste de Camarões, palco de uma tragédia em 1986.",
+          "variantes": [
+            "Nyos",
+            "Lake Nyos"
+          ]
+        },
+        {
+          "id": "drakkar",
+          "nome": "Drakkar",
+          "descricao": "Navio longo de guerra a remo e vela usado pelos povos nórdicos na Era Viking.",
+          "variantes": [
+            "Drakkar (barco viking)",
+            "Barco viking",
+            "Longship",
+            "Langskip",
+            "Dracar"
+          ]
+        },
+        {
+          "id": "parque_nacional_de_yosemite",
+          "nome": "Parque Nacional de Yosemite",
+          "descricao": "Parque nacional na Serra Nevada da Califórnia, famoso por paredões de granito e cachoeiras.",
+          "variantes": [
+            "Yosemite",
+            "Yosemite National Park"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos",
+            "Kuaizi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rayman",
+        "descricao": "Personagem sem braços e pernas, de cabelo loiro, protagonista da série de jogos Rayman.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rama",
+          "nome": "Rama",
+          "descricao": "Herói do épico indiano Ramayana, venerado no hinduísmo como encarnação de Vishnu.",
+          "variantes": [
+            "Ramachandra",
+            "Ram"
+          ]
+        },
+        {
+          "id": "ramada",
+          "nome": "Ramadã",
+          "descricao": "Nono mês do calendário islâmico, dedicado ao jejum",
+          "variantes": [
+            "Ramadão",
+            "Ramadan"
+          ]
+        },
+        {
+          "id": "ray_ban",
+          "nome": "Ray-Ban",
+          "descricao": "Marca de óculos escuros criada nos Estados Unidos pela Bausch & Lomb nos anos 1930.",
+          "variantes": []
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sly Cooper",
+        "descricao": "Guaxinim ladrão de boina azul e bengala em gancho, protagonista da série Sly Cooper.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "silph_scope",
+          "nome": "Silph Scope",
+          "descricao": "Item de Pokémon Red, Blue e Yellow que permite identificar os fantasmas da Torre Pokémon, em Lavender.",
+          "variantes": [
+            "Scope Silph"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        },
+        {
+          "id": "wooper",
+          "nome": "Wooper",
+          "descricao": "Pokémon anfíbio do tipo Água e Terra, número 194 da Pokédex Nacional, da segunda geração.",
+          "variantes": []
+        },
+        {
+          "id": "looker",
+          "nome": "Looker",
+          "descricao": "Agente da Polícia Internacional que aparece em vários jogos Pokémon, a partir de Platinum, investigando organizações criminosas.",
+          "variantes": [
+            "Handsome"
+          ]
+        },
+        {
+          "id": "cobre_2",
+          "nome": "Cobre",
+          "descricao": "Metal avermelhado, o primeiro a ser trabalhado em larga escala na Pré-História e base da liga de bronze.",
+          "variantes": [
+            "Copper",
+            "Cuprum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Chun-Li",
+        "descricao": "Lutadora chinesa de vestido azul, principal personagem feminina da série Street Fighter.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "orelhao",
+          "nome": "Orelhão",
+          "descricao": "Cabine de telefone público em forma de concha, símbolo das ruas brasileiras desde os anos setenta.",
+          "variantes": [
+            "Chu I",
+            "Chu II"
+          ]
+        },
+        {
+          "id": "tunel_do_canal_da_mancha",
+          "nome": "Túnel do Canal da Mancha",
+          "descricao": "Túnel ferroviário submarino sob o Canal da Mancha que liga a Inglaterra à França, inaugurado em 1994.",
+          "variantes": [
+            "Eurotúnel",
+            "Channel Tunnel",
+            "Chunnel"
+          ]
+        },
+        {
+          "id": "hau_oli",
+          "nome": "Hau'oli",
+          "descricao": "Maior cidade da região de Alola, na ilha Melemele, nos jogos Pokémon Sun e Moon.",
+          "variantes": [
+            "Hau'oli City"
+          ]
+        },
+        {
+          "id": "li_na",
+          "nome": "Li Na",
+          "descricao": "Tenista chinesa nascida em 1982, campeã de Roland Garros em 2011 e do Aberto da Austrália em 2014.",
+          "variantes": [
+            "Na Li"
+          ]
+        },
+        {
+          "id": "chingling",
+          "nome": "Chingling",
+          "descricao": "Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Shadow the Hedgehog",
+        "descricao": "Ouriço preto de listras vermelhas, rival de Sonic na série Sonic the Hedgehog.",
+        "variantes": [
+          "Shadow"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sonic",
+          "nome": "Sonic",
+          "descricao": "Ouriço azul supersônico, mascote da Sega e protagonista da série Sonic the Hedgehog.",
+          "variantes": [
+            "Sonic the Hedgehog",
+            "Sonic, o Ouriço"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "marshadow",
+          "nome": "Marshadow",
+          "descricao": "Pokémon dos tipos Lutador e Fantasma, número 802 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "shaduf",
+          "nome": "Shaduf",
+          "descricao": "Aparelho de irrigação com uma vara basculante, um balde e um contrapeso, usado no Egito para tirar água do Nilo",
+          "variantes": [
+            "Shadoof",
+            "Chaduf",
+            "Picota"
+          ]
+        },
+        {
+          "id": "hirohito",
+          "nome": "Hirohito",
+          "descricao": "Imperador do Japão de 1926 a 1989, que anunciou a rendição japonesa em 1945.",
+          "variantes": [
+            "Imperador Showa",
+            "Shōwa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Marcus Fenix",
+        "descricao": "Sargento da Coalizão dos Governos Ordenados e protagonista da série Gears of War.",
+        "variantes": [
+          "Marcus Michael Fenix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marco_aurelio",
+          "nome": "Marco Aurélio",
+          "descricao": "Imperador romano e filósofo estoico (121–180), autor das Meditações.",
+          "variantes": [
+            "Marcus Aurelius"
+          ]
+        },
+        {
+          "id": "marco_antonio",
+          "nome": "Marco Antônio",
+          "descricao": "General e político romano do século primeiro antes de Cristo, aliado de Cleópatra e derrotado por Otaviano.",
+          "variantes": [
+            "Marcus Antonius",
+            "Mark Antony"
+          ]
+        },
+        {
+          "id": "marca_generica",
+          "nome": "Marca genérica",
+          "descricao": "Fenômeno em que o nome de uma marca passa a designar toda uma categoria de produtos.",
+          "variantes": [
+            "Vulgarização de marca",
+            "Generic trademark"
+          ]
+        },
+        {
+          "id": "mareanie",
+          "nome": "Mareanie",
+          "descricao": "Pokémon venenoso e aquático de estrela-do-mar com espinhos, número 747 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "maractus",
+          "nome": "Maractus",
+          "descricao": "Pokémon do tipo Planta, número 556 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Steve é um personagem distinto de Creeper, Minecraft e demais candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Diddy Kong é diferente do jogo Donkey Kong."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Rei Boo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sub-Zero de Mortal Kombat não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Amy Rose não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Aloy não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Yoshi não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Rayman não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sly Cooper não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Chun-Li não está entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Shadow é distinto de Sonic e demais candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Marcus Fenix não está entre as candidatas."
+    }
+  ]
+}

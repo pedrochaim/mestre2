@@ -1,0 +1,240 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Steve em arte oficial, sem texto, reconhecível. A silhueta é um bloco que se confunde com Alex.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Steve",
+      "ancora": {
+        "nome": "Steve (Minecraft)",
+        "descricao": "Skin padrão do jogador em Minecraft, de camisa azul-turquesa e calça azul.",
+        "variantes": [
+          "Steve"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Diddy Kong claro e sem texto. Pergunta sobre a criadora, sustentada pelo trecho. Usa a imagem colorida.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que empresa britânica criou este personagem?",
+      "resposta": "Rare",
+      "distratores": [
+        "Capcom",
+        "Sega",
+        "Naughty Dog"
+      ],
+      "ancora": {
+        "nome": "Diddy Kong",
+        "descricao": "Macaco de boné vermelho, sobrinho e parceiro de Donkey Kong, criado pela Rare.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rei Boo reconhecível pela coroa e pela gema. A silhueta é uma mancha. Pergunta sobre seu arqui-inimigo, sustentada pelo trecho.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que herói é o arqui-inimigo deste personagem?",
+      "resposta": "Luigi",
+      "ancora": {
+        "nome": "Rei Boo",
+        "descricao": "Líder dos fantasmas Boo e principal vilão da série Luigi's Mansion.",
+        "variantes": [
+          "King Boo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sub-Zero, ninja azul de Mortal Kombat, em arte sem texto. A silhueta se confunde com outros ninjas, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Sub-Zero",
+      "ancora": {
+        "nome": "Sub-Zero",
+        "descricao": "Ninja de roupa azul que controla o gelo, da série de jogos de luta Mortal Kombat.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Amy Rose, sozinha e de corpo inteiro. A silhueta (espetos, orelhas, vestido, botas) é reconhecível. Pergunta de múltipla escolha com personagens parecidas da franquia.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Amy Rose",
+      "distratores": [
+        "Cream the Rabbit",
+        "Rouge the Bat",
+        "Blaze the Cat"
+      ],
+      "ancora": {
+        "nome": "Amy Rose",
+        "descricao": "Ouriça rosa da série Sonic the Hedgehog, apaixonada por Sonic e dona de um martelo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de Aloy, sem texto. É só busto, então não serve de silhueta. A pergunta vai além do nome, para a série.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que série de jogos é protagonista esta personagem?",
+      "resposta": "Horizon",
+      "ancora": {
+        "nome": "Aloy",
+        "descricao": "Protagonista da série de jogos Horizon, caçadora da tribo Nora.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Yoshi claro, sozinho e de corpo inteiro. A silhueta é razoável, mas na múltipla escolha a colorida com distratores verdes parecidos é mais justa.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Yoshi",
+      "distratores": [
+        "Gex",
+        "Croc",
+        "Yooka"
+      ],
+      "ancora": {
+        "nome": "Yoshi",
+        "descricao": "Dinossauro verde aliado de Mario, da franquia Super Mario.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rayman, com membros flutuantes, é inconfundível. A silhueta fica em pedaços, então usa a colorida. Pergunta sobre o criador, amplamente documentado.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que designer francês criou este personagem?",
+      "resposta": "Michel Ancel",
+      "ancora": {
+        "nome": "Rayman",
+        "descricao": "Personagem sem braços e pernas, de cabelo loiro, protagonista da série de jogos Rayman.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Sly Cooper reconhecível, sem texto. A pergunta vai à sua rival, sustentada pelo trecho.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que inspetora de polícia persegue este personagem?",
+      "resposta": "Carmelita Fox",
+      "ancora": {
+        "nome": "Sly Cooper",
+        "descricao": "Guaxinim ladrão de boina azul e bengala em gancho, protagonista da série Sly Cooper.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Chun-Li em arte oficial, sem texto. A silhueta tem respingos de água e não é nítida, então usa a colorida com distratores de Street Fighter.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Quem é esta personagem?",
+      "resposta": "Chun-Li",
+      "distratores": [
+        "Cammy",
+        "Sakura",
+        "Juri"
+      ],
+      "ancora": {
+        "nome": "Chun-Li",
+        "descricao": "Lutadora chinesa de vestido azul, principal personagem feminina da série Street Fighter.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Shadow claro e sem texto. A silhueta pode ser confundida com Sonic ou Silver, então usa a colorida. Troquei a família para o_que_e porque a de autoria só rende uma resposta trivial (Sega).",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Shadow the Hedgehog",
+      "ancora": {
+        "nome": "Shadow the Hedgehog",
+        "descricao": "Ouriço preto de listras vermelhas, rival de Sonic na série Sonic the Hedgehog.",
+        "variantes": [
+          "Shadow"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Marcus Fenix, sem texto, reconhecível pela bandana e pela barba. Não há silhueta. Pergunta sobre a série, em múltipla escolha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que série de jogos é protagonista este sargento?",
+      "resposta": "Gears of War",
+      "distratores": [
+        "Halo",
+        "Killzone",
+        "Mass Effect"
+      ],
+      "ancora": {
+        "nome": "Marcus Fenix",
+        "descricao": "Sargento da Coalizão dos Governos Ordenados e protagonista da série Gears of War.",
+        "variantes": [
+          "Marcus Michael Fenix"
+        ]
+      }
+    }
+  ]
+}

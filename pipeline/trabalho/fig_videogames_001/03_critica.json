@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; os trechos confirmam que Steve é a skin padrão original.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado (Rare criou Diddy), mas com a pista 'britânica' os distratores (Capcom, Sega, Naughty Dog) não são britânicos, então a resposta sai por eliminação sem a figura. Trocar por distratores britânicos.",
+      "reescrita": {
+        "pergunta": "Que empresa britânica criou este personagem?",
+        "resposta": "Rare",
+        "distratores": [
+          "Codemasters",
+          "Psygnosis",
+          "Team17"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Luigi é amplamente documentado como arqui-inimigo de King Boo, e os trechos mostram a vingança contra Luigi. O enunciado não permite responder sem reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o nome Sub-Zero vale para as duas encarnações.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores do mesmo tipo (personagens femininas de Sonic), curtos e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Aloy como protagonista da série Horizon. O enunciado não nomeia a série.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são mascotes reptilianos de outras franquias, críveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos divergem sobre a nacionalidade de Ancel (um diz monegasco, outro francês). Retirar 'francês' evita a imprecisão e não altera a resposta.",
+      "reescrita": {
+        "pergunta": "Que designer de jogos criou este personagem?",
+        "resposta": "Michel Ancel"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carmelita Fox é a inspetora que persegue Sly, segundo os trechos. O enunciado não permite responder sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são outras lutadoras de Street Fighter, críveis e incorretas.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de Shadow the Hedgehog.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marcus Fenix é protagonista de Gears of War. Distratores são séries de tiro de ficção científica, críveis e incorretas.",
+      "reescrita": null
+    }
+  ]
+}
