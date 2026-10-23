@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Repolho verde claro e reconhecível; nível 3 pergunta o parente da mesma espécie.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes vegetais pertence à mesma espécie que esta hortaliça?",
+      "resposta": "Couve-flor",
+      "distratores": [
+        "Cenoura",
+        "Alface",
+        "Espinafre"
+      ],
+      "ancora": {
+        "nome": "Repolho",
+        "descricao": "Hortaliça de folhas densas em cabeça, cultivar de Brassica oleracea.",
+        "variantes": [
+          "Couve-repolho",
+          "Cabbage"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ilustração botânica antiga com legenda parcial e planta não reconhecível como mandioquinha; a raiz não aparece."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Só aparecem folhas de uma muda, sem fruto nem flor; não é reconhecível como jambolão."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Caixa de ovos de galinha clara, texto da caixa ilegível; nível 3 pergunta a ave de origem.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que ave põe estes ovos?",
+      "resposta": "Galinha",
+      "ancora": {
+        "nome": "Ovo de galinha",
+        "descricao": "Ovos marrons de galinha em embalagem de papelão, alimento comum.",
+        "variantes": [
+          "Ovo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Shiitake bem visível, cogumelos marrons com lamelas brancas; pergunta sobre o país dos registros de cultivo.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Os registros escritos mais antigos do cultivo deste cogumelo vêm de que país?",
+      "resposta": "China",
+      "ancora": {
+        "nome": "Shiitake",
+        "descricao": "Cogumelo comestível marrom do Leste Asiático, Lentinula edodes.",
+        "variantes": [
+          "Lentinula edodes",
+          "Cogumelo shitake"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Bagas escuras secas, em foto ruim, parecem pimenta ou outras bagas; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Variedade de queijos claramente reconhecível; texto de rótulo é ilegível e não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que alimento é este?",
+      "resposta": "Queijo",
+      "ancora": {
+        "nome": "Queijo",
+        "descricao": "Derivado do leite coagulado, aqui em várias peças e rodas curadas.",
+        "variantes": [
+          "Queijos"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Champignon branco inteiro e cortado, reconhecível; múltipla com cogumelos brancos parecidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cogumelo é este?",
+      "resposta": "Champignon",
+      "distratores": [
+        "Cogumelo-ostra",
+        "Shimeji branco",
+        "Enoki"
+      ],
+      "ancora": {
+        "nome": "Champignon",
+        "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+        "variantes": [
+          "Champignon de Paris",
+          "Agaricus bisporus",
+          "Cogumelo-de-paris"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Flores brancas com centro amarelo e folhas carnosas típicas de Pereskia aculeata; aceitável com pista do cacto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta trepadeira é um cacto de folhas comestíveis. Em que estado brasileiro elas são um ingrediente popular?",
+      "resposta": "Minas Gerais",
+      "ancora": {
+        "nome": "Ora-pro-nóbis",
+        "descricao": "Cacto trepador de folhas comestíveis, Pereskia aculeata, usado na culinária mineira.",
+        "variantes": [
+          "Pereskia aculeata",
+          "Groselha-de-barbados"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Três tangerinas com folhas, fundo branco, claras.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta cítrica é esta?",
+      "resposta": "Tangerina (mexerica, bergamota)",
+      "ancora": {
+        "nome": "Tangerina",
+        "descricao": "Fruta cítrica pequena de casca solta, Citrus reticulata.",
+        "variantes": [
+          "Mexerica",
+          "Bergamota",
+          "Mandarina",
+          "Citrus reticulata"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Paus e pó de canela em fundo branco, nítidos; múltipla com temperos de aspecto diferente mas plausíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tempero é este?",
+      "resposta": "Canela",
+      "distratores": [
+        "Baunilha em fava",
+        "Noz-moscada",
+        "Cúrcuma"
+      ],
+      "ancora": {
+        "nome": "Canela",
+        "descricao": "Especiaria obtida da casca interna de árvores do gênero Cinnamomum, em rolos e em pó.",
+        "variantes": [
+          "Canela em pau",
+          "Cinnamomum"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Frutos em forma de dedos, inconfundíveis e nítidos.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Mão-de-buda",
+      "ancora": {
+        "nome": "Mão-de-buda",
+        "descricao": "Variedade de cidra, Citrus medica var. sarcodactylis, de fruto dividido em segmentos como dedos.",
+        "variantes": [
+          "Cidra-digitada",
+          "Buddha's hand",
+          "Citrus medica var. sarcodactylis"
+        ]
+      }
+    }
+  ]
+}

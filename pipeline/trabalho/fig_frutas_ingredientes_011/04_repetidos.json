@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que tempero é este?",
+        "resposta": "Canela"
+      },
+      "existentes": [
+        {
+          "id": "q06144",
+          "pergunta": "Entre as especiarias que movimentaram as grandes navegações, qual destas é feita da casca de uma árvore?",
+          "resposta": "Canela"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Mão-de-buda"
+      },
+      "existentes": [
+        {
+          "id": "q02841",
+          "pergunta": "Que fruta cítrica de formato curioso é esta?",
+          "resposta": "Mão-de-buda"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova é identificação visual do tempero; a existente pede a especiaria feita de casca de árvore. Saber uma não garante a outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q02841",
+      "motivo": "As duas pedem para identificar a mesma fruta (mão-de-buda) pela imagem, com a mesma resposta."
+    }
+  ]
+}

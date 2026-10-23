@@ -1,0 +1,571 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Repolho",
+        "descricao": "Hortaliça de folhas densas em cabeça, cultivar de Brassica oleracea.",
+        "variantes": [
+          "Couve-repolho",
+          "Cabbage"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brassica_oleracea",
+          "nome": "Brassica oleracea",
+          "descricao": "Espécie vegetal da família da mostarda que deu origem a repolho, couve, brócolis, couve-flor e outras hortaliças",
+          "variantes": [
+            "Couve",
+            "Repolho",
+            "Couve silvestre"
+          ]
+        },
+        {
+          "id": "piolho",
+          "nome": "Piolho",
+          "descricao": "Inseto sem asas, parasita externo do ser humano, que vive no couro cabeludo e se alimenta de sangue.",
+          "variantes": [
+            "Piolho-da-cabeça",
+            "Pediculus humanus capitis"
+          ]
+        },
+        {
+          "id": "cabanagem",
+          "nome": "Cabanagem",
+          "descricao": "Revolta popular ocorrida na província do Grão-Pará entre 1835 e 1840, durante o Período Regencial.",
+          "variantes": [
+            "Guerra dos Cabanos"
+          ]
+        },
+        {
+          "id": "abba",
+          "nome": "ABBA",
+          "descricao": "Grupo pop sueco formado em 1972 por Agnetha, Björn, Benny e Anni-Frid",
+          "variantes": []
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ovo de galinha",
+        "descricao": "Ovos marrons de galinha em embalagem de papelão, alimento comum.",
+        "variantes": [
+          "Ovo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ovo_pokemon",
+          "nome": "Ovo Pokémon",
+          "descricao": "Ovo de onde nascem filhotes de pokémon nos jogos da série principal, desde Gold e Silver, obtido por criação.",
+          "variantes": [
+            "Pokémon Egg",
+            "Ovo"
+          ]
+        },
+        {
+          "id": "porto_de_galinhas",
+          "nome": "Porto de Galinhas",
+          "descricao": "Praia e vila do município de Ipojuca, no litoral sul de Pernambuco, famosa pelas piscinas naturais.",
+          "variantes": []
+        },
+        {
+          "id": "pied_de_poule",
+          "nome": "Pied-de-poule",
+          "descricao": "Padrão têxtil de quadradinhos recortados em duas cores, geralmente preto e branco",
+          "variantes": [
+            "Houndstooth",
+            "Pé de galinha"
+          ]
+        },
+        {
+          "id": "arrepio",
+          "nome": "Arrepio",
+          "descricao": "Reflexo que contrai pequenos músculos da pele e levanta os pelos, deixando a pele arrepiada no frio ou em emoções fortes.",
+          "variantes": [
+            "Pele arrepiada",
+            "Piloereção",
+            "Pele de galinha"
+          ]
+        },
+        {
+          "id": "ovulo",
+          "nome": "Óvulo",
+          "descricao": "Célula reprodutiva feminina.",
+          "variantes": [
+            "Ovócito",
+            "Egg cell"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Shiitake",
+        "descricao": "Cogumelo comestível marrom do Leste Asiático, Lentinula edodes.",
+        "variantes": [
+          "Lentinula edodes",
+          "Cogumelo shitake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lingua_hitita",
+          "nome": "Língua hitita",
+          "descricao": "Língua indo-europeia falada pelos hititas na Anatólia durante a Idade do Bronze, escrita em cuneiforme.",
+          "variantes": [
+            "Hitita",
+            "Hittite language",
+            "Nesita"
+          ]
+        },
+        {
+          "id": "cogumelo_gaiola",
+          "nome": "Cogumelo-gaiola",
+          "descricao": "Clathrus ruber, fungo da família Phallaceae com corpo frutífero vermelho em forma de rede esférica.",
+          "variantes": [
+            "Clathrus ruber",
+            "Cesto-vermelho"
+          ]
+        },
+        {
+          "id": "sphairistike",
+          "nome": "Sphairistikè",
+          "descricao": "Jogo de grama patenteado em 1874 pelo major britânico Walter Clopton Wingfield, precursor do tênis moderno.",
+          "variantes": [
+            "Sferística"
+          ]
+        },
+        {
+          "id": "rene_higuita",
+          "nome": "René Higuita",
+          "descricao": "Ex-goleiro colombiano dos anos 1980 e 1990, famoso pelo estilo ousado e pelas saídas do gol.",
+          "variantes": [
+            "Higuita",
+            "El Loco"
+          ]
+        },
+        {
+          "id": "saque",
+          "nome": "Saquê",
+          "descricao": "Bebida alcoólica tradicional do Japão, obtida pela fermentação do arroz polido.",
+          "variantes": [
+            "Sake",
+            "Nihonshu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Queijo",
+        "descricao": "Derivado do leite coagulado, aqui em várias peças e rodas curadas.",
+        "variantes": [
+          "Queijos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "emmental",
+          "nome": "Emmental",
+          "descricao": "Queijo suíço de massa amarela e firme, famoso pelos grandes buracos redondos.",
+          "variantes": [
+            "Emmentaler",
+            "Queijo suíço"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "chi_rho",
+          "nome": "Chi-Rho",
+          "descricao": "Cristograma formado pelas letras gregas chi e rô sobrepostas, as duas primeiras de Cristo.",
+          "variantes": [
+            "Crismón",
+            "Monograma de Cristo",
+            "Quirô"
+          ]
+        },
+        {
+          "id": "isqueiro",
+          "nome": "Isqueiro",
+          "descricao": "Aparelho portátil de combustível que produz uma chama controlada, aqui um modelo metálico de tampa articulada.",
+          "variantes": [
+            "Zippo"
+          ]
+        },
+        {
+          "id": "quaternios",
+          "nome": "Quatérnios",
+          "descricao": "Sistema de números que estende os números complexos, descrito pelo matemático irlandês William Rowan Hamilton em 1843.",
+          "variantes": [
+            "Quaterniões",
+            "Quaternions"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Champignon",
+        "descricao": "Cogumelo cultivado branco, Agaricus bisporus, o mais consumido no mundo.",
+        "variantes": [
+          "Champignon de Paris",
+          "Agaricus bisporus",
+          "Cogumelo-de-paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        },
+        {
+          "id": "canhao_de_paris",
+          "nome": "Canhão de Paris",
+          "descricao": "Canhão alemão de longuíssimo alcance usado em 1918 para bombardear Paris a partir de posições muito distantes da cidade.",
+          "variantes": [
+            "Paris-Geschütz",
+            "Paris Gun",
+            "Kaiser-Wilhelm-Geschütz"
+          ]
+        },
+        {
+          "id": "acordo_de_paris",
+          "nome": "Acordo de Paris",
+          "descricao": "Tratado internacional sobre mudanças climáticas adotado em dezembro de 2015, na COP21.",
+          "variantes": [
+            "Paris Agreement"
+          ]
+        },
+        {
+          "id": "comuna_de_paris",
+          "nome": "Comuna de Paris",
+          "descricao": "Governo revolucionário popular que controlou Paris em 1871, após a derrota francesa na guerra contra a Prússia, até ser esmagado pelo exército.",
+          "variantes": [
+            "Paris Commune",
+            "La Commune"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ora-pro-nóbis",
+        "descricao": "Cacto trepador de folhas comestíveis, Pereskia aculeata, usado na culinária mineira.",
+        "variantes": [
+          "Pereskia aculeata",
+          "Groselha-de-barbados"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_barbados",
+          "nome": "Bandeira de Barbados",
+          "descricao": "Bandeira nacional de Barbados, com faixas azul, amarela e azul e um tridente preto no centro.",
+          "variantes": [
+            "Flag of Barbados"
+          ]
+        },
+        {
+          "id": "gaiola_de_faraday",
+          "nome": "Gaiola de Faraday",
+          "descricao": "Invólucro condutor que bloqueia campos elétricos externos, protegendo o que está dentro.",
+          "variantes": [
+            "Faraday cage",
+            "Blindagem eletrostática"
+          ]
+        },
+        {
+          "id": "orelha_de_couve_flor",
+          "nome": "Orelha de couve-flor",
+          "descricao": "Deformação da orelha comum em lutadores, causada por traumas repetidos.",
+          "variantes": [
+            "Cauliflower ear",
+            "Orelha de lutador"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "farol_de_alexandria",
+          "nome": "Farol de Alexandria",
+          "descricao": "Farol da Antiguidade na ilha de Faros, no Egito, uma das Sete Maravilhas do Mundo Antigo.",
+          "variantes": [
+            "Farol de Faros",
+            "Pharos de Alexandria",
+            "Lighthouse of Alexandria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tangerina",
+        "descricao": "Fruta cítrica pequena de casca solta, Citrus reticulata.",
+        "variantes": [
+          "Mexerica",
+          "Bergamota",
+          "Mandarina",
+          "Citrus reticulata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mandarim",
+          "nome": "Mandarim",
+          "descricao": "Grupo de dialetos chineses do norte e do sudoeste da China, base do chinês padrão.",
+          "variantes": [
+            "Chinês mandarim"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Canela",
+        "descricao": "Especiaria obtida da casca interna de árvores do gênero Cinnamomum, em rolos e em pó.",
+        "variantes": [
+          "Canela em pau",
+          "Cinnamomum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canela",
+          "nome": "Canela",
+          "descricao": "Especiaria aromática obtida da casca interna de árvores do gênero Cinnamomum.",
+          "variantes": [
+            "Canela-do-ceilão",
+            "Cinnamomum"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "cacnea",
+          "nome": "Cacnea",
+          "descricao": "Pokémon cacto de tipo planta da terceira geração, número 331 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        },
+        {
+          "id": "cana_de_acucar",
+          "nome": "Cana-de-açúcar",
+          "descricao": "Gramínea alta do gênero Saccharum, cultivada para produzir açúcar e etanol",
+          "variantes": [
+            "Saccharum officinarum",
+            "Cana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mão-de-buda",
+        "descricao": "Variedade de cidra, Citrus medica var. sarcodactylis, de fruto dividido em segmentos como dedos.",
+        "variantes": [
+          "Cidra-digitada",
+          "Buddha's hand",
+          "Citrus medica var. sarcodactylis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mao_de_buda",
+          "nome": "Mão-de-buda",
+          "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+          "variantes": [
+            "Cidra-digitada",
+            "Buddha's hand",
+            "Citrus medica var. sarcodactylis"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra"
+          ]
+        },
+        {
+          "id": "johanna",
+          "nome": "Johanna",
+          "descricao": "Mãe de Dawn na série Diamante e Pérola do anime Pokémon, moradora de Twinleaf, em Sinnoh.",
+          "variantes": [
+            "Mãe de Dawn"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "malhacao_de_judas",
+          "nome": "Malhação de Judas",
+          "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa.",
+          "variantes": [
+            "Queima do Judas",
+            "Malhar o Judas"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Repolho é a hortaliça (cultivar); Brassica oleracea é a espécie, entidade mais ampla."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ovo de galinha real difere do Ovo Pokémon e das demais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cogumelo shiitake."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Queijo genérico difere de Emmental, um queijo específico."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cogumelo champignon."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta ora-pro-nóbis."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fruta tangerina; Mandarim é dialeto."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "canela",
+      "motivo": "Mesma especiaria do gênero Cinnamomum, descrição e variantes equivalentes."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "mao_de_buda",
+      "motivo": "Mesma variedade de cidra, Citrus medica var. sarcodactylis."
+    }
+  ]
+}

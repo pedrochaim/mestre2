@@ -274536,5 +274536,180 @@
       "licenca": "CC BY-SA 2.0 de"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q14660",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "repolho",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes vegetais pertence à mesma espécie que esta hortaliça?",
+    "resposta": "Couve-flor",
+    "distratores": [
+      "Cenoura",
+      "Alface",
+      "Espinafre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cabbage",
+      "https://pt.wikipedia.org/wiki/Repolho"
+    ],
+    "imagem": {
+      "arquivo": "q14660.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Witte_kool.jpg",
+      "autor": "Rasbak",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14661",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "ovo_de_galinha",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ave põe estes ovos?",
+    "resposta": "Galinha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eggs_as_food",
+      "https://pt.wikipedia.org/wiki/Ovo_%28alimento%29"
+    ],
+    "imagem": {
+      "arquivo": "q14661.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Eierdoos.jpg",
+      "autor": "Silver Spoon",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14662",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "shiitake",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os registros escritos mais antigos do cultivo deste cogumelo vêm de que país?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shiitake",
+      "https://pt.wikipedia.org/wiki/Shiitake"
+    ],
+    "imagem": {
+      "arquivo": "q14662.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Shiitakegrowing.jpg",
+      "autor": "frankenstoen from Portland, Oregon",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14663",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "queijo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que alimento é este?",
+    "resposta": "Queijo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cheese",
+      "https://pt.wikipedia.org/wiki/Queijo"
+    ],
+    "imagem": {
+      "arquivo": "q14663.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hartkaese_HardCheeses.jpg",
+      "autor": "Eva K. / Eva K.",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q14664",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "champignon",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cogumelo é este?",
+    "resposta": "Champignon",
+    "distratores": [
+      "Cogumelo-ostra",
+      "Shimeji branco",
+      "Enoki"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agaricus_bisporus",
+      "https://pt.wikipedia.org/wiki/Champignon"
+    ],
+    "imagem": {
+      "arquivo": "q14664.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg",
+      "autor": "chris_73",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14665",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "ora_pro_nobis",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As folhas desta planta são ingrediente popular na culinária de qual estado brasileiro?",
+    "resposta": "Minas Gerais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pereskia_aculeata",
+      "https://pt.wikipedia.org/wiki/Pereskia_aculeata"
+    ],
+    "imagem": {
+      "arquivo": "q14665.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pereskia_aculeata_(7204602300).jpg",
+      "autor": "scott.zona from Miami, Florida, USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q14666",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tangerina",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta cítrica é esta?",
+    "resposta": "Tangerina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mandarin_orange",
+      "https://pt.wikipedia.org/wiki/Tangerina"
+    ],
+    "imagem": {
+      "arquivo": "q14666.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mandarin_Oranges_(Citrus_Reticulata).jpg",
+      "autor": "Joe Ravi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14667",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "canela",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tempero é este?",
+    "resposta": "Canela",
+    "distratores": [
+      "Baunilha em fava",
+      "Noz-moscada",
+      "Cúrcuma"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cinnamon",
+      "https://pt.wikipedia.org/wiki/Canela"
+    ],
+    "imagem": {
+      "arquivo": "q14667.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Canelle_Cinnamomum_burmanni_Luc_Viatour.jpg",
+      "autor": "Luc Viatour",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

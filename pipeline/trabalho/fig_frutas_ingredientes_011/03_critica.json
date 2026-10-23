@@ -1,0 +1,73 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Repolho e couve-flor são ambos Brassica oleracea (trecho); distratores de outras espécies e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não dá para responder; resposta única (galinha) apoiada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês diz que o registro escrito mais antigo do cultivo é de 1209, na China (dinastia Song). O 199 d.C. do trecho em português trata do consumo, não do cultivo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta de reconhecimento direta, sem vazamento, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento, com distratores do mesmo tipo (outros cogumelos cultivados) e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'cacto trepadeira de folhas comestíveis' identifica o ora-pro-nóbis sem olhar a figura (teste da imagem coberta). Basta tirar a descrição do enunciado. O fato sobre Minas Gerais está nos trechos.",
+      "reescrita": {
+        "pergunta": "As folhas desta planta são ingrediente popular na culinária de qual estado brasileiro?",
+        "resposta": "Minas Gerais"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta traz uma lista de variantes entre parênteses, o que o manifesto (§7) não permite. Fica só a forma mais conhecida.",
+      "reescrita": {
+        "pergunta": "Que fruta cítrica é esta?",
+        "resposta": "Tangerina"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento, com distratores de especiarias parecidas e dentro do limite de palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fruta inconfundível pelo formato; enunciado sem pista e resposta única.",
+      "reescrita": null
+    }
+  ]
+}
