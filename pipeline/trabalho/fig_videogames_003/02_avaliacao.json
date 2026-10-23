@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de E. Honda, sem texto. Silhueta é uma mancha com o pincel circular, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que jogo de luta este lutador estreou?",
+      "resposta": "Street Fighter II",
+      "distratores": [
+        "Fatal Fury",
+        "Mortal Kombat",
+        "Virtua Fighter"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "E. Honda",
+        "descricao": "Lutador de sumô da série de jogos de luta Street Fighter, da Capcom.",
+        "variantes": [
+          "Edmond Honda"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida de Jill Valentine, sem texto. Silhueta de mulher com pistola é genérica demais.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa criou a série de terror em que esta personagem estreou?",
+      "resposta": "Capcom",
+      "distratores": [
+        "Konami",
+        "Square Enix",
+        "Sega"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jill Valentine",
+        "descricao": "Agente da série de jogos de terror Resident Evil, sobrevivente do desastre de Raccoon City.",
+        "variantes": [
+          "Jill"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Ridley, sem texto. A silhueta alada com cauda é característica e inconfundível.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que heroína é a maior inimiga deste vilão?",
+      "resposta": "Samus Aran",
+      "distratores": [
+        "Lara Croft",
+        "Chun-Li",
+        "Jill Valentine"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ridley",
+        "descricao": "Dragão espacial, chefe recorrente da série Metroid e arqui-inimigo de Samus Aran.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Arte clara do Enderman, sem texto. A silhueta alta e angulosa é reconhecível.",
+      "usar_silhueta": true,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estúdio criou o jogo em que aparece esta criatura?",
+      "resposta": "Mojang Studios",
+      "destino": 0,
+      "ancora": {
+        "nome": "Enderman",
+        "descricao": "Criatura alta e preta do jogo Minecraft que teletransporta e pega blocos.",
+        "variantes": [
+          "Enderman do Minecraft"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte oficial reconhecível de Shao Kahn (chifres, máscara de caveira, martelo), sem texto. Silhueta fica deformada com bordas cortadas.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que série de jogos de luta este tirano é o chefe final?",
+      "resposta": "Mortal Kombat",
+      "destino": 0,
+      "ancora": {
+        "nome": "Shao Kahn",
+        "descricao": "Imperador tirano do Outworld, vilão principal da série de jogos de luta Mortal Kombat.",
+        "variantes": [
+          "Shao",
+          "General Shao"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida de Kamek, sem texto. A silhueta serviria a qualquer Magikoopa, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de criatura da série Mario é este personagem?",
+      "resposta": "Magikoopa",
+      "distratores": [
+        "Koopa Troopa",
+        "Shy Guy",
+        "Hammer Bro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kamek",
+        "descricao": "Magikoopa idoso, conselheiro de Bowser e arqui-inimigo de Yoshi na série Mario.",
+        "variantes": [
+          "Magikoopa Kamek"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Scorpion, sem texto. Silhueta de ninja mascarado é parecida com Sub-Zero, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Scorpion",
+      "destino": 0,
+      "ancora": {
+        "nome": "Scorpion",
+        "descricao": "Ninja amarelo de fogo da série de jogos de luta Mortal Kombat.",
+        "variantes": [
+          "Hanzo Hasashi"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Rosalina com um Luma, sem texto. A silhueta traz outro objeto junto, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que jogo do Mario esta personagem estreou?",
+      "resposta": "Super Mario Galaxy",
+      "distratores": [
+        "Super Mario Sunshine",
+        "Super Mario Odyssey",
+        "New Super Mario Bros."
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rosalina",
+        "descricao": "Princesa guardiã do cosmos e mãe adotiva dos Lumas na série Mario.",
+        "variantes": [
+          "Princesa Rosalina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida de Heihachi, sem texto, personagem reconhecível. Sem silhueta fornecida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destes lutadores é filho deste personagem?",
+      "resposta": "Kazuya Mishima",
+      "distratores": [
+        "Jin Kazama",
+        "Paul Phoenix",
+        "Yoshimitsu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Heihachi Mishima",
+        "descricao": "Patriarca da família Mishima e um dos principais personagens da série de jogos de luta Tekken.",
+        "variantes": [
+          "Heihachi"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do Rei Dedede, sem texto. A silhueta é uma massa arredondada pouco característica, então usa a colorida.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Rei Dedede",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rei Dedede",
+        "descricao": "Rei autoproclamado de Dream Land e grande rival de Kirby.",
+        "variantes": [
+          "King Dedede"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Arte oficial reconhecível de Leon S. Kennedy, sem texto. A silhueta de homem de casaco é genérica.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fictícia este personagem sobreviveu a um desastre como policial?",
+      "resposta": "Raccoon City",
+      "distratores": [
+        "Silent Hill",
+        "Midgar",
+        "Liberty City"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Leon S. Kennedy",
+        "descricao": "Agente federal da série Resident Evil, sobrevivente de Raccoon City e protagonista de Resident Evil 4.",
+        "variantes": [
+          "Leon Kennedy",
+          "Leon Scott Kennedy"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do Pyramid Head, sem texto. A silhueta com a cabeça piramidal e a espada é inconfundível.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Pyramid Head",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pyramid Head",
+        "descricao": "Monstro de capacete piramidal vermelho e grande faca da série de terror Silent Hill.",
+        "variantes": [
+          "Cabeça de Pirâmide",
+          "Red Pyramid Thing"
+        ]
+      }
+    }
+  ]
+}
