@@ -1,0 +1,331 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Amanita muscaria",
+        "descricao": "Cogumelo de chapéu vermelho com pintas brancas, do gênero Amanita, tóxico e alucinógeno.",
+        "variantes": [
+          "Agário-das-moscas",
+          "Fly agaric",
+          "Amanita-das-moscas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "amanita_muscaria",
+          "nome": "Amanita muscaria",
+          "descricao": "Cogumelo venenoso de chapéu vermelho com pintas brancas, típico das ilustrações de contos de fadas",
+          "variantes": [
+            "Agário-das-moscas",
+            "Mata-moscas",
+            "Fly agaric"
+          ]
+        },
+        {
+          "id": "santa_maria_nau_de_colombo",
+          "nome": "Santa Maria (nau de Colombo)",
+          "descricao": "Nau capitânia da primeira viagem de Cristóvão Colombo à América, em 1492, que naufragou no Haiti no Natal daquele ano.",
+          "variantes": [
+            "Santa María",
+            "La Gallega"
+          ]
+        },
+        {
+          "id": "mata_dos_cocais",
+          "nome": "Mata dos Cocais",
+          "descricao": "Formação vegetal de transição entre Amazônia, Cerrado e Caatinga, dominada por palmeiras como o babaçu e a carnaúba",
+          "variantes": [
+            "Zona dos Cocais"
+          ]
+        },
+        {
+          "id": "a_virgem_das_rochas",
+          "nome": "A Virgem das Rochas",
+          "descricao": "Pintura renascentista de Leonardo da Vinci com a Virgem, o menino Jesus, São João Batista criança e um anjo numa gruta rochosa.",
+          "variantes": [
+            "Madonna das Rochas",
+            "Vergine delle rocce",
+            "Virgin of the Rocks"
+          ]
+        },
+        {
+          "id": "atol_das_rocas",
+          "nome": "Atol das Rocas",
+          "descricao": "Atol no oceano Atlântico, a nordeste do Brasil, protegido como reserva biológica.",
+          "variantes": [
+            "Rocas Atoll",
+            "Reserva Biológica do Atol das Rocas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pupa (crisálida)",
+        "descricao": "Fase de metamorfose dos insetos holometábolos, entre a larva e o adulto.",
+        "variantes": [
+          "Pupa",
+          "Crisálida",
+          "Ninfa pupal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "poupa",
+          "nome": "Poupa",
+          "descricao": "Ave Upupa epops de plumagem canela, asas listradas e crista erétil, da Europa, Ásia e África.",
+          "variantes": [
+            "Poupa-eurasiática",
+            "Eurasian hoopoe",
+            "Upupa epops"
+          ]
+        },
+        {
+          "id": "pupila",
+          "nome": "Pupila",
+          "descricao": "Abertura escura no centro da íris, por onde a luz entra no olho.",
+          "variantes": [
+            "Menina dos olhos",
+            "Pupil"
+          ]
+        },
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "pipa",
+          "nome": "Pipa",
+          "descricao": "Brinquedo de papel ou tecido sobre varetas, empinado ao vento preso a uma linha, também chamado de papagaio ou pandorga.",
+          "variantes": [
+            "Papagaio",
+            "Pandorga",
+            "Arraia",
+            "Pipa (brinquedo)",
+            "Raia"
+          ]
+        },
+        {
+          "id": "puma_2",
+          "nome": "Puma",
+          "descricao": "Grande felino de pelagem uniforme, Puma concolor, presente nas Américas.",
+          "variantes": [
+            "Onça-parda",
+            "Suçuarana",
+            "Leão-da-montanha",
+            "Puma concolor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bulbo raquidiano",
+        "descricao": "Porção inferior do tronco encefálico, responsável por funções autônomas como respiração e batimentos cardíacos.",
+        "variantes": [
+          "Medula oblonga",
+          "Medula oblongata",
+          "Bulbo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "surdo",
+          "nome": "Surdo",
+          "descricao": "Grande tambor grave usado no samba e na percussão brasileira, tocado com baqueta.",
+          "variantes": [
+            "Bumbo"
+          ]
+        },
+        {
+          "id": "zabumba",
+          "nome": "Zabumba",
+          "descricao": "Tambor grave de duas peles, tocado com maceta e vareta, base do trio de forró pé de serra.",
+          "variantes": [
+            "Bumbo"
+          ]
+        },
+        {
+          "id": "vasco_nunez_de_balboa",
+          "nome": "Vasco Núñez de Balboa",
+          "descricao": "Conquistador espanhol que, em 1513, atravessou o istmo do Panamá e chegou ao oceano Pacífico.",
+          "variantes": [
+            "Balboa"
+          ]
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Carrapato",
+        "descricao": "Aracnídeo parasita externo da ordem Ixodida que se alimenta do sangue de vertebrados.",
+        "variantes": [
+          "Carrapatos",
+          "Tick"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carrapato",
+          "nome": "Carrapato",
+          "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+          "variantes": [
+            "Ixodida",
+            "Ixodes"
+          ]
+        },
+        {
+          "id": "piao",
+          "nome": "Pião",
+          "descricao": "Brinquedo de madeira com ponta metálica que gira sobre o próprio eixo, lançado com cordão.",
+          "variantes": [
+            "Carrapeta",
+            "Peão"
+          ]
+        },
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        },
+        {
+          "id": "sininho",
+          "nome": "Sininho",
+          "descricao": "Fada ajudante de Peter Pan no filme da Disney de 1953.",
+          "variantes": [
+            "Tinker Bell",
+            "Tink"
+          ]
+        },
+        {
+          "id": "patrick_estrela",
+          "nome": "Patrick Estrela",
+          "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+          "variantes": [
+            "Patrick Star",
+            "Patrick"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Minhoca",
+        "descricao": "Anelídeo terrestre da classe Oligochaeta que vive no solo.",
+        "variantes": [
+          "Minhocas",
+          "Earthworm",
+          "Verme-da-terra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "minhoca",
+          "nome": "Minhoca",
+          "descricao": "Anelídeo terrestre da classe Oligochaeta que vive no solo.",
+          "variantes": [
+            "Minhoca-de-terra",
+            "Earthworm",
+            "Oligochaeta"
+          ]
+        },
+        {
+          "id": "orthworm",
+          "nome": "Orthworm",
+          "descricao": "Pokémon do tipo Aço, número 968 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "trilha_jogo",
+          "nome": "Trilha (jogo)",
+          "descricao": "Jogo de tabuleiro para dois em que se tenta alinhar três peças para capturar peças do adversário, conhecido em inglês como nine men's morris.",
+          "variantes": [
+            "Moinho",
+            "Nine men's morris"
+          ]
+        },
+        {
+          "id": "nascer_da_terra_earthrise",
+          "nome": "Nascer da Terra (Earthrise)",
+          "descricao": "Fotografia da Terra surgindo sobre o horizonte lunar, feita por William Anders na missão Apollo 8, em 1968.",
+          "variantes": [
+            "Earthrise",
+            "Nascer da Terra"
+          ]
+        },
+        {
+          "id": "teoria_da_terra",
+          "nome": "Teoria da Terra",
+          "descricao": "Obra do século dezoito de James Hutton que defendeu que a Terra é moldada por processos lentos ao longo de um tempo imenso.",
+          "variantes": [
+            "Theory of the Earth"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "amanita_muscaria",
+      "motivo": "Mesma espécie de cogumelo, Amanita muscaria, com variantes coincidentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pupa/crisálida é a fase de metamorfose dos insetos. Nenhuma candidata corresponde a ela."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Bulbo raquidiano é uma estrutura do tronco encefálico. Nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "carrapato",
+      "motivo": "Mesmo aracnídeo parasita da ordem Ixodida, com descrição equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "minhoca",
+      "motivo": "Mesma descrição: anelídeo terrestre da classe Oligochaeta."
+    }
+  ]
+}

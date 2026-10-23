@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e inconfundível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cogumelo é este?",
+      "resposta": "Amanita muscaria (agário-das-moscas)",
+      "ancora": {
+        "nome": "Amanita muscaria",
+        "descricao": "Cogumelo de chapéu vermelho com pintas brancas, do gênero Amanita, tóxico e alucinógeno.",
+        "variantes": [
+          "Agário-das-moscas",
+          "Fly agaric",
+          "Amanita-das-moscas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Três vistas nítidas de uma pupa de inseto, sem texto que entregue a resposta (só escala de 1 cm).",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fase do ciclo de vida de um inseto é esta?",
+      "resposta": "Pupa",
+      "ancora": {
+        "nome": "Pupa (crisálida)",
+        "descricao": "Fase de metamorfose dos insetos holometábolos, entre a larva e o adulto.",
+        "variantes": [
+          "Pupa",
+          "Crisálida",
+          "Ninfa pupal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Modelo 3D com a estrutura destacada em vermelho, sem texto.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parte do encéfalo está destacada em vermelho nesta imagem?",
+      "resposta": "Bulbo raquidiano (medula oblonga)",
+      "ancora": {
+        "nome": "Bulbo raquidiano",
+        "descricao": "Porção inferior do tronco encefálico, responsável por funções autônomas como respiração e batimentos cardíacos.",
+        "variantes": [
+          "Medula oblonga",
+          "Medula oblongata",
+          "Bulbo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de um carrapato, reconhecível; sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este parasita que se alimenta de sangue é parente próximo de qual destes animais?",
+      "resposta": "Aranha",
+      "distratores": [
+        "Pulga",
+        "Piolho",
+        "Mosquito"
+      ],
+      "ancora": {
+        "nome": "Carrapato",
+        "descricao": "Aracnídeo parasita externo da ordem Ixodida que se alimenta do sangue de vertebrados.",
+        "variantes": [
+          "Carrapatos",
+          "Tick"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Corte histológico em desenho com apenas letras e números; a córnea não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A ilustração traz legendas em inglês, entre elas 'hypophysis', que entregam a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma minhoca no solo, sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que filo pertence este animal?",
+      "resposta": "Anelídeos",
+      "distratores": [
+        "Nematódeos",
+        "Platelmintos",
+        "Moluscos"
+      ],
+      "ancora": {
+        "nome": "Minhoca",
+        "descricao": "Anelídeo terrestre da classe Oligochaeta que vive no solo.",
+        "variantes": [
+          "Minhocas",
+          "Earthworm",
+          "Verme-da-terra"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O desenho traz as legendas 'SACRUM' e 'VERTEBRAE', que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Micrografia eletrônica colorizada em que o parasita não é claramente reconhecível. Pode ser confundido com outros apicomplexos, como o Toxoplasma."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma gárgula de pedra com a boca aberta, e não a boca humana. Não corresponde à entidade."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama com muitas legendas, que entregam a resposta, e de baixa resolução para o celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto da garganta em que a epiglote e a úvula aparecem juntas. A estrutura não é reconhecível por um leigo e a resposta não é única."
+    }
+  ]
+}

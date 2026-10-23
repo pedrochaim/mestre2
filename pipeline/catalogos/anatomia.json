@@ -383,14 +383,14 @@
       "titulo": "en:Sacrum",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Hipófise",
       "titulo": "en:Pituitary gland",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Osso esfenoide",
@@ -453,7 +453,7 @@
       "titulo": "en:Plant cell",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Staphylococcus aureus",
@@ -556,6 +556,286 @@
     {
       "nome": "Epitélio",
       "titulo": "en:Epithelium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pé humano",
+      "titulo": "en:Foot",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cotovelo",
+      "titulo": "en:Elbow",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tornozelo",
+      "titulo": "en:Ankle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boca",
+      "titulo": "en:Mouth",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cordão umbilical",
+      "titulo": "en:Umbilical cord",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tríceps",
+      "titulo": "en:Triceps",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tímpano",
+      "titulo": "en:Eardrum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Córnea",
+      "titulo": "en:Cornea",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Próstata",
+      "titulo": "en:Prostate",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cóccix",
+      "titulo": "en:Coccyx",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brônquio",
+      "titulo": "en:Bronchus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Amígdala palatina",
+      "titulo": "en:Tonsil",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Artéria carótida",
+      "titulo": "en:Common carotid artery",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Epiglote",
+      "titulo": "en:Epiglottis",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bulbo raquidiano",
+      "titulo": "en:Medulla oblongata",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Glândula pineal",
+      "titulo": "en:Pineal gland",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bigorna",
+      "titulo": "en:Incus",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Músculo masseter",
+      "titulo": "en:Masseter muscle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Menisco",
+      "titulo": "en:Meniscus (anatomy)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Válvula mitral",
+      "titulo": "en:Mitral valve",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Minhoca",
+      "titulo": "en:Earthworm",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Girino",
+      "titulo": "en:Tadpole",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Amanita muscaria",
+      "titulo": "en:Amanita muscaria",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Carrapato",
+      "titulo": "en:Tick",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Sanguessuga",
+      "titulo": "en:Leech",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mosca doméstica",
+      "titulo": "en:Housefly",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Planária",
+      "titulo": "en:Planarian",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pulga",
+      "titulo": "en:Flea",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Salmonela",
+      "titulo": "en:Salmonella",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Meiose",
+      "titulo": "en:Meiosis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Micélio",
+      "titulo": "en:Mycelium",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pupa (crisálida)",
+      "titulo": "en:Pupa",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Parede celular",
+      "titulo": "en:Cell wall",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Plasmódio",
+      "titulo": "en:Plasmodium",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Leishmania",
+      "titulo": "en:Leishmania",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esquistossomo",
+      "titulo": "en:Schistosoma mansoni",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Clamidomonas",
+      "titulo": "en:Chlamydomonas",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Astrócito",
+      "titulo": "en:Astrocyte",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monócito",
+      "titulo": "en:Monocyte",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Centríolo",
+      "titulo": "en:Centriole",
       "camada": 3,
       "destino": 1,
       "status": "nova"

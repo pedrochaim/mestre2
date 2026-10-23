@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem pista nem vazamento. A resposta é única e confirmada pelos trechos, com o nome popular entre parênteses, o que é apropriado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a fase. A resposta 'Pupa' está nos trechos e é a forma mais completa. Crisálida é um tipo de pupa e o questionador julga com bom senso.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Destacada em vermelho' não consta em `mostra`, então não dá para garantir que seja verdade para esta imagem. Removi a afirmação sobre a cor e o destaque. A resposta está nos trechos.",
+      "reescrita": {
+        "pergunta": "Que parte do encéfalo é esta?",
+        "resposta": "Bulbo raquidiano (medula oblonga)"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Parente próximo' é impreciso, porque o carrapato é mais próximo dos ácaros que das aranhas. Reformulei para 'mesma classe', que é literal e está nos trechos (aracnídeos). Os distratores são insetos, então nenhum é correto.",
+      "reescrita": {
+        "pergunta": "Este parasita que se alimenta de sangue pertence à mesma classe de qual destes animais?",
+        "resposta": "Aranha",
+        "distratores": [
+          "Pulga",
+          "Piolho",
+          "Mosquito"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O filo Annelida está nos trechos. O enunciado não vaza a resposta e os distratores são filos do mesmo tipo e plausíveis, nenhum correto.",
+      "reescrita": null
+    }
+  ]
+}

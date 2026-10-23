@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que cogumelo é este?",
+        "resposta": "Amanita muscaria (agário-das-moscas)"
+      },
+      "existentes": [
+        {
+          "id": "q06082",
+          "pergunta": "O nome popular do cogumelo vermelho de pintas brancas, em várias línguas europeias, provavelmente vem do uso caseiro dele como veneno contra qual inseto?",
+          "resposta": "Mosca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este parasita que se alimenta de sangue pertence à mesma classe de qual destes animais?",
+        "resposta": "Aranha"
+      },
+      "existentes": [
+        {
+          "id": "q02457",
+          "pergunta": "A que grupo de animais pertence este bicho?",
+          "resposta": "Aracnídeos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A que filo pertence este animal?",
+        "resposta": "Anelídeos"
+      },
+      "existentes": [
+        {
+          "id": "q05088",
+          "pergunta": "A que filo de animais pertence este?",
+          "resposta": "Anelídeos"
+        },
+        {
+          "id": "q06977",
+          "pergunta": "Na minhoca-comum, o sangue é bombeado por pares de vasos musculares que costumam ser chamados de corações. Quantos pares são?",
+          "resposta": "Cinco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta pede a identificação do cogumelo e a outra pede a origem do nome popular (inseto). São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o grupo do bicho (aracnídeos). A nova pede outro animal da mesma classe, com enunciado e imagem diferentes. Não dá para confirmar que seja o mesmo fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q05088",
+      "motivo": "As duas perguntam a que filo pertence o animal da imagem, e a resposta é a mesma (Anelídeos)."
+    }
+  ]
+}
