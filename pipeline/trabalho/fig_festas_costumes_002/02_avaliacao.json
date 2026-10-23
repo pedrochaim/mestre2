@@ -1,0 +1,165 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Cena de mercado com pessoas comuns em primeiro plano (inclusive crianças); a peça não é mostrada isolada."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mastro erguido com guirlanda e escudos, reconhecível. Os textos dos escudos citam só uma associação local, não entregam a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que dança tradicional europeia é realizada em volta deste poste?",
+      "resposta": "Dança do mastro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mastro de maio",
+        "descricao": "Alto poste de madeira erguido em festas folclóricas europeias, como a de 1º de maio, em torno do qual se dança.",
+        "variantes": [
+          "Maypole",
+          "Mastro do Primeiro de Maio"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto antiga de dois jovens com o traje típico bávaro bem visível. O traje é o assunto e as pessoas são anônimas e históricas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que traje tradicional masculino da região dos Alpes é este?",
+      "resposta": "Lederhosen",
+      "distratores": [
+        "Kilt",
+        "Bombachas",
+        "Dirndl"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Lederhosen",
+        "descricao": "Calças tradicionais de couro usadas por homens na Baviera, na Áustria e em regiões vizinhas.",
+        "variantes": [
+          "Lederhose",
+          "Calças de couro bávaras"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Dragões luminosos sobre a água não permitem afirmar que é o Festival do Meio do Outono; poderia ser Festival das Lanternas ou Ano-Novo Chinês, então a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Duas mulheres comuns em primeiro plano, numa rua, fora de festa pública."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga, mas o poncho pode ser fotografado, e a política admite ilustração só para o que não pode ser fotografado."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Retrato de uma mulher comum em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Retrato antigo de uma mulher anônima com shamisen. A imagem não permite afirmar com segurança que é uma gueixa, e há pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Peregrinos com bandeiras açafrão sobre ponte de pontões, com multidão ao fundo, característica do festival. Participantes de festa pública. Múltipla ajuda a evitar ambiguidade.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que grande festival hindu reúne multidões como esta?",
+      "resposta": "Kumbh Mela",
+      "distratores": [
+        "Holi",
+        "Diwali",
+        "Durga Puja"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kumbh Mela",
+        "descricao": "Peregrinação hindu realizada a cada quatro ou doze anos em Prayagraj, Haridwar, Nashik e Ujjain.",
+        "variantes": [
+          "Kumbha Mela",
+          "Khumba Mela"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura de domínio público (Lindauer) de um homem maori com tā moko claro no queixo. Figura histórica retratada em obra de arte, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país vive o povo que tem esta tradição de tatuagem no rosto?",
+      "resposta": "Nova Zelândia",
+      "distratores": [
+        "Samoa",
+        "Tonga",
+        "Havaí"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tā moko",
+        "descricao": "Tatuagem tradicional do povo maori da Nova Zelândia, em especial a facial.",
+        "variantes": [
+          "Ta moko",
+          "Moko",
+          "Tatuagem maori"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto aérea de multidão coberta de pós e pétalas coloridos, típica da festa; participantes de festa pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta festa indiana cai, em geral, em que mês do calendário gregoriano?",
+      "resposta": "Março",
+      "destino": 0,
+      "ancora": {
+        "nome": "Holi",
+        "descricao": "Festival hindu das cores, do amor e da primavera, celebrado na Índia e no Nepal.",
+        "variantes": [
+          "Festival das Cores",
+          "Festival das cores de Holi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Pessoas rolando ladeira abaixo, com multidão ao redor, em evento público; cena característica da corrida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que competição tradicional inglesa é esta?",
+      "resposta": "Corrida do queijo de Cooper's Hill",
+      "destino": 0,
+      "ancora": {
+        "nome": "Corrida do queijo de Cooper's Hill",
+        "descricao": "Competição anual em Brockworth, Inglaterra, na qual participantes descem uma ladeira íngreme atrás de uma roda de queijo.",
+        "variantes": [
+          "Cooper's Hill Cheese-Rolling and Wake",
+          "Corrida do queijo",
+          "Cheese rolling"
+        ]
+      }
+    }
+  ]
+}

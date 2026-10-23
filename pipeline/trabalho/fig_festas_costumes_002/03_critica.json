@@ -1,0 +1,66 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'poste' equivale a 'mastro' e a resposta 'Dança do mastro' sai só do enunciado (maypole dance). A figura vira enfeite e não há como tirar a pista sem perder a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Traje masculino dos Alpes' já reduz muito a resposta e o distrator Dirndl é feminino, logo eliminável pelo próprio enunciado. Troquei a pista por região e usei distratores masculinos.",
+      "reescrita": {
+        "pergunta": "Que peça de roupa tradicional, usada por homens na Baviera e na Áustria, é esta?",
+        "resposta": "Lederhosen",
+        "distratores": [
+          "Kilt",
+          "Bombachas",
+          "Dhoti"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia nem entrega a resposta. Os distratores são festivais hindus críveis e nenhum descreve a multidão da imagem. O Kumbh Mela é o principal festival do hinduísmo e reúne milhões de pessoas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'Havaí' não é um país, então não é do mesmo tipo da resposta. Substituí por Fiji.",
+      "reescrita": {
+        "pergunta": "Em que país vive o povo que tem esta tradição de tatuagem no rosto?",
+        "resposta": "Nova Zelândia",
+        "distratores": [
+          "Samoa",
+          "Tonga",
+          "Fiji"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a Holi cai entre fevereiro e março, então 'março' não é resposta única. Troquei por um fato seguro, que está nos trechos: a Holi marca a chegada da primavera.",
+      "reescrita": {
+        "pergunta": "Esta festa indiana é celebrada no fim do inverno. Que estação do ano ela marca?",
+        "resposta": "Primavera",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1, direto e sem vazamento: o enunciado só pede o reconhecimento de uma competição inglesa. A resposta é única e está nos trechos.",
+      "reescrita": null
+    }
+  ]
+}

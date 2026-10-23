@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta festa indiana é celebrada no fim do inverno. Que estação do ano ela marca?",
+        "resposta": "Primavera"
+      },
+      "existentes": [
+        {
+          "id": "q05559",
+          "pergunta": "A Holi, festa hindu em que as pessoas se cobrem de pós coloridos, celebra a chegada de que estação do ano?",
+          "resposta": "Primavera"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q05559",
+      "motivo": "Ambas perguntam qual estação a Holi marca/celebra (primavera); mesmo fato."
+    }
+  ]
+}
