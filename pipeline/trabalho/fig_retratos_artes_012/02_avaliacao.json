@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico limpo, sem texto, de figura pública.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor, humorista e cartunista brasileiro é este?",
+      "resposta": "Millôr Fernandes",
+      "distratores": [],
+      "ancora": {
+        "nome": "Millôr Fernandes",
+        "descricao": "Escritor, jornalista, cartunista e dramaturgo brasileiro (1923–2012), fundador de O Pasquim.",
+        "variantes": [
+          "Millor Fernandes",
+          "Milton Viola Fernandes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato clássico, sem texto, reconhecível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor americano do início do século vinte é este?",
+      "resposta": "Jack London",
+      "distratores": [],
+      "ancora": {
+        "nome": "Jack London",
+        "descricao": "Romancista americano (1876–1916), autor de O Chamado da Selva e Caninos Brancos.",
+        "variantes": [
+          "John Griffith London"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto informal de uma senhora em um quintal; sem traços que permitam reconhecer a poeta pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato histórico; a assinatura do fotógrafo é minúscula e não entrega a resposta.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este jurista e escritor brasileiro foi um dos fundadores de que instituição literária?",
+      "resposta": "Academia Brasileira de Letras",
+      "distratores": [],
+      "ancora": {
+        "nome": "Rui Barbosa",
+        "descricao": "Jurista, político, escritor e diplomata brasileiro (1849–1923), membro fundador da Academia Brasileira de Letras.",
+        "variantes": [
+          "Ruy Barbosa",
+          "Ruy Barbosa de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de figura pública muito conhecida.",
+      "destino": 3,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que intelectual americano, conhecido por seus estudos de linguagem, é este?",
+      "resposta": "Noam Chomsky",
+      "distratores": [],
+      "ancora": {
+        "nome": "Noam Chomsky",
+        "descricao": "Linguista, filósofo e ativista político americano, nascido em 1928.",
+        "variantes": [
+          "Avram Noam Chomsky"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Pintura de retrato sem texto; distinguível entre dramaturgos italianos com múltipla escolha.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dramaturgo italiano do século dezoito, nascido em Veneza, aparece neste retrato?",
+      "resposta": "Carlo Goldoni",
+      "distratores": [
+        "Carlo Gozzi",
+        "Pietro Metastasio",
+        "Vittorio Alfieri"
+      ],
+      "ancora": {
+        "nome": "Carlo Goldoni",
+        "descricao": "Dramaturgo e libretista veneziano (1707–1793), renovador da comédia italiana.",
+        "variantes": [
+          "Carlo Osvaldo Goldoni"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura de retrato sem texto; múltipla com escritores franceses da mesma época.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor francês do século dezessete aparece neste retrato?",
+      "resposta": "Charles Perrault",
+      "distratores": [
+        "Jean de La Fontaine",
+        "Molière",
+        "Nicolas Boileau"
+      ],
+      "ancora": {
+        "nome": "Charles Perrault",
+        "descricao": "Escritor francês (1628–1703), fundador do gênero do conto de fadas literário.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de ator famoso.",
+      "destino": 4,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este ator inglês ganhou o Oscar de melhor ator num filme que ele mesmo dirigiu, baseado em Shakespeare. Que peça era?",
+      "resposta": "Hamlet",
+      "distratores": [],
+      "ancora": {
+        "nome": "Laurence Olivier",
+        "descricao": "Ator e diretor inglês (1907–1989), um dos grandes intérpretes de Shakespeare.",
+        "variantes": [
+          "Lord Olivier",
+          "Laurence Kerr Olivier"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Retrato a óleo de militar uniformizado, sem traços que permitam reconhecer o Visconde de Taunay; resposta não é reconhecível pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura de dois homens com pena e livro, de uma única obra; sem texto legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem são estes dois estudiosos do folclore alemães do século dezenove?",
+      "resposta": "Irmãos Grimm",
+      "distratores": [
+        "Irmãos Schlegel",
+        "Irmãos Humboldt",
+        "Irmãos Mann"
+      ],
+      "ancora": {
+        "nome": "Irmãos Grimm",
+        "descricao": "Jacob e Wilhelm Grimm, estudiosos e escritores alemães que reuniram contos populares.",
+        "variantes": [
+          "Jacob e Wilhelm Grimm",
+          "Brothers Grimm",
+          "Gebrüder Grimm"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto.",
+      "destino": 4,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dramaturgo americano do século vinte é este?",
+      "resposta": "Tennessee Williams",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tennessee Williams",
+        "descricao": "Dramaturgo americano (1911–1983), autor de Um Bonde Chamado Desejo.",
+        "variantes": [
+          "Thomas Lanier Williams III"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, de figura pública; reconhecimento difícil, por isso a pergunta é de múltipla escolha sobre sua obra.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual romance deste escritor brasileiro do século dezenove é o mais famoso?",
+      "resposta": "A Moreninha",
+      "distratores": [
+        "O Guarani",
+        "Senhora",
+        "Iracema"
+      ],
+      "ancora": {
+        "nome": "Joaquim Manuel de Macedo",
+        "descricao": "Romancista, médico e dramaturgo brasileiro (1820–1882), autor de A Moreninha.",
+        "variantes": []
+      }
+    }
+  ]
+}

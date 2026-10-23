@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista genérica (escritor, humorista, cartunista brasileiro) não entrega o nome; fatos conferem com os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de país e época não entrega a resposta; ele publicou sobretudo entre 1900 e 1916.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Com a imagem coberta, 'escritor brasileiro fundador de instituição literária' já leva à Academia Brasileira de Letras, então a figura vira enfeite. Os fatos alternativos (Haia) também vazam pelo enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Conhecido por seus estudos de linguagem' entrega a resposta sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Que intelectual e ativista político americano é este?",
+        "resposta": "Noam Chomsky"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goldoni nasceu em Veneza em 1707. Carlo Gozzi também fica plausível só pelo texto, então a figura é necessária. Os distratores são do mesmo tipo e nenhum descreve o retrato.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Perrault é do século dezessete e francês. Os distratores também se encaixam no texto, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olivier ganhou o Oscar de melhor ator por Hamlet (1948), que ele dirigiu. O Oscar de Henrique V foi honorário, então a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estudiosos do folclore alemães' entrega os Grimm sem a imagem. Basta manter 'dois irmãos alemães do século dezenove'.",
+      "reescrita": {
+        "pergunta": "Quem são estes dois irmãos alemães do século dezenove?",
+        "resposta": "Irmãos Grimm",
+        "distratores": [
+          "Irmãos Schlegel",
+          "Irmãos Humboldt",
+          "Irmãos Mann"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de país e século não entrega o nome; O'Neill e Miller também se encaixam, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Moreninha é o romance mais conhecido de Macedo, segundo o trecho. Os distratores são romances famosos de outros autores. O enunciado sozinho não distingue o autor, então a figura é necessária.",
+      "reescrita": null
+    }
+  ]
+}
