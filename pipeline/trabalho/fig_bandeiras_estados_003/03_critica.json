@@ -1,0 +1,82 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado neutro, resposta única, sem vazamento. A bandeira (Fleurdelisé) é amplamente documentada e aparece nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta direta e resposta única. Os distratores têm bandeiras parecidas (Cuba, Chile, Tchéquia), são do mesmo tipo e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estados americanos críveis, nenhum correto. O Alasca é um dos 50 estados, segundo o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta simples, sem vazamento, com resposta única. O Pará é estado brasileiro segundo o trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Baviera é estado alemão, segundo o trecho. Os distratores são estados alemães com bandeiras diferentes, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Brasília é a sede de governo do Distrito Federal. O enunciado não nomeia a entidade e não dá para responder sem a figura. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado diz 'ilha' e a resposta contém 'Ilha', o que é um vazamento leve. Trocar por 'lugar' resolve, e os distratores continuam críveis (a Sicília tem triskelion na bandeira).",
+      "reescrita": {
+        "pergunta": "De que lugar é esta bandeira?",
+        "resposta": "Ilha de Man",
+        "distratores": [
+          "Jersey",
+          "Sicília",
+          "Guernsey"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A mesma bandeira é usada também pelo Conselho da Europa, que é uma organização internacional, então a resposta não é única. Qualquer pista no enunciado, como 'bloco de vinte e sete países', entregaria a resposta sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Fortaleza é a capital do Ceará. Os distratores são capitais nordestinas vizinhas e nenhuma delas está correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que Paraná faz divisa ao sul de São Paulo. O enunciado não nomeia o estado, e a resposta é única, já que o outro limite ao sul é o oceano.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que estado faz divisa ao sul com o estado desta bandeira?",
+        "resposta": "Paraná"
+      },
+      "existentes": [
+        {
+          "id": "q04958",
+          "pergunta": "Idealizada em 1888, a bandeira de São Paulo foi criada por qual escritor republicano, autor do romance A Carne?",
+          "resposta": "Júlio Ribeiro"
+        },
+        {
+          "id": "q04959",
+          "pergunta": "Quantas listras pretas e brancas, ao todo, tem a bandeira do estado de São Paulo?",
+          "resposta": "Treze"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata da divisa sul do estado (Paraná), um fato geográfico distinto do criador da bandeira e do número de listras."
+    }
+  ]
+}

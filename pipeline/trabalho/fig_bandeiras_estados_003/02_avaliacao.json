@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira do Quebec, flor-de-lis em cruz branca, nítida e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que província canadense é esta bandeira?",
+      "resposta": "Quebec",
+      "ancora": {
+        "nome": "Bandeira do Quebec",
+        "descricao": "Bandeira da província canadense do Quebec, com cruz branca e quatro flores-de-lis sobre fundo azul.",
+        "variantes": [
+          "Fleurdelisé",
+          "Québec"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira de Porto Rico, nítida, sem texto; parecida com a de Cuba, o que serve de distrator.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que lugar é esta bandeira?",
+      "resposta": "Porto Rico",
+      "distratores": [
+        "Cuba",
+        "Chile",
+        "Tchéquia"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Porto Rico",
+        "descricao": "Bandeira do território dos Estados Unidos Porto Rico, com listras vermelhas e brancas e triângulo azul com estrela branca.",
+        "variantes": [
+          "Puerto Rico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A bandeira traz o texto CALIFORNIA REPUBLIC, que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira do Alasca, estrelas douradas sobre azul, nítida e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado americano é esta bandeira?",
+      "resposta": "Alasca",
+      "distratores": [
+        "Havaí",
+        "Montana",
+        "Nevada"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Alasca",
+        "descricao": "Bandeira do estado americano do Alasca, com oito estrelas douradas sobre fundo azul-marinho.",
+        "variantes": [
+          "Alaska"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira do Pará, nítida e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Pará",
+      "ancora": {
+        "nome": "Bandeira do Pará",
+        "descricao": "Bandeira do estado brasileiro do Pará, com faixa diagonal branca e estrela azul sobre fundo vermelho.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira listrada branca e azul da Baviera, nítida e sem texto; reconhecível para quem conhece a Alemanha, em múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado alemão é esta bandeira?",
+      "resposta": "Baviera",
+      "distratores": [
+        "Saxônia",
+        "Baden-Württemberg",
+        "Berlim"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Baviera",
+        "descricao": "Bandeira listrada em branco e azul do estado alemão da Baviera.",
+        "variantes": [
+          "Bayern"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira do Distrito Federal, nítida e sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que cidade é a sede do governo da unidade federativa desta bandeira?",
+      "resposta": "Brasília",
+      "ancora": {
+        "nome": "Bandeira do Distrito Federal (Brasil)",
+        "descricao": "Bandeira da unidade federativa brasileira Distrito Federal, com cruz amarela sobre quadrado verde.",
+        "variantes": [
+          "Bandeira do DF"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Listras amarelas e vermelhas sem brasão são idênticas à bandeira de Aragão, então a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira da Ilha de Man, com o triskelion, inconfundível e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que ilha é esta bandeira?",
+      "resposta": "Ilha de Man",
+      "distratores": [
+        "Jersey",
+        "Sicília",
+        "Guernsey"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Ilha de Man",
+        "descricao": "Bandeira da dependência da Coroa britânica Ilha de Man, com três pernas armadas em triskelion sobre fundo vermelho.",
+        "variantes": [
+          "Isle of Man",
+          "Mann"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira da União Europeia, doze estrelas em círculo, nítida e sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que organização internacional é esta bandeira?",
+      "resposta": "União Europeia",
+      "ancora": {
+        "nome": "Bandeira da União Europeia",
+        "descricao": "Bandeira azul com um círculo de doze estrelas douradas, usada pela União Europeia.",
+        "variantes": [
+          "UE",
+          "Bandeira da Europa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira do Ceará, nítida e sem texto.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado desta bandeira?",
+      "resposta": "Fortaleza",
+      "distratores": [
+        "Natal",
+        "Teresina",
+        "São Luís"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Ceará",
+        "descricao": "Bandeira do estado brasileiro do Ceará, com losango amarelo sobre fundo verde e brasão num círculo branco.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira de São Paulo, listras pretas e brancas com mapa do Brasil, sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estado faz divisa ao sul com o estado desta bandeira?",
+      "resposta": "Paraná",
+      "ancora": {
+        "nome": "Bandeira do estado de São Paulo",
+        "descricao": "Bandeira do estado brasileiro de São Paulo, com treze listras pretas e brancas e um quadro vermelho com o mapa do Brasil.",
+        "variantes": [
+          "Bandeira paulista"
+        ]
+      }
+    }
+  ]
+}
