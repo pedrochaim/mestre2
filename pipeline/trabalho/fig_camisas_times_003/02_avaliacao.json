@@ -1,0 +1,270 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Uniforme branco com faixas vermelha e preta no peito, marcante do São Paulo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "São Paulo",
+      "ancora": {
+        "nome": "São Paulo Futebol Clube",
+        "descricao": "Clube de futebol brasileiro sediado na cidade de São Paulo, com sede no Morumbi.",
+        "variantes": [
+          "São Paulo FC",
+          "Tricolor Paulista"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Listras verticais azuis e pretas, calção preto; reconhecível. Distratores sem as mesmas cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Inter de Milão",
+      "distratores": [
+        "Juventus",
+        "Napoli",
+        "Borussia Dortmund"
+      ],
+      "ancora": {
+        "nome": "Inter de Milão",
+        "descricao": "Clube de futebol italiano de Milão, que joga no San Siro.",
+        "variantes": [
+          "Internazionale",
+          "Inter",
+          "FC Internazionale Milano"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A faixa diagonal preta sobre camisa branca lembra o Vasco da Gama, não o Ponte Preta (listras verticais pretas e brancas); resposta não é única diante da imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Listras horizontais rubro-negras, calção branco: inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Flamengo",
+      "ancora": {
+        "nome": "Flamengo",
+        "descricao": "Clube de Regatas do Flamengo, clube brasileiro do Rio de Janeiro, conhecido pelo futebol.",
+        "variantes": [
+          "Clube de Regatas do Flamengo",
+          "Mengão",
+          "CR Flamengo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Uniforme totalmente vermelho; cores comuns a outros times, por isso múltipla escolha com distratores de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Liverpool",
+      "distratores": [
+        "Chelsea",
+        "Everton",
+        "Real Madrid"
+      ],
+      "ancora": {
+        "nome": "Liverpool Football Club",
+        "descricao": "Clube de futebol inglês de Liverpool, que joga em Anfield.",
+        "variantes": [
+          "Liverpool FC",
+          "Liverpool"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Camisa verde com o desenho do calendário asteca, calção branco e meias tricolores; claramente o México.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "México",
+      "distratores": [
+        "Colômbia",
+        "Croácia",
+        "Uruguai"
+      ],
+      "ancora": {
+        "nome": "Seleção Mexicana de Futebol",
+        "descricao": "Seleção nacional masculina de futebol do México.",
+        "variantes": [
+          "México",
+          "El Tri",
+          "Seleção do México"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Camisa branca e calção preto, uniforme principal do Corinthians; cores comuns, então múltipla com distratores de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Corinthians",
+      "distratores": [
+        "Cruzeiro",
+        "Internacional",
+        "Fluminense"
+      ],
+      "ancora": {
+        "nome": "Corinthians",
+        "descricao": "Sport Club Corinthians Paulista, clube brasileiro de futebol com sede no Tatuapé, em São Paulo.",
+        "variantes": [
+          "Sport Club Corinthians Paulista",
+          "Timão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camisa branca com detalhes azul-marinho e vermelhos, típica da Inglaterra; múltipla com distratores de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Inglaterra",
+      "distratores": [
+        "Países Baixos",
+        "Espanha",
+        "Portugal"
+      ],
+      "ancora": {
+        "nome": "Seleção Inglesa de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Inglaterra.",
+        "variantes": [
+          "Inglaterra",
+          "Three Lions",
+          "Seleção da Inglaterra"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Listras horizontais pretas, vermelhas e brancas com mangas pretas, típicas do Santa Cruz; semelhante a outros rubro-negros, então múltipla.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Santa Cruz",
+      "distratores": [
+        "Náutico",
+        "Atlético Goianiense",
+        "Vitória"
+      ],
+      "ancora": {
+        "nome": "Santa Cruz",
+        "descricao": "Santa Cruz Futebol Clube, clube brasileiro de Recife, Pernambuco.",
+        "variantes": [
+          "Santa Cruz Futebol Clube",
+          "Cobra Coral",
+          "Tricolor do Arruda"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Listras verticais rubro-negras e calção branco, marcante do Milan; múltipla com distratores de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Milan",
+      "distratores": [
+        "Juventus",
+        "Roma",
+        "Lazio"
+      ],
+      "ancora": {
+        "nome": "AC Milan",
+        "descricao": "Clube de futebol italiano de Milão, que joga no San Siro.",
+        "variantes": [
+          "Milan",
+          "Associazione Calcio Milan",
+          "Milan AC"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Camisa azul com detalhes dourados, calção branco: seleção italiana (azzurra); múltipla com distratores de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que seleção é este uniforme?",
+      "resposta": "Itália",
+      "distratores": [
+        "Alemanha",
+        "Brasil",
+        "Holanda"
+      ],
+      "ancora": {
+        "nome": "Seleção Italiana de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Itália, a Squadra Azzurra.",
+        "variantes": [
+          "Itália",
+          "Azzurra",
+          "Seleção da Itália"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Camisa azul-marinho com calção branco, do Remo; cores comuns a outros times, então múltipla com distratores de outras cores.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que time é este uniforme?",
+      "resposta": "Remo",
+      "distratores": [
+        "Goiás",
+        "Botafogo",
+        "Coritiba"
+      ],
+      "ancora": {
+        "nome": "Remo",
+        "descricao": "Clube do Remo, clube de futebol brasileiro de Belém, Pará.",
+        "variantes": [
+          "Clube do Remo",
+          "Leão Azul"
+        ]
+      }
+    }
+  ]
+}

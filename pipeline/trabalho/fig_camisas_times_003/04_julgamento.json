@@ -1,0 +1,708 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "São Paulo Futebol Clube",
+        "descricao": "Clube de futebol brasileiro sediado na cidade de São Paulo, com sede no Morumbi.",
+        "variantes": [
+          "São Paulo",
+          "São Paulo FC",
+          "Tricolor Paulista"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)",
+            "Cidade de São Paulo",
+            "Sampa"
+          ]
+        },
+        {
+          "id": "sao_paulo_estado",
+          "nome": "São Paulo (estado)",
+          "descricao": "Estado mais populoso do Brasil, na Região Sudeste.",
+          "variantes": [
+            "São Paulo",
+            "Estado de São Paulo"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        },
+        {
+          "id": "escudo_do_sao_paulo_futebol_clube",
+          "nome": "Escudo do São Paulo Futebol Clube",
+          "descricao": "Distintivo do clube paulista, com estrelas que homenageiam títulos e recordes.",
+          "variantes": []
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Inter de Milão",
+        "descricao": "Clube de futebol italiano de Milão, que joga no San Siro.",
+        "variantes": [
+          "Internazionale",
+          "Inter",
+          "FC Internazionale Milano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inter_de_milao",
+          "nome": "Inter de Milão",
+          "descricao": "Football Club Internazionale Milano, clube de futebol de Milão, na Itália, fundado em 1908.",
+          "variantes": [
+            "Internazionale",
+            "Inter Milan",
+            "Inter"
+          ]
+        },
+        {
+          "id": "sport_club_internacional",
+          "nome": "Sport Club Internacional",
+          "descricao": "Clube de futebol de Porto Alegre, no Rio Grande do Sul, fundado em 1909, conhecido como Colorado.",
+          "variantes": [
+            "Internacional",
+            "Inter",
+            "Inter de Porto Alegre",
+            "Internacional de Porto Alegre"
+          ]
+        },
+        {
+          "id": "a_internacional",
+          "nome": "A Internacional",
+          "descricao": "Hino do movimento socialista e operário, com letra francesa de Eugène Pottier, de 1871.",
+          "variantes": [
+            "L'Internationale",
+            "The Internationale"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "catedral_de_milao",
+          "nome": "Catedral de Milão",
+          "descricao": "Catedral gótica de mármore branco, sede do arcebispo de Milão, na Itália, cuja construção começou em 1386.",
+          "variantes": [
+            "Duomo di Milano",
+            "Milan Cathedral",
+            "Duomo de Milão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Flamengo",
+        "descricao": "Clube de Regatas do Flamengo, clube brasileiro do Rio de Janeiro, conhecido pelo futebol.",
+        "variantes": [
+          "Clube de Regatas do Flamengo",
+          "Mengão",
+          "CR Flamengo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "flamingo",
+          "nome": "Flamingo",
+          "descricao": "Ave pernalta rosada da família Phoenicopteridae, que se alimenta filtrando a água com o bico curvo.",
+          "variantes": [
+            "Phoenicopteridae",
+            "Flamingos"
+          ]
+        },
+        {
+          "id": "flamenco",
+          "nome": "Flamenco",
+          "descricao": "Gênero de música e dança espanhol marcado pelo canto, pelo violão e pelo sapateado",
+          "variantes": []
+        },
+        {
+          "id": "flamigo",
+          "nome": "Flamigo",
+          "descricao": "Pokémon dos tipos Voador e Lutador, número 973 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Liverpool Football Club",
+        "descricao": "Clube de futebol inglês de Liverpool, que joga em Anfield.",
+        "variantes": [
+          "Liverpool FC",
+          "Liverpool"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liverpool_football_club",
+          "nome": "Liverpool Football Club",
+          "descricao": "Clube de futebol de Liverpool, na Inglaterra, fundado em 1892, que joga no estádio de Anfield.",
+          "variantes": [
+            "Liverpool",
+            "Liverpool FC"
+          ]
+        },
+        {
+          "id": "celtic_football_club",
+          "nome": "Celtic Football Club",
+          "descricao": "Clube de futebol de Glasgow, na Escócia, fundado em 1887, de camisa com listras horizontais verdes e brancas.",
+          "variantes": [
+            "Celtic",
+            "Celtic FC",
+            "Celtic de Glasgow"
+          ]
+        },
+        {
+          "id": "fluminense",
+          "nome": "Fluminense",
+          "descricao": "Fluminense Football Club, clube carioca fundado em 1902, conhecido como Tricolor das Laranjeiras.",
+          "variantes": [
+            "Fluminense Football Club",
+            "Flu",
+            "Tricolor das Laranjeiras"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Seleção Mexicana de Futebol",
+        "descricao": "Seleção nacional masculina de futebol do México.",
+        "variantes": [
+          "México",
+          "El Tri",
+          "Seleção do México"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mexico",
+          "nome": "México",
+          "descricao": "País da América do Norte, o mais ao norte da América Latina, cuja capital é a Cidade do México.",
+          "variantes": [
+            "Estados Unidos Mexicanos"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "selecao_croata_de_futebol",
+          "nome": "Seleção Croata de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Croácia, de camisa em xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Vatreni",
+            "Seleção da Croácia"
+          ]
+        },
+        {
+          "id": "selecao_espanhola_de_futebol",
+          "nome": "Seleção Espanhola de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Espanha, apelidada de La Roja.",
+          "variantes": [
+            "Espanha",
+            "La Roja",
+            "La Furia Roja"
+          ]
+        },
+        {
+          "id": "selecao_marroquina_de_futebol",
+          "nome": "Seleção Marroquina de Futebol",
+          "descricao": "Seleção nacional de futebol do Marrocos, semifinalista da Copa do Mundo de 2022.",
+          "variantes": [
+            "Seleção do Marrocos",
+            "Leões do Atlas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Corinthians",
+        "descricao": "Sport Club Corinthians Paulista, clube brasileiro de futebol com sede no Tatuapé, em São Paulo.",
+        "variantes": [
+          "Sport Club Corinthians Paulista",
+          "Timão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "timao",
+          "nome": "Timão",
+          "descricao": "Personagem tagarela de O Rei Leão, da Disney, inseparável amigo do javali Pumba.",
+          "variantes": [
+            "Timon"
+          ]
+        },
+        {
+          "id": "timpano",
+          "nome": "Tímpano",
+          "descricao": "Instrumento de percussão de orquestra, um tambor em forma de bacia com membrana, afinável, tocado com baquetas.",
+          "variantes": [
+            "Tímpanos",
+            "Timpani",
+            "Timbales de orquestra"
+          ]
+        },
+        {
+          "id": "limao",
+          "nome": "Limão",
+          "descricao": "Fruto cítrico verde e ácido, aqui o limão taiti (Citrus × latifolia), usado como tempero e em bebidas.",
+          "variantes": [
+            "Limão-taiti",
+            "Lima ácida",
+            "Lime"
+          ]
+        },
+        {
+          "id": "neo_quimica_arena",
+          "nome": "Neo Química Arena",
+          "descricao": "Estádio de futebol do Corinthians, no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+          "variantes": [
+            "Arena Corinthians",
+            "Itaquerão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Seleção Inglesa de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Inglaterra.",
+        "variantes": [
+          "Inglaterra",
+          "Three Lions",
+          "Seleção da Inglaterra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inglaterra",
+          "nome": "Inglaterra",
+          "descricao": "Nação que ocupa a maior parte do sul da ilha da Grã-Bretanha, parte do Reino Unido.",
+          "variantes": [
+            "England"
+          ]
+        },
+        {
+          "id": "selecao_neerlandesa_de_futebol",
+          "nome": "Seleção Neerlandesa de Futebol",
+          "descricao": "Seleção nacional de futebol dos Países Baixos, vice-campeã mundial em 1974, 1978 e 2010.",
+          "variantes": [
+            "Seleção da Holanda",
+            "Seleção Holandesa",
+            "Laranja Mecânica"
+          ]
+        },
+        {
+          "id": "selecao_hungara_de_futebol",
+          "nome": "Seleção Húngara de Futebol",
+          "descricao": "Seleção nacional de futebol da Hungria, vice-campeã mundial em 1938 e 1954.",
+          "variantes": [
+            "Hungary national football team"
+          ]
+        },
+        {
+          "id": "selecao_neozelandesa_de_futebol",
+          "nome": "Seleção Neozelandesa de Futebol",
+          "descricao": "Seleção nacional masculina de futebol da Nova Zelândia.",
+          "variantes": [
+            "New Zealand men's national football team",
+            "All Whites"
+          ]
+        },
+        {
+          "id": "selecao_portuguesa_de_futebol",
+          "nome": "Seleção Portuguesa de Futebol",
+          "descricao": "Seleção nacional masculina de futebol de Portugal.",
+          "variantes": [
+            "Portugal national football team"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Santa Cruz",
+        "descricao": "Santa Cruz Futebol Clube, clube brasileiro de Recife, Pernambuco.",
+        "variantes": [
+          "Santa Cruz Futebol Clube",
+          "Cobra Coral",
+          "Tricolor do Arruda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cobra_real",
+          "nome": "Cobra-real",
+          "descricao": "Maior serpente venenosa do mundo (Ophiophagus hannah), nativa do sul e sudeste da Ásia.",
+          "variantes": [
+            "Ophiophagus hannah",
+            "King cobra"
+          ]
+        },
+        {
+          "id": "cora_coralina",
+          "nome": "Cora Coralina",
+          "descricao": "Poeta e doceira goiana (1889–1985), da Cidade de Goiás.",
+          "variantes": [
+            "Ana Lins dos Guimarães Peixoto Bretas"
+          ]
+        },
+        {
+          "id": "santos_futebol_clube",
+          "nome": "Santos Futebol Clube",
+          "descricao": "Clube de futebol da cidade de Santos, São Paulo, fundado em 1912 e onde Pelé fez carreira.",
+          "variantes": [
+            "Santos",
+            "Santos FC",
+            "Peixe"
+          ]
+        },
+        {
+          "id": "papai_noel",
+          "nome": "Papai Noel",
+          "descricao": "Personagem lendário que traz presentes no Natal",
+          "variantes": [
+            "Santa Claus",
+            "Pai Natal",
+            "Bom Velhinho"
+          ]
+        },
+        {
+          "id": "cecilia",
+          "nome": "Cecília",
+          "descricao": "Anfíbio sem patas e de vida subterrânea da ordem Gymnophiona, parecido com uma minhoca grande.",
+          "variantes": [
+            "Gymnophiona",
+            "Cobra-cega",
+            "Cecílias",
+            "Caecilian"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "AC Milan",
+        "descricao": "Clube de futebol italiano de Milão, que joga no San Siro.",
+        "variantes": [
+          "Milan",
+          "Associazione Calcio Milan",
+          "Milan AC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ac_milan",
+          "nome": "AC Milan",
+          "descricao": "Associazione Calcio Milan, clube de futebol de Milão, na Itália, fundado em 1899.",
+          "variantes": [
+            "Milan",
+            "Associazione Calcio Milan"
+          ]
+        },
+        {
+          "id": "miltank",
+          "nome": "Miltank",
+          "descricao": "Pokémon do tipo Normal, número 241 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pac_man",
+          "nome": "Pac-Man",
+          "descricao": "Jogo de fliperama da Namco lançado em 1980, em que uma bola amarela come pastilhas num labirinto.",
+          "variantes": [
+            "Puck-Man",
+            "Pacman"
+          ]
+        },
+        {
+          "id": "cilan",
+          "nome": "Cilan",
+          "descricao": "Líder de ginásio de Striaton e conhecedor pokémon, companheiro de viagem de Ash em Unova no anime.",
+          "variantes": [
+            "Dent"
+          ]
+        },
+        {
+          "id": "jasmine",
+          "nome": "Jasmine",
+          "descricao": "Líder do ginásio de tipo Aço de Olivine, em Johto, nos jogos Pokémon Gold e Silver.",
+          "variantes": [
+            "Mikan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Seleção Italiana de Futebol",
+        "descricao": "Seleção nacional masculina de futebol da Itália, a Squadra Azzurra.",
+        "variantes": [
+          "Itália",
+          "Azzurra",
+          "Seleção da Itália"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "lingua_italiana",
+          "nome": "Língua italiana",
+          "descricao": "Língua românica oficial da Itália, de San Marino e de parte da Suíça.",
+          "variantes": [
+            "Italiano"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "talian",
+          "nome": "Talian",
+          "descricao": "Língua de base vêneta falada por descendentes de imigrantes italianos no Sul do Brasil",
+          "variantes": [
+            "Vêneto brasileiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Remo",
+        "descricao": "Clube do Remo, clube de futebol brasileiro de Belém, Pará.",
+        "variantes": [
+          "Clube do Remo",
+          "Leão Azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "remo",
+          "nome": "Remo",
+          "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas.",
+          "variantes": [
+            "Rowing"
+          ]
+        },
+        {
+          "id": "lagoa_azul",
+          "nome": "Lagoa Azul",
+          "descricao": "Spa geotérmico de águas quentes e leitosas na península de Reykjanes, na Islândia.",
+          "variantes": [
+            "Blue Lagoon",
+            "Bláa lónið"
+          ]
+        },
+        {
+          "id": "led_azul",
+          "nome": "LED azul",
+          "descricao": "Diodo emissor de luz azul eficiente, desenvolvido nos anos 1990 e premiado com o Nobel de Física de 2014.",
+          "variantes": [
+            "Diodo emissor de luz azul"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Clube São Paulo FC não consta; cidade, estado e escudo são entidades diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "inter_de_milao",
+      "motivo": "Mesmo clube de Milão (FC Internazionale)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "flamengo",
+      "motivo": "Mesmo Clube de Regatas do Flamengo."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "liverpool_football_club",
+      "motivo": "Mesmo clube inglês de Anfield."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Seleção mexicana é distinta do país México."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "corinthians",
+      "motivo": "Mesmo Sport Club Corinthians Paulista."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Seleção inglesa é distinta do país Inglaterra."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Santa Cruz FC de Recife não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "ac_milan",
+      "motivo": "Mesmo clube AC Milan."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "selecao_italiana_de_futebol",
+      "motivo": "Mesma seleção italiana masculina."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Clube do Remo é diferente do esporte remo."
+    }
+  ]
+}

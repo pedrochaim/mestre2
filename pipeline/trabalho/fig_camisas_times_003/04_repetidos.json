@@ -1,0 +1,140 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Inter de Milão"
+      },
+      "existentes": [
+        {
+          "id": "q09347",
+          "pergunta": "Em 1908, um grupo de dissidentes deixou o Milan e fundou a Internazionale. Qual foi o motivo da briga?",
+          "resposta": "A aceitação de jogadores estrangeiros"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Flamengo"
+      },
+      "existentes": [
+        {
+          "id": "q00058",
+          "pergunta": "Antes de ter um time de futebol, o Flamengo foi fundado em 1895 para disputar qual esporte?",
+          "resposta": "Remo"
+        },
+        {
+          "id": "q00741",
+          "pergunta": "Em 1911, o time de futebol do Flamengo foi formado por jogadores dissidentes de qual clube carioca, que virou seu grande rival?",
+          "resposta": "Fluminense"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Liverpool"
+      },
+      "existentes": [
+        {
+          "id": "q05113",
+          "pergunta": "Que canção, nascida num musical da Broadway, virou o hino entoado pela torcida do Liverpool?",
+          "resposta": "You'll Never Walk Alone"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Corinthians"
+      },
+      "existentes": [
+        {
+          "id": "q00036",
+          "pergunta": "O Corinthians, fundado em 1910, recebeu o nome de um time amador que excursionava pelo Brasil. De que país era esse time?",
+          "resposta": "Inglaterra"
+        },
+        {
+          "id": "q09360",
+          "pergunta": "Além da bandeira do estado de São Paulo e da boia que a rodeia, que objetos náuticos aparecem no escudo do Corinthians?",
+          "resposta": "Âncora e remos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "De que time é este uniforme?",
+        "resposta": "Milan"
+      },
+      "existentes": [
+        {
+          "id": "q05105",
+          "pergunta": "No Milan do fim dos anos oitenta, o famoso trio holandês tinha Gullit, Van Basten e qual volante?",
+          "resposta": "Frank Rijkaard"
+        },
+        {
+          "id": "q09333",
+          "pergunta": "O Milan usa a grafia inglesa do nome da cidade, e não a italiana, Milano. Por que o clube adotou essa forma?",
+          "resposta": "Foi fundado por ingleses"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "De que seleção é este uniforme?",
+        "resposta": "Itália"
+      },
+      "existentes": [
+        {
+          "id": "q00715",
+          "pergunta": "Qual foi a primeira seleção a vencer duas Copas do Mundo seguidas, ainda nos anos trinta?",
+          "resposta": "Itália"
+        },
+        {
+          "id": "q05128",
+          "pergunta": "A seleção italiana joga de azul em homenagem à cor de qual dinastia que reinou na Itália?",
+          "resposta": "Casa de Savoia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o uniforme é outro fato; a existente trata do motivo da fundação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o uniforme é diferente de esporte original ou rival."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Uniforme do time é diferente do hino da torcida."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o uniforme é diferente de origem do nome ou do escudo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Uniforme é diferente de trio holandês ou grafia do nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar o uniforme não é o mesmo que Copas seguidas ou origem da cor azul."
+    }
+  ]
+}
