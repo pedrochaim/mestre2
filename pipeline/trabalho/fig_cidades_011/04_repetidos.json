@@ -1,0 +1,145 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade brasileira fica este estádio?",
+        "resposta": "Belo Horizonte"
+      },
+      "existentes": [
+        {
+          "id": "q00525",
+          "pergunta": "Que estádio brasileiro é este?",
+          "resposta": "Mineirão"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que antiga cidade mesoamericana é esta?",
+        "resposta": "Teotihuacán"
+      },
+      "existentes": [
+        {
+          "id": "q03483",
+          "pergunta": "Teotihuacan é um nome dado pelos astecas séculos depois do abandono da cidade. Ele costuma ser traduzido como lugar de nascimento de quem?",
+          "resposta": "Dos deuses"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Para que religião este templo é o local mais sagrado?",
+        "resposta": "Sikhismo"
+      },
+      "existentes": [
+        {
+          "id": "q03558",
+          "pergunta": "Em que cidade indiana fica o Templo Dourado, principal santuário do sikhismo?",
+          "resposta": "Amritsar"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que castelo japonês é este?",
+        "resposta": "Castelo de Himeji"
+      },
+      "existentes": [
+        {
+          "id": "q04701",
+          "pergunta": "Que castelo japonês é este?",
+          "resposta": "Castelo de Himeji"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que ilha da Baía de Guanabara é esta?",
+        "resposta": "Ilha Fiscal"
+      },
+      "existentes": [
+        {
+          "id": "q02224",
+          "pergunta": "O Baile da Ilha Fiscal, na baía de Guanabara, foi a última grande festa do Império. Ele aconteceu poucos dias antes de qual acontecimento?",
+          "resposta": "Proclamação da República"
+        },
+        {
+          "id": "q08435",
+          "pergunta": "Que edifício carioca da época do Império é este?",
+          "resposta": "Palácio da Ilha Fiscal"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que ponte medieval é esta?",
+        "resposta": "Ponte Carlos"
+      },
+      "existentes": [
+        {
+          "id": "q11611",
+          "pergunta": "Em que século começou a construção da Ponte Carlos, que cruza o rio Moldava, em Praga?",
+          "resposta": "Século quatorze"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que palácio é este?",
+        "resposta": "Palácio da Alvorada"
+      },
+      "existentes": [
+        {
+          "id": "q07516",
+          "pergunta": "Projetado por Oscar Niemeyer à beira do lago Paranoá, que função tem o Palácio da Alvorada, em Brasília?",
+          "resposta": "Residência oficial do presidente"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta a cidade do estádio, não identificar o estádio; fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a cidade pela imagem é diferente do significado do nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Religião do templo versus cidade onde fica; fatos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q04701",
+      "motivo": "Pergunta e resposta idênticas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar a ilha é diferente do baile ou do edifício; a existente q08435 identifica o palácio, mas o fato é o nome da ilha/edifício... na dúvida, nova."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar a ponte difere do século de construção."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Identificar o palácio difere da função dele."
+    }
+  ]
+}

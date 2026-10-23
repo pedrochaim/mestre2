@@ -313,7 +313,7 @@
       "titulo": "en:Beijing",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cairo",
@@ -712,7 +712,7 @@
       "titulo": "en:CN Tower",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mont-Saint-Michel",
@@ -845,7 +845,7 @@
       "titulo": "en:Stonehenge",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Moais da Ilha de Páscoa",
@@ -1013,7 +1013,7 @@
       "titulo": "en:Charles Bridge",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Parlamento Húngaro",
@@ -1090,7 +1090,7 @@
       "titulo": "en:Mercado Modelo",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Theatro José de Alencar",
@@ -1116,6 +1116,286 @@
     {
       "nome": "Palácio de Peterhof",
       "titulo": "en:Peterhof Palace",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Palácio do Planalto",
+      "titulo": "en:Palácio do Planalto",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio da Alvorada",
+      "titulo": "en:Palácio da Alvorada",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Igreja do Senhor do Bonfim",
+      "titulo": "en:Church of Our Lord of Bonfim",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mineirão",
+      "titulo": "en:Mineirão",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Catedral Metropolitana do Rio de Janeiro",
+      "titulo": "en:Rio de Janeiro Cathedral",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Moulin Rouge",
+      "titulo": "en:Moulin Rouge",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alcatraz",
+      "titulo": "en:Alcatraz Island",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Capela Sistina",
+      "titulo": "en:Sistine Chapel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Domo da Rocha",
+      "titulo": "en:Dome of the Rock",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita Sagrada de Meca",
+      "titulo": "en:Great Mosque of Mecca",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Esfinge de Gizé",
+      "titulo": "en:Great Sphinx of Giza",
+      "camada": 1,
+      "destino": 0,
+      "status": "saturada"
+    },
+    {
+      "nome": "Praça dos Três Poderes",
+      "titulo": "en:Praça dos Três Poderes",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esplanada dos Ministérios",
+      "titulo": "en:Esplanada dos Ministérios",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja da Candelária",
+      "titulo": "en:Candelária Church",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo do Céu",
+      "titulo": "en:Temple of Heaven",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fushimi Inari-taisha",
+      "titulo": "en:Fushimi Inari-taisha",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Santuário de Itsukushima",
+      "titulo": "en:Itsukushima Shrine",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hawa Mahal",
+      "titulo": "en:Hawa Mahal",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo Dourado",
+      "titulo": "en:Golden Temple",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "The Shard",
+      "titulo": "en:The Shard",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vittoriano",
+      "titulo": "en:Victor Emmanuel II National Monument",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Castelo de Santo Ângelo",
+      "titulo": "en:Castel Sant'Angelo",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Florença",
+      "titulo": "en:Florence Cathedral",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grand Central Terminal",
+      "titulo": "en:Grand Central Terminal",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teotihuacán",
+      "titulo": "en:Teotihuacan",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lombard Street",
+      "titulo": "en:Lombard Street (San Francisco)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio Itamaraty",
+      "titulo": "en:Itamaraty Palace",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ilha Fiscal",
+      "titulo": "en:Ilha Fiscal",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Edifício Martinelli",
+      "titulo": "en:Martinelli Building",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Edifício Itália",
+      "titulo": "en:Edifício Itália",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pinacoteca de São Paulo",
+      "titulo": "en:Pinacoteca de São Paulo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação das Docas",
+      "titulo": "pt:Estação das Docas",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ponte Rio Negro",
+      "titulo": "en:Rio Negro Bridge",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita Hassan II",
+      "titulo": "en:Hassan II Mosque",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Himeji",
+      "titulo": "en:Himeji Castle",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Qutb Minar",
+      "titulo": "en:Qutb Minar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Praça Naqsh-e Jahan",
+      "titulo": "en:Naqsh-e Jahan Square",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cisterna da Basílica",
+      "titulo": "en:Basilica Cistern",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Livraria Lello",
+      "titulo": "en:Livraria Lello",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Santo Isaac",
+      "titulo": "en:Saint Isaac's Cathedral",
       "camada": 3,
       "destino": 0,
       "status": "nova"

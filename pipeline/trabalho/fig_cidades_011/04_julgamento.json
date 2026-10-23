@@ -1,0 +1,763 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pequim",
+        "descricao": "Capital da China, cidade no norte do país.",
+        "variantes": [
+          "Beijing",
+          "Peking"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense",
+            "Piqui"
+          ]
+        },
+        {
+          "id": "rei_carta_de_baralho",
+          "nome": "Rei (carta de baralho)",
+          "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+          "variantes": [
+            "King (playing card)",
+            "Rei de espadas",
+            "King"
+          ]
+        },
+        {
+          "id": "rei_xadrez",
+          "nome": "Rei (xadrez)",
+          "descricao": "Peça mais importante do xadrez, cuja captura iminente é o xeque e cujo xeque-mate encerra a partida.",
+          "variantes": [
+            "Rei",
+            "King"
+          ]
+        },
+        {
+          "id": "o_pasquim",
+          "nome": "O Pasquim",
+          "descricao": "Semanário carioca de humor e crítica política que reuniu cartunistas como Jaguar, Ziraldo e Millôr Fernandes",
+          "variantes": [
+            "Pasquim"
+          ]
+        },
+        {
+          "id": "requiem",
+          "nome": "Réquiem",
+          "descricao": "Missa católica pelos mortos, cujo texto latino começa com as palavras Requiem aeternam, musicada por muitos compositores.",
+          "variantes": [
+            "Missa de réquiem",
+            "Missa pro defunctis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Palácio de Peterhof",
+        "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+        "variantes": [
+          "Peterhof",
+          "Petergof"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "palacio_do_catete",
+          "nome": "Palácio do Catete",
+          "descricao": "Palácio no bairro do Catete, no Rio de Janeiro, sede da Presidência da República de 1897 a 1960.",
+          "variantes": [
+            "Catete Palace",
+            "Palácio Nova Friburgo"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        },
+        {
+          "id": "teremim",
+          "nome": "Teremim",
+          "descricao": "Instrumento eletrônico tocado sem contato físico, pelo movimento das mãos perto de duas antenas, criado por Léon Theremin.",
+          "variantes": [
+            "Theremin",
+            "Teremin",
+            "Eterofone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mineirão",
+        "descricao": "Estádio Governador Magalhães Pinto, estádio de futebol em Belo Horizonte, Minas Gerais.",
+        "variantes": [
+          "Estádio Governador Magalhães Pinto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        },
+        {
+          "id": "brasil_1_x_7_alemanha",
+          "nome": "Brasil 1 x 7 Alemanha",
+          "descricao": "Semifinal da Copa do Mundo de 2014, disputada no Mineirão, em Belo Horizonte, em 8 de julho de 2014.",
+          "variantes": [
+            "Mineiraço",
+            "Sete a um",
+            "Brazil v Germany 2014"
+          ]
+        },
+        {
+          "id": "atena",
+          "nome": "Atena",
+          "descricao": "Deusa grega da sabedoria, da estratégia na guerra e dos ofícios, padroeira de Atenas.",
+          "variantes": [
+            "Palas Atena",
+            "Minerva",
+            "Athena"
+          ]
+        },
+        {
+          "id": "mangueirao",
+          "nome": "Mangueirão",
+          "descricao": "Estádio Estadual Jornalista Edgar Proença, estádio de Belém, Pará, inaugurado em 1978.",
+          "variantes": [
+            "Estádio Olímpico do Pará",
+            "Estádio Edgar Proença"
+          ]
+        },
+        {
+          "id": "santo_crisma",
+          "nome": "Santo crisma",
+          "descricao": "Óleo consagrado usado em ritos cristãos como o batismo, a crisma e a ordenação",
+          "variantes": [
+            "Crisma (óleo)",
+            "Óleo do crisma",
+            "Chrism",
+            "Mirão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Teotihuacán",
+        "descricao": "Antiga cidade mesoamericana no Vale do México, famosa pelas pirâmides do Sol e da Lua.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "teotihuacan",
+          "nome": "Teotihuacan",
+          "descricao": "Antiga cidade pré-colombiana no vale do México, com as pirâmides do Sol e da Lua, abandonada séculos antes dos astecas.",
+          "variantes": []
+        },
+        {
+          "id": "tucano_toco",
+          "nome": "Tucano-toco",
+          "descricao": "Maior espécie de tucano (Ramphastos toco), de corpo preto, papo branco e bico laranja com mancha preta na ponta, da América do Sul.",
+          "variantes": [
+            "Tucanuçu",
+            "Toco toucan",
+            "Ramphastos toco"
+          ]
+        },
+        {
+          "id": "tenochtitlan",
+          "nome": "Tenochtitlan",
+          "descricao": "Capital dos astecas mexicas, erguida numa ilha do lago Texcoco, onde hoje fica a Cidade do México.",
+          "variantes": [
+            "México-Tenochtitlan"
+          ]
+        },
+        {
+          "id": "potiguar",
+          "nome": "Potiguar",
+          "descricao": "Gentílico de quem nasce no Rio Grande do Norte, derivado do nome do povo indígena potiguara",
+          "variantes": [
+            "Potiguara"
+          ]
+        },
+        {
+          "id": "noctiluca_scintillans",
+          "nome": "Noctiluca scintillans",
+          "descricao": "Dinoflagelado marinho bioluminescente que faz as ondas brilharem em azul à noite.",
+          "variantes": [
+            "Noctiluca",
+            "Faísca-do-mar",
+            "Sea sparkle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Templo Dourado",
+        "descricao": "Harmandir Sahib, gurdwara dourado em Amritsar, na Índia, o santuário mais sagrado do sikhismo.",
+        "variantes": [
+          "Harmandir Sahib",
+          "Golden Temple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "eldorado",
+          "nome": "Eldorado",
+          "descricao": "Lenda de uma terra riquíssima em ouro, nascida de um ritual dos muíscas, na atual Colômbia.",
+          "variantes": [
+            "El Dorado"
+          ]
+        },
+        {
+          "id": "templo_do_ceu",
+          "nome": "Templo do Céu",
+          "descricao": "Conjunto de templos imperiais confucionistas em Pequim, China, usado para cerimônias de oração por boas colheitas.",
+          "variantes": [
+            "Tiantan",
+            "Temple of Heaven",
+            "Templo do Paraíso"
+          ]
+        },
+        {
+          "id": "sapo_dourado",
+          "nome": "Sapo-dourado",
+          "descricao": "Sapo alaranjado (Incilius periglenes) das florestas de Monteverde, na Costa Rica, visto pela última vez em 1989 e considerado extinto.",
+          "variantes": [
+            "Incilius periglenes",
+            "Bufo periglenes",
+            "Golden toad"
+          ]
+        },
+        {
+          "id": "ponte_golden_gate",
+          "nome": "Ponte Golden Gate",
+          "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+          "variantes": [
+            "Golden Gate Bridge",
+            "Golden Gate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Castelo de Himeji",
+        "descricao": "Castelo japonês branco em Himeji, na província de Hyōgo, chamado Castelo da Garça Branca.",
+        "variantes": [
+          "Himeji-jō",
+          "Castelo da Garça Branca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_himeji",
+          "nome": "Castelo de Himeji",
+          "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+          "variantes": [
+            "Himeji-jō",
+            "Castelo da Garça Branca",
+            "Shirasagi-jō"
+          ]
+        },
+        {
+          "id": "castelo_de_n",
+          "nome": "Castelo de N",
+          "descricao": "Castelo da Equipe Plasma em Pokémon Black e White, onde acontece o confronto final da história.",
+          "variantes": [
+            "N's Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_chambord",
+          "nome": "Castelo de Chambord",
+          "descricao": "Castelo renascentista no Vale do Loire, na França, construído como pavilhão de caça de Francisco I.",
+          "variantes": [
+            "Château de Chambord",
+            "Chambord"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "CN Tower",
+        "descricao": "Torre de comunicações e observação de 553 metros em Toronto, Canadá.",
+        "variantes": [
+          "Torre CN"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_queimada",
+          "nome": "Torre Queimada",
+          "descricao": "Torre em ruínas da cidade de Ecruteak, em Johto, nos jogos Pokémon Gold e Silver, antiga Torre de Bronze destruída por um incêndio.",
+          "variantes": [
+            "Burned Tower",
+            "Torre de Bronze",
+            "Brass Tower"
+          ]
+        },
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener",
+            "Abre-latas"
+          ]
+        },
+        {
+          "id": "torre_pokemon",
+          "nome": "Torre Pokémon",
+          "descricao": "Torre que serve de cemitério de pokémon, assombrada por fantasmas, nos jogos Pokémon Red e Blue.",
+          "variantes": [
+            "Pokémon Tower"
+          ]
+        },
+        {
+          "id": "ancient_power",
+          "nome": "Ancient Power",
+          "descricao": "Golpe de pokémon do tipo Pedra, da 2ª geração.",
+          "variantes": []
+        },
+        {
+          "id": "torre_de_hanoi",
+          "nome": "Torre de Hanói",
+          "descricao": "Quebra-cabeça matemático de discos de tamanhos diferentes que devem ser movidos entre três hastes, criado em 1883.",
+          "variantes": [
+            "Tower of Hanoi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ilha Fiscal",
+        "descricao": "Ilha na Baía de Guanabara, no Rio de Janeiro, ocupada por um palácio neogótico, sede do último baile do Império.",
+        "variantes": [
+          "Palácio da Ilha Fiscal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_fiscal",
+          "nome": "Ilha Fiscal",
+          "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
+          "variantes": [
+            "Ilha dos Ratos",
+            "Palácio da Ilha Fiscal"
+          ]
+        },
+        {
+          "id": "teatro_alla_scala",
+          "nome": "Teatro alla Scala",
+          "descricao": "Casa de ópera de Milão, na Itália, inaugurada em 1778.",
+          "variantes": [
+            "La Scala",
+            "Scala de Milão"
+          ]
+        },
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        },
+        {
+          "id": "palacio_de_cristal",
+          "nome": "Palácio de Cristal",
+          "descricao": "Grande edifício de ferro e vidro construído em Londres para a Grande Exposição de 1851, destruído por um incêndio em 1936.",
+          "variantes": [
+            "The Crystal Palace",
+            "Crystal Palace"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Catedral Metropolitana do Rio de Janeiro",
+        "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+        "variantes": [
+          "Catedral de São Sebastião do Rio de Janeiro",
+          "Catedral de São Sebastião"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ponte Carlos",
+        "descricao": "Ponte medieval de pedra sobre o rio Moldava, em Praga, na República Tcheca.",
+        "variantes": [
+          "Karlův most",
+          "Charles Bridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_carlos",
+          "nome": "Ponte Carlos",
+          "descricao": "Ponte medieval de pedra sobre o rio Moldava, em Praga, ladeada por estátuas barrocas.",
+          "variantes": [
+            "Karlův most",
+            "Charles Bridge",
+            "Ponte Carlos IV"
+          ]
+        },
+        {
+          "id": "carlos_i_da_inglaterra",
+          "nome": "Carlos I da Inglaterra",
+          "descricao": "Rei da Inglaterra, Escócia e Irlanda de 1625 a 1649, derrotado na Guerra Civil Inglesa e executado.",
+          "variantes": [
+            "Charles I",
+            "Carlos Primeiro"
+          ]
+        },
+        {
+          "id": "charles_babbage",
+          "nome": "Charles Babbage",
+          "descricao": "Matemático e engenheiro inglês que concebeu a máquina diferencial e a máquina analítica, precursoras do computador.",
+          "variantes": []
+        },
+        {
+          "id": "charles_barkley",
+          "nome": "Charles Barkley",
+          "descricao": "Ex-ala-pivô americano de basquete, MVP da NBA em 1993 e hoje comentarista de TV.",
+          "variantes": [
+            "Sir Charles",
+            "Chuck"
+          ]
+        },
+        {
+          "id": "pontes_de_corda_incas",
+          "nome": "Pontes de corda incas",
+          "descricao": "Pontes suspensas de fibras vegetais trançadas usadas na rede de estradas incas, como a de Q'eswachaka, ainda refeita todo ano no Peru.",
+          "variantes": [
+            "Q'eswachaka",
+            "Queshuachaca",
+            "Inca rope bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Praça Naqsh-e Jahan",
+        "descricao": "Grande praça histórica safávida no centro de Isfahan, no Irã, cercada por mesquitas e palácio.",
+        "variantes": [
+          "Praça do Imã",
+          "Praça Naghsh-e Jahan",
+          "Praça Shah"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "iemanja",
+          "nome": "Iemanjá",
+          "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar.",
+          "variantes": [
+            "Yemanjá",
+            "Janaína",
+            "Rainha do Mar"
+          ]
+        },
+        {
+          "id": "pedra_do_inga",
+          "nome": "Pedra do Ingá",
+          "descricao": "Rocha na Paraíba coberta de gravuras pré-históricas, também chamada Itacoatiara do Ingá.",
+          "variantes": [
+            "Itacoatiara do Ingá",
+            "Ingá Stone"
+          ]
+        },
+        {
+          "id": "noctiluca_scintillans",
+          "nome": "Noctiluca scintillans",
+          "descricao": "Dinoflagelado marinho bioluminescente que faz as ondas brilharem em azul à noite.",
+          "variantes": [
+            "Noctiluca",
+            "Faísca-do-mar",
+            "Sea sparkle"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Palácio da Alvorada",
+        "descricao": "Residência oficial do presidente do Brasil em Brasília, projetada por Oscar Niemeyer.",
+        "variantes": [
+          "Alvorada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "palacio_da_alvorada",
+          "nome": "Palácio da Alvorada",
+          "descricao": "Palácio projetado por Oscar Niemeyer em Brasília, à beira do lago Paranoá, residência oficial do presidente da República.",
+          "variantes": [
+            "Alvorada"
+          ]
+        },
+        {
+          "id": "palacio_de_potala",
+          "nome": "Palácio de Potala",
+          "descricao": "Palácio no Tibete que foi residência oficial dos dalai-lamas",
+          "variantes": [
+            "Potala",
+            "Potala Palace"
+          ]
+        },
+        {
+          "id": "palacio_da_pena",
+          "nome": "Palácio da Pena",
+          "descricao": "Palácio romântico do século dezenove no alto da serra de Sintra, em Portugal.",
+          "variantes": [
+            "Pena Palace",
+            "Palácio Nacional da Pena"
+          ]
+        },
+        {
+          "id": "galo_da_madrugada",
+          "nome": "Galo da Madrugada",
+          "descricao": "Bloco de carnaval do Recife, fundado em 1978, cujo símbolo é um galo gigante.",
+          "variantes": [
+            "Galo da Madrugada do Recife",
+            "Clube de Máscaras Galo da Madrugada"
+          ]
+        },
+        {
+          "id": "kevlar",
+          "nome": "Kevlar",
+          "descricao": "Fibra sintética de altíssima resistência criada na DuPont, usada em coletes à prova de bala.",
+          "variantes": [
+            "Aramida"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Pequim."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Peterhof não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mineirao",
+      "motivo": "Mesmo estádio de Belo Horizonte, Governador Magalhães Pinto."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "teotihuacan",
+      "motivo": "Mesma cidade antiga, apenas grafia diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "templo_dourado",
+      "motivo": "Harmandir Sahib, mesmo santuário sikh."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "castelo_de_himeji",
+      "motivo": "Mesmo castelo de Himeji."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "CN Tower não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "ilha_fiscal",
+      "motivo": "Mesma ilha e palácio neogótico na Baía de Guanabara."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "A catedral do Rio não está entre as candidatas; Brasília e a cidade do Rio são outras entidades."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "ponte_carlos",
+      "motivo": "Mesma ponte medieval de Praga sobre o Moldava."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a praça de Isfahan."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "palacio_da_alvorada",
+      "motivo": "Mesmo palácio de Niemeyer em Brasília."
+    }
+  ]
+}

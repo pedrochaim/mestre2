@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Skyline com a torre CITIC e o edifício da CCTV, característicos de Pequim; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xangai",
+        "Hong Kong",
+        "Shenzhen"
+      ],
+      "ancora": {
+        "nome": "Pequim",
+        "descricao": "Capital da China, cidade no norte do país.",
+        "variantes": [
+          "Beijing",
+          "Peking"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Palácio amarelo com Grande Cascata e fontes douradas, inconfundível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que palácio russo é este?",
+      "resposta": "Palácio de Peterhof",
+      "distratores": [
+        "Palácio de Catarina",
+        "Palácio de Inverno",
+        "Palácio de Pavlovsk"
+      ],
+      "ancora": {
+        "nome": "Palácio de Peterhof",
+        "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+        "variantes": [
+          "Peterhof",
+          "Petergof"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível do estádio com anel de cobertura branco; sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade brasileira fica este estádio?",
+      "resposta": "Belo Horizonte",
+      "distratores": [
+        "Brasília",
+        "Salvador",
+        "Recife"
+      ],
+      "ancora": {
+        "nome": "Mineirão",
+        "descricao": "Estádio Governador Magalhães Pinto, estádio de futebol em Belo Horizonte, Minas Gerais.",
+        "variantes": [
+          "Estádio Governador Magalhães Pinto"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea da Pirâmide do Sol, com a Avenida dos Mortos e a Pirâmide da Lua ao fundo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que antiga cidade mesoamericana é esta?",
+      "resposta": "Teotihuacán",
+      "distratores": [
+        "Chichén Itzá",
+        "Tikal",
+        "Tenochtitlán"
+      ],
+      "ancora": {
+        "nome": "Teotihuacán",
+        "descricao": "Antiga cidade mesoamericana no Vale do México, famosa pelas pirâmides do Sol e da Lua.",
+        "variantes": [
+          "Teotihuacan"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Templo dourado sobre o lago, inconfundível; sem texto; fiéis pequenos em locais públicos.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Para que religião este templo é o local mais sagrado?",
+      "resposta": "Sikhismo",
+      "ancora": {
+        "nome": "Templo Dourado",
+        "descricao": "Harmandir Sahib, gurdwara dourado em Amritsar, na Índia, o santuário mais sagrado do sikhismo.",
+        "variantes": [
+          "Harmandir Sahib",
+          "Golden Temple"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Castelo branco de torres escalonadas, reconhecível; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que castelo japonês é este?",
+      "resposta": "Castelo de Himeji",
+      "distratores": [
+        "Castelo de Matsumoto",
+        "Castelo de Osaka",
+        "Castelo de Kumamoto"
+      ],
+      "ancora": {
+        "nome": "Castelo de Himeji",
+        "descricao": "Castelo japonês branco em Himeji, na província de Hyōgo, chamado Castelo da Garça Branca.",
+        "variantes": [
+          "Himeji-jō",
+          "Castelo da Garça Branca"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "CN Tower nítida em foto vertical; o único texto (Rogers Centre) não entrega o nome da torre.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que torre é esta?",
+      "resposta": "CN Tower",
+      "ancora": {
+        "nome": "CN Tower",
+        "descricao": "Torre de comunicações e observação de 553 metros em Toronto, Canadá.",
+        "variantes": [
+          "Torre CN"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Palácio neogótico verde sobre ilha na Baía de Guanabara, característico; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ilha da Baía de Guanabara é esta?",
+      "resposta": "Ilha Fiscal",
+      "distratores": [
+        "Ilha de Paquetá",
+        "Ilha das Cobras",
+        "Ilha do Governador"
+      ],
+      "ancora": {
+        "nome": "Ilha Fiscal",
+        "descricao": "Ilha na Baía de Guanabara, no Rio de Janeiro, ocupada por um palácio neogótico, sede do último baile do Império.",
+        "variantes": [
+          "Palácio da Ilha Fiscal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Catedral cônica de concreto, inconfundível, com campanário ao lado; sem texto; pessoa pequena e de costas.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que santo é dedicada esta catedral?",
+      "resposta": "São Sebastião",
+      "ancora": {
+        "nome": "Catedral Metropolitana do Rio de Janeiro",
+        "descricao": "Catedral cônica de concreto, sede da Arquidiocese do Rio de Janeiro, dedicada a São Sebastião.",
+        "variantes": [
+          "Catedral de São Sebastião do Rio de Janeiro",
+          "Catedral de São Sebastião"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea da ponte de pedra com torres sobre o Moldava; multidão pequena e distante; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ponte medieval é esta?",
+      "resposta": "Ponte Carlos",
+      "ancora": {
+        "nome": "Ponte Carlos",
+        "descricao": "Ponte medieval de pedra sobre o rio Moldava, em Praga, na República Tcheca.",
+        "variantes": [
+          "Karlův most",
+          "Charles Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vista ampla da praça com mesquitas e o palácio Ali Qapu; reconhecível para quem conhece; sem texto; pessoas minúsculas.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade do Irã fica esta praça?",
+      "resposta": "Isfahan",
+      "distratores": [
+        "Teerã",
+        "Shiraz",
+        "Tabriz"
+      ],
+      "ancora": {
+        "nome": "Praça Naqsh-e Jahan",
+        "descricao": "Grande praça histórica safávida no centro de Isfahan, no Irã, cercada por mesquitas e palácio.",
+        "variantes": [
+          "Praça do Imã",
+          "Praça Naghsh-e Jahan",
+          "Praça Shah"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fachada com colunas em arco inconfundível; a ema no gramado é só um animal; sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que palácio é este?",
+      "resposta": "Palácio da Alvorada",
+      "ancora": {
+        "nome": "Palácio da Alvorada",
+        "descricao": "Residência oficial do presidente do Brasil em Brasília, projetada por Oscar Niemeyer.",
+        "variantes": [
+          "Alvorada"
+        ]
+      }
+    }
+  ]
+}
