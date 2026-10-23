@@ -651,9 +651,10 @@
     "fig_pinturas_013",
     "fig_bandeiras_012",
     "fig_cidades_011",
-    "fig_monumentos_historicos_011"
+    "fig_monumentos_historicos_011",
+    "fig_monumentos_historicos_012"
   ],
-  "maior_id": 14599,
+  "maior_id": 14608,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -900,17 +901,17 @@
     "monumentos_historicos": {
       "familias": {
         "o_que_e": 28,
-        "quando": 22,
-        "quem_fez": 25,
-        "onde": 31,
+        "quando": 25,
+        "quem_fez": 27,
+        "onde": 35,
         "com_o_que_se_liga": 1
       },
       "niveis": {
-        "1": 38,
-        "3": 19,
-        "2": 50
+        "1": 40,
+        "3": 22,
+        "2": 54
       },
-      "registradas": 107
+      "registradas": 116
     },
     "pinturas": {
       "familias": {

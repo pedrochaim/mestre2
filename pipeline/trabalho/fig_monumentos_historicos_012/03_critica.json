@@ -1,0 +1,101 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fortaleza em Jurujuba, Niterói, confirmado nos trechos. A pista da baía não entrega a cidade, porque Rio de Janeiro e Niterói são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aspendos fica na província de Antalya, Turquia, e o teatro é bem conservado segundo os trechos. A pergunta não entrega o país e os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A catedral fica em Cantuária, Kent. O enunciado não nomeia a cidade e os distratores são cidades inglesas com catedrais góticas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Christopher Wren projetou a catedral atual, conforme os trechos. A resposta é única e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rastrelli, italiano, projetou o palácio no barroco elisabetano, conforme os trechos. O enunciado não nomeia o palácio.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Colunas coríntias' não está nos trechos e não se pode garantir que apareça nesta foto específica. Tirei o detalhe e mantive a pergunta pelo país.",
+      "reescrita": {
+        "pergunta": "Em que país ficam estas ruínas de uma cidade romana?",
+        "resposta": "Marrocos",
+        "distratores": [
+          "Tunísia",
+          "Líbia",
+          "Argélia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 30 de junho de 1894, conforme os trechos. Os distratores são anos próximos e críveis, e o formato múltipla está correto para uma resposta que é um ano.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato é Ptolomaico, confirmado nos trechos. Mas a resposta era a única que não seguia o formato ordinal dos distratores, o que a entregava. Os distratores passam a ser dinastias nomeadas. O enunciado também fala do templo que vemos hoje, porque já havia um templo no Reino Novo.",
+      "reescrita": {
+        "pergunta": "Sob que dinastia foi construído o templo que vemos aqui, no Alto Egito?",
+        "resposta": "Ptolomaica",
+        "distratores": [
+          "Tutmósida",
+          "Ramséssida",
+          "Saíta"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Altar dedicado à paz de Augusto' traduz o nome Ara Pacis, então a figura vira enfeite no teste da imagem coberta. O ano 9 a.C. está nos trechos. Troquei a pista por uma que só dá a época.",
+      "reescrita": {
+        "pergunta": "Em que ano foi consagrado este altar romano, erguido no tempo do imperador Augusto?",
+        "resposta": "9 a.C.",
+        "distratores": [
+          "27 a.C.",
+          "14 a.C.",
+          "2 a.C."
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os Habsburgo eram dinastia imperial, não 'real', então a afirmação era imprecisa. Os trechos confirmam que Schönbrunn era a principal residência de verão.",
+      "reescrita": {
+        "pergunta": "Que dinastia imperial tinha este palácio barroco como principal residência de verão?",
+        "resposta": "Habsburgo"
+      }
+    }
+  ]
+}

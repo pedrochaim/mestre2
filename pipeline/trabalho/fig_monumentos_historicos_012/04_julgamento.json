@@ -1,0 +1,629 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Fortaleza de Santa Cruz da Barra",
+        "descricao": "Fortaleza colonial na entrada da baía de Guanabara, no bairro de Jurujuba, em Niterói (RJ).",
+        "variantes": [
+          "Fortaleza de Santa Cruz",
+          "Fortaleza de Santa Cruz de Niterói"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis",
+            "Terno de Reis"
+          ]
+        },
+        {
+          "id": "falha_de_san_andreas",
+          "nome": "Falha de San Andreas",
+          "descricao": "Falha geológica transformante onde as placas do Pacífico e da América do Norte deslizam lado a lado.",
+          "variantes": [
+            "Falha de Santo André",
+            "San Andreas Fault"
+          ]
+        },
+        {
+          "id": "o_extase_de_santa_teresa",
+          "nome": "O Êxtase de Santa Teresa",
+          "descricao": "Grupo escultórico de Gian Lorenzo Bernini em Roma.",
+          "variantes": [
+            "Ecstasy of Saint Teresa"
+          ]
+        },
+        {
+          "id": "porta_de_ishtar",
+          "nome": "Porta de Ishtar",
+          "descricao": "Portão monumental da Babilônia, revestido de tijolos vidrados azuis, construído por Nabucodonosor segundo.",
+          "variantes": [
+            "Ishtar Gate"
+          ]
+        },
+        {
+          "id": "floresta_de_daintree",
+          "nome": "Floresta de Daintree",
+          "descricao": "Floresta tropical úmida do nordeste de Queensland, considerada uma das mais antigas do mundo",
+          "variantes": [
+            "Daintree Rainforest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Aspendos",
+        "descricao": "Antiga cidade greco-romana na província de Antalya, na Turquia, famosa pelo teatro romano bem conservado.",
+        "variantes": [
+          "Aspendus",
+          "Teatro de Aspendos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mamulengo",
+          "nome": "Mamulengo",
+          "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+          "variantes": [
+            "Teatro de mamulengo"
+          ]
+        },
+        {
+          "id": "teatro_de_arte_de_moscou",
+          "nome": "Teatro de Arte de Moscou",
+          "descricao": "Companhia teatral russa fundada em 1898 por Stanislavski e Nemirovitch-Dantchenko.",
+          "variantes": [
+            "Moscow Art Theatre",
+            "MKhAT"
+          ]
+        },
+        {
+          "id": "speedo",
+          "nome": "Speedo",
+          "descricao": "Marca de roupas de banho e natação fundada em Sydney",
+          "variantes": []
+        },
+        {
+          "id": "zapdos",
+          "nome": "Zapdos",
+          "descricao": "Pokémon lendário ave do tipo Elétrico e Voador, de número 145 da Pokédex Nacional.",
+          "variantes": [
+            "Zapdos de Galar"
+          ]
+        },
+        {
+          "id": "sistema_binario",
+          "nome": "Sistema binário",
+          "descricao": "Sistema de numeração que usa apenas os algarismos zero e um, base da computação digital.",
+          "variantes": [
+            "Numeração binária",
+            "Base dois",
+            "Sistema de numeração binário",
+            "Binary number"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Catedral de Cantuária",
+        "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+        "variantes": [
+          "Catedral de Canterbury",
+          "Canterbury Cathedral"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_colonia",
+          "nome": "Catedral de Colônia",
+          "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+          "variantes": [
+            "Kölner Dom",
+            "Cologne Cathedral"
+          ]
+        },
+        {
+          "id": "os_contos_da_cantuaria",
+          "nome": "Os Contos da Cantuária",
+          "descricao": "Coletânea de histórias em versos de Geoffrey Chaucer, contadas por peregrinos a caminho da catedral de Canterbury.",
+          "variantes": [
+            "The Canterbury Tales",
+            "Contos de Canterbury",
+            "Contos da Cantuária"
+          ]
+        },
+        {
+          "id": "catedral_de_chartres",
+          "nome": "Catedral de Chartres",
+          "descricao": "Catedral gótica de Notre-Dame em Chartres, na França, famosa por suas duas torres assimétricas e seus vitrais.",
+          "variantes": [
+            "Catedral de Notre-Dame de Chartres",
+            "Chartres Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_brasilia",
+          "nome": "Catedral de Brasília",
+          "descricao": "Catedral metropolitana de Brasília, com 16 colunas curvas de concreto em forma de hiperboloide.",
+          "variantes": [
+            "Catedral Metropolitana de Brasília",
+            "Catedral Metropolitana Nossa Senhora Aparecida",
+            "Catedral Metropolitana de Nossa Senhora Aparecida"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Catedral de São Paulo (Londres)",
+        "descricao": "Catedral anglicana barroca de Londres, na colina de Ludgate, concluída em 1710 segundo projeto de Christopher Wren.",
+        "variantes": [
+          "St Paul's Cathedral",
+          "Catedral de St Paul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "catedral_de_sao_paulo_de_londres",
+          "nome": "Catedral de São Paulo de Londres",
+          "descricao": "Catedral anglicana com grande cúpula na colina de Ludgate, na City de Londres, reconstruída após o Grande Incêndio de 1666.",
+          "variantes": [
+            "St Paul's Cathedral",
+            "Catedral de São Paulo"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky",
+            "Saint Basil's Cathedral"
+          ]
+        },
+        {
+          "id": "catedral_da_se_de_sao_paulo",
+          "nome": "Catedral da Sé de São Paulo",
+          "descricao": "Catedral metropolitana neogótica com cúpula renascentista, na Praça da Sé, em São Paulo.",
+          "variantes": [
+            "Catedral Metropolitana de São Paulo",
+            "Catedral da Sé"
+          ]
+        },
+        {
+          "id": "catedral_de_rouen_monet",
+          "nome": "Catedral de Rouen (Monet)",
+          "descricao": "Série de pinturas de Claude Monet, dos anos 1890, da fachada da Catedral de Ruão em diferentes luzes.",
+          "variantes": [
+            "Catedral de Ruão",
+            "Rouen Cathedral",
+            "Série Catedral de Rouen"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Palácio de Inverno",
+        "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+        "variantes": [
+          "Winter Palace",
+          "Palácio de Inverno de São Petersburgo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "solsticio",
+          "nome": "Solstício",
+          "descricao": "Momento do ano em que o Sol atinge sua maior declinação, marcando o dia mais longo ou o mais curto do ano.",
+          "variantes": [
+            "Solstício de verão",
+            "Solstício de inverno",
+            "Solstice"
+          ]
+        },
+        {
+          "id": "palacio_de_peterhof",
+          "nome": "Palácio de Peterhof",
+          "descricao": "Conjunto de palácios e jardins com fontes perto de São Petersburgo, na Rússia, mandado construir por Pedro, o Grande.",
+          "variantes": [
+            "Peterhof",
+            "Petergof"
+          ]
+        },
+        {
+          "id": "o_parlamento_de_londres",
+          "nome": "O Parlamento de Londres",
+          "descricao": "Série de pinturas impressionistas de Claude Monet (1900-1901) que mostra o Palácio de Westminster, sede do Parlamento britânico, visto do Tâmisa.",
+          "variantes": [
+            "O Parlamento de Londres (Monet)",
+            "Houses of Parliament",
+            "Parlamento de Londres, Efeito de Neblina",
+            "Palácio de Westminster"
+          ]
+        },
+        {
+          "id": "palacio_de_diocleciano",
+          "nome": "Palácio de Diocleciano",
+          "descricao": "Palácio-fortaleza construído por volta do ano 300 para a aposentadoria do imperador Diocleciano, na costa da Dalmácia.",
+          "variantes": [
+            "Diocletian's Palace"
+          ]
+        },
+        {
+          "id": "palacio_de_versalhes",
+          "nome": "Palácio de Versalhes",
+          "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+          "variantes": [
+            "Château de Versailles",
+            "Versalhes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Volubilis",
+        "descricao": "Cidade berbere-romana parcialmente escavada perto de Meknés, no Marrocos, possível capital do reino da Mauritânia.",
+        "variantes": [
+          "Walili",
+          "Volubilis (Marrocos)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lingua_suaili",
+          "nome": "Língua suaíli",
+          "descricao": "Língua banta falada na costa e no interior da África Oriental, com forte influência do árabe.",
+          "variantes": [
+            "Suaíli",
+            "Swahili",
+            "Kiswahili",
+            "Suahíli",
+            "Suaíle"
+          ]
+        },
+        {
+          "id": "bispo_xadrez",
+          "nome": "Bispo (xadrez)",
+          "descricao": "Peça do xadrez que se move na diagonal, chamada al-fil no xadrez árabe.",
+          "variantes": [
+            "Bishop",
+            "Alfil"
+          ]
+        },
+        {
+          "id": "waldi",
+          "nome": "Waldi",
+          "descricao": "Mascote dos Jogos Olímpicos de Munique 1972, o primeiro mascote olímpico oficial.",
+          "variantes": []
+        },
+        {
+          "id": "wally",
+          "nome": "Wally",
+          "descricao": "Menino de Hoenn, rival do jogador em Pokémon Ruby, Sapphire e Emerald, que captura um Ralts com a ajuda do protagonista.",
+          "variantes": [
+            "Mitsuru"
+          ]
+        },
+        {
+          "id": "ninfeias_monet",
+          "nome": "Ninfeias (Monet)",
+          "descricao": "Série de quadros de Claude Monet com o lago de seu jardim em Giverny.",
+          "variantes": [
+            "Water Lilies",
+            "Nymphéas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tower Bridge",
+        "descricao": "Ponte basculante e suspensa sobre o Tâmisa, em Londres, inaugurada em 1894, perto da Torre de Londres.",
+        "variantes": [
+          "Ponte da Torre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tower_bridge",
+          "nome": "Tower Bridge",
+          "descricao": "Ponte levadiça e pênsil sobre o rio Tâmisa, em Londres, com duas torres de estilo neogótico, ao lado da Torre de Londres.",
+          "variantes": [
+            "Ponte da Torre"
+          ]
+        },
+        {
+          "id": "ponte_aerea",
+          "nome": "Ponte aérea",
+          "descricao": "Jogada de basquete em que um jogador lança a bola perto do aro e um companheiro a pega no ar e a enterra.",
+          "variantes": [
+            "Alley-oop"
+          ]
+        },
+        {
+          "id": "ponte_de_rialto",
+          "nome": "Ponte de Rialto",
+          "descricao": "Ponte de pedra em arco sobre o Grande Canal de Veneza, concluída no fim do século dezesseis.",
+          "variantes": [
+            "Ponte di Rialto",
+            "Rialto Bridge"
+          ]
+        },
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Templo de Kom Ombo",
+        "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+        "variantes": [
+          "Templo de Com Ombo",
+          "Temple of Kom Ombo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baalbek",
+          "nome": "Baalbek",
+          "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+          "variantes": [
+            "Heliópolis",
+            "Templo de Baco"
+          ]
+        },
+        {
+          "id": "primeiro_templo_de_jerusalem",
+          "nome": "Primeiro Templo de Jerusalém",
+          "descricao": "Templo judaico erguido em Jerusalém e destruído pelos babilônios no século seis antes de Cristo",
+          "variantes": [
+            "Templo de Salomão"
+          ]
+        },
+        {
+          "id": "templo_de_debod",
+          "nome": "Templo de Debod",
+          "descricao": "Templo egípcio antigo da Núbia doado pelo Egito à Espanha e remontado num parque de Madri",
+          "variantes": [
+            "Temple of Debod"
+          ]
+        },
+        {
+          "id": "ovo_de_colombo",
+          "nome": "Ovo de Colombo",
+          "descricao": "Expressão para uma solução que parece óbvia depois que alguém a encontra",
+          "variantes": []
+        },
+        {
+          "id": "templo_de_zeus_olimpico",
+          "nome": "Templo de Zeus Olímpico",
+          "descricao": "Colossal templo em ruínas no centro de Atenas, concluído no reinado do imperador Adriano.",
+          "variantes": [
+            "Olimpeion",
+            "Olympieion",
+            "Templo de Zeus Olímpico (Atenas)",
+            "Olimpieion",
+            "Temple of Olympian Zeus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ara Pacis",
+        "descricao": "Altar romano dedicado à Paz de Augusto, consagrado em 9 a.C. e hoje exposto em museu próprio em Roma.",
+        "variantes": [
+          "Ara Pacis Augustae",
+          "Altar da Paz Augusta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para_raios",
+          "nome": "Para-raios",
+          "descricao": "Haste metálica ligada à terra que protege construções conduzindo a descarga dos raios.",
+          "variantes": [
+            "Lightning rod"
+          ]
+        },
+        {
+          "id": "alpaca",
+          "nome": "Alpaca",
+          "descricao": "Camelídeo doméstico sul-americano (Vicugna pacos), criado pela fibra de lã.",
+          "variantes": [
+            "Vicugna pacos",
+            "Lama pacos"
+          ]
+        },
+        {
+          "id": "escargot",
+          "nome": "Escargot",
+          "descricao": "Prato de caracóis terrestres comestíveis, servidos com manteiga de ervas.",
+          "variantes": [
+            "Caracóis"
+          ]
+        },
+        {
+          "id": "apontador",
+          "nome": "Apontador",
+          "descricao": "Pequena ferramenta com lâmina para afiar a ponta de lápis de madeira.",
+          "variantes": [
+            "Apontador de lápis",
+            "Apara-lápis"
+          ]
+        },
+        {
+          "id": "pacto_de_varsovia",
+          "nome": "Pacto de Varsóvia",
+          "descricao": "Aliança militar da União Soviética com os países comunistas do Leste Europeu, de 1955 a 1991.",
+          "variantes": [
+            "Warsaw Pact",
+            "Tratado de Varsóvia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Palácio de Schönbrunn",
+        "descricao": "Palácio barroco de Viena, principal residência de verão dos Habsburgo, com 1.441 cômodos.",
+        "variantes": [
+          "Schönbrunn",
+          "Schloss Schönbrunn"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "scorbunny",
+          "nome": "Scorbunny",
+          "descricao": "Pokémon do tipo Fogo, número 813 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "shonen",
+          "nome": "Shōnen",
+          "descricao": "Categoria de mangá e anime voltada ao público masculino jovem, como Dragon Ball e Naruto.",
+          "variantes": [
+            "Shounen",
+            "少年"
+          ]
+        },
+        {
+          "id": "palau_sant_jordi",
+          "nome": "Palau Sant Jordi",
+          "descricao": "Ginásio coberto do Anel Olímpico de Montjuïc, em Barcelona, projetado por Arata Isozaki.",
+          "variantes": [
+            "Palácio de São Jorge"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos",
+            "Cnosso"
+          ]
+        },
+        {
+          "id": "robert_schumann",
+          "nome": "Robert Schumann",
+          "descricao": "Compositor e crítico musical alemão do Romantismo (1810–1856), marido da pianista Clara Schumann.",
+          "variantes": [
+            "Schumann"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fortaleza de Niterói."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cidade de Aspendos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A catedral de Cantuária não está entre as candidatas; Os Contos da Cantuária é uma obra literária."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "catedral_de_sao_paulo_de_londres",
+      "motivo": "Mesma catedral anglicana de Londres (St Paul's, Ludgate Hill)."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O Palácio de Inverno não está entre as candidatas; Peterhof é outro palácio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Volubilis."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "tower_bridge",
+      "motivo": "Mesma ponte sobre o Tâmisa, ao lado da Torre de Londres."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O Templo de Kom Ombo não está entre as candidatas; Debod é outro templo."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Ara Pacis."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio de Schönbrunn."
+    }
+  ]
+}

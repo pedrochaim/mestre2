@@ -1,0 +1,242 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Fortaleza bem visível, sem texto legível. Família 'quando' exigiria ano não sustentado pelo trecho; troquei por 'onde'.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica esta fortaleza, que defendia a entrada da baía de Guanabara?",
+      "resposta": "Niterói",
+      "distratores": [
+        "Rio de Janeiro",
+        "Santos",
+        "Salvador"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Fortaleza de Santa Cruz da Barra",
+        "descricao": "Fortaleza colonial na entrada da baía de Guanabara, no bairro de Jurujuba, em Niterói (RJ).",
+        "variantes": [
+          "Fortaleza de Santa Cruz",
+          "Fortaleza de Santa Cruz de Niterói"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Teatro romano bem visível e característico, sem texto. Troquei 'quando' por 'onde', mais seguro com o trecho.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas ruínas de um teatro romano muito bem conservado?",
+      "resposta": "Turquia",
+      "distratores": [
+        "Grécia",
+        "Síria",
+        "Itália"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Aspendos",
+        "descricao": "Antiga cidade greco-romana na província de Antalya, na Turquia, famosa pelo teatro romano bem conservado.",
+        "variantes": [
+          "Aspendus",
+          "Teatro de Aspendos"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Multidão de peregrinos, pessoas comuns, em primeiro plano na imagem, o que a política de pessoas proíbe."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada gótica nítida, sem texto. Troquei 'quando' por 'onde' em múltipla, com catedrais góticas inglesas parecidas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade inglesa fica esta catedral gótica?",
+      "resposta": "Cantuária",
+      "distratores": [
+        "York",
+        "Salisbury",
+        "Winchester"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Cantuária",
+        "descricao": "Catedral da arquidiocese anglicana em Cantuária (Kent), na Inglaterra, sede espiritual da Igreja da Inglaterra.",
+        "variantes": [
+          "Catedral de Canterbury",
+          "Canterbury Cathedral"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A imagem mostra ruínas de um anexo (mammisi) do complexo de Dendera, não o templo principal; pouco reconhecível e ambígua com outros templos egípcios em ruínas."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cúpula inconfundível vista do alto, sem texto. Troquei 'quando' (ano) por autoria, sustentada pelo trecho.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto inglês projetou esta catedral?",
+      "resposta": "Christopher Wren",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Catedral de São Paulo (Londres)",
+        "descricao": "Catedral anglicana barroca de Londres, na colina de Ludgate, concluída em 1710 segundo projeto de Christopher Wren.",
+        "variantes": [
+          "St Paul's Cathedral",
+          "Catedral de St Paul"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada verde e dourada inconfundível; a bandeira não entrega o nome. Autoria do atual palácio é Rastrelli, amplamente documentado.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto de origem italiana projetou este palácio imperial russo, na forma barroca que vemos hoje?",
+      "resposta": "Bartolomeo Rastrelli",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Palácio de Inverno",
+        "descricao": "Palácio barroco em São Petersburgo, residência oficial dos imperadores russos e hoje parte do Museu Hermitage.",
+        "variantes": [
+          "Winter Palace",
+          "Palácio de Inverno de São Petersburgo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Colunas do Capitólio com ninho de cegonha, sem texto; reconhecível por aficionados, então múltipla. Troquei 'quando' por 'onde'.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas ruínas de uma cidade romana, com colunas coríntias?",
+      "resposta": "Marrocos",
+      "distratores": [
+        "Tunísia",
+        "Líbia",
+        "Argélia"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Volubilis",
+        "descricao": "Cidade berbere-romana parcialmente escavada perto de Meknés, no Marrocos, possível capital do reino da Mauritânia.",
+        "variantes": [
+          "Walili",
+          "Volubilis (Marrocos)"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ponte inconfundível, sem texto. A autoria é dividida entre Jones e Barry, então usei o ano de inauguração, sustentado pelo trecho, em múltipla.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi inaugurada esta ponte sobre o rio Tâmisa?",
+      "resposta": "1894",
+      "distratores": [
+        "1886",
+        "1889",
+        "1901"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Tower Bridge",
+        "descricao": "Ponte basculante e suspensa sobre o Tâmisa, em Londres, inaugurada em 1894, perto da Torre de Londres.",
+        "variantes": [
+          "Ponte da Torre"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Templo duplo nítido, sem texto. Pergunta de época por dinastia, sustentada pelo trecho.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Sob que dinastia foi construído este templo egípcio?",
+      "resposta": "Ptolomaica",
+      "distratores": [
+        "Décima oitava",
+        "Décima nona",
+        "Vigésima sexta"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Kom Ombo",
+        "descricao": "Templo duplo de época ptolomaica em Kom Ombo, na província de Assuã, no Alto Egito.",
+        "variantes": [
+          "Templo de Com Ombo",
+          "Temple of Kom Ombo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Altar com relevos reconhecíveis, sem texto nem pessoas. Data de consagração sustentada pelo trecho; ano, então múltipla.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi consagrado este altar romano dedicado à paz de Augusto?",
+      "resposta": "9 a.C.",
+      "distratores": [
+        "27 a.C.",
+        "14 a.C.",
+        "2 a.C."
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Ara Pacis",
+        "descricao": "Altar romano dedicado à Paz de Augusto, consagrado em 9 a.C. e hoje exposto em museu próprio em Roma.",
+        "variantes": [
+          "Ara Pacis Augustae",
+          "Altar da Paz Augusta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Palácio e jardins reconhecíveis em vista aérea, sem texto. Autoria arquitetônica é ambígua (Fischer von Erlach e Pacassi), então perguntei pela dinastia que o usava.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que dinastia real tinha este palácio como residência de verão?",
+      "resposta": "Habsburgo",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Palácio de Schönbrunn",
+        "descricao": "Palácio barroco de Viena, principal residência de verão dos Habsburgo, com 1.441 cômodos.",
+        "variantes": [
+          "Schönbrunn",
+          "Schloss Schönbrunn",
+          "Palácio de Schonbrunn"
+        ]
+      }
+    }
+  ]
+}

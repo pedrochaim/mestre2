@@ -1020,7 +1020,7 @@
       "titulo": "en:Temple of Kom Ombo",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Templo de Poseidon em Sunião",
@@ -1055,7 +1055,7 @@
       "titulo": "en:Ara Pacis",
       "camada": 3,
       "destino": 3,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Chogha Zanbil",
@@ -1118,6 +1118,286 @@
       "titulo": "en:Medinet Habu",
       "camada": 3,
       "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sagrada Família",
+      "titulo": "en:Sagrada Família",
+      "camada": 1,
+      "destino": 7,
+      "status": "saturada"
+    },
+    {
+      "nome": "Tower Bridge",
+      "titulo": "en:Tower Bridge",
+      "camada": 1,
+      "destino": 7,
+      "status": "usada"
+    },
+    {
+      "nome": "Caaba",
+      "titulo": "en:Kaaba",
+      "camada": 1,
+      "destino": 6,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Catedral de São Paulo (Londres)",
+      "titulo": "en:St Paul's Cathedral",
+      "camada": 1,
+      "destino": 7,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Templo Dourado de Amritsar",
+      "titulo": "en:Golden Temple",
+      "camada": 1,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Igreja do Santo Sepulcro",
+      "titulo": "en:Church of the Holy Sepulchre",
+      "camada": 1,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio de Schönbrunn",
+      "titulo": "en:Schönbrunn Palace",
+      "camada": 1,
+      "destino": 7,
+      "status": "usada"
+    },
+    {
+      "nome": "Estação da Luz",
+      "titulo": "pt:Estação da Luz",
+      "camada": 1,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Real Gabinete Português de Leitura",
+      "titulo": "pt:Real Gabinete Português de Leitura",
+      "camada": 1,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Massada",
+      "titulo": "en:Masada",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Meteora",
+      "titulo": "en:Meteora",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Santiago de Compostela",
+      "titulo": "en:Santiago de Compostela Cathedral",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Catedral de Cantuária",
+      "titulo": "en:Canterbury Cathedral",
+      "camada": 2,
+      "destino": 6,
+      "status": "usada"
+    },
+    {
+      "nome": "Sainte-Chapelle",
+      "titulo": "en:Sainte-Chapelle",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Guimarães",
+      "titulo": "en:Guimarães Castle",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo dos Mouros",
+      "titulo": "en:Castle of the Moors",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Chenonceau",
+      "titulo": "en:Château de Chenonceau",
+      "camada": 2,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Registão de Samarcanda",
+      "titulo": "en:Registan",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Termas Romanas de Bath",
+      "titulo": "en:Roman Baths (Bath)",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirâmide da Lua (Teotihuacan)",
+      "titulo": "en:Pyramid of the Moon",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Fortaleza de Santa Cruz da Barra",
+      "titulo": "pt:Fortaleza de Santa Cruz da Barra",
+      "camada": 2,
+      "destino": 8,
+      "status": "usada"
+    },
+    {
+      "nome": "Ponte Carlos",
+      "titulo": "en:Charles Bridge",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácio de Inverno",
+      "titulo": "en:Winter Palace",
+      "camada": 2,
+      "destino": 7,
+      "status": "usada"
+    },
+    {
+      "nome": "Grutas de Ellora",
+      "titulo": "en:Ellora Caves",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Templos de Khajuraho",
+      "titulo": "en:Khajuraho Group of Monuments",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Estupa de Sanchi",
+      "titulo": "en:Sanchi",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo Mahabodhi",
+      "titulo": "en:Mahabodhi Temple",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Prambanan",
+      "titulo": "en:Prambanan",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Grutas de Longmen",
+      "titulo": "en:Longmen Grottoes",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Volubilis",
+      "titulo": "en:Volubilis",
+      "camada": 3,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Aspendos",
+      "titulo": "en:Aspendos",
+      "camada": 3,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Templo Romano de Évora",
+      "titulo": "en:Roman Temple of Évora",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "El Tajín",
+      "titulo": "en:El Tajín",
+      "camada": 3,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Chavín de Huántar",
+      "titulo": "en:Chavín de Huántar",
+      "camada": 3,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Jebel Barkal",
+      "titulo": "en:Jebel Barkal",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Palácios Reais de Abomé",
+      "titulo": "en:Royal Palaces of Abomey",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Cromeleque dos Almendres",
+      "titulo": "en:Almendres Cromlech",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anel de Brodgar",
+      "titulo": "en:Ring of Brodgar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Dendera",
+      "titulo": "en:Dendera Temple complex",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Forte Orange",
+      "titulo": "pt:Forte Orange",
+      "camada": 3,
+      "destino": 8,
       "status": "nova"
     }
   ]

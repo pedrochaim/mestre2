@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto inglês projetou esta catedral?",
+        "resposta": "Christopher Wren"
+      },
+      "existentes": [
+        {
+          "id": "q11608",
+          "pergunta": "Reconstruída depois do Grande Incêndio de 1666, a Catedral de São Paulo, em Londres, foi projetada por qual arquiteto?",
+          "resposta": "Christopher Wren"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano foi inaugurada esta ponte sobre o rio Tâmisa?",
+        "resposta": "1894"
+      },
+      "existentes": [
+        {
+          "id": "q05433",
+          "pergunta": "Com torres que lembram um castelo, a Tower Bridge, ponte levadiça sobre o Tâmisa, em Londres, foi aberta ao tráfego em qual século?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q06916",
+          "pergunta": "Sobre que rio fica esta ponte?",
+          "resposta": "Tâmisa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem projetou a Catedral de São Paulo: Christopher Wren."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O ano exato de inauguração (1894) é um fato distinto; a existente pergunta o século (o que um acerto não garante responder o ano) e a outra o rio. Na dúvida, nova."
+    }
+  ]
+}
