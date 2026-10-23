@@ -1,0 +1,545 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ravióli",
+        "descricao": "Massa italiana recheada, em geral quadrada, servida com molho ou em caldo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "graviola",
+          "nome": "Graviola",
+          "descricao": "Fruto da Annona muricata, verde, com espinhos moles e polpa branca cremosa.",
+          "variantes": [
+            "Annona muricata"
+          ]
+        },
+        {
+          "id": "morros_carsticos_de_guilin",
+          "nome": "Morros cársticos de Guilin",
+          "descricao": "Paisagem de morros isolados de calcário às margens do rio Li, na região de Guilin, no sul da China.",
+          "variantes": [
+            "Paisagem de Guilin",
+            "Rio Li"
+          ]
+        },
+        {
+          "id": "relampago",
+          "nome": "Relâmpago",
+          "descricao": "Descarga elétrica atmosférica visível como clarão, associada a tempestades.",
+          "variantes": [
+            "Raio"
+          ]
+        },
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pelmeni",
+        "descricao": "Bolinhos russos de massa fina sem fermento recheados com carne.",
+        "variantes": [
+          "Pelmeny"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pele",
+          "nome": "Pelé",
+          "descricao": "Edson Arantes do Nascimento, tricampeão mundial pela seleção brasileira.",
+          "variantes": [
+            "Edson Arantes do Nascimento"
+          ]
+        },
+        {
+          "id": "pele_2",
+          "nome": "Pele",
+          "descricao": "Órgão que recobre todo o corpo humano e o protege do ambiente.",
+          "variantes": [
+            "Skin",
+            "Cútis"
+          ]
+        },
+        {
+          "id": "selenio",
+          "nome": "Selênio",
+          "descricao": "Elemento químico de número atômico 34, não metal usado em células fotoelétricas e essencial em pequenas doses ao organismo.",
+          "variantes": [
+            "Se"
+          ]
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        },
+        {
+          "id": "lenin",
+          "nome": "Lênin",
+          "descricao": "Vladimir Ilitch Ulianov, revolucionário russo e primeiro chefe de governo da Rússia soviética e da União Soviética.",
+          "variantes": [
+            "Vladimir Lenin",
+            "Vladimir Ilitch Ulianov",
+            "Vladimir Ilyich Ulyanov"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Burrito",
+        "descricao": "Tortilha de trigo enrolada em formato cilíndrico em volta de recheios variados, da culinária mexicana e tex-mex.",
+        "variantes": [
+          "Burro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "burro",
+          "nome": "Burro",
+          "descricao": "Equino doméstico descendente do asno-selvagem-africano, usado como animal de carga.",
+          "variantes": [
+            "Asno",
+            "Jumento",
+            "Equus asinus"
+          ]
+        },
+        {
+          "id": "auroque",
+          "nome": "Auroque",
+          "descricao": "Boi selvagem extinto (Bos primigenius) da Eurásia e do norte da África, ancestral do gado doméstico.",
+          "variantes": [
+            "Uro",
+            "Bos primigenius",
+            "Aurochs"
+          ]
+        },
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "hamburguer",
+          "nome": "Hambúrguer",
+          "descricao": "Sanduíche de carne moída prensada e grelhada servida num pão redondo.",
+          "variantes": [
+            "Hamburger",
+            "Burger"
+          ]
+        },
+        {
+          "id": "sopro_das_baleias",
+          "nome": "Sopro das baleias",
+          "descricao": "Jato visível que os cetáceos soltam pelo espiráculo ao expirar na superfície.",
+          "variantes": [
+            "Borrifo",
+            "Spout"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Polenta",
+        "descricao": "Prato italiano de fubá cozido, servido cremoso ou solidificado.",
+        "variantes": [
+          "Angu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polen",
+          "nome": "Pólen",
+          "descricao": "Pó produzido pelas flores das plantas com sementes, formado por grãos que contêm os gametas masculinos.",
+          "variantes": [
+            "Grão de pólen",
+            "Grãos de pólen"
+          ]
+        },
+        {
+          "id": "sangue",
+          "nome": "Sangue",
+          "descricao": "Fluido que circula pelo corpo humano transportando oxigênio e nutrientes.",
+          "variantes": [
+            "Blood"
+          ]
+        },
+        {
+          "id": "manguezal",
+          "nome": "Manguezal",
+          "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais",
+          "variantes": [
+            "Mangue",
+            "Mangrove"
+          ]
+        },
+        {
+          "id": "placenta",
+          "nome": "Placenta",
+          "descricao": "Órgão temporário formado na gravidez que faz as trocas entre a circulação da mãe e a do feto, aqui após o parto com o cordão umbilical.",
+          "variantes": []
+        },
+        {
+          "id": "hangul",
+          "nome": "Hangul",
+          "descricao": "Alfabeto da língua coreana, criado no século quinze durante a dinastia Joseon.",
+          "variantes": [
+            "Hangeul",
+            "Alfabeto coreano",
+            "Chosŏn'gŭl"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Martíni",
+        "descricao": "Coquetel de gim e vermute, guarnecido com azeitona ou casca de limão.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mini_mark_i",
+          "nome": "Mini Mark I",
+          "descricao": "Primeira versão do carro compacto Mini da British Motor Corporation, produzida a partir de 1959.",
+          "variantes": [
+            "Mini",
+            "Austin Mini",
+            "Morris Mini",
+            "Mini Mk I"
+          ]
+        },
+        {
+          "id": "dratini",
+          "nome": "Dratini",
+          "descricao": "Pokémon do tipo Dragão, número 147 da Pokédex Nacional, de corpo serpentino azul.",
+          "variantes": []
+        },
+        {
+          "id": "mantine",
+          "nome": "Mantine",
+          "descricao": "Pokémon dos tipos Água e Voador, número 226 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "paolo_maldini",
+          "nome": "Paolo Maldini",
+          "descricao": "Ex-zagueiro e lateral italiano que passou toda a carreira no Milan e na seleção da Itália.",
+          "variantes": [
+            "Maldini"
+          ]
+        },
+        {
+          "id": "mark_twain",
+          "nome": "Mark Twain",
+          "descricao": "Escritor americano (1835–1910), autor de As Aventuras de Tom Sawyer e Huckleberry Finn.",
+          "variantes": [
+            "Samuel Langhorne Clemens",
+            "Samuel Clemens"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Ossobuco",
+        "descricao": "Especialidade lombarda de jarrete de vitela em fatia transversal, braseado com legumes, vinho branco e caldo.",
+        "variantes": [
+          "Osso buco",
+          "Ossobuco alla milanese"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "soluco",
+          "nome": "Soluço",
+          "descricao": "Contração involuntária e repetida que produz um som característico na garganta.",
+          "variantes": [
+            "Hiccup",
+            "Singulto"
+          ]
+        },
+        {
+          "id": "salamandra_gigante_do_japao",
+          "nome": "Salamandra-gigante-do-japão",
+          "descricao": "Salamandra totalmente aquática (Andrias japonicus) que chega a 1,5 metro, endêmica do Japão.",
+          "variantes": [
+            "Andrias japonicus",
+            "Ōsanshōuo",
+            "Japanese giant salamander"
+          ]
+        },
+        {
+          "id": "coccix",
+          "nome": "Cóccix",
+          "descricao": "Pequeno osso formado por vértebras fundidas na extremidade inferior da coluna vertebral humana.",
+          "variantes": [
+            "Coccyx",
+            "Osso do rabo"
+          ]
+        },
+        {
+          "id": "processo_urca",
+          "nome": "Processo Urca",
+          "descricao": "Processo de emissão de neutrinos que faz estrelas perderem energia, descrito por George Gamow e Mário Schenberg em 1940.",
+          "variantes": [
+            "Urca process"
+          ]
+        },
+        {
+          "id": "fosforo_de_seguranca",
+          "nome": "Fósforo de segurança",
+          "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa.",
+          "variantes": [
+            "Safety match",
+            "Fósforo",
+            "Fósforo sueco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Caldo de cana",
+        "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+        "variantes": [
+          "Garapa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "harappa",
+          "nome": "Harappa",
+          "descricao": "Sítio arqueológico da Idade do Bronze, na região do Punjab, que deu nome à civilização harappiana do Vale do Indo.",
+          "variantes": [
+            "Harapa"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        },
+        {
+          "id": "garoupa",
+          "nome": "Garoupa",
+          "descricao": "Grande peixe costeiro da família Epinephelidae, de corpo robusto e boca larga.",
+          "variantes": [
+            "Epinephelus marginatus",
+            "Dusky grouper",
+            "Garoupa-verdadeira"
+          ]
+        },
+        {
+          "id": "calcadao_de_copacabana",
+          "nome": "Calçadão de Copacabana",
+          "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+          "variantes": [
+            "Calçadão da Avenida Atlântica"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Caldo verde",
+        "descricao": "Sopa portuguesa de couve em tiras, batata e azeite, servida com rodelas de linguiça ou chouriço.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cabo_verde",
+          "nome": "Cabo Verde",
+          "descricao": "País insular africano de língua portuguesa, no oceano Atlântico, a oeste do Senegal.",
+          "variantes": [
+            "Cape Verde"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        },
+        {
+          "id": "cha",
+          "nome": "Chá",
+          "descricao": "Bebida preparada com a infusão das folhas da planta Camellia sinensis, originária da China.",
+          "variantes": [
+            "Chá preto",
+            "Chá verde"
+          ]
+        },
+        {
+          "id": "cardamomo",
+          "nome": "Cardamomo",
+          "descricao": "Especiaria feita das sementes de plantas dos gêneros Elettaria e Amomum, da família do gengibre.",
+          "variantes": [
+            "Cardamomo-verde",
+            "Cardamona"
+          ]
+        },
+        {
+          "id": "babosa",
+          "nome": "Babosa",
+          "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+          "variantes": [
+            "Aloe vera",
+            "Aloé",
+            "Aloe barbadensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Biryani",
+        "descricao": "Prato de arroz misturado com carne, frutos do mar ou legumes temperados, muito popular no sul da Ásia.",
+        "variantes": [
+          "Biriyani",
+          "Briani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hmhs_britannic",
+          "nome": "HMHS Britannic",
+          "descricao": "Transatlântico britânico da White Star Line convertido em navio-hospital e afundado por uma mina no Mar Egeu em 1916.",
+          "variantes": [
+            "Britannic"
+          ]
+        },
+        {
+          "id": "brawn_gp",
+          "nome": "Brawn GP",
+          "descricao": "Equipe de Fórmula 1 que existiu só em 2009 e foi campeã com Jenson Button.",
+          "variantes": [
+            "Brawn"
+          ]
+        },
+        {
+          "id": "brain_virus_de_computador",
+          "nome": "Brain (vírus de computador)",
+          "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+          "variantes": [
+            "Brain",
+            "Pakistani Brain"
+          ]
+        },
+        {
+          "id": "imperio_bizantino",
+          "nome": "Império Bizantino",
+          "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+          "variantes": [
+            "Império Romano do Oriente",
+            "Bizâncio",
+            "Byzantine Empire"
+          ]
+        },
+        {
+          "id": "biquini",
+          "nome": "Biquíni",
+          "descricao": "Traje de banho feminino de duas peças lançado pelo francês Louis Réard em 1946.",
+          "variantes": [
+            "Bikini"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é ravióli."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pelmeni é prato; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Burrito é prato; Burro é o animal, entidade diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é polenta."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Martini é coquetel; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ossobuco é prato; candidatas são outras coisas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é caldo de cana."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Caldo verde é sopa, não Cabo Verde nem sua bandeira."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é biryani."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Ravióli recheado com molho, claro na imagem.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "De que país é originário este prato?",
+      "resposta": "Itália",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ravióli",
+        "descricao": "Massa italiana recheada, em geral quadrada, servida com molho ou em caldo.",
+        "variantes": [
+          "Ravioli"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A foto mostra um sanduíche tostado numa frigideira; não dá para distinguir de um queijo-quente comum, a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pelmeni com creme azedo, reconhecível; múltipla com massas recheadas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de massa recheada, servido com creme azedo, é este?",
+      "resposta": "Pelmeni",
+      "distratores": [
+        "Pierogi",
+        "Gyoza",
+        "Tortellini"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pelmeni",
+        "descricao": "Bolinhos russos de massa fina sem fermento recheados com carne.",
+        "variantes": [
+          "Pelmeny"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Um copo de líquido amarelo sem outros indícios; pode ser suco de manga, maracujá, abacaxi etc. Resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tortilha enrolada e recheada, cortada, com boa visibilidade; múltipla para distinguir de pratos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Burrito",
+      "distratores": [
+        "Enchilada",
+        "Taco",
+        "Quesadilla"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Burrito",
+        "descricao": "Tortilha de trigo enrolada em formato cilíndrico em volta de recheios variados, da culinária mexicana e tex-mex.",
+        "variantes": [
+          "Burro"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Foto escura e de baixa qualidade de pimentões recheados; não identifica com clareza dolma e pode ser qualquer pimentão recheado."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Polenta ocupa o centro do prato, com linguiça e lentilha ao lado; pergunta aponta para a parte amarela.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Como se chama o preparo amarelo e cremoso que ocupa o centro deste prato?",
+      "resposta": "Polenta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Polenta",
+        "descricao": "Prato italiano de fubá cozido, servido cremoso ou solidificado.",
+        "variantes": [
+          "Angu"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Taça de martíni com azeitonas, clássica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que coquetel é servido nesta taça?",
+      "resposta": "Martíni",
+      "destino": 0,
+      "ancora": {
+        "nome": "Martíni",
+        "descricao": "Coquetel de gim e vermute, guarnecido com azeitona ou casca de limão.",
+        "variantes": [
+          "Martini"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Jarrete de vitela com osso e tutano visíveis, em molho de tomate e cenoura; múltipla com carnes cozidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato é este?",
+      "resposta": "Ossobuco",
+      "distratores": [
+        "Rabada",
+        "Bollito misto",
+        "Cozido português"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ossobuco",
+        "descricao": "Especialidade lombarda de jarrete de vitela em fatia transversal, braseado com legumes, vinho branco e caldo.",
+        "variantes": [
+          "Osso buco",
+          "Ossobuco alla milanese"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Copos com bebida verde espumante, típica do caldo de cana; múltipla com verdes parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bebida é esta?",
+      "resposta": "Caldo de cana",
+      "distratores": [
+        "Suco de melão",
+        "Suco de couve",
+        "Chá-verde gelado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caldo de cana",
+        "descricao": "Bebida feita do líquido extraído da cana-de-açúcar prensada.",
+        "variantes": [
+          "Garapa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Sopa verde com rodelas de linguiça, típica; pergunta pela origem.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "De que país é originário este caldo?",
+      "resposta": "Portugal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caldo verde",
+        "descricao": "Sopa portuguesa de couve em tiras, batata e azeite, servida com rodelas de linguiça ou chouriço.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arroz com carne e açafrão, típico; múltipla com pratos de arroz parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato de arroz com carne e especiarias é este?",
+      "resposta": "Biryani",
+      "distratores": [
+        "Pilaf",
+        "Kabsa",
+        "Jollof"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Biryani",
+        "descricao": "Prato de arroz misturado com carne, frutos do mar ou legumes temperados, muito popular no sul da Ásia.",
+        "variantes": [
+          "Biriyani",
+          "Briani"
+        ]
+      }
+    }
+  ]
+}
