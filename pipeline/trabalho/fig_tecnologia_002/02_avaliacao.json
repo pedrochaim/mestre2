@@ -1,0 +1,139 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O nome 'commodore 64' aparece escrito na carcaça, entregando a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa 'Osborne Computer Corporation' é legível na imagem e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ábaco de madeira com contas, bem visível e sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que antigo instrumento é este?",
+      "resposta": "Ábaco",
+      "distratores": [
+        "Régua de cálculo",
+        "Pascalina",
+        "Astrolábio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ábaco",
+        "descricao": "Instrumento manual de cálculo com contas deslizantes em hastes, dentro de uma moldura.",
+        "variantes": [
+          "Ábacus",
+          "Soroban",
+          "Schoty"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O logotipo e o nome 'apple II plus' aparecem na carcaça, entregando a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O letreiro 'Aiken-IBM Automatic Sequence...' está visível, além de reflexos e fotos ao fundo."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Aparecem 'video computer system' e o logotipo ATARI no console."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O painel traz 'PDP-8' e 'Digital Equipment Corporation' em texto legível."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fita cassete reconhecível. A marca TDK não entrega a empresa criadora do formato nem o nome do objeto.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que empresa holandesa criou este formato de áudio, lançado em 1963?",
+      "resposta": "Philips",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fita cassete",
+        "descricao": "Fita magnética compacta em cartucho plástico, formato de gravação e reprodução de áudio analógico.",
+        "variantes": [
+          "Fita K7",
+          "Compact Cassette",
+          "Cassete"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vários LEDs de formatos e cores diferentes, sem texto, claramente reconhecíveis.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que componente eletrônico é este, em vários formatos e cores?",
+      "resposta": "LED",
+      "distratores": [
+        "Resistor",
+        "Capacitor",
+        "Transistor"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "LED",
+        "descricao": "Diodo emissor de luz, componente semicondutor que emite luz quando percorrido por corrente elétrica.",
+        "variantes": [
+          "Diodo emissor de luz",
+          "Light-emitting diode"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Teleprinter com rolo de papel e perfuradora de fita, reconhecível. A marca Siemens não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que aparelho antigo é este?",
+      "resposta": "Teletipo",
+      "distratores": [
+        "Telégrafo de Morse",
+        "Máquina de fax",
+        "Linotipo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Teletipo",
+        "descricao": "Aparelho eletromecânico com teclado e impressora de papel, usado para enviar e receber mensagens digitadas por linhas de comunicação.",
+        "variantes": [
+          "Teleprinter",
+          "Teletypewriter",
+          "TTY"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A marca 'NOKIA' está escrita na frente do aparelho, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Aparece 'ARRIS' e as legendas das luzes, e uma caixa preta genérica não é reconhecível como modem."
+    }
+  ]
+}

@@ -184164,5 +184164,32 @@
       "pt": 0,
       "en": 3680
     }
+  },
+  {
+    "id": "led",
+    "nome": "LED",
+    "descricao": "Diodo emissor de luz, componente semicondutor que emite luz quando percorrido por corrente elétrica.",
+    "variantes": [
+      "Diodo emissor de luz",
+      "Light-emitting diode"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Light-emitting_diode",
+      "https://pt.wikipedia.org/wiki/Diodo_emissor_de_luz"
+    ]
+  },
+  {
+    "id": "teletipo",
+    "nome": "Teletipo",
+    "descricao": "Aparelho eletromecânico com teclado e impressora de papel, usado para enviar e receber mensagens digitadas por linhas de comunicação.",
+    "variantes": [
+      "Teleprinter",
+      "Teletypewriter",
+      "TTY"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Teleprinter",
+      "https://pt.wikipedia.org/wiki/Teletipo"
+    ]
   }
 ]

@@ -1,0 +1,44 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento; 'antigo' é verdadeiro (uso desde a Antiguidade). Distratores do mesmo tipo (instrumentos), críveis e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Holandesa' e '1963' permitem chegar a Philips sem olhar a figura (teste da imagem coberta). Basta pedir a empresa que criou o formato; a figura é que identifica a fita. Fato confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Que empresa criou este formato de áudio?",
+        "resposta": "Philips",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Em vários formatos e cores' pode não ser verdadeiro para esta foto específica e é pista desnecessária (resistores e capacitores também têm formatos e cores variados). Enunciado simplificado.",
+      "reescrita": {
+        "pergunta": "Que componente eletrônico é este?",
+        "resposta": "LED",
+        "distratores": [
+          "Resistor",
+          "Capacitor",
+          "Transistor"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; 'antigo' é correto (aparelho obsoleto do século vinte). Distratores plausíveis, do mesmo tipo e nenhum correto para a imagem.",
+      "reescrita": null
+    }
+  ]
+}

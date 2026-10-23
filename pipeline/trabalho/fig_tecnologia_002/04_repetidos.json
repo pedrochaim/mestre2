@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que antigo instrumento é este?",
+        "resposta": "Ábaco"
+      },
+      "existentes": [
+        {
+          "id": "q01613",
+          "pergunta": "Que instrumento de cálculo, com contas deslizantes em hastes, é este?",
+          "resposta": "Ábaco"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que empresa criou este formato de áudio?",
+        "resposta": "Philips"
+      },
+      "existentes": [
+        {
+          "id": "q01615",
+          "pergunta": "Que empresa criou este formato de fita magnética, lançado em mil novecentos e sessenta e três?",
+          "resposta": "Philips"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o ábaco a partir da imagem; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a empresa criadora do formato (fita cassete), resposta Philips; mesmo fato."
+    }
+  ]
+}

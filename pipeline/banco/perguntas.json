@@ -278928,5 +278928,55 @@
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q14847",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "led",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que componente eletrônico é este?",
+    "resposta": "LED",
+    "distratores": [
+      "Resistor",
+      "Capacitor",
+      "Transistor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Light-emitting_diode",
+      "https://pt.wikipedia.org/wiki/Diodo_emissor_de_luz"
+    ],
+    "imagem": {
+      "arquivo": "q14847.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Verschiedene_LEDs.jpg",
+      "autor": "Afrank99",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q14848",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "teletipo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que aparelho antigo é este?",
+    "resposta": "Teletipo",
+    "distratores": [
+      "Telégrafo de Morse",
+      "Máquina de fax",
+      "Linotipo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teleprinter",
+      "https://pt.wikipedia.org/wiki/Teletipo"
+    ],
+    "imagem": {
+      "arquivo": "q14848.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fernschreiber_T100_Siemens.jpg",
+      "autor": "Nightflyer at German Wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
