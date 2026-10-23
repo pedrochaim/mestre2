@@ -1,0 +1,189 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cíclotron",
+        "descricao": "Acelerador de partículas que faz partículas carregadas percorrerem uma espiral em um campo magnético, inventado por Ernest Lawrence.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "quiron",
+          "nome": "Quíron",
+          "descricao": "Centauro sábio da mitologia grega, mestre de heróis como Aquiles e Asclépio.",
+          "variantes": [
+            "Chiron",
+            "Quirão"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "ciclone_tropical",
+          "nome": "Ciclone tropical",
+          "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região",
+          "variantes": [
+            "Furacão",
+            "Tufão"
+          ]
+        },
+        {
+          "id": "furacao_catarina",
+          "nome": "Furacão Catarina",
+          "descricao": "Raro furacão do Atlântico Sul que atingiu o litoral de Santa Catarina e do Rio Grande do Sul",
+          "variantes": [
+            "Ciclone Catarina",
+            "Hurricane Catarina"
+          ]
+        },
+        {
+          "id": "besouro",
+          "nome": "Besouro",
+          "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+          "variantes": [
+            "Coleoptera",
+            "coleóptero",
+            "beetle",
+            "Coleópteros"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Joystick",
+        "descricao": "Dispositivo de entrada com uma haste que pivota sobre uma base e informa a direção ao aparelho controlado, usado em videogames e aeronaves.",
+        "variantes": [
+          "Manche",
+          "Manípulo eletrônico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canal_da_mancha",
+          "nome": "Canal da Mancha",
+          "descricao": "Braço do oceano Atlântico que separa a Inglaterra do norte da França.",
+          "variantes": [
+            "English Channel",
+            "La Manche"
+          ]
+        },
+        {
+          "id": "machoke",
+          "nome": "Machoke",
+          "descricao": "Pokémon do tipo Lutador, número 67 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mapuches",
+          "nome": "Mapuches",
+          "descricao": "Povo indígena do centro-sul do Chile e do sudoeste da Argentina.",
+          "variantes": [
+            "Mapuche",
+            "Araucanos"
+          ]
+        },
+        {
+          "id": "caixa_eletronico",
+          "nome": "Caixa eletrônico",
+          "descricao": "Máquina de autoatendimento bancário que permite sacar dinheiro sem passar pelo caixa humano.",
+          "variantes": [
+            "ATM",
+            "Caixa automático"
+          ]
+        },
+        {
+          "id": "microscopio_eletronico",
+          "nome": "Microscópio eletrônico",
+          "descricao": "Microscópio que usa um feixe de elétrons em vez de luz para formar imagens ampliadas.",
+          "variantes": [
+            "Microscópio eletrônico de transmissão",
+            "Electron microscope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Aritmômetro",
+        "descricao": "Calculadora mecânica patenteada na França em 1820 por Thomas de Colmar, a primeira produzida comercialmente com sucesso.",
+        "variantes": [
+          "Arithmomètre",
+          "Arithmometer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "sismografo",
+          "nome": "Sismógrafo",
+          "descricao": "Instrumento que registra em papel ou meio digital o movimento do solo causado por terremotos.",
+          "variantes": [
+            "Sismômetro",
+            "Seismograph",
+            "Seismometer"
+          ]
+        },
+        {
+          "id": "metro_de_paris",
+          "nome": "Metrô de Paris",
+          "descricao": "Sistema de metrô da cidade de Paris, inaugurado em 1900.",
+          "variantes": [
+            "Paris Métro"
+          ]
+        },
+        {
+          "id": "nilometro",
+          "nome": "Nilômetro",
+          "descricao": "Estrutura graduada à beira do Nilo usada no Egito para medir a altura da cheia anual",
+          "variantes": [
+            "Nilometer"
+          ]
+        },
+        {
+          "id": "micrometro",
+          "nome": "Micrômetro",
+          "descricao": "Instrumento de medição de precisão que usa um parafuso calibrado para medir pequenas dimensões.",
+          "variantes": [
+            "Micrômetro de parafuso",
+            "Palmer"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Cíclotron é um acelerador de partículas; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Joystick é um dispositivo de entrada; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Aritmômetro é uma calculadora mecânica; nenhuma candidata corresponde."
+    }
+  ]
+}

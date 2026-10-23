@@ -1,0 +1,110 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A frente da impressora mostra a marca e o modelo (EPSON LX-800), texto visível que identifica o aparelho."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra dois discos de tamanhos diferentes lado a lado (um LaserDisc e um CD). O assunto não é único e a resposta fica ambígua."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É uma exposição de museu cortada, com painéis e legendas parcialmente visíveis. A máquina não é reconhecível pela imagem e pode ser confundida com outros computadores de válvulas da época."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparecem SONY e PlayStation no console e no controle, texto que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Aparecem AMIGA e Commodore na máquina e no monitor, texto que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cíclotron industrial com grande eletroímã circular. O logotipo IBA não entrega a resposta. Em múltipla escolha com outros aceleradores, a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de acelerador de partículas é este, de grande eletroímã circular?",
+      "resposta": "Cíclotron",
+      "distratores": [
+        "Síncrotron",
+        "Betatron",
+        "Acelerador linear"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cíclotron",
+        "descricao": "Acelerador de partículas que faz partículas carregadas percorrerem uma espiral em um campo magnético, inventado por Ernest Lawrence.",
+        "variantes": [
+          "Ciclotron"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Joystick clássico, com haste e botão vermelho, de forma inconfundível. O texto na imagem é ilegível e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que dispositivo de controle de videogames é este?",
+      "resposta": "Joystick",
+      "destino": 0,
+      "ancora": {
+        "nome": "Joystick",
+        "descricao": "Dispositivo de entrada com uma haste que pivota sobre uma base e informa a direção ao aparelho controlado, usado em videogames e aeronaves.",
+        "variantes": [
+          "Manche",
+          "Manípulo eletrônico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Há vários capacitores diferentes, com texto legível como \"CAPACITOR\" no corpo de um deles. O texto entrega a resposta e a imagem é uma prancha de componentes."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O nome CURTA está gravado de forma bem legível no corpo da calculadora e entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Aparecem Nintendo e Nintendo 64 no console e no controle, texto que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Aparecem Dreamcast e SEGA no console e no controle, texto que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Calculadora mecânica de latão em caixa de madeira, sem texto legível e com aspecto distintivo. A imagem separa o aritmômetro de outras calculadoras mecânicas francesas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem foi o inventor francês desta calculadora mecânica?",
+      "resposta": "Thomas de Colmar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Aritmômetro",
+        "descricao": "Calculadora mecânica patenteada na França em 1820 por Thomas de Colmar, a primeira produzida comercialmente com sucesso.",
+        "variantes": [
+          "Arithmomètre",
+          "Arithmometer"
+        ]
+      }
+    }
+  ]
+}
