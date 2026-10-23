@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que chapéu de inverno é este?",
+        "resposta": "Ushanka"
+      },
+      "existentes": [
+        {
+          "id": "q01617",
+          "pergunta": "Que chapéu de pele com abas para cobrir as orelhas é este?",
+          "resposta": "Ushanka"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que vestido feminino de origem chinesa é este?",
+        "resposta": "Qipao (cheongsam)"
+      },
+      "existentes": [
+        {
+          "id": "q05075",
+          "pergunta": "Que vestido chinês é este?",
+          "resposta": "Qipao (cheongsam)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar a mesma peça (ushanka) a partir de imagem; mesma resposta e mesmo fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas pedem identificar o vestido chinês qipao/cheongsam; mesma resposta e mesmo fato."
+    }
+  ]
+}

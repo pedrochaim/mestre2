@@ -692,9 +692,10 @@
     "fig_festas_costumes_001",
     "fig_tecnologia_006",
     "fig_videogames_002",
-    "fig_anatomia_005"
+    "fig_anatomia_005",
+    "fig_moda_001"
   ],
-  "maior_id": 14921,
+  "maior_id": 14927,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -1407,6 +1408,18 @@
         "2": 3
       },
       "registradas": 7
+    },
+    "moda": {
+      "familias": {
+        "o_que_e": 5,
+        "que_tipo": 1
+      },
+      "niveis": {
+        "1": 3,
+        "2": 2,
+        "3": 1
+      },
+      "registradas": 6
     }
   },
   "rendimento": {

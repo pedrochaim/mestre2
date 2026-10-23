@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, enunciado sem pista; resposta apoiada nos trechos (leque/abano).",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a função da peça (dar volume às costas, sob a saia), o que quase entrega a resposta. 'De aros' é restritivo demais, pois o trecho diz acolchoada ou de armação. 'Manequim' não consta em mostra. Troquei por uma pista de época e categoria.",
+      "reescrita": {
+        "pergunta": "Que peça de roupa de baixo, usada por mulheres no século dezenove, é esta?",
+        "resposta": "Anquinha",
+        "distratores": [
+          "Crinolina",
+          "Espartilho",
+          "Anágua"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento; distratores são chapéus de pele do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Topo plano e com pala' é quase a definição literal de quepe, então o enunciado entrega a resposta sem a figura. Deixei só 'militar'.",
+      "reescrita": {
+        "pergunta": "Que chapéu militar é este?",
+        "resposta": "Quepe"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado só dá a categoria (técnica de tingimento), e o padrão da figura é que identifica a técnica. Apoiado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os séculos dezesseis e dezessete estão dentro do período de uso do gibão e são verdadeiros. A peça é masculina e europeia, e o enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro (vestido feminino de origem chinesa) e sem vazamento; a resposta com cheongsam é o mesmo vestido.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Sem aba e de copa baixa' não é a característica do pillbox (copa plana, lados retos) e também descreve boina e turbante, que são distratores. Troquei por uma pista verdadeira que não entrega.",
+      "reescrita": {
+        "pergunta": "Que chapéu feminino, pequeno e de lados retos, é este?",
+        "resposta": "Chapéu pillbox",
+        "distratores": [
+          "Chapéu cloche",
+          "Boina",
+          "Turbante"
+        ]
+      }
+    }
+  ]
+}

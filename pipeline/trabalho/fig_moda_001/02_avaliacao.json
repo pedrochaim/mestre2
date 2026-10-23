@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Leque de palha trançada, objeto nítido e sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que objeto é este?",
+      "resposta": "Leque (abano)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Leque",
+        "descricao": "Objeto de mão, plano e largo, agitado para criar fluxo de ar e refrescar.",
+        "variantes": [
+          "Abano",
+          "Leque de mão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Mostra duas pessoas comuns em primeiro plano, além de vários outros itens (chimarrão, garrafa térmica, lenços), então a bombacha não é o assunto único."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Manequim em fundo escuro, com a armação de aros atrás da saia bem visível. Os distratores são peças parecidas mas distintas.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que armação de aros, presa sob a saia, dá volume às costas deste manequim?",
+      "resposta": "Anquinha",
+      "distratores": [
+        "Crinolina",
+        "Espartilho",
+        "Anágua"
+      ],
+      "ancora": {
+        "nome": "Anquinha",
+        "descricao": "Armação ou enchimento usado sob a saia, atrás da cintura, para dar volume às costas dos vestidos femininos do século dezenove.",
+        "variantes": [
+          "Tournure",
+          "Bustle"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "É um desenho a tinta, não uma foto. Gravata-borboleta pode ser fotografada, então a ilustração não é aceita."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara da ushanka. A estrela com foice e martelo não escreve o nome e só indica a origem. Os distratores são gorros de pele parecidos.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que chapéu de inverno é este?",
+      "resposta": "Ushanka",
+      "distratores": [
+        "Papakha",
+        "Kubanka",
+        "Kalpak"
+      ],
+      "ancora": {
+        "nome": "Ushanka",
+        "descricao": "Chapéu russo de pele com abas que cobrem as orelhas e podem ser amarradas no alto.",
+        "variantes": [
+          "Ushanka-hat",
+          "Shapka-ushanka",
+          "Chapéu de orelhas"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Quepe isolado em fundo branco, bem reconhecível. A pergunta de lugar renderia respostas ambíguas, porque o quepe também é associado aos EUA, então foi trocada por o_que_e.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que tipo de chapéu militar, de topo plano e com pala, é este?",
+      "resposta": "Quepe",
+      "distratores": [],
+      "ancora": {
+        "nome": "Quepe",
+        "descricao": "Boné militar de topo circular plano e pala, associado aos uniformes franceses e à Guerra Civil americana.",
+        "variantes": [
+          "Képi",
+          "Kepi"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto histórica com pessoas comuns em primeiro plano, e a imagem não destaca o sári como assunto único."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Camiseta tie-dye em espiral, nítida e sem texto.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que técnica de tingimento de tecidos produziu esta estampa?",
+      "resposta": "Tie-dye",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tie-dye",
+        "descricao": "Técnica de tingimento com reserva, em que o tecido é dobrado ou torcido e amarrado antes de receber o corante, gerando padrões coloridos.",
+        "variantes": [
+          "Tie dye",
+          "Tingimento amarrado"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Peça de museu em fundo escuro, com mangas fendidas e silhueta característica do gibão do século dezessete.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que peça masculina europeia dos séculos dezesseis e dezessete é esta?",
+      "resposta": "Gibão (doublet)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Gibão (doublet)",
+        "descricao": "Casaco justo ao corpo, usado por homens na Europa entre os séculos quinze e dezessete, aqui em versão de seda bordada com mangas fendidas.",
+        "variantes": [
+          "Doublet",
+          "Gibão"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto histórica com dois homens (pessoas comuns), chapéu colonial e outras peças, e marca d'água com o endereço awm.gov.au no canto."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Vestido de gola alta em manequim de museu, com silhueta típica do qipao, sem texto.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que vestido feminino de origem chinesa é este?",
+      "resposta": "Qipao (cheongsam)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Qipao",
+        "descricao": "Vestido feminino chinês justo, de gola alta e abertura lateral, desenvolvido nas décadas de 1910 e 1920.",
+        "variantes": [
+          "Cheongsam",
+          "Chipao",
+          "Vestido mandarim"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Chapéu cilíndrico sem aba, legível apesar do leve desfoque. Os distratores evitam o fez, que poderia ser confundido com ele.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que chapéu feminino, sem aba e de copa baixa, é este?",
+      "resposta": "Chapéu pillbox",
+      "distratores": [
+        "Chapéu cloche",
+        "Boina",
+        "Turbante"
+      ],
+      "ancora": {
+        "nome": "Chapéu pillbox",
+        "descricao": "Chapéu pequeno de copa plana, lados retos e sem aba, que lembra uma caixa de comprimidos.",
+        "variantes": [
+          "Pillbox",
+          "Chapéu caixa de pílulas"
+        ]
+      }
+    }
+  ]
+}

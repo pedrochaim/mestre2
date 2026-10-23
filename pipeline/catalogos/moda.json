@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Sombrero",
+      "titulo": "en:Sombrero",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kilt",
+      "titulo": "en:Kilt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tutu",
+      "titulo": "en:Tutu (clothing)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poncho",
+      "titulo": "en:Poncho",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gravata-borboleta",
+      "titulo": "en:Bow tie",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cachecol",
+      "titulo": "en:Scarf",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Camiseta",
+      "titulo": "en:T-shirt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Turbante",
+      "titulo": "en:Turban",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Burca",
+      "titulo": "en:Burqa",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xadrez tartan",
+      "titulo": "en:Tartan",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Leque",
+      "titulo": "en:Hand fan",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bermuda",
+      "titulo": "en:Bermuda shorts",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Avental",
+      "titulo": "en:Apron",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sári",
+      "titulo": "en:Sari",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fez",
+      "titulo": "en:Fez",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ushanka",
+      "titulo": "en:Ushanka",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chapéu-palheta",
+      "titulo": "en:Boater",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu cloche",
+      "titulo": "en:Cloche hat",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alpargata",
+      "titulo": "en:Espadrille",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Qipao",
+      "titulo": "en:Cheongsam",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dirndl",
+      "titulo": "en:Dirndl",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lederhosen",
+      "titulo": "en:Lederhosen",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kufiya",
+      "titulo": "en:Keffiyeh",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poá",
+      "titulo": "en:Polka dot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tie-dye",
+      "titulo": "en:Tie-dye",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sapatilha de ponta",
+      "titulo": "en:Pointe shoe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bombacha",
+      "titulo": "pt:Bombacha",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Quepe",
+      "titulo": "en:Kepi",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Chapéu pillbox",
+      "titulo": "en:Pillbox hat",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Anquinha",
+      "titulo": "en:Bustle",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gibão (doublet)",
+      "titulo": "en:Doublet (clothing)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Braguilha (codpiece)",
+      "titulo": "en:Codpiece",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hennin",
+      "titulo": "en:Hennin",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Áo dài",
+      "titulo": "en:Áo dài",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Kente",
+      "titulo": "en:Kente cloth",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Batik",
+      "titulo": "en:Batik",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sporran",
+      "titulo": "en:Sporran",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Geta",
+      "titulo": "en:Geta (footwear)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Huipil",
+      "titulo": "en:Huipil",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mantilha",
+      "titulo": "en:Mantilla",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    }
+  ]
+}

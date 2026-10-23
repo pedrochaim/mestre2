@@ -1,0 +1,516 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Leque",
+        "descricao": "Objeto de mão, plano e largo, agitado para criar fluxo de ar e refrescar.",
+        "variantes": [
+          "Abano",
+          "Leque de mão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "banjo",
+          "nome": "Banjo",
+          "descricao": "Instrumento de cordas com caixa circular coberta por uma membrana, de origem afro-americana.",
+          "variantes": [
+            "Banjo de cinco cordas"
+          ]
+        },
+        {
+          "id": "sabao",
+          "nome": "Sabão",
+          "descricao": "Produto de limpeza feito pela reação de gorduras com uma base, conhecido desde a Antiguidade.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        },
+        {
+          "id": "banco_card_game_pokemon",
+          "nome": "Banco (card game Pokémon)",
+          "descricao": "Área da mesa no card game Pokémon onde ficam os pokémon do jogador que não estão na posição ativa.",
+          "variantes": [
+            "Bench",
+            "Banco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Anquinha",
+        "descricao": "Armação ou enchimento usado sob a saia, atrás da cintura, para dar volume às costas dos vestidos femininos do século dezenove.",
+        "variantes": [
+          "Tournure",
+          "Bustle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        },
+        {
+          "id": "bule",
+          "nome": "Bule",
+          "descricao": "Recipiente com tampa, alça e bico para preparar e servir chá.",
+          "variantes": [
+            "Bule de chá"
+          ]
+        },
+        {
+          "id": "cinchona",
+          "nome": "Cinchona",
+          "descricao": "Gênero de árvores andinas de cuja casca se extrai o quinino",
+          "variantes": [
+            "Quina",
+            "Chinchona"
+          ]
+        },
+        {
+          "id": "crustle",
+          "nome": "Crustle",
+          "descricao": "Pokémon dos tipos Inseto e Pedra, número 558 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "joaninha",
+          "nome": "Joaninha",
+          "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+          "variantes": [
+            "Coccinellidae",
+            "ladybird",
+            "ladybug"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ushanka",
+        "descricao": "Chapéu russo de pele com abas que cobrem as orelhas e podem ser amarradas no alto.",
+        "variantes": [
+          "Ushanka-hat",
+          "Shapka-ushanka",
+          "Chapéu de orelhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "shaka",
+          "nome": "Shaka",
+          "descricao": "Rei zulu do início do século dezenove, que transformou os zulus num poderoso reino militar no sul da África.",
+          "variantes": [
+            "Shaka Zulu",
+            "Chaka"
+          ]
+        },
+        {
+          "id": "shaka_de_virgem",
+          "nome": "Shaka de Virgem",
+          "descricao": "Cavaleiro de ouro da constelação de Virgem em Os Cavaleiros do Zodíaco.",
+          "variantes": [
+            "Shaka",
+            "Virgo Shaka"
+          ]
+        },
+        {
+          "id": "musharna",
+          "nome": "Musharna",
+          "descricao": "Pokémon do tipo Psíquico, número 518 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bubble_tea",
+          "nome": "Bubble tea",
+          "descricao": "Bebida à base de chá, leite e pérolas de tapioca, originada em Taiwan.",
+          "variantes": [
+            "Chá de bolhas",
+            "Boba tea",
+            "Chá de pérolas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Quepe",
+        "descricao": "Boné militar de topo circular plano e pala, associado aos uniformes franceses e à Guerra Civil americana.",
+        "variantes": [
+          "Képi",
+          "Kepi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "dama_xadrez",
+          "nome": "Dama (xadrez)",
+          "descricao": "Peça mais poderosa do xadrez, que se move em linha reta e na diagonal por quantas casas quiser, também chamada rainha.",
+          "variantes": [
+            "Rainha (xadrez)",
+            "Queen",
+            "Rainha"
+          ]
+        },
+        {
+          "id": "clementina_de_jesus",
+          "nome": "Clementina de Jesus",
+          "descricao": "Cantora fluminense de samba e cantos de tradição afro-brasileira, que estreou nos palcos já idosa, nos anos 1960.",
+          "variantes": [
+            "Quelé"
+          ]
+        },
+        {
+          "id": "dama_carta_de_baralho",
+          "nome": "Dama (carta de baralho)",
+          "descricao": "Carta de baralho francês com figura de rainha, entre o rei e o valete.",
+          "variantes": [
+            "Rainha",
+            "Queen",
+            "Q"
+          ]
+        },
+        {
+          "id": "kemet",
+          "nome": "Kemet",
+          "descricao": "Nome que os antigos egípcios davam ao próprio país",
+          "variantes": [
+            "Kmt",
+            "Kemi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tie-dye",
+        "descricao": "Técnica de tingimento com reserva, em que o tecido é dobrado ou torcido e amarrado antes de receber o corante, gerando padrões coloridos.",
+        "variantes": [
+          "Tingimento amarrado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "olho_de_tigre",
+          "nome": "Olho-de-tigre",
+          "descricao": "Pedra do grupo do quartzo, dourada a marrom, com brilho sedoso (chatoyance).",
+          "variantes": [
+            "Tiger's eye"
+          ]
+        },
+        {
+          "id": "primeira_demonstracao_publica_de_anestesia",
+          "nome": "Primeira demonstração pública de anestesia",
+          "descricao": "Cirurgia realizada em 1846 no Hospital Geral de Massachusetts, em Boston, com o paciente anestesiado por William Morton.",
+          "variantes": [
+            "Ether Day",
+            "Ether Dome"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gibão (doublet)",
+        "descricao": "Casaco justo ao corpo, usado por homens na Europa entre os séculos quinze e dezessete, aqui em versão de seda bordada com mangas fendidas.",
+        "variantes": [
+          "Doublet",
+          "Gibão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gibao_de_couro",
+          "nome": "Gibão de couro",
+          "descricao": "Casaco de couro do vaqueiro nordestino, usado com chapéu e perneiras do mesmo material",
+          "variantes": [
+            "Roupa de couro do vaqueiro",
+            "Gibão"
+          ]
+        },
+        {
+          "id": "gibao",
+          "nome": "Gibão",
+          "descricao": "Primata da família Hylobatidae, um dos macacos menores sem cauda, que vive nas florestas do sul e do sudeste da Ásia.",
+          "variantes": [
+            "Gibões",
+            "Gibbon"
+          ]
+        },
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        },
+        {
+          "id": "doublade",
+          "nome": "Doublade",
+          "descricao": "Pokémon dos tipos Aço e Fantasma, número 680 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Qipao",
+        "descricao": "Vestido feminino chinês justo, de gola alta e abertura lateral, desenvolvido nas décadas de 1910 e 1920.",
+        "variantes": [
+          "Cheongsam",
+          "Chipao",
+          "Vestido mandarim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "qipao",
+          "nome": "Qipao",
+          "descricao": "Vestido feminino chinês justo, de gola alta e abertura assimétrica, popular desde os anos 1920.",
+          "variantes": [
+            "Cheongsam",
+            "Chipao"
+          ]
+        },
+        {
+          "id": "chita",
+          "nome": "Chita",
+          "descricao": "Tecido barato de algodão com estampas florais coloridas, tradicional no Brasil",
+          "variantes": [
+            "Chitão",
+            "Chintz"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "circuito_integrado",
+          "nome": "Circuito integrado",
+          "descricao": "Conjunto de componentes eletrônicos miniaturizados num único pedaço de material semicondutor, o chip.",
+          "variantes": [
+            "Chip",
+            "Microchip"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Chapéu pillbox",
+        "descricao": "Chapéu pequeno de copa plana, lados retos e sem aba, que lembra uma caixa de comprimidos.",
+        "variantes": [
+          "Pillbox",
+          "Chapéu caixa de pílulas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartola_2",
+          "nome": "Cartola",
+          "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+          "variantes": [
+            "Cartola (chapéu)",
+            "Top hat",
+            "Chapéu alto"
+          ]
+        },
+        {
+          "id": "chapeu_coco",
+          "nome": "Chapéu-coco",
+          "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+          "variantes": [
+            "Bowler hat",
+            "Derby",
+            "Chapéu-melão"
+          ]
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug",
+            "Tatu-bola",
+            "Bicho-de-conta"
+          ]
+        },
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        },
+        {
+          "id": "castanholas",
+          "nome": "Castanholas",
+          "descricao": "Instrumento de percussão formado por um par de conchas côncavas de madeira unidas por um cordão, usado na dança espanhola.",
+          "variantes": [
+            "Castanhola",
+            "Castanets",
+            "Palillos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um leque de mão."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Anquinha (armação de vestido) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "ushanka",
+      "motivo": "Mesmo chapéu russo de pele com abas para as orelhas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quepe (boné militar) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tie-dye é técnica de tingimento; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Gibão europeu (doublet) difere do gibão de couro do vaqueiro e do primata."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "qipao",
+      "motivo": "Mesmo vestido chinês, mesmas variantes e descrição equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Chapéu pillbox é distinto de cartola e chapéu-coco; demais candidatas não relacionadas."
+    }
+  ]
+}
