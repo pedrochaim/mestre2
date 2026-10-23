@@ -1,0 +1,153 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Quatro distratores em vez de três; Bolívia é pouco crível (bandeira muito diferente). Mantive bandeiras africanas parecidas.",
+      "reescrita": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Gana",
+        "distratores": [
+          "Senegal",
+          "Camarões",
+          "Guiné"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta aberta direta, sem vazamento; a dica 'europeu' ajuda sem entregar; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pelos trechos (Rússia ao norte), mas há quatro distratores; Irã nem faz fronteira e é pouco crível. Reduzi para três.",
+      "reescrita": {
+        "pergunta": "Que grande país faz fronteira ao norte com o país desta bandeira?",
+        "resposta": "Rússia",
+        "distratores": [
+          "Turquia",
+          "Ucrânia",
+          "Cazaquistão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quatro distratores em vez de três; Viena é pouco crível. Capital confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Varsóvia",
+        "distratores": [
+          "Cracóvia",
+          "Praga",
+          "Gdańsk"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento direto, sem vazamento; 'Ásia Central' é pista que ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quatro distratores em vez de três. Capital confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Quito",
+        "distratores": [
+          "Guayaquil",
+          "Bogotá",
+          "Lima"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quatro distratores em vez de três; Omã não é propriamente do Golfo Pérsico, então foi retirado.",
+      "reescrita": {
+        "pergunta": "De que país do Golfo Pérsico é esta bandeira?",
+        "resposta": "Bahrein",
+        "distratores": [
+          "Catar",
+          "Kuwait",
+          "Emirados Árabes"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quatro distratores em vez de três.",
+      "reescrita": {
+        "pergunta": "De que país do Pacífico é esta bandeira?",
+        "resposta": "Tonga",
+        "distratores": [
+          "Samoa",
+          "Fiji",
+          "Kiribati"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Quatro distratores em vez de três; México tem brasão e é pouco confundível.",
+      "reescrita": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Irlanda",
+        "distratores": [
+          "Costa do Marfim",
+          "Itália",
+          "Níger"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bandeira pouco conhecida para pergunta aberta; o manifesto manda usar múltipla escolha para assuntos menos conhecidos. Capital confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Lusaka",
+        "distratores": [
+          "Harare",
+          "Lilongwe",
+          "Windhoek"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Quatro distratores em vez de três.",
+      "reescrita": {
+        "pergunta": "De que país da Oceania é esta bandeira?",
+        "resposta": "Tuvalu",
+        "distratores": [
+          "Fiji",
+          "Nauru",
+          "Kiribati"
+        ]
+      }
+    }
+  ]
+}

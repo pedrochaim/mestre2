@@ -1,0 +1,73 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Gana"
+      },
+      "existentes": [
+        {
+          "id": "q04908",
+          "pergunta": "Ao se tornar independente em 1957, a Costa do Ouro adotou o nome de qual antigo império africano, que ficava a centenas de quilômetros dali?",
+          "resposta": "Império de Gana"
+        },
+        {
+          "id": "q08091",
+          "pergunta": "Em 1957, que líder conduziu a Costa do Ouro à independência e se tornou o primeiro-ministro do novo país, Gana?",
+          "resposta": "Kwame Nkrumah"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Quito"
+      },
+      "existentes": [
+        {
+          "id": "q00009",
+          "pergunta": "Chile e Equador são os únicos países da América do Sul com qual característica em relação ao Brasil?",
+          "resposta": "Não fazem fronteira com o Brasil"
+        },
+        {
+          "id": "q04039",
+          "pergunta": "Desde o ano dois mil, qual é a moeda oficial do Equador?",
+          "resposta": "Dólar americano"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que país do Golfo Pérsico é esta bandeira?",
+        "resposta": "Bahrein"
+      },
+      "existentes": [
+        {
+          "id": "q04023",
+          "pergunta": "Em árabe, o nome do Bahrein, arquipélago do Golfo Pérsico, significa o quê?",
+          "resposta": "Dois mares"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o país pela bandeira é um fato diferente de quem liderou a independência ou da origem do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A capital do Equador não é perguntada em nenhuma existente."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira do Bahrein é diferente do significado do nome em árabe."
+    }
+  ]
+}

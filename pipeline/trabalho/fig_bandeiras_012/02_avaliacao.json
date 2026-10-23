@@ -1,0 +1,269 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto; a estrela negra é reconhecível. Múltipla com bandeiras africanas parecidas.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Gana",
+      "distratores": [
+        "Senegal",
+        "Camarões",
+        "Guiné",
+        "Bolívia"
+      ],
+      "ancora": {
+        "nome": "Gana",
+        "descricao": "País da África Ocidental, com capital em Acra, cuja bandeira tem faixas vermelha, amarela e verde com uma estrela negra.",
+        "variantes": [
+          "Ghana",
+          "República de Gana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal amarelo, verde e vermelho, sem texto; reconhecível e única na ordem das cores.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país europeu é esta bandeira?",
+      "resposta": "Lituânia",
+      "ancora": {
+        "nome": "Lituânia",
+        "descricao": "País báltico da Europa, com capital em Vilnius, cuja bandeira é um tricolor horizontal amarelo, verde e vermelho.",
+        "variantes": [
+          "Lithuania",
+          "República da Lituânia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cruz vermelha com quatro cruzes menores sobre fundo branco, sem texto; inconfundível. Pergunta de conexão por vizinhança.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que grande país faz fronteira ao norte com o país desta bandeira?",
+      "resposta": "Rússia",
+      "distratores": [
+        "Turquia",
+        "Irã",
+        "Ucrânia",
+        "Cazaquistão"
+      ],
+      "ancora": {
+        "nome": "Geórgia (país)",
+        "descricao": "País do Cáucaso, com capital em Tbilisi, cuja bandeira é uma grande cruz vermelha com quatro cruzes menores sobre fundo branco.",
+        "variantes": [
+          "Georgia",
+          "República da Geórgia",
+          "Sakartvelo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O brasão no centro traz o texto 'República de El Salvador en la América Central', que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira bicolor branca sobre vermelha, sem texto; a ordem das cores a distingue da Indonésia. Pergunta pela capital.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Varsóvia",
+      "distratores": [
+        "Cracóvia",
+        "Praga",
+        "Gdańsk",
+        "Viena"
+      ],
+      "ancora": {
+        "nome": "Polônia",
+        "descricao": "País da Europa Central, com capital em Varsóvia, cuja bandeira é bicolor, branca em cima e vermelha embaixo.",
+        "variantes": [
+          "Poland",
+          "República da Polônia",
+          "Polónia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira com coroa e sete estrelas, sem texto; distintiva e legível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país da Ásia Central é esta bandeira?",
+      "resposta": "Tajiquistão",
+      "ancora": {
+        "nome": "Tajiquistão",
+        "descricao": "País sem litoral da Ásia Central, com capital em Duchambé, cuja bandeira tem faixas vermelha, branca e verde com uma coroa e sete estrelas.",
+        "variantes": [
+          "Tajikistan",
+          "Tadjiquistão",
+          "República do Tajiquistão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tricolor amarelo, azul e vermelho com brasão sem texto legível; o brasão distingue de Colômbia e Venezuela.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Quito",
+      "distratores": [
+        "Guayaquil",
+        "Bogotá",
+        "Lima",
+        "Caracas"
+      ],
+      "ancora": {
+        "nome": "Equador",
+        "descricao": "País da América do Sul, com capital em Quito, cuja bandeira é um tricolor amarelo, azul e vermelho com um brasão com condor ao centro.",
+        "variantes": [
+          "Ecuador",
+          "República do Equador"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira com cinco pontas dentadas brancas sobre vermelho, sem texto; distinta do Catar (nove pontas, grená).",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país do Golfo Pérsico é esta bandeira?",
+      "resposta": "Bahrein",
+      "distratores": [
+        "Catar",
+        "Omã",
+        "Kuwait",
+        "Emirados Árabes"
+      ],
+      "ancora": {
+        "nome": "Bahrein",
+        "descricao": "País insular do Golfo Pérsico, com capital em Manama, cuja bandeira é vermelha com uma faixa branca dentada de cinco pontas.",
+        "variantes": [
+          "Bahrain",
+          "Reino do Bahrein",
+          "Barém"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha com cantão branco e cruz vermelha, sem texto; reconhecível por quem conhece o Pacífico. Múltipla com vizinhos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país do Pacífico é esta bandeira?",
+      "resposta": "Tonga",
+      "distratores": [
+        "Samoa",
+        "Fiji",
+        "Tuvalu",
+        "Kiribati"
+      ],
+      "ancora": {
+        "nome": "Tonga",
+        "descricao": "Reino insular da Polinésia, no Pacífico Sul, cuja bandeira é vermelha com um cantão branco contendo uma cruz vermelha.",
+        "variantes": [
+          "Reino de Tonga"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tricolor vertical verde, branco e laranja, sem texto; a ordem das cores a distingue da Costa do Marfim.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Irlanda",
+      "distratores": [
+        "Costa do Marfim",
+        "Itália",
+        "Níger",
+        "México"
+      ],
+      "ancora": {
+        "nome": "Irlanda",
+        "descricao": "País da Europa Ocidental que ocupa a maior parte da ilha da Irlanda, com capital em Dublin, cuja bandeira é um tricolor vertical verde, branco e laranja.",
+        "variantes": [
+          "Ireland",
+          "República da Irlanda",
+          "Eire"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira verde com águia laranja e três faixas verticais, sem texto; única e legível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Lusaka",
+      "ancora": {
+        "nome": "Zâmbia",
+        "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+        "variantes": [
+          "Zambia",
+          "República da Zâmbia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira azul-clara com Union Jack e nove estrelas, sem texto; parecida com Fiji, o que justifica a múltipla.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país da Oceania é esta bandeira?",
+      "resposta": "Tuvalu",
+      "distratores": [
+        "Fiji",
+        "Nauru",
+        "Kiribati",
+        "Samoa"
+      ],
+      "ancora": {
+        "nome": "Tuvalu",
+        "descricao": "País insular da Polinésia, no Pacífico, cuja bandeira é azul-clara com a Union Jack no canto e nove estrelas amarelas.",
+        "variantes": [
+          "Ilhas Ellice"
+        ]
+      }
+    }
+  ]
+}

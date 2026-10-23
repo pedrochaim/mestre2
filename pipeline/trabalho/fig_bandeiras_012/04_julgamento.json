@@ -1,0 +1,692 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Gana",
+        "descricao": "País da África Ocidental, com capital em Acra, cuja bandeira tem faixas vermelha, amarela e verde com uma estrela negra.",
+        "variantes": [
+          "Ghana",
+          "República de Gana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "malta",
+          "nome": "Malta",
+          "descricao": "País insular do Mar Mediterrâneo, ao sul da Sicília, cuja capital é Valeta.",
+          "variantes": [
+            "República de Malta"
+          ]
+        },
+        {
+          "id": "panama",
+          "nome": "Panamá",
+          "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+          "variantes": [
+            "República do Panamá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lituânia",
+        "descricao": "País báltico da Europa, com capital em Vilnius, cuja bandeira é um tricolor horizontal amarelo, verde e vermelho.",
+        "variantes": [
+          "Lithuania",
+          "República da Lituânia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "finlandia_2",
+          "nome": "Finlândia",
+          "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+          "variantes": [
+            "República da Finlândia",
+            "Finland"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "rms_lusitania",
+          "nome": "RMS Lusitania",
+          "descricao": "Transatlântico britânico afundado por um submarino alemão na costa da Irlanda em maio de 1915.",
+          "variantes": [
+            "Lusitânia",
+            "Lusitania"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Geórgia (país)",
+        "descricao": "País do Cáucaso, com capital em Tbilisi, cuja bandeira é uma grande cruz vermelha com quatro cruzes menores sobre fundo branco.",
+        "variantes": [
+          "Geórgia",
+          "Georgia",
+          "República da Geórgia",
+          "Sakartvelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "servia",
+          "nome": "Sérvia",
+          "descricao": "País sem litoral dos Bálcãs, na Europa Central e Sudeste, com capital em Belgrado.",
+          "variantes": [
+            "Serbia",
+            "República da Sérvia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "bulgaria",
+          "nome": "Bulgária",
+          "descricao": "País do sudeste da Europa, nos Bálcãs, ao sul do Danúbio, com capital em Sófia.",
+          "variantes": [
+            "República da Bulgária"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Polônia",
+        "descricao": "País da Europa Central, com capital em Varsóvia, cuja bandeira é bicolor, branca em cima e vermelha embaixo.",
+        "variantes": [
+          "Poland",
+          "República da Polônia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "moldavia",
+          "nome": "Moldávia",
+          "descricao": "País sem litoral do Leste Europeu entre a Romênia e a Ucrânia, com capital em Chisinau.",
+          "variantes": [
+            "Moldova",
+            "República da Moldávia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tajiquistão",
+        "descricao": "País sem litoral da Ásia Central, com capital em Duchambé, cuja bandeira tem faixas vermelha, branca e verde com uma coroa e sete estrelas.",
+        "variantes": [
+          "Tajikistan",
+          "Tadjiquistão",
+          "República do Tajiquistão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paquistao",
+          "nome": "Paquistão",
+          "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+          "variantes": [
+            "Pakistan"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia",
+            "Turkey"
+          ]
+        },
+        {
+          "id": "djibuti",
+          "nome": "Djibuti",
+          "descricao": "Pequeno país do Chifre da África, às margens do Mar Vermelho e do Golfo de Áden.",
+          "variantes": [
+            "República do Djibuti",
+            "Jibuti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Equador",
+        "descricao": "País da América do Sul, com capital em Quito, cuja bandeira é um tricolor amarelo, azul e vermelho com um brasão com condor ao centro.",
+        "variantes": [
+          "Ecuador",
+          "República do Equador"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "chade",
+          "nome": "Chade",
+          "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+          "variantes": [
+            "República do Chade"
+          ]
+        },
+        {
+          "id": "linha_do_equador",
+          "nome": "Linha do Equador",
+          "descricao": "Paralelo de latitude zero, que divide a Terra nos hemisférios Norte e Sul e atravessa o norte do Brasil.",
+          "variantes": [
+            "Equador (linha)"
+          ]
+        },
+        {
+          "id": "iraque",
+          "nome": "Iraque",
+          "descricao": "País da Ásia Ocidental, na antiga Mesopotâmia, com capital em Bagdá.",
+          "variantes": [
+            "República do Iraque"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bahrein",
+        "descricao": "País insular do Golfo Pérsico, com capital em Manama, cuja bandeira é vermelha com uma faixa branca dentada de cinco pontas.",
+        "variantes": [
+          "Bahrain",
+          "Reino do Bahrein",
+          "Barém"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bahrein",
+          "nome": "Bahrein",
+          "descricao": "País insular do Golfo Pérsico, com capital em Manama.",
+          "variantes": [
+            "Barém",
+            "Bahrain",
+            "Barein"
+          ]
+        },
+        {
+          "id": "brain_virus_de_computador",
+          "nome": "Brain (vírus de computador)",
+          "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+          "variantes": [
+            "Brain",
+            "Pakistani Brain"
+          ]
+        },
+        {
+          "id": "imperio_do_mali",
+          "nome": "Império do Mali",
+          "descricao": "Império da África Ocidental que dominou o Sahel do século treze ao dezesseis, famoso pelo ouro e por Tombuctu.",
+          "variantes": [
+            "Mali Empire",
+            "Reino do Mali"
+          ]
+        },
+        {
+          "id": "barbaro_termo_grego",
+          "nome": "Bárbaro (termo grego)",
+          "descricao": "Termo usado pelos gregos antigos para designar os povos estrangeiros que não falavam grego.",
+          "variantes": [
+            "Barbaros",
+            "Barbarian"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tonga",
+        "descricao": "Reino insular da Polinésia, no Pacífico Sul, cuja bandeira é vermelha com um cantão branco contendo uma cruz vermelha.",
+        "variantes": [
+          "Reino de Tonga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "tonfa",
+          "nome": "Tonfa",
+          "descricao": "Arma de artes marciais de Okinawa formada por um bastão com um cabo perpendicular, usada em pares.",
+          "variantes": [
+            "Tunkua",
+            "Tui-fa",
+            "Senkon"
+          ]
+        },
+        {
+          "id": "reino_do_congo",
+          "nome": "Reino do Congo",
+          "descricao": "Reino da África Central, nos atuais Angola, República do Congo e República Democrática do Congo, aliado de Portugal a partir do fim do século quinze.",
+          "variantes": [
+            "Kingdom of Kongo",
+            "Reino do Kongo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Irlanda",
+        "descricao": "País da Europa Ocidental que ocupa a maior parte da ilha da Irlanda, com capital em Dublin, cuja bandeira é um tricolor vertical verde, branco e laranja.",
+        "variantes": [
+          "Ireland",
+          "República da Irlanda",
+          "Eire"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "finlandia_2",
+          "nome": "Finlândia",
+          "descricao": "País nórdico do norte da Europa que faz fronteira com Suécia, Noruega e Rússia.",
+          "variantes": [
+            "República da Finlândia",
+            "Finland"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "islandia",
+          "nome": "Islândia",
+          "descricao": "País insular no Atlântico Norte, entre a Groenlândia e a Noruega, conhecido por vulcões e gêiseres.",
+          "variantes": [
+            "Iceland",
+            "Ísland"
+          ]
+        },
+        {
+          "id": "miranda",
+          "nome": "Miranda",
+          "descricao": "Menor e mais interna das cinco luas esféricas de Urano, de superfície com cânions e coroas, fotografada pela Voyager 2.",
+          "variantes": [
+            "Miranda (satélite)",
+            "Uranus V"
+          ]
+        },
+        {
+          "id": "gana",
+          "nome": "Gana",
+          "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+          "variantes": [
+            "Ghana",
+            "República de Gana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Zâmbia",
+        "descricao": "País sem litoral da África Austral, com capital em Lusaka, cuja bandeira é verde com uma águia e faixas vermelha, preta e laranja.",
+        "variantes": [
+          "República da Zâmbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "namibia",
+          "nome": "Namíbia",
+          "descricao": "País do sudoeste da África, banhado pelo Atlântico, cuja capital é Windhoek.",
+          "variantes": [
+            "República da Namíbia"
+          ]
+        },
+        {
+          "id": "colombia",
+          "nome": "Colômbia",
+          "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+          "variantes": [
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gra_colombia",
+          "nome": "Grã-Colômbia",
+          "descricao": "República criada por Simón Bolívar em 1819 no norte da América do Sul, dissolvida em 1831.",
+          "variantes": [
+            "Gran Colombia",
+            "República da Colômbia"
+          ]
+        },
+        {
+          "id": "gambia",
+          "nome": "Gâmbia",
+          "descricao": "País da África Ocidental formado por uma faixa estreita ao longo do rio Gâmbia, com capital em Banjul.",
+          "variantes": [
+            "The Gambia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Tuvalu",
+        "descricao": "País insular da Polinésia, no Pacífico, cuja bandeira é azul-clara com a Union Jack no canto e nove estrelas amarelas.",
+        "variantes": [
+          "Ilhas Ellice"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilha_ellis",
+          "nome": "Ilha Ellis",
+          "descricao": "Ilha na baía de Nova York, perto da Estátua da Liberdade, hoje sede de um museu.",
+          "variantes": [
+            "Ellis Island"
+          ]
+        },
+        {
+          "id": "ilhas_sevii",
+          "nome": "Ilhas Sevii",
+          "descricao": "Arquipélago perto de Kanto, explorado depois da Liga em Pokémon FireRed e LeafGreen.",
+          "variantes": [
+            "Sevii Islands",
+            "Nanashima"
+          ]
+        },
+        {
+          "id": "ilhas_faroe",
+          "nome": "Ilhas Faroé",
+          "descricao": "Arquipélago do Atlântico Norte entre a Islândia, a Noruega e a Escócia, território autônomo do Reino da Dinamarca.",
+          "variantes": [
+            "Ilhas Feroe",
+            "Faroe Islands",
+            "Ilhas Faroes"
+          ]
+        },
+        {
+          "id": "uva",
+          "nome": "Uva",
+          "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+          "variantes": [
+            "Grape"
+          ]
+        },
+        {
+          "id": "la_fenice",
+          "nome": "La Fenice",
+          "descricao": "Teatro de ópera de Veneza, inaugurado em 1792 e reconstruído após incêndios, o último em 1996.",
+          "variantes": [
+            "Teatro La Fenice",
+            "Gran Teatro La Fenice"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "gana",
+      "motivo": "Mesmo país, Gana, com mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Lituânia não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Geórgia (país) não consta entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Polônia não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Tajiquistão não consta entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "equador",
+      "motivo": "Mesmo país, Equador, capital Quito."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "bahrein",
+      "motivo": "Mesmo país insular do Golfo Pérsico, capital Manama."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Tonga (reino da Polinésia) não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Irlanda não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Zâmbia não consta entre as candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Tuvalu não consta entre as candidatas."
+    }
+  ]
+}
