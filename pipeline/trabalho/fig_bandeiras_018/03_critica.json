@@ -1,0 +1,93 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'Guiné' sozinha é ambígua com Guiné-Bissau e Guiné Equatorial; especificar com observação curta.",
+      "reescrita": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Guiné (Guiné-Conacri)"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado ('enclave totalmente cercado') descreve o Lesoto e entrega o país sem a figura, embora também servisse a San Marino e Vaticano. Troca por pergunta que exige reconhecer a bandeira.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Maseru",
+        "distratores": [
+          "Gaborone",
+          "Mbabane",
+          "Lilongwe"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, resposta única, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores de bandeiras árabes parecidas, do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado ('deserto que cobre setenta por cento do território') quase entrega Kalahari sem olhar a bandeira. Troca por pergunta que depende de reconhecer a bandeira.",
+      "reescrita": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Gaborone",
+        "distratores": [
+          "Windhoek",
+          "Lusaka",
+          "Maseru"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores oceânicos plausíveis, curtos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista 'caribenho' ajuda sem entregar; distratores caribenhos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma Yaren como capital de fato; o enunciado depende de reconhecer a bandeira.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, resposta única.",
+      "reescrita": null
+    }
+  ]
+}

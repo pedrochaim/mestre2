@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra a bandeira do Egito (listras vermelha, branca e preta com águia dourada e legenda em árabe), não a da Síria. Não corresponde à entidade do item."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tricolor vertical vermelho, amarelo e verde, sem texto, legível e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Guiné",
+      "distratores": [],
+      "ancora": {
+        "nome": "Guiné",
+        "descricao": "País da África Ocidental cuja capital é Conacri, antiga Guiné Francesa.",
+        "variantes": [
+          "Guiné-Conacri",
+          "República da Guiné"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira atual do Lesoto (faixa diagonal e chapéu basotho), sem texto e distintiva. A pergunta vai além do reconhecimento.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este país é um enclave, totalmente cercado por qual outro país?",
+      "resposta": "África do Sul",
+      "distratores": [
+        "Namíbia",
+        "Zimbábue",
+        "Moçambique"
+      ],
+      "ancora": {
+        "nome": "Lesoto",
+        "descricao": "Reino do sul da África, enclave totalmente cercado pela África do Sul, com capital em Maseru.",
+        "variantes": [
+          "Reino do Lesoto",
+          "Lesotho"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira do Kosovo, azul com seis estrelas brancas e o mapa dourado, sem texto e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Kosovo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Kosovo",
+        "descricao": "País dos Bálcãs, de reconhecimento diplomático parcial, com capital em Pristina.",
+        "variantes": [
+          "República do Kosovo",
+          "Kosova"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal vermelho, branco e preto, sem emblema, o que a separa da bandeira do Egito. Resposta única, com distratores parecidos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Iêmen",
+      "distratores": [
+        "Egito",
+        "Síria",
+        "Iraque"
+      ],
+      "ancora": {
+        "nome": "Iêmen",
+        "descricao": "País do sul da Península Arábica, com capital constitucional em Sanaa.",
+        "variantes": [
+          "Yemen",
+          "República do Iêmen"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira azul-clara com faixa preta e bordas brancas, sem texto e distintiva. A pergunta liga ao Kalahari, ambígua sem a imagem.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que deserto cobre cerca de setenta por cento do território do país desta bandeira?",
+      "resposta": "Kalahari",
+      "distratores": [],
+      "ancora": {
+        "nome": "Botsuana",
+        "descricao": "País sem litoral do sul da África, de capital Gaborone, em grande parte coberto pelo deserto do Kalahari.",
+        "variantes": [
+          "Botswana",
+          "República do Botsuana"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira atual da Mauritânia (faixas vermelhas, campo verde, crescente e estrela dourados), sem texto e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Mauritânia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Mauritânia",
+        "descricao": "República Islâmica do noroeste da África, com capital em Nouakchott.",
+        "variantes": [
+          "Mauritania",
+          "República Islâmica da Mauritânia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira diagonal preta e vermelha com ave-do-paraíso e Cruzeiro do Sul, sem texto. Distratores de bandeiras parecidas na Oceania e no Sudeste Asiático.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Papua-Nova Guiné",
+      "distratores": [
+        "Vanuatu",
+        "Timor-Leste",
+        "Ilhas Salomão"
+      ],
+      "ancora": {
+        "nome": "Papua-Nova Guiné",
+        "descricao": "País insular da Oceania que ocupa a metade leste da ilha da Nova Guiné, com capital em Port Moresby.",
+        "variantes": [
+          "Papua Nova Guiné",
+          "Papua New Guinea"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O brasão no centro traz o texto REPUBLICA DE NICARAGUA AMERICA CENTRAL, que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira celeste com triângulos branco, preto e amarelo (os Pitons), sem texto e distintiva.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país caribenho é esta bandeira?",
+      "resposta": "Santa Lúcia",
+      "distratores": [
+        "Barbados",
+        "Granada",
+        "Dominica"
+      ],
+      "ancora": {
+        "nome": "Santa Lúcia",
+        "descricao": "País insular das Pequenas Antilhas, no Caribe, com capital em Castries.",
+        "variantes": [
+          "Saint Lucia",
+          "St. Lucia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira azul com faixa dourada e estrela branca de doze pontas, sem texto e distintiva. A pergunta pede a capital de fato, sem pista no enunciado.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital de fato do país desta bandeira?",
+      "resposta": "Yaren",
+      "distratores": [],
+      "ancora": {
+        "nome": "Nauru",
+        "descricao": "País insular e microestado do Pacífico Sul, na Micronésia, cuja capital de fato é Yaren.",
+        "variantes": [
+          "Naoero",
+          "República de Nauru"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira com faixas preta, branca e verde e triângulo vermelho, sem texto e reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Palestina",
+      "distratores": [],
+      "ancora": {
+        "nome": "Palestina",
+        "descricao": "Estado do Levante, na Ásia Ocidental, que compreende a Cisjordânia e a Faixa de Gaza.",
+        "variantes": [
+          "Estado da Palestina"
+        ]
+      }
+    }
+  ]
+}

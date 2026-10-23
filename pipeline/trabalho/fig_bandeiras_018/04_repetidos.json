@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Maseru"
+      },
+      "existentes": [
+        {
+          "id": "q00010",
+          "pergunta": "O que Lesoto, San Marino e Vaticano têm em comum no mapa?",
+          "resposta": "São cercados por um único país"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Papua-Nova Guiné"
+      },
+      "existentes": [
+        {
+          "id": "q13134",
+          "pergunta": "Com mais de oitocentas línguas, qual país tem o maior número de idiomas vivos do mundo?",
+          "resposta": "Papua-Nova Guiné"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Capital de Lesoto é um fato diferente de ser cercado por um único país."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira de Papua-Nova Guiné é diferente de saber que tem o maior número de idiomas."
+    }
+  ]
+}
