@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Entre 1956 e 1977, os antecessores deste aparelho, usados para comandar televisores, funcionavam com que tipo de sinal?",
+        "resposta": "Tons ultrassônicos"
+      },
+      "existentes": [
+        {
+          "id": "q07348",
+          "pergunta": "A americana Zenith lançou o primeiro controle remoto sem fio para televisão, que funcionava com um feixe de luz. Em que década?",
+          "resposta": "Anos cinquenta"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o tipo de sinal (ultrassom) dos controles entre 1956 e 1977; a existente é sobre a década do primeiro controle sem fio da Zenith, que usava luz. Fatos diferentes."
+    }
+  ]
+}

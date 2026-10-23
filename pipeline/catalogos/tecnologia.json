@@ -257,7 +257,7 @@
       "titulo": "en:ZX Spectrum",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Magnavox Odyssey",
@@ -292,7 +292,7 @@
       "titulo": "en:Remote control",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lâmpada incandescente",
@@ -404,14 +404,14 @@
       "titulo": "en:SD card",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Resistor",
       "titulo": "en:Resistor",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Capacitor",
@@ -488,7 +488,7 @@
       "titulo": "en:Cavity magnetron",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Cray-1",
@@ -556,6 +556,286 @@
     {
       "nome": "Galvanômetro",
       "titulo": "en:Galvanometer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "PlayStation",
+      "titulo": "en:PlayStation (console)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Super Nintendo",
+      "titulo": "en:Super Nintendo Entertainment System",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mega Drive",
+      "titulo": "en:Sega Genesis",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Nintendo 64",
+      "titulo": "en:Nintendo 64",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Motorola StarTAC",
+      "titulo": "en:Motorola StarTAC",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Motorola Razr V3",
+      "titulo": "en:Motorola Razr V3",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Discman",
+      "titulo": "en:Discman",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boombox",
+      "titulo": "en:Boombox",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Videocassete",
+      "titulo": "en:Videocassette recorder",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pilha AA",
+      "titulo": "en:AA battery",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Joystick",
+      "titulo": "en:Joystick",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Webcam",
+      "titulo": "en:Webcam",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Impressora matricial",
+      "titulo": "en:Dot matrix printing",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Apple Lisa",
+      "titulo": "en:Apple Lisa",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "iMac G3",
+      "titulo": "en:iMac G3",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Amiga 500",
+      "titulo": "en:Amiga 500",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "TRS-80",
+      "titulo": "en:TRS-80",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "MSX",
+      "titulo": "en:MSX",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Virtual Boy",
+      "titulo": "en:Virtual Boy",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dreamcast",
+      "titulo": "en:Dreamcast",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "LaserDisc",
+      "titulo": "en:LaserDisc",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "MiniDisc",
+      "titulo": "en:MiniDisc",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Betamax",
+      "titulo": "en:Betamax",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Apple Newton",
+      "titulo": "en:Apple Newton",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telefone castiçal",
+      "titulo": "en:Candlestick telephone",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Laser",
+      "titulo": "en:Laser",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cilindro fonográfico",
+      "titulo": "en:Phonograph cylinder",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Manchester Baby",
+      "titulo": "en:Manchester Baby",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "EDSAC",
+      "titulo": "en:EDSAC",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Whirlwind I",
+      "titulo": "en:Whirlwind I",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Memória de tambor",
+      "titulo": "en:Drum memory",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubo Williams",
+      "titulo": "en:Williams tube",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tabuladora de Hollerith",
+      "titulo": "en:Tabulating machine",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aritmômetro",
+      "titulo": "en:Arithmometer",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Curta (calculadora)",
+      "titulo": "en:Curta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Programma 101",
+      "titulo": "en:Programma 101",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bombe",
+      "titulo": "en:Bombe",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Analisador diferencial",
+      "titulo": "en:Differential analyser",
+      "camada": 3,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Câmara de bolhas",
+      "titulo": "en:Bubble chamber",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Cíclotron",
+      "titulo": "en:Cyclotron",
       "camada": 3,
       "destino": 1,
       "status": "nova"

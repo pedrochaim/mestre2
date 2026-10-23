@@ -1,0 +1,159 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de controle remoto moderno, sem marca nem nome que entregue a resposta. Pergunta de ir além, com base no trecho (1956 a 1977, tons ultrassônicos).",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Entre 1956 e 1977, os antecessores deste aparelho, usados para comandar televisores, funcionavam com que tipo de sinal?",
+      "resposta": "Tons ultrassônicos",
+      "distratores": [
+        "Luz infravermelha",
+        "Ondas de rádio",
+        "Cabo elétrico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Controle remoto",
+        "descricao": "Dispositivo eletrônico usado para operar à distância um aparelho, como um televisor, em geral sem fio.",
+        "variantes": [
+          "Controle remoto de TV",
+          "Controlo remoto"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O nome VIRTUAL BOY aparece escrito no console e no controle, entregando a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida de um magnétron de forno de micro-ondas, com corte que mostra as cavidades, sem texto. Componente de aficionado, mas único diante da imagem. Resposta em ano, então múltipla.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi construído o primeiro protótipo de cavidades deste componente, que antes servia aos radares?",
+      "resposta": "1940",
+      "distratores": [
+        "1936",
+        "1943",
+        "1946"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Magnétron",
+        "descricao": "Válvula eletrônica de alta potência que gera micro-ondas, usada em radares e em fornos de micro-ondas.",
+        "variantes": [
+          "Magnétron de cavidade",
+          "Cavity magnetron",
+          "Magnetron"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida do celular de abrir e fechar, forma muito característica. A marca Motorola aparece, mas o modelo não está escrito. Distratores da mesma marca.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que modelo de celular da Motorola, de abrir e fechar, é este?",
+      "resposta": "Razr V3",
+      "distratores": [
+        "StarTAC",
+        "MicroTAC",
+        "Pebl"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Motorola Razr V3",
+        "descricao": "Celular de abrir e fechar, muito fino, lançado pela Motorola em 2004.",
+        "variantes": [
+          "Razr",
+          "Motorola RAZR V3",
+          "Moto Razr"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O rótulo traz EDISON GOLDGUSS RECORD e a assinatura de Thomas A. Edison, o que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Aparecem PHILIPS MAGNAVOX, VHS HQ e VCR Plus na frente do aparelho, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de resistores axiais com faixas coloridas, sem texto. Distratores de componentes axiais parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente eletrônico é este?",
+      "resposta": "Resistor",
+      "distratores": [
+        "Diodo",
+        "Capacitor",
+        "Indutor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Resistor",
+        "descricao": "Componente eletrônico passivo de dois terminais que oferece resistência à passagem da corrente elétrica.",
+        "variantes": [
+          "Resistência elétrica"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto histórica em preto e branco, sem texto, com trajetórias de bolhas em duas câmaras circulares. Reconhecimento de aficionado, por isso múltipla com distratores de detectores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que detector de partículas, inventado em 1952, registrou os rastros desta foto?",
+      "resposta": "Câmara de bolhas",
+      "distratores": [
+        "Câmara de nuvens",
+        "Câmara de faíscas",
+        "Câmara de ionização"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Câmara de bolhas",
+        "descricao": "Recipiente com líquido superaquecido em que partículas carregadas deixam rastros de bolhas, inventado por Donald Glaser em 1952.",
+        "variantes": [
+          "Bubble chamber"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O nome StarTAC está escrito na tampa do aparelho, o que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A etiqueta traz Transcend, SDHC, Class 6 e 8GB, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome ZX Spectrum e a marca Sinclair aparecem escritos no aparelho."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O nome Genesis e a marca SEGA aparecem escritos no console e no controle, o que entrega a resposta."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os primeiros controles sem fio (1956–1977) usavam tons ultrassônicos. O enunciado não nomeia a resposta e os distratores são do mesmo tipo e errados para esse período.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Primeiro protótipo' é arriscado: houve magnétrons de cavidades anteriores, como o japonês de 1939. 'Antes servia aos radares' também é impreciso, porque ele ainda é usado em radares. Fixar Randall e Boot em Birmingham torna o fato literalmente verdadeiro (1940).",
+      "reescrita": {
+        "pergunta": "Em que ano, na Universidade de Birmingham, John Randall e Harry Boot produziram o protótipo funcional desta válvula de micro-ondas?",
+        "resposta": "1940",
+        "distratores": [
+          "1936",
+          "1943",
+          "1946"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. 'De abrir e fechar' ajuda sem entregar a resposta. Os distratores são outros celulares da Motorola e nenhum deles é o modelo mostrado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento, sem vazamento. Os distratores são componentes passivos ou semicondutores do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'inventado em 1952' identifica a resposta sem olhar a foto (o detector clássico da década de 1950), então a figura vira enfeite. Tirar o ano mantém a pergunta de reconhecimento, e a câmara de nuvens passa a ser um distrator real.",
+      "reescrita": {
+        "pergunta": "Que detector de partículas registrou os rastros de bolhas desta foto?",
+        "resposta": "Câmara de bolhas",
+        "distratores": [
+          "Câmara de nuvens",
+          "Câmara de faíscas",
+          "Câmara de ionização"
+        ]
+      }
+    }
+  ]
+}
