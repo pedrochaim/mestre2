@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira da Escócia (cruz de Santo André), nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país do Reino Unido é esta bandeira?",
+      "resposta": "Escócia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Escócia",
+        "descricao": "Bandeira nacional da Escócia, cruz branca em X sobre fundo azul (cruz de Santo André).",
+        "variantes": [
+          "Saltire",
+          "Cruz de Santo André"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira do Havaí, inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado americano é esta bandeira?",
+      "resposta": "Havaí",
+      "distratores": [
+        "Alasca",
+        "Flórida",
+        "Califórnia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Havaí",
+        "descricao": "Bandeira do estado americano do Havaí, com oito listras e a Union Jack no canto.",
+        "variantes": [
+          "Hawaii"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira de Sergipe nítida, sem texto; pergunta sobre a capital vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado brasileiro desta bandeira?",
+      "resposta": "Aracaju",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Sergipe",
+        "descricao": "Bandeira do estado brasileiro de Sergipe, com quatro listras verdes e amarelas e cinco estrelas brancas em campo azul.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira do Texas nítida, sem texto; 'estado' no enunciado evita confusão com o Chile.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que estado americano é esta bandeira?",
+      "resposta": "Texas",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Texas",
+        "descricao": "Bandeira do estado americano do Texas, com uma estrela branca em faixa azul e listras branca e vermelha.",
+        "variantes": [
+          "Lone Star Flag"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira do Espírito Santo; o lema 'Trabalha e confia' não nomeia o estado, e as cores azul, branco e rosa a tornam reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Espírito Santo",
+      "distratores": [
+        "Rio de Janeiro",
+        "Alagoas",
+        "Amapá"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Espírito Santo",
+        "descricao": "Bandeira do estado brasileiro do Espírito Santo, com faixas azul, branca e rosa e o lema Trabalha e Confia.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira da Sicília com a trinácria, nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que ilha italiana é esta bandeira?",
+      "resposta": "Sicília",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Sicília",
+        "descricao": "Bandeira da região italiana da Sicília, amarela e vermelha, com a trinácria (cabeça com três pernas) no centro.",
+        "variantes": [
+          "Trinácria",
+          "Sicilia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira da Bahia nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que estado brasileiro é esta bandeira?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Sergipe",
+        "Piauí",
+        "Alagoas"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira da Bahia",
+        "descricao": "Bandeira do estado brasileiro da Bahia, com triângulo branco em quadrado azul e listras vermelhas e brancas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira da Paraíba; a palavra 'Nego' é só o lema e não entrega o nome do estado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado brasileiro desta bandeira?",
+      "resposta": "João Pessoa",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira da Paraíba",
+        "descricao": "Bandeira do estado brasileiro da Paraíba, dividida em preto e vermelho, com a palavra Nego em branco.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira da Córsega com a cabeça de mouro, nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que ilha francesa é esta bandeira?",
+      "resposta": "Córsega",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Córsega",
+        "descricao": "Bandeira da ilha francesa da Córsega, com a cabeça de mouro de bandana branca sobre fundo branco.",
+        "variantes": [
+          "Cabeça de mouro",
+          "Corse"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira de Pernambuco nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado brasileiro desta bandeira?",
+      "resposta": "Recife",
+      "distratores": [
+        "Olinda",
+        "Maceió",
+        "Natal"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Pernambuco",
+        "descricao": "Bandeira do estado brasileiro de Pernambuco, com arco-íris, sol e estrela sobre azul e uma cruz vermelha sobre branco.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira da Groenlândia nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que território autônomo da Dinamarca é esta bandeira?",
+      "resposta": "Groenlândia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Groenlândia",
+        "descricao": "Bandeira do território autônomo dinamarquês da Groenlândia, branca e vermelha com um círculo bicolor.",
+        "variantes": [
+          "Greenland"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira do Tocantins nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado brasileiro desta bandeira?",
+      "resposta": "Palmas",
+      "distratores": [
+        "Goiânia",
+        "Araguaína",
+        "Cuiabá"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Tocantins",
+        "descricao": "Bandeira do estado brasileiro do Tocantins, com faixas diagonais azul, branca e amarela e um sol amarelo ao centro.",
+        "variantes": []
+      }
+    }
+  ]
+}

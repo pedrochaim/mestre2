@@ -1,0 +1,734 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bandeira da Escócia",
+        "descricao": "Bandeira nacional da Escócia, cruz branca em X sobre fundo azul (cruz de Santo André).",
+        "variantes": [
+          "Escócia",
+          "Saltire",
+          "Cruz de Santo André"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escocia",
+          "nome": "Escócia",
+          "descricao": "País constituinte do Reino Unido, no norte da ilha da Grã-Bretanha, cuja capital é Edimburgo.",
+          "variantes": [
+            "Scotland"
+          ]
+        },
+        {
+          "id": "bandeira_da_escocia",
+          "nome": "Bandeira da Escócia",
+          "descricao": "Bandeira da Escócia, azul com uma cruz branca em forma de X, chamada Saltire.",
+          "variantes": [
+            "Saltire",
+            "Cruz de Santo André"
+          ]
+        },
+        {
+          "id": "bandeira_da_estonia",
+          "nome": "Bandeira da Estônia",
+          "descricao": "Bandeira nacional da Estônia, tricolor horizontal azul, preta e branca.",
+          "variantes": [
+            "Estônia",
+            "Bandeira estoniana"
+          ]
+        },
+        {
+          "id": "bandeira_da_croacia",
+          "nome": "Bandeira da Croácia",
+          "descricao": "Bandeira atual da Croácia: listras vermelha, branca e azul com brasão xadrez vermelho e branco.",
+          "variantes": [
+            "Croácia",
+            "Bandeira croata"
+          ]
+        },
+        {
+          "id": "bandeira_da_grecia",
+          "nome": "Bandeira da Grécia",
+          "descricao": "Bandeira nacional da Grécia, com nove listras azuis e brancas e uma cruz branca no canto azul.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bandeira do Havaí",
+        "descricao": "Bandeira do estado americano do Havaí, com oito listras e a Union Jack no canto.",
+        "variantes": [
+          "Havaí",
+          "Hawaii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arquipelago_do_havai",
+          "nome": "Arquipélago do Havaí",
+          "descricao": "Cadeia de ilhas vulcânicas no centro do oceano Pacífico, que forma um estado dos Estados Unidos.",
+          "variantes": [
+            "Havaí",
+            "Hawaii",
+            "Ilhas Havaianas"
+          ]
+        },
+        {
+          "id": "bandeira_do_havai",
+          "nome": "Bandeira do Havaí",
+          "descricao": "Bandeira do estado americano do Havaí, com oito listras e a bandeira britânica no canto superior.",
+          "variantes": [
+            "Bandeira do Hawaii",
+            "Ka Hae Hawaiʻi"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "bandeira_do_japao",
+          "nome": "Bandeira do Japão",
+          "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+          "variantes": [
+            "Hinomaru",
+            "Nisshōki"
+          ]
+        },
+        {
+          "id": "bandeira_do_gabao",
+          "nome": "Bandeira do Gabão",
+          "descricao": "Bandeira nacional do Gabão, com listras horizontais verde, amarela e azul.",
+          "variantes": [
+            "Gabão",
+            "Bandeira gabonesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandeira de Sergipe",
+        "descricao": "Bandeira do estado brasileiro de Sergipe, com quatro listras verdes e amarelas e cinco estrelas brancas em campo azul.",
+        "variantes": [
+          "Sergipe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sergipe",
+          "nome": "Sergipe",
+          "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+          "variantes": [
+            "Estado de Sergipe",
+            "SE"
+          ]
+        },
+        {
+          "id": "bandeira_do_chipre",
+          "nome": "Bandeira do Chipre",
+          "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+          "variantes": [
+            "Chipre",
+            "Bandeira de Chipre"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        },
+        {
+          "id": "bandeira_da_etiopia",
+          "nome": "Bandeira da Etiópia",
+          "descricao": "Bandeira nacional da Etiópia, tricolor verde, amarela e vermelha com disco azul e estrela amarela.",
+          "variantes": [
+            "Etiópia",
+            "Bandeira etíope"
+          ]
+        },
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira do Texas",
+        "descricao": "Bandeira do estado americano do Texas, com uma estrela branca em faixa azul e listras branca e vermelha.",
+        "variantes": [
+          "Texas",
+          "Lone Star Flag"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_texas",
+          "nome": "Bandeira do Texas",
+          "descricao": "Bandeira do estado americano do Texas, com faixa azul vertical e estrela branca, e faixas branca e vermelha.",
+          "variantes": [
+            "Lone Star Flag"
+          ]
+        },
+        {
+          "id": "bandeira_dos_emirados_arabes_unidos",
+          "nome": "Bandeira dos Emirados Árabes Unidos",
+          "descricao": "Bandeira dos Emirados Árabes Unidos, com faixa vertical vermelha e faixas horizontais verde, branca e preta.",
+          "variantes": [
+            "Emirados Árabes Unidos",
+            "Bandeira dos EAU"
+          ]
+        },
+        {
+          "id": "bandeira_do_sri_lanka",
+          "nome": "Bandeira do Sri Lanka",
+          "descricao": "Bandeira nacional do Sri Lanka, com um leão dourado segurando uma espada sobre fundo vermelho-escuro e faixas verde e laranja.",
+          "variantes": [
+            "Bandeira do Leão"
+          ]
+        },
+        {
+          "id": "bandeira_do_nepal",
+          "nome": "Bandeira do Nepal",
+          "descricao": "Bandeira nacional do Nepal, formada por dois triângulos sobrepostos vermelhos com borda azul, com lua e sol brancos.",
+          "variantes": [
+            "Bandeira nepalesa"
+          ]
+        },
+        {
+          "id": "bandeira_do_catar",
+          "nome": "Bandeira do Catar",
+          "descricao": "Bandeira nacional do Catar, cor de vinho com uma faixa branca serrilhada junto à haste.",
+          "variantes": [
+            "Bandeira do Qatar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bandeira do Espírito Santo",
+        "descricao": "Bandeira do estado brasileiro do Espírito Santo, com faixas azul, branca e rosa e o lema Trabalha e Confia.",
+        "variantes": [
+          "Espírito Santo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espirito_santo",
+          "nome": "Espírito Santo",
+          "descricao": "Estado do Sudeste do Brasil, com capital em Vitória.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_espirito_santo",
+          "nome": "Bandeira do Espírito Santo",
+          "descricao": "Bandeira do estado do Espírito Santo, com faixas azul, branca e rosa e um lema no centro.",
+          "variantes": [
+            "Bandeira capixaba"
+          ]
+        },
+        {
+          "id": "moqueca_capixaba",
+          "nome": "Moqueca capixaba",
+          "descricao": "Versão da moqueca de peixe feita sem dendê nem leite de coco, preparada em panela de barro preta.",
+          "variantes": [
+            "Moqueca do Espírito Santo"
+          ]
+        },
+        {
+          "id": "vitoria",
+          "nome": "Vitória",
+          "descricao": "Capital do estado do Espírito Santo, situada principalmente numa ilha.",
+          "variantes": [
+            "Vitória (Espírito Santo)"
+          ]
+        },
+        {
+          "id": "bandeira_do_sri_lanka",
+          "nome": "Bandeira do Sri Lanka",
+          "descricao": "Bandeira nacional do Sri Lanka, com um leão dourado segurando uma espada sobre fundo vermelho-escuro e faixas verde e laranja.",
+          "variantes": [
+            "Bandeira do Leão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bandeira da Sicília",
+        "descricao": "Bandeira da região italiana da Sicília, amarela e vermelha, com a trinácria (cabeça com três pernas) no centro.",
+        "variantes": [
+          "Sicília",
+          "Trinácria",
+          "Sicilia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sicilia",
+          "nome": "Sicília",
+          "descricao": "Ilha italiana no centro do mar Mediterrâneo, separada da península pelo estreito de Messina.",
+          "variantes": []
+        },
+        {
+          "id": "sicilia_romana",
+          "nome": "Sicília romana",
+          "descricao": "Província romana criada na ilha da Sicília após a Primeira Guerra Púnica.",
+          "variantes": [
+            "Sicilia",
+            "Província da Sicília"
+          ]
+        },
+        {
+          "id": "bandeira_da_suica",
+          "nome": "Bandeira da Suíça",
+          "descricao": "Bandeira nacional da Suíça, vermelha com uma cruz branca no centro.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        },
+        {
+          "id": "bandeira_da_escocia",
+          "nome": "Bandeira da Escócia",
+          "descricao": "Bandeira da Escócia, azul com uma cruz branca em forma de X, chamada Saltire.",
+          "variantes": [
+            "Saltire",
+            "Cruz de Santo André"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira da Bahia",
+        "descricao": "Bandeira do estado brasileiro da Bahia, com triângulo branco em quadrado azul e listras vermelhas e brancas.",
+        "variantes": [
+          "Bahia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bahia",
+          "nome": "Bahia",
+          "descricao": "Estado da Região Nordeste do Brasil, com capital em Salvador.",
+          "variantes": []
+        },
+        {
+          "id": "esporte_clube_bahia",
+          "nome": "Esporte Clube Bahia",
+          "descricao": "Clube de futebol de Salvador, na Bahia, fundado em 1931, de uniforme branco com faixa diagonal azul e vermelha.",
+          "variantes": [
+            "Bahia",
+            "EC Bahia",
+            "Esquadrão de Aço"
+          ]
+        },
+        {
+          "id": "bandeira_da_albania",
+          "nome": "Bandeira da Albânia",
+          "descricao": "Bandeira nacional da Albânia, vermelha com uma águia negra de duas cabeças.",
+          "variantes": [
+            "Bandeira albanesa"
+          ]
+        },
+        {
+          "id": "bandeira_da_libia",
+          "nome": "Bandeira da Líbia",
+          "descricao": "Bandeira nacional da Líbia, com listras vermelha, preta e verde e crescente com estrela brancos.",
+          "variantes": [
+            "Líbia",
+            "Bandeira líbia"
+          ]
+        },
+        {
+          "id": "bandeira_da_bulgaria",
+          "nome": "Bandeira da Bulgária",
+          "descricao": "Bandeira da Bulgária, tricolor horizontal branco, verde e vermelho.",
+          "variantes": [
+            "Bulgária"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bandeira da Paraíba",
+        "descricao": "Bandeira do estado brasileiro da Paraíba, dividida em preto e vermelho, com a palavra Nego em branco.",
+        "variantes": [
+          "Paraíba"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_paraiba",
+          "nome": "Bandeira da Paraíba",
+          "descricao": "Bandeira do estado da Paraíba, vermelha e preta com a palavra Nego em branco.",
+          "variantes": [
+            "Bandeira paraibana"
+          ]
+        },
+        {
+          "id": "paraiba",
+          "nome": "Paraíba",
+          "descricao": "Estado do Nordeste brasileiro, cuja capital é João Pessoa.",
+          "variantes": [
+            "Estado da Paraíba"
+          ]
+        },
+        {
+          "id": "bandeira_do_parana",
+          "nome": "Bandeira do Paraná",
+          "descricao": "Bandeira do estado do Paraná, verde com faixa branca diagonal e uma esfera azul com o Cruzeiro do Sul.",
+          "variantes": [
+            "Bandeira paranaense"
+          ]
+        },
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bandeira da Córsega",
+        "descricao": "Bandeira da ilha francesa da Córsega, com a cabeça de mouro de bandana branca sobre fundo branco.",
+        "variantes": [
+          "Córsega",
+          "Cabeça de mouro",
+          "Corse"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corsega",
+          "nome": "Córsega",
+          "descricao": "Ilha montanhosa do mar Mediterrâneo, ao norte da Sardenha, terra natal de Napoleão Bonaparte.",
+          "variantes": [
+            "Corse",
+            "Corsica"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet",
+            "Corpete"
+          ]
+        },
+        {
+          "id": "bandeira_da_noruega",
+          "nome": "Bandeira da Noruega",
+          "descricao": "Bandeira nacional atual do Reino da Noruega, vermelha com cruz nórdica azul bordada de branco.",
+          "variantes": [
+            "Noruega",
+            "Norges flagg"
+          ]
+        },
+        {
+          "id": "persefone",
+          "nome": "Perséfone",
+          "descricao": "Deusa grega filha de Deméter, raptada por Hades e rainha do mundo dos mortos.",
+          "variantes": [
+            "Persephone",
+            "Prosérpina",
+            "Core"
+          ]
+        },
+        {
+          "id": "cabeca_de_meroe",
+          "nome": "Cabeça de Méroe",
+          "descricao": "Cabeça de bronze de Augusto achada em Méroe, no atual Sudão, hoje no Museu Britânico.",
+          "variantes": [
+            "Cabeça de Augusto de Méroe",
+            "Meroë Head"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Bandeira de Pernambuco",
+        "descricao": "Bandeira do estado brasileiro de Pernambuco, com arco-íris, sol e estrela sobre azul e uma cruz vermelha sobre branco.",
+        "variantes": [
+          "Pernambuco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pau_brasil",
+          "nome": "Pau-brasil",
+          "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+          "variantes": [
+            "Paubrasilia echinata",
+            "Caesalpinia echinata",
+            "ibirapitanga",
+            "pernambuco"
+          ]
+        },
+        {
+          "id": "pernambuco",
+          "nome": "Pernambuco",
+          "descricao": "Estado do Nordeste do Brasil, com capital em Recife.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_pernambuco",
+          "nome": "Bandeira de Pernambuco",
+          "descricao": "Bandeira do estado de Pernambuco, azul e branca com arco-íris, estrela, sol e cruz.",
+          "variantes": [
+            "Bandeira pernambucana"
+          ]
+        },
+        {
+          "id": "bandeira_de_monaco",
+          "nome": "Bandeira de Mônaco",
+          "descricao": "Bandeira nacional do Principado de Mônaco, com duas faixas horizontais, vermelha e branca.",
+          "variantes": [
+            "Flag of Monaco"
+          ]
+        },
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bandeira da Groenlândia",
+        "descricao": "Bandeira do território autônomo dinamarquês da Groenlândia, branca e vermelha com um círculo bicolor.",
+        "variantes": [
+          "Groenlândia",
+          "Greenland"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "groenlandia",
+          "nome": "Groenlândia",
+          "descricao": "A maior ilha do mundo, no Atlântico Norte, coberta em grande parte por uma camada de gelo.",
+          "variantes": [
+            "Greenland",
+            "Kalaallit Nunaat"
+          ]
+        },
+        {
+          "id": "baleia_da_groenlandia",
+          "nome": "Baleia-da-groenlândia",
+          "descricao": "Baleia de barbatanas do Ártico (Balaena mysticetus), de cabeça enorme e sem nadadeira dorsal.",
+          "variantes": [
+            "Baleia-franca-da-groenlândia",
+            "Baleia-boreal",
+            "Balaena mysticetus",
+            "Bowhead whale"
+          ]
+        },
+        {
+          "id": "bandeira_da_finlandia",
+          "nome": "Bandeira da Finlândia",
+          "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+          "variantes": [
+            "Finlândia",
+            "Siniristilippu",
+            "Bandeira finlandesa"
+          ]
+        },
+        {
+          "id": "bandeira_da_irlanda",
+          "nome": "Bandeira da Irlanda",
+          "descricao": "Bandeira nacional da República da Irlanda, tricolor vertical verde, branca e laranja.",
+          "variantes": [
+            "Tricolor irlandesa"
+          ]
+        },
+        {
+          "id": "tubarao_da_groenlandia",
+          "nome": "Tubarão-da-groenlândia",
+          "descricao": "Tubarão lento de águas frias do Atlântico Norte e do Ártico (Somniosus microcephalus), famoso pela longevidade.",
+          "variantes": [
+            "Somniosus microcephalus",
+            "Greenland shark"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Bandeira do Tocantins",
+        "descricao": "Bandeira do estado brasileiro do Tocantins, com faixas diagonais azul, branca e amarela e um sol amarelo ao centro.",
+        "variantes": [
+          "Tocantins"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tocantins",
+          "nome": "Rio Tocantins",
+          "descricao": "Rio brasileiro que nasce em Goiás, atravessa o estado do Tocantins e deságua perto de Belém, no Pará.",
+          "variantes": [
+            "Tocantins",
+            "Tocantins River"
+          ]
+        },
+        {
+          "id": "tocantins",
+          "nome": "Tocantins",
+          "descricao": "Estado da Região Norte do Brasil, criado pela Constituição de 1988, com capital em Palmas.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_texas",
+          "nome": "Bandeira do Texas",
+          "descricao": "Bandeira do estado americano do Texas, com faixa azul vertical e estrela branca, e faixas branca e vermelha.",
+          "variantes": [
+            "Lone Star Flag"
+          ]
+        },
+        {
+          "id": "bandeira_do_catar",
+          "nome": "Bandeira do Catar",
+          "descricao": "Bandeira nacional do Catar, cor de vinho com uma faixa branca serrilhada junto à haste.",
+          "variantes": [
+            "Bandeira do Qatar"
+          ]
+        },
+        {
+          "id": "bandeira_do_vaticano",
+          "nome": "Bandeira do Vaticano",
+          "descricao": "Bandeira da Cidade do Vaticano, com as chaves de São Pedro e a tiara papal sobre faixa branca ao lado de faixa amarela.",
+          "variantes": [
+            "Vaticano",
+            "Bandeira da Cidade do Vaticano"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "bandeira_da_escocia",
+      "motivo": "Mesma bandeira (Saltire)."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "bandeira_do_havai",
+      "motivo": "Mesma bandeira do Havaí."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira de Sergipe; 'Sergipe' é o estado."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "bandeira_do_texas",
+      "motivo": "Mesma bandeira do Texas."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "bandeira_do_espirito_santo",
+      "motivo": "Mesma bandeira capixaba."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Não há bandeira da Sicília entre as candidatas; a ilha e a província romana são outras entidades."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Não há bandeira da Bahia entre as candidatas; o estado e o clube são outras entidades."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "bandeira_da_paraiba",
+      "motivo": "Mesma bandeira da Paraíba."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Não há bandeira da Córsega entre as candidatas; a ilha é outra entidade."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "bandeira_de_pernambuco",
+      "motivo": "Mesma bandeira de Pernambuco."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Não há bandeira da Groenlândia entre as candidatas; a ilha é outra entidade."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Não há bandeira do Tocantins entre as candidatas; o estado e o rio são outras entidades."
+    }
+  ]
+}

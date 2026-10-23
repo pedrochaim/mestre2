@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "De que país do Reino Unido é esta bandeira?",
+        "resposta": "Escócia"
+      },
+      "existentes": [
+        {
+          "id": "q04988",
+          "pergunta": "Segundo a tradição cristã, por que a cruz branca da bandeira da Escócia tem a forma de um X?",
+          "resposta": "Santo André foi crucificado numa cruz assim"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "De que estado americano é esta bandeira?",
+        "resposta": "Havaí"
+      },
+      "existentes": [
+        {
+          "id": "q13267",
+          "pergunta": "Qual estado americano é o único a trazer a bandeira britânica, o Union Jack, na sua própria bandeira?",
+          "resposta": "Havaí"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "De que estado americano é esta bandeira?",
+        "resposta": "Texas"
+      },
+      "existentes": [
+        {
+          "id": "q04992",
+          "pergunta": "Com uma estrela branca sobre azul e faixas branca e vermelha, a bandeira do Texas é muito parecida com a de qual país sul-americano?",
+          "resposta": "Chile"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "De que estado brasileiro é esta bandeira?",
+        "resposta": "Espírito Santo"
+      },
+      "existentes": [
+        {
+          "id": "q04976",
+          "pergunta": "O lema Trabalha e Confia está escrito na bandeira de qual estado brasileiro?",
+          "resposta": "Espírito Santo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual é a capital do estado brasileiro desta bandeira?",
+        "resposta": "João Pessoa"
+      },
+      "existentes": [
+        {
+          "id": "q04962",
+          "pergunta": "A bandeira da Paraíba traz a palavra Nego. Que governante paraibano, assassinado em 1930, teria dito essa recusa?",
+          "resposta": "João Pessoa"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual é a capital do estado brasileiro desta bandeira?",
+        "resposta": "Recife"
+      },
+      "existentes": [
+        {
+          "id": "q04963",
+          "pergunta": "A bandeira de Pernambuco se inspira na dos revolucionários que se rebelaram contra a Coroa portuguesa em que ano?",
+          "resposta": "1817"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira da Escócia é diferente do motivo do formato da cruz."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira pela imagem não é o mesmo fato que saber qual estado traz o Union Jack; na dúvida, nova."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira do Texas difere da semelhança com a bandeira do Chile."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Reconhecer a bandeira pela imagem difere de saber o lema escrito nela."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Capital da Paraíba é um fato diferente de quem disse Nego."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Capital de Pernambuco é diferente do ano da revolução."
+    }
+  ]
+}
