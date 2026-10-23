@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'dois dançarinos por fantasia' quase entrega a resposta sem a figura (o dragão tem muitos dançarinos) e 'dançarinos' repete a palavra 'dança'. Também não está nos trechos. Troquei por uma pista neutra.",
+      "reescrita": {
+        "pergunta": "Que dança tradicional chinesa, comum em festas de Ano Novo, é esta?",
+        "resposta": "Dança do leão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Camisa bordada e translúcida' descreve a peça e permite responder sem a figura. Troquei por uma pista de região que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Em que país do Sudeste Asiático esta peça de roupa masculina é traje nacional?",
+        "resposta": "Filipinas",
+        "distratores": [
+          "Malásia",
+          "Vietnã",
+          "Tailândia"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Criatura longa erguida em varas' descreve a dança e entrega a resposta com a imagem coberta. Troquei por uma pista neutra.",
+      "reescrita": {
+        "pergunta": "Que dança tradicional chinesa, feita em festas e celebrações, é esta?",
+        "resposta": "Dança do dragão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição 'cestas com velas na água' entrega a festa. Além disso, festas parecidas existem em países vizinhos, então a pergunta pelo país onde 'se faz' não tem resposta única. Reescrevi para a origem, que o trecho em português situa em Sucotai, na Tailândia. O Japão saiu dos distratores por não ser do Sudeste Asiático.",
+      "reescrita": {
+        "pergunta": "Em que país do Sudeste Asiático surgiu esta festa de lua cheia?",
+        "resposta": "Tailândia",
+        "distratores": [
+          "Camboja",
+          "Vietnã",
+          "Indonésia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é curta e a pista 'escandinavo' ajuda sem entregar. A resposta é única diante da imagem e os trechos a sustentam.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é neutro e os distratores são danças do Pacífico críveis, nenhuma delas correta. Os trechos sustentam a resposta e a diferença entre as danças.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Muitas cidades espanholas têm procissões de Semana Santa, então a pergunta aberta não tem resposta única nem é justa. Passei para múltipla escolha com cidades da Andaluzia e dei a pista 'pasos'.",
+      "reescrita": {
+        "pergunta": "Em que cidade espanhola acontece esta procissão de pasos da Semana Santa?",
+        "resposta": "Sevilha",
+        "distratores": [
+          "Málaga",
+          "Granada",
+          "Córdoba"
+        ]
+      }
+    }
+  ]
+}

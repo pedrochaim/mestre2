@@ -1,0 +1,410 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dança do leão",
+        "descricao": "Dança tradicional chinesa em que dançarinos imitam um leão dentro de uma fantasia, para dar sorte e afastar o mal.",
+        "variantes": [
+          "Lion dance",
+          "Wushi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+          "variantes": [
+            "Samurais",
+            "Bushi"
+          ]
+        },
+        {
+          "id": "wushu",
+          "nome": "Wushu",
+          "descricao": "Arte marcial chinesa, praticada em formas (taolu) e como esporte de combate (sanda), também chamada de kung fu.",
+          "variantes": [
+            "Kung fu",
+            "Kungfu",
+            "Wu shu"
+          ]
+        },
+        {
+          "id": "homem_leao_de_hohlenstein_stadel",
+          "nome": "Homem-Leão de Hohlenstein-Stadel",
+          "descricao": "Estatueta paleolítica com corpo humano e cabeça de leão, achada numa caverna alemã.",
+          "variantes": [
+            "Löwenmensch",
+            "Homem-Leão",
+            "Lion-man"
+          ]
+        },
+        {
+          "id": "danca_das_abelhas",
+          "nome": "Dança das abelhas",
+          "descricao": "Dança do requebrado com que as abelhas operárias indicam às companheiras a direção e a distância de fontes de alimento.",
+          "variantes": [
+            "waggle dance",
+            "dança do requebrado",
+            "dança do oito"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Barong tagalog",
+        "descricao": "Camisa formal masculina bordada e translúcida, traje nacional das Filipinas.",
+        "variantes": [
+          "Barong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aron",
+          "nome": "Aron",
+          "descricao": "Pokémon do tipo Aço/Pedra da terceira geração, número 304 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "argonio",
+          "nome": "Argônio",
+          "descricao": "Elemento químico gasoso de número atômico 18, um gás nobre que forma cerca de um por cento do ar.",
+          "variantes": [
+            "Árgon",
+            "Argon"
+          ]
+        },
+        {
+          "id": "bongo",
+          "nome": "Bongo",
+          "descricao": "Grande antílope de floresta, Tragelaphus eurycerus, de pelagem avermelhada com listras brancas.",
+          "variantes": [
+            "Tragelaphus eurycerus"
+          ]
+        },
+        {
+          "id": "lord_byron",
+          "nome": "Lord Byron",
+          "descricao": "Poeta romântico inglês (1788–1824), autor de Don Juan e A Peregrinação de Childe Harold.",
+          "variantes": [
+            "George Gordon Byron",
+            "Byron"
+          ]
+        },
+        {
+          "id": "bagon",
+          "nome": "Bagon",
+          "descricao": "Pokémon do tipo Dragão, número 371 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Dança do dragão",
+        "descricao": "Dança tradicional chinesa em que uma equipe manipula com varas um longo dragão de pano.",
+        "variantes": [
+          "Dragon dance"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caverna_do_dragao",
+          "nome": "Caverna do Dragão",
+          "descricao": "Desenho animado americano de 1983, baseado em Dungeons & Dragons, sobre jovens presos num mundo de fantasia.",
+          "variantes": [
+            "Dungeons & Dragons (série animada)"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon",
+            "A Fúria do Dragão"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "danca_das_abelhas",
+          "nome": "Dança das abelhas",
+          "descricao": "Dança do requebrado com que as abelhas operárias indicam às companheiras a direção e a distância de fontes de alimento.",
+          "variantes": [
+            "waggle dance",
+            "dança do requebrado",
+            "dança do oito"
+          ]
+        },
+        {
+          "id": "duran_duran",
+          "nome": "Duran Duran",
+          "descricao": "Banda britânica de new wave formada em Birmingham em 1978",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Loy Krathong",
+        "descricao": "Festival tailandês em que se soltam krathongs, cestas decoradas com velas, em rios e lagos.",
+        "variantes": [
+          "Loi Krathong"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "louis_armstrong",
+          "nome": "Louis Armstrong",
+          "descricao": "Músico e cantor americano de jazz, nascido em Nova Orleans, intérprete de What a Wonderful World",
+          "variantes": [
+            "Satchmo"
+          ]
+        },
+        {
+          "id": "donkey_kong_jogo_de_1981",
+          "nome": "Donkey Kong (jogo de 1981)",
+          "descricao": "Fliperama da Nintendo de 1981 em que um gorila sequestra uma moça e marca a estreia de Mario.",
+          "variantes": [
+            "Donkey Kong"
+          ]
+        },
+        {
+          "id": "lago_natron",
+          "nome": "Lago Natron",
+          "descricao": "Lago salgado e muito alcalino no norte da Tanzânia, local de reprodução de flamingos-pequenos.",
+          "variantes": [
+            "Lake Natron"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "maratona_grecia",
+          "nome": "Maratona (Grécia)",
+          "descricao": "Cidade e planície da Ática, na Grécia, onde os atenienses venceram os persas em 490 a.C.",
+          "variantes": [
+            "Marathon",
+            "Marathonas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bunad",
+        "descricao": "Traje tradicional norueguês, com blusa bordada, colete, cinto e broches de prata.",
+        "variantes": [
+          "Bunader"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cerimonia_do_cafe_etiope",
+          "nome": "Cerimônia do café etíope",
+          "descricao": "Ritual de hospitalidade da Etiópia e da Eritreia em que o café é torrado, moído e servido diante dos convidados.",
+          "variantes": [
+            "Coffee ceremony",
+            "Buna"
+          ]
+        },
+        {
+          "id": "balder",
+          "nome": "Balder",
+          "descricao": "Deus nórdico da luz e da beleza, filho de Odin e Frigg, morto por artimanha de Loki.",
+          "variantes": [
+            "Baldr",
+            "Baldur"
+          ]
+        },
+        {
+          "id": "boiuna",
+          "nome": "Boiuna",
+          "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+          "variantes": [
+            "Cobra Grande"
+          ]
+        },
+        {
+          "id": "trovao",
+          "nome": "Trovão",
+          "descricao": "Som produzido por um raio durante uma tempestade.",
+          "variantes": [
+            "Thunder"
+          ]
+        },
+        {
+          "id": "buneary",
+          "nome": "Buneary",
+          "descricao": "Pokémon do tipo Normal, número 427 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Hula",
+        "descricao": "Dança tradicional havaiana que expressa canções, com gestos de mãos e adornos de folhas e flores.",
+        "variantes": [
+          "Dança havaiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carvao_mineral",
+          "nome": "Carvão mineral",
+          "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+          "variantes": [
+            "Hulha",
+            "Coal",
+            "Carvão"
+          ]
+        },
+        {
+          "id": "hulk",
+          "nome": "Hulk",
+          "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962",
+          "variantes": [
+            "Incrível Hulk",
+            "Bruce Banner"
+          ]
+        },
+        {
+          "id": "lula",
+          "nome": "Lula",
+          "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+          "variantes": [
+            "Squid",
+            "Calamar"
+          ]
+        },
+        {
+          "id": "celulas_hela",
+          "nome": "Células HeLa",
+          "descricao": "Linhagem de células humanas cultivadas continuamente desde 1951, retiradas de um tumor de Henrietta Lacks.",
+          "variantes": [
+            "HeLa"
+          ]
+        },
+        {
+          "id": "mula",
+          "nome": "Mula",
+          "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+          "variantes": [
+            "Mulo",
+            "Mule"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Semana Santa de Sevilha",
+        "descricao": "Festa religiosa de procissões de pasos na semana anterior à Páscoa, em Sevilha, Espanha.",
+        "variantes": [
+          "Semana Santa de Sevilla",
+          "Holy Week in Seville"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "segunda_batalha_de_el_alamein",
+          "nome": "Segunda Batalha de El Alamein",
+          "descricao": "Batalha de outubro e novembro de 1942 em que os britânicos derrotaram as forças de Rommel no norte da África.",
+          "variantes": [
+            "El Alamein",
+            "Second Battle of El Alamein"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine",
+            "Grande Santuário de Ise"
+          ]
+        },
+        {
+          "id": "massacre_de_sharpeville",
+          "nome": "Massacre de Sharpeville",
+          "descricao": "Ataque da polícia sul-africana contra manifestantes negros em Sharpeville, em 21 de março de 1960.",
+          "variantes": [
+            "Sharpeville massacre"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Dança do leão chinesa não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Traje filipino; candidatas são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dança do dragão chinesa é distinta das candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Festival tailandês, sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Traje norueguês, sem candidata equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Dança havaiana, candidatas são entidades não relacionadas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Festa religiosa de Sevilha, nenhuma candidata corresponde."
+    }
+  ]
+}

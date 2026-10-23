@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Dois leões de dança bem visíveis em evento público; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que apresentação tradicional chinesa, com dois dançarinos por fantasia, é esta?",
+      "resposta": "Dança do leão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Dança do leão",
+        "descricao": "Dança tradicional chinesa em que dançarinos imitam um leão dentro de uma fantasia, para dar sorte e afastar o mal.",
+        "variantes": [
+          "Lion dance",
+          "Wushi"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Lanternas pintadas à mão sem contexto claro; não dá para saber se é o Festival das Lanternas ou outro evento, e o país não é inequívoco."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Camisa bordada translúcida em exposição, sem texto; peça característica.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país esta camisa bordada e translúcida é traje nacional masculino?",
+      "resposta": "Filipinas",
+      "distratores": [
+        "Malásia",
+        "Vietnã",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Barong tagalog",
+        "descricao": "Camisa formal masculina bordada e translúcida, traje nacional das Filipinas.",
+        "variantes": [
+          "Barong"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cabeça de dragão de desfile em close, sem texto; reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tradição chinesa de festas, com uma criatura longa erguida em varas, é esta?",
+      "resposta": "Dança do dragão",
+      "distratores": [],
+      "ancora": {
+        "nome": "Dança do dragão",
+        "descricao": "Dança tradicional chinesa em que uma equipe manipula com varas um longo dragão de pano.",
+        "variantes": [
+          "Dragon dance"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cesta de flores com vela sendo posta na água à noite; participantes de festa pública.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país se faz esta festa, soltando cestas decoradas com velas na água?",
+      "resposta": "Tailândia",
+      "distratores": [
+        "Camboja",
+        "Vietnã",
+        "Japão"
+      ],
+      "ancora": {
+        "nome": "Loy Krathong",
+        "descricao": "Festival tailandês em que se soltam krathongs, cestas decoradas com velas, em rios e lagos.",
+        "variantes": [
+          "Loi Krathong"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Traje bordado com broches de prata em manequim, sem texto; característico.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que traje tradicional escandinavo é este?",
+      "resposta": "Bunad",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bunad",
+        "descricao": "Traje tradicional norueguês, com blusa bordada, colete, cinto e broches de prata.",
+        "variantes": [
+          "Bunader"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Dançarina com lei e gesto característico em apresentação pública.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dança tradicional do Pacífico é esta?",
+      "resposta": "Hula",
+      "distratores": [
+        "Haka",
+        "Tamure",
+        "Siva samoana"
+      ],
+      "ancora": {
+        "nome": "Hula",
+        "descricao": "Dança tradicional havaiana que expressa canções, com gestos de mãos e adornos de folhas e flores.",
+        "variantes": [
+          "Dança havaiana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Pessoa comum posando em primeiro plano, fora de festa pública."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cena com fogueiras num porto do Japão; não identifica o Obon de forma única e mostra pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É uma ilustração vetorial de rosto sem feições, e o hijab poderia ser fotografado; não serve como figura."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Procissão à noite com a Giralda visível; reconhecível o local e a festa.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade espanhola acontece esta procissão da Semana Santa?",
+      "resposta": "Sevilha",
+      "distratores": [],
+      "ancora": {
+        "nome": "Semana Santa de Sevilha",
+        "descricao": "Festa religiosa de procissões de pasos na semana anterior à Páscoa, em Sevilha, Espanha.",
+        "variantes": [
+          "Semana Santa de Sevilla",
+          "Holy Week in Seville"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem minúscula, de baixa resolução e sem cabeça, ilegível num celular."
+    }
+  ]
+}
