@@ -277895,5 +277895,250 @@
       "licenca": "Public domain"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q14803",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_da_republica_democratica_do_congo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "República Democrática do Congo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+      "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_do_Congo"
+    ],
+    "imagem": {
+      "arquivo": "q14803.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+      "autor": "Nightstallion",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14804",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_burundi",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Burundi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Burundi",
+      "https://pt.wikipedia.org/wiki/Burundi"
+    ],
+    "imagem": {
+      "arquivo": "q14804.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi.svg",
+      "autor": "See File history below for details.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14805",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_andorra",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Andorra",
+    "distratores": [
+      "Moldávia",
+      "Romênia",
+      "Chade"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Andorra",
+      "https://pt.wikipedia.org/wiki/Andorra"
+    ],
+    "imagem": {
+      "arquivo": "q14805.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Andorra.svg",
+      "autor": "Original: Napoleon III Vector: HansenBCN",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14806",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_madagascar",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Madagascar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Madagascar",
+      "https://pt.wikipedia.org/wiki/Madag%C3%A1scar"
+    ],
+    "imagem": {
+      "arquivo": "q14806.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Madagascar.svg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14807",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_niger",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Níger",
+    "distratores": [
+      "Costa do Marfim",
+      "Índia",
+      "Irlanda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Niger",
+      "https://pt.wikipedia.org/wiki/N%C3%ADger"
+    ],
+    "imagem": {
+      "arquivo": "q14807.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Niger.svg",
+      "autor": "Made by: Philippe Verdy User:verdy_p, see also fr:Utilisateur:verdy_p.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14808",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_sao_vicente_e_granadinas",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital do país desta bandeira?",
+    "resposta": "Kingstown",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
+      "https://pt.wikipedia.org/wiki/S%C3%A3o_Vicente_e_Granadinas"
+    ],
+    "imagem": {
+      "arquivo": "q14808.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg",
+      "autor": "SKopp (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14809",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_do_mali",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Mali",
+    "distratores": [
+      "Guiné",
+      "Senegal",
+      "Camarões"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mali",
+      "https://pt.wikipedia.org/wiki/Mali"
+    ],
+    "imagem": {
+      "arquivo": "q14809.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
+      "autor": "SKopp",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14810",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_da_eritreia",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Eritreia",
+    "distratores": [
+      "Djibuti",
+      "Etiópia",
+      "Sudão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eritrea",
+      "https://pt.wikipedia.org/wiki/Eritreia"
+    ],
+    "imagem": {
+      "arquivo": "q14810.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea.svg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14811",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_luxemburgo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Luxemburgo",
+    "distratores": [
+      "Países Baixos",
+      "Rússia",
+      "Croácia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Luxembourg",
+      "https://pt.wikipedia.org/wiki/Luxemburgo"
+    ],
+    "imagem": {
+      "arquivo": "q14811.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Luxembourg.svg",
+      "autor": "Drawn by User:SKopp",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14812",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_das_maldivas",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital do país desta bandeira?",
+    "resposta": "Malé",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maldives",
+      "https://pt.wikipedia.org/wiki/Maldivas"
+    ],
+    "imagem": {
+      "arquivo": "q14812.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg",
+      "autor": "See File history, below, for details.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q14813",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "bandeira_de_vanuatu",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que oceano fica o país desta bandeira?",
+    "resposta": "Oceano Pacífico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vanuatu",
+      "https://pt.wikipedia.org/wiki/Vanuatu"
+    ],
+    "imagem": {
+      "arquivo": "q14813.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg",
+      "autor": "Kalontas Mahlon",
+      "licenca": "Public domain"
+    }
   }
 ]

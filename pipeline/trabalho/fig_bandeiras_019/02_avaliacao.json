@@ -1,0 +1,226 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível pela faixa diagonal e pela estrela.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "República Democrática do Congo",
+      "ancora": {
+        "nome": "Bandeira da República Democrática do Congo",
+        "descricao": "Bandeira atual da República Democrática do Congo: campo azul-celeste com faixa diagonal vermelha de bordas amarelas e uma estrela amarela.",
+        "variantes": [
+          "Bandeira do Congo-Kinshasa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, com o aspa branca e as três estrelas características.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Burundi",
+      "ancora": {
+        "nome": "Bandeira do Burundi",
+        "descricao": "Bandeira atual do Burundi: aspa branca dividindo o campo em quatro, verde e vermelho, com um círculo branco e três estrelas de seis pontas.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira clara; o lema latino do brasão não nomeia o país. Parecida com a da Moldávia, o que justifica a múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Andorra",
+      "distratores": [
+        "Moldávia",
+        "Romênia",
+        "Chade"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Andorra",
+        "descricao": "Bandeira atual de Andorra: tricolor vertical azul, amarelo e vermelho, com o brasão do principado no centro.",
+        "variantes": [
+          "Bandeira do Principado de Andorra"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, de composição única (branco à esquerda, vermelho e verde à direita).",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Madagascar",
+      "ancora": {
+        "nome": "Bandeira de Madagascar",
+        "descricao": "Bandeira atual de Madagascar: faixa vertical branca à esquerda e duas faixas horizontais, vermelha e verde, à direita.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e sem texto; confundível com as de Índia, Costa do Marfim e Irlanda, o que serve à múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Níger",
+      "distratores": [
+        "Costa do Marfim",
+        "Índia",
+        "Irlanda"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Níger",
+        "descricao": "Bandeira atual do Níger: faixas horizontais laranja, branca e verde, com um círculo laranja no centro da faixa branca.",
+        "variantes": [
+          "Bandeira da República do Níger"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e sem texto, com os três losangos verdes característicos. Segundo passo: a capital.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Kingstown",
+      "ancora": {
+        "nome": "Bandeira de São Vicente e Granadinas",
+        "descricao": "Bandeira atual de São Vicente e Granadinas: tricolor vertical azul, amarelo e verde, com três losangos verdes em V no centro.",
+        "variantes": [
+          "Bandeira de São Vicente"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A imagem é só a inscrição em árabe sobre fundo branco. Pouca gente reconhece, e o texto escrito é parecido com o de outras bandeiras islâmicas. Não é reconhecível pela imagem nem tem resposta clara para um respondente comum."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tricolor vertical verde, amarelo e vermelho, sem texto. Parecida com as de Guiné e Senegal, o que justifica a múltipla escolha.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Mali",
+      "distratores": [
+        "Guiné",
+        "Senegal",
+        "Camarões"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Mali",
+        "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+        "variantes": [
+          "Bandeira da República do Mali"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e sem texto, com o triângulo vermelho e o ramo de oliveira. Camada de aficionado, então múltipla escolha com países vizinhos.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Eritreia",
+      "distratores": [
+        "Djibuti",
+        "Etiópia",
+        "Sudão"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Eritreia",
+        "descricao": "Bandeira atual da Eritreia: triângulo vermelho com uma coroa de louros e um ramo de oliveira amarelos, entre faixas verde e azul.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal nítido e sem texto; é parecida com a dos Países Baixos, então múltipla escolha. O azul-claro é o que distingue.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Luxemburgo",
+      "distratores": [
+        "Países Baixos",
+        "Rússia",
+        "Croácia"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Luxemburgo",
+        "descricao": "Bandeira atual de Luxemburgo: faixas horizontais vermelha, branca e azul-celeste.",
+        "variantes": [
+          "Bandeira do Grão-Ducado de Luxemburgo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e sem texto, com o crescente branco no retângulo verde. Segundo passo: a capital.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Malé",
+      "ancora": {
+        "nome": "Bandeira das Maldivas",
+        "descricao": "Bandeira atual das Maldivas: campo vermelho com um retângulo verde central que traz um crescente branco.",
+        "variantes": [
+          "Bandeira da República das Maldivas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, de desenho inconfundível (Y deitado, presa de javali e ramos).",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que oceano fica o país desta bandeira?",
+      "resposta": "Oceano Pacífico",
+      "ancora": {
+        "nome": "Bandeira de Vanuatu",
+        "descricao": "Bandeira atual de Vanuatu: faixas vermelha e verde com um Y deitado preto e amarelo e uma presa de javali com ramos no triângulo preto.",
+        "variantes": [
+          "Bandeira da República de Vanuatu"
+        ]
+      }
+    }
+  ]
+}

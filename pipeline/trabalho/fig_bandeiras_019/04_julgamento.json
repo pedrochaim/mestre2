@@ -1,0 +1,678 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bandeira da República Democrática do Congo",
+        "descricao": "Bandeira atual da República Democrática do Congo: campo azul-celeste com faixa diagonal vermelha de bordas amarelas e uma estrela amarela.",
+        "variantes": [
+          "República Democrática do Congo",
+          "Bandeira do Congo-Kinshasa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "republica_democratica_do_congo",
+          "nome": "República Democrática do Congo",
+          "descricao": "País da África Central, antigo Zaire, cuja capital é Kinshasa.",
+          "variantes": [
+            "RD Congo",
+            "Congo-Kinshasa",
+            "Zaire",
+            "RDC"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_do_congo",
+          "nome": "Bandeira da República do Congo",
+          "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+          "variantes": [
+            "República do Congo",
+            "Bandeira do Congo-Brazzaville"
+          ]
+        },
+        {
+          "id": "laos",
+          "nome": "Laos",
+          "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+          "variantes": [
+            "República Democrática Popular do Laos"
+          ]
+        },
+        {
+          "id": "nepal",
+          "nome": "Nepal",
+          "descricao": "País sem litoral do sul da Ásia, entre a China e a Índia, com capital em Katmandu e o Monte Everest.",
+          "variantes": [
+            "República Democrática Federal do Nepal"
+          ]
+        },
+        {
+          "id": "bandeira_de_taiwan",
+          "nome": "Bandeira de Taiwan",
+          "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+          "variantes": [
+            "Taiwan",
+            "Bandeira da República da China"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bandeira do Burundi",
+        "descricao": "Bandeira atual do Burundi: aspa branca dividindo o campo em quatro, verde e vermelho, com um círculo branco e três estrelas de seis pontas.",
+        "variantes": [
+          "Burundi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        },
+        {
+          "id": "bandeira_de_ruanda",
+          "nome": "Bandeira de Ruanda",
+          "descricao": "Bandeira nacional de Ruanda, com faixas azul, amarela e verde e um sol dourado no canto superior.",
+          "variantes": [
+            "Ruanda",
+            "Bandeira do Ruanda"
+          ]
+        },
+        {
+          "id": "bandeira_do_uruguai",
+          "nome": "Bandeira do Uruguai",
+          "descricao": "Bandeira nacional do Uruguai, com listras horizontais brancas e azuis e o Sol de Maio num cantão branco.",
+          "variantes": [
+            "Pabellón Patrio"
+          ]
+        },
+        {
+          "id": "bandeira_do_benin",
+          "nome": "Bandeira do Benin",
+          "descricao": "Bandeira nacional do Benin, com faixa vertical verde à esquerda e faixas amarela e vermelha à direita.",
+          "variantes": [
+            "Benin",
+            "Bandeira do Benim"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde",
+            "Bandeira Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandeira de Andorra",
+        "descricao": "Bandeira atual de Andorra: tricolor vertical azul, amarelo e vermelho, com o brasão do principado no centro.",
+        "variantes": [
+          "Andorra",
+          "Bandeira do Principado de Andorra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "andorra",
+          "nome": "Andorra",
+          "descricao": "Pequeno principado sem litoral nos Pireneus, entre a Espanha e a França, com capital em Andorra-a-Velha.",
+          "variantes": [
+            "Principado de Andorra"
+          ]
+        },
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_de_ruanda",
+          "nome": "Bandeira de Ruanda",
+          "descricao": "Bandeira nacional de Ruanda, com faixas azul, amarela e verde e um sol dourado no canto superior.",
+          "variantes": [
+            "Ruanda",
+            "Bandeira do Ruanda"
+          ]
+        },
+        {
+          "id": "pandora",
+          "nome": "Pandora",
+          "descricao": "Primeira mulher da mitologia grega, segundo Hesíodo, que libertou os males no mundo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Bandeira de Madagascar",
+        "descricao": "Bandeira atual de Madagascar: faixa vertical branca à esquerda e duas faixas horizontais, vermelha e verde, à direita.",
+        "variantes": [
+          "Madagascar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madagascar",
+          "nome": "Madagascar",
+          "descricao": "País insular do Oceano Índico, a sudeste da África, com capital em Antananarivo.",
+          "variantes": [
+            "República de Madagascar"
+          ]
+        },
+        {
+          "id": "bandeira_do_alasca",
+          "nome": "Bandeira do Alasca",
+          "descricao": "Bandeira do estado americano do Alasca, com oito estrelas douradas sobre fundo azul-marinho.",
+          "variantes": [
+            "Alasca",
+            "Alaska"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        },
+        {
+          "id": "bandeira_de_goias",
+          "nome": "Bandeira de Goiás",
+          "descricao": "Bandeira do estado brasileiro de Goiás, com faixas verdes e amarelas e canto azul com cinco estrelas.",
+          "variantes": [
+            "Goiás",
+            "Bandeira do estado de Goiás"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bandeira do Níger",
+        "descricao": "Bandeira atual do Níger: faixas horizontais laranja, branca e verde, com um círculo laranja no centro da faixa branca.",
+        "variantes": [
+          "Níger",
+          "Bandeira da República do Níger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_republica_do_congo",
+          "nome": "Bandeira da República do Congo",
+          "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+          "variantes": [
+            "República do Congo",
+            "Bandeira do Congo-Brazzaville"
+          ]
+        },
+        {
+          "id": "bandeira_do_ira",
+          "nome": "Bandeira do Irã",
+          "descricao": "Bandeira nacional do Irã, tricolor verde, branca e vermelha com emblema vermelho e inscrições nas bordas das faixas.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "nigeria",
+          "nome": "Nigéria",
+          "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_de_taiwan",
+          "nome": "Bandeira de Taiwan",
+          "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+          "variantes": [
+            "Taiwan",
+            "Bandeira da República da China"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bandeira de São Vicente e Granadinas",
+        "descricao": "Bandeira atual de São Vicente e Granadinas: tricolor vertical azul, amarelo e verde, com três losangos verdes em V no centro.",
+        "variantes": [
+          "São Vicente e Granadinas",
+          "Bandeira de São Vicente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_vicente",
+          "nome": "São Vicente",
+          "descricao": "Cidade do litoral do estado de São Paulo, fundada por Martim Afonso de Sousa em 1532.",
+          "variantes": [
+            "São Vicente (São Paulo)",
+            "Vila de São Vicente"
+          ]
+        },
+        {
+          "id": "bandeira_de_cabo_verde",
+          "nome": "Bandeira de Cabo Verde",
+          "descricao": "Bandeira nacional de Cabo Verde, azul com faixas branca e vermelha e um círculo de dez estrelas amarelas.",
+          "variantes": [
+            "Cabo Verde",
+            "Bandeira cabo-verdiana"
+          ]
+        },
+        {
+          "id": "bandeira_de_liechtenstein",
+          "nome": "Bandeira de Liechtenstein",
+          "descricao": "Bandeira nacional de Liechtenstein, azul e vermelha com uma coroa dourada no canto.",
+          "variantes": [
+            "Liechtenstein",
+            "Bandeira liechtensteinense"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bandeira do Mali",
+        "descricao": "Bandeira atual do Mali: tricolor vertical verde, amarelo e vermelho, sem emblemas.",
+        "variantes": [
+          "Mali",
+          "Bandeira da República do Mali"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "bandeira_do_nepal",
+          "nome": "Bandeira do Nepal",
+          "descricao": "Bandeira nacional do Nepal, formada por dois triângulos sobrepostos vermelhos com borda azul, com lua e sol brancos.",
+          "variantes": [
+            "Bandeira nepalesa"
+          ]
+        },
+        {
+          "id": "bandeira_de_malta",
+          "nome": "Bandeira de Malta",
+          "descricao": "Bandeira nacional de Malta, metade branca e metade vermelha, com a Cruz de São Jorge no canto.",
+          "variantes": [
+            "Malta",
+            "Bandeira maltesa"
+          ]
+        },
+        {
+          "id": "bandeira_do_havai",
+          "nome": "Bandeira do Havaí",
+          "descricao": "Bandeira do estado americano do Havaí, com oito listras e a bandeira britânica no canto superior.",
+          "variantes": [
+            "Bandeira do Hawaii",
+            "Ka Hae Hawaiʻi"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_do_congo",
+          "nome": "Bandeira da República do Congo",
+          "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+          "variantes": [
+            "República do Congo",
+            "Bandeira do Congo-Brazzaville"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bandeira da Eritreia",
+        "descricao": "Bandeira atual da Eritreia: triângulo vermelho com uma coroa de louros e um ramo de oliveira amarelos, entre faixas verde e azul.",
+        "variantes": [
+          "Eritreia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eritreia",
+          "nome": "Eritreia",
+          "descricao": "País do Chifre da África, na costa do Mar Vermelho, com capital em Asmara.",
+          "variantes": [
+            "Estado da Eritreia"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        },
+        {
+          "id": "bandeira_da_grecia",
+          "nome": "Bandeira da Grécia",
+          "descricao": "Bandeira nacional da Grécia, com nove listras azuis e brancas e uma cruz branca no canto azul.",
+          "variantes": []
+        },
+        {
+          "id": "bandeira_da_liberia",
+          "nome": "Bandeira da Libéria",
+          "descricao": "Bandeira nacional da Libéria, com onze listras vermelhas e brancas e uma estrela branca num quadrado azul.",
+          "variantes": [
+            "Bandeira liberiana"
+          ]
+        },
+        {
+          "id": "bandeira_da_estonia",
+          "nome": "Bandeira da Estônia",
+          "descricao": "Bandeira nacional da Estônia, tricolor horizontal azul, preta e branca.",
+          "variantes": [
+            "Estônia",
+            "Bandeira estoniana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bandeira de Luxemburgo",
+        "descricao": "Bandeira atual de Luxemburgo: faixas horizontais vermelha, branca e azul-celeste.",
+        "variantes": [
+          "Luxemburgo",
+          "Bandeira do Grão-Ducado de Luxemburgo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luxemburgo",
+          "nome": "Luxemburgo",
+          "descricao": "Grão-ducado sem litoral da Europa Ocidental, entre Bélgica, França e Alemanha, com capital de mesmo nome.",
+          "variantes": [
+            "Luxembourg",
+            "Grão-Ducado do Luxemburgo"
+          ]
+        },
+        {
+          "id": "bandeira_de_pernambuco",
+          "nome": "Bandeira de Pernambuco",
+          "descricao": "Bandeira do estado de Pernambuco, azul e branca com arco-íris, estrela, sol e cruz.",
+          "variantes": [
+            "Bandeira pernambucana"
+          ]
+        },
+        {
+          "id": "edimburgo",
+          "nome": "Edimburgo",
+          "descricao": "Capital da Escócia, com castelo sobre uma rocha vulcânica.",
+          "variantes": [
+            "Edinburgh"
+          ]
+        },
+        {
+          "id": "bandeira_do_sri_lanka",
+          "nome": "Bandeira do Sri Lanka",
+          "descricao": "Bandeira nacional do Sri Lanka, com um leão dourado segurando uma espada sobre fundo vermelho-escuro e faixas verde e laranja.",
+          "variantes": [
+            "Bandeira do Leão"
+          ]
+        },
+        {
+          "id": "bandeira_de_sergipe",
+          "nome": "Bandeira de Sergipe",
+          "descricao": "Bandeira do estado brasileiro de Sergipe, com quatro listras verdes e amarelas e cinco estrelas brancas em campo azul.",
+          "variantes": [
+            "Sergipe"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Bandeira das Maldivas",
+        "descricao": "Bandeira atual das Maldivas: campo vermelho com um retângulo verde central que traz um crescente branco.",
+        "variantes": [
+          "Maldivas",
+          "Bandeira da República das Maldivas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maldivas",
+          "nome": "Maldivas",
+          "descricao": "País insular do Oceano Índico, formado por atóis a sudoeste da Índia, com capital em Malé.",
+          "variantes": [
+            "Maldives",
+            "República das Maldivas"
+          ]
+        },
+        {
+          "id": "bandeira_da_moldavia",
+          "nome": "Bandeira da Moldávia",
+          "descricao": "Bandeira nacional atual da Moldávia, com três faixas verticais azul, amarela e vermelha e o brasão com a cabeça de auroque.",
+          "variantes": [
+            "Moldávia",
+            "Bandeira da Moldova"
+          ]
+        },
+        {
+          "id": "bandeira_da_malasia",
+          "nome": "Bandeira da Malásia",
+          "descricao": "Bandeira nacional da Malásia, com listras vermelhas e brancas e um crescente com estrela amarela num cantão azul.",
+          "variantes": [
+            "Malásia",
+            "Jalur Gemilang",
+            "Bandeira malaia"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        },
+        {
+          "id": "bandeira_de_taiwan",
+          "nome": "Bandeira de Taiwan",
+          "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+          "variantes": [
+            "Taiwan",
+            "Bandeira da República da China"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Bandeira de Vanuatu",
+        "descricao": "Bandeira atual de Vanuatu: faixas vermelha e verde com um Y deitado preto e amarelo e uma presa de javali com ramos no triângulo preto.",
+        "variantes": [
+          "Vanuatu",
+          "Bandeira da República de Vanuatu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "bandeira_de_uganda",
+          "nome": "Bandeira de Uganda",
+          "descricao": "Bandeira atual de Uganda: seis listras horizontais pretas, amarelas e vermelhas com um grou-coroado em disco branco.",
+          "variantes": [
+            "Uganda",
+            "Bandeira ugandense"
+          ]
+        },
+        {
+          "id": "bandeira_de_ruanda",
+          "nome": "Bandeira de Ruanda",
+          "descricao": "Bandeira nacional de Ruanda, com faixas azul, amarela e verde e um sol dourado no canto superior.",
+          "variantes": [
+            "Ruanda",
+            "Bandeira do Ruanda"
+          ]
+        },
+        {
+          "id": "bandeira_da_republica_do_congo",
+          "nome": "Bandeira da República do Congo",
+          "descricao": "Bandeira nacional da República do Congo, com faixa diagonal amarela entre verde e vermelho.",
+          "variantes": [
+            "República do Congo",
+            "Bandeira do Congo-Brazzaville"
+          ]
+        },
+        {
+          "id": "bandeira_de_taiwan",
+          "nome": "Bandeira de Taiwan",
+          "descricao": "Bandeira da República da China (Taiwan), vermelha com cantão azul e sol branco de doze raios.",
+          "variantes": [
+            "Taiwan",
+            "Bandeira da República da China"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Bandeira da RDC é diferente do país e da bandeira da República do Congo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira do Burundi."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Andorra (país) difere da sua bandeira."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Madagascar país difere da bandeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira do Níger."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira de São Vicente e Granadinas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira do Mali."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "País Eritreia difere da bandeira."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "País Luxemburgo difere da bandeira."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "País Maldivas difere da bandeira."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a bandeira de Vanuatu."
+    }
+  ]
+}
