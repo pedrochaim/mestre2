@@ -184191,5 +184191,46 @@
       "https://en.wikipedia.org/wiki/Teleprinter",
       "https://pt.wikipedia.org/wiki/Teletipo"
     ]
+  },
+  {
+    "id": "ima",
+    "nome": "Ímã",
+    "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+    "variantes": [
+      "Magneto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Magnet",
+      "https://pt.wikipedia.org/wiki/%C3%8Dman"
+    ]
+  },
+  {
+    "id": "pilha_de_botao",
+    "nome": "Pilha de botão",
+    "descricao": "Pequena bateria de uma única célula, em forma de cilindro achatado, usada em relógios e calculadoras.",
+    "variantes": [
+      "Bateria de botão",
+      "Pilha moeda",
+      "Bateria de moeda"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Button_cell",
+      "https://pt.wikipedia.org/wiki/Pilha_bot%C3%A3o"
+    ]
+  },
+  {
+    "id": "placa_de_video",
+    "nome": "Placa de vídeo",
+    "descricao": "Placa de expansão do computador que gera as imagens enviadas ao monitor, com uma unidade de processamento gráfico.",
+    "variantes": [
+      "Placa gráfica",
+      "Placa de vídeo dedicada",
+      "GPU",
+      "Video card"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Graphics_card",
+      "https://pt.wikipedia.org/wiki/Placa_de_v%C3%ADdeo"
+    ]
   }
 ]

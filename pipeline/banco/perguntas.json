@@ -278978,5 +278978,89 @@
       "autor": "Nightflyer at German Wikipedia",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q14849",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "ima",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Ímã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magnet",
+      "https://pt.wikipedia.org/wiki/%C3%8Dman"
+    ],
+    "imagem": {
+      "arquivo": "q14849.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bar_magnet_crop.jpg",
+      "autor": "File:Bar magnet.jpg: Photo taken by Aney / derivative work: MikeRun",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14850",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "pilha_de_botao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que objeto é este?",
+    "resposta": "Pilha de botão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Button_cell",
+      "https://pt.wikipedia.org/wiki/Pilha_bot%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q14850.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Coin-cells.jpg",
+      "autor": "Gerhard H Wrodnigg",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q14851",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "termometro_de_mercurio",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de medição é este?",
+    "resposta": "Termômetro de mercúrio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercury-in-glass_thermometer"
+    ],
+    "imagem": {
+      "arquivo": "q14851.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Clinical_thermometer_38.7.JPG",
+      "autor": "Menchi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q14852",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "placa_de_video",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que componente de computador é este?",
+    "resposta": "Placa de vídeo",
+    "distratores": [
+      "Placa de som",
+      "Placa de rede",
+      "Placa-mãe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Graphics_card",
+      "https://pt.wikipedia.org/wiki/Placa_de_v%C3%ADdeo"
+    ],
+    "imagem": {
+      "arquivo": "q14852.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg",
+      "autor": "Evan-Amos",
+      "licenca": "Public domain"
+    }
   }
 ]

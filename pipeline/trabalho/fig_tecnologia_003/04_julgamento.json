@@ -1,0 +1,380 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz ao aquecer um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento",
+          "Lâmpada elétrica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente",
+            "Lâmpada elétrica"
+          ]
+        },
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "lampada_fluorescente",
+          "nome": "Lâmpada fluorescente",
+          "descricao": "Lâmpada de descarga em gás que produz luz pela excitação de vapor de mercúrio e de um revestimento fluorescente.",
+          "variantes": [
+            "Lâmpada fluorescente compacta"
+          ]
+        },
+        {
+          "id": "onda_s",
+          "nome": "Onda S",
+          "descricao": "Tipo de onda sísmica de cisalhamento, mais lenta que a onda P, que se propaga apenas em sólidos.",
+          "variantes": [
+            "Onda secundária",
+            "Onda de cisalhamento"
+          ]
+        },
+        {
+          "id": "lampada_de_davy",
+          "nome": "Lâmpada de Davy",
+          "descricao": "Lamparina de segurança para minas de carvão, criada por Humphry Davy em 1815.",
+          "variantes": [
+            "Lâmpada de segurança de Davy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ímã",
+        "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+        "variantes": [
+          "Magneto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "magneto",
+          "nome": "Magneto",
+          "descricao": "Vilão mutante da Marvel, de capacete vermelho e roxo, que controla o magnetismo.",
+          "variantes": [
+            "Erik Lehnsherr",
+            "Erik Magnus Lensherr"
+          ]
+        },
+        {
+          "id": "magneton",
+          "nome": "Magneton",
+          "descricao": "Pokémon dos tipos Elétrico e Aço, número 82 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lima",
+          "nome": "Lima",
+          "descricao": "Capital e maior cidade do Peru, fundada em 1535.",
+          "variantes": [
+            "Cidade dos Reis",
+            "Ciudad de los Reyes"
+          ]
+        },
+        {
+          "id": "manto_terrestre",
+          "nome": "Manto terrestre",
+          "descricao": "Camada da Terra situada entre a crosta e o núcleo, formada por rocha quente e lentamente deformável.",
+          "variantes": [
+            "Manto da Terra",
+            "Manto"
+          ]
+        },
+        {
+          "id": "oia",
+          "nome": "Oia",
+          "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+          "variantes": [
+            "Ia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pilha de botão",
+        "descricao": "Pequena bateria de uma única célula, em forma de cilindro achatado, usada em relógios e calculadoras.",
+        "variantes": [
+          "Bateria de botão",
+          "Pilha moeda",
+          "Bateria de moeda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pilha_voltaica",
+          "nome": "Pilha voltaica",
+          "descricao": "Primeira bateria elétrica, feita de discos de metal empilhados e separados por tecido embebido em salmoura, apresentada em 1800.",
+          "variantes": [
+            "Pilha de Volta",
+            "Voltaic pile"
+          ]
+        },
+        {
+          "id": "bateria_de_ion_litio",
+          "nome": "Bateria de íon-lítio",
+          "descricao": "Tipo de bateria recarregável usada em celulares, notebooks e carros elétricos, cujo desenvolvimento ganhou o Nobel de Química de 2019.",
+          "variantes": [
+            "Bateria de lítio",
+            "Bateria de íons de lítio"
+          ]
+        },
+        {
+          "id": "elba",
+          "nome": "Elba",
+          "descricao": "Ilha italiana no mar Tirreno, entre a Toscana e a Córsega.",
+          "variantes": [
+            "Isola d'Elba",
+            "Ilha de Elba"
+          ]
+        },
+        {
+          "id": "bateria_de_chumbo_acido",
+          "nome": "Bateria de chumbo-ácido",
+          "descricao": "Bateria recarregável com placas de chumbo em ácido sulfúrico, usada para dar a partida em automóveis.",
+          "variantes": [
+            "Bateria automotiva",
+            "Acumulador de chumbo"
+          ]
+        },
+        {
+          "id": "beterraba",
+          "nome": "Beterraba",
+          "descricao": "Raiz vermelho-arroxeada da planta Beta vulgaris, consumida como hortaliça.",
+          "variantes": [
+            "Beterraba-vermelha",
+            "Beterraba de mesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Termômetro de mercúrio",
+        "descricao": "Termômetro de vidro que usa a dilatação de uma coluna líquida para indicar a temperatura.",
+        "variantes": [
+          "Termômetro de vidro",
+          "Termômetro clínico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "termometro_de_mercurio",
+          "nome": "Termômetro de mercúrio",
+          "descricao": "Termômetro de vidro em que uma coluna de mercúrio se dilata para indicar a temperatura.",
+          "variantes": [
+            "Termômetro de vidro",
+            "Termômetro de mercúrio em vidro",
+            "Termômetro de vidro com mercúrio",
+            "Mercury-in-glass thermometer"
+          ]
+        },
+        {
+          "id": "barometro",
+          "nome": "Barômetro",
+          "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+          "variantes": [
+            "Barometer",
+            "Barômetro de mercúrio"
+          ]
+        },
+        {
+          "id": "teatro_de_epidauro",
+          "nome": "Teatro de Epidauro",
+          "descricao": "Teatro grego antigo do século IV a.C. no santuário de Asclépio, em Epidauro, na Grécia.",
+          "variantes": [
+            "Teatro de Epidaurus",
+            "Epidauro"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        },
+        {
+          "id": "espelho",
+          "nome": "Espelho",
+          "descricao": "Superfície de vidro com fundo metálico que reflete imagens, usada no dia a dia para ver o próprio reflexo.",
+          "variantes": [
+            "Espelho de vidro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Bússola",
+        "descricao": "Instrumento de orientação com uma agulha magnetizada que aponta para o norte magnético.",
+        "variantes": [
+          "Bússola magnética"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bussola",
+          "nome": "Bússola",
+          "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+          "variantes": [
+            "Compasso magnético",
+            "Compass",
+            "Agulha magnética"
+          ]
+        },
+        {
+          "id": "cursola",
+          "nome": "Cursola",
+          "descricao": "Pokémon do tipo Fantasma, número 864 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "absol",
+          "nome": "Absol",
+          "descricao": "Pokémon do tipo Sombrio, número 359 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bulma",
+          "nome": "Bulma",
+          "descricao": "Cientista de cabelo azul, amiga de Goku desde o início de Dragon Ball e mãe de Trunks e Bra.",
+          "variantes": [
+            "ブルマ"
+          ]
+        },
+        {
+          "id": "ebola",
+          "nome": "Ebola",
+          "descricao": "Vírus que causa febre hemorrágica grave, identificado em 1976 e batizado com o nome de um rio africano.",
+          "variantes": [
+            "Vírus ebola",
+            "Ebolavírus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Placa de vídeo",
+        "descricao": "Placa de expansão do computador que gera as imagens enviadas ao monitor, com uma unidade de processamento gráfico.",
+        "variantes": [
+          "Placa gráfica",
+          "Placa de vídeo dedicada",
+          "GPU",
+          "Video card"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "placa_do_pacifico",
+          "nome": "Placa do Pacífico",
+          "descricao": "Placa tectônica oceânica sob a maior parte do oceano Pacífico.",
+          "variantes": [
+            "Placa Pacífica"
+          ]
+        },
+        {
+          "id": "placa_de_pare",
+          "nome": "Placa de pare",
+          "descricao": "Placa de trânsito vermelha e octogonal que indica parada obrigatória.",
+          "variantes": [
+            "Placa de parada obrigatória",
+            "Stop sign"
+          ]
+        },
+        {
+          "id": "praca_de_maio",
+          "nome": "Praça de Maio",
+          "descricao": "Praça central de Buenos Aires, diante da Casa Rosada, palco de grandes manifestações políticas argentinas.",
+          "variantes": [
+            "Plaza de Mayo"
+          ]
+        },
+        {
+          "id": "ra_de_vidro",
+          "nome": "Rã-de-vidro",
+          "descricao": "Rã arborícola verde da família Centrolenidae, cuja pele da barriga é translúcida, das florestas da América Central e do Sul.",
+          "variantes": [
+            "Centrolenidae",
+            "Rã-de-cristal",
+            "Glass frog"
+          ]
+        },
+        {
+          "id": "armonica_de_vidro",
+          "nome": "Armônica de vidro",
+          "descricao": "Instrumento de tigelas de vidro giratórias, tocado com os dedos molhados, criado no século dezoito.",
+          "variantes": [
+            "Harmônica de vidro",
+            "Glass harmonica",
+            "Armonica"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "lampada_incandescente",
+      "motivo": "Mesma entidade: lâmpada de filamento em bulbo de vidro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ímã (objeto) difere de Magneto, o vilão da Marvel."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pilha de botão não corresponde a nenhuma candidata; são outros tipos de bateria."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "termometro_de_mercurio",
+      "motivo": "Mesmo termômetro de vidro com coluna de mercúrio."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "bussola",
+      "motivo": "Mesmo instrumento de orientação com agulha magnetizada."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Placa de vídeo (hardware) não corresponde a nenhuma candidata."
+    }
+  ]
+}

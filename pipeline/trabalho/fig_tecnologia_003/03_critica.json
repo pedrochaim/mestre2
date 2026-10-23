@@ -1,0 +1,52 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, enunciado curto sem pista, resposta única e sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, resposta única confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'pilha', palavra que também está na resposta 'Pilha de botão', o que é vazamento parcial. Trocando por 'objeto', a figura continua sendo a pergunta.",
+      "reescrita": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Pilha de botão"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Termômetro clínico' não corresponde ao que a figura mostra (termômetro de mercúrio). Esse termômetro também é usado em meteorologia e em laboratório, então 'clínico' não é defensável como resposta única. A resposta deve seguir `mostra`.",
+      "reescrita": {
+        "pergunta": "Que instrumento de medição é este?",
+        "resposta": "Termômetro de mercúrio"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. A pista 'de orientação' é genérica, não entrega a resposta e não cita 'bússola'.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 2 sem vazamento. Os distratores são componentes do mesmo tipo, têm até 4 palavras e nenhum deles descreve a imagem.",
+      "reescrita": null
+    }
+  ]
+}

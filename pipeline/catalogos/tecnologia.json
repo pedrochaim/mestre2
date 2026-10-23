@@ -173,14 +173,14 @@
       "titulo": "en:PalmPilot",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Nintendinho (NES)",
       "titulo": "en:Nintendo Entertainment System",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "LED",
@@ -194,7 +194,7 @@
       "titulo": "en:Altair 8800",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Colossus",
@@ -229,7 +229,7 @@
       "titulo": "en:Punched tape",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Teletipo",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Orelhão",
+      "titulo": "pt:Orelhão",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Controle remoto",
+      "titulo": "en:Remote control",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada incandescente",
+      "titulo": "en:Incandescent light bulb",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Gramofone",
+      "titulo": "en:Phonograph",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Notebook",
+      "titulo": "en:Laptop",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cartão SIM",
+      "titulo": "en:SIM card",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Antena parabólica",
+      "titulo": "en:Satellite dish",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Microfone",
+      "titulo": "en:Microphone",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fone de ouvido",
+      "titulo": "en:Headphones",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teclado de computador",
+      "titulo": "en:Computer keyboard",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Painel solar",
+      "titulo": "en:Solar panel",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ímã",
+      "titulo": "en:Magnet",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Bússola",
+      "titulo": "en:Compass",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Termômetro de mercúrio",
+      "titulo": "en:Mercury-in-glass thermometer",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Placa-mãe",
+      "titulo": "en:Motherboard",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Placa de vídeo",
+      "titulo": "en:Graphics card",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pente de memória (DIMM)",
+      "titulo": "en:DIMM",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cartão SD",
+      "titulo": "en:SD card",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Resistor",
+      "titulo": "en:Resistor",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Capacitor",
+      "titulo": "en:Capacitor",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Multímetro",
+      "titulo": "en:Multimeter",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Osciloscópio",
+      "titulo": "en:Oscilloscope",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Retroprojetor",
+      "titulo": "en:Overhead projector",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cartucho de videogame",
+      "titulo": "en:ROM cartridge",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pilha de botão",
+      "titulo": "en:Button cell",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gerador de Van de Graaff",
+      "titulo": "en:Van de Graaff generator",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Telégrafo elétrico",
+      "titulo": "en:Electrical telegraph",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Câmera instantânea",
+      "titulo": "en:Instant camera",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubo Nixie",
+      "titulo": "en:Nixie tube",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Magnétron",
+      "titulo": "en:Cavity magnetron",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cray-1",
+      "titulo": "en:Cray-1",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "IBM System/360",
+      "titulo": "en:IBM System/360",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Placa de ensaio (protoboard)",
+      "titulo": "en:Breadboard",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Relé",
+      "titulo": "en:Relay",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Display de sete segmentos",
+      "titulo": "en:Seven-segment display",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Trackball",
+      "titulo": "en:Trackball",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caneta óptica",
+      "titulo": "en:Light pen",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mimeógrafo",
+      "titulo": "en:Mimeograph",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rádio de galena",
+      "titulo": "en:Crystal radio",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Galvanômetro",
+      "titulo": "en:Galvanometer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

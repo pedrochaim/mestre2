@@ -1,0 +1,155 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, objeto inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Lâmpada incandescente",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz ao aquecer um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento",
+          "Lâmpada elétrica"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O console mostra 'Nintendo Entertainment System' e 'Nintendo' na caixa e no controle, o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem tem legendas em inglês ('Shutter button', 'Focus scale') e o objeto parece uma caneta com obturador e foco, não uma caneta óptica reconhecível. Há também uma mão de pessoa comum em primeiro plano."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Barra magnética com polos S e N, clara e reconhecível; as letras não entregam o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Ímã",
+      "destino": 1,
+      "ancora": {
+        "nome": "Ímã",
+        "descricao": "Objeto que produz um campo magnético e atrai materiais ferromagnéticos; aqui, um ímã em barra com polos marcados.",
+        "variantes": [
+          "Imã",
+          "Magneto"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Várias pilhas de botão do mesmo tipo, sem texto legível que entregue a resposta, bem reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de pilha é esta?",
+      "resposta": "Pilha de botão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pilha de botão",
+        "descricao": "Pequena bateria de uma única célula, em forma de cilindro achatado, usada em relógios e calculadoras.",
+        "variantes": [
+          "Bateria de botão",
+          "Pilha moeda",
+          "Bateria de moeda"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A imagem é desfocada e de baixa resolução, com um teclado ao fundo. Não fica legível no celular nem reconhecível com clareza."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Termômetro de vidro com escala clara. Os números não entregam a resposta. Resposta genérica 'termômetro clínico' é única para a imagem.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de medição é este?",
+      "resposta": "Termômetro clínico",
+      "destino": 1,
+      "ancora": {
+        "nome": "Termômetro de mercúrio",
+        "descricao": "Termômetro de vidro que usa a dilatação de uma coluna líquida para indicar a temperatura.",
+        "variantes": [
+          "Termômetro de vidro",
+          "Termômetro clínico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O aparelho traz 'Palm Pilot' e 'US Robotics' escritos na frente, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A imagem mostra vários tipos de display ao mesmo tempo, de sete, catorze e dezesseis segmentos. Não há resposta única para a imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bússola clara, de frente. As letras da rosa dos ventos não dizem o nome do instrumento.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de orientação é este?",
+      "resposta": "Bússola",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bússola",
+        "descricao": "Instrumento de orientação com uma agulha magnetizada que aponta para o norte magnético.",
+        "variantes": [
+          "Bússola magnética"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Placa de vídeo bem visível, com conectores VGA, DVI e HDMI. A marca Sapphire não entrega o tipo de componente. Múltipla escolha com outras placas de expansão.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que componente de computador é este?",
+      "resposta": "Placa de vídeo",
+      "distratores": [
+        "Placa de som",
+        "Placa de rede",
+        "Placa-mãe"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Placa de vídeo",
+        "descricao": "Placa de expansão do computador que gera as imagens enviadas ao monitor, com uma unidade de processamento gráfico.",
+        "variantes": [
+          "Placa gráfica",
+          "Placa de vídeo dedicada",
+          "GPU",
+          "Video card"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O painel frontal traz 'ALTAIR 8800 COMPUTER' e 'MITS' escritos, o que entrega a resposta."
+    }
+  ]
+}

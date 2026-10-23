@@ -1,0 +1,85 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Lâmpada incandescente"
+      },
+      "existentes": [
+        {
+          "id": "q03730",
+          "pergunta": "Que tipo de lâmpada é esta?",
+          "resposta": "Incandescente"
+        },
+        {
+          "id": "q07319",
+          "pergunta": "Nas lâmpadas incandescentes comuns, o filamento que brilha ao esquentar é feito de qual metal, de altíssimo ponto de fusão?",
+          "resposta": "Tungstênio"
+        },
+        {
+          "id": "q08731",
+          "pergunta": "Por volta de 1880, Thomas Edison fez suas lâmpadas durarem muito mais com um filamento feito de que planta carbonizada?",
+          "resposta": "Bambu"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que instrumento de medição é este?",
+        "resposta": "Termômetro de mercúrio"
+      },
+      "existentes": [
+        {
+          "id": "q04508",
+          "pergunta": "Em 1714, que físico construiu um termômetro de mercúrio confiável e, anos depois, deu seu nome a uma escala de temperatura?",
+          "resposta": "Daniel Fahrenheit"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que instrumento de orientação é este?",
+        "resposta": "Bússola"
+      },
+      "existentes": [
+        {
+          "id": "q01676",
+          "pergunta": "Que instrumento de orientação, com uma agulha magnetizada, é este?",
+          "resposta": "Bússola"
+        },
+        {
+          "id": "q03610",
+          "pergunta": "A bússola magnética, que séculos depois guiaria as Grandes Navegações, foi inventada em que país?",
+          "resposta": "China"
+        },
+        {
+          "id": "q07697",
+          "pergunta": "Antes de guiar navegantes, as antigas bússolas chinesas, em forma de colher de ímã, eram usadas para quê?",
+          "resposta": "Adivinhação e geomancia"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03730",
+      "motivo": "Ambas pedem identificar a lâmpada incandescente na imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar o termômetro na imagem é diferente de saber quem construiu o termômetro de mercúrio."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q01676",
+      "motivo": "Ambas pedem identificar a bússola na imagem, com resposta igual."
+    }
+  ]
+}
